@@ -1,0 +1,958 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.031712
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2252,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2090,
+      "output_tokens": 179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 3374,
+      "output_tokens": 368,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How do we know this is what your community actually believed?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We know because two of our own bishops wrote it down themselves, at length, as teaching for the people in their care. Cyprian's letters to his presbyters and deacons survive. Augustine's sermons and treatises survive. These are not summaries someone else made about us. They are our own voices, giving instruction, settling disputes, and forming believers. Cyprian wrote to his clergy about the sick who held a martyr's certificate. If no presbyter was near and death drew close, they could confess before a deacon, then have hands laid on them for repentance and go to the Lord with the peace the martyrs had asked for. Augustine taught those preparing for baptism. The writings that carry this are not fragments or hostile reports. They are substantial works: letters, treatises, sermons preached to the congregation. Some, like Cyprian's crisis correspondence during the Decian persecution, were gathered and sent to Rome to give account of what he had done. Augustine went back through his own books one by one and corrected them, in the Retractationes. A man who revises his books knows they will be read when he cannot answer for them.",
+          "citations": [
+            {
+              "sentence": "If no presbyter was near and death drew close, they could confess before a deacon, then have hands laid on them for repentance and go to the Lord with the peace the martyrs had asked for.",
+              "record_ids": [
+                "lpc.witness.peace-for-the-dying-penitent"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Some, like Cyprian's crisis correspondence during the Decian persecution, were gathered and sent to Rome to give account of what he had done.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system",
+                "lpc.force.corpus-outliving-the-world"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                },
+                {
+                  "record_id": "lpc.force.corpus-outliving-the-world",
+                  "record_type": "force",
+                  "label": "The Corpus Outliving the World",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+                      "citation": "Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine went back through his own books one by one and corrected them, in the Retractationes.",
+              "record_ids": [
+                "lpc.force.corpus-outliving-the-world"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.corpus-outliving-the-world",
+                  "record_type": "force",
+                  "label": "The Corpus Outliving the World",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+                      "citation": "Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "the people",
+              "text_start": 92,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.term.certificates-letters-of-peace",
+              "matched_name": "certificate",
+              "text_start": 420,
+              "plain_meaning": "A certificate is a letter from a confessor, given to a lapsed person. It asks for peace, or says peace is granted. Cyprian wanted each one to name the person. Some named one person and then let in his own people too, without naming them.",
+              "quick_meaning": "For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or grants it. Who decides is what we argued over.",
+              "translational_sense": "A modern listener who has just heard about the sacrifice-certificate will assume this is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves compliance with the empire and made a person lapsed; this certificate asks peace for that person, or says it is granted. It is administratively real -- issued in thousands, argued over by name, and regulated in writing.",
+              "false_friend": [
+                "the same document as the Decian sacrifice-certificate, rather than the opposite one -- a request to be readmitted, not a record of prior compliance",
+                "a devotional or ceremonial gesture rather than an administratively real, regulated instrument issued in the thousands"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 118,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.tertullian-de-pudicitia",
+                  "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+                  "citation": "Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 175,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+                  "citation": "Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "did_it_happen",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.peace-for-the-dying-penitent",
+              "lpc.witness.blamed-for-the-worlds-troubles"
+            ],
+            "term": [
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.term.the-lapsed",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.the-case-set-before-the-bishop",
+              "lpc.quote.peter-the-sick-man-and-the-physician",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "force": [
+              "lpc.force.decian-persecution-libelli-system",
+              "lpc.force.corpus-outliving-the-world"
+            ],
+            "honest_limit": [
+              "lpc.limit.no-chain-of-witnesses"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We know because two of our own bishops wrote it down themselves, at length, as teaching for the people in their care.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag",
+                "draft": "We know because two of our own bishops wrote it down themselves, at length, as teaching for the people in their care."
+              },
+              {
+                "sentence": "Cyprian's letters to his presbyters and deacons survive.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Cyprian's letters to his presbyters and deacons survive."
+              },
+              {
+                "sentence": "Augustine's sermons and treatises survive.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine's sermons and treatises survive."
+              },
+              {
+                "sentence": "These are not summaries someone else made about us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "These are not summaries someone else made about us."
+              },
+              {
+                "sentence": "They are our own voices, giving instruction, settling disputes, and forming believers.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They are our own voices, giving instruction, settling disputes, and forming believers."
+              },
+              {
+                "sentence": "Cyprian wrote to his clergy about the sick who held a martyr's certificate.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Cyprian wrote to his clergy about the sick who held a martyr's certificate."
+              },
+              {
+                "sentence": "If no presbyter was near and death drew close, they could confess before a deacon, then have hands laid on them for repentance and go to the Lord with the peace the martyrs had asked for.",
+                "tags": [
+                  "lpc.witness.peace-for-the-dying-penitent"
+                ],
+                "verdict": "ok",
+                "why": "grounded 92% in own tagged records",
+                "ratio": 0.92,
+                "draft": "If no presbyter was near and death drew close, they could confess before a deacon, then have hands laid on them for repentance and go to the Lord with the peace the martyrs had asked for [[lpc.witness.peace-for-the-dying-penitent]]."
+              },
+              {
+                "sentence": "Augustine taught those preparing for baptism.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine taught those preparing for baptism."
+              },
+              {
+                "sentence": "The writings that carry this are not fragments or hostile reports.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The writings that carry this are not fragments or hostile reports."
+              },
+              {
+                "sentence": "They are substantial works: letters, treatises, sermons preached to the congregation.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They are substantial works: letters, treatises, sermons preached to the congregation."
+              },
+              {
+                "sentence": "Some, like Cyprian's crisis correspondence during the Decian persecution, were gathered and sent to Rome to give account of what he had done.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system",
+                  "lpc.force.corpus-outliving-the-world"
+                ],
+                "verdict": "ok",
+                "why": "grounded 92% in own tagged records",
+                "ratio": 0.92,
+                "draft": "Some, like Cyprian's crisis correspondence during the Decian persecution, were gathered and sent to Rome to give account of what he had done [[lpc.force.decian-persecution-libelli-system]] [[lpc.force.corpus-outliving-the-world]]."
+              },
+              {
+                "sentence": "Augustine went back through his own books one by one and corrected them, in the Retractationes.",
+                "tags": [
+                  "lpc.force.corpus-outliving-the-world"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Augustine went back through his own books one by one and corrected them, in the Retractationes [[lpc.force.corpus-outliving-the-world]]."
+              },
+              {
+                "sentence": "A man who revises his books knows they will be read when he cannot answer for them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "A man who revises his books knows they will be read when he cannot answer for them."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 13,
+                "cited_record_ids": [
+                  "lpc.force.corpus-outliving-the-world",
+                  "lpc.force.decian-persecution-libelli-system",
+                  "lpc.witness.peace-for-the-dying-penitent"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We know because two of our own bishops wrote it down themselves, at length, as teaching for the people in their care.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 56% in own tagged records",
+                    "ratio": 0.56
+                  },
+                  "1": {
+                    "sentence": "Cyprian's letters to his presbyters and deacons survive.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "Augustine's sermons and treatises survive.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "These are not summaries someone else made about us.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "They are our own voices, giving instruction, settling disputes, and forming believers.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "5": {
+                    "sentence": "Cyprian wrote to his clergy about the sick who held a martyr's certificate.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "7": {
+                    "sentence": "Augustine taught those preparing for baptism.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "8": {
+                    "sentence": "The writings that carry this are not fragments or hostile reports.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "They are substantial works: letters, treatises, sermons preached to the congregation.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "12": {
+                    "sentence": "A man who revises his books knows they will be read when he cannot answer for them.",
+                    "tags": [
+                      "lpc.force.corpus-outliving-the-world",
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "He told them they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "He told them they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask [[quote:lpc.quote.the-creed-first-then-the-prayer]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 117
+              },
+              {
+                "index": 1,
+                "text_start": 118,
+                "text_end": 174
+              },
+              {
+                "index": 2,
+                "text_start": 175,
+                "text_end": 217
+              },
+              {
+                "index": 3,
+                "text_start": 218,
+                "text_end": 269
+              },
+              {
+                "index": 4,
+                "text_start": 270,
+                "text_end": 356
+              },
+              {
+                "index": 5,
+                "text_start": 357,
+                "text_end": 432
+              },
+              {
+                "index": 6,
+                "text_start": 433,
+                "text_end": 620
+              },
+              {
+                "index": 7,
+                "text_start": 621,
+                "text_end": 666
+              },
+              {
+                "index": 8,
+                "text_start": 667,
+                "text_end": 733
+              },
+              {
+                "index": 9,
+                "text_start": 734,
+                "text_end": 819
+              },
+              {
+                "index": 10,
+                "text_start": 820,
+                "text_end": 961
+              },
+              {
+                "index": 11,
+                "text_start": 962,
+                "text_end": 1057
+              },
+              {
+                "index": 12,
+                "text_start": 1058,
+                "text_end": 1141
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 0,
+                "char_start": 92,
+                "char_end": 102,
+                "surface": "the people"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.certificates-letters-of-peace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The regulating voice is Cyprian's throughout, as with every entry in this cluster; the confessors' own certificates survive only in one general letter of theirs to Cyprian (Epistle XVI), which says 'we have granted peace' to all whose conduct has been satisfactory 'in your estimation'; the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). 'Thousands' is Cyprian's own word: Hartel's Latin of Epistle XX.2 reads 'libellorum milia', and the translation reads 'thousands of certificates were daily given, contrary to the law of the Gospel'. This record uses his wording.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 5,
+                "char_start": 63,
+                "char_end": 74,
+                "surface": "certificate"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.decian-persecution-libelli-system",
+                "record_type": "force",
+                "label": "The Decian Persecution and the *libelli* System (250)",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.tertullian-de-pudicitia",
+                    "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary reasoning and Doc_02 §1, corroborated by the crisis correspondence (Registry row 1, Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this force's own bare occurrence.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.force.corpus-outliving-the-world",
+                "record_type": "force",
+                "label": "The Corpus Outliving the World",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+                    "citation": "Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Doc_08 §3 Force 3B-1: Widely Accepted -- Doc_01 §6. Layer 2 carries the Reported-Experience Status marker (Constitution Article 17; Forces Framework §3): reported as the world's own self-understanding, not assessed for historical accuracy; confidence calibration applies to the historical-event layer only, which this record's own top-line rating reflects.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.decian-persecution-libelli-system",
+                "record_type": "force",
+                "label": "The Decian Persecution and the *libelli* System (250)",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.tertullian-de-pudicitia",
+                    "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary reasoning and Doc_02 §1, corroborated by the crisis correspondence (Registry row 1, Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this force's own bare occurrence.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.force.corpus-outliving-the-world",
+                "record_type": "force",
+                "label": "The Corpus Outliving the World",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.knoll-augustine-retractationes-csel36",
+                    "citation": "Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Doc_08 §3 Force 3B-1: Widely Accepted -- Doc_01 §6. Layer 2 carries the Reported-Experience Status marker (Constitution Article 17; Forces Framework §3): reported as the world's own self-understanding, not assessed for historical accuracy; confidence calibration applies to the historical-event layer only, which this record's own top-line rating reflects.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                0
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "He told them they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "He told them they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask [[quote:lpc.quote.the-creed-first-then-the-prayer]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

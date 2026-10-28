@@ -1,0 +1,1285 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030162
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2251,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2089,
+      "output_tokens": 176,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2765,
+      "output_tokens": 397,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What happened to people who gave in during the persecution?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "They became what we called the lapsed, and they could come back. The emperor's order reached each person alone, demanding one recorded act: sacrifice at the altar, or a paper saying you had. Some sacrificed. Some paid for the certificate without sacrificing. Both ways, they fell. They were not strangers. They sat where we sit. When the flock is wounded, Cyprian wrote, the shepherd is wounded most. The wound did not close them out. It opened the road back, and the road was walked in the open, with a name set down and a case examined before the congregation.\n\nOne who came back was Numidicus. He had watched his own wife burn for the faith. He was stoned, covered with stones and left for dead. His daughter searched and found him alive. Cyprian named him to the whole church and added him to the presbyters of Carthage. Another was Celerinus's own sister, who had sacrificed. He grieved for her as for a death of the spirit, and asked another confessor to help her walk the road home. Our record does not say whether she finished it.",
+          "citations": [
+            {
+              "sentence": "They became what we called the lapsed, and they could come back.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The emperor's order reached each person alone, demanding one recorded act: sacrifice at the altar, or a paper saying you had.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Both ways, they fell.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They sat where we sit.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When the flock is wounded, Cyprian wrote, the shepherd is wounded most.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It opened the road back, and the road was walked in the open, with a name set down and a case examined before the congregation.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He had watched his own wife burn for the faith.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He was stoned, covered with stones and left for dead.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His daughter searched and found him alive.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian named him to the whole church and added him to the presbyters of Carthage.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-lapsed",
+              "matched_name": "the lapsed",
+              "text_start": 27,
+              "plain_meaning": "The lapsed are our own people who complied with the order to sacrifice during the persecution -- some by sacrificing, some only by paying for a certificate that said they had. They are not strangers and not enemies. They sat where we sit, and now they are asking to come back.",
+              "quick_meaning": "For us, the lapsed are our own people. Under threat, they gave in to the order to sacrifice, and now they want to come back.",
+              "translational_sense": "A modern listener often hears a category of lapsed or lapsed-Catholic believers -- people who drifted away, stopped attending, lost interest. Gentle, gradual, private. We mean something else entirely: a documented act under state compulsion, on a specific occasion, with a certificate as evidence, carrying a public consequence for standing in the community. The lapsed did not drift off. They stayed, and asked to be readmitted, and we had to decide in public what to do with them.",
+              "false_friend": [
+                "a gentle, gradual falling-away from faith, comparable to a modern believer who drifts from church over years",
+                "a private matter of personal conviction, with no public consequence for standing in the community"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.certificates-letters-of-peace",
+              "matched_name": "certificate",
+              "text_start": 226,
+              "plain_meaning": "A certificate is a letter from a confessor, given to a lapsed person. It asks for peace, or says peace is granted. Cyprian wanted each one to name the person. Some named one person and then let in his own people too, without naming them.",
+              "quick_meaning": "For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or grants it. Who decides is what we argued over.",
+              "translational_sense": "A modern listener who has just heard about the sacrifice-certificate will assume this is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves compliance with the empire and made a person lapsed; this certificate asks peace for that person, or says it is granted. It is administratively real -- issued in thousands, argued over by name, and regulated in writing.",
+              "false_friend": [
+                "the same document as the Decian sacrifice-certificate, rather than the opposite one -- a request to be readmitted, not a record of prior compliance",
+                "a devotional or ceremonial gesture rather than an administratively real, regulated instrument issued in the thousands"
+              ],
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.term.the-flock",
+              "matched_name": "the flock",
+              "text_start": 334,
+              "plain_meaning": "A bishop, for us, is not an officer of some wider institution, dropped into a posting. He is given a people. He preaches to them and baptizes them, and when they fail it is not a problem he manages but a wound he carries. The charge runs both ways: he answers for his flock, and his flock can stand in front of his seat and refuse to leave until he hears them.",
+              "quick_meaning": "For us, the flock is not the church in general. It is the particular people one bishop is given, in one place. He answers for them, and they can hold him to it.",
+              "translational_sense": "A modern listener often hears 'flock' as soft and a little patronizing -- pious language for churchgoers, gentle on the pastor's side, passive on theirs, and 'bishop' as a regional administrator several removes from ordinary life. We do not mean either. The flock is a charge that can be lost, and its failure is reckoned to the one who holds it. Our people are not passive: they elect, they demand, and they can force a bishop's hand. And the bishop is not remote -- he is the man who preached to you himself and knows which of you did not come.",
+              "false_friend": [
+                "a soft, sentimental way of describing churchgoers, with a passive congregation and a gently benevolent pastor",
+                "a bishop understood as a remote regional administrator rather than the man who preaches to these people himself and knows who did not come"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.tertullian-de-pudicitia",
+                  "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.confessor",
+              "matched_name": "confessor",
+              "text_start": 948,
+              "plain_meaning": "For us, a confessor is one who was interrogated for the Name, did not deny it, and lived. In Cyprian's time, that standing could rival a bishop's own authority.",
+              "quick_meaning": "For us, a confessor is someone who was asked to deny the faith, did not, and lived. In Cyprian's time, that standing could rival a bishop.",
+              "translational_sense": "A modern listener will almost certainly hear 'confessor' as a priest who hears confessions -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure. We mean the opposite direction entirely: not one who hears confession, but one who made confession, under interrogation, at real risk, and survived. The word names what was done to us and what we did not say, and it carries a claim on the church's own decisions rather than an office within its ministry.",
+              "false_friend": [
+                "a priest whose office is to hear other people's confessions, the later, Western, sacramental sense of the word",
+                "a vague honorific for any saintly figure, with no specific claim on church authority attached"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 356,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.tertullian-de-pudicitia",
+                  "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.numidicus",
+              "matched_name": "Numidicus",
+              "text_start": 586,
+              "names": [
+                {
+                  "name": "Numidicus, our presbyter",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Numidicus of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "a man who watched his own wife die with those he had exhorted to martyrdom, was himself left for dead, and did not want to have survived",
+              "dates": {
+                "display": "exhorted a group of Christians to martyrdom under persecution, among them his own wife, who died with them; himself left half-consumed by fire and overwhelmed with stones, found half dead by his own daughter and revived; added by Cyprian afterward to the presbyters of Carthage, though he had not wanted to survive (Cyprian, Ep. XXXIV)"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.figure.celerinus",
+              "matched_name": "Celerinus",
+              "text_start": 837,
+              "names": [
+                {
+                  "name": "Celerinus, a confessor among us",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Celerinus of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A confessor who wrote to another confessor in prison. He wept for his sister, who had sacrificed, and asked him to help restore her.",
+              "dates": {
+                "display": "a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow confessor in prison, asking that his own sister and two other women be received back to communion (Ep. XX)"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "honest_limit": [
+              "lpc.limit.no-chain-of-witnesses"
+            ],
+            "doctrinal_witness": [
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.the-lapsed"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.numidicus",
+              "lpc.story.the-psalms-on-the-wall"
+            ],
+            "quote": [
+              "lpc.quote.chosen-while-still-a-neophyte",
+              "lpc.quote.the-paper-itself",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "force": [
+              "lpc.force.decian-persecution-libelli-system"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "They became what we called the lapsed, and they could come back.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They became what we called the lapsed, and they could come back [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "The emperor's order reached each person alone, demanding one recorded act: sacrifice at the altar, or a paper saying you had.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The emperor's order reached each person alone, demanding one recorded act: sacrifice at the altar, or a paper saying you had [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "Some sacrificed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Some sacrificed."
+              },
+              {
+                "sentence": "Some paid for the certificate without sacrificing.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Some paid for the certificate without sacrificing."
+              },
+              {
+                "sentence": "Both ways, they fell.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Both ways, they fell [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "They were not strangers.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They were not strangers."
+              },
+              {
+                "sentence": "They sat where we sit.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They sat where we sit [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "When the flock is wounded, Cyprian wrote, the shepherd is wounded most.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "When the flock is wounded, Cyprian wrote, the shepherd is wounded most [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "The wound did not close them out.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The wound did not close them out."
+              },
+              {
+                "sentence": "It opened the road back, and the road was walked in the open, with a name set down and a case examined before the congregation.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "It opened the road back, and the road was walked in the open, with a name set down and a case examined before the congregation [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "One who came back was Numidicus.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['numidicus']) with no citation tag",
+                "draft": "One who came back was Numidicus."
+              },
+              {
+                "sentence": "He had watched his own wife burn for the faith.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "He had watched his own wife burn for the faith [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "He was stoned, covered with stones and left for dead.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "He was stoned, covered with stones and left for dead [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "His daughter searched and found him alive.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "His daughter searched and found him alive [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "Cyprian named him to the whole church and added him to the presbyters of Carthage.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 86% in own tagged records",
+                "ratio": 0.86,
+                "draft": "Cyprian named him to the whole church and added him to the presbyters of Carthage [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "Another was Celerinus's own sister, who had sacrificed.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"celerinus's\"]) only 25% grounded in its own tags",
+                "ratio": 0.25,
+                "draft": "Another was Celerinus's own sister, who had sacrificed [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "He grieved for her as for a death of the spirit, and asked another confessor to help her walk the road home.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['confessor']) only 10% grounded in its own tags",
+                "ratio": 0.1,
+                "draft": "He grieved for her as for a death of the spirit, and asked another confessor to help her walk the road home [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "Our record does not say whether she finished it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Our record does not say whether she finished it."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 10,
+                "cited_record_ids": [
+                  "lpc.force.decian-persecution-libelli-system",
+                  "lpc.term.the-lapsed"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "Some sacrificed.",
+                    "tags": [
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "Some paid for the certificate without sacrificing.",
+                    "tags": [
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "They were not strangers.",
+                    "tags": [
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "8": {
+                    "sentence": "The wound did not close them out.",
+                    "tags": [
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.force.decian-persecution-libelli-system",
+                  "lpc.story.numidicus"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "One who came back was Numidicus.",
+                    "tags": [
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "7": {
+                    "sentence": "Our record does not say whether she finished it.",
+                    "tags": [
+                      "lpc.force.decian-persecution-libelli-system",
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 64
+              },
+              {
+                "index": 1,
+                "text_start": 65,
+                "text_end": 190
+              },
+              {
+                "index": 2,
+                "text_start": 191,
+                "text_end": 207
+              },
+              {
+                "index": 3,
+                "text_start": 208,
+                "text_end": 258
+              },
+              {
+                "index": 4,
+                "text_start": 259,
+                "text_end": 280
+              },
+              {
+                "index": 5,
+                "text_start": 281,
+                "text_end": 305
+              },
+              {
+                "index": 6,
+                "text_start": 306,
+                "text_end": 328
+              },
+              {
+                "index": 7,
+                "text_start": 329,
+                "text_end": 400
+              },
+              {
+                "index": 8,
+                "text_start": 401,
+                "text_end": 434
+              },
+              {
+                "index": 9,
+                "text_start": 435,
+                "text_end": 562
+              },
+              {
+                "index": 10,
+                "text_start": 564,
+                "text_end": 596
+              },
+              {
+                "index": 11,
+                "text_start": 597,
+                "text_end": 644
+              },
+              {
+                "index": 12,
+                "text_start": 645,
+                "text_end": 698
+              },
+              {
+                "index": 13,
+                "text_start": 699,
+                "text_end": 741
+              },
+              {
+                "index": 14,
+                "text_start": 742,
+                "text_end": 824
+              },
+              {
+                "index": 15,
+                "text_start": 825,
+                "text_end": 880
+              },
+              {
+                "index": 16,
+                "text_start": 881,
+                "text_end": 989
+              },
+              {
+                "index": 17,
+                "text_start": 990,
+                "text_end": 1038
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 0,
+                "char_start": 27,
+                "char_end": 37,
+                "surface": "the lapsed"
+              },
+              {
+                "record_id": "lpc.term.certificates-letters-of-peace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The regulating voice is Cyprian's throughout, as with every entry in this cluster; the confessors' own certificates survive only in one general letter of theirs to Cyprian (Epistle XVI), which says 'we have granted peace' to all whose conduct has been satisfactory 'in your estimation'; the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). 'Thousands' is Cyprian's own word: Hartel's Latin of Epistle XX.2 reads 'libellorum milia', and the translation reads 'thousands of certificates were daily given, contrary to the law of the Gospel'. This record uses his wording.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 3,
+                "char_start": 18,
+                "char_end": 29,
+                "surface": "certificate"
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 7,
+                "char_start": 5,
+                "char_end": 14,
+                "surface": "the flock"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 27,
+                "char_end": 34,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.figure.numidicus",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 10,
+                "char_start": 22,
+                "char_end": 31,
+                "surface": "Numidicus"
+              },
+              {
+                "record_id": "lpc.story.numidicus",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 14,
+                "char_start": 0,
+                "char_end": 82,
+                "surface": "Cyprian named him to the whole church and added him to the presbyters of Carthage."
+              },
+              {
+                "record_id": "lpc.figure.celerinus",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 15,
+                "char_start": 12,
+                "char_end": 21,
+                "surface": "Celerinus"
+              },
+              {
+                "record_id": "lpc.term.confessor",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The evidence base for this term is essentially one Registry row (the Epistles) read through one lexicon entry, disclosed at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). A phase bound was established by a check, not assumed: a sweep of all eight vendored Augustine volumes returns twenty occurrences of the stem against roughly 150 in Cyprian's one volume, and none carries this sense -- this term belongs to Cyprian's phase and does not cross into Augustine's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 16,
+                "char_start": 67,
+                "char_end": 76,
+                "surface": "confessor"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "label": "the lapsed",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.decian-persecution-libelli-system",
+                "record_type": "force",
+                "label": "The Decian Persecution and the *libelli* System (250)",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.tertullian-de-pudicitia",
+                    "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary reasoning and Doc_02 §1, corroborated by the crisis correspondence (Registry row 1, Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this force's own bare occurrence.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.story.numidicus",
+                "record_type": "story",
+                "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.force.decian-persecution-libelli-system",
+                "record_type": "force",
+                "label": "The Decian Persecution and the *libelli* System (250)",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.tertullian-de-pudicitia",
+                    "citation": "Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary reasoning and Doc_02 §1, corroborated by the crisis correspondence (Registry row 1, Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this force's own bare occurrence.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 3,
+              "sentence_indexes": [
+                10,
+                15,
+                16
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
