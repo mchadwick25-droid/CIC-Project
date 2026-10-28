@@ -7093,3 +7093,12 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Done.** `engine/m4/evidence.py`, `engine/m1/canon.py` and `engine/m4/tests/test_evidence.py` are restored to the versions before pull request 1230. The review trail stays: `lpc_Decision_Log.md` and `Open_Gaps_Tracking.md` (OG-99, OG-104, OG-105) are not reverted, so the reasons and measurements remain on file. Live was never given this change.
 
 **Next.** A narrower design for the retrieval fault behind the lpc suicide probe, shown to Mark as options before any code, with a safety sample across every world as part of the measurement.
+
+## 2026-10-28 - The leaning-sentence and hollowed-reply rules are removed from the answering path (project lead's ruling)
+
+**Question.** Keep the two rules added in pull requests 1217 and 1219 around the net's removals: (b) cut sentences that lean on a removed one; (c) replace a reply that lost 40% or more of its cited sentences with the world's answer record?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: remove (b) and (c). Keep (a) the answer record shown word for word, (d) the single-mark quote rendering, and the offline quotation check (pull request 1223). Reason as given: the engine does not limit, soften or replace a world's views beyond what the grounding net itself withholds.
+
+**Done.** One revert pull request on `main` (not on live). The slice 5 promotion pull request (1233), which would have carried both rules to live, is closed unmerged by the coordinator and slice 5 is rebuilt from `main` after this merges. Detail: `lpc_Decision_Log.md`, same date.
+

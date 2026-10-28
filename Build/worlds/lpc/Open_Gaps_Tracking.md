@@ -2294,3 +2294,12 @@ Logged 2026-10-27.
 - **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
 
 - **Update to OG-97, 2026-10-27.** Cleared: all 420 source findings (`kind` and `citation` on 210 records). Waived with the project lead's command as approval, deadline 2026-12-14: `retrieval-negatives-structured` 47, `readability` 13, `horizon` 2, `cells-required` 2, `voice-perspective` 2, `reciprocity` 1; and `shelf-row` 64 (deadline 2027-03-15, the corpus-map CM-1 gap every world carries). State is `built`. The waivers are the remaining work; deleting each waiver is what fixed means.
+
+### OG-106. OG-102 and the F4/F5 removal rules are closed by removal (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** The leaning-sentence rule and the hollowed-reply rule (OG-100's first two items, and OG-102, a replaced reply following streamed sentences) no longer exist: removed on the project lead's ruling of 2026-10-28; see `lpc_Decision_Log.md`. A reply the net leaves partly cut stands as the net left it.
+- **Still open.** OG-101 (the answer record skips the net's claim checks), OG-103 (admission never calls `settle_reply`), and the rest of OG-100 (register-4, register-5, F17, F23).
+- **Owner.** An engine thread, for OG-101 and OG-103.
+

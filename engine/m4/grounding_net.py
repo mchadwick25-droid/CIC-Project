@@ -695,7 +695,6 @@ WHY_PLACED = "quote placed by code, verbatim to its record"
 REASON_STORY_MISMATCH = "placed story does not match its record"
 WHY_STORY_PLACED = "story placed by code, verbatim to its record"
 WHY_ANSWER_PLACED = "answer record placed by code, verbatim to its record"
-REASON_FOLLOWS_REMOVAL = "leans on a sentence that was removed"
 
 # A sentence withheld for one of these reasons carries a quote's words, or
 # words attributed to someone, that code did not place. It is dropped from
@@ -876,38 +875,6 @@ def reports_speech(sentence: str) -> bool:
         if subject and "we" not in subject[-3:]:
             return True
     return False
-
-
-# A sentence that opens with one of these points back at the sentence before
-# it: "That is the mildest punishment", "Neither bishop tells us", "But he
-# wrote that down". Alone, with that sentence gone, it says nothing, unless it
-# names someone itself ("This is the same Moses we remember"), opens a
-# relative clause ("Those who repented"), or cites a record of its own.
-_LEANING_OPENERS = frozenset({
-    "that", "this", "these", "those", "such", "neither", "both", "another",
-    "but", "and", "so", "yet", "also", "still", "instead", "thus", "therefore", "hence", "nor", "or",
-    "moreover", "furthermore", "however", "because", "second", "third", "fourth", "finally", "next",
-})
-
-
-def cites_record(text: str) -> bool:
-    """The text carries a record tag or a quote or story marker: the voice
-    meant it to rest on a record."""
-    return bool(_TAG.search(text) or QUOTE_MARKER.search(text) or STORY_MARKER.search(text))
-
-
-def leans_on_previous(sentence: str) -> bool:
-    """A sentence that cannot stand once the sentence before it is gone: it
-    opens by pointing back at that sentence (_LEANING_OPENERS), cites no
-    record, names no one itself and does not open a relative clause."""
-    if cites_record(sentence):
-        return False
-    words = _WORD.findall(sentence)
-    if len(words) < 2 or words[0].lower() not in _LEANING_OPENERS:
-        return False
-    if words[0].lower() in {"those", "these"} and words[1].lower() == "who":
-        return False
-    return not any(w[0].isupper() and w != "I" for w in words[1:])
 
 
 def reads_as_lead(sentence: str) -> bool:
