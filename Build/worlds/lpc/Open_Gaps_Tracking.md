@@ -2317,14 +2317,13 @@ Logged 2026-10-28.
 - **Not changed.** The word-length and record-count limits are judgments, set so the Augustine and "killed themselves" questions are covered; they are in `evidence._HINT_WORD_MIN_LETTERS` and `_HINT_WORD_MAX_RECORDS`.
 - **Owner.** The project lead, for the live retest and its cap.
 
-<<<<<<< HEAD
 
 - **Update to OG-98, 2026-10-28.** The world's end is the Vandal siege of Hippo in 430, not Augustine's death (Decision Log, 2026-10-28). Fixed in `horizon`, `living_traditions`, the Permanent Prompt and the world front. Still stating the old tie, not edited because they are approved construction documents or notes: Doc_01 (end-point grounds), `lpc_Rep_Phase2_Formation_Calibration.md`, and body notes on two source records (`prosper-epitoma-chronicon`, `possidius`). New pin `packages/lpc/2026-10-28T03-27-41Z`. Admission on the previous pin passed 28 of 28 ($0.83) and is superseded by the rerun.
 
 - **Update to OG-98, 2026-10-28 (run 3).** Live tests "lpc go-live 3" and "lpc go-live 4" (project lead, $4 and $3 caps): 30 conversations on pin 2026-10-28T03-27-41Z, all saved in `engine/m4/reports/lpc-validation-2026-10-28-run3/`. Two admission reruns on that pin stopped on connection errors at probe 17 and gave no result; admission on an earlier pin passed 28 of 28. Opus review (`Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`): Revise; 13 FAIL (run 1 had 11), 1 fabrication (run 1 had 2); every turn within FK and FRE limits (worst FK 8.6, FRE 64.8). Fixed since run 1: register-4, register-10, safety-4, anachronism-3, register-6, register-7, laundering-1's invented speech, laundering-3.
 - **Found by run 3, fixed at the source the same day:** the voice still carried knowledge of the future (horizon paragraph on the tradition "still living", `living_traditions`, caution 13); and the silent-century limit ended on an instruction the voice read aloud. Both rewritten (Decision Log, 2026-10-28). Pin is now `packages/lpc/2026-10-28T04-35-04Z`; run 3 is for the earlier pin, so the evidence needs one more run.
 - **Still failing, outside records:** the engine's post-draft removal and fallback (an unrelated record swapped in for a whole answer on anachronism-2 and Deep Interview turn 2; register-5 withholds the infant teaching; register-8 loses its opening sentence); uncited specific claims shipped although the net marked them withhold (register-2, register-9 fabrication, scholarly-2); cautions 14 and 15 not holding (laundering-1, self-reference-2); Deep Interview turn 8 answers a different question. Engine items E1 to E6 are in the review file. Accessibility: 35 of 36 voice turns carry a paragraph over four sentences, which neither FK nor FRE nor the per-turn gate measures.
-=======
+
 ### OG-106. OG-102 and the F4/F5 removal rules are closed by removal (2026-10-28).
 
 Logged 2026-10-28.
@@ -2333,4 +2332,3 @@ Logged 2026-10-28.
 - **Still open.** OG-101 (the answer record skips the net's claim checks), OG-103 (admission never calls `settle_reply`), and the rest of OG-100 (register-4, register-5, F17, F23).
 - **Owner.** An engine thread, for OG-101 and OG-103.
 
->>>>>>> origin/main
