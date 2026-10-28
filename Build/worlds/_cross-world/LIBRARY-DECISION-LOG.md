@@ -1049,3 +1049,5 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 **Basil, Small Asketikon in Rufinus's Latin.** The critical Latin text is Zelzer, CSEL 86 (1986), in copyright; Silvas (2013) is also in copyright. No public-domain Latin edition located.
 
 **Not searched.** Epiphanius on Eustathius, Karlstadt.
+
+**Ruling.** Mark, 2026-10-28: share-alike texts are skipped, as non-commercial ones are. The Deutsches Textarchiv 1522 September Testament (CC BY-SA 3.0) is not vendored.
