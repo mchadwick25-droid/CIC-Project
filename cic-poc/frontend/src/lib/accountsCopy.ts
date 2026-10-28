@@ -68,7 +68,7 @@ export const accountsCopy = {
 
   // Home
   homeHeading: 'My account',
-  homeNote: 'Only you see this page. It holds no name.',
+  homeNote: 'Only you see this page.',
   signedInAs: 'Signed in as',
   backToConversation: 'Back to the conversation',
   tokensLeft: (n: number) => `${n.toLocaleString('en-US')} tokens left`,
