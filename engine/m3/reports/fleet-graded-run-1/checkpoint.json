@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 2.742782,
+  "spent_usd": 3.411148,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -43,13 +43,18 @@
     },
     "ijc": {
       "attempts": 1,
-      "status": "running",
+      "status": "done",
       "preflight_usd": 0.47076629999999997,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-ijc.jsonl",
-      "probes_answered": 12,
-      "spent_usd_world": 0.31603
+      "probes_answered": 28,
+      "spent_usd_world": 0.668366,
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
     }
   },
-  "current": "ijc",
-  "checkpoint_at": "2026-10-28T23:33:41Z"
+  "current": null,
+  "checkpoint_at": "2026-10-28T23:36:31Z"
 }
