@@ -7169,3 +7169,16 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Ruling.** Mark, 2026-10-28, from a choice box: cap offered records at 10, behind a switch he can turn off, default on.
 
 **Done.** `assemble_evidence` leaves out the lowest-ranked records beyond 10 (the matcher's own score, lower first, later position first). Never left out: the first record of each matched cell, every record of an entity-matched, hint-word or carried cell, every quote, every honest limit, and every full-text-fallback or scope-completion record. If those alone exceed 10 they are all offered. The switch is the environment variable `CIC_OFFER_CAP`, read once when the engine starts: unset gives 10; `0`, `off`, `false` or `no` turns the cap off and restores today's offered sets exactly; a number sets another cap. Dropped ids are reported under `capped` on the evidence result. Measurements, including the cited records the cap cuts, are in the pull request.
+
+## 2026-10-28 - Standing cost rule for engine changes (project lead)
+
+**Ruling.** Mark, 2026-10-28: "I want it cheaper, then same, but if a significant improvement needs the extra I will approve it." A change to what a turn sends or spends must lower the cost per turn or leave it level. A net cost increase is allowed only when it buys a shown, significant improvement and Mark approves it by name.
+
+**Applied to the merged changes (cost against the run-3 audit evidence).**
+
+- #1251 (horizon `output_defect` blocks the sentence; `window_end` passed through): no prompt cost. Not a cost increase.
+- #1256 (riders: `NOT KNOWN:`, `MUST NOT ASSERT:`, quote `setting:`): a cost increase of about 640 tokens a turn on lpc. It rests on the run-3 quote-misuse audit: of the 19 placed quotes, 9 fit, 6 were clearly misused and 4 stretched, because the draft was never shown a story's `absent_detail` or a quote's `not_for`. Mark's words: the problem is the context, not the quotes.
+- #1258 (follow-up carry of the lead witness and one untold story): a cost increase of about 245 tokens on a follow-up turn. It rests on the run-3 interview, where follow-ups lost the thread because name and comparison words outscored the follow-up threshold.
+- #1259 (history cache mark dropped): a saving, about $0.0213 over a 10-turn session. The directive in the system block defeated the mark, so history was billed fresh every turn.
+
+**Open.** The guard-line trim was removed (it dropped distinct guards); that adds about 44 tokens a turn. The net-cost table is in the cap pull request.
