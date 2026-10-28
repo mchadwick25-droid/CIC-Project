@@ -1478,3 +1478,50 @@ def test_riders_reach_a_quote_that_enters_through_scope_completion(monkeypatch):
     [candidate] = [c for c in found["candidates"] if c["id"] == "fix.quote.rider"]
     assert candidate.get("scope_completion")
     assert "MUST NOT ASSERT: a claim that sharing earns salvation" in _riders_in([candidate])
+
+
+# --- a message that points back, or re-reaches a told story, also gets the prior subject's cells ---
+
+_FAST = "How did your people fast and keep the holy days?"
+_FAST_STORY = {"id": "fix.story.fast", "record_type": "story", "canon_cells": ["F2-E"], "tellable_as": "How the fast was kept on the fourth day, told as the community kept it."}
+_CARRY_CANON = {**CANON_QUESTIONS, "fleet.canon.q4": {"id": "fleet.canon.q4", "record_type": "canon_question", "cell": "F2-E", "text": _FAST}}
+_CARRY_REPOSITORY = {**REPOSITORY, _FAST_STORY["id"]: _FAST_STORY}
+_CARRY_COVERAGE = {**COVERAGE, "F2-E": {**COVERAGE["F1-E"], "stories": ["fix.story.fast"]}}
+_FAST_HISTORY = [{"role": "user", "content": _FAST}, {"role": "assistant", "content": "We fasted on the fourth day."}]
+_JESUS = "What did your community actually have about Jesus - writings, memories, people?"
+
+
+def _carry(message, *, history=None, told=None):
+    return assemble_evidence(
+        message=message, asks=None, canon_questions=_CARRY_CANON, coverage=_CARRY_COVERAGE,
+        repository_records=_CARRY_REPOSITORY, history=history, already_told_ids=told,
+    )
+
+
+def test_a_told_story_in_the_messages_own_cell_adds_the_prior_subjects_cell_and_removes_nothing():
+    base = _carry(_JESUS, told={"fix.story.first-meal"})
+    out = _carry(_JESUS, history=_FAST_HISTORY, told={"fix.story.first-meal"})
+    assert "F2-E" not in [c["cell"] for c in base["cells"]]
+    assert [c["cell"] for c in out["cells"]] == ["C-E", "F1-E", "F2-E"] and out["cells"][-1]["from_prior_turn"]
+    assert {c["id"] for c in base["candidates"]} <= {c["id"] for c in out["candidates"]}
+    assert "fix.story.fast" in {c["id"] for c in out["candidates"]}
+
+
+def test_a_back_reference_adds_the_prior_subjects_cell_even_when_the_message_names_its_own_subject():
+    out = _carry("Was that all they had of Jesus - writings, memories, people?", history=_FAST_HISTORY)
+    assert [c["cell"] for c in out["cells"]][-1] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+
+
+def test_without_a_back_reference_or_a_told_story_history_changes_nothing():
+    assert _carry(_JESUS) == _carry(_JESUS, history=_FAST_HISTORY)
+
+
+def test_a_first_turn_carries_nothing_even_with_a_back_reference_and_a_told_story():
+    out = _carry("Was that all they had of Jesus - writings, memories, people?", history=[], told={"fix.story.first-meal"})
+    assert not any(c.get("from_prior_turn") for c in out["cells"])
+
+
+def test_when_no_earlier_message_stands_alone_the_conversations_first_message_is_the_subject():
+    history = [{"role": "user", "content": "Why did that matter about the fast and the holy days?"}, {"role": "assistant", "content": "It mattered."}]
+    out = _carry("Was that all they had of Jesus - writings, memories, people?", history=history)
+    assert all(c.get("from_prior_turn") or c["cell"] in ("C-E", "F1-E") for c in out["cells"])

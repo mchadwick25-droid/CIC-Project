@@ -7125,3 +7125,11 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Measured.** Offered sets unchanged on 1,770 question-world pairs in 13 packages. Added input about 363 tokens per turn (about $0.0011 at $3 per million), lpc about 905. The horizon block changes 3 of 4,455 recorded shipped sentences, all lpc anachronism-1.
 
 **Open.** Live retest of lpc on the current pin: the project lead names the test and cap. Record-side fixes belong to the lpc world thread (`Open_Gaps_Tracking.md`, OG-107).
+
+## 2026-10-28 - A follow-up carries the last standalone subject's cells as extra slots (coordinator's approval of the engine thread's design)
+
+**Question.** Deep Interview turns 2 and 8 of the lpc run lost the thread: turn 2 asked for "a real case" and its own cell held only the story already told in turn 1; turn 8 said "it", but "Augustine", "later" and "same" scored above the follow-up threshold, so turn 7's dying-penitent cell was never consulted.
+
+**Ruling.** The project-management thread approved the design on 2026-10-28, with proof first: no model call, add-only on every offered-sets path, and a replay of the ten-turn interview.
+
+**Done.** `assemble_evidence` adds the cells of the last standalone message (up to two, the same number a follow-up carries today) as extra slots, after the cells the message matched, when history exists and either the message holds a back-reference word or a story or quote its own cells selected was already told. If no earlier message stands alone, the conversation's first message is the subject. Nothing already selected is removed or reordered, and the extra cells do not count as evidence for the full-text fallback. Detail and measurements are in the pull request.

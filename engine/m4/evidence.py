@@ -1087,6 +1087,36 @@ def inherited_cells(history, *, canon_questions, repository_records, top_n) -> l
     return []
 
 
+def _prior_turn_cells(
+    *, message, history, selected, already_told_ids, cell_matches, canon_questions, repository_records,
+    top_n: int = 2,
+) -> list[dict]:
+    """The cells of the last standalone message, when this message points
+    back (a back-reference word) or a story or quote its own cells selected
+    was already told; empty on a first turn or when they are already among
+    the cells. If no earlier message stood on its own, the conversation's
+    first one is the subject."""
+    if not history:
+        return []
+    told = set(already_told_ids or ())
+    points_back = bool(_BACK_REFERENCE & set(re.findall(r"[a-z']+", (message or "").lower())))
+    told_selected = any(c["record_type"] in ("story", "quote") and c["id"] in told for c in selected)
+    if not (points_back or told_selected):
+        return []
+    carried = inherited_cells(history, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n)
+    if not carried:
+        first = next((e.get("content") or "" for e in history if e.get("role") == "user"), "")
+        carried = [
+            {**m, "inherited_from_prior_turn": True}
+            for m in match_asks_to_cells(
+                message=first, asks=None, canon_questions=canon_questions,
+                repository_records=repository_records, top_n=top_n,
+            )
+        ] if first else []
+    have = {m["cell"] for m in cell_matches}
+    return [{**m, "from_prior_turn": True} for m in carried if m["cell"] not in have][:top_n]
+
+
 def resolve_kind(
     reader_kind: str | None,
     *,
@@ -1225,6 +1255,25 @@ def assemble_evidence(
             seen_ids.add(candidate["id"])
             selected.append({**candidate, "cell": match["cell"]})
 
+    # A message that points back, or whose own cells served a story or quote the
+    # conversation has already told, is also about the last standalone
+    # subject: that subject's cells ride as extra slots, after the cells
+    # above, so nothing already selected is displaced.
+    prior_cells = _prior_turn_cells(
+        message=message, history=history, selected=selected, already_told_ids=already_told_ids,
+        cell_matches=cell_matches, canon_questions=canon_questions, repository_records=repository_records,
+    )
+    cell_matches = cell_matches + prior_cells
+    for prior in prior_cells:
+        for candidate in select_cell_candidates(
+            cell=prior["cell"], coverage_entry=coverage.get(prior["cell"]) or {}, repository_records=repository_records,
+            message=message, asks=asks, already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
+        ):
+            if candidate["id"] in seen_ids:
+                continue
+            seen_ids.add(candidate["id"])
+            selected.append({**candidate, "cell": prior["cell"]})
+
     # Stage A2: only when Stage A found no cell on its own EVIDENCE - never
     # when a cell matched but session-exclusion is what emptied `selected`
     # (that is an intentional "already told this" outcome, not a retrieval
@@ -1246,7 +1295,7 @@ def assemble_evidence(
     # A cell added for a distinctive word of the question is as weak: it knows
     # one word names a record's hint, not that the cell answers the question,
     # and the fallback that carried an unmatched question must still run.
-    if not [m for m in cell_matches if not m.get("from_entity") and not m.get("from_hint_word") and m.get("matched_by") != "question-word"]:
+    if not [m for m in cell_matches if not m.get("from_entity") and not m.get("from_hint_word") and m.get("matched_by") != "question-word" and not m.get("from_prior_turn")]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue
