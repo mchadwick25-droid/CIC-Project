@@ -6,6 +6,10 @@ remove.
       the sample questions (sample_questions.json), the 98 canon questions and
       the recorded messages of 13 and 14 October, each against every package's
       newest compiled build: the cells reached and the record ids offered.
+      The recorded messages also run as follow-ups (the conversation's earlier
+      participant messages as history) and with the previous message as the
+      secondary context a Table turn carries, so the paths that cap the cells
+      are covered too.
   python engine/m4/reports/offered_sets.py compare base.json head.json
       for each set, how many question-world pairs changed, every pair where a
       record offered on the base is no longer offered on the head (the add-only
@@ -35,10 +39,11 @@ def _packages():
             yield package_dir.name, records, json.loads((compiled / "coverage.json").read_text()), ev.thin_topics_for(records)
 
 
-def _offered(canon, records, coverage, thin, message):
+def _offered(canon, records, coverage, thin, message, *, history=None, secondary_context=None):
     found = ev.assemble_evidence(
         message=message, asks=[{"order": 1, "text": message}], canon_questions=canon,
         coverage=coverage, repository_records=records, thin_topics=thin, kind="what_did",
+        history=history, secondary_context=secondary_context,
     )
     return {"cells": [c["cell"] for c in found["cells"]], "offered": [c["id"] for c in found["candidates"]]}
 
@@ -46,8 +51,8 @@ def _offered(canon, records, coverage, thin, message):
 def run(path: str) -> None:
     fleet = loader.load_fleet_records()
     canon = {rid: r for rid, r in fleet.items() if r.get("record_type") == "canon_question"}
-    recorded = [(turn["world"], turn["message"]) for r in live11_replay.RUNS for turn in live11_replay.turns(r)]
-    sets = {"sample": {}, "canon": {}, "recorded": {}}
+    recorded = [(turn["world"], turn["message"], turn["asked"][:-1]) for r in live11_replay.RUNS for turn in live11_replay.turns(r)]
+    sets = {"sample": {}, "canon": {}, "recorded": {}, "recorded-follow-up": {}, "recorded-context": {}}
     for world, records, coverage, thin in _packages():
         for question in json.loads(SAMPLE.read_text()):
             sets["sample"][f"{world}|{question}"] = _offered(canon, records, coverage, thin, question)
@@ -55,10 +60,15 @@ def run(path: str) -> None:
             if record.get("cell"):
                 sets["canon"][f"{world}|{record['id']}"] = _offered(canon, records, coverage, thin, record["text"])
     packaged = {world: (records, coverage, thin) for world, records, coverage, thin in _packages()}
-    for index, (world, message) in enumerate(recorded):
+    for index, (world, message, earlier) in enumerate(recorded):
         if world in packaged:
             records, coverage, thin = packaged[world]
-            sets["recorded"][f"{index}|{world}|{message}"] = _offered(canon, records, coverage, thin, message)
+            key = f"{index}|{world}|{message}"
+            sets["recorded"][key] = _offered(canon, records, coverage, thin, message)
+            if earlier:
+                history = [{"role": "user", "content": text} for text in earlier]
+                sets["recorded-follow-up"][key] = _offered(canon, records, coverage, thin, message, history=history)
+                sets["recorded-context"][key] = _offered(canon, records, coverage, thin, message, secondary_context=earlier[-1])
     pathlib.Path(path).write_text(json.dumps(sets, indent=1))
     print({name: len(pairs) for name, pairs in sets.items()})
 

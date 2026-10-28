@@ -1113,6 +1113,13 @@ def resolve_kind(
     return kind
 
 
+def _split_extra_cells(cells: list[dict]) -> tuple[list[dict], list[dict]]:
+    """The cells matched to a message, and the extra cells added beside them
+    (a named figure's, a distinctive word's)."""
+    extra = [c for c in cells if c.get("from_entity") or c.get("from_hint_word")]
+    return [c for c in cells if c not in extra], extra
+
+
 def assemble_evidence(
     *,
     message: str,
@@ -1164,6 +1171,13 @@ def assemble_evidence(
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
+    # top_n_cells caps the cells MATCHED to the message. A cell added for a
+    # named figure or for a distinctive word of the question is an extra slot
+    # (see _add_extra_cells): it rides after the matched cells and never counts
+    # against the cap, here or below, so it can never push out a cell the
+    # message matched itself.
+    matched, extras = _split_extra_cells(cell_matches)
+
     # A follow-up is ABOUT the previous subject. See _looks_like_follow_up.
     if history and _looks_like_follow_up(message, asks, canon_questions, repository_records):
         carried = inherited_cells(
@@ -1171,21 +1185,32 @@ def assemble_evidence(
             repository_records=repository_records, top_n=top_n_cells,
         )
         if carried:
-            own = [m for m in cell_matches if m["cell"] not in {c["cell"] for c in carried}]
-            cell_matches = (carried + own)[:top_n_cells]
+            carried_matched, carried_extras = _split_extra_cells(carried)
+            carried_cells = {c["cell"] for c in carried_matched}
+            matched = (carried_matched + [m for m in matched if m["cell"] not in carried_cells])[:top_n_cells]
+            extras = carried_extras + extras
 
-    if secondary_context and len(cell_matches) < top_n_cells:
-        seen_cells = {m["cell"] for m in cell_matches}
+    if secondary_context and len(matched) < top_n_cells:
+        seen_cells = {m["cell"] for m in matched}
         for m in match_asks_to_cells(
             message=secondary_context, asks=None, canon_questions=canon_questions,
             repository_records=repository_records, top_n=top_n_cells,
         ):
-            if len(cell_matches) >= top_n_cells:
-                break
+            if m.get("from_entity") or m.get("from_hint_word"):
+                extras = extras + [{**m, "from_secondary_context": True}]
+                continue
+            if len(matched) >= top_n_cells:
+                continue
             if m["cell"] in seen_cells:
                 continue
-            cell_matches.append({**m, "from_secondary_context": True})
+            matched.append({**m, "from_secondary_context": True})
             seen_cells.add(m["cell"])
+
+    seen_cells = {m["cell"] for m in matched}
+    cell_matches = matched + [
+        m for i, m in enumerate(extras)
+        if m["cell"] not in seen_cells and m["cell"] not in {x["cell"] for x in extras[:i]}
+    ]
 
     selected: list[dict] = []
     seen_ids: set[str] = set()

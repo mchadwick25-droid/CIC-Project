@@ -1291,11 +1291,13 @@ def test_a_word_a_records_own_hint_names_adds_that_records_cell():
 
 
 def test_the_added_cell_never_displaces_a_cell_the_matcher_already_found():
-    records = {"s": _named("s", "C-1", "participant asks what the council of Nicaea decided")}
-    without = _hint_word_cells({})
-    with_word = _hint_word_cells(records)
-    assert without
-    assert [m["cell"] for m in with_word][:len(without)] == [m["cell"] for m in without]
+    # The same records with the hint naming a word the question does not use,
+    # so the hint tier is identical and only the added cell differs.
+    named = {"s": _named("s", "C-1", "participant asks what the council of Nicaea decided")}
+    other = {"s": _named("s", "C-1", "participant asks what the council of Chalcedon decided")}
+    with_word, without = _hint_word_cells(named), _hint_word_cells(other)
+    assert not [m for m in without if m.get("from_hint_word")]
+    assert [m for m in with_word if not m.get("from_hint_word")] == without
 
 
 def test_a_word_named_by_three_records_a_short_word_and_a_canon_word_add_nothing():
@@ -1364,3 +1366,41 @@ def test_questions_from_a_person_in_pain_keep_every_cell_they_had_and_gain_at_mo
         cells = [m["cell"] for m in _world_matches(world, message)]
         assert cells[:len(before)] == before, (world, message, cells)
         assert len(cells) <= len(before) + 1, (world, message, cells)
+
+
+# ---- the cap on matched cells does not count the extra cells ------------------
+
+def _turn_cells(records, message, *, history=None, secondary_context=None):
+    evidence = assemble_evidence(
+        message=message, asks=None, canon_questions=HINT_WORD_CANON, coverage={},
+        repository_records=records, history=history, secondary_context=secondary_context,
+    )
+    return [c["cell"] for c in evidence["cells"] if not (c.get("from_hint_word") or c.get("from_entity"))], \
+           [c["cell"] for c in evidence["cells"] if c.get("from_hint_word") or c.get("from_entity")]
+
+
+HINT_WORD_RECORDS = {"s": _named("s", "C-1", "participant asks what the council of Nicaea decided")}
+FIGURE_RECORDS = {"f": {
+    "id": "f", "record_type": "figure", "canon_cells": ["C-1"], "names": [{"name": "Pachomius", "tag": "in-world"}],
+}}
+
+
+def test_a_follow_up_keeps_the_cell_its_own_message_matched_when_the_prior_turn_had_an_extra_cell():
+    for records, extra_word in ((HINT_WORD_RECORDS, "Nicaea"), (FIGURE_RECORDS, "Pachomius")):
+        history = [{"role": "user", "content": f"How were the harbour boats kept, and {extra_word}?"}]
+        base_matched, _ = _turn_cells({}, "And the orchard there?", history=history)
+        matched, extras = _turn_cells(records, "And the orchard there?", history=history)
+        assert matched == base_matched and "A-1" in matched
+        assert extras == ["C-1"]
+
+
+def test_secondary_context_still_fills_a_matched_slot_when_the_message_has_an_extra_cell():
+    context = "How were the orchard rows kept in your village?"
+    for records, message in (
+        (HINT_WORD_RECORDS, "Tell me about the harbour boats and Nicaea."),
+        (FIGURE_RECORDS, "Tell me about the harbour boats and Pachomius."),
+    ):
+        base_matched, _ = _turn_cells({}, message.rsplit(" and ", 1)[0] + ".", secondary_context=context)
+        matched, extras = _turn_cells(records, message, secondary_context=context)
+        assert matched == base_matched and "A-1" in matched
+        assert extras == ["C-1"]
