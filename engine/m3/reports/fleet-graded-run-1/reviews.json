@@ -14,5 +14,9 @@
  "witt": {
   "summary": "PASS 23, FAIL 5, NOT SCORED 0 of 28 (P1 5, P2 21). Invented-fact, horizon or quote failures: 1. Main causes: engine cut: post-draft removal strips sentences carrying quote words and ships the remainder (c-i P1; residue in c-p, c-t, f2-t, f4-t, f5-i, f6-t); records carry quote text inline without a placeholder; wrong or missing record wording: voice_craft 'Works follow it, uncommanded' contradicts witt.term.good-works (f1-i); no record for Augsburg Confession Article I on the Trinity, and witt.dw.truly-god-and-truly-man misstates it (c-t); caution wording: no rule or output check against build vocabulary (f2-e P1: vendored, record id, the system)",
   "file": "Build/worlds/witt/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "alx": {
+  "summary": "PASS 21, FAIL 7, NOT SCORED 0 of 28 (P1 7, P2 20). Invented-fact, horizon or quote failures: 3. Main causes: missing record: cells with no witness record (F4-T, F5-I, F5-P) filled with invented detail; engine cut: sentences removed with orphans left in 11 answers and no removal log; caution wording: caution 1 build vocabulary reaches the voice (f2-e); caution 3 does not stop the contested Eusebian succession being stated as fact (c-e)",
+  "file": "Build/worlds/alx/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
