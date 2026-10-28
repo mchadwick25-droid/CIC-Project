@@ -27,8 +27,16 @@
       "overall_pass": true,
       "aborted_reason": null,
       "exit_code": 0
+    },
+    "desert": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.5162604000000001,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-desert.jsonl",
+      "probes_answered": 1,
+      "spent_usd_world": 0.091824
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-28T23:25:04Z"
+  "current": "desert",
+  "checkpoint_at": "2026-10-28T23:25:46Z"
 }
