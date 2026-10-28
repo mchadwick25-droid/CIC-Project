@@ -2937,3 +2937,9 @@ Changed: all 27 lines now read as the question a participant asks for that recor
 Review: one Opus round, Revise (two P1, nine P2, three P3). All applied, among them a hint on grace that promised Pelagius's own teaching, which no record holds, and a hint on the election of Cyprian that invited a link to bishops' standing. No model call; no spend. Pin `packages/lpc/2026-10-28T17-58-42Z`.
 
 Not done from the audit: the quotes' "setting" field (needs the engine thread's field on its own branch) and the quote placement checks for `the-case-set-before-the-bishop` (the ledger).
+
+### 2026-10-28 — Two quote not_for lists brought back under the schema limit (after the retrieval-hint merge)
+
+Context: the not_for lines added to `lpc.quote.bishop-of-bishops` and `lpc.quote.clamour-and-tears` in the retrieval-hint change took each list past the schema's length limit, and the fleet drift test (`m1:schema-validation/lpc`) failed on `main` after that merge. My own gate run was cut short and did not reach it.
+
+Changed: the two added lines of `clamour-and-tears` are one line; the added line of `bishop-of-bishops` joins the line about Stephen. No claim was dropped and no meaning changed. Pin `packages/lpc/2026-10-28T18-53-09Z`. No model call.

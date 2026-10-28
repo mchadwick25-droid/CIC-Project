@@ -13,8 +13,7 @@ use_note:
     - "a claim that it was an orderly election"
     - "a claim that it describes Augustine's later consecration as bishop"
     - "a claim that Possidius, Augustine's friend, writes as an uninvolved witness"
-    - "a claim that it describes a sermon at Hippo"
-    - "a claim that it describes the years 258 to 391"
+    - "a claim that it describes a sermon at Hippo or the years 258 to 391"
   years: {from: 391, to: 391}
   status: reviewed
 confidence:

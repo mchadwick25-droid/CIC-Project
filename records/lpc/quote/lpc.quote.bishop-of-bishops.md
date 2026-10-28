@@ -12,9 +12,8 @@ use_note:
   not_for:
     - "a claim that it is an early anti-papal manifesto"
     - "a claim that it states a modern principle of separated powers among equal branches"
-    - "a claim that Cyprian's words name Stephen as their target"
+    - "a claim that Cyprian's words name Stephen as their target, or answer an accusation that bishops shielded a bishop who did wrong"
     - "a claim that ordinary believers or most clergy were formed by this question"
-    - "a claim that it answers an accusation that bishops shielded a bishop who did wrong"
   years: {from: 256, to: 256}
   status: reviewed
 confidence:
