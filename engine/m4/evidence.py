@@ -1455,11 +1455,14 @@ def _setting_text(setting: dict | None) -> str:
     occasion, and what it answered. Empty when the record has none."""
     if not isinstance(setting, dict):
         return ""
-    said = " ".join(str(setting.get("said_by") or "").split())
-    to = " ".join(str(setting.get("to_whom") or "").split())
-    occasion = " ".join(str(setting.get("occasion") or "").split())
-    answers = " ".join(str(setting.get("answers") or "").split())
-    who = " to ".join(part for part in (said, to) if part)
+    def clean(key: str) -> str:
+        return " ".join(str(setting.get(key) or "").split()).rstrip(".")
+
+    said, to, occasion, answers = clean("said_by"), clean("to_whom"), clean("occasion"), clean("answers")
+    if said and to:
+        who = f"{said} to {to}"
+    else:
+        who = said or (f"To {to}" if to else "")
     first = ", ".join(part for part in (who, occasion) if part)
     return ". ".join(part for part in (first, f"It answered: {answers}" if answers else "") if part)
 

@@ -1644,6 +1644,29 @@ def test_a_quote_with_a_setting_shows_it_beside_its_gist_and_one_without_shows_n
     assert "setting" not in plain and "setting:" not in _riders_in([plain])
 
 
+def test_a_setting_renders_each_present_field_and_never_doubles_a_full_stop():
+    from engine.m4.evidence import _setting_text
+
+    assert _setting_text({"to_whom": "his congregation"}) == "To his congregation"
+    assert _setting_text({"to_whom": "his congregation", "occasion": "a sermon"}) == "To his congregation, a sermon"
+    assert _setting_text({"said_by": "Augustine", "occasion": "a sermon."}) == "Augustine, a sermon"
+    assert _setting_text({"said_by": "Augustine.", "answers": "how one believer corrects another."}) == "Augustine. It answered: how one believer corrects another"
+    assert _setting_text({"occasion": "a sermon.", "answers": "a question."}) == "a sermon. It answered: a question"
+    assert ".." not in _setting_text({"said_by": "A.", "to_whom": "B.", "occasion": "C.", "answers": "D."})
+
+
+def test_a_setting_field_longer_than_the_limit_fails_the_quote_schema():
+    from engine.m1.schemas import build_schema
+    from jsonschema import Draft202012Validator
+
+    validator = Draft202012Validator(build_schema("quote"))
+    base = {k: v for k, v in _SETTING_QUOTE.items() if k != "setting"}
+    ok = {**base, "setting": {"occasion": "x" * 160}}
+    long = {**base, "setting": {"occasion": "x" * 161}}
+    bad = lambda rec: [e for e in validator.iter_errors(rec) if "setting" in "/".join(map(str, e.path))]  # noqa: E731
+    assert not bad(ok) and bad(long)
+
+
 def test_a_quote_that_enters_through_scope_completion_carries_its_setting(monkeypatch):
     from engine.m4 import evidence as ev
 

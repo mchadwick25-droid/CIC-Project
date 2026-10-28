@@ -7190,3 +7190,9 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Evidence for a lower cap (offline, 111 recorded lpc turns from 27/28 Oct, 36 of them run 3).** No cap below about 25 keeps every record the voice cited. At 12, 28 cited records are dropped in 18 of the 111 turns (8 in 6 of the 36 run-3 turns); the protected set is never cut. The saving is about 416 tokens a turn at 12, 744 at 10 and 1,018 at 8. The numbers per cap are in the pull request.
 
 **Cost-free trims inside the cap.** None exists. Across run-3 single turns and the 98 canon questions there are no empty riders, no repeated line inside a record and no duplicate guards. Identical rider lines on a second record (about 9 to 10 tokens a turn) and `means` that restates the head (about 7 to 8) would remove record text, so they are not made.
+
+## 2026-10-28 - Review points on the setting rider and the hint rule (#1256, applied in the cap pull request)
+
+**Setting rendering.** A setting with `to_whom` but no `said_by` now reads "To his congregation", and each field's closing full stop is dropped before joining, so no ".." appears. **Length limit.** Each setting field is limited to 160 characters by the quote schema (about 40 tokens a field; at most about 160 tokens for a setting with all four, a typical one about 30). No record uses a setting yet, so no record is affected.
+
+**Hint rule.** `non_question_reason` rejects a `retrieve_when` line that opens "the conversation" or "the representative" as describing the conversation, not only a line that names a record id. The rule as built includes that form, 13 of the 19 don hits are of it, and the don waiver count of 19 covers them. The rule is not narrowed, so no gate count changes.
