@@ -1,0 +1,29 @@
+{
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 2048,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "rzg": "sha256:7beada03b66def280efa251ca9617a369aa09d0d93580edb7af136481756ff89"
+    },
+    "package_content_hash": {
+      "rzg": "sha256:6b12a158da4aec62e68b89d522454b27561abd222119a8804b9bc89b43c0d7b2"
+    },
+    "shape_hash": "sha256:4b285d569c53328c5c83a1157047377396f8a5eca4bf00faa635491fc565aeca",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "probe_limit": null,
+    "max_usd": 6.9776,
+    "save_transcripts": true,
+    "repo_commit": "05a0f1bea387f2d5fea20c2ff0e09c9e0d7fb2d0"
+  },
+  "per_world_estimated_usd": {
+    "rzg": 0.35611905
+  },
+  "estimated_usd_preflight": 0.35611905
+}

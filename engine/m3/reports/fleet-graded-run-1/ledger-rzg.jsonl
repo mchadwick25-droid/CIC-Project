@@ -1,0 +1,3 @@
+{"at": "2026-10-28T23:48:16.407+00:00", "live_test": "fleet graded run 1", "cap_usd": 6.9776, "event": "hold", "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0", "hold_usd": 0.126775, "spent_usd": 0.0}
+{"at": "2026-10-28T23:48:28.239+00:00", "live_test": "fleet graded run 1", "cap_usd": 6.9776, "event": "settle", "spent_usd": 0.064974, "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0", "priced_dollars": 0.06497403, "usage": {"input_tokens": 1899, "output_tokens": 400, "cache_creation_input_tokens": 12490, "cache_read_input_tokens": 1776}}
+{"at": "2026-10-28T23:48:28.331+00:00", "live_test": "fleet graded run 1", "cap_usd": 6.9776, "event": "hold", "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0", "hold_usd": 0.135191, "spent_usd": 0.064974}

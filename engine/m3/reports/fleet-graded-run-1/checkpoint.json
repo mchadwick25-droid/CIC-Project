@@ -79,8 +79,16 @@
       "overall_pass": true,
       "aborted_reason": null,
       "exit_code": 0
+    },
+    "rzg": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.35611905,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-rzg.jsonl",
+      "probes_answered": 1,
+      "spent_usd_world": 0.064974
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-28T23:48:07Z"
+  "current": "rzg",
+  "checkpoint_at": "2026-10-28T23:48:28Z"
 }
