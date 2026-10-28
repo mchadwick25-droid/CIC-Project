@@ -160,7 +160,7 @@ orientation:
       third month of the siege. His friend Possidius, bishop of Calama, was
       in the house. He tells how Augustine had the shortest psalms of
       penitence copied out and hung on the wall, and read them from his bed,
-      weeping. He died on 28 August 430, and this world ends with him.
+      weeping. He died on 28 August 430. The siege of Hippo closes this world's years.
     grounded_in: [lpc.force.vandal-invasion-siege-of-hippo, lpc.story.the-psalms-on-the-wall, lpc.figure.possidius]
   documented_stories:
   - story_id: lpc.story.election-of-cyprian

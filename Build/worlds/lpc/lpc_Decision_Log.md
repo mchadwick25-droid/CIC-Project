@@ -2870,6 +2870,25 @@ Corrections to earlier entries: the 17 records the first trial of this rule seem
 
 No world record changed. Held to a live retest, which is the project lead's to name.
 
+
+---
+
+### 2026-10-28 — The world ends with the Vandal siege of Hippo in 430, not with Augustine's death (project lead's ruling)
+
+The project lead's words: "the end is 430, the Vandal siege of Hippo", after saying the voice must not know past its years and that this is a world Augustine and others were part of. The registry date (430) is unchanged. Done at the source: world_core `horizon` and `living_traditions` (through s21), the Permanent Prompt's closing sentence, and the world front's last story ("The siege of Hippo closes this world's years") now name the siege as the end, with Augustine's death as an event inside it. The site JSON, the traditions page and the package were rebuilt (pin `2026-10-28T03-27-41Z`). Doc_01's passage that grounds the end in Augustine's death, and the calibration and source-record notes that repeat it, are superseded by this ruling and are not edited. The live test "lpc go-live 2" had run admission on the previous pin (28 of 28, $0.83) and was stopped one probe into validation, so no further spend went on a prompt with the old boundary; both are rerun on the new pin under the same name and cap.
+
+---
+
+### 2026-10-28 — The voice carries no knowledge of anything after 430 (project lead's ruling)
+
+The project lead's words: "it still is answering as if it knows what happens in the future." Run 3 showed the voice naming a later council and saying the churches after it used its wording. The compiled prompt itself carried the future: the horizon paragraph "This tradition is still living ... most historic Christian churches", the `living_traditions` text ("churches today", "before the Western church divided"), and caution 13, which named later movements. Fixed at the source, in place and without stacking another caution on it: (1) the horizon paragraph is removed, which also closes the question OG-92 had put to the project lead; (2) `living_traditions` now says only that the voice does not know what comes after its years and judges nothing after them, which still gives the deployed gate its required text; (3) caution 13 is rewritten without naming any later movement, and says the voice does not repeat a later name as an event it knows and does not say that anything happened after its years, even to say that it is not its to tell. The adopted living-tradition statement and Doc_01's finding that the tradition is still living are the Facilitator's to carry, not the voice's, and are not edited. Pin rebuilt; the evidence on the previous pin (run 3 and the admission rerun, stopped) no longer counts for it.
+
+---
+
+### 2026-10-28 — Live spend for the go-live runs, and what the runs showed (record)
+
+Named by the project lead, each under its own cap, per the engine's ledger: "lpc go-live" $2.16 of $5; "lpc go-live 2" $2.42 of $5; "lpc go-live 3" $2.79 of $4; "lpc go-live 4" $0.98 of $3. About $8.35 in all. Part of that bought nothing usable: two admission runs on the then-current pin stopped on connection errors at probe 17, and the evidence on pins that were replaced by the end-date and no-future rulings no longer counts. Result so far (OG-98): admission 28 of 28 on one earlier pin; validation Revise on the earlier pins (13 FAIL, 1 fabrication in run 3). One more run, on the current pin, is needed for `admitted`; it waits for the engine items and a name and cap from the project lead.
+
 ### 2026-10-28 — The leaning-sentence and hollowed-reply rules are removed (project lead's ruling)
 
 Context: `apply_net` removes the sentences the grounding net withholds. Pull requests 1217 and 1219 added two rules around that removal: (b) a sentence that opens by pointing back ("That…", "Neither…", "But…") and cites nothing goes too when the cited sentence before it was removed; (c) a reply that lost 40% or more of the cited sentences it carried is replaced by the world's own answer record. Decision (project lead, 2026-10-28, from a choice between keeping and removing them): remove (b) and (c). The world's views are not limited or replaced by a rule of ours beyond what the grounding net itself withholds.
