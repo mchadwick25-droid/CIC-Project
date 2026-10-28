@@ -30,6 +30,7 @@ The people in these conversations rely on what we say and on how we read them. A
 - Near anything safety-adjacent, default to caution over assuming resilience, and never make a redirect conditional on the participant confirming they're okay.
 - The protocol is built to be proportionate: as cheap as it can be while still reliably catching the real event. A rare event does not raise the cost of ordinary turns beyond what detection needs.
 - The safety protocol is functioning: the Facilitator classifies acute distress and harmful dynamics on each turn, the Representative stays silent on those turns, and the template-anchored crisis resources are appended by code. The governing doc is `CiC_L3D_Facilitator_Governance_V3.6`, a Word file at `Archive/Syriac-Build-2026-07/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.6.docx`.
+- This is settled and is not reopened. No thread, review, recheck or review brief raises safety, suicide, crisis, "hard topic" categories, topic lists or first-person guards as a question, option, finding or decision for Mark, or as a reason to hold or change other work. A world's answer is never withheld or softened; compassion is added to it, never put in its place. Harm to self or others is the Facilitator's job, exactly as above. The Facilitator and crisis-resource code change only when Mark asks for that change himself (Mark, 2026-10-28).
 
 ## Fix it right
 
