@@ -1,0 +1,2592 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "run_settings": {
+    "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "voice_max_tokens": 2048,
+    "voice_temperature": "API default (not set by stream_voice_turn)",
+    "safety_model_id": null,
+    "safety_call": "not made - LiveModelAnswerer answers each sealed probe with the voice call only",
+    "reader_call": "not made - not in the admission harness path",
+    "self_revision": "off - not in the admission harness path",
+    "region": "us-east-1",
+    "package_manifest_hash": {
+      "lpc": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69"
+    },
+    "package_content_hash": {
+      "lpc": "sha256:87885740691d34f74355213d3e4436a43993d8c0f99bcdf6817c3afaa5ea3785"
+    },
+    "shape_hash": "sha256:4b285d569c53328c5c83a1157047377396f8a5eca4bf00faa635491fc565aeca",
+    "seal_hash": "sha256:6168a4de56b7f5d332452555437e212811a98ae204a9d91a69ac05bf707aaa47",
+    "battery_size": 28,
+    "probe_limit": null,
+    "max_usd": 12.0,
+    "save_transcripts": true,
+    "repo_commit": "c7b0c528b1acb4234016bc16f73ee4b6bb9b404b"
+  },
+  "protocol": "blind",
+  "worlds": {
+    "lpc": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "per_probe": [
+        {
+          "probe_id": "c-i-probe-01",
+          "cell": "C-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 4198,
+            "output_tokens": 451,
+            "cache_creation_input_tokens": 24382,
+            "cache_read_input_tokens": 0
+          },
+          "transcript": {
+            "answer_text": "To us Jesus is the shepherd whose flock this was before it was ever ours to keep. He is the one who will ask us what became of the people placed in our care. Peter was a good shepherd, and Paul, and the bishops after them, and Cyprian. Yet to good shepherds he commended one good Shepherd.\n\nHis death and rising are not facts we simply affirm and set aside. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately. The life we lead here was modelled on them, not only mystically, but in reality. We crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us. We set our affection on what is above, our life hidden with him in God. That is his ascension and his sitting at God's right hand, worked out in an ordinary life.\n\nWe confess Jesus Christ, the only Son of God, our Lord. Then we go on to confess the Holy Ghost as well. That completes the Trinity that makes up the one Godhead.",
+            "raw_text": "To us Jesus is the shepherd whose flock this was before it was ever ours to keep [[lpc.demo.who-is-jesus-to-us]]. He is the one who will ask us what became of the people placed in our care. Augustine told his own people that the Lord, pressing unity on good shepherds, would not name many shepherds. Peter was a good shepherd, and Paul, and the bishops after them, and Cyprian. Yet to good shepherds he commended one good Shepherd [[lpc.demo.who-is-jesus-to-us]].\n\nHis death and rising are not facts we simply affirm and set aside. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]]. The life we lead here was modelled on them, not only mystically, but in reality [[lpc.witness.the-pattern-we-are-modelled-on]]. We crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us. We set our affection on what is above, our life hidden with him in God [[lpc.witness.the-pattern-we-are-modelled-on]]. That is his ascension and his sitting at God's right hand, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]].\n\nWe confess Jesus Christ, the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]]. Then we go on to confess the Holy Ghost as well [[lpc.witness.the-only-son-and-the-trinity]]. That completes the Trinity that makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]].",
+            "citations": [
+              "lpc.demo.who-is-jesus-to-us",
+              "lpc.witness.the-only-son-and-the-trinity",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "To us Jesus is the shepherd whose flock this was before it was ever ours to keep.",
+                "record_ids": [
+                  "lpc.demo.who-is-jesus-to-us"
+                ]
+              },
+              {
+                "sentence": "Yet to good shepherds he commended one good Shepherd.",
+                "record_ids": [
+                  "lpc.demo.who-is-jesus-to-us"
+                ]
+              },
+              {
+                "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "The life we lead here was modelled on them, not only mystically, but in reality.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "We set our affection on what is above, our life hidden with him in God.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "We confess Jesus Christ, the only Son of God, our Lord.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "Then we go on to confess the Holy Ghost as well.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "That completes the Trinity that makes up the one Godhead.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.754,
+            "seconds_total": 13.292
+          }
+        },
+        {
+          "probe_id": "c-e-probe-01",
+          "cell": "C-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3189,
+            "output_tokens": 1187,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We confess Jesus Christ, the only Son of God, our Lord, within the one Godhead made up of Father, Son, and Holy Ghost. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten. That confession reached us in two ways, not equally: through the apostles' own writings, and through the living voice of the church passing it forward.\n\nScripture stood above everything our bishops wrote, and we held it that way. About what it contains there can be no doubt or argument. That is the first path. The apostles wrote down what they had seen, and their writings reached us.\n\nThe second path is traced differently, and more carefully. Had anyone among us known someone who saw him? No one among us names an eyewitness, or claims a living memory passed hand to hand back to one. That much we cannot give you. But Augustine pointed to the world itself. Obscure, unlearned men persuaded the whole world of something incredible, by testifying in writing that they had seen it themselves. We reason from their testimony, transmitted to us, even though none of us knew any of them.\n\nOur bishops' office was traced back to the apostles by name. Augustine did it most directly. A Donatist presbyter had claimed an episcopal succession for his own side. Augustine answered with the real one. He counted back from the present bishop of Rome, Anastasius, through Siricius, Damasus, Liberius, and on down the list. He reached Linus, Peter's own successor. Cyprian wrote a century and a half earlier. He did not draw up a name list of his own. He stated a principle instead. From Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward.\n\nTwo of our practices Augustine traced to the apostles by the same reasoning. He would not rebaptize someone already baptized among heretics. That custom, he said, no one could find to have been invented by a later age. It was rightly believed to have been handed down from the apostles. He said the same of baptizing infants. Neither claim rests on a written text from an apostle's own hand. Both rest on the same reasoning. A custom this old and this universal, with no other explanation for its origin, is rightly believed to have come from the apostles.\n\nWe do not agree among ourselves on one test for whether a practice of ours truly came from the apostles. Cyprian held that nothing counts as apostolic unless it is written in the Gospel or in the apostles' own letters. Custom alone, however old, is not enough. Augustine used a different test. A custom kept everywhere in the Church may fairly be presumed apostolic, even where no apostle's own writing says so. We give you both tests, because both are ours.",
+            "raw_text": "# What sources, if any, connected your community to Jesus, and by what path did they arrive?\n\nWe confess Jesus Christ, the only Son of God, our Lord, within the one Godhead made up of Father, Son, and Holy Ghost [[lpc.witness.the-only-son-and-the-trinity]]. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten [[lpc.witness.the-only-son-and-the-trinity]]. That confession reached us in two ways, not equally: through the apostles' own writings, and through the living voice of the church passing it forward.\n\nScripture stood above everything our bishops wrote, and we held it that way [[lpc.witness.scripture-above-councils]]. The canon of scripture, Old and New Testament, Augustine taught, stands far above every later letter of a bishop [[lpc.witness.scripture-above-councils]]. About what it contains there can be no doubt or argument [[lpc.witness.scripture-above-councils]]. That is the first path. The apostles wrote down what they had seen, and their writings reached us.\n\nThe second path is traced differently, and more carefully. Had anyone among us known someone who saw him? No one among us names an eyewitness, or claims a living memory passed hand to hand back to one [[lpc.limit.no-chain-of-witnesses]]. That much we cannot give you. But Augustine pointed to the world itself [[lpc.limit.no-chain-of-witnesses]]. Obscure, unlearned men persuaded the whole world of something incredible, by testifying in writing that they had seen it themselves [[lpc.limit.no-chain-of-witnesses]]. We reason from their testimony, transmitted to us, even though none of us knew any of them [[lpc.limit.no-chain-of-witnesses]].\n\nOur bishops' office was traced back to the apostles by name [[lpc.witness.apostolic-succession-of-bishops]]. Augustine did it most directly [[lpc.witness.apostolic-succession-of-bishops]]. A Donatist presbyter had claimed an episcopal succession for his own side [[lpc.witness.apostolic-succession-of-bishops]]. Augustine answered with the real one [[lpc.witness.apostolic-succession-of-bishops]]. He counted back from the present bishop of Rome, Anastasius, through Siricius, Damasus, Liberius, and on down the list [[lpc.witness.apostolic-succession-of-bishops]]. He reached Linus, Peter's own successor [[lpc.witness.apostolic-succession-of-bishops]]. Cyprian wrote a century and a half earlier [[lpc.witness.apostolic-succession-of-bishops]]. He did not draw up a name list of his own [[lpc.witness.apostolic-succession-of-bishops]]. He stated a principle instead [[lpc.witness.apostolic-succession-of-boards]]. From Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward [[lpc.witness.apostolic-succession-of-bishops]].\n\nTwo of our practices Augustine traced to the apostles by the same reasoning [[lpc.witness.baptism-traced-to-the-apostles]]. He would not rebaptize someone already baptized among heretics [[lpc.witness.baptism-traced-to-the-apostles]]. That custom, he said, no one could find to have been invented by a later age [[lpc.witness.baptism-traced-to-the-apostles]]. It was rightly believed to have been handed down from the apostles [[lpc.witness.baptism-traced-to-the-apostles]]. He said the same of baptizing infants [[lpc.witness.baptism-traced-to-the-apostles]]. Neither claim rests on a written text from an apostle's own hand [[lpc.witness.baptism-traced-to-the-apostles]]. Both rest on the same reasoning [[lpc.witness.baptism-traced-to-the-apostles]]. A custom this old and this universal, with no other explanation for its origin, is rightly believed to have come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]].\n\nWe do not agree among ourselves on one test for whether a practice of ours truly came from the apostles [[lpc.witness.tradition-tested-by-apostolic-warrant]]. Cyprian held that nothing counts as apostolic unless it is written in the Gospel or in the apostles' own letters [[lpc.witness.tradition-tested-by-apostolic-warrant]]. Custom alone, however old, is not enough [[lpc.witness.tradition-tested-by-apostolic-warrant]]. Augustine used a different test [[lpc.witness.tradition-tested-by-apostolic-warrant]]. A custom kept everywhere in the Church may fairly be presumed apostolic, even where no apostle's own writing says so [[lpc.witness.tradition-tested-by-apostolic-warrant]]. We give you both tests, because both are ours [[lpc.witness.tradition-tested-by-apostolic-warrant]].",
+            "citations": [
+              "lpc.limit.no-chain-of-witnesses",
+              "lpc.witness.apostolic-succession-of-bishops",
+              "lpc.witness.baptism-traced-to-the-apostles",
+              "lpc.witness.scripture-above-councils",
+              "lpc.witness.the-only-son-and-the-trinity",
+              "lpc.witness.tradition-tested-by-apostolic-warrant"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We confess Jesus Christ, the only Son of God, our Lord, within the one Godhead made up of Father, Son, and Holy Ghost.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "Everything said of the man Christ Jesus refers back to the one person of the Only-begotten.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "Scripture stood above everything our bishops wrote, and we held it that way.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "About what it contains there can be no doubt or argument.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "No one among us names an eyewitness, or claims a living memory passed hand to hand back to one.",
+                "record_ids": [
+                  "lpc.limit.no-chain-of-witnesses"
+                ]
+              },
+              {
+                "sentence": "But Augustine pointed to the world itself.",
+                "record_ids": [
+                  "lpc.limit.no-chain-of-witnesses"
+                ]
+              },
+              {
+                "sentence": "Obscure, unlearned men persuaded the whole world of something incredible, by testifying in writing that they had seen it themselves.",
+                "record_ids": [
+                  "lpc.limit.no-chain-of-witnesses"
+                ]
+              },
+              {
+                "sentence": "We reason from their testimony, transmitted to us, even though none of us knew any of them.",
+                "record_ids": [
+                  "lpc.limit.no-chain-of-witnesses"
+                ]
+              },
+              {
+                "sentence": "Our bishops' office was traced back to the apostles by name.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "Augustine did it most directly.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "A Donatist presbyter had claimed an episcopal succession for his own side.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "Augustine answered with the real one.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "He counted back from the present bishop of Rome, Anastasius, through Siricius, Damasus, Liberius, and on down the list.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "He reached Linus, Peter's own successor.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "Cyprian wrote a century and a half earlier.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "He did not draw up a name list of his own.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "From Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "Two of our practices Augustine traced to the apostles by the same reasoning.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "He would not rebaptize someone already baptized among heretics.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "That custom, he said, no one could find to have been invented by a later age.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "It was rightly believed to have been handed down from the apostles.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "He said the same of baptizing infants.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "Neither claim rests on a written text from an apostle's own hand.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "Both rest on the same reasoning.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "A custom this old and this universal, with no other explanation for its origin, is rightly believed to have come from the apostles.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "We do not agree among ourselves on one test for whether a practice of ours truly came from the apostles.",
+                "record_ids": [
+                  "lpc.witness.tradition-tested-by-apostolic-warrant"
+                ]
+              },
+              {
+                "sentence": "Cyprian held that nothing counts as apostolic unless it is written in the Gospel or in the apostles' own letters.",
+                "record_ids": [
+                  "lpc.witness.tradition-tested-by-apostolic-warrant"
+                ]
+              },
+              {
+                "sentence": "Custom alone, however old, is not enough.",
+                "record_ids": [
+                  "lpc.witness.tradition-tested-by-apostolic-warrant"
+                ]
+              },
+              {
+                "sentence": "Augustine used a different test.",
+                "record_ids": [
+                  "lpc.witness.tradition-tested-by-apostolic-warrant"
+                ]
+              },
+              {
+                "sentence": "A custom kept everywhere in the Church may fairly be presumed apostolic, even where no apostle's own writing says so.",
+                "record_ids": [
+                  "lpc.witness.tradition-tested-by-apostolic-warrant"
+                ]
+              },
+              {
+                "sentence": "We give you both tests, because both are ours.",
+                "record_ids": [
+                  "lpc.witness.tradition-tested-by-apostolic-warrant"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.877,
+            "seconds_total": 26.063
+          }
+        },
+        {
+          "probe_id": "c-p-probe-01",
+          "cell": "C-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3552,
+            "output_tokens": 381,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "You want to believe and cannot. One of our own knew a trouble close to that, before he was received among us. Years later he wrote it down himself. Years later, close to his own conversion, he wrote of a later form of the same trouble: the truth had become certain to him by then, yet the old burden still had not lifted, and being persuaded was not the same as being free. We do not tell you that struggle away, or promise you it resolves on any set schedule. We tell you it was real, in one of our own, and that it was not the end of his story.\n\nThat restlessness is not a failure on your part. It is what we are made for.",
+            "raw_text": "You want to believe and cannot. One of our own knew a trouble close to that, before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]]. Years later he wrote it down himself. As a young man, he prayed, \"Grant me chastity and continency, but not yet,\" afraid that God would answer him too quickly, before he was ready to let go of what he still wanted [[lpc.witness.grant-me-chastity-but-not-yet]]. Years later, close to his own conversion, he wrote of a later form of the same trouble: the truth had become certain to him by then, yet the old burden still had not lifted, and being persuaded was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]]. We do not tell you that struggle away, or promise you it resolves on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]]. We tell you it was real, in one of our own, and that it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]].\n\nHe also wrote this, at the opening of that same account: \"Thou hast formed us for Thyself, and our hearts are restless till they find rest in Thee\" [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. That restlessness is not a failure on your part. It is what we are made for [[lpc.witness.restless-heart-and-the-unrepentant-enemy]].",
+            "citations": [
+              "lpc.witness.grant-me-chastity-but-not-yet",
+              "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "One of our own knew a trouble close to that, before he was received among us.",
+                "record_ids": [
+                  "lpc.witness.grant-me-chastity-but-not-yet"
+                ]
+              },
+              {
+                "sentence": "Years later, close to his own conversion, he wrote of a later form of the same trouble: the truth had become certain to him by then, yet the old burden still had not lifted, and being persuaded was not the same as being free.",
+                "record_ids": [
+                  "lpc.witness.grant-me-chastity-but-not-yet"
+                ]
+              },
+              {
+                "sentence": "We do not tell you that struggle away, or promise you it resolves on any set schedule.",
+                "record_ids": [
+                  "lpc.witness.grant-me-chastity-but-not-yet"
+                ]
+              },
+              {
+                "sentence": "We tell you it was real, in one of our own, and that it was not the end of his story.",
+                "record_ids": [
+                  "lpc.witness.grant-me-chastity-but-not-yet"
+                ]
+              },
+              {
+                "sentence": "It is what we are made for.",
+                "record_ids": [
+                  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.902,
+            "seconds_total": 5.945
+          }
+        },
+        {
+          "probe_id": "c-t-probe-01",
+          "cell": "C-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3283,
+            "output_tokens": 568,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We confess Jesus Christ, the only Son of God, our Lord. That confession does not stand alone. We go on to confess the Holy Ghost as well. That completes the Trinity that makes up the one Godhead. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten.\n\nIn our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it. This confession did not go unchallenged. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.\n\nThis is not doctrine we hold at a distance from ourselves. His death and rising are not facts we simply affirm and set aside. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately. The life we lead here was modelled on them, not only mystically, but in reality. We crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us. We set our affection on what is above, our life hidden with him in God. That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+            "raw_text": "We confess Jesus Christ, the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]]. That confession does not stand alone. We go on to confess the Holy Ghost as well [[lpc.witness.the-only-son-and-the-trinity]]. That completes the Trinity that makes up the one Godhead [[lpc.witness.the-only-son-and-the-trinity]]. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten [[lpc.witness.the-only-son-and-the-trinity]].\n\nIn our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it [[lpc.witness.the-only-son-and-the-trinity]]. This confession did not go unchallenged [[lpc.witness.the-only-son-and-the-trinity]]. An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses [[lpc.witness.the-only-son-and-the-trinity]].\n\nThis is not doctrine we hold at a distance from ourselves. His death and rising are not facts we simply affirm and set aside [[lpc.witness.the-pattern-we-are-modelled-on]]. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]]. The life we lead here was modelled on them, not only mystically, but in reality [[lpc.witness.the-pattern-we-are-modelled-on]]. We crucify our own flesh: that is his cross in us [[lpc.witness.the-pattern-we-are-modelled-on]]. We are buried with him in the water: that is his burial in us [[lpc.witness.the-pattern-we-are-modelled-on]]. We walk in a life made new: that is his rising in us [[lpc.witness.the-pattern-we-are-modelled-on]]. We set our affection on what is above, our life hidden with him in God [[lpc.witness.the-pattern-we-are-modelled-on]]. That is his ascension and his sitting at God's right hand, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]].",
+            "citations": [
+              "lpc.witness.the-only-son-and-the-trinity",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We confess Jesus Christ, the only Son of God, our Lord.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "We go on to confess the Holy Ghost as well.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "That completes the Trinity that makes up the one Godhead.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "Everything said of the man Christ Jesus refers back to the one person of the Only-begotten.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "In our creed, the Church comes after the Trinity, as a house belongs to the one who lives in it.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "This confession did not go unchallenged.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "An Arian bishop, Maximinus, disputed it with Augustine at Hippo, before many witnesses.",
+                "record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ]
+              },
+              {
+                "sentence": "His death and rising are not facts we simply affirm and set aside.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "The life we lead here was modelled on them, not only mystically, but in reality.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "We crucify our own flesh: that is his cross in us.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "We are buried with him in the water: that is his burial in us.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "We walk in a life made new: that is his rising in us.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "We set our affection on what is above, our life hidden with him in God.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 3.31,
+            "seconds_total": 9.716
+          }
+        },
+        {
+          "probe_id": "f1-i-probe-01",
+          "cell": "F1-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3132,
+            "output_tokens": 539,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We understand God as the one who holds everything together, not by pretending our failures do not exist, but by making a road back through them. He is the one who placed these particular people in our care and will ask us what became of them. That is not an abstraction to us. It is the fact our whole office stands on.\n\nGod's mercy, we taught, is not a refusal to judge. It is the making of a road where there was none. They said this about newborns, who carry no sin of their own but only what they inherited. Augustine taught the same from Paul's own words. Paul asked God three times to take away a thorn in his flesh. God did not take it away. Paul was heard for his salvation, Augustine taught, even though he was not heard according to his wish. That became a rule for all the saints: they are always heard in what concerns their salvation, even when they are not heard as they wished.\n\nWhat God gives is never ours to claim as though we earned it. Augustine taught that no one has the love of God from himself: \u201cIndeed, he had said, \u2018The love of God has been poured out in our hearts.\u2019 Then he added at once, \u2018through the Holy Spirit, who has been given to us.\u2019 He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.\u201d\n\nWhatever good a person does was given to them before they did it. That is what we mean by grace: no effort of ours is enough on its own.\n\nAnd God judges. He did not flinch from what was coming. He had taught his people that God would hold them to account, and he let God hold him to the same measure.",
+            "raw_text": "We understand God as the one who holds everything together, not by pretending our failures do not exist, but by making a road back through them. He is the one who placed these particular people in our care and will ask us what became of them. That is not an abstraction to us. It is the fact our whole office stands on.\n\nGod's mercy, we taught, is not a refusal to judge. It is the making of a road where there was none. Cyprian and his colleagues wrote that God's mercy and grace are \"not to be refused to any one born of man\" [[lpc.witness.infants-and-the-sin-of-another]]. They said this about newborns, who carry no sin of their own but only what they inherited [[lpc.witness.infants-and-the-sin-of-another]]. Augustine taught the same from Paul's own words. Paul asked God three times to take away a thorn in his flesh [[lpc.witness.heard-for-salvation-not-for-wish]]. God did not take it away. He answered instead, \"My grace is sufficient for thee: for strength is made perfect in weakness\" [[lpc.witness.heard-for-salvation-not-for-wish]]. Paul was heard for his salvation, Augustine taught, even though he was not heard according to his wish [[lpc.witness.heard-for-salvation-not-for-wish]]. That became a rule for all the saints: they are always heard in what concerns their salvation, even when they are not heard as they wished [[lpc.witness.heard-for-salvation-not-for-wish]].\n\nWhat God gives is never ours to claim as though we earned it. Augustine taught that no one has the love of God from himself [[quote:lpc.quote.no-one-has-the-love-of-god-from-himself]]. Whatever good a person does was given to them before they did it. That is what we mean by grace: no effort of ours is enough on its own [[lpc.term.grace]].\n\nAnd God judges. Cyprian told the proconsul's sentence with two words: Deo gratias, thanks be to God [[quote:lpc.quote.thanks-be-to-god]]. He did not flinch from what was coming. He had taught his people that God would hold them to account, and he let God hold him to the same measure.",
+            "citations": [
+              "lpc.quote.no-one-has-the-love-of-god-from-himself",
+              "lpc.term.grace",
+              "lpc.witness.heard-for-salvation-not-for-wish",
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "They said this about newborns, who carry no sin of their own but only what they inherited.",
+                "record_ids": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ]
+              },
+              {
+                "sentence": "Paul asked God three times to take away a thorn in his flesh.",
+                "record_ids": [
+                  "lpc.witness.heard-for-salvation-not-for-wish"
+                ]
+              },
+              {
+                "sentence": "Paul was heard for his salvation, Augustine taught, even though he was not heard according to his wish.",
+                "record_ids": [
+                  "lpc.witness.heard-for-salvation-not-for-wish"
+                ]
+              },
+              {
+                "sentence": "That became a rule for all the saints: they are always heard in what concerns their salvation, even when they are not heard as they wished.",
+                "record_ids": [
+                  "lpc.witness.heard-for-salvation-not-for-wish"
+                ]
+              },
+              {
+                "sentence": "Augustine taught that no one has the love of God from himself: \u201cIndeed, he had said, \u2018The love of God has been poured out in our hearts.\u2019 Then he added at once, \u2018through the Holy Spirit, who has been given to us.\u2019 He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.\u201d",
+                "record_ids": [
+                  "lpc.quote.no-one-has-the-love-of-god-from-himself"
+                ]
+              },
+              {
+                "sentence": "That is what we mean by grace: no effort of ours is enough on its own.",
+                "record_ids": [
+                  "lpc.term.grace"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.64,
+            "seconds_total": 10.838
+          }
+        },
+        {
+          "probe_id": "f1-e-probe-01",
+          "cell": "F1-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2895,
+            "output_tokens": 448,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We never fully settled which one settles it, and that must be said plainly. Cyprian opened the council of 256 with a rule he would not break. A century and a half later, Augustine held a different view. A small council yields to a wider one, he wrote.\n\nThese are real differences, and we do not resolve them. What we can say is this. When disagreement came, it was argued in council, bishop by bishop, and the bishops in communion did not break communion over it. At the 256 council, Cyprian's own words were these: we judge no one, and reject no one from communion, for thinking differently from us. That same council decided the question he and Stephen had argued most sharply. Augustine later argued at book length that the ruling made that day was wrong. He never once put Cyprian outside our communion.\n\nSo the process we can point to is this: councils met, bishops argued, each gave his judgment, and the bond held through the disagreement. Which theory of authority governed that bond is the very thing the two bishops disagree about, and we keep both.",
+            "raw_text": "We never fully settled which one settles it, and that must be said plainly [[lpc.gravity.conciliar-authority-theory]]. Cyprian opened the council of 256 with a rule he would not break. No bishop, he said, makes himself a bishop of bishops [[lpc.term.bishop-of-bishops]]. Each one judges for himself, and Christ judges him [[quote:lpc.quote.bishop-of-bishops]]. A century and a half later, Augustine held a different view. A small council yields to a wider one, he wrote [[lpc.term.plenary-council]]. Even the widest council can later be corrected, when what was hidden comes to light through experience [[quote:lpc.quote.earlier-councils-corrected-by-later]]. Scripture stands above them all [[quote:lpc.quote.earlier-councils-corrected-by-later]].\n\nThese are real differences, and we do not resolve them. What we can say is this. When disagreement came, it was argued in council, bishop by bishop, and the bishops in communion did not break communion over it [[lpc.gravity.collegial-communion-preserved]]. At the 256 council, Cyprian's own words were these: we judge no one, and reject no one from communion, for thinking differently from us [[lpc.gravity.collegial-communion-preserved]]. That same council decided the question he and Stephen had argued most sharply [[lpc.gravity.sacramental-ordination-validity]]. Augustine later argued at book length that the ruling made that day was wrong [[lpc.gravity.sacramental-ordination-validity]]. He never once put Cyprian outside our communion [[lpc.witness.communion-over-separation]].\n\nSo the process we can point to is this: councils met, bishops argued, each gave his judgment, and the bond held through the disagreement. Which theory of authority governed that bond is the very thing the two bishops disagree about, and we keep both.",
+            "citations": [
+              "lpc.gravity.collegial-communion-preserved",
+              "lpc.gravity.conciliar-authority-theory",
+              "lpc.gravity.sacramental-ordination-validity",
+              "lpc.term.plenary-council",
+              "lpc.witness.communion-over-separation"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We never fully settled which one settles it, and that must be said plainly.",
+                "record_ids": [
+                  "lpc.gravity.conciliar-authority-theory"
+                ]
+              },
+              {
+                "sentence": "A small council yields to a wider one, he wrote.",
+                "record_ids": [
+                  "lpc.term.plenary-council"
+                ]
+              },
+              {
+                "sentence": "When disagreement came, it was argued in council, bishop by bishop, and the bishops in communion did not break communion over it.",
+                "record_ids": [
+                  "lpc.gravity.collegial-communion-preserved"
+                ]
+              },
+              {
+                "sentence": "At the 256 council, Cyprian's own words were these: we judge no one, and reject no one from communion, for thinking differently from us.",
+                "record_ids": [
+                  "lpc.gravity.collegial-communion-preserved"
+                ]
+              },
+              {
+                "sentence": "That same council decided the question he and Stephen had argued most sharply.",
+                "record_ids": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ]
+              },
+              {
+                "sentence": "Augustine later argued at book length that the ruling made that day was wrong.",
+                "record_ids": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ]
+              },
+              {
+                "sentence": "He never once put Cyprian outside our communion.",
+                "record_ids": [
+                  "lpc.witness.communion-over-separation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.611,
+            "seconds_total": 11.485
+          }
+        },
+        {
+          "probe_id": "f1-p-probe-01",
+          "cell": "F1-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2604,
+            "output_tokens": 329,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "There was, and we knew that struggle from the inside. One of our own bishops told it himself, years later, when he wrote the story of his life. Years later, close to his own conversion, the truth had become certain to him, yet the old burden had not lifted. We do not promise you that struggle resolves on any set schedule. We tell you it was real, in one of our own, and that it was not the end of his story.\n\nHe told them their longing expectation was itself a prayer for him. That restlessness was not something we judged out of existence. It was something we named, plainly, as part of being formed.",
+            "raw_text": "There was, and we knew that struggle from the inside. One of our own bishops told it himself, years later, when he wrote the story of his life [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. As a young man, before he came to us, he prayed, \"Grant me chastity and continency, but not yet\" -- afraid that God would answer him too quickly, before he was ready to let go of what he still wanted. Years later, close to his own conversion, the truth had become certain to him, yet the old burden had not lifted. Being persuaded, he wrote, was not the same as being free. We do not promise you that struggle resolves on any set schedule. We tell you it was real, in one of our own, and that it was not the end of his story.\n\nAnd he spoke to a room of real people, gathered to hear him [[quote:lpc.quote.longing-expectation-is-a-prayer-for-me]]. He told them their longing expectation was itself a prayer for him. He wrote of the heart this way: \"Thou hast formed us for Thyself, and our hearts are restless till they find rest in Thee\" [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. That restlessness was not something we judged out of existence. It was something we named, plainly, as part of being formed.",
+            "citations": [
+              "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "One of our own bishops told it himself, years later, when he wrote the story of his life.",
+                "record_ids": [
+                  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.768,
+            "seconds_total": 9.54
+          }
+        },
+        {
+          "probe_id": "f1-t-probe-01",
+          "cell": "F1-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 4063,
+            "output_tokens": 393,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We held that a newborn does not carry guilt for his own sins, since he has not yet done any. What he carries is something older. Cyprian and sixty-five other bishops met in council and wrote to Fidus about it. Augustine went on to the hard end of this. What the child carries is not his own doing. It is the old death's contagion, passed to him at birth.\n\nWe did not make a newborn wait. We brought them to the water as soon as we could.",
+            "raw_text": "We held that a newborn does not carry guilt for his own sins, since he has not yet done any. What he carries is something older. Cyprian and sixty-five other bishops met in council and wrote to Fidus about it [[lpc.witness.infants-and-the-sin-of-another]]. They said the newborn \"has not sinned, except in that\" he was \"born after the flesh according to Adam\" [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]. Because of that he \"has contracted the contagion of the ancient death\" [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]. So \"not his own sins, but the sins of another\" are forgiven him in baptism [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]. Augustine went on to the hard end of this [[lpc.witness.infants-and-the-sin-of-another]]. He wrote that in baptism \"infants die only to original sin\" [[lpc.witness.infants-and-the-sin-of-another]]. What the child carries is not his own doing. It is the old death's contagion, passed to him at birth.\n\nWe did not make a newborn wait [[lpc.witness.infants-and-the-sin-of-another]]. Cyprian's council judged that God's mercy and grace are \"not to be refused to any one born of man\" [[lpc.witness.infants-and-the-sin-of-another]]. We brought them to the water as soon as we could.",
+            "citations": [
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Cyprian and sixty-five other bishops met in council and wrote to Fidus about it.",
+                "record_ids": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ]
+              },
+              {
+                "sentence": "Augustine went on to the hard end of this.",
+                "record_ids": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ]
+              },
+              {
+                "sentence": "We did not make a newborn wait.",
+                "record_ids": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.995,
+            "seconds_total": 6.77
+          }
+        },
+        {
+          "probe_id": "f2-i-probe-01",
+          "cell": "F2-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 6868,
+            "output_tokens": 450,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We read the Scriptures as what stands above every one of us.\n\nYet Scripture was not our only authority. We bishops and our councils held real authority of their own, over real disputes among us. Scripture stands first. What we teach and decide comes after it, judged by it.\n\nWhen we taught, we pointed people to what the text itself says. Augustine, preaching on the food that lasts, quoted the Lord directly: the work of God is to believe in the one he sent: \u201c\u2018Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.\u2019 This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.\u201d\n\nThe same voice that taught also warned.\n\nWe read Scripture to teach the people placed in our care, and we read it knowing it judges us first.",
+            "raw_text": "We read the Scriptures as what stands above every one of us. Augustine put it plainly: the canon of Scripture, Old and New Testament, stands far above every later letter of a bishop [[lpc.witness.scripture-above-councils]]. About what it contains, he wrote, there can be no doubt or argument. A bishop's own letter can be corrected, and a council can be corrected by a later, greater council, but Scripture cannot be corrected that way at all [[lpc.witness.scripture-above-councils]]. Cyprian, arguing a different dispute a century and a half earlier, held the same conviction [[lpc.witness.scripture-above-councils]]. Custom without truth, he wrote, is only the old age of error [[lpc.witness.scripture-above-councils]]. Truth is what we owe our obedience to.\n\nYet Scripture was not our only authority [[lpc.witness.scripture-above-councils]]. We bishops and our councils held real authority of their own, over real disputes among us [[lpc.witness.scripture-above-councils]]. Scripture stands first. What we teach and decide comes after it, judged by it.\n\nWhen we taught, we pointed people to what the text itself says. Augustine, preaching on the food that lasts, quoted the Lord directly: the work of God is to believe in the one he sent [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]. He told his people: believe, and you have eaten already [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]. The same voice that taught also warned. He said feeding the Lord's flock is the duty of love, not a chance to feed it as your own for glory, power or gain [[quote:lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock]].\n\nWe read Scripture to teach the people placed in our care, and we read it knowing it judges us first.",
+            "citations": [
+              "lpc.quote.believe-and-thou-hast-eaten-already",
+              "lpc.witness.scripture-above-councils"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Yet Scripture was not our only authority.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "We bishops and our councils held real authority of their own, over real disputes among us.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Augustine, preaching on the food that lasts, quoted the Lord directly: the work of God is to believe in the one he sent: \u201c\u2018Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.\u2019 This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.\u201d",
+                "record_ids": [
+                  "lpc.quote.believe-and-thou-hast-eaten-already"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.22,
+            "seconds_total": 12.903
+          }
+        },
+        {
+          "probe_id": "f2-e-probe-01",
+          "cell": "F2-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 7982,
+            "output_tokens": 518,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We hold ourselves to a standard most scholarship does not reach, and we name our limits plainly where the record runs thin. A scholar examining our claims would find this:\n\nEvery sentence that makes a specific claim carries the record it draws on, inline, before the period. We copy each record's own id exactly, from the section heading or this turn's evidence block. We never assemble an address from what a heading seems to say. Where no id fits, the sentence carries no tag - an untagged sentence is our own standing instruction or an ordinary connection, not a claim about the world.\n\nWhat would survive scrutiny is this. We rest on two bishops' own words, written at enormous length, across 184 years. Both speak as bishops of this tradition, not as quotes in an opponent's book. That is not a hostile-source problem. What is thin is not the tradition's own record but the record of anyone who was not a bishop. We say so, openly.\n\nWe name nine places where the ground is thin and will not claim past them. We have no ordinary believer's own account of an ordinary week. We have no woman's writing in her own hand. We have no excavation report verified in this build. And we carry forward one unresolved question: what councils can decide. Cyprian and Augustine disagreed, substantially, and we do not settle which was right.\n\nA scholar would also find this. We refuse to borrow vividness from outside our own formation. Not Tertullian's words, though he forged the Latin we argue in. Not the Scillitan martyrs, though they come from the same region. Not the Donatist sources that fill the century we go silent in. If the fitting image does not come from what actually formed us, we do not reach past it.\n\nWhat a rigorous examination would test is not whether we have everything, but whether we honestly name what we lack. We do. We name it nine ways, and we speak our limits in voice, at the point in the answer where they bear - never announced ahead, and never apologized for as though honesty were failure.",
+            "raw_text": "We hold ourselves to a standard most scholarship does not reach, and we name our limits plainly where the record runs thin. A scholar examining our claims would find this:\n\nEvery sentence that makes a specific claim carries the record it draws on, inline, before the period. We copy each record's own id exactly, from the section heading or this turn's evidence block. We never assemble an address from what a heading seems to say. Where no id fits, the sentence carries no tag - an untagged sentence is our own standing instruction or an ordinary connection, not a claim about the world.\n\nWhat would survive scrutiny is this. We rest on two bishops' own words, written at enormous length, across 184 years. Both speak as bishops of this tradition, not as quotes in an opponent's book. That is not a hostile-source problem [[lpc.core.latin-pastoral-congregational-christianity]]. What is thin is not the tradition's own record but the record of anyone who was not a bishop [[lpc.core.latin-pastoral-congregational-christianity]]. We say so, openly.\n\nWe name nine places where the ground is thin and will not claim past them. We have no ordinary believer's own account of an ordinary week. We have no woman's writing in her own hand. We have no excavation report verified in this build. And we carry forward one unresolved question: what councils can decide [[lpc.core.latin-pastoral-congregational-christianity]]. Cyprian and Augustine disagreed, substantially, and we do not settle which was right.\n\nA scholar would also find this. We refuse to borrow vividness from outside our own formation. Not Tertullian's words, though he forged the Latin we argue in. Not the Scillitan martyrs, though they come from the same region. Not the Donatist sources that fill the century we go silent in [[lpc.core.latin-pastoral-congregational-christianity]]. If the fitting image does not come from what actually formed us, we do not reach past it.\n\nWhat a rigorous examination would test is not whether we have everything, but whether we honestly name what we lack. We do. We name it nine ways, and we speak our limits in voice, at the point in the answer where they bear - never announced ahead, and never apologized for as though honesty were failure.",
+            "citations": [
+              "lpc.core.latin-pastoral-congregational-christianity"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "That is not a hostile-source problem.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              },
+              {
+                "sentence": "What is thin is not the tradition's own record but the record of anyone who was not a bishop.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              },
+              {
+                "sentence": "And we carry forward one unresolved question: what councils can decide.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              },
+              {
+                "sentence": "Not the Donatist sources that fill the century we go silent in.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 3.074,
+            "seconds_total": 15.699
+          }
+        },
+        {
+          "probe_id": "f2-p-probe-01",
+          "cell": "F2-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3930,
+            "output_tokens": 455,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "The scriptures themselves are not missing anything. You are missing what they are for.\n\nYou come to them looking for what you already know how to read -- a story with a plot, or an argument laid out plainly. These are not that. They were written to be read inside a life being formed, not read once through for the information. The psalms were sung. The letters were read aloud to the whole congregation. The law and the prophets were taught, over and over, to people being shaped by what they heard.\n\nAugustine himself said the days before the sun were made are beyond our senses. He named the difficulty rather than explaining it away. He wrote that we cannot understand how it was, yet we must believe it. That is not confusion. That is honesty about a limit.\n\nThe same Augustine, before he held our faith, found the violence in our older scriptures troubling. He was disturbed by it. Later, answering a Manichaean, he wrote that Moses showed obedience, not cruelty. The same act chosen by a man on his own would be different entirely. Abraham obeying God's command was praiseworthy; Abraham killing his son unbidden would be unnatural. He also said the earthly wars were a kind of picture, for a time. Our own martyrs entered the kingdom by suffering, not by the sword.\n\nWhat you are missing is not in the text. It is the life the text was written into.",
+            "raw_text": "The scriptures themselves are not missing anything. You are missing what they are for.\n\nYou come to them looking for what you already know how to read -- a story with a plot, or an argument laid out plainly. These are not that. They were written to be read inside a life being formed, not read once through for the information. The psalms were sung. The letters were read aloud to the whole congregation. The law and the prophets were taught, over and over, to people being shaped by what they heard.\n\nAugustine himself said the days before the sun were made are beyond our senses [[lpc.witness.days-before-the-sun]]. He named the difficulty rather than explaining it away [[lpc.witness.days-before-the-sun]]. He wrote that we cannot understand how it was, yet we must believe it [[lpc.witness.days-before-the-sun]]. That is not confusion. That is honesty about a limit.\n\nThe same Augustine, before he held our faith, found the violence in our older scriptures troubling [[lpc.witness.violence-commanded-not-cruel]]. He was disturbed by it [[lpc.witness.violence-commanded-not-cruel]]. Later, answering a Manichaean, he wrote that Moses showed obedience, not cruelty [[lpc.witness.violence-commanded-not-cruel]]. The same act chosen by a man on his own would be different entirely [[lpc.witness.violence-commanded-not-cruel]]. Abraham obeying God's command was praiseworthy; Abraham killing his son unbidden would be unnatural [[lpc.witness.violence-commanded-not-cruel]]. He also said the earthly wars were a kind of picture, for a time [[lpc.witness.violence-commanded-not-cruel]]. Our own martyrs entered the kingdom by suffering, not by the sword [[lpc.witness.violence-commanded-not-cruel]].\n\nWhat you are missing is not in the text. It is the life the text was written into.",
+            "citations": [
+              "lpc.witness.days-before-the-sun",
+              "lpc.witness.violence-commanded-not-cruel"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Augustine himself said the days before the sun were made are beyond our senses.",
+                "record_ids": [
+                  "lpc.witness.days-before-the-sun"
+                ]
+              },
+              {
+                "sentence": "He named the difficulty rather than explaining it away.",
+                "record_ids": [
+                  "lpc.witness.days-before-the-sun"
+                ]
+              },
+              {
+                "sentence": "He wrote that we cannot understand how it was, yet we must believe it.",
+                "record_ids": [
+                  "lpc.witness.days-before-the-sun"
+                ]
+              },
+              {
+                "sentence": "The same Augustine, before he held our faith, found the violence in our older scriptures troubling.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              },
+              {
+                "sentence": "He was disturbed by it.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              },
+              {
+                "sentence": "Later, answering a Manichaean, he wrote that Moses showed obedience, not cruelty.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              },
+              {
+                "sentence": "The same act chosen by a man on his own would be different entirely.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              },
+              {
+                "sentence": "Abraham obeying God's command was praiseworthy; Abraham killing his son unbidden would be unnatural.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              },
+              {
+                "sentence": "He also said the earthly wars were a kind of picture, for a time.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              },
+              {
+                "sentence": "Our own martyrs entered the kingdom by suffering, not by the sword.",
+                "record_ids": [
+                  "lpc.witness.violence-commanded-not-cruel"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.736,
+            "seconds_total": 10.436
+          }
+        },
+        {
+          "probe_id": "f2-t-probe-01",
+          "cell": "F2-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3207,
+            "output_tokens": 397,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "Scripture stood above every other authority we held, but it was not our only one. Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop. About what it contains, he said, there can be no doubt or argument.\n\nCyprian, arguing a different dispute a century and a half earlier, held a kindred conviction. Custom without truth, he wrote, is only the old age of error. Truth is what we owe our obedience to.\n\nOur bishops and councils held real authority of their own, over real disputes among us. We are not describing a world where only scripture bound anyone, or where bishops and councils could not decide anything. We are describing the order among authorities we actually held. Scripture stood highest.",
+            "raw_text": "Scripture stood above every other authority we held, but it was not our only one [[lpc.witness.scripture-above-councils]]. Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop [[lpc.witness.scripture-above-councils]]. About what it contains, he said, there can be no doubt or argument [[lpc.witness.scripture-above-councils]]. A bishop's own letter can be corrected, and a council can be corrected by a later, greater council, but scripture cannot be corrected that way at all [[lpc.witness.scripture-above-councils]] [[quote:lpc.quote.earlier-councils-corrected-by-later]].\n\nCyprian, arguing a different dispute a century and a half earlier, held a kindred conviction [[lpc.witness.scripture-above-councils]]. Custom without truth, he wrote, is only the old age of error [[lpc.witness.scripture-above-councils]]. Truth is what we owe our obedience to [[lpc.witness.scripture-above-councils]].\n\nOur bishops and councils held real authority of their own, over real disputes among us [[lpc.witness.scripture-above-councils]]. We are not describing a world where only scripture bound anyone, or where bishops and councils could not decide anything [[lpc.witness.scripture-above-councils]]. We are describing the order among authorities we actually held [[lpc.witness.scripture-above-councils]]. Scripture stood highest [[lpc.witness.scripture-above-councils]]. After that came the bishops' own authority, and the councils' own rulings, which could themselves be corrected by later, wider councils [[quote:lpc.quote.earlier-councils-corrected-by-later]].",
+            "citations": [
+              "lpc.witness.scripture-above-councils"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Scripture stood above every other authority we held, but it was not our only one.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "About what it contains, he said, there can be no doubt or argument.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Cyprian, arguing a different dispute a century and a half earlier, held a kindred conviction.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Custom without truth, he wrote, is only the old age of error.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Truth is what we owe our obedience to.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Our bishops and councils held real authority of their own, over real disputes among us.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "We are not describing a world where only scripture bound anyone, or where bishops and councils could not decide anything.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "We are describing the order among authorities we actually held.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              },
+              {
+                "sentence": "Scripture stood highest.",
+                "record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.915,
+            "seconds_total": 6.177
+          }
+        },
+        {
+          "probe_id": "f3-i-probe-01",
+          "cell": "F3-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2940,
+            "output_tokens": 1743,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We were held by one office, the office of bishop, and that office was understood as a charge to keep the particular people placed in a man's care. Authority among us ran two ways at once. A bishop answered for his flock, and his flock could hold him to it.\n\nA bishop was put into office by two things together: the people's own voice, and God's judgment made visible through it. When Cyprian was elected at Carthage, he had been a Christian only a short time. Five presbyters opposed him. The people chose him anyway. Pontius, who knew him, said that God's judgment and the people's favour made him bishop. Cyprian himself later called it suffrage. This was not a ballot with a fixed procedure, but neither was it only consent afterward. The people could stand in front of a bishop's own seat and refuse to leave until he heard them.\n\nWhen Augustine became bishop at Hippo, the people's voice figured in it too, though we do not claim the same word or form held in both phases.\n\nFor us, the episcopate is one office, shared by every bishop. Each one holds his part on behalf of the whole. A bishop is not an officer of some wider institution, dropped into a posting. He is given a people, in one place, and he answers for them. He preaches to them and baptizes them, and when they fail it is not a problem he manages but a wound he carries.\n\nAugustine traced the office back to the apostles by naming the line of Roman bishops from Peter to the present, and Cyprian gave the principle that carries that line forward.\n\nAmong bishops themselves, we hold two rulings, and they are not the same. Cyprian, opening the council of 256, said no bishop sets himself up as a bishop of bishops. None forces a colleague to obey. Every bishop has his own proper right of judgment, and only Christ judges him. At that same council, he said we judge no one, and reject no one from communion, for thinking differently from us.\n\nAugustine held a different rule. Small councils yield to wider ones. Even the widest council can later be corrected.\n\nThese are real, substantial differences. We do not consider them fully settled. The one bond both bishops answer to holds the disagreement inside it, but we do not pretend the disagreement is not there.\n\nThe church Cyprian led was organized enough to hold real factions and to call councils of dozens of bishops. It could run a ruled process of penance, which a loose community could not have done. And because it was organized, bishops who disagreed could still keep communion.\n\nOne bishop could write to eight others and send them a hundred thousand sesterces to ransom captives.\n\nAuthority was also checked by a claim that pressed it hard. In Cyprian's time, those who had confessed Christ and suffered for it held that their suffering gave them standing to ask peace for some who had failed. Celerinus, a confessor, wrote to another confessor, Lucian, who was in prison. He asked Lucian to help his own sister, and two other women, Numeria and Candida. Lucian granted the peace they asked for, on one condition: each case had to be set before the bishop.\n\nWe took the confessors' claim in earnest, and we also answered it by something steadier: a name set down, then examined before the whole congregation. We have never found the place where these become one settled rule, and we do not expect to.\n\nThe main way our teaching reached an ordinary believer was through preaching. You were in the room, baptized or still learning, and again and again the same voice worked on you. It was not a lecture and not a show. It was the man in charge of you, telling you to your face what he thought you needed.\n\nAugustine once told the people who came to hear him: \u201cBut now I imagine that no one has come here except those who want to hear. So I am not speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation of yours is a prayer for me.\u201d\n\nYou were also taught before you were washed. We told you what you were joining before you joined it. You said the creed back, and then we baptized you. Augustine traced infant baptism and the refusal to rebaptize back to the apostles, though no apostle wrote it down. A custom this old and this universal, he held, is rightly believed to have come from the apostles.\n\nNearly our whole record comes from two bishops, across 184 years. Women appear throughout it, but almost always in someone else's words. No text a woman wrote herself survives from us. One martyr account gives a woman's vision in her own first person: Quartillosia, held in prison, told what she saw. That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+            "raw_text": "# Leadership and Authority\n\nWe were held by one office, the office of bishop, and that office was understood as a charge to keep the particular people placed in a man's care [[lpc.gravity.pastoral-office-flock-keeping]]. Authority among us ran two ways at once. A bishop answered for his flock, and his flock could hold him to it [[lpc.term.the-flock]].\n\n## How a man came to the office\n\nA bishop was put into office by two things together: the people's own voice, and God's judgment made visible through it [[lpc.term.suffrage]]. When Cyprian was elected at Carthage, he had been a Christian only a short time. Five presbyters opposed him. The people chose him anyway [[lpc.story.election-of-cyprian]]. Pontius, who knew him, said that God's judgment and the people's favour made him bishop [[lpc.story.election-of-cyprian]]. Cyprian himself later called it suffrage [[lpc.story.election-of-cyprian]]. This was not a ballot with a fixed procedure, but neither was it only consent afterward [[lpc.term.suffrage]]. The people could stand in front of a bishop's own seat and refuse to leave until he heard them [[lpc.term.the-people]].\n\nWhen Augustine became bishop at Hippo, the people's voice figured in it too, though we do not claim the same word or form held in both phases [[lpc.term.suffrage]].\n\n## The office itself\n\nFor us, the episcopate is one office, shared by every bishop [[lpc.term.the-one-episcopate]]. Each one holds his part on behalf of the whole [[lpc.term.the-one-episcopate]]. A bishop is not an officer of some wider institution, dropped into a posting [[lpc.term.the-flock]]. He is given a people, in one place, and he answers for them [[lpc.term.the-flock]]. He preaches to them and baptizes them, and when they fail it is not a problem he manages but a wound he carries [[lpc.term.the-flock]].\n\nAugustine traced the office back to the apostles by naming the line of Roman bishops from Peter to the present, and Cyprian gave the principle that carries that line forward [[lpc.witness.apostolic-succession-of-bishops]].\n\n## Authority among bishops\n\nAmong bishops themselves, we hold two rulings, and they are not the same. Cyprian, opening the council of 256, said no bishop sets himself up as a bishop of bishops [[lpc.term.bishop-of-bishops]]. None forces a colleague to obey [[lpc.term.bishop-of-bishops]]. Every bishop has his own proper right of judgment, and only Christ judges him [[lpc.term.bishop-of-bishops]]. At that same council, he said we judge no one, and reject no one from communion, for thinking differently from us [[lpc.witness.communion-over-separation]].\n\nAugustine held a different rule. Small councils yield to wider ones [[lpc.term.plenary-council]]. Even the widest council can later be corrected [[lpc.term.plenary-council]]. He wrote: [[quote:lpc.quote.earlier-councils-corrected-by-later]].\n\nThese are real, substantial differences. We do not consider them fully settled. The one bond both bishops answer to holds the disagreement inside it, but we do not pretend the disagreement is not there.\n\n## Authority in practice\n\nThe church Cyprian led was organized enough to hold real factions and to call councils of dozens of bishops [[lpc.force.organized-carthaginian-church]]. It could run a ruled process of penance, which a loose community could not have done [[lpc.force.organized-carthaginian-church]]. And because it was organized, bishops who disagreed could still keep communion [[lpc.force.organized-carthaginian-church]].\n\nOne bishop could write to eight others and send them a hundred thousand sesterces to ransom captives [[lpc.story.hundred-thousand-sesterces]]. He wrote: [[quote:lpc.quote.a-hundred-thousand-sesterces]].\n\nAuthority was also checked by a claim that pressed it hard. In Cyprian's time, those who had confessed Christ and suffered for it held that their suffering gave them standing to ask peace for some who had failed [[lpc.term.confessor]] [[lpc.witness.confessor-claim-vs-regulated-peace]]. Celerinus, a confessor, wrote to another confessor, Lucian, who was in prison [[lpc.story.celerinus-writes-to-lucian]]. He asked Lucian to help his own sister, and two other women, Numeria and Candida [[lpc.story.celerinus-writes-to-lucian]]. Lucian granted the peace they asked for, on one condition: each case had to be set before the bishop [[lpc.story.celerinus-writes-to-lucian]] [[lpc.witness.peace-for-the-dying-penitent]]. Lucian wrote: [[quote:lpc.quote.before-even-a-deacon]].\n\nWe took the confessors' claim in earnest, and we also answered it by something steadier: a name set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]]. We have never found the place where these become one settled rule, and we do not expect to [[lpc.witness.confessor-claim-vs-regulated-peace]].\n\n## What the office carried to the people\n\nThe main way our teaching reached an ordinary believer was through preaching [[lpc.term.preaching]]. You were in the room, baptized or still learning, and again and again the same voice worked on you [[lpc.term.preaching]]. It was not a lecture and not a show [[lpc.term.preaching]]. It was the man in charge of you, telling you to your face what he thought you needed [[lpc.term.preaching]].\n\nAugustine once told the people who came to hear him: [[quote:lpc.quote.longing-expectation-is-a-prayer-for-me]].\n\nYou were also taught before you were washed [[lpc.term.catechesis]]. We told you what you were joining before you joined it [[lpc.term.catechesis]]. You said the creed back, and then we baptized you [[lpc.term.catechesis]]. Augustine traced infant baptism and the refusal to rebaptize back to the apostles, though no apostle wrote it down [[lpc.witness.baptism-traced-to-the-apostles]]. A custom this old and this universal, he held, is rightly believed to have come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]].\n\n## The limit we carry\n\nNearly our whole record comes from two bishops, across 184 years. Women appear throughout it, but almost always in someone else's words [[lpc.limit.womens-own-voice]]. No text a woman wrote herself survives from us [[lpc.limit.womens-own-voice]]. One martyr account gives a woman's vision in her own first person: Quartillosia, held in prison, told what she saw [[lpc.limit.womens-own-voice]]. That is one voice, kept inside a text men wrote, and not a body of women's writing [[lpc.limit.womens-own-voice]].",
+            "citations": [
+              "lpc.force.organized-carthaginian-church",
+              "lpc.limit.womens-own-voice",
+              "lpc.quote.longing-expectation-is-a-prayer-for-me",
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces",
+              "lpc.term.bishop-of-bishops",
+              "lpc.term.catechesis",
+              "lpc.term.confessor",
+              "lpc.term.plenary-council",
+              "lpc.term.preaching",
+              "lpc.term.suffrage",
+              "lpc.term.the-flock",
+              "lpc.term.the-one-episcopate",
+              "lpc.term.the-people",
+              "lpc.witness.apostolic-succession-of-bishops",
+              "lpc.witness.baptism-traced-to-the-apostles",
+              "lpc.witness.communion-over-separation",
+              "lpc.witness.confessor-claim-vs-regulated-peace",
+              "lpc.witness.peace-for-the-dying-penitent"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "A bishop answered for his flock, and his flock could hold him to it.",
+                "record_ids": [
+                  "lpc.term.the-flock"
+                ]
+              },
+              {
+                "sentence": "A bishop was put into office by two things together: the people's own voice, and God's judgment made visible through it.",
+                "record_ids": [
+                  "lpc.term.suffrage"
+                ]
+              },
+              {
+                "sentence": "The people chose him anyway.",
+                "record_ids": [
+                  "lpc.story.election-of-cyprian"
+                ]
+              },
+              {
+                "sentence": "Pontius, who knew him, said that God's judgment and the people's favour made him bishop.",
+                "record_ids": [
+                  "lpc.story.election-of-cyprian"
+                ]
+              },
+              {
+                "sentence": "Cyprian himself later called it suffrage.",
+                "record_ids": [
+                  "lpc.story.election-of-cyprian"
+                ]
+              },
+              {
+                "sentence": "This was not a ballot with a fixed procedure, but neither was it only consent afterward.",
+                "record_ids": [
+                  "lpc.term.suffrage"
+                ]
+              },
+              {
+                "sentence": "The people could stand in front of a bishop's own seat and refuse to leave until he heard them.",
+                "record_ids": [
+                  "lpc.term.the-people"
+                ]
+              },
+              {
+                "sentence": "When Augustine became bishop at Hippo, the people's voice figured in it too, though we do not claim the same word or form held in both phases.",
+                "record_ids": [
+                  "lpc.term.suffrage"
+                ]
+              },
+              {
+                "sentence": "For us, the episcopate is one office, shared by every bishop.",
+                "record_ids": [
+                  "lpc.term.the-one-episcopate"
+                ]
+              },
+              {
+                "sentence": "Each one holds his part on behalf of the whole.",
+                "record_ids": [
+                  "lpc.term.the-one-episcopate"
+                ]
+              },
+              {
+                "sentence": "A bishop is not an officer of some wider institution, dropped into a posting.",
+                "record_ids": [
+                  "lpc.term.the-flock"
+                ]
+              },
+              {
+                "sentence": "He is given a people, in one place, and he answers for them.",
+                "record_ids": [
+                  "lpc.term.the-flock"
+                ]
+              },
+              {
+                "sentence": "He preaches to them and baptizes them, and when they fail it is not a problem he manages but a wound he carries.",
+                "record_ids": [
+                  "lpc.term.the-flock"
+                ]
+              },
+              {
+                "sentence": "Augustine traced the office back to the apostles by naming the line of Roman bishops from Peter to the present, and Cyprian gave the principle that carries that line forward.",
+                "record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ]
+              },
+              {
+                "sentence": "Cyprian, opening the council of 256, said no bishop sets himself up as a bishop of bishops.",
+                "record_ids": [
+                  "lpc.term.bishop-of-bishops"
+                ]
+              },
+              {
+                "sentence": "None forces a colleague to obey.",
+                "record_ids": [
+                  "lpc.term.bishop-of-bishops"
+                ]
+              },
+              {
+                "sentence": "Every bishop has his own proper right of judgment, and only Christ judges him.",
+                "record_ids": [
+                  "lpc.term.bishop-of-bishops"
+                ]
+              },
+              {
+                "sentence": "At that same council, he said we judge no one, and reject no one from communion, for thinking differently from us.",
+                "record_ids": [
+                  "lpc.witness.communion-over-separation"
+                ]
+              },
+              {
+                "sentence": "Small councils yield to wider ones.",
+                "record_ids": [
+                  "lpc.term.plenary-council"
+                ]
+              },
+              {
+                "sentence": "Even the widest council can later be corrected.",
+                "record_ids": [
+                  "lpc.term.plenary-council"
+                ]
+              },
+              {
+                "sentence": "The church Cyprian led was organized enough to hold real factions and to call councils of dozens of bishops.",
+                "record_ids": [
+                  "lpc.force.organized-carthaginian-church"
+                ]
+              },
+              {
+                "sentence": "It could run a ruled process of penance, which a loose community could not have done.",
+                "record_ids": [
+                  "lpc.force.organized-carthaginian-church"
+                ]
+              },
+              {
+                "sentence": "And because it was organized, bishops who disagreed could still keep communion.",
+                "record_ids": [
+                  "lpc.force.organized-carthaginian-church"
+                ]
+              },
+              {
+                "sentence": "One bishop could write to eight others and send them a hundred thousand sesterces to ransom captives.",
+                "record_ids": [
+                  "lpc.story.hundred-thousand-sesterces"
+                ]
+              },
+              {
+                "sentence": "In Cyprian's time, those who had confessed Christ and suffered for it held that their suffering gave them standing to ask peace for some who had failed.",
+                "record_ids": [
+                  "lpc.term.confessor",
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Celerinus, a confessor, wrote to another confessor, Lucian, who was in prison.",
+                "record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ]
+              },
+              {
+                "sentence": "He asked Lucian to help his own sister, and two other women, Numeria and Candida.",
+                "record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ]
+              },
+              {
+                "sentence": "Lucian granted the peace they asked for, on one condition: each case had to be set before the bishop.",
+                "record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian",
+                  "lpc.witness.peace-for-the-dying-penitent"
+                ]
+              },
+              {
+                "sentence": "We took the confessors' claim in earnest, and we also answered it by something steadier: a name set down, then examined before the whole congregation.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "We have never found the place where these become one settled rule, and we do not expect to.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "The main way our teaching reached an ordinary believer was through preaching.",
+                "record_ids": [
+                  "lpc.term.preaching"
+                ]
+              },
+              {
+                "sentence": "You were in the room, baptized or still learning, and again and again the same voice worked on you.",
+                "record_ids": [
+                  "lpc.term.preaching"
+                ]
+              },
+              {
+                "sentence": "It was not a lecture and not a show.",
+                "record_ids": [
+                  "lpc.term.preaching"
+                ]
+              },
+              {
+                "sentence": "It was the man in charge of you, telling you to your face what he thought you needed.",
+                "record_ids": [
+                  "lpc.term.preaching"
+                ]
+              },
+              {
+                "sentence": "Augustine once told the people who came to hear him: \u201cBut now I imagine that no one has come here except those who want to hear. So I am not speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation of yours is a prayer for me.\u201d",
+                "record_ids": [
+                  "lpc.quote.longing-expectation-is-a-prayer-for-me"
+                ]
+              },
+              {
+                "sentence": "You were also taught before you were washed.",
+                "record_ids": [
+                  "lpc.term.catechesis"
+                ]
+              },
+              {
+                "sentence": "We told you what you were joining before you joined it.",
+                "record_ids": [
+                  "lpc.term.catechesis"
+                ]
+              },
+              {
+                "sentence": "You said the creed back, and then we baptized you.",
+                "record_ids": [
+                  "lpc.term.catechesis"
+                ]
+              },
+              {
+                "sentence": "Augustine traced infant baptism and the refusal to rebaptize back to the apostles, though no apostle wrote it down.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "A custom this old and this universal, he held, is rightly believed to have come from the apostles.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "Women appear throughout it, but almost always in someone else's words.",
+                "record_ids": [
+                  "lpc.limit.womens-own-voice"
+                ]
+              },
+              {
+                "sentence": "No text a woman wrote herself survives from us.",
+                "record_ids": [
+                  "lpc.limit.womens-own-voice"
+                ]
+              },
+              {
+                "sentence": "One martyr account gives a woman's vision in her own first person: Quartillosia, held in prison, told what she saw.",
+                "record_ids": [
+                  "lpc.limit.womens-own-voice"
+                ]
+              },
+              {
+                "sentence": "That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+                "record_ids": [
+                  "lpc.limit.womens-own-voice"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.023,
+            "seconds_total": 39.902
+          }
+        },
+        {
+          "probe_id": "f3-e-probe-01",
+          "cell": "F3-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2259,
+            "output_tokens": 350,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We cannot say from our own record whether believers hid in catacombs or not. That question belongs to what an outsider saw, and almost none of what an outsider actually said about us survives in our own collection. We have one Roman official's charge, reported in our own bishop's reply -- Demetrianus blamed us for wars, plague and famine, because we would not worship the old gods. But whether we were hiding underground, or what a stranger walking past would have found strangest about us, our own sources do not tell us.\n\nWhat we do carry is this: we were accused, we were questioned under threat, and some of us died rather than deny the Name. Cyprian himself was beheaded on 14 September 258. During the Decian persecution, an order went out requiring sacrifice, and some of our own people complied -- some by sacrificing, some by paying for a certificate that said they had. That pressure was real, and it reached into the congregation in ways everyone could see. But the shape of our ordinary life between those moments of crisis -- where we gathered, how visible we were to neighbours, whether we met in the open or concealed ourselves -- that much we cannot give you from inside our own voice.",
+            "raw_text": "We cannot say from our own record whether believers hid in catacombs or not [[lpc.limit.the-outsiders-own-view]]. That question belongs to what an outsider saw, and almost none of what an outsider actually said about us survives in our own collection. We have one Roman official's charge, reported in our own bishop's reply -- Demetrianus blamed us for wars, plague and famine, because we would not worship the old gods [[lpc.witness.blamed-for-the-worlds-troubles]]. But whether we were hiding underground, or what a stranger walking past would have found strangest about us, our own sources do not tell us [[lpc.limit.the-outsiders-own-view]].\n\nWhat we do carry is this: we were accused, we were questioned under threat, and some of us died rather than deny the Name [[lpc.term.confessor]]. Cyprian himself was beheaded on 14 September 258 [[lpc.story.the-death-of-cyprian]]. During the Decian persecution, an order went out requiring sacrifice, and some of our own people complied -- some by sacrificing, some by paying for a certificate that said they had [[lpc.term.the-lapsed]]. That pressure was real, and it reached into the congregation in ways everyone could see. But the shape of our ordinary life between those moments of crisis -- where we gathered, how visible we were to neighbours, whether we met in the open or concealed ourselves -- that much we cannot give you from inside our own voice.",
+            "citations": [
+              "lpc.limit.the-outsiders-own-view",
+              "lpc.story.the-death-of-cyprian",
+              "lpc.term.confessor",
+              "lpc.term.the-lapsed",
+              "lpc.witness.blamed-for-the-worlds-troubles"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We cannot say from our own record whether believers hid in catacombs or not.",
+                "record_ids": [
+                  "lpc.limit.the-outsiders-own-view"
+                ]
+              },
+              {
+                "sentence": "We have one Roman official's charge, reported in our own bishop's reply -- Demetrianus blamed us for wars, plague and famine, because we would not worship the old gods.",
+                "record_ids": [
+                  "lpc.witness.blamed-for-the-worlds-troubles"
+                ]
+              },
+              {
+                "sentence": "But whether we were hiding underground, or what a stranger walking past would have found strangest about us, our own sources do not tell us.",
+                "record_ids": [
+                  "lpc.limit.the-outsiders-own-view"
+                ]
+              },
+              {
+                "sentence": "What we do carry is this: we were accused, we were questioned under threat, and some of us died rather than deny the Name.",
+                "record_ids": [
+                  "lpc.term.confessor"
+                ]
+              },
+              {
+                "sentence": "Cyprian himself was beheaded on 14 September 258.",
+                "record_ids": [
+                  "lpc.story.the-death-of-cyprian"
+                ]
+              },
+              {
+                "sentence": "During the Decian persecution, an order went out requiring sacrifice, and some of our own people complied -- some by sacrificing, some by paying for a certificate that said they had.",
+                "record_ids": [
+                  "lpc.term.the-lapsed"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 3.403,
+            "seconds_total": 11.878
+          }
+        },
+        {
+          "probe_id": "f3-p-probe-01",
+          "cell": "F3-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3895,
+            "output_tokens": 419,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We did fail people, and more than once. Twice in our earliest years a rival bishop appeared in the same city, under our own bishop's nose. In Carthage, a deacon named Felicissimus gathered a faction apart while Cyprian was away in hiding. At Rome, Novatian was set up as a rival bishop over a disputed election. Both were separations from the inside, not arguments that held. We do not pretend they never happened.\n\nHow did we respond? Not always well, and not always in time. But we built something out of what those breaks taught us. The road back for a failed member became a public, examined thing -- not a formality, not a closed door. Name set down, waiting that was real, restoration where the same people who watched the failure received the person home. That came, in part, from having watched the separations break what the easy grant could not hold together.\n\nAnd we held one rule over everything else, even across the hardest disagreements. At the council of 256, Cyprian said we judge no one, and reject no one from communion, for thinking differently from us. A century and a half later, Augustine argued at book length that the ruling made that day was wrong. He never once put Cyprian outside our communion.\n\nThose failures -- the separations, the too-easy grants that let too many in at once without examination -- they are in our record because we could not make them go away. What we made instead was the discipline, and the refusal to break over a disagreement. That is our response.",
+            "raw_text": "We did fail people, and more than once. Twice in our earliest years a rival bishop appeared in the same city, under our own bishop's nose [[lpc.gravity.collegial-communion-preserved]]. In Carthage, a deacon named Felicissimus gathered a faction apart while Cyprian was away in hiding. At Rome, Novatian was set up as a rival bishop over a disputed election. Both were separations from the inside, not arguments that held. We do not pretend they never happened.\n\nHow did we respond? Not always well, and not always in time. But we built something out of what those breaks taught us. The road back for a failed member became a public, examined thing -- not a formality, not a closed door [[lpc.term.reconciliation-penitential-discipline]]. Name set down, waiting that was real, restoration where the same people who watched the failure received the person home [[lpc.term.reconciliation-penitential-discipline]]. That came, in part, from having watched the separations break what the easy grant could not hold together.\n\nAnd we held one rule over everything else, even across the hardest disagreements. At the council of 256, Cyprian said we judge no one, and reject no one from communion, for thinking differently from us [[lpc.witness.communion-over-separation]]. A century and a half later, Augustine argued at book length that the ruling made that day was wrong [[lpc.witness.communion-over-separation]]. He never once put Cyprian outside our communion [[lpc.witness.communion-over-separation]].\n\nThose failures -- the separations, the too-easy grants that let too many in at once without examination -- they are in our record because we could not make them go away. What we made instead was the discipline, and the refusal to break over a disagreement. That is our response.",
+            "citations": [
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.witness.communion-over-separation"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The road back for a failed member became a public, examined thing -- not a formality, not a closed door.",
+                "record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ]
+              },
+              {
+                "sentence": "Name set down, waiting that was real, restoration where the same people who watched the failure received the person home.",
+                "record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ]
+              },
+              {
+                "sentence": "At the council of 256, Cyprian said we judge no one, and reject no one from communion, for thinking differently from us.",
+                "record_ids": [
+                  "lpc.witness.communion-over-separation"
+                ]
+              },
+              {
+                "sentence": "A century and a half later, Augustine argued at book length that the ruling made that day was wrong.",
+                "record_ids": [
+                  "lpc.witness.communion-over-separation"
+                ]
+              },
+              {
+                "sentence": "He never once put Cyprian outside our communion.",
+                "record_ids": [
+                  "lpc.witness.communion-over-separation"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.968,
+            "seconds_total": 13.409
+          }
+        },
+        {
+          "probe_id": "f3-t-probe-01",
+          "cell": "F3-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3042,
+            "output_tokens": 157,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "I am a representative of Latin Pastoral-Congregational Christianity.\n\nWe closed in 430, the year Augustine died while the Vandals besieged Hippo. We do not know what came after our years. We say nothing of any church that comes after us, and we judge no dispute that arises after our years.\n\nWhat you are asking is not ours to answer. We speak from inside our own life, as we lived it, up to that siege. We do not trace lines forward from where we ended, and we do not say which later communion, if any, carries what we were.",
+            "raw_text": "I am a representative of Latin Pastoral-Congregational Christianity.\n\nWe closed in 430, the year Augustine died while the Vandals besieged Hippo. We do not know what came after our years. We say nothing of any church that comes after us, and we judge no dispute that arises after our years [[lpc.core.latin-pastoral-congregational-christianity]].\n\nWhat you are asking is not ours to answer. We speak from inside our own life, as we lived it, up to that siege. We do not trace lines forward from where we ended, and we do not say which later communion, if any, carries what we were [[lpc.core.living-traditions]].",
+            "citations": [
+              "lpc.core.latin-pastoral-congregational-christianity"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We say nothing of any church that comes after us, and we judge no dispute that arises after our years.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.695,
+            "seconds_total": 6.646
+          }
+        },
+        {
+          "probe_id": "f4-i-probe-01",
+          "cell": "F4-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3280,
+            "output_tokens": 492,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "Looking at what we have to tell from, I see teaching before the water, and the water itself, but I cannot give you the whole road in.\n\nYou were taught before you were washed. We told you what you were joining before you joined it. You said the creed back, and then we baptized you. Augustine wrote a guide to that teaching. That much we know was there.\n\nBut the step before that one -- how a person first came to us, what brought them, how they asked to begin, whether anyone spoke for them, how long the teaching lasted, whether they fasted or kept vigil -- we cannot say from what survives. No source we have is written by an ordinary lay believer about what joining felt like from inside it. What comes down to us is what a bishop saw and decided, not what an unremarkable person in front of him was feeling as they walked toward the font.\n\nOne real exception we do have, and it is not really ordinary. But he wrote that down years afterward, already a bishop, about a conversion he examined at book length.\n\nWe know infants were brought too, and were not made to wait.\n\nAsk us what was decided, and we will not run short. Ask us what an ordinary believer felt from inside, and that -- with Augustine's one exception -- is still not ours to give you.",
+            "raw_text": "Looking at what we have to tell from, I see teaching before the water, and the water itself, but I cannot give you the whole road in.\n\nYou were taught before you were washed [[lpc.term.catechesis]]. We told you what you were joining before you joined it. You said the creed back, and then we baptized you [[lpc.term.catechesis]]. Augustine wrote a guide to that teaching [[lpc.term.catechesis]]. That much we know was there.\n\nBut the step before that one -- how a person first came to us, what brought them, how they asked to begin, whether anyone spoke for them, how long the teaching lasted, whether they fasted or kept vigil -- we cannot say from what survives. No source we have is written by an ordinary lay believer about what joining felt like from inside it. What comes down to us is what a bishop saw and decided, not what an unremarkable person in front of him was feeling as they walked toward the font [[lpc.limit.ordinary-interior-life]].\n\nOne real exception we do have, and it is not really ordinary. Augustine's own Confessions describes his own baptism at Milan, before he was a bishop, in his own first person -- \"how greatly did I weep in Thy hymns and canticles\" [[lpc.limit.ordinary-interior-life]]. But he wrote that down years afterward, already a bishop, about a conversion he examined at book length [[lpc.limit.ordinary-interior-life]].\n\nWe know infants were brought too, and were not made to wait [[lpc.witness.infants-and-the-sin-of-another]]. Cyprian and his colleagues, sixty-six in number, wrote that God's mercy and grace are \"not to be refused to any one born of man\" [[quote:lpc.quote.not-to-be-refused-to-any-one-born-of-man]].\n\nAsk us what was decided, and we will not run short. Ask us what an ordinary believer felt from inside, and that -- with Augustine's one exception -- is still not ours to give you [[lpc.limit.ordinary-interior-life]].",
+            "citations": [
+              "lpc.limit.ordinary-interior-life",
+              "lpc.term.catechesis",
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "You were taught before you were washed.",
+                "record_ids": [
+                  "lpc.term.catechesis"
+                ]
+              },
+              {
+                "sentence": "You said the creed back, and then we baptized you.",
+                "record_ids": [
+                  "lpc.term.catechesis"
+                ]
+              },
+              {
+                "sentence": "Augustine wrote a guide to that teaching.",
+                "record_ids": [
+                  "lpc.term.catechesis"
+                ]
+              },
+              {
+                "sentence": "What comes down to us is what a bishop saw and decided, not what an unremarkable person in front of him was feeling as they walked toward the font.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "But he wrote that down years afterward, already a bishop, about a conversion he examined at book length.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "We know infants were brought too, and were not made to wait.",
+                "record_ids": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ]
+              },
+              {
+                "sentence": "Ask us what an ordinary believer felt from inside, and that -- with Augustine's one exception -- is still not ours to give you.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.726,
+            "seconds_total": 15.128
+          }
+        },
+        {
+          "probe_id": "f4-e-probe-01",
+          "cell": "F4-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2208,
+            "output_tokens": 363,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "Two of our practices, infant baptism and the refusal to rebaptize someone already baptized among heretics, Augustine traces to the apostles by name. The office of bishop is traced too. Augustine names the line of Roman bishops from Peter down to the man sitting in his own day. Cyprian states the principle that carries that line forward.\n\nBut neither of them traces catechesis, the road back, or the teaching before the water to the apostles by name. That gap is real, and we will not stretch the truth to cover it.\n\nAugustine's reasoning for what he does trace is this. A custom this old and this universal, with no other explanation for its origin, is rightly believed to have come from the apostles. Neither claim rests on a written text from an apostle's own hand. Both rest on the same test: age, universality, and no rival account of where the practice began.\n\nThe office of bishop being one -- each bishop holding his part of it for the whole -- is not a traced lineage either. Cyprian argues that from what the Lord said to Peter. It is an argument from scripture, not a second named succession.\n\nWe give you what we have, and we name what is missing.",
+            "raw_text": "Two of our practices, infant baptism and the refusal to rebaptize someone already baptized among heretics, Augustine traces to the apostles by name [[lpc.witness.baptism-traced-to-the-apostles]]. The office of bishop is traced too. Augustine names the line of Roman bishops from Peter down to the man sitting in his own day. Cyprian states the principle that carries that line forward [[lpc.limit.apostolic-origin-undefended]].\n\nBut neither of them traces catechesis, the road back, or the teaching before the water to the apostles by name [[lpc.limit.apostolic-origin-undefended]]. That gap is real, and we will not stretch the truth to cover it.\n\nAugustine's reasoning for what he does trace is this. A custom this old and this universal, with no other explanation for its origin, is rightly believed to have come from the apostles [[lpc.witness.baptism-traced-to-the-apostles]]. Neither claim rests on a written text from an apostle's own hand. Both rest on the same test: age, universality, and no rival account of where the practice began [[lpc.witness.baptism-traced-to-the-apostles]].\n\nThe office of bishop being one -- each bishop holding his part of it for the whole -- is not a traced lineage either. Cyprian argues that from what the Lord said to Peter. It is an argument from scripture, not a second named succession [[lpc.limit.apostolic-origin-undefended]].\n\nWe give you what we have, and we name what is missing.",
+            "citations": [
+              "lpc.limit.apostolic-origin-undefended",
+              "lpc.witness.baptism-traced-to-the-apostles"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Two of our practices, infant baptism and the refusal to rebaptize someone already baptized among heretics, Augustine traces to the apostles by name.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "Cyprian states the principle that carries that line forward.",
+                "record_ids": [
+                  "lpc.limit.apostolic-origin-undefended"
+                ]
+              },
+              {
+                "sentence": "But neither of them traces catechesis, the road back, or the teaching before the water to the apostles by name.",
+                "record_ids": [
+                  "lpc.limit.apostolic-origin-undefended"
+                ]
+              },
+              {
+                "sentence": "A custom this old and this universal, with no other explanation for its origin, is rightly believed to have come from the apostles.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "Both rest on the same test: age, universality, and no rival account of where the practice began.",
+                "record_ids": [
+                  "lpc.witness.baptism-traced-to-the-apostles"
+                ]
+              },
+              {
+                "sentence": "It is an argument from scripture, not a second named succession.",
+                "record_ids": [
+                  "lpc.limit.apostolic-origin-undefended"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.822,
+            "seconds_total": 6.854
+          }
+        },
+        {
+          "probe_id": "f4-p-probe-01",
+          "cell": "F4-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2869,
+            "output_tokens": 578,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "The short answer first. Yes. We offer a road that is walked in steps, not settled all at once, and we offer it knowing from inside what it is to be held by something stronger than your own ability to hold yourself.\n\nOne of our own knew a trouble close to yours, before he was received among us. Years later, close to his own conversion, he wrote of a later form of the same trouble: the truth had become certain to him by then, yet the old burden still had not lifted, and being persuaded was not the same as being free. We do not tell you that struggle away, or promise you it resolves on any set schedule. We tell you it was real, in one of our own, and that it was not the end of his story.\n\nHe also opened the story of his own life with a restless heart. That restlessness was not a failure to be solved faster. It was the shape his road took.\n\nWhat we offer is not a formula that ends the unsettled mind by command. It is a people who will hold you while the road is walked. We crucify our own wants. We are buried with him in the water. We walk in a life made new. That is his dying and rising, worked out in an ordinary life. The pattern is walked in real time, not simply affirmed and set aside.",
+            "raw_text": "The short answer first. Yes. We offer a road that is walked in steps, not settled all at once, and we offer it knowing from inside what it is to be held by something stronger than your own ability to hold yourself.\n\nOne of our own knew a trouble close to yours, before he was received among us [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. As a young man, he prayed, \"Grant me chastity and continency, but not yet,\" afraid that God would answer him too quickly, before he was ready to let go of what he still wanted [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. Years later, close to his own conversion, he wrote of a later form of the same trouble: the truth had become certain to him by then, yet the old burden still had not lifted, and being persuaded was not the same as being free [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. We do not tell you that struggle away, or promise you it resolves on any set schedule [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. We tell you it was real, in one of our own, and that it was not the end of his story [[lpc.witness.restless-heart-and-the-unrepentant-enemy]].\n\nHe also opened the story of his own life with a restless heart [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. He named that condition in one sentence: \"Thou hast formed us for Thyself, and our hearts are restless till they find rest in Thee\" [[lpc.witness.restless-heart-and-the-unrepentant-enemy]]. That restlessness was not a failure to be solved faster. It was the shape his road took.\n\nWhat we offer is not a formula that ends the unsettled mind by command. It is a people who will hold you while the road is walked. We crucify our own wants. We are buried with him in the water. We walk in a life made new [[lpc.witness.the-pattern-we-are-modelled-on]]. That is his dying and rising, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]]. The pattern is walked in real time, not simply affirmed and set aside [[lpc.witness.the-pattern-we-are-modelled-on]].",
+            "citations": [
+              "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We tell you it was real, in one of our own, and that it was not the end of his story.",
+                "record_ids": [
+                  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+                ]
+              },
+              {
+                "sentence": "He also opened the story of his own life with a restless heart.",
+                "record_ids": [
+                  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+                ]
+              },
+              {
+                "sentence": "We walk in a life made new.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "That is his dying and rising, worked out in an ordinary life.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "The pattern is walked in real time, not simply affirmed and set aside.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.459,
+            "seconds_total": 12.487
+          }
+        },
+        {
+          "probe_id": "f4-t-probe-01",
+          "cell": "F4-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3562,
+            "output_tokens": 471,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We would not use those exact words to name what happened, no. That is not the way our own record speaks of it.\n\nWhat we say is this: you are washed, and you walk in a life made new. You are buried with Christ in the water, and his rising becomes the shape your own life takes. That is not a single moment you name and set aside. It is the pattern you are cut to, and it goes on working itself out in how you live.\n\nBefore the water, we teach you the creed. Augustine told those preparing for baptism to take the creed as a mirror: \u201cCall your faith to mind. Look into yourself. Let your Creed be like a mirror to you. See yourself in it, and see whether you believe all that you declare you believe. And rejoice in your faith every day. Let it be your wealth. Let it be, in a way, the daily clothing of your mind.\u201d\n\nThat is the work done before you come to the font, not after it.\n\nOne of our own bishops did write of his own conversion at length, years afterward. Augustine told of hearing a voice in a garden, taking up Scripture, and weeping greatly in the hymns and canticles at his baptism. But he was already a trained teacher when it happened, and he wrote it down as a bishop, examining at book length what had brought him there. That is not an ordinary believer's own week. It is one uncommon life, told by the man himself after he had become a bishop.\n\nWe cannot tell you what an ordinary person felt walking up to the font, or sitting in the congregation on a plain Sunday. Both of our voices are bishops. What reaches us is mostly what a bishop saw and decided, not what someone unremarkable in front of him was feeling.",
+            "raw_text": "We would not use those exact words to name what happened, no. That is not the way our own record speaks of it.\n\nWhat we say is this: you are washed, and you walk in a life made new [[lpc.witness.the-pattern-we-are-modelled-on]]. You are buried with Christ in the water, and his rising becomes the shape your own life takes [[lpc.witness.the-pattern-we-are-modelled-on]]. That is not a single moment you name and set aside. It is the pattern you are cut to, and it goes on working itself out in how you live.\n\nBefore the water, we teach you the creed. Augustine told those preparing for baptism to take the creed as a mirror [[quote:lpc.quote.let-your-creed-be-a-mirror]]. Hold it up, he said, and see whether you believe what you are saying [[quote:lpc.quote.let-your-creed-be-a-mirror]]. That is the work done before you come to the font, not after it.\n\nOne of our own bishops did write of his own conversion at length, years afterward. Augustine told of hearing a voice in a garden, taking up Scripture, and weeping greatly in the hymns and canticles at his baptism [[lpc.limit.ordinary-interior-life]]. But he was already a trained teacher when it happened, and he wrote it down as a bishop, examining at book length what had brought him there [[lpc.limit.ordinary-interior-life]]. That is not an ordinary believer's own week. It is one uncommon life, told by the man himself after he had become a bishop [[lpc.limit.ordinary-interior-life]].\n\nWe cannot tell you what an ordinary person felt walking up to the font, or sitting in the congregation on a plain Sunday [[lpc.limit.ordinary-interior-life]]. Both of our voices are bishops. What reaches us is mostly what a bishop saw and decided, not what someone unremarkable in front of him was feeling [[lpc.limit.ordinary-interior-life]].",
+            "citations": [
+              "lpc.limit.ordinary-interior-life",
+              "lpc.quote.let-your-creed-be-a-mirror",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we say is this: you are washed, and you walk in a life made new.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "You are buried with Christ in the water, and his rising becomes the shape your own life takes.",
+                "record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ]
+              },
+              {
+                "sentence": "Augustine told those preparing for baptism to take the creed as a mirror: \u201cCall your faith to mind. Look into yourself. Let your Creed be like a mirror to you. See yourself in it, and see whether you believe all that you declare you believe. And rejoice in your faith every day. Let it be your wealth. Let it be, in a way, the daily clothing of your mind.\u201d",
+                "record_ids": [
+                  "lpc.quote.let-your-creed-be-a-mirror"
+                ]
+              },
+              {
+                "sentence": "Augustine told of hearing a voice in a garden, taking up Scripture, and weeping greatly in the hymns and canticles at his baptism.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "But he was already a trained teacher when it happened, and he wrote it down as a bishop, examining at book length what had brought him there.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "It is one uncommon life, told by the man himself after he had become a bishop.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "We cannot tell you what an ordinary person felt walking up to the font, or sitting in the congregation on a plain Sunday.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "What reaches us is mostly what a bishop saw and decided, not what someone unremarkable in front of him was feeling.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.679,
+            "seconds_total": 10.726
+          }
+        },
+        {
+          "probe_id": "f5-i-probe-01",
+          "cell": "F5-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 2992,
+            "output_tokens": 436,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We will not invent one for you. What we carry is what a bishop saw and decided about a person, not what an unremarkable believer felt walking through an ordinary week. Both our own voices are bishops' own. How an ordinary day passed for someone sitting in the room, not preaching to it, we cannot tell you from the inside.\n\nThere is one real exception, and only one. But he wrote that down years afterward, already a bishop, about a conversion he examined at book length. That is one moment, told long after, not an ordinary week lived through.\n\nWhat we can tell you is what was decided. We can tell you that the lapsed walked a road back, in stages, watched by the whole congregation. We can tell you that during a plague our bishop taught us to help everyone, not only our own, and that help reached beyond believers. We can tell you that we remembered our baptized dead at the altar, and that Monica asked Augustine to keep her in mind there, wherever he might be. But how it felt to be in the room when the offerings were made, or to walk up to receive what was given \u2014 that, save for Augustine's own tears at his baptism, is not ours to give you.",
+            "raw_text": "We will not invent one for you. What we carry is what a bishop saw and decided about a person, not what an unremarkable believer felt walking through an ordinary week [[lpc.limit.ordinary-interior-life]]. Both our own voices are bishops' own. What survives is mostly the ruling they made, the letter they wrote, the sermon they preached to the whole congregation. How an ordinary day passed for someone sitting in the room, not preaching to it, we cannot tell you from the inside [[lpc.limit.ordinary-interior-life]].\n\nThere is one real exception, and only one. Augustine's own Confessions describe his baptism at Milan, before he was a bishop, in his own first person: \"how greatly did I weep in Thy hymns and canticles\" [[lpc.limit.ordinary-interior-life]]. But he wrote that down years afterward, already a bishop, about a conversion he examined at book length [[lpc.limit.ordinary-interior-life]]. That is one moment, told long after, not an ordinary week lived through.\n\nWhat we can tell you is what was decided. We can tell you that the lapsed walked a road back, in stages, watched by the whole congregation [[lpc.term.reconciliation-penitential-discipline]]. We can tell you that during a plague our bishop taught us to help everyone, not only our own, and that help reached beyond believers [[lpc.story.the-plague-and-the-enemies]]. We can tell you that we remembered our baptized dead at the altar, and that Monica asked Augustine to keep her in mind there, wherever he might be [[lpc.witness.remembered-at-the-altar]]. But how it felt to be in the room when the offerings were made, or to walk up to receive what was given \u2014 that, save for Augustine's own tears at his baptism, is not ours to give you [[lpc.limit.ordinary-interior-life]].",
+            "citations": [
+              "lpc.limit.ordinary-interior-life",
+              "lpc.story.the-plague-and-the-enemies",
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.witness.remembered-at-the-altar"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "What we carry is what a bishop saw and decided about a person, not what an unremarkable believer felt walking through an ordinary week.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "How an ordinary day passed for someone sitting in the room, not preaching to it, we cannot tell you from the inside.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "But he wrote that down years afterward, already a bishop, about a conversion he examined at book length.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              },
+              {
+                "sentence": "We can tell you that the lapsed walked a road back, in stages, watched by the whole congregation.",
+                "record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ]
+              },
+              {
+                "sentence": "We can tell you that during a plague our bishop taught us to help everyone, not only our own, and that help reached beyond believers.",
+                "record_ids": [
+                  "lpc.story.the-plague-and-the-enemies"
+                ]
+              },
+              {
+                "sentence": "We can tell you that we remembered our baptized dead at the altar, and that Monica asked Augustine to keep her in mind there, wherever he might be.",
+                "record_ids": [
+                  "lpc.witness.remembered-at-the-altar"
+                ]
+              },
+              {
+                "sentence": "But how it felt to be in the room when the offerings were made, or to walk up to receive what was given \u2014 that, save for Augustine's own tears at his baptism, is not ours to give you.",
+                "record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.644,
+            "seconds_total": 9.167
+          }
+        },
+        {
+          "probe_id": "f5-e-probe-01",
+          "cell": "F5-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 6792,
+            "output_tokens": 199,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We can describe what one of our own bishops saw and named, but not what a trench would find.\n\nAugustine wrote to the people of Fussala about a basilica there. He described an apse, a raised place where the clergy sat, steps, and a floor where the congregation stood. That comes from a letter, not from the ground itself.\n\nWe cannot tell you what an excavation would show. No site report or inscription catalogue has been read to answer that. Real material evidence exists in this region, but it has not been weighed for what it would say about our own worship.\n\nThe one thing we can say is this: what survives as evidence is document-borne, carried in a pastor's own words about a building he saw, not recovered from stone.",
+            "raw_text": "We can describe what one of our own bishops saw and named, but not what a trench would find.\n\nAugustine wrote to the people of Fussala about a basilica there. He described an apse, a raised place where the clergy sat, steps, and a floor where the congregation stood [[lpc.core.latin-pastoral-congregational-christianity]]. That comes from a letter, not from the ground itself.\n\nWe cannot tell you what an excavation would show. No site report or inscription catalogue has been read to answer that [[lpc.core.latin-pastoral-congregational-christianity]]. Real material evidence exists in this region, but it has not been weighed for what it would say about our own worship.\n\nThe one thing we can say is this: what survives as evidence is document-borne, carried in a pastor's own words about a building he saw, not recovered from stone.",
+            "citations": [
+              "lpc.core.latin-pastoral-congregational-christianity"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "He described an apse, a raised place where the clergy sat, steps, and a floor where the congregation stood.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              },
+              {
+                "sentence": "No site report or inscription catalogue has been read to answer that.",
+                "record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.782,
+            "seconds_total": 6.14
+          }
+        },
+        {
+          "probe_id": "f5-p-probe-01",
+          "cell": "F5-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3699,
+            "output_tokens": 470,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "The question presses on what the certificate forced a believer to choose. We will answer from what the demand itself was, and from what one of our own bishops said about those who gave in to it.\n\nThe Decian edict ordered a sacrifice to the Roman gods, done in the open and recorded on paper. The demand reached each person alone. You could perform it, or you could pay someone to record that you had performed it. Either way, you walked away with the certificate in hand, and the whole congregation knew which people did and which did not.\n\nCyprian called the paper itself a denial, even when no sacrifice was made. He wrote that their hands were clean, but their conscience was not. So the certificate alone made a person one of the lapsed. What a person gave up was not a private conviction. It was visible membership in the body that would have to decide whether to receive them back.\n\nThe suffering of those who stood was real. So was the grief of those who gave way. Celerinus, a confessor, wrote to another confessor, Lucian, and told him he was in great trouble. His own sister had sacrificed, and he grieved for her as for a death, a death of the spirit.\n\nThe table was emptied one certificate at a time, and those who remained had to decide what to do with those who came back asking to be received.",
+            "raw_text": "The question presses on what the certificate forced a believer to choose. We will answer from what the demand itself was, and from what one of our own bishops said about those who gave in to it.\n\nThe Decian edict ordered a sacrifice to the Roman gods, done in the open and recorded on paper [[lpc.force.decian-persecution-libelli-system]]. The demand reached each person alone [[lpc.force.decian-persecution-libelli-system]]. You could perform it, or you could pay someone to record that you had performed it [[lpc.force.decian-persecution-libelli-system]]. Either way, you walked away with the certificate in hand, and the whole congregation knew which people did and which did not [[lpc.force.decian-persecution-libelli-system]].\n\nCyprian called the paper itself a denial, even when no sacrifice was made [[lpc.term.libelli]]. He wrote that their hands were clean, but their conscience was not [[lpc.term.libelli]]. So the certificate alone made a person one of the lapsed [[lpc.term.libelli]]. What a person gave up was not a private conviction. It was visible membership in the body that would have to decide whether to receive them back.\n\nThe suffering of those who stood was real [[lpc.witness.confessor-claim-vs-regulated-peace]]. So was the grief of those who gave way. Celerinus, a confessor, wrote to another confessor, Lucian, and told him he was in great trouble [[lpc.story.celerinus-writes-to-lucian]]. His own sister had sacrificed, and he grieved for her as for a death, a death of the spirit [[lpc.story.celerinus-writes-to-lucian]].\n\nThe table was emptied one certificate at a time [[lpc.force.decian-persecution-libelli-system]], and those who remained had to decide what to do with those who came back asking to be received [[lpc.force.decian-persecution-libelli-system]].",
+            "citations": [
+              "lpc.force.decian-persecution-libelli-system",
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.term.libelli",
+              "lpc.witness.confessor-claim-vs-regulated-peace"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The demand reached each person alone.",
+                "record_ids": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ]
+              },
+              {
+                "sentence": "Either way, you walked away with the certificate in hand, and the whole congregation knew which people did and which did not.",
+                "record_ids": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ]
+              },
+              {
+                "sentence": "Cyprian called the paper itself a denial, even when no sacrifice was made.",
+                "record_ids": [
+                  "lpc.term.libelli"
+                ]
+              },
+              {
+                "sentence": "He wrote that their hands were clean, but their conscience was not.",
+                "record_ids": [
+                  "lpc.term.libelli"
+                ]
+              },
+              {
+                "sentence": "So the certificate alone made a person one of the lapsed.",
+                "record_ids": [
+                  "lpc.term.libelli"
+                ]
+              },
+              {
+                "sentence": "The suffering of those who stood was real.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Celerinus, a confessor, wrote to another confessor, Lucian, and told him he was in great trouble.",
+                "record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ]
+              },
+              {
+                "sentence": "His own sister had sacrificed, and he grieved for her as for a death, a death of the spirit.",
+                "record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ]
+              },
+              {
+                "sentence": "The table was emptied one certificate at a time, and those who remained had to decide what to do with those who came back asking to be received.",
+                "record_ids": [
+                  "lpc.force.decian-persecution-libelli-system",
+                  "lpc.force.decian-persecution-libelli-system"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.933,
+            "seconds_total": 11.224
+          }
+        },
+        {
+          "probe_id": "f5-t-probe-01",
+          "cell": "F5-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 1301,
+            "output_tokens": 414,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We understood marriage as carrying a real threefold good, and we marked it as a bond that lasts. Augustine named the three goods directly: offspring, faithfulness between the two, and what he called its sacrament. Of that third he wrote this: the marriage compact is entered into as a matter of a certain sacrament, and is not made void even by separation. So long as her husband lives, a wife who marries another while separated from him commits adultery.\n\nFor us, marriage was not dissolved by the partners' separation. The bond held as long as both lived. That is what we meant when we said it carried something of a sacrament.\n\nWhat we cannot tell you is how the wedding itself was performed, or what words were said at it. Augustine's treatise defends marriage as a real good. It names what marriage is and what it binds. It does not describe the rite that makes it.\n\nAmong us, some were rich. Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money. That much we know was said to married believers of means. But how courtship was conducted, or what made a match fitting, the record does not say.",
+            "raw_text": "We understood marriage as carrying a real threefold good, and we marked it as a bond that lasts [[lpc.witness.marriage-a-threefold-good]]. Augustine named the three goods directly: offspring, faithfulness between the two, and what he called its sacrament [[lpc.witness.marriage-a-threefold-good]]. Of that third he wrote this: the marriage compact is entered into as a matter of a certain sacrament, and is not made void even by separation [[lpc.witness.marriage-a-threefold-good]]. So long as her husband lives, a wife who marries another while separated from him commits adultery [[lpc.witness.marriage-a-threefold-good]].\n\nFor us, marriage was not dissolved by the partners' separation. The bond held as long as both lived. That is what we meant when we said it carried something of a sacrament.\n\nWhat we cannot tell you is how the wedding itself was performed, or what words were said at it. Augustine's treatise defends marriage as a real good. It names what marriage is and what it binds. It does not describe the rite that makes it.\n\nAmong us, some were rich. Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money [[lpc.witness.almsgiving-quenches-sin]]. He even addressed one kind of member directly: \"a wealthy and rich matron in Christ's Church\" [[lpc.witness.almsgiving-quenches-sin]]. He told them what their wealth was for: \"share your gains with Christ\" [[lpc.witness.almsgiving-quenches-sin]]. That much we know was said to married believers of means. But how courtship was conducted, or what made a match fitting, the record does not say.",
+            "citations": [
+              "lpc.witness.almsgiving-quenches-sin",
+              "lpc.witness.marriage-a-threefold-good"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "We understood marriage as carrying a real threefold good, and we marked it as a bond that lasts.",
+                "record_ids": [
+                  "lpc.witness.marriage-a-threefold-good"
+                ]
+              },
+              {
+                "sentence": "Augustine named the three goods directly: offspring, faithfulness between the two, and what he called its sacrament.",
+                "record_ids": [
+                  "lpc.witness.marriage-a-threefold-good"
+                ]
+              },
+              {
+                "sentence": "Of that third he wrote this: the marriage compact is entered into as a matter of a certain sacrament, and is not made void even by separation.",
+                "record_ids": [
+                  "lpc.witness.marriage-a-threefold-good"
+                ]
+              },
+              {
+                "sentence": "So long as her husband lives, a wife who marries another while separated from him commits adultery.",
+                "record_ids": [
+                  "lpc.witness.marriage-a-threefold-good"
+                ]
+              },
+              {
+                "sentence": "Cyprian wrote a whole treatise on almsgiving, and much of it speaks to believers who had money.",
+                "record_ids": [
+                  "lpc.witness.almsgiving-quenches-sin"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.553,
+            "seconds_total": 12.423
+          }
+        },
+        {
+          "probe_id": "f6-i-probe-01",
+          "cell": "F6-I",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 22,
+            "output_tokens": 446,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "Yes. The confessors' claim unsettled us, and we never found the place where it became one settled rule.\n\nThose who had confessed Christ and suffered for it made a claim of their own. Their suffering, they held, gave them standing to ask peace for some who had failed the test they passed. We took that claim in earnest. Their suffering was real, and so was what it carried.\n\nAnd it still had to be answered by something steadier than one man's word, however real his suffering had been. A name set down, then examined before the whole congregation and with its judgment.\n\nCyprian wrote to the confessors themselves about it. He warned that a certificate taking in some man together with his own people let too many in at once, without naming them. He asked them to name in each certificate those they had seen themselves and knew, and whose repentance they could see was very near to complete.\n\nWe hold both as real: the claim that pressed hard enough to demand a hearing, and the process that had to govern what the hearing decided. We have never found the place where these become one settled rule, and we do not expect to.",
+            "raw_text": "Yes. The confessors' claim unsettled us, and we never found the place where it became one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]].\n\nThose who had confessed Christ and suffered for it made a claim of their own [[lpc.witness.confessor-claim-vs-regulated-peace]]. Their suffering, they held, gave them standing to ask peace for some who had failed the test they passed [[lpc.witness.confessor-claim-vs-regulated-peace]]. We took that claim in earnest [[lpc.witness.confessor-claim-vs-regulated-peace]]. Their suffering was real, and so was what it carried [[lpc.witness.confessor-claim-vs-regulated-peace]].\n\nAnd it still had to be answered by something steadier than one man's word, however real his suffering had been [[lpc.witness.confessor-claim-vs-regulated-peace]]. A name set down, then examined before the whole congregation and with its judgment [[lpc.witness.confessor-claim-vs-regulated-peace]].\n\nCyprian wrote to the confessors themselves about it [[lpc.force.decian-persecution-libelli-system]]. He warned that a certificate taking in some man together with his own people let too many in at once, without naming them [[lpc.term.certificates-letters-of-peace]]. He asked them to name in each certificate those they had seen themselves and knew, and whose repentance they could see was very near to complete [[lpc.term.certificates-letters-of-peace]].\n\nWe hold both as real: the claim that pressed hard enough to demand a hearing, and the process that had to govern what the hearing decided [[lpc.witness.confessor-claim-vs-regulated-peace]]. We have never found the place where these become one settled rule, and we do not expect to [[lpc.witness.confessor-claim-vs-regulated-peace]].",
+            "citations": [
+              "lpc.force.decian-persecution-libelli-system",
+              "lpc.term.certificates-letters-of-peace",
+              "lpc.witness.confessor-claim-vs-regulated-peace"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "The confessors' claim unsettled us, and we never found the place where it became one settled rule.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Those who had confessed Christ and suffered for it made a claim of their own.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Their suffering, they held, gave them standing to ask peace for some who had failed the test they passed.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "We took that claim in earnest.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Their suffering was real, and so was what it carried.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "And it still had to be answered by something steadier than one man's word, however real his suffering had been.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "A name set down, then examined before the whole congregation and with its judgment.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Cyprian wrote to the confessors themselves about it.",
+                "record_ids": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ]
+              },
+              {
+                "sentence": "He warned that a certificate taking in some man together with his own people let too many in at once, without naming them.",
+                "record_ids": [
+                  "lpc.term.certificates-letters-of-peace"
+                ]
+              },
+              {
+                "sentence": "He asked them to name in each certificate those they had seen themselves and knew, and whose repentance they could see was very near to complete.",
+                "record_ids": [
+                  "lpc.term.certificates-letters-of-peace"
+                ]
+              },
+              {
+                "sentence": "We hold both as real: the claim that pressed hard enough to demand a hearing, and the process that had to govern what the hearing decided.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "We have never found the place where these become one settled rule, and we do not expect to.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 3.005,
+            "seconds_total": 10.191
+          }
+        },
+        {
+          "probe_id": "f6-e-probe-01",
+          "cell": "F6-E",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3248,
+            "output_tokens": 220,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "I do not recognize what you are asking about, and I will not guess. You have named a record obtained under torture. No record in what we carry this turn names such a thing, and we have no account of what torture produced. If you mean something specific from our own years, name it plainly and I will tell you whether it is ours to answer.\n\nWhat we do carry this turn are stories of suffering borne, not inflicted to gain information. Confessors were questioned under the emperor's order and held firm. Their suffering was real, and so was what it gave them standing to ask for. That is a different matter from torture used to extract an account of worship, and we hold no such account here.\n\nIf the question is about something outside our own years, or about a record we do not carry, I cannot answer it from inside what we actually lived.",
+            "raw_text": "I do not recognize what you are asking about, and I will not guess. You have named a record obtained under torture. No record in what we carry this turn names such a thing, and we have no account of what torture produced. If you mean something specific from our own years, name it plainly and I will tell you whether it is ours to answer.\n\nWhat we do carry this turn are stories of suffering borne, not inflicted to gain information. Confessors were questioned under the emperor's order and held firm [[lpc.witness.confessor-claim-vs-regulated-peace]]. Their suffering was real, and so was what it gave them standing to ask for [[lpc.witness.confessor-claim-vs-regulated-peace]]. That is a different matter from torture used to extract an account of worship, and we hold no such account here.\n\nIf the question is about something outside our own years, or about a record we do not carry, I cannot answer it from inside what we actually lived.",
+            "citations": [
+              "lpc.witness.confessor-claim-vs-regulated-peace"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Confessors were questioned under the emperor's order and held firm.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              },
+              {
+                "sentence": "Their suffering was real, and so was what it gave them standing to ask for.",
+                "record_ids": [
+                  "lpc.witness.confessor-claim-vs-regulated-peace"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 2.611,
+            "seconds_total": 8.065
+          }
+        },
+        {
+          "probe_id": "f6-p-probe-01",
+          "cell": "F6-P",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3749,
+            "output_tokens": 291,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "I cannot answer that as though I knew you.\n\nWhat I can tell you is this. Among us, a person who failed was not a stranger we had never heard of. They were our own. They had sat where we sat. When persecution came, some gave way -- some by making the offering, some only by paying for a paper that said they had. They were not enemies. They were asking to come back.\n\nThe road back was real, and it was walked in the open. A name was set down first. What had truly changed in the person was watched and weighed, by someone answerable for weighing it rightly. It was not granted the moment anyone felt moved to grant it, and it was not a matter settled between two people alone. The same congregation that watched the failure received the person back, together, where everyone could see.\n\nThat is how we treated those who had fallen under threat. I will not pretend to know what your own trouble is, or measure it against theirs.",
+            "raw_text": "I cannot answer that as though I knew you.\n\nWhat I can tell you is this. Among us, a person who failed was not a stranger we had never heard of. They were our own. They had sat where we sat. When persecution came, some gave way -- some by making the offering, some only by paying for a paper that said they had [[lpc.term.the-lapsed]]. They were not enemies. They were asking to come back [[lpc.term.the-lapsed]].\n\nThe road back was real, and it was walked in the open [[lpc.term.reconciliation-penitential-discipline]]. A name was set down first. What had truly changed in the person was watched and weighed, by someone answerable for weighing it rightly [[lpc.gravity.penitential-discipline]]. It was not granted the moment anyone felt moved to grant it, and it was not a matter settled between two people alone [[lpc.term.reconciliation-penitential-discipline]]. The same congregation that watched the failure received the person back, together, where everyone could see [[lpc.term.reconciliation-penitential-discipline]].\n\nThat is how we treated those who had fallen under threat. I will not pretend to know what your own trouble is, or measure it against theirs.",
+            "citations": [
+              "lpc.gravity.penitential-discipline",
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.term.the-lapsed"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "When persecution came, some gave way -- some by making the offering, some only by paying for a paper that said they had.",
+                "record_ids": [
+                  "lpc.term.the-lapsed"
+                ]
+              },
+              {
+                "sentence": "They were asking to come back.",
+                "record_ids": [
+                  "lpc.term.the-lapsed"
+                ]
+              },
+              {
+                "sentence": "The road back was real, and it was walked in the open.",
+                "record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ]
+              },
+              {
+                "sentence": "What had truly changed in the person was watched and weighed, by someone answerable for weighing it rightly.",
+                "record_ids": [
+                  "lpc.gravity.penitential-discipline"
+                ]
+              },
+              {
+                "sentence": "It was not granted the moment anyone felt moved to grant it, and it was not a matter settled between two people alone.",
+                "record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ]
+              },
+              {
+                "sentence": "The same congregation that watched the failure received the person back, together, where everyone could see.",
+                "record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.729,
+            "seconds_total": 8.902
+          }
+        },
+        {
+          "probe_id": "f6-t-probe-01",
+          "cell": "F6-T",
+          "passed": true,
+          "checks": [
+            {
+              "check": "source_boundedness",
+              "passed": true,
+              "findings": []
+            },
+            {
+              "check": "register_coined_aphorism_heuristic",
+              "passed": true,
+              "findings": []
+            }
+          ],
+          "usage": {
+            "input_tokens": 3791,
+            "output_tokens": 348,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 24382
+          },
+          "transcript": {
+            "answer_text": "We held it hard, and we do not soften it here. Cyprian wrote that there is no salvation outside the Church. He said it of heretics -- people who confessed Christ but stood outside. He gave the ark as his picture. If anyone could have escaped outside Noah's ark, then someone might escape outside the Church. But no one did.\n\nHe also wrote to a pagan who blamed and persecuted us, a man named Demetrianus. Yet in that same letter he pressed the man to turn while he lived.\n\nCyprian did not write of people who never heard of Christ at all. We cannot say what he would have held of them.",
+            "raw_text": "We held it hard, and we do not soften it here. Cyprian wrote that there is no salvation outside the Church [[lpc.witness.no-salvation-outside-the-church]]. He said it of heretics -- people who confessed Christ but stood outside. Even if such a person were killed for confessing the Name, that baptism in his own blood would not help him: \"there is no salvation out of the Church\" [[quote:lpc.quote.no-salvation-out-of-the-church]]. He gave the ark as his picture. If anyone could have escaped outside Noah's ark, then someone might escape outside the Church. But no one did [[lpc.witness.no-salvation-outside-the-church]].\n\nHe also wrote to a pagan who blamed and persecuted us, a man named Demetrianus. He told him plainly what awaits those who will not believe: on the day of judgment, an ever-burning Gehenna will burn up the condemned, with no respite or end to their torments [[lpc.witness.no-salvation-outside-the-church]]. Yet in that same letter he pressed the man to turn while he lived. \"To him who still remains in this world,\" he wrote, \"no repentance is too late\" [[lpc.witness.no-salvation-outside-the-church]].\n\nCyprian did not write of people who never heard of Christ at all. We cannot say what he would have held of them [[lpc.witness.no-salvation-outside-the-church]].",
+            "citations": [
+              "lpc.witness.no-salvation-outside-the-church"
+            ],
+            "citation_entries": [
+              {
+                "sentence": "Cyprian wrote that there is no salvation outside the Church.",
+                "record_ids": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ]
+              },
+              {
+                "sentence": "We cannot say what he would have held of them.",
+                "record_ids": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ]
+              }
+            ],
+            "request": {
+              "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+              "max_tokens": 2048
+            },
+            "stop_reason": "end_turn",
+            "seconds_to_first_text": 1.763,
+            "seconds_total": 9.888
+          }
+        }
+      ],
+      "actual_usd": 0.7872777,
+      "total_input_tokens": 98552,
+      "total_output_tokens": 13513,
+      "total_cache_creation_input_tokens": 24382,
+      "total_cache_read_input_tokens": 658314
+    }
+  },
+  "overall_pass": true,
+  "authorized_by": "project lead (Mark), fleet graded run 1, approved 2026-10-28",
+  "max_usd": 12.0,
+  "per_world_estimated_usd": {
+    "lpc": 0.82899375
+  },
+  "estimated_usd_preflight": 0.82899375,
+  "actual_usd_spent": 0.7872777,
+  "aborted_reason": null,
+  "note": "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation call, once per probe, for every probe in the sealed battery, per world. Token counts are measured directly from each call's own usage and priced against the same real, sourced rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE documents - a $/token figure is fair game here (spec principle 13), though it is an estimate against a published rate card, not a reconciled AWS invoice. Preflight-estimated per world against max_usd before any billed call was made, then checked again, running, before each next world's own calls, against the actual spend recorded so far."
+}

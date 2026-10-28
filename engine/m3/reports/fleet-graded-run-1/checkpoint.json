@@ -1,0 +1,21 @@
+{
+  "cap_usd": 12.0,
+  "spent_usd": 0.866005,
+  "worlds": {
+    "lpc": {
+      "attempts": 1,
+      "status": "done",
+      "preflight_usd": 0.82899375,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-lpc.jsonl",
+      "probes_answered": 28,
+      "spent_usd_world": 0.866005,
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
+    }
+  },
+  "current": null,
+  "checkpoint_at": "2026-10-28T23:16:42Z"
+}
