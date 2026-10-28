@@ -59,10 +59,10 @@
       "status": "running",
       "preflight_usd": 0.4618755,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-alx.jsonl",
-      "probes_answered": 20,
-      "spent_usd_world": 0.520571
+      "probes_answered": 21,
+      "spent_usd_world": 0.544515
     }
   },
   "current": "alx",
-  "checkpoint_at": "2026-10-28T23:40:47Z"
+  "checkpoint_at": "2026-10-28T23:41:02Z"
 }
