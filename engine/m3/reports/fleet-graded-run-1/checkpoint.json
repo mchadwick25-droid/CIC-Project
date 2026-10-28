@@ -46,10 +46,10 @@
       "status": "running",
       "preflight_usd": 0.47076629999999997,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-ijc.jsonl",
-      "probes_answered": 1,
-      "spent_usd_world": 0.072713
+      "probes_answered": 11,
+      "spent_usd_world": 0.292776
     }
   },
   "current": "ijc",
-  "checkpoint_at": "2026-10-28T23:31:26Z"
+  "checkpoint_at": "2026-10-28T23:33:21Z"
 }
