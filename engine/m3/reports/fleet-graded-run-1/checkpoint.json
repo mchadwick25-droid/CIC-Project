@@ -20,10 +20,10 @@
       "status": "running",
       "preflight_usd": 0.8064288,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-gallic.jsonl",
-      "probes_answered": 22,
-      "spent_usd_world": 0.915014
+      "probes_answered": 26,
+      "spent_usd_world": 1.03977
     }
   },
   "current": "gallic",
-  "checkpoint_at": "2026-10-28T23:23:29Z"
+  "checkpoint_at": "2026-10-28T23:24:24Z"
 }
