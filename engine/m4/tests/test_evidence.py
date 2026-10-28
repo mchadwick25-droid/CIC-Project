@@ -1597,15 +1597,33 @@ def test_a_carried_cells_lead_witness_carries_its_riders():
 
 
 
-def test_a_guard_line_that_repeats_an_earlier_one_is_left_out_of_the_rider():
-    guards = [
-        "The passage does not describe formal public penance, excommunication or a bishop readmitting a penitent, and must not be used as evidence for any of them.",
-        "a claim that it describes formal public penance, excommunication or a bishop readmitting a penitent",
-        "a claim that 'publican' means a keeper of a pub",
-    ]
+_DISTINCT_GUARD_RECORDS = (
+    ("syr", "syr.contested.aphrahat-episcopacy"),
+    ("syr", "syr.contested.jacob-death-year"),
+    ("rzg", "rzg.limit.doubt-and-assurance"),
+    ("rzg", "rzg.limit.no-teaching-on-wealth-or-marriage"),
+    ("syr", "syr.story.basil-legend"),
+    ("ijc", "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood"),
+)
+
+
+def test_every_guard_line_of_a_record_reaches_its_rider_distinct_claims_included():
+    from engine.m1.loader import load_world_records
+
+    for world, rid in _DISTINCT_GUARD_RECORDS:
+        record = load_world_records(world)[rid]
+        guards = list(record.get("claim_guards") or []) + list((record.get("use_note") or {}).get("not_for") or [])
+        assert len(guards) >= 2, rid
+        candidate = {"id": rid, "record_type": record["record_type"], "head": "Head.", "claim_guards": guards}
+        line = next(l for l in render_evidence_block({"candidates": [candidate], "thin_ground": [], "figures_already_named": []}).splitlines() if rid in l)
+        assert all(g in line for g in guards), (rid, [g for g in guards if g not in line])
+
+
+def test_a_negation_pair_and_a_number_pair_both_survive_in_the_rider():
+    guards = ["a claim that he was certainly a bishop", "a claim that he was certainly not a bishop", "a claim that he died in 338", "a claim that he died in 350"]
     block = render_evidence_block({"candidates": [{"id": "fix.story.g", "record_type": "story", "head": "Head.", "claim_guards": guards}], "thin_ground": [], "figures_already_named": []})
-    line = next(l for l in block.splitlines() if "[[fix.story.g]]" in l)
-    assert line.count("formal public penance") == 1 and "publican" in line
+    assert all(g in block for g in guards)
+
 
 
 _SETTING_QUOTE = {

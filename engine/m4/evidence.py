@@ -1425,24 +1425,6 @@ def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> d
     return {**candidate, "speaker": label, "gist": gist, "speaker_name": name}
 
 
-_NEAR_DUPLICATE = 0.7
-
-
-def _distinct_guards(guards: list[str]) -> list[str]:
-    """The guard lines with a near-duplicate of an earlier line left out: a
-    line whose content words are at least 70% shared with the shorter of the
-    two repeats what the earlier line already bars."""
-    kept: list[str] = []
-    kept_words: list[set[str]] = []
-    for guard in guards:
-        words = content_words(guard)
-        if words and any(other and len(words & other) / min(len(words), len(other)) >= _NEAR_DUPLICATE for other in kept_words):
-            continue
-        kept.append(guard)
-        kept_words.append(words)
-    return kept
-
-
 def _quote_line(candidate: dict, descriptors: list[str]) -> str:
     """A quote's line in the evidence block: id in the marker's own form,
     speaker and gist for one not yet voiced; for one already voiced, no
@@ -1463,7 +1445,7 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
     if candidate.get("setting"):
         line += f" | setting: {candidate['setting']}"
     if candidate.get("claim_guards"):
-        line += " | MUST NOT ASSERT: " + "; ".join(_distinct_guards(candidate["claim_guards"]))
+        line += " | MUST NOT ASSERT: " + "; ".join(candidate["claim_guards"])
     return line
 
 
@@ -1551,7 +1533,7 @@ def render_evidence_block(evidence: dict) -> str:
             # budget - upstream prevention, the mechanism that actually
             # works") - directly beside the one record it barred a claim
             # about, never a separate section a skim could miss.
-            line += " | MUST NOT ASSERT: " + "; ".join(_distinct_guards(guards))
+            line += " | MUST NOT ASSERT: " + "; ".join(guards)
         if candidate.get("absent_detail"):
             line += " | NOT KNOWN: " + candidate["absent_detail"]
         lines.append(line)
