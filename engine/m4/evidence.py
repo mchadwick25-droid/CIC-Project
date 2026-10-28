@@ -36,6 +36,7 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
+import os
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
@@ -1182,6 +1183,58 @@ def _split_extra_cells(cells: list[dict]) -> tuple[list[dict], list[dict]]:
     return [c for c in cells if c not in extra], extra
 
 
+OFFER_CAP_ENV = "CIC_OFFER_CAP"
+DEFAULT_OFFER_CAP = 10
+
+
+def _offer_cap_from_env(environ=None) -> int | None:
+    """The most records a turn offers, read once at startup from CIC_OFFER_CAP:
+    unset gives the default of 10; 0, off, false or no switches the cap off."""
+    raw = ((environ if environ is not None else os.environ).get(OFFER_CAP_ENV) or "").strip().lower()
+    if raw in ("0", "off", "false", "no"):
+        return None
+    return int(raw) if raw.isdigit() else DEFAULT_OFFER_CAP
+
+
+OFFER_CAP = _offer_cap_from_env()
+
+
+def _cap_offered(selected: list[dict], cell_matches: list[dict], cap: int | None) -> tuple[list[dict], list[str]]:
+    """The offered records with the lowest-ranked ones beyond `cap` left out,
+    and the ids left out. Never left out: the first record of each cell, every
+    record of an entity-matched, hint-word or carried cell, every quote (the
+    placement may use any), every honest limit, and every full-text-fallback or
+    scope-completion record. Rank is the matcher's own score, lower first, a
+    later position going before an earlier one; if the protected records alone
+    exceed the cap they are all offered."""
+    if cap is None or len(selected) <= cap:
+        return selected, []
+    cells = {m["cell"]: m for m in cell_matches}
+    protected: set[str] = set()
+    cells_seen: set[str] = set()
+    for c in selected:
+        cell = c.get("cell")
+        match = cells.get(cell) or {}
+        if cell is not None and cell not in cells_seen:
+            cells_seen.add(cell)
+            protected.add(c["id"])
+        if (
+            c["record_type"] in ("quote", "honest_limit") or c.get("fulltext_fallback") or c.get("scope_completion")
+            or match.get("from_entity") or match.get("from_hint_word") or match.get("from_prior_turn")
+        ):
+            protected.add(c["id"])
+    droppable = sorted(
+        ((i, c) for i, c in enumerate(selected) if c["id"] not in protected),
+        key=lambda t: (t[1]["score"] if t[1].get("score") is not None else -1.0, -t[0]),
+    )
+    dropped: set[int] = set()
+    for i, _ in droppable:
+        if len(selected) - len(dropped) <= cap:
+            break
+        dropped.add(i)
+    return [c for i, c in enumerate(selected) if i not in dropped], [c["id"] for i, c in enumerate(selected) if i in dropped]
+
+
 def assemble_evidence(
     *,
     message: str,
@@ -1359,6 +1412,7 @@ def assemble_evidence(
             }
         )
 
+    selected, capped = _cap_offered(selected, cell_matches, OFFER_CAP)
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
     if rhythm is not None:
         selected = [
@@ -1368,12 +1422,15 @@ def assemble_evidence(
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
     selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
 
-    return {
+    result = {
         "cells": cell_matches,
         "candidates": selected,
         "thin_ground": thin_ground,
         "figures_already_named": list(figures_already_named or []),
     }
+    if capped:
+        result["capped"] = capped
+    return result
 
 
 def _with_riders(candidate: dict, repository_records: dict[str, dict]) -> dict:

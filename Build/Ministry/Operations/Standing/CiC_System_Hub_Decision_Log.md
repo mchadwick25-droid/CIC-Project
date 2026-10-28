@@ -7161,3 +7161,11 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Exception for the eleven other worlds.** Mark, by choice box, relayed by the project-management thread: the 13 October 2026 eleven-world test (alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr, witt; not lpc) is used as a side-by-side, for this purpose only, read qualitatively and labelled older, different format and a different engine. The data rule is otherwise: nothing dated before 2026-10-27. The 28-probe battery does not ask that test's 6 questions, so the side-by-side needs a replay of the same 6 questions per world (66 voice turns, about $1.80 voice-only or $2.40 with the safety and reader calls) through the live-turn harness. Plan within the $12 cap: admission on all 12 worlds first; the replay then runs in the same world order with whatever budget remains after admission and retries, under the same name, cap and printed settings, stopping before any call that could pass $12 in total. The report names exactly which worlds got the replay.
 
 **Open.** The run, its report files under `engine/m3/reports/`, and the fleet summary follow after "go".
+
+## 2026-10-28 - Offered records are capped at 10 per turn, behind a switch (project lead's ruling, choice box)
+
+**Question.** The voice is offered 9 to 17 records a turn and cites 1 to 6; the evidence block is the largest part of a turn's cost after the cached prefix. Cap it?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: cap offered records at 10, behind a switch he can turn off, default on.
+
+**Done.** `assemble_evidence` leaves out the lowest-ranked records beyond 10 (the matcher's own score, lower first, later position first). Never left out: the first record of each matched cell, every record of an entity-matched, hint-word or carried cell, every quote, every honest limit, and every full-text-fallback or scope-completion record. If those alone exceed 10 they are all offered. The switch is the environment variable `CIC_OFFER_CAP`, read once when the engine starts: unset gives 10; `0`, `off`, `false` or `no` turns the cap off and restores today's offered sets exactly; a number sets another cap. Dropped ids are reported under `capped` on the evidence result. Measurements, including the cited records the cap cuts, are in the pull request.

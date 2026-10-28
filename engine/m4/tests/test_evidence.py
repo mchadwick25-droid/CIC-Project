@@ -1645,3 +1645,73 @@ def test_a_setting_costs_no_selection_budget_and_is_valid_in_the_quote_schema():
     assert not [e for e in validator.iter_errors({**base, "setting": {"answers": "how one believer corrects another"}}) if "setting" in "/".join(map(str, e.path))]
     assert [e for e in validator.iter_errors({**base, "setting": {"where": "Hippo"}}) if "setting" in "/".join(map(str, e.path))]
     assert [e for e in validator.iter_errors({**base, "setting": {}}) if "setting" in "/".join(map(str, e.path))]
+
+
+# --- the cap on offered records ---------------------------------------------------
+
+def _c(rid, rtype="term", score=0.5, cell="X-1", **extra):
+    return {"id": rid, "record_type": rtype, "score": score, "cell": cell, **extra}
+
+
+def test_the_cap_reads_its_switch_once_and_defaults_to_ten():
+    from engine.m4.evidence import _offer_cap_from_env
+
+    assert _offer_cap_from_env({}) == 10
+    assert _offer_cap_from_env({"CIC_OFFER_CAP": "7"}) == 7
+    assert all(_offer_cap_from_env({"CIC_OFFER_CAP": v}) is None for v in ("0", "off", "OFF", "false", "no"))
+    assert _offer_cap_from_env({"CIC_OFFER_CAP": "garbage"}) == 10
+
+
+def test_the_cap_leaves_out_the_lowest_ranked_unprotected_records_and_keeps_order():
+    from engine.m4.evidence import _cap_offered
+
+    selected = [_c("top"), _c("a", score=0.9), _c("b", score=0.1), _c("c", score=0.5), _c("d", score=0.1), _c("e", score=0.7)]
+    kept, dropped = _cap_offered(selected, [{"cell": "X-1"}], 4)
+    assert [c["id"] for c in kept] == ["top", "a", "c", "e"]
+    assert dropped == ["b", "d"]
+    assert _cap_offered(selected, [{"cell": "X-1"}], None) == (selected, [])
+    assert _cap_offered(selected, [{"cell": "X-1"}], 6) == (selected, [])
+
+
+def test_the_cap_never_leaves_out_a_cells_first_record_extras_carried_quotes_limits_fallback_or_scope_records():
+    from engine.m4.evidence import _cap_offered
+
+    matches = [{"cell": "X-1"}, {"cell": "H-1", "from_hint_word": "w"}, {"cell": "E-1", "from_entity": "n"},
+               {"cell": "P-1", "from_prior_turn": True}, {"cell": "Y-1"}]
+    selected = [
+        _c("x-first", score=0.0), _c("x-low", score=0.0),
+        _c("hint", cell="H-1", score=0.0), _c("hint2", cell="H-1", score=0.0),
+        _c("ent", cell="E-1", score=0.0), _c("carried", cell="P-1", score=0.0),
+        _c("y-first", cell="Y-1", score=0.0), _c("y-low", cell="Y-1", score=0.0),
+        _c("quote", "quote", cell="Y-1", score=0.0), _c("limit", "honest_limit", score=None),
+        _c("fallback", cell=None, score=None, fulltext_fallback=True), _c("scope", cell=None, score=None, scope_completion=True),
+        _c("other", score=0.4),
+    ]
+    kept, dropped = _cap_offered(selected, matches, 3)
+    assert set(dropped) == {"x-low", "y-low", "other"}
+    assert {c["id"] for c in kept} == {"x-first", "hint", "hint2", "ent", "carried", "y-first", "quote", "limit", "fallback", "scope"}
+
+
+def test_when_the_protected_records_alone_exceed_the_cap_they_are_all_offered():
+    from engine.m4.evidence import _cap_offered
+
+    selected = [_c(f"q{i}", "quote", cell=None) for i in range(12)] + [_c("low", score=0.0, cell=None)]
+    kept, dropped = _cap_offered(selected, [], 10)
+    assert dropped == ["low"] and len(kept) == 12
+
+
+def test_assemble_evidence_applies_the_cap_and_the_switch_off_reproduces_the_uncapped_offer(monkeypatch):
+    import engine.m4.evidence as evidence
+
+    kw = dict(message="What did your community actually have about Jesus - writings, memories, people?", asks=None,
+              canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
+    monkeypatch.setattr(evidence, "OFFER_CAP", None)
+    uncapped = assemble_evidence(**kw)
+    assert "capped" not in uncapped and len(uncapped["candidates"]) > 4
+    monkeypatch.setattr(evidence, "OFFER_CAP", 4)
+    capped = assemble_evidence(**kw)
+    assert len(capped["candidates"]) == 4 and capped["capped"]
+    assert [c["id"] for c in capped["candidates"]] == [c["id"] for c in uncapped["candidates"] if c["id"] not in capped["capped"]]
+    assert uncapped["candidates"][0]["id"] in {c["id"] for c in capped["candidates"]}
+    monkeypatch.setattr(evidence, "OFFER_CAP", 1000)
+    assert assemble_evidence(**kw) == uncapped
