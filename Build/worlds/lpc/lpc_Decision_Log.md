@@ -2870,3 +2870,9 @@ Corrections to earlier entries: the 17 records the first trial of this rule seem
 
 No world record changed. Held to a live retest, which is the project lead's to name.
 
+
+---
+
+### 2026-10-28 — The world ends with the Vandal siege of Hippo in 430, not with Augustine's death (project lead's ruling)
+
+The project lead's words: "the end is 430, the Vandal siege of Hippo", after saying the voice must not know past its years and that this is a world Augustine and others were part of. The registry date (430) is unchanged. Done at the source: world_core `horizon` and `living_traditions` (through s21), the Permanent Prompt's closing sentence, and the world front's last story ("The siege of Hippo closes this world's years") now name the siege as the end, with Augustine's death as an event inside it. The site JSON, the traditions page and the package were rebuilt (pin `2026-10-28T03-27-41Z`). Doc_01's passage that grounds the end in Augustine's death, and the calibration and source-record notes that repeat it, are superseded by this ruling and are not edited. The live test "lpc go-live 2" had run admission on the previous pin (28 of 28, $0.83) and was stopped one probe into validation, so no further spend went on a prompt with the old boundary; both are rerun on the new pin under the same name and cap.

@@ -2317,3 +2317,5 @@ Logged 2026-10-28.
 - **Not changed.** The word-length and record-count limits are judgments, set so the Augustine and "killed themselves" questions are covered; they are in `evidence._HINT_WORD_MIN_LETTERS` and `_HINT_WORD_MAX_RECORDS`.
 - **Owner.** The project lead, for the live retest and its cap.
 
+
+- **Update to OG-98, 2026-10-28.** The world's end is the Vandal siege of Hippo in 430, not Augustine's death (Decision Log, 2026-10-28). Fixed in `horizon`, `living_traditions`, the Permanent Prompt and the world front. Still stating the old tie, not edited because they are approved construction documents or notes: Doc_01 (end-point grounds), `lpc_Rep_Phase2_Formation_Calibration.md`, and body notes on two source records (`prosper-epitoma-chronicon`, `possidius`). New pin `packages/lpc/2026-10-28T03-27-41Z`. Admission on the previous pin passed 28 of 28 ($0.83) and is superseded by the rerun.
