@@ -2870,3 +2870,13 @@ Corrections to earlier entries: the 17 records the first trial of this rule seem
 
 No world record changed. Held to a live retest, which is the project lead's to name.
 
+### 2026-10-28 — The leaning-sentence and hollowed-reply rules are removed (project lead's ruling)
+
+Context: `apply_net` removes the sentences the grounding net withholds. Pull requests 1217 and 1219 added two rules around that removal: (b) a sentence that opens by pointing back ("That…", "Neither…", "But…") and cites nothing goes too when the cited sentence before it was removed; (c) a reply that lost 40% or more of the cited sentences it carried is replaced by the world's own answer record. Decision (project lead, 2026-10-28, from a choice between keeping and removing them): remove (b) and (c). The world's views are not limited or replaced by a rule of ours beyond what the grounding net itself withholds.
+
+Kept, as the project lead said: (a) the answer record shown word for word when a reply is emptied or loses every verified citation (`apply_net(answer_record=…)`, `_placed_answer_verdict`, the choice of record in `_answer_record_fallback`); (d) the single-mark rendering of a quote (`quotable_rendering`); the offline check of quotations in answer records (pull request 1223).
+
+Changed: `engine/m4/turn.py` (`_remove_with_leaning`, `_hollowed`, `HOLLOWED_*`, the `offered_only` mode and the hollowed branch of `settle_reply` go; `apply_net` removes exactly the sentences the net returns, as before); `engine/m4/grounding_net.py` (`leans_on_previous`, `cites_record`, `REASON_FOLLOWS_REMOVAL`); `engine/m4/quote_placement.py` and `story_placement.py` (the orphaned-sentence rule); the `sentence_stream.py` docstring (the one exception to "no streamed sentence is taken back" no longer exists, which closes OG-102). The replay counts return to their earlier values (56 cuts in the eleven-world replay, 18 in the retest replay). Tests: a sentence that leans on a removed one now stays, in the net and in both placements; a reply that lost two fifths or more of its cited sentences stands as the net left it and is not swapped for the record.
+
+No world record changed. No model call.
+

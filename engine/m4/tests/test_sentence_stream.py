@@ -188,8 +188,7 @@ def test_a_sentence_tagged_to_a_quote_not_yet_voiced_stops_the_stream_and_leaves
     texts = [e["text"] for e in _streamed(_chunked(RAW, 5), voiced=frozenset())]
     assert texts == ["We kept the bread together each week.", "Two walked the road to Emmaus."]
     text, _plan_ = _plan(RAW, voiced=frozenset())
-    assert "the new song" not in text and text.endswith("We hold it still.")
-    assert "That is what we remember" not in text
+    assert "the new song" not in text and text.endswith("That is what we remember. We hold it still.")
 
 
 def test_a_retold_story_stops_the_stream():

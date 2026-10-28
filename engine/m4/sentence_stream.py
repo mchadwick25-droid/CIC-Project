@@ -37,9 +37,7 @@ reply's first words is caught before any of it shows. Nothing is released
 until the first sentence that keeps a citation the net verifies can be: a
 draft with nothing grounded in it is replaced by the world's answer record
 (engine.m4.turn.settle_reply), and arrives whole with the finished reply.
-No streamed sentence is taken back, except when settle_reply replaces a reply
-that lost HOLLOWED_SHARE or more of its cited sentences: the finished reply
-then replaces the streamed partial.
+No streamed sentence is ever taken back.
 """
 from engine.m4.citation_cards import resolve_source_card
 from engine.m4.grounding_net import (

@@ -49,7 +49,7 @@ from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_horizon
-from engine.m4.quote_placement import REASON_STORY_RETOLD, PlacementContext, place_quotes
+from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -327,10 +327,7 @@ def apply_net(
     (grounding_net.check_turn_with_paragraph_coverage) over the result,
     which knows each placed sentence. A sentence the net withholds for a
     quotation reason (grounding_net.QUOTATION_DROP_REASONS) is removed and
-    the rest checked again, until nothing more goes. A removed sentence that
-    cites a record takes with it the run of sentences just after it that
-    lean on it (_remove_with_leaning; the same rule in quote_placement and
-    story_placement for the removals placement makes). Every
+    the rest checked again, until nothing more goes. Every
     other withheld sentence keeps its words and loses its citation: the
     checks gate decoration, not text, apart from these removals. The text
     has its tags stripped, and the marks come off a short quoted span found
@@ -393,12 +390,16 @@ def apply_net(
         if not going:
             break
         aligned = len(spans) == len(net_result["sentences"])
-        shorter, cut = _remove_with_leaning(
-            tagged, net_result["sentences"], going, shaped["placed_sentences"], aligned=aligned,
+        shorter = grounding_net.drop_flagged_sentences(
+            tagged, {entry.get("source_sentence") or entry["sentence"] for entry in going},
+            positions={i for i, entry in enumerate(net_result["sentences"]) if any(entry is g for g in going)} if aligned else None,
         )
         if shorter == tagged:
             break
-        removed += cut
+        removed += [
+            {"sentence": entry["sentence"], "why": entry["why"], "draft": entry.get("draft") or entry["sentence"]}
+            for entry in going
+        ]
         tagged = shorter
     shown = {grounding_net.placed_key(entry["sentence"]) for entry in net_result["sentences"]}
     net_result["reply_shape"] = {
@@ -414,69 +415,14 @@ def apply_net(
     return text, citations, net_result
 
 
-def _remove_with_leaning(
-    tagged: str, entries: list[dict], going: list[dict], placed: dict[str, str], *, aligned: bool,
-) -> tuple[str, list[dict]]:
-    """`tagged` without the sentences the net removes (`going`, among
-    `entries`, the net's verdicts in sentence order) and, after each removed
-    sentence that cites a record, the run of sentences just after it, in its
-    paragraph, that lean on it (grounding_net.leans_on_previous), unless code
-    placed them;
-    with what was removed, each sentence with why, the leaning ones with
-    grounding_net.REASON_FOLLOWS_REMOVAL. `aligned` is whether `entries`
-    are `tagged`'s sentences one for one."""
-    parsed, paragraph_of = [], []
-    for number, paragraph in enumerate(grounding_net.split_into_paragraphs(tagged)):
-        for sent in grounding_net.parse_tagged(paragraph):
-            parsed.append(sent)
-            paragraph_of.append(number)
-    if aligned:
-        removing = {i for i, entry in enumerate(entries) if any(entry is g for g in going)}
-    else:
-        flagged = {entry.get("source_sentence") or entry["sentence"] for entry in going}
-        removing = {i for i, sent in enumerate(parsed) if sent["text"] in flagged}
-    if not removing:
-        return tagged, []
-    leaning: set[int] = set()
-    for i in sorted(i for i in removing if parsed[i]["tags"]):
-        j = i + 1
-        while (
-            j < len(parsed) and paragraph_of[j] == paragraph_of[i] and j not in removing
-            and not (aligned and grounding_net.placed_by_code(entries[j]))
-            and grounding_net.placed_key(grounding_net.strip_tags(parsed[j]["raw"])) not in placed
-            and grounding_net.leans_on_previous(parsed[j]["raw"])
-        ):
-            leaning.add(j)
-            j += 1
-    removed = []
-    for i in sorted(removing | leaning):
-        entry = entries[i] if aligned else None
-        if i in leaning:
-            removed.append({
-                "sentence": grounding_net.strip_tags(parsed[i]["raw"]).strip(), "why": grounding_net.REASON_FOLLOWS_REMOVAL,
-                "draft": (entry or {}).get("draft") or parsed[i]["raw"],
-            })
-        elif entry is not None:
-            removed.append({"sentence": entry["sentence"], "why": entry["why"], "draft": entry.get("draft") or entry["sentence"]})
-        else:
-            going_entry = next(g for g in going if (g.get("source_sentence") or g["sentence"]) == parsed[i]["text"])
-            removed.append({"sentence": going_entry["sentence"], "why": going_entry["why"], "draft": parsed[i]["raw"]})
-    return grounding_net.drop_flagged_sentences(tagged, set(), positions=removing | leaning), removed
-
-
 _SENTENCE_END = re.compile(r"^(?P<body>.*?)(?P<end>[.!?][\"'”’)]*)\s*$", re.DOTALL)
 
 
-def _answer_record_fallback(
-    raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict], *, offered_only: bool = False,
-) -> str | None:
+def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict]) -> str | None:
     """The world's own answer record for the question: the doctrinal witness
     the draft tagged that the evidence block offered (the first, in the
     block's order), else the witness the draft tagged most often, else the
     turn's lead witness (the first one offered). None when there is none.
-    With `offered_only` the record is one the evidence block offered this
-    turn: the offered witness the draft tagged most often, else the lead
-    witness; None when none was offered.
 
     A tag no record has, whose slug is that of exactly one doctrinal witness
     of the same world ([[witt.term.truly-god-and-truly-man]] for
@@ -493,12 +439,6 @@ def _answer_record_fallback(
         return None
 
     drafted = [found for t in tagged if (found := witness(t))]
-    if offered_only:
-        offered_witnesses = list(dict.fromkeys(found for record_id in offered if (found := witness(record_id))))
-        cited = [found for found in drafted if found in offered_witnesses]
-        if cited:
-            return max(dict.fromkeys(cited), key=cited.count)
-        return offered_witnesses[0] if offered_witnesses else None
     for record_id in offered:
         if (found := witness(record_id)) and found in drafted:
             return found
@@ -527,34 +467,6 @@ def _claims_ground(raw_text: str) -> bool:
     )
 
 
-# The share of the sentences a draft rested on records for that apply_net may
-# remove before what is left is no longer the voice's answer, and the least
-# the draft must have carried, and lost, for the share to mean anything: a
-# single removal is the ordinary case and a reply of two cited sentences
-# loses half of itself to it.
-HOLLOWED_SHARE = 0.4
-HOLLOWED_MIN_CITED = 3
-HOLLOWED_MIN_REMOVED = 2
-
-
-def _hollowed(net_result: dict) -> bool:
-    """apply_net removed HOLLOWED_SHARE or more of the sentences the draft
-    rested on records for: those that cite a record or mark a quote or story
-    (a marker that failed counts), and those cut for leaning on one. A story
-    told again is cut by design and does not count. Needs at least
-    HOLLOWED_MIN_CITED such sentences and HOLLOWED_MIN_REMOVED removed."""
-    removed = sum(
-        1 for entry in net_result["reply_shape"]["removed"]
-        if entry["why"] != REASON_STORY_RETOLD
-        and (entry["why"] == grounding_net.REASON_FOLLOWS_REMOVAL or grounding_net.cites_record(entry["draft"]))
-    )
-    kept = sum(1 for entry in net_result["sentences"] if entry["tags"])
-    return (
-        removed >= HOLLOWED_MIN_REMOVED and removed + kept >= HOLLOWED_MIN_CITED
-        and removed / (removed + kept) >= HOLLOWED_SHARE
-    )
-
-
 def settle_reply(
     raw_text: str, answer_text: str, net_result: dict, offered_ids: dict[str, list[str]],
     repository_records: dict[str, dict], net,
@@ -563,19 +475,14 @@ def settle_reply(
     apply_net (`net`, called with raw text) made of it.
 
     A reply no longer answers when the voice wrote one and apply_net left
-    nothing of it, when its draft cited records or marked a quote and no
+    nothing of it, or when its draft cited records or marked a quote and no
     sentence left keeps a citation the net verified (net_result's
-    substantive_survives is false; the turn reports it as degraded_by_net),
-    or when apply_net removed HOLLOWED_SHARE or more of the cited
-    sentences the draft carried (_hollowed): what is left of a retelling
-    that lost that much can read as another thing altogether. A hollowed
-    reply is replaced only by a record the evidence offered this turn.
+    substantive_survives is false; the turn reports it as degraded_by_net).
     Such a reply is replaced by the world's own answer record for the
     question, word for word (_answer_record_fallback), with no model call.
     With no answer record to show, the reply is withheld: nothing is shown,
-    as when everything was cut; a hollowed reply stands as it is. A reply
-    that never claimed ground (one that cites nothing, such as a reply to
-    thanks) stands as written.
+    as when everything was cut. A reply that never claimed ground (one that
+    cites nothing, such as a reply to thanks) stands as written.
 
     Returns {"raw_text", "text", "citations", "net_result",
     "answer_record_fallback"}; citations is None when the draft stands."""
@@ -583,12 +490,9 @@ def settle_reply(
                "answer_record_fallback": None}
     emptied = bool(raw_text.strip()) and not answer_text.strip()
     ungrounded = answer_text.strip() and _claims_ground(raw_text) and not net_result["substantive_survives"]
-    hollowed = bool(answer_text.strip()) and _hollowed(net_result)
-    if not (emptied or ungrounded or hollowed):
+    if not (emptied or ungrounded):
         return settled
-    record_id = _answer_record_fallback(
-        raw_text, offered_ids, repository_records, offered_only=not (emptied or ungrounded),
-    )
+    record_id = _answer_record_fallback(raw_text, offered_ids, repository_records)
     if record_id is None:
         return {**settled, "text": "", "citations": []} if ungrounded else settled
     cut_from_draft = net_result["reply_shape"]["removed"]
