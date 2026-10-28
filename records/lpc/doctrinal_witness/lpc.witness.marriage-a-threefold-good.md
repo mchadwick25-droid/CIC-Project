@@ -41,7 +41,6 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks what marriage meant to us, or whether we taught anything about it
-  - conversation reaches F5-T and needs the real teaching that answers the marriage half of that question
   do_not_retrieve_when: []
 claim_guards: []
 relations:

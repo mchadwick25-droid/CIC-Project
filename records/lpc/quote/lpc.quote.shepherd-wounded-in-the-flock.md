@@ -31,8 +31,7 @@ retrieval:
   retrieve_when:
   - participant asks what it meant for us that a bishop was answerable for a whole flock
   - participant asks how we spoke about a leader's own grief for those under his care
-  - conversation reaches the pastoral office and needs the image lpc.term.the-flock already names in prose,
-    voiced directly
+  - "participant asks whether a bishop shared his people's wounds, or only gave them orders"
   prefer_instead:
   - participant wants the lapsed crisis's own doctrinal argument rather than this passage's own grief
     -- De Lapsis argues that case elsewhere; this quote is the grief that opens it

@@ -35,7 +35,7 @@ retrieval:
   - participant asks how leaders were chosen among us
   - participant asks whether ordinary people had any real say in who led them
   - participant raises questions of authority, qualification, or whether a leader is 'ready'
-  - conversation reaches the pastoral office or collegial communion
+  - participant asks whether Cyprian wanted to be made bishop
   prefer_instead:
   - participant asks specifically about martyrdom or the end of Cyprian's own life -- ask about the death
     of Cyprian instead

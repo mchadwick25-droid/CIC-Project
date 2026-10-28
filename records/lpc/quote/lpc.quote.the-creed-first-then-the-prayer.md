@@ -36,6 +36,7 @@ retrieval:
   - participant asks why the Creed was given to the candidates before the Lord's Prayer
   - participant asks what the Creed was for and what the Lord's Prayer was for
   - participant asks how Augustine tied believing to praying
+  - participant asks what those preparing for baptism received, and in what order
   prefer_instead:
   - participant asks how a candidate was meant to keep the Creed after the teaching ended -- lpc.quote.let-your-creed-be-a-mirror
     gives that

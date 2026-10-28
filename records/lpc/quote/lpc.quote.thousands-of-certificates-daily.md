@@ -13,6 +13,7 @@ use_note:
     - "a claim that 'thousands' is a count"
     - "a claim that the 'wicked certificates' and the confessors' certificates are one document"
     - "a claim that Cyprian said such letters should not exist"
+    - "a claim about a motive beyond the one he gives, that the letters were given without examination and against the Gospel"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:

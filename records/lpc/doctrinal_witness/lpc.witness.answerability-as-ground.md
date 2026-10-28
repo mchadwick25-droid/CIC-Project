@@ -52,8 +52,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what matters most, or what holds this world together underneath its own arguments
-  - conversation is ready to hear the road back, the font, and communion held despite disagreement as
-    one conviction rather than three separate topics
+  - participant asks what single belief ties together how we treated the lapsed, baptism, and disagreement between bishops
   do_not_retrieve_when: []
 relations:
 - type: associated-with

@@ -44,7 +44,7 @@ retrieval:
   - participant asks how we understood a life completed
   - participant asks how Cyprian died, or how his people met his death
   - participant asks what we believed formation finally produced
-  - conversation reaches the pastoral office or the confessor tension
+  - "participant asks how the sources tell the last day of Cyprian's life"
   prefer_instead:
   - participant wants a transcript of Cyprian's trial -- the Acta is a Christian compilation built around
     the hearing records, and is not a court transcript

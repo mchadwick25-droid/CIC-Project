@@ -38,7 +38,7 @@ retrieval:
   - participant asks how we treated outsiders or enemies
   - participant raises suffering, epidemic, or disaster
   - participant asks what we did that was visibly different from those around us
-  - conversation reaches preaching and catechesis or the pastoral office
+  - participant asks what Cyprian taught his people to do when plague struck the city
   prefer_instead:
   - participant is asking about martyrdom or persecution as such -- the plague was not a persecution,
     and treating it as one misreads this account
