@@ -56,6 +56,7 @@ Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/01-editorial-longform-rev
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/02-atlas-first-spatial-defense.md: Sandbox/D2-struggle/02-atlas-first-spatial-review.md
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/02-atlas-first-spatial-review.md: Sandbox/D1-directions/02-atlas-first-spatial
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/05-product-led-clarity-defense.md: cic-website/assets/tour-captures
+Build/Ministry/Operations/Handoffs/2026-10-27_lpc-go-live-readiness.md: packages/lpc/2026-10-28T02-55-50Z
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: Build/Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: World-Builds/Desert-Monasticism/CiC_W3_Living_Tradition_Differentiation_Review.md
@@ -181,6 +182,7 @@ Build/worlds/cappadocian/Cappadocian_Final_Report.md: worlds/Nicene-Cappadocian
 Build/worlds/cappadocian/Open_Gaps_Tracking.md: Build/worlds/witt/witt.voice.craft.md
 Build/worlds/cappadocian/Open_Gaps_Tracking.md: engine/governance
 Build/worlds/cappadocian/Open_Gaps_Tracking.md: packages/cappadocian/2026-09-20T03-21-39Z
+Build/worlds/cappadocian/Open_Gaps_Tracking.md: packages/cappadocian/2026-10-27T21-40-06Z
 Build/worlds/cappadocian/Open_Gaps_Tracking.md: records/worlds.yaml
 Build/worlds/cappadocian/Open_Gaps_Tracking.md: worlds/Nicene-Cappadocian
 Build/worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round1_Review.md: cic/corpus-map/_staging/anf06_gregory-thaumaturgus-...yaml
@@ -327,6 +329,7 @@ Build/worlds/gallic/Lexicon-Chunks/galliclex081_catechumen.md: L4-Templates/Depl
 Build/worlds/gallic/Open_Gaps_Tracking.md: engine/governance
 Build/worlds/gallic/Open_Gaps_Tracking.md: packages/gallic/2026-09-13T16-06-19Z
 Build/worlds/gallic/Open_Gaps_Tracking.md: packages/gallic/2026-09-25T18-01-08Z
+Build/worlds/gallic/Open_Gaps_Tracking.md: packages/gallic/2026-10-27T21-30-59Z
 Build/worlds/gallic/Story-Chunks/gallicstory001_the-cloak-at-amiens.md: L4-Templates/Story_Repository_Chunk_Template.md
 Build/worlds/gallic/Story-Chunks/gallicstory002_discharge-before-caesar.md: L4-Templates/Story_Repository_Chunk_Template.md
 Build/worlds/gallic/Story-Chunks/gallicstory003_raising-of-the-catechumen.md: L4-Templates/Story_Repository_Chunk_Template.md
@@ -432,6 +435,7 @@ Build/worlds/lpc/Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md: L4-T
 Build/worlds/lpc/Open_Gaps_Tracking.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc/2026-10-26T18-33-28Z
+Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc/2026-10-28T02-55-50Z
 Build/worlds/lpc/Representative/lpc_Rep_Phase6_Facilitator_Coordination_Round1.md: L4-Templates/World_Facilitation_Brief_Template.md
 Build/worlds/lpc/Review-Artifacts/Article3_Gapped_Formation_Ruling_Prepared_2026-09-16.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
 Build/worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Build/Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
@@ -997,3 +1001,5 @@ Build/Ministry/Operations/Handoffs/2026-10-26_lpc-build-phase-L2-L3.md: cic-webs
 Build/worlds/witt/Open_Gaps_Tracking.md: Build/worlds/witt/scripts/wb_witt_s21.py
 Build/worlds/witt/witt_GoLive_Adversarial_Review_Round1.md: Build/worlds/witt/scripts/wb_witt_s21.py
 Build/worlds/witt/witt_World_Profile.md: Build/worlds/witt/scripts/wb_witt_s21.py
+Build/Ministry/Operations/Handoffs/2026-10-27_lpc-go-live-readiness.md: packages/lpc/2026-10-28T04-35-04Z
+Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc/2026-10-28T04-35-04Z
