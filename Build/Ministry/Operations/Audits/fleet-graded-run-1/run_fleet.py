@@ -14,7 +14,7 @@ import sys
 import time
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[4]
+ROOT = Path(__file__).resolve().parents[5]
 OUT = ROOT / "engine" / "m3" / "reports" / "fleet-graded-run-1"
 CHECKPOINT = OUT / "checkpoint.json"
 ORDER = ["lpc", "gallic", "desert", "ijc", "alx", "witt", "rzg", "pahc", "hal", "syr", "cappadocian", "don"]
