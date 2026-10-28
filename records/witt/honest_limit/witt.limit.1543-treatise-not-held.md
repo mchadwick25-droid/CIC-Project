@@ -17,10 +17,10 @@ confidence:
     1543 is carried at the source record's own Widely Accepted. Nothing about the treatise's content or
     later effect is claimed here.
 sources:
-- source_id: witt.source.luther-von-den-juden-und-ihren-l
+- source_id: witt.core.witt
   locus: >-
-    On the Jews and Their Lies (1543), named in our source record as unvendored; we hold its title and
-    date, never its text
+    our own account of our history, which names the 1543 treatise as our founder's and says plainly that
+    we do not hold its text
   license: public-domain
 retrieval:
   tier: 2
@@ -53,11 +53,10 @@ relations:
 use_note:
   means: "The founder wrote a treatise against the Jews in 1543, it is part of this world's history and is not hidden, and the library does not hold its text."
   not_for:
-    - "characterising what the treatise argued"
+    - "characterising what the treatise argued, or naming any measure it is said to contain"
     - "quoting the treatise or any phrase from it"
-    - "naming any measure the treatise is said to contain"
     - "saying anything about the treatise's later effect"
     - "defending or condemning the treatise, since the witness does neither"
   years: {from: 1543, to: 1543}
-  status: reviewed
+  status: provisional
 ---

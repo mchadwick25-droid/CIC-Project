@@ -2868,7 +2868,7 @@ Follows the entries OG-88 and OG-89 (2026-10-27, 2026-10-28). Mark directed the 
 - **Retired:** `witt.contested.1543-treatise-later-effect` moved to `Archive/Superseded-Records/witt/contested_claim/`. Its references were swapped in `witt.force.absent-inputs-1525-and-1555`, `witt.core.witt` and the grounding lines of the world front and facilitator brief drafts.
 - **Surface drafts rewritten to match** (hand-authored, status draft): the world front sentence on 1525 and 1543; in the facilitator brief, the limits unit, the academic-fit unit (five contested records became four) and the 1525 and 1543 unit.
 - **Left as it was:** `witt.source.wikipedia-on-the-jews-and-their-lies`. Nothing voiced or shown cites it now; its `edition`, body and `discovery_channel` text are stale. Historical mentions in audits, the build log, the grounding report and earlier entries stay.
-- **Confidence on the new record:** modelled as Documented, load-bearing, for a boundary fact, following `witt.limit.no-outsider-witness`; there is no sibling for a pure named absence. Mark may rule otherwise.
+- **Confidence on the new record:** Documented, load-bearing, for a boundary fact, following `witt.limit.no-outsider-witness`; there is no sibling for a pure named absence. It cites `witt.core.witt` (an emic record may not cite an unvendored source). Status provisional until a final read. Mark may rule otherwise.
 - **Not done:** the cell and routing for questions about the Jews and 1543 were not measured; `canon_cells` is empty, as on the retired record.
 
 Status: OPEN.
