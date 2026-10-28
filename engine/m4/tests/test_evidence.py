@@ -1483,7 +1483,7 @@ def test_riders_reach_a_quote_that_enters_through_scope_completion(monkeypatch):
 # --- a message that points back, or re-reaches a told story, also gets the prior subject's cells ---
 
 _FAST = "How did your people fast and keep the holy days?"
-_FAST_STORY = {"id": "fix.story.fast", "record_type": "story", "canon_cells": ["F2-E"], "tellable_as": "How the fast was kept on the fourth day, told as the community kept it."}
+_FAST_STORY = {"id": "fix.story.fast", "record_type": "story", "canon_cells": ["F2-E"], "tellable_as": "How the fast was kept on the fourth day, told as the community kept it.", "absent_detail": "We do not know who kept the first fast.", "use_note": {"not_for": ["a claim that the fast was kept by all"]}}
 _CARRY_CANON = {**CANON_QUESTIONS, "fleet.canon.q4": {"id": "fleet.canon.q4", "record_type": "canon_question", "cell": "F2-E", "text": _FAST}}
 _CARRY_REPOSITORY = {**REPOSITORY, _FAST_STORY["id"]: _FAST_STORY}
 _CARRY_COVERAGE = {**COVERAGE, "F2-E": {**COVERAGE["F1-E"], "stories": ["fix.story.fast"]}}
@@ -1541,10 +1541,60 @@ def test_a_first_turn_carries_nothing_even_with_a_back_reference_and_a_told_stor
     assert not any(c.get("from_prior_turn") for c in out["cells"])
 
 
+_FOLLOW_UP_FIRST = [{"role": "user", "content": "Why did that fast matter?"}, {"role": "assistant", "content": "It mattered."}]
+_NO_CELL = "What is the weather like today?"
+
+
 def test_when_no_earlier_message_stands_alone_the_conversations_first_message_is_the_subject():
-    history = [{"role": "user", "content": "Why did that matter about the fast and the holy days?"}, {"role": "assistant", "content": "It mattered."}]
-    out = _carry(_WEAK, history=history)
+    out = _carry(_WEAK, history=_FOLLOW_UP_FIRST)
     assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+    assert "from_prior_turn" not in _carry(_WEAK)["cells"][-1]
+
+
+def test_a_standalone_message_that_matched_no_cell_carries_nothing_even_when_an_older_message_had_one():
+    history = [
+        {"role": "user", "content": _FAST}, {"role": "assistant", "content": "We fasted."},
+        {"role": "user", "content": _NO_CELL}, {"role": "assistant", "content": "I cannot say."},
+    ]
+    assert _carry(_WEAK, history=history) == _carry(_WEAK)
+
+
+def test_a_carry_keeps_every_cell_the_message_matched_and_its_extra_cells_and_secondary_context():
+    canon = {**HINT_WORD_CANON, "canon.D-1": {"id": "canon.D-1", "record_type": "canon_question", "cell": "D-1", "text": "How were the dyers' vats kept?"}}
+    history = [{"role": "user", "content": "How were the dyers' vats kept?"}, {"role": "assistant", "content": "Clean."}]
+    kw = dict(message="Was that about the harbour boats and Nicaea?", asks=None, canon_questions=canon, coverage={},
+              repository_records=HINT_WORD_RECORDS, secondary_context="How were the orchard rows kept in your village?")
+    base = assemble_evidence(**kw)
+    out = assemble_evidence(**kw, history=history)
+    assert [c["cell"] for c in out["cells"]][:len(base["cells"])] == [c["cell"] for c in base["cells"]]
+    assert any(c.get("from_hint_word") for c in base["cells"]) and any(c.get("from_secondary_context") for c in base["cells"])
+    assert out["cells"][-1]["cell"] == "D-1" and out["cells"][-1]["from_prior_turn"]
+
+
+def test_a_carry_and_the_full_text_fallback_both_run_when_the_message_reaches_no_cell_of_its_own():
+    records = {**_CARRY_REPOSITORY, _RIDER_STORY["id"]: _RIDER_STORY}
+    out = assemble_evidence(
+        message="Was that the beggar?", asks=None, canon_questions=_CARRY_CANON, coverage=_CARRY_COVERAGE,
+        repository_records=records, history=_FOLLOW_UP_FIRST,
+    )
+    ids = {c["id"] for c in out["candidates"]}
+    assert "fix.story.rider" in ids and "fix.story.fast" in ids
+    assert any(c.get("fulltext_fallback") for c in out["candidates"])
+
+
+def test_a_carried_cells_lead_witness_carries_its_riders():
+    witness = {"id": "fix.witness.vigil", "record_type": "doctrinal_witness", "canon_cells": ["F3-E"], "text": "Lamps were lit before first light.",
+               "claim_guards": ["the speaker must not say who led the vigil"]}
+    canon = {**_CARRY_CANON, "fleet.canon.q5": {"id": "fleet.canon.q5", "record_type": "canon_question", "cell": "F3-E", "text": "How did your people keep the dawn vigil?"}}
+    coverage = {**_CARRY_COVERAGE, "F3-E": {**COVERAGE["F1-E"], "doctrinal_witness": ["fix.witness.vigil"]}}
+    history = [{"role": "user", "content": "How did your people keep the dawn vigil?"}, {"role": "assistant", "content": "With lamps."}]
+    out = assemble_evidence(message=_WEAK, asks=None, canon_questions=canon, coverage=coverage,
+                            repository_records={**_CARRY_REPOSITORY, "fix.witness.vigil": witness}, history=history)
+    [carried] = [c for c in out["candidates"] if c["id"] == "fix.witness.vigil"]
+    assert carried["cell"] == "F3-E"
+    assert "MUST NOT ASSERT: the speaker must not say who led the vigil" in _riders_in([carried])
+
+
 
 
 def test_a_guard_line_that_repeats_an_earlier_one_is_left_out_of_the_rider():

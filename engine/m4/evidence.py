@@ -1114,7 +1114,8 @@ def _prior_turn_cells(
     when the message holds a back-reference word and either its best cell is
     weak or such a record was told; empty on a first turn or when they are
     already among the cells. If no earlier message stood on its own, the
-    conversation's first one is the subject."""
+    conversation's first one is the subject; a standalone message that matched
+    no cell carries nothing."""
     if not history:
         return [], False
     told = set(already_told_ids or ())
@@ -1123,16 +1124,15 @@ def _prior_turn_cells(
         return [], told_selected
     if not told_selected and _best_cell_mass(message, asks, canon_questions, repository_records) >= _CARRY_WEAK_MASS:
         return [], told_selected
-    carried = inherited_cells(history, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n)
-    if not carried:
-        first = next((e.get("content") or "" for e in history if e.get("role") == "user"), "")
-        carried = [
-            {**m, "inherited_from_prior_turn": True}
-            for m in match_asks_to_cells(
-                message=first, asks=None, canon_questions=canon_questions,
-                repository_records=repository_records, top_n=top_n,
-            )
-        ] if first else []
+    standalone = next(
+        (e.get("content") or "" for e in reversed(history)
+         if e.get("role") == "user" and not _looks_like_follow_up(e.get("content") or "", None, canon_questions, repository_records)),
+        None,
+    )
+    subject = standalone if standalone is not None else next((e.get("content") or "" for e in history if e.get("role") == "user"), "")
+    carried = match_asks_to_cells(
+        message=subject, asks=None, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n,
+    ) if subject else []
     have = {m["cell"] for m in cell_matches}
     return [{**m, "from_prior_turn": True} for m in carried if m["cell"] not in have][:top_n], told_selected
 
