@@ -1017,3 +1017,11 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 - Nicaea (325) subscription lists: vendored as Cuntz 1898.
 
 **Not examined this pass.** Basil's Small Asketikon in Rufinus's Latin (not located on the host under the Migne identifier tried), the Genevan wants in the Reformed world, and the Wittenberg wants.
+
+## 2026-10-28 — Gregory the Great Register, Books I-VII: recorded as not obtainable
+
+**Ruling.** Mark, 2026-10-28, chose to skip the page images and record the gap.
+
+**Finding.** Books VIII-XIV (Ewald-Hartmann 1893 and 1895) are vendored. Books I-VII are Monumenta Germaniae Historica, Epistolae I (1891). The only online copy found is the Bavarian State Library item bsb00000535: page images with no text layer, and its license field reads CC BY-NC-SA 4.0. That bars commercial use, so nothing from it enters the Library. The dMGH site offers no text download. archive.org holds no copy of Books I-VII.
+
+**Standing.** Books I-VII stay unobtained. The Turchi 1907 selection and the NPNF English selections remain the route for the four letters naming the Donatists. The Don world's Register row (32) still reads "not yet obtained" and is the Don thread's to update to say Books VIII-XIV are now held. A reuse-terms email to the Bavarian State Library or dMGH, or a different scan, would reopen this.
