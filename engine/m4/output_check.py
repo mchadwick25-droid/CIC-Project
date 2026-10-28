@@ -62,6 +62,7 @@ WHAT IT DELIBERATELY DOES NOT DO: stop the model writing any of this. That
 is the prompt's job, and the prompt will sometimes fail. The value here is
 that a failure becomes visible instead of silent.
 """
+import functools
 import re
 
 from engine.m1.horizon import dated_terms, post_window_mentions
@@ -405,6 +406,31 @@ def _horizon_findings(text: str, window_end: int | None) -> list[dict]:
         for mention in post_window_mentions(sentence, window_end, terms):
             out.append(_finding("horizon", f"names {mention}, after the window closes in {window_end}", sentence))
     return out
+
+
+@functools.lru_cache(maxsize=1)
+def _fleet_dated_terms():
+    return dated_terms(load_fleet_records())
+
+
+@functools.lru_cache(maxsize=512)
+def _post_window_mentions_cached(text: str, window_end: int) -> tuple[str, ...]:
+    return tuple(post_window_mentions(text, window_end, _fleet_dated_terms()))
+
+
+REASON_HORIZON = "names something after the world's window closes that its own cited records do not"
+
+
+def ungrounded_horizon_mentions(sentence: str, window_end: int | None, grounds: list[str]) -> list[str]:
+    """Each mention in `sentence` of something after the window that none of
+    `grounds`, the texts of the records the sentence cites, names too: the
+    world's own record stating a later fact is its own view, a mention no
+    record holds came from outside it."""
+    if window_end is None:
+        return []
+    terms = _fleet_dated_terms()
+    named = {m for text in grounds for m in _post_window_mentions_cached(text, window_end)}
+    return [m for m in post_window_mentions(sentence, window_end, terms) if m not in named]
 
 
 def check_horizon(text: str, window_end: int | None) -> list[dict]:

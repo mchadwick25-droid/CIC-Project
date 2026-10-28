@@ -2900,6 +2900,24 @@ Changed: `engine/m4/turn.py` (`_remove_with_leaning`, `_hollowed`, `HOLLOWED_*`,
 No world record changed. No model call.
 
 
+
+---
+
+### 2026-10-28 — Engine items E2, E3, E5 and E6 built as general rules, upstream first (project lead's scope; coordinator's direction)
+
+Scope (project lead, 2026-10-28): the four engine items from the run 3 review, for every world, with no per-world or per-subject case. Direction (coordinator, carrying the project lead): prevent upstream, add no model call per turn, never delete a world's view.
+
+Cause found, then fix:
+
+- **E3, invented specific claims.** The draft is shown a story's tellable_as, means and MUST NOT ASSERT, but never its `absent_detail`. register-9's invented Numidian reply came from `lpc.story.hundred-thousand-sesterces`, whose `absent_detail` says the bishops' reply "does not survive"; the net marked the sentence ok (tagged, 83% grounded), so no hold on a withhold verdict could have caught it. scholarly-2's sentence was also ok ("no checkable claim"). Only register-2's was a withhold. Fix: a story's `absent_detail` is shown on its line as `NOT KNOWN: ...`. Not built, on purpose: a hold-and-redraft (a second model call), a deletion of uncited specific claims (45 of 462 shipped sentences in run 3, 22 of 36 turns, one of them wrong), and an offline match of `absent_detail` against sentences (word overlap cannot tell asserting a barred claim from naming its topic).
+- **E5, quote against its not_for.** The quote line in the evidence block showed speaker and gist only, so the draft never saw a quote's `not_for`; every other record type's rider was rendered. Fix: a quote line carries `MUST NOT ASSERT:` with its `not_for` and `claim_guards`. Not built: the offline test of lead-in and previous sentence against `not_for`. Over the 461 recorded quote placements (250 not_for lines tested) it fires at two shared words on 24 legitimate lead-ins and does not fire on register-1, where the lead-in and the barred claim share one word.
+- **E2, horizon.** The 451 came from the model's own knowledge: no lpc record names 451 or Chalcedon. Upstream is caution 13, already rewritten in pin `2026-10-28T04-22-32Z` and untested. Backstop kept as an offline check: `apply_net(window_end=...)` removes a sentence that names something after the window unless a record the sentence cites names it too, so a world's own later fact (syr: the choirs tradition "appears only around 500", a cited, 92% grounded sentence) stays. The window end is the world's `time_window.end`, from the frame; nothing is hard-coded. A removed sentence is recorded in `reply_shape.removed`.
+- **E6, gate.** `voice_event.speaker` is the world's key; `emitted_turns` in `engine/m10/validation.py` read only `representative`. It now reads both, using the registry code of the world being validated.
+
+Measured, no model call: offered sets unchanged on all five question sets (208 + 1,274 + 108 + 90 + 90 pairs, 13 packages; 0 changed, 0 records removed) after the `absent_detail` rider was kept out of the selection budget (counted in it, it removed 209 records on 182 canon pairs, so it was reverted before commit). Rider cost on the offered-sets questions: mean 363 input tokens per turn, about $0.0011 at $3 per million; lpc mean 905 tokens ($0.0027), largest 1,240 ($0.0037). On the 39 run 3 turns the lpc riders were about 315 tokens ($0.0009). Recorded answers, 4,455 shipped sentences in 13 worlds: the horizon block would remove 3 (lpc anachronism-1, runs 2, 3 and 4), none elsewhere; the syr sentence stays.
+
+Record-side items for this world's thread, not done here: `lpc.story.numidicus` not_for "a claim that Numidicus lapsed or was readmitted" and its `retrieve_when`; `lpc.contested.de-unitate-recensions` and `lpc.term.the-one-episcopate` wording of the Stephen dispute; `retrieve_when` of `lpc.quote.reprove-and-forgive-the-surgeons-knife` and the `bind-him-justly` placement. The live retest on the current pin needs a capped live test that the project lead names.
+
 ### 2026-10-28 — Record-side fixes from the run 3 review (project lead's direction: build to produce good answers)
 
 Context: the run 3 review (`Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`) named five record fixes that cost no model calls. Done at the source, no live run.

@@ -1282,7 +1282,7 @@ def assemble_evidence(
             for c in selected
         ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
-    selected = [_with_quote_index(c, repository_records) for c in selected]
+    selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
 
     return {
         "cells": cell_matches,
@@ -1290,6 +1290,21 @@ def assemble_evidence(
         "thin_ground": thin_ground,
         "figures_already_named": list(figures_already_named or []),
     }
+
+
+def _with_riders(candidate: dict, repository_records: dict[str, dict]) -> dict:
+    """A candidate carries what the draft must not assert and, for a story,
+    what is not known, whichever path selected it (cell, full-text fallback,
+    scope completion)."""
+    record = repository_records.get(candidate["id"]) or {}
+    out = dict(candidate)
+    if "claim_guards" not in out:
+        guards = list(record.get("claim_guards") or []) + list((record.get("use_note") or {}).get("not_for") or [])
+        if guards:
+            out["claim_guards"] = guards
+    if candidate.get("record_type") == "story" and (record.get("absent_detail") or "").strip():
+        out["absent_detail"] = " ".join(record["absent_detail"].split())
+    return out
 
 
 def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> dict:
@@ -1327,6 +1342,8 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
         line += ", " + ", ".join(descriptors[1:])
     if candidate.get("gist"):
         line += f" | means: {candidate['gist']}"
+    if candidate.get("claim_guards"):
+        line += " | MUST NOT ASSERT: " + "; ".join(candidate["claim_guards"])
     return line
 
 
@@ -1415,6 +1432,8 @@ def render_evidence_block(evidence: dict) -> str:
             # works") - directly beside the one record it barred a claim
             # about, never a separate section a skim could miss.
             line += " | MUST NOT ASSERT: " + "; ".join(guards)
+        if candidate.get("absent_detail"):
+            line += " | NOT KNOWN: " + candidate["absent_detail"]
         lines.append(line)
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])
