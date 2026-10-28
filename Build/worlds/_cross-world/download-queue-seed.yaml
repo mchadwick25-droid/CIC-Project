@@ -22623,7 +22623,7 @@ queue:
       Wants-sort class A. Homilies in time of famine and drought, on Luke 12:18, to the rich, on Julitta and on Mamas, in Greek. Second witness: Latin column garbled.
     url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_031"
     rights_basis: pd-us-by-date
-    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 9,459,378 equal to listed size, headings read at raw lines 17124, 19009, 20355, 22450, 44695"
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 9,459,378 equal to listed size, headings read at raw lines 17124, 19009, 20355, 22451, 44695"
     status: downloaded
     vendored_as: "basil_opera-omnia-pg31-grc-lat_migne1857.txt"
 
@@ -22730,3 +22730,82 @@ queue:
     verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), djvu.txt fetched, byte count 1,389,497 equal to listed size, OCR read at three points"
     status: downloaded
     vendored_as: "philo_works-v4_yonge1854.txt"
+
+  - title: 'Works of Martin Luther, Philadelphia Edition, Volume IV (Holman, 1931)'
+    author: Martin Luther
+    translator: "Jacobs, Steinhaeuser and others"
+    year: "1931"
+    world: witt
+    why: "The Wittenberg world held this volume back pending a renewal check (usury, a congregation calling its pastors, schools, the Peasants War tracts, Psalm 82)."
+    url: "https://archive.org/details/in.ernet.dli.2015.75685"
+    rights_basis: "not-renewed (1959 renewal catalogue: no entry in the NYPL cce-renewals data or the Project Gutenberg transcriptions; the Stanford database was not used)"
+    verified_by: "Library thread, 2026-10-27: archive.org /metadata read; title page and Contents of the OCR read; renewal catalogues searched."
+    status: downloaded
+    vendored_as: "luther_works-v4-selected_various1931.txt"
+    vendored_note: "vendored; the header states the rights basis and its limit"
+
+  - title: 'Works of Martin Luther, Philadelphia Edition, Volume VI (Holman, 1932)'
+    author: Martin Luther
+    translator: "Strodach and others"
+    year: "1932"
+    world: witt
+    why: 'The Wittenberg world held this volume back pending a renewal check (Formula Missae, the German Mass, the baptism and confession rites).'
+    url: "https://archive.org/details/in.ernet.dli.2015.180138"
+    rights_basis: "not-renewed (1960 renewal catalogue: no entry in the NYPL cce-renewals data or the Project Gutenberg transcriptions; the Stanford database was not used)"
+    verified_by: "Library thread, 2026-10-27: archive.org /metadata read; title page and Contents of the OCR read; renewal catalogues searched."
+    status: downloaded
+    vendored_as: "luther_works-v6-selected_various1932.txt"
+    vendored_note: "vendored; the header states the rights basis and its limit"
+
+
+  - title: "Gregory I, Registrum epistolarum, Books VIII-IX, Latin (Ewald-Hartmann 1893)"
+    author: "Gregory the Great"
+    translator: "P. Ewald and L. M. Hartmann (eds.)"
+    year: 1893
+    world: "roman-church-gregorian"
+    why: >
+      Latin original of Gregory's Register; the Library held only English selections. Second witness: readable Latin with systematic OCR noise.
+    url: "https://archive.org/details/gregoriiipapaer00churgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), title page and indiction headings read, djvu.txt fetched, byte count 753,059 equal to listed size"
+    status: downloaded
+    vendored_as: "gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt"
+
+  - title: "Gregory I, Registrum epistolarum, Books X-XIV with appendices, Latin (Ewald-Hartmann 1895)"
+    author: "Gregory the Great"
+    translator: "P. Ewald and L. M. Hartmann (eds.)"
+    year: 1895
+    world: "roman-church-gregorian"
+    why: >
+      Latin original of Gregory's Register; the Library held only English selections. Second witness: readable Latin with systematic OCR noise.
+    url: "https://archive.org/details/gregoriiipapaer00greggoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), title page and indiction headings read, djvu.txt fetched, byte count 2,275,915 equal to listed size"
+    status: downloaded
+    vendored_as: "gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt"
+
+  - title: "Patrologia Graeca 44: Gregory of Nyssa (homilies and tracts)"
+    author: "Gregory of Nyssa"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1858
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants register: Nyssa's own homilies and tracts for the Cappadocian world. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_044"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 2, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 7,741,435 equal to listed size, headings read at raw lines 21251, 46109, 56134, 89025"
+    status: downloaded
+    vendored_as: "gregory-nyssa_opera-omnia-pg44-grc-lat_migne1858.txt"
+
+  - title: "Patrologia Graeca 45: Gregory of Nyssa (letters and anti-Eunomian works)"
+    author: "Gregory of Nyssa"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1858
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants register: Nyssa's own homilies and tracts for the Cappadocian world. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_045"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 2, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 7,275,754 equal to listed size, headings read at raw lines 8021, 12152, 17255, 91807, 94017"
+    status: downloaded
+    vendored_as: "gregory-nyssa_opera-omnia-pg45-grc-lat_migne1858.txt"

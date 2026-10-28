@@ -87,3 +87,15 @@ The fifth reader (`Review/opus-honest-limits-read-5.md`) rebuilt the shipped sur
 - Passage index design for commentaries.
 - Real visitor questions: first week entered 2026-10-26; the recurring-questions rollup and later weeks still to come.
 - Per-world gaps from `Worklists/records-by-world.*` go to each world's `Open_Gaps_Tracking.md` through that world's thread.
+
+## 2026-10-27, Wittenberg witness wording for 1525 and 1543
+
+Mark ruled: the Representative is a witness, and the world is transparent and honest. It reports; it need not own what it reports. For 1543, where the treatise is not held, the witness says what the record holds and that the treatise is not held (the recommended option). He approved the old and new wording drafted for `witt.core`. Applied as change order OG-86 in `Build/worlds/witt/Open_Gaps_Tracking.md`. Open: whether the witness answers a visitor who asks if the writings were wrong; Opus review not yet run.
+
+## 2026-10-27, Wittenberg reconcile change order: Q1 and Q2
+
+Mark ruled: (Q1) the six 1525 quote records and the five records that point to 1525 get reciprocal links. (Q2) the world uses only its own sources: the witness says the 1543 treatise exists, is not held, and that it cannot say what it argued. No "later accounts", no measures from the Wikipedia programme. This replaced the "known from later accounts" wording in `witt.core` and removes the same phrasing from the reconcile drafts. Reconcile change order draft: https://claude.ai/artifact/Qz4MYDKaVvZWy2Dsw893Tf. Q3 to Q13 still to take, one at a time.
+
+## 2026-10-27, Wittenberg reconcile change order: Q3 to Q13
+
+Mark ruled, taking the recommended option each time unless noted. Q3: keep the id of `witt.force.absent-inputs-1525-and-1555`, rewrite name and description. Q4: the "three sins" summary stays out. Q5: Doc_04 section 6.3 left alone; 1525 described accurately in the gravity record; stale coverage sentence logged. Q6: split `witt.source.luther-admonition-to-peace` into three source records, one per work, all verified; translator per work to be checked in the file header. Q7: Phases 5 to 7 marked superseded; live re-test deferred until Mark names a test and cap. Q8: author a witness demonstration for F3-P-02; "was he wrong" is answered by reporting, not judging. Q9: strip build commentary from the live records edited in this change. Q10: pointers from the two story records to the 1525 quotes in prefer_instead. Q11: generator scripts retired, moved to Archive/ with a note in Build/Ministry. Q12: independent Opus recheck of the six quote records before the voice-facing edits ship. Q13: vendored title everywhere the voice or citation card shows it. Earlier: Q1 reciprocal links; Q2 world sources only.

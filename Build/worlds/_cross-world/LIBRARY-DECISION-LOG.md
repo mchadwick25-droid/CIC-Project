@@ -948,7 +948,7 @@ These show the TREATS list is a floor, not the full set. Volumes mapped to a wor
 **Wants that needed no acquisition.**
 - Auxentius of Durostorum, Letter on Ulfila (3 records): already vendored as Kauffmann 1899. The register lists it because the records' edition field names no file. Re-pointing the records is the Ijc world's job.
 - Nicaea subscription lists (Gelzer-Hilgenfeld-Cuntz): already vendored; the second archive.org item (patrumnicaenoru01cuntgoog) is another scan of the same book.
-- Gregory of Nazianzus on the Mamas festival (2 records): the record names no specific work, so none was guessed. The vendored PG 36 mentions Mamas at file line 51134 (Oration 44) and PG 37 at 29255 (a different Mamas, a reader). Basil's own Mamas homily is now in PG 31 at 44695. Which work the record means is the Cappadocian world's call.
+- Gregory of Nazianzus on the Mamas festival (2 records): the record names no specific work, so none was guessed. The vendored PG 36 mentions Mamas at file line 51134 (Oration 44) and PG 37 at 29255 (a different Mamas, a reader). Basil's own Mamas homily is now in PG 31 (raw OCR line 44695). Which work the record means is the Cappadocian world's call.
 
 **Not vendored.** The Gregory the Great Register (Ewald-Hartmann, archive.org gregoriiipapaer00greggoog and gregoriiipapaer00churgoog) was host-checked but not taken: the OCR is readable Latin with systematic noise, and which books each scan holds is unconfirmed. PG 30 was not needed.
 
@@ -981,3 +981,47 @@ The census gains `church-of-the-east-under-the-abbasids` (III.25, c. 845-1220), 
 The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884), between `armenian-christianity-after-avarayr` (ends 554) and `bagratid-armenian-christianity` (starts 884), with the same status word and minimal fields as the other entries added today. The census totals move to 300 entries and 219 Pre-Survey Candidates.
 
 **The manuscript check that settled it.** Conybeare's Rituale Armenorum (1905) describes its codices. The Venice rites codex is undated; Aucher put it in the ninth century and Conybeare thinks it hardly later than the tenth. The Paris lectionary (Fonds Armenien 20) is undated and probably ninth-century, perhaps eighth. The other copies are dated: 1216, about 1300 and 1359. Gregory Arsharuni wrote a commentary on the lectionary about 690, so its text is older than any surviving copy. No existing entry fits that spread; the two earliest codices and the commentary fall in the gap. The Rituale and the Old Armenian Lectionary are placed on the new entry as `tradition`, `provisional`, and leave the exception list in `tests_corpus_map.py`, which now holds the two Sahidic volumes.
+
+## Luther, Philadelphia Edition volumes IV and VI vendored on non-renewal (Mark, 2026-10-27)
+
+`luther_works-v4-selected_various1931.txt` and `luther_works-v6-selected_various1932.txt` enter the Library (Digital Library of India scans of archive.org items `in.ernet.dli.2015.75685` and `in.ernet.dli.2015.180138`), staged on `lutheran-wittenberg-and-its-congregations` as `tradition`, `provisional`, one row per work. The Wittenberg world's records held both back pending a renewal check.
+
+**Rights basis.** The renewal check ran against two independent transcriptions of the renewal catalogues: the NYPL `cce-renewals` data (`data/1959-1.tsv`, `data/1960-1.tsv`) and the Project Gutenberg transcriptions (ebooks 11819 to 11822). A 1931 copyright had to be renewed in 1959 and a 1932 copyright in 1960. Volume V (1931) was renewed on 26 June 1959 (R238530); no entry exists for volume IV or volume VI under "Luther, Martin", "Works of Martin Luther", the A. J. Holman Company or the Board of Publication of the United Lutheran Church in America. Mark ruled to vendor both on that evidence without waiting for the Stanford database; each header states the basis and its limit.
+
+**Volume V is not vendored.** Its renewal stands until 1 January 2027, when the 95-year rule clears it. Volume IV is also cleared by that rule from 1 January 2027; volume VI is not cleared by it until 1 January 2028.
+
+**Not staged.** The volume VI general introduction is P. Z. Strodach's, not Luther's voice, so it has no row. The Wittenberg world's records still carry their held-back rows and are not edited here.
+
+## 2026-10-27 — Gregory the Great Register, Books VIII-XIV (Ewald-Hartmann)
+
+**Ruling.** Mark, 2026-10-27, chose to vendor both archive.org scans after the coverage check.
+
+**Vendored.** Monumenta Germaniae Historica, Epistolae tomus II: part I (1893, Books VIII-IX, item gregoriiipapaer00churgoog) and part II (1895, Books X-XIV with appendices, item gregoriiipapaer00greggoog, bound with the title page, praefatio and indices of part III). Both are public domain by date and tagged NOT_IN_COPYRIGHT. Book XI carries the English-mission letters of 601.
+
+**Witness status.** Second witness: readable Latin with systematic OCR noise and the critical apparatus interleaved with the letters. Staged as role `tradition` in roman-church-gregorian, beside the English selections already vendored.
+
+**Not available.** Books I-VII (MGH Epistolae tomus I) are not on archive.org. dMGH (dmgh.de) lists them and is reachable from the sandbox, but it is a page-image viewer and no reuse statement or text download was found there, so nothing was taken. Writing to dmgh@mgh.de for reuse terms and a text export is Mark's call.
+
+## 2026-10-27 — Acquisition batch 2: Gregory of Nyssa, PG 44 and PG 45
+
+**Ruling.** Mark, 2026-10-27, chose to vendor both volumes from the short list.
+
+**Vendored.** Migne PG 44 (1858): the homilies on Ecclesiastes and on the Song of Songs, the Life of Moses, the Beatitudes, On Prayer. Migne PG 45 (1858): To the Greeks, from Common Notions, To Ablabius, the books Against Eunomius, and the tracts against Apollinaris, Arius and the Pneumatomachi. Public domain by date, Public Domain Mark on the host. Second witness: Greek legible at the passages sampled, Latin column garbled. Staged as tradition in the Cappadocian entry; placing PG 45's anti-Eunomian books in the Eunomian entry is held for Mark.
+
+**Wants the Library already holds, so the records need re-pointing, not an acquisition.**
+- Gregory of Nazianzus, De vita sua and the will: in the vendored PG 37 (the will heading at file line 30842).
+- Optatus of Milevis (the Lucilla chapter, I.16): in the vendored Vassall-Phillips translation.
+- Acts of the Abitinian Martyrs: the passion of Saturninus and Dativus is in the vendored Monumenta vetera (Migne PL 8).
+- Nyssa On the Deity of the Son and the Holy Spirit and In XL Martyres II: in the vendored PG 46.
+- Eunomius, the confession of 383: Mansi tomus 3 (vendored) prints it in Greek and Latin as "Fides exposita ab Eunomio", after Valesius.
+- Nicaea (325) subscription lists: vendored as Cuntz 1898.
+
+**Not examined this pass.** Basil's Small Asketikon in Rufinus's Latin (not located on the host under the Migne identifier tried), the Genevan wants in the Reformed world, and the Wittenberg wants.
+
+## 2026-10-28 — Gregory the Great Register, Books I-VII: recorded as not obtainable
+
+**Ruling.** Mark, 2026-10-28, chose to skip the page images and record the gap.
+
+**Finding.** Books VIII-XIV (Ewald-Hartmann 1893 and 1895) are vendored. Books I-VII are Monumenta Germaniae Historica, Epistolae I (1891). The only online copy found is the Bavarian State Library item bsb00000535: page images with no text layer, and its license field reads CC BY-NC-SA 4.0. That bars commercial use, so nothing from it enters the Library. The dMGH site offers no text download. archive.org holds no copy of Books I-VII.
+
+**Standing.** Books I-VII stay unobtained. The Turchi 1907 selection and the NPNF English selections remain the route for the four letters naming the Donatists. The Don world's Register row (32) still reads "not yet obtained" and is the Don thread's to update to say Books VIII-XIV are now held. A reuse-terms email to the Bavarian State Library or dMGH, or a different scan, would reopen this.

@@ -20,7 +20,7 @@ edition: entry VI.1 (lutheran-wittenberg-and-its-congregations) and the sibling 
   VI.22
 citation: Church in Conversation project (reference data layer), world census, entry VI.1 (lutheran-wittenberg-and-its-congregations) and the sibling entries VI.2, VI.3, VI.11, VI.22
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "This project's own census file: no text exists to hold rights over, so nothing to acquire. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 88; census JSON; 2026-09-15
 external_ids:

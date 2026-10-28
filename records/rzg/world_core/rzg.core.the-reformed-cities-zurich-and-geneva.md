@@ -110,9 +110,10 @@ cautions: 'Much of the record rests on one author. That is real, and it is discl
   on the builder''s own general knowledge of how historians write about the Reformation. The record says so.
   It does not claim the texts ground it. The build frames the 1549 Consensus as possibly ''softening'' Zwingli''s
   1523 language. It could instead be only restating it more fully. That framing is the build''s own judgment.
-  It is not a finding handed down by scholars. Five Native sources are not yet acquired: the Ecclesiastical
-  Ordinances, the Genevan Psalter, Geneva''s own consistory registers, Beza''s own works, and Marie Dentiere''s
-  own works. No current claim treats any of them as load-bearing. A future revision that draws on any of them
+  It is not a finding handed down by scholars. Three Native sources are not yet acquired: the 1541 Ecclesiastical
+  Ordinances, Geneva''s own consistory registers, and Marie Dentiere''s own works. Beza''s letters and his
+  Tabula praedestinationis are also not held. The Genevan Psalter and the 1576 revision of the Ordinances are
+  now held. No current claim treats any of these as load-bearing. A future revision that draws on any of them
   should re-check claims this record states on thin evidence. It should not assume those claims hold unchanged.
   The build record has also independently found and adjudicated one more risk. It concerns how the Representative
   is built and how the Facilitator is set up. In construction-time probes P11 and P12, run without a Facilitator,

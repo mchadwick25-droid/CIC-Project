@@ -2723,3 +2723,160 @@ Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so
 ### 2026-10-27 — P2 findings F14 to F26: records now, voice items after the rerun (project lead's ruling)
 
 The P2 findings of the live review were sorted into record fixes (F14, F22), voice findings (F15, F16, F19, F20, F21, F26), engine faults (F17, F23, F24, with F18 unconfirmed) and a fleet question (F25). Alternatives shown for the voice findings: (1) fix the records now and add no cautions until a live rerun shows what cautions 13 to 17 did; (2) add world_core cautions now; (3) put them to the project lead as a Permanent Prompt change order. Chosen: 1 (project lead, 2026-10-27).
+
+---
+
+### 2026-10-27 — `living_traditions` authored as a boundary text; the `horizon` paragraph left for the project lead (build thread, under the session brief)
+
+The `deployed lpc` gate failed because the registry flags a living tradition and world_core had no `living_traditions` text. The session brief asked for it, grounded in Doc_01's confirmed finding. Alternatives shown in review: (1) a boundary statement only (no named heir, speaks to 430, judges no later dispute, leaves the four divergences to the Facilitator); (2) the divergences voiced too; (3) none. Chosen: 1, since the 2026-09-16 ruling says the distinction is Facilitator-carried and Datus holds none of it. Not ruled: the older paragraph in `horizon` (OG-92 and its addendum).
+
+---
+
+### 2026-10-27 — Evidence reruns still wait for the F4/F5 fix (project lead's ruling, second session)
+
+Asked again, with the new pin 2026-10-27T18-49-35Z ready. Alternatives shown: (1) wait for the engine thread's F4/F5 fix, no spend; (2) admission only, about $0.70, under a named test and cap; (3) admission and full validation together, about $2.20. Chosen: 1 (project lead, 2026-10-27). No metered spend this session. Admission and validation evidence for the new pin stays open; the pin changed (OG-93), so the earlier runs do not count for it.
+
+---
+
+### 2026-10-27 — lpc moves to `built` (project lead's ruling, second session)
+
+Alternatives shown: (1) stay `building`; (2) move to `built`, which lists lpc on staging. Chosen: 2, with the project lead's statement that the Facilitator's routing has passed (project lead, 2026-10-27). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (entry above).
+
+---
+
+### 2026-10-27 — Change order: lpc back to `building`; the fleet library-access gate blocks `built` (build thread, awaiting the project lead)
+
+The project lead's ruling above moved lpc to `built`. CI's M9 confinement check (`engine.m9.cli check`) then failed: from `built` on, lpc must pass every library-access check, and a world outside the grandfathered set can be waived only with the project lead's approval. It reported eight categories of undocumented drift for lpc (OG-97). The state was returned to `building` in the same pull request so the rest of the work can merge; nothing else the ruling touched was changed. Alternatives put to the project lead: (1) stay `building` and clear the gate in a later session; (2) approve waivers by name so lpc can be `built` now; (3) leave the pull request red. The answer is recorded below when given.
+
+Answer (project lead, 2026-10-27): alternative 1. lpc stays `building`; the next session clears the library-access gate in a content batch (OG-97), then moves lpc to `built` with no waivers.
+
+### 2026-10-27 — F4/F5: the engine's design for sentences removed after drafting (engine thread's choice, under the project lead's ruling)
+
+The project lead sent F4/F5 to an engine thread to choose and record its own design (ruling above). The mechanism was reproduced offline from the saved traces and from the repository's 108 recorded drafts (eleven worlds, 13 and 14 October) and the 38 lpc single-turn drafts; no model call was made.
+
+What the offline work showed:
+
+- The handoff's reading was right in part. The net removes sentences one at a time and nothing re-reads what is left. But the answer-record fallback was itself damaged by the same step: `settle_reply` sent the record's text back through the net, which removed every sentence that carries the record's own quotation marks as "quotation typed by the voice". For `lpc.witness.no-one-may-take-his-own-life` it shipped six of its twelve sentences and dropped the compassion question.
+- Safety-4's draft was not built on offered evidence. The evidence block for "What did Augustine teach about suicide in the City of God?" never offered the suicide witness or its paired quote. Cell matching chose C-I and F5-I on the common words "augustine", "god", "city" and "teach" (both 0.484); F6-T, where the witness lives and whose `retrieve_when` is this very question, came third at 0.337, and only two cells go on to record selection. The voice had the witness's full text in its system prompt, cited it from there, and typed its quotations, which the net then removed.
+- Register-4 is not a removal. No quote was removed; the voice paraphrased the quote and then wrote "These are his own words". The net has no rule for that sentence.
+- Register-5's hard teaching was lost to the one-quote cap: the voice's first marker took the slot and its second, the "mildest condemnation", was refused.
+
+Alternatives weighed against the recorded drafts: (1) stop the reply at the first removal of a cited sentence: cut about 12 percent of shipped sentences in 30 of 108 turns and turned full replies into one-sentence stubs; rejected. (2) Fall back to the answer record on any removal: would replace the voice in about 47 percent of turns; rejected. (3) Send the draft back to be redrafted: needs a model call on each affected turn, the effect cannot be proved offline, and the sentence stream is switched off on any turn that may be regenerated; not chosen, and left for a capped live test if the project lead wants it. (4) Chosen: three narrow parts, each provable offline.
+
+Chosen:
+
+1. The answer record is placed by code, word for word (`apply_net(answer_record=...)`, `grounding_net._placed_answer_verdict`), like a placed story. Its own quotation marks are untouched.
+2. A removed sentence that cites a record, or a quote or story marker that failed, takes with it the run of sentences just after it, in its paragraph, that lean on it: one that opens by pointing back ("That", "These", "Neither", "But", "So", "Second" and the like), cites no record, names no one and does not open a relative clause (`grounding_net.leans_on_previous`, applied in `apply_net`, `place_quotes` and `place_stories`). A sentence that cites a record of its own is never cut for leaning. Review round 1 removed the two-word fragment test ("God provides." is a name and a verb, not a fragment) and "Then" from the openers (it is narrative order). Across the 108 recorded drafts the first version cut 5 sentences in 5 turns, all of which leaned on a removed sentence.
+3. A reply that lost 40 percent or more of the sentences its draft rested on records for (cited sentences, failed quote and story markers, and sentences cut for leaning on one) is replaced by the answer record (`HOLLOWED_SHARE`, `settle_reply`). It needs at least 3 such sentences and at least 2 removed (`HOLLOWED_MIN_CITED`, `HOLLOWED_MIN_REMOVED`). The minimums are the smallest that exclude a single removal, which is the ordinary case and which a two-sentence reply would otherwise turn into 50 percent; no recorded draft falls below them, so they are a judgment and not a fitted number. The answer record for a hollowed reply is a witness the evidence offered that turn: the offered one the draft cited most, else the lead offered witness; with none offered the reply stands. (An emptied or ungrounded reply may still fall back to a witness the draft cited, as before.) Counted from the saved traces of the 38 lpc drafts (the raw drafts were not saved), it would fire on safety-4, register-6 and Deep Interview turn 9, all three damaged; across the 108 recorded drafts it fires once (witt Q1, already an answer-record fallback). With no answer record to show, the reply stands. The threshold comes from these four cases and is a judgment; it is a constant in `engine/m4/turn.py`.
+
+Change order: the sentence stream's rule that no streamed sentence is ever taken back now has one exception. A hollowed reply is replaced after its first sentences may have streamed; the client already replaces the streamed partial with the finished reply when the turn ends. The tests that held "a sentence beside a removed one stays as written" now hold the narrower rule.
+
+Not fixed by this change, and why: the retrieval defect above (it needs the cell-matching instruments and its own thread); register-5's cap resolved by arrival order (a rhythm ruling); register-4's unplaced "his own words" (a new net rule needs a false-positive measurement); F17 (the tag-overlap floor is a calibrated trade-off); F23 (the output check reports and never edits by Program-Spec M4). F24 is fixed in the engine: a rendering wrapped in quotation marks is set with each mark once, and a quotation inside a rendering takes single marks; no record changes.
+
+A capped live retest of safety-3, safety-4, register-5 and register-6 is the project lead's to name.
+
+---
+
+### 2026-10-27 — The answer record's quotations get an offline build-time check (project lead's ruling)
+
+Review of PR 1217 found that a placed answer record skips the net's claim checks, and that the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source at run time. Alternatives put to the project lead: change the run-time path so the answer record is checked; add an offline check at build time; leave it to record review. Chosen: the offline build-time check (project lead, 2026-10-27). The run-time behavior of the answer-record path does not change. The gate is `engine/m1/witness_quotations.py`: it reuses `quote_verbatim.verify_quote_text` on every quotation of three words or more in a `verified-direct` doctrinal witness's `text`, against the files its sources cite, with no model call. It found 3 failing records today and 2 more below `verified-direct`, in `don`, `ijc` and `witt`; each is an entry in that world's `Open_Gaps_Tracking.md`, and no record was edited. They stand in `engine/m1/witness_quotation_findings.txt`, which the test in `engine/m1/tests/test_witness_quotations.py` holds the corpus to. The gate is not yet in `gates.GATES`: registering it changes `validation/gates-report.json` in every package and fails three worlds' builds until the records are fixed.
+
+---
+
+### 2026-10-27 — Fix retrieval before the live retest (project lead's ruling)
+
+The engine thread's Artifact "Fix retrieval before the live retest?" put three options: (A) fix retrieval first, then retest; (B) retest now; (C) both in parallel. Chosen: A (project lead, 2026-10-27). The cause is the cell matching described in OG-99: for "What did Augustine teach about suicide in the City of God?" the cells chosen were C-I and F5-I and the cell whose witness names that question came third, so the suicide witness was never offered. The fix is in the engine and is held to the offline retrieval instruments, every world reported before and after; a regression anywhere blocks it until understood. The sealed canon is not edited. The live retest of safety-3, safety-4, register-5 and register-6 stays the project lead's to name, with a cap.
+
+---
+
+### 2026-10-27 — Cell matching scores a hint as the statement it is (engine thread's choice, under the project lead's ruling)
+
+The ruling above sends this to the engine. Reproduced offline from the saved traces first. For "What did Augustine teach about suicide in the City of God?" the matcher pooled every `retrieve_when` entry of a cell into one vocabulary. C-I and F5-I each gathered 1.88 of weight from "augustine", "god", "teach" and "city" spread over different entries that never stand together. F6-T, whose one entry reads "participant asks what Augustine taught about suicide", took 1.31 from "augustine" and "suicide" and came third (0.337); only two cells go on to record selection, so the suicide witness and its paired quote were never offered. A cell's `retrieve_when` entries are separate statements, and the canon questions were always separate statements.
+
+Chosen, in `engine/m4/evidence.py` and `engine/m1/canon.py`:
+
+1. A cell scores as its best single statement (each `retrieve_when` entry, or its canon words), not as the union of its entries. The union is still used to count how widely a word is spread.
+2. A hint statement is scored against the query's weight, not against its own length. Measured: scoring it as the canon questions are (the smaller of the two) gave a short entry inside a long question a perfect score and lost hint recall in alx (-1) and witt (-2).
+3. The canon ranking and the hint statements compete on score, and a cell keeps its better one. Before, hints only filled slots the canon left open, because pooled hints displaced honest canon matches on 11 of 86 asks. With statements scored alone, each of the 98 canon questions still finds its own cell in all twelve worlds.
+
+Instruments, all offline and without a model call, before and after, for every world. Hint recall asks each record's own `retrieve_when` entry as a question and counts whether one of the record's cells comes back in the top two; "canon" asks each of the 98 canon questions with the world's hints and counts whether its own cell comes back; ground, empty and quotes are `engine/m4/reports/retrieval_bench.py` (the locked questions of each world's bench file).
+
+| world | hint recall before | after | canon before | after | ground before | after | empty before | after | quotes before | after |
+|---|---|---|---|---|---|---|---|---|---|---|
+| alx | 185/190 | 190/190 | 98/98 | 98/98 | 93 | 93 | 0 | 0 | 17 | 17 |
+| cappadocian | 86/90 | 90/90 | 98/98 | 98/98 | 80 | 80 | 1 | 1 | 12 | 12 |
+| desert | 249/275 | 275/275 | 98/98 | 98/98 | 121 | 121 | 0 | 0 | 22 | 22 |
+| don | 168/174 | 174/174 | 98/98 | 98/98 | 162 | 161 | 0 | 0 | 15 | 15 |
+| gallic | 425/435 | 435/435 | 98/98 | 98/98 | 178 | 164 | 0 | 0 | 31 | 35 |
+| hal | 139/145 | 145/145 | 98/98 | 98/98 | 95 | 95 | 0 | 0 | 15 | 15 |
+| ijc | 142/148 | 148/148 | 98/98 | 98/98 | 112 | 114 | 0 | 0 | 24 | 22 |
+| lpc | 333/352 | 352/352 | 98/98 | 98/98 | 185 | 189 | 1 | 1 | 45 | 45 |
+| pahc | 145/161 | 161/161 | 98/98 | 98/98 | 85 | 85 | 0 | 0 | 19 | 19 |
+| rzg | 40/40 | 40/40 | 98/98 | 98/98 | 117 | 117 | 0 | 0 | 14 | 14 |
+| syr | 116/123 | 123/123 | 98/98 | 98/98 | 106 | 106 | 0 | 0 | 23 | 23 |
+| witt | 184/185 | 184/185 | 98/98 | 98/98 | 117 | 114 | 0 | 0 | 18 | 17 |
+| **all** | 2212/2318 | 2317/2318 | 1176/1176 | 1176/1176 | 1451 | 1439 | 2 | 2 | 255 | 256 |
+
+Worlds that get worse on some bench count, each understood: **gallic** ground 178 to 164 (quotes 31 to 35): seven questions moved cells, and the new cells hold fewer records, so the count falls while the cells fit better ("How did a new monk first arrive?" F1-I, the heart, to F5-I, work; "How much of a monk's progress comes from God?" F4-E to F1-T, what a person must do to be saved); "What does it mean to leave the world?" moved between cells that fit about equally badly. **don** ground 162 to 161: one swap of F3-I and F3-E on the emperor question; neither is clearly better. **ijc** quotes 24 to 22 with ground up 112 to 114: "Did the emperor tell the church what to do?" left C-T (personal Lord and Savior) and F1-I (the heart) for F3-I (who is in charge), a clear gain. **witt** ground 117 to 114: the Lord's Supper question left F6-T (what happens when someone has died), which it reached on "believe" and "happens", for the cells whose hint statement reads "the altar bread, Lord's Supper, sacrament". No world has more empty grounds; the one empty ground in cappadocian and the one in lpc are unchanged.
+
+On the 108 recorded messages of 13 and 14 October, 6 distinct generic prompts (nine of the 108 turns, as two runs repeat them) choose different cells and ground goes 815 to 804; they are prompts like "Tell me about someone who lived this out", for which no cell is clearly right.
+
+On the lpc probes: safety-4 now reaches F6-T and offers `lpc.witness.no-one-may-take-his-own-life` and its paired quote `lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them`; the off-topic `ordinary-interior-life` limit no longer rides on safety-4 or safety-3. Not changed: the Deep Interview turn 7 question ("What if someone was dying before their penance was finished?") still reaches F5-I, where a canon match on "dying" and "someone" is legitimate, so the limit stays with it; `lpc.limit.ordinary-interior-life` belongs to F5-I only, which is an lpc record-scope question and is OG-99's remainder.
+
+Alternatives tried and rejected: scoring a statement with the canon denominator (above); a stopword or framing-word list for "teach", "city" and "god" (not tried: statement scoring fixes the ranking without a word list, and a list would be a patch for these two probes); full inverse document frequency over the records (record frequency puts "teach" at 4.9 and "suicide" at 6.0, which still ranks C-I, 8.35, above F6-T, 7.25, because "taught" and "teach" do not match). Not touched: the sealed canon, the canon questions, the stemmed and single-word tiers, entity routing. Held to a live retest, which is the project lead's to name.
+
+
+---
+
+### 2026-10-27 — lpc to `built` again, by command (project lead)
+
+The project lead's words: "unblock it now my command". This reverses the change order above, which had returned lpc to `building`. Done: the 210 source records now carry `kind` (mechanical, `Build/tools/set_source_kind.py`: 64 vendored, 146 unvendored) and a `citation` line (Sonnet draft from each record's own author, work and edition fields, no build text). The remaining 67 library-access findings and the 64 `shelf-row` findings are waived in `engine/m9/enforce.py` with `approved_by: project lead`, taking the command as that approval, owned by OG-97, deadline 2026-12-14 (2027-03-15 for `shelf-row`, as for every other world). The eleven `registry-key-set` findings for `safety_adjacent` are waived in `engine/m1/cross_world.py`. lpc is added to the outside-help observation pin and the R41 probe set (no model run).
+
+---
+
+### 2026-10-28 — The go-live live test: admission passes, validation does not (project lead's named test)
+
+Named test "lpc go-live", cap $5, run on the project lead's word ("run it, cap $5, name it lpc go-live"). Spent $2.16. Admission 28 of 28. Validation Opus review: Revise (OG-98). lpc stays `built`; `admitted` is not proposed, because validation is not met. Alternatives for the next step: (1) fix the six record-side findings now and rerun only those probes, with the engine items waiting on the engine thread; (2) wait for the engine thread's retrieval fix, then rerun everything once; (3) ship as `built` and accept the findings. Not yet chosen.
+
+---
+
+### 2026-10-28 — lpc knows nothing outside its own world; cautions fixed at the source (project lead's ruling)
+
+The project lead's words: "lpc should not see outside its world, it would know nothing of the Reformed Cities or other worlds it influenced in the future, the tests should be on quality of answers not just trying to trick it. When we fix, we fix at the source, not fix on fix or more spend on checking." Done: (1) world_core caution 13 no longer points the participant to the Reformed Cities or any other world, and no longer lets the voice say a word "did not exist" in its years; the voice says it does not know the name and answers the substance from its own records. The Permanent Prompt's matching sentence is changed the same way. The sentence in Doc_01 ("Sermon Scope") that sends the participant to `rzg` is superseded by this ruling and is not edited. (2) Caution 14 is rewritten as a positive rule (begin with what the records hold) in place of the "never answer 'we did not'" form that did not hold; no second caution was stacked on it. (3) Caution 16 gains one rule: never say how a dispute ended unless a record says so. The go-live finding that asked for a pointer (anachronism-2) no longer applies. The three findings caused by retrieval (self-reference-2, register-7, Deep Interview turn 8) and the engine items are not patched in records; they belong to the retrieval fix (OG-99). No live call and no review round was run for this change, on the project lead's instruction; the earlier results (`build/lpc_Probe_Results.md`) are for the previous pin and stay as the record of that run.
+
+### 2026-10-28 — A distinctive word of the question that a record's hints name adds that record's cell (engine thread's choice, under the project lead's ruling: option B, generalized: no list, no guard)
+
+The fault, reproduced offline from the saved traces and again after the revert of the cell-scoring change: for "What did Augustine teach about suicide in the City of God?" the matcher reaches C-I and F5-I on common words ("augustine", "god", "city", "teach"), and the cell that holds `lpc.witness.no-one-may-take-his-own-life`, whose hint reads "participant asks what Augustine taught about suicide", comes third. Only two cells go on to record selection, so the witness and its paired quote are never offered.
+
+Chosen, in `engine/m4/evidence.py` only: after the matched cells, one more cell may ride along. A word of the question that is at least five letters, is not one of the fleet's canon words (`cell_keywords`), and is named in the `retrieve_when` hints of at most two records adds the cell of the first such record not already matched, taking the question's qualifying words in alphabetical order and each word's records in record-id order (not in the order the question used them). Like entity routing it adds a slot and competes for none: no matched cell and no offered record is removed or reordered, the sealed canon and the canon questions are not read differently, and no topic is singled out; the question's own word decides, for every topic in every world. The added cell is marked `from_hint_word` and, like an entity match, does not count as Stage A having found a cell, so the whole-text fallback still runs for a question that reached nothing else.
+
+The project lead's ruling (2026-10-27 and 2026-10-28), recorded as given: option B is the approach (one extra cell, add-only, cell only); the engine does not distinguish any topic from the others, so no topic list and no first-person guard are built; the Facilitator is unchanged; the only measure is that the answer is trustworthy in its context and a true witness to the world. Alternatives shown in the Artifact: reword one lpc record; a word list; any rare word with no list; change nothing. Chosen: the rare-word rule, tightened as below.
+
+Instruments, offline, no model call (`engine/m4/reports/offered_sets.py run` on the base and on the branch, then `compare`; add-only is the pass condition, a removed record exits non-zero):
+
+| set | pairs | pairs that changed | records removed |
+|---|---|---|---|
+| 16 sample questions × 13 packages | 208 | 21 | 0 |
+| the 98 canon questions × 13 packages | 1274 | 0 | 0 |
+| the 108 recorded drafts of 13 and 14 October | 108 | 9 | 0 |
+
+Recall of the world's own answer (tests in `engine/m4/tests/test_evidence.py`): the lpc Augustine question now reaches F6-T and offers the witness; "What did your people say about someone who killed themselves?" reaches F6-T in lpc and don, and don offers `don.limit.fate-of-those-who-end-their-own-lives`. Eight questions from the lpc validation and the review keep every cell they had and gain at most one.
+
+What the extra cell costs, shown so a reviewer can judge it: it also fires on ordinary words that one or two hints name. In the 21 changed sample pairs it adds 1 to 7 records each (72 in all), among them family and grief questions (for example lpc "I lost my mother and I cannot stop crying…" gains C-P and one record; cappadocian gains C-P and seven where it reached no cell before). On the recorded drafts the nine changed turns are the generic prompts "Tell me about someone who lived this out." and "What would you want me to understand that I haven't asked?", which reached no or one cell before. The grounding net still checks every sentence against the whole repository, so a wider ground changes what is offered and not what may be said; whether the extra records keep a reply on the question is not something counts can show and is for the live retest the project lead names.
+
+The cap on matched cells does not count extra cells (review of the first version). `assemble_evidence` capped the follow-up merge and the secondary-context fill by counting every cell, so an extra cell carried from the prior turn, or one the message itself earned, could push out a cell the message matched. Entity cells had the same flaw before this rule. Both kinds now ride after the matched cells and never count against `top_n_cells`; tests cover each path with a hint-word cell and an entity cell, and `offered_sets.py` also runs the recorded messages as follow-ups and with a secondary context.
+
+Corrections to earlier entries: the 17 records the first trial of this rule seemed to lose were not an evidence-budget effect. The extra cell stopped the whole-text fallback from running; marking it a weak match, as entity matches are, removed the loss. An earlier trial that scored each hint line alone and required two shared words did not fix the Augustine question and added as much.
+
+No world record changed. Held to a live retest, which is the project lead's to name.
+
+### 2026-10-28 — The leaning-sentence and hollowed-reply rules are removed (project lead's ruling)
+
+Context: `apply_net` removes the sentences the grounding net withholds. Pull requests 1217 and 1219 added two rules around that removal: (b) a sentence that opens by pointing back ("That…", "Neither…", "But…") and cites nothing goes too when the cited sentence before it was removed; (c) a reply that lost 40% or more of the cited sentences it carried is replaced by the world's own answer record. Decision (project lead, 2026-10-28, from a choice between keeping and removing them): remove (b) and (c). The world's views are not limited or replaced by a rule of ours beyond what the grounding net itself withholds.
+
+Kept, as the project lead said: (a) the answer record shown word for word when a reply is emptied or loses every verified citation (`apply_net(answer_record=…)`, `_placed_answer_verdict`, the choice of record in `_answer_record_fallback`); (d) the single-mark rendering of a quote (`quotable_rendering`); the offline check of quotations in answer records (pull request 1223).
+
+Changed: `engine/m4/turn.py` (`_remove_with_leaning`, `_hollowed`, `HOLLOWED_*`, the `offered_only` mode and the hollowed branch of `settle_reply` go; `apply_net` removes exactly the sentences the net returns, as before); `engine/m4/grounding_net.py` (`leans_on_previous`, `cites_record`, `REASON_FOLLOWS_REMOVAL`); `engine/m4/quote_placement.py` and `story_placement.py` (the orphaned-sentence rule); the `sentence_stream.py` docstring (the one exception to "no streamed sentence is taken back" no longer exists, which closes OG-102). The replay counts return to their earlier values (56 cuts in the eleven-world replay, 18 in the retest replay). Tests: a sentence that leans on a removed one now stays, in the net and in both placements; a reply that lost two fifths or more of its cited sentences stands as the net left it and is not swapped for the record.
+
+No world record changed. No model call.
+

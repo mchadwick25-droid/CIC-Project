@@ -7,26 +7,24 @@ status: ready
 register: etic
 canon_cells: []
 confidence:
-  citation_specificity: B
-  verification_state: named-not-rechecked
+  citation_specificity: A
+  verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
+  formation_confidence: Documented
   divergence_note: null
 sources: []
 relations: []
 author: Luther
-work: Admonition to Peace
-edition: '(April 1525); Against the Murderous, Thieving Hordes of Peasants (May 1525); An Open Letter
-  on the Harsh Book Against the Peasants (1525) — Luther''s Works vol. 46 (Fortress, 1967, ed. Schultz);
-  PD lead: Philadelphia Ed. vol. IV (1931, trans. C. M. Jacobs), renewal check pending (G1 Part B) — NOT
-  VENDORED'
-citation: Luther, Admonition to Peace (April 1525); Against the Murderous, Thieving Hordes of Peasants (May 1525); An Open Letter on the Harsh Book Against the Peasants (1525), Luther's Works vol. 46 (Fortress, 1967, ed. Schultz)
-kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+work: "An Admonition to Peace: A Reply to the Twelve Articles of the Peasants in Swabia"
+edition: Philadelphia Edition vol. IV (1931), trans. C. M. Jacobs from Clemen's text; vendored as cic/texts/luther_works-v4-selected_various1931.txt
+citation: "Luther, An Admonition to Peace: A Reply to the Twelve Articles of the Peasants in Swabia (1525), trans. C. M. Jacobs, Works of Martin Luther, Philadelphia Edition, vol. IV (A. J. Holman, 1931), pp. 219 ff."
+kind: vendored
+rights_status: "Vendored 2026-10-27. A 1931 US publication whose copyright was not renewed; the file header states the basis and its limit (two renewal-catalogue transcriptions checked, the Stanford database not used)."
+shelf_row: luther_works-v4-selected_various1931--admonition-to-peace
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source Registry row 48; WebFetch;
   2026-09-15
 external_ids:
   witt_source_registry_row: 48
 ---
-Disclosure only (Step 0 item 2): the Peasants'-War tract named, dated and characterized from tertiary description at Doc_02 §12.4; never quoted as if in hand — no phrase from it in quotation marks. (Source Registry row 48; Confidence B.)
+Vendored as cic/texts/luther_works-v4-selected_various1931.txt. Begun after mid-April 1525 and published when the war was already under way (the volume's introduction). Three of the six 1525 quote records quote this work: witt.quote.the-sword-is-at-your-throats, witt.quote.you-too-must-have-a-care and witt.quote.your-own-judges. The other two 1525 works in the same volume have their own source records. (Source Registry row 48.)

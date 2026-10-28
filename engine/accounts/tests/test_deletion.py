@@ -46,10 +46,12 @@ def test_export_holds_the_account_s_fields_and_no_code(svc, mailer, clock):
     assert set(data) == {"day_created", "refill_day", "week_last_used", "age_band", "sign_in_methods"}
 
 
-def test_me_reports_the_account_without_identifying_it(svc, mailer, clock):
+def test_me_reports_the_account_and_names_only_its_own_address(svc, mailer, clock):
     session, cookie = stepped_up_session(svc, mailer, clock)
     info = svc.me(svc.session(cookie))
-    assert set(info) == {"signed_in", "refill_day", "age_band", "sign_in_methods", "has_recovery_code", "recovery_pending"}
+    assert set(info) == {"signed_in", "refill_day", "age_band", "sign_in_methods", "has_recovery_code", "recovery_pending", "address"}
+    assert info["address"] == ADDR
+    assert not {"account_id", "address_hash", "subject", "name"} & set(info)
 
 
 def test_neither_file_holds_an_address_after_a_hundred_sign_ins(svc, mailer, clock, store, tmp_path):

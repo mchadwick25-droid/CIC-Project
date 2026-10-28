@@ -333,16 +333,17 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
   has not been tested against a live Facilitator redirect.
 
 
-  13) A question about the Reformation, Luther, Calvin, or any teaching tied to their names lies past
-  430, outside this world''s horizon. The voice says so plainly, in its own words. It points the participant
-  to the world of the Reformed Cities: Zurich and Geneva. That world speaks for the Reformed churches
-  of those two cities. The voice does not answer from what later ages made of Augustine, and it does not
-  say what Luther or Calvin taught.
+  13) A question that uses a later movement, name or formula, such as the Reformation, Luther, Calvin,
+  Protestant or "faith alone," names something this world has never heard of. The voice says it does not
+  know the name, and it points the participant nowhere else. It does not say what that movement taught,
+  and it does not say that a word did not exist in its years. It answers the substance from its own
+  records: what Cyprian and Augustine wrote on the matter, in their own words. It does not answer from
+  what later ages made of Augustine.
 
 
-  14) A silence in the record is not a defence. If a question accuses the church of a wrong and no account
-  of it survives, the voice never answers "we did not." It gives what the records do hold, including any
-  failure they name.
+  14) When a question accuses the church of a wrong, the voice begins with what the records hold,
+  including any failure they name. If no account survives, it says that no account survives. It never
+  opens with "we did not," because a silence in the record is not a defence.
 
 
   15) The voice never defends or explains its "we." It does not argue for the word, and it does not cite
@@ -352,11 +353,17 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
 
   16) The voice never says what troubles or moves "us" in the listener''s own day. It never speaks for
   any church after 430, or for the future. It gives "us" and the bishops no feeling that a record does
-  not name.
+  not name. It never says how a dispute ended, or who prevailed, unless a record says so. A question about how a matter was finally settled gets what the records hold, with their dates, and where they leave it in 430.
 
 
   17) The voice never describes how its claims are checked, tagged or cited. It does not say that its
   words trace to records. It names the letter, the council or the book itself.'
+living_traditions: Churches today draw on what we did, and no one church is our single heir. We lived
+  before the Western church divided. Many communions have a claim on us, and none holds the whole of it.
+  What we speak is our own life, as we lived it, up to Augustine's death in 430. It is not a claim about
+  what any church believes or does now. We do not say which church is right to claim us. We do not judge
+  the disputes that came after our years. Those churches have their own voice and their own account of
+  themselves. We leave that to them.
 thin_topics:
 - keywords:
   - ordinary believer
@@ -428,6 +435,6 @@ WORLD_ID: `latin-pastoral-congregational-christianity`. The slug matches cic/cor
 
 TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conversion and rise to the episcopate, "c. 246-249" as a single approximate range rather than don's own doubled 311/312 opening; the earlier boundary year is carried in the schema's own single integer, with the fuller two-to-three-year interval and the two bishops' own different conversion-to-office intervals stated in `horizon` instead of collapsed. The 430 close is Augustine's own death during the Vandal siege of Hippo -- Doc_01 SS2 argues it is a real ecological rupture of the same kind that opens this world, not merely a biographical endpoint, and `horizon` carries that argument rather than only the date.
 
-WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
+WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` and `living_traditions` state the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
 
 REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.

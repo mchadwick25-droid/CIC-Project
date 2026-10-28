@@ -20,6 +20,8 @@ work: 'Vingt-six sermons au peuple d''Afrique (Paris: Institut d''Études August
   in 1990'
 edition: Paris, 1996 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate
+citation: 'Augustine of Hippo, Vingt-six sermons au peuple d''Afrique, ed. François Dolbeau (Paris: Institut d''Études Augustiniennes, 1996)'
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

@@ -1,0 +1,823 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.031074
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2253,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2091,
+      "output_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3574,
+      "output_tokens": 291,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How was the rebaptism dispute finally settled in the end?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "It was not settled. It was held open. Augustine argued at length that Cyprian's council had ruled wrongly, and he never once put Cyprian outside our communion. At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”\n\nA century and a half later, Augustine answered the question differently and gave a different rule for how such disputes are decided. Cyprian held that no bishop stands over another, and each answers to Christ. Augustine held that a later, wider council can correct an earlier one, and Scripture stands above them all. The disagreement never broke the bond. What happened in practice was this. Augustine's side prevailed, and his ruling became the wider church's own. But the way it prevailed was not by casting Cyprian out. It was by holding him inside, and saying plainly that he had been wrong.",
+          "citations": [
+            {
+              "sentence": "Augustine argued at length that Cyprian's council had ruled wrongly, and he never once put Cyprian outside our communion.",
+              "record_ids": [
+                "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                  "record_type": "force",
+                  "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”",
+              "record_ids": [
+                "lpc.quote.bishop-of-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.bishop-of-bishops",
+                  "record_type": "quote",
+                  "label": "The Seventh Council of Carthage under Cyprian, the 256 Council preface — Cyprian, our bishop at Carthage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council preface; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Augustine's own three independent quotations of the identical proposition while arguing against it at length; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11292, 11626, 12207",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.",
+                  "speaker": "Cyprian, our bishop at Carthage"
+                }
+              ]
+            },
+            {
+              "sentence": "It was by holding him inside, and saying plainly that he had been wrong.",
+              "record_ids": [
+                "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                  "record_type": "force",
+                  "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 149,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 38,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 70,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.confessor-claim-vs-regulated-peace",
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "term": [
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.consider-who-was-there",
+              "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+              "lpc.quote.bishop-of-bishops",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+              "lpc.force.transmission-institutionally-dominant-side"
+            ],
+            "contested_claim": [
+              "lpc.contested.compel-coercion-development"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "It was not settled.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was not settled."
+              },
+              {
+                "sentence": "It was held open.",
+                "tags": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "It was held open [[lpc.force.augustine-engagement-cyprian-conciliar-acts]]."
+              },
+              {
+                "sentence": "Augustine argued at length that Cyprian's council had ruled wrongly, and he never once put Cyprian outside our communion.",
+                "tags": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                ],
+                "verdict": "ok",
+                "why": "grounded 77% in own tagged records",
+                "ratio": 0.77,
+                "draft": "Augustine argued at length that Cyprian's council had ruled wrongly, and he never once put Cyprian outside our communion [[lpc.force.augustine-engagement-cyprian-conciliar-acts]]."
+              },
+              {
+                "sentence": "At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”",
+                "tags": [
+                  "lpc.quote.bishop-of-bishops"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.bishop-of-bishops",
+                "draft": "At the council of 256, Cyprian said: [[quote:lpc.quote.bishop-of-bishops]]"
+              },
+              {
+                "sentence": "A century and a half later, Augustine answered the question differently and gave a different rule for how such disputes are decided.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['augustine']) with no citation tag",
+                "draft": "A century and a half later, Augustine answered the question differently and gave a different rule for how such disputes are decided."
+              },
+              {
+                "sentence": "Cyprian held that no bishop stands over another, and each answers to Christ.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "Cyprian held that no bishop stands over another, and each answers to Christ."
+              },
+              {
+                "sentence": "Augustine held that a later, wider council can correct an earlier one, and Scripture stands above them all.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine held that a later, wider council can correct an earlier one, and Scripture stands above them all."
+              },
+              {
+                "sentence": "The disagreement never broke the bond.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The disagreement never broke the bond."
+              },
+              {
+                "sentence": "What happened in practice was this.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What happened in practice was this."
+              },
+              {
+                "sentence": "Augustine's side prevailed, and his ruling became the wider church's own.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine's side prevailed, and his ruling became the wider church's own."
+              },
+              {
+                "sentence": "But the way it prevailed was not by casting Cyprian out.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "But the way it prevailed was not by casting Cyprian out."
+              },
+              {
+                "sentence": "It was by holding him inside, and saying plainly that he had been wrong.",
+                "tags": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "It was by holding him inside, and saying plainly that he had been wrong [[lpc.force.augustine-engagement-cyprian-conciliar-acts]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 4,
+                "cited_record_ids": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                  "lpc.quote.bishop-of-bishops"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "It was not settled.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                      "lpc.quote.bishop-of-bishops"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "A century and a half later, Augustine answered the question differently and gave a different rule for how such disputes are decided.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['augustine']) only 38% grounded in its own tags",
+                    "ratio": 0.38
+                  },
+                  "1": {
+                    "sentence": "Cyprian held that no bishop stands over another, and each answers to Christ.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (figure-name:['bishop']) only 29% grounded in its own tags",
+                    "ratio": 0.29
+                  },
+                  "2": {
+                    "sentence": "Augustine held that a later, wider council can correct an earlier one, and Scripture stands above them all.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "The disagreement never broke the bond.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "What happened in practice was this.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "5": {
+                    "sentence": "Augustine's side prevailed, and his ruling became the wider church's own.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "But the way it prevailed was not by casting Cyprian out.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['cyprian']) only 25% grounded in its own tags",
+                    "ratio": 0.25
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.bishop-of-bishops"
+              ],
+              "removed": [
+                {
+                  "sentence": "He wrote:",
+                  "why": "second placed quote in one reply",
+                  "draft": "He wrote: [[quote:lpc.quote.earlier-councils-corrected-by-later]]"
+                },
+                {
+                  "sentence": "So we keep both answers, and the two principles that let them stand together.",
+                  "why": "leans on a sentence that was removed",
+                  "draft": "So we keep both answers, and the two principles that let them stand together."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 19
+              },
+              {
+                "index": 1,
+                "text_start": 20,
+                "text_end": 37
+              },
+              {
+                "index": 2,
+                "text_start": 38,
+                "text_end": 159
+              },
+              {
+                "index": 3,
+                "text_start": 160,
+                "text_end": 704
+              },
+              {
+                "index": 4,
+                "text_start": 706,
+                "text_end": 838
+              },
+              {
+                "index": 5,
+                "text_start": 839,
+                "text_end": 915
+              },
+              {
+                "index": 6,
+                "text_start": 916,
+                "text_end": 1023
+              },
+              {
+                "index": 7,
+                "text_start": 1024,
+                "text_end": 1062
+              },
+              {
+                "index": 8,
+                "text_start": 1063,
+                "text_end": 1098
+              },
+              {
+                "index": 9,
+                "text_start": 1099,
+                "text_end": 1172
+              },
+              {
+                "index": 10,
+                "text_start": 1173,
+                "text_end": 1229
+              },
+              {
+                "index": 11,
+                "text_start": 1230,
+                "text_end": 1302
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 32,
+                "char_end": 39,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 2,
+                "char_start": 111,
+                "char_end": 120,
+                "surface": "communion"
+              },
+              {
+                "record_id": "lpc.quote.bishop-of-bishops",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 3,
+                "char_start": 37,
+                "char_end": 544,
+                "surface": "“None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                "record_type": "force",
+                "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 2B-4: Documented -- Registry rows 4, 13; no divergence flagged for this force's own bare occurrence. The internal-versus-external placement is examined and confirmed rather than inherited silently: the prompt (the Donatists' own citation of Cyprian) is external, but the reading, argument, and conclusion are this world's own internal acts, per Doc_08's own stated reason.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.quote.bishop-of-bishops",
+                "record_type": "quote",
+                "label": "The Seventh Council of Carthage under Cyprian, the 256 Council preface — Cyprian, our bishop at Carthage",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council preface; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Augustine's own three independent quotations of the identical proposition while arguing against it at length; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11292, 11626, 12207",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.",
+                "speaker": "Cyprian, our bishop at Carthage",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                "record_type": "force",
+                "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 2B-4: Documented -- Registry rows 4, 13; no divergence flagged for this force's own bare occurrence. The internal-versus-external placement is examined and confirmed rather than inherited silently: the prompt (the Donatists' own citation of Cyprian) is external, but the reading, argument, and conclusion are this world's own internal acts, per Doc_08's own stated reason.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 4,
+              "sentence_indexes": [
+                1,
+                4,
+                5,
+                10
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.bishop-of-bishops"
+            ],
+            "removed": [
+              {
+                "sentence": "He wrote:",
+                "why": "second placed quote in one reply",
+                "draft": "He wrote: [[quote:lpc.quote.earlier-councils-corrected-by-later]]"
+              },
+              {
+                "sentence": "So we keep both answers, and the two principles that let them stand together.",
+                "why": "leans on a sentence that was removed",
+                "draft": "So we keep both answers, and the two principles that let them stand together."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

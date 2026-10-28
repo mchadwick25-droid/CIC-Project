@@ -88,7 +88,19 @@ def test_sign_in_sets_a_host_only_http_only_same_site_cookie(http, mailer):
     assert "HttpOnly" in header and "Secure" in header and "SameSite=lax" in header.replace("Lax", "lax") and "Path=/" in header
     assert "Domain" not in header
     me = http.get("/api/accounts/me").json()
-    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band", "sign_in_methods", "has_recovery_code", "recovery_pending"}
+    assert me["signed_in"] and set(me) == {"signed_in", "refill_day", "age_band", "sign_in_methods", "has_recovery_code", "recovery_pending", "address"}
+
+
+def test_me_shows_the_signed_in_person_their_own_address_and_is_never_cached(http, mailer):
+    assert "address" not in http.get("/api/accounts/me").json()
+    sign_in(http, mailer)
+    reply = http.get("/api/accounts/me")
+    assert reply.json()["address"] == ADDR
+    assert reply.headers["cache-control"] == "no-store"
+    other = TestClient(http.app, base_url="https://testserver")
+    sign_in(other, mailer, "grace@example.org")
+    assert other.get("/api/accounts/me").json()["address"] == "grace@example.org"
+    assert http.get("/api/accounts/me").json()["address"] == ADDR
 
 
 def test_signed_out_me_says_so_and_a_protected_route_is_401(http):

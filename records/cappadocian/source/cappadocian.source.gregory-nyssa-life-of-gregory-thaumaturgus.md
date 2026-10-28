@@ -17,15 +17,20 @@ relations: []
 author: Gregory of Nyssa
 work: Gregory of Nyssa, the Life of Gregory Thaumaturgus
 edition: >-
-  Not in the vendored npnf205, which only refers to it (lines 1246 and
-  21346). The seventeen-to-seventeen claim is reported in the editor's
-  introduction to the Library's Ante-Nicene Fathers vol. 6 (anf06), on
-  Gregory Thaumaturgus. An acquisition gap.
+  Held in Greek, not in English. cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt
+  carries the Life of Gregory Thaumaturgus (file line 65203). Migne's Latin column is garbled into
+  Greek-looking glyphs, so the Greek is the only legible witness. It is a second witness: nothing
+  in it is quotable until the passage is checked against the page image. Not in the vendored
+  npnf205, which only refers to it (lines 1246 and 21346). The seventeen-to-seventeen claim is
+  reported in the editor's introduction to the Library's Ante-Nicene Fathers vol. 6 (anf06), on
+  Gregory Thaumaturgus.
 citation: >-
   Gregory of Nyssa, Life of Gregory Thaumaturgus
-kind: unvendored
+kind: vendored
+shelf_row: gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863--sermons-martyrs-thaumaturgus-usurers-pg-46-greek
 rights_status: >-
-  not independently verified; not yet acquired as an open text
+  public-domain by date (Migne, 1863); vendored in the shared library, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: >-
   builder-prior-knowledge; Source Registry row 51. npnf205 only refers to

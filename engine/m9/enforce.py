@@ -133,16 +133,23 @@ def new_world_waiver_problem(waiver: Waiver) -> str | None:
 # being fixed right now gets a dated waiver, not a free pass by omission.
 # Waived here on that basis, each owned by its own world's build thread.
 ACCEPTED_OPEN: dict[str, Waiver] = {
+    "m1:reciprocity/lpc": Waiver(count=1, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:retrieval-negatives-structured/lpc": Waiver(count=47, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:readability/lpc": Waiver(count=13, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:horizon/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:cells-required/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:voice-perspective/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m9:shelf-row/lpc": Waiver(count=64, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands", approved_by=PROJECT_LEAD),
     "m9:shelf-row/alx": Waiver(count=26, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/desert": Waiver(count=19, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/desert": Waiver(count=20, deadline="2026-12-14", owner="desert's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:source-kind/gallic": Waiver(count=2, deadline="2026-12-14", owner="the two gallic.*-absence records - kind: absence + real absence_probes still need an editorial pass (increment 7's own remaining item); gallic's build thread"),
     "m9:shelf-row/don": Waiver(count=60, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:emic-vendored-only/don": Waiver(count=20, deadline="2026-12-14", owner="don's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
-    "m9:shelf-row/gallic": Waiver(count=21, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:emic-vendored-only/gallic": Waiver(count=10, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
+    "m9:emic-vendored-only/don": Waiver(count=16, deadline="2026-12-14", owner="don's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
+    "m9:shelf-row/gallic": Waiver(count=22, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:emic-vendored-only/gallic": Waiver(count=8, deadline="2026-12-14", owner="gallic's own build thread - each emic force/term/limit record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:shelf-row/cappadocian": Waiver(count=51, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:emic-vendored-only/cappadocian": Waiver(count=73, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed; this count includes the emic records that cite sources the Library does not hold"),
+    "m9:emic-vendored-only/cappadocian": Waiver(count=43, deadline="2026-12-14", owner="cappadocian's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed; this count includes the emic records that cite sources the Library does not hold"),
     "m9:shelf-row/hal": Waiver(count=29, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/ijc": Waiver(count=29, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/ijc": Waiver(count=2, deadline="2026-12-14", owner="ijc's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
@@ -174,7 +181,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/pahc": Waiver(count=93, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=82, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
     "m1:readability/syr": Waiver(count=127, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
-    "m1:readability/witt": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
+    "m1:readability/witt": Waiver(count=98, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own

@@ -1,0 +1,920 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.031827
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2256,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2094,
+      "output_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3255,
+      "output_tokens": 399,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did an ordinary believer feel at the font when they were baptized?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We cannot tell you that, for one reason. Almost nothing in our record comes from an ordinary believer, speaking in their own words, about what they felt. What comes down to us is what a bishop saw, decided and taught, not what an unremarkable person felt from inside. There is one real exception, and it is not ordinary at all. Augustine's own Confessions tells of his baptism at Milan, before he was a bishop. He wept greatly in the hymns and canticles. But he wrote that down years later, already a bishop, about a conversion he examined at book length. That is not an ordinary believer's account of an ordinary font.\n\nWe can tell you what we taught about the water. We did not make a newborn wait. Augustine said babies who die before baptism are condemned, but least of all, and that to deny it is to deceive: “So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.”\n\nThat is our teaching. An ordinary believer's own feeling at the moment is not ours to give you.",
+          "citations": [
+            {
+              "sentence": "Almost nothing in our record comes from an ordinary believer, speaking in their own words, about what they felt.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What comes down to us is what a bishop saw, decided and taught, not what an unremarkable person felt from inside.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He wept greatly in the hymns and canticles.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But he wrote that down years later, already a bishop, about a conversion he examined at book length.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We did not make a newborn wait.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine said babies who die before baptism are condemned, but least of all, and that to deny it is to deceive: “So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.”",
+              "record_ids": [
+                "lpc.quote.the-mildest-condemnation-of-all"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.the-mildest-condemnation-of-all",
+                  "record_type": "quote",
+                  "label": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians, On the Merits and Forgiveness of Sins, Book I, chapter 21 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering); English at cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 328,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering); English at cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground",
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "term": [
+              "lpc.term.the-flock",
+              "lpc.term.grace"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.chosen-while-still-a-neophyte",
+              "lpc.quote.stewards-and-future-bishops",
+              "lpc.quote.the-mildest-condemnation-of-all",
+              "lpc.quote.two-hear-one-scorns-one-rises"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference",
+              "lpc.force.manichaeism-and-pelagian-anthropology"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We cannot tell you that, for one reason.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming",
+                "draft": "We cannot tell you that, for one reason."
+              },
+              {
+                "sentence": "Almost nothing in our record comes from an ordinary believer, speaking in their own words, about what they felt.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Almost nothing in our record comes from an ordinary believer, speaking in their own words, about what they felt [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "What comes down to us is what a bishop saw, decided and taught, not what an unremarkable person felt from inside.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 89% in own tagged records",
+                "ratio": 0.89,
+                "draft": "What comes down to us is what a bishop saw, decided and taught, not what an unremarkable person felt from inside [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "There is one real exception, and it is not ordinary at all.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "There is one real exception, and it is not ordinary at all."
+              },
+              {
+                "sentence": "Augustine's own Confessions tells of his baptism at Milan, before he was a bishop.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['confessions', 'milan']) with no citation tag",
+                "draft": "Augustine's own Confessions tells of his baptism at Milan, before he was a bishop."
+              },
+              {
+                "sentence": "He wept greatly in the hymns and canticles.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He wept greatly in the hymns and canticles [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "But he wrote that down years later, already a bishop, about a conversion he examined at book length.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 89% in own tagged records",
+                "ratio": 0.89,
+                "draft": "But he wrote that down years later, already a bishop, about a conversion he examined at book length [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "That is not an ordinary believer's account of an ordinary font.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is not an ordinary believer's account of an ordinary font."
+              },
+              {
+                "sentence": "We can tell you what we taught about the water.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We can tell you what we taught about the water."
+              },
+              {
+                "sentence": "We did not make a newborn wait.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We did not make a newborn wait [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "Augustine said babies who die before baptism are condemned, but least of all, and that to deny it is to deceive: “So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.”",
+                "tags": [
+                  "lpc.quote.the-mildest-condemnation-of-all"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.the-mildest-condemnation-of-all",
+                "draft": "Augustine said babies who die before baptism are condemned, but least of all, and that to deny it is to deceive: [[quote:lpc.quote.the-mildest-condemnation-of-all]]"
+              },
+              {
+                "sentence": "That is our teaching.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is our teaching."
+              },
+              {
+                "sentence": "An ordinary believer's own feeling at the moment is not ours to give you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "An ordinary believer's own feeling at the moment is not ours to give you."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We cannot tell you that, for one reason.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "There is one real exception, and it is not ordinary at all.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "Augustine's own Confessions tells of his baptism at Milan, before he was a bishop.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 83% in own tagged records",
+                    "ratio": 0.83
+                  },
+                  "7": {
+                    "sentence": "That is not an ordinary believer's account of an ordinary font.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.quote.the-mildest-condemnation-of-all",
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We can tell you what we taught about the water.",
+                    "tags": [
+                      "lpc.quote.the-mildest-condemnation-of-all",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.the-mildest-condemnation-of-all"
+              ],
+              "removed": [
+                {
+                  "sentence": "Cyprian and his colleagues, sixty-six in council, judged that God's mercy is not refused to any born of man.",
+                  "why": "gives a quote record's words without placing it",
+                  "draft": "Cyprian and his colleagues, sixty-six in council, judged that God's mercy is not refused to any born of man [[lpc.witness.infants-and-the-sin-of-another]]."
+                },
+                {
+                  "sentence": "The infant has not sinned except by being born after the flesh, and so sins not his own but another's are forgiven him.",
+                  "why": "gives a quote record's words without placing it",
+                  "draft": "The infant has not sinned except by being born after the flesh, and so sins not his own but another's are forgiven him [[lpc.witness.infants-and-the-sin-of-another]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 40
+              },
+              {
+                "index": 1,
+                "text_start": 41,
+                "text_end": 153
+              },
+              {
+                "index": 2,
+                "text_start": 154,
+                "text_end": 267
+              },
+              {
+                "index": 3,
+                "text_start": 268,
+                "text_end": 327
+              },
+              {
+                "index": 4,
+                "text_start": 328,
+                "text_end": 410
+              },
+              {
+                "index": 5,
+                "text_start": 411,
+                "text_end": 454
+              },
+              {
+                "index": 6,
+                "text_start": 455,
+                "text_end": 555
+              },
+              {
+                "index": 7,
+                "text_start": 556,
+                "text_end": 619
+              },
+              {
+                "index": 8,
+                "text_start": 621,
+                "text_end": 668
+              },
+              {
+                "index": 9,
+                "text_start": 669,
+                "text_end": 700
+              },
+              {
+                "index": 10,
+                "text_start": 701,
+                "text_end": 1030
+              },
+              {
+                "index": 11,
+                "text_start": 1032,
+                "text_end": 1053
+              },
+              {
+                "index": 12,
+                "text_start": 1054,
+                "text_end": 1127
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.the-mildest-condemnation-of-all",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. A page-break tag inside 'such infants' is stripped. The NPNF chapter title, 'Unbaptized Infants Damned, But Most Lightly', and its endnote are the editor's and are not part of the passage.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 10,
+                "char_start": 113,
+                "char_end": 329,
+                "surface": "“So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.the-mildest-condemnation-of-all",
+                "record_type": "quote",
+                "label": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians, On the Merits and Forgiveness of Sins, Book I, chapter 21 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering); English at cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. A page-break tag inside 'such infants' is stripped. The NPNF chapter title, 'Unbaptized Infants Damned, But Most Lightly', and its endnote are the editor's and are not part of the passage.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                4
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.the-mildest-condemnation-of-all"
+            ],
+            "removed": [
+              {
+                "sentence": "Cyprian and his colleagues, sixty-six in council, judged that God's mercy is not refused to any born of man.",
+                "why": "gives a quote record's words without placing it",
+                "draft": "Cyprian and his colleagues, sixty-six in council, judged that God's mercy is not refused to any born of man [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "The infant has not sinned except by being born after the flesh, and so sins not his own but another's are forgiven him.",
+                "why": "gives a quote record's words without placing it",
+                "draft": "The infant has not sinned except by being born after the flesh, and so sins not his own but another's are forgiven him [[lpc.witness.infants-and-the-sin-of-another]]."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

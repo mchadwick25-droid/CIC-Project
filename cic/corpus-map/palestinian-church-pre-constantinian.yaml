@@ -36,8 +36,8 @@ works:
   work: Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James,
     the brother of Jesus called Christ)
   author: josephus
-  locus: Antiquities XVIII, Testimonium at about file line 81395; Antiquities XX, the James
-    passage at about 90997
+  locus: Antiquities XVIII, Testimonium at about OCR line 81395; Antiquities XX, the James
+    passage at about 90997; line numbers are OCR lines, add 11 for this file's own
   role: context
   confidence: provisional
   note: 'Outside witness, not the church''s own voice: a first-century Jewish civil historian,

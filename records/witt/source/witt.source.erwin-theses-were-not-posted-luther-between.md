@@ -20,7 +20,7 @@ edition: '(Boston: Beacon, 1968; German Luthers Thesenanschlag — Tatsache oder
   1961)'
 citation: 'Erwin Iserloh, The Theses Were Not Posted: Luther between Reform and Reformation (Boston: Beacon, 1968; German Luthers Thesenanschlag — Tatsache oder Legende?, 1962)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Beacon, 1968): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 76; WebSearch; 2026-09-15
 external_ids:
