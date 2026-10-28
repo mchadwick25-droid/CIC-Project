@@ -2299,7 +2299,7 @@ Logged 2026-10-27.
 
 Logged 2026-10-28.
 
-- **Done.** The leaning-sentence rule and the hollowed-reply rule (OG-100's first two items, and OG-102, a replaced reply following streamed sentences) no longer exist: removed on the project lead's ruling of 2026-10-28; see `lpc_Decision_Log.md`. A reply the net leaves partly cut stands as the net left it.
+- **Done.** The leaning-sentence rule and the hollowed-reply rule (OG-100's last two items, "Leaning is by opener, so a real sentence can be cut" and "Streaming", and OG-102, a replaced reply following streamed sentences) no longer exist: removed on the project lead's ruling of 2026-10-28; see `lpc_Decision_Log.md`. A reply the net leaves partly cut stands as the net left it.
 - **Still open.** OG-101 (the answer record skips the net's claim checks), OG-103 (admission never calls `settle_reply`), and the rest of OG-100 (register-4, register-5, F17, F23).
 - **Owner.** An engine thread, for OG-101 and OG-103.
 

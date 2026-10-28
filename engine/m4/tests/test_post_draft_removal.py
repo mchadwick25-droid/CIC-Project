@@ -176,3 +176,11 @@ def test_with_no_offered_witness_the_answer_record_is_the_one_the_draft_cited_mo
     from engine.m4.turn import _answer_record_fallback
     assert _answer_record_fallback(raw, {}, RECORDS) == OTHER
     assert _answer_record_fallback(f"{typed} {typed} We kept the fast [[{OTHER}]].", {}, RECORDS) == WITNESS
+
+
+def test_an_emptied_reply_is_replaced_by_the_offered_witness_the_draft_tagged_before_its_most_cited_one():
+    typed_witness = TYPED.replace(OTHER, WITNESS)
+    raw = f"{typed_witness} {typed_witness} {TYPED}"
+    settled = _fallback(raw, offered={"doctrinal_witness": [OTHER]})
+    assert settled["answer_record_fallback"] == OTHER
+
