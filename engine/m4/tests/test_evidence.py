@@ -539,7 +539,9 @@ def test_a_stories_absent_detail_rides_on_its_line_without_costing_a_candidate_i
         cell="Z9-Q", coverage_entry=_UNKNOWN_COVERAGE_ENTRY, repository_records={_UNKNOWN["id"]: _UNKNOWN},
         message="tell me about the soldier", asks=None,
     )
-    entry = next(c for c in selected if c["id"] == "fix.story.unknown")
+    from engine.m4.evidence import _with_riders
+
+    entry = _with_riders(next(c for c in selected if c["id"] == "fix.story.unknown"), {_UNKNOWN["id"]: _UNKNOWN})
     assert entry["absent_detail"] == "We do not know what the beggar said."
     line = next(l for l in render_evidence_block({"candidates": [entry], "thin_ground": [], "figures_already_named": []}).splitlines() if "[[fix.story.unknown]]" in l)
     assert line.endswith("| NOT KNOWN: We do not know what the beggar said.")
@@ -1438,3 +1440,41 @@ def test_secondary_context_still_fills_a_matched_slot_when_the_message_has_an_ex
         matched, extras = _turn_cells(records, message, secondary_context=context)
         assert matched == base_matched and "A-1" in matched
         assert extras == ["C-1"]
+
+
+_RIDER_STORY = {
+    "id": "fix.story.rider", "record_type": "story", "tellable_as": "A soldier shared his cloak with a beggar at the gate.",
+    "absent_detail": "We do not know what the beggar said.", "use_note": {"not_for": ["a claim that the beggar was a saint"]},
+}
+_RIDER_QUOTE = {
+    "id": "fix.quote.rider", "record_type": "quote", "modern_rendering": "Share the cloak.",
+    "use_note": {"means": "Sharing is owed.", "not_for": ["a claim that sharing earns salvation"]},
+}
+
+
+def _riders_in(candidates):
+    evidence = {"candidates": candidates, "thin_ground": [], "figures_already_named": []}
+    return render_evidence_block(evidence)
+
+
+def test_riders_reach_a_story_that_enters_through_the_full_text_fallback():
+    from engine.m4.evidence import assemble_evidence
+
+    found = assemble_evidence(
+        message="beggar", asks=None, canon_questions={}, coverage={}, repository_records={_RIDER_STORY["id"]: _RIDER_STORY},
+    )
+    [candidate] = [c for c in found["candidates"] if c["id"] == "fix.story.rider"]
+    assert candidate.get("fulltext_fallback")
+    block = _riders_in([candidate])
+    assert "NOT KNOWN: We do not know what the beggar said." in block and "MUST NOT ASSERT: a claim that the beggar was a saint" in block
+
+
+def test_riders_reach_a_quote_that_enters_through_scope_completion(monkeypatch):
+    from engine.m4 import evidence as ev
+
+    records = {_RIDER_STORY["id"]: _RIDER_STORY, _RIDER_QUOTE["id"]: _RIDER_QUOTE}
+    monkeypatch.setattr(ev, "scope_completion", lambda ids, repo: ["fix.quote.rider"])
+    found = ev.assemble_evidence(message="beggar", asks=None, canon_questions={}, coverage={}, repository_records=records)
+    [candidate] = [c for c in found["candidates"] if c["id"] == "fix.quote.rider"]
+    assert candidate.get("scope_completion")
+    assert "MUST NOT ASSERT: a claim that sharing earns salvation" in _riders_in([candidate])

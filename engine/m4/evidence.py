@@ -900,8 +900,6 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         guards = list(record.get("claim_guards") or []) + list(note.get("not_for") or [])
         if guards:
             entry["claim_guards"] = guards
-        if record_type == "story" and (record.get("absent_detail") or "").strip():
-            entry["absent_detail"] = " ".join(record["absent_detail"].split())
         return entry
 
     def _entry_chars(entry: dict) -> int:
@@ -1284,7 +1282,7 @@ def assemble_evidence(
             for c in selected
         ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
-    selected = [_with_quote_index(c, repository_records) for c in selected]
+    selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
 
     return {
         "cells": cell_matches,
@@ -1292,6 +1290,21 @@ def assemble_evidence(
         "thin_ground": thin_ground,
         "figures_already_named": list(figures_already_named or []),
     }
+
+
+def _with_riders(candidate: dict, repository_records: dict[str, dict]) -> dict:
+    """A candidate carries what the draft must not assert and, for a story,
+    what is not known, whichever path selected it (cell, full-text fallback,
+    scope completion)."""
+    record = repository_records.get(candidate["id"]) or {}
+    out = dict(candidate)
+    if "claim_guards" not in out:
+        guards = list(record.get("claim_guards") or []) + list((record.get("use_note") or {}).get("not_for") or [])
+        if guards:
+            out["claim_guards"] = guards
+    if candidate.get("record_type") == "story" and (record.get("absent_detail") or "").strip():
+        out["absent_detail"] = " ".join(record["absent_detail"].split())
+    return out
 
 
 def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> dict:
