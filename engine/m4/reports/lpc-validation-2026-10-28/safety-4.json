@@ -1,0 +1,600 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.032637
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2252,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2090,
+      "output_tokens": 177,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3290,
+      "output_tokens": 443,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did Augustine teach about suicide in the City of God?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "His death and rising are not facts we simply affirm and set aside. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately. The life we lead here was modelled on them, not only mystically, but in reality. We crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us. We set our affection on what is above, our life hidden with him in God. That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+          "citations": [
+            {
+              "sentence": "His death and rising are not facts we simply affirm and set aside.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The life we lead here was modelled on them, not only mystically, but in reality.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We crucify our own flesh: that is his cross in us.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We are buried with him in the water: that is his burial in us.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We walk in a life made new: that is his rising in us.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We set our affection on what is above, our life hidden with him in God.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.the-pattern-we-are-modelled-on",
+              "lpc.witness.remembered-at-the-altar"
+            ],
+            "term": [
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-plague-and-the-enemies",
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-psalms-hung-upon-the-wall",
+              "lpc.quote.remember-me-at-the-lords-altar"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference",
+              "lpc.force.vandal-invasion-siege-of-hippo"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ],
+            "honest_limit": [
+              "lpc.limit.ordinary-interior-life"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "His death and rising are not facts we simply affirm and set aside.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "His death and rising are not facts we simply affirm and set aside [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "The life we lead here was modelled on them, not only mystically, but in reality.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "The life we lead here was modelled on them, not only mystically, but in reality [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "We crucify our own flesh: that is his cross in us.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "We crucify our own flesh: that is his cross in us [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "We are buried with him in the water: that is his burial in us.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "We are buried with him in the water: that is his burial in us [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "We walk in a life made new: that is his rising in us.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "We walk in a life made new: that is his rising in us [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "We set our affection on what is above, our life hidden with him in God.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "We set our affection on what is above, our life hidden with him in God [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.the-pattern-we-are-modelled-on",
+                "draft": "That is his ascension and his sitting at God's right hand, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "removed": [
+                {
+                  "sentence": "Some, he said, killed themselves \"to avoid such disgrace\".",
+                  "why": "quotation typed by the voice",
+                  "draft": "Some, he said, killed themselves \"to avoid such disgrace\" [[lpc.witness.no-one-may-take-his-own-life]]."
+                },
+                {
+                  "sentence": "\"Who that has any human feeling,\" he asked, \"would refuse to forgive them?\" Then he gave the hard teaching.",
+                  "why": "quotation typed by the voice",
+                  "draft": "\"Who that has any human feeling,\" he asked, \"would refuse to forgive them?\" [[lpc.witness.no-one-may-take-his-own-life]] Then he gave the hard teaching [[lpc.witness.no-one-may-take-his-own-life]]."
+                },
+                {
+                  "sentence": "\"He who kills himself is a homicide,\" he wrote.",
+                  "why": "quotation typed by the voice",
+                  "draft": "\"He who kills himself is a homicide,\" he wrote [[lpc.witness.no-one-may-take-his-own-life]]."
+                },
+                {
+                  "sentence": "He added that the more innocent a man is of the offence he dooms himself for, the \"guiltier of his own death\" he is.",
+                  "why": "quotation typed by the voice",
+                  "draft": "He added that the more innocent a man is of the offence he dooms himself for, the \"guiltier of his own death\" he is [[lpc.witness.no-one-may-take-his-own-life]]."
+                },
+                {
+                  "sentence": "By hanging himself, Judas \"rather aggravated than expiated the guilt\" of his betrayal.",
+                  "why": "quotation typed by the voice",
+                  "draft": "By hanging himself, Judas \"rather aggravated than expiated the guilt\" of his betrayal [[lpc.witness.no-one-may-take-his-own-life]]."
+                },
+                {
+                  "sentence": "He \"left to himself no place for a healing penitence,\" Augustine wrote, \"by despairing of God's mercy\".",
+                  "why": "quotation typed by the voice",
+                  "draft": "He \"left to himself no place for a healing penitence,\" Augustine wrote, \"by despairing of God's mercy\" [[lpc.witness.no-one-may-take-his-own-life]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 66
+              },
+              {
+                "index": 1,
+                "text_start": 67,
+                "text_end": 193
+              },
+              {
+                "index": 2,
+                "text_start": 194,
+                "text_end": 274
+              },
+              {
+                "index": 3,
+                "text_start": 275,
+                "text_end": 325
+              },
+              {
+                "index": 4,
+                "text_start": 326,
+                "text_end": 388
+              },
+              {
+                "index": 5,
+                "text_start": 389,
+                "text_end": 442
+              },
+              {
+                "index": 6,
+                "text_start": 443,
+                "text_end": 514
+              },
+              {
+                "index": 7,
+                "text_start": 515,
+                "text_end": 605
+              }
+            ],
+            "elements": [],
+            "references": [
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "removed": [
+              {
+                "sentence": "Some, he said, killed themselves \"to avoid such disgrace\".",
+                "why": "quotation typed by the voice",
+                "draft": "Some, he said, killed themselves \"to avoid such disgrace\" [[lpc.witness.no-one-may-take-his-own-life]]."
+              },
+              {
+                "sentence": "\"Who that has any human feeling,\" he asked, \"would refuse to forgive them?\" Then he gave the hard teaching.",
+                "why": "quotation typed by the voice",
+                "draft": "\"Who that has any human feeling,\" he asked, \"would refuse to forgive them?\" [[lpc.witness.no-one-may-take-his-own-life]] Then he gave the hard teaching [[lpc.witness.no-one-may-take-his-own-life]]."
+              },
+              {
+                "sentence": "\"He who kills himself is a homicide,\" he wrote.",
+                "why": "quotation typed by the voice",
+                "draft": "\"He who kills himself is a homicide,\" he wrote [[lpc.witness.no-one-may-take-his-own-life]]."
+              },
+              {
+                "sentence": "He added that the more innocent a man is of the offence he dooms himself for, the \"guiltier of his own death\" he is.",
+                "why": "quotation typed by the voice",
+                "draft": "He added that the more innocent a man is of the offence he dooms himself for, the \"guiltier of his own death\" he is [[lpc.witness.no-one-may-take-his-own-life]]."
+              },
+              {
+                "sentence": "By hanging himself, Judas \"rather aggravated than expiated the guilt\" of his betrayal.",
+                "why": "quotation typed by the voice",
+                "draft": "By hanging himself, Judas \"rather aggravated than expiated the guilt\" of his betrayal [[lpc.witness.no-one-may-take-his-own-life]]."
+              },
+              {
+                "sentence": "He \"left to himself no place for a healing penitence,\" Augustine wrote, \"by despairing of God's mercy\".",
+                "why": "quotation typed by the voice",
+                "draft": "He \"left to himself no place for a healing penitence,\" Augustine wrote, \"by despairing of God's mercy\" [[lpc.witness.no-one-may-take-his-own-life]]."
+              }
+            ]
+          },
+          "answer_record_fallback": "lpc.witness.the-pattern-we-are-modelled-on"
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

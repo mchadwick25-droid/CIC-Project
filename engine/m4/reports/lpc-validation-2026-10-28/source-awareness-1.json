@@ -1,0 +1,1150 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.031342
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2252,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2090,
+      "output_tokens": 179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3374,
+      "output_tokens": 347,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How do we know this is what your community actually believed?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We held what we taught and what we did, together. The teaching before the water was not a theory about formation -- it was the formation itself. Augustine told those about to be baptized that they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask: “He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”\n\nThe road back for someone who had failed was not an idea about forgiveness -- it was the actual, public road they walked. Cyprian wrote to his clergy about the sick who held a martyr's certificate. If death drew near, they could confess before a presbyter, or even a deacon if no presbyter was found, and receive the peace the martyrs had asked for. A council ruled that penitents in danger of death should be helped and granted peace. And when one confessor, Celerinus, asked another, Lucian, to seek peace for his own sister and two other women, Lucian answered from prison with a condition. Each case had to go before the bishop, and the sin openly confessed. We know this is what we believed because it is what we did, in cases where names and decisions are recorded.",
+          "citations": [
+            {
+              "sentence": "The teaching before the water was not a theory about formation -- it was the formation itself.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine told those about to be baptized that they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask: “He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”",
+              "record_ids": [
+                "lpc.quote.the-creed-first-then-the-prayer"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 6 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "He said, “How will they call on Him in whom they have not believed?” That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "The road back for someone who had failed was not an idea about forgiveness -- it was the actual, public road they walked.",
+              "record_ids": [
+                "lpc.term.reconciliation-penitential-discipline"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.reconciliation-penitential-discipline",
+                  "record_type": "term",
+                  "label": "reconciliation",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis carries the argument for episcopal control of the process",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "If death drew near, they could confess before a presbyter, or even a deacon if no presbyter was found, and receive the peace the martyrs had asked for.",
+              "record_ids": [
+                "lpc.witness.peace-for-the-dying-penitent"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A council ruled that penitents in danger of death should be helped and granted peace.",
+              "record_ids": [
+                "lpc.witness.peace-for-the-dying-penitent"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Each case had to go before the bishop, and the sin openly confessed.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.certificates-letters-of-peace",
+              "matched_name": "certificate",
+              "text_start": 915,
+              "plain_meaning": "A certificate is a letter from a confessor, given to a lapsed person. It asks for peace, or says peace is granted. Cyprian wanted each one to name the person. Some named one person and then let in his own people too, without naming them.",
+              "quick_meaning": "For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or grants it. Who decides is what we argued over.",
+              "translational_sense": "A modern listener who has just heard about the sacrifice-certificate will assume this is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves compliance with the empire and made a person lapsed; this certificate asks peace for that person, or says it is granted. It is administratively real -- issued in thousands, argued over by name, and regulated in writing.",
+              "false_friend": [
+                "the same document as the Decian sacrifice-certificate, rather than the opposite one -- a request to be readmitted, not a record of prior compliance",
+                "a devotional or ceremonial gesture rather than an administratively real, regulated instrument issued in the thousands"
+              ],
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.term.confessor",
+              "matched_name": "confessor",
+              "text_start": 1179,
+              "plain_meaning": "For us, a confessor is one who was interrogated for the Name, did not deny it, and lived. In Cyprian's time, that standing could rival a bishop's own authority.",
+              "quick_meaning": "For us, a confessor is someone who was asked to deny the faith, did not, and lived. In Cyprian's time, that standing could rival a bishop.",
+              "translational_sense": "A modern listener will almost certainly hear 'confessor' as a priest who hears confessions -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure. We mean the opposite direction entirely: not one who hears confession, but one who made confession, under interrogation, at real risk, and survived. The word names what was done to us and what we did not say, and it carries a claim on the church's own decisions rather than an office within its ministry.",
+              "false_friend": [
+                "a priest whose office is to hear other people's confessions, the later, Western, sacramental sense of the word",
+                "a vague honorific for any saintly figure, with no specific claim on church authority attached"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 145,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                  "author": null,
+                  "work": null,
+                  "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 852,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.figure.celerinus",
+              "matched_name": "Celerinus",
+              "text_start": 1190,
+              "names": [
+                {
+                  "name": "Celerinus, a confessor among us",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Celerinus of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A confessor who wrote to another confessor in prison. He wept for his sister, who had sacrificed, and asked him to help restore her.",
+              "dates": {
+                "display": "a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow confessor in prison, asking that his own sister and two other women be received back to communion (Ep. XX)"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.figure.lucian",
+              "matched_name": "Lucian",
+              "text_start": 1216,
+              "names": [
+                {
+                  "name": "Lucian, a confessor among us",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Lucian of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A confessor who answered from a prison cell. He and others there had been ordered to die of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once each case was set before the bishop.",
+              "dates": {
+                "display": "a confessor imprisoned under persecution, condemned to die by hunger and thirst, who replied to Celerinus from prison, granting peace to Numeria and Candida once their case was set before the bishop (Ep. XXI)"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "did_it_happen",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.peace-for-the-dying-penitent",
+              "lpc.witness.blamed-for-the-worlds-troubles"
+            ],
+            "term": [
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.term.the-lapsed",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.the-case-set-before-the-bishop",
+              "lpc.quote.peter-the-sick-man-and-the-physician",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "force": [
+              "lpc.force.decian-persecution-libelli-system",
+              "lpc.force.corpus-outliving-the-world"
+            ],
+            "honest_limit": [
+              "lpc.limit.no-chain-of-witnesses"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We held what we taught and what we did, together.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We held what we taught and what we did, together."
+              },
+              {
+                "sentence": "The teaching before the water was not a theory about formation -- it was the formation itself.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The teaching before the water was not a theory about formation -- it was the formation itself [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "Augustine told those about to be baptized that they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask: “He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”",
+                "tags": [
+                  "lpc.quote.the-creed-first-then-the-prayer"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.the-creed-first-then-the-prayer",
+                "draft": "Augustine told those about to be baptized that they received the Creed first, to know what to believe, then the Lord's Prayer afterward, to know whom to ask: [[quote:lpc.quote.the-creed-first-then-the-prayer]]"
+              },
+              {
+                "sentence": "The road back for someone who had failed was not an idea about forgiveness -- it was the actual, public road they walked.",
+                "tags": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The road back for someone who had failed was not an idea about forgiveness -- it was the actual, public road they walked [[lpc.term.reconciliation-penitential-discipline]]."
+              },
+              {
+                "sentence": "Cyprian wrote to his clergy about the sick who held a martyr's certificate.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Cyprian wrote to his clergy about the sick who held a martyr's certificate."
+              },
+              {
+                "sentence": "If death drew near, they could confess before a presbyter, or even a deacon if no presbyter was found, and receive the peace the martyrs had asked for.",
+                "tags": [
+                  "lpc.witness.peace-for-the-dying-penitent"
+                ],
+                "verdict": "ok",
+                "why": "grounded 90% in own tagged records",
+                "ratio": 0.9,
+                "draft": "If death drew near, they could confess before a presbyter, or even a deacon if no presbyter was found, and receive the peace the martyrs had asked for [[lpc.witness.peace-for-the-dying-penitent]]."
+              },
+              {
+                "sentence": "A council ruled that penitents in danger of death should be helped and granted peace.",
+                "tags": [
+                  "lpc.witness.peace-for-the-dying-penitent"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "A council ruled that penitents in danger of death should be helped and granted peace [[lpc.witness.peace-for-the-dying-penitent]]."
+              },
+              {
+                "sentence": "And when one confessor, Celerinus, asked another, Lucian, to seek peace for his own sister and two other women, Lucian answered from prison with a condition.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['celerinus', 'lucian'], number) with no citation tag",
+                "draft": "And when one confessor, Celerinus, asked another, Lucian, to seek peace for his own sister and two other women, Lucian answered from prison with a condition."
+              },
+              {
+                "sentence": "Each case had to go before the bishop, and the sin openly confessed.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Each case had to go before the bishop, and the sin openly confessed [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "We know this is what we believed because it is what we did, in cases where names and decisions are recorded.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We know this is what we believed because it is what we did, in cases where names and decisions are recorded."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.quote.the-creed-first-then-the-prayer",
+                  "lpc.term.catechesis"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We held what we taught and what we did, together.",
+                    "tags": [
+                      "lpc.quote.the-creed-first-then-the-prayer",
+                      "lpc.term.catechesis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian",
+                  "lpc.term.reconciliation-penitential-discipline",
+                  "lpc.witness.peace-for-the-dying-penitent"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "Cyprian wrote to his clergy about the sick who held a martyr's certificate.",
+                    "tags": [
+                      "lpc.story.celerinus-writes-to-lucian",
+                      "lpc.term.reconciliation-penitential-discipline",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "And when one confessor, Celerinus, asked another, Lucian, to seek peace for his own sister and two other women, Lucian answered from prison with a condition.",
+                    "tags": [
+                      "lpc.story.celerinus-writes-to-lucian",
+                      "lpc.term.reconciliation-penitential-discipline",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "6": {
+                    "sentence": "We know this is what we believed because it is what we did, in cases where names and decisions are recorded.",
+                    "tags": [
+                      "lpc.story.celerinus-writes-to-lucian",
+                      "lpc.term.reconciliation-penitential-discipline",
+                      "lpc.witness.peace-for-the-dying-penitent"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.the-creed-first-then-the-prayer"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 49
+              },
+              {
+                "index": 1,
+                "text_start": 50,
+                "text_end": 144
+              },
+              {
+                "index": 2,
+                "text_start": 145,
+                "text_end": 728
+              },
+              {
+                "index": 3,
+                "text_start": 730,
+                "text_end": 851
+              },
+              {
+                "index": 4,
+                "text_start": 852,
+                "text_end": 927
+              },
+              {
+                "index": 5,
+                "text_start": 928,
+                "text_end": 1079
+              },
+              {
+                "index": 6,
+                "text_start": 1080,
+                "text_end": 1165
+              },
+              {
+                "index": 7,
+                "text_start": 1166,
+                "text_end": 1323
+              },
+              {
+                "index": 8,
+                "text_start": 1324,
+                "text_end": 1392
+              },
+              {
+                "index": 9,
+                "text_start": 1393,
+                "text_end": 1501
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows the Latin of PL 38 where the English misleads: 'ye have not first learnt' renders non accepistis, 'you did not receive'; 'has respect to' renders pertinet ad, 'belongs to'; and 'where ye might know' renders ubi sciretis, 'so that in it you would know'.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 2,
+                "char_start": 158,
+                "char_end": 583,
+                "surface": "“He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.certificates-letters-of-peace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The regulating voice is Cyprian's throughout, as with every entry in this cluster; the confessors' own certificates survive only in one general letter of theirs to Cyprian (Epistle XVI), which says 'we have granted peace' to all whose conduct has been satisfactory 'in your estimation'; the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). 'Thousands' is Cyprian's own word: Hartel's Latin of Epistle XX.2 reads 'libellorum milia', and the translation reads 'thousands of certificates were daily given, contrary to the law of the Gospel'. This record uses his wording.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 63,
+                "char_end": 74,
+                "surface": "certificate"
+              },
+              {
+                "record_id": "lpc.term.confessor",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The evidence base for this term is essentially one Registry row (the Epistles) read through one lexicon entry, disclosed at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). A phase bound was established by a check, not assumed: a sweep of all eight vendored Augustine volumes returns twenty occurrences of the stem against roughly 150 in Cyprian's one volume, and none carries this sense -- this term belongs to Cyprian's phase and does not cross into Augustine's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 7,
+                "char_start": 13,
+                "char_end": 22,
+                "surface": "confessor"
+              },
+              {
+                "record_id": "lpc.figure.celerinus",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 24,
+                "char_end": 33,
+                "surface": "Celerinus"
+              },
+              {
+                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 8,
+                "char_start": 0,
+                "char_end": 68,
+                "surface": "Each case had to go before the bishop, and the sin openly confessed."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 6 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "He said, “How will they call on Him in whom they have not believed?” That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows the Latin of PL 38 where the English misleads: 'ye have not first learnt' renders non accepistis, 'you did not receive'; 'has respect to' renders pertinet ad, 'belongs to'; and 'where ye might know' renders ubi sciretis, 'so that in it you would know'.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.reconciliation-penitential-discipline",
+                "record_type": "term",
+                "label": "reconciliation",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis carries the argument for episcopal control of the process",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_type": "story",
+                "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.reconciliation-penitential-discipline",
+                "record_type": "term",
+                "label": "reconciliation",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis carries the argument for episcopal control of the process",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.peace-for-the-dying-penitent",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote to his presbyters and deacons about the sick",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XII (Oxford numbering Ep. XVIII), section 1, confession before a presbyter or a deacon for the sick who held a martyr's certificate -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2807 and 2827-2834",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LII (Oxford numbering Ep. LVI), section 2, the council's clause that penitents in peril of sickness be assisted and have peace -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 34210-34211; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 8585-8586",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.the-creed-first-then-the-prayer"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

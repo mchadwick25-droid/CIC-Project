@@ -1,0 +1,972 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.040384
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2261,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2099,
+      "output_tokens": 241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 1005,
+      "output_tokens": 393,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    },
+    {
+      "call_kind": "self_revision",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 797,
+      "output_tokens": 311,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "So you'd agree the Donatists were just schismatics who deserved what they got?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "other_tradition, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not agree to that, and we will not hide what happened either. The Donatists were a rival church, standing in our own towns and claiming to be the only true one. That is schism as we name it: not mere argument, but a new altar and a new bishop in the same town. What became of them is a harder question, because what happened changed across time. Augustine's own position moved through three stages. By his own later account, he first held an early opinion against any compulsion. Later, early in his own episcopate, he and his colleagues asked for a narrow measure. It was not granted. Later still, he defended compulsion already in force. What persuaded him, he said, was pastoral experience of the Donatist schism. We hold that answer as his own, argued in earnest, and we hold it beside his first view.",
+          "citations": [
+            {
+              "sentence": "The Donatists were a rival church, standing in our own towns and claiming to be the only true one.",
+              "record_ids": [
+                "lpc.term.schism"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.schism",
+                  "record_type": "term",
+                  "label": "schism",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is schism as we name it: not mere argument, but a new altar and a new bishop in the same town.",
+              "record_ids": [
+                "lpc.term.schism"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.schism",
+                  "record_type": "term",
+                  "label": "schism",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine's own position moved through three stages.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "By his own later account, he first held an early opinion against any compulsion.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Later, early in his own episcopate, he and his colleagues asked for a narrow measure.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Later still, he defended compulsion already in force.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What persuaded him, he said, was pastoral experience of the Donatist schism.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We hold that answer as his own, argued in earnest, and we hold it beside his first view.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.schism",
+              "matched_name": "schism",
+              "text_start": 175,
+              "plain_meaning": "We argue hard, and we stay. Schism is the other thing: when arguing stops, and a new altar and a new bishop appear in the same town.",
+              "quick_meaning": "For us, schism means a split in the one church: someone leaves its clergy and people and sets up another altar. It is a tear, not a mere argument.",
+              "translational_sense": "A modern listener is likely to hear denominational difference -- a normal, unremarkable feature of a plural religious landscape. We mean a tearing of a single body, with real consequences for standing, sacraments, and ordinary life in a town where both parties are present -- not one option among many, but the outcome we organize ourselves to avoid.",
+              "false_friend": [
+                "a normal, unremarkable feature of a plural religious landscape, carrying no great weight"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 352,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                  "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                  "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.shaw-sacred-violence",
+                  "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                  "author": null,
+                  "work": null,
+                  "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                  "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                  "author": null,
+                  "work": null,
+                  "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_is",
+          "offered_ids": {
+            "quote": [
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.such-a-one-with-his-friends",
+              "lpc.quote.the-branch-cut-from-the-vine"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": true,
+              "changed": true,
+              "draft_length": 1553,
+              "revised_length": 1173,
+              "fallback_reason": null,
+              "latency_seconds": 4.393
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not agree to that, and we will not hide what happened either.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming",
+                "draft": "We do not agree to that, and we will not hide what happened either."
+              },
+              {
+                "sentence": "The Donatists were a rival church, standing in our own towns and claiming to be the only true one.",
+                "tags": [
+                  "lpc.term.schism"
+                ],
+                "verdict": "ok",
+                "why": "grounded 43% in own tagged records",
+                "ratio": 0.43,
+                "draft": "The Donatists were a rival church, standing in our own towns and claiming to be the only true one [[lpc.term.schism]]."
+              },
+              {
+                "sentence": "That is schism as we name it: not mere argument, but a new altar and a new bishop in the same town.",
+                "tags": [
+                  "lpc.term.schism"
+                ],
+                "verdict": "ok",
+                "why": "grounded 89% in own tagged records",
+                "ratio": 0.89,
+                "draft": "That is schism as we name it: not mere argument, but a new altar and a new bishop in the same town [[lpc.term.schism]]."
+              },
+              {
+                "sentence": "What became of them is a harder question, because what happened changed across time.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What became of them is a harder question, because what happened changed across time."
+              },
+              {
+                "sentence": "Augustine's own position moved through three stages.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6,
+                "draft": "Augustine's own position moved through three stages [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "By his own later account, he first held an early opinion against any compulsion.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "By his own later account, he first held an early opinion against any compulsion [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "Later, early in his own episcopate, he and his colleagues asked for a narrow measure.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Later, early in his own episcopate, he and his colleagues asked for a narrow measure [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "It was not granted.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "It was not granted [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "Later still, he defended compulsion already in force.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Later still, he defended compulsion already in force [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "What persuaded him, he said, was pastoral experience of the Donatist schism.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "grounded 83% in own tagged records",
+                "ratio": 0.83,
+                "draft": "What persuaded him, he said, was pastoral experience of the Donatist schism [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "We hold that answer as his own, argued in earnest, and we hold it beside his first view.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We hold that answer as his own, argued in earnest, and we hold it beside his first view [[lpc.contested.compel-coercion-development]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 11,
+                "cited_record_ids": [
+                  "lpc.contested.compel-coercion-development",
+                  "lpc.term.schism"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We do not agree to that, and we will not hide what happened either.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development",
+                      "lpc.term.schism"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "What became of them is a harder question, because what happened changed across time.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development",
+                      "lpc.term.schism"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 67
+              },
+              {
+                "index": 1,
+                "text_start": 68,
+                "text_end": 166
+              },
+              {
+                "index": 2,
+                "text_start": 167,
+                "text_end": 266
+              },
+              {
+                "index": 3,
+                "text_start": 267,
+                "text_end": 351
+              },
+              {
+                "index": 4,
+                "text_start": 352,
+                "text_end": 404
+              },
+              {
+                "index": 5,
+                "text_start": 405,
+                "text_end": 485
+              },
+              {
+                "index": 6,
+                "text_start": 486,
+                "text_end": 571
+              },
+              {
+                "index": 7,
+                "text_start": 572,
+                "text_end": 591
+              },
+              {
+                "index": 8,
+                "text_start": 592,
+                "text_end": 645
+              },
+              {
+                "index": 9,
+                "text_start": 646,
+                "text_end": 722
+              },
+              {
+                "index": 10,
+                "text_start": 723,
+                "text_end": 811
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.schism",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "How this world characterizes its own opponents -- the Donatists specifically -- belongs to a later, separate step and this world's eventual Representative, not to this lexicon; this entry names the general concept only and does not characterize Donatism. This term also carries a live scholarly contest, of the type Application to this world, secondarily Historical scope. It runs over whether the heresy/schism distinction was as stable in this period as later usage implies, and how far the category describes a real ecclesial situation as against a polemical instrument used by the side that eventually prevailed. The North African case is the field's own central example. The entry does not present the distinction as a neutral technical taxonomy, and it does not settle whether the application of the category to rivals was accurate.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 2,
+                "char_start": 8,
+                "char_end": 14,
+                "surface": "schism"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.schism",
+                "record_type": "term",
+                "label": "schism",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "How this world characterizes its own opponents -- the Donatists specifically -- belongs to a later, separate step and this world's eventual Representative, not to this lexicon; this entry names the general concept only and does not characterize Donatism. This term also carries a live scholarly contest, of the type Application to this world, secondarily Historical scope. It runs over whether the heresy/schism distinction was as stable in this period as later usage implies, and how far the category describes a real ecclesial situation as against a polemical instrument used by the side that eventually prevailed. The North African case is the field's own central example. The entry does not present the distinction as a neutral technical taxonomy, and it does not settle whether the application of the category to rivals was accurate.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.contested.compel-coercion-development",
+                "record_type": "contested_claim",
+                "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.shaw-sacred-violence",
+                    "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                    "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.contested.compel-coercion-development",
+                "record_type": "contested_claim",
+                "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.shaw-sacred-violence",
+                    "citation": "Brent D. Shaw, Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                    "citation": "Caroline Humfress, Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

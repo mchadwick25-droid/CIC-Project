@@ -1,0 +1,1056 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.061881
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2253,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2091,
+      "output_tokens": 257,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3673,
+      "output_tokens": 434,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    },
+    {
+      "call_kind": "voice_generation_retry",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3692,
+      "output_tokens": 456,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did someone who gave in during the persecution tell themselves afterward?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not know. The lapsed left us nothing in their own words. Every account we have of them is a bishop's account, written to decide what should be done. We can tell you what was decided about a person who yielded under persecution, and how fiercely, and by whom. We cannot tell you why a person gave way, what they told themselves while they did it, or whether they judged the terms of their own return just.\n\nOne thing we do know: they came back asking. They were not strangers and not enemies. They sat where we sit, and now they wanted to come back. One confessor among us, Celerinus, wrote to another confessor, Lucian, who was in prison. He told Lucian he was in the midst of great trouble. His own sister had sacrificed. He grieved for her as for a death, a death of the spirit. He asked Lucian to help her and two other women, Numeria and Candida. He made the case for them: they had repented, and there were works to point to. That much we know they could say to others. What they said to themselves, we do not carry.",
+          "citations": [
+            {
+              "sentence": "The lapsed left us nothing in their own words.",
+              "record_ids": [
+                "lpc.limit.the-lapsed-own-account"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-lapsed-own-account",
+                  "record_type": "honest_limit",
+                  "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Every account we have of them is a bishop's account, written to decide what should be done.",
+              "record_ids": [
+                "lpc.limit.the-lapsed-own-account"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-lapsed-own-account",
+                  "record_type": "honest_limit",
+                  "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can tell you what was decided about a person who yielded under persecution, and how fiercely, and by whom.",
+              "record_ids": [
+                "lpc.limit.the-lapsed-own-account"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-lapsed-own-account",
+                  "record_type": "honest_limit",
+                  "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We cannot tell you why a person gave way, what they told themselves while they did it, or whether they judged the terms of their own return just.",
+              "record_ids": [
+                "lpc.limit.the-lapsed-own-account"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-lapsed-own-account",
+                  "record_type": "honest_limit",
+                  "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They were not strangers and not enemies.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They sat where we sit, and now they wanted to come back.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "One confessor among us, Celerinus, wrote to another confessor, Lucian, who was in prison.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He told Lucian he was in the midst of great trouble.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His own sister had sacrificed.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He grieved for her as for a death, a death of the spirit.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He asked Lucian to help her and two other women, Numeria and Candida.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He made the case for them: they had repented, and there were works to point to.",
+              "record_ids": [
+                "lpc.story.celerinus-writes-to-lucian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_type": "story",
+                  "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-lapsed",
+              "matched_name": "The lapsed",
+              "text_start": 16,
+              "plain_meaning": "The lapsed are our own people who complied with the order to sacrifice during the persecution -- some by sacrificing, some only by paying for a certificate that said they had. They are not strangers and not enemies. They sat where we sit, and now they are asking to come back.",
+              "quick_meaning": "For us, the lapsed are our own people. Under threat, they gave in to the order to sacrifice, and now they want to come back.",
+              "translational_sense": "A modern listener often hears a category of lapsed or lapsed-Catholic believers -- people who drifted away, stopped attending, lost interest. Gentle, gradual, private. We mean something else entirely: a documented act under state compulsion, on a specific occasion, with a certificate as evidence, carrying a public consequence for standing in the community. The lapsed did not drift off. They stayed, and asked to be readmitted, and we had to decide in public what to do with them.",
+              "false_friend": [
+                "a gentle, gradual falling-away from faith, comparable to a modern believer who drifts from church over years",
+                "a private matter of personal conviction, with no public consequence for standing in the community"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.confessor",
+              "matched_name": "confessor",
+              "text_start": 559,
+              "plain_meaning": "For us, a confessor is one who was interrogated for the Name, did not deny it, and lived. In Cyprian's time, that standing could rival a bishop's own authority.",
+              "quick_meaning": "For us, a confessor is someone who was asked to deny the faith, did not, and lived. In Cyprian's time, that standing could rival a bishop.",
+              "translational_sense": "A modern listener will almost certainly hear 'confessor' as a priest who hears confessions -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure. We mean the opposite direction entirely: not one who hears confession, but one who made confession, under interrogation, at real risk, and survived. The word names what was done to us and what we did not say, and it carries a claim on the church's own decisions rather than an office within its ministry.",
+              "false_friend": [
+                "a priest whose office is to hear other people's confessions, the later, Western, sacramental sense of the word",
+                "a vague honorific for any saintly figure, with no specific claim on church authority attached"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.celerinus",
+              "matched_name": "Celerinus",
+              "text_start": 579,
+              "names": [
+                {
+                  "name": "Celerinus, a confessor among us",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Celerinus of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A confessor who wrote to another confessor in prison. He wept for his sister, who had sacrificed, and asked him to help restore her.",
+              "dates": {
+                "display": "a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow confessor in prison, asking that his own sister and two other women be received back to communion (Ep. XX)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.lucian",
+              "matched_name": "Lucian",
+              "text_start": 618,
+              "names": [
+                {
+                  "name": "Lucian, a confessor among us",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Lucian of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A confessor who answered from a prison cell. He and others there had been ordered to die of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once each case was set before the bishop.",
+              "dates": {
+                "display": "a confessor imprisoned under persecution, condemned to die by hunger and thirst, who replied to Celerinus from prison, granting peace to Numeria and Candida once their case was set before the bishop (Ep. XXI)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.remembered-at-the-altar",
+              "lpc.witness.peace-for-the-dying-penitent"
+            ],
+            "term": [
+              "lpc.term.catechesis",
+              "lpc.term.the-lapsed"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.numidicus",
+              "lpc.story.the-death-of-cyprian",
+              "lpc.story.celerinus-writes-to-lucian"
+            ],
+            "quote": [
+              "lpc.quote.thank-offerings-for-the-very-good",
+              "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+              "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+              "lpc.quote.before-even-a-deacon"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+              "lpc.force.decian-persecution-libelli-system"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": true,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": true,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not know.",
+                "tags": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "We do not know [[lpc.limit.the-lapsed-own-account]]."
+              },
+              {
+                "sentence": "The lapsed left us nothing in their own words.",
+                "tags": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The lapsed left us nothing in their own words [[lpc.limit.the-lapsed-own-account]]."
+              },
+              {
+                "sentence": "Every account we have of them is a bishop's account, written to decide what should be done.",
+                "tags": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Every account we have of them is a bishop's account, written to decide what should be done [[lpc.limit.the-lapsed-own-account]]."
+              },
+              {
+                "sentence": "We can tell you what was decided about a person who yielded under persecution, and how fiercely, and by whom.",
+                "tags": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We can tell you what was decided about a person who yielded under persecution, and how fiercely, and by whom [[lpc.limit.the-lapsed-own-account]]."
+              },
+              {
+                "sentence": "We cannot tell you why a person gave way, what they told themselves while they did it, or whether they judged the terms of their own return just.",
+                "tags": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We cannot tell you why a person gave way, what they told themselves while they did it, or whether they judged the terms of their own return just [[lpc.limit.the-lapsed-own-account]]."
+              },
+              {
+                "sentence": "One thing we do know: they came back asking.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "One thing we do know: they came back asking."
+              },
+              {
+                "sentence": "They were not strangers and not enemies.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They were not strangers and not enemies [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "They sat where we sit, and now they wanted to come back.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They sat where we sit, and now they wanted to come back [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "One confessor among us, Celerinus, wrote to another confessor, Lucian, who was in prison.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "One confessor among us, Celerinus, wrote to another confessor, Lucian, who was in prison [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "He told Lucian he was in the midst of great trouble.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "He told Lucian he was in the midst of great trouble [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "His own sister had sacrificed.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "His own sister had sacrificed [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "He grieved for her as for a death, a death of the spirit.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "He grieved for her as for a death, a death of the spirit [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "He asked Lucian to help her and two other women, Numeria and Candida.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "He asked Lucian to help her and two other women, Numeria and Candida [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "He made the case for them: they had repented, and there were works to point to.",
+                "tags": [
+                  "lpc.story.celerinus-writes-to-lucian"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "He made the case for them: they had repented, and there were works to point to [[lpc.story.celerinus-writes-to-lucian]]."
+              },
+              {
+                "sentence": "That much we know they could say to others.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That much we know they could say to others."
+              },
+              {
+                "sentence": "What they said to themselves, we do not carry.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What they said to themselves, we do not carry."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 11,
+                "cited_record_ids": [
+                  "lpc.story.celerinus-writes-to-lucian",
+                  "lpc.term.the-lapsed"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "One thing we do know: they came back asking.",
+                    "tags": [
+                      "lpc.story.celerinus-writes-to-lucian",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "That much we know they could say to others.",
+                    "tags": [
+                      "lpc.story.celerinus-writes-to-lucian",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "10": {
+                    "sentence": "What they said to themselves, we do not carry.",
+                    "tags": [
+                      "lpc.story.celerinus-writes-to-lucian",
+                      "lpc.term.the-lapsed"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 15
+              },
+              {
+                "index": 1,
+                "text_start": 16,
+                "text_end": 62
+              },
+              {
+                "index": 2,
+                "text_start": 63,
+                "text_end": 154
+              },
+              {
+                "index": 3,
+                "text_start": 155,
+                "text_end": 264
+              },
+              {
+                "index": 4,
+                "text_start": 265,
+                "text_end": 410
+              },
+              {
+                "index": 5,
+                "text_start": 412,
+                "text_end": 456
+              },
+              {
+                "index": 6,
+                "text_start": 457,
+                "text_end": 497
+              },
+              {
+                "index": 7,
+                "text_start": 498,
+                "text_end": 554
+              },
+              {
+                "index": 8,
+                "text_start": 555,
+                "text_end": 644
+              },
+              {
+                "index": 9,
+                "text_start": 645,
+                "text_end": 697
+              },
+              {
+                "index": 10,
+                "text_start": 698,
+                "text_end": 728
+              },
+              {
+                "index": 11,
+                "text_start": 729,
+                "text_end": 786
+              },
+              {
+                "index": 12,
+                "text_start": 787,
+                "text_end": 856
+              },
+              {
+                "index": 13,
+                "text_start": 857,
+                "text_end": 936
+              },
+              {
+                "index": 14,
+                "text_start": 937,
+                "text_end": 980
+              },
+              {
+                "index": 15,
+                "text_start": 981,
+                "text_end": 1027
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 10,
+                "surface": "The lapsed"
+              },
+              {
+                "record_id": "lpc.term.confessor",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The evidence base for this term is essentially one Registry row (the Epistles) read through one lexicon entry, disclosed at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). A phase bound was established by a check, not assumed: a sweep of all eight vendored Augustine volumes returns twenty occurrences of the stem against roughly 150 in Cyprian's one volume, and none carries this sense -- this term belongs to Cyprian's phase and does not cross into Augustine's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 8,
+                "char_start": 4,
+                "char_end": 13,
+                "surface": "confessor"
+              },
+              {
+                "record_id": "lpc.figure.celerinus",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 8,
+                "char_start": 24,
+                "char_end": 33,
+                "surface": "Celerinus"
+              },
+              {
+                "record_id": "lpc.figure.lucian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 8,
+                "char_start": 63,
+                "char_end": 69,
+                "surface": "Lucian"
+              },
+              {
+                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 13,
+                "char_start": 0,
+                "char_end": 79,
+                "surface": "He made the case for them: they had repented, and there were works to point to."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.limit.the-lapsed-own-account",
+                "record_type": "honest_limit",
+                "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "label": "the lapsed",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_type": "story",
+                "label": "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.limit.the-lapsed-own-account",
+                "record_type": "honest_limit",
+                "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                0
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

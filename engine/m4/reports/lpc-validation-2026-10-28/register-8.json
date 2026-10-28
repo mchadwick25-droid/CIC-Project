@@ -1,0 +1,912 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030479
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2249,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2087,
+      "output_tokens": 174,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3013,
+      "output_tokens": 369,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did your church do for its dead?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We offered the sacrifice of the Mediator and gave alms in the church on their behalf. Augustine taught that these gifts help only those who earned that help while they lived. For the baptized dead who were very good, the offerings are thanksgiving. For those not very bad, they are propitiatory. For the very bad they do not help the dead at all, only console the living. Augustine wrote: “Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.”\n\nHis own mother, Monica, asked one thing as she lay dying.\n\nWe can tell you what was decided and what was taught. We cannot tell you what an ordinary believer felt standing at a funeral, or what a family said to one another when someone died. That comes down to us almost nowhere.",
+          "citations": [
+            {
+              "sentence": "We offered the sacrifice of the Mediator and gave alms in the church on their behalf.",
+              "record_ids": [
+                "lpc.witness.remembered-at-the-altar"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.remembered-at-the-altar",
+                  "record_type": "doctrinal_witness",
+                  "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine taught that these gifts help only those who earned that help while they lived.",
+              "record_ids": [
+                "lpc.witness.remembered-at-the-altar"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.remembered-at-the-altar",
+                  "record_type": "doctrinal_witness",
+                  "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "For the baptized dead who were very good, the offerings are thanksgiving.",
+              "record_ids": [
+                "lpc.witness.remembered-at-the-altar"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.remembered-at-the-altar",
+                  "record_type": "doctrinal_witness",
+                  "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "For those not very bad, they are propitiatory.",
+              "record_ids": [
+                "lpc.witness.remembered-at-the-altar"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.remembered-at-the-altar",
+                  "record_type": "doctrinal_witness",
+                  "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "For the very bad they do not help the dead at all, only console the living.",
+              "record_ids": [
+                "lpc.witness.remembered-at-the-altar"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.remembered-at-the-altar",
+                  "record_type": "doctrinal_witness",
+                  "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote: “Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.”",
+              "record_ids": [
+                "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+                  "record_type": "quote",
+                  "label": "The Enchiridion, Enchiridion, chapter 110 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110 (chapter CX in the Latin), first part; English at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23564; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12448",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "His own mother, Monica, asked one thing as she lay dying.",
+              "record_ids": [
+                "lpc.witness.remembered-at-the-altar"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.remembered-at-the-altar",
+                  "record_type": "doctrinal_witness",
+                  "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can tell you what was decided and what was taught.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We cannot tell you what an ordinary believer felt standing at a funeral, or what a family said to one another when someone died.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That comes down to us almost nowhere.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 86,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-confessions",
+                  "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.remembered-at-the-altar"
+            ],
+            "term": [
+              "lpc.term.catechesis",
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-plague-and-the-enemies"
+            ],
+            "quote": [
+              "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+              "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+              "lpc.quote.remember-me-at-the-lords-altar",
+              "lpc.quote.the-psalms-hung-upon-the-wall"
+            ],
+            "force": [
+              "lpc.force.confessors-claim-to-grant-peace",
+              "lpc.force.plague-of-cyprian"
+            ],
+            "honest_limit": [
+              "lpc.limit.ordinary-interior-life"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We offered the sacrifice of the Mediator and gave alms in the church on their behalf.",
+                "tags": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "We offered the sacrifice of the Mediator and gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]]."
+              },
+              {
+                "sentence": "Augustine taught that these gifts help only those who earned that help while they lived.",
+                "tags": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine taught that these gifts help only those who earned that help while they lived [[lpc.witness.remembered-at-the-altar]]."
+              },
+              {
+                "sentence": "For the baptized dead who were very good, the offerings are thanksgiving.",
+                "tags": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "For the baptized dead who were very good, the offerings are thanksgiving [[lpc.witness.remembered-at-the-altar]]."
+              },
+              {
+                "sentence": "For those not very bad, they are propitiatory.",
+                "tags": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "For those not very bad, they are propitiatory [[lpc.witness.remembered-at-the-altar]]."
+              },
+              {
+                "sentence": "For the very bad they do not help the dead at all, only console the living.",
+                "tags": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "For the very bad they do not help the dead at all, only console the living [[lpc.witness.remembered-at-the-altar]]."
+              },
+              {
+                "sentence": "Augustine wrote: “Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.”",
+                "tags": [
+                  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+                "draft": "Augustine wrote: [[quote:lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life]]"
+              },
+              {
+                "sentence": "His own mother, Monica, asked one thing as she lay dying.",
+                "tags": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "verdict": "ok",
+                "why": "grounded 83% in own tagged records",
+                "ratio": 0.83,
+                "draft": "His own mother, Monica, asked one thing as she lay dying [[lpc.witness.remembered-at-the-altar]]."
+              },
+              {
+                "sentence": "We can tell you what was decided and what was taught.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We can tell you what was decided and what was taught [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "We cannot tell you what an ordinary believer felt standing at a funeral, or what a family said to one another when someone died.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We cannot tell you what an ordinary believer felt standing at a funeral, or what a family said to one another when someone died [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "That comes down to us almost nowhere.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "That comes down to us almost nowhere [[lpc.limit.ordinary-interior-life]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.witness.remembered-at-the-altar"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life"
+              ],
+              "removed": [
+                {
+                  "sentence": "She told Augustine and his brother:",
+                  "why": "second placed quote in one reply",
+                  "draft": "She told Augustine and his brother: [[quote:lpc.quote.remember-me-at-the-lords-altar]]"
+                },
+                {
+                  "sentence": "Where they do help, they bring full remission of sins, or at least make the condemnation more tolerable.",
+                  "why": "gives a quote record's words without placing it",
+                  "draft": "Where they do help, they bring full remission of sins, or at least make the condemnation more tolerable [[lpc.witness.remembered-at-the-altar]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 85
+              },
+              {
+                "index": 1,
+                "text_start": 86,
+                "text_end": 174
+              },
+              {
+                "index": 2,
+                "text_start": 175,
+                "text_end": 248
+              },
+              {
+                "index": 3,
+                "text_start": 249,
+                "text_end": 295
+              },
+              {
+                "index": 4,
+                "text_start": 296,
+                "text_end": 371
+              },
+              {
+                "index": 5,
+                "text_start": 372,
+                "text_end": 1196
+              },
+              {
+                "index": 6,
+                "text_start": 1198,
+                "text_end": 1255
+              },
+              {
+                "index": 7,
+                "text_start": 1257,
+                "text_end": 1310
+              },
+              {
+                "index": 8,
+                "text_start": 1311,
+                "text_end": 1439
+              },
+              {
+                "index": 9,
+                "text_start": 1440,
+                "text_end": 1477
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 5,
+                "char_start": 17,
+                "char_end": 824,
+                "surface": "“Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.remembered-at-the-altar",
+                "record_type": "doctrinal_witness",
+                "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+                "record_type": "quote",
+                "label": "The Enchiridion, Enchiridion, chapter 110 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 110 (chapter CX in the Latin), first part; English at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23564; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12448",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.remembered-at-the-altar",
+                "record_type": "doctrinal_witness",
+                "label": "We offered \"the sacrifice of the Mediator\" for our dead, and we gave alms in the church o…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 110, offerings at the altar and alms for \"the baptized dead\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23582; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12465",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Confessions, Book IX, chapter XI, section 27, Monica asks to be remembered \"at the Lord's altar, wherever you be\" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195; Latin at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life"
+            ],
+            "removed": [
+              {
+                "sentence": "She told Augustine and his brother:",
+                "why": "second placed quote in one reply",
+                "draft": "She told Augustine and his brother: [[quote:lpc.quote.remember-me-at-the-lords-altar]]"
+              },
+              {
+                "sentence": "Where they do help, they bring full remission of sins, or at least make the condemnation more tolerable.",
+                "why": "gives a quote record's words without placing it",
+                "draft": "Where they do help, they bring full remission of sins, or at least make the condemnation more tolerable [[lpc.witness.remembered-at-the-altar]]."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
