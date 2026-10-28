@@ -6,7 +6,7 @@ schema_version: 2
 status: ready
 register: emic
 canon_cells:
-- F3-I
+- F3-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
