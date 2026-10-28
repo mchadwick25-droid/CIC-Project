@@ -1653,13 +1653,13 @@ def _c(rid, rtype="term", score=0.5, cell="X-1", **extra):
     return {"id": rid, "record_type": rtype, "score": score, "cell": cell, **extra}
 
 
-def test_the_cap_reads_its_switch_once_and_defaults_to_ten():
+def test_the_cap_reads_its_switch_once_and_defaults_to_twelve():
     from engine.m4.evidence import _offer_cap_from_env
 
-    assert _offer_cap_from_env({}) == 10
+    assert _offer_cap_from_env({}) == 12
     assert _offer_cap_from_env({"CIC_OFFER_CAP": "7"}) == 7
     assert all(_offer_cap_from_env({"CIC_OFFER_CAP": v}) is None for v in ("0", "off", "OFF", "false", "no"))
-    assert _offer_cap_from_env({"CIC_OFFER_CAP": "garbage"}) == 10
+    assert _offer_cap_from_env({"CIC_OFFER_CAP": "garbage"}) == 12
 
 
 def test_the_cap_leaves_out_the_lowest_ranked_unprotected_records_and_keeps_order():

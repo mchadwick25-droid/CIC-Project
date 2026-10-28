@@ -7182,3 +7182,11 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 - #1259 (history cache mark dropped): a saving, about $0.0213 over a 10-turn session. The directive in the system block defeated the mark, so history was billed fresh every turn.
 
 **Open.** The guard-line trim was removed (it dropped distinct guards); that adds about 44 tokens a turn. The net-cost table is in the cap pull request.
+
+## 2026-10-28 - Change order: the offered-record cap is 12, not 10 (project lead)
+
+**Change order to the entry "Offered records are capped at 10 per turn, behind a switch".** Mark, 2026-10-28: "the cap is 12, but as cheap as possible to get good results." The default of `CIC_OFFER_CAP` is now 12; the switch and the protected set are unchanged, and the value lives in one place (`DEFAULT_OFFER_CAP`). Going lower than 12 is not shipped without Mark's word.
+
+**Evidence for a lower cap (offline, 111 recorded lpc turns from 27/28 Oct, 36 of them run 3).** No cap below about 25 keeps every record the voice cited. At 12, 28 cited records are dropped in 18 of the 111 turns (8 in 6 of the 36 run-3 turns); the protected set is never cut. The saving is about 416 tokens a turn at 12, 744 at 10 and 1,018 at 8. The numbers per cap are in the pull request.
+
+**Cost-free trims inside the cap.** None exists. Across run-3 single turns and the 98 canon questions there are no empty riders, no repeated line inside a record and no duplicate guards. Identical rider lines on a second record (about 9 to 10 tokens a turn) and `means` that restates the head (about 7 to 8) would remove record text, so they are not made.

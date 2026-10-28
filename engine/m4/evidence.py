@@ -1184,12 +1184,12 @@ def _split_extra_cells(cells: list[dict]) -> tuple[list[dict], list[dict]]:
 
 
 OFFER_CAP_ENV = "CIC_OFFER_CAP"
-DEFAULT_OFFER_CAP = 10
+DEFAULT_OFFER_CAP = 12
 
 
 def _offer_cap_from_env(environ=None) -> int | None:
     """The most records a turn offers, read once at startup from CIC_OFFER_CAP:
-    unset gives the default of 10; 0, off, false or no switches the cap off."""
+    unset gives the default of 12; 0, off, false or no switches the cap off."""
     raw = ((environ if environ is not None else os.environ).get(OFFER_CAP_ENV) or "").strip().lower()
     if raw in ("0", "off", "false", "no"):
         return None
