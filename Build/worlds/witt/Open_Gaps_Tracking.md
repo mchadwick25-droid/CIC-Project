@@ -2785,7 +2785,7 @@ Follows `Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md` (3
 
 **Quote records wanted from the new files (authored by Opus, per CLAUDE.md).** The Admonition to Peace and the Open Letter on the Hard Book for the Peasants' War; Formula Missae and the German Mass for the worship order Walter describes; the Christian schools letter and the common chest preface for the household and school register. Not started.
 
-**Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package `packages/witt/2026-10-27T21-08-58Z` is the current pin (the pin first named here, 19-23-58Z, was replaced by the OG-85 repin).
+**Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package The package pin is the one named in `records/worlds/witt.yaml`; the pin first named here was replaced by later repins.
 
 Status: OPEN.
 

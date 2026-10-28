@@ -95,7 +95,7 @@ The other thinness splits (Marburg, the 1580 book, "what we can tell you. We hol
 
 ### Runtime records (compile into the prompt, so they contradict the new core at turn time)
 
-The latest package, packages/witt/2026-10-27T21-36-52Z/compiled/prompt.txt, already carries the new core (lines 62 and 66) together with the old guard (line 13) and the old doctrinal witness (lines 755 and 757). That is a live contradiction.
+The latest package, the compiled prompt of the witt package pinned at the time, already carries the new core (lines 62 and 66) together with the old guard (line 13) and the old doctrinal witness (lines 755 and 757). That is a live contradiction.
 
 - records/witt/voice_craft/witt.voice.craft.md:37 (guard: "not ours to lay out" for both 1525 and 1543); also 107, 118 and 144-146 (rationale: "existence-only, Facilitator-carried")
 - records/witt/doctrinal_witness/witt.dw.what-we-have-never-settled.md:34, 43, 67-70 ("We do not have either text to quote from"), 75, 78, 85, 92
