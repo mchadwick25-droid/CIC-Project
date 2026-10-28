@@ -7106,3 +7106,11 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 
 **Open.** The live retest that judges relevance on real replies is Mark's to name, with a cap.
 
+## 2026-10-28 - The leaning-sentence and hollowed-reply rules are removed from the answering path (project lead's ruling)
+
+**Question.** Keep the two rules added in pull requests 1217 and 1219 around the net's removals: (b) cut sentences that lean on a removed one; (c) replace a reply that lost 40% or more of its cited sentences with the world's answer record?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: remove (b) and (c). Keep (a) the answer record shown word for word, (d) the single-mark quote rendering, and the offline quotation check (pull request 1223). Reason as given: the engine does not limit, soften or replace a world's views beyond what the grounding net itself withholds.
+
+**Done.** One revert pull request on `main` (not on live). The slice 5 promotion pull request (1233), which would have carried both rules to live, is closed unmerged by the coordinator and slice 5 is rebuilt from `main` after this merges. Detail: `lpc_Decision_Log.md`, same date.
+

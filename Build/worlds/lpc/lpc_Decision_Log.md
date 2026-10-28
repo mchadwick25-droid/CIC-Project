@@ -2888,3 +2888,14 @@ The project lead's words: "it still is answering as if it knows what happens in 
 ### 2026-10-28 — Live spend for the go-live runs, and what the runs showed (record)
 
 Named by the project lead, each under its own cap, per the engine's ledger: "lpc go-live" $2.16 of $5; "lpc go-live 2" $2.42 of $5; "lpc go-live 3" $2.79 of $4; "lpc go-live 4" $0.98 of $3. About $8.35 in all. Part of that bought nothing usable: two admission runs on the then-current pin stopped on connection errors at probe 17, and the evidence on pins that were replaced by the end-date and no-future rulings no longer counts. Result so far (OG-98): admission 28 of 28 on one earlier pin; validation Revise on the earlier pins (13 FAIL, 1 fabrication in run 3). One more run, on the current pin, is needed for `admitted`; it waits for the engine items and a name and cap from the project lead.
+
+### 2026-10-28 — The leaning-sentence and hollowed-reply rules are removed (project lead's ruling)
+
+Context: `apply_net` removes the sentences the grounding net withholds. Pull requests 1217 and 1219 added two rules around that removal: (b) a sentence that opens by pointing back ("That…", "Neither…", "But…") and cites nothing goes too when the cited sentence before it was removed; (c) a reply that lost 40% or more of the cited sentences it carried is replaced by the world's own answer record. Decision (project lead, 2026-10-28, from a choice between keeping and removing them): remove (b) and (c). The world's views are not limited or replaced by a rule of ours beyond what the grounding net itself withholds.
+
+Kept, as the project lead said: (a) the answer record shown word for word when a reply is emptied or loses every verified citation (`apply_net(answer_record=…)`, `_placed_answer_verdict`, the choice of record in `_answer_record_fallback`); (d) the single-mark rendering of a quote (`quotable_rendering`); the offline check of quotations in answer records (pull request 1223).
+
+Changed: `engine/m4/turn.py` (`_remove_with_leaning`, `_hollowed`, `HOLLOWED_*`, the `offered_only` mode and the hollowed branch of `settle_reply` go; `apply_net` removes exactly the sentences the net returns, as before); `engine/m4/grounding_net.py` (`leans_on_previous`, `cites_record`, `REASON_FOLLOWS_REMOVAL`); `engine/m4/quote_placement.py` and `story_placement.py` (the orphaned-sentence rule); the `sentence_stream.py` docstring (the one exception to "no streamed sentence is taken back" no longer exists, which closes OG-102). The replay counts return to their earlier values (56 cuts in the eleven-world replay, 18 in the retest replay). Tests: a sentence that leans on a removed one now stays, in the net and in both placements; a reply that lost two fifths or more of its cited sentences stands as the net left it and is not swapped for the record.
+
+No world record changed. No model call.
+
