@@ -2831,3 +2831,9 @@ Alternatives tried and rejected: scoring a statement with the canon denominator 
 ### 2026-10-27 — lpc to `built` again, by command (project lead)
 
 The project lead's words: "unblock it now my command". This reverses the change order above, which had returned lpc to `building`. Done: the 210 source records now carry `kind` (mechanical, `Build/tools/set_source_kind.py`: 64 vendored, 146 unvendored) and a `citation` line (Sonnet draft from each record's own author, work and edition fields, no build text). The remaining 67 library-access findings and the 64 `shelf-row` findings are waived in `engine/m9/enforce.py` with `approved_by: project lead`, taking the command as that approval, owned by OG-97, deadline 2026-12-14 (2027-03-15 for `shelf-row`, as for every other world). The eleven `registry-key-set` findings for `safety_adjacent` are waived in `engine/m1/cross_world.py`. lpc is added to the outside-help observation pin and the R41 probe set (no model run).
+
+---
+
+### 2026-10-28 — The go-live live test: admission passes, validation does not (project lead's named test)
+
+Named test "lpc go-live", cap $5, run on the project lead's word ("run it, cap $5, name it lpc go-live"). Spent $2.16. Admission 28 of 28. Validation Opus review: Revise (OG-98). lpc stays `built`; `admitted` is not proposed, because validation is not met. Alternatives for the next step: (1) fix the six record-side findings now and rerun only those probes, with the engine items waiting on the engine thread; (2) wait for the engine thread's retrieval fix, then rerun everything once; (3) ship as `built` and accept the findings. Not yet chosen.

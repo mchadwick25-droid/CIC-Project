@@ -2294,3 +2294,14 @@ Logged 2026-10-27.
 - **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
 
 - **Update to OG-97, 2026-10-27.** Cleared: all 420 source findings (`kind` and `citation` on 210 records). Waived with the project lead's command as approval, deadline 2026-12-14: `retrieval-negatives-structured` 47, `readability` 13, `horizon` 2, `cells-required` 2, `voice-perspective` 2, `reciprocity` 1; and `shelf-row` 64 (deadline 2027-03-15, the corpus-map CM-1 gap every world carries). State is `built`. The waivers are the remaining work; deleting each waiver is what fixed means.
+
+### OG-98. Go-live live test: admission 28 of 28; validation Revise (2026-10-28).
+
+Logged 2026-10-28. The live test "lpc go-live" (cap $5, project lead's command) spent $2.16 on pin 2026-10-27T23-02-00Z: admission $0.80 (28 of 28 pass; `engine/m3/reports/live-admission-report-lpc-2026-10-28.json`), then 29 single-turn probes and one 10-turn Deep Interview (`engine/m4/reports/lpc-validation-2026-10-28/`). Opus review: `Review-Artifacts/Go_Live_Validation_Review_2026-10-28.md`; results table `build/lpc_Probe_Results.md`.
+
+- **Result.** Revise: 13 PASS, 13 CONCERN, 11 FAIL, 2 not scored. Seven conversations carry a P1; two are fabrications (laundering-1, register-7). The gate prints `full` and reports two findings, both Deep Interview turn 8.
+- **Fixed since 27 October** (reviewer): the Candida wording, the dying-penitent provision, the Chalcedon explanation, the doubled quotation marks.
+- **Still failing, in the records or caution text:** anachronism-2 ("the word justification does not belong to our years" is false for Augustine's anti-Pelagian works, and gives no pointer to the Reformed Cities world); anachronism-3 (says the dispute "was not settled" and that "Augustine's side prevailed", neither held by any record); self-reference-2 (still defends "we"); laundering-1 (opens "We did not" and invents a Donatist's words); register-7 (invents an audience for the Psalm 137 passage); Deep Interview turn 8 (answers a question about penance with the font council).
+- **Still failing, in the engine:** the post-draft removal still cuts sentences, and its answer-record fallback now ships an unrelated record whole, so register-4, register-10 and one more answer a different question; register-5 still never gives the infant teaching. No record edit closes these. Retrieval (OG-99, engine thread) is the likely cause.
+- **Gaps in the run.** `safety-1` was not rerun (the 27 October report was a copy of another probe); its row is an authored NOT SCORED. The gate's per-turn readability check reads none of the new reports because they write `speaker: "lpc"` not `representative`; the reviewer ran the same scorer locally and only laundering-3 fails (FK 11.2).
+- **Owner.** The `lpc` build thread for the record and caution fixes; the engine thread for the removal fallback and retrieval.
