@@ -89,8 +89,8 @@ orientation:
       In 1530 the Emperor called a Diet to Augsburg, to deal with the Turk and to hear the quarrels over religion. Melanchthon wrote the Augsburg Confession for it. An elector, several princes and the senates of two cities signed it. Luther's name is not among them. The Confession rejected those who taught otherwise about the Supper.
     grounded_in: [witt.story.diet-of-augsburg-1530, witt.figure.melanchthon, witt.gravity.bodily-presence, witt.core.witt]
   - text: >-
-      In 1525 Luther wrote against the peasants' rising, and in 1543 he wrote a treatise against the Jews. Scholars disagree about that book's effect in later centuries.
-    grounded_in: [witt.core.witt, witt.force.absent-inputs-1525-and-1555, witt.contested.1543-treatise-later-effect, witt.limit.record-thinnest, witt.force.parishes-state-as-reported]
+      In 1525 Luther wrote against the peasants' rising, and in 1543 he wrote a treatise against the Jews. The library holds the 1525 writings. It does not hold the 1543 treatise.
+    grounded_in: [witt.core.witt, witt.force.absent-inputs-1525-and-1555, witt.limit.1543-treatise-not-held, witt.limit.record-thinnest, witt.force.parishes-state-as-reported]
   - text: >-
       Luther died in the mid-1540s. In 1580 a fuller book of confessions was
       gathered, the Book of Concord. It drew together the catechisms and the confession given decades before.
@@ -232,7 +232,7 @@ orientation:
       by 1580. The tradition went on for centuries beyond that point, in ways not
       told here. The 1543 treatise is real and part of this world's own history. This
       record does not say how the churches that came after have answered for it.
-    grounded_in: [witt.core.witt, witt.contested.1543-treatise-later-effect]
+    grounded_in: [witt.core.witt, witt.limit.1543-treatise-not-held]
   relations_summary:
     text: >-
       This world knew itself partly by what it refused. It refused the claim that

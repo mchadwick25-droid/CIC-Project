@@ -2849,7 +2849,31 @@ Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; s
 
 Status: OPEN.
 
-## OG-89. `witt.dw.how-the-promise-reached-us` quotation checked against the vendored text and its edition cited, 2026-10-28.
+## OG-89. The six 1525 quote records moved to canon cell F3-P, 2026-10-28.
+
+Follows the entry "Change order applied: witness wording reconciled across the Wittenberg records" (2026-10-27). Mark directed the move.
+
+- **Changed:** `canon_cells` on `witt.quote.the-sword-is-at-your-throats`, `you-too-must-have-a-care` and `your-own-judges` from F3-I to F3-P; on `as-when-one-must-kill-a-mad-dog`, `the-time-of-the-sword` and `neither-court-nor-mercy` from F3-I to F3-P, with F6-I kept. No quote text, rendering or note changed.
+- **Effect on the demonstration:** `witt.demo.what-he-wrote-in-1525` sits in F3-P, so its quoted sentences now tag to their own quote records in the compiled prompt. Checked in the compiled prompt of the new package: the princes lines tag to `the-sword-is-at-your-throats`, the peasants lines to `you-too-must-have-a-care` and `your-own-judges`, the harder tract to `as-when-one-must-kill-a-mad-dog` and `the-time-of-the-sword`, and the open letter to `neither-court-nor-mercy`. The witness's own framing sentences carry no tag.
+- **Not measured:** how the six quotes now rank against questions in cell F3-I or elsewhere in the fleet; no re-measure was run.
+- **Still open from OG-88:** the 1543 contested claim record; the six quotes and the demonstration remain provisional; the build-document edits on branch `claude/witt-build-docs`.
+
+Status: OPEN.
+
+## OG-90. The 1543 contested claim replaced by an honest limit, 2026-10-28.
+
+Follows the entries OG-88 and OG-89 (2026-10-27, 2026-10-28). Mark directed the replacement after the final read found that `witt.contested.1543-treatise-later-effect` rests only on outside sources (a Kaufmann reading seen through Wikipedia, Wallmann, the Wikipedia article), which breaks the ruling that the world uses only its own sources.
+
+- **New:** `witt.limit.1543-treatise-not-held`, an honest limit. The witness says the treatise exists, is part of our history, is not held, and that it cannot say what it argued or quote it. The wording is the Opus-authored statement from the final read.
+- **Retired:** `witt.contested.1543-treatise-later-effect` moved to `Archive/Superseded-Records/witt/contested_claim/`. Its references were swapped in `witt.force.absent-inputs-1525-and-1555`, `witt.core.witt` and the grounding lines of the world front and facilitator brief drafts.
+- **Surface drafts rewritten to match** (hand-authored, status draft): the world front sentence on 1525 and 1543; in the facilitator brief, the limits unit, the academic-fit unit (five contested records became four) and the 1525 and 1543 unit.
+- **Left as it was:** `witt.source.wikipedia-on-the-jews-and-their-lies`. Nothing voiced or shown cites it now; its `edition`, body and `discovery_channel` text are stale. Historical mentions in audits, the build log, the grounding report and earlier entries stay.
+- **Confidence on the new record:** Documented, load-bearing, for a boundary fact, following `witt.limit.no-outsider-witness`; there is no sibling for a pure named absence. It cites `witt.core.witt` (an emic record may not cite an unvendored source). Status provisional until a final read. Mark may rule otherwise.
+- **Not done:** the cell and routing for questions about the Jews and 1543 were not measured; `canon_cells` is empty, as on the retired record.
+
+Status: OPEN.
+
+## OG-91. `witt.dw.how-the-promise-reached-us` quotation checked against the vendored text and its edition cited, 2026-10-28.
 
 Closes OG-85 (the second one, 2026-10-27, on this record). The sentence "I did nothing; the Word did it all" is in the vendored Luther selections, vol. 2, word for word: `cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt` line 14931, in the Eight Wittenberg Sermons. The record's `text` was already exact; its source list did not name that edition. The body's `Sources:` line now cites the file and line, so the witness-quotation gate finds it. No wording changed and no quotation was added.
 
