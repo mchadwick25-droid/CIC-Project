@@ -7140,4 +7140,6 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 
 **Waits.** The run does not start until the engine upgrades are in: the quote setting field with the retrieval-hint gate, the follow-up carry-over fix (both with Opus review), and the prompt-caching check. It starts on the project-management thread's "go" with the commit to run against.
 
+**Comparison.** Mark, as relayed by the project-management thread: "use the last full run as a comparison" and "nothing before the last improvements, no old data that is no longer relevant." lpc is compared with run 3 only (24 PASS, 13 FAIL, 3 NOT SCORED of 40 rows; run 4 is partial, 25 of 28 answers). The other eleven worlds have no graded run on current code, so this run is their baseline. Older fleet data is left out on purpose.
+
 **Open.** The run, its report files under `engine/m3/reports/`, and the fleet summary follow after "go".
