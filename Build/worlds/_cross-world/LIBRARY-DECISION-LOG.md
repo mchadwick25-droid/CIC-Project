@@ -1025,3 +1025,15 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 **Finding.** Books VIII-XIV (Ewald-Hartmann 1893 and 1895) are vendored. Books I-VII are Monumenta Germaniae Historica, Epistolae I (1891). The only online copy found is the Bavarian State Library item bsb00000535: page images with no text layer, and its license field reads CC BY-NC-SA 4.0. That bars commercial use, so nothing from it enters the Library. The dMGH site offers no text download. archive.org holds no copy of Books I-VII.
 
 **Standing.** Books I-VII stay unobtained. The Turchi 1907 selection and the NPNF English selections remain the route for the four letters naming the Donatists. The Don world's Register row (32) still reads "not yet obtained" and is the Don thread's to update to say Books VIII-XIV are now held. A reuse-terms email to the Bavarian State Library or dMGH, or a different scan, would reopen this.
+
+## 2026-10-28 — Last unclassified wants: Library checks
+
+**Ruling.** Mark, 2026-10-28, chose Library checks and world re-pointing for the 15 wants the generator cannot classify from their records' own words (three further LPC rows now classify; see the generator tests).
+
+**Held already; the Cappadocian records need re-pointing, not an acquisition.** Nicaea (325) subscription lists: Cuntz 1898. Eunomius, the confession of 383: Mansi tomus 3. Gregory of Nyssa, Ad Graecos ex communibus notionibus: Migne PG 45. Nyssa homilies on the Song of Songs, Ecclesiastes and the Beatitudes: Migne PG 44. All four were vendored 2026-10-27 (see the entries above). Their records still say "not located". The Cappadocian thread owns the edit.
+
+**Checked, no public-domain text found.**
+- Dentiere, Epistre tres utile (1539): no Gallica or archive.org scan turned up in a web search. The usable modern edition is McKinley's 2004 University of Chicago Press translation, in copyright. An English excerpt is online at World History Encyclopedia, which is not a vendorable edition. A Gallica or BnF catalogue search by a person with access is the next step.
+- Luther, That Jesus Christ Was Born a Jew (1523): the Weimar Ausgabe, vol. 11, would be the public-domain text (page numbers cited as 314-336, unconfirmed). No scan located. Folger and Emory hold digitized 1523 printings. The Morgenstern edition is in copyright.
+
+**Not examined this pass.** Beza's letters and the Tabula praedestinationis, Karlstadt (Zorzin's essay is a modern edition note), Luther's De votis monasticis and the 1522 New Testament, Epiphanius on Eustathius, Basil's Small Asketikon. The Cambridge History of Christianity is a modern reference work and stays consult-only. Gregory the Great's Register is recorded in the entry above.
