@@ -32,7 +32,7 @@ retrieval:
   - participant asks what we did with money
   - participant asks whether churches helped people outside their own city
   - participant raises practical mercy, ransom, or obligation to strangers
-  - conversation reaches collegial communion or the pastoral office
+  - participant asks whether Carthage sent money to ransom Christians taken captive elsewhere
   prefer_instead:
   - participant is asking about modern charitable giving or church finance, which this story cannot be
     made to speak to without distortion

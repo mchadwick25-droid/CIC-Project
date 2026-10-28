@@ -37,8 +37,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks whether Constantine corrupted the church, or what we ourselves said about him
-  - conversation reaches lpc.limit.the-outsiders-own-view and needs the Constantine sub-question of the four,
-    which our own record answers
+  - participant asks what Augustine said about the emperor Constantine
   prefer_instead:
   - participant wants an outsider's own strangeness-perception of us, or whether we hid in catacombs --
     those remain genuine absences this record does not touch

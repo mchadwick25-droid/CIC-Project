@@ -55,7 +55,7 @@ retrieval:
   retrieve_when:
   - participant asks what schism meant, or how it differs from heresy
   - participant asks about division in the early church
-  - conversation reaches the Donatists or the Novatianists
+  - participant asks what it meant when a rival bishop and altar were set up in the same town
   prefer_instead:
   - the participant is asking about the validity of sacraments performed outside the church rather than
     about division itself -- ask about heresy instead

@@ -57,7 +57,7 @@ retrieval:
   retrieve_when:
   - participant asks what happened to Christians who gave in under persecution
   - participant asks about apostasy, backsliding, or whether a serious failure can be forgiven
-  - conversation reaches the Decian persecution or the certificates
+  - participant asks who the lapsed were after the persecution under Decius
   prefer_instead:
   - the participant is asking about heresy or schism -- leaving the church by conviction -- rather than
     about failing it under compulsion
