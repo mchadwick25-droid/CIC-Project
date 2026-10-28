@@ -27,7 +27,7 @@ relations:
 - type: associated-with
   target: witt.gravity.two-governments
 - type: associated-with
-  target: witt.contested.1543-treatise-later-effect
+  target: witt.limit.1543-treatise-not-held
 - type: associated-with
   target: witt.quote.the-sword-is-at-your-throats
 - type: associated-with

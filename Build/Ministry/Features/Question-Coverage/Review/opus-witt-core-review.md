@@ -105,7 +105,7 @@ The latest package, the compiled prompt of the witt package pinned at the time, 
 - records/witt/force/witt.force.popular-insurrectionary-force.md:16, 23-25, 45-60, 69 ("not independently vendored anywhere in this library")
 - records/witt/force/witt.force.absent-inputs-1525-and-1555.md:22-25, 42-46, the description's last sentence ("the Representative never speaks it as its own content"), and 58
 - records/witt/gravity/witt.gravity.two-governments.md:100, 130, 153 ("outside every text in this library")
-- records/witt/contested_claim/witt.contested.1543-treatise-later-effect.md, the concedes field ("content and downstream effect alike are Facilitator-carried disclosure, never Representative-voiced argument")
+- Archive/Superseded-Records/witt/contested_claim/witt.contested.1543-treatise-later-effect.md, the concedes field ("content and downstream effect alike are Facilitator-carried disclosure, never Representative-voiced argument")
 - records/witt/story/witt.story.return-and-the-eight-sermons.md:34 ("untellable episode"; borderline)
 - records/witt/story/witt.story.brussels-martyrs.md:37 (scope only; probably fine)
 
