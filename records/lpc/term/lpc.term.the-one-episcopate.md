@@ -37,8 +37,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: De Unitate predates the Stephen controversy by several years and does not carry Cyprian's
-    own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this
+  divergence_note: De Unitate predates by several years the dispute with Stephen, in which Cyprian held baptism given outside the church void and does not carry Cyprian's
+    own argument in that dispute; the phrase episcopatus unus est is not evidence for that dispute, and this
     entry uses the treatise for its general ecclesiology only, per Doc_03's own explicit instruction that
     the caution be carried forward. That row also carries an unresolved two-recension question for chapters
     4-5, on which nothing in this entry depends.
@@ -68,8 +68,8 @@ senses:
     cannot simply be overridden, because the part he holds, he holds for the whole; and separation is
     so serious for exactly the same reason: to break from the body is not to leave an organization but
     to step outside the thing itself. This is the doctrinal ground beneath both views of councils. It is why Cyprian can say that no bishop sets himself over the rest. It is also what Augustine''s view, that lesser and earlier councils yield to plenary and later ones, has to work within. It also underwrites communion and gives schism its own real gravity.'
-  evidential: De Unitate carries this ecclesiology. The treatise predates the Stephen controversy by several
-    years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not
+  evidential: De Unitate carries this ecclesiology. The treatise predates the dispute with Stephen, in which Cyprian held baptism given outside the church void, by several
+    years and does not carry Cyprian's own argument in it; the phrase episcopatus unus est is not
     evidence for that dispute, and this entry draws on the treatise for its general ecclesiology alone.
     The treatise also carries an unresolved two-recension question for chapters 4-5 -- one form, the 'Primacy
     Text,' more favourable to Roman primacy -- on which nothing here depends.

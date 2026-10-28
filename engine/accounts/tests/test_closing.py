@@ -1,5 +1,6 @@
 """Deleting an account closes it for 90 days. Everything stays, the owner can re-open it by signing in,
 and on the last day it is erased for good. A restored file never re-opens a closed account."""
+import re
 from datetime import timedelta
 
 import pytest
@@ -288,7 +289,8 @@ def test_the_outside_mark_holds_only_a_hash_and_a_day(marked, mailer, clock, out
     marked.close_account(session)
     (hash_, day), = outside.marks.items()
     assert hash_ == ledger_hash(session.account_id) and day.count("-") == 2
-    assert ADDR.split("@")[0] not in hash_ + day
+    assert re.fullmatch(r"[0-9a-f]+", hash_) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", day)
+    assert ADDR not in hash_ + day and "@" not in hash_ + day
 
 
 def test_a_file_restored_from_before_the_closing_is_closed_again_by_the_outside_mark(marked, mailer, clock, store, outside):
