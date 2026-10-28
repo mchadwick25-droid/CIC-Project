@@ -2359,3 +2359,11 @@ Logged 2026-10-28.
 - **Done.** All 27 `retrieve_when` lines the hint gate named are rewritten, with the quote narrowing from the engine audit; see `lpc_Decision_Log.md`, 2026-10-28, "Retrieval hints rewritten as questions". Pin `packages/lpc/2026-10-28T17-58-42Z`.
 - **Still open.** The quotes' `setting` field, once the engine thread's field is on `main`; the check of why `lpc.quote.the-case-set-before-the-bishop` was not offered for the confessors' grant question (offered_sets); the missing records A1 to A10 of the engine audit's worklist, unless the project lead rules otherwise.
 - **Owner.** This thread for the records; the engine thread for the field and the offered-sets check.
+
+### OG-110. A quote not_for list over the schema limit reached main (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** The two lists are back within the limit; see `lpc_Decision_Log.md`, 2026-10-28, "Two quote not_for lists brought back under the schema limit". Pin `packages/lpc/2026-10-28T18-53-09Z`.
+- **Lesson.** Run `engine.m9.enforce.hygiene_problems` after any not_for edit, before the push. The retrieval-hint merge went in while CI was still running.
+- **Owner.** This thread; closed on merge.
