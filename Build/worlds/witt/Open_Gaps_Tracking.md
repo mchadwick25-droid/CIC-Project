@@ -2848,3 +2848,14 @@ Follows the entries OG-86 and OG-87 and the rulings logged in `Build/Ministry/Fe
 Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; see OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). The record's `text` has "I did nothing; the Word did it all". The files the record's sources cite do not hold those words in that form. The record is at `verified-direct`. Not edited by the thread that found it. The world's owner checks the line against the vendored Luther text, then fixes the quotation or cites its edition.
 
 Status: OPEN.
+
+## OG-89. The six 1525 quote records moved to canon cell F3-P, 2026-10-28.
+
+Follows the entry "Change order applied: witness wording reconciled across the Wittenberg records" (2026-10-27). Mark directed the move.
+
+- **Changed:** `canon_cells` on `witt.quote.the-sword-is-at-your-throats`, `you-too-must-have-a-care` and `your-own-judges` from F3-I to F3-P; on `as-when-one-must-kill-a-mad-dog`, `the-time-of-the-sword` and `neither-court-nor-mercy` from F3-I to F3-P, with F6-I kept. No quote text, rendering or note changed.
+- **Effect on the demonstration:** `witt.demo.what-he-wrote-in-1525` sits in F3-P, so its quoted sentences now tag to their own quote records in the compiled prompt. Checked in the compiled prompt of the new package: the princes lines tag to `the-sword-is-at-your-throats`, the peasants lines to `you-too-must-have-a-care` and `your-own-judges`, the harder tract to `as-when-one-must-kill-a-mad-dog` and `the-time-of-the-sword`, and the open letter to `neither-court-nor-mercy`. The witness's own framing sentences carry no tag.
+- **Not measured:** how the six quotes now rank against questions in cell F3-I or elsewhere in the fleet; no re-measure was run.
+- **Still open from OG-88:** the 1543 contested claim record; the six quotes and the demonstration remain provisional; the build-document edits on branch `claude/witt-build-docs`.
+
+Status: OPEN.
