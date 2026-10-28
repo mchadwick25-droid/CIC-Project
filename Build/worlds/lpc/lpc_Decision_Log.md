@@ -2831,3 +2831,28 @@ Alternatives tried and rejected: scoring a statement with the canon denominator 
 ### 2026-10-27 — lpc to `built` again, by command (project lead)
 
 The project lead's words: "unblock it now my command". This reverses the change order above, which had returned lpc to `building`. Done: the 210 source records now carry `kind` (mechanical, `Build/tools/set_source_kind.py`: 64 vendored, 146 unvendored) and a `citation` line (Sonnet draft from each record's own author, work and edition fields, no build text). The remaining 67 library-access findings and the 64 `shelf-row` findings are waived in `engine/m9/enforce.py` with `approved_by: project lead`, taking the command as that approval, owned by OG-97, deadline 2026-12-14 (2027-03-15 for `shelf-row`, as for every other world). The eleven `registry-key-set` findings for `safety_adjacent` are waived in `engine/m1/cross_world.py`. lpc is added to the outside-help observation pin and the R41 probe set (no model run).
+
+### 2026-10-28 — A distinctive word of the question that a record's hints name adds that record's cell (engine thread's choice, under the project lead's ruling: option B, generalized: no list, no guard)
+
+The fault, reproduced offline from the saved traces and again after the revert of the cell-scoring change: for "What did Augustine teach about suicide in the City of God?" the matcher reaches C-I and F5-I on common words ("augustine", "god", "city", "teach"), and the cell that holds `lpc.witness.no-one-may-take-his-own-life`, whose hint reads "participant asks what Augustine taught about suicide", comes third. Only two cells go on to record selection, so the witness and its paired quote are never offered.
+
+Chosen, in `engine/m4/evidence.py` only: after the matched cells, one more cell may ride along. A word of the question that is at least five letters, is not one of the fleet's canon words (`cell_keywords`), and is named in the `retrieve_when` hints of at most two records adds the cell of the first such record not already matched. Like entity routing it adds a slot and competes for none: no matched cell and no offered record is removed or reordered, the sealed canon and the canon questions are not read differently, and no topic is singled out; the question's own word decides, for every topic in every world. The added cell is marked `from_hint_word` and, like an entity match, does not count as Stage A having found a cell, so the whole-text fallback still runs for a question that reached nothing else.
+
+The project lead's ruling (2026-10-27 and 2026-10-28), recorded as given: option B is the approach (one extra cell, add-only, cell only); the engine does not distinguish any topic from the others, so no topic list and no first-person guard are built; the Facilitator is unchanged; the only measure is that the answer is trustworthy in its context and a true witness to the world. Alternatives shown in the Artifact: reword one lpc record; a word list; any rare word with no list; change nothing. Chosen: the rare-word rule, tightened as below.
+
+Instruments, offline, no model call (`engine/m4/reports/offered_sets.py run` on the base and on the branch, then `compare`; add-only is the pass condition, a removed record exits non-zero):
+
+| set | pairs | pairs that changed | records removed |
+|---|---|---|---|
+| 16 sample questions × 13 packages | 208 | 21 | 0 |
+| the 98 canon questions × 13 packages | 1274 | 0 | 0 |
+| the 108 recorded drafts of 13 and 14 October | 108 | 9 | 0 |
+
+Recall of the world's own answer (tests in `engine/m4/tests/test_evidence.py`): the lpc Augustine question now reaches F6-T and offers the witness; "What did your people say about someone who killed themselves?" reaches F6-T in lpc and don, and don offers `don.limit.fate-of-those-who-end-their-own-lives`. Eight questions from the lpc validation and the review keep every cell they had and gain at most one.
+
+What the extra cell costs, shown so a reviewer can judge it: it also fires on ordinary words that one or two hints name. In the 21 changed sample pairs it adds 1 to 7 records each (72 in all), among them family and grief questions (for example lpc "I lost my mother and I cannot stop crying…" gains C-P and one record; cappadocian gains C-P and seven where it reached no cell before). On the recorded drafts the nine changed turns are the generic prompts "Tell me about someone who lived this out." and "What would you want me to understand that I haven't asked?", which reached no or one cell before. The grounding net still checks every sentence against the whole repository, so a wider ground changes what is offered and not what may be said; whether the extra records keep a reply on the question is not something counts can show and is for the live retest the project lead names.
+
+Corrections to earlier entries: the 17 records the first trial of this rule seemed to lose were not an evidence-budget effect. The extra cell stopped the whole-text fallback from running; marking it a weak match, as entity matches are, removed the loss. An earlier trial that scored each hint line alone and required two shared words did not fix the Augustine question and added as much.
+
+No world record changed. Held to a live retest, which is the project lead's to name.
+

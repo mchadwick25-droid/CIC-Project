@@ -2294,3 +2294,13 @@ Logged 2026-10-27.
 - **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
 
 - **Update to OG-97, 2026-10-27.** Cleared: all 420 source findings (`kind` and `citation` on 210 records). Waived with the project lead's command as approval, deadline 2026-12-14: `retrieval-negatives-structured` 47, `readability` 13, `horizon` 2, `cells-required` 2, `voice-perspective` 2, `reciprocity` 1; and `shelf-row` 64 (deadline 2027-03-15, the corpus-map CM-1 gap every world carries). State is `built`. The waivers are the remaining work; deleting each waiver is what fixed means.
+
+### OG-105. The hint-word cell fires on ordinary words too; relevance is unmeasured (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Gap.** `evidence._add_hint_word_cell` adds a cell for any word of five letters or more that is not a canon word and is named by the hints of one or two records. It fixes the Augustine question and also fires on words such as "lived", "mother" and "father". Nothing offered is removed (0 of 1590 question-world pairs lose a record), but the added records may not answer the question. Counts cannot say; reading live replies can.
+- **Supersedes.** The "Done" line of OG-104 (a cell scoring as its best hint statement) describes a change that was reverted on `main` on 2026-10-27; the rule above is what stands.
+- **Not changed.** The word-length and record-count limits are judgments, set so the Augustine and "killed themselves" questions are covered; they are in `evidence._HINT_WORD_MIN_LETTERS` and `_HINT_WORD_MAX_RECORDS`.
+- **Owner.** The project lead, for the live retest and its cap.
+

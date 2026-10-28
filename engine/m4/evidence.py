@@ -561,7 +561,7 @@ def match_asks_to_cells(
     canon_words = cell_keywords(canon_questions)
     matches = _rank(canon_words)
     if len(matches) >= top_n:
-        return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+        return _add_extra_cells(matches[:top_n], query_words, repository_records, canon_words)
 
     # Hints widen cells the fleet already defines; they never invent a
     # cell, so a stale canon_cells value on a record can't create one.
@@ -573,7 +573,7 @@ def match_asks_to_cells(
     if hinted:
         matches = _fill(matches, hinted, from_retrieval_hint=True)
         if len(matches) >= top_n:
-            return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+            return _add_extra_cells(matches[:top_n], query_words, repository_records, canon_words)
 
     # Everything above compares words literally. This tier runs only when
     # that left slots unfilled, so an honest literal match is never
@@ -632,7 +632,7 @@ def match_asks_to_cells(
                     matches.append({**match, "cell": cell, "matched_by": "question-word"})
             matches = matches[:top_n]
 
-    return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+    return _add_extra_cells(matches[:top_n], query_words, repository_records, canon_words)
 
 
 _QUESTION_WORDS = frozenset({"who", "what", "why", "how", "when", "where", "which"})
@@ -691,6 +691,57 @@ def _add_entity_cell(matches, query_words, repository_records, canon_words):
             added += 1
             matches.append({"cell": cell, "score": None, "shared_words": [name], "from_entity": name})
     return matches
+
+
+# A distinctive word the question shares with a record's own hints. The
+# matcher scores a cell by its vocabulary, and a question's common words
+# ("augustine", "god", "city", "teach") can outweigh the one word that names
+# what was asked: for "What did Augustine teach about suicide in the City of
+# God?" the cell holding the suicide witness, whose hint reads "what Augustine
+# taught about suicide", came third and the witness was never offered.
+#
+# Like entity routing, THIS ADDS A SLOT AND COMPETES FOR NONE: every cell the
+# tiers above found survives untouched, so nothing offered before is ever
+# taken away, and no topic is singled out - the question's own word decides.
+# The word must be long enough to name something, absent from the fleet's
+# canon vocabulary (those words already route through the canon), and named
+# by the hints of at most _HINT_WORD_MAX_RECORDS records, so a word the whole
+# world uses decides nothing.
+_HINT_WORD_MIN_LETTERS = 5
+_HINT_WORD_MAX_RECORDS = 2
+_HINT_WORD_EXTRA_CELLS = 1
+
+
+def _add_hint_word_cell(matches, query_words, repository_records, canon_words):
+    if not repository_records or not canon_words:
+        return matches
+    canon_vocabulary = set().union(*canon_words.values())
+    candidates = {w for w in query_words if len(w) >= _HINT_WORD_MIN_LETTERS and w not in canon_vocabulary}
+    if not candidates:
+        return matches
+    named_by: dict[str, list[dict]] = {}
+    for rid in sorted(repository_records):
+        record = repository_records[rid]
+        hint_words = set().union(*(content_words(h) for h in (record.get("retrieval") or {}).get("retrieve_when") or []))
+        for word in candidates & hint_words:
+            named_by.setdefault(word, []).append(record)
+    already = {m["cell"] for m in matches}
+    for word in sorted(named_by):
+        records = named_by[word]
+        if len(records) > _HINT_WORD_MAX_RECORDS:
+            continue
+        for record in records:
+            for cell in record.get("canon_cells") or []:
+                if cell in canon_words and cell not in already:
+                    return matches + [{"cell": cell, "score": None, "shared_words": [word], "from_hint_word": word}]
+    return matches
+
+
+def _add_extra_cells(matches, query_words, repository_records, canon_words):
+    """The slots added on top of the matched cells, in order: a cell named by
+    a distinctive word of the question, then a cell a named figure belongs to."""
+    matches = _add_hint_word_cell(matches, query_words, repository_records, canon_words)
+    return _add_entity_cell(matches, query_words, repository_records, canon_words)
 
 
 def _source_key(record: dict) -> str:
@@ -1167,7 +1218,10 @@ def assemble_evidence(
     # knows "Who is Jesus?" asks who, not which of the world's records hold
     # the answer, and a world whose coverage of those cells is empty still
     # needs the fallback.
-    if not [m for m in cell_matches if not m.get("from_entity") and m.get("matched_by") != "question-word"]:
+    # A cell added for a distinctive word of the question is as weak: it knows
+    # one word names a record's hint, not that the cell answers the question,
+    # and the fallback that carried an unmatched question must still run.
+    if not [m for m in cell_matches if not m.get("from_entity") and not m.get("from_hint_word") and m.get("matched_by") != "question-word"]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue
