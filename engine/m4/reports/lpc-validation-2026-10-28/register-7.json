@@ -1,0 +1,398 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.027629
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2259,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2097,
+      "output_tokens": 184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3146,
+      "output_tokens": 165,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did Augustine say about Psalm 137, dashing the little ones against the rock?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Babylon, to him, meant confusion and the disorder of this world. The little ones are not children: they are the first stirrings of wrong desire, while they are still small. The Rock is Christ, and to dash them there means to bring those desires to him and crush them before they take hold. He preached this to his own congregation, and the psalm became a working picture for the life we actually live.",
+          "citations": [
+            {
+              "sentence": "He preached this to his own congregation, and the psalm became a working picture for the life we actually live.",
+              "record_ids": [
+                "lpc.term.preaching"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.preaching",
+                  "record_type": "term",
+                  "label": "preaching",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Tractates on John, exegetical preaching",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.punishment-without-end",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.preaching",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.numidicus",
+              "lpc.story.the-psalms-on-the-wall"
+            ],
+            "quote": [
+              "lpc.quote.dash-the-little-ones-against-the-rock",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+              "lpc.quote.the-wretched-woman-and-mercy"
+            ],
+            "force": [
+              "lpc.force.inherited-latin-theological-vocabulary",
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Babylon, to him, meant confusion and the disorder of this world.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Babylon, to him, meant confusion and the disorder of this world."
+              },
+              {
+                "sentence": "The little ones are not children: they are the first stirrings of wrong desire, while they are still small.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The little ones are not children: they are the first stirrings of wrong desire, while they are still small."
+              },
+              {
+                "sentence": "The Rock is Christ, and to dash them there means to bring those desires to him and crush them before they take hold.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['rock']) with no citation tag",
+                "draft": "The Rock is Christ, and to dash them there means to bring those desires to him and crush them before they take hold."
+              },
+              {
+                "sentence": "He preached this to his own congregation, and the psalm became a working picture for the life we actually live.",
+                "tags": [
+                  "lpc.term.preaching"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He preached this to his own congregation, and the psalm became a working picture for the life we actually live [[lpc.term.preaching]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 4,
+                "cited_record_ids": [
+                  "lpc.term.preaching"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Babylon, to him, meant confusion and the disorder of this world.",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "1": {
+                    "sentence": "The little ones are not children: they are the first stirrings of wrong desire, while they are still small.",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "2": {
+                    "sentence": "The Rock is Christ, and to dash them there means to bring those desires to him and crush them before they take hold.",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['rock']) only 11% grounded in its own tags",
+                    "ratio": 0.11
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "Augustine said the little ones of Babylon are the beginnings of bad desires, and we must dash them against the Rock, who is Christ.",
+                  "why": "tagged to a quote record that has not been placed",
+                  "draft": "Augustine said the little ones of Babylon are the beginnings of bad desires, and we must dash them against the Rock, who is Christ [[lpc.quote.dash-the-little-ones-against-the-rock]]."
+                },
+                {
+                  "sentence": "Catch them early, he taught, before they grow strong enough to master you.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "Catch them early, he taught, before they grow strong enough to master you."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 64
+              },
+              {
+                "index": 1,
+                "text_start": 65,
+                "text_end": 172
+              },
+              {
+                "index": 2,
+                "text_start": 173,
+                "text_end": 289
+              },
+              {
+                "index": 3,
+                "text_start": 290,
+                "text_end": 401
+              }
+            ],
+            "elements": [],
+            "references": [
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                2
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "Augustine said the little ones of Babylon are the beginnings of bad desires, and we must dash them against the Rock, who is Christ.",
+                "why": "tagged to a quote record that has not been placed",
+                "draft": "Augustine said the little ones of Babylon are the beginnings of bad desires, and we must dash them against the Rock, who is Christ [[lpc.quote.dash-the-little-ones-against-the-rock]]."
+              },
+              {
+                "sentence": "Catch them early, he taught, before they grow strong enough to master you.",
+                "why": "words attributed without a placed quote",
+                "draft": "Catch them early, he taught, before they grow strong enough to master you."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

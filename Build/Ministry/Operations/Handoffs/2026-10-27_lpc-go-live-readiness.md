@@ -55,3 +55,9 @@ Check whether the engine thread's fix to F4/F5 has merged. Then, when budget all
 ## 6. Spend
 
 Allowance share used: moderate to heavy (five Opus subagent runs, one at a time). Metered: none this session. The earlier live test "lpc full validation, 27 October" spent $2.21 of its $6 cap; no further spend is approved.
+
+## Update, 2026-10-28
+
+- The live test "lpc go-live" ran (cap $5, spent $2.16): admission 28 of 28; validation Revise (OG-98, `Review-Artifacts/Go_Live_Validation_Review_2026-10-28.md`).
+- On the project lead's ruling, cautions 13, 14 and 16 were fixed at the source and the pointer to other worlds was removed. New pin `packages/lpc/2026-10-28T02-55-50Z`. No rerun and no review of the change, by instruction.
+- State is `built`, not `admitted`: `validation lpc` needs results on the current pin. The next evidence step waits for the retrieval fix (OG-99), then one rerun of everything under a named test and cap.
