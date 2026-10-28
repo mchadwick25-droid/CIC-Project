@@ -202,7 +202,8 @@ class LiveModelAnswerer:
         # receive from the same draft.
         text, citation_entries, _net_result = apply_net(
             stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics,
-            quotable_texts=[probe_text], placement=PlacementContext.for_evidence(
+            quotable_texts=[probe_text], window_end=(self.world.frame.get("time_window") or {}).get("end"),
+            placement=PlacementContext.for_evidence(
                 turn_evidence["candidates"],
                 offered_stories=frozenset(c["id"] for c in turn_evidence["candidates"] if c.get("placeable")),
             ),

@@ -2332,3 +2332,14 @@ Logged 2026-10-28.
 - **Still open.** OG-101 (the answer record skips the net's claim checks), OG-103 (admission never calls `settle_reply`), and the rest of OG-100 (register-4, register-5, F17, F23).
 - **Owner.** An engine thread, for OG-101 and OG-103.
 
+
+
+### OG-107. Run 3 engine items E2, E3, E5, E6: what is built and what stays open (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Built (general rules, no model call).** A story's `absent_detail` and a quote's `not_for` reach the draft as riders on their evidence lines; a sentence naming something after the world's window that no cited record names is removed; the validation gate reads `voice_event.speaker` as the world's key. Detail and measurements: `lpc_Decision_Log.md`, 2026-10-28.
+- **Not built, by decision.** A hold-and-redraft on a withhold verdict (a second model call); deleting uncited specific claims (10% of shipped sentences, one wrong); an offline match of `absent_detail` or `not_for` against sentences (not decidable by word overlap).
+- **Still open, record side (this world's thread).** `lpc.story.numidicus` needs a not_for on lapsing and a narrower `retrieve_when` (register-2); `lpc.contested.de-unitate-recensions` and `lpc.term.the-one-episcopate` need Cyprian's side of the Stephen dispute stated (scholarly-2: the net saw no checkable claim, so the record is the only guard); `lpc.quote.reprove-and-forgive-the-surgeons-knife` needs a narrower `retrieve_when` (register-1), and `lpc.quote.bind-him-justly` placement (Deep Interview turn 3) the same.
+- **Still open, engine.** E1, cautions 14 and 15, repeated sentences and the paragraph measure are other threads'. The live retest of anachronism-1 on pin `2026-10-28T04-22-32Z` or later, and of the riders' effect on register-1, register-2, register-9 and scholarly-2, needs a capped live test the project lead names.
+- **Owner.** The lpc world thread for the records; the project lead for the live test.

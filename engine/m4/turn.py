@@ -48,7 +48,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
-from engine.m4.output_check import check_horizon
+from engine.m4.output_check import REASON_HORIZON, check_horizon, ungrounded_horizon_mentions
 from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
@@ -315,7 +315,7 @@ def _draft_is_final_text(
 def apply_net(
     raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None,
     quotable_texts: list[str] | None = None, placement: PlacementContext | None = None,
-    answer_record: str | None = None,
+    answer_record: str | None = None, window_end: int | None = None,
 ) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
@@ -342,6 +342,11 @@ def apply_net(
     removed, carries "draft": the sentence as the voice wrote it, tags and
     quote marker included. Only ok-verdict sentences' tags become
     citations.
+
+    window_end is the world's window close: a sentence that names something
+    after it, which none of the records the sentence cites names too, is
+    removed and the rest checked again, like a quotation reason above. None
+    removes nothing.
 
     answer_record names a doctrinal witness whose text `raw_text` is, each
     sentence tagged with it (_record_reply): its sentences are placed by
@@ -387,6 +392,13 @@ def apply_net(
             entry for entry in net_result["sentences"]
             if entry["verdict"] == "withhold" and entry["why"] in grounding_net.QUOTATION_DROP_REASONS
         ]
+        for entry in net_result["sentences"]:
+            if any(entry is g for g in going) or grounding_net.placed_key(entry["sentence"]) in shaped["placed_sentences"]:
+                continue
+            grounds = [grounding_net._groundable_text(repository_records[t]) for t in entry["tags"] if t in repository_records]
+            if ungrounded_horizon_mentions(entry["sentence"], window_end, grounds):
+                entry.update(verdict="withhold", why=REASON_HORIZON)
+                going.append(entry)
         if not going:
             break
         aligned = len(spans) == len(net_result["sentences"])
@@ -733,7 +745,9 @@ def _run_ordinary_voice_turn(
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
         offered_stories=frozenset(prepared.offered_stories),
     )
-    _net = functools.partial(apply_net, quotable_texts=echo_sources, placement=placement)
+    _net = functools.partial(
+        apply_net, quotable_texts=echo_sources, placement=placement, window_end=(world.frame.get("time_window") or {}).get("end"),
+    )
 
     demonstrations = DemonstrationIndex(repository_records)
     on_text = None
