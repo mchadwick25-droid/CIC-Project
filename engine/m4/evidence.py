@@ -1294,8 +1294,8 @@ def assemble_evidence(
 
 def _with_riders(candidate: dict, repository_records: dict[str, dict]) -> dict:
     """A candidate carries what the draft must not assert and, for a story,
-    what is not known, whichever path selected it (cell, full-text fallback,
-    scope completion)."""
+    what is not known, and a quote carries its setting, whichever path
+    selected it (cell, full-text fallback, scope completion)."""
     record = repository_records.get(candidate["id"]) or {}
     out = dict(candidate)
     if "claim_guards" not in out:
@@ -1304,7 +1304,23 @@ def _with_riders(candidate: dict, repository_records: dict[str, dict]) -> dict:
             out["claim_guards"] = guards
     if candidate.get("record_type") == "story" and (record.get("absent_detail") or "").strip():
         out["absent_detail"] = " ".join(record["absent_detail"].split())
+    if candidate.get("record_type") == "quote" and (rendered := _setting_text(record.get("setting"))):
+        out["setting"] = rendered
     return out
+
+
+def _setting_text(setting: dict | None) -> str:
+    """A quote's setting as one line: who said it, to whom, on what
+    occasion, and what it answered. Empty when the record has none."""
+    if not isinstance(setting, dict):
+        return ""
+    said = " ".join(str(setting.get("said_by") or "").split())
+    to = " ".join(str(setting.get("to_whom") or "").split())
+    occasion = " ".join(str(setting.get("occasion") or "").split())
+    answers = " ".join(str(setting.get("answers") or "").split())
+    who = " to ".join(part for part in (said, to) if part)
+    first = ", ".join(part for part in (who, occasion) if part)
+    return ". ".join(part for part in (first, f"It answered: {answers}" if answers else "") if part)
 
 
 def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> dict:
@@ -1342,6 +1358,8 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
         line += ", " + ", ".join(descriptors[1:])
     if candidate.get("gist"):
         line += f" | means: {candidate['gist']}"
+    if candidate.get("setting"):
+        line += f" | setting: {candidate['setting']}"
     if candidate.get("claim_guards"):
         line += " | MUST NOT ASSERT: " + "; ".join(candidate["claim_guards"])
     return line
