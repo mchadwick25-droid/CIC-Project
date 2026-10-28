@@ -1,0 +1,14 @@
+source_file: calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871.txt
+
+assignments:
+  - row_id: calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871--ordonnances-ecclesiastiques-1541-and-1561
+    work: "Calvin, Ordonnances ecclesiastiques: the 1541 draft and the 1561 text, with the Leges Academiae and the Consilia (Opera X.1)"
+    author: calvin
+    locus: "Projet of 1541 at OCR line 1350; ordinances of 1561 at 6747; Leges Academiae at 5021; line numbers are OCR lines, add 12 for this file's own"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary voice of the Genevan church order in Calvin's own wording: the 1541 draft, which the vendored 1576 revision does not carry, and the 1561 text.
+      Second witness until a quoted passage is checked against the page; the file opens with a Geneva repository cover sheet.
