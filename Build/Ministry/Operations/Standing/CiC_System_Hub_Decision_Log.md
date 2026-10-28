@@ -7125,3 +7125,23 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Measured.** Offered sets unchanged on 1,770 question-world pairs in 13 packages. Added input about 363 tokens per turn (about $0.0011 at $3 per million), lpc about 905. The horizon block changes 3 of 4,455 recorded shipped sentences, all lpc anachronism-1.
 
 **Open.** Live retest of lpc on the current pin: the project lead names the test and cap. Record-side fixes belong to the lpc world thread (`Open_Gaps_Tracking.md`, OG-107).
+
+## 2026-10-28 - Named, capped live test "fleet graded run 1" approved; the run waits for the engine upgrades (project lead's approval)
+
+**Question.** Run the sealed 28-probe battery through the live admission harness on every real world, and have Opus grade the saved answers, to see where each world's answers fail on current `main`?
+
+**Approval.** Mark, 2026-10-28, typed in the project-management conversation, as relayed by that thread: "run the full test on all 12 worlds and an full set of opus reviews i authorize 12 dollars". The name "fleet graded run 1" is the project-management thread's label, put to Mark in a choice box; he answered with the message above rather than choosing an option. The cap is $12.00 total metered, never more. Mark's follow-up, same relay: "after the engine upgrades are all implimented".
+
+**Scope as run.** The project-management thread narrowed "the full test" to admission only on all 12 worlds, to fit the cap (admission about $0.80 per world, about $9.60 for 12; the multi-turn validation conversations, about $1.40 per world, do not fit and are not part of this run). That narrowing is the thread's scoping for budget, reported to Mark, who did not object. About $2.40 is left for connection retries. No other model spend.
+
+**Models and route.** Voice: Sonnet 4.5, `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, AWS Bedrock `us-east-1`, voice only, `--save-transcripts`. Command: `python -m engine.m3.live_admission_run --live-test "fleet graded run 1" --cap-usd 12`, with the model id, region and max tokens passed explicitly. The Opus reviews of the saved answers run on Mark's Claude allowance and are not metered.
+
+**Run order.** gallic, desert, ijc, alx, witt, rzg, pahc, hal, syr, cappadocian, don, lpc. One world at a time. A world is retried once on a connection drop; a second drop skips it. The running total plus the next world's preflight estimate must never pass $12.
+
+**Waits.** The run does not start until the engine upgrades are in: the quote setting field with the retrieval-hint gate, the follow-up carry-over fix (both with Opus review), and the prompt-caching check. It starts on the project-management thread's "go" with the commit to run against.
+
+**Comparison.** Mark, as relayed by the project-management thread: "use the last full run as a comparison" and "nothing before the last improvements, no old data that is no longer relevant." lpc is compared with run 3 only (24 PASS, 13 FAIL, 3 NOT SCORED of 40 rows; run 4 is partial, 25 of 28 answers). The other eleven worlds have no graded run on current code, so this run is their baseline. Older fleet data is left out on purpose.
+
+**Exception for the eleven other worlds.** Mark, by choice box, relayed by the project-management thread: the 13 October 2026 eleven-world test (alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr, witt; not lpc) is used as a side-by-side, for this purpose only, read qualitatively and labelled older, different format and a different engine. The data rule is otherwise: nothing dated before 2026-10-27. The 28-probe battery does not ask that test's 6 questions, so the side-by-side needs a replay of the same 6 questions per world (66 voice turns, about $1.80 voice-only or $2.40 with the safety and reader calls) through the live-turn harness. Plan within the $12 cap: admission on all 12 worlds first; the replay then runs in the same world order with whatever budget remains after admission and retries, under the same name, cap and printed settings, stopping before any call that could pass $12 in total. The report names exactly which worlds got the replay.
+
+**Open.** The run, its report files under `engine/m3/reports/`, and the fleet summary follow after "go".
