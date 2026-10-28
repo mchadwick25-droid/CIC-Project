@@ -7161,3 +7161,32 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Exception for the eleven other worlds.** Mark, by choice box, relayed by the project-management thread: the 13 October 2026 eleven-world test (alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr, witt; not lpc) is used as a side-by-side, for this purpose only, read qualitatively and labelled older, different format and a different engine. The data rule is otherwise: nothing dated before 2026-10-27. The 28-probe battery does not ask that test's 6 questions, so the side-by-side needs a replay of the same 6 questions per world (66 voice turns, about $1.80 voice-only or $2.40 with the safety and reader calls) through the live-turn harness. Plan within the $12 cap: admission on all 12 worlds first; the replay then runs in the same world order with whatever budget remains after admission and retries, under the same name, cap and printed settings, stopping before any call that could pass $12 in total. The report names exactly which worlds got the replay.
 
 **Open.** The run, its report files under `engine/m3/reports/`, and the fleet summary follow after "go".
+
+## 2026-10-28 - Offered records are capped at 10 per turn, behind a switch (project lead's ruling, choice box)
+
+**Question.** The voice is offered 9 to 17 records a turn and cites 1 to 6; the evidence block is the largest part of a turn's cost after the cached prefix. Cap it?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: cap offered records at 10, behind a switch he can turn off, default on.
+
+**Done.** `assemble_evidence` leaves out the lowest-ranked records beyond 10 (the matcher's own score, lower first, later position first). Never left out: the first record of each matched cell, every record of an entity-matched, hint-word or carried cell, every quote, every honest limit, and every full-text-fallback or scope-completion record. If those alone exceed 10 they are all offered. The switch is the environment variable `CIC_OFFER_CAP`, read once when the engine starts: unset gives 10; `0`, `off`, `false` or `no` turns the cap off and restores today's offered sets exactly; a number sets another cap. Dropped ids are reported under `capped` on the evidence result. Measurements, including the cited records the cap cuts, are in the pull request.
+
+## 2026-10-28 - Standing cost rule for engine changes (project lead)
+
+**Ruling.** Mark, 2026-10-28: "I want it cheaper, then same, but if a significant improvement needs the extra I will approve it." A change to what a turn sends or spends must lower the cost per turn or leave it level. A net cost increase is allowed only when it buys a shown, significant improvement and Mark approves it by name.
+
+**Applied to the merged changes (cost against the run-3 audit evidence).**
+
+- #1251 (horizon `output_defect` blocks the sentence; `window_end` passed through): no prompt cost. Not a cost increase.
+- #1256 (riders: `NOT KNOWN:`, `MUST NOT ASSERT:`, quote `setting:`): a cost increase of about 640 tokens a turn on lpc. It rests on the run-3 quote-misuse audit: of the 19 placed quotes, 9 fit, 6 were clearly misused and 4 stretched, because the draft was never shown a story's `absent_detail` or a quote's `not_for`. Mark's words: the problem is the context, not the quotes.
+- #1258 (follow-up carry of the lead witness and one untold story): a cost increase of about 245 tokens on a follow-up turn. It rests on the run-3 interview, where follow-ups lost the thread because name and comparison words outscored the follow-up threshold.
+- #1259 (history cache mark dropped): a saving, about $0.0213 over a 10-turn session. The directive in the system block defeated the mark, so history was billed fresh every turn.
+
+**Open.** The guard-line trim was removed (it dropped distinct guards); that adds about 44 tokens a turn. The net-cost table is in the cap pull request.
+
+## 2026-10-28 - Change order: the offered-record cap is 12, not 10 (project lead)
+
+**Change order to the entry "Offered records are capped at 10 per turn, behind a switch".** Mark, 2026-10-28: "the cap is 12, but as cheap as possible to get good results." The default of `CIC_OFFER_CAP` is now 12; the switch and the protected set are unchanged, and the value lives in one place (`DEFAULT_OFFER_CAP`). Going lower than 12 is not shipped without Mark's word.
+
+**Evidence for a lower cap (offline, 111 recorded lpc turns from 27/28 Oct, 36 of them run 3).** No cap below about 25 keeps every record the voice cited. At 12, 28 cited records are dropped in 18 of the 111 turns (8 in 6 of the 36 run-3 turns); the protected set is never cut. The saving is about 416 tokens a turn at 12, 744 at 10 and 1,018 at 8. The numbers per cap are in the pull request.
+
+**Cost-free trims inside the cap.** None exists. Across run-3 single turns and the 98 canon questions there are no empty riders, no repeated line inside a record and no duplicate guards. Identical rider lines on a second record (about 9 to 10 tokens a turn) and `means` that restates the head (about 7 to 8) would remove record text, so they are not made.
