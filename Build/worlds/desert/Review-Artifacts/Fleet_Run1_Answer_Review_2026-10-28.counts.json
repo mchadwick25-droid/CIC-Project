@@ -1,0 +1,15 @@
+{
+  "pass": 16,
+  "fail": 12,
+  "not_scored": 0,
+  "p1": 12,
+  "p2": 16,
+  "top_causes": [
+    "engine cut: the net removes unplaced story and quote retellings and ships the dependent sentences (4 FAIL: c-i, f1-i, f1-e, f5-e; residue in 9 PASS rows)",
+    "engine lets evidence-block build language, raw [[thin:...]] tags and readability-gate failures through on the admission path (3 FAIL: f2-e, f6-e, f6-i)",
+    "record and demonstration wording spoken as it stands (4 FAIL: f6-p, f4-e, f1-t, f5-i)",
+    "mediated or contested teaching (Cassian, Macarian homilies) voiced as the community's own, against the records' not_for (2 FAIL: f1-t, f4-p)",
+    "automatic checks passed all 28 answers and caught none of these"
+  ],
+  "invented_fact_or_horizon_or_quote_failures": 4
+}
