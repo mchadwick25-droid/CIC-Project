@@ -94,8 +94,16 @@
       "overall_pass": true,
       "aborted_reason": null,
       "exit_code": 0
+    },
+    "pahc": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.45996929999999997,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-pahc.jsonl",
+      "probes_answered": 1,
+      "spent_usd_world": 0.07904
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-28T23:55:25Z"
+  "current": "pahc",
+  "checkpoint_at": "2026-10-28T23:55:50Z"
 }
