@@ -13,6 +13,7 @@ use_note:
     - "a claim that the blows are a church penalty, when they belong to an illustration about unruly boys"
     - "a claim that it describes formal public penance or excommunication"
     - "a claim that the Latin asks for forgetting the fault"
+    - "a claim that it describes how a person entered the church"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:

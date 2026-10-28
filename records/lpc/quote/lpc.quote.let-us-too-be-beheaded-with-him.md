@@ -13,6 +13,7 @@ use_note:
     - "a claim that Pontius records this cry"
     - "a claim that anyone besides Cyprian was executed"
     - "a claim that the cry was a riot"
+    - "a claim that the cry explains why this world speaks as 'we'"
   years: {from: 258, to: 258}
   status: reviewed
 confidence:

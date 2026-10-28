@@ -36,7 +36,6 @@ retrieval:
   - participant asks whether the people who taught repentance practised it
   - participant raises dying, last illness, or preparing for death
   - participant asks what happened as our own life closed
-  - conversation reaches penitential discipline or the pastoral office
   prefer_instead:
   - participant is asking about Augustine's own theology of grace, which this story does not carry
   - immediately after the death of Cyprian -- two deathbeds in succession flattens both

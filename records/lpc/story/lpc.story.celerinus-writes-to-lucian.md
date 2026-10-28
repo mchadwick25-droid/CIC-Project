@@ -33,7 +33,7 @@ retrieval:
   - participant asks what happened to those who failed under persecution
   - participant asks who had the authority to forgive
   - participant raises a family member's lapse, shame, or a plea made on someone else's behalf
-  - conversation reaches penitential discipline or the confessor tension
+  - "participant asks how one confessor asked another to win peace for a sister who had fallen"
   prefer_instead:
   - early in an encounter, before the participant has any sense of what the lapsed crisis was -- this
     story is unintelligible without that context first

@@ -39,7 +39,7 @@ retrieval:
   retrieve_when:
   - participant asks what preaching meant to this world, or what a congregation's own presence meant to
     a preacher
-  - conversation reaches lpc.term.preaching and needs a single concrete instance
+  - participant asks for one concrete picture of what a listening congregation meant to the preacher
   - participant asks for an image of the bond between a congregation and the one who speaks to it, distinct
     from the office-and-discipline images this world reaches for more often
   prefer_instead:

@@ -34,7 +34,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks whether babies were born guilty
-  - participant asks what we believed about original sin
+  - participant asks what the council told Fidus about whether a newborn carries sins of his own
   - participant asks why babies were baptized if they had no sins of their own
   prefer_instead:
   - participant asks only how soon after birth a child was baptized -- lpc.quote.not-to-be-refused-to-any-one-born-of-man

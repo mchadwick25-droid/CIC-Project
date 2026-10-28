@@ -2351,3 +2351,11 @@ Logged 2026-10-28.
 - **Done.** Numidicus not_for, Cyprian's side of the dispute with Stephen, surgeon's-knife trigger, silent-century statement, and the Augustine-on-the-dying witness record (OG-98 items E3, Q1, R2, V4); see `lpc_Decision_Log.md`, 2026-10-28, "Record-side fixes from the run 3 review". Pin `packages/lpc/2026-10-28T15-03-21Z`.
 - **Still open.** Engine items E1 and the rest of the review's engine list; plain renderings in `lpc.witness.remembered-at-the-altar` (A2); the penance-duration answer (DI-6); `validation lpc` needs a live run on the current pin.
 - **Owner.** This thread for the records; the engine threads for the rest.
+
+### OG-109. lpc retrieval hints are questions; the setting field and the offered-sets check for one quote remain (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** All 27 `retrieve_when` lines the hint gate named are rewritten, with the quote narrowing from the engine audit; see `lpc_Decision_Log.md`, 2026-10-28, "Retrieval hints rewritten as questions". Pin `packages/lpc/2026-10-28T17-58-42Z`.
+- **Still open.** The quotes' `setting` field, once the engine thread's field is on `main`; the check of why `lpc.quote.the-case-set-before-the-bishop` was not offered for the confessors' grant question (offered_sets); the missing records A1 to A10 of the engine audit's worklist, unless the project lead rules otherwise.
+- **Owner.** This thread for the records; the engine thread for the field and the offered-sets check.
