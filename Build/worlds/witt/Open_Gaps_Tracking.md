@@ -2872,3 +2872,11 @@ Follows the entries OG-88 and OG-89 (2026-10-27, 2026-10-28). Mark directed the 
 - **Not done:** the cell and routing for questions about the Jews and 1543 were not measured; `canon_cells` is empty, as on the retired record.
 
 Status: OPEN.
+
+## OG-91. `witt.dw.how-the-promise-reached-us` quotation checked against the vendored text and its edition cited, 2026-10-28.
+
+Closes OG-85 (the second one, 2026-10-27, on this record). The sentence "I did nothing; the Word did it all" is in the vendored Luther selections, vol. 2, word for word: `cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt` line 14931, in the Eight Wittenberg Sermons. The record's `text` was already exact; its source list did not name that edition. The body's `Sources:` line now cites the file and line, so the witness-quotation gate finds it. No wording changed and no quotation was added.
+
+The gate is registered in `engine/m1/gates.py` as `witness-quotation-verbatim` and runs for every world. The known-findings file is empty. The package is rebuilt and repinned.
+
+Status: CLOSED.

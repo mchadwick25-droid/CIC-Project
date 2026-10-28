@@ -1,0 +1,1069 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.025818
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2250,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2088,
+      "output_tokens": 175,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 1986,
+      "output_tokens": 290,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What was a sermon like at Hippo?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "A sermon at Hippo was not a lecture and not a performance. It was the man answerable for you, speaking to your face. You were in the room, baptized or still learning, and Augustine preached to the whole gathering at once. The voice you heard again and again was the one that would answer for what became of you. That is not a distant fact. The charge ran both ways. He answered for them, and they could hold him to it. Before he ever held that office, the people seized him. Possidius tells it this way: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”\n\nThe office came to him by their voice, against his own wishes, as it had come to Cyprian a century and a half before. The sermon was what that answerability sounded like, week by week, in the same room.",
+          "citations": [
+            {
+              "sentence": "You were in the room, baptized or still learning, and Augustine preached to the whole gathering at once.",
+              "record_ids": [
+                "lpc.term.preaching"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.preaching",
+                  "record_type": "term",
+                  "label": "preaching",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Tractates on John, exegetical preaching",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The voice you heard again and again was the one that would answer for what became of you.",
+              "record_ids": [
+                "lpc.term.the-flock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-flock",
+                  "record_type": "term",
+                  "label": "the flock",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He answered for them, and they could hold him to it.",
+              "record_ids": [
+                "lpc.term.the-flock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-flock",
+                  "record_type": "term",
+                  "label": "the flock",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Possidius tells it this way: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+              "record_ids": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.clamour-and-tears",
+                  "record_type": "quote",
+                  "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                  "speaker": "Possidius, bishop of Calama"
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "the people",
+              "text_start": 452,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 171,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                  "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Tractates on John, exegetical preaching",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.possidius",
+              "matched_name": "Possidius",
+              "text_start": 475,
+              "names": [
+                {
+                  "name": "Possidius, bishop of Calama",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Possidius of Calama (d. after 437)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop of Calama who had been Augustine's friend for almost forty years, and who stood by him and prayed as he died",
+              "dates": {
+                "display": "Augustine's own friend for nearly forty years; bishop of Calama in his own right; physically present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present'; wrote the Vita Augustini, the source for the psalms on the wall and for the account of the people seizing Augustine at Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 1042,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground"
+            ],
+            "term": [
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.clamour-and-tears",
+              "lpc.quote.ye-belong-to-my-care"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference"
+            ],
+            "contested_claim": [
+              "lpc.contested.compel-coercion-development"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "A sermon at Hippo was not a lecture and not a performance.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['hippo']) with no citation tag",
+                "draft": "A sermon at Hippo was not a lecture and not a performance."
+              },
+              {
+                "sentence": "It was the man answerable for you, speaking to your face.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was the man answerable for you, speaking to your face."
+              },
+              {
+                "sentence": "You were in the room, baptized or still learning, and Augustine preached to the whole gathering at once.",
+                "tags": [
+                  "lpc.term.preaching"
+                ],
+                "verdict": "ok",
+                "why": "grounded 62% in own tagged records",
+                "ratio": 0.62,
+                "draft": "You were in the room, baptized or still learning, and Augustine preached to the whole gathering at once [[lpc.term.preaching]]."
+              },
+              {
+                "sentence": "The voice you heard again and again was the one that would answer for what became of you.",
+                "tags": [
+                  "lpc.term.the-flock"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The voice you heard again and again was the one that would answer for what became of you [[lpc.term.the-flock]]."
+              },
+              {
+                "sentence": "That is not a distant fact.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is not a distant fact."
+              },
+              {
+                "sentence": "The charge ran both ways.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The charge ran both ways."
+              },
+              {
+                "sentence": "He answered for them, and they could hold him to it.",
+                "tags": [
+                  "lpc.term.the-flock"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He answered for them, and they could hold him to it [[lpc.term.the-flock]]."
+              },
+              {
+                "sentence": "Before he ever held that office, the people seized him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Before he ever held that office, the people seized him."
+              },
+              {
+                "sentence": "Possidius tells it this way: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+                "tags": [
+                  "lpc.quote.clamour-and-tears"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.clamour-and-tears",
+                "draft": "Possidius tells it this way: [[quote:lpc.quote.clamour-and-tears]]"
+              },
+              {
+                "sentence": "The office came to him by their voice, against his own wishes, as it had come to Cyprian a century and a half before.",
+                "tags": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) only 38% grounded in its own tags",
+                "ratio": 0.38,
+                "draft": "The office came to him by their voice, against his own wishes, as it had come to Cyprian a century and a half before [[lpc.force.congregational-acclamation-overriding-preference]]."
+              },
+              {
+                "sentence": "The sermon was what that answerability sounded like, week by week, in the same room.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The sermon was what that answerability sounded like, week by week, in the same room."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 9,
+                "cited_record_ids": [
+                  "lpc.quote.clamour-and-tears",
+                  "lpc.term.preaching",
+                  "lpc.term.the-flock"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "A sermon at Hippo was not a lecture and not a performance.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.term.preaching",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 75% in own tagged records",
+                    "ratio": 0.75
+                  },
+                  "1": {
+                    "sentence": "It was the man answerable for you, speaking to your face.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.term.preaching",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "That is not a distant fact.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.term.preaching",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "5": {
+                    "sentence": "The charge ran both ways.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.term.preaching",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "7": {
+                    "sentence": "Before he ever held that office, the people seized him.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.term.preaching",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "The sermon was what that answerability sounded like, week by week, in the same room.",
+                    "tags": [
+                      "lpc.force.congregational-acclamation-overriding-preference"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "removed": [
+                {
+                  "sentence": "He told his hearers plainly that they belonged to his care, so that he could give account for them, and that he wept when they did not listen",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "He told his hearers plainly that they belonged to his care, so that he could give account for them, and that he wept when they did not listen [[quote:lpc.quote.ye-belong-to-my-care]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 58
+              },
+              {
+                "index": 1,
+                "text_start": 59,
+                "text_end": 116
+              },
+              {
+                "index": 2,
+                "text_start": 117,
+                "text_end": 221
+              },
+              {
+                "index": 3,
+                "text_start": 222,
+                "text_end": 311
+              },
+              {
+                "index": 4,
+                "text_start": 312,
+                "text_end": 339
+              },
+              {
+                "index": 5,
+                "text_start": 340,
+                "text_end": 365
+              },
+              {
+                "index": 6,
+                "text_start": 366,
+                "text_end": 418
+              },
+              {
+                "index": 7,
+                "text_start": 419,
+                "text_end": 474
+              },
+              {
+                "index": 8,
+                "text_start": 475,
+                "text_end": 959
+              },
+              {
+                "index": 9,
+                "text_start": 961,
+                "text_end": 1078
+              },
+              {
+                "index": 10,
+                "text_start": 1079,
+                "text_end": 1163
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 54,
+                "char_end": 63,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 7,
+                "char_start": 33,
+                "char_end": 43,
+                "surface": "the people"
+              },
+              {
+                "record_id": "lpc.figure.possidius",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 8,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Possidius"
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 8,
+                "char_start": 29,
+                "char_end": 484,
+                "surface": "“The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 9,
+                "char_start": 81,
+                "char_end": 88,
+                "surface": "Cyprian"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "label": "the flock",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                "speaker": "Possidius, bishop of Calama",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "label": "the flock",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                0,
+                9
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.clamour-and-tears"
+            ],
+            "removed": [
+              {
+                "sentence": "He told his hearers plainly that they belonged to his care, so that he could give account for them, and that he wept when they did not listen",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "He told his hearers plainly that they belonged to his care, so that he could give account for them, and that he wept when they did not listen [[quote:lpc.quote.ye-belong-to-my-care]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

@@ -1,0 +1,1201 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.034081
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2250,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2088,
+      "output_tokens": 173,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 4288,
+      "output_tokens": 331,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How did someone become a Christian in your church?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "You were taught before you were washed. We told you what you were joining before you joined it. You said the creed back, and then we baptized you. That teaching was not left to chance. Augustine wrote a whole guide to it, for the one who would do the teaching. The water came after the words, not before them.\n\nAfter the water, formation went on. You heard preaching, week after week, from the man in charge of you. And when you failed -- not if, but when -- there was a road back. It was not a private matter settled in a moment. It was walked in stages, under the bishop, where the congregation could see it. Your name was set down. What had truly changed in you was watched and weighed. At the end, the same people who watched you fall received you back, together, in the open.\n\nThe path was not always gentle. Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness: “Let us rebuke with words, and with blows if need be. But let us also forgive the sin and cast the fault out of our hearts. The Lord added ‘from your hearts’ for this reason: when discipline is given out of love, gentleness must not leave the heart. For what is as kind and gentle as a surgeon with his knife?”\n\nThe correction was real, and so was the road home.",
+          "citations": [
+            {
+              "sentence": "You were taught before you were washed.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "You said the creed back, and then we baptized you.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote a whole guide to it, for the one who would do the teaching.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And when you failed -- not if, but when -- there was a road back.",
+              "record_ids": [
+                "lpc.term.reconciliation-penitential-discipline"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.reconciliation-penitential-discipline",
+                  "record_type": "term",
+                  "label": "reconciliation",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis carries the argument for episcopal control of the process",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It was walked in stages, under the bishop, where the congregation could see it.",
+              "record_ids": [
+                "lpc.term.reconciliation-penitential-discipline"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.reconciliation-penitential-discipline",
+                  "record_type": "term",
+                  "label": "reconciliation",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis carries the argument for episcopal control of the process",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At the end, the same people who watched you fall received you back, together, in the open.",
+              "record_ids": [
+                "lpc.term.reconciliation-penitential-discipline"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.reconciliation-penitential-discipline",
+                  "record_type": "term",
+                  "label": "reconciliation",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis carries the argument for episcopal control of the process",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness: “Let us rebuke with words, and with blows if need be. But let us also forgive the sin and cast the fault out of our hearts. The Lord added ‘from your hearts’ for this reason: when discipline is given out of love, gentleness must not leave the heart. For what is as kind and gentle as a surgeon with his knife?”",
+              "record_ids": [
+                "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 33 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon 33 (NPNF numbering; Maurist 83), section 8; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 14444; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 36195-36201",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "Let us rebuke with words, and with blows if need be. But let us also forgive the sin and cast the fault out of our hearts. The Lord added “from your hearts” for this reason: when discipline is given out of love, gentleness must not leave the heart. For what is as kind and gentle as a surgeon with his knife?",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.preaching",
+              "matched_name": "preaching",
+              "text_start": 357,
+              "plain_meaning": "You are in the room, baptized or still learning. Again and again, the same voice works on you. It is not a lecture and not a show. It is the man in charge of you, telling you to your face what he thinks you need.",
+              "quick_meaning": "For us, preaching is the regular talk to the whole church, baptized or still learning. It is the main way what we hold reaches an ordinary believer.",
+              "translational_sense": "A modern listener may hear either a stern moralizing monologue or a polished performance piece, and assume it is one component of a service among several. For us it was the central formative act of ordinary life, delivered by the person personally answerable for the hearers, occasional and responsive rather than scripted, and openly aware of what it competed with for people's own attention.",
+              "false_friend": [
+                "a stern moralizing monologue, or a polished performance piece, assumed to be one component of a service among several rather than the central formative act"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 185,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                  "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                  "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-confessions",
+                  "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "how",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.peace-for-the-dying-penitent",
+              "lpc.witness.grant-me-chastity-but-not-yet"
+            ],
+            "term": [
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.term.catechesis",
+              "lpc.term.confessor",
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "gravity": [
+              "lpc.gravity.penitential-discipline",
+              "lpc.gravity.conciliar-authority-theory"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "You were taught before you were washed.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "You were taught before you were washed [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "We told you what you were joining before you joined it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We told you what you were joining before you joined it."
+              },
+              {
+                "sentence": "You said the creed back, and then we baptized you.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "You said the creed back, and then we baptized you [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "That teaching was not left to chance.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That teaching was not left to chance."
+              },
+              {
+                "sentence": "Augustine wrote a whole guide to it, for the one who would do the teaching.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine wrote a whole guide to it, for the one who would do the teaching [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "The water came after the words, not before them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The water came after the words, not before them."
+              },
+              {
+                "sentence": "After the water, formation went on.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "After the water, formation went on."
+              },
+              {
+                "sentence": "You heard preaching, week after week, from the man in charge of you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "You heard preaching, week after week, from the man in charge of you."
+              },
+              {
+                "sentence": "And when you failed -- not if, but when -- there was a road back.",
+                "tags": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "And when you failed -- not if, but when -- there was a road back [[lpc.term.reconciliation-penitential-discipline]]."
+              },
+              {
+                "sentence": "It was not a private matter settled in a moment.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was not a private matter settled in a moment."
+              },
+              {
+                "sentence": "It was walked in stages, under the bishop, where the congregation could see it.",
+                "tags": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6,
+                "draft": "It was walked in stages, under the bishop, where the congregation could see it [[lpc.term.reconciliation-penitential-discipline]]."
+              },
+              {
+                "sentence": "Your name was set down.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Your name was set down."
+              },
+              {
+                "sentence": "What had truly changed in you was watched and weighed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What had truly changed in you was watched and weighed."
+              },
+              {
+                "sentence": "At the end, the same people who watched you fall received you back, together, in the open.",
+                "tags": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "At the end, the same people who watched you fall received you back, together, in the open [[lpc.term.reconciliation-penitential-discipline]]."
+              },
+              {
+                "sentence": "The path was not always gentle.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The path was not always gentle."
+              },
+              {
+                "sentence": "Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness: “Let us rebuke with words, and with blows if need be. But let us also forgive the sin and cast the fault out of our hearts. The Lord added ‘from your hearts’ for this reason: when discipline is given out of love, gentleness must not leave the heart. For what is as kind and gentle as a surgeon with his knife?”",
+                "tags": [
+                  "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+                "draft": "Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness [[quote:lpc.quote.reprove-and-forgive-the-surgeons-knife]]"
+              },
+              {
+                "sentence": "The correction was real, and so was the road home.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The correction was real, and so was the road home."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.term.catechesis"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "We told you what you were joining before you joined it.",
+                    "tags": [
+                      "lpc.term.catechesis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "That teaching was not left to chance.",
+                    "tags": [
+                      "lpc.term.catechesis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "The water came after the words, not before them.",
+                    "tags": [
+                      "lpc.term.catechesis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "After the water, formation went on.",
+                    "tags": [
+                      "lpc.term.reconciliation-penitential-discipline"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "1": {
+                    "sentence": "You heard preaching, week after week, from the man in charge of you.",
+                    "tags": [
+                      "lpc.term.reconciliation-penitential-discipline"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "3": {
+                    "sentence": "It was not a private matter settled in a moment.",
+                    "tags": [
+                      "lpc.term.reconciliation-penitential-discipline"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "Your name was set down.",
+                    "tags": [
+                      "lpc.term.reconciliation-penitential-discipline"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "What had truly changed in you was watched and weighed.",
+                    "tags": [
+                      "lpc.term.reconciliation-penitential-discipline"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "The path was not always gentle.",
+                    "tags": [
+                      "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": true,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "The correction was real, and so was the road home.",
+                    "tags": [
+                      "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 39
+              },
+              {
+                "index": 1,
+                "text_start": 40,
+                "text_end": 95
+              },
+              {
+                "index": 2,
+                "text_start": 96,
+                "text_end": 146
+              },
+              {
+                "index": 3,
+                "text_start": 147,
+                "text_end": 184
+              },
+              {
+                "index": 4,
+                "text_start": 185,
+                "text_end": 260
+              },
+              {
+                "index": 5,
+                "text_start": 261,
+                "text_end": 309
+              },
+              {
+                "index": 6,
+                "text_start": 311,
+                "text_end": 346
+              },
+              {
+                "index": 7,
+                "text_start": 347,
+                "text_end": 415
+              },
+              {
+                "index": 8,
+                "text_start": 416,
+                "text_end": 481
+              },
+              {
+                "index": 9,
+                "text_start": 482,
+                "text_end": 530
+              },
+              {
+                "index": 10,
+                "text_start": 531,
+                "text_end": 610
+              },
+              {
+                "index": 11,
+                "text_start": 611,
+                "text_end": 634
+              },
+              {
+                "index": 12,
+                "text_start": 635,
+                "text_end": 689
+              },
+              {
+                "index": 13,
+                "text_start": 690,
+                "text_end": 780
+              },
+              {
+                "index": 14,
+                "text_start": 782,
+                "text_end": 813
+              },
+              {
+                "index": 15,
+                "text_start": 814,
+                "text_end": 1242
+              },
+              {
+                "index": 16,
+                "text_start": 1244,
+                "text_end": 1294
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 7,
+                "char_start": 10,
+                "char_end": 19,
+                "surface": "preaching"
+              },
+              {
+                "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows the Latin of PL 38 where the English departs from it: 'cast away the remembrance of it from the heart' renders culpam de corde abjiciamus, cast the fault out of the heart, and the Latin does not ask for forgetting; 'though through affection' renders si per charitatem, when discipline is given out of love.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 15,
+                "char_start": 118,
+                "char_end": 428,
+                "surface": "“Let us rebuke with words, and with blows if need be. But let us also forgive the sin and cast the fault out of our hearts. The Lord added ‘from your hearts’ for this reason: when discipline is given out of love, gentleness must not leave the heart. For what is as kind and gentle as a surgeon with his knife?”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.reconciliation-penitential-discipline",
+                "record_type": "term",
+                "label": "reconciliation",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis carries the argument for episcopal control of the process",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 33 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon 33 (NPNF numbering; Maurist 83), section 8; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 14444; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 36195-36201",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "Let us rebuke with words, and with blows if need be. But let us also forgive the sin and cast the fault out of our hearts. The Lord added “from your hearts” for this reason: when discipline is given out of love, gentleness must not leave the heart. For what is as kind and gentle as a surgeon with his knife?",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows the Latin of PL 38 where the English departs from it: 'cast away the remembrance of it from the heart' renders culpam de corde abjiciamus, cast the fault out of the heart, and the Latin does not ask for forgetting; 'though through affection' renders si per charitatem, when discipline is given out of love.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.reconciliation-penitential-discipline",
+                "record_type": "term",
+                "label": "reconciliation",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis carries the argument for episcopal control of the process",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.reprove-and-forgive-the-surgeons-knife"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
