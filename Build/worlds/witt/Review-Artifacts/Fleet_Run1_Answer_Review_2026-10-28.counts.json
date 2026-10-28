@@ -1,0 +1,15 @@
+{
+  "pass": 23,
+  "fail": 5,
+  "not_scored": 0,
+  "p1": 5,
+  "p2": 21,
+  "top_causes": [
+    "engine cut: post-draft removal strips sentences carrying quote words and ships the remainder (c-i P1; residue in c-p, c-t, f2-t, f4-t, f5-i, f6-t); records carry quote text inline without a placeholder",
+    "wrong or missing record wording: voice_craft 'Works follow it, uncommanded' contradicts witt.term.good-works (f1-i); no record for Augsburg Confession Article I on the Trinity, and witt.dw.truly-god-and-truly-man misstates it (c-t)",
+    "caution wording: no rule or output check against build vocabulary (f2-e P1: vendored, record id, the system)",
+    "story used out of context: Brussels martyrs placed as married priests who died (f5-p); no lead-in check against a story's not_for",
+    "repetition and recital of record text across answers; paragraphs over four sentences in 27 of 28"
+  ],
+  "invented_fact_or_horizon_or_quote_failures": 1
+}

@@ -100,10 +100,10 @@
       "status": "running",
       "preflight_usd": 0.45996929999999997,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-pahc.jsonl",
-      "probes_answered": 1,
-      "spent_usd_world": 0.07904
+      "probes_answered": 17,
+      "spent_usd_world": 0.425288
     }
   },
   "current": "pahc",
-  "checkpoint_at": "2026-10-28T23:55:50Z"
+  "checkpoint_at": "2026-10-28T23:58:51Z"
 }

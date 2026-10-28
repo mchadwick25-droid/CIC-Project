@@ -10,5 +10,9 @@
  "ijc": {
   "summary": "PASS 14, FAIL 14, NOT SCORED 0 of 28 (P1 14, P2 14). Invented-fact, horizon or quote failures: 3. Main causes: engine post-draft removal leaves damaged or false answers (f1-i, f2-t, f3-i, f4-e); after-window knowledge via caution 7 wording, force record text and weak horizon check (f3-t, f6-i, f5-e); record silence told as world silence; caution 6 not carried into answers (f1-t, f6-t)",
   "file": "Build/worlds/ijc/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "witt": {
+  "summary": "PASS 23, FAIL 5, NOT SCORED 0 of 28 (P1 5, P2 21). Invented-fact, horizon or quote failures: 1. Main causes: engine cut: post-draft removal strips sentences carrying quote words and ships the remainder (c-i P1; residue in c-p, c-t, f2-t, f4-t, f5-i, f6-t); records carry quote text inline without a placeholder; wrong or missing record wording: voice_craft 'Works follow it, uncommanded' contradicts witt.term.good-works (f1-i); no record for Augsburg Confession Article I on the Trinity, and witt.dw.truly-god-and-truly-man misstates it (c-t); caution wording: no rule or output check against build vocabulary (f2-e P1: vendored, record id, the system)",
+  "file": "Build/worlds/witt/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
