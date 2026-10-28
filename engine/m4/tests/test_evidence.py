@@ -1498,30 +1498,61 @@ def _carry(message, *, history=None, told=None):
     )
 
 
-def test_a_told_story_in_the_messages_own_cell_adds_the_prior_subjects_cell_and_removes_nothing():
-    base = _carry(_JESUS, told={"fix.story.first-meal"})
-    out = _carry(_JESUS, history=_FAST_HISTORY, told={"fix.story.first-meal"})
+_STRONG = "Was that all they had of Jesus - writings, memories, people?"
+_WEAK = "Did they keep that memory of Jesus?"
+
+
+def test_a_back_reference_that_reached_a_told_story_adds_the_prior_subjects_cell_and_removes_nothing():
+    told = {"fix.story.first-meal"}
+    base = _carry(_STRONG, told=told)
+    out = _carry(_STRONG, history=_FAST_HISTORY, told=told)
     assert "F2-E" not in [c["cell"] for c in base["cells"]]
-    assert [c["cell"] for c in out["cells"]] == ["C-E", "F1-E", "F2-E"] and out["cells"][-1]["from_prior_turn"]
+    assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
     assert {c["id"] for c in base["candidates"]} <= {c["id"] for c in out["candidates"]}
     assert "fix.story.fast" in {c["id"] for c in out["candidates"]}
 
 
-def test_a_back_reference_adds_the_prior_subjects_cell_even_when_the_message_names_its_own_subject():
-    out = _carry("Was that all they had of Jesus - writings, memories, people?", history=_FAST_HISTORY)
-    assert [c["cell"] for c in out["cells"]][-1] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+def test_a_back_reference_with_a_weak_best_cell_adds_the_prior_subjects_cell():
+    out = _carry(_WEAK, history=_FAST_HISTORY)
+    assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
 
 
-def test_without_a_back_reference_or_a_told_story_history_changes_nothing():
-    assert _carry(_JESUS) == _carry(_JESUS, history=_FAST_HISTORY)
+def test_a_back_reference_with_a_strong_best_cell_and_nothing_told_carries_nothing():
+    assert _carry(_STRONG) == _carry(_STRONG, history=_FAST_HISTORY)
+
+
+def test_a_told_story_without_a_back_reference_carries_nothing():
+    told = {"fix.story.first-meal"}
+    assert _carry(_JESUS, told=told) == _carry(_JESUS, history=_FAST_HISTORY, told=told)
+
+
+def test_a_carried_cell_contributes_its_lead_witness_and_one_untold_story_not_the_whole_cell():
+    from engine.m4.evidence import _carried_records
+
+    cands = [{"id": "a", "record_type": "term"}, {"id": "w", "record_type": "doctrinal_witness"},
+             {"id": "s1", "record_type": "story"}, {"id": "s2", "record_type": "story"}, {"id": "q", "record_type": "quote"}]
+    assert [c["id"] for c in _carried_records(cands, told_selected=False, already_told_ids=None)] == ["w"]
+    assert [c["id"] for c in _carried_records(cands, told_selected=True, already_told_ids={"s1"})] == ["w", "s2"]
+    assert [c["id"] for c in _carried_records([cands[0], cands[3]], told_selected=False, already_told_ids=None)] == ["a"]
 
 
 def test_a_first_turn_carries_nothing_even_with_a_back_reference_and_a_told_story():
-    out = _carry("Was that all they had of Jesus - writings, memories, people?", history=[], told={"fix.story.first-meal"})
+    out = _carry(_STRONG, history=[], told={"fix.story.first-meal"})
     assert not any(c.get("from_prior_turn") for c in out["cells"])
 
 
 def test_when_no_earlier_message_stands_alone_the_conversations_first_message_is_the_subject():
     history = [{"role": "user", "content": "Why did that matter about the fast and the holy days?"}, {"role": "assistant", "content": "It mattered."}]
-    out = _carry("Was that all they had of Jesus - writings, memories, people?", history=history)
-    assert all(c.get("from_prior_turn") or c["cell"] in ("C-E", "F1-E") for c in out["cells"])
+    out = _carry(_WEAK, history=history)
+    assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+
+
+def test_a_guard_line_that_repeats_an_earlier_one_is_left_out_of_the_rider():
+    guards = [
+        "The passage does not describe formal public penance, excommunication or a bishop readmitting a penitent, and must not be used as evidence for any of them.",
+        "a claim that it describes formal public penance, excommunication or a bishop readmitting a penitent",
+        "a claim that 'publican' means a keeper of a pub",
+    ]
+    block = render_evidence_block({"candidates": [{"id": "fix.story.g", "record_type": "story", "head": "Head.", "claim_guards": guards}], "thin_ground": [], "figures_already_named": []})
+    line = next(l for l in block.splitlines() if "[[fix.story.g]]" in l)
+    assert line.count("formal public penance") == 1 and "publican" in line
