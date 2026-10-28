@@ -7206,3 +7206,13 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Known cost to quality.** The cap drops a cited record in about 16% of recorded turns (18 of 111).
 
 **How it is checked.** The fleet graded run measures whether answers improved with the cap on. If they did not, the `CIC_OFFER_CAP` switch turns the cap off, or the cost is lowered another way. This is a "for now" approval, to be revisited from that run's results.
+
+## 2026-10-28 - Cap follow-up: thin-topic lines survive the cap, the top-scored record of each cell is protected (Opus review of #1261)
+
+**Thin-topic lines.** `thin_topic_riders` ran on the capped list, so a "cannot claim" line vanished when the cap cut the record whose head triggered it. It now runs on the uncapped selection. Of the 370 pairs the cap touches at 12 (1,770 question-world pairs, 13 packages), 56 lost such a line before; none do now.
+
+**Top-scored record of each cell.** The cap protected the first record appended to a cell, which is not always the top-scored one. It now protects both. Before, 2 of the 370 capped pairs cut a cell's top-scored record; none do now. Cost: on the 111 recorded lpc turns, about 38 tokens a turn (378 saved against 416), and cited records cut at 12 go from 28 to 25 (run 3 alone, 8 to 7). Across all 1,770 pairs the saving per capped pair is 464 against 465 tokens.
+
+**Protected set above the cap.** On real data one pair has more protected records than the cap (an lpc question about a parent's violence): 14 protected of 19 selected, so 14 records are offered and nothing is cut beyond them. The rule is unchanged: if the protected records exceed the cap they are all offered.
+
+**Correction.** #1261 merged at head 051e672, before the setting-render fixes, the 160-character field limit, the hint-rule note and the cap-approval entry were pushed. They land in this follow-up pull request.
