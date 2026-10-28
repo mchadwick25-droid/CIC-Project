@@ -22,6 +22,8 @@ relations: []
 author: Pius Knoll [Knöll] (editor); Augustine of Hippo (author)
 work: S. Aureli Augustini Confessionum Libri XIII, CSEL 33 (Sect. I Pars 1)
 edition: 'Pragae/Vindobonae/Lipsiae: F. Tempsky/G. Freytag, 1896; vendored as cic/texts/augustine_confessiones-lat_knoll-csel33.txt'
+citation: 'Augustine of Hippo, Confessionum Libri XIII, ed. Pius Knöll, CSEL 33 (Pragae/Vindobonae/Lipsiae: F. Tempsky/G. Freytag, 1896)'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

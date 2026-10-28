@@ -20,6 +20,8 @@ work: 'Anti-Manichaean corpus, grouped: Acts... Against Fortunatus, Against the 
   Concerning the Nature of Good, On Two Souls, On the Morals of the Catholic Church / of the Manichaeans,
   On the Profit of Believing, Reply to Faustus the Manichaean'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
+citation: 'Augustine of Hippo, the anti-Manichaean writings, including Reply to Faustus the Manichaean and On the Morals of the Catholic Church, Nicene and Post-Nicene Fathers, Series I, vol. IV'
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

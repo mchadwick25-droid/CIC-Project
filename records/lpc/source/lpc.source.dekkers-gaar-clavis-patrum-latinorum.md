@@ -20,6 +20,8 @@ author: Eligius Dekkers and Aemilius Gaar (editors)
 work: 'Clavis Patrum Latinorum, editio tertia aucta et emendata (Turnhout: Brepols; Steenbrugge: Sint-Pietersabdij,
   1995)'
 edition: Brepols, 1995 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+citation: 'Eligius Dekkers and Aemilius Gaar (eds.), Clavis Patrum Latinorum, editio tertia aucta et emendata (Turnhout: Brepols; Steenbrugge: Sint-Pietersabdij, 1995)'
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

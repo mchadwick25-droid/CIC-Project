@@ -22,6 +22,8 @@ relations: []
 author: Emanuel Hoffmann (editor); Augustine of Hippo (author)
 work: De Civitate Dei, Libri I-XIII, CSEL 40 Pars I
 edition: 'Pragae/Vindobonae/Lipsiae: F. Tempsky/G. Freytag, 1899; vendored as cic/texts/augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt'
+citation: 'Augustine of Hippo, De Civitate Dei, Libri I-XIII, ed. Emanuel Hoffmann, CSEL 40 Pars I (Pragae/Vindobonae/Lipsiae: F. Tempsky/G. Freytag, 1899)'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).
