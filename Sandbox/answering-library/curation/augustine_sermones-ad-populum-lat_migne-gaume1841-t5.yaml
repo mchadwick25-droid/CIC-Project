@@ -1,0 +1,419 @@
+file: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
+scheme: 'Maurist sermon numbers I-CCCXCVI (the four classes and the doubtful sermons), printed as SERMO and a roman numeral at the head of each sermon, with the numbered CAPUT chapters as a second level in the sermons over 5,000 words; the Appendix of supposititious sermons carries its own numbering from I and is addressed under the appendix; a number whose heading the scan lost has no division; the fragments of lost sermons are addressed by line'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: class
+    pattern: '^(?:S\. AUREL\w+ AUG\w+|CLASSIS V\.)$'
+    lines: [700, 123340]
+    locus: 'class{line}'
+    division: false
+  - id: sermon
+    pattern: '^(?=.{1,60}$)(?=.*[*''•■%4(\[{«])[S5K$][A-Za-z.]{1,6}?[MHNImnhiU.][OoQ0)U](?:NIS)?\s*(?P<n>[A-Za-z0-9!|\\:](?:[A-Za-z0-9!|\\:.]{0,10}[A-Za-z0-9!|\\:])?)\s*(?![.»])(?:[*''"‘’•■»%#®~“”4\\.-]\s*){0,4}(?:[\[({«]\s*[^\s.]{1,2}\s*[)\]};,]\S{0,2})?\.?\s*$'
+    lines: [699, 123340]
+    locus: 'sermon{n|int}'
+    number: n
+    ocr_map: {'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 699, set: {n: 'I'}}
+      - {line: 3456, set: {n: 'VII'}}
+      - {line: 22687, set: {n: 'XLIX'}}
+      - {line: 26743, set: {n: 'LVI'}}
+      - {line: 27362, set: {n: 'LVII'}}
+      - {line: 34792, set: {n: 'LXXVIII'}}
+      - {line: 37861, set: {n: 'LXXXVII'}}
+      - {line: 60140, set: {n: 'CLV'}}
+      - {line: 61688, set: {n: 'CLVIII'}}
+      - {line: 71622, set: {n: 'CLXXXVII'}}
+      - {line: 71810, set: {n: '188'}}
+      - {line: 71943, set: {n: 'CLXXXIX'}}
+      - {line: 73375, set: {n: 'CXCVIII'}}
+      - {line: 78909, set: {n: 'CCXXVII'}}
+      - {line: 79818, set: {n: 'CCXXXIII'}}
+      - {line: 80806, set: {n: '238'}}
+      - {line: 82935, set: {n: 'CCXLVI'}}
+      - {line: 87915, set: {n: 'CCLXVI'}}
+      - {line: 91060, set: {n: '278'}}
+      - {line: 92337, set: {n: '283'}}
+      - {line: 93405, set: {n: '287'}}
+      - {line: 93493, set: {n: '288'}}
+      - {line: 97968, set: {n: 'CCXCVIII'}}
+      - {line: 101085, set: {n: 'CCCVIII'}}
+      - {line: 104246, set: {n: '328'}}
+      - {line: 105056, set: {n: '333'}}
+      - {line: 105875, set: {n: '337'}}
+      - {line: 106618, set: {n: 'CCCXLI'}}
+      - {line: 109041, set: {n: '348'}}
+      - {line: 113045, set: {n: 'CCCLVII'}}
+      - {line: 118205, set: {n: '368'}}
+      - {line: 119091, set: {n: '373'}}
+      - {line: 119495, set: {n: 'CCCLXXVI'}}
+      - {line: 119694, set: {n: '377'}}
+      - {line: 119765, set: {n: '378'}}
+      - {line: 120571, set: {n: '382'}}
+      - {line: 120782, set: {n: '383'}}
+      - {line: 120961, set: {n: '384'}}
+      - {line: 121477, set: {n: '386'}}
+      - {line: 121681, set: {n: '387'}}
+      - {line: 121807, set: {n: '388'}}
+      - {line: 121962, set: {n: '389'}}
+  - id: appendix
+    pattern: '^OPERUM S\. AUGUSTINI$'
+    lines: [124429, 124429]
+    locus: appendix
+    division: false
+  - id: appendix-sermon
+    pattern: '^(?=.{1,60}$)(?=.*[*''•■%4(\[{«])[S5K$][A-Za-z.]{1,6}?[MHNImnhiU.][OoQ0)U](?:NIS)?\s*(?P<n>[A-Za-z0-9!|\\:](?:[A-Za-z0-9!|\\:.]{0,10}[A-Za-z0-9!|\\:])?)\s*(?![.»])(?:[*''"‘’•■»%#®~“”4\\.-]\s*){0,4}(?:[\[({«]\s*[^\s.]{1,2}\s*[)\]};,]\S{0,2})?\.?\s*$'
+    lines: [124456, 180457]
+    parent: appendix
+    locus: 'sermon{n|int}'
+    number: n
+    ocr_map: {'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 124456, set: {n: 'I'}}
+      - {line: 125064, set: {n: 'III'}}
+      - {line: 131141, set: {n: 'XXXIII'}}
+      - {line: 135486, set: {n: 'LX'}}
+      - {line: 135581, set: {n: 'LXI'}}
+      - {line: 136688, set: {n: 'LXV'}}
+      - {line: 136867, set: {n: 'LXVI'}}
+      - {line: 138278, set: {n: 'LXXIV'}}
+      - {line: 138456, set: {n: 'LXXV'}}
+      - {line: 139162, set: {n: 'LXXVIII'}}
+      - {line: 140580, set: {n: 'LXXXVII'}}
+      - {line: 150086, set: {n: 'CXXXIX'}}
+      - {line: 151266, set: {n: 'CXLVII'}}
+      - {line: 152266, set: {n: 'CLIII'}}
+      - {line: 156003, set: {n: 'CLXXVII'}}
+      - {line: 157219, set: {n: '188'}}
+      - {line: 161840, set: {n: 'CCXV'}}
+      - {line: 162022, set: {n: 'CCXVI'}}
+      - {line: 165381, set: {n: '238'}}
+      - {line: 167511, set: {n: 'CCL'}}
+      - {line: 167660, set: {n: 'CCLII'}}
+      - {line: 172935, set: {n: '278'}}
+      - {line: 173974, set: {n: '283'}}
+      - {line: 174652, set: {n: '287'}}
+      - {line: 174729, set: {n: '288'}}
+      - {line: 178952, set: {n: 'CCCVIII'}}
+      - {line: 179182, set: {n: 'CCCIX'}}
+  - id: fragment
+    pattern: '^Ex\s+(?:S\S+|\S+\s+S\S+)'
+    lines: [123354, 124427]
+    locus: 'fragmentum-line{line}'
+  - id: chapter
+    pattern: '^(?:C|G)[A-Za-z\\.'']{1,6}?\.?\s*\.?(?P<c>PRIMUM|PRIMU\.M|PIUMUM|PHIMUM|PMMUM|PKIMUM|PHIMU\.M|[IVXLCDMilW1][A-Za-z0-9\\]{0,8})\.?,?\s*[—-]'
+    lines: [[1391, 2728], [4382, 5569], [13450, 14257], [15322, 16396], [20842, 22406], [23573, 25151], [25153, 25848], [31568, 33105], [38506, 39525], [47362, 48092], [65472, 66280], [90254, 91059], [95891, 96814], [109710, 110729], [110731, 111433], [114349, 115246]]
+    parent: sermon
+    locus: 'cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 1396, set: {c: 'I'}}
+      - {line: 4384, set: {c: 'I'}}
+      - {line: 15332, set: {c: 'I'}}
+      - {line: 20848, set: {c: 'I'}}
+      - {line: 23577, set: {c: 'I'}}
+      - {line: 24729, set: {c: 'XVIII'}}
+      - {line: 24915, set: {c: 'XXI'}}
+      - {line: 38512, set: {c: 'I'}}
+      - {line: 65480, set: {c: 'I'}}
+      - {line: 90262, set: {c: 'I'}}
+      - {line: 95897, set: {c: 'I'}}
+      - {line: 109711, set: {c: 'I'}}
+      - {line: 114352, set: {c: 'I'}}
+      - {line: 115135, set: {c: 'XX'}}
+  - id: chapter-46
+    pattern: '^(?:C|G)[A-Za-z\\.'']{1,6}?\.?\s*\.?(?P<c>PRIMUM|PRIMU\.M|PIUMUM|PHIMUM|PMMUM|PKIMUM|PHIMU\.M|[IVXLCDMilW1][A-Za-z0-9\\]{0,8})\.?,?\s*[—-]'
+    lines: [19030, 20840]
+    locus: 'sermon46/cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 19036, set: {c: 'I'}}
+  - id: chapter-362
+    pattern: '^(?:C|G)[A-Za-z\\.'']{1,6}?\.?\s*\.?(?P<c>PRIMUM|PRIMU\.M|PIUMUM|PHIMUM|PMMUM|PKIMUM|PHIMU\.M|[IVXLCDMilW1][A-Za-z0-9\\]{0,8})\.?,?\s*[—-]'
+    lines: [115248, 116819]
+    locus: 'sermon362/cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 115251, set: {c: 'I'}}
+      - {line: 116218, set: {c: 'XVIII'}}
+evidence:
+  - line: 699
+    quote: 'SERMO PRIMUS * («).'
+  - line: 883
+    quote: 'SFIiMO II * (a).'
+  - line: 1390
+    quote: 'SEUMO IV '' (a).'
+  - line: 2729
+    quote: 'SERMO V * (a).'
+  - line: 3456
+    quote: 'SKRMO VHa(a).'
+  - line: 6040
+    quote: 'SERMO XI '' («).'
+  - line: 8552
+    quote: 'SERMO XIX . (a).'
+  - line: 8946
+    quote: 'SERMO XX " (e).'
+  - line: 11588
+    quote: 'SERMO XXVI».'
+  - line: 16397
+    quote: 'SERMO xxxvin».'
+  - line: 19029
+    quote: 'SERMO XLVT».'
+  - line: 22407
+    quote: 'SERMO XLVIII *(a).'
+  - line: 22687
+    quote: 'SERMO \UX • (a).'
+  - line: 26743
+    quote: 'SEHMOLVr («).'
+  - line: 27362
+    quote: 'SKRMO LMI '' (b).'
+  - line: 33324
+    quote: 'SERMOLXXIII».'
+  - line: 34792
+    quote: 'SERMO LXXVIir (a).'
+  - line: 35412
+    quote: 'SEUMO LXXXI * (a). sura urgelur. Pressura el martyres'
+  - line: 37861
+    quote: 'SERMO LXSXVII '' (o).'
+  - line: 39916
+    quote: 'SERMC XC •(»).'
+  - line: 40507
+    quote: 'SERMO XCI («) \'
+  - line: 41537
+    quote: 'RMO XCV (a).'
+  - line: 47100
+    quote: 'SERMO CXYI».'
+  - line: 48093
+    quote: 'SEUMOCXVIII».'
+  - line: 48532
+    quote: 'SERMO CXXl».'
+  - line: 50482
+    quote: 'SERMO CXXVII * (c).'
+  - line: 54594
+    quote: 'sermo cxxxvur (")•'
+  - line: 57170
+    quote: 'SERMO CXLVIII * 0).'
+  - line: 60140
+    quote: 'SERMO CLV4 (a).'
+  - line: 61688
+    quote: 'SERMO :LVIII '' («).'
+  - line: 70171
+    quote: 'SERMO CLXXXl».'
+  - line: 71622
+    quote: 'SKKMO CI.XXXVII '' (a).'
+  - line: 71810
+    quote: 'SERMO CLXXXVIIP («).'
+  - line: 71943
+    quote: 'SERMO CL.XXXIX * («).'
+  - line: 73165
+    quote: 'SERMO CXCVII \'
+  - line: 73375
+    quote: 'SERMO CXCMH '' (b).'
+  - line: 75159
+    quote: 'SERMOCCX».'
+  - line: 78255
+    quote: 'SERMO CCXXIIl ».'
+  - line: 78909
+    quote: 'SERMO CCXXVIP(a).'
+  - line: 79049
+    quote: 'Si: RMO CCXXVIIl * (a).'
+  - line: 79158
+    quote: 'SERMO CCXXIX».'
+  - line: 79250
+    quote: 'SERMO CCXXXI».'
+  - line: 79818
+    quote: 'SERMO CCXXXHL * (b).'
+  - line: 80806
+    quote: 'SERMO CCXXXMII *.'
+  - line: 82935
+    quote: 'SERMO CCXLVP(a).'
+  - line: 86689
+    quote: 'SERMO CCLXIl».'
+  - line: 87915
+    quote: 'SERMO CCIAVI- (o).'
+  - line: 89470
+    quote: 'SERMO CCLXXII '' (a).'
+  - line: 91060
+    quote: 'SERMO CCLXXVIIl '' («).'
+  - line: 92337
+    quote: 'SERMO CCLXXXIll * (a).'
+  - line: 93405
+    quote: 'SERMO CCLXXXVH * («).'
+  - line: 93493
+    quote: 'SERMO CCLXXXVUI * (a).'
+  - line: 97968
+    quote: 'SERMO CCXCMII '' («).'
+  - line: 101085
+    quote: 'SERMO CtCVlII * (a).'
+  - line: 101237
+    quote: 'SERM0CC(3X*(fl).'
+  - line: 104246
+    quote: 'SERMO CCCXXVIII * (,/).'
+  - line: 105056
+    quote: 'SERMO CCCXXxIIl * (b).'
+  - line: 105489
+    quote: 'SERMOCCCXXXV».'
+  - line: 105875
+    quote: 'SERMO CCCXXXYH* (b).'
+  - line: 106065
+    quote: 'SEUMaCCCXXXVlII*(a).'
+  - line: 106177
+    quote: 'SERMO CCCXXXIX '' (c).'
+  - line: 106618
+    quote: 'SEKMO CCCXLP(a).'
+  - line: 109041
+    quote: 'SERMO CCCXLVIII * (o).'
+  - line: 113045
+    quote: 'SEUMO CCCLVJI '' («).'
+  - line: 115247
+    quote: 'sermo ccclxii * (a).'
+  - line: 118205
+    quote: 'SERMO CCCLXVIII '' (a).'
+  - line: 119091
+    quote: 'SERMO CCCLXXIII • (b).'
+  - line: 119495
+    quote: 'SERMO CCCLXXM '' (c).'
+  - line: 119694
+    quote: 'SERMO CCCLXXVTI '' (a).'
+  - line: 119765
+    quote: 'SERMO CCCLXXVIII * (a).'
+  - line: 120571
+    quote: 'SERMO CCCLXXXII '' (a).'
+  - line: 120782
+    quote: 'SERMO CCCLXXXIH '' (o).'
+  - line: 120961
+    quote: 'SLRMO CCCLXXXIV '' (a).'
+  - line: 121477
+    quote: 'SERMO CCCLXXXVI '' (b).'
+  - line: 121681
+    quote: 'SERMO CCCLXXXVII * («).'
+  - line: 121807
+    quote: 'SERMO CCCLXXXVIII (a).'
+  - line: 121962
+    quote: 'SEIIMO CCCLXXXIX '' («).'
+  - line: 122970
+    quote: 'SERMO CCCXCIV («).'
+  - line: 123341
+    quote: 'S. AURELIX AUGUSTINI'
+  - line: 124429
+    quote: 'OPERUM S. AUGUSTINI'
+  - line: 124456
+    quote: 'SERMO PRIMUS (a).'
+  - line: 124898
+    quote: 'SEU.MO II (.i).'
+  - line: 125064
+    quote: 'SERMO 111 (a).'
+  - line: 125232
+    quote: 'SERMO IV (n).'
+  - line: 131141
+    quote: 'SER.MO XX\I!I («).'
+  - line: 131270
+    quote: 'SERMO XXXIV (a).'
+  - line: 135486
+    quote: 'SEUMO I.X (a).'
+  - line: 135581
+    quote: 'SERMO EXI (a).'
+  - line: 136688
+    quote: 'SERMO I.XV (a).'
+  - line: 136867
+    quote: 'SERMO LKVI (a).'
+  - line: 138278
+    quote: 'SERMO LXXSV (a).'
+  - line: 138456
+    quote: 'SERMO I.XXV (a).'
+  - line: 139162
+    quote: 'SERMO LXXMII (o).'
+  - line: 140580
+    quote: 'SERMO IAXXVII (a).'
+  - line: 140820
+    quote: 'SERMO LXXXIX Ib).'
+  - line: 145003
+    quote: 'SERMO CIX. («).'
+  - line: 150086
+    quote: 'SERMO C\\\IX (a).'
+  - line: 151266
+    quote: 'SERVIO CXIAII («).'
+  - line: 152266
+    quote: 'SEKMO CLIB (o).'
+  - line: 153722
+    quote: 'sr.inio clix ia\'
+  - line: 156003
+    quote: 'SERMO CLXXMI («).'
+  - line: 157219
+    quote: 'SERMO CLXXXVIU («).'
+  - line: 158848
+    quote: 'sermo cxcmi (a).'
+  - line: 161840
+    quote: 'SEll.MO CCW (a).'
+  - line: 162022
+    quote: 'SEUMO CCWI («).'
+  - line: 165381
+    quote: 'SFRMO CCXXXVIII (n).'
+  - line: 167511
+    quote: 'SERMO OCL (a).'
+  - line: 167660
+    quote: 'SERMO CCMl (c).'
+  - line: 172935
+    quote: 'SERMO CCLXXVIIl (a).'
+  - line: 173974
+    quote: 'SERMO CCLXXXIII (a).'
+  - line: 174652
+    quote: 'SERMO CCLXXXVU («).'
+  - line: 174729
+    quote: 'SERMO CCLXXXVIII (c).'
+  - line: 178952
+    quote: 'SERMO CCC\III (o).'
+  - line: 179182
+    quote: 'SERMOCCCH (a).'
+  - line: 180458
+    quote: 'INDEX RERUM.'
+divisions:
+  - {start_line: 8552, locus: sermon19}
+  - {start_line: 11588, locus: sermon26}
+  - {start_line: 16397, locus: sermon38}
+  - {start_line: 19029, locus: sermon46}
+  - {start_line: 33324, locus: sermon73}
+  - {start_line: 35412, locus: sermon81}
+  - {start_line: 39916, locus: sermon90}
+  - {start_line: 40507, locus: sermon91}
+  - {start_line: 41537, locus: sermon95}
+  - {start_line: 47100, locus: sermon116}
+  - {start_line: 48093, locus: sermon118}
+  - {start_line: 48532, locus: sermon121}
+  - {start_line: 54594, locus: sermon138}
+  - {start_line: 57170, locus: sermon148}
+  - {start_line: 70171, locus: sermon181}
+  - {start_line: 73165, locus: sermon197}
+  - {start_line: 75159, locus: sermon210}
+  - {start_line: 78255, locus: sermon223}
+  - {start_line: 79049, locus: sermon228}
+  - {start_line: 79158, locus: sermon229}
+  - {start_line: 79250, locus: sermon231}
+  - {start_line: 86689, locus: sermon262}
+  - {start_line: 101237, locus: sermon309}
+  - {start_line: 105489, locus: sermon335}
+  - {start_line: 106065, locus: sermon338}
+  - {start_line: 115247, locus: sermon362}
+  - {start_line: 123341, locus: fragmenta-line123341}
+  - {start_line: 124898, locus: appendix/sermon2}
+  - {start_line: 140820, locus: appendix/sermon89}
+  - {start_line: 145003, locus: appendix/sermon109}
+  - {start_line: 153722, locus: appendix/sermon159}
+  - {start_line: 158848, locus: appendix/sermon197}
+ignore:
+  - pattern: '^Dig\w{3,9} +by\b.{0,12}$'
+    kind: scan-notice
+apparatus:
+  - lines: [12, 698]
+    kind: front
+    locus: front
+  - lines: [124428, 124455]
+    kind: front
+    locus: appendix-front
+  - lines: [180458, 196090]
+    kind: index
+    locus: index

@@ -1,0 +1,456 @@
+file: augustine_confessiones-lat_knoll-csel33.txt
+scheme: 'Knoll''s book and chapter numbers: each book opens with its printed heading LIBER and the ordinal, and each chapter with its Roman numeral and a full stop (1 to 13 books; the section numbers in
+  the margin are not used for addresses)'
+curator: Sonnet 5.5
+status: drafted
+rules:
+- id: liber1
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 1875
+  - 1875
+  locus: liber1
+  division: false
+- id: caput1
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber1
+  lines:
+  - 1876
+  - 3604
+  locus: caput{n|int}
+  number: n
+  ocr_map: &id001
+    Y: V
+    T: I
+    l: I
+    '1': I
+    m: III
+    i: I
+    J: I
+  fixes: []
+- id: liber2
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 3605
+  - 3605
+  locus: liber2
+  division: false
+- id: caput2
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber2
+  lines:
+  - 3606
+  - 4474
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber3
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 4475
+  - 4475
+  locus: liber3
+  division: false
+- id: caput3
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber3
+  lines:
+  - 4476
+  - 5680
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber4
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 5681
+  - 5681
+  locus: liber4
+  division: false
+- id: caput4
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber4
+  lines:
+  - 5682
+  - 7258
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber5
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 7259
+  - 7259
+  locus: liber5
+  division: false
+- id: caput5
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber5
+  lines:
+  - 7260
+  - 8742
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber6
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 8743
+  - 8743
+  locus: liber6
+  division: false
+- id: caput6
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber6
+  lines:
+  - 8744
+  - 10352
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes:
+  - line: 9299
+    set:
+      n: VI
+- id: liber7
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 10353
+  - 10353
+  locus: liber7
+  division: false
+- id: caput7
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber7
+  lines:
+  - 10354
+  - 12044
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber8
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 12045
+  - 12045
+  locus: liber8
+  division: false
+- id: caput8
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber8
+  lines:
+  - 12046
+  - 13561
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber9
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 13562
+  - 13562
+  locus: liber9
+  division: false
+- id: caput9
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber9
+  lines:
+  - 13563
+  - 15296
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber10
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 15297
+  - 15297
+  locus: liber10
+  division: false
+- id: caput10
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber10
+  lines:
+  - 15298
+  - 18446
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes:
+  - line: 16716
+    set:
+      n: XXI
+- id: liber11
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 18447
+  - 18447
+  locus: liber11
+  division: false
+- id: caput11
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber11
+  lines:
+  - 18448
+  - 20236
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+- id: liber12
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 20237
+  - 20237
+  locus: liber12
+  division: false
+- id: caput12
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber12
+  lines:
+  - 20238
+  - 22327
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes:
+  - line: 21462
+    set:
+      n: XXI
+- id: liber13
+  pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'
+  lines:
+  - 22328
+  - 22328
+  locus: liber13
+  division: false
+- id: caput13
+  pattern: ^(?:\S{1,2} ){0,2}(?P<n>[IVXLCYT1][IVXLCYTlmiJ1]{0,8})[.L] (?:[A-Z][a-z]|0 [a-z]|\d{1,2} [a-z])
+  parent: liber13
+  lines:
+  - 22329
+  - 25059
+  locus: caput{n|int}
+  number: n
+  ocr_map: *id001
+  fixes: []
+ignore:
+- pattern: ^(?:\d+ )?S\. Aureli Augustini$
+  kind: running-head
+  lines:
+  - 1875
+  - 25059
+- pattern: ^confessionum lib\. [IVXYJTl]+, c\.?
+  kind: running-head
+  lines:
+  - 1875
+  - 25059
+- pattern: ^XXX\S{1,4}\. Aur\. Aug
+  kind: signature
+  lines:
+  - 1875
+  - 25059
+- pattern: ^\d{1,3}$
+  kind: page-or-margin-number
+  lines:
+  - 1875
+  - 25059
+apparatus:
+- lines:
+  - 1
+  - 1874
+  kind: front
+  locus: front
+- lines:
+  - 25060
+  - 29315
+  kind: index
+  locus: indices
+evidence:
+- line: 1875
+  quote: LIBER PRIMVS.
+- line: 1877
+  quote: I.
+- line: 2063
+  quote: 5 Y.
+- line: 2758
+  quote: XI.
+- line: 3150
+  quote: XY.
+- line: 3198
+  quote: 25 XYI.
+- line: 3538
+  quote: 31 XX.
+- line: 3605
+  quote: LIBER SECVNDVS.
+- line: 3607
+  quote: I.
+- line: 4062
+  quote: 10 Y.
+- line: 4169
+  quote: 12 YI.
+- line: 4410
+  quote: VITII.
+- line: 4464
+  quote: 5 X.
+- line: 4475
+  quote: LIBER TERTIVS.
+- line: 4477
+  quote: 15 I.
+- line: 4886
+  quote: 9 Y.
+- line: 5092
+  quote: VII.
+- line: 5384
+  quote: 1 7 VITII.
+- line: 5492
+  quote: 19 XJ.
+- line: 5617
+  quote: 21 XII.
+- line: 5681
+  quote: LIBER QVARTVS.
+- line: 5683
+  quote: I.
+- line: 6411
+  quote: io Vim.
+- line: 7050
+  quote: XVI.
+- line: 7259
+  quote: LIBER QVINTVS.
+- line: 7261
+  quote: I.
+- line: 7952
+  quote: 14 VIII.
+- line: 8631
+  quote: XIIII.
+- line: 8743
+  quote: LIBER SEXTVS.
+- line: 8745
+  quote: I.
+- line: 9185
+  quote: 7 Y.
+- line: 9299
+  quote: 9 VL
+- line: 9669
+  quote: 14 VIIII.
+- line: 10236
+  quote: 25 XY.
+- line: 10251
+  quote: 26 XVI.
+- line: 10353
+  quote: LIBER SEPTIMVS.
+- line: 10355
+  quote: 1 I.
+- line: 10712
+  quote: 7 Y.
+- line: 11405
+  quote: 17 XI.
+- line: 11585
+  quote: io XYI.
+- line: 11748
+  quote: 25 XYIIII.
+- line: 11886
+  quote: 27 XXI.
+- line: 12045
+  quote: LIBER OCTAVVS.
+- line: 12047
+  quote: I.
+- line: 12530
+  quote: Y.
+- line: 12877
+  quote: 1G VII.
+- line: 13076
+  quote: YIIII.
+- line: 13407
+  quote: XII.
+- line: 13562
+  quote: LIBER NONVS.
+- line: 13564
+  quote: 1 I.
+- line: 14130
+  quote: 13 Y.
+- line: 14179
+  quote: YI.
+- line: 14232
+  quote: 15 VII.
+- line: 15128
+  quote: XIII.
+- line: 15297
+  quote: LIBER DECIMVS.
+- line: 15299
+  quote: 1 I.
+- line: 15596
+  quote: YI.
+- line: 16320
+  quote: XY.
+- line: 16364
+  quote: 24 XYI.
+- line: 16716
+  quote: 30 XXL
+- line: 16791
+  quote: XXII.
+- line: 17058
+  quote: 40 XXYIIII.
+- line: 17864
+  quote: 58 XXXYI.
+- line: 18336
+  quote: 68 XXXXIII.
+- line: 18447
+  quote: LIBER YNDECIMYS.
+- line: 18449
+  quote: 1 I.
+- line: 18774
+  quote: YI.
+- line: 18886
+  quote: YIII.
+- line: 18933
+  quote: 11 Vim.
+- line: 19345
+  quote: XVI.
+- line: 20184
+  quote: XXXI.
+- line: 20237
+  quote: LIBER DVODECIMVS.
+- line: 20239
+  quote: 1 I.
+- line: 20353
+  quote: Y.
+- line: 20361
+  quote: 6 Yl.
+- line: 20919
+  quote: io XY.
+- line: 21166
+  quote: XVII.
+- line: 21299
+  quote: 20 XV11I.
+- line: 21462
+  quote: 30 XXL
+- line: 22271
+  quote: XXXII.
+- line: 22328
+  quote: LIBER TERTIVS DECIMVS.
+- line: 22330
+  quote: 1 I.
+- line: 22567
+  quote: 6 Y.
+- line: 22752
+  quote: YIIII.
+- line: 23150
+  quote: XY.
+- line: 23277
+  quote: XYI.
+- line: 23620
+  quote: 5 XX.
+- line: 24314
+  quote: 38 XXY.
+- line: 24388
+  quote: XXYI.
+- line: 24992
+  quote: 15 XXXVIII.
