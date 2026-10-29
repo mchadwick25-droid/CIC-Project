@@ -236,3 +236,24 @@ Binding on every stage, as a gate on each change order:
   source link a reader has today.
 - Each stage's change order states how it keeps all three levels and source
   access, and its done-when includes a check on the changed path.
+
+## 5. Rulings on the review cap and on spend (2026-10-29)
+
+Mark, 2026-10-29, in chat: "no three rounds then my interaction and
+permission (we can get stuck on a cycle seeking perfection and we want high
+quality). keep permission for anything that is a real spend (api), but remove
+caps for in system spends. we will monitor the use and slow down if we are
+spending to fast. we want to be efficiant, but not restrictive".
+
+- Review cap stays at three rounds. After the third, the document escalates
+  to Mark, who decides; it does not take a fourth round on its own. This is
+  the standing CLAUDE.md rule, unchanged. It stands for aec (Antiochene) and
+  rcg (Rome in the Age of Gregory the Great), which stay escalated until Mark
+  rules on each.
+- Real spend stays gated. Any metered outside-service call (model API, Bedrock,
+  other vendors) needs Mark's permission by name, with a cap, as CLAUDE.md
+  says. This entry does not approve any dollar figure.
+- In-system spend, the work done inside the Max-200 allowance (Claude Code
+  sessions and the threads' own work), has no cap. Mark monitors use and will
+  slow the work if it runs too fast. Threads work efficiently and are not
+  restricted by a budget ceiling.
