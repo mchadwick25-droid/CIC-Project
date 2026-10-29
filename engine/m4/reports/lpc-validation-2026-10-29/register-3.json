@@ -1,0 +1,1620 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.029207
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2246,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2084,
+      "output_tokens": 169,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2602,
+      "output_tokens": 366,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How was a bishop chosen?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "A bishop was chosen by the people who would be placed in his care. The congregation spoke, out loud, and their voice put a man into the office. It could go against his own wishes, and it did.\n\nCyprian was a trained speaker who turned to the faith in middle life. Two or three years after that, Carthage chose him as their bishop by acclamation. Five presbyters opposed him. Later he wrote that what put him in office were two things: the people's suffrage, and God's judgment. A deacon who knew him, Pontius, said the same.\n\nThe pattern came back in our later years. In 391 Augustine was seized at Hippo and made a presbyter against his will. Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”\n\nA few years after that he was made bishop of the same city, again compelled and constrained.\n\nThis was not a vote with a ballot. It was the voice of a people claiming the man they wanted, and holding him to what they had chosen him for.",
+          "citations": [
+            {
+              "sentence": "The congregation spoke, out loud, and their voice put a man into the office.",
+              "record_ids": [
+                "lpc.term.the-people"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-people",
+                  "record_type": "term",
+                  "label": "the people",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXXIX, addressed to the people concerning five schismatic presbyters",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter CXXVI carries the Hippo episode; Augustine's own account of accepting the episcopate cites 'the love of Valerius and the importunity of the people'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It could go against his own wishes, and it did.",
+              "record_ids": [
+                "lpc.force.congregational-acclamation-overriding-preference"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                  "record_type": "force",
+                  "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian was a trained speaker who turned to the faith in middle life.",
+              "record_ids": [
+                "lpc.story.election-of-cyprian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.election-of-cyprian",
+                  "record_type": "story",
+                  "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Two or three years after that, Carthage chose him as their bishop by acclamation.",
+              "record_ids": [
+                "lpc.story.election-of-cyprian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.election-of-cyprian",
+                  "record_type": "story",
+                  "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Later he wrote that what put him in office were two things: the people's suffrage, and God's judgment.",
+              "record_ids": [
+                "lpc.term.suffrage"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.suffrage",
+                  "record_type": "term",
+                  "label": "suffrage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A deacon who knew him, Pontius, said the same.",
+              "record_ids": [
+                "lpc.story.election-of-cyprian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.election-of-cyprian",
+                  "record_type": "story",
+                  "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+              "record_ids": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.clamour-and-tears",
+                  "record_type": "quote",
+                  "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                  "speaker": "Possidius, bishop of Calama"
+                }
+              ]
+            },
+            {
+              "sentence": "A few years after that he was made bishop of the same city, again compelled and constrained.",
+              "record_ids": [
+                "lpc.force.congregational-acclamation-overriding-preference"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                  "record_type": "force",
+                  "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "This was not a vote with a ballot.",
+              "record_ids": [
+                "lpc.term.suffrage"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.suffrage",
+                  "record_type": "term",
+                  "label": "suffrage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It was the voice of a people claiming the man they wanted, and holding him to what they had chosen him for.",
+              "record_ids": [
+                "lpc.term.the-flock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-flock",
+                  "record_type": "term",
+                  "label": "the flock",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "the people",
+              "text_start": 23,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-general-correspondence",
+                  "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.suffrage",
+              "matched_name": "suffrage",
+              "text_start": 447,
+              "plain_meaning": "Cyprian named two things that put him in office: our suffrage, and God's judgment. A rival group opposed him, but the people chose him anyway.",
+              "quick_meaning": "For us, suffrage is the voice of the people that puts a man into office. It can go against his own wishes.",
+              "translational_sense": "A modern listener will hear 'suffrage' as the right to vote, and expect a franchise, a ballot, and a procedure. We mean neither. A corporate acclamation that carries real constitutive force, in a community where the man acclaimed is expected to resist and where an organized faction can oppose without stopping it.",
+              "false_friend": [
+                "the right to vote, with an expected franchise, a ballot, and a fixed procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-general-correspondence",
+                  "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 193,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.pontius",
+              "matched_name": "Pontius",
+              "text_start": 500,
+              "names": [
+                {
+                  "name": "Pontius, our bishop's own deacon",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Pontius the Deacon (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop's own deacon. He went with him into exile, and after the execution he wrote the account of his life and death.",
+              "dates": {
+                "display": "Cyprian's own deacon, present with him at his banishment to Curubis; wrote The Life and Passion of Cyprian after his bishop's execution in 258, the first Christian biography"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 574,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.possidius",
+              "matched_name": "Possidius",
+              "text_start": 643,
+              "names": [
+                {
+                  "name": "Possidius, bishop of Calama",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Possidius of Calama (d. after 437)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop of Calama who had been Augustine's friend for almost forty years, and who stood by him and prayed as he died",
+              "dates": {
+                "display": "Augustine's own friend for nearly forty years; bishop of Calama in his own right; physically present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present'; wrote the Vita Augustini, the source for the psalms on the wall and for the account of the people seizing Augustine at Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "how",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground"
+            ],
+            "term": [
+              "lpc.term.the-people",
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.clamour-and-tears"
+            ],
+            "gravity": [
+              "lpc.gravity.pastoral-office-flock-keeping"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "A bishop was chosen by the people who would be placed in his care.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "A bishop was chosen by the people who would be placed in his care."
+              },
+              {
+                "sentence": "The congregation spoke, out loud, and their voice put a man into the office.",
+                "tags": [
+                  "lpc.term.the-people"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The congregation spoke, out loud, and their voice put a man into the office [[lpc.term.the-people]]."
+              },
+              {
+                "sentence": "It could go against his own wishes, and it did.",
+                "tags": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "It could go against his own wishes, and it did [[lpc.force.congregational-acclamation-overriding-preference]]."
+              },
+              {
+                "sentence": "Cyprian was a trained speaker who turned to the faith in middle life.",
+                "tags": [
+                  "lpc.story.election-of-cyprian"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "Cyprian was a trained speaker who turned to the faith in middle life [[lpc.story.election-of-cyprian]]."
+              },
+              {
+                "sentence": "Two or three years after that, Carthage chose him as their bishop by acclamation.",
+                "tags": [
+                  "lpc.story.election-of-cyprian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 71% in own tagged records",
+                "ratio": 0.71,
+                "narrates_story": true,
+                "draft": "Two or three years after that, Carthage chose him as their bishop by acclamation [[lpc.story.election-of-cyprian]]."
+              },
+              {
+                "sentence": "Five presbyters opposed him.",
+                "tags": [
+                  "lpc.story.election-of-cyprian"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (number) only 0% grounded in its own tags",
+                "ratio": 0.0,
+                "draft": "Five presbyters opposed him [[lpc.story.election-of-cyprian]]."
+              },
+              {
+                "sentence": "Later he wrote that what put him in office were two things: the people's suffrage, and God's judgment.",
+                "tags": [
+                  "lpc.term.suffrage"
+                ],
+                "verdict": "ok",
+                "why": "grounded 80% in own tagged records",
+                "ratio": 0.8,
+                "draft": "Later he wrote that what put him in office were two things: the people's suffrage, and God's judgment [[lpc.term.suffrage]]."
+              },
+              {
+                "sentence": "A deacon who knew him, Pontius, said the same.",
+                "tags": [
+                  "lpc.story.election-of-cyprian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 80% in own tagged records",
+                "ratio": 0.8,
+                "narrates_story": true,
+                "draft": "A deacon who knew him, Pontius, said the same [[lpc.story.election-of-cyprian]]."
+              },
+              {
+                "sentence": "The pattern came back in our later years.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The pattern came back in our later years."
+              },
+              {
+                "sentence": "In 391 Augustine was seized at Hippo and made a presbyter against his will.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['augustine', 'hippo'], number) with no citation tag",
+                "draft": "In 391 Augustine was seized at Hippo and made a presbyter against his will."
+              },
+              {
+                "sentence": "Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+                "tags": [
+                  "lpc.quote.clamour-and-tears"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.clamour-and-tears",
+                "draft": "Possidius wrote: [[quote:lpc.quote.clamour-and-tears]]"
+              },
+              {
+                "sentence": "A few years after that he was made bishop of the same city, again compelled and constrained.",
+                "tags": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "verdict": "ok",
+                "why": "grounded 78% in own tagged records",
+                "ratio": 0.78,
+                "draft": "A few years after that he was made bishop of the same city, again compelled and constrained [[lpc.force.congregational-acclamation-overriding-preference]]."
+              },
+              {
+                "sentence": "This was not a vote with a ballot.",
+                "tags": [
+                  "lpc.term.suffrage"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "This was not a vote with a ballot [[lpc.term.suffrage]]."
+              },
+              {
+                "sentence": "It was the voice of a people claiming the man they wanted, and holding him to what they had chosen him for.",
+                "tags": [
+                  "lpc.term.the-flock"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "It was the voice of a people claiming the man they wanted, and holding him to what they had chosen him for [[lpc.term.the-flock]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.force.congregational-acclamation-overriding-preference",
+                  "lpc.term.the-people"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "A bishop was chosen by the people who would be placed in his care.",
+                    "tags": [
+                      "lpc.force.congregational-acclamation-overriding-preference",
+                      "lpc.term.the-people"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  }
+                }
+              },
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [
+                  "lpc.story.election-of-cyprian",
+                  "lpc.term.suffrage"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.quote.clamour-and-tears"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "The pattern came back in our later years.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "1": {
+                    "sentence": "In 391 Augustine was seized at Hippo and made a presbyter against his will.",
+                    "tags": [
+                      "lpc.quote.clamour-and-tears"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 40% in own tagged records",
+                    "ratio": 0.4
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.term.suffrage",
+                  "lpc.term.the-flock"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 66
+              },
+              {
+                "index": 1,
+                "text_start": 67,
+                "text_end": 143
+              },
+              {
+                "index": 2,
+                "text_start": 144,
+                "text_end": 191
+              },
+              {
+                "index": 3,
+                "text_start": 193,
+                "text_end": 262
+              },
+              {
+                "index": 4,
+                "text_start": 263,
+                "text_end": 344
+              },
+              {
+                "index": 5,
+                "text_start": 345,
+                "text_end": 373
+              },
+              {
+                "index": 6,
+                "text_start": 374,
+                "text_end": 476
+              },
+              {
+                "index": 7,
+                "text_start": 477,
+                "text_end": 523
+              },
+              {
+                "index": 8,
+                "text_start": 525,
+                "text_end": 566
+              },
+              {
+                "index": 9,
+                "text_start": 567,
+                "text_end": 642
+              },
+              {
+                "index": 10,
+                "text_start": 643,
+                "text_end": 1115
+              },
+              {
+                "index": 11,
+                "text_start": 1117,
+                "text_end": 1209
+              },
+              {
+                "index": 12,
+                "text_start": 1211,
+                "text_end": 1245
+              },
+              {
+                "index": 13,
+                "text_start": 1246,
+                "text_end": 1353
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 0,
+                "char_start": 23,
+                "char_end": 33,
+                "surface": "the people"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 3,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.story.election-of-cyprian",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 81,
+                "surface": "Two or three years after that, Carthage chose him as their bishop by acclamation."
+              },
+              {
+                "record_id": "lpc.term.suffrage",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The pattern is attested through different figures and different words -- and at the same office (the episcopate) in both phases -- not one recurring term. Named as a pattern, not presented as a shared vocabulary item. The word hears as a modern franchise, which is a captured sense, so distortion risk is high.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 6,
+                "char_start": 73,
+                "char_end": 81,
+                "surface": "suffrage"
+              },
+              {
+                "record_id": "lpc.figure.pontius",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Widely Accepted rather than Documented: Pontius's own presence at Curubis is licensed for that specific fact but his own biography generally (SSSS2-4, Cyprian's conversion) has not been independently re-checked this session (lpc.source.pontius-life-and-passion-of-cyprian's own divergence_note).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 23,
+                "char_end": 30,
+                "surface": "Pontius"
+              },
+              {
+                "record_id": "lpc.story.election-of-cyprian",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": true,
+                "kind": "story",
+                "sentence_index": 7,
+                "char_start": 0,
+                "char_end": 46,
+                "surface": "A deacon who knew him, Pontius, said the same."
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 9,
+                "char_start": 7,
+                "char_end": 16,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.figure.possidius",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 10,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Possidius"
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 10,
+                "char_start": 17,
+                "char_end": 472,
+                "surface": "“The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "label": "the people",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XXXIX, addressed to the people concerning five schismatic presbyters",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter CXXVI carries the Hippo episode; Augustine's own account of accepting the episcopate cites 'the love of Valerius and the importunity of the people'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                "record_type": "force",
+                "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1B-2: Documented -- Epistle XXXIX (Registry row 1); Pontius (row 7, Confidence A); Possidius's Vita chs. IV and VIII (row 192); Doc_01 §2. The pattern is attested through different figures and different words at the same office in both phases, a caution carried directly in this force's own Layer 3 rather than smoothed into one uniform recurring term.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.story.election-of-cyprian",
+                "record_type": "story",
+                "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.suffrage",
+                "record_type": "term",
+                "label": "suffrage",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The pattern is attested through different figures and different words -- and at the same office (the episcopate) in both phases -- not one recurring term. Named as a pattern, not presented as a shared vocabulary item. The word hears as a modern franchise, which is a captured sense, so distortion risk is high.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                "speaker": "Possidius, bishop of Calama",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "label": "the flock",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                "record_type": "force",
+                "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1B-2: Documented -- Epistle XXXIX (Registry row 1); Pontius (row 7, Confidence A); Possidius's Vita chs. IV and VIII (row 192); Doc_01 §2. The pattern is attested through different figures and different words at the same office in both phases, a caution carried directly in this force's own Layer 3 rather than smoothed into one uniform recurring term.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "label": "the flock",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 3,
+              "sentence_indexes": [
+                0,
+                5,
+                9
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.clamour-and-tears"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

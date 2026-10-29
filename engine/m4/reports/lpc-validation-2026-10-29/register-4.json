@@ -1,0 +1,693 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.033133
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2255,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2093,
+      "output_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 4324,
+      "output_tokens": 254,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did Augustine mean by \"love, and do what you will\"?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "For us, it means the root decides what the deed is worth. Augustine wrote: “A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.”\n\nHe meant that one man beats a boy from love, to correct him, while another caresses the same boy from wrong, to steal him. The deeds look opposite, but the root is what names them. It is not a licence to call any deed you want loving and then do it. It is a test: what root is the deed growing from? He said it in preaching, the regular talk to the whole church that was the main way our teaching reached plain believers.\n\nThe line comes to us from one of his homilies on the first letter of John. He was working on what love does: it can correct, and it can spare. The words themselves do not settle every hard case. They press you back to the question underneath — what are you actually doing this from? — and they say that question is the real one.",
+          "citations": [
+            {
+              "sentence": "For us, it means the root decides what the deed is worth.",
+              "record_ids": [
+                "lpc.quote.love-and-do-what-thou-wilt"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.love-and-do-what-thou-wilt",
+                  "record_type": "quote",
+                  "label": "Tractates on the Gospel of John, Homily 7 on the First Epistle of John — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                      "author": null,
+                      "work": null,
+                      "locus": "Homily 7 on the First Epistle of John (NPNF Homily VII), section 8; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote: “A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.”",
+              "record_ids": [
+                "lpc.quote.love-and-do-what-thou-wilt"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.love-and-do-what-thou-wilt",
+                  "record_type": "quote",
+                  "label": "Tractates on the Gospel of John, Homily 7 on the First Epistle of John — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                      "author": null,
+                      "work": null,
+                      "locus": "Homily 7 on the First Epistle of John (NPNF Homily VII), section 8; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "He said it in preaching, the regular talk to the whole church that was the main way our teaching reached plain believers.",
+              "record_ids": [
+                "lpc.term.preaching"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.preaching",
+                  "record_type": "term",
+                  "label": "preaching",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Tractates on John, exegetical preaching",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.preaching",
+              "matched_name": "preaching",
+              "text_start": 1223,
+              "plain_meaning": "You are in the room, baptized or still learning. Again and again, the same voice works on you. It is not a lecture and not a show. It is the man in charge of you, telling you to your face what he thinks you need.",
+              "quick_meaning": "For us, preaching is the regular talk to the whole church, baptized or still learning. It is the main way what we hold reaches an ordinary believer.",
+              "translational_sense": "A modern listener may hear either a stern moralizing monologue or a polished performance piece, and assume it is one component of a service among several. For us it was the central formative act of ordinary life, delivered by the person personally answerable for the hearers, occasional and responsive rather than scripted, and openly aware of what it competed with for people's own attention.",
+              "false_friend": [
+                "a stern moralizing monologue, or a polished performance piece, assumed to be one component of a service among several rather than the central formative act"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                  "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Tractates on John, exegetical preaching",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 58,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                  "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                  "author": null,
+                  "work": null,
+                  "locus": "Homily 7 on the First Epistle of John (NPNF Homily VII), section 8; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_means",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.preaching"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.love-and-do-what-thou-wilt",
+              "lpc.quote.dash-the-little-ones-against-the-rock",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "gravity": [
+              "lpc.gravity.preaching-and-catechesis",
+              "lpc.gravity.conciliar-authority-theory"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "For us, it means the root decides what the deed is worth.",
+                "tags": [
+                  "lpc.quote.love-and-do-what-thou-wilt"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "For us, it means the root decides what the deed is worth [[lpc.quote.love-and-do-what-thou-wilt]]."
+              },
+              {
+                "sentence": "Augustine wrote: “A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.”",
+                "tags": [
+                  "lpc.quote.love-and-do-what-thou-wilt"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.love-and-do-what-thou-wilt",
+                "draft": "Augustine wrote: [[quote:lpc.quote.love-and-do-what-thou-wilt]]"
+              },
+              {
+                "sentence": "He meant that one man beats a boy from love, to correct him, while another caresses the same boy from wrong, to steal him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He meant that one man beats a boy from love, to correct him, while another caresses the same boy from wrong, to steal him."
+              },
+              {
+                "sentence": "The deeds look opposite, but the root is what names them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The deeds look opposite, but the root is what names them."
+              },
+              {
+                "sentence": "It is not a licence to call any deed you want loving and then do it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is not a licence to call any deed you want loving and then do it."
+              },
+              {
+                "sentence": "It is a test: what root is the deed growing from?",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is a test: what root is the deed growing from?"
+              },
+              {
+                "sentence": "He said it in preaching, the regular talk to the whole church that was the main way our teaching reached plain believers.",
+                "tags": [
+                  "lpc.term.preaching"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He said it in preaching, the regular talk to the whole church that was the main way our teaching reached plain believers [[lpc.term.preaching]]."
+              },
+              {
+                "sentence": "The line comes to us from one of his homilies on the first letter of John.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['john']) with no citation tag",
+                "draft": "The line comes to us from one of his homilies on the first letter of John."
+              },
+              {
+                "sentence": "He was working on what love does: it can correct, and it can spare.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He was working on what love does: it can correct, and it can spare."
+              },
+              {
+                "sentence": "The words themselves do not settle every hard case.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The words themselves do not settle every hard case."
+              },
+              {
+                "sentence": "They press you back to the question underneath — what are you actually doing this from?",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They press you back to the question underneath — what are you actually doing this from?"
+              },
+              {
+                "sentence": "— and they say that question is the real one.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "— and they say that question is the real one."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.quote.love-and-do-what-thou-wilt"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [
+                  "lpc.term.preaching"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "He meant that one man beats a boy from love, to correct him, while another caresses the same boy from wrong, to steal him.",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "1": {
+                    "sentence": "The deeds look opposite, but the root is what names them.",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "2": {
+                    "sentence": "It is not a licence to call any deed you want loving and then do it.",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "3": {
+                    "sentence": "It is a test: what root is the deed growing from?",
+                    "tags": [
+                      "lpc.term.preaching"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.love-and-do-what-thou-wilt"
+              ],
+              "removed": [
+                {
+                  "sentence": "From love, he said, nothing springs but good.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "From love, he said, nothing springs but good."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 57
+              },
+              {
+                "index": 1,
+                "text_start": 58,
+                "text_end": 907
+              },
+              {
+                "index": 2,
+                "text_start": 909,
+                "text_end": 1031
+              },
+              {
+                "index": 3,
+                "text_start": 1032,
+                "text_end": 1089
+              },
+              {
+                "index": 4,
+                "text_start": 1090,
+                "text_end": 1158
+              },
+              {
+                "index": 5,
+                "text_start": 1159,
+                "text_end": 1208
+              },
+              {
+                "index": 6,
+                "text_start": 1209,
+                "text_end": 1330
+              },
+              {
+                "index": 7,
+                "text_start": 1332,
+                "text_end": 1406
+              },
+              {
+                "index": 8,
+                "text_start": 1407,
+                "text_end": 1474
+              },
+              {
+                "index": 9,
+                "text_start": 1475,
+                "text_end": 1526
+              },
+              {
+                "index": 10,
+                "text_start": 1527,
+                "text_end": 1614
+              },
+              {
+                "index": 11,
+                "text_start": 1615,
+                "text_end": 1660
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.quote.love-and-do-what-thou-wilt",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. 'Boy-stealer' renders mango, a dealer in slaves who fawns on a boy to take him. 'Charity' renders caritas, while the short command uses the verb dilige and 'love' is dilectio.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 0,
+                "char_start": 0,
+                "char_end": 57,
+                "surface": "For us, it means the root decides what the deed is worth."
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.love-and-do-what-thou-wilt",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. 'Boy-stealer' renders mango, a dealer in slaves who fawns on a boy to take him. 'Charity' renders caritas, while the short command uses the verb dilige and 'love' is dilectio.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": true,
+                "kind": "quote",
+                "sentence_index": 1,
+                "char_start": 17,
+                "char_end": 849,
+                "surface": "“A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.”"
+              },
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 6,
+                "char_start": 14,
+                "char_end": 23,
+                "surface": "preaching"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.quote.love-and-do-what-thou-wilt",
+                "record_type": "quote",
+                "label": "Tractates on the Gospel of John, Homily 7 on the First Epistle of John — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "Homily 7 on the First Epistle of John (NPNF Homily VII), section 8; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "A father beats a boy, and a slave-dealer caresses him. Name the two things, blows and caresses: who would not choose the caresses and refuse the blows? Look at the persons: it is love that beats, and wickedness that caresses. See what we are pressing on you. People’s deeds are told apart only by the root of love. For many things may be done that look good, and yet do not come from the root of love. Thorns have flowers too. Some actions seem rough, even savage. Yet they are done to train and correct, at love’s bidding. So once and for all, you are given a short rule: Love, and do what you will. If you keep silent, keep silent from love. If you cry out, cry out from love. If you correct, correct from love. If you spare, spare from love. Let the root of love be within you. From this root nothing can grow but what is good.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. 'Boy-stealer' renders mango, a dealer in slaves who fawns on a boy to take him. 'Charity' renders caritas, while the short command uses the verb dilige and 'love' is dilectio.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.love-and-do-what-thou-wilt"
+            ],
+            "removed": [
+              {
+                "sentence": "From love, he said, nothing springs but good.",
+                "why": "words attributed without a placed quote",
+                "draft": "From love, he said, nothing springs but good."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

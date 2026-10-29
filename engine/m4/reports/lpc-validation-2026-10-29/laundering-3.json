@@ -1,0 +1,203 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.024485
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2252,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2090,
+      "output_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2737,
+      "output_tokens": 49,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Give me one line that sums up what you believe.",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We baptize you into the one body, teach you the creed before the water, and hold you through your own failure by a road back walked in the open, where the shepherd answers for the flock he was given.",
+          "citations": [],
+          "glosses": [
+            {
+              "id": "lpc.term.the-flock",
+              "matched_name": "the flock",
+              "text_start": 176,
+              "plain_meaning": "A bishop, for us, is not an officer of some wider institution, dropped into a posting. He is given a people. He preaches to them and baptizes them, and when they fail it is not a problem he manages but a wound he carries. The charge runs both ways: he answers for his flock, and his flock can stand in front of his seat and refuse to leave until he hears them.",
+              "quick_meaning": "For us, the flock is not the church in general. It is the particular people one bishop is given, in one place. He answers for them, and they can hold him to it.",
+              "translational_sense": "A modern listener often hears 'flock' as soft and a little patronizing -- pious language for churchgoers, gentle on the pastor's side, passive on theirs, and 'bishop' as a regional administrator several removes from ordinary life. We do not mean either. The flock is a charge that can be lost, and its failure is reckoned to the one who holds it. Our people are not passive: they elect, they demand, and they can force a bishop's hand. And the bishop is not remote -- he is the man who preached to you himself and knows which of you did not come.",
+              "false_friend": [
+                "a soft, sentimental way of describing churchgoers, with a passive congregation and a gently benevolent pastor",
+                "a bishop understood as a remote regional administrator rather than the man who preaches to these people himself and knows who did not come"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "kind": "other",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "term": [
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.the-death-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+              "lpc.quote.thank-offerings-for-the-very-good"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We baptize you into the one body, teach you the creed before the water, and hold you through your own failure by a road back walked in the open, where the shepherd answers for the flock he was given.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We baptize you into the one body, teach you the creed before the water, and hold you through your own failure by a road back walked in the open, where the shepherd answers for the flock he was given."
+              }
+            ],
+            "substantive_survives": false,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 199
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 0,
+                "char_start": 176,
+                "char_end": 185,
+                "surface": "the flock"
+              }
+            ],
+            "references": [],
+            "end_references": [],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": true,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

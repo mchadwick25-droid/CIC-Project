@@ -22,13 +22,13 @@ card_name: "The Ordinary Church"
 app: {order: 12, accent_color: "#85914E", portrait: "/images/portraits/thumb/datus.webp"}
 representative: {name: Datus}
 census_id: "latin-pastoral-congregational-christianity"
-thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
+thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote in Carthage or Hippo between 246 and 430 survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
 safety_adjacent: true
 living_tradition_flag: true
 state: built
 package:
-  manifest_hash: "sha256:2662b59ad2816abd730946fe55d89de9b261f7dd0c90d7248bdea82b8d60f2b8"
-  location: "packages/lpc/2026-10-29T05-33-56Z"
+  manifest_hash: "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa"
+  location: "packages/lpc/2026-10-29T11-53-43Z"
 story_placement: false
 card:
   portrait: "assets/portraits/datus.jpg"

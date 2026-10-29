@@ -68,3 +68,9 @@ Allowance share used: moderate to heavy (five Opus subagent runs, one at a time)
 - Source fixes since: the end is the siege of Hippo in 430; the voice carries no knowledge past 430 (horizon paragraph removed, `living_traditions` and caution 13 rewritten); the silent-century limit rewritten. Pin `packages/lpc/2026-10-28T04-35-04Z`.
 - Still needed for `admitted`: one run of admission and validation on this pin (about $3, a name and cap from the project lead), after the engine thread addresses E1 to E6 in `Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`. Admission reruns dropped twice on connection errors; run it with a retry.
 - Spend under the names go-live 2, 3 and 4 is in the ledger at `/tmp/cic-live-test-ledger.jsonl` (this session's machine); the Decision Log has the totals.
+
+## Update, 2026-10-29
+
+- Record fixes from the fleet run are on main (baptism as new birth, Felicissimus and Rome, the apse letter named, retrieval hints as questions, the women's-writing claim scoped). Pin `packages/lpc/2026-10-29T11-53-43Z`.
+- The live test "lpc go-live rerun 1" ran the 30 validation conversations: $1.55 of $3.00. Opus review: Revise (10 FAIL, one fabrication; run 3 had 13 FAIL). `validation lpc` fails on three content findings and one readability finding. State is `built`, not `admitted`.
+- Next: the record-side items in OG-113, then add questions that test the four fixes the battery did not touch, then one named test and cap from the project lead for the next run, after the engine items are decided. Promotion of `main` to `live` is the project lead's alone.
