@@ -177,3 +177,10 @@ Robinson's later chapters compare the Greek and the Latin witnesses. This build 
 **Status:** Open. Owner: the Library thread, with the project lead's decision on a change order.
 
 Step 0 and Doc_01 §3 give 285,187 words for Lactantius's four works. Doc_02 §1 shows that 3,932 of those words are the two poems the ANF07 file prints as "Fragments of Lactantius", so the three genuine works are 281,255. No comparison in Doc_01 changes. Doc_01 is approved to proceed and not frozen; a correction to its sentence is a change order, named and reasoned, and it is not made as a quiet edit.
+
+## OG-20 — Stale references elsewhere that the dossier lists and this world does not edit (2026-10-29)
+
+**Source:** Source Readiness Dossier section 5, "Stale references elsewhere"; Step 0 §4 items 1, 6 and 7.
+**Status:** Open. Owner: each record's own owner.
+
+LPC's `world_core` record still names `tertullian-s-voice` as the home of the Passion's Perpetua portion (see also the stale-slug entry of 2026-10-29). The census wording that Tertullian "opened" the Latin case appears in six places listed in Step 0 §4 item 1, rule (a): I.43 `voices`, `why`, `relationsSummary` and `longDescription`, I.17 `relationsSummary`, and the edge from I.17 to I.43. The I.43 `sourcing` field attaches "just under half a million words" to Lactantius alone, and Doc_02 §1 shows that the figure 285,187 behind it counts two poems that are not shown to be his (the Lactantius count entry of 2026-10-29). IJC's source record for *De mortibus* gives the author's dates as c. 250–325 without naming the authorship dispute. None is edited by this world.

@@ -92,3 +92,5 @@ The Round 2 P1 (N1) is fixed, and so are all six Round 2 P2s. The Round 2 Not-ve
 - I did not open the `Source_Registry.md` rows; that file is not under review.
 - I did not confirm on `main` whether the PAHC OG-44 and latap OG-12 entries are unmerged. I judged them unmerged from their being added in 637c383 on this branch.
 - I consulted no post-1930 scholarship.
+
+Approved to proceed (Doc_01; not Frozen). Self-disposed by the build thread after this recheck; the reviewer's verdict is above.
