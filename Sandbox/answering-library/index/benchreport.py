@@ -3,7 +3,7 @@ from pathlib import Path
 
 import yaml
 
-from .bench import CONDITIONS, DEPTH, KS, QUESTION_COVERAGE, Case, diagnose, recall
+from .bench import CONDITIONS, DEPTH, KS, QUESTION_COVERAGE, Case, diagnose, passage_info, recall
 
 RAW, LABELLED, ROUTING = CONDITIONS
 
@@ -40,6 +40,7 @@ HEADER = ("| {0} | Cases (wording) | wording @5 | @10 | @20 | wording+label @10 
 def render_report(
     db_path: Path, world: str, cases: list[Case], gold_cache: dict[str, dict[str, str]], ungrounded: dict[str, list[str]],
     cluster_names: dict[str, str], subquestions: dict[str, dict], index_meta: dict[str, str],
+    floor: tuple[float, list[Case]] | None = None,
 ) -> str:
     raw = of(cases, RAW)
     pairs = best_wording(raw)
@@ -97,6 +98,8 @@ def render_report(
             f"{len(misses)} of {len(groups)} pairs. By reason: {summary or 'none'}. Best rank over the sub-question's wordings, under each query.",
             "", "| Sub-question | Record | wording | wording+label | record routing | Reason | Detail |",
             "|---|---|---:|---:|---:|---|---|", *rows]
+    if floor:
+        out += _floor_section(db_path, floor[0], cases, floor[1], gold_cache)
     skipped = sorted((cell, rid) for cell, rids in ungrounded.items() for rid in rids)
     out += ["", "## Records left out (no resolvable citation in the index)", "",
             f"{len(skipped)} cell-by-record entries, {len({r for _, r in skipped})} records.", ""]
@@ -109,3 +112,28 @@ def best_wording_all(cases: list[Case]) -> list[Case]:
     for condition in CONDITIONS:
         result += best_wording(of(cases, condition))
     return result
+
+
+def _reached(cases: list[Case]) -> set[tuple[str, str]]:
+    return {(c.sub_question, c.record_id) for c in of(cases, RAW) if c.best_rank is not None and c.best_rank <= max(KS)}
+
+
+def _floor_section(db_path: Path, floor: float, cases: list[Case], floored: list[Case], gold_cache: dict[str, dict[str, str]]) -> list[str]:
+    ids = {p for gold in gold_cache.values() for p in gold}
+    rows = passage_info(db_path, ids)
+    below = [r for r in rows if r["ocr_score"] is not None and r["ocr_score"] < floor]
+    lost, gained = sorted(_reached(cases) - _reached(floored)), sorted(_reached(floored) - _reached(cases))
+    table = ["| Level | Cases | @5 no floor | @5 floor | @10 no floor | @10 floor | @20 no floor | @20 floor |", "|---|---:|---:|---:|---:|---:|---:|---:|"]
+    for name, selector in (("wording", lambda cs: of(cs, RAW)), ("wording+label", lambda cs: of(cs, LABELLED)), ("record routing", lambda cs: of(cs, ROUTING)),
+                           ("best wording per pair", lambda cs: best_wording(of(cs, RAW)))):
+        a, b = selector(cases), selector(floored)
+        table.append(f"| {name} | {len(a)} | " + " | ".join(f"{recall(a, k):.0%} | {recall(b, k):.0%}" for k in KS) + " |")
+    return [
+        "", f"## Effect of an OCR floor of {floor}", "",
+        f"The same queries, with passages whose `ocr_score` is under {floor} left out of the ranking (a passage with no score stays in). "
+        "The segmenter report recommends 0.50 for retrieval.", "", *table, "",
+        f"Gold passages in the index: {len(rows)}; {len(below)} of them score under {floor}. "
+        f"Pairs reached within {max(KS)} by some wording: {len(_reached(cases))} without the floor, {len(_reached(floored))} with it. "
+        f"Lost by the floor: {len(lost)}. Gained by the floor: {len(gained)}.", "",
+        *[f"- lost: {sub} `{rid}`" for sub, rid in lost], *[f"- gained: {sub} `{rid}`" for sub, rid in gained],
+    ]

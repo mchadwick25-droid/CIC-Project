@@ -465,3 +465,337 @@
 ### Off-shelf (0)
 
 None.
+
+## cappadocian
+
+### Ambiguous (39)
+
+- `cappadocian.source.amphilochius-iambics-to-seleucus`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others`
+  - `npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2`
+  - `npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of`
+- `cappadocian.source.basil-antiphonal-psalmody-baptismal-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-apollinaris-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-canonical-letters-to-amphilochius`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-canons-40-42-enslaved-marriage`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-chorepiscopoi-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-epistle-199-canon-21`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-epistle-38-ousia-hypostasis`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-epistle-8-evagrius`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-eustathius-rupture-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-hexaemeron-homilies`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-letters-general-corpus`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-libanius-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-macrina-the-elder-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-on-the-holy-spirit`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.codex-theodosianus-13-3-5-school-law`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `theodosianus-16_mommsen-meyer1905--the-general-school-law-of-june-362-cth-13-3-5`
+  - `theodosianus-16_mommsen-meyer1905--the-imperial-communion-law-of-381-cth-16-1-3-30-july-381`
+- `cappadocian.source.constantinople-381-and-its-creed`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others`
+  - `npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2`
+  - `npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of`
+- `cappadocian.source.eupsychius-of-caesareas-feast`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.gangra-canons`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others`
+  - `npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2`
+  - `npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of`
+- `cappadocian.source.gregory-nazianzus-epistle-197-theosebia`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-funeral-orations-caesarius-gorgonia-elder-gregory`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-oration-2-flight-from-ordination`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-oration-on-baptism`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-orations-general-corpus`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-sasima-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nyssa-ad-ablabium`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-ad-eustathium`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-against-eunomius`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-catechetical-oration`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-love-of-the-poor-lepers-consolation`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-the-holy-spirit`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-the-making-of-man`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-the-soul-and-resurrection`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-virginity`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-thaumaturgus-address-of-thanksgiving-to-origen`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-declaration-of-faith`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle-2`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-2`
+- `cappadocian.source.gregory-thaumaturgus-canonical-epistle`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-declaration-of-faith`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle-2`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-2`
+- `cappadocian.source.jerome-de-viris-illustribus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-entries`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-book-iv-chapter-xvi`
+
+### Off-shelf (0)
+
+None.
+
+## desert
+
+### Ambiguous (11)
+
+- `desert.source.athanasius-festal-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+- `desert.source.athanasius-vita-antonii`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+- `desert.source.cassian-conferences`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+- `desert.source.cassian-institutes`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+- `desert.source.jerome-de-viris`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-pachomius`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-antonius`
+- `desert.source.jerome-letter-22`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+- `desert.source.jerome-life-of-paulus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+- `desert.source.pachomian-corpus`: 5 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the`
+  - `pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice`
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance`
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy`
+  - `pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885`
+- `desert.source.palladius-paradise-syriac`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension`
+  - `palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907`
+  - `palladius_paradise-v1-syriac_budge1907--the-paradise-of-palladius-book-i-syriac-recension`
+- `desert.source.socrates-historia-ecclesiastica`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2`
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2`
+- `desert.source.sozomen-historia-ecclesiastica`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2`
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2`
+
+### Off-shelf (0)
+
+None.

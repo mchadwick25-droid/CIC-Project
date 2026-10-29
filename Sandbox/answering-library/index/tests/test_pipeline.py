@@ -297,3 +297,19 @@ def test_bench_reaches_cited_passages_and_reports_unresolvable_records(world, tm
     assert "wording+label" in {c.condition for c in cases}
     text = benchreport.render_report(db, "lpc", cases, gold, ungrounded, {"C1": "Jesus"}, subs, store.read_meta(db))
     assert "@10" in text and "lpc.quote.absent" in text and "C1 Jesus" in text
+
+
+def test_span_check_follows_the_segmenter_contract():
+    plain = "the church of God\n256 ZWINGLI SELECTIONS.\nat Carthage"
+    assert retrieve.span_contains_passage(plain, "the church of God at Carthage")
+    assert not retrieve.span_contains_passage(plain, "church of God at Carthage")
+    assert not retrieve.span_contains_passage(plain, "the church of God Carthage at")
+    assert not retrieve.span_contains_passage(plain, "the church of God at Carthage and Rome")
+    assert not retrieve.span_contains_passage(plain, "the church of God at Rome")
+    markup = '<p>all things were created<note n="1"><p>Col. i. 16</p></note>), with a <i>re</i>tinue &amp; fasces</p>'
+    assert retrieve.span_contains_passage(markup, "all things were created), with a retinue & fasces")
+    assert retrieve.span_contains_passage(markup, "Col. i. 16")
+    assert not retrieve.span_contains_passage(markup, "all things were created Col. i. 16), with a retinue & fasces")
+    assert not retrieve.span_contains_passage(markup, "all things were made), with a retinue & fasces")
+    inside_note = 'Col. i. 16</p></note>), with a retinue'
+    assert retrieve.span_contains_passage(inside_note, "Col. i. 16")

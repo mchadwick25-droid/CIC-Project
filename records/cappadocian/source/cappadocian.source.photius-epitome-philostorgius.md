@@ -23,6 +23,7 @@ work: Photius' Epitome of Philostorgius' Ecclesiastical History -- the one survi
 edition: Walford's 1855 translation, vendored as cic/texts/philostorgius_ecclesiastical-history_walford1855.txt
 citation: Photius of Constantinople, Epitome of Philostorgius' Ecclesiastical History, trans. Walford (1855)
 kind: vendored
+shelf_row: philostorgius_ecclesiastical-history_walford1855--ecclesiastical-history-surviving-only-as-photius-epitome-2
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed to Philostorgius, filtered through Photius' own hostile epitome -- carry
   that filtering forward at every use

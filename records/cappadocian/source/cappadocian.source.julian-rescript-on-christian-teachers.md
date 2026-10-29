@@ -19,6 +19,7 @@ work: Julian, the Rescript on Christian Teachers (Epistle 36), within Julian's L
 edition: Wright's 1923 translation, vendored as cic/texts/julian_letters-1-73_wright1923.txt
 citation: Julian, Rescript on Christian Teachers (Epistle 36), in Letters 1-73, trans. Wright (1923)
 kind: vendored
+shelf_row: julian_letters-1-73_wright1923--letters-1-73-incl-letter-36-rescript-on-christian-teachers-2
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 72; the file itself was independently

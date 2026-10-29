@@ -1,0 +1,41 @@
+file: koch_cyprian-und-der-roemische-primat-deu_1910.txt
+scheme: 'Koch''s chapter numerals I-XXI, each printed as a roman numeral alone on a line above the chapter text; the chapter titles are printed only in the Inhaltsübersicht, so division_title is empty'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: chapter
+    pattern: '^(?P<r>[IVXLC1lY]{1,6})\.$'
+    lines: [161, 8416]
+    locus: 'chapter{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V'}
+    number: r
+    allow_oversize: 'chapters are the finest division the edition prints; no numbered or titled sections between the chapter numerals at lines 161 and 7217 (21 numerals, 21 chapters)'
+ignore:
+  - pattern: '^(?:\S{1,5} )?Ko\w{2,3},? Cyprian und der römische Primat\.?(?: \S{1,5})?$'
+    kind: running-head
+apparatus:
+  - lines: [12, 160]
+    kind: front
+    locus: front
+  - lines: [8417, 9195]
+    kind: index
+    locus: index
+evidence:
+  - line: 161
+    quote: I.
+  - line: 450
+    quote: '11.'
+  - line: 613
+    quote: III.
+  - line: 2365
+    quote: YII.
+  - line: 5520
+    quote: XVIl.
+  - line: 7217
+    quote: XXI.
+  - line: 9081
+    quote: I. Einleitung. Stand der Frage 1
+  - line: 9128
+    quote: XVIII. Cyprians Ton in den Briefen nach Rom
+  - line: 8417
+    quote: Verzeichnisse.
