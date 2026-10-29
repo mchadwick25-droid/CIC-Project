@@ -1,0 +1,1174 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.4751,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030383
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2248,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2086,
+      "output_tokens": 171,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3224,
+      "output_tokens": 318,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Why did your bishops meet in councils?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We met to decide things we could not leave undecided, things that pressed on the whole body at once. After the persecution, we met to settle what would be done for those who had given way under threat. Sixty-six of us met and wrote to Fidus about baptizing infants. When the sharpest question in the room was whether a baptism given outside our one church counted at all, we met again, eighty-seven bishops that time. Each one ruled for himself, and Christ ruled him. A century and a half later, Augustine held a different view: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”\n\nThe two do not agree on who overrules whom. But they agree on this much: what touches the whole body is decided by more than one bishop. We held real authority of our own, over real disputes among us.",
+          "citations": [
+            {
+              "sentence": "We met to decide things we could not leave undecided, things that pressed on the whole body at once.",
+              "record_ids": [
+                "lpc.gravity.collegial-communion-preserved"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.collegial-communion-preserved",
+                  "record_type": "gravity",
+                  "label": "Collegial Communion Preserved Despite Disagreement",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "After the persecution, we met to settle what would be done for those who had given way under threat.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Sixty-six of us met and wrote to Fidus about baptizing infants.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When the sharpest question in the room was whether a baptism given outside our one church counted at all, we met again, eighty-seven bishops that time.",
+              "record_ids": [
+                "lpc.gravity.sacramental-ordination-validity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.sacramental-ordination-validity",
+                  "record_type": "gravity",
+                  "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A century and a half later, Augustine held a different view: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”",
+              "record_ids": [
+                "lpc.quote.earlier-councils-corrected-by-later"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.earlier-councils-corrected-by-later",
+                  "record_type": "quote",
+                  "label": "On Baptism, Against the Donatists, On Baptism, Against the Donatists, book II, chapter 3, section 4 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists, book II, chapter 3, section 4; English at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11304; Latin at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 10209-10247",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "We held real authority of our own, over real disputes among us.",
+              "record_ids": [
+                "lpc.witness.scripture-above-councils"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.scripture-above-councils",
+                  "record_type": "doctrinal_witness",
+                  "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 496,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Baptism, Against the Donatists, book II, chapter 3, section 4; English at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11304; Latin at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 10209-10247",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "why",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.scripture-above-councils",
+              "lpc.witness.answerability-as-ground",
+              "lpc.witness.days-before-the-sun"
+            ],
+            "term": [
+              "lpc.term.bishop-of-bishops",
+              "lpc.term.plenary-council"
+            ],
+            "story": [
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.bishop-of-bishops",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "force": [
+              "lpc.force.organized-carthaginian-church"
+            ],
+            "gravity": [
+              "lpc.gravity.collegial-communion-preserved"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We met to decide things we could not leave undecided, things that pressed on the whole body at once.",
+                "tags": [
+                  "lpc.gravity.collegial-communion-preserved"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We met to decide things we could not leave undecided, things that pressed on the whole body at once [[lpc.gravity.collegial-communion-preserved]]."
+              },
+              {
+                "sentence": "After the persecution, we met to settle what would be done for those who had given way under threat.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "After the persecution, we met to settle what would be done for those who had given way under threat [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "Sixty-six of us met and wrote to Fidus about baptizing infants.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "grounded 86% in own tagged records",
+                "ratio": 0.86,
+                "draft": "Sixty-six of us met and wrote to Fidus about baptizing infants [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "When the sharpest question in the room was whether a baptism given outside our one church counted at all, we met again, eighty-seven bishops that time.",
+                "tags": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6,
+                "draft": "When the sharpest question in the room was whether a baptism given outside our one church counted at all, we met again, eighty-seven bishops that time [[lpc.gravity.sacramental-ordination-validity]]."
+              },
+              {
+                "sentence": "Each one ruled for himself, and Christ ruled him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Each one ruled for himself, and Christ ruled him."
+              },
+              {
+                "sentence": "A century and a half later, Augustine held a different view: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”",
+                "tags": [
+                  "lpc.quote.earlier-councils-corrected-by-later"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.earlier-councils-corrected-by-later",
+                "draft": "A century and a half later, Augustine held a different view: [[quote:lpc.quote.earlier-councils-corrected-by-later]]"
+              },
+              {
+                "sentence": "The two do not agree on who overrules whom.",
+                "tags": [
+                  "lpc.term.plenary-council"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (number) only 25% grounded in its own tags",
+                "ratio": 0.25,
+                "draft": "The two do not agree on who overrules whom [[lpc.term.plenary-council]]."
+              },
+              {
+                "sentence": "But they agree on this much: what touches the whole body is decided by more than one bishop.",
+                "tags": [
+                  "lpc.witness.scripture-above-councils"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) only 25% grounded in its own tags",
+                "ratio": 0.25,
+                "draft": "But they agree on this much: what touches the whole body is decided by more than one bishop [[lpc.witness.scripture-above-councils]]."
+              },
+              {
+                "sentence": "We held real authority of our own, over real disputes among us.",
+                "tags": [
+                  "lpc.witness.scripture-above-councils"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We held real authority of our own, over real disputes among us [[lpc.witness.scripture-above-councils]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.gravity.collegial-communion-preserved",
+                  "lpc.gravity.sacramental-ordination-validity",
+                  "lpc.quote.earlier-councils-corrected-by-later",
+                  "lpc.witness.answerability-as-ground",
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "4": {
+                    "sentence": "Each one ruled for himself, and Christ ruled him.",
+                    "tags": [
+                      "lpc.gravity.collegial-communion-preserved",
+                      "lpc.gravity.sacramental-ordination-validity",
+                      "lpc.quote.earlier-councils-corrected-by-later",
+                      "lpc.witness.answerability-as-ground",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.term.plenary-council",
+                  "lpc.witness.scripture-above-councils"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.earlier-councils-corrected-by-later"
+              ],
+              "removed": [
+                {
+                  "sentence": "The council that decided that question, in 256, opened with these words:",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "The council that decided that question, in 256, opened with these words: [[quote:lpc.quote.bishop-of-bishops]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 100
+              },
+              {
+                "index": 1,
+                "text_start": 101,
+                "text_end": 201
+              },
+              {
+                "index": 2,
+                "text_start": 202,
+                "text_end": 265
+              },
+              {
+                "index": 3,
+                "text_start": 266,
+                "text_end": 417
+              },
+              {
+                "index": 4,
+                "text_start": 418,
+                "text_end": 467
+              },
+              {
+                "index": 5,
+                "text_start": 468,
+                "text_end": 1654
+              },
+              {
+                "index": 6,
+                "text_start": 1656,
+                "text_end": 1699
+              },
+              {
+                "index": 7,
+                "text_start": 1700,
+                "text_end": 1792
+              },
+              {
+                "index": 8,
+                "text_start": 1793,
+                "text_end": 1856
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 5,
+                "char_start": 28,
+                "char_end": 37,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.earlier-councils-corrected-by-later",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows Petschenig's Latin where the English misleads: 'by some actual experiment' renders aliquo experimento rerum, 'some experience of events'; 'refuted' renders reprehendi, 'shown wrong'; and 'charity' renders caritate, 'love'. The rhetorical question of the Latin is given as a question followed by statements.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 5,
+                "char_start": 61,
+                "char_end": 1186,
+                "surface": "“But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.gravity.collegial-communion-preserved",
+                "record_type": "gravity",
+                "label": "Collegial Communion Preserved Despite Disagreement",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 3: divergence flagged rather than resolved. The underlying primary-source facts (the 256 preface's own words; On Baptism's own extensive argument) reach Documented, directly quoted and re-verified across Doc_01's nine rounds; the SYNTHESIS naming these facts one cross-phase gravity, rather than two separate historical facts, is this document's own reasoning at Widely Accepted confidence -- this record carries the more conservative tier as its own top-line rating rather than smoothing the split away, per Doc_04 §4's own Classification Summary: 'the one-gravity synthesis itself Widely Accepted, not upgraded.'",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.answerability-as-ground",
+                "record_type": "doctrinal_witness",
+                "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "This unity/convergence reading (Doc_07 §2I, §5-§6) is this build's own synthetic judgment about how the classified gravities relate to each other, not an independently-attested claim any single source states in those terms -- carried forward directly from lpc.core.latin-pastoral-congregational-christianity's own divergence_note, not presented here as more settled than that record allows.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Inferential-Thin",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.gravity.sacramental-ordination-validity",
+                "record_type": "gravity",
+                "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.quote.earlier-councils-corrected-by-later",
+                "record_type": "quote",
+                "label": "On Baptism, Against the Donatists, On Baptism, Against the Donatists, book II, chapter 3, section 4 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists, book II, chapter 3, section 4; English at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11304; Latin at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 10209-10247",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows Petschenig's Latin where the English misleads: 'by some actual experiment' renders aliquo experimento rerum, 'some experience of events'; 'refuted' renders reprehendi, 'shown wrong'; and 'charity' renders caritate, 'love'. The rhetorical question of the Latin is given as a question followed by statements.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.scripture-above-councils",
+                "record_type": "doctrinal_witness",
+                "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.gravity.collegial-communion-preserved",
+                "record_type": "gravity",
+                "label": "Collegial Communion Preserved Despite Disagreement",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 3: divergence flagged rather than resolved. The underlying primary-source facts (the 256 preface's own words; On Baptism's own extensive argument) reach Documented, directly quoted and re-verified across Doc_01's nine rounds; the SYNTHESIS naming these facts one cross-phase gravity, rather than two separate historical facts, is this document's own reasoning at Widely Accepted confidence -- this record carries the more conservative tier as its own top-line rating rather than smoothing the split away, per Doc_04 §4's own Classification Summary: 'the one-gravity synthesis itself Widely Accepted, not upgraded.'",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.answerability-as-ground",
+                "record_type": "doctrinal_witness",
+                "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "This unity/convergence reading (Doc_07 §2I, §5-§6) is this build's own synthetic judgment about how the classified gravities relate to each other, not an independently-attested claim any single source states in those terms -- carried forward directly from lpc.core.latin-pastoral-congregational-christianity's own divergence_note, not presented here as more settled than that record allows.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Inferential-Thin",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.gravity.sacramental-ordination-validity",
+                "record_type": "gravity",
+                "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.scripture-above-councils",
+                "record_type": "doctrinal_witness",
+                "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                6,
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "removed": [
+              {
+                "sentence": "The council that decided that question, in 256, opened with these words:",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "The council that decided that question, in 256, opened with these words: [[quote:lpc.quote.bishop-of-bishops]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
