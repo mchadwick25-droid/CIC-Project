@@ -3,3 +3,794 @@ CAP: $3.03
 MODELS: us.anthropic.claude-haiku-4-5-20251001-v1:0, us.anthropic.claude-sonnet-4-5-20250929-v1:0
 ROUTE: Bedrock, regional inference profile, us-east-1
 LEDGER: /home/user/CIC-Project/engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-thinness-3.jsonl
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 3.0287,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.032093
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2255,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2093,
+      "output_tokens": 235,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3946,
+      "output_tokens": 255,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did the Punic-speaking people out in the countryside believe?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not hold an answer to that. Our whole record comes from two urban bishops, both trained in Latin and writing in Latin. What lay beyond those two cities — the countryside, and the language many ordinary people spoke there, which was not the one we were taught in — we do not carry in any detail. We know that substrate existed. Augustine says the Lord's food that lasts is faith in the one God sent, so to believe is to have eaten already: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”\n\nHow that faith was taught and held among people whose first tongue was Punic or Berber, in villages beyond the cities where we preached, is simply not where our own voice was formed. We will not invent it to fill the silence.",
+          "citations": [
+            {
+              "sentence": "We do not hold an answer to that.",
+              "record_ids": [
+                "lpc.core.latin-pastoral-congregational-christianity",
+                "lpc.limit.rural-punic-berber-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                  "record_type": "world_core",
+                  "label": "lpc.core.latin-pastoral-congregational-christianity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Augustine's own conversion narrative",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                      "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                },
+                {
+                  "record_id": "lpc.limit.rural-punic-berber-life",
+                  "record_type": "honest_limit",
+                  "label": "We know our own two cities well",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our whole record comes from two urban bishops, both trained in Latin and writing in Latin.",
+              "record_ids": [
+                "lpc.limit.rural-punic-berber-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.rural-punic-berber-life",
+                  "record_type": "honest_limit",
+                  "label": "We know our own two cities well",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What lay beyond those two cities — the countryside, and the language many ordinary people spoke there, which was not the one we were taught in — we do not carry in any detail.",
+              "record_ids": [
+                "lpc.limit.rural-punic-berber-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.rural-punic-berber-life",
+                  "record_type": "honest_limit",
+                  "label": "We know our own two cities well",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine says the Lord's food that lasts is faith in the one God sent, so to believe is to have eaten already: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”",
+              "record_ids": [
+                "lpc.quote.believe-and-thou-hast-eaten-already"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.believe-and-thou-hast-eaten-already",
+                  "record_type": "quote",
+                  "label": "Tractates on the Gospel of John, Tractate 25 on the Gospel of John — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                      "author": null,
+                      "work": null,
+                      "locus": "Tractate 25 on the Gospel of John (NPNF Tractate XXV), section 12; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 4496-4497; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 20107-20111",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "“Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.” This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 333,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                  "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                  "author": null,
+                  "work": null,
+                  "locus": "Tractate 25 on the Gospel of John (NPNF Tractate XXV), section 12; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 4496-4497; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 20107-20111",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_is",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.the-pattern-we-are-modelled-on",
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.marriage-a-threefold-good"
+            ],
+            "term": [
+              "lpc.term.the-flock",
+              "lpc.term.catechesis",
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+              "lpc.quote.believe-and-thou-hast-eaten-already",
+              "lpc.quote.bishop-of-bishops"
+            ],
+            "gravity": [
+              "lpc.gravity.confessor-authority-vs-episcopal-peace"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not hold an answer to that.",
+                "tags": [
+                  "lpc.core.latin-pastoral-congregational-christianity",
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We do not hold an answer to that [[lpc.core.latin-pastoral-congregational-christianity]] [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "Our whole record comes from two urban bishops, both trained in Latin and writing in Latin.",
+                "tags": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 50% in own tagged records",
+                "ratio": 0.5,
+                "draft": "Our whole record comes from two urban bishops, both trained in Latin and writing in Latin [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "What lay beyond those two cities — the countryside, and the language many ordinary people spoke there, which was not the one we were taught in — we do not carry in any detail.",
+                "tags": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "What lay beyond those two cities — the countryside, and the language many ordinary people spoke there, which was not the one we were taught in — we do not carry in any detail [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "We know that substrate existed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We know that substrate existed."
+              },
+              {
+                "sentence": "Augustine says the Lord's food that lasts is faith in the one God sent, so to believe is to have eaten already: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”",
+                "tags": [
+                  "lpc.quote.believe-and-thou-hast-eaten-already"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.believe-and-thou-hast-eaten-already",
+                "draft": "Augustine says the Lord's food that lasts is faith in the one God sent, so to believe is to have eaten already [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]"
+              },
+              {
+                "sentence": "How that faith was taught and held among people whose first tongue was Punic or Berber, in villages beyond the cities where we preached, is simply not where our own voice was formed.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['berber', 'punic']) with no citation tag",
+                "draft": "How that faith was taught and held among people whose first tongue was Punic or Berber, in villages beyond the cities where we preached, is simply not where our own voice was formed."
+              },
+              {
+                "sentence": "We will not invent it to fill the silence.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming",
+                "draft": "We will not invent it to fill the silence."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity",
+                  "lpc.limit.rural-punic-berber-life",
+                  "lpc.quote.believe-and-thou-hast-eaten-already"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "3": {
+                    "sentence": "We know that substrate existed.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity",
+                      "lpc.limit.rural-punic-berber-life",
+                      "lpc.quote.believe-and-thou-hast-eaten-already"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.believe-and-thou-hast-eaten-already"
+              ],
+              "removed": [
+                {
+                  "sentence": "He argues in Latin, to people formed in Latin, about a faith he teaches in Latin.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "He argues in Latin, to people formed in Latin, about a faith he teaches in Latin."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 33
+              },
+              {
+                "index": 1,
+                "text_start": 34,
+                "text_end": 124
+              },
+              {
+                "index": 2,
+                "text_start": 125,
+                "text_end": 300
+              },
+              {
+                "index": 3,
+                "text_start": 301,
+                "text_end": 332
+              },
+              {
+                "index": 4,
+                "text_start": 333,
+                "text_end": 731
+              },
+              {
+                "index": 5,
+                "text_start": 733,
+                "text_end": 915
+              },
+              {
+                "index": 6,
+                "text_start": 916,
+                "text_end": 958
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.believe-and-thou-hast-eaten-already",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. 'Meat' is the older English word for food, as in the Latin cibus; it does not mean flesh.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 4,
+                "char_start": 112,
+                "char_end": 398,
+                "surface": "“‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                "record_type": "world_core",
+                "label": "lpc.core.latin-pastoral-congregational-christianity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Augustine's own conversion narrative",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                    "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07, and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification runs via those documents' own authority, not via a primary source reopened here. Doc_07 SS2I's own convergence finding -- that formation here runs through rite, penitential discipline, and communion preserved despite disagreement as one integrated mechanism rather than four separately-arrived-at concerns -- is this build's own synthetic judgment, stated as such at Doc_07 SS5, not a claim any single source states in those terms; external scholarly review should test whether it overstates the coherence of what was, on the ground, a more locally variable and contingent pastoral practice across two centuries and two cities. A further, disclosed uncertainty this record carries forward rather than resolves: Doc_01 SS8 item 10's own conciliar-authority axis (G5) is held open, not settled, and the strand-singular finding this record's own horizon states carries an explicit reopening caveat on exactly that axis.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Dominant Modern Reconstruction",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.limit.rural-punic-berber-life",
+                "record_type": "honest_limit",
+                "label": "We know our own two cities well",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.believe-and-thou-hast-eaten-already",
+                "record_type": "quote",
+                "label": "Tractates on the Gospel of John, Tractate 25 on the Gospel of John — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "citation": "Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII",
+                    "author": null,
+                    "work": null,
+                    "locus": "Tractate 25 on the Gospel of John (NPNF Tractate XXV), section 12; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 4496-4497; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 20107-20111",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "“Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.” This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. 'Meat' is the older English word for food, as in the Latin cibus; it does not mean flesh.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                "record_type": "world_core",
+                "label": "lpc.core.latin-pastoral-congregational-christianity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Augustine's own conversion narrative",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                    "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07, and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification runs via those documents' own authority, not via a primary source reopened here. Doc_07 SS2I's own convergence finding -- that formation here runs through rite, penitential discipline, and communion preserved despite disagreement as one integrated mechanism rather than four separately-arrived-at concerns -- is this build's own synthetic judgment, stated as such at Doc_07 SS5, not a claim any single source states in those terms; external scholarly review should test whether it overstates the coherence of what was, on the ground, a more locally variable and contingent pastoral practice across two centuries and two cities. A further, disclosed uncertainty this record carries forward rather than resolves: Doc_01 SS8 item 10's own conciliar-authority axis (G5) is held open, not settled, and the strand-singular finding this record's own horizon states carries an explicit reopening caveat on exactly that axis.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Dominant Modern Reconstruction",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.limit.rural-punic-berber-life",
+                "record_type": "honest_limit",
+                "label": "We know our own two cities well",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.believe-and-thou-hast-eaten-already"
+            ],
+            "removed": [
+              {
+                "sentence": "He argues in Latin, to people formed in Latin, about a faith he teaches in Latin.",
+                "why": "words attributed without a placed quote",
+                "draft": "He argues in Latin, to people formed in Latin, about a faith he teaches in Latin."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
