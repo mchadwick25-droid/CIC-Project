@@ -61,7 +61,7 @@ for _canon, _variants in _KEYWORDS.items():
 _ROMAN_VALUES = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
 ROMAN_MAX_LENGTH = 15  # MMMDCCCLXXXVIII, 3888, the longest numeral under 4000
 _ROMAN_ANY = re.compile(r"^[IVXLCDM]{1,%d}$" % ROMAN_MAX_LENGTH)
-_ROMAN_SHAPE = re.compile(r"^M{0,3}(?:CM|CD|D?C{0,4})(?:XC|XL|L?X{0,4})(?:IX|IV|V?I{0,4})$", re.I)
+_ROMAN_SHAPE = re.compile(r"^M{0,3}(?:CM|CD|D?C{0,4})(?:XC|XL|L?X{0,4})(?:IX|IV|V?I{0,4})$", re.I | re.A)
 _NUM_TOKEN = re.compile(r"^(?:[IVXLCDMivxlcdm]{1,%d}|\d{1,4}[a-z]?|[^\W\d_]{3,10}|[α-ωΑ-Ω]{1,4}[ʹ΄'’′])$"
                         % ROMAN_MAX_LENGTH)
 _GREEK_DIGITS = {"α": 1, "β": 2, "γ": 3, "δ": 4, "ε": 5, "ϛ": 6, "ζ": 7, "η": 8, "θ": 9, "ι": 10, "κ": 20,
