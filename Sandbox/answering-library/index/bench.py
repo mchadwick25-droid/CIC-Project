@@ -196,13 +196,16 @@ def routing_query(retrieve_when: list[str]) -> str:
 
 def run_bench(db_path: Path, world: str, evidence: dict[str, RecordEvidence], cells: dict[str, list[str]],
               subquestions: dict[str, dict], questions: dict[str, str], texts_dir: Path = TEXTS_DIR,
-              min_ocr: float | None = None):
-    gold_cache = {rid: gold_passages(db_path, ev, texts_dir) for rid, ev in evidence.items()}
+              min_ocr: float | None = None, rank=None, gold_cache: dict[str, dict[str, str]] | None = None):
+    """rank, when given, replaces the keyword ranking: a callable from query text to a ranked list of passage ids."""
+    if gold_cache is None:
+        gold_cache = {rid: gold_passages(db_path, ev, texts_dir) for rid, ev in evidence.items()}
+    rank = rank or (lambda text: ranked(db_path, text, world, min_ocr=min_ocr))
     cases: list[Case] = []
     ungrounded: dict[str, list[str]] = defaultdict(list)
 
     def add(cell, wording_id, text, usable, condition):
-        position = {pid: i + 1 for i, pid in enumerate(ranked(db_path, text, world, min_ocr=min_ocr))}
+        position = {pid: i + 1 for i, pid in enumerate(rank(text))}
         for rid in usable:
             ranks = [position[p] for p in gold_cache[rid] if p in position]
             cases.append(Case(cell, cell.split(".")[0], wording_id, text, rid, min(ranks) if ranks else None, condition))
