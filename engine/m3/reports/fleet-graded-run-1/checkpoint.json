@@ -386,6 +386,11 @@
       "estimate": 0.3077,
       "spent_usd_world": 0.284534,
       "exit_code": 0
+    },
+    "ijc": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-ijc.jsonl",
+      "estimate": 0.2717
     }
   }
 }
