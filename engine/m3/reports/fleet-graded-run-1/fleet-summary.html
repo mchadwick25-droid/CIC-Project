@@ -42,7 +42,7 @@ ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px;
 <h1>Fleet graded run 1</h1>
 <p class="lede">Where each real world's answers fail today, on the current code, with Opus grading every answer against that world's own records.</p>
 
-<div class="cost"><span>Spent <b>$15.44</b> of the $16.00 cap</span><span>12 worlds asked 28 sealed questions each</span><span>lpc: all 30 live conversations</span><span>11 worlds: six-question replay</span></div>
+<div class="cost"><span>Spent <b>$16.55</b> of the $17.00 cap</span><span>12 worlds asked 28 sealed questions each</span><span>lpc: all 30 live conversations</span><span>11 worlds: six-question replay</span></div>
 
 <h2>The short version</h2>
 <p>The automatic checks passed all 28 answers in every world. Opus then failed between 5 and 16 answers per world. The automatic checks do not catch invented facts, damaged answers, the voice talking like a chatbot, or reading level, so they cannot be used as a gate.</p>
@@ -52,7 +52,7 @@ ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px;
 <div class="tw"><table>
 <thead><tr><th>World</th><th>Opus pass / fail</th><th>Invented, after-window or misused quote</th><th>Main trouble</th></tr></thead>
 <tbody id="rows"></tbody></table></div>
-<p class="small">Each world's answers are graded on 28 rows. Reviewers did not treat reading level the same way: some failed an answer that missed the reading floor, others counted it as a small defect. Counts are therefore close but not exactly comparable. Wrong, invented, misleading or damaged answers fail. Small fixable defects still pass. cappadocian's automatic checks were not computed, because one call hit a transient API error and the harness refused to write its report. Its 28 answers were still graded.</p>
+<p class="small">Each world's answers are graded on 28 rows. Reviewers did not treat reading level the same way: some failed an answer that missed the reading floor, others counted it as a small defect. Counts are therefore close but not exactly comparable. Wrong, invented, misleading or damaged answers fail. Small fixable defects still pass. cappadocian's automatic checks were not computed, because two attempts each had one retried call and the harness refused to write its report. Its 28 answers were still graded.</p>
 
 <h2>lpc beside run 3</h2>
 <p>On the 37 conversation rows that both runs share, lpc went from <b>22 pass and 12 fail</b> in run 3 to <b>26 pass and 8 fail</b> now. Seven rows were fixed, five still fail, and three newly fail. Nineteen passed both times, and three were not scored either time. The riders and the retrieval change worked where they were aimed.</p>
@@ -106,7 +106,7 @@ ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px;
 </ol>
 
 <h2>What was left out, and why</h2>
-<p>Data dated before 27 October was left out of every comparison on purpose, as you ruled. The one exception is lpc's run 3, the baseline. The cappadocian admission rerun, about $1.1, was not run, so its automatic checks were never computed. Its answers and review exist.</p>
+<p>Data dated before 27 October was left out of every comparison on purpose, as you ruled. The one exception is lpc's run 3, the baseline. cappadocian's admission world was run twice, and both times the harness refused to write its report, so its automatic checks were never computed. Each attempt saved 28 answers, and Opus reviewed the first set. In each attempt exactly one call failed and was retried (probe 4, then probe 13), which trips the harness's one-call-per-question count. The cause is not recorded, because the harness keeps no error text. It is worth finding before relying on this harness again.</p>
 <p class="small">Everything is on the branch claude/fleet-graded-run-1: the reports, the answers, the ledgers, the checkpoint and one review file per world under Build/worlds/&lt;code&gt;/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md.</p>
 </div>
 <script>

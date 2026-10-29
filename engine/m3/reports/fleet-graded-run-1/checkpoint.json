@@ -136,15 +136,16 @@
     },
     "cappadocian": {
       "attempts": 2,
-      "status": "failed",
+      "status": "answers_only",
       "preflight_usd": 0.6326298,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-cappadocian-attempt2.jsonl",
       "probes_answered": 28,
       "spent_usd_world": 1.111891,
       "exit_code": 1,
-      "note": "Mark asked for a rerun (2026-10-29); second attempt.",
+      "note": "Two attempts. In each, exactly one call failed (probe 4 in attempt 1, probe 13 in attempt 2; each charged at its full hold, about $0.22) and the voice call retried it, so the harness saw 29 calls for 28 probes and refused to write the report. Each attempt saved 28 answers. The Opus review reads attempt 1. Automatic checks not computed. No third attempt.",
       "first_attempt_note": "All 28 answers saved. One call failed on a transient API error (charged at its full hold, $0.2178) and the voice call retried it, so the harness saw 29 calls for 28 probes and refused to write the report. Automatic checks not computed (the per-sentence citation data exists only in the report). No second paid run; a retry stays open if budget remains at the end.",
-      "retry_ok": true
+      "retry_ok": false,
+      "review_attempt": 1
     },
     "don": {
       "attempts": 1,

@@ -38,7 +38,8 @@ def main():
     for w in ORDER:
         st = cp["worlds"].get(w, {})
         n = st.get("attempts", 0)
-        tag = w if n <= 1 else f"{w}-attempt{n}"
+        ra = st.get("review_attempt")
+        tag = w if (ra == 1 or n <= 1) else f"{w}-attempt{n}"
         report = OUT / f"{tag}.json"
         answers = jl(Path(str(report) + ".answers.jsonl"))
         settles = [r for r in jl(OUT / f"ledger-{tag}.jsonl") if r.get("event") == "settle"]
