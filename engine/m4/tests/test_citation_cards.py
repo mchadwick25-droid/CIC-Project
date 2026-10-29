@@ -324,3 +324,4 @@ def test_a_real_story_card_carries_the_records_one_line_meaning_for_the_hover():
 
     assert card["means"] == record["use_note"]["means"]
     assert card["means"].startswith("Celerinus asked Lucian")
+    assert card["narrative_tier"] == record["narrative_tier"] == 1

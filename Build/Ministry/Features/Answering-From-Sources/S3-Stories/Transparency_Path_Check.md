@@ -18,12 +18,12 @@ App (`cic-poc/frontend/src/components/StoryMark.tsx`, `VoiceTurnBody.tsx`):
 The report was: stories sit under one end-of-answer marker, and tier and confidence data is dropped before the screen. The code shows:
 - Not so as a rule. A story is marked inline at the end of its telling. It goes to the end references only when the cap pushes it out.
 - Confidence is not dropped before the screen: the whole envelope reaches the app, and the hover shows the formation-confidence phrase. The other envelope fields (citation specificity, verification state, evidentiary weight, divergence note) are not shown.
-- A narrative tier is not on a story card at all. The only tier on a story record is `retrieval.tier`, a retrieval setting, not a reader-facing tier.
+- A story record carries `narrative_tier` (all seven lpc stories are tier 1) and `narrative_tier_justification`, and `retrieval.tier`. The engine under `engine/m4` never reads `narrative_tier`, so it never reaches the card or the app.
 - A story card carries no brief meaning, and the click shows a source list rather than a page for the full story. For a quote, the card carries the spoken rendering but not the edition words.
 
 ## Data added in this step (additive, no display change)
 
-`resolve_source_card` now also returns, for a story, `means` (the record's one-line meaning from `use_note.means`) for the hover's brief context. The app ignores fields it does not read, so nothing on screen changes.
+`resolve_source_card` now also returns, for a story, `means` (the record's one-line meaning from `use_note.means`) for the hover's brief context, and `narrative_tier`. The app ignores fields it does not read, so nothing on screen changes.
 
 ## Held for Mark: edition words on the quote card
 
