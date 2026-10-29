@@ -18,5 +18,9 @@
  "alx": {
   "summary": "PASS 21, FAIL 7, NOT SCORED 0 of 28 (P1 7, P2 20). Invented-fact, horizon or quote failures: 3. Main causes: missing record: cells with no witness record (F4-T, F5-I, F5-P) filled with invented detail; engine cut: sentences removed with orphans left in 11 answers and no removal log; caution wording: caution 1 build vocabulary reaches the voice (f2-e); caution 3 does not stop the contested Eusebian succession being stated as fact (c-e)",
   "file": "Build/worlds/alx/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "rzg": {
+  "summary": "PASS 12, FAIL 16, NOT SCORED 0 of 28 (P1 16, P2 12). Invented-fact, horizon or quote failures: 6. Main causes: missing record: world canon_cells do not match the fleet canon questions (F1-T, F4-T, F4-E, F6-T, C-T, F6-P, F3-T), while vendored texts answer most of them; voice not told what is unknown or known: fills empty cells from general knowledge or declares absences its own sources contradict; engine cut and tag leak: quotes with an unnamed lead-in removed with their sentence; raw [[...]] tags shipped",
+  "file": "Build/worlds/rzg/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
