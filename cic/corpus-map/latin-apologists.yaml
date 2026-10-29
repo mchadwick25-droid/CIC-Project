@@ -51,6 +51,39 @@ works:
 
     '
   source_file: arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt
+- row_id: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901--audollent-carthage-romaine-146-av-j-c-698-ap-j-c-1901
+  work: Audollent, Carthage romaine, 146 av. J.-C. - 698 ap. J.-C. (1901)
+  author: audollent
+  locus: whole file; chapter Les chretiens at file line 47700
+  role: context
+  confidence: provisional
+  note: 'Modern (1901) French history of Roman Carthage. Registry row 239.
+
+    '
+  source_file: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
+- row_id: audollent_carthage-romaine-fra_1901--carthage-romaine-audollent-1901
+  work: Carthage romaine (Audollent, 1901)
+  author: audollent
+  locus: whole file; title page at file line 33
+  role: context
+  confidence: provisional
+  note: 'Modern (1901) French scholarship, role context, not tradition. Not a primary source
+    and not a witness to any ancient text. The standard history of Roman Carthage, 146 BC
+    to 698 AD, the city of Cyprian''s episcopate and of Augustine''s schooling and preaching.
+    Provisional because its subject is the city, not the church.
+
+    '
+  source_file: audollent_carthage-romaine-fra_1901.txt
+- row_id: brewer_kommodian-von-gaza-deu_1906--brewer-kommodian-von-gaza-1906
+  work: Brewer, Kommodian von Gaza (1906)
+  author: brewer
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern German monograph, role context, not tradition. Argues the minority fifth-century
+    date for Commodian (between 458 and 466). Read for that thesis only. Consultation only:
+    no world''s own voice.'
+  source_file: brewer_kommodian-von-gaza-deu_1906.txt
 - row_id: commodian_carmen-apologeticum-lat_dombart1887-csel-tei--carmen-apologeticum-commodian
   work: Carmen apologeticum (Commodian)
   author: commodian
@@ -436,32 +469,54 @@ works:
 
     '
   source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
+- row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lost-works-librorum-perditorum-fragmenta
+  work: Fragments of lost works of Lactantius (Librorum perditorum fragmenta)
+  author: lactantius
+  locus: file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost
+    works)
+  role: tradition
+  confidence: assigned
+  note: 'Latin only; no English twin is vendored. Brandt, CSEL 27 part 2 fasc. 1 (Vienna,
+    1893), prints under this heading quotations from Lactantius''s lost works (the first item
+    reads as a passage from the third book to Probus, quoted by Jerome). The Latin OCR is
+    readable running text, so this file is ready to quote once each quote is verified verbatim
+    against it (INTAKE section 6). The speaker of each fragment is Lactantius as quoted by
+    the later author named in the item.
+
+    '
+  source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--fragments-of-lactantius
-  work: Fragments of Lactantius
+  work: Lactantius, Carmina - The Phoenix and A Poem on the Passion of the Lord (printed as
+    'Fragments of Lactantius')
   author: lactantius
   locus: div2 3.6
   role: tradition
-  confidence: assigned
-  note: 'The surviving fragments, carried with the corpus they belong to: `latin-apologists`,
-    alongside the *Divine Institutes*. Confidence is `assigned`: the doubt this work carried
-    was the era-straddle question, and that is settled by the Institutes'' placement.
+  confidence: provisional
+  note: 'The volume prints under the heading "Fragments of Lactantius" two Latin poems in
+    English: The Phoenix (of uncertain authorship, attributed to Lactantius) and A Poem on
+    the Passion of the Lord (formerly ascribed to Lactantius), then a General Note by the
+    editor. The General Note says there is no manuscript authority for ascribing the poems
+    to Lactantius. Brandt''s Latin volume prints both under CARMINA, as DE AVE PHOENICE and
+    DE PASSIONE DOMINI. Authorship stays open, so confidence is provisional. They are not
+    fragments of lost works; those are a separate Latin-only entry.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
 - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lactantius
-  work: Fragments of Lactantius
+  work: Lactantius, Carmina - The Phoenix and A Poem on the Passion of the Lord (printed as
+    'Fragments of Lactantius')
   author: lactantius
-  locus: file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost
-    works; the poems (Carmina) begin earlier at line 10119 and have no English twin here)
+  locus: file line 10126 (heading 'DE AVE PHOENICE.', under CARMINA at line 10119); the second
+    poem, 'DE PASSIONE DOMINI.', is at file line 10806
   role: tradition
-  confidence: assigned
-  note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
-    in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
-    part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
-    Latin OCR is readable running text, so this file is ready to quote once each quote is
-    verified verbatim against it (INTAKE section 6); the English a Representative speaks is
-    rendered from it, with the vendored English as a cross-check. Mirrors the English twin''s
-    role and confidence exactly.
+  confidence: provisional
+  note: 'Latin original of the two poems the vendored English prints as ''Fragments of Lactantius''
+    (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, div2 iii.vi): De ave
+    phoenice and De passione Domini, which the file prints under CARMINA. Brandt, CSEL 27
+    part 2 fasc. 1 (Vienna, 1893), a critical edition with apparatus. The Latin OCR is readable
+    running text, so this file is ready to quote once each quote is verified verbatim against
+    it (INTAKE section 6). Authorship stays open: the English edition''s General Note says
+    no manuscript authority ascribes the poems to Lactantius.
 
     '
   source_file: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt
@@ -592,34 +647,13 @@ works:
   locus: div2 6.6 under div1 'Ethical.' (printed as an Appendix)
   role: tradition
   confidence: assigned
-  note: 'Carthage, 203 - inside this candidate''s own window and city, transmitted with his
-    corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
-    affinities are long argued. A first-person martyr diary by a woman is precious enough
-    that the shelving deserves care: this assignment favors the Carthage/Tertullian''s-corpus
-    reading (inside window and city, transmitted with Tertullian''s corpus and edited by him
-    on the volume''s own reading) over montanism-the-new-prophecy. The affinity claim is real
-    scholarship, not a shelving convenience - adding montanism-the-new-prophecy alongside
-    this id remains worth considering. tertullian-s-voice itself is merged into latin-apologists,
-    so this assignment resolves there rather than to a separate entry; the underlying choice
-    (Carthage/Tertullian''s corpus over the New Prophecy reading) is unaffected.'
+  note: The Passion of Perpetua and Felicitas, printed as an Appendix to Tertullian's works.
+    The visions of Perpetua and Saturus are their own writing. The compiler of the frame is
+    not established, and the volume's translator thinks Tertullian was its editor, not its
+    author. It is assigned here because it is transmitted with his corpus and, on the translator's
+    note, set at Carthage in 202 or 203. Its New Prophecy affinities are argued; a co-assignment
+    to `montanism-the-new-prophecy` is open.
   source_file: anf03_tertullian.xml
-- row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
-  work: The Passion of the Holy Martyrs Perpetua and Felicitas
-  author: passion_of_perpetua
-  locus: pp. 60-95 of the printed volume
-  role: tradition
-  confidence: assigned
-  note: 'Latin/Greek second witness for the ALREADY-PRESENT English-language entry in latin-apologists.yaml
-    (source_file anf03_tertullian.xml; anf03_tertullian.xml carries the work in full, printed
-    as an Appendix, while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
-    it only in editorial footnotes, so anf03 is the correct sibling entry, not anf09). This
-    work belongs with latin-apologists rather than any Latin-pastoral bucket. This file does
-    not reassign it -- mirrors the existing assignment exactly. The atlas_id here is latin-apologists
-    (I.43); tertullian-s-voice (I.17), which this entry once named, has since been merged
-    into it, along with the rest of Tertullian''s own works in anf03/anf04.
-
-    '
-  source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--the-passion-of-the-holy-martyrs-perpetua-and-felicitas-latin
   work: The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Gebhardt 1902, no.
     VII)
@@ -921,9 +955,8 @@ works:
   locus: div2 4.3 under div1 'Apologetic.'
   role: tradition
   confidence: assigned
-  note: 'Carthage, 197 - the opening date of this candidate''s own corpus, and of the whole
-    Latin apologetic enterprise (also the opening date of the tertullian-s-voice material,
-    which this candidate now includes).
+  note: 'Carthage, 197. The date is the best-anchored in this shelf and is its first fixed
+    date. It is not the opening of the Latin case, because the Octavius may be earlier.
 
     '
   source_file: anf03_tertullian.xml

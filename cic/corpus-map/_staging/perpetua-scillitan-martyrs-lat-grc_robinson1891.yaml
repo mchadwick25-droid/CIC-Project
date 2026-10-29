@@ -14,34 +14,9 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      Latin/Greek second witness for the ALREADY-PRESENT English-language
-      entry in this same corpus-map bucket (source_file
-      anf09_gospel-of-peter-diatessaron-origen-commentaries.xml), which
-      Source_Registry.md row 28 holds Excluded/Named Comparandum (predates
-      this world's own c. 246 boundary by 66 years). This second-witness
-      file does not change that disposition -- mirrors the existing entry's
-      own role and confidence exactly, rather than asserting a new one.
-
-  - row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
-    work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
-    author: passion_of_perpetua
-    locus: "pp. 60-95 of the printed volume"
-    atlas_ids:
-      - latin-apologists
-    role: tradition
-    confidence: assigned
-    note: >
-      Latin/Greek second witness for the ALREADY-PRESENT English-language
-      entry in latin-apologists.yaml (source_file anf03_tertullian.xml;
-      anf03_tertullian.xml carries the work in full, printed as an Appendix,
-      while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
-      it only in editorial footnotes, so anf03 is the correct sibling entry,
-      not anf09). This work belongs with latin-apologists rather than any
-      Latin-pastoral bucket. This file does not reassign it -- mirrors the
-      existing assignment exactly. The atlas_id here is latin-apologists
-      (I.43); tertullian-s-voice (I.17), which this entry once named, has
-      since been merged into it, along with the rest of Tertullian's own
-      works in anf03/anf04.
+      Latin and Greek second witness to the English entry in this bucket (source_file anf03_tertullian.xml,
+      where the work is printed as an Appendix). The same file also prints the Passion of the Scillitan
+      Martyrs (pp. 112-117), which is not assigned here. The file header warns of scan-level noise.
     locus_ids:
     - pp. 60-95 of the printed volume
     language:

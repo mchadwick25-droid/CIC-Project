@@ -55,26 +55,49 @@ assignments:
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lactantius
-    work: "Fragments of Lactantius"
+    work: "Lactantius, Carmina - The Phoenix and A Poem on the Passion of the Lord (printed as 'Fragments of Lactantius')"
     author: lactantius
-    locus: "file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost works; the poems (Carmina) begin earlier at line 10119 and have no English twin here)"
+    locus: "file line 10126 (heading 'DE AVE PHOENICE.', under CARMINA at line 10119); the second poem, 'DE PASSIONE DOMINI.', is at file line 10806"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: provisional
+    note: >
+      Latin original of the two poems the vendored English prints as 'Fragments of Lactantius'
+      (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, div2 iii.vi): De ave phoenice
+      and De passione Domini, which the file prints under CARMINA. Brandt, CSEL 27 part 2
+      fasc. 1 (Vienna, 1893), a critical edition with apparatus. The Latin OCR is readable running
+      text, so this file is ready to quote once each quote is verified verbatim against it (INTAKE
+      section 6). Authorship stays open: the English edition's General Note says no manuscript
+      authority ascribes the poems to Lactantius.
+    locus_ids:
+    - 'line 10126: DE AVE PHOENICE.'
+    - 'line 10806: DE PASSIONE DOMINI.'
+    language: lat
+    date:
+      window: unknown
+      checked: The editor's General Note in the English file gives no date and doubts the ascription; Brandt's pages read print the poems without a date
+
+  - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lost-works-librorum-perditorum-fragmenta
+    work: "Fragments of lost works of Lactantius (Librorum perditorum fragmenta)"
+    author: lactantius
+    locus: "file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost works)"
     atlas_ids:
       - latin-apologists
     role: tradition
     confidence: assigned
     note: >
-      Latin original of the ALREADY-PRESENT English entry for this work (source_file
-      anf07_lactantius-apostolic-constitutions-didache-liturgies.xml) in the bucket(s) named here.
-      PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27 part 2
-      fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The Latin OCR is
-      readable running text, so this file is ready to quote once each quote is verified verbatim
-      against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
-      the vendored English as a cross-check. Mirrors the English twin's role and confidence
-      exactly.
+      Latin only; no English twin is vendored. Brandt, CSEL 27 part 2 fasc. 1 (Vienna, 1893), prints
+      under this heading quotations from Lactantius's lost works (the first item reads as a passage
+      from the third book to Probus, quoted by Jerome). The Latin OCR is readable running text,
+      so this file is ready to quote once each quote is verified verbatim against it (INTAKE section 6).
+      The speaker of each fragment is Lactantius as quoted by the later author named in the item.
     locus_ids:
     - 'line 11021: LIBRORVM PERDITORVM FRAGMENTA.'
     language: lat
+    voice_of:
+    - author: lactantius
+      loci: each fragment, as quoted by the later author named in its heading
     date:
       window: unknown
-      checked: The file prints fragments of lost works under one heading; no composition date for the lost works was found in the editions read (ANF07 and Brandt, CSEL 27 part 2 fascicle 1)
-
+      checked: The fragments come from lost works; the dates of those works were not found in the editions read (ANF07 and Brandt, CSEL 27 part 2 fascicle 1)

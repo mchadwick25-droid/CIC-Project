@@ -1,0 +1,26 @@
+source_file: brewer_kommodian-von-gaza-deu_1906.txt
+authors_ruled:
+  brewer:
+    kind: metadata-omission
+    evidence: Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page names Heinrich Brewer as the author (file header and title page). A mechanical index-coverage gap, not an attribution dispute.
+    from_file: brewer_kommodian-von-gaza-deu_1906.txt
+assignments:
+- row_id: brewer_kommodian-von-gaza-deu_1906--brewer-kommodian-von-gaza-1906
+  work: Brewer, Kommodian von Gaza (1906)
+  author: brewer
+  locus: whole file
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Modern German monograph, role context, not tradition. Argues the minority fifth-century date for Commodian (between 458 and 466). Read for that thesis only. Consultation only: no world''s own voice.'
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
+  language: deu
+  voice_of:
+  - author: brewer
+    loci: the whole volume
+  date:
+    window: 1906 (publication date on the title page)
+    source: brewer_kommodian-von-gaza-deu_1906.txt
+    formation_confidence: Documented
