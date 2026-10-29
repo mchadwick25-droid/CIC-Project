@@ -428,6 +428,11 @@
       "estimate": 0.2724,
       "spent_usd_world": 0.275583,
       "exit_code": 0
+    },
+    "syr": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-syr.jsonl",
+      "estimate": 0.2486
     }
   }
 }
