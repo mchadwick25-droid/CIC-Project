@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 14.415029,
+  "spent_usd": 14.665241,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -430,9 +430,11 @@
       "exit_code": 0
     },
     "syr": {
-      "status": "running",
+      "status": "done",
       "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-syr.jsonl",
-      "estimate": 0.2486
+      "estimate": 0.2486,
+      "spent_usd_world": 0.250212,
+      "exit_code": 0
     }
   }
 }
