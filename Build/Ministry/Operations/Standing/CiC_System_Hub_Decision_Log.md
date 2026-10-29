@@ -7300,3 +7300,13 @@ If any condition fails, the amount stays unspent.
 **Decision.** Mark, 2026-10-29, by choice box in the project-management thread: ratify `latap` (Atlas I.43, Tertullian merged in from I.17). The folder `Build/worlds/latap/`, the dossier and the review files already used it. Pull request #1276 (merged) added `records/worlds/latap.yaml`, a candidate with census id `latin-apologists`, window 197 to 320, and an entry in `WORLDS_REGISTRY_LOG.md`.
 
 **Left open.** The `safety_adjacent` value is not set in the registry entry and stays for the project lead. No new top-level folder or tool was added, so `CiC_Repo_Structure_Tracking.md` needs no entry.
+
+## 2026-10-29 - Stage 1 live tests ran after withdrawal; spend recorded (project lead)
+
+**What happened.** Mark withdrew every paid run for the Answering-from-the-Sources work at about 18:08 UTC ("we are not spending 75 dollars on api runs to test it") and the coordination thread told the engine and specialist threads to stop. Both threads had unread messages queued and ran their approved tests anyway before reading them. Neither run was authorized at the time it ran. Both threads have been told to drain their messages before any metered call and to make none.
+
+**`S1-01 baseline sample` (cap $1.00).** Ran 18:16:50 to 18:17:09 UTC, lpc, 4 probes, settings printed first. 10 Haiku gate calls succeeded (about $0.03). All 4 Sonnet voice calls failed. The spend guard priced the run at $0.8275 and refused the next call, because it charges a failed call at its full hold. A call the API rejected is probably not billed by AWS, so the real spend is likely near $0.03; this is reported by the engine thread and not confirmed against the AWS bill. No answers were produced and the cause of the voice failure is unknown. The "S1-01 baseline live path" ($25) run never started.
+
+**`specialist-tryout-1` (cap $10.00, withdrawn before it ran).** One attempt, three lines per candidate, refused by Bedrock on the first call for both candidates (AccessDeniedException: GPT-6.1 Sol and Grok 4.7 not available for this account). No label was made and a refused call is not billed. The guard counted $0.2285 against the cap. The ledgers are on the specialist thread's branch.
+
+**Standing position.** No metered run for this work is authorized. The two named tests above are closed. Any future one needs Mark's word and a plain-words request raised only when nothing free can do the step.
