@@ -232,3 +232,51 @@ def test_hand_listed_lines_report_headings_the_pattern_missed(tmp_path):
         assert needle in notes[0]
     assert "line 11" not in notes[0]
     assert not [n for n in cu.resolve(make(tmp_path, rules=[dict(rule, lines=None)]), lines).notes if "hand-listed" in n]
+
+
+def capita_text(count=12):
+    body = ["HEAD", ""]
+    for n in range(1, count + 1):
+        body += [f"CAPUT {n}.", "", " ".join(["word"] * 700), ""]
+    return body
+
+
+OVERSIZE_RULE = {"id": "h", "pattern": "^HEAD$", "locus": "head", "allow_oversize": "one undivided work"}
+
+
+def test_not_subheadings_lets_listed_lines_stand_out_of_the_count(tmp_path):
+    lines = capita_text()
+    listed = [3 + 4 * k for k in range(12)]
+    entry = {"lines": listed[1:], "kind": "quoted-list", "quote": "CAPUT 2."}
+    assert any("does not hold" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[OVERSIZE_RULE]), lines)))
+    ok = cu.resolve(make(tmp_path, rules=[OVERSIZE_RULE], not_subheadings=[entry]), lines)
+    assert unexplained(ok) == []
+    partial = dict(entry, lines=listed[8:9], quote="CAPUT 9.")
+    res = cu.resolve(make(tmp_path, rules=[OVERSIZE_RULE], not_subheadings=[partial]), lines)
+    assert any("does not hold" in p for p in unexplained(res))
+
+
+def test_not_subheadings_ranges_and_checks(tmp_path):
+    lines = capita_text()
+    ranged = {"lines": [[7, 47]], "kind": "footnote", "quote": "CAPUT 2."}
+    res = cu.resolve(make(tmp_path, rules=[OVERSIZE_RULE], not_subheadings=[ranged]), lines)
+    assert not any("does not hold" in p for p in res.problems)
+    assert any("lists" in p and "does not flag" in p for p in res.problems)
+    wrong = dict(ranged, lines=[7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47], quote="CAPUT 99.")
+    res = cu.resolve(make(tmp_path, rules=[OVERSIZE_RULE], not_subheadings=[wrong]), lines)
+    assert any("quotes text that is not on the line" in p for p in res.problems)
+    outside = {"lines": [2], "kind": "ocr-debris", "quote": "HEAD"}
+    res = cu.resolve(make(tmp_path, rules=[OVERSIZE_RULE], not_subheadings=[outside]), lines)
+    assert any("does not flag" in p for p in res.problems)
+
+
+@pytest.mark.parametrize("entry,message", [
+    ({"lines": [3], "kind": "heading", "quote": "x"}, "kind must be one of"),
+    ({"lines": [], "kind": "footnote", "quote": "x"}, "needs lines"),
+    ({"lines": [3], "kind": "footnote", "quote": ""}, "needs lines"),
+    ({"lines": ["a"], "kind": "footnote", "quote": "x"}, "line numbers"),
+    ({"lines": [3], "kind": "footnote", "quote": "x", "pattern": "^x"}, "unknown field"),
+])
+def test_not_subheadings_entries_are_validated(tmp_path, entry, message):
+    with pytest.raises(cu.CurationError, match=message):
+        make(tmp_path, rules=[OVERSIZE_RULE], not_subheadings=[entry])
