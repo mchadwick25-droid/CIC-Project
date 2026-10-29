@@ -296,3 +296,14 @@ known-supported controls), which must then pass a fresh 20-seed test at 19 of
 20 before its labels count. Second labeller the other candidate or Kimi K3.
 Needs a guarded Bedrock adapter in `engine/provider` and a sourced price row
 per model. The tryout is real API spend and waits for Mark's named cap.
+
+## 9. Caps named by Mark, by choice box (2026-10-29)
+
+Entered in the System Hub Decision Log (PR #1273): `specialist-tryout-1` $10.00;
+`S1-01 baseline sample` $1.00 (lpc, 4 probes); `S1-01 baseline live path` $25.00
+(12 worlds, 336 probes, starts after the sample is reported).
+
+Deferred by Mark: `judge-trial-1` (decide later, after the gold set exists) and
+`index-twelve-1` (decide after the Library thread's sample card gives a measured
+price; no full index run before then). The gold-set labelling and the second
+labeller still have no cap.
