@@ -2390,3 +2390,9 @@ Logged 2026-10-29.
 - **Open.** See `Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md` and `lpc_Decision_Log.md`, 2026-10-29, "Live test lpc go-live rerun 1". Record side: rewrite the two "held as Contested" lines in the world core; move the corpus counts and "We have not yet weighed them" out of fields the voice speaks; narrow the retrieval triggers of `lpc.quote.bishop-of-bishops` and `lpc.witness.remembered-at-the-altar`; add questions that test the four fixes the battery did not touch.
 - **Engine, not this thread's.** Removal of sentences that gutted answers, withheld uncited claims still shipping, no check of a quote's lead-in against its claim guards, no output checks for cautions 14, 15 and 17.
 - **Owner.** This thread for the records; the engine threads for the rest. Unspent: $1.45 of the "lpc go-live rerun 1" cap, not carried to any other use.
+
+### OG-114. Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01 (2026-10-29)
+
+Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Cyprian's *Address to Demetrianus* and *On the Vanity of Idols* (ascribed to Cyprian), which both shelves hold. This world's records also cite Tertullian's *On Modesty* chapter XXII as comparandum evidence (`lpc.source.tertullian-de-pudicitia`, used by `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace`), and the work is on the Latin Apologists' shelf. Whether the two worlds hold the shared works at the same weight is a cross-world question. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+- **Open.** Owner: this world's thread.

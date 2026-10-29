@@ -1,15 +1,15 @@
 # Open Gaps — The Latin Apologists
 
-Append-only ledger for this world's build. Entries are numbered and dated; a merged entry's number never changes. Cross-references cite subject and date, not a bare number. The world's file-code is `latap`, a working label that the project lead has not ratified.
+Append-only ledger for this world's build. Entries are numbered and dated; a merged entry's number never changes. Cross-references cite subject and date, not a bare number. The world's file-code is `latap`.
 
 ---
 
-## OG-1 — The file-code `latap` is a working label, not a registered code (2026-10-29)
+## OG-1 — `safety_adjacent` is not set on the `latap` registry entry (2026-10-29)
 
-**Source:** the Step 0 header ("World file-code: none assigned"); `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md` (entry "Society of Jesus given the code `jes`", the precedent that the project lead assigns the code).
+**Source:** `records/worlds/latap.yaml`; `Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` (entry `latap`).
 **Status:** Open. Owner: the project lead.
 
-No `records/worlds/latap.yaml` exists, and none was created in the library stage. Handoff check 1 (identity) fails until the code is ratified and the entry carries `safety_adjacent`. The folder `Build/worlds/latap/` already existed. Every place the label is written is listed under `label_occurrences` in `build/latap_Build_State.yaml`, so a rename is mechanical.
+The file-code `latap` is registered as a candidate world, census id `latin-apologists`. The registry log records that the code was ratified on 2026-10-29. Step 0's header still reads "none assigned" and is not edited. No `safety_adjacent` value is set. Handoff check 1 (identity) fails until the project lead sets it.
 
 ## OG-2 — Step 0 and the dossier count the shelf at one moment; the shelf has grown (2026-10-29)
 
@@ -72,4 +72,18 @@ Ranked by mentions of Tertullian, Minucius Felix, Arnobius, Lactantius or Commod
 **Source:** `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` ("Neighbour re-confirmation"); Doc_01 §7.
 **Status:** Open. Owner: the three neighbour worlds' own threads.
 
-Doc_01 names three built neighbours: Post-Apostolic House-Church Christianity (`pahc`), Latin Pastoral-Congregational Christianity (`lpc`) and Imperial-Juridical Christianity (`ijc`). Each is asked to re-confirm its shared boundary from its own side. The request is logged in each neighbour's `Open_Gaps_Tracking.md`.
+Doc_01 names three built neighbours: Post-Apostolic House-Church Christianity (`pahc`), Latin Pastoral-Congregational Christianity (`lpc`) and Imperial-Juridical Christianity (`ijc`). Each is asked to re-confirm its shared boundary from its own side. The request is logged in each neighbour's `Open_Gaps_Tracking.md`: `pahc` OG-44, `lpc` OG-114 and `ijc` entry 48, all dated 2026-10-29.
+
+## OG-11 — Tertullian's *On Modesty* chapter XXII is cited by LPC as comparandum evidence (2026-10-29)
+
+**Source:** `records/lpc/source/lpc.source.tertullian-de-pudicitia.md`; `records/lpc/force/lpc.force.decian-persecution-libelli-system.md`; `records/lpc/gravity/lpc.gravity.confessor-authority-vs-episcopal-peace.md`; Doc_01 §7.
+**Status:** Open. Cross-world question. Owner: the project lead or the two worlds' threads.
+
+LPC's Registry excludes Tertullian's corpus as a Named Comparandum, yet LPC's source record cites chapter XXII of *On Modesty* (`anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`, lines 9554–9566, by LPC's own reading) as comparandum evidence, and two LPC records rest a sentence on it. *On Modesty* is on this shelf, co-assigned to Montanism, and the bishop it attacks is Contested. Nothing here is decided and no LPC record is edited. The weight the two worlds give the same chapter is not settled.
+
+## OG-12 — Step 0 §4 item 7's overlap sweep is dated; the sweep was re-run for Doc_01 and the new LPC and PAHC uses are recorded (2026-10-29)
+
+**Source:** Doc_01 §7; a case-insensitive search of `records/` for the five authors' names and titles.
+**Status:** Open. Owner: the neighbour worlds' threads.
+
+The re-run found the LPC use in OG-11 and one further PAHC use (`pahc.source.lucian-peregrinus` triangulates with Tertullian's *Apology* 39). Matches in other worlds that were inspected are volume-title strings and the word "perpetual"; they were not each opened.
