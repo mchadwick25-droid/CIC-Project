@@ -280,5 +280,118 @@ shared = _validate_with({"fixture-a": _bucket("fixture-a", _row("k", "W1")),
 results.append(check("the same row in two buckets shares its row_id without a finding",
                      not any("row_id" in f for f in shared)))
 
+# --- the optional row fields: locus_ids, voice_of, documented_exchange, language, date ---
+_FIELDS_STAGED = """source_file: vol1.xml
+assignments:
+- row_id: vol1--a
+  work: A
+  author: a
+  locus: whole
+  locus_ids: [whole-file]
+  atlas_ids: [x]
+  role: context
+  confidence: assigned
+  voice_of: fixture-synthetic-neighbour
+  documented_exchange: confirmed
+  language: grc-lat
+  date: {start: 300, end: 325, source: "Edition preface", formation_confidence: Contested}
+  note: n
+- row_id: vol1--b
+  work: B
+  author: a
+  atlas_ids: [x]
+  date: {formation_confidence: unknown, checked: "edition preface; Clavis Patrum Graecorum"}
+"""
+carried = _in_temp_staging(_FIELDS_STAGED, lambda p, l: (corpus_map_merge.load_staging(), corpus_map_merge.merge(write=False)))
+(carried_rows, _, carried_findings), (carried_buckets, _) = carried
+results.append(check("staging rows carrying the new fields load with no findings", carried_findings == []))
+_a = carried_rows[0]
+results.append(check("the merge carries locus_ids, voice_of, documented_exchange, language and date into the bucket",
+                     all(k in _a for k in ("locus_ids", "voice_of", "documented_exchange", "language", "date"))
+                     and _a["date"]["formation_confidence"] == "Contested"
+                     and carried_rows[1]["date"] == {"formation_confidence": "unknown",
+                                                     "checked": "edition preface; Clavis Patrum Graecorum"}))
+results.append(check("a row without the new fields gains none",
+                     not {"locus_ids", "voice_of", "documented_exchange", "language"} & set(carried_rows[1])))
+results.append(check("the new fields keep a fixed key order in the generated row",
+                     [k for k in _a if k != "source_file"] == [k for k in corpus_map.ROW_FIELDS if k in _a and k != "source_file"]
+                     + ["_atlas_ids", "_from"]))
+results.append(check("staging rejects an unknown field instead of dropping it",
+                     any("unknown field 'voice-of'" in f for f in _in_temp_staging(
+                         _HEAD + "- work: A\n  atlas_ids: [x]\n  voice-of: z\n",
+                         lambda p, l: corpus_map_merge.load_staging()[2]))))
+
+
+_VOICE_IDS = set(corpus_map.census_ids()) | corpus_map.pair_parties()
+
+
+def _fields(**extra):
+    r = _row("k")
+    r.update(extra)
+    return corpus_map.row_field_findings(r, "t", _VOICE_IDS)
+
+
+_via_validate = [f for f in _validate_with({"fixture-a": _bucket("fixture-a", {
+    **_row("k"), "role": "context", "voice_of": "nobody", "colour": "x"})}) if "is not in cic/texts" not in f]
+results.append(check("validate applies the field rules and rejects unknown fields on a bucket row",
+                     any("unknown field 'colour'" in f for f in _via_validate)
+                     and any("neither a census movement id" in f for f in _via_validate)))
+
+
+def _ctx(**extra):
+    return _fields(role="context", voice_of="fixture-synthetic-neighbour", **extra)
+
+
+results.append(check("a well-formed set of the new fields validates clean",
+                     _ctx(locus_ids=["whole-file"], documented_exchange="confirmed", language="grc-lat",
+                          date={"start": -50, "end": 10, "source": "s", "formation_confidence": "Documented"}) == []))
+results.append(check("locus_ids must be a non-empty list of strings",
+                     all(any("locus_ids" in f for f in _fields(locus_ids=v)) for v in ([], "div1", [1], [""]))))
+results.append(check("locus_ids may not repeat an id", any("repeats" in f for f in _fields(locus_ids=["a", "a"]))))
+results.append(check("voice_of on a tradition row is a finding", any("only for non-tradition" in f
+                     for f in _fields(voice_of="fixture-synthetic-neighbour"))))
+results.append(check("voice_of must name a census id or a PAIRS party",
+                     any("neither a census movement id" in f for f in _fields(role="context", voice_of="nobody"))))
+results.append(check("voice_of may name a census id", not any("voice_of" in f for f in _fields(
+                     role="context", voice_of=next(iter(corpus_map.census_ids()))))))
+results.append(check("documented_exchange without voice_of is a finding",
+                     any("only meaningful where voice_of" in f for f in _fields(documented_exchange="confirmed"))))
+results.append(check("documented_exchange takes only confirmed, not-confirmed, needs-ruling",
+                     any("documented_exchange" in f and "not in" in f for f in _ctx(documented_exchange="maybe"))
+                     and all(not any("documented_exchange" in f for f in _ctx(documented_exchange=v))
+                             for v in ("confirmed", "not-confirmed", "needs-ruling"))))
+results.append(check("language must be lower-case ISO 639-3 codes joined by hyphens",
+                     all(any("language" in f for f in _fields(language=v)) for v in ("Latin", "la", "GRC", ["lat"]))
+                     and not any("language" in f for f in _fields(language="syr"))))
+
+
+def _date(**d):
+    return [f for f in _fields(date=d) if "date" in f]
+
+
+_ok = {"start": 100, "end": 200, "source": "s", "formation_confidence": "Widely Accepted"}
+results.append(check("a date window with start after end is a finding",
+                     any("after end" in f for f in _date(**{**_ok, "start": 201}))))
+results.append(check("a date window with start equal to end is allowed", _date(**{**_ok, "start": 200}) == []))
+results.append(check("all five formation_confidence levels are accepted",
+                     all(_date(**{**_ok, "formation_confidence": c}) == [] for c in corpus_map.FORMATION_CONFIDENCES)
+                     and len(corpus_map.FORMATION_CONFIDENCES) == 5))
+results.append(check("a sixth level is refused, 'Not Attested' included",
+                     all(any("formation_confidence" in f for f in _date(**{**_ok, "formation_confidence": c}))
+                         for c in ("Not Attested", "Probable", "documented"))))
+results.append(check("a date needs a source and integer years",
+                     any("source" in f for f in _date(start=1, end=2, formation_confidence="Documented"))
+                     and any("integer year" in f for f in _date(**{**_ok, "start": "c.100"}))
+                     and any("integer year" in f for f in _date(**{**_ok, "end": True}))))
+results.append(check("an unknown date needs `checked` and carries no window",
+                     _date(formation_confidence="unknown", checked="Clavis") == []
+                     and any("needs `checked`" in f for f in _date(formation_confidence="unknown"))
+                     and any("must not carry" in f for f in _date(formation_confidence="unknown", checked="c", start=1))))
+results.append(check("`checked` with a confidence level, an unknown date key and a non-mapping date are findings",
+                     any("belongs only with" in f for f in _date(**{**_ok, "checked": "c"}))
+                     and any("unknown key" in f for f in _date(**{**_ok, "era": "x"}))
+                     and any("must be a mapping" in f for f in _fields(date="c. 300"))))
+
+
 print("\nall passed" if all(results) else "\nFAILURES")
 sys.exit(0 if all(results) else 1)

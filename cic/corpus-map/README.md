@@ -79,6 +79,51 @@ One author can hold two relations to two entries, and Cyprian does: antecedent
 to `donatism`, context for `novatianism`. Where a single row needs both, it
 splits into two — the same shape non-exclusivity already uses.
 
+## Row fields
+
+A row carries eight required or assigned fields (`row_id`, `work`, `author`,
+`source_file`, `locus`, `role`, `confidence`, `note`) and five optional ones.
+The optional fields are additions: a row without them stays valid, and a row
+that has them keeps every other field. The merge carries all thirteen from
+staging into the buckets, and `corpus_map.validate()` and the merge's `--check`
+apply the same shape rules. A key outside the thirteen is a finding, never
+silently dropped.
+
+| field | shape | rule |
+|---|---|---|
+| `locus_ids` | list of strings | non-empty, no repeats. Each id is a passage-unit `locus` of the named file (its `div` id, or `whole-file`). The check is on shape; whether the id exists in the file is not checked here |
+| `voice_of` | string | the slug of a census movement id or of a party ruled in `PAIRS.yaml` `parties`. Allowed only on a row whose `role` is not `tradition`: a tradition row is already the entry's own voice |
+| `documented_exchange` | `confirmed`, `not-confirmed` or `needs-ruling` | allowed only where `voice_of` is set. It says whether this specific work was part of the documented exchange between the entry and the `voice_of` party |
+| `language` | string | lower-case ISO 639-3 codes joined by hyphens, as the vendored filenames do: `grc`, `lat`, `grc-lat`. English is `eng` when stated; omitting the field says nothing |
+| `date` | mapping | see below |
+
+`date` has two forms. A dated row carries `start` and `end` (integer years,
+negative for BCE, `start` not after `end`), a non-empty `source` naming where
+the window comes from, and a `formation_confidence` from the project's five
+levels: `Documented`, `Widely Accepted`, `Dominant Modern Reconstruction`,
+`Contested`, `Inferential-Thin`. A row whose date nobody has fixed carries
+`formation_confidence: unknown` and a non-empty `checked` naming where the date
+was looked for, with no `start`, `end` or `source`. No other value is
+accepted: `Not Attested` names an absent claim, not a confidence level.
+
+```yaml
+- row_id: example--work
+  work: Example Work
+  author: example
+  source_file: example_work-grc_editor1900.txt
+  locus: whole document
+  locus_ids: [whole-file]
+  role: context
+  confidence: assigned
+  voice_of: example-party
+  documented_exchange: confirmed
+  language: grc
+  date: {start: 300, end: 325, source: "editor's preface", formation_confidence: Contested}
+```
+
+`engine/m9` reads `locus_ids`, `voice_of` and `documented_exchange` into each
+shelf row.
+
 ## Why non-exclusivity is load-bearing
 
 `desert`'s most important source is Athanasius' *Vita Antonii*, and Athanasius
