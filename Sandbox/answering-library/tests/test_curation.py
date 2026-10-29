@@ -318,7 +318,7 @@ def test_speaker_voice_must_be_an_author_of_the_file(tmp_path, monkeypatch):
     (lambda d: d.update(status="finished"), "status must be one of"),
     (lambda d: d.update(bogus=1), "unknown field"),
     (lambda d: d["rules"][0].update(pattern="("), "bad pattern"),
-    (lambda d: d["rules"][1].update(parent="missing"), "not a rule id"),
+    (lambda d: d["rules"][1].update(parent="missing"), "not a rule or division id"),
     (lambda d: d["rules"][1].update(locus="ch{nope}"), "not a group of the pattern"),
     (lambda d: d["rules"][1].update(id="book"), "duplicate rule id"),
     (lambda d: d["rules"][0].update(parent="chapter"), "loop"),
