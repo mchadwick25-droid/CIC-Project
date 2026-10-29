@@ -307,3 +307,23 @@ Deferred by Mark: `judge-trial-1` (decide later, after the gold set exists) and
 `index-twelve-1` (decide after the Library thread's sample card gives a measured
 price; no full index run before then). The gold-set labelling and the second
 labeller still have no cap.
+
+## 10. Specialist is Claude only; indexing with paid context lines not authorized (2026-10-29)
+
+Mark, 2026-10-29: "i dont have a clue what your talking about, this is all new
+stuff you are talking about spending and stuff, i want it built, not be a
+source of income for others". By choice box he chose: no spend on other
+companies' models, Claude only.
+
+- Supersedes entry 8's Option A. Specialist Opus 5.5; second labeller Fable
+  5.1; judges Haiku 4.5 and Sonnet 5.5. No Bedrock adapter, no non-Claude
+  price rows. `specialist-tryout-1` is withdrawn (nothing spent).
+- Weaker than a different-vendor specialist, because the models share training.
+  The report states this plainly and the containment in entry 2 stands: seeded
+  defects with a published catch rate, exact-quote verdicts, a second model on
+  a fifth, Mark's adjudication, outside referees, external experts at the end.
+- Contextual indexing with paid context lines ($438 to $746) is not authorized.
+  S1-05 is a no-context index, with context lines optionally done in-system
+  later.
+- Mark does not want to be asked about spending in jargon. Threads put any
+  paid-run question to him in plain words, one at a time.
