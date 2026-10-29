@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 11.036983,
+  "spent_usd": 11.097799,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -183,9 +183,11 @@
       "exit_code": 0
     },
     "anachronism-3": {
-      "status": "running",
+      "status": "done",
       "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-anachronism-3.jsonl",
-      "estimate": 0.065145
+      "estimate": 0.065145,
+      "spent_usd_world": 0.060816,
+      "exit_code": 0
     }
   }
 }
