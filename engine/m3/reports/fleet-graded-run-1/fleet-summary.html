@@ -42,7 +42,7 @@ ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px;
 <h1>Fleet graded run 1</h1>
 <p class="lede">Where each real world's answers fail today, on the current code, with Opus grading every answer against that world's own records.</p>
 
-<div class="cost"><span>Spent <b>$11.82</b> of the $12.00 cap</span><span>12 worlds asked 28 sealed questions each</span><span>lpc: 27 of 30 live conversations</span></div>
+<div class="cost"><span>Spent <b>$15.44</b> of the $16.00 cap</span><span>12 worlds asked 28 sealed questions each</span><span>lpc: all 30 live conversations</span><span>11 worlds: six-question replay</span></div>
 
 <h2>The short version</h2>
 <p>The automatic checks passed all 28 answers in every world. Opus then failed between 5 and 16 answers per world. The automatic checks do not catch invented facts, damaged answers, the voice talking like a chatbot, or reading level, so they cannot be used as a gate.</p>
@@ -52,11 +52,11 @@ ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px;
 <div class="tw"><table>
 <thead><tr><th>World</th><th>Opus pass / fail</th><th>Invented, after-window or misused quote</th><th>Main trouble</th></tr></thead>
 <tbody id="rows"></tbody></table></div>
-<p class="small">Each world's answers are graded on 28 rows. Wrong, invented, misleading or damaged answers fail. Small fixable defects still pass. cappadocian's automatic checks were not computed, because one call hit a transient API error and the harness refused to write its report. Its 28 answers were still graded.</p>
+<p class="small">Each world's answers are graded on 28 rows. Reviewers did not treat reading level the same way: some failed an answer that missed the reading floor, others counted it as a small defect. Counts are therefore close but not exactly comparable. Wrong, invented, misleading or damaged answers fail. Small fixable defects still pass. cappadocian's automatic checks were not computed, because one call hit a transient API error and the harness refused to write its report. Its 28 answers were still graded.</p>
 
 <h2>lpc beside run 3</h2>
 <p>On the 37 conversation rows that both runs share, lpc went from <b>22 pass and 12 fail</b> in run 3 to <b>26 pass and 8 fail</b> now. Seven rows were fixed, five still fail, and three newly fail. Nineteen passed both times, and three were not scored either time. The riders and the retrieval change worked where they were aimed.</p>
-<p>The three thinness conversations (thinness-2, -3 and -4) were not run, because the cap was reached. The 37 rows are the ones that exist in both runs.</p>
+<p>The three thinness conversations were run later, after you raised the cap. The 37 rows above are the ones the review graded, and the thinness conversations are in the conversations page. They are not in these counts.</p>
 <div class="callout">
 <p><b>Does lpc have an invented-fact, after-window or misused-quote failure? Yes.</b> Seven rows in all, six in the conversations and one in the 28 questions.</p>
 <p>In Deep Interview turns 8, 9 and 10 the voice says Augustine wrote Letter 228 "with an army outside Hippo". The letter dates to 428 or 429, and the siege began in 430. The record's own guard says the letter does not describe the siege, and nothing checks the answer against that guard.</p>
@@ -92,11 +92,28 @@ ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px;
 <li>Record work per world, driven by the question types above. The review files under each world's Review-Artifacts folder name the fix for every failing row.</li>
 </ol>
 
+<h2>The six-question replay</h2>
+<p>After you raised the cap, all eleven other worlds were asked the six questions from the 13 October test, in one conversation each, on today's code. Opus graded the new answers and compared each with the older answer, read qualitatively. The older test was a different format and a different engine, so these comparisons are not scores.</p>
+<div class="tw"><table>
+<thead><tr><th>World</th><th>New answers (of 6)</th><th>Against the older answers</th></tr></thead>
+<tbody id="rep"></tbody></table></div>
+<p><b>Totals:</b> 44 pass, 21 fail, 1 not scored of 66. Against the older answers, 17 are better, 26 about the same and 23 worse. The result is mixed, not a clear gain.</p>
+<ol class="pat">
+<li><b>"What did he do?" is the weakest question.</b> It fails or goes badly in desert, pahc, alx, rzg, hal, cappadocian and don. The engine removes the sentence that named the person the answer is about, or the question's own record is not offered, and the answer drifts to someone else.</li>
+<li><b>The same sentences repeat across the six turns</b> in most worlds, because each turn is offered the same records again.</li>
+<li><b>Old faults carried over:</b> hal's after-window name and wrong gloss come from its own records and were in the older test too.</li>
+<li>One cappadocian turn (question 3) came back as the fixed Facilitator line after its safety read failed. That is recorded in the replay file.</li>
+</ol>
+
 <h2>What was left out, and why</h2>
-<p>Data dated before 27 October was left out of every comparison on purpose, as you ruled. The one exception is lpc's run 3, the baseline. The 13 October side-by-side for the eleven other worlds was not made, because the six-question replay did not fit under the cap. It would need about $2.4 more. The three thinness conversations, about $0.1, were also not run.</p>
+<p>Data dated before 27 October was left out of every comparison on purpose, as you ruled. The one exception is lpc's run 3, the baseline. The cappadocian admission rerun, about $1.1, was not run, so its automatic checks were never computed. Its answers and review exist.</p>
 <p class="small">Everything is on the branch claude/fleet-graded-run-1: the reports, the answers, the ledgers, the checkpoint and one review file per world under Build/worlds/&lt;code&gt;/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md.</p>
 </div>
 <script>
+var P = [["gallic",3,3,0,0,5,1],["desert",4,2,0,2,3,1],["ijc",4,2,0,2,1,3],["alx",4,2,0,2,2,2],["witt",5,1,0,1,2,3],["rzg",4,2,0,1,3,2],["pahc",5,1,0,3,2,1],["hal",3,3,0,0,3,3],["syr",5,1,0,2,2,2],["cappadocian",4,1,1,2,2,2],["don",3,3,0,2,1,3]];
+document.getElementById("rep").innerHTML = P.map(function (r) {
+  return "<tr><td><b>" + r[0] + "</b></td><td class=\"num\">" + r[1] + " pass, " + r[2] + " fail" + (r[3] ? ", " + r[3] + " not scored" : "") + "</td><td class=\"num\">better " + r[4] + ", same " + r[5] + ", worse " + r[6] + "</td></tr>";
+}).join("");
 var R = [
  ["lpc","21 / 7",21,7,"7 rows (1 here, 6 in conversations)","A wrong fact in three Deep Interview turns, two quotes used out of context, two cautions failing for the fourth run."],
  ["gallic","19 / 9",19,9,"2","Silence answered with a claim; the cut step damaged answers; build words reached the voice."],

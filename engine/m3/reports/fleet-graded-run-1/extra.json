@@ -288,7 +288,7 @@
  "desert": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 4, FAIL 2, NOT SCORED 0 of 6; against the older answers better 2, same 3, worse 1.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -332,7 +332,7 @@
  "ijc": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 4, FAIL 2, NOT SCORED 0 of 6; against the older answers better 2, same 1, worse 3.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -376,7 +376,7 @@
  "alx": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 4, FAIL 2, NOT SCORED 0 of 6; against the older answers better 2, same 2, worse 2.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -420,7 +420,7 @@
  "witt": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 5, FAIL 1, NOT SCORED 0 of 6; against the older answers better 1, same 2, worse 3.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -464,7 +464,7 @@
  "rzg": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 4, FAIL 2, NOT SCORED 0 of 6; against the older answers better 1, same 3, worse 2.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -508,7 +508,7 @@
  "pahc": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 5, FAIL 1, NOT SCORED 0 of 6; against the older answers better 3, same 2, worse 1.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -552,7 +552,7 @@
  "hal": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 3, FAIL 3, NOT SCORED 0 of 6; against the older answers better 0, same 3, worse 3.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -596,7 +596,7 @@
  "syr": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 5, FAIL 1, NOT SCORED 0 of 6; against the older answers better 2, same 2, worse 2.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -640,7 +640,7 @@
  "cappadocian": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 4, FAIL 1, NOT SCORED 1 of 6; against the older answers better 2, same 2, worse 2.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
@@ -684,7 +684,7 @@
  "don": [
   {
    "title": "Six-question replay (29 October)",
-   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer.",
+   "sub": "The same six questions the 13 October test asked, as one conversation on today's code. The older answer follows each new answer. Opus: new answers PASS 3, FAIL 3, NOT SCORED 0 of 6; against the older answers better 2, same 1, worse 3.",
    "items": [
     {
      "tag": "replay \u00b7 question 1",
