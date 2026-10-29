@@ -54,7 +54,7 @@ openings, any change to the production path.
 | Item | Cap in force | Thread | Started | Finished | Elapsed |
 |---|---|---|---|---|---|
 | Harness parity (prerequisite to S1-01): the admission harness runs the live path | none: free, hermetic tests only | Engine | 2026-10-29 17:11Z | 2026-10-29 17:23Z (local checks green; review round 1 pending) | 12 min |
-| S1-01 baseline live-path run | none yet [BLANK, Mark] | Engine | | | |
+| S1-01 baseline live-path run | none: both approvals withdrawn 2026-10-29; no metered call without Mark. The sample ran once before the withdrawal reached the thread: guard-priced $0.8275, all 4 voice calls failed, no answers. Free measures filed in `S1-01-free/` | Engine | 2026-10-29 18:16Z | not completed | 19 s of wall clock (sample) |
 | S1-L2 deterministic quoting on the replay bench | none: free, no model call | Engine | 2026-10-29 17:23Z | 2026-10-29 17:29Z (review round 1 pending) | 6 min |
 | S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | | | |
 | S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | | | |
