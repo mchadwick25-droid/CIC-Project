@@ -76,6 +76,36 @@ is given the prompt files only, never the key.
 | `goldset/inplan.py` | Exports the labeller prompts to files and checks the replies a Claude Code subagent writes; no metered call | Done |
 | `goldset/catch_rate.py` | Catch rate and false alarms per test set | Done |
 | `goldset/split.py` | Calibration and held-out halves by hash of id; seal | Done |
+| `goldset/cues.py` | Free pre-screen that draws likely candidates of the rare classes from the pool; a cue never labels | Done; every generalisation and embedded-voice cue labelled; about 1,300 negation and false-friend cues left, at a yield of one to three in a hundred |
+| `goldset/agreement.py`, `goldset/packet.py` | Agreement between the two labellers, and the packets for Mark (disagreements, key classes, random sample) | Packets 1 to 3 (lpc 19, ten other worlds 47, constructed and new natural 20) |
+| `goldset/constructed.py` | Constructed items for classes the natural sentences leave short, read before use (`constructed/Constructed_Readings.yaml`) | 173 accepted of 263 read |
+
+## Natural and constructed items, counted apart
+
+The natural sentences do not hold 40 items of each key class. After every
+cue-drawn and random items were labelled (lpc 280, the ten other worlds 517,
+every generalisation and embedded-voice cue among them), the specialist found: negation or modal shift 14, generalisation 12,
+false friend 2, embedded voice 1. These are the specialist's labels before
+Mark rules.
+
+So the four short classes are topped up with constructed items, as ruled.
+Each was written by one Opus subagent to carry one defect, bound to the
+record whose own words make it certain. A different Opus subagent read each
+against its record. The gold set thread then rejected six more for a second
+defect, a draft or provisional record, or wording that gave it away.
+Accepted: negation or modal shift 41, generalisation 40, false friend 44,
+embedded voice 48. Most rejections were false friends that stated a
+lexicon flag as a definition (39 of the first 45).
+
+The accepted items were then labelled blind, mixed with 121 natural items in
+one stream. The specialist found every one unsupported, and 172 of 173 in
+the class it was built to carry. The one it read differently goes to Mark.
+
+Every count keeps the two apart. A constructed item has kind "constructed"
+in the stream key and in the gold set. It tests whether a judge catches a
+known defect, as a seed does, and says nothing about how often the defect
+occurs. Only the natural items give rates, and only the random draws among
+them give natural rates.
 
 ## Known limits of the tooling
 

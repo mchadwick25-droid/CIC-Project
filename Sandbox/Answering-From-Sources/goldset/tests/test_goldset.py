@@ -223,3 +223,13 @@ def test_packet_keeps_every_queued_item_and_every_specialist_key_class():
              {"item_id": "b", "why": "key class"}, {"item_id": "a", "why": "random sample of agreements"}]
     assert packet.order(specialist, queue) == [("c", "disagreement"), ("b", "key class (specialist)"), ("e", "key class (specialist)"),
                                                ("d", "key class (second labeller)"), ("a", "random sample of agreements")]
+
+
+def test_constructed_packet_queues_misreads_natural_key_classes_and_a_sample():
+    from goldset import packet
+    def lab(c):
+        return {"label": {"verdict": "supported" if c == "supported" else "unsupported", "failure_class": None if c == "supported" else c, "other_classes": []}}
+    specialist = {"cx-1": lab("embedded_voice"), "cx-2": lab("negation_modal_shift"), "gs-1": lab("false_friend"), "gs-2": lab("supported")}
+    constructed = {"cx-1": {"expected_class": "embedded_voice"}, "cx-2": {"expected_class": "embedded_voice"}}
+    assert packet.constructed_order(specialist, constructed, sample=5) == [
+        ("cx-2", "constructed, not read as intended"), ("gs-1", "key class (specialist)"), ("cx-1", "random sample of constructed items")]
