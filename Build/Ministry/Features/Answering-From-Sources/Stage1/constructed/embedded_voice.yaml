@@ -1,0 +1,405 @@
+- seed_type: embedded_voice
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.no-sun-no-moon-no-sky
+  sentence: We taught that God, like a farmer, planted a paradise in Eden, with a real tree whose fruit gave life when eaten.
+  record_words: And who is so foolish as to suppose that God, after the manner of a husbandman, planted a paradise in Eden
+  construction: Origen mocks as foolish anyone who supposes God planted a bodily paradise like a farmer; the sentence voices that literal reading as our own teaching.
+- seed_type: embedded_voice
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.dw.was-jesus-god
+  sentence: In our last years we taught plainly that the Son of God was the first and highest creature.
+  record_words: When Arius taught that the Son was the first and highest creature, the council at Nicaea answered with homoousios
+  construction: The record gives 'first and highest creature' as Arius's teaching, which Nicaea answered; the sentence makes it our teaching.
+- seed_type: embedded_voice
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.dw.church-failure
+  sentence: When peace came after the persecution, we demanded that those who had sacrificed to the gods stay out.
+  record_words: The strict party demanded they stay out. The tradition that won here brought the repentant back in
+  construction: The record gives exclusion of the lapsed as the strict party's demand, against the tradition that won; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.antony-on-living-near-kin
+  sentence: We held that the hermit's life deserves no admiration, since living perfection among people takes greater virtue than the desert.
+  record_words: said that the anchorite system was not at all to be admired, declaring that it required greater virtue for a man to practise what belongs to perfection living among men rather than in the desert
+  construction: The record gives this as the claim of a visitor whom Antony then corrects; the sentence voices the visitor's claim as our view.
+- seed_type: embedded_voice
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.antony-nicene-formula
+  sentence: Of the Son of God we said plainly, and without fear, that there was a time when he was not.
+  record_words: And therefore it was impious to say, 'there was a time when He was not,'
+  construction: Antony calls 'there was a time when He was not' an impious saying of others; the sentence puts that saying in our mouth.
+- seed_type: embedded_voice
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-noonday-demon
+  sentence: We told the restless monk that pleasing the Lord does not depend on where he lives, since God is worshipped everywhere.
+  record_words: After all, pleasing the Lord is not dependent on geography, the demon adds; God is to be worshipped everywhere.
+  construction: In the record these are the demon of acedia's words, tempting the monk to leave his cell; the sentence gives them as our counsel.
+- seed_type: embedded_voice
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.dw.how-we-read-and-heard
+  sentence: At Carthage we argued from the wheat and the tares that a church holds good and bad together.
+  record_words: On the third day at Carthage the bishop of Hippo argued from the wheat and the tares that a church holds good and bad together
+  construction: The record gives the wheat-and-tares argument to the bishop of Hippo, answered by our own bishop; the sentence makes it our argument.
+- seed_type: embedded_voice
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.dw.scripture-and-the-african-fathers
+  sentence: We answered our opponents in writing that Cyprian is not a canonical authority, and that the Scriptures alone are.
+  record_words: 'it forced out of the other side: they had to answer, in writing, that Cyprian is not a canonical authority and the Scriptures alone are.'
+  construction: The record says the other side had to answer that Cyprian is not canonical; the sentence voices that answer as ours.
+- seed_type: embedded_voice
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.dw.the-creed-we-shared
+  sentence: By about the year 400 we held that our own separation was what made us heretics.
+  record_words: 'By about 400 Augustine was calling us heretics, and he said why: our separation made us so.'
+  construction: The record gives the claim that separation made us heretics as Augustine's charge; the sentence voices it as our own view.
+- seed_type: embedded_voice
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.story.conference-of-carthage-411
+  sentence: At Carthage we admitted that one of our bishops had been a Catholic deacon, rebaptized, made presbyter, then thrown out for adultery.
+  record_words: Bishops from the other side interrupted the reading to dispute particular entries - one of ours, they said, had been a Catholic deacon
+  construction: The record gives this charge to the other side's bishops, answered by Petilian; the sentence has us admit it.
+- seed_type: embedded_voice
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.story.lucilla-affair
+  sentence: We held that the dead man whose bone Lucilla kissed had not yet been acknowledged as a martyr, if he was one at all.
+  record_words: The dead man had not yet been formally acknowledged as a martyr, Optatus adds, if he was one at all.
+  construction: The record gives this doubt about Lucilla's martyr as Optatus's own comment; the sentence voices it as our judgment.
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.brictio-tirade-and-martins-restraint
+  sentence: We held that Martin, once tarnished by a soldier's life, had sunk into dotage through baseless superstitions and ridiculous fancies about visions.
+  record_words: he rolled forth the words of sin, asserting that he was a holier man than Martin
+  construction: The record gives this attack on Martin to Brictio in a demon-driven rage; the sentence voices Brictio's charge as our view.
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.ruricius-and-the-vote-for-tours
+  sentence: We held that Martin was unworthy of the episcopate, a man despicable in countenance, with mean clothing and disgusting hair.
+  record_words: were impiously offering resistance, asserting forsooth that Martin's person was contemptible, that he was unworthy of the episcopate
+  construction: The record gives these objections to a few hostile bishops whom the people ridiculed; the sentence voices them as ours.
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.profane-notion-attribute-everything-to-free-will
+  sentence: We taught that everything rests on free will, and that God's grace is given according to what each person deserves.
+  record_words: according to the profane notion of some who attribute everything to free will and lay down that the grace of God is dispensed in accordance with the desert of each man
+  construction: Chaeremon names this as the profane notion of some; the sentence voices it as our teaching.
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.augustine-in-darkness-on-predestination
+  sentence: We admit that we are still in darkness on the predestination of the saints, though God will reveal even this to us.
+  record_words: For as yet they are in darkness on the question concerning the predestination of the saints
+  construction: The record is Augustine judging the Massilians to be in darkness; the sentence voices his judgment as our own admission.
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative
+  sentence: In Celestine's warning against priests who invade the episcopal prerogative, we may well see an allusion to Cassian, our leading presbyter.
+  record_words: Edgar C. S. Gibson, editorial prolegomena
+  construction: The reading of Celestine's phrase as an allusion to Cassian is the modern editor Gibson's; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.martin-offers-to-stand-unarmed
+  sentence: We judged that Martin left the army from fear of the coming battle, and not from any religious feeling.
+  record_words: the tyrant stormed on hearing such words, declaring that, from fear of the battle, which was to take place on the morrow, and not from any religious feeling, Martin withdrew from the service.
+  construction: The record gives this charge to the tyrant Julian, which Martin answers; the sentence voices it as our judgment.
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.hindered-by-jerome
+  sentence: We admit that our scholar held Paula back by his jealousy, and led her to serve his own plan.
+  record_words: She was hindered by a certain Jerome from Dalmatia. For though she was able to surpass all, having great abilities, he hindered her by his jealousy
+  construction: This is the hostile outsider Palladius's charge (register etic); the sentence voices it as our own admission.
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.paula-escaped-his-envy
+  sentence: We confess that Paula, who cared for our scholar, left this world before her time to escape his envy.
+  record_words: he told me that the free-woman Paula, who had taken care of him, departed from this world before her time in order that she might escape from his envy
+  construction: This is Palladius reporting Possidonius, an outside hostile account (register etic); the sentence voices it as our confession.
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.no-one-preferred-to-the-seventy
+  sentence: We judged that no translator should be preferred to the authority of the many men chosen by Eleazar for that great work.
+  record_words: still the churches of Christ judge that no one should be preferred to the authority of so many men, chosen for this very great work by Eleazar
+  construction: This is Augustine's outside view (register etic) set against Jerome's Hebrew translation; the sentence voices it as our judgment.
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.oea-tumult
+  sentence: When our scholar's translation was read at Oea, we corrected the reader aloud and denounced the translation as false.
+  record_words: Thereupon arose such a tumult in the congregation, especially among the Greeks, correcting what had been read, and denouncing the translation as false
+  construction: The record gives the denunciation to the congregation at Oea, especially the Greeks; the sentence makes it ours.
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.dw.hell
+  sentence: We favored the teaching that in the end every creature, even the devil, would be restored.
+  record_words: Rufinus charged our scholar with favoring the teaching that in the end every creature, even the devil, would be restored.
+  construction: The record gives this as Rufinus's charge, which we answered and renounced; the sentence voices it as our view.
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.detestable-monks
+  sentence: At the funeral we asked how long we must hold back from driving these detestable monks out of Rome.
+  record_words: Jerome reports the Roman crowd at Blaesilla's funeral saying she was killed by fasting and calling for the monks to be driven from Rome.
+  construction: The record gives these words to the Roman funeral crowd; the sentence voices the crowd's demand as ours.
+- seed_type: embedded_voice
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.eutropius-right-of-refuge
+  sentence: We objected that this man had himself cut off the right of refuge here by his decrees and laws.
+  record_words: But, you say, he cut off the right of refuge here by his ordinances and divers kinds of laws.
+  construction: Chrysostom reports this as his hearers' objection ('you say'); the sentence voices the hearers' objection as ours.
+- seed_type: embedded_voice
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.story.altar-of-victory
+  sentence: We held that Rome's ancient worship had guarded Rome's ancient greatness, and that so great a secret cannot be reached by one road.
+  record_words: 'His plea survives, grave and moving: Rome''s ancient worship had guarded Rome''s ancient greatness, and so great a secret could not be reached by one road alone.'
+  construction: The record gives this plea to Symmachus, the old religion's voice, whom Ambrose answered; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.story.vigil-in-basilica
+  sentence: Our confession said that the Son is like the Father, and no more than that.
+  record_words: the confession the court held, the one that said 'like the Father' and no more.
+  construction: The record gives 'like the Father and no more' as the court's confession, which Ambrose resisted; the sentence makes it ours.
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.a-standard-bearer-of-the-sect
+  sentence: We named Cyprian a standard-bearer of the sect and an enemy of the gods, and an example to his people.
+  record_words: the judge reads from his tablet the sentence which lately in the vision he had not read,—a spiritual sentence, not rashly to be spoken,—a sentence worthy of such a bishop and such a witness; a glorious sentence, wherein he was called a standard-bearer of the sect, and an enemy of the gods
+  construction: These names come from the Roman judge's death sentence; the sentence voices the judge's words as our own naming.
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.a-respite-from-their-torments
+  sentence: We taught that the pains of the damned are, at certain intervals, eased to some degree.
+  record_words: But let them suppose, if the thought gives them pleasure, that the pains of the damned are, at certain intervals, in some degree assuaged.
+  construction: Augustine leaves this to others to suppose if it pleases them; the sentence voices their supposition as our teaching.
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.consider-who-was-there
+  sentence: We told those who came over that they were not baptized duly, because we were not there to baptize them.
+  record_words: sayest to me, ‘Thou wast not baptized duly, seeing I was not there.’
+  construction: The record gives this claim to the opponent Augustine is answering; the sentence voices the opponent's claim as ours.
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.not-to-purchase-impunity
+  sentence: We taught that even gross sins may be committed daily, so long as they are atoned for daily by almsgiving.
+  record_words: We must beware, however, lest any one should suppose that gross sins, such as are committed by those who shall not inherit the kingdom of God, may be daily perpetrated, and daily atoned for by almsgiving.
+  construction: Augustine warns against anyone supposing this; the sentence voices the supposition as our teaching.
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.witness.blamed-for-the-worlds-troubles
+  sentence: We held that our refusal to worship the old gods brought the wars, plague, and famine troubling the world.
+  record_words: A Roman official named Demetrianus accused us of causing the wars, plague, and famine troubling the world, by refusing to worship the old gods.
+  construction: The record gives this as Demetrianus's charge against us; the sentence voices it as our own view.
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.witness.marriage-a-threefold-good
+  sentence: We held that to praise virginity is to condemn marriage, so we did not count marriage a real good.
+  record_words: against those who thought praising virginity meant condemning it.
+  construction: The record gives this view to those Augustine wrote against; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.two-female-slaves-who-were-called-deaconesses
+  sentence: Looked at closely, our faith in those years was nothing except a depraved and immoderate superstition.
+  record_words: But I found nothing except a superstition depraved and immoderate
+  construction: This is the Roman governor Pliny's verdict after torturing two deaconesses; the sentence voices it as our own view.
+- seed_type: embedded_voice
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.put-away-doubting-from-you
+  sentence: We reasoned that we could not ask the Lord and receive from him, seeing we had sinned so much against him.
+  record_words: saying to yourself, 'How can I ask of the Lord and receive from Him, seeing I have sinned so much against Him? 'Do not thus reason with yourself
+  construction: The Shepherd quotes this reasoning only to forbid it; the sentence voices the forbidden reasoning as ours.
+- seed_type: embedded_voice
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.witness.hard-texts
+  sentence: In our time we found the God of the older writings harsh and full of self-contradiction.
+  record_words: Marcion, is remembered by his own opponents as finding the God of those older writings harsh and self-contradictory.
+  construction: The record gives this view to Marcion and says 'we did not follow him there'; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.story.first-zurich-disputation
+  sentence: We called that first disputation in the Town Hall a tinker's day, because nothing but tinkers were attending.
+  record_words: Enemies of the new preaching mocked the gathering as a
+  construction: The record gives the 'tinker's day' mockery to enemies of the new preaching; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.witness.why-the-children-too
+  sentence: We held that only a believer's own chosen profession of faith makes someone a true member of the church.
+  record_words: Their case was that only a believer's own chosen profession makes a true member.
+  construction: The record gives this as the case of the men who baptized each other as adults, against ours; the sentence makes it ours.
+- seed_type: embedded_voice
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.quote.christ-the-mirror-of-election
+  sentence: We taught that people should search outside of Christ to find out whether they are among the chosen.
+  record_words: We reject those who seek out of Christ whether they are chosen
+  construction: Bullinger names seeking outside Christ as the error of those he rejects; the sentence voices it as our teaching.
+- seed_type: embedded_voice
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.a-man-called-wise-amongst-the-jews
+  sentence: We said that among all our people there is not one wise man whose prayer God hears to stop our persecutors.
+  record_words: a man, who is called wise amongst the Jews, questioned me, saying
+  construction: The record gives this taunt to a Jewish questioner whom Aphrahat answers; the sentence voices the taunt as ours.
+- seed_type: embedded_voice
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.dw.god
+  sentence: We held that the Maker of this world is a lesser and harsher god than the Father of Jesus.
+  record_words: Against Marcion we held that the Maker of this world is the Father of Jesus, not a lesser or harsher god.
+  construction: The record gives the 'lesser or harsher god' as Marcion's teaching, which we opposed; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.dw.outsiders-empire
+  sentence: When Rome's emperor became a Christian, our bishops in Persia loved Rome, and their sympathies served the emperor.
+  record_words: The King of Kings' court accused Persia's bishops of loving Rome.
+  construction: The record gives love of Rome as the Persian court's accusation; the sentence voices it as our own account.
+- seed_type: embedded_voice
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.neither-court-nor-mercy
+  sentence: We taught that no mercy should be shown even to the captive rebels and those who had surrendered.
+  record_words: I did not teach, however, that mercy ought not to be shown to the captives and those who have surrendered. They accuse me of having said it
+  construction: Luther says his accusers claim he taught this and he denies it; the sentence voices the accusers' claim as our teaching.
+- seed_type: embedded_voice
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.dw.a-death-begun-that-a-child-receives
+  sentence: We taught that children are saved without baptism, and so we would not baptize our infants.
+  record_words: those who reject infant baptism and say children are saved without it
+  construction: The record gives this teaching to opponents we named and rejected; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.story.augsburg-before-cajetan
+  sentence: We urged our founder at Augsburg that one word, Revoco, would send him home in honor and the Pope's favor.
+  record_words: it would take only one word, the Italian said, Revoco
+  construction: The record gives this urging to an Italian leading Luther to Cajetan; the sentence voices it as ours.
+- seed_type: embedded_voice
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.the-sword-is-at-your-throats
+  sentence: We thought ourselves so firm in the saddle that no one could unhorse us, though the sword was at our throats.
+  record_words: The sword is at your throats, but you think yourselves so firm in the saddle that no one can unhorse you.
+  construction: Luther says this of the princes and lords he is warning; the sentence voices the princes' false security as ours.

@@ -19,8 +19,8 @@ from goldset.common import read_jsonl
 from goldset.labeller import KEY_CLASSES, gold_class
 
 
-def by_item(key: list[dict], labels: list[dict]) -> dict[str, dict]:
-    ref = {k["line_id"]: k["ref"] for k in key if k["kind"] == "pool"}
+def by_item(key: list[dict], labels: list[dict], kinds: tuple[str, ...] = ("pool",)) -> dict[str, dict]:
+    ref = {k["line_id"]: k["ref"] for k in key if k["kind"] in kinds}
     out = {}
     for row in labels:
         if row["line_id"] in ref and row.get("label") is not None:
