@@ -379,6 +379,11 @@
       "estimate": 0.4233,
       "spent_usd_world": 0.414858,
       "exit_code": 0
+    },
+    "desert": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-desert.jsonl",
+      "estimate": 0.3077
     }
   }
 }
