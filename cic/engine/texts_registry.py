@@ -385,8 +385,8 @@ def build_rows() -> list[Row]:
     return rows
 
 
-def report() -> int:
-    rows = build_rows()
+def report(rows: list[Row] | None = None) -> int:
+    rows = rows if rows is not None else build_rows()
     namecol = max(len(r.filename) for r in rows) + 2
     print(f"{'file':<{namecol}}{'rights':<16}{'cited by':<10}")
     print("-" * (namecol + 26))
@@ -435,8 +435,8 @@ def report() -> int:
     return 0
 
 
-def render_readme() -> str:
-    rows = build_rows()
+def render_readme(rows: list[Row] | None = None) -> str:
+    rows = rows if rows is not None else build_rows()
     lines = [
         "# Vendored public-domain source texts",
         "",
@@ -502,12 +502,12 @@ def write_readme() -> int:
     return 0
 
 
-def check_readme() -> int:
+def check_readme(rows: list[Row] | None = None) -> int:
     """README.md matches what --write-readme would write now, so a record
     that starts or stops citing a vendored file cannot leave its row stale."""
     path = TEXTS_DIR / "README.md"
     current = path.read_text(encoding="utf-8") if path.exists() else ""
-    if current != render_readme():
+    if current != render_readme(rows):
         print(f"{path} is stale: run `python cic/engine/texts_registry.py --write-readme` and commit it.")
         return 1
     print(f"OK: {path} matches the records.")
@@ -518,7 +518,12 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write-readme", action="store_true")
     ap.add_argument("--check-readme", action="store_true")
+    ap.add_argument("--check", action="store_true",
+                    help="the report and the README check, scanning the texts once")
     args = ap.parse_args()
+    if args.check:
+        rows = build_rows()
+        return max(report(rows), check_readme(rows))
     if args.write_readme:
         return write_readme()
     if args.check_readme:

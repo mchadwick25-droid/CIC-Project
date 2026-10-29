@@ -31,11 +31,20 @@ def _no_text_lost(path: Path) -> bool:
     return reassembled == re.sub(r"\s+", " ", text).strip()
 
 
+# CI builds cic/texts/INDEX.sqlite in the step before this one; --reuse-index
+# tests that very file instead of building a second copy.
+REUSE_INDEX = "--reuse-index" in sys.argv[1:]
+
 results = []
 
 with tempfile.TemporaryDirectory() as tmp:
-    db_path = Path(tmp) / "test-index.sqlite"
-    ci.build(db_path=db_path)
+    if REUSE_INDEX:
+        db_path = ci.DB_PATH
+        if not db_path.exists():
+            sys.exit(f"--reuse-index needs {db_path}: run corpus_index.py --build first")
+    else:
+        db_path = Path(tmp) / "test-index.sqlite"
+        ci.build(db_path=db_path)
 
     # --- the real regression: "chalice" --entry <hussite bucket> ----------
     # Scoping must happen inside the query: this entry's own texts rank
