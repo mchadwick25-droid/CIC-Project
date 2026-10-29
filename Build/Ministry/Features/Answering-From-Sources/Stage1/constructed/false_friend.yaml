@@ -1,0 +1,405 @@
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.term.agape
+  sentence: We taught that agape is a warm feeling of affection that rises in us toward another person.
+  record_words: warm feelings or affection toward someone
+  construction: The term record says agape is not a feeling but the fruit of formation and flags 'warm feelings or affection'; the sentence uses agape in exactly that modern sense.
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.term.oikonomia
+  sentence: We spoke of God's oikonomia as a kind of market, a system of production and exchange for saving creation.
+  record_words: the financial economy - markets, production, exchange
+  construction: The record defines oikonomia as God's whole plan of salvation and flags the financial sense; the sentence reads it as a market economy.
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.term.logos
+  sentence: We called Christ the Logos because he is God's logic, the method of argument that lies behind all things.
+  record_words: logic (it is not a method of argument)
+  construction: The record says the Logos is God's own reason and speech and flags 'logic'; the sentence makes the Logos a method of argument.
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.term.martys
+  sentence: We honored each martys as someone who went looking for death and ran eagerly to meet it.
+  record_words: someone who seeks death
+  construction: The record says martys means witness who held firm under trial and flags 'someone who seeks death'; the sentence uses that sense.
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.term.theosis
+  sentence: Through theosis, we believed, a faithful person becomes one more god alongside the one God.
+  record_words: becoming a god (polytheism)
+  construction: The record defines theosis as sharing God's life as far as a creature can and flags polytheistic 'becoming a god'; the sentence asserts that sense.
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.term.apatheia
+  sentence: Our elders sought apatheia, a state in which the monk no longer cares about anything or anyone.
+  record_words: apathy (not caring)
+  construction: The record defines apatheia as freedom from the passions, 'Not apathy'; the sentence reads it as modern apathy.
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.term.theoria
+  sentence: Evagrius taught that theoria, abstract speculation about ideas, comes only to a soul that has been stilled.
+  record_words: theory (abstract speculation)
+  construction: The record defines theoria as contemplation, the seeing of created things and of God, and flags 'theory'; the sentence reads it as abstract speculation.
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.term.penthos
+  sentence: We treated penthos as a kind of depression, a dark mood to be treated and cleared away.
+  record_words: depression, to be resolved or treated
+  construction: The record says penthos is sorrow for sin kept on purpose as a healthy practice and flags 'depression'; the sentence uses that sense.
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.charity-is-the-offspring-of-apatheia
+  sentence: We taught that generous giving to the poor is born from apatheia, the flower of the ascetic life.
+  record_words: Charity is the offspring of apatheia
+  construction: The quote's 'Charity' means love (its rendering says 'Love is born from apatheia'); the sentence reads it as almsgiving.
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-noonday-demon
+  sentence: The noonday demon makes a monk think the brothers give no more alms, and that no one will visit him.
+  record_words: there is no charity left among the brethren
+  construction: In the quote 'charity' means love among the brothers; the sentence reads it as almsgiving.
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.arch-drawn-from-the-centre
+  sentence: We compared the monk to a builder who feels nervous and afraid as he raises a high round vault.
+  record_words: who is anxious to raise on high a vault of a round arch
+  construction: The quote's 'anxious' means eager (its rendering says 'wants'); the sentence reads it as nervous fear.
+- seed_type: false_friend
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.term.confessor
+  sentence: A confessor among us was the priest who sat and heard the sins of those who came to him.
+  record_words: a priest who hears confession, the later and much more familiar sense of the word
+  construction: The record says a confessor stood firm under questioning and lived, and flags the later priestly sense; the sentence uses that sense.
+- seed_type: false_friend
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.term.traditor-traditio
+  sentence: We called a man a traditor when he betrayed his city to its enemies, as a spy or a turncoat.
+  record_words: traitor in the modern political sense -- a spy, a turncoat, a betrayer of a nation
+  construction: The record says a traditor was clergy who handed over the scriptures, and flags the modern political sense of traitor; the sentence uses that sense.
+- seed_type: false_friend
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.term.catholicus
+  sentence: The state gave the name catholic to our rival, the Roman Catholic denomination, and refused it to us.
+  record_words: the Roman Catholic Church as a later, settled denominational body
+  construction: The record says catholic meant universal, a title both sides claimed, and flags the later Roman Catholic denomination; the sentence reads it that way.
+- seed_type: false_friend
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.term.rebaptism
+  sentence: We offered rebaptism to believers who wanted a fresh start and a renewal of their faith.
+  record_words: a modern adult re-baptism chosen for personal renewal or a fresh start
+  construction: The record says rebaptizare was the first real baptism for someone whose earlier rite conferred nothing, and flags the modern renewal sense; the sentence uses it.
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.term.accidie
+  sentence: 'We named accidie as the sixth fault: plain laziness, a monk too idle to get up and do his work.'
+  record_words: sloth as laziness
+  construction: The record defines accidie as weariness or distress of heart and flags 'sloth as laziness'; the sentence uses that sense.
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.term.discretion
+  sentence: 'We called discretion the mother of all virtues: the tact to keep a brother''s secrets safe.'
+  record_words: tact, prudence, or confidentiality
+  construction: The record defines discretio as the testing of every thought that guards the virtues, and flags tact and confidentiality; the sentence uses that sense.
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.term.profession
+  sentence: A soldier who professed himself a monk had simply chosen a new profession, a trade to earn his living.
+  record_words: a career ("the profession")
+  construction: The record says the profession is a binding public monastic commitment and flags 'a career'; the sentence reads it as a trade.
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.not-an-author-but-a-keeper
+  sentence: We hold that the faith entrusted to us is not a matter for jokes and humor, but of learning.
+  record_words: a matter not of wit, but of learning
+  construction: The quote's 'wit' means cleverness or invention (its rendering says 'cleverness'); the sentence reads it as humor.
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.castor-anxious-for-egyptian-institutions
+  sentence: Cassian wrote to Castor, who was worried and fearful about bringing Egypt's institutions into his province.
+  record_words: you are anxious that the institutions of the East
+  construction: The quote's 'anxious' means eager (its rendering says 'You are eager'); the sentence reads it as worried.
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.believed-everywhere-always-by-all
+  sentence: We held that a faith is truly Catholic when it matches what the church of Rome itself believes.
+  record_words: comprehends all universally
+  construction: The quote defines 'Catholic' as what comprehends all universally; the sentence reads it as belonging to the church of Rome.
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.term.xenodochium
+  sentence: Paula paid for a xenodochium at Bethlehem, a place where the sick came to be nursed back to health.
+  record_words: a hospital (the hospice sheltered travelers; the nosocomium cared for the sick
+  construction: The record defines the xenodochium as a hostel for travelers and flags 'a hospital'; the sentence reads it as a hospital.
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.term.peregrinatio
+  sentence: Paula made her peregrinatio to the holy places much as a tourist would, to see the famous sights.
+  record_words: tourism or scholarly travel
+  construction: The record defines peregrinatio as devout travel in which the journey itself was an act of faith, and flags 'tourism'; the sentence uses that sense.
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.paula-hebrew-psalms
+  sentence: Paula learned Hebrew so well that she spoke it without the strange, odd sounds of Latin speech.
+  record_words: without a trace of the pronunciation peculiar to Latin
+  construction: The quote's 'peculiar to' means belonging to (its rendering says 'a Latin accent'); the sentence reads it as strange.
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.term.tomus
+  sentence: Leo's Tome reached Chalcedon as a work in several volumes, and we heard the see of Peter speaking in it.
+  record_words: a work in multiple volumes (the modern bookish sense)
+  construction: The record defines a Tome as a doctrine-settling letter and flags the multi-volume sense; the sentence uses that sense.
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.the-reading-of-all-the-documents
+  sentence: Our presidents ruled that the bishops' obscene, foul-mouthed shouting was unworthy of them and helped neither side.
+  record_words: The vulgar cries are not worthy of bishops
+  construction: The quote's 'vulgar' means of the crowd (its rendering says 'cries of a mob'); the sentence reads it as obscene.
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.chalcedon-definition
+  sentence: We confessed that each nature in Christ keeps its own odd, strange quality within the one Person.
+  record_words: the peculiar property of each nature being preserved
+  construction: The quote's 'peculiar' means proper or special to each nature (its rendering says 'special character'); the sentence reads it as strange.
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.term.prophetes
+  sentence: We welcomed a genuine prophetes among us, one who could tell us what the future held.
+  record_words: a predictor of the future
+  construction: The record defines prophetes as one who speaks as the Spirit prompts and flags 'a predictor of the future'; the sentence uses that sense.
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.term.ekklesia
+  sentence: Each ekklesia met in its own church building, and letters and a shared table tied it to the others.
+  record_words: a church building (there are none in this window)
+  construction: The record says the ekklesia was the assembly, not a building, and flags 'a church building'; the sentence reads it that way.
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.term.presbyteros
+  sentence: The presbyteros among us was a priest, set apart to offer the sacrifice that only he could perform.
+  record_words: priest in a later sacramental sense
+  construction: The record defines presbyteroi as elders who share the governing of a community and flags the later sacramental priest; the sentence uses that sense.
+- seed_type: false_friend
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.term.confession-of-faith
+  sentence: Our Second Helvetic Confession was one man's personal statement of what he himself happened to believe.
+  record_words: a personal statement of individual belief, rather than a formally adopted, publicly binding church document
+  construction: The record defines a confession as a formal public statement of what we taught and flags the personal sense; the sentence uses it.
+- seed_type: false_friend
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.term.providence
+  sentence: 'We taught providence: since God had fixed every outcome in advance, nothing anyone did really mattered.'
+  record_words: a fatalistic claim that nothing anyone does matters, since God has already fixed every outcome in advance
+  construction: The record defines providence as God's continuous active care and flags the fatalistic reading; the sentence asserts it.
+- seed_type: false_friend
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.term.disputation
+  sentence: Our Disputation before the city council was a staged event, its outcome settled well beforehand.
+  record_words: a piece of political theater - a staged event whose outcome was likely settled beforehand
+  construction: The record defines a Disputation as a real public debate by which Zurich chose to reform and flags the staged-theater reading; the sentence asserts it.
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.term.madrasha
+  sentence: Ephrem's madrashe were schools where our young people went to study the faith.
+  record_words: madrasa (the later Islamic school - an unrelated word-echo)
+  construction: The record defines a madrasha as a teaching hymn and flags the madrasa word-echo; the sentence reads it as a school.
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.term.raza-shrara
+  sentence: For us a raza was a puzzle waiting to be solved, and Scripture was full of them.
+  record_words: mystery (a puzzle waiting to be solved)
+  construction: The record defines a raza as a thing that shows a hidden truth and is bound to it, and flags the puzzle sense; the sentence uses it.
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.term.ihidaya
+  sentence: Our ihidaye were hermits who lived alone, cut off from everyone in physical isolation.
+  record_words: solitary or hermit (physical isolation)
+  construction: The record defines ihidaya as the single-minded vowed celibate and flags the hermit sense; the sentence uses it.
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.term.indulgence
+  sentence: We argued against indulgence, the self-gratifying habit of giving in to every appetite.
+  record_words: hearing 'indulgence' as self-gratification rather than a canonical remission of penalty
+  construction: The record defines an indulgence as a letter promising less penalty for sin and flags the self-gratification sense; the sentence uses it.
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.term.calling
+  sentence: Each of us chose a calling, the career we felt most personally drawn to pursue.
+  record_words: calling as a career one chooses or feels personally drawn to
+  construction: The record defines a calling as a station God gives and flags the chosen-career sense; the sentence uses it.
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.term.chastity
+  sentence: We praised chastity as the celibate life, and we saw marriage as a lower road for weaker people.
+  record_words: chastity as celibacy, or the argument as lowering a standard
+  construction: The record says true chastity for us is marriage and flags 'chastity heard as celibacy'; the sentence uses that sense.
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.term.comfort
+  sentence: Faith brings comfort, a soft emotional reassurance that helps an anxious person feel a little better.
+  record_words: comfort as mere reassurance or emotional support
+  construction: The record defines comfort as the rest faith gives a troubled conscience and flags mere emotional reassurance; the sentence uses it.
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.term.office
+  sentence: An office set our pastor above us in rank, and he kept that rank even after he was deposed.
+  record_words: heard as a position of rank or a physical room
+  construction: The record says an office is a task, not a permanent rank, and flags the rank sense; the sentence uses it.
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.term.suffrage
+  sentence: Cyprian came to office through our suffrage, the ballots we cast for him, and through God's judgment.
+  record_words: the right to vote, with an expected franchise, a ballot, and a fixed procedure
+  construction: The record says suffrage was the people's choosing, and flags the ballot-vote sense; the sentence uses it.
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.term.the-lapsed
+  sentence: We call them the lapsed because they slowly drifted away from church over many years.
+  record_words: a gentle, gradual falling-away from faith, comparable to a modern believer who drifts from church over years
+  construction: The record says the lapsed complied with the order to sacrifice during persecution and flags gradual drift; the sentence uses that sense.
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.good-works-the-comfort-of-our-dangers
+  sentence: 'We speak to you for one reason: to take joy in the pleasant talk we share with you.'
+  record_words: we may have joy of your good conversation
+  construction: The quote's 'conversation' means way of life (its rendering says 'your good way of life'); the sentence reads it as talk.
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.love-and-do-what-thou-wilt
+  sentence: We taught that people's deeds are told apart only by whether they grow from giving alms to the poor.
+  record_words: the deeds of men are only discerned by the root of charity
+  construction: The quote's 'charity' means love (its rendering says 'the root of love'); the sentence reads it as almsgiving.

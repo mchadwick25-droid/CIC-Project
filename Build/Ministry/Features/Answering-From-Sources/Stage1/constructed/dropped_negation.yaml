@@ -1,0 +1,315 @@
+- seed_type: dropped_negation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: alx.quote.appointed-by-the-fathers-to-be-read}]
+  sentence: "Books like the Wisdom of Solomon and the Shepherd are included in our Canon, and the Fathers appointed them for newcomers."
+  record_words: "There are other books, besides these, that are not included in the Canon."
+  construction: "The record says these books are not included in the Canon; the sentence drops the negation and puts them in it."
+- seed_type: dropped_negation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: alx.quote.dionysius-too-high-for-me-to-grasp}]
+  sentence: "Our bishop Dionysius rejected what he could not comprehend in that book, and he left the greater part to faith."
+  record_words: "And I do not reject what I cannot comprehend."
+  construction: "The record says Dionysius does not reject what he cannot comprehend; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: alx.quote.dionysius-plague}]
+  sentence: "In the plague, all of our people held nothing back in love, and they visited the sick without fear."
+  record_words: "Most of our people held nothing back"
+  construction: "The record says most of the people held nothing back; the sentence shifts the quantifier to all."
+- seed_type: dropped_negation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: alx.quote.timothy-ordinary-questions}]
+  sentence: "Our bishop Timothy ruled that a sick man is still required to keep the Paschal fast."
+  record_words: "Is a sick man required to keep the Paschal fast? Answer. No."
+  construction: "The record answers no to whether a sick man must keep the Paschal fast; the sentence reverses the answer."
+- seed_type: dropped_negation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: alx.quote.clement-possessions}]
+  sentence: "We teach that the one who holds wealth as God's gift will one day be forced to lose it, and can bear the loss cheerfully."
+  record_words: "One day he may be forced to lose them."
+  construction: "The record says he may one day be forced to lose his possessions; the sentence shifts may to will."
+- seed_type: dropped_negation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.quote.in-living-water}]
+  sentence: "Our manual tells us to baptize in living water, and it never allows warm water in place of cold."
+  record_words: "and if you cannot in cold, then in warm."
+  construction: "The record allows warm water when cold cannot be had; the sentence adds a negation that forbids it."
+- seed_type: dropped_negation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.quote.hermas-doubting}]
+  sentence: "We are taught that the Lord remembers the wrongs done against him, yet still has compassion on his own creation."
+  record_words: "He himself remembers no wrongs"
+  construction: "The record says the Lord remembers no wrongs; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.quote.asia-rejected-new-prophecy}]
+  sentence: "The faithful of Asia met only once to examine the new prophecy, and they declared its teachings false."
+  record_words: "met many times, in many places in Asia"
+  construction: "The record says the faithful met many times in many places; the sentence shifts the quantifier to only once."
+- seed_type: dropped_negation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.quote.not-every-one-that-speaketh-in-the-spirit}]
+  sentence: "Our manual teaches that everyone who speaks in the Spirit is a prophet, and that we know them by their ways."
+  record_words: "But not everyone who speaks in the Spirit is a prophet"
+  construction: "The record says not everyone who speaks in the Spirit is a prophet; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.quote.polycrates-to-victor}]
+  sentence: "Polycrates told Victor that his relatives, seven of them bishops, often kept the day when the people put away the leaven."
+  record_words: "My relatives always kept the day when the people put away the leaven."
+  construction: "The record says his relatives always kept the day; the sentence shifts always to often."
+- seed_type: dropped_negation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: hal.quote.partially-acquired-hebrew}]
+  sentence: "Jerome fully mastered the Hebrew tongue as a young man, and he studies it still so that it will not leave him."
+  record_words: "partially acquired the Hebrew tongue"
+  construction: "The record says Jerome partially acquired Hebrew; the sentence shifts partially to fully."
+- seed_type: dropped_negation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: hal.quote.paula-hebrew-psalms}]
+  sentence: "Our Paula learned Hebrew well enough to chant the psalms, though she still spoke it with a Latin accent."
+  record_words: "She spoke the language with no trace of a Latin accent."
+  construction: "The record says Paula spoke Hebrew with no trace of a Latin accent; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: hal.quote.no-one-preferred-to-the-seventy}]
+  sentence: "Our churches judge that Jerome's translation from the Hebrew should be preferred to the authority of the Seventy."
+  record_words: "the churches of Christ judge that no one should be preferred to the authority of so many men"
+  construction: "The record says the churches judge that no one should be preferred to the Seventy; the sentence reverses this."
+- seed_type: dropped_negation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: hal.quote.recourse-to-marcella}]
+  sentence: "After Jerome left Rome, people now and then turned to Marcella when a dispute arose about what scripture said."
+  record_words: "people turned to her whenever a dispute arose"
+  construction: "The record says people turned to her whenever a dispute arose; the sentence shifts whenever to now and then."
+- seed_type: dropped_negation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: syr.quote.aphrahat-one-innocent}]
+  sentence: "Of all who are born in a body, we hold that a few are innocent, and our Lord Jesus Christ is first among them."
+  record_words: "there is only one who is innocent"
+  construction: "The record says only one of all who are born is innocent; the sentence shifts the quantifier to a few."
+- seed_type: dropped_negation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: syr.quote.sozomen-melodies}]
+  sentence: "Even now, we Syrians often sing exact copies of Harmonius's hymns, set to the same melodies."
+  record_words: "not exact copies of Harmonius's versions, but the same melodies"
+  construction: "The record says the Syrians sing not exact copies of Harmonius's versions but the same melodies; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: syr.quote.permitted-to-erect-churches}]
+  sentence: "Angered by the deception, the king ordered every one of the magi put to death, and let Maruthas build churches."
+  record_words: "the king ordered one in every ten of the tribe of the magi put to death"
+  construction: "The record says the king had one in every ten of the magi put to death; the sentence shifts the quantifier to every one."
+- seed_type: dropped_negation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: syr.quote.warned-before-baptism}]
+  sentence: "Our preachers warn only the young men before baptism, telling them to marry first if marriage is on their hearts."
+  record_words: "to warn everyone in God's covenant before baptism"
+  construction: "The record says the preachers warn everyone in God's covenant before baptism; the sentence narrows the quantifier to only the young men."
+- seed_type: dropped_negation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.quote.three-years-a-servant}]
+  sentence: "Our rule says a newcomer may join the community at once, though he works only as a servant for three years."
+  record_words: "they must not accept him into the community until he has completed three years"
+  construction: "The record says they must not accept him until he has completed three years; the sentence reverses must not to may."
+- seed_type: dropped_negation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.quote.no-one-seize-the-hand}]
+  sentence: "Under our rule any brother may wash his whole body, but no one may talk with his neighbor in the dark."
+  record_words: "No one may anoint or wash his whole body, except when he is sick."
+  construction: "The record says no one may wash his whole body except when sick; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.quote.never-kneel-saturday-to-sunday}]
+  sentence: "From Saturday evening until Sunday evening, we Egyptians always kneel to pray, and we do the same from Easter to Pentecost."
+  record_words: "From the Saturday evening before Sunday until the next evening, the Egyptians never kneel."
+  construction: "The record says the Egyptians never kneel in these times; the sentence shifts never to always."
+- seed_type: dropped_negation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.quote.the-eight-generic-thoughts}]
+  sentence: "Evagrius taught us that whether the eight tempting thoughts disturb the soul or not is up to us."
+  record_words: "Whether these thoughts can disturb the soul or not is not up to us."
+  construction: "The record says whether these thoughts disturb the soul is not up to us; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.quote.three-kinds-of-monks}]
+  sentence: "Abbot Piamun told us that all three kinds of monks in Egypt are admirable, and the Coenobites are the most numerous."
+  record_words: "Two of them are admirable. The third is a poor kind, to be avoided at all costs."
+  construction: "The record says two of the three kinds are admirable and the third is to be avoided; the sentence shifts the quantifier to all three."
+- seed_type: dropped_negation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.quote.discretion-greatest-prize}]
+  sentence: "Abbot Moses taught that a monk who lacks discretion may go wrong, as if he walked in the dark of night."
+  record_words: "Unless he does, he is sure to go wrong."
+  construction: "The record says a monk without discretion is sure to go wrong; the sentence weakens sure to may."
+- seed_type: dropped_negation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.quote.aloof-from-assemblies-of-bishops}]
+  sentence: "Martin lived sixteen years after this, and in those years he went to a synod only now and then."
+  record_words: "But he never again went to a synod"
+  construction: "The record says Martin never again went to a synod; the sentence shifts never to now and then."
+- seed_type: dropped_negation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.quote.perfection-not-gained-without-grace}]
+  sentence: "We hold that, by their own efforts alone and without the grace of God, a few can still reach perfection."
+  record_words: "Yet by these efforts alone, without the grace of God, nobody can ever reach it."
+  construction: "The record says nobody can reach perfection by effort alone without grace; the sentence shifts nobody to a few."
+- seed_type: dropped_negation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.quote.martin-exorcism-without-touch-or-reproach}]
+  sentence: "When Martin drove out demons, he laid his hands on the possessed, but he rebuked no one with words."
+  record_words: "he touched no one with his hands."
+  construction: "The record says Martin touched no one with his hands; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.quote.grievous-blasphemy-not-all-men-to-be-saved}]
+  sentence: "Our elders taught that God wants only some people to be saved, and not all of them."
+  record_words: "how can we imagine, without grievous blasphemy, that He does not want all people to be saved, but only some instead of all?"
+  construction: "The record calls it grievous blasphemy to imagine God wants only some saved; the sentence turns that rejected view into the teaching."
+- seed_type: dropped_negation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.quote.pope-stephen-no-innovation}]
+  sentence: "We keep Pope Stephen's rule that new things may be brought in alongside what has been handed down."
+  record_words: "Let nothing new be brought in - nothing except what has been handed down."
+  construction: "The record says let nothing new be brought in; the sentence reverses the negation and permits new things."
+- seed_type: dropped_negation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: ijc.quote.ambrose-cannot-surrender}]
+  sentence: "Ambrose said he could not give up the basilica, and so he must fight to keep it."
+  record_words: "I cannot give up the basilica, but I must not fight."
+  construction: "The record says Ambrose must not fight; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: ijc.quote.ambrose-emperor-in-church}]
+  sentence: "We call the emperor a son of the Church, yet we hold that he stands above the Church, not within it."
+  record_words: "For the Emperor is within the Church, not above it."
+  construction: "The record says the emperor is within the Church, not above it; the sentence moves the negation and reverses the claim."
+- seed_type: dropped_negation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: ijc.quote.chalcedon-definition}]
+  sentence: "We hold that the one Jesus Christ may be confessed in two natures, united without mixing and without change."
+  record_words: "must be confessed to be in two natures"
+  construction: "The record says Christ must be confessed in two natures; the sentence weakens must to may."
+- seed_type: dropped_negation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: ijc.quote.sin-is-not-done-away-but-by-tears}]
+  sentence: "Ambrose wrote that tears and repentance put sin away, though an angel or an archangel can also do it."
+  record_words: "No angel can do it, nor any archangel."
+  construction: "The record says no angel or archangel can put sin away; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: ijc.quote.milan-edict}]
+  sentence: "At Milan our emperors agreed that the Christians alone should be free to follow the form of religion each thought best."
+  record_words: "the Christians and all others should be free to follow the form of religion"
+  construction: "The record grants freedom to the Christians and all others; the sentence narrows the quantifier to the Christians alone."
+- seed_type: dropped_negation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.quote.bishop-of-bishops}]
+  sentence: "In our councils one of us sets himself up as bishop over the other bishops, though each keeps his own right to judge."
+  record_words: "None of us sets himself up as a bishop over other bishops"
+  construction: "The record says none of the bishops sets himself up over the others; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.quote.many-have-learned-to-offer-the-other-cheek}]
+  sentence: "The Lord kept his own command, and he offered the other cheek to the high priest's servant who struck him."
+  record_words: "Yet He did not offer the other cheek"
+  construction: "The record says the Lord did not offer the other cheek to the servant; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.quote.not-to-purchase-impunity}]
+  sentence: "We teach that grave sins committed every day may be atoned for every day by almsgiving."
+  record_words: "No one should suppose that grave sins may be committed every day and atoned for every day by almsgiving."
+  construction: "The record says no one should suppose daily grave sins are atoned for by daily alms; the sentence drops the negation and asserts it."
+- seed_type: dropped_negation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.quote.left-doubtful-a-kind-of-purgatorial-fire}]
+  sentence: "We hold that some believers will certainly pass through a kind of purging fire after this life."
+  record_words: "Whether some believers will pass through a kind of purging fire may be asked. It may be found out, or it may stay unknown."
+  construction: "The record leaves it an open question whether some believers pass through a purging fire; the sentence shifts may to certainly."
+- seed_type: dropped_negation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.quote.thank-offerings-for-the-very-good}]
+  sentence: "Our sacrifices for the baptized dead help even the very bad, and they also comfort the living."
+  record_words: "For the very bad they do not help the dead, but they are a kind of comfort to the living."
+  construction: "The record says the sacrifices do not help the very bad dead; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.quote.penitents-in-peril-of-sickness-should-be-assisted}]
+  sentence: "Our council decided that penitents in danger from sickness may be helped and granted peace."
+  record_words: "It was decided in the council that penitents in danger from sickness should be helped, and should be granted peace."
+  construction: "The record says such penitents should be helped and granted peace; the sentence weakens should to may."
+- seed_type: dropped_negation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings: [{kind: record, id: witt.quote.congregation-of-saints}]
+  sentence: "For the true unity of our Church, the rites and ceremonies set up by people must be alike everywhere."
+  record_words: "Nor do human traditions -- that is, rites or ceremonies set up by people -- need to be alike everywhere."
+  construction: "The record says human rites need not be alike everywhere; the sentence drops the negation and makes it a requirement."
+- seed_type: dropped_negation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings: [{kind: record, id: witt.quote.nothing-that-varies}]
+  sentence: "Our confession says that, in doctrine and ceremonies, we have accepted a few things against Scripture or the universal Church."
+  record_words: "we have accepted nothing against Scripture or the universal Church"
+  construction: "The record says they accepted nothing against Scripture or the universal Church; the sentence shifts nothing to a few things."
+- seed_type: dropped_negation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings: [{kind: record, id: witt.quote.your-own-judges}]
+  sentence: "Luther told the peasants that they were willing to suffer wrong, yet they still made themselves their own judges."
+  record_words: "You are not willing to suffer any wrong."
+  construction: "The record says the peasants are not willing to suffer any wrong; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: rzg.quote.mass-not-a-sacrifice}]
+  sentence: "Since Christ sacrificed himself once for all the faithful, we hold that the mass is a sacrifice and a remembrance of it."
+  record_words: "From this it follows that the mass is not a sacrifice."
+  construction: "The record says the mass is not a sacrifice; the sentence drops the negation."
+- seed_type: dropped_negation
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: rzg.quote.signs-and-things-signified}]
+  sentence: "We distinguish the signs from the things they signify, and we also separate the thing itself from the signs."
+  record_words: "we do not separate the thing itself from the signs"
+  construction: "The record says we do not separate the thing itself from the signs; the sentence drops the negation."
