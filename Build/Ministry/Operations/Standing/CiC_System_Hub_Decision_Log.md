@@ -7310,3 +7310,9 @@ If any condition fails, the amount stays unspent.
 **`specialist-tryout-1` (cap $10.00, withdrawn before it ran).** One attempt, three lines per candidate, refused by Bedrock on the first call for both candidates (AccessDeniedException: GPT-6.1 Sol and Grok 4.7 not available for this account). No label was made and a refused call is not billed. The guard counted $0.2285 against the cap. The ledgers are on the specialist thread's branch.
 
 **Standing position.** No metered run for this work is authorized. The two named tests above are closed. Any future one needs Mark's word and a plain-words request raised only when nothing free can do the step.
+
+## 2026-10-29 - Cap ruling: rcg Doc_02 and Source_Registry, second extra review (project lead)
+
+**Ruling.** The first extra review of `rcg` (entry above, file `Doc02_CapRuling_Review.md`) found four narrow, mechanical problems and did not clear. The project lead's standing rule is three rounds, then his interaction. The narrow fixes (word count, Gregory of Tours Book X, the holdings count, two Registry notes, and low-severity slips) are applied to Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Build/worlds/rcg/Review-Artifacts/Doc02_CapRuling_Review2.md`. Step 0's word-count line is the project lead's to direct and is not edited. If this review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** The project lead delegated the follow-up to the coordination thread on the Library thread's report that the findings are mechanical (messages of 2026-10-29); he has not named this file himself, so this entry stands until he says otherwise.
