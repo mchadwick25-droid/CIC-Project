@@ -161,6 +161,10 @@ def resolve(commit: str, name: str, locus: str, work: str) -> tuple[int, int] | 
     scope = _work(nodes, work) if work else None
     if scope is None:
         return None
+    if scope["n"] and number(scope["n"]) == path[0] and _numbered_work(nodes, work) is scope:
+        path = path[1:]
+        if not path:
+            return scope["start"], scope["end"]
     for depth, value in enumerate(path):
         matches = [c for c in _children(nodes, scope) if _numbered(c) == value]
         if len(matches) == 1:
