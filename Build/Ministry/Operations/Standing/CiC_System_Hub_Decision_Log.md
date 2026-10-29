@@ -7232,3 +7232,13 @@ If any condition fails, the amount stays unspent.
 **What it does not cover.** Any other world, any other cap, and any test of harness parity with the live answer path. Those need their own request.
 
 **Recording.** The run carries the name and cap on the command, prints its settings first and stops at the cap. Its ledger is committed with the results, and the spend is entered here afterwards, with the unspent remainder.
+
+## 2026-10-29 - Live test "lpc go-live rerun 1": spend entered, remainder held (project lead)
+
+**What ran.** The lpc thread ran the named test after the project lead confirmed the name and cap to it directly: 30 validation conversations (the 10-turn Deep Interview included) on pin `packages/lpc/2026-10-29T11-53-43Z`. No admission run. Evidence and the Opus review are in pull request #1269 (`Build/worlds/lpc/Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md`).
+
+**Spend.** $1.55 of the $3.00 cap, as reported by the lpc thread from the engine's ledger. The ledger file is not in the pull request, so this figure is reported, not audited here. Unspent: $1.45.
+
+**Result.** Opus review: Revise. 39 rows: 2 PASS, 25 CONCERN, 10 FAIL (run 3 had 13), one fabrication. lpc stays `built`, not `admitted`. The questions in this run did not test baptism as new birth, the apse letter, Felicissimus, or the scoped women's-writing claim.
+
+**Hold.** The project lead, 2026-10-29: "yes hold the lpc run". The remaining $1.45 is on hold and not carried to any other use. The design pass puts harness parity and one capped baseline live run ahead of any fix, so a further lpc run, in particular the admission half, waits until the project lead releases it by name. The hold reached the lpc thread after this run had finished, so it did not change what ran.
