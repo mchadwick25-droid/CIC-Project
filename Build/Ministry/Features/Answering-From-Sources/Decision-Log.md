@@ -208,22 +208,31 @@ passage index scope, review unit) are filed as their stages begin, not now.
 Mark, 2026-10-29, in chat: "in this build we cant loose the 3 level
 transparency or access to source documents".
 
-Binding on every stage, as a gate on each change order:
-- Three-Level Transparency (Article 30, constitutional) stays whole:
-  conversation, then an on-request plain explanation, then the full scholarly
-  apparatus. Levels 2 and 3 are always reachable and never gated, for anyone.
-  Source: `Build/Ministry/Operations/Audits/CiC_Full_System_Feature_Analysis_V0_1.md`
-  and `CiC_UX_Implementation_Status_2026-07-19.md` section 3c.
-- What exists today must survive: lexicon highlighting with hover and
-  click-through, the citation marker that opens real sourcing, and one
-  interaction grammar (hover for the short honest explanation, click for full
-  depth).
-- Access to source documents stays: a reader can reach the vendored text
-  (`cic/texts`) behind every cited sentence. The sentence-to-span binding in
-  this design should make that access stronger (each sentence opens its own
-  span), not weaker, and no stage may ship a change that removes a citation,
-  marker or source view that a reader has today.
-- Each stage's change order states how it keeps both, and the stage's done-when
-  includes a check that Levels 2 and 3 and the source view still work on the
-  changed path.
+Mark's correction, same day: "no the 3 level transparency is the highlighted
+or marked text, hover for brief context, and click for the full page
+description and links to the source references and documents". This replaces
+my first reading of the term (conversation, plain explanation, scholarly
+apparatus), which was wrong.
 
+The three levels, as Mark defines them:
+1. Highlighted or marked text in the answer (lexicon terms, citations,
+   stories, quotes and other sourced claims).
+2. Hover: brief context.
+3. Click: the full page description, with links to the source references and
+   the source documents.
+
+Binding on every stage, as a gate on each change order:
+- All three levels stay for everything that has them today: the inline
+  lexicon highlighting with hover popover and click-through, and the citation
+  marker that opens real sourcing with links.
+- Anything new that the design cites or quotes must get the same three levels.
+  Each bound sentence gets its mark, a brief hover, and a click-through page
+  that links to its source span and the vendored document (`cic/texts`). This
+  should close the gaps the 19 July audit lists (stories only under the
+  aggregate marker, quotes with no distinct type, general references with no
+  disclosure), not widen them.
+- Access to source documents stays: every cited sentence opens to its source
+  reference and document. No stage may remove a mark, hover, click-through or
+  source link a reader has today.
+- Each stage's change order states how it keeps all three levels and source
+  access, and its done-when includes a check on the changed path.
