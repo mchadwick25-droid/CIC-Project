@@ -159,5 +159,12 @@
     }
   },
   "current": null,
-  "checkpoint_at": "2026-10-29T00:24:20Z"
+  "checkpoint_at": "2026-10-29T00:24:20Z",
+  "validation": {
+    "deep-interview": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-deep-interview.jsonl",
+      "estimate": 0.543528
+    }
+  }
 }
