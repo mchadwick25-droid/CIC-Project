@@ -1,0 +1,1262 @@
+LIVE TEST: fleet graded run 1
+CAP: $0.76
+MODELS: us.anthropic.claude-haiku-4-5-20251001-v1:0, us.anthropic.claude-sonnet-4-5-20250929-v1:0
+ROUTE: Bedrock, regional inference profile, us-east-1
+LEDGER: /home/user/CIC-Project/engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-register-1.jsonl
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.7642,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.036546
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2250,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2088,
+      "output_tokens": 173,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 4587,
+      "output_tokens": 418,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How did someone become a Christian in your church?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "You were taught before you were washed. We told you what you were joining before you joined it. You said the creed back, and then we baptized you. That teaching was called catechesis. Augustine even wrote a guide to it, instructing how to give that teaching. The water came after the words, not before them.\n\nThe dying had their own path. Augustine wrote to Honoratus, a fellow bishop in Mauritania, in 428 or 429. Honoratus had asked whether bishops should flee in dangerous years. Augustine answered that when the danger falls on everyone alike, those who depend on their ministers must not be left. He gave one reason: the dying. If ministers are at their posts, all are helped—some are baptized, others reconciled to the Church, and none are kept from the communion of the Lord's body.\n\nFor someone already baptized who had failed, there was a road back. It was public, it took time, and it was overseen by the bishop.",
+          "citations": [
+            {
+              "sentence": "You were taught before you were washed.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "You said the creed back, and then we baptized you.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That teaching was called catechesis.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine even wrote a guide to it, instructing how to give that teaching.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote to Honoratus, a fellow bishop in Mauritania, in 428 or 429.",
+              "record_ids": [
+                "lpc.witness.the-dying-and-the-pastors-post"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Honoratus had asked whether bishops should flee in dangerous years.",
+              "record_ids": [
+                "lpc.witness.the-dying-and-the-pastors-post"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine answered that when the danger falls on everyone alike, those who depend on their ministers must not be left.",
+              "record_ids": [
+                "lpc.witness.the-dying-and-the-pastors-post"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He gave one reason: the dying.",
+              "record_ids": [
+                "lpc.witness.the-dying-and-the-pastors-post"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "If ministers are at their posts, all are helped—some are baptized, others reconciled to the Church, and none are kept from the communion of the Lord's body.",
+              "record_ids": [
+                "lpc.witness.the-dying-and-the-pastors-post"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "For someone already baptized who had failed, there was a road back.",
+              "record_ids": [
+                "lpc.term.reconciliation-penitential-discipline"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.reconciliation-penitential-discipline",
+                  "record_type": "term",
+                  "label": "reconciliation",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis carries the argument for episcopal control of the process",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It was public, it took time, and it was overseen by the bishop.",
+              "record_ids": [
+                "lpc.term.reconciliation-penitential-discipline"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.reconciliation-penitential-discipline",
+                  "record_type": "term",
+                  "label": "reconciliation",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis carries the argument for episcopal control of the process",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.catechesis",
+              "matched_name": "catechesis",
+              "text_start": 172,
+              "plain_meaning": "You are taught before you are washed. We tell you what you are joining before you join it. You say the creed back, and then we baptize you.",
+              "quick_meaning": "For us, catechesis means teaching people before they are baptized. We teach them the creed, and the basics of belief, before the water, not after it.",
+              "translational_sense": "A modern listener may hear a children's catechism -- rote question-and-answer, memorized young, faintly dry. Catechesis itself was built around adult instruction, before baptism, of people making a consequential change of standing. It was taken seriously enough that a working manual for instructors exists. Baptism was not adult-only, though. Augustine writes plainly that those baptized into Christ's own death include \"not adults only, but infants as well.\" That is a different question from who received instruction, and this term does not answer it by itself.",
+              "false_friend": [
+                "a children's catechism -- rote question-and-answer, memorized young, faintly dry"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                  "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                  "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-confessions",
+                  "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 760,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-general-correspondence",
+                  "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 184,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                  "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                  "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-confessions",
+                  "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "how",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.the-dying-and-the-pastors-post",
+              "lpc.witness.grant-me-chastity-but-not-yet"
+            ],
+            "term": [
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.term.catechesis",
+              "lpc.term.confessor",
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.the-psalms-on-the-wall"
+            ],
+            "quote": [
+              "lpc.quote.the-case-set-before-the-bishop",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "gravity": [
+              "lpc.gravity.penitential-discipline",
+              "lpc.gravity.conciliar-authority-theory"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "You were taught before you were washed.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "You were taught before you were washed [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "We told you what you were joining before you joined it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We told you what you were joining before you joined it."
+              },
+              {
+                "sentence": "You said the creed back, and then we baptized you.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "You said the creed back, and then we baptized you [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "That teaching was called catechesis.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "That teaching was called catechesis [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "Augustine even wrote a guide to it, instructing how to give that teaching.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine even wrote a guide to it, instructing how to give that teaching [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "The water came after the words, not before them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The water came after the words, not before them."
+              },
+              {
+                "sentence": "The dying had their own path.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The dying had their own path."
+              },
+              {
+                "sentence": "Augustine wrote to Honoratus, a fellow bishop in Mauritania, in 428 or 429.",
+                "tags": [
+                  "lpc.witness.the-dying-and-the-pastors-post"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Augustine wrote to Honoratus, a fellow bishop in Mauritania, in 428 or 429 [[lpc.witness.the-dying-and-the-pastors-post]]."
+              },
+              {
+                "sentence": "Honoratus had asked whether bishops should flee in dangerous years.",
+                "tags": [
+                  "lpc.witness.the-dying-and-the-pastors-post"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Honoratus had asked whether bishops should flee in dangerous years [[lpc.witness.the-dying-and-the-pastors-post]]."
+              },
+              {
+                "sentence": "Augustine answered that when the danger falls on everyone alike, those who depend on their ministers must not be left.",
+                "tags": [
+                  "lpc.witness.the-dying-and-the-pastors-post"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine answered that when the danger falls on everyone alike, those who depend on their ministers must not be left [[lpc.witness.the-dying-and-the-pastors-post]]."
+              },
+              {
+                "sentence": "He gave one reason: the dying.",
+                "tags": [
+                  "lpc.witness.the-dying-and-the-pastors-post"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He gave one reason: the dying [[lpc.witness.the-dying-and-the-pastors-post]]."
+              },
+              {
+                "sentence": "If ministers are at their posts, all are helped—some are baptized, others reconciled to the Church, and none are kept from the communion of the Lord's body.",
+                "tags": [
+                  "lpc.witness.the-dying-and-the-pastors-post"
+                ],
+                "verdict": "ok",
+                "why": "grounded 83% in own tagged records",
+                "ratio": 0.83,
+                "draft": "If ministers are at their posts, all are helped—some are baptized, others reconciled to the Church, and none are kept from the communion of the Lord's body [[lpc.witness.the-dying-and-the-pastors-post]]."
+              },
+              {
+                "sentence": "For someone already baptized who had failed, there was a road back.",
+                "tags": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "For someone already baptized who had failed, there was a road back [[lpc.term.reconciliation-penitential-discipline]]."
+              },
+              {
+                "sentence": "It was public, it took time, and it was overseen by the bishop.",
+                "tags": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6,
+                "draft": "It was public, it took time, and it was overseen by the bishop [[lpc.term.reconciliation-penitential-discipline]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.term.catechesis"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "We told you what you were joining before you joined it.",
+                    "tags": [
+                      "lpc.term.catechesis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "The water came after the words, not before them.",
+                    "tags": [
+                      "lpc.term.catechesis"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.witness.the-dying-and-the-pastors-post"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "The dying had their own path.",
+                    "tags": [
+                      "lpc.witness.the-dying-and-the-pastors-post"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.term.reconciliation-penitential-discipline"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "When danger reaches its extreme, he wrote, a crowd gathers in the church",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "When danger reaches its extreme, he wrote, a crowd gathers in the church [[quote:lpc.quote.earlier-councils-corrected-by-later]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 39
+              },
+              {
+                "index": 1,
+                "text_start": 40,
+                "text_end": 95
+              },
+              {
+                "index": 2,
+                "text_start": 96,
+                "text_end": 146
+              },
+              {
+                "index": 3,
+                "text_start": 147,
+                "text_end": 183
+              },
+              {
+                "index": 4,
+                "text_start": 184,
+                "text_end": 258
+              },
+              {
+                "index": 5,
+                "text_start": 259,
+                "text_end": 307
+              },
+              {
+                "index": 6,
+                "text_start": 309,
+                "text_end": 338
+              },
+              {
+                "index": 7,
+                "text_start": 339,
+                "text_end": 414
+              },
+              {
+                "index": 8,
+                "text_start": 415,
+                "text_end": 482
+              },
+              {
+                "index": 9,
+                "text_start": 483,
+                "text_end": 601
+              },
+              {
+                "index": 10,
+                "text_start": 602,
+                "text_end": 632
+              },
+              {
+                "index": 11,
+                "text_start": 633,
+                "text_end": 789
+              },
+              {
+                "index": 12,
+                "text_start": 791,
+                "text_end": 858
+              },
+              {
+                "index": 13,
+                "text_start": 859,
+                "text_end": 922
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 3,
+                "char_start": 25,
+                "char_end": 35,
+                "surface": "catechesis"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 11,
+                "char_start": 127,
+                "char_end": 136,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                "record_type": "doctrinal_witness",
+                "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.reconciliation-penitential-discipline",
+                "record_type": "term",
+                "label": "reconciliation",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis carries the argument for episcopal control of the process",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.the-dying-and-the-pastors-post",
+                "record_type": "doctrinal_witness",
+                "label": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter 228 (NPNF Letter CCXXVIII), to Honoratus, bishop of Thiaba, written in 428 or 429, sections 1 to 8, the last section on the crowd that gathers in the church asking for baptism, reconciliation and penance -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 56039-56263",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.reconciliation-penitential-discipline",
+                "record_type": "term",
+                "label": "reconciliation",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis carries the argument for episcopal control of the process",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "When danger reaches its extreme, he wrote, a crowd gathers in the church",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "When danger reaches its extreme, he wrote, a crowd gathers in the church [[quote:lpc.quote.earlier-councils-corrected-by-later]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

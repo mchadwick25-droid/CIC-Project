@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 11.235758,
+  "spent_usd": 11.272304,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -208,6 +208,13 @@
       "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-laundering-3.jsonl",
       "estimate": 0.02745,
       "spent_usd_world": 0.028741,
+      "exit_code": 0
+    },
+    "register-1": {
+      "status": "done",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-register-1.jsonl",
+      "estimate": 0.034081,
+      "spent_usd_world": 0.036546,
       "exit_code": 0
     }
   }
