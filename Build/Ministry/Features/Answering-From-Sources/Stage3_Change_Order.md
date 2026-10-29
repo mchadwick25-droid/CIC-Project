@@ -11,6 +11,7 @@ Engine and data path only. No layout, styling or screen redesign: screen layout 
 Quote door:
 - The voice marks a quote by record or span id. Code inserts the reviewed rendering and writes the lead-in that names the speaker from the record. The model never types a quotation.
 - A rendering is never presented as the source's words. The card shows three labelled layers: the spoken modern rendering, the edition words with translator and date, and the original's locus where held. The voice frames it in speech ("in today's English, he says").
+- Open question, not approved: whether the quote card may carry the edition words. Today a quote card carries the spoken rendering and the source reference and no original wording, and a test asserts it. Mark has left this undecided; the rule and its test stay as they are until the coordination thread brings it back when the quote door is ready to build and is blocked on it.
 - Every spoken rendering gets full review before it can be spoken (proposal decision 7, ruled yes), and renderings are written by Opus, in plan and not by API (decision 2d, ruled yes).
 
 Stories door:

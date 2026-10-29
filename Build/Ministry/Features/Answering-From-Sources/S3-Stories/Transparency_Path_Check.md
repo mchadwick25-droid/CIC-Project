@@ -27,7 +27,7 @@ The report was: stories sit under one end-of-answer marker, and tier and confide
 
 ## Held for Mark: edition words on the quote card
 
-The change order's three-layer card shows the edition words. Today a quote card deliberately carries the spoken rendering and the source reference and no original wording; `test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording` asserts it. Adding the edition words reverses that rule, so it is not done here. It is named as a change inside the quote door's build, to be confirmed by Mark before the test is changed.
+The change order's three-layer card shows the edition words. Today a quote card deliberately carries the spoken rendering and the source reference and no original wording; `test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording` asserts it. Adding the edition words reverses that rule, so it is not done here. Mark has left it undecided (2026-10-29): the rule and its test stay as they are, and it is an open question in the Stage 3 order.
 
 ## For the still-works check
 
