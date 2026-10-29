@@ -21,6 +21,7 @@ edition: Socrates and Sozomen vendored as cic/texts/npnf202_socrates-sozomen-ecc
   Theodoret vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
 citation: Socrates Scholasticus, Sozomen, and Theodoret, Ecclesiastical Histories, Nicene and Post-Nicene Fathers, 2nd series, vol. 2 (Socrates, Sozomen) and vol. 3 (Theodoret)
 kind: vendored
+shelf_row: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-4
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 62; a specific named source (author, translator,

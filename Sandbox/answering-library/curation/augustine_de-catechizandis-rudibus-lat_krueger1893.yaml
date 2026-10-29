@@ -1,0 +1,42 @@
+file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
+scheme: 'Maurist chapter numbers 1-27, printed at the head of each chapter as the chapter number followed by section 1; the section numbers inside chapters are the editor''s own and are not used for addresses'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: chapter
+    pattern: '^(?:\S{1,3} )?(?P<ch>\d{1,2}) [iIl1] [A-Za-z]'
+    lines: [475, 3244]
+    locus: 'chapter{ch|int}'
+    number: ch
+ignore:
+  - pattern: 'Catechizandis Rudibus\. \d'
+    kind: running-head
+    lines: [475, 3244]
+  - pattern: '^Augustinus\. 2\. Ausg\. \d+$'
+    kind: signature
+    lines: [475, 3244]
+  - pattern: '^\d{1,2}$'
+    kind: margin-line-number
+    lines: [475, 3244]
+apparatus:
+  - lines: [11, 474]
+    kind: front
+    locus: front
+  - lines: [3245, 5586]
+    kind: index
+    locus: index
+evidence:
+  - line: 472
+    quote: DE CATECHIZANDIS RUDIBUS.
+  - line: 475
+    quote: 1 i Petisti me, frater Deogratias
+  - line: 523
+    quote: 2 i Sed quod ad tuam proprie
+  - line: 2285
+    quote: 20 i Populus ergo ille delatus in Aegyptum
+  - line: 3082
+    quote: 27 1 Omnia enim quae nunc vides
+  - line: 510
+    quote: De Catechizandis Rudibus. 1, 3 — 2, 5.
+  - line: 3245
+    quote: Verzeichnis der Bibelstellen.

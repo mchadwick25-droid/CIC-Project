@@ -20,7 +20,7 @@ from collections import Counter
 from pathlib import Path
 
 from . import markup as mu
-from . import ocr, passages, plain, segment
+from . import curation, ocr, passages, plain, segment
 from .langscript import _latin_choice
 from .textio import Source
 from .union import REPO_ROOT, UnionEntry, build_union
@@ -167,6 +167,7 @@ def parameters() -> dict:
         "tiny_division_words": plain.TINY_WORDS,
         "clean": {"min_divisions": segment.CLEAN_MIN_DIVISIONS, "max_oversize_share": segment.CLEAN_MAX_OVERSIZE,
                   "min_cover": segment.CLEAN_MIN_COVER, "min_sequentiality": segment.CLEAN_MIN_SEQUENTIALITY},
+        "curated": {"min_cover": curation.CURATED_MIN_COVER, "max_division_words": curation.CURATED_MAX_DIVISION_WORDS},
         "ocr": {"w_unknown": ocr.W_UNKNOWN, "w_symbol": ocr.W_SYMBOL, "w_short": ocr.W_SHORT,
                 "w_mixed": ocr.W_MIXED, "w_hyphen": ocr.W_HYPHEN, "known_min_count": ocr.KNOWN_MIN_COUNT,
                 "known_min_files": ocr.KNOWN_MIN_FILES},
@@ -185,6 +186,11 @@ def main(argv=None) -> int:
     entries = build_union()
     stems = [Path(e.filename).stem for e in entries]
     assert len(stems) == len(set(stems)), "file stems must be unique"
+    try:
+        curations = curation.load_all([e.filename for e in entries])
+    except curation.CurationError as exc:
+        print(f"curation error: {exc}")
+        return 2
     if args.only:
         entries = [e for e in entries if e.filename in set(args.only)]
     _OUT = args.out
@@ -214,6 +220,8 @@ def main(argv=None) -> int:
         "code_git_hash": git_hash(),
         "parameters": parameters(),
         "files": len(summaries),
+        "curation_files": len(curations),
+        "curations_sha256": curation.digest(curations),
         "passages": sum(s["passages"] for s in summaries),
         "words": sum(s["words"] for s in summaries),
         "vocabulary_seconds": round(vocab_seconds, 1),
