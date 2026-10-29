@@ -30,5 +30,9 @@
  "hal": {
   "summary": "PASS 17, FAIL 11, NOT SCORED 0 of 28 (P1 11, P2 12). Invented-fact, horizon or quote failures: 5. Main causes: engine cut: quote sentences removed by placement leave orphaned references (f2-p, f5-i; P2 residue in c-e, c-t, f1-e, f2-i, f5-e); engine grounding/output checks: invented quote lead-ins, uncited specifics, citations to records that do not hold the sentence, a garbled CJK character (f1-e, f1-p, f2-i, f2-p); right record not offered / wrong record offered: contested and question-keyed records missing or outranked (f3-i, f5-p, f6-i, f6-p)",
   "file": "Build/worlds/hal/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "syr": {
+  "summary": "PASS 23, FAIL 5, NOT SCORED 0 of 28 (P1 8, P2 35). Invented-fact, horizon or quote failures: 3. Main causes: engine cut: every quote removed (admission path omits the speaker-naming directive; the world's own epithets 'the sage'/'our poet' fail the net) - 13 answers, residue in 9; voice breaks out of the world into system or assistant language ('no record given to me for this turn', 'the voice', 'I am a representative') - f2-e, f6-e, f6-p; withheld specific claims ship unchecked; horizon check misses undated names - f1-e, f2-e, f3-t",
+  "file": "Build/worlds/syr/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
