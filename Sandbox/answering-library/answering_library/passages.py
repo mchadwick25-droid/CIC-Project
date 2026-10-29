@@ -4,7 +4,6 @@ the source text with whitespace normalised and nothing else changed."""
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
 
 MIN_WORDS = 150
 MAX_WORDS = 400
@@ -21,18 +20,8 @@ Ep Sr Fr Br Ven Rt Hon
 _ROMAN = re.compile(r"^[ivxlcdm]+$", re.I)
 
 
-@dataclass
-class Cut:
-    first: int
-    last: int
-
-
 def token_spans(text: str, start: int, end: int) -> list[tuple[int, int]]:
     return [(start + m.start(), start + m.end()) for m in _TOKEN.finditer(text[start:end])]
-
-
-def _core(token: str) -> str:
-    return token.rstrip(_CLOSERS).rstrip(_END_CHARS).rstrip(_CLOSERS)
 
 
 def strengths(words: list[str], script: str) -> list[int]:

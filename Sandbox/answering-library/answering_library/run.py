@@ -21,7 +21,7 @@ from pathlib import Path
 
 from . import markup as mu
 from . import ocr, passages, plain, segment
-from .langscript import filename_codes, _latin_choice, script_of
+from .langscript import _latin_choice
 from .textio import Source
 from .union import REPO_ROOT, UnionEntry, build_union
 

@@ -9,9 +9,7 @@ byte range   half-open range of the first to the last token of the passage
 """
 from __future__ import annotations
 
-import math
 import re
-import statistics
 from bisect import bisect_left, bisect_right
 from dataclasses import dataclass
 
@@ -85,12 +83,12 @@ def _unique(divs: list[UDiv]) -> None:
             d.locus = f"{d.locus}~{n}"
 
 
-def _markup_divisions(doc: mu.MarkupDoc) -> tuple[list[UDiv], dict]:
+def _markup_divisions(doc: mu.MarkupDoc) -> list[UDiv]:
     main_len, notes_len = len(doc.main.text), len(doc.notes.text)
     bounds = doc.boundaries
     divs: list[UDiv] = []
     if not bounds:
-        return divs, {}
+        return divs
     if bounds[0].main_pos > 0 and doc.main.text[:bounds[0].main_pos].strip():
         divs.append(UDiv("main", 0, bounds[0].main_pos, "front", "", True, "front"))
     if bounds[0].note_pos > 0 and doc.notes.text[:bounds[0].note_pos].strip():
@@ -102,7 +100,7 @@ def _markup_divisions(doc: mu.MarkupDoc) -> tuple[list[UDiv], dict]:
             divs.append(UDiv("main", b.main_pos, nm, b.locus, b.title, b.apparatus, "marker"))
         if doc.notes.text[b.note_pos:nn].strip():
             divs.append(UDiv("notes", b.note_pos, nn, f"{b.locus}/notes", b.title, True, "note"))
-    return divs, {}
+    return divs
 
 
 def _subsplit(divs: list[UDiv], texts: dict[str, str]) -> list[UDiv]:
@@ -195,7 +193,7 @@ def plan(entry, source: Source | None = None) -> Plan:
         embedded = doc.embedded
         streams = {"main": (doc.main.text, doc.main), "notes": (doc.notes.text, doc.notes),
                    "header": (raw, _Identity())}
-        divs, _ = _markup_divisions(doc)
+        divs = _markup_divisions(doc)
         if head_end:
             divs.insert(0, UDiv("header", 0, head_end, "header", "", True, "header"))
         if divs:

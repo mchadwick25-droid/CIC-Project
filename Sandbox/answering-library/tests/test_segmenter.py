@@ -1,8 +1,6 @@
 import json
 from types import SimpleNamespace
 
-import pytest
-
 from answering_library import markers, ocr, passages, segment, speaker
 from answering_library.langscript import filename_codes, language_of, script_of
 from answering_library.markup import parse
