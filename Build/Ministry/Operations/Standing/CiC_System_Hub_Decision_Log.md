@@ -7216,3 +7216,19 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Protected set above the cap.** On real data one pair has more protected records than the cap (an lpc question about a parent's violence): 14 protected of 19 selected, so 14 records are offered and nothing is cut beyond them. The rule is unchanged: if the protected records exceed the cap they are all offered.
 
 **Correction.** #1261 merged at head 051e672, before the setting-render fixes, the 160-character field limit, the hint-rule note and the cap-approval entry were pushed. They land in this follow-up pull request.
+
+## 2026-10-29 - Live test "lpc go-live rerun 1" authorized, cap $3.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, in chat, by name: "go ahead with a 3 dollar spend, but it better be recorded and needed". Name: `lpc go-live rerun 1`. Cap: $3.00, never exceeded. The $17.00 cap of "fleet graded run 1" is spent ($16.55) and does not carry over.
+
+**What it is for.** One rerun of lpc only, on the new pin: the 28 sealed admission probes and the validation conversations, including the 10-turn Deep Interview. The lpc go-live handoff (2026-10-27) says `admitted` needs admission and validation on the current pin, and the voice's output cannot be measured offline once the records and the cut step change.
+
+**Why it is needed, and when it may run.** It runs only when all of these hold, and the thread says so before it starts:
+1. The lpc record fixes are on a branch, reviewed by Opus where their meaning changes, with the lpc gates passing on a new pin.
+2. The engine changes L1 and L2 are decided (kept or reverted) in `Build/Ministry/Operations/Audits/Engine_Change_Ledger_2026-10-29.md`, and the replay of the 308 saved drafts has been run on them.
+3. `--settings-only` has printed the settings and an estimate at or under $3.00. The previous lpc runs cost $0.87 (admission) and about $1.3 (validation).
+If any condition fails, the amount stays unspent.
+
+**What it does not cover.** Any other world, any other cap, and any test of harness parity with the live answer path. Those need their own request.
+
+**Recording.** The run carries the name and cap on the command, prints its settings first and stops at the cap. Its ledger is committed with the results, and the spend is entered here afterwards, with the unspent remainder.
