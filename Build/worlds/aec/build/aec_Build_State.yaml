@@ -5,25 +5,27 @@ started: 2026-09-25
 pilot_world: false
 current_step: Steps 0-2 filed to the current gates; the Round 3 review did not clear any of the three documents and the three-round cap is reached; the project lead rules on the escalation before Doc_03 can start; the project lead also sets safety_adjacent; Representative identity is decided later, at Doc_10
 status: paused
-pause_point: project lead ruling on the Round 3 cap escalation and on the World #8 boundary question
+pause_point: project lead disposition of the open findings of the second cap-ruling reviews of Doc_01 (R2-N1, R2-N2) and Doc_02 with the Source Registry (R2-D1, R2-D2), both not cleared on 2026-10-29; also the World #8 boundary question
 documents:
   - id: Step_0
     status: not approved to proceed (Round 3 did not clear; cap reached; escalated to the project lead)
     rounds_used: 3
     review_files: [Step0_Review_Round1.md, Step0_Review_Round2.md, Step0_Review_Round3.md]
   - id: Doc_01
-    status: not approved to proceed (Round 3 did not clear; cap reached; escalated to the project lead)
+    status: not approved to proceed (Round 3 did not clear; cap reached; the cap-ruling review and the second cap-ruling review, which do not count toward the cap, did not clear; not cleared, open findings with the project lead)
     rounds_used: 3
     drafter_model: Sonnet 5.5
     reviewer_model: Opus
-    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc01_Round2_Review.md, Review-Artifacts/Doc01_Round3_Review.md]
+    review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc01_Round2_Review.md, Review-Artifacts/Doc01_Round3_Review.md, Review-Artifacts/Doc01_CapRuling_Review.md, Review-Artifacts/Doc01_CapRuling_Review2.md]
+    latest_review: Review-Artifacts/Doc01_CapRuling_Review2.md (not cleared, 2026-10-29)
     gates_result:
   - id: Doc_02
-    status: not approved to proceed (Round 3 did not clear; cap reached; escalated to the project lead); the Source Registry is the companion file Source_Registry.md
+    status: not approved to proceed (Round 3 did not clear; cap reached; the cap-ruling review and the second cap-ruling review, which do not count toward the cap, did not clear; not cleared, open findings with the project lead); the Source Registry is the companion file Source_Registry.md
     rounds_used: 3
     drafter_model: Sonnet 5.5
     reviewer_model: Opus
-    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md]
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md, Review-Artifacts/Doc02_CapRuling_Review.md, Review-Artifacts/Doc02_CapRuling_Review2.md]
+    latest_review: Review-Artifacts/Doc02_CapRuling_Review2.md (not cleared, 2026-10-29)
     gates_result:
   - id: Representative_identity
     status: decided later in the build, at Doc_10
