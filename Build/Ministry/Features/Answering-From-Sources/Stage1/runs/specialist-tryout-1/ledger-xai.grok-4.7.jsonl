@@ -1,0 +1,2 @@
+{"at": "2026-10-29T18:17:16.331+00:00", "live_test": "specialist-tryout-1", "cap_usd": 5.0, "event": "hold", "model_id": "us.xai.grok-4.7", "hold_usd": 0.08688, "spent_usd": 0.0}
+{"at": "2026-10-29T18:17:16.739+00:00", "live_test": "specialist-tryout-1", "cap_usd": 5.0, "event": "settle", "spent_usd": 0.08688, "model_id": "us.xai.grok-4.7", "priced_dollars": 0.0868802, "usage": null, "failed": true}
