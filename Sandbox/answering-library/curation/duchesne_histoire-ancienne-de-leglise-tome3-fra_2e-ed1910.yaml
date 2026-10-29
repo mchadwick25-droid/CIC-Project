@@ -1,7 +1,7 @@
 file: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt
 scheme: 'Duchesne''s chapters I to XV, each printed as "CHAPITRE" with a roman numeral and a title line; the volume prints no numbered sections inside a chapter'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: chapter
     pattern: '^CHAP\w{4,6} (?P<n>[IVXLCHTUmnly1]{1,8})[.,]?$'

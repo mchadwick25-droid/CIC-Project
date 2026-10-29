@@ -1,7 +1,7 @@
 file: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
 scheme: 'Monceaux''s two Livres (Premier, Deuxième) with their Chapitres numbered in roman numerals (Chapitre I to III in Livre Premier, I to VIII in Livre Deuxième) and, inside each chapter, the sections numbered I, II, III and so on, each opened by its numeral and an italic summary of its contents; addressed l<Livre>/c<Chapitre>/s<section>. Where the scan has dropped a section''s numeral the section is read from the same heading in the Table des matières, which prints it; Préface and Table des matières as printed'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 81
     locus: preface
