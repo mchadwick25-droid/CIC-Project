@@ -336,3 +336,21 @@ the 12-world baseline. Threads build and measure with free and in-plan means
 only (saved drafts, the replay bench, tests, work done in Claude Code sessions).
 A step that can only be done with paid API calls is reported with what it would
 cost and is not run. Supersedes the caps in entry 9.
+
+## 12. Stories move up beside the quote door (2026-10-29)
+
+Mark, 2026-10-29, in chat: "yes move stories up, i want stories to be a cool
+feature (i am a story teller)".
+
+The stories door moves from stage 5 to stage 3, built beside the quote door and
+proved on lpc. Rules unchanged: only a reviewed story record tells a story in
+the voice, a story is never invented, and the index may show the source
+division for reading on the card but the voice never retells it from the
+passage. Three-level transparency applies in full: a story is marked inline in
+the text, hover gives brief context, click opens the full story page with links
+to its source references and documents. Today stories sit under one
+end-of-answer marker and the tier and confidence data is dropped before it
+reaches the screen; closing that is part of this step. The stage 3 change order
+names the numbers it must move: stories marked inline, stories told from a
+record only, stories cut by the current gates (28 in fleet run 1) and their
+orphans.
