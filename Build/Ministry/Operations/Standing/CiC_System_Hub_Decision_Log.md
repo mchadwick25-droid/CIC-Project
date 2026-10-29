@@ -7264,3 +7264,13 @@ If any condition fails, the amount stays unspent.
 **Rules.** Prints its settings first (`--settings-only` output is already in the engine thread's report), carries the name and cap on the command, stops at the cap. The full 12-world run (336 probes) needs its own name and cap here and is not covered.
 
 **Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Live test "S1-01 baseline live path" authorized, cap $25.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $25.00. Name: `S1-01 baseline live path`. Cap: $25.00, never exceeded. It carries over to nothing else, and the $1.00 `S1-01 baseline sample` is separate.
+
+**What it is for.** The baseline live-path run on the 12 built worlds (stage 1 item S1-01): 28 sealed probes each, 336 in all, on `engine.m4.turn.run_turn` with the production pins, a run manifest and saved reader outputs. Preflight ceiling $23.40; expected about $14.
+
+**When it may run.** Only after the sample's result has been reported to the project lead and the settings printed there match the bulk run's. If a cap is about to be exceeded the run stops and asks Mark.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
