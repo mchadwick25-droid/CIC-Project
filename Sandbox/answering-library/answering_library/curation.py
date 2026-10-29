@@ -38,7 +38,7 @@ _RULE_KEYS = {"id", "pattern", "flags", "lines", "parent", "locus", "title", "di
               "ocr_map", "fixes", "allow_oversize", "context", "language"}
 _CONTEXT_KEYS = {"prev_blank", "next_blank", "prev_short"}
 _SHORT_KEYS = {"lines", "words"}
-_DIVISION_KEYS = {"start_line", "locus", "title", "allow_oversize", "id", "parent", "number", "series"}
+_DIVISION_KEYS = {"start_line", "locus", "title", "allow_oversize", "id", "parent", "number", "series", "takes_context"}
 _PAGE_SPLIT_KEYS = {"pattern", "flags", "lines", "number", "locus", "only_oversize", "skip_repeat", "ocr_map"}
 _IGNORE_KEYS = {"pattern", "kind", "lines"}
 _APPARATUS_KEYS = {"lines", "kind", "locus"}
@@ -331,7 +331,8 @@ def load(path: Path) -> Curation:
         divisions.append({"start": d["start_line"] - 1, "locus": str(d["locus"]),
                           "title": " ".join(str(d.get("title") or "").split()),
                           "allow_oversize": (d.get("allow_oversize") or "").strip(), "id": d.get("id"),
-                          "parent": d.get("parent"), "number": number, "series": d.get("series")})
+                          "parent": d.get("parent"), "number": number, "series": d.get("series"),
+                          "takes_context": bool(d.get("takes_context", False))})
     _check_levels(name, rules, divisions)
 
     ignore = []
@@ -598,8 +599,8 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
                 raise CurationError(f"{where}: starts before its parent '{d['parent']}' ever matched")
             full = f"{context[d['parent']]}/{d['locus']}" if d["parent"] else d["locus"]
             _valid_locus(full, where)
-            starts[take_pending(i)] = {"locus": full, "title": d["title"], "origin": "marker",
-                                       "allow_oversize": d["allow_oversize"]}
+            starts[take_pending(i) if d["takes_context"] else i] = {
+                "locus": full, "title": d["title"], "origin": "marker", "allow_oversize": d["allow_oversize"]}
             claimed.add(i)
             if d["id"]:
                 set_context(d["id"], full)
