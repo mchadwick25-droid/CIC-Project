@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 12.036479,
+  "spent_usd": 12.451337,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -369,6 +369,15 @@
       "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-thinness-4.jsonl",
       "estimate": 0.032984,
       "spent_usd_world": 0.033129,
+      "exit_code": 0
+    }
+  },
+  "replay": {
+    "gallic": {
+      "status": "done",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-gallic.jsonl",
+      "estimate": 0.4233,
+      "spent_usd_world": 0.414858,
       "exit_code": 0
     }
   }
