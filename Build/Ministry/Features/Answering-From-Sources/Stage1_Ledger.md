@@ -28,5 +28,10 @@ line saves. These are not assigned to ledger lines by the proposal; they
 are recorded here for the coordination thread to map to the seven
 learning items once the list is supplied.
 
+Priority build line (Mark, 2026-10-29): Antiochene (Chrysostom), Latin
+Apologists (Tertullian), Rome in the Age of Gregory the Great, Hussite and
+Bohemian, Society of Jesus. Methodist and Franciscan: named for later, not
+queued. Their record stage is outside stage 1.
+
 Not in stage 1 (not authorized): gate retirement, rendering, bundles,
 openings, any change to the production path.

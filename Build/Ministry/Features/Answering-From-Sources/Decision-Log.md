@@ -35,10 +35,14 @@ Mark ruled and is quoted below. Companion file: `Stage1_Ledger.md`.
    split, with the Library stage now in the Library thread and the record
    stage after the quote door and bound drafting are proven on lpc. In the
    design thread Mark said: "we dont need to do all 7, but the first 5 are
-   in a priority build line." The queue is Antiochene (Chrysostom), Latin
-   Apologists (Tertullian), Rome in the Age of Gregory the Great, Hussite
-   and Bohemian, Society of Jesus, then Methodist, Franciscan. The first
-   five are the priority line.
+   in a priority build line." Corrected by Mark the same day: the priority
+   build line is the first five only, in this order: Antiochene
+   (Chrysostom), Latin Apologists (Tertullian), Rome in the Age of Gregory
+   the Great, Hussite and Bohemian, Society of Jesus. Methodist and
+   Franciscan are named for later, not queued. The split ruling applies to
+   the five: the Library stage runs now in the Library thread; the record
+   stage waits until stages 3 and 4 of the proposal have run on lpc; the
+   Library union job takes their shelf files in that order.
 
 ### 1.2 Change order: stage 1
 
@@ -114,7 +118,7 @@ list.
 - Stage 6, reviewed openings, bundle tier and log loop: the bundle-tier
   decision (3); the log loop's owner and weekly capacity (11); the
   decisions on metered classes (c), (d), (e) when their stages begin.
-- Record stage of the next worlds: the quote door and bound drafting proven
+- Record stage of the five priority-line worlds: the quote door and bound drafting proven
   on lpc (stages 3 and 4), then the new schema; the build-cycle addendum
   (proposal 14a) approved by change order.
 - Escalation 1 must be ruled before any record writing for a cell held
@@ -128,5 +132,8 @@ list.
 - The proposal's section 14 decision 6 says the baseline run and indexing
   wait for the named caps; Mark's ruling says he will "set the caps" without
   listing which items. The ledger treats every metered line as waiting.
+- The proposal (section 14a) says "five worlds ... with two more named but
+  not queued", consistent with Mark's correction; Mark's earlier quoted
+  words "all 7" are kept verbatim as spoken.
 - The proposal does not enumerate the seven learning items (it refers to
   "the landscape"); the ledger carries seven placeholder lines.
