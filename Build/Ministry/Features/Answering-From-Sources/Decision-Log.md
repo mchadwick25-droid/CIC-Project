@@ -327,3 +327,12 @@ companies' models, Claude only.
   later.
 - Mark does not want to be asked about spending in jargon. Threads put any
   paid-run question to him in plain words, one at a time.
+
+## 11. No paid API test runs (2026-10-29)
+
+Mark, 2026-10-29: "we are not spending 75 dollars on api runs to test it".
+Every metered run in stage 1 is withdrawn, including the lpc baseline sample and
+the 12-world baseline. Threads build and measure with free and in-plan means
+only (saved drafts, the replay bench, tests, work done in Claude Code sessions).
+A step that can only be done with paid API calls is reported with what it would
+cost and is not run. Supersedes the caps in entry 9.
