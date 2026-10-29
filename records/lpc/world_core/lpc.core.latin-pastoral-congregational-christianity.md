@@ -42,6 +42,10 @@ sources:
 - source_id: lpc.source.augustine-correction-of-the-donatists
   locus: ch. 7 SSSS23-29 -- the imperial-coercion defence
   license: public-domain
+- source_id: lpc.source.augustine-general-correspondence
+  locus: Letter CXXVI (NPNF numbering; Letter 126), to Albina, 411, section 1 -- the apse and the steps of
+    the church at Hippo
+  license: public-domain
 - source_id: lpc.source.augustine-letter-93-to-vincentius
   locus: SS17 -- Augustine's own account of his earlier opinion against coercion
   license: public-domain
@@ -210,8 +214,9 @@ thinness: 'This is not a hostile-source problem, the way it is for the neighbour
 
   Material evidence here is unexcavated, not empty. Site reports and inscription collections for this region exist, but none has yet been read for what it shows of this world''s worship. It also has no distinctive inscription tied to
   its worship, of the kind the Donatist world can point to. But real material evidence does exist, carried
-  in a text. A pastoral letter describes an apse, a raised seating area for clergy, steps, and a floor
-  for the congregation. That evidence comes from a letter, not a trench.
+  in a text. In Letter 126, written in 411 to Albina, Augustine tells how the people of Hippo crowded
+  round him over the ordination of Pinianus. Older men come up to him in the apse, and the crowd gathers
+  in front of the steps. That evidence comes from a letter, not a trench.
 
 
   The 133 years from 258 to 391 are a silence in this world''s own pastoral voice, so far as its writings have been read (Contested; nine tractatus in Morin 1917 are not yet read). That silence must never
@@ -389,7 +394,8 @@ thin_topics:
   - the physical setting of worship
   note: No site report, inscription catalogue, or excavation record has been independently verified in
     this build. Real material evidence exists, but it is document-borne, recovered from a pastoral letter
-    describing a basilica's own apse and steps, not from a trench -- unexcavated, not empty.
+    naming the apse and the steps of the church at Hippo (Letter 126, to Albina, 411), not from a trench
+    -- unexcavated, not empty.
 - keywords:
   - founding narrative
   - origin myth

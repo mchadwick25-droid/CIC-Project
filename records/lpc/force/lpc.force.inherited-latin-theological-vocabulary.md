@@ -7,6 +7,13 @@ status: ready
 register: etic
 canon_cells:
 - F2-I
+use_note:
+  means: "Latin already had a theological vocabulary before our years, and Augustine once looked for a bishop who knew Punic for a country town."
+  not_for:
+    - "a claim that Fussala is the town of the letter that names an apse and steps, which is Letter 126 to Albina, about Hippo"
+    - "a claim that Augustine wrote to the people of Fussala about a basilica"
+  years: {from: 246, to: 430}
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
