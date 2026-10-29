@@ -54,8 +54,8 @@ assignments:
     language: lat
     date:
       window: 197, end of the year
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); the Latin Apologists Step 0 §3 B1 calls it the best-anchored date in the roster
-      formation_confidence: Widely Accepted
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--apology-apologeticus-2
     work: "Apology (Apologeticus)"

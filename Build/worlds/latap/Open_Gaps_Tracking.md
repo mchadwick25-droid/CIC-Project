@@ -149,3 +149,31 @@ The re-run found the LPC use in OG-11 and one further PAHC use (`pahc.source.luc
 - *On Modesty* | not long before 222/3 | the last work; Callistus (217–222) the "überwiegend Wahrscheinliche"; Esser proposed Zephyrinus (198–217) | 217–222, probably the last surviving work
 - The break with the church | 207/8 | not fixed | 213
 - **The *Passion of Perpetua and Felicitas* — date and attribution disclosure (binding on Doc_02).** The approved slate keeps Perpetua on this shelf. The date: Robinson's introduction fixes no year and notes only the incidental "natale tunc Getae Caesaris" (`perpetua-scillitan-martyrs-lat-grc_robinson1891.txt`, lines 1734–1737); Wallis in ANF03 gives about 202 (`anf03_tertullian.xml`, line 59461); Monceaux gives 7 March 203 (I, line 5625); Harnack prefers 203 (II.2, pp. 321–324). Tag: 7 March 202 or 203, under Severus, `Widely Accepted`; both years are inside the window. The visions of Perpetua and Saturus are their own writing: `Widely Accepted`. Who compiled the rest is `Contested`: Robinson finds it "in the highest degree probable" that the Passion is "a genuine addition to the hitherto recognised works of the great master" (lines 3356–3364); Coxe in ANF03 thinks Tertullian was "the *editor* of the story, not its author" (line 59449); Harnack, Neumann and Monceaux doubt it, and Harnack says certainty cannot be reached. That the compiler's own colouring is Montanist is `Dominant Modern Reconstruction` (Harnack: "Der Montanismus des Redaktors ist m. E. unverkennbar"). Doc_02 must not present the Passion to a Representative as Tertullian's own work.
+
+## OG-16 — The saturation statement is not closed (2026-10-29)
+
+**Source:** Doc_02 §9; `Source_Registry.md`, the saturation statement.
+**Status:** Open. Owner: the Library thread, or the source-research thread.
+
+The Registry and Doc_02 do not close the saturation statement. The field-bibliography sweep has not been run against any external instrument. The instruments not reached are the post-1930 scholarship on Tertullian and the Latin apologists, later handbooks, the *Cambridge History of Early Christian Literature* and the *Dictionary of Christian Biography*.
+
+## OG-17 — Commodian's Carmen apologeticum has no English text (2026-10-29)
+
+**Source:** Doc_02 §1; Step 0 §3 B1.
+**Status:** Open. Owner: the source-research thread.
+
+No English translation of the *Carmen apologeticum* was located. A Representative's English for it would be rendered from the Latin, and Doc_10 must say so wherever the poem is used.
+
+## OG-18 — Robinson's conclusion on the original of the Passion was not read (2026-10-29)
+
+**Source:** Doc_02 §2, the Passion of Perpetua and Felicitas.
+**Status:** Open. Owner: the Library thread.
+
+Robinson's later chapters compare the Greek and the Latin witnesses. This build read his description of the manuscripts and did not read to his conclusion on which is the original. A Representative must not assert which is the original until that is read.
+
+## OG-19 — Doc_01 repeats the Lactantius count that includes the poems (2026-10-29)
+
+**Source:** Doc_01 §3, the Heresy bullet; Doc_02 §1; the Lactantius "Fragments" finding.
+**Status:** Open. Owner: the Library thread, with the project lead's decision on a change order.
+
+Step 0 and Doc_01 §3 give 285,187 words for Lactantius's four works. Doc_02 §1 shows that 3,932 of those words are the two poems the ANF07 file prints as "Fragments of Lactantius", so the three genuine works are 281,255. No comparison in Doc_01 changes. Doc_01 is approved to proceed and not frozen; a correction to its sentence is a change order, named and reasoned, and it is not made as a quiet edit.
