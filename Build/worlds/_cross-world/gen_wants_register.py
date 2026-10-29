@@ -63,7 +63,9 @@ _ATTESTED_VIA_VENDORED = re.compile(
 # and attention both fail here for the same reason "no edition exists" does,
 # but for a different one: there is no work to find an edition of, ever.
 _NOT_A_HELD_TEXT = re.compile(
-    r"not applicable in the ordinary sense|no text exists to hold rights over", re.I
+    r"not applicable in the ordinary sense|no text exists to hold rights over"
+    r"|a recognized field category with nothing to vendor",
+    re.I
 )
 # Same ruling in the other wording a record uses, honoured only when the
 # edition field does not itself talk about an edition: a row that says no
@@ -78,6 +80,10 @@ _QUOTED_CLAUSE_ONLY = re.compile(r"known only via a quoted clause inside an alre
 _RIGHTS_SAYS_VENDORED = re.compile(
     r"public-domain; vendored|embedded within a vendored text", re.I
 )
+# The edition field says the parts of a standing-reference edition are vendored
+# (and the rights field puts the files in cic/texts/); the row itself is only
+# the pointer to them.
+_EDITION_SAYS_VENDORED = re.compile(r"\b(is|are) vendored\b", re.I)
 
 
 def classify(record: dict) -> str:
@@ -85,6 +91,8 @@ def classify(record: dict) -> str:
     rights = str(record.get("rights_status") or "")
     blob = " ".join((edition, rights, str(record.get("discovery_channel") or "")))
     if ("cic/texts/" in rights or _RIGHTS_SAYS_VENDORED.search(rights)) and _ATTESTED_VIA_VENDORED.search(edition):
+        return "resolved (attested via a vendored source)"
+    if "cic/texts/" in rights and _EDITION_SAYS_VENDORED.search(edition):
         return "resolved (attested via a vendored source)"
     if _QUOTED_CLAUSE_ONLY.search(edition):
         return "resolved (attested via a vendored source)"
