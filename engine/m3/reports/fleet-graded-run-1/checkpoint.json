@@ -120,8 +120,16 @@
       "overall_pass": true,
       "aborted_reason": null,
       "exit_code": 0
+    },
+    "syr": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.4448394,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-syr.jsonl",
+      "probes_answered": 1,
+      "spent_usd_world": 0.085123
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-29T00:05:58Z"
+  "current": "syr",
+  "checkpoint_at": "2026-10-29T00:06:18Z"
 }
