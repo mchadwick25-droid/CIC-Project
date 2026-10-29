@@ -1,0 +1,71 @@
+file: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
+scheme: 'Delehaye''s own structure as printed in his Table des matieres: the Introduction, then chapters I to VI printed as "CHAPITRE" with a numeral or ordinal word; chapters I and III are divided into numbered sections printed as "§ n." with a title, and chapters II, IV, V and VI print no sections'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: introduction
+    pattern: '^INTRODUCTION$'
+    lines: [124, 124]
+    locus: 'introduction'
+  - id: chapter
+    pattern: '^CHAPITRE (?P<n>\S+?)\.?$'
+    lines: [479, 18683]
+    locus: 'chapter{n|int}'
+    number: n
+    allow_oversize: 'chapters II, IV, V and VI print no numbered or titled sections in the body, and the Table des matieres at line 18684 lists none under them; the chapter is the finest division the edition prints'
+    fixes:
+      - line: 7600
+        set: {n: '2'}
+      - line: 15294
+        set: {n: '5'}
+      - line: 17757
+        set: {n: '6'}
+  - id: section
+    pattern: '^§\.? ?(?P<s>[0-9ivxl]{1,3})\.? (?P<t>\S.*)$'
+    lines: [479, 18683]
+    parent: chapter
+    locus: 'section{s|int}'
+    title: '{t}'
+    ocr_map: {'i': '1', 'l': '1'}
+    number: s
+    allow_oversize: 'the numbered section is the finest division the edition prints: the Table des matieres at line 18684 lists no division below the section, and the body prints no numbered or titled subheads inside the sections'
+ignore:
+  - pattern: '^(?:\d{1,3} )?LES PASSIONS (?:DES|DBS|pES) MART\w+\.?(?: \d{1,3})?$'
+    kind: running-head
+    lines: [479, 18683]
+  - pattern: '^(?:LES PASSIONS HISTORIQUES|LES PAN\w+GYRIQUES|G\w+NRES SECONDAIRES \w+ GENRES MIXT\w+|HISTOIRE, TRADITION, LITT\w+RATURE|LA VIE DES TEXTES HAGIOGRAPHIQUES)\.? \S{1,6}(?: \S)?$'
+    kind: running-head
+    lines: [479, 18683]
+  - pattern: '^\d{3}$'
+    kind: page-number
+    lines: [479, 18683]
+apparatus:
+  - lines: [10, 123]
+    kind: front
+    locus: front
+  - lines: [18684, 18725]
+    kind: index
+    locus: index
+evidence:
+  - line: 124
+    quote: INTRODUCTION
+  - line: 479
+    quote: CHAPITRE I
+  - line: 482
+    quote: '§. i. l''hagiographie de smyrne.'
+  - line: 2510
+    quote: '§. 2. L''hagiographie de Carthage.'
+  - line: 6254
+    quote: '§ 4. Quelques théories sur la formation des genres.'
+  - line: 7600
+    quote: CHAPITRE DEUXIEME
+  - line: 9808
+    quote: CHAPITRE TROISIEME
+  - line: 12784
+    quote: '§. 5. Les ENSEMBLES.'
+  - line: 13274
+    quote: CHAPITRE QUATRIÈME.
+  - line: 15294
+    quote: CHAPITRE CINQUIEME
+  - line: 17757
+    quote: CHAPITRE SIXIEME

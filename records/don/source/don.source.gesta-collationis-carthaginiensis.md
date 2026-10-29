@@ -22,6 +22,7 @@ edition: the same acts are separately, substantively preserved in a Migne Patrol
   vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt (row 55's own file)
 citation: Gesta Collationis Carthaginiensis (Acts of the 411 Conference), Patrologia Latina (Migne)
 kind: vendored
+shelf_row: pl11-zeno-optatus-collatio-carthaginiensis_migne--gesta-collationis-carthaginiensis-acts-of-the-411-conference
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: 'Source Registry row 14; builder-prior-knowledge, cross-checked via WebSearch, 2026-09-01;

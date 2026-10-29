@@ -1,0 +1,48 @@
+file: duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt
+scheme: 'Duchesne''s chapters I to XXVII, each printed as "CHAPITRE" with a roman numeral and a title line; the volume prints no numbered sections inside a chapter'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: chapter
+    pattern: '^CHAP\w{4,6} (?P<n>[IVXLCHTU1l]{1,8})[.,]?$'
+    lines: [244, 20684]
+    locus: 'chapter{n|int}'
+    title: '{next}'
+    skip_repeat: true
+    ocr_map: {'H': 'I', 'T': 'I', 'L': 'I', 'l': 'I', '1': 'I', 'U': 'II'}
+    number: n
+    fixes:
+      - line: 17245
+        set: {n: 'XXIII'}
+    allow_oversize: 'the chapter is the finest division the edition prints: the Table des matieres at line 20685 lists chapters only, and the body prints no numbered sections or subheads inside a chapter'
+ignore:
+  - pattern: '^\S{1,6} CHAP\w{4,6} \S{1,9}$'
+    kind: running-head
+    lines: [244, 20684]
+  - pattern: '^CHAP\w{4,6} \S{1,9} \S{1,5}$'
+    kind: running-head
+    lines: [244, 20684]
+apparatus:
+  - lines: [10, 243]
+    kind: front
+    locus: front
+  - lines: [20685, 20998]
+    kind: index
+    locus: index
+evidence:
+  - line: 244
+    quote: CHAPITRE I.
+  - line: 576
+    quote: CHAPITRE II.
+  - line: 895
+    quote: CHAPITEE III.
+  - line: 7763
+    quote: CHAPITRE XIIL
+  - line: 14126
+    quote: CHAPITRE XX.
+  - line: 17245
+    quote: CHAPITRE XXHL
+  - line: 17246
+    quote: Denys d'Alexandrie
+  - line: 19504
+    quote: CHAPITRE XXVIL

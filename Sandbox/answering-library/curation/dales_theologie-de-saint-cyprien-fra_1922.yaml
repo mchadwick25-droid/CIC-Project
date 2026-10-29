@@ -1,0 +1,192 @@
+file: dales_theologie-de-saint-cyprien-fra_1922.txt
+scheme: 'Dales'' own structure as printed in his Table des matieres: the Introduction, Livres I to IV each divided into chapters printed as a roman numeral above the chapter title, the numbered sections printed as a roman numeral followed by a dash and a title, the Conclusion and Appendices I to V; where the scan lost the chapter numeral the numeral is the one the Table des matieres prints against the same title'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 172
+    locus: introduction
+  - start_line: 852
+    locus: livre1
+  - start_line: 858
+    locus: livre1/chapter1
+  - start_line: 1444
+    locus: livre1/chapter2
+  - start_line: 1845
+    locus: livre1/chapter3
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 2782
+    locus: livre1/chapter4
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 5393
+    locus: livre1/chapter5
+  - start_line: 5564
+    locus: livre1/chapter6
+  - start_line: 5889
+    locus: livre1/chapter7
+  - start_line: 6382
+    locus: livre2
+  - start_line: 6386
+    locus: livre2/chapter1
+  - start_line: 6657
+    locus: livre2/chapter2
+  - start_line: 6660
+    locus: livre2/chapter2/section1
+  - start_line: 6945
+    locus: livre2/chapter2/section2
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 8018
+    locus: livre2/chapter2/section3
+  - start_line: 8530
+    locus: livre2/chapter2/section4
+  - start_line: 8830
+    locus: livre2/chapter2/section5
+  - start_line: 9051
+    locus: livre2/chapter3
+  - start_line: 9057
+    locus: livre2/chapter3/section1
+  - start_line: 9299
+    locus: livre2/chapter3/section2
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 10691
+    locus: livre2/chapter3/section3
+  - start_line: 10722
+    locus: livre2/chapter3/section4
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 12714
+    locus: livre2/chapter4
+  - start_line: 12749
+    locus: livre2/chapter4/section1
+  - start_line: 12863
+    locus: livre2/chapter4/section2
+  - start_line: 13063
+    locus: livre2/chapter4/section3
+  - start_line: 13383
+    locus: livre3
+  - start_line: 13422
+    locus: livre3/chapter1
+  - start_line: 13425
+    locus: livre3/chapter1/section1
+  - start_line: 13905
+    locus: livre3/chapter1/section2
+  - start_line: 13947
+    locus: livre3/chapter1/section3
+  - start_line: 14060
+    locus: livre3/chapter1/section4
+  - start_line: 14322
+    locus: livre3/chapter2
+  - start_line: 14621
+    locus: livre3/chapter3
+  - start_line: 14647
+    locus: livre3/chapter3/section1
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 15355
+    locus: livre3/chapter3/section2
+  - start_line: 15929
+    locus: livre3/chapter4
+  - start_line: 15931
+    locus: livre3/chapter4/section1
+  - start_line: 16477
+    locus: livre3/chapter4/section2/part1
+  - start_line: 16789
+    locus: livre3/chapter4/section2/part2
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 17529
+    locus: livre3/chapter5
+  - start_line: 17531
+    locus: livre3/chapter5/section1
+  - start_line: 17849
+    locus: livre3/chapter5/section2
+  - start_line: 18416
+    locus: livre3/chapter5/section3
+  - start_line: 18558
+    locus: livre3/chapter6
+  - start_line: 18657
+    locus: livre4
+  - start_line: 18670
+    locus: livre4/chapter1
+  - start_line: 18826
+    locus: livre4/chapter2
+  - start_line: 19339
+    locus: livre4/chapter3
+  - start_line: 19506
+    locus: livre4/chapter4
+  - start_line: 19768
+    locus: livre4/chapter5
+  - start_line: 20435
+    locus: livre4/chapter6
+    allow_oversize: 'the Table des matieres prints no division below this one and the body prints no numbered heading line inside it'
+  - start_line: 21391
+    locus: conclusion
+  - start_line: 21463
+    locus: appendice1
+  - start_line: 21946
+    locus: appendice2
+  - start_line: 22290
+    locus: appendice3
+  - start_line: 22682
+    locus: appendice4
+  - start_line: 23254
+    locus: appendice5
+apparatus:
+  - lines: [23293, 26087]
+    kind: index
+    locus: index
+  - lines: [21463, 23292]
+    kind: notes
+    locus: appendices
+  - lines: [10, 171]
+    kind: front
+    locus: front
+evidence:
+  - line: 172
+    quote: 'INTRODUCTION'
+  - line: 852
+    quote: 'LIVRE I'
+  - line: 858
+    quote: 'Dieu. — Le Curist. — La TRINITE.'
+  - line: 1444
+    quote: 'Il'
+  - line: 1845
+    quote: 'L’nomme. — LA CHUTE. — LE RELEVEMENT. — VIE DE LA'
+  - line: 2782
+    quote: 'IV'
+  - line: 5393
+    quote: 'La TRADITION.'
+  - line: 5889
+    quote: '- Vil'
+  - line: 6386
+    quote: 'I'
+  - line: 6657
+    quote: 'Le « De CaTHOLICAE ECCLESIAE UNITATE ».'
+  - line: 6660
+    quote: 'I. — Analyse du traité.'
+  - line: 9051
+    quote: 'II'
+  - line: 9299
+    quote: 'II. — Saint Cyprien et le pape Corneille.'
+  - line: 12714
+    quote: 'IV'
+  - line: 13422
+    quote: 'Le BaPpTEME.'
+  - line: 13947
+    quote: 'Ili. — Baptéme des malades.'
+  - line: 14621
+    quote: 'Il'
+  - line: 17529
+    quote: 'Vv'
+  - line: 18416
+    quote: 'III. — Irréguliers.'
+  - line: 18558
+    quote: 'Vl'
+  - line: 18670
+    quote: 'VUE D’ENSEMBLE. — Fo, ESPERANCE, CHARITE. — PRIERE.'
+  - line: 19339
+    quote: 'I'
+  - line: 19506
+    quote: 'IV'
+  - line: 21391
+    quote: 'CONCLUSION'
+  - line: 21463
+    quote: 'APPENDICE 1'
+  - line: 22290
+    quote: 'APPENDICE Ill'

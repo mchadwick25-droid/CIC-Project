@@ -27,6 +27,7 @@ edition: 'Th. Mommsen and Paul M. Meyer (eds.), Theodosiani Libri XVI, Voluminis
   row 51)'
 citation: 'Codex Theodosianus, Book 16, in Theodosiani Libri XVI, Voluminis I Pars Posterior: Textus cum Apparatu, ed. Th. Mommsen and Paul M. Meyer (Berlin: Weidmann, 1905)'
 kind: vendored
+shelf_row: theodosianus-16_mommsen-meyer1905--theodosiani-libri-xvi-book-16-critical-latin-text
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: documentary
 discovery_channel: builder-prior-knowledge, cross-checked via WebSearch / 2026-09-01; direct text search

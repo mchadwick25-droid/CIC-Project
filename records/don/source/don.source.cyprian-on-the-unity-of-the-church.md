@@ -20,6 +20,7 @@ edition: Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appe
   vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appendix), ed. Roberts & Donaldson
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: 'Source Registry row 9; corpus map / cic/corpus-map/donatism.yaml, role: antecedent,

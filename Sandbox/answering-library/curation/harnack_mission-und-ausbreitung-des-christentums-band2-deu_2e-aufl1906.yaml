@@ -1,0 +1,156 @@
+file: harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt
+scheme: 'Harnack Mission und Ausbreitung, Band 2, Viertes Buch: the four chapters printed as "Erstes" to "Viertes Kapitel"; in the first chapter the thirty numbered testimonies printed as "(n)"; in the second chapter the numbered parts (1) to (4); in the third chapter the three numbered lists I to III and the regions numbered 1 to 19; the three Anhang sections printed as "Anhang I" to "III"'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: kapitel
+    pattern: '^(?P<n>\S+) Kapitel\.?$'
+    lines: [93, 15700]
+    locus: 'kapitel{n|int}'
+    number: n
+    fixes:
+      - line: 93
+        set: {n: '1'}
+      - line: 1113
+        set: {n: '2'}
+      - line: 3686
+        set: {n: '3'}
+      - line: 15623
+        set: {n: '4'}
+  - id: zeugnis
+    pattern: '^\((?P<n>\d{1,2}|I)\) \S'
+    lines: [94, 1112]
+    parent: kapitel
+    locus: 'zeugnis{n|int}'
+    number: n
+  - id: teil_a
+    pattern: '^\((?P<n>[1-4])\) Die \S{1,2}erbreitung'
+    lines: [1114, 3685]
+    parent: kapitel
+    locus: 'teil{n|int}'
+    number: n
+    allow_oversize: 'the numbered part is the finest numbered division the edition prints in this chapter'
+  - id: teil_b
+    pattern: '^(?P<n>[1-4])\. Die \S{1,2}erbreitung'
+    lines: [1114, 3685]
+    parent: kapitel
+    locus: 'teil{n|int}'
+    number: n
+    allow_oversize: 'the numbered part is the finest numbered division the edition prints in this chapter'
+  - id: anhang
+    pattern: '^Anhang (?P<r>[IL]{1,3}|IV|V)\.?$'
+    lines: [14907, 15622]
+    locus: 'anhang{r|int}'
+    ocr_map: {'L': 'I'}
+    number: r
+divisions:
+  - start_line: 3799
+    locus: kapitel3/liste1
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 4059
+    locus: kapitel3/liste2
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 4259
+    locus: kapitel3/liste3
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 4263
+    locus: kapitel3/region1
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 5467
+    locus: kapitel3/region2
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 5706
+    locus: kapitel3/region3
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 6461
+    locus: kapitel3/region4
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 6520
+    locus: kapitel3/region5
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 7084
+    locus: kapitel3/region6
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 7370
+    locus: kapitel3/region7
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 8476
+    locus: kapitel3/region8
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 8588
+    locus: kapitel3/region9
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 10965
+    locus: kapitel3/region10
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 11024
+    locus: kapitel3/region11
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 11309
+    locus: kapitel3/region12
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 11440
+    locus: kapitel3/region13
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 11484
+    locus: kapitel3/region14
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 12416
+    locus: kapitel3/region15
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 12543
+    locus: kapitel3/region16
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 13156
+    locus: kapitel3/region17
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 13230
+    locus: kapitel3/region18
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+  - start_line: 14498
+    locus: kapitel3/region19
+    allow_oversize: 'the numbered region or list is the finest numbered division the edition prints in the third chapter'
+apparatus:
+  - lines: [19917, 19983]
+    kind: notes
+    locus: end
+  - lines: [19730, 19916]
+    kind: notes
+    locus: verbesserungen-nachtraege
+  - lines: [16216, 19729]
+    kind: index
+    locus: sachregister
+  - lines: [10, 89]
+    kind: front
+    locus: front
+evidence:
+  - line: 93
+    quote: Erstes Kapitel.
+  - line: 133
+    quote: '(2) [Paulus], I Tim. 3, 16:'
+  - line: 1113
+    quote: Zweites Kapitel.
+  - line: 1130
+    quote: '(1) Die Verbreitung unter den Vornehmen und'
+  - line: 2039
+    quote: '3. Die Verbreitung im Militär1. Der Soldatenstand, der'
+  - line: 3686
+    quote: Drittes Kapitel.
+  - line: 4263
+    quote: '1. Palästina4.'
+  - line: 7370
+    quote: '7. Ägypten und die Thebais, Libyen und die Pentapolis1.'
+  - line: 13230
+    quote: '18. Africa, Numidien, Mauretanien, Tripolitana4.'
+  - line: 14498
+    quote: '19. Spanien1.'
+  - line: 14907
+    quote: Anhang I.
+  - line: 15105
+    quote: Anhang IL
+  - line: 15623
+    quote: Viertes Kapitel.
+  - line: 118
+    quote: '(I) Paulus, I Thess. 1, 8:'
+  - line: 1518
+    quote: '(2) Die Yerbreitung am Kaiserhof.'

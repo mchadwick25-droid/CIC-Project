@@ -799,3 +799,189 @@ None.
 ### Off-shelf (0)
 
 None.
+
+## don
+
+### Ambiguous (30)
+
+- `don.source.acts-council-of-carthage-under-cyprian-npnf214`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage-2`
+  - `npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on`
+- `don.source.augustine-answer-to-letters-of-petilian`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-answer-to-petilian`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-contra-cresconium`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.augustine-contra-epistulam-parmeniani`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.augustine-contra-gaudentium`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.augustine-correction-of-donatists-letter-185`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-correction-of-the-donatists`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-on-baptism-against-donatists`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-on-baptism-against-the-donatists`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-psalmus-contra-partem-donati`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.cyprian-de-unitate`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.cyprian-epistles`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.cyprian-seventh-council-of-carthage-rebaptism`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.lucilla-and-the-second-unnamed-woman`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.npnf-prolegomena-analysis-anti-donatist-writings`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.npnf104-prolegomena-analysis`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.optatus-against-donatists`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.optatus-against-the-donatists`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.optatus-appendix-of-documents`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.passio-donati-sermon`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii`
+- `don.source.passio-isaac-et-maximiani`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii`
+- `don.source.passio-marculi`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii`
+- `don.source.petilian-of-constantina-letters-quoted`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.petilian-of-constantina-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.petschenig-scripta-contra-donatistas-csel51-53`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.petschenig-scripta-contra-donatistas`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.seventh-council-of-carthage-256-anf05`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.ziwsa-critical-edition-optatus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia`
+  - `optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition`
+- `don.source.ziwsa-optatus-libri-vii-csel26`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia`
+  - `optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition`
+
+### Off-shelf (0)
+
+None.

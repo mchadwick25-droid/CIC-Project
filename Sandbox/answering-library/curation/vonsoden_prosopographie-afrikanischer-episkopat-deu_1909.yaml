@@ -1,0 +1,25 @@
+file: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
+scheme: 'von Soden''s section numerals 1 to 6, each printed as an arabic numeral and full stop at the head of a section''s first paragraph; the sections carry no printed titles'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: section
+    pattern: '^(?P<n>[1-6])\. ?"?(?:Unseren Ausgang|Wir gehen nunmehr|Endlich haben wir|Sicheres Zeugnis|Unter Berücksichtigung|Folgende Liste)'
+    locus: 'section{n}'
+    number: n
+ignore:
+  - pattern: '^(?:\d{3} )?[HIl][\.,]? ?[VY]\. ?SOD[EK]N$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+evidence:
+  - line: 68
+    quote: '1. Unseren Ausgang nehmen wir von der Liste der Sen-'
+  - line: 536
+    quote: '2. "Wir gehen nunmehr dazu über, die Liste der'
+  - line: 940
+    quote: '3. Endlich haben wir noch die in den bespro-'
+  - line: 1009
+    quote: '4. Sicheres Zeugnis für die Verbreitung des Christentums'
+  - line: 1152
+    quote: '6. Folgende Liste mag den Personalbestand des afrikani-'

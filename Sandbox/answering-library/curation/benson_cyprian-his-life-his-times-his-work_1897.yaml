@@ -1,0 +1,262 @@
+file: benson_cyprian-his-life-his-times-his-work_1897.txt
+scheme: 'Benson''s own structure as printed in his Contents: the Introduction, chapters I to XII printed as CHAPTER with a roman numeral, the numbered sections of each chapter printed as a roman numeral alone on a line above the section title, the numbered sub-parts and questions where the body prints them, and Appendices A to L'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 1215
+    locus: introduction
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 1880
+    locus: chapter1
+  - start_line: 1886
+    locus: chapter1/section1
+  - start_line: 2282
+    locus: chapter1/section2
+  - start_line: 2624
+    locus: chapter1/section3
+  - start_line: 2842
+    locus: chapter1/section4
+  - start_line: 2931
+    locus: chapter1/section5
+  - start_line: 3107
+    locus: chapter1/section6
+  - start_line: 3305
+    locus: chapter1/section7
+  - start_line: 3705
+    locus: chapter1/section8
+  - start_line: 3920
+    locus: chapter1/section9
+  - start_line: 4232
+    locus: chapter1/section10
+  - start_line: 4401
+    locus: chapter1/section11
+  - start_line: 4799
+    locus: chapter1/section12
+  - start_line: 5087
+    locus: chapter1/section13
+  - start_line: 5230
+    locus: chapter2
+  - start_line: 5236
+    locus: chapter2/section1
+  - start_line: 5429
+    locus: chapter2/section2
+  - start_line: 6046
+    locus: chapter2/section3
+  - start_line: 6575
+    locus: chapter2/section4
+  - start_line: 6687
+    locus: chapter2/section5
+  - start_line: 6802
+    locus: chapter2/section6
+  - start_line: 7108
+    locus: chapter2/section7
+  - start_line: 7313
+    locus: chapter2/section8
+  - start_line: 7573
+    locus: chapter2/section9
+  - start_line: 7696
+    locus: chapter2/section10
+  - start_line: 8307
+    locus: chapter2/section11
+  - start_line: 8945
+    locus: chapter3
+  - start_line: 8951
+    locus: chapter3/section1/question1
+  - start_line: 9104
+    locus: chapter3/section1/question2
+  - start_line: 9224
+    locus: chapter3/section1/question3
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 10126
+    locus: chapter3/section1/question3/picture1
+  - start_line: 10230
+    locus: chapter3/section1/question3/picture2
+  - start_line: 10390
+    locus: chapter3/section1/question3/picture3
+  - start_line: 10464
+    locus: chapter3/section1/question3/picture4
+  - start_line: 10532
+    locus: chapter3/section1/question4
+  - start_line: 10705
+    locus: chapter3/section2
+  - start_line: 10936
+    locus: chapter3/section3
+  - start_line: 11485
+    locus: chapter3/section4
+  - start_line: 11593
+    locus: chapter3/section5
+  - start_line: 11850
+    locus: chapter4
+  - start_line: 11854
+    locus: chapter4/section1
+  - start_line: 12148
+    locus: chapter4/section2
+  - start_line: 12176
+    locus: chapter4/section2/question1
+  - start_line: 12496
+    locus: chapter4/section2/question2
+  - start_line: 12834
+    locus: chapter4/section3
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 13906
+    locus: chapter5
+  - start_line: 13910
+    locus: chapter5/section1
+  - start_line: 14133
+    locus: chapter5/section2
+  - start_line: 14421
+    locus: chapter5/section3
+  - start_line: 14715
+    locus: chapter6
+  - start_line: 14719
+    locus: chapter6/section1
+  - start_line: 14723
+    locus: chapter6/section1/part1
+  - start_line: 14961
+    locus: chapter6/section1/part2
+  - start_line: 15302
+    locus: chapter6/section1/part3
+  - start_line: 15444
+    locus: chapter6/section2
+  - start_line: 15809
+    locus: chapter6/section3
+  - start_line: 16340
+    locus: chapter6/section4
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 17574
+    locus: chapter6/section5
+  - start_line: 18155
+    locus: chapter7
+  - start_line: 18159
+    locus: chapter7/section1
+  - start_line: 18472
+    locus: chapter7/section2
+  - start_line: 18657
+    locus: chapter7/section3
+  - start_line: 18861
+    locus: chapter7/section3/part1
+  - start_line: 19029
+    locus: chapter7/section3/part2
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 19868
+    locus: chapter8
+  - start_line: 20031
+    locus: chapter8/section1/part1
+  - start_line: 20280
+    locus: chapter8/section1/part2
+  - start_line: 20477
+    locus: chapter8/section2/part1
+  - start_line: 20784
+    locus: chapter8/section2/part2
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 23746
+    locus: chapter8/section3
+    allow_oversize: 'the numbered sub-parts 1 to 4 of this section appear in the Contents and the running heads but the body prints no heading line for them'
+  - start_line: 25016
+    locus: chapter8/section4
+  - start_line: 25683
+    locus: chapter9
+  - start_line: 25686
+    locus: chapter9/part1
+  - start_line: 26282
+    locus: chapter9/part2
+  - start_line: 26657
+    locus: chapter10
+  - start_line: 26660
+    locus: chapter10/section1
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 27929
+    locus: chapter10/section2
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 28884
+    locus: chapter11
+    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 30477
+    locus: chapter12
+  - start_line: 31127
+    locus: appendixA
+  - start_line: 31325
+    locus: appendixB
+  - start_line: 31537
+    locus: appendixC
+  - start_line: 31638
+    locus: appendixD
+  - start_line: 31690
+    locus: appendixE
+  - start_line: 31990
+    locus: appendixF
+  - start_line: 32301
+    locus: appendixG
+  - start_line: 32797
+    locus: appendixH
+  - start_line: 34609
+    locus: appendixI
+  - start_line: 34998
+    locus: appendixK
+  - start_line: 37988
+    locus: appendixL
+apparatus:
+  - lines: [39058, 40844]
+    kind: index
+    locus: index
+  - lines: [31127, 39057]
+    kind: notes
+    locus: appendices
+  - lines: [10, 1214]
+    kind: front
+    locus: front
+evidence:
+  - line: 1215
+    quote: 'INTRODUCTION.'
+  - line: 1880
+    quote: 'CHAPTER I.'
+  - line: 1886
+    quote: 'I.'
+  - line: 2282
+    quote: 'II.'
+  - line: 5236
+    quote: 'I.'
+  - line: 7696
+    quote: 'X.'
+  - line: 8307
+    quote: 'XI.'
+  - line: 8949
+    quote: 'I.'
+  - line: 9104
+    quote: 'Question 2. Decision oti Felictssimus.'
+  - line: 10126
+    quote: 'I. Cyprian before his own Presbyters.'
+  - line: 11854
+    quote: 'I.'
+  - line: 14719
+    quote: 'I.'
+  - line: 17574
+    quote: 'V. Ritual.'
+  - line: 18159
+    quote: 'I.'
+  - line: 20031
+    quote: 'I. I. The Tradition of Africa.'
+  - line: 20477
+    quote: 'II. I. Position of the Leaders.'
+  - line: 23746
+    quote: 'III. The Arguments.'
+  - line: 25016
+    quote: 'IV. Ecclesiastical Results. I. The Unbroken Unity.'
+  - line: 25686
+    quote: '(RESUMED).'
+  - line: 26282
+    quote: '2. ''Of Jealousy and Envy.'''
+  - line: 26660
+    quote: 'I. I. The Edict and its occasions.'
+  - line: 27929
+    quote: 'II. I. The Rescript.'
+  - line: 28884
+    quote: 'CHAPTER XI.'
+  - line: 30477
+    quote: 'CHAPTER XII.'
+  - line: 31127
+    quote: 'APPENDIX A.'
+  - line: 31690
+    quote: 'APPExNDIX E.'
+  - line: 37988
+    quote: 'APPENDIX L.'

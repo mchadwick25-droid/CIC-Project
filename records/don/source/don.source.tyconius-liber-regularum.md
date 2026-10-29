@@ -23,6 +23,7 @@ work: Liber Regularum (The Book of Rules)
 edition: F.C. Burkitt's 1894 critical edition (Registry row 41), vendored as cic/texts/tyconius_liber-regularum_burkitt1894.txt
 citation: Tyconius, Liber Regularum (The Book of Rules), ed. F.C. Burkitt (1894)
 kind: vendored
+shelf_row: tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'attributed to Tyconius. His formal standing within the Donatist communion is DELIBERATELY
   LEFT OPEN (Doc_01 SS4): the standard account holds that Parmenian and a Donatist council condemned him

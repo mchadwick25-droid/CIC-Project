@@ -1,0 +1,77 @@
+file: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
+scheme: 'Maurist chapters 1 to 27, each printed as "CHAPTER n." above the Latin text and its facing English translation (the two run together in one chapter division); the editor''s Commentary repeats the chapter numbers as "CHAPTER n" and is declared notes'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: chapter
+    pattern: '^CHAPTER (?P<n>\S+?)\.$'
+    lines: [1790, 6306]
+    locus: 'chapter{n|int}'
+    number: n
+    fixes:
+      - line: 3982
+        set: {n: '15'}
+      - line: 5210
+        set: {n: '22'}
+      - line: 5651
+        set: {n: '25'}
+      - line: 5976
+        set: {n: '26'}
+      - line: 6092
+        set: {n: '27'}
+  - id: commentary
+    pattern: '^CHAPTER (?P<n>\S+?)\.?$'
+    lines: [6307, 16634]
+    locus: 'commentary/chapter{n|int}'
+    ocr_map: {'l': '1', 'O': '0'}
+    number: n
+ignore:
+  - pattern: '^(?:\S{1,3} )?DE C\w+ ?RUDIBUS\S*:? CHAPT\w+ .{1,12}$'
+    kind: running-head
+  - pattern: '^(?:\S{1,5} )?COMMENTARY:? CHAPT\w+ .{1,16}$'
+    kind: running-head
+  - pattern: '^\S{1,5} THE CATHOLI\w+ UNIVERSITY OF AMERICA PATRIS\w+ STUDIES$'
+    kind: running-head
+apparatus:
+  - lines: [17335, 22442]
+    kind: index
+    locus: index
+  - lines: [17255, 17334]
+    kind: notes
+    locus: appendix
+  - lines: [16635, 17254]
+    kind: notes
+    locus: additional-notes
+  - lines: [6307, 16634]
+    kind: notes
+    locus: commentary
+  - lines: [10, 1789]
+    kind: front
+    locus: front
+evidence:
+  - line: 1790
+    quote: CHAPTER 1.
+  - line: 3982
+    quote: CHAPTER 195.
+  - line: 3974
+    quote: 'DE CATECHIZANDIS RUDIBUS: CHAPTERS 14, 15 67'
+  - line: 4061
+    quote: 'DE CATECHIZANDIS RUDIBUS: CHAPTEBS 15, 16 69'
+  - line: 5210
+    quote: CHAPTER 292.
+  - line: 5192
+    quote: 'DE CATEOHIZANDIS RUDIBUS: CHAPTERS 21, 22 95'
+  - line: 5651
+    quote: CHAPTER 225.
+  - line: 5624
+    quote: 'DE CATECHIZANDIS.RUDIBUS: CHAPTERS 24, 25 105'
+  - line: 5976
+    quote: CHAPTER 926.
+  - line: 5973
+    quote: 'DE CATECHIZANDIS RUDIBUS: CHAPTEB 26 118'
+  - line: 6092
+    quote: CHAPTER 927.
+  - line: 6153
+    quote: 'DE CATECHIZANDIS RUDIBUS8: CHAPTER 927 ri'
+  - line: 6319
+    quote: CHAPTER 1

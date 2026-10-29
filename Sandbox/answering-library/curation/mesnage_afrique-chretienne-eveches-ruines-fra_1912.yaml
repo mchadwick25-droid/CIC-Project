@@ -1,0 +1,4793 @@
+file: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
+scheme: 'Mesnage''s gazetteer of the African sees and ruins, arranged by the parts the Table des matières prints (I Tunisie et Tripolitaine with A. Évêchés non identifiés, II Algérie with its three départements Constantine, Alger and Oran and the lists B and C of unidentified sees, III Maroc, IV Appendices I and II, V Tables); inside each part the entries follow the alphabet and each entry opens with its place name; the edition prints no entry numbers (the More and Toul. numbers on the lists of unidentified sees are cross-references to Morcelli and to Toulotte, not entries of this book), so each entry is addressed by its printed place name and the line of its heading (<part>/<name>-<line>); the Préface, the lists of manuscripts and abbreviations, the Additions et corrections, the Tables and the Table des matières as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 58
+    locus: preface
+  - start_line: 1245
+    locus: tunisie
+  - start_line: 1248
+    locus: tunisie/carthage-carthago-1248
+    title: 'Carthage. = Carthago.'
+  - start_line: 2323
+    locus: tunisie/musee-lavigerie-2323
+    title: 'Musée Lavigerie.'
+  - start_line: 2338
+    locus: tunisie/abbeda-ksour-abidda-2338
+    title: 'Abbeda. (Ksour) = Abidda ?'
+  - start_line: 2360
+    locus: tunisie/abd-alia-bir-sululos-2360
+    title: 'Abd-Alia. (Bir) = Sululos.'
+  - start_line: 2365
+    locus: tunisie/abd-allah-melliti-sj-2365
+    title: 'Abd-Allah-Melliti. (Sj)'
+  - start_line: 2372
+    locus: tunisie/abd-el-krim-s-sabzia-2372
+    title: 'Abd-el-Krim. (S'') = Sabzia.'
+  - start_line: 2376
+    locus: tunisie/abd-el-melek-ksour-uzappa-ou-2376
+    title: 'Abd-el-Melek. (Ksour) = Uzappa ou Avsafa.'
+  - start_line: 2436
+    locus: tunisie/p-2436
+    title: 'P-'
+  - start_line: 2440
+    locus: tunisie/p-2440
+    title: 'P-'
+  - start_line: 2456
+    locus: tunisie/saladin-2456
+    title: 'Saladin.'
+  - start_line: 2504
+    locus: tunisie/abd-er-rahman-el-garsi-agger-2504
+    title: 'Abd er Rahman-el-Garsi. = Aggersel.'
+  - start_line: 2531
+    locus: tunisie/afeid-bir-el-2531
+    title: 'Afeid. (Bir el)'
+  - start_line: 2539
+    locus: tunisie/ahmar-ksar-el-2539
+    title: 'Ahmar. (Ksar el)'
+  - start_line: 2593
+    locus: tunisie/ahmera-hr-el-ou-el-hamira-cl-2593
+    title: 'Ahmera (Hr el) ou El Hamira. = Cluacaria.'
+  - start_line: 2636
+    locus: tunisie/ain-kedim-hr-2636
+    title: 'Aïn Kedim. (Hr)'
+  - start_line: 2647
+    locus: tunisie/aiounet-el-ad-palmam-2647
+    title: 'Aiounet. (El) = Ad Palmam ?'
+  - start_line: 2655
+    locus: tunisie/akhnim-hr-bir-el-sauna-2655
+    title: 'Akhnim. (Hr bir el) = Sauna.'
+  - start_line: 2664
+    locus: tunisie/ala-el-2664
+    title: 'Ala. (El)'
+  - start_line: 2671
+    locus: tunisie/alaouine-ou-alouenine-sicili-2671
+    title: 'Alaouine ou Alouenine. = Sicilibba municip.'
+  - start_line: 2703
+    locus: tunisie/alia-el-uzalis-coj-2703
+    title: 'Alia. (El) = Uzalis coJ.'
+  - start_line: 2766
+    locus: tunisie/alia-el-achulla-2766
+    title: 'Alia. (El) = Achulla.'
+  - start_line: 2786
+    locus: tunisie/ali-bel-kassem-s-thuburnica-2786
+    title: 'Ali bel Kassem. (S'') = Thuburnica col.'
+  - start_line: 2819
+    locus: tunisie/ali-bel-kassem-hni-ad-aquas-2819
+    title: 'Ali bel Kassem. (Hni) = Ad Aquas.'
+  - start_line: 2827
+    locus: tunisie/ali-ben-amar-s-2827
+    title: 'Ali ben Amar. (S'')'
+  - start_line: 2836
+    locus: tunisie/ali-ben-amara-bir-2836
+    title: 'Ali ben Amara. (Bir)'
+  - start_line: 2843
+    locus: tunisie/ali-ben-brahim-sidi-2843
+    title: 'Ali ben Brahim. (Sidi)'
+  - start_line: 2878
+    locus: tunisie/ali-el-hachani-dar-2878
+    title: 'Ali el Hachani. (Dar)'
+  - start_line: 2889
+    locus: tunisie/ali-es-sedfini-s-thimida-reg-2889
+    title: 'Ali es Sedfini. (S'') == Thimida regia ?'
+  - start_line: 2925
+    locus: tunisie/alouenine-hr-el-sicilibba-2925
+    title: 'Alouénine. (Hr el) = Sicilibba.'
+  - start_line: 2932
+    locus: tunisie/amara-s-aggar-2932
+    title: 'Amara. (S») = Aggar?'
+  - start_line: 2987
+    locus: tunisie/amara-s-avioccala-2987
+    title: 'Amara. (S'') — Avioccala.'
+  - start_line: 3013
+    locus: tunisie/amara-hr-s-ad-atticiu-k-3013
+    title: 'Amara. (Hr S'') = Ad Atticiu.k.'
+  - start_line: 3019
+    locus: tunisie/amor-bou-hadjela-s-3019
+    title: 'Amor bou Hadjela. (S'')'
+  - start_line: 3025
+    locus: tunisie/amor-el-djedidi-s-zama-major-3025
+    title: 'Amor el Djedidi. (S'') — Zama Major ?'
+  - start_line: 3061
+    locus: tunisie/amri-bordj-el-3061
+    title: 'Amri, (Bordj el)'
+  - start_line: 3074
+    locus: tunisie/amri-hr-el-picus-3074
+    title: 'Amri. (Hr el) == Picus.'
+  - start_line: 3158
+    locus: tunisie/archioua-bled-3158
+    title: 'Archioua. (Bled)'
+  - start_line: 3172
+    locus: tunisie/ater-bir-cl-3172
+    title: 'Ater. (Bir cl)'
+  - start_line: 3186
+    locus: tunisie/azreg-kef-cl-3186
+    title: 'Azreg. (Kef cl)'
+  - start_line: 3193
+    locus: tunisie/badi-koubba-s-3193
+    title: 'Badi. (Koubba S")'
+  - start_line: 3212
+    locus: tunisie/baghla-hr-el-aquje-de-procon-3212
+    title: 'Baghla. (Hr el) = Aquje de Proconsulaire?'
+  - start_line: 3235
+    locus: tunisie/baguel-hr-el-timezegeri-3235
+    title: 'Baguel. (Hr el) = Timezegeri?'
+  - start_line: 3264
+    locus: tunisie/bahia-ou-behaia-hr-3264
+    title: 'Bahia ou Behaïa. (Hr)'
+  - start_line: 3291
+    locus: tunisie/bandou-hr-vinda-on-binda-vie-3291
+    title: 'Bandou. (Hr) = Vinda on Binda viens.'
+  - start_line: 3315
+    locus: tunisie/barchouoh-ain-3315
+    title: 'Barchouoh, (Ain)'
+  - start_line: 3320
+    locus: tunisie/baroud-hr-el-3320
+    title: 'Baroud. (Hr el)'
+  - start_line: 3327
+    locus: tunisie/batria-hr-bija-civ-biiensis-3327
+    title: 'Bâtria. (Hr) = Bija, Civ. Biiensis.'
+  - start_line: 3337
+    locus: tunisie/bechateur-3337
+    title: 'Bechateur.'
+  - start_line: 3420
+    locus: tunisie/jull-nus-ut-supra-3420
+    title: 'JULL\NUS (ut supra).'
+  - start_line: 3432
+    locus: tunisie/beker-bou-neferis-civ-3432
+    title: 'Beker. (bou) = Neferis civ.'
+  - start_line: 3444
+    locus: tunisie/bel-ait-tepeltense-oppidum-3444
+    title: 'Bel Aït, = Tepeltense Oppidum.'
+  - start_line: 3453
+    locus: tunisie/belli-bled-3453
+    title: 'Belli. (bled)'
+  - start_line: 3461
+    locus: tunisie/benia-el-3461
+    title: 'Benia. (El)'
+  - start_line: 3491
+    locus: tunisie/bettiour-hr-3491
+    title: 'Bettiour. (Hr)'
+  - start_line: 3500
+    locus: tunisie/bez-hr-vazi-saura-ci-3500
+    title: 'Bez. (Hr) = Vazi Saura ci».'
+  - start_line: 3518
+    locus: tunisie/bezirt-h-r-de-l-oued-3518
+    title: 'Bezirt. (H. R., de L''Oued)'
+  - start_line: 3543
+    locus: tunisie/bit-el-assa-3543
+    title: 'Bit el Assa.'
+  - start_line: 3550
+    locus: tunisie/bizerte-hippo-diarrhytus-3550
+    title: 'Bizerte. = Hippo Diarrhytus.'
+  - start_line: 3607
+    locus: tunisie/blida-h-el-skptimukicia-3607
+    title: 'Blida. (H. el) == Skptimukicia ?'
+  - start_line: 3611
+    locus: tunisie/bordj-bou-djadi-voir-djadi-3611
+    title: 'Bordj bou Djadi. (Voir Djadi)'
+  - start_line: 3614
+    locus: tunisie/bordj-el-youdi-3614
+    title: 'Bordj el Youdi.'
+  - start_line: 3641
+    locus: tunisie/boudja-hr-limisa-3641
+    title: 'Boudja. (Hr) = Limisa ?'
+  - start_line: 3665
+    locus: tunisie/brahim-riah-3665
+    title: 'Brahim Riah.'
+  - start_line: 3676
+    locus: tunisie/bridjou-ksar-3676
+    title: 'Bridjou. (Ksar)'
+  - start_line: 3681
+    locus: tunisie/brighita-hp-ou-brereita-civ-3681
+    title: 'Brighita (Hp) ou Brereita. = Civ. Suct...'
+  - start_line: 3688
+    locus: tunisie/brika-h-3688
+    title: 'Brika. (H'')'
+  - start_line: 3694
+    locus: tunisie/cedria-bordj-gummi-de-procon-3694
+    title: 'Cedria. (bordj) = Gummi de Proconsulaire.'
+  - start_line: 3728
+    locus: tunisie/cha-bon-ou-fraxine-ter-munic-3728
+    title: 'Cha (bon) ou Fraxine. = Ter,... municip. Aurel.'
+  - start_line: 3742
+    locus: tunisie/chaffai-hr-3742
+    title: 'Chaffaï. (Hr)'
+  - start_line: 3749
+    locus: tunisie/chahoud-abitinaei-3749
+    title: 'Chahoud. = Abitinaeî'
+  - start_line: 3825
+    locus: tunisie/chahoud-el-batel-3825
+    title: 'Chahoud el Batel.'
+  - start_line: 3835
+    locus: tunisie/chaouach-sua-viunicip-3835
+    title: 'Chaouach, = Sua viunicip.'
+  - start_line: 3844
+    locus: tunisie/chateur-bon-utica-3844
+    title: 'Chateur. (bon) = Utica.'
+  - start_line: 3932
+    locus: tunisie/chelga-h-3932
+    title: 'Chelga. (H'')'
+  - start_line: 3941
+    locus: tunisie/chemtou-simitthu-col-3941
+    title: 'Chemtou. = Simitthu col.'
+  - start_line: 3950
+    locus: tunisie/eveche-more-dxiii-toul-proc-3950
+    title: 'Ëvêché. More., DXIII. — Toul., Proc, GVIII.'
+  - start_line: 3983
+    locus: tunisie/cherchouch-ain-3983
+    title: 'Cherchouch. (Ain)'
+  - start_line: 4066
+    locus: tunisie/chiri-hr-ech-4066
+    title: 'Chiri. (Hr ech)'
+  - start_line: 4073
+    locus: tunisie/chobta-h-4073
+    title: 'Chobta. (H'')'
+  - start_line: 4086
+    locus: tunisie/corbeus-hm-aquae-carpitanab-4086
+    title: 'Corbeus. (Hm) — àquae Carpitanab.'
+  - start_line: 4097
+    locus: tunisie/crich-el-oued-thisiduo-oppid-4097
+    title: 'Crich el Oued. = Thisiduo Oppidum.'
+  - start_line: 4111
+    locus: tunisie/dabbous-dechra-bon-4111
+    title: 'Dabbous. (Dechra bon)'
+  - start_line: 4119
+    locus: tunisie/dagla-siminina-4119
+    title: 'Dagla. = Siminina?'
+  - start_line: 4124
+    locus: tunisie/dakhla-hr-ed-buruni-4124
+    title: 'Dakhla. (Hr ed) — Buruni.'
+  - start_line: 4157
+    locus: tunisie/dar-el-hadj-hassan-4157
+    title: 'Dar el Hadj Hassan.'
+  - start_line: 4164
+    locus: tunisie/debbik-hr-municip-septim-4164
+    title: 'Debbik. (Hr) = Municip. Septim...'
+  - start_line: 4170
+    locus: tunisie/dermoulya-hr-coreva-4170
+    title: 'Dermoulya. (Hr) = Coreva.'
+  - start_line: 4178
+    locus: tunisie/derradj-ou-darradji-hm-bulla-4178
+    title: 'Derradj ou Darradji. (Hm) = Bulla Regia.'
+  - start_line: 4244
+    locus: tunisie/derradj-boni-vita-4244
+    title: 'Derradj. (Boni) = Vita ?'
+  - start_line: 4263
+    locus: tunisie/diab-hr-bon-4263
+    title: 'Diab. (Hr bon)'
+  - start_line: 4271
+    locus: tunisie/djadi-bordj-bou-ucres-4271
+    title: 'Djadi. (Bordj bou) = Ucres.'
+  - start_line: 4311
+    locus: tunisie/djadja-ain-ed-4311
+    title: 'Djadja. (Ain ed)'
+  - start_line: 4317
+    locus: tunisie/djama-zama-minor-4317
+    title: 'Djama. = Zama minor?'
+  - start_line: 4333
+    locus: tunisie/djebba-thigirra-bure-4333
+    title: 'Djebba. = Thigirra Bure.'
+  - start_line: 4341
+    locus: tunisie/djebeliana-4341
+    title: 'Djebeliana.'
+  - start_line: 4348
+    locus: tunisie/djelida-hr-bou-bacchuiana-ge-4348
+    title: 'Djelida. (Hr bou) = Bacchuiana gens.'
+  - start_line: 4363
+    locus: tunisie/djellal-hr-ou-s-hassan-cheri-4363
+    title: 'Djellal (Hr) ou S'' Hassan Chérif.'
+  - start_line: 4374
+    locus: tunisie/djelloul-douar-4374
+    title: 'Djelloul. (douar)'
+  - start_line: 4384
+    locus: tunisie/djeloula-ain-cululi-4384
+    title: 'Djeloula. (Aïn) = Cululi?'
+  - start_line: 4434
+    locus: tunisie/djem-el-thysdrus-4434
+    title: 'Djem. (El) == Thysdrus.'
+  - start_line: 4482
+    locus: tunisie/djemel-hr-el-4482
+    title: 'Djemel. (Hr el)'
+  - start_line: 4504
+    locus: tunisie/djena-bou-4504
+    title: 'Djena. (bou)'
+  - start_line: 4511
+    locus: tunisie/djendouba-vinaza-4511
+    title: 'Djendouba. = Vinaza.'
+  - start_line: 4524
+    locus: tunisie/djenna-oum-4524
+    title: 'Djenna. (Oum)'
+  - start_line: 4528
+    locus: tunisie/djerba-insula-meninx-postea-4528
+    title: 'Djerba. = Insula Meninx, postea Girba.'
+  - start_line: 4638
+    locus: tunisie/djiama-ou-djama-4638
+    title: 'Djiama ou Djama.'
+  - start_line: 4657
+    locus: tunisie/douames-hr-uchi-majus-4657
+    title: 'Douâmes. (Hr) = Uchi majus.'
+  - start_line: 4734
+    locus: tunisie/douela-mizigitanum-munie-4734
+    title: 'Douéla. = Mizigitanum munie.'
+  - start_line: 4753
+    locus: tunisie/dougga-thugga-munie-sept-aur-4753
+    title: 'Dougga. == Thugga munie. Sept. Aurel. Ldberum.'
+  - start_line: 4755
+    locus: tunisie/ensuite-col-licinia-sept-aur-4755
+    title: 'Ensuite Col. Licinia Sept. Aurel. Alex.'
+  - start_line: 4850
+    locus: tunisie/dougga-hr-thugga-terebenthin-4850
+    title: 'Dougga. (Hr) = Thugga Terebenthina'
+  - start_line: 4861
+    locus: tunisie/doukhan-hr-bou-madarsuma-4861
+    title: 'Doukhan. (Hr bou) = Madarsuma?'
+  - start_line: 4868
+    locus: tunisie/dour-r-r-cludj-4868
+    title: 'Dour. (R. R. cluDj.)'
+  - start_line: 4876
+    locus: tunisie/dourat-ain-ucgula-manie-4876
+    title: 'Dourat. (Ain) == Ucgula manie.'
+  - start_line: 4891
+    locus: tunisie/douz-oasis-de-4891
+    title: 'Douz. (Oasis de)'
+  - start_line: 4904
+    locus: tunisie/douza-garaet-ecl-4904
+    title: 'Douza. (Garaet ecl)'
+  - start_line: 4910
+    locus: tunisie/draa-bellouan-cebar-4910
+    title: 'Drâa Bellouan. = Cebar ?'
+  - start_line: 4917
+    locus: tunisie/draa-el-gamra-toritana-civit-4917
+    title: 'Drâa el Gamra. = (toritana civit.'
+  - start_line: 4944
+    locus: tunisie/dries-ain-ou-hr-bon-4944
+    title: 'Driès. (Aïn ou Hr bon)'
+  - start_line: 4958
+    locus: tunisie/dzemda-semta-ou-zemta-munie-4958
+    title: 'Dzemda. = Semta ou Zemta. (Munie. Aug.)'
+  - start_line: 4970
+    locus: tunisie/ebba-obba-4970
+    title: 'Ebba. = Obba?'
+  - start_line: 5005
+    locus: tunisie/ellez-5005
+    title: 'Ellez.'
+  - start_line: 5011
+    locus: tunisie/enfida-ville-5011
+    title: 'Enfida ville.'
+  - start_line: 5025
+    locus: tunisie/fahs-pont-du-5025
+    title: 'Fahs. (Pont du)'
+  - start_line: 5058
+    locus: tunisie/fatha-ksar-bon-5058
+    title: 'Fatha. (Ksar bon)'
+  - start_line: 5065
+    locus: tunisie/fenidek-debdeba-un-5065
+    title: 'Fenidek Debdeba. (Un'
+  - start_line: 5069
+    locus: tunisie/ferada-iircl-5069
+    title: 'Ferada. (IIrcl)'
+  - start_line: 5085
+    locus: tunisie/feriana-5085
+    title: 'Feriana.'
+  - start_line: 5091
+    locus: tunisie/fernana-5091
+    title: 'Fernana.'
+  - start_line: 5097
+    locus: tunisie/ferryville-s-abdallah-bassia-5097
+    title: 'Ferryville. (S'' Abdallah) = Bassiana ou BaLe.'
+  - start_line: 5153
+    locus: tunisie/bordj-ham-donna-5153
+    title: 'Bordj Ham donna.'
+  - start_line: 5160
+    locus: tunisie/ficha-bou-5160
+    title: 'Ficha, (bou)'
+  - start_line: 5176
+    locus: tunisie/fiedh-el-pisida-municip-5176
+    title: 'Fiedh. (El) = Pisida municip. >.'
+  - start_line: 5183
+    locus: tunisie/fodra-hr-oum-5183
+    title: 'Fodra. (Hr Oum)'
+  - start_line: 5219
+    locus: tunisie/fowara-bip-el-ou-djerado-bir-5219
+    title: 'Fowara (bip el) ou Djerado. = Birae ?'
+  - start_line: 5234
+    locus: tunisie/fraga-hr-5234
+    title: 'Fraga, (Hr)'
+  - start_line: 5238
+    locus: tunisie/frass-hr-ctillium-5238
+    title: 'Frass. (Hr) = Ctillium.'
+  - start_line: 5255
+    locus: tunisie/ftis-bou-avitta-bibba-munie-5255
+    title: 'Ftis. (bou) = Avitta Bibba munie.'
+  - start_line: 5284
+    locus: tunisie/furna-mta-sgralma-5284
+    title: 'Furna mta Sgralma.'
+  - start_line: 5288
+    locus: tunisie/gabel-zaaba-5288
+    title: 'Gabel Zaâba.'
+  - start_line: 5295
+    locus: tunisie/gabes-tacapak-5295
+    title: 'Gabès. = Tacapak.'
+  - start_line: 5334
+    locus: tunisie/gaffour-bordj-5334
+    title: 'Gaffour. (Bordj)'
+  - start_line: 5419
+    locus: tunisie/garba-h-el-5419
+    title: 'Garba. (H'' el)'
+  - start_line: 5424
+    locus: tunisie/gasseur-ain-el-5424
+    title: 'Gasseur. (Ain el)'
+  - start_line: 5431
+    locus: tunisie/gasseur-tatoun-5431
+    title: 'Gasseur Tatoun.'
+  - start_line: 5436
+    locus: tunisie/ghanem-djedidi-hr-bon-5436
+    title: 'Ghanem Djedidi. (Hr bon)'
+  - start_line: 5449
+    locus: tunisie/ghardimaou-5449
+    title: 'Ghardimaou.'
+  - start_line: 5466
+    locus: tunisie/gheria-hr-el-ou-mieux-furna-5466
+    title: 'Gheria (Hr el) ou mieux Furna. = Mutia.'
+  - start_line: 5480
+    locus: tunisie/ghorassen-bir-5480
+    title: 'Ghorassen. (Bir)'
+  - start_line: 5489
+    locus: tunisie/ghorib-hr-macomades-minores-5489
+    title: 'Ghorib. (Hr) = Macomades minores.'
+  - start_line: 5496
+    locus: tunisie/ghrara-salem-bou-gigthi-muni-5496
+    title: 'Ghrara. (Salem bou) = Gigthi municip.'
+  - start_line: 5524
+    locus: tunisie/ginea-hr-bon-5524
+    title: 'Ginéa. (Hr bon)'
+  - start_line: 5530
+    locus: tunisie/glelal-ou-ghelal-ain-5530
+    title: 'Glélal ou Ghelal. (Aïn)'
+  - start_line: 5536
+    locus: tunisie/gobet-el-gheffari-bordj-5536
+    title: 'Gobet el Gheffari. (Bordj)'
+  - start_line: 5544
+    locus: tunisie/golea-ain-5544
+    title: 'Goléa. (Aïn)'
+  - start_line: 5550
+    locus: tunisie/golib-el-kedim-gellk-picenti-5550
+    title: 'Golib el Kedim. = Gellk Picentinje?'
+  - start_line: 5580
+    locus: tunisie/goubeul-h-5580
+    title: 'Goubeul. (H'')'
+  - start_line: 5598
+    locus: tunisie/goulette-la-ligula-5598
+    title: 'Goulette. (la) = Ligula.'
+  - start_line: 5612
+    locus: tunisie/gourbata-bordj-thiges-5612
+    title: 'Gourbata. (bordj) = Thiges.'
+  - start_line: 5639
+    locus: tunisie/graa-h-el-5639
+    title: 'Grâa. (H'' el)'
+  - start_line: 5644
+    locus: tunisie/grombalia-5644
+    title: 'Grombalia.'
+  - start_line: 5648
+    locus: tunisie/grande-lampe-chret-a-deux-li-5648
+    title: 'Grande lampe chrét. à deux lices. Toulotte.'
+  - start_line: 5651
+    locus: tunisie/guedah-ceder-bezereos-5651
+    title: 'Guedah Céder. = Bezereos?'
+  - start_line: 5657
+    locus: tunisie/guemouda-5657
+    title: 'Guemouda.'
+  - start_line: 5665
+    locus: tunisie/guennara-hr-marazanae-5665
+    title: 'Guennara. (Hr) = Marazanae?'
+  - start_line: 5671
+    locus: tunisie/carte-au-m-m-feuille-hadjeb-5671
+    title: 'Carte au m)\m) . Feuille Hadjeb el Aïoun'
+  - start_line: 5676
+    locus: tunisie/guerba-h-bon-5676
+    title: 'Guerba. (H'' bon)'
+  - start_line: 5689
+    locus: tunisie/guergour-masculula-5689
+    title: 'Guergour. = Masculula.'
+  - start_line: 5725
+    locus: tunisie/haddad-hr-el-seggo-5725
+    title: 'Haddad. (Hr el) = Seggo ?'
+  - start_line: 5731
+    locus: tunisie/hadjadj-khanguet-el-sorar-5731
+    title: 'Hadjadj. (Khanguet el) == Sorar ?'
+  - start_line: 5743
+    locus: tunisie/hadid-ksar-el-avula-5743
+    title: 'Hadid. (Ksar el) = Avula ?'
+  - start_line: 5747
+    locus: tunisie/hadj-bou-baker-bordj-el-civ-5747
+    title: 'Hadj bou Baker, (bordj el) = Civ. Geumitanorum.'
+  - start_line: 5796
+    locus: tunisie/hadjela-coudiat-el-5796
+    title: 'Hadjela. (Coudiat el)'
+  - start_line: 5802
+    locus: tunisie/hafei-bir-el-nara-5802
+    title: 'Hafeï. (bir el) = Nara \'
+  - start_line: 5829
+    locus: tunisie/hagueuf-el-ou-ksar-khelane-t-5829
+    title: 'Hagueuf (el) ou Ksar Khelane. = Tisavar.'
+  - start_line: 5916
+    locus: tunisie/haira-r-r-du-dj-5916
+    title: 'Haïra. (R. R. du Dj.)'
+  - start_line: 5950
+    locus: tunisie/hallou-ksar-bon-5950
+    title: 'Hallou. (Ksar bon)'
+  - start_line: 5989
+    locus: tunisie/hamma-el-de-tozeur-aqlm-5989
+    title: 'Hamma (el) de Tozéur. = Aqlm:.'
+  - start_line: 6004
+    locus: tunisie/hammam-el-aquae-tacapitanab-6004
+    title: 'Hammam. (El) = Aquae Tacapitanab.'
+  - start_line: 6012
+    locus: tunisie/hammam-ain-el-pagus-trisipen-6012
+    title: 'Hammam. (Aïn el) = Pagus Trisipensis.'
+  - start_line: 6032
+    locus: tunisie/hammam-darradji-6032
+    title: 'Hammam Darradji.'
+  - start_line: 6035
+    locus: tunisie/hammam-lif-naro-aquae-persia-6035
+    title: 'Hammam Lif. = Naro? Aquae Persianae.'
+  - start_line: 6095
+    locus: tunisie/harairia-el-ad-pertusa-6095
+    title: 'Haraïria. (El) = Ad Pertusa.'
+  - start_line: 6114
+    locus: tunisie/harat-el-segermes-munie-6114
+    title: 'Harat. (El) — Segermes munie'
+  - start_line: 6167
+    locus: tunisie/hassan-ou-hassein-beni-aggar-6167
+    title: 'Hassan ou Hassein. (Béni) = Aggar?'
+  - start_line: 6188
+    locus: tunisie/hassen-beni-6188
+    title: 'Hassen. (Béni)'
+  - start_line: 6199
+    locus: tunisie/hatba-hr-el-ver-rona-fandus-6199
+    title: 'Hatba. (Hr el) = Ver(rona) fandus.'
+  - start_line: 6213
+    locus: tunisie/hedja-ain-agria-6213
+    title: 'Hedja. (Aïn) = Agria.'
+  - start_line: 6240
+    locus: tunisie/helal-bordj-6240
+    title: 'Helal. (Bordj)'
+  - start_line: 6255
+    locus: tunisie/helal-ksar-6255
+    title: 'Helal. (Ksar)'
+  - start_line: 6264
+    locus: tunisie/helal-ksar-6264
+    title: 'Helal. (Ksar)'
+  - start_line: 6281
+    locus: tunisie/hercha-bled-el-6281
+    title: 'Hercha. (Bled el)'
+  - start_line: 6303
+    locus: tunisie/aqu-e-regle-6303
+    title: 'Aqu^e Règle.'
+  - start_line: 6321
+    locus: tunisie/aquae-albae-6321
+    title: 'Aquae Albae.'
+  - start_line: 6339
+    locus: tunisie/hergla-horrea-goelia-6339
+    title: 'Hergla. = Horrea Goelia.'
+  - start_line: 6398
+    locus: tunisie/heuch-bir-el-sululos-munie-6398
+    title: 'Heuch. (bir el) = Sululos munie.'
+  - start_line: 6421
+    locus: tunisie/holba-6421
+    title: 'Holba.'
+  - start_line: 6428
+    locus: tunisie/inchilla-usula-table-de-peut-6428
+    title: 'Inchilla. == Usula. (Table de Peutinger.)'
+  - start_line: 6465
+    locus: tunisie/kaddour-ben-ach-hr-6465
+    title: 'Kaddour ben Ach. (Hr)'
+  - start_line: 6519
+    locus: tunisie/kairouan-6519
+    title: 'Kairouan.'
+  - start_line: 6536
+    locus: tunisie/kairouan-pres-de-jubaltiana-6536
+    title: 'Kairouan. (près de) = Jubaltiana ?'
+  - start_line: 6554
+    locus: tunisie/kalaa-environs-de-douz-6554
+    title: 'Kalâa. (Environs de Douz.)'
+  - start_line: 6561
+    locus: tunisie/kalaa-kebira-ou-akouda-gurza-6561
+    title: 'Kalâa Kebira ou Akouda. = Gurza?'
+  - start_line: 6580
+    locus: tunisie/kalaat-es-senam-6580
+    title: 'Kalâat es Senam.'
+  - start_line: 6596
+    locus: tunisie/kantara-el-memnx-6596
+    title: 'Kantara. (El) = Memnx.'
+  - start_line: 6603
+    locus: tunisie/kasbat-hr-el-thuburbo-majus-6603
+    title: 'Kasbat. (Hr el) = Thuburbo màjus.'
+  - start_line: 6605
+    locus: tunisie/col-jul-a-un-commoda-6605
+    title: 'Col. Jul. A un/. Commoda.'
+  - start_line: 6644
+    locus: tunisie/ksar-el-ahmar-6644
+    title: 'Ksar el Ahmar.'
+  - start_line: 6650
+    locus: tunisie/kasrine-cillium-colonia-6650
+    title: 'Kasrine. = Cillium colonia.'
+  - start_line: 6701
+    locus: tunisie/kaussat-hr-ucubi-6701
+    title: 'Kaussat. Hr = Ucubi.'
+  - start_line: 6708
+    locus: tunisie/kebeur-el-ghoul-autipsida-6708
+    title: 'Kebeur el Ghoul. = Autipsida ?'
+  - start_line: 6712
+    locus: tunisie/kebeur-el-khadem-6712
+    title: 'Kebeur el Khadem.'
+  - start_line: 6720
+    locus: tunisie/kef-le-sicca-veneria-6720
+    title: 'Kef. (le) = Sicca Veneria.'
+  - start_line: 6846
+    locus: tunisie/kenais-iles-genas-6846
+    title: 'Kenaïs. (îles) = Gênas ?'
+  - start_line: 6867
+    locus: tunisie/kenisia-el-6867
+    title: 'Kenisia. (El)'
+  - start_line: 6883
+    locus: tunisie/kerin-bon-girna-6883
+    title: 'Kerin. (bon) = Girna.'
+  - start_line: 6897
+    locus: tunisie/kerkenna-iles-cercina-6897
+    title: 'Kerkenna. (iles) = Cercina.'
+  - start_line: 6916
+    locus: tunisie/kerkouane-6916
+    title: 'Kerkouane.'
+  - start_line: 6939
+    locus: tunisie/kessera-ghusira-6939
+    title: 'Kessera. = Ghusira.'
+  - start_line: 6956
+    locus: tunisie/ketib-hr-el-6956
+    title: 'Ketib. (Hr el)'
+  - start_line: 7007
+    locus: tunisie/khalifa-s-ou-hr-fradis-aphro-7007
+    title: 'Khalifa (S'') ou Hr Fradis. == Aphrodisium.'
+  - start_line: 7011
+    locus: tunisie/khanguet-el-kedim-drusiliana-7011
+    title: 'Khanguet el Kedim. = Drusiliana?'
+  - start_line: 7027
+    locus: tunisie/khanguet-el-ksour-7027
+    title: 'Khanguet el Ksour.'
+  - start_line: 7032
+    locus: tunisie/khaoua-ksour-el-7032
+    title: 'Khaoua. (Ksour el)'
+  - start_line: 7036
+    locus: tunisie/kharroub-hr-el-gales-7036
+    title: 'Kharroub. (Hr el) = Gales.'
+  - start_line: 7050
+    locus: tunisie/khechem-artsouma-7050
+    title: 'Khechem Artsouma.'
+  - start_line: 7057
+    locus: tunisie/khechem-el-kelb-garaat-7057
+    title: 'Khechem el Kelb, (Garaat)'
+  - start_line: 7059
+    locus: tunisie/route-de-gillium-a-thelepte-7059
+    title: 'Route de Gillium à Thelepte.'
+  - start_line: 7064
+    locus: tunisie/khelane-ksar-7064
+    title: 'Khelane. (Ksar)'
+  - start_line: 7083
+    locus: tunisie/khima-mta-darrouia-haoueh-7083
+    title: 'Khima mta Darrouia. (Haoueh)'
+  - start_line: 7099
+    locus: tunisie/kiss-ii-el-7099
+    title: 'Kiss. (II'''' el)'
+  - start_line: 7109
+    locus: tunisie/kouchbatiha-hr-thimida-rure-7109
+    title: 'Kouchbatiha. (Hr) — Thimida rure.'
+  - start_line: 7125
+    locus: tunisie/kouki-h-el-7125
+    title: 'Kouki. (H'''' el)'
+  - start_line: 7139
+    locus: tunisie/kourba-cururis-col-julia-7139
+    title: 'Kourba, = Cururis Col. Julia.'
+  - start_line: 7158
+    locus: tunisie/koutin-augarmi-7158
+    title: 'Koutin, = Augarmi.'
+  - start_line: 7175
+    locus: tunisie/kramet-h-7175
+    title: 'Kramet. (H»)'
+  - start_line: 7182
+    locus: tunisie/ksar-el-7182
+    title: 'Ksar. (El)'
+  - start_line: 7186
+    locus: tunisie/ksour-hr-el-sassura-7186
+    title: 'Ksour. (Hr el) = Sassura.'
+  - start_line: 7194
+    locus: tunisie/ksour-h-el-7194
+    title: 'Ksour. (H«" el)'
+  - start_line: 7205
+    locus: tunisie/ksouria-hr-el-7205
+    title: 'Ksouria. (Hr el)'
+  - start_line: 7210
+    locus: tunisie/laabed-hr-thunigara-7210
+    title: 'Laabed. (Hr) = Thunigara.'
+  - start_line: 7218
+    locus: tunisie/laslaa-ho-7218
+    title: 'Laslâa. (HO'
+  - start_line: 7226
+    locus: tunisie/lebda-leptis-magna-7226
+    title: 'Lebda. = Leptis Magna.'
+  - start_line: 7268
+    locus: tunisie/lemsa-ain-7268
+    title: 'Lemsa. (Aïn)'
+  - start_line: 7272
+    locus: tunisie/lemta-lepti-minus-7272
+    title: 'Lemta. = Lepti minus.'
+  - start_line: 7364
+    locus: tunisie/mactar-mactaris-7364
+    title: 'Mactar. = Mactaris.'
+  - start_line: 7423
+    locus: tunisie/madjouba-tituli-de-proconsul-7423
+    title: 'Madjouba. = Tituli de Proconsulaire.'
+  - start_line: 7444
+    locus: tunisie/maghfoura-hr-7444
+    title: 'Maghfoura. (Hr)'
+  - start_line: 7452
+    locus: tunisie/magra-bir-thibica-munir-7452
+    title: 'Magra. (Bir) = Thibica munir.'
+  - start_line: 7466
+    locus: tunisie/mahares-macomades-minores-7466
+    title: 'Maharès. = Macomades minores.'
+  - start_line: 7470
+    locus: tunisie/maieta-ksour-el-germaniciana-7470
+    title: 'Maïeta. (Ksour el) = Germaniciana ?'
+  - start_line: 7482
+    locus: tunisie/maja-ain-7482
+    title: 'Maja. (Aïn)'
+  - start_line: 7523
+    locus: tunisie/mams-ou-mems-mamma-7523
+    title: 'Mams ou Mems = Mamma.'
+  - start_line: 7539
+    locus: tunisie/margui-ksar-7539
+    title: 'Margui. (Ksar)'
+  - start_line: 7548
+    locus: tunisie/marie-du-zit-ste-ou-oued-rem-7548
+    title: 'Marie du Zit (Ste) ou Oued Remel.'
+  - start_line: 7562
+    locus: tunisie/marja-pres-de-ain-el-7562
+    title: 'Marja. (près de Aïn el)'
+  - start_line: 7575
+    locus: tunisie/mateur-materense-oppidum-7575
+    title: 'Mateur. = Materense oppidum.'
+  - start_line: 7596
+    locus: tunisie/matmata-bordj-des-7596
+    title: 'Matmata. (Bordj des)'
+  - start_line: 7663
+    locus: tunisie/mcherga-bip-giufi-7663
+    title: 'Mcherga. (Bip) = Giufi.'
+  - start_line: 7753
+    locus: tunisie/medeker-ain-mediccera-7753
+    title: 'Medeker. (Aïn) = Mediccera.'
+  - start_line: 7762
+    locus: tunisie/meden-hr-el-vina-aurel-munic-7762
+    title: 'Meden. (Hr el) = Vina. Aurel. municip.'
+  - start_line: 7796
+    locus: tunisie/medinet-el-kedima-theleptb-e-7796
+    title: 'Medinet el Kedima. = Theleptb eo/.'
+  - start_line: 7931
+    locus: tunisie/medinet-es-soultan-isgina-7931
+    title: 'Medinet es Soultan. = Isgina.'
+  - start_line: 7944
+    locus: tunisie/medjez-el-bab-membressa-7944
+    title: 'Medjez el Bab. = Membressa.'
+  - start_line: 8003
+    locus: tunisie/mehalla-hr-el-8003
+    title: 'Mehalla. (Hr el)'
+  - start_line: 8015
+    locus: tunisie/africa-du-moyen-age-8015
+    title: 'Africa du moyen âge.'
+  - start_line: 8057
+    locus: tunisie/mekhdoudeche-hr-8057
+    title: 'Mekhdoudèche. (Hr)'
+  - start_line: 8063
+    locus: tunisie/meliz-r-r-sur-l-o-8063
+    title: 'Meliz. (R. R. sur l''O.)'
+  - start_line: 8075
+    locus: tunisie/menadla-terento-8075
+    title: 'Menadla, = Terento.'
+  - start_line: 8117
+    locus: tunisie/menzel-el-gorchi-col-ju-lia-8117
+    title: 'Menzel el Gorchi, = Col Ju lia Thur....'
+  - start_line: 8123
+    locus: tunisie/menzel-bel-kassem-megalopoli-8123
+    title: 'Menzel bel Kassem. = Megalopolis d''Agathocle?'
+  - start_line: 8131
+    locus: tunisie/merelma-hr-8131
+    title: 'Merelma. (Hr)'
+  - start_line: 8135
+    locus: tunisie/merkab-hr-8135
+    title: 'Merkab. (Hr)'
+  - start_line: 8142
+    locus: tunisie/meschertat-8142
+    title: 'Meschertat.'
+  - start_line: 8151
+    locus: tunisie/meskin-thunusuda-8151
+    title: 'Meskin. ($'') = Thunusuda.'
+  - start_line: 8172
+    locus: tunisie/meskin-hr-8172
+    title: 'Meskin. (Hr)'
+  - start_line: 8180
+    locus: tunisie/messaoudi-bordj-thacia-8180
+    title: 'Messaoudi. (Bordj) = Thacia.'
+  - start_line: 8221
+    locus: tunisie/mest-hr-musti-de-proconsulai-8221
+    title: 'Mest. (Hr) = Musti de Proconsulaire.'
+  - start_line: 8289
+    locus: tunisie/meyal-bled-8289
+    title: 'Meyal. (Bled)'
+  - start_line: 8294
+    locus: tunisie/mezouna-bled-et-ain-8294
+    title: 'Mezouna. (Bled et Aïn)'
+  - start_line: 8298
+    locus: tunisie/mezreg-es-semech-8298
+    title: 'Mezreg es Semech.'
+  - start_line: 8309
+    locus: tunisie/mkalta-8309
+    title: 'Mkalta.'
+  - start_line: 8358
+    locus: tunisie/mohammedia-megalopolis-ii-8358
+    title: 'Mohammedia. = Megalopolis (II)?'
+  - start_line: 8401
+    locus: tunisie/monastir-pres-de-kuspina-8401
+    title: 'Monastir. (près de) = Kuspina.'
+  - start_line: 8418
+    locus: tunisie/morgan-pir-usthamari-8418
+    title: 'Morgan, (PIr) — Usthamari.'
+  - start_line: 8427
+    locus: tunisie/mraba-h-mum-8427
+    title: 'Mraba.(H'') == Mum*'
+  - start_line: 8431
+    locus: tunisie/mra-mita-el-8431
+    title: 'Mra Mita, (El)'
+  - start_line: 8437
+    locus: tunisie/mraisa-carpi-col-julia-8437
+    title: 'Mraïsa. = Carpi Col. Julia.'
+  - start_line: 8476
+    locus: tunisie/msaadine-el-furnos-minus-8476
+    title: 'Msaadine. (El) = Furnos minus.'
+  - start_line: 8501
+    locus: tunisie/mziger-ain-8501
+    title: 'Mziger. (Aïn)'
+  - start_line: 8510
+    locus: tunisie/mzira-h-el-8510
+    title: 'Mzira. (H'''' el)'
+  - start_line: 8555
+    locus: tunisie/nebahna-hr-8555
+    title: 'Nebahna. (Hr)'
+  - start_line: 8613
+    locus: tunisie/nefouca-en-tripolitaine-8613
+    title: 'Nefouça, en Tripolitaine.'
+  - start_line: 8627
+    locus: tunisie/nefta-aggarsel-neptk-8627
+    title: 'Nefta. = Aggarsel Neptk.'
+  - start_line: 8656
+    locus: tunisie/negachia-hr-8656
+    title: 'Negachia. (Hr)'
+  - start_line: 8663
+    locus: tunisie/oghab-kasr-el-8663
+    title: 'Oghab. (Kasr el)'
+  - start_line: 8673
+    locus: tunisie/ogla-h-el-8673
+    title: 'Ogla. (H'' el)'
+  - start_line: 8680
+    locus: tunisie/oglet-khefifa-bennefa-8680
+    title: 'Oglet Khefifa. = Bennefa ?'
+  - start_line: 8707
+    locus: tunisie/iv-kal-clec-8707
+    title: 'IV kal. clec.'
+  - start_line: 8709
+    locus: tunisie/ouartane-sraa-bartana-ou-var-8709
+    title: 'Ouartane. (Srâa) = Bartana ou Vartana.'
+  - start_line: 8744
+    locus: tunisie/praedia-pulhiienorum-cehini-8744
+    title: 'Praedia Pulhiienorum... Cehini Pu pi a ni.'
+  - start_line: 8775
+    locus: tunisie/oudna-hr-uthina-colonia-8775
+    title: 'Oudna. (Hr) — Uthina Colonia.'
+  - start_line: 8840
+    locus: tunisie/oum-ali-bir-alonianum-8840
+    title: 'Oum Ali (bir). = Alonianum ?'
+  - start_line: 8856
+    locus: tunisie/oum-el-abouab-seressi-8856
+    title: 'Oum el Abouab, = Seressi.'
+  - start_line: 8860
+    locus: tunisie/oum-el-aouat-hr-8860
+    title: 'Oum el Aouat. (Hr)'
+  - start_line: 8894
+    locus: tunisie/ounga-junca-8894
+    title: 'Ounga. = Junca.'
+  - start_line: 8930
+    locus: tunisie/oust-il-cl-8930
+    title: 'OuSt. (Il'' Cl)'
+  - start_line: 8938
+    locus: tunisie/oust-dj-8938
+    title: 'Oust. (Dj.)'
+  - start_line: 8943
+    locus: tunisie/oust-h-el-8943
+    title: 'Oust. (H'' el)'
+  - start_line: 8950
+    locus: tunisie/porto-farina-rusuca-8950
+    title: 'Porto Farina. = Rusuca ?'
+  - start_line: 8965
+    locus: tunisie/peut-etre-8965
+    title: 'Peut-être'
+  - start_line: 8978
+    locus: tunisie/rabta-8978
+    title: 'Rabta.'
+  - start_line: 8990
+    locus: tunisie/rades-maxula-prates-8990
+    title: 'Rades. = Maxula Prates.'
+  - start_line: 9040
+    locus: tunisie/ras-dimas-thapsus-9040
+    title: 'Ras Dimas. = Thapsus.'
+  - start_line: 9062
+    locus: tunisie/ras-el-ain-tlalet-talalati-9062
+    title: 'Ras el Aïn Tlalet. = Talalati.'
+  - start_line: 9069
+    locus: tunisie/ras-el-djebel-thinisa-9069
+    title: 'Ras el Djebel. = Thinisa?'
+  - start_line: 9111
+    locus: tunisie/rechga-kef-novis-aquilianis-9111
+    title: 'Rechga. (Kef) = Novis Aquilianis.'
+  - start_line: 9117
+    locus: tunisie/route-de-teboursouk-a-beja-9117
+    title: 'Route de Teboursouk à Béjà.'
+  - start_line: 9122
+    locus: tunisie/reguiba-er-9122
+    title: 'Reguiba. (Er)'
+  - start_line: 9126
+    locus: tunisie/reiss-s-aulodes-9126
+    title: 'Reiss. (S'') = Aulodes.'
+  - start_line: 9132
+    locus: tunisie/rekba-hr-vegesela-de-byzacen-9132
+    title: 'Rekba. (Hr) = Vegesela de Byzacène.'
+  - start_line: 9161
+    locus: tunisie/retba-hr-er-9161
+    title: 'Retba. (Hr er)'
+  - start_line: 9168
+    locus: tunisie/reukba-ou-mechta-bou-rakba-i-9168
+    title: 'Reukba ou Mechta bou Rakba. = Inuca.'
+  - start_line: 9177
+    locus: tunisie/rhiria-voir-khiria-9177
+    title: 'Rhiria. (Voir Khiria)'
+  - start_line: 9195
+    locus: tunisie/ronga-ou-rougga-hr-bararu-9195
+    title: 'Ronga ou Rougga. (Hr) - Bararu».'
+  - start_line: 9221
+    locus: tunisie/roumie-vallis-en-tripolitain-9221
+    title: 'Roumié (Vallis). en Tripolitaine.'
+  - start_line: 9229
+    locus: tunisie/saad-oglet-9229
+    title: 'Saad. (Oglet)'
+  - start_line: 9235
+    locus: tunisie/saahi-ksar-9235
+    title: 'Saahi. (Ksar)'
+  - start_line: 9241
+    locus: tunisie/sabra-haouch-9241
+    title: 'Sabra. (Haouch)'
+  - start_line: 9288
+    locus: tunisie/safsaf-9288
+    title: 'Safsaf.'
+  - start_line: 9305
+    locus: tunisie/saheli-hr-saradl-9305
+    title: 'Saheli. (Hr) = Saradl'
+  - start_line: 9312
+    locus: tunisie/said-si-9312
+    title: 'Saïd. (Si)'
+  - start_line: 9324
+    locus: tunisie/saidan-bent-ou-ain-djoukar-z-9324
+    title: 'Saïdan (bent) ou Aïn Djoukar. = Zucchara civ.'
+  - start_line: 9346
+    locus: tunisie/salah-ou-sadik-fundus-dic-it-9346
+    title: 'Salah ou Sadik = Fundus (Dic)itanus?'
+  - start_line: 9371
+    locus: tunisie/salakta-sullegtum-9371
+    title: 'Salakta. = Sullegtum.'
+  - start_line: 9411
+    locus: tunisie/sardouk-hr-bou-9411
+    title: 'Sardouk. (Hr bou)'
+  - start_line: 9416
+    locus: tunisie/sbeitla-sufbtula-9416
+    title: 'Sbeitla. = Sufbtula.'
+  - start_line: 9555
+    locus: tunisie/sbiba-sufes-golonia-9555
+    title: 'Sbiba. = Sufes Golonia.'
+  - start_line: 9558
+    locus: tunisie/sufibus-de-l-itiner-d-antoni-9558
+    title: 'Sufibus de l''Itinér. d''Antonin.'
+  - start_line: 9605
+    locus: tunisie/sbir-ain-9605
+    title: 'Sbir. (Aïn)'
+  - start_line: 9617
+    locus: tunisie/sedido-hr-es-9617
+    title: 'Sedido (Hr es)'
+  - start_line: 9621
+    locus: tunisie/segui-r-r-de-l-o-thasuarte-9621
+    title: 'Segui. (R. R. de l''O.) = Thasuarte?'
+  - start_line: 9633
+    locus: tunisie/selem-h-et-bled-9633
+    title: 'Selem. (H'' et bled)'
+  - start_line: 9661
+    locus: tunisie/sfax-tafarura-9661
+    title: 'Sfax. = Tafarura.'
+  - start_line: 9714
+    locus: tunisie/siouda-hr-es-9714
+    title: 'Siouda. (Hr es)'
+  - start_line: 9721
+    locus: tunisie/slouguia-chidibbia-munie-9721
+    title: 'Slouguia. = Chidibbia munie.'
+  - start_line: 9733
+    locus: tunisie/soliman-9733
+    title: 'Soliman.'
+  - start_line: 9750
+    locus: tunisie/souar-h-es-abthugni-municip-9750
+    title: 'Souar (H''" es) = Abthugni. Municip. jFlium.'
+  - start_line: 9787
+    locus: tunisie/sougda-hr-urusi-9787
+    title: 'Sougda (Hr) — Urusi.'
+  - start_line: 9850
+    locus: tunisie/souk-el-arba-9850
+    title: 'Souk el Arba.'
+  - start_line: 9858
+    locus: tunisie/souk-el-djemma-ou-djemaa-tig-9858
+    title: 'Souk el Djemma ou Djemâa = Tigimma ?'
+  - start_line: 9893
+    locus: tunisie/sousse-hadrumetum-9893
+    title: 'Sousse = Hadrumetum'
+  - start_line: 10062
+    locus: tunisie/taacha-haouch-10062
+    title: 'Taâcha. (Haouch)'
+  - start_line: 10071
+    locus: tunisie/taba-hr-bou-menegere-10071
+    title: 'Taba. (Hr bou) = Menegere ?'
+  - start_line: 10091
+    locus: tunisie/tabarca-thabraca-10091
+    title: 'Tabarca. == Thabraca.'
+  - start_line: 10225
+    locus: tunisie/tafernin-10225
+    title: 'Tafernin.'
+  - start_line: 10233
+    locus: tunisie/taguious-kriz-10233
+    title: 'Taguious. (Kriz)'
+  - start_line: 10237
+    locus: tunisie/tajerouin-10237
+    title: 'Tajerouin.'
+  - start_line: 10249
+    locus: tunisie/tamarza-an-turres-10249
+    title: 'Tamarza. = An turres ?'
+  - start_line: 10274
+    locus: tunisie/tamra-bordj-agarlabas-10274
+    title: 'Tamra. (bordj) = Agarlabas.'
+  - start_line: 10293
+    locus: tunisie/tarcine-ksar-tibubuci-cenlen-10293
+    title: 'Tarcine. (Ksar) == Tibubuci cenlenarius.'
+  - start_line: 10297
+    locus: tunisie/tarf-ech-chena-apisa-majus-10297
+    title: 'Tarf ech Chena. = Apisa majus'
+  - start_line: 10319
+    locus: tunisie/tatahouine-10319
+    title: 'Tatahouine.'
+  - start_line: 10348
+    locus: tunisie/tebel-luperciana-10348
+    title: 'Tebel. = Luperciana ?'
+  - start_line: 10356
+    locus: tunisie/tebornok-ain-tubernuc-munici-10356
+    title: 'Tebornok. (Aïn) = Tubernuc municip.'
+  - start_line: 10373
+    locus: tunisie/tebourba-thuburbo-minus-10373
+    title: 'Tebourba. — Thuburbo minus.'
+  - start_line: 10408
+    locus: tunisie/alex-liberum-10408
+    title: 'Alex. Liberum.'
+  - start_line: 10443
+    locus: tunisie/techga-ou-tchegga-thizika-mu-10443
+    title: 'Techga ou Tchegga. = Thizika munie. Mlïum.'
+  - start_line: 10457
+    locus: tunisie/tehent-10457
+    title: 'Tehent.'
+  - start_line: 10461
+    locus: tunisie/tela-ii-et-10461
+    title: 'Tela. (II. et)'
+  - start_line: 10468
+    locus: tunisie/telia-ain-10468
+    title: 'Telia. (Aïn)'
+  - start_line: 10494
+    locus: tunisie/telmin-tamalluma-et-tamalla-10494
+    title: 'Telmin. = Tamalluma et Tamalla.'
+  - start_line: 10525
+    locus: tunisie/tembra-hr-tharbora-munie-fel-10525
+    title: 'Tembra, (Hr) = Tharbora munie. Félix.'
+  - start_line: 10548
+    locus: tunisie/temounia-hr-10548
+    title: 'Temounia, (Hr)'
+  - start_line: 10552
+    locus: tunisie/terli-sur-l-o-10552
+    title: 'Terli. (Sur l''O.)'
+  - start_line: 10560
+    locus: tunisie/testour-tichilla-10560
+    title: 'Testour. = Tichilla.'
+  - start_line: 10583
+    locus: tunisie/thala-thai-a-10583
+    title: 'Thala. — Thaï a'
+  - start_line: 10628
+    locus: tunisie/thibar-thibaris-10628
+    title: 'Thibar. = Thibaris.'
+  - start_line: 10672
+    locus: tunisie/tina-hr-thenae-10672
+    title: 'Tina. (Hr) = Thenae.'
+  - start_line: 10737
+    locus: tunisie/tindja-hr-thimida-10737
+    title: 'Tindja. (Hr) = Thimida.'
+  - start_line: 10761
+    locus: tunisie/torrah-10761
+    title: 'Torrah.'
+  - start_line: 10766
+    locus: tunisie/touccabeur-thuccabor-10766
+    title: 'Touccabeur. = Thuccabor.'
+  - start_line: 10799
+    locus: tunisie/touila-hr-10799
+    title: 'Touila. (Hr)'
+  - start_line: 10808
+    locus: tunisie/toum-bordj-cincari-munie-10808
+    title: 'Toum. (Bordj) = Cincari munie.'
+  - start_line: 10829
+    locus: tunisie/tounga-ain-thignica-10829
+    title: 'Tounga. (Aïn) = Thignica.'
+  - start_line: 10833
+    locus: tunisie/friujiferum-10833
+    title: 'Friujiferum.'
+  - start_line: 10887
+    locus: tunisie/tozeur-tusuros-10887
+    title: 'Tozeur. — Tusuros.'
+  - start_line: 10921
+    locus: tunisie/tripoli-oea-colonu-10921
+    title: 'Tripoli. = Oea colonù'
+  - start_line: 10949
+    locus: tunisie/tunis-tunes-10949
+    title: 'Tunis. = Tunes.'
+  - start_line: 10977
+    locus: tunisie/musee-a-laoui-10977
+    title: 'Musée A laoui.'
+  - start_line: 10994
+    locus: tunisie/tyr-ksar-vallis-10994
+    title: 'Tyr. (Ksar) = Vallis ?'
+  - start_line: 11000
+    locus: tunisie/yahia-h-s-11000
+    title: 'Yahia. (H'''' S'')'
+  - start_line: 11048
+    locus: tunisie/zaatli-11048
+    title: 'Zaatli.'
+  - start_line: 11066
+    locus: tunisie/zaga-ain-11066
+    title: 'Zaga. (Aïn)'
+  - start_line: 11076
+    locus: tunisie/zaghouan-ziqua-ou-zigga-11076
+    title: 'Zaghouan. = Ziqua ou Zigga ?'
+  - start_line: 11098
+    locus: tunisie/zama-propriete-11098
+    title: 'Zama, (Propriété)'
+  - start_line: 11152
+    locus: tunisie/zanfour-assuras-col-julia-11152
+    title: 'Zanfour. = Assuras col. Julia.'
+  - start_line: 11214
+    locus: tunisie/zaouadi-hr-ez-sassura-11214
+    title: 'Zaouadi. (Hr ez) = Sassura.'
+  - start_line: 11242
+    locus: tunisie/zarour-hr-11242
+    title: 'Zarour. (Hr)'
+  - start_line: 11246
+    locus: tunisie/zaroura-ain-11246
+    title: 'Zaroura, (Aïn)'
+  - start_line: 11259
+    locus: tunisie/zarzis-gergis-11259
+    title: 'Zarzis. — Gergis.'
+  - start_line: 11309
+    locus: tunisie/zeremdine-avidus-vicus-11309
+    title: 'Zeremdine. == Avidus Vicus.'
+  - start_line: 11328
+    locus: tunisie/zeress-ain-11328
+    title: 'Zeress. (Aïn)'
+  - start_line: 11333
+    locus: tunisie/zgueb-h-11333
+    title: 'Zgueb. (H'')'
+  - start_line: 11339
+    locus: tunisie/zit-ksarez-siagu-civ-11339
+    title: 'Zit. (Ksarez) = Siagu civ.'
+  - start_line: 11353
+    locus: tunisie/zitoun-hr-bou-11353
+    title: 'Zitoun. (Hr bou)'
+  - start_line: 11361
+    locus: tunisie/zitouna-ksar-11361
+    title: 'Zitouna. (Ksar)'
+  - start_line: 11370
+    locus: tunisie/zouagha-ech-chergui-11370
+    title: 'Zouagha ech Chergui.'
+  - start_line: 11374
+    locus: tunisie/zouakra-hm-thigieba-11374
+    title: 'Zouakra. (Hm) = Thigieba.'
+  - start_line: 11380
+    locus: tunisie/zouariiic-ain-cellae-de-proe-11380
+    title: 'Zouariiic (Aïn) = Cellae de Proeonsulaire.'
+  - start_line: 11408
+    locus: tunisie/zouila-hr-zblla-11408
+    title: 'Zouila. (Hr) = Zblla }.'
+  - start_line: 11448
+    locus: tunisie/zoura-hr-11448
+    title: 'Zoura, (Hr)'
+  - start_line: 11455
+    locus: tunisie/zrifa-ho-11455
+    title: 'Zrifa. (HO'
+  - start_line: 1286
+    locus: tunisie/carthage-eveques
+    title: '1° Èvêques.'
+  - start_line: 1665
+    locus: tunisie/carthage-ruines
+    title: '2° Ruines.'
+  - start_line: 11460
+    locus: tunisie-nonidentifies
+  - start_line: 11464
+    locus: tunisie-nonidentifies/abari-11464
+    title: 'Abari.'
+  - start_line: 11504
+    locus: tunisie-nonidentifies/abaradira-11504
+    title: 'Abaradira.'
+  - start_line: 11510
+    locus: tunisie-nonidentifies/abbir-oermanicia-11510
+    title: 'Abbir Oermanicia.'
+  - start_line: 11539
+    locus: tunisie-nonidentifies/abora-11539
+    title: 'Abora.'
+  - start_line: 11548
+    locus: tunisie-nonidentifies/absa-salla-11548
+    title: 'Absa Salla.'
+  - start_line: 11558
+    locus: tunisie-nonidentifies/abziri-11558
+    title: 'Abziri.'
+  - start_line: 11587
+    locus: tunisie-nonidentifies/akliae-11587
+    title: 'Akliae.'
+  - start_line: 11629
+    locus: tunisie-nonidentifies/africa-11629
+    title: 'Africa.'
+  - start_line: 11633
+    locus: tunisie-nonidentifies/afufenia-11633
+    title: 'Afufenia.'
+  - start_line: 11643
+    locus: tunisie-nonidentifies/aga-11643
+    title: 'Aga.'
+  - start_line: 11651
+    locus: tunisie-nonidentifies/agra-11651
+    title: 'Agra.'
+  - start_line: 11694
+    locus: tunisie-nonidentifies/amudarsa-ou-amurdasa-11694
+    title: 'Amudarsa ou Amurdasa.'
+  - start_line: 11732
+    locus: tunisie-nonidentifies/ancusa-11732
+    title: 'Ancusa.'
+  - start_line: 11745
+    locus: tunisie-nonidentifies/anguia-11745
+    title: 'Anguia.'
+  - start_line: 11753
+    locus: tunisie-nonidentifies/aquae-de-byzacene-11753
+    title: 'Aquae de Byzacène.'
+  - start_line: 11785
+    locus: tunisie-nonidentifies/gabes-aquae-tacapitame-11785
+    title: 'Gabès = Aquae Tacapitame.'
+  - start_line: 11798
+    locus: tunisie-nonidentifies/aquiaba-11798
+    title: 'Aquiaba.'
+  - start_line: 11809
+    locus: tunisie-nonidentifies/ar-e-de-byzacene-11809
+    title: 'Ar^e de Byzacène.'
+  - start_line: 11877
+    locus: tunisie-nonidentifies/ausvaga-i-et-ii-11877
+    title: 'Ausvaga I et II.'
+  - start_line: 11904
+    locus: tunisie-nonidentifies/ausvaga-i-11904
+    title: 'Ausvaga I.'
+  - start_line: 11918
+    locus: tunisie-nonidentifies/bah-anna-ou-bana-11918
+    title: 'Bah anna ou Bana.'
+  - start_line: 11941
+    locus: tunisie-nonidentifies/baliana-buleliana-11941
+    title: 'Baliana, Buleliana ?'
+  - start_line: 11972
+    locus: tunisie-nonidentifies/bavagaltana-11972
+    title: 'Bavagaltana.'
+  - start_line: 11978
+    locus: tunisie-nonidentifies/flavianus-voir-baliana-ou-bu-11978
+    title: 'Flavianus (Voir Baliana ou Buleliana).'
+  - start_line: 11993
+    locus: tunisie-nonidentifies/belali-11993
+    title: 'Belali.'
+  - start_line: 12008
+    locus: tunisie-nonidentifies/belma-belmia-etc-12008
+    title: 'BELMA, BeLMÏA, etc.'
+  - start_line: 12027
+    locus: tunisie-nonidentifies/beneventum-12027
+    title: 'Beneventum.'
+  - start_line: 12041
+    locus: tunisie-nonidentifies/bladia-12041
+    title: 'Bladia ?'
+  - start_line: 12061
+    locus: tunisie-nonidentifies/bonusta-12061
+    title: 'Bonusta.'
+  - start_line: 12074
+    locus: tunisie-nonidentifies/boset-12074
+    title: 'BOSET.'
+  - start_line: 12111
+    locus: tunisie-nonidentifies/boset-ii-12111
+    title: 'BOSET II.'
+  - start_line: 12122
+    locus: tunisie-nonidentifies/botriana-12122
+    title: 'BOTRIANA.'
+  - start_line: 12133
+    locus: tunisie-nonidentifies/buleliana-12133
+    title: 'BULELIANA.'
+  - start_line: 12147
+    locus: tunisie-nonidentifies/bulla-minor-gfr-s-mbarek-12147
+    title: 'Bulla minor. Gfr. S'' Mbarek.'
+  - start_line: 12150
+    locus: tunisie-nonidentifies/bulna-12150
+    title: 'Bulna.'
+  - start_line: 12160
+    locus: tunisie-nonidentifies/bure-12160
+    title: 'Bure.'
+  - start_line: 12177
+    locus: tunisie-nonidentifies/bljrugjata-12177
+    title: 'BlJRUGJATA.'
+  - start_line: 12192
+    locus: tunisie-nonidentifies/buslacenae-12192
+    title: 'Buslacenae.'
+  - start_line: 12208
+    locus: tunisie-nonidentifies/byzacium-12208
+    title: 'Byzacium.'
+  - start_line: 12236
+    locus: tunisie-nonidentifies/cararsussi-12236
+    title: 'Cararsussi.'
+  - start_line: 12264
+    locus: tunisie-nonidentifies/caeciri-12264
+    title: 'Caeciri.'
+  - start_line: 12277
+    locus: tunisie-nonidentifies/camiceta-ou-camica-12277
+    title: 'Camiceta ou Camica.'
+  - start_line: 12300
+    locus: tunisie-nonidentifies/caniana-12300
+    title: 'Caniana.'
+  - start_line: 12314
+    locus: tunisie-nonidentifies/canope-12314
+    title: 'Canope.'
+  - start_line: 12348
+    locus: tunisie-nonidentifies/carcaria-12348
+    title: 'Carcaria.'
+  - start_line: 12365
+    locus: tunisie-nonidentifies/cariana-ou-casul-e-garianens-12365
+    title: 'Cariana ou Casul^e Garianenses.'
+  - start_line: 12374
+    locus: tunisie-nonidentifies/cascala-12374
+    title: 'Cascala.'
+  - start_line: 12381
+    locus: tunisie-nonidentifies/castella-12381
+    title: 'Castella.'
+  - start_line: 12388
+    locus: tunisie-nonidentifies/gefala-ou-cephali-12388
+    title: 'Gefala ou Cephali.'
+  - start_line: 12421
+    locus: tunisie-nonidentifies/cenculiana-ou-cunculiana-12421
+    title: 'Cenculiana ou Cunculiana.'
+  - start_line: 12431
+    locus: tunisie-nonidentifies/cerbali-12431
+    title: 'Cerbali.'
+  - start_line: 12438
+    locus: tunisie-nonidentifies/clbaliana-12438
+    title: 'ClBALIANA.'
+  - start_line: 12461
+    locus: tunisie-nonidentifies/clgsi-ou-clgisa-12461
+    title: 'ClGSI OU ClGISA.'
+  - start_line: 12491
+    locus: tunisie-nonidentifies/clumtuturbo-12491
+    title: 'ClUMTUTURBO.'
+  - start_line: 12503
+    locus: tunisie-nonidentifies/crepedula-12503
+    title: 'Crepedula.'
+  - start_line: 12518
+    locus: tunisie-nonidentifies/cresima-12518
+    title: 'Cresima.'
+  - start_line: 12560
+    locus: tunisie-nonidentifies/gubda-12560
+    title: 'GUBDA.'
+  - start_line: 12568
+    locus: tunisie-nonidentifies/cufruta-12568
+    title: 'CUFRUTA.'
+  - start_line: 12583
+    locus: tunisie-nonidentifies/gulci-ou-gulusi-12583
+    title: 'Gulci ou Gulusi.'
+  - start_line: 12611
+    locus: tunisie-nonidentifies/decoriana-12611
+    title: 'Decoriana.'
+  - start_line: 12622
+    locus: tunisie-nonidentifies/dlda-ou-dldda-12622
+    title: 'DlDA OU DlDDA.'
+  - start_line: 12633
+    locus: tunisie-nonidentifies/dlonysiana-12633
+    title: 'DlONYSIANA.'
+  - start_line: 12659
+    locus: tunisie-nonidentifies/cruas-12659
+    title: 'Cruas.'
+  - start_line: 12673
+    locus: tunisie-nonidentifies/duasselemseiab-12673
+    title: 'DUASSELEMSEIAB.'
+  - start_line: 12712
+    locus: tunisie-nonidentifies/dura-12712
+    title: 'Dura.'
+  - start_line: 12726
+    locus: tunisie-nonidentifies/dusa-12726
+    title: 'Dusa.'
+  - start_line: 12743
+    locus: tunisie-nonidentifies/edistiana-12743
+    title: 'Edistiana.'
+  - start_line: 12758
+    locus: tunisie-nonidentifies/egerenisium-12758
+    title: 'Egerenisium.'
+  - start_line: 12763
+    locus: tunisie-nonidentifies/egnatia-12763
+    title: 'Egnatia.'
+  - start_line: 12795
+    locus: tunisie-nonidentifies/eguga-12795
+    title: 'Eguga.'
+  - start_line: 12823
+    locus: tunisie-nonidentifies/erumnina-12823
+    title: 'Erumnina.'
+  - start_line: 12832
+    locus: tunisie-nonidentifies/febiana-12832
+    title: 'Febiana.'
+  - start_line: 12844
+    locus: tunisie-nonidentifies/feradi-major-et-minor-12844
+    title: 'Feradi major et minor.'
+  - start_line: 12867
+    locus: tunisie-nonidentifies/fllaca-12867
+    title: 'FlLACA .'
+  - start_line: 12873
+    locus: tunisie-nonidentifies/flssiana-12873
+    title: 'FlSSIANA.'
+  - start_line: 12920
+    locus: tunisie-nonidentifies/foratiana-12920
+    title: 'FORATIANA .'
+  - start_line: 12927
+    locus: tunisie-nonidentifies/forontoniana-12927
+    title: 'FORONTONIANA.'
+  - start_line: 12946
+    locus: tunisie-nonidentifies/frontoniana-12946
+    title: 'Frontoniana.'
+  - start_line: 12973
+    locus: tunisie-nonidentifies/gaguari-ou-gauvari-12973
+    title: 'Gaguari ou Gauvari.'
+  - start_line: 12981
+    locus: tunisie-nonidentifies/halleri-a-gatinaritanus-12981
+    title: 'Halleri a Gatinaritanus.)'
+  - start_line: 12984
+    locus: tunisie-nonidentifies/garriana-12984
+    title: 'Garriana.'
+  - start_line: 12990
+    locus: tunisie-nonidentifies/gatiana-12990
+    title: 'Gatiana.'
+  - start_line: 13031
+    locus: tunisie-nonidentifies/giufi-salaria-et-giutramraca-13031
+    title: 'Giufi Salaria et Giutramracaria.'
+  - start_line: 13049
+    locus: tunisie-nonidentifies/gratiana-13049
+    title: 'Gratiana.'
+  - start_line: 13066
+    locus: tunisie-nonidentifies/gummi-de-byzacene-13066
+    title: 'Gummi de Byzacène.'
+  - start_line: 13105
+    locus: tunisie-nonidentifies/gljnela-13105
+    title: 'GlJNELA.'
+  - start_line: 13111
+    locus: tunisie-nonidentifies/gurgaita-13111
+    title: 'GURGAÏTA.'
+  - start_line: 13126
+    locus: tunisie-nonidentifies/hermania-13126
+    title: 'Hermania.'
+  - start_line: 13164
+    locus: tunisie-nonidentifies/hlerpinlana-13164
+    title: 'HlERPINlANA.'
+  - start_line: 13175
+    locus: tunisie-nonidentifies/hilta-13175
+    title: 'Hilta.'
+  - start_line: 13186
+    locus: tunisie-nonidentifies/hirina-ou-ira-13186
+    title: 'Hirina ou Ira.'
+  - start_line: 13207
+    locus: tunisie-nonidentifies/horta-13207
+    title: 'HORTA.'
+  - start_line: 13225
+    locus: tunisie-nonidentifies/iziriana-13225
+    title: 'IZIRIANA .'
+  - start_line: 13243
+    locus: tunisie-nonidentifies/labda-13243
+    title: 'Labda'
+  - start_line: 13254
+    locus: tunisie-nonidentifies/lacubaza-13254
+    title: 'Lacubaza .'
+  - start_line: 13266
+    locus: tunisie-nonidentifies/lacus-dulcis-13266
+    title: 'Lacus Dulcis.'
+  - start_line: 13285
+    locus: tunisie-nonidentifies/libertina-13285
+    title: 'Libertina.'
+  - start_line: 13297
+    locus: tunisie-nonidentifies/llmmica-13297
+    title: 'LlMMICA.'
+  - start_line: 13304
+    locus: tunisie-nonidentifies/lucimagna-13304
+    title: 'Lucimagna.'
+  - start_line: 13319
+    locus: tunisie-nonidentifies/lupergiana-13319
+    title: 'LUPERGIANA .'
+  - start_line: 13364
+    locus: tunisie-nonidentifies/madarsuma-13364
+    title: 'Madarsuma.'
+  - start_line: 13398
+    locus: tunisie-nonidentifies/mamma-13398
+    title: 'Mamma.'
+  - start_line: 13410
+    locus: tunisie-nonidentifies/manazenae-regiae-13410
+    title: 'Manazenae Regiae'
+  - start_line: 13445
+    locus: tunisie-nonidentifies/maraguia-13445
+    title: 'Maraguia.'
+  - start_line: 13454
+    locus: tunisie-nonidentifies/marazanae-13454
+    title: 'Marazanae.'
+  - start_line: 13484
+    locus: tunisie-nonidentifies/marcelliana-13484
+    title: 'Marcelliana.'
+  - start_line: 13508
+    locus: tunisie-nonidentifies/materiana-13508
+    title: 'Materiana.'
+  - start_line: 13514
+    locus: tunisie-nonidentifies/mattari-13514
+    title: 'Mattari .'
+  - start_line: 13518
+    locus: tunisie-nonidentifies/adelfius-mactaritanus-et-13518
+    title: 'Adelfius Mactaritanus et'
+  - start_line: 13520
+    locus: tunisie-nonidentifies/adelflus-mattaritanus-13520
+    title: 'Adelflus Mattaritanus.'
+  - start_line: 13525
+    locus: tunisie-nonidentifies/mattiana-13525
+    title: 'Mattiana.'
+  - start_line: 13532
+    locus: tunisie-nonidentifies/maximiana-13532
+    title: 'Maximiana.'
+  - start_line: 13567
+    locus: tunisie-nonidentifies/mediana-13567
+    title: 'Mediana.'
+  - start_line: 13574
+    locus: tunisie-nonidentifies/melzi-13574
+    title: 'Melzi.'
+  - start_line: 13595
+    locus: tunisie-nonidentifies/mlbiarca-13595
+    title: 'MlBIARCA.'
+  - start_line: 13605
+    locus: tunisie-nonidentifies/mldica-13605
+    title: 'MlDICA.'
+  - start_line: 13614
+    locus: tunisie-nonidentifies/mlgirpa-13614
+    title: 'MlGIRPA.'
+  - start_line: 13645
+    locus: tunisie-nonidentifies/mllidia-13645
+    title: 'MlLIDIA.'
+  - start_line: 13651
+    locus: tunisie-nonidentifies/mlmiana-13651
+    title: 'MlMIANA.'
+  - start_line: 13659
+    locus: tunisie-nonidentifies/mozotcori-13659
+    title: 'MOZOTCORI.'
+  - start_line: 13665
+    locus: tunisie-nonidentifies/mulli-13665
+    title: 'Mulli.'
+  - start_line: 13677
+    locus: tunisie-nonidentifies/munatiana-13677
+    title: 'MUNATIANA .'
+  - start_line: 13721
+    locus: tunisie-nonidentifies/murra-13721
+    title: 'MURRA.'
+  - start_line: 13727
+    locus: tunisie-nonidentifies/nationa-13727
+    title: 'Nationa.'
+  - start_line: 13734
+    locus: tunisie-nonidentifies/nova-13734
+    title: 'Nova.'
+  - start_line: 13770
+    locus: tunisie-nonidentifies/octaba-13770
+    title: 'OCTABA.'
+  - start_line: 13776
+    locus: tunisie-nonidentifies/octabia-13776
+    title: 'OCTABIA.'
+  - start_line: 13801
+    locus: tunisie-nonidentifies/ofi-13801
+    title: 'Ofi.'
+  - start_line: 13808
+    locus: tunisie-nonidentifies/paria-13808
+    title: 'Paria.'
+  - start_line: 13814
+    locus: tunisie-nonidentifies/pederodiana-13814
+    title: 'Pederodiana.'
+  - start_line: 13823
+    locus: tunisie-nonidentifies/peradamia-13823
+    title: 'Peradamia'
+  - start_line: 13833
+    locus: tunisie-nonidentifies/pesana-13833
+    title: 'Pesana.'
+  - start_line: 13843
+    locus: tunisie-nonidentifies/pla-13843
+    title: 'PlA.'
+  - start_line: 13856
+    locus: tunisie-nonidentifies/p-itt-an-a-13856
+    title: 'P ITT AN A.'
+  - start_line: 13871
+    locus: tunisie-nonidentifies/pocofelta-13871
+    title: 'POCOFELTA.'
+  - start_line: 13880
+    locus: tunisie-nonidentifies/praecausa-13880
+    title: 'Praecausa.'
+  - start_line: 13886
+    locus: tunisie-nonidentifies/praesidium-13886
+    title: 'Praesidium.'
+  - start_line: 13910
+    locus: tunisie-nonidentifies/puppiana-13910
+    title: 'PUPPIANA.'
+  - start_line: 13958
+    locus: tunisie-nonidentifies/putia-13958
+    title: 'PUTIA.'
+  - start_line: 13973
+    locus: tunisie-nonidentifies/quaestoriana-13973
+    title: 'QUAESTORIANA.'
+  - start_line: 13987
+    locus: tunisie-nonidentifies/rabauta-13987
+    title: 'Rabauta.'
+  - start_line: 14002
+    locus: tunisie-nonidentifies/rebiana-14002
+    title: 'Rebiana.'
+  - start_line: 14008
+    locus: tunisie-nonidentifies/rucuma-14008
+    title: 'Rucuma.'
+  - start_line: 14021
+    locus: tunisie-nonidentifies/rufiniana-14021
+    title: 'RUFINIANA.'
+  - start_line: 14046
+    locus: tunisie-nonidentifies/ruspita-14046
+    title: 'RUSPITA.'
+  - start_line: 14052
+    locus: tunisie-nonidentifies/scebatiana-14052
+    title: 'SCEBATIANA'
+  - start_line: 14060
+    locus: tunisie-nonidentifies/scillium-14060
+    title: 'SCILLIUM.'
+  - start_line: 14097
+    locus: tunisie-nonidentifies/serarga-14097
+    title: 'Serarga.'
+  - start_line: 14108
+    locus: tunisie-nonidentifies/selemselae-14108
+    title: 'Selemselae.'
+  - start_line: 14111
+    locus: tunisie-nonidentifies/selendeta-14111
+    title: 'Selendeta.'
+  - start_line: 14128
+    locus: tunisie-nonidentifies/semina-14128
+    title: 'Semina.'
+  - start_line: 14134
+    locus: tunisie-nonidentifies/septimunicia-ou-septiminicia-14134
+    title: 'Septimunicia ou Septiminicia.'
+  - start_line: 14155
+    locus: tunisie-nonidentifies/serra-14155
+    title: 'Serra.'
+  - start_line: 14169
+    locus: tunisie-nonidentifies/severiana-14169
+    title: 'Severiana.'
+  - start_line: 14205
+    locus: tunisie-nonidentifies/siccenna-14205
+    title: 'Siccenna.'
+  - start_line: 14217
+    locus: tunisie-nonidentifies/simidicca-14217
+    title: 'Simidicca.'
+  - start_line: 14238
+    locus: tunisie-nonidentifies/slnna-14238
+    title: 'SlNNA.'
+  - start_line: 14250
+    locus: tunisie-nonidentifies/sinnar-ou-sinnuar-14250
+    title: 'Sinnar ou Sinnuar.'
+  - start_line: 14262
+    locus: tunisie-nonidentifies/quant-a-victor-voir-sinna-14262
+    title: 'Quant à Victor, voir Sinna.'
+  - start_line: 14265
+    locus: tunisie-nonidentifies/sinnipsa-14265
+    title: 'Sinnipsa.'
+  - start_line: 14284
+    locus: tunisie-nonidentifies/stabata-14284
+    title: 'Stabata.'
+  - start_line: 14297
+    locus: tunisie-nonidentifies/stipa-14297
+    title: 'Stipa.'
+  - start_line: 14306
+    locus: tunisie-nonidentifies/succuba-14306
+    title: 'Succuba.'
+  - start_line: 14317
+    locus: tunisie-nonidentifies/suliana-14317
+    title: 'Suliana.'
+  - start_line: 14323
+    locus: tunisie-nonidentifies/hilarus-sullitanus-voir-sull-14323
+    title: 'Hilarus Sullitanus. Voir Sulli (Numidie).'
+  - start_line: 14328
+    locus: tunisie-nonidentifies/tabalta-ou-tasbalta-14328
+    title: 'Tabalta ou Tasbalta.'
+  - start_line: 14358
+    locus: tunisie-nonidentifies/tacia-ou-thacia-montana-14358
+    title: 'TACIA OU THACIA MONTANA.'
+  - start_line: 14362
+    locus: tunisie-nonidentifies/tagarata-14362
+    title: 'Tagarata.'
+  - start_line: 14376
+    locus: tunisie-nonidentifies/tagaria-14376
+    title: 'Tagaria.'
+  - start_line: 14389
+    locus: tunisie-nonidentifies/tagasa-14389
+    title: 'Tagasa.'
+  - start_line: 14404
+    locus: tunisie-nonidentifies/talaptula-14404
+    title: 'Talaptula.'
+  - start_line: 14412
+    locus: tunisie-nonidentifies/tamateni-14412
+    title: 'Tamateni.'
+  - start_line: 14419
+    locus: tunisie-nonidentifies/tambaiae-ou-thambeae-14419
+    title: 'Tambaiae ou Thambeae.'
+  - start_line: 14445
+    locus: tunisie-nonidentifies/tanudaia-14445
+    title: 'Tanudaia.'
+  - start_line: 14458
+    locus: tunisie-nonidentifies/taraqua-14458
+    title: 'Taraqua.'
+  - start_line: 14460
+    locus: tunisie-nonidentifies/p-veche-more-dlxxi-toul-byza-14460
+    title: 'P]vêché. More, DLXXI. — Toul.. Byzac, CXXIII.'
+  - start_line: 14462
+    locus: tunisie-nonidentifies/domninus-tarazensis-voir-ci-14462
+    title: 'Domninus Tarazensis. Voir ci-après Tarasa.'
+  - start_line: 14478
+    locus: tunisie-nonidentifies/tarasa-14478
+    title: 'Tarasa .'
+  - start_line: 14501
+    locus: tunisie-nonidentifies/tauraca-14501
+    title: 'Tauraca.'
+  - start_line: 14507
+    locus: tunisie-nonidentifies/teberte-14507
+    title: 'Teberte.'
+  - start_line: 14512
+    locus: tunisie-nonidentifies/tela-ou-thela-14512
+    title: 'Tela ou Thela.'
+  - start_line: 14526
+    locus: tunisie-nonidentifies/temuniana-14526
+    title: 'Temuniana.'
+  - start_line: 14543
+    locus: tunisie-nonidentifies/tetci-14543
+    title: 'Tetci.'
+  - start_line: 14553
+    locus: tunisie-nonidentifies/thagamuta-14553
+    title: 'Thagamuta.'
+  - start_line: 14577
+    locus: tunisie-nonidentifies/theuzi-14577
+    title: 'Theuzi.'
+  - start_line: 14584
+    locus: tunisie-nonidentifies/thunudruma-14584
+    title: 'Thunudruma.'
+  - start_line: 14603
+    locus: tunisie-nonidentifies/tlgias-14603
+    title: 'TlGIAS.'
+  - start_line: 14629
+    locus: tunisie-nonidentifies/tlguala-14629
+    title: 'TlGUALA.'
+  - start_line: 14646
+    locus: tunisie-nonidentifies/tisili-14646
+    title: 'Tisili.'
+  - start_line: 14663
+    locus: tunisie-nonidentifies/tonnona-14663
+    title: 'Tonnona.'
+  - start_line: 14681
+    locus: tunisie-nonidentifies/trofiniana-14681
+    title: 'Trofiniana.'
+  - start_line: 14699
+    locus: tunisie-nonidentifies/tubulbaca-14699
+    title: 'TUBULBACA .'
+  - start_line: 14715
+    locus: tunisie-nonidentifies/tugutiana-14715
+    title: 'TUGUTIANA.'
+  - start_line: 14728
+    locus: tunisie-nonidentifies/tulana-14728
+    title: 'Tulana.'
+  - start_line: 14747
+    locus: tunisie-nonidentifies/turris-de-proconsulaire-14747
+    title: 'Turris de Proconsulaire.'
+  - start_line: 14755
+    locus: tunisie-nonidentifies/turuzi-14755
+    title: 'Turuzi.'
+  - start_line: 14788
+    locus: tunisie-nonidentifies/utimma-14788
+    title: 'Utimma.'
+  - start_line: 14804
+    locus: tunisie-nonidentifies/utimmira-14804
+    title: 'Utimmira.'
+  - start_line: 14814
+    locus: tunisie-nonidentifies/utinica-14814
+    title: 'Utinica'
+  - start_line: 14818
+    locus: tunisie-nonidentifies/uzippari-14818
+    title: 'Uzippari.'
+  - start_line: 14840
+    locus: tunisie-nonidentifies/uzita-14840
+    title: 'UZITA.'
+  - start_line: 14847
+    locus: tunisie-nonidentifies/uzittara-14847
+    title: 'UZITTARA.'
+  - start_line: 14853
+    locus: tunisie-nonidentifies/valentiniana-14853
+    title: 'Valentiniana.'
+  - start_line: 14872
+    locus: tunisie-nonidentifies/vassinassa-14872
+    title: 'Vassinassa.'
+  - start_line: 14878
+    locus: tunisie-nonidentifies/vazari-didda-14878
+    title: 'Vazari Didda.'
+  - start_line: 14895
+    locus: tunisie-nonidentifies/vlbiana-14895
+    title: 'VlBIANA .'
+  - start_line: 14962
+    locus: tunisie-nonidentifies/vicus-14962
+    title: 'Vicus.'
+  - start_line: 14971
+    locus: tunisie-nonidentifies/vicus-ateriensis-14971
+    title: 'Vicus Ateriensis.'
+  - start_line: 15013
+    locus: tunisie-nonidentifies/vicus-turris-15013
+    title: 'Vicus Turris.'
+  - start_line: 15033
+    locus: tunisie-nonidentifies/vol-ou-bol-15033
+    title: 'Vol ou Bol.'
+  - start_line: 15059
+    locus: tunisie-nonidentifies/zarna-15059
+    title: 'Zarna.'
+  - start_line: 15069
+    locus: tunisie-nonidentifies/zella-15069
+    title: 'Zella.'
+  - start_line: 15085
+    locus: tunisie-nonidentifies/fortunius-cellensis-et-zelle-15085
+    title: 'FORTUNIUS Cellensis et Zellensis (Cod. B.).'
+  - start_line: 15090
+    locus: tunisie-nonidentifies/zerta-de-proconsulaire-15090
+    title: 'Zerta, de Proconsulaire.'
+  - start_line: 15105
+    locus: tunisie-nonidentifies/zica-zigga-15105
+    title: 'Zica, Zigga.'
+  - start_line: 15129
+    locus: tunisie-nonidentifies/zuri-15129
+    title: 'Zuri.'
+  - start_line: 15150
+    locus: constantine
+  - start_line: 15156
+    locus: constantine/abbassi-sicli-el-15156
+    title: 'Abbassi. (Sicli el)'
+  - start_line: 15161
+    locus: constantine/abd-allah-bir-15161
+    title: 'Abd Allah. (Bir)'
+  - start_line: 15171
+    locus: constantine/abessa-ain-15171
+    title: 'Abessa. (Aïn)'
+  - start_line: 15180
+    locus: constantine/abid-ain-ou-touifza-el-fouka-15180
+    title: 'Abid (Aïn) ou Touifza el Foukania.'
+  - start_line: 15190
+    locus: constantine/abiod-bir-el-15190
+    title: 'Abiod. (Bir el)'
+  - start_line: 15201
+    locus: constantine/abiod-hr-el-ou-reguibet-gass-15201
+    title: 'Abiod (Hr el) ou Reguibet Gassès = Vegesela?'
+  - start_line: 15257
+    locus: constantine/abiod-hr-el-thucca-munie-15257
+    title: 'Abiod. (Hr el) = Thucca munie.'
+  - start_line: 15347
+    locus: constantine/abiod-ivh-ou-redir-el-15347
+    title: 'Abiod. (Ivh. ou Redir el)'
+  - start_line: 15356
+    locus: constantine/abtine-h-el-15356
+    title: 'Abtine. (H'' el)'
+  - start_line: 15367
+    locus: constantine/aced-bir-bou-15367
+    title: 'Aced. (Bir bou)'
+  - start_line: 15380
+    locus: constantine/achir-kh-el-15380
+    title: 'Achir. (Kh. el)'
+  - start_line: 15386
+    locus: constantine/addoufen-ou-hadef-kh-bou-var-15386
+    title: 'Addoufen ou Hadef. (Kh. bou) = Varturliani.'
+  - start_line: 15410
+    locus: constantine/adjela-koudiat-15410
+    title: 'Adjela. (Koudiat)'
+  - start_line: 15419
+    locus: constantine/agla-ouled-15419
+    title: 'Agla. (Ouled)'
+  - start_line: 15424
+    locus: constantine/ahmar-ks-el-saltus-sorothens-15424
+    title: 'Ahmar. (Ks. el) = Saltus Sorothensis.'
+  - start_line: 15430
+    locus: constantine/ahmar-hr-sidi-15430
+    title: 'Ahmar. (Hr Sidi)'
+  - start_line: 15438
+    locus: constantine/ahmed-ben-naceur-15438
+    title: 'Ahmed ben Naceur.'
+  - start_line: 15458
+    locus: constantine/aioun-ras-el-15458
+    title: 'Aioun. (Ras el)'
+  - start_line: 15466
+    locus: constantine/akrib-hr-el-ou-kh-ouled-sidi-15466
+    title: 'Akrib (Hr el) ou Kh. Ouled Sidi Moussa.'
+  - start_line: 15500
+    locus: constantine/akrich-ou-krich-bir-15500
+    title: 'Akrich ou Krich, (Bir)'
+  - start_line: 15508
+    locus: constantine/amar-ksour-el-15508
+    title: 'Amar. (Ksour el)'
+  - start_line: 15522
+    locus: constantine/amar-ben-hamada-15522
+    title: 'Amar ben Hamada.'
+  - start_line: 15536
+    locus: constantine/amba-col-d-ain-el-15536
+    title: 'Amba. (Col d''Ain el)'
+  - start_line: 15549
+    locus: constantine/amba-foum-el-15549
+    title: 'Amba. (Foum el)'
+  - start_line: 15556
+    locus: constantine/ameur-ou-amor-foukani-feid-15556
+    title: 'Ameur ou Amor Foukani. (Feid)'
+  - start_line: 15563
+    locus: constantine/ampere-ain-azel-15563
+    title: 'Ampère. (Aïn Azel.)'
+  - start_line: 15572
+    locus: constantine/amri-ksar-el-15572
+    title: 'Amri. (Ksar el)'
+  - start_line: 15576
+    locus: constantine/anasser-el-15576
+    title: 'Anasser. (el)'
+  - start_line: 15583
+    locus: constantine/anasseur-el-ou-galbois-15583
+    title: 'Anasseur (El) ou Galbois.'
+  - start_line: 15590
+    locus: constantine/announa-thibilis-munie-15590
+    title: 'Announa. = Thibilis munie.'
+  - start_line: 15626
+    locus: constantine/aoued-ou-aouedj-15626
+    title: 'Aoued ou Aouedj'
+  - start_line: 15631
+    locus: constantine/aouken-bir-15631
+    title: 'Aouken. (Bir)'
+  - start_line: 15639
+    locus: constantine/aouin-el-15639
+    title: 'Aouin. (El)'
+  - start_line: 15656
+    locus: constantine/aouinet-er-raiane-15656
+    title: 'Aouinet er Raïane.'
+  - start_line: 15670
+    locus: constantine/araoua-el-15670
+    title: 'Araoua. (El)'
+  - start_line: 15679
+    locus: constantine/arbel-hr-el-15679
+    title: 'Arbel. (Hr el)'
+  - start_line: 15688
+    locus: constantine/argoub-lasfar-15688
+    title: 'Argoub Lasfar.'
+  - start_line: 15700
+    locus: constantine/ari-mecht-i-bou-15700
+    title: 'Ari. (Mecht.i bou)'
+  - start_line: 15704
+    locus: constantine/aria-el-saltus-bagatensis-15704
+    title: 'Aria. (El) = Saltus Bagatensis.'
+  - start_line: 15710
+    locus: constantine/arif-kh-ouled-lambiridi-muni-15710
+    title: 'Arif. (Kh. Ouled) = Lambiridi municip.'
+  - start_line: 15734
+    locus: constantine/arleb-ou-guellil-ouarlal-15734
+    title: 'Arleb ou Guellil. (Ouarlal.)'
+  - start_line: 15748
+    locus: constantine/aroug-bel-15748
+    title: 'Aroug. (Bel)'
+  - start_line: 15758
+    locus: constantine/arrouch-15758
+    title: 'Arrouch.'
+  - start_line: 15767
+    locus: constantine/ascours-15767
+    title: 'Ascours.'
+  - start_line: 15783
+    locus: constantine/atech-hr-el-noya-sparsa-15783
+    title: 'Atech. (Hr el) == Noya Sparsa ?'
+  - start_line: 15802
+    locus: constantine/ateuch-hr-el-15802
+    title: 'Ateuch. (Hr el)'
+  - start_line: 15810
+    locus: constantine/ateuch-hr-bir-el-15810
+    title: 'Ateuch. (Hr Bir el)'
+  - start_line: 15817
+    locus: constantine/atfan-guelaa-bou-15817
+    title: 'Atfan. (Guelâa bou)'
+  - start_line: 15821
+    locus: constantine/atman-biar-oulad-gemellae-15821
+    title: 'Atman. (Biar Oulad) = Gemellae ?.'
+  - start_line: 15861
+    locus: constantine/atmenia-oued-15861
+    title: 'Atmenia. (Oued).'
+  - start_line: 15870
+    locus: constantine/atrous-ou-hammadi-h-el-15870
+    title: 'Atrous ou Hammadi. (H. el)'
+  - start_line: 15879
+    locus: constantine/atrous-dehiret-el-15879
+    title: 'Atrous. (Dehiret el)'
+  - start_line: 15888
+    locus: constantine/augustin-ferme-15888
+    title: 'Augustin, (ferme)'
+  - start_line: 15902
+    locus: constantine/azem-hr-15902
+    title: 'Azem. (Hr)'
+  - start_line: 15910
+    locus: constantine/aziz-ben-tellis-idicra-15910
+    title: 'Aziz ben Tellis. = Idicra.'
+  - start_line: 15948
+    locus: constantine/azzem-ouled-15948
+    title: 'Azzem. (Ouled)'
+  - start_line: 15960
+    locus: constantine/babar-hr-15960
+    title: 'Babar. (Hr)'
+  - start_line: 15968
+    locus: constantine/bader-sidi-15968
+    title: 'Bader. (Sidi)'
+  - start_line: 15976
+    locus: constantine/badis-badias-munie-15976
+    title: 'Badis. = Badias munie.'
+  - start_line: 16008
+    locus: constantine/bagai-ksar-bagai-munie-16008
+    title: 'Bagaï. (Ksar) = Bagaï munie.'
+  - start_line: 16064
+    locus: constantine/maximianus-n-en-font-qu-un-16064
+    title: 'Maximianus n''en font qu''un.'
+  - start_line: 16111
+    locus: constantine/bails-ferme-16111
+    title: 'Bails. (ferme)'
+  - start_line: 16117
+    locus: constantine/bararous-kh-16117
+    title: 'Bararous. (Kh.)'
+  - start_line: 16123
+    locus: constantine/barbar-zaouia-des-beni-16123
+    title: 'Barbar. (Zaouia des Béni)'
+  - start_line: 16139
+    locus: constantine/barbinais-la-ou-bir-aissa-16139
+    title: 'Barbinais (La) ou Bir Aïssa.'
+  - start_line: 16148
+    locus: constantine/barika-16148
+    title: 'Barika.'
+  - start_line: 16154
+    locus: constantine/baroud-kherbet-16154
+    title: 'Baroud. (Kherbet)'
+  - start_line: 16162
+    locus: constantine/batna-16162
+    title: 'Batna.'
+  - start_line: 16168
+    locus: constantine/batoum-kondiat-el-16168
+    title: 'Batoum. | Kondiat el)'
+  - start_line: 16179
+    locus: constantine/bechuga-zabi-16179
+    title: 'BechUga» = Zabi.'
+  - start_line: 16207
+    locus: constantine/bedjem-aioun-16207
+    title: 'Bedjem. (Aioun)'
+  - start_line: 16217
+    locus: constantine/begueur-ou-hr-faraoun-h-el-16217
+    title: 'Begueur ou Hr Faraoun. (H. el)'
+  - start_line: 16276
+    locus: constantine/behama-ain-16276
+    title: 'Behama. (Aïn)'
+  - start_line: 16289
+    locus: constantine/beida-ain-marcimeni-16289
+    title: 'Beida. (Aïn) = Marcimeni ?'
+  - start_line: 16300
+    locus: constantine/beida-pres-ain-16300
+    title: 'Beida. (Près Aïn)'
+  - start_line: 16308
+    locus: constantine/beida-h-el-16308
+    title: 'Beïda. (H'' el)'
+  - start_line: 16326
+    locus: constantine/bekkouche-16326
+    title: 'Bekkouche.'
+  - start_line: 16340
+    locus: constantine/bekkouche-16340
+    title: 'Bekkouche.'
+  - start_line: 16348
+    locus: constantine/belfort-ain-tinn-coeliana-16348
+    title: 'Belfort. (Aïn Tinn) — Coeliana?'
+  - start_line: 16364
+    locus: constantine/belfrouts-hr-16364
+    title: 'Belfrouts. (Hr)'
+  - start_line: 16378
+    locus: constantine/belkacem-ksar-16378
+    title: 'Belkacem. (Ksar)'
+  - start_line: 16386
+    locus: constantine/bellaa-douar-16386
+    title: 'Bellâa. (Douar)'
+  - start_line: 16398
+    locus: constantine/bellezma-ksar-16398
+    title: 'Bellezma. (Ksar)'
+  - start_line: 16414
+    locus: constantine/beregli-16414
+    title: 'Bérégli.'
+  - start_line: 16421
+    locus: constantine/bernelle-mafouna-lamsorti-16421
+    title: 'Bernelle. (Mâfouna.) = Lamsorti.'
+  - start_line: 16444
+    locus: constantine/berrich-surl-o-16444
+    title: 'Berrich. (surl''O.)'
+  - start_line: 16451
+    locus: constantine/besseriani-ad-majores-16451
+    title: 'Besseriani. = Ad Majores.'
+  - start_line: 16472
+    locus: constantine/bey-ain-el-saddar-16472
+    title: 'Bey. (Aïn el) = Saddar.'
+  - start_line: 16479
+    locus: constantine/bey-h-el-16479
+    title: 'Bey. (H* el)'
+  - start_line: 16487
+    locus: constantine/bida-ain-16487
+    title: 'Bida. (Aïn)'
+  - start_line: 16501
+    locus: constantine/bir-kh-el-16501
+    title: 'Bir. (Kh. el)'
+  - start_line: 16510
+    locus: constantine/bir-mechta-el-16510
+    title: 'Bir. (Mechta el)'
+  - start_line: 16520
+    locus: constantine/biskra-bescera-ou-vescera-16520
+    title: 'Biskra. = Bescera ou Vescera.'
+  - start_line: 16549
+    locus: constantine/blondel-kh-ain-sultan-16549
+    title: 'Blondel. (Kh. Aïn Sultan.)'
+  - start_line: 16563
+    locus: constantine/bone-hippo-regius-col-16563
+    title: 'Bône, = Hippo Regius col.'
+  - start_line: 16827
+    locus: constantine/bordj-el-ksar-sila-16827
+    title: 'Bordj el Ksar. = Sila'
+  - start_line: 16842
+    locus: constantine/bordj-ain-el-tigisi-munie-16842
+    title: 'Bordj. (Aïn el) = Tigisi munie.'
+  - start_line: 16879
+    locus: constantine/bou-ari-medita-16879
+    title: 'Bou Ari. (Médita)'
+  - start_line: 16885
+    locus: constantine/boucheguifa-bir-ruglata-16885
+    title: 'Boucheguifa. (Bir) = Ruglata ?'
+  - start_line: 16895
+    locus: constantine/bougie-saldae-16895
+    title: 'Bougie. = Saldae.'
+  - start_line: 16934
+    locus: constantine/bouhira-16934
+    title: 'Bouhira.'
+  - start_line: 16940
+    locus: constantine/bouira-kh-16940
+    title: 'Bouira. (Kh.)'
+  - start_line: 16948
+    locus: constantine/boum-ksar-el-16948
+    title: 'Boum. (Ksar el)'
+  - start_line: 16956
+    locus: constantine/brahim-sidi-ad-molas-16956
+    title: 'Brahim. (Sidi) = Ad Molas?'
+  - start_line: 16965
+    locus: constantine/brid-ghar-16965
+    title: 'Brid. (Ghar)'
+  - start_line: 16986
+    locus: constantine/cadi-kh-el-16986
+    title: 'Cadi. (Kh. el)'
+  - start_line: 16993
+    locus: constantine/calle-la-tuniza-16993
+    title: 'Calle. (La) = Tuniza.'
+  - start_line: 17020
+    locus: constantine/canrobert-oum-cl-bouaghi-17020
+    title: 'Canrobert. (Oum cl Bouaghi.)'
+  - start_line: 17031
+    locus: constantine/castellou-ain-17031
+    title: 'Castellou. (Aïn)'
+  - start_line: 17041
+    locus: constantine/ced-bel-abbas-flumen-piscens-17041
+    title: 'Ced bel Abbas. = Flumen piscense?'
+  - start_line: 17077
+    locus: constantine/cerez-kh-zembia-tamascani-mu-17077
+    title: 'Cérez. (Kh. Zembia) = Tamascani munie. ?'
+  - start_line: 17099
+    locus: constantine/chabersas-ferme-truchet-17099
+    title: 'Chabersas. (ferme Truchet)'
+  - start_line: 17112
+    locus: constantine/chabran-ou-chabrou-ain-17112
+    title: 'Chabran ou Chabrou (Ain)'
+  - start_line: 17122
+    locus: constantine/cham-oued-17122
+    title: 'Cham, (Oued)'
+  - start_line: 17126
+    locus: constantine/chebka-bou-17126
+    title: 'Chebka. (Bou)'
+  - start_line: 17133
+    locus: constantine/chedjra-ou-sedjera-ain-17133
+    title: 'Chedjra ou Sedjera. (Aïn)'
+  - start_line: 17145
+    locus: constantine/chelia-grotte-du-17145
+    title: 'Chélia. (Grotte du)'
+  - start_line: 17154
+    locus: constantine/chemorra-17154
+    title: 'Chemorra.'
+  - start_line: 17169
+    locus: constantine/cheragrag-iusti-17169
+    title: 'Cheragrag. — Iusti?'
+  - start_line: 17179
+    locus: constantine/cherchera-hr-17179
+    title: 'Cherchera. (Hr)'
+  - start_line: 17188
+    locus: constantine/cheria-17188
+    title: 'Chéria.'
+  - start_line: 17200
+    locus: constantine/chettaba-djebel-giddaba-nion-17200
+    title: 'Chettaba. (Djebel) — Giddaba nions.'
+  - start_line: 17220
+    locus: constantine/chettabia-ain-17220
+    title: 'Chettabia. (Aïn)'
+  - start_line: 17229
+    locus: constantine/chouane-hr-ben-17229
+    title: 'Chouane. (Hr ben)'
+  - start_line: 17235
+    locus: constantine/chouf-debba-koudiat-17235
+    title: 'Chouf-Debba. (Koudiat)'
+  - start_line: 17243
+    locus: constantine/colbert-ain-oulmene-17243
+    title: 'Colbert. (Aïn Oulmène)'
+  - start_line: 17253
+    locus: constantine/coligny-bouhira-17253
+    title: 'Coligny. (Bouhira.)'
+  - start_line: 17261
+    locus: constantine/collo-ghullu-col-minervia-17261
+    title: 'Collo. = Ghullu col. Minervia.'
+  - start_line: 17292
+    locus: constantine/combes-beni-merdes-17292
+    title: 'Combes. (Béni Merdes)'
+  - start_line: 17536
+    locus: constantine/corneille-merouana-lamasba-m-17536
+    title: 'Corneille. (Merouana) = Lamasba munie. Antoninianum.'
+  - start_line: 17559
+    locus: constantine/cruchon-ferme-17559
+    title: 'Cruchon. (Ferme)'
+  - start_line: 17579
+    locus: constantine/damremont-17579
+    title: 'Damrémont.'
+  - start_line: 17588
+    locus: constantine/debibib-17588
+    title: 'Debibib.'
+  - start_line: 17596
+    locus: constantine/debibir-h-17596
+    title: 'Debibir. (H'')'
+  - start_line: 17605
+    locus: constantine/deheb-h-17605
+    title: 'Deheb. (H")'
+  - start_line: 17625
+    locus: constantine/dehiret-el-atrous-et-dehiret-17625
+    title: 'Dehiret el Atrous et Dehiret el Faoua.'
+  - start_line: 17629
+    locus: constantine/delaa-ain-et-scf-ed-17629
+    title: 'Delaâ. (Aïn et Scf ed)'
+  - start_line: 17650
+    locus: constantine/derirat-ou-h-el-goussa-hr-17650
+    title: 'Derirat ou H. el Goussa. (Hr)'
+  - start_line: 17657
+    locus: constantine/dia-chez-les-oulad-17657
+    title: 'Dia. (Chez les Oulad)'
+  - start_line: 17664
+    locus: constantine/dib-kh-ed-17664
+    title: 'Dib. (Kh. ed)'
+  - start_line: 17677
+    locus: constantine/dibba-h-17677
+    title: 'Dibba. (H'')'
+  - start_line: 17687
+    locus: constantine/dibba-h-17687
+    title: 'Dibba. (H'')'
+  - start_line: 17695
+    locus: constantine/diffala-mechta-ouled-17695
+    title: 'Diffala. (Mechta Ouled)'
+  - start_line: 17705
+    locus: constantine/djaffa-dj-17705
+    title: 'Djaffa, (Dj.)'
+  - start_line: 17724
+    locus: constantine/djardia-hr-17724
+    title: 'Djardia. (Hr)'
+  - start_line: 17735
+    locus: constantine/djazia-17735
+    title: 'Djazia.'
+  - start_line: 17743
+    locus: constantine/djebbanet-el-kherba-17743
+    title: 'Djebbanet el Kherba.'
+  - start_line: 17750
+    locus: constantine/djebbes-bir-17750
+    title: 'Djebbès. (Bir)'
+  - start_line: 17757
+    locus: constantine/djebria-aioun-17757
+    title: 'Djebria. (Aïoun)'
+  - start_line: 17765
+    locus: constantine/djedid-bir-17765
+    title: 'Djedid. (Bir)'
+  - start_line: 17774
+    locus: constantine/djemel-hr-el-17774
+    title: 'Djemel. (Hr el)'
+  - start_line: 17782
+    locus: constantine/djemila-cuicul-17782
+    title: 'Djemila. — Cuicul.'
+  - start_line: 17868
+    locus: constantine/djerboua-ain-17868
+    title: 'Djerboua. (Ain)'
+  - start_line: 17875
+    locus: constantine/djerouda-17875
+    title: 'Djerouda.'
+  - start_line: 17883
+    locus: constantine/djessessia-kh-vaccis-17883
+    title: 'Djessessia (Kh.) = Vaccis?'
+  - start_line: 17896
+    locus: constantine/djidjelli-igilgili-17896
+    title: 'Djidjelli. = Igilgili.'
+  - start_line: 17920
+    locus: constantine/djillaoua-mechta-pagus-thigi-17920
+    title: 'Djillaoua. (Mechta) = Pagus Thigillavensium.'
+  - start_line: 17938
+    locus: constantine/doucen-17938
+    title: 'Doucen.'
+  - start_line: 17943
+    locus: constantine/draa-el-abiod-kh-17943
+    title: 'Drâa el Abiod. (Kh.)'
+  - start_line: 17950
+    locus: constantine/draa-el-arba-ad-olivam-17950
+    title: 'Drâa el Arba. = Ad Olivam ?'
+  - start_line: 17954
+    locus: constantine/draa-zenad-ou-zemmit-17954
+    title: 'Drâa Zenad ou Zemmit.'
+  - start_line: 17965
+    locus: constantine/dries-hr-bou-17965
+    title: 'Driès. (Hr bou)'
+  - start_line: 17972
+    locus: constantine/durili-ferme-17972
+    title: 'Durili. (Ferme)'
+  - start_line: 18005
+    locus: constantine/embarek-sidi-18005
+    title: 'Embarek. (Sidi)'
+  - start_line: 18017
+    locus: constantine/encedda-hr-nova-petra-18017
+    title: 'Encedda. (Hr) = Nova Petra ?'
+  - start_line: 18046
+    locus: constantine/eulma-ras-18046
+    title: 'Eulma. (Ras)'
+  - start_line: 18052
+    locus: constantine/fakroun-ain-18052
+    title: 'Fakroun. (Aïn)'
+  - start_line: 18064
+    locus: constantine/faoua-ou-foa-dehiret-18064
+    title: 'Faoua ou Foa. (Dehiret)'
+  - start_line: 18079
+    locus: constantine/faucigny-kherbet-el-lalla-18079
+    title: 'Faucigny. (Kherbet el Lalla)'
+  - start_line: 18114
+    locus: constantine/feid-el-mehari-ras-18114
+    title: 'Feid el Méhari. (Ras)'
+  - start_line: 18122
+    locus: constantine/fendek-ksar-18122
+    title: 'Fendek. (Ksar)'
+  - start_line: 18130
+    locus: constantine/ferdjioua-18130
+    title: 'Ferdjioua.'
+  - start_line: 18151
+    locus: constantine/fermatou-18151
+    title: 'Fermatou.'
+  - start_line: 18161
+    locus: constantine/fesguia-18161
+    title: 'Fesguia.'
+  - start_line: 18168
+    locus: constantine/firane-h-oued-el-18168
+    title: 'Firane. (H. Oued el)'
+  - start_line: 18176
+    locus: constantine/fontaine-romaine-ain-temouch-18176
+    title: 'Fontaine Romaine. (Ain Temouchent) (La)'
+  - start_line: 18206
+    locus: constantine/fouda-beni-18206
+    title: 'Fouda. (Béni)'
+  - start_line: 18212
+    locus: constantine/fradj-bir-18212
+    title: 'Fradj. (Bir)'
+  - start_line: 18221
+    locus: constantine/fraim-kh-18221
+    title: 'Fraïm. (Kh.)'
+  - start_line: 18237
+    locus: constantine/gaba-hr-18237
+    title: 'Gaba. (Hr)'
+  - start_line: 18243
+    locus: constantine/gabel-hamimat-beida-18243
+    title: 'Gabel Hamimat Beïda.'
+  - start_line: 18252
+    locus: constantine/gabel-zaaba-h-18252
+    title: 'Gabel Zaaba. (H.)'
+  - start_line: 18272
+    locus: constantine/galbois-18272
+    title: 'Galbois.'
+  - start_line: 18281
+    locus: constantine/gamra-el-18281
+    title: 'Gamra. (El)'
+  - start_line: 18284
+    locus: constantine/garb-ain-garra-18284
+    title: 'Garb. (Aïn) = Garra ?'
+  - start_line: 18309
+    locus: constantine/gastal-castellum-18309
+    title: 'Gastal. = Castellum ?'
+  - start_line: 18334
+    locus: constantine/ghennaia-ksour-18334
+    title: 'Ghennaia. (Ksour)'
+  - start_line: 18343
+    locus: constantine/ghettaba-h-18343
+    title: 'Ghettaba. (H>)'
+  - start_line: 18351
+    locus: constantine/ghorab-ain-18351
+    title: 'Ghorab. (Ain)'
+  - start_line: 18374
+    locus: constantine/gonai-hr-el-rdensium-18374
+    title: 'Gonaï. (Hr el) = ...rdensium.'
+  - start_line: 18384
+    locus: constantine/gontas-h-18384
+    title: 'Gontas. (H>)'
+  - start_line: 18391
+    locus: constantine/goulia-arsacal-18391
+    title: 'Goulia. = Arsacal.'
+  - start_line: 18408
+    locus: constantine/goulia-ho-18408
+    title: 'Goulia. (HO'
+  - start_line: 18415
+    locus: constantine/gounod-guelaa-bou-atfan-18415
+    title: 'Gounod. (Guèlâa bou Atfan.)'
+  - start_line: 18433
+    locus: constantine/goussa-bir-18433
+    title: 'Goussa. (Bir)'
+  - start_line: 18443
+    locus: constantine/goussat-hr-respublica-i-eb-18443
+    title: 'Goussat. (Hr = Respublica i(?)eb...'
+  - start_line: 18472
+    locus: constantine/guebeur-ain-18472
+    title: 'Guebeur. (Aïn)'
+  - start_line: 18484
+    locus: constantine/guebeur-bou-aoun-celerina-18484
+    title: 'Guebeur bou Aoun. = Celerina ?'
+  - start_line: 18506
+    locus: constantine/guebeur-el-messai-18506
+    title: 'Guebeur el Messaï.'
+  - start_line: 18514
+    locus: constantine/guellal-koudiat-18514
+    title: 'Guellal. (Koudiat)'
+  - start_line: 18519
+    locus: constantine/guellal-casl-dianense-18519
+    title: 'Guellal. = Casl. Dianense.'
+  - start_line: 18527
+    locus: constantine/guellil-18527
+    title: 'Guellil.'
+  - start_line: 18537
+    locus: constantine/guellil-h-18537
+    title: 'Guellil. (H'')'
+  - start_line: 18542
+    locus: constantine/guelma-galama-18542
+    title: 'Guelma. = Galama'
+  - start_line: 18645
+    locus: constantine/gueramoussa-cbramussa-18645
+    title: 'Gueramoussa. = Cbramussa }.'
+  - start_line: 18691
+    locus: constantine/guerria-el-18691
+    title: 'Guerria. (El)'
+  - start_line: 18699
+    locus: constantine/guerrigueche-oum-civil-natta-18699
+    title: 'Guerriguèche. (Oum) = civil. Nattabutum.'
+  - start_line: 18712
+    locus: constantine/guesria-ou-mta-roumia-ou-mec-18712
+    title: 'Guesria ou Mta Roumia ou Mechta bou Ari.'
+  - start_line: 18719
+    locus: constantine/guesseria-hr-18719
+    title: 'Guesseria. (Hr)'
+  - start_line: 18721
+    locus: constantine/s-e-du-lac-djendeli-18721
+    title: 'S.-E. du lac Djendeli.'
+  - start_line: 18741
+    locus: constantine/s-e-de-bir-el-henchir-18741
+    title: 'S.-E. de Bir el Henchir.'
+  - start_line: 18777
+    locus: constantine/guidra-ivh-sertei-18777
+    title: 'Guidra. (Ivh.) = Sertei.'
+  - start_line: 18811
+    locus: constantine/guigba-ain-capsus-juliani-18811
+    title: 'Guigba. (Aïn) = Capsus Juliani?'
+  - start_line: 18831
+    locus: constantine/guilta-ras-el-18831
+    title: 'Guilta. (Ras el)'
+  - start_line: 18837
+    locus: constantine/guiz-hr-el-18837
+    title: 'Guiz. (Hr el)'
+  - start_line: 18855
+    locus: constantine/hachani-ou-h-bel-ketane-hr-e-18855
+    title: 'Hachani ou H'' bel Ketane. (Hr el)'
+  - start_line: 18866
+    locus: constantine/haddada-biar-casl-b-amalla-18866
+    title: 'Haddada. (Biar) = Casl. B(amalla)?'
+  - start_line: 18895
+    locus: constantine/hadef-ou-addoufen-kh-bon-18895
+    title: 'Hadef ou Addoufen. (Kh. bon)'
+  - start_line: 18908
+    locus: constantine/hadjar-ain-el-18908
+    title: 'Hadjar. (Ain el)'
+  - start_line: 18917
+    locus: constantine/hadjar-allah-18917
+    title: 'Hadjar Allah.'
+  - start_line: 18922
+    locus: constantine/hadjedj-h-18922
+    title: 'Hadjedj. (H*)'
+  - start_line: 18965
+    locus: constantine/halloufa-hr-18965
+    title: 'Halloufa. (Hr)'
+  - start_line: 18975
+    locus: constantine/harnacha-hr-el-18975
+    title: 'Harnacha. (Hr el)'
+  - start_line: 18993
+    locus: constantine/hamar-ksar-el-18993
+    title: 'Hamar. (Ksar el)'
+  - start_line: 18995
+    locus: constantine/haimeur-du-corpus-18995
+    title: 'Haimeur du Corpus.'
+  - start_line: 19001
+    locus: constantine/hamiet-el-ad-perdices-19001
+    title: 'Hamiet. (El) = Ad Perdices ?'
+  - start_line: 19031
+    locus: constantine/hamma-hr-el-aquae-flavianae-19031
+    title: 'Hamma. (Hr el) = Aquae Flavianae.'
+  - start_line: 19052
+    locus: constantine/hamma-le-azimacium-19052
+    title: 'Hamma. (Le) = Azimacium.'
+  - start_line: 19056
+    locus: constantine/hammam-ain-el-19056
+    title: 'Hammam. (Aïn el)'
+  - start_line: 19089
+    locus: constantine/hammam-meskhoutine-aquae-thi-19089
+    title: 'Hammam Meskhoutine. = Aquae Thibilitanae.'
+  - start_line: 19106
+    locus: constantine/hammam-sidi-el-hadj-aquae-he-19106
+    title: 'Hammam Sidi el Hadj. = Aquae Herculis.'
+  - start_line: 19116
+    locus: constantine/hanacher-bir-el-19116
+    title: 'Hanacher. (Bir el)'
+  - start_line: 19126
+    locus: constantine/hanout-kh-19126
+    title: 'Hanout. (Kh.)'
+  - start_line: 19134
+    locus: constantine/haouch-bir-bon-rustigi-19134
+    title: 'Haouch. (Bir bon) == Rustigi?'
+  - start_line: 19202
+    locus: constantine/hassenaoua-19202
+    title: 'Hassenaoua.'
+  - start_line: 19209
+    locus: constantine/hassane-hr-el-19209
+    title: 'Hassane. (Hr el)'
+  - start_line: 19216
+    locus: constantine/hassena-ou-kh-el-mehasna-kh-19216
+    title: 'Hassena ou Kh, el Mehasna. (Kh.)'
+  - start_line: 19223
+    locus: constantine/hassi-el-19223
+    title: 'Hassi. (El)'
+  - start_line: 19243
+    locus: constantine/henchir-bir-el-19243
+    title: 'Henchir. (Bir el)'
+  - start_line: 19252
+    locus: constantine/horta-desigma-19252
+    title: 'Horta Desigma.'
+  - start_line: 19258
+    locus: constantine/houdj-ain-19258
+    title: 'Houdj. (Ain)'
+  - start_line: 19265
+    locus: constantine/houidjbate-hr-el-umbubali-19265
+    title: 'Houidjbate. (Hr el) = Umbubali.'
+  - start_line: 19273
+    locus: constantine/kabt-el-mouchi-19273
+    title: 'Kabt el Mouchi.'
+  - start_line: 19295
+    locus: constantine/kalaa-des-b-hammad-19295
+    title: 'Kalâa des B'' Hammad.'
+  - start_line: 19318
+    locus: constantine/kalaba-ksar-gibba-19318
+    title: 'Kalaba. (Ksar) = Gibba.'
+  - start_line: 19334
+    locus: constantine/kantara-el-ad-calceum-hercul-19334
+    title: 'Kantara. (El) = Ad Calceum Herculis.'
+  - start_line: 19349
+    locus: constantine/kebira-kh-el-19349
+    title: 'Kebira. (Kh. el)'
+  - start_line: 19357
+    locus: constantine/kelb-ksar-el-19357
+    title: 'Kelb. (Ksar el)'
+  - start_line: 19367
+    locus: constantine/kelb-ksar-el-germa-ni-19367
+    title: 'Kelb. (Ksar el) = Germa.ni ?'
+  - start_line: 19391
+    locus: constantine/kemellel-ain-19391
+    title: 'Kemellel. (Aïn)'
+  - start_line: 19412
+    locus: constantine/kentour-el-centuriones-19412
+    title: 'Kentour. (El) = Centuriones?'
+  - start_line: 19445
+    locus: constantine/kerma-ain-emadaucapenses-19445
+    title: 'Kerma. (Aïn) = Emadaucapenses.'
+  - start_line: 19453
+    locus: constantine/kesbint-hr-19453
+    title: 'Kesbint. ^Hr)'
+  - start_line: 19493
+    locus: constantine/ketane-hr-bel-19493
+    title: 'Ketane. (Hr bel)'
+  - start_line: 19496
+    locus: constantine/khalia-19496
+    title: 'Khalia.'
+  - start_line: 19503
+    locus: constantine/khalfoun-ain-19503
+    title: 'Khalfoun. (Ain)'
+  - start_line: 19518
+    locus: constantine/khebit-el-hallouf-19518
+    title: 'Khebit el Hallouf.'
+  - start_line: 19523
+    locus: constantine/khefif-h-19523
+    title: 'Khefif. (H'')'
+  - start_line: 19530
+    locus: constantine/khelil-ad-olivam-19530
+    title: 'Khelil. = Ad Olivam?'
+  - start_line: 19574
+    locus: constantine/khenchela-mascula-au-aie-19574
+    title: 'Khenchela. = Mascula /au aie'
+  - start_line: 19624
+    locus: constantine/kheneg-el-tiddi-19624
+    title: 'Kheneg. (El) = Tiddi.'
+  - start_line: 19648
+    locus: constantine/khenigue-hr-19648
+    title: 'Khenigue. (Hr)'
+  - start_line: 19654
+    locus: constantine/khenigue-el-19654
+    title: 'Khenigue. (El)'
+  - start_line: 19670
+    locus: constantine/kherba-biar-el-19670
+    title: 'Kherba. (Biar el)'
+  - start_line: 19679
+    locus: constantine/kherraz-kh-el-19679
+    title: 'Kherraz. (Kh. el)'
+  - start_line: 19687
+    locus: constantine/khouabi-el-19687
+    title: 'Khouabi. (El)'
+  - start_line: 19697
+    locus: constantine/klssa-h-mova-19697
+    title: 'Klssa. (H'') = Mova ?'
+  - start_line: 19705
+    locus: constantine/klab-birel-19705
+    title: 'Klab. (Birel)'
+  - start_line: 19714
+    locus: constantine/koreiba-19714
+    title: 'Koreiba.'
+  - start_line: 19730
+    locus: constantine/krekeche-oura-19730
+    title: 'Krékèche. (Oura)'
+  - start_line: 19733
+    locus: constantine/kroub-le-19733
+    title: 'Kroub. (Le)'
+  - start_line: 19743
+    locus: constantine/ksar-el-ad-ficum-ad-basilica-19743
+    title: 'Ksar (el) = Ad Ficum?Ad Basilicam?'
+  - start_line: 19780
+    locus: constantine/ksar-hrel-19780
+    title: 'Ksar. (Hrel)'
+  - start_line: 19800
+    locus: constantine/ksar-ou-ksar-el-karta-ain-el-19800
+    title: 'Ksar ou Ksar el Karta. (Ain el)'
+  - start_line: 19845
+    locus: constantine/lambese-lambaesis-19845
+    title: 'Lambèse. = Lambaesis.'
+  - start_line: 19916
+    locus: constantine/musee-de-lambese-par-gagnat-19916
+    title: 'Musée de Lambèse, par Gagnât.'
+  - start_line: 19925
+    locus: constantine/laoura-ou-h-rouidjel-ii-ain-19925
+    title: 'Laoura ou H. Rouidjel. (II. Ain)'
+  - start_line: 19934
+    locus: constantine/lares-bordj-bon-onellaba-19934
+    title: 'Larès. (Bordj bon) = Onellaba?'
+  - start_line: 19951
+    locus: constantine/lecourbe-ouled-agla-equizetu-19951
+    title: 'Lecourbe. (Ouled Agla) = Equizetum?'
+  - start_line: 19981
+    locus: constantine/lioua-19981
+    title: 'Lioua.'
+  - start_line: 19997
+    locus: constantine/louz-h-el-19997
+    title: 'Louz. (H. el)'
+  - start_line: 20008
+    locus: constantine/mac-mahon-ain-touta-hac-20008
+    title: 'Mac-Mahon. (Aïn Touta) = Hac...'
+  - start_line: 20014
+    locus: constantine/madher-el-gasae-munie-20014
+    title: 'Madher. (El) = Gasae munie.'
+  - start_line: 20034
+    locus: constantine/madjene-hr-cl-20034
+    title: 'Madjène. (Hr cl)'
+  - start_line: 20042
+    locus: constantine/madjouba-ou-beni-fouda-kh-20042
+    title: 'Madjouba ou Béni Fouda. (Kh.)'
+  - start_line: 20049
+    locus: constantine/ma-el-abiod-h-cl-20049
+    title: 'Ma el Abiod. (H'' cl)'
+  - start_line: 20057
+    locus: constantine/ma-el-abiod-kh-cl-20057
+    title: 'Ma el Abiod. (Kh. cl)'
+  - start_line: 20081
+    locus: constantine/mafeur-ain-lobrin-20081
+    title: 'Mâfeur. (Aïn) = Lobrin.'
+  - start_line: 20095
+    locus: constantine/mafouna-ksar-20095
+    title: 'Mâfouna. (Ksar)'
+  - start_line: 20121
+    locus: constantine/magris-r-r-du-dj-tamagrista-20121
+    title: 'Magris. (R. R. du Dj.) = Tamagrista.'
+  - start_line: 20165
+    locus: constantine/mahfadia-hr-20165
+    title: 'Mahfadia. (Hr)'
+  - start_line: 20177
+    locus: constantine/mahidjiba-ksar-cast-fabatian-20177
+    title: 'Mahidjiba. (Ksar) = Cast. Fabatianum ?'
+  - start_line: 20190
+    locus: constantine/mahrab-kh-20190
+    title: 'Mahrab. (Kh.)'
+  - start_line: 20197
+    locus: constantine/mahri-kh-el-20197
+    title: 'Mahri. (Kh. el)'
+  - start_line: 20204
+    locus: constantine/maker-ain-20204
+    title: 'Maker. (Ain)'
+  - start_line: 20208
+    locus: constantine/makhlouf-hr-20208
+    title: 'Makhlouf. (Hr)'
+  - start_line: 20217
+    locus: constantine/malek-ksar-bou-20217
+    title: 'Malek. (Ksar bou)'
+  - start_line: 20224
+    locus: constantine/mamra-bordj-20224
+    title: 'Mamra. (Bordj)'
+  - start_line: 20240
+    locus: constantine/manchoura-ain-20240
+    title: 'Manchoura. (Aïn)'
+  - start_line: 20254
+    locus: constantine/marcouna-verecunda-munie-20254
+    title: 'Marcouna, = Verecunda munie.'
+  - start_line: 20276
+    locus: constantine/mcine-ou-bouira-kh-20276
+    title: 'Mcine ou Bouira. (Kh.)'
+  - start_line: 20283
+    locus: constantine/mdaourouch-20283
+    title: 'Mdaourouch.'
+  - start_line: 20293
+    locus: constantine/mdila-midila-20293
+    title: 'Mdila. = Midila.?'
+  - start_line: 20315
+    locus: constantine/mechira-ain-20315
+    title: 'Mechira. (Ain)'
+  - start_line: 20326
+    locus: constantine/medbouah-chabet-20326
+    title: 'Medbouah. (Chabet)'
+  - start_line: 20338
+    locus: constantine/medfoun-20338
+    title: 'Medfoun.'
+  - start_line: 20340
+    locus: constantine/route-d-ain-beida-a-constant-20340
+    title: 'Route d''Aïn Beida à Constantine.'
+  - start_line: 20352
+    locus: constantine/medjana-medianas-zabuniorum-20352
+    title: 'Medjana. = Medianas Zabuniorum?'
+  - start_line: 20378
+    locus: constantine/medjenat-ruines-de-l-oued-20378
+    title: 'Medjenat. (Ruines de l''Oued)'
+  - start_line: 20393
+    locus: constantine/nota-merdjana-est-le-marmadj-20393
+    title: 'Nota. — Merdjana est le Marmadjena d''Ibn Haukal.'
+  - start_line: 20437
+    locus: constantine/medjez-benian-mta-el-paratia-20437
+    title: 'Medjez. (Benian mta el) = Paratianis?'
+  - start_line: 20445
+    locus: constantine/medkis-20445
+    title: 'Medkis.'
+  - start_line: 20457
+    locus: constantine/mehares-ain-el-20457
+    title: 'Meharès. (Ain el)'
+  - start_line: 20463
+    locus: constantine/meharza-hr-20463
+    title: 'Meharza. (Hr)'
+  - start_line: 20471
+    locus: constantine/mehasna-20471
+    title: 'Mehasna.'
+  - start_line: 20476
+    locus: constantine/mehetella-bir-20476
+    title: 'Mehetella. (Bir)'
+  - start_line: 20484
+    locus: constantine/mekhalfa-20484
+    title: 'Mekhalfa.'
+  - start_line: 20489
+    locus: constantine/mekre-ain-20489
+    title: 'Mèkre. (Aïn)'
+  - start_line: 20504
+    locus: constantine/melloul-ain-kasl-thib-uzabet-20504
+    title: 'Melloul. (Aïn) = KasL Thib(uzabetum) ?'
+  - start_line: 20576
+    locus: constantine/merkeb-talha-canrobert-macom-20576
+    title: 'Merkeb Talha (Canrobert). = Macomades, munie.'
+  - start_line: 20627
+    locus: constantine/merkounda-aioun-ou-douar-20627
+    title: 'Merkounda. (Aïoun ou Douar).'
+  - start_line: 20633
+    locus: constantine/merouana-lamasba-munie-20633
+    title: 'Merouana. = Lamasba munie.'
+  - start_line: 20640
+    locus: constantine/mertoum-hr-20640
+    title: 'Mertoum. (Hr)'
+  - start_line: 20650
+    locus: constantine/meskiana-la-20650
+    title: 'Meskiana. (La)'
+  - start_line: 20656
+    locus: constantine/mesloug-20656
+    title: 'Mesloug.'
+  - start_line: 20683
+    locus: constantine/mestaoua-kef-20683
+    title: 'Mestaoua. (Kef)'
+  - start_line: 20691
+    locus: constantine/metkides-hr-ou-tasbent-t-inf-20691
+    title: 'Metkides (Hr) ou Tasbent. = T(infadi) munie.'
+  - start_line: 20731
+    locus: constantine/metkides-mta-guebeur-hr-20731
+    title: 'Metkidès mta Guebeur. (Hr)'
+  - start_line: 20762
+    locus: constantine/mides-20762
+    title: 'Mides.'
+  - start_line: 20770
+    locus: constantine/mila-milevum-col-sarnensis-20770
+    title: 'Mila. = Milevum col. Sarnensis.'
+  - start_line: 20842
+    locus: constantine/milen-h-20842
+    title: 'Milen. (H'')'
+  - start_line: 20845
+    locus: constantine/milia-el-20845
+    title: 'Milia. (El)'
+  - start_line: 20858
+    locus: constantine/mlakou-petrensis-f-and-us-20858
+    title: 'Mlakou. = Petrensis f and us.'
+  - start_line: 20867
+    locus: constantine/mlila-ain-20867
+    title: 'Mlila. (Aïn)'
+  - start_line: 20875
+    locus: constantine/mlili-gemell-e-munie-20875
+    title: 'Mlili. = Gemell.e munie.'
+  - start_line: 20932
+    locus: constantine/mokta-el-hadid-20932
+    title: 'Mokta el Hadid.'
+  - start_line: 20956
+    locus: constantine/mollon-ferme-subtabartum-20956
+    title: 'Mollon. (Ferme) = Subtabartum.'
+  - start_line: 20965
+    locus: constantine/mons-kasbait-ou-ksar-ou-ghir-20965
+    title: 'Mons (Kasbaït ou Ksar ou Ghiren). = Monte.'
+  - start_line: 20983
+    locus: constantine/montesquieu-mdaourouch-madau-20983
+    title: 'Montesquieu. (Mdaourouch) = Madauros.'
+  - start_line: 21043
+    locus: constantine/morsott-vasampus-21043
+    title: 'Morsott. = Vasampus.'
+  - start_line: 21067
+    locus: constantine/moulabert-oum-el-aber-21067
+    title: 'Moulabert. (Oum el Aber)'
+  - start_line: 21080
+    locus: constantine/mraba-21080
+    title: 'Mraba.'
+  - start_line: 21085
+    locus: constantine/mra-el-youdi-21085
+    title: 'Mrâ el Youdi.'
+  - start_line: 21093
+    locus: constantine/mraou-fedj-21093
+    title: 'Mraou. (Fedj).'
+  - start_line: 21101
+    locus: constantine/mraou-ksiba-21101
+    title: 'Mraou. (Ksiba)'
+  - start_line: 21125
+    locus: constantine/mrigueb-hr-21125
+    title: 'Mrigueb. (Hr)'
+  - start_line: 21143
+    locus: constantine/msara-sidi-kouider-kh-21143
+    title: 'Msara Sidi Kouider. (Kh.)'
+  - start_line: 21150
+    locus: constantine/msil-kh-21150
+    title: 'Msil. (Kh.)'
+  - start_line: 21158
+    locus: constantine/mtirchou-ain-21158
+    title: 'Mtirchou. (Ain)'
+  - start_line: 21165
+    locus: constantine/mtoussa-ain-ad-gazalis-21165
+    title: 'Mtoussa. (Aïn) = Ad Gazalis?'
+  - start_line: 21183
+    locus: constantine/mzata-hr-21183
+    title: 'Mzata. (Hr)'
+  - start_line: 21192
+    locus: constantine/naceur-h-s-21192
+    title: 'Naceur. (H. S'')'
+  - start_line: 21198
+    locus: constantine/naga-h-21198
+    title: 'Naga. (H'')'
+  - start_line: 21206
+    locus: constantine/nahar-mechta-galdenses-21206
+    title: 'Nahar. (Mechta) = Galdenses.'
+  - start_line: 21212
+    locus: constantine/nahr-h-bou-sernana-respurlic-21212
+    title: 'Nahr. (H. bou) = sernana Respurlica.'
+  - start_line: 21219
+    locus: constantine/nbail-hammam-21219
+    title: 'Nbaïl. (Hammam)'
+  - start_line: 21226
+    locus: constantine/nechma-ain-21226
+    title: 'Nechma. (Aïn)'
+  - start_line: 21234
+    locus: constantine/negrine-casae-nigbenses-21234
+    title: 'Négrine. — Casae Nigbenses?'
+  - start_line: 21266
+    locus: constantine/ngaous-nicivibus-21266
+    title: 'Ngaous. = Nicivibus.'
+  - start_line: 21298
+    locus: constantine/niniba-21298
+    title: 'Niniba.'
+  - start_line: 21306
+    locus: constantine/ogla-ain-21306
+    title: 'Ogla. (Aïn)'
+  - start_line: 21312
+    locus: constantine/ogla-hr-el-21312
+    title: 'Ogla. (Hr el)'
+  - start_line: 21323
+    locus: constantine/oglet-djedida-21323
+    title: 'Oglet Djedida.'
+  - start_line: 21336
+    locus: constantine/ouarcha-el-mopti-21336
+    title: 'Ouarcha. (El) = Mopti ?'
+  - start_line: 21357
+    locus: constantine/ouarlal-21357
+    title: 'Ouarlal.'
+  - start_line: 21363
+    locus: constantine/ouazen-hr-21363
+    title: 'Ouazen. (Hr)'
+  - start_line: 21371
+    locus: constantine/ouelban-kh-des-b-celtianis-21371
+    title: 'Ouelban. (Kh. des B'') = Celtianis.'
+  - start_line: 21380
+    locus: constantine/oued-bas-el-21380
+    title: 'Oued. (Bas el)'
+  - start_line: 21383
+    locus: constantine/oum-el-aber-21383
+    title: 'Oum el Aber.'
+  - start_line: 21391
+    locus: constantine/oum-ali-bir-21391
+    title: 'Oum Ali. (Bir)'
+  - start_line: 21395
+    locus: constantine/oum-el-ahdam-kh-21395
+    title: 'Oum el Ahdam. (Kh.)'
+  - start_line: 21451
+    locus: constantine/oum-kif-g-edi-as-muni-21451
+    title: 'Oum Kif. = G edi as muni''-.'
+  - start_line: 21467
+    locus: constantine/secundus-vide-infra-21467
+    title: 'SECUNDUS. Vide infra.'
+  - start_line: 21487
+    locus: constantine/oum-rihane-hr-21487
+    title: 'Oum Rihane. (Hr)'
+  - start_line: 21496
+    locus: constantine/oum-sekak-vanisnesus-21496
+    title: 'Oum Sekak. = Vanisnesus.'
+  - start_line: 21508
+    locus: constantine/oum-ziane-hr-ouled-21508
+    title: 'Oum Ziane. (Hr Ouled)'
+  - start_line: 21518
+    locus: constantine/ousfan-kh-el-21518
+    title: 'Ousfan. (Kh. el)'
+  - start_line: 21530
+    locus: constantine/oussera-khanguet-el-21530
+    title: 'Oussera. (Khanguet el)'
+  - start_line: 21545
+    locus: constantine/outaia-el-mesarfelta-21545
+    title: 'Outaia. (El) = Mesarfelta?'
+  - start_line: 21568
+    locus: constantine/outed-hr-el-21568
+    title: 'Outed. (Hr el)'
+  - start_line: 21588
+    locus: constantine/pascal-bordj-el-bahira-21588
+    title: 'Pascal. (Bordj el Bahira.)'
+  - start_line: 21594
+    locus: constantine/pasteur-seriana-lamiggiga-21594
+    title: 'Pasteur. (Seriana.) = Lamiggiga.'
+  - start_line: 21643
+    locus: constantine/perigotville-ain-kebira-sata-21643
+    title: 'Périgotville (Aïn Kebira). = Satafi.'
+  - start_line: 21695
+    locus: constantine/philippe-ville-rusicade-colo-21695
+    title: 'Philippe ville. = Rusicade colonia J''en'
+  - start_line: 21783
+    locus: constantine/philippeville-et-stora-entre-21783
+    title: 'Philippeville et Stora. (Entre)'
+  - start_line: 21787
+    locus: constantine/phua-ain-21787
+    title: 'Phua. (Aïn)'
+  - start_line: 21815
+    locus: constantine/raiane-aouinet-er-21815
+    title: 'Raïane. (Aouinet er)'
+  - start_line: 21828
+    locus: constantine/raiane-bir-er-21828
+    title: 'Raïane. (Bir er)'
+  - start_line: 21836
+    locus: constantine/raiane-gourt-er-21836
+    title: 'Raïane. (Gourt er)'
+  - start_line: 21845
+    locus: constantine/raiet-hr-er-21845
+    title: 'Raïet. (Hr er)'
+  - start_line: 21853
+    locus: constantine/rasfa-mechta-er-21853
+    title: 'Rasfa. (Mechta er)'
+  - start_line: 21862
+    locus: constantine/rathela-sur-l-o-21862
+    title: 'Rathela. (Sur l''O.)'
+  - start_line: 21873
+    locus: constantine/redir-bordj-lemellef-munie-i-21873
+    title: 'Redir. (Bordj) = Lemellef munie. î'
+  - start_line: 21910
+    locus: constantine/redir-el-abiod-21910
+    title: 'Redir el Abiod.'
+  - start_line: 21933
+    locus: constantine/refana-21933
+    title: 'Refana.'
+  - start_line: 21941
+    locus: constantine/regada-ain-21941
+    title: 'Regada. (Aïn)'
+  - start_line: 21964
+    locus: constantine/reguiba-ou-khebit-el-hallouf-21964
+    title: 'Reguiba ou Khebit el Hallouf. (Bir)'
+  - start_line: 21980
+    locus: constantine/reguiba-khanguet-21980
+    title: 'Reguiba. (Khanguet)'
+  - start_line: 22016
+    locus: constantine/remada-hr-22016
+    title: 'Remada. (Hr)'
+  - start_line: 22030
+    locus: constantine/remel-ain-er-22030
+    title: 'Remel. (Aïn er)'
+  - start_line: 22089
+    locus: constantine/resas-kh-cr-22089
+    title: 'Resas. (Kh. cr)'
+  - start_line: 22129
+    locus: constantine/retba-hr-22129
+    title: 'Retba. (Hr)'
+  - start_line: 22159
+    locus: constantine/rezel-h-er-22159
+    title: 'Rezel. (H'' er)'
+  - start_line: 22166
+    locus: constantine/rezgui-hr-ci-22166
+    title: 'Rezgui. (Hr ci)'
+  - start_line: 22172
+    locus: constantine/rogga-ou-ksar-bou-adiba-22172
+    title: 'Rogga ou Ksar bou Adiba.'
+  - start_line: 22184
+    locus: constantine/roua-ain-horrea-aninici-22184
+    title: 'Roua, (Aïn) = Horrea Aninici.'
+  - start_line: 22222
+    locus: constantine/rouabi-er-22222
+    title: 'Rouabi. (Er)'
+  - start_line: 22237
+    locus: constantine/rouffach-gast-elephantum-22237
+    title: 'Rouffach. = Gast. Elephantum.'
+  - start_line: 22264
+    locus: constantine/rouis-er-22264
+    title: 'Rouis. (Er)'
+  - start_line: 22294
+    locus: constantine/roumi-hr-22294
+    title: 'Roumi. (Hr)'
+  - start_line: 22302
+    locus: constantine/roumia-mta-22302
+    title: 'Roumia. (mta)'
+  - start_line: 22306
+    locus: constantine/saad-hr-ouled-22306
+    title: 'Saâd. (Hr Ouled)'
+  - start_line: 22315
+    locus: constantine/saadia-bip-bou-yicus-augusti-22315
+    title: 'Saâdia. (Bip bou) = Yicus Augusti.'
+  - start_line: 22322
+    locus: constantine/saadna-mechta-22322
+    title: 'Saâdna. (Mechta)'
+  - start_line: 22331
+    locus: constantine/saatoud-hr-22331
+    title: 'Saâtoud. (Hr)'
+  - start_line: 22340
+    locus: constantine/sadjar-ain-subzuar-22340
+    title: 'Sadjar. (Aïn) = Subzuar.'
+  - start_line: 22358
+    locus: constantine/safsaf-khanguet-22358
+    title: 'Safsaf. (Khanguet)'
+  - start_line: 22367
+    locus: constantine/sahi-hr-ou-ksar-22367
+    title: 'Sahi. (Hr ou Ksar)'
+  - start_line: 22374
+    locus: constantine/said-ksar-ou-hr-bou-22374
+    title: 'Saïd. (Ksar ou Hr bou)'
+  - start_line: 22422
+    locus: constantine/salem-hr-bir-22422
+    title: 'Salem. (Hr bir)'
+  - start_line: 22429
+    locus: constantine/sassi-kh-ouled-22429
+    title: 'Sassi. (Kh. Ouled)'
+  - start_line: 22437
+    locus: constantine/sbaa-hr-bou-22437
+    title: 'Sbâa. (Hr bou)'
+  - start_line: 22455
+    locus: constantine/sbaa-mechta-ouled-22455
+    title: 'Sbâa. (Mechta Ouled)'
+  - start_line: 22471
+    locus: constantine/sbehi-ksar-gadiaufala-22471
+    title: 'Sbehi. (Ksar) = Gadiaufala.'
+  - start_line: 22486
+    locus: constantine/sedd-bir-es-22486
+    title: 'Sedd. (Bir es)'
+  - start_line: 22496
+    locus: constantine/sedjra-ain-22496
+    title: 'Sedjra. (Ain)'
+  - start_line: 22503
+    locus: constantine/seffan-22503
+    title: 'Seffan.'
+  - start_line: 22513
+    locus: constantine/segnia-chez-les-oulad-22513
+    title: 'Segnia. (Chez les Oulad)'
+  - start_line: 22526
+    locus: constantine/segueur-ain-22526
+    title: 'Segueur. (Aïn)'
+  - start_line: 22537
+    locus: constantine/seid-bir-22537
+    title: 'Seid. (Bir)'
+  - start_line: 22541
+    locus: constantine/seid-h-22541
+    title: 'Seid. (H*)'
+  - start_line: 22550
+    locus: constantine/seifia-hr-gerva-22550
+    title: 'Seifia. (Hr) = Gerva?'
+  - start_line: 22558
+    locus: constantine/selem-ou-bou-aba-hr-bir-22558
+    title: 'Selem ou Bou Aba. (Hr Bir)'
+  - start_line: 22567
+    locus: constantine/selmi-kh-22567
+    title: 'Selmi. (Kh.)'
+  - start_line: 22576
+    locus: constantine/semah-kef-22576
+    title: 'Semah. (Kef)'
+  - start_line: 22588
+    locus: constantine/serak-kef-22588
+    title: 'Serak. (Kef.)'
+  - start_line: 22595
+    locus: constantine/seraan-kh-22595
+    title: 'Serâan. (Kh.)'
+  - start_line: 22604
+    locus: constantine/seriana-22604
+    title: 'Seriana.'
+  - start_line: 22611
+    locus: constantine/serraouia-bled-22611
+    title: 'Serraouia. (Bled)'
+  - start_line: 22618
+    locus: constantine/setif-sitifi-et-sitifis-22618
+    title: 'Sétif. = Sitifi et Sitifis.'
+  - start_line: 22789
+    locus: constantine/sila-fedj-22789
+    title: 'Sila. (Fedj)'
+  - start_line: 22794
+    locus: constantine/siouda-fedj-es-22794
+    title: 'Siouda. (Fedj es)'
+  - start_line: 22854
+    locus: constantine/skikine-bou-thesacthum-22854
+    title: 'Skikine. (Bou) = Thesacthum.'
+  - start_line: 22874
+    locus: constantine/soltane-hr-22874
+    title: 'Soltane. (Hr)'
+  - start_line: 22883
+    locus: constantine/soltane-h-22883
+    title: 'Soltane.(H'')'
+  - start_line: 22892
+    locus: constantine/soualha-es-22892
+    title: 'Soualha. (Es)'
+  - start_line: 22901
+    locus: constantine/souk-ahras-thagaste-municipi-22901
+    title: 'Souk Ahras. = Thagaste municipium.'
+  - start_line: 22976
+    locus: constantine/soyoud-fedj-es-vatari-ou-cel-22976
+    title: 'Soyoud. (Fedj es) = Vatari, ou Cell.k Vatari?'
+  - start_line: 23001
+    locus: constantine/stah-h-23001
+    title: 'Stah. (H'')'
+  - start_line: 23007
+    locus: constantine/steh-ou-meskiana-bordj-23007
+    title: 'Steh ou Meskiana. (Bordj)'
+  - start_line: 23016
+    locus: constantine/stiah-h-23016
+    title: 'Stiah. (H'')'
+  - start_line: 23023
+    locus: constantine/stora-23023
+    title: 'Stora.'
+  - start_line: 23030
+    locus: constantine/tabia-h-23030
+    title: 'Tabia. (H>)'
+  - start_line: 23037
+    locus: constantine/tabia-23037
+    title: 'Tabia.'
+  - start_line: 23047
+    locus: constantine/taga-ain-23047
+    title: 'Taga. (Ain)'
+  - start_line: 23055
+    locus: constantine/taghfaght-23055
+    title: 'Taghfaght.'
+  - start_line: 23072
+    locus: constantine/tagount-ou-agouni-hr-23072
+    title: 'Tagount ou Agouni. (Hr)'
+  - start_line: 23100
+    locus: constantine/takrematene-ou-termatene-h-b-23100
+    title: 'Takrematène ou Termatène. (H* bon)'
+  - start_line: 23112
+    locus: constantine/tala-ataf-23112
+    title: 'Tala Ataf.'
+  - start_line: 23119
+    locus: constantine/tala-ou-mellal-lesvi-23119
+    title: 'Tala ou Mellal. = Lesvi.'
+  - start_line: 23128
+    locus: constantine/tamagra-23128
+    title: 'Tamagra.'
+  - start_line: 23135
+    locus: constantine/tamarins-ou-kh-hanout-les-23135
+    title: 'Tamarins ou Kh, Hanout. (Les)'
+  - start_line: 23142
+    locus: constantine/tamarit-hr-23142
+    title: 'Tamarit. (Hr)'
+  - start_line: 23171
+    locus: constantine/taoura-thagora-ou-tagura-mun-23171
+    title: 'Taoura. = Thagora ou Tagura munie.'
+  - start_line: 23200
+    locus: constantine/taourirt-hr-23200
+    title: 'Taourirt. (Hr)'
+  - start_line: 23217
+    locus: constantine/tarmount-ksar-arae-23217
+    title: 'Tarmount. (Ksar) = Arae.'
+  - start_line: 23258
+    locus: constantine/tasbent-bahiret-23258
+    title: 'Tasbent. (Bahiret)'
+  - start_line: 23267
+    locus: constantine/tassamert-23267
+    title: 'Tassamert.'
+  - start_line: 23277
+    locus: constantine/tassera-23277
+    title: 'Tassera.'
+  - start_line: 23283
+    locus: constantine/taya-bir-23283
+    title: 'Taya. (Bir)'
+  - start_line: 23292
+    locus: constantine/taya-dj-23292
+    title: 'Taya. (Dj.)'
+  - start_line: 23305
+    locus: constantine/tazmalt-23305
+    title: 'Tazmalt.'
+  - start_line: 23314
+    locus: constantine/tazougart-ain-23314
+    title: 'Tazougart. (Aïn)'
+  - start_line: 23337
+    locus: constantine/tebessa-theveste-eoloma-23337
+    title: 'Tebessa. = Theveste eoloma.'
+  - start_line: 23519
+    locus: constantine/telamcine-hr-23519
+    title: 'Telamcine. (Hr)'
+  - start_line: 23529
+    locus: constantine/telia-khcrbet-23529
+    title: 'Telia. (Khcrbet)'
+  - start_line: 23537
+    locus: constantine/temlouka-23537
+    title: 'Temlouka.'
+  - start_line: 23549
+    locus: constantine/tenaceft-ksar-23549
+    title: 'Tenaceft. (Ksar)'
+  - start_line: 23579
+    locus: constantine/termatene-bou-23579
+    title: 'Termatène. (Bou)'
+  - start_line: 23584
+    locus: constantine/terrebaza-ubaza-23584
+    title: 'Terrebaza. = Ubaza.'
+  - start_line: 23607
+    locus: constantine/thouda-thabudaeos-23607
+    title: 'Thouda. = Thabudaeos.'
+  - start_line: 23632
+    locus: constantine/tibinet-ksar-23632
+    title: 'Tibinet. (Ksar)'
+  - start_line: 23646
+    locus: constantine/tifa-23646
+    title: 'Tifa.'
+  - start_line: 23651
+    locus: constantine/tifech-tipasa-munie-23651
+    title: 'Tifech. = Tipasa, munie'
+  - start_line: 23680
+    locus: constantine/tihamimine-ain-23680
+    title: 'Tihamimine. (Aïn)'
+  - start_line: 23687
+    locus: constantine/tiharahine-23687
+    title: 'Tiharahine.'
+  - start_line: 23698
+    locus: constantine/tiklat-tubusuptu-colonia-jul-23698
+    title: 'Tiklat. = Tubusuptu colonia Julia Augusta.'
+  - start_line: 23718
+    locus: constantine/tikoubai-colonib-23718
+    title: 'Tikoubaï. = ColonÎB.'
+  - start_line: 23728
+    locus: constantine/tilidjen-ou-hr-hamimat-ain-23728
+    title: 'Tilidjen ou Hr Hamimat. (Aïn)'
+  - start_line: 23738
+    locus: constantine/timedout-ou-ain-rekiza-23738
+    title: 'Timedout ou Aïn Rekiza.'
+  - start_line: 23751
+    locus: constantine/timeridjine-pres-de-ain-sapa-23751
+    title: 'Timeridjine. (Près de Aïn) = Sapadenses.'
+  - start_line: 23759
+    locus: constantine/timgad-thamugam-colonia-23759
+    title: 'Timgad. = Thamugam colonia.'
+  - start_line: 23872
+    locus: constantine/tinn-ain-23872
+    title: 'Tinn. (Aïn)'
+  - start_line: 23886
+    locus: constantine/titaya-djemaa-23886
+    title: 'Titaya. (Djemâa)'
+  - start_line: 23894
+    locus: constantine/tixter-23894
+    title: 'Tixter.'
+  - start_line: 23899
+    locus: constantine/tobna-thubunae-munie-23899
+    title: 'Tobna. = Thubunae munie.'
+  - start_line: 23993
+    locus: constantine/toual-et-23993
+    title: 'Toual. (Et)'
+  - start_line: 24013
+    locus: constantine/tougourt-24013
+    title: 'Tougourt.'
+  - start_line: 24033
+    locus: constantine/toumella-ain-24033
+    title: 'Toumella. (Ain)'
+  - start_line: 24041
+    locus: constantine/tounis-hr-24041
+    title: 'Tounis. (Hr)'
+  - start_line: 24049
+    locus: constantine/tourba-24049
+    title: 'Tourba.'
+  - start_line: 24058
+    locus: constantine/touta-ain-hac-24058
+    title: 'Touta. (Ain) = Hac.'
+  - start_line: 24083
+    locus: constantine/trab-kh-et-24083
+    title: 'Trab. (Kh. et)'
+  - start_line: 24093
+    locus: constantine/turk-ain-24093
+    title: 'Turk. (Aïn)'
+  - start_line: 24105
+    locus: constantine/tyr-ksar-cast-vanarzanense-24105
+    title: 'Tyr. (Ksar) = Cast., Vanarzanense.'
+  - start_line: 24113
+    locus: constantine/verdier-ferme-24113
+    title: 'Verdier. (ferme)'
+  - start_line: 24121
+    locus: constantine/villars-oued-cham-24121
+    title: 'Villars. (Oued Cham.)'
+  - start_line: 24130
+    locus: constantine/youdia-h-24130
+    title: 'Youdia. (H'')'
+  - start_line: 24137
+    locus: constantine/youks-les-bains-ad-aquas-aes-24137
+    title: 'Youks-les-Bains. = Ad Aquas (aesaris?'
+  - start_line: 24177
+    locus: constantine/yousouf-ain-assel-24177
+    title: 'Yousouf. (Aïn Assel)'
+  - start_line: 24186
+    locus: constantine/zaaba-24186
+    title: 'Zaâba.'
+  - start_line: 24191
+    locus: constantine/zada-ain-caput-saltus-horreo-24191
+    title: 'Zada. (Aïn) = Caput Saltus Horreorum.'
+  - start_line: 24219
+    locus: constantine/zana-ain-diana-veteranorum-m-24219
+    title: 'Zana. (Ain) = Diana Veteranorum munie.'
+  - start_line: 24247
+    locus: constantine/zarouria-24247
+    title: 'Zarouria.'
+  - start_line: 24306
+    locus: constantine/zekri-bordj-ben-sigus-24306
+    title: 'Zekri. (Bordj ben) = Sigus.'
+  - start_line: 24329
+    locus: constantine/zembia-24329
+    title: 'Zembia.'
+  - start_line: 24334
+    locus: constantine/zemzem-bir-bou-24334
+    title: 'Zemzem. (Bir bou)'
+  - start_line: 24345
+    locus: constantine/zeraba-ain-24345
+    title: 'Zeraba. (Aïn)'
+  - start_line: 24353
+    locus: constantine/zerdan-24353
+    title: 'Zerdan.'
+  - start_line: 24360
+    locus: constantine/zerga-kh-cellae-24360
+    title: 'Zerga. (Kh.) = Cellae.'
+  - start_line: 24381
+    locus: constantine/zeriba-bou-24381
+    title: 'Zeriba. (Bou)'
+  - start_line: 24389
+    locus: constantine/zeribet-el-oued-24389
+    title: 'Zeribet el Oued.'
+  - start_line: 24396
+    locus: constantine/ziad-douar-des-beni-mastar-24396
+    title: 'Ziad. (Douar des Béni) = Mastar.'
+  - start_line: 24409
+    locus: constantine/ziama-choba-munie-24409
+    title: 'Ziama. = Choba munie.'
+  - start_line: 24425
+    locus: constantine/zid-ou-ksar-amar-ksar-ouled-24425
+    title: 'Zid ou Ksar Amar. (Ksar Ouled)'
+  - start_line: 24446
+    locus: constantine/zioun-kef-bon-zattara-munie-24446
+    title: 'Zioun. (Kef bon) == Zattarà munie.'
+  - start_line: 24492
+    locus: constantine/zireg-bir-ben-24492
+    title: 'Zireg. (Bir ben)'
+  - start_line: 24501
+    locus: constantine/zmala-mechta-24501
+    title: 'Zmala. (Mechta)'
+  - start_line: 24511
+    locus: constantine/zora-h-24511
+    title: 'Zora. (H»'')'
+  - start_line: 24518
+    locus: constantine/zoui-ain-vazaivi-24518
+    title: 'Zoui. (Aïn) — Vazaïvi.'
+  - start_line: 24562
+    locus: constantine/zoura-hr-24562
+    title: 'Zoura. (Hr)'
+  - start_line: 24577
+    locus: constantine/zraia-zarai-munie-24577
+    title: 'Zraïa. = Zaraï munie .'
+  - start_line: 24596
+    locus: constantine/zrazer-ain-24596
+    title: 'Zrazer. (Aïn)'
+  - start_line: 24604
+    locus: numidie-nonidentifies
+  - start_line: 24607
+    locus: numidie-nonidentifies/numidie-et-mauretanie-sitifi-24607
+    title: 'NUMIDIE ET MAURÉTANIE SITIFIENNE'
+  - start_line: 24610
+    locus: numidie-nonidentifies/aiura-ou-azura-et-peut-etre-24610
+    title: 'Aiura ou Azura et peut-être Auzura.'
+  - start_line: 24634
+    locus: numidie-nonidentifies/ampora-24634
+    title: 'Ampora.'
+  - start_line: 24649
+    locus: numidie-nonidentifies/aquae-de-numidie-24649
+    title: 'Aquae de Numidie.'
+  - start_line: 24669
+    locus: numidie-nonidentifies/aquae-aleae-de-sitifienne-24669
+    title: 'Aquae Aleae, de Sitifienne.'
+  - start_line: 24679
+    locus: numidie-nonidentifies/aquae-magarmelitaxae-24679
+    title: 'Aquae Magarmelitaxae.'
+  - start_line: 24693
+    locus: numidie-nonidentifies/aquae-novae-de-numidie-24693
+    title: 'Aquae Novae, de Numidie.'
+  - start_line: 24703
+    locus: numidie-nonidentifies/arae-24703
+    title: 'Arae.'
+  - start_line: 24733
+    locus: numidie-nonidentifies/asuoremixta-24733
+    title: 'ASUOREMIXTA.'
+  - start_line: 24740
+    locus: numidie-nonidentifies/augurus-24740
+    title: 'Augurus.'
+  - start_line: 24759
+    locus: numidie-nonidentifies/ausuccuru-24759
+    title: 'Ausuccuru.'
+  - start_line: 24784
+    locus: numidie-nonidentifies/barra-24784
+    title: 'Barra.'
+  - start_line: 24799
+    locus: numidie-nonidentifies/baiesi-24799
+    title: 'Baiesi.'
+  - start_line: 24804
+    locus: numidie-nonidentifies/bamaccora-24804
+    title: 'Bamaccora.'
+  - start_line: 24825
+    locus: numidie-nonidentifies/banzara-24825
+    title: 'Banzara.'
+  - start_line: 24839
+    locus: numidie-nonidentifies/baricis-de-24839
+    title: 'Baricis. (De)'
+  - start_line: 24858
+    locus: numidie-nonidentifies/belesasa-24858
+    title: 'Belesasa.'
+  - start_line: 24864
+    locus: numidie-nonidentifies/bercera-24864
+    title: 'Bercera.'
+  - start_line: 24870
+    locus: numidie-nonidentifies/betagbara-24870
+    title: 'Betagbara.'
+  - start_line: 24881
+    locus: numidie-nonidentifies/bocconia-24881
+    title: 'BOCCONIA.'
+  - start_line: 24889
+    locus: numidie-nonidentifies/boset-amphoraria-24889
+    title: 'Boset Amphoraria.'
+  - start_line: 24905
+    locus: numidie-nonidentifies/buffada-24905
+    title: 'BUFFADA.'
+  - start_line: 24912
+    locus: numidie-nonidentifies/bl-rca-24912
+    title: 'Bl RCA.'
+  - start_line: 24949
+    locus: numidie-nonidentifies/gapsa-numidiae-24949
+    title: 'Gapsa Numidiae.'
+  - start_line: 24953
+    locus: numidie-nonidentifies/garsamus-24953
+    title: 'Garsamus.'
+  - start_line: 24959
+    locus: numidie-nonidentifies/gasae-bastalae-24959
+    title: 'Gasae Bastalae.'
+  - start_line: 24969
+    locus: numidie-nonidentifies/gasae-calanae-24969
+    title: 'Gasae Calanae.'
+  - start_line: 24996
+    locus: numidie-nonidentifies/gasae-favenses-24996
+    title: 'Gasae Favenses.'
+  - start_line: 25011
+    locus: numidie-nonidentifies/gasae-medianae-25011
+    title: 'Gasae Medianae'
+  - start_line: 25027
+    locus: numidie-nonidentifies/gasae-sylvanae-25027
+    title: 'Gasae Sylvanae.'
+  - start_line: 25036
+    locus: numidie-nonidentifies/castamage-25036
+    title: 'Castamage.'
+  - start_line: 25046
+    locus: numidie-nonidentifies/castellum-mauretaniae-sitife-25046
+    title: 'Castellum Mauretaniae Sitifensis.'
+  - start_line: 25063
+    locus: numidie-nonidentifies/castellum-numidiac-25063
+    title: 'Castellum Numidiac.'
+  - start_line: 25086
+    locus: numidie-nonidentifies/castellum-siniti-25086
+    title: 'Castellum Siniti.'
+  - start_line: 25119
+    locus: numidie-nonidentifies/gastellum-tituli-25119
+    title: 'Gastellum Tituli.'
+  - start_line: 25150
+    locus: numidie-nonidentifies/castra-galbae-25150
+    title: 'Castra Galbae.'
+  - start_line: 25163
+    locus: numidie-nonidentifies/castrum-bedera-25163
+    title: 'Castrum Bedera.'
+  - start_line: 25185
+    locus: numidie-nonidentifies/cataquas-25185
+    title: 'Cataquas.'
+  - start_line: 25238
+    locus: numidie-nonidentifies/ced-amusa-25238
+    title: 'CED AMUSA.'
+  - start_line: 25254
+    locus: numidie-nonidentifies/gemerinianus-25254
+    title: 'Gemerinianus.'
+  - start_line: 25285
+    locus: numidie-nonidentifies/centuriae-25285
+    title: 'Centuriae.'
+  - start_line: 25316
+    locus: numidie-nonidentifies/egerenisium-25316
+    title: 'Egerenisium.'
+  - start_line: 25325
+    locus: numidie-nonidentifies/eminentiana-25325
+    title: 'Eminentiana.'
+  - start_line: 25337
+    locus: numidie-nonidentifies/fata-25337
+    title: 'Fata.'
+  - start_line: 25343
+    locus: numidie-nonidentifies/fessei-25343
+    title: 'Fesseï.'
+  - start_line: 25349
+    locus: numidie-nonidentifies/forma-25349
+    title: 'Forma.'
+  - start_line: 25383
+    locus: numidie-nonidentifies/fussala-25383
+    title: 'Fussala.'
+  - start_line: 25387
+    locus: numidie-nonidentifies/gaudiaba-et-gazabiana-25387
+    title: 'Gaudiaba et Gazabiana.'
+  - start_line: 25396
+    locus: numidie-nonidentifies/gazabiana-25396
+    title: 'Gazabiana.'
+  - start_line: 25399
+    locus: numidie-nonidentifies/g-au-ri-an-a-25399
+    title: 'G AU RI AN A.'
+  - start_line: 25412
+    locus: numidie-nonidentifies/gegi-25412
+    title: 'Gegi.'
+  - start_line: 25422
+    locus: numidie-nonidentifies/grilba-i-et-ii-25422
+    title: 'GrILBA. I et II.'
+  - start_line: 25436
+    locus: numidie-nonidentifies/giru-ou-guiru-25436
+    title: 'Giru ou Guiru.'
+  - start_line: 25465
+    locus: numidie-nonidentifies/giru-marcelli-25465
+    title: 'Giru Marcellî.'
+  - start_line: 25484
+    locus: numidie-nonidentifies/giru-tarasi-25484
+    title: 'Giru Tarasi.'
+  - start_line: 25503
+    locus: numidie-nonidentifies/guzabeta-25503
+    title: 'Guzabeta.'
+  - start_line: 25518
+    locus: numidie-nonidentifies/hlzirzaua-25518
+    title: 'HlZIRZAUA.'
+  - start_line: 25524
+    locus: numidie-nonidentifies/hospita-25524
+    title: 'Hospita.'
+  - start_line: 25536
+    locus: numidie-nonidentifies/idassa-25536
+    title: 'Idassa.'
+  - start_line: 25556
+    locus: numidie-nonidentifies/jactera-25556
+    title: 'Jactera.'
+  - start_line: 25561
+    locus: numidie-nonidentifies/jucundiana-25561
+    title: 'JUCUNDIANA.'
+  - start_line: 25580
+    locus: numidie-nonidentifies/lamfocta-25580
+    title: 'Lamfocta.'
+  - start_line: 25603
+    locus: numidie-nonidentifies/lamfua-25603
+    title: 'Lamfua.'
+  - start_line: 25618
+    locus: numidie-nonidentifies/leges-25618
+    title: 'Leges.'
+  - start_line: 25637
+    locus: numidie-nonidentifies/leoia-25637
+    title: 'Leoia.'
+  - start_line: 25650
+    locus: numidie-nonidentifies/legis-volumni-25650
+    title: 'Legis Volumni.'
+  - start_line: 25682
+    locus: numidie-nonidentifies/liberalia-25682
+    title: 'Liberalia.'
+  - start_line: 25702
+    locus: numidie-nonidentifies/limata-25702
+    title: 'Limata.'
+  - start_line: 25719
+    locus: numidie-nonidentifies/lugura-25719
+    title: 'Lugura.'
+  - start_line: 25730
+    locus: numidie-nonidentifies/macomades-rusticiana-25730
+    title: 'Macomades Rusticiana.'
+  - start_line: 25749
+    locus: numidie-nonidentifies/macriawa-25749
+    title: 'Macriawa.'
+  - start_line: 25772
+    locus: numidie-nonidentifies/mades-25772
+    title: 'Mades.'
+  - start_line: 25789
+    locus: numidie-nonidentifies/maronana-25789
+    title: 'Maronana.'
+  - start_line: 25800
+    locus: numidie-nonidentifies/mathara-25800
+    title: 'Mathara.'
+  - start_line: 25815
+    locus: numidie-nonidentifies/maximiana-25815
+    title: 'Maximiana.'
+  - start_line: 25834
+    locus: numidie-nonidentifies/mazaca-25834
+    title: 'Mazaca.'
+  - start_line: 25861
+    locus: numidie-nonidentifies/meta-25861
+    title: 'Meta.'
+  - start_line: 25873
+    locus: numidie-nonidentifies/molicunta-25873
+    title: 'MOLICUNTA.'
+  - start_line: 25891
+    locus: numidie-nonidentifies/mons-ou-monte-25891
+    title: 'Mons ou Monte.'
+  - start_line: 25928
+    locus: numidie-nonidentifies/moxori-25928
+    title: 'Moxori.'
+  - start_line: 25935
+    locus: numidie-nonidentifies/mu-lia-25935
+    title: 'Mu LIA.'
+  - start_line: 25951
+    locus: numidie-nonidentifies/municipa-25951
+    title: 'Municipa.'
+  - start_line: 25953
+    locus: numidie-nonidentifies/eveche-more-gcclxxxviii-toul-25953
+    title: 'Ëvêché. More, GCCLXXXVIII. — TouL, Num.t CXI.'
+  - start_line: 25962
+    locus: numidie-nonidentifies/musti-numidiae-25962
+    title: 'Musti Numidiae.'
+  - start_line: 25981
+    locus: numidie-nonidentifies/mutugenna-25981
+    title: 'MUTUGENNA.'
+  - start_line: 25996
+    locus: numidie-nonidentifies/xaratcata-25996
+    title: 'Xaratcata'
+  - start_line: 26010
+    locus: numidie-nonidentifies/nasai-26010
+    title: 'Nasaï.'
+  - start_line: 26018
+    locus: numidie-nonidentifies/nebbi-26018
+    title: 'Nebbi.'
+  - start_line: 26033
+    locus: numidie-nonidentifies/nlgizubi-26033
+    title: 'NlGIZUBI.'
+  - start_line: 26041
+    locus: numidie-nonidentifies/nouzidias-26041
+    title: 'NOUZIDIAS.'
+  - start_line: 26058
+    locus: numidie-nonidentifies/nova-barbara-26058
+    title: 'Nova Barbara.'
+  - start_line: 26067
+    locus: numidie-nonidentifies/nova-caesaris-26067
+    title: 'Nova Caesaris.'
+  - start_line: 26073
+    locus: numidie-nonidentifies/nova-germania-26073
+    title: 'Nova Germania.'
+  - start_line: 26087
+    locus: numidie-nonidentifies/nova-sinna-26087
+    title: 'Nova Sinna.'
+  - start_line: 26102
+    locus: numidie-nonidentifies/octaya-26102
+    title: 'Octaya.'
+  - start_line: 26125
+    locus: numidie-nonidentifies/olivam-ad-26125
+    title: 'Olivam. (Ad)'
+  - start_line: 26148
+    locus: numidie-nonidentifies/oppina-26148
+    title: 'Oppina.'
+  - start_line: 26155
+    locus: numidie-nonidentifies/oria-26155
+    title: 'Oria.'
+  - start_line: 26165
+    locus: numidie-nonidentifies/partenia-26165
+    title: 'Partenia.'
+  - start_line: 26172
+    locus: numidie-nonidentifies/pauzera-26172
+    title: 'Pauzera.'
+  - start_line: 26187
+    locus: numidie-nonidentifies/privata-26187
+    title: 'Privata.'
+  - start_line: 26216
+    locus: numidie-nonidentifies/pudentiana-26216
+    title: 'PUDENTIANA.'
+  - start_line: 26265
+    locus: numidie-nonidentifies/putia-de-numidie-26265
+    title: 'Putia de Numidie.'
+  - start_line: 26275
+    locus: numidie-nonidentifies/putizia-26275
+    title: 'PUTIZIA.'
+  - start_line: 26283
+    locus: numidie-nonidentifies/respecta-26283
+    title: 'Respecta.'
+  - start_line: 26289
+    locus: numidie-nonidentifies/ressiana-26289
+    title: 'Ressiana.'
+  - start_line: 26305
+    locus: numidie-nonidentifies/seleuciana-26305
+    title: 'Seleuciana.'
+  - start_line: 26316
+    locus: numidie-nonidentifies/sllgita-26316
+    title: 'SlLGITA.'
+  - start_line: 26323
+    locus: numidie-nonidentifies/silli-26323
+    title: 'Silli.'
+  - start_line: 26338
+    locus: numidie-nonidentifies/slstromaxa-26338
+    title: 'SlSTROMAXA.'
+  - start_line: 26345
+    locus: numidie-nonidentifies/socia-26345
+    title: 'Socia.'
+  - start_line: 26351
+    locus: numidie-nonidentifies/stotasa-26351
+    title: 'Stotasa.'
+  - start_line: 26365
+    locus: numidie-nonidentifies/suava-26365
+    title: 'Suava.'
+  - start_line: 26373
+    locus: numidie-nonidentifies/suggi-26373
+    title: 'SUGGI.'
+  - start_line: 26378
+    locus: numidie-nonidentifies/sulli-26378
+    title: 'SULLI.'
+  - start_line: 26387
+    locus: numidie-nonidentifies/summa-ou-zumma-26387
+    title: 'SUMMA OU ZUMMA.'
+  - start_line: 26410
+    locus: numidie-nonidentifies/susicazia-26410
+    title: 'SUSICAZIA.'
+  - start_line: 26423
+    locus: numidie-nonidentifies/tacarata-26423
+    title: 'Tacarata.'
+  - start_line: 26436
+    locus: numidie-nonidentifies/ta-rasa-26436
+    title: 'Ta RASA.'
+  - start_line: 26457
+    locus: numidie-nonidentifies/teglata-26457
+    title: 'Teglata.'
+  - start_line: 26468
+    locus: numidie-nonidentifies/tliiava-26468
+    title: 'TlIIAVA.'
+  - start_line: 26487
+    locus: numidie-nonidentifies/thibuzabetum-26487
+    title: 'Thibuzabetum.'
+  - start_line: 26491
+    locus: numidie-nonidentifies/tinista-26491
+    title: 'Tinista.'
+  - start_line: 26501
+    locus: numidie-nonidentifies/tisaniana-26501
+    title: 'Tisaniana.'
+  - start_line: 26510
+    locus: numidie-nonidentifies/tisedi-26510
+    title: 'Tisedi.'
+  - start_line: 26531
+    locus: numidie-nonidentifies/tullia-26531
+    title: 'TULLIA.'
+  - start_line: 26537
+    locus: numidie-nonidentifies/cipa-26537
+    title: 'CIPA.'
+  - start_line: 26544
+    locus: numidie-nonidentifies/turres-ammeniae-26544
+    title: 'TURRES AMMENIAE.'
+  - start_line: 26569
+    locus: numidie-nonidentifies/ttfrbes-goncordiae-26569
+    title: 'TtfRBES GONCORDIAE.'
+  - start_line: 26585
+    locus: numidie-nonidentifies/turris-26585
+    title: 'Turris.'
+  - start_line: 26613
+    locus: numidie-nonidentifies/turris-alba-26613
+    title: 'Turris Alba.'
+  - start_line: 26626
+    locus: numidie-nonidentifies/turris-rotunda-26626
+    title: 'Turris Rotunda.'
+  - start_line: 26635
+    locus: numidie-nonidentifies/turuda-26635
+    title: 'TURUDA.'
+  - start_line: 26648
+    locus: numidie-nonidentifies/ulli-26648
+    title: 'Ulli.'
+  - start_line: 26655
+    locus: numidie-nonidentifies/urga-26655
+    title: 'Urga.'
+  - start_line: 26664
+    locus: numidie-nonidentifies/utma-26664
+    title: 'Utma.'
+  - start_line: 26675
+    locus: numidie-nonidentifies/vada-26675
+    title: 'Vada.'
+  - start_line: 26692
+    locus: numidie-nonidentifies/vadesi-26692
+    title: 'Vadesi.'
+  - start_line: 26701
+    locus: numidie-nonidentifies/vagada-26701
+    title: 'Vagada.'
+  - start_line: 26715
+    locus: numidie-nonidentifies/vageata-26715
+    title: 'Vageata.'
+  - start_line: 26726
+    locus: numidie-nonidentifies/vagrauta-26726
+    title: 'Vagrauta.'
+  - start_line: 26732
+    locus: numidie-nonidentifies/vatarba-26732
+    title: 'Vatarba.'
+  - start_line: 26741
+    locus: numidie-nonidentifies/yelefi-26741
+    title: 'Yelefi .'
+  - start_line: 26755
+    locus: numidie-nonidentifies/yensana-26755
+    title: 'Yensana.'
+  - start_line: 26767
+    locus: numidie-nonidentifies/veseli-26767
+    title: 'Veseli.'
+  - start_line: 26774
+    locus: numidie-nonidentifies/vices-pagatensis-26774
+    title: 'Vices Pàgàtensis.'
+  - start_line: 26804
+    locus: numidie-nonidentifies/villa-regis-ou-regia-26804
+    title: 'Villa Régis ou Regia.'
+  - start_line: 26834
+    locus: numidie-nonidentifies/villa-victoriana-26834
+    title: 'Villa Victoriana.'
+  - start_line: 26838
+    locus: numidie-nonidentifies/visa-26838
+    title: 'Visa.'
+  - start_line: 26847
+    locus: numidie-nonidentifies/zaba-26847
+    title: 'Zaba.'
+  - start_line: 26867
+    locus: numidie-nonidentifies/zallata-26867
+    title: 'Zallata.'
+  - start_line: 26873
+    locus: numidie-nonidentifies/zerta-de-xumidie-26873
+    title: 'Zerta de Xumidie.'
+  - start_line: 26890
+    locus: alger
+  - start_line: 26893
+    locus: alger/affreville-malliana-26893
+    title: 'Affreville. = Malliana ?'
+  - start_line: 26904
+    locus: alger/aguemmoun-oubekkar-26904
+    title: 'Aguemmoun Oubekkar.'
+  - start_line: 26923
+    locus: alger/aicha-col-des-beni-26923
+    title: 'Aïcha. (Col des Béni)'
+  - start_line: 26936
+    locus: alger/alger-icosium-26936
+    title: 'Alger. = Icosium.'
+  - start_line: 26970
+    locus: alger/musee-d-alger-par-de-la-blan-26970
+    title: 'Musée d''Alger, par de la Blanchère.'
+  - start_line: 26995
+    locus: alger/ameur-ain-el-rapida-castra-26995
+    title: 'Ameur. (Aïn el) = Rapida Castra ?'
+  - start_line: 27007
+    locus: alger/aneb-ain-el-27007
+    title: 'Aneb. (Aïn el)'
+  - start_line: 27017
+    locus: alger/aumale-sour-kliozlan-auzia-27017
+    title: 'Aumale. (Sour Kliozlan) = Auzia.'
+  - start_line: 27060
+    locus: alger/berard-casae-galventi-27060
+    title: 'Bérard == Casae Galventi ?'
+  - start_line: 27084
+    locus: alger/berrouaghia-thanar-27084
+    title: 'Berrouaghia = Thanar...'
+  - start_line: 27146
+    locus: alger/bessem-ain-27146
+    title: 'Bessem. (Aïn)'
+  - start_line: 27155
+    locus: alger/boghar-et-boghari-27155
+    title: 'Boghar et Boghari.'
+  - start_line: 27167
+    locus: alger/bourbaki-ain-toukria-golumna-27167
+    title: 'Bourbaki. (Aïn Toukria) = Golumnata.'
+  - start_line: 27187
+    locus: alger/brahim-sidi-gunuou-27187
+    title: 'Brahim. (Sidi) = Gunuou.'
+  - start_line: 27203
+    locus: alger/carnot-27203
+    title: 'Carnot.'
+  - start_line: 27211
+    locus: alger/castiglione-bou-smail-27211
+    title: 'Castiglione. (Bou [smaïl.)'
+  - start_line: 27236
+    locus: alger/ced-ed-djir-27236
+    title: 'Ced ed Djir.'
+  - start_line: 27247
+    locus: alger/chellala-au-n-de-27247
+    title: 'Chellala. (Au N. de)'
+  - start_line: 27257
+    locus: alger/chellala-des-adaoura-ou-ain-27257
+    title: 'Chellala des Adaoura ou Aïn Chellala.'
+  - start_line: 27269
+    locus: alger/cherchel-gaesarea-27269
+    title: 'Cherchel. = Gaesarea.'
+  - start_line: 27397
+    locus: alger/musee-de-cherchel-par-gauckl-27397
+    title: 'Musée de Cherchel, par Gauckler.'
+  - start_line: 27406
+    locus: alger/daas-ruines-de-l-o-vabar-27406
+    title: 'Daas. (Ruines de l''O.) = Vabar ?'
+  - start_line: 27419
+    locus: alger/dalia-ain-ed-27419
+    title: 'Dalia. (Aïn ed)'
+  - start_line: 27427
+    locus: alger/defla-ain-27427
+    title: 'Defla. (Aïn)'
+  - start_line: 27434
+    locus: alger/dellys-cissi-27434
+    title: 'Dellys. = Cïssi?'
+  - start_line: 27464
+    locus: alger/djemaa-sahridj-bida-munie-27464
+    title: 'Djemâa Sahridj. = Bida munie.'
+  - start_line: 27479
+    locus: alger/djer-r-r-de-l-oued-27479
+    title: 'Djer. (R. R. de l''Oued)'
+  - start_line: 27487
+    locus: alger/djinet-mersa-27487
+    title: 'Djinet. (Mersa)'
+  - start_line: 27495
+    locus: alger/djouab-sour-27495
+    title: 'Djouab. (Sour)'
+  - start_line: 27499
+    locus: alger/dolf-us-ville-amoura-sufasar-27499
+    title: 'Dolf us ville. (Amoura) = Sufasar.'
+  - start_line: 27552
+    locus: alger/dupleix-gartili-27552
+    title: 'Dupleix. = Gartili?'
+  - start_line: 27572
+    locus: alger/ferruch-sidi-obori-27572
+    title: 'Ferruch. (Sidi) = Obori ?'
+  - start_line: 27599
+    locus: alger/fodda-pont-de-l-o-27599
+    title: 'Fodda. (Pont de l''O.)'
+  - start_line: 27603
+    locus: alger/ghorfa-des-ouled-meriem-27603
+    title: 'Ghorfa des Ouled Meriem.'
+  - start_line: 27612
+    locus: alger/ghorfa-des-ouled-selama-27612
+    title: 'Ghorfa des Ouled Selama.'
+  - start_line: 27622
+    locus: alger/gouea-kh-el-djouhala-caput-c-27622
+    title: 'Gouéa. (Kh. el Djouhala.) = Caput Cilani ?'
+  - start_line: 27649
+    locus: alger/gueydon-port-ou-azeffoun-rus-27649
+    title: 'Gueydon (Port) ou Azeffoun. = Rusazus ?'
+  - start_line: 27667
+    locus: alger/guitoun-blad-27667
+    title: 'Guitoun. (Blad)'
+  - start_line: 27686
+    locus: alger/hammam-righa-aquae-galidae-27686
+    title: 'Hammam Righa. = Aquae Galidae.'
+  - start_line: 27753
+    locus: alger/imilaen-lar-gastellum-27753
+    title: 'Imilaen. = Lar Gastellum ?'
+  - start_line: 27769
+    locus: alger/ismail-bou-27769
+    title: 'Ismaïl. (Bou)'
+  - start_line: 27773
+    locus: alger/isser-de-kabylie-oued-usar-27773
+    title: 'Isser de Kabylie. (Oued) = Usar?'
+  - start_line: 27803
+    locus: alger/kalaa-27803
+    title: 'Kalaa.'
+  - start_line: 27815
+    locus: alger/kherba-el-tigava-munie-27815
+    title: 'Kherba. (El) = Tigava munie.'
+  - start_line: 27865
+    locus: alger/kherba-27865
+    title: 'Kherba.'
+  - start_line: 27872
+    locus: alger/lamartine-pres-de-27872
+    title: 'Lamartine. (Près de)'
+  - start_line: 27881
+    locus: alger/laperouse-matifou-rlsgumae-27881
+    title: 'Lapérouse. (Matifou.) = Rlsgumae.'
+  - start_line: 27886
+    locus: alger/ereche-more-cccclxxi-toul-ma-27886
+    title: 'Érêché. More, CCCCLXXI. — Toul., Maurét., LXXXVII.'
+  - start_line: 27946
+    locus: alger/letourneux-derrag-27946
+    title: 'Letourneux. (Derrag.)'
+  - start_line: 27959
+    locus: alger/maelma-27959
+    title: 'Maelma.'
+  - start_line: 27969
+    locus: alger/masqueray-sour-djouab-rapidi-27969
+    title: 'Masqueray. (Sour Djouab.) = Rapidi.'
+  - start_line: 27997
+    locus: alger/medea-lamdia-ou-lambia-27997
+    title: 'Médéa. = Lamdia ou Lambia.'
+  - start_line: 28025
+    locus: alger/menerville-bcnian-mta-souma-28025
+    title: 'Ménerville. (Bcnian mta Souma.)'
+  - start_line: 28036
+    locus: alger/menza-bent-es-soltan-28036
+    title: 'Menza bent es Soltan.'
+  - start_line: 28056
+    locus: alger/merahba-beni-28056
+    title: 'Merahba. (Béni)'
+  - start_line: 28066
+    locus: alger/mers-el-hadjedj-rusubbicari-28066
+    title: 'Mers el Hadjedj. = Rusubbicari.'
+  - start_line: 28097
+    locus: alger/miliana-zucchabar-28097
+    title: 'Miliana. = Zucchabar ?'
+  - start_line: 28121
+    locus: alger/moudjebeur-28121
+    title: 'Moudjebeur.'
+  - start_line: 28130
+    locus: alger/mouzaia-les-mines-28130
+    title: 'Mouzaïa-les-Mines.'
+  - start_line: 28142
+    locus: alger/mouzaia-ville-el-hadjeb-28142
+    title: 'Mouzaïa ville. (El Hadjeb).'
+  - start_line: 28157
+    locus: alger/novi-28157
+    title: 'Novi.'
+  - start_line: 28167
+    locus: alger/orleans-ville-el-asnam-cast-28167
+    title: 'Orléans ville. (El Asnam) = Cast. Tingitii.'
+  - start_line: 28255
+    locus: alger/orleansville-et-ponteba-entr-28255
+    title: 'Orléansville et Pontéba. (Entre)'
+  - start_line: 28275
+    locus: alger/ras-bou-arsennaria-28275
+    title: 'Ras. (Bou) = Arsennaria.'
+  - start_line: 28291
+    locus: alger/romanette-f-ne-28291
+    title: 'Romanette. (F,ne)'
+  - start_line: 28296
+    locus: alger/rouina-28296
+    title: 'Rouina.'
+  - start_line: 28309
+    locus: alger/roumi-ou-ksar-tala-ksar-28309
+    title: 'Roumi ou Ksar Tala. (Ksar)'
+  - start_line: 28316
+    locus: alger/saneg-usinaza-28316
+    title: 'Saneg. = Usinaza.'
+  - start_line: 28325
+    locus: alger/sfisifa-kh-de-28325
+    title: 'Sfisifa. (Kh. de)'
+  - start_line: 28332
+    locus: alger/smir-ou-oued-ouerk-28332
+    title: 'Smir ou Oued Ouerk.'
+  - start_line: 28341
+    locus: alger/souk-el-khemis-tatilti-28341
+    title: 'Souk el Khemis. = Tatilti.'
+  - start_line: 28368
+    locus: alger/souk-et-tlata-28368
+    title: 'Souk et Tlata.'
+  - start_line: 28372
+    locus: alger/staoueli-28372
+    title: 'Staouéli.'
+  - start_line: 28380
+    locus: alger/tablast-28380
+    title: 'Tablast.'
+  - start_line: 28386
+    locus: alger/tablat-tabla-28386
+    title: 'Tablât. = Tabla.'
+  - start_line: 28419
+    locus: alger/eveche-more-dxxxviii-toul-ma-28419
+    title: 'Ëvêché. More, DXXXVIII. — Toul., Maurél., CVI.'
+  - start_line: 28431
+    locus: alger/tachachit-28431
+    title: 'Tachachit.'
+  - start_line: 28438
+    locus: alger/taga-bon-28438
+    title: 'Taga. (Bon)'
+  - start_line: 28447
+    locus: alger/takitount-28447
+    title: 'Takitount.'
+  - start_line: 28456
+    locus: alger/taksebt-28456
+    title: 'Taksebt.'
+  - start_line: 28464
+    locus: alger/tala-bounane-28464
+    title: 'Tala Bounane.'
+  - start_line: 28475
+    locus: alger/tamda-ain-28475
+    title: 'Tamda. (Ain)'
+  - start_line: 28490
+    locus: alger/taourga-tigisi-28490
+    title: 'Taourga. = Tigisi ?'
+  - start_line: 28508
+    locus: alger/tenes-cartennas-28508
+    title: 'Tenès. = Cartennas.'
+  - start_line: 28557
+    locus: alger/thiour-sidi-ben-vagal-28557
+    title: 'Thiour. (Sidi ben) = Vagal ?'
+  - start_line: 28575
+    locus: alger/tigzirt-rusuccuru-28575
+    title: 'Tigzirt. = Rusuccuru ?'
+  - start_line: 28628
+    locus: alger/tikoubaine-tigisi-28628
+    title: 'Tikoubaïne. = Tigisi ?'
+  - start_line: 28639
+    locus: alger/tipasa-tipasa-28639
+    title: 'Tipasa. = Tipasa.'
+  - start_line: 28767
+    locus: alger/tipasa-et-cherchel-entre-28767
+    title: 'Tipasa et Cherchel. (Entre)'
+  - start_line: 28787
+    locus: alger/vialar-tessemsil-28787
+    title: 'Vialar. (Tessemsil.)'
+  - start_line: 28796
+    locus: alger/yerroum-28796
+    title: 'Yerroum.'
+  - start_line: 28807
+    locus: alger/zerga-tres-de-la-kmibba-28807
+    title: 'Zerga. (Très de La Kmibba. )'
+  - start_line: 28816
+    locus: oran
+  - start_line: 28819
+    locus: oran/abdelli-sidi-tepidje-28819
+    title: 'Abdelli. (Sidi) = Tepidje?'
+  - start_line: 28825
+    locus: oran/aime-sl-ou-djidioua-gadaum-c-28825
+    title: 'Aimé. (SL) ou Djidioua. = Gadaum Castra?'
+  - start_line: 28836
+    locus: oran/aissaouat-ou-aouissat-kh-des-28836
+    title: 'Aïssaouat ou Aouissat. (Kh. des)'
+  - start_line: 28853
+    locus: oran/ammi-moussa-28853
+    title: 'Ammi-Moussa.'
+  - start_line: 28874
+    locus: oran/andalouses-les-castra-pueror-28874
+    title: 'Andalouses. (Les) = Castra puerorum ?'
+  - start_line: 28886
+    locus: oran/arbal-ad-regias-28886
+    title: 'Arbal, = Ad Regias.'
+  - start_line: 28908
+    locus: oran/arzeu-s-leu-portus-magnus-28908
+    title: 'Arzeu, S''-Leu. = Portus Magnus.'
+  - start_line: 28919
+    locus: oran/benian-ala-miliaria-28919
+    title: 'Bénian. = Ala Miliaria.'
+  - start_line: 28967
+    locus: oran/bridj-ain-el-28967
+    title: 'Bridj. (Ain el)'
+  - start_line: 28977
+    locus: oran/chanzy-ali-ben-youb-caput-ta-28977
+    title: 'Chanzy. (Ali ben Youb) = Caput Tasaccora.'
+  - start_line: 28989
+    locus: oran/damouni-28989
+    title: 'Damouni.'
+  - start_line: 28994
+    locus: oran/demana-ou-el-kenisia-ksar-28994
+    title: 'Demana ou El Kenisia. (Ksar)'
+  - start_line: 29019
+    locus: oran/derrag-29019
+    title: 'Derrag.'
+  - start_line: 29025
+    locus: oran/dublineau-el-hammam-29025
+    title: 'Dublineau. (El Hammam)'
+  - start_line: 29035
+    locus: oran/guetna-29035
+    title: 'Guetna.'
+  - start_line: 29046
+    locus: oran/hammam-bou-hadjar-ad-dracone-29046
+    title: 'Hammam bou Hadjar. = Ad Dracones?'
+  - start_line: 29066
+    locus: oran/hammam-bou-hanifia-aquae-sie-29066
+    title: 'Hammam bou Hanifia. == Aquae Sieenses.'
+  - start_line: 29083
+    locus: oran/hillil-l-ballene-praesidium-29083
+    title: 'Hillil. (L'') = Ballene praesidium.'
+  - start_line: 29097
+    locus: oran/honein-gypsaria-29097
+    title: 'Honein. = Gypsaria.'
+  - start_line: 29113
+    locus: oran/inkermann-29113
+    title: 'Inkermann.'
+  - start_line: 29123
+    locus: oran/kaoua-chateau-de-29123
+    title: 'Kaoua. (Château de)'
+  - start_line: 29135
+    locus: oran/kennada-29135
+    title: 'Kennada.'
+  - start_line: 29142
+    locus: oran/khial-ain-29142
+    title: 'Khial. (Ain)'
+  - start_line: 29150
+    locus: oran/lalla-marnia-numerus-syrorum-29150
+    title: 'Lalla Marnia. = Numërus Syrorum.'
+  - start_line: 29209
+    locus: oran/mechera-sfa-29209
+    title: 'Méchéra Sfa.'
+  - start_line: 29232
+    locus: oran/mediouna-29232
+    title: 'Mediouna.'
+  - start_line: 29241
+    locus: oran/merdja-od-29241
+    title: 'Merdja. (Od)'
+  - start_line: 29248
+    locus: oran/mostaganem-29248
+    title: 'Mostaganem.'
+  - start_line: 29255
+    locus: oran/oran-29255
+    title: 'Oran.'
+  - start_line: 29271
+    locus: oran/ouaghef-hadjar-castellum-rip-29271
+    title: 'Ouaghef. (Hadjar) = Castellum Ripae?'
+  - start_line: 29288
+    locus: oran/palikao-29288
+    title: 'Palikao.'
+  - start_line: 29296
+    locus: oran/perr-egaux-castra-nova-29296
+    title: 'Perr égaux. = Castra, Nova.'
+  - start_line: 29318
+    locus: oran/pont-du-chelif-quiza-munie-29318
+    title: 'Pont du Chélif. = Quiza Munie.'
+  - start_line: 29333
+    locus: oran/relizane-mina-29333
+    title: 'Relizane. = Mina.'
+  - start_line: 29348
+    locus: oran/renault-29348
+    title: 'Renault.'
+  - start_line: 29382
+    locus: oran/tagremaret-caput-urbs-29382
+    title: 'Tagremaret. — Caput Urbs.'
+  - start_line: 29397
+    locus: oran/takembrit-siga-29397
+    title: 'Takembrit. = Siga.'
+  - start_line: 29412
+    locus: oran/temouchent-ain-albulae-29412
+    title: 'Temouchent. (Aïn) = Albulae.'
+  - start_line: 29431
+    locus: oran/ternaten-29431
+    title: 'Ternaten.'
+  - start_line: 29446
+    locus: oran/tessala-29446
+    title: 'Tessala.'
+  - start_line: 29455
+    locus: oran/tiaret-29455
+    title: 'Tiaret.'
+  - start_line: 29468
+    locus: oran/timziouine-lucu-29468
+    title: 'Timziouine. = Lucu.'
+  - start_line: 29477
+    locus: oran/tlemcen-pomaria-29477
+    title: 'Tlemcen. = Pomaria.'
+  - start_line: 29500
+    locus: oran/trumelet-damouni-29500
+    title: 'Trumelet. (Damouni)'
+  - start_line: 29514
+    locus: cesarienne-nonidentifies
+  - start_line: 29517
+    locus: cesarienne-nonidentifies/mauretanie-cesarienne-29517
+    title: 'MAURÉTANIE CÉSARIENNE'
+  - start_line: 29520
+    locus: cesarienne-nonidentifies/amaura-29520
+    title: 'Amaura.'
+  - start_line: 29528
+    locus: cesarienne-nonidentifies/ambia-29528
+    title: 'Ambia.'
+  - start_line: 29540
+    locus: cesarienne-nonidentifies/arena-29540
+    title: 'Arena.'
+  - start_line: 29549
+    locus: cesarienne-nonidentifies/bacanaria-29549
+    title: 'Bacanaria.'
+  - start_line: 29558
+    locus: cesarienne-nonidentifies/baliana-29558
+    title: 'Baliana.'
+  - start_line: 29578
+    locus: cesarienne-nonidentifies/benepota-29578
+    title: 'Benepota.'
+  - start_line: 29585
+    locus: cesarienne-nonidentifies/bita-29585
+    title: 'Bita.'
+  - start_line: 29595
+    locus: cesarienne-nonidentifies/buza-29595
+    title: 'Buza.'
+  - start_line: 29600
+    locus: cesarienne-nonidentifies/caltadria-29600
+    title: 'Caltadria.'
+  - start_line: 29607
+    locus: cesarienne-nonidentifies/capra-29607
+    title: 'Capra.'
+  - start_line: 29622
+    locus: cesarienne-nonidentifies/castellum-jabar-29622
+    title: 'Castellum Jabar.'
+  - start_line: 29625
+    locus: cesarienne-nonidentifies/more-gxlviii-toul-mauret-xxi-29625
+    title: 'More., GXLVIII. — Toul., Maurét., XXIV.'
+  - start_line: 29630
+    locus: cesarienne-nonidentifies/castellum-medianum-29630
+    title: 'Castellum Medianum.'
+  - start_line: 29633
+    locus: cesarienne-nonidentifies/more-cxlix-toul-mauret-xxv-29633
+    title: 'More., CXLIX. — Toul., Maurét., XXV.'
+  - start_line: 29640
+    locus: cesarienne-nonidentifies/castellum-minus-29640
+    title: 'Castellum Minus.'
+  - start_line: 29648
+    locus: cesarienne-nonidentifies/castellu-m-tatroportus-29648
+    title: 'Castellu m . Tatroportus.'
+  - start_line: 29658
+    locus: cesarienne-nonidentifies/castra-severiana-29658
+    title: 'Castra Severiana.'
+  - start_line: 29663
+    locus: cesarienne-nonidentifies/catabum-29663
+    title: 'Catabum.'
+  - start_line: 29709
+    locus: cesarienne-nonidentifies/catula-29709
+    title: 'Catula.'
+  - start_line: 29713
+    locus: cesarienne-nonidentifies/corniculana-29713
+    title: 'CORNICULANA.'
+  - start_line: 29720
+    locus: cesarienne-nonidentifies/elephantaria-29720
+    title: 'Elephantaria.'
+  - start_line: 29747
+    locus: cesarienne-nonidentifies/fallaba-29747
+    title: 'Fallaba.'
+  - start_line: 29761
+    locus: cesarienne-nonidentifies/fidoloma-29761
+    title: 'Fidoloma.'
+  - start_line: 29768
+    locus: cesarienne-nonidentifies/flenucleta-29768
+    title: 'Flenucleta.'
+  - start_line: 29776
+    locus: cesarienne-nonidentifies/floriana-29776
+    title: 'Floriana.'
+  - start_line: 29792
+    locus: cesarienne-nonidentifies/fronta-29792
+    title: 'Fronta.'
+  - start_line: 29809
+    locus: cesarienne-nonidentifies/giru-mons-29809
+    title: 'Giru mons.'
+  - start_line: 29820
+    locus: cesarienne-nonidentifies/gratianopolis-29820
+    title: 'Gratianopolis.'
+  - start_line: 29832
+    locus: cesarienne-nonidentifies/ida-i-et-ii-29832
+    title: 'Ida I et II.'
+  - start_line: 29839
+    locus: cesarienne-nonidentifies/iomnium-29839
+    title: 'IOMNIUM.'
+  - start_line: 29857
+    locus: cesarienne-nonidentifies/ita-29857
+    title: 'Ita.'
+  - start_line: 29863
+    locus: cesarienne-nonidentifies/junca-maureianiae-29863
+    title: 'Junca Màureianiae.'
+  - start_line: 29873
+    locus: cesarienne-nonidentifies/maiuca-29873
+    title: 'Maiuca.'
+  - start_line: 29891
+    locus: cesarienne-nonidentifies/mammilla-29891
+    title: 'Mammilla.'
+  - start_line: 29893
+    locus: cesarienne-nonidentifies/more-cccxxxvi-toul-mauret-li-29893
+    title: 'More.. CCCXXXVI. — Toul.. Maurét., LIX.'
+  - start_line: 29909
+    locus: cesarienne-nonidentifies/manaccenser-29909
+    title: 'Manaccenser.'
+  - start_line: 29921
+    locus: cesarienne-nonidentifies/masuccaba-29921
+    title: 'Masuccaba.'
+  - start_line: 29929
+    locus: cesarienne-nonidentifies/maturba-29929
+    title: 'Maturba.'
+  - start_line: 29941
+    locus: cesarienne-nonidentifies/maura-29941
+    title: 'Maura.'
+  - start_line: 29949
+    locus: cesarienne-nonidentifies/mauriana-29949
+    title: 'Mauriana.'
+  - start_line: 29964
+    locus: cesarienne-nonidentifies/maxita-29964
+    title: 'Maxita.'
+  - start_line: 29984
+    locus: cesarienne-nonidentifies/media-29984
+    title: 'Media.'
+  - start_line: 29990
+    locus: cesarienne-nonidentifies/murustaga-29990
+    title: 'MURUSTAGA.'
+  - start_line: 30006
+    locus: cesarienne-nonidentifies/muteci-30006
+    title: 'MUTECI.'
+  - start_line: 30023
+    locus: cesarienne-nonidentifies/nabala-30023
+    title: 'Nabala.'
+  - start_line: 30035
+    locus: cesarienne-nonidentifies/nasbinca-30035
+    title: 'Nasbinca.'
+  - start_line: 30043
+    locus: cesarienne-nonidentifies/noba-i-et-ii-30043
+    title: 'Noba I et II.'
+  - start_line: 30069
+    locus: cesarienne-nonidentifies/novica-30069
+    title: 'Novica.'
+  - start_line: 30080
+    locus: cesarienne-nonidentifies/numidia-ou-numida-30080
+    title: 'NUMIDIA OU NUMIDA.'
+  - start_line: 30089
+    locus: cesarienne-nonidentifies/obbi-30089
+    title: 'Obbi'
+  - start_line: 30097
+    locus: cesarienne-nonidentifies/obori-i-et-ii-30097
+    title: 'Obori I et II.'
+  - start_line: 30111
+    locus: cesarienne-nonidentifies/paxatoria-30111
+    title: 'Paxatoria.'
+  - start_line: 30120
+    locus: cesarienne-nonidentifies/rapida-castra-30120
+    title: 'Rapida Castra.'
+  - start_line: 30141
+    locus: cesarienne-nonidentifies/rhiconorum-ou-rhinocorurum-30141
+    title: 'Rhiconorum ou Rhinocorurum.'
+  - start_line: 30150
+    locus: cesarienne-nonidentifies/rusubisir-30150
+    title: 'Rusubisir.'
+  - start_line: 30164
+    locus: cesarienne-nonidentifies/satafi-de-mauretanie-30164
+    title: 'Satafi de Maurétanie.'
+  - start_line: 30193
+    locus: cesarienne-nonidentifies/serta-30193
+    title: 'Serta.'
+  - start_line: 30204
+    locus: cesarienne-nonidentifies/sesta-30204
+    title: 'Sesta.'
+  - start_line: 30211
+    locus: cesarienne-nonidentifies/sfasferia-30211
+    title: 'Sfasferia.'
+  - start_line: 30218
+    locus: cesarienne-nonidentifies/siccesi-30218
+    title: 'Siccesi.'
+  - start_line: 30233
+    locus: cesarienne-nonidentifies/slnnada-ad-30233
+    title: 'SlNNADA. (Ad)'
+  - start_line: 30258
+    locus: cesarienne-nonidentifies/slta-30258
+    title: 'SlTA.'
+  - start_line: 30260
+    locus: cesarienne-nonidentifies/more-dxvii-toul-maurel-xcvii-30260
+    title: 'More., DXVII. — Toul., MauréL, XCVIII.'
+  - start_line: 30272
+    locus: cesarienne-nonidentifies/subbar-30272
+    title: 'SUBBAR.'
+  - start_line: 30274
+    locus: cesarienne-nonidentifies/more-dxxii-toul-mauret-xcix-30274
+    title: 'More., DXXII. — Toul., Maurét., XCIX.'
+  - start_line: 30280
+    locus: cesarienne-nonidentifies/sucarda-30280
+    title: 'SUCARDA.'
+  - start_line: 30291
+    locus: cesarienne-nonidentifies/sufar-i-et-ii-30291
+    title: 'Sufar I et II.'
+  - start_line: 30313
+    locus: cesarienne-nonidentifies/summula-30313
+    title: 'SUMMULA.'
+  - start_line: 30321
+    locus: cesarienne-nonidentifies/tabadcara-30321
+    title: 'Tabadcara.'
+  - start_line: 30336
+    locus: cesarienne-nonidentifies/taborenta-30336
+    title: 'Taborenta.'
+  - start_line: 30343
+    locus: cesarienne-nonidentifies/tabunia-30343
+    title: 'Tabunia..'
+  - start_line: 30350
+    locus: cesarienne-nonidentifies/tadamata-30350
+    title: 'Tadamata.'
+  - start_line: 30366
+    locus: cesarienne-nonidentifies/tamada-30366
+    title: 'Tamada.'
+  - start_line: 30375
+    locus: cesarienne-nonidentifies/romanus-tamadensis-cod-de-ha-30375
+    title: 'ROMÀNUS Tamadensis (Cod. de Haller), Tamadempsis (Cod.'
+  - start_line: 30381
+    locus: cesarienne-nonidentifies/tamazuca-30381
+    title: 'Tamazuca.'
+  - start_line: 30383
+    locus: cesarienne-nonidentifies/more-dlxvi-toul-mauret-cxi-30383
+    title: 'More., DLXVI. — Toul., Maurét., CXI.'
+  - start_line: 30399
+    locus: cesarienne-nonidentifies/thanaramusa-castra-30399
+    title: 'Thanaramusa Castra.'
+  - start_line: 30429
+    locus: cesarienne-nonidentifies/tlgamibena-30429
+    title: 'TlGAMIBENA.'
+  - start_line: 30446
+    locus: cesarienne-nonidentifies/timici-30446
+    title: 'Timici.'
+  - start_line: 30463
+    locus: cesarienne-nonidentifies/tlmidana-30463
+    title: 'TlMIDANA.'
+  - start_line: 30471
+    locus: cesarienne-nonidentifies/tingaria-30471
+    title: 'Tingaria.'
+  - start_line: 30479
+    locus: cesarienne-nonidentifies/tubia-30479
+    title: 'TUBIA.'
+  - start_line: 30497
+    locus: cesarienne-nonidentifies/turris-30497
+    title: 'TURRIS.'
+  - start_line: 30511
+    locus: cesarienne-nonidentifies/tuscamia-30511
+    title: 'Tuscamia.'
+  - start_line: 30518
+    locus: cesarienne-nonidentifies/ubaba-30518
+    title: 'Ubaba.'
+  - start_line: 30524
+    locus: cesarienne-nonidentifies/vannida-30524
+    title: 'Vannida.'
+  - start_line: 30531
+    locus: cesarienne-nonidentifies/vardimissa-30531
+    title: 'Vardimissa.'
+  - start_line: 30549
+    locus: cesarienne-nonidentifies/villa-nova-30549
+    title: 'Villa Nova.'
+  - start_line: 30557
+    locus: cesarienne-nonidentifies/vissalsa-30557
+    title: 'Vissalsa.'
+  - start_line: 30573
+    locus: cesarienne-nonidentifies/voncaria-et-voncariaxa-30573
+    title: 'Voncaria et Voncariaxa.'
+  - start_line: 30594
+    locus: cesarienne-nonidentifies/vulturia-ou-bl-lturia-30594
+    title: 'VULTURIA OU Bl''LTURIA.'
+  - start_line: 30602
+    locus: maroc
+  - start_line: 30605
+    locus: maroc/mauretanie-tingitane-30605
+    title: 'MAURÉTANIE TINGITANE'
+  - start_line: 30950
+    locus: maroc/dimmad-el-achira-30950
+    title: 'Dimmad el Achira.'
+  - start_line: 30985
+    locus: maroc/espagne-30985
+    title: 'Espagne.'
+  - start_line: 31011
+    locus: maroc/faraoun-ksar-volubilis-31011
+    title: 'Faraoun. (Ksar) = Volubilis.'
+  - start_line: 31021
+    locus: maroc/tanger-tingi-31021
+    title: 'Tanger. — Tingi.'
+  - start_line: 31042
+    locus: appendice-1/tripolitaine
+    title: '1° Tripolitaine.'
+  - start_line: 31181
+    locus: appendice-1/byzacene
+    title: 'Byzacène'
+  - start_line: 31325
+    locus: appendice-1/proconsulaire
+    title: 'Proconsulaire.'
+  - start_line: 31418
+    locus: appendice-1/numidie
+    title: 'Numidie.'
+  - start_line: 31679
+    locus: appendice-1/sitifienne
+    title: 'Sitifienne.'
+  - start_line: 31814
+    locus: appendice-1/cesarienne
+    title: 'Maurétanie Césarienne.'
+  - start_line: 31908
+    locus: appendice-1/tingitane
+    title: 'Maurétanie Tingitane'
+  - start_line: 31913
+    locus: appendice-2
+ignore:
+  - pattern: '^(?:\d{1,3} )?[A-ZÉÈÀÇÂÎÔÛ«»''’\"\-\.,:\d ]{6,70}? \S*\d\S*$'
+    kind: running-head
+  - pattern: '^(?:\d{1,3} )?L.AFRIQUE CHR\S{1,12}(?: \d{1,3})?$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+apparatus:
+  - lines: [12, 57]
+    kind: front
+    locus: front
+  - lines: [162, 400]
+    kind: index
+    locus: manuscrits-consultes
+  - lines: [401, 440]
+    kind: index
+    locus: abreviations
+  - lines: [441, 1244]
+    kind: notes
+    locus: additions-et-corrections
+  - lines: [32154, 48239]
+    kind: index
+    locus: tables
+  - lines: [48240, 48422]
+    kind: index
+    locus: table-des-matieres
+  - lines: [48423, 48567]
+    kind: notes
+    locus: cartes
+evidence:
+  - line: 58
+    quote: 'PREFACE'
+  - line: 1248
+    quote: 'Carthage. = Carthago.'
+  - line: 6605
+    quote: 'Col. Jul. A un/. Commoda.'
+  - line: 11455
+    quote: 'Zrifa. (HO'
+  - line: 1245
+    quote: 'TUNISIE'
+  - line: 11464
+    quote: 'Abari.'
+  - line: 13518
+    quote: 'Adelfius Mactaritanus et'
+  - line: 15129
+    quote: 'Zuri.'
+  - line: 11460
+    quote: 'EVECHÉS NON IDENTIFIÉS'
+  - line: 15156
+    quote: 'Abbassi. (Sicli el)'
+  - line: 19697
+    quote: 'Klssa. (H'') = Mova ?'
+  - line: 24596
+    quote: 'Zrazer. (Aïn)'
+  - line: 15150
+    quote: 'ALGÉRIE'
+  - line: 24607
+    quote: 'NUMIDIE ET MAURÉTANIE SITIFIENNE'
+  - line: 25861
+    quote: 'Meta.'
+  - line: 26873
+    quote: 'Zerta de Xumidie.'
+  - line: 24604
+    quote: 'EVECHES NON IDENTIFIÉS'
+  - line: 26893
+    quote: 'Affreville. = Malliana ?'
+  - line: 27881
+    quote: 'Lapérouse. (Matifou.) = Rlsgumae.'
+  - line: 28807
+    quote: 'Zerga. (Très de La Kmibba. )'
+  - line: 26890
+    quote: '2° Département d''Alger.'
+  - line: 28819
+    quote: 'Abdelli. (Sidi) = Tepidje?'
+  - line: 29142
+    quote: 'Khial. (Ain)'
+  - line: 29500
+    quote: 'Trumelet. (Damouni)'
+  - line: 28816
+    quote: '3° Département d''Oran.'
+  - line: 29517
+    quote: 'MAURÉTANIE CÉSARIENNE'
+  - line: 30035
+    quote: 'Nasbinca.'
+  - line: 30594
+    quote: 'VULTURIA OU Bl''LTURIA.'
+  - line: 29514
+    quote: 'EVECHES NON IDENTIFIES'
+  - line: 30605
+    quote: 'MAURÉTANIE TINGITANE'
+  - line: 30985
+    quote: 'Espagne.'
+  - line: 31021
+    quote: 'Tanger. — Tingi.'
+  - line: 30602
+    quote: 'III. - MAROC'
+  - line: 31042
+    quote: 'APPENDICE I'
+  - line: 31913
+    quote: 'APPENDICE II'

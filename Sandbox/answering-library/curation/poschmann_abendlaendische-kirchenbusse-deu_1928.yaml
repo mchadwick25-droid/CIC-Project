@@ -1,0 +1,125 @@
+file: poschmann_abendlaendische-kirchenbusse-deu_1928.txt
+scheme: 'Poschmann''s parts printed as roman numerals I to IV with titles (Einleitung and Schluss unnumbered); part I with sections 1 to 4 (the Roman, Gallic, Spanish and African churches) and lettered sub-sections a. to f. under sections 1 and 2; part IV with the two printed headings Gregor I. and Isidor von Sevilla; Vorwort and the two registers as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 140
+    locus: vorwort
+  - start_line: 329
+    locus: einleitung
+  - start_line: 473
+    locus: I
+  - start_line: 527
+    locus: I/1/a
+  - start_line: 763
+    locus: I/1/b
+  - start_line: 1029
+    locus: I/1/c
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 2057
+    locus: I/1/d
+  - start_line: 2677
+    locus: I/1/e
+  - start_line: 3131
+    locus: I/1/f
+  - start_line: 3678
+    locus: I/2
+  - start_line: 3825
+    locus: I/2/a
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 4667
+    locus: I/2/b
+  - start_line: 5129
+    locus: I/2/c
+  - start_line: 5501
+    locus: I/2/d
+  - start_line: 6041
+    locus: I/2/e
+  - start_line: 6704
+    locus: I/2/f
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 7459
+    locus: I/3
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 8425
+    locus: I/4
+  - start_line: 8896
+    locus: II
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 10464
+    locus: III
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 12671
+    locus: IV
+  - start_line: 12701
+    locus: IV/gregor
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 14252
+    locus: IV/isidor
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this part; only running heads and footnotes'
+  - start_line: 15295
+    locus: schluss
+  - start_line: 15567
+    locus: sachregister
+  - start_line: 15858
+    locus: autorenregister
+ignore:
+  - pattern: '^(?:\d{1,3} )?(?:Die B\S{2,4} (?:der Kleriker|in der \S+ Kirche)|Die BuBlehre Gregors I\. und Isidors von Sevilla|Gregor I\.|Isidor von Sevilla|Einleitung|Schlu\S{1,3}) \S{1,5}$|^(?:Systematisches Sachregister|Alphabetisches Autoren- und Quellenregister) \S{1,5}$'
+    kind: running-head
+  - pattern: '^Poschmann, Die abendl\S+ Kirchen\S+ ?\S{0,3}$'
+    kind: running-head
+apparatus:
+  - lines: [12, 139]
+    kind: front
+    locus: front
+  - lines: [206, 328]
+    kind: index
+    locus: inhaltsverzeichnis
+  - lines: [15567, 16356]
+    kind: index
+    locus: register
+evidence:
+  - line: 140
+    quote: 'VORWORT'
+  - line: 206
+    quote: 'INHALTSVERZEICHNIS'
+  - line: 329
+    quote: 'EINLEITUNG'
+  - line: 473
+    quote: 'I. Bublehre und Buf praxis'
+  - line: 527
+    quote: '1. Die BuBe in der romischen Kirche.'
+  - line: 530
+    quote: 'a. Die Notwendigkeit der Bue. Offentliche'
+  - line: 763
+    quote: 'b. Das Bekenntnis.'
+  - line: 3131
+    quote: 'f. Die Unwiederholbarkeit der Bufe.'
+  - line: 3678
+    quote: '2. Die Bue in der gallischen Kirche.'
+  - line: 3825
+    quote: 'a. Stnde und Bufforderung.'
+  - line: 6704
+    quote: 'f. Die conversi.'
+  - line: 7459
+    quote: '3. Die Buffe in der spanischen Kirche.'
+  - line: 8425
+    quote: '4. Die Bue in der afrikanischen Kirche.'
+  - line: 8896
+    quote: 'II. Die Buf e der Kleriker'
+  - line: 10464
+    quote: 'III. Die angebliche kirchliche Privatbufse'
+  - line: 12671
+    quote: 'IV. Die Buf lehre Gregors I. und Isidors von Sevilla.'
+  - line: 12701
+    quote: '[iGregord,'
+  - line: 14252
+    quote: '2) Isidor vonssevilla'
+  - line: 15295
+    quote: 'SC:HEUSS'
+  - line: 283
+    quote: 'Schlu8 .'
+  - line: 15567
+    quote: 'Systematisches Sachregister'
+  - line: 15858
+    quote: 'Alphabetisches Autoren- und Quellenregister'

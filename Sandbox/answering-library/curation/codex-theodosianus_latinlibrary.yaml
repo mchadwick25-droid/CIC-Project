@@ -1,0 +1,79 @@
+file: codex-theodosianus_latinlibrary.txt
+scheme: 'Codex Theodosianus citation: CTh. book . title . law (printed at the head of each law, for example CTh.1.1.1), with the title headings printed as CTh. book . title .0; a law whose first line is printed with pr. keeps that mark in its address; numbered paragraphs (.1, .2) stay in their law'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: title
+    pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.0[. ]'
+    lines: [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
+    locus: 'cth{b}.{t}.0'
+  - id: law
+    pattern: '^CTh\.(?:ct\.)?(?P<b>\d+)\.(?P<t>\d+)\.(?P<l>\d+(?:-\d+)?)(?= |$)'
+    lines: [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
+    locus: 'cth{b}.{t}.{l}'
+  - id: law-pr
+    pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.(?P<l>\d+)pr\.'
+    lines: [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
+    locus: 'cth{b}.{t}.{l}pr'
+apparatus:
+  - lines: [9, 40]
+    kind: front
+    locus: contents-book1
+  - lines: [398, 432]
+    kind: front
+    locus: contents-book2
+  - lines: [805, 827]
+    kind: front
+    locus: contents-book3
+  - lines: [1085, 1110]
+    kind: front
+    locus: contents-book4
+  - lines: [1393, 1412]
+    kind: front
+    locus: contents-book5
+  - lines: [1606, 1645]
+    kind: front
+    locus: contents-book6
+  - lines: [2212, 2237]
+    kind: front
+    locus: contents-book7
+  - lines: [2719, 2739]
+    kind: front
+    locus: contents-book8
+  - lines: [3314, 3360]
+    kind: front
+    locus: contents-book9
+  - lines: [4045, 4072]
+    kind: front
+    locus: contents-book10
+  - lines: [4459, 4499]
+    kind: front
+    locus: contents-book11
+  - lines: [5242, 5262]
+    kind: front
+    locus: contents-book12
+  - lines: [5954, 5966]
+    kind: front
+    locus: contents-book13
+  - lines: [6287, 6315]
+    kind: front
+    locus: contents-book14
+  - lines: [6582, 6598]
+    kind: front
+    locus: contents-book15
+  - lines: [6866, 6878]
+    kind: front
+    locus: contents-book16
+ignore:
+  - pattern: '^Theodosian Code\tIus Romanum'
+    kind: navigation
+    lines: [7502, 7502]
+evidence:
+  - line: 41
+    quote: 'CTh.1.1.0.'
+  - line: 42
+    quote: 'CTh.1.1.1 [=brev.1.1.1]'
+  - line: 2167
+    quote: 'CTh.6.35.3pr.'
+  - line: 7314
+    quote: 'CTh.16.7.3pr.'
