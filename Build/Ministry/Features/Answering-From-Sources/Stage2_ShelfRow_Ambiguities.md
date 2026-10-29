@@ -985,3 +985,134 @@ None.
 ### Off-shelf (0)
 
 None.
+
+## gallic
+
+### Ambiguous (14)
+
+- `gallic.source.augustine-on-predestination`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+- `gallic.source.augustine-on-rebuke-and-grace`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+- `gallic.source.augustine-on-the-gift-of-perseverance`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+- `gallic.source.cassian-conferences-part-i`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.cassian-conferences-part-ii`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.cassian-conferences-part-iii`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.cassian-de-incarnatione`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.npnf-editorial-apparatus`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-dialogues-ii-iii`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-doubtful-letters`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-letters`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-sacred-history`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-vita-martini`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.vincent-commonitory`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+
+### Off-shelf (0)
+
+None.

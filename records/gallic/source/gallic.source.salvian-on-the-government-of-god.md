@@ -26,6 +26,7 @@ edition: Salvian of Marseilles, On the Government of God (De Gubernatione Dei), 
   vendored as cic/texts/salvian_on-the-government-of-god_sanford1930.txt
 citation: Salvian of Marseilles, On the Government of God (De Gubernatione Dei), trans. Eva M. Sanford (1930)
 kind: vendored
+shelf_row: salvian_on-the-government-of-god_sanford1930--on-the-government-of-god-de-gubernatione-dei
 rights_status: "public-domain; vendored 2026-09-09 and independently rights-verified (archive.org public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 43; the passage or text at issue was read
