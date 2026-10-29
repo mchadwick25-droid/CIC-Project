@@ -421,6 +421,11 @@
       "estimate": 0.2431,
       "spent_usd_world": 0.303244,
       "exit_code": 0
+    },
+    "hal": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-hal.jsonl",
+      "estimate": 0.2724
     }
   }
 }
