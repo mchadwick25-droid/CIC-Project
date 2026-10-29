@@ -354,3 +354,34 @@ reaches the screen; closing that is part of this step. The stage 3 change order
 names the numbers it must move: stories marked inline, stories told from a
 record only, stories cut by the current gates (28 in fleet run 1) and their
 orphans.
+
+## 13. Stories may be retold to fit the conversation (2026-10-29)
+
+Mark, 2026-10-29, in chat: "stories can be modified if they still carry the
+accurate source context and heart of the story, but some may be to long for a
+conversation and we need to be able to tell it in a compelling, yet truthful
+way in conversation, accessable and a direct example to an aswer to a
+question."
+
+This refines entry 12: the voice may tell a shortened or reshaped version of a
+story, not only the record's full text.
+
+- Faithful retelling. The same events, the same people and places, the same
+  source context and the same sourcing and confidence as the record, and the
+  heart of the story the record names. Nothing added: no invented dialogue,
+  detail, motive or feeling. A story is never invented.
+- Fitted to the question. The telling is a direct example that answers what was
+  asked, told so that a general reader follows it (B2 standard), at conversation
+  length.
+- How it is made safe. (1) Each story record carries reviewed tellings at more
+  than one length (a short and a medium telling beside the full record) and a
+  plain statement of its heart, reviewed against the full record; the voice
+  chooses the one that fits. (2) A live retelling, fitted to a particular
+  question, is allowed only under the bound-draft path: each sentence is bound
+  to the record sentence it rests on and verified against it, and a retelling
+  that fails verification falls back to a reviewed telling. The same
+  three-level transparency applies: marked inline, hover, click to the full
+  story and its sources.
+- Mark reads a sample of tellings, since "heart" is a judgment about story, not
+  a count. The stage 3 change order names a faithfulness number for tellings
+  (events kept, nothing added) and a human-read sample.
