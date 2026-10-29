@@ -143,8 +143,16 @@
       "spent_usd_world": 1.127569,
       "exit_code": 1,
       "note": "All 28 answers saved. One call failed on a transient API error (charged at its full hold, $0.2178) and the voice call retried it, so the harness saw 29 calls for 28 probes and refused to write the report. Automatic checks not computed (the per-sentence citation data exists only in the report). No second paid run; a retry stays open if budget remains at the end."
+    },
+    "don": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.72789585,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-don.jsonl",
+      "probes_answered": 3,
+      "spent_usd_world": 0.259701
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-29T00:17:13Z"
+  "current": "don",
+  "checkpoint_at": "2026-10-29T00:19:15Z"
 }
