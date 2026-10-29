@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 8.084547,
+  "spent_usd": 9.212116,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -136,13 +136,14 @@
     },
     "cappadocian": {
       "attempts": 1,
-      "status": "running",
+      "status": "failed",
       "preflight_usd": 0.6326298,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-cappadocian.jsonl",
-      "probes_answered": 26,
-      "spent_usd_world": 1.076364
+      "probes_answered": 28,
+      "spent_usd_world": 1.127569,
+      "exit_code": 1
     }
   },
-  "current": "cappadocian",
-  "checkpoint_at": "2026-10-29T00:16:58Z"
+  "current": null,
+  "checkpoint_at": "2026-10-29T00:17:13Z"
 }
