@@ -3,3 +3,25 @@ CAP: $2.79
 MODELS: us.anthropic.claude-sonnet-4-5-20250929-v1:0
 ROUTE: Bedrock, regional inference profile, us-east-1
 LEDGER: /home/user/CIC-Project/engine/m3/reports/fleet-graded-run-1/ledger-don.jsonl
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "overall_pass": true,
+  "max_usd": 2.7879,
+  "estimated_usd_preflight": 0.72789585,
+  "actual_usd_spent": 1.0317908999999998,
+  "aborted_reason": null,
+  "worlds": {
+    "don": {
+      "battery_size": 28,
+      "pass_count": 28,
+      "overall_pass": true,
+      "actual_usd": 1.0317908999999998,
+      "total_input_tokens": 104853,
+      "total_output_tokens": 16951,
+      "total_cache_creation_input_tokens": 37810,
+      "total_cache_read_input_tokens": 1070598,
+      "failing_probes": []
+    }
+  }
+}
