@@ -149,10 +149,10 @@
       "status": "running",
       "preflight_usd": 0.72789585,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-don.jsonl",
-      "probes_answered": 7,
-      "spent_usd_world": 0.417561
+      "probes_answered": 10,
+      "spent_usd_world": 0.512957
     }
   },
   "current": "don",
-  "checkpoint_at": "2026-10-29T00:20:15Z"
+  "checkpoint_at": "2026-10-29T00:20:50Z"
 }
