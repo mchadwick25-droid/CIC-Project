@@ -17,7 +17,7 @@ from goldset.evidence import text_lines
 
 _ROMAN = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
 _DIV = re.compile(r"<div(\d)\b([^>]*)>|</div(\d)>")
-_ATTR = re.compile(r'\b(title|n|id)="([^"]*)"')
+_ATTR = re.compile(r'\b(title|n|id|type|shorttitle)="([^"]*)"')
 _NUMBER = r"(?:[0-9]+|[IVXLCivxlc]+)"
 _LABELLED = re.compile(
     r"\b(?:book|bk|letter|ep|epistle|demonstration|dem|homily|hom|sermon|oration|or|chapter|ch|cap|canon|section|sec|secs|ss|§|treatise|question|q)\.?\s*"
@@ -62,7 +62,8 @@ def tree(commit: str, name: str) -> tuple[dict, ...]:
             if m.group(1):
                 attrs = dict(_ATTR.findall(m.group(2) or ""))
                 stack.append({"level": int(m.group(1)), "start": at, "title": html.unescape(attrs.get("title", "")),
-                              "n": attrs.get("n", ""), "id": attrs.get("id", "")})
+                              "n": attrs.get("n", ""), "id": attrs.get("id", ""), "type": attrs.get("type", ""),
+                              "short": html.unescape(attrs.get("shorttitle", ""))})
             elif stack:
                 level = int(m.group(3))
                 while stack:
@@ -105,9 +106,37 @@ def _names(work: str) -> list[set[str]]:
     return out
 
 
+_FAMILY = {"epistula": "letter", "epistle": "letter", "letter": "letter", "ep": "letter",
+           "homily": "homily", "homilia": "homily", "sermon": "sermon", "oration": "oration", "demonstration": "demonstration"}
+_NUMBERED_WORK = re.compile(rf"^\W*({'|'.join(_FAMILY)})\.?\s+({_NUMBER})\b", re.IGNORECASE)
+
+
+def _numbered_work(nodes: tuple[dict, ...], work: str) -> dict | None:
+    """For a work named as one numbered piece of a collection ("Epistula 108,
+    to Eustochium"), the one division the edition marks as that piece: its
+    type or short title names the same kind (letter, homily ...) and its
+    number is the same."""
+    m = _NUMBERED_WORK.match(work)
+    if not m:
+        return None
+    family, value = _FAMILY[m.group(1).lower()], number(m.group(2))
+    hits = []
+    for d in nodes:
+        short = re.match(rf"\W*([A-Za-z]+)\.?\s+({_NUMBER})\b", d["short"])
+        kind = (d["type"] or (short.group(1) if short else "")).lower()
+        n = number(d["n"]) if d["n"] else (number(short.group(2)) if short else None)
+        if _FAMILY.get(kind) == family and n == value:
+            hits.append(d)
+    return hits[0] if len(hits) == 1 else None
+
+
 def _work(nodes: tuple[dict, ...], work: str) -> dict | None:
-    """The one outermost division whose title holds every word of one of the
-    work's names."""
+    """The division of the work: the one numbered piece its name gives, or
+    else the one outermost division whose title holds every word of one of
+    the work's names."""
+    numbered = _numbered_work(nodes, work)
+    if numbered:
+        return numbered
     names = _names(work)
     hits = [d for d in nodes if any(name <= set(re.findall(r"[a-z]{4,}", d["title"].lower())) for name in names)]
     outer = [d for d in hits if not any(o is not d and o["start"] <= d["start"] and o["end"] >= d["end"] for o in hits)]

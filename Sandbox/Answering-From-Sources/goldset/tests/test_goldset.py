@@ -246,3 +246,14 @@ def test_gold_build_lets_a_ruling_win_and_keeps_evidence_only_for_the_same_readi
     assert same["evidence"] == spec["evidence"] and other["evidence"] == [] and other["failure_class"] is None
     items = [{"origin": "natural", "label": same, "label_source": "mark"}, {"origin": "constructed", "label": spec, "label_source": "construction"}]
     assert build.counts(items)["constructed"] == {"items": 1, "by_class": {"generalisation": 1}, "by_label_source": {"construction": 1}}
+
+
+def test_numbered_work_found_by_the_editions_own_piece_number():
+    from goldset import locus
+    def div(n, kind, short, title="To Eustochium.", start=1):
+        return {"level": 2, "start": start, "end": start + 9, "title": title, "n": n, "id": "v." + n, "type": kind, "short": short}
+    nodes = (div("XXII", "Letter", "Letter XXII", start=1), div("CVIII", "Letter", "Letter CVIII", start=20), div("CVIII", "Homily", "Homily CVIII", start=40))
+    assert locus._numbered_work(nodes, "Epistula 108, to Eustochium (404)")["start"] == 20
+    assert locus._numbered_work(nodes, "Letter 22 - on virginity")["start"] == 1
+    assert locus._numbered_work(nodes, "Epistula 5") is None
+    assert locus._numbered_work(nodes, "Vita Malchi") is None
