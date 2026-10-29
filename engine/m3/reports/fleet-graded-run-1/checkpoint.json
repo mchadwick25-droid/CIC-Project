@@ -407,6 +407,11 @@
       "estimate": 0.3754,
       "spent_usd_world": 0.338585,
       "exit_code": 0
+    },
+    "rzg": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-rzg.jsonl",
+      "estimate": 0.2365
     }
   }
 }
