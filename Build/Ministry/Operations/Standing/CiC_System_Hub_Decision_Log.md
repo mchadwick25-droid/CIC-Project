@@ -7290,3 +7290,7 @@ If any condition fails, the amount stays unspent.
 ## 2026-10-29 - Live test "specialist-tryout-1" withdrawn (project lead)
 
 **Withdrawn.** Mark, 2026-10-29, by choice box: no spend on other companies' models; the specialist is Claude only. The $10.00 authorization above is withdrawn and nothing was spent under it. The tryout of GPT-6.1 and Grok 4.7 does not run. Gold-set labelling with Claude models still needs its own name and cap here before it runs.
+
+## 2026-10-29 - Live tests "S1-01 baseline sample" and "S1-01 baseline live path" withdrawn (project lead)
+
+**Withdrawn.** Mark, 2026-10-29, in chat: "we are not spending 75 dollars on api runs to test it". Both authorizations above ($1.00 and $25.00) are withdrawn. The engine thread was told to stop and to report any spend if either had started. No metered run for the Answering-from-the-Sources work is authorized. Any future one needs Mark's name and cap, put to him in plain words.
