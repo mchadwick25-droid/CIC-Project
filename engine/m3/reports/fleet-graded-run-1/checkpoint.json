@@ -414,6 +414,11 @@
       "estimate": 0.2365,
       "spent_usd_world": 0.190624,
       "exit_code": 0
+    },
+    "pahc": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-pahc.jsonl",
+      "estimate": 0.2431
     }
   }
 }
