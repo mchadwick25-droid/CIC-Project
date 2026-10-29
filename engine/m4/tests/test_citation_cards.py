@@ -314,3 +314,14 @@ def test_resolve_citation_sources_over_every_world_never_crashes():
         citations = [{"sentence": "s", "record_ids": citable}]
         resolved = resolve_citation_sources(citations, repo)
         assert len(resolved[0]["sources"]) == len(citable)
+
+
+def test_a_real_story_card_carries_the_records_one_line_meaning_for_the_hover():
+    records = _real_repository("lpc")
+    record = records["lpc.story.celerinus-writes-to-lucian"]
+
+    card = resolve_source_card(record["id"], records)
+
+    assert card["means"] == record["use_note"]["means"]
+    assert card["means"].startswith("Celerinus asked Lucian")
+    assert card["narrative_tier"] == record["narrative_tier"] == 1
