@@ -272,3 +272,12 @@ voice is also an approved process".
   they do not name a run or a cap, and no stage 1 item uses voice.
 - Real spend on model APIs (engine, Bedrock, other vendors) still needs
   Mark's permission by name with a cap (entry 5).
+
+## 7. In-system spend is not tracked (2026-10-29)
+
+Mark, 2026-10-29, in chat: "dont worry about internal system spending, dont
+track it it costs to track and i can watch the usage".
+
+In-system work (the Max-200 allowance) is not tracked, reported or ledgered by
+any thread. Mark watches usage himself. Real API spend (entry 5) is still
+named, capped and recorded.
