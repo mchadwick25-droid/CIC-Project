@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 13.306993,
+  "spent_usd": 13.645578,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -402,9 +402,11 @@
       "exit_code": 0
     },
     "witt": {
-      "status": "running",
+      "status": "done",
       "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-witt.jsonl",
-      "estimate": 0.3754
+      "estimate": 0.3754,
+      "spent_usd_world": 0.338585,
+      "exit_code": 0
     }
   }
 }
