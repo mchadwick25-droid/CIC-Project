@@ -115,6 +115,23 @@ expected_gaps:
 
 `allow_oversize` says a level is the finest the edition prints. The checker tests it: it scans each such division for lines that look like numbered sub-headings by the segmenter's own marker families (keyword headings such as CAPUT or Caput, bare Roman numerals, numbered titles and paragraphs, section signs; footnote lines such as `1)` and the division's own first line do not count). More than 10 such lines fails the check and prints them. Remove the justification and divide the level, or show that the lines are not headings by changing the rule.
 
+### Lines that are not sub-headings
+
+Some lines the oversize scan flags are not sub-headings of the edition: footnote numbers, running heads with a page number, OCR debris such as a lone `I`, or a list of chapter titles the author quotes. List them by line number so the scan leaves them out of its count:
+
+```
+not_subheadings:
+  - lines: [21737, [21790, 21802]]
+    kind: ocr-debris
+    quote: 'I'
+```
+
+- `lines`: line numbers or `[first, last]` ranges.
+- `kind`: `footnote`, `running-head`, `ocr-debris` or `quoted-list`. Any other kind is an error.
+- `quote`: text that appears on the first listed line. There is no pattern form.
+
+An entry fails the check when its quote is not on its first line, or when it lists a line that the scan does not flag (a line outside a division with `allow_oversize`, or one that is not heading-like). The limit of 10 sub-heading lines per division is unchanged and applies to the lines left after the listed ones are removed.
+
 ### Hand-listed lines
 
 A rule with `lines` is limited to those ranges. `check` prints a `warn` for every line inside them that looks like the rule's heading but did not match: a margin line number in front of the heading, or a numeral the pattern does not read (Greek letters, a dropped I, OCR damage). Read each one: add a `fix` with a `quote`, an `ocr_map` entry, or widen the pattern.

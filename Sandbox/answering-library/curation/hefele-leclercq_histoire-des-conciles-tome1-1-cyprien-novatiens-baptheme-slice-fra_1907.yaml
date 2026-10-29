@@ -1,15 +1,14 @@
 file: hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt
-scheme: 'Hefele-Leclercq section numbers 5 and 6 of Livre I, chapitre II, printed as a numeral and title at the head of each section; section 6 prints its own sub-numbers 2 and 3 in the text (sub-number 1 is not printed), the opening part before them is the section itself'
+scheme: 'Hefele-Leclercq section numbers 5 and 6 of Livre I, chapitre II, printed as a numeral and title at the head of each section; section 6 prints its own sub-numbers 1, 2 and 3 in the text, and the lines before sub-number 1 are the section itself'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 rules:
   - id: section
     pattern: '^(?P<n>[56])\. (?:Premiers conciles|Synodes de 255)'
     lines: [13, 382]
     locus: 'section{n}'
-    allow_oversize: 'the opening part of section 6, lines 382 to 1058, has no printed number or heading before sub-number 2 at line 1059; sub-number 1 is not printed in the scan'
   - id: sub
-    pattern: '^(?P<n>[23])\. ?(?:Voyons maintenant|11 nous reste)'
+    pattern: '^(?P<n>[123])\. ?(?:On se demande avant tout|Voyons maintenant|11 nous reste)'
     parent: section
     locus: 'sub{n}'
 ignore:
@@ -24,6 +23,8 @@ evidence:
     quote: '5. Premiers conciles à Carthage et à Rome dans ïaffaire'
   - line: 382
     quote: '6. Synodes de 255 et 256 relatifs au baptême des hérétiques.'
+  - line: 746
+    quote: '1. On se demande avant tout lequel des deux avait l''antiquité'
   - line: 1059
     quote: '2. Voyons maintenant si le pape Etienne tenait pour valide le'
   - line: 1251

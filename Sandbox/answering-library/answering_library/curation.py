@@ -36,7 +36,9 @@ _SUBHEADING_FAMILIES = ("kw:", "bare:roman", "numtitle", "section", "numpara")
 SPEAKER_STATES = ("known", "mixed", "unknown")
 
 _TOP_KEYS = {"file", "scheme", "curator", "status", "language", "rules", "divisions", "ignore", "apparatus",
-             "languages", "speakers", "evidence", "page_splits", "expected_gaps"}
+             "languages", "speakers", "evidence", "page_splits", "expected_gaps", "not_subheadings"}
+_NOT_SUB_KEYS = {"lines", "kind", "quote"}
+NOT_SUBHEADING_KINDS = ("footnote", "running-head", "ocr-debris", "quoted-list")
 _EXPECTED_KEYS = {"series", "line", "quote"}
 _RULE_KEYS = {"id", "pattern", "flags", "lines", "parent", "locus", "title", "division", "skip_repeat", "number",
               "ocr_map", "fixes", "allow_oversize", "context", "language"}
@@ -105,6 +107,7 @@ class Curation:
     sha256: str
     page_splits: list[PageSplit] = field(default_factory=list)
     expected_gaps: list[dict] = field(default_factory=list)
+    not_subheadings: list[dict] = field(default_factory=list)
 
     @property
     def stem(self) -> str:
@@ -373,6 +376,24 @@ def load(path: Path) -> Curation:
             raise CurationError(f"{where}: needs series, an integer line and a quote")
         expected_gaps.append({"series": e["series"], "line": e["line"], "quote": " ".join(str(e["quote"]).split())})
 
+    not_subheadings = []
+    for k, e in enumerate(data.get("not_subheadings") or []):
+        where = f"{name} not_subheadings[{k}]"
+        _check_keys(e, _NOT_SUB_KEYS, where)
+        if e.get("kind") not in NOT_SUBHEADING_KINDS:
+            raise CurationError(f"{where}: kind must be one of {NOT_SUBHEADING_KINDS}")
+        quote = " ".join(str(e.get("quote") or "").split())
+        spans = []
+        for item in e.get("lines") or []:
+            pair = [item, item] if isinstance(item, int) else item
+            if (not isinstance(pair, (list, tuple)) or len(pair) != 2 or not all(isinstance(x, int) for x in pair)
+                    or pair[0] < 1 or pair[1] < pair[0]):
+                raise CurationError(f"{where}: lines must be line numbers or [first, last] ranges")
+            spans.append((pair[0], pair[1]))
+        if not spans or not quote:
+            raise CurationError(f"{where}: needs lines and a quote from the first listed line")
+        not_subheadings.append({"spans": spans, "kind": e["kind"], "quote": quote})
+
     languages = []
     for k, a in enumerate(data.get("languages") or []):
         where = f"{name} languages[{k}]"
@@ -406,7 +427,7 @@ def load(path: Path) -> Curation:
                     status=data["status"], language=data.get("language"), rules=rules, divisions=divisions,
                     ignore=ignore, apparatus=apparatus, languages=languages, speakers=speakers, evidence=evidence,
                     sha256=hashlib.sha256(raw).hexdigest(), page_splits=page_splits,
-                    expected_gaps=expected_gaps)
+                    expected_gaps=expected_gaps, not_subheadings=not_subheadings)
 
 
 def for_file(filename: str, directory: Path | None = None, applied_only: bool = True) -> Curation | None:
@@ -844,13 +865,27 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         if not 0 <= i < n or e["quote"] not in norm[i]:
             problems.append(f"evidence at line {e['line']} does not quote the file: \"{e['quote']}\"")
 
+    allowed = {x for e in cur.not_subheadings for a, b in e["spans"] for x in range(a, b + 1)}
+    flagged: set[int] = set()
     for d in divisions:
         if d.allow_oversize and not d.apparatus and d.words > CURATED_MAX_DIVISION_WORDS:
-            subs = _subheadings(lines[d.start:d.end], {j - d.start for j in furniture if d.start <= j < d.end})
-            if len(subs) > ALLOW_OVERSIZE_MAX_SUBHEADINGS:
-                shown = "; ".join(f'line {d.start + r + 1}: "{t[:50]}"' for r, t in subs)
+            subs = [(d.start + r + 1, t) for r, t in
+                    _subheadings(lines[d.start:d.end], {j - d.start for j in furniture if d.start <= j < d.end})]
+            flagged.update(line for line, _ in subs)
+            counted = [(line, t) for line, t in subs if line not in allowed]
+            if len(counted) > ALLOW_OVERSIZE_MAX_SUBHEADINGS:
+                shown = "; ".join(f'line {line}: "{t[:50]}"' for line, t in counted)
                 problems.append(f"allow_oversize on '{d.locus}' (line {d.start + 1}) does not hold: it contains "
-                                f"{len(subs)} sub-heading lines, over {ALLOW_OVERSIZE_MAX_SUBHEADINGS}: {shown}")
+                                f"{len(counted)} sub-heading lines, over {ALLOW_OVERSIZE_MAX_SUBHEADINGS}: {shown}")
+    for e in cur.not_subheadings:
+        first = e["spans"][0][0]
+        if not 0 < first <= n or e["quote"] not in norm[first - 1]:
+            problems.append(f"not_subheadings entry at line {first} quotes text that is not on the line: "
+                            f"\"{e['quote']}\"")
+        stray = [x for a, b in e["spans"] for x in range(a, b + 1) if x not in flagged]
+        if stray:
+            problems.append(f"not_subheadings ({e['kind']}) lists {len(stray)} line(s) the oversize scan does not "
+                            f"flag: {_line_list(stray)}")
 
     res_groups = seq_groups
     anomalies = {sid: series_anomalies(seq, res_groups.get(sid)) for sid, seq in sequences.items()}
