@@ -10,7 +10,7 @@ Entries record what was claimed, what was wrong with it, and which review round 
 
 **1.1 The census `why` field misquoted,** attributing to it dossier-framing language ("whether these decades are a world or the opening of the medieval papacy... and whether an entry can properly be built around a single person at all") that does not appear in the live `world-census.json`. Withdrawn: an early draft sourced this from a prototype file via the Source Readiness Dossier, not a verbatim census quote. The live census `why` field is quoted in full at §1.
 
-**1.2 The Moralia's own word-count ratio to the Register stated as "roughly four times."** Withdrawn: corrected by direct count to roughly six times (1,022,290 words against the Register's ~160,000).
+**1.2 The Moralia's own word-count ratio to the Register stated as "roughly four times."** Withdrawn: corrected by direct count to roughly six times (1,022,290 words against the Register's ~160,000). That correction was itself withdrawn: see 3.18.
 
 **1.3 An unsourced claim that the Pastoral Rule "remains in active use in seminary formation today."** Withdrawn: not independently verified; B4's case now rests on documented historical influence only.
 
@@ -77,3 +77,19 @@ Entries record what was claimed, what was wrong with it, and which review round 
 **3.16 Source Registry row 1a scoped only to Ep. 16 and Ep. 74,** while the same introductory apparatus was already being cited elsewhere in Doc_02 for several further claims (the Lombard-truce survey, the Bertha correspondence, the Register's own transmission history) with no row of its own covering them. Withdrawn: row 1a's own Licensed For was widened to cover all of it.
 
 **3.17 Source Registry row 1 had no locus covering the Book II Ep. XLVI quotation directly.** Withdrawn: row 1 now covers it, at the corrected locus.
+
+**3.18 The Register's length stated as "roughly 160,000 words," and the Moralia as "roughly six times" the Register (Doc_02 §1; Step 0 carries the same figures and is not edited here).** Withdrawn: the 160,000 figure counted only `npnf212` Books I–VIII. A tag-stripped count of the Register divisions of both volumes (`npnf212` div `iii.v`, lines 30953–48478; `npnf213` divs `ii.v`–`ii.x`, lines 826–10409), confirmed by a second count over the same line ranges, gives about 261,000 words with the editors' endnotes and about 227,000 without. The Moralia's 1,022,290 words (whole files) is therefore about 3.9 times the Register with endnotes and 4.5 times without. The earlier "roughly four times" (1.2) was the closer figure. Earlier reviews had accepted the 160,000 figure; the cap-ruling review corrected it.
+
+**3.19 Gregory of Tours's *History of the Franks*, Book X, called not vendored (Doc_02 §4, §9 item 5; Registry row 12 and the acquisition-gaps section).** Withdrawn: Book X is in `cic/texts/` in three witnesses, the Dalton translation (from line 20149), the MGH Latin (from line 31904) and the Brehaut selections (X.1 at ~lines 10270–10344).
+
+**3.20 Paul the Deacon's *History of the Langobards* called not vendored (Registry row 14), and Doc_02 §4 saying its exclusion would hold "even if eventually acquired."** Withdrawn: it is vendored in English (`paul-the-deacon_history-of-the-langobards_foulke1907.txt`). Its exclusion as out of window stands.
+
+**3.21 The holdings report in Doc_02 §8 (220 files, 12 in scope, 86 out of window, 120 with no coverage entry), and its account of the tool failing for want of a `records/rcg/` directory.** Withdrawn: the tool now runs and reports 1,522 files, 14 in scope, 150 out of window and 1,356 with no coverage entry. The two Ewald–Hartmann Latin Register files (now Registry rows 17 and 18) and the Loomis *Liber Pontificalis* volume (row 19) had no disposition line or Registry row.
+
+**3.22 Registry row 4's verification note ("lines ~384–548, ... clear OCR character errors corrected"), and row 8's ("Book II heading and opening line verified ... ~line 3396").** Withdrawn: the Moralia quotations keep the scan's letters, and run to line 555; the Dialogues headings are scan noise and are described, not quoted, and the opening line is at lines ~3407–3410.
+
+**3.23 The statement that the Moralia quotations "break where the scan breaks" and that "nothing is added, omitted or altered" (Doc_02 §1).** Withdrawn: the quotations leave out real text, including Gregory's words from "by the" (line 390) to "At length being anxious to avoid all these" (lines 454–469), the words "iVom ihe shipwreck of human life" (line 548), and, as first drafted, the words "I found myself" between "office," and "plunged". The gaps are now marked with ellipses, and each is described.
+
+**3.24 The "truces, tribute" Lombard material cited to lines 22132–22206 (Doc_02 §1; Registry row 1a).** Withdrawn: those lines cover the invasion and Agilulf, not truces. The truces are at lines ~22228–22233 and ~23156–23200. The word "tribute" was not found in the introductory apparatus and is removed.
+
+**3.25 Smaller slips.** Registry row 1 listed Books I, II and V but licensed loci in Book VI (Ep. LI); row 1 now names Book I Ep. XXXVI and Book VI Ep. LI. Row 4 said "4 parts (Parts I–V)"; the four volumes carry Parts I–VI and a closing second part of Vol. III. Doc_02 §11 named review files `RoundN_Library_Stage_Review.md`; they are `Doc02_RoundN_Review.md`. The Leander letter's "dated 591" dropped the Register endnote's hedge "if rightly placed" (locus `iii.v.i.xxx-p7`).
