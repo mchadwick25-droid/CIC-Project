@@ -125,7 +125,8 @@ def _div_line(lines: tuple[str, ...], div_id: str) -> int | None:
     return found[0] if len(found) == 1 else None
 
 
-def passage(commit: str, name: str, first: int | None, last: int | None, phrases: list[str], div_ids: list[str] = ()) -> dict:
+def passage(commit: str, name: str, first: int | None, last: int | None, phrases: list[str], div_ids: list[str] = (),
+            sections: list[tuple[str, str]] = ()) -> dict:
     """One source passage: the division holding the cited lines, whole when
     short, else a window around them; the cited lines are marked."""
     lines = text_lines(commit, name)
@@ -138,9 +139,15 @@ def passage(commit: str, name: str, first: int | None, last: int | None, phrases
         if found is None:
             found = next((n for n in (_locate(lines, p) for p in phrases) if n), None)
             how = "located by the quoted words in the locus or record"
-        if found is None:
-            return {"file": name, "language": language, "status": "locus gives no line, division id or quoted words found in the file"}
-        first = last = found
+        if found is not None:
+            first = last = found
+        else:
+            from goldset.locus import resolve
+            span = next((r for r in (resolve(commit, name, locus, work) for locus, work in sections) if r), None)
+            if span is None:
+                return {"file": name, "language": language, "status": "locus gives no line, division id, quoted words or section number found in the file"}
+            first, last = span
+            how = "located by the section number in the locus, through the edition's own division numbering"
     else:
         how = "lines given in the locus"
     if first < 1 or last > len(lines) or first > last:
@@ -260,8 +267,9 @@ def build_pack(item: dict) -> dict:
         if record.get("record_type") == "quote" and record.get("text"):
             phrases.insert(0, str(record["text"]))
         div_ids = [m.group(1) for s in record.get("sources") or [] for m in _DIV_ID.finditer(s.get("locus") or "")]
+        sections = [(s.get("locus") or "", str((records.get(s.get("source_id")) or {}).get("work") or "")) for s in record.get("sources") or []]
         for name, first, last in _source_files(record, records):
-            found = passage(item["records_commit"], name, first, last, phrases, div_ids)
+            found = passage(item["records_commit"], name, first, last, phrases, div_ids, sections)
             blocks.append({"id": f"P{len([b for b in blocks if b['kind'] == 'passage']) + 1}", "kind": "passage", "for_record": f"R{n}", **found})
     blocks.append({"id": "L", "kind": "lexicon", "text": lexicon_block(records, {b["id"] for b in item["bindings"]})})
     return {"item_id": item["item_id"], "blocks": blocks}

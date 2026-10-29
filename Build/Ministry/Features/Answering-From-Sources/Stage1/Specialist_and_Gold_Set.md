@@ -87,11 +87,13 @@ is given the prompt files only, never the key.
   the need) is the next tooling step before other worlds are labelled.
   Since 2026-10-29 the pack also locates a passage by a ThML division id the
   locus names, by lines given in a locus whose source record names one file,
-  and by any quoted run of 18 or more characters; all three are exact anchors.
-  Located now: lpc 236/280, gallic 381/444, witt 193/310, ijc 132/360,
-  pahc 105/319, rzg 93/168, desert 90/341, alx 88/251, syr 51/320, hal 28/302,
-  don 18/455. Section numbers without an anchor ("Book II, ch. 3") are not
-  guessed: a wrong passage would mislead the labeller more than none.
+  by any quoted run of 18 or more characters, and by a section number walked
+  down the edition's own division numbering (`goldset/locus.py`: every step
+  must match exactly one division or numbered paragraph, inside the one
+  division whose title holds the work's name; anything ambiguous is left
+  unlocated). Located now: lpc 236/280, gallic 381/444, witt 193/310,
+  ijc 145/360, desert 139/341, alx 119/251, don 116/455, pahc 106/319,
+  rzg 93/168, syr 51/320, hal 28/302.
 - **False-friend seeds come from the lexicon flags.** They test whether the
   labeller uses the risk flags it is given, not whether it spots an archaic
   English sense nobody flagged ("prevent" for "go before"). Natural items and

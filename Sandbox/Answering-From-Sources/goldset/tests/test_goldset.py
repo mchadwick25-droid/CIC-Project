@@ -194,3 +194,13 @@ def test_agreement_queues_disagreements_and_key_classes():
     assert result["items_both_labelled"] == 4 and result["disagreements"] == 1
     assert [q["item_id"] for q in result["queue"][:2]] == ["b", "c"] and len(result["queue"]) == 3
     assert result["verdict_agreement"] == 0.75
+
+
+def test_locus_paths_and_numerals():
+    from goldset import locus
+    assert locus.number("XIV") == 14 and locus.number("iv") == 4 and locus.number("12") == 12 and locus.number("abc") is None
+    assert locus.path_of("Book II, ch. 3 - what we look to") == [2, 3]
+    assert locus.path_of("VII.24") == [7, 24]
+    assert locus.path_of("Letter XXII (to Eustochium), sec. 30 - the dream") == [22, 30]
+    assert locus.path_of("the 1539 preface") == []
+    assert locus._names("Vita Antonii (Life of Antony), c. 356 - epitome") == [{"vita", "antonii"}, {"life", "antony"}]
