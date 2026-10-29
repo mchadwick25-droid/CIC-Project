@@ -51,7 +51,7 @@ def search(
     clauses = ["passage_fts MATCH ?"]
     params: list = [match]
     if world is not None or roles is not None:
-        sub = "SELECT 1 FROM passage_rows r WHERE r.passage_id = p.passage_id"
+        sub = "SELECT 1 FROM shelf_files r WHERE r.file = p.file"
         if world is not None:
             sub += " AND r.world = ?"
             params.append(world)
@@ -79,6 +79,9 @@ def search(
             role_rows = [
                 dict(r) for r in connection.execute(
                     "SELECT world, row_id, role FROM passage_rows WHERE passage_id = ?", (row["passage_id"],))
+            ] or [
+                dict(r) for r in connection.execute(
+                    "SELECT world, row_id, role FROM shelf_files WHERE file = ?", (row["file"],))
             ]
             hits.append(Hit(row["passage_id"], row["score"], row["text"], row["context"], _source(row, role_rows)))
         return hits
