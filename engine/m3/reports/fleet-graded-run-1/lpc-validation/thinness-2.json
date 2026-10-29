@@ -1,0 +1,22 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.218,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.03426
+  },
+  "usage": [],
+  "results": [],
+  "stopped_by_cap_at": "message-1",
+  "crisis_append_proven": null
+}
