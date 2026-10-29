@@ -48,6 +48,8 @@ claim_guards:
 relations:
 - type: associated-with
   target: lpc.story.the-plague-and-the-enemies
+- type: associated-with
+  target: lpc.witness.baptism-as-new-birth
 text: God continually makes His sun to rise, and from time to time gives showers to nourish the seed,
   exhibiting all these kindnesses not only to His people, but to aliens also. And if a man professes to
   be a son of God, why does not he imitate the example of his Father? “It becomes us,” said he, “to answer

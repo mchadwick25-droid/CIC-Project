@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - participant asks about Augustine's 'Love, and do what thou wilt', from his homily on 1 John 4
   - participant asks what Augustine meant by 'love, and do what you want'
-  - participant asks how Augustine said a harsh act could come from love
+  - participant asks how Augustine said a deed is judged by whether love is its root, not by how harsh or gentle it looks
   prefer_instead:
   - participant asks how Augustine said to correct and yet forgive -- lpc.quote.reprove-and-forgive-the-surgeons-knife
     gives that

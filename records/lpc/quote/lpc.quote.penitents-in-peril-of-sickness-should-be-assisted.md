@@ -13,6 +13,7 @@ use_note:
     - "a claim about which council it was, or when or where it met"
     - "a claim about who gave the peace or what the penitent first had to do"
     - "a claim about what became of any penitent who died"
+    - "a claim about what Augustine held for the dying"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:

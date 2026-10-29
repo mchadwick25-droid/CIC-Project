@@ -42,6 +42,9 @@ sources:
 - source_id: lpc.source.augustine-correction-of-the-donatists
   locus: ch. 7 SSSS23-29 -- the imperial-coercion defence
   license: public-domain
+- source_id: lpc.source.augustine-general-correspondence
+  locus: Letter CXXVI, to Albina, Pinianus and Melania (411), the apse and the steps -- read directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 44461-44560
+  license: public-domain
 - source_id: lpc.source.augustine-letter-93-to-vincentius
   locus: SS17 -- Augustine's own account of his earlier opinion against coercion
   license: public-domain
@@ -210,7 +213,7 @@ thinness: 'This is not a hostile-source problem, the way it is for the neighbour
 
   Material evidence here is unexcavated, not empty. Site reports and inscription collections for this region exist, but none has yet been read for what it shows of this world''s worship. It also has no distinctive inscription tied to
   its worship, of the kind the Donatist world can point to. But real material evidence does exist, carried
-  in a text. A pastoral letter describes an apse, a raised seating area for clergy, steps, and a floor
+  in a text. One letter of Augustine''s, Letter CXXVI to Albina (411), describes an apse, a raised seating area for clergy, steps, and a floor
   for the congregation. That evidence comes from a letter, not a trench.
 
 
@@ -388,7 +391,7 @@ thin_topics:
   - material remains
   - the physical setting of worship
   note: No site report, inscription catalogue, or excavation record has been independently verified in
-    this build. Real material evidence exists, but it is document-borne, recovered from a pastoral letter
+    this build. Real material evidence exists, but it is document-borne, recovered from Augustine's Letter CXXVI to Albina (411),
     describing a basilica's own apse and steps, not from a trench -- unexcavated, not empty.
 - keywords:
   - founding narrative

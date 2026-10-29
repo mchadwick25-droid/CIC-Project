@@ -2367,3 +2367,11 @@ Logged 2026-10-28.
 - **Done.** The two lists are back within the limit; see `lpc_Decision_Log.md`, 2026-10-28, "Two quote not_for lists brought back under the schema limit". Pin `packages/lpc/2026-10-28T18-53-09Z`.
 - **Lesson.** Run `engine.m9.enforce.hygiene_problems` after any not_for edit, before the push. The retrieval-hint merge went in while CI was still running.
 - **Owner.** This thread; closed on merge.
+
+### OG-111. lpc fleet-run record fixes are done; the women's-writing claim awaits a ruling (2026-10-29).
+
+Logged 2026-10-29.
+
+- **Done.** The baptism-as-new-birth witness, Felicissimus and Rome, the apse letter named, and two quote narrowings; see `lpc_Decision_Log.md`, 2026-10-29, "Record fixes from the fleet run's second pass". Pin `packages/lpc/2026-10-29T05-33-56Z`.
+- **Still open.** The claim "no text a woman wrote herself survives" (F3-I), pending the project lead's ruling on Perpetua (203, before the window); `validation lpc` needs a full battery on the current pin, a named live test and cap.
+- **Owner.** This thread for the records; the project lead for the ruling.

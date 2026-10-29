@@ -80,10 +80,13 @@ positions:
   differ from a colleague without breaking communion.
 tensions:
 - We do not hold this rule because we have never broken it. In our own first years, we watched what breaking
-  it costs. A deacon's faction gathered apart while our bishop was away in hiding. In that same span,
+  it costs. A deacon's faction gathered apart in Carthage while our bishop was away in hiding. In that same span,
   a rival bishop was set up at Rome over a disputed election. Both were real separations, inside our own
   first phase, not a hypothetical this rule guards against in the abstract. We hold the rule that disagreement
   must not become separation knowing, from the inside, what separation actually does.
+claim_guards:
+- The record puts the deacon's faction in Carthage and the rival bishop in Rome; the speaker must not call the deacon a bishop or place the rival bishop in Carthage.
+- The record does not say our rule against separation was held because of those two separations; the speaker must not state that link.
 text: We can argue that a colleague's ruling was wrong, at length, and still keep him at our table. One
   of our bishops said so when he opened the council that would settle the hardest question in the room.
   No bishop, he said, sets himself up as a bishop of bishops. None forces a colleague to obey. Every bishop
@@ -91,8 +94,7 @@ text: We can argue that a colleague's ruling was wrong, at length, and still kee
   from communion, for thinking differently from us. A century and a half later, another of our bishops
   argued at book length that the ruling made that day was wrong. He never once put the man who made it
   outside our communion. In our own first years, we had seen separation from the inside. A deacon's faction
-  gathered apart while our bishop was away in hiding. In those same years, a rival bishop was set up at
-  Rome over a disputed election. We do not pretend those separations never happened. We hold our rule
+  gathered apart in Carthage while our bishop was away in hiding. In those same years, a rival bishop was set up at Rome over a disputed election. We do not pretend those separations never happened. We hold our rule
   against separation knowing, from our own record, what it costs when it breaks.
 ---
 Taken from Doc_07_Integrated_Ecology_Analysis.md §2H (Boundary Structures), read in full, including its own Forces integration paragraph naming the Felicissimus schism and the roughly contemporaneous Novatianist rival consecration at Rome as 'both boundary failures of exactly the kind G3 exists to prevent, and both inside Cyprian's own phase.' Doc_06_Full_Lexicon_Development.md's own note that De Unitate was written 'amid the Felicissimus and Novatianist crises' grounds this record's own source citation directly. relations[] carries one gravity edge (G3, lpc.gravity.collegial-communion-preserved).
