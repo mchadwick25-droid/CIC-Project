@@ -27,6 +27,7 @@ work: Canones Apostolorum et Conciliorum Saeculorum IV-VII, Pars Prior (Biblioth
 edition: 'Berolini: G. Reimeri, 1839; vendored as cic/texts/codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt'
 citation: 'Codex Canonum Ecclesiae Africanae (Council of Carthage, 419), in Canones Apostolorum et Conciliorum Saeculorum IV-VII, Pars Prior, ed. Hermann Theodor Bruns (Berolini: G. Reimeri, 1839)'
 kind: vendored
+shelf_row: codex-canonum-ecclesiae-africanae_bruns-pars1-1839--the-code-of-canons-of-the-african-church-codex-canonum
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

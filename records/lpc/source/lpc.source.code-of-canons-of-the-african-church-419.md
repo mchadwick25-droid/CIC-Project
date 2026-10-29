@@ -22,6 +22,7 @@ edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/te
   the Latin original (Bruns's 1839 edition) is separately vendored as row 202
 citation: 'The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV'
 kind: vendored
+shelf_row: npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

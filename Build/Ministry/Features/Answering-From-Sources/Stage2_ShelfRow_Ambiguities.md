@@ -1,0 +1,233 @@
+# Shelf-row ambiguities and off-shelf records
+
+## lpc
+
+### Ambiguous (25)
+
+- `lpc.source.acta-proconsularia-sancti-cypriani`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--cyprian-s-opera-spuria-works-transmitted-under-cyprian-s`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--vita-caecilii-cypriani-attributed-to-pontius-the-deacon`
+- `lpc.source.acts-of-council-of-carthage-under-cyprian-npnf214`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage`
+  - `npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on`
+- `lpc.source.anonymous-against-novatian-and-on-rebaptism`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.augustine-answer-to-petilian`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-anti-manichaean-corpus`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-anti-pelagian-corpus`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas`
+  - `npnf105_augustine-anti-pelagian-writings--on-grace-and-free-will-de-gratia-et-libero-arbitrio`
+  - `npnf105_augustine-anti-pelagian-writings--on-man-s-perfection-in-righteousness-de-perfectione`
+  - `npnf105_augustine-anti-pelagian-writings--on-marriage-and-concupiscence-de-nuptiis-et-concupiscentia`
+  - `npnf105_augustine-anti-pelagian-writings--on-nature-and-grace-de-natura-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-grace-of-christ-and-on-original-sin-de-gratia-christi`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-merits-and-forgiveness-of-sins-and-on-the-baptism-of`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-proceedings-of-pelagius-de-gestis-pelagii`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-soul-and-its-origin-de-anima-et-ejus-origine`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-spirit-and-the-letter-de-spiritu-et-littera`
+- `lpc.source.augustine-city-of-god`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf102_augustine-city-of-god-christian-doctrine--city-of-god`
+  - `npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine`
+- `lpc.source.augustine-confessions`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-correction-of-the-donatists`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-creedal-catechetical-works`: 16 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--a-treatise-on-faith-and-the-creed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--concerning-faith-of-things-not-seen`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-holy-virginity`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-the-work-of-monks-de-opere-monachorum`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-care-to-be-had-for-the-dead`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-continence`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-lying-de-mendacio`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-patience`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-creed-a-sermon-to-catechumens`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-marriage`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-widowhood`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-holy-trinity-de-trinitate`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--the-enchiridion-on-faith-hope-and-love`
+- `lpc.source.augustine-donatist-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-further-doctrinal-and-moral-treatises`: 16 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--a-treatise-on-faith-and-the-creed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--concerning-faith-of-things-not-seen`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-holy-virginity`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-the-work-of-monks-de-opere-monachorum`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-care-to-be-had-for-the-dead`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-continence`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-lying-de-mendacio`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-patience`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-creed-a-sermon-to-catechumens`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-marriage`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-widowhood`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-holy-trinity-de-trinitate`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--the-enchiridion-on-faith-hope-and-love`
+- `lpc.source.augustine-general-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-jerome-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-letter-93-to-vincentius`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-on-baptism-against-the-donatists`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-on-christian-doctrine`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf102_augustine-city-of-god-christian-doctrine--city-of-god`
+  - `npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine`
+- `lpc.source.augustine-sermons-on-selected-lessons`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--our-lord-s-sermon-on-the-mount-de-sermone-domini-in-monte`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--the-harmony-of-the-gospels-de-consensu-evangelistarum`
+- `lpc.source.augustine-tractates-on-john-and-related-exegesis`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--our-lord-s-sermon-on-the-mount-de-sermone-domini-in-monte`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--the-harmony-of-the-gospels-de-consensu-evangelistarum`
+- `lpc.source.bruder-doctrina-christiana-enchiridion-maurist`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustine_doctrina-christiana-enchiridion-lat_bruder1838--on-christian-doctrine-de-doctrina-christiana-books-i-iv`
+  - `augustine_doctrina-christiana-enchiridion-lat_bruder1838--the-enchiridion-on-faith-hope-and-love`
+- `lpc.source.cyprian-epistles`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.cyprian-minor-pastoral-treatises`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.cyprian-opera-spuria-vita-pontius-acta-proconsularia-csel3-pars3`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--cyprian-s-opera-spuria-works-transmitted-under-cyprian-s`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--vita-caecilii-cypriani-attributed-to-pontius-the-deacon`
+- `lpc.source.cyprian-seventh-council-of-carthage`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.passio-montani-et-lucii`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--acta-proconsularia-of-cyprian-latin-knopf-krueger-1929-no-13`
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--passio-of-marianus-and-jacobus-latin-knopf-krueger-1929-no`
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--passio-of-montanus-and-lucius-latin-knopf-krueger-1929-no-16`
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--the-passion-of-the-scillitan-martyrs-latin-knopf-krueger`
+
+### Off-shelf (3)
+
+- `lpc.source.cil-viii-inscriptiones-africae-latinae`: cil8-supplementum-numidiae_cagnat-schmidt1894.txt is not in this world's bucket
+- `lpc.source.codex-theodosianus-mommsen-meyer`: theodosianus-16_mommsen-meyer1905.txt is not in this world's bucket
+- `lpc.source.tertullian-de-pudicitia`: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml is not in this world's bucket
