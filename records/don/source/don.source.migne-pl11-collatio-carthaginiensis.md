@@ -35,6 +35,7 @@ work: Patrologiae Cursus Completus, Series Latina, Tomus XI -- the volume bundli
 edition: Paris, compiled 1840s-1850s; vendored as cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
 citation: J.-P. Migne (ed.), Patrologiae Cursus Completus, Series Latina, Tomus XI (Paris)
 kind: vendored
+shelf_row: pl11-zeno-optatus-collatio-carthaginiensis_migne--gesta-collationis-carthaginiensis-acts-of-the-411-conference
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'documentary for the Gesta itself -- numbered conference acts naming their own speakers.
   Editorial for the volume''s framing: the Optatus material reprinted here is Francois Baudouin''s sixteenth-century
