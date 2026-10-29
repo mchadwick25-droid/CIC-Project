@@ -18,6 +18,7 @@ work: "Historia Lausiaca (The Lausiac History) - cited here only for what Pallad
 edition: "trans. W.K. Lowther Clarke (SPCK, Translations of Christian Literature, 1918), vendored as cic/texts/palladius_lausiac-history_clarke1918.txt"
 citation: Palladius of Galatia, Historia Lausiaca (The Lausiac History), trans. W.K. Lowther Clarke (SPCK, Translations of Christian Literature, 1918)
 kind: vendored
+shelf_row: palladius_lausiac-history--lausiac-history-3
 work_id: palladius-lausiac-history
 rights_status: public-domain
 attribution_status: attributed

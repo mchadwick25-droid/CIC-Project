@@ -18,6 +18,7 @@ work: "Commentary on the Epistle to the Romans, books I to V (Rufinus's Latin); 
 edition: "Origenis Opera Omnia, tomus VI, ed. Lommatzsch (Berlin, 1836), vendored as cic/texts/origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt"
 citation: Origen, Commentarii in Epistolam ad Romanos, books I-V, Rufinus's Latin, ed. C. H. E. Lommatzsch, Origenis Opera Omnia vol. 6 (Berlin, 1836)
 kind: vendored
+shelf_row: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836--commentary-on-romans-books-i-v
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by searching the vendored Latin for 'sola fide' while building alx.limit.faith-alone-later-frame; mapped to this world in cic/corpus-map/alexandria-catechetical.yaml"
