@@ -1,0 +1,1136 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.8694,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.076463
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2261,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2099,
+      "output_tokens": 235,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3732,
+      "output_tokens": 405,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    },
+    {
+      "call_kind": "voice_generation_retry",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3751,
+      "output_tokens": 323,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    },
+    {
+      "call_kind": "self_revision",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 1138,
+      "output_tokens": 305,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "So you'd agree the Donatists were just schismatics who deserved what they got?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "other_tradition, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not agree they \"deserved what they got,\" and we do not disown what was done to them either. The Donatists were a rival church standing in our own towns, claiming to be the only true one. The sharpest question between us was whether a baptism given outside our one church counts at all. We answered it twice, in two different ways, a century and a half apart. Cyprian's council said no. Augustine said it was truly given but did no good there. Augustine wrote: “The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give ‘the form of godliness.’ Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”\n\nWhat is added when they come in is the unity of the Spirit, and that can be given only within.\n\nThe Donatists could cite Cyprian himself for their rebaptism. We argued the question at length, across both our phases. That a rival communion pressed the same question from outside does not settle whether compulsion against them was right.",
+          "citations": [
+            {
+              "sentence": "The sharpest question between us was whether a baptism given outside our one church counts at all.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We answered it twice, in two different ways, a century and a half apart.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian's council said no.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine said it was truly given but did no good there.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote: “The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give ‘the form of godliness.’ Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”",
+              "record_ids": [
+                "lpc.quote.the-branch-cut-from-the-vine"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 21 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 32; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 12936-12937; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "The Donatists could cite Cyprian himself for their rebaptism.",
+              "record_ids": [
+                "lpc.gravity.sacramental-ordination-validity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.sacramental-ordination-validity",
+                  "record_type": "gravity",
+                  "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We argued the question at length, across both our phases.",
+              "record_ids": [
+                "lpc.gravity.sacramental-ordination-validity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.sacramental-ordination-validity",
+                  "record_type": "gravity",
+                  "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 1150,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 365,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Epistles' own rebaptism correspondence",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the 256 Council's own rebaptism ruling",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 392,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Epistles' own rebaptism correspondence",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the 256 Council's own rebaptism ruling",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_is",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.confessor-claim-vs-regulated-peace"
+            ],
+            "term": [
+              "lpc.term.heresy",
+              "lpc.term.confessor"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian"
+            ],
+            "quote": [
+              "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+              "lpc.quote.consider-who-was-there",
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.such-a-one-with-his-friends",
+              "lpc.quote.the-branch-cut-from-the-vine"
+            ],
+            "gravity": [
+              "lpc.gravity.sacramental-ordination-validity"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": true,
+              "changed": true,
+              "draft_length": 1243,
+              "revised_length": 1149,
+              "fallback_reason": null,
+              "latency_seconds": 3.658
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": true,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": true,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not agree they \"deserved what they got,\" and we do not disown what was done to them either.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "We do not agree they \"deserved what they got,\" and we do not disown what was done to them either [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "The Donatists were a rival church standing in our own towns, claiming to be the only true one.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['donatists']) with no citation tag",
+                "draft": "The Donatists were a rival church standing in our own towns, claiming to be the only true one."
+              },
+              {
+                "sentence": "The sharpest question between us was whether a baptism given outside our one church counts at all.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The sharpest question between us was whether a baptism given outside our one church counts at all [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "We answered it twice, in two different ways, a century and a half apart.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "grounded 88% in own tagged records",
+                "ratio": 0.88,
+                "draft": "We answered it twice, in two different ways, a century and a half apart [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "Cyprian's council said no.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Cyprian's council said no [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "Augustine said it was truly given but did no good there.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine said it was truly given but did no good there [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "Augustine wrote: “The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give ‘the form of godliness.’ Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”",
+                "tags": [
+                  "lpc.quote.the-branch-cut-from-the-vine"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.the-branch-cut-from-the-vine",
+                "draft": "Augustine wrote: [[quote:lpc.quote.the-branch-cut-from-the-vine]]"
+              },
+              {
+                "sentence": "What is added when they come in is the unity of the Spirit, and that can be given only within.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What is added when they come in is the unity of the Spirit, and that can be given only within."
+              },
+              {
+                "sentence": "The Donatists could cite Cyprian himself for their rebaptism.",
+                "tags": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "The Donatists could cite Cyprian himself for their rebaptism [[lpc.gravity.sacramental-ordination-validity]]."
+              },
+              {
+                "sentence": "We argued the question at length, across both our phases.",
+                "tags": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We argued the question at length, across both our phases [[lpc.gravity.sacramental-ordination-validity]]."
+              },
+              {
+                "sentence": "That a rival communion pressed the same question from outside does not settle whether compulsion against them was right.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That a rival communion pressed the same question from outside does not settle whether compulsion against them was right."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.quote.the-branch-cut-from-the-vine",
+                  "lpc.term.heresy"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "The Donatists were a rival church standing in our own towns, claiming to be the only true one.",
+                    "tags": [
+                      "lpc.quote.the-branch-cut-from-the-vine",
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 57% in own tagged records",
+                    "ratio": 0.57
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.quote.the-branch-cut-from-the-vine",
+                  "lpc.term.heresy"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": true,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What is added when they come in is the unity of the Spirit, and that can be given only within.",
+                    "tags": [
+                      "lpc.quote.the-branch-cut-from-the-vine",
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "That a rival communion pressed the same question from outside does not settle whether compulsion against them was right.",
+                    "tags": [
+                      "lpc.gravity.sacramental-ordination-validity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.the-branch-cut-from-the-vine"
+              ],
+              "removed": [
+                {
+                  "sentence": "For those baptized among schismatics or heretics, he said, the washing of the flesh is not repeated.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "For those baptized among schismatics or heretics, he said, the washing of the flesh is not repeated."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 97
+              },
+              {
+                "index": 1,
+                "text_start": 98,
+                "text_end": 192
+              },
+              {
+                "index": 2,
+                "text_start": 193,
+                "text_end": 291
+              },
+              {
+                "index": 3,
+                "text_start": 292,
+                "text_end": 364
+              },
+              {
+                "index": 4,
+                "text_start": 365,
+                "text_end": 391
+              },
+              {
+                "index": 5,
+                "text_start": 392,
+                "text_end": 448
+              },
+              {
+                "index": 6,
+                "text_start": 449,
+                "text_end": 919
+              },
+              {
+                "index": 7,
+                "text_start": 921,
+                "text_end": 1015
+              },
+              {
+                "index": 8,
+                "text_start": 1017,
+                "text_end": 1078
+              },
+              {
+                "index": 9,
+                "text_start": 1079,
+                "text_end": 1136
+              },
+              {
+                "index": 10,
+                "text_start": 1137,
+                "text_end": 1257
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 5,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 17,
+                "char_end": 470,
+                "surface": "“The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give ‘the form of godliness.’ Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 10,
+                "char_start": 13,
+                "char_end": 22,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.heresy",
+                "record_type": "term",
+                "label": "heresy",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own rebaptism correspondence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council's own rebaptism ruling",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses De Unitate for its general ecclesiology only. That row also carries an unresolved two-recension question for chapters 4-5 (one form, the 'Primacy Text,' more favourable to Roman primacy), on which nothing in this entry depends.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 21 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 32; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 12936-12937; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.gravity.sacramental-ordination-validity",
+                "record_type": "gravity",
+                "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.heresy",
+                "record_type": "term",
+                "label": "heresy",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own rebaptism correspondence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council's own rebaptism ruling",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses De Unitate for its general ecclesiology only. That row also carries an unresolved two-recension question for chapters 4-5 (one form, the 'Primacy Text,' more favourable to Roman primacy), on which nothing in this entry depends.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.gravity.sacramental-ordination-validity",
+                "record_type": "gravity",
+                "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                0,
+                1
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.the-branch-cut-from-the-vine"
+            ],
+            "removed": [
+              {
+                "sentence": "For those baptized among schismatics or heretics, he said, the washing of the flesh is not repeated.",
+                "why": "words attributed without a placed quote",
+                "draft": "For those baptized among schismatics or heretics, he said, the washing of the flesh is not repeated."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
