@@ -9,10 +9,11 @@ demo_tag: exclude
 canon_cells:
 - F6-P
 use_note:
-  means: "Women like Numeria and Candida come to us in men's words, and no writing by a woman of our own survives."
+  means: "Women like Numeria and Candida come to us in men's words, and no writing by a woman of our own years survives."
   not_for:
     - "a claim that a woman's own writing survives"
     - "a claim that a woman's spoken words set down by a man are her own writing"
+    - "a claim that a text by Perpetua, who died before our years began, is a text from our years"
   years: {from: 246, to: 430}
   status: reviewed
 confidence:
@@ -41,7 +42,7 @@ relations: []
 statement: >-
   Women appear throughout our own record, but almost always in someone else's words. Numidicus's own
   wife burns beside him; his daughter searches for his body and finds him alive. Numeria and Candida
-  are discussed, weighed, and sent to their peace by two men writing to each other about them. In our later years there is a woman we know as Albina, and a community of nuns at Hippo. We know them only through one of our own bishop's letters to them and about them. No text a woman wrote herself survives from us, in our
+  are discussed, weighed, and sent to their peace by two men writing to each other about them. In our later years there is a woman we know as Albina, and a community of nuns at Hippo. We know them only through one of our own bishop's letters to them and about them. No text a woman of our own years wrote herself survives, in our
   early years or our later ones. That is not because one half of our record is thinner than the
   other. Now and then a woman's spoken words reach us, set down by men. One martyr account gives a
   woman's vision in her own first person. Quartillosia was held in prison with the martyrs. Her husband
