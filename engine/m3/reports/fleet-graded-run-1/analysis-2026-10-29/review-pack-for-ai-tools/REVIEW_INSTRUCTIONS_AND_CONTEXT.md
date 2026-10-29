@@ -28,7 +28,7 @@ For every answer, judge two things.
 
 ## 3. The most important thing to look for: false silence
 
-The representative often says that no source, record or voice exists on a topic, or that "we never said" something, when the period's sources do say it. Examples from this test (all found by checking): saying no woman's own writing survives from Roman Africa (Perpetua's prison narrative does); saying the Cappadocian writings are silent on the fate of non-believers (Gregory of Nyssa, Gregory of Nazianzus and Basil all discuss it); saying the community did not speak of being "born again" (it did).
+The representative often says that no source, record or voice exists on a topic, or that "we never said" something, when the period's sources do say it. An example from outside this test, to show the kind of error: a representative from seventh-century Ireland who says no Christian text survives from his own country, when Muirchu's Life of Patrick and Adomnan's Life of Columba both do.
 
 A representative is allowed to say "our records do not hold this" or "I cannot recall a saying on this". It is **not** allowed to say "no such source exists" unless that is true of the whole period. If an answer claims an absence, check it. Name the source that contradicts it, or say you could not find one.
 
