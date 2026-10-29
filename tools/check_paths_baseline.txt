@@ -1003,3 +1003,7 @@ Build/worlds/witt/witt_GoLive_Adversarial_Review_Round1.md: Build/worlds/witt/sc
 Build/worlds/witt/witt_World_Profile.md: Build/worlds/witt/scripts/wb_witt_s21.py
 Build/Ministry/Operations/Handoffs/2026-10-27_lpc-go-live-readiness.md: packages/lpc/2026-10-28T04-35-04Z
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc/2026-10-28T04-35-04Z
+Build/Ministry/Operations/Handoffs/2026-10-27_lpc-go-live-readiness.md: packages/lpc/2026-10-29T11-53-43Z
+Build/worlds/lpc/Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md: packages/lpc/2026-10-29T11-53-43Z
+Build/worlds/lpc/build/lpc_Probe_Results.md: packages/lpc/2026-10-29T11-53-43Z/compiled/prompt.txt
+Build/worlds/lpc/lpc_Decision_Log.md: packages/lpc/2026-10-29T11-53-43Z
