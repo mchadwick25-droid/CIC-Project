@@ -12,7 +12,7 @@ import json
 import re
 import unicodedata
 
-from goldset.evidence import block_text, render_pack
+from goldset.evidence import CITED_CLOSE, CITED_OPEN, block_text, render_pack
 
 VERDICTS = ("supported", "unsupported", "no_claim", "cannot_judge")
 CLASSES = ("false_friend", "negation_modal_shift", "generalisation", "embedded_voice", "unsupported_other")
@@ -63,9 +63,13 @@ MIN_EVIDENCE_WORDS = 4
 
 def words_in(words: str, text: str) -> bool:
     """The quoted words occur in the text as a run of whole words, at least
-    MIN_EVIDENCE_WORDS long (or the whole text, when it is shorter)."""
-    quoted = _WORDS.findall(_fold(words))
-    tokens = _WORDS.findall(_fold(text))
+    MIN_EVIDENCE_WORDS long (or the whole text, when it is shorter). The
+    cited-line marks the pack adds are not the source's words and are ignored."""
+    def unmarked(value: str) -> str:
+        return _fold(value.replace(CITED_OPEN, " ").replace(CITED_CLOSE, " "))
+
+    quoted = _WORDS.findall(unmarked(words))
+    tokens = _WORDS.findall(unmarked(text))
     if len(quoted) < min(MIN_EVIDENCE_WORDS, len(tokens)) or not quoted:
         return False
     first = quoted[0]

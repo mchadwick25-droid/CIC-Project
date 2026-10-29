@@ -24,6 +24,8 @@ def test_verbatim_evidence_is_required():
     assert not labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "t is not divided"}]), PACK)["ok"]
     assert labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "it is not divided"}]), PACK)["ok"]
     assert not labeller.parse_reply(reply(evidence=["the Church is one"]), PACK)["ok"]
+    marked = {"item_id": "x", "blocks": [{"id": "P1", "kind": "passage", "text": "For neither\u27e6/cited\u27e7 does any of us set himself up"}]}
+    assert labeller.parse_reply(reply(evidence=[{"block": "P1", "words": "For neither does any of us"}]), marked)["ok"]
     assert not labeller.parse_reply(reply(evidence=[{"block": "P9", "words": "the Church"}]), PACK)["ok"]
     assert not labeller.parse_reply(reply(evidence=[]), PACK)["ok"]
 
