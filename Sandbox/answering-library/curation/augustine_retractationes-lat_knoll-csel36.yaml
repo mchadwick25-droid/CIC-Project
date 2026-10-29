@@ -1,0 +1,307 @@
+file: augustine_retractationes-lat_knoll-csel36.txt
+scheme: Knoll's CAPVT numbers 1 to 93, printed continuously across both books as the heading CAPVT and a Roman numeral (Maurist numbers in brackets beside them are not used); the eight chapters whose numeral line is missing
+  or has lost the word CAPVT are addressed by the numeral printed on that line or, for chapters 55 and 76, by the matching entry in the printed list of capitula
+curator: Sonnet 5.5
+status: drafted
+rules:
+- id: book
+  pattern: ^\W*L[IT]BER (?:PRIM[VU]S|SEC[VU]NDVS)\.$
+  lines:
+  - 1722
+  - 13792
+  locus: book
+  division: false
+- id: caput
+  pattern: (?:^|\s)\S{0,4}[Aa][Pp][VvYy][Tt] (?P<n>[IVXLCYxvlm1HT]+)
+  lines:
+  - 1722
+  - 13792
+  locus: caput{n|int}
+  number: n
+  ocr_map:
+    Y: V
+  fixes:
+  - line: 2224
+    set:
+      n: III
+  - line: 2401
+    set:
+      n: IIII
+  - line: 2756
+    set:
+      n: VI
+  - line: 3889
+    set:
+      n: VIIII
+  - line: 4950
+    set:
+      n: XIII
+  - line: 6120
+    set:
+      n: XVI
+  - line: 6241
+    set:
+      n: XVII
+  - line: 6361
+    set:
+      n: XVIII
+  - line: 7089
+    set:
+      n: XXI
+  - line: 7744
+    set:
+      n: XXIII
+  - line: 7919
+    set:
+      n: XXIIII
+  - line: 9001
+    set:
+      n: XXVII
+  - line: 9170
+    set:
+      n: XXVIII
+  - line: 9188
+    set:
+      n: XXVIIII
+  - line: 9381
+    set:
+      n: XXXI
+  - line: 9761
+    set:
+      n: XXXVI
+  - line: 9815
+    set:
+      n: XXXVII
+  - line: 10009
+    set:
+      n: XLI
+  - line: 10268
+    set:
+      n: XLIII
+  - line: 10334
+    set:
+      n: XLIIII
+  - line: 10542
+    set:
+      n: XLVII
+  - line: 10917
+    set:
+      n: LI
+  - line: 10985
+    set:
+      n: LII
+  - line: 11049
+    set:
+      n: LIII
+  - line: 11303
+    set:
+      n: LVI
+  - line: 11357
+    set:
+      n: LVII
+  - line: 11756
+    set:
+      n: LXII
+  - line: 11825
+    set:
+      n: LXIII
+  - line: 11935
+    set:
+      n: LXIIII
+  - line: 12137
+    set:
+      n: LXVIII
+  - line: 12154
+    set:
+      n: LXVIIII
+  - line: 12480
+    set:
+      n: LXXIII
+  - line: 12540
+    set:
+      n: LXXIIII
+  - line: 12737
+    set:
+      n: LXXVIIII
+  - line: 13424
+    set:
+      n: LXXXVII
+  - line: 13443
+    set:
+      n: LXXXVIII
+  - line: 13561
+    set:
+      n: '89'
+  - line: 13644
+    set:
+      n: XCI
+  - line: 13660
+    set:
+      n: XCII
+divisions:
+- start_line: 1507
+  locus: prologus
+- start_line: 3119
+  locus: caput7
+- start_line: 4490
+  locus: caput12
+- start_line: 6830
+  locus: caput19
+- start_line: 11240
+  locus: caput55
+- start_line: 11491
+  locus: caput59
+- start_line: 12074
+  locus: caput67
+- start_line: 12611
+  locus: caput76
+- start_line: 13110
+  locus: caput82
+- start_line: 8005
+  locus: caput25
+  allow_oversize: The edition numbers this chapter with a single section number (1) and prints no finer numbered division inside it; it runs through the 83 questions as one text.
+ignore:
+- pattern: ^\S{0,2}\s?[KRE]\s?e\s?t\s?r\s?a\s?c\s?t\s?a\s?t\s?i\s?[o0]\s?n\s?u\s?m\s?,?\s?S[.,]\s?A\s?u\s?g\s?u\s?s\s?t\s?i\s?n\s?i$
+  kind: running-head
+  lines:
+  - 1722
+  - 13792
+- pattern: '^XXXVI \S+ sectio I pars \S+(?: \d)?$'
+  kind: signature
+  lines:
+  - 1722
+  - 13792
+- pattern: ^\d{1,3}$
+  kind: page-or-margin-number
+  lines:
+  - 1722
+  - 13792
+apparatus:
+- lines:
+  - 13794
+  - 19248
+  kind: index
+  locus: indices
+- lines:
+  - 1124
+  - 1506
+  kind: index
+  locus: capitula
+- lines:
+  - 1
+  - 1123
+  kind: front
+  locus: front
+evidence:
+- line: 1346
+  quote: LV. Admonitio Donatistarum de Maximianistis
+- line: 1413
+  quote: Contra Pelagium et Caelestium libri II.
+- line: 1507
+  quote: PROLOGVS.
+- line: 1722
+  quote: LTBER PRIMVS.
+- line: 1724
+  quote: CAPVT 1.
+- line: 2153
+  quote: ./^CAPVT II.
+- line: 2224
+  quote: CAPVT IIL
+- line: 2401
+  quote: CAPVT IIIL
+- line: 2756
+  quote: CAPVT YL
+- line: 3119
+  quote: VIL (VIII)
+- line: 3889
+  quote: CAPVT VIIIL
+- line: 4490
+  quote: ail) 5 ’ XIL
+- line: 4950
+  quote: /ICAPVT XIIL
+- line: 5335
+  quote: CAPVT XIIII.
+- line: 6120
+  quote: :]APVT XYL
+- line: 6241
+  quote: CAPVT XVIL
+- line: 6361
+  quote: /"CAPVT xvm.
+- line: 6830
+  quote: XVIIII. (XX)
+- line: 7089
+  quote: CAPVT XXL
+- line: 7744
+  quote: CAPVT XXIIL
+- line: 7919
+  quote: CAPVT XXIIIL
+- line: 8998
+  quote: LIBER SECVNDVS.
+- line: 9001
+  quote: CAPVT XXVIL
+- line: 9170
+  quote: CAPVT XXVIIL
+- line: 9188
+  quote: CAPVT XXVIIIL
+- line: 9381
+  quote: /-"6apvt xxxl
+- line: 9761
+  quote: CAPVT XXXVL
+- line: 9815
+  quote: CAPVT XXXVIL
+- line: 10009
+  quote: CAPVT XLL
+- line: 10268
+  quote: CAPVT XLIIL
+- line: 10334
+  quote: CAPVT XLIIIL
+- line: 10542
+  quote: CAPVT XLVIL
+- line: 10917
+  quote: CAPVT LL
+- line: 10985
+  quote: CAPVT LIL
+- line: 11049
+  quote: lAPVT LHI.
+- line: 11240
+  quote: ADMONITIO DONATISTARVM DE M AXIMIANISTIS,
+- line: 11303
+  quote: CAPVT LVL
+- line: 11357
+  quote: CAPVT LVIL
+- line: 11491
+  quote: LVIIIL
+- line: 11756
+  quote: CAPVT LXIL
+- line: 11825
+  quote: CAPVT LXIIL
+- line: 11935
+  quote: CAPVT LXIIIL
+- line: 12074
+  quote: LXVIL
+- line: 12137
+  quote: CAPYT LXVIIL
+- line: 12154
+  quote: ^/CAPVT LXVIIIT.
+- line: 12480
+  quote: CAPVT LXXIIL
+- line: 12540
+  quote: CAPVT LXXIIIL
+- line: 12611
+  quote: CONTRA PELAGIVM ET CAELESTIVM DE GRATIA
+- line: 12737
+  quote: ^CAPVT LXXVIIIL
+- line: 13110
+  quote: LXXXII.
+- line: 13424
+  quote: CAPVT LXXXVIL
+- line: 13443
+  quote: CAPVT LXXXVIIL
+- line: 13561
+  quote: CAPVT LXXXVIIIL
+- line: 13644
+  quote: CAPVT XCL
+- line: 13660
+  quote: CAPVT XCIL
+- line: 13714
+  quote: CAPVT XCIII.

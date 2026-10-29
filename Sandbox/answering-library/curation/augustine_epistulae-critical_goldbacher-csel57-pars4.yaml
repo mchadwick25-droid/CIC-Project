@@ -1,0 +1,741 @@
+file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
+scheme: Goldbacher's letter numbers CLXXXV to CCLXX, printed as a Roman numeral on a line of its own above the address of each letter; the running heads give the same numbers; a numeral the scan has damaged is read from the
+  same line and from the running head of its page; letters over 5,000 words are divided by the page numbers printed at the head of each page
+curator: Sonnet 5.5
+status: drafted
+rules:
+- id: ep
+  pattern: '^(?:\S{1,3} ){0,3}(?P<n>[IVXLCYT][IVXLCYT1lUNi]*[.,]|[IVXLCYT][IVXLCYT1lUNi]*L)(?: \S{1,2})?$'
+  lines:
+  - - 44
+    - 5926
+  - - 5928
+    - 6628
+  - - 6630
+    - 11213
+  - - 11215
+    - 22248
+  - - 22250
+    - 22470
+  - - 22472
+    - 24359
+  locus: epistula{n|int}
+  number: n
+  fixes:
+  - line: 4368
+    set:
+      n: '188'
+  - line: 5020
+    set:
+      n: CXC
+  - line: 6166
+    set:
+      n: CXCIII
+  - line: 8554
+    set:
+      n: CXCVII
+  - line: 11118
+    set:
+      n: CCII
+  - line: 11708
+    set:
+      n: CCIII
+  - line: 11986
+    set:
+      n: CCV
+  - line: 12888
+    set:
+      n: CCIX
+  - line: 13105
+    set:
+      n: CCX
+  - line: 13786
+    set:
+      n: CCXII
+  - line: 14386
+    set:
+      n: CCXV
+  - line: 14725
+    set:
+      n: CCXVI
+  - line: 15817
+    set:
+      n: CCXVIII
+  - line: 16039
+    set:
+      n: CCXX
+  - line: 17436
+    set:
+      n: CCXXVI
+  - line: 17932
+    set:
+      n: CCXXVII
+  - line: 18578
+    set:
+      n: CCXXX
+  - line: 19390
+    set:
+      n: CCXXXV
+  - line: 19815
+    set:
+      n: '238'
+  - line: 20935
+    set:
+      n: CCXLII
+  - line: 22322
+    set:
+      n: CCLII
+  - line: 23059
+    set:
+      n: CCLXII
+  - line: 23583
+    set:
+      n: CCLXIV
+  - line: 24208
+    set:
+      n: CCLXVIII
+  flags: i
+- id: pg2382
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 2456
+    - 2456
+  - - 2531
+    - 2531
+  - - 2568
+    - 2568
+  - - 2605
+    - 2605
+  - - 2680
+    - 2680
+  - - 2791
+    - 2791
+  - - 2827
+    - 2827
+  - - 2864
+    - 2864
+  - - 2899
+    - 2899
+  locus: p{p|int}
+  number: p
+- id: pg3118
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: epx2962
+  lines:
+  - - 3250
+    - 3250
+  - - 3288
+    - 3288
+  - - 3391
+    - 3391
+  - - 3464
+    - 3464
+  - - 3618
+    - 3618
+  - - 3692
+    - 3692
+  - - 3730
+    - 3730
+  - - 3767
+    - 3767
+  - - 3805
+    - 3805
+  - - 3841
+    - 3841
+  - - 3913
+    - 3913
+  - - 3949
+    - 3949
+  - - 3989
+    - 3989
+  - - 4027
+    - 4027
+  - - 4066
+    - 4066
+  - - 4103
+    - 4103
+  - - 4177
+    - 4177
+  - - 4212
+    - 4212
+  - - 4288
+    - 4288
+  - - 4325
+    - 4325
+  locus: p{p|int}
+  number: p
+- id: pg5024
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 5124
+    - 5124
+  - - 5240
+    - 5240
+  - - 5312
+    - 5312
+  - - 5387
+    - 5387
+  - - 5537
+    - 5537
+  - - 5651
+    - 5651
+  - - 5728
+    - 5728
+  - - 5769
+    - 5769
+  - - 5808
+    - 5808
+  - - 5886
+    - 5886
+  - - 5967
+    - 5967
+  locus: p{p|int}
+  number: p
+- id: pg9002
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 9076
+    - 9076
+  - - 9114
+    - 9114
+  - - 9154
+    - 9154
+  - - 9193
+    - 9193
+  - - 9307
+    - 9307
+  - - 9467
+    - 9467
+  - - 9501
+    - 9501
+  - - 9541
+    - 9541
+  - - 9698
+    - 9698
+  - - 9772
+    - 9772
+  - - 9844
+    - 9844
+  - - 9958
+    - 9958
+  - - 9995
+    - 9995
+  - - 10071
+    - 10071
+  - - 10107
+    - 10107
+  - - 10185
+    - 10185
+  - - 10224
+    - 10224
+  - - 10262
+    - 10262
+  - - 10302
+    - 10302
+  - - 10339
+    - 10339
+  - - 10452
+    - 10452
+  - - 10675
+    - 10675
+  - - 10827
+    - 10827
+  - - 10867
+    - 10867
+  - - 10895
+    - 10895
+  locus: p{p|int}
+  number: p
+- id: pg11986
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 12022
+    - 12022
+  - - 12100
+    - 12100
+  - - 12212
+    - 12212
+  - - 12248
+    - 12248
+  - - 12363
+    - 12363
+  - - 12474
+    - 12474
+  locus: p{p|int}
+  number: p
+- id: pg13215
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 13285
+    - 13285
+  - - 13324
+    - 13324
+  - - 13476
+    - 13476
+  - - 13514
+    - 13514
+  - - 13664
+    - 13664
+  - - 13742
+    - 13742
+  - - 13781
+    - 13781
+  locus: p{p|int}
+  number: p
+- id: pg14987
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 15022
+    - 15022
+  - - 15060
+    - 15060
+  - - 15135
+    - 15135
+  - - 15209
+    - 15209
+  - - 15246
+    - 15246
+  - - 15285
+    - 15285
+  - - 15359
+    - 15359
+  - - 15395
+    - 15395
+  - - 15433
+    - 15433
+  - - 15583
+    - 15583
+  - - 15658
+    - 15658
+  - - 15734
+    - 15734
+  - - 15771
+    - 15771
+  locus: p{p|int}
+  number: p
+- id: pg16888
+  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  parent: ep
+  lines:
+  - - 16920
+    - 16920
+  - - 16959
+    - 16959
+  - - 17000
+    - 17000
+  - - 17038
+    - 17038
+  - - 17116
+    - 17116
+  - - 17156
+    - 17156
+  - - 17272
+    - 17272
+  - - 17350
+    - 17350
+  - - 17390
+    - 17390
+  - - 17424
+    - 17424
+  locus: p{p|int}
+  number: p
+- id: sc44
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - - 46
+    - 46
+  - - 135
+    - 135
+  - - 351
+    - 351
+  - - 391
+    - 391
+  - - 448
+    - 448
+  - - 549
+    - 549
+  - - 564
+    - 564
+  - - 598
+    - 598
+  - - 677
+    - 677
+  - - 749
+    - 749
+  - - 834
+    - 834
+  - - 921
+    - 921
+  - - 969
+    - 969
+  - - 1053
+    - 1053
+  - - 1206
+    - 1206
+  - - 1232
+    - 1232
+  - - 1279
+    - 1279
+  locus: sectio{s|int}
+  number: s
+- id: sc1677
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - - 1757
+    - 1757
+  - - 1789
+    - 1789
+  - - 1934
+    - 1934
+  - - 1998
+    - 1998
+  - - 2012
+    - 2012
+  - - 2100
+    - 2100
+  - - 2176
+    - 2176
+  - - 2296
+    - 2296
+  - - 2320
+    - 2320
+  - - 2349
+    - 2349
+  - - 2382
+    - 2382
+  locus: sectio{s|int}
+  number: s
+- id: epx2962
+  pattern: .
+  lines:
+  - 2962
+  - 2962
+  locus: epistula187
+- id: sc2962
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: epx2962
+  lines:
+  - - 2964
+    - 2964
+  - - 3118
+    - 3118
+  locus: sectio{s|int}
+  number: s
+- id: sc5020
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - 5024
+  - 5024
+  locus: sectio{s|int}
+  number: s
+- id: sc6480
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - - 6525
+    - 6525
+  - - 6566
+    - 6566
+  - - 6596
+    - 6596
+  - - 6682
+    - 6682
+  - - 6820
+    - 6820
+  - - 6835
+    - 6835
+  - - 6870
+    - 6870
+  - - 7244
+    - 7244
+  - - 7396
+    - 7396
+  - - 7473
+    - 7473
+  - - 7502
+    - 7502
+  - - 7535
+    - 7535
+  - - 7575
+    - 7575
+  - - 7587
+    - 7587
+  - - 7688
+    - 7688
+  - - 7819
+    - 7819
+  - - 7854
+    - 7854
+  locus: sectio{s|int}
+  number: s
+- id: sc7996
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - - 7999
+    - 7999
+  - - 8006
+    - 8006
+  - - 8079
+    - 8079
+  - - 8119
+    - 8119
+  - - 8229
+    - 8229
+  - - 8292
+    - 8292
+  - - 8338
+    - 8338
+  - - 8449
+    - 8449
+  locus: sectio{s|int}
+  number: s
+- id: sc9002
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - 10318
+  - 10318
+  locus: sectio{s|int}
+  number: s
+- id: sc19815
+  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
+  parent: ep
+  lines:
+  - - 19864
+    - 19864
+  - - 19931
+    - 19931
+  - - 19947
+    - 19947
+  - - 20050
+    - 20050
+  - - 20082
+    - 20082
+  - - 20098
+    - 20098
+  - - 20308
+    - 20308
+  - - 20315
+    - 20315
+  - - 20392
+    - 20392
+  - - 20471
+    - 20471
+  - - 20506
+    - 20506
+  - - 20534
+    - 20534
+  - - 20610
+    - 20610
+  locus: sectio{s|int}
+  number: s
+divisions:
+- start_line: 8708
+  locus: epistula198
+- start_line: 12709
+  locus: epistula208
+- start_line: 16693
+  locus: epistula223
+- start_line: 19240
+  locus: epistula233
+- start_line: 21917
+  locus: epistula248
+- start_line: 22357
+  locus: epistula254
+- start_line: 22422
+  locus: epistula256
+- start_line: 22937
+  locus: epistula261
+- start_line: 23450
+  locus: epistula263
+- start_line: 24172
+  locus: epistula267
+- start_line: 22488
+  locus: epistula258
+- start_line: 11214
+  locus: epistula202A
+- start_line: 22249
+  locus: epistula250A
+ignore:
+- pattern: ^S\. ?A[a-z]{3,5}li A[a-z]{3,8}$
+  kind: running-head
+  lines:
+  - 44
+  - 24359
+- pattern: '^[eo]p[A-Za-z]{3,8}[a-z!]{1,3} [CcLlXxVvIiTt .—-]+(?: \d+)?$'
+  kind: running-head
+  lines:
+  - 44
+  - 24359
+- pattern: ^(?:[1-9]|[12]\d|30)$
+  kind: page-or-margin-number
+  lines:
+  - 44
+  - 24359
+apparatus:
+- lines:
+  - 1
+  - 43
+  kind: front
+  locus: front
+evidence:
+- line: 44
+  quote: CLXXXV.
+- line: 46
+  quote: '1 '
+- line: 1279
+  quote: '38 '
+- line: 1757
+  quote: '3 '
+- line: 2382
+  quote: '25 '
+- line: 2456
+  quote: '67'
+- line: 2961
+  quote: epistnlartiin CLXXXVI. CLXXXVII.
+- line: 2962
+  quote: CLXXXVB.
+- line: 2964
+  quote: '1 1 '
+- line: 3118
+  quote: '4 '
+- line: 3250
+  quote: '89'
+- line: 4368
+  quote: CLXXXVIIi.
+- line: 5020
+  quote: cxc.
+- line: 5024
+  quote: '11 '
+- line: 5124
+  quote: '140'
+- line: 6166
+  quote: CXCIIL
+- line: 6525
+  quote: '2 '
+- line: 7854
+  quote: '46 '
+- line: 7999
+  quote: '1 '
+- line: 8449
+  quote: '15 '
+- line: 8554
+  quote: cxcvn.
+- line: 8704
+  quote: epistnlartiin CXCYII, CXCVIII.
+- line: 8708
+  quote: cxcvm.
+- line: 9076
+  quote: '245'
+- line: 10318
+  quote: '1 '
+- line: 11118
+  quote: ccn.
+- line: 11214
+  quote: CCII A.
+- line: 11708
+  quote: CCllI.
+- line: 11986
+  quote: ccv.
+- line: 12022
+  quote: '324'
+- line: 12709
+  quote: CCVTJI.
+- line: 12729
+  quote: epistvlsrma CCVII. CCVni.
+- line: 12888
+  quote: CCLX.
+- line: 13020
+  quote: epistularum CCIX.
+- line: 13105
+  quote: ccx.
+- line: 13285
+  quote: '358'
+- line: 13786
+  quote: 5 ccxn.
+- line: 14386
+  quote: ccxv.
+- line: 14725
+  quote: CCXVT.
+- line: 15022
+  quote: '404'
+- line: 15817
+  quote: CCXVIIl.
+- line: 16039
+  quote: ccxx.
+- line: 16689
+  quote: epistuJarum CCXXU. CCXXIII
+- line: 16693
+  quote: ccxxm.
+- line: 16920
+  quote: '453'
+- line: 17436
+  quote: CCXXYI.
+- line: 17932
+  quote: CCXXYII.
+- line: 18578
+  quote: ccxxx.
+- line: 19230
+  quote: epiBtularum CCXXXII. CCXXXIII.
+- line: 19240
+  quote: ccxxxm.
+- line: 19390
+  quote: ccxxxv.
+- line: 19815
+  quote: CCXXXVIII.
+- line: 19864
+  quote: '3 '
+- line: 20610
+  quote: '27 '
+- line: 20935
+  quote: ccxlii.
+- line: 21917
+  quote: ccxvw.
+- line: 21989
+  quote: epistularum CCXLVtli.
+- line: 22249
+  quote: CCL A.
+- line: 22322
+  quote: CCLIL s
+- line: 22349
+  quote: epistularum CCLI— CCLIV.
+- line: 22357
+  quote: CCIJV.
+- line: 22401
+  quote: PIE.VDO PRATRI RCSTICO AUGUSTINUS IN DOMINO SALUTEM.
+- line: 22422
+  quote: CCLVI
+- line: 22486
+  quote: epistularum CCLVII. CCLVIII.
+- line: 22488
+  quote: ccLvra.
+- line: 22937
+  quote: CCIAT
+- line: 23000
+  quote: epistuJarum CCLXJ. gJ9
+- line: 23059
+  quote: ccLxn.
+- line: 23438
+  quote: epistularum CCLXII. CCLXIII. 631
+- line: 23450
+  quote: CCLXJIL
+- line: 23583
+  quote: CCLXIY.
+- line: 24170
+  quote: epistalamm CCLXVI. CCLXVU.
+- line: 24172
+  quote: caxvn.
+- line: 24208
+  quote: cclxviii.
+- line: 24319
+  quote: CCLXX.
