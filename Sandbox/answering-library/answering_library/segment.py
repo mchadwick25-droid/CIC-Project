@@ -13,6 +13,7 @@ import re
 from bisect import bisect_left, bisect_right
 from dataclasses import dataclass
 
+from . import curation as cu
 from . import markup as mu
 from . import ocr, passages, plain, speaker
 from .langscript import filename_codes, infer_default_language, language_of, script_of
@@ -163,6 +164,14 @@ def classify_markers(word_counts: list[int], body_words: int, families: list[dic
 
 
 @dataclass
+class Curated:
+    curation: cu.Curation
+    resolved: cu.Resolved
+    measure: dict
+    work: str
+
+
+@dataclass
 class Plan:
     src: Source
     codes: list[str]
@@ -174,10 +183,59 @@ class Plan:
     evidence: dict
     summary: dict
     furniture_words: int
+    curated: Curated | None = None
 
 
-def plan(entry, source: Source | None = None) -> Plan:
+AUTO = object()
+
+
+def _fallback_class(measure: dict) -> str:
+    return "partial" if measure["marker_divisions"] >= 2 else "none"
+
+
+def _curated_plan(entry, src: Source, cur: cu.Curation) -> Plan:
+    raw = src.text
+    if entry.suffix == ".xml" or mu.looks_like_markup(raw):
+        raise cu.CurationError(f"{cur.path.name}: curation applies to plain-text files only")
+    lines = raw.split("\n")
+    res = cu.resolve(cur, lines)
+    work = "\n".join(" " * len(ln) if i in res.furniture else ln for i, ln in enumerate(lines))
+    offsets = res.line_offsets
+    divs = [UDiv("main", offsets[d.start], offsets[d.end], d.locus, d.title, d.apparatus, d.origin)
+            for d in res.divisions]
+    for e in cur.speakers:
+        if e["state"] == "known" and e["voice"] not in entry.authors:
+            raise cu.CurationError(f"{cur.path.name}: speaker voice '{e['voice']}' is not an author of {entry.filename}")
+    m = cu.measure(res)
+    reasons = cu.failures(m)
+    _unique(divs)
+    words = [d.words for d in res.divisions if d.origin != "header" and d.words > 0]
+    evidence = {
+        "divisions": m["divisions"],
+        "words_per_division": distribution(words),
+        "oversize_divisions": len(m["oversize_divisions"]),
+        "covered_word_share": m["covered_word_share"],
+        "unique_locus_share": round(1 - len(m["repeated_loci"]) / m["divisions"], 4) if m["divisions"] else 0.0,
+        "rule_hits": res.rule_hits,
+        "not_clean_because": reasons,
+    }
+    summary = {"mode": "plain", "furniture": {"lines": len(res.furniture), "words": res.furniture_words,
+                                              "kinds": res.furniture_kinds},
+               "curation": {"file": cur.path.name, "sha256": cur.sha256, "status": cur.status,
+                            "curator": cur.curator, "scheme": cur.scheme}}
+    codes = [cur.language] if cur.language else codes_for(entry.filename, raw)
+    cls = "curated" if not reasons else _fallback_class(m)
+    return Plan(src, codes, False, {"main": (work, _Identity())}, [], divs, cls, evidence, summary,
+                res.furniture_words, Curated(cur, res, m, work))
+
+
+def plan(entry, source: Source | None = None, curation=AUTO) -> Plan:
+    """Divisions of one file. curation is AUTO (the file's curation, if it has an
+    applicable one), None (heuristic markers only) or a Curation to apply."""
     src = source or Source.read(entry.path)
+    cur = cu.for_file(entry.filename) if curation is AUTO else curation
+    if cur is not None:
+        return _curated_plan(entry, src, cur)
     raw = src.text
     codes = codes_for(entry.filename, raw)
     markup_mode = entry.suffix == ".xml" or mu.looks_like_markup(raw)
@@ -236,11 +294,21 @@ def plan(entry, source: Source | None = None) -> Plan:
     return Plan(src, codes, markup_mode, streams, embedded, divs, cls, evidence, summary, furniture_words)
 
 
-def segment(entry, vocab: ocr.Vocabulary | None = None, source: Source | None = None) -> tuple[list[dict], dict]:
-    p = plan(entry, source)
+def _speaker(cur, line, entry, d, ptext, words, embedded):
+    override = cu.override_for(cur.speakers, line) if cur and not d.apparatus else None
+    if override:
+        return {"state": override["state"], "voice": override["voice"]}
+    return speaker.classify(entry.filename, entry.authors, d.title, ptext, words, d.apparatus, embedded)
+
+
+def segment(entry, vocab: ocr.Vocabulary | None = None, source: Source | None = None,
+            curation=AUTO) -> tuple[list[dict], dict]:
+    p = plan(entry, source, curation)
     src, codes, markup_mode, streams, embedded, divs = p.src, p.codes, p.markup_mode, p.streams, p.embedded, p.divs
     cls, evidence, summary, furniture_words = p.cls, p.evidence, p.summary, p.furniture_words
     raw = src.text
+    cur = p.curated.curation if p.curated else None
+    line_starts = p.curated.resolved.line_offsets if p.curated else None
     records: list[dict] = []
     for d in divs:
         text, mapper = streams[d.stream]
@@ -258,6 +326,10 @@ def segment(entry, vocab: ocr.Vocabulary | None = None, source: Source | None = 
             rs, re_ = mapper.raw_pos_start(cs), mapper.raw_pos_end(ce)
             script = script_of(ptext)
             lang = language_of(ptext, script, codes)
+            line = bisect_right(line_starts, cs) - 1 if cur else 0
+            override = cu.override_for(cur.languages, line) if cur else None
+            if override:
+                lang = override["language"]
             emb = (bisect_right(embedded, ce) - bisect_left(embedded, cs)) if embedded and d.stream == "main" else 0
             parts = ocr.components(ptext, lang, script, vocab, text[cs:ce])
             records.append({
@@ -271,7 +343,7 @@ def segment(entry, vocab: ocr.Vocabulary | None = None, source: Source | None = 
                 "language": lang,
                 "script": script,
                 "apparatus": d.apparatus,
-                "speaker": speaker.classify(entry.filename, entry.authors, d.title, ptext, last - first, d.apparatus, emb),
+                "speaker": _speaker(cur, line, entry, d, ptext, last - first, emb),
                 "ocr_score": ocr.score(parts),
                 "byte_start": src.byte_of(rs),
                 "byte_end": src.byte_of(re_),
@@ -280,6 +352,12 @@ def segment(entry, vocab: ocr.Vocabulary | None = None, source: Source | None = 
             })
             first = last
 
+    if p.curated:
+        check = cu.verify(records, src, p.curated.work, furniture_words)
+        reasons = cu.failures(p.curated.measure) + cu.verify_failures(check)
+        evidence["not_clean_because"] = reasons
+        evidence["completeness"] = check
+        cls = "curated" if not reasons else _fallback_class(p.curated.measure)
     summary.update({
         "language_source": "filename" if filename_codes(entry.filename) else ("inferred" if codes else "default-eng"),
         "language_codes": codes,
