@@ -1,0 +1,1430 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.3164,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.031752
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2252,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2090,
+      "output_tokens": 179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3478,
+      "output_tokens": 347,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "How do we know this is what your community actually believed?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We have two bishops' own writings, in enormous quantity, across 184 years. Cyprian wrote as bishop of Carthage from around 248 to 258. Augustine wrote as bishop of Hippo from 391 to 430. Their letters, sermons, and treatises are not quotations in an opponent's book. They are the direct record of what was taught, decided, and lived.\n\nWe also have the acts of councils where bishops met and argued. We have letters between confessors, between bishops, and from bishops to their congregations. One deacon, Pontius, left a long first-person account of how a life was formed among us. Two confessors' own letters survive.\n\nWhat we do not have is every voice. No writing by a woman of our own survives, though women appear throughout the record. The lapsed, the group our whole first crisis was about, left nothing in their own words. And between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice falls quiet.\n\nWhere the gap is real, we name it plainly.",
+          "citations": [
+            {
+              "sentence": "We have two bishops' own writings, in enormous quantity, across 184 years.",
+              "record_ids": [
+                "lpc.core.latin-pastoral-congregational-christianity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                  "record_type": "world_core",
+                  "label": "lpc.core.latin-pastoral-congregational-christianity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Augustine's own conversion narrative",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                      "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They are the direct record of what was taught, decided, and lived.",
+              "record_ids": [
+                "lpc.core.latin-pastoral-congregational-christianity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                  "record_type": "world_core",
+                  "label": "lpc.core.latin-pastoral-congregational-christianity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Augustine's own conversion narrative",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                      "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Two confessors' own letters survive.",
+              "record_ids": [
+                "lpc.core.latin-pastoral-congregational-christianity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                  "record_type": "world_core",
+                  "label": "lpc.core.latin-pastoral-congregational-christianity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Augustine's own conversion narrative",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                      "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "No writing by a woman of our own survives, though women appear throughout the record.",
+              "record_ids": [
+                "lpc.limit.womens-own-voice"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.womens-own-voice",
+                  "record_type": "honest_limit",
+                  "label": "Women appear throughout our own record, but almost always in someone else's words",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XX-XXI, Numeria and Candida discussed by Celerinus and Lucian, never speaking themselves",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Ep. XXXIV, Cyprian on Numidicus, whose wife was burned beside him and whose daughter sought his body and found him alive",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Albina correspondence and Letter CCXI, to the nuns of Hippo, known only through Augustine's own letters to them and about them",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.passio-montani-et-lucii",
+                      "citation": "Passio of Montanus and Lucius (Passio SS. Montani et Lucii), in Rudolf Knopf (ed.), Ausgewählte Märtyrerakten, 3rd ed. rev. Gustav Krueger (Tübingen: J. C. B. Mohr, 1929), no. 16",
+                      "author": null,
+                      "work": null,
+                      "locus": "Passio of Montanus and Lucius 8, Quartillosia's account of her vision in her own first person, in a text men wrote",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The lapsed, the group our whole first crisis was about, left nothing in their own words.",
+              "record_ids": [
+                "lpc.limit.the-lapsed-own-account"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-lapsed-own-account",
+                  "record_type": "honest_limit",
+                  "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice falls quiet.",
+              "record_ids": [
+                "lpc.limit.the-silent-century"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-silent-century",
+                  "record_type": "honest_limit",
+                  "label": "Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "256, the last dated act of this world's first phase",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-lapsed",
+              "matched_name": "The lapsed",
+              "text_start": 742,
+              "plain_meaning": "The lapsed are our own people who complied with the order to sacrifice during the persecution -- some by sacrificing, some only by paying for a certificate that said they had. They are not strangers and not enemies. They sat where we sit, and now they are asking to come back.",
+              "quick_meaning": "For us, the lapsed are our own people. Under threat, they gave in to the order to sacrifice, and now they want to come back.",
+              "translational_sense": "A modern listener often hears a category of lapsed or lapsed-Catholic believers -- people who drifted away, stopped attending, lost interest. Gentle, gradual, private. We mean something else entirely: a documented act under state compulsion, on a specific occasion, with a certificate as evidence, carrying a public consequence for standing in the community. The lapsed did not drift off. They stayed, and asked to be readmitted, and we had to decide in public what to do with them.",
+              "false_friend": [
+                "a gentle, gradual falling-away from faith, comparable to a modern believer who drifts from church over years",
+                "a private matter of personal conviction, with no public consequence for standing in the community"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 75,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "256, the last dated act of this world's first phase",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 135,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "256, the last dated act of this world's first phase",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                  "author": null,
+                  "work": null,
+                  "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.pontius",
+              "matched_name": "Pontius",
+              "text_start": 505,
+              "names": [
+                {
+                  "name": "Pontius, our bishop's own deacon",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Pontius the Deacon (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop's own deacon. He went with him into exile, and after the execution he wrote the account of his life and death.",
+              "dates": {
+                "display": "Cyprian's own deacon, present with him at his banishment to Curubis; wrote The Life and Passion of Cyprian after his bishop's execution in 258, the first Christian biography"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "did_it_happen",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.peace-for-the-dying-penitent",
+              "lpc.witness.blamed-for-the-worlds-troubles"
+            ],
+            "term": [
+              "lpc.term.reconciliation-penitential-discipline",
+              "lpc.term.the-lapsed"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.the-case-set-before-the-bishop",
+              "lpc.quote.peter-the-sick-man-and-the-physician",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "force": [
+              "lpc.force.decian-persecution-libelli-system"
+            ],
+            "honest_limit": [
+              "lpc.limit.no-chain-of-witnesses"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We have two bishops' own writings, in enormous quantity, across 184 years.",
+                "tags": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 83% in own tagged records",
+                "ratio": 0.83,
+                "draft": "We have two bishops' own writings, in enormous quantity, across 184 years [[lpc.core.latin-pastoral-congregational-christianity]]."
+              },
+              {
+                "sentence": "Cyprian wrote as bishop of Carthage from around 248 to 258.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['carthage'], number) with no citation tag",
+                "draft": "Cyprian wrote as bishop of Carthage from around 248 to 258."
+              },
+              {
+                "sentence": "Augustine wrote as bishop of Hippo from 391 to 430.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['hippo'], number) with no citation tag",
+                "draft": "Augustine wrote as bishop of Hippo from 391 to 430."
+              },
+              {
+                "sentence": "Their letters, sermons, and treatises are not quotations in an opponent's book.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Their letters, sermons, and treatises are not quotations in an opponent's book."
+              },
+              {
+                "sentence": "They are the direct record of what was taught, decided, and lived.",
+                "tags": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They are the direct record of what was taught, decided, and lived [[lpc.core.latin-pastoral-congregational-christianity]]."
+              },
+              {
+                "sentence": "We also have the acts of councils where bishops met and argued.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We also have the acts of councils where bishops met and argued."
+              },
+              {
+                "sentence": "We have letters between confessors, between bishops, and from bishops to their congregations.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We have letters between confessors, between bishops, and from bishops to their congregations."
+              },
+              {
+                "sentence": "One deacon, Pontius, left a long first-person account of how a life was formed among us.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['pontius']) with no citation tag",
+                "draft": "One deacon, Pontius, left a long first-person account of how a life was formed among us."
+              },
+              {
+                "sentence": "Two confessors' own letters survive.",
+                "tags": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Two confessors' own letters survive [[lpc.core.latin-pastoral-congregational-christianity]]."
+              },
+              {
+                "sentence": "What we do not have is every voice.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming",
+                "draft": "What we do not have is every voice."
+              },
+              {
+                "sentence": "No writing by a woman of our own survives, though women appear throughout the record.",
+                "tags": [
+                  "lpc.limit.womens-own-voice"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "No writing by a woman of our own survives, though women appear throughout the record [[lpc.limit.womens-own-voice]]."
+              },
+              {
+                "sentence": "The lapsed, the group our whole first crisis was about, left nothing in their own words.",
+                "tags": [
+                  "lpc.limit.the-lapsed-own-account"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The lapsed, the group our whole first crisis was about, left nothing in their own words [[lpc.limit.the-lapsed-own-account]]."
+              },
+              {
+                "sentence": "And between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice falls quiet.",
+                "tags": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "And between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice falls quiet [[lpc.limit.the-silent-century]]."
+              },
+              {
+                "sentence": "Where the gap is real, we name it plainly.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Where the gap is real, we name it plainly."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "Cyprian wrote as bishop of Carthage from around 248 to 258.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "2": {
+                    "sentence": "Augustine wrote as bishop of Hippo from 391 to 430.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "3": {
+                    "sentence": "Their letters, sermons, and treatises are not quotations in an opponent's book.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 4,
+                "cited_record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We also have the acts of councils where bishops met and argued.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "1": {
+                    "sentence": "We have letters between confessors, between bishops, and from bishops to their congregations.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "One deacon, Pontius, left a long first-person account of how a life was formed among us.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 89% in own tagged records",
+                    "ratio": 0.89
+                  }
+                }
+              },
+              {
+                "sentence_count": 4,
+                "cited_record_ids": [
+                  "lpc.limit.the-lapsed-own-account",
+                  "lpc.limit.the-silent-century",
+                  "lpc.limit.womens-own-voice"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What we do not have is every voice.",
+                    "tags": [
+                      "lpc.limit.the-lapsed-own-account",
+                      "lpc.limit.the-silent-century",
+                      "lpc.limit.womens-own-voice"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.limit.the-lapsed-own-account",
+                  "lpc.limit.the-silent-century",
+                  "lpc.limit.womens-own-voice"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": true,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Where the gap is real, we name it plainly.",
+                    "tags": [
+                      "lpc.limit.the-lapsed-own-account",
+                      "lpc.limit.the-silent-century",
+                      "lpc.limit.womens-own-voice"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "Both speak in their own words, as bishops of the tradition we are.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "Both speak in their own words, as bishops of the tradition we are."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 74
+              },
+              {
+                "index": 1,
+                "text_start": 75,
+                "text_end": 134
+              },
+              {
+                "index": 2,
+                "text_start": 135,
+                "text_end": 186
+              },
+              {
+                "index": 3,
+                "text_start": 187,
+                "text_end": 266
+              },
+              {
+                "index": 4,
+                "text_start": 267,
+                "text_end": 333
+              },
+              {
+                "index": 5,
+                "text_start": 335,
+                "text_end": 398
+              },
+              {
+                "index": 6,
+                "text_start": 399,
+                "text_end": 492
+              },
+              {
+                "index": 7,
+                "text_start": 493,
+                "text_end": 581
+              },
+              {
+                "index": 8,
+                "text_start": 582,
+                "text_end": 618
+              },
+              {
+                "index": 9,
+                "text_start": 620,
+                "text_end": 655
+              },
+              {
+                "index": 10,
+                "text_start": 656,
+                "text_end": 741
+              },
+              {
+                "index": 11,
+                "text_start": 742,
+                "text_end": 830
+              },
+              {
+                "index": 12,
+                "text_start": 831,
+                "text_end": 936
+              },
+              {
+                "index": 13,
+                "text_start": 938,
+                "text_end": 980
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.figure.pontius",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Widely Accepted rather than Documented: Pontius's own presence at Curubis is licensed for that specific fact but his own biography generally (SSSS2-4, Cyprian's conversion) has not been independently re-checked this session (lpc.source.pontius-life-and-passion-of-cyprian's own divergence_note).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 12,
+                "char_end": 19,
+                "surface": "Pontius"
+              },
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 11,
+                "char_start": 0,
+                "char_end": 10,
+                "surface": "The lapsed"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                "record_type": "world_core",
+                "label": "lpc.core.latin-pastoral-congregational-christianity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Augustine's own conversion narrative",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                    "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07, and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification runs via those documents' own authority, not via a primary source reopened here. Doc_07 SS2I's own convergence finding -- that formation here runs through rite, penitential discipline, and communion preserved despite disagreement as one integrated mechanism rather than four separately-arrived-at concerns -- is this build's own synthetic judgment, stated as such at Doc_07 SS5, not a claim any single source states in those terms; external scholarly review should test whether it overstates the coherence of what was, on the ground, a more locally variable and contingent pastoral practice across two centuries and two cities. A further, disclosed uncertainty this record carries forward rather than resolves: Doc_01 SS8 item 10's own conciliar-authority axis (G5) is held open, not settled, and the strand-singular finding this record's own horizon states carries an explicit reopening caveat on exactly that axis.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Dominant Modern Reconstruction",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.limit.womens-own-voice",
+                "record_type": "honest_limit",
+                "label": "Women appear throughout our own record, but almost always in someone else's words",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XX-XXI, Numeria and Candida discussed by Celerinus and Lucian, never speaking themselves",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XXXIV, Cyprian on Numidicus, whose wife was burned beside him and whose daughter sought his body and found him alive",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Albina correspondence and Letter CCXI, to the nuns of Hippo, known only through Augustine's own letters to them and about them",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.passio-montani-et-lucii",
+                    "citation": "Passio of Montanus and Lucius (Passio SS. Montani et Lucii), in Rudolf Knopf (ed.), Ausgewählte Märtyrerakten, 3rd ed. rev. Gustav Krueger (Tübingen: J. C. B. Mohr, 1929), no. 16",
+                    "author": null,
+                    "work": null,
+                    "locus": "Passio of Montanus and Lucius 8, Quartillosia's account of her vision in her own first person, in a text men wrote",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.limit.the-lapsed-own-account",
+                "record_type": "honest_limit",
+                "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.limit.the-silent-century",
+                "record_type": "honest_limit",
+                "label": "Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "256, the last dated act of this world's first phase",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The silence holds only for what this build has assessed. Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus of Milevis, are not yet assessed (OG-54; Doc_01 SS5; Doc_08 Force 3B-2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                "record_type": "world_core",
+                "label": "lpc.core.latin-pastoral-congregational-christianity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Augustine's own conversion narrative",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                    "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07, and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification runs via those documents' own authority, not via a primary source reopened here. Doc_07 SS2I's own convergence finding -- that formation here runs through rite, penitential discipline, and communion preserved despite disagreement as one integrated mechanism rather than four separately-arrived-at concerns -- is this build's own synthetic judgment, stated as such at Doc_07 SS5, not a claim any single source states in those terms; external scholarly review should test whether it overstates the coherence of what was, on the ground, a more locally variable and contingent pastoral practice across two centuries and two cities. A further, disclosed uncertainty this record carries forward rather than resolves: Doc_01 SS8 item 10's own conciliar-authority axis (G5) is held open, not settled, and the strand-singular finding this record's own horizon states carries an explicit reopening caveat on exactly that axis.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Dominant Modern Reconstruction",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.limit.womens-own-voice",
+                "record_type": "honest_limit",
+                "label": "Women appear throughout our own record, but almost always in someone else's words",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XX-XXI, Numeria and Candida discussed by Celerinus and Lucian, never speaking themselves",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Ep. XXXIV, Cyprian on Numidicus, whose wife was burned beside him and whose daughter sought his body and found him alive",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "citation": "Augustine of Hippo, Letters, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Albina correspondence and Letter CCXI, to the nuns of Hippo, known only through Augustine's own letters to them and about them",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.passio-montani-et-lucii",
+                    "citation": "Passio of Montanus and Lucius (Passio SS. Montani et Lucii), in Rudolf Knopf (ed.), Ausgewählte Märtyrerakten, 3rd ed. rev. Gustav Krueger (Tübingen: J. C. B. Mohr, 1929), no. 16",
+                    "author": null,
+                    "work": null,
+                    "locus": "Passio of Montanus and Lucius 8, Quartillosia's account of her vision in her own first person, in a text men wrote",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.limit.the-lapsed-own-account",
+                "record_type": "honest_limit",
+                "label": "The lapsed are the one group our whole first crisis was actually about, and they are the…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the whole treatise, describing and judging the lapsed at length, never quoting one in the first person",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.limit.the-silent-century",
+                "record_type": "honest_limit",
+                "label": "Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "256, the last dated act of this world's first phase",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The silence holds only for what this build has assessed. Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus of Milevis, are not yet assessed (OG-54; Doc_01 SS5; Doc_08 Force 3B-2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 3,
+              "sentence_indexes": [
+                1,
+                2,
+                7
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "Both speak in their own words, as bishops of the tradition we are.",
+                "why": "words attributed without a placed quote",
+                "draft": "Both speak in their own words, as bishops of the tradition we are."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
