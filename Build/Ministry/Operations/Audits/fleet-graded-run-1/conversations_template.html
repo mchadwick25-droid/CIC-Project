@@ -109,7 +109,7 @@ function strip() {
 }
 function chips() {
   document.getElementById("chips").innerHTML = D.worlds.map(function (w) {
-    var s = w.status === "done" ? w.passed + "/" + w.size : (w.status === "running" ? w.answered + "/" + w.size : w.status === "failed" ? "stopped" : "waiting");
+    var s = w.status === "done" ? w.passed + "/" + w.size : (w.status === "running" ? w.answered + "/" + w.size : w.status === "answers_only" ? w.answered + "/" + w.size + " answers" : w.status === "failed" ? "stopped" : "waiting");
     return '<button class="chip" data-k="' + w.key + '" aria-pressed="' + (w.key === cur) + '">' + w.key + "<small>" + s + "</small></button>";
   }).join("");
 }
@@ -149,6 +149,7 @@ function show() {
   var h = "<h2>" + esc(w.key) + "</h2>";
   var sub = w.status === "done" ? w.passed + " of " + w.size + " questions pass the automatic checks · " + money(w.spent) :
     w.status === "running" ? "Running now: " + w.answered + " of " + w.size + " answered · " + money(w.spent) :
+    w.status === "answers_only" ? "All " + w.answered + " answers kept. One call hit a transient API error and was retried, so the harness refused to write its report; the automatic checks were not computed. " + money(w.spent) :
     w.status === "failed" ? "Stopped after a failed call. " + w.answered + " answers kept · " + money(w.spent) : "Not started yet.";
   h += '<p class="sub">' + sub + (w.attempts > 1 ? " · attempt " + w.attempts : "") + "</p>";
   if (w.review) h += '<div class="review"><b>Opus review</b> · ' + esc(w.review.summary) + (w.review.file ? '<br><span class="cites"><span>' + esc(w.review.file) + "</span></span>" : "") + "</div>";

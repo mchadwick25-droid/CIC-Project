@@ -124,7 +124,7 @@ def main():
     cp = load()
     for world in ORDER:
         st = cp["worlds"].get(world, {})
-        if st.get("status") == "done":
+        if st.get("status") in ("done", "answers_only"):
             continue
         if st.get("status") == "failed" and st.get("attempts", 0) >= 2:
             continue
