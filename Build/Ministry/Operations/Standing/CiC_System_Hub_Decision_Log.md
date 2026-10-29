@@ -7236,3 +7236,13 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Scope.** The replay for cappadocian and don only, by the same driver and settings as the other nine worlds. The run stops before any call that could pass $16.00. Nothing else is added: the cappadocian admission rerun stays out.
 
 **Where.** All files stay on the branch `claude/fleet-graded-run-1`; nothing is merged to `main`, per Mark's order of 2026-10-28.
+
+## 2026-10-29 - Named, capped live test "fleet graded run 1": cap raised from $16.00 to $17.00 (project lead's ruling)
+
+**Question.** Mark asked for the cappadocian admission world to be rerun ("rerun cappadocian admission"), so its automatic checks are computed. The first attempt kept all 28 answers but the harness refused to write its report after one retried API error. $0.56 was left of the $16.00 cap and a clean rerun is estimated at $0.9 to $1.2. Raise the cap?
+
+**Ruling.** Mark, 2026-10-29, typed in this session: "raise it to 17", after "rerun cappadocian admission". The name stays "fleet graded run 1". The cap is $17.00 total metered, never more, counting the $15.44 already spent.
+
+**Scope.** One second attempt of the cappadocian admission world through the same driver and settings as the other eleven worlds, written beside the first attempt (the first attempt's 28 answers and ledger stay on the branch). If the harness refuses its report again, the run stops and is reported; no third attempt. Nothing else is added.
+
+**Where.** All files stay on the branch `claude/fleet-graded-run-1`; nothing is merged to `main`, per Mark's order of 2026-10-28.

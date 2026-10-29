@@ -136,13 +136,15 @@
     },
     "cappadocian": {
       "attempts": 1,
-      "status": "answers_only",
+      "status": "failed",
       "preflight_usd": 0.6326298,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-cappadocian.jsonl",
       "probes_answered": 28,
       "spent_usd_world": 1.127569,
       "exit_code": 1,
-      "note": "All 28 answers saved. One call failed on a transient API error (charged at its full hold, $0.2178) and the voice call retried it, so the harness saw 29 calls for 28 probes and refused to write the report. Automatic checks not computed (the per-sentence citation data exists only in the report). No second paid run; a retry stays open if budget remains at the end."
+      "note": "Mark asked for a rerun (2026-10-29); second attempt.",
+      "first_attempt_note": "All 28 answers saved. One call failed on a transient API error (charged at its full hold, $0.2178) and the voice call retried it, so the harness saw 29 calls for 28 probes and refused to write the report. Automatic checks not computed (the per-sentence citation data exists only in the report). No second paid run; a retry stays open if budget remains at the end.",
+      "retry_ok": true
     },
     "don": {
       "attempts": 1,
