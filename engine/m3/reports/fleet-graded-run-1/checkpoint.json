@@ -188,6 +188,11 @@
       "estimate": 0.065145,
       "spent_usd_world": 0.060816,
       "exit_code": 0
+    },
+    "laundering-1": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-laundering-1.jsonl",
+      "estimate": 0.032824
     }
   }
 }
