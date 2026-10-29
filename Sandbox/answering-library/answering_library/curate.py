@@ -132,9 +132,9 @@ def run_check(cur: cu.Curation, entry, n: int = DEFAULT_SAMPLE) -> Result:
                    f"gaps {len(note['gaps'])}, unreadable {len(note['unread'])}")
         for label in ("repeated", "backward", "gaps"):
             if note[label]:
-                out.append(f"      {label}: {note[label][:8]}")
+                out.append(f"      {label}: {note[label]}")
         if note["unread"]:
-            out.append(f"      unreadable at lines: {note['unread'][:8]}")
+            out.append(f"      unreadable at lines: {note['unread']}")
 
     for note in res.notes:
         out.append(f"warn  {note}")

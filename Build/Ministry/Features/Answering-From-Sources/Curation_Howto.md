@@ -55,7 +55,7 @@ Each rule has:
 - `lines`: restrict the rule to `[first, last]`, or a list of such ranges.
 - `parent`: the id of a higher rule. The full address is the parent's address, a slash, then this rule's part, so `book2/ch1`. The parent must have matched earlier. A rule with `division: false` only sets context and closes the division before it; its heading line goes with the next division.
 - `skip_repeat: true`: a match whose address equals the previous match of the same rule is not a new division. This removes running heads that repeat a sermon or chapter number.
-- `number`: the name of a group that holds the edition's numeral. The checker then reports repeats, backward steps, gaps and unreadable numerals in that series. It is a prompt to look, not a failure.
+- `number`: the name of a group that holds the edition's numeral. The checker then reports repeats, backward steps, gaps and unreadable numerals in that series. It is a prompt to look, not a failure. `check` lists every repeat, backward step, gap and unreadable numeral in the series, and a step the curation does not explain fails the check (see `expected_gaps`). A numeral under a `parent` counts again from the start whenever the parent changes.
 - `ocr_map`: single characters to replace before reading a numeral, for example `{'l': 'I', '1': 'I', 'Y': 'V'}`. Each entry is a claim about how this scan mangles type, so keep the list short. The map never touches a value that a `fix` sets.
 - `fixes`: `line` and `set` of group values, for a heading whose OCR is beyond a map. Without a `quote` the line must match the rule. With a `quote` (text that must appear on that line) the rule applies to that line whether or not the pattern matches it, so a heading with no punctuation needs no looser pattern. The unset groups are empty.
 - `context`: conditions on the lines around the match, all of which must hold. `prev_blank` and `next_blank` (true or false) test the neighbouring line; a line that is blank, declared furniture or outside the body counts as blank. `prev_short: {lines: N, words: M}` requires each of the N lines before to be blank or at most M words long. This expresses a gazetteer headword or a heading set off by blank lines.
@@ -99,6 +99,25 @@ Lines beginning `warn` do not change the result. They show what the curation wou
 - a `division: false` rule that matches again with an unchanged address (usually a running head: add `skip_repeat` or narrow `lines`);
 - words between a waiting context heading and the division it joins, which go to that division;
 - a page split that divides more than the oversize it fixes.
+
+### Expected gaps
+
+An edition sometimes skips a number, repeats one or prints sections out of order. Each such step in a numbered series (a rule with `number`, the `divisions` series of explicit entries, or a named `series`) must be listed:
+
+```
+expected_gaps:
+  - {series: sermon, line: 4821, quote: 'SERMO XXVI'}
+```
+
+`series` is the rule id (or `divisions`). `line` is the line of the reading that shows the step: the first number after a gap, the repeat, or the number that runs backward. `quote` is text that appears on that line, such as the printed heading that shows the edition has no XXV. A step that is not listed fails the check and the file does not reach class `curated`. An entry that matches no step, or whose quote is not on its line, also fails. Page-split series are reported but not held to this rule.
+
+### Checks on `allow_oversize`
+
+`allow_oversize` says a level is the finest the edition prints. The checker tests it: it scans each such division for lines that look like numbered sub-headings by the segmenter's own marker families (keyword headings such as CAPUT or Caput, bare Roman numerals, numbered titles and paragraphs, section signs; footnote lines such as `1)` and the division's own first line do not count). More than 10 such lines fails the check and prints them. Remove the justification and divide the level, or show that the lines are not headings by changing the rule.
+
+### Hand-listed lines
+
+A rule with `lines` is limited to those ranges. `check` prints a `warn` for every line inside them that looks like the rule's heading but did not match: a margin line number in front of the heading, or a numeral the pattern does not read (Greek letters, a dropped I, OCR damage). Read each one: add a `fix` with a `quote`, an `ocr_map` entry, or widen the pattern.
 
 ### Evidence
 

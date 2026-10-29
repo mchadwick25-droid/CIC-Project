@@ -36,6 +36,15 @@ Lauchert canons; Prosper (Chronica minora); Turner (Ecclesiae occidentalis monum
 
 Merged: long Roman numerals (to 3,888) and German, French, Latin and Italian ordinals (PR 1310). Open: `fixes` not passed through `ocr_map`; adjacent apparatus ranges; explicit divisions setting a parent for later rules; page-head splitting; a rule context condition; a per-rule language guard; and the new checker rules (unexplained numbering gaps fail; all gaps printed; false oversize justifications and missed heading-like lines reported).
 
+## Post-apparatus divisions now carry the apparatus address (PR 1321)
+
+Five files have a division that starts right after an apparatus range or is itself the first line of the next range: `augustine_sermones-inediti-lat_caillau1842`, `koch_cathedra-petri-deu_1930`, both `mesnage_afrique-chretienne-eveches-ruines` files and `possidius_vita-augustini_weiskotten1919`.
+
+- Before: the division was labelled with a gap address of the form `text/line<N>` and its words were not counted as covered.
+- Now: it carries the apparatus address its curation declares, and its words count as covered, so coverage reads 100% in each file.
+- Division counts and the body/apparatus split are unchanged.
+- Accepted by the coordination thread: no record or index points at those addresses yet.
+
 ## First thing on resume
 
 1. Merge the redo PRs for groups A and B when green; re-sample them with a different Opus reviewer.
