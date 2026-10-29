@@ -136,6 +136,9 @@ def run_check(cur: cu.Curation, entry, n: int = DEFAULT_SAMPLE) -> Result:
         if note["unread"]:
             out.append(f"      unreadable at lines: {note['unread'][:8]}")
 
+    for note in res.notes:
+        out.append(f"warn  {note}")
+
     body = [d for d in res.divisions if d.origin != "header" and d.words > 0 and not d.apparatus]
     sampled = [body[i] for i in sample_indices(len(body), n)]
     out.append(f"sample: {len(sampled)} divisions evenly spaced through {len(body)} body divisions")
