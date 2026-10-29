@@ -204,3 +204,22 @@ def test_locus_paths_and_numerals():
     assert locus.path_of("Letter XXII (to Eustochium), sec. 30 - the dream") == [22, 30]
     assert locus.path_of("the 1539 preface") == []
     assert locus._names("Vita Antonii (Life of Antony), c. 356 - epitome") == [{"vita", "antonii"}, {"life", "antony"}]
+
+
+def test_stream_plants_constructed_items_under_their_own_kind():
+    made = [{"construct_id": "cx-1", "kind": "constructed", "seed_type": "embedded_voice", "expected_class": "embedded_voice",
+             "world": "w", "records_commit": "c", "bindings": [], "sentence": "c"}]
+    lines, key = stream.build_stream([], [], "salt", constructed=made)
+    assert [(r["kind"], r["ref"], r["expected_class"]) for r in key] == [("constructed", "cx-1", "embedded_voice")]
+    assert set(lines[0]) == {"line_id", "item_id", "world", "records_commit", "bindings", "sentence"}
+
+
+def test_packet_keeps_every_queued_item_and_every_specialist_key_class():
+    from goldset import packet
+    def lab(c):
+        return {"label": {"verdict": "supported" if c == "supported" else "unsupported", "failure_class": None if c == "supported" else c, "other_classes": []}}
+    specialist = {"a": lab("supported"), "b": lab("generalisation"), "e": lab("false_friend")}
+    queue = [{"item_id": "c", "why": "disagreement"}, {"item_id": "d", "why": "key class"},
+             {"item_id": "b", "why": "key class"}, {"item_id": "a", "why": "random sample of agreements"}]
+    assert packet.order(specialist, queue) == [("c", "disagreement"), ("b", "key class (specialist)"), ("e", "key class (specialist)"),
+                                               ("d", "key class (second labeller)"), ("a", "random sample of agreements")]
