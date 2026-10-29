@@ -2953,3 +2953,9 @@ Changed: new witness `lpc.witness.baptism-as-new-birth` (Cyprian, Epistle LXXII 
 Not done: the claim that no text a woman wrote survives (F3-I) waits on the project lead's ruling, because Perpetua's account (203) predates the window.
 
 Review: one Opus round, Revise (one P1: a broken quote in the world core's YAML; four P2). All applied. New pin `packages/lpc/2026-10-29T05-33-56Z`.
+
+### 2026-10-29 — The women's-writing claim is kept and scoped to the world's own cities and years (project lead's ruling)
+
+Context: the fleet run showed the voice saying that no text a woman wrote survives, which Perpetua's own prison account (Carthage, 203) contradicts. It falls before the window, and the Passion is outside this world's sources.
+
+Ruling: the project lead chose option 1 in chat, 2026-10-29: keep the claim, scoped to the window. Done: the limit's statement now reads "From our own two cities, in our years from 246 to 430, no text a woman wrote herself survives"; the registry card says the same for Carthage and Hippo between 246 and 430; the generator mirror and the claims register row (aee22bcd) match. Opus check: Revise (one P1, the card was scoped by date but not by place, so it denied Egeria and Proba; two P2, the sentence was long and the voice had nothing to say about Perpetua). The P1 and the sentence are applied. A line that names Perpetua is not added: it needs Augustine's Sermons 280 and 281 as a vendored source with a shelf row, which needs its own decision. New pin `packages/lpc/2026-10-29T11-53-43Z`. No model call.

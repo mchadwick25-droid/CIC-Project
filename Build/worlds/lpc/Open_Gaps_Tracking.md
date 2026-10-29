@@ -2375,3 +2375,10 @@ Logged 2026-10-29.
 - **Done.** The baptism-as-new-birth witness, Felicissimus and Rome, the apse letter named, and two quote narrowings; see `lpc_Decision_Log.md`, 2026-10-29, "Record fixes from the fleet run's second pass". Pin `packages/lpc/2026-10-29T05-33-56Z`.
 - **Still open.** The claim "no text a woman wrote herself survives" (F3-I), pending the project lead's ruling on Perpetua (203, before the window); `validation lpc` needs a full battery on the current pin, a named live test and cap.
 - **Owner.** This thread for the records; the project lead for the ruling.
+
+### OG-112. A challenged voice has no line about Perpetua (2026-10-29).
+
+Logged 2026-10-29.
+
+- **Open.** The women's-writing limit is scoped to the world's two cities and years (see `lpc_Decision_Log.md`, 2026-10-29, "The women's-writing claim is kept and scoped"), but no record gives the voice something to say if asked about Perpetua, whose Passion (203) falls before the window. Augustine's Sermons 280 and 281 would ground one line; they need a source record and a shelf row.
+- **Owner.** The project lead decides whether to add it; this thread drafts it.
