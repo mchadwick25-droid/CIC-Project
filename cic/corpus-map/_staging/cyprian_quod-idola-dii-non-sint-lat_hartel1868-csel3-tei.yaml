@@ -45,4 +45,20 @@ assignments:
       manuscript sigla and the variant readings in place on the printed page; this file keeps the
       footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
       with any quotation. Mirrors the English twin's roles and confidence exactly.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0104a.stoa006.opp-lat1
+    - 'textpart subtype=section: n=1..15 (15 divisions)'
+    language: lat
+    voice_of:
+    - author: felix
+      loci: chs. 1-9, largely word for word (Harnack 1904, printed pp. 336-337)
+    - author: tertullian
+      loci: chs. 10-15, Apology 21-23 copied with slight changes (Harnack 1904, printed pp. 336-337)
+    - author: unknown
+      loci: the compiler; ascribed to Cyprian in the manuscript tradition, authorship Contested
+    date:
+      window: after Tertullian's Apology and the Octavius; before its insertion into the Cyprianic collection, at the latest early in the fourth century
+      source: Harnack 1904, printed pp. 336-337, reporting Soden on the manuscript tradition
+      formation_confidence: Contested
+      note: 'Authorship is Contested: Harnack (1904) argues against Cyprian; Monceaux and Bardenhewer defend him, as Harnack reports. If Cyprian wrote it, it falls in his lifetime (to 258).'
 

@@ -30,6 +30,14 @@ assignments:
     markers in the text.
 
     '
+  locus_ids:
+  - div2:iii.ii
+  - div3:iii.ii.i..iii.ii.vii (7 divisions)
+  language: eng
+  date:
+    window: 210 (or 209)
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-the-apparel-of-women-de-cultu-feminarum
   work: On the Apparel of Women (De Cultu Feminarum)
   author: tertullian
@@ -41,6 +49,15 @@ assignments:
   note: 'Disciplinary treatise on dress and adornment; no New Prophecy markers in the text.
 
     '
+  locus_ids:
+  - div2:iii.iii
+  - div3:iii.iii.i..iii.iii.iii (3 divisions)
+  language: eng
+  date:
+    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
+    note: Harnack lists book I and book II of this work separately in the group.
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-the-veiling-of-virgins-de-virginibus-velandis
   work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
@@ -55,6 +72,15 @@ assignments:
     appeals - provisional because the work never names the movement.
 
     '
+  locus_ids:
+  - div2:iii.iv
+  - div3:iii.iv.i..iii.iv.xviii (18 divisions)
+  language: eng
+  date:
+    window: 204-206/7, before the break with the church
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
+    note: Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's table, is Contested between scholars.
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--to-his-wife-ad-uxorem
   work: To His Wife (Ad Uxorem)
   author: tertullian
@@ -67,6 +93,14 @@ assignments:
     markers in the text.
 
     '
+  locus_ids:
+  - div2:iii.v
+  - div3:iii.v.i..iii.v.iii (3 divisions)
+  language: eng
+  date:
+    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-exhortation-to-chastity-de-exhortatione-castitatis
   work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
@@ -81,6 +115,15 @@ assignments:
     because the treatise is transitional rather than openly sectarian.
 
     '
+  locus_ids:
+  - div2:iii.vi
+  - div3:iii.vi.i..iii.vi.xiv (14 divisions)
+  language: eng
+  date:
+    window: 204-206/7, before the break with the church
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
+    note: Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's table, is Contested between scholars.
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-monogamy-de-monogamia
   work: On Monogamy (De Monogamia)
   author: tertullian
@@ -95,6 +138,14 @@ assignments:
     of it.
 
     '
+  locus_ids:
+  - div2:iii.vii
+  - div3:iii.vii.i..iii.vii.xviii (18 divisions)
+  language: eng
+  date:
+    window: soon after 217/8
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-modesty-de-pudicitia
   work: On Modesty (De Pudicitia)
   author: tertullian
@@ -109,6 +160,15 @@ assignments:
     Cyprianic and Donatist disputes later fought over - noted here, not assigned there.
 
     '
+  locus_ids:
+  - div2:iii.viii
+  - div3:iii.viii.i..iii.viii.xxiii (23 divisions)
+  language: eng
+  date:
+    window: not long before 222/3
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
+    note: The identity of the bishop whose edict the work attacks is Contested between scholars.
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--on-fasting-in-opposition-to-the-psychics-de-jejunio
   work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
@@ -122,6 +182,14 @@ assignments:
     Montanus. Among the most explicitly Montanist works in the corpus.
 
     '
+  locus_ids:
+  - div2:iii.ix
+  - div3:iii.ix.i..iii.ix.xviii (18 divisions)
+  language: eng
+  date:
+    window: soon after 217/8
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--de-fuga-in-persecutione-flight-in-persecution
   work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
@@ -136,6 +204,14 @@ assignments:
     the rigorist position and standard dating rather than internal markers - hence provisional.
 
     '
+  locus_ids:
+  - div2:iii.x
+  - div3:iii.x.i..iii.x.ii (2 divisions)
+  language: eng
+  date:
+    window: 211 or 212
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--appendix-of-poems-ascribed-to-tertullian-strains-of-jonah
   work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
     Five Books in Reply to Marcion)
@@ -159,6 +235,13 @@ assignments:
     The two together say the whole truth - where it sits, and what it is - without re-attributing
     anything. This can be reversed in one pass if the spurious corpora should be detached from
     their attributed authors instead.'
+  locus_ids:
+  - div2:iii.xi
+  - div3:iii.xi.i..iii.xi.vii (7 divisions)
+  language: eng
+  date:
+    window: unknown
+    checked: Harnack's Tertullian table (printed pp. 295-296) dates genuine works only; the file anf04 prints these poems as an appendix to Tertullian without a date; no composition date was established in this pass
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--appendix-of-poems-ascribed-to-tertullian-strains-of-jonah-2
   work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
     Five Books in Reply to Marcion)
@@ -201,6 +284,15 @@ assignments:
 
 
     '
+  locus_ids:
+  - div2:iv.iii
+  - div3:iv.iii.i..iv.iii.xlii (42 divisions)
+  language: eng
+  date:
+    window: c. 160-192 or c. 200-250; no single date can be given
+    source: Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger 1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals)
+    formation_confidence: Contested
+    note: Two poles. Pole A lies before Tertullian's Apology and outside the window; pole B lies after it and inside the window.
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones
   work: The Instructions of Commodianus (Instructiones)
   author: commodian
@@ -217,6 +309,15 @@ assignments:
 
 
     '
+  locus_ids:
+  - div2:v.ii
+  - div3:v.ii.i..v.ii.lxxxi (81 divisions)
+  language: eng
+  date:
+    window: 'mainstream: mid-third century to 313; Harnack: not before c. 260 and probably after the persecution of Diocletian; minority: fifth century (Brewer)'
+    source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III
+    formation_confidence: Contested
+    note: 'Sub-claim: that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.'
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--de-principiis-on-first-principles
   work: De Principiis (On First Principles)
   author: origen

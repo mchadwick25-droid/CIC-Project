@@ -21,6 +21,13 @@ assignments:
       against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
+    locus_ids:
+    - 'line 3523: DE OPIFICIO BEI'
+    language: lat
+    date:
+      window: 303/304
+      source: Harnack 1904 (one source)
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--a-treatise-on-the-anger-of-god
     work: "A Treatise on the Anger of God"
@@ -39,6 +46,13 @@ assignments:
       against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
+    locus_ids:
+    - 'line 6768: DE IRA DEI'
+    language: lat
+    date:
+      window: soon after the Divine Institutes
+      source: Harnack 1904 (one source)
+      formation_confidence: Dominant Modern Reconstruction
 
   - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lactantius
     work: "Fragments of Lactantius"
@@ -57,4 +71,10 @@ assignments:
       against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
+    locus_ids:
+    - 'line 11021: LIBRORVM PERDITORVM FRAGMENTA.'
+    language: lat
+    date:
+      window: unknown
+      checked: The file prints fragments of lost works under one heading; no composition date for the lost works was found in the editions read (ANF07 and Brandt, CSEL 27 part 2 fascicle 1)
 

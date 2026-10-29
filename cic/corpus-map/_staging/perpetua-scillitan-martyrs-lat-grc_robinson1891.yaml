@@ -42,3 +42,13 @@ assignments:
       (I.43); tertullian-s-voice (I.17), which this entry once named, has
       since been merged into it, along with the rest of Tertullian's own
       works in anf03/anf04.
+    locus_ids:
+    - pp. 60-95 of the printed volume
+    language:
+    - lat
+    - grc
+    date:
+      window: 7 March 202 or 203, under Severus
+      source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202)'
+      formation_confidence: Widely Accepted
+      note: 'The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'

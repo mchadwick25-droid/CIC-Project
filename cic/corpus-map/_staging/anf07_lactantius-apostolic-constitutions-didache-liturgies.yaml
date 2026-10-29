@@ -68,6 +68,14 @@ assignments:
     split by work.
 
     '
+  locus_ids:
+  - div2:iii.ii
+  - div3:iii.ii.i..iii.ii.viii (8 divisions)
+  language: eng
+  date:
+    window: 304-311
+    source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+    formation_confidence: Widely Accepted
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god
   work: A Treatise on the Anger of God
   author: lactantius
@@ -82,6 +90,14 @@ assignments:
     settled by the Institutes'' placement.
 
     '
+  locus_ids:
+  - div2:iii.iii
+  - div3:iii.iii.i..iii.iii.xxiii (23 divisions)
+  language: eng
+  date:
+    window: soon after the Divine Institutes
+    source: Harnack 1904 (one source)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-workmanship-of-god
   work: On the Workmanship of God
   author: lactantius
@@ -96,6 +112,14 @@ assignments:
     is settled by the Institutes'' placement.
 
     '
+  locus_ids:
+  - div2:iii.iv
+  - div3:iii.iv.i..iii.iv.xxi (21 divisions)
+  language: eng
+  date:
+    window: 303/304
+    source: Harnack 1904 (one source)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--of-the-manner-in-which-the-persecutors-died
   work: Of the Manner in Which the Persecutors Died
   author: lactantius
@@ -127,6 +151,13 @@ assignments:
     question, and that is settled by the Institutes'' placement.
 
     '
+  locus_ids:
+  - div2:iii.vi
+  - div3:iii.vi.i..iii.vi.iii (3 divisions)
+  language: eng
+  date:
+    window: unknown
+    checked: The file prints fragments of lost works under one heading; no composition date for the lost works was found in the editions read (ANF07 and Brandt, CSEL 27 part 2 fascicle 1)
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
   work: On Easter (De Pascha)
   author: venantius

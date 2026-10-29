@@ -3130,6 +3130,12 @@ authors:
 
       '
     from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  schanz-hosius-krueger:
+    kind: metadata-omission
+    evidence: Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
+      The title page names Martin Schanz, Carl Hosius and Gustav Krueger as the handbook authors
+      (file header and title page). A mechanical index-coverage gap, not an attribution dispute.
+    from_file: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
   scher:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.

@@ -7,6 +7,7 @@ assignments:
     locus: "whole file"
     atlas_ids:
       - latin-pastoral-congregational-christianity
+      - latin-apologists
     role: context
     confidence: assigned
     note: >
@@ -14,3 +15,13 @@ assignments:
       context, not tradition. Closes the final third of Source_Acquisition_Manifest
       G5. Consultation-only per cic/texts/INTAKE.md; covers fourth-century African
       literature outside this world's own core Cyprian/Augustine focus.
+    locus_ids:
+    - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
+    language: fra
+    voice_of:
+    - author: monceaux
+      loci: the whole volume
+    date:
+      window: 1905 (publication date on the title page)
+      source: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
+      formation_confidence: Documented

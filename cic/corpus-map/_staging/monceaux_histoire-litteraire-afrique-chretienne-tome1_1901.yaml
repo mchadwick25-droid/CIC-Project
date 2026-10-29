@@ -7,6 +7,7 @@ assignments:
     locus: "whole file"
     atlas_ids:
       - latin-pastoral-congregational-christianity
+      - latin-apologists
     role: context
     confidence: assigned
     note: >
@@ -15,3 +16,13 @@ assignments:
       Consultation-only per cic/texts/INTAKE.md; covers Tertullian and the origins
       of African Christian literature, background to this world's own Cyprian
       phase rather than this world's own voice.
+    locus_ids:
+    - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
+    language: fra
+    voice_of:
+    - author: monceaux
+      loci: the whole volume
+    date:
+      window: 1901 (publication date on the title page)
+      source: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+      formation_confidence: Documented
