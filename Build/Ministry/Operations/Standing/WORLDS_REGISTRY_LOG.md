@@ -886,3 +886,13 @@ object-storage upload (R2 configuration status unchecked), merging any
 of don's own PRs to `main` (already merged - PR #190, PR #194 - so
 likely a no-op, not verified here), and the `main` -> `live` promotion
 PR. Each is its own separate step and its own separate call.
+
+## latap (The Latin Apologists)
+
+Registered 2026-10-29 as a candidate formation world, census id
+`latin-apologists` (Atlas I.43, window 197 to 320, Carthage). Mark ratified
+the file-code `latap` by choice box the same day, relayed by the coordination
+thread of "Answering from the Sources"; the code was already the working label
+of `Build/worlds/latap/`, the Source Readiness Dossier and the Hub log. Tertullian
+is included in this world (census I.17 merged into I.43, Step 0 section 6). No
+`safety_adjacent` value is set: that is the project lead's call, as for `aec`.

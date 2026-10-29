@@ -203,3 +203,136 @@ cap yet.
 D3 change orders the proposal names (runtime seal, shelf-row authority,
 passage index scope, review unit) are filed as their stages begin, not now.
 
+## 4. Standing constraint: keep Three-Level Transparency and source access (2026-10-29)
+
+Mark, 2026-10-29, in chat: "in this build we cant loose the 3 level
+transparency or access to source documents".
+
+Mark's correction, same day: "no the 3 level transparency is the highlighted
+or marked text, hover for brief context, and click for the full page
+description and links to the source references and documents". This replaces
+my first reading of the term (conversation, plain explanation, scholarly
+apparatus), which was wrong.
+
+The three levels, as Mark defines them:
+1. Highlighted or marked text in the answer (lexicon terms, citations,
+   stories, quotes and other sourced claims).
+2. Hover: brief context.
+3. Click: the full page description, with links to the source references and
+   the source documents.
+
+Binding on every stage, as a gate on each change order:
+- All three levels stay for everything that has them today: the inline
+  lexicon highlighting with hover popover and click-through, and the citation
+  marker that opens real sourcing with links.
+- Anything new that the design cites or quotes must get the same three levels.
+  Each bound sentence gets its mark, a brief hover, and a click-through page
+  that links to its source span and the vendored document (`cic/texts`). This
+  should close the gaps the 19 July audit lists (stories only under the
+  aggregate marker, quotes with no distinct type, general references with no
+  disclosure), not widen them.
+- Access to source documents stays: every cited sentence opens to its source
+  reference and document. No stage may remove a mark, hover, click-through or
+  source link a reader has today.
+- Each stage's change order states how it keeps all three levels and source
+  access, and its done-when includes a check on the changed path.
+
+## 5. Rulings on the review cap and on spend (2026-10-29)
+
+Mark, 2026-10-29, in chat: "no three rounds then my interaction and
+permission (we can get stuck on a cycle seeking perfection and we want high
+quality). keep permission for anything that is a real spend (api), but remove
+caps for in system spends. we will monitor the use and slow down if we are
+spending to fast. we want to be efficiant, but not restrictive".
+
+- Review cap stays at three rounds. After the third, the document escalates
+  to Mark, who decides; it does not take a fourth round on its own. This is
+  the standing CLAUDE.md rule, unchanged. It stands for aec (Antiochene) and
+  rcg (Rome in the Age of Gregory the Great), which stay escalated until Mark
+  rules on each.
+- Real spend stays gated. Any metered outside-service call (model API, Bedrock,
+  other vendors) needs Mark's permission by name, with a cap, as CLAUDE.md
+  says. This entry does not approve any dollar figure.
+- In-system spend, the work done inside the Max-200 allowance (Claude Code
+  sessions and the threads' own work), has no cap. Mark monitors use and will
+  slow the work if it runs too fast. Threads work efficiently and are not
+  restricted by a budget ceiling.
+
+## 6. No paid overage; voice is an approved process (2026-10-29)
+
+Mark, 2026-10-29, in chat: "yes we will not spend paid overages, and yes
+voice is also an approved process".
+
+- No paid overage on the Max plan. "Extra usage" stays off. Hitting the weekly
+  ceiling means slowing down, not paying.
+- Voice (text-to-speech) is an approved process, as a class of real spend.
+  CLAUDE.md's rule for paid bulk runs on outside services is unchanged: a
+  small sample first, paid settings passed explicitly on the command and
+  printed with item and character counts. Mark's words approve the process;
+  they do not name a run or a cap, and no stage 1 item uses voice.
+- Real spend on model APIs (engine, Bedrock, other vendors) still needs
+  Mark's permission by name with a cap (entry 5).
+
+## 7. In-system spend is not tracked (2026-10-29)
+
+Mark, 2026-10-29, in chat: "dont worry about internal system spending, dont
+track it it costs to track and i can watch the usage".
+
+In-system work (the Max-200 allowance) is not tracked, reported or ledgered by
+any thread. Mark watches usage himself. Real API spend (entry 5) is still
+named, capped and recorded.
+
+## 8. lpc build paused as the test bed; model roles ruled (2026-10-29)
+
+Mark, 2026-10-29, in chat: "no we are pausing the lpc build because it is the
+test for the new system". The lpc world build and go-live work stays paused;
+lpc is the world on which the new system is proved (stages 3 and 4).
+
+Model roles, Mark's choice from a choice box: Option A, a true third lineage.
+Drafter Claude Sonnet 4.5 (fixed). Judges Claude Haiku 4.5 (verifier) and
+Sonnet 5.5 (citation-recall). Specialist a non-Claude model chosen by a
+tryout of GPT-6.1 and Grok 4.7 (each labels the same 20 seeded defects plus 20
+known-supported controls), which must then pass a fresh 20-seed test at 19 of
+20 before its labels count. Second labeller the other candidate or Kimi K3.
+Needs a guarded Bedrock adapter in `engine/provider` and a sourced price row
+per model. The tryout is real API spend and waits for Mark's named cap.
+
+## 9. Caps named by Mark, by choice box (2026-10-29)
+
+Entered in the System Hub Decision Log (PR #1273): `specialist-tryout-1` $10.00;
+`S1-01 baseline sample` $1.00 (lpc, 4 probes); `S1-01 baseline live path` $25.00
+(12 worlds, 336 probes, starts after the sample is reported).
+
+Deferred by Mark: `judge-trial-1` (decide later, after the gold set exists) and
+`index-twelve-1` (decide after the Library thread's sample card gives a measured
+price; no full index run before then). The gold-set labelling and the second
+labeller still have no cap.
+
+## 10. Specialist is Claude only; indexing with paid context lines not authorized (2026-10-29)
+
+Mark, 2026-10-29: "i dont have a clue what your talking about, this is all new
+stuff you are talking about spending and stuff, i want it built, not be a
+source of income for others". By choice box he chose: no spend on other
+companies' models, Claude only.
+
+- Supersedes entry 8's Option A. Specialist Opus 5.5; second labeller Fable
+  5.1; judges Haiku 4.5 and Sonnet 5.5. No Bedrock adapter, no non-Claude
+  price rows. `specialist-tryout-1` is withdrawn (nothing spent).
+- Weaker than a different-vendor specialist, because the models share training.
+  The report states this plainly and the containment in entry 2 stands: seeded
+  defects with a published catch rate, exact-quote verdicts, a second model on
+  a fifth, Mark's adjudication, outside referees, external experts at the end.
+- Contextual indexing with paid context lines ($438 to $746) is not authorized.
+  S1-05 is a no-context index, with context lines optionally done in-system
+  later.
+- Mark does not want to be asked about spending in jargon. Threads put any
+  paid-run question to him in plain words, one at a time.
+
+## 11. No paid API test runs (2026-10-29)
+
+Mark, 2026-10-29: "we are not spending 75 dollars on api runs to test it".
+Every metered run in stage 1 is withdrawn, including the lpc baseline sample and
+the 12-world baseline. Threads build and measure with free and in-plan means
+only (saved drafts, the replay bench, tests, work done in Claude Code sessions).
+A step that can only be done with paid API calls is reported with what it would
+cost and is not run. Supersedes the caps in entry 9.

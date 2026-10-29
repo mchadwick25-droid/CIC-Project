@@ -24,6 +24,7 @@ work: S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars III (Epistulae C
 edition: 'Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1904; vendored as cic/texts/augustine_epistulae-124-184a-lat_goldbacher-csel44.txt'
 citation: 'Augustine of Hippo, Epistulae, Pars III (Epistulae CXXIV-CLXXXIV A), ed. Alois Goldbacher, CSEL 44 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1904)'
 kind: vendored
+shelf_row: augustine_epistulae-124-184a-lat_goldbacher-csel44--augustine-s-epistulae-124-184a-goldbacher-s-critical-edition
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).
