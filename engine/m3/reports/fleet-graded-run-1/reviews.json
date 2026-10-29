@@ -26,5 +26,9 @@
  "pahc": {
   "summary": "PASS 19, FAIL 9, NOT SCORED 0 of 28 (P1 9, P2 19). Invented-fact, horizon or quote failures: 3. Main causes: engine quote placement and post-draft removal remove or misattach answer sentences: 22 markers, 2 placed, 25 sentences removed (f3-e, f5-t, f6-p; part of f3-i, f4-t); retrieval does not offer the cell's own coverage records in 13 of 28 turns (f2-e, f4-t, f5-p, f6-e, f6-p fail on it); record text breaks a sibling record's guard: womens-own-words ministrae as office (f3-i), material-remains and enslaved-voices tie Pliny's worship report to torture (f6-e), formation_logic build words (f3-t)",
   "file": "Build/worlds/pahc/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "hal": {
+  "summary": "PASS 17, FAIL 11, NOT SCORED 0 of 28 (P1 11, P2 12). Invented-fact, horizon or quote failures: 5. Main causes: engine cut: quote sentences removed by placement leave orphaned references (f2-p, f5-i; P2 residue in c-e, c-t, f1-e, f2-i, f5-e); engine grounding/output checks: invented quote lead-ins, uncited specifics, citations to records that do not hold the sentence, a garbled CJK character (f1-e, f1-p, f2-i, f2-p); right record not offered / wrong record offered: contested and question-keyed records missing or outranked (f3-i, f5-p, f6-i, f6-p)",
+  "file": "Build/worlds/hal/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
