@@ -393,6 +393,11 @@
       "estimate": 0.2717,
       "spent_usd_world": 0.311655,
       "exit_code": 0
+    },
+    "alx": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-alx.jsonl",
+      "estimate": 0.2603
     }
   }
 }
