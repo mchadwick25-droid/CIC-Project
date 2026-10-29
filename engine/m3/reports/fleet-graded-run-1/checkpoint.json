@@ -435,6 +435,14 @@
       "estimate": 0.2486,
       "spent_usd_world": 0.250212,
       "exit_code": 0
+    },
+    "cappadocian": {
+      "status": "not_run",
+      "reason": "spent $14.6652 + estimate $0.3511 would pass $15.0"
+    },
+    "don": {
+      "status": "not_run",
+      "reason": "spent $14.6652 + estimate $0.4019 would pass $15.0"
     }
   }
 }
