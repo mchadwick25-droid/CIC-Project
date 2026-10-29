@@ -18,6 +18,7 @@ work: "Historia Ecclesiastica (Church History) - less reliable on institutions, 
 edition: "trans. Arthur Cushman McGiffert, NPNF series 2 vol. 1 (1890), vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
 citation: Eusebius of Caesarea, Historia Ecclesiastica (Church History), trans. Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers ser. 2 vol. 1 (1890)
 kind: vendored
+shelf_row: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.eusebius-npnf2-01); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
