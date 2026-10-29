@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from .catalog import REPO_ROOT
+from .status import PENDING_OPTION
 from .estimate import BANDS, EDGE_TOKENS, FRESH_OVERHEAD_TOKENS, PASSAGE_WORDS, ScopeEstimate
 from .pricing import BATCH_DISCOUNT_SOURCE, MODEL_ID, price_table
 from .prompting import CONTEXT_WORD_LIMIT, PROMPT_VERSION
@@ -68,7 +69,7 @@ def render_settings(
 
 
 def render_estimate(estimates: list[ScopeEstimate], union: ScopeEstimate, top: int = 15) -> str:
-    out = ["# Contextual indexing: cost estimate", ""]
+    out = ["# Contextual indexing: cost estimate", "", PENDING_OPTION, ""]
     out.append("Prices: Haiku 4.5 from engine/m8/price_tables.py. Batch discount: " + BATCH_DISCOUNT_SOURCE + ".")
     out.append("")
     out.append(

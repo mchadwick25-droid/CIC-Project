@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-from index import catalog, contract, estimate, generate, retrieve, sample, store, windows
+from index import bench, benchreport, catalog, contract, estimate, generate, retrieve, sample, store, windows
 from index.check import check_context_line
 from index.pricing import MODEL_ID, price_table
 from index.prompting import allowed_text, build_request, window_block
@@ -253,3 +253,46 @@ def test_selector_picks_xml_weakest_ocr_and_latin_files(world, tmp_path):
     path = tmp_path / "selection.json"
     sample.write_selection(path, "lpc", list(chosen.values()))
     assert sample.read_selection(path)[1][0].passage_ids == list(chosen.values())[0].passage_ids
+
+
+def _bench_world(world, tmp_path):
+    passages, entry, out_dir, texts = world
+    db = tmp_path / "bench.sqlite"
+    store.build_index(db, passages, {}, {FILE_NAME: entry}, MODEL_ID)
+    records = tmp_path / "records" / "lpc"
+    (records / "quote").mkdir(parents=True)
+    (records / "doctrinal_witness").mkdir()
+    quote = passages[3].text
+    (records / "quote" / "lpc.quote.unity.md").write_text(
+        "---\nid: lpc.quote.unity\nrecord_type: quote\nsources:\n- source_id: x\n  locus: cic/texts/%s, line 99\ntext: %s\n---\nbody\n" % (FILE_NAME, quote),
+        encoding="utf-8")
+    (records / "doctrinal_witness" / "lpc.witness.lapsed.md").write_text(
+        "---\nid: lpc.witness.lapsed\nrecord_type: doctrinal_witness\nsources:\n- source_id: y\n  locus: the letter, cic/texts/%s, lines 3-3\n---\nbody\n" % FILE_NAME,
+        encoding="utf-8")
+    coverage = tmp_path / "coverage"
+    coverage.mkdir()
+    (coverage / "C1-coverage.json").write_text(json.dumps({"worlds": {"lpc": {"S1": {"records": ["lpc.quote.unity", "lpc.witness.lapsed", "lpc.quote.absent"]}}}}))
+    subs = {"C1.S1": {"id": "C1.S1", "label": "Unity", "ids": ["Q1", "Q2"]}}
+    questions = {"Q1": "What did the bishop urge about the unity of the church?", "Q2": "Why wait for judgment of repentance?"}
+    evidence = bench.load_record_evidence(records.parent / "lpc")
+    return db, texts, evidence, bench.load_cells("lpc", coverage), subs, questions
+
+
+def test_citations_parse_files_and_line_ranges():
+    found = bench.parse_citations("x cic/texts/a.xml, lines 23591-23604; Latin at cic/texts/b.txt, lines 12467-12478 and 5, 9")
+    assert [(c.file, c.start, c.end) for c in found] == [
+        ("a.xml", 23591, 23604), ("b.txt", 12467, 12478), ("b.txt", 5, 5), ("b.txt", 9, 9)]
+
+
+def test_bench_reaches_cited_passages_and_reports_unresolvable_records(world, tmp_path):
+    db, texts, evidence, cells, subs, questions = _bench_world(world, tmp_path)
+    cases, gold, ungrounded = bench.run_bench(db, "lpc", evidence, cells, subs, questions, texts)
+    passages = world[0]
+    assert set(gold["lpc.quote.unity"]) == {passages[3].passage_id}
+    assert set(gold["lpc.witness.lapsed"]) == {passages[1].passage_id}
+    by = {(c.wording_id, c.record_id): c.best_rank for c in cases}
+    assert by[("Q1", "lpc.quote.unity")] == 1
+    assert ungrounded["C1.S1"] == ["lpc.quote.absent"]
+    assert bench.recall(cases, 5) > 0
+    text = benchreport.render_report(db, "lpc", cases, gold, ungrounded, {"C1": "Jesus"}, subs, store.read_meta(db))
+    assert "recall@10" in text and "lpc.quote.absent" in text and "C1 Jesus" in text
