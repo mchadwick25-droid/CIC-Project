@@ -86,4 +86,4 @@ LPC's Registry excludes Tertullian's corpus as a Named Comparandum, yet LPC's so
 **Source:** Doc_01 §7; a case-insensitive search of `records/` for the five authors' names and titles.
 **Status:** Open. Owner: the neighbour worlds' threads.
 
-The re-run found the LPC use in OG-11 and one further PAHC use (`pahc.source.lucian-peregrinus` triangulates with Tertullian's *Apology* 39). Matches in other worlds that were inspected are volume-title strings and the word "perpetual"; they were not each opened.
+The re-run found the LPC use in OG-11 and one further PAHC use (`pahc.source.lucian-peregrinus` triangulates with Tertullian's *Apology* 39). It also found one PAHC wording item: `pahc.force.systematic-theological-mode-elsewhere` says the *Apology* opens a body of confident Latin defense, which Step 0 §4 item 1, rule (a), does not adopt. The item is carried to PAHC (OG-44 there) and is not edited. Matches in other worlds that were inspected are volume-title strings and the word "perpetual"; they were not each opened.

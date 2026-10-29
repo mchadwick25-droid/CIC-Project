@@ -1,0 +1,49 @@
+world_code: latap
+process_version: V2.0
+completion_standard_version: V1.4
+started: 2026-10-29
+pilot_world: false
+current_step: "Library stage (Steps 0-2). Step 0 approved to proceed. Doc_01 under review. Doc_02 and the Source Registry not yet approved to proceed."
+status: in_progress
+pause_point: none
+file_code_registration: "Registered 2026-10-29 as a candidate world; the code was ratified the same day. See Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md, entry latap. safety_adjacent is not set (the project lead's call at handoff)."
+library_stage_utc:
+  started: 2026-10-29T17:17:55Z
+  finished:
+documents:
+  - id: Step_0
+    status: approved to proceed (self-disposed 2026-09-29 after the Round 7 recheck; not Frozen)
+    rounds_used: 7
+    review_files: [Review-Artifacts/Step0_Round1_Review.md, Review-Artifacts/Step0_Round2_Review.md, Review-Artifacts/Step0_Round3_Review.md, Review-Artifacts/Step0_Round4_Review.md, Review-Artifacts/Step0_Round5_Review.md, Review-Artifacts/Step0_Round6_Review.md, Review-Artifacts/Step0_Round7_Review.md]
+  - id: Doc_01
+    status: draft
+    rounds_used: 1
+    drafter_model: Sonnet 5.5
+    reviewer_model: claude-opus-5-5
+    review_files: [Review-Artifacts/Doc01_Round1_Review.md]
+    gates_result:
+  - id: Doc_02
+    status: not started
+    rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model: claude-opus-5-5
+    review_files: []
+    gates_result:
+  - id: Source_Registry
+    status: draft
+    rounds_used: 0
+    drafter_model: Sonnet 5.5
+    reviewer_model: claude-opus-5-5
+    review_files: []
+    gates_result:
+  - id: Representative_identity
+    status: decided later in the build, at Doc_10
+    decided_by_mark:
+    decision_date:
+open_items_pointer: Open_Gaps_Tracking.md
+corpus_map_staging_keys: "Each corpus-map row for this world carries, in its cic/corpus-map/_staging/ file, the additive keys locus_ids, language, date (window, source, formation_confidence) and voice_of where the role is not tradition. corpus_map_merge.py keeps eight fields (row_id, work, author, source_file, locus, role, confidence, note), so the bucket cic/corpus-map/latin-apologists.yaml does not show them. The tooling change order has not landed. Open_Gaps_Tracking.md, entry OG-5."
+gates:
+  handoff:
+  last_prereview:
+  last_records:
+  last_regate:
