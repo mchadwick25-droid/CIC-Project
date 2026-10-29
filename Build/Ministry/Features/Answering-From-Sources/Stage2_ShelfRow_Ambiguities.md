@@ -1,5 +1,12 @@
 # Shelf-row ambiguities and off-shelf records
 
+## Migration status (2026-10-29, paused for allowance)
+
+- Merged: alx (#1281), cappadocian (#1283), desert (#1289), don (#1298), gallic (#1305).
+- Parked as a draft pull request: hal (#1315), CI had not finished when work stopped; mark ready and merge once green.
+- Remaining, in order: ijc (20, 33), pahc (16, 12), rzg (2, 0), syr (10, 39), witt (15, 0), then fix and lpc (the lpc branch holds 3 off-shelf records to rule on). Pairs are shelf-row and voicing-pair waiver counts from the earlier plan; rerun the pointer script to confirm before each.
+- Worlds aec, hus, jes, meth, obel, wsyr have no source records to point.
+
 ## lpc
 
 ### Ambiguous (25)
