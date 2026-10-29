@@ -5,7 +5,7 @@ started: 2026-10-29
 pilot_world: false
 current_step: "Library stage (Steps 0-2). Step 0 approved to proceed. Doc_01 approved to proceed. Doc_02 and the Source Registry approved to proceed."
 status: in_progress
-pause_point: "Paused at the allowance checkpoint. Done: Doc_02 and the Source Registry approved to proceed after Round 2 (Clear); P1 and P2 findings of both rounds fixed; branch merged with main. Left: the handoff manifest's 12-check table, outcome and Step 2 row (fill from a fresh full handoff run); safety_adjacent (project lead); the targeted Step 0 review. First on resume: run python -m engine.m10.cli handoff latap, fill the manifest, then mark the pull request ready."
+pause_point: "Paused at the allowance checkpoint. Done: Doc_02 and the Source Registry approved to proceed after Round 2 (Clear); P1 and P2 findings of both rounds fixed; branch merged with main. Left: the handoff manifest's 12-check table, outcome and Step 2 row (fill from a fresh full handoff run); safety_adjacent (project lead); the targeted Step 0 review. First on resume: fix the staging date keys so corpus_map_merge.py --check passes again (Open_Gaps_Tracking.md, entry on the merge with main), then run python -m engine.m10.cli handoff latap, fill the manifest, then mark the pull request ready."
 file_code_registration: "Registered 2026-10-29 as a candidate world; the code was ratified the same day. See Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md, entry latap. safety_adjacent is not set (the project lead's call at handoff)."
 library_stage_utc:
   started: 2026-10-29T17:17:55Z
