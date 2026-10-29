@@ -1,0 +1,201 @@
+{
+  "world": "Donatist African Christianity, c. 311-430",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "our own bishop of Caesarea was doing when he answered the bishop of Hippo verse against verse",
+          "problem": "The Donatist bishop who traded proof-texts with Augustine in writing was Petilian, bishop of Constantina (Cirta), not of Caesarea. The Donatist bishop of Caesarea, Emeritus, is known mainly for speaking at the Carthage conference of 411 and for staying almost silent when Augustine faced him at Caesarea in 418. That meeting was not a verse-against-verse exchange. The persecuted-church texts (John 15:18-19, the 'world hates you' theme) are typical of Petilian and of the Donatist case in 411.",
+          "source": "Augustine, Contra litteras Petiliani; Gesta cum Emerito (418); Gesta collationis Carthaginiensis (411)"
+        },
+        {
+          "claim": "we said praise to God - Deo laudes - and we cut it into stone",
+          "problem": "Augustine (Enarr. in Ps. 132.6) and Optatus confirm that Deo laudes was the Donatist cry and Deo gratias the Catholic one. Tying particular Numidian 'Deo laudes' inscriptions to Donatists is a common reading (Frend), but scholars dispute it. The answer states it as certain.",
+          "source": "Augustine, Enarr. in Ps. 132.6; W.H.C. Frend, The Donatist Church; Y. Duval and B. Shaw, Sacred Violence (2011), on inscriptions"
+        }
+      ],
+      "reader_note": "A lay reader can follow it, and the framing of 'a mark that can be seen from outside' works well. The length is right."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "In whole regions we were simply the church, most of the people in it",
+          "problem": "This is defensible for Numidia, and Frend's view is standard, but we cannot actually measure it. 'Probably the majority' would be more honest.",
+          "source": "Frend, The Donatist Church; Shaw, Sacred Violence"
+        },
+        {
+          "claim": "an enemy wrote down that a woman was said to have kissed a martyr's bone before she took it, and was rebuked for it",
+          "problem": "This is accurate: Optatus 1.16 tells the story of Lucilla and Caecilian, before the 'spiritual food and drink'. It happened before the schism, though, and Lucilla is a precursor figure, not an ordinary Donatist. Calling it a 'fragment of prayer' stretches it.",
+          "source": "Optatus, Contra Parmenianum 1.16"
+        }
+      ],
+      "reader_note": "It reads clearly and is honest about what has not survived. The length is right."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "Two hundred and seventy-nine of our bishops sat in one room at Carthage, facing two hundred and eighty-six of theirs",
+          "problem": "This matches the usual figures from the 411 Gesta: 286 Catholic signatories and 279 Donatist bishops present (the Donatists claimed more, 284 or more, including absentees). It is acceptable, though 'in one room' simplifies the procedure: only seven delegates per side debated.",
+          "source": "Gesta collationis Carthaginiensis, ed. S. Lancel (SC 194-195, 224, 373)"
+        }
+      ],
+      "reader_note": "It is clear and honestly states that nothing survives. It is slightly long because it repeats material from other answers."
+    },
+    {
+      "item": 4,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Later the same body took two of those condemned bishops back into office, without baptizing or ordaining either one again",
+          "problem": "This is broadly correct: Felicianus of Musti and Praetextatus of Assuras were readmitted. The key point in the sources, which Augustine presses repeatedly, is that the baptisms they had performed while in schism were also accepted without being repeated. The answer should say this.",
+          "source": "Augustine, Contra Cresconium 3-4; Ep. 108; Sententia of Bagai (394)"
+        },
+        {
+          "claim": "and said in the same letter that he knew the accusation was true ... Several of those letters end the same way. Let no one learn of it.",
+          "problem": "Letters in the Gesta apud Zenophilum (320) do urge Silvanus to settle with the deacon Nundinarius quietly. I cannot confirm that a writer explicitly says he knew the charge was true, or that the formula is repeated across 'several' letters. Treat both as possibly overstated until they are checked against the text.",
+          "source": "Gesta apud Zenophilum (appendix to Optatus, ed. Ziwsa, CSEL 26)"
+        },
+        {
+          "claim": "The whole founding story, as our enemies tell it, turns on a wealthy laywoman of Carthage",
+          "problem": "This is overstated. In Optatus, Lucilla's money and grudge are one strand, alongside the ambitions of Botrus and Caelestius, the elders who kept church property, and the Numidian bishops' charge that Felix of Abthungi was a traditor. She financed Majorinus's election. She did not alone 'make a bishop'.",
+          "source": "Optatus 1.16-19"
+        },
+        {
+          "claim": "At Cirta, before the split hardened, our bishops were asked outright whether they had handed over the scriptures",
+          "problem": "This is correct in outline (Secundus of Tigisi, with Purpurius turning the question on him; the matter left to God). The council's date (305 or c. 307) and the authenticity of its acta are debated, and the answer should say so.",
+          "source": "Optatus 1.13-14; Augustine, Contra Cresconium 3.27.30; Brevic. coll. 3"
+        }
+      ],
+      "reader_note": "It is strong and readable, but it judges too much ('never consistent with the rule it enforced'). It is a little long."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "A record kept by our enemies does not preserve fear, wavering, or quiet leaving.",
+          "problem": "This is false as stated. Augustine's letters do preserve Donatists who wavered, who feared their own clergy or the circumcellions, and who said they had stayed out of habit until coercion freed them. The record is hostile and self-serving, but it is not silent on wavering.",
+          "source": "Augustine, Ep. 93.16-18 (to Vincentius, 408); Ep. 185"
+        }
+      ],
+      "reader_note": "It is clear and short. The candour is good, but the reason it gives for the silence is wrong."
+    },
+    {
+      "item": 6,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "The only account that comes from inside with nobody in between is two words cut into stone.",
+          "problem": "This is false, and it contradicts items 2 and 8. Texts survive from inside the movement with no Catholic author in between: Donatist martyr acts (Passio Donati, Passio Marculi, Passio Maximiani et Isaac, the Donatist redaction of the Abitinian acta), Tyconius's Liber regularum, Donatist sermons, and the Donatist speeches and mandate recorded verbatim in the 411 Gesta. Petilian's and Gaudentius's words also survive in quotation.",
+          "source": "M. Tilley, Donatist Martyr Stories (1996); Tyconius, Liber regularum; Gesta collationis 411"
+        },
+        {
+          "claim": "(implicit) no outside record of worship obtained under torture exists",
+          "problem": "The answer misses the obvious referent. The Acts of the Abitinian martyrs (304) record interrogation under torture about holding the Sunday assembly ('sine dominico esse non possumus'), and the Donatists claimed these martyrs as their own. That is the key worship record produced under torture. The answer should name it, weigh it, and note that it comes before 311.",
+          "source": "Acta Saturnini, Dativi et aliorum (Abitinian martyrs); Tilley 1996"
+        },
+        {
+          "claim": "a town councillor admits, under threat of torture, that he added false lines to the letter",
+          "problem": "This is accurate: Ingentius at the hearing that cleared Felix of Abthungi, 314/315. It is relevant to the question only obliquely.",
+          "source": "Acta purgationis Felicis (appendix to Optatus)"
+        },
+        {
+          "claim": "Seven books by a Catholic bishop of Milevis",
+          "problem": "Optatus wrote six books. The seventh is a later addition whose authenticity is debated.",
+          "source": "Optatus, ed. Labrousse (SC 412-413); M. Edwards, Optatus (1997)"
+        },
+        {
+          "claim": "On two pillars near Bagai, and on three other stones, two words are cut",
+          "problem": "This count is suspiciously precise, and I cannot verify it. 'Deo laudes' inscriptions in Numidia are more numerous than five, and whether they are Donatist is disputed.",
+          "source": "Frend; Shaw, Sacred Violence"
+        }
+      ],
+      "reader_note": "The opening source-criticism is good, but the answer sidesteps the question and ends on a false claim. Its length is fine."
+    },
+    {
+      "item": 7,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Our own bishop wrote: what we look to is the conscience of the giver, to cleanse that of the recipient.",
+          "problem": "This is accurate: Petilian's 'conscientia sancte dantis attenditur, quae abluat accipientis'.",
+          "source": "Augustine, Contra litteras Petiliani 1.1.2"
+        },
+        {
+          "claim": "We did not examine the person coming ... So the door was not as narrow as our reputation.",
+          "problem": "This turns ecclesiology into a modern pastoral reassurance. Donatist converts still made a profession of faith and were catechized. The readmission of Maximianist clergy is Augustine's polemical charge of inconsistency, not a Donatist principle of openness to doubters. The answer also takes up a question that was not asked ('whether Christ would want anything to do with you').",
+          "source": "Augustine on Bagai/Maximianists; Optatus book 5 on baptism"
+        }
+      ],
+      "reader_note": "It is readable, but the consoling tone reads more as modern than as fourth-century. Its length is fine."
+    },
+    {
+      "item": 8,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We confessed one God, Father, Son and Holy Spirit, as plainly as the men we spent a century fighting confessed it.",
+          "problem": "This is broadly right; Augustine, Ep. 185.1 (417), concedes that most Donatists held the Catholic Trinitarian faith. But in the same passage, and in De haeresibus 69, Augustine reports that Donatus of Carthage was said to hold that the Son was less than the Father, though of the same substance. The answer should mention this charge.",
+          "source": "Augustine, Ep. 185.1; De haeresibus 69"
+        },
+        {
+          "claim": "The great eastern councils of that century are not our fight and do not appear in our record.",
+          "problem": "This is wrong. The eastern (Homoian-leaning) bishops at Serdica in 343 addressed their synodal letter to Donatus of Carthage among others. The eastern controversy did touch the Donatists, and Augustine exploited the fact.",
+          "source": "Hilary, Fragmenta historica (Collectanea antiariana), Ser. A IV; Augustine, Ep. 44.6; Contra Cresconium 3.34.38"
+        },
+        {
+          "claim": "It is reported that a council of ours condemned him for it.",
+          "problem": "Tyconius was condemned (c. 380, under Parmenian) for his ecclesiology, namely the worldwide church and the mixed body. He was not condemned for the Liber regularum, which probably dates after the condemnation. The qualifier 'it is reported' is right, but 'for it' is wrong.",
+          "source": "Augustine, Ep. 93.43-44; Contra ep. Parmeniani 1.1; De doctrina christiana 3.30"
+        },
+        {
+          "claim": "A bishop wrote to the church at Carthage about two of them beaten ... sand ... sea giving them back for six days",
+          "problem": "The content matches the Passio Maximiani et Isaac (347). The author is uncertain: the text names a Macrobius, and identifying him as a bishop is a scholarly conjecture. The answer should hedge this.",
+          "source": "Passio Maximiani et Isaac; Tilley, Donatist Martyr Stories"
+        }
+      ],
+      "reader_note": "The answer is rich and mostly sound, and it uses the community's own texts well. It is somewhat long."
+    },
+    {
+      "item": 9,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We held two persecutions in memory",
+          "problem": "This is too neat for 311-430. Donatists remembered several distinct persecutions: Caecilian and Constantine (317-321, the Passio Donati), the 'Macarian times' of 347 (the Passio Marculi, the Passio Maximiani et Isaac), and the coercion after the Edict of Unity of 405 and the laws of 412. The persecution under Diocletian came before the schism, so 'our eventual rival suffered it beside us' is anachronistic framing.",
+          "source": "Passio Donati; Passio Marculi; Codex Theodosianus 16.5-6; Optatus book 3"
+        },
+        {
+          "claim": "Nobody among us hid underground.",
+          "problem": "This is too absolute. Bishops and congregations did flee and hide during 347 and after 405. The answer is right that catacomb-hiding is a Roman-style myth, but 'nobody' cannot be proved.",
+          "source": "Optatus 3; Augustine's letters on exiled and fugitive Donatist clergy"
+        }
+      ],
+      "reader_note": "It is clear and corrects the popular myth well. It is short and the right length."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "He who receives faith from the faithless ... receives not faith but guilt",
+          "problem": "This is accurate: Petilian's 'qui fidem a perfido sumpserit, non fidem percipit sed reatum'.",
+          "source": "Augustine, Contra litteras Petiliani 1.2.3"
+        },
+        {
+          "claim": "What we examined at our font was never your record ... that question was not asked.",
+          "problem": "This is mildly overstated. Converts still renounced error and professed the faith. It is acceptable as an emphasis on the minister's purity.",
+          "source": "Petilian as quoted in Augustine; Optatus book 5"
+        }
+      ],
+      "reader_note": "It is vivid, accurate on rebaptism and the 405 legislation, and clear to a lay reader. The length is right."
+    }
+  ],
+  "overall_view": "I would put my name to most of these answers with corrections. The voice is disciplined, it hedges honestly about what is missing, and it quotes Petilian, Optatus and the martyr acts accurately. I would not sign item 6 as it stands. The single biggest thing I would change is the recurring claim that the Donatists' own voice survives almost nowhere: items 5 and 6 say or imply this, and item 6 ends with 'the only account from inside ... is two words cut into stone'. In fact a real body of Donatist literature survives: martyr acts, Tyconius, sermons, and the Donatist speeches in the 411 Gesta. The project uses that material itself in items 2, 8 and 9, so the answers contradict one another. Several stated details also need checking or hedging: Petilian's see given as Caesarea, the eastern councils said to be absent, the reason for Tyconius's condemnation, and the exact count of Deo laudes stones."
+}

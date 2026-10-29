@@ -1,0 +1,251 @@
+{
+  "world": "Syriac Christianity of Edessa and Nisibis (Aphrahat, Ephrem), c. 250-410",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "we would call him what we called him most often: the Physician",
+          "problem": "Christ the Physician (asya) is a major Syriac title, but 'most often' is an unprovable frequency claim. Many titles are just as frequent (Shepherd, Light, Pearl, Medicine of Life, the Living Bread, Bridegroom). Better: 'one of our favourite names for him'.",
+          "source": "R. Murray, Symbols of Church and Kingdom (1975), ch. on the titles of Christ; Aphrahat, Dem. 7 (On Penitents), where the physician image and the advice not to hide a wound out of shame do appear."
+        },
+        {
+          "claim": "We also loved to preach about the woman who came to Jesus in tears",
+          "problem": "This is broadly fair. The verse homily on the sinful woman (Luke 7) attributed to Ephrem is of uncertain authenticity, though the theme is solidly Syriac. A light hedge would be enough.",
+          "source": "Ephrem (attrib.), Sermo de peccatrice; S. Brock's notes on the Ephrem corpus."
+        }
+      ],
+      "reader_note": "Clear, warm and the right length. One small overstatement ('most often'), and I would soften it, but it can stand."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "The one baptized received the sealing, a sign set on them.",
+          "problem": "Read with Items 4 and 8, the text implies the sealing came after the water. In the early Syriac rite the anointing/sealing (rushma) came BEFORE immersion, and there was no post-baptismal anointing. This order is the most distinctive thing about early Syriac initiation, and a specialist would expect it to be stated.",
+          "source": "Didascalia Apostolorum 16; Acts of Judas Thomas (baptismal scenes); G. Winkler, 'The Original Meaning of the Prebaptismal Anointing' (Worship 52, 1978); S. Brock, The Holy Spirit in the Syrian Baptismal Tradition."
+        },
+        {
+          "claim": "No order of worship survives from us - no manual, no teacher's letter laying out what came first and what came next.",
+          "problem": "It is true that no full ordo survives. But the Didascalia (in Syriac) and the Acts of Thomas give a clear sequence: anointing, then water, then eucharist. So the order is much better known than this suggests. The text is honest but too pessimistic.",
+          "source": "Didascalia 16; Acts of Thomas chs. 27, 121, 132, 157."
+        },
+        {
+          "claim": "for the whole length of our years 'the Gospel' meant that one narrative",
+          "problem": "Overstated. The Diatessaron was dominant, and Aphrahat and Ephrem's Commentary use it. But the Old Syriac separated Gospels (Evangelion da-Mepharreshe: Sinaitic and Curetonian) were in existence and probably in use within this period. The original language and date of the Diatessaron are also contested.",
+          "source": "W. L. Petersen, Tatian's Diatessaron (1994); P. J. Williams on the Old Syriac Gospels."
+        },
+        {
+          "claim": "They promised a celibate life for good.",
+          "problem": "This is broadly right. Aphrahat says those who intend to marry should do so before baptism. But the qyama included the qaddishe, married people living in continence, as well as the virgins (btule). Making it purely 'celibate' slightly flattens this.",
+          "source": "Aphrahat, Dem. 6 and 7.18-20; S. Griffith, 'Monks, Singers and Laymen in the Syriac Church' / 'Asceticism in the Church of Syria' (1995)."
+        },
+        {
+          "claim": "We asked no deeper questions about how they were his gift.",
+          "problem": "This is fair as a description of Ephrem's dislike of 'prying'. But Ephrem has a rich eucharistic theology of fire and Spirit in the bread (Hymns on Faith 10). 'No deeper questions' undersells it.",
+          "source": "Ephrem, Hymns on Faith 10."
+        }
+      ],
+      "reader_note": "Understandable and honest about gaps. It is a bit long and repetitive at the end, and it should fix the anointing-before-water point."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Those with a small fault the judge will rebuke, and then he will give them the inheritance of life.",
+          "problem": "Aphrahat's Dem. 22 has graded rewards and punishments and a sleep of souls until the resurrection. I believe the paraphrase is close, but I cannot confirm the exact wording, and it should be checked against the text.",
+          "source": "Aphrahat, Dem. 22 (On Death and the Last Times), esp. 22.15-24."
+        },
+        {
+          "claim": "we drew far less of the modern map of who exactly burns than people assume",
+          "problem": "This is an evasion of the actual question. Ephrem's hymns (e.g. Hymns on Paradise 1, Nisibene Hymns) speak vividly of Gehenna and the exclusion of the wicked. Aphrahat discusses the fate of the wicked and unbelievers in Dem. 22. The answer also leaves out the distinctive Syriac teaching of soul-sleep, which is the most specific thing the community held about the dead.",
+          "source": "Aphrahat, Dem. 6.14, 8, 22; Ephrem, Hymns on Paradise 1-2; Nisibene Hymns 35-42 (Death and Satan)."
+        },
+        {
+          "claim": "First a man believes, and when he believes, he loves. When he loves, he hopes...",
+          "problem": "This is accurate to Aphrahat, Dem. 1, but it describes the believer, not outsiders, so it does not answer the question.",
+          "source": "Aphrahat, Dem. 1.3-4."
+        }
+      ],
+      "reader_note": "Readable, but it drifts away from the question asked. It should say plainly what Aphrahat and Ephrem said about the unbelieving dead, and mention soul-sleep."
+    },
+    {
+      "item": 4,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "the one who came up from the water received the sealing and the Holy Spirit",
+          "problem": "This has the order wrong for this period. The rushma (anointing and seal), and with it the gift of the Spirit, preceded immersion in the early Syriac rite.",
+          "source": "Didascalia 16; Acts of Thomas; Winkler 1978; Brock, The Holy Spirit in the Syrian Baptismal Tradition."
+        },
+        {
+          "claim": "When the persecution came, bishops died first, then the covenant's vowed members.",
+          "problem": "The martyrologies list martyrs by rank (bishops, priests, deacons, bnay qyama). That is an order of listing, not of time. The Shapur II persecution (from c. 340/344) killed lay people, clergy and qyama together. Simeon bar Sabba'e's death early on is real, but 'first ... then' is not supported.",
+          "source": "Syriac Martyrology of 411 (BL Add. 12150); Acts of the Persian Martyrs; Sozomen HE 2.9-14; Aphrahat, Dem. 21."
+        },
+        {
+          "claim": "They stayed in town, among their own kin",
+          "problem": "This is broadly right (Griffith), but Aphrahat also expects them to avoid living with the opposite sex and enjoins some separation. 'Among their own kin' is a slight simplification.",
+          "source": "Aphrahat, Dem. 6.4-8."
+        },
+        {
+          "claim": "they wrote mostly to each other",
+          "problem": "This is loose. Ephrem wrote hymns for whole congregations, and Aphrahat addresses an unnamed inquirer and the church at large, not only the qyama.",
+          "source": "Aphrahat, Dem. 1.1 and 23.60ff; Ephrem's madrashe."
+        },
+        {
+          "claim": "Everyone who came to the font gave up the old gods.",
+          "problem": "Many in Aphrahat's milieu were close to Judaism, not pagans, so 'the old gods' does not fit every convert. This is a minor point.",
+          "source": "Aphrahat, Dem. 11-19 (on Jewish questions)."
+        }
+      ],
+      "reader_note": "Clear and well hedged about the silence of ordinary believers. Good length. Two factual fixes are needed: the sealing order and the persecution sequence."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We said Jesus was God, in our own way of speaking. He strung Scripture's own names together",
+          "problem": "'He' has no antecedent, so the reader cannot tell who is meant (Aphrahat?). More substantively, Aphrahat's case in Dem. 17 is cautious: Christ may be called God just as Moses and others were called 'gods'. The tone is pre-Nicene. Presenting 'we said Jesus was God' as uniform hides the real difference between Aphrahat and Ephrem.",
+          "source": "Aphrahat, Dem. 17 (On Christ the Son of God); Murray, Symbols, 'the titles of Christ'."
+        },
+        {
+          "claim": "Our baptismal hymns sang the Father rejoicing with his Son and the Spirit over the baptized.",
+          "problem": "The Hymns on Epiphany, the usual source, are of disputed authenticity (E. Beck doubted Ephrem's authorship of much of the cycle). The attribution should be hedged.",
+          "source": "E. Beck, CSCO 186-187 (Hymnen de Nativitate / Epiphania), introduction."
+        },
+        {
+          "claim": "We stood with the great council's faith.",
+          "problem": "This is true of Ephrem, who was pro-Nicene in the Hymns on Faith. Aphrahat never mentions Nicaea or homoousios. 'We' overstates how uniform the community was. The Jacob-of-Nisibis-at-Nicaea tradition is properly hedged.",
+          "source": "Ephrem, Hymns on Faith; Aphrahat (no reference to Nicaea); Nicene subscription lists."
+        },
+        {
+          "claim": "We did not speak in the borrowed language of Greek essence.",
+          "problem": "This is broadly right, but Ephrem does use 'ituta (being), kyana (nature) and qnoma. 'Did not' is too absolute. 'Rarely, and warily' would be better.",
+          "source": "Ephrem, Hymns on Faith; S. Brock, The Luminous Eye."
+        }
+      ],
+      "reader_note": "Short and readable, but 'He' is confusing, and it smooths over the difference between Aphrahat and Ephrem on Nicene language."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "twenty-three Demonstrations, each one written to refute a rival teacher by name or to correct a wrong turn inside the faith",
+          "problem": "This is false as stated. Most of the Demonstrations are hortatory or catechetical (faith, love, fasting, prayer, humility, the qyama). Dem. 11-19 and 21 address Jewish arguments. Aphrahat almost never names a rival teacher; he only briefly mentions Marcion, Valentinus and Mani in Dem. 3.6.",
+          "source": "Aphrahat, Demonstrations, tr. A. Lehto (2010); J. Neusner, Aphrahat and Judaism (1971)."
+        },
+        {
+          "claim": "The Persian bishops fought over their own chief's claim to first place.",
+          "problem": "The Papa bar Aggai dispute (c. 315) is known mainly from much later sources, including the acts of the Synod of Dadisho (424), which may be tendentious or fabricated. It should be hedged.",
+          "source": "Synodicon Orientale (Chabot), Synod of Dadisho 424; J.-M. Fiey, Jalons pour une histoire de l'Eglise en Iraq."
+        },
+        {
+          "claim": "The persecution left the chief seat empty for twenty years.",
+          "problem": "The figure of about twenty years after Barba'shmin is traditional (late chronicles). It is roughly acceptable but uncertain, and should be hedged.",
+          "source": "Mari, 'Amr, Sliba (later chronicles); Chronicle of Seert."
+        },
+        {
+          "claim": "no settled machinery stood over the whole",
+          "problem": "This holds for Persia, but the Roman side (Edessa, and Nisibis to 363) was under the imperial conciliar church. Ephrem's own Edessa saw Bishop Barse exiled under Valens. The answer reads almost entirely from the Persian side.",
+          "source": "Chronicle of Edessa; Theodoret HE 4.16."
+        },
+        {
+          "claim": "answered Bardaisan, Marcion, and Mani ... by singing the true teaching louder",
+          "problem": "Ephrem's polemic against these three is solid (Hymns against Heresies, Prose Refutations). The image of countering Bardaisan's hymns with rival hymns comes from later hagiography (Jacob of Sarug, the Syriac Life) and should be marked as such.",
+          "source": "Ephrem, Hymns against Heresies; Prose Refutations (Mitchell); Jacob of Sarug, Memra on Ephrem."
+        }
+      ],
+      "reader_note": "Thoughtful, but long, and the 'sage'/'poet' epithets may confuse a lay reader. The statement that every Demonstration refutes someone must be fixed."
+    },
+    {
+      "item": 7,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We did not read Genesis the way people now argue about it - as science. That was not because we doubted the text. It was because we read for something else.",
+          "problem": "This misleads by omission and is somewhat anachronistic. In his Commentary on Genesis, Ephrem explicitly insists that the six days and the creation account be taken literally ('let no one think there is anything allegorical in the work of the six days'). The symbolic reading sat alongside a firmly literal/historical one; it did not replace it.",
+          "source": "Ephrem, Commentary on Genesis, Prologue and 1.1 (tr. E. Mathews and J. Amar, FC 91)."
+        },
+        {
+          "claim": "Scripture's words were each a raza to us: a symbol bound to the truth it carries, the shrara.",
+          "problem": "The raza/shrara vocabulary is correct for Ephrem. 'Each' word is an overstatement. It is Ephrem's idiom more than Aphrahat's.",
+          "source": "S. Brock, The Luminous Eye (1992); Murray, Symbols."
+        }
+      ],
+      "reader_note": "Evocative and accessible, a good length. It needs the Genesis-literalism correction."
+    },
+    {
+      "item": 8,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "the sealing, the sign set on each one who came up from the water",
+          "problem": "Wrong order for the early Syriac rite. The rushma preceded immersion (see Item 4).",
+          "source": "Didascalia 16; Acts of Thomas; Winkler 1978."
+        },
+        {
+          "claim": "Our new birth happened in water, in front of the whole congregation ... as public as a wedding",
+          "problem": "Overstated. Baptism was naked, women were anointed by deaconesses (Didascalia 16), and it was probably done in a baptistery rather than in full view of the assembly. It was a corporate church event, but not a public spectacle. 'Not private' is right; 'in front of the whole congregation' is not supported.",
+          "source": "Didascalia Apostolorum 16; Brock, Holy Spirit in the Syrian Baptismal Tradition."
+        },
+        {
+          "claim": "It was not a private moment of conversion.",
+          "problem": "This is fair, but Syriac writers also stress inner repentance and the 'circumcision of the heart' (Aphrahat Dem. 11-12), so the contrast is a little too sharp.",
+          "source": "Aphrahat, Dem. 11-12."
+        }
+      ],
+      "reader_note": "Clear and short. It needs the sealing order corrected and the 'whole congregation' image toned down."
+    },
+    {
+      "item": 9,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "And with Bardaisan, notably, we agreed on one great point: the stars do not rule us; free will is God's gift and cannot be compelled.",
+          "problem": "This is contested and stated as settled. Bardaisan (Book of the Laws of Countries) did defend free will, but he gave fate, governed by the heavenly bodies, real power over bodily circumstances. Ephrem attacks Bardaisan precisely as an astrologer and fatalist (Hymns against Heresies). Ephrem would not have presented this as an agreement, so the community voice is misrepresented.",
+          "source": "Book of the Laws of Countries (Drijvers 1965); Ephrem, Hymns against Heresies 1-14, 51-56; H. J. W. Drijvers, Bardaisan of Edessa (1966)."
+        },
+        {
+          "claim": "Abel was murdered ... Jacob was persecuted ... David was persecuted at the hands of Saul. Jesus was persecuted",
+          "problem": "Dem. 21 does answer a taunt (from a Jew, which the answer does not mention) with a long roll of persecuted righteous ones compared with Jesus. I am not certain that Abel heads the list; Joseph, Moses, David, Elijah and others are central. The exact list should be checked.",
+          "source": "Aphrahat, Dem. 21 (On Persecution), 21.1-22."
+        },
+        {
+          "claim": "Against Bardaisan we held that God made all things from nothing, not from eternal elements",
+          "problem": "This is correct. Ephrem attacks Bardaisan's eternal 'ityē.",
+          "source": "Ephrem, Prose Refutations; Hymns against Heresies."
+        }
+      ],
+      "reader_note": "Readable and of a reasonable length, but the Physician paragraph repeats Item 1 word for word. Fix the Bardaisan 'agreement'."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "The frontier cities we knew changed hands, were rebuilt, or vanished under later occupation.",
+          "problem": "Misleading. Edessa (Urfa) and Nisibis (Nusaybin) are continuously inhabited cities. Nisibis was ceded to Persia in 363 (within the window); neither 'vanished'.",
+          "source": "Ammianus Marcellinus 25.7-9; standard histories of Edessa (J. B. Segal, Edessa 'the Blessed City', 1970)."
+        },
+        {
+          "claim": "the Persian church ... finally organized itself under a settled head at a synod we did not live to see",
+          "problem": "This is internally inconsistent. The Synod of Isaac was held in 410, which this answer says is the closing year of 'our years', and Item 6 places it 'at the very end of our years'.",
+          "source": "Synodicon Orientale, Synod of Isaac (410)."
+        },
+        {
+          "claim": "was eventually replaced by the four separate accounts",
+          "problem": "This is correct (Peshitta Gospels; Rabbula and Theodoret suppressing the Diatessaron in the 5th century). It narrates events after the window, which the answer itself says it will not do, but here this is defensible.",
+          "source": "Theodoret, Haer. fab. 1.20; Rabbula's rules."
+        }
+      ],
+      "reader_note": "Clear and of a fitting length. The window-boundary inconsistency and the 'vanished' cities need fixing."
+    }
+  ],
+  "overall_view": "With corrections, yes. These answers are unusually honest about gaps, mostly avoid invention, and use the right primary vocabulary (raza, qyama, ihidaye, Diatessaron, Dem. 1's building on faith, Dem. 14's synodal letter). A specialist would find nothing wildly wrong. They do lean toward rhetorical overstatement ('most often', 'each one', 'whole length of our years', 'in front of the whole congregation'), and they merge Aphrahat and Ephrem into one 'we' where the two differ, for example on Nicene language. The single biggest thing I would change is the baptismal order. Several answers place the sealing and the gift of the Spirit after the person comes up from the water. The defining feature of early Syriac initiation (Didascalia, Acts of Thomas, Winkler, Brock) is that the anointing (rushma) came before immersion, so the project is getting wrong the very rite it treats as central. Close behind: Ephrem's supposed 'agreement' with Bardaisan on the stars, and the claim that every Demonstration refutes a named rival."
+}

@@ -1,0 +1,221 @@
+{
+  "world": "Egyptian desert monasticism (Antony, the Apophthegmata, Pachomius, Evagrius, Cassian), c. 270-450",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "No. That is not something we did, or held, or taught.",
+          "problem": "Too flat a denial. The desert tradition itself tells of people withdrawing to escape persecution: Jerome's Life of Paul of Thebes has Paul fleeing the Decian persecution to a cave. The story is legendary, but it belongs to this world. Some Christians also fled to the desert during the Decian and Diocletianic persecutions (Dionysius of Alexandria, in Eusebius HE 6.42). The answer is right that 'underground' living was not normal practice, but it should not deny that anyone ever hid.",
+          "source": "Jerome, Vita Pauli 5; Eusebius, HE 6.42"
+        },
+        {
+          "claim": "One of us, at the beginning, did shut himself inside an abandoned tomb ... it was one man's own extremity",
+          "problem": "The tomb episode is correct (Vita Antonii 8-10). But Antony also walled himself into the deserted fort for about twenty years (VA 12-14), and that was a far longer enclosure. Calling enclosure 'one man's own extremity' also undersells how often later recluses shut themselves in cells.",
+          "source": "Athanasius, Vita Antonii 8-14"
+        }
+      ],
+      "reader_note": "Clear and the right length. The first paragraph's line about 'not our world' reads oddly."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Beyond that one case, we did not leave behind a teaching on how marriage itself was understood or marked",
+          "problem": "False as an absence claim. Amoun of Nitria, a founding figure of Nitria, married and lived in continence with his wife for 18 years before withdrawing. There are also sayings that measure married lay people against monks, such as Macarius and the two married women in the city, and Antony and the doctor in Alexandria. These show that the desert did reflect on marriage.",
+          "source": "Palladius, Historia Lausiaca 8; Socrates, HE 4.23; Apophthegmata, Macarius 20, Antony 24"
+        },
+        {
+          "claim": "A marriage ending through a spouse's own unfaithfulness was not held against the one who was betrayed.",
+          "problem": "This turns a single anecdote into a general norm. Palladius makes no ruling of this kind; the story is about Paul's simplicity and obedience.",
+          "source": "Historia Lausiaca 22"
+        },
+        {
+          "claim": "Paul ... found her with another man ... at sixty ... found to have a perfect soul",
+          "problem": "Accurate to Historia Lausiaca 22: Paul's laughing reply, his age of sixty, and Antony's verdict after testing that he had 'a perfect soul'. No correction needed. Noted here only to confirm it was checked.",
+          "source": "Historia Lausiaca 22 (Lowther Clarke trans.)"
+        }
+      ],
+      "reader_note": "Understandable. The sentence about apotage is clumsy; otherwise the length is fine."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "What we do not have is a single preserved scene showing someone navigating the tension between personal and office-based authority ... It is simply not there.",
+          "problem": "This evasion is close to false. Several scenes do dramatize it. Pachomius was called before the synod at Latopolis (c. 345) to answer for his charismatic claims. The Pachomian succession crisis set Horsiesios's office against Theodore's personal standing. During the Anthropomorphite controversy (399), Paphnutius read Theophilus's festal letter at Scetis and the elder Serapion wept, 'they have taken my God from me'. The Anthropomorphite case is also the obvious answer to the question as asked, about doctrinal disagreement among monks and who settled it, and the answer leaves it out entirely.",
+          "source": "Vita Prima of Pachomius 112; Bohairic Life of Pachomius; Cassian, Conferences 10.2-3; Socrates, HE 6.7"
+        },
+        {
+          "claim": "An elder was summoned to judge another monk's error ... not a formal tribunal.",
+          "problem": "Probably the saying of Moses with the leaking basket of sand. In that saying 'a council was called' at Scetis, so there was a gathered assembly, even if it was not a formal court.",
+          "source": "Apophthegmata, Moses 2"
+        },
+        {
+          "claim": "The bishops sent for him. He came down ... to the city ... denounced them",
+          "problem": "Correct: Vita Antonii 69-70 says Antony was summoned by the bishops and the brethren and went down to Alexandria to denounce the Arians.",
+          "source": "Vita Antonii 69-70"
+        }
+      ],
+      "reader_note": "Readable, but it does not answer the evidence half of the question: no sources are named."
+    },
+    {
+      "item": 4,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "He seems to have meant the day he took up the discipline, not a single decisive turn of feeling",
+          "problem": "Misreading. In Historia Lausiaca 45, Philoromus says 'from the time that I was initiated and born again until today'. 'Initiated' (photized) is baptismal language, so he means his baptism, not the start of his ascetic life.",
+          "source": "Palladius, Historia Lausiaca 45.3"
+        },
+        {
+          "claim": "We spoke of beginning this life, not of being born again - at least most of us did not use that name for it.",
+          "problem": "Misleading framing. Fourth-century Christians, monks included, routinely spoke of rebirth (anagennesis, palingenesia; John 3:5, Titus 3:5), and they meant baptism. The honest answer is 'yes, of baptism, not of an emotional conversion'. Taking the monastic habit was also sometimes likened to a second baptism. The answer never mentions baptism, so it gives a false picture of the vocabulary.",
+          "source": "Historia Lausiaca 45; Jerome, Ep. 39.3; Apophthegmata (anonymous series on the habit and baptism)"
+        },
+        {
+          "claim": "One man among us, Philoromus ... living the same discipline we lived",
+          "problem": "Philoromus was a Galatian priest whom Palladius knew in Asia Minor, not a member of the Egyptian desert. Using him as 'one of us' blurs the community's boundaries.",
+          "source": "Historia Lausiaca 45"
+        },
+        {
+          "claim": "Antony narrative (village, fort, loaves twice a year, twenty years, Saracens, mountain with spring and palms)",
+          "problem": "Accurate to Vita Antonii 3, 12-14 and 49-50. Small corrections: the tomb stage (VA 8) is left out between the village and the fort, and there is a stray double full stop ('lived..').",
+          "source": "Vita Antonii 3, 8, 12-14, 49-50"
+        }
+      ],
+      "reader_note": "Too long. The block narrative swamps the question, and the switch from 'we' to 'Athanasius wrote' is jarring."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We have at least one clear case of a woman holding that kind of weight.",
+          "problem": "Understated. The alphabetical Apophthegmata contains three ammas (Theodora, Sarah, Syncletica), and Melania and others appear in Palladius.",
+          "source": "Apophthegmata Patrum, alphabetical collection"
+        },
+        {
+          "claim": "Their word carried teaching weight, though they held no office.",
+          "problem": "This holds for many elders but not all. Scetis and Nitria had ordained priests who presided, such as Isidore the priest and Paphnutius, and they convened assemblies. The anchorite side was not purely charismatic.",
+          "source": "Apophthegmata, Isidore, Paphnutius; Historia Lausiaca 7"
+        },
+        {
+          "claim": "Both existed among us at once ... neither one gave way ... No one among us ever solved it.",
+          "problem": "This states a contested interpretive judgment as settled fact. Cassian, for example, ranked the cenobium as the necessary school before the anchoritic life, which is one way of resolving the tension. It is a defensible reading, but it should be framed as one.",
+          "source": "Cassian, Conferences 18-19"
+        }
+      ],
+      "reader_note": "Clear and well-pitched; the right length."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "our own record does not give us a story of someone among us who doubted and then came to believe",
+          "problem": "Not quite true. One well-known saying tells of an elder at Scetis who doubted that the eucharistic bread was truly Christ's body and was brought to belief through a vision.",
+          "source": "Apophthegmata, Daniel 7"
+        },
+        {
+          "claim": "the second word: flee, keep silence, and live in silent contemplation",
+          "problem": "This is Arsenius (Arsenius 1-2), and the wording is loose. The second word is 'flee, be silent, pray always (hesychaze), for these are the roots of sinlessness'. Arsenius is not named.",
+          "source": "Apophthegmata, Arsenius 1-2"
+        },
+        {
+          "claim": "Moses ... a renowned and far-famed robber",
+          "problem": "Accurate in substance to Historia Lausiaca 19, including his long struggle.",
+          "source": "Historia Lausiaca 19"
+        }
+      ],
+      "reader_note": "Pastorally apt. It contains a drafting fault: two consecutive lead-in sentences ('The closest our record comes ... is this.' followed directly by 'What we can tell you is this.')."
+    },
+    {
+      "item": 7,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "Looking at this turn's ground critically ... THIN GROUND notes ... The oral-to-written shift force",
+          "problem": "This answer is not in character. It exposes the project's internal scaffolding ('ground', 'force', 'THIN GROUND notes') and grades itself, which a reader cannot follow and should not see.",
+          "source": "n/a"
+        },
+        {
+          "claim": "A scholar examining this material would find no invented depth ... The survival rate would be high",
+          "problem": "This self-assessment is not borne out by the rest of the packet. See items 4 and 8 for misread or false claims.",
+          "source": "see items 4, 8"
+        },
+        {
+          "claim": "The letter to the emperors: the Vita attributes it to Antony, but its authenticity is contested.",
+          "problem": "Vague. VA 81 reports that Constantine and his sons wrote to Antony and summarizes his reply without quoting it. The real authenticity debate concerns the seven Letters of Antony (Rubenson) and Athanasius's authorship of the Vita (Barnard, Brakke). Those are the questions a scholar would actually raise.",
+          "source": "Vita Antonii 81; S. Rubenson, The Letters of St. Antony (1995)"
+        }
+      ],
+      "reader_note": "Unreadable for a lay reader: an internal checklist, not an answer."
+    },
+    {
+      "item": 8,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "whether we thought people outside the faith were sent to hell for not believing - no saying and no story of ours says so in those words.",
+          "problem": "False. In a famous saying, Macarius the Great speaks with the skull of a pagan priest, who says the pagans are in the fire, and that those who knew God and denied him lie below them. The saying addresses the eternal fate of outsiders directly.",
+          "source": "Apophthegmata, Macarius the Great 38"
+        },
+        {
+          "claim": "the faith of Christ alone is true religion ... adultery and the seduction of boys",
+          "problem": "Broadly accurate to Antony's debates with the philosophers.",
+          "source": "Vita Antonii 72-80"
+        },
+        {
+          "claim": "never held communion with them, from the beginning to his dying instruction",
+          "problem": "Correct for the Melitians in the Vita (VA 68, 89). However, 'they are named only to be refused' and 'that meant silence more than open conflict' overstate the case. Melitian monasteries are well documented in papyri, and Athanasius's polemic against them was anything but silent.",
+          "source": "Vita Antonii 68, 89; H.I. Bell, Jews and Christians in Egypt (1924), Melitian papyri"
+        }
+      ],
+      "reader_note": "Clear, but it rests on a false claim that no source exists."
+    },
+    {
+      "item": 9,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We did not write about scripture's own hard parts ... Nothing we kept says what we made of the passages that confused us",
+          "problem": "Overstated. Cassian's Conferences discuss obscure passages and the spiritual senses at length. Evagrius wrote scholia on Scripture. The Apophthegmata include Antony questioning the brethren on a hard verse, with Abba Joseph's 'I do not know' praised.",
+          "source": "Cassian, Conferences 8.3-4 and 14.8; Evagrius, Scholia on Proverbs and Ecclesiastes; Apophthegmata, Antony 17"
+        },
+        {
+          "claim": "We lived inside a small number of passages",
+          "problem": "Not true of the Pachomians, who required monks to memorize the Psalter and large parts of the New Testament.",
+          "source": "Pachomian Praecepta 139-140"
+        }
+      ],
+      "reader_note": "Readable and short. It repeats wording from item 6 almost verbatim."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "the soul in communion with the Spirit of his light becomes all light, all face, all eye ... rest, joy, delight",
+          "problem": "Misattributed. This is from the Pseudo-Macarian (Spiritual) Homilies, Homily 1.2. Since Dörries, scholars have placed these homilies in Syria or Mesopotamia, not Egypt, and they are not by Macarius of Egypt. Presenting them as 'our teaching' imports a different milieu into this world.",
+          "source": "Pseudo-Macarius, Fifty Spiritual Homilies 1.2; Columba Stewart, 'Working the Earth of the Heart' (1991)"
+        },
+        {
+          "claim": "That the war comes upon you is not your doing. But to hate it is your doing.",
+          "problem": "I cannot locate this exact saying and do not want to guess at it. The idea that thoughts arise unbidden but that consenting to them is our responsibility is standard in Evagrius (Praktikos 6) and in sayings such as Poemen's. A source should be supplied.",
+          "source": "Evagrius, Praktikos 6; uncertain"
+        },
+        {
+          "claim": "nepsis, our word for it",
+          "problem": "The word does appear in desert sayings, but it became a technical term mainly in later Sinaite and Philokalic writing. Logismoi and prosoche are the more characteristic Evagrian terms.",
+          "source": "Evagrius, Praktikos; Philokalia (Hesychius)"
+        }
+      ],
+      "reader_note": "Warm and appropriate, but the mystical passage is dense for a lay reader; it could be shorter."
+    }
+  ],
+  "overall_view": "Not yet. The narrative detail is often impressively exact: Paul the Simple, Antony's fort and his move to the inner mountain, Antony against the Arians and the philosophers, and Moses the robber all check out. The weakness is the project's favourite move, the confident claim that the sources are silent ('no saying says so', 'it is simply not there', 'we did not write about it'). In several cases that silence is false. Macarius and the pagan priest's skull speak directly to the fate of outsiders. The Anthropomorphite controversy and the Latopolis synod show doctrinal and authority disputes in action. Amoun is a married founder. And Philoromus's 'born again' is about his baptism. Material from outside this world also slips in (Pseudo-Macarius, a Galatian priest), and item 7 leaks internal scaffolding. The single biggest change: stop asserting that a source does not exist unless that has been checked against the full Apophthegmata, Palladius, the Pachomian dossier and Cassian, and when unsure say 'I cannot recall a saying on this' rather than 'none exists'."
+}

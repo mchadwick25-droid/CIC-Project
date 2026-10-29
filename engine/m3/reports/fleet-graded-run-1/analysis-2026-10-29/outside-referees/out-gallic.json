@@ -1,0 +1,260 @@
+{
+ "world": "Gallic monastic and ascetic Christianity (Martin of Tours, Lerins, Cassian, Salvian), c. 350-450",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "REJECT",
+   "doubted_claims": [
+    {
+     "claim": "No. We did not use those words... Born again as a phrase for it is not in our record.",
+     "problem": "The headline answer is false. Rebirth language (renasci, regeneratio, lavacrum regenerationis, from John 3:3-5 and Titus 3:5) was the standard Latin way to speak of baptism, and every Gallic writer of the period knew it. The answer is right that conversio usually meant turning to the monastic life, not changing religion. But the correct reply is 'yes, for baptism; not for monastic conversion', not 'no'.",
+     "source": "John 3:3-5 and Titus 3:5 in the Latin Bible; standard Latin baptismal usage (e.g. Cassian, De incarnatione; Augustine and Hilary of Poitiers passim)."
+    },
+    {
+     "claim": "Then at a donative before a battle, he told the emperor he was now a soldier of Christ and might not fight. He went and was baptized.",
+     "problem": "The order is wrong. In Sulpicius, Martin is baptized at about eighteen, soon after the cloak at Amiens and the dream that followed it (VM 3). He then stays in the army about two more years. The refusal at the donative near Worms comes after the baptism (VM 4). Also, Julian was Caesar at the time, not emperor (Augustus).",
+     "source": "Sulpicius Severus, Vita Martini 3.5-4.3."
+    },
+    {
+     "claim": "At ten, against his parents' wish, he went to the church and begged to be made a catechumen.",
+     "problem": "Correct (VM 2). Noted only to confirm it.",
+     "source": "Vita Martini 2.3."
+    }
+   ],
+   "reader_note": "Clear and the right length, but it gives a lay reader a false 'no' to the actual question."
+  },
+  {
+   "item": 2,
+   "verdict": "ACCEPT",
+   "doubted_claims": [
+    {
+     "claim": "Cassian's word for such a man was deserter.",
+     "problem": "Cassian does use military imagery for monks who give up, so this is plausible. I cannot confirm that a single fixed term for the expelled or lapsed monk is used in Institutes 4.6. It should be softened or given a reference.",
+     "source": "Cassian, Institutes 4.6 (old clothes kept by the steward; expulsion in one's own clothes). Unsure of the 'deserter' wording."
+    },
+    {
+     "claim": "a monk named Paphnutius ... the young man's cell",
+     "problem": "The story itself is accurate (Conference 18.15, told by Abba Piamun). However, Cassian presents Paphnutius as already a man of outstanding reputation, which is why he was envied. 'Young man' is loose.",
+     "source": "Cassian, Conferences 18.15."
+    },
+    {
+     "claim": "The churches had taken him after thirty-seven years as an anchorite.",
+     "problem": "Matches Conference 11.2 (Archebius of Panephysis) as I recall it. Acceptable.",
+     "source": "Cassian, Conferences 11.2."
+    }
+   ],
+   "reader_note": "Honest and well judged. The Brictio story (Dialogues 3.15) and the virgins' choir at Martin's funeral (Ep. 3) are accurate. It is slightly long, but a lay reader can follow it."
+  },
+  {
+   "item": 3,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "We were laughed at ... but never hunted.",
+     "problem": "This overstates the case. Under the Arian bishops Martin was publicly flogged in Illyricum and driven out of Milan by Auxentius. His patron Hilary of Poitiers was exiled. Persecution by Christians of other parties did happen. It was not pagan persecution and it did not mean hiding underground, but 'never hunted' is not true of Martin.",
+     "source": "Vita Martini 6.4-5."
+    },
+    {
+     "claim": "We lived above ground in wooden cells, caves beside the river",
+     "problem": "This is accurate, but it undercuts the answer's own rhetoric. Many monks at Marmoutier lived in cells cut into the rock of the cliff above the Loire, and a lay reader asking about 'underground' should hear that plainly. Also, 'on the island in its harbour' is confusing. Lerins is an island off Cannes, not connected to Tours.",
+     "source": "Vita Martini 10.4-5."
+    },
+    {
+     "claim": "in the times of Nero and Decius he would have gone gladly to the rack ... martyrdom without blood",
+     "problem": "Accurate paraphrase.",
+     "source": "Sulpicius Severus, Ep. 2.9-12."
+    },
+    {
+     "claim": "we are the span from Martin's discharge ... c. 360-450",
+     "problem": "Martin's discharge is usually dated 356 (or later on the long chronology). This is a minor inconsistency with the c. 350-450 frame.",
+     "source": "Standard chronology; see C. Stancliffe, St Martin and his Hagiographer (1983)."
+    }
+   ],
+   "reader_note": "Clear and the right length. Fix 'never hunted' and say openly that some monks lived in rock-cut caves."
+  },
+  {
+   "item": 4,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "At the third, sixth and ninth hours came prayer again ... (presented as the day Cassian set down from the houses of Egypt)",
+     "problem": "This is a real error. Cassian says explicitly that the Egyptians do not keep Terce, Sext and None as set offices. They pray continually in their cells while working. The day hours and their meanings (the Spirit at the third hour, the Sacrifice at the sixth, the descent into hell at the ninth) belong to the monasteries of Palestine and Mesopotamia, which Cassian sets beside Egypt's practice.",
+     "source": "Cassian, Institutes 3.1-3.3."
+    },
+    {
+     "claim": "At Tours we have the saint in his cell and the brethren around him, but no hours set down and no order of the day.",
+     "problem": "This is too strong. Vita Martini 10 gives real daily detail: no private property, no buying or selling, no craft except copying (done by the young), the elders given to prayer, a common meal after the fast hour, no wine, rough clothing. There is no horarium, but there is more than 'nothing'.",
+     "source": "Vita Martini 10.5-9."
+    },
+    {
+     "claim": "We lived in two places that never wrote to each other",
+     "problem": "The world contains three centres (Tours, Lerins, Marseilles). Cassian did write to Lerins: Conferences 11-17 are dedicated to Honoratus and Eucherius.",
+     "source": "Cassian, Conferences 11, Preface."
+    },
+    {
+     "claim": "he could not recall anyone who joined our monasteries in Gaul keeping it up unbroken even a year",
+     "problem": "This is used repeatedly across the answers. I cannot locate or confirm the exact wording and would want a precise reference before it is allowed to carry so much weight.",
+     "source": "Unsure; possibly Institutes 4 (compare 4.16-18) or the Preface."
+    },
+    {
+     "claim": "three lentils spilled earned suspension from prayer",
+     "problem": "Substantially correct.",
+     "source": "Institutes 4.20."
+    }
+   ],
+   "reader_note": "Vivid and readable, and the length is right. It needs the Egypt/Palestine hours distinction fixed."
+  },
+  {
+   "item": 5,
+   "verdict": "REJECT",
+   "doubted_claims": [
+    {
+     "claim": "No. We never said it. ... A teaching on guilt inherited at birth is not in what we hold.",
+     "problem": "False. Vincent of Lerins explicitly treats the denial of inherited Adamic guilt as Caelestius's heretical novelty: 'who before ... Caelestius denied that the whole human race is bound by the guilt of Adam's transgression?' Prosper's report to Augustine says the Massilians agreed that all sinned in Adam. Infant baptism for remission of sin was universal in Gaul. The Gallic monks disputed predestination and the beginning of faith, not original sin. Cassian himself wrote against Pelagianism in De incarnatione. The answer turns a dispute about grace into a denial of original guilt, which is precisely the Pelagian position these writers rejected.",
+     "source": "Vincent of Lerins, Commonitorium 24; Prosper, Ep. ad Augustinum (Aug. Ep. 225.3); Cassian, De incarnatione 1.3-5; R. Weaver, Divine Grace and Human Agency (1996)."
+    },
+    {
+     "claim": "Paul and Matthew, drawn ... Zaccheus and the thief, running ahead by their own wish ... the husbandman",
+     "problem": "Accurate. These examples come from Conference 13 (Chaeremon). The problem is the conclusion drawn from them, not the citation.",
+     "source": "Cassian, Conferences 13.3, 13.11."
+    }
+   ],
+   "reader_note": "Short and readable, but it would leave a lay reader with a seriously mistaken picture of the Gallic monks' theology."
+  },
+  {
+   "item": 6,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "We put an unbeliever at the door ten days",
+     "problem": "The candidate in Institutes 4.3 is a Christian seeking the monastic life, not an unbeliever. The answer's framing makes the novice's probation into a rite for doubters, which it was not.",
+     "source": "Cassian, Institutes 4.3-7."
+    },
+    {
+     "claim": "The one private word about Christ that we hold is Martin's: ... he would believe only in one who showed the wounds.",
+     "problem": "Out of context. In VM 24 the devil appears as Christ in purple and a diadem. Martin's refusal is discernment of a demonic deception, not doubt or struggle to believe. Placing it in an answer about struggling belief misleads.",
+     "source": "Vita Martini 24.4-8."
+    },
+    {
+     "claim": "Martin ... stayed one for years, into the army, until the night of the cloak.",
+     "problem": "Roughly right: baptism followed the cloak and the dream. But the dream was the night after the cloak, and he was baptized at about eighteen.",
+     "source": "Vita Martini 3."
+    },
+    {
+     "claim": "discretion, the royal road between excess and slackness",
+     "problem": "Accurate.",
+     "source": "Cassian, Conferences 2.2-4 (Antony/Moses)."
+    }
+   ],
+   "reader_note": "Too long and repetitive (it largely duplicates Items 4 and 9). A lay reader would follow it but could take away the wrong idea that doubters were the target of the door rite."
+  },
+  {
+   "item": 7,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "On the island ... the office came to its founder when he was made a presbyter",
+     "problem": "This is a serious omission. Lerins's defining link to authority is that it supplied bishops: Honoratus himself became bishop of Arles (c. 427), followed by Hilary of Arles, Eucherius of Lyon, Lupus of Troyes, and soon Faustus of Riez. An answer on leadership that stops at Honoratus's presbyterate leaves out the single most important fact.",
+     "source": "Hilary of Arles, Sermo de vita S. Honorati; R. Mathisen, Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul (1989)."
+    },
+    {
+     "claim": "The master's authority, once he was there, was real. A presbyter Martin had raised from boyhood stormed into the courtyard...",
+     "problem": "The illustration shows authority being challenged, not established. A better example would be Martin's earlier refusal of the diaconate from Hilary, when he accepted only the office of exorcist (VM 5).",
+     "source": "Vita Martini 5.2; Dialogues 3.15."
+    },
+    {
+     "claim": "vainglory creates a wish for holy orders",
+     "problem": "Accurate.",
+     "source": "Cassian, Institutes 11.14, 11.18 (flee women and bishops)."
+    },
+    {
+     "claim": "Sulpitius was not present at the election",
+     "problem": "Correct and well flagged (VM 9; Sulpicius met Martin c. 393).",
+     "source": "Vita Martini 9."
+    }
+   ],
+   "reader_note": "Readable, though the paragraphs are choppy. The right length if the Lerins-to-bishoprics point replaces the weak courtyard example."
+  },
+  {
+   "item": 8,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "Not one of us wrote down what was said and done when the reports went out or when the answer came back.",
+     "problem": "Doubtful. Prosper of Aquitaine and the layman Hilary, both living in Provence, wrote the reports to Augustine (Aug. Epp. 225-226). Augustine replied with De praedestinatione sanctorum and De dono perseverantiae. Prosper went to Rome, and Celestine's letter to the Gallic bishops (431) survives. Prosper's Contra Collatorem answers Conference 13 directly. These are hostile witnesses, but they are from within the region. The silence is in the monks' own texts, not in the record.",
+     "source": "Augustine, Epp. 225-226; Celestine, Ep. 21; Prosper, Contra Collatorem; Vincent, Commonitorium 32-33."
+    },
+    {
+     "claim": "the ground on which a Pope's letter, a monk's fast, and a bishop's refusal of a tomb were all judged",
+     "problem": "I cannot identify the 'monk's fast' or the 'bishop's refusal of a tomb' as examples in the Commonitorium. The papal letter is clearly Stephen's against rebaptism (Comm. 6). Unsure; it may be invention or misattribution.",
+     "source": "Vincent, Commonitorium 6; otherwise unverified."
+    },
+    {
+     "claim": "He yielded once under threat to save lives, felt his power lessen, and never sat with bishops in council again.",
+     "problem": "Accurate (communion with the Ithacians; sixteen years without attending a synod).",
+     "source": "Sulpicius, Dialogues 3.11-13; Chronica 2.50."
+    },
+    {
+     "claim": "Vincent's test, never consistently applied even by him",
+     "problem": "This is an evaluative judgement presented as fact. It is defensible if it refers to Vincent's veiled anti-Augustinian use of the canon, but it should say so.",
+     "source": "Commonitorium 26, 32-33; the authorship of the Objectiones Vincentianae is contested."
+    }
+   ],
+   "reader_note": "The structure is good and the length is right. A lay reader would understand it, but would wrongly take away that no record of the grace dispute exists."
+  },
+  {
+   "item": 9,
+   "verdict": "ACCEPT",
+   "doubted_claims": [
+    {
+     "claim": "taught the alphabet, as it were, of perfection",
+     "problem": "I am unsure of this exact phrase. The substance (the first lesson is to conquer one's own will) is Institutes 4.8.",
+     "source": "Cassian, Institutes 4.8."
+    },
+    {
+     "claim": "We cannot give you one map that holds for both our places",
+     "problem": "There are three centres. Lerins, where Honoratus received a crowd of followers (Hilary, Sermo), is left out without comment.",
+     "source": "Hilary of Arles, Sermo de vita S. Honorati 17."
+    },
+    {
+     "claim": "Martin had eighty disciples",
+     "problem": "Correct.",
+     "source": "Vita Martini 10.5."
+    }
+   ],
+   "reader_note": "Clear and well bounded, at the right length. It repeats material from Item 6."
+  },
+  {
+   "item": 10,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "Salvian in his own final witness has no obvious tie to any monastic house.",
+     "problem": "False. Salvian was at Lerins, where he taught Eucherius's sons Salonius and Veranus and is named in Hilary's sermon on Honoratus. He later became a presbyter at Marseilles (Gennadius).",
+     "source": "Hilary of Arles, Sermo de vita Honorati; Eucherius, Instructiones (preface to Salonius); Gennadius, De viris illustribus 68."
+    },
+    {
+     "claim": "The Massilian label as a hostile coinage would stand.",
+     "problem": "Loose. The 'Massilians' come from Prosper's and Hilary's reports. The pejorative label is the early-modern 'semi-Pelagian'. 'Massilian' is mostly a modern scholarly convenience.",
+     "source": "I. Backus and A. Goudriaan, 'Semipelagianism' (JEH 2014); Weaver 1996."
+    },
+    {
+     "claim": "A scholar could check every claim we tag against its Latin source. Where we say 'Cassian wrote' or 'Vincent held,' the words are there.",
+     "problem": "Overconfident. Items 1, 4 and 5 in this very packet attribute positions or sequences that the sources contradict (baptism order, Egyptian hours, original sin)."
+    },
+    {
+     "claim": "Cassian and Sulpitius directly oppose each other",
+     "problem": "This is a modern scholarly reading (Cassian's implicit critique of miracle-centred holiness in Conf. 15 against Sulpicius's Dialogues). It is plausible but contested, and it is stated as settled.",
+     "source": "C. Stancliffe, St Martin and his Hagiographer (1983); P. Rousseau, Ascetics, Authority and the Church (1978)."
+    },
+    {
+     "claim": "Salvian saw the unburied dead and reports that the survivors asked for games",
+     "problem": "Accurate.",
+     "source": "Salvian, De gubernatione Dei 6.82-89."
+    }
+   ],
+   "reader_note": "Thoughtful, but long, and it breaks character with references to 'tags' and a 'translator's note'. Its self-assurance is not borne out by the packet."
+  }
+ ],
+ "overall_view": "I would put my name to perhaps two-thirds of this as it stands. The source handling is often impressively close: Brictio, Archebius, Paphnutius, Trier, the virgins' choir, Vincent's canon, and Institutes 4 are all reported accurately, and the habit of naming silences is admirable. I could not sign Items 1 and 5. Each turns the record's silence, or a narrow reading of it, into a confident 'No, we never said that' about things these communities certainly held: baptismal rebirth language and Adamic guilt, the second explicitly affirmed by Vincent of Lerins against Caelestius. The single biggest change is to stop treating 'not in the texts I have been given' as 'not held by the community'. Where the period's common Latin Christianity is at stake, the representative should state the common belief and then mark where its own houses differed, here on the beginning of faith and on predestination rather than on original sin. Secondary fixes: Cassian's Egyptian day has no Terce, Sext or None; Martin was baptized before Worms; Salvian was a Lerins man; and Lerins's role as a nursery of bishops is missing from the answer on authority."
+}

@@ -1,0 +1,201 @@
+{
+  "world": "Latin North African church, c. 200-430 (Cyprian to Augustine), pastoral-congregational tradition",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "No text a woman wrote herself survives from us. One martyr account gives a woman's vision in her own first person: Quartillosia",
+          "problem": "False for this world's own window and city. The Passion of Perpetua and Felicity (Carthage, 203) contains Perpetua's prison narrative, which nearly all scholars treat as her own first-person writing (chs. 3-10). It is the best-known woman's text from early Latin Christianity. Quartillosia's vision (Passion of Montanus and Lucius, ch. 8, c. 259) is real but is not the 'one' instance.",
+          "source": "Passio Perpetuae 2.3 ('sicut conscriptum manu sua et suo sensu reliquit'); standard discussion in Heffernan, The Passion of Perpetua and Felicity (2012)."
+        },
+        {
+          "claim": "We were held by one office, the office of bishop",
+          "problem": "Misleading. Cyprian's church had a graded clergy of presbyters, deacons, subdeacons, acolytes, lectors and exorcists, and Augustine's did too. Presbyters and deacons figure constantly in Cyprian's letters, and the Felicissimus affair turned on them. The 'one episcopate' idea (De unitate 5) is about the episcopate held in common by all bishops. It does not mean there was only one office.",
+          "source": "Cyprian, Epp. 29, 34, 43; De unitate 5."
+        },
+        {
+          "claim": "The people could stand in front of a bishop's own seat and refuse to leave until he heard them.",
+          "problem": "No source is given. It probably refers to the Hippo congregation demanding that Pinianus be ordained (411), which Augustine reports in Epp. 125-126. As written it reads like a general right, when it was an episode Augustine treated as coercive and regretted.",
+          "source": "Augustine, Epp. 125-126."
+        },
+        {
+          "claim": "Celerinus ... asked Lucian to help his own sister, and two other women, Numeria and Candida.",
+          "problem": "Probably a conflation. In Ep. 21 the women for whom Celerinus begs peace are Numeria and Candida, whom he calls 'our sisters'. I do not recall a third woman who is his own sister in addition to them. Lucian's reply (Ep. 22) grants peace on condition that each case is set before the bishop after persecution ends, which is correct. Check this against the text.",
+          "source": "Cyprian, Epp. 21-22."
+        },
+        {
+          "claim": "Augustine once told the people who came to hear him: 'But now I imagine that no one has come here except those who want to hear...'",
+          "problem": "Plausible as Augustinian sermon language, but I cannot identify the sermon. Cite it or drop it.",
+          "source": "Unverified."
+        }
+      ],
+      "reader_note": "Mostly readable, but it is too long and wanders from authority into preaching, catechesis and sources. Cut it by about half. Several accurate points are well made: the election (Pontius, Vita 5; Ep. 59.6), the Sententiae of 256, De baptismo 2.3.4, and Ep. 62's 100,000 sesterces sent to eight bishops."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Augustine went on to the hard end of this. ... It is the old death's contagion, passed to him at birth.",
+          "problem": "The phrase 'contagion of the ancient death' ('contagium mortis antiquae prima nativitate contraxit') is Cyprian's, from the letter to Fidus (Ep. 64.5). Augustine quoted it repeatedly, but it is not his. More seriously, the answer softens Augustine's 'hard end'. He held that infants carry the real guilt (reatus) of original sin and that unbaptized infants are condemned, though with the mildest penalty. To the question asked, the honest answer for Augustine is yes, and the text should say so and note that this went beyond Cyprian.",
+          "source": "Cyprian, Ep. 64.2-5; Augustine, De peccatorum meritis 1.16.21, Enchiridion 93, C. Iulianum."
+        }
+      ],
+      "reader_note": "Clear and the right length, but too clipped. A lay reader will not learn what Augustine actually concluded."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "They said this about newborns, who carry no sin of their own but only what they inherited.",
+          "problem": "Incoherent in context. 'They' has no referent, and the line has no logical link to the 'road' of mercy. It looks like a fragment carried over from item 2.",
+          "source": "Internal."
+        },
+        {
+          "claim": "And God judges. He did not flinch from what was coming. He had taught his people that God would hold them to account...",
+          "problem": "'He' shifts from God to an unnamed bishop, presumably Cyprian at his martyrdom in 258, without saying so. The reader cannot follow it.",
+          "source": "Internal."
+        },
+        {
+          "claim": "(omission) the character of God",
+          "problem": "This is not false, but a specialist would note that the Trinity is missing. The Trinity is the defining theme of this tradition's teaching on God (Augustine, De Trinitate; Cyprian's Trinitarian baptismal argument). The Paul's-thorn teaching ('heard for salvation, not for his wish') and the Sermo 128.4 quotation are accurate.",
+          "source": "Augustine, Sermo 128.4; Tract. in Ioh. 73.3; Ep. 130."
+        }
+      ],
+      "reader_note": "The quotations are good. The joins are broken and the pronouns are unclear. The length is right."
+    },
+    {
+      "item": 4,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "He told them their longing expectation was itself a prayer for him. That restlessness was not something we judged out of existence.",
+          "problem": "This quotation is taken out of context. In the sermon quoted under item 1, the 'longing expectation' is the congregation's eagerness to hear the sermon, not a struggle to believe. Reusing it here as evidence that doubt was accepted misrepresents it. The answer also confuses Augustine's book 8 problem, which was being bound by habit while already certain (Conf. 8.1.1, 8.5.11), with difficulty in believing. His actual period of intellectual doubt (Academic scepticism, Conf. 5.10.19 and 5.14.25) would fit the question better.",
+          "source": "Augustine, Confessions 5.10.19, 8.1.1, 8.5.11."
+        }
+      ],
+      "reader_note": "It is short, and 'years later' is repeated awkwardly. It also misses the obvious institutional answer: the long catechumenate was itself the space where people who were not yet ready to believe could stay."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Twice in our earliest years a rival bishop appeared in the same city ... In Carthage, a deacon named Felicissimus gathered a faction",
+          "problem": "Felicissimus was a deacon and never a rival bishop. The rival bishop at Carthage was Fortunatus, set up in 252 by the laxist party, and the Novatianists set up Maximus there. Novatian's rival election was at Rome against Cornelius, not 'in the same city' as our bishop. The 250s are also not 'our earliest years', since the Carthaginian church is attested from the 180s.",
+          "source": "Cyprian, Epp. 41-43, 52, 59.9-11."
+        },
+        {
+          "claim": "(omission) failures of the community",
+          "problem": "For a world that runs to 430, leaving out the Donatist schism is a serious gap. That schism divided the African church for a century and was its largest failure.",
+          "source": "Augustine, anti-Donatist works; Frend, The Donatist Church."
+        },
+        {
+          "claim": "Augustine argued at book length that the ruling made that day was wrong. He never once put Cyprian outside our communion.",
+          "problem": "This is accurate (De baptismo, books 2-7, c. 400), and it is the best point in the answer.",
+          "source": "Augustine, De baptismo 2.3.4, 2.4.5."
+        }
+      ],
+      "reader_note": "Readable, though the second and fourth paragraphs are abstract. The length is acceptable."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "What we cannot tell you is how the wedding itself was performed ... the record does not say.",
+          "problem": "Too modest. Augustine refers repeatedly to the tabulae matrimoniales (marriage tablets), which were read aloud and signed, with the bishop sometimes signing as witness. Possidius reports that Augustine, following Ambrose, refused to arrange marriages. Tertullian (Ad uxorem 2.8.6) speaks of a marriage the church arranges, the offering confirms and the blessing seals, though he falls at the edge of this world's chosen sources. The rite is thinly documented, not absent.",
+          "source": "Augustine, Sermones 9.18, 51.22, 332.4; Possidius, Vita Augustini 27; Tertullian, Ad uxorem 2.8.6."
+        },
+        {
+          "claim": "Cyprian wrote a whole treatise on almsgiving ... said to married believers of means",
+          "problem": "De opere et eleemosynis is real and is addressed to the wealthy, but it is not about marriage. It is a weak bridge. Cyprian's De habitu virginum or Augustine's De bono viduitatis would be more relevant. The threefold good (proles, fides, sacramentum) and the De bono coniugali 7.7 passage are given accurately.",
+          "source": "Augustine, De bono coniugali 7.7, 24.32."
+        }
+      ],
+      "reader_note": "Clear and the right length. The last paragraph is off-topic."
+    },
+    {
+      "item": 7,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "Augustine wrote to the people of Fussala about a basilica there. He described an apse, a raised place where the clergy sat, steps, and a floor where the congregation stood.",
+          "problem": "I know of no letter from Augustine to the people of Fussala containing this description. The Fussala affair is in Ep. 209 (to Celestine) and Ep. 20* (Divjak, to Fabiola), and neither, as far as I know, describes the building. Apse and step language does appear elsewhere in Augustine, for example 'absida gradata' in Ep. 23.3. This looks like a misattribution or an invention. I am not certain, so it needs checking.",
+          "source": "Augustine, Ep. 209; Ep. 20* (Divjak); Ep. 23.3."
+        },
+        {
+          "claim": "what survives as evidence is document-borne ... not recovered from stone.",
+          "problem": "False. Christian North Africa is one of the richest archaeological regions of late antiquity. Examples are the excavated Christian quarter at Hippo with its basilica and baptistery (Marec), the Carthage basilicas (Damous el-Karita, Basilica Maiorum), Tipasa and Djemila, many baptisteries, and thousands of mosaic tomb inscriptions. 'Not weighed in this build' is project meta-talk, not a historical statement, and it presents a gap in the project's own reading as a gap in the evidence.",
+          "source": "E. Marec, Monuments chrétiens d'Hippone (1958); N. Duval, Les églises africaines à deux absides; Y. Duval, Loca sanctorum Africae."
+        }
+      ],
+      "reader_note": "Short, but evasive. A lay reader would come away wrongly believing that nothing physical survives."
+    },
+    {
+      "item": 8,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "Every sentence that makes a specific claim carries the record it draws on, inline ... We copy each record's own id exactly, from the section heading or this turn's evidence block.",
+          "problem": "This is leaked system instruction, not the community's voice. It breaks character completely and makes no sense to a reader.",
+          "source": "Internal."
+        },
+        {
+          "claim": "We hold ourselves to a standard most scholarship does not reach",
+          "problem": "Self-congratulation that no referee would accept. The answer's own errors (items 1, 7 and 9) contradict it.",
+          "source": "n/a"
+        },
+        {
+          "claim": "Not the Scillitan martyrs ... Not the Donatist sources that fill the century we go silent in.",
+          "problem": "This admits a gap of roughly 260-390 inside a window said to run to 430. That is an honest admission, but it shows the 'Cyprian to Augustine' world is really two bishops with a gap between them. Tertullian 'forged the Latin we argue in' is a common overstatement.",
+          "source": "General scholarship."
+        }
+      ],
+      "reader_note": "A lay reader would be confused by the talk of record ids and evidence blocks. It needs a full rewrite in voice."
+    },
+    {
+      "item": 9,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "We would not use those exact words to name what happened, no. That is not the way our own record speaks of it.",
+          "problem": "Factually wrong. Rebirth language is central to this tradition. Cyprian describes his baptism as a 'second birth' (Ad Donatum 3-4, 'secunda nativitas', 'renasci'). The whole rebaptism controversy turns on John 3:5, 'nisi quis renatus fuerit ex aqua et Spiritu' (Epp. 69-74; Sententiae episcoporum). Augustine contrasts generatio and regeneratio constantly and calls baptism 'lavacrum regenerationis' (Titus 3:5). The correct answer is yes, though tied to baptism and not to a later conversion experience.",
+          "source": "Cyprian, Ad Donatum 3-4, Ep. 72.1, Ep. 74.5; Augustine, De peccatorum meritis 1.15.20 and passim."
+        },
+        {
+          "claim": "Augustine told those preparing for baptism to take the creed as a mirror",
+          "problem": "Accurate (Sermo 58.13). The garden voice and the weeping in the hymns at baptism are also accurate (Conf. 8.12.29, 9.6.14).",
+          "source": "Augustine, Sermo 58.13; Confessions 8.12.29, 9.6.14."
+        }
+      ],
+      "reader_note": "Readable and the right length, but the main answer is wrong."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "the whole congregation knew which people did and which did not.",
+          "problem": "Overstated. The libellatici (those who held a certificate without sacrificing) could often keep it quiet, and Cyprian treats their case as different from, and more lenient than, that of the sacrificati.",
+          "source": "Cyprian, Ep. 55.13-14; De lapsis 27."
+        },
+        {
+          "claim": "His own sister had sacrificed, and he grieved for her as for a death",
+          "problem": "This repeats the item 1 doubt. In Ep. 21 the lapsed women are Numeria and Candida, 'our sisters'. Confirm that a blood sister is meant before stating it.",
+          "source": "Cyprian, Ep. 21."
+        },
+        {
+          "claim": "(scope) what people gave up to belong",
+          "problem": "The answer narrows the question to the Decian crisis, which is about what lapsing cost rather than what belonging cost. It leaves out the ordinary costs: renouncing the devil and his pomps at baptism, avoiding the games, theatre and certain trades, giving alms, and for some, continence or virginity. 'The demand reached each person alone' is acceptable, and the treatment of the libelli in De lapsis is broadly right.",
+          "source": "Cyprian, De lapsis 27-28, De habitu virginum; Augustine, Sermones on renuntiatio."
+        }
+      ],
+      "reader_note": "Vivid and readable at a good length, but it answers a narrower question than the one asked."
+    }
+  ],
+  "overall_view": "I would not put my name to this set as it stands. The strongest material is accurate and well chosen: the Cyprianic election, the Sententiae of 256, Augustine's De baptismo treatment of Cyprian, Ep. 62, De bono coniugali 7.7, Sermo 58.13 and Sermo 128.4. But three answers contain errors a specialist could not let pass. They are the denial that any woman's own writing survives (Perpetua, Carthage 203), the denial that the tradition spoke of being 'born again' (Cyprian's 'secunda nativitas' and John 3:5 at the heart of the rebaptism debate), and the claim that the evidence is document-borne rather than from stone, in one of the richest Christian archaeological regions of late antiquity. Item 8 also leaks system instructions. The pattern is consistent: the project treats the limits of its own reading list as the limits of the historical record, and says so in the community's voice. The single biggest change is to stop turning 'not in our build' into 'not in the record'. Where the project's sources are silent, the representative should say that this is the project's limit, not claim that the evidence does not exist."
+}

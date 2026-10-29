@@ -1,0 +1,211 @@
+{
+  "world": "the Hieronymian ascetic-literary circle (Jerome, Paula, Blaesilla, Fabiola, Marcella), c. 370-420",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "She married again while her first husband lived - against what we teach - and all Rome knew it. She was received.",
+          "problem": "This leaves out the step that matters most in Jerome's account. Fabiola was readmitted only after her second husband died and after she did public penance in sackcloth before the bishop and clergy at the Lateran basilica before Easter. 'She was received' makes it sound like a quiet welcome. Jerome's point is that she was welcomed back through penance. Jerome also says she did not know the gospel rule when she remarried.",
+          "source": "Jerome, Ep. 77.3-5 (to Oceanus, on the death of Fabiola)"
+        },
+        {
+          "claim": "We will not answer you with an argument ... We have no argument to give you.",
+          "problem": "This disclaimer sounds modern. Jerome's circle was argumentative and polemical. They would answer unbelief with scripture and exhortation, not by stepping back from argument. The two stories are accurate, but this framing does not fit the voice of the period.",
+          "source": "General character of Jerome's letters and polemics (e.g. Adv. Iovinianum, Adv. Helvidium)"
+        },
+        {
+          "claim": "In a dream he stood before the Judge ... follower of Cicero and not of Christ ... he swore off the old books",
+          "problem": "This part is accurate: 'Ciceronianus es, non Christianus; ubi thesaurus tuus, ibi et cor tuum.' Rufinus did later use the dream against Jerome. Calling the enemies' criticism 'fair' is an editorial judgment, but a defensible one. Not an error.",
+          "source": "Jerome, Ep. 22.30; Rufinus, Apologia contra Hieronymum 2.6-8"
+        }
+      ],
+      "reader_note": "Moving and easy to follow, and a good length. Fixing the Fabiola sentence needs only one clause about public penance."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "The Bethlehem daily schedule, the three companies of women meeting to pray, the hours and psalms - all of that is modern reconstruction from one letter plus analogy ..., never a documented timetable.",
+          "problem": "This is wrong as stated. Jerome's epitaph for Paula says directly that the women were divided into three companies by social rank. It says they worked apart and met to sing psalms at dawn, at the third, sixth and ninth hours, at evening and at midnight, and that they came together on Sunday. The schedule is documented, but by one interested source. It is not a modern reconstruction. The honest wording is 'attested only by Jerome's Ep. 108'.",
+          "source": "Jerome, Ep. 108.20"
+        },
+        {
+          "claim": "The women's own words - gone, every one.",
+          "problem": "Ep. 46, written in the names of Paula and Eustochium to Marcella, survives. Its authorship is debated, and item 4 says so correctly. This item should qualify the claim in the same way.",
+          "source": "Jerome, Ep. 46"
+        },
+        {
+          "claim": "Jerome arrived in Rome ... left after Damasus died and Blaesilla's funeral turned ugly ... The 416 attack happened.",
+          "problem": "This is accurate: Rome 382; Damasus died December 384; Blaesilla died 384; Jerome left August 385; Pelagian partisans attacked the Bethlehem monasteries in 416. The only quibble is that Paula is also attested independently by Palladius, which strengthens the 'frame is solid' point.",
+          "source": "Jerome, Ep. 45; Ep. 39; Augustine, De gestis Pelagii 66; Palladius, Historia Lausiaca 36, 41"
+        }
+      ],
+      "reader_note": "Clear and appropriately candid, if a little long. The bracketing of genre (epitaph, memorial) is exactly the right instinct."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We did not claim an unbroken line from the apostles for that.",
+          "problem": "This overstates the case. Jerome followed Eusebius in claiming that the ascetic community Philo described (the Therapeutae) was the apostolic church of Alexandria under Mark, and that it lived as 'our monks' do. He also built a monastic genealogy through Paul of Thebes and Antony. So the circle did make an argument from historical precedent going back to the apostolic age, not only from scripture.",
+          "source": "Jerome, De viris illustribus 8 and 11; Eusebius, HE 2.17; Jerome, Vita Pauli"
+        },
+        {
+          "claim": "\"I praise wedlock, I praise marriage -- but it is because they give me virgins. I gather the rose from the thorns...\"",
+          "problem": "The quotation is accurate. The context is muddled, though. It comes from the letter to Eustochium in 384, not from the later exchange with friends. The real pushback from friends was over Adversus Iovinianum in 393, when Pammachius tried to withdraw copies and Jerome defended himself in Ep. 48-49. The two moments should not be blurred together.",
+          "source": "Jerome, Ep. 22.20; Ep. 48-49"
+        },
+        {
+          "claim": "People could remember when no highborn lady in Rome dared call herself a nun.",
+          "problem": "Correct.",
+          "source": "Jerome, Ep. 127.5"
+        }
+      ],
+      "reader_note": "Readable and well judged on the novelty of asceticism. A good length."
+    },
+    {
+      "item": 4,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "She took up the ascetic life - virginitas, lifelong virginity given to God",
+          "problem": "This is a factual error. Blaesilla was a young widow. She had been married, and her husband died after about seven months. She took up the ascetic life of a widow after a serious illness, not a vow of virginity. Paula's daughter Eustochium was the circle's consecrated virgin. Confusing the two is exactly the kind of error a specialist would catch at once.",
+          "source": "Jerome, Ep. 38.2-5; Ep. 39.1"
+        },
+        {
+          "claim": "voices in the crowd said fasting had killed her and asked why the detestable monks were not driven out of Rome, or stoned, or thrown into the Tiber. Her mother was carried out fainting.",
+          "problem": "Accurate ('genus detestabile monachorum ... lapidibus obruitur ... praecipitatur in fluctus').",
+          "source": "Jerome, Ep. 39.6"
+        },
+        {
+          "claim": "a report of an attack that reached a pope",
+          "problem": "Broadly right: after the 416 attack, Innocent I wrote to Jerome and rebuked John of Jerusalem, and he named Eustochium and the younger Paula as the injured parties. Whether the women themselves wrote the report that reached him is not certain. The wording should be softened.",
+          "source": "Jerome, Ep. 136-137 (Innocent I)"
+        }
+      ],
+      "reader_note": "Thoughtful and the right length, and the silence about enslaved people is handled honestly. It still cannot stand while Blaesilla is called a virgin."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "a dispute we joined late ... The fight reached us near its beginning",
+          "problem": "These two statements contradict each other. Jerome entered the Pelagian controversy in 414-415, with Ep. 133 to Ctesiphon and the Dialogus adversus Pelagianos, a few years after it broke out around 411-412. That is fairly early, not late. Pick one.",
+          "source": "Jerome, Ep. 133; Dialogus adversus Pelagianos (415)"
+        },
+        {
+          "claim": "God's grace is needed not once but in every act",
+          "problem": "Accurate to the Dialogus. It would also be fair to mention that Jerome left open how the soul originates. In Ep. 126 he referred Marcellinus to Augustine, and that is the honest reason the 'machinery' stayed unsettled.",
+          "source": "Jerome, Dialogus adv. Pelagianos 1.2-5, 3.17-19; Ep. 126.1"
+        }
+      ],
+      "reader_note": "Concise and appropriately modest. The length is right."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Authority among us came from known learning in scripture and from free patronage, never from church office.",
+          "problem": "This overstates the case. Jerome was an ordained presbyter, ordained by Paulinus at Antioch. At Bethlehem, priestly office mattered enough that his brother Paulinian's ordination by Epiphanius in 394 set off a serious quarrel with John of Jerusalem. Learning and patronage were dominant, but 'never' is false.",
+          "source": "Jerome, Ep. 51 (Epiphanius to John, Latin trans. by Jerome); Contra Ioannem Hierosolymitanum 41"
+        },
+        {
+          "claim": "propositum, real period wording, though it is not quoted for these women",
+          "problem": "'Real period wording' reads like a note from the build process that leaked into the answer. The factual claim is also doubtful. Jerome uses 'propositum' often for the ascetic resolve of his own correspondents, including Eustochium and the circle's widows.",
+          "source": "e.g. Jerome, Ep. 22; Ep. 108; Ep. 130"
+        },
+        {
+          "claim": "we cannot give you the steps, because no document gives them to us",
+          "problem": "Mostly fair. Ep. 108.20 does give some entry conditions, though: women grouped by rank, noble women not allowed to bring their own maids, uniform dress. A specialist would expect those to be mentioned. The reference to a 'catechumenate' confuses baptismal preparation with ascetic profession.",
+          "source": "Jerome, Ep. 108.20"
+        }
+      ],
+      "reader_note": "Understandable but slightly repetitive. Strip the leaked meta phrase and the 'catechumenate' confusion."
+    },
+    {
+      "item": 7,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Our teacher told a virgin to read constantly, and never to let the book fall from her hand or sleep creep over her face.",
+          "problem": "This garbles the image. Jerome tells Eustochium to let sleep steal over her while she holds the book, and to let the sacred page catch her face as it drops ('tenenti codicem somnus obrepat, et cadentem faciem pagina sancta suscipiat'). He wants reading to last until sleep comes, not a ban on sleep. The phrase 'never let the book leave your hand' comes from other letters (to Rusticus, to Laeta).",
+          "source": "Jerome, Ep. 22.17; cf. Ep. 125.11, Ep. 107.9"
+        },
+        {
+          "claim": "\"This preface can serve as a 'helmeted' introduction ... must be placed among the Apocryphal writings.\"",
+          "problem": "This is an accurate rendering of the Prologus Galeatus. One small point: 'the Old Testament was translated from the Hebrew' should allow for the fact that Tobit and Judith were done from Aramaic, and that the Gallican Psalter, revised from the Greek, is what later stood in the Vulgate.",
+          "source": "Jerome, Prologus in libro Regum (Prologus Galeatus)"
+        }
+      ],
+      "reader_note": "Well pitched for lay readers, and the length is right. Fix the Ep. 22 paraphrase."
+    },
+    {
+      "item": 8,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Marcella, another widow, did the same in Rome",
+          "problem": "This overstates the parallel. Jerome says that Marcella let her mother's property go to her brother's children rather than to the poor, and that she lived austerely in her own house. She did not give away everything in the way Paula did.",
+          "source": "Jerome, Ep. 127.4-5"
+        },
+        {
+          "claim": "to live in a cave-town in Palestine",
+          "problem": "This is loose. Bethlehem was a village around the cave of the Nativity, not a 'cave-town'. 'Village of the Nativity cave' would be accurate.",
+          "source": "Jerome, Ep. 108.10, 14; Ep. 46.12"
+        },
+        {
+          "claim": "She left her children standing on the shore ... the hospital Fabiola founded in Rome ... hostel for travelers at Bethlehem",
+          "problem": "Accurate.",
+          "source": "Jerome, Ep. 108.6, 108.14; Ep. 77.6; Ep. 66.14"
+        }
+      ],
+      "reader_note": "Clear and the right length. The distinction between givers and beneficiaries is a good one."
+    },
+    {
+      "item": 9,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "That arrangement stood on patronage and recognition, not church office ... Authority among us never came from ... episcopal office.",
+          "problem": "It is fair to say there was no episcopal office. Presbyteral office did matter, though. Jerome and Vincentius were priests, and the circle went to great lengths, through Paulinian's ordination, to keep a priest of its own for the monastery against John of Jerusalem. That point is missing.",
+          "source": "Jerome, Contra Ioannem 41-42; Ep. 51; Ep. 82"
+        },
+        {
+          "claim": "The claim is contested.",
+          "problem": "Scholars do not really contest it. The point is that it rests on a single, interested source, and the answer says that well elsewhere. Also, 'argued Jerome's own answers for years before he left Rome': Jerome was in Rome only about three years (382-385), so 'for years' is a stretch.",
+          "source": "Jerome, Ep. 127.7"
+        }
+      ],
+      "reader_note": "Readable, and appropriately careful about Marcella. A good length."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "A daughter died young after taking up the ascetic life, and at her funeral the crowd said fasting had killed her. We rebuked grief without limits as unbelief. That is justice as we held it.",
+          "problem": "This does not follow. Ep. 39 does not present Blaesilla's death as divine justice. It is a consolation letter that counts her death as a mercy, since she died after her conversion. Offering it as an example of God's severe justice misrepresents the letter.",
+          "source": "Jerome, Ep. 39.1-3"
+        },
+        {
+          "claim": "Rome fell in our own lifetime ... the head of the empire cut off, the light of all the world put out, judgment spoken in the prophets' words.",
+          "problem": "The images are accurate. Jerome's laments mostly quote Psalm 79 and Isaiah 15, and in other letters he ties the disaster to sin. Calling it simply 'judgment' is defensible, but Jerome's own reaction was mostly stunned grief.",
+          "source": "Jerome, Comm. in Ezech., praef. 1; Ep. 127.12; Ep. 123.15-17"
+        },
+        {
+          "claim": "one God in three persons ... the faith we were born into after the great council",
+          "problem": "This is acceptable. It could note that Jerome was wary of the Greek formula 'three hypostases' (Ep. 15-16 to Damasus), and that 'the great council' should be named as Nicaea, 325.",
+          "source": "Jerome, Ep. 15.3-4"
+        }
+      ],
+      "reader_note": "Accessible, though the last two paragraphs repeat themselves. Trim them and fix the Blaesilla-as-justice step."
+    }
+  ],
+  "overall_view": "I would put my name to most of these answers after correction. The circle's key texts (Ep. 22, 39, 77, 108, 127, the Prologus Galeatus) are used accurately, the quotations are real, and the answers are commendably frank about how much depends on Jerome alone. I would not sign them as they stand. The biggest thing to change is precision of detail on the women themselves. Calling Blaesilla a vowed virgin is the clearest error. There is also a pattern of small slips: Marcella said to have 'done the same' as Paula, Ep. 22's reading image reversed, Ep. 108's documented schedule called 'modern reconstruction'. Together these undercut the project's own claim to cite what can be cited. A second, related fix: drop the repeated 'never from church office', because Jerome's priesthood and the Paulinian ordination quarrel were central to Bethlehem's life. Remove the leaked build-note phrasing ('real period wording') as well."
+}

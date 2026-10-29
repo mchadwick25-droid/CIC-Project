@@ -1,0 +1,201 @@
+{
+  "world": "Alexandrian catechetical Christianity (Clement, Origen), c. 150-260",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Our teacher Origen, writing on John's gospel, spoke of being born again from above through water and Spirit.",
+          "problem": "Origen's Commentary on John survives only in books 1, 2, 6, 10, 13, 19, 20, 28 and 32. Book 13 begins at John 4, so his exegesis of John 3:3-5 is lost. Origen does speak of rebirth and regeneration elsewhere (for example, the homilies on Luke and on Joshua, and Comm. Matt.). However, this specific attribution to the John commentary cannot be checked and is probably a misattribution.",
+          "source": "Origen, Commentarii in Iohannem (SC / Heine, FC 80, 89), surviving-books list; R. Heine, Origen: Scholarship in the Service of the Church (2010)"
+        },
+        {
+          "claim": "the Paschal night, when the catechumens crossed from the long preparation into baptism ... we called it illumination - photismos",
+          "problem": "Calling baptism 'illumination' is well attested in Alexandria (Clement, Paed. 1.6.26: 'being baptized, we are illuminated'; Clement uses 'photisma'). Paschal-night baptism, however, is attested for Carthage (Tertullian, De bapt. 19) and later for Rome, not for 2nd-3rd century Alexandria. T. Talley and others have argued that Alexandria baptized at a different season, possibly after a post-Epiphany fast. The answer states as settled a practice that is contested for this place.",
+          "source": "Clement, Paedagogus 1.6; Tertullian, De baptismo 19; T. Talley, The Origins of the Liturgical Year (1986); P. Bradshaw & M. Johnson, The Origins of Feasts, Fasts and Seasons"
+        }
+      ],
+      "reader_note": "Clear and well pitched for a lay reader, and the right length. The contrast with modern 'decision' language is useful and fair."
+    },
+    {
+      "item": 2,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "At the end came the council. At Nicaea, bishops from everywhere ruled on the disputed confession for all. The emperor called it. He backed it with force.",
+          "problem": "Anachronism. Nicaea (325) falls 65 years after this world's window (c. 150-260), yet the representative narrates it as 'our own history'. Athanasius's letters are also outside the window. The answer's three-stage structure (teachers, then bishop, then council) depends on this post-window material. 'Backed it with force' is a loose summary of Constantine's exile of Arius and his supporters.",
+          "source": "Eusebius, Vita Constantini 3; Socrates, HE 1.8-9"
+        },
+        {
+          "claim": "Dionysius ... settled the Arsinoite dispute by sitting with the village presbyters and teachers ... from morning to evening for three days.",
+          "problem": "This is accurate to Dionysius's own account of the dispute over Nepos's millenarian book, preserved by Eusebius. I note it only to say it is sound.",
+          "source": "Eusebius, HE 7.24"
+        }
+      ],
+      "reader_note": "Readable, but the short, choppy sentences feel mechanical. Taking Nicaea out would shorten it and keep it inside the window."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "After Nicaea, it got harder still. The church learned to use exile and condemnation",
+          "problem": "This steps outside the c. 150-260 window. It is also internally odd, because exile and condemnation were already in use before 325: Demetrius's synods deprived Origen of his presbyterate, and Dionysius of Alexandria was himself exiled under Valerian. The final paragraph should be cut or reframed.",
+          "source": "Eusebius, HE 6.8, 6.23, 7.11; Photius, Bibl. cod. 118"
+        },
+        {
+          "claim": "Origen left for Caesarea and never returned.",
+          "problem": "This is broadly the standard account (he settled in Caesarea c. 231-234). 'Never returned' is stated with more certainty than the patchy sources allow, but it is defensible.",
+          "source": "Eusebius, HE 6.26; Nautin, Origene (1977)"
+        }
+      ],
+      "reader_note": "A thoughtful, honest answer of appropriate length. Without the post-Nicene paragraph it would be strong."
+    },
+    {
+      "item": 4,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "At the end came the council. At Nicaea ... The bishop of Alexandria became, after that, the enforcer of conciliar orthodoxy across Egypt",
+          "problem": "Anachronism, as in item 2. Nicaea and its canon 6 on Alexandria's jurisdiction, together with Athanasian-era exiles and synods, fall outside a world that ends c. 260. A full third of the answer narrates them as the community's own history.",
+          "source": "Council of Nicaea, canon 6; Eusebius, Vita Constantini"
+        },
+        {
+          "claim": "Demetrius condemned Origen's ordination - not for a doctrine, but because Origen had been ordained elsewhere without his consent.",
+          "problem": "This states a contested question as settled. Eusebius stresses the irregular ordination and Origen's self-castration, which the answer omits. Later sources (Jerome, Ep. 33; Photius citing Pamphilus) and modern scholars (Nautin, Trigg, Heine) leave room for doctrinal suspicion or for local power politics. A safer wording: 'the surviving accounts give canonical reasons; whether doctrine played a part is debated.'",
+          "source": "Eusebius, HE 6.8, 6.23; Jerome, Ep. 33; Photius, Bibl. cod. 118; J. Trigg, Origen (1998)"
+        },
+        {
+          "claim": "Early on, authority belonged to teachers ... People followed the teacher whose grasp of Scripture persuaded them.",
+          "problem": "This is a reasonable scholarly model (the 'free teachers' period before strong episcopal control: Brakke, Van den Hoek). It is still a reconstruction, and the answer should say so. Bishops existed in Alexandria from the late 2nd century (Demetrius from c. 189).",
+          "source": "A. van den Hoek, 'The Catechetical School of Early Christian Alexandria', HTR 90 (1997); D. Brakke, 'Canon Formation and Social Conflict', HTR 87 (1994)"
+        }
+      ],
+      "reader_note": "Clear for a lay reader. It largely repeats item 2 and is longer than it needs to be."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Athanasius's On the Incarnation",
+          "problem": "Athanasius's On the Incarnation (c. 318-335) falls well after the c. 150-260 window, so it is not one of 'our' named books.",
+          "source": "Athanasius, De incarnatione; standard dating in Robertson, NPNF 2.4"
+        },
+        {
+          "claim": "“Perhaps, too, philosophy was given to the Greeks directly and in the first place ... For philosophy was a guardian to bring the Greek mind to Christ ...”",
+          "problem": "This is a fair rendering of Clement, Strom. 1.5.28, but it is a loose paraphrase set inside quotation marks. The ANF wording is 'For this was a schoolmaster to bring the Hellenic mind, as the law the Hebrews, to Christ. Philosophy, therefore, was a preparation, paving the way for him who is perfected in Christ.' The lead-in says 'schoolmaster' while the quotation says 'guardian'. Give a recognized translation, or drop the quotation marks.",
+          "source": "Clement, Stromateis 1.5.28 (ANF 2)"
+        }
+      ],
+      "reader_note": "This is heavily self-referential, about the project's own method rather than the community. Too long for a lay reader; it could be cut by half. The caution about the school's institutional continuity and about non-elite voices is sound."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "And after the council at Nicaea, when the emperors' power stood behind the church, saying no to the agreed faith could cost a person their place.",
+          "problem": "This is outside the c. 150-260 window. Imperial backing of church doctrine postdates this community.",
+          "source": "Chronology"
+        },
+        {
+          "claim": "One of our students, Gregory, left an account of how his own teacher met him.",
+          "problem": "The Address of Thanksgiving to Origen is real and relevant. Gregory studied with Origen at Caesarea, though, not Alexandria, so calling him 'one of our students' needs that qualification. The traditional attribution to Gregory Thaumaturgus has also been questioned (Nautin), although most scholars accept it.",
+          "source": "Gregory Thaumaturgus, Oratio panegyrica in Origenem; Eusebius, HE 6.30"
+        },
+        {
+          "claim": "Origen put it even more plainly: what the apostles handed down directly stayed fixed; everything else was open ground",
+          "problem": "A fair paraphrase of De principiis, preface 2-3. It overstates slightly: Origen says the apostles left certain matters for inquiry by the gifted, not that 'everything else' was open.",
+          "source": "Origen, De principiis, praef. 2-3"
+        }
+      ],
+      "reader_note": "Pastoral in tone, clear and of reasonable length. Fix the anachronism and the location of Gregory's studies."
+    },
+    {
+      "item": 7,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "It was long - years, not weeks",
+          "problem": "Origen describes staged admission and the scrutiny of conduct (C. Cels. 3.51), which supports the general picture. No Alexandrian source fixes the length at years. The three-year figure comes from the Apostolic Tradition, whose Roman/Hippolytan attribution and date are contested. Say 'could be long' instead.",
+          "source": "Origen, Contra Celsum 3.51; Apostolic Tradition 17 (Bradshaw, Johnson & Phillips, 2002)"
+        },
+        {
+          "claim": "Clement's book called the Paedagogus ... was written for the already baptized",
+          "problem": "This is the majority reading (cf. Paed. 1.6), but the intended audience is debated: newly baptized, converts generally, or a mixed readership. 'Largely addressed to the newly baptized' is safer.",
+          "source": "Clement, Paedagogus 1.6; A. van den Hoek; J. Behr, Asceticism and Anthropology in Irenaeus and Clement"
+        }
+      ],
+      "reader_note": "Clear and well structured for a lay reader. Slightly long, but the closing note on the limits of the evidence earns its place."
+    },
+    {
+      "item": 8,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "The teacher rose early.",
+          "problem": "This is unsourced and reads as invented colour, which contradicts the answer's own promise not to invent a typical day. Origen's late-night study (Eusebius, HE 6.3.9) is the attested detail, if one is wanted.",
+          "source": "Eusebius, HE 6.3"
+        },
+        {
+          "claim": "for them it was not a text studied but the Logos speaking ... They were spent in love made visible.",
+          "problem": "This attributes an inner experience to the non-literate majority, whom the answer itself says the sources do not let us hear. It is unsupported generalization.",
+          "source": "None. This is the answer's own stated limit."
+        },
+        {
+          "claim": "Gregory ... said that while he studied, love for the Word was kindled in him.",
+          "problem": "Accurate. The image of a spark kindling love for the Word comes from Address 6. Gregory's studies were at Caesarea, however.",
+          "source": "Gregory Thaumaturgus, Oratio panegyrica 6"
+        }
+      ],
+      "reader_note": "Readable and appropriately cautious overall, with good length. Remove the two unsupported generalizations."
+    },
+    {
+      "item": 9,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "But that is a word to the wealthy about what they owned at home, not a description of where the community met.",
+          "problem": "A non sequitur with no antecedent. It looks like a fragment left over from a dropped reference, probably Clement's Paedagogus book 3 or the Quis dives salvetur. It should be removed or completed.",
+          "source": "Internal to the text"
+        },
+        {
+          "claim": "Whether it happened in purpose-built rooms, or rented spaces, or believers' homes alone, our record does not say.",
+          "problem": "Slightly overstated. Before 260 the community did hold corporate property, including places of assembly and cemeteries. Gallienus's rescript to Dionysius and other bishops restored 'the places of worship', and Dionysius's letters mention assemblies and cemeteries. The record does not describe architecture, but it does show that such places existed.",
+          "source": "Eusebius, HE 7.11, 7.13"
+        },
+        {
+          "claim": "the boy Origen learned Scripture from his father ... his mother stopped him from running to martyrdom by hiding his clothes",
+          "problem": "Accurate.",
+          "source": "Eusebius, HE 6.2"
+        }
+      ],
+      "reader_note": "Short and clear. The stray sentence will confuse a lay reader, and the answer misses the one solid textual datum (Gallienus's rescript)."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "we do not know of such a record entering our own tradition",
+          "problem": "The question almost certainly means Pliny, Ep. 10.96, in which two slave women called ministrae were tortured. That concerns Bithynia c. 112, not Alexandria. It was known in Christian circles within the window: Tertullian quotes it in Apol. 2, c. 197. Disclaiming the source is defensible, but the answer should name the likely text and explain why it is not evidence about this community. As written it reads as an evasion, and it then changes the subject.",
+          "source": "Pliny, Ep. 10.96; Tertullian, Apologeticum 2"
+        },
+        {
+          "claim": "When peace came, the community fought bitterly over whether to bring them back.",
+          "problem": "Bitter conflict over the lapsed is best attested at Rome (Novatian) and Carthage (Cyprian). In Alexandria, Dionysius took a comparatively mild line (the Serapion story; the letter to Fabius). 'Fought bitterly' overstates the Alexandrian evidence.",
+          "source": "Eusebius, HE 6.41-46"
+        },
+        {
+          "claim": "Clement told the story of the apostle John and the young man who fell, he named it as tradition",
+          "problem": "Accurate. Clement calls it 'a story that is no myth but a true account handed down and kept in memory'.",
+          "source": "Clement, Quis dives salvetur 42"
+        }
+      ],
+      "reader_note": "Clear, but it does not engage the actual question. The right length, but it should spend its words on Pliny rather than on unrelated examples of the community's candour."
+    }
+  ],
+  "overall_view": "With corrections, I would put my name to many of these answers. The sourcing is mostly genuine (Eusebius HE 6-7, Contra Celsum 3.51, Stromateis 1.5, Gregory's Address, Origen's childhood), and the repeated, honest caution about non-literate and Coptic-speaking believers is a real strength. Some smaller problems should still be fixed: claims stated more firmly than the evidence allows (Paschal-night baptism, Demetrius's motives, catechumenates lasting 'years'), one probably misattributed Origen passage (the John commentary on John 3), and a stray sentence fragment in item 9. The single biggest change: stop narrating Nicaea, Constantine, Athanasius and post-325 episcopal coercion as 'our own history'. These events fall 65 or more years after a world that ends c. 260. In items 2 and 4 they carry the whole structure of the answer, and that is a straightforward anachronism a specialist would not let pass."
+}

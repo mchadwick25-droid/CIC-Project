@@ -1,0 +1,176 @@
+{
+  "world": "Cappadocian Trinitarian Christianity (Basil, Gregory of Nazianzus, Gregory of Nyssa, Macrina), c. 330-395",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "We called him fully what the Father is decades before the argument reached its final council.",
+          "problem": "Loose. Basil's own path to homoousios was gradual. In the late 350s and early 360s he was close to the homoiousian party and accepted 'like in essence without any difference' as equivalent to homoousios (Ep. 9). Firm Cappadocian use of homoousios dates from the 360s-370s, about one to two decades before 381, not 'decades'. The 'water and prayer already said it' framing is a fair Cappadocian argument (Basil, De Spiritu Sancto 10.26, 27.66-67, 29.73 on the Phos hilaron), but it is a theological argument, not neutral history.",
+          "source": "Basil, Ep. 9 (to Maximus); Ayres, Nicaea and its Legacy (2004), ch. 8; Hanson, The Search for the Christian Doctrine of God (1988)."
+        },
+        {
+          "claim": "He never once said outright, in one bare sentence, that the Spirit is God... More urgent voices among his friends wanted it spoken, and others defended his restraint.",
+          "problem": "Substantially correct for De Spiritu Sancto (two doxologies: 1.3; Basil's 'economy' of reticence). The critics were not only 'friends'. Gregory of Nazianzus reports a monk's public criticism and defends Basil's oikonomia (Ep. 58; Or. 43.68-69). Athanasius also defended Basil (Ep. ad Palladium; Ep. ad Joannem et Antiochum). Gregory himself later said it plainly (Or. 31). Worth naming that the creed of 381 also does not call the Spirit 'God' or homoousios. The answer gestures at this but does not say it.",
+          "source": "Basil, De Spiritu Sancto 1.3, 25.58-27.68; Gregory Naz., Ep. 58, Or. 31, Or. 43.68-69; Hildebrand, The Trinitarian Theology of Basil of Caesarea (2007)."
+        }
+      ],
+      "reader_note": "Clear and well pitched. The repetition ('wrote down what the font and the prayer already said', twice) could be trimmed, and 'before any council met again in our lifetimes' is confusing."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "a house where lepers were washed and fed by brothers and sisters who chose that work",
+          "problem": "The Basileias's care for lepers is attested (Gregory Naz., Or. 43.63; Basil, Ep. 94, 150, 176). 'Chose that work' is a plausible gloss, but no text specifies that it was volunteer staffing. Also, 'outside the great city' should name Caesarea. Minor.",
+          "source": "Gregory Naz., Or. 43.63; Basil, Ep. 94; Basil, Longer Rules 20 (plain fare for guests); Holman, The Hungry Are Dying (2001)."
+        }
+      ],
+      "reader_note": "Readable and honest about the gap between rule and practice. The right length. It assumes the asker is a guest at the door; a sentence on outsiders, pagans or heretics would answer the question more directly."
+    },
+    {
+      "item": 3,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "No securely identified remains of our own gathering places have been brought to light.",
+          "problem": "Broadly fair. The Basileias and the Annisa martyr chapel have not been securely located. A reader may wrongly connect the famous Cappadocian rock-cut churches (mostly 6th-11th c.) to this community; one sentence ruling that out would help. Gregory of Nyssa's Ep. 25 gives a detailed written plan for an octagonal martyrium, which is relevant 'physical' evidence in text form. The martyr-feast markets are consistent with Basil, Longer Rules 40.",
+          "source": "Gregory of Nyssa, Ep. 25; Basil, Longer Rules 40; Gregory Naz., Or. 43.63; Rodley, Cave Monasteries of Byzantine Cappadocia (1985)."
+        }
+      ],
+      "reader_note": "Clear, honest and the right length."
+    },
+    {
+      "item": 4,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Whether it reached up as well as down, our record does not settle.",
+          "problem": "Partly evasive. Basil's canons do address clergy, and they show a different standard. A cleric who fell into serious sin was deposed but not also excluded from communion ('not punished twice', canons 3, 32, 51 of Ep. 188/199). Basil also disciplined clergy directly, for example Paregorius, a priest living with a woman (Ep. 55), and chorepiscopoi for simoniac and careless ordinations (Ep. 53, 54). So the record does say something: leaders were held to account, but by a separate and milder mechanism. That is exactly the asymmetry the answer says it cannot show.",
+          "source": "Basil, Ep. 188, 199, 217 (canonical letters), esp. canons 3, 32, 51; Ep. 53, 54, 55; Gregory of Nyssa, Canonical Letter to Letoius."
+        },
+        {
+          "claim": "a set term of exclusion, and reconciliation at the end of it... the return was made at a known hour",
+          "problem": "Overstated rigidity. Basil repeatedly leaves the length of penance to the bishop's judgment of the penitent's disposition (e.g. canons 2, 74, 84). Terms were guides, not fixed sentences.",
+          "source": "Basil, Ep. 188 can. 2; Ep. 217 can. 74, 84."
+        }
+      ],
+      "reader_note": "Understandable, but long and repetitive; the same point is stated three times. It also turns 'when the community failed someone' into individual sin and penance, which only half answers the question."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Two of her brothers became bishops.",
+          "problem": "Error, and it contradicts the paragraph's own 'three bishops'. Three of Macrina's brothers became bishops: Basil (Caesarea), Gregory (Nyssa) and Peter (Sebaste).",
+          "source": "Gregory of Nyssa, Vita Macrinae; Silvas, Macrina the Younger (2008)."
+        },
+        {
+          "claim": "Against them stood the ordered brotherhood... The break came at the council of Gangra.",
+          "problem": "Misleading. The Gangra canons (c. 340s; dating disputed) condemned followers of Eustathius of Sebaste, yet Eustathius was Basil's own early ascetic mentor and a formative influence on Basil's communities. Basil's break with Eustathius (c. 373) was doctrinal, over the Spirit, not over Gangra-style excesses. Presenting the Eustathians simply as Basil's opposite misstates the relationship. Basil's rules continue and moderate Eustathian asceticism.",
+          "source": "Canons of Gangra (synodal letter and canons 1-20); Basil, Ep. 223, 244, 263; Rousseau, Basil of Caesarea (1994), ch. 3; Silvas, The Asketikon of St Basil (2005)."
+        },
+        {
+          "claim": "Gregory of Nyssa narrates her reasoning this way: \"When the young man died...\"",
+          "problem": "The content matches Vita Macrinae 5 (one marriage as one birth and one death; the betrothed 'away', not dead, in hope of the resurrection). But the quoted text is a loose modern paraphrase presented in quotation marks as if it were a translation. Mark it as a paraphrase or use a published translation (e.g. Corrigan; Silvas).",
+          "source": "Gregory of Nyssa, Vita Macrinae 5."
+        },
+        {
+          "claim": "The family estate became a community of women, with her at its head.",
+          "problem": "Simplified. At Annisa, Macrina and her mother Emmelia led it together at first, and there was also a men's community nearby under Peter (and earlier Naucratius's retreat). Minor.",
+          "source": "Vita Macrinae 11-12, 37."
+        }
+      ],
+      "reader_note": "Rich and mostly accurate, but too long; the long quotation and the Gangra section could be halved. A lay reader will lose track of who 'one of our own' (Gregory of Nazianzus, Or. 2) is without names."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT",
+      "doubted_claims": [
+        {
+          "claim": "Roman Catholics honor two of our teachers, Basil and Gregory of Nazianzus, as teachers of the whole church.",
+          "problem": "Correct; both are Doctors of the Church (1568). It is odd to give the Catholic honour and omit that Eastern Orthodoxy keeps Basil, Gregory and John Chrysostom as the Three Holy Hierarchs and uses the Liturgy of St Basil, which is the most direct living continuity. Also, the creed text is first attested at Chalcedon (451) as the creed of the 150 fathers; 'creed of 381' is the standard shorthand, so this is acceptable.",
+          "source": "Pius V, 1568; Kelly, Early Christian Creeds, ch. 10."
+        }
+      ],
+      "reader_note": "Clear, balanced and the right length. The mention of the Reformation is slightly out of character for a 4th-century voice but acceptable."
+    },
+    {
+      "item": 7,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "We cannot give you our teachers' answer on the violence in our scriptures. That is a silence in what survives of us.",
+          "problem": "False evasion. Gregory of Nyssa addresses it directly. In the Life of Moses (II.91-92) he says the literal slaying of the Egyptian firstborn would be unworthy of God and unjust, and must be read spiritually (killing evil at its first beginnings). Basil and Gregory of Nyssa's homilies on the Psalms also treat imprecatory and violent passages figuratively (e.g. Ps. 137 'dashing the little ones against the rock' read as destroying sinful thoughts at birth, a standard patristic line). That is a central and well-known Cappadocian answer.",
+          "source": "Gregory of Nyssa, De vita Moysis II.91-92; Gregory of Nyssa, In inscriptiones Psalmorum; Heine, Gregory of Nyssa's Treatise on the Inscriptions of the Psalms (1995)."
+        },
+        {
+          "claim": "The psalms were repeated so many times in our worship that they came to interpret the singer, we said, rather than waiting on the singer to interpret them.",
+          "problem": "The 'psalms as mirror / words become the singer's own' idea is Athanasius, Letter to Marcellinus 10-12, not a Cappadocian saying. Basil's Homily on Psalm 1 praises the psalms as sweetened teaching sung at home and in the market, a different point. 'We said' misattributes.",
+          "source": "Athanasius, Ep. ad Marcellinum 10-12; Basil, Hom. in Ps. 1.1-2."
+        },
+        {
+          "claim": "Grace began it and grace carried it. It was never, for us, a single moment of assent...",
+          "problem": "Framed against a later (Reformation or modern evangelical) position the Cappadocians never faced. Cappadocian soteriology stresses synergy with free choice (proairesis) as much as grace. Anachronistic framing.",
+          "source": "Gregory of Nyssa, Oratio catechetica 30-31; De instituto christiano (authenticity debated)."
+        }
+      ],
+      "reader_note": "Well written and the right length, but its key admission of silence is false. Most of the rest applies Western or modern categories to the Cappadocians."
+    },
+    {
+      "item": 8,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "One woman among us, facing her own death, reasoned that if the resurrection is real, even her dead betrothed was not lost but only away.",
+          "problem": "Conflation. Macrina's reasoning about her betrothed as 'away' belongs to her youth, at about age twelve (Vita Macrinae 5), not her deathbed. Her deathbed dialogue (De anima et resurrectione) is a literary composition by Gregory and does not centre on the betrothed.",
+          "source": "Gregory of Nyssa, Vita Macrinae 5, 17-25; De anima et resurrectione."
+        },
+        {
+          "claim": "if the Son makes gods of us by grace, then the Son cannot be merely a creature, because no creature makes gods",
+          "problem": "Fair, but the argument is classically Athanasian. The Cappadocian form is clearest for the Spirit (Gregory Naz., Or. 31.4, 31.28). Deification language is well attested (Or. 29.19; Basil, DSS 9.23). Also a notable omission: Cappadocian Christology is defined against Apollinarius ('what is not assumed is not healed', Gregory Naz., Ep. 101). An answer on 'who Jesus was' that says nothing of his full humanity misses their most distinctive Christological claim.",
+          "source": "Gregory Naz., Or. 29.19, 31.4, Ep. 101; Basil, De Spiritu Sancto 9.23; Athanasius, De incarnatione 54."
+        }
+      ],
+      "reader_note": "Accessible and the right length; it needs the conflation fixed and one sentence on Christ's full humanity."
+    },
+    {
+      "item": 9,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "most of it would stand, because we have built this record to the same standard a rigorous reader brings... We have not made those claims.",
+          "problem": "Out of frame and self-certifying. A fourth-century speaker refers to 'the record we have built', meaning the project, and vouches for its own reliability. This is false in places: other answers here wrongly claim silence (items 7 and 10) and contain factual slips (item 5). Remove the self-assessment.",
+          "source": "N/A (internal consistency)."
+        },
+        {
+          "claim": "documents whose authorship is rarely contested",
+          "problem": "Too broad. The Basilian corpus contains much disputed material: Adversus Eunomium IV-V, Ep. 8 (probably Evagrius), the Basil-Libanius letters, the Hexaemeron supplements on human origin, and parts of the ascetic corpus. The ep. 38 point is correct and well put (Cavalcanti, Hübner, Zachhuber, and Silvas all favour Nyssa).",
+          "source": "Fedwick, Bibliotheca Basiliana Universalis; Hübner, 'Gregor von Nyssa als Verfasser der sog. Ep. 38' (1972); Zachhuber, Human Nature in Gregory of Nyssa (2000)."
+        }
+      ],
+      "reader_note": "Clear and well organized; the three 'thin places' are exactly right. It is too long and ends in self-praise."
+    },
+    {
+      "item": 10,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "The question as you put it... is not one our surviving writings settle... Our record does not develop that question... The silence there is real, and we will not fill it.",
+          "problem": "False. This is one of the best-documented and most debated areas of Cappadocian thought. Gregory of Nyssa teaches the eventual restoration (apokatastasis) of all rational creatures, evil being finally purged by purifying fire (De anima et resurrectione; Oratio catechetica 26, 35; In illud: Tunc et ipse Filius). He wrote a whole treatise on the fate of infants who die unbaptized (De infantibus praemature abreptis). Gregory of Nazianzus says unbaptized infants are neither glorified nor punished (Or. 40.23) and hints at purifying fire (Or. 39.19). Basil, by contrast, insists that punishment has no end and rebukes those who claim it does (Regulae brevius tractatae 267). The honest answer is a real internal disagreement, not silence.",
+          "source": "Gregory of Nyssa, De anima et resurrectione; Or. cat. 26; De infantibus; Gregory Naz., Or. 39.19, 40.23; Basil, Reg. brev. 267; Ramelli, The Christian Doctrine of Apokatastasis (2013); Ludlow, Universal Salvation (2000)."
+        },
+        {
+          "claim": "That was Gregory of Nyssa's own teaching, not the whole circle's shared doctrine.",
+          "problem": "The referent is unclear. Deification and lifelong progress are shared Cappadocian themes, though Nyssa's epektasis is his own. The sentence seems to gesture at a Nyssen distinctive without naming it, in an answer that then denies the Nyssen distinctive actually relevant here (universal restoration).",
+          "source": "Gregory of Nyssa, De vita Moysis, In Canticum (epektasis)."
+        }
+      ],
+      "reader_note": "Readable, but it is reused filler from item 7 and its central claim of silence is wrong. It should be rewritten around the Nyssa/Nazianzen versus Basil disagreement."
+    }
+  ],
+  "overall_view": "I would put my name to roughly half of these answers. The Trinitarian core (item 1), the material on Basil's rule and Basileias (items 2-3), the treatment of Macrina's mediated voice and the ep. 38 attribution (item 9) are careful and generally accurate. But the project has a systematic failure mode: under the banner of honesty it declares 'silence in our record' on questions where the Cappadocians said a great deal. The two clearest cases are scriptural violence (Nyssa's Life of Moses) and the fate of outsiders (Nyssa's apokatastasis against Basil's eternal punishment). The same pattern appears in a weaker form on clerical discipline (Basil's canons on deposition). A false claim of silence is worse than a gap, because it teaches the reader that nothing exists. There are also factual slips (two versus three episcopal brothers; Macrina's betrothal reasoning moved to her deathbed; an Athanasian saying attributed to the community; the Eustathius-Gangra relationship inverted) and a self-congratulatory meta-voice in item 9. The single biggest change: before any 'our record is silent' answer is allowed, it should be checked against the actual corpus, especially Gregory of Nyssa. Where the fathers disagreed, the answer should say so and name who said what."
+}

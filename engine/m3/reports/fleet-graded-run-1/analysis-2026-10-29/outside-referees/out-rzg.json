@@ -1,0 +1,216 @@
+{
+ "world": "The Reformed cities of Zurich and Geneva (Zwingli, Bullinger, Calvin), c. 1519-1564",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "What an ordinary citizen of Zurich or Geneva did, waking to sleeping, has not reached us in our words... how a Sunday service felt to sit through, what a Consistory summons felt like to receive - none of that has reached us.",
+     "problem": "As history this is false. Everyday religious life in both cities is unusually well documented: the Geneva Consistory registers from 1542 record thousands of summonses, with the words of the people summoned. Zurich has its marriage-court (Ehegericht, 1525) and morals mandates. Liturgies and sermon timetables also survive: daily sermons in Geneva, Sunday catechism at noon, Zwingli's 1525 communion order. A modest sketch of a day was possible. The answer instead refuses, and its reason is the project's own source holdings, not the historical record.",
+     "source": "Registres du Consistoire de Genève au temps de Calvin (ed. Kingdon, Lambert, Watt); Ecclesiastical Ordinances 1541; Zwingli, Action oder Brauch des Nachtmahls (1525); R. Kingdon, Adultery and Divorce in Calvin's Geneva"
+    },
+    {
+     "claim": "six hundred people filled the Town Hall ... bound every priest in its territory to preach accordingly",
+     "problem": "This is broadly correct for the First Disputation (29 January 1523). The council ruled that Zwingli should go on preaching and that all preachers should preach only what they could prove from Scripture. No change needed.",
+     "source": "Hätzer/Megander accounts of the First Zurich Disputation"
+    },
+    {
+     "claim": "That much is doctrine, plainly attested.",
+     "problem": "The Consistory was an institution and a practice, not a doctrine. The label is a small slip.",
+     "source": ""
+    }
+   ],
+   "reader_note": "The reader can follow it, but it barely answers the question. It would be better at the same length with a short, sourced sketch of the weekly round of sermons, catechism and discipline."
+  },
+  {
+   "item": 2,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "the Ecclesiastical Ordinances created a Consistory ... built from its founding with its own claim to independent disciplinary authority",
+     "problem": "The 1541 Ordinances were ambiguous, and Calvin had to accept a compromise. The elders were chosen by and from the city councils, a syndic presided carrying his baton of office, and the right to excommunicate was left unclear. The Small Council went on claiming that right, as in the Berthelier affair of 1553. The independence was won later; it was not there in the founding text.",
+     "source": "Ordonnances ecclésiastiques (1541); W. Naphy, Calvin and the Consolidation of the Genevan Reformation; R. Kingdon"
+    },
+    {
+     "claim": "That body fought for decades ... Only by 1555 had it substantially won that fight.",
+     "problem": "1541 to 1555 is about fourteen years, so 'decades' overstates it. The date 1555 is right: the Perrinists fell and the Council confirmed the Consistory's right to excommunicate.",
+     "source": "Naphy; Bruce Gordon, Calvin (2009)"
+    },
+    {
+     "claim": "Zurich and Geneva never agreed how the church is actually governed",
+     "problem": "This is broadly fair. Bullinger resisted consistorial excommunication and preferred discipline by the magistrate. But the two cities did reach formal agreement on the Supper (Consensus Tigurinus, 1549), so the point should be confined to church order.",
+     "source": "Bullinger-Calvin correspondence; J. Wayne Baker, Heinrich Bullinger and the Covenant"
+    },
+    {
+     "claim": "The man who held our chief pastoral office, first our founder",
+     "problem": "Zwingli was people's priest (Leutpriester) at the Grossmünster. The title Antistes is properly used from Bullinger onward. This is a minor point.",
+     "source": "Gordon, The Swiss Reformation"
+    }
+   ],
+   "reader_note": "Clear, and the right length. The contrast between the two cities is the strongest point in the packet, but the account of Geneva in 1541 needs softening."
+  },
+  {
+   "item": 3,
+   "verdict": "REJECT",
+   "doubted_claims": [
+    {
+     "claim": "Every claim about what we taught ... survives scrutiny completely ... matched at every point we have claimed them.",
+     "problem": "This is an absolute self-certification that no scholar would accept, and it is false within this very packet. Item 6 misstates Zwingli on original sin, Item 9 overlooks Zwingli's saved pagans, and Item 10 denies Reformed language of regeneration.",
+     "source": "See Items 6, 9 and 10"
+    },
+    {
+     "claim": "Calvin's own corpus runs roughly four times Zwingli's in what we hold. That is disclosed at every point it bears weight.",
+     "problem": "This is the project's own metadata about its holdings, spoken by a sixteenth-century voice. It breaks the frame and means nothing to a lay reader.",
+     "source": ""
+    },
+    {
+     "claim": "The Second Helvetic Confession is there.",
+     "problem": "Bullinger drafted it privately around 1561-62, but it was published and adopted only in 1566, after the world's end date of 1564. Leaning on it as 'our confession' is a borderline anachronism.",
+     "source": "Confessio Helvetica Posterior (1566)"
+    },
+    {
+     "claim": "The fully worked-out form of double predestination rests mostly on Calvin and Beza.",
+     "problem": "This is reasonable. But Zwingli also taught a strong predestinarianism (De providentia, 1530), and Bullinger was cautious about reprobation. That nuance belongs here.",
+     "source": "Zwingli, Sermonis de providentia Dei anamnema (1530); Baker on Bullinger"
+    }
+   ],
+   "reader_note": "Readable, but the question invites humility and the answer gives the opposite. It should be rewritten to name real uncertainties and drop the talk of the project's holdings."
+  },
+  {
+   "item": 4,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "No source in our record describes our worship spaces directly.",
+     "problem": "Historically false. Zwingli's 1525 communion order describes the table set in the nave, the wooden plates and beakers, and men and women seated apart. Contemporary chronicles describe the clearing of images in 1524 (Bernhard Wyss, Bullinger's Reformationsgeschichte). Rejecting the questioner's premise is legitimate, since no single tortured witness is a 'key' source for Reformed worship. But the answer should not then claim that nothing describes the spaces.",
+     "source": "Zwingli, Action oder Brauch des Nachtmahls (1525); Bullinger, Reformationsgeschichte; Chronik des Bernhard Wyss"
+    },
+    {
+     "claim": "[tag]",
+     "problem": "A production artifact has leaked into the text.",
+     "source": ""
+    },
+    {
+     "claim": "the organ at Zurich's Grossmunster fallen silent",
+     "problem": "Correct in substance. Organ playing ceased in 1524 and the Grossmünster organ was broken up in 1527.",
+     "source": "Wyss chronicle; Gordon, The Swiss Reformation"
+    }
+   ],
+   "reader_note": "Handles a loaded premise reasonably and is the right length. Remove the stray tag and the over-strong claim that no source exists."
+  },
+  {
+   "item": 5,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "Not church tradition ... So yes: Scripture alone.",
+     "problem": "The question asks whether there were other authorities, and there were, ranked below Scripture. Calvin received the first ancient councils and cited the Fathers constantly, Augustine above all (Institutes IV.9.8; Reply to Sadoleto). Zwingli and Oecolampadius used patristic witness on the Supper. The Christian magistrate was also a real authority in church order, as the answer's own Zurich paragraph shows. 'Sole' should become 'supreme and final'.",
+     "source": "Calvin, Institutes IV.8-9; Responsio ad Sadoletum (1539)"
+    },
+    {
+     "claim": "“I, Ulrich Zwingli, declare that I have preached the articles ... But I will be taught only from these same Scriptures.”",
+     "problem": "This is an acceptable paraphrase of the preface to the Sixty-Seven Articles (1523), which calls Scripture theopneustos. It should be marked as a translation or paraphrase.",
+     "source": "Zwingli, Schlussreden (1523), preface"
+    },
+    {
+     "claim": "At Geneva ... Not argument before a council",
+     "problem": "An over-tidy contrast. Geneva's own reform was launched by a public disputation (Rive, 1535), and the Lausanne Disputation of 1536 shaped the region.",
+     "source": "Gordon, Calvin; Naphy"
+    }
+   ],
+   "reader_note": "Clear and well sized. Its contrast between the two cities is vivid but too neat."
+  },
+  {
+   "item": 6,
+   "verdict": "REJECT",
+   "doubted_claims": [
+    {
+     "claim": "We held that every person is born into the condition our first parents brought upon the whole line. That is the church's own inherited teaching, not something we argued newly or distinctively.",
+     "problem": "This evades the question, which is about guilt, and the evasion is itself false. On this point the two cities differed sharply. Zwingli argued that original sin is a 'disease' or defect (prest), not sin that properly carries guilt, and that the children of Christians are not damned. That was a distinctive position, controversial with Lutherans and Catholics (De peccato originali declaratio, 1526). Calvin held that original sin is hereditary depravity which makes even infants guilty and liable to God's wrath (Institutes II.1.8).",
+     "source": "Zwingli, De peccato originali declaratio ad Urbanum Rhegium (1526); Calvin, Institutes II.1.8"
+    },
+    {
+     "claim": "Our confession called Christ the mirror in which we see whether we are chosen",
+     "problem": "The wording comes from the Second Helvetic Confession, chapter X (1566), which falls outside the window. Calvin uses the same image (Institutes III.24.5), so citing Calvin would be safer.",
+     "source": "Confessio Helvetica Posterior X; Institutes III.24.5"
+    }
+   ],
+   "reader_note": "A lay reader would not learn the answer to the question. Half the text is a pivot to election. It should answer on guilt directly and give the Zwingli-Calvin difference."
+  },
+  {
+   "item": 7,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "we claim no such evidence, and we never made that claim ... not whether someone could trace it backward through fifteen centuries",
+     "problem": "Overstated. Scripture was the test, but the Reformed did argue for continuity with the early church. Calvin told Sadoleto that 'our agreement with antiquity is far closer than yours'. The Prefatory Address to Francis I marshals the Fathers. Zwingli, Oecolampadius and Bullinger built patristic dossiers for the symbolic reading of the Supper and for infant baptism.",
+     "source": "Calvin, Responsio ad Sadoletum (1539); Institutes, Prefatory Address; Oecolampadius, De genuina verborum Domini expositione (1525)"
+    },
+    {
+     "claim": "Our own founder said so plainly",
+     "problem": "Calling Zwingli the founder of both cities' churches does not fit Geneva, where Farel and Calvin are the founders.",
+     "source": ""
+    }
+   ],
+   "reader_note": "Clear, though somewhat long and repetitive. The covenantal defence of infant baptism is accurately described."
+  },
+  {
+   "item": 8,
+   "verdict": "ACCEPT WITH CORRECTION",
+   "doubted_claims": [
+    {
+     "claim": "What replaced them - the size of the room, what the walls looked like ... has not reached us ... We cannot show you what the space itself looked like.",
+     "problem": "The question asks about physical evidence, and much survives. The Grossmünster and St Pierre in Geneva still stand. The walls were whitewashed, the images removed (Zurich officially in June-July 1524, Geneva from 1535), and the pulpit became the focal point. This is the most important omission, given that the preached Word was central. Sealed niches and scraped murals can still be seen.",
+     "source": "Lee Palmer Wandel, Voracious Idols and Violent Hands (1995); Carlos Eire, War Against the Idols (1986)"
+    },
+    {
+     "claim": "the organ fell silent in the mid-1520s, and no voice or instrument answered it in worship for years after",
+     "problem": "Right for Zurich. Congregational singing was absent there until 1598, so 'for years' understates it. A reader must not carry this over to Geneva, where metrical psalm singing was central (the Genevan Psalter, 1539-1562).",
+     "source": "Genevan Psalter; Gordon, The Swiss Reformation"
+    }
+   ],
+   "reader_note": "Readable and the right length, but it should list the surviving physical evidence instead of declaring silence."
+  },
+  {
+   "item": 9,
+   "verdict": "REJECT",
+   "doubted_claims": [
+    {
+     "claim": "what our own teachers said about them in detail has not reached us",
+     "problem": "False, and the gap is famous. Zwingli's Fidei expositio (1531, published by Bullinger in 1536) placed virtuous pagans in heaven: Hercules, Theseus, Socrates, Aristides, Numa, Cato and the Scipios. Luther was scandalized. Calvin set out reprobation at length (Institutes III.21-24; De aeterna Dei praedestinatione, 1552; the Bolsec controversy of 1551). He also taught that outside the visible church there is ordinarily no hope of forgiveness or salvation (Institutes IV.1.4).",
+     "source": "Zwingli, Fidei expositio (1531); Calvin, Institutes III.21-24, IV.1.4; Consensus Genevensis (1552)"
+    },
+    {
+     "claim": "our record does not settle",
+     "problem": "This is the evasion-as-falsehood the brief warns about. The real answer is that the two strands differed: Zwingli was relatively expansive about the elect beyond the church, Calvin was firm about reprobation and about the church as the ordinary means of salvation.",
+     "source": ""
+    }
+   ],
+   "reader_note": "Clear prose, but the reader is told the record is silent when it is not. The intra-Reformed contrast is exactly what this answer should give."
+  },
+  {
+   "item": 10,
+   "verdict": "REJECT",
+   "doubted_claims": [
+    {
+     "claim": "We would not. That language belongs to a different reading...",
+     "problem": "False. Regeneration and new birth are core Reformed vocabulary. Calvin defines repentance as regeneration (Institutes III.3.9) and expounds John 3 at length in his commentary (1553). Baptism is the sign of regeneration (Institutes IV.15-16; Geneva Catechism). Bullinger and Zwingli use the same language. What the Reformed denied was that a datable experience is required for church membership, not the language itself.",
+     "source": "Calvin, Institutes III.3.9, IV.16; Commentary on John (1553); Geneva Catechism (1542/45)"
+    },
+    {
+     "claim": "The language of being 'born again' as a datable, felt experience belongs to their side of that quarrel",
+     "problem": "Anachronistic. A datable, felt conversion as the test of belonging is a Puritan, Pietist and evangelical development of the seventeenth and eighteenth centuries. Swiss Brethren emphases were believer's baptism, discipleship (Nachfolge), separation and the ban (Schleitheim, 1527), not experiential conversion narratives.",
+     "source": "Schleitheim Articles (1527); C. Arnold Snyder, Anabaptist History and Theology"
+    },
+    {
+     "claim": "at Manz's own house in Zurich",
+     "problem": "The 21 January 1525 baptisms took place at the house of Manz's mother, near the Grossmünster. Grebel baptized Blaurock, who then baptized the others. This is minor.",
+     "source": "Hutterite Chronicle; Snyder"
+    }
+   ],
+   "reader_note": "Clear and the right length, but its central answer is wrong and it projects a later evangelical category onto the 1525 Anabaptists."
+  }
+ ],
+ "overall_view": "I would not put my name to this set as it stands. The prose is clear, and several institutional facts are right: the 1523 disputation, the 1541 Ordinances and 1555, the silencing of the Zurich organ. The covenantal case for infant baptism is also well put. But the representative repeatedly confuses the project's own source holdings with the historical record. It declares 'silence' on matters that are richly documented: the Consistory registers, Zwingli's saved pagans, Calvin on reprobation, the surviving church buildings. It also certifies its own accuracy as complete (Item 3), while elsewhere it gets original sin and regeneration wrong. The single biggest change is to stop treating what is missing from the project's files as a gap in history. Where the record speaks, especially where Zwingli and Calvin differ, the answer should say what it says. Where the representative lacks material, it should say so modestly, not claim that the past is silent."
+}

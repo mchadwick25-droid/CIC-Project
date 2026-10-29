@@ -1,0 +1,185 @@
+{
+  "world": "imperial-juridical Christianity: church and empire, councils and law, c. 300-450",
+  "items": [
+    {
+      "item": 1,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "communities in Egypt rejected the settlement at the council itself",
+          "problem": "Loose. At Chalcedon the thirteen Egyptian bishops refused to sign Leo's Tome on the grounds that they had no archbishop (Dioscorus had been deposed), and pleaded that they would be killed at home if they signed. That was a refusal to sign before a new Alexandrian archbishop was in place, not a formal rejection of the definition. The broad rejection came afterwards: the riots in Alexandria, the murder of Proterius in 457, and the monastic revolt in Palestine in 451-453.",
+          "source": "Acts of Chalcedon, session 4 (Price and Gaddis, The Acts of the Council of Chalcedon, 2005); Frend, The Rise of the Monophysite Movement"
+        },
+        {
+          "claim": "The rejection hardened into durable division rather than passing like earlier disputes ... the mechanism we had trusted the whole time visibly broke",
+          "problem": "Overstated. Earlier disputes had also produced lasting division. The Donatist schism lasted more than a century. Ephesus 431 led to the separation of the East Syrian (Church of the East) tradition. Ephesus 449 had already shown that the conciliar mechanism could be captured and overturned. Chalcedon was the largest such break, but it was not the first.",
+          "source": "Frend, The Donatist Church; Brock, 'The Nestorian Church: a lamentable misnomer' (1996); acts of Ephesus II"
+        },
+        {
+          "claim": "Only the bishop's own account survives",
+          "problem": "Essentially right. The main sources are Ambrose's Ep. 74 (40) to Theodosius and Ep. extra coll. 1 (41) to Marcellina, and Paulinus' Vita Ambrosii 22-23 depends on Ambrose. Two points should be added. Theodosius also ordered the punishment of monks who had burned a Valentinian meeting-house. Some scholars think the emperor had already softened the order before Ambrose's confrontation in church.",
+          "source": "Ambrose, Epp. 74 and extra coll. 1; McLynn, Ambrose of Milan (1994), 298-309"
+        }
+      ],
+      "reader_note": "Clear and well-pitched, and Callinicum is handled honestly. The Chalcedon claims need qualifying. The length is right."
+    },
+    {
+      "item": 2,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "council acts with dates and signatures",
+          "problem": "Not true for the whole window. No acts (minutes) of Nicaea 325 or Constantinople 381 survive. For those councils we have only the creed, the canons, the synodal letters, and subscription lists that were reconstructed later. Full acts survive only from Ephesus 431 onward.",
+          "source": "Schwartz, ACO; Price and Gaddis, Acts of Chalcedon, introduction"
+        },
+        {
+          "claim": "Nearly every voice we cite is Rome's, or someone Rome preserved",
+          "problem": "Misleading for this world. The core imperial-church record is largely Greek and Eastern: Eusebius, Athanasius, the Cappadocians, Cyril of Alexandria, the church historians Socrates, Sozomen and Theodoret, and the Theodosian Code. Its survival does not depend on Rome. The self-criticism is right that the record is narrow and interested. It is wrong about where the record comes from.",
+          "source": "General scholarship; e.g. Hanson, The Search for the Christian Doctrine of God (1988)"
+        }
+      ],
+      "reader_note": "Thoughtful, but abstract and full of project jargon such as 'gravity', 'instruments' and 'strands'. A lay reader will find it hard to follow, and it is somewhat long."
+    },
+    {
+      "item": 3,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "Nicaea itself legislates by it: 'let the ancient customs prevail'. That is Rome claiming a practice already old enough to count as inherited.",
+          "problem": "The context is misattributed. This is Nicaea canon 6, an Eastern council's ruling on jurisdiction: 'Let the ancient customs in Egypt, Libya and Pentapolis prevail, that the bishop of Alexandria have authority over all these, since the like is customary for the bishop of Rome also.' Rome is not claiming anything here. Rome is cited as a parallel to Alexandria. The canon is also about metropolitan jurisdiction, not ritual, so it is the wrong evidence for a question about rituals.",
+          "source": "Council of Nicaea, canon 6 (Tanner, Decrees of the Ecumenical Councils I)"
+        },
+        {
+          "claim": "Augustine, an eyewitness of the basilica siege at Milan in 386, dates a new practice at that city precisely",
+          "problem": "Overstated. In Confessions 9.7.15 Augustine says that he and his friends were 'still cold' (frigidi) but were stirred by the alarm in the city. It was Monica who kept vigil in the basilica. He was in Milan, but he was not inside the siege. His date is relative ('a year or not much more' before his baptism), not precise. The answer also never names the practice: hymns and psalms sung 'after the manner of the East'.",
+          "source": "Augustine, Confessions 9.7.15"
+        },
+        {
+          "claim": "Some founding stories are attested twice and disagree.",
+          "problem": "Too vague to check. If this means Constantine's vision, Lactantius and Eusebius do diverge, but that has nothing to do with ritual.",
+          "source": "Lactantius, De mortibus persecutorum 44; Eusebius, Vita Constantini 1.28-31"
+        }
+      ],
+      "reader_note": "The idea is sound: some customs were inherited and some were new and known to be new. But the leading proof-text is misread, and the answer barely touches on actual rituals such as baptism, Eucharist or Easter dating. Length is fine."
+    },
+    {
+      "item": 4,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "Pulcheria commanded the council at Chalcedon to be held, refused Leo's request to hold it in Italy instead, and he answered by sending his legates without protest",
+          "problem": "Two problems. First, the convocation was issued in the names of Marcian and Valentinian III. Pulcheria's influence was real, but the formal command was the emperor's. Second, Leo did protest. He asked for postponement and for an Italian venue (Epp. 82-83, 89-90), and he agreed only reluctantly. Later he also rejected canon 28.",
+          "source": "Leo, Epp. 82-95, 104-106; ACO II.1.1 (convocation letter); Holum, Theodosian Empresses (1982)"
+        },
+        {
+          "claim": "Both women held command. Neither left us her own voice.",
+          "problem": "Wrong for Pulcheria. Her letter to Leo of 450 survives in the Leonine collection (Ep. 77).",
+          "source": "Leo, Ep. 77 (Pulcheria Augusta to Leo)"
+        },
+        {
+          "claim": "In 386 he held a basilica against the Homoian court. The emperor did public penance.",
+          "problem": "The juxtaposition misleads. The emperor in 386 was Valentinian II, and he did no penance. The public penance was Theodosius', after the Thessalonica massacre of 390. The sentence should name him and give the date.",
+          "source": "Ambrose, Ep. extra coll. 11 (51); Theodoret HE 5.17-18"
+        },
+        {
+          "claim": "Ammianus ... 'Those who want such rank and power...'",
+          "problem": "This is a fair modern paraphrase of Ammianus 27.3.14-15 on the Damasus-Ursinus contest of 366. It should be marked as a paraphrase and cited.",
+          "source": "Ammianus Marcellinus 27.3.12-15"
+        }
+      ],
+      "reader_note": "The structure of three rival grounds of authority is clear and useful. Most of the facts are right: Julius' letter of 341, canon 3 of 381, canon 28 of 451, 'intra ecclesiam, non supra', and the Homoian emperors. The Ammianus block makes it long."
+    },
+    {
+      "item": 5,
+      "verdict": "ACCEPT",
+      "doubted_claims": [],
+      "reader_note": "Honest and appropriately modest. The basilica crowd is correctly sourced to Ambrose (Ep. 76/20 and the Sermo contra Auxentium) and to Augustine's Confessions, written about eleven years later. It is short and clear."
+    },
+    {
+      "item": 6,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "whether he shares the Father's very being, or only resembles it",
+          "problem": "This reduces a three- or four-way debate to two sides. Arius and the Anomoeans held that the Son was a creature and unlike the Father in essence. The Homoiousians held 'like in essence'. The Homoians held 'like' without reference to essence. The answer also leaves out the Holy Spirit, which was central to Constantinople 381 and to the Cappadocian Trinitarian settlement. That is a real gap in an answer about the nature of God.",
+          "source": "Hanson, Search for the Christian Doctrine of God; Ayres, Nicaea and its Legacy (2004); Creed of 381"
+        },
+        {
+          "claim": "it does not tell us how any of them prayed alone",
+          "problem": "This is false for the period. Augustine's Confessions (c. 397) is addressed to God throughout. Hilary's De Trinitate ends in prayer, and there are Gregory of Nazianzus' poems and Ambrose's hymns. All of these come from men who also wrote doctrine.",
+          "source": "Augustine, Confessions; Hilary, De Trinitate 12.52-57; Gregory Nazianzen, Carmina"
+        }
+      ],
+      "reader_note": "It is short, perhaps too short for the question, and it is readable. It needs the Spirit and a less absolute claim about prayer."
+    },
+    {
+      "item": 7,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "when Leo sent his letter - his Tome - to Chalcedon",
+          "problem": "The Tome (Ep. 28) was addressed to Flavian of Constantinople in June 449, before Ephesus II. At Chalcedon in 451 it was read and acclaimed. It should say: written to Flavian in 449 and received at Chalcedon. The quotation about Eutyches is accurate in substance ('Quid enim de novi et veteris testamenti paginis didicit, qui ne ipsius quidem symboli initia comprehendit?').",
+          "source": "Leo, Ep. 28.1"
+        }
+      ],
+      "reader_note": "Sound on scripture read within creed, council and custom. A lay reader will follow it. The length is right."
+    },
+    {
+      "item": 8,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "The women our record shows acting are mostly two empresses, and even they speak only through other men's accounts.",
+          "problem": "False as a statement about the period. The record of the imperial church includes Macrina (Gregory of Nyssa), the two Melanias, Paula and Marcella (Jerome), and Olympias (Chrysostom's letters). Egeria and Proba wrote in their own voices, and Pulcheria's own letter survives (Leo Ep. 77).",
+          "source": "Egeria, Itinerarium; Gregory of Nyssa, Vita Macrinae; Jerome, Epp.; Clark, Women in the Early Church (1983)"
+        },
+        {
+          "claim": "the day itself - the work, the children, the sickness, the ordinary hours - we cannot walk you through, because those pages do not survive",
+          "problem": "This refusal is itself false. Sources for ordinary Christian days in this window are abundant. They include Chrysostom's Antioch homilies (on households, children, the theatre, the baths), Augustine's sermons, Egeria's account of the daily offices in Jerusalem, and the Theodosian Code on Sunday rest (CTh 2.8.1, 321). The honest answer is that this particular record is narrow. It is not true that the pages do not survive.",
+          "source": "Chrysostom, Homilies on the Statues, On Vainglory and the Education of Children; Egeria 24-25; CTh 2.8.1"
+        },
+        {
+          "claim": "the blessing changes the very nature of what stands on the altar",
+          "problem": "This is correct (Ambrose, De mysteriis 9.50: 'benedictione etiam natura ipsa mutatur'). It should be credited to Ambrose's mystagogy. Leo's collection sermons are also correctly reported.",
+          "source": "Ambrose, De mysteriis 9.50-54; Leo, Sermones 6-11 (de collectis)"
+        }
+      ],
+      "reader_note": "The positive content is good, but the refusal to describe daily life rests on a false claim about the sources. Clear and short."
+    },
+    {
+      "item": 9,
+      "verdict": "REJECT",
+      "doubted_claims": [
+        {
+          "claim": "What we did not set out is the full Augustinian machinery your later ages built around it - inherited guilt ... concupiscence, baptism as the remedy spelled out in full system",
+          "problem": "This is an anachronism. Augustine built that system inside this window: De peccatorum meritis (411-12), De nuptiis et concupiscentia (419-21), and the anti-Julian works. The Council of Carthage in 418, with imperial backing (Honorius' rescript of 418), legislated infant baptism 'for the remission of sins' contracted from Adam. It was not 'your later ages'.",
+          "source": "Augustine, De peccatorum meritis et remissione; Council of Carthage 418, canons 1-2; Bonner, St Augustine of Hippo: Life and Controversies"
+        },
+        {
+          "claim": "Yes, plainly. ... Leo stated it as settled doctrine, not as one side of a live argument.",
+          "problem": "This states a contested question as settled. The Pelagian controversy (411-431) was one of the window's sharpest live arguments. It involved councils at Diospolis (415), Carthage (418) and Ephesus (431), imperial edicts, and a reversal by Pope Zosimus. Greek writers such as Chrysostom and Theodore of Mopsuestia spoke of inherited mortality and corruption rather than inherited guilt. Chrysostom says infants are baptized 'though they have no sins'. Western and Eastern answers differed.",
+          "source": "Chrysostom, Baptismal Instructions 3.6; Zosimus, Tractoria; Kelly, Early Christian Doctrines ch. 13"
+        },
+        {
+          "claim": "Leo wrote that the state of everyone descended from our first parents was this: original sin passed down to all ... He reached for Paul to say it twice over",
+          "problem": "I cannot confirm which Leo letter is meant. The Tome (Ep. 28) does not contain this passage in this form. If the source is Ep. 165 (458), it falls outside the window. A citation is needed.",
+          "source": "Unverified; Leo, Epp. 28 and 165"
+        }
+      ],
+      "reader_note": "It is clear, but it rests the whole answer on one Leo text and ignores the Pelagian controversy and Augustine, which were the main events on this exact question inside the window."
+    },
+    {
+      "item": 10,
+      "verdict": "ACCEPT WITH CORRECTION",
+      "doubted_claims": [
+        {
+          "claim": "What we did not have is your own age's emphasis on inward experience. Our record marks the threshold. It does not record how it felt.",
+          "problem": "Overstated. Augustine describes his baptism at Easter 387 and the tears it brought (Confessions 9.6.14). Cyril of Jerusalem's and Ambrose's mystagogical catecheses dwell on the candidates' experience of the rites, and Gregory of Nazianzus' Oration 40 is about baptism. The language of rebirth (regeneratio, John 3:5) was standard for baptism.",
+          "source": "Augustine, Confessions 9.6.14; Cyril of Jerusalem, Mystagogic Catecheses; Gregory Nazianzen, Or. 40"
+        }
+      ],
+      "reader_note": "The facts are accurate: Constantine's deathbed baptism in 337, Theodosius' baptism at Thessalonica in 380 by Acholius, and the delay of baptism as a common practice. Clear and well-sized."
+    }
+  ],
+  "overall_view": "I could put my name to roughly half of these answers after editing. The juridical and conciliar material is mostly accurate and sometimes notably good: Julius in 341, the canons of 381 and 451, 'intra ecclesiam, non supra', Callinicum, the Homoian emperors, and the baptisms of Constantine and Theodosius. The answers are also commendably frank about gaps. The weaknesses follow a pattern. The voice treats the limits of its own narrow file of sources as if they were limits of the historical record. It then makes false claims of absence: that no daily life survives, that only two empresses act and neither has her own voice, that no one recorded private prayer or inward experience. In places it also misreads or mislocates proof-texts (Nicaea canon 6, the Tome 'sent to Chalcedon'). The most serious failure is item 9. It presents original sin as uncontested and pushes Augustine's system into 'later ages', when the Pelagian controversy and Carthage 418 fall squarely inside the window. The single biggest change I would make is to distinguish 'our record does not hold this' from 'the period's sources do not hold this', and to check every claim of absence against the wider corpus of the period (Augustine, Chrysostom, Egeria, Jerome, the Theodosian Code) before stating it."
+}
