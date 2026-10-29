@@ -59,7 +59,11 @@ openings, any change to the production path.
 | S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | | | |
 | S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | | | |
 | S1-04 judge trial in shadow | $25 ceiling, sample first | Specialist and gold set | | | |
-| S1-05 contextual indexing, twelve shelves | $200 ceiling, sample first | Library (engine runs the index) | | | |
+| S1-05 no-context index of the twelve shelves (paid context lines not authorized, Decision-Log entry 10) | none: free, no model call | Library | 2026-10-29 17:12Z | 2026-10-29 19:23Z (union index 354,589 passages built and verified; lpc retrieval bench filed; free retrieval trials running) | 2 h 11 min |
+| Library stage 2, segmenter and union measurement (twelve shelves, 338 files) | none: free | Library | 2026-10-29 17:16Z | 2026-10-29 18:58Z (PR 1284 merged; report `Stage2_Segmentation_Report.md`) | 1 h 42 min |
+| Library stage 2, source records fold into the corpus map (`shelf_row` pointers, twelve pull requests) | none: free | Library | 2026-10-29 17:16Z | not completed | |
+| Library stage 2, curation layer and the 237 partial or unmarked plain-text files | none: free, in-plan | Library | 2026-10-29 18:55Z | layer merged 2026-10-29 19:35Z (PR 1291); wave 1 (lpc, 64 files) running | layer 40 min |
+| Library stage of the five priority worlds | none: free, in-plan | Library | 2026-10-29 17:17Z | not completed (rcg and aec second reviews and latap Doc_02 in review) | |
 | S1-L1, S1-L3 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
 
 Dates and elapsed time are filled in by the thread that finishes the item.
