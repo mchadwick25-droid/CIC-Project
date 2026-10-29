@@ -42,6 +42,7 @@ class RecordEvidence:
     record_id: str
     record_type: str
     quote: str | None
+    retrieve_when: list[str] = field(default_factory=list)
     citations: list[Citation] = field(default_factory=list)
 
 
@@ -74,7 +75,8 @@ def load_record_evidence(records_dir: Path) -> dict[str, RecordEvidence]:
         front = read_front_matter(path)
         if not front.get("id"):
             continue
-        item = RecordEvidence(front["id"], front.get("record_type", ""), front.get("text") if front.get("record_type") == "quote" else None)
+        item = RecordEvidence(front["id"], front.get("record_type", ""), front.get("text") if front.get("record_type") == "quote" else None,
+                              [str(x) for x in (front.get("retrieval") or {}).get("retrieve_when") or []])
         for source in front.get("sources") or []:
             item.citations += parse_citations(str(source.get("locus") or ""))
         if item.citations or item.quote:
@@ -180,6 +182,15 @@ class Case:
     wording: str
     record_id: str
     best_rank: int | None
+    condition: str = "wording"
+
+
+CONDITIONS = ("wording", "wording+label", "record routing")
+_ROUTING_LEAD = re.compile(r"^participant (?:asks|is asking|says|wants)( about| whether| how| what| if| to)?\s*", re.IGNORECASE)
+
+
+def routing_query(retrieve_when: list[str]) -> str:
+    return " ".join(_ROUTING_LEAD.sub("", phrase) for phrase in retrieve_when)
 
 
 def run_bench(db_path: Path, world: str, evidence: dict[str, RecordEvidence], cells: dict[str, list[str]],
@@ -187,24 +198,29 @@ def run_bench(db_path: Path, world: str, evidence: dict[str, RecordEvidence], ce
     gold_cache = {rid: gold_passages(db_path, ev, texts_dir) for rid, ev in evidence.items()}
     cases: list[Case] = []
     ungrounded: dict[str, list[str]] = defaultdict(list)
+
+    def add(cell, wording_id, text, usable, condition):
+        position = {pid: i + 1 for i, pid in enumerate(ranked(db_path, text, world))}
+        for rid in usable:
+            ranks = [position[p] for p in gold_cache[rid] if p in position]
+            cases.append(Case(cell, cell.split(".")[0], wording_id, text, rid, min(ranks) if ranks else None, condition))
+
     for cell, record_ids in cells.items():
         sub = subquestions.get(cell)
         if not sub:
             continue
         usable = [r for r in record_ids if gold_cache.get(r)]
-        for r in record_ids:
-            if r not in usable:
-                ungrounded[cell].append(r)
+        ungrounded[cell] += [r for r in record_ids if r not in usable]
         for wording_id in sub["ids"]:
             wording = questions.get(wording_id)
-            if not wording:
-                continue
-            order = ranked(db_path, wording, world)
-            position = {pid: i + 1 for i, pid in enumerate(order)}
-            for rid in usable:
-                ranks = [position[p] for p in gold_cache[rid] if p in position]
-                cases.append(Case(cell, cell.split(".")[0], wording_id, wording, rid, min(ranks) if ranks else None))
-    return cases, gold_cache, ungrounded
+            if wording:
+                add(cell, wording_id, wording, usable, CONDITIONS[0])
+                add(cell, wording_id, f"{wording} {sub['label']}", usable, CONDITIONS[1])
+        for rid in usable:
+            routing = routing_query(evidence[rid].retrieve_when)
+            if routing.strip():
+                add(cell, "retrieve_when", routing, [rid], CONDITIONS[2])
+    return cases, gold_cache, {k: v for k, v in ungrounded.items() if v}
 
 
 def recall(cases: list[Case], k: int) -> float:

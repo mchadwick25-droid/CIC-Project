@@ -290,9 +290,10 @@ def test_bench_reaches_cited_passages_and_reports_unresolvable_records(world, tm
     passages = world[0]
     assert set(gold["lpc.quote.unity"]) == {passages[3].passage_id}
     assert set(gold["lpc.witness.lapsed"]) == {passages[1].passage_id}
-    by = {(c.wording_id, c.record_id): c.best_rank for c in cases}
+    by = {(c.wording_id, c.record_id): c.best_rank for c in cases if c.condition == "wording"}
     assert by[("Q1", "lpc.quote.unity")] == 1
     assert ungrounded["C1.S1"] == ["lpc.quote.absent"]
-    assert bench.recall(cases, 5) > 0
+    assert bench.recall([c for c in cases if c.condition == "wording"], 5) > 0
+    assert "wording+label" in {c.condition for c in cases}
     text = benchreport.render_report(db, "lpc", cases, gold, ungrounded, {"C1": "Jesus"}, subs, store.read_meta(db))
-    assert "recall@10" in text and "lpc.quote.absent" in text and "C1 Jesus" in text
+    assert "@10" in text and "lpc.quote.absent" in text and "C1 Jesus" in text
