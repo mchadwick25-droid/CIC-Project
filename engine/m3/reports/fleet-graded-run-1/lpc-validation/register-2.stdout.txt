@@ -1,0 +1,5 @@
+LIVE TEST: fleet graded run 1
+CAP: $0.70
+MODELS: us.anthropic.claude-haiku-4-5-20251001-v1:0, us.anthropic.claude-sonnet-4-5-20250929-v1:0
+ROUTE: Bedrock, regional inference profile, us-east-1
+LEDGER: /home/user/CIC-Project/engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-register-2.jsonl
