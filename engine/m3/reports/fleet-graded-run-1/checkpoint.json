@@ -139,10 +139,10 @@
       "status": "running",
       "preflight_usd": 0.6326298,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-cappadocian.jsonl",
-      "probes_answered": 0,
-      "spent_usd_world": 0.0
+      "probes_answered": 9,
+      "spent_usd_world": 0.585516
     }
   },
   "current": "cappadocian",
-  "checkpoint_at": "2026-10-29T00:11:28Z"
+  "checkpoint_at": "2026-10-29T00:13:18Z"
 }
