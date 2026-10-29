@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 13.836202,
+  "spent_usd": 14.139446,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -416,9 +416,11 @@
       "exit_code": 0
     },
     "pahc": {
-      "status": "running",
+      "status": "done",
       "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-pahc.jsonl",
-      "estimate": 0.2431
+      "estimate": 0.2431,
+      "spent_usd_world": 0.303244,
+      "exit_code": 0
     }
   }
 }
