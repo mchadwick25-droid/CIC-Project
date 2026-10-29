@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 11.816303,
+  "spent_usd": 11.971257,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -351,11 +351,11 @@
       "exit_code": 0
     },
     "thinness-2": {
-      "status": "failed",
+      "status": "done",
       "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-thinness-2.jsonl",
       "estimate": 0.032033,
-      "spent_usd_world": 0.03426,
-      "exit_code": 1
+      "spent_usd_world": 0.154954,
+      "exit_code": 0
     }
   }
 }
