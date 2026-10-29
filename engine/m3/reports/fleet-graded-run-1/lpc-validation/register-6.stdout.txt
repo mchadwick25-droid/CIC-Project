@@ -3,3 +3,895 @@ CAP: $0.57
 MODELS: us.anthropic.claude-haiku-4-5-20251001-v1:0, us.anthropic.claude-sonnet-4-5-20250929-v1:0
 ROUTE: Bedrock, regional inference profile, us-east-1
 LEDGER: /home/user/CIC-Project/engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-register-6.jsonl
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.5717,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.034128
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2251,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2089,
+      "output_tokens": 255,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 4002,
+      "output_tokens": 361,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Did your people believe outsiders were going to hell?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Cyprian said that none are saved outside the Church, and he said it twice. In one place he wrote about heretics -- people who confessed Christ but stood apart in their own separate body. In the other he told a pagan persecutor what awaits those who will not believe. There will be no respite and no end to their torments. He gave the ark of Noah as his picture. If any one could escape who was outside the ark of Noah, then he also may escape who shall be outside of the Church. Yet he pressed the same man to turn while he lived.\n\nAugustine met the same question from the other side. Many around him pitied the lost and would not believe in eternal punishment. He called their moan in vain.\n\nNeither bishop wrote of people who never heard of Christ. We do not claim to know what they would have said of them.",
+          "citations": [
+            {
+              "sentence": "If any one could escape who was outside the ark of Noah, then he also may escape who shall be outside of the Church.",
+              "record_ids": [
+                "lpc.witness.no-salvation-outside-the-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.no-salvation-outside-the-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote that there is no salvation outside the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Many around him pitied the lost and would not believe in eternal punishment.",
+              "record_ids": [
+                "lpc.witness.punishment-without-end"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.punishment-without-end",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine taught that the punishment of the lost has no end",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 111, two kingdoms after the final judgment, with \"degrees of misery\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23591-23604; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12467-12478",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 112, the many who \"make moan over the eternal punishment\" and the allowed supposition of a respite -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23613-23641; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12480-12516",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 113, the death of the wicked \"shall abide for ever\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23660-23668; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12534-12541",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He called their moan in vain.",
+              "record_ids": [
+                "lpc.witness.punishment-without-end"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.punishment-without-end",
+                  "record_type": "doctrinal_witness",
+                  "label": "Augustine taught that the punishment of the lost has no end",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 111, two kingdoms after the final judgment, with \"degrees of misery\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23591-23604; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12467-12478",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 112, the many who \"make moan over the eternal punishment\" and the allowed supposition of a respite -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23613-23641; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12480-12516",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 113, the death of the wicked \"shall abide for ever\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23660-23668; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12534-12541",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Neither bishop wrote of people who never heard of Christ.",
+              "record_ids": [
+                "lpc.witness.no-salvation-outside-the-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.no-salvation-outside-the-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote that there is no salvation outside the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 0,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 532,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.answerability-as-ground"
+            ],
+            "term": [
+              "lpc.term.schism",
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces",
+              "lpc.story.the-death-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.an-ever-burning-gehenna",
+              "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+              "lpc.quote.clamour-and-tears",
+              "lpc.quote.ye-belong-to-my-care"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Cyprian said that none are saved outside the Church, and he said it twice.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Cyprian said that none are saved outside the Church, and he said it twice."
+              },
+              {
+                "sentence": "In one place he wrote about heretics -- people who confessed Christ but stood apart in their own separate body.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "In one place he wrote about heretics -- people who confessed Christ but stood apart in their own separate body."
+              },
+              {
+                "sentence": "In the other he told a pagan persecutor what awaits those who will not believe.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "In the other he told a pagan persecutor what awaits those who will not believe."
+              },
+              {
+                "sentence": "There will be no respite and no end to their torments.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "There will be no respite and no end to their torments."
+              },
+              {
+                "sentence": "He gave the ark of Noah as his picture.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['noah']) with no citation tag",
+                "draft": "He gave the ark of Noah as his picture."
+              },
+              {
+                "sentence": "If any one could escape who was outside the ark of Noah, then he also may escape who shall be outside of the Church.",
+                "tags": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "If any one could escape who was outside the ark of Noah, then he also may escape who shall be outside of the Church [[lpc.witness.no-salvation-outside-the-church]]."
+              },
+              {
+                "sentence": "Yet he pressed the same man to turn while he lived.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Yet he pressed the same man to turn while he lived."
+              },
+              {
+                "sentence": "Augustine met the same question from the other side.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine met the same question from the other side."
+              },
+              {
+                "sentence": "Many around him pitied the lost and would not believe in eternal punishment.",
+                "tags": [
+                  "lpc.witness.punishment-without-end"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Many around him pitied the lost and would not believe in eternal punishment [[lpc.witness.punishment-without-end]]."
+              },
+              {
+                "sentence": "He called their moan in vain.",
+                "tags": [
+                  "lpc.witness.punishment-without-end"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He called their moan in vain [[lpc.witness.punishment-without-end]]."
+              },
+              {
+                "sentence": "Neither bishop wrote of people who never heard of Christ.",
+                "tags": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "verdict": "ok",
+                "why": "grounded 71% in own tagged records",
+                "ratio": 0.71,
+                "draft": "Neither bishop wrote of people who never heard of Christ [[lpc.witness.no-salvation-outside-the-church]]."
+              },
+              {
+                "sentence": "We do not claim to know what they would have said of them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We do not claim to know what they would have said of them."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Cyprian said that none are saved outside the Church, and he said it twice.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "1": {
+                    "sentence": "In one place he wrote about heretics -- people who confessed Christ but stood apart in their own separate body.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "In the other he told a pagan persecutor what awaits those who will not believe.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "There will be no respite and no end to their torments.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "He gave the ark of Noah as his picture.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "6": {
+                    "sentence": "Yet he pressed the same man to turn while he lived.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.witness.punishment-without-end"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Augustine met the same question from the other side.",
+                    "tags": [
+                      "lpc.witness.punishment-without-end"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "We do not claim to know what they would have said of them.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "On the day of judgment, he wrote, \"an ever-burning Gehenna will burn up the condemned",
+                  "why": "lead-in to a placed quote types a quotation of its own",
+                  "draft": "On the day of judgment, he wrote, \"an ever-burning Gehenna will burn up the condemned [[quote:lpc.quote.an-ever-burning-gehenna]]"
+                },
+                {
+                  "sentence": "He wrote that some, indeed very many, make moan over the eternal punishment",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "He wrote that some, indeed very many, make moan over the eternal punishment [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]]"
+                },
+                {
+                  "sentence": "To him who still remains in this world, he wrote, no repentance is too late.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "To him who still remains in this world, he wrote, no repentance is too late [[lpc.witness.no-salvation-outside-the-church]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 74
+              },
+              {
+                "index": 1,
+                "text_start": 75,
+                "text_end": 186
+              },
+              {
+                "index": 2,
+                "text_start": 187,
+                "text_end": 266
+              },
+              {
+                "index": 3,
+                "text_start": 267,
+                "text_end": 321
+              },
+              {
+                "index": 4,
+                "text_start": 322,
+                "text_end": 361
+              },
+              {
+                "index": 5,
+                "text_start": 362,
+                "text_end": 478
+              },
+              {
+                "index": 6,
+                "text_start": 479,
+                "text_end": 530
+              },
+              {
+                "index": 7,
+                "text_start": 532,
+                "text_end": 584
+              },
+              {
+                "index": 8,
+                "text_start": 585,
+                "text_end": 661
+              },
+              {
+                "index": 9,
+                "text_start": 662,
+                "text_end": 691
+              },
+              {
+                "index": 10,
+                "text_start": 693,
+                "text_end": 750
+              },
+              {
+                "index": 11,
+                "text_start": 751,
+                "text_end": 809
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 0,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.no-salvation-outside-the-church",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote that there is no salvation outside the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.punishment-without-end",
+                "record_type": "doctrinal_witness",
+                "label": "Augustine taught that the punishment of the lost has no end",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 111, two kingdoms after the final judgment, with \"degrees of misery\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23591-23604; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12467-12478",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 112, the many who \"make moan over the eternal punishment\" and the allowed supposition of a respite -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23613-23641; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12480-12516",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 113, the death of the wicked \"shall abide for ever\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23660-23668; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12534-12541",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.no-salvation-outside-the-church",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote that there is no salvation outside the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.punishment-without-end",
+                "record_type": "doctrinal_witness",
+                "label": "Augustine taught that the punishment of the lost has no end",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 111, two kingdoms after the final judgment, with \"degrees of misery\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23591-23604; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12467-12478",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 112, the many who \"make moan over the eternal punishment\" and the allowed supposition of a respite -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23613-23641; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12480-12516",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 113, the death of the wicked \"shall abide for ever\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23660-23668; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12534-12541",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                4
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "On the day of judgment, he wrote, \"an ever-burning Gehenna will burn up the condemned",
+                "why": "lead-in to a placed quote types a quotation of its own",
+                "draft": "On the day of judgment, he wrote, \"an ever-burning Gehenna will burn up the condemned [[quote:lpc.quote.an-ever-burning-gehenna]]"
+              },
+              {
+                "sentence": "He wrote that some, indeed very many, make moan over the eternal punishment",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "He wrote that some, indeed very many, make moan over the eternal punishment [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]]"
+              },
+              {
+                "sentence": "To him who still remains in this world, he wrote, no repentance is too late.",
+                "why": "words attributed without a placed quote",
+                "draft": "To him who still remains in this world, he wrote, no repentance is too late [[lpc.witness.no-salvation-outside-the-church]]."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
