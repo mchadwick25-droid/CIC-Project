@@ -1,0 +1,2 @@
+{"at": "2026-10-29T03:12:29.956+00:00", "live_test": "fleet graded run 1", "cap_usd": 1.3348, "event": "hold", "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0", "hold_usd": 0.005841, "spent_usd": 0.0}
+{"at": "2026-10-29T03:12:30.029+00:00", "live_test": "fleet graded run 1", "cap_usd": 1.3348, "event": "hold", "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0", "hold_usd": 0.005611, "spent_usd": 0.0}

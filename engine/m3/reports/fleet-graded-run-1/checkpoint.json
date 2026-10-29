@@ -437,8 +437,9 @@
       "exit_code": 0
     },
     "cappadocian": {
-      "status": "not_run",
-      "reason": "spent $14.6652 + estimate $0.3511 would pass $15.0"
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-cappadocian.jsonl",
+      "estimate": 0.3511
     },
     "don": {
       "status": "not_run",
