@@ -1,7 +1,7 @@
 file: possidius_vita-augustini_weiskotten1919.txt
 scheme: 'Possidius Life of Augustine in Weiskotten 1919: the Praefatio and Capita I to XXXI of the Latin text (printed CAPUT) and the matching English version (printed CHAPTER); inside chapter 30 the numbered paragraphs of Augustine''s letter that Possidius quotes, as printed; the introduction, notes and indexes are apparatus'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
   - id: caput
     pattern: '^(?:\d{1,2} )?CAPUT (?P<n>[IVXL]+)$'

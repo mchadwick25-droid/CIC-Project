@@ -240,6 +240,54 @@ def gate_narratability(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: tellable_as is required and must be non-empty")
         if _is_blank(rec.get("text")):
             findings.append(f"{rid}: text is required and must be non-empty")
+        findings.extend(_story_telling_findings(rid, rec))
+    return findings
+
+
+STORY_TELLING_TARGET_WORDS = {"telling_short": 90, "telling_medium": 160}
+STORY_TELLING_LENGTH_TOLERANCE = 1.15
+_WORD = re.compile(r"[A-Za-z0-9']+")
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+
+
+def _story_vocabulary(rec: dict) -> set[str]:
+    parts = [rec.get(f) or "" for f in ("text", "telling", "tellable_as", "heart")]
+    parts += [e.get("line") or "" for e in rec.get("events") or [] if isinstance(e, dict)]
+    parts.append((rec.get("use_note") or {}).get("means") or "")
+    return {w.lower() for part in parts for w in _WORD.findall(part)}
+
+
+def _added_names_and_numbers(telling: str, vocabulary: set[str]) -> list[str]:
+    """Capitalised words that do not open a sentence, and numbers, that the
+    full record never uses: the cheap screen for something added."""
+    added = []
+    for sentence in _SENTENCE_SPLIT.split(telling.strip()):
+        for position, word in enumerate(_WORD.findall(sentence)):
+            token = word.lower()
+            named = position > 0 and word[:1].isupper() and word != "I"
+            if (named or word.isdigit()) and token not in vocabulary and token not in added:
+                added.append(token)
+    return added
+
+
+def _story_telling_findings(rid: str, rec: dict) -> list[str]:
+    findings = []
+    events = rec.get("events")
+    tellings = {f: rec[f] for f in STORY_TELLING_TARGET_WORDS if not _is_blank(rec.get(f))}
+    if events is not None:
+        for i, event in enumerate(events):
+            if not isinstance(event, dict) or _is_blank(event.get("line")) or _is_blank(event.get("rests_on")):
+                findings.append(f"{rid}: events[{i}] needs a non-empty line and rests_on")
+    if tellings and not any(isinstance(e, dict) and e.get("essential") for e in events or []):
+        findings.append(f"{rid}: a shorter telling needs events with at least one marked essential")
+    vocabulary = _story_vocabulary(rec)
+    for field, telling in tellings.items():
+        words = len(telling.split())
+        limit = STORY_TELLING_TARGET_WORDS[field] * STORY_TELLING_LENGTH_TOLERANCE
+        if words > limit:
+            findings.append(f"{rid}: {field} runs {words} words, over its target of about {STORY_TELLING_TARGET_WORDS[field]}")
+        for token in _added_names_and_numbers(telling, vocabulary):
+            findings.append(f"{rid}: {field} uses {token!r}, which the full record does not")
     return findings
 
 

@@ -1,7 +1,7 @@
 file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
 scheme: 'Monceaux''s Livre Cinquième, Sixième and Septième with their Chapitres numbered in roman numerals and, inside each chapter, the sections numbered I, II, III and so on, each opened by its numeral and an italic summary of its contents; addressed l<Livre>/c<Chapitre>/s<section>, Livre numbers 5 to 7 as printed. Where the scan has dropped or damaged a section''s numeral the section is read from the same heading in the Table des matières, which prints it; the Appendice (Avertissement and the lists I and II) and the Table des matières as printed'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 90
     locus: l5/c1/s1

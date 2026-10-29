@@ -3,9 +3,9 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-09-25
 pilot_world: false
-current_step: Steps 0-2 filed at the current paths; Step 0 and Doc_01 Approved to proceed (project-lead ruling 2026-10-29, relayed via the coordination thread; Hub log entry pending); Doc_02 and the Source Registry did not clear the second cap-ruling review and are back with the project lead; Doc_03 not started; rcg is registered (state building)
+current_step: Steps 0-2 filed at the current paths; Step 0, Doc_01, Doc_02 and the Source Registry Approved to proceed (project-lead rulings 2026-10-29, relayed via the coordination thread; Hub log entries pending); Doc_03 not started; rcg is registered (state building)
 status: in_progress
-pause_point: project-lead disposition of the open findings of the second cap-ruling review of Doc_02 and Source_Registry (Review-Artifacts/Doc02_CapRuling_Review2.md, CR2-1 and CR2-2 substantial; CR2-3 to CR2-5 low)
+pause_point: Doc_03 (Lexicon Candidate List) not started; next action is the project lead's go-ahead to begin it
 documents:
   - id: Step_0
     status: Approved to proceed; Round 3 verdict CLEARED; Tier 1 recommendation confirmed as written (project-lead ruling 2026-10-29, relayed via the coordination thread; Hub log entry pending)
@@ -19,11 +19,11 @@ documents:
     review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc01_Round2_Review.md, Review-Artifacts/Doc01_Round3_Review.md]
     gates_result:
   - id: Doc_02
-    status: not cleared; second cap-ruling review (project-lead ruling 2026-10-29, Hub Decision Log "Cap ruling" entry naming Doc02_CapRuling_Review2.md; does not count toward the cap) verdict SUBSTANTIAL REVISION REQUIRED (narrow); CR-1 to CR-7 closed, two new substantial findings (CR2-1, CR2-2) and three low ones; back with the project lead, no further round on the build thread's own initiative (Source_Registry.md travels with it)
+    status: Approved to proceed (project-lead ruling 2026-10-29 (fix, script verification, approve to proceed; no third model review), relayed via the coordination thread; script output Review-Artifacts/Doc02_ScriptCheck_Output.md; Source_Registry.md travels with it; the second cap-ruling review, Review-Artifacts/Doc02_CapRuling_Review2.md, verdict SUBSTANTIAL REVISION REQUIRED (narrow), did not count toward the cap, and its findings CR2-1 to CR2-5 are fixed; Hub log entry pending)
     rounds_used: 3
     drafter_model: Sonnet 5.5
     reviewer_model: Opus 5.5
-    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md, Review-Artifacts/Doc02_CapRuling_Review.md, Review-Artifacts/Doc02_CapRuling_Review2.md]
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md, Review-Artifacts/Doc02_Round3_Review.md, Review-Artifacts/Doc02_CapRuling_Review.md, Review-Artifacts/Doc02_CapRuling_Review2.md, Review-Artifacts/Doc02_ScriptCheck_Output.md]
     gates_result:
   - id: Representative_identity
     status: not started; decided at Doc_10
@@ -33,5 +33,5 @@ open_items_pointer: Open_Gaps_Tracking.md
 ledger_pointer:
 handoff_manifest_pointer: rcg_Handoff_Manifest.md
 metered_ceiling:
-escalations: [Doc_02 and Source_Registry did not clear the second cap-ruling review (two substantial findings, CR2-1 and CR2-2, in Review-Artifacts/Doc02_CapRuling_Review2.md)]
+escalations: []
 freeze_package_pointer:
