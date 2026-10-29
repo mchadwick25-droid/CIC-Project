@@ -7246,3 +7246,11 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Scope.** One second attempt of the cappadocian admission world through the same driver and settings as the other eleven worlds, written beside the first attempt (the first attempt's 28 answers and ledger stay on the branch). If the harness refuses its report again, the run stops and is reported; no third attempt. Nothing else is added.
 
 **Where.** All files stay on the branch `claude/fleet-graded-run-1`; nothing is merged to `main`, per Mark's order of 2026-10-28.
+
+## 2026-10-29 - Request to the engine thread: the live admission harness loses what it has not yet written (project lead's request)
+
+**Question.** cappadocian's admission world was run twice for fleet graded run 1 and the harness refused its report both times, after one retried call each. Mark asked for it to be written up for the engine thread.
+
+**Done.** The request is `Build/Ministry/Operations/Audits/fleet-graded-run-1/Engine_Thread_Request_Admission_Harness_2026-10-29.md` on the branch `claude/fleet-graded-run-1`. It asks for the full transcript and checks to be saved as each probe finishes, the error of every failed call to be recorded, a retried call not to discard a finished world, and the cappadocian failure to be root-caused; it also lists where the admission harness does not match live use. No engine code was changed. The cost of the two cappadocian attempts was $2.24.
+
+**Open.** The engine thread decides. Any paid reproduction of the cappadocian failure needs a named, capped live test from Mark.
