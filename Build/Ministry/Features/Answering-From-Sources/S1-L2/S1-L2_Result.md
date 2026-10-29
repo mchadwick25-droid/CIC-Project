@@ -12,7 +12,7 @@ The 308 saved drafts of fleet graded run 1 (eleven worlds; cappadocian saved no 
 
 A reply carries one placed quote, so a draft whose quote was already placed takes no repair.
 
-Reproduce: check out the saved runs from branch `claude/fleet-run-1-analysis` (`engine/m3/reports/fleet-graded-run-1/`), restore packages (`python -m engine.m2.cli restore`), then `python bench.py <dir of the world json files> <out dir>` and `python summarize.py <out dir>/results.json <out>.md`.
+Reproduce: take the saved run files (alx, desert, don, gallic, hal, ijc, lpc, pahc, syr, witt and the second rzg attempt) from branch `claude/fleet-run-1-analysis`, restore packages (`python -m engine.m2.cli restore`), then `python bench.py <dir of the world json files> <out dir>` and `python summarize.py <out dir>/results.json <out>.md`.
 
 ## Result
 
