@@ -257,3 +257,18 @@ spending to fast. we want to be efficiant, but not restrictive".
   sessions and the threads' own work), has no cap. Mark monitors use and will
   slow the work if it runs too fast. Threads work efficiently and are not
   restricted by a budget ceiling.
+
+## 6. No paid overage; voice is an approved process (2026-10-29)
+
+Mark, 2026-10-29, in chat: "yes we will not spend paid overages, and yes
+voice is also an approved process".
+
+- No paid overage on the Max plan. "Extra usage" stays off. Hitting the weekly
+  ceiling means slowing down, not paying.
+- Voice (text-to-speech) is an approved process, as a class of real spend.
+  CLAUDE.md's rule for paid bulk runs on outside services is unchanged: a
+  small sample first, paid settings passed explicitly on the command and
+  printed with item and character counts. Mark's words approve the process;
+  they do not name a run or a cap, and no stage 1 item uses voice.
+- Real spend on model APIs (engine, Bedrock, other vendors) still needs
+  Mark's permission by name with a cap (entry 5).
