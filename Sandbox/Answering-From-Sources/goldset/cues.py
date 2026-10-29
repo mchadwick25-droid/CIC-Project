@@ -15,6 +15,9 @@ drawn.
   python -m goldset.cues --pool <pool.jsonl> --exclude-world lpc --out <cues.jsonl>
   python -m goldset.cues --pool <pool.jsonl> --exclude-world lpc --out <cues.jsonl> --select <draw.jsonl>
 
+With --all-cued, also writes every item that has a cue as a draw, for a later
+stream that takes what earlier streams left (goldset.stream --exclude-labelled).
+
 With --select, also writes the draw for a labelling stream: every item with
 a generalisation or embedded-voice cue, up to PER_WORLD items per world for
 each of the false-friend and negation cues, and a plain random sample of
@@ -91,6 +94,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--exclude-world", action="append", default=[])
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--select", type=Path)
+    parser.add_argument("--all-cued", type=Path, help="also write every item with a cue as a draw, each drawn by its first cue")
     args = parser.parse_args(argv)
     rows, pool_ids = [], []
     for item in read_jsonl(args.pool):
@@ -103,6 +107,8 @@ def main(argv: list[str] | None = None) -> int:
             rows.append({"item_id": item["item_id"], "world": item["world"], "cues": found})
     write_jsonl(args.out, rows)
     print(json.dumps({"items_with_a_cue": len(rows), "by_cue": Counter(c for r in rows for c in r["cues"])}, sort_keys=True))
+    if args.all_cued:
+        write_jsonl(args.all_cued, [{"item_id": r["item_id"], "drawn_by": f"cue:{r['cues'][0]}"} for r in rows])
     if args.select:
         drawn = draw(rows, pool_ids)
         write_jsonl(args.select, drawn)

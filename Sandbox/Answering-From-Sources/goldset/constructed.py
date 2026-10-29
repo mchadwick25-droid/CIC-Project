@@ -39,6 +39,8 @@ def problems(candidate: dict) -> list[str]:
         if record is None:
             found.append(f"{binding['id']} is not a record of {candidate['world']} at {candidate['records_commit'][:8]}")
         else:
+            if record.get("status") != "ready":
+                found.append(f"{binding['id']} has status {record.get('status')!r}, not ready")
             texts.append(_fold(git_show(candidate["records_commit"], record["_path"]) or ""))
     if texts and not any(_fold(candidate["record_words"]) in t for t in texts):
         found.append("record_words are not in any bound record")
