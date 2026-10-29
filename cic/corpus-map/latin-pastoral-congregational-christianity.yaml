@@ -2943,10 +2943,8 @@ works:
     at pp. 118-121
   role: tradition
   confidence: provisional
-  note: 'Latin and Greek second witness to the English entry in this bucket (source_file anf03_tertullian.xml,
-    where the work is printed as an Appendix). The same file also prints the Passion of the
-    Scillitan Martyrs (pp. 112-117), which is not assigned here. The file header warns of
-    scan-level noise.
+  note: 'Latin and Greek second witness to the English entry in this bucket (source_file anf09_gospel-of-peter-diatessaron-origen-commentaries.xml),
+    held in the same role and confidence as that entry.
 
     '
   source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt

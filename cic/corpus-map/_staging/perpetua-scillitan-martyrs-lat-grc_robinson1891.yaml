@@ -14,9 +14,23 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      Latin and Greek second witness to the English entry in this bucket (source_file anf03_tertullian.xml,
-      where the work is printed as an Appendix). The same file also prints the Passion of the Scillitan
-      Martyrs (pp. 112-117), which is not assigned here. The file header warns of scan-level noise.
+      Latin and Greek second witness to the English entry in this bucket (source_file
+      anf09_gospel-of-peter-diatessaron-origen-commentaries.xml), held in the same role
+      and confidence as that entry.
+
+  - row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
+    work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
+    author: passion_of_perpetua
+    locus: "pp. 60-95 of the printed volume"
+    atlas_ids:
+      - latin-apologists
+    role: tradition
+    confidence: assigned
+    note: >
+      Latin and Greek second witness to the English entry in this bucket (source_file
+      anf03_tertullian.xml, where the work is printed as an Appendix). The same file also
+      prints the Passion of the Scillitan Martyrs (pp. 112-117), which is assigned elsewhere.
+      The file header warns of scan-level noise.
     locus_ids:
     - pp. 60-95 of the printed volume
     language:

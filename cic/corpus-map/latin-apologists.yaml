@@ -654,6 +654,19 @@ works:
     note, set at Carthage in 202 or 203. Its New Prophecy affinities are argued; a co-assignment
     to `montanism-the-new-prophecy` is open.
   source_file: anf03_tertullian.xml
+- row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
+  work: The Passion of the Holy Martyrs Perpetua and Felicitas
+  author: passion_of_perpetua
+  locus: pp. 60-95 of the printed volume
+  role: tradition
+  confidence: assigned
+  note: 'Latin and Greek second witness to the English entry in this bucket (source_file anf03_tertullian.xml,
+    where the work is printed as an Appendix). The same file also prints the Passion of the
+    Scillitan Martyrs (pp. 112-117), which is assigned elsewhere. The file header warns of
+    scan-level noise.
+
+    '
+  source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--the-passion-of-the-holy-martyrs-perpetua-and-felicitas-latin
   work: The Passion of the Holy Martyrs Perpetua and Felicitas, Latin (Gebhardt 1902, no.
     VII)
