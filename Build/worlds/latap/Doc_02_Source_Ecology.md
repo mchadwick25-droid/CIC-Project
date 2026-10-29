@@ -220,7 +220,7 @@ Commodian's date is Contested. That he used Cyprian and read Tertullian and Minu
 
 **7. *De mortibus persecutorum* (Step 0 §4 item 6).** Harnack holds the work Lactantius's and Brandt denied it. The map assigns it to Imperial-Juridical Christianity (row 63, Excluded as a Named Comparandum). Doc_02 names the authorship dispute wherever the work is named and does not use the work as this world's voice.
 
-**8. Overlap with built worlds (Step 0 §4 item 7, re-confirmed in Doc_01 §7).** *PAHC* cites Tertullian's *Apology* and *Against Marcion* as etic corroboration, and one of its force records says the *Apology* "opens" a body of Latin defense, a wording this world does not adopt (OG-12). *LPC* shares the two Cyprian works and cites *On Modesty* chapter XXII (OG-11). *IJC* holds *De mortibus* only. The neighbour re-confirmation requests are logged in OG-10 and in each neighbour's own ledger. No built world's record is edited here.
+**8. Overlap with built worlds (Step 0 §4 item 7; Doc_01 §7).** *PAHC* cites Tertullian's *Apology* and *Against Marcion* as etic corroboration, and one of its force records says the *Apology* "opens" a body of Latin defense, a wording this world does not adopt (OG-12). *LPC* shares the two Cyprian works and cites *On Modesty* chapter XXII (OG-11). *IJC* holds *De mortibus* only. The requests to the neighbours to confirm the boundary are logged in OG-10 and in each neighbour's own ledger. No built world's record is edited here.
 
 ---
 
@@ -260,7 +260,7 @@ Tags use the five-level vocabulary. "Absence" is not a rating. Sources are Regis
 
 ## 9. Search record, field-bibliography sweep, and saturation
 
-**Channels used.** (1) The corpus map and `cic/texts/`: the assigned files, and a full-text search of the whole shelf for the five authors' names. (2) The census entry's `voices` and `sourcing` fields. (3) The Source Readiness Dossier. (4) The scholarship that the vendored Harnack, Monceaux and Schanz–Hosius–Krüger cite for dates. (5) The library's holdings report: 69 files marked "in scope, unread" have a disposition in the Registry; the report marks 2 files "by design" and 95 "out of window" and counts 1,359 with no coverage entry, a library gap that is counted and left. A network check on 2026-10-29 found archive.org, ccel.org, newadvent.org, tertullian.org, wikisource and gutenberg reachable from this session (OG-4); the leads in rows 68–74 were not pursued further in this build.
+**Channels used.** (1) The corpus map and `cic/texts/`: the assigned files, and a full-text search of the whole shelf for the five authors' names. (2) The census entry's `voices` and `sourcing` fields. (3) The Source Readiness Dossier. (4) The scholarship that the vendored Harnack, Monceaux and Schanz–Hosius–Krüger cite for dates. (5) The library's holdings report: 69 files marked "in scope, unread" have a disposition in the Registry; the report marks 2 files "by design" and 95 "out of window" and counts 1,359 with no coverage entry, a library gap that is counted and left. A network check from this build session found archive.org, ccel.org, newadvent.org, tertullian.org, wikisource and gutenberg reachable from this session (OG-4); the leads in rows 68–74 were not pursued further in this build.
 
 **Three files vendored in this build.** Harnack 1904 (Band 2), Schanz–Hosius–Krüger 1922 (Teil 3) and Brewer 1906, because the dating of every author turns on them. Each was already reachable on archive.org with a public-domain basis, recorded in its file header and in the REGISTRY.
 
