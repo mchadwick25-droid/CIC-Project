@@ -281,3 +281,18 @@ track it it costs to track and i can watch the usage".
 In-system work (the Max-200 allowance) is not tracked, reported or ledgered by
 any thread. Mark watches usage himself. Real API spend (entry 5) is still
 named, capped and recorded.
+
+## 8. lpc build paused as the test bed; model roles ruled (2026-10-29)
+
+Mark, 2026-10-29, in chat: "no we are pausing the lpc build because it is the
+test for the new system". The lpc world build and go-live work stays paused;
+lpc is the world on which the new system is proved (stages 3 and 4).
+
+Model roles, Mark's choice from a choice box: Option A, a true third lineage.
+Drafter Claude Sonnet 4.5 (fixed). Judges Claude Haiku 4.5 (verifier) and
+Sonnet 5.5 (citation-recall). Specialist a non-Claude model chosen by a
+tryout of GPT-6.1 and Grok 4.7 (each labels the same 20 seeded defects plus 20
+known-supported controls), which must then pass a fresh 20-seed test at 19 of
+20 before its labels count. Second labeller the other candidate or Kimi K3.
+Needs a guarded Bedrock adapter in `engine/provider` and a sourced price row
+per model. The tryout is real API spend and waits for Mark's named cap.
