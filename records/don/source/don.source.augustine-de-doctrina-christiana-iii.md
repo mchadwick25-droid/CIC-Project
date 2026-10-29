@@ -23,6 +23,7 @@ work: De Doctrina Christiana, Book III
 edition: Nicene and Post-Nicene Fathers, Series I, vol. II, vendored as cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml
 citation: Augustine of Hippo, De Doctrina Christiana, Book III, Nicene and Post-Nicene Fathers, Series I, vol. II
 kind: vendored
+shelf_row: npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine-book-iii-chs-30-37-the-rules-of
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; file existence and content confirmed by direct file check
