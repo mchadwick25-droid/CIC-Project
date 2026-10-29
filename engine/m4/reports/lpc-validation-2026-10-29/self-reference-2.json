@@ -1,0 +1,583 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.023094
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2249,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2087,
+      "output_tokens": 176,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 1076,
+      "output_tokens": 298,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Why do you keep saying \"we\"?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We speak as we because the people who stood in the room when Cyprian was beheaded cried out that they should be beheaded with him: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”\n\nA large crowd followed him after that. This was not one bishop's story. It was the congregation's. When Cyprian wrote to his own people from exile, he wrote to them as to a body he belonged to, not as to subjects he ruled from above. The same voice carries through to Augustine's own time. The believer acts, and God works in the acting. That is not two separate things. It is one life, shared.\n\nThe we is not a choice we made to sound warmer. It is the shape our life actually had. A bishop answered for his flock, and his flock could stand in front of his seat and refuse to leave until he heard them. The road back for someone who failed was walked where the whole congregation watched. The font was given in the assembly. We do not speak as we to claim every voice as one voice. We speak as we because that is how this life was lived.",
+          "citations": [
+            {
+              "sentence": "We speak as we because the people who stood in the room when Cyprian was beheaded cried out that they should be beheaded with him: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”",
+              "record_ids": [
+                "lpc.quote.let-us-too-be-beheaded-with-him"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.let-us-too-be-beheaded-with-him",
+                  "record_type": "quote",
+                  "label": "Acta Proconsularia Sancti Cypriani, Acta Proconsularia 5.1 — The Acta Proconsularia of Cyprian",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                      "citation": "Acta Proconsularia Sancti Cypriani, the official record of the trial and martyrdom of Cyprian (258), in W. Hartel (ed.), Opera Spuria, Vita Pontii and Acta Proconsularia, CSEL 3 pt. 3 (Vienna, 1871)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Acta Proconsularia 5.1; Latin at cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt, lines 6628-6631; the same text in cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4913-4917, and cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41581-41583",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "After this sentence the crowd of the brothers kept saying, “Let us be beheaded with him too.” Because of this an uproar rose among the brothers, and a large crowd followed him.",
+                  "speaker": "The Acta Proconsularia of Cyprian"
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "the people",
+              "text_start": 23,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                  "citation": "Acta Proconsularia Sancti Cypriani, the official record of the trial and martyrdom of Cyprian (258), in W. Hartel (ed.), Opera Spuria, Vita Pontii and Acta Proconsularia, CSEL 3 pt. 3 (Vienna, 1871)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Acta Proconsularia 5.1; Latin at cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt, lines 6628-6631; the same text in cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4913-4917, and cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41581-41583",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 61,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                  "citation": "Acta Proconsularia Sancti Cypriani, the official record of the trial and martyrdom of Cyprian (258), in W. Hartel (ed.), Opera Spuria, Vita Pontii and Acta Proconsularia, CSEL 3 pt. 3 (Vienna, 1871)",
+                  "author": null,
+                  "work": null,
+                  "locus": "Acta Proconsularia 5.1; Latin at cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt, lines 6628-6631; the same text in cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4913-4917, and cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41581-41583",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 579,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "why",
+          "offered_ids": {
+            "quote": [
+              "lpc.quote.let-us-too-be-beheaded-with-him",
+              "lpc.quote.what-is-done-by-you-he-does-in-you"
+            ],
+            "term": [
+              "lpc.term.libelli"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We speak as we because the people who stood in the room when Cyprian was beheaded cried out that they should be beheaded with him: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”",
+                "tags": [
+                  "lpc.quote.let-us-too-be-beheaded-with-him"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.let-us-too-be-beheaded-with-him",
+                "draft": "We speak as we because the people who stood in the room when Cyprian was beheaded cried out that they should be beheaded with him [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]"
+              },
+              {
+                "sentence": "A large crowd followed him after that.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "A large crowd followed him after that."
+              },
+              {
+                "sentence": "This was not one bishop's story.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:[\"bishop's\"]) with no citation tag",
+                "draft": "This was not one bishop's story."
+              },
+              {
+                "sentence": "It was the congregation's.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was the congregation's."
+              },
+              {
+                "sentence": "When Cyprian wrote to his own people from exile, he wrote to them as to a body he belonged to, not as to subjects he ruled from above.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "When Cyprian wrote to his own people from exile, he wrote to them as to a body he belonged to, not as to subjects he ruled from above."
+              },
+              {
+                "sentence": "The same voice carries through to Augustine's own time.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"augustine's\"]) with no citation tag",
+                "draft": "The same voice carries through to Augustine's own time."
+              },
+              {
+                "sentence": "The believer acts, and God works in the acting.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The believer acts, and God works in the acting."
+              },
+              {
+                "sentence": "That is not two separate things.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag",
+                "draft": "That is not two separate things."
+              },
+              {
+                "sentence": "It is one life, shared.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is one life, shared."
+              },
+              {
+                "sentence": "The we is not a choice we made to sound warmer.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The we is not a choice we made to sound warmer."
+              },
+              {
+                "sentence": "It is the shape our life actually had.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is the shape our life actually had."
+              },
+              {
+                "sentence": "A bishop answered for his flock, and his flock could stand in front of his seat and refuse to leave until he heard them.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "A bishop answered for his flock, and his flock could stand in front of his seat and refuse to leave until he heard them."
+              },
+              {
+                "sentence": "The road back for someone who failed was walked where the whole congregation watched.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The road back for someone who failed was walked where the whole congregation watched."
+              },
+              {
+                "sentence": "The font was given in the assembly.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The font was given in the assembly."
+              },
+              {
+                "sentence": "We do not speak as we to claim every voice as one voice.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We do not speak as we to claim every voice as one voice."
+              },
+              {
+                "sentence": "We speak as we because that is how this life was lived.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We speak as we because that is how this life was lived."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.quote.let-us-too-be-beheaded-with-him"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.let-us-too-be-beheaded-with-him"
+              ],
+              "removed": [
+                {
+                  "sentence": "He told those preparing for baptism that what is done by them, God does in them",
+                  "why": "second placed quote in one reply",
+                  "draft": "He told those preparing for baptism that what is done by them, God does in them [[quote:lpc.quote.what-is-done-by-you-he-does-in-you]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 309
+              },
+              {
+                "index": 1,
+                "text_start": 311,
+                "text_end": 349
+              },
+              {
+                "index": 2,
+                "text_start": 350,
+                "text_end": 382
+              },
+              {
+                "index": 3,
+                "text_start": 383,
+                "text_end": 409
+              },
+              {
+                "index": 4,
+                "text_start": 410,
+                "text_end": 544
+              },
+              {
+                "index": 5,
+                "text_start": 545,
+                "text_end": 600
+              },
+              {
+                "index": 6,
+                "text_start": 601,
+                "text_end": 648
+              },
+              {
+                "index": 7,
+                "text_start": 649,
+                "text_end": 681
+              },
+              {
+                "index": 8,
+                "text_start": 682,
+                "text_end": 705
+              },
+              {
+                "index": 9,
+                "text_start": 707,
+                "text_end": 754
+              },
+              {
+                "index": 10,
+                "text_start": 755,
+                "text_end": 793
+              },
+              {
+                "index": 11,
+                "text_start": 794,
+                "text_end": 914
+              },
+              {
+                "index": 12,
+                "text_start": 915,
+                "text_end": 1000
+              },
+              {
+                "index": 13,
+                "text_start": 1001,
+                "text_end": 1036
+              },
+              {
+                "index": 14,
+                "text_start": 1037,
+                "text_end": 1093
+              },
+              {
+                "index": 15,
+                "text_start": 1094,
+                "text_end": 1149
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 0,
+                "char_start": 23,
+                "char_end": 33,
+                "surface": "the people"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 0,
+                "char_start": 61,
+                "char_end": 68,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.quote.let-us-too-be-beheaded-with-him",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the Latin of Gebhardt's edition (1902), the vendored witness that reads cleanly here. modern_rendering is a translation of the Latin; the Acta has no English in this world's vendored texts.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 0,
+                "char_start": 131,
+                "char_end": 309,
+                "surface": "“After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 5,
+                "char_start": 34,
+                "char_end": 43,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.quote.let-us-too-be-beheaded-with-him",
+                "record_type": "quote",
+                "label": "Acta Proconsularia Sancti Cypriani, Acta Proconsularia 5.1 — The Acta Proconsularia of Cyprian",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                    "citation": "Acta Proconsularia Sancti Cypriani, the official record of the trial and martyrdom of Cyprian (258), in W. Hartel (ed.), Opera Spuria, Vita Pontii and Acta Proconsularia, CSEL 3 pt. 3 (Vienna, 1871)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Acta Proconsularia 5.1; Latin at cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt, lines 6628-6631; the same text in cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4913-4917, and cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41581-41583",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "After this sentence the crowd of the brothers kept saying, “Let us be beheaded with him too.” Because of this an uproar rose among the brothers, and a large crowd followed him.",
+                "speaker": "The Acta Proconsularia of Cyprian",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the Latin of Gebhardt's edition (1902), the vendored witness that reads cleanly here. modern_rendering is a translation of the Latin; the Acta has no English in this world's vendored texts.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [],
+            "unverified_claims": {
+              "count": 5,
+              "sentence_indexes": [
+                2,
+                4,
+                5,
+                7,
+                11
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.let-us-too-be-beheaded-with-him"
+            ],
+            "removed": [
+              {
+                "sentence": "He told those preparing for baptism that what is done by them, God does in them",
+                "why": "second placed quote in one reply",
+                "draft": "He told those preparing for baptism that what is done by them, God does in them [[quote:lpc.quote.what-is-done-by-you-he-does-in-you]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

@@ -2382,3 +2382,11 @@ Logged 2026-10-29.
 
 - **Open.** The women's-writing limit is scoped to the world's two cities and years (see `lpc_Decision_Log.md`, 2026-10-29, "The women's-writing claim is kept and scoped"), but no record gives the voice something to say if asked about Perpetua, whose Passion (203) falls before the window. Augustine's Sermons 280 and 281 would ground one line; they need a source record and a shelf row.
 - **Owner.** The project lead decides whether to add it; this thread drafts it.
+
+### OG-113. Validation rerun 1: ten FAIL rows and one fabrication remain (2026-10-29).
+
+Logged 2026-10-29.
+
+- **Open.** See `Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md` and `lpc_Decision_Log.md`, 2026-10-29, "Live test lpc go-live rerun 1". Record side: rewrite the two "held as Contested" lines in the world core; move the corpus counts and "We have not yet weighed them" out of fields the voice speaks; narrow the retrieval triggers of `lpc.quote.bishop-of-bishops` and `lpc.witness.remembered-at-the-altar`; add questions that test the four fixes the battery did not touch.
+- **Engine, not this thread's.** Removal of sentences that gutted answers, withheld uncited claims still shipping, no check of a quote's lead-in against its claim guards, no output checks for cautions 14, 15 and 17.
+- **Owner.** This thread for the records; the engine threads for the rest. Unspent: $1.45 of the "lpc go-live rerun 1" cap, not carried to any other use.

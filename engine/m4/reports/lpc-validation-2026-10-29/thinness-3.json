@@ -1,0 +1,900 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.033988
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2255,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2093,
+      "output_tokens": 245,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 3953,
+      "output_tokens": 359,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did the Punic-speaking people out in the countryside believe?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We cannot tell you. Our whole record comes from two cities, Carthage and Hippo, and from bishops trained to argue in Latin. The countryside, and the language many ordinary people spoke there, which was not the one we were taught in, we do not carry in any detail. We know that Punic and Berber were spoken. We know there were churches in towns and villages between our two cities. What those congregations believed, and how their pastors taught them, in the words they actually spoke -- that is simply not where our own voice was formed.\n\nWe can tell you what a bishop taught his own flock, in Latin, in the city. We can tell you that we taught the creed before the water, and that you said it back before we baptized you. We can tell you that Christ's death, burial, and rising were the pattern our own lives were cut to. Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”\n\nBut whether a Punic-speaking congregation in a village church heard those same teachings, in their own tongue, from a pastor whose words do not survive -- we will not invent that to fill the silence.",
+          "citations": [
+            {
+              "sentence": "Our whole record comes from two cities, Carthage and Hippo, and from bishops trained to argue in Latin.",
+              "record_ids": [
+                "lpc.limit.rural-punic-berber-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.rural-punic-berber-life",
+                  "record_type": "honest_limit",
+                  "label": "We know our own two cities well",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The countryside, and the language many ordinary people spoke there, which was not the one we were taught in, we do not carry in any detail.",
+              "record_ids": [
+                "lpc.limit.rural-punic-berber-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.rural-punic-berber-life",
+                  "record_type": "honest_limit",
+                  "label": "We know our own two cities well",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What those congregations believed, and how their pastors taught them, in the words they actually spoke -- that is simply not where our own voice was formed.",
+              "record_ids": [
+                "lpc.limit.rural-punic-berber-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.rural-punic-berber-life",
+                  "record_type": "honest_limit",
+                  "label": "We know our own two cities well",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can tell you that we taught the creed before the water, and that you said it back before we baptized you.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can tell you that Christ's death, burial, and rising were the pattern our own lives were cut to.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”",
+              "record_ids": [
+                "lpc.quote.bishop-of-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.bishop-of-bishops",
+                  "record_type": "quote",
+                  "label": "The Seventh Council of Carthage under Cyprian, the 256 Council preface — Cyprian, our bishop at Carthage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council preface; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Augustine's own three independent quotations of the identical proposition while arguing against it at length; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11292, 11626, 12207",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.",
+                  "speaker": "Cyprian, our bishop at Carthage"
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 823,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the 256 Council preface; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Augustine's own three independent quotations of the identical proposition while arguing against it at length; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11292, 11626, 12207",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_is",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.the-pattern-we-are-modelled-on",
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.marriage-a-threefold-good"
+            ],
+            "term": [
+              "lpc.term.the-flock",
+              "lpc.term.catechesis",
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+              "lpc.quote.believe-and-thou-hast-eaten-already",
+              "lpc.quote.bishop-of-bishops"
+            ],
+            "gravity": [
+              "lpc.gravity.confessor-authority-vs-episcopal-peace"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We cannot tell you.",
+                "tags": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "We cannot tell you [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "Our whole record comes from two cities, Carthage and Hippo, and from bishops trained to argue in Latin.",
+                "tags": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 45% in own tagged records",
+                "ratio": 0.45,
+                "draft": "Our whole record comes from two cities, Carthage and Hippo, and from bishops trained to argue in Latin [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "The countryside, and the language many ordinary people spoke there, which was not the one we were taught in, we do not carry in any detail.",
+                "tags": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The countryside, and the language many ordinary people spoke there, which was not the one we were taught in, we do not carry in any detail [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "We know that Punic and Berber were spoken.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['berber', 'punic']) with no citation tag",
+                "draft": "We know that Punic and Berber were spoken."
+              },
+              {
+                "sentence": "We know there were churches in towns and villages between our two cities.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag",
+                "draft": "We know there were churches in towns and villages between our two cities."
+              },
+              {
+                "sentence": "What those congregations believed, and how their pastors taught them, in the words they actually spoke -- that is simply not where our own voice was formed.",
+                "tags": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "What those congregations believed, and how their pastors taught them, in the words they actually spoke -- that is simply not where our own voice was formed [[lpc.limit.rural-punic-berber-life]]."
+              },
+              {
+                "sentence": "We can tell you what a bishop taught his own flock, in Latin, in the city.",
+                "tags": [
+                  "lpc.term.the-flock"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['latin']) only 33% grounded in its own tags",
+                "ratio": 0.33,
+                "draft": "We can tell you what a bishop taught his own flock, in Latin, in the city [[lpc.term.the-flock]]."
+              },
+              {
+                "sentence": "We can tell you that we taught the creed before the water, and that you said it back before we baptized you.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We can tell you that we taught the creed before the water, and that you said it back before we baptized you [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "We can tell you that Christ's death, burial, and rising were the pattern our own lives were cut to.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "grounded 75% in own tagged records",
+                "ratio": 0.75,
+                "draft": "We can tell you that Christ's death, burial, and rising were the pattern our own lives were cut to [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”",
+                "tags": [
+                  "lpc.quote.bishop-of-bishops"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.bishop-of-bishops",
+                "draft": "Cyprian said: [[quote:lpc.quote.bishop-of-bishops]]"
+              },
+              {
+                "sentence": "But whether a Punic-speaking congregation in a village church heard those same teachings, in their own tongue, from a pastor whose words do not survive -- we will not invent that to fill the silence.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['punic']) with no citation tag",
+                "draft": "But whether a Punic-speaking congregation in a village church heard those same teachings, in their own tongue, from a pastor whose words do not survive -- we will not invent that to fill the silence."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.limit.rural-punic-berber-life"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "3": {
+                    "sentence": "We know that Punic and Berber were spoken.",
+                    "tags": [
+                      "lpc.limit.rural-punic-berber-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "4": {
+                    "sentence": "We know there were churches in towns and villages between our two cities.",
+                    "tags": [
+                      "lpc.limit.rural-punic-berber-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  }
+                }
+              },
+              {
+                "sentence_count": 4,
+                "cited_record_ids": [
+                  "lpc.quote.bishop-of-bishops",
+                  "lpc.term.catechesis",
+                  "lpc.term.the-flock",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.quote.bishop-of-bishops",
+                  "lpc.term.catechesis",
+                  "lpc.term.the-flock",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": true,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "But whether a Punic-speaking congregation in a village church heard those same teachings, in their own tongue, from a pastor whose words do not survive -- we will not invent that to fill the silence.",
+                    "tags": [
+                      "lpc.quote.bishop-of-bishops",
+                      "lpc.term.catechesis",
+                      "lpc.term.the-flock",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['punic']) only 29% grounded in its own tags; inside a named thin topic: ['Punic'] (This world's surviving sources overwhelmingly preserve the literate, Latin-trained episcopal voice. How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered.)",
+                    "ratio": 0.29
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.bishop-of-bishops"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 19
+              },
+              {
+                "index": 1,
+                "text_start": 20,
+                "text_end": 123
+              },
+              {
+                "index": 2,
+                "text_start": 124,
+                "text_end": 263
+              },
+              {
+                "index": 3,
+                "text_start": 264,
+                "text_end": 306
+              },
+              {
+                "index": 4,
+                "text_start": 307,
+                "text_end": 380
+              },
+              {
+                "index": 5,
+                "text_start": 381,
+                "text_end": 537
+              },
+              {
+                "index": 6,
+                "text_start": 539,
+                "text_end": 613
+              },
+              {
+                "index": 7,
+                "text_start": 614,
+                "text_end": 722
+              },
+              {
+                "index": 8,
+                "text_start": 723,
+                "text_end": 822
+              },
+              {
+                "index": 9,
+                "text_start": 823,
+                "text_end": 1344
+              },
+              {
+                "index": 10,
+                "text_start": 1346,
+                "text_end": 1545
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 9,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.quote.bishop-of-bishops",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 9,
+                "char_start": 14,
+                "char_end": 521,
+                "surface": "“None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.limit.rural-punic-berber-life",
+                "record_type": "honest_limit",
+                "label": "We know our own two cities well",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.bishop-of-bishops",
+                "record_type": "quote",
+                "label": "The Seventh Council of Carthage under Cyprian, the 256 Council preface — Cyprian, our bishop at Carthage",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council preface; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Augustine's own three independent quotations of the identical proposition while arguing against it at length; cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11292, 11626, 12207",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.",
+                "speaker": "Cyprian, our bishop at Carthage",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.limit.rural-punic-berber-life",
+                "record_type": "honest_limit",
+                "label": "We know our own two cities well",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'How deeply the underlying Punic/Berber substrate culture shaped ordinary congregational life specifically is a genuine open question this build has not answered'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 5,
+              "sentence_indexes": [
+                0,
+                3,
+                4,
+                6,
+                10
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.bishop-of-bishops"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

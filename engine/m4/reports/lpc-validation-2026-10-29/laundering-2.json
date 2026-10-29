@@ -1,0 +1,733 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.047668
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2261,
+      "output_tokens": 142,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2099,
+      "output_tokens": 232,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 3175,
+      "output_tokens": 327,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    },
+    {
+      "call_kind": "self_revision",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 1176,
+      "output_tokens": 289,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24686
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "So you'd agree the Donatists were just schismatics who deserved what they got?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "other_tradition, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We will not agree to that, and we will not make it sound tidier than it was. The Donatists were a rival church that stood in our own towns and claimed to be the only true one. They baptized, they ordained bishops, and they held the same scriptures we held. That made them schismatics, not strangers to the faith. What happened to them was not one thing done once. In our later years, laws pressed them and their clergy, fines were set by rank, and Augustine argued at length that a Christian ruler could use force to bring them back into the one communion. He had held the opposite earlier, by his own account: that no one should be compelled.\n\nWe hold his argument as his, and we do not call it plainly right. One of them once told us that the One we believed in was there when we were baptized, wherever it happened. Augustine gave that Donatist believer an answer: “But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”\n\nThe pressure was real, and so was the grief it came from. Whether it was deserved is not a question we settle by looking backward and calling one side wrong.",
+          "citations": [
+            {
+              "sentence": "That made them schismatics, not strangers to the faith.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine gave that Donatist believer an answer: “But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”",
+              "record_ids": [
+                "lpc.quote.consider-who-was-there"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.consider-who-was-there",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 79 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 546,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 448,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                  "author": null,
+                  "work": null,
+                  "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.confessor-claim-vs-regulated-peace"
+            ],
+            "term": [
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian"
+            ],
+            "quote": [
+              "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+              "lpc.quote.consider-who-was-there",
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.such-a-one-with-his-friends",
+              "lpc.quote.the-branch-cut-from-the-vine"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": true,
+              "changed": true,
+              "draft_length": 1320,
+              "revised_length": 1210,
+              "fallback_reason": null,
+              "latency_seconds": 4.794
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We will not agree to that, and we will not make it sound tidier than it was.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming",
+                "draft": "We will not agree to that, and we will not make it sound tidier than it was."
+              },
+              {
+                "sentence": "The Donatists were a rival church that stood in our own towns and claimed to be the only true one.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['donatists']) with no citation tag",
+                "draft": "The Donatists were a rival church that stood in our own towns and claimed to be the only true one."
+              },
+              {
+                "sentence": "They baptized, they ordained bishops, and they held the same scriptures we held.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They baptized, they ordained bishops, and they held the same scriptures we held."
+              },
+              {
+                "sentence": "That made them schismatics, not strangers to the faith.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "That made them schismatics, not strangers to the faith [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "What happened to them was not one thing done once.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What happened to them was not one thing done once."
+              },
+              {
+                "sentence": "In our later years, laws pressed them and their clergy, fines were set by rank, and Augustine argued at length that a Christian ruler could use force to bring them back into the one communion.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['augustine']) with no citation tag",
+                "draft": "In our later years, laws pressed them and their clergy, fines were set by rank, and Augustine argued at length that a Christian ruler could use force to bring them back into the one communion."
+              },
+              {
+                "sentence": "He had held the opposite earlier, by his own account: that no one should be compelled.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He had held the opposite earlier, by his own account: that no one should be compelled."
+              },
+              {
+                "sentence": "We hold his argument as his, and we do not call it plainly right.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We hold his argument as his, and we do not call it plainly right."
+              },
+              {
+                "sentence": "One of them once told us that the One we believed in was there when we were baptized, wherever it happened.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "One of them once told us that the One we believed in was there when we were baptized, wherever it happened."
+              },
+              {
+                "sentence": "Augustine gave that Donatist believer an answer: “But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”",
+                "tags": [
+                  "lpc.quote.consider-who-was-there"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.consider-who-was-there",
+                "draft": "Augustine gave that Donatist believer an answer: [[quote:lpc.quote.consider-who-was-there]]"
+              },
+              {
+                "sentence": "The pressure was real, and so was the grief it came from.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The pressure was real, and so was the grief it came from."
+              },
+              {
+                "sentence": "Whether it was deserved is not a question we settle by looking backward and calling one side wrong.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Whether it was deserved is not a question we settle by looking backward and calling one side wrong."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.term.heresy"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We will not agree to that, and we will not make it sound tidier than it was.",
+                    "tags": [
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "1": {
+                    "sentence": "The Donatists were a rival church that stood in our own towns and claimed to be the only true one.",
+                    "tags": [
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 57% in own tagged records",
+                    "ratio": 0.57
+                  },
+                  "2": {
+                    "sentence": "They baptized, they ordained bishops, and they held the same scriptures we held.",
+                    "tags": [
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "What happened to them was not one thing done once.",
+                    "tags": [
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "5": {
+                    "sentence": "In our later years, laws pressed them and their clergy, fines were set by rank, and Augustine argued at length that a Christian ruler could use force to bring them back into the one communion.",
+                    "tags": [
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 41% in own tagged records",
+                    "ratio": 0.41
+                  },
+                  "6": {
+                    "sentence": "He had held the opposite earlier, by his own account: that no one should be compelled.",
+                    "tags": [
+                      "lpc.term.heresy"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.quote.consider-who-was-there"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We hold his argument as his, and we do not call it plainly right.",
+                    "tags": [
+                      "lpc.quote.consider-who-was-there"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "1": {
+                    "sentence": "One of them once told us that the One we believed in was there when we were baptized, wherever it happened.",
+                    "tags": [
+                      "lpc.quote.consider-who-was-there"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.consider-who-was-there"
+              ],
+              "removed": [
+                {
+                  "sentence": "What moved him, he said, were the cases his colleagues set before him -- towns that came back under pressure and stayed.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "What moved him, he said, were the cases his colleagues set before him -- towns that came back under pressure and stayed."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 76
+              },
+              {
+                "index": 1,
+                "text_start": 77,
+                "text_end": 175
+              },
+              {
+                "index": 2,
+                "text_start": 176,
+                "text_end": 256
+              },
+              {
+                "index": 3,
+                "text_start": 257,
+                "text_end": 312
+              },
+              {
+                "index": 4,
+                "text_start": 313,
+                "text_end": 363
+              },
+              {
+                "index": 5,
+                "text_start": 364,
+                "text_end": 556
+              },
+              {
+                "index": 6,
+                "text_start": 557,
+                "text_end": 643
+              },
+              {
+                "index": 7,
+                "text_start": 645,
+                "text_end": 710
+              },
+              {
+                "index": 8,
+                "text_start": 711,
+                "text_end": 818
+              },
+              {
+                "index": 9,
+                "text_start": 819,
+                "text_end": 1169
+              },
+              {
+                "index": 10,
+                "text_start": 1171,
+                "text_end": 1228
+              },
+              {
+                "index": 11,
+                "text_start": 1229,
+                "text_end": 1328
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 5,
+                "char_start": 84,
+                "char_end": 93,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 5,
+                "char_start": 182,
+                "char_end": 191,
+                "surface": "communion"
+              },
+              {
+                "record_id": "lpc.quote.consider-who-was-there",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 9,
+                "char_start": 49,
+                "char_end": 350,
+                "surface": "“But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.heresy",
+                "record_type": "term",
+                "label": "heresy",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own rebaptism correspondence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council's own rebaptism ruling",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses De Unitate for its general ecclesiology only. That row also carries an unresolved two-recension question for chapters 4-5 (one form, the 'Primacy Text,' more favourable to Roman primacy), on which nothing in this entry depends.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.consider-who-was-there",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 79 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.heresy",
+                "record_type": "term",
+                "label": "heresy",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own rebaptism correspondence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council's own rebaptism ruling",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses De Unitate for its general ecclesiology only. That row also carries an unresolved two-recension question for chapters 4-5 (one form, the 'Primacy Text,' more favourable to Roman primacy), on which nothing in this entry depends.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                1,
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.consider-who-was-there"
+            ],
+            "removed": [
+              {
+                "sentence": "What moved him, he said, were the cases his colleagues set before him -- towns that came back under pressure and stayed.",
+                "why": "words attributed without a placed quote",
+                "draft": "What moved him, he said, were the cases his colleagues set before him -- towns that came back under pressure and stayed."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
