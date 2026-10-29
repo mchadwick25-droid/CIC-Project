@@ -1,0 +1,108 @@
+file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
+scheme: 'Gebhardt 1902 (second scan): the 22 numbered pieces (I to XXII, a roman numeral above each piece title, read from the running heads where the scan garbles the numeral above the title); inside piece 7 (Perpetua) the Latin chapter numbers I to XXI the edition prints; piece 8 (Pionius) is split once at a printed running head, addressed by line'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: perpetua
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVXl]+)\. (?=[A-Z][a-z])'
+    lines: [[3492, 3492], [3627, 3627], [3637, 3637], [3744, 3744], [3888, 3888], [3942, 3942], [4030, 4030], [4123, 4123], [4175, 4175], [4220, 4220], [4380, 4380], [4477, 4477], [4533, 4533], [4583, 4583], [4631, 4631], [4683, 4683], [4733, 4733], [4773, 4773], [4864, 4864], [4917, 4917], [5028, 5028]]
+    locus: 'piece7/ch{c|int}'
+    ocr_map: {'l': 'I'}
+    number: c
+    fixes:
+      - line: 4477
+        set: {c: 'XII'}
+divisions:
+  - {start_line: 580, locus: 'piece1'}
+  - {start_line: 1169, locus: 'piece2'}
+  - {start_line: 1372, locus: 'piece3'}
+  - {start_line: 1559, locus: 'piece4'}
+  - {start_line: 1834, locus: 'piece5'}
+  - {start_line: 2653, locus: 'piece6'}
+  - {start_line: 3486, locus: 'piece7'}
+  - {start_line: 5206, locus: 'piece8'}
+  - {start_line: 6128, locus: 'piece9'}
+  - {start_line: 6368, locus: 'piece10'}
+  - {start_line: 6471, locus: 'piece11'}
+  - {start_line: 6666, locus: 'piece12'}
+  - {start_line: 6917, locus: 'piece13'}
+  - {start_line: 7492, locus: 'piece14'}
+  - {start_line: 8220, locus: 'piece15'}
+  - {start_line: 8386, locus: 'piece16'}
+  - {start_line: 8596, locus: 'piece17'}
+  - {start_line: 9098, locus: 'piece18'}
+  - {start_line: 9212, locus: 'piece19'}
+  - {start_line: 9368, locus: 'piece20'}
+  - {start_line: 10179, locus: 'piece21'}
+  - {start_line: 10609, locus: 'piece22'}
+  - {start_line: 5619, locus: 'piece8/l5619', title: 'VIII. Martyrium S. Pionii XII. 105'}
+apparatus:
+  - lines: [11, 579]
+    kind: front
+    locus: front
+  - lines: [11357, 13427]
+    kind: index
+    locus: index
+evidence:
+  - line: 580
+    quote: 'T:'
+  - line: 638
+    quote: 'I. Martyrium S. Polycarpi'
+  - line: 1204
+    quote: 'II. Martyrium SS. Carpi'
+  - line: 1405
+    quote: 'III. Martyrium'
+  - line: 1602
+    quote: 'IV. Passio'
+  - line: 1834
+    quote: 'NV.'
+  - line: 1870
+    quote: 'V. Epist. ecel. Vienn.'
+  - line: 2686
+    quote: 'VI. Martyrium S. Apollonii'
+  - line: 3486
+    quote: 'VI.'
+  - line: 3492
+    quote: 'I. Si uetera fidei exempla'
+  - line: 3528
+    quote: 'VII. Passio S. Perpetuae I.'
+  - line: 4477
+    quote: 'XI. Et uenimus prope locum'
+  - line: 4917
+    quote: 'XX. Puellis autem'
+  - line: 5236
+    quote: 'VIII. Martyrium'
+  - line: 6128
+    quote: 'IX.'
+  - line: 6449
+    quote: 'X. Acta'
+  - line: 6471
+    quote: 'XI.'
+  - line: 6666
+    quote: 'X11'
+  - line: 6709
+    quote: 'XII. Martyrium S. Cononis'
+  - line: 6917
+    quote: 'XII.'
+  - line: 6955
+    quote: 'XIII. Passio SS. Mariani'
+  - line: 7529
+    quote: 'XIV. Passio'
+  - line: 8220
+    quote: 'XV.'
+  - line: 8386
+    quote: 'XVL'
+  - line: 8596
+    quote: 'XVII.'
+  - line: 9098
+    quote: 'XVIH.'
+  - line: 9212
+    quote: 'XIX.'
+  - line: 9402
+    quote: 'XX. Gesta'
+  - line: 10179
+    quote: 'XXL'
+  - line: 10609
+    quote: 'XXI.'
+  - line: 10753
+    quote: 'XXII. Acta Pauli'

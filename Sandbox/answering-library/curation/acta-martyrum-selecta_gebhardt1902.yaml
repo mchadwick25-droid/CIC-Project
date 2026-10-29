@@ -1,0 +1,85 @@
+file: acta-martyrum-selecta_gebhardt1902.txt
+scheme: 'Gebhardt 1902: the 22 numbered pieces (I to XXII, a roman numeral above each piece title and in the running heads); inside piece 7 (Perpetua) the chapter numbers the edition prints at the head of the Latin text (lat-ch) and of the Greek text (grc-ch, only where the scan shows the numeral), and inside piece 8 (Pionius) the printed chapter numbers; other pieces are addressed by piece alone'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: perpetua-latin
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVX]+)[.,]? '
+    lines: [[3208, 3208], [3338, 3338], [3349, 3349], [3445, 3445], [3570, 3570], [3618, 3618], [3709, 3709], [3800, 3800], [3845, 3845], [3891, 3891], [4025, 4025], [4112, 4112], [4173, 4173], [4222, 4222], [4258, 4258], [4310, 4310], [4356, 4356], [4397, 4397], [4483, 4483], [4529, 4529], [4627, 4627]]
+    locus: 'piece7/lat-ch{c|int}'
+    number: c
+  - id: perpetua-greek
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVX]+)[.,]? '
+    lines: [[3228, 3228], [3356, 3356], [3370, 3370], [3462, 3462], [3588, 3588], [3637, 3637], [3861, 3861], [3910, 3910], [4128, 4128], [4241, 4241], [4280, 4280], [4329, 4329], [4374, 4374], [4501, 4501], [4549, 4549], [4645, 4645]]
+    locus: 'piece7/grc-ch{c|int}'
+    number: c
+  - id: pionius
+    pattern: '^(?P<c>[IVXL]+)\. (?!Martyrium)'
+    lines: [4787, 5672]
+    locus: 'piece8/ch{c|int}'
+    number: c
+divisions:
+  - {start_line: 548, locus: 'piece1'}
+  - {start_line: 1080, locus: 'piece2'}
+  - {start_line: 1290, locus: 'piece3'}
+  - {start_line: 1447, locus: 'piece4', title: 'Passio SS. Scilitanorum'}
+  - {start_line: 1698, locus: 'piece5', title: 'Epistula ecclesiarum Viennensis et Lugdunensis'}
+  - {start_line: 2394, locus: 'piece6'}
+  - {start_line: 3203, locus: 'piece7', title: 'Passio SS. Perpetuae et Felicitatis'}
+  - {start_line: 4786, locus: 'piece8'}
+  - {start_line: 5672, locus: 'piece9', title: 'Acta disputationis S. Achatii'}
+  - {start_line: 5907, locus: 'piece10', title: 'Acta S. Maximi martyris'}
+  - {start_line: 6002, locus: 'piece11', title: 'Acta S. Cypriani episcopi et martyris'}
+  - {start_line: 6172, locus: 'piece12'}
+  - {start_line: 6374, locus: 'piece13'}
+  - {start_line: 6931, locus: 'piece14'}
+  - {start_line: 7590, locus: 'piece15'}
+  - {start_line: 7748, locus: 'piece16'}
+  - {start_line: 7954, locus: 'piece17'}
+  - {start_line: 8451, locus: 'piece18', title: 'Zwei libelli aus dem Jahre 250'}
+  - {start_line: 8530, locus: 'piece19', title: 'Die Inschrift von Arykanda'}
+  - {start_line: 8679, locus: 'piece20', title: 'Gesta apud Zenophilum'}
+  - {start_line: 9442, locus: 'piece21', title: 'Acta purgationis Felicis episcopi Autumnitani'}
+  - {start_line: 9890, locus: 'piece22'}
+apparatus:
+  - lines: [11, 547]
+    kind: front
+    locus: front
+  - lines: [10569, 12350]
+    kind: index
+    locus: index
+evidence:
+  - line: 548
+    quote: 'I.'
+  - line: 1447
+    quote: 'IV.'
+  - line: 1735
+    quote: 'V. Epist. eccl. Vienn. et Lugd.'
+  - line: 3203
+    quote: 'VII.'
+  - line: 3208
+    quote: 'I. Si uetera fidei exempla'
+  - line: 3228
+    quote: 'I. Ei'
+  - line: 4128
+    quote: 'XI. Ko'
+  - line: 4529
+    quote: 'XX. Puellis autem'
+  - line: 4645
+    quote: 'XXI Kai'
+  - line: 4786
+    quote: 'VIII.'
+  - line: 5708
+    quote: 'IX. Acta disputationis'
+  - line: 6078
+    quote: 'XI. Acta S. Cypriani'
+  - line: 7994
+    quote: 'XVII. Martyrium SS. XL'
+  - line: 8530
+    quote: 'ΧΙΧ.'
+  - line: 8679
+    quote: 'ΧΧ,'
+  - line: 9442
+    quote: 'ΧΧΙ.'
+  - line: 9890
+    quote: 'XXII.'

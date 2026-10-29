@@ -1,0 +1,157 @@
+file: augustine_sermones-1-340-lat_migne-pl38.txt
+scheme: Maurist sermon numbers 1-340, read from the Roman numeral in each sermon heading (SERMO <numeral> with its footnote mark); the CAPUT and section numbers inside a sermon are not used; three headings whose numeral the scan destroys are addressed by line (unread-numeral-line<N>)
+curator: Sonnet 5.5
+status: drafted
+rules:
+- id: sermon-long
+  pattern: ^(?:[*•] )?(?:SERMONIS|SERMO|SEHMO|SERHO|SEKMO|SEIiMO|SE HMO|Sermo|SERM\(j|SE11MO) (?P<n>[IVXLCivxclUHYPTrfRG1n.!]+) ?(?:[*•‘’“»■"'(\[]|[0-9,] \()
+  lines:
+  - [70339, 70339]
+  - [79062, 79062]
+  - [89075, 89075]
+  - [90318, 90318]
+  - [91417, 91417]
+  - [91504, 91504]
+  - [102087, 102087]
+  - [102932, 102932]
+  - [103979, 103979]
+  locus: sermo{n|int:3}
+  number: n
+  allow_oversize: The sermon number is the Maurist citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
+  fixes:
+  - line: 70339
+    set: {n: '188'}
+  - line: 79062
+    set: {n: '238'}
+  - line: 89075
+    set: {n: '278'}
+  - line: 90318
+    set: {n: '283'}
+  - line: 91417
+    set: {n: '287'}
+  - line: 91504
+    set: {n: '288'}
+  - line: 102087
+    set: {n: '328'}
+  - line: 102932
+    set: {n: '333'}
+  - line: 103979
+    set: {n: '338'}
+- id: sermon-first
+  pattern: '^SERMO PRIMUS '
+  lines:
+  - [937, 937]
+  locus: sermo001
+- id: sermon
+  pattern: ^(?:[*•] )?(?:SERMONIS|SERMO|SEHMO|SERHO|SEKMO|SEIiMO|SE HMO|Sermo|SERM\(j|SE11MO) (?P<n>(?!CCIXVII(?![A-Za-z])|CCCIXXYH(?![A-Za-z]))[IVXLCivxclUHYPTrfRG1n.!]+) ?(?:[*•‘’“»■"'(\[]|[0-9,] \()
+  lines:
+  - [938, 104456]
+  locus: sermo{n|int:3}
+  number: n
+  allow_oversize: The sermon number is the Maurist citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
+  ocr_map: {'1': I, l: I, i: I, U: II, H: II, Y: V, P: I, T: I, r: I, G: C, n: II, .: ''}
+  fixes:
+  - line: 55002
+    set: {n: CXLIII}
+  - line: 87661
+    set: {n: CCLXXIII}
+divisions:
+- {start_line: 4026, locus: sermo008}
+- {start_line: 39023, locus: sermo090}
+- {start_line: 69336, locus: sermo183}
+- {start_line: 77245, locus: unread-numeral-line77245}
+- {start_line: 77495, locus: sermo229}
+- {start_line: 77587, locus: sermo231}
+- {start_line: 99047, locus: sermo309}
+- {start_line: 101235, locus: unread-numeral-line101235}
+- {start_line: 103781, locus: unread-numeral-line103781}
+ignore:
+- pattern: '^(?:\S{1,6} )?(?:S\. AUGUSTINI EPISCOPI )?SERMO(?: [IVXLCivxclUHYPTrfGKd1n.!]{1,14})?\.?(?: (?=[A-Za-z]*[0-9«%$&])[0-9A-Za-z«»%$&]{1,6})?[ ,.]*$'
+  kind: running-head
+  lines: [938, 104456]
+- pattern: ^SERMO CLXV\*$
+  kind: running-head
+  lines:
+  - [63191, 63191]
+- pattern: '^(?:[0-9]{1,4} )?S\. AUGUSTINI EPISCOPI(?: [0-9A-Za-z*]{1,5})?$'
+  kind: running-head
+  lines: [938, 104456]
+- pattern: ^Digitized by
+  kind: scanner-mark
+  lines: [11, 104456]
+- pattern: ^Google$
+  kind: scanner-mark
+  lines: [11, 104456]
+- pattern: ^[0-9]{1,4}$
+  kind: page-number
+  lines: [938, 104456]
+apparatus:
+- lines: [11, 936]
+  kind: front
+  locus: front
+- lines: [69759, 69770]
+  kind: front
+  locus: classis2-title
+- lines: [87649, 87660]
+  kind: front
+  locus: classis3-title
+evidence:
+- {line: 937, quote: SERMO PRIMUS * (a).}
+- {line: 1128, quote: SERMO 11 • (a).}
+- {line: 4587, quote: SERMO IX* (a).}
+- {line: 72895, quote: CCIV.}
+- {line: 91102, quote: SEliUO CCL XXXVL rm}
+- {line: 19675, quote: 285 SERMO XLYI.}
+- {line: 78213, quote: 1113 SERMO CCXXX1IL 1114}
+- {line: 25299, quote: SERMO Llii.}
+- {line: 17120, quote: 949 SERMO XL1. 250}
+- {line: 21236, quote: SERMO XLVII.}
+- {line: 104293, quote: SERMO CCCXL * (a).}
+- {line: 34380, quote: SERMO LXX1X* (o).}
+- {line: 20406, quote: SERMO XLVIl * (a).}
+- {line: 42681, quote: SERMO Cii * (a).}
+- {line: 9881, quote: SERMO XXU* (a).}
+- {line: 10049, quote: SERMO XXII.}
+- {line: 17343, quote: SERMO XLH * (a).}
+- {line: 51626, quote: SERMO CXXXIH * (a).}
+- {line: 51755, quote: SERMO CXXXIII.}
+- {line: 17767, quote: SERMO XLIY * (a).}
+- {line: 3493, quote: SERMO VP (a).}
+- {line: 26159, quote: SERMO LVT(o).}
+- {line: 18623, quote: SERMO XLVr(a).}
+- {line: 72837, quote: SERMO GCIV* (a).}
+- {line: 78165, quote: SERMO CCXXXin. * (b).}
+- {line: 4026, quote: 'SERMONIS VHP,'}
+- {line: 4294, quote: SERMO VIII.}
+- {line: 39023, quote: SEKMO KC*(«).}
+- {line: 39164, quote: 561 SERMO XC. 5S*}
+- {line: 69336, quote: SERMO CLXXX1K * («).}
+- {line: 69379, quote: '90(, SERMO CLXXXllI. m'}
+- {line: 77587, quote: SERMO CCXXXF(a).}
+- {line: 77643, quote: DOS SEUMO CCXXXl. 110»}
+- {line: 77495, quote: SERMO CCXXI X*(a).}
+- {line: 99047, quote: SERMO CCdX ‘(a).}
+- {line: 99099, quote: SERMO CCCIX.}
+- {line: 55002, quote: 'SERMO CXLIR * (a,.'}
+- {line: 55034, quote: SERMO CX LUI.}
+- {line: 87661, quote: SERMO CCI.XXHI * In).}
+- {line: 87719, quote: SERMO CCLXXlll.}
+- {line: 77245, quote: 'SERMO CCIXVII* (a),'}
+- {line: 101235, quote: SERMO CCCMt * (a).}
+- {line: 103781, quote: SERMO CCCIXXYH * (b).}
+- {line: 70339, quote: SERMO CLXXXVHI*(a).}
+- {line: 79062, quote: SERMO CCXXXVllI *„}
+- {line: 89075, quote: SERMO CCLXXV11! * (a).}
+- {line: 90318, quote: SERMO CCLXXXU1 * (a).}
+- {line: 91417, quote: 'SERMO CCLXXXVH * (a),'}
+- {line: 91504, quote: SERMO CCLXXXVH! ‘ (a).}
+- {line: 102087, quote: SERMO CCCXXVIII * (a).}
+- {line: 102932, quote: SERMO CCCXXXlil * (b).}
+- {line: 103979, quote: SERMO CCCXXXVlir (a).}
+- {line: 63191, quote: SERMO CLXV*}
+- {line: 63290, quote: SERMO CLXV • (i).}
+- {line: 69763, quote: SERMONES}
+- {line: 69768, quote: 'CLASSIS IL DE TEMPORE ,'}
+- {line: 87649, quote: S. AURELII AUGUSTINI}
+- {line: 87658, quote: CLASSIS III. DE SANCTIS.}
+- {line: 935, quote: CLASSIS PRIMA.}

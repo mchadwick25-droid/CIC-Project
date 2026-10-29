@@ -1,0 +1,175 @@
+file: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt
+scheme: 'Raulx translation, volume 13, Controverse avec les Donatistes: each work is named by its printed title (De l''unite du bapteme, the three days of the Resume d''une conference, Avertissement aux Donatistes, Discours au peuple de Cesaree, Conference avec Emerite, Gaudentius books one and two, Discours attribue a saint Augustin); inside a work the translation prints Augustine''s own paragraph numerals in roman capitals (arabic 1 for the first paragraph in Gaudentius book one)'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: w0
+    pattern: '^\S'
+    lines: [13, 13]
+    division: false
+    locus: 'unite-bapteme'
+  - id: w1
+    pattern: '^\S'
+    lines: [1752, 1752]
+    division: false
+    locus: 'resume-jour1'
+  - id: w2
+    pattern: '^\S'
+    lines: [2346, 2346]
+    division: false
+    locus: 'resume-jour2'
+  - id: w3
+    pattern: '^\S'
+    lines: [2465, 2465]
+    division: false
+    locus: 'resume-jour3'
+  - id: w4
+    pattern: '^\S'
+    lines: [5142, 5142]
+    division: false
+    locus: 'avertissement'
+  - id: w5
+    pattern: '^\S'
+    lines: [8871, 8871]
+    division: false
+    locus: 'discours-cesaree'
+  - id: w6
+    pattern: '^\S'
+    lines: [9592, 9592]
+    division: false
+    locus: 'conference-emerite'
+  - id: w7
+    pattern: '^\S'
+    lines: [10460, 10460]
+    division: false
+    locus: 'gaudentius-livre1'
+  - id: w8
+    pattern: '^\S'
+    lines: [13955, 13955]
+    division: false
+    locus: 'gaudentius-livre2'
+  - id: w9
+    pattern: '^\S'
+    lines: [15067, 15067]
+    division: false
+    locus: 'discours-sous-diacre'
+  - id: p0
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [13, 1751]
+    parent: w0
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+    fixes:
+      - line: 53
+        set: {r: 'II'}
+      - line: 284
+        set: {r: 'VII'}
+  - id: p1
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [1752, 2345]
+    parent: w1
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+    fixes:
+      - line: 1784
+        set: {r: 'II'}
+  - id: p2
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [2346, 2464]
+    parent: w2
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+  - id: p3
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [2465, 5141]
+    parent: w3
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+    fixes:
+      - line: 3121
+        set: {r: 'XI'}
+  - id: p4
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [5142, 8870]
+    parent: w4
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+  - id: p5
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [8871, 9591]
+    parent: w5
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+  - id: p6
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [9592, 10454]
+    parent: w6
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+  - id: p7
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [10460, 13954]
+    parent: w7
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+  - id: p8
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [13955, 15066]
+    parent: w8
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+  - id: p9
+    pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
+    lines: [15067, 15440]
+    parent: w9
+    locus: 'p{r|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
+    number: r
+ignore:
+  - pattern: '^\d{3}$'
+    kind: page-number
+  - pattern: '^DE L.UNIT\S* DU BAPT\S*[.,]?$'
+    kind: running-head
+  - pattern: '^AVERTISSEMENT AUX \S+$'
+    kind: running-head
+    lines: [5143, 8870]
+  - pattern: '^R\S+SUM\S+ D\S+ CONF\S+ AVEC \S+ \S+$'
+    kind: running-head
+apparatus:
+  - lines: [11, 12]
+    kind: front
+    locus: front
+evidence:
+  - line: 25
+    quote: I. Mon cher Constaiiliii, en face de nos ad-
+  - line: 53
+    quote: IL II se plaint d'abord
+  - line: 284
+    quote: VIL Nous aussi
+  - line: 1778
+    quote: I. Quand les représentants des deux partis
+  - line: 1784
+    quote: IL On lut ensuite
+  - line: 3121
+    quote: XL Pour prouver que dans l'Eglise
+  - line: 8880
+    quote: I. Vous savez avec quelle joie
+  - line: 10466
+    quote: 1. Gaudentius, évêque donatiste
+  - line: 13961
+    quote: I. J'a
+  - line: 11163
+    quote: XVIII. Pourquoi
+  - line: 13399
+    quote: XLVII. C'est ainsi
+  - line: 15076
+    quote: I. Je me présente

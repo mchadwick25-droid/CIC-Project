@@ -1,0 +1,40 @@
+file: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt
+scheme: 'von Soden''s part I in five sections, printed as arabic numerals 1 to 5 with a full stop at the head of each section''s first paragraph; the sections carry no printed titles (the one printed heading, "Der Verlauf des Streites und die Chronologie seiner Dokumente", stands over section 1)'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: head
+    pattern: '^Der Verlauf des Streites und die Chronologie$'
+    lines: [95, 95]
+    division: false
+    locus: head
+  - id: section
+    pattern: '^(?P<n>[1-5])\. (?:Die Frage, ob solche|Die Ouvertüre zum Streit|In diesem Zusammenhang|Man erfährt nicht recht|Die Anerkennung der Ketzer)'
+    lines: [98, 1979]
+    locus: 'section{n}'
+    number: n
+    allow_oversize: 'sections are the finest division the edition prints; no numbered or titled break inside sections 1 to 5 (lines 98 to 1979)'
+ignore:
+  - pattern: '^(?:\S{1,4} )?[^\sA-Za-z]{0,2}[HIl1m]{1,2}\.? ?V\. ?S\w{3}$'
+    kind: running-head
+  - pattern: '^(?:DE\S{1,2} )?KETZERTAUFSTREIT(?: \S{1,3})?$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+apparatus:
+  - lines: [11, 94]
+    kind: front
+    locus: front
+evidence:
+  - line: 98
+    quote: '1. Die Frage, ob solche Christen, die in ketzerischen oder'
+  - line: 348
+    quote: '2. Die Ouvertüre zum Streit der beiden grossen Bischöfe'
+  - line: 1394
+    quote: '3. In diesem Zusammenhang darf ich nicht unterlassen, ein'
+  - line: 1568
+    quote: '4. Man erfährt nicht recht, wie der Streit zwischen Rom'
+  - line: 1666
+    quote: '5. Die Anerkennung der Ketzer- und Schismatikertaufe'
+  - line: 95
+    quote: 'Der Verlauf des Streites und die Chronologie'
