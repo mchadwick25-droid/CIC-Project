@@ -1,7 +1,7 @@
 file: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
 scheme: 'Maurist chapters 1 to 27, each printed as "CHAPTER n." above the Latin text and its facing English translation (the two run together in one chapter division); the editor''s Commentary repeats the chapter numbers as "CHAPTER n" and is declared notes'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: chapter
     pattern: '^CHAPTER (?P<n>\S+?)\.$'
