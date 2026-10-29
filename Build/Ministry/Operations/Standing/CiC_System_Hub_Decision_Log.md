@@ -7294,3 +7294,9 @@ If any condition fails, the amount stays unspent.
 ## 2026-10-29 - Live tests "S1-01 baseline sample" and "S1-01 baseline live path" withdrawn (project lead)
 
 **Withdrawn.** Mark, 2026-10-29, in chat: "we are not spending 75 dollars on api runs to test it". Both authorizations above ($1.00 and $25.00) are withdrawn. The engine thread was told to stop and to report any spend if either had started. No metered run for the Answering-from-the-Sources work is authorized. Any future one needs Mark's name and cap, put to him in plain words.
+
+## 2026-10-29 - `latap` ratified as the file-code for the Latin Apologists world (project lead)
+
+**Decision.** Mark, 2026-10-29, by choice box in the project-management thread: ratify `latap` (Atlas I.43, Tertullian merged in from I.17). The folder `Build/worlds/latap/`, the dossier and the review files already used it. Pull request #1276 (merged) added `records/worlds/latap.yaml`, a candidate with census id `latin-apologists`, window 197 to 320, and an entry in `WORLDS_REGISTRY_LOG.md`.
+
+**Left open.** The `safety_adjacent` value is not set in the registry entry and stays for the project lead. No new top-level folder or tool was added, so `CiC_Repo_Structure_Tracking.md` needs no entry.
