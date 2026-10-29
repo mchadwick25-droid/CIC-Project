@@ -32,9 +32,12 @@ sources:
 retrieval:
   tier: 2
   retrieve_when:
-  - participant asks what Augustine said for the dying, or for a person in danger of death
-  - participant asks whether a bishop should leave a city under threat from an enemy army
-  do_not_retrieve_when: []
+  - participant asks what Augustine said for the dying in a time of danger
+  - participant asks whether a bishop should flee or stay when danger falls on all his people
+  do_not_retrieve_when:
+  - participant asks about the road back for those who sacrificed under Decius, or about Cyprian's provision for the sick
+  - participant asks about the siege of Hippo in 430, which the letter does not describe
+  - participant asks for a rule on the length of penance or on who may give the peace
 relations:
 - type: associated-with
   target: lpc.witness.peace-for-the-dying-penitent

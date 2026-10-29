@@ -10,10 +10,10 @@ canon_cells:
 use_note:
   means: "In 256 Cyprian's council said it would cast out no one for a different view, and Augustine called it wrong but never cast Cyprian out."
   not_for:
-    - "a claim that the church never broke communion"
+    - "a claim that the church never broke communion, or that Carthage and Rome stayed in communion through the 256 dispute"
     - "a claim that any source states a link between the early separations and the rule, since that link is our own reading"
     - "a claim that Cyprian and Augustine reached the same ruling"
-    - "a claim that Carthage and Rome stayed in communion through the 256 dispute"
+    - "a claim that Felicissimus was a bishop, or that the rival bishop set up against Cornelius belonged to Cyprian's city, since that bishop was at Rome"
   years: {from: 246, to: 430}
   status: reviewed
 confidence:

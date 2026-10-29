@@ -13,6 +13,7 @@ use_note:
     - "a claim naming which later council corrected which earlier one"
     - "a claim that 'Catholic' here means a modern denomination"
     - "a claim that this theory of council authority organized much of the world"
+    - "a claim about the dying, penance, or pastoral care, which the passage does not treat"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:

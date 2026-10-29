@@ -22,6 +22,7 @@ use_note:
     - "a claim that it was a modern identity document or licence"
     - "a claim that the Latin word appears in the English volume, which renders it certificates"
     - "a claim that Latin libellus names only this paper"
+    - "a claim that Celerinus's sister bought a certificate, since the letter about her says she sacrificed"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:

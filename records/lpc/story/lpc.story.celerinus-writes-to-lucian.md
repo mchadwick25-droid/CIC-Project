@@ -14,6 +14,7 @@ use_note:
     - "a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our sources"
     - "a claim that Lucian's grant stood without his condition that each case be set before the bishop"
     - "a claim that the confessors were either usurpers or heroes"
+    - "a claim that Celerinus's sister bought a certificate, since his letter says she sacrificed"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:

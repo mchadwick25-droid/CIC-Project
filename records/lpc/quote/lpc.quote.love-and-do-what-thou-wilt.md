@@ -11,7 +11,7 @@ use_note:
   means: "Augustine says the root decides the deed: a father beats a boy from love, a boy-stealer caresses him, so let love be the root."
   not_for:
     - "a claim that any act done with a feeling of love is right, since the passage says the root of love brings forth only good"
-    - "a claim that it describes church discipline or excommunication"
+    - "a claim that it describes, defends or justifies church discipline, excommunication or penance"
     - "a claim that it sets out the whole of Augustine's homily on 1 John 4"
     - "a warrant for striking a child or anyone today"
   years: {from: 391, to: 430}
