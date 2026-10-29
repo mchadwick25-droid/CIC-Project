@@ -362,7 +362,7 @@ def test_the_entry_point_list_covers_every_command_that_builds_a_client():
 _CONSTRUCTOR = re.compile(
     r"\b(?:Async)?Anthropic(?:Bedrock|Vertex|Foundry|AWS)?\(|bedrock[-_]runtime|\.invoke_model\b|\.converse(?:_stream)?\("
 )
-_SEAM = {Path("provider/bedrock.py"), Path("provider/anthropic_direct.py"), Path("provider/bedrock_converse.py")}
+_SEAM = {Path("provider/bedrock.py"), Path("provider/anthropic_direct.py")}
 
 
 def test_no_file_outside_the_provider_seam_constructs_a_model_client():
@@ -373,7 +373,7 @@ def test_no_file_outside_the_provider_seam_constructs_a_model_client():
         for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1)
         if _CONSTRUCTOR.search(line) and not line.lstrip().startswith("#")
     ]
-    assert not offenders, f"a model client is built only in engine/provider/bedrock.py, bedrock_converse.py and anthropic_direct.py: {offenders}"
+    assert not offenders, f"a model client is built only in engine/provider/bedrock.py and anthropic_direct.py: {offenders}"
 
 
 def test_the_grep_finds_a_constructor_where_there_is_one(tmp_path):

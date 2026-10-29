@@ -5,11 +5,10 @@ A seed is caught when the labeller's verdict on it is "unsupported"; the
 report also says how many were caught under the expected class. A seed left
 unlabelled (both replies rejected) counts as missed. A control is right only
 when its verdict is "supported": "unsupported" is a false alarm, and any other
-verdict or no label is a control miss; both are counted. Mark's rule is on
-seeds alone (default 19 of 20). A labeller that flags everything would meet
-it, so the report never says "passed" on the catch count alone: it gives the
-catch result and the control result side by side, and the decision whether
-the labeller qualifies is read from both. The labels file must hold one
+verdict or no label is a control miss; both are counted. Mark's rule (Decision
+Log, 2026-10-29): the labeller qualifies only when it catches at least 19 of
+20 seeds AND marks at least 18 of 20 controls supported, so a labeller that
+flags everything cannot qualify. The labels file must hold one
 model's rows; the first row for a line is the one scored.
 
   python -m goldset.catch_rate --key <key.jsonl> --labels <labels.jsonl> --test-set qualify
@@ -23,6 +22,7 @@ from goldset.common import read_jsonl
 from goldset.labeller import gold_class
 
 DEFAULT_THRESHOLD = (19, 20)
+CONTROL_THRESHOLD = (18, 20)
 
 
 def report(key: list[dict], labels: list[dict], test_set: str, threshold: tuple[int, int] = DEFAULT_THRESHOLD) -> dict:
@@ -67,9 +67,12 @@ def report(key: list[dict], labels: list[dict], test_set: str, threshold: tuple[
         "seeds_caught_as_expected_class": sum(c["caught_as_expected_class"] for c in per_type.values()),
         "threshold": f"{need} of {out_of}", "needed_for_this_set": scaled_need,
         "meets_catch_threshold": len(seeds) > 0 and caught >= scaled_need,
+        "control_threshold": f"{CONTROL_THRESHOLD[0]} of {CONTROL_THRESHOLD[1]}",
         "per_type": {t: dict(c) for t, c in sorted(per_type.items())},
         "controls": len(controls), "controls_supported": len(controls) - len(false_alarms) - len(control_misses),
         "false_alarms": len(false_alarms), "control_misses": len(control_misses),
+        "qualifies": len(seeds) > 0 and caught >= scaled_need and len(controls) > 0
+        and (len(controls) - len(false_alarms) - len(control_misses)) >= -(-CONTROL_THRESHOLD[0] * len(controls) // CONTROL_THRESHOLD[1]),
         "missed": missed, "false_alarm_detail": false_alarms, "control_miss_detail": control_misses,
     }
 

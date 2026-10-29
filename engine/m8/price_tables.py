@@ -58,35 +58,6 @@ HAIKU_4_5_PRICE_TABLE = PriceTable(
     source=PRICE_TABLE_SOURCE,
 )
 
-BEDROCK_MODEL_CARD_SOURCE = (
-    "Amazon Bedrock model cards (docs.aws.amazon.com/bedrock/latest/userguide/model-card-*.html), "
-    "Standard tier, short context, fetched 2026-10-29. Rows hold the Global CRIS rate; route_factor "
-    "adds the 10% the cards state for US CRIS, which gives each card's US CRIS figure exactly. "
-    "Measurement-only models reached through engine.provider.bedrock_converse"
-)
-GPT_6_1_SOL_PRICE_TABLE = PriceTable(
-    input_per_token=2.00 / 1_000_000,
-    output_per_token=10.00 / 1_000_000,
-    cache_write_per_token=2.50 / 1_000_000,
-    cache_read_per_token=0.10 / 1_000_000,
-    source=BEDROCK_MODEL_CARD_SOURCE,
-)
-GROK_4_7_PRICE_TABLE = PriceTable(
-    input_per_token=2.00 / 1_000_000,
-    output_per_token=6.00 / 1_000_000,
-    cache_write_per_token=2.00 / 1_000_000,  # implicit caching only; the card lists no write rate, so a write is priced as input
-    cache_read_per_token=0.50 / 1_000_000,
-    source=BEDROCK_MODEL_CARD_SOURCE,
-)
-KIMI_K3_PRICE_TABLE = PriceTable(
-    input_per_token=3.00 / 1_000_000,
-    output_per_token=15.00 / 1_000_000,
-    cache_write_per_token=3.75 / 1_000_000,
-    cache_read_per_token=0.30 / 1_000_000,
-    source="Amazon Bedrock pricing page (aws.amazon.com/bedrock/pricing), Moonshot AI section, Standard tier, fetched 2026-10-29; Global CRIS rate, US CRIS via route_factor",
-)
-
-
 # Which model_id each call_kind is actually called with (grepped from the
 # real call sites, not assumed): engine/m4/turn.py passes safety_model_id
 # for safety_call/reader_call and voice_model_id for voice_generation,
@@ -119,9 +90,6 @@ _PRICE_BY_MODEL_FAMILY: dict[str, PriceTable] = {
     "claude-haiku-4-5": HAIKU_4_5_PRICE_TABLE,
     "claude-sonnet-5-5": SONNET_5_5_PRICE_TABLE,
     "claude-opus-5-5": OPUS_5_5_PRICE_TABLE,
-    "openai.gpt-6.1-sol": GPT_6_1_SOL_PRICE_TABLE,
-    "xai.grok-4.7": GROK_4_7_PRICE_TABLE,
-    "moonshotai.kimi-k3": KIMI_K3_PRICE_TABLE,
 }
 
 

@@ -81,11 +81,12 @@ def test_catch_rate_counts_misses_and_false_alarms():
         labels.append({"line_id": f"c{n}", "model_id": "m", "label": {"verdict": verdict, "failure_class": "unsupported_other" if verdict == "unsupported" else None, "other_classes": [], "reason": ""}})
     result = catch_rate.report(key, labels, "q")
     assert result["seeds_caught"] == 19 and result["meets_catch_threshold"] and result["false_alarms"] == 1
-    assert result["controls_supported"] == 19
+    assert result["controls_supported"] == 19 and result["qualifies"]
     labels[0]["label"] = None
     labels[21]["label"] = {"verdict": "cannot_judge", "failure_class": None, "other_classes": [], "reason": ""}
     result = catch_rate.report(key, labels, "q")
     assert not result["meets_catch_threshold"] and result["control_misses"] == 1 and result["controls_supported"] == 18
+    assert not result["qualifies"]
     import pytest
     with pytest.raises(ValueError):
         catch_rate.report(key, labels + [{**labels[1], "model_id": "other"}], "q")
@@ -161,3 +162,21 @@ def test_judgement_parsing():
     assert trial.parse_judgement("verifier", '{"supported": "no"}', 1) is None
     got = trial.parse_judgement("citation_recall", '{"entailed": true, "needed": [1, 9], "reason": ""}', 2)
     assert got["supported"] is True and got["citation_precision"] == 0.5
+
+
+def test_inplan_round_trip_checks_replies_and_offers_one_retry(tmp_path, monkeypatch):
+    from goldset import inplan
+    monkeypatch.setattr(inplan, "build_pack", lambda item: PACK)
+    lines = [{"line_id": "ln-1", "item_id": "gs-1", "world": "w", "records_commit": "c", "bindings": [], "sentence": "s"},
+             {"line_id": "ln-2", "item_id": "gs-2", "world": "w", "records_commit": "c", "bindings": [], "sentence": "s"}]
+    assert inplan.export(lines, tmp_path) == 2
+    text = (tmp_path / "prompts" / "ln-1.md").read_text()
+    assert "SENTENCE TO CHECK" in text and "gs-1" not in text
+    (tmp_path / "replies" / "ln-1.txt").write_text(reply())
+    (tmp_path / "replies" / "ln-2.txt").write_text(reply(evidence=[{"block": "R1", "words": "invented words here now"}]))
+    rows, retry = inplan.import_replies(lines, tmp_path, "opus")
+    assert [r["line_id"] for r in rows] == ["ln-1"] and retry == ["ln-2"]
+    assert (tmp_path / "prompts" / "ln-2.retry.md").exists()
+    (tmp_path / "replies" / "ln-2.retry.txt").write_text("not json")
+    rows, retry = inplan.import_replies(lines, tmp_path, "opus")
+    assert retry == [] and rows[1]["label"] is None and len(rows[1]["attempts"]) == 2

@@ -28,33 +28,8 @@ from engine.provider.guard import LiveTestCapReached
 
 MAX_TOKENS = 1200
 EXPECTED_OUTPUT_TOKENS = 450
-REASONING_MAX_TOKENS = 12_000
-REASONING_EXPECTED_OUTPUT_TOKENS = 3_000
-REASONING_FIELDS = {"reasoning": {"effort": "high"}}
 CHARS_PER_TOKEN = 3.5
 REGION = "us-east-1"
-
-
-def is_claude(model_id: str) -> bool:
-    return ".anthropic." in model_id or model_id.startswith("anthropic.")
-
-
-def call_settings(model_id: str) -> dict:
-    """A Claude model through the Messages seam at the default effort; any
-    other vendor through the Converse seam with reasoning at high effort
-    (the specialist runs slow and strong), its reasoning billed as output."""
-    if is_claude(model_id):
-        return {"seam": "engine.provider.bedrock (Messages API)", "max_tokens": MAX_TOKENS, "expected_output_tokens": EXPECTED_OUTPUT_TOKENS, "extra": {}}
-    return {"seam": "engine.provider.bedrock_converse (Converse API)", "max_tokens": REASONING_MAX_TOKENS,
-            "expected_output_tokens": REASONING_EXPECTED_OUTPUT_TOKENS, "extra": {"additional_model_request_fields": REASONING_FIELDS}}
-
-
-def make_client_for(model_id: str, region: str = REGION):
-    if is_claude(model_id):
-        from engine.provider.bedrock import make_client
-    else:
-        from engine.provider.bedrock_converse import make_client
-    return make_client(region)
 
 
 def stream_line_item(line: dict) -> dict:
@@ -75,8 +50,7 @@ def estimate(lines: list[dict], price, expected_output_tokens: int = EXPECTED_OU
 
 
 def _call(client, model_id: str, system: str, messages: list[dict]) -> tuple[str, dict]:
-    settings = call_settings(model_id)
-    response = client.messages.create(model=model_id, max_tokens=settings["max_tokens"], system=system, messages=messages, **settings["extra"])
+    response = client.messages.create(model=model_id, max_tokens=MAX_TOKENS, system=system, messages=messages)
     text = "".join(getattr(block, "text", "") for block in response.content)
     usage = response.usage
     return text, {"input_tokens": usage.input_tokens, "output_tokens": usage.output_tokens}
@@ -126,14 +100,12 @@ def main(argv: list[str] | None = None) -> int:
     done = {r["line_id"] for r in existing if not r.get("stopped_at_cap")}
     todo = [line for line in lines if line["line_id"] not in done]
     price = price_for_route("voice_generation", args.model, "bedrock")
-    call = call_settings(args.model)
     settings = {
-        "stream": str(args.stream), "model_id": args.model, "region": REGION, "seam": call["seam"],
-        "max_tokens": call["max_tokens"], "request_fields": call["extra"].get("additional_model_request_fields"),
+        "stream": str(args.stream), "model_id": args.model, "region": REGION, "max_tokens": MAX_TOKENS,
         "temperature": "API default (not set)", "lines_in_stream": len(lines), "already_labelled": len(done),
         "to_label": len(todo), "priced": price is not None,
         "price_per_million": None if price is None else {"input": round(price.input_per_token * 1e6, 4), "output": round(price.output_per_token * 1e6, 4)},
-        **estimate(todo, price, call["expected_output_tokens"]),
+        **estimate(todo, price),
         "note": "each rejected reply is asked once more; the estimate counts one call per line",
     }
     print(json.dumps(settings, indent=2), flush=True)
@@ -143,7 +115,9 @@ def main(argv: list[str] | None = None) -> int:
         print(f"no approved price for {args.model}; a capped run cannot count its spend", file=sys.stderr)
         return 2
 
-    client = make_client_for(args.model)
+    from engine.provider.bedrock import make_client
+
+    client = make_client(REGION)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open("a", encoding="utf-8") as out:
         for line in todo:

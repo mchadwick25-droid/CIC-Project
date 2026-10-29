@@ -238,10 +238,10 @@ def main(argv: list[str] | None = None) -> int:
     if price is None:
         print(f"no approved price for {args.model}", file=sys.stderr)
         return 2
-    from goldset.runner import make_client_for
+    from engine.provider.bedrock import make_client
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    run_judge(args.judge, args.model, items, args.out, make_client_for(args.model))
+    run_judge(args.judge, args.model, items, args.out, make_client(REGION))
     print(json.dumps({"priced_total_usd": guard.priced_total()}), flush=True)
     return 0
 

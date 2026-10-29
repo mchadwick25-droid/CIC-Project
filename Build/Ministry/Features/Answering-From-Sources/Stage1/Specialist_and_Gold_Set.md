@@ -44,6 +44,24 @@ How the weakness is contained, mechanism by mechanism:
 What none of this fixes: a misreading the specialist, the second labeller and
 Mark all share. The seeded types cover four failure shapes, not all of them.
 
+**Claude only, so weaker again.** Mark ruled no spend on other companies'
+models (Decision-Log entry 10): specialist Opus 5.5, second labeller Fable
+5.1, judges Haiku 4.5 and Sonnet 5.5, drafter Sonnet 4.5. All five are one
+vendor's models and share training, so their blind spots are more likely to
+coincide than a different lineage's would. The containment above stays in
+full; it is the only check on that shared blind spot short of the external
+human experts at the end.
+
+**Qualifying rule** (Mark, 2026-10-29, adopting option (a)): the specialist's
+labels count only after it catches at least 19 of 20 seeds AND marks at least
+18 of 20 controls supported, on a test set it has not seen.
+
+**Route.** No metered labelling (Mark: no API runs to test it). Labelling runs
+inside the Claude plan: `goldset/inplan.py` writes the exact prompt a metered
+labeller would get, one file per line, a Claude Code subagent on the named
+model writes each reply, and the same code checks every reply. The subagent
+is given the prompt files only, never the key.
+
 ## The pieces
 
 | Piece | What it does | State |
@@ -54,7 +72,8 @@ Mark all share. The seeded types cover four failure shapes, not all of them.
 | `goldset/labeller.py` | Prompt, reply schema, verbatim-evidence check | Done |
 | `goldset/seeds.py` | Seeded defects by fixed rules, controls, three test sets | 60 defects (15 per type) and 60 controls accepted after reading (`Seed_Readings.yaml`) |
 | `goldset/stream.py` | Blind stream with seeds planted, key kept apart | Tryout stream (40 lines); first lpc stream (280 items + qualifying set, 320 lines) |
-| `goldset/runner.py` | Runs a labeller under the live-test guard; settings and estimate first | Not run: waits for the model choice, a cap and sample approval |
+| `goldset/runner.py` | Runs a labeller as a metered live test; settings and estimate first | Not to be used now (no metered runs) |
+| `goldset/inplan.py` | Exports the labeller prompts to files and checks the replies a Claude Code subagent writes; no metered call | Done |
 | `goldset/catch_rate.py` | Catch rate and false alarms per test set | Done |
 | `goldset/split.py` | Calibration and held-out halves by hash of id; seal | Done |
 
@@ -73,3 +92,16 @@ Mark all share. The seeded types cover four failure shapes, not all of them.
 - **Embedded-voice seeds** are the opponents' or outsiders' words inside a
   record, voiced as the tradition's. Nine were written by hand from named
   records, since the fixed rule reaches etic records only.
+
+## Incident: a metered attempt after the hold (2026-10-29)
+
+At 18:17 UTC this thread started the first sample of `specialist-tryout-1`
+(GPT-6.1 Sol 18:17:09.260 to 18:17:09.707, Grok 4.7 18:17:16.331 to
+18:17:16.739). The coordination thread's HOLD (18:06) and Mark's Claude-only
+ruling (18:07) had arrived but had not been read: the thread did not drain
+its messages before the call. Bedrock refused both calls (model access not
+enabled), no label was made, and AWS bills nothing for a refused call; the
+guard counted the two holds ($0.1416 and $0.0869). Ledgers:
+`runs/specialist-tryout-1/`. The non-Claude seam and price rows were removed
+from the branch afterwards. Rule now kept: read every pending message before
+any step that could call a model.
