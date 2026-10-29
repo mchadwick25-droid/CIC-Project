@@ -30,7 +30,6 @@ import hashlib
 import inspect
 import json
 import os
-import re
 import subprocess
 import sys
 import time
@@ -41,7 +40,7 @@ from engine.m1.loader import load_world_records
 from engine.m1.registry import formation_world_keys, load_registry
 from engine.m3 import harness, protocol, results
 from engine.m2.manifest import package_content_hash
-from engine.m3.generation import AnswerUnavailable, LivePathSettings, LiveModelAnswerer, RESENDS, production_settings
+from engine.m3.generation import AnswerUnavailable, LivePathSettings, LiveModelAnswerer, RENDER_YAML, RESENDS, production_settings
 from engine.m4.generation import stream_voice_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
@@ -55,99 +54,33 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
 REPORT_PATH = REPORTS_DIR / "live-admission-report.json"
 
-# Per-run authorization is required every time, named on the command line.
-# The original hardcoded ["alx", "desert"] scope became a --worlds argument
-# once the remaining four worlds needed single admission too - the
-# authorization discipline is unchanged: the
-# person running this passes exactly the worlds authorized for the run, and the
-# report records which they were.
+# The worlds a run covers are named on the command line, exactly as authorized.
 DEFAULT_WORLD_KEYS = ["alx", "desert"]
 
 LIVE_COST_REPORT = REPO_ROOT / "engine" / "m8" / "reports" / "live-cost-report.json"
 
 # --max-usd defaults to this ceiling; going above it takes an explicit,
-# higher --max-usd on the command line - the default itself is the
-# ceiling, so nothing above it is ever silent. No weekly or aggregate cap:
-# this bounds one run.
+# higher --max-usd on the command line. It bounds one run.
 DEFAULT_MAX_USD = 3.00
 
-# A real observed run's own usage (engine/m3/reports/live-admission-report-
-# alx-2026-09-08-postfix.json: alx, 28 probes - protocol.battery()'s own
-# fixed size, one per sealed cell), priced against the same real, sourced
-# rate card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE already
-# documents (Anthropic's published API rate card) -
-# this module invents no price of its own, per spec principle 13. Used
-# only as estimate_world_cost_usd's own last-resort fallback, for the
-# case where no world anywhere has a real report yet.
-_OBSERVED_RUN_USAGE = NormalizedUsage(
-    input_tokens=24_048, output_tokens=14_189,
-    cache_creation_input_tokens=14_792, cache_read_input_tokens=399_384,
-)
-_OBSERVED_RUN_PROBE_COUNT = 28
 
-_REPORT_DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
+def live_path_turn_ceiling_usd(report_path: Path = LIVE_COST_REPORT) -> float:
+    """The highest cost of one whole live-path turn (gate calls and voice call)
+    in the measured conversation run, priced at the Sonnet 4.5 and Haiku 4.5 rates."""
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+    return max(turn["turn_dollars"] for world in report["worlds"].values() for turn in world["turns"])
 
 
-def _usage_cost(info: dict) -> float:
-    usage = NormalizedUsage(
-        input_tokens=info.get("total_input_tokens", 0),
-        output_tokens=info.get("total_output_tokens", 0),
-        cache_creation_input_tokens=info.get("total_cache_creation_input_tokens", 0),
-        cache_read_input_tokens=info.get("total_cache_read_input_tokens", 0),
-    )
-    return estimate_cost(usage, SONNET_4_5_PRICE_TABLE).dollars
-
-
-def real_world_costs(reports_dir: Path = REPORTS_DIR) -> dict[str, float]:
-    """Every world's own cost from its LATEST live-admission report on
-    disk (by the ISO date in the report's own filename), priced against
-    the same rate card as everywhere else here. Real per-world costs vary
-    a lot by system-prompt size and answer length - don $0.715, gallic
-    $0.71, cappadocian $0.57, witt $0.55, several others near $0.45 - so a
-    single flat per-world figure is not a safe preflight basis."""
-    best_date: dict[str, str] = {}
-    best_cost: dict[str, float] = {}
-    for path in sorted(reports_dir.glob("live-admission-report*.json")):
-        date_m = _REPORT_DATE_RE.search(path.name)
-        if not date_m:
-            continue
-        try:
-            data = json.loads(path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            continue
-        worlds = data.get("worlds")
-        if not isinstance(worlds, dict):
-            continue
-        for world_key, info in worlds.items():
-            if not isinstance(info, dict) or "total_input_tokens" not in info:
-                continue
-            date = date_m.group(1)
-            if world_key in best_date and date <= best_date[world_key]:
-                continue
-            best_date[world_key] = date
-            best_cost[world_key] = _usage_cost(info)
-    return best_cost
-
-
-def estimate_world_cost_usd(world_key: str, real_costs: dict[str, float] | None = None) -> float:
-    """This world's own latest observed cost, or the highest cost observed
-    for any world with a real report, as a conservative fallback for a
-    world with no live-admission report of its own yet."""
-    real_costs = real_costs if real_costs is not None else real_world_costs()
-    if world_key in real_costs:
-        return real_costs[world_key]
-    if real_costs:
-        return max(real_costs.values())
-    per_probe = estimate_cost(_OBSERVED_RUN_USAGE, SONNET_4_5_PRICE_TABLE).dollars / _OBSERVED_RUN_PROBE_COUNT
-    return per_probe * len(protocol.battery())
-
-
-def estimate_run_cost_usd(world_keys: list[str], real_costs: dict[str, float] | None = None) -> float:
-    """The preflight total for a whole run: each requested world's own
-    estimate (real_world_costs()'s per-world figure, or the conservative
-    fallback), summed."""
-    real_costs = real_costs if real_costs is not None else real_world_costs()
-    return sum(estimate_world_cost_usd(w, real_costs) for w in world_keys)
+def estimate_world_cost_usd(probes: int, voice_model_id: str, ceiling_usd: float | None = None) -> float:
+    """A preflight ceiling for one world: the measured per-turn ceiling for every
+    probe, scaled by the voice model's output price against Sonnet 4.5's when the
+    run overrides the voice model. A send that fails and is sent again is not counted;
+    the live-test cap bounds it."""
+    ceiling = live_path_turn_ceiling_usd() if ceiling_usd is None else ceiling_usd
+    table = price_for_model(voice_model_id)
+    if table is None:
+        raise RuntimeError(f"no approved price for voice model {voice_model_id!r}")
+    return ceiling * probes * table.output_per_token / SONNET_4_5_PRICE_TABLE.output_per_token
 
 
 class _RecordingAnswerer:
@@ -226,6 +159,7 @@ def live_path_settings(region: str, *, voice_model_pattern: str | None = None, s
         voice_model_id=resolve_model_id(voice_model_pattern or production["voice_model_pattern"], region),
         safety_model_id=resolve_model_id(safety_model_pattern or production["safety_model_pattern"], region),
         r27_enforce=production["r27_enforce"],
+        streaming_enabled=production["streaming_enabled"],
         self_revision_enabled=production["self_revision_enabled"] if self_revision is None else self_revision,
         citation_attach_enabled=production["citation_attach_enabled"],
     )
@@ -241,6 +175,7 @@ def run_settings(*, registry: dict, world_keys: list[str], region: str, settings
         "voice_max_tokens": inspect.signature(stream_voice_turn).parameters["max_tokens"].default,
         "voice_temperature": "API default (not set by stream_voice_turn)",
         "resends_per_probe": RESENDS,
+        "render_yaml_sha256": hashlib.sha256(RENDER_YAML.read_bytes()).hexdigest(),
         "region": region,
         "package_manifest_hash": {w: registry[w]["package"]["manifest_hash"] for w in world_keys},
         "package_content_hash": {w: package_content_hash(REPO_ROOT / registry[w]["package"]["location"]) for w in world_keys},
@@ -316,13 +251,6 @@ def _run_world(world_key: str, *, registry: dict, loader: LazyWorldLoader, setti
     }
 
 
-def live_path_turn_ceiling_usd(report_path: Path = LIVE_COST_REPORT) -> float:
-    """The highest cost of one whole live-path turn (gate calls and voice call)
-    in the measured conversation run, as a preflight ceiling per probe."""
-    report = json.loads(report_path.read_text(encoding="utf-8"))
-    return max(turn["turn_dollars"] for world in report["worlds"].values() for turn in world["turns"])
-
-
 def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DEFAULT_MAX_USD, authorized_by: str,
         voice_model_pattern: str | None = None, safety_model_pattern: str | None = None, self_revision: bool | None = None,
         save_transcripts: bool = False,
@@ -344,11 +272,9 @@ def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DE
         )
     if not authorized_by.strip():
         raise SystemExit("--authorized-by is required and cannot be blank - every live-billed run names who authorized it")
-    real_costs = real_world_costs()
-    share = len(protocol.battery()[:probe_limit]) / len(protocol.battery())
     probes = len(protocol.battery()[:probe_limit])
-    turn_ceiling = live_path_turn_ceiling_usd()
-    per_world_estimates = {w: max(estimate_world_cost_usd(w, real_costs) * share, turn_ceiling * probes) for w in requested}
+    priced_pattern = voice_model_pattern or production_settings()["voice_model_pattern"]
+    per_world_estimates = {w: estimate_world_cost_usd(probes, priced_pattern) for w in requested}
     preflight_total = sum(per_world_estimates.values())
     if preflight_total > max_usd:
         breakdown = ", ".join(f"{w}=${c:.2f}" for w, c in per_world_estimates.items())
@@ -440,9 +366,10 @@ def _assemble_report(*, started_at: str, region: str, settings: dict, per_world:
         "finished_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "note": (
             "Billed admission run through the conversation path (engine.m4.turn.run_turn), one fresh interview "
-            "session per sealed probe. actual_usd is the live-test guard's priced total for the world; "
-            "priced_from_usage_usd is the answered sends' own usage at the approved rates; they differ by the "
-            "cost of a failed send, which the guard charges at its full hold. Preflight is estimated against "
+            "session per sealed probe. actual_usd is the live-test guard's priced total for the world, every "
+            "call included; priced_from_usage_usd is the answered sends' own usage at the approved rates; they "
+            "differ by every call of a failed send (its gate calls at their price, its voice call at the guard's "
+            "full hold) and of any unanswered probe. Preflight is estimated against "
             "max_usd before any billed call, then checked again, running, before each next world."
         ),
     }

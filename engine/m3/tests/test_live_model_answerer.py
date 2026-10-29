@@ -184,3 +184,55 @@ def test_production_settings_leave_unset_flags_at_the_engines_own_defaults(tmp_p
     assert settings["self_revision_enabled"] is True
     assert settings["r27_enforce"] is False
     assert settings["citation_attach_enabled"] is False
+
+
+def _stub_run_turn(monkeypatch, outcome):
+    from engine.m3 import generation
+
+    calls = []
+
+    def run(**kwargs):
+        calls.append(kwargs)
+        if isinstance(outcome, Exception):
+            raise outcome
+        return outcome
+
+    monkeypatch.setattr(generation, "run_turn", run)
+    return calls
+
+
+def _turn_result(action, reason="r"):
+    from engine.m4.turn import TurnResult
+
+    return TurnResult(routing_action=action, routing_reason=reason, facilitator_events=[{"kind": "safety", "text": "fixed line"}])
+
+
+def test_a_failed_gate_is_a_failed_send_not_an_answer(monkeypatch):
+    calls = _stub_run_turn(monkeypatch, _turn_result("safety_unread_turn", "safety call failed"))
+
+    with pytest.raises(AnswerUnavailable, match="gate call failed"):
+        _answerer(FakeClient()).answer("C-I", ASK_TEXT)
+
+    assert len(calls) == 2
+
+
+def test_a_guard_refusal_or_a_routing_fault_stops_the_run(monkeypatch):
+    from engine.m4.turn import UnhandledRoutingAction
+    from engine.provider.guard import LiveTestGuardError
+
+    for error in (LiveTestGuardError("no approved price"), UnhandledRoutingAction("eighth route")):
+        calls = _stub_run_turn(monkeypatch, error)
+        with pytest.raises(type(error)):
+            _answerer(FakeClient()).answer("C-I", ASK_TEXT)
+        assert len(calls) == 1
+
+
+def test_a_probe_with_no_voice_reply_is_graded_as_not_passed():
+    from engine.m3 import harness
+
+    answerer = _answerer(FakeClient(safety_value=safety("ACUTE_DISTRESS", acute_level="a1")))
+
+    result = harness.run_battery("fix", {}, answerer=answerer, limit=1)[0]
+
+    assert result.passed is False
+    assert result.error == "no voice reply: routed to safety_turn"

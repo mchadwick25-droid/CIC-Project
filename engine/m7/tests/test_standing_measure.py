@@ -124,3 +124,21 @@ def test_a_sentence_withheld_for_a_quotation_counts_in_withheld_mark_rate():
     assert kept == [first]
     probe = _probe(raw, answer, kept)
     assert sm.score_run(_report([probe]))["withheld_mark_rate"] == 0.5
+
+
+def test_a_live_path_report_is_scored_from_its_drafts_and_usage():
+    real = _real_id()
+    probe = _probe("", "One.", [real])
+    probe["transcript"] = {
+        "answer_text": "One.", "citations": [real],
+        "drafts": [{"raw_text": f"One. [[{WORLD}.nope.missing]]", "stop_reason": "max_tokens",
+                    "seconds_to_first_text": 2.0, "seconds_total": 6.0}],
+        "usage": [{"call_kind": "voice_generation", "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+                   "input_tokens": 100, "output_tokens": 50, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0},
+                  {"call_kind": "reader_call", "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+                   "input_tokens": 100, "output_tokens": 50, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0}],
+    }
+    probe["usage"] = probe["transcript"]["usage"]
+    scores = sm.score_run(_report([probe]))
+    assert scores["invented_ids_per_100_sentences"] == 100.0
+    assert scores["cutoff_rate"] == 1.0

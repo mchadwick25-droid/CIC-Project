@@ -20,7 +20,7 @@ from engine.m1 import canon
 from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence as m4_evidence
 from engine.m4.rhythm import tally_from_transcript
-from engine.m4.turn import SESSION_TURN_CAP, run_turn
+from engine.m4.turn import SESSION_TURN_CAP, UnhandledRoutingAction, run_turn
 from engine.m4.uncited_claims import (
     conversation_revealed_excerpts,
     known_tradition_names,
@@ -31,10 +31,12 @@ from engine.m4.uncited_claims import (
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids
 from engine.m3.call_capture import CapturingClient
+from engine.provider.guard import LiveTestCapReached, LiveTestGuardError
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 RENDER_YAML = REPO_ROOT / "render.yaml"
 PRODUCTION_SERVICE = "cic-engine"
+GATE_FAILED_ROUTE = "safety_unread_turn"
 
 # A participant whose message fails to produce a reply sends it again; a
 # probe is given the same one resend.
@@ -186,6 +188,7 @@ class LivePathSettings:
     r27_enforce: bool
     self_revision_enabled: bool
     citation_attach_enabled: bool
+    streaming_enabled: bool = False
 
     def printable(self) -> dict:
         return asdict(self)
@@ -204,6 +207,7 @@ def production_settings(render_yaml: Path = RENDER_YAML) -> dict:
         "r27_enforce": (env.get("CIC_R27_ENFORCE") or "") in on,
         "self_revision_enabled": (env.get("CIC_SELF_REVISION") or "1") not in ("0", "false", "no"),
         "citation_attach_enabled": (env.get("CIC_CITATION_ATTACH") or "") in on,
+        "streaming_enabled": (env.get("CIC_API_STREAMING") or "") in on,
     }
 
 
@@ -264,22 +268,25 @@ class LiveModelAnswerer:
             turn_cap=SESSION_TURN_CAP,
             limit_text=None,
             citation_attach_enabled=self.settings.citation_attach_enabled,
+            on_sentence=(lambda _event: None) if self.settings.streaming_enabled else None,
             **self._turn_inputs(probe_text),
         )
 
     def answer(self, cell: str, probe_text: str) -> AnswerResult:
-        from engine.provider.guard import LiveTestCapReached
-
         mark = self.client.mark()
         last_error: Exception | None = None
         for sends in range(1, RESENDS + 2):
             try:
                 result = self._send(probe_text)
-                break
-            except LiveTestCapReached:
+            except (LiveTestCapReached, LiveTestGuardError, UnhandledRoutingAction):
                 raise
-            except Exception as error:  # noqa: BLE001 - the deployment answers any fault in a send with a failed send
+            except RuntimeError as error:  # the voice call failed: the participant sends again
                 last_error = error
+                continue
+            if result.routing_action == GATE_FAILED_ROUTE:
+                last_error = RuntimeError(f"gate call failed: {result.routing_reason}")
+                continue
+            break
         else:
             raise AnswerUnavailable(f"{type(last_error).__name__}: {last_error}") from last_error
 

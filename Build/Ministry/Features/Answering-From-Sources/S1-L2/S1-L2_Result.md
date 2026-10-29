@@ -65,12 +65,14 @@ Words per changed draft: 251 shipped today, 340 after repair (mean change +89). 
 
 ## What the numbers do and do not show
 
-- Every placed quote is the record's own rendering, verified by the net. No typed quote ships.
-- The gain comes from V1 (66 drafts) and V3 (20 drafts). V2 found nothing: no typed quotation in the 308 drafts equals an offered quote record's words.
-- Cuts fall by a third (297 to 203) and orphan flags by about 40% (85 to 52), but the replay cannot say whether the quote answers the question: that needs a human or judge read of the sample below. V3 selects a quote the voice cited, not one it asked to place.
-- Answers grow by about 25 words on average (89 words on a changed draft): a placed quote is a whole rendering. Length is a measured cost.
-- Cuts of other kinds are untouched (typed quotation 42, story 28, attribution 24). A second marker is now cut as "second placed quote" (22 to 51): the voice often marked more than one.
-- The orphan count is the replay report's heuristic, applied the same way to every step.
+- Every placed quote is the record's own rendering, verified by the net. No typed quote ships. That proves the words are faithful, not that the quote fits the question.
+- 86 sentences were replaced by code-placed quotes: 66 by V1 (a marker the net refused for its lead-in) and 20 by V3 (a removed sentence that cited an offered quote record). V2 found nothing: no typed quotation in the 308 drafts equals an offered quote record's words.
+- The fall in cuts (297 to 203) is mostly those 86 sentences no longer counting as removed. It is not an independent one-third reduction. "Second placed quote" cuts rise from 22 to 51 because the voice often marked more than one quote.
+- Most of the fall in orphan flags (85 to 52) follows by construction: a replaced sentence now ships, so the sentence after it can no longer be flagged. The heuristic is the replay report's rule, applied the same way to every step.
+- Each repair replaces the whole removed sentence, so anything else the voice said in it is lost. Answers grow by 89 words on a changed draft and by 25 on average, because a placed quote is a whole rendering.
+- Evidence is rebuilt the way the run built it (no reader, no directive), on drafts the old path wrote. Rates may differ on the live path.
+- Not measured: readability of the inserted renderings, and the effect of one templated lead-in ("<Name> puts it this way:") repeated in up to 124 replies. Both need a read of the sample below before any design relies on this.
+- Cuts of other kinds are untouched (typed quotation 42, story 28, attribution 24).
 
 ## Sample of 30 changed drafts, before and after (for a human read)
 

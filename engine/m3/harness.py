@@ -90,6 +90,14 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None, limi
             results.append(ProbeResult(probe_id=probe_id, cell=cell, passed=False, checks=[], error=str(e)))
             continue
 
+        turn = getattr(answer, "live_turn", None)
+        if turn is not None and (turn.voice_event is None or not answer.text.strip()):
+            results.append(ProbeResult(
+                probe_id=probe_id, cell=cell, passed=False, checks=[], answer_text=answer.text,
+                error=f"no voice reply: routed to {turn.routing_action}",
+            ))
+            continue
+
         transcript = mask_for_grading(
             probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations,
             citation_entries=getattr(answer, "citation_entries", None),
