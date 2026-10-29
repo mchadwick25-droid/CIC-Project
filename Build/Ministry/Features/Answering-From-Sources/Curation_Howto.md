@@ -59,7 +59,14 @@ Each rule has:
 - `fixes`: `line` and `set` of group values, for a heading whose OCR is beyond a map. The line must match the rule.
 - `allow_oversize`: a sentence of evidence that this level is the finest the edition prints. It lets divisions over 5,000 words stand.
 
-Template fields: the pattern's groups, `{line}` (the 1-based line), `{next}` (the next non-blank line), `{parent}`. Filters, chained with `|`: `int` (read a roman, arabic or word numeral; `int:3` pads to three digits), `slug`, `lower`, `upper`. The first matching rule on a line wins.
+Template fields: the pattern's groups, `{line}` (the 1-based line), `{next}` (the next non-blank line), `{parent}`. Filters, chained with `|`: `int` (read a roman, arabic or ordinal-word numeral; `int:3` pads to three digits), `slug`, `lower`, `upper`. The first matching rule on a line wins.
+
+### Numerals the `int` filter reads
+
+- Roman numerals up to MMMCMXCIX, upper or lower case, to the longest form (MMMDCCCLXXXVIII, 15 letters). Additive forms such as IIII and XXXX count. Letter strings that are not shaped like a numeral (VX, IIX, MIXLCD) do not read.
+- Arabic numbers, with an optional trailing letter (`12a` reads as 12).
+- Greek letter numerals with a keraia (`α'`, `ιβ'`).
+- Ordinal words from fixed tables: English first to twelfth; Latin primus to decimus (`-us`, `-a`, `-um`); Italian primo to decimo (`-o`, `-a`, `-i`, `-e`); German erste to neunhundertneunundneunzigste, with the endings `-e`, `-er`, `-es`, `-en`, `-em` (Erstes, Achtunddreissigster); French premier, second and deuxième to quatre-vingt-dix-neuvième, and centième (Deuxieme, Vingt-et-unième). Accents and umlauts are optional, so `Deuxieme`, `Funfte`, `fuenfte` and `Achtunddreißigster` all read. A word outside the tables has no value, and the checker reports it as unreadable.
 
 ### Evidence
 
