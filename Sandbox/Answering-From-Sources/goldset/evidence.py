@@ -14,7 +14,7 @@ import html
 import re
 from pathlib import Path
 
-from goldset.common import REPO_ROOT, git_show, records_at
+from goldset.common import git_show, records_at
 
 VOICED_FIELDS = (
     "text", "modern_rendering", "positions", "tensions", "plain_meaning", "quick_meaning", "summary",
@@ -27,10 +27,10 @@ DIVISION_WHOLE_LINES = 300
 WINDOW_LINES = 80
 PLAIN_WINDOW_LINES = 40
 PASSAGE_CHAR_LIMIT = 24_000
-LEXICON_CHAR_LIMIT = 8_000
+LEXICON_CHAR_LIMIT = 40_000
 
 _FILE = re.compile(r"(?:cic/texts/)?\b([A-Za-z0-9_\-][A-Za-z0-9_.\-]*\.(?:xml|txt))\b")
-_LINES = re.compile(r"lines?\s+(\d+)\s*(?:[-–]\s*(\d+))?")
+_LINES = re.compile(r"\blines?\s+(\d+)\s*(?:[-–]\s*(\d+))?")
 _LANG = re.compile(r"-(lat|grc|fra|deu|ita|spa|syr|heb|arm|cop|ara|nld|rus|swe|enm|gmh|hrv|por|pol|ces)_")
 _DIV = re.compile(r"<div(\d)\b([^>]*)>|</div(\d)>")
 _TITLE = re.compile(r'\btitle="([^"]*)"')
@@ -60,20 +60,21 @@ def loci(locus: str) -> list[tuple[str, int | None, int | None]]:
 
 
 def _full_last(first: str, last: str) -> int:
-    """'12746-47' writes the last line short: it means 12746-12747."""
-    if len(last) < len(first) and int(last) < int(first[-len(last):]) + 10 ** len(last):
-        last = first[: len(first) - len(last)] + last
+    """'12746-47' writes the last line short: it means 12746-12747, and
+    '1299-03' means 1299-1303."""
+    if len(last) < len(first):
+        whole = int(first[: len(first) - len(last)] + last)
+        if whole < int(first):
+            whole += 10 ** len(last)
+        return whole
     return int(last)
 
 
 @functools.lru_cache(maxsize=32)
 def text_lines(commit: str, name: str) -> tuple[str, ...] | None:
-    """The vendored file as it stood at the records' commit. The working
-    tree's copy is used when git holds the same bytes there."""
-    path = REPO_ROOT / "cic" / "texts" / name
+    """The vendored file as it stood at the records' commit; None when the
+    shelf did not hold it then."""
     raw = git_show(commit, f"cic/texts/{name}")
-    if raw is None and path.exists():
-        raw = path.read_text(encoding="utf-8", errors="replace")
     return tuple(raw.split("\n")) if raw is not None else None
 
 
@@ -189,11 +190,13 @@ def record_block(record: dict) -> str:
     return "\n".join(rows)
 
 
-def lexicon_block(records: dict) -> str:
+def lexicon_block(records: dict, bound: set[str] = frozenset()) -> str:
+    """Every term's risk flags, the terms the item is bound to first. If the
+    list must be shortened, the pack says so and names how many were left out."""
+    terms = [r for r in records.values() if r.get("record_type") == "term"]
+    terms.sort(key=lambda r: (r["id"] not in bound, r["id"]))
     rows = []
-    for record in sorted(records.values(), key=lambda r: r["id"]):
-        if record.get("record_type") != "term":
-            continue
+    for record in terms:
         risk = record.get("distortion_risk") or "unstated"
         line = f"- {record.get('world_word') or record['id']} (distortion risk: {risk})"
         if record.get("false_friend"):
@@ -201,8 +204,15 @@ def lexicon_block(records: dict) -> str:
         if record.get("plain_meaning"):
             line += f"; plain meaning: {_render_value(record['plain_meaning'])}"
         rows.append(line)
-    text = "\n".join(rows)
-    return text[:LEXICON_CHAR_LIMIT]
+    kept, size = [], 0
+    for line in rows:
+        if size + len(line) > LEXICON_CHAR_LIMIT:
+            break
+        kept.append(line)
+        size += len(line) + 1
+    if len(kept) < len(rows):
+        kept.append(f"(list shortened: {len(rows) - len(kept)} of {len(rows)} terms not shown)")
+    return "\n".join(kept)
 
 
 def _source_files(record: dict, records: dict) -> list[tuple[str, int | None, int | None]]:
@@ -235,7 +245,7 @@ def build_pack(item: dict) -> dict:
         for name, first, last in _source_files(record, records):
             found = passage(item["records_commit"], name, first, last, phrases)
             blocks.append({"id": f"P{len([b for b in blocks if b['kind'] == 'passage']) + 1}", "kind": "passage", "for_record": f"R{n}", **found})
-    blocks.append({"id": "L", "kind": "lexicon", "text": lexicon_block(records)})
+    blocks.append({"id": "L", "kind": "lexicon", "text": lexicon_block(records, {b["id"] for b in item["bindings"]})})
     return {"item_id": item["item_id"], "blocks": blocks}
 
 

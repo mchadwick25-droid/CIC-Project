@@ -19,7 +19,11 @@ def test_verbatim_evidence_is_required():
     assert labeller.parse_reply(reply(), PACK)["ok"]
     assert labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "\"the Church is one\""}]), PACK)["ok"]
     bad = labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "the Church is united"}]), PACK)
-    assert not bad["ok"] and "not found verbatim" in bad["why"]
+    assert not bad["ok"] and "found verbatim" in bad["why"]
+    assert not labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "the"}]), PACK)["ok"]
+    assert not labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "t is not divided"}]), PACK)["ok"]
+    assert labeller.parse_reply(reply(evidence=[{"block": "R1", "words": "it is not divided"}]), PACK)["ok"]
+    assert not labeller.parse_reply(reply(evidence=["the Church is one"]), PACK)["ok"]
     assert not labeller.parse_reply(reply(evidence=[{"block": "P9", "words": "the Church"}]), PACK)["ok"]
     assert not labeller.parse_reply(reply(evidence=[]), PACK)["ok"]
 
@@ -76,9 +80,15 @@ def test_catch_rate_counts_misses_and_false_alarms():
         verdict = "unsupported" if n == 0 else "supported"
         labels.append({"line_id": f"c{n}", "model_id": "m", "label": {"verdict": verdict, "failure_class": "unsupported_other" if verdict == "unsupported" else None, "other_classes": [], "reason": ""}})
     result = catch_rate.report(key, labels, "q")
-    assert result["seeds_caught"] == 19 and result["passes_catch_threshold"] and result["false_alarms"] == 1
+    assert result["seeds_caught"] == 19 and result["meets_catch_threshold"] and result["false_alarms"] == 1
+    assert result["controls_supported"] == 19
     labels[0]["label"] = None
-    assert not catch_rate.report(key, labels, "q")["passes_catch_threshold"]
+    labels[21]["label"] = {"verdict": "cannot_judge", "failure_class": None, "other_classes": [], "reason": ""}
+    result = catch_rate.report(key, labels, "q")
+    assert not result["meets_catch_threshold"] and result["control_misses"] == 1 and result["controls_supported"] == 18
+    import pytest
+    with pytest.raises(ValueError):
+        catch_rate.report(key, labels + [{**labels[1], "model_id": "other"}], "q")
 
 
 def test_stream_hides_the_key():
@@ -91,13 +101,24 @@ def test_stream_hides_the_key():
 
 
 def test_split_is_fixed_by_id_and_seal_detects_edits(tmp_path):
+    import pytest
     assert split.half("gs-abc") == split.half("gs-abc")
     halves = [split.half(f"gs-{n}") for n in range(400)]
     assert 150 < halves.count(split.HELDOUT) < 250
-    item = {"item_id": "gs-1", "world": "w", "records_commit": "c", "bindings": [], "sentence": "a"}
-    sealed = split.seal([item], "2026-10-29")
-    assert split.broken_seals([item], sealed) == []
-    assert split.broken_seals([{**item, "sentence": "b"}], sealed) == ["gs-1"]
+    held = next(f"gs-{n}" for n in range(400) if split.half(f"gs-{n}") == split.HELDOUT)
+    item = {"item_id": held, "world": "w", "records_commit": "c", "bindings": [], "sentence": "a", "label": {"verdict": "supported"}}
+    split.write_halves([item], tmp_path, "2026-10-29")
+    split.write_halves([item], tmp_path, "2026-10-30")
+    relabelled = {**item, "label": {"verdict": "unsupported", "failure_class": "unsupported_other", "other_classes": []}}
+    with pytest.raises(SystemExit):
+        split.write_halves([relabelled], tmp_path, "2026-10-30")
+    split.write_halves([relabelled], tmp_path, "2026-10-30", {held: "Mark adjudicated"})
+    with pytest.raises(SystemExit):
+        split.write_halves([], tmp_path, "2026-10-31")
+    split.write_halves([], tmp_path, "2026-10-31", {held: "withdrawn"})
+    split.write_halves([], tmp_path, "2026-11-01")
+    seals = split.yaml.safe_load((tmp_path / "seals.yaml").read_text())
+    assert seals["seals"][0]["withdrawn"] and len(seals["seals"][0]["history"]) == 2
 
 
 def test_loci_and_short_line_ranges():
@@ -105,8 +126,38 @@ def test_loci_and_short_line_ranges():
     assert found == [("anf05_x.xml", 47307, 47420), ("cyprian-lat_h.txt", 40782, 40782)]
     assert evidence.loci("Letter 7 (npnf206_jerome.xml)") == [("npnf206_jerome.xml", None, None)]
     assert evidence.loci("cic/texts/a.xml, lines 12746-47")[0] == ("a.xml", 12746, 12747)
+    assert evidence.loci("cic/texts/a.xml, lines 1299-03")[0] == ("a.xml", 1299, 1303)
+    assert evidence.loci("cic/texts/a.xml, outlines 5")[0] == ("a.xml", None, None)
     assert evidence.file_language("cyprian_opera-lat_hartel.txt") == "lat"
 
 
 def test_pool_key_ignores_closing_punctuation():
     assert pool._draft_key("He said so [[quote:w.quote.a]].") == pool._draft_key("He said so  [[quote:w.quote.a]]")
+
+
+def _gold(item_id, verdict, cls=None, gate="ok"):
+    label = {"verdict": verdict, "failure_class": cls, "other_classes": []}
+    return {"item_id": item_id, "label": label, "gate": {"verdict": gate}}
+
+
+def test_trial_scores_judges_and_gates_against_gold():
+    from goldset import trial
+    gold = [_gold("a", "unsupported", "embedded_voice", gate="ok"), _gold("b", "unsupported", "unsupported_other", gate="withhold"),
+            _gold("c", "supported"), _gold("d", "supported", gate="withhold"), _gold("e", "no_claim")]
+    verdicts = {"verifier": {"a": {"supported": False}, "b": {"supported": True}, "c": {"supported": True}, "d": {"supported": True}}}
+    result = trial.score(gold, verdicts)
+    assert result["items"] == 4
+    judge = result["deciders"]["judge:verifier"]
+    assert (judge["recall_unsupported"], judge["precision_unsupported"]) == (0.5, 1.0)
+    gates = result["deciders"]["current_gates"]
+    assert (gates["recall_unsupported"], gates["precision_unsupported"]) == (0.5, 0.5)
+    queue = trial.adjudication_queue(gold, verdicts, sample=0)
+    assert [q["item_id"] for q in queue] == ["b"]
+
+
+def test_judgement_parsing():
+    from goldset import trial
+    assert trial.parse_judgement("verifier", 'ok {"supported": false, "reason": "x"}', 1)["supported"] is False
+    assert trial.parse_judgement("verifier", '{"supported": "no"}', 1) is None
+    got = trial.parse_judgement("citation_recall", '{"entailed": true, "needed": [1, 9], "reason": ""}', 2)
+    assert got["supported"] is True and got["citation_precision"] == 0.5

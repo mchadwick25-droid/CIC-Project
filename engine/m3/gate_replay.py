@@ -19,7 +19,7 @@ commit with its package restored:
 
 One line per draft sentence: world, probe_id, the sentence as drafted, the
 gates' verdict and reason, and whether it was removed. The run's shipped
-answer must come back unchanged for every probe, or the replay stops.
+answer must come back unchanged for every probe, text and citations alike, or the replay stops.
 """
 import argparse
 import json
@@ -71,6 +71,13 @@ def replay(report: dict, worktree: Path) -> list[dict]:
         return text, citations, net_result
 
     generation.apply_net = keeping_net_result
+    try:
+        return _replay_worlds(report, worktree, generation, captured, read_probe, load_fleet_records, load_registry, LazyWorldLoader)
+    finally:
+        generation.apply_net = real_apply_net
+
+
+def _replay_worlds(report, worktree, generation, captured, read_probe, load_fleet_records, load_registry, LazyWorldLoader) -> list[dict]:
     registry = load_registry()
     canon_questions = load_fleet_records()
     loader = LazyWorldLoader()
@@ -92,6 +99,9 @@ def replay(report: dict, worktree: Path) -> list[dict]:
             result = answerer.answer(probe["cell"], read_probe(probe["probe_id"])["text"])
             if result.text != transcript["answer_text"]:
                 raise SystemExit(f"{world} {probe['probe_id']}: the replay does not reproduce the shipped answer")
+            saved = [(e["sentence"], list(e["record_ids"])) for e in transcript.get("citation_entries") or [] if not e.get("attached")]
+            if [(e["sentence"], list(e["record_ids"])) for e in result.citation_entries] != saved:
+                raise SystemExit(f"{world} {probe['probe_id']}: the replay does not reproduce the shipped citations")
             net_result = captured[-1]
             for entry_ in net_result["sentences"]:
                 rows.append({
@@ -104,7 +114,6 @@ def replay(report: dict, worktree: Path) -> list[dict]:
                     "world": world, "probe_id": probe["probe_id"], "draft": gone.get("draft") or gone["sentence"],
                     "shown": None, "verdict": "withhold", "why": gone["why"], "removed": True, "cited": False,
                 })
-    generation.apply_net = real_apply_net
     return rows
 
 

@@ -18,7 +18,9 @@ the defect is certain by construction and checkable by anyone:
                          tradition's own conviction, bound to that record.
 
 Controls are a record's own sentence, copied from its voiced text, bound to
-that record: supported by construction.
+that record: supported by construction, and easy by construction. They catch
+a labeller that flags everything; they do not show how it does on hard
+supported sentences.
 
 Every candidate is printed for a reading before it enters a test; a candidate
 the reading rejects is marked so and never used. Each seed and control is
@@ -214,13 +216,13 @@ def build_bank(pool: list[dict], seed: int = 20261029) -> list[dict]:
     rng = random.Random(seed)
     bank = []
 
-    def add(seed_type: str, base: dict, made: dict) -> None:
+    def add(seed_type: str, base: dict, made: dict, from_item: bool = True) -> None:
         bank.append({
             "seed_id": stable_id("sd", seed_type, base["world"], made["sentence"]),
             "seed_type": seed_type, "expected_class": EXPECTED_CLASS[seed_type],
             "world": base["world"], "records_commit": base["records_commit"],
             "sentence": made["sentence"], "bindings": made.get("bindings") or base["bindings"],
-            "base_item_id": base.get("item_id"), "construction": made["construction"],
+            "base_item_id": base.get("item_id") if from_item else None, "construction": made["construction"],
             "reading": None,
         })
 
@@ -238,11 +240,11 @@ def build_bank(pool: list[dict], seed: int = 20261029) -> list[dict]:
     for world, base in sorted(commits.items()):
         records = records_at(base["records_commit"], world)
         for made in inflated_meanings(records, rng):
-            add("attribution_inflation", base, made)
+            add("attribution_inflation", base, made, from_item=False)
         for made in false_friends(records, rng):
-            add("false_friend", base, made)
+            add("false_friend", base, made, from_item=False)
         for made in embedded_voices(records, rng):
-            add("embedded_voice", base, made)
+            add("embedded_voice", base, made, from_item=False)
         worlds_items = [i for i in pool if i["world"] == world and i["bindings"][0]["kind"] == "record"]
         for item in rng.sample(worlds_items, min(12, len(worlds_items))):
             made = controls(item, records, rng)

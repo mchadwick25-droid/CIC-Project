@@ -3,11 +3,14 @@ on the known-supported controls beside it.
 
 A seed is caught when the labeller's verdict on it is "unsupported"; the
 report also says how many were caught under the expected class. A seed left
-unlabelled (both replies rejected) counts as missed. A control is a false
-alarm when its verdict is "unsupported". The pass rule is Mark's: at least
-the threshold of seeds caught (default 19 of 20). No rule is set on false
-alarms; the count is published beside the catch rate so a labeller that
-flags everything is seen to.
+unlabelled (both replies rejected) counts as missed. A control is right only
+when its verdict is "supported": "unsupported" is a false alarm, and any other
+verdict or no label is a control miss; both are counted. Mark's rule is on
+seeds alone (default 19 of 20). A labeller that flags everything would meet
+it, so the report never says "passed" on the catch count alone: it gives the
+catch result and the control result side by side, and the decision whether
+the labeller qualifies is read from both. The labels file must hold one
+model's rows; the first row for a line is the one scored.
 
   python -m goldset.catch_rate --key <key.jsonl> --labels <labels.jsonl> --test-set qualify
 """
@@ -23,7 +26,12 @@ DEFAULT_THRESHOLD = (19, 20)
 
 
 def report(key: list[dict], labels: list[dict], test_set: str, threshold: tuple[int, int] = DEFAULT_THRESHOLD) -> dict:
-    by_line = {r["line_id"]: r for r in labels}
+    models = sorted({r["model_id"] for r in labels})
+    if len(models) > 1:
+        raise ValueError(f"labels from more than one model: {models}")
+    by_line: dict[str, dict] = {}
+    for row in labels:
+        by_line.setdefault(row["line_id"], row)
     seeds = [k for k in key if k["kind"] == "seed" and k["test_set"] == test_set]
     controls = [k for k in key if k["kind"] == "control" and k["test_set"] == test_set]
     per_type: dict[str, Counter] = defaultdict(Counter)
@@ -41,27 +49,28 @@ def report(key: list[dict], labels: list[dict], test_set: str, threshold: tuple[
                 counts["caught_as_expected_class"] += 1
         else:
             missed.append({"line_id": k["line_id"], "ref": k["ref"], "seed_type": k["seed_type"], "verdict": label["verdict"], "reason": label["reason"]})
-    false_alarms = []
-    unlabelled_controls = 0
+    false_alarms, control_misses = [], []
     for k in controls:
         label = (by_line.get(k["line_id"]) or {}).get("label")
         if label is None:
-            unlabelled_controls += 1
+            control_misses.append({"line_id": k["line_id"], "ref": k["ref"], "verdict": None})
         elif label["verdict"] == "unsupported":
             false_alarms.append({"line_id": k["line_id"], "ref": k["ref"], "class": gold_class(label), "reason": label["reason"]})
+        elif label["verdict"] != "supported":
+            control_misses.append({"line_id": k["line_id"], "ref": k["ref"], "verdict": label["verdict"], "reason": label["reason"]})
     caught = sum(c["caught"] for c in per_type.values())
     need, out_of = threshold
     scaled_need = -(-need * len(seeds) // out_of) if seeds else need
-    models = sorted({r["model_id"] for r in labels if r["line_id"] in {k["line_id"] for k in seeds + controls}})
     return {
         "test_set": test_set, "model_ids": models,
         "seeds_planted": len(seeds), "seeds_caught": caught,
         "seeds_caught_as_expected_class": sum(c["caught_as_expected_class"] for c in per_type.values()),
         "threshold": f"{need} of {out_of}", "needed_for_this_set": scaled_need,
-        "passes_catch_threshold": len(seeds) > 0 and caught >= scaled_need,
+        "meets_catch_threshold": len(seeds) > 0 and caught >= scaled_need,
         "per_type": {t: dict(c) for t, c in sorted(per_type.items())},
-        "controls": len(controls), "false_alarms": len(false_alarms), "unlabelled_controls": unlabelled_controls,
-        "missed": missed, "false_alarm_detail": false_alarms,
+        "controls": len(controls), "controls_supported": len(controls) - len(false_alarms) - len(control_misses),
+        "false_alarms": len(false_alarms), "control_misses": len(control_misses),
+        "missed": missed, "false_alarm_detail": false_alarms, "control_miss_detail": control_misses,
     }
 
 

@@ -40,7 +40,7 @@ When the verdict is "unsupported", give the failure class that best describes it
 - "embedded_voice": the sentence gives as the tradition's or the author's own view words that in the evidence belong to someone else: an opponent, an interlocutor, a correspondent whose letter is quoted, a hostile witness, or an editor.
 - "unsupported_other": anything else unsupported: an added name, date, number, place, cause or detail; a claim the records do not make; a contradiction.
 
-Bind every verdict to the exact words. Give at least one evidence entry: copy, character for character, the words from one block that support the sentence or that show it is wrong (for an absent claim, the words the sentence would have to rest on). Name the block id. Copy no more than about forty words per entry. If the bound record itself misreads its own source, say so in "record_concern"; that does not change your verdict on the sentence against the record.
+Bind every verdict to the exact words. Give at least one evidence entry: copy, character for character, the words from one block that support the sentence or that show it is wrong (for an absent claim, the words the sentence would have to rest on). Name the block id. Copy at least four and no more than about forty consecutive words per entry. If the bound record itself misreads its own source, say so in "record_concern"; that does not change your verdict on the sentence against the record.
 
 Reply with one JSON object and nothing else:
 {"verdict": "...", "failure_class": null or "...", "other_classes": [], "evidence": [{"block": "R1", "words": "..."}], "reason": "one or two plain sentences", "record_concern": null or "..."}"""
@@ -57,6 +57,19 @@ def _fold(text: str) -> str:
 
 
 _JSON = re.compile(r"\{.*\}", re.DOTALL)
+_WORDS = re.compile(r"\w+")
+MIN_EVIDENCE_WORDS = 4
+
+
+def words_in(words: str, text: str) -> bool:
+    """The quoted words occur in the text as a run of whole words, at least
+    MIN_EVIDENCE_WORDS long (or the whole text, when it is shorter)."""
+    quoted = _WORDS.findall(_fold(words))
+    tokens = _WORDS.findall(_fold(text))
+    if len(quoted) < min(MIN_EVIDENCE_WORDS, len(tokens)) or not quoted:
+        return False
+    first = quoted[0]
+    return any(tokens[i:i + len(quoted)] == quoted for i, t in enumerate(tokens) if t == first)
 
 
 def parse_reply(reply: str, pack: dict) -> dict:
@@ -81,13 +94,15 @@ def parse_reply(reply: str, pack: dict) -> dict:
     evidence = label.get("evidence") or []
     if verdict != "cannot_judge" and not evidence:
         return {"ok": False, "why": "no evidence words given"}
+    if not isinstance(evidence, list) or any(not isinstance(e, dict) for e in evidence):
+        return {"ok": False, "why": "evidence must be a list of objects with a block and words"}
     for entry in evidence:
         text = block_text(pack, str(entry.get("block")))
         words = str(entry.get("words") or "")
         if text is None:
             return {"ok": False, "why": f"evidence names block {entry.get('block')!r}, which the pack does not have"}
-        if len(_fold(words)) < 3 or _fold(words) not in _fold(text):
-            return {"ok": False, "why": f"evidence words are not found verbatim in block {entry.get('block')}: {words[:80]!r}"}
+        if not words_in(words, text):
+            return {"ok": False, "why": f"evidence words are not a run of at least {MIN_EVIDENCE_WORDS} whole words found verbatim in block {entry.get('block')}: {words[:80]!r}"}
     return {"ok": True, "label": {
         "verdict": verdict, "failure_class": primary if verdict == "unsupported" else None,
         "other_classes": list(others) if verdict == "unsupported" else [],
