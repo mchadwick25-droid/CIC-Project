@@ -53,12 +53,14 @@ openings, any change to the production path.
 
 | Item | Cap in force | Thread | Started | Finished | Elapsed |
 |---|---|---|---|---|---|
-| S1-01 baseline live-path run | none yet [BLANK, Mark] | Engine | | | |
-| S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | 2026-10-29 17:12 UTC | | free tooling built by 17:56 UTC (44 min); labelling waits for the model choice and a cap |
-| S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | 2026-10-29 17:12 UTC | | uses the S1-02 runner; waits for the model choice and a cap |
-| S1-04 judge trial in shadow | $25 ceiling, sample first | Specialist and gold set | 2026-10-29 17:12 UTC | | comparator done: the gates' verdict on every sentence of the 308 drafts, replayed free (308 of 308 reproduced); judges wait for the gold set |
+| Harness parity (prerequisite to S1-01): the admission harness runs the live path | none: free, hermetic tests only | Engine | 2026-10-29 17:11Z | 2026-10-29 17:23Z (local checks green; review round 1 pending) | 12 min |
+| S1-01 baseline live-path run | none: both approvals withdrawn 2026-10-29; no metered call without Mark. The sample ran once before the withdrawal reached the thread: guard-priced $0.8275, all 4 voice calls failed, no answers. Free measures filed in `S1-01-free/` | Engine | 2026-10-29 18:16Z | not completed | 19 s of wall clock (sample) |
+| S1-L2 deterministic quoting on the replay bench | none: free, no model call | Engine | 2026-10-29 17:23Z | 2026-10-29 17:29Z (review round 1 pending) | 6 min |
+| S1-02 gold set and AI specialist | none needed: Claude only, labelled in plan (no metered call); Mark adjudicates 2 h/week | Specialist and gold set | 2026-10-29 17:12 UTC | | tooling 17:12-17:56 (44 min); specialist (Opus 5.5) qualified 18:26-18:37 (11 min, 20/20 seeds, 20/20 controls); lpc labelled; first rulings packet to Mark ~18:47; other worlds being labelled from 19:15 |
+| S1-03 second labeller | none needed: Claude Fable 5.1, in plan | Specialist and gold set | 2026-10-29 18:40 UTC | | lpc fifth (56 items) 18:40-18:43 (3 min); verdict agreement 0.945, kappa 0.64 |
+| S1-04 judge trial in shadow | deferred by Mark ("decide later"); judges are metered | Specialist and gold set | 2026-10-29 17:12 UTC | | comparator done: gates' verdict on every sentence of the 308 drafts, replayed free (308/308, text and citations); judges wait for the gold set |
 | S1-05 contextual indexing, twelve shelves | $200 ceiling, sample first | Library (engine runs the index) | | | |
-| S1-L1 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
+| S1-L1, S1-L3 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
 
 Dates and elapsed time are filled in by the thread that finishes the item.
 

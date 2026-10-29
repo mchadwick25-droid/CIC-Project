@@ -43,3 +43,17 @@ Tracked per the dated-entry discipline used across this project's other worlds (
 14. **`safety_adjacent` is unset, 2026-10-02.** The project lead sets `safety_adjacent` in `records/worlds/aec.yaml` at handoff. Handoff check 1 fails until it is set.
 
 15. **Source Registry layout and counts, 2026-10-02.** The Registry table gained the `Discovery (channel / instrument / date)` column, so each row has 12 pipes. Its channel is the corpus map for rows drawn from the world's bucket and builder prior knowledge for the two unread secondary works. The bucket holds 50 work-rows. Corpus figures are counted two ways with the locale stated (Source Registry header).
+
+16. **Library stage: the cap-ruling targeted recheck of Doc_01 and Doc_02 did not clear, 2026-10-29.** Mark ruled on 2026-10-29 that Doc_01 and Doc_02 get one more targeted Opus review that does not count toward the three-round cap. Its files are `Review-Artifacts/Doc01_CapRuling_Review.md` and `Review-Artifacts/Doc02_CapRuling_Review.md`, the second covering `Source_Registry.md`. Every Round 3 finding on both documents is closed or closed in substance. Neither document cleared, and neither is Approved to proceed. Under the ruling, the open findings go back to Mark. No further round runs on the build thread's own initiative.
+   **Doc_01, four blocking findings.**
+   - N1: §5 cites a Socrates II.44 quotation, joined across a sentence boundary, for an agreement after 381 among "both claimants". The passage describes about 361, before Paulinus was consecrated.
+   - N2: §4 calls John of Antioch's letter to Nestorius at `npnf203` `iv.x.cl` verified present. Only its title is in the file.
+   - N3: §4 says canon XIII of Constantinople II condemns the Counter-statements "by name" and does not name the Letters. The canon condemns by description, and its description also reaches Theodoret's letters against Ephesus 431 and in defence of Nestorius.
+   - N4: §4's boundary finding does not reach the Antiochene-party `tradition` rows the corpus-map bucket now carries: Nestorius ×3, the Conciliabulum Ephesinum of 431 and the Synodicon of 431 to 435.
+   **Doc_02 and the Source Registry, four blocking findings.**
+   - D1: the bucket holds 66 work-rows, not 50, and 16 have no Registry row.
+   - D2: the §8 holdings figures are stale, eleven in-scope unread files have no disposition, and Table D has 83 rows, not 84. This also corrects the count restated in entry 11(d) above (Doc_02 reliance and verification items, 2026-10-02).
+   - D3: the `iv.x.cl` claim, as in N2.
+   - D4: the condemned-content disclosure is narrower than canon XIII, as in N3.
+   **Non-blocking items to apply directly.** Doc_01 N5 and Doc_02 D6 re-run and date the word counts. D5 corrects the Lausiac History line loci. D7: Doc_02 §1 says the corpus-map confidence-tag revisit for the *Eranistes* and Letters is carried in §9. It is not carried there, and is recorded here. D8 changes §2's "by date" to "by subject". D9 fixes the Registry's §9 pointer.
+   **Gate.** No System Hub Decision Log entry headed "Cap ruling" names these two files yet. Until one does, `roundcount` counts them.
