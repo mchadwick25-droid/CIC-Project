@@ -8,7 +8,7 @@ Run of 2026-10-29T18:48:41Z (UTC). Code: `Sandbox/answering-library/`, git hash 
 |---|---|
 | Files in the union | 338 (305 plain-text `.txt`, 33 `.xml`) |
 | Bytes | 617,746,628 |
-| Output | `Sandbox/answering-library/out/passages/<file-stem>.jsonl` (one per file) and `out/manifest.json`; gitignored, rebuilt by `python -m answering_library.run` |
+| Output | `out/passages/<file-stem>.jsonl` (one per file) and `out/manifest.json`, both in the gitignored `out/` directory of the `answering-library` package under `Sandbox/`, rebuilt by `python -m answering_library.run` |
 | Passages written | 354,589 |
 | Words in passages | 80,950,920 |
 | Apparatus passages / words | 39,070 / 3,859,835 |
