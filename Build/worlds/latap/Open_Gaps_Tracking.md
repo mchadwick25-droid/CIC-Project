@@ -203,7 +203,7 @@ Separately, the Arnobius obligation in Step 0 §4 asks that Arnobius's teaching 
 
 ## OG-23 — Library-stage status when work paused: Doc_02 Round 2 Clear with open P2s (2026-10-29)
 
-**Source:** `Review-Artifacts/Doc02_Round2_Review.md`; draft pull request #1293.
+**Source:** `Review-Artifacts/Doc02_Round2_Review.md`; the draft pull request for this branch.
 **Status:** Open. Owner: the build thread on resume.
 
 Round 2 of Doc_02 and the Registry returned Clear (P0 none; two new P1, both fixed since: the corpus-map counts and the Files-table rows for the Passion). Doc_02 still reads Draft and has not been self-disposed as approved to proceed. Six new P2 and four partly fixed Round 1 P2 remain open and are listed in the review: the Appendix poems stated flatly as not Tertullian's, the date of the break stated twice, the Registry row 33 and row 38 readings, the "adds no corpus count" sentence, Gennadius with one paragraph, the manifest's blank check table and its Step 2 date, and two loose sentences (row 44 on fragment sources, the ledger entry on stale references). Handoff checks still failing are not this branch's to close: the unset `safety_adjacent`, Step 0 at seven review files with its latest review lacking the approval phrase, and 24 quotation findings that sit in Step 0. The Registry generator scripts were lost with the session scratchpad, so later Registry edits are made in the file directly. No Round 3 has been started.
