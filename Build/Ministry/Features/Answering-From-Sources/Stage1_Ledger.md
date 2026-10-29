@@ -53,12 +53,14 @@ openings, any change to the production path.
 
 | Item | Cap in force | Thread | Started | Finished | Elapsed |
 |---|---|---|---|---|---|
+| Harness parity (prerequisite to S1-01): the admission harness runs the live path | none: free, hermetic tests only | Engine | 2026-10-29 17:11Z | 2026-10-29 17:23Z (local checks green; review round 1 pending) | 12 min |
 | S1-01 baseline live-path run | none yet [BLANK, Mark] | Engine | | | |
+| S1-L2 deterministic quoting on the replay bench | none: free, no model call | Engine | 2026-10-29 17:23Z | 2026-10-29 17:29Z (review round 1 pending) | 6 min |
 | S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | | | |
 | S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | | | |
 | S1-04 judge trial in shadow | $25 ceiling, sample first | Specialist and gold set | | | |
 | S1-05 contextual indexing, twelve shelves | $200 ceiling, sample first | Library (engine runs the index) | | | |
-| S1-L1 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
+| S1-L1, S1-L3 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
 
 Dates and elapsed time are filled in by the thread that finishes the item.
 

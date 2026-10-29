@@ -1,54 +1,91 @@
-"""Hermetic tests for engine.m3.generation.LiveModelAnswerer - no live
-model call, a fake streaming client (same fake-client shape as
-engine/m4/tests/test_turn.py's own FakeBedrockClient, stream-only here
-since LiveModelAnswerer makes no tool-use calls at all - a sealed probe
-already IS the ask, there is no reader/safety gate to classify or route).
+"""Hermetic tests for engine.m3.generation.LiveModelAnswerer - no model call.
+A fake client answers the two gate calls with fixed tool output and streams a
+fixed draft, so what is under test is the path: that a sealed probe goes
+through the gate, the directive and the settled reply exactly as a
+conversation's first message does.
 """
+import copy
+from pathlib import Path
 from types import SimpleNamespace
 
-from engine.m3.generation import LiveModelAnswerer
+import pytest
+
+from engine.m1.registry import load_registry
+from engine.m3.generation import AnswerUnavailable, LiveModelAnswerer, LivePathSettings, production_settings
+from engine.m4.generation import _TRANSPORT_ERRORS
+from engine.m4.turn_prep import CONCISION_DIRECTIVE
 from engine.m4.world_loader import LoadedWorld
-from engine.shape import shape_text
+from engine.provider.guard import LiveTestCapReached
 
-_FAKE_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
+_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
+SETTINGS = LivePathSettings(
+    voice_model_id="voice-model", safety_model_id="safety-model",
+    r27_enforce=False, self_revision_enabled=False, citation_attach_enabled=False,
+)
 
 
-class _FakeStreamCtx:
+def _tool_use(name, value):
+    return SimpleNamespace(type="tool_use", name=name, input=copy.deepcopy(value))
+
+
+def safety(signal="NO_SIGNAL", **overrides):
+    base = {"signal": signal, "acute_level": "none", "risk_subject": "not_applicable", "check_in_reason": "not_applicable",
+            "dynamic_tags": [], "confidence": "high"}
+    return {**base, **overrides}
+
+
+def reader(**overrides):
+    base = {"asks": [{"order": 1, "text": "who was Jesus"}], "register": "informational", "clarity": "clear",
+            "ambiguity_options": [], "out_of_scope": {"class": "none"}, "modern_terms": []}
+    return {**base, **overrides}
+
+
+class _StreamContext:
     def __init__(self, chunks):
         self._chunks = chunks
 
     def __enter__(self):
-        return SimpleNamespace(text_stream=iter(self._chunks), get_final_message=lambda: SimpleNamespace(usage=_FAKE_USAGE))
+        text = "".join(self._chunks)
+        message = SimpleNamespace(usage=_USAGE, content=[SimpleNamespace(type="text", text=text)], stop_reason="end_turn")
+        return SimpleNamespace(text_stream=iter(self._chunks), get_final_message=lambda: message)
 
     def __exit__(self, *exc):
         return False
 
 
-class _FakeMessages:
-    def __init__(self, stream_chunks):
-        self._stream_chunks = stream_chunks
-        self.captured_stream_calls = []  # [(system, messages), ...]
+class FakeClient:
+    def __init__(self, *, safety_value=None, reader_value=None, draft=(), drops=0, cap_after=None):
+        self._responses = {
+            "submit_safety_classification": safety_value or safety(),
+            "submit_reader_output": reader_value or reader(),
+        }
+        self._draft = draft
+        self._drops = drops
+        self._cap_after = cap_after
+        self.stream_calls = []
+        self.messages = self
+
+    def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
+        name = tool_choice["name"]
+        return SimpleNamespace(content=[_tool_use(name, self._responses[name])], usage=_USAGE)
 
     def stream(self, *, model, max_tokens, system=None, messages, timeout=None):
-        self.captured_stream_calls.append((system, messages))
-        return _FakeStreamCtx(self._stream_chunks)
+        if self._cap_after is not None and len(self.stream_calls) >= self._cap_after:
+            raise LiveTestCapReached("cap")
+        self.stream_calls.append({"model": model, "system": system, "messages": messages})
+        if self._drops:
+            self._drops -= 1
+            raise _TRANSPORT_ERRORS[0]("peer closed connection without sending complete message body")
+        return _StreamContext(self._draft)
 
 
-class FakeClient:
-    def __init__(self, stream_chunks=()):
-        self.messages = _FakeMessages(stream_chunks)
-
-
-ASK_TEXT = "Who was Jesus, to you and your people? What did your community actually know about him?"
-CANON_QUESTIONS = {
-    "fleet.canon.q1": {"id": "fleet.canon.q1", "record_type": "canon_question", "cell": "C-I", "text": ASK_TEXT},
-}
 WITNESS = {"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}
 LIMIT = {"id": "fix.limit.who-is-jesus", "record_type": "honest_limit", "statement": "We cannot say more than our own record allows."}
+ASK_TEXT = "Who was Jesus, to you and your people?"
 _EMPTY_CELL = {"doctrinal_witness": [], "terms": [], "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": []}
 
 
-def _world(coverage):
+def _world(coverage=None):
     return LoadedWorld(
         world_key="fix",
         manifest_hash="sha256:test",
@@ -57,151 +94,93 @@ def _world(coverage):
         repository={"records": [WITNESS, LIMIT]},
         quotes={"quotes": []},
         figures={},
-        coverage=coverage,
-        frame={},
+        coverage=coverage if coverage is not None else {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}},
+        frame={"time_window": {"start": 30, "end": 400}, "representative": {"name": "Vera"}},
     )
 
 
-def test_answer_assembles_evidence_and_returns_grounded_citations():
-    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
-    world = _world(coverage)
-    client = FakeClient(stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."])
-    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+def _answerer(client, world=None, settings=SETTINGS):
+    return LiveModelAnswerer(world=world or _world(), registry=load_registry(), client=client, settings=settings)
 
-    result = answerer.answer("C-I", ASK_TEXT)
+
+def test_a_probe_runs_the_gate_the_directive_and_the_voice_like_a_first_message():
+    client = FakeClient(draft=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."])
+
+    result = _answerer(client).answer("C-I", ASK_TEXT)
 
     assert result.text == "We did not claim to have seen him ourselves."
     assert result.citations == ["fix.witness.who-is-jesus"]
-    assert result.source_record_id == "fix.witness.who-is-jesus"
     assert result.source_record_type == "doctrinal_witness"
+    system = client.stream_calls[0]["system"]
+    assert CONCISION_DIRECTIVE in system[-1]["text"]
+    assert "who was Jesus" in system[-1]["text"]
+    assert "## Ground for this turn" in client.stream_calls[0]["messages"][-1]["content"]
+    turn = result.live_turn
+    assert turn.routing_action == "voice_with_directive"
+    assert turn.gate["directive"]["asks"] == [{"order": 1, "text": "who was Jesus"}]
+    assert [call["raw_text"] for call in turn.voice_calls] == ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."]
+    assert {record["call_kind"] for record in turn.usage} == {"safety_call", "reader_call", "voice_generation"}
+    assert turn.sends == 1
 
-    system, messages = client.messages.captured_stream_calls[0]
-    assert [b["text"] for b in system] == [shape_text(), world.prompt_text]  # shape then world, untouched per turn
-    assert "## Ground for this turn" in messages[0]["content"]
-    assert "[[fix.witness.who-is-jesus]]" in messages[0]["content"]
-    assert ASK_TEXT in messages[0]["content"]
 
+def test_a_probe_the_gate_routes_to_the_facilitator_is_answered_by_the_facilitator():
+    client = FakeClient(safety_value=safety("ACUTE_DISTRESS", acute_level="a1"), draft=["never used"])
 
-def test_an_ungrounded_answer_is_graded_as_written_no_appended_floor_line():
-    """Admission grades exactly what the voice wrote: an ungrounded answer
-    stands as itself, with no citations - so a weak answer is seen as
-    weak, not papered over."""
-    coverage = {"C-I": {**_EMPTY_CELL, "honest_limit": ["fix.limit.who-is-jesus"]}}
-    world = _world(coverage)
-    client = FakeClient(stream_chunks=["We enjoy talking about many things."])
-    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+    result = _answerer(client).answer("C-I", "I don't want to be here anymore.")
 
-    result = answerer.answer("C-I", ASK_TEXT)
-
-    assert result.text == "We enjoy talking about many things."
-    assert "We cannot say more than our own record allows." not in result.text
+    assert result.live_turn.routing_action == "safety_turn"
+    assert result.live_turn.voice_event is None
+    assert result.text and "not Vera" in result.text
     assert result.citations == []
-    assert result.source_record_id is None
-    assert result.source_record_type is None
+    assert client.stream_calls == []
 
 
-def test_answer_with_no_coverage_at_all_still_returns_a_result_not_an_exception():
-    # Unlike FixtureRecordAnswerer.answer (which raises NoCoverageError
-    # when a cell has neither a demonstration, substantive record, nor
-    # honest_limit), a live answerer always gets SOME text back from the
-    # model - and returns it as written (production parity), rather than
-    # raising a coverage exception or appending any floor line.
-    world = _world({})
-    client = FakeClient(stream_chunks=["We enjoy talking about many things."])
-    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+def test_an_ungrounded_draft_is_settled_as_a_conversation_settles_it():
+    client = FakeClient(draft=["We enjoy talking about many things [[fix.witness.who-is-jesus]]."])
 
-    result = answerer.answer("C-I", ASK_TEXT)
+    result = _answerer(client).answer("C-I", ASK_TEXT)
 
-    assert result.text == "We enjoy talking about many things."
+    assert result.text == "We did not claim to have seen him ourselves."
+    assert result.live_turn.voice_event["answer_record_fallback"] is not None
 
 
-def test_admission_text_shape_is_productions_own_apply_net_verbatim():
-    """The parity guarantee itself: a raw answer carrying one grounded
-    sentence and one sentence whose tag resolves to nothing must come back
-    from the answerer EXACTLY as engine.m4.turn.apply_net shapes it - the
-    fabricating sentence retained in the text (checks gate decoration,
-    never the text) with its tag stripped, and excluded from citations."""
-    from engine.m4.turn import apply_net
-
-    raw = (
-        "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
-        "Our founder wrote twelve books about it [[fix.invented.record]]."
-    )
-    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
-    world = _world(coverage)
-    client = FakeClient(stream_chunks=[raw])
-    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
-
-    result = answerer.answer("C-I", ASK_TEXT)
-
-    from engine.m4 import evidence as m4_evidence
-
-    repository_records = m4_evidence.repository_records_by_id(world.repository)
-    expected_text, expected_entries, _ = apply_net(
-        raw, repository_records=repository_records, thin_topics=m4_evidence.thin_topics_for(repository_records)
-    )
-
-    assert result.text == expected_text
-    assert "twelve books" in result.text  # retained, tag stripped - never deleted
-    assert "[[" not in result.text
-    assert result.citations == sorted({rid for e in expected_entries for rid in e["record_ids"]})
-    assert "fix.invented.record" not in result.citations
-
-
-STORY = {
-    "id": "fix.story.meal", "record_type": "story", "tellable_as": "Jesus broke bread at the meal",
-    "telling": "We tell how Jesus broke bread at the meal. They ate together.",
-}
-
-
-def test_a_world_that_places_stories_places_them_in_admission_as_in_a_live_turn():
-    coverage = {"C-I": {**_EMPTY_CELL, "stories": ["fix.story.meal"]}}
-    world = LoadedWorld(**{**_world(coverage).__dict__, "repository": {"records": [WITNESS, LIMIT, STORY]},
-                           "frame": {"story_placement": True}})
-    client = FakeClient(stream_chunks=["We tell of Jesus at the meal [[story:fix.story.meal]]."])
-    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
-
-    result = answerer.answer("C-I", ASK_TEXT)
-
-    assert "[[story:fix.story.meal]]" in client.messages.captured_stream_calls[0][1][0]["content"]
-    assert result.text == "We tell of Jesus at the meal:\n\nWe tell how Jesus broke bread at the meal. They ate together."
-    assert result.citations == ["fix.story.meal"]
-
-
-def _flaky_client(drops, chunks):
-    from engine.m4.generation import _TRANSPORT_ERRORS
-
-    client = FakeClient(stream_chunks=chunks)
-    real_stream = client.messages.stream
-    state = {"left": drops}
-
-    def stream(**kwargs):
-        if state["left"]:
-            state["left"] -= 1
-            raise _TRANSPORT_ERRORS[0]("peer closed connection without sending complete message body")
-        return real_stream(**kwargs)
-
-    client.messages.stream = stream
-    return client
-
-
-def test_a_probe_whose_stream_drops_is_asked_again_and_the_run_goes_on():
-    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
-    client = _flaky_client(2, ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."])
-    answerer = LiveModelAnswerer(world=_world(coverage), canon_questions=CANON_QUESTIONS, client=client, model_id="m")
-
-    result = answerer.answer("C-I", ASK_TEXT)
-
+def test_a_send_that_fails_is_sent_again_and_a_second_failure_is_unanswered():
+    draft = ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."]
+    recovered = FakeClient(draft=draft, drops=1)
+    result = _answerer(recovered).answer("C-I", ASK_TEXT)
+    assert result.live_turn.sends == 2
     assert result.citations == ["fix.witness.who-is-jesus"]
-    assert len(client.messages.captured_stream_calls) == 1
+    assert len(result.live_turn.voice_calls) == 2
+
+    with pytest.raises(AnswerUnavailable):
+        _answerer(FakeClient(draft=draft, drops=2)).answer("C-I", ASK_TEXT)
 
 
-def test_a_probe_whose_stream_keeps_dropping_still_fails_loudly():
-    import pytest
+def test_the_live_test_cap_is_never_swallowed_as_a_failed_send():
+    with pytest.raises(LiveTestCapReached):
+        _answerer(FakeClient(draft=["x"], cap_after=0)).answer("C-I", ASK_TEXT)
 
-    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
-    client = _flaky_client(3, ["unused"])
-    answerer = LiveModelAnswerer(world=_world(coverage), canon_questions=CANON_QUESTIONS, client=client, model_id="m")
 
-    with pytest.raises(RuntimeError, match="voice generation call failed"):
-        answerer.answer("C-I", ASK_TEXT)
+def test_production_settings_are_the_render_service_pins():
+    settings = production_settings()
+
+    assert settings["voice_model_pattern"] == "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    assert settings["safety_model_pattern"] == "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+    assert settings["self_revision_enabled"] is False
+    assert settings["r27_enforce"] is False
+    assert settings["citation_attach_enabled"] is False
+
+
+def test_production_settings_leave_unset_flags_at_the_engines_own_defaults(tmp_path):
+    path = Path(tmp_path) / "render.yaml"
+    path.write_text(
+        "services:\n  - name: cic-engine\n    envVars:\n"
+        "      - key: CIC_API_VOICE_MODEL_PATTERN\n        value: v\n"
+        "      - key: CIC_API_SAFETY_MODEL_PATTERN\n        value: s\n"
+    )
+
+    settings = production_settings(path)
+
+    assert settings["self_revision_enabled"] is True
+    assert settings["r27_enforce"] is False
+    assert settings["citation_attach_enabled"] is False

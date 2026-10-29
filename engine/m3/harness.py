@@ -7,7 +7,7 @@ from dataclasses import asdict, dataclass
 from engine.m1 import canon
 
 from . import grading, protocol, sealed_probes
-from .generation import FixtureRecordAnswerer, NoCoverageError
+from .generation import AnswerUnavailable, FixtureRecordAnswerer, NoCoverageError
 from .masking import mask_for_grading
 
 
@@ -86,7 +86,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None, limi
         probe = sealed_probes.read_probe(probe_id)
         try:
             answer = answerer.answer(cell, probe["text"])
-        except NoCoverageError as e:
+        except (NoCoverageError, AnswerUnavailable) as e:
             results.append(ProbeResult(probe_id=probe_id, cell=cell, passed=False, checks=[], error=str(e)))
             continue
 

@@ -1,42 +1,44 @@
-"""The Answerer seam. M3 needs a world to answer a probe before anything can
-be graded - stage 0-4 built the harness against FixtureRecordAnswerer, a
-deterministic, no-model stand-in that answers straight from a world's own
-records, proving the battery/masking/grading pipeline end-to-end without
-pretending a live model integration exists. LiveModelAnswerer was the
-named, deliberately-unimplemented seam for when a provider decision got
-made - it has been (M4/M5's own real client-based calls, M8's live-
-attribution evidence run, engine/m8/reports/live-attribution-report.json),
-so it's real now: this same class is the M4 build map's own M3 row
-(LIVE-GENERATION-DESIGN.md §7 - "LiveModelAnswerer = this same pipeline
-minus the safety gate, pointed at sealed probes - admission finally
-measures the real generation path, which is the whole point of
-admission"). Both classes share one interface: answer(cell, probe_text) ->
-AnswerResult - probe_text was added to the seam for LiveModelAnswerer's
-sake (a real answer needs the actual question); FixtureRecordAnswerer
-ignores it, unchanged in every other respect.
+"""The Answerer seam. Two answerers share one interface,
+answer(cell, probe_text) -> AnswerResult.
 
-Building LiveModelAnswerer is DECIDABLE - the same evidence-assembly +
-one-tagged-generation-call + deterministic-net pipeline engine.m4.turn
-already runs for a live participant, wired to a different caller and
-missing only the safety/routing gate a sealed probe doesn't need. RUNNING
-it against a real model is real spend and stays a stop-and-ask like any
-other live-model run this project has drawn that line around (Build-
-Blueprint.md SS4) - nothing in this class makes a call until a caller
-who has that authorization actually invokes .answer().
+FixtureRecordAnswerer answers straight from a world's own records with no
+model call, and proves the battery, masking and grading pipeline end to end.
+
+LiveModelAnswerer answers a sealed probe through engine.m4.turn.run_turn,
+the call the conversation path makes: the gate (safety and reader), routing,
+the per-turn directive, evidence assembly, the voice call, the repeat-recital
+retry, self-revision where the deployment runs it, the net, and the settled
+reply. Construction makes no call; only .answer() does, so only a caller
+holding an approved live test spends anything.
 """
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
+from pathlib import Path
+
+import yaml
 
 from engine.m1 import canon
+from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence as m4_evidence
-from engine.m4.generation import stream_voice_turn
-from engine.m4.quote_placement import PlacementContext
-from engine.m4.turn import apply_net
-from engine.m4.story_placement import with_placeable_stories
+from engine.m4.rhythm import tally_from_transcript
+from engine.m4.turn import SESSION_TURN_CAP, run_turn
+from engine.m4.uncited_claims import (
+    conversation_revealed_excerpts,
+    known_tradition_names,
+    match_named_tradition,
+    tradition_known_in_window,
+    world_records_mention_tradition,
+)
 from engine.m4.world_loader import LoadedWorld
+from engine.m5.anachronism import anachronistic_term_ids
+from engine.m3.call_capture import CapturingClient
 
-# A live probe whose reply stream fails is asked again, so one dropped
-# connection costs one probe and not the world run; each attempt is a recorded call.
-_VOICE_CALL_ATTEMPTS = 3
+REPO_ROOT = Path(__file__).resolve().parents[2]
+RENDER_YAML = REPO_ROOT / "render.yaml"
+PRODUCTION_SERVICE = "cic-engine"
+
+# A participant whose message fails to produce a reply sends it again; a
+# probe is given the same one resend.
+RESENDS = 1
 
 _TYPE_PRIORITY = ["doctrinal_witness", "quote", "story", "term"]
 
@@ -47,10 +49,26 @@ class AnswerResult:
     citations: list[str]
     source_record_id: str | None
     source_record_type: str | None
-    # Per-sentence {sentence, record_ids} entries from apply_net - the
+    # Per-sentence {sentence, record_ids} entries from the net - the
     # live path carries them so grading can tell a MISCOPIED ADDRESS on a
     # verifiable sentence from a fabrication. Fixture answers leave this None.
     citation_entries: list[dict] | None = None
+    live_turn: "LiveTurn | None" = None
+
+
+@dataclass(frozen=True)
+class LiveTurn:
+    """Everything one live-path probe produced: the route and the reader's
+    reading, the draft the voice wrote on each call, the voice event the
+    reply was built from, what each call cost, and how many sends it took."""
+    routing_action: str
+    routing_reason: str
+    gate: dict
+    voice_event: dict | None
+    facilitator_events: list[dict]
+    voice_calls: list[dict]
+    usage: list[dict]
+    sends: int
 
 
 class NoCoverageError(Exception):
@@ -153,75 +171,145 @@ class FixtureRecordAnswerer:
         )
 
 
+
+
+class AnswerUnavailable(Exception):
+    """The live path produced no reply for a probe after its resend."""
+
+
+@dataclass(frozen=True)
+class LivePathSettings:
+    """The deployment's own settings: the exact model ids and the three
+    flags that change what a turn does."""
+    voice_model_id: str
+    safety_model_id: str
+    r27_enforce: bool
+    self_revision_enabled: bool
+    citation_attach_enabled: bool
+
+    def printable(self) -> dict:
+        return asdict(self)
+
+
+def production_settings(render_yaml: Path = RENDER_YAML) -> dict:
+    """The pinned model patterns and flags of the production service,
+    read from the deployment file, with the engine's own defaults for any
+    flag the file leaves unset."""
+    services = yaml.safe_load(render_yaml.read_text(encoding="utf-8"))["services"]
+    env = {e["key"]: e.get("value") for s in services if s["name"] == PRODUCTION_SERVICE for e in s.get("envVars", [])}
+    on = ("1", "true", "yes")
+    return {
+        "voice_model_pattern": env["CIC_API_VOICE_MODEL_PATTERN"],
+        "safety_model_pattern": env["CIC_API_SAFETY_MODEL_PATTERN"],
+        "r27_enforce": (env.get("CIC_R27_ENFORCE") or "") in on,
+        "self_revision_enabled": (env.get("CIC_SELF_REVISION") or "1") not in ("0", "false", "no"),
+        "citation_attach_enabled": (env.get("CIC_CITATION_ATTACH") or "") in on,
+    }
+
+
 class LiveModelAnswerer:
-    """Admission's real answerer: engine.m4.turn's own evidence-assembly +
-    one-tagged-generation-call + deterministic-net pipeline, pointed at a
-    sealed probe instead of a live participant message, with M4's safety/
-    reader/routing gate skipped outright - a sealed probe already IS the
-    ask, there is no message to classify or route.
+    """Answers each sealed probe as the first message of a fresh interview
+    session: engine.m4.turn.run_turn, with the inputs the conversation path
+    derives for a first message. `client` serves both the voice and the gate
+    calls and is wrapped to keep the raw drafts."""
 
-    Construction takes no client action and makes no call - only
-    .answer() does, and only when a caller with real-spend authorization
-    invokes it (the same discipline this project has held everywhere else
-    a live model call is one function call away: crisis_resources' own
-    "delivered by code" precedent, engine.m4.turn's own sealed-safety-call
-    discipline, Build-Blueprint.md SS4's spend-authority split)."""
-
-    def __init__(self, *, world: LoadedWorld, canon_questions: dict[str, dict], client, model_id: str):
+    def __init__(self, *, world: LoadedWorld, registry: dict, client, settings: LivePathSettings):
         self.world = world
-        self.canon_questions = canon_questions
-        self.client = client
-        self.model_id = model_id
+        self.registry = registry
+        self.client = CapturingClient(client)
+        self.settings = settings
+        self.session_id = f"admission-{world.world_key}"
+        self.term_ids = anachronistic_term_ids(load_fleet_records(), world.frame["time_window"])
         self.repository_records = m4_evidence.repository_records_by_id(world.repository)
-        self.thin_topics = m4_evidence.thin_topics_for(self.repository_records)
+        self.tradition_names = known_tradition_names(registry, exclude_world_key=world.world_key) if settings.r27_enforce else None
+        self.turns: list[LiveTurn] = []
+
+    def _turn_inputs(self, probe_text: str) -> dict:
+        named = match_named_tradition(probe_text, self.registry, exclude_world_key=self.world.world_key)
+        return {
+            "other_tradition_evidence_ids": (
+                world_records_mention_tradition(self.repository_records, self.registry[named]) if named else None
+            ),
+            "other_tradition_known_in_window": (
+                tradition_known_in_window(self.registry[self.world.world_key], self.registry[named]) if named else None
+            ),
+            "other_tradition_revealed": (
+                conversation_revealed_excerpts([], self.registry[named], speaking_world_key=self.world.world_key) if named else None
+            ),
+        }
+
+    def _send(self, probe_text: str):
+        return run_turn(
+            session_id=self.session_id,
+            voice_client=self.client,
+            voice_model_id=self.settings.voice_model_id,
+            safety_client=self.client,
+            safety_model_id=self.settings.safety_model_id,
+            world=self.world,
+            participant_message=probe_text,
+            pressed={"later_age": False, "other_tradition": False},
+            anachronistic_term_ids=self.term_ids,
+            track_b_accumulator=None,
+            track_a_last=None,
+            check_ins_shown=frozenset(),
+            already_told_ids=set(),
+            already_bridged_figure_ids=set(),
+            already_bridged_gloss_ids=set(),
+            history=[],
+            previous_kind=None,
+            rhythm=tally_from_transcript([]),
+            r27_enforce=self.settings.r27_enforce,
+            known_tradition_names=self.tradition_names,
+            self_revision_enabled=self.settings.self_revision_enabled,
+            turn_cap=SESSION_TURN_CAP,
+            limit_text=None,
+            citation_attach_enabled=self.settings.citation_attach_enabled,
+            **self._turn_inputs(probe_text),
+        )
 
     def answer(self, cell: str, probe_text: str) -> AnswerResult:
-        turn_evidence = m4_evidence.assemble_evidence(
-            message=probe_text,
-            asks=None,
-            canon_questions=self.canon_questions,
-            coverage=self.world.coverage,
-            repository_records=self.repository_records,
-            thin_topics=self.thin_topics,
-        )
-        if self.world.frame.get("story_placement"):
-            turn_evidence = with_placeable_stories(turn_evidence, self.repository_records)
-        evidence_block = m4_evidence.render_evidence_block(turn_evidence)
-        user_message = f"{evidence_block}\n{probe_text}" if turn_evidence["candidates"] else probe_text
+        from engine.provider.guard import LiveTestCapReached
 
-        for _attempt in range(_VOICE_CALL_ATTEMPTS):
-            stream_outcome = stream_voice_turn(self.client, self.model_id, system_prompt=self.world.prompt_text, message=user_message)
-            if stream_outcome.status == "ok":
+        mark = self.client.mark()
+        last_error: Exception | None = None
+        for sends in range(1, RESENDS + 2):
+            try:
+                result = self._send(probe_text)
                 break
-        if stream_outcome.status != "ok":
-            raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
+            except LiveTestCapReached:
+                raise
+            except Exception as error:  # noqa: BLE001 - the deployment answers any fault in a send with a failed send
+                last_error = error
+        else:
+            raise AnswerUnavailable(f"{type(last_error).__name__}: {last_error}") from last_error
 
-        # apply_net is production's own shaper for the text, quote placement
-        # included; calling it here makes parity structural rather than
-        # asserted - the answer graded is the answer a participant would
-        # receive from the same draft.
-        text, citation_entries, _net_result = apply_net(
-            stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics,
-            quotable_texts=[probe_text], window_end=(self.world.frame.get("time_window") or {}).get("end"),
-            placement=PlacementContext.for_evidence(
-                turn_evidence["candidates"],
-                offered_stories=frozenset(c["id"] for c in turn_evidence["candidates"] if c.get("placeable")),
-            ),
-        )
+        voice_event = result.voice_event
+        if voice_event is not None:
+            text = voice_event["text"]
+            citation_entries = [{"sentence": c["sentence"], "record_ids": list(c["record_ids"])} for c in voice_event["citations"]]
+        else:
+            text = "\n\n".join(event["text"] for event in result.facilitator_events)
+            citation_entries = []
         citations = sorted({rid for entry in citation_entries for rid in entry["record_ids"]})
-
-        # source_record_id/source_record_type are metadata only - never
-        # read by masking.py/grading.py (the masked transcript carries
-        # `citations` alone) - so "the first cited record, if any" is a
-        # defensible single "primary source" for a real answer that may
-        # legitimately draw on several, not a fabricated precision the
-        # deterministic FixtureRecordAnswerer's single-record answers
-        # actually have.
         primary = self.repository_records.get(citations[0]) if citations else None
+        turn = LiveTurn(
+            routing_action=result.routing_action,
+            routing_reason=result.routing_reason,
+            gate=result.gate,
+            voice_event=voice_event,
+            facilitator_events=result.facilitator_events,
+            voice_calls=self.client.since(mark),
+            usage=[
+                {"call_kind": r.call_kind, "model_id": r.model_id, **asdict(r.usage)} for r in result.usage_records
+            ],
+            sends=sends,
+        )
+        self.turns.append(turn)
         return AnswerResult(
             text=text,
             citations=citations,
             source_record_id=citations[0] if citations else None,
             source_record_type=primary.get("record_type") if primary else None,
             citation_entries=citation_entries,
+            live_turn=turn,
         )
