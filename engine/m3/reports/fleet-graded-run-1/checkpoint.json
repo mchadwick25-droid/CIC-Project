@@ -230,6 +230,11 @@
       "estimate": 0.030162,
       "spent_usd_world": 0.032333,
       "exit_code": 0
+    },
+    "register-3": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-register-3.jsonl",
+      "estimate": 0.030938
     }
   }
 }
