@@ -7274,3 +7274,15 @@ If any condition fails, the amount stays unspent.
 **When it may run.** Only after the sample's result has been reported to the project lead and the settings printed there match the bulk run's. If a cap is about to be exceeded the run stops and asks Mark.
 
 **Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Cap ruling: aec (Antiochene, Chrysostom) Doc_01 and Doc_02 (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `aec`.
+
+**Review ordered.** One targeted Opus 5.5 review of Doc_01 and of Doc_02 (Doc_02's file also covers `Source_Registry.md`), no further rounds: `Build/worlds/aec/Review-Artifacts/Doc01_CapRuling_Review.md` and `Build/worlds/aec/Review-Artifacts/Doc02_CapRuling_Review.md`. If a review does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - Cap ruling: rcg (Rome in the Age of Gregory the Great) Doc_02 and Source_Registry (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `rcg`. He also confirmed the Tier 1 recommendation as written, so Step 0 and Doc_01 proceed.
+
+**Review ordered.** One targeted Opus 5.5 review of Doc_02 and `Source_Registry.md`, no further rounds: `Build/worlds/rcg/Review-Artifacts/Doc02_CapRuling_Review.md`. If it does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
