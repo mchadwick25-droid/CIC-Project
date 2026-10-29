@@ -34,5 +34,9 @@
  "syr": {
   "summary": "PASS 23, FAIL 5, NOT SCORED 0 of 28 (P1 8, P2 35). Invented-fact, horizon or quote failures: 3. Main causes: engine cut: every quote removed (admission path omits the speaker-naming directive; the world's own epithets 'the sage'/'our poet' fail the net) - 13 answers, residue in 9; voice breaks out of the world into system or assistant language ('no record given to me for this turn', 'the voice', 'I am a representative') - f2-e, f6-e, f6-p; withheld specific claims ship unchecked; horizon check misses undated names - f1-e, f2-e, f3-t",
   "file": "Build/worlds/syr/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "cappadocian": {
+  "summary": "PASS 22, FAIL 6, NOT SCORED 0 of 28 (P1 6, P2 22). Invented-fact, horizon or quote failures: 2. Main causes: missing record (F6-T eternal fate of outsiders; F6-E torture-obtained source); right record not offered (F2-E where-record-thinnest; F6-I whose-voice-we-lack); engine cut leaves quote lead-ins and residue (F4-E; F6-T, F2-T, F1-E)",
+  "file": "Build/worlds/cappadocian/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
