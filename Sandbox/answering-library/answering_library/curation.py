@@ -30,10 +30,14 @@ CURATION_DIR = Path(__file__).resolve().parents[1] / "curation"
 STATUSES = ("drafted", "sampled-ok", "needs-redo")
 CURATED_MIN_COVER = 0.95
 CURATED_MAX_DIVISION_WORDS = plain.OVERSIZE_WORDS
+ALLOW_OVERSIZE_MAX_SUBHEADINGS = 10
+_FOOTNOTE = re.compile(r"^\d{1,3}\)")
+_SUBHEADING_FAMILIES = ("kw:", "bare:roman", "numtitle", "section", "numpara")
 SPEAKER_STATES = ("known", "mixed", "unknown")
 
 _TOP_KEYS = {"file", "scheme", "curator", "status", "language", "rules", "divisions", "ignore", "apparatus",
-             "languages", "speakers", "evidence", "page_splits"}
+             "languages", "speakers", "evidence", "page_splits", "expected_gaps"}
+_EXPECTED_KEYS = {"series", "line", "quote"}
 _RULE_KEYS = {"id", "pattern", "flags", "lines", "parent", "locus", "title", "division", "skip_repeat", "number",
               "ocr_map", "fixes", "allow_oversize", "context", "language"}
 _CONTEXT_KEYS = {"prev_blank", "next_blank", "prev_short"}
@@ -100,6 +104,7 @@ class Curation:
     evidence: list[dict]
     sha256: str
     page_splits: list[PageSplit] = field(default_factory=list)
+    expected_gaps: list[dict] = field(default_factory=list)
 
     @property
     def stem(self) -> str:
@@ -129,6 +134,7 @@ class Resolved:
     sequences: dict[str, list[tuple[int, int | None]]]
     problems: list[str] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
+    sequence_groups: dict = field(default_factory=dict)
     header_end: int = 0
     furniture_words: int = 0
     total_words: int = 0
@@ -359,6 +365,14 @@ def load(path: Path) -> Curation:
 
     page_splits = [_page_split(ps, f"{name} page_splits[{k}]") for k, ps in enumerate(data.get("page_splits") or [])]
 
+    expected_gaps = []
+    for k, e in enumerate(data.get("expected_gaps") or []):
+        where = f"{name} expected_gaps[{k}]"
+        _check_keys(e, _EXPECTED_KEYS, where)
+        if not e.get("series") or not isinstance(e.get("line"), int) or not " ".join(str(e.get("quote") or "").split()):
+            raise CurationError(f"{where}: needs series, an integer line and a quote")
+        expected_gaps.append({"series": e["series"], "line": e["line"], "quote": " ".join(str(e["quote"]).split())})
+
     languages = []
     for k, a in enumerate(data.get("languages") or []):
         where = f"{name} languages[{k}]"
@@ -391,7 +405,8 @@ def load(path: Path) -> Curation:
     return Curation(path=path, file=data["file"], scheme=data["scheme"].strip(), curator=str(data["curator"]),
                     status=data["status"], language=data.get("language"), rules=rules, divisions=divisions,
                     ignore=ignore, apparatus=apparatus, languages=languages, speakers=speakers, evidence=evidence,
-                    sha256=hashlib.sha256(raw).hexdigest(), page_splits=page_splits)
+                    sha256=hashlib.sha256(raw).hexdigest(), page_splits=page_splits,
+                    expected_gaps=expected_gaps)
 
 
 def for_file(filename: str, directory: Path | None = None, applied_only: bool = True) -> Curation | None:
@@ -467,6 +482,46 @@ def _in(ranges, i):
 def _valid_locus(locus, where):
     if not _LOCUS.fullmatch(locus):
         raise CurationError(f"{where}: locus '{locus}' is empty or contains spaces or '#'")
+
+
+def _loosened(rule):
+    """The rule's pattern with its numeral group widened to any run of non-space characters, or None."""
+    if not rule.number:
+        return None
+    src = rule.rx.pattern
+    start = src.find(f"(?P<{rule.number}>")
+    if start < 0:
+        return None
+    depth, k, in_class = 0, start, False
+    while k < len(src):
+        ch = src[k]
+        if ch == "\\":
+            k += 2
+            continue
+        if in_class:
+            in_class = ch != "]"
+        elif ch == "[":
+            in_class = True
+        elif ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+            if depth == 0:
+                break
+        k += 1
+    wide = src[:start] + f"(?P<{rule.number}>\\S{{1,15}})" + src[k + 1:]
+    try:
+        return re.compile(wide, rule.rx.flags)
+    except re.error:
+        return None
+
+
+def _subheadings(part: list[str], furniture: set[int]) -> list[tuple[int, str]]:
+    """Lines of a division that look like numbered sub-headings, by the segmenter's own marker families."""
+    found = mk.find_headings(part, 0, furniture)
+    out = {h.line: h.title for fam, hs in found.items() if fam.startswith(_SUBHEADING_FAMILIES) for h in hs
+           if h.line > 0 and not _FOOTNOTE.match(h.title)}
+    return sorted(out.items())
 
 
 def _line_list(lines, limit=8):
@@ -564,6 +619,7 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
     repeats: Counter = Counter()
     context_repeats: dict[str, list[int]] = {}
     sequences: dict[str, list] = {r.id: [] for r in cur.rules if r.number}
+    seq_groups: dict[str, list] = {r.id: [] for r in cur.rules if r.number}
     used_fixes: set[tuple[str, int]] = set()
     notes: list[str] = []
     claimed: set[int] = set()
@@ -605,7 +661,9 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
             if d["id"]:
                 set_context(d["id"], full)
             if d["number"] is not None:
-                sequences.setdefault(d["series"] or "divisions", []).append((i + 1, d["number"]))
+                key = d["series"] or "divisions"
+                sequences.setdefault(key, []).append((i + 1, d["number"]))
+                seq_groups.setdefault(key, []).append(context.get(parent_of.get(d["series"]), "") if d["series"] else "")
         if i in furniture or not norm[i]:
             continue
         forced = [r for r in cur.rules if (r.fixes.get(i) or {}).get("quote")]
@@ -639,6 +697,7 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
             if rule.number:
                 reading = values.get(rule.number) or ""
                 sequences[rule.id].append((i + 1, to_int(reading, None if rule.number in exact else rule.ocr_map)))
+                seq_groups[rule.id].append(values["parent"])
             if i in claimed:
                 break
             if rule.division:
@@ -664,6 +723,23 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
     for (pattern, rid), at in shadows.items():
         notes.append(f"ignore pattern '{pattern}' declares {len(at)} line(s) furniture that rule '{rid}' also "
                      f"matches: {_line_list(at)}")
+
+    for rule in cur.rules:
+        if rule.lines is None:
+            continue
+        loose = _loosened(rule)
+        missed = []
+        for i in range(h_end, n):
+            if not norm[i] or i in furniture or not _in(rule.lines, i) or rule.rx.search(norm[i]):
+                continue
+            stripped = re.sub(r"^\d{1,5}\s+", "", norm[i])
+            if stripped != norm[i] and rule.rx.search(stripped):
+                missed.append(f'line {i + 1} (a margin number comes first): "{norm[i][:70]}"')
+            elif loose is not None and loose.search(norm[i]):
+                missed.append(f'line {i + 1} (its numeral is in a form the pattern does not read): "{norm[i][:70]}"')
+        if missed:
+            notes.append(f"rule '{rule.id}' has hand-listed lines, and {len(missed)} line(s) in them look like its "
+                         f"heading but did not match: " + "; ".join(missed))
 
     ranges = []
     for a in cur.apparatus:
@@ -707,6 +783,7 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         for k, ps in enumerate(cur.page_splits):
             key = f"page_splits[{k}]"
             sequences[key] = []
+            seq_groups[key] = []
             added, touched, previous = [], {}, None
             for i in range(h_end, n):
                 if not norm[i] or not _in(ps.lines, i) or any(a <= i <= b for a, b in ranges):
@@ -727,6 +804,7 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
                 locus = render(ps.locus, values, ps.ocr_map, where)
                 _valid_locus(locus, where)
                 sequences[key].append((i + 1, to_int(values.get(ps.number) or "", ps.ocr_map)))
+                seq_groups[key].append("")
                 if ps.skip_repeat and previous == locus:
                     continue
                 previous = locus
@@ -766,9 +844,44 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         if not 0 <= i < n or e["quote"] not in norm[i]:
             problems.append(f"evidence at line {e['line']} does not quote the file: \"{e['quote']}\"")
 
+    for d in divisions:
+        if d.allow_oversize and not d.apparatus and d.words > CURATED_MAX_DIVISION_WORDS:
+            subs = _subheadings(lines[d.start:d.end], {j - d.start for j in furniture if d.start <= j < d.end})
+            if len(subs) > ALLOW_OVERSIZE_MAX_SUBHEADINGS:
+                shown = "; ".join(f'line {d.start + r + 1}: "{t[:50]}"' for r, t in subs)
+                problems.append(f"allow_oversize on '{d.locus}' (line {d.start + 1}) does not hold: it contains "
+                                f"{len(subs)} sub-heading lines, over {ALLOW_OVERSIZE_MAX_SUBHEADINGS}: {shown}")
+
+    res_groups = seq_groups
+    anomalies = {sid: series_anomalies(seq, res_groups.get(sid)) for sid, seq in sequences.items()}
+    explained = set()
+    for e in cur.expected_gaps:
+        found = {x[0] for kind in ("repeated", "backward", "gaps") for x in anomalies.get(e["series"], {}).get(kind, [])}
+        line_ok = 0 < e["line"] <= n and e["quote"] in norm[e["line"] - 1]
+        if e["series"] not in sequences:
+            problems.append(f"expected_gaps names series '{e['series']}', which no rule or entry numbers")
+        elif not line_ok:
+            problems.append(f"expected_gaps for series '{e['series']}' at line {e['line']} quotes text that is not "
+                            f"on the line: \"{e['quote']}\"")
+        elif e["line"] not in found:
+            problems.append(f"expected_gaps for series '{e['series']}' at line {e['line']} matches no gap, repeat "
+                            "or backward step")
+        else:
+            explained.add((e["series"], e["line"]))
+    for sid, found in anomalies.items():
+        if sid.startswith("page_splits["):
+            continue
+        open_lines = sorted({x[0] for kind in ("repeated", "backward", "gaps") for x in found[kind]
+                             if (sid, x[0]) not in explained})
+        if open_lines:
+            problems.append(f"series '{sid}' has {len(open_lines)} gap, repeat or backward step the curation does "
+                            f"not explain (lines {_line_list(open_lines)}); list each in expected_gaps with its "
+                            "line and a quote from that line, or fix the rule")
+
     return Resolved(
         divisions=divisions, furniture=furniture, furniture_kinds=dict(kinds), line_offsets=offsets,
         rule_hits=dict(hits), skipped_repeats=dict(repeats), sequences=sequences, problems=problems, notes=notes,
+        sequence_groups=seq_groups,
         header_end=h_end, furniture_words=sum(words[i] for i in furniture), total_words=sum(words),
         header_words=sum(words[:h_end]))
 
@@ -811,26 +924,37 @@ def failures(m: dict) -> list[str]:
     return out
 
 
+def series_anomalies(seq: list, groups: list | None = None) -> dict:
+    """Repeats, backward steps, gaps and unreadable numerals in one numbered series. The count
+    starts again whenever the group (the parent address a numeral sits under) changes."""
+    prev, prev_group = None, None
+    repeated, backward, gaps, unread = [], [], [], []
+    for k, (line, value) in enumerate(seq):
+        group = groups[k] if groups else None
+        if value is None:
+            unread.append(line)
+            continue
+        if group != prev_group:
+            prev = None
+        if prev is not None:
+            if value == prev:
+                repeated.append((line, value))
+            elif value < prev:
+                backward.append((line, prev, value))
+            elif value > prev + 1:
+                gaps.append((line, prev, value))
+        prev, prev_group = value, group
+    return {"repeated": repeated, "backward": backward, "gaps": gaps, "unread": unread}
+
+
 def sequence_notes(res: Resolved) -> dict[str, dict]:
     """Information on the numbers a rule read: where they repeat, run backwards, skip or cannot be read."""
     out = {}
     for rid, seq in res.sequences.items():
-        prev, repeated, backward, gaps, unread = None, [], [], [], []
-        for line, value in seq:
-            if value is None:
-                unread.append(line)
-                continue
-            if prev is not None:
-                if value == prev:
-                    repeated.append((line, value))
-                elif value < prev:
-                    backward.append((line, prev, value))
-                elif value > prev + 1:
-                    gaps.append((line, prev, value))
-            prev = value
+        found = series_anomalies(seq, res.sequence_groups.get(rid))
         values = [v for _, v in seq if v is not None]
-        out[rid] = {"readings": len(seq), "first": values[0] if values else None, "last": values[-1] if values else None,
-                    "repeated": repeated, "backward": backward, "gaps": gaps, "unread": unread}
+        out[rid] = {"readings": len(seq), "first": values[0] if values else None,
+                    "last": values[-1] if values else None, **found}
     return out
 
 

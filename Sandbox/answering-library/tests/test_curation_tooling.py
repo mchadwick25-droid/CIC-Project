@@ -25,7 +25,8 @@ SERMO = {"id": "s", "pattern": r"^SERMO (?P<n>\S+)$", "locus": "sermo{n|int}", "
 
 def test_fix_values_skip_the_ocr_map(tmp_path):
     rule = dict(SERMO, ocr_map={"1": "I", "l": "I"}, fixes=[{"line": 3, "set": {"n": "17"}}])
-    res = cu.resolve(make(tmp_path, rules=[rule]), ["SERMO 1", "text", "SERMO 1l", "more"])
+    res = cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[{"series": "s", "line": 3, "quote": "SERMO 1l"}]),
+                     ["SERMO 1", "text", "SERMO 1l", "more"])
     assert loci(res) == ["sermo1", "sermo17"]
     assert res.sequences["s"] == [(1, 1), (3, 17)]
     assert not [p for p in res.problems if not p.startswith("evidence")]
@@ -177,3 +178,57 @@ def test_language_guard_separates_parallel_text(tmp_path):
     assert loci(res) == ["lat1", "grc1", "lat2"]
     with pytest.raises(cu.CurationError, match="language must name"):
         make(tmp_path, rules=[dict(latin, language="klingon")])
+
+
+def unexplained(res):
+    return [p for p in res.problems if not p.startswith("evidence")]
+
+
+def test_unexplained_series_steps_fail_and_expected_gaps_explain_them(tmp_path):
+    lines = ["SERMO 1", "t", "SERMO 3", "t", "SERMO 3", "t", "SERMO 2", "t", "SERMO 4"]
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[SERMO]), lines))
+    assert len(problems) == 1 and "series 's' has 4" in problems[0] and "lines 3, 5, 7, 9" in problems[0]
+    gaps = [{"series": "s", "line": n, "quote": q} for n, q in
+            [(3, "SERMO 3"), (5, "SERMO 3"), (7, "SERMO 2"), (9, "SERMO 4")]]
+    assert unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=gaps), lines)) == []
+    wrong = [dict(gaps[0], quote="the edition prints no II")] + gaps[1:]
+    assert any("not on the line" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=wrong), lines)))
+    extra = gaps + [{"series": "s", "line": 1, "quote": "SERMO 1"}]
+    assert any("matches no gap" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=extra), lines)))
+    assert any("no rule or entry numbers" in p for p in unexplained(cu.resolve(
+        make(tmp_path, rules=[SERMO], expected_gaps=gaps + [{"series": "zz", "line": 1, "quote": "SERMO 1"}]), lines)))
+
+
+def test_numbers_restart_under_a_new_parent(tmp_path):
+    book = {"id": "book", "pattern": r"^BOOK (?P<b>\d)$", "locus": "book{b}", "division": False}
+    chap = {"id": "ch", "parent": "book", "pattern": r"^CH (?P<c>\d)$", "locus": "ch{c}", "number": "c"}
+    lines = ["BOOK 1", "CH 1", "t", "CH 2", "t", "BOOK 2", "CH 1", "t", "CH 2", "t"]
+    assert unexplained(cu.resolve(make(tmp_path, rules=[book, chap]), lines)) == []
+
+
+def test_series_notes_list_every_step(tmp_path):
+    lines = [x for n in range(1, 40, 2) for x in (f"SERMO {n}", "t")]
+    notes = cu.sequence_notes(cu.resolve(make(tmp_path, rules=[SERMO]), lines))["s"]
+    assert len(notes["gaps"]) == 19
+
+
+def test_allow_oversize_is_checked_against_the_files_own_sub_headings(tmp_path):
+    body = ["HEAD", ""]
+    for n in range(1, 13):
+        body += [f"CAPUT {n}.", "", " ".join(["word"] * 700), ""]
+    rule = {"id": "h", "pattern": "^HEAD$", "locus": "head", "allow_oversize": "one undivided work"}
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[rule]), body))
+    assert len(problems) == 1 and "does not hold" in problems[0] and '"CAPUT 1."' in problems[0]
+    flat = ["HEAD", "", " ".join(["word"] * 5600)]
+    assert unexplained(cu.resolve(make(tmp_path, rules=[rule]), flat)) == []
+
+
+def test_hand_listed_lines_report_headings_the_pattern_missed(tmp_path):
+    rule = {"id": "c", "pattern": r"^CAPUT (?P<n>[IVX]+)$", "locus": "c{n|int}", "number": "n", "lines": [[1, 12]]}
+    lines = ["CAPUT I", "t", "12 CAPUT II", "t", "CAPUT ΙΙΙ", "t", "CAPUT V", "t", "CAPUT Il", "t", "prose line", "CAPUT IV"]
+    notes = [n for n in cu.resolve(make(tmp_path, rules=[rule]), lines).notes if "hand-listed" in n]
+    assert len(notes) == 1
+    for needle in ("line 3 (a margin number", "line 5 (its numeral", "line 9 (its numeral"):
+        assert needle in notes[0]
+    assert "line 11" not in notes[0]
+    assert not [n for n in cu.resolve(make(tmp_path, rules=[dict(rule, lines=None)]), lines).notes if "hand-listed" in n]
