@@ -1,0 +1,118 @@
+<title>Fleet graded run 1 results</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Karla:wght@400;600;700&display=swap">
+<style>
+/* Layout: one reading column; a results table with bars, then the findings in plain paragraphs. */
+:root {
+  --bg: #f6f5f2; --surface: #ffffff; --fg: #1d2127; --muted: #5d6671; --line: #d9dbd8;
+  --accent: #1f5f73; --pass: #2f6b3f; --fail: #a3362b; --warn: #8a6a12; --soft: #e8eeef;
+  --font-read: "Newsreader", Georgia, serif; --font-ui: "Karla", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #14181c; --surface: #1c2227; --fg: #e6e8ea; --muted: #9aa3ad; --line: #2e363d;
+    --accent: #7cc0d6; --pass: #7fc08f; --fail: #e58a7f; --warn: #d8b85a; --soft: #232c32; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #14181c; --surface: #1c2227; --fg: #e6e8ea; --muted: #9aa3ad; --line: #2e363d;
+  --accent: #7cc0d6; --pass: #7fc08f; --fail: #e58a7f; --warn: #d8b85a; --soft: #232c32; color-scheme: dark; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-ui); font-size: 15px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 56px; }
+.wrap { max-width: 860px; margin: 0 auto; }
+h1 { font-family: var(--font-read); font-size: 30px; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; }
+h2 { font-family: var(--font-read); font-size: 22px; margin: 34px 0 8px; text-wrap: balance; }
+p { margin: 0 0 12px; max-width: 70ch; }
+.lede { font-size: 17px; color: var(--muted); }
+.cost { display: flex; flex-wrap: wrap; gap: 6px 26px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 16px 0; font-variant-numeric: tabular-nums; }
+.cost b { font-size: 19px; }
+.tw { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 640px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+tr.lpc td { background: var(--soft); }
+.bar { display: flex; height: 9px; width: 120px; border-radius: 5px; overflow: hidden; background: var(--line); margin-top: 5px; }
+.bar i { display: block; background: var(--pass); }
+.bar u { display: block; background: var(--fail); text-decoration: none; }
+.num { white-space: nowrap; }
+.small { font-size: 13px; color: var(--muted); }
+ol.pat { padding-left: 20px; max-width: 70ch; } ol.pat li { margin-bottom: 12px; }
+.callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 14px 0; max-width: 70ch; }
+.bad { color: var(--fail); font-weight: 600; } .good { color: var(--pass); font-weight: 600; }
+</style>
+<div class="wrap">
+<h1>Fleet graded run 1</h1>
+<p class="lede">Where each real world's answers fail today, on the current code, with Opus grading every answer against that world's own records.</p>
+
+<div class="cost"><span>Spent <b>$11.82</b> of the $12.00 cap</span><span>12 worlds asked 28 sealed questions each</span><span>lpc: 27 of 30 live conversations</span></div>
+
+<h2>The short version</h2>
+<p>The automatic checks passed all 28 answers in every world. Opus then failed between 5 and 16 answers per world. The automatic checks do not catch invented facts, damaged answers, the voice talking like a chatbot, or reading level, so they cannot be used as a gate.</p>
+<p>Across the eleven other worlds, 209 of 308 answers pass (68%). lpc passes 21 of 28 (75%), tied with alx for fifth of twelve. lpc is better than the fleet average and better than its own run 3. It is not clean: it has a new wrong fact, two quotes used out of context, and two cautions that fail for the fourth run in a row.</p>
+
+<h2>Results per world</h2>
+<div class="tw"><table>
+<thead><tr><th>World</th><th>Opus pass / fail</th><th>Invented, after-window or misused quote</th><th>Main trouble</th></tr></thead>
+<tbody id="rows"></tbody></table></div>
+<p class="small">Each world's answers are graded on 28 rows. Wrong, invented, misleading or damaged answers fail. Small fixable defects still pass. cappadocian's automatic checks were not computed, because one call hit a transient API error and the harness refused to write its report. Its 28 answers were still graded.</p>
+
+<h2>lpc beside run 3</h2>
+<p>On the 37 conversation rows that both runs share, lpc went from <b>22 pass and 12 fail</b> in run 3 to <b>26 pass and 8 fail</b> now. Seven rows were fixed, five still fail, and three newly fail. Nineteen passed both times, and three were not scored either time. The riders and the retrieval change worked where they were aimed.</p>
+<p>The three thinness conversations (thinness-2, -3 and -4) were not run, because the cap was reached. The 37 rows are the ones that exist in both runs.</p>
+<div class="callout">
+<p><b>Does lpc have an invented-fact, after-window or misused-quote failure? Yes.</b> Seven rows in all, six in the conversations and one in the 28 questions.</p>
+<p>In Deep Interview turns 8, 9 and 10 the voice says Augustine wrote Letter 228 "with an army outside Hippo". The letter dates to 428 or 429, and the siege began in 430. The record's own guard says the letter does not describe the siege, and nothing checks the answer against that guard.</p>
+<p>Two quotes are used out of context. One places the councils quote as if Augustine said it about the dying. The other uses "Love, and do what you will" to defend church discipline, which that quote's own rule bars. The quote wording itself is exact in all 18 placed quotes.</p>
+<p>The anachronism-1 answer still treats Chalcedon as a known event, which caution 13 forbids, though it is much milder than in run 3.</p>
+</div>
+
+<h2>Where the failures come from</h2>
+<p>Each failing answer was traced to one layer. Counts are from the reviewers' own tallies and are not exact across worlds.</p>
+<ol class="pat">
+<li><b>The engine's cut step damages answers (all 12 worlds).</b> After the voice writes a draft, the engine removes sentences it cannot place. It does not repair the sentences that pointed at them. Answers ship with a "he" that now means the wrong person, a "so" with nothing before it, or a teaching announced and never given. In witt it removed the heart of the answer on who Jesus is. This is one fix that helps every world.</li>
+<li><b>Records not handed to the voice.</b> In don, 16 of 28 questions got no record written for that question. In pahc it was 13 of 28. The voice usually finds the right witness in the full prompt, but fails where it cannot.</li>
+<li><b>No record covers the question (rzg, gallic, alx, pahc, cappadocian, ijc).</b> The same question types keep exposing it: original sin, the fate of outsiders, being born again, proof that practice goes back to the apostles, and "does this survive today". Where no record exists, the voice fills the gap from general knowledge, often wrongly, or announces "our record does not develop that", which is false when the sources do hold the answer.</li>
+<li><b>The voice is not told what is unknown.</b> It answers silence with a claim, for example "No. We never said it" where no record says so.</li>
+<li><b>Caution wording.</b> Some cautions are too general to stop a specific error. The words of a caution, or a record's own example line, also leak into the voice and get read aloud.</li>
+<li><b>Quotes used out of context.</b> Few cases: lpc (2), pahc, hal and witt (1 each).</li>
+</ol>
+
+<h2>Patterns that cross worlds</h2>
+<ol class="pat">
+<li><b>The same two questions break the voice's frame in almost every world.</b> The questions about scholarly scrutiny and about "what you have been given" make the voice talk about the build: "the ground given for this turn", "the records I am holding", or a raw <code>[[thin:…]]</code> tag. At least eleven of the twelve worlds have this. In desert, ijc and syr, the answer to "someone like me" opens "I am a representative of…", copied word for word from the world's demonstration record. alx recites its example dialogues almost word for word.</li>
+<li><b>The question about "does this live on today" breaks the end of the world's window.</b> The voice names later churches, councils or movements in seven worlds (gallic, ijc, pahc, syr, hal, don and rzg), and lpc's anachronism-1 answer treats Chalcedon as a known event. The horizon check only catches dated events, so church names and words like "centuries later" pass.</li>
+<li><b>The test harness does not match live use.</b> The admission answerer never gives the voice the instruction to name a quote's speaker, but the engine still removes quotes that do not. So in syr, pahc, don and lpc the quote step removed almost every quote, and this run did not measure quote use. The harness also never runs the reading-level check, and it counts only two things. Several worlds have answers below the reading floor that passed.</li>
+<li><b>Contested claims get stated as settled</b> where a record's own text states them flatly (hal, rzg, pahc, alx and syr).</li>
+</ol>
+
+<h2>What this means for the Fable design pass</h2>
+<ol class="pat">
+<li>Fix the cut step once, in the engine, so it repairs or drops the sentences that depended on what it removed. That helps all twelve worlds.</li>
+<li>Make the admission harness match live use before it is used as a gate: the speaker-naming instruction, the routing by question, the reading-level check, and checks for build vocabulary, raw tags and stray characters.</li>
+<li>Write general rules in place of per-world patches: a rule for anything after the world's window (including words like "later" and church names), a standard "honest limit" for questions with no record, and a rule that keeps build words out of the voice.</li>
+<li>Write one standing rule for demonstration and example records, so they cannot be recited as the voice's opening line.</li>
+<li>Record work per world, driven by the question types above. The review files under each world's Review-Artifacts folder name the fix for every failing row.</li>
+</ol>
+
+<h2>What was left out, and why</h2>
+<p>Data dated before 27 October was left out of every comparison on purpose, as you ruled. The one exception is lpc's run 3, the baseline. The 13 October side-by-side for the eleven other worlds was not made, because the six-question replay did not fit under the cap. It would need about $2.4 more. The three thinness conversations, about $0.1, were also not run.</p>
+<p class="small">Everything is on the branch claude/fleet-graded-run-1: the reports, the answers, the ledgers, the checkpoint and one review file per world under Build/worlds/&lt;code&gt;/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md.</p>
+</div>
+<script>
+var R = [
+ ["lpc","21 / 7",21,7,"7 rows (1 here, 6 in conversations)","A wrong fact in three Deep Interview turns, two quotes used out of context, two cautions failing for the fourth run."],
+ ["gallic","19 / 9",19,9,"2","Silence answered with a claim; the cut step damaged answers; build words reached the voice."],
+ ["desert","16 / 12",16,12,"4","Cut step left sentences pointing at nothing; raw tags and build words; record wording read aloud."],
+ ["ijc","14 / 14",14,14,"3","Cut step; knowledge after 451; right records not offered; reading level."],
+ ["alx","21 / 7",21,7,"3","Invented detail where no record backs the question; cuts; one caution too general."],
+ ["witt","23 / 5",23,5,"1","Cut step removed the creed answer; no record for Augustana Article I; one story used out of context."],
+ ["rzg","12 / 16",12,16,"6","Records do not match seven question types; a quote lead-in rule deletes whole sentences; raw tags."],
+ ["pahc","19 / 9",19,9,"3","Quote step removed 18 sentences (harness); cell records not offered; record wording breaks other records' guards."],
+ ["hal","17 / 11",17,11,"5","Garbled or invented text (a stray character, a reversed quote); contested claims stated as settled; nothing guards 420."],
+ ["syr","23 / 5",23,5,"3","No quote placed (harness); chatbot voice under pressure; later churches named after 410."],
+ ["cappadocian","22 / 6",22,6,"2","No record on the fate of outsiders; chatbot voice; cut left a misleading lead-in. Checks not computed."],
+ ["don","23 / 5",23,5,"1","The question's own record not handed over in 16 of 28; a draft record gives a wrong fact; horizon text leaks."]
+];
+document.getElementById("rows").innerHTML = R.map(function (r) {
+  return '<tr class="' + (r[0] === "lpc" ? "lpc" : "") + '"><td><b>' + r[0] + '</b></td><td class="num">' + r[1] +
+    '<div class="bar"><i style="width:' + (r[2] / 28 * 100) + '%"></i><u style="width:' + (r[3] / 28 * 100) + '%"></u></div></td><td>' + r[4] + "</td><td>" + r[5] + "</td></tr>";
+}).join("");
+</script>
