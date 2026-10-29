@@ -54,9 +54,9 @@ openings, any change to the production path.
 | Item | Cap in force | Thread | Started | Finished | Elapsed |
 |---|---|---|---|---|---|
 | S1-01 baseline live-path run | none yet [BLANK, Mark] | Engine | | | |
-| S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | | | |
-| S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | | | |
-| S1-04 judge trial in shadow | $25 ceiling, sample first | Specialist and gold set | | | |
+| S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | 2026-10-29 17:12 UTC | | free tooling built by 17:56 UTC (44 min); labelling waits for the model choice and a cap |
+| S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | 2026-10-29 17:12 UTC | | uses the S1-02 runner; waits for the model choice and a cap |
+| S1-04 judge trial in shadow | $25 ceiling, sample first | Specialist and gold set | 2026-10-29 17:12 UTC | | comparator done: the gates' verdict on every sentence of the 308 drafts, replayed free (308 of 308 reproduced); judges wait for the gold set |
 | S1-05 contextual indexing, twelve shelves | $200 ceiling, sample first | Library (engine runs the index) | | | |
 | S1-L1 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
 
