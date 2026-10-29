@@ -95,7 +95,7 @@ The 7 are:
 | Flag | Source checked | Class | Severity |
 |---|---|---|---|
 | "nam nostra quidem scripta cur ignibus meruerunt dari? cur immaniter conuenticula dirui" | finding 18 above | A: genuine; the checker cannot read the tag | not blocking; stays flagged by the order |
-| "et tandem veluti quibusdam obsidibus pietatis foedus impetravit" | Harnack, *Chronologie* II (1904), line 23357 of `cic/texts/harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt` on the `claude/latap-library-stage` branch | genuine; source not vendored on `main` | not blocking |
+| "et tandem veluti quibusdam obsidibus pietatis foedus impetravit" | Harnack, *Chronologie* II (1904), line 23357 of the vendored file `harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt` (in the library `texts` directory) on the `claude/latap-library-stage` branch | genuine; source not vendored on `main` | not blocking |
 | "zum Erweise seiner jüngst gewonnenen Christlichkeit" | same file, lines 23352–23353 | genuine; not vendored on `main` | not blocking |
 | "Also kann er nicht vor c. 260 geschrieben haben" | same file, line 24803 | genuine; not vendored on `main` | not blocking |
 | "Der Montanismus des Redaktors ist m. E. unverkennbar" | same file, line 18079 | genuine; not vendored on `main` | not blocking |
