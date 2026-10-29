@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 14.665241,
+  "spent_usd": 14.990246,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -437,9 +437,11 @@
       "exit_code": 0
     },
     "cappadocian": {
-      "status": "running",
+      "status": "done",
       "ledger": "engine/m3/reports/fleet-graded-run-1/replay/ledger-cappadocian.jsonl",
-      "estimate": 0.3511
+      "estimate": 0.3511,
+      "spent_usd_world": 0.325005,
+      "exit_code": 0
     },
     "don": {
       "status": "not_run",
