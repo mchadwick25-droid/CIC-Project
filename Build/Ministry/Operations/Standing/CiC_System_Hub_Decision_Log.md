@@ -7286,3 +7286,7 @@ If any condition fails, the amount stays unspent.
 **Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `rcg`. He also confirmed the Tier 1 recommendation as written, so Step 0 and Doc_01 proceed.
 
 **Review ordered.** One targeted Opus 5.5 review of Doc_02 and `Source_Registry.md`, no further rounds: `Build/worlds/rcg/Review-Artifacts/Doc02_CapRuling_Review.md`. If it does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - Live test "specialist-tryout-1" withdrawn (project lead)
+
+**Withdrawn.** Mark, 2026-10-29, by choice box: no spend on other companies' models; the specialist is Claude only. The $10.00 authorization above is withdrawn and nothing was spent under it. The tryout of GPT-6.1 and Grok 4.7 does not run. Gold-set labelling with Claude models still needs its own name and cap here before it runs.
