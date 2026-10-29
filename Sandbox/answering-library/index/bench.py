@@ -158,7 +158,7 @@ def query_terms(wording: str) -> list[str]:
     return [t for t in re.findall(r"[^\W_]+", wording.casefold()) if t not in STOPWORDS and len(t) > 1]
 
 
-def ranked(db_path: Path, wording: str, world: str, depth: int = DEPTH) -> list[str]:
+def ranked(db_path: Path, wording: str, world: str, depth: int = DEPTH, min_ocr: float | None = None) -> list[str]:
     match = fts_query(" ".join(query_terms(wording)))
     if not match:
         return []
@@ -167,9 +167,10 @@ def ranked(db_path: Path, wording: str, world: str, depth: int = DEPTH) -> list[
         sql = (
             "SELECT p.passage_id FROM passage_fts JOIN passages p ON p.id = passage_fts.rowid "
             "WHERE passage_fts MATCH ? AND EXISTS (SELECT 1 FROM shelf_files s WHERE s.file = p.file AND s.world = ?) "
-            "ORDER BY bm25(passage_fts) LIMIT ?"
-        )
-        return [r[0] for r in connection.execute(sql, (match, world, depth))]
+            "{floor}ORDER BY bm25(passage_fts) LIMIT ?"
+        ).format(floor="" if min_ocr is None else "AND (p.ocr_score IS NULL OR p.ocr_score >= ?) ")
+        params = (match, world) + (() if min_ocr is None else (min_ocr,)) + (depth,)
+        return [r[0] for r in connection.execute(sql, params)]
     finally:
         connection.close()
 
@@ -194,13 +195,14 @@ def routing_query(retrieve_when: list[str]) -> str:
 
 
 def run_bench(db_path: Path, world: str, evidence: dict[str, RecordEvidence], cells: dict[str, list[str]],
-              subquestions: dict[str, dict], questions: dict[str, str], texts_dir: Path = TEXTS_DIR):
+              subquestions: dict[str, dict], questions: dict[str, str], texts_dir: Path = TEXTS_DIR,
+              min_ocr: float | None = None):
     gold_cache = {rid: gold_passages(db_path, ev, texts_dir) for rid, ev in evidence.items()}
     cases: list[Case] = []
     ungrounded: dict[str, list[str]] = defaultdict(list)
 
     def add(cell, wording_id, text, usable, condition):
-        position = {pid: i + 1 for i, pid in enumerate(ranked(db_path, text, world))}
+        position = {pid: i + 1 for i, pid in enumerate(ranked(db_path, text, world, min_ocr=min_ocr))}
         for rid in usable:
             ranks = [position[p] for p in gold_cache[rid] if p in position]
             cases.append(Case(cell, cell.split(".")[0], wording_id, text, rid, min(ranks) if ranks else None, condition))
