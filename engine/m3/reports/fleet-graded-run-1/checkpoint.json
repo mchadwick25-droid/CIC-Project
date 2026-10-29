@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 6.814697,
+  "spent_usd": 7.429151,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -110,13 +110,18 @@
     },
     "hal": {
       "attempts": 1,
-      "status": "running",
+      "status": "done",
       "preflight_usd": 0.46871775,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-hal.jsonl",
-      "probes_answered": 0,
-      "spent_usd_world": 0.0
+      "probes_answered": 28,
+      "spent_usd_world": 0.614454,
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
     }
   },
-  "current": "hal",
-  "checkpoint_at": "2026-10-29T00:00:53Z"
+  "current": null,
+  "checkpoint_at": "2026-10-29T00:05:58Z"
 }
