@@ -38,5 +38,9 @@
  "cappadocian": {
   "summary": "PASS 22, FAIL 6, NOT SCORED 0 of 28 (P1 6, P2 22). Invented-fact, horizon or quote failures: 2. Main causes: missing record (F6-T eternal fate of outsiders; F6-E torture-obtained source); right record not offered (F2-E where-record-thinnest; F6-I whose-voice-we-lack); engine cut leaves quote lead-ins and residue (F4-E; F6-T, F2-T, F1-E)",
   "file": "Build/worlds/cappadocian/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
+ },
+ "don": {
+  "summary": "PASS 23, FAIL 5, NOT SCORED 0 of 28 (P1 5, P2 23). Invented-fact, horizon or quote failures: 1. Main causes: right record not offered: the cell's own witness is missing from the evidence block in 16 of 28 probes (admission path uses asks=None, no reader); P1 in f1-e and f2-e; caution wording: voice-facing record text misleads when spoken - draft limit theology-beyond-tyconius (f1-i), questions-we-never-argued written for three questions (f1-t), world_core horizon carries post-439 Gregory material (f3-t); engine cut (harness: quote lead-in): unnamed-speaker quotations removed in c-i, c-t, f3-i, plus an honest hedge cut in f6-i; P2 only",
+  "file": "Build/worlds/don/Review-Artifacts/Fleet_Run1_Answer_Review_2026-10-28.md"
  }
 }
