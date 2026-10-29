@@ -1,0 +1,13 @@
+# Labelling runs, stage 1
+
+Every run below is in plan (Claude Code subagents reading exported prompt files), with no metered call, except `specialist-tryout-1`, which Bedrock refused (see `../Specialist_and_Gold_Set.md`, Incident).
+
+The prompts of a run are rebuilt exactly by `goldset/inplan.py export` on the stream named, with the goldset code at the commit given. The evidence packs depend on that code, so a later change to `goldset/evidence.py` does not change what a run's labeller saw.
+
+| Run | Labeller | Stream | Lines | Goldset code at | Prompts exported | Replies checked | Result |
+|---|---|---|---|---|---|---|---|
+| `practice-inplan-1` | Claude Opus 5.5 | `data/stream-tryout.jsonl` | 40 (20 seeds, 20 controls) | de8206fe | 18:22:32 UTC | 18:25:10 UTC | 20/20 seeds, 20/20 controls; practice only |
+| `lpc-1-specialist-inplan` | Claude Opus 5.5 | `data/stream-lpc-1.jsonl` | 320 (280 lpc, 20 seeds, 20 controls) | de8206fe; reply check from 8b4638cd | 18:26:24 UTC | 18:37:17 UTC | qualifies: 20/20 seeds, 20/20 controls |
+| `lpc-1-second-inplan` | Claude Fable 5.1 | `data/stream-lpc-1-second.jsonl` | 56 lpc items | 8b4638cd | 18:40:13 UTC | 18:43:07 UTC | verdict agreement 0.945 (kappa 0.64), 3 disagreements |
+
+All times 2026-10-29. Mark's rulings on the first adjudication packet (`lpc-1-second-inplan/adjudication-packet-1.json`) are kept in the packet page's store (https://claude.ai/artifact/GFuHi7zRwAWxAvrMinGhZy) until they are folded into the gold set.

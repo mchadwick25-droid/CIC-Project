@@ -85,6 +85,13 @@ is given the prompt files only, never the key.
   gallic 365/444, witt 185/310; most others under a third. A locus resolver for
   section references (the proposal's planned `locus_ids` row field would remove
   the need) is the next tooling step before other worlds are labelled.
+  Since 2026-10-29 the pack also locates a passage by a ThML division id the
+  locus names, by lines given in a locus whose source record names one file,
+  and by any quoted run of 18 or more characters; all three are exact anchors.
+  Located now: lpc 236/280, gallic 381/444, witt 193/310, ijc 132/360,
+  pahc 105/319, rzg 93/168, desert 90/341, alx 88/251, syr 51/320, hal 28/302,
+  don 18/455. Section numbers without an anchor ("Book II, ch. 3") are not
+  guessed: a wrong passage would mislead the labeller more than none.
 - **False-friend seeds come from the lexicon flags.** They test whether the
   labeller uses the risk flags it is given, not whether it spots an archaic
   English sense nobody flagged ("prevent" for "go before"). Natural items and

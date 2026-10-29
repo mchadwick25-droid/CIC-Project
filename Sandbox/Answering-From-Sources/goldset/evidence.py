@@ -36,7 +36,8 @@ _DIV = re.compile(r"<div(\d)\b([^>]*)>|</div(\d)>")
 _TITLE = re.compile(r'\btitle="([^"]*)"')
 _NOTE = re.compile(r"<note\b[^>]*>(.*?)</note>", re.DOTALL)
 _TAG = re.compile(r"<[^>]+>")
-_QUOTED = re.compile(r"[\"'‘“]([^\"'’”]{30,})[\"'’”]")
+_QUOTED = re.compile(r"[\"'‘“]([^\"'’”]{18,})[\"'’”]")
+_DIV_ID = re.compile(r"\b(?:div\s+)?((?:[ivxlc]+|[0-9]+)(?:\.(?:[ivxlc]+|[0-9]+)){2,})\b")
 CITED_OPEN, CITED_CLOSE = "⟦cited⟧", "⟦/cited⟧"
 
 
@@ -117,7 +118,14 @@ def _locate(lines: tuple[str, ...], phrase: str) -> int | None:
     return joined.count("\n", 0, m.start()) + 1 if m else None
 
 
-def passage(commit: str, name: str, first: int | None, last: int | None, phrases: list[str]) -> dict:
+def _div_line(lines: tuple[str, ...], div_id: str) -> int | None:
+    """The line of the ThML div whose id the locus names, when exactly one has it."""
+    marker = f'id="{div_id}"'
+    found = [n for n, line in enumerate(lines, start=1) if marker in line and _DIV.search(line)]
+    return found[0] if len(found) == 1 else None
+
+
+def passage(commit: str, name: str, first: int | None, last: int | None, phrases: list[str], div_ids: list[str] = ()) -> dict:
     """One source passage: the division holding the cited lines, whole when
     short, else a window around them; the cited lines are marked."""
     lines = text_lines(commit, name)
@@ -125,11 +133,14 @@ def passage(commit: str, name: str, first: int | None, last: int | None, phrases
     if lines is None:
         return {"file": name, "language": language, "status": "file not on the shelf at the records' commit"}
     if first is None:
-        found = next((n for n in (_locate(lines, p) for p in phrases) if n), None)
+        found = next((n for n in (_div_line(lines, d) for d in div_ids) if n), None) if name.endswith(".xml") else None
+        how = "located by the division id the locus names"
         if found is None:
-            return {"file": name, "language": language, "status": "locus gives no line and no quoted words were found in the file"}
+            found = next((n for n in (_locate(lines, p) for p in phrases) if n), None)
+            how = "located by the quoted words in the locus or record"
+        if found is None:
+            return {"file": name, "language": language, "status": "locus gives no line, division id or quoted words found in the file"}
         first = last = found
-        how = "located by the quoted words in the locus or record"
     else:
         how = "lines given in the locus"
     if first < 1 or last > len(lines) or first > last:
@@ -218,11 +229,17 @@ def lexicon_block(records: dict, bound: set[str] = frozenset()) -> str:
 def _source_files(record: dict, records: dict) -> list[tuple[str, int | None, int | None]]:
     found = []
     for source in record.get("sources") or []:
-        named = loci(source.get("locus") or "")
+        locus = source.get("locus") or ""
+        named = loci(locus)
         if not named:
             source_record = records.get(source.get("source_id")) or {}
             text = " ".join(str(source_record.get(k) or "") for k in ("edition", "discovery_channel", "citation"))
-            named = [(name, None, None) for name in dict.fromkeys(m.group(1) for m in _FILE.finditer(text))]
+            files = list(dict.fromkeys(m.group(1) for m in _FILE.finditer(text)))
+            lines = _LINES.search(locus)
+            if len(files) == 1 and lines:
+                named = [(files[0], int(lines.group(1)), _full_last(lines.group(1), lines.group(2) or lines.group(1)))]
+            else:
+                named = [(name, None, None) for name in files]
         found.extend(named)
     return list(dict.fromkeys(found))
 
@@ -242,8 +259,9 @@ def build_pack(item: dict) -> dict:
         phrases += [m.group(1) for m in _QUOTED.finditer(str(record.get("text") or ""))]
         if record.get("record_type") == "quote" and record.get("text"):
             phrases.insert(0, str(record["text"]))
+        div_ids = [m.group(1) for s in record.get("sources") or [] for m in _DIV_ID.finditer(s.get("locus") or "")]
         for name, first, last in _source_files(record, records):
-            found = passage(item["records_commit"], name, first, last, phrases)
+            found = passage(item["records_commit"], name, first, last, phrases, div_ids)
             blocks.append({"id": f"P{len([b for b in blocks if b['kind'] == 'passage']) + 1}", "kind": "passage", "for_record": f"R{n}", **found})
     blocks.append({"id": "L", "kind": "lexicon", "text": lexicon_block(records, {b["id"] for b in item["bindings"]})})
     return {"item_id": item["item_id"], "blocks": blocks}
