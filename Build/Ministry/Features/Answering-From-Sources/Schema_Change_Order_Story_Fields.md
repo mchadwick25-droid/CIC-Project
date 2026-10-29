@@ -64,3 +64,7 @@ Schema text (added beside `telling` in the `story` properties):
 ## For Mark
 
 Approve this order. The lengths are fixed by your ruling; the targets are tested on the real lpc stories first and reported to you if they do not fit.
+
+## Progress note
+
+2026-10-29: schema, registry entries and narratability checks are implemented and pushed on `claude/answering-schema-order`; the full `engine/m1` suite was still running and the PR is not yet open. Next: confirm the suite, open the PR, merge when green, then author the lpc tellings.
