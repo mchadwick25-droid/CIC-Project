@@ -19,6 +19,7 @@ work: Historia Ecclesiastica (Church History) - cited here only for facts about 
 edition: trans. A.C. Zenos, NPNF series 2 vol. 2 (1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml
 citation: Socrates Scholasticus, Historia Ecclesiastica (Church History), trans. A.C. Zenos, Nicene and Post-Nicene Fathers ser. 2 vol. 2 (1890)
 kind: vendored
+shelf_row: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-3
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: identified at step 3 as carrier of the only located primary-class death notice for

@@ -22,6 +22,7 @@ work: 'Treatises attributed to Cyprian on questionable authority: On the Public 
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: 'Anonymous, treatises attributed to Cyprian on doubtful authority, including On the Public Shows and On the Glory of Martyrdom, Ante-Nicene Fathers, vol. V'
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

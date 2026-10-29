@@ -24,6 +24,7 @@ work: 'Histoire littéraire de l''Afrique chrétienne depuis les origines jusqu'
 edition: 'Paris: Ernest Leroux, 1902; vendored as cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt'
 citation: 'Paul Monceaux, Histoire littéraire de l''Afrique chrétienne depuis les origines jusqu''à l''invasion arabe, vol. II: Saint Cyprien et son temps (Paris: Ernest Leroux, 1902)'
 kind: vendored
+shelf_row: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902--histoire-litteraire-de-l-afrique-chretienne-tome-deuxieme
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

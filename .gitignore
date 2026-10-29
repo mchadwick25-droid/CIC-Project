@@ -57,5 +57,5 @@ packages/*/*/**
 # decides that - so this stays a stated discipline with the audit's
 # cross-check, not a pattern.)
 
-# Answering-from-the-sources segmenter output (rebuilt by Sandbox/answering-library; versioned by hash)
+# Answering-library pipeline output (segmenter passages, context lines, the derived index): rebuildable, never tracked
 Sandbox/answering-library/out/
