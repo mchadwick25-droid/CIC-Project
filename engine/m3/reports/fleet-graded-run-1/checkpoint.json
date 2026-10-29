@@ -342,6 +342,11 @@
       "estimate": 0.030893,
       "spent_usd_world": 0.03401,
       "exit_code": 0
+    },
+    "thinness-1": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-thinness-1.jsonl",
+      "estimate": 0.031372
     }
   }
 }
