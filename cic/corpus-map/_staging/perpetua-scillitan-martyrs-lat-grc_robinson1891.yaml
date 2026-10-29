@@ -14,13 +14,9 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      Latin/Greek second witness for the ALREADY-PRESENT English-language
-      entry in this same corpus-map bucket (source_file
-      anf09_gospel-of-peter-diatessaron-origen-commentaries.xml), which
-      Source_Registry.md row 28 holds Excluded/Named Comparandum (predates
-      this world's own c. 246 boundary by 66 years). This second-witness
-      file does not change that disposition -- mirrors the existing entry's
-      own role and confidence exactly, rather than asserting a new one.
+      Latin and Greek second witness to the English entry in this bucket (source_file
+      anf09_gospel-of-peter-diatessaron-origen-commentaries.xml), held in the same role
+      and confidence as that entry.
 
   - row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
     work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
@@ -31,14 +27,17 @@ assignments:
     role: tradition
     confidence: assigned
     note: >
-      Latin/Greek second witness for the ALREADY-PRESENT English-language
-      entry in latin-apologists.yaml (source_file anf03_tertullian.xml;
-      anf03_tertullian.xml carries the work in full, printed as an Appendix,
-      while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
-      it only in editorial footnotes, so anf03 is the correct sibling entry,
-      not anf09). This work belongs with latin-apologists rather than any
-      Latin-pastoral bucket. This file does not reassign it -- mirrors the
-      existing assignment exactly. The atlas_id here is latin-apologists
-      (I.43); tertullian-s-voice (I.17), which this entry once named, has
-      since been merged into it, along with the rest of Tertullian's own
-      works in anf03/anf04.
+      Latin and Greek second witness to the English entry in this bucket (source_file
+      anf03_tertullian.xml, where the work is printed as an Appendix). The same file also
+      prints the Passion of the Scillitan Martyrs (pp. 112-117), which is assigned elsewhere.
+      The file header warns of scan-level noise.
+    locus_ids:
+    - pp. 60-95 of the printed volume
+    language:
+    - lat
+    - grc
+    date:
+      window: 7 March 202 or 203, under Severus
+      source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202)'
+      formation_confidence: Widely Accepted
+      note: 'The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'

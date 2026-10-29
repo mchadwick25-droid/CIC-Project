@@ -8,6 +8,7 @@ assignments:
     locus: "whole file; title page at file line 33"
     atlas_ids:
       - latin-pastoral-congregational-christianity
+      - latin-apologists
     role: context
     confidence: provisional
     note: >
@@ -15,3 +16,13 @@ assignments:
       witness to any ancient text. The standard history of Roman Carthage, 146 BC to 698 AD, the city
       of Cyprian's episcopate and of Augustine's schooling and preaching. Provisional because its
       subject is the city, not the church.
+    locus_ids:
+    - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
+    language: fra
+    voice_of:
+    - author: audollent
+      loci: the whole volume
+    date:
+      window: 1901 (publication date on the title page)
+      source: audollent_carthage-romaine-fra_1901.txt
+      formation_confidence: Documented

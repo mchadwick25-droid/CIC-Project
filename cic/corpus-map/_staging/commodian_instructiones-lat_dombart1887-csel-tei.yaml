@@ -22,4 +22,16 @@ assignments:
       rendered from it, with the vendored English as a cross-check. CC BY-SA 4.0, so attribution
       and share-alike travel with any quotation. Mirrors the English twin's role and confidence
       exactly.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0096.stoa003.opp-lat2
+    - 'textpart subtype=MSS: no n attribute (1 divisions)'
+    - 'textpart subtype=book: n=1..2 (2 divisions)'
+    - 'textpart subtype=toc: no n attribute (2 divisions)'
+    - 'textpart subtype=poem: n=1..41 (80 divisions)'
+    language: lat
+    date:
+      window: 'mainstream: mid-third century to 313; Harnack: not before c. 260 and probably after the persecution of Diocletian; minority: fifth century (Brewer)'
+      source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III
+      formation_confidence: Contested
+      note: 'Sub-claim: that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.'
 

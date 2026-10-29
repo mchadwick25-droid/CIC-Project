@@ -39,6 +39,14 @@ assignments:
       text, so each quote is verified verbatim against the file and against the page image where a
       letter is doubtful (INTAKE section 6) before it is used. Mirrors the existing entries' role and
       confidence exactly.
+    locus_ids:
+    - 'line 3489: Passio SS. Perpetuae et Felicitatis.'
+    language: lat
+    date:
+      window: 7 March 202 or 203, under Severus
+      source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202)'
+      formation_confidence: Widely Accepted
+      note: 'The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'
 
   - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--acta-proconsularia-of-cyprian-latin-gebhardt-1902-no-xi
     work: "Acta Proconsularia of Cyprian, Latin (Gebhardt 1902, no. XI)"

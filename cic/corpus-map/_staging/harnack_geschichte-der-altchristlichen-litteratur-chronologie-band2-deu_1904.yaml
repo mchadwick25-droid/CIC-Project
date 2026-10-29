@@ -1,0 +1,21 @@
+source_file: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
+assignments:
+- row_id: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904--harnack-die-chronologie-der-altchristlichen-litteratur-bis
+  work: Harnack, Die Chronologie der altchristlichen Litteratur bis Eusebius, Band 2 (1904)
+  author: harnack
+  locus: whole file
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Modern German scholarship on dating, role context, not tradition. The dating authority for Minucius Felix, Commodian, Arnobius, Lactantius, Tertullian, the Passion of Perpetua and the Cyprianic writings of this shelf (Tertullian chronology table at printed pp. 295-296). Consultation only: no world''s own voice.'
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
+  language: deu
+  voice_of:
+  - author: harnack
+    loci: the whole volume
+  date:
+    window: 1904 (publication date on the title page)
+    source: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
+    formation_confidence: Documented

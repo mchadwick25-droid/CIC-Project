@@ -884,3 +884,9 @@ Status: OPEN for an independent recheck and the unrendered quotes.
 Justin's Dialogue 80 is removed from the spoken statement (it read as a verdict on a bereaved visitor's belief) and stays in `not_for` and the divergence note. Clement's 'by God's grace' is restored. A stray line break inside the spoken text is fixed. Awaiting a fourth read.
 
 Status: OPEN for the fourth read.
+
+### OG-44. Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01, 2026-10-29.
+
+Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Tertullian's *Apology* and *Against Marcion*, which this world holds as `register: etic` outside corroboration (`pahc.source.tertullian-apologeticus`, `pahc.source.tertullian-adversus-marcionem`), and the triangulation with *Apology* 39 in `pahc.source.lucian-peregrinus`. One record, `pahc.force.systematic-theological-mode-elsewhere`, says the *Apology* opens a body of confident Latin defense; the Latin Apologists' Step 0 does not adopt that framing, because on one of the two datings of Minucius Felix's *Octavius* that work comes first. In the Latin Apologists both works are the world's own voice. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+Status: OPEN. Owner: this world's thread.

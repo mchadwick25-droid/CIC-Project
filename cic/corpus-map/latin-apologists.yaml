@@ -51,6 +51,39 @@ works:
 
     '
   source_file: arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt
+- row_id: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901--audollent-carthage-romaine-146-av-j-c-698-ap-j-c-1901
+  work: Audollent, Carthage romaine, 146 av. J.-C. - 698 ap. J.-C. (1901)
+  author: audollent
+  locus: whole file; chapter Les chretiens at file line 47700
+  role: context
+  confidence: provisional
+  note: 'Modern (1901) French history of Roman Carthage. Registry row 239.
+
+    '
+  source_file: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
+- row_id: audollent_carthage-romaine-fra_1901--carthage-romaine-audollent-1901
+  work: Carthage romaine (Audollent, 1901)
+  author: audollent
+  locus: whole file; title page at file line 33
+  role: context
+  confidence: provisional
+  note: 'Modern (1901) French scholarship, role context, not tradition. Not a primary source
+    and not a witness to any ancient text. The standard history of Roman Carthage, 146 BC
+    to 698 AD, the city of Cyprian''s episcopate and of Augustine''s schooling and preaching.
+    Provisional because its subject is the city, not the church.
+
+    '
+  source_file: audollent_carthage-romaine-fra_1901.txt
+- row_id: brewer_kommodian-von-gaza-deu_1906--brewer-kommodian-von-gaza-1906
+  work: Brewer, Kommodian von Gaza (1906)
+  author: brewer
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern German monograph, role context, not tradition. Argues the minority fifth-century
+    date for Commodian (between 458 and 466). Read for that thesis only. Consultation only:
+    no world''s own voice.'
+  source_file: brewer_kommodian-von-gaza-deu_1906.txt
 - row_id: commodian_carmen-apologeticum-lat_dombart1887-csel-tei--carmen-apologeticum-commodian
   work: Carmen apologeticum (Commodian)
   author: commodian
@@ -302,6 +335,111 @@ works:
 
     '
   source_file: minucius-felix_octavius-lat_waltzing1912.txt
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-xv
+  work: Gennadius, Lives of Illustrious Men (continuation), ch. XV 'Commodianus' (file line
+    42419)
+  author: gennadius
+  locus: div3 v.iv.xvi, Chapter XV
+  role: context
+  confidence: assigned
+  note: 'Gennadius''s notice of Commodian: a convert from secular literature who wrote, in
+    rough verse, Against the pagans. It gives no date. The file''s gloss ''Flourished about
+    270'' with the remark that opinions differ from 250 to nearly a century later is the NPNF
+    editor''s. Context, not tradition.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904--harnack-die-chronologie-der-altchristlichen-litteratur-bis
+  work: Harnack, Die Chronologie der altchristlichen Litteratur bis Eusebius, Band 2 (1904)
+  author: harnack
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern German scholarship on dating, role context, not tradition. The dating authority
+    for Minucius Felix, Commodian, Arnobius, Lactantius, Tertullian, the Passion of Perpetua
+    and the Cyprianic writings of this shelf (Tertullian chronology table at printed pp. 295-296).
+    Consultation only: no world''s own voice.'
+  source_file: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-liii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the
+    presbyter' (file line 40489)
+  author: jerome
+  locus: div3 v.iii.lv, Chapter LIII
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Tertullian: presbyter of the church until middle life, then a
+    lapse to the doctrine of Montanus; it names four works written against the church (On
+    modesty, On persecution, On fasts, On monogamy). The file''s gloss ''Born about 160, christian
+    195, apology 198, died about 245'' is the NPNF editor''s, not Jerome''s. Context, not
+    tradition: an outside cataloguer writing about 392.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lviii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LVIII 'Minucius Felix'
+    (file line 40642)
+  author: jerome
+  locus: div3 v.iii.lx, Chapter LVIII
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Minucius Felix: a distinguished advocate of Rome, author of the
+    Octavius, to whom another work, On fate, is also ascribed; Jerome adds that Lactantius
+    mentions him. The file''s gloss ''Flourished 196?'' is the NPNF editor''s. Context, not
+    tradition.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxix
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXIX 'Arnobius the rhetorician'
+    (file line 41017)
+  author: jerome
+  locus: div3 v.iii.lxxxi, Chapter LXXIX
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Arnobius: a teacher of rhetoric at Sicca in Africa under Diocletian,
+    who wrote volumes Against the nations. It says nothing of a dream, a bishop or a pledge;
+    those belong to Jerome''s Chronicle, which is not vendored. Context, not tradition.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxx
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXX 'Firmianus, surnamed
+    Lactantius' (file line 41028)
+  author: jerome
+  locus: div3 v.iii.lxxxii, Chapter LXXX
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Lactantius: called a disciple of Arnobius; taught rhetoric at
+    Nicomedia; his works are listed, the Divine Institutes among them; in extreme old age
+    tutor to Crispus in Gaul. It says nothing of chiliasm or of the Holy Spirit. Context,
+    not tradition.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-xviii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. XVIII 'Papias the bishop'
+    (file line 39858)
+  author: jerome
+  locus: div3 v.iii.xx, Chapter XVIII
+  role: context
+  confidence: assigned
+  note: Jerome's notice of Papias. Its last sentences say that Irenaeus, Apollinaris and others
+    hold the millennial reign, and that Tertullian (in On the hope of the faithful), Victorinus
+    of Petau and Lactantius follow the view. Read for the chiliasm of Tertullian and Lactantius
+    only. Context, not tradition.
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: npnf206_jerome-principal-works--letter-lxx-to-magnus-an-orator-of-rome-the-list-of-christian
+  work: Letter LXX (To Magnus, an orator of Rome), the list of Christian writers who used
+    pagan learning
+  author: jerome
+  locus: div2 v.LXX, Letter LXX
+  role: context
+  confidence: assigned
+  note: 'Jerome defends his use of pagan authors by the example of earlier Christian writers.
+    His list names Tertullian, Minucius Felix, Arnobius (seven books against the Gentiles),
+    his pupil Lactantius and Cyprian, whom he praises for the theme that idols are no gods.
+    Context, not tradition: Jerome''s testimony, not the apologists'' voice.'
+  source_file: npnf206_jerome-principal-works.xml
+- row_id: npnf206_jerome-principal-works--letter-lxxxiv-to-pammachius-and-oceanus-on-lactantius-and
+  work: Letter LXXXIV (To Pammachius and Oceanus), on Lactantius and the Holy Spirit
+  author: jerome
+  locus: div2 v.LXXXIV, Letter LXXXIV
+  role: context
+  confidence: assigned
+  note: 'Jerome''s charge that Lactantius, in his books and particularly in his letters to
+    Demetrian, denied the subsistence of the Holy Spirit (file line 19196 onward). Context,
+    not tradition: the charge of an outside critic, not Lactantius''s own words.'
+  source_file: npnf206_jerome-principal-works.xml
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god
   work: A Treatise on the Anger of God
   author: lactantius
@@ -440,22 +578,59 @@ works:
 
     '
   source_file: lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902--histoire-litteraire-de-l-afrique-chretienne-tome-deuxieme
+  work: 'Histoire litteraire de l''Afrique chretienne, Tome Deuxieme: Saint Cyprien et son
+    temps'
+  author: monceaux
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1902) French literary-historical scholarship -- role context, not tradition.
+    The volume this world''s own G5 request names as most directly relevant, bearing directly
+    on the Cyprian phase. Closes another third of Source_Acquisition_Manifest G5. Consultation-only
+    per cic/texts/INTAKE.md.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901--histoire-litteraire-de-l-afrique-chretienne-tome-premier
+  work: 'Histoire litteraire de l''Afrique chretienne, Tome Premier: Tertullien et les origines'
+  author: monceaux
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1901) French literary-historical scholarship -- role context, not tradition.
+    Closes one-third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
+    covers Tertullian and the origins of African Christian literature, background to this
+    world''s own Cyprian phase rather than this world''s own voice.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+- row_id: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905--histoire-litteraire-de-l-afrique-chretienne-tome-troisieme
+  work: 'Histoire litteraire de l''Afrique chretienne, Tome Troisieme: Le IVe siecle, d''Arnobe
+    a Victorin'
+  author: monceaux
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern (1905) French literary-historical scholarship -- role context, not tradition.
+    Closes the final third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
+    covers fourth-century African literature outside this world''s own core Cyprian/Augustine
+    focus.
+
+    '
+  source_file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
 - row_id: anf03_tertullian--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
   work: The Passion of the Holy Martyrs Perpetua and Felicitas
   author: passion_of_perpetua
   locus: div2 6.6 under div1 'Ethical.' (printed as an Appendix)
   role: tradition
   confidence: assigned
-  note: 'Carthage, 203 - inside this candidate''s own window and city, transmitted with his
-    corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
-    affinities are long argued. A first-person martyr diary by a woman is precious enough
-    that the shelving deserves care: this assignment favors the Carthage/Tertullian''s-corpus
-    reading (inside window and city, transmitted with Tertullian''s corpus and edited by him
-    on the volume''s own reading) over montanism-the-new-prophecy. The affinity claim is real
-    scholarship, not a shelving convenience - adding montanism-the-new-prophecy alongside
-    this id remains worth considering. tertullian-s-voice itself is merged into latin-apologists,
-    so this assignment resolves there rather than to a separate entry; the underlying choice
-    (Carthage/Tertullian''s corpus over the New Prophecy reading) is unaffected.'
+  note: The Passion of Perpetua and Felicitas, printed as an Appendix to Tertullian's works.
+    The visions of Perpetua and Saturus are their own writing. The compiler of the frame is
+    not established, and the volume's translator thinks Tertullian was its editor, not its
+    author. It is assigned here because it is transmitted with his corpus and, on the translator's
+    note, set at Carthage in 202 or 203. Its New Prophecy affinities are argued; a co-assignment
+    to `montanism-the-new-prophecy` is open.
   source_file: anf03_tertullian.xml
 - row_id: perpetua-scillitan-martyrs-lat-grc_robinson1891--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
   work: The Passion of the Holy Martyrs Perpetua and Felicitas
@@ -463,14 +638,10 @@ works:
   locus: pp. 60-95 of the printed volume
   role: tradition
   confidence: assigned
-  note: 'Latin/Greek second witness for the ALREADY-PRESENT English-language entry in latin-apologists.yaml
-    (source_file anf03_tertullian.xml; anf03_tertullian.xml carries the work in full, printed
-    as an Appendix, while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
-    it only in editorial footnotes, so anf03 is the correct sibling entry, not anf09). This
-    work belongs with latin-apologists rather than any Latin-pastoral bucket. This file does
-    not reassign it -- mirrors the existing assignment exactly. The atlas_id here is latin-apologists
-    (I.43); tertullian-s-voice (I.17), which this entry once named, has since been merged
-    into it, along with the rest of Tertullian''s own works in anf03/anf04.
+  note: 'Latin and Greek second witness to the English entry in this bucket (source_file anf03_tertullian.xml,
+    where the work is printed as an Appendix). The same file also prints the Passion of the
+    Scillitan Martyrs (pp. 112-117), which is assigned elsewhere. The file header warns of
+    scan-level noise.
 
     '
   source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
@@ -510,6 +681,16 @@ works:
 
     '
   source_file: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
+- row_id: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922--schanz-hosius-krueger-geschichte-der-roemischen-litteratur
+  work: Schanz-Hosius-Krueger, Geschichte der roemischen Litteratur, Teil 3 (3rd ed., 1922)
+  author: schanz-hosius-krueger
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'Modern German handbook, role context, not tradition. Read for the dating of Minucius
+    Felix (paragraphs 654-656), where it declines to choose between the proposed dates. Consultation
+    only: no world''s own voice.'
+  source_file: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
 - row_id: anf03_tertullian--a-treatise-on-the-soul-de-anima
   work: A Treatise on the Soul (De Anima)
   author: tertullian
@@ -765,9 +946,8 @@ works:
   locus: div2 4.3 under div1 'Apologetic.'
   role: tradition
   confidence: assigned
-  note: 'Carthage, 197 - the opening date of this candidate''s own corpus, and of the whole
-    Latin apologetic enterprise (also the opening date of the tertullian-s-voice material,
-    which this candidate now includes).
+  note: 'Carthage, 197. The date is the best-anchored in this shelf and is its first fixed
+    date. It is not the opening of the Latin case, because the Octavius may be earlier.
 
     '
   source_file: anf03_tertullian.xml

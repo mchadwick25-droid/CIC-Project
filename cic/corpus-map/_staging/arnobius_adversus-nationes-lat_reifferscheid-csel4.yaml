@@ -21,4 +21,12 @@ assignments:
       against it (INTAKE section 6); the English a Representative speaks is rendered from it, with
       the vendored English as a cross-check. Mirrors the English twin's role and confidence
       exactly.
+    locus_ids:
+    - 'line 876: LIBER PRIMVS'
+    language: lat
+    date:
+      window: c. 295-310
+      source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III (between 284 and 311)
+      formation_confidence: Widely Accepted
+      note: Finer order (books I-II first, later books after the edicts of 303) is Dominant Modern Reconstruction.
 
