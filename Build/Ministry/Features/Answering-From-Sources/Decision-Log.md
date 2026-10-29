@@ -419,3 +419,18 @@ Mark, by choice box:
 - Retrieval: free trials first on lpc (in-plan context lines for a small set; a
   free local embedder; the sub-question and locus keys as baselines), compared
   with the 39% routing baseline. A hosted embedder is not authorized.
+
+## 16. Quote card unchanged; stories code read (2026-10-29)
+
+Mark, by choice box: the quote card stays as it is today. It carries the modern
+rendering and the source reference and no edition or original wording, and its
+test stays. The three-layer card (edition words on the click page) is not
+approved; it returns only if Mark raises it when the quote door is built.
+
+Engine thread's code read of stories, which corrects the 19 July audit in part:
+stories already get an inline mark at the end of their telling, the app shows a
+hover with the formation-confidence phrase and a click with a source list, and a
+story drops to the end references only when the mark cap pushes it out. What was
+missing, and is now carried as card data (PR #1299): the record's one-line
+`means` for the hover and `narrative_tier`, which the engine never read. A
+full-story page on click is still not built and is screen work for later.
