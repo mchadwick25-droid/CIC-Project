@@ -2,7 +2,7 @@
 
 Asks each world the same six questions, in one conversation, that the 13 October
 eleven-world test asked (the messages are read from those reports), through the
-live turn path with the safety and reader calls. The whole-run cap is $15.00:
+live turn path with the safety and reader calls. The whole-run cap is $16.00:
 before each world the spent total plus that world's 13 October cost, padded by
 15%, must fit, and each call's own cap is the dollars left. Resumable from the
 checkpoint.
@@ -22,7 +22,7 @@ OUT = ROOT / "engine" / "m3" / "reports" / "fleet-graded-run-1"
 REPLAY = OUT / "replay"
 CHECKPOINT = OUT / "checkpoint.json"
 OLD = ROOT / "engine" / "m4" / "reports"
-CAP = 15.0
+CAP = 16.0
 PAD = 1.15
 NAME = "fleet graded run 1"
 REGION = "us-east-1"

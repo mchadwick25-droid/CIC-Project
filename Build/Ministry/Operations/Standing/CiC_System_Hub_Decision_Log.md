@@ -7226,3 +7226,13 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Scope of the rest.** The lpc thinness-2, thinness-3 and thinness-4 conversations (about $0.1), then the six-question replay for the eleven other worlds in the run order (about $2.4 with the safety and reader calls). The run stops before any call that could pass $15.00. A paid rerun of cappadocian's admission world (about $1.1) is not part of this and does not fit.
 
 **Where.** All files stay on the branch `claude/fleet-graded-run-1`; nothing is merged to `main`, per Mark's order of 2026-10-28.
+
+## 2026-10-29 - Named, capped live test "fleet graded run 1": cap raised from $15.00 to $16.00 (project lead's ruling)
+
+**Question.** The six-question replay reached $14.67 of the $15.00 cap with nine of eleven worlds done. cappadocian and don were refused by the cap guard (about $0.35 and $0.40 estimated, $0.33 left). Raise the cap so they can finish?
+
+**Ruling.** Mark, 2026-10-29, typed in this session: "raise it to 16", after "now these are valuable, finish them". The name stays "fleet graded run 1". The cap is $16.00 total metered, never more, counting the $14.67 already spent.
+
+**Scope.** The replay for cappadocian and don only, by the same driver and settings as the other nine worlds. The run stops before any call that could pass $16.00. Nothing else is added: the cappadocian admission rerun stays out.
+
+**Where.** All files stay on the branch `claude/fleet-graded-run-1`; nothing is merged to `main`, per Mark's order of 2026-10-28.
