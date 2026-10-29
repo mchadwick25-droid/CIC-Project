@@ -1,6 +1,6 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: The Latin Apologists
 
-**Status:** Draft. Not approved to proceed. Not frozen.
+**Status:** Approved to proceed (self-disposed by the build thread after three review rounds; not Frozen). Latest review: `Review-Artifacts/Doc01_Round3_Review.md`.
 **World file-code:** `latap`. Registered on 2026-10-29 as a candidate world (`records/worlds/latap.yaml`; the entry is `latap` in `Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`). `safety_adjacent` is not set. Census reference: Atlas I.43, `cic-website/data/world-census.json`.
 **Governed by:** Construction Framework V7.4 Part I and Step 1. Constitution V2.3, Article 4 (movement scope), Article 21 (strands), Article 22 (forces) and Article 29 (living tradition). Forces Framework V1.1, Step 1 entry.
 **Grounded in:** `Step0_Movement_Scope_Confirmation.md`, which is approved to proceed, and its binding points in §4.
@@ -218,4 +218,4 @@ Step 0 cleared Section A for all five core figures, with a complication disclose
 
 ## 10. Disposition
 
-Draft. It is not approved to proceed, and it is not frozen.
+Approved to proceed, self-disposed by the build thread on 2026-10-29. Independent review in three rounds (`Review-Artifacts/Doc01_Round1_Review.md`, `Doc01_Round2_Review.md`, `Doc01_Round3_Review.md`) ended with a Clear verdict: no P0, no P1, one optional P2 that does not justify a further round. No escalation category applies. The document is not Frozen, and approval to proceed does not close the world.
