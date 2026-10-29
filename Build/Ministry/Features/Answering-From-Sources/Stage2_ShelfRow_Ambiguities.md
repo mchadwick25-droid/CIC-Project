@@ -747,3 +747,55 @@ None.
 ### Off-shelf (0)
 
 None.
+
+## desert
+
+### Ambiguous (11)
+
+- `desert.source.athanasius-festal-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+- `desert.source.athanasius-vita-antonii`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+- `desert.source.cassian-conferences`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+- `desert.source.cassian-institutes`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+- `desert.source.jerome-de-viris`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-pachomius`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-antonius`
+- `desert.source.jerome-letter-22`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+- `desert.source.jerome-life-of-paulus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+- `desert.source.pachomian-corpus`: 5 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the`
+  - `pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice`
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance`
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy`
+  - `pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885`
+- `desert.source.palladius-paradise-syriac`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension`
+  - `palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907`
+  - `palladius_paradise-v1-syriac_budge1907--the-paradise-of-palladius-book-i-syriac-recension`
+- `desert.source.socrates-historia-ecclesiastica`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2`
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2`
+- `desert.source.sozomen-historia-ecclesiastica`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2`
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2`
+
+### Off-shelf (0)
+
+None.
