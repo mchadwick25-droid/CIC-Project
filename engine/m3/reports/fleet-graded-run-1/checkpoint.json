@@ -300,6 +300,11 @@
       "estimate": 0.034038,
       "spent_usd_world": 0.03387,
       "exit_code": 0
+    },
+    "scholarly-1": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-scholarly-1.jsonl",
+      "estimate": 0.029012
     }
   }
 }
