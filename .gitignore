@@ -56,3 +56,6 @@ packages/*/*/**
 # (A path-level ignore can't express "only the pinned one" - the registry
 # decides that - so this stays a stated discipline with the audit's
 # cross-check, not a pattern.)
+
+# Answering-from-the-sources segmenter output (rebuilt by Sandbox/answering-library; versioned by hash)
+Sandbox/answering-library/out/
