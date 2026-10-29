@@ -1,6 +1,6 @@
 # Schema change order: optional story fields for reviewed tellings
 
-Status: DRAFT for approval. Nothing here is in force. It is the named schema change order that the Stage 3 order (`Stage3_Change_Order.md`) and the proposal (section 14, decision 12) require before any story record uses a new field, because `engine/m1/schemas.py` sets `additionalProperties: false` and rejects an unknown field.
+Status: approved by Mark, 2026-10-29 (choice box, direct). It is the named schema change order that the Stage 3 order (`Stage3_Change_Order.md`) and the proposal (section 14, decision 12) require before any story record uses a new field, because `engine/m1/schemas.py` sets `additionalProperties: false` and rejects an unknown field.
 
 Mark's rulings, 2026-10-29: three fixed lengths (short, medium, and the existing full `telling`); targets short about 90 words and medium about 160, tested on the real lpc stories first and reported to Mark if they do not fit, never changed without him; `heart` and `narrative_tier` are carried as data only, with no display change (hover and tier display wait for the layout phase).
 
@@ -39,11 +39,11 @@ Schema text (added beside `telling` in the `story` properties):
 ## What goes with it
 
 1. **Spoken-field registry** (`engine/m1/spoken_fields.py`): declare `telling_short` and `telling_medium` as `evidence-head` spoken fields beside `telling`, and `heart` as data the voice may read, so the existing readability gate and every list built from the registry cover them. `events` is build-side and is not spoken.
-2. **Gates** (`engine/m1/gates.py`), run only on a record that has the new fields:
+2. **Gates**, run only on a record that has the new fields. They are folded into the existing `narratability` gate (`engine/m1/gates.py`), not registered as a new gate, because registering a gate changes `validation/gates-report.json` in every built world's package and would force a re-pin of all of them:
    - Readability of each telling at the existing spoken-prose bar.
-   - Length: each telling at or under its target, with the tolerance Mark approves; an over-target telling is reported as a finding, not edited.
+   - Length: each telling at or under its target plus a 15% tolerance; an over-target telling is a finding, not edited. The 15% is a working figure for Mark to confirm or change.
    - Nothing added: every name, place and number in a telling also appears in `text` or in `events`.
-   - Coverage: every `essential` event is covered by each telling (a human or Opus review confirms the match; the gate checks that the review has named the event ids each telling keeps).
+   - Events: each has a non-empty `line` and `rests_on`, and a record with a shorter telling has at least one event marked `essential`. That every essential event is covered by each telling is confirmed by the Opus review and Mark's reading, not by the gate.
 3. **Placement** (`engine/m4/story_placement.py`): the marker takes a length (full by default), the offer line lists the lengths a story has with their word counts, and code places the chosen reviewed telling word for word. A story without the new fields places as today. This is a separate code change after this order lands.
 4. **Card data** (`engine/m4/citation_cards.py`): a story card also carries `heart` and the length told, as data. `narrative_tier` and `means` are already carried. No display change.
 
