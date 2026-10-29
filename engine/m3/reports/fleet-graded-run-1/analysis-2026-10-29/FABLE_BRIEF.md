@@ -26,6 +26,16 @@ Weekly credits are low. Treat this as a bounded design job, not an investigation
 
 What the cheaper steps do before and after this pass: Sonnet (or the project lead's thread) prepares the digest and checks the section 4D hypotheses against the code and records. After the design, Sonnet implements it in small ledger-sized changes and tests each on the saved drafts.
 
+## 1b. Already tried: do not repeat, and do not code from this brief
+
+Two small engine experiments ran on branch `claude/engine-cut-repair` (head `6d173f8a2`, no PR). Their results are evidence for the design, not fixes.
+- **Cut step, quote-words rule (L1), reverted.** A replay of the 308 saved drafts found 30 true sentences, each word for word in a record it cites, that the engine cut. Only 1 of 30 was cut by the quote-words rule. The rest went as "quotation typed by the voice" (17), "words after an attribution" (6), story (4), other (2). Exempting a cited record's own words freed 5 sentences, and all 5 contained a quote record's words unplaced, so it was undone. Open policy question for the project lead: may the voice repeat words held inside a witness's or story's own quotation marks when no quote record holds them?
+- **Cut step, orphan guard (L2), kept as a flag only.** It flags a kept sentence that opens with an anaphor right after a removed run. 14 flagged, 7 truly broken, 7 fine (50% precision), so nothing is dropped. A deterministic drop rule is not safe at this precision.
+- **Speaker-name cuts (81, the largest family)** are mostly the admission harness, not the engine: the harness lacks the live directive. On the live path the same cut happened 3 times in 65 turns. Whether harness parity fixes them is unproven and needs a paid call.
+- **A replay bench exists.** `replay/` in the analysis folder re-runs the cut step on all 308 drafts with no model call and reproduces the shipped text exactly. Use it to test any design offline.
+- **Measured CI:** the 3 GB checkout is not the CI bottleneck. Library validators (20 minutes) are. That is separate work, with the Library thread.
+- **lpc records:** the lpc thread merged the first record fixes (#1267). lpc is `built`, not `admitted`, and not live.
+
 ## 2. What the run found (numbers)
 
 12 worlds, 28 sealed questions each, answers read four ways. $16.55 of $17.00 spent.
