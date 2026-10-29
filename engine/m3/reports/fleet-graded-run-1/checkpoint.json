@@ -181,6 +181,11 @@
       "estimate": 0.032973,
       "spent_usd_world": 0.03183,
       "exit_code": 0
+    },
+    "anachronism-3": {
+      "status": "running",
+      "ledger": "engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-anachronism-3.jsonl",
+      "estimate": 0.065145
     }
   }
 }
