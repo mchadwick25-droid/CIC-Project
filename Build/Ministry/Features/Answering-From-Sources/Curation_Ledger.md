@@ -214,3 +214,17 @@ Five files have a division that starts right after an apparatus range or is itse
 2. Run the redo batches above; re-sample each redo with a different Opus reviewer.
 3. Set the 10 suspect files to `needs-redo`, or list their steps in `expected_gaps`, as each is examined.
 4. Sample the 14 unsampled files outside the suspect list; treat any numeral read from sequence alone as a defect.
+
+## `not_subheadings` rulings for the three (B) files (2026-10-29)
+
+An Opus reader opened every flagged line of the three files in the vendored text, with its neighbouring lines, and ruled on it. The proposed kinds came from `Curation_NotSubheadings_Candidates.md`. No flagged line in any of the three files is a printed sub-heading or a division numeral, so all three keep `status: sampled-ok` and gain a `not_subheadings` field. `curate check` passes on each file, which now reaches class `curated`.
+
+| File | Flagged | footnote | running-head | ocr-debris | quoted-list | Left unlisted | Unconfirmed |
+|---|---|---|---|---|---|---|---|
+| `dales_theologie-de-saint-cyprien-fra_1922` | 345 | 312 | 3 | 0 | 28 | 2 | 0 |
+| `duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910` | 13 | 0 | 0 | 13 | 0 | 0 | 0 |
+| `monceaux_histoire-litteraire-afrique-chretienne-tome3_1905` | 97 | 1 | 0 | 96 | 0 | 0 | 0 |
+
+- **Dales.** Most proposed `quoted-list` groups were footnotes: numbered references at the foot of the page, such as `1. Ep., ...`, plus one footnote that runs on with `§ 165` at line 20618. These are re-kinded `footnote`. Three lines are running heads with the page number read into a numeral: 2047, 10755 and 12110. The 28 `quoted-list` lines are the numbered capitula of Cyprian's *Ad Quirinum (Testimonia)* II and III and of the *Ad Fortunatum*, which Dales reproduces inside livre1/chapter4 (lines 3651 to 4802). They are Cyprian's titles quoted by Dales, not divisions of Dales's book. Lines 7935 and 11434 are body prose that opens with `M.` (Monsieur), in `M. H. Koch` and `M. Ernst`. None of the four kinds fits them, so they are left unlisted. Each sits well under the limit of 10 in its division.
+- **Duchesne.** Every flagged line is a lone `I` at the foot of the page, just before the next running head. This is scan debris.
+- **Monceaux.** 95 lines are the scattered cells of rotated tables that the OCR could not read: the inscription lists in l5/c3/s1 and l5/c3/s2, and the metrical-inscription tables in l7/c1/s2. Line 35070 (`III.`) is the volume's signature mark, caught inside footnote 3; it is kinded `ocr-debris`. Line 15951 (`I) C I. L., VIII, 20302.`) is footnote 1, so it is re-kinded `footnote` rather than the proposed `quoted-list`.
