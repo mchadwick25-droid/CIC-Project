@@ -142,3 +142,4 @@ def test_a_live_path_report_is_scored_from_its_drafts_and_usage():
     scores = sm.score_run(_report([probe]))
     assert scores["invented_ids_per_100_sentences"] == 100.0
     assert scores["cutoff_rate"] == 1.0
+    assert scores["usd_per_reply_mean"] == sm._usd(probe["usage"][0])

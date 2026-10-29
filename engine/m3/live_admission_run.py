@@ -5,7 +5,7 @@ Each probe goes through engine.m3.generation.LiveModelAnswerer, which calls
 engine.m4.turn.run_turn: the gate (safety and reader), routing, the per-turn
 directive, evidence assembly, the voice call, the recital retry,
 self-revision where the deployment runs it, the net and the settled reply. The
-model ids and the three flags that change a turn are read from the
+model ids and the four flags that change a turn are read from the
 production service in render.yaml. The battery, masking and grading are
 unchanged.
 

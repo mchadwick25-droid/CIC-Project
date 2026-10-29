@@ -150,7 +150,7 @@ def test_a_send_that_fails_is_sent_again_and_a_second_failure_is_unanswered():
     result = _answerer(recovered).answer("C-I", ASK_TEXT)
     assert result.live_turn.sends == 2
     assert result.citations == ["fix.witness.who-is-jesus"]
-    assert len(result.live_turn.voice_calls) == 2
+    assert len(result.live_turn.voice_calls) == 1
 
     with pytest.raises(AnswerUnavailable):
         _answerer(FakeClient(draft=draft, drops=2)).answer("C-I", ASK_TEXT)

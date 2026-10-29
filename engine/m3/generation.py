@@ -273,9 +273,9 @@ class LiveModelAnswerer:
         )
 
     def answer(self, cell: str, probe_text: str) -> AnswerResult:
-        mark = self.client.mark()
         last_error: Exception | None = None
         for sends in range(1, RESENDS + 2):
+            mark = self.client.mark()
             try:
                 result = self._send(probe_text)
             except (LiveTestCapReached, LiveTestGuardError, UnhandledRoutingAction):

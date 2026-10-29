@@ -89,7 +89,9 @@ def _mean(values: list[float]) -> float:
 
 
 def _usd(usage: dict) -> float:
-    table = price_for_model(usage.get("model_id") or "") or SONNET_4_5_PRICE_TABLE
+    table = price_for_model(usage["model_id"]) if usage.get("model_id") else SONNET_4_5_PRICE_TABLE
+    if table is None:
+        raise ValueError(f"no approved price for model {usage['model_id']!r}")
     normalized = NormalizedUsage(
         input_tokens=usage.get("input_tokens", 0),
         output_tokens=usage.get("output_tokens", 0),
@@ -131,12 +133,14 @@ def score_run(report: dict) -> dict:
             fks.append(graded.fk)
             fres.append(graded.fre)
         words.append(len(answer.split()))
-        if final_draft.get("seconds_to_first_text") is not None:
-            first_text.append(final_draft["seconds_to_first_text"])
-        if final_draft.get("seconds_total") is not None:
-            totals.append(final_draft["seconds_total"])
+        drafts = transcript.get("drafts") or [transcript]
+        if drafts[0].get("seconds_to_first_text") is not None:
+            first_text.append(drafts[0]["seconds_to_first_text"])
+        if all(d.get("seconds_total") is not None for d in drafts):
+            totals.append(sum(d["seconds_total"] for d in drafts))
         usage = transcript.get("usage") if "drafts" in transcript else probe.get("usage")
-        costs.append(sum(_usd(record) for record in usage) if isinstance(usage, list) else _usd(usage or {}))
+        voice_usage = [r for r in usage if r["call_kind"] == "voice_generation"] if isinstance(usage, list) else [usage or {}]
+        costs.append(sum(_usd(record) for record in voice_usage))
         passed += bool(probe.get("passed"))
     count = len(probes)
     return {
