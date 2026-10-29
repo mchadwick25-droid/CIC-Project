@@ -385,3 +385,20 @@ story, not only the record's full text.
 - Mark reads a sample of tellings, since "heart" is a judgment about story, not
   a count. The stage 3 change order names a faithfulness number for tellings
   (events kept, nothing added) and a human-read sample.
+
+## 14. Rulings by choice box (2026-10-29)
+
+Mark, by choice box in the project-management thread:
+- Rome Step 0: correct the Register word count to the real figure (about 261,000
+  with endnotes, about 227,000 without; the Moralia is about 3.9 to 4.5 times the
+  Register). Step 0 and Doc_02 are to agree.
+- Proposal decisions 7 and 2d: yes. Every spoken rendering gets full review before
+  it can be spoken, and renderings are written by Opus (in-plan).
+- Stories: a retelling must keep every event and add nothing, zero tolerance for
+  added content. Mark reads about 20 retellings for the heart of the story.
+- Stage 3 lpc sample: 100 lpc questions.
+- Quote door passes on lpc if sentences cut and orphan flags fall, more quotes are
+  placed by code, and readability and answer length are no worse; Mark reads the
+  30-draft fit sample.
+- `latap` registry field `safety_adjacent`: left blank until Doc_01 for the world
+  is written.
