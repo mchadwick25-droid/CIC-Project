@@ -1,7 +1,7 @@
 file: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
 scheme: 'Morin 1930: the sermons of each series as Morin numbers them (the sermon number printed alone above its source line, and again in the source line that opens each sermon, for example Denis, Serm. XI); addressed by series and number: denis, frangip, caillau (I, II), mai, liverani, guelferb, morin, wilmart; where a series number is damaged in the scan the sermon is read from both printed marks (the number alone and the number in the source line); a sermon too long for one division is split at the printed page heads (series name, sermon and page), addressed by head and line; series introductions are addressed by the printed series heading and line'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
   - id: denis-serm19-pages
     pattern: '^.'
