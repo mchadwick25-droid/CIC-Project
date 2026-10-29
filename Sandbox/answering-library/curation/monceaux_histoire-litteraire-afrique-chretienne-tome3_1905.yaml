@@ -1,0 +1,218 @@
+file: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
+scheme: 'Monceaux''s Livre Cinquième, Sixième and Septième with their Chapitres numbered in roman numerals and, inside each chapter, the sections numbered I, II, III and so on, each opened by its numeral and an italic summary of its contents; addressed l<Livre>/c<Chapitre>/s<section>, Livre numbers 5 to 7 as printed. Where the scan has dropped or damaged a section''s numeral the section is read from the same heading in the Table des matières, which prints it; the Appendice (Avertissement and the lists I and II) and the Table des matières as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 90
+    locus: l5/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 1373
+    locus: l5/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 2699
+    locus: l5/c1/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 4370
+    locus: l5/c1/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 6496
+    locus: l5/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 7127
+    locus: l5/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 7755
+    locus: l5/c2/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 9073
+    locus: l5/c2/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 10406
+    locus: l5/c2/s5
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 11254
+    locus: l5/c2/s6
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 11684
+    locus: l5/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 16254
+    locus: l5/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 18963
+    locus: l5/c4/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 19893
+    locus: l5/c4/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 20731
+    locus: l5/c4/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 21312
+    locus: l6/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 21663
+    locus: l6/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 23209
+    locus: l6/c1/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 23924
+    locus: l6/c1/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 24628
+    locus: l6/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 25411
+    locus: l6/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 26215
+    locus: l6/c2/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 27499
+    locus: l6/c2/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 28601
+    locus: l6/c2/s5
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 29525
+    locus: l6/c2/s6
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 29959
+    locus: l6/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 30223
+    locus: l6/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 30708
+    locus: l6/c4/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 31239
+    locus: l6/c4/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 32420
+    locus: l6/c4/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 33956
+    locus: l6/c4/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 34493
+    locus: l7/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 34841
+    locus: l7/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 37207
+    locus: l7/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 38384
+    locus: l7/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 39437
+    locus: l7/c2/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 40082
+    locus: l7/c2/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 40635
+    locus: l7/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 41087
+    locus: l7/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 41600
+    locus: l7/c3/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 42204
+    locus: l7/c3/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 42620
+    locus: appendice/avertissement
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 42795
+    locus: appendice/1
+    allow_oversize: 'a catalogue of entries; the scan shows no numbered or titled break inside it, only running heads'
+  - start_line: 44353
+    locus: appendice/2
+    allow_oversize: 'a catalogue of entries; the scan shows no numbered or titled break inside it, only running heads'
+ignore:
+  - pattern: '^(?:\d{1,3} )?[A-ZÉÈÀÇÂÎÔÛ«»''’\"\-\.,:\d ]{6,70}? \S*\d\S*$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+apparatus:
+  - lines: [12, 89]
+    kind: front
+    locus: front
+  - lines: [49638, 50240]
+    kind: index
+    locus: table-des-matieres
+evidence:
+  - line: 90
+    quote: 'LIVRE CINQUIÈME'
+  - line: 104
+    quote: 'CHAPITRE I'
+  - line: 110
+    quote: 'I'
+  - line: 1373
+    quote: '11'
+  - line: 2699
+    quote: 'III'
+  - line: 4370
+    quote: 'IV'
+  - line: 6496
+    quote: 'CHAPITRE II'
+  - line: 7755
+    quote: '111'
+  - line: 10406
+    quote: 'Documents relatifs aux martyrs de Numidie et de Maurétanie.'
+  - line: 11254
+    quote: 'VI'
+  - line: 11684
+    quote: 'CHAPITRE III'
+  - line: 16254
+    quote: 'Il'
+  - line: 18963
+    quote: 'CHAPITRE IV'
+  - line: 21312
+    quote: 'LIVRE SIXIÈME'
+  - line: 21324
+    quote: 'I'
+  - line: 25411
+    quote: 'Il'
+  - line: 28601
+    quote: 'Y'
+  - line: 28604
+    quote: 'Le pamphlétaire. — Le De mortibus persecutorum est-il de Lactance?'
+  - line: 29525
+    quote: 'VI'
+  - line: 29959
+    quote: 'CHAPITRE III'
+  - line: 30708
+    quote: 'CHAPITRE IV'
+  - line: 33956
+    quote: 'IV'
+  - line: 34493
+    quote: 'LIVRE SEPTIÈME'
+  - line: 34841
+    quote: 'Il'
+  - line: 37207
+    quote: 'CHAPITRE II'
+  - line: 40082
+    quote: 'IV'
+  - line: 40635
+    quote: 'CHAPITRE III'
+  - line: 40641
+    quote: 'I'
+  - line: 42204
+    quote: 'IV'
+  - line: 42620
+    quote: 'APPENDICE'
+  - line: 42626
+    quote: 'AVERTISSEMENT'
+  - line: 42795
+    quote: 'I'
+  - line: 44354
+    quote: 'MARTYRS ET CONFESSEURS AFRICAINS MENTIONNÉS'
+  - line: 49638
+    quote: 'TABLE DES MATIÈRES'

@@ -1,0 +1,101 @@
+file: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
+scheme: 'Maurist chapters as printed in Bruder 1838: De doctrina christiana Books I to IV (each chapter printed as C. and a roman numeral, or Caput in Book I chapter 1) and the Enchiridion chapters I to CXXII; the summaries in the front matter are apparatus'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: doctrina1
+    pattern: '^(?:Caput|[CGO0]\.) ?(?P<c>[IVXLCl1]+)[.,]?\s'
+    lines: [1860, 3008]
+    locus: 'doctrina/book1/ch{c|int}'
+    ocr_map: {'l': 'I', '1': 'I'}
+    number: c
+    fixes:
+      - line: 1860
+        set: {c: 'I'}
+  - id: doctrina2
+    pattern: '^(?:Caput|[CGO0]\.) ?(?P<c>[IVXLCl1]+)[.,]?\s'
+    lines: [3011, 5016]
+    locus: 'doctrina/book2/ch{c|int}'
+    ocr_map: {'l': 'I', '1': 'I'}
+    number: c
+    fixes:
+      - line: 4363
+        set: {c: 'XXVII'}
+      - line: 4372
+        set: {c: 'XXVIII'}
+  - id: doctrina3
+    pattern: '^(?:Caput|[CGO0]\.) ?(?P<c>[IVXLCl1]+)[.,]?\s'
+    lines: [5019, 6662]
+    locus: 'doctrina/book3/ch{c|int}'
+    ocr_map: {'l': 'I', '1': 'I'}
+    number: c
+    fixes:
+      - line: 6255
+        set: {c: 'XXXIV'}
+  - id: doctrina4
+    pattern: '^(?:Caput|[CGO0]\.) ?(?P<c>[IVXLCl1]+)[.,]?\s'
+    lines: [6682, 8977]
+    locus: 'doctrina/book4/ch{c|int}'
+    ocr_map: {'l': 'I', '1': 'I'}
+    number: c
+    fixes:
+      - line: 8541
+        set: {c: 'XXII'}
+  - id: enchiridion
+    pattern: '^(?:Caput|[CGO0]\.) ?(?P<c>[IVXLCl1]+)[.,]?\s'
+    lines: [8987, 12801]
+    locus: 'enchiridion/ch{c|int}'
+    ocr_map: {'l': 'I', '1': 'I'}
+    number: c
+    fixes:
+      - line: 9431
+        set: {c: 'XVI'}
+      - line: 11470
+        set: {c: 'LXXVIII'}
+divisions:
+  - {start_line: 9521, locus: 'enchiridion/ch18'}
+  - {start_line: 1647, locus: 'doctrina/prologus', title: 'PROLOGUS'}
+  - {start_line: 1857, locus: 'doctrina/book1', title: 'LIBER PRIMUS'}
+  - {start_line: 3009, locus: 'doctrina/book2', title: 'LIBER SECUNDUS'}
+  - {start_line: 5017, locus: 'doctrina/book3', title: 'LIBER TERTIUS'}
+  - {start_line: 6663, locus: 'doctrina/book4', title: 'LIBER QUARTUS'}
+  - {start_line: 8978, locus: 'enchiridion', title: 'ENCHIRIDION AD LAURENTIUM'}
+apparatus:
+  - lines: [11, 1646]
+    kind: front
+    locus: front
+evidence:
+  - line: 1647
+    quote: 'P R O L O G U S.'
+  - line: 1857
+    quote: 'L I B E R P R I M U S.'
+  - line: 1860
+    quote: 'Caput L'
+  - line: 1894
+    quote: 'C. II. Omnis doctrina'
+  - line: 3011
+    quote: 'C. I.'
+  - line: 5017
+    quote: 'LIBER TERTIUS.'
+  - line: 6663
+    quote: 'L I B E R Q U A R'
+  - line: 8978
+    quote: 'ENCHIRIDION AD LAURENTIUM'
+  - line: 8987
+    quote: 'C. 1.'
+  - line: 12767
+    quote: 'CXXII'
+  - line: 4363
+    quote: 'C. XXVIL lam vero'
+  - line: 4372
+    quote: 'C. XXVIIL Quidquid'
+  - line: 6255
+    quote: 'C. XXXI V^ Quarta'
+  - line: 8541
+    quote: 'C. XXIL Nec'
+  - line: 9431
+    quote: 'C. XVL Quae quum'
+  - line: 9521
+    quote: "C. XV''!!!. Verum"
+  - line: 11470
+    quote: 'C. LXXV III. (iuae'

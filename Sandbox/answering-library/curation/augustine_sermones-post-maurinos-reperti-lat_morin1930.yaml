@@ -1,0 +1,226 @@
+file: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
+scheme: 'Morin 1930: the sermons of each series as Morin numbers them (the sermon number printed alone above its source line, and again in the source line that opens each sermon, for example Denis, Serm. XI); addressed by series and number: denis, frangip, caillau (I, II), mai, liverani, guelferb, morin, wilmart; where a series number is damaged in the scan the sermon is read from both printed marks (the number alone and the number in the source line); a sermon too long for one division is split at the printed page heads (series name, sermon and page), addressed by head and line; series introductions are addressed by the printed series heading and line'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: denis-serm19-pages
+    pattern: '^.'
+    lines: [[8057, 8057], [8213, 8213], [8386, 8386], [8540, 8540], [8703, 8703], [8865, 8865], [9013, 9013]]
+    locus: 'denis-serm19/pagehead-l{line}'
+  - id: denis-serm20-pages
+    pattern: '^.'
+    lines: [[9190, 9190], [9342, 9342], [9503, 9503], [9652, 9652], [9797, 9797], [9966, 9966]]
+    locus: 'denis-serm20/pagehead-l{line}'
+  - id: denis-serm24-pages
+    pattern: '^.'
+    lines: [[11557, 11557], [11714, 11714], [11881, 11881], [12032, 12032], [12203, 12203], [12391, 12391]]
+    locus: 'denis-serm24/pagehead-l{line}'
+  - id: frangip-serm1-pages
+    pattern: '^.'
+    lines: [[13537, 13537], [13676, 13676], [13837, 13837], [13971, 13971], [14143, 14143], [14283, 14283], [14445, 14445], [14601, 14601], [14798, 14798], [14933, 14933]]
+    locus: 'frangip-serm1/pagehead-l{line}'
+  - id: frangip-serm2-pages
+    pattern: '^.'
+    lines: [[15086, 15086], [15229, 15229], [15399, 15399], [15566, 15566], [15714, 15714], [15848, 15848]]
+    locus: 'frangip-serm2/pagehead-l{line}'
+  - id: mai-serm126-pages
+    pattern: '^.'
+    lines: [[27945, 27945], [28124, 28124], [28280, 28280], [28440, 28440], [28595, 28595], [28749, 28749]]
+    locus: 'mai-serm126/pagehead-l{line}'
+  - id: guelferb-serm32-pages
+    pattern: '^.'
+    lines: [[43723, 43723], [43888, 43888], [44060, 44060], [44221, 44221], [44364, 44364], [44510, 44510]]
+    locus: 'guelferb-serm32/pagehead-l{line}'
+  - id: wilmart-serm11-pages
+    pattern: '^.'
+    lines: [[54073, 54073], [54220, 54220], [54383, 54383], [54556, 54556], [54719, 54719]]
+    locus: 'wilmart-serm11/pagehead-l{line}'
+  - id: casin-pages
+    pattern: '^.'
+    lines: [[30938, 30938], [31023, 31023], [31100, 31100], [31183, 31183], [31254, 31254], [31334, 31334], [31423, 31423], [31500, 31500], [31670, 31670], [31754, 31754], [31825, 31825], [31923, 31923], [32023, 32023], [32118, 32118], [32196, 32196], [32283, 32283], [32372, 32372]]
+    locus: 'casinenses-group/pagehead-l{line}'
+divisions:
+  - {start_line: 1160, locus: 'denis-serm2'}
+  - {start_line: 1669, locus: 'denis-serm3'}
+  - {start_line: 1923, locus: 'denis-serm4'}
+  - {start_line: 2055, locus: 'denis-serm5'}
+  - {start_line: 2555, locus: 'denis-serm6'}
+  - {start_line: 2786, locus: 'denis-serm7'}
+  - {start_line: 2971, locus: 'denis-serm8'}
+  - {start_line: 3311, locus: 'denis-serm9'}
+  - {start_line: 3533, locus: 'denis-serm11'}
+  - {start_line: 4142, locus: 'denis-serm12'}
+  - {start_line: 4554, locus: 'denis-serm13'}
+  - {start_line: 5351, locus: 'denis-serm14'}
+  - {start_line: 5752, locus: 'denis-serm15'}
+  - {start_line: 6086, locus: 'denis-serm16'}
+  - {start_line: 6555, locus: 'denis-serm17'}
+  - {start_line: 7366, locus: 'denis-serm18'}
+  - {start_line: 7979, locus: 'denis-serm19'}
+  - {start_line: 9030, locus: 'denis-serm20'}
+  - {start_line: 10052, locus: 'denis-serm21'}
+  - {start_line: 10813, locus: 'denis-serm22'}
+  - {start_line: 11026, locus: 'denis-serm23'}
+  - {start_line: 11415, locus: 'denis-serm24'}
+  - {start_line: 12552, locus: 'denis-serm25'}
+  - {start_line: 13388, locus: 'frangip-serm1'}
+  - {start_line: 14936, locus: 'frangip-serm2'}
+  - {start_line: 15851, locus: 'frangip-serm3'}
+  - {start_line: 16499, locus: 'frangip-serm4'}
+  - {start_line: 16713, locus: 'frangip-serm5'}
+  - {start_line: 17280, locus: 'frangip-serm6'}
+  - {start_line: 17541, locus: 'frangip-serm7'}
+  - {start_line: 17881, locus: 'frangip-serm8'}
+  - {start_line: 18285, locus: 'frangip-serm9'}
+  - {start_line: 18895, locus: 'caillaui-serm47'}
+  - {start_line: 19549, locus: 'caillauii-serm6'}
+  - {start_line: 19851, locus: 'caillauii-serm11'}
+  - {start_line: 20652, locus: 'caillauii-serm19'}
+  - {start_line: 21287, locus: 'caillauii-serm92'}
+  - {start_line: 21950, locus: 'mai-serm12'}
+  - {start_line: 22195, locus: 'mai-serm13'}
+  - {start_line: 22495, locus: 'mai-serm14'}
+  - {start_line: 22852, locus: 'mai-serm15'}
+  - {start_line: 23210, locus: 'mai-serm16'}
+  - {start_line: 23462, locus: 'mai-serm17'}
+  - {start_line: 23812, locus: 'mai-serm19'}
+  - {start_line: 24075, locus: 'mai-serm20'}
+  - {start_line: 24326, locus: 'mai-serm22'}
+  - {start_line: 24608, locus: 'mai-serm25'}
+  - {start_line: 24877, locus: 'mai-serm26'}
+  - {start_line: 25212, locus: 'mai-serm86'}
+  - {start_line: 25480, locus: 'mai-serm87'}
+  - {start_line: 25746, locus: 'mai-serm89'}
+  - {start_line: 25895, locus: 'mai-serm92'}
+  - {start_line: 25963, locus: 'mai-serm94'}
+  - {start_line: 26541, locus: 'mai-serm95'}
+  - {start_line: 27158, locus: 'mai-serm98'}
+  - {start_line: 27444, locus: 'mai-serm101'}
+  - {start_line: 27617, locus: 'mai-serm125'}
+  - {start_line: 27805, locus: 'mai-serm126'}
+  - {start_line: 28809, locus: 'mai-serm127'}
+  - {start_line: 28963, locus: 'mai-serm128'}
+  - {start_line: 29351, locus: 'mai-serm129'}
+  - {start_line: 29505, locus: 'mai-serm130'}
+  - {start_line: 29724, locus: 'mai-serm158'}
+  - {start_line: 30369, locus: 'liverani-serm8'}
+  - {start_line: 33914, locus: 'guelferb-serm1'}
+  - {start_line: 34638, locus: 'guelferb-serm2'}
+  - {start_line: 34815, locus: 'guelferb-serm3'}
+  - {start_line: 35062, locus: 'guelferb-serm4'}
+  - {start_line: 35159, locus: 'guelferb-serm5'}
+  - {start_line: 35459, locus: 'guelferb-serm6'}
+  - {start_line: 35623, locus: 'guelferb-serm7'}
+  - {start_line: 35827, locus: 'guelferb-serm8'}
+  - {start_line: 35987, locus: 'guelferb-serm9'}
+  - {start_line: 36348, locus: 'guelferb-serm10'}
+  - {start_line: 36570, locus: 'guelferb-serm11'}
+  - {start_line: 37014, locus: 'guelferb-serm12'}
+  - {start_line: 37337, locus: 'guelferb-serm13'}
+  - {start_line: 37497, locus: 'guelferb-serm14'}
+  - {start_line: 37725, locus: 'guelferb-serm15'}
+  - {start_line: 38018, locus: 'guelferb-serm16'}
+  - {start_line: 38206, locus: 'guelferb-serm17'}
+  - {start_line: 38514, locus: 'guelferb-serm18'}
+  - {start_line: 38748, locus: 'guelferb-serm19'}
+  - {start_line: 38886, locus: 'guelferb-serm20'}
+  - {start_line: 39147, locus: 'guelferb-serm21'}
+  - {start_line: 39342, locus: 'guelferb-serm22'}
+  - {start_line: 39864, locus: 'guelferb-serm23'}
+  - {start_line: 40319, locus: 'guelferb-serm24'}
+  - {start_line: 40782, locus: 'guelferb-serm25'}
+  - {start_line: 40878, locus: 'guelferb-serm26'}
+  - {start_line: 41147, locus: 'guelferb-serm27'}
+  - {start_line: 41452, locus: 'guelferb-serm28'}
+  - {start_line: 42095, locus: 'guelferb-serm29'}
+  - {start_line: 42590, locus: 'guelferb-serm30'}
+  - {start_line: 43135, locus: 'guelferb-serm31'}
+  - {start_line: 43580, locus: 'guelferb-serm32'}
+  - {start_line: 44592, locus: 'guelferb-serm33'}
+  - {start_line: 45014, locus: 'guelferb-append7'}
+  - {start_line: 45412, locus: 'morin-serm1'}
+  - {start_line: 45746, locus: 'morin-serm2'}
+  - {start_line: 45951, locus: 'morin-serm3'}
+  - {start_line: 46420, locus: 'morin-serm4'}
+  - {start_line: 46784, locus: 'morin-serm5'}
+  - {start_line: 46949, locus: 'morin-serm6'}
+  - {start_line: 47271, locus: 'morin-serm7'}
+  - {start_line: 47479, locus: 'morin-serm8'}
+  - {start_line: 47972, locus: 'morin-serm9'}
+  - {start_line: 48441, locus: 'morin-serm10'}
+  - {start_line: 48619, locus: 'morin-serm11'}
+  - {start_line: 49322, locus: 'morin-serm12'}
+  - {start_line: 49770, locus: 'morin-serm13'}
+  - {start_line: 50075, locus: 'morin-serm14'}
+  - {start_line: 50252, locus: 'morin-serm15'}
+  - {start_line: 50831, locus: 'morin-serm16'}
+  - {start_line: 51307, locus: 'morin-serm17'}
+  - {start_line: 52178, locus: 'wilmart-serm2'}
+  - {start_line: 52812, locus: 'wilmart-serm3'}
+  - {start_line: 52995, locus: 'wilmart-serm4'}
+  - {start_line: 53170, locus: 'wilmart-serm5'}
+  - {start_line: 53459, locus: 'wilmart-serm6'}
+  - {start_line: 53575, locus: 'wilmart-serm7'}
+  - {start_line: 53768, locus: 'wilmart-serm8'}
+  - {start_line: 53866, locus: 'wilmart-serm9'}
+  - {start_line: 54025, locus: 'wilmart-serm11'}
+  - {start_line: 54891, locus: 'wilmart-serm12'}
+  - {start_line: 55400, locus: 'wilmart-serm13'}
+  - {start_line: 13300, locus: 'frangip-group'}
+  - {start_line: 18753, locus: 'caillau-group'}
+  - {start_line: 21498, locus: 'mai-group'}
+  - {start_line: 30266, locus: 'liverani-group'}
+  - {start_line: 30795, locus: 'casinenses-group'}
+  - {start_line: 33883, locus: 'guelferb-group'}
+  - {start_line: 45366, locus: 'morin-group'}
+  - {start_line: 51895, locus: 'appendix'}
+  - {start_line: 52027, locus: 'wilmart-group'}
+apparatus:
+  - lines: [32472, 33882]
+    kind: front
+    locus: part7-survey
+  - lines: [11, 1159]
+    kind: front
+    locus: front
+  - lines: [55940, 68931]
+    kind: index
+    locus: indices
+evidence:
+  - line: 1163
+    quote: 'Denis, Serm. II, col.'
+  - line: 3536
+    quote: 'Denis, Serm. XI, col.'
+  - line: 12555
+    quote: 'Denis, Serm. XXV, col.'
+  - line: 22855
+    quote: 'Mai, Serm. XV, NPB. I,'
+  - line: 29354
+    quote: 'Mai, Serm. CXXIX, NPB.'
+  - line: 38209
+    quote: 'Guelferb. Serm. XVII,'
+  - line: 45954
+    quote: 'Morin, Serm. 3: in eph'
+  - line: 49773
+    quote: 'Morin, Serm. 13: « Rev'
+  - line: 55403
+    quote: 'Wilmart, Serm. XIII: n'
+  - line: 1669
+    quote: 'HI.'
+  - line: 1672
+    quote: 'Denis, Serm. II, col. 9-11'
+  - line: 6558
+    quote: 'Denis, Serm. XVIIL'
+  - line: 10813
+    quote: 'XXI.'
+  - line: 10816
+    quote: 'Denis, Serm. XXII'
+  - line: 15854
+    quote: 'Frangip., Serm. ITI'
+  - line: 28966
+    quote: 'Mai, Serm. CXXVIII'
+  - line: 8213
+    quote: 'DENIS XIX. IOI'
+  - line: 13300
+    quote: 'EX SERMONIBUS'
+  - line: 32475
+    quote: 'SERMONES QUOS DIVERSIS TEMPORIBUS'

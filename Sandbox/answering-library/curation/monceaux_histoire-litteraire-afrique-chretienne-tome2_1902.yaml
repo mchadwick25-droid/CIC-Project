@@ -1,0 +1,211 @@
+file: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
+scheme: 'Monceaux''s Livre Troisième and Livre Quatrième with their Chapitres numbered in roman numerals (I to VI in each Livre) and, inside each chapter, the sections numbered I, II, III and so on, each opened by its numeral and an italic summary of its contents; addressed l<Livre>/c<Chapitre>/s<section>, Livre numbers 3 and 4 as printed. Where the scan has dropped a section''s numeral the section is read from the same heading in the Table des matières, which prints it; the Appendice, whose opening part is unnumbered and whose later parts are printed II and III, and the Table des matières as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 78
+    locus: l3/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 1039
+    locus: l3/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 1578
+    locus: l3/c1/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 2346
+    locus: l3/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 3020
+    locus: l3/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 3963
+    locus: l3/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 4588
+    locus: l3/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 4913
+    locus: l3/c4/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 5600
+    locus: l3/c4/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 6418
+    locus: l3/c4/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 6829
+    locus: l3/c5/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 7221
+    locus: l3/c5/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 7742
+    locus: l3/c6/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 8531
+    locus: l3/c6/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 8843
+    locus: l3/c6/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 9499
+    locus: l3/c6/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 11324
+    locus: l4/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 11857
+    locus: l4/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 12813
+    locus: l4/c1/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 13188
+    locus: l4/c1/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 13694
+    locus: l4/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 14133
+    locus: l4/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 14708
+    locus: l4/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 15144
+    locus: l4/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 15393
+    locus: l4/c3/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 15726
+    locus: l4/c3/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 16380
+    locus: l4/c4/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 16521
+    locus: l4/c4/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 17128
+    locus: l4/c4/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 17472
+    locus: l4/c4/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 17918
+    locus: l4/c4/s5
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 18098
+    locus: l4/c5/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 18816
+    locus: l4/c5/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 19488
+    locus: l4/c6/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 20055
+    locus: l4/c6/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 20746
+    locus: appendice
+  - start_line: 21044
+    locus: appendice/2
+  - start_line: 21424
+    locus: appendice/3
+ignore:
+  - pattern: '^(?:\d{1,3} )?[A-ZÉÈÀÇÂÎÔÛ«»''’\"\-\.,:\d ]{6,70}? \S*\d\S*$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+apparatus:
+  - lines: [12, 77]
+    kind: front
+    locus: front
+  - lines: [21782, 22069]
+    kind: index
+    locus: table-des-matieres
+evidence:
+  - line: 78
+    quote: 'LIVRE TROISIÈME'
+  - line: 90
+    quote: 'CHAPITRE I'
+  - line: 96
+    quote: '1'
+  - line: 1039
+    quote: 'II'
+  - line: 1578
+    quote: 'III'
+  - line: 2346
+    quote: 'CHAPITRE II'
+  - line: 2353
+    quote: 'I'
+  - line: 3020
+    quote: 'II'
+  - line: 3963
+    quote: 'CHAPITRE III'
+  - line: 3968
+    quote: 'La littérature épistolaire dans l''Afrique chrétienne au temps de'
+  - line: 4588
+    quote: '11'
+  - line: 4913
+    quote: 'CHAPITRE IV'
+  - line: 4918
+    quote: 'I'
+  - line: 5600
+    quote: 'II'
+  - line: 6418
+    quote: '111'
+  - line: 6829
+    quote: 'CHAPITRE V'
+  - line: 7221
+    quote: 'II'
+  - line: 7742
+    quote: 'CHAPITRE VI'
+  - line: 8843
+    quote: 'III'
+  - line: 9499
+    quote: 'IV'
+  - line: 11324
+    quote: 'LIVRE QUATRIÈME'
+  - line: 11341
+    quote: 'Sources de la biographie de Cyprien. — Son éducation.'
+  - line: 11857
+    quote: 'II'
+  - line: 13188
+    quote: 'IV'
+  - line: 13694
+    quote: 'CHAPITRE II'
+  - line: 14133
+    quote: 'II'
+  - line: 14708
+    quote: 'CHAPITRE III'
+  - line: 14713
+    quote: 'Le Ad Donaium. — Sujet de l''opuscule.'
+  - line: 15393
+    quote: 'III'
+  - line: 16380
+    quote: 'CHAPITRE IV'
+  - line: 16386
+    quote: 'Le groupe des traités de discipline.'
+  - line: 17472
+    quote: 'IV'
+  - line: 17918
+    quote: 'Coinuient Cypriea a compris le sermon.'
+  - line: 18098
+    quote: 'CHAPITRE Y'
+  - line: 19488
+    quote: 'CHAPITRE YI'
+  - line: 19495
+    quote: 'L''écrivain. — Caractères communs à toutes ses œuvres.'
+  - line: 20055
+    quote: 'II'
+  - line: 20746
+    quote: 'APPENDICE'
+  - line: 21044
+    quote: 'II'
+  - line: 21424
+    quote: 'III'
+  - line: 21782
+    quote: 'TABLE DES MATIÈRES'

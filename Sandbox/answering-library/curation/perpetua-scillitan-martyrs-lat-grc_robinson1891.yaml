@@ -1,0 +1,65 @@
+file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
+scheme: 'Robinson 1891: the Passion of S. Perpetua in chapters I to XXI, printed in the Latin text and again in the Greek text (addresses lat-ch and grc-ch); the introduction, additional notes, appendix and recensions have no numbered divisions in the edition, except the four additional notes, so they are addressed by the printed heading text plus the line number'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: latin
+    pattern: '^(?:\d+ )?(?P<c>[IVX]+)\. '
+    lines: [[3450, 3450], [3633, 3641], [4016, 4016], [4259, 4259], [4409, 4409], [4616, 4616], [4770, 4840], [5242, 5242], [5397, 5416], [5548, 5554], [5735, 5735], [5886, 5904], [6106, 6106], [6306, 6306], [6438, 6438]]
+    locus: 'lat-ch{c|int}'
+    number: c
+  - id: greek
+    pattern: '^(?:\d+ )?(?P<c>[IVX]+)\. '
+    lines: [[3560, 3560], [3709, 3737], [4159, 4159], [4323, 4323], [4480, 4480], [4671, 4671], [4910, 4987], [5313, 5313], [5450, 5475], [5639, 5648], [5798, 5798], [5986, 6005], [6225, 6225], [6372, 6372], [6492, 6492]]
+    locus: 'grc-ch{c|int}'
+    number: c
+divisions:
+  - {start_line: 182, locus: 'introduction-l182', title: 'INTRODUCTION.'}
+  - {start_line: 249, locus: 'relation-between-the-latin-and-greek-texts-l249', title: 'The Relation between the Latin and Greek Texts.'}
+  - {start_line: 734, locus: 'mss-of-the-passion-l734', title: 'The MSS. of the Passion of S. Perpetua.'}
+  - {start_line: 1002, locus: 'origin-and-use-of-the-short-latin-acts-l1002', title: 'The Origin and Use of the Short Latin Acts.'}
+  - {start_line: 1561, locus: 'were-our-martyrs-thuburbitan-l1561', title: 'Were our Martyrs Thuburbitan ?'}
+  - {start_line: 1763, locus: 'influence-of-the-shepherd-of-hermas-l1763', title: 'The influence of the Shepherd of Hermas upon the Visions'}
+  - {start_line: 2341, locus: 'influence-of-the-apocalypse-of-peter-l2341', title: 'The Influence of the Apocalypse of Peter on the Vision of Saturus.'}
+  - {start_line: 2658, locus: 'authorship-of-the-visions-l2658', title: 'The Authorship of the Visions.'}
+  - {start_line: 2847, locus: 'authorship-of-the-rest-of-the-martyrdom-l2847', title: 'The Authorship of the rest of the Martyrdom.'}
+  - {start_line: 3438, locus: 'passion-texts-title-l3438', title: 'THE LATIN AND GREEK TEXTS OF THE PASSION OF S. PERPETUA.'}
+  - {start_line: 6662, locus: 'additional-notes-l6662', title: 'ADDITIONAL NOTES.'}
+  - {start_line: 6665, locus: 'additional-note-1', title: 'Variants of A and B not included in the apparatus criticus.'}
+  - {start_line: 6731, locus: 'additional-note-2', title: 'Note on Retranslations from a Latin Version of the N. T. in Ep'}
+  - {start_line: 6901, locus: 'additional-note-3', title: 'Note on the reading of the text in c. xvi.'}
+  - {start_line: 6925, locus: 'additional-note-4', title: 'The Shorter Latin Acts of the Passion of S. Perpetua.'}
+  - {start_line: 7094, locus: 'appendix-l7094', title: 'APPENDIX'}
+  - {start_line: 7108, locus: 'acts-of-the-scillitan-martyrs-introduction-l7108', title: 'THE ACTS OF THE SCILLITAN MARTYRS.'}
+  - {start_line: 7372, locus: 'passio-sanctorum-scilitanorum-l7372', title: 'PASSIO SANCTORVM SCILITANORVM.'}
+  - {start_line: 7428, locus: 'greek-version-l7428', title: 'MAPTYPION TOY ATIOY KAI KAAAINIKOY MAPTYPOZ'}
+  - {start_line: 7753, locus: 'acta-proconsvlaria-martyrvm-scillitanorvm-l7753', title: 'ACTA PROCONSVLARIA MARTYRVM SCILLITANORVM.'}
+  - {start_line: 7818, locus: 'passio-sancti-et-beatissimi-sperati-l7818', title: 'PASSIO SANCTI ET BEATISSIMI SPERATI ET COMITVM EIVS QVI PASSI SVNT'}
+apparatus:
+  - lines: [11, 181]
+    kind: front
+    locus: front
+  - lines: [8000, 8808]
+    kind: index
+    locus: indices
+evidence:
+  - line: 182
+    quote: INTRODUCTION.
+  - line: 249
+    quote: The Relation between the Latin and Greek Texts.
+  - line: 3450
+    quote: I. Si uetera fidei exempla
+  - line: 3560
+    quote: I. Ei td radata ths miatews
+  - line: 4616
+    quote: 5 VII. Post dies paucos
+  - line: 4671
+    quote: VII. Kat per
+  - line: 6492
+    quote: XXI. Kat
+  - line: 6731
+    quote: 2. Note on Retranslations
+  - line: 7372
+    quote: PASSIO SANCTORVM SCILITANORVM.
+  - line: 8000
+    quote: INDEX OF LATIN WORDS IN THE PASSION OF

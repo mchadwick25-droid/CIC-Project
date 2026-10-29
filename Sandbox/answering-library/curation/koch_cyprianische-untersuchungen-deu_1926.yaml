@@ -1,0 +1,275 @@
+file: koch_cyprianische-untersuchungen-deu_1926.txt
+scheme: 'Koch''s twelve chapters I to XII, each opened by a numeral and title on their own lines (the numerals are damaged in the scan and are read from the running head printed on every following page); inside a chapter the edition''s own sections: A. and B., Anhang with its numbers, the numbered paragraphs 1., 2. and so on, and the lettered points a), b); Vorwort, Nachträge, Berichtigungen und Ergänzungen as printed. In chapter V section A the paragraphs 1. and 2. carry letters a) to e); chapter VI Anhang item 5 is read from the Inhaltsverzeichnis, which prints its number'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 118
+    locus: vorwort
+  - start_line: 462
+    locus: ch1
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 3435
+    locus: ch1/anhang1/1
+  - start_line: 3618
+    locus: ch1/anhang1/2
+  - start_line: 3904
+    locus: ch1/anhang2
+  - start_line: 3962
+    locus: ch1/anhang2/1
+  - start_line: 4316
+    locus: ch1/anhang2/2
+  - start_line: 4513
+    locus: ch1/anhang2/3
+  - start_line: 4615
+    locus: ch2/A
+  - start_line: 4796
+    locus: ch2/B
+  - start_line: 4856
+    locus: ch2/B/1
+  - start_line: 5612
+    locus: ch2/B/2
+  - start_line: 6168
+    locus: ch2/anhang/1
+  - start_line: 6494
+    locus: ch2/anhang/2
+  - start_line: 7153
+    locus: ch3
+  - start_line: 7470
+    locus: ch4
+  - start_line: 7883
+    locus: ch5/A
+  - start_line: 7928
+    locus: ch5/A/1
+  - start_line: 7934
+    locus: ch5/A/1/a
+  - start_line: 7998
+    locus: ch5/A/1/b
+  - start_line: 8173
+    locus: ch5/A/1/c
+  - start_line: 8298
+    locus: ch5/A/1/d
+  - start_line: 8407
+    locus: ch5/A/1/e
+  - start_line: 8872
+    locus: ch5/A/2
+  - start_line: 8880
+    locus: ch5/A/2/a
+  - start_line: 8936
+    locus: ch5/A/2/b
+  - start_line: 9058
+    locus: ch5/A/2/c
+  - start_line: 9242
+    locus: ch5/A/2/d
+  - start_line: 9333
+    locus: ch5/A/2/e
+  - start_line: 9554
+    locus: ch5/B/1
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 10470
+    locus: ch5/B/2
+  - start_line: 10931
+    locus: ch6
+  - start_line: 11028
+    locus: ch6/1
+  - start_line: 11180
+    locus: ch6/2
+  - start_line: 11233
+    locus: ch6/3
+  - start_line: 11380
+    locus: ch6/4
+  - start_line: 11477
+    locus: ch6/5
+  - start_line: 11546
+    locus: ch6/6
+  - start_line: 11669
+    locus: ch6/7
+  - start_line: 11806
+    locus: ch6/8
+  - start_line: 11947
+    locus: ch6/9
+  - start_line: 12040
+    locus: ch6/10
+  - start_line: 12081
+    locus: ch6/11
+  - start_line: 12167
+    locus: ch6/12
+  - start_line: 12253
+    locus: ch6/13
+  - start_line: 12362
+    locus: ch6/14
+  - start_line: 12421
+    locus: ch6/15
+  - start_line: 12552
+    locus: ch6/16
+  - start_line: 12934
+    locus: ch6/17
+  - start_line: 13105
+    locus: ch6/18
+  - start_line: 13367
+    locus: ch6/anhang/1
+  - start_line: 13447
+    locus: ch6/anhang/2
+  - start_line: 13518
+    locus: ch6/anhang/3
+  - start_line: 13590
+    locus: ch6/anhang/4a
+  - start_line: 13692
+    locus: ch6/anhang/4b
+  - start_line: 13821
+    locus: ch6/anhang/5
+  - start_line: 13967
+    locus: ch6/anhang/6
+  - start_line: 14026
+    locus: ch6/anhang/7
+  - start_line: 14093
+    locus: ch6/anhang/8
+  - start_line: 14237
+    locus: ch7
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 15534
+    locus: ch8
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 16443
+    locus: ch9
+  - start_line: 16506
+    locus: ch9/1
+  - start_line: 16607
+    locus: ch9/2
+  - start_line: 16690
+    locus: ch9/3
+  - start_line: 16745
+    locus: ch9/4
+    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 17646
+    locus: ch10
+  - start_line: 17827
+    locus: ch10/1
+  - start_line: 18182
+    locus: ch10/2
+  - start_line: 18428
+    locus: ch10/3
+  - start_line: 18850
+    locus: ch10/4
+  - start_line: 19471
+    locus: ch10/5
+  - start_line: 19720
+    locus: ch10/6
+  - start_line: 19723
+    locus: ch10/6/a
+  - start_line: 19812
+    locus: ch10/6/b
+  - start_line: 19882
+    locus: ch10/6/c
+  - start_line: 20021
+    locus: ch10/6/d
+  - start_line: 20128
+    locus: ch10/6/e
+  - start_line: 20544
+    locus: ch11
+  - start_line: 20758
+    locus: ch12
+  - start_line: 20882
+    locus: ch12/1
+  - start_line: 21511
+    locus: ch12/2
+  - start_line: 21996
+    locus: ch12/3
+  - start_line: 22575
+    locus: ch12/4
+  - start_line: 22779
+    locus: ch12/5
+  - start_line: 22920
+    locus: nachtraege
+  - start_line: 23656
+    locus: berichtigungen
+ignore:
+  - pattern: '^(?:\d{1,3} )?[IVXlvi]{1,4}\.? (?:Quod idola|De lapsis und|De zelo|De mortal|Ad Fortunatum|Die Bußfrage|Cyprian und (?:Seneca|Apuleius)|Zur ps?\.?-?cypr)[^.]{0,60}?(?: \S{1,5})?$'
+    kind: running-head
+  - pattern: '^Koch, Cyprianische Untersuchungen\.?(?: \S{1,3})?$'
+    kind: running-head
+  - pattern: '^Nachträge \S{1,5}$'
+    kind: running-head
+apparatus:
+  - lines: [12, 117]
+    kind: front
+    locus: front
+  - lines: [323, 461]
+    kind: index
+    locus: inhaltsverzeichnis
+evidence:
+  - line: 118
+    quote: 'Vorwort'
+  - line: 462
+    quote: 'I.'
+  - line: 465
+    quote: 'Quod idola dii non sint: ein Werk'
+  - line: 4615
+    quote: 'I.'
+  - line: 4699
+    quote: 'II. De lapsis und De ecclesiae unitate 81'
+  - line: 7153
+    quote: 'II.'
+  - line: 7189
+    quote: 'III. De zelo et livore und De dominica oratione 133'
+  - line: 7470
+    quote: 'iv:'
+  - line: 7507
+    quote: 'IV. De mortal., Ad Demetr. u. De opere et eleemosynis 141'
+  - line: 7883
+    quote: 'V;'
+  - line: 7975
+    quote: 'V. Ad Fortunatum und ad Quirinum 151'
+  - line: 10931
+    quote: 'vl.'
+  - line: 11016
+    quote: 'VI. Die Bußfrage bei Cyprian 213'
+  - line: 14237
+    quote: 'vl.'
+  - line: 14272
+    quote: 'VII. Cyprian und Seneca 287'
+  - line: 15534
+    quote: 'vi.'
+  - line: 16025
+    quote: 'VIN. Cyprian und Apuleius 325'
+  - line: 16123
+    quote: 'VIH. Cyprian und Apuleius 327'
+  - line: 16443
+    quote: 'IX.'
+  - line: 16478
+    quote: 'IX. Zur pseudo-cyprian. Schrift De laude'
+  - line: 17646
+    quote: 'x'
+  - line: 17684
+    quote: 'X. Zur pseudo-cyprianischen Schrift Ad N'
+  - line: 20544
+    quote: 'XI.'
+  - line: 20625
+    quote: 'XI. Zur pseudo-cypr. Schrift De mont. Si'
+  - line: 20758
+    quote: 'XI.'
+  - line: 21152
+    quote: 'XII. Zur ps.-cypr. Schrift De singularit'
+  - line: 397
+    quote: '5. Über ‚temperare‘ und ‚moderari‘ in ep. 30,'
+  - line: 13821
+    quote: 'Über-temperarenund. moderasiö in. ep. 30,3'
+  - line: 20882
+    quote: 'I. Der Grund, warum der Ursprung unserer Schrift'
+  - line: 21511
+    quote: '2. Was die Zeit der Abfassung von S betrifft, so'
+  - line: 4796
+    quote: 'B. De ecclesiae unitate.'
+  - line: 6168
+    quote: 'Anhang.'
+  - line: 7890
+    quote: 'A. Ad Fortunatum,'
+  - line: 9554
+    quote: 'B. Ad Quirinum (Testimonia).'
+  - line: 11028
+    quote: '1. In ep. 55, 17 gibt Cyprian den Beschluß des Konzils'
+  - line: 13105
+    quote: '18. Es liegt eine reiche äußere und innere Entwicklung'
+  - line: 22920
+    quote: 'Nachträge.'
+  - line: 23656
+    quote: 'Berichtigungen und Ergänzungen.'

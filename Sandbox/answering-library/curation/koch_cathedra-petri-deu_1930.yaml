@@ -1,0 +1,99 @@
+file: koch_cathedra-petri-deu_1930.txt
+scheme: 'Koch''s parts printed as roman numerals I to III with their titles (the Einleitung is unnumbered), part I with sections 1 to 3 and part II with sections 1 to 6, each printed as an arabic numeral at the head of the section; the paragraphs headed Zusatz, the Nachträge and the Namenverzeichnis as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 178
+    locus: vorwort
+  - start_line: 555
+    locus: einleitung
+  - start_line: 747
+    locus: I
+  - start_line: 809
+    locus: I/1
+  - start_line: 1231
+    locus: I/2
+  - start_line: 1705
+    locus: I/2/zusatz
+  - start_line: 1836
+    locus: I/3
+  - start_line: 2186
+    locus: II
+  - start_line: 2226
+    locus: II/1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; its Inhaltsübersicht lists topics by page only, and the body carries only running heads'
+  - start_line: 3571
+    locus: II/1/zusatz
+  - start_line: 3698
+    locus: II/2
+  - start_line: 4231
+    locus: II/3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; its Inhaltsübersicht lists topics by page only, and the body carries only running heads'
+  - start_line: 5322
+    locus: II/4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; its Inhaltsübersicht lists topics by page only, and the body carries only running heads'
+  - start_line: 6502
+    locus: II/4/zusatz
+  - start_line: 6625
+    locus: II/5
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; its Inhaltsübersicht lists topics by page only, and the body carries only running heads'
+  - start_line: 8462
+    locus: II/6
+  - start_line: 8789
+    locus: III
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; its Inhaltsübersicht lists topics by page only, and the body carries only running heads'
+  - start_line: 10131
+    locus: nachtraege
+  - start_line: 10372
+    locus: namenverzeichnis
+ignore:
+  - pattern: '^(?:Koch, Cathedra Petri.*|Einleitung \S{1,4}|Nachträge \S{1,5}|Namenverzeichnis \S{1,5}|Inhaltsübersicht|(?:X|XI|XII) Inhaltsübersicht|Vorwort \S{1,5})$'
+    kind: running-head
+apparatus:
+  - lines: [12, 177]
+    kind: front
+    locus: front
+  - lines: [319, 554]
+    kind: index
+    locus: inhaltsuebersicht
+  - lines: [10372, 10999]
+    kind: index
+    locus: namenverzeichnis
+  - lines: [11000, 11150]
+    kind: notes
+    locus: verlagsanzeigen
+evidence:
+  - line: 178
+    quote: 'Vorwort'
+  - line: 555
+    quote: 'Einleitung'
+  - line: 747
+    quote: 'I. Die Primatsfrage bei Tertullian'
+  - line: 809
+    quote: '1. Die drei Beispiele, die Caspar heranzieht, haben in der Tat'
+  - line: 1231
+    quote: '2. Hinsichtlich der Einzelerklärung des Textes wertet Cas-'
+  - line: 1836
+    quote: '3. Der sachkritische Einwand Caspars (S. ı6ff.) geht dahin,'
+  - line: 2186
+    quote: 'II. Die Primatsfrage bei Cyprian'
+  - line: 2226
+    quote: 'I. De unitate c. 4: Super unum aedificat ecclesiam'
+  - line: 3698
+    quote: '2. De unitatec. 5: Episcodatus unus est cuius a sin-'
+  - line: 4231
+    quote: '3. Ep. 48, 3: Ecclesiae catholiecae matrix et radız 7I'
+  - line: 5322
+    quote: '4. Ep. 59, 14: Ad Petri cathedram atque ad ecclesiam'
+  - line: 6625
+    quote: '5. Die zweite Fassung von de unitate c. 4.'
+  - line: 8462
+    quote: '6. Cyprians Haltung im Streite mit dem römi-'
+  - line: 8789
+    quote: 'III. Das Dogma vom Papsttum.'
+  - line: 10131
+    quote: 'Nachträge'
+  - line: 10372
+    quote: 'Namenverzeichnis'
+  - line: 1705
+    quote: 'Zusatz. Zuvor aber müssen wir noch zu Harnacks Auf-'
