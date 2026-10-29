@@ -37,8 +37,7 @@ retrieval:
   retrieve_when:
   - participant asks whether a named practice of ours -- baptism specifically -- was ever traced to the
     apostles by name, rather than only argued for on other grounds
-  - conversation reaches lpc.limit.apostolic-origin-undefended and needs the one clear exception to that
-    absence
+  - participant asks which of our practices Augustine said came from the apostles though none of them wrote it down
   prefer_instead:
   - participant wants catechesis, the road back, or the teaching before the water traced to apostolic
     origin -- those remain genuine absences; this record is baptism specifically

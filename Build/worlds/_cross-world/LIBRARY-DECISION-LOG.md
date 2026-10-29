@@ -1051,3 +1051,9 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 **Not searched.** Epiphanius on Eustathius, Karlstadt.
 
 **Ruling.** Mark, 2026-10-28: share-alike texts are skipped, as non-commercial ones are. The Deutsches Textarchiv 1522 September Testament (CC BY-SA 3.0) is not vendored.
+
+## 2026-10-27 — Reformed and Wittenberg wants audited; Calvin's 1541 ordinances vendored
+
+**Audit, to the scholarly-rigor bar.** Already held, so only a record fix is needed: the Philadelphia Edition vol. IV (vendored) and the 1562 Marot-Beza Psalter (vendored). Not chased: Zorzin on Karlstadt and the Cambridge History of Christianity (modern, in copyright), Beza's works "generally" (too vague to target), Dentiere's 1539 Epistre (no scan found). Luther's 1522 German New Testament has two archive.org scans, both rejected because the Fraktur OCR is noise. Luther's De votis monasticis and That Jesus Christ Was Born a Jew: no clean scan confirmed (the Weimar volumes found did not show them).
+
+**Vendored.** Calvini Opera vol. X part 1 (Corpus Reformatorum 38, Baum-Cunitz-Reuss, 1871): Calvin's 1541 draft ordinances, the 1561 ordinances, the Leges Academiae and the Consilia. The vendored Ordonnances file carries only the 1576 revision, while the Geneva records cite 1541. Staged as tradition in the Reformed cities entry. The scan opens with a University of Geneva cover sheet with generic copyright boilerplate; Mark, 2026-10-27, chose to vendor on the date rule (1871 imprint) with the sheet kept unchanged and noted in the header and registry entry.

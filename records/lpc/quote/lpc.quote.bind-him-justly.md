@@ -13,6 +13,7 @@ use_note:
     - "a claim that it describes formal public penance, excommunication or a bishop readmitting a penitent"
     - "a claim that the passage stands without the Matthew 18 steps Augustine quotes just before it"
     - "a claim that 'publican' means a keeper of a pub"
+    - "a claim that it records what Cyprian, Lucian or the confessors did about the lapsed"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:

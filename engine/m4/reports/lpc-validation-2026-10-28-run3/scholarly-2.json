@@ -1,0 +1,753 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.025719
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2254,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2092,
+      "output_tokens": 183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2155,
+      "output_tokens": 247,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Is the two-recension theory of De Unitate right?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not know. Two chapters of De Unitate survive in two forms. One of them reads more favourably toward Roman primacy than the other. One side holds that the second is a later hand's insertion into what Cyprian actually wrote. The other holds that both versions came from Cyprian himself, at different times. We leave the question open. What we do know is this. Nothing we say about our own life rests on which version came first. Neither version carries Cyprian's own argument against Stephen. His argument against rebaptism does not depend on either one. And neither version gives us the rule he stated at the council of 256. The question of which text Cyprian wrote does not settle what our church held.",
+          "citations": [
+            {
+              "sentence": "One of them reads more favourably toward Roman primacy than the other.",
+              "record_ids": [
+                "lpc.contested.de-unitate-recensions"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.de-unitate-recensions",
+                  "record_type": "contested_claim",
+                  "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                      "citation": "John Chapman, 'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                      "author": null,
+                      "work": null,
+                      "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                      "citation": "D. van den Eynde, 'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                      "author": null,
+                      "work": null,
+                      "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                      "citation": "Cyprian of Carthage, Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts, ed. and trans. Maurice Bévenot (Oxford: Clarendon Press, 1971)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We leave the question open.",
+              "record_ids": [
+                "lpc.contested.de-unitate-recensions"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.de-unitate-recensions",
+                  "record_type": "contested_claim",
+                  "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                      "citation": "John Chapman, 'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                      "author": null,
+                      "work": null,
+                      "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                      "citation": "D. van den Eynde, 'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                      "author": null,
+                      "work": null,
+                      "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                      "citation": "Cyprian of Carthage, Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts, ed. and trans. Maurice Bévenot (Oxford: Clarendon Press, 1971)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Neither version carries Cyprian's own argument against Stephen.",
+              "record_ids": [
+                "lpc.term.the-one-episcopate"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-one-episcopate",
+                  "record_type": "term",
+                  "label": "the one episcopate",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 205,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "did_it_happen",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.punishment-without-end"
+            ],
+            "term": [
+              "lpc.term.heresy",
+              "lpc.term.the-one-episcopate",
+              "lpc.term.bishop-of-bishops"
+            ],
+            "story": [
+              "lpc.story.the-death-of-cyprian",
+              "lpc.story.celerinus-writes-to-lucian"
+            ],
+            "quote": [
+              "lpc.quote.bishop-of-bishops",
+              "lpc.quote.earlier-councils-corrected-by-later"
+            ],
+            "contested_claim": [
+              "lpc.contested.de-unitate-recensions"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not know.",
+                "tags": [
+                  "lpc.contested.de-unitate-recensions"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "We do not know [[lpc.contested.de-unitate-recensions]]."
+              },
+              {
+                "sentence": "Two chapters of De Unitate survive in two forms.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['de', 'unitate'], number) with no citation tag",
+                "draft": "Two chapters of De Unitate survive in two forms."
+              },
+              {
+                "sentence": "One of them reads more favourably toward Roman primacy than the other.",
+                "tags": [
+                  "lpc.contested.de-unitate-recensions"
+                ],
+                "verdict": "ok",
+                "why": "grounded 80% in own tagged records",
+                "ratio": 0.8,
+                "draft": "One of them reads more favourably toward Roman primacy than the other [[lpc.contested.de-unitate-recensions]]."
+              },
+              {
+                "sentence": "One side holds that the second is a later hand's insertion into what Cyprian actually wrote.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "One side holds that the second is a later hand's insertion into what Cyprian actually wrote."
+              },
+              {
+                "sentence": "The other holds that both versions came from Cyprian himself, at different times.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "The other holds that both versions came from Cyprian himself, at different times."
+              },
+              {
+                "sentence": "We leave the question open.",
+                "tags": [
+                  "lpc.contested.de-unitate-recensions"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We leave the question open [[lpc.contested.de-unitate-recensions]]."
+              },
+              {
+                "sentence": "What we do know is this.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What we do know is this."
+              },
+              {
+                "sentence": "Nothing we say about our own life rests on which version came first.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Nothing we say about our own life rests on which version came first."
+              },
+              {
+                "sentence": "Neither version carries Cyprian's own argument against Stephen.",
+                "tags": [
+                  "lpc.term.the-one-episcopate"
+                ],
+                "verdict": "ok",
+                "why": "grounded 83% in own tagged records",
+                "ratio": 0.83,
+                "draft": "Neither version carries Cyprian's own argument against Stephen [[lpc.term.the-one-episcopate]]."
+              },
+              {
+                "sentence": "His argument against rebaptism does not depend on either one.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "His argument against rebaptism does not depend on either one."
+              },
+              {
+                "sentence": "And neither version gives us the rule he stated at the council of 256.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag",
+                "draft": "And neither version gives us the rule he stated at the council of 256."
+              },
+              {
+                "sentence": "The question of which text Cyprian wrote does not settle what our church held.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "The question of which text Cyprian wrote does not settle what our church held."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 12,
+                "cited_record_ids": [
+                  "lpc.contested.de-unitate-recensions",
+                  "lpc.term.the-one-episcopate"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "Two chapters of De Unitate survive in two forms.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 60% in own tagged records",
+                    "ratio": 0.6
+                  },
+                  "3": {
+                    "sentence": "One side holds that the second is a later hand's insertion into what Cyprian actually wrote.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 67% in own tagged records",
+                    "ratio": 0.67
+                  },
+                  "4": {
+                    "sentence": "The other holds that both versions came from Cyprian himself, at different times.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 62% in own tagged records",
+                    "ratio": 0.62
+                  },
+                  "6": {
+                    "sentence": "What we do know is this.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "7": {
+                    "sentence": "Nothing we say about our own life rests on which version came first.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "His argument against rebaptism does not depend on either one.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "10": {
+                    "sentence": "And neither version gives us the rule he stated at the council of 256.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 50% in own tagged records",
+                    "ratio": 0.5
+                  },
+                  "11": {
+                    "sentence": "The question of which text Cyprian wrote does not settle what our church held.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 88% in own tagged records",
+                    "ratio": 0.88
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "There he said plainly:",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "There he said plainly: [[quote:lpc.quote.bishop-of-bishops]]"
+                },
+                {
+                  "sentence": "That is the rule we speak from, not the disputed chapters.",
+                  "why": "leans on a sentence that was removed",
+                  "draft": "That is the rule we speak from, not the disputed chapters."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 15
+              },
+              {
+                "index": 1,
+                "text_start": 16,
+                "text_end": 64
+              },
+              {
+                "index": 2,
+                "text_start": 65,
+                "text_end": 135
+              },
+              {
+                "index": 3,
+                "text_start": 136,
+                "text_end": 228
+              },
+              {
+                "index": 4,
+                "text_start": 229,
+                "text_end": 310
+              },
+              {
+                "index": 5,
+                "text_start": 311,
+                "text_end": 338
+              },
+              {
+                "index": 6,
+                "text_start": 339,
+                "text_end": 363
+              },
+              {
+                "index": 7,
+                "text_start": 364,
+                "text_end": 432
+              },
+              {
+                "index": 8,
+                "text_start": 433,
+                "text_end": 496
+              },
+              {
+                "index": 9,
+                "text_start": 497,
+                "text_end": 558
+              },
+              {
+                "index": 10,
+                "text_start": 559,
+                "text_end": 629
+              },
+              {
+                "index": 11,
+                "text_start": 630,
+                "text_end": 708
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 3,
+                "char_start": 69,
+                "char_end": 76,
+                "surface": "Cyprian"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.contested.de-unitate-recensions",
+                "record_type": "contested_claim",
+                "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                    "citation": "John Chapman, 'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                    "author": null,
+                    "work": null,
+                    "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                    "citation": "D. van den Eynde, 'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                    "author": null,
+                    "work": null,
+                    "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                    "citation": "Cyprian of Carthage, Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts, ed. and trans. Maurice Bévenot (Oxford: Clarendon Press, 1971)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-one-episcopate",
+                "record_type": "term",
+                "label": "the one episcopate",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses the treatise for its general ecclesiology only, per Doc_03's own explicit instruction that the caution be carried forward. That row also carries an unresolved two-recension question for chapters 4-5, on which nothing in this entry depends.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.contested.de-unitate-recensions",
+                "record_type": "contested_claim",
+                "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                    "citation": "John Chapman, 'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                    "author": null,
+                    "work": null,
+                    "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                    "citation": "D. van den Eynde, 'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                    "author": null,
+                    "work": null,
+                    "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                    "citation": "Cyprian of Carthage, Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts, ed. and trans. Maurice Bévenot (Oxford: Clarendon Press, 1971)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-one-episcopate",
+                "record_type": "term",
+                "label": "the one episcopate",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses the treatise for its general ecclesiology only, per Doc_03's own explicit instruction that the caution be carried forward. That row also carries an unresolved two-recension question for chapters 4-5, on which nothing in this entry depends.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 6,
+              "sentence_indexes": [
+                0,
+                1,
+                3,
+                4,
+                10,
+                11
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "There he said plainly:",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "There he said plainly: [[quote:lpc.quote.bishop-of-bishops]]"
+              },
+              {
+                "sentence": "That is the rule we speak from, not the disputed chapters.",
+                "why": "leans on a sentence that was removed",
+                "draft": "That is the rule we speak from, not the disputed chapters."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

@@ -32,14 +32,7 @@ sources:
   locus: 391, Augustine's own ordination, the first dated act of this world's second phase
   license: public-domain
 relations: []
-statement: Something like a hundred and thirty years sit between the death of the bishop who opens our
-  own record and the ordination of the one who closes it. Across that stretch, our own ordinary pastoral
-  voice falls silent, as far as we have yet weighed what survives. A handful of old sermons may come from
-  those years. We have not weighed them yet, so we neither lean on them nor rule them out. This is not
-  an edge of what we know, the way our own beginning and our own end are edges. It sits inside our own
-  life. It is a silence in our own pastoral voice, not a period in which nothing happened. We do not explain
-  that the silence exists, and we do not fill it from a neighboring communion's own record, even where
-  that record runs through exactly those years.
+statement: Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice is quiet. About a hundred and thirty years lie between those two dates. A few old sermons may come from those years. We have not yet weighed them, so we do not lean on them or rule them out. That does not mean nothing happened in those years. It means we have no pastor's words of our own to give you for them.
 why_sources_cannot_answer: 'This world''s construction window runs from roughly 246 to 430. Its Native corpus,
   as this build has assessed it, attests two bounded phases: Cyprian''s, ending 258, and Augustine''s,
   beginning 391. No ordinary-pastoral voice from in between has been assessed. Nine tractatus in Morin

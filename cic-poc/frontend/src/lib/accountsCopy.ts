@@ -42,7 +42,7 @@ export const accountsCopy = {
   ageYes: 'I am 18 or over',
   ageNo: 'I am under 18',
   ageNote:
-    'Your account holds your conversations, your tokens and your free allowance. It holds no name. If you lose access to this email and to the recovery code offered later, the account cannot be recovered.',
+    'Your account holds your conversations, your tokens and your free allowance. If you lose access to this email and to the recovery code offered later, the account cannot be recovered.',
   recoveryWaiting: (day: string) => `A recovery of this account is waiting until ${day}. If this was not you, sign in with your email and cancel it.`,
 
   // Google and Apple, recovery

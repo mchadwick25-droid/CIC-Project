@@ -170,6 +170,38 @@
       ]
     },
     {
+      "id": "status-ready-draft-ships",
+      "gate": "status-ready",
+      "status": "caught",
+      "findings": [
+        "fix.story.the-long-road: status draft, but it compiles into the package; finish it and mark it ready, or mark it voice: analytic"
+      ]
+    },
+    {
+      "id": "cells-required-term-unroutable",
+      "gate": "cells-required",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-three: no canon_cells; name the canon cells it serves so routing can reach it, or mark it voice: analytic"
+      ]
+    },
+    {
+      "id": "horizon-post-window-event",
+      "gate": "horizon",
+      "status": "caught",
+      "findings": [
+        "fix.witness.who-is-jesus.text: names the Council of Chalcedon (451), after the window closes in 100; rewrite it from inside the window, or mark the record voice: analytic"
+      ]
+    },
+    {
+      "id": "question-ending-bare-why",
+      "gate": "question-ending",
+      "status": "caught",
+      "findings": [
+        "fix.limit.trinity-language.statement: ends on a bare question word; name the question it cannot answer - 'We cannot tell you why.'"
+      ]
+    },
+    {
       "id": "id-convention-cell-code-in-slug",
       "gate": "id-convention",
       "status": "caught",
@@ -226,6 +258,39 @@
       "status": "caught",
       "findings": [
         "fix.quote.witness-saying: does not verify against cic/texts/fixture-synthetic_witness-scroll.txt - failed segment 'I did not see him. I only saw what his enemies could not stop telling.'; nearest source text: '_______________________\\n\\nTHE WITNESS SCROLL\\n(a fixture text -'"
+      ]
+    },
+    {
+      "id": "witness-quotation-not-in-source",
+      "gate": "witness-quotation-verbatim",
+      "status": "caught",
+      "findings": [
+        "fix.witness.who-is-jesus\tI only repeated what the witnesses could not stop telling"
+      ]
+    },
+    {
+      "id": "record-home-search-record-in-old-place",
+      "gate": "record-home",
+      "status": "caught",
+      "findings": [
+        "fix.search.lost-letters-search: a search_record record lives in Build/worlds/<code>/build/records/, not records/fix/search_record/fix.search.lost-letters-search.md"
+      ]
+    },
+    {
+      "id": "use-note-missing",
+      "gate": "use-note-present",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: a voiced term with no use_note (means, not_for, years)"
+      ]
+    },
+    {
+      "id": "use-note-means-as-instruction",
+      "gate": "use-note-shape",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: use_note.means is 2 sentences; it is one",
+        "fix.quote.witness-saying: use_note.means reads as an instruction ('Use'); it describes what the record means"
       ]
     },
     {

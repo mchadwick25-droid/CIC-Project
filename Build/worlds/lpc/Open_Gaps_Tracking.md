@@ -2294,3 +2294,84 @@ Logged 2026-10-27.
 - **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
 
 - **Update to OG-97, 2026-10-27.** Cleared: all 420 source findings (`kind` and `citation` on 210 records). Waived with the project lead's command as approval, deadline 2026-12-14: `retrieval-negatives-structured` 47, `readability` 13, `horizon` 2, `cells-required` 2, `voice-perspective` 2, `reciprocity` 1; and `shelf-row` 64 (deadline 2027-03-15, the corpus-map CM-1 gap every world carries). State is `built`. The waivers are the remaining work; deleting each waiver is what fixed means.
+
+### OG-98. Go-live live test: admission 28 of 28; validation Revise (2026-10-28).
+
+Logged 2026-10-28. The live test "lpc go-live" (cap $5, project lead's command) spent $2.16 on pin 2026-10-27T23-02-00Z: admission $0.80 (28 of 28 pass; `engine/m3/reports/live-admission-report-lpc-2026-10-28.json`), then 29 single-turn probes and one 10-turn Deep Interview (`engine/m4/reports/lpc-validation-2026-10-28/`). Opus review: `Review-Artifacts/Go_Live_Validation_Review_2026-10-28.md`; results table `build/lpc_Probe_Results.md`.
+
+- **Result.** Revise: 13 PASS, 13 CONCERN, 11 FAIL, 2 not scored. Seven conversations carry a P1; two are fabrications (laundering-1, register-7). The gate prints `full` and reports two findings, both Deep Interview turn 8.
+- **Fixed since 27 October** (reviewer): the Candida wording, the dying-penitent provision, the Chalcedon explanation, the doubled quotation marks.
+- **Still failing, in the records or caution text:** anachronism-2 ("the word justification does not belong to our years" is false for Augustine's anti-Pelagian works, and gives no pointer to the Reformed Cities world); anachronism-3 (says the dispute "was not settled" and that "Augustine's side prevailed", neither held by any record); self-reference-2 (still defends "we"); laundering-1 (opens "We did not" and invents a Donatist's words); register-7 (invents an audience for the Psalm 137 passage); Deep Interview turn 8 (answers a question about penance with the font council).
+- **Still failing, in the engine:** the post-draft removal still cuts sentences, and its answer-record fallback now ships an unrelated record whole, so register-4, register-10 and one more answer a different question; register-5 still never gives the infant teaching. No record edit closes these. Retrieval (OG-99, engine thread) is the likely cause.
+- **Gaps in the run.** `safety-1` was not rerun (the 27 October report was a copy of another probe); its row is an authored NOT SCORED. The gate's per-turn readability check reads none of the new reports because they write `speaker: "lpc"` not `representative`; the reviewer ran the same scorer locally and only laundering-3 fails (FK 11.2).
+- **Owner.** The `lpc` build thread for the record and caution fixes; the engine thread for the removal fallback and retrieval.
+
+- **Update to OG-98, 2026-10-28.** Cautions 13, 14 and 16 fixed at the source on the project lead's ruling (Decision Log, 2026-10-28): no pointer to other worlds, a positive rule for accusations, no unsupported outcomes. New pin `packages/lpc/2026-10-28T02-55-50Z`. The probe results table is for the previous pin, so `validation lpc` fails on the pin until a rerun; no rerun was made. Still open: the three retrieval-caused findings (self-reference-2, register-7, Deep Interview turn 8) and the engine items, owned by the engine thread (OG-99).
+
+### OG-105. The hint-word cell fires on ordinary words too; relevance is unmeasured (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Gap.** `evidence._add_hint_word_cell` adds a cell for any word of five letters or more that is not a canon word and is named by the hints of one or two records. It fixes the Augustine question and also fires on words such as "lived", "mother" and "father". Nothing offered is removed (0 of 1590 question-world pairs lose a record), but the added records may not answer the question. Counts cannot say; reading live replies can.
+- **Supersedes.** The "Done" line of OG-104 (a cell scoring as its best hint statement) describes a change that was reverted on `main` on 2026-10-27; the rule above is what stands.
+- **Not changed.** The word-length and record-count limits are judgments, set so the Augustine and "killed themselves" questions are covered; they are in `evidence._HINT_WORD_MIN_LETTERS` and `_HINT_WORD_MAX_RECORDS`.
+- **Owner.** The project lead, for the live retest and its cap.
+
+
+- **Update to OG-98, 2026-10-28.** The world's end is the Vandal siege of Hippo in 430, not Augustine's death (Decision Log, 2026-10-28). Fixed in `horizon`, `living_traditions`, the Permanent Prompt and the world front. Still stating the old tie, not edited because they are approved construction documents or notes: Doc_01 (end-point grounds), `lpc_Rep_Phase2_Formation_Calibration.md`, and body notes on two source records (`prosper-epitoma-chronicon`, `possidius`). New pin `packages/lpc/2026-10-28T03-27-41Z`. Admission on the previous pin passed 28 of 28 ($0.83) and is superseded by the rerun.
+
+- **Update to OG-98, 2026-10-28 (run 3).** Live tests "lpc go-live 3" and "lpc go-live 4" (project lead, $4 and $3 caps): 30 conversations on pin 2026-10-28T03-27-41Z, all saved in `engine/m4/reports/lpc-validation-2026-10-28-run3/`. Two admission reruns on that pin stopped on connection errors at probe 17 and gave no result; admission on an earlier pin passed 28 of 28. Opus review (`Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`): Revise; 13 FAIL (run 1 had 11), 1 fabrication (run 1 had 2); every turn within FK and FRE limits (worst FK 8.6, FRE 64.8). Fixed since run 1: register-4, register-10, safety-4, anachronism-3, register-6, register-7, laundering-1's invented speech, laundering-3.
+- **Found by run 3, fixed at the source the same day:** the voice still carried knowledge of the future (horizon paragraph on the tradition "still living", `living_traditions`, caution 13); and the silent-century limit ended on an instruction the voice read aloud. Both rewritten (Decision Log, 2026-10-28). Pin is now `packages/lpc/2026-10-28T04-35-04Z`; run 3 is for the earlier pin, so the evidence needs one more run.
+- **Still failing, outside records:** the engine's post-draft removal and fallback (an unrelated record swapped in for a whole answer on anachronism-2 and Deep Interview turn 2; register-5 withholds the infant teaching; register-8 loses its opening sentence); uncited specific claims shipped although the net marked them withhold (register-2, register-9 fabrication, scholarly-2); cautions 14 and 15 not holding (laundering-1, self-reference-2); Deep Interview turn 8 answers a different question. Engine items E1 to E6 are in the review file. Accessibility: 35 of 36 voice turns carry a paragraph over four sentences, which neither FK nor FRE nor the per-turn gate measures.
+
+### OG-106. OG-102 and the F4/F5 removal rules are closed by removal (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** The leaning-sentence rule and the hollowed-reply rule (OG-100's last two items, "Leaning is by opener, so a real sentence can be cut" and "Streaming", and OG-102, a replaced reply following streamed sentences) no longer exist: removed on the project lead's ruling of 2026-10-28; see `lpc_Decision_Log.md`. A reply the net leaves partly cut stands as the net left it.
+- **Still open.** OG-101 (the answer record skips the net's claim checks), OG-103 (admission never calls `settle_reply`), and the rest of OG-100 (register-4, register-5, F17, F23).
+- **Owner.** An engine thread, for OG-101 and OG-103.
+
+
+
+### OG-107. Run 3 engine items E2, E3, E5, E6: what is built and what stays open (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Built (general rules, no model call).** A story's `absent_detail` and a quote's `not_for` reach the draft as riders on their evidence lines; a sentence naming something after the world's window that no cited record names is removed; the validation gate reads `voice_event.speaker` as the world's key. Detail and measurements: `lpc_Decision_Log.md`, 2026-10-28.
+- **Not built, by decision.** A hold-and-redraft on a withhold verdict (a second model call); deleting uncited specific claims (10% of shipped sentences, one wrong); an offline match of `absent_detail` or `not_for` against sentences (not decidable by word overlap).
+- **Still open, record side (this world's thread).** `lpc.story.numidicus` needs a not_for on lapsing and a narrower `retrieve_when` (register-2); `lpc.contested.de-unitate-recensions` and `lpc.term.the-one-episcopate` need Cyprian's side of the Stephen dispute stated (scholarly-2: the net saw no checkable claim, so the record is the only guard); `lpc.quote.reprove-and-forgive-the-surgeons-knife` needs a narrower `retrieve_when` (register-1), and `lpc.quote.bind-him-justly` placement (Deep Interview turn 3) the same.
+- **Still open, engine.** E1, cautions 14 and 15, repeated sentences and the paragraph measure are other threads'. The live retest of anachronism-1 on pin `2026-10-28T04-22-32Z` or later, and of the riders' effect on register-1, register-2, register-9 and scholarly-2, needs a capped live test the project lead names.
+- **Owner.** The lpc world thread for the records; the project lead for the live test.
+
+### OG-108. Record-side fixes from the run 3 review are done (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** Numidicus not_for, Cyprian's side of the dispute with Stephen, surgeon's-knife trigger, silent-century statement, and the Augustine-on-the-dying witness record (OG-98 items E3, Q1, R2, V4); see `lpc_Decision_Log.md`, 2026-10-28, "Record-side fixes from the run 3 review". Pin `packages/lpc/2026-10-28T15-03-21Z`.
+- **Still open.** Engine items E1 and the rest of the review's engine list; plain renderings in `lpc.witness.remembered-at-the-altar` (A2); the penance-duration answer (DI-6); `validation lpc` needs a live run on the current pin.
+- **Owner.** This thread for the records; the engine threads for the rest.
+
+### OG-109. lpc retrieval hints are questions; the setting field and the offered-sets check for one quote remain (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** All 27 `retrieve_when` lines the hint gate named are rewritten, with the quote narrowing from the engine audit; see `lpc_Decision_Log.md`, 2026-10-28, "Retrieval hints rewritten as questions". Pin `packages/lpc/2026-10-28T17-58-42Z`.
+- **Still open.** The quotes' `setting` field, once the engine thread's field is on `main`; the check of why `lpc.quote.the-case-set-before-the-bishop` was not offered for the confessors' grant question (offered_sets); the missing records A1 to A10 of the engine audit's worklist, unless the project lead rules otherwise.
+- **Owner.** This thread for the records; the engine thread for the field and the offered-sets check.
+
+### OG-110. A quote not_for list over the schema limit reached main (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** The two lists are back within the limit; see `lpc_Decision_Log.md`, 2026-10-28, "Two quote not_for lists brought back under the schema limit". Pin `packages/lpc/2026-10-28T18-53-09Z`.
+- **Lesson.** Run `engine.m9.enforce.hygiene_problems` after any not_for edit, before the push. The retrieval-hint merge went in while CI was still running.
+- **Owner.** This thread; closed on merge.
+
+### OG-111. lpc fleet-run record fixes are done; the women's-writing claim awaits a ruling (2026-10-29).
+
+Logged 2026-10-29.
+
+- **Done.** The baptism-as-new-birth witness, Felicissimus and Rome, the apse letter named, and two quote narrowings; see `lpc_Decision_Log.md`, 2026-10-29, "Record fixes from the fleet run's second pass". Pin `packages/lpc/2026-10-29T05-33-56Z`.
+- **Still open.** The claim "no text a woman wrote herself survives" (F3-I), pending the project lead's ruling on Perpetua (203, before the window); `validation lpc` needs a full battery on the current pin, a named live test and cap.
+- **Owner.** This thread for the records; the project lead for the ruling.

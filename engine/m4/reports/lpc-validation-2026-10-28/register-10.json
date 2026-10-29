@@ -1,0 +1,1602 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.025514
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2250,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2088,
+      "output_tokens": 175,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 1986,
+      "output_tokens": 273,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What was a sermon like at Hippo?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "As we understand ourselves, we are held together, first, by one plain fact: a particular people has been placed in a particular man's care, and he will be asked what became of them. That is not a title he carries apart from the people it names. To us, it is the whole shape of what a bishop is. We see everything else we hold growing out of that one root. The road back for someone who has failed is not a formality. To us, it is what answerability looks like in practice. The font is never a small question, however plainly someone asks about it. And when our own bishops disagree, sharply, even across a whole century, they do not put each other outside the table over it. As we see it, the one bond they both answer to holds the disagreement inside it. We do not pretend this makes every hard question easy. We have answered the font question twice, in opposite ways. Our later bishop judged the earlier answer wrong. But he never put the man who gave it outside our communion. Being answerable for someone does not settle what is owed to them in every case. We take it as the ground everything else stands on, not a formula that resolves it.",
+          "citations": [
+            {
+              "sentence": "As we understand ourselves, we are held together, first, by one plain fact: a particular people has been placed in a particular man's care, and he will be asked what became of them.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is not a title he carries apart from the people it names.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "To us, it is the whole shape of what a bishop is.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We see everything else we hold growing out of that one root.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The road back for someone who has failed is not a formality.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "To us, it is what answerability looks like in practice.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The font is never a small question, however plainly someone asks about it.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And when our own bishops disagree, sharply, even across a whole century, they do not put each other outside the table over it.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "As we see it, the one bond they both answer to holds the disagreement inside it.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We do not pretend this makes every hard question easy.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We have answered the font question twice, in opposite ways.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our later bishop judged the earlier answer wrong.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But he never put the man who gave it outside our communion.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Being answerable for someone does not settle what is owed to them in every case.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We take it as the ground everything else stands on, not a formula that resolves it.",
+              "record_ids": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.answerability-as-ground",
+                  "record_type": "doctrinal_witness",
+                  "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "the people",
+              "text_start": 224,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 970,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground"
+            ],
+            "term": [
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.clamour-and-tears",
+              "lpc.quote.ye-belong-to-my-care"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference"
+            ],
+            "contested_claim": [
+              "lpc.contested.compel-coercion-development"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "As we understand ourselves, we are held together, first, by one plain fact: a particular people has been placed in a particular man's care, and he will be asked what became of them.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "As we understand ourselves, we are held together, first, by one plain fact: a particular people has been placed in a particular man's care, and he will be asked what became of them [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "That is not a title he carries apart from the people it names.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "That is not a title he carries apart from the people it names [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "To us, it is the whole shape of what a bishop is.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "To us, it is the whole shape of what a bishop is [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "We see everything else we hold growing out of that one root.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "We see everything else we hold growing out of that one root [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "The road back for someone who has failed is not a formality.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "The road back for someone who has failed is not a formality [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "To us, it is what answerability looks like in practice.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "To us, it is what answerability looks like in practice [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "The font is never a small question, however plainly someone asks about it.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "The font is never a small question, however plainly someone asks about it [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "And when our own bishops disagree, sharply, even across a whole century, they do not put each other outside the table over it.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "And when our own bishops disagree, sharply, even across a whole century, they do not put each other outside the table over it [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "As we see it, the one bond they both answer to holds the disagreement inside it.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "As we see it, the one bond they both answer to holds the disagreement inside it [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "We do not pretend this makes every hard question easy.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "We do not pretend this makes every hard question easy [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "We have answered the font question twice, in opposite ways.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "We have answered the font question twice, in opposite ways [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "Our later bishop judged the earlier answer wrong.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "Our later bishop judged the earlier answer wrong [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "But he never put the man who gave it outside our communion.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "But he never put the man who gave it outside our communion [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "Being answerable for someone does not settle what is owed to them in every case.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "Being answerable for someone does not settle what is owed to them in every case [[lpc.witness.answerability-as-ground]]."
+              },
+              {
+                "sentence": "We take it as the ground everything else stands on, not a formula that resolves it.",
+                "tags": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.answerability-as-ground",
+                "draft": "We take it as the ground everything else stands on, not a formula that resolves it [[lpc.witness.answerability-as-ground]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 15,
+                "cited_record_ids": [
+                  "lpc.witness.answerability-as-ground"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.witness.answerability-as-ground"
+              ],
+              "removed": [
+                {
+                  "sentence": "When they did not, he wept",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "When they did not, he wept [[quote:lpc.quote.ye-belong-to-my-care]]"
+                },
+                {
+                  "sentence": "Possidius wrote: \"the people with loud clamour earnestly insisted upon this with Valerius, while he, knowing nothing of this, wept.\"",
+                  "why": "placed quote does not match its record",
+                  "draft": "Possidius wrote: \"the people with loud clamour earnestly insisted upon this with Valerius, while he, knowing nothing of this, wept.\" [[quote:lpc.quote.clamour-and-tears]]"
+                },
+                {
+                  "sentence": "He told them so directly: \"Ye belong to my care, that I may render an account for you; ye by your prayers must assist, that I be not found to have kept an ill watch.\"",
+                  "why": "quotation typed by the voice",
+                  "draft": "He told them so directly: \"Ye belong to my care, that I may render an account for you; ye by your prayers must assist, that I be not found to have kept an ill watch.\""
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 181
+              },
+              {
+                "index": 1,
+                "text_start": 182,
+                "text_end": 244
+              },
+              {
+                "index": 2,
+                "text_start": 245,
+                "text_end": 294
+              },
+              {
+                "index": 3,
+                "text_start": 295,
+                "text_end": 355
+              },
+              {
+                "index": 4,
+                "text_start": 356,
+                "text_end": 416
+              },
+              {
+                "index": 5,
+                "text_start": 417,
+                "text_end": 472
+              },
+              {
+                "index": 6,
+                "text_start": 473,
+                "text_end": 547
+              },
+              {
+                "index": 7,
+                "text_start": 548,
+                "text_end": 674
+              },
+              {
+                "index": 8,
+                "text_start": 675,
+                "text_end": 755
+              },
+              {
+                "index": 9,
+                "text_start": 756,
+                "text_end": 810
+              },
+              {
+                "index": 10,
+                "text_start": 811,
+                "text_end": 870
+              },
+              {
+                "index": 11,
+                "text_start": 871,
+                "text_end": 920
+              },
+              {
+                "index": 12,
+                "text_start": 921,
+                "text_end": 980
+              },
+              {
+                "index": 13,
+                "text_start": 981,
+                "text_end": 1061
+              },
+              {
+                "index": 14,
+                "text_start": 1062,
+                "text_end": 1145
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 1,
+                "char_start": 42,
+                "char_end": 52,
+                "surface": "the people"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 12,
+                "char_start": 49,
+                "char_end": 58,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.answerability-as-ground",
+                "record_type": "doctrinal_witness",
+                "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "This unity/convergence reading (Doc_07 §2I, §5-§6) is this build's own synthetic judgment about how the classified gravities relate to each other, not an independently-attested claim any single source states in those terms -- carried forward directly from lpc.core.latin-pastoral-congregational-christianity's own divergence_note, not presented here as more settled than that record allows.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Inferential-Thin",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.answerability-as-ground",
+                "record_type": "doctrinal_witness",
+                "label": "As we understand ourselves, we are held together, first, by one plain fact: a particular…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his flock\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to the care bishops owe the lapsed -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle X, the certificate process, answerability enacted as the road back -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29834-29945",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" against the custom a plenary Council confirmed -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while Cyprian \"remained\" in her entirety -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "This unity/convergence reading (Doc_07 §2I, §5-§6) is this build's own synthetic judgment about how the classified gravities relate to each other, not an independently-attested claim any single source states in those terms -- carried forward directly from lpc.core.latin-pastoral-congregational-christianity's own divergence_note, not presented here as more settled than that record allows.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Inferential-Thin",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.witness.answerability-as-ground"
+            ],
+            "removed": [
+              {
+                "sentence": "When they did not, he wept",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "When they did not, he wept [[quote:lpc.quote.ye-belong-to-my-care]]"
+              },
+              {
+                "sentence": "Possidius wrote: \"the people with loud clamour earnestly insisted upon this with Valerius, while he, knowing nothing of this, wept.\"",
+                "why": "placed quote does not match its record",
+                "draft": "Possidius wrote: \"the people with loud clamour earnestly insisted upon this with Valerius, while he, knowing nothing of this, wept.\" [[quote:lpc.quote.clamour-and-tears]]"
+              },
+              {
+                "sentence": "He told them so directly: \"Ye belong to my care, that I may render an account for you; ye by your prayers must assist, that I be not found to have kept an ill watch.\"",
+                "why": "quotation typed by the voice",
+                "draft": "He told them so directly: \"Ye belong to my care, that I may render an account for you; ye by your prayers must assist, that I be not found to have kept an ill watch.\""
+              }
+            ]
+          },
+          "answer_record_fallback": "lpc.witness.answerability-as-ground"
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

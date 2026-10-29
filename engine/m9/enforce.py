@@ -133,6 +133,9 @@ def new_world_waiver_problem(waiver: Waiver) -> str | None:
 # being fixed right now gets a dated waiver, not a free pass by omission.
 # Waived here on that basis, each owned by its own world's build thread.
 ACCEPTED_OPEN: dict[str, Waiver] = {
+    "m1:retrieve-when-question/don": Waiver(count=19, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; don's own build thread"),
+    "m1:retrieve-when-question/gallic": Waiver(count=45, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; gallic's own build thread"),
+    "m1:retrieve-when-question/rzg": Waiver(count=3, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; rzg's own build thread"),
     "m1:reciprocity/lpc": Waiver(count=1, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:retrieval-negatives-structured/lpc": Waiver(count=47, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:readability/lpc": Waiver(count=13, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
@@ -181,7 +184,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/pahc": Waiver(count=93, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=82, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
     "m1:readability/syr": Waiver(count=127, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
-    "m1:readability/witt": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
+    "m1:readability/witt": Waiver(count=98, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
@@ -216,7 +219,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:use-note-present/gallic": Waiver(count=7, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; gallic's own build thread"),
     "m1:use-note-present/hal": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; hal's own build thread"),
     "m1:use-note-present/ijc": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; ijc's own build thread"),
-    "m1:use-note-present/witt": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; witt's own build thread"),
     # source-citation: each source record's participant-facing citation line,
     # added world by world with that world's record wording pass.
 }
@@ -248,6 +250,9 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         # permanently excludes from the waiver mechanism: a sub-8 field is
         # reported, never failed, so it needs no waiver to stay green.
         merged["m1:readability-floor"] = gates.gate_readability_floor(records, fleet, registry)
+        # gate_retrieve_when_questions is not in GATES either (its docstring
+        # says why); its findings are waivable like any gate's.
+        merged["m1:retrieve-when-question"] = gates.gate_retrieve_when_questions(records, fleet, registry)
         shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings

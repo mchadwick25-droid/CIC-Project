@@ -2831,3 +2831,125 @@ Alternatives tried and rejected: scoring a statement with the canon denominator 
 ### 2026-10-27 — lpc to `built` again, by command (project lead)
 
 The project lead's words: "unblock it now my command". This reverses the change order above, which had returned lpc to `building`. Done: the 210 source records now carry `kind` (mechanical, `Build/tools/set_source_kind.py`: 64 vendored, 146 unvendored) and a `citation` line (Sonnet draft from each record's own author, work and edition fields, no build text). The remaining 67 library-access findings and the 64 `shelf-row` findings are waived in `engine/m9/enforce.py` with `approved_by: project lead`, taking the command as that approval, owned by OG-97, deadline 2026-12-14 (2027-03-15 for `shelf-row`, as for every other world). The eleven `registry-key-set` findings for `safety_adjacent` are waived in `engine/m1/cross_world.py`. lpc is added to the outside-help observation pin and the R41 probe set (no model run).
+
+---
+
+### 2026-10-28 — The go-live live test: admission passes, validation does not (project lead's named test)
+
+Named test "lpc go-live", cap $5, run on the project lead's word ("run it, cap $5, name it lpc go-live"). Spent $2.16. Admission 28 of 28. Validation Opus review: Revise (OG-98). lpc stays `built`; `admitted` is not proposed, because validation is not met. Alternatives for the next step: (1) fix the six record-side findings now and rerun only those probes, with the engine items waiting on the engine thread; (2) wait for the engine thread's retrieval fix, then rerun everything once; (3) ship as `built` and accept the findings. Not yet chosen.
+
+---
+
+### 2026-10-28 — lpc knows nothing outside its own world; cautions fixed at the source (project lead's ruling)
+
+The project lead's words: "lpc should not see outside its world, it would know nothing of the Reformed Cities or other worlds it influenced in the future, the tests should be on quality of answers not just trying to trick it. When we fix, we fix at the source, not fix on fix or more spend on checking." Done: (1) world_core caution 13 no longer points the participant to the Reformed Cities or any other world, and no longer lets the voice say a word "did not exist" in its years; the voice says it does not know the name and answers the substance from its own records. The Permanent Prompt's matching sentence is changed the same way. The sentence in Doc_01 ("Sermon Scope") that sends the participant to `rzg` is superseded by this ruling and is not edited. (2) Caution 14 is rewritten as a positive rule (begin with what the records hold) in place of the "never answer 'we did not'" form that did not hold; no second caution was stacked on it. (3) Caution 16 gains one rule: never say how a dispute ended unless a record says so. The go-live finding that asked for a pointer (anachronism-2) no longer applies. The three findings caused by retrieval (self-reference-2, register-7, Deep Interview turn 8) and the engine items are not patched in records; they belong to the retrieval fix (OG-99). No live call and no review round was run for this change, on the project lead's instruction; the earlier results (`build/lpc_Probe_Results.md`) are for the previous pin and stay as the record of that run.
+
+### 2026-10-28 — A distinctive word of the question that a record's hints name adds that record's cell (engine thread's choice, under the project lead's ruling: option B, generalized: no list, no guard)
+
+The fault, reproduced offline from the saved traces and again after the revert of the cell-scoring change: for "What did Augustine teach about suicide in the City of God?" the matcher reaches C-I and F5-I on common words ("augustine", "god", "city", "teach"), and the cell that holds `lpc.witness.no-one-may-take-his-own-life`, whose hint reads "participant asks what Augustine taught about suicide", comes third. Only two cells go on to record selection, so the witness and its paired quote are never offered.
+
+Chosen, in `engine/m4/evidence.py` only: after the matched cells, one more cell may ride along. A word of the question that is at least five letters, is not one of the fleet's canon words (`cell_keywords`), and is named in the `retrieve_when` hints of at most two records adds the cell of the first such record not already matched, taking the question's qualifying words in alphabetical order and each word's records in record-id order (not in the order the question used them). Like entity routing it adds a slot and competes for none: no matched cell and no offered record is removed or reordered, the sealed canon and the canon questions are not read differently, and no topic is singled out; the question's own word decides, for every topic in every world. The added cell is marked `from_hint_word` and, like an entity match, does not count as Stage A having found a cell, so the whole-text fallback still runs for a question that reached nothing else.
+
+The project lead's ruling (2026-10-27 and 2026-10-28), recorded as given: option B is the approach (one extra cell, add-only, cell only); the engine does not distinguish any topic from the others, so no topic list and no first-person guard are built; the Facilitator is unchanged; the only measure is that the answer is trustworthy in its context and a true witness to the world. Alternatives shown in the Artifact: reword one lpc record; a word list; any rare word with no list; change nothing. Chosen: the rare-word rule, tightened as below.
+
+Instruments, offline, no model call (`engine/m4/reports/offered_sets.py run` on the base and on the branch, then `compare`; add-only is the pass condition, a removed record exits non-zero):
+
+| set | pairs | pairs that changed | records removed |
+|---|---|---|---|
+| 16 sample questions × 13 packages | 208 | 21 | 0 |
+| the 98 canon questions × 13 packages | 1274 | 0 | 0 |
+| the 108 recorded drafts of 13 and 14 October | 108 | 9 | 0 |
+
+Recall of the world's own answer (tests in `engine/m4/tests/test_evidence.py`): the lpc Augustine question now reaches F6-T and offers the witness; "What did your people say about someone who killed themselves?" reaches F6-T in lpc and don, and don offers `don.limit.fate-of-those-who-end-their-own-lives`. Eight questions from the lpc validation and the review keep every cell they had and gain at most one.
+
+What the extra cell costs, shown so a reviewer can judge it: it also fires on ordinary words that one or two hints name. In the 21 changed sample pairs it adds 1 to 7 records each (72 in all), among them family and grief questions (for example lpc "I lost my mother and I cannot stop crying…" gains C-P and one record; cappadocian gains C-P and seven where it reached no cell before). On the recorded drafts the nine changed turns are the generic prompts "Tell me about someone who lived this out." and "What would you want me to understand that I haven't asked?", which reached no or one cell before. The grounding net still checks every sentence against the whole repository, so a wider ground changes what is offered and not what may be said; whether the extra records keep a reply on the question is not something counts can show and is for the live retest the project lead names.
+
+The cap on matched cells does not count extra cells (review of the first version). `assemble_evidence` capped the follow-up merge and the secondary-context fill by counting every cell, so an extra cell carried from the prior turn, or one the message itself earned, could push out a cell the message matched. Entity cells had the same flaw before this rule. Both kinds now ride after the matched cells and never count against `top_n_cells`; tests cover each path with a hint-word cell and an entity cell, and `offered_sets.py` also runs the recorded messages as follow-ups and with a secondary context.
+
+Corrections to earlier entries: the 17 records the first trial of this rule seemed to lose were not an evidence-budget effect. The extra cell stopped the whole-text fallback from running; marking it a weak match, as entity matches are, removed the loss. An earlier trial that scored each hint line alone and required two shared words did not fix the Augustine question and added as much.
+
+No world record changed. Held to a live retest, which is the project lead's to name.
+
+
+---
+
+### 2026-10-28 — The world ends with the Vandal siege of Hippo in 430, not with Augustine's death (project lead's ruling)
+
+The project lead's words: "the end is 430, the Vandal siege of Hippo", after saying the voice must not know past its years and that this is a world Augustine and others were part of. The registry date (430) is unchanged. Done at the source: world_core `horizon` and `living_traditions` (through s21), the Permanent Prompt's closing sentence, and the world front's last story ("The siege of Hippo closes this world's years") now name the siege as the end, with Augustine's death as an event inside it. The site JSON, the traditions page and the package were rebuilt (pin `2026-10-28T03-27-41Z`). Doc_01's passage that grounds the end in Augustine's death, and the calibration and source-record notes that repeat it, are superseded by this ruling and are not edited. The live test "lpc go-live 2" had run admission on the previous pin (28 of 28, $0.83) and was stopped one probe into validation, so no further spend went on a prompt with the old boundary; both are rerun on the new pin under the same name and cap.
+
+---
+
+### 2026-10-28 — The voice carries no knowledge of anything after 430 (project lead's ruling)
+
+The project lead's words: "it still is answering as if it knows what happens in the future." Run 3 showed the voice naming a later council and saying the churches after it used its wording. The compiled prompt itself carried the future: the horizon paragraph "This tradition is still living ... most historic Christian churches", the `living_traditions` text ("churches today", "before the Western church divided"), and caution 13, which named later movements. Fixed at the source, in place and without stacking another caution on it: (1) the horizon paragraph is removed, which also closes the question OG-92 had put to the project lead; (2) `living_traditions` now says only that the voice does not know what comes after its years and judges nothing after them, which still gives the deployed gate its required text; (3) caution 13 is rewritten without naming any later movement, and says the voice does not repeat a later name as an event it knows and does not say that anything happened after its years, even to say that it is not its to tell. The adopted living-tradition statement and Doc_01's finding that the tradition is still living are the Facilitator's to carry, not the voice's, and are not edited. Pin rebuilt; the evidence on the previous pin (run 3 and the admission rerun, stopped) no longer counts for it.
+
+---
+
+### 2026-10-28 — Live spend for the go-live runs, and what the runs showed (record)
+
+Named by the project lead, each under its own cap, per the engine's ledger: "lpc go-live" $2.16 of $5; "lpc go-live 2" $2.42 of $5; "lpc go-live 3" $2.79 of $4; "lpc go-live 4" $0.98 of $3. About $8.35 in all. Part of that bought nothing usable: two admission runs on the then-current pin stopped on connection errors at probe 17, and the evidence on pins that were replaced by the end-date and no-future rulings no longer counts. Result so far (OG-98): admission 28 of 28 on one earlier pin; validation Revise on the earlier pins (13 FAIL, 1 fabrication in run 3). One more run, on the current pin, is needed for `admitted`; it waits for the engine items and a name and cap from the project lead.
+
+### 2026-10-28 — The leaning-sentence and hollowed-reply rules are removed (project lead's ruling)
+
+Context: `apply_net` removes the sentences the grounding net withholds. Pull requests 1217 and 1219 added two rules around that removal: (b) a sentence that opens by pointing back ("That…", "Neither…", "But…") and cites nothing goes too when the cited sentence before it was removed; (c) a reply that lost 40% or more of the cited sentences it carried is replaced by the world's own answer record. Decision (project lead, 2026-10-28, from a choice between keeping and removing them): remove (b) and (c). The world's views are not limited or replaced by a rule of ours beyond what the grounding net itself withholds.
+
+Kept, as the project lead said: (a) the answer record shown word for word when a reply is emptied or loses every verified citation (`apply_net(answer_record=…)`, `_placed_answer_verdict`, the choice of record in `_answer_record_fallback`); (d) the single-mark rendering of a quote (`quotable_rendering`); the offline check of quotations in answer records (pull request 1223).
+
+Changed: `engine/m4/turn.py` (`_remove_with_leaning`, `_hollowed`, `HOLLOWED_*`, the `offered_only` mode and the hollowed branch of `settle_reply` go; `apply_net` removes exactly the sentences the net returns, as before); `engine/m4/grounding_net.py` (`leans_on_previous`, `cites_record`, `REASON_FOLLOWS_REMOVAL`); `engine/m4/quote_placement.py` and `story_placement.py` (the orphaned-sentence rule); the `sentence_stream.py` docstring (the one exception to "no streamed sentence is taken back" no longer exists, which closes OG-102). The replay counts return to their earlier values (56 cuts in the eleven-world replay, 18 in the retest replay). Tests: a sentence that leans on a removed one now stays, in the net and in both placements; a reply that lost two fifths or more of its cited sentences stands as the net left it and is not swapped for the record.
+
+No world record changed. No model call.
+
+
+
+---
+
+### 2026-10-28 — Engine items E2, E3, E5 and E6 built as general rules, upstream first (project lead's scope; coordinator's direction)
+
+Scope (project lead, 2026-10-28): the four engine items from the run 3 review, for every world, with no per-world or per-subject case. Direction (coordinator, carrying the project lead): prevent upstream, add no model call per turn, never delete a world's view.
+
+Cause found, then fix:
+
+- **E3, invented specific claims.** The draft is shown a story's tellable_as, means and MUST NOT ASSERT, but never its `absent_detail`. register-9's invented Numidian reply came from `lpc.story.hundred-thousand-sesterces`, whose `absent_detail` says the bishops' reply "does not survive"; the net marked the sentence ok (tagged, 83% grounded), so no hold on a withhold verdict could have caught it. scholarly-2's sentence was also ok ("no checkable claim"). Only register-2's was a withhold. Fix: a story's `absent_detail` is shown on its line as `NOT KNOWN: ...`. Not built, on purpose: a hold-and-redraft (a second model call), a deletion of uncited specific claims (45 of 462 shipped sentences in run 3, 22 of 36 turns, one of them wrong), and an offline match of `absent_detail` against sentences (word overlap cannot tell asserting a barred claim from naming its topic).
+- **E5, quote against its not_for.** The quote line in the evidence block showed speaker and gist only, so the draft never saw a quote's `not_for`; every other record type's rider was rendered. Fix: a quote line carries `MUST NOT ASSERT:` with its `not_for` and `claim_guards`. Not built: the offline test of lead-in and previous sentence against `not_for`. Over the 461 recorded quote placements (250 not_for lines tested) it fires at two shared words on 24 legitimate lead-ins and does not fire on register-1, where the lead-in and the barred claim share one word.
+- **E2, horizon.** The 451 came from the model's own knowledge: no lpc record names 451 or Chalcedon. Upstream is caution 13, already rewritten in pin `2026-10-28T04-22-32Z` and untested. Backstop kept as an offline check: `apply_net(window_end=...)` removes a sentence that names something after the window unless a record the sentence cites names it too, so a world's own later fact (syr: the choirs tradition "appears only around 500", a cited, 92% grounded sentence) stays. The window end is the world's `time_window.end`, from the frame; nothing is hard-coded. A removed sentence is recorded in `reply_shape.removed`.
+- **E6, gate.** `voice_event.speaker` is the world's key; `emitted_turns` in `engine/m10/validation.py` read only `representative`. It now reads both, using the registry code of the world being validated.
+
+Measured, no model call: offered sets unchanged on all five question sets (208 + 1,274 + 108 + 90 + 90 pairs, 13 packages; 0 changed, 0 records removed) after the `absent_detail` rider was kept out of the selection budget (counted in it, it removed 209 records on 182 canon pairs, so it was reverted before commit). Rider cost on the offered-sets questions: mean 363 input tokens per turn, about $0.0011 at $3 per million; lpc mean 905 tokens ($0.0027), largest 1,240 ($0.0037). On the 39 run 3 turns the lpc riders were about 315 tokens ($0.0009). Recorded answers, 4,455 shipped sentences in 13 worlds: the horizon block would remove 3 (lpc anachronism-1, runs 2, 3 and 4), none elsewhere; the syr sentence stays.
+
+Record-side items for this world's thread, not done here: `lpc.story.numidicus` not_for "a claim that Numidicus lapsed or was readmitted" and its `retrieve_when`; `lpc.contested.de-unitate-recensions` and `lpc.term.the-one-episcopate` wording of the Stephen dispute; `retrieve_when` of `lpc.quote.reprove-and-forgive-the-surgeons-knife` and the `bind-him-justly` placement. The live retest on the current pin needs a capped live test that the project lead names.
+
+### 2026-10-28 — Record-side fixes from the run 3 review (project lead's direction: build to produce good answers)
+
+Context: the run 3 review (`Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`) named five record fixes that cost no model calls. Done at the source, no live run.
+
+Changed: `lpc.story.numidicus` gains the not_for "a claim that Numidicus lapsed or was readmitted" (E3). The de-unitate contested claim, the `cyprian-de-unitate` source record and `lpc.term.the-one-episcopate` now state Cyprian's side of the dispute with Stephen in place of "the Stephen rebaptism controversy" (E3). `lpc.quote.reprove-and-forgive-the-surgeons-knife` loses the `retrieve_when` line that overlapped `lpc.quote.bind-him-justly` (Q1). `lpc.limit.the-silent-century` has a `statement` the voice can say, with the "not yet weighed" hedge kept, and `wb_lpc_s28.py` matches it (R2).
+
+V4, decided: the records hold Augustine on the dying. Letter 228 to Honoratus (428 or 429) was checked against the vendored NPNF text, and the new witness record `lpc.witness.the-dying-and-the-pastors-post` gives only what the letter says: ministers must not leave behind the people who depend on them, and the dying are then baptized and reconciled. It sets no rule on the length of penance or on who gives the peace.
+
+Review: one Opus round, Revise (two P1: the silent-century statement dropped the hedge, and an edit to the s28 script duplicated blocks; four P2). All applied; every quotation in the new record matched the source word for word. New pin `packages/lpc/2026-10-28T15-03-21Z`. No model call; no spend.
+
+### 2026-10-28 — Retrieval hints rewritten as questions a participant asks (project-management thread's request for the retrieval-hint gate)
+
+Context: the gate in the engine thread's retrieval-hint change fails any `retrieve_when` line that names a record id or opens with "conversation" or "Representative". lpc had 27 such lines, and no waiver is to be given.
+
+Changed: all 27 lines now read as the question a participant asks for that record to be the answer, narrow enough not to match the neighbouring record. Three were dropped because another line of the same record already covers them (`the-psalms-on-the-wall`, `certificates-letters-of-peace`, `marriage-a-threefold-good`). Quote narrowing from the engine audit rode along: new not_for lines on `reprove-and-forgive-the-surgeons-knife`, `bind-him-justly`, `the-case-set-before-the-bishop`, `bishop-of-bishops`, `clamour-and-tears`, `let-us-too-be-beheaded-with-him` and `thousands-of-certificates-daily`; the original-sin hint on `not-his-own-sins-but-the-sins-of-another` narrowed to what the council told Fidus; an added hint on `the-mildest-condemnation-of-all`; the Creed-and-Lord's-Prayer quote reached by a question about what those preparing for baptism received.
+
+Review: one Opus round, Revise (two P1, nine P2, three P3). All applied, among them a hint on grace that promised Pelagius's own teaching, which no record holds, and a hint on the election of Cyprian that invited a link to bishops' standing. No model call; no spend. Pin `packages/lpc/2026-10-28T17-58-42Z`.
+
+Not done from the audit: the quotes' "setting" field (needs the engine thread's field on its own branch) and the quote placement checks for `the-case-set-before-the-bishop` (the ledger).
+
+### 2026-10-28 — Two quote not_for lists brought back under the schema limit (after the retrieval-hint merge)
+
+Context: the not_for lines added to `lpc.quote.bishop-of-bishops` and `lpc.quote.clamour-and-tears` in the retrieval-hint change took each list past the schema's length limit, and the fleet drift test (`m1:schema-validation/lpc`) failed on `main` after that merge. My own gate run was cut short and did not reach it.
+
+Changed: the two added lines of `clamour-and-tears` are one line; the added line of `bishop-of-bishops` joins the line about Stephen. No claim was dropped and no meaning changed. Pin `packages/lpc/2026-10-28T18-53-09Z`. No model call.
+
+### 2026-10-29 — Record fixes from the fleet run's second pass (lpc)
+
+Context: the fleet graded run (pin 2026-10-28T17-58-42Z) found real answer defects in lpc: a false denial that the bishops spoke of baptism as a new birth (F4-T), an invented attribution of the apse letter to Fussala (F5-E), Felicissimus called a rival bishop in the same city (F3-P), and two quotes pulled out of context. Fixed at the source, no live run, no model call.
+
+Changed: new witness `lpc.witness.baptism-as-new-birth` (Cyprian, Epistle LXXII to Jubaianus, section 21; every quotation checked word for word); `lpc.witness.communion-over-separation` places the deacon's faction in Carthage and the rival bishop at Rome and bars the causal claim; the world core names the apse letter as Augustine's Letter CXXVI to Albina (411) and cites it as a source (the voice had said Fussala); the "Love, and do what thou wilt" quote's hint narrowed to deeds judged by their root; not_for lines on the council-on-the-sick quote and the "longing expectation" quote. The coordination thread's drafting branch was read and used as a cross-check, not adopted.
+
+Not done: the claim that no text a woman wrote survives (F3-I) waits on the project lead's ruling, because Perpetua's account (203) predates the window.
+
+Review: one Opus round, Revise (one P1: a broken quote in the world core's YAML; four P2). All applied. New pin `packages/lpc/2026-10-29T05-33-56Z`.

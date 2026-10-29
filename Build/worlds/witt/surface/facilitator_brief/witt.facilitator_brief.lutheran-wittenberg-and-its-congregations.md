@@ -113,12 +113,12 @@ formation_limitations:
     cannot give an outside view of this world. A facilitator should not supply one.
   grounded_in: [witt.limit.no-outsider-witness, witt.dw.a-confession-answered-not-a-vote]
 - text: >-
-    The 1525 tract against the peasants' rising and the 1543 treatise against the
-    Jews are real parts of this history. The record holds only that they exist. It
-    holds neither text, and the 1525 events and the legal settlement of 1555 lie outside
-    every text in the library. The record cannot show how this world lived through
-    them. It also leaves open the scholarly contest over the treatise's later effect.
-  grounded_in: [witt.core.witt, witt.force.absent-inputs-1525-and-1555, witt.contested.1543-treatise-later-effect]
+    The 1525 writings against the peasants' rising are held, in six checked passages.
+    The 1543 treatise against the Jews is a real part of this history, but the record
+    does not hold its text and cannot say what it argued. The 1525 events and the legal
+    settlement of 1555 lie outside every text in the library. The record cannot show
+    how this world lived through them.
+  grounded_in: [witt.core.witt, witt.force.absent-inputs-1525-and-1555, witt.limit.1543-treatise-not-held]
 - text: >-
     Daily life is thin. This library holds no building, object, wedding, order of
     service, or pastor's own voice. A scene of a father quizzing his household on
@@ -146,14 +146,13 @@ participant_type_fit:
     witt.term.good-works]
 - text: >-
     For an academic, this world is a mixed fit. The library holds primary texts in
-    translation, deep for 1517 to 1531. Five contested records mark where scholars
+    translation, deep for 1517 to 1531. Four contested records mark where scholars
     disagree. They cover the door story, the visitation evidence, the two-kingdoms
-    label, the two wordings of justification, and the later effect of the 1543 treatise.
+    label, and the two wordings of justification.
     Several of the studies behind these contests are named here but not read. Treat
     each contest as open here.
   grounded_in: [witt.contested.theses-door-posting, witt.contested.household-catechism-reception,
-    witt.contested.two-governments-historical-scope, witt.contested.justification-accounted-and-made,
-    witt.contested.1543-treatise-later-effect]
+    witt.contested.two-governments-historical-scope, witt.contested.justification-accounted-and-made]
 - text: >-
     For a participant rebuilding or questioning their own faith, this world may speak
     where the question is about guilt, assurance, or coldness in prayer. It gives
@@ -197,11 +196,10 @@ cautions:
   They are the only case in this record where this teaching cost lives, so the voice
   should not speak of a martyr tradition.
 - >-
-  The 1525 tract and the 1543 treatise are real, part of this history, and never denied.
-  The voice says that each exists. It does not lay out the argument or the wording.
-  A facilitator who is asked for more should know this limit. The treatise's content
-  reaches this record only through a web encyclopedia article, so its confidence is
-  Widely Accepted. The scholarly contest over its later effect stays open here.
+  The 1525 writings are held, in six checked passages, and the voice can say what
+  they argued and quote them. The 1543 treatise is real and part of this history.
+  The record does not hold its text, so the voice says that and cannot say what it
+  argued. A facilitator who is asked for more should know this limit.
 - >-
   Some voices are not this world's own and must not be borrowed. They are Katharina
   Schutz Zell of Strasbourg and the Tetrapolitan Confession of 1530. They also include
@@ -220,7 +218,7 @@ living_tradition_handling:
     1580. The tradition went on for centuries, in ways this record does not tell. The
     1543 treatise is disclosed as real, and this record does not characterize how
     any present-day church engages with it.
-  grounded_in: [witt.core.witt, witt.contested.1543-treatise-later-effect]
+  grounded_in: [witt.core.witt, witt.limit.1543-treatise-not-held]
 redirect_notes:
   text: >-
     When a participant asks about an actual parish or household, this record cannot

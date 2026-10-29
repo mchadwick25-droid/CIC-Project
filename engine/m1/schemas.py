@@ -589,6 +589,20 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # solely this field, confirmed before this fix). Not yet in
         # COMPLETION_REQUIRED - existing quote records validate unchanged.
         "modern_rendering": {"type": "string"},
+        # Where the words were said: who said them, to whom, on what
+        # occasion, and what they answered. Optional; shown to the voice
+        # beside the quote's gist when present.
+        "setting": {
+            "type": "object",
+            "properties": {
+                "said_by": {"type": "string", "maxLength": 160},
+                "to_whom": {"type": "string", "maxLength": 160},
+                "occasion": {"type": "string", "maxLength": 160},
+                "answers": {"type": "string", "maxLength": 160},
+            },
+            "minProperties": 1,
+            "additionalProperties": False,
+        },
     },
     "figure": {
         "names": {

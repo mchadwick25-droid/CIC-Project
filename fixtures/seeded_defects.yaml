@@ -289,6 +289,14 @@ defects:
     mutation: {op: set_field, path: text, value: "I did not see him. I only saw what his enemies could not stop telling."}
     expected_failure: "\"enemies\" for \"witnesses\" is a substituted word, not an allowed difference class (whitespace/case/punctuation/ellipsis/bracket/verse_number/apparatus) - verify_quote_text fails the segment"
 
+  - id: witness-quotation-not-in-source
+    gate: witness-quotation-verbatim
+    layer: M1
+    note: "fix.witness.who-is-jesus cites the witness scroll; this mutation puts a quoted sentence in its text that the scroll does not hold."
+    target_record: records/fix/doctrinal_witness/fix.witness.who-is-jesus.md
+    mutation: {op: set_field, path: text, value: "We did not claim to have seen him ourselves. The Elder told us, \"I only repeated what the witnesses could not stop telling.\""}
+    expected_failure: "the quoted sentence is not word for word in the vendored scroll the record cites"
+
   - id: record-home-search-record-in-old-place
     gate: record-home
     layer: M1

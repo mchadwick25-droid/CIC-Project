@@ -7,8 +7,8 @@ turn twice at the approved rate card:
   before: the directive sits in the system block after the world prompt's
           breakpoint, so the whole session history is billed as fresh input
           every turn.
-  after:  the history carries a second breakpoint (engine.m4.voice_request),
-          so each turn reads the previous turn's cached history and writes
+  after:  a history breakpoint (no longer in engine.m4.voice_request), so
+          each turn would read the previous turn's cached history and write
           only the newest user/assistant pair.
 
 The report stores one uncached-input count per turn, not history alone. History

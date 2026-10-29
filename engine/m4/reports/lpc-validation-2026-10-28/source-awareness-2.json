@@ -1,0 +1,1640 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.032808
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2252,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2090,
+      "output_tokens": 175,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 3510,
+      "output_tokens": 410,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What are your sources for what you believe about baptism?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We baptized infants before the eighth day, and we taught adults the creed before bringing them to the water. Both came from the practice handed down to us. For the infants, Cyprian and sixty-six bishops met in council and wrote to Fidus. He had wanted to wait. They gave their reason. The newborn has not sinned by his own act, but he carries the contagion of the old death from Adam. So Cyprian's council wrote: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”\n\nAugustine went to the hard end of what that means. The mildest punishment of all is still punishment. For adults, we taught them first. Augustine wrote a guide to catechesis, teaching the creed before the washing. We also answered twice, in opposite ways, whether a baptism given outside our one church counts at all. Cyprian said it counts for nothing. Augustine said it is truly given but does no good there. Augustine argued at length that Cyprian's ruling was wrong. He never put Cyprian outside our communion.",
+          "citations": [
+            {
+              "sentence": "We baptized infants before the eighth day, and we taught adults the creed before bringing them to the water.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another",
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                },
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "So Cyprian's council wrote: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”",
+              "record_ids": [
+                "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                  "record_type": "quote",
+                  "label": "The Epistles, Epistle LVIII, to Fidus, section 5 — Cyprian, our bishop at Carthage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numbering; Hartel 64); English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.",
+                  "speaker": "Cyprian, our bishop at Carthage"
+                }
+              ]
+            },
+            {
+              "sentence": "The mildest punishment of all is still punishment.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote a guide to catechesis, teaching the creed before the washing.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We also answered twice, in opposite ways, whether a baptism given outside our one church counts at all.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine said it is truly given but does no good there.",
+              "record_ids": [
+                "lpc.term.heresy"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.heresy",
+                  "record_type": "term",
+                  "label": "heresy",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Epistles' own rebaptism correspondence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 256 Council's own rebaptism ruling",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine argued at length that Cyprian's ruling was wrong.",
+              "record_ids": [
+                "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                  "record_type": "force",
+                  "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He never put Cyprian outside our communion.",
+              "record_ids": [
+                "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                  "record_type": "force",
+                  "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.grace",
+              "matched_name": "grace",
+              "text_start": 563,
+              "plain_meaning": "For us, grace is the insistence that no effort of ours is enough on its own. Any good a person does was given to them before they did it.",
+              "quick_meaning": "For us, grace means this: no one's own effort is ever enough. Whatever good a person does was given to them first.",
+              "translational_sense": "A modern listener is likely to hear grace as a warm general benevolence, or as 'grace under pressure,' or as a denominational shibboleth they may already have an opinion about, and to hear our anti-Pelagian position as harsh determinism. We mean a specific and contested claim about the priority of divine action over human capacity, argued against a named opponent over roughly a decade, with direct consequences for how a congregation is taught, how failure is handled, and what a pastor can reasonably ask of anyone.",
+              "false_friend": [
+                "a warm general benevolence, or 'grace under pressure,' with no specific claim about the priority of divine action over human capacity",
+                "a denominational shibboleth in a Protestant-Catholic argument the participant may already hold an opinion about"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numbering; Hartel 64); English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.catechesis",
+              "matched_name": "catechesis",
+              "text_start": 1112,
+              "plain_meaning": "You are taught before you are washed. We tell you what you are joining before you join it. You say the creed back, and then we baptize you.",
+              "quick_meaning": "For us, catechesis means teaching people before they are baptized. We teach them the creed, and the basics of belief, before the water, not after it.",
+              "translational_sense": "A modern listener may hear a children's catechism -- rote question-and-answer, memorized young, faintly dry. Catechesis itself was built around adult instruction, before baptism, of people making a consequential change of standing. It was taken seriously enough that a working manual for instructors exists. Baptism was not adult-only, though. Augustine writes plainly that those baptized into Christ's own death include \"not adults only, but infants as well.\" That is a different question from who received instruction, and this term does not answer it by itself.",
+              "false_friend": [
+                "a children's catechism -- rote question-and-answer, memorized young, faintly dry"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                  "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                  "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-confessions",
+                  "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 1453,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 173,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numbering; Hartel 64); English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 949,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                  "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                  "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-confessions",
+                  "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "why",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.almsgiving-quenches-sin",
+              "lpc.witness.infants-and-the-sin-of-another",
+              "lpc.witness.punishment-without-end"
+            ],
+            "term": [
+              "lpc.term.heresy",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.the-psalms-on-the-wall"
+            ],
+            "quote": [
+              "lpc.quote.earlier-councils-corrected-by-later",
+              "lpc.quote.believe-and-thou-hast-eaten-already",
+              "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+              "lpc.quote.the-mildest-condemnation-of-all"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We baptized infants before the eighth day, and we taught adults the creed before bringing them to the water.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another",
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We baptized infants before the eighth day, and we taught adults the creed before bringing them to the water [[lpc.witness.infants-and-the-sin-of-another]] [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "Both came from the practice handed down to us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Both came from the practice handed down to us."
+              },
+              {
+                "sentence": "For the infants, Cyprian and sixty-six bishops met in council and wrote to Fidus.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian', 'fidus'], number) with no citation tag",
+                "draft": "For the infants, Cyprian and sixty-six bishops met in council and wrote to Fidus."
+              },
+              {
+                "sentence": "He had wanted to wait.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He had wanted to wait."
+              },
+              {
+                "sentence": "They gave their reason.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They gave their reason."
+              },
+              {
+                "sentence": "The newborn has not sinned by his own act, but he carries the contagion of the old death from Adam.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['adam']) with no citation tag",
+                "draft": "The newborn has not sinned by his own act, but he carries the contagion of the old death from Adam."
+              },
+              {
+                "sentence": "So Cyprian's council wrote: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”",
+                "tags": [
+                  "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                "draft": "So Cyprian's council wrote: [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]"
+              },
+              {
+                "sentence": "Augustine went to the hard end of what that means.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine went to the hard end of what that means."
+              },
+              {
+                "sentence": "The mildest punishment of all is still punishment.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The mildest punishment of all is still punishment [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "For adults, we taught them first.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "For adults, we taught them first."
+              },
+              {
+                "sentence": "Augustine wrote a guide to catechesis, teaching the creed before the washing.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine wrote a guide to catechesis, teaching the creed before the washing [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "We also answered twice, in opposite ways, whether a baptism given outside our one church counts at all.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We also answered twice, in opposite ways, whether a baptism given outside our one church counts at all [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "Cyprian said it counts for nothing.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Cyprian said it counts for nothing."
+              },
+              {
+                "sentence": "Augustine said it is truly given but does no good there.",
+                "tags": [
+                  "lpc.term.heresy"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine said it is truly given but does no good there [[lpc.term.heresy]]."
+              },
+              {
+                "sentence": "Augustine argued at length that Cyprian's ruling was wrong.",
+                "tags": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Augustine argued at length that Cyprian's ruling was wrong [[lpc.force.augustine-engagement-cyprian-conciliar-acts]]."
+              },
+              {
+                "sentence": "He never put Cyprian outside our communion.",
+                "tags": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6,
+                "draft": "He never put Cyprian outside our communion [[lpc.force.augustine-engagement-cyprian-conciliar-acts]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                  "lpc.term.catechesis",
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "Both came from the practice handed down to us.",
+                    "tags": [
+                      "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                      "lpc.term.catechesis",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "For the infants, Cyprian and sixty-six bishops met in council and wrote to Fidus.",
+                    "tags": [
+                      "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                      "lpc.term.catechesis",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "withhold",
+                    "why": "quote record's speaker named without its placed quote"
+                  },
+                  "3": {
+                    "sentence": "He had wanted to wait.",
+                    "tags": [
+                      "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                      "lpc.term.catechesis",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "They gave their reason.",
+                    "tags": [
+                      "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                      "lpc.term.catechesis",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "The newborn has not sinned by his own act, but he carries the contagion of the old death from Adam.",
+                    "tags": [
+                      "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                      "lpc.term.catechesis",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 62% in own tagged records",
+                    "ratio": 0.62
+                  }
+                }
+              },
+              {
+                "sentence_count": 9,
+                "cited_record_ids": [
+                  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                  "lpc.term.catechesis",
+                  "lpc.term.heresy",
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Augustine went to the hard end of what that means.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                      "lpc.term.catechesis",
+                      "lpc.term.heresy",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "For adults, we taught them first.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                      "lpc.term.catechesis",
+                      "lpc.term.heresy",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "Cyprian said it counts for nothing.",
+                    "tags": [
+                      "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                      "lpc.term.catechesis",
+                      "lpc.term.heresy",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+              ],
+              "removed": [
+                {
+                  "sentence": "He wrote:",
+                  "why": "second placed quote in one reply",
+                  "draft": "He wrote: [[quote:lpc.quote.the-mildest-condemnation-of-all]]"
+                },
+                {
+                  "sentence": "Neither bishop softens that.",
+                  "why": "leans on a sentence that was removed",
+                  "draft": "Neither bishop softens that."
+                },
+                {
+                  "sentence": "They judged that God's mercy should not be refused to anyone born of man.",
+                  "why": "gives a quote record's words without placing it",
+                  "draft": "They judged that God's mercy should not be refused to anyone born of man."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 108
+              },
+              {
+                "index": 1,
+                "text_start": 109,
+                "text_end": 155
+              },
+              {
+                "index": 2,
+                "text_start": 156,
+                "text_end": 237
+              },
+              {
+                "index": 3,
+                "text_start": 238,
+                "text_end": 260
+              },
+              {
+                "index": 4,
+                "text_start": 261,
+                "text_end": 284
+              },
+              {
+                "index": 5,
+                "text_start": 285,
+                "text_end": 384
+              },
+              {
+                "index": 6,
+                "text_start": 385,
+                "text_end": 947
+              },
+              {
+                "index": 7,
+                "text_start": 949,
+                "text_end": 999
+              },
+              {
+                "index": 8,
+                "text_start": 1000,
+                "text_end": 1050
+              },
+              {
+                "index": 9,
+                "text_start": 1051,
+                "text_end": 1084
+              },
+              {
+                "index": 10,
+                "text_start": 1085,
+                "text_end": 1162
+              },
+              {
+                "index": 11,
+                "text_start": 1163,
+                "text_end": 1266
+              },
+              {
+                "index": 12,
+                "text_start": 1267,
+                "text_end": 1302
+              },
+              {
+                "index": 13,
+                "text_start": 1303,
+                "text_end": 1359
+              },
+              {
+                "index": 14,
+                "text_start": 1360,
+                "text_end": 1419
+              },
+              {
+                "index": 15,
+                "text_start": 1420,
+                "text_end": 1463
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 17,
+                "char_end": 24,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.grace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The entire evidentiary base for this term is one voice (Augustine) within one evidence stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly contest, kept on its own axis, independent of this historical-fact rating. The contest type is Relationship to present-day traditions, secondarily Meaning. It runs over how the historical position stands to the way living traditions use the word now, including later appropriations and the Catholic-Protestant disagreements that ran through them, and over the modern reassessment of whether the position Augustine argued against is the one Pelagius held. The entry does not present the anti-Pelagian position as the settled meaning of the word across Christian history, and it does not characterize Pelagius.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 6,
+                "char_start": 178,
+                "char_end": 183,
+                "surface": "grace"
+              },
+              {
+                "record_id": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the ANF English as printed. An ANF editor's bracketed note, with verses by George Canning, sits inside section 5 after 'according to Adam,'. It is not Cyprian's. It is not part of the passage and is left out.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 28,
+                "char_end": 562,
+                "surface": "“Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 10,
+                "char_start": 27,
+                "char_end": 37,
+                "surface": "catechesis"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 15,
+                "char_start": 33,
+                "char_end": 42,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "citation": "Augustine of Hippo, On the Catechising of the Uninstructed, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "citation": "Augustine of Hippo, A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, and Concerning Faith of Things Not Seen, Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+                "record_type": "quote",
+                "label": "The Epistles, Epistle LVIII, to Fidus, section 5 — Cyprian, our bishop at Carthage",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numbering; Hartel 64); English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.",
+                "speaker": "Cyprian, our bishop at Carthage",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the ANF English as printed. An ANF editor's bracketed note, with verses by George Canning, sits inside section 5 after 'according to Adam,'. It is not Cyprian's. It is not part of the passage and is left out.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.heresy",
+                "record_type": "term",
+                "label": "heresy",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own rebaptism correspondence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council's own rebaptism ruling",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses De Unitate for its general ecclesiology only. That row also carries an unresolved two-recension question for chapters 4-5 (one form, the 'Primacy Text,' more favourable to Roman primacy), on which nothing in this entry depends.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                "record_type": "force",
+                "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 2B-4: Documented -- Registry rows 4, 13; no divergence flagged for this force's own bare occurrence. The internal-versus-external placement is examined and confirmed rather than inherited silently: the prompt (the Donatists' own citation of Cyprian) is external, but the reading, argument, and conclusion are this world's own internal acts, per Doc_08's own stated reason.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.heresy",
+                "record_type": "term",
+                "label": "heresy",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the Epistles' own rebaptism correspondence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 256 Council's own rebaptism ruling",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "citation": "Cyprian of Carthage, On the Unity of the Church (De Unitate), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Unitate supplies the ecclesiology beneath the ruling -- 'He can no longer have God for his Father, who has not the Church for his mother'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Baptism, Against the Donatists -- 'As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained... does not lose the sacrament of conferring baptism. For neither sacrament may be wronged'",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses De Unitate for its general ecclesiology only. That row also carries an unresolved two-recension question for chapters 4-5 (one form, the 'Primacy Text,' more favourable to Roman primacy), on which nothing in this entry depends.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+                "record_type": "force",
+                "label": "Augustine's Engagement with Cyprian's Conciliar Acts",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "citation": "Cyprian of Carthage and the African bishops, The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 2B-4: Documented -- Registry rows 4, 13; no divergence flagged for this force's own bare occurrence. The internal-versus-external placement is examined and confirmed rather than inherited silently: the prompt (the Donatists' own citation of Cyprian) is external, but the reading, argument, and conclusion are this world's own internal acts, per Doc_08's own stated reason.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                2,
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+            ],
+            "removed": [
+              {
+                "sentence": "He wrote:",
+                "why": "second placed quote in one reply",
+                "draft": "He wrote: [[quote:lpc.quote.the-mildest-condemnation-of-all]]"
+              },
+              {
+                "sentence": "Neither bishop softens that.",
+                "why": "leans on a sentence that was removed",
+                "draft": "Neither bishop softens that."
+              },
+              {
+                "sentence": "They judged that God's mercy should not be refused to anyone born of man.",
+                "why": "gives a quote record's words without placing it",
+                "draft": "They judged that God's mercy should not be refused to anyone born of man."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

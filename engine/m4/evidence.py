@@ -36,6 +36,7 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
+import os
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
@@ -561,7 +562,7 @@ def match_asks_to_cells(
     canon_words = cell_keywords(canon_questions)
     matches = _rank(canon_words)
     if len(matches) >= top_n:
-        return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+        return _add_extra_cells(matches[:top_n], query_words, repository_records, canon_words)
 
     # Hints widen cells the fleet already defines; they never invent a
     # cell, so a stale canon_cells value on a record can't create one.
@@ -573,7 +574,7 @@ def match_asks_to_cells(
     if hinted:
         matches = _fill(matches, hinted, from_retrieval_hint=True)
         if len(matches) >= top_n:
-            return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+            return _add_extra_cells(matches[:top_n], query_words, repository_records, canon_words)
 
     # Everything above compares words literally. This tier runs only when
     # that left slots unfilled, so an honest literal match is never
@@ -632,7 +633,7 @@ def match_asks_to_cells(
                     matches.append({**match, "cell": cell, "matched_by": "question-word"})
             matches = matches[:top_n]
 
-    return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+    return _add_extra_cells(matches[:top_n], query_words, repository_records, canon_words)
 
 
 _QUESTION_WORDS = frozenset({"who", "what", "why", "how", "when", "where", "which"})
@@ -691,6 +692,57 @@ def _add_entity_cell(matches, query_words, repository_records, canon_words):
             added += 1
             matches.append({"cell": cell, "score": None, "shared_words": [name], "from_entity": name})
     return matches
+
+
+# A distinctive word the question shares with a record's own hints. The
+# matcher scores a cell by its vocabulary, and a question's common words
+# ("augustine", "god", "city", "teach") can outweigh the one word that names
+# what was asked: for "What did Augustine teach about suicide in the City of
+# God?" the cell holding the suicide witness, whose hint reads "what Augustine
+# taught about suicide", came third and the witness was never offered.
+#
+# Like entity routing, THIS ADDS A SLOT AND COMPETES FOR NONE: every cell the
+# tiers above found survives untouched, so nothing offered before is ever
+# taken away, and no topic is singled out - the question's own word decides.
+# The word must be long enough to name something, absent from the fleet's
+# canon vocabulary (those words already route through the canon), and named
+# by the hints of at most _HINT_WORD_MAX_RECORDS records, so a word the whole
+# world uses decides nothing.
+_HINT_WORD_MIN_LETTERS = 5
+_HINT_WORD_MAX_RECORDS = 2
+_HINT_WORD_EXTRA_CELLS = 1
+
+
+def _add_hint_word_cell(matches, query_words, repository_records, canon_words):
+    if not repository_records or not canon_words:
+        return matches
+    canon_vocabulary = set().union(*canon_words.values())
+    candidates = {w for w in query_words if len(w) >= _HINT_WORD_MIN_LETTERS and w not in canon_vocabulary}
+    if not candidates:
+        return matches
+    named_by: dict[str, list[dict]] = {}
+    for rid in sorted(repository_records):
+        record = repository_records[rid]
+        hint_words = set().union(*(content_words(h) for h in (record.get("retrieval") or {}).get("retrieve_when") or []))
+        for word in candidates & hint_words:
+            named_by.setdefault(word, []).append(record)
+    already = {m["cell"] for m in matches}
+    for word in sorted(named_by):
+        records = named_by[word]
+        if len(records) > _HINT_WORD_MAX_RECORDS:
+            continue
+        for record in records:
+            for cell in record.get("canon_cells") or []:
+                if cell in canon_words and cell not in already:
+                    return matches + [{"cell": cell, "score": None, "shared_words": [word], "from_hint_word": word}]
+    return matches
+
+
+def _add_extra_cells(matches, query_words, repository_records, canon_words):
+    """The slots added on top of the matched cells, in order: a cell named by
+    a distinctive word of the question, then a cell a named figure belongs to."""
+    matches = _add_hint_word_cell(matches, query_words, repository_records, canon_words)
+    return _add_entity_cell(matches, query_words, repository_records, canon_words)
 
 
 def _source_key(record: dict) -> str:
@@ -1036,6 +1088,68 @@ def inherited_cells(history, *, canon_questions, repository_records, top_n) -> l
     return []
 
 
+_CARRY_WEAK_MASS = 3.5
+
+
+def _best_cell_mass(message, asks, canon_questions, repository_records) -> float:
+    """The shared-word mass of the message's best cell, weighted as
+    _looks_like_follow_up weights it; 0.0 when no cell matches."""
+    words = _query_words(message, asks)
+    matches = match_asks_to_cells(
+        message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=1,
+    )
+    if not matches:
+        return 0.0
+    cell_words = cell_keywords(canon_questions)
+    counts = {w: sum(1 for ws in cell_words.values() if w in ws) for w in words}
+    weights = _word_weights(words, counts)
+    return sum(weights.get(w, 1.0) for w in matches[0]["shared_words"])
+
+
+def _prior_turn_cells(
+    *, message, asks, history, selected, already_told_ids, cell_matches, canon_questions, repository_records,
+    top_n: int = 2,
+) -> tuple[list[dict], bool]:
+    """The cells of the last standalone message and whether a story or quote
+    the message's own cells selected was already told. The cells are carried
+    when the message holds a back-reference word and either its best cell is
+    weak or such a record was told; empty on a first turn or when they are
+    already among the cells. If no earlier message stood on its own, the
+    conversation's first one is the subject; a standalone message that matched
+    no cell carries nothing."""
+    if not history:
+        return [], False
+    told = set(already_told_ids or ())
+    told_selected = any(c["record_type"] in ("story", "quote") and c["id"] in told for c in selected)
+    if not (_BACK_REFERENCE & set(re.findall(r"[a-z']+", (message or "").lower()))):
+        return [], told_selected
+    if not told_selected and _best_cell_mass(message, asks, canon_questions, repository_records) >= _CARRY_WEAK_MASS:
+        return [], told_selected
+    standalone = next(
+        (e.get("content") or "" for e in reversed(history)
+         if e.get("role") == "user" and not _looks_like_follow_up(e.get("content") or "", None, canon_questions, repository_records)),
+        None,
+    )
+    subject = standalone if standalone is not None else next((e.get("content") or "" for e in history if e.get("role") == "user"), "")
+    carried = match_asks_to_cells(
+        message=subject, asks=None, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n,
+    ) if subject else []
+    have = {m["cell"] for m in cell_matches}
+    return [{**m, "from_prior_turn": True} for m in carried if m["cell"] not in have][:top_n], told_selected
+
+
+def _carried_records(candidates: list[dict], *, told_selected: bool, already_told_ids) -> list[dict]:
+    """What a carried cell contributes: its lead witness (else its first
+    record), and, when the message reached a story or quote already told, the
+    first story of the cell not yet told."""
+    told = set(already_told_ids or ())
+    lead = next((c for c in candidates if c["record_type"] == "doctrinal_witness"), None) or (candidates[:1] or [None])[0]
+    picked = [lead] if lead else []
+    if told_selected:
+        picked += [c for c in candidates if c["record_type"] == "story" and c["id"] not in told and c not in picked][:1]
+    return picked
+
+
 def resolve_kind(
     reader_kind: str | None,
     *,
@@ -1060,6 +1174,78 @@ def resolve_kind(
     ):
         return previous_kind
     return kind
+
+
+def _split_extra_cells(cells: list[dict]) -> tuple[list[dict], list[dict]]:
+    """The cells matched to a message, and the extra cells added beside them
+    (a named figure's, a distinctive word's)."""
+    extra = [c for c in cells if c.get("from_entity") or c.get("from_hint_word")]
+    return [c for c in cells if c not in extra], extra
+
+
+OFFER_CAP_ENV = "CIC_OFFER_CAP"
+DEFAULT_OFFER_CAP = 12
+
+
+def _offer_cap_from_env(environ=None) -> int | None:
+    """The most records a turn offers, read once at startup from CIC_OFFER_CAP:
+    unset gives the default of 12; 0, off, false or no switches the cap off."""
+    raw = ((environ if environ is not None else os.environ).get(OFFER_CAP_ENV) or "").strip().lower()
+    if raw in ("0", "off", "false", "no"):
+        return None
+    return int(raw) if raw.isdigit() else DEFAULT_OFFER_CAP
+
+
+OFFER_CAP = _offer_cap_from_env()
+
+
+def _protected_ids(selected: list[dict], cell_matches: list[dict]) -> set[str]:
+    """The records the cap never leaves out: the first record appended and the
+    top-scored record of each cell, every record of an entity-matched,
+    hint-word or carried cell, every quote (the placement may use any), every
+    honest limit, and every full-text-fallback or scope-completion record."""
+    cells = {m["cell"]: m for m in cell_matches}
+    protected: set[str] = set()
+    cells_seen: set[str] = set()
+    top: dict[str, tuple[float, str]] = {}
+    for c in selected:
+        cell = c.get("cell")
+        match = cells.get(cell) or {}
+        if cell is not None:
+            if cell not in cells_seen:
+                cells_seen.add(cell)
+                protected.add(c["id"])
+            score = c["score"] if c.get("score") is not None else -1.0
+            if cell not in top or score > top[cell][0]:
+                top[cell] = (score, c["id"])
+        if (
+            c["record_type"] in ("quote", "honest_limit") or c.get("fulltext_fallback") or c.get("scope_completion")
+            or match.get("from_entity") or match.get("from_hint_word") or match.get("from_prior_turn")
+        ):
+            protected.add(c["id"])
+    protected.update(rid for _, rid in top.values())
+    return protected
+
+
+def _cap_offered(selected: list[dict], cell_matches: list[dict], cap: int | None) -> tuple[list[dict], list[str]]:
+    """The offered records with the lowest-ranked ones beyond `cap` left out,
+    and the ids left out. Records `_protected_ids` names are never left out.
+    Rank is the matcher's own score, lower first, a later position going
+    before an earlier one; if the protected records alone exceed the cap they
+    are all offered."""
+    if cap is None or len(selected) <= cap:
+        return selected, []
+    protected = _protected_ids(selected, cell_matches)
+    droppable = sorted(
+        ((i, c) for i, c in enumerate(selected) if c["id"] not in protected),
+        key=lambda t: (t[1]["score"] if t[1].get("score") is not None else -1.0, -t[0]),
+    )
+    dropped: set[int] = set()
+    for i, _ in droppable:
+        if len(selected) - len(dropped) <= cap:
+            break
+        dropped.add(i)
+    return [c for i, c in enumerate(selected) if i not in dropped], [c["id"] for i, c in enumerate(selected) if i in dropped]
 
 
 def assemble_evidence(
@@ -1113,6 +1299,13 @@ def assemble_evidence(
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
+    # top_n_cells caps the cells MATCHED to the message. A cell added for a
+    # named figure or for a distinctive word of the question is an extra slot
+    # (see _add_extra_cells): it rides after the matched cells and never counts
+    # against the cap, here or below, so it can never push out a cell the
+    # message matched itself.
+    matched, extras = _split_extra_cells(cell_matches)
+
     # A follow-up is ABOUT the previous subject. See _looks_like_follow_up.
     if history and _looks_like_follow_up(message, asks, canon_questions, repository_records):
         carried = inherited_cells(
@@ -1120,21 +1313,32 @@ def assemble_evidence(
             repository_records=repository_records, top_n=top_n_cells,
         )
         if carried:
-            own = [m for m in cell_matches if m["cell"] not in {c["cell"] for c in carried}]
-            cell_matches = (carried + own)[:top_n_cells]
+            carried_matched, carried_extras = _split_extra_cells(carried)
+            carried_cells = {c["cell"] for c in carried_matched}
+            matched = (carried_matched + [m for m in matched if m["cell"] not in carried_cells])[:top_n_cells]
+            extras = carried_extras + extras
 
-    if secondary_context and len(cell_matches) < top_n_cells:
-        seen_cells = {m["cell"] for m in cell_matches}
+    if secondary_context and len(matched) < top_n_cells:
+        seen_cells = {m["cell"] for m in matched}
         for m in match_asks_to_cells(
             message=secondary_context, asks=None, canon_questions=canon_questions,
             repository_records=repository_records, top_n=top_n_cells,
         ):
-            if len(cell_matches) >= top_n_cells:
-                break
+            if m.get("from_entity") or m.get("from_hint_word"):
+                extras = extras + [{**m, "from_secondary_context": True}]
+                continue
+            if len(matched) >= top_n_cells:
+                continue
             if m["cell"] in seen_cells:
                 continue
-            cell_matches.append({**m, "from_secondary_context": True})
+            matched.append({**m, "from_secondary_context": True})
             seen_cells.add(m["cell"])
+
+    seen_cells = {m["cell"] for m in matched}
+    cell_matches = matched + [
+        m for i, m in enumerate(extras)
+        if m["cell"] not in seen_cells and m["cell"] not in {x["cell"] for x in extras[:i]}
+    ]
 
     selected: list[dict] = []
     seen_ids: set[str] = set()
@@ -1148,6 +1352,28 @@ def assemble_evidence(
                 continue
             seen_ids.add(candidate["id"])
             selected.append({**candidate, "cell": match["cell"]})
+
+    # A message that points back, and either matched weakly or reached a story
+    # or quote the conversation has already told, is also about the last
+    # standalone subject: that subject's cells ride as extra slots, after the
+    # cells above, so nothing already selected is displaced.
+    prior_cells, told_selected = _prior_turn_cells(
+        message=message, asks=asks, history=history, selected=selected, already_told_ids=already_told_ids,
+        cell_matches=cell_matches, canon_questions=canon_questions, repository_records=repository_records,
+    )
+    cell_matches = cell_matches + prior_cells
+    for prior in prior_cells:
+        for candidate in _carried_records(
+            select_cell_candidates(
+                cell=prior["cell"], coverage_entry=coverage.get(prior["cell"]) or {}, repository_records=repository_records,
+                message=message, asks=asks, already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
+            ),
+            told_selected=told_selected, already_told_ids=already_told_ids,
+        ):
+            if candidate["id"] in seen_ids:
+                continue
+            seen_ids.add(candidate["id"])
+            selected.append({**candidate, "cell": prior["cell"]})
 
     # Stage A2: only when Stage A found no cell on its own EVIDENCE - never
     # when a cell matched but session-exclusion is what emptied `selected`
@@ -1167,7 +1393,10 @@ def assemble_evidence(
     # knows "Who is Jesus?" asks who, not which of the world's records hold
     # the answer, and a world whose coverage of those cells is empty still
     # needs the fallback.
-    if not [m for m in cell_matches if not m.get("from_entity") and m.get("matched_by") != "question-word"]:
+    # A cell added for a distinctive word of the question is as weak: it knows
+    # one word names a record's hint, not that the cell answers the question,
+    # and the fallback that carried an unmatched question must still run.
+    if not [m for m in cell_matches if not m.get("from_entity") and not m.get("from_hint_word") and m.get("matched_by") != "question-word" and not m.get("from_prior_turn")]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue
@@ -1196,21 +1425,60 @@ def assemble_evidence(
             }
         )
 
+    uncapped = selected
+    selected, capped = _cap_offered(selected, cell_matches, OFFER_CAP)
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
     if rhythm is not None:
         selected = [
             {**c, "used_in_round": used} if (used := rhythm.used_round(c["id"])) else c
             for c in selected
         ]
-    thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
-    selected = [_with_quote_index(c, repository_records) for c in selected]
+    thin_ground = thin_topic_riders(message=message, asks=asks, selected=uncapped, thin_topics=thin_topics)
+    selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
 
-    return {
+    result = {
         "cells": cell_matches,
         "candidates": selected,
         "thin_ground": thin_ground,
         "figures_already_named": list(figures_already_named or []),
     }
+    if capped:
+        result["capped"] = capped
+    return result
+
+
+def _with_riders(candidate: dict, repository_records: dict[str, dict]) -> dict:
+    """A candidate carries what the draft must not assert and, for a story,
+    what is not known, and a quote carries its setting, whichever path
+    selected it (cell, full-text fallback, scope completion)."""
+    record = repository_records.get(candidate["id"]) or {}
+    out = dict(candidate)
+    if "claim_guards" not in out:
+        guards = list(record.get("claim_guards") or []) + list((record.get("use_note") or {}).get("not_for") or [])
+        if guards:
+            out["claim_guards"] = guards
+    if candidate.get("record_type") == "story" and (record.get("absent_detail") or "").strip():
+        out["absent_detail"] = " ".join(record["absent_detail"].split())
+    if candidate.get("record_type") == "quote" and (rendered := _setting_text(record.get("setting"))):
+        out["setting"] = rendered
+    return out
+
+
+def _setting_text(setting: dict | None) -> str:
+    """A quote's setting as one line: who said it, to whom, on what
+    occasion, and what it answered. Empty when the record has none."""
+    if not isinstance(setting, dict):
+        return ""
+    def clean(key: str) -> str:
+        return " ".join(str(setting.get(key) or "").split()).rstrip(".")
+
+    said, to, occasion, answers = clean("said_by"), clean("to_whom"), clean("occasion"), clean("answers")
+    if said and to:
+        who = f"{said} to {to}"
+    else:
+        who = said or (f"To {to}" if to else "")
+    first = ", ".join(part for part in (who, occasion) if part)
+    return ". ".join(part for part in (first, f"It answered: {answers}" if answers else "") if part)
 
 
 def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> dict:
@@ -1248,6 +1516,10 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
         line += ", " + ", ".join(descriptors[1:])
     if candidate.get("gist"):
         line += f" | means: {candidate['gist']}"
+    if candidate.get("setting"):
+        line += f" | setting: {candidate['setting']}"
+    if candidate.get("claim_guards"):
+        line += " | MUST NOT ASSERT: " + "; ".join(candidate["claim_guards"])
     return line
 
 
@@ -1336,6 +1608,8 @@ def render_evidence_block(evidence: dict) -> str:
             # works") - directly beside the one record it barred a claim
             # about, never a separate section a skim could miss.
             line += " | MUST NOT ASSERT: " + "; ".join(guards)
+        if candidate.get("absent_detail"):
+            line += " | NOT KNOWN: " + candidate["absent_detail"]
         lines.append(line)
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])

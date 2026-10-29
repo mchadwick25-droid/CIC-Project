@@ -1,0 +1,1786 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.032973
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2256,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2094,
+      "output_tokens": 226,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 3605,
+      "output_tokens": 382,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Wasn't Augustine really teaching justification by faith alone, like Luther did?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We baptized infants, and we would not make a newborn wait. Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus. He had thought a child should not be baptized before the eighth day. \"No one agreed,\" they wrote. They judged that God's mercy and grace are \"not to be refused to any one born of man.\" They gave their reason. The newborn, they wrote, \"has not sinned, except in that\" he was \"born after the flesh according to Adam.\" Because of that he \"has contracted the contagion of the ancient death.\" So \"not his own sins, but the sins of another\" are forgiven him. Augustine went on to the hard end of this. He wrote that in baptism \"infants die only to original sin.\" In his book On the Merits and Forgiveness of Sins he named the unbaptized. \"Such infants as quit the body without being baptized,\" he wrote, \"will be involved in the mildest condemnation of all.\" Whoever teaches that they will not be condemned, he said, \"greatly deceives both himself and others.\" In the Enchiridion he called it \"the mildest punishment of all.\" Neither bishop tells us of any one child.",
+          "citations": [
+            {
+              "sentence": "We baptized infants, and we would not make a newborn wait.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He had thought a child should not be baptized before the eighth day.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "\"No one agreed,\" they wrote.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They judged that God's mercy and grace are \"not to be refused to any one born of man.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They gave their reason.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The newborn, they wrote, \"has not sinned, except in that\" he was \"born after the flesh according to Adam.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Because of that he \"has contracted the contagion of the ancient death.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "So \"not his own sins, but the sins of another\" are forgiven him.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine went on to the hard end of this.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He wrote that in baptism \"infants die only to original sin.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In his book On the Merits and Forgiveness of Sins he named the unbaptized.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "\"Such infants as quit the body without being baptized,\" he wrote, \"will be involved in the mildest condemnation of all.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Whoever teaches that they will not be condemned, he said, \"greatly deceives both himself and others.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In the Enchiridion he called it \"the mildest punishment of all.\"",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Neither bishop tells us of any one child.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.grace",
+              "matched_name": "grace",
+              "text_start": 274,
+              "plain_meaning": "For us, grace is the insistence that no effort of ours is enough on its own. Any good a person does was given to them before they did it.",
+              "quick_meaning": "For us, grace means this: no one's own effort is ever enough. Whatever good a person does was given to them first.",
+              "translational_sense": "A modern listener is likely to hear grace as a warm general benevolence, or as 'grace under pressure,' or as a denominational shibboleth they may already have an opinion about, and to hear our anti-Pelagian position as harsh determinism. We mean a specific and contested claim about the priority of divine action over human capacity, argued against a named opponent over roughly a decade, with direct consequences for how a congregation is taught, how failure is handled, and what a pastor can reasonably ask of anyone.",
+              "false_friend": [
+                "a warm general benevolence, or 'grace under pressure,' with no specific claim about the priority of divine action over human capacity",
+                "a denominational shibboleth in a Protestant-Catholic argument the participant may already hold an opinion about"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 59,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 596,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-the-enchiridion",
+                  "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                  "author": null,
+                  "work": null,
+                  "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.infants-and-the-sin-of-another",
+              "lpc.witness.violence-commanded-not-cruel"
+            ],
+            "term": [
+              "lpc.term.grace",
+              "lpc.term.confessor"
+            ],
+            "story": [
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-plague-and-the-enemies",
+              "lpc.story.celerinus-writes-to-lucian"
+            ],
+            "quote": [
+              "lpc.quote.the-mildest-condemnation-of-all",
+              "lpc.quote.the-mildest-punishment-of-all",
+              "lpc.quote.let-your-creed-be-a-mirror",
+              "lpc.quote.clamour-and-tears"
+            ],
+            "force": [
+              "lpc.force.manichaeism-and-pelagian-anthropology",
+              "lpc.force.confessors-claim-to-grant-peace"
+            ],
+            "honest_limit": [
+              "lpc.limit.womens-own-voice"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We baptized infants, and we would not make a newborn wait.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "We baptized infants, and we would not make a newborn wait [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "He had thought a child should not be baptized before the eighth day.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "He had thought a child should not be baptized before the eighth day [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "\"No one agreed,\" they wrote.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "\"No one agreed,\" they wrote [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "They judged that God's mercy and grace are \"not to be refused to any one born of man.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "They judged that God's mercy and grace are \"not to be refused to any one born of man [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "They gave their reason.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "They gave their reason [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "The newborn, they wrote, \"has not sinned, except in that\" he was \"born after the flesh according to Adam.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "The newborn, they wrote, \"has not sinned, except in that\" he was \"born after the flesh according to Adam [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "Because of that he \"has contracted the contagion of the ancient death.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "Because of that he \"has contracted the contagion of the ancient death [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "So \"not his own sins, but the sins of another\" are forgiven him.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "So \"not his own sins, but the sins of another\" are forgiven him [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "Augustine went on to the hard end of this.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "Augustine went on to the hard end of this [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "He wrote that in baptism \"infants die only to original sin.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "He wrote that in baptism \"infants die only to original sin [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "In his book On the Merits and Forgiveness of Sins he named the unbaptized.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "In his book On the Merits and Forgiveness of Sins he named the unbaptized [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "\"Such infants as quit the body without being baptized,\" he wrote, \"will be involved in the mildest condemnation of all.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "\"Such infants as quit the body without being baptized,\" he wrote, \"will be involved in the mildest condemnation of all [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "Whoever teaches that they will not be condemned, he said, \"greatly deceives both himself and others.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "Whoever teaches that they will not be condemned, he said, \"greatly deceives both himself and others [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "In the Enchiridion he called it \"the mildest punishment of all.\"",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "In the Enchiridion he called it \"the mildest punishment of all [[lpc.witness.infants-and-the-sin-of-another]].\""
+              },
+              {
+                "sentence": "Neither bishop tells us of any one child.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "answer record placed by code, verbatim to its record",
+                "placed_answer": "lpc.witness.infants-and-the-sin-of-another",
+                "draft": "Neither bishop tells us of any one child [[lpc.witness.infants-and-the-sin-of-another]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 16,
+                "cited_record_ids": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "removed": [
+                {
+                  "sentence": "Those who die unbaptized, he wrote, are involved in the mildest condemnation of all",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "Those who die unbaptized, he wrote, are involved in the mildest condemnation of all [[quote:lpc.quote.the-mildest-condemnation-of-all]]"
+                },
+                {
+                  "sentence": "That is still condemnation.",
+                  "why": "leans on a sentence that was removed",
+                  "draft": "That is still condemnation."
+                },
+                {
+                  "sentence": "He told candidates preparing for the water to let the Creed be a mirror to them",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "He told candidates preparing for the water to let the Creed be a mirror to them [[quote:lpc.quote.let-your-creed-be-a-mirror]]"
+                },
+                {
+                  "sentence": "That is not the same as what Luther later taught, and we never heard Luther's name.",
+                  "why": "words attributed without a placed quote",
+                  "draft": "That is not the same as what Luther later taught, and we never heard Luther's name."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 58
+              },
+              {
+                "index": 1,
+                "text_start": 59,
+                "text_end": 142
+              },
+              {
+                "index": 2,
+                "text_start": 143,
+                "text_end": 211
+              },
+              {
+                "index": 3,
+                "text_start": 212,
+                "text_end": 240
+              },
+              {
+                "index": 4,
+                "text_start": 241,
+                "text_end": 327
+              },
+              {
+                "index": 5,
+                "text_start": 328,
+                "text_end": 351
+              },
+              {
+                "index": 6,
+                "text_start": 352,
+                "text_end": 458
+              },
+              {
+                "index": 7,
+                "text_start": 459,
+                "text_end": 530
+              },
+              {
+                "index": 8,
+                "text_start": 531,
+                "text_end": 595
+              },
+              {
+                "index": 9,
+                "text_start": 596,
+                "text_end": 638
+              },
+              {
+                "index": 10,
+                "text_start": 639,
+                "text_end": 699
+              },
+              {
+                "index": 11,
+                "text_start": 700,
+                "text_end": 774
+              },
+              {
+                "index": 12,
+                "text_start": 775,
+                "text_end": 895
+              },
+              {
+                "index": 13,
+                "text_start": 896,
+                "text_end": 997
+              },
+              {
+                "index": 14,
+                "text_start": 998,
+                "text_end": 1062
+              },
+              {
+                "index": 15,
+                "text_start": 1063,
+                "text_end": 1104
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.grace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The entire evidentiary base for this term is one voice (Augustine) within one evidence stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly contest, kept on its own axis, independent of this historical-fact rating. The contest type is Relationship to present-day traditions, secondarily Meaning. It runs over how the historical position stands to the way living traditions use the word now, including later appropriations and the Catholic-Protestant disagreements that ran through them, and over the modern reassessment of whether the position Augustine argued against is the one Pelagius held. The entry does not present the anti-Pelagian position as the settled meaning of the word across Christian history, and it does not characterize Pelagius.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 33,
+                "char_end": 38,
+                "surface": "grace"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 9,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "removed": [
+              {
+                "sentence": "Those who die unbaptized, he wrote, are involved in the mildest condemnation of all",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "Those who die unbaptized, he wrote, are involved in the mildest condemnation of all [[quote:lpc.quote.the-mildest-condemnation-of-all]]"
+              },
+              {
+                "sentence": "That is still condemnation.",
+                "why": "leans on a sentence that was removed",
+                "draft": "That is still condemnation."
+              },
+              {
+                "sentence": "He told candidates preparing for the water to let the Creed be a mirror to them",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "He told candidates preparing for the water to let the Creed be a mirror to them [[quote:lpc.quote.let-your-creed-be-a-mirror]]"
+              },
+              {
+                "sentence": "That is not the same as what Luther later taught, and we never heard Luther's name.",
+                "why": "words attributed without a placed quote",
+                "draft": "That is not the same as what Luther later taught, and we never heard Luther's name."
+              }
+            ]
+          },
+          "answer_record_fallback": "lpc.witness.infants-and-the-sin-of-another"
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

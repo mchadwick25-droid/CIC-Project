@@ -56,7 +56,7 @@ retrieval:
   retrieve_when:
   - participant uses the word grace
   - participant asks about free will, merit, predestination, or whether people can be good on their own
-  - conversation reaches Pelagius or the anti-Pelagian controversy
+  - participant asks why Augustine argued against Pelagius
   prefer_instead:
   - the participant is asking about grace as a general modern religious pleasantry or as gracefulness,
     or the conversation sits in Cyprian's own phase, where this controversy does not yet exist -- ask

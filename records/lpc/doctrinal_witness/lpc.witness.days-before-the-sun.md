@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks whether we read Genesis the way modern people argue about it, as science
-  - conversation reaches F2-T and needs the real engagement that answers the Genesis-as-science sub-question
+  - participant asks what Augustine said about the days of creation before the sun
   do_not_retrieve_when: []
 claim_guards: []
 relations:

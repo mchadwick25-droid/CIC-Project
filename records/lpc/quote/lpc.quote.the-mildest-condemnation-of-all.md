@@ -33,6 +33,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks what happened to babies who died unbaptized
+  - participant asks whether Augustine thought babies who died unbaptized were condemned
   prefer_instead: []
 claim_guards:
 - The NPNF chapter title, 'Unbaptized Infants Damned, But Most Lightly', is the editor's, not Augustine's;

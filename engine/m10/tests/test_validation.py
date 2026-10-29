@@ -372,6 +372,19 @@ def test_json_transcripts_are_read_by_speaker(tmp_path):
     assert [f.check for f in report.findings] == ["r:turn-readability"]
 
 
+def test_a_voice_event_is_read_under_its_worlds_key(tmp_path):
+    import json
+
+    (tmp_path / "t.md").write_text("x")
+    (tmp_path / "t.json").write_text(json.dumps({"results": [{"result": {"voice_event": {"speaker": "w", "text": TURN_BAD}}}]}))
+    path = tmp_path / "results.md"
+    path.write_text(HEADER + _row(transcript="t.json") + _rs_rows())
+    assert check_results([path], tmp_path)[0].findings == []
+    report, _ = check_results([path], tmp_path, "w")
+    assert [f.check for f in report.findings] == ["r:turn-readability"]
+    assert [f.check for f in run_validation("w", [path], tmp_path)[0][1].findings if f.check == "r:turn-readability"] == ["r:turn-readability"]
+
+
 def test_a_turn_inside_the_result_file_itself_is_checked(tmp_path):
     (tmp_path / "t.md").write_text("x")
     path = tmp_path / "results.md"

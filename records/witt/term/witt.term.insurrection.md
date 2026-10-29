@@ -14,9 +14,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Documented for 1521-22 only, Luther-only, cross-register, period-bound -- confirmed;
     the 1531 Apology retrospect (Ap 10002-10006) names Muentzer but is not the 1522 vocabulary itself.
-    Bar, stated plainly: the 1525 tract''s own language is not in our library and is barred from being
-    voiced as ours (Named Comparandum, Source Registry row 94); nothing here characterizes 1525 beyond
-    its documented existence.'
+    Bar, stated plainly: this record is bound to 1521-22. The 1525 writings are held and sit in their
+    own quote records (for example witt.quote.as-when-one-must-kill-a-mad-dog); nothing here characterizes
+    1525.'
 sources:
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
   locus: Christian Nobility
@@ -33,8 +33,8 @@ retrieval:
   retrieve_when:
   - insurrection, or 'the common man,' specifically in 1522
   prefer_instead:
-  - the participant asks about the 1525 Peasants' War tract itself -- its own wording is not in our library
-    and is not ours to voice
+  - the participant asks about the 1525 Peasants' War writings -- those lines sit in the 1525 quote
+    records, for example witt.quote.as-when-one-must-kill-a-mad-dog
 relations:
 - type: associated-with
   target: witt.term.the-two-governments
@@ -48,12 +48,24 @@ relations:
   target: witt.term.sects-and-new-spirits
 - type: associated-with
   target: witt.term.prayer
+- type: associated-with
+  target: witt.quote.the-sword-is-at-your-throats
+- type: associated-with
+  target: witt.quote.you-too-must-have-a-care
+- type: associated-with
+  target: witt.quote.your-own-judges
+- type: associated-with
+  target: witt.quote.as-when-one-must-kill-a-mad-dog
+- type: associated-with
+  target: witt.quote.the-time-of-the-sword
+- type: associated-with
+  target: witt.quote.neither-court-nor-mercy
 plain_meaning: In 1522, common people were angry, and we understood their anger. Still, we refused violence and
   trusted God to watch over his own Word. This describes only that one year, not our later history.
 world_word: insurrection -- 'the common man,' 1522's own vocabulary, bound to that year
 false_friend:
-- the reputation of the later 1525 tract projected back onto this 1522 vocabulary -- that tract's own
-  language is not ours to voice
+- the 1525 writings, and what is said of them, read back onto this 1522 vocabulary -- they are a later
+  and different text
 senses:
   informational: '''The common man has been brooding over the injury he has suffered in property, in body
     and in soul, and has become provoked... and would indeed have good reason to lay about him with flails
@@ -65,20 +77,18 @@ senses:
     names Muentzer but is not this vocabulary.
   personal: This is our own sympathy for common grievance held together with our refusal of force -- a
     stance we can attest only for this one narrow window.
-  translational: Do not project the later 1525 tract's reputation onto this 1522 vocabulary; we mean sympathy
-    for common grievance and a refusal of force, attested only for 1521-22 -- the 1525 tract's own language
-    is not something we can voice.
+  translational: Do not read the later 1525 writings back onto this 1522 vocabulary; we mean sympathy
+    for common grievance and a refusal of force, attested only for 1521-22. The 1525 lines are a different
+    text.
 quick_meaning: 'Our 1522 stance: sympathy for real grievance, but a refusal of violence.'
 distortion_risk: high
 use_note:
   means: "Insurrection meant the vocabulary of 1522, in which the angry common man was restrained by refusing violence and trusting God to guard his Word, bound to that year."
   not_for:
-    - "the 1525 Peasants' War tract's language projected back onto 1522, that tract not being in the library"
+    - "the 1525 Peasants' War writings projected back onto 1522, which is a later and different text"
     - "a claim about the world's later history of resistance"
     - "the civil ruler's power, which sits in witt.term.the-sword"
   years: {from: 1520, to: 1522}
   status: reviewed
 ---
-Built from Doc_06 §5 entry 7.4 (insurrection / 'the common man' (1522 only), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: Luther-only, cross-register, period-bound to 1521-22 -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
-
-Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.
+The 1522 vocabulary of the common man and the refusal of force, register emic, bound to 1521-22. Related terms are listed in the relations above.

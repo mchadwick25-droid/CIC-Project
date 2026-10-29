@@ -38,25 +38,24 @@ def test_under_the_flag_the_directive_leads_the_final_user_message_in_a_framed_b
     ]}]
 
 
-def test_only_the_last_history_block_carries_the_history_breakpoint():
+def test_the_history_carries_no_cache_breakpoint():
     _, messages = build_voice_request(system_prompt="WORLD", message="next", turn_directive="D", history=HISTORY)
-    assert [m["role"] for m in messages] == ["user", "assistant", "user", "assistant", "user"]
-    assert messages[:3] == HISTORY[:3]
-    assert messages[3]["content"] == [{"type": "text", "text": "He died and rose.", "cache_control": EPHEMERAL}]
-    assert messages[4]["content"] == "next"
+    assert messages[:4] == HISTORY and messages[4] == {"role": "user", "content": "next"}
+    assert not any("cache_control" in str(m) for m in messages)
 
 
-def test_the_history_prefix_is_byte_identical_across_turns_with_different_directives():
+def test_only_the_two_system_prefix_blocks_carry_a_breakpoint_whatever_the_history():
+    system, messages = build_voice_request(system_prompt="WORLD", message="next", turn_directive="D", history=HISTORY)
+    assert [("cache_control" in b) for b in system] == [True, True, False]
+    assert "cache_control" not in str(messages)
+
+
+def test_the_cached_system_blocks_are_byte_identical_across_turns_with_different_directives():
     first = build_voice_request(system_prompt="WORLD", message="q1", turn_directive="D1", history=HISTORY[:2])
     second = build_voice_request(system_prompt="WORLD", message="q2", turn_directive="D2", history=HISTORY)
-    # The two cached system blocks are the same bytes every turn; the
-    # directive sits behind them as an uncached third block.
     assert first[0][:2] == second[0][:2]
     assert first[0][2]["text"] == "D1" and second[0][2]["text"] == "D2"
     assert "cache_control" not in first[0][2] and "cache_control" not in second[0][2]
-    assert first[1][0] == second[1][0]
-    assert first[1][1] == {"role": "assistant", "content": [{"type": "text", "text": "He was God's own Word.", "cache_control": EPHEMERAL}]}
-    assert second[1][1] == HISTORY[1]
 
 
 def test_the_callers_history_is_never_mutated():
@@ -65,11 +64,10 @@ def test_the_callers_history_is_never_mutated():
     assert history == HISTORY
 
 
-def test_a_history_block_list_keeps_its_earlier_blocks_and_marks_the_last():
+def test_a_history_block_list_is_passed_through_unmarked():
     history = [
         {"role": "user", "content": "q"},
         {"role": "assistant", "content": [{"type": "text", "text": "a"}, {"type": "text", "text": "b"}]},
     ]
     _, messages = build_voice_request(system_prompt="WORLD", message="next", history=history)
-    assert messages[1]["content"] == [{"type": "text", "text": "a"}, {"type": "text", "text": "b", "cache_control": EPHEMERAL}]
-    assert history[1]["content"] == [{"type": "text", "text": "a"}, {"type": "text", "text": "b"}]
+    assert messages[1]["content"] == [{"type": "text", "text": "a"}, {"type": "text", "text": "b"}]

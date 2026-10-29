@@ -50,7 +50,7 @@ retrieval:
   retrieve_when:
   - participant asks who the confessors were, or about martyrs versus survivors
   - participant asks who had authority besides bishops
-  - conversation reaches the question of whether suffering confers standing
+  - participant asks whether someone who held firm under arrest could rival a bishop's authority
   prefer_instead:
   - the participant is using confessor in the later sense of a priest who hears confession -- a different
     office entirely -- ask about the later, sacramental sense instead

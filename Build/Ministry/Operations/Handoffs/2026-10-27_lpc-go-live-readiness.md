@@ -55,3 +55,16 @@ Check whether the engine thread's fix to F4/F5 has merged. Then, when budget all
 ## 6. Spend
 
 Allowance share used: moderate to heavy (five Opus subagent runs, one at a time). Metered: none this session. The earlier live test "lpc full validation, 27 October" spent $2.21 of its $6 cap; no further spend is approved.
+
+## Update, 2026-10-28
+
+- The live test "lpc go-live" ran (cap $5, spent $2.16): admission 28 of 28; validation Revise (OG-98, `Review-Artifacts/Go_Live_Validation_Review_2026-10-28.md`).
+- On the project lead's ruling, cautions 13, 14 and 16 were fixed at the source and the pointer to other worlds was removed. New pin `packages/lpc/2026-10-28T02-55-50Z`. No rerun and no review of the change, by instruction.
+- State is `built`, not `admitted`: `validation lpc` needs results on the current pin. The next evidence step waits for the retrieval fix (OG-99), then one rerun of everything under a named test and cap.
+
+## Update, 2026-10-28 (evening)
+
+- Run 3 and its Opus review are in (OG-98 update). 30 conversations on the earlier pin; Revise (13 FAIL, 1 fabrication). The panel with all runs: https://claude.ai/artifact/4BSMKA5L7FhCT9WrPAToWr.
+- Source fixes since: the end is the siege of Hippo in 430; the voice carries no knowledge past 430 (horizon paragraph removed, `living_traditions` and caution 13 rewritten); the silent-century limit rewritten. Pin `packages/lpc/2026-10-28T04-35-04Z`.
+- Still needed for `admitted`: one run of admission and validation on this pin (about $3, a name and cap from the project lead), after the engine thread addresses E1 to E6 in `Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`. Admission reruns dropped twice on connection errors; run it with a retry.
+- Spend under the names go-live 2, 3 and 4 is in the ledger at `/tmp/cic-live-test-ledger.jsonl` (this session's machine); the Decision Log has the totals.
