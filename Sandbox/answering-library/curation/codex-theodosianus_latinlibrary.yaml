@@ -1,7 +1,7 @@
 file: codex-theodosianus_latinlibrary.txt
 scheme: 'Codex Theodosianus citation: CTh. book . title . law (printed at the head of each law, for example CTh.1.1.1), with the title headings printed as CTh. book . title .0; a law whose first line is printed with pr. keeps that mark in its address; numbered paragraphs (.1, .2) stay in their law'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
   - id: title
     pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.0[. ]'
