@@ -20,6 +20,7 @@ edition: Whiston's 1711 translation, re-edited by Roger Pearse with Vaggione's c
   as cic/texts/eunomius_first-apology_whiston1711.txt
 citation: Eunomius of Cyzicus, First Apology, trans. Whiston (1711), re-edited by Roger Pearse with Vaggione's chapter numbering
 kind: vendored
+shelf_row: eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus-2
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 57; the file itself was independently
