@@ -98,7 +98,7 @@ Files are in `cic/texts/` unless a path is given. The corpus-map rows for these 
 
 | Rows | File |
 |---|---|
-| 1-9, 11-23, 45 | `anf03_tertullian.xml` |
+| 1-9, 11-23, 46 | `anf03_tertullian.xml` |
 | 1, 3, 7, 9-10, 20, 24-29 | `tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt` |
 | 2, 4-6, 8, 12, 21-22, 30-31 | `tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt` |
 | 10, 24-33, 39, 62 | `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` |
@@ -121,7 +121,9 @@ Files are in `cic/texts/` unless a path is given. The corpus-map rows for these 
 | 41-44, 63 | `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml` |
 | 43 | `lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt` |
 | 43 | `lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt` |
-| 45, 64 | `perpetua-scillitan-martyrs-lat-grc_robinson1891.txt` |
+| 46, 64 | `perpetua-scillitan-martyrs-lat-grc_robinson1891.txt` |
+| 46 | `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt` |
+| 46 | `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt` |
 | 47 | `harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt` |
 | 48 | `schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt` |
 | 49 | `monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt` |
