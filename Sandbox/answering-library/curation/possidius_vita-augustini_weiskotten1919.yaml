@@ -1,0 +1,61 @@
+file: possidius_vita-augustini_weiskotten1919.txt
+scheme: 'Possidius Life of Augustine in Weiskotten 1919: the Praefatio and Capita I to XXXI of the Latin text (printed CAPUT) and the matching English version (printed CHAPTER); inside chapter 30 the numbered paragraphs of Augustine''s letter that Possidius quotes, as printed; the introduction, notes and indexes are apparatus'
+curator: Sonnet 5.5
+status: needs-redo
+rules:
+  - id: caput
+    pattern: '^(?:\d{1,2} )?CAPUT (?P<n>[IVXL]+)$'
+    lines: [1563, 4960]
+    locus: 'lat-caput{n|int}'
+    number: n
+  - id: chapter
+    pattern: '^CHAPTER (?P<n>[IVXL]+)$'
+    lines: [1604, 4960]
+    locus: 'eng-chapter{n|int}'
+    number: n
+  - id: letter-eng
+    parent: chapter
+    pattern: '^(?P<s>\d{1,2})\. '
+    lines: [[4260, 4260], [4327, 4327], [4341, 4341], [4386, 4386], [4447, 4447], [4513, 4513], [4574, 4574], [4596, 4596], [4645, 4645], [4735, 4735], [4840, 4840], [4863, 4863]]
+    locus: 'sec{s|int}'
+    number: s
+  - id: letter-lat
+    parent: caput
+    pattern: '^(?P<s>\d{1,2})\. '
+    lines: [[4293, 4293], [4305, 4305], [4354, 4354], [4414, 4414], [4479, 4479], [4544, 4544], [4697, 4697], [4805, 4805], [4825, 4825]]
+    locus: 'sec{s|int}'
+    number: s
+divisions:
+  - {start_line: 1485, locus: 'lat-praefatio', title: 'PRAEFATIO'}
+  - {start_line: 1518, locus: 'eng-preface', title: 'PREFACE'}
+apparatus:
+  - lines: [11, 1482]
+    kind: front
+    locus: front
+  - lines: [5063, 5999]
+    kind: notes
+    locus: notes
+  - lines: [6000, 6294]
+    kind: index
+    locus: index
+evidence:
+  - line: 1485
+    quote: PRAEFATIO
+  - line: 1518
+    quote: PREFACE
+  - line: 1563
+    quote: CAPUT I
+  - line: 1604
+    quote: CHAPTER I
+  - line: 2035
+    quote: CAPUT VIII
+  - line: 3241
+    quote: CAPUT XXI
+  - line: 4879
+    quote: CAPUT XXXI
+  - line: 4916
+    quote: CHAPTER XXXI
+  - line: 4260
+    quote: '2. But this advice'
+  - line: 4293
+    quote: '3. Quod si contigerit'

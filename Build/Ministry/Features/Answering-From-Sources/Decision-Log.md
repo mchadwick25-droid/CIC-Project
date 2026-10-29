@@ -434,3 +434,24 @@ story drops to the end references only when the mark cap pushes it out. What was
 missing, and is now carried as card data (PR #1299): the record's one-line
 `means` for the hover and `narrative_tier`, which the engine never read. A
 full-story page on click is still not built and is screen work for later.
+
+## 17. Gold-set adjudication by independent AI readers (2026-10-29)
+
+Mark, 2026-10-29, in chat: "im not sure i am qualified to rule on these, i would
+trust an objective ai view". This replaces the earlier rule that Mark adjudicates
+every specialist-versus-judge disagreement in the key classes and a random sample.
+
+- Every item in the review packet (86 items) is adjudicated by three independent
+  reads: an Opus adjudicator, a Fable adjudicator, and a blind read in the
+  outside-referee style, none seeing the others or the earlier labels.
+- A label stands only when at least two of the three agree. Where all three
+  differ or the evidence is ambiguous the item is contested and excluded from the
+  gold set, counted and listed, never forced.
+- Every label is marked AI-adjudicated: no human reviewed it. Natural and
+  constructed items stay apart.
+- Stated plainly in the report: same-vendor models share blind spots, so this is
+  weaker than human labelling. Containment: the seeded-defect pass, exact-quote
+  evidence, three independent reads, contested items excluded, the outside-referee
+  read, and external human experts testing the built system at the end.
+- Mark may spot-check any item on the packet page. His weekly adjudication budget
+  is no longer a dependency of the gold set.

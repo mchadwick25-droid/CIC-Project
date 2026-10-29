@@ -29,6 +29,7 @@ edition: Partially held via the 1907 Turchi themed selection, which draws its te
   remains unvendored.
 citation: Gregory the Great (Pope Gregory I), Register of Letters (Registrum Epistolarum), via the Turchi themed selection (1907)
 kind: vendored
+shelf_row: gregory-great_epistolae-selectae_turchi1907--epistolae-selectae-selected-letters-concerning-the-african
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge, carried from Doc_02 SS3/SS7's own citation gap / field knowledge

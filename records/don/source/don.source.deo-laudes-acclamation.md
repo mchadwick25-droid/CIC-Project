@@ -24,6 +24,7 @@ edition: Within CIL VIII, Supplementum, Pars II (Cagnat and Schmidt, 1894), vend
   (Registry row 48)
 citation: 'The Deo laudes acclamation: CIL VIII 17732, with CIL VIII 20482, 17368, and 18669, in CIL VIII, Supplementum, Pars II, ed. Cagnat and Schmidt (1894)'
 kind: vendored
+shelf_row: cil8-supplementum-numidiae_cagnat-schmidt1894--corpus-inscriptionum-latinarum-viii-supplementum
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: 'anonymous and epigraphic. The Donatist identification is the CIL editors'' own, stated
   in their note on 17732: ''Uti [Deo] gratias... catholicorum, ita [Deo] laudes signum ac tessera fuit

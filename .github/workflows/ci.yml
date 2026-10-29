@@ -475,6 +475,11 @@ jobs:
       # pinned package under the current voice shape. It never fails the
       # suite and is not a requirement for a promotion to live.
       - run: python -m engine.m3.admission_conform
+      # Gold-set tools for "Answering from the Sources" stage 1: the
+      # labeller's verbatim-evidence check, the seeded-defect rules, the
+      # catch-rate count, the split and seal, and the rule that only the
+      # trial reads the held-out half. No model call.
+      - run: python -m pytest Sandbox/Answering-From-Sources/goldset/tests -q
 
       # M4 event log, projection, entrance seal, resume, turn loop.
       # Started stage 5 non-model half (Artifact-3's event log/store,

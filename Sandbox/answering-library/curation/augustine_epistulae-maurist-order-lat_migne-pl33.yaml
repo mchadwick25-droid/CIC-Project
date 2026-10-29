@@ -1,0 +1,366 @@
+file: augustine_epistulae-maurist-order-lat_migne-pl33.txt
+scheme: 'Maurist letter numbers I-CCLXX, printed as EPISTOLA and a roman numeral at the head of each letter and running on through the four classes; the Appendix letters carry their own numbering from I and are addressed under the appendix; in the long letters that print CAPUT headings, and in letter 102 that prints QUAESTIO headings, the address goes down to the chapter or question the edition numbers'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: letter
+    pattern: '^(?=(?:E|K)\S*S[TI1][O0UV]\S*[\s,])(?P<w>[A-Za-z0-9.!|]{5,9}),?\s+(?:\([a-z]\)\s*)?(?P<n>PRIMA|\(?[A-Z0-9lI!|\\.]{1,12})(?: (?P<bis>BIS))?(?=\s|[*•‘''"»(\[{\\/,.]|$)(?!.*C ?L ?A ?S)'
+    lines: [[4282, 62220], [62222, 76010], [76012, 80401]]
+    locus: 'ep{n|int}{bis|lower}'
+    number: n
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 4285, set: {n: 'I'}}
+      - {line: 6079, set: {n: 'XVIII'}}
+      - {line: 8084, set: {n: 'XXVIII'}}
+      - {line: 9520, set: {n: 'XXXIII'}}
+      - {line: 16377, set: {n: 'LVII'}}
+      - {line: 17245, set: {n: 'LXVI'}}
+      - {line: 17388, set: {n: 'LXVIII'}}
+      - {line: 20112, set: {n: 'LXXXI'}}
+      - {line: 29371, set: {n: 'CVII'}}
+      - {line: 31078, set: {n: 'CXII'}}
+      - {line: 31161, set: {n: 'CXIII'}}
+      - {line: 32725, set: {n: 'CXIX'}}
+      - {line: 35823, set: {n: 'CXXVIII'}}
+      - {line: 37630, set: {n: 'CXXXV'}}
+      - {line: 43517, set: {n: 'CXLII'}}
+      - {line: 46274, set: {n: 'CXLVIII'}}
+      - {line: 54543, set: {n: 'CLXVIII'}}
+      - {line: 56773, set: {n: 'CLXXVIII'}}
+      - {line: 57841, set: {n: 'CLXXXIII'}}
+      - {line: 63645, set: {n: 'CXCI'}}
+      - {line: 65410, set: {n: 'CXCVI'}}
+      - {line: 65929, set: {n: 'CXCVII'}}
+      - {line: 71183, set: {n: 'CCXV'}}
+      - {line: 72490, set: {n: 'CCXVIII'}}
+      - {line: 73263, set: {n: 'CCXXII'}}
+      - {line: 74191, set: {n: 'CCXXVII'}}
+      - {line: 74270, set: {n: 'CCXXVIII'}}
+      - {line: 75173, set: {n: 'CCXXXII'}}
+      - {line: 58054, set: {bis: 'bis'}}
+  - id: class
+    pattern: '^(?:PRIMA|SECUNDA|QUARTA) CLASSIS|^CLASSIS TERTIA'
+    lines: [4282, 80401]
+    locus: 'class{line}'
+    division: false
+  - id: appendix
+    pattern: '^APPENDIX\.$'
+    lines: [80402, 80402]
+    locus: appendix
+    division: false
+  - id: appendix-letter
+    pattern: '^(?=(?:E|K)\S*S[TI1][O0UV]\S*[\s,])(?P<w>[A-Za-z0-9.!|]{5,9}),?\s+(?:\([a-z]\)\s*)?(?P<n>PRIMA|\(?[A-Z0-9lI!|\\.]{1,12})(?: (?P<bis>BIS))?(?=\s|[*•‘''"»(\[{\\/,.]|$)(?!.*C ?L ?A ?S)'
+    lines: [80403, 86125]
+    parent: appendix
+    locus: 'ep{n|int}'
+    number: n
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 80443, set: {n: 'I'}}
+      - {line: 80575, set: {n: 'VIII'}}
+  - id: chapter
+    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [[10025, 11071], [11653, 12640], [14985, 16314], [18390, 19275], [20149, 21271], [23410, 25243], [29414, 30391], [31443, 32724], [32957, 33719], [36251, 37199], [39669, 43078], [44522, 46273], [46807, 47813], [48442, 49273], [49889, 51230], [53075, 53954], [58318, 59922], [59924, 61105], [64180, 65384], [66294, 67782], [71697, 72489]]
+    parent: letter
+    locus: 'cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 10032, set: {c: 'I'}}
+      - {line: 11683, set: {c: 'I'}}
+      - {line: 14996, set: {c: 'I'}}
+      - {line: 15323, set: {c: 'VI'}}
+      - {line: 18402, set: {c: 'I'}}
+      - {line: 20187, set: {c: 'I'}}
+      - {line: 23423, set: {c: 'I'}}
+      - {line: 29421, set: {c: 'I'}}
+      - {line: 31478, set: {c: 'I'}}
+      - {line: 32962, set: {c: 'I'}}
+      - {line: 36271, set: {c: 'I'}}
+      - {line: 42909, set: {c: 'XXXVII'}}
+      - {line: 46817, set: {c: 'I'}}
+      - {line: 49894, set: {c: 'I'}}
+      - {line: 53083, set: {c: 'I'}}
+      - {line: 59359, set: {c: 'VIII'}}
+      - {line: 59934, set: {c: 'I'}}
+      - {line: 64189, set: {c: 'I'}}
+      - {line: 66307, set: {c: 'I'}}
+      - {line: 71707, set: {c: 'I'}}
+      - {line: 72376, set: {c: 'VII'}}
+  - id: chapter-appendix
+    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [[80822, 82599], [83088, 85558]]
+    parent: appendix-letter
+    locus: 'cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 81160, set: {c: 'VI'}}
+      - {line: 82071, set: {c: 'XXI'}}
+      - {line: 82444, set: {c: 'XXVIII'}}
+      - {line: 82472, set: {c: 'XXIX'}}
+      - {line: 83093, set: {c: 'I'}}
+      - {line: 84016, set: {c: 'VII'}}
+      - {line: 84520, set: {c: 'XV'}}
+  - id: chapter-187
+    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [61107, 62220]
+    locus: 'ep187/cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 62122, set: {c: 'XIII'}}
+  - id: chapter-238
+    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [76012, 76816]
+    locus: 'ep238/cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 76020, set: {c: 'I'}}
+  - id: question
+    pattern: '^Q[A-Z£.>()J10\\]{3,9}\s+(?P<q>\S.*?)\.?$'
+    lines: [27000, 27830]
+    parent: letter
+    locus: 'quaestio{q|int}'
+    number: q
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 27001, set: {q: 'I'}}
+      - {line: 27146, set: {q: 'II'}}
+      - {line: 27395, set: {q: 'III'}}
+      - {line: 27603, set: {q: 'IV'}}
+      - {line: 27775, set: {q: 'V'}}
+      - {line: 27820, set: {q: 'VI'}}
+evidence:
+  - line: 4285
+    quote: 'EPISTOLA PRIMA * (o).'
+  - line: 4388
+    quote: 'EPISTOLA II * («).'
+  - line: 6079
+    quote: 'EPISTOLA XMII * (<i).'
+  - line: 6129
+    quote: 'EPISTOLA XIX* (a).'
+  - line: 8084
+    quote: 'EPISTOLA XX VHP (b).'
+  - line: 9520
+    quote: 'EPISTOLA XXXUL * (a)'
+  - line: 9645
+    quote: 'EPISTOLA XXXIV * (a).'
+  - line: 10032
+    quote: 'CAPUT PRIMUM. — I. Nescio unde sit facium, ut'
+  - line: 11683
+    quote: 'CAPUT PRIMUM. — 1 . Dixit quidem apostolus Pau-'
+  - line: 14996
+    quote: 'CAPUT PRIMUM.— I. Lectis lituris tuis, ubi me'
+  - line: 15323
+    quote: 'CAPUT VL— 10. Ideo Joannes apostolus in Apoca-'
+  - line: 16377
+    quote: 'EPISTOLA LY II * (o).'
+  - line: 17245
+    quote: 'EPISTOLA LXVP(r).'
+  - line: 17388
+    quote: 'EPISTOLA LX VIII * (u).'
+  - line: 18402
+    quote: 'CAPUT PIUMUM. — I. Tres simul epistolas, imo li-'
+  - line: 20112
+    quote: 'EPISTOLA LIXII * (a).'
+  - line: 20187
+    quote: 'CAPUT PRIMUM. — 1. Jam pridem tua: Chariiaii'
+  - line: 21639
+    quote: 'EPISTOLA LXXXYil •• (i b ).'
+  - line: 23423
+    quote: 'CAPUT PHIMUM. — 1. Accepi epistolam, quam'
+  - line: 26503
+    quote: 'EPISTOLA XCIX * (a).'
+  - line: 27001
+    quote: 'QL.CST10 PRIMA.'
+  - line: 27146
+    quote: 'QC.CSTIO SLCt NDi»'
+  - line: 27395
+    quote: 'QI..CSTIO tertia.'
+  - line: 27603
+    quote: 'QU£STIO QUARTA.'
+  - line: 27775
+    quote: 'QIASTIO (JU1NTA.'
+  - line: 27820
+    quote: 'QU£>TJO SEXTA.'
+  - line: 29371
+    quote: 'EPISTOLA CVD (h).'
+  - line: 29421
+    quote: 'CAPUT PRIMUM. — 4. Clw rissimi filii mei, lionorabi-'
+  - line: 31078
+    quote: 'EPISTOLA CXI! 4 (fr).'
+  - line: 31161
+    quote: 'EPISTOLA CXIII 4 (a).'
+  - line: 31478
+    quote: 'CAPUT PIUMUM. — I. Tu mc innumerabilium qu®-'
+  - line: 32725
+    quote: 'EPISTOLA C \l\ • («).'
+  - line: 32962
+    quote: 'CAPUT PRIMUM. — ! Ego propterea ut ad nos ve-'
+  - line: 34467
+    quote: 'EPISTOLA CXXIV (a).'
+  - line: 35823
+    quote: 'EPISTOLA CX XVIII • (a).'
+  - line: 36271
+    quote: 'CAPUT PHIMUM. — I. Ei petisse te et promisisse'
+  - line: 37630
+    quote: 'EPISTULA CXXXV 4 (a).'
+  - line: 42909
+    quote: 'CAPUT XXXV II. — 83. Scio autem quam non su-'
+  - line: 43517
+    quote: 'EPISTOLA CX.LII (o).'
+  - line: 46274
+    quote: 'EPISTOLA CILVUI * (b).'
+  - line: 46806
+    quote: 'EPISTOLA CXLIX * (a).'
+  - line: 46817
+    quote: 'CAPUT PRIMUM. — I. Quod de perventione tam'
+  - line: 49894
+    quote: 'CAPUT PHIMUM. — 1. Ex litteris luis didici non so-'
+  - line: 53083
+    quote: 'CAPUT PRIMUM. — 1 . Deum nostrum qui nos voca-'
+  - line: 54543
+    quote: 'EPISTOLA CLIVII! * (o).'
+  - line: 55149
+    quote: 'EPmOLACI.XXI *(«)'
+  - line: 55359
+    quote: 'EPISTOLA CLXXIII * (a).'
+  - line: 56773
+    quote: 'EPISTOLA CLXX VHP (a).'
+  - line: 57348
+    quote: 'EPISTOLA CLXXXl * (a).'
+  - line: 57641
+    quote: 'EPISTOLA CLXXXIi * (a).'
+  - line: 57841
+    quote: 'EPISTOLA CLXXXM * (a).'
+  - line: 58054
+    quote: 'EPISTOLA CLXXXIV B/S* (aj.'
+  - line: 59359
+    quote: 'CAPUT \ lll. — 32. Illi autem , quod et alibi ali-'
+  - line: 59934
+    quote: 'CAPUT PRIMUM. — I. Tandem aliquando providit'
+  - line: 61106
+    quote: 'EPISTOLA CLXXXVIf * (e).'
+  - line: 62122
+    quote: 'CAPUT 3L1U. — 38- Habitat iiaque in singulis Deus'
+  - line: 62221
+    quote: 'EPISTOLA CLXXXVHI* (a).'
+  - line: 63645
+    quote: 'EPISTOLA CXC1 4 (n).'
+  - line: 64189
+    quote: 'CAPUT PRIMUM. — i. Epistola * quam per charissi-'
+  - line: 65410
+    quote: 'EPISTOLA CSC VI " (6).'
+  - line: 65929
+    quote: 'EPISTOLA CXCVIP (a).'
+  - line: 66307
+    quote: 'CAPUT PHIMUM. — 1. Accepi lilleras Venerationis'
+  - line: 68047
+    quote: 'EPISTOLA CCII BIS * («).'
+  - line: 68839
+    quote: 'EPHTOLV CCIV («).'
+  - line: 70714
+    quote: 'EPISTOLA CCXn * (a).'
+  - line: 71183
+    quote: 'EITSTOLA C.CXY (n).'
+  - line: 71431
+    quote: 'EPISTOLA CCXYt. * («).'
+  - line: 71707
+    quote: 'CAPUT PRIMUM. — I. Cum de le mihi essent'
+  - line: 72376
+    quote: 'CAPUT MI. — 2C. Sed inter bxc duodecim repe-'
+  - line: 72490
+    quote: 'EPISTOLA (XXV IU * {«).'
+  - line: 72705
+    quote: 'EPISTOLA CCXX * (6).'
+  - line: 73263
+    quote: 'EPISTOLA (XXXII (a).'
+  - line: 74191
+    quote: 'EPISTOLA GCXIVII * (b).'
+  - line: 74270
+    quote: 'EPISTOLA CC1XVIU • (<i).'
+  - line: 75173
+    quote: 'EPISTOLA OCX XXII 1 (n).'
+  - line: 76011
+    quote: 'EPISTOLA CCXXXVIII * (a).'
+  - line: 76020
+    quote: 'CAPUT PRIMUM. — 1. Volucram quidem, petente'
+  - line: 77504
+    quote: 'EPISTOLA CCXLIY * (a).'
+  - line: 78415
+    quote: 'EPISTOLA CaVI (6).'
+  - line: 80346
+    quote: 'EPISTOLA CCLXX *(«).'
+  - line: 80402
+    quote: 'APPENDIX.'
+  - line: 80443
+    quote: 'EPISTOLA PRIMA (u).'
+  - line: 80457
+    quote: 'EPISTOLA II (6).'
+  - line: 80575
+    quote: 'EPISTOLA \lll fc).'
+  - line: 80821
+    quote: 'EPISTOLA XYll (a)'
+  - line: 81160
+    quote: 'CAPUT N l. — Quid de beato Job dicam, famosissimo'
+  - line: 82071
+    quote: 'CAPUT XXL — Adulatores ut inimicos cave, quo-'
+  - line: 82444
+    quote: 'CAPUT XX MU. — Dic»> for situ». Grandis labor est :'
+  - line: 82472
+    quote: 'CAPUT XXI\. — Propter quod idem apostolus ait,'
+  - line: 82600
+    quote: 'EPISTOLA XVIII.'
+  - line: 83087
+    quote: 'EPISTOLA XIX.'
+  - line: 83093
+    quote: 'CAPUT PHIMUM. — Illius scilicet Hieronymi'
+  - line: 84016
+    quote: 'CAPUT MI. — Sicut Coiislanliiiopolitanis litteris'
+  - line: 84520
+    quote: 'CAPUT A V. — h» Samaria, quindecim nondum ex-'
+  - line: 85559
+    quote: 'EPISTOLA XX (a).'
+  - line: 86126
+    quote: 'INDEX RERUM'
+  - line: 90083
+    quote: 'ADDENDA AD APPENDICEM TOMI II.'
+divisions:
+  - {start_line: 9645, locus: ep34}
+  - {start_line: 21639, locus: ep87}
+  - {start_line: 55149, locus: ep171}
+  - {start_line: 57348, locus: ep181}
+  - {start_line: 57641, locus: ep182}
+  - {start_line: 61106, locus: ep187}
+  - {start_line: 62221, locus: ep188}
+  - {start_line: 68839, locus: ep204}
+  - {start_line: 70714, locus: ep212}
+  - {start_line: 71431, locus: ep216}
+  - {start_line: 76011, locus: ep238}
+  - {start_line: 78415, locus: ep256}
+  - {start_line: 90083, locus: addenda-line90083, title: 'ADDENDA AD APPENDICEM TOMI II. EPISTOLA CONSOLATORIA S. AUGUSTINI AD PROBUM'}
+ignore:
+  - pattern: '^Dig\w{3,9} +by\b.{0,12}$'
+    kind: scan-notice
+  - pattern: '^(?:\S{1,6} +)?(?:\S{1,3} +)?[S5s8]\.? +A\w{3,9}I?N?I? +E\w{4,8}(?: +\S{1,6})?$'
+    kind: running-head
+    lines: [4282, 86125]
+  - pattern: '^(?:\S{1,6} +)?(?:\S{1,5} +)?\w{0,3}E\w{2,5}[TL1I]\w{3,6} +\w{0,3}C\w{1,3}[AS]\w{2,5} +\S{1,3}\.?(?: +\S{1,5})?$'
+    kind: running-head
+    lines: [4282, 86125]
+apparatus:
+  - lines: [11, 4281]
+    kind: front
+    locus: front
+  - lines: [80402, 80442]
+    kind: front
+    locus: appendix-front
+  - lines: [86126, 90082]
+    kind: index
+    locus: index
+  - lines: [90137, 90148]
+    kind: notes
+    locus: colophon

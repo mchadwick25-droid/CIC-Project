@@ -1,0 +1,405 @@
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.dionysius-nepos
+  sentence: Our Dionysius loved Nepos for his faith, his business ventures and his diligence in the Scriptures, though he loved the truth more.
+  record_words: for his faith and industry and diligence in the Scriptures
+  construction: The record's 'industry' means hard work (rendered 'his hard work'); the sentence reads it as commerce and says Dionysius loved Nepos for his business ventures.
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.dionysius-too-high-for-me-to-grasp
+  sentence: Our Dionysius did not reject the book he could not grasp; instead he puzzled over it, because he did not understand it.
+  record_words: And I do not reject what I cannot comprehend, but rather wonder because I do not understand it.
+  construction: '''Wonder'' means marvel (rendered ''I marvel at it''); the sentence reads it as puzzling and says Dionysius puzzled over the book.'
+- seed_type: false_friend
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.clement-schoolmaster
+  sentence: Clement suggested that philosophy was a classroom teacher to the Greeks, as the law was to the Hebrews, bringing their minds to Christ.
+  record_words: For this was a schoolmaster to bring
+  construction: '''Schoolmaster'' renders paidagogos, a child''s escort and guardian (rendered ''guardian''; not_for bars teacher or headmaster); the sentence reads it as a classroom teacher.'
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.ethiopic-rule-eat-and-drink
+  sentence: The angel's rule told us to make each brother endure hardship in eating and drinking, and to set his work by his eating.
+  record_words: Suffer each one to eat and to drink, and according to the measure of their eating give them their work.
+  construction: '''Suffer'' means allow (rendered ''Allow each person''); the sentence reads it as making each brother endure hardship.'
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.twelve-psalms-by-an-angel
+  sentence: In Cassian's story, our fathers argued so long over a point of Christian doctrine that the evening office came before they settled it.
+  record_words: there was such a holy difference of opinion in their pious discussion on the rule of their religion that the time for their Vesper office came before the sacred question was decided
+  construction: '''The rule of their religion'' is their monastic rule, the number of psalms (rendered ''their religious rule''); the sentence reads ''religion'' as the Christian faith and makes the dispute doctrinal.'
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-ladder-from-faith-to-love
+  sentence: Evagrius taught that our everyday routine is like a symbol, summing up the road from faith through fear and self-control to love.
+  record_words: The habit, then is like a symbol which summarizes [these] things.
+  construction: '''The habit'' is the monastic garment the fathers confer (their words are said when giving it); the sentence reads it as everyday routine.'
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.melania-to-the-governor
+  sentence: Melania warned the governor not to look down on her shabby clothes and her small landholding, for she could raise herself if she pleased.
+  record_words: Do not treat lightly my poor garb and estate, for I have the power to exalt myself if it pleaseth me to do so
+  construction: '''Estate'' means her condition or station (rendered ''condition''); the sentence reads it as landed property.'
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.ladder-from-compunction
+  sentence: Cassian taught that compunction leads us to renunciation, going without clothes and holding all possessions in contempt, and from this humility is born.
+  record_words: From compunction of heart springs renunciation, i.e. nakedness and contempt of all possessions. From nakedness is begotten humility
+  construction: '''Nakedness'' means owning nothing (rendered ''owning nothing''); the sentence reads it as going without clothes.'
+- seed_type: false_friend
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.for-thirty-two-years-i-touched-no-fruit
+  sentence: Palladius tells us that when shyness attacked Philoromus, he shut himself up in a tomb for six years to be rid of it.
+  record_words: Once when timidity attacked him, in order to get rid of it, he shut himself up in a tomb for six years.
+  construction: '''Timidity'' means fear (rendered ''when fear attacked him''); the sentence reads it as shyness.'
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.gallus-on-the-forced-communion-and-the-angel
+  sentence: Martin pledged that he would talk with those bishops, if those people were spared and the tribunes sent to the Spains were recalled.
+  record_words: He pledges himself that, if these people were spared, he would communicate; only let the tribunes, who had already been sent to the Spains
+  construction: '''Communicate'' means take communion with the Ithacian bishops (the passage turns on that communion); the sentence reads it as talking with them.'
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.vincent-tempests-of-secular-warfare
+  sentence: After the storms of worldly warfare, our Vincent came at last to the Christian faith, a harbour that is always safe for everyone.
+  record_words: cast anchor in the harbour of religion, a harbour to all always most safe
+  construction: '''The harbour of religion'' is the religious, monastic life (rendered ''the religious life''); the sentence reads ''religion'' as the faith and turns it into a conversion.'
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.receiving-christ-in-you
+  sentence: An elder of Egypt taught that a fast is a free-will offering, but giving alms to the poor is a command that must be fulfilled.
+  record_words: And a fast, although it is useful and advisable, is yet a free-will offering. But the exigencies of a command require the fulfilment of a work of charity.
+  construction: '''Charity'' is love shown in welcoming a guest as Christ (rendered ''Charity is a command'', fulfilled by feeding the guest); the sentence reads it as almsgiving to the poor.'
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.martin-kept-the-virtues-of-a-monk
+  sentence: As Sulpitius tells it, Martin held the bishop's office with dignity and courtesy, yet never set aside a monk's belongings and virtues.
+  record_words: yet in such a way as not to lay aside the objects and virtues of a monk.
+  construction: '''Objects'' means aims (rendered ''a monk''s aims''); the sentence reads it as physical things, a monk''s belongings.'
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.the-catechumens-testimony
+  sentence: The catechumen raised to life was the first to come forward as one who had experienced Martin's moral goodness, and as a witness to it.
+  record_words: he was the first who offered himself to us both as a subject that had experienced the virtues of Martin, and as a witness to their existence.
+  construction: '''Virtues'' means Martin''s miraculous powers (rendered ''Martin''s powers''); the sentence reads it as moral goodness.'
+- seed_type: false_friend
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.paphnutius-the-thief-possessed-and-healed
+  sentence: Piamun told how the man who slyly attacked Paphnutius's financial standing was exposed through the very devil who had urged the sin.
+  record_words: the cunning defamer of another's credit
+  construction: '''Credit'' means good name (rendered ''another man''s good name''); the sentence reads it as financial standing.'
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.eyes-of-faith
+  sentence: Jerome heard Paula object that she could see with the eyes of faith the infant Lord crying in the manger.
+  record_words: she protested in my hearing that she could behold with the eyes of faith the infant Lord
+  construction: '''Protested'' means declared (rendered ''she declared''); the sentence reads it as objected.'
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.ever-let-the-bridegroom-sport-with-you
+  sentence: Jerome told the young virgin that when the Bridegroom reached through her door, she would wake and say she was tired of love.
+  record_words: 'you will awake and rise up and say: "I am sick of love."'
+  construction: '''Sick of love'' means sick with love (rendered ''I am sick with love''); the sentence reads it as tired of love.'
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.a-follower-of-cicero-and-not-of-christ
+  sentence: In his dream, when the Judge called him a follower of Cicero, Jerome instantly became stupid, and conscience tortured him more than the lash.
+  record_words: Instantly I became dumb, and amid the strokes of the lash
+  construction: '''Dumb'' means speechless (rendered ''struck speechless''); the sentence reads it as stupid.'
+- seed_type: false_friend
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.a-man-truly-catholic
+  sentence: Sulpitius praised our Jerome as a true Roman Catholic, skilled in the holy law, who came to condemn all of Origen's writings.
+  record_words: Hieronymus, a man truly Catholic and most skillful in the holy law
+  construction: '''Catholic'' means orthodox, holding the whole church''s faith (rendered ''truly orthodox''; not_for bars the denominational sense); the sentence reads it as Roman Catholic.'
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.constantine-bishop-outside
+  sentence: As Eusebius reports it, Constantine told the bishops he too was a bishop, appointed by God to ignore whatever lay outside the Church.
+  record_words: I also am a bishop, ordained by God to overlook whatever is external to the Church.
+  construction: '''Overlook'' means oversee (rendered ''to oversee''); the sentence reads it as ignore.'
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.sozomen-thessalonica-law
+  sentence: Sozomen reports that Theodosius's law ordered anyone who so much as considered the opposite opinions to be treated as a heretic.
+  record_words: those individuals who entertained opposite opinions should be treated as heretics
+  construction: '''Entertained'' means held (rendered ''those who held the opposite opinions''); the sentence reads it as merely considered.'
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.lactantius-dream
+  sentence: Lactantius tells that, directed in a dream, Constantine marked his soldiers' shields with Christ's secret code and so went into battle.
+  record_words: being the cipher of Christ
+  construction: '''Cipher'' means monogram (rendered ''the monogram of Christ''); the sentence reads it as a secret code.'
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.augustine-vigil-hymns
+  sentence: At the Milan vigil, the church began singing hymns and psalms the Eastern way, so the people would not grow bored in sorrow.
+  record_words: lest the people should pine away in the tediousness of sorrow
+  construction: '''Tediousness'' means weariness (rendered ''the weariness of sorrow''); the sentence reads it as boredom.'
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
+  sentence: Ambrose taught that virginity has its rewards and widowhood its merits, and that there is also a place for humility in marriage.
+  record_words: there are the merits of widowhood, there is also a place for conjugal modesty.
+  construction: '''Conjugal modesty'' means chaste married life (rendered so); the sentence reads ''modesty'' as humility.'
+- seed_type: false_friend
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.jerome-damasus-verses
+  sentence: Jerome records that Damasus had a fine talent for verse and published many short poems in praise of heroes and their brave deeds.
+  record_words: published many brief works in heroic metre
+  construction: '''Heroic metre'' is the hexameter verse form (rendered ''the verse form of epic poetry''; not_for bars heroic subject matter); the sentence reads it as poems about heroes.'
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.those-who-lived-reasonably-are-christians
+  sentence: Justin held that those who lived fairly decent lives are Christians, even if thought atheists, like Socrates and Heraclitus among the Greeks.
+  record_words: and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus
+  construction: '''Reasonably'' means with reason, the Logos (rendered ''lived by reason''; not_for bars goodness of any kind); the sentence reads it as fairly decently.'
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.ignatius-truly-born
+  sentence: Ignatius insisted that Christ was truly raised from the dead, his Father hurrying him along, as the Father will raise us who believe.
+  record_words: He was also truly raised from the dead, His Father quickening Him
+  construction: '''Quickening'' means bringing to life (rendered ''his Father brought him back to life''); the sentence reads it as speeding him along.'
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.they-appointed-the-first-fruits
+  sentence: Clement wrote that, preaching through the cities, the apostles showed by the Spirit that their first converts were bishops and deacons for later believers.
+  record_words: they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe.
+  construction: '''Proved'' means tested (rendered ''after testing them by the Spirit''); the sentence reads it as demonstrated, so the apostles show the converts were bishops and deacons.'
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.justin-flame-kindled
+  sentence: Turning the old man's words over, Justin found this philosophy alone to be safe and financially rewarding, and so he became a philosopher.
+  record_words: I found this philosophy alone to be safe and profitable.
+  construction: '''Profitable'' means useful (rendered ''safe and useful''); the sentence reads it as financially rewarding.'
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.they-appointed-those-already-mentioned
+  sentence: Clement wrote that the apostles ordered other approved men to take over the ministry whenever the appointed ministers went to sleep.
+  record_words: that when these should fall asleep, other approved men should succeed them in their ministry.
+  construction: '''Fall asleep'' means die (rendered ''When these men died''); the sentence reads it as going to sleep.'
+- seed_type: false_friend
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.polycrates-to-victor
+  sentence: Polycrates told Victor that in his sixty-five years in the Lord he had agreed with the brothers in every part of the world.
+  record_words: have fallen in with the brethren in all parts of the world
+  construction: '''Fallen in with'' means met (rendered ''I have met the brothers''); the sentence reads it as agreed with.'
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.permitted-to-erect-churches
+  sentence: Socrates reports that the angry king had nearly all the magi wiped out, then let Maruthas build churches wherever he wished.
+  record_words: the king commanded that the tribe of the magi should be decimated
+  construction: '''Decimated'' means one in every ten put to death (rendered so); the sentence reads it as nearly all wiped out.'
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.tatian-barbaric-writings
+  sentence: Seeking the truth alone, Tatian came upon some savage writings, too old to compare with Greek opinion and too divine for its errors.
+  record_words: I happened to meet with certain barbaric writings, too old to be compared with the opinions of the Greeks, and too divine to be compared with their errors
+  construction: '''Barbaric'' means non-Greek (rendered ''non-Greek writings''); the sentence reads it as savage.'
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.tatian-born-assyrian
+  sentence: Writing to the Greeks, Tatian called himself a follower of the brutish philosophy, born in the land of the Assyrians.
+  record_words: I Tatian, a disciple of the barbarian philosophy
+  construction: '''Barbarian'' means non-Greek, Tatian''s own name for Christianity taken from the Greek usage; the sentence reads it as brutish.'
+- seed_type: false_friend
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.basil-credits-a-syrian
+  sentence: Basil credits a Syrian who said that by 'was borne' the Syrians understand that the Spirit held the nature of the waters dear.
+  record_words: it cherished the nature of the waters as one sees a bird cover the eggs with her body and impart to them vital force from her own warmth.
+  construction: '''Cherished'' means warmed and fostered, as a bird warms her eggs and gives them life; the sentence reads it as held dear.'
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.the-time-of-the-sword
+  sentence: Luther told the rulers to go on untroubled and, with a good conscience, lounge about as long as their hearts still beat.
+  record_words: with a good conscience lay about them as long as their hearts still beat
+  construction: '''Lay about them'' means strike out on every side (rendered ''strike out all around them''); the sentence reads it as lounging idly.'
+- seed_type: false_friend
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.your-own-judges
+  sentence: Luther told the peasants that their rebellion went against the Gospel, against natural law, and against all rights of ownership.
+  record_words: That is contrary not only to Christian law and the Gospel, but also to natural law and all equity.
+  construction: '''Equity'' means plain fairness (rendered ''all fairness''; the lens rules out money or shares); the sentence reads it as rights of ownership.'
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.they-went-out-from-us-but-were-not-of-us
+  sentence: Augustine taught that when temptation blows on those who are not of us, they fly off to foreign lands, because they were never grain.
+  record_words: When temptation comes to them as if blown by a wind they fly abroad; because they were not grain.
+  construction: '''Fly abroad'' means scatter (rendered ''they fly off''); the sentence reads ''abroad'' as to foreign lands.'
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.the-old-man-nailed-to-the-cross-speaks
+  sentence: Augustine says it is an elderly man nailed to the Cross who speaks here, not even knowing why God has forsaken him.
+  record_words: For it is the old man nailed to the Cross that speaks, ignorant even of the reason why God hath forsaken him
+  construction: '''The old man'' is the old self (rendered ''the old self''); the sentence reads it as an elderly man.'
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.bishop-of-bishops
+  sentence: Cyprian said that only Christ has the power to like some of us better than others in governing his Church, and to judge our conduct.
+  record_words: who is the only one that has the power both of preferring us in the government of His Church, and of judging us in our conduct there.
+  construction: '''Preferring'' means placing or appointing (rendered ''to place us in the government''); the sentence reads it as liking some better than others.'
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.chosen-while-still-a-neophyte
+  sentence: Pontius says that even as a newly baptized beginner, Cyprian showed such an openhanded nature that he promised to be wholly trustworthy.
+  record_words: a generous disposition so shone forth in him
+  construction: '''Generous'' means noble (rendered ''a noble nature''); the sentence reads it as openhanded.'
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.such-a-one-with-his-friends
+  sentence: Cyprian warned that one vague certificate could bring us twenty or thirty people, said to be the man's neighbours, business contacts, freedmen and servants.
+  record_words: who may be asserted to be neighbours and connections, and freedmen and servants, of the man who receives the certificate.
+  construction: '''Connections'' means relatives by marriage (rendered ''in-laws''); the sentence reads it as business contacts.'
+- seed_type: false_friend
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.a-dreadful-plague-broke-out
+  sentence: Pontius tells that when the plague struck, people fled the contagion and wickedly put out their own companions, as if that could shut out death.
+  record_words: impiously exposing their own friends, as if with the exclusion of the person who was sure to die of the plague, one could exclude death itself also.
+  construction: '''Friends'' means kin and household (rendered ''their own people''; not_for bars companions); the sentence reads it as companions.'
+- seed_type: false_friend
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.quote.taught-better-from-scripture
+  sentence: Zwingli owned up to having preached his articles in Zurich on the Scriptures, and would be taught better only from those Scriptures.
+  record_words: I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich
+  construction: '''Confess'' means declare (rendered ''I ... declare''); the sentence reads it as admitting a fault.'
+- seed_type: false_friend
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.quote.christ-the-mirror-of-election
+  sentence: Bullinger's confession rejects those who look to Christ himself to find out whether they are chosen.
+  record_words: We reject those who seek out of Christ whether they are chosen
+  construction: '''Out of Christ'' means apart from Christ (rendered ''apart from Christ''); the sentence reads it as seeking from Christ.'

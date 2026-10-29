@@ -19,6 +19,7 @@ work: On the Lapsed (De lapsis)
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: Cyprian of Carthage, On the Lapsed (De lapsis), Ante-Nicene Fathers vol. V
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: corpus map / cic/corpus-map/donatism.yaml / 2026-09-01; corpus map role `antecedent`,

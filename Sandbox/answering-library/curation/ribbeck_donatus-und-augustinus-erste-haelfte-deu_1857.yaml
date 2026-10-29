@@ -1,0 +1,229 @@
+file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
+scheme: 'Ribbeck''s three Theile (Erster, Zweiter, Dritter), each in Capitel numbered in words (Erstes, Zweites and so on) and, where the edition prints them, Abschnitte (Erster, Zweiter, Dritter), addressed T<Theil>/c<Capitel>/a<Abschnitt>; inside Zweiter Theil Capitel 4 the printed Erstes, Zweites and Drittes Buch, and inside Dritter Theil Capitel 1 Abschnitt 2 the printed Erster, Zweiter and Dritter Tag; the scan repeats the opening pages of Erster Theil Capitel 5 (second copy addressed by its line) and lacks printed pages 153 to 161, so the stretch from the printed page number 162 is addressed T1/page162; Vorrede, Einleitung, Inhalts-Verzeichniss and Druckfehler as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 124
+    locus: vorrede
+  - start_line: 229
+    locus: einleitung
+  - start_line: 469
+    locus: T1/c1/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 830
+    locus: T1/c1/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 1520
+    locus: T1/c1/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 2327
+    locus: T1/c2/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 2857
+    locus: T1/c2/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 3209
+    locus: T1/c2/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 3331
+    locus: T1/c3/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 3506
+    locus: T1/c3/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 4957
+    locus: T1/c3/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 5260
+    locus: T1/c4/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 5900
+    locus: T1/c4/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 6686
+    locus: T1/c4/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 6790
+    locus: T1/c5
+  - start_line: 6866
+    locus: T1/c5/line6866
+  - start_line: 6903
+    locus: T1/page162
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 8155
+    locus: T1/c7/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 8429
+    locus: T1/c7/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 8777
+    locus: T1/c7/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 10204
+    locus: T1/c8/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 10983
+    locus: T1/c8/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 11633
+    locus: T2/c1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 13037
+    locus: T2/c2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 13703
+    locus: T2/c3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 14127
+    locus: T2/c4
+  - start_line: 14738
+    locus: T2/c4/buch1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 17326
+    locus: T2/c4/buch2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 18431
+    locus: T2/c4/buch3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 18951
+    locus: T2/c5/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 19121
+    locus: T2/c5/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 19733
+    locus: T2/c5/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 21276
+    locus: T2/c6/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 22597
+    locus: T2/c6/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 23282
+    locus: T3/c1/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 23682
+    locus: T3/c1/a2
+  - start_line: 24169
+    locus: T3/c1/a2/tag1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 24856
+    locus: T3/c1/a2/tag2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 25174
+    locus: T3/c1/a2/tag3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 27621
+    locus: T3/c2/a1
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 27797
+    locus: T3/c2/a2
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 28003
+    locus: T3/c2/a3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 28369
+    locus: T3/c3
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+  - start_line: 29828
+    locus: T3/c4
+    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+ignore:
+  - pattern: '^[—\-_^■\.\'' ]{1,6}\d{1,3}[—\-_■ \.]{1,6}$'
+    kind: running-head
+apparatus:
+  - lines: [12, 123]
+    kind: front
+    locus: front
+  - lines: [30221, 31111]
+    kind: index
+    locus: inhalts-verzeichniss
+  - lines: [31112, 31173]
+    kind: notes
+    locus: druckfehler
+evidence:
+  - line: 124
+    quote: 'Vorrede.'
+  - line: 229
+    quote: 'Einleitung.'
+  - line: 469
+    quote: 'Erster Theil.'
+  - line: 473
+    quote: 'Erstes CapiteL'
+  - line: 477
+    quote: 'Erster Abschnitt'
+  - line: 830
+    quote: 'Zweiter Absdinitt'
+  - line: 1520
+    quote: 'Dritter Abschnitt.'
+  - line: 2327
+    quote: 'Zweites Capitel.'
+  - line: 2857
+    quote: 'Zweiter Abscknitt.'
+  - line: 3331
+    quote: 'Drittes Capitel.'
+  - line: 4957
+    quote: 'Dritter Abschnitt.'
+  - line: 5260
+    quote: 'Viertes Capitel.'
+  - line: 6686
+    quote: 'Dritter Abschnitt.'
+  - line: 6790
+    quote: 'FQnftes Capitel;'
+  - line: 6866
+    quote: 'Fünftes Capitel.'
+  - line: 6901
+    quote: '— 162 —'
+  - line: 8155
+    quote: 'siebentes Capitel.'
+  - line: 8777
+    quote: 'Dritter Absdmitt'
+  - line: 10204
+    quote: 'Achtes Capitel.'
+  - line: 10983
+    quote: 'Zweiter Abschnitt.'
+  - line: 11633
+    quote: 'Zweiter Theil.'
+  - line: 11637
+    quote: 'Erstes €apiteL'
+  - line: 13037
+    quote: 'Zweites CapiteL'
+  - line: 13703
+    quote: 'Drittes CapiteL'
+  - line: 14127
+    quote: 'Viertes Capitel.'
+  - line: 14738
+    quote: 'Erstes Buch.'
+  - line: 17326
+    quote: 'Zweites Buch.'
+  - line: 18431
+    quote: 'Drittes Buch.'
+  - line: 18951
+    quote: 'Fünftes Capitel.'
+  - line: 19121
+    quote: 'Zweiter Atadiitt.'
+  - line: 21276
+    quote: 'Sechstes Capitel.'
+  - line: 22597
+    quote: 'Zweiter ibschnitt.'
+  - line: 23282
+    quote: 'Dritter TheiL'
+  - line: 24169
+    quote: 'Erster Tag.'
+  - line: 24856
+    quote: 'Zweiter Tag.'
+  - line: 25174
+    quote: 'Dritter Tag.'
+  - line: 27621
+    quote: 'Zweites Gapiteh'
+  - line: 27797
+    quote: 'ZweHor Absdmitt.'
+  - line: 28003
+    quote: 'Dritter Abschnitt.'
+  - line: 28369
+    quote: 'Drittes Ca|>iteL'
+  - line: 29828
+    quote: 'Viertes Capitel.'
+  - line: 30221
+    quote: 'Inhalts-Verzeichniss.'

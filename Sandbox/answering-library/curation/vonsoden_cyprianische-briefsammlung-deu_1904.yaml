@@ -1,0 +1,273 @@
+file: vonsoden_cyprianische-briefsammlung-deu_1904.txt
+scheme: 'von Soden''s paragraph numbers § 1 to § 20, printed as § and an arabic numeral at the head of each paragraph, with his own sub-numbers 1 and 2 under § 4, § 13, § 14 and § 16 (inside § 13 part 1 and § 14 part 1 the edition heads each codex group with a Greek siglum and codex numbers that the scan does not read reliably, so those groups are addressed by heading line number); the appendix Exkurs I to IV (Exkurs I with sub-numbers 1 and 2, Exkurs II with items 1 to 26); the Literaturverzeichnis and Handschriftenverzeichnis as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 497
+    locus: s1
+  - start_line: 694
+    locus: s2
+  - start_line: 1476
+    locus: s3
+  - start_line: 1718
+    locus: s4/1
+  - start_line: 1898
+    locus: s4/2
+  - start_line: 2413
+    locus: s5
+  - start_line: 3210
+    locus: s6
+  - start_line: 3284
+    locus: s7
+  - start_line: 4273
+    locus: s8
+  - start_line: 4391
+    locus: s9
+  - start_line: 4508
+    locus: s10
+  - start_line: 4763
+    locus: s11
+  - start_line: 4916
+    locus: s12
+  - start_line: 5154
+    locus: teil2-II-vorbemerkung
+  - start_line: 5227
+    locus: s13/1/line5229
+  - start_line: 5642
+    locus: s13/1/line5642
+    title: 'ß. 20. 20. 40.'
+  - start_line: 5894
+    locus: s13/1/line5894
+    title: '85. 220. 327.'
+  - start_line: 5915
+    locus: s13/1/line5915
+    title: '221. 221. 250.'
+  - start_line: 5965
+    locus: s13/1/line5965
+    title: '222. 222. 230. 251. 569. 571. 641.'
+  - start_line: 6152
+    locus: s13/1/line6152
+    title: '223. 223. 324.'
+  - start_line: 6296
+    locus: s13/1/line6296
+    title: '7. 80. 80. 320. 141.'
+  - start_line: 6591
+    locus: s13/1/line6591
+    title: '(J. 504. 504. 521. 522. 527. Dan.'
+  - start_line: 6725
+    locus: s13/2
+  - start_line: 7121
+    locus: s14/1/line7126
+  - start_line: 7304
+    locus: s14/1/line7304
+    title: 'ß. 50. 50. 56.'
+  - start_line: 7455
+    locus: s14/1/line7455
+    title: 'y. 83.'
+  - start_line: 7537
+    locus: s14/1/line7537
+    title: 'd. 90. 90. 270. 355. 415. 525. — 501. 506. 526. 560. —'
+  - start_line: 7636
+    locus: s14/1/line7636
+    title: '€. 100. 100. 513. 520. 528, 578. — 530. 531. 533. 529. 546,'
+  - start_line: 7862
+    locus: s14/1/line7862
+    title: '£. 227. — 227. 419. 576.'
+  - start_line: 7960
+    locus: s14/1/line7960
+    title: 'Tj. 252. 252. 255. 256. 580.'
+  - start_line: 8047
+    locus: s14/1/line8047
+    title: '^. 284. 234. 4?0.'
+  - start_line: 8180
+    locus: s14/1/line8180
+    title: 'i. 224. 224. 225. 226. 510. — 325. 517. — 231. 534.'
+  - start_line: 8317
+    locus: s14/1/line8317
+    title: 'X. 505. 505. 518. 523. 524. ''537. 548. 572. — 417. — 545. —'
+  - start_line: 8487
+    locus: s14/1/line8487
+    title: 'X. 539. 539. 566.'
+  - start_line: 8536
+    locus: s14/1/line8536
+    title: 'fi. 511. 511. 573. 57O2.'
+  - start_line: 8707
+    locus: s14/1/line8707
+    title: 'V, 410.'
+  - start_line: 8733
+    locus: s14/1/line8733
+    title: 'g. 421.'
+  - start_line: 8837
+    locus: s14/1/line8837
+    title: 'o. 435.'
+  - start_line: 8860
+    locus: s14/1/line8860
+    title: 'n. 565.'
+  - start_line: 8890
+    locus: s14/1/line8890
+    title: 'Q. 591.'
+  - start_line: 8938
+    locus: s14/1/line8938
+    title: 'o. 536.'
+  - start_line: 8999
+    locus: s14/1/line8999
+    title: 'T. 540.'
+  - start_line: 9042
+    locus: s14/1/line9042
+    title: 't\ RyL'
+  - start_line: 9077
+    locus: s14/1/line9077
+    title: '9). 1. 1. 590.'
+  - start_line: 9600
+    locus: s14/2
+  - start_line: 9910
+    locus: s15
+  - start_line: 10029
+    locus: s16/1
+  - start_line: 10134
+    locus: s16/2
+  - start_line: 10393
+    locus: s17
+  - start_line: 10465
+    locus: s18
+  - start_line: 10503
+    locus: s19
+  - start_line: 10773
+    locus: s20
+  - start_line: 10989
+    locus: exkurs1/1
+  - start_line: 11080
+    locus: exkurs1/2
+  - start_line: 11344
+    locus: exkurs2/0
+  - start_line: 11383
+    locus: exkurs2/1
+  - start_line: 11677
+    locus: exkurs2/2
+  - start_line: 11770
+    locus: exkurs2/3
+  - start_line: 11827
+    locus: exkurs2/4
+  - start_line: 11942
+    locus: exkurs2/5
+  - start_line: 11967
+    locus: exkurs2/6
+  - start_line: 11984
+    locus: exkurs2/7
+  - start_line: 12067
+    locus: exkurs2/8
+  - start_line: 12127
+    locus: exkurs2/9
+  - start_line: 12166
+    locus: exkurs2/10
+  - start_line: 12204
+    locus: exkurs2/11
+  - start_line: 12249
+    locus: exkurs2/12
+  - start_line: 12306
+    locus: exkurs2/13
+  - start_line: 12321
+    locus: exkurs2/14
+  - start_line: 12326
+    locus: exkurs2/15
+  - start_line: 12349
+    locus: exkurs2/16
+  - start_line: 12400
+    locus: exkurs2/17
+  - start_line: 12418
+    locus: exkurs2/18
+  - start_line: 12428
+    locus: exkurs2/19
+  - start_line: 12458
+    locus: exkurs2/20
+  - start_line: 12529
+    locus: exkurs2/21
+  - start_line: 12566
+    locus: exkurs2/22
+  - start_line: 12578
+    locus: exkurs2/23
+  - start_line: 12607
+    locus: exkurs2/24
+  - start_line: 12654
+    locus: exkurs2/25
+  - start_line: 12700
+    locus: exkurs2/26
+  - start_line: 12771
+    locus: exkurs3
+  - start_line: 12924
+    locus: exkurs4
+  - start_line: 13454
+    locus: handschriftenverzeichnis
+  - start_line: 14850
+    locus: erklaerungen-tabellen
+ignore:
+  - pattern: '^(?:\S{1,6} ){1,2}Soden,? Die \S+ \S+$'
+    kind: running-head
+  - pattern: '^§+ ?\S{1,3}[\.,]? (?!.*§).{6,} [0-9IlQgj|\'']{1,5}\.?$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+apparatus:
+  - lines: [12, 496]
+    kind: front
+    locus: front
+  - lines: [13007, 13453]
+    kind: index
+    locus: literaturverzeichnis
+  - lines: [13454, 14849]
+    kind: index
+    locus: handschriftenverzeichnis
+  - lines: [15020, 15033]
+    kind: notes
+    locus: berichtigung
+evidence:
+  - line: 497
+    quote: 'Einleitung.'
+  - line: 500
+    quote: '§ 1. Die Aufgabe (Interesse).'
+  - line: 694
+    quote: '§ 2. Gang der Untersuchung (Methode).'
+  - line: 1476
+    quote: '§ 3. Der Charakter der Briefe'
+  - line: 1718
+    quote: '§ 4. Exkurs über die Vollständigkeit'
+  - line: 1898
+    quote: '2. Wir sind schon früher auf die Tatsache aufmerksam ge-'
+  - line: 2413
+    quote: 'AnsätzevonSammlungeninderKorrespondenz selbst.'
+  - line: 3210
+    quote: '§ 6. Zusammenfassung der an den Briefen selbst'
+  - line: 5227
+    quote: '§ 13. Die Archetypi.'
+  - line: 5642
+    quote: 'ß. 20. 20. 40.'
+  - line: 6725
+    quote: '2. Die sammlungsgeschichtliche Stellung der Archetypi.'
+  - line: 7121
+    quote: '§ 14. Die abhängigen Typen und Codices.'
+  - line: 7455
+    quote: 'y. 83.'
+  - line: 9600
+    quote: '2. Die Geschichte der Sammlung in der Überliefe^'
+  - line: 9913
+    quote: '§ 15. Ihr Bestand und ihr Wert für die Sammlungs-'
+  - line: 10773
+    quote: '§ 20. Gesamtergebnisse. Bleibende Aufgaben.'
+  - line: 10989
+    quote: 'Exkurs I. Zur Überlieferung der echten libelli.'
+  - line: 11344
+    quote: 'Exkurs n. Zur Überlieferung der Opera spuria.'
+  - line: 11383
+    quote: '1. Quod idola dii non sinV^'
+  - line: 12700
+    quote: '26. Anhang zu Exkurs II: Die Überlieferung der vita'
+  - line: 12771
+    quote: 'Exkurs III; Über echte, außerhalb eigentlicher'
+  - line: 12924
+    quote: 'Exkurs IV. Handschriftlich überlieferte Über-'
+  - line: 13007
+    quote: 'Literaturverzeichnis,'
+  - line: 13454
+    quote: 'HandschrifteiiYerzeiclmis.'
+  - line: 14850
+    quote: 'Erklärungen zu den Tabellen IV— VI.'

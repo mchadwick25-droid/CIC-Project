@@ -6,8 +6,9 @@ from __future__ import annotations
 
 import re
 import statistics
-import unicodedata
 from dataclasses import dataclass, field
+
+from . import ordinals
 
 PAGE_WORDS = (80, 800)
 HEADER_KEYS = frozenset({
@@ -57,28 +58,20 @@ for _canon, _variants in _KEYWORDS.items():
     for _v in _variants.split():
         KEYWORD_CANON.setdefault(_v, _canon)
 
-_ORDINALS = {
-    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5, "sixth": 6, "seventh": 7,
-    "eighth": 8, "ninth": 9, "tenth": 10, "eleventh": 11, "twelfth": 12,
-    "primus": 1, "secundus": 2, "tertius": 3, "quartus": 4, "quintus": 5, "sextus": 6,
-    "septimus": 7, "octavus": 8, "nonus": 9, "decimus": 10,
-    "primum": 1, "secundum": 2, "tertium": 3, "quartum": 4, "quintum": 5,
-    "premier": 1, "premiere": 1, "second": 2, "seconde": 2, "troisieme": 3, "quatrieme": 4,
-    "erste": 1, "zweite": 2, "dritte": 3, "vierte": 4, "funfte": 5, "sechste": 6,
-}
-
 _ROMAN_VALUES = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
-_ROMAN_ANY = re.compile(r"^[IVXLCDM]{1,8}$")
-_ROMAN_ANY_CI = re.compile(r"^[IVXLCDMivxlcdm]{1,8}$")
-_NUM_TOKEN = re.compile(r"^(?:[IVXLCDMivxlcdm]{1,8}|\d{1,4}[a-z]?|[^\W\d_]{3,10}|[α-ωΑ-Ω]{1,4}[ʹ΄'’′])$")
+ROMAN_MAX_LENGTH = 15  # MMMDCCCLXXXVIII, 3888, the longest numeral under 4000
+_ROMAN_ANY = re.compile(r"^[IVXLCDM]{1,%d}$" % ROMAN_MAX_LENGTH)
+_ROMAN_SHAPE = re.compile(r"^M{0,3}(?:CM|CD|D?C{0,4})(?:XC|XL|L?X{0,4})(?:IX|IV|V?I{0,4})$", re.I)
+_NUM_TOKEN = re.compile(r"^(?:[IVXLCDMivxlcdm]{1,%d}|\d{1,4}[a-z]?|[^\W\d_]{3,10}|[α-ωΑ-Ω]{1,4}[ʹ΄'’′])$"
+                        % ROMAN_MAX_LENGTH)
 _GREEK_DIGITS = {"α": 1, "β": 2, "γ": 3, "δ": 4, "ε": 5, "ϛ": 6, "ζ": 7, "η": 8, "θ": 9, "ι": 10, "κ": 20,
                  "λ": 30, "μ": 40, "ν": 50, "ξ": 60, "ο": 70, "π": 80, "ϙ": 90, "ρ": 100, "σ": 200,
                  "ς": 200, "τ": 300, "υ": 400, "φ": 500, "χ": 600, "ψ": 700, "ω": 800}
 _KW_LINE = re.compile(
     r"^\s{0,24}(?:(?:[IVXLC]{1,6}|\d{1,3})[.)]\s+)?(?P<kw>[^\W\d_]{2,12})\.?\s+(?P<num>\S{1,10}?)(?P<rest>[\s.,:;)\-—–*].*|)$"
 )
-_BARE_LINE = re.compile(r"^\s{0,32}[\[(]?(?P<num>[IVXLCDM]{1,8}|\d{1,4})[\])]?[.)]?\s*$")
-_NUMTITLE_LINE = re.compile(r"^\s{0,16}(?P<num>[IVXLCDM]{1,8}|\d{1,3})[.)]\s+(?P<t>[A-ZÀ-ÞΑ-ΩЀ-Я«“\"'].{2,80})$")
+_BARE_LINE = re.compile(r"^\s{0,32}[\[(]?(?P<num>[IVXLCDM]{1,15}|\d{1,4})[\])]?[.)]?\s*$")
+_NUMTITLE_LINE = re.compile(r"^\s{0,16}(?P<num>[IVXLCDM]{1,15}|\d{1,3})[.)]\s+(?P<t>[A-ZÀ-ÞΑ-ΩЀ-Я«“\"'].{2,80})$")
 _SECTION_LINE = re.compile(r"^\s{0,8}§\s*(?P<num>\d{1,4})")
 _NUMPARA_LINE = re.compile(r"^\s{0,8}(?P<num>\d{1,4})[.)]\s+\S")
 _BRACKET_LINE = re.compile(r"^\s{0,8}\[(?P<num>\d{1,4})\]\s*\S")
@@ -100,14 +93,13 @@ APPARATUS_HEADING = re.compile(
 
 
 def norm_key(s: str) -> str:
-    s = unicodedata.normalize("NFD", s.lower())
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    return (s.replace("ſ", "s").replace("v", "u").replace("j", "i").replace("’", "").replace("'", "")
-            .replace("ς", "σ"))
+    return ordinals.fold(s)
 
 
 def roman_value(tok: str) -> int | None:
-    if not _ROMAN_ANY_CI.match(tok):
+    """A Roman numeral, upper or lower case, below 4000. Additive forms (IIII, XXXX)
+    count; anything that is not shaped like a numeral (VX, IIX, MIXLCD) does not."""
+    if not 1 <= len(tok) <= ROMAN_MAX_LENGTH or not _ROMAN_SHAPE.match(tok):
         return None
     total = 0
     vals = [_ROMAN_VALUES[c.lower()] for c in tok]
@@ -123,9 +115,9 @@ def number_value(tok: str) -> int | None:
     m = re.match(r"^(\d{1,4})[a-z]$", t)
     if m:
         return int(m.group(1))
-    key = norm_key(t)
-    if key in _ORDINALS:
-        return _ORDINALS[key]
+    ordinal = ordinals.ordinal_value(t)
+    if ordinal is not None:
+        return ordinal
     g = re.match(r"^([α-ωΑ-Ω]{1,4})[ʹ΄'’′]$", t.strip())
     if g:
         letters = g.group(1).lower()

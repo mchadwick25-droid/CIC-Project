@@ -20,6 +20,7 @@ edition: Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appe
   vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appendix), ed. Roberts & Donaldson
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: 'Source Registry row 8; corpus map / cic/corpus-map/donatism.yaml, role: antecedent,

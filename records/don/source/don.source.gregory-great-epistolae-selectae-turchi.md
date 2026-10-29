@@ -23,6 +23,7 @@ work: 'Bibliotheca Sanctorum Patrum et Scriptorum Ecclesiasticorum, Series VII, 
 edition: cic/texts/gregory-great_epistolae-selectae_turchi1907.txt
 citation: Gregory the Great, Sancti Gregorii Magni Epistolae Selectae, ed. Nicola Turchi, Bibliotheca Sanctorum Patrum et Scriptorum Ecclesiasticorum, Series VII, Voluminis I Pars I (Rome, 1907)
 kind: vendored
+shelf_row: gregory-great_epistolae-selectae_turchi1907--epistolae-selectae-selected-letters-concerning-the-african
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: Source Registry row 54; direct text search / grep and read against the vendored file,

@@ -1,0 +1,44 @@
+file: toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt
+scheme: 'Toulotte''s Numidie volume: an unnumbered introduction on the province, then the sees in alphabetical order, each opened by a roman numeral, a dash and the see''s name in capitals; the entry numerals are damaged in many places in the scan and some runs of pages are repeated, so each see is addressed by its printed name and the line of its heading (see-<name>-<line>); the Liste of the bishops of Numidie at the Conference of Carthage and the Noms list as printed'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: see
+    pattern: '^\.? ?[IVXLCGOl1ilJ]{1,9}\.? ?[—–-]+ ?(?P<name>[A-ZÉÈ][A-ZÉÈÏËÂÔÎ0-9\^\.\x27’ ’\-]*?)\.? ?$'
+    lines: [1341, 16849]
+    locus: 'see-{name|slug}-{line}'
+    title: '{name}'
+divisions:
+  - start_line: 233
+    locus: introduction
+  - start_line: 16850
+    locus: liste-411
+ignore:
+  - pattern: '^[—–\-_ ]{1,3} ?\d{1,3} ?[—–\-_ ]{1,3}$'
+    kind: running-head
+apparatus:
+  - lines: [12, 232]
+    kind: front
+    locus: front
+  - lines: [17119, 20347]
+    kind: index
+    locus: noms
+evidence:
+  - line: 233
+    quote: 'L''AFRIQUE CHRÉTIENNE'
+  - line: 1341
+    quote: 'I. — CIRTA.'
+  - line: 3394
+    quote: 'XXIII. — BVRCA.'
+  - line: 5010
+    quote: 'XLII. — CELERINA.'
+  - line: 12032
+    quote: 'GXXXIII. — RESSIANA.'
+  - line: 16429
+    quote: 'GLXXXVIII. — VISA.'
+  - line: 16824
+    quote: 'CXCV. — ZERTA II.'
+  - line: 16850
+    quote: 'LISTE'
+  - line: 17119
+    quote: 'NOMS'

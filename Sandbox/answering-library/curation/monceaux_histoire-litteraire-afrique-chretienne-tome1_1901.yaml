@@ -1,0 +1,182 @@
+file: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+scheme: 'Monceaux''s two Livres (Premier, Deuxième) with their Chapitres numbered in roman numerals (Chapitre I to III in Livre Premier, I to VIII in Livre Deuxième) and, inside each chapter, the sections numbered I, II, III and so on, each opened by its numeral and an italic summary of its contents; addressed l<Livre>/c<Chapitre>/s<section>. Where the scan has dropped a section''s numeral the section is read from the same heading in the Table des matières, which prints it; Préface and Table des matières as printed'
+curator: Sonnet 5.5
+status: drafted
+divisions:
+  - start_line: 81
+    locus: preface
+  - start_line: 369
+    locus: l1/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 1011
+    locus: l1/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 2213
+    locus: l1/c1/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 3858
+    locus: l1/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 4336
+    locus: l1/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 4820
+    locus: l1/c2/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 5490
+    locus: l1/c2/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 7243
+    locus: l1/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 7800
+    locus: l1/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 9562
+    locus: l1/c3/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 12221
+    locus: l1/c3/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 14590
+    locus: l1/c3/s5
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 15151
+    locus: l2/c1/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 15785
+    locus: l2/c1/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 16247
+    locus: l2/c1/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 17736
+    locus: l2/c2/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 20127
+    locus: l2/c2/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 22365
+    locus: l2/c3/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 22856
+    locus: l2/c3/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 25094
+    locus: l2/c4/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 25644
+    locus: l2/c4/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 26570
+    locus: l2/c5/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 27384
+    locus: l2/c5/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 28219
+    locus: l2/c5/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 28375
+    locus: l2/c6/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 29459
+    locus: l2/c6/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 30717
+    locus: l2/c7
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 32136
+    locus: l2/c8/s1
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 33098
+    locus: l2/c8/s2
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 34294
+    locus: l2/c8/s3
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+ignore:
+  - pattern: '^(?:\d{1,3} )?[A-ZÉÈÀÇÂÎÔÛ«»''’\"\-\.,:\d ]{6,70}? \S*\d\S*$'
+    kind: running-head
+  - pattern: '^_{20,}$'
+    kind: furniture
+apparatus:
+  - lines: [12, 80]
+    kind: front
+    locus: front
+  - lines: [34732, 35025]
+    kind: index
+    locus: table-des-matieres
+evidence:
+  - line: 81
+    quote: 'PRÉFACE'
+  - line: 369
+    quote: 'LIVRE PREMIER'
+  - line: 378
+    quote: 'CHAPITRE J'
+  - line: 388
+    quote: 'I'
+  - line: 1011
+    quote: 'II'
+  - line: 2213
+    quote: 'III'
+  - line: 3858
+    quote: 'CHAPITRE II'
+  - line: 4336
+    quote: 'II'
+  - line: 4820
+    quote: 'Les Actes des Scillitains. — Date du martyre. — Le procès. — Découvertes suc-'
+  - line: 5490
+    quote: 'IV'
+  - line: 7243
+    quote: 'CHAPITRE III'
+  - line: 7800
+    quote: 'II'
+  - line: 9562
+    quote: 'III'
+  - line: 12221
+    quote: 'IV'
+  - line: 14590
+    quote: 'Conclusion. — Les textes « africains - proprement dits.'
+  - line: 15151
+    quote: 'LIVRE DEUXIÈME'
+  - line: 15166
+    quote: 'I'
+  - line: 15785
+    quote: 'II'
+  - line: 16247
+    quote: 'III'
+  - line: 17736
+    quote: 'CHAPITRE II'
+  - line: 20127
+    quote: 'II'
+  - line: 22365
+    quote: 'CHAPITRE III'
+  - line: 22856
+    quote: 'II'
+  - line: 25094
+    quote: 'CHAPITRE IV'
+  - line: 25644
+    quote: 'II'
+  - line: 26570
+    quote: 'CHAPITRE Y'
+  - line: 26576
+    quote: '1'
+  - line: 27384
+    quote: 'Il'
+  - line: 28219
+    quote: 'III'
+  - line: 28375
+    quote: 'CHAPITRE VI'
+  - line: 29459
+    quote: 'II'
+  - line: 30717
+    quote: 'CHAPITRE VII'
+  - line: 32136
+    quote: 'CHAPITRE VIII'
+  - line: 33098
+    quote: 'II'
+  - line: 34294
+    quote: 'III'
+  - line: 34732
+    quote: 'TABLE DES MATIÈRES'

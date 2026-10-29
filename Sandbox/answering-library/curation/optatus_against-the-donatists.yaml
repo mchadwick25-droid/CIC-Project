@@ -1,0 +1,76 @@
+file: optatus_against-the-donatists.txt
+scheme: 'Optatus Books I to VII (printed BOOK THE FIRST to BOOK THE SEVENTH) with the chapters printed as roman numerals in each book; the Appendix documents printed as APPENDIX I to XVI; Appendix II (Gesta apud Zenophilum) prints no numbered divisions and stands as one unit'
+curator: Sonnet 5.5
+status: needs-redo
+rules:
+  - id: book
+    pattern: '^BOOK THE (?P<b>FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)$'
+    lines: [25, 5028]
+    locus: 'book-{b|lower}'
+  - id: chapter
+    parent: book
+    pattern: '^(?P<c>[IVXLC]+)\. '
+    lines: [26, 5028]
+    locus: 'ch{c|int}'
+    number: c
+  - id: appendix
+    pattern: '^APPENDIX[ -]*(?P<a>[IVXLC]+)\b'
+    lines: [5467, 7375]
+    locus: 'appendix{a|int}'
+    number: a
+    allow_oversize: 'Appendix II, the Gesta apud Zenophilum, is a single continuous record of one hearing in question and answer, and the edition prints no numbered division inside it'
+ignore:
+  - pattern: '^APPENDIX TO BOOK III\.\d+$'
+    kind: running-head
+    lines: [2294, 2294]
+apparatus:
+  - lines: [20, 24]
+    kind: front
+    locus: front
+  - lines: [315, 760]
+    kind: notes
+    locus: notes-book-first
+  - lines: [1325, 1820]
+    kind: notes
+    locus: notes-book-second
+  - lines: [2322, 2986]
+    kind: notes
+    locus: notes-book-third
+  - lines: [3282, 3483]
+    kind: notes
+    locus: notes-book-fourth
+  - lines: [3881, 4460]
+    kind: notes
+    locus: notes-book-fifth
+  - lines: [4578, 4835]
+    kind: notes
+    locus: notes-book-sixth
+  - lines: [5029, 5465]
+    kind: notes
+    locus: notes-book-seventh
+  - lines: [5795, 5928]
+    kind: notes
+    locus: notes-appendix-first
+  - lines: [6862, 7083]
+    kind: notes
+    locus: notes-appendix-second
+  - lines: [7376, 7596]
+    kind: notes
+    locus: notes-appendix-third-to-sixteenth
+evidence:
+  - line: 25
+    quote: BOOK THE FIRST
+  - line: 29
+    quote: I.  The Divine Gift of Peace
+  - line: 761
+    quote: BOOK THE SECOND
+  - line: 1307
+    quote: XXVI. Matrons, boys and virgins
+  - line: 4836
+    quote: BOOK THE SEVENTH
+  - line: 5467
+    quote: APPENDIX I.
+  - line: 5929
+    quote: APPENDIX----II
+  - line: 7366
+    quote: APPENDIX XVI. A.D. 312 OR 313
