@@ -186,6 +186,8 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     if record.get("record_type") == "quote":
         card["spoken_rendering"] = record.get("modern_rendering")
         card["speaker"] = _quote_speaker_label(record, repository_records)
+    if record.get("record_type") == "story":
+        card["means"] = (record.get("use_note") or {}).get("means")
     if record.get("record_type") == "modern_term":
         # Carried onto the card the same way a quote's own modern_rendering
         # is above: verbatim, additive, never composed by this function -
