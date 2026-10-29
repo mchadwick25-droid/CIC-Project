@@ -126,10 +126,10 @@
       "status": "running",
       "preflight_usd": 0.4448394,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-syr.jsonl",
-      "probes_answered": 19,
-      "spent_usd_world": 0.477538
+      "probes_answered": 21,
+      "spent_usd_world": 0.521624
     }
   },
   "current": "syr",
-  "checkpoint_at": "2026-10-29T00:09:48Z"
+  "checkpoint_at": "2026-10-29T00:10:03Z"
 }
