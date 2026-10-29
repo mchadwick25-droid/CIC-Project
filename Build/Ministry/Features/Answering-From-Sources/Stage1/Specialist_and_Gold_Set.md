@@ -78,6 +78,7 @@ is given the prompt files only, never the key.
 | `goldset/split.py` | Calibration and held-out halves by hash of id; seal | Done |
 | `goldset/cues.py` | Free pre-screen that draws likely candidates of the rare classes from the pool; a cue never labels | Done; every generalisation and embedded-voice cue labelled; about 1,300 negation and false-friend cues left, at a yield of one to three in a hundred |
 | `goldset/agreement.py`, `goldset/packet.py` | Agreement between the two labellers, and the packets for Mark (disagreements, key classes, random sample) | Packets 1 to 3 (lpc 19, ten other worlds 47, constructed and new natural 20) |
+| `goldset/build.py` | The gold set: labels joined with Mark's rulings (a ruling always wins), each item's origin, label source, bound records with source and locus, and evidence spans | Dry run 2026-10-29: 797 natural (all still the specialist's label), 173 constructed; waits for Mark's rulings |
 | `goldset/constructed.py` | Constructed items for classes the natural sentences leave short, read before use (`constructed/Constructed_Readings.yaml`) | 173 accepted of 263 read |
 
 ## Natural and constructed items, counted apart
