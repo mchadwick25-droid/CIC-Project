@@ -48,6 +48,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
+from engine.m4.orphan_guard import orphaned_sentences
 from engine.m4.output_check import REASON_HORIZON, check_horizon, ungrounded_horizon_mentions
 from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.story_placement import place_stories
@@ -337,8 +338,10 @@ def apply_net(
     conversation has already voiced; None places none, so
     every marker is removed with its sentence. quotable_texts are the words
     the participant side said, which a reply may repeat in quotation marks.
-    net_result carries "reply_shape": the quote records placed, and each
-    sentence removed with why. Each sentence verdict, and each sentence
+    net_result carries "reply_shape": the quote records placed, each
+    sentence removed with why, and the kept sentences a removal left without
+    their referent ("orphaned", engine.m4.orphan_guard; a report, the text
+    is not changed). Each sentence verdict, and each sentence
     removed, carries "draft": the sentence as the voice wrote it, tags and
     quote marker included. Only ok-verdict sentences' tags become
     citations.
@@ -417,6 +420,7 @@ def apply_net(
     net_result["reply_shape"] = {
         "placed": list(dict.fromkeys(rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown)),
         "removed": removed,
+        "orphaned": orphaned_sentences(grounding_net.strip_markdown(raw_text), removed, net_result["sentences"]),
     }
     text = grounding_net.shown_text(tagged, net_result["sentences"])
     citations = [

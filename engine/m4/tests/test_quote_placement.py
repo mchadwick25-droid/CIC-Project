@@ -262,7 +262,7 @@ def test_the_placed_quote_and_a_refer_back_in_the_same_reply_both_stay(syr_recor
         f"Ephrem put it plainly [[quote:{EPHREM_QUOTE}]].\n\nThat is how we sing of his coming [[{EPHREM_QUOTE}]]. {SYR_CLEAN}",
         syr_records,
     )
-    assert net_result["reply_shape"] == {"placed": [EPHREM_QUOTE], "removed": []}
+    assert net_result["reply_shape"] == {"placed": [EPHREM_QUOTE], "removed": [], "orphaned": []}
     assert syr_records[EPHREM_QUOTE]["modern_rendering"].split()[-1] in text
     assert text.endswith(f"That is how we sing of his coming. {SYR_CLEAN_SHOWN}")
 
