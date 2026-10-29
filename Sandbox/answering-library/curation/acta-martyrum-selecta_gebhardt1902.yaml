@@ -1,5 +1,5 @@
 file: acta-martyrum-selecta_gebhardt1902.txt
-scheme: 'Gebhardt 1902: the 22 numbered pieces (I to XXII, a roman numeral above each piece title and in the running heads); inside piece 7 (Perpetua) the chapter numbers the edition prints at the head of the Latin text (lat-ch) and of the Greek text (grc-ch, only where the scan shows the numeral), and inside piece 8 (Pionius) the printed chapter numbers; other pieces are addressed by piece alone'
+scheme: 'Gebhardt 1902 (numerals damaged by the scan are read only with a second printed instance, quoted in evidence): the 22 numbered pieces (I to XXII, a roman numeral above each piece title and in the running heads); inside piece 7 (Perpetua) the chapter numbers the edition prints at the head of the Latin text (lat-ch) and of the Greek text (grc-ch, only where the scan shows the numeral), and inside piece 8 (Pionius) the printed chapter numbers; other pieces are addressed by piece alone'
 curator: Sonnet 5.5
 status: needs-redo
 rules:
@@ -9,27 +9,37 @@ rules:
     locus: 'piece7/lat-ch{c|int}'
     number: c
   - id: perpetua-greek
-    pattern: '^(?:\d{1,2} )?(?P<c>[IVX]+)[.,]? '
-    lines: [[3228, 3228], [3356, 3356], [3370, 3370], [3462, 3462], [3588, 3588], [3637, 3637], [3861, 3861], [3910, 3910], [4128, 4128], [4241, 4241], [4280, 4280], [4329, 4329], [4374, 4374], [4501, 4501], [4549, 4549], [4645, 4645]]
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVXLΙΧ]+)[.,]? '
+    lines: [[3228, 3228], [3356, 3356], [3370, 3370], [3462, 3462], [3588, 3588], [3637, 3637], [3729, 3729], [3821, 3821], [3861, 3861], [3910, 3910], [4043, 4043], [4128, 4128], [4191, 4191], [4241, 4241], [4280, 4280], [4329, 4329], [4374, 4374], [4416, 4416], [4501, 4501], [4549, 4549], [4645, 4645]]
     locus: 'piece7/grc-ch{c|int}'
     number: c
+    fixes:
+      - {line: 3729, set: {c: VII}}
+      - {line: 3821, set: {c: VIII}}
+      - {line: 4043, set: {c: XI}}
+      - {line: 4128, set: {c: XII}}
+      - {line: 4191, set: {c: XIII}}
+      - {line: 4416, set: {c: XVIII}}
   - id: pionius
-    pattern: '^(?P<c>[IVXL]+)\. (?!Martyrium)'
+    pattern: '^(?:\d{1,3} )?(?P<c>[IVXLΙΧ]+|AX)\. (?!Martyrium)'
     lines: [4787, 5672]
     locus: 'piece8/ch{c|int}'
     number: c
+    fixes:
+      - {line: 5132, set: {c: IX}}
+      - {line: 5558, set: {c: XX}}
 divisions:
   - {start_line: 548, locus: 'piece1'}
   - {start_line: 1080, locus: 'piece2'}
   - {start_line: 1290, locus: 'piece3'}
-  - {start_line: 1447, locus: 'piece4', title: 'Passio SS. Scilitanorum'}
-  - {start_line: 1698, locus: 'piece5', title: 'Epistula ecclesiarum Viennensis et Lugdunensis'}
+  - {start_line: 1447, locus: 'piece4'}
+  - {start_line: 1698, locus: 'piece5'}
   - {start_line: 2394, locus: 'piece6'}
-  - {start_line: 3203, locus: 'piece7', title: 'Passio SS. Perpetuae et Felicitatis'}
+  - {start_line: 3203, locus: 'piece7', title: 'Passio SS. Perpetuae et Felicitatis.'}
   - {start_line: 4786, locus: 'piece8'}
-  - {start_line: 5672, locus: 'piece9', title: 'Acta disputationis S. Achatii'}
+  - {start_line: 5672, locus: 'piece9'}
   - {start_line: 5907, locus: 'piece10', title: 'Acta S. Maximi martyris'}
-  - {start_line: 6002, locus: 'piece11', title: 'Acta S. Cypriani episcopi et martyris'}
+  - {start_line: 6002, locus: 'piece11'}
   - {start_line: 6172, locus: 'piece12'}
   - {start_line: 6374, locus: 'piece13'}
   - {start_line: 6931, locus: 'piece14'}
@@ -37,9 +47,9 @@ divisions:
   - {start_line: 7748, locus: 'piece16'}
   - {start_line: 7954, locus: 'piece17'}
   - {start_line: 8451, locus: 'piece18', title: 'Zwei libelli aus dem Jahre 250'}
-  - {start_line: 8530, locus: 'piece19', title: 'Die Inschrift von Arykanda'}
+  - {start_line: 8530, locus: 'piece19', title: 'Die Inschrift von Arykanda (c. 312)'}
   - {start_line: 8679, locus: 'piece20', title: 'Gesta apud Zenophilum'}
-  - {start_line: 9442, locus: 'piece21', title: 'Acta purgationis Felicis episcopi Autumnitani'}
+  - {start_line: 9442, locus: 'piece21'}
   - {start_line: 9890, locus: 'piece22'}
 apparatus:
   - lines: [11, 547]
@@ -83,3 +93,43 @@ evidence:
     quote: 'ΧΧΙ.'
   - line: 9890
     quote: 'XXII.'
+  - line: 3698
+    quote: 'Passio S. Perpetuae VII.'
+  - line: 3729
+    quote: '25 VIL'
+  - line: 3789
+    quote: 'Passio S. Perpetuae VIII.'
+  - line: 3821
+    quote: '25 VII Kai'
+  - line: 4019
+    quote: 'Passio S. Perpetuae ΧΙ.'
+  - line: 4043
+    quote: 'ΧΙ. '
+  - line: 4109
+    quote: 'Passio S. Perpetuae XII.'
+  - line: 4128
+    quote: 'XI. Ko'
+  - line: 4161
+    quote: 'Passio S. Perpetuae XIII.'
+  - line: 4191
+    quote: '20 XII.'
+  - line: 4384
+    quote: 'Perpetuae XVIII.'
+  - line: 4416
+    quote: 'XVII. '
+  - line: 5125
+    quote: 'Pionü IX.'
+  - line: 5132
+    quote: 'ΙΧ. '
+  - line: 5533
+    quote: 'Pionii XX.'
+  - line: 5558
+    quote: 'AX. '
+  - line: 7631
+    quote: 'XV. Passio S, Irenaei'
+  - line: 8647
+    quote: 'Anmerkungen zu Nr. XIX.'
+  - line: 8716
+    quote: 'XX. Gesta apud Zenophilum II.'
+  - line: 9476
+    quote: 'XXI. Acta purgationis Felieis'

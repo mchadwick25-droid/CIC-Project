@@ -1,7 +1,7 @@
 file: optatus_against-the-donatists.txt
-scheme: 'Optatus Books I to VII (printed BOOK THE FIRST to BOOK THE SEVENTH) with the chapters printed as roman numerals in each book; the Appendix documents printed as APPENDIX I to XVI; Appendix II (Gesta apud Zenophilum) prints no numbered divisions and stands as one unit'
+scheme: 'Optatus Books I to VII (printed BOOK THE FIRST to BOOK THE SEVENTH) with the chapters printed as roman numerals in each book; Book II prints chapter XXIV at line 1233 and then chapter XXVI at line 1307, with no chapter XXV heading between them, and the addresses follow the printed numerals; the editor prints the heading APPENDIX TO BOOK III over Book III chapters XIII and XIV (line 2294), kept as printed text at the head of chapter XIII; the Appendix documents printed as APPENDIX I to XVI; Appendix II (Gesta apud Zenophilum) prints no numbered divisions and stands as one unit'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 rules:
   - id: book
     pattern: '^BOOK THE (?P<b>FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)$'
@@ -13,16 +13,17 @@ rules:
     lines: [26, 5028]
     locus: 'ch{c|int}'
     number: c
+  - id: appendix-to-book-iii
+    pattern: '^APPENDIX TO BOOK III\.\d+$'
+    lines: [2294, 2294]
+    division: false
+    locus: 'appendix-to-book-iii'
   - id: appendix
     pattern: '^APPENDIX[ -]*(?P<a>[IVXLC]+)\b'
     lines: [5467, 7375]
     locus: 'appendix{a|int}'
     number: a
     allow_oversize: 'Appendix II, the Gesta apud Zenophilum, is a single continuous record of one hearing in question and answer, and the edition prints no numbered division inside it'
-ignore:
-  - pattern: '^APPENDIX TO BOOK III\.\d+$'
-    kind: running-head
-    lines: [2294, 2294]
 apparatus:
   - lines: [20, 24]
     kind: front
@@ -66,6 +67,12 @@ evidence:
     quote: BOOK THE SECOND
   - line: 1307
     quote: XXVI. Matrons, boys and virgins
+  - line: 1233
+    quote: XXIV. The wrong done by the Donatists
+  - line: 2294
+    quote: APPENDIX TO BOOK III.309
+  - line: 2296
+    quote: XIII. In what way and why Macarius was admitted to Communion.
   - line: 4836
     quote: BOOK THE SEVENTH
   - line: 5467

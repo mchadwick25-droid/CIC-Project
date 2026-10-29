@@ -1,19 +1,28 @@
 file: codex-theodosianus_latinlibrary.txt
-scheme: 'Codex Theodosianus citation: CTh. book . title . law (printed at the head of each law, for example CTh.1.1.1), with the title headings printed as CTh. book . title .0; a law whose first line is printed with pr. keeps that mark in its address; numbered paragraphs (.1, .2) stay in their law'
+scheme: 'Codex Theodosianus citation: CTh. book . title . law . paragraph, as printed at the head of each line, for example CTh.1.1.6.2; a title heading is printed CTh. book . title .0; a law is divided at its head line (CTh.1.1.1), and where that line is printed with pr. the principium is addressed with the mark pr; each numbered paragraph is a division of its own at its printed CTh.b.t.l.n line; law 16.7.3 is printed twice, first the Breviary text at line 7311 (CTh.16.7.3 [=brev.16.2.1]) and then the full text from line 7314 (CTh.16.7.3pr., CTh.16.7.3.1 and following), and the Breviary text takes the address that restates its printed Breviary reference'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 rules:
   - id: title
     pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.0[. ]'
-    lines: [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
+    lines: &body [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
     locus: 'cth{b}.{t}.0'
+  - id: paragraph
+    pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.(?P<l>\d+)\.(?P<n>\d+)(?= |$)'
+    lines: *body
+    locus: 'cth{b}.{t}.{l}.{n}'
+    number: n
+  - id: law-breviary-duplicate
+    pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.(?P<l>\d+) \[=(?P<br>brev\.[\d.]+)\]$'
+    lines: [7311, 7311]
+    locus: 'cth{b}.{t}.{l}=[{br}]'
   - id: law
     pattern: '^CTh\.(?:ct\.)?(?P<b>\d+)\.(?P<t>\d+)\.(?P<l>\d+(?:-\d+)?)(?= |$)'
-    lines: [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
+    lines: *body
     locus: 'cth{b}.{t}.{l}'
   - id: law-pr
     pattern: '^CTh\.(?P<b>\d+)\.(?P<t>\d+)\.(?P<l>\d+)pr\.'
-    lines: [[41, 397], [433, 804], [828, 1084], [1111, 1392], [1413, 1605], [1646, 2211], [2238, 2718], [2740, 3313], [3361, 4044], [4073, 4458], [4500, 5241], [5263, 5953], [5967, 6286], [6316, 6581], [6599, 6865], [6879, 7502]]
+    lines: *body
     locus: 'cth{b}.{t}.{l}pr'
 apparatus:
   - lines: [9, 40]
@@ -77,3 +86,9 @@ evidence:
     quote: 'CTh.6.35.3pr.'
   - line: 7314
     quote: 'CTh.16.7.3pr.'
+  - line: 58
+    quote: 'CTh.1.1.6.1'
+  - line: 7311
+    quote: 'CTh.16.7.3 [=brev.16.2.1]'
+  - line: 7316
+    quote: 'CTh.16.7.3.1'
