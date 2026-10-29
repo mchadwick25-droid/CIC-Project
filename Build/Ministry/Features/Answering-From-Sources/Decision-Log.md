@@ -402,3 +402,20 @@ Mark, by choice box in the project-management thread:
   30-draft fit sample.
 - `latap` registry field `safety_adjacent`: left blank until Doc_01 for the world
   is written.
+
+## 15. Stage 3 change order approved; latap Step 0 and retrieval rulings (2026-10-29)
+
+Mark, by choice box:
+- Stage 3 change order (quote door and stories door on lpc) approved as drafted by
+  the engine thread (https://claude.ai/artifact/2owp25hHtY9Ezx6jzVFnCh, version 4).
+  The live-path numbers do not wait for a working live voice call: measure on the
+  saved drafts and the 100-question lpc test now, and on the live path at Stage 4.
+  Its prerequisite, Stage 2 on lpc, is not done and is the Library thread's next
+  priority.
+- latap Step 0: fix the 24 quote findings by a named change order, then one
+  targeted review that does not count toward the cap. If it clears, Step 0 is
+  approved to proceed. The Hub "Cap ruling" entry naming the review file is filed
+  before the review runs.
+- Retrieval: free trials first on lpc (in-plan context lines for a small set; a
+  free local embedder; the sub-question and locus keys as baselines), compared
+  with the 39% routing baseline. A hosted embedder is not authorized.
