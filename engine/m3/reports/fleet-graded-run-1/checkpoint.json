@@ -133,8 +133,16 @@
       "overall_pass": true,
       "aborted_reason": null,
       "exit_code": 0
+    },
+    "cappadocian": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.6326298,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-cappadocian.jsonl",
+      "probes_answered": 0,
+      "spent_usd_world": 0.0
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-29T00:11:08Z"
+  "current": "cappadocian",
+  "checkpoint_at": "2026-10-29T00:11:28Z"
 }
