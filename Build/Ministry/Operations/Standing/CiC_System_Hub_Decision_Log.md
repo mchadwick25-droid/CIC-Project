@@ -7216,3 +7216,13 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Protected set above the cap.** On real data one pair has more protected records than the cap (an lpc question about a parent's violence): 14 protected of 19 selected, so 14 records are offered and nothing is cut beyond them. The rule is unchanged: if the protected records exceed the cap they are all offered.
 
 **Correction.** #1261 merged at head 051e672, before the setting-render fixes, the 160-character field limit, the hint-rule note and the cap-approval entry were pushed. They land in this follow-up pull request.
+
+## 2026-10-29 - Named, capped live test "fleet graded run 1": cap raised from $12.00 to $15.00 (project lead's ruling)
+
+**Question.** The run reached $11.82 of its $12.00 cap with three lpc thinness conversations and the six-question replay for the eleven other worlds not yet run. Raise the cap?
+
+**Ruling.** Mark, 2026-10-29, typed in this session: "yes raise it to 15 and run the rest". This follows his earlier "dont stop if you need more cap i can extend it to 15". The name stays "fleet graded run 1". The cap is $15.00 total metered, never more, counting the $11.82 already spent.
+
+**Scope of the rest.** The lpc thinness-2, thinness-3 and thinness-4 conversations (about $0.1), then the six-question replay for the eleven other worlds in the run order (about $2.4 with the safety and reader calls). The run stops before any call that could pass $15.00. A paid rerun of cappadocian's admission world (about $1.1) is not part of this and does not fit.
+
+**Where.** All files stay on the branch `claude/fleet-graded-run-1`; nothing is merged to `main`, per Mark's order of 2026-10-28.
