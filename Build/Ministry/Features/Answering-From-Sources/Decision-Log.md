@@ -81,7 +81,7 @@ Hub Decision Log, 2026-10-29). Nothing in stage 1 draws on it.
 
 - ESCALATION 1: ruling on what is written for a cell the Library holds
   unread while the live layer has not passed its stage. Open.
-- THE NAMED DOMAIN SPECIALIST for the gold set (and capacity): [BLANK, Mark]
+- THE NAMED DOMAIN SPECIALIST: RULED, see entry 2 (no human specialist; an AI domain specialist is built inside the system). Still open from Mark: his weekly adjudication budget and the seeded-defect catch threshold (proposed 19 of 20): [BLANK, Mark]
 - CAP for the judge trial: [BLANK, Mark]
 - CAP for contextual indexing of the twelve shelves: [BLANK, Mark]
 - SAMPLE GATE APPROVAL for the metered bulk items: [BLANK, Mark]
@@ -136,4 +136,34 @@ list.
   not queued", consistent with Mark's correction; Mark's earlier quoted
   words "all 7" are kept verbatim as spoken.
 - The proposal does not enumerate the seven learning items (it refers to
-  "the landscape"); the ledger carries seven placeholder lines.
+  "the landscape"); the ledger now carries the seven items as the Fable design thread listed them on 2026-10-29, unconfirmed.
+
+## 2. Ruling on the domain specialist (2026-10-29)
+
+Mark's words, verified in the Fable design thread transcript (17:00 UTC):
+"we do not have a domain specialist and cant afford one, i want to do it
+within the ai system with my eyes on key questions, but we need to build an
+ai domain specialist for this part, after everything is built, we will find
+external experts to test".
+
+As written into the proposal (version 11) by the Fable design thread:
+- No human domain specialist. The specialist is an AI, a third model lineage
+  different from the drafter and both judges, run slow and strong, given the
+  passage, its division, apparatus, original language where held, and the
+  world's lexicon risk flags. Every verdict is bound to the exact words that
+  support or refute it.
+- It is tested by seeded defects planted in the labelling stream (false
+  friend, dropped negation, attribution inflation, embedded voice), with a
+  published catch rate before its labels count. Proposed threshold: at least
+  19 of 20.
+- Mark adjudicates every specialist-versus-judge disagreement in the key
+  classes, plus a random sample, on a stated weekly budget.
+- The outside-referee pass stays as a second independent reading. External
+  human experts test the built system on live answers at the end, as the
+  validation gate before promotion. They do not calibrate.
+- The design states that this is weaker than human labelling.
+
+Effect on stage 1: the gold set (S1-02) can start on this basis once the two
+spend caps are set. The specialist is a metered model lineage, so it waits
+for a named cap like the other metered lines. Still for Mark: weekly
+adjudication budget; seeded-defect catch threshold.
