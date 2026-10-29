@@ -7300,3 +7300,25 @@ If any condition fails, the amount stays unspent.
 **Decision.** Mark, 2026-10-29, by choice box in the project-management thread: ratify `latap` (Atlas I.43, Tertullian merged in from I.17). The folder `Build/worlds/latap/`, the dossier and the review files already used it. Pull request #1276 (merged) added `records/worlds/latap.yaml`, a candidate with census id `latin-apologists`, window 197 to 320, and an entry in `WORLDS_REGISTRY_LOG.md`.
 
 **Left open.** The `safety_adjacent` value is not set in the registry entry and stays for the project lead. No new top-level folder or tool was added, so `CiC_Repo_Structure_Tracking.md` needs no entry.
+
+## 2026-10-29 - Stage 1 live tests ran after withdrawal; spend recorded (project lead)
+
+**What happened.** Mark withdrew every paid run for the Answering-from-the-Sources work at about 18:08 UTC ("we are not spending 75 dollars on api runs to test it") and the coordination thread told the engine and specialist threads to stop. Both threads had unread messages queued and ran their approved tests anyway before reading them. Neither run was authorized at the time it ran. Both threads have been told to drain their messages before any metered call and to make none.
+
+**`S1-01 baseline sample` (cap $1.00).** Ran 18:16:50 to 18:17:09 UTC, lpc, 4 probes, settings printed first. 10 Haiku gate calls succeeded (about $0.03). All 4 Sonnet voice calls failed. The spend guard priced the run at $0.8275 and refused the next call, because it charges a failed call at its full hold. A call the API rejected is probably not billed by AWS, so the real spend is likely near $0.03; this is reported by the engine thread and not confirmed against the AWS bill. No answers were produced and the cause of the voice failure is unknown. The "S1-01 baseline live path" ($25) run never started.
+
+**`specialist-tryout-1` (cap $10.00, withdrawn before it ran).** One attempt, three lines per candidate, refused by Bedrock on the first call for both candidates (AccessDeniedException: GPT-6.1 Sol and Grok 4.7 not available for this account). No label was made and a refused call is not billed. The guard counted $0.2285 against the cap. The ledgers are on the specialist thread's branch.
+
+**Standing position.** No metered run for this work is authorized. The two named tests above are closed. Any future one needs Mark's word and a plain-words request raised only when nothing free can do the step.
+
+## 2026-10-29 - Cap ruling: rcg Doc_02 and Source_Registry, second extra review (project lead)
+
+**Ruling.** The first extra review of `rcg` (entry above, file `Doc02_CapRuling_Review.md`) found four narrow, mechanical problems and did not clear. The project lead's standing rule is three rounds, then his interaction. The narrow fixes (word count, Gregory of Tours Book X, the holdings count, two Registry notes, and low-severity slips) are applied to Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Build/worlds/rcg/Review-Artifacts/Doc02_CapRuling_Review2.md`. Step 0's word-count line is the project lead's to direct and is not edited. If this review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** Proposed by the coordination thread on the Library thread's report that the findings are mechanical. The project lead has not yet ruled on it: it takes effect when he merges this pull request, and he can reverse it by saying so.
+
+## 2026-10-29 - Cap ruling: aec Doc_01 and Doc_02, second extra review (project lead)
+
+**Ruling.** The first extra review of `aec` (entry of the same date above, files `Doc01_CapRuling_Review.md` and `Doc02_CapRuling_Review.md`) closed every Round 3 finding but found four new blocking findings on each document (Socrates II.44 quotation, a letter-number slip, the condemned-works disclosure against canon XIII, missing corpus-map rows, stale holdings counts) and did not clear. The project lead's standing rule is three rounds, then his interaction. The findings are corrections of citation, count and disclosure, applied to Doc_01, Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Build/worlds/aec/Review-Artifacts/Doc01_CapRuling_Review2.md` and `Build/worlds/aec/Review-Artifacts/Doc02_CapRuling_Review2.md` (the Doc_02 file also covers `Source_Registry.md`). If a review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** Proposed by the coordination thread on the Library thread's report. The project lead has not yet ruled on it: it takes effect when he merges this pull request, and he can reverse it by saying so.

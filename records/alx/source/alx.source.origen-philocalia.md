@@ -20,6 +20,7 @@ work: "Philocalia - the Greek anthology of Origen's writings, a Greek witness to
 edition: "trans. George Lewis (T. & T. Clark, Edinburgh, 1911) - translator identification carried on external bibliographic grounds (archive.org/details/philocaliaoforig00orig), not stated inline in the transcription; vendored as cic/texts/origen_philocalia_lewis1911.txt"
 citation: Origen, Philocalia, anthology compiled by Basil the Great and Gregory Nazianzen, trans. George Lewis (T. & T. Clark, Edinburgh, 1911)
 kind: vendored
+shelf_row: origen_philocalia_lewis1911--the-philocalia-of-origen
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.origen-philocalia-lewis, promoted to top remaining acquisition in manifest v2); supplied by Mark 2026-08-21 (commit 311b132); rights read from the file's own header and Pearse's public-domain declaration in its footer"
