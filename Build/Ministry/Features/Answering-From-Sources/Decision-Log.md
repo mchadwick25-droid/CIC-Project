@@ -203,3 +203,27 @@ cap yet.
 D3 change orders the proposal names (runtime seal, shelf-row authority,
 passage index scope, review unit) are filed as their stages begin, not now.
 
+## 4. Standing constraint: keep Three-Level Transparency and source access (2026-10-29)
+
+Mark, 2026-10-29, in chat: "in this build we cant loose the 3 level
+transparency or access to source documents".
+
+Binding on every stage, as a gate on each change order:
+- Three-Level Transparency (Article 30, constitutional) stays whole:
+  conversation, then an on-request plain explanation, then the full scholarly
+  apparatus. Levels 2 and 3 are always reachable and never gated, for anyone.
+  Source: `Build/Ministry/Operations/Audits/CiC_Full_System_Feature_Analysis_V0_1.md`
+  and `CiC_UX_Implementation_Status_2026-07-19.md` section 3c.
+- What exists today must survive: lexicon highlighting with hover and
+  click-through, the citation marker that opens real sourcing, and one
+  interaction grammar (hover for the short honest explanation, click for full
+  depth).
+- Access to source documents stays: a reader can reach the vendored text
+  (`cic/texts`) behind every cited sentence. The sentence-to-span binding in
+  this design should make that access stronger (each sentence opens its own
+  span), not weaker, and no stage may ship a change that removes a citation,
+  marker or source view that a reader has today.
+- Each stage's change order states how it keeps both, and the stage's done-when
+  includes a check that Levels 2 and 3 and the source view still work on the
+  changed path.
+
