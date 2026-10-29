@@ -336,3 +336,101 @@ the 12-world baseline. Threads build and measure with free and in-plan means
 only (saved drafts, the replay bench, tests, work done in Claude Code sessions).
 A step that can only be done with paid API calls is reported with what it would
 cost and is not run. Supersedes the caps in entry 9.
+
+## 12. Stories move up beside the quote door (2026-10-29)
+
+Mark, 2026-10-29, in chat: "yes move stories up, i want stories to be a cool
+feature (i am a story teller)".
+
+The stories door moves from stage 5 to stage 3, built beside the quote door and
+proved on lpc. Rules unchanged: only a reviewed story record tells a story in
+the voice, a story is never invented, and the index may show the source
+division for reading on the card but the voice never retells it from the
+passage. Three-level transparency applies in full: a story is marked inline in
+the text, hover gives brief context, click opens the full story page with links
+to its source references and documents. Today stories sit under one
+end-of-answer marker and the tier and confidence data is dropped before it
+reaches the screen; closing that is part of this step. The stage 3 change order
+names the numbers it must move: stories marked inline, stories told from a
+record only, stories cut by the current gates (28 in fleet run 1) and their
+orphans.
+
+## 13. Stories may be retold to fit the conversation (2026-10-29)
+
+Mark, 2026-10-29, in chat: "stories can be modified if they still carry the
+accurate source context and heart of the story, but some may be to long for a
+conversation and we need to be able to tell it in a compelling, yet truthful
+way in conversation, accessable and a direct example to an aswer to a
+question."
+
+This refines entry 12: the voice may tell a shortened or reshaped version of a
+story, not only the record's full text.
+
+- Faithful retelling. The same events, the same people and places, the same
+  source context and the same sourcing and confidence as the record, and the
+  heart of the story the record names. Nothing added: no invented dialogue,
+  detail, motive or feeling. A story is never invented.
+- Fitted to the question. The telling is a direct example that answers what was
+  asked, told so that a general reader follows it (B2 standard), at conversation
+  length.
+- How it is made safe. (1) Each story record carries reviewed tellings at more
+  than one length (a short and a medium telling beside the full record) and a
+  plain statement of its heart, reviewed against the full record; the voice
+  chooses the one that fits. (2) A live retelling, fitted to a particular
+  question, is allowed only under the bound-draft path: each sentence is bound
+  to the record sentence it rests on and verified against it, and a retelling
+  that fails verification falls back to a reviewed telling. The same
+  three-level transparency applies: marked inline, hover, click to the full
+  story and its sources.
+- Mark reads a sample of tellings, since "heart" is a judgment about story, not
+  a count. The stage 3 change order names a faithfulness number for tellings
+  (events kept, nothing added) and a human-read sample.
+
+## 14. Rulings by choice box (2026-10-29)
+
+Mark, by choice box in the project-management thread:
+- Rome Step 0: correct the Register word count to the real figure (about 261,000
+  with endnotes, about 227,000 without; the Moralia is about 3.9 to 4.5 times the
+  Register). Step 0 and Doc_02 are to agree.
+- Proposal decisions 7 and 2d: yes. Every spoken rendering gets full review before
+  it can be spoken, and renderings are written by Opus (in-plan).
+- Stories: a retelling must keep every event and add nothing, zero tolerance for
+  added content. Mark reads about 20 retellings for the heart of the story.
+- Stage 3 lpc sample: 100 lpc questions.
+- Quote door passes on lpc if sentences cut and orphan flags fall, more quotes are
+  placed by code, and readability and answer length are no worse; Mark reads the
+  30-draft fit sample.
+- `latap` registry field `safety_adjacent`: left blank until Doc_01 for the world
+  is written.
+
+## 15. Stage 3 change order approved; latap Step 0 and retrieval rulings (2026-10-29)
+
+Mark, by choice box:
+- Stage 3 change order (quote door and stories door on lpc) approved as drafted by
+  the engine thread (https://claude.ai/artifact/2owp25hHtY9Ezx6jzVFnCh, version 4).
+  The live-path numbers do not wait for a working live voice call: measure on the
+  saved drafts and the 100-question lpc test now, and on the live path at Stage 4.
+  Its prerequisite, Stage 2 on lpc, is not done and is the Library thread's next
+  priority.
+- latap Step 0: fix the 24 quote findings by a named change order, then one
+  targeted review that does not count toward the cap. If it clears, Step 0 is
+  approved to proceed. The Hub "Cap ruling" entry naming the review file is filed
+  before the review runs.
+- Retrieval: free trials first on lpc (in-plan context lines for a small set; a
+  free local embedder; the sub-question and locus keys as baselines), compared
+  with the 39% routing baseline. A hosted embedder is not authorized.
+
+## 16. Quote card unchanged; stories code read (2026-10-29)
+
+Mark, by choice box: the quote card stays as it is today. It carries the modern
+rendering and the source reference and no edition or original wording, and its
+test stays. The three-layer card (edition words on the click page) is not
+approved; it returns only if Mark raises it when the quote door is built.
+
+Engine thread's code read of stories, which corrects the 19 July audit in part:
+stories already get an inline mark at the end of their telling, the app shows a
+hover with the formation-confidence phrase and a click with a source list, and a
+story drops to the end references only when the mark cap pushes it out. What was
+missing, and is now carried as card data (PR #1299): the record's one-line
+`means` for the hover and `narrative_tier`, which the engine never read. A
+full-story page on click is still not built and is screen work for later.
