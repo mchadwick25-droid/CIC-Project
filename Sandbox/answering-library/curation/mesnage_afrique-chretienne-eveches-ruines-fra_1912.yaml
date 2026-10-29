@@ -1,7 +1,7 @@
 file: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
 scheme: 'Mesnage''s gazetteer of the African sees and ruins, arranged by the parts the Table des matières prints (I Tunisie et Tripolitaine with A. Évêchés non identifiés, II Algérie with its three départements Constantine, Alger and Oran and the lists B and C of unidentified sees, III Maroc, IV Appendices I and II, V Tables); inside each part the entries follow the alphabet and each entry opens with its place name; the edition prints no entry numbers (the More and Toul. numbers on the lists of unidentified sees are cross-references to Morcelli and to Toulotte, not entries of this book), so each entry is addressed by its printed place name and the line of its heading (<part>/<name>-<line>); the Préface, the lists of manuscripts and abbreviations, the Additions et corrections, the Tables and the Table des matières as printed'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 divisions:
   - start_line: 58
     locus: preface

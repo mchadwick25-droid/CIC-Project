@@ -1,7 +1,7 @@
 file: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt
 scheme: 'Raulx translation, volume 13, Controverse avec les Donatistes: each work is named by its printed title (De l''unite du bapteme, the three days of the Resume d''une conference, Avertissement aux Donatistes, Discours au peuple de Cesaree, Conference avec Emerite, Gaudentius books one and two, Discours attribue a saint Augustin); inside a work the translation prints Augustine''s own paragraph numerals in roman capitals (arabic 1 for the first paragraph in Gaudentius book one)'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
   - id: w0
     pattern: '^\S'

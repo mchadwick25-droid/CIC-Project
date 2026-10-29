@@ -1,7 +1,7 @@
 file: dales_theologie-de-saint-cyprien-fra_1922.txt
 scheme: 'Dales'' own structure as printed in his Table des matieres: the Introduction, Livres I to IV each divided into chapters printed as a roman numeral above the chapter title, the numbered sections printed as a roman numeral followed by a dash and a title, the Conclusion and Appendices I to V; where the scan lost the chapter numeral the numeral is the one the Table des matieres prints against the same title'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 172
     locus: introduction
