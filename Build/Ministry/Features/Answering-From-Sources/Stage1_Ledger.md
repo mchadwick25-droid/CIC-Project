@@ -48,3 +48,17 @@ queued. Their record stage is outside stage 1.
 
 Not in stage 1 (not authorized): gate retirement, rendering, bundles,
 openings, any change to the production path.
+
+## Caps, threads and elapsed time (2026-10-29, Decision-Log entry 3)
+
+| Item | Cap in force | Thread | Started | Finished | Elapsed |
+|---|---|---|---|---|---|
+| S1-01 baseline live-path run | none yet [BLANK, Mark] | Engine | | | |
+| S1-02 gold set and AI specialist | none yet [BLANK, Mark]; Mark adjudicates 2 h/week | Specialist and gold set | | | |
+| S1-03 second labeller | none yet [BLANK, Mark] | Specialist and gold set | | | |
+| S1-04 judge trial in shadow | $25 ceiling, sample first | Specialist and gold set | | | |
+| S1-05 contextual indexing, twelve shelves | $200 ceiling, sample first | Library (engine runs the index) | | | |
+| S1-L1 to S1-L7 | per item, when confirmed | Fable design thread is finished; engine thread confirms tier and cost | | | |
+
+Dates and elapsed time are filled in by the thread that finishes the item.
+

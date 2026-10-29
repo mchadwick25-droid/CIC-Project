@@ -167,3 +167,39 @@ Effect on stage 1: the gold set (S1-02) can start on this basis once the two
 spend caps are set. The specialist is a metered model lineage, so it waits
 for a named cap like the other metered lines. Still for Mark: weekly
 adjudication budget; seeded-defect catch threshold.
+
+## 3. Go, no dated plan (2026-10-29)
+
+Mark's words, verified in the Fable design thread transcript: "lets just go
+as fast as we can and see how long, your estimates are pretty bad
+historicly" (17:07 UTC). Earlier the same session: "i have a 200max plan and
+we can use up to 90% of it a week, but this better not take months"
+(17:04) and "just make it work, stop with the poetic. i don't want something
+intentionally slow, but i do want something thrurough" (17:02).
+
+In force, as recorded by the Fable design thread in proposal version 13,
+section 14b (https://claude.ai/artifact/VhdWPPCn5idUAmN76De1pu):
+- No dated plan. The order of work and the gates of section 15 stand.
+  Elapsed time per stage is recorded in the ledger as a measured number.
+- Up to 90% of the weekly Max-200 allowance is available. Three parallel
+  threads from the start (engine; specialist and gold set; Library), folding
+  to two if the allowance cannot carry three.
+- Defaults set by the Fable thread, which Mark's go leaves in force unless he
+  changes them: his adjudication 2 hours a week; the specialist must catch 19
+  of 20 seeded defects; stage 1 caps of $25 for the judge trial and $200 for
+  indexing, each with a sample run first for his approval; unread-cells rule
+  (escalation 1) is read-and-record or a reading-gap limit on the lpc 411
+  model, retired by change order when the live answer is admitted; the
+  section 14a addendum is approved for the five priority worlds, Library
+  stage now, record stage after stages 3 and 4 on lpc.
+
+Spend rule unchanged: the $25 and $200 are ceilings Mark has not named as
+authorizations. Each metered run still prints its settings and counts and
+needs Mark's approval of its sample, and is entered in the System Hub
+Decision Log by name with its cap before it runs. The baseline live-path
+run (S1-01), the specialist and the second labeller (S1-02, S1-03) have no
+cap yet.
+
+D3 change orders the proposal names (runtime seal, shelf-row authority,
+passage index scope, review unit) are filed as their stages begin, not now.
+
