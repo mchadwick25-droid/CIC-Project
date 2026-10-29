@@ -279,3 +279,20 @@ def test_the_report_is_written_after_every_world(monkeypatch, tmp_path):
     assert list(final["worlds"]) == ["alx", "desert"]
     assert final["aborted_reason"] is None
     assert final["overall_pass"] is True and report["overall_pass"] is True
+
+
+def test_an_unanswered_probe_is_written_to_the_answers_file_with_its_error(tmp_path):
+    from engine.m3.generation import AnswerUnavailable
+
+    class _Failing:
+        def answer(self, cell, probe_text):
+            raise AnswerUnavailable("RuntimeError: voice generation call failed: error {'error': 'boom'}")
+
+    path = tmp_path / "run.answers.jsonl"
+    recorder = lar._RecordingAnswerer(_Failing(), spill_path=path)
+
+    with pytest.raises(AnswerUnavailable):
+        recorder.answer("C-I", "q")
+
+    line = json.loads(path.read_text(encoding="utf-8"))
+    assert line["unanswered"].endswith("'boom'}") and line["cell"] == "C-I"

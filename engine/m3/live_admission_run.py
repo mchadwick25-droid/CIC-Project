@@ -96,17 +96,21 @@ class _RecordingAnswerer:
     def answer(self, cell: str, probe_text: str):
         try:
             result = self._inner.answer(cell, probe_text)
-        except AnswerUnavailable:
+        except AnswerUnavailable as error:
             self.answers.append(None)
+            self._spill({"index": len(self.answers) - 1, "cell": cell, "unanswered": str(error)})
             raise
         self.answers.append(result)
-        if self._spill_path is not None:
-            line = {"index": len(self.answers) - 1, "cell": cell, **_transcript(result)}
-            with open(self._spill_path, "a", encoding="utf-8") as f:
-                f.write(json.dumps(line) + "\n")
-                f.flush()
-                os.fsync(f.fileno())
+        self._spill({"index": len(self.answers) - 1, "cell": cell, **_transcript(result)})
         return result
+
+    def _spill(self, line: dict) -> None:
+        if self._spill_path is None:
+            return
+        with open(self._spill_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(line) + "\n")
+            f.flush()
+            os.fsync(f.fileno())
 
 
 def _transcript(answer) -> dict:
