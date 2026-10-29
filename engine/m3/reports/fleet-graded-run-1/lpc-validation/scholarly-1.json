@@ -1,0 +1,787 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.3976,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030748
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2251,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2089,
+      "output_tokens": 220,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3391,
+      "output_tokens": 290,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Was Augustine's account of Pelagius fair?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We cannot say. The words we have are Augustine's own, and his argument against what he named as the Pelagian claim. That claim was this: a believer's own moral effort, unaided, is enough to obey what God commands. Whether Pelagius himself held it in that form we cannot say, since what we have is Augustine's side. Cyprian, a century and a half earlier, had written: “We must boast in nothing, since nothing is our own. The Gospel according to John says, ‘No one can receive anything unless it is given to him from heaven.’ Paul's first letter to the Corinthians also says, ‘What do you have that you did not receive? And if you received it, why do you boast as if you had not received it?’”\n\nAugustine later quoted those words against the Pelagians. But Cyprian was not answering Pelagius. That dispute came long after him. Augustine's own corpus on the question is large — thirteen works, the word \"grace\" appearing 1,798 times among them. That much we hold. What we do not hold is Pelagius's own account, set beside it, to let you weigh them both.",
+          "citations": [
+            {
+              "sentence": "That claim was this: a believer's own moral effort, unaided, is enough to obey what God commands.",
+              "record_ids": [
+                "lpc.gravity.grace-and-human-incapacity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.grace-and-human-incapacity",
+                  "record_type": "gravity",
+                  "label": "Grace and Human Incapacity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Whether Pelagius himself held it in that form we cannot say, since what we have is Augustine's side.",
+              "record_ids": [
+                "lpc.contested.grace-pelagius-characterization"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.grace-pelagius-characterization",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's own anti-Pelagian corpus accurately represents the position Pelagius himself held -- that a believer's own moral effort, unaided, is sufficient to obey what God commands -- and the later Reformation-era and modern Catholic/Protestant use of this same controversy to stake out opposing positions on grace and merit continues an argument whose terms Augustine himself correctly set.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "the whole evidentiary base for this world's own construction of the controversy; a full sweep, scoped to its own thirteen works, returns 1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- the single highest raw-frequency count in this world's own lexicon",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian, a century and a half earlier, had written: “We must boast in nothing, since nothing is our own. The Gospel according to John says, ‘No one can receive anything unless it is given to him from heaven.’ Paul's first letter to the Corinthians also says, ‘What do you have that you did not receive? And if you received it, why do you boast as if you had not received it?’”",
+              "record_ids": [
+                "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.boast-in-nothing-since-nothing-is-our-own",
+                  "record_type": "quote",
+                  "label": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom, Three Books of Testimonies against the Jews, book III, heading 4 — Cyprian, our bishop at Carthage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Three Books of Testimonies against the Jews, book III, heading 4; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 53424-53433; Latin heading at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt, line 3300",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "We must boast in nothing, since nothing is our own. The Gospel according to John says, “No one can receive anything unless it is given to him from heaven.” Paul's first letter to the Corinthians also says, “What do you have that you did not receive? And if you received it, why do you boast as if you had not received it?”",
+                  "speaker": "Cyprian, our bishop at Carthage"
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine later quoted those words against the Pelagians.",
+              "record_ids": [
+                "lpc.gravity.grace-and-human-incapacity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.grace-and-human-incapacity",
+                  "record_type": "gravity",
+                  "label": "Grace and Human Incapacity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine's own corpus on the question is large — thirteen works, the word \"grace\" appearing 1,798 times among them.",
+              "record_ids": [
+                "lpc.gravity.grace-and-human-incapacity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.grace-and-human-incapacity",
+                  "record_type": "gravity",
+                  "label": "Grace and Human Incapacity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.grace",
+              "matched_name": "grace",
+              "text_start": 901,
+              "plain_meaning": "For us, grace is the insistence that no effort of ours is enough on its own. Any good a person does was given to them before they did it.",
+              "quick_meaning": "For us, grace means this: no one's own effort is ever enough. Whatever good a person does was given to them first.",
+              "translational_sense": "A modern listener is likely to hear grace as a warm general benevolence, or as 'grace under pressure,' or as a denominational shibboleth they may already have an opinion about, and to hear our anti-Pelagian position as harsh determinism. We mean a specific and contested claim about the priority of divine action over human capacity, argued against a named opponent over roughly a decade, with direct consequences for how a congregation is taught, how failure is handled, and what a pastor can reasonably ask of anyone.",
+              "false_friend": [
+                "a warm general benevolence, or 'grace under pressure,' with no specific claim about the priority of divine action over human capacity",
+                "a denominational shibboleth in a Protestant-Catholic argument the participant may already hold an opinion about"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 37,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "the whole evidentiary base for this world's own construction of the controversy; a full sweep, scoped to its own thirteen works, returns 1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- the single highest raw-frequency count in this world's own lexicon",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 315,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Three Books of Testimonies against the Jews, book III, heading 4; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 53424-53433; Latin heading at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt, line 3300",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.remembered-at-the-altar"
+            ],
+            "term": [
+              "lpc.term.preaching"
+            ],
+            "story": [
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-plague-and-the-enemies"
+            ],
+            "quote": [
+              "lpc.quote.dash-the-little-ones-against-the-rock",
+              "lpc.quote.love-and-do-what-thou-wilt",
+              "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+            ],
+            "force": [
+              "lpc.force.inherited-latin-theological-vocabulary"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ],
+            "gravity": [
+              "lpc.gravity.grace-and-human-incapacity"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We cannot say.",
+                "tags": [
+                  "lpc.contested.grace-pelagius-characterization"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "We cannot say [[lpc.contested.grace-pelagius-characterization]]."
+              },
+              {
+                "sentence": "The words we have are Augustine's own, and his argument against what he named as the Pelagian claim.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"augustine's\", 'pelagian']) with no citation tag",
+                "draft": "The words we have are Augustine's own, and his argument against what he named as the Pelagian claim."
+              },
+              {
+                "sentence": "That claim was this: a believer's own moral effort, unaided, is enough to obey what God commands.",
+                "tags": [
+                  "lpc.gravity.grace-and-human-incapacity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "That claim was this: a believer's own moral effort, unaided, is enough to obey what God commands [[lpc.gravity.grace-and-human-incapacity]]."
+              },
+              {
+                "sentence": "Whether Pelagius himself held it in that form we cannot say, since what we have is Augustine's side.",
+                "tags": [
+                  "lpc.contested.grace-pelagius-characterization"
+                ],
+                "verdict": "ok",
+                "why": "grounded 70% in own tagged records",
+                "ratio": 0.7,
+                "draft": "Whether Pelagius himself held it in that form we cannot say, since what we have is Augustine's side [[lpc.contested.grace-pelagius-characterization]]."
+              },
+              {
+                "sentence": "Cyprian, a century and a half earlier, had written: “We must boast in nothing, since nothing is our own. The Gospel according to John says, ‘No one can receive anything unless it is given to him from heaven.’ Paul's first letter to the Corinthians also says, ‘What do you have that you did not receive? And if you received it, why do you boast as if you had not received it?’”",
+                "tags": [
+                  "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.boast-in-nothing-since-nothing-is-our-own",
+                "draft": "Cyprian, a century and a half earlier, had written: [[quote:lpc.quote.boast-in-nothing-since-nothing-is-our-own]]"
+              },
+              {
+                "sentence": "Augustine later quoted those words against the Pelagians.",
+                "tags": [
+                  "lpc.gravity.grace-and-human-incapacity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Augustine later quoted those words against the Pelagians [[lpc.gravity.grace-and-human-incapacity]]."
+              },
+              {
+                "sentence": "But Cyprian was not answering Pelagius.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian', 'pelagius']) with no citation tag",
+                "draft": "But Cyprian was not answering Pelagius."
+              },
+              {
+                "sentence": "That dispute came long after him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That dispute came long after him."
+              },
+              {
+                "sentence": "Augustine's own corpus on the question is large — thirteen works, the word \"grace\" appearing 1,798 times among them.",
+                "tags": [
+                  "lpc.gravity.grace-and-human-incapacity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 90% in own tagged records",
+                "ratio": 0.9,
+                "draft": "Augustine's own corpus on the question is large — thirteen works, the word \"grace\" appearing 1,798 times among them [[lpc.gravity.grace-and-human-incapacity]]."
+              },
+              {
+                "sentence": "That much we hold.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That much we hold."
+              },
+              {
+                "sentence": "What we do not hold is Pelagius's own account, set beside it, to let you weigh them both.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"pelagius's\"]) with no citation tag",
+                "draft": "What we do not hold is Pelagius's own account, set beside it, to let you weigh them both."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 5,
+                "cited_record_ids": [
+                  "lpc.contested.grace-pelagius-characterization",
+                  "lpc.gravity.grace-and-human-incapacity",
+                  "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "The words we have are Augustine's own, and his argument against what he named as the Pelagian claim.",
+                    "tags": [
+                      "lpc.contested.grace-pelagius-characterization",
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  }
+                }
+              },
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.gravity.grace-and-human-incapacity"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "But Cyprian was not answering Pelagius.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 67% in own tagged records",
+                    "ratio": 0.67
+                  },
+                  "2": {
+                    "sentence": "That dispute came long after him.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "That much we hold.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "What we do not hold is Pelagius's own account, set beside it, to let you weigh them both.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 50% in own tagged records",
+                    "ratio": 0.5
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 14
+              },
+              {
+                "index": 1,
+                "text_start": 15,
+                "text_end": 115
+              },
+              {
+                "index": 2,
+                "text_start": 116,
+                "text_end": 213
+              },
+              {
+                "index": 3,
+                "text_start": 214,
+                "text_end": 314
+              },
+              {
+                "index": 4,
+                "text_start": 315,
+                "text_end": 691
+              },
+              {
+                "index": 5,
+                "text_start": 693,
+                "text_end": 750
+              },
+              {
+                "index": 6,
+                "text_start": 751,
+                "text_end": 790
+              },
+              {
+                "index": 7,
+                "text_start": 791,
+                "text_end": 824
+              },
+              {
+                "index": 8,
+                "text_start": 825,
+                "text_end": 941
+              },
+              {
+                "index": 9,
+                "text_start": 942,
+                "text_end": 960
+              },
+              {
+                "index": 10,
+                "text_start": 961,
+                "text_end": 1050
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 22,
+                "char_end": 31,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.quote.boast-in-nothing-since-nothing-is-our-own",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the ANF English as printed. The source gives the two proof texts with bare labels ('In the Gospel according to John:'); modern_rendering adds the verb 'says' to each so that it reads as a sentence. The Latin heading is In nullo gloriandum, quando nostrum nihil sit.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 4,
+                "char_start": 52,
+                "char_end": 376,
+                "surface": "“We must boast in nothing, since nothing is our own. The Gospel according to John says, ‘No one can receive anything unless it is given to him from heaven.’ Paul's first letter to the Corinthians also says, ‘What do you have that you did not receive? And if you received it, why do you boast as if you had not received it?’”"
+              },
+              {
+                "record_id": "lpc.term.grace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The entire evidentiary base for this term is one voice (Augustine) within one evidence stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly contest, kept on its own axis, independent of this historical-fact rating. The contest type is Relationship to present-day traditions, secondarily Meaning. It runs over how the historical position stands to the way living traditions use the word now, including later appropriations and the Catholic-Protestant disagreements that ran through them, and over the modern reassessment of whether the position Augustine argued against is the one Pelagius held. The entry does not present the anti-Pelagian position as the settled meaning of the word across Christian history, and it does not characterize Pelagius.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 8,
+                "char_start": 76,
+                "char_end": 81,
+                "surface": "grace"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.gravity.grace-and-human-incapacity",
+                "record_type": "gravity",
+                "label": "Grace and Human Incapacity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented for the corpus's own existence and scale, directly vendored and independently swept by Doc_03; per Doc_02 §8's own bracket, the specific loci relied on sit at Registry Confidence B. Persistence fails at the world level -- Cyprian states the theme in passing (Testimonia III.4), but no Cyprian-phase evidence of it organizing formation is identified -- a real temporal boundary named directly rather than a confidence gap.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.contested.grace-pelagius-characterization",
+                "record_type": "contested_claim",
+                "label": "Augustine's own anti-Pelagian corpus accurately represents the position Pelagius himself held -- that a believer's own moral effort, unaided, is sufficient to obey what God commands -- and the later Reformation-era and modern Catholic/Protestant use of this same controversy to stake out opposing positions on grace and merit continues an argument whose terms Augustine himself correctly set.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the whole evidentiary base for this world's own construction of the controversy; a full sweep, scoped to its own thirteen works, returns 1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- the single highest raw-frequency count in this world's own lexicon",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.quote.boast-in-nothing-since-nothing-is-our-own",
+                "record_type": "quote",
+                "label": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom, Three Books of Testimonies against the Jews, book III, heading 4 — Cyprian, our bishop at Carthage",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Three Books of Testimonies against the Jews, book III, heading 4; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 53424-53433; Latin heading at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt, line 3300",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "We must boast in nothing, since nothing is our own. The Gospel according to John says, “No one can receive anything unless it is given to him from heaven.” Paul's first letter to the Corinthians also says, “What do you have that you did not receive? And if you received it, why do you boast as if you had not received it?”",
+                "speaker": "Cyprian, our bishop at Carthage",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the ANF English as printed. The source gives the two proof texts with bare labels ('In the Gospel according to John:'); modern_rendering adds the verb 'says' to each so that it reads as a sentence. The Latin heading is In nullo gloriandum, quando nostrum nihil sit.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.gravity.grace-and-human-incapacity",
+                "record_type": "gravity",
+                "label": "Grace and Human Incapacity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented for the corpus's own existence and scale, directly vendored and independently swept by Doc_03; per Doc_02 §8's own bracket, the specific loci relied on sit at Registry Confidence B. Persistence fails at the world level -- Cyprian states the theme in passing (Testimonia III.4), but no Cyprian-phase evidence of it organizing formation is identified -- a real temporal boundary named directly rather than a confidence gap.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.contested.grace-pelagius-characterization",
+                "record_type": "contested_claim",
+                "label": "Augustine's own anti-Pelagian corpus accurately represents the position Pelagius himself held -- that a believer's own moral effort, unaided, is sufficient to obey what God commands -- and the later Reformation-era and modern Catholic/Protestant use of this same controversy to stake out opposing positions on grace and merit continues an argument whose terms Augustine himself correctly set.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "citation": "Augustine of Hippo, the anti-Pelagian writings (c. 412-429), including On the Spirit and the Letter and On Rebuke and Grace, Nicene and Post-Nicene Fathers, Series I, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "the whole evidentiary base for this world's own construction of the controversy; a full sweep, scoped to its own thirteen works, returns 1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- the single highest raw-frequency count in this world's own lexicon",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 4,
+              "sentence_indexes": [
+                0,
+                1,
+                6,
+                10
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
