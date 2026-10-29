@@ -31,7 +31,7 @@ What the cheaper steps do before and after this pass: Sonnet (or the project lea
 12 worlds, 28 sealed questions each, answers read four ways. $16.55 of $17.00 spent.
 - Automatic checks passed 336 of 336. They cannot gate.
 - Our reviewers, checking against our records: 206 ship, 97 fix, 33 blocked. 90% scholarly acceptable.
-- Outside referees, who saw no records: of 120 answers, 27 rejected after voiding 2 alx rejections (the alx referee was given a wrong time window, 150 to 260 instead of the record's 150 to 400). They rejected 17 of 33 we blocked and 6 of 63 we would have shipped.
+- Outside referees, who saw no records: of 120 answers, 28 rejected. They rejected 17 of 33 we blocked and 6 of 63 we would have shipped. (The alx referee was first given a wrong time window and was re-run with the record's 150 to 400.)
 - The cut step removed 297 sentences in 11 worlds. About 55 to 60 left a real orphan. 30 removed sentences were word for word in a record the sentence itself cited.
 - The test ran the admission harness, not the live answer path. It skipped the live directive, the gate and reader, the recitation retry, self-revision and the length limit.
 
@@ -45,7 +45,7 @@ Confidence is marked. "Code-read" means a reviewer read the code and did not run
 |---|---|---|---|
 | S1 | A cell counts as covered if any record is tagged to it. Nothing checks that records answer each kind of question the cell holds. | Missing records for original sin, fate of outsiders, being born again, apostolic practice, survival today in rzg, gallic, alx, pahc, cappadocian, ijc. rzg's canon_cells do not match the fleet questions (7 cells). | High |
 | S2 | Retrieval matches words, routes to at most 2 cells, and ignores the question's own category. Records depend on hand-written `retrieve_when` hints. | don: the cell's own record was not offered in 16 of 28. pahc: 13 of 28. | High for the symptom, code-read for the cause |
-| S3 | Honest limits are stored per cell, and enter only when the right cell matched. The evidence block says "anything beyond these is our honest limit". | False silence in nearly every world: "no such source exists" where the period's sources do exist. The outside referees named the sources (Perpetua; Gregory of Nyssa, De infantibus; Macarius 38; Didache 11 and 15; Serdica 343; Cruciger; Argula von Grumbach). Note: the referees were told a wrong window for alx; no time-window finding stands from them. | High |
+| S3 | Honest limits are stored per cell, and enter only when the right cell matched. The evidence block says "anything beyond these is our honest limit". | False silence in nearly every world: "no such source exists" where the period's sources do exist. The outside referees named the sources (Perpetua; Gregory of Nyssa, De infantibus; Macarius 38; Didache 11 and 15; Serdica 343; Cruciger; Argula von Grumbach). No time-window finding stands from the outside referees. | High |
 | S4 | Cautions, horizon notes, formation logic and demonstrations are stored with ordinary content and compile as citable text in builder wording. | Cautions read aloud (lpc caution 17); "I am a representative of…" recited; post-window names cleared by citing the core record; claim guards misread as denials. | Code-read |
 | S5 | Witness and story text carries quote words inline, so the cut step removes them. | witt and don residue. 30 grounded sentences cut. | High (replay) |
 | S6 | The build has no status filter for draft records. | One code-read finding. | Low, check first |

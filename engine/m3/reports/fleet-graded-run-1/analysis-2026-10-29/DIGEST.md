@@ -7,15 +7,15 @@ Read this instead of the raw reports.
 2. **False silence.** The voice says "no source exists" where the period's sources exist. Seen in lpc, rzg, pahc, witt, ijc, don, cappadocian, desert, gallic, alx.
 3. **Right record not offered / no record for the question type.** don 16/28, pahc 13/28 turns had no record written for that question. Gaps: original sin, fate of outsiders, being born again, apostolic practice, survival today.
 4. **Build talk reaches the reader.** "this turn", "the records I am holding", "vendored", "THIN GROUND", raw `[[tags]]`, and stock lines such as "The short answer first. Yes."
-5. **After-window knowledge.** Later churches and councils named as known events (first-pass reviews: lpc, ijc, hal, syr, pahc, don). The outside referees' alx and rzg window findings are withdrawn: I gave them wrong windows (alx is 150 to 400, rzg 1519 to 1650).
+5. **After-window knowledge.** Later churches and councils named as known events (first-pass reviews: lpc, ijc, hal, syr, pahc, don). The outside referees found no time-window break: I first gave alx and rzg wrong windows (alx is 150 to 400, rzg 1519 to 1650), and alx was re-run.
 6. **Cautions misused.** They compile as citable text written as instructions to the builder. Read aloud (lpc caution 17) or read as denials.
 7. **Padding.** Whole records pasted in; stock passages repeated; answers of 400 to 840 words. 1,400 to 3,000 unneeded words per world.
 
 ## The test
 It used the admission harness, not the live path. Skipped: live directive, gate and reader, recitation retry, self-revision, length limit. Its checks passed 336 of 336. 12 worlds ran at 11 commits. Cut-step replay on saved drafts reproduces shipped answers 308 of 308 for free.
 
-## Per world (second pass ship/fix/block; outside rejects of 10 seen; alx's 2 void)
-lpc 11/11/6 (4); gallic 16/8/4 (2); desert 16/10/2 (3); ijc 20/4/4 (3); alx 20/6/2 (0, 2 void); witt 20/7/1 (3); rzg 16/8/4 (4); pahc 18/6/4 (4); hal 16/10/2 (1); syr 18/8/2 (0); cappadocian 17/9/2 (2); don 18/10/0 (1).
+## Per world (second pass ship/fix/block; outside rejects of 10 seen)
+lpc 11/11/6 (4); gallic 16/8/4 (2); desert 16/10/2 (3); ijc 20/4/4 (3); alx 20/6/2 (1); witt 20/7/1 (3); rzg 16/8/4 (4); pahc 18/6/4 (4); hal 16/10/2 (1); syr 18/8/2 (0); cappadocian 17/9/2 (2); don 18/10/0 (1).
 
 ## Concrete examples a design must handle
 - lpc F4-T: "We would not use those exact words… not the way our own record speaks of it." False. Two records quote "not regenerated" and "born of God"; Cyprian's *secunda nativitas*. No record says how this world names baptismal rebirth.

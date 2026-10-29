@@ -1,4 +1,4 @@
-# Blind packet for the world: Alexandrian catechetical Christianity (Clement, Origen), c. 150-260
+# Blind packet for the world: Alexandrian catechetical Christianity, Alexandria and Egypt, window 150 to 400 CE (Clement, Origen, the teaching tradition through Didymus, and the episcopal line through Athanasius). Judge against this window.
 
 ## Item 1
 **Question put to the representative:** Would your community describe conversion using language like being 'born again'?
