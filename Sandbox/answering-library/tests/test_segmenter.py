@@ -222,3 +222,10 @@ def test_records_are_json_serialisable(tmp_path):
     records, _ = run(entry_for(tmp_path, "x_eng_1900.txt", "CHAPTER I.\n\n" + english_body(1) + "\n\nCHAPTER II.\n\n" + english_body(2)))
     for r in records:
         json.dumps(r, ensure_ascii=False)
+
+
+def test_roman_value_ignores_non_ascii_lookalikes():
+    from answering_library import markers
+
+    assert markers.roman_value("ı") is None
+    assert markers.roman_value("XIV") == 14
