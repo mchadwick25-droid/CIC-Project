@@ -159,8 +159,13 @@ def cmd_bench(args) -> int:
     evidence = bench.load_record_evidence(catalog.REPO_ROOT / "records" / args.world)
     cells = bench.load_cells(args.world)
     subquestions = bench.load_subquestions()
-    cases, gold, ungrounded = bench.run_bench(db, args.world, evidence, cells, subquestions, bench.load_questions())
-    text = benchreport.render_report(db, args.world, cases, gold, ungrounded, benchreport.load_cluster_names(), subquestions, store.read_meta(db))
+    questions = bench.load_questions()
+    cases, gold, ungrounded = bench.run_bench(db, args.world, evidence, cells, subquestions, questions)
+    floor = None
+    if args.ocr_floor is not None:
+        floor = (args.ocr_floor, bench.run_bench(db, args.world, evidence, cells, subquestions, questions, min_ocr=args.ocr_floor)[0])
+    text = benchreport.render_report(db, args.world, cases, gold, ungrounded, benchreport.load_cluster_names(), subquestions,
+                                     store.read_meta(db), floor)
     Path(args.out).write_text(text, encoding="utf-8")
     print(f"bench written to {args.out}: {len(cases)} cases")
     return 0
@@ -250,6 +255,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--db", required=True)
     p.add_argument("--world", default=DEFAULT_SAMPLE_WORLD)
     p.add_argument("--out", required=True)
+    p.add_argument("--ocr-floor", type=float, default=None, help="also score the bench with passages under this OCR score left out of the ranking")
     p.set_defaults(func=cmd_bench)
 
     p = sub.add_parser("search")
