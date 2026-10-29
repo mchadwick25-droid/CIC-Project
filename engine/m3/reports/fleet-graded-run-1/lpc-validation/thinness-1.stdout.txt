@@ -3,3 +3,953 @@ CAP: $0.25
 MODELS: us.anthropic.claude-haiku-4-5-20251001-v1:0, us.anthropic.claude-sonnet-4-5-20250929-v1:0
 ROUTE: Bedrock, regional inference profile, us-east-1
 LEDGER: /home/user/CIC-Project/engine/m3/reports/fleet-graded-run-1/lpc-validation/ledger-thinness-1.jsonl
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:958fd088daaef4960ed77ddb5ce9751e4cf1f05e39b92d80cbe2d3ffd27eed69",
+  "package": "packages/lpc/2026-10-28T17-58-42Z",
+  "live_test": {
+    "name": "fleet graded run 1",
+    "cap_usd": 0.2507,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.032722
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2256,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 2094,
+      "output_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "fleet graded run 1",
+      "input_tokens": 3681,
+      "output_tokens": 364,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24382
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did an ordinary believer feel at the font when they were baptized?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We cannot tell you what an ordinary believer felt standing at the font, save in one real case, and it is not really ordinary. Augustine wrote down his own baptism at Milan, years after it happened, already a bishop, about a conversion he examined at book length. He wept in the hymns and songs. That one first-person account survives. Beyond it, almost nothing does. Both of our own voices are bishops. What reaches us is mostly what a bishop saw and decided about someone, not what an unremarkable person standing in front of him was feeling.\n\nWe can tell you what you were taught beforehand. Augustine tells those to be baptized they got the Creed first, to know what to believe, then the Lord's Prayer, to know whom to ask: “He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”\n\nYou said the Creed back, and then we baptized you. Cyprian taught that baptism washes sin away once, and after that almsgiving became the ordinary remedy for the sin you go on committing.\n\nWhat was decided we can show you. What an ordinary person felt from inside, we cannot.",
+          "citations": [
+            {
+              "sentence": "We cannot tell you what an ordinary believer felt standing at the font, save in one real case, and it is not really ordinary.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Beyond it, almost nothing does.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What reaches us is mostly what a bishop saw and decided about someone, not what an unremarkable person standing in front of him was feeling.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine tells those to be baptized they got the Creed first, to know what to believe, then the Lord's Prayer, to know whom to ask: “He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”",
+              "record_ids": [
+                "lpc.quote.the-creed-first-then-the-prayer"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 6 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "He said, “How will they call on Him in whom they have not believed?” That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian taught that baptism washes sin away once, and after that almsgiving became the ordinary remedy for the sin you go on committing.",
+              "record_ids": [
+                "lpc.witness.almsgiving-quenches-sin"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.almsgiving-quenches-sin",
+                  "record_type": "doctrinal_witness",
+                  "label": "Some among us were rich",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Works and Alms, SS1-4, almsgiving as the ordinary remedy for sin committed after baptism -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47307-47420",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Works and Alms, SS14-15, addressed directly to a named kind of member, \"a wealthy and rich matron in Christ's Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47704-47716",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "On Works and Alms, S13, \"share your gains with Christ\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47661-47692",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What an ordinary person felt from inside, we cannot.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 126,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                  "author": null,
+                  "work": null,
+                  "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 1205,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Works and Alms, SS1-4, almsgiving as the ordinary remedy for sin committed after baptism -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47307-47420",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Works and Alms, SS14-15, addressed directly to a named kind of member, \"a wealthy and rich matron in Christ's Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47704-47716",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "On Works and Alms, S13, \"share your gains with Christ\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47661-47692",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground",
+              "lpc.witness.almsgiving-quenches-sin"
+            ],
+            "term": [
+              "lpc.term.the-flock",
+              "lpc.term.preaching"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.chosen-while-still-a-neophyte",
+              "lpc.quote.stewards-and-future-bishops",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.dash-the-little-ones-against-the-rock"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference",
+              "lpc.force.inherited-latin-theological-vocabulary"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We cannot tell you what an ordinary believer felt standing at the font, save in one real case, and it is not really ordinary.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We cannot tell you what an ordinary believer felt standing at the font, save in one real case, and it is not really ordinary [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "Augustine wrote down his own baptism at Milan, years after it happened, already a bishop, about a conversion he examined at book length.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['milan']) with no citation tag",
+                "draft": "Augustine wrote down his own baptism at Milan, years after it happened, already a bishop, about a conversion he examined at book length."
+              },
+              {
+                "sentence": "He wept in the hymns and songs.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He wept in the hymns and songs."
+              },
+              {
+                "sentence": "That one first-person account survives.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That one first-person account survives."
+              },
+              {
+                "sentence": "Beyond it, almost nothing does.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Beyond it, almost nothing does [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "Both of our own voices are bishops.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Both of our own voices are bishops."
+              },
+              {
+                "sentence": "What reaches us is mostly what a bishop saw and decided about someone, not what an unremarkable person standing in front of him was feeling.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 82% in own tagged records",
+                "ratio": 0.82,
+                "draft": "What reaches us is mostly what a bishop saw and decided about someone, not what an unremarkable person standing in front of him was feeling [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "We can tell you what you were taught beforehand.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We can tell you what you were taught beforehand."
+              },
+              {
+                "sentence": "Augustine tells those to be baptized they got the Creed first, to know what to believe, then the Lord's Prayer, to know whom to ask: “He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”",
+                "tags": [
+                  "lpc.quote.the-creed-first-then-the-prayer"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.the-creed-first-then-the-prayer",
+                "draft": "Augustine tells those to be baptized they got the Creed first, to know what to believe, then the Lord's Prayer, to know whom to ask [[quote:lpc.quote.the-creed-first-then-the-prayer]]"
+              },
+              {
+                "sentence": "You said the Creed back, and then we baptized you.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['creed']) with no citation tag",
+                "draft": "You said the Creed back, and then we baptized you."
+              },
+              {
+                "sentence": "Cyprian taught that baptism washes sin away once, and after that almsgiving became the ordinary remedy for the sin you go on committing.",
+                "tags": [
+                  "lpc.witness.almsgiving-quenches-sin"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Cyprian taught that baptism washes sin away once, and after that almsgiving became the ordinary remedy for the sin you go on committing [[lpc.witness.almsgiving-quenches-sin]]."
+              },
+              {
+                "sentence": "What was decided we can show you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What was decided we can show you."
+              },
+              {
+                "sentence": "What an ordinary person felt from inside, we cannot.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "What an ordinary person felt from inside, we cannot [[lpc.limit.ordinary-interior-life]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "Augustine wrote down his own baptism at Milan, years after it happened, already a bishop, about a conversion he examined at book length.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 92% in own tagged records",
+                    "ratio": 0.92
+                  },
+                  "2": {
+                    "sentence": "He wept in the hymns and songs.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "That one first-person account survives.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "Both of our own voices are bishops.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.quote.the-creed-first-then-the-prayer"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We can tell you what you were taught beforehand.",
+                    "tags": [
+                      "lpc.quote.the-creed-first-then-the-prayer"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.witness.almsgiving-quenches-sin"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "You said the Creed back, and then we baptized you.",
+                    "tags": [
+                      "lpc.witness.almsgiving-quenches-sin"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['creed']) only 0% grounded in its own tags",
+                    "ratio": 0.0
+                  }
+                }
+              },
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What was decided we can show you.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.the-creed-first-then-the-prayer"
+              ],
+              "removed": [
+                {
+                  "sentence": "Augustine told his people that many of them would one day dispense the Lord's food, and that he once stood where they stand",
+                  "why": "second placed quote in one reply",
+                  "draft": "Augustine told his people that many of them would one day dispense the Lord's food, and that he once stood where they stand [[quote:lpc.quote.stewards-and-future-bishops]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 125
+              },
+              {
+                "index": 1,
+                "text_start": 126,
+                "text_end": 262
+              },
+              {
+                "index": 2,
+                "text_start": 263,
+                "text_end": 294
+              },
+              {
+                "index": 3,
+                "text_start": 295,
+                "text_end": 334
+              },
+              {
+                "index": 4,
+                "text_start": 335,
+                "text_end": 366
+              },
+              {
+                "index": 5,
+                "text_start": 367,
+                "text_end": 402
+              },
+              {
+                "index": 6,
+                "text_start": 403,
+                "text_end": 543
+              },
+              {
+                "index": 7,
+                "text_start": 545,
+                "text_end": 593
+              },
+              {
+                "index": 8,
+                "text_start": 594,
+                "text_end": 1152
+              },
+              {
+                "index": 9,
+                "text_start": 1154,
+                "text_end": 1204
+              },
+              {
+                "index": 10,
+                "text_start": 1205,
+                "text_end": 1341
+              },
+              {
+                "index": 11,
+                "text_start": 1343,
+                "text_end": 1376
+              },
+              {
+                "index": 12,
+                "text_start": 1377,
+                "text_end": 1429
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows the Latin of PL 38 where the English misleads: 'ye have not first learnt' renders non accepistis, 'you did not receive'; 'has respect to' renders pertinet ad, 'belongs to'; and 'where ye might know' renders ubi sciretis, 'so that in it you would know'.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 8,
+                "char_start": 133,
+                "char_end": 558,
+                "surface": "“He said, ‘How will they call on Him in whom they have not believed?’ That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.”"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 10,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 6 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "He said, “How will they call on Him in whom they have not believed?” That is why you did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that in it you would know what to believe. Then you received the Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he calls.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. modern_rendering follows the Latin of PL 38 where the English misleads: 'ye have not first learnt' renders non accepistis, 'you did not receive'; 'has respect to' renders pertinet ad, 'belongs to'; and 'where ye might know' renders ubi sciretis, 'so that in it you would know'.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.almsgiving-quenches-sin",
+                "record_type": "doctrinal_witness",
+                "label": "Some among us were rich",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Works and Alms, SS1-4, almsgiving as the ordinary remedy for sin committed after baptism -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47307-47420",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Works and Alms, SS14-15, addressed directly to a named kind of member, \"a wealthy and rich matron in Christ's Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47704-47716",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Works and Alms, S13, \"share your gains with Christ\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47661-47692",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.almsgiving-quenches-sin",
+                "record_type": "doctrinal_witness",
+                "label": "Some among us were rich",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Works and Alms, SS1-4, almsgiving as the ordinary remedy for sin committed after baptism -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47307-47420",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Works and Alms, SS14-15, addressed directly to a named kind of member, \"a wealthy and rich matron in Christ's Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47704-47716",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "citation": "Cyprian of Carthage, the minor treatises, including On the Mortality, On Works and Alms and Testimonies Against the Jews (Ad Quirinum), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "On Works and Alms, S13, \"share your gains with Christ\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 47661-47692",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                1,
+                9
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.the-creed-first-then-the-prayer"
+            ],
+            "removed": [
+              {
+                "sentence": "Augustine told his people that many of them would one day dispense the Lord's food, and that he once stood where they stand",
+                "why": "second placed quote in one reply",
+                "draft": "Augustine told his people that many of them would one day dispense the Lord's food, and that he once stood where they stand [[quote:lpc.quote.stewards-and-future-bishops]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
