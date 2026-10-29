@@ -2,7 +2,7 @@
 
 Per `Source_Registry_Template.md` V1.0. Co-equal Step 2 output with `Doc_02_Source_Ecology.md`. **Living document: append-only.** A row is never renumbered or deleted. Doc_02 may not name a source in support of a specific claim unless that source has a row here. Rows are entered for works that the corpus map assigns to this world, and for works that are not vendored. A vendored work assigned only to another world is recorded as a candidate in `Open_Gaps_Tracking.md`, not here, except the works of other worlds that Step 0 and the dossier name as comparanda (rows 63 and 65), which are entered as Excluded.
 
-**Status:** Draft. Not approved to proceed. The saturation statement at the end is not closed.
+**Status:** Approved to proceed with Doc_02 (not Frozen), after `Review-Artifacts/Doc02_Round2_Review.md`. Living document. The saturation statement at the end is not closed.
 **World file-code:** `latap`. Registered on 2026-10-29 as a candidate world (`Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`).
 **Boundary checked against:** `Doc_01_World_Identification_Boundaries_Orientation.md` (c. 197–320; Carthage, Rome and Ostia, Sicca, Nicomedia and Trier; strand-singular as a recommendation pending the project lead). Boundary Status is judged by what a source speaks for, never by the publication date of a modern edition.
 

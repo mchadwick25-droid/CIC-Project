@@ -7242,3 +7242,87 @@ If any condition fails, the amount stays unspent.
 **Result.** Opus review: Revise. 39 rows: 2 PASS, 25 CONCERN, 10 FAIL (run 3 had 13), one fabrication. lpc stays `built`, not `admitted`. The questions in this run did not test baptism as new birth, the apse letter, Felicissimus, or the scoped women's-writing claim.
 
 **Hold.** The project lead, 2026-10-29: "yes hold the lpc run". The remaining $1.45 is on hold and not carried to any other use. The design pass puts harness parity and one capped baseline live run ahead of any fix, so a further lpc run, in particular the admission half, waits until the project lead releases it by name. The hold reached the lpc thread after this run had finished, so it did not change what ran.
+
+## 2026-10-29 - Live test "specialist-tryout-1" authorized, cap $10.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $10.00 for the specialist tryout. Name: `specialist-tryout-1`. Cap: $10.00, never exceeded. No other cap carries over to it, and no earlier cap ("fleet graded run 1", "lpc go-live rerun 1") covers it.
+
+**What it is for.** Choosing the AI domain specialist for the Answering-from-the-Sources gold set (Decision-Log entries 2 and 8 in `Build/Ministry/Features/Answering-From-Sources/`). Two non-Claude candidates, GPT-6.1 and Grok 4.7 through Bedrock, each label the same 20 seeded defects plus 20 known-supported controls. Estimate about $5.
+
+**When it may run.** Only after the guarded Bedrock adapter in `engine/provider` is in place and each model has a sourced price row. The run prints its settings, counts and first sample, carries the name and cap on the command, and stops at the cap.
+
+**What it does not cover.** The gold-set labelling, the second labeller, the judge trial, the baseline live run and the indexing run. Each needs its own name and cap here.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Live test "S1-01 baseline sample" authorized, cap $1.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $1.00. Name: `S1-01 baseline sample`. Cap: $1.00, never exceeded. It carries over to nothing else.
+
+**What it is for.** The small sample before the baseline live-path run (stage 1 item S1-01). lpc only, the first 4 sealed probes on `engine.m4.turn.run_turn`, the production path, with voice Sonnet 4.5 and gate Haiku 4.5 as production pins them. Estimate about $0.30.
+
+**Rules.** Prints its settings first (`--settings-only` output is already in the engine thread's report), carries the name and cap on the command, stops at the cap. The full 12-world run (336 probes) needs its own name and cap here and is not covered.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Live test "S1-01 baseline live path" authorized, cap $25.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $25.00. Name: `S1-01 baseline live path`. Cap: $25.00, never exceeded. It carries over to nothing else, and the $1.00 `S1-01 baseline sample` is separate.
+
+**What it is for.** The baseline live-path run on the 12 built worlds (stage 1 item S1-01): 28 sealed probes each, 336 in all, on `engine.m4.turn.run_turn` with the production pins, a run manifest and saved reader outputs. Preflight ceiling $23.40; expected about $14.
+
+**When it may run.** Only after the sample's result has been reported to the project lead and the settings printed there match the bulk run's. If a cap is about to be exceeded the run stops and asks Mark.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Cap ruling: aec (Antiochene, Chrysostom) Doc_01 and Doc_02 (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `aec`.
+
+**Review ordered.** One targeted Opus 5.5 review of Doc_01 and of Doc_02 (Doc_02's file also covers `Source_Registry.md`), no further rounds: `Doc01_CapRuling_Review.md` (in `Build/worlds/aec/Review-Artifacts/`) and `Doc02_CapRuling_Review.md` (in `Build/worlds/aec/Review-Artifacts/`). If a review does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - Cap ruling: rcg (Rome in the Age of Gregory the Great) Doc_02 and Source_Registry (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `rcg`. He also confirmed the Tier 1 recommendation as written, so Step 0 and Doc_01 proceed.
+
+**Review ordered.** One targeted Opus 5.5 review of Doc_02 and `Source_Registry.md`, no further rounds: `Doc02_CapRuling_Review.md` (in `Build/worlds/rcg/Review-Artifacts/`). If it does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - Live test "specialist-tryout-1" withdrawn (project lead)
+
+**Withdrawn.** Mark, 2026-10-29, by choice box: no spend on other companies' models; the specialist is Claude only. The $10.00 authorization above is withdrawn and nothing was spent under it. The tryout of GPT-6.1 and Grok 4.7 does not run. Gold-set labelling with Claude models still needs its own name and cap here before it runs.
+
+## 2026-10-29 - Live tests "S1-01 baseline sample" and "S1-01 baseline live path" withdrawn (project lead)
+
+**Withdrawn.** Mark, 2026-10-29, in chat: "we are not spending 75 dollars on api runs to test it". Both authorizations above ($1.00 and $25.00) are withdrawn. The engine thread was told to stop and to report any spend if either had started. No metered run for the Answering-from-the-Sources work is authorized. Any future one needs Mark's name and cap, put to him in plain words.
+
+## 2026-10-29 - `latap` ratified as the file-code for the Latin Apologists world (project lead)
+
+**Decision.** Mark, 2026-10-29, by choice box in the project-management thread: ratify `latap` (Atlas I.43, Tertullian merged in from I.17). The folder `Build/worlds/latap/`, the dossier and the review files already used it. Pull request #1276 (merged) added `records/worlds/latap.yaml`, a candidate with census id `latin-apologists`, window 197 to 320, and an entry in `WORLDS_REGISTRY_LOG.md`.
+
+**Left open.** The `safety_adjacent` value is not set in the registry entry and stays for the project lead. No new top-level folder or tool was added, so `CiC_Repo_Structure_Tracking.md` needs no entry.
+
+## 2026-10-29 - Stage 1 live tests ran after withdrawal; spend recorded (project lead)
+
+**What happened.** Mark withdrew every paid run for the Answering-from-the-Sources work at about 18:08 UTC ("we are not spending 75 dollars on api runs to test it") and the coordination thread told the engine and specialist threads to stop. Both threads had unread messages queued and ran their approved tests anyway before reading them. Neither run was authorized at the time it ran. Both threads have been told to drain their messages before any metered call and to make none.
+
+**`S1-01 baseline sample` (cap $1.00).** Ran 18:16:50 to 18:17:09 UTC, lpc, 4 probes, settings printed first. 10 Haiku gate calls succeeded (about $0.03). All 4 Sonnet voice calls failed. The spend guard priced the run at $0.8275 and refused the next call, because it charges a failed call at its full hold. A call the API rejected is probably not billed by AWS, so the real spend is likely near $0.03; this is reported by the engine thread and not confirmed against the AWS bill. No answers were produced and the cause of the voice failure is unknown. The "S1-01 baseline live path" ($25) run never started.
+
+**`specialist-tryout-1` (cap $10.00, withdrawn before it ran).** One attempt, three lines per candidate, refused by Bedrock on the first call for both candidates (AccessDeniedException: GPT-6.1 Sol and Grok 4.7 not available for this account). No label was made and a refused call is not billed. The guard counted $0.2285 against the cap. The ledgers are on the specialist thread's branch.
+
+**Standing position.** No metered run for this work is authorized. The two named tests above are closed. Any future one needs Mark's word and a plain-words request raised only when nothing free can do the step.
+
+## 2026-10-29 - Cap ruling: rcg Doc_02 and Source_Registry, second extra review (project lead)
+
+**Ruling.** The first extra review of `rcg` (entry above, file `Doc02_CapRuling_Review.md`) found four narrow, mechanical problems and did not clear. The project lead's standing rule is three rounds, then his interaction. The narrow fixes (word count, Gregory of Tours Book X, the holdings count, two Registry notes, and low-severity slips) are applied to Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Doc02_CapRuling_Review2.md` (in `Build/worlds/rcg/Review-Artifacts/`). Step 0's word-count line is the project lead's to direct and is not edited. If this review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** Proposed by the coordination thread on the Library thread's report that the findings are mechanical. The project lead has not yet ruled on it: it takes effect when he merges this pull request, and he can reverse it by saying so.
+
+## 2026-10-29 - Cap ruling: aec Doc_01 and Doc_02, second extra review (project lead)
+
+**Ruling.** The first extra review of `aec` (entry of the same date above, files `Doc01_CapRuling_Review.md` and `Doc02_CapRuling_Review.md`) closed every Round 3 finding but found four new blocking findings on each document (Socrates II.44 quotation, a letter-number slip, the condemned-works disclosure against canon XIII, missing corpus-map rows, stale holdings counts) and did not clear. The project lead's standing rule is three rounds, then his interaction. The findings are corrections of citation, count and disclosure, applied to Doc_01, Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Doc01_CapRuling_Review2.md` (in `Build/worlds/aec/Review-Artifacts/`) and `Doc02_CapRuling_Review2.md` (in `Build/worlds/aec/Review-Artifacts/`) (the Doc_02 file also covers `Source_Registry.md`). If a review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** Proposed by the coordination thread on the Library thread's report. The project lead has not yet ruled on it: it takes effect when he merges this pull request, and he can reverse it by saying so.
+
+## 2026-10-29 - Cap ruling: latap Step 0, quote fixes then one extra review (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: `latap` Step 0 has 7 review files against the cap of 3, its Round 7 review does not say "Approved to proceed", and a handoff check found 24 quote findings in it. He chose a named change order to fix the 24 quote findings (each quote re-verified word for word against the vendored file, nothing else in Step 0 touched), then one targeted Opus 5.5 review that does not count toward the cap: `Step0_CapRuling_Review.md` (in `Build/worlds/latap/Review-Artifacts/`). The change order is `Build/Ministry/Operations/Audits/latap_Step0_QuoteFixes_ChangeOrder_2026-10-29.md`. If the review clears, Step 0 is approved to proceed. If it does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.

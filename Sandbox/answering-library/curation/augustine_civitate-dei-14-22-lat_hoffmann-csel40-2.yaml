@@ -1,0 +1,403 @@
+file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
+scheme: 'Hoffmann''s book and chapter numbers: each book opens with its printed heading LIBER and the Roman numeral (books XIV to XXII), and each chapter with the heading CAPUT and its Roman numeral; Hoffmann''s page and line
+  numbers in the margin are not used for addresses'
+curator: Sonnet 5.5
+status: drafted
+rules:
+- id: b14
+  pattern: .
+  lines:
+  - 377
+  - 377
+  locus: liber14
+  division: false
+- id: c14
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b14
+  lines:
+  - 378
+  - 3438
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 2599
+    set:
+      n: XVIIII
+  flags: i
+- id: b15
+  pattern: .
+  lines:
+  - 3439
+  - 3439
+  locus: liber15
+  division: false
+- id: c15
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b15
+  lines:
+  - 3440
+  - 6842
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 3757
+    set:
+      n: V
+  - line: 5567
+    set:
+      n: XVIIII
+  flags: i
+- id: b16
+  pattern: .
+  lines:
+  - 6843
+  - 6843
+  locus: liber16
+  division: false
+- id: c16
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b16
+  lines:
+  - 6844
+  - 11135
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 7345
+    set:
+      n: IIII
+  - line: 7502
+    set:
+      n: V
+  - line: 7865
+    set:
+      n: VIIII
+  - line: 8728
+    set:
+      n: XVII
+  - line: 10924
+    set:
+      n: XXXXII
+  flags: i
+- id: b17
+  pattern: .
+  lines:
+  - 11136
+  - 11136
+  locus: liber17
+  division: false
+- id: c17
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b17
+  lines:
+  - 11137
+  - 14369
+  locus: caput{n|int}
+  number: n
+  fixes: []
+  flags: i
+- id: b18
+  pattern: .
+  lines:
+  - 14370
+  - 14370
+  locus: liber18
+  division: false
+- id: c18
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b18
+  lines:
+  - 14371
+  - 19506
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 15395
+    set:
+      n: XIIII
+  - line: 15505
+    set:
+      n: XVI
+  - line: 15891
+    set:
+      n: XXI
+  - line: 17866
+    set:
+      n: XXXXI
+  - line: 18704
+    set:
+      n: XXXXVIII
+  - line: 18800
+    set:
+      n: '49'
+  - line: 19186
+    set:
+      n: LIII
+  flags: i
+- id: b19
+  pattern: .
+  lines:
+  - 19507
+  - 19507
+  locus: liber19
+  division: false
+- id: c19
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b19
+  lines:
+  - 19508
+  - 22736
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 20047
+    set:
+      n: IIII
+  - line: 20397
+    set:
+      n: V
+  - line: 20747
+    set:
+      n: VIIII
+  - line: 22514
+    set:
+      n: XXV
+  flags: i
+- id: b20
+  pattern: .
+  lines:
+  - 22737
+  - 22737
+  locus: liber20
+  division: false
+- id: c20
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b20
+  lines:
+  - 22738
+  - 27298
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 23044
+    set:
+      n: IIII
+  - line: 24795
+    set:
+      n: XVI
+  - line: 25564
+    set:
+      n: XXI
+  flags: i
+- id: b21
+  pattern: .
+  lines:
+  - 27299
+  - 27299
+  locus: liber21
+  division: false
+- id: c21
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b21
+  lines:
+  - 27300
+  - 30968
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 27772
+    set:
+      n: V
+  - line: 29690
+    set:
+      n: XXIIII
+  flags: i
+- id: b22
+  pattern: .
+  lines:
+  - 30969
+  - 30969
+  locus: liber22
+  division: false
+- id: c22
+  pattern: '(?:^|\s)\S{0,3}CAP\w{1,2}T\.? (?P<n>[IVXLCYT1lmiJHvynrU]+)[.,]?(?: \d{1,2})?$'
+  parent: b22
+  lines:
+  - 30970
+  - 35635
+  locus: caput{n|int}
+  number: n
+  fixes:
+  - line: 31229
+    set:
+      n: IIII
+  - line: 33680
+    set:
+      n: XXI
+  - line: 34853
+    set:
+      n: XXVIIII
+  flags: i
+divisions:
+- start_line: 31675
+  locus: liber22/caput8
+  allow_oversize: The edition numbers this chapter once and prints no finer numbered division inside it; it is the finest level the edition prints.
+ignore:
+- pattern: ^(?:\S{1,3} )?S\. ?-? ?Aurelii'? Augustini$
+  kind: running-head
+  lines:
+  - 377
+  - 35635
+- pattern: ^De ciu\s?itate dei (?:l ?i ?b\.|lib\.) [IVXLY]+\. ?(?:c ?a ?p\.|cap\.)
+  kind: running-head
+  lines:
+  - 377
+  - 35635
+- pattern: ^XXXX Aug\. opera Sectio V pars
+  kind: signature
+  lines:
+  - 377
+  - 35635
+- pattern: ^\d{1,3}$
+  kind: page-or-margin-number
+  lines:
+  - 377
+  - 35635
+apparatus:
+- lines:
+  - 1
+  - 376
+  kind: front
+  locus: front
+- lines:
+  - 35636
+  - 47114
+  kind: index
+  locus: indices
+evidence:
+- line: 377
+  quote: LIBER XIIII.
+- line: 380
+  quote: CAPUT I.
+- line: 2179
+  quote: CAPUT XV.
+- line: 2599
+  quote: CAPUT XVIIIL
+- line: 3374
+  quote: CAPUT XXVIII.
+- line: 3439
+  quote: LIBER XY.
+- line: 3441
+  quote: CAPUT I.
+- line: 3757
+  quote: CAPUT y.
+- line: 4905
+  quote: CAPUT XIIII.
+- line: 5567
+  quote: CAPUT xvim.
+- line: 6598
+  quote: CAPUT XXVII.
+- line: 6843
+  quote: LIBER XVI.
+- line: 6846
+  quote: CAPUT I.
+- line: 7345
+  quote: CAPUT 1III.
+- line: 7502
+  quote: CAPUT Y.
+- line: 7865
+  quote: CAPUT vim.
+- line: 8728
+  quote: CAPUT XYII.
+- line: 9010
+  quote: CAPUT XXII.
+- line: 10924
+  quote: CAPUT XXXXIL
+- line: 10950
+  quote: CAPUT XXXXIII.
+- line: 11136
+  quote: LIBER XVII.
+- line: 11139
+  quote: CAPUT I.
+- line: 13201
+  quote: CAPUT XIII.
+- line: 14323
+  quote: CAPUT XXIIII.
+- line: 14370
+  quote: LIBER XVIII.
+- line: 14373
+  quote: CAPUT I.
+- line: 15395
+  quote: CAPUT XIHI.
+- line: 15505
+  quote: CAPUT XYI.
+- line: 15891
+  quote: CAPUT XXL
+- line: 16441
+  quote: CAPUT XXVIII.
+- line: 17866
+  quote: CAPUT XXXXL
+- line: 18704
+  quote: CAPUT XXXXVII1.
+- line: 18800
+  quote: CAPUT XXXXVIIII.
+- line: 19186
+  quote: CAPUT IUI.
+- line: 19217
+  quote: c a p. 52. 58.
+- line: 19337
+  quote: CAPUT LIIII.
+- line: 19507
+  quote: LIBER XVIIII.
+- line: 19509
+  quote: CAPUT I.
+- line: 20047
+  quote: CAPUT 1III.
+- line: 20397
+  quote: CAPUT Y.
+- line: 20747
+  quote: CAPUT vim.
+- line: 21431
+  quote: CAPUT XV.
+- line: 22514
+  quote: CAPUT XXY.
+- line: 22691
+  quote: CAPUT XXVIII.
+- line: 22737
+  quote: LIBER XX.
+- line: 22740
+  quote: CAPUT I.
+- line: 23044
+  quote: CAPUT Illi.
+- line: 24795
+  quote: CAPUT XYI.
+- line: 25564
+  quote: CAPUT XXL
+- line: 26927
+  quote: CAPUT XXX.
+- line: 27299
+  quote: LIBER XXI.
+- line: 27302
+  quote: CAPUT I.
+- line: 27772
+  quote: CAPUT Y.
+- line: 28972
+  quote: CAPUT XIIII.
+- line: 29690
+  quote: CAPUT XXII1I.
+- line: 30533
+  quote: CAPUT XXVII.
+- line: 30969
+  quote: LIBER XXII.
+- line: 30973
+  quote: CAPUT I.
+- line: 31229
+  quote: CAPUT Illi.
+- line: 33159
+  quote: CAPUT XVI.
+- line: 33680
+  quote: CAPUT XXL
+- line: 34853
+  quote: CAPUT XXVIIIL
+- line: 35280
+  quote: CAPUT XXX.

@@ -1,6 +1,8 @@
 # S1-05 sample card: contextual indexing, lpc sample
 
-Status: PENDING THE SEGMENTER: the segmenter's output (the passages folder of the answering-library out directory) does not exist yet. The files below are the default pick and every count is modeled from word counts at about 275 words a passage. Run the selector once the segmenter lands, then regenerate this card; the counts, the file list and the cap are recomputed.
+Status: pending option, not authorized, to be put to Mark later only if retrieval on lpc proves weak.
+
+Segmenter: pending, the segmenter's output (the passages folder of the answering-library out directory) does not exist yet. The files below are the default pick and every count is modeled from word counts at about 275 words a passage. Run the selector once the segmenter lands, then regenerate this card; the counts, the file list and the cap are recomputed.
 
 Nothing has been run. No model call and no paid call was made to prepare this card. The run waits for Mark to approve this sample by name and set the cap (root CLAUDE.md, metered spend and paid bulk runs).
 

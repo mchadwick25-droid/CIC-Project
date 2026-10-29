@@ -140,10 +140,11 @@ def test_voicing_pair_carve_out_demotes_new_world_findings_to_report_only(monkey
     assert any("zzz" in line for line in observed)
 
 
-def test_voicing_pair_carve_out_never_shields_a_grandfathered_world():
+def test_voicing_pair_carve_out_never_shields_a_grandfathered_world(monkeypatch):
     """The carve-out is for worlds that cannot clear voicing-pair themselves
     yet, not a general amnesty - a grandfathered world's own findings are
     still governed by the normal waiver mechanism."""
+    monkeypatch.setattr(enforce, "ACCEPTED_OPEN", {})
     by_world = {"don": {"m9:voicing-pair": ["a new, unwaived finding"]}}
     problems = enforce.hygiene_problems(by_world, today="2026-09-15")
     assert any("unwaived" in p for p in problems)

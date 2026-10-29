@@ -27,6 +27,7 @@ work: S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars IV (Epistulae CL
 edition: 'Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1911; vendored as cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt'
 citation: 'Augustine of Hippo, Epistulae, Pars IV (Epistulae CLXXXV-CCLXX), ed. Alois Goldbacher, CSEL 57 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1911)'
 kind: vendored
+shelf_row: augustine_epistulae-critical_goldbacher-csel57-pars4--s-aureli-augustini-epistulae-pars-iv-epistulae-clxxxv-cclxx
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

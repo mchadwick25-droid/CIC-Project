@@ -19,6 +19,7 @@ work: Julian, the Letter to the Athenians
 edition: Wright's 1913 translation, vendored as cic/texts/julian_letter-to-the-athenians_wright1913.txt
 citation: Julian, Letter to the Athenians, trans. Wright (1913)
 kind: vendored
+shelf_row: julian_letter-to-the-athenians_wright1913--letter-to-the-athenians-letter-to-the-senate-and-people-of-2
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 71; the file itself was independently

@@ -21,6 +21,7 @@ edition: Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appe
   vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 citation: Firmilian of Caesarea, Epistle 74 (or 75 in modern numbering), preserved in the corpus of Cyprian, Ante-Nicene Fathers, vol. 5 (Hippolytus, Cyprian, Caius, Novatian, Appendix), ed. Roberts and Donaldson
 kind: vendored
+shelf_row: anf05_hippolytus-cyprian-caius-novatian--epistle-lxxiv-anf-older-numbering-lxxv-modern-csel-hartel
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 69; a specific named source (author, translator,

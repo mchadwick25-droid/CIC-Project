@@ -25,6 +25,7 @@ work: The Book of Rules of Tyconius, Newly Edited from the MSS., Texts and Studi
 edition: Cambridge University Press, 1894; vendored as cic/texts/tyconius_liber-regularum_burkitt1894.txt
 citation: Tyconius, The Book of Rules of Tyconius, Newly Edited from the MSS., ed. F.C. Burkitt, Texts and Studies III/I (Cambridge University Press, 1894)
 kind: vendored
+shelf_row: tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. Preface, table of contents, and introduction all present and correctly
   naming F.C. Burkitt as editor and Tyconius as author.

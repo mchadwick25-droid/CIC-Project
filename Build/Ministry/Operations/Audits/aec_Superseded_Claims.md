@@ -72,6 +72,16 @@ Entries record what was claimed, what was wrong with it, and which review round 
 
 **2.15 `lpc` described as "nine-round-reviewed."** Withdrawn: Round 2, matching Step 0 §1.9 above — imprecise for Doc_04 specifically (eleven rounds, never cleared).
 
+**2.16 A Socrates II.44 quotation joined across a sentence boundary and cited for an agreement in faith after 381 among "both claimants" (Doc_01 §5).** Withdrawn: the cap-ruling review (N1) found the ellipsis joined the subject of one sentence to the predicate of the next, and that the passage (`npnf202` `ii.v.xliv-p3`) describes about 360 to 361, before Paulinus was consecrated. Restated as what Socrates says, with the whole sentences quoted.
+
+**2.17 John of Antioch's letter to Nestorius (`npnf203` `iv.x.cl`) described as "independently verified present in the vendored file" (Doc_01 §4).** Withdrawn: the cap-ruling review (N2) found only the letter's title, one sentence and an editor's note in the file (lines 36058 to 36075), not the letter. The example is now Theodoret's Letter CL to John of Antioch (`iv.x.cli`), and the title-only status of `iv.x.cl` is stated.
+
+**2.18 The Counter-statements "confirmed condemned material ... by name" at Constantinople II, with the Letters "not named" (Doc_01 §4).** Withdrawn: the cap-ruling review (N3) found canon XIII (`npnf214` `xii.vii-p36`) names no work by title and condemns by description, a description that also reaches Theodoret's letters against Ephesus 431 and in defence of Nestorius (`iv.x.clxiii`, `iv.x.clxxiii`). The disclosure now covers those letters.
+
+**2.19 The §4 boundary finding limited to Theodoret's four works (Doc_01 §4, §6).** Withdrawn: the cap-ruling review (N4) found the corpus-map bucket carries Antiochene-party works as `tradition` that the finding did not weigh. §4 now places Nestorius's *Bazaar* and the Nau translation, Loofs's *Nestoriana*, the *Conciliabulum Ephesinum* and the *Synodicon*, work by work.
+
+**2.20 The exact word counts 3,339,085, 3,357,623 and 3,035,294 (Doc_01 §1).** Withdrawn: the cap-ruling review (N5) re-ran them after the CCEL header clean-up changed the files; the figures are now 3,332,586, 3,351,124 and 3,032,271, with the method stated.
+
 ---
 
 ## 3. Doc_02 + Source Registry
@@ -107,3 +117,19 @@ Entries record what was claimed, what was wrong with it, and which review round 
 **3.15 Registry row 11b's boundary framed as "deliberately drawn to close (430) before the Eutychian controversy."** Withdrawn: Round 3 — the same "drawn to avoid" framing already withdrawn for the Nestorian controversy at Step 0 §1.1 above. The boundary simply closes at 430, per the census.
 
 **3.16 The corpus-map bucket's own row count given as "46" (Doc_02, Registry header, row 1, row 13).** Withdrawn: corrected to 47 throughout — see §1.6 and §3.12 above.
+
+**3.17 The corpus-map bucket held "50" work-rows, and every one was covered by a Registry row (Doc_02 §1, Registry header, `Open_Gaps_Tracking.md` entry 15).** Withdrawn: the cap-ruling review (D1) found 66 rows by YAML parse and by `grep -c '^- row_id:'`, with 16 uncovered. Registry rows 22 to 33 (with 25a) now cover them.
+
+**3.18 Holdings figures "431 vendored files: 2 by design, 103 in scope but unread, 42 out of window and 284 with no coverage entry," every in-scope file individually dispositioned, and "84" Table D rows (Doc_02 §8, §9 item 6, `Open_Gaps_Tracking.md` entry 11(d)).** Withdrawn: the cap-ruling review (D2) re-ran the tool (1,522 / 2 / 113 / 51 / 1,356), found eleven in-scope files with no disposition, and counted 83 Table D rows by two methods. Table D now has 94 rows.
+
+**3.19 John of Antioch's letter to Nestorius called "independently verified present in the vendored file" (Doc_02 §1, Registry row 11a).** Withdrawn: see §2.17. Only its title is in `npnf203` `iv.x.cl`.
+
+**3.20 The condemned-content disclosure limited to the Counter-statements (Doc_02 §1, §6, Registry row 11a).** Withdrawn: see §2.18. Canon XIII condemns by description.
+
+**3.21 Lausiac History line loci 547, 419, 579 and 473 (Doc_02 §6, Registry row 21).** Withdrawn: the cap-ruling review (D5) found these were the chapter headings. The quoted words are at lines 549, 427, 583 and 477.
+
+**3.22 Theodoret's material described as "out-of-window by date" (Doc_02 §2).** Withdrawn: the cap-ruling review (D8). The ground is subject, as in Doc_01 §4.
+
+**3.23 A corpus-map confidence-tag revisit said to be "carried in §9" when it was not (Doc_02 §1).** Withdrawn: the cap-ruling review (D7). It is now §9 item 11.
+
+**3.24 The Registry word counts and the Living-document protocol pointer to "`Doc_02_Source_Ecology.md` §9" (Source Registry header, protocol).** Withdrawn: the cap-ruling review (D6, D9). The counts are re-run, and the pointer names §9 item 3.

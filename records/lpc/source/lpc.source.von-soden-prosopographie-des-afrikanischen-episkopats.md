@@ -24,6 +24,7 @@ edition: Vendored under row 211 as cic/texts/vonsoden_prosopographie-afrikanisch
   sliced to the article's own page range
 citation: 'Hans von Soden, Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen und Forschungen aus italienischen Archiven und Bibliotheken 12 (Rome, 1909), pp. 247-270'
 kind: vendored
+shelf_row: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909--die-prosopographie-des-afrikanischen-episkopats-zur-zeit
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

@@ -7,6 +7,7 @@ from .pricing import BATCH_DISCOUNT_SOURCE, MODEL_ID, price_table
 from .prompting import CONTEXT_WORD_LIMIT
 from .report import WINDOW_DEFINITION, money, render_settings
 from .sample import DEFAULT_FILES
+from .status import PENDING_OPTION
 
 CAP_MULTIPLE = 5
 CAP_STEP = 0.5
@@ -51,16 +52,18 @@ def render_card(
     cap = recommended_cap(s["dollars_sync"]["high"])
     u = union.summary()
     status = (
-        "READY: passages are the segmenter's own, selected by the rule below."
+        "ready, passages are the segmenter's own, selected by the rule below."
         if segmented else
-        "PENDING THE SEGMENTER: the segmenter's output (the passages folder of the answering-library out directory) does not exist yet. "
+        "pending, the segmenter's output (the passages folder of the answering-library out directory) does not exist yet. "
         "The files below are the default pick and every count is modeled from word counts at about 275 words a passage. "
         "Run the selector once the segmenter lands, then regenerate this card; the counts, the file list and the cap are recomputed."
     )
     lines = [
         "# S1-05 sample card: contextual indexing, lpc sample",
         "",
-        f"Status: {status}",
+        PENDING_OPTION,
+        "",
+        f"Segmenter: {status}",
         "",
         "Nothing has been run. No model call and no paid call was made to prepare this card. The run waits for Mark to approve this "
         "sample by name and set the cap (root CLAUDE.md, metered spend and paid bulk runs).",

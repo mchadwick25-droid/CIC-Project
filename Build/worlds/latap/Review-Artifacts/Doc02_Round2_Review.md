@@ -208,3 +208,5 @@ Doc_02 §1 is now correct. Registry row 33 is not (P2 N5).
   - post-1930 scholarship
   - the Licensed-For readings behind the A rows for Tertullian rows 1–31
   - Brewer's own words: Harnack quotes him at line 24928 as "um 458—460 in Südgallien", while row 52 gives "between 458 and 466, at Arles" from Brewer's file. Round 1 accepted the row; I did not reopen it.
+
+Approved to proceed (Doc_02 and the Source Registry; not Frozen). Self-disposed by the build thread after this recheck; the reviewer's verdict is above.

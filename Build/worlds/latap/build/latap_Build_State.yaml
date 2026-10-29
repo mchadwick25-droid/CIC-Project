@@ -3,9 +3,9 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-10-29
 pilot_world: false
-current_step: "Library stage (Steps 0-2). Step 0 approved to proceed. Doc_01 approved to proceed. Doc_02 and the Source Registry not yet approved to proceed."
+current_step: "Library stage (Steps 0-2). Step 0 approved to proceed. Doc_01 approved to proceed. Doc_02 and the Source Registry approved to proceed."
 status: in_progress
-pause_point: none
+pause_point: "Paused at the allowance checkpoint. Done: Doc_02 and the Source Registry approved to proceed after Round 2 (Clear); P1 and P2 findings of both rounds fixed; branch merged with main. Left: the handoff manifest's 12-check table, outcome and Step 2 row (fill from a fresh full handoff run); safety_adjacent (project lead); the targeted Step 0 review. First on resume: run python -m engine.m10.cli handoff latap, fill the manifest, then mark the pull request ready."
 file_code_registration: "Registered 2026-10-29 as a candidate world; the code was ratified the same day. See Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md, entry latap. safety_adjacent is not set (the project lead's call at handoff)."
 library_stage_utc:
   started: 2026-10-29T17:17:55Z
@@ -23,18 +23,18 @@ documents:
     review_files: [Review-Artifacts/Doc01_Round1_Review.md, Review-Artifacts/Doc01_Round2_Review.md, Review-Artifacts/Doc01_Round3_Review.md]
     gates_result:
   - id: Doc_02
-    status: draft
-    rounds_used: 0
+    status: approved to proceed
+    rounds_used: 2
     drafter_model: Sonnet 5.5
     reviewer_model: claude-opus-5-5
-    review_files: []
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md]
     gates_result:
   - id: Source_Registry
-    status: draft
-    rounds_used: 0
+    status: approved to proceed
+    rounds_used: 2
     drafter_model: Sonnet 5.5
     reviewer_model: claude-opus-5-5
-    review_files: []
+    review_files: [Review-Artifacts/Doc02_Round1_Review.md, Review-Artifacts/Doc02_Round2_Review.md]
     gates_result:
   - id: Representative_identity
     status: decided later in the build, at Doc_10

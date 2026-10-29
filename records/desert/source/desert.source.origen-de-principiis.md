@@ -32,6 +32,7 @@ work: "De Principiis (On First Principles), c. 220-230 - the systematic theology
 edition: "Ante-Nicene Fathers vol. 4, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml - De Principiis runs from Rufinus' own prologue, and the passage on God's incorporeality at file line 22800 (Book I, ch. 1, section 6)"
 citation: Origen of Alexandria, De Principiis (On First Principles), Rufinus of Aquileia, Latin translator, Ante-Nicene Fathers vol. 4
 kind: vendored
+shelf_row: anf04-desert-additions--de-principiis-on-first-principles-in-rufinus-latin
 rights_status: "public-domain; ANF 1885, long out of US copyright"
 attribution_status: "Origen for the work; Rufinus for the surviving Latin, with his own admitted editorial intervention; the ANF translators for the English"
 discovery_channel: "opened 2026-08-27 by the unopened-volume sweep (desert.search.unopened-volume-sweep); this volume had been on cross_world's second-hand-source list for desert because this world names Origen repeatedly and had never opened him"

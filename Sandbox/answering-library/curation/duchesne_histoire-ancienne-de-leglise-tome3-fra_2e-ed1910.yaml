@@ -1,0 +1,45 @@
+file: duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt
+scheme: 'Duchesne''s chapters I to XV, each printed as "CHAPITRE" with a roman numeral and a title line; the volume prints no numbered sections inside a chapter'
+curator: Sonnet 5.5
+status: drafted
+rules:
+  - id: chapter
+    pattern: '^CHAP\w{4,6} (?P<n>[IVXLCHTUmnly1]{1,8})[.,]?$'
+    lines: [255, 25197]
+    locus: 'chapter{n|int}'
+    title: '{next}'
+    skip_repeat: true
+    ocr_map: {'H': 'I', 'T': 'I', 'U': 'II', 'm': 'III', 'n': 'II', 'l': 'I', 'y': 'V', '1': 'I'}
+    number: n
+    allow_oversize: 'the chapter is the finest division the edition prints: the Table des matieres at line 25198 lists chapters only, and the body prints no numbered sections or subheads inside a chapter'
+ignore:
+  - pattern: '^\S{1,6} CHAP\w{4,6} \S{1,9}$'
+    kind: running-head
+    lines: [255, 25197]
+  - pattern: '^CHAP\w{4,6} \S{1,9} \S{1,5}$'
+    kind: running-head
+    lines: [255, 25197]
+apparatus:
+  - lines: [10, 254]
+    kind: front
+    locus: front
+  - lines: [25198, 25496]
+    kind: index
+    locus: index
+evidence:
+  - line: 255
+    quote: CHAPITRE I.
+  - line: 1577
+    quote: CHAPITRE II.
+  - line: 2695
+    quote: CHAPITRE m.
+  - line: 4039
+    quote: CHAPITRE ly.
+  - line: 7407
+    quote: CHAPITRE VI.
+  - line: 9564
+    quote: CHAPITRE VIII.
+  - line: 16832
+    quote: CHAPITRE Xn.
+  - line: 23864
+    quote: CHAPITRE XV.

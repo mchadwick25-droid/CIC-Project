@@ -30,6 +30,7 @@ work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of
 edition: "trans. Rev. William Wilson, M.A., Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml (div1 at line 3788)"
 citation: Excerpts of Theodotus; or, Selections from the Prophetic Scriptures (Eclogae Propheticae), trans. Rev. William Wilson, Ante-Nicene Fathers vol. 8 (1886)
 kind: vendored
+shelf_row: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--excerpts-of-theodotus
 rights_status: public-domain
 attribution_status: "disputed by the edition's own editor; not securely Clement's, not Theodotus's own words"
 discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; alx held four Clement sources and not this one, and had no source at all for the movement its own alx.force.gnostic-challenge is about (that gap is NOT closed by this record - see body)"

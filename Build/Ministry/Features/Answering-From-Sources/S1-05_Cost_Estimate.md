@@ -1,5 +1,7 @@
 # Contextual indexing: cost estimate
 
+Status: pending option, not authorized, to be put to Mark later only if retrieval on lpc proves weak.
+
 Prices: Haiku 4.5 from engine/m8/price_tables.py. Batch discount: the vendor's published batch rate is assumed to be half the standard rate (the repo carries no batch price), and the live-test guard does not expose the batch endpoint.
 
 Assumptions behind every modeled row (replaced by the segmenter's real passages file by file as they exist): about 275 words a passage; characters per token Latin script 4.0 (low band) to 3.2 (high band), Greek and other scripts 2.4 to 1.5; output 55 (low) to 100 (high) tokens per context line; cache prefix 4300 (low band) to 9000 (high band) tokens per window, 4300 being the assumed Haiku cache minimum of 4,096 plus margin; 2% of high-band calls re-write the cache instead of reading it; 45 fresh tokens a call plus 220 per window for the edge neighbours. Shared files count once in the union and once in each world that holds them, so the world rows add up to more than the union.

@@ -1,0 +1,1118 @@
+# Shelf-row ambiguities and off-shelf records
+
+## lpc
+
+### Ambiguous (25)
+
+- `lpc.source.acta-proconsularia-sancti-cypriani`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--cyprian-s-opera-spuria-works-transmitted-under-cyprian-s`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--vita-caecilii-cypriani-attributed-to-pontius-the-deacon`
+- `lpc.source.acts-of-council-of-carthage-under-cyprian-npnf214`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage`
+  - `npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on`
+- `lpc.source.anonymous-against-novatian-and-on-rebaptism`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.augustine-answer-to-petilian`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-anti-manichaean-corpus`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-anti-pelagian-corpus`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas`
+  - `npnf105_augustine-anti-pelagian-writings--on-grace-and-free-will-de-gratia-et-libero-arbitrio`
+  - `npnf105_augustine-anti-pelagian-writings--on-man-s-perfection-in-righteousness-de-perfectione`
+  - `npnf105_augustine-anti-pelagian-writings--on-marriage-and-concupiscence-de-nuptiis-et-concupiscentia`
+  - `npnf105_augustine-anti-pelagian-writings--on-nature-and-grace-de-natura-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-grace-of-christ-and-on-original-sin-de-gratia-christi`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-merits-and-forgiveness-of-sins-and-on-the-baptism-of`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-proceedings-of-pelagius-de-gestis-pelagii`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-soul-and-its-origin-de-anima-et-ejus-origine`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-spirit-and-the-letter-de-spiritu-et-littera`
+- `lpc.source.augustine-city-of-god`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf102_augustine-city-of-god-christian-doctrine--city-of-god`
+  - `npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine`
+- `lpc.source.augustine-confessions`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-correction-of-the-donatists`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-creedal-catechetical-works`: 16 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--a-treatise-on-faith-and-the-creed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--concerning-faith-of-things-not-seen`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-holy-virginity`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-the-work-of-monks-de-opere-monachorum`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-care-to-be-had-for-the-dead`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-continence`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-lying-de-mendacio`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-patience`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-creed-a-sermon-to-catechumens`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-marriage`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-widowhood`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-holy-trinity-de-trinitate`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--the-enchiridion-on-faith-hope-and-love`
+- `lpc.source.augustine-donatist-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-further-doctrinal-and-moral-treatises`: 16 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--a-treatise-on-faith-and-the-creed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--against-lying-contra-mendacium`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--concerning-faith-of-things-not-seen`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-holy-virginity`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--of-the-work-of-monks-de-opere-monachorum`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-care-to-be-had-for-the-dead`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-continence`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-lying-de-mendacio`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-patience`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-catechising-of-the-uninstructed`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-creed-a-sermon-to-catechumens`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-marriage`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-good-of-widowhood`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-holy-trinity-de-trinitate`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--on-the-profit-of-believing-de-utilitate-credendi`
+  - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises--the-enchiridion-on-faith-hope-and-love`
+- `lpc.source.augustine-general-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-jerome-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-letter-93-to-vincentius`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-augustine-jerome-correspondence`
+  - `npnf101_augustine-confessions-letters--letters-of-st-augustin-the-general-correspondence`
+  - `npnf101_augustine-confessions-letters--the-confessions`
+- `lpc.source.augustine-on-baptism-against-the-donatists`: 10 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--against-the-epistle-of-manichaeus-called-fundamental`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--concerning-the-nature-of-good-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-two-souls-against-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-catholic-church`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-the-morals-of-the-manichaeans`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--reply-to-faustus-the-manichaean-contra-faustum`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `lpc.source.augustine-on-christian-doctrine`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf102_augustine-city-of-god-christian-doctrine--city-of-god`
+  - `npnf102_augustine-city-of-god-christian-doctrine--on-christian-doctrine`
+- `lpc.source.augustine-sermons-on-selected-lessons`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--our-lord-s-sermon-on-the-mount-de-sermone-domini-in-monte`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--the-harmony-of-the-gospels-de-consensu-evangelistarum`
+- `lpc.source.augustine-tractates-on-john-and-related-exegesis`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--our-lord-s-sermon-on-the-mount-de-sermone-domini-in-monte`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad`
+  - `npnf106_augustine-sermon-mount-harmony-gospels-homilies--the-harmony-of-the-gospels-de-consensu-evangelistarum`
+- `lpc.source.bruder-doctrina-christiana-enchiridion-maurist`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustine_doctrina-christiana-enchiridion-lat_bruder1838--on-christian-doctrine-de-doctrina-christiana-books-i-iv`
+  - `augustine_doctrina-christiana-enchiridion-lat_bruder1838--the-enchiridion-on-faith-hope-and-love`
+- `lpc.source.cyprian-epistles`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.cyprian-minor-pastoral-treatises`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.cyprian-opera-spuria-vita-pontius-acta-proconsularia-csel3-pars3`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--cyprian-s-opera-spuria-works-transmitted-under-cyprian-s`
+  - `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--vita-caecilii-cypriani-attributed-to-pontius-the-deacon`
+- `lpc.source.cyprian-seventh-council-of-carthage`: 18 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-against-the-heretic-novatian`
+  - `anf05_hippolytus-cyprian-caius-novatian--anonymous-treatise-on-re-baptism-de-rebaptismate`
+  - `anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum`
+  - `anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-dress-of-virgins-de-habitu-virginum`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lord-s-prayer-de-dominica-oratione`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism`
+  - `anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum`
+  - `anf05_hippolytus-cyprian-caius-novatian--treatises-attributed-to-cyprian-on-questionable-authority-on`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr`
+- `lpc.source.passio-montani-et-lucii`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--acta-proconsularia-of-cyprian-latin-knopf-krueger-1929-no-13`
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--passio-of-marianus-and-jacobus-latin-knopf-krueger-1929-no`
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--passio-of-montanus-and-lucius-latin-knopf-krueger-1929-no-16`
+  - `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--the-passion-of-the-scillitan-martyrs-latin-knopf-krueger`
+
+### Off-shelf (3)
+
+- `lpc.source.cil-viii-inscriptiones-africae-latinae`: cil8-supplementum-numidiae_cagnat-schmidt1894.txt is not in this world's bucket
+- `lpc.source.codex-theodosianus-mommsen-meyer`: theodosianus-16_mommsen-meyer1905.txt is not in this world's bucket
+- `lpc.source.tertullian-de-pudicitia`: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml is not in this world's bucket
+
+## alx
+
+### Ambiguous (19)
+
+- `alx.source.alexandrian-canonical-answers`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-athanasius-to-ammus-from-the-xxxix`
+  - `npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2`
+  - `npnf214_seven-ecumenical-councils--the-canonical-letter-of-dionysius-of-alexandria-to-basilides`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-peter-of-alexandria-from-his-sermon-on`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-theophilus-of-alexandria-prosphonesus`
+  - `npnf214_seven-ecumenical-councils--the-canonical-answers-of-timothy-of-alexandria`
+- `alx.source.athanasius-ad-afros`: 21 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf204_athanasius--against-the-heathen-contra-gentes`
+  - `npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium`
+  - `npnf204_athanasius--arian-history-historia-arianorum-ad-monachos`
+  - `npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos`
+  - `npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii`
+  - `npnf204_athanasius--defence-of-his-flight-apologia-de-fuga`
+  - `npnf204_athanasius--defence-of-the-nicene-definition-de-decretis`
+  - `npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s`
+  - `npnf204_athanasius--encyclical-letter-epistola-encyclica`
+  - `npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos`
+  - `npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt`
+  - `npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis`
+  - `npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--statement-of-faith-expositio-fidei`
+  - `npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola`
+  - `npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos`
+  - `npnf204_athanasius--the-festal-letters-with-the-festal-index`
+  - `npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+  - `npnf204_athanasius--the-historia-acephala`
+- `alx.source.athanasius-contra-arianos`: 21 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf204_athanasius--against-the-heathen-contra-gentes`
+  - `npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium`
+  - `npnf204_athanasius--arian-history-historia-arianorum-ad-monachos`
+  - `npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos`
+  - `npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii`
+  - `npnf204_athanasius--defence-of-his-flight-apologia-de-fuga`
+  - `npnf204_athanasius--defence-of-the-nicene-definition-de-decretis`
+  - `npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s`
+  - `npnf204_athanasius--encyclical-letter-epistola-encyclica`
+  - `npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos`
+  - `npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt`
+  - `npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis`
+  - `npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--statement-of-faith-expositio-fidei`
+  - `npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola`
+  - `npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos`
+  - `npnf204_athanasius--the-festal-letters-with-the-festal-index`
+  - `npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+  - `npnf204_athanasius--the-historia-acephala`
+- `alx.source.athanasius-de-decretis`: 21 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf204_athanasius--against-the-heathen-contra-gentes`
+  - `npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium`
+  - `npnf204_athanasius--arian-history-historia-arianorum-ad-monachos`
+  - `npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos`
+  - `npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii`
+  - `npnf204_athanasius--defence-of-his-flight-apologia-de-fuga`
+  - `npnf204_athanasius--defence-of-the-nicene-definition-de-decretis`
+  - `npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s`
+  - `npnf204_athanasius--encyclical-letter-epistola-encyclica`
+  - `npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos`
+  - `npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt`
+  - `npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis`
+  - `npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--statement-of-faith-expositio-fidei`
+  - `npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola`
+  - `npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos`
+  - `npnf204_athanasius--the-festal-letters-with-the-festal-index`
+  - `npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+  - `npnf204_athanasius--the-historia-acephala`
+- `alx.source.athanasius-de-incarnatione`: 21 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf204_athanasius--against-the-heathen-contra-gentes`
+  - `npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium`
+  - `npnf204_athanasius--arian-history-historia-arianorum-ad-monachos`
+  - `npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos`
+  - `npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii`
+  - `npnf204_athanasius--defence-of-his-flight-apologia-de-fuga`
+  - `npnf204_athanasius--defence-of-the-nicene-definition-de-decretis`
+  - `npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s`
+  - `npnf204_athanasius--encyclical-letter-epistola-encyclica`
+  - `npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos`
+  - `npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt`
+  - `npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis`
+  - `npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--statement-of-faith-expositio-fidei`
+  - `npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola`
+  - `npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos`
+  - `npnf204_athanasius--the-festal-letters-with-the-festal-index`
+  - `npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+  - `npnf204_athanasius--the-historia-acephala`
+- `alx.source.athanasius-festal-letters`: 21 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf204_athanasius--against-the-heathen-contra-gentes`
+  - `npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium`
+  - `npnf204_athanasius--arian-history-historia-arianorum-ad-monachos`
+  - `npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos`
+  - `npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii`
+  - `npnf204_athanasius--defence-of-his-flight-apologia-de-fuga`
+  - `npnf204_athanasius--defence-of-the-nicene-definition-de-decretis`
+  - `npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s`
+  - `npnf204_athanasius--encyclical-letter-epistola-encyclica`
+  - `npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos`
+  - `npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt`
+  - `npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis`
+  - `npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--statement-of-faith-expositio-fidei`
+  - `npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola`
+  - `npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos`
+  - `npnf204_athanasius--the-festal-letters-with-the-festal-index`
+  - `npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+  - `npnf204_athanasius--the-historia-acephala`
+- `alx.source.athanasius-vita-antonii`: 21 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf204_athanasius--against-the-heathen-contra-gentes`
+  - `npnf204_athanasius--apology-to-the-emperor-apologia-ad-constantium`
+  - `npnf204_athanasius--arian-history-historia-arianorum-ad-monachos`
+  - `npnf204_athanasius--defence-against-the-arians-apologia-contra-arianos`
+  - `npnf204_athanasius--defence-of-dionysius-de-sententia-dionysii`
+  - `npnf204_athanasius--defence-of-his-flight-apologia-de-fuga`
+  - `npnf204_athanasius--defence-of-the-nicene-definition-de-decretis`
+  - `npnf204_athanasius--deposition-of-arius-depositio-arii-with-alexander-s`
+  - `npnf204_athanasius--encyclical-letter-epistola-encyclica`
+  - `npnf204_athanasius--four-discourses-against-the-arians-orationes-contra-arianos`
+  - `npnf204_athanasius--on-luke-x-22-in-illud-omnia-mihi-tradita-sunt`
+  - `npnf204_athanasius--on-the-councils-of-ariminum-and-seleucia-de-synodis`
+  - `npnf204_athanasius--on-the-incarnation-of-the-word-de-incarnatione`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--statement-of-faith-expositio-fidei`
+  - `npnf204_athanasius--synodal-letter-to-the-bishops-of-africa-ad-afros-epistola`
+  - `npnf204_athanasius--synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos`
+  - `npnf204_athanasius--the-festal-letters-with-the-festal-index`
+  - `npnf204_athanasius--to-the-bishops-of-egypt-ad-episcopos-aegypti-et-libyae`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+  - `npnf204_athanasius--the-historia-acephala`
+- `alx.source.clement-paidagogos`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-instructor-paedagogus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--who-is-the-rich-man-that-shall-be-saved`
+- `alx.source.clement-protrepticus`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-instructor-paedagogus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--who-is-the-rich-man-that-shall-be-saved`
+- `alx.source.clement-quis-dives`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-instructor-paedagogus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--who-is-the-rich-man-that-shall-be-saved`
+- `alx.source.clement-stromateis`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-instructor-paedagogus`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--the-stromata-or-miscellanies`
+  - `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--who-is-the-rich-man-that-shall-be-saved`
+- `alx.source.dionysius-extant-fragments`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-paschal-canon-of-anatolius-of-alexandria-with-fragments`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--extant-fragments-of-dionysius-of-alexandria-works-and`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--from-the-discourse-on-the-resurrection`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pamphilus-exposition-on-the-acts-of-the`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-from-the-writings-of-peter-of-alexandria-on-the`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-canonical-epistle-of-peter-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-genuine-acts-of-peter-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-phileas-epistle-to-the-people-of-thmuis-on-the`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pierus-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-theognostus-of-alexandria-from-the-hypotyposes`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-theonas-to-lucianus`
+- `alx.source.gregory-address-to-origen`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--epistles-on-the-arian-heresy-and-the-deposition-of-arius`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-paschal-canon-of-anatolius-of-alexandria-with-fragments`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--extant-fragments-of-dionysius-of-alexandria-works-and`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--from-the-discourse-on-the-resurrection`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pamphilus-exposition-on-the-acts-of-the`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-from-the-writings-of-peter-of-alexandria-on-the`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-canonical-epistle-of-peter-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-genuine-acts-of-peter-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-phileas-epistle-to-the-people-of-thmuis-on-the`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pierus-of-alexandria`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-theognostus-of-alexandria-from-the-hypotyposes`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-theonas-to-lucianus`
+- `alx.source.jerome-de-viris`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus-2`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--rufinus-translation-prefaces-and-perorations-recognitions-of`
+- `alx.source.nicene-creed-325`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-athanasius-to-ammus-from-the-xxxix`
+  - `npnf214_seven-ecumenical-councils--the-second-council-of-constantinople-553-extracts-from-the-2`
+  - `npnf214_seven-ecumenical-councils--the-canonical-letter-of-dionysius-of-alexandria-to-basilides`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-peter-of-alexandria-from-his-sermon-on`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-theophilus-of-alexandria-prosphonesus`
+  - `npnf214_seven-ecumenical-councils--the-canonical-answers-of-timothy-of-alexandria`
+- `alx.source.origen-comm-john`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter`
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--letter-of-origen-to-gregory`
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-john`
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-matthew`
+- `alx.source.origen-comm-matthew`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apocalypse-of-peter`
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--letter-of-origen-to-gregory`
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-john`
+  - `anf09_gospel-of-peter-diatessaron-origen-commentaries--origen-s-commentary-on-the-gospel-of-matthew`
+- `alx.source.origen-contra-celsum`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-to-origen-from-africanus-about-the-history-of`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-africanus`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-gregory`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--de-principiis-on-first-principles`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--origen-against-celsus-contra-celsum`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis`
+- `alx.source.origen-de-principiis`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-to-origen-from-africanus-about-the-history-of`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-africanus`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-from-origen-to-gregory`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--de-principiis-on-first-principles`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--origen-against-celsus-contra-celsum`
+  - `anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis`
+
+### Off-shelf (0)
+
+None.
+
+## cappadocian
+
+### Ambiguous (39)
+
+- `cappadocian.source.amphilochius-iambics-to-seleucus`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others`
+  - `npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2`
+  - `npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of`
+- `cappadocian.source.basil-antiphonal-psalmody-baptismal-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-apollinaris-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-canonical-letters-to-amphilochius`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-canons-40-42-enslaved-marriage`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-chorepiscopoi-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-epistle-199-canon-21`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-epistle-38-ousia-hypostasis`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-epistle-8-evagrius`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-eustathius-rupture-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-hexaemeron-homilies`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-letters-general-corpus`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-libanius-correspondence`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-macrina-the-elder-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.basil-on-the-holy-spirit`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.codex-theodosianus-13-3-5-school-law`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `theodosianus-16_mommsen-meyer1905--the-general-school-law-of-june-362-cth-13-3-5`
+  - `theodosianus-16_mommsen-meyer1905--the-imperial-communion-law-of-381-cth-16-1-3-30-july-381`
+- `cappadocian.source.constantinople-381-and-its-creed`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others`
+  - `npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2`
+  - `npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of`
+- `cappadocian.source.eupsychius-of-caesareas-feast`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit`
+  - `npnf208_basil-letters-select-works--the-hexaemeron`
+  - `npnf208_basil-letters-select-works--the-letters`
+- `cappadocian.source.gangra-canons`: 6 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--from-the-iambics-of-amphilochius-to-seleucus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistles-of-basil-to-amphilochius-and-others`
+  - `npnf214_seven-ecumenical-councils--the-first-council-of-constantinople-381-creed-canons`
+  - `npnf214_seven-ecumenical-councils--the-canons-of-the-council-of-gangra-2`
+  - `npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of`
+  - `npnf214_seven-ecumenical-councils--the-canonical-epistle-of-gregory-of-nyssa-to-letoius-of`
+- `cappadocian.source.gregory-nazianzus-epistle-197-theosebia`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-funeral-orations-caesarius-gorgonia-elder-gregory`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-oration-2-flight-from-ordination`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-oration-on-baptism`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-orations-general-corpus`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nazianzus-sasima-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--select-orations-of-saint-gregory-nazianzen`
+  - `npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31`
+- `cappadocian.source.gregory-nyssa-ad-ablabium`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-ad-eustathium`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-against-eunomius`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-catechetical-oration`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-love-of-the-poor-lepers-consolation`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-the-holy-spirit`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-the-making-of-man`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-the-soul-and-resurrection`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-nyssa-on-virginity`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--funeral-oration-on-meletius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--letters`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-not-three-gods-to-ablabius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-infants-early-deaths`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-pilgrimages`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-virginity`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-baptism-of-christ`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-faith-to-simplicius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-making-of-man`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--on-the-soul-and-the-resurrection`
+  - `npnf205_gregory-nyssa-dogmatic-treatises--the-great-catechism`
+- `cappadocian.source.gregory-thaumaturgus-address-of-thanksgiving-to-origen`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-declaration-of-faith`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle-2`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-2`
+- `cappadocian.source.gregory-thaumaturgus-canonical-epistle`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-declaration-of-faith`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--canonical-epistle-2`
+  - `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-oration-and-panegyric-addressed-to-origen-2`
+- `cappadocian.source.jerome-de-viris-illustribus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-entries`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--the-ecclesiastical-history-of-theodoret-book-iv-chapter-xvi`
+
+### Off-shelf (0)
+
+None.
+
+## desert
+
+### Ambiguous (11)
+
+- `desert.source.athanasius-festal-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+- `desert.source.athanasius-vita-antonii`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice`
+  - `npnf204_athanasius--personal-letters-of-athanasius`
+  - `npnf204_athanasius--vita-antonii-life-of-antony`
+- `desert.source.cassian-conferences`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+- `desert.source.cassian-institutes`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+- `desert.source.jerome-de-viris`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-pachomius`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus-ch-antonius`
+- `desert.source.jerome-letter-22`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+- `desert.source.jerome-life-of-paulus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+- `desert.source.pachomian-corpus`: 5 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-iii-the-symbolical-homily-on-the`
+  - `pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice`
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance`
+  - `pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-ii-the-second-word-of-the-holy`
+  - `pachomius_rules-ethiopic_schodde1885--schodde-s-introduction-to-the-rules-1885`
+- `desert.source.palladius-paradise-syriac`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension`
+  - `palladius_paradise-v1-syriac_budge1907--budge-s-preface-and-introduction-to-the-paradise-1907`
+  - `palladius_paradise-v1-syriac_budge1907--the-paradise-of-palladius-book-i-syriac-recension`
+- `desert.source.socrates-historia-ecclesiastica`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2`
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2`
+- `desert.source.sozomen-historia-ecclesiastica`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-socrates-scholasticus-2`
+  - `npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2`
+
+### Off-shelf (0)
+
+None.
+
+## don
+
+### Ambiguous (30)
+
+- `don.source.acts-council-of-carthage-under-cyprian-npnf214`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf214_seven-ecumenical-councils--the-code-of-canons-of-the-african-church-council-of-carthage-2`
+  - `npnf214_seven-ecumenical-councils--the-acts-of-the-council-of-carthage-under-cyprian-256-on`
+- `don.source.augustine-answer-to-letters-of-petilian`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-answer-to-petilian`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-contra-cresconium`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.augustine-contra-epistulam-parmeniani`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.augustine-contra-gaudentium`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.augustine-correction-of-donatists-letter-185`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-correction-of-the-donatists`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-on-baptism-against-donatists`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-on-baptism-against-the-donatists`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.augustine-psalmus-contra-partem-donati`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.cyprian-de-unitate`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.cyprian-epistles`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.cyprian-seventh-council-of-carthage-rebaptism`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.lucilla-and-the-second-unnamed-woman`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.npnf-prolegomena-analysis-anti-donatist-writings`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.npnf104-prolegomena-analysis`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.optatus-against-donatists`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.optatus-against-the-donatists`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.optatus-appendix-of-documents`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_against-the-donatists--appendix-of-documents-the-anti-donatist-dossier-appendices-i`
+  - `optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii-2`
+- `don.source.passio-donati-sermon`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii`
+- `don.source.passio-isaac-et-maximiani`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii`
+- `don.source.passio-marculi`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `monumenta-vetera-donatistarum_migne-pl8--sermo-donatistae-cujusdam-de-vexatione-donatistarum`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-benedicti-martyris-marculi`
+  - `monumenta-vetera-donatistarum_migne-pl8--passio-ss-martyrum-isaac-et-maximiani-cum-epistula-macrobii`
+- `don.source.petilian-of-constantina-letters-quoted`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.petilian-of-constantina-letters`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf104_augustine-anti-manichaean-anti-donatist--answer-to-the-letters-of-petilian-the-donatist`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--on-baptism-against-the-donatists`
+  - `npnf104_augustine-anti-manichaean-anti-donatist--the-correction-of-the-donatists-de-correctione-donatistarum`
+- `don.source.petschenig-scripta-contra-donatistas-csel51-53`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.petschenig-scripta-contra-donatistas`: 13 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--breviculus-collationis-cum-donatistis`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-adversus-fulgentium-donatistam`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-cresconium-libri-quattuor`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-epistulam-parmeniani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-gaudentium-donatistarum-episcopum-libri-ii`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-litteras-petiliani-libri-tres`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--contra-partem-donati-post-gesta`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-baptismo-libri-septem`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--de-unico-baptismo-contra-petilianum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--epistula-ad-catholicos-de-secta-donatistarum`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--gesta-cum-emerito-donatista`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--psalmus-contra-partem-donati`
+  - `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910--sermo-ad-caesariensis-ecclesiae-plebem`
+- `don.source.seventh-council-of-carthage-256-anf05`: 4 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2`
+  - `anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2`
+- `don.source.ziwsa-critical-edition-optatus`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia`
+  - `optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition`
+- `don.source.ziwsa-optatus-libri-vii-csel26`: 2 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `optatus_libri-vii-critical_ziwsa1893--decem-monumenta-vetera-ad-donatistarum-historiam-pertinentia`
+  - `optatus_libri-vii-critical_ziwsa1893--s-optati-milevitani-libri-vii-critical-latin-edition`
+
+### Off-shelf (0)
+
+None.
+
+## gallic
+
+### Ambiguous (14)
+
+- `gallic.source.augustine-on-predestination`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+- `gallic.source.augustine-on-rebuke-and-grace`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+- `gallic.source.augustine-on-the-gift-of-perseverance`: 3 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf105_augustine-anti-pelagian-writings--on-rebuke-and-grace-de-correptione-et-gratia`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-gift-of-perseverance-de-dono-perseverantiae`
+  - `npnf105_augustine-anti-pelagian-writings--on-the-predestination-of-the-saints-de-praedestinatione`
+- `gallic.source.cassian-conferences-part-i`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.cassian-conferences-part-ii`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.cassian-conferences-part-iii`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.cassian-de-incarnatione`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.npnf-editorial-apparatus`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-dialogues-ii-iii`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-doubtful-letters`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-letters`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-sacred-history`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.sulpitius-vita-martini`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+- `gallic.source.vincent-commonitory`: 9 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-conferences-of-john-cassian`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-twelve-books-on-the-institutes-of-the-coenobia`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-life-of-st-martin`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-doubtful-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
+  - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+
+### Off-shelf (0)
+
+None.

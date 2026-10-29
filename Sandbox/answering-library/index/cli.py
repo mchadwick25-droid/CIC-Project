@@ -135,14 +135,39 @@ def cmd_build_index(args) -> int:
     out_dir = _out_dir(args)
     shelves = catalog.load_shelves()
     scope, entries = _scope_entries(args, shelves)
-    passages, contexts = [], {}
-    for entry in entries:
-        file_passages = contract.read_file_passages(out_dir, entry.file) or []
-        passages.extend(file_passages)
-        contexts.update(store.usable_contexts(generate.read_context_lines(out_dir, entry.file), file_passages))
+    missing = [e.file for e in entries if not (contract.passages_dir(out_dir) / f"{contract.file_stem(e.file)}.jsonl").is_file()]
+    if missing:
+        raise SystemExit(f"no segmenter output for {len(missing)} file(s), first {missing[0]}; the index does not guess passages")
+
+    def groups():
+        for entry in entries:
+            file_passages = contract.read_file_passages(out_dir, entry.file) or []
+            usable = store.usable_contexts(generate.read_context_lines(out_dir, entry.file), file_passages)
+            yield entry.file, file_passages, usable
+
     db_path = Path(args.db) if args.db else out_dir / "index" / f"{scope}.sqlite"
-    version = store.build_index(db_path, passages, contexts, shelves, MODEL_ID)
-    print(f"index {db_path}: {len(passages)} passages, {len(contexts)} context lines, version {version}")
+    stats = store.build_index_stream(db_path, groups(), shelves, MODEL_ID)
+    print(f"index {db_path}: {stats.files} files, {stats.passages} passages, {stats.contexts} context lines, "
+          f"version {stats.version}, built in {stats.seconds:.1f} s")
+    return 0
+
+
+def cmd_bench(args) -> int:
+    from index import bench, benchreport
+
+    db = Path(args.db)
+    evidence = bench.load_record_evidence(catalog.REPO_ROOT / "records" / args.world)
+    cells = bench.load_cells(args.world)
+    subquestions = bench.load_subquestions()
+    questions = bench.load_questions()
+    cases, gold, ungrounded = bench.run_bench(db, args.world, evidence, cells, subquestions, questions)
+    floor = None
+    if args.ocr_floor is not None:
+        floor = (args.ocr_floor, bench.run_bench(db, args.world, evidence, cells, subquestions, questions, min_ocr=args.ocr_floor)[0])
+    text = benchreport.render_report(db, args.world, cases, gold, ungrounded, benchreport.load_cluster_names(), subquestions,
+                                     store.read_meta(db), floor)
+    Path(args.out).write_text(text, encoding="utf-8")
+    print(f"bench written to {args.out}: {len(cases)} cases")
     return 0
 
 
@@ -225,6 +250,13 @@ def build_parser() -> argparse.ArgumentParser:
     scope.add_argument("--union", action="store_true")
     p.add_argument("--db", default=None)
     p.set_defaults(func=cmd_build_index)
+
+    p = sub.add_parser("bench")
+    p.add_argument("--db", required=True)
+    p.add_argument("--world", default=DEFAULT_SAMPLE_WORLD)
+    p.add_argument("--out", required=True)
+    p.add_argument("--ocr-floor", type=float, default=None, help="also score the bench with passages under this OCR score left out of the ranking")
+    p.set_defaults(func=cmd_bench)
 
     p = sub.add_parser("search")
     p.add_argument("query")

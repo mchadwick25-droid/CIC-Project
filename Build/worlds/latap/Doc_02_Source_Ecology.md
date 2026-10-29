@@ -1,6 +1,6 @@
 # Doc_02 — Source Ecology: The Latin Apologists
 
-**Status:** Draft. Not approved to proceed. Not frozen.
+**Status:** Approved to proceed (Doc_02 only; self-disposed by the build thread after two review rounds; not Frozen). Latest review: `Review-Artifacts/Doc02_Round2_Review.md`, Clear.
 **Companion document:** `Source_Registry.md` (the per-source ledger; "row N" below means a Registry row). Gaps and requests are in `Open_Gaps_Tracking.md`, and this document cites an entry there by its subject.
 **Governed by:** Construction Framework V7.4 Part II and Step 2; Constitution V2.3 Article 17 (five-level confidence vocabulary), Article 20 (Ordinary Believer, Source Asymmetry and Marginalized-Voices), Article 26 (Author Gravity and Contested-Tradition Governance); `Source_Registry_Template.md` V1.0; Forces Framework Step 2.
 **Forces Framework integration:** Step 2. The forces lens is applied in §6.
@@ -318,4 +318,4 @@ The claims rated Inferential-Thin or left as absences above are the advocate's t
 
 ## 11. Disposition
 
-Draft. It is not approved to proceed, and it is not frozen.
+Approved to proceed after two review rounds (`Review-Artifacts/Doc02_Round1_Review.md`, Not clear; `Review-Artifacts/Doc02_Round2_Review.md`, Clear). Not Frozen.

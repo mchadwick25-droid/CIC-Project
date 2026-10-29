@@ -201,9 +201,18 @@ Four dossier questions travel with this world and are decided elsewhere. First, 
 
 Separately, the Arnobius obligation in Step 0 §4 asks that Arnobius's teaching on the soul be attributed on Jerome's report. The vendored Jerome notices (*De viris illustribus* 79 and *Letter* LXX) say nothing about the soul. Doc_02 §7, on Arnobius, therefore reads the doctrine in Arnobius's own Book II (chapters XXXI, XXXV and LXII) and keeps Jerome to the dream and the bishop. Whether Step 0's wording should change is the project lead's decision.
 
-## OG-23 — Library-stage status when work paused: Doc_02 Round 2 Clear with open P2s (2026-10-29)
+## OG-23 — Step 0 quotation findings fixed by change order; one finding stays flagged (2026-10-29)
 
-**Source:** `Review-Artifacts/Doc02_Round2_Review.md`; the draft pull request for this branch.
-**Status:** Open. Owner: the build thread on resume.
+**Source:** `Build/Ministry/Operations/Audits/latap_Step0_QuoteFixes_ChangeOrder_2026-10-29.md`; handoff check 8 for `latap`.
+**Status:** Open until the targeted review is filed. Owner: the coordination thread for the System Hub entry; a different worker for the review.
 
-Round 2 of Doc_02 and the Registry returned Clear (P0 none; two new P1, both fixed since: the corpus-map counts and the Files-table rows for the Passion). Doc_02 still reads Draft and has not been self-disposed as approved to proceed. Six new P2 and four partly fixed Round 1 P2 remain open and are listed in the review: the Appendix poems stated flatly as not Tertullian's, the date of the break stated twice, the Registry row 33 and row 38 readings, the "adds no corpus count" sentence, Gennadius with one paragraph, the manifest's blank check table and its Step 2 date, and two loose sentences (row 44 on fragment sources, the ledger entry on stale references). Handoff checks still failing are not this branch's to close: the unset `safety_adjacent`, Step 0 at seven review files with its latest review lacking the approval phrase, and 24 quotation findings that sit in Step 0. The Registry generator scripts were lost with the session scratchpad, so later Registry edits are made in the file directly. No Round 3 has been started.
+Handoff check 8 reported 24 quotation findings, all in Step 0. By Mark's ruling of 2026-10-29 they are fixed by the change order named above, with nothing else in Step 0 touched. The order classifies each finding, gives the file and lines checked by hand, and lists 21 exact edits. Two quotations whose origin could not be found anywhere in the tree lose their quotation marks. One finding stays flagged on purpose: the Arnobius passage in Step 0 §4 item 2, where the words are right and the checker cannot read the line-number tag inside them. A targeted Opus review follows, in the review file the change order names. By the same ruling it does not count toward the cap of three; the System Hub Decision Log entry that says so is filed by the coordination thread.
+
+## OG-24 — Doc_02 and the Registry approved to proceed after two review rounds (2026-10-29)
+
+**Source:** `Review-Artifacts/Doc02_Round1_Review.md` and `Review-Artifacts/Doc02_Round2_Review.md`.
+**Status:** Closed for the review gate; open for the items below. Owner: the build thread, then the project lead.
+
+Round 1 was Not clear (one P0, eleven P1, eighteen P2) and Round 2 was Clear (no P0, two new P1, six new P2). Both new P1 and the remaining P2 of both rounds were fixed in the files. Doc_02 and the Registry are approved to proceed, not Frozen, by the build thread's own disposition under the three-round cap. The Registry generator scripts were lost with the session scratchpad, so later Registry edits are made in the file directly. Still open and not this branch's to close: the unset `safety_adjacent` on the registry entry, which the project lead sets; the seven Step 0 review files against the cap of three, and the targeted Step 0 review named in the Step 0 quotation entry; and the Step 0 and Doc_01 Lactantius count, which needs a change order (the correction entry on the Fragments).
+
+Pause status: done are the approval above, the fixes of both rounds, and the merge with main. Left are the handoff manifest's twelve-check table, its outcome and its Step 2 row, which are filled from a fresh full run of the handoff gate that was not finished at the pause; the draft pull request stays draft until then. First step on resume: run the handoff gate for `latap`, fill the manifest from its result, and mark the pull request ready.

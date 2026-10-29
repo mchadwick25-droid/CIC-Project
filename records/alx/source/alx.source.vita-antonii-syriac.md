@@ -30,6 +30,7 @@ work: "The Life of Saint Anthony by Athanasius, Archbishop of Alexandria, in the
 edition: "trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), vendored as cic/texts/palladius_paradise-v1-syriac_budge1907.txt - from the thirteenth- or fourteenth-century Syriac manuscript Budge was shown at Mosul in 1888 and had copied, described in his own Preface"
 citation: 'Athanasius of Alexandria, The Life of Saint Anthony, Syriac recension, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907)'
 kind: vendored
+shelf_row: palladius_paradise-v1-syriac_budge1907--the-life-of-saint-anthony-by-athanasius-syriac-recension
 rights_status: "public-domain; 1907, long out of US copyright"
 attribution_status: "Athanasius by the manuscript's own ascription, as in the Greek; the abridgement is the Syriac tradition's, not his"
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (alx.search.unopened-volume-sweep)"

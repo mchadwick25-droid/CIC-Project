@@ -1,0 +1,380 @@
+file: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
+scheme: Zycha's section numbers (Arabic, restarting at 1 in each work), printed at the head of each section and usually after the Roman chapter number; the works are addressed by their printed titles, and a section marker
+  the scan cannot read is addressed by its line number
+curator: Sonnet 5.5
+status: drafted
+rules:
+- id: w0
+  pattern: .
+  lines:
+  - 2450
+  - 2450
+  locus: de-fide-et-symbolo
+- id: s0
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w0
+  lines:
+  - 2451
+  - 4100
+  locus: sectio{s|int}
+  number: s
+- id: w1
+  pattern: .
+  lines:
+  - 4101
+  - 4101
+  locus: de-fide-et-operibus
+- id: s1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w1
+  lines:
+  - - 4102
+    - 6849
+  - - 6851
+    - 7457
+  locus: sectio{s|int}
+  number: s
+- id: w2
+  pattern: .
+  lines:
+  - 7458
+  - 7458
+  locus: de-agone-christiano
+- id: s2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w2
+  lines:
+  - 7459
+  - 9489
+  locus: sectio{s|int}
+  number: s
+- id: w3
+  pattern: .
+  lines:
+  - 9490
+  - 9490
+  locus: de-continentia
+- id: s3
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w3
+  lines:
+  - 9491
+  - 11809
+  locus: sectio{s|int}
+  number: s
+- id: w4
+  pattern: .
+  lines:
+  - 11810
+  - 11810
+  locus: de-bono-coniugali
+- id: s4
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w4
+  lines:
+  - 11811
+  - 14235
+  locus: sectio{s|int}
+  number: s
+- id: w5
+  pattern: .
+  lines:
+  - 14236
+  - 14236
+  locus: de-sancta-uirginitate
+- id: s5
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w5
+  lines:
+  - - 14237
+    - 15161
+  - - 15163
+    - 17935
+  locus: sectio{s|int}
+  number: s
+- id: w6
+  pattern: .
+  lines:
+  - 17936
+  - 17936
+  locus: de-bono-uiduitatis
+- id: s6
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w6
+  lines:
+  - - 17937
+    - 18071
+  - - 18073
+    - 20030
+  locus: sectio{s|int}
+  number: s
+- id: w7
+  pattern: .
+  lines:
+  - 20031
+  - 20031
+  locus: de-adulterinis-coniugiis-1
+- id: s7
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w7
+  lines:
+  - 20032
+  - 21873
+  locus: sectio{s|int}
+  number: s
+- id: w8
+  pattern: .
+  lines:
+  - 21874
+  - 21874
+  locus: de-adulterinis-coniugiis-2
+- id: s8
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w8
+  lines:
+  - 21875
+  - 23385
+  locus: sectio{s|int}
+  number: s
+- id: w9
+  pattern: .
+  lines:
+  - 23386
+  - 23386
+  locus: de-mendacio
+- id: s9
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w9
+  lines:
+  - 23387
+  - 26280
+  locus: sectio{s|int}
+  number: s
+- id: w10
+  pattern: .
+  lines:
+  - 26281
+  - 26281
+  locus: contra-mendacium
+- id: s10
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w10
+  lines:
+  - - 26282
+    - 26447
+  - - 26449
+    - 29539
+  locus: sectio{s|int}
+  number: s
+- id: w11
+  pattern: .
+  lines:
+  - 29540
+  - 29540
+  locus: de-opere-monachorum
+- id: s11
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w11
+  lines:
+  - 29541
+  - 33047
+  locus: sectio{s|int}
+  number: s
+- id: w12
+  pattern: .
+  lines:
+  - 33048
+  - 33048
+  locus: de-diuinatione-daemonum
+- id: s12
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w12
+  lines:
+  - 33049
+  - 34143
+  locus: sectio{s|int}
+  number: s
+- id: w13
+  pattern: .
+  lines:
+  - 34144
+  - 34144
+  locus: de-cura-pro-mortuis-gerenda
+- id: s13
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w13
+  lines:
+  - 34145
+  - 36302
+  locus: sectio{s|int}
+  number: s
+- id: w14
+  pattern: .
+  lines:
+  - 36303
+  - 36303
+  locus: de-patientia
+- id: s14
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w14
+  lines:
+  - 36304
+  - 37826
+  locus: sectio{s|int}
+  number: s
+divisions:
+- start_line: 6850
+  locus: de-fide-et-operibus/line6850
+- start_line: 15162
+  locus: de-sancta-uirginitate/line15162
+- start_line: 26448
+  locus: contra-mendacium/line26448
+ignore:
+- pattern: ^S\. Aureli Augustini$
+  kind: running-head
+  lines:
+  - 2452
+  - 37826
+- pattern: ^\d{1,3}\*?$
+  kind: page-or-margin-number
+  lines:
+  - 2452
+  - 37826
+apparatus:
+- lines:
+  - 1
+  - 2449
+  kind: front
+  locus: front
+- lines:
+  - 37827
+  - 46455
+  kind: index
+  locus: indices
+evidence:
+- line: 2450
+  quote: I.
+- line: 2455
+  quote: I. 1.
+- line: 3099
+  quote: VI. 13.
+- line: 4026
+  quote: '25.'
+- line: 4101
+  quote: II.
+- line: 4105
+  quote: I. 1.
+- line: 5679
+  quote: '25.'
+- line: 6850
+  quote: 5 48.
+- line: 7266
+  quote: XXVII. 49.
+- line: 7458
+  quote: III.
+- line: 7462
+  quote: I. 1.
+- line: 8422
+  quote: XVI. 18.
+- line: 9378
+  quote: XXXIII. 35.
+- line: 9490
+  quote: IIII.
+- line: 9494
+  quote: I. 1.
+- line: 10491
+  quote: VII. 17.
+- line: 11716
+  quote: '32.'
+- line: 11810
+  quote: V.
+- line: 11815
+  quote: I. 1.
+- line: 13074
+  quote: XVI. 18.
+- line: 14078
+  quote: '35.'
+- line: 14236
+  quote: DE SANCTA VIRGINITATE.
+- line: 14238
+  quote: I. 1.
+- line: 15162
+  quote: XYI1II. 10.
+- line: 15973
+  quote: XXX. 30.
+- line: 17838
+  quote: LVI. 57.
+- line: 17936
+  quote: VII.
+- line: 17943
+  quote: 5 I. 1.
+- line: 18757
+  quote: XII. 15.
+- line: 19921
+  quote: '29.'
+- line: 20031
+  quote: VIII.
+- line: 20101
+  quote: II. 2.
+- line: 21047
+  quote: '19.'
+- line: 21838
+  quote: XXVIII. 35.
+- line: 21874
+  quote: LIBER SECYNDVS.
+- line: 21876
+  quote: I. 1.
+- line: 22563
+  quote: '12.'
+- line: 23295
+  quote: '22.'
+- line: 23386
+  quote: DE MENDACIO.
+- line: 23389
+  quote: I. 1.
+- line: 24853
+  quote: '22.'
+- line: 26176
+  quote: '43.'
+- line: 26281
+  quote: X.
+- line: 26286
+  quote: I. 1.
+- line: 26448
+  quote: '8.'
+- line: 27719
+  quote: '22.'
+- line: 29375
+  quote: XXI. 41.
+- line: 29540
+  quote: XI.
+- line: 29544
+  quote: I. 1.
+- line: 31349
+  quote: XVIII. 21.
+- line: 32916
+  quote: XXXIII. 41.
+- line: 33048
+  quote: XII.
+- line: 33053
+  quote: 1. 1.
+- line: 33421
+  quote: '8.'
+- line: 33971
+  quote: X. 14.
+- line: 34144
+  quote: XIII.
+- line: 34148
+  quote: I. 1.
+- line: 35133
+  quote: X. 12.
+- line: 36185
+  quote: '23.'
+- line: 36303
+  quote: XIIII.
+- line: 36309
+  quote: I. 1.
+- line: 37100
+  quote: XVII. 14.
+- line: 37746
+  quote: XXVIIII. 26.
