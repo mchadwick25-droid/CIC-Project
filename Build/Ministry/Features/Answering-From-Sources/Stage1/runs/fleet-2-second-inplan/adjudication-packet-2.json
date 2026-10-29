@@ -1,0 +1,2334 @@
+[
+ {
+  "item_id": "gs-232f3aa60d42",
+  "why": "disagreement",
+  "world": "rzg",
+  "probe_id": "c-t-probe-01",
+  "sentence": "It was how his once-for-all sacrifice is applied, and whether his body can be confined to bread we break.",
+  "records": [
+   {
+    "id": "rzg.witness.a-narrow-true-church",
+    "means": "We held the Roman, Wittenberg, and Anabaptist positions we refused to be wrong by Scripture's test, not merely different.",
+    "text": "We held the alternatives we refused to be wrong, not merely different. The charge is that this made us too narrow, one way among every way people have ever reached for God. We will not answer it more gently than it deserves. Rome's own repeated sacrifice and its images: refused. Wittenberg's own claim that Christ's body sits in the bread: refused. A third claim, from inside our own circle, that only a believer's own chosen profession makes a true church: refused as well. Each time, the same test: does this reading hold against Scripture? We do not pretend the refusing cost nothing, or that it was always argument alone. It was not.",
+    "sources": [
+     {
+      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+      "locus": "Article XVIII on the Mass as remembrance, not sacrifice"
+     },
+     {
+      "source_id": "rzg.source.second-helvetic-confession",
+      "locus": "Chap. IV, Of Idols, Images of God and of Saints: God \"can not be represented by any image\""
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record supports the refusal of a local presence of Christ's body in the bread, but it frames the Roman dispute as a refusal of a repeated sacrifice. It says nothing about how a once-for-all sacrifice is applied, so that framing is the sentence's own.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We refused Rome's own repeated sacrifice and its images. We refused Wittenberg's own claim that Christ's body sits locally in the bread."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The two points of dispute the sentence names follow closely from the record's two refusals: rejecting a repeated sacrifice is the once-for-all question, and whether the body can be confined to the bread is the record's 'sits in the bread' claim.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Rome's own repeated sacrifice and its images: refused. Wittenberg's own claim that Christ's body sits in the bread: refused."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-2a72bae99d85",
+  "why": "disagreement",
+  "world": "rzg",
+  "probe_id": "f6-p-probe-01",
+  "sentence": "No account survives from anyone's own hand that tells us what an ordinary day among us was like, or what a Sunday service felt like to sit through, or what it meant to a household when the Consistory called them to account.",
+  "records": [
+   {
+    "id": "rzg.limit.ordinary-daily-practice",
+    "means": "The record holds confession, catechism, disputation record and doctrinal argument, not any account of how an ordinary citizen lived or felt a day, a service or a summons.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "rzg.core.the-reformed-cities-zurich-and-geneva",
+      "locus": "this world's own thinness field: 'no surviving account exists of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like'"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record names exactly these absences: no surviving account of an ordinary day, of how a Sunday service felt, or of how a Consistory summons felt to receive. The sentence states that limit and nothing more.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "How a Sunday service felt to sit through, what a Consistory summons felt like to receive: none of that has reached us either."
+    },
+    {
+     "block": "R1",
+     "words": "no surviving account exists of what an ordinary Sunday service, a consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like,"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "The absence of any account of an ordinary day, a Sunday service or a Consistory summons is stated in the record, but the sentence recasts the summons as the Consistory calling a household to account, a detail the record does not give and the very picture the lexicon flag on Consistory says must not be read in.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "How a Sunday service felt to sit through, what a Consistory summons felt like to receive: none of that has reached us either."
+    },
+    {
+     "block": "L",
+     "words": "a court that summoned households, inspected private life, and enforced conformity street by street"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-3e9ffe22ae65",
+  "why": "disagreement",
+  "world": "alx",
+  "probe_id": "c-p-probe-01",
+  "sentence": "One of our students, Gregory, said that while he studied under a teacher, 'like some spark lighting upon our inmost soul, love was kindled'.",
+  "records": [
+   {
+    "id": "alx.quote.gregory-spark",
+    "means": "The Address to Origen, ascribed to Gregory Thaumaturgus, describes love kindled at once for the Holy Word and for Origen, his teacher.",
+    "text": "And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within us,—a love at once to the Holy Word, the most lovely object of all, who attracts all irresistibly toward Himself by His unutterable beauty, and to this man, His friend and advocate.",
+    "sources": [
+     {
+      "source_id": "alx.source.gregory-address-to-origen",
+      "locus": "VI (anf06 lines 3016-3022)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The quoted words match the record verbatim, and the record attributes them to Gregory describing love kindled for his teacher Origen. Calling him one of the tradition's students and naming him as speaker follows the record's own speaker attribution.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within us"
+    },
+    {
+     "block": "R1",
+     "words": "describes love kindled at once for the Holy Word and for Origen, his teacher."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The quoted words are verbatim in the record and the source, but the record expressly bars using Gregory as evidence for this world's school, since he studied under Origen at Caesarea; calling him 'one of our students' claims him for the Alexandrian tradition against the record's own limit. The record also only ascribes the Address to Gregory, which the sentence states flatly.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "evidence for the school at Alexandria, when Gregory studied under Origen at Caesarea"
+    },
+    {
+     "block": "P1",
+     "words": "like some spark lighting upon our inmost soul, love was kindled and burst into flame within us"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-a1599b03d36d",
+  "why": "disagreement",
+  "world": "ijc",
+  "probe_id": "f4-e-probe-01",
+  "sentence": "Julius, our bishop of Rome, claims his see's own standing with it: 'Are you ignorant that the custom has been for word to be written first to us, and then for a just sentence to be passed from this place?'.",
+  "records": [
+   {
+    "id": "ijc.quote.julius-custom",
+    "means": "Julius of Rome, as Athanasius quotes him, protests that custom required word to be written first to Rome before judgment on Alexandria's church.",
+    "text": "And why was nothing said to us concerning the Church of the Alexandrians in particular? Are you ignorant that the custom has been for word to be written first to us, and then for a just decision to be passed from this place",
+    "sources": [
+     {
+      "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+      "locus": "Apol. c. Ar. 35 (npnf204 lines 23549-23552)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The sentence presents a verbatim quote but changes the record's 'just decision' to 'just sentence', so the quotation does not match the source. It also drops that the protest concerns the Church of the Alexandrians in particular.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Are you ignorant that the custom has been for word to be written first to us, and then for a just decision to be passed from this place"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence attributes to Julius the protest the bound quote records, and the quotation matches the record and the marked source lines in substance and force. The one deviation is 'just sentence' where the record and source read 'just decision'; the two are synonyms here and no assertion changes, but the quotation is not word-for-word.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Are you ignorant that the custom has been for word to be written first to us, and then for a just decision to be passed from this place"
+    },
+    {
+     "block": "R1",
+     "words": "protests that custom required word to be written first to Rome before judgment on Alexandria's church"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-a96fefb66174",
+  "why": "disagreement",
+  "world": "rzg",
+  "probe_id": "f2-i-probe-01",
+  "sentence": "Every claim was argued openly until the council itself judged what the text had yielded, and then bound every priest in its territory to preach accordingly.",
+  "records": [
+   {
+    "id": "rzg.story.first-zurich-disputation",
+    "means": "In 1523 six hundred people filled Zurich's Town Hall to test Zwingli's case against Scripture, and the council ruled for it, binding every priest in its territory.",
+    "text": "The city council of Zurich did not simply permit the argument that launched our own Reformation there. It summoned it. On 29 January 1523, six hundred people met in the Town Hall. They were priests and laymen from across the canton, with delegates from the bishop of Constance. Enemies of the new preaching mocked the gathering as a \"tinker's day.\" They said that nothing but tinkers were attending. That mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day. He had sat through the whole disputation. \"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\" When the arguments were finished, the council found for our own side. It ordered every priest in the canton to preach the same way.",
+    "sources": [
+     {
+      "source_id": "rzg.source.zwingli-selected-works",
+      "locus": "lines 1513-1654, 1665-1678"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record says the public arguments ran to their end, the council then ruled for the reforming side, and it ordered every priest in the canton to preach that way; the record's summary frames the day as a test of the case against Scripture.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "When the arguments were finished, the council found for our own side. It ordered every priest in the canton to preach the same way."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The council's ruling on Zwingli's Scripture-tested case and its order binding every priest in the canton are in the record, but the record never says that every claim was argued; it says only that there was a public disputation and that the arguments were finished. 'Every claim was argued openly' adds a universal quantifier the evidence does not supply.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "When the arguments were finished, the council found for our own side. It ordered every priest in the canton to preach the same way."
+    },
+    {
+     "block": "R1",
+     "words": "six hundred people filled Zurich's Town Hall to test Zwingli's case against Scripture, and the council ruled for it, binding every priest in its territory."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-db7c8bc9817f",
+  "why": "disagreement",
+  "world": "hal",
+  "probe_id": "c-e-probe-01",
+  "sentence": "Our labor was the letter - the epistula - which carried teaching, guidance, and belonging across the sea between Rome and Bethlehem.",
+  "records": [
+   {
+    "id": "hal.term.epistula",
+    "means": "The letter was the medium through which teaching, direction, and belonging reached a community split between Rome and Bethlehem.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-marcella-letters",
+      "locus": "the Rome-period question-and-answer series"
+     },
+     {
+      "source_id": "hal.source.jerome-ep22",
+      "locus": "whole letter (direction delivered by letter)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record supports the letter as the medium that carried teaching, guidance and belonging between Rome and Bethlehem, but not the added claim that the letter was the community's labor; the record calls it a medium and warns that its centrality is partly an artifact of survival.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The letter was the medium through which teaching, direction, and belonging reached a community split between Rome and Bethlehem."
+    },
+    {
+     "block": "R1",
+     "words": "The medium's centrality is partly an artifact of what survives - the record is almost entirely letters because Jerome's letters were kept."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record states that the letter carried teaching, guidance, and belonging across the sea to a community split between Rome and Bethlehem, and that the community's answer to distance was the next letter; the sentence restates this with the same force.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The letter. It carried teaching, guidance, and belonging across the sea."
+    },
+    {
+     "block": "R1",
+     "words": "reached a community split between Rome and Bethlehem"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-ed056649d62d",
+  "why": "disagreement",
+  "world": "alx",
+  "probe_id": "f4-p-probe-01",
+  "sentence": "He said that while he studied, 'like some spark lighting upon our inmost soul, love was kindled' - love for the Word, and for the man who taught him.",
+  "records": [
+   {
+    "id": "alx.story.gregory-formation",
+    "means": "Gregory's farewell oration recounts how Origen led him through a staged curriculum and kindled his love for the Word, evidencing learning as formation.",
+    "text": "Gregory came from Neo-Caesarea, in Pontus, to study law, and met Origen at Caesarea. He stayed five years. He tells it himself: the teacher did not begin with doctrines. He began like a farmer testing soil - questioning, digging, watching what the young man's mind did under pressure. Logic first, to make thinking honest. Then the natural world, geometry, the stars - until the students' wonder was trained. Then ethics, not as rules recited but as habits formed, the teacher's own life teaching as well. Only then, theology - reading everything the philosophers and poets had said of God, with Scripture at the center. And under all of it, Gregory says, something else was happening: like a spark falling on his inmost soul, love was kindled - for the Word, and for this man who was the Word's friend. He gave up law. When he finally had to leave, he called it being driven out of paradise.",
+    "sources": [
+     {
+      "source_id": "alx.source.gregory-address-to-origen",
+      "locus": "VI-XVI (anf06 from line 2288)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "cannot_judge",
+   "class": "cannot_judge",
+   "reason": "The record supports the substance, but the sentence puts in quotation marks a wording ('like some spark lighting upon our inmost soul, love was kindled') that the record gives only as a paraphrase. The source passage shown stops in Argument I and does not include the spark passage, so the quoted words cannot be checked against the edition.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "like a spark falling on his inmost soul, love was kindled - for the Word, and for this man who was the Word's friend."
+    }
+   ],
+   "record_concern": "The record's only cited line (2288) is the oration's title, not the passage on the kindled love or the staged curriculum it retells, so its locus does not point to the words it rests on."
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record gives this as Gregory's own telling of his years of study under Origen: love kindled like a spark on his inmost soul, for the Word and for the teacher, which is what the sentence asserts with the same attribution and force. The shown source lines do not reach the spark passage, so the quotation's exact wording rests on the record's rendering rather than on the marked text, but the record's rendering matches it closely.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Gregory says, something else was happening: like a spark falling on his inmost soul, love was kindled - for the Word, and for this man who was the Word's friend."
+    },
+    {
+     "block": "R1",
+     "words": "met Origen at Caesarea. He stayed five years. He tells it himself"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-0ecb98be36f0",
+  "why": "key class (specialist)",
+  "world": "hal",
+  "probe_id": "f5-e-probe-01",
+  "sentence": "We can tell you what the letters say was there: a double monastery - a monasterium - for men and for women, a hostel for travelers on the road near Bethlehem, and a cave our people held to be the birthplace itself.",
+  "records": [
+   {
+    "id": "hal.dw.empire",
+    "means": "This witness holds that this was an established, post-persecution church that condemned clerical worldliness, answered it with ascetic withdrawal, and struck outsiders as strange.",
+    "text": "In our day, Christians were not hiding in the catacombs. Our churches stood open. Our scholar wrote that the church had grown by persecution and then, under Christian emperors, had grown in wealth and shrunk in virtue. We said the empire's embrace had corrupted the church. We said it loudly - about everyone but ourselves. Our most famous letter mocks clergy who curl their hair, beg furniture from the women they visit, and get up with the sun to make social calls. It was written from inside the capital by a man who watched it happen. Our own answer to that corruption was to leave: trade the comforts of the establishment for sackcloth, a monastery beside a cave, and a Bible. In a dialogue by a writer from Gaul, a traveler says he stayed six months with our scholar. By our own evidence, an outsider would have found these strangest: noble women in rough dress, a fortune poured into a little town in Palestine, and Roman widows refusing to marry again so they could study Hebrew. Some people thought Paula had gone mad, and said so.",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-ep22",
+      "locus": "sec. 28 (the satire of worldly clergy)"
+     },
+     {
+      "source_id": "hal.source.sulpitius-dialogues",
+      "locus": "Dialogue I.8-9 (the community as an international destination)"
+     },
+     {
+      "source_id": "hal.source.jerome-vita-malchi",
+      "locus": "prologue, sec. 1 (the church grown in wealth, shrunk in virtue)"
+     },
+     {
+      "source_id": "hal.source.jerome-ep108",
+      "locus": "secs. 3-4, 19, 27 (Paula's noble descent, the report of madness, her Hebrew)"
+     }
+    ]
+   },
+   {
+    "id": "hal.dw.jesus",
+    "means": "This witness holds that Jesus was God the Word made flesh at Bethlehem, near whose cave the community lived, and that his poverty called them to renunciation.",
+    "text": "We held that Jesus is the Word of God made flesh. He was made flesh in the very place where we chose to live and die. We made our home in Bethlehem, near the cave we held to be his birthplace. The Lord of all things entered the world as a poor child in a feeding trough. So we counted wealth, rank, and comfort as things to lay down in order to come near him. Jerome reports that Paula saw the infant in the manger with the eyes of faith. She greeted Bethlehem as the house of bread, where the Bread come down from heaven was born. To the virgin, Jesus was the Bridegroom, whose love outweighed every earthly marriage. To the scholar, he was the Word, worth a lifetime of labor to translate truly - the translation labor later called the Vulgata. We held his death to be redemption. His resurrection was the promise we staked everything on: the treasure is in heaven, and the heart can follow it there.",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-ep108",
+      "locus": "sec. 10 (Paula at the cave of the Nativity)"
+     },
+     {
+      "source_id": "hal.source.jerome-ep22",
+      "locus": "secs. 1, 25 (Christ the Bridegroom; the treasure of the heart)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "The sentence calls the monasterium a 'double monastery', the reading the lexicon flag forbids. The bound records mention only a monastery beside the cave and the birthplace cave; the travelers' hostel near Bethlehem is not in either bound record.",
+   "evidence": [
+    {
+     "block": "L",
+     "words": "\"double monastery\" as a formal institution (that label belongs to later medieval arrangements; here it is modern shorthand for two households sharing a place, a purpose, and a funder - not one institution)"
+    },
+    {
+     "block": "R1",
+     "words": "trade the comforts of the establishment for sackcloth, a monastery beside a cave, and a Bible."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-146090f55486",
+  "why": "key class (specialist)",
+  "world": "witt",
+  "probe_id": "f4-p-probe-01",
+  "sentence": "A father asked his household once a week what they meant, not only whether they could be repeated back.",
+  "records": [
+   {
+    "id": "witt.term.catechism",
+    "means": "The catechism meant the Ten Commandments, Creed and Lord's Prayer that our books told every household to say daily, as lifelong instruction that no one outgrows.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "witt.source.luther-brief-explanation-of-the-ten-commandments",
+      "locus": "the Kurze Form -- preface and Commandments; its Creed and Prayer not read"
+     },
+     {
+      "source_id": "witt.source.luther-large-catechism",
+      "locus": "the Large Catechism, preface, First Commandment entire, Creed I and III, Prayer entire, Sacrament and Conclusion"
+     },
+     {
+      "source_id": "witt.source.luther-small-catechism",
+      "locus": "the Small Catechism"
+     },
+     {
+      "source_id": "witt.source.luther-selections-from-the-table-talk",
+      "locus": "the Table Talk (Contested as verbatim)"
+     },
+     {
+      "source_id": "witt.source.melanchthon-augsburg-confession",
+      "locus": "the Augsburg Confession"
+     },
+     {
+      "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+      "locus": "the Apology XV -- 'with us the pastors and ministers of the churches are compelled publicly... to instruct and hear the youth'"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record gives the weekly examination only as what the books prescribed, and says no source shows any household keeping it. The sentence states it as what a father did. It also adds that he asked what the parts meant, not only for recitation, which this record does not say.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the weekly examination as attested practice, since witt.story.household-catechism-lesson-typical-practice holds the prescription only"
+    },
+    {
+     "block": "R1",
+     "words": "whether any household or parish actually kept it is a different question our library does not answer from inside any household's own report."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-18c03c695d30",
+  "why": "key class (specialist)",
+  "world": "gallic",
+  "probe_id": "c-p-probe-01",
+  "sentence": "The good will is kindled by him, not struck by ourselves.",
+  "records": [
+   {
+    "id": "gallic.quote.chaeremon-three-stages-of-grace",
+    "means": "Cassian reports Chaeremon teaching that grace kindles desire, enables virtue and preserves it without destroying free will, and that their union exceeds human reason.",
+    "text": "And therefore it is laid down by all the Catholic fathers who have taught perfection of heart not by empty disputes of words, but in deed and act, that the first stage in the Divine gift is for each man to be inflamed with the desire of everything that is good, but in such a way that the choice of free will is open to either side: and that the second stage in Divine grace is for the aforesaid practices of virtue to be able to be performed, but in such a way that the possibilities of the will are not destroyed: the third stage also belongs to the gifts of God, so that it may be held by the persistence of the goodness already acquired, and in such a way that the liberty may not be surrendered and experience bondage. For the God of all must be held to work in all, so as to incite, protect, and strengthen, but not to take away the freedom of the will which He Himself has once given. If however any more subtle inference of man's argumentation and reasoning seems opposed to this interpretation, it should be avoided rather than brought forward to the destruction of the faith (for we gain not faith from understanding, but understanding from faith, as it is written: \"Except ye believe, ye will not understand\" ) for how God works all things in us and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man.",
+    "sources": [
+     {
+      "source_id": "gallic.source.cassian-conferences-part-ii",
+      "locus": "Conference XIII.18 (npnf211 div iv.v.iv.xviii, file lines 38601-38624): Chaeremon's three-stage account of the Divine gift - inflaming the desire for good, enabling the practice of virtue, and preserving what is gained, each without destroying free will - and his statement that how grace and free will fit together cannot be fully grasped by the mind and reason of man"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record supports God kindling the desire for good, but it keeps free will open and says everything can also be ascribed to it. The added 'not struck by ourselves' denies the will any part, settling a question the record holds beyond human grasp.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the first stage in the Divine gift is for each man to be inflamed with the desire of everything that is good, but in such a way that the choice of free will is open to either side"
+    },
+    {
+     "block": "R1",
+     "words": "how God works all things in us and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-240816b5facd",
+  "why": "key class (specialist)",
+  "world": "hal",
+  "probe_id": "f4-e-probe-01",
+  "sentence": "Some said we had set virginity too far above marriage - Jerome wrote that marriage deserves praise only because it produces virgins, gathering the rose from the thorns.",
+  "records": [
+   {
+    "id": "hal.quote.i-gather-the-rose-from-the-thorns",
+    "means": "Jerome, writing to Eustochium in 384, praises marriage only because it produces virgins, ranking virginity above marriage as the rose above its thorns.",
+    "text": "I praise wedlock, I praise marriage, but it is because they give me virgins. I gather the rose from the thorns, the gold from the earth, the pearl from the shell.",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-ep22",
+      "locus": "Letter XXII (to Eustochium), sec. 20 (npnf206_jerome-principal-works.xml)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The second half matches Jerome's words, but the bound record says nothing about people actually saying the ranking went too far; the source has only a hypothetical objector Jerome puts up to answer. The sentence also makes Jerome's ranking 'ours', which the record gives as his alone.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "I praise wedlock, I praise marriage, but it is because they give me virgins. I gather the rose from the thorns"
+    },
+    {
+     "block": "P1",
+     "words": "Some one may say, “Do you dare detract from wedlock, which is a state blessed by God?”"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-2e325ce26b0f",
+  "why": "key class (specialist)",
+  "world": "alx",
+  "probe_id": "c-t-probe-01",
+  "sentence": "Athanasius put our whole hope in one sentence:.",
+  "records": [
+   {
+    "id": "alx.quote.athanasius-made-god",
+    "means": "Athanasius, in On the Incarnation 54, states that the Word was made man so that humans might be made God, his charter line for theosis.",
+    "text": "For He was made man that we might be made God...",
+    "sources": [
+     {
+      "source_id": "alx.source.athanasius-de-incarnatione",
+      "locus": "54 (npnf204 line 18744)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record calls the line Athanasius's charter line for theosis; it does not say it sums up the tradition's whole hope, which the sentence asserts.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "states that the Word was made man so that humans might be made God, his charter line for theosis."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-3d3d03f3f370",
+  "why": "key class (specialist)",
+  "world": "gallic",
+  "probe_id": "f3-i-probe-01",
+  "sentence": "So no one in our stories wanted the see.",
+  "records": [
+   {
+    "id": "gallic.dw.laughed-at-and-reported",
+    "means": "This witness says the Gallic monks met no persecution but faced derision at dress, hair and visions, and accusation by bishops and reporters to Africa.",
+    "text": "No, we did not hide in the catacombs. Our age had no persecutor. Sulpitius says of Martin that in the times of Nero and Decius he would have gone gladly to the rack; without them, he gained the honour of martyrdom without shedding his blood - in hunger, in watchings, in nakedness, in fasting. Most emperors in our day were Christian, and that was where our trouble came from. Martin's road began by leaving Caesar's service at a donative. He told Caesar that he was now a soldier of Christ and might not fight. Before he gathered his first brethren, the violence of heretics had driven the bishop Hilary into exile and left the Church in Gaul in disorder. And at Treves, where the bishops had bowed with degenerate submissiveness to the royal retinue, in Martin alone apostolic authority kept its place; he held it a foul and unheard-of thing that a secular ruler should judge a cause of the Church. He yielded there once, to save lives, and never sat with bishops again. What an outsider found strangest, we can only tell from what was laughed at. Some bystanders at a city gate laughed at a soldier walking in half a cloak. Bishops at the election said Martin's person was despicable, his clothing mean, his hair disgusting. Cassian says the Egyptians' sheepskin and little hoods would be laughed at in Gaul, and he told us not to take them up. Our own presbyter, raging in the courtyard, called the saint's visions ridiculous fancies. Sulpitius says that some of Martin's calumniators, though ver",
+    "sources": [
+     {
+      "source_id": "gallic.term.bloodless-martyrdom-confessor",
+      "locus": "'he fully attained to the honor of martyrdom without shedding his blood' (Ep. II, file line 2249); 'in the times of Nero and of Decius' he would have gone to the rack"
+     },
+     {
+      "source_id": "gallic.story.discharge-before-caesar",
+      "locus": "'I am the soldier of Christ: it is not lawful for me to fight' - Caesar's service left at a donative"
+     },
+     {
+      "source_id": "gallic.force.arian-scattering",
+      "locus": "Vita VI (file lines 948-950): the Church in Gaul 'in a distracted condition' because 'the violence of the heretics had driven' Hilary into exile"
+     },
+     {
+      "source_id": "gallic.force.court-at-trier",
+      "locus": "Vita XX (file lines 1563-1565): 'the priestly dignity had, with degenerate submissiveness, taken a second place to the royal retinue, in Martin alone, apostolic authority continued to assert itself'; Sacred History II.50: 'a secular ruler should be judge in an ecclesiastical cause'"
+     },
+     {
+      "source_id": "gallic.story.trier-and-the-ithacian-communion",
+      "locus": "the one communion yielded; 'never again did he attend a synod'"
+     },
+     {
+      "source_id": "gallic.story.the-cloak-at-amiens",
+      "locus": "'Some of the bystanders laughed' at the half-clad soldier"
+     },
+     {
+      "source_id": "gallic.story.election-at-tours",
+      "locus": "Vita IX (file line 1080): 'his clothing was mean, and his hair disgusting' - the bishops' objection"
+     },
+     {
+      "source_id": "gallic.term.the-monks-dress",
+      "locus": "Inst. I.10 (file line 16919): tiny hoods or a sheepskin 'would afford a subject for derision' in Gaul"
+     },
+     {
+      "source_id": "gallic.story.brictio-in-the-courtyard",
+      "locus": "Dial. III.15 (file line 5319): 'ridiculous fancies about visions' - the sneer from inside"
+     },
+     {
+      "source_id": "gallic.source.sulpitius-vita-martini",
+      "locus": "ch. XXVII (div ii.ii.xxviii, file lines 1936-1940): 'some of his calumniators, although very few ... were reported to be no others than bishops!'"
+     },
+     {
+      "source_id": "gallic.term.grace",
+      "locus": "'The men who reported us to Africa' - the brethren at Marseilles reported for what they held about grace; Augustine's treatise as the outsider's report, context only"
+     },
+     {
+      "source_id": "gallic.source.salvian-on-the-government-of-god",
+      "locus": "VIII.4 (Sanford p. 230, file lines 10248-10260): 'within the walls of Carthage' a people 'could scarcely look without reviling and curses at a man pale and in monkish garb, his flowing locks cut even to the shaved skin'; visiting ascetics 'met with contumely, sacrilege and curses ... hissing mockery' - Africa, not Gaul; licensed for forces, not grace"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, citation dropped",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The bound record says nothing about anyone wanting or refusing a see. It explicitly sends the election story to another record, so the sweeping claim that no one in the stories wanted the see has nothing to rest on here.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the luring of Martin from his monastery and the psalm at his election, which sit in gallic.story.election-at-tours"
+    },
+    {
+     "block": "R1",
+     "words": "Bishops at the election said Martin's person was despicable, his clothing mean, his hair disgusting."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-3d8ca8b25c69",
+  "why": "key class (specialist)",
+  "world": "syr",
+  "probe_id": "f5-p-probe-01",
+  "sentence": "Our teachers warned each one plainly before baptism: if you want to marry, marry first; if you are afraid or attached to your possessions, turn back now.",
+  "records": [
+   {
+    "id": "syr.quote.warned-before-baptism",
+    "means": "Aphrahat, in Demonstration VII, has the church's preachers warn candidates before baptism to marry first if they wish to marry, and to turn back if afraid or attached to possessions.",
+    "text": "For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: \"He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict\".",
+    "sources": [
+     {
+      "source_id": "syr.source.aphrahat-demonstrations-hallock",
+      "locus": "Demonstration VII (On Penitents), sec. 20 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "Aphrahat says it is fitting for the preachers to give this warning; the sentence turns that instruction into a report that our teachers did warn each one. It also makes one author's prescription into the tradition's general practice, which the record explicitly excludes.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism"
+    },
+    {
+     "block": "R1",
+     "words": "a description of how every baptism in this world was actually conducted"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-3da4cdac038d",
+  "why": "key class (specialist)",
+  "world": "rzg",
+  "probe_id": "f2-p-probe-01",
+  "sentence": "Our founder put it plainly: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves.",
+  "records": [
+   {
+    "id": "rzg.quote.taught-better-from-scripture",
+    "means": "Zwingli rests his preached articles on Scripture and will accept correction only from Scripture itself.",
+    "text": "The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich as based upon the Scriptures which are called inspired by God... and where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures.",
+    "sources": [
+     {
+      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+      "locus": "preface, lines 4487-4492"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "Zwingli gives this as his own first-person pledge about the articles he preached, but the sentence turns it into a 'we' commitment of the whole tradition. The record also never calls him 'our founder'.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "and where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-4043265b0c51",
+  "why": "key class (specialist)",
+  "world": "hal",
+  "probe_id": "f1-e-probe-01",
+  "sentence": "Rufinus, our teacher's former friend, wrote to the bishop of Rome because Rome was where the news was - he had heard his name was being attacked there and set his position out in writing.",
+  "records": [
+   {
+    "id": "hal.quote.rufinus-writes-because-rome-is-where-the-news-is",
+    "means": "Rufinus, writing to Bishop Anastasius of Rome around 400, says he has heard his name is being attacked there and sets out his position in writing.",
+    "text": "It has been brought to my knowledge that certain persons, in the course of a controversy which they have been raising in your Holiness’ jurisdiction on matters of faith or on other points, have made mention of my name. I venture to believe that your Holiness, who have been trained from your infancy in the strict principles of the Church, has refused to listen to any calumnies which may have been directed against an absent person, and one who has been favourably known to you as united with you in the faith and love of God. Nevertheless, since I hear it reported that my reputation has been attacked, I have thought it right to make my position clear to your Holiness in writing.",
+    "sources": [
+     {
+      "source_id": "hal.source.rufinus-apology",
+      "locus": "Apology in Defence of Himself, sent to Anastasius, Bishop of the City of Rome, sec. 1 (npnf203_theodoret-jerome-gennadius-rufinus.xml)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "Rufinus gives his own reason as the report that his reputation was attacked; the claim that he wrote because Rome was where the news was comes from the modern editor's headnote, not from Rufinus or the record. The bound record also says nothing of Rufinus as 'our teacher's former friend'.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "since I hear it reported that my reputation has been attacked, I have thought it right to make my position clear to your Holiness in writing."
+    },
+    {
+     "block": "P1",
+     "words": "But since Rome was the centre of information, a Christian would not wish to be ill-thought of by its Bishop."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-44a239e7e05a",
+  "why": "key class (specialist)",
+  "world": "pahc",
+  "probe_id": "f4-e-probe-01",
+  "sentence": "The teaching of the Two Ways that we gave before baptism may go back earlier than our own time.",
+  "records": [
+   {
+    "id": "pahc.contested.didache-dating",
+    "means": "The Didache reached its final form about 80 to 120, as a composite of older teaching on the Two Ways and later church-order material.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "pahc.source.didache",
+      "locus": "the work's own dating note"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record treats the Two Ways before baptism as one community's manual and forbids presenting it as the tradition's own practice, which 'that we gave' does. It also calls the Two Ways older than the Didache's final form, not older than the world's own time.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "it reads as one community's own manual, with no evidence Rome or Asia Minor knew or used it, and must never be generalized to network-wide catechetical practice"
+    },
+    {
+     "block": "R1",
+     "words": "a composite document layering older catechetical material (the Two Ways, chs. 1-6) with later church-order material"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-4bb63b1dab2b",
+  "why": "key class (specialist)",
+  "world": "hal",
+  "probe_id": "f5-i-probe-01",
+  "sentence": "A visitor from Gaul wrote of our teacher Jerome that he was always at his work, always reading or writing, taking no rest day or night except when his body compelled it.",
+  "records": [
+   {
+    "id": "hal.quote.always-at-his-books",
+    "means": "The traveller Postumianus, in Sulpitius Severus's Dialogues, describes Jerome at Bethlehem around 400 as constantly reading or writing, day and night.",
+    "text": "He is always occupied in reading, always at his books with his whole heart: he takes no rest day or night; he is perpetually either reading or writing something.",
+    "sources": [
+     {
+      "source_id": "hal.source.sulpitius-dialogues",
+      "locus": "Dialogue I.9"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The source says flatly that he takes no rest day or night; the added exception \"except when his body compelled it\" is not in the record and weakens its absolute claim. The words are also spoken by the traveller Postumianus in Sulpitius's Dialogues, not written by him.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "he takes no rest day or night; he is perpetually either reading or writing something."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-4dc2f4942768",
+  "why": "key class (specialist)",
+  "world": "witt",
+  "probe_id": "c-t-probe-01",
+  "sentence": "We gave the confession itself, as the household said it together, week after week.",
+  "records": [
+   {
+    "id": "witt.quote.second-article-of-the-creed",
+    "means": "The Small Catechism's Second Article (1529) has the household confess Christ truly God and truly man, who redeemed each believer with his blood and his death, and who rose from death.",
+    "text": "And in Jesus Christ, His only Son, our Lord, Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried, descended to Hell, on the third day rose again from the dead, ascended to Heaven and sat down at the right hand of God the Almighty Father. From there He will come to judge the living and the dead. What does this mean? I believe that Jesus Christ is truly God, born of the Father in eternity and also truly man, born of the Virgin Mary. He is my Lord! He redeemed me, a lost and condemned person, bought and won me from all sins, death and the authority of the Devil. It did not cost Him gold or silver, but His holy, precious blood, His innocent body--His death! Because of this, I am His very own, will live under Him in His kingdom and serve Him righteously, innocently and blessedly forever, just as He is risen from death, lives and reigns forever. Yes, this is true.",
+    "sources": [
+     {
+      "source_id": "witt.source.luther-small-catechism",
+      "locus": "The Second Article, On Redemption, and its own explanation: the creed's own confession and the household's own 'I believe that Jesus Christ is truly God... and also truly man'"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record gives the weekly household recital as something prescribed, and says how far households actually took it up is contested; the sentence states as fact that the household did say it together week after week.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the household's weekly confession, prescribed for every household in the program the Large Catechism sets out (witt.gravity.household-catechism); how far households took it up is Contested."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-4f82743414d4",
+  "why": "key class (specialist)",
+  "world": "alx",
+  "probe_id": "f1-p-probe-01",
+  "sentence": "We did not pretend failure away, and we did not make the failed unforgivable.",
+  "records": [
+   {
+    "id": "alx.dw.church-failure",
+    "means": "This witness says the community's own record keeps its failures visible: Demetrius against Origen, the lapsed controversy, and post-Nicene exile and condemnation.",
+    "text": "Our churches had failures, and our record leaves the wounds visible. Our greatest teacher was driven out by his own bishop, not by pagans. The church remembered both men rather than erasing either. Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them. The strict party demanded they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so. After Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride. Where the restoring side won, we refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable. At our worst, we did what churches with power do. That, too, is in our record.",
+    "sources": [
+     {
+      "source_id": "alx.source.dionysius-extant-fragments",
+      "locus": "the lapsed letters"
+     },
+     {
+      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+      "locus": "VI.8 (the rupture), VII (the lapsed controversy)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record limits this refusal to where the restoring side won, and it records a strict party that did demand the lapsed stay out; the sentence drops that condition and states it as the whole community's unqualified stance.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Where the restoring side won, we refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable."
+    },
+    {
+     "block": "R1",
+     "words": "The strict party demanded they stay out."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-7a9b0a129df9",
+  "why": "key class (specialist)",
+  "world": "desert",
+  "probe_id": "f6-i-probe-01",
+  "sentence": "We spoke of leaving the world entirely - anachoresis, our word for it, meant far more than a change of address.",
+  "records": [
+   {
+    "id": "desert.term.anachoresis",
+    "means": "Anachoresis meant leaving village life for the desert as the whole work of formation, a staged and lasting deepening, not a change of address.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "desert.source.athanasius-vita-antonii",
+      "locus": "SS2-14 (the staged withdrawal), SS46-47 (withdrawal as the daily-martyrdom successor once persecution ended, anchored by desert.search.white-martyrdom-citation), SS49-50 (the inner mountain)"
+     },
+     {
+      "source_id": "desert.source.apophthegmata-patrum",
+      "locus": "passim (the tradition's organizing act)"
+     },
+     {
+      "source_id": "desert.source.palladius-lausiac-history",
+      "locus": "ch. VII, XVIII (withdrawal as the ordinary shape of settlement life at Nitria and Kellia), ch. VIII (Amoun's own founding withdrawal into Nitria, before any monastery stood there)"
+     },
+     {
+      "source_id": "desert.source.kellia-excavations",
+      "locus": "settlement pattern corroboration"
+     },
+     {
+      "source_id": "desert.source.nepheros-archive",
+      "locus": "documentary corroboration of settlement embeddedness (Melitian community; representativeness a working assumption, not settled; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, a fit that this world's own three strands do not settle either)"
+     },
+     {
+      "source_id": "desert.source.goehring-ascetics",
+      "locus": "the embeddedness thesis - settlements on marginal-but-not-remote land with real village trade ties; cited jointly with Kellia and Nepheros per this world's standing rule, not alone; his specific claims carry an open verification bound (Doc_01 SS11 item 6) that travels with every citation"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record supports anachoresis as far more than a change of address, but it defines it as leaving settled life for the desert's edge and says it was never a total break; 'leaving the world entirely' overstates it against the record.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the settlements sat on marginal land with real village trade ties, so 'flight to the desert' was never a total break."
+    },
+    {
+     "block": "R1",
+     "words": "Withdrawal: leaving settled life for the desert's edge as the whole work of formation. It was far more than a change of address."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-8cf32b4ae3c1",
+  "why": "key class (specialist)",
+  "world": "alx",
+  "probe_id": "f2-t-probe-01",
+  "sentence": "Origen wrote plainly that 'the teaching of the Church, transmitted in orderly succession from the apostles, and remaining in the Churches to the present day, is to be preserved' - and that only what agrees with it is to be believed as truth.",
+  "records": [
+   {
+    "id": "alx.quote.ecclesiastical-and-apostolical-tradition",
+    "means": "Origen, in On First Principles preface 2, holds that only teaching agreeing with tradition handed down from the apostles in the churches is truth.",
+    "text": "so, seeing there are many who think they hold the opinions of Christ, and yet some of these think differently from their predecessors, yet as the teaching of the Church, transmitted in orderly succession from the apostles, and remaining in the Churches to the present day, is still preserved, that alone is to be accepted as truth which differs in no respect from ecclesiastical and apostolical tradition.",
+    "sources": [
+     {
+      "source_id": "alx.source.origen-de-principiis",
+      "locus": "de Principiis, preface 2 (anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "Origen says the Church's teaching 'is still preserved', a statement of fact; the sentence quotes him as saying it 'is to be preserved', turning that fact into an obligation inside a supposed verbatim quotation. The second half, that only what agrees with that teaching is truth, is supported.",
+   "evidence": [
+    {
+     "block": "P1",
+     "words": "the teaching of the Church, transmitted in orderly succession from the apostles, and remaining in the Churches to the present day, is still preserved, that alone is to be accepted as truth"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-8ee8a78b2192",
+  "why": "key class (specialist)",
+  "world": "alx",
+  "probe_id": "f3-i-probe-01",
+  "sentence": "He wrote afterward: 'I love and highly prize Nepos, for his faith, and his laboriousness, and his acquaintance with the Scriptures. But truth should be loved and honoured most of all'.",
+  "records": [
+   {
+    "id": "alx.quote.dionysius-nepos",
+    "means": "Dionysius of Alexandria, quoted by Eusebius at VII.24, says he loves the late bishop Nepos for his faith and psalmody but loves truth more.",
+    "text": "in many other respects I approve and love Nepos, for his faith and industry and diligence in the Scriptures, and for his extensive psalmody, with which many of the brethren are still delighted; and I hold him in the more reverence because he has gone to rest before us. But the truth should be loved and honored most of all.",
+    "sources": [
+     {
+      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+      "locus": "VII.24 (npnf201 lines 41310-41318; Dionysius's own book On the Promises, quoted verbatim, matching the text field below)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record's Dionysius approves of Nepos only 'in many other respects', that is, not on the point he is refuting. The sentence drops that limit and turns qualified approval into unqualified praise. It also gives a reworded line as a direct quote and adds 'afterward', which the record does not support.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "in many other respects I approve and love Nepos, for his faith and industry and diligence in the Scriptures, and for his extensive psalmody"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-a1fe94bc7a92",
+  "why": "key class (specialist)",
+  "world": "witt",
+  "probe_id": "f6-p-probe-01",
+  "sentence": "A father examined his household once a week on what they knew.",
+  "records": [
+   {
+    "id": "witt.term.catechism",
+    "means": "The catechism meant the Ten Commandments, Creed and Lord's Prayer that our books told every household to say daily, as lifelong instruction that no one outgrows.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "witt.source.luther-brief-explanation-of-the-ten-commandments",
+      "locus": "the Kurze Form -- preface and Commandments; its Creed and Prayer not read"
+     },
+     {
+      "source_id": "witt.source.luther-large-catechism",
+      "locus": "the Large Catechism, preface, First Commandment entire, Creed I and III, Prayer entire, Sacrament and Conclusion"
+     },
+     {
+      "source_id": "witt.source.luther-small-catechism",
+      "locus": "the Small Catechism"
+     },
+     {
+      "source_id": "witt.source.luther-selections-from-the-table-talk",
+      "locus": "the Table Talk (Contested as verbatim)"
+     },
+     {
+      "source_id": "witt.source.melanchthon-augsburg-confession",
+      "locus": "the Augsburg Confession"
+     },
+     {
+      "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+      "locus": "the Apology XV -- 'with us the pastors and ministers of the churches are compelled publicly... to instruct and hear the youth'"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record gives the weekly examination only as what the books told a father to do; the sentence turns that prescription into a statement that fathers actually did it, which the record expressly does not support.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the weekly examination as attested practice, since witt.story.household-catechism-lesson-typical-practice holds the prescription only"
+    },
+    {
+     "block": "R1",
+     "words": "Documented as prescription -- the catechism program itself, to the hour -- and Inferential/Thin as any household's or parish's actual practice"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-b1d3020ab011",
+  "why": "key class (specialist)",
+  "world": "rzg",
+  "probe_id": "f2-t-probe-01",
+  "sentence": "It was worked out book by book, article by article, until the whole shape of what Scripture teaches stood complete, then taught to the whole population through the Catechism.",
+  "records": [
+   {
+    "id": "rzg.term.catechism",
+    "means": "A catechism is a fixed, memorizable statement of doctrine taught to the whole population, and these cities held several distinct catechetical voices.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "rzg.source.calvin-geneva-catechism",
+      "locus": "whole work"
+     },
+     {
+      "source_id": "rzg.source.heidelberg-catechism",
+      "locus": "whole work"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, citation dropped",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record says the whole people were taught, article on article, but says nothing of doctrine being worked out book by book until the whole of Scripture's teaching stood complete. It also speaks of several catechisms, not one single 'the Catechism'.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "At Geneva most of all, the whole people were taught, not only trained pastors. One article rested on the next, taught with patience."
+    },
+    {
+     "block": "R1",
+     "words": "We held more than one. They were not all the same voice."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-b642fd9d3cc1",
+  "why": "key class (specialist)",
+  "world": "witt",
+  "probe_id": "f5-i-probe-01",
+  "sentence": "A household rose in the morning and blessed itself with the sign of the cross.",
+  "records": [
+   {
+    "id": "witt.story.household-catechism-lesson-typical-practice",
+    "means": "The Small and Large Catechisms prescribe that a household bless itself each morning and the father drill children and servants weekly, withholding food from the children until they repeat the parts.",
+    "text": "No record survives from inside any single household: no diary, no visitation report, no letter from inside a home. What survives is the program every household was told to follow. The two catechisms set it out in careful and repeated detail. We can describe that program without adding anything to what it says. A father was to teach the Ten Commandments to his household in what the Small Catechism itself calls \"the simple way,\" one commandment at a time. Mornings began with the sign of the cross and a short prayer asking that \"the evil enemy will not gain power over me.\" The instruction adds that afterward one might \"go about your work and perhaps sing a song inspired by the Ten Commandments.\" The Small Catechism also gave a servant words for confession: he had \"served my master unfaithfully,\" and \"from time to time\" had \"not done what I was told to do.\" The master or lady of the house was given words too. They confess having \"not faithfully led my children, servants or wife to God's glory.\" The Large Catechism's preface makes the weekly rhythm explicit and does not soften its demand: \"it is the duty of every father of a family to question and examine his children and servants at least once a week and to ascertain what they know of it, or are learning and, if they do not know it, to keep them faithfully at it.\" The same preface states the consequence plainly. The household's youngest were to learn the essential parts \"word for word.\" They were to recite them daily, in the morn",
+    "sources": [
+     {
+      "source_id": "witt.source.luther-small-catechism",
+      "locus": "\"The Simple Way a Father Should Present Them to His Household\" (the Ten Commandments' own heading); the confession scripts for a servant or maid and for \"a master or a lady of the house\"; the morning devotion (\"so that the evil enemy will not gain power over me... perhaps sing a song inspired by the Ten Commandments\"); the Home Chart's own heading (\"all holy orders and statuses in life\")"
+     },
+     {
+      "source_id": "witt.source.luther-large-catechism",
+      "locus": "\"It is the duty of every father of a family to question and examine his children and servants at least once a week\"; \"until they repeat them, they should be given neither food nor drink\"; \"every head of a household is obliged to do the same with respect to his domestics, ma-servants and maid-servants\""
+     },
+     {
+      "source_id": "witt.source.luther-selections-from-the-table-talk",
+      "locus": "The chapter \"Brief Sentences of the Catechism, according as Luther used to teach and instruct his family at home\""
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record gives the morning sign of the cross only as what the catechism prescribed a household should do. The sentence states it as what a household did, which the record says no source confirms.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Whether any household, anywhere in Saxony, carried it out this way, week after week, we do not know."
+    },
+    {
+     "block": "R1",
+     "words": "the prescription as a report of any actual household keeping it, since no visitation record or register confirms it"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-b9769f315b8e",
+  "why": "key class (specialist)",
+  "world": "witt",
+  "probe_id": "f2-t-probe-01",
+  "sentence": "Scripture was the highest authority among us, always.",
+  "records": [
+   {
+    "id": "witt.dw.scripture-judges-every-other-voice",
+    "means": "This witness holds that Scripture judged popes, councils, and fathers among us, stated sharply by our founder and more gently by our confession, while Genesis-as-science goes unanswered.",
+    "text": "We held that Scripture judges every other voice, and we said it two ways, in two voices. We hold both, rather than smoothing them into one tone. Our founder said it sharply. Scripture judges popes, councils, and church fathers alike. Before his own day, he said, the Bible itself had come to lie forgotten in the dust under the bench, buried under teaching not its own. If we are all priests, he said, then we may test and judge what is right in matters of faith for ourselves. Our confession states the same rule more gently, alongside the wider Church. Our own doctrine, it says, varies from neither Scripture nor the universal Church nor Rome's own writers. On Genesis read as science, the way modern people argue about it, we have no answer to give. None of our texts takes up Genesis as a question about the age or origin of the natural world, the way your era argues it. They say nothing on it in either direction.",
+    "sources": [
+     {
+      "source_id": "witt.term.the-word",
+      "locus": "'one thing and one only is necessary for Christian life, righteousness and liberty. That one thing is the most holy Word of God, the Gospel of Christ'; 'I did nothing; the Word did it all'"
+     },
+     {
+      "source_id": "witt.term.scripture-against-tradition",
+      "locus": "'the Bible has come to lie forgotten in the dust under the bench'; 'if we are all priests... why should we not also have the power to test and judge what is correct or incorrect in matters of faith?'; our confession's own milder form: doctrine with 'nothing that varies from the Scriptures, or from the Church Catholic, or from the Church of Rome as known from its writers'"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record supports that Scripture judged every other voice, but the added 'always' turns this into a timeless rule. The record itself says that before the founder's day the Bible lay forgotten under teaching not its own, and it gives the rule in two distinct voices that a flat 'always' smooths over.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We held that Scripture judges every other voice, and we said it two ways, in two voices."
+    },
+    {
+     "block": "R1",
+     "words": "Before his own day, he said, the Bible itself had come to lie forgotten in the dust under the bench, buried under teaching not its own."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record says Scripture judged popes, councils and fathers among us, but it adds no universal 'always', and it insists the rule was stated in two registers, the confession's placing Scripture alongside the universal Church and Rome's own writers. The sentence adds the quantifier and flattens the two voices into one settled claim the record expressly refuses.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We held that Scripture judges every other voice, and we said it two ways, in two voices."
+    },
+    {
+     "block": "R1",
+     "words": "'Scripture alone' as a fixed slogan of ours, flattening the founder's sharp form and the confession's additive form into one"
+    },
+    {
+     "block": "R1",
+     "words": "Our own doctrine, it says, varies from neither Scripture nor the universal Church nor Rome's own writers."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-ba2f433e0fb1",
+  "why": "key class (specialist)",
+  "world": "desert",
+  "probe_id": "f4-p-probe-01",
+  "sentence": "One of us taught it plainly: merely keeping away from evil things is not perfection, for the serpent lies under the mind, beneath the surface of the thoughts - the heart is a deep gulf.",
+  "records": [
+   {
+    "id": "desert.quote.the-heart-is-a-deep-gulf",
+    "means": "A Macarian homily teaches that abstaining from evil is not perfection until the serpent beneath the thoughts is slain, for the heart is a deep gulf.",
+    "text": "Mere abstention from evil things is not perfection— only if thou hast entered into thy ruined mind, and hast slain the serpent that lies under the mind beneath the surface of the thoughts, and burrows into what we call the secret chambers and storehouses of the soul and murders thee — for the heart is a deep gulf — only, I say, if thou hast killed him, and cast out all the uncleanness that was in thee.",
+    "sources": [
+     {
+      "source_id": "desert.source.macarian-homilies",
+      "locus": "Homily XVII, in Mason's English"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "embedded_voice",
+   "reason": "The teaching itself is rendered faithfully, but the sentence presents it as taught by 'one of us', when the record gives it to an unknown author writing under Macarius's name and says it must never be voiced that way.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "they are not securely the words of a desert elder. Never voiced as 'one of us said'"
+    },
+    {
+     "block": "R1",
+     "words": "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-c7ed33cb0c25",
+  "why": "key class (specialist)",
+  "world": "alx",
+  "probe_id": "f6-p-probe-01",
+  "sentence": "We asked them to stay near - to listen, to question, sometimes for years, while love for the Word was kindled in them.",
+  "records": [
+   {
+    "id": "alx.quote.gregory-spark",
+    "means": "The Address to Origen, ascribed to Gregory Thaumaturgus, describes love kindled at once for the Holy Word and for Origen, his teacher.",
+    "text": "And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within us,—a love at once to the Holy Word, the most lovely object of all, who attracts all irresistibly toward Himself by His unutterable beauty, and to this man, His friend and advocate.",
+    "sources": [
+     {
+      "source_id": "alx.source.gregory-address-to-origen",
+      "locus": "VI (anf06 lines 3016-3022)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record is one student's praise of his own teacher, Origen, and the love kindled in him; the sentence turns this into the tradition's general practice with its pupils. The detail of staying 'sometimes for years' to listen and question is not in the record.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "one student's experience generalized as how every pupil came to faith"
+    },
+    {
+     "block": "R1",
+     "words": "love was kindled and burst into flame within us,—a love at once to the Holy Word"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record is one student's epideictic account of love kindled under Origen, and it is expressly not for generalizing that into how pupils came to faith; the sentence turns it into the tradition's own habitual practice ('We asked them to stay near ... while love for the Word was kindled in them'). 'Sometimes for years' is also a duration the record does not give.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "one student's experience generalized as how every pupil came to faith"
+    },
+    {
+     "block": "R1",
+     "words": "like some spark lighting upon our inmost soul, love was kindled and burst into flame within us"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-ca1963b52448",
+  "why": "key class (specialist)",
+  "world": "syr",
+  "probe_id": "c-t-probe-01",
+  "sentence": "We sang of the day the Virgin bore Immanuel in Bethlehem as the day that made the Prophets, the Kings, and the Priests glad, because every word they had spoken finally came true.",
+  "records": [
+   {
+    "id": "syr.quote.nativity-this-is-the-day",
+    "means": "Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethlehem as the fulfilment of the words of the prophets, kings, and priests.",
+    "text": "This is the day that gladdened them, the Prophets, Kings, and Priests, for in it were their words fulfilled, and thus were the whole of them indeed performed! For the Virgin this day brought forth Immanuel in Bethlehem.",
+    "sources": [
+     {
+      "source_id": "syr.source.ephrem-nativity-hymns",
+      "locus": "Hymn I"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The content of the sentence matches Ephrem's hymn, but the record gives it as one author's hymn, while the sentence presents it as what the tradition as a whole sang. The bound record does not state that the community sang it.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethlehem as the fulfilment of the words of the prophets, kings, and priests."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-d0c98bfc3bdc",
+  "why": "key class (specialist)",
+  "world": "hal",
+  "probe_id": "f2-i-probe-01",
+  "sentence": "A visitor who spent months with us wrote that Jerome was always at his books or his pen, reading or writing day and night, with no rest unless he was reading or writing.",
+  "records": [
+   {
+    "id": "hal.quote.always-at-his-books",
+    "means": "The traveller Postumianus, in Sulpitius Severus's Dialogues, describes Jerome at Bethlehem around 400 as constantly reading or writing, day and night.",
+    "text": "He is always occupied in reading, always at his books with his whole heart: he takes no rest day or night; he is perpetually either reading or writing something.",
+    "sources": [
+     {
+      "source_id": "hal.source.sulpitius-dialogues",
+      "locus": "Dialogue I.9"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The visitor Postumianus does not write anything; he is a speaker in a dialogue that Sulpitius Severus wrote, so 'a visitor wrote' misplaces the authorship. The closing 'no rest unless he was reading or writing' also turns the source's flat 'no rest day or night' into an exception clause the source does not have.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Sulpitius Severus, Dialogues I.9 (the traveler Postumianus speaking; trans. Roberts)"
+    },
+    {
+     "block": "R1",
+     "words": "he takes no rest day or night; he is perpetually either reading or writing something."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-d7f3f0e613f7",
+  "why": "key class (specialist)",
+  "world": "pahc",
+  "probe_id": "f4-t-probe-01",
+  "sentence": "When we told someone preparing for baptism what was about to happen, we taught them the Two Ways first: a way of life and a way of death, with a great difference between them.",
+  "records": [
+   {
+    "id": "pahc.term.two-ways",
+    "means": "The teaching given before the water that there are two ways, one of life and one of death, with a great difference between them.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "pahc.source.didache",
+      "locus": "1-6 (the schema itself; 'There are two ways, one of life and one of death')"
+     },
+     {
+      "source_id": "pahc.source.barnabas",
+      "locus": "18-20 (independent witness that the schema circulated more widely than the Didache's own redaction)"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record gives the two-ways-before-baptism sequence as one community's manual and says no source shows how widely it was used, but the sentence makes it the general practice of 'we'. It also adds that the teaching told candidates 'what was about to happen', which the record does not say.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The full sequence is the Didache's - one community's manual, resting almost entirely on a single medieval manuscript."
+    },
+    {
+     "block": "R1",
+     "words": "but how widely it was actually used as catechesis, no source says."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-e13c2bf7bfa4",
+  "why": "key class (specialist)",
+  "world": "syr",
+  "probe_id": "f2-p-probe-01",
+  "sentence": "Scripture's words were each a raza to us: a symbol bound to the truth it carries, the shrara.",
+  "records": [
+   {
+    "id": "syr.term.raza-shrara",
+    "means": "A raza is a symbol in Scripture or creation bound to the truth (shrara) it discloses, the pair at the center of Ephrem's method of reading.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "syr.source.brock-luminous-eye",
+      "locus": "the raza/shrara account (Luminous Eye p. 41; Harp of the Spirit p. 17, verified in the legacy Doc_02)"
+     },
+     {
+      "source_id": "syr.source.murray-symbols",
+      "locus": "the symbol system passim"
+     },
+     {
+      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
+      "locus": "The Pearl I-VII (the method performed)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record says a raza is a thing in Scripture or creation that shows a hidden truth; it does not say every word of Scripture was a raza, so the sentence turns some into each.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "A raza is a thing in Scripture or in nature that shows a hidden truth, the shrara."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-ed7aa97d23d4",
+  "why": "key class (specialist)",
+  "world": "pahc",
+  "probe_id": "f6-p-probe-01",
+  "sentence": "We also held that marriage should be made with the bishop's approval, so that it would be according to God and not out of mere desire.",
+  "records": [
+   {
+    "id": "pahc.quote.ignatius-marriage-bishop",
+    "means": "Ignatius tells Polycarp that people who marry should do so with the bishop's approval, so the marriage is according to God, not lust.",
+    "text": "But it becomes both men and women who marry, to form their union with the approval of the bishop, that their marriage may be according to God, and not after their own lust. Let all things be done to the honour of God.",
+    "sources": [
+     {
+      "source_id": "pahc.source.ignatius-letters",
+      "locus": "To Polycarp 5, shorter (middle) recension"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The content matches Ignatius's advice, but the record gives it as one author's counsel in one letter to Polycarp. The sentence turns it into what 'we held' as a community, which no bound record states.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Ignatius tells Polycarp that people who marry should do so with the bishop's approval, so the marriage is according to God, not lust."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-f1af45a24bf7",
+  "why": "key class (specialist)",
+  "world": "gallic",
+  "probe_id": "f1-e-probe-01",
+  "sentence": "No one among us wrote down a procedure for it, and which things were meant to be settled at all is itself one of the things our two houses never argued out.",
+  "records": [
+   {
+    "id": "gallic.term.the-rule",
+    "means": "The rule meant Vincent's test of doctrine, what has been believed everywhere, always, by all, preferring the whole, the old and consent, never a monastic Rule of life.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "gallic.source.vincent-commonitory",
+      "locus": "ch. 1 [1-2] (the occasion); ch. 2 [4-6] (the two ways; \"everywhere, always, by all\"; \"universality, antiquity, consent\"); ch. 3 [7-8] (the procedure; \"collate and consult and interrogate\"); ch. 6 [16] (Stephen's rule); ch. 24 [62] (\"who ever before ... Pelagius\"); ch. 28 [71-72] (\"consentient council of doctors\"; \"be he a bishop\"); ch. 31 [78] (Ephesus \"innovated nothing\"); ch. 32 [84] (Celestine, \"let novelty cease to assail antiquity\")"
+     },
+     {
+      "source_id": "gallic.source.cassian-institutes",
+      "locus": "Institutes I.2 (antiquity, numbers, unanimity; \"the Catholic rule\"); II.4 (\"no appointment of man's invention\") - the monastic parallel, not cited by Vincent"
+     },
+     {
+      "source_id": "gallic.source.sulpitius-vita-martini",
+      "locus": "Life of St. Martin ch. XI - the instinct at Tours"
+     },
+     {
+      "source_id": "gallic.source.gennadius-de-viris-illustribus",
+      "locus": "ch. LXV (Vincent \"presbyter in the Monastery on the Island of Lerins\"; the Peregrinus pseudonym)"
+     },
+     {
+      "source_id": "gallic.source.npnf-editorial-apparatus",
+      "locus": "Heurtley's Appendix III (unread) and footnote at Commonitory ch. 17 [44] quoting Newman - the in-file loci of the two contests; editorial, not a voice"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record says Vincent wrote the rule down with a stepwise procedure for each way it can fail, so 'no one among us wrote down a procedure' contradicts it. The claim that the two houses never argued out which things were to be settled is not in the record either.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "what Vincent wrote was a memory-aid with a stepwise procedure, whose hardest cases - great teachers erring - sit inside it"
+    },
+    {
+     "block": "P1",
+     "words": "Then he must collate and consult and interrogate the opinions of the ancients"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-f9722dfc2039",
+  "why": "key class (specialist)",
+  "world": "pahc",
+  "probe_id": "f5-p-probe-01",
+  "sentence": "The people who walked that road could not read or write, and they left no account in their own words.",
+  "records": [
+   {
+    "id": "pahc.witness.what-we-never-settled",
+    "means": "This world never settled whether one bishop or a council of elders should lead, and almost none of its ordinary members left words.",
+    "text": "If you want the hardest true thing about us, it is this: we never agreed on who should lead. In some of our towns, one bishop - the episkopos - with elders and deacons beside him, was the whole shape of how we held together. Presbyteros and diakonos were our own words for the elder and the deacon. In others, a council of elders - the presbyterion - led, and no one felt anything was missing from that. Both went on, unresolved, for as long as our own story runs - it was only settled afterward, by people who came after us. And there is a second hard truth, just as real: almost none of the people who actually filled our rooms left any words of their own. Everything you can hear from us was written by someone who could read and write, and mostly by someone who already led. The poor among us, the enslaved among us, the ones who were simply there - we cannot let you hear them.",
+    "sources": [
+     {
+      "source_id": "pahc.source.ignatius-letters",
+      "locus": "the monarchical-bishop program, held against the plural presbyteral pattern"
+     },
+     {
+      "source_id": "pahc.source.first-clement",
+      "locus": "42, 44"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record says the surviving writers were literate and that the poor, enslaved and untaught left no words; it never says that the people who walked that road could not read or write. The sentence adds a claim of illiteracy and widens 'almost none' and 'the untaught' to the whole group.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Everything you can hear from us was written by someone who could read and write, and mostly by someone who already led."
+    },
+    {
+     "block": "R1",
+     "words": "The people who filled the rooms we wrote about - the poor, the enslaved, the untaught - left no words of their own at all."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record says the surviving voices all belonged to literate people and that the poor, enslaved and untaught left no words of their own; it does not state that the ordinary members as a body could not read or write, which the sentence asserts as the reason for their silence.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Everything you can hear from us was written by someone who could read and write, and mostly by someone who already led."
+    },
+    {
+     "block": "R1",
+     "words": "The poor among us, the enslaved among us, the ones who were simply there - we cannot let you hear them."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-822ba27c3cb7",
+  "why": "key class (second labeller)",
+  "world": "rzg",
+  "probe_id": "f5-p-probe-01",
+  "sentence": "The Consistory, pastors and lay elders chosen from the people, held real power to censure.",
+  "records": [
+   {
+    "id": "rzg.quote.seniors-selected-from-the-people",
+    "means": "Calvin reads Paul's governors as elders chosen from the people who join the pastors, whom he also calls bishops, in pronouncing censures and exercising discipline.",
+    "text": "By these governors I understand seniors selected from the people to unite with the bishops in pronouncing censures and exercising discipline",
+    "sources": [
+     {
+      "source_id": "rzg.source.calvin-institutes-book4",
+      "locus": "IV.3.8, lines 2830-2832"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The bound record is Calvin's reading of Paul's 'governors' in Scripture, not a statement about how the Consistory as an institution was composed or what power it held. The sentence turns his exegesis into an institutional claim about the Consistory that the record does not make.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Calvin reads Paul's governors as elders chosen from the people who join the pastors, whom he also calls bishops, in pronouncing censures and exercising discipline."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The bound record is Calvin's exegesis of Paul's 'governors' in Romans and 1 Corinthians, not a statement about Geneva's Consistory; the sentence adds the institution's name and turns a reading of scripture into a claim about what a named body held. The only 'consistory' in the pack is the editor's footnote on the French rendering of 'senatum', which is the editor's word, not Calvin's.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Calvin reads Paul's governors as elders chosen from the people who join the pastors, whom he also calls bishops, in pronouncing censures and exercising discipline."
+    },
+    {
+     "block": "P1",
+     "words": "Latin, \" senatum.\" — French, \" conseil ou consistoire ;\" — council or consistory."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-f3b692684119",
+  "why": "random sample of agreements",
+  "world": "syr",
+  "probe_id": "f4-e-probe-01",
+  "sentence": "That line is the oldest dated word we have about Christians in our city, though we cannot be sure it stood in the first telling and was not added afterward.",
+  "records": [
+   {
+    "id": "syr.dw.corpus-and-its-edges",
+    "means": "We say our core texts are securely dated and the flood line of 201 is our oldest dated word, though it may have been added later, while the Abgar story is legend and many voices are missing.",
+    "text": "Much of what we tell you can be checked. Our two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies. A short city chronicle, drawn from real archives, records that the flood destroyed a church building in Edessa. That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later. The beloved story of the king who wrote to Jesus is a legend. It was written down generations later to give our church an apostolic beginning. We tell it as our legend, not as our history. The record is thinnest where it always is. Ordinary believers left no writings of their own. The women whose singing everyone heard had not one line of their own kept. The enslaved are missing. The last decades before the synod are nearly blank. Some of our arguments survive only from our side. The Jewish answers to our teachers were not kept at all.",
+    "sources": [
+     {
+      "source_id": "syr.source.chronicle-of-edessa",
+      "locus": "the flood entry and the chronicle's character"
+     },
+     {
+      "source_id": "syr.source.aphrahat-select-demonstrations",
+      "locus": "the two dated composition phases"
+     },
+     {
+      "source_id": "syr.source.ephrem-nisibene-hymns",
+      "locus": "the corpus that survived"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record says the chronicle's flood line about a church in Edessa is the oldest dated word about this community, and that it may have been added later. The sentence restates both points with the same caution.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence restates the record's claim about the flood line - oldest dated word about the community in Edessa, possibly a later addition - with the same hedge and the same force.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-d158985f1252",
+  "why": "random sample of agreements",
+  "world": "desert",
+  "probe_id": "c-i-probe-01",
+  "sentence": "One of us urged the brothers: to die daily, as the apostle put it, and so not sin - to treat every day as though it might be the last one given to us.",
+  "records": [
+   {
+    "id": "desert.quote.antony-dying-daily",
+    "means": "In the Life of Antony, Athanasius has Antony urge the brothers to live as though dying daily, citing Paul, as a guard against carelessness and sin.",
+    "text": "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, \"I die daily .\" For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily.",
+    "sources": [
+     {
+      "source_id": "desert.source.athanasius-vita-antonii",
+      "locus": "SS19 - from Antony's extended discourse to the gathered brothers"
+     }
+    ]
+   }
+  ],
+  "gate": "removed",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record has Antony, in the Life, urge the brothers to live as though dying daily, citing the Apostle, so as not to sin. The source explains this as thinking each day may not last till evening, which matches treating each day as possibly the last.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "it is good to consider the word of the Apostle, \"I die daily .\" For if we too live as though dying daily, we shall not sin..."
+    },
+    {
+     "block": "P1",
+     "words": "as we rise day by day we should think that we shall not abide till evening"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record has Antony urge the brothers, citing the Apostle's 'I die daily', to live as though dying daily so as not to sin, with life allotted daily by Providence; the sentence paraphrases this closely, and the source confirms the sense of treating each day as possibly the last.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "it is good to consider the word of the Apostle, \"I die daily .\" For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
+    },
+    {
+     "block": "P1",
+     "words": "as we rise day by day we should think that we shall not abide till evening"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-6e0b6edd46a0",
+  "why": "random sample of agreements",
+  "world": "pahc",
+  "probe_id": "f2-e-probe-01",
+  "sentence": "We never import Dura-Europos, the catacombs, or post-200 material.",
+  "records": [
+   {
+    "id": "pahc.core.house-church",
+    "means": null,
+    "text": "",
+    "sources": [
+     {
+      "source_id": "pahc.source.first-clement",
+      "locus": "whole letter (Strand B anchor)"
+     },
+     {
+      "source_id": "pahc.source.ignatius-letters",
+      "locus": "all seven letters (Strand A anchor; three-way dating split applies)"
+     },
+     {
+      "source_id": "pahc.source.justin-first-apology",
+      "locus": "61, 65-67"
+     },
+     {
+      "source_id": "pahc.source.didache",
+      "locus": "whole work (single-community caveat applies)"
+     },
+     {
+      "source_id": "pahc.source.shepherd-hermas",
+      "locus": "whole work"
+     },
+     {
+      "source_id": "pahc.source.polycarp-philippians",
+      "locus": "13 (the forwarding the horizon narrates)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "cannot_judge",
+   "class": "cannot_judge",
+   "reason": "The bound world_core record is given only by its id and confidence, with no text, positions or limits, and no source passage is shown, so there is nothing to test the sentence's claim about excluding Dura-Europos, the catacombs and post-200 material against.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "record id: pahc.core.house-church"
+    }
+   ],
+   "record_concern": "The bound record carries no text in the pack, and its source loci resolve to nothing in the files."
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "cannot_judge",
+   "class": "cannot_judge",
+   "reason": "The only bound record, pahc.core.house-church, is shown with no text, means, positions or source passage, so the pack contains nothing stating this world's time-window or which material (Dura-Europos, the catacombs, post-200 evidence) it excludes. The sentence is a claim about the world's own evidentiary bounds that cannot be checked against an empty record.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "formation confidence: Widely Accepted"
+    },
+    {
+     "block": "L",
+     "words": "a church building (there are none in this window)"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-aa0ac81baba4",
+  "why": "random sample of agreements",
+  "world": "syr",
+  "probe_id": "f5-i-probe-01",
+  "sentence": "We know the empire around us held slaves.",
+  "records": [
+   {
+    "id": "syr.limit.f5-enslaved",
+    "means": "The record holds no word from or description of enslaved persons in this world's Christian communities; only the surrounding empire's holding of slaves is known.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "syr.source.chronicle-of-edessa",
+      "locus": "the civic record's silence"
+     },
+     {
+      "source_id": "syr.source.aphrahat-select-demonstrations",
+      "locus": "the corpus's silence"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence repeats the record's own statement word for word.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We know the empire around us held slaves."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence is word for word the bound record's own statement, and it asserts only the surrounding empire's holding of slaves, which is the one thing the honest_limit says is known.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We know the empire around us held slaves. Of their days inside our own churches we can tell you nothing true."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-d2eb75708983",
+  "why": "random sample of agreements",
+  "world": "pahc",
+  "probe_id": "f3-i-probe-01",
+  "sentence": "The overseer - where there was one - watched over a community's table and its unity.",
+  "records": [
+   {
+    "id": "pahc.term.episkopos",
+    "means": "The overseer who watches over a community's table and unity, while whether every church has one such man is still argued.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "pahc.source.ignatius-letters",
+      "locus": "Ephesians 4 (the harp image); Smyrnaeans 8; passim (Strand A - the single-witness caution applies)"
+     },
+     {
+      "source_id": "pahc.source.first-clement",
+      "locus": "42, 44 (Strand B - interchangeable with presbyteros, plural college)"
+     },
+     {
+      "source_id": "pahc.source.shepherd-hermas",
+      "locus": "Vision 2.4.3 (plural presbyters preside)"
+     },
+     {
+      "source_id": "pahc.source.didache",
+      "locus": "15:1 (appoint bishops and deacons - transitional instruction)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence restates the record's quick meaning, keeping its qualifier that not every community had an overseer.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The overseer. He watches over a community's table and its unity, where there is one."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record's quick meaning states exactly this, including the qualification that not every community had such a figure, which the sentence keeps.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The overseer. He watches over a community's table and its unity, where there is one."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-839af3695103",
+  "why": "random sample of agreements",
+  "world": "hal",
+  "probe_id": "c-i-probe-01",
+  "sentence": "We worked over the text of scripture word by word, because we believed the writings were the true treasure handed down.",
+  "records": [
+   {
+    "id": "hal.dw.record",
+    "means": "This witness holds that the community knew Jesus through scripture it carefully corrected against the Greek and the Hebrew, the churches' worship, and the holy places, without any eyewitness chain.",
+    "text": "First and above everything, we had the writings about Jesus. The whole of scripture was copied, compared, and corrected. The Gospels were revised against the Greek. The Old Testament was translated from the Hebrew, which Jerome held truest - the Hebraica veritas. We worked over the text word by word, because we believed the writings were the true treasure handed down, worth a lifetime of exactness. More than three centuries stood between us and the events. Our confidence stood on three things: the apostles' writings as received, the worship of the churches, and - unusually - the places themselves. We could walk to the cave of the birth. The land itself we treated as a kind of witness, and our founders crossed the sea to live inside it. We held the resurrection to be true on the strength of the writings we trusted enough to spend a life correcting, and on a hope strong enough that people gave away fortunes on it.",
+    "sources": [
+     {
+      "source_id": "hal.source.vulgate-prefaces",
+      "locus": "the Gospels-revision preface and the OT prefaces"
+     },
+     {
+      "source_id": "hal.source.jerome-ep108",
+      "locus": "secs. 9-10 (the holy places received as witness)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence restates the record's text, adding only 'of scripture', which the surrounding record makes explicit.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We worked over the text word by word, because we believed the writings were the true treasure handed down, worth a lifetime of exactness."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence restates the bound witness almost word for word; adding 'of scripture' only makes explicit what the record's preceding sentences already name as the text being corrected.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We worked over the text word by word, because we believed the writings were the true treasure handed down, worth a lifetime of exactness."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-35fdbaf0cc09",
+  "why": "random sample of agreements",
+  "world": "ijc",
+  "probe_id": "f1-t-probe-01",
+  "sentence": "It was a Christological argument, and this was its premise: the Word had to become flesh because sin passed to all Adam's children, and only the Incarnation could save us.",
+  "records": [
+   {
+    "id": "ijc.dw.original-sin-transmitted",
+    "means": "Leo's 449 letter assumes, as settled premise, that original sin passed to all Adam's descendants and only the Word made flesh saves from condemnation.",
+    "text": "Yes, we taught that original sin passed down from Adam to everyone. Our own record says so in plain words, in a letter written against a different error entirely. Writing to Constantinople against Eutyches, Leo states why the Word had to become flesh at all. The state of everyone descended from our first parents was this: original sin passed down to all. No one would have escaped condemnation if the Word had not become flesh and lived among us. Leo reaches for Paul to say it twice over. As by one man's disobedience many were made sinners, so by one man's obedience many will be made righteous. As in Adam all die, so in Christ all will be made alive. Sin passed down from Adam, needing a second Adam to undo it. Leo states it as settled doctrine, not as one side of a live argument.",
+    "sources": [
+     {
+      "source_id": "ijc.source.leo-letters",
+      "locus": "Ep. LIX.4 (to the clergy and people of Constantinople)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record presents transmitted original sin as the premise of Leo's Christological argument for the Incarnation, and says no one would escape condemnation without the Word made flesh.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The state of everyone descended from our first parents was this: original sin passed down to all. No one would have escaped condemnation if the Word had not become flesh and lived among us."
+    },
+    {
+     "block": "R1",
+     "words": "stated in passing, as the settled premise of an anti-Eutychian Christological argument"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record says Leo's letter is a Christological argument whose premise is that original sin passed to all Adam's descendants and that no one would have escaped condemnation had the Word not become flesh; the source passage confirms this wording.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "original sin passed down to all. No one would have escaped condemnation if the Word had not become flesh and lived among us."
+    },
+    {
+     "block": "R1",
+     "words": "stated in passing, as the settled premise of an anti-Eutychian Christological argument"
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-b69d41e4e3ec",
+  "why": "random sample of agreements",
+  "world": "pahc",
+  "probe_id": "f4-p-probe-01",
+  "sentence": "We have nothing written for you about what to do when the person you need to make peace with will not be reconciled.",
+  "records": [
+   {
+    "id": "pahc.witness.prayer-and-struggle",
+    "means": "Hermas teaches that a slow answer to prayer is not refusal, and one community made confession and reconciliation a precondition of shared worship.",
+    "text": "One of us was told plainly: if your prayer is slow to be answered, that is not the same as being refused. Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no. On forgiving, in at least one of our own communities, it was not something worked out alone in your own head. Before they made their offering together, they confessed their wrongs before the assembly, and made peace with anyone they were at odds with first. We do not know how far this specific practice reached beyond that community. We should say plainly, too: we have nothing written for you about forgiving someone who will not be reconciled. Our manual says only that no one should speak to a person who wronged another, until that person repents. This practice assumed the other person was still there, in the room, able to be made right with.",
+    "sources": [
+     {
+      "source_id": "pahc.source.shepherd-hermas",
+      "locus": "Mandate 9 (ask without doubting; a slow answer is not a refusal)"
+     },
+     {
+      "source_id": "pahc.source.didache",
+      "locus": "14-15 (confession before the assembly, reconciliation before offering)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record states plainly that the tradition has nothing written about forgiving someone who will not be reconciled; the sentence restates that absence in near-identical terms.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "we have nothing written for you about forgiving someone who will not be reconciled."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record itself states this absence in nearly the same words, and its tensions field confirms that the surviving instruction assumes the other party is present and reconcilable.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "we have nothing written for you about forgiving someone who will not be reconciled."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-9eacce47fc89",
+  "why": "random sample of agreements",
+  "world": "don",
+  "probe_id": "f4-i-probe-01",
+  "sentence": "It happened once, bodily, on a day.",
+  "records": [
+   {
+    "id": "don.dw.becoming-one-of-us",
+    "means": "This telling covers entry by washing, with the forced-entry charges and the lay reluctance Augustine concedes, readmission after wrongdoing, which followed no consistent rule, and three stray fragments of prayer, chalice and fast.",
+    "text": "If you came to us from the other communion, we put you in the water. That is the step, and everything else follows from it. We would not call it a second baptism; on our reckoning you have not had a first. A hand out of a line that broke has nothing in it to hand over. What we look to, our own bishop wrote, is the conscience of the giver, to cleanse that of the recipient - so the thing being examined at our font was never your record. It was the record of the man standing in the water with you. Whatever your life had been, that question was not asked. It happened once, bodily, on a day. Imperial edicts name the practice specifically, which tells you how public it was: washing a Catholic again was the plainest possible refusal of the settlement the state was trying to impose. Not every hand that went under our water chose to be there, and we will not pretend otherwise. Specific, dated charges exist that a leader of ours forced the water on people rather than asked them. We do not repeat those charges' own particulars here - they are named, and why we will not go further with them, where they belong. What we can tell you, because it sits inside the same hostile argument rather than coming from a friendly witness, is that many of our own people did not want the water repeated. Augustine's own case against us concedes it: that almost all of our laity confess this one point in our system displeases them, and that many who wished to join us for reasons that had nothing to do with c",
+    "sources": [
+     {
+      "source_id": "don.source.augustine-answer-to-petilian",
+      "locus": "Book II, ch. 3 - what we look to is the conscience of the giver, to cleanse that of the recipient"
+     },
+     {
+      "source_id": "don.source.augustine-on-baptism-against-the-donatists",
+      "locus": "seven books on the washing, and the Bagai reception of Felicianus and Praetextatus"
+     },
+     {
+      "source_id": "don.source.augustine-on-baptism-against-the-donatists",
+      "locus": "Book V, ch. 5, section 6 - Donatist laity's own reluctance to be rebaptized, and secret efforts to be spared it"
+     },
+     {
+      "source_id": "don.source.migne-pl11-collatio-carthaginiensis",
+      "locus": "first cognitio, act 154 - the Donatist bishop Adeodatus, asked at Carthage in 411 whether his own see still had a bishop in it"
+     },
+     {
+      "source_id": "don.source.lucilla-and-the-second-unnamed-woman",
+      "locus": "Optatus I.16 - kissing a martyr's bone before receiving the chalice, and the rebuke for it"
+     },
+     {
+      "source_id": "don.source.passio-donati-sermon",
+      "locus": "people killed at prayer inside the basilica; a dying catechumen not yet baptized"
+     },
+     {
+      "source_id": "don.source.passio-marculi",
+      "locus": "the fast that closed Marculus's four days at Novapetra, before the cliff"
+     },
+     {
+      "source_id": "don.source.optatus-appendix-of-documents",
+      "locus": "the Council of Cirta - a charge nobody could settle, reserved to the Lord"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence repeats the record's own words about the entry washing, which the record presents as a single enacted bodily threshold.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Whatever your life had been, that question was not asked. It happened once, bodily, on a day."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The sentence is taken word for word from the bound record's own text, which describes the washing at entry as a single enacted bodily event.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "It happened once, bodily, on a day."
+    }
+   ],
+   "record_concern": null
+  }
+ },
+ {
+  "item_id": "gs-74892c2321a1",
+  "why": "random sample of agreements",
+  "world": "hal",
+  "probe_id": "c-e-probe-01",
+  "sentence": "That giving-up - renuntiatio - cost dearly.",
+  "records": [
+   {
+    "id": "hal.term.renuntiatio",
+    "means": "The deliberate, public giving-up of wealth, marriage, and rank for Christ, attested for Paula, Eustochium, and Fabiola through one author's idealizing genre.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-ep108",
+      "locus": "secs. 5-6, 15-16 (Paula's divestment and giving)"
+     },
+     {
+      "source_id": "hal.source.jerome-ep22",
+      "locus": "passim (the exhortation to renounce)"
+     },
+     {
+      "source_id": "hal.source.jerome-ep77",
+      "locus": "secs. 6-10 (Fabiola's giving)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record describes renuntiatio as giving up wealth, marriage and rank, met by family protest, public judgment and in one telling grief, which closely supports saying it cost dearly.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "It was not private. Family protested; Rome judged; and in at least one telling the discipline was taken further than the body could sustain, and grief followed."
+    }
+   ],
+   "record_concern": "The record's source locus could not be found in the file, so its reading of Jerome could not be checked here."
+  },
+  "second": {
+   "model": "claude-fable-5-1",
+   "verdict": "supported",
+   "class": "supported",
+   "reason": "The record's own account of renuntiatio states that it was public, drew family protest and Roman judgment, and in one telling ended in grief; 'cost dearly' follows closely from that and adds no new detail.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "It was not private. Family protested; Rome judged; and in at least one telling the discipline was taken further than the body could sustain, and grief followed."
+    }
+   ],
+   "record_concern": null
+  }
+ }
+]
