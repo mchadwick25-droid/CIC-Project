@@ -182,3 +182,15 @@ def test_inplan_round_trip_checks_replies_and_offers_one_retry(tmp_path, monkeyp
     (tmp_path / "replies" / "ln-2.retry.txt").write_text("not json")
     rows, retry = inplan.import_replies(lines, tmp_path, "opus")
     assert retry == [] and rows[1]["label"] is None and len(rows[1]["attempts"]) == 2
+
+
+def test_agreement_queues_disagreements_and_key_classes():
+    from goldset import agreement
+    def lab(v, c=None):
+        return {"label": {"verdict": v, "failure_class": c, "other_classes": []}, "model_id": "m"}
+    first = {"a": lab("supported"), "b": lab("unsupported", "generalisation"), "c": lab("supported"), "d": lab("supported")}
+    second = {"a": lab("supported"), "b": lab("unsupported", "generalisation"), "c": lab("unsupported", "unsupported_other"), "d": lab("supported")}
+    result = agreement.compare(first, second, sample=1)
+    assert result["items_both_labelled"] == 4 and result["disagreements"] == 1
+    assert [q["item_id"] for q in result["queue"][:2]] == ["b", "c"] and len(result["queue"]) == 3
+    assert result["verdict_agreement"] == 0.75
