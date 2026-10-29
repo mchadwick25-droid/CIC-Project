@@ -139,28 +139,25 @@ assignments:
 
     '
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--fragments-of-lactantius
-  work: Lactantius, Carmina - The Phoenix and A Poem on the Passion of the Lord (printed as 'Fragments of Lactantius')
+  work: Fragments of Lactantius
   author: lactantius
   locus: div2 3.6
   atlas_ids:
   - latin-apologists
   role: tradition
-  confidence: provisional
-  note: 'The volume prints under the heading "Fragments of Lactantius" two Latin poems in English: The Phoenix
-    (of uncertain authorship, attributed to Lactantius) and A Poem on the Passion of the Lord (formerly ascribed
-    to Lactantius), then a General Note by the editor. The General Note says there is no manuscript authority for
-    ascribing the poems to Lactantius. Brandt''s Latin volume prints both under CARMINA, as DE AVE PHOENICE and
-    DE PASSIONE DOMINI. Authorship stays open, so confidence is provisional. They are not fragments of lost works;
-    those are a separate Latin-only entry.
+  confidence: assigned
+  note: 'The surviving fragments, carried with the corpus they belong to: `latin-apologists`, alongside
+    the *Divine Institutes*. Confidence is `assigned`: the doubt this work carried was the era-straddle
+    question, and that is settled by the Institutes'' placement.
 
     '
   locus_ids:
   - div2:iii.vi
-  - div3:iii.vi.i..iii.vi.iii (3 divisions)
+  - div3:iii.vi.i..iii.vi.iii (3 divisions; prose fragments I to IV precede the first division)
   language: eng
   date:
     window: unknown
-    checked: The editor's General Note in the file gives no date and doubts the ascription to Lactantius; Brandt's CSEL 27 part 2 fascicle 1 prints the poems as Carmina without a date in the pages read
+    checked: The division prints four prose fragments, two poems and a General Note by the editor. The General Note gives no date and doubts the ascription of the poems
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
   work: On Easter (De Pascha)
   author: venantius

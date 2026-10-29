@@ -184,3 +184,19 @@ Step 0 and Doc_01 §3 give 285,187 words for Lactantius's four works. Doc_02 §1
 **Status:** Open. Owner: each record's own owner.
 
 LPC's `world_core` record still names `tertullian-s-voice` as the home of the Passion's Perpetua portion (see also the stale-slug entry of 2026-10-29). The census wording that Tertullian "opened" the Latin case appears in six places listed in Step 0 §4 item 1, rule (a): I.43 `voices`, `why`, `relationsSummary` and `longDescription`, I.17 `relationsSummary`, and the edge from I.17 to I.43. The I.43 `sourcing` field attaches "just under half a million words" to Lactantius alone, and Doc_02 §1 shows that the figure 285,187 behind it counts two poems that are not shown to be his (the Lactantius count entry of 2026-10-29). IJC's source record for *De mortibus* gives the author's dates as c. 250–325 without naming the authorship dispute. None is edited by this world.
+
+## OG-21 — Correction to the findings on the ANF07 "Fragments of Lactantius" and on the Doc_01 count (2026-10-29)
+
+**Source:** Round 1 review of Doc_02 and the Registry (`Review-Artifacts/Doc02_Round1_Review.md`, the P0 finding); `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml` div2 `iii.vi`.
+**Status:** Open. Corrects the entries titled "The ANF07 'Fragments of Lactantius' are two poems of uncertain authorship, not fragments of lost works" and "Doc_01 repeats the Lactantius count that includes the poems". Those entries stay as written, and this entry supersedes their claims.
+
+The division holds three parts: four prose fragments of Lactantius's lost works quoted through later authors (509 words), two poems of uncertain authorship (2,285 and 961 words), and the editor's General Note (177 words), 3,932 words in all. The earlier finding was wrong to say that the division holds no fragments of lost works, and wrong to pair the English poems with the Latin *Carmina* and the Latin fragments with no English. The corrected pairing is as the corpus map had it before: the English division pairs with the Latin of CSEL 27 part 2 fascicle 1, which prints the poems and the lost-works fragments. The staging rows are restored to their earlier title, role and confidence, with locus and date keys added. The three genuine works are 281,255 words, and 281,764 with the fragments. Step 0's 285,187 and Doc_01 §3 still include the two poems and the editor's note. Both documents are approved to proceed and are not edited. A correction to them is a change order for the project lead.
+
+## OG-22 — Dossier items and one Step 0 wording that this world cannot close (2026-10-29)
+
+**Source:** Source Readiness Dossier section 5; Step 0 §4, the Arnobius obligation; Round 1 review, findings on the dossier questions and on the soul.
+**Status:** Open. Owner: each item's own owner; the project lead for the Step 0 wording.
+
+Four dossier questions travel with this world and are decided elsewhere. First, the I.33 touchpoint: I.33's census story for Callistus lists Tertullian's *On Modesty* as a source. Second, the fleet-level record `_fleet.source.tertullian-against-praxeas` says the ANF03 edition "does not carry the Latin text", while the Latin is now vendored here. Third, IJC's source record for *De mortibus* gives the author's dates as c. 250–325 without naming the authorship dispute. Fourth, the stale references listed in the entry on stale references elsewhere. None is edited here.
+
+Separately, the Arnobius obligation in Step 0 §4 asks that Arnobius's teaching on the soul be attributed on Jerome's report. The vendored Jerome notices (*De viris illustribus* 79 and *Letter* LXX) say nothing about the soul. Doc_02 §7, on Arnobius, therefore reads the doctrine in Arnobius's own Book II (chapters XXXI, XXXV and LXII) and keeps Jerome to the dream and the bishop. Whether Step 0's wording should change is the project lead's decision.
