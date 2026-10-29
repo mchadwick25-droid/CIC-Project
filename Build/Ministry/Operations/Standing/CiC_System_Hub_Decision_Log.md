@@ -7242,3 +7242,15 @@ If any condition fails, the amount stays unspent.
 **Result.** Opus review: Revise. 39 rows: 2 PASS, 25 CONCERN, 10 FAIL (run 3 had 13), one fabrication. lpc stays `built`, not `admitted`. The questions in this run did not test baptism as new birth, the apse letter, Felicissimus, or the scoped women's-writing claim.
 
 **Hold.** The project lead, 2026-10-29: "yes hold the lpc run". The remaining $1.45 is on hold and not carried to any other use. The design pass puts harness parity and one capped baseline live run ahead of any fix, so a further lpc run, in particular the admission half, waits until the project lead releases it by name. The hold reached the lpc thread after this run had finished, so it did not change what ran.
+
+## 2026-10-29 - Live test "specialist-tryout-1" authorized, cap $10.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $10.00 for the specialist tryout. Name: `specialist-tryout-1`. Cap: $10.00, never exceeded. No other cap carries over to it, and no earlier cap ("fleet graded run 1", "lpc go-live rerun 1") covers it.
+
+**What it is for.** Choosing the AI domain specialist for the Answering-from-the-Sources gold set (Decision-Log entries 2 and 8 in `Build/Ministry/Features/Answering-From-Sources/`). Two non-Claude candidates, GPT-6.1 and Grok 4.7 through Bedrock, each label the same 20 seeded defects plus 20 known-supported controls. Estimate about $5.
+
+**When it may run.** Only after the guarded Bedrock adapter in `engine/provider` is in place and each model has a sourced price row. The run prints its settings, counts and first sample, carries the name and cap on the command, and stops at the cap.
+
+**What it does not cover.** The gold-set labelling, the second labeller, the judge trial, the baseline live run and the indexing run. Each needs its own name and cap here.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
