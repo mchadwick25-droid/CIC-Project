@@ -7254,3 +7254,13 @@ If any condition fails, the amount stays unspent.
 **What it does not cover.** The gold-set labelling, the second labeller, the judge trial, the baseline live run and the indexing run. Each needs its own name and cap here.
 
 **Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Live test "S1-01 baseline sample" authorized, cap $1.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $1.00. Name: `S1-01 baseline sample`. Cap: $1.00, never exceeded. It carries over to nothing else.
+
+**What it is for.** The small sample before the baseline live-path run (stage 1 item S1-01). lpc only, the first 4 sealed probes on `engine.m4.turn.run_turn`, the production path, with voice Sonnet 4.5 and gate Haiku 4.5 as production pins them. Estimate about $0.30.
+
+**Rules.** Prints its settings first (`--settings-only` output is already in the engine thread's report), carries the name and cap on the command, stops at the cap. The full 12-world run (336 probes) needs its own name and cap here and is not covered.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
