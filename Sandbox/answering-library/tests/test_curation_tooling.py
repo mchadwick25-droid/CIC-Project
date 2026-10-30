@@ -627,3 +627,53 @@ def test_a_lowercase_y_stroke_in_a_real_raulx_head_is_found(tmp_path):
     cur = make(tmp_path, rules=[rule], expected_gaps=[entry])
     problems = unexplained(cu.resolve(cur, lines))
     assert len(problems) == 1 and "line 3" in problems[0] and "look-alike" in problems[0]
+
+
+OPTATUS_RULE = {"id": "s", "pattern": r"^CHAPTER (?P<n>[IVXLC]+)\.", "locus": "ch{n|int}", "number": "n"}
+OPTATUS = ["CHAPTER XXIV.", "text", "He, upon whose head thou hast now endeavoured", "text", "CHAPTER XXVI."]
+
+
+def unprinted(line, quote, between=(1, 5)):
+    return step(5, "CHAPTER XXVI.", head_unprinted={"between": list(between), "line": line, "quote": quote})
+
+
+def head_problems(tmp_path, entry, lines=OPTATUS):
+    return unexplained(cu.resolve(make(tmp_path, rules=[OPTATUS_RULE], expected_gaps=[entry]), lines))
+
+
+def test_head_unprinted_explains_a_numbered_text_with_no_printed_head(tmp_path):
+    assert head_problems(tmp_path, unprinted(3, "upon whose head")) == []
+
+
+def test_head_unprinted_fails_on_a_missing_quote_a_line_outside_the_window_and_wrong_neighbours(tmp_path):
+    assert "quotes text that is not on line 3" in head_problems(tmp_path, unprinted(3, "not there"))[0]
+    for line in (1, 5):
+        assert "is not between the neighbours" in head_problems(tmp_path, unprinted(line, "CHAPTER"))[0]
+    for between in ((1, 4), (2, 5), (1, 9)):
+        problems = head_problems(tmp_path, unprinted(3, "upon whose head", between))
+        assert len(problems) == 1 and "head_unprinted" in problems[0] and "series 's' at line 5" in problems[0]
+
+
+def test_head_unprinted_refuses_a_line_that_carries_a_numeral_and_does_not_hide_it(tmp_path):
+    lines = ["CHAPTER XXIV.", "text", "CHAPTER XXVl. upon whose head", "text", "CHAPTER XXVI."]
+    problems = head_problems(tmp_path, unprinted(3, "upon whose head"), lines)
+    assert any("reason head_unprinted names line 3" in p for p in problems)
+    assert any("look-alike" in p and "line 3" in p for p in problems)
+
+
+def test_head_unprinted_does_not_hide_a_damaged_head_elsewhere_in_the_window(tmp_path):
+    lines = ["CHAPTER XXIV.", "CHAPTER XXVl. damaged", "He, upon whose head", "text", "CHAPTER XXVI."]
+    problems = head_problems(tmp_path, unprinted(3, "upon whose head"), lines)
+    assert len(problems) == 1 and "look-alike" in problems[0] and "line 2" in problems[0]
+
+
+def test_head_unprinted_explains_only_a_gap(tmp_path):
+    lines = ["CHAPTER XXIV.", "He, upon whose head", "CHAPTER XXIV.", "text"]
+    entry = step(3, "CHAPTER XXIV.", head_unprinted={"between": [1, 3], "line": 2, "quote": "upon whose head"})
+    assert "does not explain a repeated step" in head_problems(tmp_path, entry, lines)[0]
+
+
+def test_head_unprinted_needs_all_three_keys(tmp_path):
+    for body in ({"between": [1, 5], "line": 3}, {"line": 3, "quote": "x"}, {"between": [1, 5], "quote": "x"}):
+        with pytest.raises(cu.CurationError, match="head_unprinted"):
+            make(tmp_path, rules=[OPTATUS_RULE], expected_gaps=[step(5, "CHAPTER XXVI.", head_unprinted=body)])

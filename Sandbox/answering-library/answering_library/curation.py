@@ -45,8 +45,9 @@ _NOT_SUB_KEYS = {"lines", "kind", "quote"}
 NOT_SUBHEADING_KINDS = ("footnote", "running-head", "ocr-debris", "quoted-list")
 _EXPECTED_KEYS = {"series", "line", "quote", "reason"}
 REASON_FORMS = {"leaf_missing": {"between"}, "counterpart": {"line"}, "edition_unnumbered": {"line", "quote"},
-                "as_printed": {"line", "quote"}}
-REASON_STEPS = {"leaf_missing": ("gaps",), "edition_unnumbered": ("gaps",), "as_printed": ("repeated", "backward"),
+                "as_printed": {"line", "quote"},
+                "head_unprinted": {"between", "line", "quote"}}
+REASON_STEPS = {"leaf_missing": ("gaps",), "edition_unnumbered": ("gaps",), "head_unprinted": ("gaps",), "as_printed": ("repeated", "backward"),
                 "counterpart": ("gaps", "repeated", "backward")}
 _UPPER_NUMERAL = "IVXLCDM\u0399\u03a7\u039d\u0406\u0474"
 _NUMERAL_STROKES = "0123456789|!\\^'[]()*TUHYWF\u03a4\u0397\u03a5\u0475"
@@ -1109,14 +1110,15 @@ def _reason_problems(cur, e, label, kind, before, scan, readings) -> list[str]:
     if kind not in REASON_STEPS[form]:
         return [f"{label} gives reason {form}, which does not explain a {'gap' if kind == 'gaps' else kind} step; "
                 f"it explains {', '.join(REASON_STEPS[form])}"]
-    if form == "leaf_missing":
+    if form in ("leaf_missing", "head_unprinted"):
         first, last = reason["between"]
         if not (1 <= first <= n and 1 <= last <= n):
-            return [f"{label} reason leaf_missing names line(s) outside the file ({n} lines)"]
+            return [f"{label} reason {form} names line(s) outside the file ({n} lines)"]
         if (first, last) != (before, e["line"]):
-            return [f"{label} reason leaf_missing between [{first}, {last}] does not name the series' neighbours "
+            return [f"{label} reason {form} between [{first}, {last}] does not name the series' neighbours "
                     f"around the gap, which are [{before}, {e['line']}]"]
-        return []
+        if form == "leaf_missing":
+            return []
     line = reason["line"]
     if not 1 <= line <= n:
         return [f"{label} reason {form} names line {line}, outside the file ({n} lines)"]
@@ -1127,12 +1129,11 @@ def _reason_problems(cur, e, label, kind, before, scan, readings) -> list[str]:
             return [f"{label} reason as_printed line {line} is not the previous reading of the series "
                     f"(line {before})"]
         return []
-    if form == "edition_unnumbered":
+    if form in ("edition_unnumbered", "head_unprinted"):
         if reason["quote"] not in norm[line - 1]:
-            return [f"{label} reason edition_unnumbered quotes text that is not on line {line}: "
-                    f"\"{reason['quote']}\""]
+            return [f"{label} reason {form} quotes text that is not on line {line}: \"{reason['quote']}\""]
         if before is not None and not before < line < e["line"]:
-            return [f"{label} reason edition_unnumbered line {line} is not between the neighbours "
+            return [f"{label} reason {form} line {line} is not between the neighbours "
                     f"(lines {before} and {e['line']})"]
     else:
         after = next((x for x in readings if x > e["line"]), n)
@@ -1146,7 +1147,7 @@ def _reason_problems(cur, e, label, kind, before, scan, readings) -> list[str]:
         return []
     if _carries_numeral(_series_rules(cur, e["series"]), norm[line - 1]):
         return [f"{label} reason {form} names line {line}, which the scan reports as a head of the series with a "
-                "numeral in its numeral position; such a head is neither unnumbered nor a counterpart"]
+                "numeral in its numeral position; such a head is neither unnumbered, unprinted nor a counterpart"]
     return []
 
 
