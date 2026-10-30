@@ -28,6 +28,7 @@ work: "The Philocalia of Origen - twenty-seven chapters of selections, weighted 
 edition: "trans. George Lewis (Edinburgh: T. & T. Clark, 1911), vendored as cic/texts/origen_philocalia_lewis1911.txt - about 85,200 words; transcribed by Roger Pearse for tertullian.org and declared public domain by the transcriber"
 citation: 'Origen of Alexandria, The Philocalia of Origen, trans. George Lewis (Edinburgh: T. & T. Clark, 1911)'
 kind: vendored
+shelf_row: origen_philocalia_lewis1911--the-philocalia-of-origen-3
 rights_status: "public-domain; 1911, long out of US copyright"
 attribution_status: "Origen for the excerpts; the compilation traditionally but not textually ascribed; Lewis for the 1911 English"
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (hal.search.unopened-volume-sweep)"

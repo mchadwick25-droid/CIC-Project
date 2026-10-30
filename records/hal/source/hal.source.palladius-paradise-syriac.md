@@ -29,6 +29,7 @@ work: "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in si
 edition: "trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), vendored as cic/texts/palladius_paradise-v1-syriac_budge1907.txt - about 100,800 words, from the thirteenth- or fourteenth-century Syriac manuscript Budge was shown at Mosul in 1888. The Possidonius chapter is Chapter l"
 citation: 'Palladius of Galatia, The Paradise, Volume I (Syriac recension), trans. E. A. Wallis Budge (London: Chatto & Windus, 1907)'
 kind: vendored
+shelf_row: fleet-sweep-additions-budge-v1--the-paradise-of-palladius-book-i-ch-l-of-the-blessed-man
 work_id: palladius-lausiac-history
 rights_status: "public-domain; 1907, long out of US copyright"
 attribution_status: "Palladius for the work; 'Anan-Isho' for the redaction; Budge for the 1907 English"
