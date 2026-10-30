@@ -575,3 +575,13 @@ Mark, 2026-10-30, by choice box, relayed by the coordination thread:
 Coordination-level, AI-reviewed (not Mark's own): the 20-pair calibration set for the fit step, with a bar of 19 of 20 caught before its verdicts count.
 
 A fresh Opus reviewer checked the six wordings against their records before the new seal: four passed, two were reworded (q101 moved to the past tense and third person, q105 narrowed to the church's own poor and widows). The new set `S3-Test100/lpc_106_questions.yaml` has sha256 `22fefa5581554c4dca1e1e2e2db7bf973dc2fe1f5ccb7c73c0a9c2be6b97c0c2`. The original 100 and their seal (entry 26) are untouched. Findings and fixes are in the change order file.
+
+## 30. Drafter helper, guard before the run, shadow-run findings (2026-10-30)
+
+Coordination-level, AI-reviewed (not Mark's own), relayed by the coordination thread:
+
+- A separate helper type for drafting, Read and Write only, in the same pattern as `judge-reader` (Mark approved that pattern): `.claude/agents/voice-drafter.md`. `judge-reader` keeps its labelling and judging role.
+- No allowance go-ahead is needed for the run: in-system work is not tracked or capped (Mark's standing rule). The run starts when the Library thread says Stage 2 is on lpc.
+- The surgeon's-knife quote record gets the not_for line "a warrant for striking a child or anyone today", before the run so the run uses final records (OG-119 closed by that change).
+- Found while building the run: the "story record not offered for placement" note on a test draft came from a made-up reader reply that did not match the question, not from the story door. With a matching reader reply the story is offered and placed. lpc's registered `story_placement` flag is off (only desert's is on), so the shadow run sets it on in memory. A story is placed whole as its `telling`; the short and medium lengths are not built into the placement code.
+- The current gates' verdicts for the judge steps come from the run's own net output through `engine/m3/test100_export.py`, in place of `engine/m3/gate_replay.py`.
