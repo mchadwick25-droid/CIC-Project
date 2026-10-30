@@ -25,7 +25,8 @@ SERMO = {"id": "s", "pattern": r"^SERMO (?P<n>\S+)$", "locus": "sermo{n|int}", "
 
 def test_fix_values_skip_the_ocr_map(tmp_path):
     rule = dict(SERMO, ocr_map={"1": "I", "l": "I"}, fixes=[{"line": 3, "set": {"n": "17"}}])
-    res = cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[{"series": "s", "line": 3, "quote": "SERMO 1l"}]),
+    res = cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[{"series": "s", "line": 3, "quote": "SERMO 1l",
+                                                  "reason": {"leaf_missing": {"between": [1, 3]}}}]),
                      ["SERMO 1", "text", "SERMO 1l", "more"])
     assert loci(res) == ["sermo1", "sermo17"]
     assert res.sequences["s"] == [(1, 1), (3, 17)]
@@ -184,19 +185,145 @@ def unexplained(res):
     return [p for p in res.problems if not p.startswith("evidence")]
 
 
+STEPS = ["SERMO 1", "t", "SERMO 3", "t", "SERMO 3", "t", "SERMO 2", "t", "SERMO 4"]
+
+
+def step(line, quote, **reason):
+    return {"series": "s", "line": line, "quote": quote, "reason": reason}
+
+
+def explained_steps():
+    return [step(3, "SERMO 3", leaf_missing={"between": [1, 3]}),
+            step(5, "SERMO 3", as_printed={"line": 3, "quote": "SERMO 3"}),
+            step(7, "SERMO 2", as_printed={"line": 5, "quote": "SERMO 3"}),
+            step(9, "SERMO 4", leaf_missing={"between": [7, 9]})]
+
+
 def test_unexplained_series_steps_fail_and_expected_gaps_explain_them(tmp_path):
-    lines = ["SERMO 1", "t", "SERMO 3", "t", "SERMO 3", "t", "SERMO 2", "t", "SERMO 4"]
-    problems = unexplained(cu.resolve(make(tmp_path, rules=[SERMO]), lines))
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[SERMO]), STEPS))
     assert len(problems) == 1 and "series 's' has 4" in problems[0] and "lines 3, 5, 7, 9" in problems[0]
-    gaps = [{"series": "s", "line": n, "quote": q} for n, q in
-            [(3, "SERMO 3"), (5, "SERMO 3"), (7, "SERMO 2"), (9, "SERMO 4")]]
-    assert unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=gaps), lines)) == []
+    gaps = explained_steps()
+    assert unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=gaps), STEPS)) == []
     wrong = [dict(gaps[0], quote="the edition prints no II")] + gaps[1:]
-    assert any("not on the line" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=wrong), lines)))
-    extra = gaps + [{"series": "s", "line": 1, "quote": "SERMO 1"}]
-    assert any("matches no gap" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=extra), lines)))
+    assert any("not on the line" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=wrong), STEPS)))
+    extra = gaps + [step(1, "SERMO 1", counterpart={"line": 3})]
+    assert any("matches no gap" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[SERMO], expected_gaps=extra), STEPS)))
     assert any("no rule or entry numbers" in p for p in unexplained(cu.resolve(
-        make(tmp_path, rules=[SERMO], expected_gaps=gaps + [{"series": "zz", "line": 1, "quote": "SERMO 1"}]), lines)))
+        make(tmp_path, rules=[SERMO], expected_gaps=gaps + [dict(gaps[0], series="zz")]), STEPS)))
+
+
+def gap_problems(tmp_path, entry, lines=STEPS[:3], **doc):
+    cur = make(tmp_path, rules=[SERMO], expected_gaps=[entry], **doc)
+    return unexplained(cu.resolve(cur, lines))
+
+
+def test_an_expected_gap_without_a_reason_fails_and_names_the_entry(tmp_path):
+    entry = {"series": "s", "line": 3, "quote": "SERMO 3"}
+    problems = gap_problems(tmp_path, entry)
+    assert len(problems) == 1
+    assert "series 's' at line 3 has no reason" in problems[0]
+    assert gap_problems(tmp_path, dict(entry, reason=None)) == problems
+
+
+@pytest.mark.parametrize("reason", [
+    "the edition skips II", {"leaf_missing": {"between": [1]}}, {"leaf_missing": {"between": [3, 1]}},
+    {"leaf_missing": {}}, {"counterpart": {"line": "3"}}, {"edition_unnumbered": {"line": 2}},
+    {"edition_unnumbered": {"line": 2, "quote": ""}}, {"nonsense": {"line": 2}},
+    {"counterpart": {"line": 2}, "leaf_missing": {"between": [1, 3]}}, {"counterpart": {"line": 2, "extra": 1}}])
+def test_a_malformed_reason_is_rejected_at_load(tmp_path, reason):
+    with pytest.raises(cu.CurationError, match="expected_gaps\\[0\\]"):
+        make(tmp_path, rules=[SERMO], expected_gaps=[{"series": "s", "line": 3, "quote": "SERMO 3", "reason": reason}])
+
+
+def test_leaf_missing_must_name_the_series_neighbours_around_the_gap(tmp_path):
+    ok = step(3, "SERMO 3", leaf_missing={"between": [1, 3]})
+    assert gap_problems(tmp_path, ok) == []
+    for between in ([1, 2], [2, 3], [1, 9]):
+        problems = gap_problems(tmp_path, step(3, "SERMO 3", leaf_missing={"between": between}))
+        assert len(problems) == 1 and "series 's' at line 3" in problems[0]
+        assert "neighbours" in problems[0] or "outside the file" in problems[0]
+    repeat = step(5, "SERMO 3", leaf_missing={"between": [3, 5]})
+    assert "does not explain a repeated step" in gap_problems(tmp_path, repeat, lines=STEPS[:5])[0]
+
+
+def test_counterpart_must_be_a_division_or_matched_head(tmp_path):
+    lines = ["SERMO 1", "t", "SERMO 3", "other language head", "SERMO 4"]
+    division = {"start_line": 4, "locus": "counter", "title": "t"}
+    ok = step(3, "SERMO 3", counterpart={"line": 4})
+    assert gap_problems(tmp_path, ok, lines=lines, divisions=[division]) == []
+    assert len(gap_problems(tmp_path, ok, lines=lines)) == 1
+    assert "is not a division start or matched head" in gap_problems(tmp_path, ok, lines=lines)[0]
+    assert "outside the file" in gap_problems(tmp_path, step(3, "SERMO 3", counterpart={"line": 99}), lines=lines)[0]
+    assert gap_problems(tmp_path, step(3, "SERMO 3", counterpart={"line": 1}), lines=lines) == []
+    own = gap_problems(tmp_path, step(3, "SERMO 3", counterpart={"line": 3}), lines=lines)
+    assert len(own) == 1 and "other than line 3" in own[0]
+
+
+def test_edition_unnumbered_needs_its_quote_on_a_line_between_the_neighbours(tmp_path):
+    lines = ["SERMO 1", "SERMO without numeral", "t", "SERMO 3"]
+    ok = step(4, "SERMO 3", edition_unnumbered={"line": 2, "quote": "without numeral"})
+    assert gap_problems(tmp_path, ok, lines=lines) == []
+    absent = step(4, "SERMO 3", edition_unnumbered={"line": 3, "quote": "without numeral"})
+    assert "quotes text that is not on line 3" in gap_problems(tmp_path, absent, lines=lines)[0]
+    outside = step(4, "SERMO 3", edition_unnumbered={"line": 1, "quote": "SERMO 1"})
+    assert "not between the neighbours" in gap_problems(tmp_path, outside, lines=lines)[0]
+
+
+def test_as_printed_must_name_the_previous_reading(tmp_path):
+    lines = ["SERMO 1", "t", "SERMO 1", "t"]
+    assert gap_problems(tmp_path, step(3, "SERMO 1", as_printed={"line": 1, "quote": "SERMO 1"}), lines=lines) == []
+    wrong = gap_problems(tmp_path, step(3, "SERMO 1", as_printed={"line": 2, "quote": "t"}), lines=lines)
+    assert len(wrong) == 1 and "not the previous reading" in wrong[0]
+    unquoted = gap_problems(tmp_path, step(3, "SERMO 1", as_printed={"line": 1, "quote": "SERMO 9"}), lines=lines)
+    assert "quotes text that is not on line 1" in unquoted[0]
+    assert "does not explain a gap step" in gap_problems(
+        tmp_path, step(3, "SERMO 3", as_printed={"line": 1, "quote": "SERMO 1"}))[0]
+
+
+def test_an_excusal_cannot_hide_a_printed_but_damaged_numeral(tmp_path):
+    lines = ["SERMO I", "t", "SERMO Il", "t", "SERMO III"]
+    rule = {"id": "s", "pattern": r"^SERMO (?P<n>[IVX]+)$", "locus": "sermo{n|int}", "number": "n"}
+    entry = {"series": "s", "line": 5, "quote": "SERMO III", "reason": {"leaf_missing": {"between": [1, 5]}}}
+    cur = make(tmp_path, rules=[rule], expected_gaps=[entry])
+    problems = unexplained(cu.resolve(cur, lines))
+    assert len(problems) == 1
+    assert "series 's' at line 5" in problems[0] and "look-alike" in problems[0]
+    assert 'line 3 (numeral in a form the pattern does not read): "SERMO Il"' in problems[0]
+    mended = dict(rule, fixes=[{"line": 3, "quote": "SERMO Il", "set": {"n": "II"}}])
+    assert unexplained(cu.resolve(make(tmp_path, rules=[mended]), lines)) == []
+    plain = rule
+    clean = ["SERMO I", "t", "unnumbered head", "t", "SERMO III"]
+    assert unexplained(cu.resolve(make(tmp_path, rules=[plain], expected_gaps=[entry]), clean)) == []
+
+
+def test_the_scan_reaches_lines_a_hand_listed_rule_does_not_cover_and_skips_ordinary_words(tmp_path):
+    rule = {"id": "s", "pattern": r"^(?:\d{1,2} )?(?P<n>[IVX]+)[.,]? ", "locus": "sermo{n|int}", "number": "n",
+            "lines": [[1, 1], [7, 7]]}
+    lines = ["I. first", "Kai the text", "25 VIL Kai damaged head", "Rom. cites a verse", "t", "more", "IV. fourth"]
+    entry = {"series": "s", "line": 7, "quote": "IV. fourth", "reason": {"leaf_missing": {"between": [1, 7]}}}
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines))
+    assert len(problems) == 1 and "line 3 (numeral in a form" in problems[0]
+    assert "line 2" not in problems[0] and "line 4" not in problems[0]
+    mended = dict(rule, fixes=[{"line": 3, "quote": "VIL Kai", "set": {"n": "III"}}])
+    assert not [p for p in unexplained(cu.resolve(make(tmp_path, rules=[mended], expected_gaps=[entry]), lines))
+                if "look-alike" in p]
+
+
+def test_a_look_alike_with_a_margin_number_is_also_found(tmp_path):
+    lines = ["SERMO 1", "t", "12 SERMO 2", "t", "SERMO 3"]
+    entry = step(5, "SERMO 3", leaf_missing={"between": [1, 5]})
+    problems = gap_problems(tmp_path, entry, lines=lines)
+    assert len(problems) == 1 and "(a margin number comes first)" in problems[0]
+
+
+def test_look_alikes_a_reason_names_are_accounted_for(tmp_path):
+    lines = ["SERMO 1", "SERMO x", "t", "SERMO 4"]
+    rule = {"id": "s", "pattern": r"^SERMO (?P<n>\d+)$", "locus": "sermo{n}", "number": "n"}
+    entry = step(4, "SERMO 4", edition_unnumbered={"line": 2, "quote": "SERMO x"})
+    assert unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines)) == []
+    other = step(4, "SERMO 4", leaf_missing={"between": [1, 4]})
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[other]), lines))
+    assert len(problems) == 1 and 'line 2 (numeral in a form' in problems[0]
 
 
 def test_numbers_restart_under_a_new_parent(tmp_path):
@@ -228,10 +355,38 @@ def test_hand_listed_lines_report_headings_the_pattern_missed(tmp_path):
     lines = ["CAPUT I", "t", "12 CAPUT II", "t", "CAPUT ΙΙΙ", "t", "CAPUT V", "t", "CAPUT Il", "t", "prose line", "CAPUT IV"]
     notes = [n for n in cu.resolve(make(tmp_path, rules=[rule]), lines).notes if "hand-listed" in n]
     assert len(notes) == 1
-    for needle in ("line 3 (a margin number", "line 5 (its numeral", "line 9 (its numeral"):
+    for needle in ("line 3 (a margin number", "line 5 (numeral in a form", "line 9 (numeral in a form"):
         assert needle in notes[0]
     assert "line 11" not in notes[0]
     assert not [n for n in cu.resolve(make(tmp_path, rules=[dict(rule, lines=None)]), lines).notes if "hand-listed" in n]
+
+
+def hand_listed_notes(tmp_path, rule, lines):
+    return [n for n in cu.resolve(make(tmp_path, rules=[rule]), lines).notes if "hand-listed" in n]
+
+
+def test_hand_listed_warn_skips_lines_a_fix_already_covers(tmp_path):
+    rule = {"id": "c", "pattern": r"^CAPUT (?P<n>[IVX]+)$", "locus": "c{n|int}", "number": "n", "lines": [[1, 12]]}
+    lines = ["CAPUT I", "t", "CAPUT Il", "t", "CAPUT III", "t", "CAPUT IV"]
+    assert "line 3 (numeral" in hand_listed_notes(tmp_path, rule, lines)[0]
+    fixed = dict(rule, fixes=[{"line": 3, "quote": "CAPUT Il", "set": {"n": "II"}}])
+    assert hand_listed_notes(tmp_path, fixed, lines) == []
+    other_line = dict(rule, fixes=[{"line": 5, "quote": "CAPUT III", "set": {"n": "III"}}])
+    assert "line 3 (numeral" in hand_listed_notes(tmp_path, other_line, lines)[0]
+
+
+def test_hand_listed_warn_counts_each_kind_and_lists_each_line_beneath(tmp_path):
+    rule = {"id": "c", "pattern": r"^CAPUT (?P<n>[IVX]+)$", "locus": "c{n|int}", "number": "n", "lines": [[1, 40]]}
+    lines = []
+    for k in range(5):
+        lines += [f"CAPUT I{k}", f"{k + 10} CAPUT V"]
+    lines += ["CAPUT I"]
+    note = hand_listed_notes(tmp_path, rule, lines)[0]
+    head, *detail = note.split("\n")
+    assert "10 line(s)" in head
+    assert head.endswith("5 numeral in a form the pattern does not read; 5 a margin number comes first")
+    assert len(detail) == 10 and all(d.startswith("      line ") for d in detail)
+    assert detail[0].startswith('      line 1 (numeral in a form the pattern does not read): "CAPUT I0"')
 
 
 def capita_text(count=12):
