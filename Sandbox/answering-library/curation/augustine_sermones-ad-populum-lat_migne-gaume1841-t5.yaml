@@ -61,8 +61,8 @@ rules:
       - {line: 121807, set: {n: '388'}}
       - {line: 121962, set: {n: '389'}}
   - id: appendix
-    pattern: '^OPERUM S\. AUGUSTINI$'
-    lines: [124429, 124429]
+    pattern: '^CL\wSSIS PRIMA\.$'
+    lines: [124451, 124451]
     locus: appendix
     division: false
   - id: appendix-sermon
@@ -132,6 +132,7 @@ rules:
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
       - {line: 1396, set: {c: 'I'}}
+      - {line: 1531, quote: 'CAPUT VI. — 7.', set: {c: 'VI'}}
       - {line: 1559, quote: "CAPUT V.'", set: {c: 'V'}}
       - {line: 1839, quote: 'CAPUT XIII .', set: {c: 'XIII'}}
       - {line: 2003, quote: 'CAPIJT X VI', set: {c: 'XVI'}}
@@ -139,6 +140,7 @@ rules:
       - {line: 23577, set: {c: 'I'}}
       - {line: 24729, set: {c: 'XVIII'}}
       - {line: 24915, set: {c: 'XXI'}}
+      - {line: 24990, quote: 'CAPOT XXIV.', set: {c: 'XXIV'}}
       - {line: 38512, set: {c: 'I'}}
       - {line: 65480, set: {c: 'I'}}
       - {line: 90262, set: {c: 'I'}}
@@ -326,6 +328,8 @@ evidence:
     quote: 'S. AURELIX AUGUSTINI'
   - line: 124429
     quote: 'OPERUM S. AUGUSTINI'
+  - line: 124451
+    quote: 'CLdSSIS PRIMA.'
   - line: 124456
     quote: 'SERMO PRIMUS (a).'
   - line: 124898
@@ -396,6 +400,8 @@ evidence:
     quote: 'SERMOCCCH (a).'
   - line: 180458
     quote: 'INDEX RERUM.'
+  - line: 1531
+    quote: 'CAPUT VI. — 7.'
   - line: 1559
     quote: "CAPUT V.'—"
   - line: 1839
@@ -406,6 +412,8 @@ evidence:
     quote: 'OAPUT XXI.'
   - line: 14181
     quote: 'C VPUT XXVII.'
+  - line: 24990
+    quote: 'CAPOT XXIV.'
   - line: 25158
     quote: 'CAPUT Plil.MUM.'
   - line: 38695
@@ -475,7 +483,7 @@ apparatus:
   - lines: [12, 698]
     kind: front
     locus: front
-  - lines: [124428, 124455]
+  - lines: [124428, 124450]
     kind: front
     locus: appendix-front
   - lines: [180458, 196090]
