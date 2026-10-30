@@ -1,7 +1,7 @@
 file: augustine_sermones-1-340-lat_migne-pl38.txt
-scheme: Maurist sermon numbers 1-340, read from the Roman numeral in each sermon heading (SERMO <numeral> with its footnote mark), addressed sermoNNN; inside the fourteen sermons that run over 5,000 words (4, 9, 32, 37, 46, 47, 51, 52, 71, 88, 117, 169, 277, 294) the printed CAPUT headings are a second level (sermoNNN/caputNN); section numbers are not used
+scheme: Maurist sermon numbers 1-340, read from the Roman numeral in each sermon heading (SERMO <numeral> with its footnote mark), addressed sermoNNN; inside the fourteen sermons that run over 5,000 words (4, 9, 32, 37, 46, 47, 51, 52, 71, 88, 117, 169, 277, 294) the printed CAPUT headings are a second level (sermoNNN/caputNN); in sermon 88 the printed head CAPITA VII et VIII is one division (caput07-08), and in sermon 294 CAPUT V and VI are printed in the middle of a line and have no division of their own; section numbers are not used
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: sermon-first
   pattern: '^SERMO PRIMUS '
