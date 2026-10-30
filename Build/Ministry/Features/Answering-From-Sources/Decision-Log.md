@@ -512,3 +512,18 @@ Coordination thread, 2026-10-30: author the five remaining lpc stories (quote-he
 - Findings fixed after the second pass: the Death of Cyprian tellings credited the Acta-only answer and cry to Pontius; its heart said more than the record ("to the end"); the Psalms medium closed on "he slept with his fathers", against the not-serene guard; the Celerinus heart failed the readability floor and its wording of Lucian's peace was closer to a grant than a request. A recheck then fixed an unsupported "the Acta ends" sentence and the order of the Psalms quotation.
 - The records' `telling` and `text` fields for these five still carry absence statements (listed in entry 21); they are edited in the record stage, each with a guard check first.
 
+## 24. Quote door: code writes the lead-in when the voice's names no speaker (2026-10-30)
+
+Mark, 2026-10-30, in his own answers to the choice box (all three took the recommendation):
+
+1. Frame wording: "In today's English, X says:".
+2. Code's lead-in applies only when the voice's lead-in is missing or fails the speaker check; answers that pass today are unchanged.
+3. Span id: not now. Quotes are marked by record id only; revisit after Stage 2 on lpc lands (the Library thread's).
+
+Built, engine-only (no schema change, no re-pin, no gate registered):
+
+- `engine/m4/quote_placement.py`: when the placed-quote check refuses a quote only because its lead-in names no speaker (`REASON_SPEAKER_UNNAMED`), code writes the lead from the record's speaker name ("In today's English, <speaker> says:") and the quote is placed. Refusals for a lead-in that types a quotation, attributes to another figure, or any other reason stand. The repaired quote still counts as the one quote a reply may carry. Each repair is recorded in the reply shape as `repaired` (the voice's draft and code's lead-in), so the audit shows what code wrote.
+- Card and transparency are unchanged: the quote mark, the three-level reading (mark, hover, full page with source links) and the card test (no original wording on the card) are untouched.
+- Tests: five new in `test_quote_placement.py`; `test_quote_speaker_offered.py` now asserts that every replay quote whose lead-in named no speaker is placed with code's lead-in.
+- Not built: the span-id marker path (needs a schema change order and Stage 2); the turn directive still tells the voice to write the lead-in itself.
+
