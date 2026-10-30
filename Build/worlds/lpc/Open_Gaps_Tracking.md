@@ -2407,3 +2407,19 @@ Logged 2026-10-30.
 - **Open.** The Election closing paragraph on the single-source and praise caveats is held for Mark (same Decision-Log entry 19).
 - **Owner.** Project lead, for the held paragraph.
 
+### OG-116. OG-115 closed: Election caveat paragraph resolved and the two story closings reworded (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The held Election paragraph is removed and its two guards carried by a positive attribution; the Numidicus and Election closings are reworded (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 20).
+- **Open.** `lpc.story.numidicus` `text` still reads "Where she searched, the letter does not say", and `lpc.story.election-of-cyprian` `text` still reads "Pontius did not soften this -- he pressed it". `text` is the source-side recast and was outside the ruling; the project lead decides whether it follows the telling.
+- **Owner.** Project lead.
+
+### OG-117. OG-116 closed: the two `text` fields follow the tellings (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The old wording is removed from both `text` fields (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 21).
+- **Open.** Four of the other five lpc story records carry one absence statement each in `telling` or `text` (listed in entry 21). They are edited with their new tellings, with a guard check first.
+- **Owner.** This thread (engine), at the tellings job.
+

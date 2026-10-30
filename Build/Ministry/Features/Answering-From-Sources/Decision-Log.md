@@ -472,3 +472,34 @@ Mark, 2026-10-30, direct (choice box): the full tellings in the lpc records are 
 - Held for Mark: the Election closing paragraph ("Only Pontius says Cyprian was newly baptized... writing in praise of his own bishop"). It is the telling's only caveat for two `not_for` guards (no other witness confirms the neophyte claim; Pontius is not a neutral witness), and the telling also says "Pontius did not soften this. He pressed it", which on its own reads as a candid witness. Removing the paragraph alone would leave that implication; removing both is a wider edit than ruled.
 - Opus review of the edit: no guard broken. Two points for Mark: the Numidicus telling now ends on "left thin by the fall of some", which closes on staffing and could brush the not-lapsed guard; the Election telling ends on Cyprian's own "your suffrage", which a modern reader may hear as a vote.
 - lpc gates (records, regate) pass; lpc repinned to 2026-10-30T19-34-14Z. OG-114 closed.
+
+## 20. Election caveat paragraph and the two closings, ruled (2026-10-30)
+
+Mark, 2026-10-30, direct (choice box), on the two items held in entry 19.
+
+- Election of Cyprian: the closing paragraph ("Only Pontius says Cyprian was newly baptized, no other witness...") and "Pontius did not soften this. He pressed it..." are removed from the `telling`. The two `not_for` guards (no corroboration; Pontius is not neutral) are kept with a positive statement of who is speaking, in all three lengths: "Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death." The newly-baptized claim stays inside a quotation credited to Pontius.
+- "Suffrage" is explained where Cyprian uses it, as the support of the people, so it is not heard as a vote (`lpc.term.suffrage` not_for): a clause in the full and medium tellings, an appositive in the short.
+- Numidicus: "left thin by the fall of some" is dropped. The ruling asked for the thinning to be put as depletion by martyrdom and exile. Cyprian's letter (Ep. XXXIV) gives the cause as "the lapse of some", so martyrdom and exile would be an addition. The telling now says "to strengthen our presbyters, whose ranks had grown thin": the source's own thinning, with no cause named, and no claim that Numidicus lapsed.
+- Opus check of the new endings against all guards: pass; one flow fix applied ("he" to "Cyprian" in the opening sentence).
+- The `text` fields of both records still carry the old wording ("Where she searched, the letter does not say"; "Pontius did not soften this -- he pressed it"). They are the source-side recast and were not part of the ruling.
+- lpc gates (records, regate) pass; lpc repinned to 2026-10-30T20-04-22Z; the site world JSON rebuilt from its pinned commit and compiler version.
+
+## 21. The rule applied to the records' `text` fields too (2026-10-30)
+
+Coordination thread, relaying Mark's general rule (no unprompted absence statements anywhere the voice can speak them), 2026-10-30.
+
+- Removed from `lpc.story.numidicus` `text`: "Where she searched, the letter does not say." From `lpc.story.election-of-cyprian` `text`: "Pontius did not soften this -- he pressed it", now "Pontius noted that Cyprian was still...", and the opening gains the same positive attribution as the telling ("writing in praise of his bishop after Cyprian had been executed"). No other change.
+- Opus check: no `not_for` guard asserted or implied; nothing added; no absence statement left in either `text`. One note, not acted on: the Election opening sentence runs about 37 words, as it did before; the ruling was to change nothing else.
+- Scan of the other five lpc story records for the same pattern (a pattern search over `telling` and `text`, so a first pass, not a read-through); not edited, they come with their own tellings: `celerinus-writes-to-lucian` telling "Her own brother does not give her name, and no word of hers survives."; `hundred-thousand-sesterces` telling "We do not know whether the ransom worked."; `the-death-of-cyprian` text "Pontius adds things the Acta does not mention, and they are his."; `the-plague-and-the-enemies` telling "Pontius does not say whether those who persecuted us were among the people helped."; `the-psalms-on-the-wall` none found. Each will need the guard check (some may be what a `not_for` or `absent_detail` requires).
+- lpc gates pass; lpc repinned to 2026-10-30T20-09-01Z.
+
+## 22. Numidicus ending carries the cause, in Cyprian's sense (2026-10-30)
+
+Mark, 2026-10-30, direct, after the source was checked: keep the cause in the Numidicus ending, in plain words. This replaces the cause-free wording in entry 20.
+
+- Source: Ep. XXXIV, "the number of our presbyters that had been desolated by the lapse of some". The earlier suggestion of martyrdom and exile as the cause was a mistake in the brief, not in the source.
+- The `telling` now ends: "The Lord meant to add Numidicus to our clergy, and to fill the ranks of our presbyters, thinned when some of them lapsed." The short and medium tellings end before this clause and are unchanged.
+- Guard check (`not_for`: Numidicus lapsed or was readmitted): "some of them" refers to the presbyters; the Opus check judged the reading risk low and needed no alternative wording. Nothing added; no absence statement.
+- The editor's footnote for the "unconquered" variant does exist in this edition (iv.iv.xxxiv-p5.1), so the source gap behind OG-114 is answered if the variant is ever wanted; it stays out of the telling under the no-absence rule.
+- lpc gates pass; lpc repinned to 2026-10-30T20-22-15Z; site world JSON rebuilt.
+
