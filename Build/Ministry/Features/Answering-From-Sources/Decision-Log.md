@@ -564,3 +564,14 @@ Mark, 2026-10-30, in his own words, relayed by the coordination thread: "you sai
 - A quote or story placed in an answer must fit the question: the right words and the right application. A fit check covers every placed quote and story and whether the answer addresses the question asked. The 100-question scoring sheet gets a "fit to the question" column.
 - The Stage 4 page carries the design (context blocks that cannot be bindings, the fit step, three-level transparency unchanged). No code is built.
 - Proposed, not applied: six fit-trap questions for the frozen 100-question set, as a change order. The frozen file and its seal are untouched until Mark approves.
+
+## 29. Stage 4 approved to proceed; six fit traps added (2026-10-30)
+
+Mark, 2026-10-30, by choice box, relayed by the coordination thread:
+
+1. Stage 4 change order (draft version 3): "Approve to proceed". Shadow only on lpc, free in-plan, no gate retired. It starts when Stage 2 lands on lpc. The order is filed as `Stage4_Change_Order.md`.
+2. Six fit traps: "Add the six". The lpc test set becomes 106 questions under a new seal. The original 100 and their seal (entry 26) stay as they are. The change order is filed as `S3-Test100/Change_Order_Fit_Traps.md`.
+
+Coordination-level, AI-reviewed (not Mark's own): the 20-pair calibration set for the fit step, with a bar of 19 of 20 caught before its verdicts count.
+
+A fresh Opus reviewer checked the six wordings against their records before the new seal; its findings and the fixes are in the change order file.
