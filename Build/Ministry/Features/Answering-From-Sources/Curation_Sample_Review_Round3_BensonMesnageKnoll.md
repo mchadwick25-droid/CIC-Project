@@ -20,4 +20,4 @@ This was the third review round on both Mesnage scans. Under the review-cycle ca
 ## Observations
 
 - Both scans miss the same headings, because both come from the same print and the same heading shapes. Aligning one scan against the other therefore cannot show recall. An independent list is needed, such as this edition's own index.
-- A self-referencing link `cic/texts/texts -> /home/user/CIC-Project/cic/texts` exists in the shared checkout, dated 21:56 and excluded in `.git/info/exclude`. It was not made by this reader and was left in place.
+- A link inside the texts folder that points back at the texts folder itself exists in the shared checkout, dated 21:56 and excluded in `.git/info/exclude`. It was not made by this reader and was left in place.
