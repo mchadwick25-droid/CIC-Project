@@ -22,7 +22,7 @@ from pathlib import Path
 from goldset.common import GOLD_DIR, read_jsonl, sha256_text, write_jsonl, yaml
 from goldset.labeller import gold_class
 
-SPLIT_SALT = "gold-split-2026-10-29"
+SPLIT_SALT = "gold-split-1"
 CALIBRATION, HELDOUT = "calibration", "heldout"
 SEALED_FIELDS = ("item_id", "world", "records_commit", "bindings", "sentence", "label")
 
