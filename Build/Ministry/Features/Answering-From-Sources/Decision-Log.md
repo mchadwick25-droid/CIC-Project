@@ -547,3 +547,11 @@ Mark, 2026-10-30, relayed by the coordination thread: "Mix is right"; freeze thi
 - The 26 new wordings (12 quote, 14 story) were checked by a fresh Opus reviewer against each target record's text. Round 1: 22 passed, 4 needed fixes (a Cyprian line that was Augustine's words about Cyprian; a doctor-and-sick-man line pointed at someone hurting, where the record is about failure put right; a wounded-shepherd line that went against the passage; an enemies example the record rules out). Each finding was checked against its record, then fixed. One round was enough; no fix needed a second.
 - Frozen file: `S3-Test100/lpc_100_questions.yaml`, sha256 `4a2b891cfabb0768942821ce8008dfcebe5cb01c5aa3741928d7e779ea51340f`, held in `S3-Test100/lpc_100_questions.sha256`. A change to it is a change order, named and reasoned.
 - Next, free of model spend: the shadow mode and the in-plan answer drafter.
+
+## 27. Stage 4 rulings: the rigor line, the shadow design, the deferred spend (2026-10-30)
+
+- Rigor line (proposal decision 1), Mark's own answer, 2026-10-30: in general answers the voice quotes and closely paraphrases only, in the author's name, with no inference from a passage that no reviewed record frames. Revisit when the measured judge agreement earns more.
+- Targets, already ruled 2026-10-29: recall on unsupported at least 0.95, precision at least 0.85.
+- Design to shadow first: citation-recall as the main judge, the verifier beside it for comparison only. This is a coordination-level ruling, reviewed by AI, and is not Mark's own; he may change it. Basis: held-out false alarms 3.3% against 9.1%, agreement with gold 0.85 against 0.73, and on the calibration half neither combination of the two beats the better single judge.
+- The production judge's spend (proposal decision 2a) and the production judge models are deferred. They are raised only if a paid step is absolutely necessary, by name and with a cap, under Mark's standing rule that spend questions are not put to him in advance.
+- The Stage 4 change order is drafted as an Artifact for Mark's approval by one choice box. Nothing is written into the feature directory until he approves it.
