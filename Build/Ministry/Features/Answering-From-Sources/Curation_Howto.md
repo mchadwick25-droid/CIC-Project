@@ -115,20 +115,32 @@ expected_gaps:
 
 `series` is the rule id (or `divisions`). `line` is the line of the reading that shows the step: the first number after a gap, the repeat, or the number that runs backward. `quote` is text that appears on that line, such as the printed heading that shows the edition has no XXV. A step that is not listed fails the check and the file does not reach class `curated`. An entry that matches no step, or whose quote is not on its line, also fails. Page-split series are reported but not held to this rule.
 
-`reason` is required and holds exactly one of these four forms. Free text is not accepted, alone or beside a form. An entry with no reason, or a reason that does not verify, fails the check, and the message names the series and line of the entry.
+`reason` is required and holds exactly one of these five forms. Free text is not accepted, alone or beside a form. An entry with no reason, or a reason that does not verify, fails the check, and the message names the series and line of the entry.
 
 | Form | Explains | What the checker verifies |
 |---|---|---|
 | `leaf_missing: {between: [A, B]}` | a gap | `A` and `B` are the lines of the two readings of the series on either side of the gap: `A` is the previous reading, `B` is the entry's `line`. The numerals missing from the gap fall between them. Use it where a leaf, page or section is absent from the edition or from the scan. |
 | `counterpart: {line: N}` | a gap, a repeat or a backward step | Line `N` is inside the file, is a division start or a head of another series (never a reading of this series), lies from the previous reading to the next reading after the entry, and is not a head of this series by the look-alike test below. A line that is a reading of another series is accepted; its numeral need not equal the missing number, because the other language may number differently. Use it in a parallel-text edition where the other language's counterpart head sits at line `N`. |
 | `edition_unnumbered: {line: N, quote: '...'}` | a gap | The quote is on line `N`, `N` lies between the two neighbours, and the line is not a head of this series by the look-alike test below. Use it where the edition prints a head at `N` with no numeral. |
+| `head_unprinted: {between: [A, B], line: N, quote: '...'}` | a gap | `A` and `B` are the series' neighbours around the gap, as for `leaf_missing`; the quote is on line `N`; `N` lies strictly between `A` and `B`; and the line is not a head of this series by the look-alike test below. Use it where the numbered text is present but the edition prints no head for it. |
 | `as_printed: {line: P, quote: '...'}` | a repeat or a backward step | `P` is the previous reading of the series, and the quote is on line `P`. The two quotes (the entry's and this one) show the edition prints the repeated or out-of-order numeral itself. |
 
-A reason of the wrong kind for the step fails: `leaf_missing` and `edition_unnumbered` do not explain a repeat, and `as_printed` does not explain a gap.
+A reason of the wrong kind for the step fails: `leaf_missing`, `edition_unnumbered` and `head_unprinted` do not explain a repeat, and `as_printed` does not explain a gap.
+
+Example of `head_unprinted`. In Optatus Book II the text of chapter XXV starts at line 1257 (`He, upon whose head thou hast now endeavoured to lay thine hands…`) inside chapter XXIV, and no XXV head is printed anywhere. The entry for the step at chapter XXVI (line 1307, previous reading at line 1233) is:
+
+```
+expected_gaps:
+  - series: chapter
+    line: 1307
+    quote: 'XXVI. Matrons, boys and virgins'
+    reason:
+      head_unprinted: {between: [1233, 1307], line: 1257, quote: 'upon whose head thou hast now endeavoured'}
+```
 
 ### The look-alike test
 
-One test decides whether a line that the rule's pattern does not read is still a head of the series. The scan, `counterpart` and `edition_unnumbered` all use it, so a line the scan reports can never be named away by a reason, and it stays in the scan. A line is a head of the series when it:
+One test decides whether a line that the rule's pattern does not read is still a head of the series. The scan, `counterpart`, `edition_unnumbered` and `head_unprinted` all use it, so a line the scan reports can never be named away by a reason, and it stays in the scan. A line is a head of the series when it:
 
 - has a margin number in front of a heading the pattern reads; or
 - has, at the numeral position of the pattern, a token of at most 12 characters made only of: uppercase numeral letters (`I V X L C D M`, or the Greek and Cyrillic capitals that look like them), digits, OCR debris (`\ ^ ' [ ] ( ) * ! |` and the letters T U H Y W F), and the characters the rule's `ocr_map` names. The lowercase strokes OCR puts in a numeral's place (`i j l n r y`) are admitted only in a token that also holds an uppercase numeral letter. Examples that count: `VIL`, `Vil.`, `Xlil.`, `XXilll.`, `iV.`, `CLXXXVIIi.`, `XIj`, `IjXI.`, `Xiy.`, `XVH.`, `11.`. A lowercase-only token (`xxi`, `ii`, `in`) does not count. If the rule ignores case, the lowercase `v x c d m` also count, while `i j l n r y` still need an uppercase numeral letter in the token; or
