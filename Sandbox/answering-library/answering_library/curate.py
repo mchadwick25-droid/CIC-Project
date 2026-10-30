@@ -17,6 +17,8 @@ A file is class 'curated' when all of these hold:
     allow_oversize justification (apparatus divisions are exempt);
   - every rule matched, every fix landed on a match, and every evidence quote
     appears on the line it cites;
+  - every step in a numbered series is listed in expected_gaps with a reason that
+    verifies, and no look-alike heading of the series hides between its neighbours;
   - passage words plus declared furniture words equal the words of the file;
   - every passage byte range, re-read from the vendored file, reproduces the
     passage text, less only words on declared furniture lines.

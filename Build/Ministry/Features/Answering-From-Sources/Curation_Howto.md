@@ -102,14 +102,31 @@ Lines beginning `warn` do not change the result. They show what the curation wou
 
 ### Expected gaps
 
-An edition sometimes skips a number, repeats one or prints sections out of order. Each such step in a numbered series (a rule with `number`, the `divisions` series of explicit entries, or a named `series`) must be listed:
+An edition sometimes skips a number, repeats one or prints sections out of order. Each such step in a numbered series (a rule with `number`, the `divisions` series of explicit entries, or a named `series`) must be listed, with a reason the checker can verify:
 
 ```
 expected_gaps:
-  - {series: sermon, line: 4821, quote: 'SERMO XXVI'}
+  - series: sermon
+    line: 4821
+    quote: 'SERMO XXVI'
+    reason:
+      leaf_missing: {between: [4790, 4821]}
 ```
 
 `series` is the rule id (or `divisions`). `line` is the line of the reading that shows the step: the first number after a gap, the repeat, or the number that runs backward. `quote` is text that appears on that line, such as the printed heading that shows the edition has no XXV. A step that is not listed fails the check and the file does not reach class `curated`. An entry that matches no step, or whose quote is not on its line, also fails. Page-split series are reported but not held to this rule.
+
+`reason` is required and holds exactly one of these four forms. Free text is not accepted, alone or beside a form. An entry with no reason, or a reason that does not verify, fails the check, and the message names the series and line of the entry.
+
+| Form | Explains | What the checker verifies |
+|---|---|---|
+| `leaf_missing: {between: [A, B]}` | a gap | `A` and `B` are the lines of the two readings of the series on either side of the gap: `A` is the previous reading, `B` is the entry's `line`. The numerals missing from the gap fall between them. Use it where a leaf, page or section is absent from the edition or from the scan. |
+| `counterpart: {line: N}` | a gap, a repeat or a backward step | Line `N` is inside the file, is not the entry's own line, and is a division start or a head the series read. Use it in a parallel-text edition where the head that carries the number is the other language's counterpart at line `N`. |
+| `edition_unnumbered: {line: N, quote: '...'}` | a gap | The quote is on line `N`, and `N` lies between the two neighbours. Use it where the edition prints a head at `N` with no numeral. |
+| `as_printed: {line: P, quote: '...'}` | a repeat or a backward step | `P` is the previous reading of the series, and the quote is on line `P`. The two quotes (the entry's and this one) show the edition prints the repeated or out-of-order numeral itself. |
+
+A reason of the wrong kind for the step fails: `leaf_missing` and `edition_unnumbered` do not explain a repeat, and `as_printed` does not explain a gap.
+
+For every entry, whatever its form, the checker also scans the lines strictly between the two neighbours for a look-alike heading of the series, including lines a hand-listed rule's `lines` leave out: a line the rule's pattern does not match but whose numeral is a short run of numeral letters, digits and the letters the scan confuses with them (`VIL` for `VII`), or which has a margin number in front of the heading. Furniture lines, apparatus ranges and lines inside a `fixes` entry of the curation are left out, and so is the line an `edition_unnumbered` or `counterpart` reason names. Any other look-alike fails the check and is printed with its line. A printed numeral that is damaged is not a gap: read it with a `fix` that carries a `quote`, or an `ocr_map` entry, and the step goes away.
 
 ### Checks on `allow_oversize`
 
@@ -134,7 +151,7 @@ An entry fails the check when its quote is not on its first line, or when it lis
 
 ### Hand-listed lines
 
-A rule with `lines` is limited to those ranges. `check` prints a `warn` for every line inside them that looks like the rule's heading but did not match: a margin line number in front of the heading, or a numeral the pattern does not read (Greek letters, a dropped I, OCR damage). Read each one: add a `fix` with a `quote`, an `ocr_map` entry, or widen the pattern.
+A rule with `lines` is limited to those ranges. `check` prints a `warn` for every line inside them that looks like the rule's heading but did not match: a margin line number in front of the heading, or a numeral the pattern does not read (Greek letters, a dropped I, OCR damage). The warning gives the count of each kind on one line (`4 numeral in a form the pattern does not read; 3 a margin number comes first`) and lists each line beneath it. A line that a `fix` in the same curation already covers is not listed. Read each one: add a `fix` with a `quote`, an `ocr_map` entry, or widen the pattern.
 
 ### Evidence
 

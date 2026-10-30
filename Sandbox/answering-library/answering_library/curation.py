@@ -39,7 +39,14 @@ _TOP_KEYS = {"file", "scheme", "curator", "status", "language", "rules", "divisi
              "languages", "speakers", "evidence", "page_splits", "expected_gaps", "not_subheadings"}
 _NOT_SUB_KEYS = {"lines", "kind", "quote"}
 NOT_SUBHEADING_KINDS = ("footnote", "running-head", "ocr-debris", "quoted-list")
-_EXPECTED_KEYS = {"series", "line", "quote"}
+_EXPECTED_KEYS = {"series", "line", "quote", "reason"}
+REASON_FORMS = {"leaf_missing": {"between"}, "counterpart": {"line"}, "edition_unnumbered": {"line", "quote"},
+                "as_printed": {"line", "quote"}}
+REASON_STEPS = {"leaf_missing": ("gaps",), "edition_unnumbered": ("gaps",), "as_printed": ("repeated", "backward"),
+                "counterpart": ("gaps", "repeated", "backward")}
+_NUMERAL_LETTERS = "IVXLCDMivxl0123456789|!\u0399\u03a7\u039d\u0399\u03b9\u03c7\u03bd\u0475\u0474"
+LOOKALIKE_MARGIN = "a margin number comes first"
+LOOKALIKE_NUMERAL = "numeral in a form the pattern does not read"
 _RULE_KEYS = {"id", "pattern", "flags", "lines", "parent", "locus", "title", "division", "skip_repeat", "number",
               "ocr_map", "fixes", "allow_oversize", "context", "language"}
 _CONTEXT_KEYS = {"prev_blank", "next_blank", "prev_short"}
@@ -169,6 +176,39 @@ def _check_keys(entry, allowed, where):
     extra = set(entry) - allowed
     if extra:
         raise CurationError(f"{where}: unknown field(s) {sorted(extra)}")
+
+
+def _reason(value, where):
+    """A normalised expected_gaps reason, or None when the entry has none. Free text is an error."""
+    if value is None:
+        return None
+    forms = ", ".join(REASON_FORMS)
+    if not isinstance(value, dict) or len(value) != 1:
+        raise CurationError(f"{where}: reason must be a mapping with exactly one of {forms}; free text is not accepted")
+    (form, body), = value.items()
+    if form not in REASON_FORMS:
+        raise CurationError(f"{where}: unknown reason '{form}'; the forms are {forms}")
+    here = f"{where} reason {form}"
+    _check_keys(body, REASON_FORMS[form], here)
+    if set(body) != REASON_FORMS[form]:
+        raise CurationError(f"{here}: needs {sorted(REASON_FORMS[form])}")
+    out = {"form": form}
+    if "between" in body:
+        pair = body["between"]
+        if (not isinstance(pair, (list, tuple)) or len(pair) != 2 or not all(isinstance(x, int) for x in pair)
+                or not 1 <= pair[0] < pair[1]):
+            raise CurationError(f"{here}: between must be [first, last] with 1 <= first < last")
+        out["between"] = (pair[0], pair[1])
+    if "line" in body:
+        if not isinstance(body["line"], int) or body["line"] < 1:
+            raise CurationError(f"{here}: line must be a positive integer")
+        out["line"] = body["line"]
+    if "quote" in body:
+        quote = " ".join(str(body["quote"] or "").split())
+        if not quote:
+            raise CurationError(f"{here}: quote may not be empty")
+        out["quote"] = quote
+    return out
 
 
 def _template_fields(template, allowed, where):
@@ -374,7 +414,8 @@ def load(path: Path) -> Curation:
         _check_keys(e, _EXPECTED_KEYS, where)
         if not e.get("series") or not isinstance(e.get("line"), int) or not " ".join(str(e.get("quote") or "").split()):
             raise CurationError(f"{where}: needs series, an integer line and a quote")
-        expected_gaps.append({"series": e["series"], "line": e["line"], "quote": " ".join(str(e["quote"]).split())})
+        expected_gaps.append({"series": e["series"], "line": e["line"], "quote": " ".join(str(e["quote"]).split()),
+                              "reason": _reason(e.get("reason"), where)})
 
     not_subheadings = []
     for k, e in enumerate(data.get("not_subheadings") or []):
@@ -535,6 +576,43 @@ def _loosened(rule):
         return re.compile(wide, rule.rx.flags)
     except re.error:
         return None
+
+
+def _numeral_shaped(token: str, rule) -> bool:
+    """Whether a token could be a numeral the scan has mangled: it is short and made only of numeral letters,
+    digits, the letters OCR confuses with them, and the characters the rule's ocr_map names."""
+    token = token.strip(".,;:'\u2019\u1fbf")
+    allowed = set(_NUMERAL_LETTERS) | set(rule.ocr_map) | set(rule.ocr_map.values())
+    return 0 < len(token) <= 10 and all(ch in allowed for ch in token)
+
+
+def _lookalike(rule, loose, text, shaped=False):
+    """Why a line that the rule's pattern does not match still looks like one of its headings, or None.
+    With shaped, a numeral in a form the pattern does not read must also look like a mangled numeral."""
+    if rule.rx.search(text):
+        return None
+    stripped = re.sub(r"^\d{1,5}\s+", "", text)
+    if stripped != text and rule.rx.search(stripped):
+        return LOOKALIKE_MARGIN
+    m = loose.search(text) if loose is not None else None
+    if m is not None and (not shaped or _numeral_shaped(m.group(rule.number) or "", rule)):
+        return LOOKALIKE_NUMERAL
+    return None
+
+
+def previous_lines(seq: list, groups: list | None = None) -> dict[int, int]:
+    """For each readable reading of a series, the line of the reading before it in the same group."""
+    out, prev_line, prev_group = {}, None, None
+    for k, (line, value) in enumerate(seq):
+        group = groups[k] if groups else None
+        if value is None:
+            continue
+        if group != prev_group:
+            prev_line = None
+        if prev_line is not None:
+            out[line] = prev_line
+        prev_line, prev_group = line, group
+    return out
 
 
 def _subheadings(part: list[str], furniture: set[int]) -> list[tuple[int, str]]:
@@ -745,22 +823,24 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         notes.append(f"ignore pattern '{pattern}' declares {len(at)} line(s) furniture that rule '{rid}' also "
                      f"matches: {_line_list(at)}")
 
+    fixed_lines = {line for r in cur.rules for line in r.fixes}
     for rule in cur.rules:
         if rule.lines is None:
             continue
         loose = _loosened(rule)
         missed = []
         for i in range(h_end, n):
-            if not norm[i] or i in furniture or not _in(rule.lines, i) or rule.rx.search(norm[i]):
+            if not norm[i] or i in furniture or i in fixed_lines or not _in(rule.lines, i):
                 continue
-            stripped = re.sub(r"^\d{1,5}\s+", "", norm[i])
-            if stripped != norm[i] and rule.rx.search(stripped):
-                missed.append(f'line {i + 1} (a margin number comes first): "{norm[i][:70]}"')
-            elif loose is not None and loose.search(norm[i]):
-                missed.append(f'line {i + 1} (its numeral is in a form the pattern does not read): "{norm[i][:70]}"')
+            kind = _lookalike(rule, loose, norm[i])
+            if kind:
+                missed.append((i, kind))
         if missed:
+            counts = Counter(kind for _, kind in missed)
+            summary = "; ".join(f"{counts[k]} {k}" for k in (LOOKALIKE_NUMERAL, LOOKALIKE_MARGIN) if counts[k])
+            detail = "".join(f'\n      line {i + 1} ({kind}): "{norm[i][:70]}"' for i, kind in missed)
             notes.append(f"rule '{rule.id}' has hand-listed lines, and {len(missed)} line(s) in them look like its "
-                         f"heading but did not match: " + "; ".join(missed))
+                         f"heading but did not match: {summary}{detail}")
 
     ranges = []
     for a in cur.apparatus:
@@ -890,19 +970,27 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
     res_groups = seq_groups
     anomalies = {sid: series_anomalies(seq, res_groups.get(sid)) for sid, seq in sequences.items()}
     explained = set()
+    previous = {sid: previous_lines(seq, res_groups.get(sid)) for sid, seq in sequences.items()}
+    head_lines = {d.start + 1 for d in divisions if d.origin == "marker"}
+    head_lines.update(line for seq in sequences.values() for line, _ in seq)
+    body_ranges = [(a["first"], a["last"]) for a in cur.apparatus]
     for e in cur.expected_gaps:
-        found = {x[0] for kind in ("repeated", "backward", "gaps") for x in anomalies.get(e["series"], {}).get(kind, [])}
-        line_ok = 0 < e["line"] <= n and e["quote"] in norm[e["line"] - 1]
-        if e["series"] not in sequences:
-            problems.append(f"expected_gaps names series '{e['series']}', which no rule or entry numbers")
+        sid, at = e["series"], e["line"]
+        label = f"expected_gaps for series '{sid}' at line {at}"
+        found = {x[0]: kind for kind in ("repeated", "backward", "gaps") for x in anomalies.get(sid, {}).get(kind, [])}
+        line_ok = 0 < at <= n and e["quote"] in norm[at - 1]
+        if sid not in sequences:
+            problems.append(f"expected_gaps names series '{sid}', which no rule or entry numbers")
         elif not line_ok:
-            problems.append(f"expected_gaps for series '{e['series']}' at line {e['line']} quotes text that is not "
-                            f"on the line: \"{e['quote']}\"")
-        elif e["line"] not in found:
-            problems.append(f"expected_gaps for series '{e['series']}' at line {e['line']} matches no gap, repeat "
-                            "or backward step")
+            problems.append(f"{label} quotes text that is not on the line: \"{e['quote']}\"")
+        elif at not in found:
+            problems.append(f"{label} matches no gap, repeat or backward step")
         else:
-            explained.add((e["series"], e["line"]))
+            explained.add((sid, at))
+            before = previous[sid].get(at)
+            problems.extend(_reason_problems(e, label, found[at], before, n, norm, head_lines))
+            problems.extend(_hidden_heads(cur, e, label, before, norm, furniture, body_ranges, fixed_lines, h_end,
+                                          language_at))
     for sid, found in anomalies.items():
         if sid.startswith("page_splits["):
             continue
@@ -919,6 +1007,67 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         sequence_groups=seq_groups,
         header_end=h_end, furniture_words=sum(words[i] for i in furniture), total_words=sum(words),
         header_words=sum(words[:h_end]))
+
+
+def _reason_problems(e, label, kind, before, n, norm, head_lines) -> list[str]:
+    """What is wrong with the reason an expected_gaps entry gives for its step, as problem lines."""
+    reason = e["reason"]
+    if reason is None:
+        return [f"{label} has no reason: give one of {', '.join(REASON_FORMS)}"]
+    form = reason["form"]
+    if kind not in REASON_STEPS[form]:
+        return [f"{label} gives reason {form}, which does not explain a {'gap' if kind == 'gaps' else kind} step; "
+                f"it explains {', '.join(REASON_STEPS[form])}"]
+    if form == "leaf_missing":
+        first, last = reason["between"]
+        if not (1 <= first <= n and 1 <= last <= n):
+            return [f"{label} reason leaf_missing names line(s) outside the file ({n} lines)"]
+        if (first, last) != (before, e["line"]):
+            return [f"{label} reason leaf_missing between [{first}, {last}] does not name the series' neighbours "
+                    f"around the gap, which are [{before}, {e['line']}]"]
+        return []
+    line = reason["line"]
+    if not 1 <= line <= n:
+        return [f"{label} reason {form} names line {line}, outside the file ({n} lines)"]
+    if form == "counterpart":
+        if line == e["line"] or line not in head_lines:
+            return [f"{label} reason counterpart line {line} is not a division start or matched head other than "
+                    f"line {e['line']}"]
+    elif reason["quote"] not in norm[line - 1]:
+        return [f"{label} reason {form} quotes text that is not on line {line}: \"{reason['quote']}\""]
+    elif form == "edition_unnumbered" and before is not None and not before < line < e["line"]:
+        return [f"{label} reason edition_unnumbered line {line} is not between the neighbours "
+                f"(lines {before} and {e['line']})"]
+    elif form == "as_printed" and line != before:
+        return [f"{label} reason as_printed line {line} is not the previous reading of the series (line {before})"]
+    return []
+
+
+def _hidden_heads(cur, e, label, before, norm, furniture, body_ranges, fixed_lines, h_end, language_at) -> list[str]:
+    """Look-alike headings of the series between the step's neighbours that nothing accounts for."""
+    if before is None:
+        return []
+    reason = e["reason"] or {}
+    accounted = set(fixed_lines)
+    if reason.get("form") in ("counterpart", "edition_unnumbered"):
+        accounted.add(reason["line"] - 1)
+    rules = [r for r in cur.rules if r.id == e["series"] and r.number] or [r for r in cur.rules if r.number]
+    hidden = []
+    for rule in rules:
+        loose = _loosened(rule)
+        for i in range(max(before, h_end), e["line"] - 1):
+            if (not norm[i] or i in furniture or i in accounted or any(a <= i <= b for a, b in body_ranges)
+                    or (rule.language is not None and language_at(i) not in rule.language)):
+                continue
+            kind = _lookalike(rule, loose, norm[i], shaped=True)
+            if kind and all(i != h[0] for h in hidden):
+                hidden.append((i, kind))
+    if not hidden:
+        return []
+    shown = "; ".join(f'line {i + 1} ({kind}): "{norm[i][:60]}"' for i, kind in sorted(hidden)[:6])
+    return [f"{label} excuses a step with a look-alike heading of the series between its neighbours (lines "
+            f"{before} and {e['line']}), which nothing accounts for: {shown}; a printed numeral that is damaged is "
+            "not a gap: read it with a fix or an ocr_map entry"]
 
 
 def measure(res: Resolved) -> dict:
