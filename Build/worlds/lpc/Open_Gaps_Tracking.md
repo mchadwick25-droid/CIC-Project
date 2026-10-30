@@ -2398,3 +2398,12 @@ Logged 2026-10-30.
 - **Open.** `lpc.story.numidicus` (`telling`, and the same sentence in `text`) says "One manuscript and the older printed editions read unconquered." The vendored text (`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`, Ep. XXXIV, about line 32111) gives only the variant (its note reads: Otherwise, "unconquered") and does not say where it comes from. The sentence needs a source, or softening to "another reading has", as the new reviewed tellings already say (`Build/Ministry/Features/Answering-From-Sources/S3-Stories/Tellings/Review_Notes.md`).
 - **Not edited now.** A record edit stales the lpc package; it waits for the record stage (project lead, 2026-10-30).
 - **Owner.** This thread, at the record stage.
+
+### OG-115. OG-114 closed: the unsourced "unconquered" sentence removed from the Numidicus telling (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The sentence was removed from `lpc.story.numidicus` `telling` under the no-unprompted-absence-statements ruling (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entries 18 and 19). The same sentence remains in the record's `text`, the source-side recast, which this edit did not touch.
+- **Open.** The Election closing paragraph on the single-source and praise caveats is held for Mark (same Decision-Log entry 19).
+- **Owner.** Project lead, for the held paragraph.
+

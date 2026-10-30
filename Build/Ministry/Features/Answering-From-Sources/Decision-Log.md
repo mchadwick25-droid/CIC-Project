@@ -463,3 +463,12 @@ Mark, 2026-10-30, direct: "we don't need to say something that is missing, like 
 - Rule for every story telling (short, medium, and any later live retelling): do not volunteer what the story or source does not say. "We don't know" or "the record doesn't say" appears only when the visitor's question asks for that detail.
 - Reconciled with the record guards: a `not_for` line or contested claim keeps its caveat only where the telling would otherwise assert or imply the guarded thing. If the telling leaves the detail out, no caveat is needed.
 - Applied to the two lpc tellings (Numidicus, Election of Cyprian); added to the telling review checklist and to the schema change order's gate text.
+
+## 19. The no-absence rule applied to the two lpc story records (2026-10-30)
+
+Mark, 2026-10-30, direct (choice box): the full tellings in the lpc records are edited to match the rule in entry 18, since the live voice can tell them.
+
+- Removed from `lpc.story.numidicus` `telling`: "The letter does not say where she searched", the "one manuscript and the older printed editions read unconquered" sentence, and the closing paragraph ("None of the three left a word of their own..."). From `lpc.story.election-of-cyprian` `telling`: "Pontius does not say how the people made their favour known." Nothing else in either record changed. `absent_detail` is kept: it is what the voice uses when a visitor asks.
+- Held for Mark: the Election closing paragraph ("Only Pontius says Cyprian was newly baptized... writing in praise of his own bishop"). It is the telling's only caveat for two `not_for` guards (no other witness confirms the neophyte claim; Pontius is not a neutral witness), and the telling also says "Pontius did not soften this. He pressed it", which on its own reads as a candid witness. Removing the paragraph alone would leave that implication; removing both is a wider edit than ruled.
+- Opus review of the edit: no guard broken. Two points for Mark: the Numidicus telling now ends on "left thin by the fall of some", which closes on staffing and could brush the not-lapsed guard; the Election telling ends on Cyprian's own "your suffrage", which a modern reader may hear as a vote.
+- lpc gates (records, regate) pass; lpc repinned to 2026-10-30T19-34-14Z. OG-114 closed.
