@@ -493,3 +493,13 @@ Coordination thread, relaying Mark's general rule (no unprompted absence stateme
 - Scan of the other five lpc story records for the same pattern (a pattern search over `telling` and `text`, so a first pass, not a read-through); not edited, they come with their own tellings: `celerinus-writes-to-lucian` telling "Her own brother does not give her name, and no word of hers survives."; `hundred-thousand-sesterces` telling "We do not know whether the ransom worked."; `the-death-of-cyprian` text "Pontius adds things the Acta does not mention, and they are his."; `the-plague-and-the-enemies` telling "Pontius does not say whether those who persecuted us were among the people helped."; `the-psalms-on-the-wall` none found. Each will need the guard check (some may be what a `not_for` or `absent_detail` requires).
 - lpc gates pass; lpc repinned to 2026-10-30T20-09-01Z.
 
+## 22. Numidicus ending carries the cause, in Cyprian's sense (2026-10-30)
+
+Mark, 2026-10-30, direct, after the source was checked: keep the cause in the Numidicus ending, in plain words. This replaces the cause-free wording in entry 20.
+
+- Source: Ep. XXXIV, "the number of our presbyters that had been desolated by the lapse of some". The earlier suggestion of martyrdom and exile as the cause was a mistake in the brief, not in the source.
+- The `telling` now ends: "The Lord meant to add Numidicus to our clergy, and to fill the ranks of our presbyters, thinned when some of them lapsed." The short and medium tellings end before this clause and are unchanged.
+- Guard check (`not_for`: Numidicus lapsed or was readmitted): "some of them" refers to the presbyters; the Opus check judged the reading risk low and needed no alternative wording. Nothing added; no absence statement.
+- The editor's footnote for the "unconquered" variant does exist in this edition (iv.iv.xxxiv-p5.1), so the source gap behind OG-114 is answered if the variant is ever wanted; it stays out of the telling under the no-absence rule.
+- lpc gates pass; lpc repinned to 2026-10-30T20-22-15Z; site world JSON rebuilt.
+
