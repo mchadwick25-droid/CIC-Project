@@ -60,11 +60,9 @@ rules:
   - [23040, 24551]
   - [24552, 25267]
   - [30996, 32529]
-  - [37663, 38651]
   - [46252, 46982]
   - [64175, 64954]
   - [88330, 89074]
-  - [93796, 94673]
   locus: caput{c|int:2}
   number: c
   ocr_map: {'1': I, l: I, i: I, '|': I, H: II, Y: V}
@@ -78,9 +76,6 @@ rules:
   - line: 24348
     quote: CAPUT XXL
     set: {c: XXI}
-  - line: 37916
-    quote: CAPITA VII et VIII.
-    set: {c: VII}
   - line: 46709
     quote: CAPUT IXl
     set: {c: IX}
@@ -96,32 +91,173 @@ rules:
   - line: 24672
     quote: CAPUT IU.
     set: {c: III}
-  - line: 38617
-    quote: CAPUT XXU.
-    set: {c: XXII}
-  - line: 93918
-    quote: CAPUT IU.
-    set: {c: III}
   - line: 14049
     quote: VPUT  XXVII.
     set: {c: XXVII}
   - line: 88756
     quote: CAPUT  XII.
     set: {c: XII}
-  - line: 94275
-    quote: C.iPUT  XII.
-    set: {c: XII}
-expected_gaps:
-- series: caput
-  line: 37972
-  quote: CAPUT IX.
-  reason:
-    head_unprinted: {between: [37916, 37972], line: 37932, quote: noluimus oblemperarc medico}
-- series: caput
-  line: 94045
-  quote: CAPUT VII.
-  reason:
-    head_unprinted: {between: [93985, 94045], line: 93997, quote: CAPUT VI.}
+divisions:
+- start_line: 37668
+  parent: sermon
+  locus: caput01
+  title: ''
+- start_line: 37693
+  parent: sermon
+  locus: caput02
+  title: ''
+- start_line: 37742
+  parent: sermon
+  locus: caput03
+  title: ''
+- start_line: 37801
+  parent: sermon
+  locus: caput04
+  title: ''
+- start_line: 37864
+  parent: sermon
+  locus: caput05
+  title: ''
+- start_line: 37888
+  parent: sermon
+  locus: caput06
+  title: ''
+- start_line: 37916
+  parent: sermon
+  locus: caput07-08
+  title: ''
+- start_line: 37972
+  parent: sermon
+  locus: caput09
+  title: ''
+- start_line: 37997
+  parent: sermon
+  locus: caput10
+  title: ''
+- start_line: 38037
+  parent: sermon
+  locus: caput11
+  title: ''
+- start_line: 38105
+  parent: sermon
+  locus: caput12
+  title: ''
+- start_line: 38121
+  parent: sermon
+  locus: caput13
+  title: ''
+- start_line: 38151
+  parent: sermon
+  locus: caput14
+  title: ''
+- start_line: 38205
+  parent: sermon
+  locus: caput15
+  title: ''
+- start_line: 38259
+  parent: sermon
+  locus: caput16
+  title: ''
+- start_line: 38316
+  parent: sermon
+  locus: caput17
+  title: ''
+- start_line: 38356
+  parent: sermon
+  locus: caput18
+  title: ''
+- start_line: 38429
+  parent: sermon
+  locus: caput19
+  title: ''
+- start_line: 38522
+  parent: sermon
+  locus: caput20
+  title: ''
+- start_line: 38565
+  parent: sermon
+  locus: caput21
+  title: ''
+- start_line: 38617
+  parent: sermon
+  locus: caput22
+  title: ''
+- start_line: 93803
+  parent: sermon
+  locus: caput01
+  title: ''
+- start_line: 93858
+  parent: sermon
+  locus: caput02
+  title: ''
+- start_line: 93918
+  parent: sermon
+  locus: caput03
+  title: ''
+- start_line: 93985
+  parent: sermon
+  locus: caput04
+  title: ''
+- start_line: 94045
+  parent: sermon
+  locus: caput07
+  title: ''
+- start_line: 94095
+  parent: sermon
+  locus: caput08
+  title: ''
+- start_line: 94135
+  parent: sermon
+  locus: caput09
+  title: ''
+- start_line: 94190
+  parent: sermon
+  locus: caput10
+  title: ''
+- start_line: 94243
+  parent: sermon
+  locus: caput11
+  title: ''
+- start_line: 94275
+  parent: sermon
+  locus: caput12
+  title: ''
+- start_line: 94315
+  parent: sermon
+  locus: caput13
+  title: ''
+- start_line: 94351
+  parent: sermon
+  locus: caput14
+  title: ''
+- start_line: 94391
+  parent: sermon
+  locus: caput15
+  title: ''
+- start_line: 94441
+  parent: sermon
+  locus: caput16
+  title: ''
+- start_line: 94476
+  parent: sermon
+  locus: caput17
+  title: ''
+- start_line: 94512
+  parent: sermon
+  locus: caput18
+  title: ''
+- start_line: 94545
+  parent: sermon
+  locus: caput19
+  title: ''
+- start_line: 94595
+  parent: sermon
+  locus: caput20
+  title: ''
+- start_line: 94647
+  parent: sermon
+  locus: caput21
+  title: ''
 ignore:
 - pattern: '^(?:\S{1,6} )?(?:S\. AUGUSTINI EPISCOPI )?SERMO(?: [IVXLCivxclUHYPTrfGKd1n.!]{1,14})?\.?(?: (?=[A-Za-z]*[0-9«%$&])[0-9A-Za-z«»%$&]{1,6})?[ ,.]*$'
   kind: running-head
