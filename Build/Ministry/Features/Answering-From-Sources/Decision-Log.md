@@ -527,3 +527,14 @@ Built, engine-only (no schema change, no re-pin, no gate registered):
 - Tests: five new in `test_quote_placement.py`; `test_quote_speaker_offered.py` now asserts that every replay quote whose lead-in named no speaker is placed with code's lead-in.
 - Not built: the span-id marker path (needs a schema change order and Stage 2); the turn directive still tells the voice to write the lead-in itself.
 
+## 25. The rule applied to the other five lpc story records (2026-10-30)
+
+Coordination thread, relaying Mark's general rule, 2026-10-30: the absence statements come out of the five other lpc story records' own `telling` and `text`, with a guard check first.
+
+- An Opus audit read each whole record and found the statements entry 21's pattern search had missed (Death of Cyprian, Plague, Psalms). No `not_for` or `claim_guards` line depends on an absence sentence: the existing credits ("Pontius says", "in the Acta", "Possidius says") already carry every guard.
+- Removed: Celerinus telling, the sister's name and "no word of hers survives"; Hundred thousand sesterces telling, the closing paragraph (outcome unknown, no reply survives, the story ends); Death of Cyprian telling and `text`, the unnamed compiler, "Pontius does not quote the cry", "the Acta says nothing of it / of any strengthening", "the Latin can be read two ways", and "Only" turned into plain credit; Plague telling, "Only his life of our bishop" and the closing paragraph, and in `text` "without any of the consolation he might have reached for"; Psalms telling, the closing paragraph (only witness, no second source).
+- Flow repairs from the independent Opus review: "He says" is now "Pontius says"; the strengthening is marked as Pontius's reading directly after it; "Cyprian" replaces two unclear pronouns; "Where only one speaks, we say which" is now "We say which text tells each part."
+- `absent_detail` and `modern_contrast` are unchanged in all five: they are the structured answer used when a visitor asks.
+- Point watched, accepted: in the Plague telling, "good was done to all people" now follows the sermon directly; it is Pontius's own wording and credited to him.
+- lpc gates (records, regate) pass; lpc repinned to 2026-10-30T21-50-08Z; the site world JSON rebuilt.
+

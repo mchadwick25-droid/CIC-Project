@@ -2423,3 +2423,11 @@ Logged 2026-10-30.
 - **Open.** Four of the other five lpc story records carry one absence statement each in `telling` or `text` (listed in entry 21). They are edited with their new tellings, with a guard check first.
 - **Owner.** This thread (engine), at the tellings job.
 
+### OG-118. OG-117 closed: the five other lpc story records follow the no-absence rule (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The absence statements are out of the `telling` and `text` of the five records (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 25). All seven lpc story records now follow the rule.
+- **Open.** Other record types (figures, terms, honest limits, witnesses) were not scanned for the same pattern; an `absent_detail` or `honest_limit` is a deliberate answer to a direct question and stays.
+- **Owner.** Project lead, to say whether a scan of the other record types is wanted.
+
