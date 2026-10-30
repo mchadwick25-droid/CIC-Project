@@ -1,7 +1,7 @@
 file: mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt
 scheme: 'Mesnage''s gazetteer of the African sees and ruins, arranged by the parts the Table des matières prints (I Tunisie et Tripolitaine with A. Évêchés non identifiés, II Algérie with its three départements Constantine, Alger and Oran and the lists B and C of unidentified sees, III Maroc, IV Appendices I and II, V Tables); inside each part the entries follow the alphabet and each entry opens with its place name; the edition prints no entry numbers (the More and Toul. numbers on the lists of unidentified sees are cross-references to Morcelli and to Toulotte, not entries of this book), so each entry is addressed by its printed place name and the line of its heading (<part>/<name>-<line>); the Préface, the lists of manuscripts and abbreviations, the Additions et corrections, the Tables and the Table des matières as printed'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 divisions:
   - start_line: 107
     locus: preface
@@ -58,6 +58,9 @@ divisions:
   - start_line: 2519
     locus: tunisie/aich-s-gemellae-2519
     title: 'Aïch. (S'') = Gemellâe.'
+  - start_line: 2543
+    locus: tunisie/ain-el-asker-ou-rdir-es-2543
+    title: 'Aïn el Asker, ou Rdir es Soltan. = Sutunurga civit.'
   - start_line: 2564
     locus: tunisie/ain-kedim-h-2564
     title: 'Aïn Kedim. (H'')'
@@ -97,6 +100,9 @@ divisions:
   - start_line: 2779
     locus: tunisie/ali-ben-brahim-sidi-2779
     title: 'Ali ben Brahim, (Sidi)'
+  - start_line: 2786
+    locus: tunisie/ali-djebin-s-novis-aquilianis-ou-2786
+    title: 'Ali Djebin. (S'') = Novis Aquilianis ou Aquis No vis?'
   - start_line: 2816
     locus: tunisie/ali-el-hachani-dar-2816
     title: 'Ali el Hachani. (Dar)'
@@ -106,6 +112,9 @@ divisions:
   - start_line: 2850
     locus: tunisie/allege-h-2850
     title: 'Allège. (H--)'
+  - start_line: 2855
+    locus: tunisie/alouani-h-el-ou-s-djabeur-2855
+    title: 'Alouani (H'''' el) ou S'' Djabeur. = . . . .iana clv.'
   - start_line: 2859
     locus: tunisie/alouenine-h-el-sicimbba-2859
     title: 'Alouénine. (H"" el) = Sicimbba.'
@@ -136,6 +145,9 @@ divisions:
   - start_line: 3054
     locus: tunisie/aouinia-h-el-ou-h-djemel-tur-3054
     title: 'Aouinia (H'''' el) ou H'''' Djemel. = Turris.'
+  - start_line: 3064
+    locus: tunisie/aouitta-h-hou-ou-aouia-avissa-3064
+    title: 'Aouitta. (H'''' hou) ou Aouïa. = AvissA ou Avitta ?'
   - start_line: 3092
     locus: tunisie/arada-h-bou-aradi-3092
     title: 'Arada. (H'''' Bou) = Aradi?'
@@ -193,6 +205,9 @@ divisions:
   - start_line: 3303
     locus: tunisie/begueur-h-gasae-salins-begii-3303
     title: 'Begueur. (H'') = Gasae (Salins Begiiensis )'
+  - start_line: 3309
+    locus: tunisie/beja-vaga-col-scplimia-theodorias-a-3309
+    title: 'Béja. = Vaga. (Col. Scplimia) ; Theodorias, à l''époque byzantine.'
   - start_line: 3365
     locus: tunisie/bejar-ou-bedjar-h-vaz-ari-ci-3365
     title: 'Béjar ou Bedjar. (H''") = Vaz(ari) Civ.'
@@ -280,6 +295,9 @@ divisions:
   - start_line: 3818
     locus: tunisie/chateur-bou-utica-3818
     title: 'Chateur. (bou) — Utica.'
+  - start_line: 3888
+    locus: tunisie/chateur-s-mansour-bou-t-hisita-3888
+    title: 'Chateur S'' Mansour. (bou) = (T)hisita pour Pisita ?'
   - start_line: 3911
     locus: tunisie/chelga-h-3911
     title: 'Chelga. (H'')'
@@ -652,6 +670,9 @@ divisions:
   - start_line: 5821
     locus: tunisie/hadjeb-el-aioun-sur-l-o-el-hatob-masclianae-5821
     title: 'Hadjeb el Aïoun, sur l''O. el Hatob. = Masclianae?'
+  - start_line: 5861
+    locus: tunisie/hadjeb-el-aioun-sur-la-sebkha-5861
+    title: 'Hadjeb el Aïoun, sur la Sebkha el Hani. = Germanicia ?'
   - start_line: 5865
     locus: tunisie/hadjela-coudiat-el-5865
     title: 'Hadjela. (Coudiat el)'
@@ -661,6 +682,9 @@ divisions:
   - start_line: 5898
     locus: tunisie/hagueuf-el-ou-ksar-khelane-t-5898
     title: 'Hagueuf (el) ou Ksar Khelane. = Tisavar.'
+  - start_line: 5903
+    locus: tunisie/haidra-ammaedera-ou-ammaedara-colonia-flavia-5903
+    title: 'Haïdra. = Ammaedera ou Ammaedara Colonia Flavia AugusLa E mérita.'
   - start_line: 5988
     locus: tunisie/haira-r-r-du-dj-5988
     title: 'Haïra. (R. R. du Dj.)'
@@ -673,6 +697,9 @@ divisions:
   - start_line: 6023
     locus: tunisie/hallou-ksar-bon-6023
     title: 'Hallou. (Ksar bon)'
+  - start_line: 6027
+    locus: tunisie/hamdouna-bordj-a-1-kil-de-6027
+    title: 'Hamdouna (bordj), à 1 kil. de Sidi Zehili. = Civ. Avensesis.'
   - start_line: 6060
     locus: tunisie/hameima-bii-ou-bien-h-hamema-6060
     title: 'Hameima (bii^), ou bien H"" Hamema ou Aniama.'
@@ -757,6 +784,9 @@ divisions:
   - start_line: 6573
     locus: tunisie/kahila-s-bou-ou-bou-seba-vicus-augusti-6573
     title: 'Kahila (S'' bou) ou Bou Seba. = Vicus Augusti.'
+  - start_line: 6603
+    locus: tunisie/kahloulia-ain-ou-el-mtarif-ou-6603
+    title: 'Kahloulia (Aïn), ou El Mtarif, ou Er Rarga. = Tegiata.'
   - start_line: 6629
     locus: tunisie/kairouan-6629
     title: 'Kairouan.'
@@ -1153,9 +1183,15 @@ divisions:
   - start_line: 8943
     locus: tunisie/ouartane-sraa-bartana-ou-var-8943
     title: 'Ouartane. (Sràa) = Bartana ou Vartana.'
+  - start_line: 8965
+    locus: tunisie/ouassel-a-1500-d-ain-8965
+    title: 'OuasseL (à 1500''" d''Aïn)'
   - start_line: 8977
     locus: tunisie/oudeka-h-aptuca-8977
     title: 'Oudeka. (H'') — Aptuca ?'
+  - start_line: 9002
+    locus: tunisie/ouderf-et-de-la-mtouia-oasis-9002
+    title: 'Ouderf et de la Mtouïa. (Oasis de) = Ad Palmas.'
   - start_line: 9006
     locus: tunisie/oudna-h-uthina-colonia-9006
     title: 'Oudna. (H'''') = Uthina Colonia.'
@@ -1456,6 +1492,9 @@ divisions:
   - start_line: 10782
     locus: tunisie/telia-ain-10782
     title: 'Telia. (Aïn)'
+  - start_line: 10796
+    locus: tunisie/tell-el-kaid-ou-ain-tlit-10796
+    title: 'Tell el Kaïd ou Aïn Tlit. = Thagari majus munie.'
   - start_line: 10812
     locus: tunisie/telmin-tamali-uma-et-tamalla-10812
     title: 'Telmin. = Tamali.uma et Tamalla.'
@@ -1704,6 +1743,9 @@ divisions:
   - start_line: 12255
     locus: tunisie-nonidentifies/ausvaga-i-12255
     title: 'Ausvaga I.'
+  - start_line: 12266
+    locus: tunisie-nonidentifies/ausvaga-ii-12266
+    title: 'Ausvaga II.'
   - start_line: 12270
     locus: tunisie-nonidentifies/bahanna-ou-bana-12270
     title: 'Bahanna ou Bana.'
@@ -1731,6 +1773,12 @@ divisions:
   - start_line: 12431
     locus: tunisie-nonidentifies/boset-12431
     title: 'BOSET.'
+  - start_line: 12449
+    locus: tunisie-nonidentifies/boset-i-12449
+    title: 'Boset I.'
+  - start_line: 12472
+    locus: tunisie-nonidentifies/boset-ii-12472
+    title: 'BOSET II.'
   - start_line: 12483
     locus: tunisie-nonidentifies/botriana-12483
     title: 'BOTRIANA.'
@@ -3122,6 +3170,9 @@ divisions:
   - start_line: 19929
     locus: constantine/kabt-el-mouchi-19929
     title: 'Kabt el Mouchi.'
+  - start_line: 19935
+    locus: constantine/kafrida-tizi-ou-tala-aizraren-aqua-19935
+    title: 'Kafrida (Tizi) ou Tala Aïzraren : = Aqua frigida centenarius.'
   - start_line: 19950
     locus: constantine/kalaa-des-b-hammad-19950
     title: 'Kalâa des B'' Hammad.'
@@ -3509,6 +3560,9 @@ divisions:
   - start_line: 21802
     locus: constantine/mraou-ksiba-21802
     title: 'Mraou. (Ksiba)'
+  - start_line: 21810
+    locus: constantine/mrata-h-21810
+    title: 'Mrata. (H-)'
   - start_line: 21819
     locus: constantine/mrehane-h-21819
     title: 'Mrehane. (H'')'
@@ -4707,6 +4761,9 @@ divisions:
   - start_line: 27903
     locus: alger/aumale-sour-khozlan-auzia-27903
     title: 'Aumale. (Sour Khozlan) = Auzia.'
+  - start_line: 27942
+    locus: alger/bains-romains-27942
+    title: 'Bains romains.'
   - start_line: 27949
     locus: alger/berard-ga-sae-galventi-27949
     title: 'Bérard = Ga.sae Galventi ?'
@@ -4773,6 +4830,9 @@ divisions:
   - start_line: 28408
     locus: alger/dolfusville-amoura-sufasar-28408
     title: 'Dolfusville. (Amoura) = Sufasar.'
+  - start_line: 28436
+    locus: alger/duperre-el-khadra-oppidum-novum-28436
+    title: 'Duperré. (El Khadra) = Oppidum Novum.'
   - start_line: 28465
     locus: alger/dupleix-cartili-28465
     title: 'Dupleix. = Cartili?'

@@ -90,3 +90,53 @@ All three carry `status: drafted`. No checker or tooling change.
 4. "Gafsa. = Gapsa col. A l'époque byzantine..." (antiques 5404) is taken as an entry although the heading and the first sentence share a line.
 5. Mesnage `Bevegerius` table and the reordered list (32083-32092 antiques, 30985 ruines) are left inside the Tingitane introduction division, not set as apparatus; they are part of its argument.
 6. Ruines "Batoum. | Kondiat el)" (16168) keeps its OCR title; the bar and bracket are printed damage.
+
+## Fourth look at the two Mesnage scans (Mark's ruling, option A, 2026-10-30)
+
+Scope: the 16 headings the third-round review found missing from each scan, plus every further miss the edition's own index and a body scan revealed. Nothing else was reopened. Time: 22:21 to 22:37 UTC (about 16 minutes). Check runs: 4 (two files, before and after the status change). No model or paid calls. The vendored text was not edited.
+
+### Cause
+
+The earlier lists were built from headings printed as plain `Name. (qualifier)` after a blank line, aligned one scan against the other. Both scans print the same headings in the same shapes, so the alignment could not show recall. The 16 headings carry a comma or qualifier before the first period, a stray mark in front (`•`, `i`, `[`), or a heading that wraps to a second line. The earlier explicit list was not wrong in kind: it is an entry list by design, and it was missing entries. The 16 were added to it; no rule was introduced, because the gazetteer headings have no pattern that separates them from running text (the 16 and the headings already found share no common shape).
+
+### Method
+
+1. Index extraction. Antiques: the Tables, section A (33349-40559), parsed into 2,414 entries (name plus page reference). Ruines: the same section (32166-43083). This scan prints the names in one block and the pages in another, so the parse is by name only and splits some entries in two: 2,580 name lines, of which about 166 more than the other scan are fragments.
+2. Each index entry was matched to a division title by name tokens (OCR-tolerant). Entries left over were searched in the body: antiques within the pages the entry cites (page-to-line map from the running heads, plus or minus one page), ruines over the whole body.
+3. Independent body scans for headings that are not in the index: (a) every line after a blank line that is shaped like a heading and falls alphabetically between the two divisions around it; (b) every short heading-shaped line with no blank line before it, on the same test; (c) lines of the form `Name I.` / `Name II.`. All hits were opened and read.
+4. Cross-check: the two scans' division lists were aligned title against title after the additions. They now differ only in OCR spelling (and the two Carthage heading lines, which sit before the range compared).
+
+### Result per file
+
+| | antiques | ruines |
+|---|---|---|
+| Index entries | 2,414 | 2,580 name lines |
+| Matched to a division of their own | 2,174 | 2,346 |
+| Added from the index list (heading had no division) | 17 | 16 |
+| Cross-references (`Voir`, `Cfr.`, `Gfr.`): no entry of their own, by design | 65 | 67 |
+| Variant or ancient name printed inside another entry's text | 35 | 10 |
+| Index line unreadable (OCR, fragments, running heads, map letters only) | 59 | 14 |
+| Unresolved: no division and no body line found | 81 | 143 |
+| Divisions before / after | 1,814 / 1,834 | 1,815 / 1,834 |
+| Added outside the index list | 3 (Ausvaga II, Boset I, BOSET II) | 3 (Bains romains, whose line is not legible in this scan's index, Ausvaga II, Boset I) |
+
+The unresolved counts are not a list of missing entries. Opening a sample of them (Oghab, Rezel, Zaroura, Sbia, Klab, Mzata, Mziger, Naceur, Dia, Guellil, Sola, Segueur, Phua, Safsaf) showed each already has a division; the index line is too damaged to match (`Beliir` for Behir, `Gliemorra` for Chemorra, a descriptor run into the name). The rest are index lines that are OCR debris or the second half of a two-line entry (this is most of the ruines count, from the block layout). Nothing in the unresolved lists could be placed as a printed heading in the body, and none was forced.
+
+Added headings (antiques line / ruines line): Aïn el Asker 2543 / 2620; Ali Djebin 2786 / 2851; Alouani 2855 / 2921; Aouitta 3064 / 3119; Béja = Vaga 3309 / 3351; Chateur S' Mansour 3888 / 3908; Hadjeb el Aïoun 5861 / 5792; Haïdra = Ammaedara 5903 / 5834; Hamdouna 6027 / 5954; Kahloulia 6603 / 6498; Ouassel 8965 / 8736; Ouderf 9002 / 8771; Tell el Kaïd 10796 / 10478; Kafrida 19935 / 19280; Mrata 21810 / 21108; Duperré 28436 / 27523. Beyond the 16:
+
+- Bains romains (antiques 27942, ruines 27053): a heading alone on its line at the top of printed page 444, followed by its `Atl. arch.` citation, and listed in the Tables (`Bains Romains 444`). Found by the index check.
+- Ausvaga II (antiques 12266, ruines 11914): a printed heading with its own bishop, the twin of the division `Ausvaga I.` already present.
+- Boset I (antiques 12449, ruines 12093) and BOSET II (antiques 12472): printed sub-headings with their own bishops, the twins of BOSET II in the ruines file. The antiques file had no division at BOSET II; it is not listed in the earlier note and was a miss. BOSET II sits directly after text with no blank line before it, which is why the earlier blank-line passes did not see it.
+
+### Final check output
+
+Both files: `RESULT: PASS`, 1,834 divisions (1,827 body, 7 apparatus), address uniqueness all unique, coverage 100.0 percent, 0 over 5,000 words, rules and evidence all found, word completeness exact (antiques 194,050 / ruines 193,128), verbatim byte ranges 0 mismatch (1,660 exact and 342 less declared furniture of 2,002; 1,678 and 322 of 2,000). Checker run from origin/main code in a scratchpad export with `cic/texts` linked only there. `status: drafted` on both.
+
+### Judgment calls for the reader
+
+1. Titles are the printed first line, OCR kept (`OuasseL`, `AugusLa E mérita`). Two headings that wrap carry the printed continuation: Béja (`byzantine.`) and Haïdra (`Augusta Emerita`). A stray mark in front of the heading (`•`, `i`, `[`) is dropped from the title because it is not part of the print; the division still starts on that line.
+2. Hadjeb el Aïoun and Ouassel: the second printed line is a `Voir` note or running text, so it is not in the title.
+3. Ausvaga II, Boset I and BOSET II are sub-headings of entries, not index entries. They are added for consistency with `Ausvaga I.`, `BOSET II.` and the `Noba I et II` style headings already divisions. If the reader would rather keep sub-headings inside their entry, these three (two in the ruines file) come out without touching anything else.
+4. Variant names printed inside another entry (Baharine inside Chahoud, Thisita inside Chateur S' Mansour, the ancient names under Duperré and Kafrida) are not divisions: the edition prints them as part of that entry's text.
+5. The ruines index parse is by name only and over-counts; its figures are an upper bound on fragments and the reason its unresolved count is higher. They were not used to add or remove anything that the antiques parse and the body scans did not also support.
+6. Not covered: a heading with no blank line before it, no trailing period and not alphabetically between its neighbours. None was found by any scan, but the scans cannot exclude one.
