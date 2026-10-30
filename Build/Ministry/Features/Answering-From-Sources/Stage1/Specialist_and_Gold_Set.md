@@ -6,8 +6,12 @@ Working notes of the specialist and gold set thread. Decisions are in
 
 ## Said plainly: this is weaker than human labelling
 
-Mark ruled there is no human domain specialist (Decision-Log entry 2). The gold
-set is labelled by an AI model, and every number measured against it inherits
+**No human reviewed the labels in the gold set.** Mark ruled there is no human
+domain specialist (Decision-Log entry 2), and on 2026-10-29 he handed the
+rulings he was to make to an independent AI adjudication ("i would trust an
+objective ai view"). Every label in `canon/gold_set/` says where it came from
+(`label_source`) and carries `human_reviewed: false`. The gold set is labelled
+by AI models, and every number measured against it inherits
 that model's blind spots. A model can share a misreading with the judges it is
 checking, especially when they come from one vendor. It can be confidently
 wrong about a Latin idiom, an editor's note or a speaker inside a polemic, in a
@@ -32,17 +36,25 @@ How the weakness is contained, mechanism by mechanism:
    seeds.
 5. **A second, different model** labels at least a fifth of the gold set
    (S1-03). Every disagreement goes to Mark.
-6. **Mark's eyes on the key classes.** Every specialist-versus-judge
-   disagreement in false friend, negation and modal shift, generalisation,
-   embedded voice and claims about what the period lacks goes to Mark, plus a
-   random sample of the rest, within 2 hours a week.
+6. **Three independent reads where it matters, in place of Mark's.** Every
+   disagreement between the two labellers, every item either put in a key
+   class, and a random sample of agreements (86 items) was read three more
+   times, each blind to the others: by Opus and by Fable with the full
+   evidence pack, and by an outside-referee read that sees only the source
+   passage, none of our records. A label stands only when two of the three
+   give the same class. Otherwise the item is contested and left out of the
+   gold set, counted and listed (`runs/adjudication-1/Excluded_Items.md`),
+   never forced. A constructed item whose reads give another class is left
+   out too. Mark keeps the right to spot-check any item on the packet page; a
+   ruling of his overrides and is marked as human-reviewed.
 7. **Held-out half sealed** by hash before any judge is tuned; only the trial's
    final scoring reads it (a test in CI enforces this).
 8. **Outside referees** stay a second independent reading, and external human
    experts test the built system at the end, before any promotion.
 
 What none of this fixes: a misreading the specialist, the second labeller and
-Mark all share. The seeded types cover four failure shapes, not all of them.
+all three adjudication reads share. Same-vendor models share blind spots, so
+that is more likely than it would be across vendors or with a human. The seeded types cover four failure shapes, not all of them.
 
 **Claude only, so weaker again.** Mark ruled no spend on other companies'
 models (Decision-Log entry 10): specialist Opus 5.5, second labeller Fable
@@ -78,6 +90,7 @@ is given the prompt files only, never the key.
 | `goldset/split.py` | Calibration and held-out halves by hash of id; seal | Done |
 | `goldset/cues.py` | Free pre-screen that draws likely candidates of the rare classes from the pool; a cue never labels | Done; every generalisation and embedded-voice cue labelled; about 1,300 negation and false-friend cues left, at a yield of one to three in a hundred |
 | `goldset/agreement.py`, `goldset/packet.py` | Agreement between the two labellers, and the packets for Mark (disagreements, key classes, random sample) | Packets 1 to 3 (lpc 19, ten other worlds 47, constructed and new natural 20) |
+| `goldset/build.py` | The gold set: labels joined with Mark's rulings (a ruling always wins), each item's origin, label source, bound records with source and locus, and evidence spans | Dry run 2026-10-29: 797 natural (all still the specialist's label), 173 constructed; waits for Mark's rulings |
 | `goldset/constructed.py` | Constructed items for classes the natural sentences leave short, read before use (`constructed/Constructed_Readings.yaml`) | 173 accepted of 263 read |
 
 ## Natural and constructed items, counted apart
@@ -144,3 +157,30 @@ guard counted the two holds ($0.1416 and $0.0869). Ledgers:
 `runs/specialist-tryout-1/`. The non-Claude seam and price rows were removed
 from the branch afterwards. Rule now kept: read every pending message before
 any step that could call a model.
+
+## The gold set, 2026-10-30
+
+Built by `goldset/build.py` from every label and adjudication run 1, split and
+sealed into `canon/gold_set/` by `goldset/split.py` (salt `gold-split-1`; the
+first seal, made before any judge saw either half).
+
+| Origin | Items | Label source |
+|---|---|---|
+| Natural | 788 | AI-adjudicated 64, agreed by two labellers 102, specialist only 622 |
+| Constructed | 172 | AI-adjudicated 12, by construction 160 |
+
+Left out: 9 natural items contested, and 1 constructed item whose three reads
+all gave negation or modal shift where it was built to carry embedded voice.
+
+Natural items by class: supported 609, unsupported (other) 127, negation or
+modal shift 9, generalisation 6, false friend 1, embedded voice 1, cannot judge
+23, no claim 12. Constructed items by class: negation or modal shift 41,
+generalisation 40, false friend 44, embedded voice 47. The two origins are
+never added together.
+
+Adjudication run 1: of the 86 items, 32 stood with all three reads agreeing,
+45 with two of three, 9 contested. Opus and Fable gave the same class on 70.
+The outside referee could not judge 23, mostly where no source passage could be
+located; it agreed with Opus on 34 and with Fable on 37. Elapsed: prompts
+written 20:13, all 258 reads in by 20:19 plus one retry, gold set built and
+sealed by 20:25 UTC.

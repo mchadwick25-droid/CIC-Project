@@ -22,7 +22,7 @@ from pathlib import Path
 from goldset.common import GOLD_DIR, read_jsonl, sha256_text, write_jsonl, yaml
 from goldset.labeller import gold_class
 
-SPLIT_SALT = "gold-split-2026-10-29"
+SPLIT_SALT = "gold-split-1"
 CALIBRATION, HELDOUT = "calibration", "heldout"
 SEALED_FIELDS = ("item_id", "world", "records_commit", "bindings", "sentence", "label")
 
@@ -81,7 +81,8 @@ def write_halves(gold: list[dict], out_dir: Path, sealed_at: str, reseal: dict[s
     for name, items in halves.items():
         write_jsonl(out_dir / f"{name}.jsonl", sorted(items, key=lambda i: i["item_id"]))
     seals_path.write_text(yaml.safe_dump({"schema": 1, "salt": SPLIT_SALT, "seals": sorted(seals, key=lambda e: e["item_id"])}, sort_keys=False, allow_unicode=True), encoding="utf-8")
-    return {name: dict(Counter(gold_class(i["label"]) for i in items)) for name, items in halves.items()}
+    return {name: {origin: dict(Counter(gold_class(i["label"]) for i in items if i.get("origin", "natural") == origin))
+                   for origin in ("natural", "constructed")} for name, items in halves.items()}
 
 
 def main(argv: list[str] | None = None) -> int:

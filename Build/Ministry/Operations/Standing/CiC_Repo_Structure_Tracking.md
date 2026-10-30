@@ -934,3 +934,10 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Context.** The pre-pilot systems review (`Build/Ministry/Operations/Audits/CiC_PrePilot_Systems_Review_2026-10-15.md`) found that a deploy crashing on start-up went unnoticed while Render kept the old build serving. The project lead chose a scheduled GitHub check as the alert.
 
 **Action.** Added `tools/live_watch.py`, run every 15 minutes by `.github/workflows/live-watch.yml`, with its tests in `tools/tests/test_live_watch.py`. It stays in root `tools/` because a workflow runs it. Root `README.md`'s Build-zone paragraph now counts six such scripts and names it.
+
+## 2026-10-30 — `canon/gold_set/` holds the stage 1 gold set
+
+**Context.** Stage 1 of Answering from the Sources needs a gold set whose held-out half is sealed before any judge is tuned (`Build/Ministry/Features/Answering-From-Sources/Stage1/Specialist_and_Gold_Set.md`).
+
+**Action.** Added `canon/gold_set/` (`calibration.jsonl`, `heldout.jsonl`, `seals.yaml`), written only by `Sandbox/Answering-From-Sources/goldset/split.py`. Root `README.md`'s `canon/` row names it.
+

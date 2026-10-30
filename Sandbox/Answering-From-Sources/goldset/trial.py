@@ -144,6 +144,15 @@ def gates_flag(item: dict) -> bool | None:
 
 
 def score(gold: list[dict], verdicts: dict[str, dict[str, dict]]) -> dict:
+    """The scores of score_origin, once for the natural items and once for
+    the constructed ones, never mixed. On constructed items, which are all
+    unsupported by construction, only recall and the per-class catch mean
+    anything."""
+    return {origin: score_origin([i for i in gold if i.get("origin", "natural") == origin], verdicts)
+            for origin in ("natural", "constructed")}
+
+
+def score_origin(gold: list[dict], verdicts: dict[str, dict[str, dict]]) -> dict:
     """Recall and precision on "unsupported" for each judge and for the
     current gates, overall and per class, on the gold items that carry a
     supported/unsupported label; agreement of each judge with the gold
