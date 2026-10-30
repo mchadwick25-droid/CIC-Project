@@ -257,3 +257,15 @@ def test_numbered_work_found_by_the_editions_own_piece_number():
     assert locus._numbered_work(nodes, "Letter 22 - on virginity")["start"] == 1
     assert locus._numbered_work(nodes, "Epistula 5") is None
     assert locus._numbered_work(nodes, "Vita Malchi") is None
+
+
+def test_adjudication_stands_on_two_of_three_and_names_the_read_it_quotes():
+    from goldset import adjudicate, build
+    assert adjudicate.outcome(["supported", "supported", "generalisation"]) == ("supported", 2)
+    assert adjudicate.outcome(["supported", "generalisation", "cannot_judge"]) == (None, 1)
+    assert adjudicate.outcome(["supported", None, None]) == (None, 1)
+    fable = {"verdict": "unsupported", "failure_class": "generalisation", "other_classes": [], "evidence": [{"block": "R1", "words": "w x y z"}], "reason": "r"}
+    adj = {"item_id": "a", "standing_class": "generalisation", "classes": {"opus": "supported", "fable": "generalisation", "referee": "generalisation"},
+           "reads": {"opus": {"label": {}}, "fable": {"label": fable}, "referee": {"label": {}}}}
+    label = build.adjudicated_label(adj)
+    assert label["evidence_from"] == "fable" and label["failure_class"] == "generalisation"

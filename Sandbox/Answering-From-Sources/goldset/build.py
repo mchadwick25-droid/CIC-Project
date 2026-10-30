@@ -1,10 +1,19 @@
 """The gold set: every labelled natural item and every constructed item, each
-with its gold label and where that label came from.
+with its gold label and where that label came from. No human reviewed these
+labels unless the source says "mark".
 
-  mark          Mark ruled on it (his ruling always wins)
-  construction  a constructed item nobody ruled on: unsupported, in the class
-                it was written and read to carry
-  specialist    a natural item nobody ruled on: the AI specialist's label
+  mark                     Mark ruled on it on the packet page (a ruling wins)
+  ai_adjudicated           three independent AI reads (goldset.adjudicate), at
+                           least two giving this class
+  agreed_by_two_labellers  the specialist and the second labeller gave the
+                           same class
+  specialist_only          the AI specialist's label, read by no one else
+  construction             a constructed item: unsupported, in the class it was
+                           written and read to carry, and labelled so blind
+
+An adjudicated item whose reads do not agree is contested; a constructed item
+whose adjudication gives another class is contradicted. Both are left out of
+the gold set and written to the excluded list with the reads.
 
 Each item keeps its origin (natural or constructed), its bound records with
 each source and locus, and the evidence spans the labels quote, so a reader
@@ -16,7 +25,8 @@ note, at}), saved as JSON lines.
 
   python -m goldset.build --pool <pool.jsonl> --constructed <constructed.jsonl> \\
       --specialist <key> <labels> [--specialist <key> <labels> ...] \\
-      --second <key> <labels> [...] --rulings <rulings.jsonl> --out <gold.jsonl>
+      --second <key> <labels> [...] --adjudications <adjudications.jsonl> \\
+      [--rulings <rulings.jsonl>] --out <gold.jsonl> --excluded <excluded.jsonl>
 """
 import argparse
 import json
@@ -60,29 +70,55 @@ def ruled_label(ruling: dict, specialist: dict | None) -> dict:
     return label
 
 
-def build(pool: dict, constructed: dict, specialist: dict, second: dict, rulings: dict) -> list[dict]:
-    items = []
+def adjudicated_label(adjudication: dict) -> dict:
+    """The standing class as a label, with the evidence and reason of the
+    first agreeing read (opus, then fable, then the referee)."""
+    for reader, cls in adjudication["classes"].items():
+        if cls == adjudication["standing_class"]:
+            label = adjudication["reads"][reader]["label"]
+            return {k: label[k] for k in ("verdict", "failure_class", "other_classes", "evidence", "reason")} | {"evidence_from": reader}
+    raise ValueError(f"{adjudication['item_id']}: no read gives the standing class")
+
+
+def _strip(label: dict) -> dict:
+    return {k: v for k, v in label.items() if k != "model_id"}
+
+
+def build(pool: dict, constructed: dict, specialist: dict, second: dict, rulings: dict, adjudications: dict) -> tuple[list[dict], list[dict]]:
+    items, excluded = [], []
     for item_id in sorted(specialist.keys() | constructed.keys()):
         made = constructed.get(item_id)
         base = made or pool[item_id]
-        spec, sec, ruling = _label(specialist.get(item_id)), _label(second.get(item_id)), rulings.get(item_id)
+        spec, sec, ruling, adj = _label(specialist.get(item_id)), _label(second.get(item_id)), rulings.get(item_id), adjudications.get(item_id)
+        why_out = None
         if ruling:
             label, source = ruled_label(ruling, spec), "mark"
+        elif adj and adj["contested"]:
+            label, source, why_out = None, None, "contested: no two of the three independent reads agree"
+        elif adj and made and adj["standing_class"] != made["expected_class"]:
+            label, source, why_out = None, None, f"contradicted: the adjudication gives {adj['standing_class']}, not {made['expected_class']}"
+        elif adj:
+            label, source = adjudicated_label(adj), "ai_adjudicated"
         elif made:
             label = {"verdict": "unsupported", "failure_class": made["expected_class"], "other_classes": [],
                      "reason": made["construction"], "evidence": [{"block": "R1", "words": made["record_words"]}]}
             source = "construction"
+        elif sec and gold_class(sec) == gold_class(spec):
+            label, source = _strip(spec), "agreed_by_two_labellers"
         else:
-            label, source = {k: v for k, v in spec.items() if k != "model_id"}, "specialist"
+            label, source = _strip(spec), "specialist_only"
         row = {"item_id": item_id, "origin": "constructed" if made else "natural", **{k: base[k] for k in ITEM_FIELDS},
-               "label": label, "label_source": source, "sources": _sources(base),
-               "specialist": spec, "second": sec, "ruling": ruling}
+               "label": label, "label_source": source, "human_reviewed": source == "mark", "sources": _sources(base),
+               "specialist": spec, "second": sec, "adjudication": adj, "ruling": ruling}
         if made:
             row["construction"] = {"class": made["expected_class"], "note": made["construction"], "record_words": made["record_words"]}
         else:
             row.update(probe_id=base["probe_id"], gate=base["gate"])
-        items.append(row)
-    return items
+        if why_out:
+            excluded.append({**row, "excluded_because": why_out})
+        else:
+            items.append(row)
+    return items, excluded
 
 
 def counts(items: list[dict]) -> dict:
@@ -99,7 +135,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--specialist", nargs=2, type=Path, action="append", required=True, metavar=("KEY", "LABELS"))
     parser.add_argument("--second", nargs=2, type=Path, action="append", default=[], metavar=("KEY", "LABELS"))
     parser.add_argument("--rulings", type=Path)
+    parser.add_argument("--adjudications", type=Path)
     parser.add_argument("--out", type=Path, required=True)
+    parser.add_argument("--excluded", type=Path, required=True)
     args = parser.parse_args(argv)
     kinds = ("pool", "constructed")
     specialist, second = {}, {}
@@ -119,9 +157,15 @@ def main(argv: list[str] | None = None) -> int:
     unknown = sorted(set(rulings) - set(specialist))
     if unknown:
         raise SystemExit(f"rulings for items with no label: {', '.join(unknown)}")
-    items = build(pool, constructed, specialist, second, rulings)
+    adjudications = {a["item_id"]: a for a in read_jsonl(args.adjudications)} if args.adjudications else {}
+    unread = sorted(i for i, a in adjudications.items() if any(r is None for r in a["reads"].values()))
+    if unread:
+        raise SystemExit(f"adjudications missing a read: {', '.join(unread)}")
+    items, excluded = build(pool, constructed, specialist, second, rulings, adjudications)
     write_jsonl(args.out, items)
-    print(json.dumps(counts(items), indent=2, sort_keys=True))
+    write_jsonl(args.excluded, excluded)
+    print(json.dumps({"gold": counts(items), "excluded": {o: dict(Counter(e["excluded_because"].split(":")[0] for e in excluded if e["origin"] == o))
+                                                          for o in ("natural", "constructed")}}, indent=2, sort_keys=True))
     return 0
 
 
