@@ -2390,3 +2390,11 @@ Logged 2026-10-29.
 - **Open.** See `Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md` and `lpc_Decision_Log.md`, 2026-10-29, "Live test lpc go-live rerun 1". Record side: rewrite the two "held as Contested" lines in the world core; move the corpus counts and "We have not yet weighed them" out of fields the voice speaks; narrow the retrieval triggers of `lpc.quote.bishop-of-bishops` and `lpc.witness.remembered-at-the-altar`; add questions that test the four fixes the battery did not touch.
 - **Engine, not this thread's.** Removal of sentences that gutted answers, withheld uncited claims still shipping, no check of a quote's lead-in against its claim guards, no output checks for cautions 14, 15 and 17.
 - **Owner.** This thread for the records; the engine threads for the rest. Unspent: $1.45 of the "lpc go-live rerun 1" cap, not carried to any other use.
+
+### OG-114. The Numidicus telling names a source for the "unconquered" variant that the vendored text does not give (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Open.** `lpc.story.numidicus` (`telling`, and the same sentence in `text`) says "One manuscript and the older printed editions read unconquered." The vendored text (`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`, Ep. XXXIV, about line 32111) gives only the variant (its note reads: Otherwise, "unconquered") and does not say where it comes from. The sentence needs a source, or softening to "another reading has", as the new reviewed tellings already say (`Build/Ministry/Features/Answering-From-Sources/S3-Stories/Tellings/Review_Notes.md`).
+- **Not edited now.** A record edit stales the lpc package; it waits for the record stage (project lead, 2026-10-30).
+- **Owner.** This thread, at the record stage.
