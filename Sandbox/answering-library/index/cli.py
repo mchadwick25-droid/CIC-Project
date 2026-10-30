@@ -9,7 +9,7 @@ sys.path.insert(0, str(_HERE.parent))
 sys.path.insert(0, str(_HERE.parents[2]))
 
 from engine.provider import guard  # noqa: E402
-from index import card, catalog, contract, estimate, generate, report, retrieve, sample, store  # noqa: E402
+from index import bench, card, contextwork, catalog, contract, dense, estimate, generate, report, retrieve, sample, store, trials  # noqa: E402
 from index.pricing import MODEL_ID  # noqa: E402
 
 DEFAULT_SAMPLE_WORLD = "lpc"
@@ -171,6 +171,72 @@ def cmd_bench(args) -> int:
     return 0
 
 
+def _trial_paths(args):
+    out_dir = _out_dir(args)
+    return out_dir / "index" / f"{args.world}.sqlite", out_dir / "trials"
+
+
+def cmd_embed(args) -> int:
+    db, directory = _trial_paths(args)
+    evidence = bench.load_record_evidence(catalog.REPO_ROOT / "records" / args.world)
+    gold = trials.gold_cache(db, evidence, directory)
+    priority = trials.gold_files(db, bench.load_cells(args.world), gold)
+    items, first = trials.embedding_items(db, args.world, priority)
+    embedder = dense.OnnxEmbedder(dense.ModelFiles.in_directory(Path(args.model_dir)), args.model_id, args.max_tokens, args.threads)
+    print(f"{len(items)} passages on the shelf, {first} in the {len(priority)} files holding gold passages; model {args.model_id}, "
+          f"max {args.max_tokens} tokens")
+    stats = dense.embed_to_shards(embedder, items, directory / "dense" / args.model_id, args.limit)
+    print(f"embedded {stats.passages} passages in {stats.seconds:.0f} s ({stats.per_thousand_seconds:.0f} s per 1,000)")
+    return 0
+
+
+def cmd_context_select(args) -> int:
+    db, directory = _trial_paths(args)
+    evidence = bench.load_record_evidence(catalog.REPO_ROOT / "records" / args.world)
+    gold = trials.gold_cache(db, evidence, directory)
+    selection = trials.pilot_selection(db, bench.load_cells(args.world), gold, args.files, args.radius)
+    rule = {"world": args.world, "files": args.files, "radius": args.radius, "selection": selection}
+    path = directory / "context_pilot.json"
+    path.write_text(json.dumps(rule, indent=1), encoding="utf-8")
+    for file, ids in selection.items():
+        print(f"{len(ids):5d} passages  {file}")
+    print(f"{sum(len(i) for i in selection.values())} passages in {len(selection)} files -> {path}")
+    return 0
+
+
+def cmd_context_export(args) -> int:
+    out_dir = _out_dir(args)
+    shelves = catalog.load_shelves()
+    selection = json.loads((out_dir / "trials" / "context_pilot.json").read_text(encoding="utf-8"))["selection"]
+    target = Path(args.out)
+    total = 0
+    for file, ids in selection.items():
+        passages = contract.read_file_passages(out_dir, file)
+        wanted = set(ids)
+        chosen = [p for p in passages if p.passage_id in wanted]
+        total += len(contextwork.write_packets(target, shelves[file], passages, chosen))
+    print(f"{total} packets under {target}")
+    return 0
+
+
+def cmd_context_answer(args) -> int:
+    text = Path(args.text).read_text(encoding="utf-8")
+    written = contextwork.write_answer_files(Path(args.dir), contextwork.parse_numbered_answers(text))
+    print(f"{len(written)} answer file(s) written")
+    return 0
+
+
+def cmd_context_import(args) -> int:
+    out_dir = _out_dir(args)
+    shelves = catalog.load_shelves()
+    result = contextwork.import_packets(Path(args.dir), out_dir, shelves, args.model)
+    print(f"imported {result.imported}, flagged {result.flagged}, refused batches {result.refused}")
+    for refusal in result.refusals:
+        print(f"  refused: {refusal}")
+    print(f"packets still without an answer: {len(contextwork.pending_packets(Path(args.dir)))}")
+    return 1 if result.refused else 0
+
+
 def cmd_search(args) -> int:
     db = Path(args.db)
     hits = retrieve.search(db, args.query, world=args.world, roles=args.role or None, speakers=args.speaker or None,
@@ -257,6 +323,36 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--out", required=True)
     p.add_argument("--ocr-floor", type=float, default=None, help="also score the bench with passages under this OCR score left out of the ranking")
     p.set_defaults(func=cmd_bench)
+
+    p = sub.add_parser("embed")
+    p.add_argument("--world", default=DEFAULT_SAMPLE_WORLD)
+    p.add_argument("--model-dir", required=True)
+    p.add_argument("--model-id", required=True)
+    p.add_argument("--max-tokens", type=int, default=dense.DEFAULT_MAX_TOKENS)
+    p.add_argument("--threads", type=int, default=None)
+    p.add_argument("--limit", type=int, default=None)
+    p.set_defaults(func=cmd_embed)
+
+    p = sub.add_parser("context-select")
+    p.add_argument("--world", default=DEFAULT_SAMPLE_WORLD)
+    p.add_argument("--files", type=int, default=6)
+    p.add_argument("--radius", type=int, default=10)
+    p.set_defaults(func=cmd_context_select)
+
+    p = sub.add_parser("context-export")
+    p.add_argument("--world", default=DEFAULT_SAMPLE_WORLD)
+    p.add_argument("--out", required=True)
+    p.set_defaults(func=cmd_context_export)
+
+    p = sub.add_parser("context-answer")
+    p.add_argument("--dir", required=True)
+    p.add_argument("--text", required=True)
+    p.set_defaults(func=cmd_context_answer)
+
+    p = sub.add_parser("context-import")
+    p.add_argument("--dir", required=True)
+    p.add_argument("--model", required=True)
+    p.set_defaults(func=cmd_context_import)
 
     p = sub.add_parser("search")
     p.add_argument("query")

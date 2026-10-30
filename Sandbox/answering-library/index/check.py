@@ -18,6 +18,7 @@ STRUCTURAL_WORDS = frozenset(
     ahead opening closing middle early final general particular specific briefly further again also still
     """.split()
 )
+_APOSTROPHES = str.maketrans("’", "'")
 _WORD = re.compile(r"[^\W\d_]+(?:['’-][^\W\d_]+)*|\d+", re.UNICODE)
 
 
@@ -48,6 +49,7 @@ def _supplied(word: str, words: set[str], stems: set[str]) -> bool:
 
 
 def check_context_line(line: str, supplied_text: str) -> CheckResult:
+    line, supplied_text = line.translate(_APOSTROPHES), supplied_text.translate(_APOSTROPHES)
     words, stems = vocabulary(supplied_text)
     tokens = _WORD.findall(line)
     reasons = []
