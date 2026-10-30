@@ -1,7 +1,7 @@
 file: hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt
 scheme: 'Hefele-Leclercq section numbers 5 and 6 of Livre I, chapitre II, printed as a numeral and title at the head of each section; section 6 prints its own sub-numbers 1, 2 and 3 in the text, and the lines before sub-number 1 are the section itself'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: section
     pattern: '^(?P<n>[56])\. (?:Premiers conciles|Synodes de 255)'
