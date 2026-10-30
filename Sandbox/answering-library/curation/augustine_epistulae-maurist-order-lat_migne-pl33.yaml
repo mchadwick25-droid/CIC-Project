@@ -44,16 +44,10 @@ rules:
     lines: [4282, 80401]
     locus: 'class{line}'
     division: false
-  - id: appendix
-    pattern: '^APPENDIX\.$'
-    lines: [80402, 80402]
-    locus: appendix
-    division: false
   - id: appendix-letter
     pattern: '^(?=(?:E|K)\S*S[TI1][O0UV]\S*[\s,])(?P<w>[A-Za-z0-9.!|]{5,9}),?\s+(?:\([a-z]\)\s*)?(?P<n>PRIMA|\(?[A-Z0-9lI!|\\.]{1,12})(?: (?P<bis>BIS))?(?=\s|[*•‘''"»(\[{\\/,.]|$)(?!.*C ?L ?A ?S)'
     lines: [80403, 86125]
-    parent: appendix
-    locus: 'ep{n|int}'
+    locus: 'appendix/ep{n|int}'
     number: n
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
@@ -87,6 +81,7 @@ rules:
       - {line: 66307, set: {c: 'I'}}
       - {line: 71707, set: {c: 'I'}}
       - {line: 72376, set: {c: 'VII'}}
+      - {line: 8095, quote: 'caput primum', set: {c: 'I'}}
       - {line: 4774, quote: 'C A PUT PHIMUM', set: {c: 'I'}}
       - {line: 4816, set: {c: 'II'}}
       - {line: 39742, quote: "C W'U I' II.", set: {c: 'II'}}
@@ -421,6 +416,8 @@ evidence:
     quote: 'bAPliTIX. —'
   - line: 85200
     quote: 'CAPE 1 XXV. —'
+  - line: 8095
+    quote: 'caput primum.'
 divisions:
   - {start_line: 9645, locus: ep34, number: XXXIV, series: letter}
   - {start_line: 21639, locus: ep87, number: LXXXVII, series: letter}
@@ -472,4 +469,4 @@ expected_gaps:
     line: 78810
     quote: 'EPISTOLA CCLXI'
     reason:
-      head_unprinted: {between: [78647, 78810], line: 78790, quote: 'contulerit Augustinus'}
+      leaf_missing: {between: [78647, 78810]}
