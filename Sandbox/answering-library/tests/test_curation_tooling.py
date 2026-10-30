@@ -321,14 +321,16 @@ def test_a_look_alike_with_a_margin_number_is_also_found(tmp_path):
     assert len(problems) == 1 and "(a margin number comes first)" in problems[0]
 
 
-def test_look_alikes_a_reason_names_are_accounted_for(tmp_path):
-    lines = ["SERMO 1", "SERMO x", "t", "SERMO 4"]
+def test_an_unnumbered_head_the_scan_does_not_report_may_be_named(tmp_path):
+    lines = ["SERMO 1", "De pace", "t", "SERMO 4"]
     rule = {"id": "s", "pattern": r"^SERMO (?P<n>\d+)$", "locus": "sermo{n}", "number": "n"}
-    entry = step(4, "SERMO 4", edition_unnumbered={"line": 2, "quote": "SERMO x"})
+    entry = step(4, "SERMO 4", edition_unnumbered={"line": 2, "quote": "De pace"})
     assert unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines)) == []
-    other = step(4, "SERMO 4", leaf_missing={"between": [1, 4]})
-    problems = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[other]), lines))
-    assert len(problems) == 1 and 'line 2 (numeral in a form' in problems[0]
+    flagged = ["SERMO 1", "SERMO x", "t", "SERMO 4"]
+    entry = step(4, "SERMO 4", edition_unnumbered={"line": 2, "quote": "SERMO x"})
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), flagged))
+    assert any("reason edition_unnumbered names line 2" in p for p in problems)
+    assert any("look-alike" in p and "line 2" in p for p in problems)
 
 
 def test_numbers_restart_under_a_new_parent(tmp_path):
@@ -456,7 +458,7 @@ def test_edition_unnumbered_cannot_name_a_head_that_carries_a_damaged_numeral(tm
     lines = ["I. a", "25 VIL Kai b", "t", "IV. d"]
     entry = step(4, "IV. d", edition_unnumbered={"line": 2, "quote": "25 VIL"})
     problems = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines))
-    assert any("numeral in the series' numeral position" in p for p in problems)
+    assert any("numeral position" in p and "edition_unnumbered" in p for p in problems)
     assert any("look-alike" in p and "line 2" in p for p in problems)
 
 
@@ -520,22 +522,84 @@ def test_lowercase_body_text_is_not_a_look_alike_for_an_uppercase_rule(tmp_path)
     assert unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines)) == []
 
 
-def test_not_headings_accounts_for_a_line_that_is_not_a_heading(tmp_path):
-    rule = {"id": "s", "pattern": r"^(?:\d{1,2} )?(?P<n>[IVX]+)[.,]? ", "locus": "sermo{n|int}", "number": "n"}
-    lines = ["I. a", "VI. cited section number", "t", "IV. d"]
-    entry = step(4, "IV. d", leaf_missing={"between": [1, 4]})
-    rule["ocr_map"] = {"6": "V"}
-    lines[1] = "V6 cited section number"
-    plain = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines))
-    assert len(plain) == 1 and "line 2" in plain[0] and "not_headings" in plain[0]
-    ok = [{"line": 2, "quote": "cited section"}]
-    assert unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry], not_headings=ok), lines)) == []
-    wrong = [{"line": 2, "quote": "not there"}]
-    found = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry], not_headings=wrong), lines))
-    assert any("not_headings entry at line 2 quotes text that is not on the line" in p for p in found)
-    stale = [{"line": 3, "quote": "t"}]
-    found = unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry], not_headings=stale + ok), lines))
-    assert len(found) == 1 and "not_headings entry at line 3 is not a look-alike" in found[0]
+CAPUT_RULE = {"id": "s", "pattern": r"^(?:Caput|[CGO0]\.) ?(?P<n>[IVXLCl1]+)[.,]?\s", "locus": "c{n|int}", "number": "n"}
+
+
+def test_no_reason_form_can_excuse_a_damaged_head_the_scan_reports(tmp_path):
+    gebhardt = {"id": "s", "pattern": r"^(?:\d{1,2} )?(?P<n>[IVX]+)[.,]? ", "locus": "sermo{n|int}", "number": "n"}
+    lines = ["I. a", "25 VIL Kai b", "t", "IV. d"]
+    division = {"start_line": 2, "locus": "damaged", "title": "t"}
+    for reason in ({"leaf_missing": {"between": [1, 4]}}, {"edition_unnumbered": {"line": 2, "quote": "25 VIL"}},
+                   {"counterpart": {"line": 2}}):
+        entry = step(4, "IV. d", **reason)
+        cur = make(tmp_path, rules=[gebhardt], expected_gaps=[entry], divisions=[division])
+        problems = unexplained(cu.resolve(cur, lines))
+        assert any("look-alike" in p and "line 2" in p for p in problems), reason
+
+
+def test_a_reading_of_the_series_is_never_excused_by_a_reason(tmp_path):
+    rule = {"id": "s", "pattern": r"^SERMO (?P<n>[IVXLCl1]+)\.", "locus": "sermo{n}", "number": "n"}
+    lines = ["SERMO I. a", "t", "SERMO IlX. b", "t", "SERMO III. c"]
+    for reason in ({"leaf_missing": {"between": [3, 5]}}, {"leaf_missing": {"between": [1, 5]}},
+                   {"edition_unnumbered": {"line": 3, "quote": "IlX"}}):
+        entry = step(5, "SERMO III. c", **reason)
+        assert unexplained(cu.resolve(make(tmp_path, rules=[rule], expected_gaps=[entry]), lines)), reason
+
+
+def test_a_reason_and_the_scan_use_one_test(tmp_path):
+    lines = ["C. I. a", "t", "C. X\u00a7I. b", "t", "C. III. c"]
+    division = {"start_line": 3, "locus": "damaged", "title": "t"}
+    for reason in ({"edition_unnumbered": {"line": 3, "quote": "X\u00a7I"}}, {"counterpart": {"line": 3}}):
+        entry = step(5, "C. III. c", **reason)
+        cur = make(tmp_path, rules=[CAPUT_RULE], expected_gaps=[entry], divisions=[division])
+        problems = unexplained(cu.resolve(cur, lines))
+        assert any("the scan reports as a head of the series" in p for p in problems)
+        assert any("look-alike" in p and "line 3" in p for p in problems)
+
+
+LEAD_RULE = {"id": "s", "pattern": r"^(?:\d{1,2} )?(?P<n>[IVX]+)[.,]? ", "locus": "sermo{n|int}", "number": "n"}
+REAL_LEADING = ["Ilil. Contra litteras Petiliani", "Iill. Contra litteras Petiliani", "Illi. DE CONTINENTIA.",
+                "15 XXilll. Neque enim dictum est", "CLXXXVIIi.", "Xlil. Qu'il consid\u00e8re", "Vil. On continua",
+                "XXXiX. D\u00e8s lors", "iV. Die Ausf\u00fchrung. 49", "Vil. Kai body", "Vill. Sed", "XXiX. wSi", "XIj", "IjXI. Haec"]
+
+
+@pytest.mark.parametrize("head", REAL_LEADING)
+def test_a_damaged_leading_numeral_with_lowercase_strokes_is_found(tmp_path, head):
+    lines = ["I. a", "t", head + " x" if " " not in head else head, "t", "IV. d"]
+    entry = step(5, "IV. d", leaf_missing={"between": [1, 5]})
+    problems = unexplained(cu.resolve(make(tmp_path, rules=[LEAD_RULE], expected_gaps=[entry]), lines))
+    assert len(problems) == 1 and "line 3" in problems[0]
+
+
+@pytest.mark.parametrize("body", ["xxi body text of the page", "ii more text", "in nomine patris", "de pace"])
+def test_a_lowercase_body_word_is_not_a_leading_numeral(tmp_path, body):
+    lines = ["I. a", "t", body, "t", "IV. d"]
+    entry = step(5, "IV. d", leaf_missing={"between": [1, 5]})
+    assert unexplained(cu.resolve(make(tmp_path, rules=[LEAD_RULE], expected_gaps=[entry]), lines)) == []
+
+
+def test_only_a_required_literal_word_skips_the_shape_test(tmp_path):
+    free = {"id": "s", "pattern": r"^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<n>\d{1,3})[.,:] ?",
+            "locus": "s{n}", "number": "n"}
+    lines = ["1. a", "t", "de baptismo Iohannis, quod solet", "collegii consortio iungerentur", "t", "5. e"]
+    entry = step(6, "5. e", leaf_missing={"between": [1, 6]})
+    assert unexplained(cu.resolve(make(tmp_path, rules=[free], expected_gaps=[entry]), lines)) == []
+    required = {"id": "s", "pattern": r"^(?:SERMO|Sermo) (?P<n>[IVX]+)[.,]? ", "locus": "s{n|int}", "number": "n"}
+    lines = ["SERMO I. a", "t", "SERMO de baptismo", "t", "SERMO V. e"]
+    entry = step(5, "SERMO V. e", leaf_missing={"between": [1, 5]})
+    assert any("line 3" in p for p in unexplained(cu.resolve(make(tmp_path, rules=[required], expected_gaps=[entry]), lines)))
+    rules = make(tmp_path, rules=[required, dict(free, id="f")]).rules
+    assert [cu.requires_head_word(r) for r in rules] == [True, False]
+    assert not cu.requires_head_word(make(tmp_path, rules=[LEAD_RULE]).rules[0])
+    assert cu.requires_head_word(make(tmp_path, rules=[CAPUT_RULE]).rules[0])
+
+
+def test_counterpart_may_name_a_reading_of_another_series(tmp_path):
+    s = {"id": "s", "pattern": r"^(?P<n>[IVX]+)\. ", "locus": "s{n|int}", "number": "n", "lines": [[1, 1], [4, 4]]}
+    g = {"id": "g", "pattern": r"^(?P<n>[IVX]+)\. ", "locus": "g{n|int}", "number": "n", "lines": [[2, 3], [5, 5]]}
+    lines = ["I. a", "I. a", "II. b", "III. c", "III. c"]
+    entry = step(4, "III. c", counterpart={"line": 3})
+    assert unexplained(cu.resolve(make(tmp_path, rules=[s, g], expected_gaps=[entry]), lines)) == []
 
 
 def test_a_fix_of_another_rule_does_not_cover_a_damaged_head(tmp_path):
@@ -553,5 +617,3 @@ def test_yaml_booleans_are_not_line_numbers(tmp_path):
                   step(3, "SERMO 3", edition_unnumbered={"line": True, "quote": "x"})):
         with pytest.raises(cu.CurationError):
             make(tmp_path, rules=[SERMO], expected_gaps=[entry])
-    with pytest.raises(cu.CurationError, match="not_headings"):
-        make(tmp_path, rules=[SERMO], not_headings=[{"line": True, "quote": "x"}])

@@ -16,6 +16,9 @@ from __future__ import annotations
 import hashlib
 import re
 import unicodedata
+from functools import lru_cache
+from re import _constants as _sre_c
+from re import _parser as _sre_parse
 from bisect import bisect_right
 from collections import Counter
 from dataclasses import dataclass, field
@@ -37,7 +40,7 @@ _SUBHEADING_FAMILIES = ("kw:", "bare:roman", "numtitle", "section", "numpara")
 SPEAKER_STATES = ("known", "mixed", "unknown")
 
 _TOP_KEYS = {"file", "scheme", "curator", "status", "language", "rules", "divisions", "ignore", "apparatus",
-             "languages", "speakers", "evidence", "page_splits", "expected_gaps", "not_subheadings", "not_headings"}
+             "languages", "speakers", "evidence", "page_splits", "expected_gaps", "not_subheadings"}
 _NOT_SUB_KEYS = {"lines", "kind", "quote"}
 NOT_SUBHEADING_KINDS = ("footnote", "running-head", "ocr-debris", "quoted-list")
 _EXPECTED_KEYS = {"series", "line", "quote", "reason"}
@@ -45,10 +48,9 @@ REASON_FORMS = {"leaf_missing": {"between"}, "counterpart": {"line"}, "edition_u
                 "as_printed": {"line", "quote"}}
 REASON_STEPS = {"leaf_missing": ("gaps",), "edition_unnumbered": ("gaps",), "as_printed": ("repeated", "backward"),
                 "counterpart": ("gaps", "repeated", "backward")}
-_NUMERAL_LETTERS = ("IVXLCDM0123456789l|!\\^'[]()*TUHYWF"
-                    "\u0399\u03a7\u039d\u03a4\u0397\u03a5\u0406\u0474\u0475")
-_LOWER_STROKES = "ijnr"
-_NOT_HEADING_KEYS = {"line", "quote"}
+_UPPER_NUMERAL = "IVXLCDM\u0399\u03a7\u039d\u0406\u0474"
+_NUMERAL_STROKES = "0123456789|!\\^'[]()*TUHYWF\u03a4\u0397\u03a5\u0475"
+_LOWER_STROKES = "ijlnr"
 LOOKALIKE_MARGIN = "a margin number comes first"
 LOOKALIKE_NUMERAL = "numeral in a form the pattern does not read"
 LOOKALIKE_UNREAD = "a reading of the series whose numeral could not be read"
@@ -120,7 +122,6 @@ class Curation:
     page_splits: list[PageSplit] = field(default_factory=list)
     expected_gaps: list[dict] = field(default_factory=list)
     not_subheadings: list[dict] = field(default_factory=list)
-    not_headings: list[dict] = field(default_factory=list)
 
     @property
     def stem(self) -> str:
@@ -427,14 +428,6 @@ def load(path: Path) -> Curation:
         expected_gaps.append({"series": e["series"], "line": e["line"], "quote": " ".join(str(e["quote"]).split()),
                               "reason": _reason(e.get("reason"), where)})
 
-    not_headings = []
-    for k, e in enumerate(data.get("not_headings") or []):
-        where = f"{name} not_headings[{k}]"
-        _check_keys(e, _NOT_HEADING_KEYS, where)
-        if not _is_int(e.get("line")) or e["line"] < 1 or not " ".join(str(e.get("quote") or "").split()):
-            raise CurationError(f"{where}: needs a positive integer line and a quote")
-        not_headings.append({"line": e["line"], "quote": " ".join(str(e["quote"]).split())})
-
     not_subheadings = []
     for k, e in enumerate(data.get("not_subheadings") or []):
         where = f"{name} not_subheadings[{k}]"
@@ -486,8 +479,7 @@ def load(path: Path) -> Curation:
                     status=data["status"], language=data.get("language"), rules=rules, divisions=divisions,
                     ignore=ignore, apparatus=apparatus, languages=languages, speakers=speakers, evidence=evidence,
                     sha256=hashlib.sha256(raw).hexdigest(), page_splits=page_splits,
-                    expected_gaps=expected_gaps, not_subheadings=not_subheadings,
-                    not_headings=not_headings)
+                    expected_gaps=expected_gaps, not_subheadings=not_subheadings)
 
 
 def for_file(filename: str, directory: Path | None = None, applied_only: bool = True) -> Curation | None:
@@ -597,26 +589,67 @@ def _loosened(rule):
         return None
 
 
-def _numeral_shaped(token: str, rule, lower_strokes=True) -> bool:
-    """Whether a token could be a numeral the scan has mangled: it is short and made only of numeral letters,
-    digits, the strokes OCR puts in their place, and the characters the rule's ocr_map names. Lowercase
-    numeral letters count only for a rule whose pattern ignores case; the lowercase strokes i j n r count
-    only when lower_strokes is set, which is for a line that already has a literal head word or a reason."""
+def _numeral_shaped(token: str, rule) -> bool:
+    """Whether a token could be a numeral the scan has mangled. It is short and made of numeral letters,
+    digits, the strokes OCR puts in their place and the characters the rule's ocr_map names. The lowercase
+    strokes i j l n r count only in a token that also holds an uppercase numeral letter, so a lowercase body
+    word such as xxi is not a numeral unless the rule ignores case or its ocr_map names the letters."""
     token = "".join(ch for ch in unicodedata.normalize("NFD", token.strip(".,;:'\u2019\u1fbf"))
                     if not unicodedata.combining(ch))
-    allowed = set(_NUMERAL_LETTERS) | set(rule.ocr_map) | set(rule.ocr_map.values())
-    if lower_strokes:
-        allowed |= set(_LOWER_STROKES)
+    mapped = set(rule.ocr_map) | set(rule.ocr_map.values())
+    allowed = set(_UPPER_NUMERAL) | set(_NUMERAL_STROKES) | mapped
     if rule.rx.flags & re.IGNORECASE:
         allowed |= set("vxcdm")
+    if any(ch in _UPPER_NUMERAL for ch in token):
+        allowed |= set(_LOWER_STROKES)
     return 0 < len(token) <= 12 and all(ch in allowed for ch in token)
 
 
-def _lookalike(rule, loose, text, shaped=False):
-    """Why a line that the rule's pattern does not match still looks like one of its headings, or None.
-    shaped=True also asks a numeral in a form the pattern does not read to look like a mangled numeral;
-    shaped='lead' asks it only when the numeral is the first token of the heading, because a literal head
-    word before it already makes the line a heading."""
+def _prefix_items(items, group):
+    """The parsed pattern items before the numeral group, flattened through enclosing groups, or None."""
+    for k, (op, av) in enumerate(items):
+        if op is _sre_c.SUBPATTERN:
+            if av[0] == group:
+                return list(items[:k])
+            inner = _prefix_items(av[3], group)
+            if inner is not None:
+                return list(items[:k]) + inner
+    return None
+
+
+def _requires_word(items) -> bool:
+    for op, av in items:
+        if op is _sre_c.LITERAL and chr(av).isalpha():
+            return True
+        if op is _sre_c.IN and av and all(o is _sre_c.LITERAL for o, _ in av) and any(chr(a).isalpha() for _, a in av):
+            return True
+        if op is _sre_c.SUBPATTERN and _requires_word(av[3]):
+            return True
+        if op is _sre_c.BRANCH and all(_requires_word(list(b)) for b in av[1]):
+            return True
+        if op in (_sre_c.MAX_REPEAT, _sre_c.MIN_REPEAT) and av[0] >= 1 and _requires_word(list(av[2])):
+            return True
+    return False
+
+
+@lru_cache(maxsize=None)
+def _pattern_requires_word(pattern: str, flags: int, group: int) -> bool:
+    prefix = _prefix_items(_sre_parse.parse(pattern, flags), group)
+    return bool(prefix) and _requires_word(prefix)
+
+
+def requires_head_word(rule) -> bool:
+    """Whether the rule's pattern demands a literal word (Caput, C., SERMO) before the numeral group. A prefix of
+    optional groups or free-token classes does not."""
+    group = rule.rx.groupindex.get(rule.number)
+    return bool(group) and _pattern_requires_word(rule.rx.pattern, rule.rx.flags, group)
+
+
+def _lookalike(rule, loose, text):
+    """Why a line that the rule's pattern does not match is still a head of the series, or None. It is one when a
+    margin number comes first, or when the numeral position holds a token that looks like a mangled numeral. A
+    pattern that requires a literal head word before the numeral (Caput, C., SERMO) makes any token there a
+    numeral, because the head word already makes the line a heading."""
     if rule.rx.search(text):
         return None
     stripped = re.sub(r"^\d{1,5}\s+", "", text)
@@ -625,11 +658,9 @@ def _lookalike(rule, loose, text, shaped=False):
     m = loose.search(text) if loose is not None else None
     if m is None:
         return None
-    leads = not re.sub(r"^\d{1,5}\s+", "", text[:m.start(rule.number)]).strip()
-    if (shaped is True or (shaped == "lead" and leads)) and not _numeral_shaped(
-            m.group(rule.number) or "", rule, lower_strokes=shaped is True or not leads):
-        return None
-    return LOOKALIKE_NUMERAL
+    if requires_head_word(rule) or _numeral_shaped(m.group(rule.number) or "", rule):
+        return LOOKALIKE_NUMERAL
+    return None
 
 
 def previous_lines(seq: list, groups: list | None = None) -> dict[int, int]:
@@ -1003,9 +1034,8 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
     head_lines = {d.start + 1 for d in divisions if d.origin == "marker"}
     head_lines.update(line for seq in sequences.values() for line, _ in seq)
     scan = _GapScan(norm=norm, n=n, furniture=furniture, apparatus=[(a["first"], a["last"]) for a in cur.apparatus],
-                    h_end=h_end, language_at=language_at, head_lines=head_lines)
-    not_heading_lines = {e["line"] for e in cur.not_headings}
-    reported: set[int] = set()
+                    h_end=h_end, language_at=language_at, head_lines=head_lines,
+                    readings={sid: {line for line, _ in seq} for sid, seq in sequences.items()})
     for e in cur.expected_gaps:
         sid, at = e["series"], e["line"]
         label = f"expected_gaps for series '{sid}' at line {at}"
@@ -1024,21 +1054,12 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
             unread = {line for line, value in sequences[sid] if value is None}
             problems.extend(_reason_problems(cur, e, label, found[at], before, scan, readings))
             hidden = _hidden_heads(cur, e, before, scan, unread)
-            reported.update(i + 1 for i, _ in hidden)
-            hidden = [(i, kind) for i, kind in hidden if i + 1 not in not_heading_lines]
             if hidden:
                 shown = "; ".join(f'line {i + 1} ({kind}): "{norm[i][:60]}"' for i, kind in hidden[:6])
                 problems.append(f"{label} excuses a step with a look-alike heading of the series between its "
                                 f"neighbours (lines {before} and {at}), which nothing accounts for: {shown}; a "
                                 "printed numeral that is damaged is not a gap: read it with a fix or an ocr_map "
-                                "entry, or list the line in not_headings if it is not a heading")
-    for e in cur.not_headings:
-        if not 0 < e["line"] <= n or e["quote"] not in norm[e["line"] - 1]:
-            problems.append(f"not_headings entry at line {e['line']} quotes text that is not on the line: "
-                            f"\"{e['quote']}\"")
-        elif e["line"] not in reported:
-            problems.append(f"not_headings entry at line {e['line']} is not a look-alike that the scan of any "
-                            "expected_gaps entry reports")
+                                "entry")
     for sid, found in anomalies.items():
         if sid.startswith("page_splits["):
             continue
@@ -1067,18 +1088,16 @@ class _GapScan:
     h_end: int
     language_at: object
     head_lines: set
+    readings: dict
 
 
 def _series_rules(cur, sid):
     return [r for r in cur.rules if r.id == sid and r.number] or [r for r in cur.rules if r.number]
 
 
-def _carries_numeral(cur, sid, text) -> bool:
-    """Whether a line has a numeral in the series' numeral position, read or damaged."""
-    for rule in _series_rules(cur, sid):
-        if rule.rx.search(text) or _lookalike(rule, _loosened(rule), text, shaped=True):
-            return True
-    return False
+def _carries_numeral(rules, text) -> bool:
+    """Whether a line is a reading or a look-alike head of any of the rules: the predicate the scan applies."""
+    return any(rule.rx.search(text) or _lookalike(rule, _loosened(rule), text) for rule in rules)
 
 
 def _reason_problems(cur, e, label, kind, before, scan, readings) -> list[str]:
@@ -1123,9 +1142,11 @@ def _reason_problems(cur, e, label, kind, before, scan, readings) -> list[str]:
         if before is not None and not before <= line <= after:
             return [f"{label} reason counterpart line {line} is not within or next to the step "
                     f"(lines {before} to {after})"]
-    if _carries_numeral(cur, e["series"], norm[line - 1]):
-        return [f"{label} reason {form} names line {line}, which has a numeral in the series' numeral "
-                "position; a head with a numeral, read or damaged, is not unnumbered or a counterpart"]
+    if form == "counterpart" and any(line in lines for sid, lines in scan.readings.items() if sid != e["series"]):
+        return []
+    if _carries_numeral(_series_rules(cur, e["series"]), norm[line - 1]):
+        return [f"{label} reason {form} names line {line}, which the scan reports as a head of the series with a "
+                "numeral in its numeral position; such a head is neither unnumbered nor a counterpart"]
     return []
 
 
@@ -1136,11 +1157,6 @@ def _hidden_heads(cur, e, before, scan, unread) -> list[tuple[int, str]]:
         return []
     rules = _series_rules(cur, e["series"])
     accounted = set().union(*(set(r.fixes) for r in rules))
-    reason = e["reason"] or {}
-    named = reason.get("line", 0)
-    if (reason.get("form") in ("counterpart", "edition_unnumbered") and 1 <= named <= scan.n
-            and not _carries_numeral(cur, e["series"], scan.norm[named - 1])):
-        accounted.add(named - 1)
     hidden: dict[int, str] = {}
     for line in sorted(x for x in unread if before <= x < e["line"]):
         hidden[line - 1] = LOOKALIKE_UNREAD
@@ -1151,7 +1167,7 @@ def _hidden_heads(cur, e, before, scan, unread) -> list[tuple[int, str]]:
                     or any(a <= i <= b for a, b in scan.apparatus)
                     or (rule.language is not None and scan.language_at(i) not in rule.language)):
                 continue
-            kind = _lookalike(rule, loose, scan.norm[i], shaped="lead")
+            kind = _lookalike(rule, loose, scan.norm[i])
             if kind:
                 hidden[i] = kind
     return sorted(hidden.items())
