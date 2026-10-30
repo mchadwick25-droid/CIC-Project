@@ -2969,3 +2969,9 @@ Ran: the 30 validation conversations (the 10-turn Deep Interview included) on th
 Result (Opus review, `Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md`): Revise. 39 rows: 2 PASS, 25 CONCERN, 10 FAIL (run 3 on the older pin had 13), one fabrication (laundering-2: the Donatist believer is given words from Sermon 79). Gone: Letter 228 with an army outside Hippo, Celerinus's sister buying a certificate, pointers to other worlds. Correct: the world's end at 430. Repeated: caution 14 and 15 breaches, withheld sentences leaving gutted answers, build talk. The gate reads voice-turn readability now. `validation lpc` fails on three content findings and one readability finding; lpc stays `built`, not `admitted`.
 
 Not tested by these questions: baptism as new birth, the apse letter, Felicissimus, the scoped women's-writing claim. No spend is approved beyond this entry.
+
+### 2026-10-30 — Go-live status check; live rerun approved in principle, not run (record)
+
+Context: the 2026-10-27 go-live brief was out of date. On `main` the card fields, portrait, `living_traditions`, traditions page and story tellings already exist; `deployed`, `records`, `regate` and `claims` pass on pin `packages/lpc/2026-10-30T20-22-15Z`. One stale claims row (37485f14, the removed Election paragraph) was removed (OG-118). No record or package changed; no spend.
+
+Ruling: the project lead, 2026-10-30, in chat, chose to approve a capped live rerun, proposed as "lpc go-live rerun 2", cap $3.00 (admission plus full validation, once, on the current pin). It has not run: this session's container has no Anthropic API key and no `anthropic` package, so `--settings-only` could not print the settings. The System Hub Decision Log entry for this test is not yet written, and the 2026-10-29 conditions (engine changes decided in the Engine Change Ledger, record fixes of OG-113 reviewed and re-pinned) are not checked.
