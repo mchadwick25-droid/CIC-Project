@@ -41,3 +41,52 @@ All seven files pass the whole check and carry `status: drafted`.
 5. Benson 25689 vs `chapter9/part1` start at "(RESUMED)." 25686, and the appendices A to L as `notes` apparatus: both left as the reader recorded them (minor / a project decision).
 6. Benson `introduction`, ch. III question 3 and ch. VII section 3 part 2 keep their old `allow_oversize` sentence. The scan accepts them (10 or fewer heading-like lines); the sentences were not re-read against the page.
 7. Benson ch. X: the scan duplicates one page, so the heading "2. Rome. — The exclusion from the Cemeteries." prints twice (28158 and 28215) with the same text beneath. Part 2 starts at the first; the repeat sits inside it.
+
+## Round 3 (B8 sample review): Benson and both Mesnage scans
+
+Start 2026-10-30 21:49 UTC, end 22:03 UTC (about 14 minutes). Code: `answering_library` exported from origin/main into the scratchpad, `cic/texts` linked there; nothing inside the shared checkout.
+
+### What was wrong
+
+- **Benson.** Printed "INTERCALARY. / PRESBYTERS AS MEMBERS OF THE ADMINISTRATION." (19508, 19510; Contents 559-561; running heads from 19543) sat inside `chapter7/section3/part2`, which was filed as "2. The Gaulish Appeal" with a false `allow_oversize` sentence. VI section 5 prints "I. The Mixed Cup." (17577) and "2. The Age of Baptism." (18009), matching Contents 537-539 and the running heads at 17998 and 18098, and was not split.
+- **Both Mesnage scans.** The explicit entry lists were wrong in kind, in two directions.
+  - Non-entries taken as entries. A later line of an entry started a division, so the real entry kept only its name and its text sat under a non-heading: "Évêché. More..." and "More., ..." lines, bishop-name lines (MONTANUS, JULIANUS, DEUTERIUS, FORTUNIUS, ROMANDS, VOGONIUS), location lines ("S.-E. du lac Djendeli.", "Route d'Aïn Beida...", "S.-E. de Bir el Henchir."), alias or continuation lines of a heading ("Alex. Liberum.", "Colonia Aelia Augusta Mereurialis...", "Haimeur du Corpus."), run-in sentence ends ("Montesquieu.)", "SUSICAZIA." in "Voir Évêchés non identifiés : SUSICAZIA", "Gazabiana.", "IV kal. dec."), a Nota inside Medjenat, and in the antiques scan `Bacanaria` (31668, 2,355 words of the Tingitane introduction), eleven cells of the Bevegerius table (32013-32073) and the "Espagne." row (32088).
+  - Real entries lost. A heading line printed with no blank line after it (the first line of text follows at once) was not taken as an entry. Its text was filed under the previous entry. About 72 entries in the antiques scan and 288 in the ruines scan, for example Ater (Bir el), Anguia, Aquiaba, AURUSULIANA, AUSANA, Teboursouk, Mahfadia, Tiklat, Ahmed (Hr S1), Ahmed Djedidi.
+
+### What was done
+
+- **Benson.** Four divisions added: `chapter6/section5/part1` (17577), `part2` (18009), `chapter6/section5/part2/objection-to-council-iii-on-account-of-its-antipelagianism-l18101` (the Contents entry the body prints at 18101) and `chapter7/intercalary-presbyters-as-members-of-the-administration-l19508`. `chapter7/section3/part2` (19029-19507) lost its `allow_oversize`; it now holds 3,356 words. Four evidence lines added.
+- **Mesnage.** The rule for an entry was read from the print: a short heading line after a blank line, followed by its text with or without a blank line, in alphabetical order inside each part. Three tests were run on each scan: titles that are not place-name shaped; every division after an entry of 3 words or fewer; alphabetical order against neighbours. The two scans were then aligned against each other by heading text and order (1,782 of 1,802 headings matched by program, the remaining 20 read by hand), so each scan's missing and false divisions showed up against the other. Every addition and removal was read in context.
+  - Antiques: 44 non-entry divisions removed, 72 entries added, one heading moved to its first printed line (Mehdia: the heading is printed in three stacked lines; the division starts at 8207, locus `tunisie/meh-d-ia-8207`, title the OCR token "Meh.d.ia").
+  - Ruines: 42 non-entry divisions removed, 288 entries added, Mehdia moved the same way (`tunisie/mehdia-8011`).
+  - Maroc: the Tingitane introduction is now one division (31634 / 30605); real entries Dimmad el Achira, Faraoun, Tanger stay.
+  - The new loci follow the scheme (`<part>/<printed heading slug>-<line>`); no title or number is invented. Titles are the first printed line, OCR errors kept.
+
+### Final check output
+
+Check runs: about a dozen across the three files as the lists changed (not counted exactly). Final:
+
+| File | Divisions before | After | Result |
+|---|---|---|---|
+| `benson_cyprian-his-life-his-times-his-work_1897` | 124 (111 body) | 128 (115 body) | PASS, class curated, 745 byte ranges exact |
+| `mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912` | 1,786 (1,779 body) | 1,814 (1,807 body) | PASS, class curated, 0 over 5,000 words, 1,983 ranges 0 mismatch |
+| `mesnage_afrique-chretienne-eveches-ruines-fra_1912` | 1,569 (1,562 body) | 1,815 (1,808 body) | PASS, class curated, 0 over 5,000 words, 1,982 ranges 0 mismatch |
+
+All three carry `status: drafted`. No checker or tooling change.
+
+### Remaining defects
+
+- The Mesnage recall is not proven complete. A heading that no scan caught and that the other scan lacks too would still be filed under the previous entry. The 15-entry sample per file (random seed) showed no non-entry divisions and no entry run into another.
+- Headings the print breaks across lines or prints in a bracket stack (Mehdia) take the first printed line as the start; the title is an OCR fragment.
+- A few sub-headings inside an entry stay as divisions because the edition prints them as headings: "Musée Lavigerie.", "Musée de Lambèse...", "Ausvaga II." (antiques only), "BOSET II.", "NUMIDIE ET MAURÉTANIE SITIFIENNE", "Bains romains." (not a division; left in its entry).
+- The two Mesnage scans differ in how many sub-lines they set as divisions only where the print differs; each list was checked against the other, not against a third source.
+- Benson unnumbered Contents entries still inside sections (8250, 11303, 11431, 11826, 12707, 15795) are unchanged from the reader's note (a).
+
+### Judgment calls for the Opus reader
+
+1. Benson 18101 is added although the reader called it optional: the scheme promises Contents entries by heading text plus line, and the entry is printed.
+2. Mesnage "Evêques" bishop lines (all-caps personal names) are never divisions, even when they follow a blank line; the only all-caps divisions kept are place names on the lists of unidentified sees.
+3. Mesnage Mehdia start line (8207 / 8011) is the first line of the stacked heading, so the division does not begin on the third printed line of its own heading.
+4. "Gafsa. = Gapsa col. A l'époque byzantine..." (antiques 5404) is taken as an entry although the heading and the first sentence share a line.
+5. Mesnage `Bevegerius` table and the reordered list (32083-32092 antiques, 30985 ruines) are left inside the Tingitane introduction division, not set as apparatus; they are part of its argument.
+6. Ruines "Batoum. | Kondiat el)" (16168) keeps its OCR title; the bar and bracket are printed damage.
