@@ -503,3 +503,12 @@ Mark, 2026-10-30, direct, after the source was checked: keep the cause in the Nu
 - The editor's footnote for the "unconquered" variant does exist in this edition (iv.iv.xxxiv-p5.1), so the source gap behind OG-114 is answered if the variant is ever wanted; it stays out of the telling under the no-absence rule.
 - lpc gates pass; lpc repinned to 2026-10-30T20-22-15Z; site world JSON rebuilt.
 
+## 23. Short and medium tellings for the other five lpc stories (2026-10-30)
+
+Coordination thread, 2026-10-30: author the five remaining lpc stories (quote-heavy first), Opus writes, a second Opus pass reviews, all gates, under the rules in force.
+
+- Build-side only: `Build/Ministry/Features/Answering-From-Sources/S3-Stories/Tellings/lpc_five_stories.json`; no record, package or site JSON touched.
+- Rules applied: entry 18 (no unprompted absence statements), the closing-line test, quotations exact, targets about 90 and 160 plus 15%.
+- Findings fixed after the second pass: the Death of Cyprian tellings credited the Acta-only answer and cry to Pontius; its heart said more than the record ("to the end"); the Psalms medium closed on "he slept with his fathers", against the not-serene guard; the Celerinus heart failed the readability floor and its wording of Lucian's peace was closer to a grant than a request. A recheck then fixed an unsupported "the Acta ends" sentence and the order of the Psalms quotation.
+- The records' `telling` and `text` fields for these five still carry absence statements (listed in entry 21); they are edited in the record stage, each with a guard check first.
+
