@@ -1,7 +1,7 @@
 file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 scheme: 'Robinson 1891: the Passion of S. Perpetua in chapters I to XXI, printed in the Latin text and again in the Greek text (addresses lat-ch and grc-ch); the introduction, additional notes, appendix and recensions have no numbered divisions in the edition, except the four additional notes, so they are addressed by the printed heading text plus the line number'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: latin
     pattern: '^(?:\d+ )?(?P<c>[IVX]+)\. '

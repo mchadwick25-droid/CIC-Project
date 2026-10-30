@@ -1,7 +1,7 @@
 file: benson_cyprian-his-life-his-times-his-work_1897.txt
 scheme: 'Benson''s own structure as printed in his Contents: the Introduction, chapters I to XII printed as CHAPTER with a roman numeral, the numbered sections of each chapter printed as a roman numeral alone on a line above the section title, the numbered sub-parts and questions where the body prints them, the unnumbered Contents entries inside a section addressed by the printed heading text plus the line number, and Appendices A to L'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 divisions:
   - start_line: 1215
     locus: introduction
