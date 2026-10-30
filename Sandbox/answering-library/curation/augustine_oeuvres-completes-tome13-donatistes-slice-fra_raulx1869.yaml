@@ -1,7 +1,7 @@
 file: augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869.txt
 scheme: 'Raulx translation, volume 13, Controverse avec les Donatistes: each work is named by its printed title (De l''unite du bapteme, the three days of the Resume d''une conference, Avertissement aux Donatistes, Discours au peuple de Cesaree, Conference avec Emerite, Gaudentius books one and two, Discours attribue a saint Augustin); inside a work the translation prints Augustine''s own paragraph numerals in roman capitals (arabic 1 for the first paragraph in Gaudentius book one)'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 rules:
   - id: w0
     pattern: '^\S'
@@ -65,6 +65,9 @@ rules:
         set: {r: 'II'}
       - line: 284
         set: {r: 'VII'}
+      - line: 664
+        quote: 'Xlil.'
+        set: {r: 'XIII'}
   - id: p1
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [1752, 2345]
@@ -92,6 +95,9 @@ rules:
     fixes:
       - line: 3121
         set: {r: 'XI'}
+      - line: 3286
+        quote: 'Xiy.'
+        set: {r: 'XIV'}
   - id: p4
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [5142, 8870]
@@ -99,6 +105,16 @@ rules:
     locus: 'p{r|int}'
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
     number: r
+    fixes:
+      - line: 5294
+        quote: 'm.'
+        set: {r: 'III'}
+      - line: 6510
+        quote: 'XXIÏ.'
+        set: {r: 'XXII'}
+      - line: 8028
+        quote: 'XLYII.'
+        set: {r: 'XLVII'}
   - id: p5
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [8871, 9591]
@@ -106,6 +122,10 @@ rules:
     locus: 'p{r|int}'
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
     number: r
+    fixes:
+      - line: 9109
+        quote: 'm.'
+        set: {r: 'III'}
   - id: p6
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [9592, 10454]
@@ -113,6 +133,10 @@ rules:
     locus: 'p{r|int}'
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
     number: r
+    fixes:
+      - line: 9976
+        quote: 'Vil.'
+        set: {r: 'VII'}
   - id: p7
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [10460, 13954]
@@ -120,6 +144,16 @@ rules:
     locus: 'p{r|int}'
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
     number: r
+    fixes:
+      - line: 10933
+        quote: 'XV .'
+        set: {r: 'XV'}
+      - line: 12790
+        quote: 'XXXMII.'
+        set: {r: 'XXXVIII'}
+      - line: 12864
+        quote: 'XXXiX.'
+        set: {r: 'XXXIX'}
   - id: p8
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [13955, 15066]
@@ -127,6 +161,10 @@ rules:
     locus: 'p{r|int}'
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'J': 'I'}
     number: r
+    fixes:
+      - line: 14038
+        quote: 'm.'
+        set: {r: 'III'}
   - id: p9
     pattern: '^(?!.{1,14}$)(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *(?:[A-Za-zÀ-ÿŒœ«]|1[1l] [a-zà-ÿ])|(?<=[IVX]L) (?=[A-ZÀ-Ý]))'
     lines: [15067, 15440]
@@ -173,3 +211,25 @@ evidence:
     quote: XLVII. C'est ainsi
   - line: 15076
     quote: I. Je me présente
+  - line: 664
+    quote: 'Xlil. Qu'
+  - line: 3286
+    quote: 'Xiy. Le mémoire'
+  - line: 5294
+    quote: 'm. C'
+  - line: 6510
+    quote: 'XXIÏ. Après'
+  - line: 8028
+    quote: 'XLYII. Comment'
+  - line: 9109
+    quote: 'm. Mais'
+  - line: 9976
+    quote: 'Vil. On continua'
+  - line: 10933
+    quote: 'XV . Texte'
+  - line: 12790
+    quote: 'XXXMII. Il est vrai'
+  - line: 12864
+    quote: 'XXXiX. Dès lors'
+  - line: 14038
+    quote: 'm. Telle'
