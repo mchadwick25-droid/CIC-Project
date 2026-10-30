@@ -574,4 +574,4 @@ Mark, 2026-10-30, by choice box, relayed by the coordination thread:
 
 Coordination-level, AI-reviewed (not Mark's own): the 20-pair calibration set for the fit step, with a bar of 19 of 20 caught before its verdicts count.
 
-A fresh Opus reviewer checked the six wordings against their records before the new seal; its findings and the fixes are in the change order file.
+A fresh Opus reviewer checked the six wordings against their records before the new seal: four passed, two were reworded (q101 moved to the past tense and third person, q105 narrowed to the church's own poor and widows). The new set `S3-Test100/lpc_106_questions.yaml` has sha256 `22fefa5581554c4dca1e1e2e2db7bf973dc2fe1f5ccb7c73c0a9c2be6b97c0c2`. The original 100 and their seal (entry 26) are untouched. Findings and fixes are in the change order file.

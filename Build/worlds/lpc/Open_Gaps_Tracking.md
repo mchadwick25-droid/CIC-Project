@@ -2431,3 +2431,11 @@ Logged 2026-10-30.
 - **Open.** Other record types (figures, terms, honest limits, witnesses) were not scanned for the same pattern; an `absent_detail` or `honest_limit` is a deliberate answer to a direct question and stays.
 - **Owner.** Project lead, to say whether a scan of the other record types is wanted.
 
+
+### OG-119. The surgeon's-knife quote record has no "no warrant for striking anyone today" line (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Open.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` carries "if need be with scourges". Its `not_for` says the blows are not a church penalty, but, unlike `lpc.quote.love-and-do-what-thou-wilt`, it has no line against using the passage to excuse striking a child or anyone today. Found by the fresh reviewer of the six fit traps (`Build/Ministry/Features/Answering-From-Sources/S3-Test100/Change_Order_Fit_Traps.md`).
+- **Not done.** A record edit, which stales lpc's package and needs a re-pin, so it is not made quietly. Whether to add the line is a record decision.
+- **Owner.** Project lead, through the coordination thread.
