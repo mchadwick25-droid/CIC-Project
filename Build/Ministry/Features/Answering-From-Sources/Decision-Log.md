@@ -455,3 +455,11 @@ every specialist-versus-judge disagreement in the key classes and a random sampl
   read, and external human experts testing the built system at the end.
 - Mark may spot-check any item on the packet page. His weekly adjudication budget
   is no longer a dependency of the gold set.
+
+## 18. No unprompted absence statements in story tellings (2026-10-30)
+
+Mark, 2026-10-30, direct: "we don't need to say something that is missing, like the story doesn't say where they looked, that is an unnecessary thing, we only say we don't know if it is in direct response to a question, we don't insert it for no reason".
+
+- Rule for every story telling (short, medium, and any later live retelling): do not volunteer what the story or source does not say. "We don't know" or "the record doesn't say" appears only when the visitor's question asks for that detail.
+- Reconciled with the record guards: a `not_for` line or contested claim keeps its caveat only where the telling would otherwise assert or imply the guarded thing. If the telling leaves the detail out, no caveat is needed.
+- Applied to the two lpc tellings (Numidicus, Election of Cyprian); added to the telling review checklist and to the schema change order's gate text.
