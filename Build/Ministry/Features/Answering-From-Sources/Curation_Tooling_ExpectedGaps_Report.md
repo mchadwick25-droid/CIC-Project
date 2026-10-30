@@ -32,7 +32,19 @@ Total look-alike lines over all files: 34,367 before, 34,359 after. Warning line
 
 Files that exit 1 on main and still do (unchanged by this change): augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41, augustine_doctrina-christiana-enchiridion-lat_bruder1838, augustine_epistulae-1-123-lat_goldbacher-csel34, augustine_epistulae-124-184a-lat_goldbacher-csel44, augustine_epistulae-critical_goldbacher-csel57-pars4, augustine_epistulae-maurist-order-lat_migne-pl33, augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869, augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41, augustine_retractationes-lat_knoll-csel36, augustine_sermones-1-340-lat_migne-pl38, augustine_sermones-341-396-et-appendix-lat_migne-pl39, augustine_sermones-ad-populum-lat_migne-gaume1841-t5, augustine_sermones-inediti-lat_caillau1842, augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910, benson_cyprian-his-life-his-times-his-work_1897, harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906, koch_cathedra-petri-deu_1930, koch_cyprianische-untersuchungen-deu_1926, optatus_against-the-donatists, ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.
 
+## Round 2 (review findings 1 to 4)
+
+Changes: `edition_unnumbered` and `counterpart` refuse a line that carries a numeral; an unreadable reading between the neighbours fails the entry; the numeral-shape test applies only where the numeral is the first token of the heading (so a head word such as `Caput` or `C.` needs no test) and lowercase letters no longer count for a case-sensitive rule; `not_headings` lists a line that is not a heading; `counterpart` must be a head outside the series near the step; only fixes of the series' own rules count; YAML booleans are rejected as line numbers.
+
+Replays on the real files, with the new code:
+
+- Gebhardt a330439be yaml with `edition_unnumbered {line: 3729, quote: '25 VIL'}`: FAIL. Line 3729 is refused as a head with a numeral and stays in the scan. With `leaf_missing` or no reason: FAIL on line 3729. Line 3671 (`xxi χκαταγαγών…`) is no longer flagged.
+- `augustine_doctrina-christiana-enchiridion-lat_bruder1838`: 41 look-alike lines in the rules' `lines` with the unshaped test and 41 with the new test; none dropped. Over the whole file the unshaped test finds 248 lines and the new test 248. The hand-listed warnings count 4, 5, 9, 8 and 15 lines (41 in all).
+
+Re-run of all 52 curated files with the round-2 code: exit codes are the same as on the code before PR #1343 (32 exit 0, 20 exit 1). Output is identical to the round-1 output for every file. Look-alike lines in hand-listed warnings: 34,367 before PR #1343, 34,359 after PR #1343 and after round 2. Still no curation file has `expected_gaps` or `not_headings`.
+
 ## Limits to know
 
-- The look-alike scan for an `expected_gaps` entry reads every line between the neighbours, not only a rule's `lines`, because a damaged heading is usually a line the hand list did not name. It only counts a line when the token in the numeral position is a short run of numeral letters, digits, the letters OCR confuses with them and the characters in the rule's `ocr_map`. A non-heading that fits this shape (such as `xxi` at line 3671 above) must be accounted for by a `fixes` entry with a quote or an `edition_unnumbered` or `counterpart` line.
-- The scan covers the series' own rule; for the `divisions` series it covers every rule that has `number`.
+- The scan for an `expected_gaps` entry reads every line between the neighbours, not only a rule's `lines`, because a damaged heading is usually a line the hand list did not name. Where the numeral leads the heading it must be a short run of numeral letters, digits and the strokes OCR puts in their place. A body line that still fits is listed in `not_headings` with a quote, which records only that the line is not a heading.
+- A stroke dropped from a numeral that leaves another valid numeral (`II` printed where `III` was meant) cannot be detected by any text check.
+- The scan covers the series' own rule; for a series that is not a rule id it covers every rule that has `number`.
