@@ -484,3 +484,12 @@ Mark, 2026-10-30, direct (choice box), on the two items held in entry 19.
 - The `text` fields of both records still carry the old wording ("Where she searched, the letter does not say"; "Pontius did not soften this -- he pressed it"). They are the source-side recast and were not part of the ruling.
 - lpc gates (records, regate) pass; lpc repinned to 2026-10-30T20-04-22Z; the site world JSON rebuilt from its pinned commit and compiler version.
 
+## 21. The rule applied to the records' `text` fields too (2026-10-30)
+
+Coordination thread, relaying Mark's general rule (no unprompted absence statements anywhere the voice can speak them), 2026-10-30.
+
+- Removed from `lpc.story.numidicus` `text`: "Where she searched, the letter does not say." From `lpc.story.election-of-cyprian` `text`: "Pontius did not soften this -- he pressed it", now "Pontius noted that Cyprian was still...", and the opening gains the same positive attribution as the telling ("writing in praise of his bishop after Cyprian had been executed"). No other change.
+- Opus check: no `not_for` guard asserted or implied; nothing added; no absence statement left in either `text`. One note, not acted on: the Election opening sentence runs about 37 words, as it did before; the ruling was to change nothing else.
+- Scan of the other five lpc story records for the same pattern (a pattern search over `telling` and `text`, so a first pass, not a read-through); not edited, they come with their own tellings: `celerinus-writes-to-lucian` telling "Her own brother does not give her name, and no word of hers survives."; `hundred-thousand-sesterces` telling "We do not know whether the ransom worked."; `the-death-of-cyprian` text "Pontius adds things the Acta does not mention, and they are his."; `the-plague-and-the-enemies` telling "Pontius does not say whether those who persecuted us were among the people helped."; `the-psalms-on-the-wall` none found. Each will need the guard check (some may be what a `not_for` or `absent_detail` requires).
+- lpc gates pass; lpc repinned to 2026-10-30T20-09-01Z.
+

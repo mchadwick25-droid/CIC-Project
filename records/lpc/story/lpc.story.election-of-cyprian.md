@@ -64,13 +64,13 @@ narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is 
   Pontius alone.'
 tellable_as: How we came to treat a recent convert's own election, over his reluctance, as God's own judgment
   made visible
-text: 'Our own deacon Pontius, writing after his bishop had been executed, passed over most of what he
+text: 'Our own deacon Pontius, writing in praise of his bishop after Cyprian had been executed, passed over most of what he
   could have said about Cyprian''s early years and settled on one fact as enough. That one fact, he wrote,
   was proof enough of his good works: by God''s judgment and the people''s favour, he was chosen bishop
   while still a neophyte, and, as people thought, a novice.
 
 
-  A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was still
+  A neophyte. Newly baptised. Pontius noted that Cyprian was still
   in the first days of his faith, untaught as yet in the life of the spirit. What we saw in him was not
   training. It was something we thought we could already see.
 

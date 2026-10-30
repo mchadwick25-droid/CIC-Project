@@ -66,7 +66,7 @@ text: 'Cyprian wrote to us with news that he said belonged to the joy of us all.
 
   Then Numidicus himself: half burned, buried under stones and left for dead. His daughter came looking
   for her father''s body -- Cyprian says she searched with the anxious care of love -- and found him alive.
-  Where she searched, the letter does not say. He was found half dead, pulled out and revived.
+  He was found half dead, pulled out and revived.
 
 
   And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, stayed behind

@@ -27,8 +27,8 @@ safety_adjacent: true
 living_tradition_flag: true
 state: built
 package:
-  manifest_hash: "sha256:4c2ba8835e2c2275fd615c43903ccc523bd676ef34b90cf007c8b635178ba37c"
-  location: "packages/lpc/2026-10-30T20-04-22Z"
+  manifest_hash: "sha256:dce5b1bfaa60995f607bf68cf74bbfb0fbdc59c90d09a280bef54cecd44a0bf4"
+  location: "packages/lpc/2026-10-30T20-09-01Z"
 story_placement: false
 card:
   portrait: "assets/portraits/datus.jpg"
