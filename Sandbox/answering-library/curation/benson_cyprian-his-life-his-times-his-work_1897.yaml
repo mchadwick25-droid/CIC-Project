@@ -1,7 +1,7 @@
 file: benson_cyprian-his-life-his-times-his-work_1897.txt
-scheme: 'Benson''s own structure as printed in his Contents: the Introduction, chapters I to XII printed as CHAPTER with a roman numeral, the numbered sections of each chapter printed as a roman numeral alone on a line above the section title, the numbered sub-parts and questions where the body prints them, and Appendices A to L'
+scheme: 'Benson''s own structure as printed in his Contents: the Introduction, chapters I to XII printed as CHAPTER with a roman numeral, the numbered sections of each chapter printed as a roman numeral alone on a line above the section title, the numbered sub-parts and questions where the body prints them, the unnumbered Contents entries inside a section addressed by the printed heading text plus the line number, and Appendices A to L'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 divisions:
   - start_line: 1215
     locus: introduction
@@ -97,7 +97,11 @@ divisions:
     locus: chapter4/section2/question2
   - start_line: 12834
     locus: chapter4/section3
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+    allow_oversize: 'the Contents prints two further headings in this section and each is its own division; the numbered lines left inside this division are the author''s own enumeration of the four interpolations'
+  - start_line: 13810
+    locus: chapter4/section3/how-to-make-the-best-of-the-forgeries-now-l13810
+  - start_line: 13844
+    locus: chapter4/section3/note-on-the-citation-from-pelagius-ii-l13844
   - start_line: 13906
     locus: chapter5
   - start_line: 13910
@@ -122,7 +126,12 @@ divisions:
     locus: chapter6/section3
   - start_line: 16340
     locus: chapter6/section4
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 16774
+    locus: chapter6/section4/table-showing-the-verbal-debts-to-tertullian-l16774
+  - start_line: 16973
+    locus: chapter6/section4/on-the-characteristics-and-genuineness-of-the-de-dominica-oratione-l16973
+  - start_line: 17351
+    locus: chapter6/section4/comparison-elucidating-the-dates-l17351
   - start_line: 17574
     locus: chapter6/section5
   - start_line: 18155
@@ -148,12 +157,39 @@ divisions:
     locus: chapter8/section2/part1
   - start_line: 20784
     locus: chapter8/section2/part2
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 21113
+    locus: chapter8/section2/part2/did-stephen-excommunicate-the-bishops-of-the-east-l21113
+  - start_line: 21135
+    locus: chapter8/section2/part2/dionysius-the-great-l21135
+  - start_line: 21392
+    locus: chapter8/section2/part2/that-there-is-no-reason-to-suppose-letters-are-missing-l21392
+  - start_line: 21447
+    locus: chapter8/section2/part2/that-the-epistle-to-pompey-and-stephens-epistle-l21447
+  - start_line: 21485
+    locus: chapter8/section2/part2/that-ep-72-to-stephen-is-rightly-put-down-l21485
+  - start_line: 21584
+    locus: chapter8/section2/part2/that-quietus-of-buruc-l21584
+  - start_line: 21626
+    locus: chapter8/section2/part2/seventh-council-third-on-baptism-l21626
+  - start_line: 22104
+    locus: chapter8/section2/part2/firmilian-and-his-letter-l22104
+  - start_line: 22444
+    locus: chapter8/section2/part2/on-the-genuineness-of-the-epistle-of-firmilian-l22444
+  - start_line: 22982
+    locus: chapter8/section2/part2/quotations-of-scripture-in-firmilian-l22982
+  - start_line: 23144
+    locus: chapter8/section2/part2/basil-and-the-letter-of-firmilian-l23144
+  - start_line: 23231
+    locus: chapter8/section2/part2/the-nameless-author-on-rebaptism-l23231
   - start_line: 23746
     locus: chapter8/section3
-    allow_oversize: 'the numbered sub-parts 1 to 4 of this section appear in the Contents and the running heads but the body prints no heading line for them'
+    allow_oversize: 'the Contents prints sub-parts 1 to 4 of Cyprian''s arguments and Stephen''s arguments as page entries, and the body sets no heading line for them; the heading Baptism in the Name of Christ alone (24117) is the only unnumbered Contents entry in it'
   - start_line: 25016
-    locus: chapter8/section4
+    locus: chapter8/section4/part1
+  - start_line: 25089
+    locus: chapter8/section4/part2
+  - start_line: 25455
+    locus: chapter8/section4/part3
   - start_line: 25683
     locus: chapter9
   - start_line: 25686
@@ -163,14 +199,36 @@ divisions:
   - start_line: 26657
     locus: chapter10
   - start_line: 26660
-    locus: chapter10/section1
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+    locus: chapter10/section1/part1
+  - start_line: 27122
+    locus: chapter10/section1/part2
+  - start_line: 27540
+    locus: chapter10/section1/part3
+  - start_line: 27772
+    locus: chapter10/section1/part4
+  - start_line: 27824
+    locus: chapter10/section1/part5
   - start_line: 27929
-    locus: chapter10/section2
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+    locus: chapter10/section2/part1
+  - start_line: 28158
+    locus: chapter10/section2/part2
+  - start_line: 28540
+    locus: chapter10/section2/part3
   - start_line: 28884
     locus: chapter11
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+    allow_oversize: 'the Contents prints The Birthday as one entry (page 493) and the first Contents entry below it starts at 29826; the lines left inside that the scan flags are running heads and the numbering of a footnote'
+  - start_line: 29826
+    locus: chapter11/where-was-cyprian-martyr-buried-l29826
+  - start_line: 30063
+    locus: chapter11/where-was-cyprian-tried-and-executed-l30063
+  - start_line: 30139
+    locus: chapter11/the-dress-of-cyprian-l30139
+  - start_line: 30334
+    locus: chapter11/the-soldiers-and-officers-named-in-the-trial-l30334
+  - start_line: 30369
+    locus: chapter11/of-the-massa-candida-l30369
+  - start_line: 30440
+    locus: chapter11/acta-proconsularia-l30440
   - start_line: 30477
     locus: chapter12
   - start_line: 31127
@@ -205,7 +263,31 @@ apparatus:
   - lines: [10, 1214]
     kind: front
     locus: front
+not_subheadings:
+  - lines: [12878, 12975, 13064, 13171, 13267, 13364, 13562, 13664, 13776]
+    kind: running-head
+    quote: 'THE ROMAN APPEAL TO THE BOOK'
+  - lines: [23805, 23915, 24064, 24162, 24264, 24369, 24475, 24581, 24707, 24809, 24914, 25014]
+    kind: running-head
+    quote: 'THE ARGUMENTS'
+  - lines: [28971, 29071, 29243, 29576, 29711, 29823]
+    kind: running-head
+    quote: 'XI. THE BIRTHDAY'
 evidence:
+  - line: 13810
+    quote: 'How to make the best of the forgeries now.'
+  - line: 16774
+    quote: 'TABLE'
+  - line: 21113
+    quote: 'Did Stephen excommunicate the Bishops of the East?'
+  - line: 25089
+    quote: '2. The Baptismal Councils failed doctrinally'
+  - line: 27122
+    quote: '2. Treatment of Cyprian.'
+  - line: 28158
+    quote: '2. Rome. — The exclusion from the Cemeteries.'
+  - line: 29826
+    quote: 'Where tvas Cyprian Martyr buried'
   - line: 1215
     quote: 'INTRODUCTION.'
   - line: 1880
