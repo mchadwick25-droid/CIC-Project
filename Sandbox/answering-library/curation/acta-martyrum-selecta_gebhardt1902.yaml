@@ -1,7 +1,7 @@
 file: acta-martyrum-selecta_gebhardt1902.txt
 scheme: 'Gebhardt 1902: the 22 numbered pieces (I to XXII, a roman numeral above each piece title and in the running heads); inside piece 7 (Perpetua) the chapter numbers the edition prints at the head of the Latin text (lat-ch) and of the Greek text (grc-ch, only where the scan shows the numeral), and inside piece 8 (Pionius) the printed chapter numbers; other pieces are addressed by piece alone'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
   - id: perpetua-latin
     pattern: '^(?:\d{1,2} )?(?P<c>[IVX]+)[.,]? '
