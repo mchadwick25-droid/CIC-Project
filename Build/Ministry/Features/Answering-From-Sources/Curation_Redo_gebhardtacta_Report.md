@@ -5,7 +5,7 @@ Drafter: Sonnet 5.5. File: `Sandbox/answering-library/curation/acta-martyrum-sel
 ## Time and effort
 
 - Start 2026-10-30T00:25Z, end 2026-10-30T00:30Z. About 5 minutes.
-- Check runs: 2 (baseline, after the edit), plus 1 after the Greek VII head at 3729 was added (second pass, 2026-10-30T00:39Z to 00:42Z).
+- Check runs: 2 (baseline, after the edit), plus 1 after the Greek VII head at 3729 was added (second pass, 2026-10-30T00:39Z to 00:41Z).
 - Entries added or changed: 8 `fixes` (6 in `perpetua-greek`, 2 in `pionius`), 5 hand-listed lines added to `perpetua-greek` (3729, 3821, 4043, 4191, 4416), 1 `pionius` pattern widened (optional margin number), 0 `expected_gaps` entries, 9 evidence entries. 0 explicit divisions, 0 `ocr_map` entries. Status set to `drafted`.
 
 ## What was wrong
