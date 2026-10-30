@@ -272,7 +272,7 @@ def test_the_replay_over_all_66_drafts():
     # speech of the Antony formula as that quote's words (2 sentences that
     # had stood); hal Q4's lead-in, listed as an overcut, names Paula for
     # Jerome's record and goes with its quote. Code then writes the lead-in
-    # for a quote whose lead-in names no speaker (Mark, 2026-10-30), so those
+    # for a quote whose lead-in names no speaker, so those
     # lead-ins no longer cost a cut: 8 fewer cuts, 8 more quotes placed.
     assert counts["cuts"] == 48
     assert counts["overcuts_still_cut"] == 6
