@@ -1,7 +1,7 @@
 file: augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt
 scheme: 'Maurist chapters as printed in Bruder 1838: De doctrina christiana Books I to IV (each chapter printed as C. and a roman numeral, or Caput in Book I chapter 1) and the Enchiridion chapters I to CXXII; the summaries in the front matter are apparatus'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: doctrina1
   pattern: ^(?:Caput|<?(?:[CGO0]\.|C,?)) ?(?P<c>[IVXLCivxlcjTFHUWYnr\\\[\]^!1]+)[.,]?\s
