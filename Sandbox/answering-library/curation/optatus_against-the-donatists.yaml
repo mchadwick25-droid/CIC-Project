@@ -1,7 +1,7 @@
 file: optatus_against-the-donatists.txt
 scheme: 'Optatus Books I to VII (printed BOOK THE FIRST to BOOK THE SEVENTH) with the chapters printed as roman numerals in each book; the Appendix documents printed as APPENDIX I to XVI; Appendix II (Gesta apud Zenophilum) prints no numbered divisions and stands as one unit'
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
   - id: book
     pattern: '^BOOK THE (?P<b>FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)$'
