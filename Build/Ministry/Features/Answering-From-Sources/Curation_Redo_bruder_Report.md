@@ -4,7 +4,7 @@ Drafter: Sonnet 5.5. File: `Sandbox/answering-library/curation/augustine_doctrin
 
 ## Time and effort
 
-- First session 2026-10-30T02:39Z to about 02:55Z (baseline, stopped on order). Resumed 2026-10-30T20:28Z, passing check at about 20:58Z. About 30 minutes on resume.
+- First session 2026-10-30T02:39Z to about 02:55Z (baseline, stopped on order). Resumed 2026-10-30T20:28Z, passing check and PR at about 20:35Z. About 7 minutes on resume.
 - Check runs: 5 in total (baseline, then 4 on resume; the first resume run only reported an unreadable numeral).
 - Entries added: 27 `fixes` (plus 6 existing), 5 `ocr_map` lists changed, 5 patterns changed, 1 explicit division removed (line 9521, now a fix), 61 evidence entries added. 0 `expected_gaps`.
 
