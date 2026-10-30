@@ -1,12 +1,12 @@
 # Change order to the lpc test set: six fit traps
 
-Approved by Mark, 2026-10-30 (choice box, "Add the six"). Decision-Log entry 29 records the approval. This is a change order to a sealed set: named, reasoned, and filed here, not a quiet edit.
+Approved by Mark, 2026-10-30 (choice box, "Add the six"). Decision-Log entry 31 records the approval. This is a change order to a sealed set: named, reasoned, and filed here, not a quiet edit.
 
 ## What changes
 
 The lpc test set goes from 100 questions to 106. The six added questions are fit traps: on-topic by their words with a real lpc record, where the record, read in its own context, does not properly answer the question asked (or answers it only if its real application is kept). They test whether the voice puts a quote or story to the right use, not just one with matching words.
 
-- The original 100 and their seal stay as they are: `lpc_100_questions.yaml`, sha256 `4a2b891cfabb0768942821ce8008dfcebe5cb01c5aa3741928d7e779ea51340f` (Decision-Log 26). Not edited.
+- The original 100 and their seal stay as they are: `lpc_100_questions.yaml`, sha256 `4a2b891cfabb0768942821ce8008dfcebe5cb01c5aa3741928d7e779ea51340f` (Decision-Log 28). Not edited.
 - The new set is `lpc_106_questions.yaml`: the same 100 questions, in the same order and unchanged, then q101 to q106 as group K. Its seal is in `lpc_106_questions.sha256`: sha256 `22fefa5581554c4dca1e1e2e2db7bf973dc2fe1f5ccb7c73c0a9c2be6b97c0c2`.
 - Every cluster keeps at least three questions. The six add to C5, C8, C9 (two), C10 and C12.
 - Scoring reports the 100 beside the 28 sealed probes as before, and the six fit traps as their own line, so the earlier numbers stay comparable.

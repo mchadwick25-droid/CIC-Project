@@ -53,12 +53,13 @@ def _outside_repo(path: Path) -> Path:
     return resolved
 
 
-def _row(question: dict, result, net_results: list[dict]) -> dict:
+def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str]) -> dict:
     net = net_results[-1] if net_results else {}
     return {
         "id": question["id"], "group": question["group"], "text": result.text, "citations": result.citations,
         "citation_entries": result.citation_entries, "routing_action": result.live_turn.routing_action,
         "routing_reason": result.live_turn.routing_reason, "sends": result.live_turn.sends,
+        "raw_text": raw_drafts[-1] if raw_drafts else "",
         "net_sentences": net.get("sentences", []), "reply_shape": net.get("reply_shape"),
     }
 
@@ -79,11 +80,13 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
     for stale in pending_dir.glob("*") if pending_dir.exists() else []:
         stale.unlink()
     captured: list[dict] = []
+    drafts: list[str] = []
     real_apply_net = m4_turn.apply_net
 
     def keeping_net_result(*args, **kwargs):
         text, citations, net_result = real_apply_net(*args, **kwargs)
         captured.append(net_result)
+        drafts.append(args[0] if args else kwargs["raw_text"])
         return text, citations, net_result
 
     m4_turn.apply_net = keeping_net_result
@@ -96,13 +99,14 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
             client = ReplyFileClient(question_id=question["id"], reply_dir=reply_dir, pending_dir=pending_dir)
             answerer = LiveModelAnswerer(world=loaded, registry=registry, client=client, settings=LivePathSettings(**SHADOW_SETTINGS))
             captured.clear()
+            drafts.clear()
             try:
                 result = answerer.answer(question.get("cell") or question["id"], question_text(question))
             except PendingReply:
                 pending.append(question["id"])
                 continue
             (answers_dir / f"{question['id']}.json").write_text(
-                json.dumps(_row(question, result, list(captured)), ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8",
+                json.dumps(_row(question, result, list(captured), list(drafts)), ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8",
             )
             done.append(question["id"])
     finally:

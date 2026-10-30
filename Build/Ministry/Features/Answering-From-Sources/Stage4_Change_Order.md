@@ -1,6 +1,6 @@
 # Stage 4 Change Order: bound drafting, verify and rewrite, proved on lpc in shadow
 
-Approved to proceed by Mark, 2026-10-30 (choice box, direct; version 3 of the draft, as written here). Decision-Log entry 29 records the approval. Shadow only on lpc, free in-plan work, no gate retired. It starts when Stage 2 lands on lpc.
+Approved to proceed by Mark, 2026-10-30 (choice box, direct; version 3 of the draft, as written here). Decision-Log entry 31 records the approval. Shadow only on lpc, free in-plan work, no gate retired. It starts when Stage 2 lands on lpc.
 
 ## Scope
 
@@ -10,7 +10,7 @@ Shadow means it runs beside today's path and changes nothing a reader sees. Engi
 
 - Bound drafting, a judge check and one rewrite, run in shadow on lpc only, on the saved drafts and on the lpc test set (`S3-Test100/`).
 - Free work only: helpers in this plan draft and judge. No metered model call.
-- The rigor line (Decision-Log 27 and 28, Mark, 2026-10-30): a drafted sentence is a quotation or a close paraphrase in the author's name. No inference from a passage no reviewed record frames. The voice may be shown the source text around a quote or story, to understand what it was saying; that text never supports a sentence.
+- The rigor line (Decision-Log 29 and 30, Mark, 2026-10-30): a drafted sentence is a quotation or a close paraphrase in the author's name. No inference from a passage no reviewed record frames. The voice may be shown the source text around a quote or story, to understand what it was saying; that text never supports a sentence.
 - A fit step: every quote or story placed in an answer must fit the question asked, in its source context, and the answer must address the question that was asked.
 - A retelling fitted to one question may run on this path, as Stage 3 ruled: each sentence bound to the record sentence it rests on and verified. If it fails, the voice falls back to a reviewed telling.
 
@@ -22,7 +22,7 @@ Shadow means it runs beside today's path and changes nothing a reader sees. Engi
 
 ## Design
 
-- Judges in shadow: citation-recall is the main judge, the verifier runs beside it for comparison only. This is a coordination-level ruling reviewed by AI, not Mark's own (Decision-Log 27).
+- Judges in shadow: citation-recall is the main judge, the verifier runs beside it for comparison only. This is a coordination-level ruling reviewed by AI, not Mark's own (Decision-Log 29).
 - Context reaches the voice as blocks marked context, taken from the source division around each offered quote or story. Context blocks have ids that cannot be bindings. Code rejects a binding to one before any judge runs, and a sentence left with no valid binding is held out of the rewrite.
 - The fit step reads the question, each placed quote or story, the record's own statement of what it means, and its context. It returns fits, partly fits, or off-point, with a reason. Off-point comes out, and the next candidate is tried or the answer goes without one. Partly fits stays only if the lead-in states the limit.
 - The fit step is calibrated first on twenty planted pairs built from lpc records: a real quote or story, a question on-topic by words and wrong in application. It must catch at least 19 of 20 before its verdicts count. The bar is the coordination thread's call, reviewed by AI, and follows the seeded-defect catch rate already ruled for the specialist.
@@ -48,7 +48,7 @@ The catch and precision targets are ruled. The other rows are proposals.
 ## Before it starts
 
 - Stage 2 done on lpc (the Library thread's).
-- The lpc test set frozen (`S3-Test100/`, Decision-Log 26 and 29).
+- The lpc test set frozen (`S3-Test100/`, Decision-Log 28 and 31).
 - The shadow runner (`engine/m3/test100.py` and `engine/m3/reply_client.py`).
 
 ## Deferred

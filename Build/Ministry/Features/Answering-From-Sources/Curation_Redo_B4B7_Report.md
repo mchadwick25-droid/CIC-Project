@@ -47,3 +47,25 @@ None that fail the check. Not re-examined: the older `fixes` in the Knoll file (
 3. Optatus Book II chapter XXV: the edition prints no head. The reason used is `leaf_missing: between [1233, 1307]`. Page marks |115 to |118 run on without a break, so no leaf is missing; the text is there and only the head is not printed. The Latin of Ziwsa (CSEL 26, `optatus_libri-vii-lat_ziwsa1893-csel26-tei`) has a chapter 25 in that stretch. No `edition_unnumbered` form fits, since no line is a head without a numeral. No XXV division was created. The text of XXV sits inside chapter XXIV.
 4. Optatus line 2294: the editor's heading is now the first line of `book-third/ch13`, not inside chapter XII.
 5. Knoll chapters 55 and 76 take their numerals from the capitula list, not from a head on the page.
+
+## Knoll, Retractationes: third round, `caput25` (21:50 to 21:58 UTC, 2026-10-30; 2 check runs)
+
+Wrong: the `allow_oversize` sentence on `caput25` (De diuersis quaestionibus octoginta tribus, line 8005, 5,465 words) said the edition prints one section number. Knoll prints a margin section number at each quaestio and cites by chapter and section (`Retract. I, 22, 2` at 7882, 8631, 9026). The other chapters carry no `allow_oversize`; the file had only this one.
+
+Done: `allow_oversize` removed. `caput25` gets `id: caput25` and 60 explicit divisions `caput25/s<n>`, each started on the line that prints its number and quoted in `evidence`. Left side or right side of the page depending on the page; line counts (5, 10, 15) sit on the opposite side and are not read. A printed pair takes its first number: `3. 4` at 8066 is s3, `6. 7` at 8069 is s6, `8. 9` s8, `16. 17` s16, `18. 19` s18, `20, 21` s20, `27. 28` s27; the second number is not addressable. No `number` or `series` is set on the sections: some printed numbers cannot be placed on their line (below), and a numbered series would need a gap reason that is not true. So the checker does not test their order; I did.
+
+Final check: class curated, 157 divisions (154 body, 3 apparatus), was 97. Oversize: 0 over 5000 words. Coverage 100.0%, word completeness 87744 + 608 = 88352, 141 exact ranges and 169 less furniture, 0 mismatch. `caput`: 93 readings, gaps 0. RESULT: PASS.
+
+My scan of lines 8005 to 8861 for number tokens at either margin that are not a division start: what is left is line counts (5, 10, 15), footnote and apparatus lines, running heads, and the five cases below. Twelve divisions read against the print (s3, s23, s39, s54, s72 from the sample, plus s1, s14, s33, s46, s53, s62, s70): each begins on the line that prints its number, and the numbers run in order with no repeat or step back.
+
+Remaining defects, all sections that have no division of their own, their text sitting inside the section before:
+- s36: line 8252 prints `3G`. Damaged; not set.
+- s63: line 8560 prints `03`. Damaged; not set.
+- s64 to s67: the margin prints `64`, `65. 66`, `67` as separate lines (8661 to 8663), detached from the text they mark. Placing them would rest on sequence and on the ordinals in the text.
+- s45 and s74: no number is printed in the scan.
+- s76 to the end (8849 to 8861): no number is printed in the scan. s75 (8807) runs to the end of the chapter.
+
+Judgment calls:
+1. Where the number sits at the end of a line (s14 to s22, s33 to s37, s46 to s48, s54 to s62, s69), the division starts on that line, so it opens with the last words of the section before. The division unit is the line.
+2. s36 and s63 are left out although the digit is printed: the second digit's glyph is damaged and the only support is sequence.
+3. Sections are not numbered in the checker's series (reason above).

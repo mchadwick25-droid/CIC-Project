@@ -228,3 +228,26 @@ An Opus reader opened every flagged line of the three files in the vendored text
 - **Dales.** Most proposed `quoted-list` groups were footnotes: numbered references at the foot of the page, such as `1. Ep., ...`, plus one footnote that runs on with `§ 165` at line 20618. These are re-kinded `footnote`. Three lines are running heads with the page number read into a numeral: 2047, 10755 and 12110. The 28 `quoted-list` lines are the numbered capitula of Cyprian's *Ad Quirinum (Testimonia)* II and III and of the *Ad Fortunatum*, which Dales reproduces inside livre1/chapter4 (lines 3651 to 4802). They are Cyprian's titles quoted by Dales, not divisions of Dales's book. Lines 7935 and 11434 are body prose that opens with `M.` (Monsieur), in `M. H. Koch` and `M. Ernst`. None of the four kinds fits them, so they are left unlisted. Each sits well under the limit of 10 in its division.
 - **Duchesne.** Every flagged line is a lone `I` at the foot of the page, just before the next running head. This is scan debris.
 - **Monceaux.** 95 lines are the scattered cells of rotated tables that the OCR could not read: the inscription lists in l5/c3/s1 and l5/c3/s2, and the metrical-inscription tables in l7/c1/s2. Line 35070 (`III.`) is the volume's signature mark, caught inside footnote 3; it is kinded `ocr-debris`. Line 15951 (`I) C I. L., VIII, 20302.`) is footnote 1, so it is re-kinded `footnote` rather than the proposed `quoted-list`.
+
+
+## Redo batches, 2026-10-30
+
+Reports: `Curation_Redo_B8_Report.md`, `Curation_Redo_B4B7_Report.md`, `Curation_Pilot_Report.md`. Reviews: `Curation_Sample_Review_B8.md`, `Curation_Sample_Review_Round3_BensonMesnageKnoll.md`, `Curation_Sample_Review_Mesnage_IndexPass.md`, `Curation_Sample_Review_B4B7.md`, `Curation_Tooling_Review_HeadUnprinted.md`.
+
+| File | Outcome |
+|---|---|
+| `possidius_vita-augustini_weiskotten1919` | `sampled-ok` (pilot) |
+| `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929` | `sampled-ok` |
+| `acta-martyrum-selecta_gebhardt1902` | `sampled-ok` after a second round |
+| `augustine_doctrina-christiana-enchiridion-lat_bruder1838` | `sampled-ok` |
+| `hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907` | `sampled-ok` |
+| `perpetua-scillitan-martyrs-lat-grc_robinson1891` | `sampled-ok` |
+| `harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906` | `sampled-ok` |
+| `monceaux_histoire-litteraire-afrique-chretienne-tome2_1902` | `sampled-ok` |
+| `benson_cyprian-his-life-his-times-his-work_1897` | `sampled-ok` after the third round |
+| `augustine_oeuvres-completes-tome13-donatistes-slice-fra_raulx1869` | `sampled-ok` |
+| `augustine_retractationes-lat_knoll-csel36` | `sampled-ok` after the third round |
+| `optatus_against-the-donatists` | `sampled-ok`: the one defect was the untrue reason; fixed with `head_unprinted` (Decision-Log 26), form checked against the file by the tooling reviewer |
+| both `mesnage_afrique-chretienne-eveches-ruines` scans | `sampled-ok` after a fourth look (Decision-Log 27) |
+
+Tooling merged: PR #1343, #1346, #1359 (single look-alike test, reasons for `expected_gaps`, `y` stroke), #1365 (`head_unprinted`). The merger of #1346 is not identified.

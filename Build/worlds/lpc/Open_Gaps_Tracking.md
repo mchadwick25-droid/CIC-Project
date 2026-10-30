@@ -2444,7 +2444,7 @@ Logged 2026-10-30.
 
 Logged 2026-10-30.
 
-- **Closed.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` has the `not_for` line "a warrant for striking a child or anyone today", word for word the love quote's (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 30). A fresh Opus guard check and nothing-added check passed; lpc repinned to 2026-10-30T22-41-23Z.
+- **Closed.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` has the `not_for` line "a warrant for striking a child or anyone today", word for word the love quote's (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 32). A fresh Opus guard check and nothing-added check passed; lpc repinned to 2026-10-30T22-41-23Z.
 - **Open.** The love quote also carries a matching `claim_guards` line; this record does not. Not added; the reviewer called it a separate choice.
 - **Open.** lpc's registered `story_placement` flag is off, so the story door does not place a story in the live path. The shadow run turns it on in memory. Turning it on for lpc in production is a change for the project lead.
 - **Owner.** Project lead, through the coordination thread.
