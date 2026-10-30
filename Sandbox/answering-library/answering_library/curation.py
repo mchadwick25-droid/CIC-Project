@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+import unicodedata
 from bisect import bisect_right
 from collections import Counter
 from dataclasses import dataclass, field
@@ -36,7 +37,7 @@ _SUBHEADING_FAMILIES = ("kw:", "bare:roman", "numtitle", "section", "numpara")
 SPEAKER_STATES = ("known", "mixed", "unknown")
 
 _TOP_KEYS = {"file", "scheme", "curator", "status", "language", "rules", "divisions", "ignore", "apparatus",
-             "languages", "speakers", "evidence", "page_splits", "expected_gaps", "not_subheadings"}
+             "languages", "speakers", "evidence", "page_splits", "expected_gaps", "not_subheadings", "not_headings"}
 _NOT_SUB_KEYS = {"lines", "kind", "quote"}
 NOT_SUBHEADING_KINDS = ("footnote", "running-head", "ocr-debris", "quoted-list")
 _EXPECTED_KEYS = {"series", "line", "quote", "reason"}
@@ -44,9 +45,13 @@ REASON_FORMS = {"leaf_missing": {"between"}, "counterpart": {"line"}, "edition_u
                 "as_printed": {"line", "quote"}}
 REASON_STEPS = {"leaf_missing": ("gaps",), "edition_unnumbered": ("gaps",), "as_printed": ("repeated", "backward"),
                 "counterpart": ("gaps", "repeated", "backward")}
-_NUMERAL_LETTERS = "IVXLCDMivxl0123456789|!\u0399\u03a7\u039d\u0399\u03b9\u03c7\u03bd\u0475\u0474"
+_NUMERAL_LETTERS = ("IVXLCDM0123456789l|!\\^'[]()*TUHYWF"
+                    "\u0399\u03a7\u039d\u03a4\u0397\u03a5\u0406\u0474\u0475")
+_LOWER_STROKES = "ijnr"
+_NOT_HEADING_KEYS = {"line", "quote"}
 LOOKALIKE_MARGIN = "a margin number comes first"
 LOOKALIKE_NUMERAL = "numeral in a form the pattern does not read"
+LOOKALIKE_UNREAD = "a reading of the series whose numeral could not be read"
 _RULE_KEYS = {"id", "pattern", "flags", "lines", "parent", "locus", "title", "division", "skip_repeat", "number",
               "ocr_map", "fixes", "allow_oversize", "context", "language"}
 _CONTEXT_KEYS = {"prev_blank", "next_blank", "prev_short"}
@@ -115,6 +120,7 @@ class Curation:
     page_splits: list[PageSplit] = field(default_factory=list)
     expected_gaps: list[dict] = field(default_factory=list)
     not_subheadings: list[dict] = field(default_factory=list)
+    not_headings: list[dict] = field(default_factory=list)
 
     @property
     def stem(self) -> str:
@@ -178,6 +184,10 @@ def _check_keys(entry, allowed, where):
         raise CurationError(f"{where}: unknown field(s) {sorted(extra)}")
 
 
+def _is_int(value) -> bool:
+    return isinstance(value, int) and not isinstance(value, bool)
+
+
 def _reason(value, where):
     """A normalised expected_gaps reason, or None when the entry has none. Free text is an error."""
     if value is None:
@@ -195,12 +205,12 @@ def _reason(value, where):
     out = {"form": form}
     if "between" in body:
         pair = body["between"]
-        if (not isinstance(pair, (list, tuple)) or len(pair) != 2 or not all(isinstance(x, int) for x in pair)
+        if (not isinstance(pair, (list, tuple)) or len(pair) != 2 or not all(_is_int(x) for x in pair)
                 or not 1 <= pair[0] < pair[1]):
             raise CurationError(f"{here}: between must be [first, last] with 1 <= first < last")
         out["between"] = (pair[0], pair[1])
     if "line" in body:
-        if not isinstance(body["line"], int) or body["line"] < 1:
+        if not _is_int(body["line"]) or body["line"] < 1:
             raise CurationError(f"{here}: line must be a positive integer")
         out["line"] = body["line"]
     if "quote" in body:
@@ -412,10 +422,18 @@ def load(path: Path) -> Curation:
     for k, e in enumerate(data.get("expected_gaps") or []):
         where = f"{name} expected_gaps[{k}]"
         _check_keys(e, _EXPECTED_KEYS, where)
-        if not e.get("series") or not isinstance(e.get("line"), int) or not " ".join(str(e.get("quote") or "").split()):
+        if not e.get("series") or not _is_int(e.get("line")) or not " ".join(str(e.get("quote") or "").split()):
             raise CurationError(f"{where}: needs series, an integer line and a quote")
         expected_gaps.append({"series": e["series"], "line": e["line"], "quote": " ".join(str(e["quote"]).split()),
                               "reason": _reason(e.get("reason"), where)})
+
+    not_headings = []
+    for k, e in enumerate(data.get("not_headings") or []):
+        where = f"{name} not_headings[{k}]"
+        _check_keys(e, _NOT_HEADING_KEYS, where)
+        if not _is_int(e.get("line")) or e["line"] < 1 or not " ".join(str(e.get("quote") or "").split()):
+            raise CurationError(f"{where}: needs a positive integer line and a quote")
+        not_headings.append({"line": e["line"], "quote": " ".join(str(e["quote"]).split())})
 
     not_subheadings = []
     for k, e in enumerate(data.get("not_subheadings") or []):
@@ -468,7 +486,8 @@ def load(path: Path) -> Curation:
                     status=data["status"], language=data.get("language"), rules=rules, divisions=divisions,
                     ignore=ignore, apparatus=apparatus, languages=languages, speakers=speakers, evidence=evidence,
                     sha256=hashlib.sha256(raw).hexdigest(), page_splits=page_splits,
-                    expected_gaps=expected_gaps, not_subheadings=not_subheadings)
+                    expected_gaps=expected_gaps, not_subheadings=not_subheadings,
+                    not_headings=not_headings)
 
 
 def for_file(filename: str, directory: Path | None = None, applied_only: bool = True) -> Curation | None:
@@ -578,35 +597,46 @@ def _loosened(rule):
         return None
 
 
-def _numeral_shaped(token: str, rule) -> bool:
+def _numeral_shaped(token: str, rule, lower_strokes=True) -> bool:
     """Whether a token could be a numeral the scan has mangled: it is short and made only of numeral letters,
-    digits, the letters OCR confuses with them, and the characters the rule's ocr_map names."""
-    token = token.strip(".,;:'\u2019\u1fbf")
+    digits, the strokes OCR puts in their place, and the characters the rule's ocr_map names. Lowercase
+    numeral letters count only for a rule whose pattern ignores case; the lowercase strokes i j n r count
+    only when lower_strokes is set, which is for a line that already has a literal head word or a reason."""
+    token = "".join(ch for ch in unicodedata.normalize("NFD", token.strip(".,;:'\u2019\u1fbf"))
+                    if not unicodedata.combining(ch))
     allowed = set(_NUMERAL_LETTERS) | set(rule.ocr_map) | set(rule.ocr_map.values())
-    return 0 < len(token) <= 10 and all(ch in allowed for ch in token)
+    if lower_strokes:
+        allowed |= set(_LOWER_STROKES)
+    if rule.rx.flags & re.IGNORECASE:
+        allowed |= set("vxcdm")
+    return 0 < len(token) <= 12 and all(ch in allowed for ch in token)
 
 
 def _lookalike(rule, loose, text, shaped=False):
     """Why a line that the rule's pattern does not match still looks like one of its headings, or None.
-    With shaped, a numeral in a form the pattern does not read must also look like a mangled numeral."""
+    shaped=True also asks a numeral in a form the pattern does not read to look like a mangled numeral;
+    shaped='lead' asks it only when the numeral is the first token of the heading, because a literal head
+    word before it already makes the line a heading."""
     if rule.rx.search(text):
         return None
     stripped = re.sub(r"^\d{1,5}\s+", "", text)
     if stripped != text and rule.rx.search(stripped):
         return LOOKALIKE_MARGIN
     m = loose.search(text) if loose is not None else None
-    if m is not None and (not shaped or _numeral_shaped(m.group(rule.number) or "", rule)):
-        return LOOKALIKE_NUMERAL
-    return None
+    if m is None:
+        return None
+    leads = not re.sub(r"^\d{1,5}\s+", "", text[:m.start(rule.number)]).strip()
+    if (shaped is True or (shaped == "lead" and leads)) and not _numeral_shaped(
+            m.group(rule.number) or "", rule, lower_strokes=shaped is True or not leads):
+        return None
+    return LOOKALIKE_NUMERAL
 
 
 def previous_lines(seq: list, groups: list | None = None) -> dict[int, int]:
-    """For each readable reading of a series, the line of the reading before it in the same group."""
+    """For each reading of a series, the line of the reading before it in the same group."""
     out, prev_line, prev_group = {}, None, None
-    for k, (line, value) in enumerate(seq):
+    for k, (line, _value) in enumerate(seq):
         group = groups[k] if groups else None
-        if value is None:
-            continue
         if group != prev_group:
             prev_line = None
         if prev_line is not None:
@@ -823,14 +853,13 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         notes.append(f"ignore pattern '{pattern}' declares {len(at)} line(s) furniture that rule '{rid}' also "
                      f"matches: {_line_list(at)}")
 
-    fixed_lines = {line for r in cur.rules for line in r.fixes}
     for rule in cur.rules:
         if rule.lines is None:
             continue
         loose = _loosened(rule)
         missed = []
         for i in range(h_end, n):
-            if not norm[i] or i in furniture or i in fixed_lines or not _in(rule.lines, i):
+            if not norm[i] or i in furniture or i in rule.fixes or not _in(rule.lines, i):
                 continue
             kind = _lookalike(rule, loose, norm[i])
             if kind:
@@ -973,7 +1002,10 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
     previous = {sid: previous_lines(seq, res_groups.get(sid)) for sid, seq in sequences.items()}
     head_lines = {d.start + 1 for d in divisions if d.origin == "marker"}
     head_lines.update(line for seq in sequences.values() for line, _ in seq)
-    body_ranges = [(a["first"], a["last"]) for a in cur.apparatus]
+    scan = _GapScan(norm=norm, n=n, furniture=furniture, apparatus=[(a["first"], a["last"]) for a in cur.apparatus],
+                    h_end=h_end, language_at=language_at, head_lines=head_lines)
+    not_heading_lines = {e["line"] for e in cur.not_headings}
+    reported: set[int] = set()
     for e in cur.expected_gaps:
         sid, at = e["series"], e["line"]
         label = f"expected_gaps for series '{sid}' at line {at}"
@@ -988,9 +1020,25 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         else:
             explained.add((sid, at))
             before = previous[sid].get(at)
-            problems.extend(_reason_problems(e, label, found[at], before, n, norm, head_lines))
-            problems.extend(_hidden_heads(cur, e, label, before, norm, furniture, body_ranges, fixed_lines, h_end,
-                                          language_at))
+            readings = [line for line, _ in sequences[sid]]
+            unread = {line for line, value in sequences[sid] if value is None}
+            problems.extend(_reason_problems(cur, e, label, found[at], before, scan, readings))
+            hidden = _hidden_heads(cur, e, before, scan, unread)
+            reported.update(i + 1 for i, _ in hidden)
+            hidden = [(i, kind) for i, kind in hidden if i + 1 not in not_heading_lines]
+            if hidden:
+                shown = "; ".join(f'line {i + 1} ({kind}): "{norm[i][:60]}"' for i, kind in hidden[:6])
+                problems.append(f"{label} excuses a step with a look-alike heading of the series between its "
+                                f"neighbours (lines {before} and {at}), which nothing accounts for: {shown}; a "
+                                "printed numeral that is damaged is not a gap: read it with a fix or an ocr_map "
+                                "entry, or list the line in not_headings if it is not a heading")
+    for e in cur.not_headings:
+        if not 0 < e["line"] <= n or e["quote"] not in norm[e["line"] - 1]:
+            problems.append(f"not_headings entry at line {e['line']} quotes text that is not on the line: "
+                            f"\"{e['quote']}\"")
+        elif e["line"] not in reported:
+            problems.append(f"not_headings entry at line {e['line']} is not a look-alike that the scan of any "
+                            "expected_gaps entry reports")
     for sid, found in anomalies.items():
         if sid.startswith("page_splits["):
             continue
@@ -1009,9 +1057,33 @@ def resolve(cur: Curation, lines: list[str], codes: list[str] | None = None) -> 
         header_words=sum(words[:h_end]))
 
 
-def _reason_problems(e, label, kind, before, n, norm, head_lines) -> list[str]:
+@dataclass
+class _GapScan:
+    """The file facts the checks on an expected_gaps entry read."""
+    norm: list
+    n: int
+    furniture: set
+    apparatus: list
+    h_end: int
+    language_at: object
+    head_lines: set
+
+
+def _series_rules(cur, sid):
+    return [r for r in cur.rules if r.id == sid and r.number] or [r for r in cur.rules if r.number]
+
+
+def _carries_numeral(cur, sid, text) -> bool:
+    """Whether a line has a numeral in the series' numeral position, read or damaged."""
+    for rule in _series_rules(cur, sid):
+        if rule.rx.search(text) or _lookalike(rule, _loosened(rule), text, shaped=True):
+            return True
+    return False
+
+
+def _reason_problems(cur, e, label, kind, before, scan, readings) -> list[str]:
     """What is wrong with the reason an expected_gaps entry gives for its step, as problem lines."""
-    reason = e["reason"]
+    reason, n, norm = e["reason"], scan.n, scan.norm
     if reason is None:
         return [f"{label} has no reason: give one of {', '.join(REASON_FORMS)}"]
     form = reason["form"]
@@ -1029,45 +1101,60 @@ def _reason_problems(e, label, kind, before, n, norm, head_lines) -> list[str]:
     line = reason["line"]
     if not 1 <= line <= n:
         return [f"{label} reason {form} names line {line}, outside the file ({n} lines)"]
-    if form == "counterpart":
-        if line == e["line"] or line not in head_lines:
-            return [f"{label} reason counterpart line {line} is not a division start or matched head other than "
-                    f"line {e['line']}"]
-    elif reason["quote"] not in norm[line - 1]:
-        return [f"{label} reason {form} quotes text that is not on line {line}: \"{reason['quote']}\""]
-    elif form == "edition_unnumbered" and before is not None and not before < line < e["line"]:
-        return [f"{label} reason edition_unnumbered line {line} is not between the neighbours "
-                f"(lines {before} and {e['line']})"]
-    elif form == "as_printed" and line != before:
-        return [f"{label} reason as_printed line {line} is not the previous reading of the series (line {before})"]
+    if form == "as_printed":
+        if reason["quote"] not in norm[line - 1]:
+            return [f"{label} reason as_printed quotes text that is not on line {line}: \"{reason['quote']}\""]
+        if line != before:
+            return [f"{label} reason as_printed line {line} is not the previous reading of the series "
+                    f"(line {before})"]
+        return []
+    if form == "edition_unnumbered":
+        if reason["quote"] not in norm[line - 1]:
+            return [f"{label} reason edition_unnumbered quotes text that is not on line {line}: "
+                    f"\"{reason['quote']}\""]
+        if before is not None and not before < line < e["line"]:
+            return [f"{label} reason edition_unnumbered line {line} is not between the neighbours "
+                    f"(lines {before} and {e['line']})"]
+    else:
+        after = next((x for x in readings if x > e["line"]), n)
+        if line in readings or line not in scan.head_lines:
+            return [f"{label} reason counterpart line {line} is not a division start or matched head outside "
+                    f"this series"]
+        if before is not None and not before <= line <= after:
+            return [f"{label} reason counterpart line {line} is not within or next to the step "
+                    f"(lines {before} to {after})"]
+    if _carries_numeral(cur, e["series"], norm[line - 1]):
+        return [f"{label} reason {form} names line {line}, which has a numeral in the series' numeral "
+                "position; a head with a numeral, read or damaged, is not unnumbered or a counterpart"]
     return []
 
 
-def _hidden_heads(cur, e, label, before, norm, furniture, body_ranges, fixed_lines, h_end, language_at) -> list[str]:
-    """Look-alike headings of the series between the step's neighbours that nothing accounts for."""
+def _hidden_heads(cur, e, before, scan, unread) -> list[tuple[int, str]]:
+    """Look-alike headings of the series between the step's neighbours that nothing accounts for, as
+    (0-based line, kind), plus readings of the series in that stretch whose numeral could not be read."""
     if before is None:
         return []
+    rules = _series_rules(cur, e["series"])
+    accounted = set().union(*(set(r.fixes) for r in rules))
     reason = e["reason"] or {}
-    accounted = set(fixed_lines)
-    if reason.get("form") in ("counterpart", "edition_unnumbered"):
-        accounted.add(reason["line"] - 1)
-    rules = [r for r in cur.rules if r.id == e["series"] and r.number] or [r for r in cur.rules if r.number]
-    hidden = []
+    named = reason.get("line", 0)
+    if (reason.get("form") in ("counterpart", "edition_unnumbered") and 1 <= named <= scan.n
+            and not _carries_numeral(cur, e["series"], scan.norm[named - 1])):
+        accounted.add(named - 1)
+    hidden: dict[int, str] = {}
+    for line in sorted(x for x in unread if before <= x < e["line"]):
+        hidden[line - 1] = LOOKALIKE_UNREAD
     for rule in rules:
         loose = _loosened(rule)
-        for i in range(max(before, h_end), e["line"] - 1):
-            if (not norm[i] or i in furniture or i in accounted or any(a <= i <= b for a, b in body_ranges)
-                    or (rule.language is not None and language_at(i) not in rule.language)):
+        for i in range(max(before, scan.h_end), e["line"] - 1):
+            if (not scan.norm[i] or i in scan.furniture or i in accounted or i in hidden
+                    or any(a <= i <= b for a, b in scan.apparatus)
+                    or (rule.language is not None and scan.language_at(i) not in rule.language)):
                 continue
-            kind = _lookalike(rule, loose, norm[i], shaped=True)
-            if kind and all(i != h[0] for h in hidden):
-                hidden.append((i, kind))
-    if not hidden:
-        return []
-    shown = "; ".join(f'line {i + 1} ({kind}): "{norm[i][:60]}"' for i, kind in sorted(hidden)[:6])
-    return [f"{label} excuses a step with a look-alike heading of the series between its neighbours (lines "
-            f"{before} and {e['line']}), which nothing accounts for: {shown}; a printed numeral that is damaged is "
-            "not a gap: read it with a fix or an ocr_map entry"]
+            kind = _lookalike(rule, loose, scan.norm[i], shaped="lead")
+            if kind:
+                hidden[i] = kind
+    return sorted(hidden.items())
 
 
 def measure(res: Resolved) -> dict:
