@@ -2,7 +2,7 @@ file: augustine_retractationes-lat_knoll-csel36.txt
 scheme: Knoll's CAPVT numbers 1 to 93, printed continuously across both books as the heading CAPVT and a Roman numeral (Maurist numbers in brackets beside them are not used); the eight chapters whose numeral line is missing
   or has lost the word CAPVT are addressed by the numeral printed on that line or, for chapters 55 and 76, by the matching entry in the printed list of capitula
 curator: Sonnet 5.5
-status: drafted
+status: needs-redo
 rules:
 - id: book
   pattern: ^\W*L[IT]BER (?:PRIM[VU]S|SEC[VU]NDVS)\.$
