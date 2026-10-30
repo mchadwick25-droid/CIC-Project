@@ -555,3 +555,12 @@ Mark, 2026-10-30, relayed by the coordination thread: "Mix is right"; freeze thi
 - Design to shadow first: citation-recall as the main judge, the verifier beside it for comparison only. This is a coordination-level ruling, reviewed by AI, and is not Mark's own; he may change it. Basis: held-out false alarms 3.3% against 9.1%, agreement with gold 0.85 against 0.73, and on the calibration half neither combination of the two beats the better single judge.
 - The production judge's spend (proposal decision 2a) and the production judge models are deferred. They are raised only if a paid step is absolutely necessary, by name and with a cap, under Mark's standing rule that spend questions are not put to him in advance.
 - The Stage 4 change order is drafted as an Artifact for Mark's approval by one choice box. Nothing is written into the feature directory until he approves it.
+
+## 28. Rigor line addition: context to understand, and fit to the question (2026-10-30)
+
+Mark, 2026-10-30, in his own words, relayed by the coordination thread: "you said quote or parapharse only, i am adding they can look at texts to get context of what the quote or story was trying to say not just the worlds quotes and stories in an answer have to not only have the right words but also the right application/contexts, so it does answer the right question".
+
+- The answer stays at quotation and close paraphrase. The voice may be shown the source text around a quote or story, as context that supports no sentence, to understand what it was saying; it is not limited to the world's own records.
+- A quote or story placed in an answer must fit the question: the right words and the right application. A fit check covers every placed quote and story and whether the answer addresses the question asked. The 100-question scoring sheet gets a "fit to the question" column.
+- The Stage 4 page carries the design (context blocks that cannot be bindings, the fit step, three-level transparency unchanged). No code is built.
+- Proposed, not applied: six fit-trap questions for the frozen 100-question set, as a change order. The frozen file and its seal are untouched until Mark approves.
