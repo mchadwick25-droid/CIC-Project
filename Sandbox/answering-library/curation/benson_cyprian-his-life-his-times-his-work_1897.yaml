@@ -1,7 +1,7 @@
 file: benson_cyprian-his-life-his-times-his-work_1897.txt
 scheme: 'Benson''s own structure as printed in his Contents: the Introduction, chapters I to XII printed as CHAPTER with a roman numeral, the numbered sections of each chapter printed as a roman numeral alone on a line above the section title, the numbered sub-parts and questions where the body prints them, the unnumbered Contents entries inside a section addressed by the printed heading text plus the line number, and Appendices A to L'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 1215
     locus: introduction
@@ -134,6 +134,12 @@ divisions:
     locus: chapter6/section4/comparison-elucidating-the-dates-l17351
   - start_line: 17574
     locus: chapter6/section5
+  - start_line: 17577
+    locus: chapter6/section5/part1
+  - start_line: 18009
+    locus: chapter6/section5/part2
+  - start_line: 18101
+    locus: chapter6/section5/part2/objection-to-council-iii-on-account-of-its-antipelagianism-l18101
   - start_line: 18155
     locus: chapter7
   - start_line: 18159
@@ -146,7 +152,8 @@ divisions:
     locus: chapter7/section3/part1
   - start_line: 19029
     locus: chapter7/section3/part2
-    allow_oversize: 'the Contents prints no numbered division below this one and the body prints no numbered heading line inside it'
+  - start_line: 19508
+    locus: chapter7/intercalary-presbyters-as-members-of-the-administration-l19508
   - start_line: 19868
     locus: chapter8
   - start_line: 20031
@@ -274,6 +281,14 @@ not_subheadings:
     kind: running-head
     quote: 'XI. THE BIRTHDAY'
 evidence:
+  - line: 17577
+    quote: 'I.     The  Mixed  Ctip.'
+  - line: 18009
+    quote: '2.      The  Age  of  Baptism.'
+  - line: 18101
+    quote: 'Objection  to  Cottncil  III  on  account'
+  - line: 19508
+    quote: 'INTERCALARY.'
   - line: 13810
     quote: 'How to make the best of the forgeries now.'
   - line: 16774

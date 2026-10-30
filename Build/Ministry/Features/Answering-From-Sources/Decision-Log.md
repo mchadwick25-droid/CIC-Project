@@ -538,3 +538,19 @@ Coordination thread, relaying Mark's general rule, 2026-10-30: the absence state
 - Point watched, accepted: in the Plague telling, "good was done to all people" now follows the sermon directly; it is Pontius's own wording and credited to him.
 - lpc gates (records, regate) pass; lpc repinned to 2026-10-30T21-50-08Z; the site world JSON rebuilt.
 
+
+## 26. Optatus Book II chapter XXV: reason form `head_unprinted` (2026-10-30)
+
+AI-reviewed, coordination-level ruling (not Mark's), 2026-10-30, option A of three put by the Library thread.
+
+- Case: `optatus_against-the-donatists`, Book II chapter XXV. The text is present (it starts at line 1257, inside `book-second/ch24`, and matches Ziwsa's chapter 25) but the edition prints no head for it, in the body, the notes or the front matter. The earlier reason, `leaf_missing`, said something untrue, and none of the other four forms fits.
+- Ruling: a fifth `expected_gaps` reason form, `head_unprinted: {between, line, quote}`, built in PR #1365 under the standing rule for tooling PRs (tests, Opus review before merge, no stacked fix). It uses the one look-alike test, so a line that carries a numeral is refused and a damaged head elsewhere in the window still fails.
+- Applied: the Optatus entry now uses it; the check passes.
+
+## 27. Fourth look at the two Mesnage scans (Mark, 2026-10-30)
+
+Mark's own ruling, 2026-10-30, on the Library thread's escalation at the end of the third review round: option A, one more targeted pass on each Mesnage scan using the edition's own index as the checklist. It does not reopen the cap for anything else.
+
+- Third round: Benson and Knoll passed. Both Mesnage scans failed on recall: the same 16 printed entries were missing from each (among them Béja and Haïdra, filed under the entry before).
+- The pass: 16 known entries added to each scan, plus three sub-headings and Bains romains, 20 and 19 divisions in all. A reader who was not the fixer drew 40 index entries per scan with a fixed seed and found a division at every printed heading, read 20 unresolved index names per scan (none a missing entry) and scanned three windows per file for heading-shaped lines (no misses). Both scans are `sampled-ok`.
+- Residual risk, stated plainly: no scan rules out a heading that has no blank line before it, no full stop and a place out of alphabetical order. None turned up.
