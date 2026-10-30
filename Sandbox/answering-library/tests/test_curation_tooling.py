@@ -617,3 +617,13 @@ def test_yaml_booleans_are_not_line_numbers(tmp_path):
                   step(3, "SERMO 3", edition_unnumbered={"line": True, "quote": "x"})):
         with pytest.raises(cu.CurationError):
             make(tmp_path, rules=[SERMO], expected_gaps=[entry])
+
+
+def test_a_lowercase_y_stroke_in_a_real_raulx_head_is_found(tmp_path):
+    rule = {"id": "p3", "pattern": r"^(?:[-~] )?(?P<r>[IVXLC1lUJ]{1,8})(?:[.,] *[A-Za-zÀ-ÿ])",
+            "locus": "p{r|int}", "number": "r"}
+    lines = ["XIII. Premier chapitre", "t", "Xiy. Le mémoire des catholiques n'avait", "t", "XV. Le suivant"]
+    entry = {"series": "p3", "line": 5, "quote": "XV.", "reason": {"leaf_missing": {"between": [1, 5]}}}
+    cur = make(tmp_path, rules=[rule], expected_gaps=[entry])
+    problems = unexplained(cu.resolve(cur, lines))
+    assert len(problems) == 1 and "line 3" in problems[0] and "look-alike" in problems[0]
