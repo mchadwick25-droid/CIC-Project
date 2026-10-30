@@ -2423,3 +2423,13 @@ Logged 2026-10-30.
 - **Open.** Four of the other five lpc story records carry one absence statement each in `telling` or `text` (listed in entry 21). They are edited with their new tellings, with a guard check first.
 - **Owner.** This thread (engine), at the tellings job.
 
+
+### OG-118. Go-live status check; stale claims row removed; what still blocks (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Found.** The 2026-10-27 go-live brief was out of date. On `main` the registry card fields, the portrait, world_core `living_traditions`, the traditions page and the seven story `telling` fields already exist. `deployed lpc`, `records lpc`, `regate lpc` and `claims lpc` pass on pin 2026-10-30T20-22-15Z.
+- **Fixed.** Claims register row 37485f14 (Pontius and the newly baptized Cyprian) described the Election paragraph removed under OG-116; it failed `claims lpc` as stale and is removed. No record or package changed.
+- **Open.** `validation lpc` fails: its evidence names pin 2026-10-29T11-53-43Z, not the current pin; laundering-2 fabrication; deep-interview-7 and -9 authorship and tensions-held; laundering-3 readability. Admission has no run on the current pin. Both need a named, capped live test from the project lead.
+- **Open.** The OG-113 record-side items and the engine-side removal fault (OG-90, OG-113) are not closed here.
+- **Owner.** This thread for the records; project lead for the live test and the state moves.
