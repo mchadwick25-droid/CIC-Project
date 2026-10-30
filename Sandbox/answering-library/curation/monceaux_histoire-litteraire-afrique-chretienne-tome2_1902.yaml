@@ -1,7 +1,7 @@
 file: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
 scheme: 'Monceaux''s Livre Troisième and Livre Quatrième with their Chapitres numbered in roman numerals (I to VI in each Livre) and, inside each chapter, the sections numbered I, II, III and so on, each opened by its numeral and an italic summary of its contents; addressed l<Livre>/c<Chapitre>/s<section>, Livre numbers 3 and 4 as printed. Where the scan has dropped a section''s numeral the section is read from the same heading in the Table des matières, which prints it; the Appendice, whose opening part is unnumbered and whose later parts are printed II and III, and the Table des matières as printed'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 divisions:
   - start_line: 78
     locus: l3/c1/s1
@@ -50,6 +50,9 @@ divisions:
     allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
   - start_line: 9499
     locus: l3/c6/s4
+    allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
+  - start_line: 10244
+    locus: l3/c6/s5
     allow_oversize: 'the scan shows no numbered or titled break inside this section; only running heads and footnotes'
   - start_line: 11324
     locus: l4/c1/s1
@@ -127,6 +130,10 @@ apparatus:
     kind: index
     locus: table-des-matieres
 evidence:
+  - line: 10244
+    quote: 'Documents relatifs au martyre de saint Cyprien'
+  - line: 21936
+    quote: 'Documents relatifs au martyre de saint Cyprien'
   - line: 78
     quote: 'LIVRE TROISIÈME'
   - line: 90
