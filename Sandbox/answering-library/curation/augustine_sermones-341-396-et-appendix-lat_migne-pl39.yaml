@@ -1,7 +1,7 @@
 file: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
-scheme: Maurist sermons 341-396 addressed by the Roman numeral in each heading (sermoNNN); the Appendix of doubtful and spurious sermons addressed by its own sermon numbers 1-317 (appendix-sermoNNN), first sermon being appendix-sermo001; unnumbered fragments and the Eraclius sermon addressed by heading line (fragment-lineN); sermons 351, 361 and 362 are divided further at their printed CAPUT headings (sermoNNN/caputNN)
+scheme: Maurist sermons 341-396 addressed by the Roman numeral in each heading (sermoNNN); the Appendix of doubtful and spurious sermons addressed by its own sermon numbers 1-317 (appendix-sermoNNN), first sermon being appendix-sermo001; unnumbered fragments addressed by heading line (fragment-lineN) and the Eraclius sermon by its heading text and line; sermons 351, 361 and 362 are divided further at their printed CAPUT headings (sermoNNN/caputNN) because they would otherwise run over 5,000 words, and the other sermons that print CAPUT headings stay whole
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: sermon
   pattern: ^(?:[*•,.] )?(?:SERMO|SEHMO|SEKMO|SF\.RMO|SEUMO|SE11M0|SEIt\.MO|SERJIO|SEIl\.MO|SEItMO|SF\.HMO|SKU\.MO|SF\.IlMO|SEilMO|SfcRMO|SF\.IIMO|SEIIMO|SERSIO|SEK1IO) (?P<n>[IVXLCivxclUHYGJ1n.!]+) ?(?:[*•‘’“»■"'(\[{<]|[0-9,] [({]| fa\))
