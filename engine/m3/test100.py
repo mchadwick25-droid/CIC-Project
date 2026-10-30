@@ -10,6 +10,9 @@ requests of a sealed question carry its wording.
   python -m engine.m3.test100 --set <lpc_100_questions.yaml> --world lpc \
       --work <dir outside the repo>
 
+The run sets the world's story_placement on, in memory only, so the story door is exercised on a world whose registered flag is off (lpc's is);
+--no-story-placement leaves the registered flag. Citation attach is always off, since it makes extra model calls.
+
 One pass runs every question as far as its replies allow. Run it again after the
 replies are written. A finished question leaves `answers/<id>.json` in the work
 directory: the shipped text, its citations, the routing, and the net's verdict on
@@ -64,7 +67,7 @@ def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str])
     }
 
 
-def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT) -> dict:
+def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True) -> dict:
     from engine.m1.registry import load_registry
     from engine.m3.generation import LiveModelAnswerer, LivePathSettings
     from engine.m4 import turn as m4_turn
@@ -75,6 +78,8 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
     loaded, _timing = LazyWorldLoader().load(
         world_key, package_dir=worktree / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"],
     )
+    if story_placement:
+        loaded.frame["story_placement"] = True
     reply_dir, pending_dir, answers_dir = work / "replies", work / "pending", work / "answers"
     answers_dir.mkdir(parents=True, exist_ok=True)
     for stale in pending_dir.glob("*") if pending_dir.exists() else []:
@@ -120,12 +125,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--world", required=True)
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--only", nargs="*", help="run only these question ids")
+    parser.add_argument("--no-story-placement", action="store_true", help="leave the world's own story_placement flag as registered")
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     questions = load_set(args.question_set)
     if args.only:
         questions = [q for q in questions if q["id"] in set(args.only)]
-    summary = run_pass(questions=questions, world_key=args.world, work=work)
+    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement)
     print(json.dumps({k: v for k, v in summary.items() if k != "pending_ids"}, indent=1))
     return 0
 
