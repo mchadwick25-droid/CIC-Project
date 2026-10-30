@@ -1,7 +1,7 @@
 file: augustine_sermones-post-maurinos-reperti-lat_morin1930.txt
 scheme: "Morin 1930: the sermons of each series as Morin numbers them (the sermon number printed alone above its source line, and again in the source line that opens each sermon, for example Denis, Serm. XI); addressed by series and number: denis, frangip, caillau (I, II), mai, liverani, guelferb, morin, wilmart; the Casinenses sermons by the tome and number the edition prints in its source note and running heads (casin-i133, casin-ii76, casin-ii114, casin-iii136); where a series number is damaged in the scan the sermon is read from both printed marks (the number alone and the number in the source line); the fragment printed under the head POST SERMONEM MAI CLXXIV and the six texts of the ADDITAMENTA AD SERMONES WILMARTIANOS print no sermon number, so they are addressed by the printed heading text and the line number, and a text whose heading is damaged by the section name and its line; a sermon too long for one division is split at the printed page heads (series name, sermon and page), addressed by sermon and head line; series introductions, the Praefatio, the Part VII introduction and the introduction to the ADDITAMENTA are front apparatus, and Morin's APPENDIX on sermons outside the collection is apparatus (notes), each addressed by the printed heading and line; a division starts at its sermon head, and at the page's running head when that head opens the page"
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 page_splits:
   - pattern: '^(?P<head>\S.*)$'
     number: head
