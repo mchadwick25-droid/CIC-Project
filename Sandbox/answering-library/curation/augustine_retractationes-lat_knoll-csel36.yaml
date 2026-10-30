@@ -143,20 +143,36 @@ divisions:
   locus: prologus
 - start_line: 3119
   locus: caput7
+  number: 7
+  series: caput
 - start_line: 4490
   locus: caput12
+  number: 12
+  series: caput
 - start_line: 6830
   locus: caput19
+  number: 19
+  series: caput
 - start_line: 11240
   locus: caput55
+  number: 55
+  series: caput
 - start_line: 11491
   locus: caput59
+  number: 59
+  series: caput
 - start_line: 12074
   locus: caput67
+  number: 67
+  series: caput
 - start_line: 12611
   locus: caput76
+  number: 76
+  series: caput
 - start_line: 13110
   locus: caput82
+  number: 82
+  series: caput
 - start_line: 8005
   locus: caput25
   allow_oversize: The edition numbers this chapter with a single section number (1) and prints no finer numbered division inside it; it runs through the 83 questions as one text.
