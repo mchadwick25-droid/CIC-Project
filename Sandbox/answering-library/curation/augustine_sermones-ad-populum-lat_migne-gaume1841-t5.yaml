@@ -1,7 +1,7 @@
 file: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
 scheme: 'Maurist sermon numbers I-CCCXCVI (the four classes and the doubtful sermons), printed as SERMO and a roman numeral at the head of each sermon, with the numbered CAPUT chapters as a second level in the sermons over 5,000 words; the Appendix of supposititious sermons carries its own numbering from I and is addressed under the appendix; a number whose heading the scan lost has no division; the fragments of lost sermons are addressed by line'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: class
     pattern: '^(?:S\. AUREL\w+ AUG\w+|CLASSIS V\.)$'
