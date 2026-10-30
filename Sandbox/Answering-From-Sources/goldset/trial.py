@@ -255,12 +255,13 @@ def main(argv: list[str] | None = None) -> int:
         p.add_argument("--judge", choices=sorted(JUDGE_PROMPTS), required=True)
         p.add_argument("--half", choices=(CALIBRATION, HELDOUT), required=True)
         p.add_argument("--dir", type=Path, required=True)
+        p.add_argument("--items", type=Path, help="judge these items (the seed controls, say) instead of a gold half")
         if name == "import":
             p.add_argument("--model", required=True, help="the model the subagents ran on, as named")
             p.add_argument("--out", type=Path, required=True)
     args = parser.parse_args(argv)
 
-    gold = read_jsonl(gold_path(args.half))
+    gold = read_jsonl(args.items if getattr(args, "items", None) else gold_path(args.half))
     if args.command == "export":
         print(json.dumps({"prompts_written": export_prompts(args.judge, gold, args.dir)}))
         return 0
