@@ -1,84 +1,32 @@
 file: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
-scheme: Maurist sermons 341-396 addressed by the Roman numeral in each heading (sermoNNN); the Appendix of doubtful and spurious sermons addressed by its own sermon numbers 1-317 (appendix-sermoNNN); unnumbered fragments and the Eraclius sermon addressed by heading line (fragment-lineN); headings whose numeral the scan destroys are addressed by line (unread-numeral-lineN)
+scheme: Maurist sermons 341-396 addressed by the Roman numeral in each heading (sermoNNN); the Appendix of doubtful and spurious sermons addressed by its own sermon numbers 1-317 (appendix-sermoNNN), first sermon being appendix-sermo001; unnumbered fragments and the Eraclius sermon addressed by heading line (fragment-lineN); sermons 351, 361 and 362 are divided further at their printed CAPUT headings (sermoNNN/caputNN)
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 rules:
-- id: sermon-long
-  pattern: ^(?:[*•,.] )?(?:SERMO|SEHMO|SEKMO|SF\.RMO|SEUMO|SE11M0|SEIt\.MO|SERJIO|SEIl\.MO|SEItMO|SF\.HMO|SKU\.MO|SF\.IlMO|SEilMO|SfcRMO|SF\.IIMO|SEIIMO|SERSIO|SEK1IO) (?P<n>[IVXLCivxclUHYGJ1n.!]+) ?(?:[*•‘’“»■"'(\[{<]|[0-9,] [({]| fa\))
-  lines:
-  - [2541, 2541]
-  - [11400, 11400]
-  - [12280, 12280]
-  - [12861, 12861]
-  - [12957, 12957]
-  - [13743, 13743]
-  - [13949, 13949]
-  - [14089, 14089]
-  - [14564, 14564]
-  - [14732, 14732]
-  - [14895, 14895]
-  - [15018, 15018]
-  locus: sermo{n|int:3}
-  number: n
-  allow_oversize: The sermon number is the Maurist citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
-  fixes:
-  - line: 2541
-    set: {n: '348'}
-  - line: 11400
-    set: {n: '368'}
-  - line: 12280
-    set: {n: '373'}
-  - line: 12861
-    set: {n: '377'}
-  - line: 12957
-    set: {n: '378'}
-  - line: 13743
-    set: {n: '382'}
-  - line: 13949
-    set: {n: '383'}
-  - line: 14089
-    set: {n: '384'}
-  - line: 14564
-    set: {n: '386'}
-  - line: 14732
-    set: {n: '387'}
-  - line: 14895
-    set: {n: '388'}
-  - line: 15018
-    set: {n: '389'}
-- id: appendix-long
-  pattern: ^(?:[*•,.] )?(?:SERMO|SEHMO|SEKMO|SF\.RMO|SEUMO|SE11M0|SEIt\.MO|SERJIO|SEIl\.MO|SEItMO|SF\.HMO|SKU\.MO|SF\.IlMO|SEilMO|SfcRMO|SF\.IIMO|SEIIMO|SERSIO|SEK1IO) (?P<n>[IVXLCivxclUHYGJ1n.!]+) ?(?:[*•‘’“»■"'(\[{<]|[0-9,] [({]| fa\))
-  lines:
-  - [49583, 49583]
-  - [57531, 57531]
-  - [65005, 65005]
-  - [66036, 66036]
-  - [66774, 66774]
-  locus: appendix-sermo{n|int:3}
-  number: n
-  allow_oversize: The sermon number is the Appendix citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
-  fixes:
-  - line: 49583
-    set: {n: '188'}
-  - line: 57531
-    set: {n: '238'}
-  - line: 65005
-    set: {n: '278'}
-  - line: 66036
-    set: {n: '283'}
-  - line: 66774
-    set: {n: '288'}
 - id: sermon
   pattern: ^(?:[*•,.] )?(?:SERMO|SEHMO|SEKMO|SF\.RMO|SEUMO|SE11M0|SEIt\.MO|SERJIO|SEIl\.MO|SEItMO|SF\.HMO|SKU\.MO|SF\.IlMO|SEilMO|SfcRMO|SF\.IIMO|SEIIMO|SERSIO|SEK1IO) (?P<n>[IVXLCivxclUHYGJ1n.!]+) ?(?:[*•‘’“»■"'(\[{<]|[0-9,] [({]| fa\))
   lines:
   - [227, 16289]
   locus: sermo{n|int:3}
   number: n
-  allow_oversize: The sermon number is the Maurist citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
   ocr_map: &id001 {'1': I, l: I, i: I, U: II, H: II, Y: V, G: C, J: I, n: II, .: '', '!': I}
   fixes:
   - line: 10048
     set: {n: CCCLXIII}
+- id: caput
+  parent: sermon
+  pattern: ^(?i:caput) (?P<c>[IVXLCivxlcYJH1]+|PRIMUM)[.,]? ?[—-]
+  lines:
+  - [3173, 4165]
+  - [7655, 8508]
+  - [8510, 10047]
+  locus: caput{c|int:2}
+  number: c
+  ocr_map: {'1': I, l: I, i: I, Y: V, J: I, H: II}
+  fixes:
+  - line: 8783
+    quote: CAPUT VIU.
+    set: {c: VIII}
 - id: fragment
   pattern: ^(?:Item )?(?:ex|Ex) (?:eodem )?[Ss]ermone\b(?P<h>.*)$
   lines:
@@ -96,28 +44,58 @@ rules:
   - [69870, 72546]
   locus: appendix-sermo{n|int:3}
   number: n
-  allow_oversize: The sermon number is the Appendix citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
   ocr_map: *id001
   fixes:
+  - line: 19715
+    quote: ',fc)'
+    set: {n: XI}
+  - line: 28010
+    quote: 'LV1M'
+    set: {n: LVIII}
+  - line: 35593
+    quote: 'SERMO Ct'
+    set: {n: CI}
+  - line: 37693
+    quote: 'SF.RM3CX'
+    set: {n: CX}
+  - line: 37846
+    quote: 'CXf'
+    set: {n: CXI}
+  - line: 47165
+    quote: 'CIAVI'
+    set: {n: CLXVI}
+  - line: 47193
+    quote: 'CIA VII'
+    set: {n: CLXVII}
+  - line: 47270
+    quote: 'CIAVIII'
+    set: {n: CLXVIII}
+  - line: 54507
+    quote: '(XXIX'
+    set: {n: CCXIX}
+  - line: 54808
+    quote: '(XXXI'
+    set: {n: CCXXI}
+  - line: 59838
+    quote: 'CCf.il'
+    set: {n: CCLII}
   - line: 66478
+    quote: 'CCCXXXVI'
     set: {n: CCLXXXVI}
+  - line: 66699
+    quote: 'C6LXXXV1I'
+    set: {n: CCLXXXVII}
+  - line: 67899
+    quote: 'CCXCM'
+    set: {n: CCXCIII}
+  - line: 69869
+    quote: 'CCUI'
+    set: {n: CCCII}
+  - line: 71199
+    quote: 'CCf.lX'
+    set: {n: CCCIX}
 divisions:
 - {start_line: 16290, locus: sermo-s-presbyteri-eraclii-line16290}
-- {start_line: 19715, locus: appendix-sermo011}
-- {start_line: 28010, locus: unread-numeral-line28010}
-- {start_line: 35593, locus: unread-numeral-line35593}
-- {start_line: 37693, locus: appendix-sermo110}
-- {start_line: 37846, locus: unread-numeral-line37846}
-- {start_line: 47165, locus: unread-numeral-line47165}
-- {start_line: 47193, locus: unread-numeral-line47193}
-- {start_line: 47270, locus: unread-numeral-line47270}
-- {start_line: 54507, locus: unread-numeral-line54507}
-- {start_line: 54808, locus: unread-numeral-line54808}
-- {start_line: 59838, locus: appendix-sermo252}
-- {start_line: 66699, locus: unread-numeral-line66699}
-- {start_line: 67899, locus: appendix-sermo293}
-- {start_line: 69869, locus: unread-numeral-line69869}
-- {start_line: 71199, locus: appendix-sermo309}
 ignore:
 - pattern: '^(?:\S{1,6} )?(?:S\. AUGUSTINI EPISCOPI )?SERMO(?: [IVXLCivxclUHYPTrfGKd1nJ.!]{1,14})?\.?(?: (?=[A-Za-z]*[0-9«%$&])[0-9A-Za-z«»%$&]{1,6})?[ ,.]*$'
   kind: running-head
@@ -188,38 +166,30 @@ apparatus:
   kind: index
   locus: index
 evidence:
+- {line: 24446, quote: 'SERMO XXXV (a).'}
+- {line: 71553, quote: 'SERMO CCCXI (a).'}
 - {line: 227, quote: SERMO CCCXL1 * (a).}
 - {line: 768, quote: SERMO CCCXL11 * (6).}
-- {line: 1531, quote: SE11M0 CCCXLIV ».}
 - {line: 5863, quote: SERMO CCCLV! * (a).}
-- {line: 6066, quote: SERMO CCCLVJ.}
 - {line: 7581, quote: SEIt.MO CCCLX * (a).}
 - {line: 8509, quote: SERMO CCCLXU * (a).}
-- {line: 8737, quote: SEUMO CCCLXII.}
 - {line: 10048, quote: SERMO CCCI.Xlll * (a).}
-- {line: 10235, quote: 4057 SERMO CCCLXH1.}
 - {line: 11284, quote: SEKMO CCCLXVII ‘ (a).}
 - {line: 13949, quote: 'SERMO CCC.LXXXII1'' (a). »''* me*, ego pestilenti® tu*. Retribuebant, Inquit,'}
-- {line: 14086, quote: SERMO CCCLXXXiV. «9«}
 - {line: 16071, quote: SERMO CGCXC1V (a).}
 - {line: 16138, quote: SERMO CCCXCV («).}
-- {line: 16205, quote: SERMO S. PRESBYTERI ERACL1I. • mg}
 - {line: 16224, quote: SERMO CCCXCVI («).}
 - {line: 16290, quote: SERMO S. PRESBYTERI ER AGLII 3}
 - {line: 16444, quote: SERMONUM QUORUMDAM}
 - {line: 16459, quote: 'Ex Sermone contra Pelagianos, in Eugypii tomo 2,'}
 - {line: 17590, quote: SERMO PRIMUS (a).}
 - {line: 19715, quote: 'SERMO XI ,fc).'}
-- {line: 24749, quote: SERMO XXXV».}
 - {line: 28010, quote: SERMO LV1M (a).}
 - {line: 33404, quote: SERMO LXXXVII! (a).}
-- {line: 33443, quote: SERMO LXXXVIII.}
 - {line: 35593, quote: SERMO Ct (a).}
 - {line: 37693, quote: SF.RM3CX (a). '}
 - {line: 37846, quote: SERMO CXf (a).}
 - {line: 41711, quote: SERMO CXXXin (a).}
-- {line: 41746, quote: SERMO CXXXiV.}
-- {line: 44267, quote: SERMO Cl».}
 - {line: 47165, quote: SERMO CIAVI (o).}
 - {line: 47193, quote: SERMO CIA VII (d).}
 - {line: 47270, quote: SERMO CIAVIII (a).}
@@ -228,16 +198,12 @@ evidence:
 - {line: 54507, quote: SERMO (XXIX (a).}
 - {line: 54808, quote: SERMO (XXXI (n).}
 - {line: 59838, quote: SERMO CCf.il (c).}
-- {line: 59863, quote: SERMO CCLI1.}
 - {line: 66457, quote: '•MS SERMO CCLXXXVI. 12?«'}
 - {line: 66478, quote: SERMO CCCXXXVI (a).}
 - {line: 66699, quote: SERMO C6LXXXV1I (a).}
 - {line: 67899, quote: SERMO CCXCM (a).}
-- {line: 68062, quote: SERMO CCXC1II.}
 - {line: 69869, quote: SERMO CCUI (a).}
 - {line: 71199, quote: SEHMO CCf.lX («).}
-- {line: 71241, quote: SERMO CCC1X.}
-- {line: 71601, quote: SERMO CCCXI. '}
 - {line: 72433, quote: 'SERMO CCCXVIl (a),'}
 - {line: 72547, quote: INDEX RERUM.}
 - {line: 88160, quote: FINIS TOMI QUINTI.}
