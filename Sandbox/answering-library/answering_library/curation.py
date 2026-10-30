@@ -50,7 +50,7 @@ REASON_STEPS = {"leaf_missing": ("gaps",), "edition_unnumbered": ("gaps",), "as_
                 "counterpart": ("gaps", "repeated", "backward")}
 _UPPER_NUMERAL = "IVXLCDM\u0399\u03a7\u039d\u0406\u0474"
 _NUMERAL_STROKES = "0123456789|!\\^'[]()*TUHYWF\u03a4\u0397\u03a5\u0475"
-_LOWER_STROKES = "ijlnr"
+_LOWER_STROKES = "ijlnry"
 LOOKALIKE_MARGIN = "a margin number comes first"
 LOOKALIKE_NUMERAL = "numeral in a form the pattern does not read"
 LOOKALIKE_UNREAD = "a reading of the series whose numeral could not be read"
@@ -592,7 +592,7 @@ def _loosened(rule):
 def _numeral_shaped(token: str, rule) -> bool:
     """Whether a token could be a numeral the scan has mangled. It is short and made of numeral letters,
     digits, the strokes OCR puts in their place and the characters the rule's ocr_map names. The lowercase
-    strokes i j l n r count only in a token that also holds an uppercase numeral letter, so a lowercase body
+    strokes i j l n r y count only in a token that also holds an uppercase numeral letter, so a lowercase body
     word such as xxi is not a numeral unless the rule ignores case or its ocr_map names the letters."""
     token = "".join(ch for ch in unicodedata.normalize("NFD", token.strip(".,;:'\u2019\u1fbf"))
                     if not unicodedata.combining(ch))

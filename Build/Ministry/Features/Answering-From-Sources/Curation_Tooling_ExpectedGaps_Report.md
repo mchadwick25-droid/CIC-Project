@@ -16,23 +16,24 @@ No curation file has an `expected_gaps` entry, so none fails the new rule and no
 ## Real-file replays
 
 - Gebhardt, yaml of commit a330439be, entry at line 3821 for series `perpetua-greek`, with no reason, with `leaf_missing {between: [3637, 3821]}`, with `edition_unnumbered {line: 3729, quote: '25 VIL'}` and with `counterpart {line: 3729}`: FAIL in each case, with line 3729 (`25 VIL Καὶ μετ’ ὀλίγας…`) reported. Line 3671 (`xxi χκαταγαγών…`) is not reported.
-- `augustine_doctrina-christiana-enchiridion-lat_bruder1838`: 41 look-alike lines inside the rules' `lines` and 248 over the whole file, the same as with no shape test at all (248 lines, 1,240 rule-line pairs for the five rules).
+- Raulx 1869 with `expected_gaps: [{series: p3, line: 3330, quote: 'XV.', reason: {leaf_missing: {between: [3261, 3330]}}}]`: FAIL, with line 3286 (`Xiy. Le mémoire des catholiques n'avait`) reported.
+- `augustine_doctrina-christiana-enchiridion-lat_bruder1838`: 43 look-alike lines inside the rules' `lines` and 276 over the whole file, the same as with no shape test at all.
 - Real damaged heads found over the whole body: Petschenig 30005 and 31480, Zycha 1066 and 6391, Goldbacher 4368, Raulx 664, 9976 and 12864, Harnack 2742 (9 of 9).
 
 ## Counts over the 52 files, whole body, every rule with `number` (rule-line pairs)
 
 | Test | Pairs |
 |---|---|
-| Any token at the numeral position (no shape test) | 904,872 |
-| Numeral-shaped token required in every case | 67,227 |
-| The look-alike test | 71,542 |
+| Any token at the numeral position (no shape test) | 905,008 |
+| Numeral-shaped token required in every case | 67,234 |
+| The look-alike test | 71,688 |
 
-The look-alike test adds 4,315 pairs over the numeral-shaped-token-only test (lines with a required head word, such as Bruder's `C.`, and lowercase-stroke heads such as `Vil.` that the stricter set refused), and it is 833,330 fewer than the no-shape count.
+The look-alike test adds 4,454 pairs over the numeral-shaped-token-only test (lines with a required head word, such as Bruder's `C.`, and lowercase-stroke heads such as `Vil.` that the stricter set refused), and it is 833,320 fewer than the no-shape count. The lowercase stroke `y` adds one line over the 52 files (Raulx 3286), counted under the ten Raulx rules.
 
-## 52-file re-run
+## 52-file run
 
-- Exit codes: 32 exit 0, 20 exit 1, the same files as before this work.
-- Output differs only in the hand-listed warning. Look-alike lines in those warnings: 34,367 before this work, 4,290 now. Files with changed counts: gebhardt_acta 59 to 8, Knoll CSEL 33 106 to 5, Zycha CSEL 41 (two files) 4,351 to 84 and 4,456 to 58, Goldbacher (three files) 1,278 to 880, 1,176 to 783, 793 to 433, Raulx 1,532 to 7, Petschenig 19,126 to 642, Knopf 71 to 19, Migne PL33 9 to 5, Optatus 1,289 to 1,287; Krueger 1893, Harnack Mission, Koch 1910 and Robinson 1891 drop to none. The lines that drop out are body text and references (`om. gemens A`, `Gen. 1 und 2.`, `ziehen.`).
+- Exit codes: 33 exit 0, 19 exit 1.
+- Look-alike lines in the hand-listed warnings: 4,293 over the 52 files. Per file, the largest are Petschenig 642, Goldbacher 880, 783 and 433, Optatus 1,287, Zycha CSEL 41 84 and 58, Acta martyrum selecta (Gebhardt 1902) 8, Knoll CSEL 33 5. The lines that are reported are heads and body text that starts like one; the lines the test leaves out are body text and references (`om. gemens A`, `Gen. 1 und 2.`, `ziehen.`).
 
 ## Limits
 
