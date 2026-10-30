@@ -4,10 +4,16 @@
 
 Process: Opus wrote them; a second Opus pass reviewed each against the full record (events kept, nothing added, `not_for` and `absent_detail` respected, quotations exact, caveats kept); the mechanical checks (the narratability length, nothing-added and events checks, and the readability gate, with each record's own fields overlaid in memory) pass on all of them. Every retained quotation was checked as an exact span of the full telling.
 
-Results:
-- Election of Cyprian: short 96 words, medium 184 (limit 184 at 160 plus 15%). 90 words holds it.
-- Numidicus: short 103 words (limit 103 at 90 plus 15%), medium 169. 90 words does not hold its nine essential events, the two quotations that carry its voice, the "completion, not a loss" framing the record requires and the variant-reading caveat; it fits only at the top of the tolerance. The 15% tolerance is a working figure for Mark to confirm. The targets were not changed.
+Checklist for every telling: events kept, nothing added, quotations exact spans of the full telling, `not_for` and `absent_detail` respected, and no unprompted absence statements (Mark, 2026-10-30: the telling never says what the story does not say unless the visitor's question asked for it).
 
-Finding in the record, not made here: the full Numidicus telling says "One manuscript and the older printed editions read unconquered." The vendored text only gives the variant and does not say where it comes from. The new tellings say "another reading has". The record's own sentence needs a source or the same softening, which is a record edit.
+Results:
+- Election of Cyprian: short 76 words, medium 155. 90 words holds it.
+- Numidicus: short 98 words (limit 103 at 90 plus 15%), medium 142. 90 words does not hold its nine essential events, the quotation that carries its voice and the "completion, not a loss" framing the record requires; it fits only near the top of the tolerance. The 15% tolerance is a working figure for Mark to confirm. The targets were not changed.
+
+Finding in the record, not made here: the full Numidicus telling says "One manuscript and the older printed editions read unconquered." The vendored text only gives the variant and does not say where it comes from. The record's own sentence needs a source or the same softening, which is a record edit (OG-114). The tellings no longer state the variant.
 
 Reading page for Mark: the Artifact "lpc Tellings Reading".
+
+Revision 2026-10-30 (Mark's rule, no unprompted absence statements): removed from Numidicus the variant-reading caveat, "the letter does not say where she searched" and the closing "none of the three left a word" paragraph; removed from Election of Cyprian "does not say how the people showed their favour" and the closing "only Pontius says newly baptized, writing in praise" lines. The Pontius attribution stays in each telling's opening and the quotation lead-in, so no `not_for` guard needs a caveat. The Numidicus "completion, not a loss" line stays because its `not_for` guard (burned/preserved read as a cruel word game) needs it. The second Opus pass on the changes only passed; its one borderline note ("Pontius did not soften this" could read as a frank, even-handed witness against the not-a-neutral-witness guard) was acted on by removing that line. Gates re-run on the revised text pass.
+
+Checklist addition, 2026-10-30: does the closing line land on the heart, or does it dismiss or shrink the story? Checked on the Numidicus and Election short and medium endings: no change made. The Numidicus short and medium end on the Lord's reason (Cyprian's own last note); the second Opus pass called that a weaker close than the unwanted survival but not a dismissal. Held for Mark.
