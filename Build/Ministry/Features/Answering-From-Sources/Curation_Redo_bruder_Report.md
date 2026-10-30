@@ -5,8 +5,8 @@ Drafter: Sonnet 5.5. File: `Sandbox/answering-library/curation/augustine_doctrin
 ## Time and effort
 
 - First session 2026-10-30T02:39Z to about 02:55Z (baseline, stopped on order). Resumed 2026-10-30T20:28Z, passing check at about 20:58Z. About 30 minutes on resume.
-- Check runs: 6 in total (baseline, then 5 on resume; the first resume run only reported an unreadable numeral).
-- Entries added: 27 `fixes` (plus 6 existing), 5 `ocr_map` lists changed, 5 patterns changed, 1 explicit division removed (line 9521, now a fix), 46 evidence entries added. 0 `expected_gaps`.
+- Check runs: 5 in total (baseline, then 4 on resume; the first resume run only reported an unreadable numeral).
+- Entries added: 27 `fixes` (plus 6 existing), 5 `ocr_map` lists changed, 5 patterns changed, 1 explicit division removed (line 9521, now a fix), 61 evidence entries added. 0 `expected_gaps`.
 
 ## What was wrong
 
@@ -30,7 +30,7 @@ class after: curated. divisions 279 (278 body, 1 apparatus). Rule hits doctrina1
 All checks PASS (uniqueness, coverage 100.0% of 78102 body words, oversize 0, rules and evidence, word completeness 78524 = 78524, 357 of 357 byte ranges exact).
 Per series: doctrina1 40 readings, first 1, last 40, gaps 0; doctrina2 42, first 1, last 42, gaps 0; doctrina3 37, first 1, last 37, gaps 0; doctrina4 31, first 1, last 31, gaps 0; enchiridion 122, first 1, last 122, gaps 0. No repeats, backward steps or unreadable numerals. RESULT: PASS.
 
-The 40 `warn` lines left are lines beginning `C`, `Cal.`, `Christ-` and the like, picked up by the wider pattern. They are not headings.
+The 43 `warn` lines left are lines beginning `C`, `Cal.`, `Christ-` and the like, picked up by the wider pattern. They are not headings.
 
 ## Remaining defects
 
