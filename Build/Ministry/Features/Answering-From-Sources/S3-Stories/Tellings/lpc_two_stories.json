@@ -1,0 +1,96 @@
+{
+ "lpc.story.numidicus": {
+  "heart": "Cyprian added Numidicus to the presbyters of Carthage. Numidicus had urged others to martyrdom, watched his wife burn, and been left for dead. He stayed behind against his will, though another reading has \"unconquered\". We kept the story because it calls a martyr's death a completion, not a loss, and honours a man who did not want to survive.",
+  "events": [
+   {
+    "line": "Cyprian wrote to us that he was adding Numidicus to our presbyters.",
+    "rests_on": "He was adding a presbyter to our clergy",
+    "essential": true
+   },
+   {
+    "line": "Numidicus urged many to martyrdom, and they died by stones and fire.",
+    "rests_on": "by his urging he sent a great number of martyrs ahead of him",
+    "essential": true
+   },
+   {
+    "line": "His wife died with them, burned at his side.",
+    "rests_on": "Among the dead was his own wife",
+    "essential": true
+   },
+   {
+    "line": "Cyprian wrote 'burned', then corrected it to 'preserved'.",
+    "rests_on": "or, as Cyprian corrects himself, preserved",
+    "essential": true
+   },
+   {
+    "line": "Numidicus was half burned, buried under stones and left for dead.",
+    "rests_on": "half burned, buried under stones and left for dead",
+    "essential": true
+   },
+   {
+    "line": "His daughter came looking for his body.",
+    "rests_on": "His daughter came looking for her father's body",
+    "essential": true
+   },
+   {
+    "line": "He was found half dead, pulled out and revived.",
+    "rests_on": "He was found half dead, pulled out and revived",
+    "essential": true
+   },
+   {
+    "line": "He stayed behind against his will; he had not wanted to survive.",
+    "rests_on": "stayed behind against his will",
+    "essential": true
+   },
+   {
+    "line": "Cyprian's reason: the Lord meant to add him to our clergy.",
+    "rests_on": "the Lord meant to add him to our clergy",
+    "essential": true
+   }
+  ],
+  "telling_short": "Cyprian wrote that he was adding Numidicus to our presbyters. \"By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire.\" Cyprian wrote that his wife was burned with them, then corrected himself. \"I should rather say she was preserved.\" We called her death a completion, not a loss. Numidicus was half burned, buried under stones and left for dead. His daughter searched for his body. He was found half dead and revived. He stayed behind against his will, though another reading has \"unconquered\". The Lord, Cyprian said, meant to add him to our clergy.",
+  "telling_medium": "Cyprian wrote to us that he was adding Numidicus to the presbyters of Carthage.\n\n\"By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire.\" His own wife died with them. \"With joy he watched his wife, who stayed at his side, burned with the others,\" Cyprian wrote, and then corrected himself. \"I should rather say she was preserved.\" For us, a martyr's death was a completion, not a loss.\n\n\"He himself was half burned, buried under stones and left for dead.\" His daughter came looking for her father's body \"with the anxious care of love.\" He was found half dead, pulled out and revived. The letter does not say where she searched.\n\n\"Against his will, he stayed behind the companions he himself had sent ahead.\" Another reading has \"unconquered\" instead of \"against his will.\" Cyprian saw a reason why he survived. The Lord meant to add Numidicus to our clergy.\n\nNone of the three left a word of their own."
+ },
+ "lpc.story.election-of-cyprian": {
+  "heart": "Our deacon Pontius says God's judgment and the people's favour made Cyprian bishop, though he was newly baptized. We kept it because the people's favour was how God's judgment became visible to us.",
+  "events": [
+   {
+    "line": "After Cyprian's death, Pontius passed over much and named one fact as proof enough of his good works.",
+    "rests_on": "settled on one fact as enough",
+    "essential": false
+   },
+   {
+    "line": "By God's judgment and the people's favour, Cyprian was chosen bishop.",
+    "rests_on": "by God's judgment and the people's favour, he was chosen bishop",
+    "essential": true
+   },
+   {
+    "line": "He was still newly baptized, a beginner.",
+    "rests_on": "while still a neophyte",
+    "essential": true
+   },
+   {
+    "line": "Pontius pressed that newness rather than softening it.",
+    "rests_on": "Pontius did not soften this -- he pressed it",
+    "essential": false
+   },
+   {
+    "line": "Cyprian stepped back from the office; the people pressed him.",
+    "rests_on": "the reviewed telling only: 'he humbly stepped back'; 'A crowd of the brothers besieged the doors of his house'",
+    "essential": false
+   },
+   {
+    "line": "For Pontius, the people's favour was how God's judgment became visible.",
+    "rests_on": "The second is how the first became visible to us",
+    "essential": true
+   },
+   {
+    "line": "Years later, against rivals, Cyprian called it our suffrage joined to God's judgment.",
+    "rests_on": "our own suffrage, joined to God's own judgment",
+    "essential": true
+   }
+  ],
+  "telling_short": "Our deacon Pontius wrote the life of Cyprian after his bishop had been put to death. \"By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner.\" For Pontius, the people's favour was how God's judgment became visible to us. He does not say how the people showed their favour. Years later, answering rivals, Cyprian called it our suffrage, joined to God's judgment. Only Pontius, writing in praise, says Cyprian was newly baptized.",
+  "telling_medium": "Our deacon Pontius wrote the life of Cyprian after his bishop had been put to death. He said one fact was proof enough of Cyprian's good works.\n\n\"By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner.\" Pontius did not soften this.\n\nCyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.\n\nFor Pontius, the people's favour was how God's judgment became visible to us. He does not say how the people made their favour known.\n\nYears later, rivals who had never accepted him renewed their attack. Cyprian wrote to us that they still carried \"that old venom against my office as bishop, which means against your suffrage and against God's judgment.\"\n\nOnly Pontius says that Cyprian was newly baptized. And Pontius was writing in praise."
+ }
+}
