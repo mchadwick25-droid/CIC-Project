@@ -2,7 +2,7 @@ file: augustine_retractationes-lat_knoll-csel36.txt
 scheme: Knoll's CAPVT numbers 1 to 93, printed continuously across both books as the heading CAPVT and a Roman numeral (Maurist numbers in brackets beside them are not used); the eight chapters whose numeral line is missing
   or has lost the word CAPVT are addressed by the numeral printed on that line or, for chapters 55 and 76, by the matching entry in the printed list of capitula; chapter 25 (De diuersis quaestionibus octoginta tribus) is divided at the section numbers Knoll prints in its margin, addressed caput25/s<n>, taking the first number of a printed pair such as 3. 4, and only where the number is printed on the line it marks
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: book
   pattern: ^\W*L[IT]BER (?:PRIM[VU]S|SEC[VU]NDVS)\.$
