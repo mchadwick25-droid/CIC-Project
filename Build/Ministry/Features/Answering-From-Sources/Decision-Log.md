@@ -538,3 +538,12 @@ Coordination thread, relaying Mark's general rule, 2026-10-30: the absence state
 - Point watched, accepted: in the Plague telling, "good was done to all people" now follows the sermon directly; it is Pontius's own wording and credited to him.
 - lpc gates (records, regate) pass; lpc repinned to 2026-10-30T21-50-08Z; the site world JSON rebuilt.
 
+
+## 26. The lpc 100-question test set frozen (2026-10-30)
+
+Mark, 2026-10-30, relayed by the coordination thread: "Mix is right"; freeze this mix. He did not ask to read the 26 new wordings.
+
+- The mix: 28 sealed canon probes (by probe id only; the wording stays sealed), 20 quote door, 14 story door, 8 thinness and honest limits, 6 after 430, 5 scholarly framing and claim pressure, 4 one verse, 4 challenging the voice, 4 real pilot wording, 7 cluster fill. Every cluster C1 to C16 has at least 3 questions, counted from the file.
+- The 26 new wordings (12 quote, 14 story) were checked by a fresh Opus reviewer against each target record's text. Round 1: 22 passed, 4 needed fixes (a Cyprian line that was Augustine's words about Cyprian; a doctor-and-sick-man line pointed at someone hurting, where the record is about failure put right; a wounded-shepherd line that went against the passage; an enemies example the record rules out). Each finding was checked against its record, then fixed. One round was enough; no fix needed a second.
+- Frozen file: `S3-Test100/lpc_100_questions.yaml`, sha256 `4a2b891cfabb0768942821ce8008dfcebe5cb01c5aa3741928d7e779ea51340f`, held in `S3-Test100/lpc_100_questions.sha256`. A change to it is a change order, named and reasoned.
+- Next, free of model spend: the shadow mode and the in-plan answer drafter.
