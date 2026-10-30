@@ -1,7 +1,7 @@
 file: mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt
 scheme: 'Mesnage''s gazetteer of the African sees and ruins, arranged by the parts the Table des matières prints (I Tunisie et Tripolitaine with A. Évêchés non identifiés, II Algérie with its three départements Constantine, Alger and Oran and the lists B and C of unidentified sees, III Maroc, IV Appendices I and II, V Tables); inside each part the entries follow the alphabet and each entry opens with its place name; the edition prints no entry numbers (the More and Toul. numbers on the lists of unidentified sees are cross-references to Morcelli and to Toulotte, not entries of this book), so each entry is addressed by its printed place name and the line of its heading (<part>/<name>-<line>); the Préface, the lists of manuscripts and abbreviations, the Additions et corrections, the Tables and the Table des matières as printed'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 divisions:
   - start_line: 58
     locus: preface
@@ -28,15 +28,6 @@ divisions:
   - start_line: 2376
     locus: tunisie/abd-el-melek-ksour-uzappa-ou-2376
     title: 'Abd-el-Melek. (Ksour) = Uzappa ou Avsafa.'
-  - start_line: 2436
-    locus: tunisie/p-2436
-    title: 'P-'
-  - start_line: 2440
-    locus: tunisie/p-2440
-    title: 'P-'
-  - start_line: 2456
-    locus: tunisie/saladin-2456
-    title: 'Saladin.'
   - start_line: 2504
     locus: tunisie/abd-er-rahman-el-garsi-agger-2504
     title: 'Abd er Rahman-el-Garsi. = Aggersel.'
@@ -502,9 +493,6 @@ divisions:
   - start_line: 5665
     locus: tunisie/guennara-hr-marazanae-5665
     title: 'Guennara. (Hr) = Marazanae?'
-  - start_line: 5671
-    locus: tunisie/carte-au-m-m-feuille-hadjeb-5671
-    title: 'Carte au m)\m) . Feuille Hadjeb el Aïoun'
   - start_line: 5676
     locus: tunisie/guerba-h-bon-5676
     title: 'Guerba. (H'' bon)'

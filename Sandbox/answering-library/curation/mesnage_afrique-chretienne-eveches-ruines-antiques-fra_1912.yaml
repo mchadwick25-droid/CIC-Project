@@ -1,7 +1,7 @@
 file: mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt
 scheme: 'Mesnage''s gazetteer of the African sees and ruins, arranged by the parts the Table des matières prints (I Tunisie et Tripolitaine with A. Évêchés non identifiés, II Algérie with its three départements Constantine, Alger and Oran and the lists B and C of unidentified sees, III Maroc, IV Appendices I and II, V Tables); inside each part the entries follow the alphabet and each entry opens with its place name; the edition prints no entry numbers (the More and Toul. numbers on the lists of unidentified sees are cross-references to Morcelli and to Toulotte, not entries of this book), so each entry is addressed by its printed place name and the line of its heading (<part>/<name>-<line>); the Préface, the lists of manuscripts and abbreviations, the Additions et corrections, the Tables and the Table des matières as printed'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 divisions:
   - start_line: 107
     locus: preface
@@ -103,9 +103,6 @@ divisions:
   - start_line: 2859
     locus: tunisie/alouenine-h-el-sicimbba-2859
     title: 'Alouénine. (H"" el) = Sicimbba.'
-  - start_line: 2863
-    locus: tunisie/l-afr-ique-cimetienke-2863
-    title: 'L''AFr.IQUE CimÉTIENKE'
   - start_line: 2869
     locus: tunisie/amara-s-aggar-2869
     title: 'Amara. (S'') = Aggar ?'
@@ -958,9 +955,6 @@ divisions:
   - start_line: 7858
     locus: tunisie/mdoudja-h-ch-a-7858
     title: 'Mdoudja. (H'') = Ch). a...'
-  - start_line: 7868
-    locus: tunisie/chretien-is-e-7868
-    title: 'CHRÉTIEN! IS''E'
   - start_line: 7876
     locus: tunisie/medded-h-mididi-7876
     title: 'Medded. (H'') = Mididi.'
@@ -1090,9 +1084,6 @@ divisions:
   - start_line: 8761
     locus: tunisie/nadour-h-en-8761
     title: 'Nadour. (H'''' en)'
-  - start_line: 8767
-    locus: tunisie/carte-de-la-tunisie-au-feuil-8767
-    title: 'Carte de la Tunisie au Feuille de Sened.'
   - start_line: 8770
     locus: tunisie/naja-h-8770
     title: 'Naja. (H'')'
