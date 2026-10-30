@@ -158,6 +158,8 @@ guard counted the two holds ($0.1416 and $0.0869). Ledgers:
 from the branch afterwards. Rule now kept: read every pending message before
 any step that could call a model.
 
+In-plan judge and labeller helpers run as `.claude/agents/judge-reader.md`, which holds Read and Write only (Mark, 2026-10-30), after helpers with wider tools wrote outside their files and reached other sessions.
+
 ## The gold set, 2026-10-30
 
 Built by `goldset/build.py` from every label and adjudication run 1, split and
