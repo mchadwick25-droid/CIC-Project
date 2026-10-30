@@ -1,7 +1,7 @@
 file: augustine_epistulae-maurist-order-lat_migne-pl33.txt
 scheme: 'Maurist letter numbers I-CCLXX, printed as EPISTOLA and a roman numeral at the head of each letter and running on through the four classes; the Appendix letters carry their own numbering from I and are addressed under the appendix; in the long letters that print CAPUT headings, and in letter 102 that prints QUAESTIO headings, the address goes down to the chapter or question the edition numbers'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: letter
     pattern: '^(?=(?:E|K)\S*S[TI1][O0UV]\S*[\s,])(?P<w>[A-Za-z0-9.!|]{5,9}),?\s+(?:\([a-z]\)\s*)?(?P<n>PRIMA|\(?[A-Z0-9lI!|\\.]{1,12})(?: (?P<bis>BIS))?(?=\s|[*•‘''"»(\[{\\/,.]|$)(?!.*C ?L ?A ?S)'
