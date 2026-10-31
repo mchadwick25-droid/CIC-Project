@@ -1,5 +1,5 @@
 file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
-scheme: Goldbacher's letter numbers CLXXXV to CCLXX, printed as a Roman numeral on a line of its own above the address of each letter; the running heads give the same numbers; a numeral the scan has damaged is read from the same line and from the running head of its page; CCII A and CCL A are printed with the letter A after the numeral; the eight letters over 5,000 words are also divided at the section numbers (sectio) or page numbers (p) that the scan shows plainly, and a section or page whose number the scan drops or damages has no division of its own and runs on inside the one before
+scheme: Goldbacher's letter numbers CLXXXV to CCLXX, printed as a Roman numeral on a line of its own above the address of each letter; the running heads give the same numbers; a numeral the scan has damaged is read from the same line and from the running head of its page; CLXXXV A, CCII A and CCL A are printed with the letter A after the numeral; the twelve letters over 5,000 words (185, 186, 187, 190, 194, 196, 199, 205, 211, 217, 225, 238) are also divided at section numbers (sectio) or page numbers (p) that the scan shows plainly; the section and page heads are listed by hand and are not checked as a series, and a section or page whose number the scan drops or damages has no division of its own and runs on inside the one before
 curator: Sonnet 5.5
 status: drafted
 rules:
@@ -197,8 +197,6 @@ rules:
     - 4027
   - - 4066
     - 4066
-  - - 4103
-    - 4103
   - - 4177
     - 4177
   - - 4212
@@ -293,13 +291,18 @@ rules:
     - 10641
   - - 10675
     - 10675
+  - - 10787
+    - 10787
   - - 10827
     - 10827
   - - 10867
     - 10867
-  - - 10895
-    - 10895
   locus: p{p|int}
+  fixes:
+  - line: 10787
+    quote: 290 s- Anrelt
+    set:
+      p: '290'
 - id: pg11986
   pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
@@ -312,8 +315,6 @@ rules:
     - 12212
   - - 12248
     - 12248
-  - - 12363
-    - 12363
   - - 12401
     - 12401
   - - 12474
@@ -379,8 +380,6 @@ rules:
   pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
-  - - 16920
-    - 16920
   - - 16959
     - 16959
   - - 17000
@@ -436,17 +435,64 @@ rules:
     - 1206
   - - 1232
     - 1232
+  - - 1261
+    - 1261
   - - 1279
     - 1279
+  - - 1304
+    - 1304
+  - - 1443
+    - 1443
+  - - 1471
+    - 1471
+  - - 1508
+    - 1508
+  - - 1529
+    - 1529
+  - - 1658
+    - 1658
   locus: sectio{s|int}
+  fixes:
+  - line: 1261
+    quote: 37 Si autem
+    set:
+      s: '37'
+  - line: 1304
+    quote: 39 In hac
+    set:
+      s: '39'
+  - line: 1443
+    quote: 44 Si ergo
+    set:
+      s: '44'
+  - line: 1471
+    quote: 45 Ut enim
+    set:
+      s: '45'
+  - line: 1508
+    quote: 46 Habeant
+    set:
+      s: '46'
+  - line: 1529
+    quote: 47 Sic multi
+    set:
+      s: '47'
+  - line: 1658
+    quote: 51 Pro
+    set:
+      s: '51'
 - id: sc1677
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
   lines:
+  - - 1681
+    - 1681
   - - 1757
     - 1757
   - - 1789
     - 1789
+  - - 1814
+    - 1814
   - - 1934
     - 1934
   - - 1998
@@ -466,6 +512,15 @@ rules:
   - - 2382
     - 2382
   locus: sectio{s|int}
+  fixes:
+  - line: 1681
+    quote: 1 5 Tandem
+    set:
+      s: '1'
+  - line: 1814
+    quote: 5 BoDum
+    set:
+      s: '5'
 - id: sc2962
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -474,13 +529,6 @@ rules:
     - 2964
   - - 3118
     - 3118
-  locus: sectio{s|int}
-- id: sc5020
-  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
-  parent: ep
-  lines:
-  - 5024
-  - 5024
   locus: sectio{s|int}
 - id: sc6480
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
@@ -498,8 +546,8 @@ rules:
     - 6820
   - - 6835
     - 6835
-  - - 6870
-    - 6870
+  - - 6991
+    - 6991
   - - 7244
     - 7244
   - - 7396
@@ -542,17 +590,12 @@ rules:
   - - 8449
     - 8449
   locus: sectio{s|int}
-- id: sc9002
-  pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
-  parent: ep
-  lines:
-  - 10318
-  - 10318
-  locus: sectio{s|int}
 - id: sc19815
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
   lines:
+  - - 19827
+    - 19827
   - - 19864
     - 19864
   - - 19931
@@ -579,8 +622,21 @@ rules:
     - 20534
   - - 20610
     - 20610
+  - - 20621
+    - 20621
   locus: sectio{s|int}
+  fixes:
+  - line: 19827
+    quote: 2 Et de praeterito
+    set:
+      s: '2'
+  - line: 20621
+    quote: 28 JToli
+    set:
+      s: '28'
 divisions:
+- start_line: 1665
+  locus: epistula185A
 - start_line: 11214
   locus: epistula202A
 - start_line: 22249
@@ -614,6 +670,12 @@ evidence:
   quote: '1 '
 - line: 1279
   quote: '38 '
+- line: 1508
+  quote: 46 Habeant
+- line: 1665
+  quote: CLXXXV A.
+- line: 1676
+  quote: CLXXXV. CLXXXV A. CLXXXVI.
 - line: 1757
   quote: '3 '
 - line: 2382
@@ -636,14 +698,14 @@ evidence:
   quote: CLXXXVIIi.
 - line: 5020
   quote: cxc.
-- line: 5024
-  quote: '11 '
 - line: 5124
   quote: '140'
 - line: 6166
   quote: CXCIIL
 - line: 6525
   quote: '2 '
+- line: 6991
+  quote: 18 Sicut ergo
 - line: 7854
   quote: '46 '
 - line: 7999
@@ -660,8 +722,8 @@ evidence:
   quote: '245'
 - line: 9735
   quote: 262 Anreli Augustini
-- line: 10318
-  quote: '1 '
+- line: 10787
+  quote: 290 s- Anrelt
 - line: 11114
   quote: CCI. CCIT.
 - line: 11118
