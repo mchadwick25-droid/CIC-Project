@@ -559,3 +559,13 @@ def test_no_quote_records_gist_is_taken_for_its_words_anywhere_in_the_fleet():
             if whys & {"gives a quote record's words without placing it", "tagged to a quote record that has not been placed"}:
                 refused.append(record["id"])
     assert refused == []
+
+
+def test_a_reply_with_no_marker_ships_without_a_quote_and_keeps_its_citation():
+    text, net_result = _net(f"Leo preached on the fast, and we go on keeping it. {GO_ON}")
+    assert net_result["reply_shape"]["placed"] == []
+    assert net_result["reply_shape"]["removed"] == []
+    assert "“" not in text
+    assert text.startswith("Leo preached on the fast, and we go on keeping it.")
+    assert text.endswith(GO_ON_SHOWN)
+    assert any(s.get("tags") == ["fix.witness.w"] and s["verdict"] == "ok" for s in net_result["sentences"])
