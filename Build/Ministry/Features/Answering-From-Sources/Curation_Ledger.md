@@ -251,3 +251,42 @@ Reports: `Curation_Redo_B8_Report.md`, `Curation_Redo_B4B7_Report.md`, `Curation
 | both `mesnage_afrique-chretienne-eveches-ruines` scans | `sampled-ok` after a fourth look (Decision-Log 27) |
 
 Tooling merged: PR #1343, #1346, #1359 (single look-alike test, reasons for `expected_gaps`, `y` stroke), #1365 (`head_unprinted`). The merger of #1346 is not identified.
+
+## Migne, Gaume and Caillau redo group, 2026-10-30
+
+Each file was redone by a Sonnet worker and read by an independent Opus reader who opened the vendored lines. No reason form was added and no tooling changed.
+
+| File | Outcome |
+|---|---|
+| `augustine_sermones-341-396-et-appendix-lat_migne-pl39` | `sampled-ok` after one read |
+| `augustine_sermones-post-maurinos-reperti-lat_morin1930` | `sampled-ok` after the third round (the cap) |
+| `augustine_sermones-1-340-lat_migne-pl38` | `sampled-ok` after two rounds |
+| `augustine_sermones-ad-populum-lat_migne-gaume1841-t5` | `sampled-ok` after two rounds |
+| `augustine_epistulae-maurist-order-lat_migne-pl33` | `sampled-ok` after two rounds |
+| `augustine_sermones-inediti-lat_caillau1842` | `sampled-ok` after two rounds |
+
+### Rulings applied (coordination level, AI-reviewed)
+
+- A numeral missing from a printed head line may be supplied from the edition's own running head or index for that very head, quoted as evidence. It is never read from the sequence alone. Caillau line 13761 (sermon LVIII) rests on the index alone.
+- Where a page is column-interleaved or a head is lost and no reason form fits truthfully, the stretch is read by a rule or explicit divisions without a numeral series. No reason is stated that the page does not show.
+- Caillau line 32624 prints `SEHMO XVII.` where its title and the index place it as the sixth Epiphany sermon. It is addressed by its printed head text and line, outside the numbered series.
+
+### Open gaps
+
+- PL38, sermon 294: `CAPUT V.` (line 93939) and `CAPUT VI.` (line 93997) are printed in the middle of a line in a column-merged scan. They have no division; their text sits inside the neighbouring capita.
+- PL38, sermon 88: the edition prints one combined head, `CAPITA VII et VIII` (line 37916). It is one division, addressed `caput07-08`.
+- PL33, letter 260 (Audax to Augustine): the head is lost from the scan; its text sits inside the `ep259` division (lines 78646 to 78809). The step is explained with `leaf_missing` between lines 78647 and 78810. The Index (lines 87333 and 89231) lists the letter.
+- PL33, three letters and the appendix letter 17: stretches read without a numeral series because of column interleave or a lost head or page (letter 108, 148, 169; appendix letter 17).
+- Gaume t5, sermon 361: no `CAPUT III` head in the scan (lines 114340 to 115250). The stretch is read without a numeral series.
+- Gaume t5: eight chapter stretches in sermons 4, 37, 51, 52, 88, 169 and 277 and the stretch at lines 114349 to 115246 are read without a numeral series.
+- Caillau: the edition's numbering skips sermons LXVI and LXXV. The printed index agrees and no text is missing. They are listed with `leaf_missing` (the nearest form the tooling allows).
+- Morin: the Part VII introduction and the Appendix are apparatus, as editor's prose.
+- Where a head starts mid-line in a two-column page, a few lines of the previous sermon fall into the next division (Caillau, Gaume). A line-based division cannot split a line.
+
+### Open tooling notes
+
+No tooling is built from these now. Coordination batches them into one small tooling PR, with Opus review before merge, if a later file needs it or after the CSEL group.
+
+- The checker does not fail a body division left as a `text/line` gap under a context heading that an apparatus range clips. It was found by reading the resolved divisions in Gaume t5 and PL33.
+- `counterpart` is accepted for a bare head with no numeral token even when the file is not a parallel text. No curation uses it for that now.
+- There is no reason form for a numeral the edition itself skips with no text missing (Caillau LXVI and LXXV). `leaf_missing` is used and misdescribes it. A form such as `edition_skips`, checked against the edition's own index, is the likeliest to be worth building.
