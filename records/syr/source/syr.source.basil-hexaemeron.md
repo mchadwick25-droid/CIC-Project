@@ -30,6 +30,7 @@ work: "The Hexaemeron, Homily II - the nine homilies on the six days of creation
 edition: "Nicene and Post-Nicene Fathers, second series, vol. 8, ed. Schaff and Wace (Edinburgh: T. & T. Clark, 1895), vendored as cic/texts/npnf208_basil-letters-select-works.xml - the Syrian passage and its editorial note at file line 16729"
 citation: Basil of Caesarea, The Hexaemeron, Homily II, Nicene and Post-Nicene Fathers, 2nd series, vol. 8, ed. Schaff and Wace (1895)
 kind: vendored
+shelf_row: npnf208_basil-letters-select-works--the-hexaemeron
 rights_status: "public-domain; NPNF2-08, 1895, long out of US copyright"
 attribution_status: "Basil for the homily; the Syrian he credits is unidentified in the text and disputed in the apparatus"
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (syr.search.unopened-volume-sweep); this volume had been on cross_world's second-hand-source list because syr.story.basil-legend rests on this passage and this world had never opened it"

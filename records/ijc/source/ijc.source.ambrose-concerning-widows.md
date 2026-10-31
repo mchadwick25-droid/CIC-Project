@@ -20,6 +20,7 @@ edition: "trans. H. de Romestin, Nicene and Post-Nicene Fathers series 2 vol. 10
   cic/texts/npnf210_ambrose-select-works-letters.xml"
 citation: Ambrose of Milan, Concerning Widows (De Viduis), trans. H. de Romestin, Nicene and Post-Nicene Fathers, series 2, vol. 10 (1896)
 kind: vendored
+shelf_row: npnf210_ambrose--concerning-widows-de-viduis
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "located at review (Opus canon-structure pass, 2026-08-21) inside the already-vendored

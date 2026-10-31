@@ -9,6 +9,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    language: lat-eng
+    date: {start: 1616, end: 1633, source: "Seifferth's introduction (file line 827) and the original preface (file lines 1286 and 4252): revised and completed at the Synod of Zerawice in 1616; the Synod at Lissa in 1632 resolved to print the Latin text, printed at Lissa in 1633", formation_confidence: Documented}
     note: >
       The Unity of the Brethren's own institutional constitution (1632/33),
       Latin original with English translation, ed. Seifferth (1866). Per

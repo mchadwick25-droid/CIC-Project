@@ -9,6 +9,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: tradition
     confidence: assigned
+    language: eng
+    date: {start: 1408, end: 1415, source: "dated letter headings in the file, from '(June 30, 1408)' at line 330 to '(July 1, 1415)' at line 13161", formation_confidence: Widely Accepted}
     note: >
       Hus's own correspondence, trans. Workman & Pope (1904) - his own
       voice across his career at the university, his preaching at the

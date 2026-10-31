@@ -9,6 +9,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    language: lat
+    date: {formation_confidence: unknown, checked: "title page and opening: the 1592 printing, 'a principio Gentis, usque ad Georgium Podiebradium', no composition year"}
     note: >
       A major contemporary hostile source on the Hussite wars, by Aeneas
       Sylvius Piccolomini (later Pope Pius II), who observed events at

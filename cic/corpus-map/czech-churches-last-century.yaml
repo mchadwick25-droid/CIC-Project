@@ -53,6 +53,13 @@ works:
   locus: the ancient history, the old Unity to 1627 and the hidden seed to 1722
   role: context
   confidence: provisional
+  language: eng
+  date:
+    start: 1771
+    end: 1771
+    source: Cranz's own preface, signed 'Bertholdsdorf, March 22, 1771' (file line 1099);
+      the editor's preface says the work had passed through two editions in Germany
+    formation_confidence: Documented
   note: How the renewed church of the eighteenth century narrated the old Czech Unity as its
     own past; the continuity claim in the claimant's words. Provisional for both.
   source_file: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt
