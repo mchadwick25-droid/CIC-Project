@@ -232,7 +232,9 @@ works:
   language: ces
   date:
     formation_confidence: unknown
-    checked: 'title page and front matter: several works, no composition year stated'
+    checked: 'title page and front matter: several works in one volume; the Výklad''s colophon
+      (file line 17158) says it was finished in 1412 before St Martin''s day, which dates
+      one work, not the row'
   note: Hus's Czech expositions of the Creed, the Ten Commandments and the Lord's Prayer,
     and his tract on simony, in Czech, in a critical edition from the oldest known sources.
     These are Hus's own Czech pastoral works, which the vendored English letters and De Ecclesia
@@ -252,9 +254,11 @@ works:
   confidence: assigned
   language: ces
   date:
-    formation_confidence: unknown
-    checked: heading at file line 65 names the base manuscript as 'z roku 1414', which fixes
-      only a latest date for the Postilla, not its composition
+    start: 1413
+    end: 1413
+    source: 'Hus''s colophon (file lines 18808-18811): finished ''léta tisícieho čtyřstého
+      a třinadctého, v den postný svatých apoštolóv Simona a Judy, na hradě, jenž slově Kozí'''
+    formation_confidence: Documented
   note: Hus's Czech Postilla, from the manuscript of 1414, in Czech, in a critical edition
     from the oldest known sources. These are Hus's own Czech pastoral works, which the vendored
     English letters and De Ecclesia do not reach. Primary original evidence for the movement
@@ -378,10 +382,11 @@ works:
   confidence: assigned
   language: eng
   date:
-    start: 1909
-    end: 1910
-    source: preface to the first edition signed 'Zampach, October 1909' (file line 396); the
-      file header gives first edition 1910, this printing 1920
+    start: 1895
+    end: 1896
+    source: 'preface to the first edition signed ''Zampach, December 1895'' (file line 607)
+      and the new-edition preface: ''first published in 1896'' (file line 301); the vendored
+      wording is the revision of 1909'
     formation_confidence: Documented
   note: 'Secondary general history of Bohemia, English, Lutzow (1920, Everyman''s Library),
     providing broader political/national context for the movement.
@@ -488,7 +493,7 @@ works:
   locus: 'whole volume - Band I: 1419-1428'
   role: context
   confidence: provisional
-  language: deu-lat-ces
+  language: deu-lat
   date:
     start: 1419
     end: 1428
@@ -509,7 +514,7 @@ works:
   locus: 'whole volume - Band II: 1429-1436'
   role: context
   confidence: provisional
-  language: deu-lat-ces
+  language: deu-lat
   date:
     start: 1429
     end: 1436
@@ -571,7 +576,7 @@ works:
   locus: whole volume; the members' and delegations' lists and the sessions
   role: context
   confidence: provisional
-  language: gmh
+  language: gmh-deu
   date:
     formation_confidence: unknown
     checked: 'Buck''s introduction (file lines 403-580): argues only that the exemplar of
@@ -590,10 +595,11 @@ works:
   confidence: assigned
   language: lat-eng
   date:
-    start: 1632
+    start: 1616
     end: 1633
-    source: 'Seifferth''s introduction (file lines 850-856): the Synod at Lissa in 1632 resolved
-      to print the Latin Ratio Disciplinae, printed the following year at Lissa (1633)'
+    source: 'Seifferth''s introduction (file line 827) and the original preface (file lines
+      1286 and 4252): revised and completed at the Synod of Zerawice in 1616; the Synod at
+      Lissa in 1632 resolved to print the Latin text, printed at Lissa in 1633'
     formation_confidence: Documented
   note: 'The Unity of the Brethren''s own institutional constitution (1632/33), Latin original
     with English translation, ed. Seifferth (1866). Per this world''s own window (c. 1402-1517,
@@ -654,12 +660,10 @@ works:
   confidence: provisional
   language: lat
   date:
-    start: 1504
-    end: 1508
-    source: 'file header content note: the edition''s headings ''do not settle whether this
-      is the 1504 or the 1508 text''; running head ''Ad Vladislaum Hung. Reg. missa'', volume
-      page 163'
-    formation_confidence: Inferential-Thin
+    formation_confidence: unknown
+    checked: file header content note says the edition's headings do not settle whether this
+      is the 1504 or the 1508 text; the printed running head 'Ad Vladislaum Hung. Reg. missa'
+      (volume page 163) gives no year
   note: 'The Brethren''s own Latin confession of faith to their king, printed in this collection.
     Whether it is the 1504 Confession or the 1508 text is not settled by the volume''s headings
     and needs a check against the Unity''s own editions before either date is used. Second
@@ -678,11 +682,10 @@ works:
   confidence: provisional
   language: eng
   date:
-    start: 1660
+    start: 1659
     end: 1660
-    source: 'title page (file lines 44-51): ''From the Time of Christ to the Year A.D. 1660''
-      and ''Translated from the Original Dutch ... from the Edition of 1660''; the English
-      preface is dated 1886'
+    source: 'van Braght''s own preface dated ''Dort, July the 23rd, 1659'' (file line 578)
+      and the title page: ''from the Edition of 1660'''
     formation_confidence: Documented
   note: 'A Dutch Mennonite martyrologist''s 1660 account, in the 1886 English edition, of
     Hus and of the Taborites (it calls them Waldenses). It reaches this world at three removes
@@ -720,10 +723,9 @@ works:
   confidence: provisional
   language: deu-pro
   date:
-    start: 1863
-    end: 1863
-    source: Vorwort signed 'Erlangen den 4. August 1863' (file line 289)
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: the Vorwort signed 'Erlangen den 4. August 1863' (file line 289) dates the edition,
+      not the catechism text this row names
   note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in
     a critical edition, with a nineteenth-century scholar's German around it. The Brethren's
     catechism printings are mostly after the Hussite world's window, hence context there.

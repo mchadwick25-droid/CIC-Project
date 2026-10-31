@@ -25,7 +25,7 @@ assignments:
   role: tradition
   confidence: provisional
   language: lat
-  date: {start: 1504, end: 1508, source: "file header content note: the edition's headings 'do not settle whether this is the 1504 or the 1508 text'; running head 'Ad Vladislaum Hung. Reg. missa', volume page 163", formation_confidence: Inferential-Thin}
+  date: {formation_confidence: unknown, checked: "file header content note says the edition's headings do not settle whether this is the 1504 or the 1508 text; the printed running head 'Ad Vladislaum Hung. Reg. missa' (volume page 163) gives no year"}
   note: 'The Brethren''s own Latin confession of faith to their king, printed in this collection. Whether
     it is the 1504 Confession or the 1508 text is not settled by the volume''s headings and needs a check
     against the Unity''s own editions before either date is used. Second witness for now, not quotable:

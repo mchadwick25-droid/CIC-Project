@@ -11,7 +11,7 @@ assignments:
     confidence: assigned
     locus_ids: [whole-file]
     language: eng
-    date: {start: 1909, end: 1910, source: "preface to the first edition signed 'Zampach, October 1909' (file line 396); the file header gives first edition 1910, this printing 1920", formation_confidence: Documented}
+    date: {start: 1895, end: 1896, source: "preface to the first edition signed 'Zampach, December 1895' (file line 607) and the new-edition preface: 'first published in 1896' (file line 301); the vendored wording is the revision of 1909", formation_confidence: Documented}
     note: >
       Secondary general history of Bohemia, English, Lutzow (1920,
       Everyman's Library), providing broader political/national context

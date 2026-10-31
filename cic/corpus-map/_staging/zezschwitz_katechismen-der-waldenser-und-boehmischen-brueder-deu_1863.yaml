@@ -34,7 +34,7 @@ assignments:
   role: context
   confidence: provisional
   language: deu-pro
-  date: {start: 1863, end: 1863, source: "Vorwort signed 'Erlangen den 4. August 1863' (file line 289)", formation_confidence: Documented}
+  date: {formation_confidence: unknown, checked: "the Vorwort signed 'Erlangen den 4. August 1863' (file line 289) dates the edition, not the catechism text this row names"}
   note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in a critical edition,
     with a nineteenth-century scholar's German around it. The Brethren's catechism printings are mostly
     after the Hussite world's window, hence context there. Quote only after checking the page images.

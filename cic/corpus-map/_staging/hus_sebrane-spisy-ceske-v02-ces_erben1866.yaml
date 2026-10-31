@@ -10,7 +10,7 @@ assignments:
   confidence: assigned
   locus_ids: [whole-file]
   language: ces
-  date: {formation_confidence: unknown, checked: "heading at file line 65 names the base manuscript as 'z roku 1414', which fixes only a latest date for the Postilla, not its composition"}
+  date: {start: 1413, end: 1413, source: "Hus's colophon (file lines 18808-18811): finished 'léta tisícieho čtyřstého a třinadctého, v den postný svatých apoštolóv Simona a Judy, na hradě, jenž slově Kozí'", formation_confidence: Documented}
   note: Hus's Czech Postilla, from the manuscript of 1414, in Czech, in a critical edition from the oldest
     known sources. These are Hus's own Czech pastoral works, which the vendored English letters and De
     Ecclesia do not reach. Primary original evidence for the movement in Czech, quotable once each wording

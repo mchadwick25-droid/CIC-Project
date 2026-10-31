@@ -10,7 +10,7 @@ assignments:
   role: tradition
   confidence: assigned
   language: ces
-  date: {formation_confidence: unknown, checked: "title page and front matter: several works, no composition year stated"}
+  date: {formation_confidence: unknown, checked: "title page and front matter: several works in one volume; the Výklad's colophon (file line 17158) says it was finished in 1412 before St Martin's day, which dates one work, not the row"}
   note: Hus's Czech expositions of the Creed, the Ten Commandments and the Lord's Prayer, and his tract
     on simony, in Czech, in a critical edition from the oldest known sources. These are Hus's own Czech
     pastoral works, which the vendored English letters and De Ecclesia do not reach. Primary original

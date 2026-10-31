@@ -28,7 +28,7 @@ assignments:
     role: context
     confidence: provisional
     language: eng
-    date: {start: 1660, end: 1660, source: "title page (file lines 44-51): 'From the Time of Christ to the Year A.D. 1660' and 'Translated from the Original Dutch ... from the Edition of 1660'; the English preface is dated 1886", formation_confidence: Documented}
+    date: {start: 1659, end: 1660, source: "van Braght's own preface dated 'Dort, July the 23rd, 1659' (file line 578) and the title page: 'from the Edition of 1660'", formation_confidence: Documented}
     note: >
       A Dutch Mennonite martyrologist's 1660 account, in the 1886
       English edition, of Hus and of the Taborites (it calls them
