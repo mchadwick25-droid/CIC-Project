@@ -45,7 +45,8 @@ DIRECTIVE_LINES = (
     "Every sentence you write ends with the ids of the records it rests on, then one marker: "
     "[[as:paraphrase]] when it closely restates what those records say, in the author's name; "
     "[[as:inference]] when it goes past them. Use inference only if you must; it will not be spoken. "
-    "Quote only by [[quote:id]].",
+    "Quote only by [[quote:id]]. Each sentence is read alone against its records, so name the person or thing in every sentence: "
+    "never use he, she, it, they, this, that or such to point back to an earlier sentence.",
     "A sentence with no record id is spoken only if it is a question to the visitor or one of these joining sentences: {connectives}. "
     "Say what the sources lack only from a limit record in your ground, cited. Keep the answer's depth and the world's own images.",
 )
