@@ -613,6 +613,7 @@ def prepare_voice_turn_inputs(
         kind=kind,
         rhythm=rhythm,
         words_asked=quote_asked,
+        sub_question=directive.sub_question if directive and world.frame.get("subquestion_routing") else None,
     )
     if world.frame.get("story_placement"):
         turn_evidence = with_placeable_stories(turn_evidence, repository_records)

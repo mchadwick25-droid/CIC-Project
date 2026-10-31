@@ -1221,7 +1221,7 @@ def _protected_ids(selected: list[dict], cell_matches: list[dict]) -> set[str]:
                 top[cell] = (score, c["id"])
         if (
             c["record_type"] in ("quote", "honest_limit") or c.get("fulltext_fallback") or c.get("scope_completion")
-            or match.get("from_entity") or match.get("from_hint_word") or match.get("from_prior_turn")
+            or match.get("from_entity") or match.get("from_hint_word") or match.get("from_prior_turn") or match.get("from_sub_question")
         ):
             protected.add(c["id"])
     protected.update(rid for _, rid in top.values())
@@ -1265,8 +1265,13 @@ def assemble_evidence(
     kind: str | None = None,
     rhythm: RhythmTally | None = None,
     words_asked: bool = False,
+    sub_question: str | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
+
+    sub_question is the sub-question id the reader named (engine.m4.subquestion_routing).
+    When `coverage` holds an entry under that id, it is the first cell: its records are
+    offered ahead of the cells the words matched, and never capped out.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
     "thin_ground": [...D...], "figures_already_named": [...]} - the
     structured form; render_evidence_block turns this into the §3.3 prose
@@ -1340,6 +1345,8 @@ def assemble_evidence(
         m for i, m in enumerate(extras)
         if m["cell"] not in seen_cells and m["cell"] not in {x["cell"] for x in extras[:i]}
     ]
+    if sub_question and coverage.get(sub_question):
+        cell_matches = [{"cell": sub_question, "score": 1.0, "from_sub_question": True}] + [m for m in cell_matches if m["cell"] != sub_question]
 
     selected: list[dict] = []
     seen_ids: set[str] = set()
