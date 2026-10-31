@@ -53,6 +53,21 @@ def test_export_and_import_round_trip(tmp_path, monkeypatch):
     assert [(r["pair_id"], r["decision"]) for r in imported] == [("p01", "drop")]
 
 
+def test_a_set_of_the_wrong_size_or_with_a_repeated_id_is_refused():
+    import pytest
+
+    with pytest.raises(ValueError):
+        fit.check_pairs(PAIRS[:-1])
+    with pytest.raises(ValueError):
+        fit.check_pairs(PAIRS[:39] + [dict(PAIRS[0])])
+
+
+def test_the_decision_is_recomputed_from_the_judgement_not_taken_from_the_row():
+    rows_ = rows()
+    rows_[0] = {"pair_id": "p01", "judgement": {"fit": "fits", "reason": "", "limit_stated": False}, "decision": "drop"}
+    assert fit.score(PAIRS, rows_)["planted"]["wrong"] == ["p01"]
+
+
 def test_pairs_load_from_yaml(tmp_path):
     path = tmp_path / "pairs.yaml"
     path.write_text(yaml.safe_dump({"pairs": PAIRS}))

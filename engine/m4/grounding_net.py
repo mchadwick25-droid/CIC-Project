@@ -1335,6 +1335,8 @@ def verdict_for_sentence(
     "sentence", and the sentence as written in "source_sentence". A
     sentence that only introduces what follows it carries "opens_quote",
     for the turn-level pass to decide."""
+    if any(t.startswith(CONTEXT_PREFIX) for t in tags):
+        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_CONTEXT_BINDING}
     quotation = _quotation_verdict(
         text, tags, repository_records, quotation_index or QuotationIndex(repository_records), placed_quote_id,
         paragraph_tags,
@@ -1394,9 +1396,6 @@ def _claim_verdict(
         # number, or enumeration, so they cannot themselves trip a
         # withhold; whatever fires below is the real content).
 
-    if context_only := [t for t in tags if t.startswith(CONTEXT_PREFIX)]:
-        entry["verdict"], entry["why"] = "withhold", REASON_CONTEXT_BINDING
-        return entry
     unknown = [t for t in tags if t not in repository_records]
     if unknown:
         entry["verdict"], entry["why"] = "withhold", f"unresolvable record id(s): {unknown}"

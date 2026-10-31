@@ -29,8 +29,20 @@ from engine.m4 import fit_step
 BAR = 19
 
 
+def check_pairs(pairs: list[dict]) -> list[dict]:
+    """Twenty planted pairs, twenty controls, no repeated pair id: the bar is
+    19 of 20, so a file of another size would be scored against the wrong bar."""
+    ids = [p["pair_id"] for p in pairs]
+    if len(ids) != len(set(ids)):
+        raise ValueError("a pair id is repeated")
+    counts = {kind: sum(p["kind"] == kind for p in pairs) for kind in ("planted", "control")}
+    if counts != {"planted": 20, "control": 20}:
+        raise ValueError(f"the set must hold 20 planted and 20 control pairs, not {counts}")
+    return pairs
+
+
 def load_pairs(path: Path) -> list[dict]:
-    return yaml.safe_load(Path(path).read_text(encoding="utf-8"))["pairs"]
+    return check_pairs(yaml.safe_load(Path(path).read_text(encoding="utf-8"))["pairs"])
 
 
 def pair_request(pair: dict, records: dict[str, dict]) -> dict:
@@ -66,8 +78,8 @@ def score(pairs: list[dict], rows: list[dict]) -> dict:
     out: dict = {"bar": f"{BAR} of 20 planted pairs dropped"}
     for kind, wanted in (("planted", "drop"), ("control", "keep")):
         group = [p for p in pairs if p["kind"] == kind]
-        judged = [p for p in group if by_id.get(p["pair_id"], {}).get("decision")]
-        right = [p for p in judged if by_id[p["pair_id"]]["decision"] == wanted]
+        judged = [p for p in group if (by_id.get(p["pair_id"]) or {}).get("judgement")]
+        right = [p for p in judged if fit_step.decide(by_id[p["pair_id"]]["judgement"]) == wanted]
         out[kind] = {
             "pairs": len(group), "judged": len(judged), "unreadable_or_missing": len(group) - len(judged),
             "right": len(right), "wrong": [p["pair_id"] for p in judged if p not in right],

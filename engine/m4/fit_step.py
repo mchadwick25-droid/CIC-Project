@@ -4,19 +4,17 @@ asked, in its own source context, and not only share its words.
 Two parts, both shadow only. Nothing in the live turn calls either.
 
 Context blocks. For a quote or story record, the source text around the places
-its `sources[].locus` cites, so the voice can see what the passage was saying.
-A block is marked as context. Its id (`ctx.<record id>.<n>`) cannot be a
-binding: a sentence tagged to one is withheld (grounding_net), so the voice may
-learn from context and cannot assert from it. The pre-Stage-2 provider reads a
-window of lines around each `cic/texts/<file>, line N` locus; when Stage 2 gives
-every passage its division, the window becomes the division and nothing else here
-changes.
+its `sources[].locus` cites (a `cic/texts/<file>, line N` locus), so the voice
+can see what the passage was saying. A block is marked as context, and the cited
+lines are always inside it. Its id (`ctx.<record id>.<n>`) cannot be a binding: a
+sentence tagged to one is withheld (grounding_net) before any other check.
 
 The fit judge. `fit_request` builds the question, the record's own statement of
 what it means and must not be used for, the passage and its context;
 `parse_fit` reads the reply; `decide` turns a verdict into keep or drop:
 fits is kept, off-point is dropped, partly is kept only when the answer's own
-words already state what the passage does not cover.
+words already state what the passage does not cover. An unreadable reply keeps
+the placement.
 """
 import json
 import re
@@ -43,25 +41,44 @@ FIT_SYSTEM = (
 
 _LOCUS = re.compile(r"(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
 _MARKUP = re.compile(r"<[^>]+>")
-_JSON = re.compile(r"\{.*\}", re.DOTALL)
+
+
+def _words(lines: list[str], number: int) -> list[str]:
+    return _MARKUP.sub(" ", lines[number - 1]).split()
 
 
 def _window(path: Path, first: int, last: int) -> str:
+    """The cited lines, then lines either side of them, alternating, until the
+    radius or the word ceiling is reached. The cited lines are always inside."""
     lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
-    low, high = max(first - CONTEXT_RADIUS_LINES, 1), min(last + CONTEXT_RADIUS_LINES, len(lines))
-    text = " ".join(_MARKUP.sub(" ", line).strip() for line in lines[low - 1 : high])
-    words = text.split()
-    return " ".join(words[:CONTEXT_MAX_WORDS])
+    if first > len(lines):
+        return ""
+    last = min(last, len(lines))
+    cited = [w for n in range(first, last + 1) for w in _words(lines, n)][:CONTEXT_MAX_WORDS]
+    before: list[str] = []
+    after: list[str] = []
+    budget = CONTEXT_MAX_WORDS - len(cited)
+    lower, upper = first - 1, last + 1
+    floor, ceiling = max(first - CONTEXT_RADIUS_LINES, 1), min(last + CONTEXT_RADIUS_LINES, len(lines))
+    while budget > 0 and (lower >= floor or upper <= ceiling):
+        if lower >= floor:
+            take = _words(lines, lower)[-budget:]
+            before, budget, lower = take + before, budget - len(take), lower - 1
+        if budget > 0 and upper <= ceiling:
+            take = _words(lines, upper)[:budget]
+            after, budget, upper = after + take, budget - len(take), upper + 1
+    return " ".join(before + cited + after)
 
 
 def context_blocks(record: dict, texts_root: Path = REPO_ROOT) -> list[dict]:
-    """One block per cited locus of the record that names a text file and a
-    line: its id, the source it came from and the text around it."""
+    """One block per cited locus of the record that names a text file under
+    cic/texts and a line: its id, the source it came from and the text around it."""
     blocks = []
+    base = (texts_root / "cic" / "texts").resolve()
     for source in record.get("sources") or []:
         for file, first, last in _LOCUS.findall(source.get("locus") or ""):
-            path = texts_root / file
-            if not path.is_file():
+            path = (texts_root / file).resolve()
+            if base not in path.parents or not path.is_file():
                 continue
             text = _window(path, int(first), int(last or first))
             if text:
@@ -122,17 +139,27 @@ def fit_request(question: str, record: dict, blocks: list[dict], length: str | N
     return {"system": FIT_SYSTEM, "user": user}
 
 
+def _first_object(text: str) -> dict | None:
+    decoder = json.JSONDecoder()
+    for opening in re.finditer(r"\{", text or ""):
+        try:
+            found, _end = decoder.raw_decode(text[opening.start():])
+        except json.JSONDecodeError:
+            continue
+        return found if isinstance(found, dict) else None
+    return None
+
+
 def parse_fit(reply: str) -> dict | None:
-    found = _JSON.search(reply or "")
-    if not found:
+    """The verdict in a reply, or None when there is none. `limit_stated` is
+    needed only for `partly`; for the other verdicts it is false when absent."""
+    data = _first_object(reply)
+    if data is None or data.get("fit") not in VERDICTS:
         return None
-    try:
-        data = json.loads(found.group(0))
-    except json.JSONDecodeError:
+    limit = data.get("limit_stated", False if data["fit"] != "partly" else None)
+    if not isinstance(limit, bool):
         return None
-    if data.get("fit") not in VERDICTS or not isinstance(data.get("limit_stated"), bool):
-        return None
-    return {"fit": data["fit"], "reason": str(data.get("reason") or ""), "limit_stated": data["limit_stated"]}
+    return {"fit": data["fit"], "reason": str(data.get("reason") or ""), "limit_stated": limit}
 
 
 def decide(judgement: dict | None) -> str:

@@ -84,7 +84,10 @@ def test_a_story_is_passed_at_the_length_told():
     ('{"fit": "fits", "reason": "ok", "limit_stated": false}', {"fit": "fits", "reason": "ok", "limit_stated": False}),
     ('Here: {"fit": "off_point", "reason": "x", "limit_stated": true}', {"fit": "off_point", "reason": "x", "limit_stated": True}),
     ('{"fit": "maybe", "reason": "x", "limit_stated": false}', None),
-    ('{"fit": "fits", "reason": "x"}', None),
+    ('{"fit": "fits", "reason": "x"}', {"fit": "fits", "reason": "x", "limit_stated": False}),
+    ('{"fit": "partly", "reason": "x"}', None),
+    ('{"fit": "partly", "reason": "x", "limit_stated": "yes"}', None),
+    ('I weighed {both} sides. {"fit": "off_point", "reason": "x"} Done {ok}.', {"fit": "off_point", "reason": "x", "limit_stated": False}),
     ("not json", None),
     ("", None),
 ])
@@ -102,3 +105,40 @@ def test_the_decision(fit, limit, expected):
 
 def test_an_unreadable_reply_keeps_the_placement():
     assert fit_step.decide(None) == "keep"
+
+
+def test_a_sentence_tagged_to_context_on_a_placed_quotes_lead_in_is_withheld_too():
+    records = load_world_records("lpc")
+    quote = "lpc.quote.a-dreadful-plague-broke-out"
+    draft = f"Pontius said it this way [[ctx.{quote}.1]] [[quote:{quote}]]."
+    _t, citations, _net = apply_net(draft, repository_records=records, thin_topics=None, placement=PlacementContext(offered=frozenset({quote})))
+    assert not any(t.startswith("ctx.") for c in citations for t in c["record_ids"])
+
+
+def test_the_cited_lines_stay_inside_a_block_when_the_lines_around_them_are_long(tmp_path):
+    (tmp_path / "cic" / "texts").mkdir(parents=True)
+    body = [" ".join(f"w{n}x{k}" for k in range(60)) for n in range(1, 101)]
+    body[49] = "THE CITED PASSAGE IS HERE"
+    (tmp_path / "cic" / "texts" / "long.txt").write_text("\n".join(body), encoding="utf-8")
+    record = {"id": "t.quote.long", "sources": [{"source_id": "s", "locus": "cic/texts/long.txt, line 50"}]}
+    text = fit_step.context_blocks(record, tmp_path)[0]["text"]
+    assert "THE CITED PASSAGE IS HERE" in text and len(text.split()) <= fit_step.CONTEXT_MAX_WORDS
+    assert "w49x59" in text and "w51x0" in text
+
+
+def test_a_window_at_the_start_and_the_end_of_a_file_stops_at_the_file(tmp_path):
+    (tmp_path / "cic" / "texts").mkdir(parents=True)
+    (tmp_path / "cic" / "texts" / "short.txt").write_text("\n".join(f"line {n}" for n in range(1, 6)), encoding="utf-8")
+    first = {"id": "t.q.a", "sources": [{"locus": "cic/texts/short.txt, line 1"}]}
+    last = {"id": "t.q.b", "sources": [{"locus": "cic/texts/short.txt, lines 4-5"}]}
+    past = {"id": "t.q.c", "sources": [{"locus": "cic/texts/short.txt, line 9"}]}
+    assert fit_step.context_blocks(first, tmp_path)[0]["text"].startswith("line 1")
+    assert fit_step.context_blocks(last, tmp_path)[0]["text"].endswith("line 5")
+    assert fit_step.context_blocks(past, tmp_path) == []
+
+
+def test_a_locus_cannot_climb_out_of_the_texts_directory(tmp_path):
+    (tmp_path / "cic" / "texts").mkdir(parents=True)
+    (tmp_path / "secret.txt").write_text("not for the prompt", encoding="utf-8")
+    record = {"id": "t.q.d", "sources": [{"locus": "cic/texts/../../secret.txt, line 1"}]}
+    assert fit_step.context_blocks(record, tmp_path) == []
