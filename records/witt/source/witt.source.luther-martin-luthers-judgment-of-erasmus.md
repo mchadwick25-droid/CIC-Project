@@ -20,7 +20,6 @@ edition: the letter to Nicholas von Amsdorf concerning Erasmus (1534 in the stan
   knowledge), appended after the Bondage Conclusion in Cole's 1823 volume; vendored as cic/texts/luther_bondage-of-the-will_cole1823.txt
 citation: Luther, Martin Luther's Judgment of Erasmus of Rotterdam. To a Certain Friend, the letter to Nicholas von Amsdorf concerning Erasmus (1534 in the standard editions), appended after the Bondage Conclusion in Cole's 1823 volume
 kind: vendored
-shelf_row: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 35; Cole file; 2026-09-15; heading re-read

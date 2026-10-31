@@ -20,7 +20,6 @@ edition: (1526), printed in Praetorius, Syntagma Musicum, taken by Bacon from Ra
   in Bacon's Introduction; vendored as cic/texts/luther_hymns_bacon-allen.txt
 citation: Johann Walter, letter of reminiscence on Luther as church musician and the first German Mass (1526), printed in Praetorius, Syntagma Musicum, taken by Bacon from Rambach (1813)
 kind: vendored
-shelf_row: luther_hymns_bacon-allen--dr-martin-luther-s-deutsche-geistliche-lieder-the-hymns-of
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 45; hymns file; 2026-09-15
