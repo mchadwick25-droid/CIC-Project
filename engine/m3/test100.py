@@ -75,7 +75,7 @@ def _named_sub_question(reply_dir: Path, question_id: str) -> str | None:
     return json.loads(path.read_text(encoding="utf-8")).get("sub_question") if path.exists() else None
 
 
-def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True, sub_question_routing: bool = False) -> dict:
+def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True, sub_question_routing: bool = False, bound_connectives: list[str] | None = None) -> dict:
     from engine.m1.registry import load_registry
     from engine.m3.generation import LiveModelAnswerer, LivePathSettings
     from engine.m4 import turn as m4_turn
@@ -90,6 +90,9 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
         loaded.frame["story_placement"] = True
     if context_blocks:
         loaded.frame["context_blocks"] = True
+    if bound_connectives is not None:
+        loaded.frame["bound_drafting"] = True
+        loaded.frame["bound_connectives"] = list(bound_connectives)
     if sub_question_routing:
         from engine.m4 import subquestion_routing
         from engine.m4.evidence import repository_records_by_id
@@ -144,13 +147,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--only", nargs="*", help="run only these question ids")
     parser.add_argument("--no-context", action="store_true", help="leave the source-text context blocks out of the offer")
     parser.add_argument("--sub-question-routing", action="store_true", help="the reader names a sub-question and the offer takes its records first (the world's answers sidecar)")
+    parser.add_argument("--bound-drafting", type=Path, metavar="CONNECTIVES_YAML", help="the voice binds and labels every sentence; the file is the world's reviewed list of joining sentences (a YAML list, may be empty)")
     parser.add_argument("--no-story-placement", action="store_true", help="leave the world's own story_placement flag as registered")
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     questions = load_set(args.question_set)
     if args.only:
         questions = [q for q in questions if q["id"] in set(args.only)]
-    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement, context_blocks=not args.no_context, sub_question_routing=args.sub_question_routing)
+    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement, context_blocks=not args.no_context, sub_question_routing=args.sub_question_routing,
+                       bound_connectives=yaml.safe_load(args.bound_drafting.read_text(encoding="utf-8")) or [] if args.bound_drafting else None)
     print(json.dumps({k: v for k, v in summary.items() if k != "pending_ids"}, indent=1))
     return 0
 

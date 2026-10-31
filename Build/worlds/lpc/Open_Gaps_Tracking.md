@@ -2555,3 +2555,11 @@ Logged 2026-10-31.
 - **System fix built.** A sentence the rule would withhold is first bound or repaired against the records the voice was offered; only an unsupported one is withheld. The limit test applies to any sentence worded as a limit; the directive stops the voice from stating lacks without a cited limit record and from naming confidence levels; the fallback is rare and placed once; the verify prompt holds a joined sentence to the narrower scope. No record edit.
 - **Open.** Retrieval and routing (which records are offered for a question) is not changed; coordination takes it to Mark.
 - **Owner.** Engine thread, through the coordination thread.
+
+### OG-134. Answering from the sources: routing by sub-question, bound drafting, and what is still open (2026-10-31).
+
+- **Built (shadow only, lpc).** The reader may name a sub-question and the offer takes that sub-question's records first (PR #1408). The voice binds and labels every sentence and code decides from the draft, which replaces the model-based unbound-sentence step (PR #1409; that step's module and runner are removed from the shadow path).
+- **Open: the sub-question map.** Records do not yet declare which sub-questions they answer. The lpc sidecar is derived from the coverage maps and has not been reviewed record by record; 41 of 130 sub-questions have lpc records. Owner: Library thread, through the coordination thread.
+- **Open: the closed list of joining sentences.** An unbound sentence ships only as a question to the visitor or one of the world's reviewed joining sentences. lpc has no reviewed list yet, so none are spoken. Owner: Library thread.
+- **Open: the absence check on the live path.** The check that withholds a tagged absence claim still runs inside the live net. Retiring it needs its own change order with numbers. Owner: coordination.
+- **Owner.** Engine thread, through the coordination thread.
