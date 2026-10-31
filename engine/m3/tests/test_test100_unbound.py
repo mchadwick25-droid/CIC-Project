@@ -41,7 +41,7 @@ def test_a_full_round(tmp_path, monkeypatch):
     result = tu.classify_import(rows, work)
     assert result == {"rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "to_shelf_check": 1, "withheld_by_the_net": 1}
     _reply(work, "terms", "q1.3", '{"terms": ["Origen", "devil", "condemned"]}')
-    assert tu.terms_import(rows, work, shelf_root=shelf) == {"shelf_prompts_written": 1, "missing_replies": 0, "unreadable": 0}
+    assert tu.terms_import(rows, work, shelf_root=shelf) == {"shelf_prompts_written": 1, "missing_replies": 0, "unreadable": 0, "shelf_files_missing": 0}
     prompt = (work / "unbound" / "shelf" / "prompts" / "q1.3.md").read_text()
     assert "devil would be freed" in prompt and "f.txt" in prompt
     _reply(work, "shelf", "q1.3", '{"covered": true, "where": "f.txt 1-3", "reason": "states it"}')
@@ -61,3 +61,36 @@ def test_missing_replies_keep_their_sentences_and_are_counted(tmp_path, monkeypa
     summary = tu.final(rows, work)
     assert summary["pending_classify"] == 3 and summary["pending_shelf"] == 1
     assert "Nothing we carry speaks of him." in (work / "unbound" / "final" / "q1.txt").read_text()
+
+
+def test_a_limit_with_no_denied_phrase_is_still_checked(tmp_path, monkeypatch):
+    work, questions, shelf = _setup(tmp_path)
+    monkeypatch.setattr(tu, "shelf_files", lambda world: frozenset({"f.txt"}))
+    rows = tu._answers(questions, work, load_world_records("lpc"))
+    tu.classify_export(rows, work)
+    _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": null}')
+    assert tu.classify_import(rows, work)["to_shelf_check"] == 1
+    assert (work / "unbound" / "terms" / "prompts" / "q1.3.md").exists()
+
+
+def test_an_unreadable_shelf_stops_the_run(tmp_path, monkeypatch):
+    import pytest
+
+    work, questions, shelf = _setup(tmp_path)
+    monkeypatch.setattr(tu, "shelf_files", lambda world: frozenset())
+    rows = tu._answers(questions, work, load_world_records("lpc"))
+    tu.classify_export(rows, work)
+    _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": "x"}')
+    tu.classify_import(rows, work)
+    _reply(work, "terms", "q1.3", '{"terms": ["x"]}')
+    with pytest.raises(SystemExit):
+        tu.terms_import(rows, work, shelf_root=shelf)
+
+
+def test_a_sentence_the_verify_step_rewrote_and_used_is_classified_too(tmp_path):
+    work, questions, shelf = _setup(tmp_path)
+    (work / "verify" / "reread" / "replies").mkdir(parents=True)
+    (work / "verify" / "rewrite.jsonl").write_text(json.dumps({"key": "q1.0", "question_id": "q1", "n": 0, "rewrite": "Our record is silent on it."}) + "\n")
+    (work / "verify" / "reread" / "replies" / "q1.0.txt").write_text('{"supported": true, "problem": null, "reason": ""}')
+    items = tu._answers(questions, work, load_world_records("lpc"))[0][2]
+    assert [i["n"] for i in items][-1] == "0r" and items[-1]["sentence"] == "Our record is silent on it."

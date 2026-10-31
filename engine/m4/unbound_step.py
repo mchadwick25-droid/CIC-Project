@@ -31,7 +31,9 @@ contradicts):
 
 The shelf search is lexical: the denied phrase, the sentence and the question
 give weighted terms, and the highest-scoring windows of lines across the shelf
-files are shown to the second reader with their file and line numbers.
+files are shown to the second reader as the matching lines of each window and the
+lines beside them, within a character budget, labelled with the first and last line
+shown.
 """
 from __future__ import annotations
 
@@ -48,7 +50,8 @@ from engine.m4.verify_step import valid_bindings
 KINDS = ("connective", "conversation", "world_claim", "limit")
 WINDOW_LINES = 12
 PASSAGE_CONTEXT = 3
-PASSAGE_CHARS = 1400
+PASSAGE_CHARS = 2400
+LINE_CHARS = 500
 TOP_WINDOWS = 4
 MIN_DISTINCT_TERMS = 2
 DENIED_WEIGHT = 2.0
@@ -130,7 +133,7 @@ def decide_classified(judgement: dict | None, bound: bool) -> str:
         return "keep"
     if judgement["kind"] == "world_claim" and not bound:
         return "withhold"
-    if judgement["kind"] == "limit" and judgement["denies"]:
+    if judgement["kind"] == "limit":
         return "shelf_check"
     return "keep"
 
@@ -173,11 +176,13 @@ class ShelfIndex:
 
     def __init__(self, texts_root: Path, files: list[str], terms: set[str]):
         self.root, self.files = texts_root, files
+        self.missing_files: list[str] = []
         self.lines: dict[int, list[str]] = {}
         self.postings: dict[str, dict[int, list[int]]] = defaultdict(lambda: defaultdict(list))
         for fi, name in enumerate(files):
             path = texts_root / name
             if not path.exists():
+                self.missing_files.append(name)
                 continue
             lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
             self.lines[fi] = lines
@@ -213,9 +218,16 @@ class ShelfIndex:
         out = []
         for c in chosen:
             lines = self.lines[c["fi"]]
-            first, last = max(c["start"] - PASSAGE_CONTEXT, 0), min(c["start"] + WINDOW_LINES + PASSAGE_CONTEXT, len(lines))
-            text = " ".join(_MARKUP.sub(" ", " ".join(lines[first:last])).split())[:PASSAGE_CHARS]
-            out.append({"file": self.files[c["fi"]], "lines": f"{first + 1}-{last}", "text": text})
+            window = range(c["start"], min(c["start"] + WINDOW_LINES, len(lines)))
+            matching = [n for n in window if any(n in self.postings[t].get(c["fi"], ()) for t in weight)]
+            shown = sorted({m for n in matching for m in (n - 1, n, n + 1) if c["start"] <= m < c["start"] + WINDOW_LINES and m < len(lines)})
+            budget, parts = PASSAGE_CHARS, []
+            for n in shown:
+                line = " ".join(_MARKUP.sub(" ", lines[n]).split())[:LINE_CHARS]
+                if line and budget > 0:
+                    parts.append(line[:budget])
+                    budget -= len(line)
+            out.append({"file": self.files[c["fi"]], "lines": f"{shown[0] + 1}-{shown[-1] + 1}", "text": " ".join(parts)})
         return out
 
 

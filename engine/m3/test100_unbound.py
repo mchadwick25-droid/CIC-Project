@@ -29,6 +29,7 @@ from pathlib import Path
 
 from engine.m3.test100 import _outside_repo, load_set, question_text
 from engine.m4 import unbound_step as us
+from engine.m4 import verify_step as vs
 from engine.m4.leadin_support import shelf_files
 from engine.m4.verify_step import splice
 
@@ -56,14 +57,26 @@ def _load(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()] if path.exists() else []
 
 
+def _rewritten(work: Path) -> dict[str, list[dict]]:
+    """The sentences the verify step rewrote and used, by question: they ship in
+    place of the originals and are classified like any bound sentence of the voice."""
+    used: dict[str, list[dict]] = {}
+    for row in _load(work / "verify" / "rewrite.jsonl"):
+        path = work / "verify" / "reread" / "replies" / f"{row['key']}.txt"
+        if row.get("rewrite") and path.exists() and (vs.parse_verify(path.read_text(encoding="utf-8")) or {}).get("supported"):
+            used.setdefault(row["question_id"], []).append({"n": f"{row['n']}r", "sentence": row["rewrite"], "bound": True, "withheld": False, "why": None})
+    return used
+
+
 def _answers(questions: list[dict], work: Path, records: dict) -> list[tuple[dict, dict, list[dict]]]:
     out = []
+    rewritten = _rewritten(work)
     for question in questions:
         path = work / "answers" / f"{question['id']}.json"
         if path.exists():
             answer = json.loads(path.read_text(encoding="utf-8"))
             if answer.get("text"):
-                out.append((question, answer, us.shipped_items(answer, records)))
+                out.append((question, answer, us.shipped_items(answer, records) + rewritten.get(question["id"], [])))
     return out
 
 
@@ -97,7 +110,7 @@ def classify_import(rows: list, work: Path) -> dict:
             out.append({**item, "key": key, "question_id": question["id"], "judgement": judgement, "decision": decision})
             if decision == "shelf_check":
                 denials += 1
-                _write_prompt(work, "terms", key, us.terms_request(question_text(question), item["sentence"], judgement["denies"]))
+                _write_prompt(work, "terms", key, us.terms_request(question_text(question), item["sentence"], judgement["denies"] or item["sentence"]))
     _save(work / "unbound" / "classify.jsonl", out)
     return {"rows": len(out), "missing_replies": pending, "unreadable": unreadable, "world_claim": sum(r["decision"] == "withhold" for r in out),
             "to_shelf_check": denials, "withheld_by_the_net": sum(r["decision"] == "withhold_net" for r in out)}
@@ -117,16 +130,23 @@ def terms_import(rows: list, work: Path, shelf_root: Path = TEXTS_ROOT, world: s
         suggested = us.parse_terms(reply)
         unreadable += suggested is None
         row["suggested_terms"] = suggested or []
+        row["terms_unreadable"] = suggested is None
         question = question_text(questions[row["question_id"]])
-        queries.append((row, question, us.query_terms(question, row["sentence"], row["judgement"]["denies"], suggested)))
+        denies = row["judgement"]["denies"] or row["sentence"]
+        queries.append((row, question, denies, us.query_terms(question, row["sentence"], denies, suggested)))
+    missing_files: list[str] = []
     if queries:
-        index = us.ShelfIndex(shelf_root, sorted(shelf_files(world)), {t for _r, _q, terms in queries for t in terms})
-        for row, question, terms in queries:
+        files = sorted(shelf_files(world))
+        if not files:
+            raise SystemExit(f"the shelf of {world} could not be read; no denial can be checked")
+        index = us.ShelfIndex(shelf_root, files, {t for _r, _q, _d, terms in queries for t in terms})
+        missing_files = index.missing_files
+        for row, question, denies, terms in queries:
             passages = index.search(terms)
             row["passages"] = [{k: p[k] for k in ("file", "lines")} for p in passages]
-            _write_prompt(work, "shelf", row["key"], us.shelf_request(question, row["sentence"], row["judgement"]["denies"], passages))
+            _write_prompt(work, "shelf", row["key"], us.shelf_request(question, row["sentence"], denies, passages))
     _save(work / "unbound" / "classify.jsonl", classified)
-    return {"shelf_prompts_written": len(queries), "missing_replies": missing, "unreadable": unreadable}
+    return {"shelf_prompts_written": len(queries), "missing_replies": missing, "unreadable": unreadable, "shelf_files_missing": len(missing_files)}
 
 
 def final(rows: list, work: Path) -> dict:
@@ -145,6 +165,7 @@ def final(rows: list, work: Path) -> dict:
                 continue
             decision = row["decision"]
             if decision == "shelf_check":
+                counts["terms_unreadable"] += bool(row.get("terms_unreadable"))
                 reply = _reply(work, "shelf", key)
                 if reply is None:
                     counts["pending_shelf"] += 1

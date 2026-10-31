@@ -44,7 +44,7 @@ def test_decide_classified():
     assert us.decide_classified({"kind": "world_claim", "denies": None}, False) == "withhold"
     assert us.decide_classified({"kind": "world_claim", "denies": None}, True) == "keep"
     assert us.decide_classified(limit, False) == us.decide_classified(limit, True) == "shelf_check"
-    assert us.decide_classified({"kind": "limit", "denies": None}, False) == "keep"
+    assert us.decide_classified({"kind": "limit", "denies": None}, False) == "shelf_check"
     assert us.decide_classified(None, False) == "keep"
 
 
@@ -88,3 +88,21 @@ def test_the_shelf_request_names_the_denial_and_the_places(tmp_path):
     request = us.shelf_request("Q?", "Our record is silent.", "how it ended", [{"file": "a.txt", "lines": "1-5", "text": "It ended badly."}])
     assert "THE SENTENCE DENIES\nhow it ended" in request["user"] and "[a.txt lines 1-5]" in request["user"]
     assert "(no passage on the shelf matched)" in us.shelf_request("Q?", "S.", "x", [])["user"]
+
+
+def test_the_passage_shown_holds_the_matching_lines_and_is_labelled_by_what_is_shown(tmp_path):
+    long = "x" * 450
+    lines = [long] * 4 + ["Marcellinus presided over the conference"] + [long] * 12
+    (tmp_path / "a.txt").write_text("\n".join(lines))
+    index = us.ShelfIndex(tmp_path, ["a.txt"], {"marcellinu", "conference", "presided"})
+    found = index.search({"marcellinu": 2.0, "conference": 2.0, "presided": 1.0})
+    assert found and "Marcellinus presided over the conference" in found[0]["text"]
+    assert len(found[0]["text"]) <= us.PASSAGE_CHARS + 20
+    lo, hi = (int(x) for x in found[0]["lines"].split("-"))
+    assert lo <= 5 <= hi
+
+
+def test_a_missing_shelf_file_is_recorded(tmp_path):
+    (tmp_path / "a.txt").write_text("Maximinus")
+    index = us.ShelfIndex(tmp_path, ["a.txt", "gone.txt"], {"maximinu"})
+    assert index.missing_files == ["gone.txt"]
