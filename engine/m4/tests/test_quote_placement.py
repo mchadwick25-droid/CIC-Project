@@ -220,9 +220,9 @@ def test_the_worlds_own_we_voice_is_not_an_attribution():
 
 
 def test_a_placed_quote_with_a_matching_lead_in_is_not_taken_for_an_attribution():
-    text, net_result = _net("Leo wrote [[quote:fix.quote.leo]].")
+    text, net_result = _net("Leo said [[quote:fix.quote.leo]].")
     assert net_result["reply_shape"]["placed"] == ["fix.quote.leo"] and net_result["reply_shape"]["removed"] == []
-    assert text == f"Leo wrote: “{RENDERING}”"
+    assert text == f"Leo said: “{RENDERING}”"
 
 
 # ---- a quote's words reach a participant only as a placed quote: the syr world's own records ----
