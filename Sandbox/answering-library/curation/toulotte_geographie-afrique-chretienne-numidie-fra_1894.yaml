@@ -1,5 +1,5 @@
 file: toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt
-scheme: 'Toulotte''s Numidie volume: an unnumbered introduction on the province, then the sees in alphabetical order, each opened by a roman numeral, a dash and the see''s name in capitals, and listed in the introduction as 195 numbered sees; the entry numerals are damaged in many places in the scan, so each see is addressed by its printed name and the line of its heading (see-<name>-<line>); where leaves are missing or runs of pages are repeated, the text that falls under another see''s head is addressed by the printed page head and its line (p<page>-<line>); the Liste of the bishops of Numidie at the Conference of Carthage, the Noms list of all bishops of 411, and the Addition on Sitipa are addressed by name'
+scheme: 'Toulotte''s Numidie volume: an unnumbered introduction on the province, then the sees in alphabetical order, each opened by a roman numeral, a dash and the see''s name in capitals, and listed in the introduction as 195 numbered sees; the entry numerals are damaged in many places in the scan, so each see is addressed by its printed name and the line of its heading (see-<name>-<line>); where leaves are missing or runs of pages are repeated, the text that falls under another see''s head is addressed by the printed page head and its line (p<page>-<line>), and second copies of repeated page runs that were carved out of a see are addressed the same way; the heads printed CLXIII and CLXIV at lines 12764 (Suava) and 12789 (Sulli) stand at 143 and 144 in the introduction''s own list, and are read there for the sequence check only, not as printed; the Liste of the bishops of Numidie at the Conference of Carthage, the Noms list of all bishops of 411, and the Addition on Sitipa are addressed by name'
 curator: Sonnet 5.5
 status: drafted
 rules:
@@ -127,14 +127,22 @@ rules:
 divisions:
   - start_line: 233
     locus: introduction
+  - start_line: 3307
+    locus: p58-3307
   - start_line: 3387
     locus: p70-3387
   - start_line: 9123
     locus: p198-9123
+  - start_line: 9879
+    locus: p212-9879
+  - start_line: 10053
+    locus: p206-10053
   - start_line: 14208
     locus: p289-14208
   - start_line: 14658
     locus: p310-14658
+  - start_line: 15649
+    locus: p324-15649
   - start_line: 16850
     locus: liste-411
   - start_line: 17119
@@ -277,3 +285,11 @@ evidence:
     quote: 'ADDITION'
   - line: 20221
     quote: 'SITIPA.'
+  - line: 3307
+    quote: '— 58 «'
+  - line: 9879
+    quote: '- 212 -'
+  - line: 10053
+    quote: '- 206 -'
+  - line: 15649
+    quote: '- 324 -'
