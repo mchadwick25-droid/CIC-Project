@@ -1,7 +1,7 @@
 file: augustine_sermones-inediti-lat_caillau1842.txt
 scheme: 'Sermon numerals as the edition prints them, SERMO and a roman numeral at the head of each sermon, qualified by the part in which they stand because the edition restarts its numbering in each supplement and appendix; each part is named by the line number of its heading at the foot of the title page (for one part the line of the first synopsis); where the scan lost the numeral from a head, the numeral is the one the edition prints for that sermon in its running head or index; the head printed XVII at line 32624, which its title and the index place as the sixth Epiphany sermon, is addressed by heading and line, and the sermons after it in that part carry their printed numerals outside the numbered series; the head block at line 23366 is addressed by line; the three works after sermon XCVIII and the pieces of the closing treatise are addressed by heading and line; the chapters of the last treatise carry the numerals the edition prints'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: part
     pattern: '^.+$'
