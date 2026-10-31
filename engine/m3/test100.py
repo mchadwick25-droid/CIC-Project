@@ -57,7 +57,7 @@ def _outside_repo(path: Path) -> Path:
     return resolved
 
 
-def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str], offered: list[str] | None = None) -> dict:
+def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str], offered: list[str] | None = None, sub_question: str | None = None) -> dict:
     net = net_results[-1] if net_results else {}
     return {
         "id": question["id"], "group": question["group"], "text": result.text, "citations": result.citations,
@@ -66,10 +66,16 @@ def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str],
         "voice_set_aside": bool((result.live_turn.voice_event or {}).get("r27_enforcement_exhausted")),
         "raw_text": raw_drafts[-1] if raw_drafts else "",
         "net_sentences": net.get("sentences", []), "reply_shape": net.get("reply_shape"), "offered": offered or [],
+        "sub_question": sub_question,
     }
 
 
-def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True) -> dict:
+def _named_sub_question(reply_dir: Path, question_id: str) -> str | None:
+    path = reply_dir / f"{question_id}.submit_reader_output.1.json"
+    return json.loads(path.read_text(encoding="utf-8")).get("sub_question") if path.exists() else None
+
+
+def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True, sub_question_routing: bool = False) -> dict:
     from engine.m1.registry import load_registry
     from engine.m3.generation import LiveModelAnswerer, LivePathSettings
     from engine.m4 import turn as m4_turn
@@ -84,6 +90,13 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
         loaded.frame["story_placement"] = True
     if context_blocks:
         loaded.frame["context_blocks"] = True
+    if sub_question_routing:
+        from engine.m4 import subquestion_routing
+        from engine.m4.evidence import repository_records_by_id
+        sidecar = subquestion_routing.load_sidecar(worktree / "Build" / "worlds" / world_key / "build" / f"{world_key}_Answers_Sidecar.yaml")
+        loaded.coverage.update(subquestion_routing.coverage_entries(sidecar, repository_records_by_id(loaded.repository)))
+        loaded.frame["subquestion_routing"] = True
+        loaded.frame["subquestion_catalogue"] = subquestion_routing.reader_catalogue(sidecar)
     reply_dir, pending_dir, answers_dir = work / "replies", work / "pending", work / "answers"
     answers_dir.mkdir(parents=True, exist_ok=True)
     for stale in pending_dir.glob("*") if pending_dir.exists() else []:
@@ -115,7 +128,7 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
                 pending.append(question["id"])
                 continue
             (answers_dir / f"{question['id']}.json").write_text(
-                json.dumps(_row(question, result, list(captured), list(drafts), list(dict.fromkeys(i for r in client.requests for i in r.get("offered", [])))), ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8",
+                json.dumps(_row(question, result, list(captured), list(drafts), list(dict.fromkeys(i for r in client.requests for i in r.get("offered", []))), _named_sub_question(reply_dir, question["id"])), ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8",
             )
             done.append(question["id"])
     finally:
@@ -130,13 +143,14 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--only", nargs="*", help="run only these question ids")
     parser.add_argument("--no-context", action="store_true", help="leave the source-text context blocks out of the offer")
+    parser.add_argument("--sub-question-routing", action="store_true", help="the reader names a sub-question and the offer takes its records first (the world's answers sidecar)")
     parser.add_argument("--no-story-placement", action="store_true", help="leave the world's own story_placement flag as registered")
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     questions = load_set(args.question_set)
     if args.only:
         questions = [q for q in questions if q["id"] in set(args.only)]
-    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement, context_blocks=not args.no_context)
+    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement, context_blocks=not args.no_context, sub_question_routing=args.sub_question_routing)
     print(json.dumps({k: v for k, v in summary.items() if k != "pending_ids"}, indent=1))
     return 0
 

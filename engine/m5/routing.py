@@ -94,6 +94,7 @@ class Directive:
     suspend_register_statement_1: bool = False
     ambiguity_options: list[str] = field(default_factory=list)
     kind: str = "other"
+    sub_question: str | None = None
 
 
 @dataclass(frozen=True)
@@ -110,6 +111,13 @@ class RoutingDecision:
     out_of_scope_class: str | None = None
 
 
+_SUB_QUESTION_ID = re.compile(r"C\d+\.S\d+")
+
+
+def _sub_question_id(named) -> str | None:
+    return named.strip() if isinstance(named, str) and _SUB_QUESTION_ID.fullmatch(named.strip()) else None
+
+
 def assemble_directive(reader: dict) -> Directive:
     personal_wound = reader["register"] == "personal_wound"
     return Directive(
@@ -118,6 +126,7 @@ def assemble_directive(reader: dict) -> Directive:
         suspend_register_statement_1=personal_wound,
         ambiguity_options=list(reader.get("ambiguity_options") or []),
         kind=reader.get("kind") if reader.get("kind") in QUESTION_KINDS else "other",
+        sub_question=_sub_question_id(reader.get("sub_question")),
     )
 
 

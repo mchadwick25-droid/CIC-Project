@@ -123,6 +123,7 @@ def run_gate(
     track_b_accumulator: dict | None = None,
     world_key: str | None = None,
     check_ins_shown: frozenset[str] | set[str] = frozenset(),
+    sub_question_catalogue: str | None = None,
 ) -> GateRun:
     """The gate half of run_turn, verbatim - see run_turn's docstring for
     the semantics of each input. world_key tags the two gate calls' usage
@@ -140,7 +141,7 @@ def run_gate(
     # which future actually completes first.
     with ThreadPoolExecutor(max_workers=2) as pool:
         safety_future = pool.submit(live_calls.call_safety, safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
-        reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message)
+        reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message, sub_question_catalogue=sub_question_catalogue)
         safety_outcome = safety_future.result()
         reader_outcome = reader_future.result()
 
@@ -1288,6 +1289,7 @@ def run_turn(
         track_b_accumulator=track_b_accumulator,
         world_key=world.world_key,
         check_ins_shown=check_ins_shown,
+        sub_question_catalogue=world.frame.get("subquestion_catalogue") if world.frame.get("subquestion_routing") else None,
     )
     usage_records = list(gate_run.usage_records)
     safety_outcome = gate_run.safety_outcome
