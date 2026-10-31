@@ -134,20 +134,20 @@ def test_two_removals_among_three_cited_sentences_leave_the_rest_of_the_reply():
 def test_a_rendering_wrapped_in_quotation_marks_is_set_with_each_mark_once():
     context = PlacementContext(offered=frozenset({"fix.quote.wrapped"}))
     text, _c, net_result = apply_net(
-        "Augustine wrote of his mother [[quote:fix.quote.wrapped]].", repository_records=RECORDS, thin_topics=None, placement=context,
+        "Augustine said [[quote:fix.quote.wrapped]].", repository_records=RECORDS, thin_topics=None, placement=context,
     )
     assert net_result["reply_shape"]["placed"] == ["fix.quote.wrapped"]
-    assert text == "Augustine wrote of his mother: “Lay this body anywhere. Do not let the care of it trouble you at all.”"
+    assert text == "Augustine said: “Lay this body anywhere. Do not let the care of it trouble you at all.”"
     assert "““" not in text and "””" not in text
 
 
 def test_a_quotation_inside_a_rendering_takes_single_marks():
     context = PlacementContext(offered=frozenset({"fix.quote.inner"}))
     text, _c, net_result = apply_net(
-        "Augustine wrote [[quote:fix.quote.inner]].", repository_records=RECORDS, thin_topics=None, placement=context,
+        "Augustine said [[quote:fix.quote.inner]].", repository_records=RECORDS, thin_topics=None, placement=context,
     )
     assert net_result["reply_shape"]["placed"] == ["fix.quote.inner"]
-    assert text == "Augustine wrote: “The outward act can be a form. So the sacraments can give ‘the form of godliness’ without its power.”"
+    assert text == "Augustine said: “The outward act can be a form. So the sacraments can give ‘the form of godliness’ without its power.”"
 
 
 @pytest.mark.parametrize("rendering, expected", [

@@ -11,7 +11,10 @@ Details are read by rule from the lead-in's own words (extract_details);
 support is a word match against a pool of spans, tried in this order: the
 quote record's fields (source loci included), the speaker's figure record and
 the quote's source records, then the edition (the volume title, the headings
-above the cited lines, and the lines around them). A detail with no
+above the cited lines, and the lines around them). Records are the world's own;
+an edition file counts only when the world's shelf holds it (shelf_files: the
+files its bucket in the corpus map claims, the rows engine.m9.loader.read_bucket_rows
+reads), so nothing outside the shelf supports a detail. A detail with no
 supporting span is unresolved, and placement then writes the plain lead-in
 from the record's speaker. Deterministic string work; no model call.
 """
@@ -20,6 +23,8 @@ from __future__ import annotations
 import functools
 import re
 from pathlib import Path
+
+import yaml
 
 from engine.m4.grounding_net import strip_tags
 
@@ -136,13 +141,27 @@ def _record_text(record: dict) -> str:
     return "\n".join(parts)
 
 
-def _edition_spans(record: dict, texts_root: Path) -> list[tuple[str, str]]:
+@functools.lru_cache(maxsize=None)
+def shelf_files(world_key: str, root: Path = REPO_ROOT) -> frozenset[str]:
+    """The edition files on a world's shelf: every source_file its bucket in
+    the corpus map claims, the rows engine.m9.loader.read_bucket_rows reads.
+    Empty when the world's registry entry or bucket cannot be read, which
+    leaves the edition out of the evidence."""
+    try:
+        census_id = yaml.safe_load((root / "records" / "worlds" / f"{world_key}.yaml").read_text(encoding="utf-8"))["census_id"]
+        works = (yaml.safe_load((root / "cic" / "corpus-map" / f"{census_id}.yaml").read_text(encoding="utf-8")) or {}).get("works") or []
+    except (OSError, KeyError, TypeError, yaml.YAMLError):
+        return frozenset()
+    return frozenset(row["source_file"] for row in works if isinstance(row, dict) and row.get("source_file"))
+
+
+def _edition_spans(record: dict, texts_root: Path, shelf: frozenset[str]) -> list[tuple[str, str]]:
     spans: list[tuple[str, str]] = []
     for source in record.get("sources") or []:
         for found in _LOCUS.finditer(source.get("locus") or ""):
             relative, first, last = found.group(1), int(found.group(2)), int(found.group(3) or found.group(2))
             path = texts_root / relative
-            if not path.exists():
+            if Path(relative).name not in shelf or not path.exists():
                 continue
             lines = _file_lines(str(path))
             if first > len(lines):
@@ -159,9 +178,12 @@ def _edition_spans(record: dict, texts_root: Path) -> list[tuple[str, str]]:
     return spans
 
 
-def support_pool(record: dict, records: dict[str, dict], texts_root: Path) -> list[tuple[str, str]]:
+def support_pool(
+    record: dict, records: dict[str, dict], texts_root: Path, shelf: frozenset[str] = frozenset()
+) -> list[tuple[str, str]]:
     """The spans a lead-in detail may be supported by, in the order they are
-    tried: (span id, text)."""
+    tried: (span id, text). An edition file counts only when it is on the
+    world's shelf."""
     pool: list[tuple[str, str]] = [(f"record {record['id']}", _record_text(record))]
     speaker = (record.get("speaker_or_author") or "").split()
     if speaker and speaker[0] in records:
@@ -170,7 +192,7 @@ def support_pool(record: dict, records: dict[str, dict], texts_root: Path) -> li
         source_record = records.get(source.get("source_id") or "")
         if source_record:
             pool.append((f"record {source_record.get('id')}", _record_text(source_record)))
-    pool += _edition_spans(record, texts_root)
+    pool += _edition_spans(record, texts_root, shelf)
     return pool
 
 
@@ -193,14 +215,15 @@ def _supporting_span(detail: dict, pool: list[tuple[str, str]]) -> dict | None:
 
 
 def check_leadin(
-    lead: str, record: dict, records: dict[str, dict], *, speaker_words: frozenset[str], texts_root: Path = REPO_ROOT
+    lead: str, record: dict, records: dict[str, dict], *, speaker_words: frozenset[str],
+    texts_root: Path = REPO_ROOT, shelf: frozenset[str] = frozenset(),
 ) -> dict:
     """{"supported": [{"detail", "kind", "span", "snippet"}], "unresolved":
     [{"detail", "kind"}]} for a lead-in to the quote `record`."""
     details = extract_details(lead, speaker_words)
     if not details:
         return {"supported": [], "unresolved": []}
-    pool = support_pool(record, records, texts_root)
+    pool = support_pool(record, records, texts_root, shelf)
     supported, unresolved = [], []
     for detail in details:
         found = _supporting_span(detail, pool)

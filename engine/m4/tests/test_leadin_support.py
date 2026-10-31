@@ -54,9 +54,33 @@ def test_a_detail_only_the_edition_states_is_supported_by_the_edition(tmp_path):
     (tmp_path / "cic" / "texts" / "ed.xml").write_text("\n".join(lines), encoding="utf-8")
     record = {"id": "fix.quote.w", "record_type": "quote", "speaker_or_author": "fix.figure.cyprian",
               "sources": [{"locus": "Tractate 33, cic/texts/ed.xml, lines 52-53"}]}
-    checked = check_leadin("Cyprian preached on this", record, {**RECORDS, "fix.quote.w": record}, speaker_words=_words(), texts_root=tmp_path)
+    checked = check_leadin(
+        "Cyprian preached on this", record, {**RECORDS, "fix.quote.w": record}, speaker_words=_words(),
+        texts_root=tmp_path, shelf=frozenset({"ed.xml"}),
+    )
     assert checked["unresolved"] == []
     assert checked["supported"][0]["span"].startswith("cic/texts/ed.xml")
+
+
+def test_an_edition_file_off_the_worlds_shelf_supports_nothing(tmp_path):
+    (tmp_path / "cic" / "texts").mkdir(parents=True)
+    lines = ["<DC.Title>Homilies on the Gospel of John</DC.Title>"] + ["filler"] * 50 + ["You remember, my beloved, what we said."]
+    (tmp_path / "cic" / "texts" / "ed.xml").write_text("\n".join(lines), encoding="utf-8")
+    record = {"id": "fix.quote.w", "record_type": "quote", "speaker_or_author": "fix.figure.cyprian",
+              "sources": [{"locus": "Tractate 33, cic/texts/ed.xml, lines 52-53"}]}
+    records = {**RECORDS, "fix.quote.w": record}
+    off = check_leadin("Cyprian preached on this", record, records, speaker_words=_words(), texts_root=tmp_path, shelf=frozenset({"other.xml"}))
+    assert [d["detail"] for d in off["unresolved"]] == ["preach"]
+    none = check_leadin("Cyprian preached on this", record, records, speaker_words=_words(), texts_root=tmp_path)
+    assert [d["detail"] for d in none["unresolved"]] == ["preach"]
+
+
+def test_the_worlds_shelf_is_its_corpus_map_bucket():
+    from engine.m4.leadin_support import shelf_files
+
+    lpc_shelf = shelf_files("lpc")
+    assert "npnf107_augustine-homilies-john-soliloquies.xml" in lpc_shelf
+    assert shelf_files("no-such-world") == frozenset()
 
 
 def test_a_detail_no_source_states_is_unresolved():
@@ -113,7 +137,9 @@ def lpc():
     ("lpc.quote.the-wretched-woman-and-mercy", "Augustine preached on the Gospel of the woman and her accusers", "augustine"),
 ])
 def test_the_three_examples_are_supported_by_the_sources(lpc, quote_id, lead, speaker):
-    checked = check_leadin(lead, lpc[quote_id], lpc, speaker_words=frozenset({speaker}), texts_root=REPO_ROOT)
+    from engine.m4.leadin_support import shelf_files
+
+    checked = check_leadin(lead, lpc[quote_id], lpc, speaker_words=frozenset({speaker}), texts_root=REPO_ROOT, shelf=shelf_files("lpc"))
     assert checked["unresolved"] == [], checked
     assert checked["supported"]
 

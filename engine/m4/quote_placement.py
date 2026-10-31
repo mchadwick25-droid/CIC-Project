@@ -88,6 +88,7 @@ class PlacementContext:
     offered_stories: frozenset[str] = frozenset()
     max_quotes: int = MAX_PLACED_QUOTES_PER_REPLY
     texts_root: Path = REPO_ROOT
+    shelf_files: frozenset[str] = frozenset()
 
     @classmethod
     def for_evidence(cls, candidates: list[dict], **kwargs) -> "PlacementContext":
@@ -185,7 +186,7 @@ def place_quotes(
                             checked = check_leadin(
                                 lead, record, repository_records,
                                 speaker_words=frozenset(w.lower() for w in re.findall(r"[^\W\d_]+", index.speaker_name(record))),
-                                texts_root=context.texts_root,
+                                texts_root=context.texts_root, shelf=context.shelf_files,
                             )
                             if checked["unresolved"]:
                                 code_lead = CODE_LEAD_IN.format(speaker=index.speaker_name(record))

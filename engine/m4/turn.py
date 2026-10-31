@@ -49,6 +49,7 @@ from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import REASON_HORIZON, check_horizon, ungrounded_horizon_mentions
+from engine.m4.leadin_support import shelf_files
 from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
@@ -752,7 +753,7 @@ def _run_ordinary_voice_turn(
     placement = PlacementContext(
         offered=frozenset(prepared.offered_ids.get("quote", [])),
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
-        offered_stories=frozenset(prepared.offered_stories),
+        offered_stories=frozenset(prepared.offered_stories), shelf_files=shelf_files(world.world_key),
     )
     _net = functools.partial(
         apply_net, quotable_texts=echo_sources, placement=placement, window_end=(world.frame.get("time_window") or {}).get("end"),
