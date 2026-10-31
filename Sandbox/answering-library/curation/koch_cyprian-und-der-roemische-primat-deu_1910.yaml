@@ -1,7 +1,7 @@
 file: koch_cyprian-und-der-roemische-primat-deu_1910.txt
 scheme: 'Koch''s chapter numerals I-XXI, each printed as a roman numeral alone on a line above the chapter text; the chapter titles are printed in the Inhaltsübersicht and as short forms in the recto running heads, never beside the numeral, so division_title is empty; the Anhang (Der Text in De catholicae ecclesiae unitate cap. 4) follows chapter XXI as an unnumbered division at appendix'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: chapter
     pattern: '^(?P<r>[IVXLC1lY]{1,6})\.$'
