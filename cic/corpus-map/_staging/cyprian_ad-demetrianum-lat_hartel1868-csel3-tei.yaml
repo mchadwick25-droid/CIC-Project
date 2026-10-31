@@ -11,6 +11,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's reply to the pagan Demetrianus,
@@ -46,4 +49,13 @@ assignments:
       the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA 4.0, so
       attribution and share-alike travel with any quotation. Mirrors the English twin's roles and
       confidence exactly.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0104a.stoa002.opp-lat1
+    - 'textpart subtype=section: n=1..26 (26 divisions)'
+    language: lat
+    date:
+      start: 251
+      end: 253
+      source: Harnack 1904 (end of 251 or beginning of 252, 'mit einiger Wahrscheinlichkeit'); Monceaux 1901 II (252 or 253)
+      formation_confidence: Dominant Modern Reconstruction
 

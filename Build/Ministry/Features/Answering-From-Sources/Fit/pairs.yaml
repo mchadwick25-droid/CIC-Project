@@ -1,0 +1,257 @@
+# Fit-step calibration pairs for the lpc world: 20 planted (expected off_point) and 20 control (expected fits).
+# Authored by Opus, reviewed by a fresh Opus pass against the records; not part of the test set.
+pairs:
+- pair_id: p01
+  kind: planted
+  expected: off_point
+  question: Were the Christian captives in Numidia actually set free with the money that Carthage sent?
+  record_id: lpc.story.hundred-thousand-sesterces
+  length: full
+  why: The story ends with the money leaving Carthage; its not_for bars 'a claim that the ransom worked' and its absent_detail says 'We do not know whether the ransom worked.'
+- pair_id: p02
+  kind: planted
+  expected: off_point
+  question: Did any pagan in Carthage write down that Christians had helped him during the plague?
+  record_id: lpc.story.the-plague-and-the-enemies
+  length: medium
+  why: The telling gives only Pontius's account of the help; its not_for bars a claim that a pagan Carthaginian's account of being helped survives.
+- pair_id: p03
+  kind: planted
+  expected: off_point
+  question: In his last days, what did Augustine teach about how God's grace saves us?
+  record_id: lpc.story.the-psalms-on-the-wall
+  length: short
+  why: The story is about Augustine practising repentance on his deathbed; its prefer_instead names 'Augustine's own theology of grace, which this story does not carry'.
+- pair_id: p04
+  kind: planted
+  expected: off_point
+  question: How many votes did Cyprian receive when the people of Carthage elected him bishop?
+  record_id: lpc.story.election-of-cyprian
+  length: short
+  why: Pontius gives only 'the judgment of God and the favour of the people'; the not_for bars 'a claim that it was a vote with a candidacy and a count'.
+- pair_id: p05
+  kind: planted
+  expected: off_point
+  question: Is there a surviving letter where someone in the crowd describes what they felt watching Cyprian die?
+  record_id: lpc.story.the-death-of-cyprian
+  length: medium
+  why: The story's not_for bars a claim that any spectator's own account survives, and its absent_detail says the same.
+- pair_id: p06
+  kind: planted
+  expected: off_point
+  question: What did Cyprian himself finally decide about pardoning Numeria and Candida?
+  record_id: lpc.story.celerinus-writes-to-lucian
+  length: full
+  why: The story ends with Lucian's conditional grant; prefer_instead names 'Cyprian's own position, which these letters do not represent', and the linked quote lpc.quote.the-case-set-before-the-bishop bars 'a claim about what the bishop decided for Numeria and Candida'.
+- pair_id: p07
+  kind: planted
+  expected: off_point
+  question: What did Numidicus say to his daughter when she found him alive under the stones?
+  record_id: lpc.story.numidicus
+  length: full
+  why: The story's not_for bars giving words to Numidicus or his daughter, and the telling gives none.
+- pair_id: p08
+  kind: planted
+  expected: off_point
+  question: If someone sues me in court to take my coat, should a Christian fight the case or give it up?
+  record_id: lpc.quote.many-have-learned-to-offer-the-other-cheek
+  why: The passage is section 58 on the cheek only; not_for bars 'a ruling on self-defence or lawsuits, which the passage does not take up', and the claim_guard says the coat and lawsuits come in sections 59 to 61 (confirmed in the NPNF text right after line 1672).
+- pair_id: p09
+  kind: planted
+  expected: off_point
+  question: What did the writer of Psalm 137 himself mean when he wished Babylon's babies dashed against the rock?
+  record_id: lpc.quote.dash-the-little-ones-against-the-rock
+  why: The passage gives Augustine's reading (the little ones are evil desires); not_for bars 'a claim that it tells what the Psalm meant to its first writer', and the claim_guard says it says nothing of the Psalm's first writer or setting.
+- pair_id: p10
+  kind: planted
+  expected: off_point
+  question: In what year and in which city did Cyprian's council meet to decide about baptizing babies?
+  record_id: lpc.quote.not-to-be-refused-to-any-one-born-of-man
+  why: The passage gives neither a date nor a place; its not_for bars a claim that it gives a date or place for the council.
+- pair_id: p11
+  kind: planted
+  expected: off_point
+  question: Did Cyprian believe that people who had never heard of Christ could still be saved?
+  record_id: lpc.quote.no-salvation-out-of-the-church
+  why: The passage is about heretics who confessed Christ and died outside the Church; not_for bars 'a claim that the passage speaks of people who never heard of Christ'.
+- pair_id: p12
+  kind: planted
+  expected: off_point
+  question: What exact words did the priest have to say over the water for a baptism to count?
+  record_id: lpc.quote.the-word-is-added-to-the-element
+  why: The passage says the word joined to water makes the sacrament, but not_for bars 'a claim that the passage gives the words to be said in baptism'; the claim_guard says it gives no formula.
+- pair_id: p13
+  kind: planted
+  expected: off_point
+  question: According to Augustine, can the prayers of the living shorten a soul's time in the purging fire?
+  record_id: lpc.quote.left-doubtful-a-kind-of-purgatorial-fire
+  why: The passage only says whether some believers pass through such a fire may be found out or left unknown; it says nothing of prayers for the dead, and not_for bars any claim about what the fire is or how long it lasts.
+- pair_id: p14
+  kind: planted
+  expected: off_point
+  question: When and how was Augustine ordained as bishop of Hippo?
+  record_id: lpc.quote.stewards-and-future-bishops
+  why: Augustine only says he once stood where his hearers stand; not_for bars 'a claim about when or how Augustine was ordained', and prefer_instead sends this question to lpc.quote.clamour-and-tears.
+- pair_id: p15
+  kind: planted
+  expected: off_point
+  question: What prayers did the priest say over Monica at the altar after she died?
+  record_id: lpc.quote.remember-me-at-the-lords-altar
+  why: The record's not_for bars a claim about what was said or done at the altar, and the passage gives no priest's prayers.
+- pair_id: p16
+  kind: planted
+  expected: off_point
+  question: In Augustine's church, what penance did a woman have to do after committing adultery?
+  record_id: lpc.quote.the-wretched-woman-and-mercy
+  why: The passage is Augustine's reading of John 8 (justice and Mercy left alone); not_for bars 'a claim that it describes a church rite for adultery or penance'.
+- pair_id: p17
+  kind: planted
+  expected: off_point
+  question: Did Augustine teach that Peter was given authority over the other apostles?
+  record_id: lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
+  why: The passage is about feeding the flock from love, not for gain; not_for bars 'a claim that the passage gives Peter authority over the other apostles or the whole Church'.
+- pair_id: p18
+  kind: planted
+  expected: off_point
+  question: Did Augustine teach that the bread of the Eucharist is truly Christ's flesh?
+  record_id: lpc.quote.believe-and-thou-hast-eaten-already
+  why: '''Believe, and you have eaten'' is about the food that lasts, faith in the one God sent; not_for bars ''a claim that the passage speaks of the Eucharist or of eating the flesh''.'
+- pair_id: p19
+  kind: planted
+  expected: off_point
+  question: Did Augustine say Cyprian was wrong to rebaptize people who came over from the heretics?
+  record_id: lpc.quote.one-good-shepherd-not-many
+  why: Cyprian is named only among the good shepherds; not_for bars 'a claim that Augustine and Cyprian agreed or differed on rebaptism'.
+- pair_id: p20
+  kind: planted
+  expected: off_point
+  question: What steps did a bishop have to take before he could excommunicate a church member for adultery?
+  record_id: lpc.quote.the-flight-of-the-mind-is-fear
+  why: The passage blames the hireling who keeps silent out of fear; the excommunication is in the sentence before it (NPNF line 7236), and not_for bars 'a claim that the passage orders excommunication'.
+- pair_id: p21
+  kind: control
+  expected: fits
+  question: Did the church in Carthage give money to help Christians who were taken captive in another province?
+  record_id: lpc.story.hundred-thousand-sesterces
+  length: medium
+  why: The telling has the Numidian bishops' letter and 'So we have sent you a sum of one hundred thousand sesterces' from the gifts of clergy and people; retrieve_when names this exact question.
+- pair_id: p22
+  kind: control
+  expected: fits
+  question: When the plague struck Carthage, did Cyprian tell Christians to help only their own people?
+  record_id: lpc.story.the-plague-and-the-enemies
+  length: full
+  why: Cyprian preached that caring only for our own was nothing remarkable, and Pontius says good was done 'to all people, not only to those of the household of faith'.
+- pair_id: p23
+  kind: control
+  expected: fits
+  question: How did Augustine prepare himself in his last illness, as he was dying?
+  record_id: lpc.story.the-psalms-on-the-wall
+  length: medium
+  why: Possidius says 'he did this himself in the last illness', copying the penitential psalms and weeping over them; retrieve_when names whether those who taught repentance practised it.
+- pair_id: p24
+  kind: control
+  expected: fits
+  question: Did the ordinary people of Carthage have any real say in making Cyprian their bishop?
+  record_id: lpc.story.election-of-cyprian
+  length: full
+  why: Pontius says he was chosen 'by the judgment of God and the favour of the people', the people pressed at his door, and Cyprian later called it 'your suffrage'.
+- pair_id: p25
+  kind: control
+  expected: fits
+  question: When Cyprian was sentenced to death, how did he and his people respond to the sentence?
+  record_id: lpc.story.the-death-of-cyprian
+  length: short
+  why: The short telling gives the Acta's 'Thanks be to God' and the brothers' cry 'Let us be beheaded with him too'.
+- pair_id: p26
+  kind: control
+  expected: fits
+  question: If a Christian's sister sacrificed to the gods under persecution, how could the confessors help her find peace?
+  record_id: lpc.story.celerinus-writes-to-lucian
+  length: medium
+  why: Celerinus asks Lucian for help for his fallen sister, and Lucian grants peace in the martyrs' name on condition that each case go before the bishop; retrieve_when names a family member's lapse and a plea made for someone else.
+- pair_id: p27
+  kind: control
+  expected: fits
+  question: Could a man who was nearly killed for his faith be made a presbyter in your church afterwards?
+  record_id: lpc.story.numidicus
+  length: short
+  why: Numidicus, half burned and left for dead, is added to the presbyters of Carthage; retrieve_when names this question.
+- pair_id: p28
+  kind: control
+  expected: fits
+  question: According to Augustine, what does turning the other cheek really ask of a Christian?
+  record_id: lpc.quote.many-have-learned-to-offer-the-other-cheek
+  why: The passage says many offer the other cheek but do not love the one who strikes, and that the Lord was ready in heart for more.
+- pair_id: p29
+  kind: control
+  expected: fits
+  question: How did Augustine say we can tell whether a harsh or a gentle act really comes from love?
+  record_id: lpc.quote.love-and-do-what-thou-wilt
+  why: The passage says deeds are 'told apart only by the root of love', with blows from love and caresses from wickedness, and ends 'From this root nothing can grow but what is good'.
+- pair_id: p30
+  kind: control
+  expected: fits
+  question: How did Augustine turn the harsh psalm verse about Babylon's little ones into a lesson about sin?
+  record_id: lpc.quote.dash-the-little-ones-against-the-rock
+  why: The passage says the little ones are evil desires at their birth, to be dashed while small against the Rock, which is Christ; retrieve_when names how Augustine read this verse.
+- pair_id: p31
+  kind: control
+  expected: fits
+  question: Why did Augustine think the water of baptism was more than ordinary water?
+  record_id: lpc.quote.the-word-is-added-to-the-element
+  why: '''Take away the word, and the water is nothing more or less than water. The word is added to the element, and the sacrament comes to be''; retrieve_when names this question.'
+- pair_id: p32
+  kind: control
+  expected: fits
+  question: Did Augustine say for certain that some believers pass through a cleansing fire after they die?
+  record_id: lpc.quote.left-doubtful-a-kind-of-purgatorial-fire
+  why: 'The passage says whether some believers pass through a purging fire ''may be asked. It may be found out, or it may stay unknown'', so it answers: no, he left it open.'
+- pair_id: p33
+  kind: control
+  expected: fits
+  question: Did Augustine think some of the ordinary people listening to him might become bishops one day?
+  record_id: lpc.quote.stewards-and-future-bishops
+  why: '''I know that I am speaking to many who will one day be bishops too'', and ''I too was once where you are now''.'
+- pair_id: p34
+  kind: control
+  expected: fits
+  question: As she was dying, what did Monica ask her son to do for her once she was gone?
+  record_id: lpc.quote.remember-me-at-the-lords-altar
+  why: Monica asks only 'that you remember me at the Lord's altar, wherever you are', and not to worry about her body; retrieve_when names what Monica asked for as she was dying.
+- pair_id: p35
+  kind: control
+  expected: fits
+  question: In the story of the woman caught in adultery, who did Augustine say was left when the accusers went away?
+  record_id: lpc.quote.the-wretched-woman-and-mercy
+  why: '''The two were left alone, the wretched woman and Mercy''; the passage stops before any forgiveness, which this question does not ask about.'
+- pair_id: p36
+  kind: control
+  expected: fits
+  question: What wrong reasons did Augustine warn against in people who lead Christ's flock?
+  record_id: lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
+  why: The passage says some feed the flock to have the sheep as their own, 'from the wish to boast, or to hold power, or to make gain'.
+- pair_id: p37
+  kind: control
+  expected: fits
+  question: When Jesus spoke of food that lasts to eternal life, how did Augustine say we receive it?
+  record_id: lpc.quote.believe-and-thou-hast-eaten-already
+  why: 'The passage explains it: to eat the food that lasts to eternal life is to believe in the one God sent (John 6:29); retrieve_when names this exact question.'
+- pair_id: p38
+  kind: control
+  expected: fits
+  question: Peter, Paul and Cyprian were all good shepherds, so why did Jesus speak of only one Shepherd?
+  record_id: lpc.quote.one-good-shepherd-not-many
+  why: Augustine says the Lord named one Shepherd 'to press this unity on good shepherds', while calling Peter, Paul, the bishops and Cyprian good shepherds.
+- pair_id: p39
+  kind: control
+  expected: fits
+  question: If a newborn baby has not sinned, why did Cyprian's council say baptism forgives it sins?
+  record_id: lpc.quote.not-his-own-sins-but-the-sins-of-another
+  why: The passage says the newborn caught 'the infection of the ancient death' as Adam's child, so 'What is forgiven him is not his own sins, but the sins of another'; retrieve_when names this question.
+- pair_id: p40
+  kind: control
+  expected: fits
+  question: Did Cyprian think a person could ever be too old or too sinful to turn to God?
+  record_id: lpc.quote.no-repentance-is-too-late
+  why: '''Let no one be held back, either by his sins or by his years ... To anyone who still remains in this world, no repentance is too late'', which carries both the warning and the offer.'

@@ -233,6 +233,10 @@ def build_transparency_plan(
     elements += builder.finish()
     word_marks = [("figure", f) for f in figures_used or []] + [("term", g) for g in glosses or []]
     elements += _word_elements(word_marks, spans, sentences, repository_records, world_key)
+    for element in elements:
+        if support := (net_result.get("reply_shape") or {}).get("leadin_support", {}).get(element["record_id"]):
+            if element["kind"] == "quote":
+                element["leadin_support"] = support
     elements = [e for e in elements if spans[e["sentence_index"]]["text_start"] is not None]
     elements.sort(key=lambda e: (e["sentence_index"], e["char_end"], e["char_start"]))
 

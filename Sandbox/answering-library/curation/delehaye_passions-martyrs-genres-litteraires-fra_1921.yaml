@@ -1,7 +1,7 @@
 file: delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
 scheme: 'Delehaye''s own structure as printed in his Table des matieres: the Introduction, then chapters I to VI printed as "CHAPITRE" with a numeral or ordinal word; chapters I and III are divided into numbered sections printed as "§ n." with a title, and chapters II, IV, V and VI print no sections'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: introduction
     pattern: '^INTRODUCTION$'

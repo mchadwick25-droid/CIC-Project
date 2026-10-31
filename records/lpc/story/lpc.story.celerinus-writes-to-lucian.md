@@ -88,7 +88,7 @@ text: 'Celerinus was a confessor among us -- he had been imprisoned and had not 
   that the two women have peace, once each case had been set before the bishop and the sin openly confessed.
   He signed off exhausted, greeting others whose names he had not written because he was already too tired,
   and asking them to forgive him.'
-telling: "Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor, who was still in prison.\n\n\"Grieve with me over my sister's death, a death of the spirit,\" he wrote. \"In this time of ruin she has fallen away from Christ. For she has sacrificed and angered our Lord, as seems clear to us.\" She was still alive in body. He would weep, he said, until help came through Lucian or through the martyrs Lucian would ask. Her own brother does not give her name, and no word of hers survives.\n\nHe also asked the martyrs' pardon for two women Lucian knew, Numeria and Candida. He pointed to their repentance and to the good works they had done for our banished colleagues.\n\nOf Candida he said more. She had given gifts so that she would not have to sacrifice. She seems only to have gone up as far as the Tria Fata, and then come back down. \"So I know she has not sacrificed.\" Still, both letters call what the women did a great sin.\n\nLucian's answer came back from the prison, where the emperor had ordered the confessors put to death by hunger and thirst. \"But now we have reached the brightness itself,\" he wrote.\n\nHe granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, \"let not only these women have peace, but also those whom you know to be dear to our heart.\"\n\nHe greeted friends by name and left the rest out, \"because I am already tired. So they must forgive me.\""
+telling: "Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor, who was still in prison.\n\n\"Grieve with me over my sister's death, a death of the spirit,\" he wrote. \"In this time of ruin she has fallen away from Christ. For she has sacrificed and angered our Lord, as seems clear to us.\" She was still alive in body. He would weep, he said, until help came through Lucian or through the martyrs Lucian would ask.\n\nHe also asked the martyrs' pardon for two women Lucian knew, Numeria and Candida. He pointed to their repentance and to the good works they had done for our banished colleagues.\n\nOf Candida he said more. She had given gifts so that she would not have to sacrifice. She seems only to have gone up as far as the Tria Fata, and then come back down. \"So I know she has not sacrificed.\" Still, both letters call what the women did a great sin.\n\nLucian's answer came back from the prison, where the emperor had ordered the confessors put to death by hunger and thirst. \"But now we have reached the brightness itself,\" he wrote.\n\nHe granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, \"let not only these women have peace, but also those whom you know to be dear to our heart.\"\n\nHe greeted friends by name and left the rest out, \"because I am already tired. So they must forgive me.\""
 absent_detail: 'Celerinus''s own sister has no story, and she is the person this one is about. She is
   unnamed -- her own brother does not name her. Numeria and Candida are not ''named lapsed women'' either:
   Celerinus says the opposite of Candida, that she gave gifts for herself "that she might not sacrifice"
@@ -97,5 +97,57 @@ modern_contrast: A modern listener may expect a bishop's authority to be the onl
   who failed under pressure could be restored. Here one confessor asks another, in prison, for peace,
   and the other gives it in the martyrs' name. Yet his own reply says each case is to be set before the
   bishop. Cyprian's own dossier keeps both letters rather than hiding them.
+heart: Celerinus, a confessor, asked Lucian in prison to win peace for his fallen sister and two other women. Lucian gave it in the martyrs' name, if each case went before the bishop.
+events:
+- line: Celerinus, a confessor who had not denied Christ, wrote to Lucian, another confessor still in prison.
+  rests_on: He wrote to Lucian, another confessor, who was still in prison.
+  essential: true
+- line: He asked Lucian to grieve with him over his sister, who had fallen away from Christ.
+  rests_on: Grieve with me over my sister's death, a death of the spirit,
+  essential: true
+- line: He would weep until help came through Lucian or the martyrs.
+  rests_on: He would weep, he said, until help came through Lucian
+  essential: false
+- line: He also asked the martyrs' pardon for Numeria and Candida, pointing to their repentance and good works.
+  rests_on: He also asked the martyrs' pardon for two women Lucian knew, Numeria and Candida.
+  essential: true
+- line: Candida had given gifts so that she would not have to sacrifice; Celerinus knew she had not sacrificed.
+  rests_on: So I know she has not sacrificed.
+  essential: false
+- line: Both letters still call what the women did a great sin.
+  rests_on: Still, both letters call what the women did a great sin.
+  essential: false
+- line: Lucian answered from the prison, where the confessors were to die by hunger and thirst.
+  rests_on: where the emperor had ordered the confessors put to death by hunger and thirst
+  essential: false
+- line: He wrote that now they had reached the brightness itself.
+  rests_on: But now we have reached the brightness itself,
+  essential: false
+- line: He granted the request in the name of the martyr Paulus and the other martyrs.
+  rests_on: He granted the request in the name of the martyr Paulus and the other martyrs, with one condition.
+  essential: true
+- line: 'His condition: each case set before the bishop and the sin openly confessed; then, he asked, let the women have peace.'
+  rests_on: Each case was to be set before the bishop and the sin openly confessed.
+  essential: true
+telling_short: 'Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor still in prison.
+
+
+  "Grieve with me over my sister''s death, a death of the spirit," he wrote. "In this time of ruin she has fallen away from Christ." He also asked the martyrs'' pardon for two women Lucian knew, Numeria and Candida.
+
+
+  Lucian granted the request in the name of the martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, let the women have peace.'
+telling_medium: 'Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor, who was still in prison.
+
+
+  "Grieve with me over my sister''s death, a death of the spirit," he wrote. "In this time of ruin she has fallen away from Christ." He would weep, he said, until help came through Lucian or the martyrs.
+
+
+  He also asked the martyrs'' pardon for Numeria and Candida. He pointed to their repentance and their good works. Candida had given gifts so that she would not have to sacrifice. "So I know she has not sacrificed." Still, both letters call what the women did a great sin.
+
+
+  Lucian answered from the prison, where the confessors were to die by hunger and thirst. "But now we have reached the brightness itself," he wrote.
+
+
+  He granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, let the women have peace.'
 ---
 Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into first-person register (the letters of Celerinus and Lucian are already first-person; the surrounding narration is recast). 'Put to death by hunger and thirst' is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Two of the claim_guards entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the tension...'; 'not one of these women speaks for herself') into the schema's barred-claim field.

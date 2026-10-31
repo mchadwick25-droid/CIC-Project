@@ -148,7 +148,10 @@ def test_trial_scores_judges_and_gates_against_gold():
     gold = [_gold("a", "unsupported", "embedded_voice", gate="ok"), _gold("b", "unsupported", "unsupported_other", gate="withhold"),
             _gold("c", "supported"), _gold("d", "supported", gate="withhold"), _gold("e", "no_claim")]
     verdicts = {"verifier": {"a": {"supported": False}, "b": {"supported": True}, "c": {"supported": True}, "d": {"supported": True}}}
-    result = trial.score(gold, verdicts)
+    made = {**_gold("x", "unsupported", "false_friend"), "origin": "constructed"}
+    both = trial.score(gold + [made], {**verdicts, "verifier": {**verdicts["verifier"], "x": {"supported": False}}})
+    assert both["constructed"]["items"] == 1 and both["constructed"]["deciders"]["judge:verifier"]["recall_unsupported"] == 1.0
+    result = both["natural"]
     assert result["items"] == 4
     judge = result["deciders"]["judge:verifier"]
     assert (judge["recall_unsupported"], judge["precision_unsupported"]) == (0.5, 1.0)
@@ -233,3 +236,36 @@ def test_constructed_packet_queues_misreads_natural_key_classes_and_a_sample():
     constructed = {"cx-1": {"expected_class": "embedded_voice"}, "cx-2": {"expected_class": "embedded_voice"}}
     assert packet.constructed_order(specialist, constructed, sample=5) == [
         ("cx-2", "constructed, not read as intended"), ("gs-1", "key class (specialist)"), ("cx-1", "random sample of constructed items")]
+
+
+def test_gold_build_lets_a_ruling_win_and_keeps_evidence_only_for_the_same_reading():
+    from goldset import build
+    spec = {"verdict": "unsupported", "failure_class": "generalisation", "other_classes": [], "evidence": [{"block": "R1", "words": "a b c d"}]}
+    same = build.ruled_label({"verdict": "unsupported", "class": "generalisation", "note": "agree"}, spec)
+    other = build.ruled_label({"verdict": "supported", "class": "supported", "note": "the record says so"}, spec)
+    assert same["evidence"] == spec["evidence"] and other["evidence"] == [] and other["failure_class"] is None
+    items = [{"origin": "natural", "label": same, "label_source": "mark"}, {"origin": "constructed", "label": spec, "label_source": "construction"}]
+    assert build.counts(items)["constructed"] == {"items": 1, "by_class": {"generalisation": 1}, "by_label_source": {"construction": 1}}
+
+
+def test_numbered_work_found_by_the_editions_own_piece_number():
+    from goldset import locus
+    def div(n, kind, short, title="To Eustochium.", start=1):
+        return {"level": 2, "start": start, "end": start + 9, "title": title, "n": n, "id": "v." + n, "type": kind, "short": short}
+    nodes = (div("XXII", "Letter", "Letter XXII", start=1), div("CVIII", "Letter", "Letter CVIII", start=20), div("CVIII", "Homily", "Homily CVIII", start=40))
+    assert locus._numbered_work(nodes, "Epistula 108, to Eustochium (404)")["start"] == 20
+    assert locus._numbered_work(nodes, "Letter 22 - on virginity")["start"] == 1
+    assert locus._numbered_work(nodes, "Epistula 5") is None
+    assert locus._numbered_work(nodes, "Vita Malchi") is None
+
+
+def test_adjudication_stands_on_two_of_three_and_names_the_read_it_quotes():
+    from goldset import adjudicate, build
+    assert adjudicate.outcome(["supported", "supported", "generalisation"]) == ("supported", 2)
+    assert adjudicate.outcome(["supported", "generalisation", "cannot_judge"]) == (None, 1)
+    assert adjudicate.outcome(["supported", None, None]) == (None, 1)
+    fable = {"verdict": "unsupported", "failure_class": "generalisation", "other_classes": [], "evidence": [{"block": "R1", "words": "w x y z"}], "reason": "r"}
+    adj = {"item_id": "a", "standing_class": "generalisation", "classes": {"opus": "supported", "fable": "generalisation", "referee": "generalisation"},
+           "reads": {"opus": {"label": {}}, "fable": {"label": fable}, "referee": {"label": {}}}}
+    label = build.adjudicated_label(adj)
+    assert label["evidence_from"] == "fable" and label["failure_class"] == "generalisation"

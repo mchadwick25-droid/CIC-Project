@@ -91,7 +91,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None, limi
             continue
 
         turn = getattr(answer, "live_turn", None)
-        if turn is not None and (turn.voice_event is None or not answer.text.strip()):
+        if turn is not None and (turn.voice_event is None or not answer.text.strip() or turn.voice_event.get("r27_enforcement_exhausted")):
             results.append(ProbeResult(
                 probe_id=probe_id, cell=cell, passed=False, checks=[], answer_text=answer.text,
                 error=f"no voice reply: routed to {turn.routing_action}",

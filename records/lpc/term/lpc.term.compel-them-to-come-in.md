@@ -97,8 +97,7 @@ senses:
   translational: A modern listener is likely to hear a straightforward endorsement of religious persecution,
     and to attach it to later inquisitions and wars of religion as if it were our own settled position
     throughout. We mean a late, argued position, reached against the author's own earlier opinion, defended
-    in the idiom of correction and recovery rather than punishment -- in a world where the same author's
-    predecessor a century earlier had no access to state power at all and never sought it.
+    in the idiom of correction and recovery rather than punishment.
 quick_meaning: For us, this is Augustine's late argument. He argued that a Christian ruler may use force
   to bring a separated group back into the one communion.
 ---

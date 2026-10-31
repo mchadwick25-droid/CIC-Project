@@ -38,6 +38,8 @@ Class definitions (measured per file, thresholds in `manifest.json` under `param
 - **partial**: at least 2 divisions found, but one or more clean tests failed. The failed tests are listed per file in `manifest.json` (`not_clean_because`) and in the curation list below.
 - **none**: no usable marker family (or one division). The file is cut into paragraph blocks addressed by line number.
 
+**Caveat on `clean` (found 2026-10-31).** `clean` means the markers are many, sequential and not oversize. It does not mean the addresses are numbers the edition prints for its divisions. Two files measured and read by independent readers showed it: in `augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2` all 1,018 marker divisions are Migne column numbers or misreadings of them, and none of the 134 printed tractate heads is addressable; in `augustine_enarrationes-in-psalmos-lat_migne-pl36-37` only 22 of 151 psalm heads open a division and none is addressed by psalm number. Do not quote the clean count as proof that a division address is citable. The measured count of plain-text files the segmenter calls clean is 41 (the figure of 38 earlier came from subtracting the 30 markup `.txt` files from 68); their audit is in `Curation_Ledger.md`, section 'Audit of the clean plain-text files'.
+
 | Class | Files | Share of files | Words | Share of words |
 |---|---|---|---|---|
 | clean | 68 | 22.3% | 11,894,482 | 18.6% |

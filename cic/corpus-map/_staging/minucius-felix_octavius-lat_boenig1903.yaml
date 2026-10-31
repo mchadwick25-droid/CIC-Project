@@ -19,4 +19,12 @@ assignments:
       running text, so this file is ready to quote once each quote is verified verbatim against it
       (INTAKE section 6); the English a Representative speaks is rendered from it, with the
       vendored English as a cross-check. Mirrors the English twin's role and confidence exactly.
+    locus_ids:
+    - 'line 88: M. MINUCII FELICIS'
+    language: lat
+    date:
+      start: 160
+      end: 250
+      source: 'Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger 1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals); window as first recorded: c. 160-192 or c. 200-250; no single date can be given; Two poles. Pole A lies before Tertullian''s Apology and outside the window; pole B lies after it and inside the window.'
+      formation_confidence: Contested
 

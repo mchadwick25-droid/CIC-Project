@@ -1,0 +1,36 @@
+{
+  "calibration": {
+    "constructed": {
+      "embedded_voice": 20,
+      "false_friend": 20,
+      "generalisation": 20,
+      "negation_modal_shift": 19
+    },
+    "natural": {
+      "cannot_judge": 11,
+      "generalisation": 1,
+      "negation_modal_shift": 7,
+      "no_claim": 6,
+      "supported": 302,
+      "unsupported": 58
+    }
+  },
+  "heldout": {
+    "constructed": {
+      "embedded_voice": 27,
+      "false_friend": 24,
+      "generalisation": 20,
+      "negation_modal_shift": 22
+    },
+    "natural": {
+      "cannot_judge": 12,
+      "embedded_voice": 1,
+      "false_friend": 1,
+      "generalisation": 5,
+      "negation_modal_shift": 2,
+      "no_claim": 6,
+      "supported": 307,
+      "unsupported": 69
+    }
+  }
+}

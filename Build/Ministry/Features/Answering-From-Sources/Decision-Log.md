@@ -455,3 +455,224 @@ every specialist-versus-judge disagreement in the key classes and a random sampl
   read, and external human experts testing the built system at the end.
 - Mark may spot-check any item on the packet page. His weekly adjudication budget
   is no longer a dependency of the gold set.
+
+## 18. No unprompted absence statements in story tellings (2026-10-30)
+
+Mark, 2026-10-30, direct: "we don't need to say something that is missing, like the story doesn't say where they looked, that is an unnecessary thing, we only say we don't know if it is in direct response to a question, we don't insert it for no reason".
+
+- Rule for every story telling (short, medium, and any later live retelling): do not volunteer what the story or source does not say. "We don't know" or "the record doesn't say" appears only when the visitor's question asks for that detail.
+- Reconciled with the record guards: a `not_for` line or contested claim keeps its caveat only where the telling would otherwise assert or imply the guarded thing. If the telling leaves the detail out, no caveat is needed.
+- Applied to the two lpc tellings (Numidicus, Election of Cyprian); added to the telling review checklist and to the schema change order's gate text.
+
+## 19. The no-absence rule applied to the two lpc story records (2026-10-30)
+
+Mark, 2026-10-30, direct (choice box): the full tellings in the lpc records are edited to match the rule in entry 18, since the live voice can tell them.
+
+- Removed from `lpc.story.numidicus` `telling`: "The letter does not say where she searched", the "one manuscript and the older printed editions read unconquered" sentence, and the closing paragraph ("None of the three left a word of their own..."). From `lpc.story.election-of-cyprian` `telling`: "Pontius does not say how the people made their favour known." Nothing else in either record changed. `absent_detail` is kept: it is what the voice uses when a visitor asks.
+- Held for Mark: the Election closing paragraph ("Only Pontius says Cyprian was newly baptized... writing in praise of his own bishop"). It is the telling's only caveat for two `not_for` guards (no other witness confirms the neophyte claim; Pontius is not a neutral witness), and the telling also says "Pontius did not soften this. He pressed it", which on its own reads as a candid witness. Removing the paragraph alone would leave that implication; removing both is a wider edit than ruled.
+- Opus review of the edit: no guard broken. Two points for Mark: the Numidicus telling now ends on "left thin by the fall of some", which closes on staffing and could brush the not-lapsed guard; the Election telling ends on Cyprian's own "your suffrage", which a modern reader may hear as a vote.
+- lpc gates (records, regate) pass; lpc repinned to 2026-10-30T19-34-14Z. OG-114 closed.
+
+## 20. Election caveat paragraph and the two closings, ruled (2026-10-30)
+
+Mark, 2026-10-30, direct (choice box), on the two items held in entry 19.
+
+- Election of Cyprian: the closing paragraph ("Only Pontius says Cyprian was newly baptized, no other witness...") and "Pontius did not soften this. He pressed it..." are removed from the `telling`. The two `not_for` guards (no corroboration; Pontius is not neutral) are kept with a positive statement of who is speaking, in all three lengths: "Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death." The newly-baptized claim stays inside a quotation credited to Pontius.
+- "Suffrage" is explained where Cyprian uses it, as the support of the people, so it is not heard as a vote (`lpc.term.suffrage` not_for): a clause in the full and medium tellings, an appositive in the short.
+- Numidicus: "left thin by the fall of some" is dropped. The ruling asked for the thinning to be put as depletion by martyrdom and exile. Cyprian's letter (Ep. XXXIV) gives the cause as "the lapse of some", so martyrdom and exile would be an addition. The telling now says "to strengthen our presbyters, whose ranks had grown thin": the source's own thinning, with no cause named, and no claim that Numidicus lapsed.
+- Opus check of the new endings against all guards: pass; one flow fix applied ("he" to "Cyprian" in the opening sentence).
+- The `text` fields of both records still carry the old wording ("Where she searched, the letter does not say"; "Pontius did not soften this -- he pressed it"). They are the source-side recast and were not part of the ruling.
+- lpc gates (records, regate) pass; lpc repinned to 2026-10-30T20-04-22Z; the site world JSON rebuilt from its pinned commit and compiler version.
+
+## 21. The rule applied to the records' `text` fields too (2026-10-30)
+
+Coordination thread, relaying Mark's general rule (no unprompted absence statements anywhere the voice can speak them), 2026-10-30.
+
+- Removed from `lpc.story.numidicus` `text`: "Where she searched, the letter does not say." From `lpc.story.election-of-cyprian` `text`: "Pontius did not soften this -- he pressed it", now "Pontius noted that Cyprian was still...", and the opening gains the same positive attribution as the telling ("writing in praise of his bishop after Cyprian had been executed"). No other change.
+- Opus check: no `not_for` guard asserted or implied; nothing added; no absence statement left in either `text`. One note, not acted on: the Election opening sentence runs about 37 words, as it did before; the ruling was to change nothing else.
+- Scan of the other five lpc story records for the same pattern (a pattern search over `telling` and `text`, so a first pass, not a read-through); not edited, they come with their own tellings: `celerinus-writes-to-lucian` telling "Her own brother does not give her name, and no word of hers survives."; `hundred-thousand-sesterces` telling "We do not know whether the ransom worked."; `the-death-of-cyprian` text "Pontius adds things the Acta does not mention, and they are his."; `the-plague-and-the-enemies` telling "Pontius does not say whether those who persecuted us were among the people helped."; `the-psalms-on-the-wall` none found. Each will need the guard check (some may be what a `not_for` or `absent_detail` requires).
+- lpc gates pass; lpc repinned to 2026-10-30T20-09-01Z.
+
+## 22. Numidicus ending carries the cause, in Cyprian's sense (2026-10-30)
+
+Mark, 2026-10-30, direct, after the source was checked: keep the cause in the Numidicus ending, in plain words. This replaces the cause-free wording in entry 20.
+
+- Source: Ep. XXXIV, "the number of our presbyters that had been desolated by the lapse of some". The earlier suggestion of martyrdom and exile as the cause was a mistake in the brief, not in the source.
+- The `telling` now ends: "The Lord meant to add Numidicus to our clergy, and to fill the ranks of our presbyters, thinned when some of them lapsed." The short and medium tellings end before this clause and are unchanged.
+- Guard check (`not_for`: Numidicus lapsed or was readmitted): "some of them" refers to the presbyters; the Opus check judged the reading risk low and needed no alternative wording. Nothing added; no absence statement.
+- The editor's footnote for the "unconquered" variant does exist in this edition (iv.iv.xxxiv-p5.1), so the source gap behind OG-114 is answered if the variant is ever wanted; it stays out of the telling under the no-absence rule.
+- lpc gates pass; lpc repinned to 2026-10-30T20-22-15Z; site world JSON rebuilt.
+
+## 23. Short and medium tellings for the other five lpc stories (2026-10-30)
+
+Coordination thread, 2026-10-30: author the five remaining lpc stories (quote-heavy first), Opus writes, a second Opus pass reviews, all gates, under the rules in force.
+
+- Build-side only: `Build/Ministry/Features/Answering-From-Sources/S3-Stories/Tellings/lpc_five_stories.json`; no record, package or site JSON touched.
+- Rules applied: entry 18 (no unprompted absence statements), the closing-line test, quotations exact, targets about 90 and 160 plus 15%.
+- Findings fixed after the second pass: the Death of Cyprian tellings credited the Acta-only answer and cry to Pontius; its heart said more than the record ("to the end"); the Psalms medium closed on "he slept with his fathers", against the not-serene guard; the Celerinus heart failed the readability floor and its wording of Lucian's peace was closer to a grant than a request. A recheck then fixed an unsupported "the Acta ends" sentence and the order of the Psalms quotation.
+- The records' `telling` and `text` fields for these five still carry absence statements (listed in entry 21); they are edited in the record stage, each with a guard check first.
+
+## 24. Quote door: code writes the lead-in when the voice's names no speaker (2026-10-30)
+
+Mark, 2026-10-30, in his own answers to the choice box (all three took the recommendation):
+
+1. Frame wording: "In today's English, X says:".
+2. Code's lead-in applies only when the voice's lead-in is missing or fails the speaker check; answers that pass today are unchanged.
+3. Span id: not now. Quotes are marked by record id only; revisit after Stage 2 on lpc lands (the Library thread's).
+
+Built, engine-only (no schema change, no re-pin, no gate registered):
+
+- `engine/m4/quote_placement.py`: when the placed-quote check refuses a quote only because its lead-in names no speaker (`REASON_SPEAKER_UNNAMED`), code writes the lead from the record's speaker name ("In today's English, <speaker> says:") and the quote is placed. Refusals for a lead-in that types a quotation, attributes to another figure, or any other reason stand. The repaired quote still counts as the one quote a reply may carry. Each repair is recorded in the reply shape as `repaired` (the voice's draft and code's lead-in), so the audit shows what code wrote.
+- Card and transparency are unchanged: the quote mark, the three-level reading (mark, hover, full page with source links) and the card test (no original wording on the card) are untouched.
+- Tests: five new in `test_quote_placement.py`; `test_quote_speaker_offered.py` now asserts that every replay quote whose lead-in named no speaker is placed with code's lead-in.
+- Not built: the span-id marker path (needs a schema change order and Stage 2); the turn directive still tells the voice to write the lead-in itself.
+
+## 25. The rule applied to the other five lpc story records (2026-10-30)
+
+Coordination thread, relaying Mark's general rule, 2026-10-30: the absence statements come out of the five other lpc story records' own `telling` and `text`, with a guard check first.
+
+- An Opus audit read each whole record and found the statements entry 21's pattern search had missed (Death of Cyprian, Plague, Psalms). No `not_for` or `claim_guards` line depends on an absence sentence: the existing credits ("Pontius says", "in the Acta", "Possidius says") already carry every guard.
+- Removed: Celerinus telling, the sister's name and "no word of hers survives"; Hundred thousand sesterces telling, the closing paragraph (outcome unknown, no reply survives, the story ends); Death of Cyprian telling and `text`, the unnamed compiler, "Pontius does not quote the cry", "the Acta says nothing of it / of any strengthening", "the Latin can be read two ways", and "Only" turned into plain credit; Plague telling, "Only his life of our bishop" and the closing paragraph, and in `text` "without any of the consolation he might have reached for"; Psalms telling, the closing paragraph (only witness, no second source).
+- Flow repairs from the independent Opus review: "He says" is now "Pontius says"; the strengthening is marked as Pontius's reading directly after it; "Cyprian" replaces two unclear pronouns; "Where only one speaks, we say which" is now "We say which text tells each part."
+- `absent_detail` and `modern_contrast` are unchanged in all five: they are the structured answer used when a visitor asks.
+- Point watched, accepted: in the Plague telling, "good was done to all people" now follows the sermon directly; it is Pontius's own wording and credited to him.
+- lpc gates (records, regate) pass; lpc repinned to 2026-10-30T21-50-08Z; the site world JSON rebuilt.
+
+
+## 26. Optatus Book II chapter XXV: reason form `head_unprinted` (2026-10-30)
+
+AI-reviewed, coordination-level ruling (not Mark's), 2026-10-30, option A of three put by the Library thread.
+
+- Case: `optatus_against-the-donatists`, Book II chapter XXV. The text is present (it starts at line 1257, inside `book-second/ch24`, and matches Ziwsa's chapter 25) but the edition prints no head for it, in the body, the notes or the front matter. The earlier reason, `leaf_missing`, said something untrue, and none of the other four forms fits.
+- Ruling: a fifth `expected_gaps` reason form, `head_unprinted: {between, line, quote}`, built in PR #1365 under the standing rule for tooling PRs (tests, Opus review before merge, no stacked fix). It uses the one look-alike test, so a line that carries a numeral is refused and a damaged head elsewhere in the window still fails.
+- Applied: the Optatus entry now uses it; the check passes.
+
+## 27. Fourth look at the two Mesnage scans (Mark, 2026-10-30)
+
+Mark's own ruling, 2026-10-30, on the Library thread's escalation at the end of the third review round: option A, one more targeted pass on each Mesnage scan using the edition's own index as the checklist. It does not reopen the cap for anything else.
+
+- Third round: Benson and Knoll passed. Both Mesnage scans failed on recall: the same 16 printed entries were missing from each (among them Béja and Haïdra, filed under the entry before).
+- The pass: 16 known entries added to each scan, plus three sub-headings and Bains romains, 20 and 19 divisions in all. A reader who was not the fixer drew 40 index entries per scan with a fixed seed and found a division at every printed heading, read 20 unresolved index names per scan (none a missing entry) and scanned three windows per file for heading-shaped lines (no misses). Both scans are `sampled-ok`.
+- Residual risk, stated plainly: no scan rules out a heading that has no blank line before it, no full stop and a place out of alphabetical order. None turned up.
+
+## 28. The lpc 100-question test set frozen (2026-10-30)
+
+Mark, 2026-10-30, relayed by the coordination thread: "Mix is right"; freeze this mix. He did not ask to read the 26 new wordings.
+
+- The mix: 28 sealed canon probes (by probe id only; the wording stays sealed), 20 quote door, 14 story door, 8 thinness and honest limits, 6 after 430, 5 scholarly framing and claim pressure, 4 one verse, 4 challenging the voice, 4 real pilot wording, 7 cluster fill. Every cluster C1 to C16 has at least 3 questions, counted from the file.
+- The 26 new wordings (12 quote, 14 story) were checked by a fresh Opus reviewer against each target record's text. Round 1: 22 passed, 4 needed fixes (a Cyprian line that was Augustine's words about Cyprian; a doctor-and-sick-man line pointed at someone hurting, where the record is about failure put right; a wounded-shepherd line that went against the passage; an enemies example the record rules out). Each finding was checked against its record, then fixed. One round was enough; no fix needed a second.
+- Frozen file: `S3-Test100/lpc_100_questions.yaml`, sha256 `4a2b891cfabb0768942821ce8008dfcebe5cb01c5aa3741928d7e779ea51340f`, held in `S3-Test100/lpc_100_questions.sha256`. A change to it is a change order, named and reasoned.
+- Next, free of model spend: the shadow mode and the in-plan answer drafter.
+
+## 29. Stage 4 rulings: the rigor line, the shadow design, the deferred spend (2026-10-30)
+
+- Rigor line (proposal decision 1), Mark's own answer, 2026-10-30: in general answers the voice quotes and closely paraphrases only, in the author's name, with no inference from a passage that no reviewed record frames. Revisit when the measured judge agreement earns more.
+- Targets, already ruled 2026-10-29: recall on unsupported at least 0.95, precision at least 0.85.
+- Design to shadow first: citation-recall as the main judge, the verifier beside it for comparison only. This is a coordination-level ruling, reviewed by AI, and is not Mark's own; he may change it. Basis: held-out false alarms 3.3% against 9.1%, agreement with gold 0.85 against 0.73, and on the calibration half neither combination of the two beats the better single judge.
+- The production judge's spend (proposal decision 2a) and the production judge models are deferred. They are raised only if a paid step is absolutely necessary, by name and with a cap, under Mark's standing rule that spend questions are not put to him in advance.
+- The Stage 4 change order is drafted as an Artifact for Mark's approval by one choice box. Nothing is written into the feature directory until he approves it.
+
+## 30. Rigor line addition: context to understand, and fit to the question (2026-10-30)
+
+Mark, 2026-10-30, in his own words, relayed by the coordination thread: "you said quote or parapharse only, i am adding they can look at texts to get context of what the quote or story was trying to say not just the worlds quotes and stories in an answer have to not only have the right words but also the right application/contexts, so it does answer the right question".
+
+- The answer stays at quotation and close paraphrase. The voice may be shown the source text around a quote or story, as context that supports no sentence, to understand what it was saying; it is not limited to the world's own records.
+- A quote or story placed in an answer must fit the question: the right words and the right application. A fit check covers every placed quote and story and whether the answer addresses the question asked. The 100-question scoring sheet gets a "fit to the question" column.
+- The Stage 4 page carries the design (context blocks that cannot be bindings, the fit step, three-level transparency unchanged). No code is built.
+- Proposed, not applied: six fit-trap questions for the frozen 100-question set, as a change order. The frozen file and its seal are untouched until Mark approves.
+
+## 31. Stage 4 approved to proceed; six fit traps added (2026-10-30)
+
+Mark, 2026-10-30, by choice box, relayed by the coordination thread:
+
+1. Stage 4 change order (draft version 3): "Approve to proceed". Shadow only on lpc, free in-plan, no gate retired. It starts when Stage 2 lands on lpc. The order is filed as `Stage4_Change_Order.md`.
+2. Six fit traps: "Add the six". The lpc test set becomes 106 questions under a new seal. The original 100 and their seal (entry 28) stay as they are. The change order is filed as `S3-Test100/Change_Order_Fit_Traps.md`.
+
+Coordination-level, AI-reviewed (not Mark's own): the 20-pair calibration set for the fit step, with a bar of 19 of 20 caught before its verdicts count.
+
+A fresh Opus reviewer checked the six wordings against their records before the new seal: four passed, two were reworded (q101 moved to the past tense and third person, q105 narrowed to the church's own poor and widows). The new set `S3-Test100/lpc_106_questions.yaml` has sha256 `22fefa5581554c4dca1e1e2e2db7bf973dc2fe1f5ccb7c73c0a9c2be6b97c0c2`. The original 100 and their seal (entry 28) are untouched. Findings and fixes are in the change order file.
+
+## 32. Drafter helper, guard before the run, shadow-run findings (2026-10-30)
+
+Coordination-level, AI-reviewed (not Mark's own), relayed by the coordination thread:
+
+- A separate helper type for drafting, Read and Write only, in the same pattern as `judge-reader` (Mark approved that pattern): `.claude/agents/voice-drafter.md`. `judge-reader` keeps its labelling and judging role.
+- No allowance go-ahead is needed for the run: in-system work is not tracked or capped (Mark's standing rule). The run starts when the Library thread says Stage 2 is on lpc.
+- The surgeon's-knife quote record gets the not_for line "a warrant for striking a child or anyone today", before the run so the run uses final records (OG-119 closed by that change).
+- Found while building the run: the "story record not offered for placement" note on a test draft came from a made-up reader reply that did not match the question, not from the story door. With a matching reader reply the story is offered and placed. lpc's registered `story_placement` flag is off (only desert's is on), so the shadow run sets it on in memory. A story is placed whole as its `telling`; the short and medium lengths are not built into the placement code.
+- The current gates' verdicts for the judge steps come from the run's own net output through `engine/m3/test100_export.py`, in place of `engine/m3/gate_replay.py`.
+
+## 33. Story length: the voice picks, code checks (2026-10-30)
+
+Mark, 2026-10-30, by choice box, relayed by the coordination thread: "Voice picks, code checks".
+
+- The voice names the length in the story marker: `[[story:id:short]]`, `:medium` or `:full`. The offer line lists each length with its word count. The instruction for the voice: medium unless there is a reason; short when the story is an example inside a reply that also says other things; full only when the participant asks for the story itself and nothing else.
+- Code checks the pick. A length the record does not have, or none named, is medium (full when the record has no medium). A short or medium telling that does not fit the words left in the reply falls to the next shorter length the record has, and stays at the shortest it has. A full telling is not checked for room. A record with no shorter tellings places its full telling, as before. Code places the reviewed words and never retells.
+- The room is 220 words less the words the voice itself wrote in the reply. The 220 is the existing norm in the voice directive ("most replies run between 120 and 220 words, a question that earns more may take more"). Mark did not set it. It is one constant (`REPLY_WORD_ROOM` in `engine/m4/story_placement.py`) and changes by one edit. Coordination-level, AI-reviewed.
+- Three-level transparency and the fit step are unchanged. The length told is carried as data in the reply shape (`story_lengths`, present only when a story was placed), and a story card also carries the record's `heart`.
+- Built as a placement code change and a records change. The records change puts `heart`, `events`, `telling_short` and `telling_medium` into lpc's seven story records, with one lpc re-pin. lpc's registered `story_placement` flag stays off in production (OG-120).
+
+## 34. OG-118: scan lpc for unprompted absence statements, then fix by the story rule (2026-10-31)
+
+Mark, 2026-10-31, relayed by the coordination thread:
+
+- Scan lpc first (figure, term and witness records) for unprompted absence statements. Report the scan as a count and a list before any fix.
+- Fix by the same rule as the stories, in one records pull request with one re-pin. Run `engine.m9.cli check` locally before the push. An Opus guard check and a nothing-added check per edit. The three levels of transparency stay.
+- Other worlds only after the lpc result, through the coordination thread. OG-118 closes in a docs batch with this ruling.
+- The scan runs after the early pass (entry 35), not before it.
+
+## 35. An early records-only pass on the 106 questions (2026-10-31)
+
+Mark, 2026-10-31, relayed by the coordination thread: start the 106 run now as an early records-only pass; name it that way everywhere ("an early pass, not the Stage 4 proof"); file a short named change order recording the departure from the "Stage 2 done on lpc first" gate. The real proof reruns after Stage 2 lands. The change order is filed as `S3-Test100/Change_Order_Early_Pass.md`.
+
+Reader columns are by blind reads, two of three agree, marked AI-adjudicated under entry 17. The report gives scoring-sheet totals with each number taken from the run files, the judge-versus-gate disagreements adjudicated, and what broke.
+
+## 36. Net: a sentence composed around a placed quote cites that quote alone (2026-10-31)
+
+Mark asked for this fix directly: the net's verdict on a sentence built around a placed quote carried the sentence's own tags, so an unverified tag in a lead-in reached the citation list. The verdict now cites the placed quote's record id alone. Merged as pull request 1375 (`engine/m4/grounding_net.py`, test `engine/m4/tests/test_placed_quote_citations.py`), full regression 2576 passed. Logged as OG-121.
+
+## 37. OG-118: absence statements out of what the voice and participants see (2026-10-31)
+
+Mark, 2026-10-31, relayed by the coordination thread. Two answers, the second replacing the first.
+
+- First answer: all fields the voice sees (tensions, senses, witness text, figures) count; clean all 51 flagged sentences by the stories rule. It rested on a wrong premise from this thread: a scan reader reported that a term's `senses` and a witness's `tensions` reach the voice. The engine's registry of spoken fields (`engine/m1/spoken_fields.py`) says the voice sees a term's `plain_meaning` and `quick_meaning`, a witness's `text`, and a figure's `names` and `bridge_line`; a term's `senses.translational` is the participant hover gloss. `tensions` and the other `senses` fields are build notes. This thread corrected the premise the same day.
+- Second answer, on the corrected picture: clean only what the voice and participants see (those fields plus the hover gloss). Leave `tensions` and the other `senses` fields alone. One records pull request, one re-pin, an Opus guard check and nothing-added check per edit, `engine.m9.cli check` before the push, three-level transparency kept.
+- Coordination-level, AI-reviewed (not Mark's): record bodies are not spoken, so they are out of scope for this rule.
+
+Method. Two independent Opus readers read all 53 figure, term and witness records whole (51 flagged sentences in 30 records, 46 flagged by both). A third reader ruled the five flagged by one reader only: celerinus (markdown body, out of scope), the-people (not an absence statement), and three confirmed. Sonnet drafted the edits and Opus reviewed them.
+
+Result. 15 sentences or clauses removed from 13 records: eleven witness `text` fields, and the hover gloss `senses.translational` of two terms (compel-them-to-come-in, catechesis). Nothing added. The Opus review passed 13 of 15 passages and found two edits whose removal left the text overreaching: confessor-claim-vs-regulated-peace (the removed sentence was the world's own Tensional point, that the two never become one rule) and no-one-may-take-his-own-life (the removed sentences were the only thing stopping a verdict on everyone who dies this way). Both edits were undone whole and stay as caveats. One readability finding (apostolic-succession `text`, reading ease 57.3 after the removal) was fixed by splitting three long sentences with the record's own words. lpc re-pinned to 2026-10-31T02-58-38Z; records and regate gates pass.
+
+Not done, registered as OG-124: the sentences left in build-note fields and the body statements.
+
+## 38. Early pass and judge findings: what the report says about the gates (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's): `S3-Test100/Early_Pass_Report.md` records that 100 of 462 gate-kept sentences were labelled not supported by two of three reads, and 28 of 41 gate-withheld sentences supported. Whether those 100 are the Representative's own framing lines or real overreach has not been measured; that is the next thing to read before any gate is retuned.
+
+## 39. Correction to entry 38: the 100 was overstated (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's): entry 38 and the early-pass report gave 100 of 462 gate-kept sentences as not supported. The judges' evidence pack omitted fields the voice is shown. After the pack fix (PR #1383) and a re-judge of all 503 sentences, the figure is 58 of 462; 31 of the 41 withheld sentences are labelled supported. The held-out judge numbers were measured with the old pack and do not carry over to world-core and story records until those gold items are re-labelled (OG-126). The 58 are the thing to read for kind before any gate is retuned.
+
+## 40. Mark's ruling: allow no quote (2026-10-31)
+
+Mark's own answer, relayed by the coordination thread, on proposal item 1: "Yes, allow no quote". Mark's answer is the decision. The implementation is coordination-level, AI-reviewed: the draft directive no longer requires a quote, and when a quote is due it says to place one if it answers the ask and none if it does not (PR #1386; Opus review before merge, no blocking findings). Every claim still cites a reviewed record; the three levels are unchanged. The production fit judge, which would apply fit-step drops, is not part of this and needs a named, capped live test.
+
+## 41. Mark's ruling: lighter reviews (2026-10-31)
+
+Mark's own answer, relayed by the coordination thread, on pacing (weekly usage about 20% in six hours): two threads, lighter reviews. That answer is his. The rules below are coordination's application of it (coordination-level, AI-reviewed, not Mark's own words): one independent reader per review, a second only to settle a real dispute or a failed first read. Round 2 onward stays a targeted recheck. No large re-read or new audit without telling Mark first, with the cost in reader items. Unchanged: one Opus review before any tooling or code PR merges; the guard and nothing-added check on record edits (one reviewer); the three-round cap; no metered spend; safety-adjacent records keep their guards. Helper prompts stay small.
+
+## 42. Early pass 2 (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's): `S3-Test100/Early_Pass_2_Report.md`. Placed quotes fell from 83 to 35 and fit-step off-point placements from 43 to 3 across the same 106 questions. The not-supported rate on a 120-sentence sample showed no difference between passes (10.7% and 12.5%, wide error). One run, new drafts; not independent proof. The lead-in check that followed is entry 43.
+
+## 43. The lead-in check (2026-10-31)
+
+Mark's principle, his sentence verbatim: "if the fact is supported elswhere in the source documents its ok, but not if its not supported in the source documents". Mark's go-ahead to merge, his words as relayed: "go ahead and merge the lead-in check". Both are his.
+
+The design is coordination-level, AI-reviewed, not Mark's (PR #1391; one Opus review before merge, defects found and fixed). The sentence before a placed quote may state a detail (a name, role, occasion, kind of text, time) only if a source document supports it: the quote record's own prose, the speaker's figure record and the quote's source records, or the edition text around the quote's cited lines, the edition only from files on the world's shelf (`shelf_files`, the world's bucket in the corpus map). The supporting span is kept for the hover and click-through. A detail nothing supports is replaced by "In today's English, X says:" with the speaker from the record. No model call. The check is a floor: it catches the details its rules extract, and a lowercase detail outside those lists passes unchecked.
+
+The three examples, settled against the sources, are all supported: "as bishop at Hippo" (the figure record), "wrote to Demetrianus" (the record's locus and the edition title), "preached on the Gospel of the woman and her accusers" (Tractate 33 on John and the edition's "Homilies on the Gospel of John"). The 11 to 14 sentences in the 58 that looked like an added detail are an upper bound, not re-sorted: a record-fields-only judge reads a detail like these as an added one.
+
+## 44. Mark's bar: scholarly acceptance (2026-10-31)
+
+Mark's own words, relayed by the coordination thread: "again, we are not refining to perfection, we are looking for scholerly acceptance". Then: "maybe appreciation beyond acceptance, but not endless minution driving perfection". The bar for judging the answers is no serious fabrication and no claim a scholar would call wrong or unsupported by the world's shelf; minor wording drift is tolerated. Aim a little above bare acceptability where a visitor would feel it, and stop at the first clearly useful gain. Coordination-level application, AI-reviewed: no further judge re-labelling or re-judging beyond what is in flight, and the held-out relabel is cancelled until a held-out number is needed.

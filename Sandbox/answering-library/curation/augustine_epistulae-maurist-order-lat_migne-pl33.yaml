@@ -1,7 +1,7 @@
 file: augustine_epistulae-maurist-order-lat_migne-pl33.txt
 scheme: 'Maurist letter numbers I-CCLXX, printed as EPISTOLA and a roman numeral at the head of each letter and running on through the four classes; the Appendix letters carry their own numbering from I and are addressed under the appendix; in the long letters that print CAPUT headings, and in letter 102 that prints QUAESTIO headings, the address goes down to the chapter or question the edition numbers'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: letter
     pattern: '^(?=(?:E|K)\S*S[TI1][O0UV]\S*[\s,])(?P<w>[A-Za-z0-9.!|]{5,9}),?\s+(?:\([a-z]\)\s*)?(?P<n>PRIMA|\(?[A-Z0-9lI!|\\.]{1,12})(?: (?P<bis>BIS))?(?=\s|[*•‘''"»(\[{\\/,.]|$)(?!.*C ?L ?A ?S)'
@@ -44,28 +44,22 @@ rules:
     lines: [4282, 80401]
     locus: 'class{line}'
     division: false
-  - id: appendix
-    pattern: '^APPENDIX\.$'
-    lines: [80402, 80402]
-    locus: appendix
-    division: false
   - id: appendix-letter
     pattern: '^(?=(?:E|K)\S*S[TI1][O0UV]\S*[\s,])(?P<w>[A-Za-z0-9.!|]{5,9}),?\s+(?:\([a-z]\)\s*)?(?P<n>PRIMA|\(?[A-Z0-9lI!|\\.]{1,12})(?: (?P<bis>BIS))?(?=\s|[*•‘''"»(\[{\\/,.]|$)(?!.*C ?L ?A ?S)'
     lines: [80403, 86125]
-    parent: appendix
-    locus: 'ep{n|int}'
+    locus: 'appendix/ep{n|int}'
     number: n
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
       - {line: 80443, set: {n: 'I'}}
       - {line: 80575, set: {n: 'VIII'}}
   - id: chapter
-    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
-    lines: [[10025, 11071], [11653, 12640], [14985, 16314], [18390, 19275], [20149, 21271], [23410, 25243], [29414, 30391], [31443, 32724], [32957, 33719], [36251, 37199], [39669, 43078], [44522, 46273], [46807, 47813], [48442, 49273], [49889, 51230], [53075, 53954], [58318, 59922], [59924, 61105], [64180, 65384], [66294, 67782], [71697, 72489]]
+    pattern: '^[CGU] ?A[PDMNFIf][A-Za-z0-9‘''*|)]{0,5}\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [[4282, 26999], [27831, 29420], [30392, 46616], [46806, 54601], [54880, 61105], [62774, 76010], [76817, 80401]]
     parent: letter
     locus: 'cap{c|int}'
     number: c
-    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
       - {line: 10032, set: {c: 'I'}}
       - {line: 11683, set: {c: 'I'}}
@@ -74,7 +68,6 @@ rules:
       - {line: 18402, set: {c: 'I'}}
       - {line: 20187, set: {c: 'I'}}
       - {line: 23423, set: {c: 'I'}}
-      - {line: 29421, set: {c: 'I'}}
       - {line: 31478, set: {c: 'I'}}
       - {line: 32962, set: {c: 'I'}}
       - {line: 36271, set: {c: 'I'}}
@@ -88,35 +81,80 @@ rules:
       - {line: 66307, set: {c: 'I'}}
       - {line: 71707, set: {c: 'I'}}
       - {line: 72376, set: {c: 'VII'}}
+      - {line: 8095, quote: 'caput primum', set: {c: 'I'}}
+      - {line: 4774, quote: 'C A PUT PHIMUM', set: {c: 'I'}}
+      - {line: 4816, set: {c: 'II'}}
+      - {line: 39742, quote: "C W'U I' II.", set: {c: 'II'}}
+      - {line: 52295, quote: "GAP. 1'UiMUM", set: {c: 'I'}}
+      - {line: 12653, set: {c: 'I'}}
+      - {line: 14909, set: {c: 'VI'}}
+      - {line: 15976, set: {c: 'XVI'}}
+      - {line: 16123, set: {c: 'XVIII'}}
+      - {line: 17333, set: {c: 'I'}}
+      - {line: 17358, set: {c: 'II'}}
+      - {line: 28217, set: {c: 'I'}}
+      - {line: 28764, set: {c: 'I'}}
+      - {line: 36465, set: {c: 'III'}}
+      - {line: 52819, set: {c: 'VII'}}
+      - {line: 52939, set: {c: 'I'}}
+      - {line: 53963, set: {c: 'I'}}
+      - {line: 54087, set: {c: 'II'}}
+      - {line: 58328, set: {c: 'I'}}
+      - {line: 63077, set: {c: 'II'}}
+      - {line: 64264, set: {c: 'II'}}
+      - {line: 65506, set: {c: 'II'}}
+      - {line: 69061, set: {c: 'I'}}
+  - id: chapter-unnumbered
+    pattern: '^[CGU] ?A[PDMNFIf][A-Za-z0-9‘''*|)]{0,5}\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [[29421, 30391], [46617, 46805], [54602, 54879]]
+    parent: letter
+    locus: 'cap{c|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
   - id: chapter-appendix
-    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
-    lines: [[80822, 82599], [83088, 85558]]
+    pattern: '^[(.]?[CGUO.]{1,2}(?: ?[A-Za-z]){1,2}[A-Za-z0-9’‘''*|)]{0,5}(?: U?T)?\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)\.?\s*—'
+    lines: [[80822, 82019], [83088, 85558]]
     parent: appendix-letter
     locus: 'cap{c|int}'
     number: c
-    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
-      - {line: 81160, set: {c: 'VI'}}
+      - {line: 81160, quote: 'CAPUT N l.', set: {c: 'VI'}}
+      - {line: 83093, set: {c: 'I'}}
+      - {line: 84016, set: {c: 'VII'}}
+      - {line: 84520, quote: 'CAPUT A V.', set: {c: 'XV'}}
+      - {line: 80825, set: {c: 'I'}}
+      - {line: 85200, set: {c: 'XXV'}}
+      - {line: 84249, quote: 'bAPliTIX.', set: {c: 'IX'}}
+  - id: chapter-appendix-interleaved
+    pattern: '^[(.]?[CGUO.]{1,2}(?: ?[A-Za-z]){1,2}[A-Za-z0-9’‘''*|)]{0,5}(?: U?T)?\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)\.?\s*—'
+    lines: [82020, 82599]
+    parent: appendix-letter
+    locus: 'cap{c|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
       - {line: 82071, set: {c: 'XXI'}}
       - {line: 82444, set: {c: 'XXVIII'}}
       - {line: 82472, set: {c: 'XXIX'}}
-      - {line: 83093, set: {c: 'I'}}
-      - {line: 84016, set: {c: 'VII'}}
-      - {line: 84520, set: {c: 'XV'}}
   - id: chapter-187
-    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
+    pattern: '^[CGU] ?A[PDMNFIf][A-Za-z0-9‘''*|)]{0,5}\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)(?=[.,—#-]|\s|$)'
     lines: [61107, 62220]
     locus: 'ep187/cap{c|int}'
     number: c
-    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
-      - {line: 62122, set: {c: 'XIII'}}
+      - {line: 62122, quote: 'CAPUT 3L1U.', set: {c: 'XIII'}}
+  - id: chapter-188
+    pattern: '^[CGU] ?A[PDMNFIf][A-Za-z0-9‘''*|)]{0,5}\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)(?=[.,—#-]|\s|$)'
+    lines: [62222, 62773]
+    locus: 'ep188/cap{c|int}'
+    number: c
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
   - id: chapter-238
-    pattern: '^CAPUT\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[^\s.,—#-]+(?: [^\s.,—#-]{1,3})?)(?=[.,—#-]|\s|$)'
+    pattern: '^[CGU] ?A[PDMNFIf][A-Za-z0-9‘''*|)]{0,5}\.?\s+(?P<c>PRIMUM|PIUMUM|PHIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9}(?: [IVXLCDMUHYTFGr1ilj!|\\]{1,3})?)(?=[.,—#-]|\s|$)'
     lines: [76012, 76816]
     locus: 'ep238/cap{c|int}'
     number: c
-    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
       - {line: 76020, set: {c: 'I'}}
   - id: question
@@ -328,19 +366,71 @@ evidence:
     quote: 'INDEX RERUM'
   - line: 90083
     quote: 'ADDENDA AD APPENDICEM TOMI II.'
+  - line: 4774
+    quote: 'C A PUT PHIMUM. —'
+  - line: 4816
+    quote: 'CAPUT 1L —'
+  - line: 12653
+    quote: 'CAPUT PHIMUM. —'
+  - line: 14909
+    quote: 'CAPI T VI. —'
+  - line: 15976
+    quote: 'CAPU r XVI.—'
+  - line: 16123
+    quote: 'GAP. X VIII. —'
+  - line: 17333
+    quote: 'CAPUT PHIMUM. —'
+  - line: 17358
+    quote: 'CAP. U. —'
+  - line: 28217
+    quote: 'CAP. PHIMUM. —'
+  - line: 28764
+    quote: 'CAPUT PHIMUM. —'
+  - line: 36465
+    quote: 'CAPUT UI. —'
+  - line: 39742
+    quote: 'C W''U I'' II. —'
+  - line: 52295
+    quote: 'GAP. 1''UiMUM. —'
+  - line: 52819
+    quote: 'CAPUT VU. —'
+  - line: 52939
+    quote: 'CAPUT PHIMUM. —'
+  - line: 53963
+    quote: 'CAPUT PHIMUM. —'
+  - line: 54087
+    quote: 'CAPI T II. —'
+  - line: 58328
+    quote: 'CAPIT PHIMUM. —'
+  - line: 63077
+    quote: 'CAPUT U. —'
+  - line: 64264
+    quote: 'CAPU I II. —'
+  - line: 65506
+    quote: 'CAPUT U. —'
+  - line: 69061
+    quote: 'CAPUT PHIMUM. —'
+  - line: 80825
+    quote: 'C APliT PHIMUM. —'
+  - line: 84249
+    quote: 'bAPliTIX. —'
+  - line: 85200
+    quote: 'CAPE 1 XXV. —'
+  - line: 8095
+    quote: 'caput primum.'
 divisions:
-  - {start_line: 9645, locus: ep34}
-  - {start_line: 21639, locus: ep87}
-  - {start_line: 55149, locus: ep171}
-  - {start_line: 57348, locus: ep181}
-  - {start_line: 57641, locus: ep182}
-  - {start_line: 61106, locus: ep187}
-  - {start_line: 62221, locus: ep188}
-  - {start_line: 68839, locus: ep204}
-  - {start_line: 70714, locus: ep212}
-  - {start_line: 71431, locus: ep216}
-  - {start_line: 76011, locus: ep238}
-  - {start_line: 78415, locus: ep256}
+  - {start_line: 9645, locus: ep34, number: XXXIV, series: letter}
+  - {start_line: 21639, locus: ep87, number: LXXXVII, series: letter}
+  - {start_line: 55149, locus: ep171, number: CLXXI, series: letter}
+  - {start_line: 57348, locus: ep181, number: CLXXXI, series: letter}
+  - {start_line: 57641, locus: ep182, number: CLXXXII, series: letter}
+  - {start_line: 61106, locus: ep187, number: CLXXXVII, series: letter}
+  - {start_line: 62221, locus: ep188, number: CLXXXVIII, series: letter}
+  - {start_line: 68839, locus: ep204, number: CCIV, series: letter}
+  - {start_line: 70714, locus: ep212, number: CCXII, series: letter}
+  - {start_line: 71431, locus: ep216, number: CCXVI, series: letter}
+  - {start_line: 76011, locus: ep238, number: CCXXXVIII, series: letter}
+  - {start_line: 78415, locus: ep256, number: CCLVI, series: letter}
   - {start_line: 90083, locus: addenda-line90083, title: 'ADDENDA AD APPENDICEM TOMI II. EPISTOLA CONSOLATORIA S. AUGUSTINI AD PROBUM'}
 ignore:
   - pattern: '^Dig\w{3,9} +by\b.{0,12}$'
@@ -364,3 +454,19 @@ apparatus:
   - lines: [90137, 90148]
     kind: notes
     locus: colophon
+expected_gaps:
+  - series: letter
+    line: 58054
+    quote: 'EPISTOLA CLXXXIV B/S'
+    reason:
+      as_printed: {line: 58002, quote: 'EPISTOLA CLXXXIV'}
+  - series: letter
+    line: 68047
+    quote: 'EPISTOLA CCII BIS'
+    reason:
+      as_printed: {line: 67956, quote: 'EPISTOLA CCII'}
+  - series: letter
+    line: 78810
+    quote: 'EPISTOLA CCLXI'
+    reason:
+      leaf_missing: {between: [78647, 78810]}

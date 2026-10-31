@@ -1,8 +1,8 @@
 file: augustine_retractationes-lat_knoll-csel36.txt
 scheme: Knoll's CAPVT numbers 1 to 93, printed continuously across both books as the heading CAPVT and a Roman numeral (Maurist numbers in brackets beside them are not used); the eight chapters whose numeral line is missing
-  or has lost the word CAPVT are addressed by the numeral printed on that line or, for chapters 55 and 76, by the matching entry in the printed list of capitula
+  or has lost the word CAPVT are addressed by the numeral printed on that line or, for chapters 55 and 76, by the matching entry in the printed list of capitula; chapter 25 (De diuersis quaestionibus octoginta tribus) is divided at the section numbers Knoll prints in its margin, addressed caput25/s<n>, taking the first number of a printed pair such as 3. 4, and only where the number is printed on the line it marks
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: book
   pattern: ^\W*L[IT]BER (?:PRIM[VU]S|SEC[VU]NDVS)\.$
@@ -143,23 +143,219 @@ divisions:
   locus: prologus
 - start_line: 3119
   locus: caput7
+  number: 7
+  series: caput
 - start_line: 4490
   locus: caput12
+  number: 12
+  series: caput
 - start_line: 6830
   locus: caput19
+  number: 19
+  series: caput
 - start_line: 11240
   locus: caput55
+  number: 55
+  series: caput
 - start_line: 11491
   locus: caput59
+  number: 59
+  series: caput
 - start_line: 12074
   locus: caput67
+  number: 67
+  series: caput
 - start_line: 12611
   locus: caput76
+  number: 76
+  series: caput
 - start_line: 13110
   locus: caput82
+  number: 82
+  series: caput
 - start_line: 8005
   locus: caput25
-  allow_oversize: The edition numbers this chapter with a single section number (1) and prints no finer numbered division inside it; it runs through the 83 questions as one text.
+  id: caput25
+- start_line: 8010
+  locus: s1
+  parent: caput25
+- start_line: 8065
+  locus: s2
+  parent: caput25
+- start_line: 8066
+  locus: s3
+  parent: caput25
+- start_line: 8067
+  locus: s5
+  parent: caput25
+- start_line: 8069
+  locus: s6
+  parent: caput25
+- start_line: 8071
+  locus: s8
+  parent: caput25
+- start_line: 8073
+  locus: s10
+  parent: caput25
+- start_line: 8080
+  locus: s11
+  parent: caput25
+- start_line: 8082
+  locus: s12
+  parent: caput25
+- start_line: 8084
+  locus: s13
+  parent: caput25
+- start_line: 8129
+  locus: s14
+  parent: caput25
+- start_line: 8130
+  locus: s15
+  parent: caput25
+- start_line: 8131
+  locus: s16
+  parent: caput25
+- start_line: 8132
+  locus: s18
+  parent: caput25
+- start_line: 8133
+  locus: s20
+  parent: caput25
+- start_line: 8134
+  locus: s22
+  parent: caput25
+- start_line: 8186
+  locus: s23
+  parent: caput25
+- start_line: 8188
+  locus: s24
+  parent: caput25
+- start_line: 8192
+  locus: s25
+  parent: caput25
+- start_line: 8196
+  locus: s26
+  parent: caput25
+- start_line: 8197
+  locus: s27
+  parent: caput25
+- start_line: 8199
+  locus: s29
+  parent: caput25
+- start_line: 8201
+  locus: s30
+  parent: caput25
+- start_line: 8203
+  locus: s31
+  parent: caput25
+- start_line: 8205
+  locus: s32
+  parent: caput25
+- start_line: 8248
+  locus: s33
+  parent: caput25
+- start_line: 8250
+  locus: s34
+  parent: caput25
+- start_line: 8251
+  locus: s35
+  parent: caput25
+- start_line: 8260
+  locus: s37
+  parent: caput25
+- start_line: 8306
+  locus: s38
+  parent: caput25
+- start_line: 8308
+  locus: s39
+  parent: caput25
+- start_line: 8310
+  locus: s40
+  parent: caput25
+- start_line: 8312
+  locus: s41
+  parent: caput25
+- start_line: 8315
+  locus: s42
+  parent: caput25
+- start_line: 8318
+  locus: s43
+  parent: caput25
+- start_line: 8320
+  locus: s44
+  parent: caput25
+- start_line: 8378
+  locus: s46
+  parent: caput25
+- start_line: 8379
+  locus: s47
+  parent: caput25
+- start_line: 8380
+  locus: s48
+  parent: caput25
+- start_line: 8432
+  locus: s49
+  parent: caput25
+- start_line: 8434
+  locus: s50
+  parent: caput25
+- start_line: 8436
+  locus: s51
+  parent: caput25
+- start_line: 8438
+  locus: s52
+  parent: caput25
+- start_line: 8450
+  locus: s53
+  parent: caput25
+- start_line: 8495
+  locus: s54
+  parent: caput25
+- start_line: 8496
+  locus: s55
+  parent: caput25
+- start_line: 8499
+  locus: s56
+  parent: caput25
+- start_line: 8502
+  locus: s57
+  parent: caput25
+- start_line: 8503
+  locus: s58
+  parent: caput25
+- start_line: 8504
+  locus: s59
+  parent: caput25
+- start_line: 8505
+  locus: s60
+  parent: caput25
+- start_line: 8506
+  locus: s61
+  parent: caput25
+- start_line: 8508
+  locus: s62
+  parent: caput25
+- start_line: 8677
+  locus: s68
+  parent: caput25
+- start_line: 8735
+  locus: s69
+  parent: caput25
+- start_line: 8794
+  locus: s70
+  parent: caput25
+- start_line: 8797
+  locus: s71
+  parent: caput25
+- start_line: 8801
+  locus: s72
+  parent: caput25
+- start_line: 8804
+  locus: s73
+  parent: caput25
+- start_line: 8807
+  locus: s75
+  parent: caput25
 ignore:
 - pattern: ^\S{0,2}\s?[KRE]\s?e\s?t\s?r\s?a\s?c\s?t\s?a\s?t\s?i\s?[o0]\s?n\s?u\s?m\s?,?\s?S[.,]\s?A\s?u\s?g\s?u\s?s\s?t\s?i\s?n\s?i$
   kind: running-head
@@ -305,3 +501,123 @@ evidence:
   quote: CAPVT XCIL
 - line: 13714
   quote: CAPVT XCIII.
+- line: 8010
+  quote: 'scripsimus, quoddam prolixum 1'
+- line: 8065
+  quote: '2 Harum quaestionum prima'
+- line: 8066
+  quote: '3. 4 secunda de'
+- line: 8067
+  quote: '5 deterior; quarta: quae'
+- line: 8069
+  quote: '6. 7 utrum animal'
+- line: 8071
+  quote: '8. 9 septima: quae'
+- line: 8073
+  quote: '10 utrum per se'
+- line: 8080
+  quote: '11 tale aliquid reueletur.'
+- line: 8082
+  quote: '12 cima: quare Christus'
+- line: 8084
+  quote: '13 ubi titulus est:'
+- line: 8129
+  quote: 'homines bestiis excellere; 14'
+- line: 8130
+  quote: 'nostri lesu Christi 15'
+- line: 8131
+  quote: 'de filio; 16. 17'
+- line: 8132
+  quote: 'dc trinitate; 18. 19'
+- line: 8133
+  quote: 'dei; uicen- 20, 21'
+- line: 8134
+  quote: 'sit. ubi uidendum 22'
+- line: 8186
+  quote: '23 et utique bonum'
+- line: 8188
+  quote: '24 secunda est: deum'
+- line: 8192
+  quote: '25 libro postea de'
+- line: 8196
+  quote: '26 faciendum liberum sit,'
+- line: 8197
+  quote: '27. 28 de cruce'
+- line: 8199
+  quote: '29 uicensima septima de'
+- line: 8201
+  quote: '30 deus mundum facere'
+- line: 8203
+  quote: '31 sit sursum aut'
+- line: 8205
+  quote: '32 in utilitatem hominis'
+- line: 8248
+  quote: 'rem illam alius 33'
+- line: 8250
+  quote: 'metu; tricensima quarta: 34'
+- line: 8251
+  quote: 'metu carere; tricensima 35'
+- line: 8260
+  quote: 'uelle nouerunt? tricen- 37'
+- line: 8306
+  quote: '38 ad illud scilicet,'
+- line: 8308
+  quote: '39 de semper nato;'
+- line: 8310
+  quote: '40 tricensima nona de'
+- line: 8312
+  quote: '41 natura una sit,'
+- line: 8315
+  quote: '42 fecit; quadragensima secunda:'
+- line: 8318
+  quote: '43 quadragensima tertia: quare'
+- line: 8320
+  quote: '44 spiritus sanctus in'
+- line: 8378
+  quote: 'propter grauitatem. quadragensima 46'
+- line: 8379
+  quote: 'quadragensima sexta est 47'
+- line: 8380
+  quote: 'utrum aliquando cogitationes 48'
+- line: 8432
+  quote: '49 ista tractata est'
+- line: 8434
+  quote: '50 gensima octaua de'
+- line: 8436
+  quote: '51 filii Israliel sacrificabant'
+- line: 8438
+  quote: '52 gensima de aequalitate'
+- line: 8450
+  quote: '53 dicitur, qui tantummodo'
+- line: 8495
+  quote: 'auro et argento^ 54'
+- line: 8496
+  quote: 'acceperunt; qiiinquagensima quarta 55'
+- line: 8499
+  quote: 'spiritu melius, quinqua- 56'
+- line: 8502
+  quote: 'sexta de annis 57'
+- line: 8503
+  quote: 'qiiinquagensima septima de 58'
+- line: 8504
+  quote: 'piscibus; qiiinquagensima octona 59'
+- line: 8505
+  quote: 'de decem uirginihusi 60'
+- line: 8506
+  quote: 'nemo scit, neque 61'
+- line: 8508
+  quote: 'est in euangelio, 62'
+- line: 8677
+  quote: '68 quam non habuit'
+- line: 8735
+  quote: 'difficillime potest, sexagensima 69'
+- line: 8794
+  quote: '70 sexagensima nona de'
+- line: 8797
+  quote: '71 septuagensima de eo,'
+- line: 8801
+  quote: '72 peccatum, uirtus uero'
+- line: 8804
+  quote: '73 et sic inplehitis'
+- line: 8807
+  quote: '75 seripium est: et'

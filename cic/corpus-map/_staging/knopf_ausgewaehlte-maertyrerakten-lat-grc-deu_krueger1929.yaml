@@ -23,6 +23,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act6]
+    language: lat
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing; Source_Registry row 28 (180 CE) is also the event year; anf09 div2 14.3 gives the consuls of the trial, not a date of writing"}
     note: >
       Latin second witness for the ALREADY-PRESENT English entry in this bucket (source_file
       anf09_gospel-of-peter-diatessaron-origen-commentaries.xml) and for the Latin/Greek entry
@@ -50,6 +53,14 @@ assignments:
       misreads), the German headnotes and apparatus are real text, and the Greek acts are not
       recoverable from this scan. Each quote is verified verbatim against the file (INTAKE section 6)
       before it is used. Mirrors the existing entries' role and confidence exactly.
+    locus_ids:
+    - 'line 2910: PASSIO SS. FELICITATIS ET PERPETVAE. rapt mt'
+    language: lat
+    date:
+      start: 202
+      end: 203
+      source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'
+      formation_confidence: Widely Accepted
 
   - row_id: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--acta-proconsularia-of-cyprian-latin-knopf-krueger-1929-no-13
     work: "Acta Proconsularia of Cyprian, Latin (Knopf-Krueger 1929, no. 13)"
@@ -59,6 +70,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act13]
+    language: lat
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 258 as the date of the Acta S. Cypriani, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       Cyprian's trial and martyrdom record in Latin, a second Latin text of the work already assigned
       from Hartel's CSEL 3 Pars III (source_file cyprian_opera-spuria-vita-pontius-lat_hartel-
@@ -76,6 +90,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act15]
+    language: lat
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 259 as the date of the Passio SS. Mariani et Iacobi, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       An anonymous African martyrdom account. Its Latin sets the journey in Numidia ('pergebamus in
       Numidiam') and names Cyprian, who appears to the martyrs in a vision (file line 5365, 'Cyprianus
@@ -94,6 +111,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act16]
+    language: lat
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 259 as the date of the Passio SS. Montani et Lucii, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       An anonymous African martyrdom account. Its Latin names Cyprian as the teacher from whom the
       martyrs learned the faith (file line 5918, 'Cypriano docente') and looks back on the Decian

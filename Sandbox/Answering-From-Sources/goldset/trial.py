@@ -14,6 +14,14 @@ visible against it.
 
   python -m goldset.trial judge --judge verifier --model <id> --half calibration --out <verdicts.jsonl> --settings-only
   python -m goldset.trial score --half heldout --verdicts <v.jsonl> --verdicts <c.jsonl> --out <report.json>
+
+In plan, with no metered call: `export` writes each judge's exact prompt to
+one file per item, a Claude Code subagent on the judge's model writes each
+reply beside it, and `import` reads the replies into the same verdict rows a
+metered run writes.
+
+  python -m goldset.trial export --judge verifier --half calibration --dir <work dir>
+  python -m goldset.trial import --judge verifier --half calibration --dir <work dir> --model <name> --out <verdicts.jsonl>
 """
 import argparse
 import json
@@ -111,6 +119,32 @@ def run_judge(judge: str, model_id: str, items: list[dict], out: Path, client) -
             handle.flush()
 
 
+def export_prompts(judge: str, items: list[dict], work: Path) -> int:
+    (work / "prompts").mkdir(parents=True, exist_ok=True)
+    (work / "replies").mkdir(exist_ok=True)
+    for item in items:
+        text = f"SYSTEM\n{JUDGE_PROMPTS[judge]}\n\nUSER\n{judge_message(item)}\n"
+        (work / "prompts" / f"{item['item_id']}.{judge}.md").write_text(text, encoding="utf-8")
+    return len(items)
+
+
+def import_replies(judge: str, model: str, items: list[dict], work: Path) -> list[dict]:
+    """Verdict rows for every item with a reply; an unreadable reply is kept
+    with no judgement and counts as not judged."""
+    rows = []
+    for item in items:
+        path = work / "replies" / f"{item['item_id']}.{judge}.txt"
+        if not path.exists():
+            continue
+        reply = path.read_text(encoding="utf-8")
+        rows.append({
+            "item_id": item["item_id"], "judge": judge, "model_id": model, "prompt_sha256": sha256_text(JUDGE_PROMPTS[judge]),
+            "reply": reply, "judgement": parse_judgement(judge, reply, len(item["bindings"])),
+            "route": "in plan (Claude Code subagent), no metered call", "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        })
+    return rows
+
+
 def _rates(pairs: list[tuple[bool, bool]]) -> dict:
     """(gold unsupported, flagged) pairs: recall and precision on
     "unsupported", with the counts behind them."""
@@ -144,6 +178,15 @@ def gates_flag(item: dict) -> bool | None:
 
 
 def score(gold: list[dict], verdicts: dict[str, dict[str, dict]]) -> dict:
+    """The scores of score_origin, once for the natural items and once for
+    the constructed ones, never mixed. On constructed items, which are all
+    unsupported by construction, only recall and the per-class catch mean
+    anything."""
+    return {origin: score_origin([i for i in gold if i.get("origin", "natural") == origin], verdicts)
+            for origin in ("natural", "constructed")}
+
+
+def score_origin(gold: list[dict], verdicts: dict[str, dict[str, dict]]) -> dict:
     """Recall and precision on "unsupported" for each judge and for the
     current gates, overall and per class, on the gold items that carry a
     supported/unsupported label; agreement of each judge with the gold
@@ -207,9 +250,27 @@ def main(argv: list[str] | None = None) -> int:
     scoring.add_argument("--half", choices=(CALIBRATION, HELDOUT), required=True)
     scoring.add_argument("--verdicts", type=Path, action="append", required=True)
     scoring.add_argument("--out", type=Path)
+    for name in ("export", "import"):
+        p = sub.add_parser(name)
+        p.add_argument("--judge", choices=sorted(JUDGE_PROMPTS), required=True)
+        p.add_argument("--half", choices=(CALIBRATION, HELDOUT), required=True)
+        p.add_argument("--dir", type=Path, required=True)
+        p.add_argument("--items", type=Path, help="judge these items (the seed controls, say) instead of a gold half")
+        if name == "import":
+            p.add_argument("--model", required=True, help="the model the subagents ran on, as named")
+            p.add_argument("--out", type=Path, required=True)
     args = parser.parse_args(argv)
 
-    gold = read_jsonl(gold_path(args.half))
+    gold = read_jsonl(args.items if getattr(args, "items", None) else gold_path(args.half))
+    if args.command == "export":
+        print(json.dumps({"prompts_written": export_prompts(args.judge, gold, args.dir)}))
+        return 0
+    if args.command == "import":
+        rows = import_replies(args.judge, args.model, gold, args.dir)
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text("".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in rows), encoding="utf-8")
+        print(json.dumps({"items": len(gold), "replies": len(rows), "unreadable": sum(r["judgement"] is None for r in rows)}))
+        return 0
     if args.command == "score":
         verdicts: dict[str, dict[str, dict]] = {}
         for path in args.verdicts:

@@ -161,26 +161,30 @@ def test_a_cut_typed_quotation_leaves_no_stray_quotation_mark(world, q):
     assert not _replayed(world, q)["text"].rstrip().endswith('"')
 
 
-def test_a_quote_the_net_refuses_does_not_take_the_replys_one_place():
+def test_a_quote_whose_lead_in_names_no_one_is_placed_under_codes_lead_in_and_takes_the_one_place():
     # ijc Q4: the Leo quote's lead-in ("He wrote of one Mediator...") names
-    # no one, so it is refused; the Chalcedon definition, offered and next,
-    # is placed under a lead-in that names the council
+    # no one; code writes the lead-in from the record's speaker and places
+    # it. It is then the reply's one quote, so the Chalcedon definition,
+    # offered next, is the second and goes
     net_result = _replayed("ijc", 4)["first_net"]
-    assert net_result["reply_shape"]["placed"] == ["ijc.quote.chalcedon-definition"]
+    assert net_result["reply_shape"]["placed"] == ["ijc.quote.leo-tome-each-form"]
+    repair = net_result["reply_shape"]["repaired"]
+    assert [r["draft"] for r in repair if "leo-tome-each-form" in r["draft"]] and repair[0]["lead_in"].startswith("In today's English, ")
     whys = [(r["draft"], r["why"]) for r in net_result["reply_shape"]["removed"]]
-    assert [why for draft, why in whys if "leo-tome-each-form" in draft] == [grounding_net.REASON_SPEAKER_UNNAMED]
-    assert not [why for _draft, why in whys if why == "second placed quote in one reply"]
+    assert [why for draft, why in whys if "chalcedon-definition" in draft] == ["second placed quote in one reply"]
 
 
 def test_quotes_whose_lead_in_names_another_person_are_refused():
     # hal Q4: eyes-of-faith is introduced as Paula's words (Jerome's record),
-    # and hail-bethlehem after "Then she cried out": both name Paula, and the
-    # speaker of both records is Jerome
+    # and hail-bethlehem after "Then she cried out": the speaker of both
+    # records is Jerome. A lead-in that names Paula is refused; one that
+    # names no one is given code's lead-in, which names Jerome.
     net_result = _replayed("hal", 4)["first_net"]
-    assert net_result["reply_shape"]["placed"] == []
+    assert net_result["reply_shape"]["placed"] == ["hal.quote.hail-bethlehem"]
+    assert net_result["reply_shape"]["repaired"][0]["lead_in"] == "In today's English, Jerome says"
     whys = [(r["draft"], r["why"]) for r in net_result["reply_shape"]["removed"]]
     assert [why for draft, why in whys if "eyes-of-faith" in draft] == [REASON_PLACED_MISMATCH]
-    assert [why for draft, why in whys if "hail-bethlehem" in draft] == [grounding_net.REASON_SPEAKER_UNNAMED]
+    assert not [why for draft, why in whys if "hail-bethlehem" in draft]
 
 
 def test_a_removed_marker_sentence_is_reported_once():
@@ -267,10 +271,12 @@ def test_the_replay_over_all_66_drafts():
     # lead-in names no speaker (9 lead-ins), and cuts desert Q4's direct
     # speech of the Antony formula as that quote's words (2 sentences that
     # had stood); hal Q4's lead-in, listed as an overcut, names Paula for
-    # Jerome's record and goes with its quote.
-    assert counts["cuts"] == 56
+    # Jerome's record and goes with its quote. Code then writes the lead-in
+    # for a quote whose lead-in names no speaker, so those
+    # lead-ins no longer cost a cut: 8 fewer cuts, 8 more quotes placed.
+    assert counts["cuts"] == 48
     assert counts["overcuts_still_cut"] == 6
-    assert counts["placed_quotes"] == 4 and counts["placed_without_speaker_named"] == 0
+    assert counts["placed_quotes"] == 12 and counts["placed_without_speaker_named"] == 0
     assert counts["stray_punctuation_sentences"] == 1
 
 

@@ -18,6 +18,7 @@ work: "Prologue to the translation of Origen's De Principiis (c. 398) - in which
 edition: "Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml (Prologue of Rufinus at line 22273)"
 citation: Rufinus, Prologue to the translation of Origen's De Principiis, Ante-Nicene Fathers vol. 4 (1885)
 kind: vendored
+shelf_row: anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; anf04 was one of two volumes this world had never opened"

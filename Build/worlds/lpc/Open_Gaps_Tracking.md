@@ -2390,3 +2390,125 @@ Logged 2026-10-29.
 - **Open.** See `Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md` and `lpc_Decision_Log.md`, 2026-10-29, "Live test lpc go-live rerun 1". Record side: rewrite the two "held as Contested" lines in the world core; move the corpus counts and "We have not yet weighed them" out of fields the voice speaks; narrow the retrieval triggers of `lpc.quote.bishop-of-bishops` and `lpc.witness.remembered-at-the-altar`; add questions that test the four fixes the battery did not touch.
 - **Engine, not this thread's.** Removal of sentences that gutted answers, withheld uncited claims still shipping, no check of a quote's lead-in against its claim guards, no output checks for cautions 14, 15 and 17.
 - **Owner.** This thread for the records; the engine threads for the rest. Unspent: $1.45 of the "lpc go-live rerun 1" cap, not carried to any other use.
+
+### OG-114. The Numidicus telling names a source for the "unconquered" variant that the vendored text does not give (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Open.** `lpc.story.numidicus` (`telling`, and the same sentence in `text`) says "One manuscript and the older printed editions read unconquered." The vendored text (`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`, Ep. XXXIV, about line 32111) gives only the variant (its note reads: Otherwise, "unconquered") and does not say where it comes from. The sentence needs a source, or softening to "another reading has", as the new reviewed tellings already say (`Build/Ministry/Features/Answering-From-Sources/S3-Stories/Tellings/Review_Notes.md`).
+- **Not edited now.** A record edit stales the lpc package; it waits for the record stage (project lead, 2026-10-30).
+- **Owner.** This thread, at the record stage.
+
+### OG-115. OG-114 closed: the unsourced "unconquered" sentence removed from the Numidicus telling (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The sentence was removed from `lpc.story.numidicus` `telling` under the no-unprompted-absence-statements ruling (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entries 18 and 19). The same sentence remains in the record's `text`, the source-side recast, which this edit did not touch.
+- **Open.** The Election closing paragraph on the single-source and praise caveats is held for Mark (same Decision-Log entry 19).
+- **Owner.** Project lead, for the held paragraph.
+
+### OG-116. OG-115 closed: Election caveat paragraph resolved and the two story closings reworded (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The held Election paragraph is removed and its two guards carried by a positive attribution; the Numidicus and Election closings are reworded (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 20).
+- **Open.** `lpc.story.numidicus` `text` still reads "Where she searched, the letter does not say", and `lpc.story.election-of-cyprian` `text` still reads "Pontius did not soften this -- he pressed it". `text` is the source-side recast and was outside the ruling; the project lead decides whether it follows the telling.
+- **Owner.** Project lead.
+
+### OG-117. OG-116 closed: the two `text` fields follow the tellings (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The old wording is removed from both `text` fields (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 21).
+- **Open.** Four of the other five lpc story records carry one absence statement each in `telling` or `text` (listed in entry 21). They are edited with their new tellings, with a guard check first.
+- **Owner.** This thread (engine), at the tellings job.
+
+### OG-118. OG-117 closed: the five other lpc story records follow the no-absence rule (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** The absence statements are out of the `telling` and `text` of the five records (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 25). All seven lpc story records now follow the rule.
+- **Open.** Other record types (figures, terms, honest limits, witnesses) were not scanned for the same pattern; an `absent_detail` or `honest_limit` is a deliberate answer to a direct question and stays.
+- **Owner.** Project lead, to say whether a scan of the other record types is wanted.
+
+
+### OG-119. The surgeon's-knife quote record has no "no warrant for striking anyone today" line (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Open.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` carries "if need be with scourges". Its `not_for` says the blows are not a church penalty, but, unlike `lpc.quote.love-and-do-what-thou-wilt`, it has no line against using the passage to excuse striking a child or anyone today. Found by the fresh reviewer of the six fit traps (`Build/Ministry/Features/Answering-From-Sources/S3-Test100/Change_Order_Fit_Traps.md`).
+- **Not done.** A record edit, which stales lpc's package and needs a re-pin, so it is not made quietly. Whether to add the line is a record decision.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-120. OG-119 closed: the surgeon's-knife quote record carries the no-warrant guard (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` has the `not_for` line "a warrant for striking a child or anyone today", word for word the love quote's (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 32). A fresh Opus guard check and nothing-added check passed; lpc repinned to 2026-10-30T22-41-23Z.
+- **Open.** The love quote also carries a matching `claim_guards` line; this record does not. Not added; the reviewer called it a separate choice.
+- **Open.** lpc's registered `story_placement` flag is off, so the story door does not place a story in the live path. The shadow run turns it on in memory. Turning it on for lpc in production is a change for the project lead.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-121. The net cited a placed quote's lead-in tags: fixed (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Closed.** A sentence code composed around a placed quote now cites that quote's record id alone. Before, an unverified tag in the lead-in reached the citation list. Fixed on Mark's own ask (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 36), pull request 1375.
+- **Open.** Nothing stops a future record id from starting with `ctx.`, the prefix the fit step reserves for context blocks. A loader or id check refusing the prefix would close it.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-122. q086 ships an empty answer in the early pass (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open.** In the early pass on the 106 questions (`Build/Ministry/Features/Answering-From-Sources/S3-Test100/Early_Pass_Report.md`), the bare message "just answer yes or no" ships an empty answer, with no sentences and no removal recorded, although the voice's draft was a plain decline. It reproduces on a clean re-run of that question. Cause not found.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-123. OG-118 closed: absence statements out of the fields the voice and participants see (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Closed.** Done under Mark's corrected ruling (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 37): 15 sentences or clauses removed from eleven witness `text` fields and the hover gloss of two terms. Two further removals were undone after the Opus review and stay as caveats (confessor-claim-vs-regulated-peace, no-one-may-take-his-own-life). lpc repinned to 2026-10-31T02-58-38Z.
+- **Open.** Other worlds were not scanned. Mark's order: only after the lpc result, through the coordination thread.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-124. Absence statements remain in lpc build-note fields and record bodies (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open.** 40 flagged sentences stay in fields the voice does not see: 21 in witness `tensions`, 2 in witness `positions`, 17 in term `senses` other than the hover gloss (one of them, in the-people, ruled not an absence statement). Mark ruled them out of the OG-118 fix (entry 37). Many sit beside a `not_for` or `claim_guards` line that says the same thing, and some hold the reviewer-facing reason for a guard.
+- **Open.** Record bodies hold 19 further absence statements in term and witness build notes, plus one each in the celerinus, cyprian, numidicus and possidius figure bodies. Not spoken. Coordination-level (AI-reviewed, not Mark's): out of scope for the rule.
+- **Open.** Build notes inside records may conflict with the live-surface rule (no notes or process narration in `records/`). To be checked later with `tools/check_live_commentary.py`; not fixed here.
+- **Open.** The two scan readers disagreed on whether `senses` and `tensions` reach the model; the registry settles it for the voice (`engine/m1/spoken_fields.py`), but the net's grounding text (`engine/prose.py`) still includes them. Whether the net should keep scanning them is a separate question.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-125. OG-122 closed; judge evidence pack fixed (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Closed.** OG-122: the engine set the voice's turn aside as designed; the answerer ignored the flag and shipped the empty text. Fixed in PR #1382 (answerer substitutes the voice-rejected turn; harness admission checks the flag).
+- **Closed.** The judge evidence pack left out fields the voice is shown; fixed in PR #1383. The early-pass figure of 100 unsupported gate-kept sentences was overstated; 58 with the fixed pack (`Early_Pass_Report.md`, Decision-Log entry 39).
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-126. Gold labels on world-core and story records were made with the old judge pack (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open.** Gold labels for world-core and story items were made with the old pack. On 30 such items the fixed-pack judges disagree with 6 of the 13 gold-unsupported labels, and in five of the six read, both judges quote a field the old pack hid. These items need re-labelling before the held-out recall and false-alarm numbers are claimed for those record types.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-127. The mixed-voice speaker check runs on no lpc file (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open, not fixed now.** `engine/m10/quotes.py` runs its mixed-voice speaker check only on files that have at least one row with `voice_of`. After CO-S2-4 (`voice_of` set only where a party is ruled) none of lpc's 215 corpus-map rows carries it, so the check runs on no lpc file. Across the fleet one row of 3,875 carries `voice_of`.
+- **Reasoning.** Tried widening the check to every non-tradition row (context, antecedent, transmission), on lpc's 157 checked quotations: 3 findings, all in `Source_Registry.md` — two from the Codex Theodosianus web edition's own editorial disclaimer, one a modern essay quoting the votes of the 87 bishops. None presents a rival party's words as the tradition's. Where that risk is real, `engine/m9/confinement.py` (`gate_voicing_pair`) already flags an emic record citing a non-tradition row with no `voice_of`. A wider rule would change a fleet gate across 1,397 context rows for no harm found in lpc.
+- **No waiver.** The `ACCEPTED_OPEN` registers (`engine/m1/cross_world.py`, `engine/m9/enforce.py`) waive findings a run emits. This is a check that does not run, so no run emits a finding for it and no waiver key exists; an entry would be a stale waiver and fail the run. It is tracked here instead.
+- **Reopen when** a Step document quotes a non-tradition file as the tradition's voice, or another world's run of the widened rule finds a real case. The experiment's one-line change is `mixed = [r for r in file_rows if r.get("voice_of") or r.get("role") not in (None, "", "tradition")]`.
+- **Owner.** Project lead, through the coordination thread; the Library thread owns `engine/m10/quotes.py`.
+
+### OG-128. Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01 (2026-10-29)
+
+Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Cyprian's *Address to Demetrianus* and *On the Vanity of Idols* (ascribed to Cyprian), which both shelves hold. This world's records also cite Tertullian's *On Modesty* chapter XXII as comparandum evidence (`lpc.source.tertullian-de-pudicitia`, used by `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace`), and the work is on the Latin Apologists' shelf. Whether the two worlds hold the shared works at the same weight is a cross-world question. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+- **Open.** Owner: this world's thread.

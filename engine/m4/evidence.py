@@ -42,6 +42,7 @@ import re
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
+from engine.m4 import fit_step
 from engine.m4.citation_cards import _quote_speaker_label
 from engine.m4.grounding_net import QuotationIndex, scope_completion
 from engine.m4.rhythm import RhythmTally
@@ -1586,6 +1587,7 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append("scope completion")
         if candidate["record_type"] == "quote":
             lines.append(_quote_line(candidate, descriptors))
+            lines += fit_step.context_lines(candidate)
             continue
         if candidate.get("used_in_round"):
             how, round_no = candidate["used_in_round"]
@@ -1611,6 +1613,7 @@ def render_evidence_block(evidence: dict) -> str:
         if candidate.get("absent_detail"):
             line += " | NOT KNOWN: " + candidate["absent_detail"]
         lines.append(line)
+        lines += fit_step.context_lines(candidate)
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])
         lines.append(f"- THIN GROUND (do not claim past it): {keywords} — {topic.get('note')}")

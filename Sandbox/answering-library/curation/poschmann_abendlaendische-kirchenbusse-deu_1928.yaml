@@ -1,7 +1,7 @@
 file: poschmann_abendlaendische-kirchenbusse-deu_1928.txt
 scheme: 'Poschmann''s parts printed as roman numerals I to IV with titles (Einleitung and Schluss unnumbered); part I with sections 1 to 4 (the Roman, Gallic, Spanish and African churches) and lettered sub-sections a. to f. under sections 1 and 2; part IV with the two printed headings Gregor I. and Isidor von Sevilla; Vorwort and the two registers as printed'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 140
     locus: vorwort

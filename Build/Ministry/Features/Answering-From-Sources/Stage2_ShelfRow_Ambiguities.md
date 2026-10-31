@@ -1,5 +1,12 @@
 # Shelf-row ambiguities and off-shelf records
 
+## Migration status (2026-10-29, paused for allowance)
+
+- Merged: alx (#1281), cappadocian (#1283), desert (#1289), don (#1298), gallic (#1305).
+- Parked as a draft pull request: hal (#1315), CI had not finished when work stopped; mark ready and merge once green.
+- Remaining, in order: ijc (20, 33), pahc (16, 12), rzg (2, 0), syr (10, 39), witt (15, 0), then fix and lpc (the lpc branch holds 3 off-shelf records to rule on). Pairs are shelf-row and voicing-pair waiver counts from the earlier plan; rerun the pointer script to confirm before each.
+- Worlds aec, hus, jes, meth, obel, wsyr have no source records to point.
+
 ## lpc
 
 ### Ambiguous (25)
@@ -1112,6 +1119,309 @@ None.
   - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-letters-of-sulpitius-severus`
   - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica`
   - `npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins`
+
+### Off-shelf (0)
+
+None.
+
+## hal
+
+### Ambiguous (21)
+
+- `hal.source.attack-letters-416`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-against-jovinianus`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-against-pelagians`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-apology-rufinus`: 7 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-2`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--rufinus-apology-in-defence-of-himself-apologia-ad-anastasium`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--the-apology-of-rufinus-against-jerome-to-apronianus`
+- `hal.source.jerome-augustine-letters`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-de-viris`: 7 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-2`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--rufinus-apology-in-defence-of-himself-apologia-ad-anastasium`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--the-apology-of-rufinus-against-jerome-to-apronianus`
+- `hal.source.jerome-ep107`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep108`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep125`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep127`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep22`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep39`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep45`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep46`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep57`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-ep77`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-marcella-letters`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-vita-hilarionis`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.jerome-vita-malchi`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
+- `hal.source.rufinus-apology`: 7 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf203_theodoret-jerome-gennadius-rufinus--letter-of-anastasius-to-john-of-jerusalem-concerning-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-2`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--jerome-s-apology-for-himself-against-the-books-of-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--lives-of-illustrious-men-de-viris-illustribus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--pamphilus-defence-of-origen-rufinus-translation-with-rufinus`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--rufinus-apology-in-defence-of-himself-apologia-ad-anastasium`
+  - `npnf203_theodoret-jerome-gennadius-rufinus--the-apology-of-rufinus-against-jerome-to-apronianus`
+- `hal.source.vulgate-prefaces`: 14 rows share the file; neither work text nor id slug matches exactly one. Candidates:
+  - `npnf206_jerome-principal-works--against-jovinianus`
+  - `npnf206_jerome-principal-works--against-vigilantius`
+  - `npnf206_jerome-principal-works--against-the-pelagians`
+  - `npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula`
+  - `npnf206_jerome-principal-works--letter-xxii-to-eustochium-on-virginity`
+  - `npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas`
+  - `npnf206_jerome-principal-works--prefaces-to-jerome-s-early-works-the-vulgate-old-testament`
+  - `npnf206_jerome-principal-works--the-dialogue-against-the-luciferians`
+  - `npnf206_jerome-principal-works--the-letters-of-st-jerome`
+  - `npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk`
+  - `npnf206_jerome-principal-works--the-life-of-paulus-the-first-hermit`
+  - `npnf206_jerome-principal-works--the-life-of-s-hilarion`
+  - `npnf206_jerome-principal-works--the-perpetual-virginity-of-blessed-mary-against-helvidius`
+  - `npnf206_jerome-principal-works--to-pammachius-against-john-of-jerusalem`
 
 ### Off-shelf (0)
 

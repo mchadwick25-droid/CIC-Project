@@ -32,6 +32,17 @@ scrub and before quote placement:
   placement that the reply did not place, goes: the story reaches a
   participant only as its own telling.
 
+A story record may carry two shorter reviewed tellings, `telling_short` and
+`telling_medium`, beside its full `telling`. The marker may name the length:
+`[[story:<id>:short]]`, `:medium` or `:full`. The voice chooses; code checks. A
+missing or unknown length is medium, or full when the record has no medium. A
+short or medium telling that does not fit the words left in the reply (the room
+is REPLY_WORD_ROOM less the words the voice itself wrote) falls to the next
+shorter length the record has, and stays at the shortest it has. A full telling
+is not checked for room, since the voice is told to ask for it only when the
+participant asks for the story itself. A record with no shorter tellings places
+its full telling, as before. The length told is returned in "placed_lengths".
+
 Each placed sentence is returned in "placed_sentences", and the grounding
 net verifies it against the telling word for word
 (grounding_net._placed_story_verdict). Quote placement then runs over the
@@ -78,16 +89,25 @@ _SPEECH = re.compile(
 )
 _COMMUNITY = re.compile(r"\b(?:we|us|our|ours)\b", re.IGNORECASE)
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
-_STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
+_STORY_MARKER_ID = re.compile(r"\[\[\s*story\s*:\s*([a-z0-9_.-]+)\s*(?::\s*([a-z0-9_.-]*)\s*)?\]\]", re.IGNORECASE)
 _CLOSING = re.compile(r"([.!?]+[\"'”’)]*)\s*$")
 
 REASON_STORY_NOT_OFFERED = "story record not offered for placement this turn"
+
+LENGTHS = ("short", "medium", "full")
+REPLY_WORD_ROOM = 220
+_LENGTH_FIELD = {"short": "telling_short", "medium": "telling_medium", "full": "telling"}
 REASON_SECOND_STORY = "second placed story in one reply"
 REASON_STORY_INTRO = "introduction names someone the story does not"
 REASON_STORY_PARAPHRASE = "tells an offered story without placing it"
 MAX_PLACED_STORIES_PER_REPLY = 1
 
 STORY_OFFERS_LINE = "Stories you may place this turn, and no others: {offers}."
+STORY_LENGTH_LINE = (
+    "Name the length after the id when you choose one: [[story:id:short]], [[story:id:medium]] or [[story:id:full]]. "
+    "Choose medium unless there is a reason. Choose short when the story is an example inside a reply that also says "
+    "other things. Choose full only when the participant asks for the story itself and nothing else."
+)
 STORY_PLACE_LINE = (
     "To tell one, write one sentence of your own that names who or what it is about, and end it with its "
     "marker (\"Our sayings tell of Abba Moses at Scete: [[story:id]]\" is the shape). Code sets the whole story "
@@ -99,7 +119,7 @@ def with_placeable_stories(turn_evidence: dict, repository_records: dict[str, di
     """The evidence with each story that may be placed marked `placeable`:
     one with a telling, not already told in this conversation."""
     candidates = [
-        {**c, "placeable": True}
+        {**c, "placeable": True, "lengths": {name: len(text.split()) for name, text in story_texts(repository_records[c["id"]]).items()}}
         if c["record_type"] == "story" and not c.get("used_in_round") and not c.get("already_told_this_session")
         and ((repository_records.get(c["id"]) or {}).get("telling") or "").strip()
         else c
@@ -108,13 +128,45 @@ def with_placeable_stories(turn_evidence: dict, repository_records: dict[str, di
     return {**turn_evidence, "candidates": candidates}
 
 
+def story_texts(record: dict) -> dict[str, str]:
+    """The tellings a story record has, by length: the full `telling`, and
+    `telling_short` and `telling_medium` where the record carries them."""
+    texts = {name: (record.get(field) or "").strip() for name, field in _LENGTH_FIELD.items()}
+    return {name: text for name, text in texts.items() if text}
+
+
 def story_lines(offers: list[dict]) -> list[str]:
     """The directive's story lines: the stories this reply may place, by
-    marker and what each is about; none when no story may be placed."""
+    marker, what each is about and the lengths each has; none when no story
+    may be placed. The length line appears only when an offered story has more
+    than one length."""
     if not offers:
         return []
-    listed = "; ".join(f"[[story:{c['id']}]] ({' '.join((c.get('head') or '').split())})" for c in offers)
-    return [STORY_OFFERS_LINE.format(offers=listed), STORY_PLACE_LINE]
+
+    def listed_one(c: dict) -> str:
+        lengths = c.get("lengths") or {}
+        sizes = ", ".join(f"{name} {lengths[name]} words" for name in LENGTHS if name in lengths) if len(lengths) > 1 else ""
+        return f"[[story:{c['id']}]] ({' '.join((c.get('head') or '').split())}{'; ' + sizes if sizes else ''})"
+
+    lines = [STORY_OFFERS_LINE.format(offers="; ".join(listed_one(c) for c in offers))]
+    if any(len(c.get("lengths") or {}) > 1 for c in offers):
+        lines.append(STORY_LENGTH_LINE)
+    lines.append(STORY_PLACE_LINE)
+    return lines
+
+
+def choose_length(record: dict, requested: str | None, room: int) -> str:
+    """The length to place: the one asked for when the record has it, else
+    medium (full when there is no medium); a short or medium that does not fit
+    `room` words falls to the next shorter the record has."""
+    texts = story_texts(record)
+    want = requested if requested in texts else ("medium" if "medium" in texts else "full")
+    while want != "full" and len(texts[want].split()) > room:
+        shorter = [name for name in LENGTHS[: LENGTHS.index(want)] if name in texts]
+        if not shorter:
+            break
+        want = shorter[-1]
+    return want
 
 
 def place_stories(tagged_text: str, *, repository_records: dict[str, dict], context: PlacementContext) -> dict:
@@ -125,10 +177,12 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
     sentence as the voice wrote it, marker included), "removed"}."""
     report = _Report()
     placed: list[str] = []
+    placed_lengths: dict[str, str] = {}
+    room = REPLY_WORD_ROOM - len(strip_tags(STORY_MARKER.sub("", tagged_text or "")).split())
     paragraphs_out: list[list[str]] = []
     unplaced = context.offered_stories - context.told_stories
     if not STORY_MARKER.search(tagged_text or "") and not unplaced & set(_TAG.findall(tagged_text or "")):
-        return {"text": tagged_text or "", "placed": [], "placed_sentences": {}, "placed_drafts": {}, "removed": []}
+        return {"text": tagged_text or "", "placed": [], "placed_lengths": {}, "placed_sentences": {}, "placed_drafts": {}, "removed": []}
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
         kept: list[str] = []
@@ -144,7 +198,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
             sealed = frozenset(placed)
             lead = sentence[: marker.start()].strip()
             drafted = sentence[: marker.end()].strip()
-            reason, record = _story_verdict(marker.group(0), repository_records, context, len(placed))
+            reason, record, requested = _story_verdict(marker.group(0), repository_records, context, len(placed))
             if reason is None and not lead:
                 lead = _take_lead_in(kept, paragraphs_out, sealed)
                 drafted = f"{lead} {drafted}".strip()
@@ -158,7 +212,9 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
                 if kept:
                     paragraphs_out.append(kept)
                 kept = []
-                for block in _telling_paragraphs(record):
+                length = choose_length(record, requested, room)
+                placed_lengths[record["id"]] = length
+                for block in _telling_paragraphs(record, story_texts(record)[length]):
                     for tagged in block:
                         report.placed_sentences[placed_key(strip_tags(tagged))] = record["id"]
                     paragraphs_out.append(block)
@@ -181,6 +237,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
     return {
         "text": "\n\n".join(" ".join(p) for p in paragraphs_out if p),
         "placed": placed,
+        "placed_lengths": placed_lengths,
         "placed_sentences": report.placed_sentences,
         "placed_drafts": report.placed_drafts,
         "removed": report.removed,
@@ -189,20 +246,22 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
 
 def _story_verdict(
     marker: str, repository_records: dict[str, dict], context: PlacementContext, placed_so_far: int
-) -> tuple[str | None, dict | None]:
-    """(reason it cannot be placed, None) or (None, the story record)."""
+) -> tuple[str | None, dict | None, str | None]:
+    """(reason it cannot be placed, None, None) or (None, the story record,
+    the length the marker names, lower case, or None when it names none)."""
     found = _STORY_MARKER_ID.fullmatch(marker)
     record_id = found.group(1).lower() if found else None
+    requested = (found.group(2) or "").lower() or None if found else None
     record = repository_records.get(record_id) if record_id else None
     if record is None or record.get("record_type") != "story" or not (record.get("telling") or "").strip():
-        return REASON_STORY_NOT_OFFERED, None
+        return REASON_STORY_NOT_OFFERED, None, None
     if record_id in context.told_stories:
-        return REASON_STORY_RETOLD, None
+        return REASON_STORY_RETOLD, None, None
     if record_id not in context.offered_stories:
-        return REASON_STORY_NOT_OFFERED, None
+        return REASON_STORY_NOT_OFFERED, None, None
     if placed_so_far >= MAX_PLACED_STORIES_PER_REPLY:
-        return REASON_SECOND_STORY, None
-    return None, record
+        return REASON_SECOND_STORY, None, None
+    return None, record, requested
 
 
 def _names(text: str) -> list[str]:
@@ -217,7 +276,7 @@ def _names(text: str) -> list[str]:
 
 
 def _story_text(record: dict) -> str:
-    return " ".join(filter(None, [record.get("telling"), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
+    return " ".join(filter(None, [*story_texts(record).values(), record.get("tellable_as"), (record.get("use_note") or {}).get("means")]))
 
 
 # A record id or file name ("desert.figure.antony", "budge1907.txt") is no
@@ -296,12 +355,12 @@ def _story_intro(lead: str, record_id: str) -> str:
     return f"{intro[:-1]} [[{record_id}]]:"
 
 
-def _telling_paragraphs(record: dict) -> list[list[str]]:
-    """The record's telling as paragraphs of sentences, each sentence tagged
+def _telling_paragraphs(record: dict, telling: str) -> list[list[str]]:
+    """A telling of the record as paragraphs of sentences, each sentence tagged
     with the record before its closing punctuation."""
     tag = f" [[{record['id']}]]"
     out = []
-    for paragraph in _PARAGRAPH_BREAK.split(record["telling"].strip()):
+    for paragraph in _PARAGRAPH_BREAK.split(telling.strip()):
         block = []
         for sentence in parse_tagged(paragraph):
             raw = sentence["raw"].strip()

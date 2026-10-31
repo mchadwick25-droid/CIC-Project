@@ -1,0 +1,24 @@
+source_file: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
+authors_ruled:
+  schanz-hosius-krueger:
+    kind: metadata-omission
+    evidence: Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page names Martin Schanz, Carl Hosius and Gustav Krueger as the handbook authors (file header and title page). A mechanical index-coverage gap, not an attribution dispute.
+    from_file: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
+assignments:
+- row_id: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922--schanz-hosius-krueger-geschichte-der-roemischen-litteratur
+  work: Schanz-Hosius-Krueger, Geschichte der roemischen Litteratur, Teil 3 (3rd ed., 1922)
+  author: schanz-hosius-krueger
+  locus: whole file
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Modern German handbook, role context, not tradition. Read for the dating of Minucius Felix (paragraphs 654-656), where it declines to choose between the proposed dates. Consultation only: no world''s own voice.'
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
+  language: deu
+  date:
+    start: 1922
+    end: 1922
+    source: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
+    formation_confidence: Documented

@@ -49,6 +49,7 @@ from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import REASON_HORIZON, check_horizon, ungrounded_horizon_mentions
+from engine.m4.leadin_support import shelf_files
 from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
@@ -338,7 +339,10 @@ def apply_net(
     every marker is removed with its sentence. quotable_texts are the words
     the participant side said, which a reply may repeat in quotation marks.
     net_result carries "reply_shape": the quote records placed, and each
-    sentence removed with why. Each sentence verdict, and each sentence
+    sentence removed with why, "repaired": each quote whose lead-in code
+    wrote because the voice's named no speaker or stated a detail no source
+    document supports, and "leadin_support": for each placed quote whose
+    lead-in states details, the source span supporting each. Each sentence verdict, and each sentence
     removed, carries "draft": the sentence as the voice wrote it, tags and
     quote marker included. Only ok-verdict sentences' tags become
     citations.
@@ -376,6 +380,7 @@ def apply_net(
             **shaped,
             "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
             "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
+            "story_lengths": stories["placed_lengths"],
         }
         removed = [*stories["removed"], *shaped["removed"]]
     tagged = shaped["text"]
@@ -417,7 +422,12 @@ def apply_net(
     net_result["reply_shape"] = {
         "placed": list(dict.fromkeys(rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown)),
         "removed": removed,
+        "repaired": shaped.get("repaired", []),
     }
+    if support := {rid: spans for rid, spans in shaped.get("leadin_support", {}).items() if rid in net_result["reply_shape"]["placed"]}:
+        net_result["reply_shape"]["leadin_support"] = support
+    if story_lengths := {rid: length for rid, length in shaped.get("story_lengths", {}).items() if rid in net_result["reply_shape"]["placed"]}:
+        net_result["reply_shape"]["story_lengths"] = story_lengths
     text = grounding_net.shown_text(tagged, net_result["sentences"])
     citations = [
         {"sentence": s["sentence"], "record_ids": s["tags"]}
@@ -743,7 +753,7 @@ def _run_ordinary_voice_turn(
     placement = PlacementContext(
         offered=frozenset(prepared.offered_ids.get("quote", [])),
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
-        offered_stories=frozenset(prepared.offered_stories),
+        offered_stories=frozenset(prepared.offered_stories), shelf_files=shelf_files(world.world_key),
     )
     _net = functools.partial(
         apply_net, quotable_texts=echo_sources, placement=placement, window_end=(world.frame.get("time_window") or {}).get("end"),

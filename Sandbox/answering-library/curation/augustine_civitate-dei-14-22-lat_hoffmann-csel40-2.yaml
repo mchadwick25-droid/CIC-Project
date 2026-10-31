@@ -2,7 +2,7 @@ file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
 scheme: 'Hoffmann''s book and chapter numbers: each book opens with its printed heading LIBER and the Roman numeral (books XIV to XXII), and each chapter with the heading CAPUT and its Roman numeral; Hoffmann''s page and line
   numbers in the margin are not used for addresses'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: b14
   pattern: .

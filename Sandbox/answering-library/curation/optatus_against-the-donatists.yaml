@@ -1,7 +1,7 @@
 file: optatus_against-the-donatists.txt
 scheme: 'Optatus Books I to VII (printed BOOK THE FIRST to BOOK THE SEVENTH) with the chapters printed as roman numerals in each book; the Appendix documents printed as APPENDIX I to XVI; Appendix II (Gesta apud Zenophilum) prints no numbered divisions and stands as one unit'
 curator: Sonnet 5.5
-status: needs-redo
+status: sampled-ok
 rules:
   - id: book
     pattern: '^BOOK THE (?P<b>FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)$'
@@ -13,16 +13,24 @@ rules:
     lines: [26, 5028]
     locus: 'ch{c|int}'
     number: c
+  - id: book3appendix
+    parent: book
+    pattern: '^APPENDIX TO BOOK III\.'
+    lines: [2294, 2294]
+    division: false
+    locus: 'appendix'
   - id: appendix
     pattern: '^APPENDIX[ -]*(?P<a>[IVXLC]+)\b'
     lines: [5467, 7375]
     locus: 'appendix{a|int}'
     number: a
     allow_oversize: 'Appendix II, the Gesta apud Zenophilum, is a single continuous record of one hearing in question and answer, and the edition prints no numbered division inside it'
-ignore:
-  - pattern: '^APPENDIX TO BOOK III\.\d+$'
-    kind: running-head
-    lines: [2294, 2294]
+expected_gaps:
+  - series: chapter
+    line: 1307
+    quote: 'XXVI. Matrons, boys and virgins'
+    reason:
+      head_unprinted: {between: [1233, 1307], line: 1257, quote: 'upon whose head thou hast now endeavoured'}
 apparatus:
   - lines: [20, 24]
     kind: front
@@ -74,3 +82,5 @@ evidence:
     quote: APPENDIX----II
   - line: 7366
     quote: APPENDIX XVI. A.D. 312 OR 313
+  - line: 2294
+    quote: 'APPENDIX TO BOOK III.'

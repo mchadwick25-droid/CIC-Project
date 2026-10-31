@@ -11,6 +11,47 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [doctrina/prologus, doctrina/book1, doctrina/book1/ch1, doctrina/book1/ch2,
+      doctrina/book1/ch3, doctrina/book1/ch4, doctrina/book1/ch5, doctrina/book1/ch6,
+      doctrina/book1/ch7, doctrina/book1/ch8, doctrina/book1/ch9, doctrina/book1/ch10,
+      doctrina/book1/ch11, doctrina/book1/ch12, doctrina/book1/ch13, doctrina/book1/ch14,
+      doctrina/book1/ch15, doctrina/book1/ch16, doctrina/book1/ch17, doctrina/book1/ch18,
+      doctrina/book1/ch19, doctrina/book1/ch20, doctrina/book1/ch21, doctrina/book1/ch22,
+      doctrina/book1/ch23, doctrina/book1/ch24, doctrina/book1/ch25, doctrina/book1/ch26,
+      doctrina/book1/ch27, doctrina/book1/ch28, doctrina/book1/ch29, doctrina/book1/ch30,
+      doctrina/book1/ch31, doctrina/book1/ch32, doctrina/book1/ch33, doctrina/book1/ch34,
+      doctrina/book1/ch35, doctrina/book1/ch36, doctrina/book1/ch37, doctrina/book1/ch38,
+      doctrina/book1/ch39, doctrina/book1/ch40, doctrina/book2, doctrina/book2/ch1,
+      doctrina/book2/ch2, doctrina/book2/ch3, doctrina/book2/ch4, doctrina/book2/ch5,
+      doctrina/book2/ch6, doctrina/book2/ch7, doctrina/book2/ch8, doctrina/book2/ch9,
+      doctrina/book2/ch10, doctrina/book2/ch11, doctrina/book2/ch12, doctrina/book2/ch13,
+      doctrina/book2/ch14, doctrina/book2/ch15, doctrina/book2/ch16, doctrina/book2/ch17,
+      doctrina/book2/ch18, doctrina/book2/ch19, doctrina/book2/ch20, doctrina/book2/ch21,
+      doctrina/book2/ch22, doctrina/book2/ch23, doctrina/book2/ch24, doctrina/book2/ch25,
+      doctrina/book2/ch26, doctrina/book2/ch27, doctrina/book2/ch28, doctrina/book2/ch29,
+      doctrina/book2/ch30, doctrina/book2/ch31, doctrina/book2/ch32, doctrina/book2/ch33,
+      doctrina/book2/ch34, doctrina/book2/ch35, doctrina/book2/ch36, doctrina/book2/ch37,
+      doctrina/book2/ch38, doctrina/book2/ch39, doctrina/book2/ch40, doctrina/book2/ch41,
+      doctrina/book2/ch42, doctrina/book3, doctrina/book3/ch1, doctrina/book3/ch2,
+      doctrina/book3/ch3, doctrina/book3/ch4, doctrina/book3/ch5, doctrina/book3/ch6,
+      doctrina/book3/ch7, doctrina/book3/ch8, doctrina/book3/ch9, doctrina/book3/ch10,
+      doctrina/book3/ch11, doctrina/book3/ch12, doctrina/book3/ch13, doctrina/book3/ch14,
+      doctrina/book3/ch15, doctrina/book3/ch16, doctrina/book3/ch17, doctrina/book3/ch18,
+      doctrina/book3/ch19, doctrina/book3/ch20, doctrina/book3/ch21, doctrina/book3/ch22,
+      doctrina/book3/ch23, doctrina/book3/ch24, doctrina/book3/ch25, doctrina/book3/ch26,
+      doctrina/book3/ch27, doctrina/book3/ch28, doctrina/book3/ch29, doctrina/book3/ch30,
+      doctrina/book3/ch31, doctrina/book3/ch32, doctrina/book3/ch33, doctrina/book3/ch34,
+      doctrina/book3/ch35, doctrina/book3/ch36, doctrina/book3/ch37, doctrina/book4,
+      doctrina/book4/ch1, doctrina/book4/ch2, doctrina/book4/ch3, doctrina/book4/ch4,
+      doctrina/book4/ch5, doctrina/book4/ch6, doctrina/book4/ch7, doctrina/book4/ch8,
+      doctrina/book4/ch9, doctrina/book4/ch10, doctrina/book4/ch11, doctrina/book4/ch12,
+      doctrina/book4/ch13, doctrina/book4/ch14, doctrina/book4/ch15, doctrina/book4/ch16,
+      doctrina/book4/ch17, doctrina/book4/ch18, doctrina/book4/ch19, doctrina/book4/ch20,
+      doctrina/book4/ch21, doctrina/book4/ch22, doctrina/book4/ch23, doctrina/book4/ch24,
+      doctrina/book4/ch25, doctrina/book4/ch26, doctrina/book4/ch27, doctrina/book4/ch28,
+      doctrina/book4/ch29, doctrina/book4/ch30, doctrina/book4/ch31]
+    language: lat
+    date: {start: 397, end: 426, source: "npnf102_augustine-city-of-god-christian-doctrine.xml div1 5 introductory note: books I-III written 397, book IV added 426; P1 agrees", formation_confidence: Widely Accepted}
     note: >
       Latin original standing behind the already-vendored NPNF1-02 English
       translation (Registry row 16). NOT a modern critical edition (Bruder's
@@ -26,6 +67,33 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [enchiridion, enchiridion/ch1, enchiridion/ch2, enchiridion/ch3, enchiridion/ch4,
+      enchiridion/ch5, enchiridion/ch6, enchiridion/ch7, enchiridion/ch8, enchiridion/ch9,
+      enchiridion/ch10, enchiridion/ch11, enchiridion/ch12, enchiridion/ch13, enchiridion/ch14,
+      enchiridion/ch15, enchiridion/ch16, enchiridion/ch17, enchiridion/ch18, enchiridion/ch19,
+      enchiridion/ch20, enchiridion/ch21, enchiridion/ch22, enchiridion/ch23, enchiridion/ch24,
+      enchiridion/ch25, enchiridion/ch26, enchiridion/ch27, enchiridion/ch28, enchiridion/ch29,
+      enchiridion/ch30, enchiridion/ch31, enchiridion/ch32, enchiridion/ch33, enchiridion/ch34,
+      enchiridion/ch35, enchiridion/ch36, enchiridion/ch37, enchiridion/ch38, enchiridion/ch39,
+      enchiridion/ch40, enchiridion/ch41, enchiridion/ch42, enchiridion/ch43, enchiridion/ch44,
+      enchiridion/ch45, enchiridion/ch46, enchiridion/ch47, enchiridion/ch48, enchiridion/ch49,
+      enchiridion/ch50, enchiridion/ch51, enchiridion/ch52, enchiridion/ch53, enchiridion/ch54,
+      enchiridion/ch55, enchiridion/ch56, enchiridion/ch57, enchiridion/ch58, enchiridion/ch59,
+      enchiridion/ch60, enchiridion/ch61, enchiridion/ch62, enchiridion/ch63, enchiridion/ch64,
+      enchiridion/ch65, enchiridion/ch66, enchiridion/ch67, enchiridion/ch68, enchiridion/ch69,
+      enchiridion/ch70, enchiridion/ch71, enchiridion/ch72, enchiridion/ch73, enchiridion/ch74,
+      enchiridion/ch75, enchiridion/ch76, enchiridion/ch77, enchiridion/ch78, enchiridion/ch79,
+      enchiridion/ch80, enchiridion/ch81, enchiridion/ch82, enchiridion/ch83, enchiridion/ch84,
+      enchiridion/ch85, enchiridion/ch86, enchiridion/ch87, enchiridion/ch88, enchiridion/ch89,
+      enchiridion/ch90, enchiridion/ch91, enchiridion/ch92, enchiridion/ch93, enchiridion/ch94,
+      enchiridion/ch95, enchiridion/ch96, enchiridion/ch97, enchiridion/ch98, enchiridion/ch99,
+      enchiridion/ch100, enchiridion/ch101, enchiridion/ch102, enchiridion/ch103, enchiridion/ch104,
+      enchiridion/ch105, enchiridion/ch106, enchiridion/ch107, enchiridion/ch108, enchiridion/ch109,
+      enchiridion/ch110, enchiridion/ch111, enchiridion/ch112, enchiridion/ch113, enchiridion/ch114,
+      enchiridion/ch115, enchiridion/ch116, enchiridion/ch117, enchiridion/ch118, enchiridion/ch119,
+      enchiridion/ch120, enchiridion/ch121, enchiridion/ch122]
+    language: lat
+    date: {start: 421, end: 430, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.2 introductory notice: written after Jerome's death (30 Sept 420); P1: 'in 421, or later'. End 430 is Augustine's death (Doc_01), not stated for this work", formation_confidence: Inferential-Thin}
     note: >
       Latin original standing behind the already-vendored NPNF1-03 English
       translation (Registry row 17). Same Maurist-text caveat as the

@@ -1,7 +1,7 @@
 file: vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt
-scheme: 'von Soden''s part I in five sections, printed as arabic numerals 1 to 5 with a full stop at the head of each section''s first paragraph; the sections carry no printed titles (the one printed heading, "Der Verlauf des Streites und die Chronologie seiner Dokumente", stands over section 1)'
+scheme: 'von Soden''s part I in five sections, printed as arabic numerals 1 to 5 with a full stop at the head of each section''s first paragraph; the sections carry no printed titles (the one printed heading, "Der Verlauf des Streites und die Chronologie seiner Dokumente", stands over section 1); von Soden''s unheaded opening paragraphs before that heading (lines 58 to 80) are addressed by line number as l58'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: head
     pattern: '^Der Verlauf des Streites und die Chronologie$'
@@ -13,19 +13,30 @@ rules:
     lines: [98, 1979]
     locus: 'section{n}'
     number: n
-    allow_oversize: 'sections are the finest division the edition prints; no numbered or titled break inside sections 1 to 5 (lines 98 to 1979)'
+    allow_oversize: 'sections are the finest division the edition prints; no printed heading or numbered division inside sections 1 to 5 (lines 98 to 1979); the inline numerals at lines 1073 to 1100 and 1476 to 1487 number argument points within a section'
 ignore:
-  - pattern: '^(?:\S{1,4} )?[^\sA-Za-z]{0,2}[HIl1m]{1,2}\.? ?V\. ?S\w{3}$'
+  - pattern: '^(?:\S{1,4} )?[HIl1m]{1,2}\. ?V\. ?(?:SODEN|SOUEN|soriBN)$'
     kind: running-head
-  - pattern: '^(?:DE\S{1,2} )?KETZERTAUFSTREIT(?: \S{1,3})?$'
+  - pattern: '^(?:D\S{1,3} )?KETZERTA\S{1,2}FST\S{3,4}(?: \S{1,3}){0,2}$'
     kind: running-head
   - pattern: '^_{20,}$'
     kind: furniture
+divisions:
+  - start_line: 58
+    locus: l58
+    title: ''
 apparatus:
-  - lines: [11, 94]
+  - lines: [11, 56]
     kind: front
     locus: front
+  - lines: [82, 92]
+    kind: front
+    locus: front2
 evidence:
+  - line: 21
+    quote: 'Literatur (zu I) ausser den einschlägigen Abschnitten der allgemeinen'
+  - line: 58
+    quote: 'Dies Verzeichnis, in dem ich nllzu viel nicht hoffe übergangen zu haben,'
   - line: 98
     quote: '1. Die Frage, ob solche Christen, die in ketzerischen oder'
   - line: 348
