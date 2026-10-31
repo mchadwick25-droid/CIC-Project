@@ -289,10 +289,11 @@ NO_GROUND_LINE = (
 NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
 LEXICON_LINE = "Use the world's own words for what it held."
 LIMIT_LINE = (
-    "Answer with the richest material the records in the ground support: the example, the story, the quote with its application, "
-    "the reason and the setting, each cited to its record. Say what the sources lack or leave open only when a limit record in "
-    "the ground says it, cite that record, and then go on to what the records do hold; never let a statement of a lack replace "
-    "material you have. Never name a confidence level or say how a claim is tagged."
+    "Lead with the richest material the records in the ground support: the example, the story, the quote with its application, "
+    "the reason and the setting, each cited to its record. Where the sources lack or leave open what the question asks, say so "
+    "plainly and briefly, as this world's cautions require, citing a limit record if the ground holds one; then go on to what the "
+    "records do hold. A statement of a lack never takes the place of material you have. "
+    "Never name a confidence level or say how a claim is tagged."
 )
 REFER_BACK_LINE = (
     "Where a record marked as already used bears on this answer, refer back to it in your own way "
@@ -443,7 +444,8 @@ def _build_turn_directive(
         if rhythm is not None and rhythm.figure_gate_closed:
             parts.append(NO_NEW_FIGURE_LINE)
         parts.append(LEXICON_LINE)
-        parts.append(LIMIT_LINE)
+        if has_ground:
+            parts.append(LIMIT_LINE)
         if refer_back:
             parts.append(REFER_BACK_LINE)
         if directive.register_note:

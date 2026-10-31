@@ -28,9 +28,9 @@ wrote is classified by a reader that sees only the question and the sentence:
                is a claim about what the world's records hold, and only a
                record can state it.
 
-A sentence worded as a limit or an exclusive claim ("only", "nothing", "never",
-"does not say") gets the same test whatever the reader called it. A sentence that
-names a confidence level or says how a claim is tagged is withheld.
+A sentence that names a confidence level or says how a claim is tagged is withheld.
+An exclusive claim ("only", "never", "none") bound to a record is read by the verify
+step, which needs the records to state the exclusivity.
 
 Bind or repair, withhold last. A sentence the rule would withhold (an unbound world
 claim, or a limit no record states) is first offered, with the records offered
@@ -59,12 +59,6 @@ KINDS = ("connective", "conversation", "world_claim", "limit")
 LIMIT_FALLBACK = "We do not have that here. Here is what we can tell you."
 LIMIT_FALLBACK_ALONE = "We do not have that here."
 FALLBACK_BELOW_WORDS = 25
-_LIMIT_WORDING = re.compile(
-    r"\b(?:only|nothing|never|none|nobody|no\s+one|cannot|can't|not\s+known|"
-    r"(?:does|do|did)\s+not\s+(?:say|describe|name|mention|give|tell|state|speak)|"
-    r"no\b[^.!?]{0,60}?\bbut)\b",
-    re.IGNORECASE,
-)
 _TAG_TALK = re.compile(
     r"\b(?:Widely\s+Accepted|Dominant\s+Modern\s+Reconstruction|Inferential-Thin)\b"
     r"|\bformation\s+confidence\b"
@@ -171,12 +165,6 @@ def limit_backed(item: dict, records: dict[str, dict]) -> bool:
     return bool(cited) and absence_rule.check_limit(item["sentence"], cited) is None
 
 
-def says_limit(sentence: str) -> bool:
-    """True when the wording is that of a limit or an exclusive claim ("only",
-    "nothing", "never", "does not say"), whatever a reader called the sentence."""
-    return bool(_LIMIT_WORDING.search(sentence))
-
-
 def talks_of_tags(sentence: str) -> bool:
     """True when the sentence names a confidence level or says how a claim is
     tagged; the voice never describes how its claims are checked or tagged."""
@@ -186,15 +174,14 @@ def talks_of_tags(sentence: str) -> bool:
 def decide_classified(judgement: dict | None, item: dict, records: dict[str, dict]) -> str:
     """keep, withhold, withhold_limit or withhold_tags. A sentence that talks of
     confidence tags is withheld. An unbound world claim is withheld; a bound one
-    is left to the verify step. A limit, or any sentence worded as one, is kept
-    only when bound to a record that states it. An unreadable reply keeps the
-    sentence."""
+    is left to the verify step. A limit is kept only when bound to a record that
+    states it. An unreadable reply keeps the sentence."""
     if talks_of_tags(item["sentence"]):
         return "withhold_tags"
     if judgement is None:
         return "keep"
     if judgement["kind"] == "world_claim" and not item["bound"]:
         return "withhold"
-    if (judgement["kind"] == "limit" or says_limit(item["sentence"])) and not limit_backed(item, records):
+    if judgement["kind"] == "limit" and not limit_backed(item, records):
         return "withhold_limit"
     return "keep"

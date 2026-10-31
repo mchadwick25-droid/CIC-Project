@@ -71,20 +71,10 @@ def test_a_limit_wider_than_the_record_it_cites_is_withheld(records):
     assert us.decide_classified({"kind": "limit"}, _item("No text a woman wrote herself survives.", [LIMIT]), records) == "withhold_limit"
 
 
-def test_a_bound_sentence_worded_as_a_limit_gets_the_limit_test_whatever_the_reader_said(records):
-    force = "lpc.force.inherited-latin-theological-vocabulary"
-    sentence = "We know only that for one country town Augustine looked for a bishop who knew Punic."
-    assert us.decide_classified({"kind": "world_claim"}, _item(sentence, [force]), records) == "withhold_limit"
-    assert us.decide_classified({"kind": "connective"}, _item("It never came up.", [force]), records) == "withhold_limit"
-    assert us.decide_classified({"kind": "world_claim"}, _item("Augustine looked for a bishop who knew Punic.", [force]), records) == "keep"
-
-
-@pytest.mark.parametrize("sentence, expected", [
-    ("We know only that it was so.", True), ("Nothing survives of it.", True), ("The record does not say how it ended.", True),
-    ("No text from them survives but one.", True), ("He wrote to the council.", False), ("They met once.", False),
-])
-def test_says_limit(sentence, expected):
-    assert us.says_limit(sentence) is expected
+def test_a_bound_exclusive_claim_is_left_to_the_verify_step_not_the_limit_test(records):
+    gravity = "lpc.term.bishop-of-bishops"
+    assert us.decide_classified({"kind": "world_claim"}, _item("Only Christ judges him.", [gravity]), records) == "keep"
+    assert us.decide_classified({"kind": "connective"}, _item("None of us stood apart.", []), records) == "keep"
 
 
 @pytest.mark.parametrize("sentence, expected", [

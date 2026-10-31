@@ -165,7 +165,7 @@ def final(rows: list, work: Path, records: dict) -> dict:
         text = start.read_text(encoding="utf-8") if start.exists() else answer["text"]
         shipped = [i for i in items if splice(text, i["sentence"], None)[1]]
         complete = True
-        withheld_limits = []
+        withheld_limits, kept_limits = [], 0
         for item in shipped:
             key = f"{question['id']}.{item['n']}"
             row = classified.get(key)
@@ -196,6 +196,7 @@ def final(rows: list, work: Path, records: dict) -> dict:
                 counts["unreadable"] += 1
                 complete = False
             counts[decision] += 1
+            kept_limits += decision == "keep" and (row["judgement"] or {}).get("kind") == "limit"
             if decision == "withhold_limit":
                 withheld_limits.append(item["sentence"])
             elif decision in ("withhold", "withhold_net", "withhold_tags"):
@@ -207,10 +208,9 @@ def final(rows: list, work: Path, records: dict) -> dict:
                 while splice(text, sentence, None)[1]:
                     text, _found = splice(text, sentence, None)
             before, _mark, after = text.partition(_MARK)
-            if complete and len((before + " " + after).split()) < us.FALLBACK_BELOW_WORDS:
+            if complete and not kept_limits and len((before + " " + after).split()) < us.FALLBACK_BELOW_WORDS:
                 counts["fallback_added"] += 1
-                fallback = us.LIMIT_FALLBACK if after.strip() else us.LIMIT_FALLBACK_ALONE
-                text = (before.rstrip() + " " + fallback + " " + after.lstrip()).strip()
+                text, _found = splice(text, _MARK, us.LIMIT_FALLBACK if after.strip() else us.LIMIT_FALLBACK_ALONE)
             else:
                 text, _found = splice(text, _MARK, None)
         (out_dir / f"{question['id']}.txt").write_text(text, encoding="utf-8")

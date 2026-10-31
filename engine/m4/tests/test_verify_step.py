@@ -181,3 +181,7 @@ def test_the_judge_holds_a_joined_sentence_to_the_narrower_scope_and_the_claim_g
 def test_the_pack_shows_each_bound_records_claim_guard(records):
     pack = vs.record_pack(records["lpc.term.bishop-of-bishops"], records)
     assert "MUST NOT ASSERT" in pack
+
+
+def test_the_judge_needs_a_record_to_state_an_exclusive_or_absent_claim():
+    assert "exclusivity or absence" in vs.VERIFY_SYSTEM and "merely names the thing" in vs.VERIFY_SYSTEM
