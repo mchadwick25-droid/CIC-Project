@@ -1,0 +1,396 @@
+file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
+scheme: 'PL 35 (Garnier 1902), the whole volume. Each work stands at its own top level, and the Migne column numbers are page furniture, not addresses. In Ioannis Evangelium tractates I-CXXIV and In Epistolam Ioannis ad Parthos tractates I-X are addressed by the numeral printed on each bare TRACTATUS head (tr26). Under a tractate, the printed paragraph numbers (tr5/p9) where the paragraphs of that tractate read as one unbroken series, and para-line followed by the line number where they do not; 56 tractates are not divided below the tractate. Quaestiones Evangeliorum book 1 by printed quaestio number, De mirabilibus books 1 and 2 by printed caput number; every other quaestio, proposition, paragraph, caput and homilia is addressed by its kind and the line of its printed head, because the OCR numerals of those series do not read reliably.'
+curator: Sonnet 5.5
+status: drafted
+language: lat
+apparatus:
+  - {lines: [12, 331], kind: front, locus: 'front-matter'}
+  - {lines: [368, 751], kind: front, locus: 'tituli'}
+  - {lines: [3547, 3600], kind: front, locus: 'admonitio'}
+  - {lines: [4311, 4388], kind: front, locus: 'admonitio'}
+  - {lines: [59178, 59217], kind: front, locus: 'appendix-front'}
+  - {lines: [63659, 63672], kind: front, locus: 'admonitio'}
+  - {lines: [64103, 65147], kind: index, locus: 'elenchus'}
+  - {lines: [80740, 80760], kind: front, locus: 'admonitio'}
+  - {lines: [83610, 83663], kind: front, locus: 'admonitio'}
+  - {lines: [86845, 90719], kind: index, locus: 'index-rerum'}
+ignore:
+  - {pattern: '^\d{4}$', kind: column-number}
+  - {pattern: '^Patrol\. XXXV\.', kind: signature}
+  - {pattern: '^IN JOANNIS EVANGELIUM[,.] S\. AUGUSTIN[Il]$', kind: running-head, lines: [4434, 46776]}
+divisions:
+  - {id: work, start_line: 332, locus: 'quaest-ev', title: ''}
+  - {id: qsec, parent: work, start_line: 343, locus: 'prologus', title: ''}
+  - {id: qsec, parent: work, start_line: 368, locus: 'tituli', title: ''}
+  - {id: qsec, parent: work, start_line: 752, locus: 'liber1', title: ''}
+  - {id: qsec, parent: work, start_line: 1427, locus: 'liber2', title: ''}
+  - {id: work, start_line: 3547, locus: 'quaest-matt-admonitio', title: ''}
+  - {id: work, start_line: 3601, locus: 'quaest-matt', title: ''}
+  - {id: work, start_line: 4311, locus: 'in-io-admonitio', title: ''}
+  - {id: work, start_line: 4389, locus: 'in-io-praefatio-incerti-auctoris', title: ''}
+  - {id: work, start_line: 4455, locus: 'in-io', title: ''}
+  - {id: work, start_line: 46777, locus: 'in-1io', title: ''}
+  - {id: etr, parent: work, start_line: 49304, locus: 'tr5', title: '', number: 'V', series: epistle-tractate}
+  - {id: work, start_line: 53046, locus: 'rom-propositiones', title: ''}
+  - {id: work, start_line: 54865, locus: 'rom-inchoata', title: ''}
+  - {id: work, start_line: 56205, locus: 'gal', title: ''}
+  - {id: work, start_line: 59178, locus: 'appendix-front', title: ''}
+  - {id: work, start_line: 59218, locus: 'de-mirabilibus', title: ''}
+  - {id: dmb, parent: work, start_line: 59313, locus: 'liber1', title: ''}
+  - {id: dmb, parent: work, start_line: 61256, locus: 'liber2', title: ''}
+  - {id: dmb, parent: work, start_line: 62995, locus: 'liber3', title: ''}
+  - {id: work, start_line: 63659, locus: 'de-benedictionibus-admonitio', title: ''}
+  - {id: work, start_line: 63673, locus: 'de-benedictionibus', title: ''}
+  - {id: work, start_line: 64103, locus: 'quaest-vnt-elenchus', title: ''}
+  - {id: work, start_line: 65148, locus: 'quaest-vnt', title: ''}
+  - {id: work, start_line: 80740, locus: 'quaest-vnt-2-admonitio', title: ''}
+  - {id: work, start_line: 80761, locus: 'quaest-vnt-2', title: ''}
+  - {id: work, start_line: 83610, locus: 'apoc-admonitio', title: ''}
+  - {id: work, start_line: 83664, locus: 'apoc', title: ''}
+  - {id: work, start_line: 86845, locus: 'index-rerum', title: ''}
+rules:
+  - id: john-tractate
+    pattern: '^[TU][A-Za-z.\\^]{2,5}T[Aa]?T(?:US|LIS|U3)\s*(?P<n>[A-Za-z0-9!|\\]{1,9})[.,]?$'
+    lines: [[4455, 46776]]
+    parent: work
+    locus: 'tr{n|int}'
+    number: n
+    ocr_map: {'G': 'C', 'H': 'II', 'l': 'I', 'f': 'I'}
+    fixes:
+      - {line: 25052, quote: 'TRACTATUS XXXVlL', set: {n: 'XXXVII'}}
+      - {line: 29604, quote: 'TRACTATUS XLVIL', set: {n: 'XLVII'}}
+      - {line: 34250, quote: 'TRAGTATUS LXL', set: {n: 'LXI'}}
+      - {line: 36173, quote: 'TRACT.ATUS LXXIV.', set: {n: 'LXXIV'}}
+  - id: john-para
+    pattern: '^[^A-Za-z0-9\s]{0,3}\s?(?P<p>[0-9IiLl!tJ{]{1,2})[.,]\s*[^\sa-z\d]'
+    lines: [[4460, 5149], [6928, 7698], [9436, 9973], [10554, 11107], [14520, 14833], [15952, 17443], [18145, 18704], [19474, 19727], [22319, 23036], [23418, 24107], [26679, 27226], [27757, 28263], [30211, 30558], [32137, 32514], [32934, 33222], [33443, 33784], [33979, 34102], [34250, 34393], [34548, 34696], [35014, 35149], [35266, 35526], [35727, 36362], [36649, 37472], [37594, 38274], [38458, 41120], [41504, 42467], [43170, 44071], [44492, 44879], [46284, 46776]]
+    parent: john-tractate
+    locus: 'p{p|int}'
+    number: p
+    ocr_map: {'i': '1', 'l': '1', 'I': '1'}
+  - id: john-para-line
+    pattern: '^[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d]'
+    lines: [[7699, 9055], [9057, 9435], [13680, 14519], [30559, 30619], [30621, 31401]]
+    parent: john-tractate
+    locus: 'para-line{line}'
+  - id: epistle-tractate
+    pattern: '^T[A-Za-z]{2,5}T[Aa]?T(?:US|LIS|U3)\s*(?P<n>[A-Za-z0-9!|\\]{1,9})[.,]?$'
+    lines: [[46795, 46795], [47574, 47574], [48250, 48250], [48792, 48792], [49810, 49810], [50526, 50526], [50965, 50965], [51677, 51677], [52343, 52343]]
+    parent: work
+    locus: 'tr{n|int}'
+    number: n
+  - id: quaestio
+    pattern: '^(?:QU\S{1,4}\s?ST\.\s+|QuA:vr\.\s+)?(?P<q>[IVXLCHl!|.]{1,9})\s*[.,]\s*[\[(f{]'
+    lines: [[758, 1426]]
+    parent: qsec
+    locus: 'q{q|int}'
+    number: q
+    ocr_map: {'l': 'I', '!': 'I', '|': 'I', 'H': 'II', '.': ''}
+    fixes:
+      - {line: 1332, quote: 'XLIIL [Ib. XXVI, 29.', set: {q: 'XLIII'}}
+  - id: quaestio-line
+    pattern: '^(?:QU\S{1,4}\s?ST\.\s+|QuA:vr\.\s+)?[IVXLCHl!|.]{1,9}\s*[.,]\s*[\[(f{]'
+    lines: [[1433, 3536]]
+    parent: qsec
+    locus: 'q-line{line}'
+  - id: quaestio-matt-line
+    pattern: '^(?:QU\S{1,4}\s?ST\.\s+|QU/EST\.\s+)?[IVXLCHl!|.]{1,9}\s*[.,]\s*[\[(f{]'
+    lines: [[3610, 4310]]
+    parent: work
+    locus: 'q-line{line}'
+  - id: rom-proposition-line
+    pattern: '^(?:Prop\w*\s?prima|[^\[(f{]{0,16}[\[(f{]\s?[I1l!|]?[bhn]\.?[\s.,])'
+    lines: [[53062, 54864]]
+    parent: work
+    locus: 'prop-line{line}'
+  - id: rom-inchoata-para-line
+    pattern: '^[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d]'
+    lines: [[54865, 56204]]
+    parent: work
+    locus: 'para-line{line}'
+  - id: gal-para-line
+    pattern: '^[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d]'
+    lines: [[56205, 59177]]
+    parent: work
+    locus: 'para-line{line}'
+  - id: mirabilia-cap
+    pattern: '^[CG](?:[Aa]|\.\\)P(?:UT|IIT)\s?(?P<c>PRIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9})[.,]?\s*[—~-]'
+    lines: [[59313, 62994]]
+    parent: dmb
+    locus: 'cap{c|int}'
+    number: c
+    ocr_map: {'l': 'I', 'i': 'I', '1': 'I', '!': 'I', '|': 'I'}
+  - id: mirabilia-cap-line
+    pattern: '^[CG](?:[Aa]|\.\\)P(?:UT|IIT)\s?(?:PRIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9})[.,]?\s*[—~-]'
+    lines: [[62995, 63658]]
+    parent: dmb
+    locus: 'cap-line{line}'
+  - id: quaest-vnt-line
+    pattern: '^(?:[IVXLCDMlHi!|.1]{1,9}\s*(?:\(.{1,2}\)\s*)?[.,]?\s*[—~]\s|Q[^\s]{1,8}\.?\s+[A-Za-z]{2,5}MA\b)'
+    lines: [[65148, 80739]]
+    parent: work
+    locus: 'q-line{line}'
+    allow_oversize: 'Each quaestio is the finest division the edition prints; the two over 5,000 words print no numbered or titled sub-heading inside them.'
+  - id: quaest-vnt-2-line
+    pattern: '^(?:[IVXLCDMlHi!|.1]{1,9}\s*(?:\(.{1,2}\)\s*)?[.,]?\s*[—~]\s|Q[^\s]{1,8}\.?\s+[A-Za-z]{2,5}MA\b)'
+    lines: [[80761, 83609]]
+    parent: work
+    locus: 'q-line{line}'
+  - id: apoc-homilia-line
+    pattern: '^H[O0]\.?[MJ][A-Za-z0-9.]{2,8}[,.]?\s+[IVXLCivxlmn]{1,6}'
+    lines: [[83664, 86844]]
+    parent: work
+    locus: 'homilia-line{line}'
+evidence:
+  - line: 332
+    quote: 'S. AURELII AUGUSTINI'
+  - line: 343
+    quote: 'Iprolacjue.'
+  - line: 555
+    quote: 'XLIIl. QuoJ ail, tion bibam amodo'
+  - line: 758
+    quote: 'QUiEST. I. [MiVTTii. c. XI, y 27.]'
+  - line: 784
+    quote: 'IH. [Ib. XII, 20.] In lino fumig'
+  - line: 1332
+    quote: 'XLIIL [Ib. XXVI, 29. j Quod Dominu'
+  - line: 3601
+    quote: 'QIL^STIONIJM'
+  - line: 4389
+    quote: 'PU^FAnO INCEKTi AIJCTOUIS.'
+  - line: 4455
+    quote: 'IN JOANIS EVANGELIW'
+  - line: 4460
+    quote: 'TRAGTATUS I.'
+  - line: 5049
+    quote: 'i7. Quoraodo possum, dicam Cha'
+  - line: 5671
+    quote: 'TRAGTATUS III.'
+  - line: 6928
+    quote: 'TUACTATUS V.'
+  - line: 6935
+    quote: 'l.SicutDominusvuluit,addiempro'
+  - line: 8587
+    quote: 'TRAGTATUS VII.'
+  - line: 10554
+    quote: 'TRAGTATUS X.'
+  - line: 11108
+    quote: 'TaAGTATUS XI.'
+  - line: 11826
+    quote: 'TRAGTATUS XII.'
+  - line: 12395
+    quote: 'TRAGTATUS XIH.'
+  - line: 13072
+    quote: 'TRAGTATUS XIV.'
+  - line: 14834
+    quote: 'TRAGTATUS XVII.'
+  - line: 15468
+    quote: 'TRACTATUS XVHI.'
+  - line: 15952
+    quote: 'TRaGTATUS XIX.'
+  - line: 16863
+    quote: 'TRaGTaTUS XX.'
+  - line: 16868
+    quote: 'i. Verba Domini nostri Jesu Ch'
+  - line: 20466
+    quote: 'TRACTATUS XXVI.'
+  - line: 22047
+    quote: 'TR.^CTATUS XXIX.'
+  - line: 22319
+    quote: 'TRAGTATUS XXX'
+  - line: 23556
+    quote: '.5. Quid ergo respondit Doinin'
+  - line: 23740
+    quote: 'TR.\CTATUS XXXIV.'
+  - line: 24108
+    quote: 'TRAGTATUS XXXV.'
+  - line: 24456
+    quote: 'TRAGTATUS XXXVI.'
+  - line: 24957
+    quote: 'TRACTATUS XXXVII. CAPUT VIII.'
+  - line: 25052
+    quote: 'TRACTATUS XXXVlL'
+  - line: 27227
+    quote: 'TRAGTATUS XLII.'
+  - line: 27901
+    quote: '7.Quid de duobus timoribus? Es'
+  - line: 28133
+    quote: 'i5. Est ergo, ioquit, Pater me'
+  - line: 28163
+    quote: 'i6. Abraham pater vester e.xsu'
+  - line: 28264
+    quote: 'TRAGTATUS XLIV.'
+  - line: 29634
+    quote: 'TRACTATUS XLVII. CAPUT X.'
+  - line: 32137
+    quote: 'TRAGTATUS LII.'
+  - line: 32515
+    quote: 'TRAGTATUS LIII.'
+  - line: 33223
+    quote: 'TRAGTATUS LV.'
+  - line: 33443
+    quote: 'TRACTATUS LVl.'
+  - line: 34103
+    quote: 'TRAGTATUS LX.'
+  - line: 34250
+    quote: 'TRAGTATUS LXL'
+  - line: 34394
+    quote: 'TRAGTATUS LXII.'
+  - line: 34697
+    quote: 'TaACTATUS LXIV.'
+  - line: 35266
+    quote: 'TRAGTATUS LXVIII.'
+  - line: 35527
+    quote: 'TRAGTATUS LXX.'
+  - line: 35727
+    quote: 'TRAGTaTUS LXXf.'
+  - line: 35852
+    quote: 'TRACTATU3 LXXII.'
+  - line: 35987
+    quote: 'THAGTATUS LXXIII.'
+  - line: 36173
+    quote: 'TRACT.ATUS LXXIV.'
+  - line: 36649
+    quote: 'TUAGTATUS LXXVII.'
+  - line: 36844
+    quote: 'l.Accepimus,fralres,verbaDomii'
+  - line: 36977
+    quote: '•I. Dominus et salvator noster'
+  - line: 37344
+    quote: 'TRAGTATUS LXXXII.'
+  - line: 37594
+    quote: 'TRACTATUS LXXXlV.'
+  - line: 37852
+    quote: 'TRAGTATUS LXXXVI.'
+  - line: 38275
+    quote: 'TRACTATUS LXXXlX.'
+  - line: 38458
+    quote: 'TRAGTATUS XG.'
+  - line: 38592
+    quote: 'TRACTATUS XGI.'
+  - line: 38730
+    quote: 'TRAGTATUS XCII.'
+  - line: 39350
+    quote: 'THACTATUS XCV.'
+  - line: 39584
+    quote: 'TRACTATUS XGVI.'
+  - line: 39815
+    quote: 'TRAGTATUS XCVII.'
+  - line: 40043
+    quote: 'TRACTATUS XGVIII.'
+  - line: 40381
+    quote: 'TRAGTATUS XCIX.'
+  - line: 40927
+    quote: 'TRAGTATUS CI.'
+  - line: 40933
+    quote: 'i. Usec Domini vorba ubi ait,'
+  - line: 41121
+    quote: 'TRAGTATUS CII.'
+  - line: 41339
+    quote: 'TRACTATUS GIII.'
+  - line: 41504
+    quote: 'TRAGTATUSCIV.'
+  - line: 41680
+    quote: 'TRACTATLIS CV.'
+  - line: 42275
+    quote: 'TRACTATUS CVIl.'
+  - line: 42611
+    quote: 'TRAGTATUS CIX.'
+  - line: 43170
+    quote: 'TRAGTATUS CXI.'
+  - line: 43478
+    quote: 'TRAGTATUS CXH.'
+  - line: 43550
+    quote: '3.« Jesusitaque,»sicutEvHngeli'
+  - line: 43661
+    quote: 'TRAGTATUS CXIII.'
+  - line: 44072
+    quote: 'TRACTATUS GXV.'
+  - line: 44492
+    quote: 'TRACTATU3 CXVII,'
+  - line: 44540
+    quote: '2.Estetaliahujussolulioquaesti'
+  - line: 44623
+    quote: '.5. Dicebant ergo Pilato ponti'
+  - line: 44687
+    quote: 'TRAGTATUS CXVIII.'
+  - line: 45071
+    quote: 'TRAGTATUS GXX.'
+  - line: 46284
+    quote: 'TRACTATUSCXXIV.'
+  - line: 46777
+    quote: 'S. AURELII AUGUSTINI'
+  - line: 46795
+    quote: 'TRACTATUS I.'
+  - line: 48250
+    quote: 'TRACTATUSIII.'
+  - line: 49232
+    quote: 'TRACTATUS V.'
+  - line: 49304
+    quote: 'In id quod sequitur, Omnis qui natus est ex Deo'
+  - line: 52343
+    quote: 'TRACTATUS X.'
+  - line: 53046
+    quote: 'S. AURELII AUGUSTINI'
+  - line: 53062
+    quote: 'Propositioprima. [Rom. cap.i, T^.'
+  - line: 54865
+    quote: 'S. AURELII AUGUSTIIXI'
+  - line: 54879
+    quote: 'i. In Epistola quam Paulus apostol'
+  - line: 56205
+    quote: 'S. AURELIl AUGUSTiNI'
+  - line: 56220
+    quote: 'i. Causapropter quamscribitApostoI'
+  - line: 59218
+    quote: 'DE MIRABILIBUS SAGR^E SGRlPTURiG'
+  - line: 59318
+    quote: 'CAPUT PRIMUM. — De Deo Creatore et'
+  - line: 59541
+    quote: 'CAPUTIII. — DeAbel et Enoch prim'
+  - line: 60231
+    quote: 'CAPUTXIl. — De Sara nonagenaria'
+  - line: 60406
+    quote: 'GAPUT XVII. — De duobus signis,'
+  - line: 60482
+    quote: 'CAPUT XVlli. — De aqua in sangui'
+  - line: 60665
+    quote: 'CAPUTXXI. — De carmine consono f'
+  - line: 60943
+    quote: 'G.\PUT XXVI. — De jejnuio quadra'
+  - line: 61221
+    quote: 'GAPUT XXXV. — De Moyse pergente'
+  - line: 61261
+    quote: 'CAPUT PRIMUM. — De Jesu filio Nun,'
+  - line: 61647
+    quote: 'GAPUT VII. — De arcaDomini in te'
+  - line: 61699
+    quote: 'CAPUT Vlli. — De corH fragore qu'
+  - line: 61837
+    quote: 'CAPUT Xlll. — De David numerante'
+  - line: 61854
+    quote: 'CAPUTXIV. — De duobus signis jux'
+  - line: 61886
+    quote: 'GAPIIT XV. — De trium annorum et'
+  - line: 62203
+    quote: 'CAPUTXXIII. — De virtutibus Elis'
+  - line: 62631
+    quote: 'CAPUTXXIX. — De captivitate Baby'
+  - line: 63001
+    quote: 'CAPUT PRIMUM. — Devisione Zacharis'
+  - line: 65148
+    quote: 'VETERIS ET NOVI TESTAMENTI.'
+  - line: 65153
+    quote: 'QUiESTio PRiMA. — Quid est Deus.'
+  - line: 80772
+    quote: 'QujEst. PRiMA (a). — Multis, quos'
+  - line: 83664
+    quote: 'EXPOSiTIO'
+  - line: 83672
+    quote: 'HOMILIA, I ''.'
+  - line: 86637
+    quote: 'HOMILIA. xix (a).'
+  - line: 89985
+    quote: 'Tract. XLVII.'
+  - line: 90056
+    quote: 'Tract. LXI.'
