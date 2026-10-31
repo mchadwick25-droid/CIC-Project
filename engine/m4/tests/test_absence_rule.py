@@ -96,3 +96,14 @@ def test_the_fixed_sentence_with_more_after_it_is_checked():
 
 def test_a_possessive_is_matched_as_its_word():
     assert "woman" in content_words("No woman's writing survives.")
+
+
+def test_check_limit_holds_a_limit_the_cue_phrases_miss_to_the_same_test():
+    from engine.m4 import absence_rule
+
+    records = load_world_records("lpc")
+    limit = records["lpc.limit.womens-own-voice"]
+    assert absence_rule.check_absence("We know only that for one country town Augustine looked for a bishop who knew Punic.", [limit]) is None
+    assert absence_rule.check_limit("We know only that for one country town Augustine looked for a bishop who knew Punic.", [limit])
+    stated = "From our own two cities, in our years from 246 to 430, no text a woman wrote herself survives."
+    assert absence_rule.check_limit(stated, [limit]) is None

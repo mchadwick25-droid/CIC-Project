@@ -147,11 +147,9 @@ def _keeps_scope(sentence: str, supporting: str, record: dict) -> bool:
     return True
 
 
-def check_absence(sentence: str, cited: list[dict]) -> str | None:
-    """None when the sentence makes no absence claim or the cited records
-    back it with its scope; else the reason it is withheld."""
-    if not has_absence_cue(sentence) or sentence.strip().lower().rstrip(".") == R26_SENTENCE:
-        return None
+def _backed(sentence: str, cited: list[dict]) -> str | None:
+    """None when a cited record states the sentence's absence with its scope;
+    else the reason it is not backed."""
     claimed = content_words(sentence)
     if not claimed:
         return None
@@ -171,3 +169,20 @@ def check_absence(sentence: str, cited: list[dict]) -> str | None:
             return None
         scope_failed = True
     return REASON_ABSENCE_SCOPE if scope_failed else REASON_ABSENCE_UNSUPPORTED
+
+
+def check_absence(sentence: str, cited: list[dict]) -> str | None:
+    """None when the sentence makes no absence claim or the cited records
+    back it with its scope; else the reason it is withheld."""
+    if not has_absence_cue(sentence) or sentence.strip().lower().rstrip(".") == R26_SENTENCE:
+        return None
+    return _backed(sentence, cited)
+
+
+def check_limit(sentence: str, cited: list[dict]) -> str | None:
+    """For a sentence a reader has already found to say that something is
+    missing or not known, whatever its wording: None when a cited record states
+    that limit with its scope; else the reason. No cue phrase is needed, so a
+    limit worded in a way the cues miss ("we know only that...") is held to the
+    same test."""
+    return _backed(sentence, cited)

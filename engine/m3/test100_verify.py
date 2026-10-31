@@ -60,7 +60,7 @@ def export(rows: list, work: Path, records: dict) -> dict:
             if item["held_out"]:
                 held += 1
                 continue
-            _write_prompt(work, "read", f"{question['id']}.{item['n']}", vs.verify_request(item["sentence"], item["bound"], records))
+            _write_prompt(work, "read", f"{question['id']}.{item['n']}", vs.verify_request(item["sentence"], item["bound"], records, item["before"]))
             written += 1
     return {"prompts_written": written, "held_out_no_valid_binding": held}
 
@@ -74,10 +74,10 @@ def import_read(rows: list, work: Path, records: dict) -> dict:
             if reply is None and not item["held_out"]:
                 missing += 1
                 continue
-            judgement = None if item["held_out"] else vs.parse_verify(reply)
+            judgement = None if item["held_out"] else vs.read_reply(reply, item["sentence"], item["bound"], records)
             decision = "held_out" if item["held_out"] else vs.decide(judgement)
             unread += judgement is None and not item["held_out"]
-            out.append({"key": key, "question_id": question["id"], "n": item["n"], "sentence": item["sentence"], "bound": item["bound"],
+            out.append({"key": key, "question_id": question["id"], "n": item["n"], "sentence": item["sentence"], "before": item["before"], "bound": item["bound"],
                         "judgement": judgement, "decision": decision})
             if decision == "rewrite":
                 _write_prompt(work, "rewrite", key, vs.rewrite_request(question_text(question), item["sentence"], judgement, item["bound"], records))
@@ -99,13 +99,13 @@ def import_rewrite(work: Path, records: dict) -> dict:
         new = vs.parse_rewrite(reply, row["bound"], records)
         out.append({**row, "rewrite": new})
         if new:
-            _write_prompt(work, "reread", row["key"], vs.verify_request(new, row["bound"], records))
+            _write_prompt(work, "reread", row["key"], vs.verify_request(new, row["bound"], records, row.get("before", "")))
             wrote += 1
     _save(work / "verify" / "rewrite.jsonl", out)
     return {"rewrites": len(out), "missing_replies": missing, "refused_or_dropped": sum(r["rewrite"] is None for r in out), "to_reread": wrote}
 
 
-def final(rows: list, work: Path) -> dict:
+def final(rows: list, work: Path, records: dict) -> dict:
     """The final text of each answer and a count of every sentence's fate.
     A sentence whose reply is missing or unreadable is kept and counted
     (`unjudged`, `pending_rewrite`, `pending_reread`); a run is complete only
@@ -143,7 +143,7 @@ def final(rows: list, work: Path) -> dict:
                 counts["pending_rewrite"] += 1
                 continue
             new = rewritten[key]["rewrite"]
-            again = vs.parse_verify(_reply(work, "reread", key) or "") if new else None
+            again = vs.read_reply(_reply(work, "reread", key) or "", new, rewritten[key]["bound"], records) if new else None
             if new and again is None:
                 counts["pending_reread"] += 1
                 continue
@@ -182,7 +182,7 @@ def main(argv: list[str] | None = None) -> int:
     rows = _answers(load_set(args.question_set), work, records)
     result = {
         "export": lambda: export(rows, work, records), "import": lambda: import_read(rows, work, records),
-        "rewrite-import": lambda: import_rewrite(work, records), "final": lambda: final(rows, work),
+        "rewrite-import": lambda: import_rewrite(work, records), "final": lambda: final(rows, work, records),
     }[args.command]()
     print(json.dumps(result))
     return 0

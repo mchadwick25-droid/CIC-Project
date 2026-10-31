@@ -3,94 +3,95 @@ import json
 
 from engine.m1.loader import load_world_records
 from engine.m3 import test100_unbound as tu
+from engine.m4 import unbound_step as us
 
 LIMIT = "lpc.limit.womens-own-voice"
+STATED = "From our own two cities, in our years from 246 to 430, no text a woman wrote herself survives."
 
 
-def _setup(tmp_path):
+def _setup(tmp_path, limit_sentence="Nothing we carry speaks of him.", limit_tags=()):
     work = tmp_path / "run"
     (work / "answers").mkdir(parents=True)
-    sentences = ["Bound claim.", "A fact with no citation.", "Here is what we can say.", "Nothing we carry speaks of him.", "Withheld one."]
+    sentences = ["Bound claim.", "A fact with no citation.", "Here is what we can say.", limit_sentence, "Withheld one."]
     answer = {"text": " ".join(sentences), "net_sentences": [
         {"sentence": sentences[0], "tags": [LIMIT], "verdict": "ok"},
         {"sentence": sentences[1], "tags": [], "verdict": "ok"},
         {"sentence": sentences[2], "tags": [], "verdict": "ok"},
-        {"sentence": sentences[3], "tags": [], "verdict": "ok"},
+        {"sentence": sentences[3], "tags": list(limit_tags), "verdict": "ok"},
         {"sentence": sentences[4], "tags": [], "verdict": "withhold", "why": "x"},
     ], "reply_shape": {"placed": []}}
     (work / "answers" / "q1.json").write_text(json.dumps(answer), encoding="utf-8")
-    shelf = tmp_path / "shelf"
-    shelf.mkdir()
-    (shelf / "f.txt").write_text("\n".join(["Origen believed the devil would be freed", "and the church condemned him", "Origen taught much"]))
-    return work, [{"id": "q1", "group": "B", "wording": "What did Origen teach?"}], shelf
+    return work, [{"id": "q1", "group": "B", "wording": "What did Origen teach?"}]
 
 
-def _reply(work, stage, key, text):
-    (work / "unbound" / stage / "replies" / f"{key}.txt").write_text(text, encoding="utf-8")
+def _reply(work, key, text):
+    (work / "unbound" / "classify" / "replies" / f"{key}.txt").write_text(text, encoding="utf-8")
 
 
-def test_a_full_round(tmp_path, monkeypatch):
-    work, questions, shelf = _setup(tmp_path)
-    monkeypatch.setattr(tu, "shelf_files", lambda world: frozenset({"f.txt"}))
-    rows = tu._answers(questions, work, load_world_records("lpc"))
+def _classify(work, kinds):
+    for n, kind in enumerate(kinds):
+        _reply(work, f"q1.{n}", json.dumps({"kind": kind}))
+
+
+def test_an_unbound_limit_is_withheld_and_the_fallback_stands_in_its_place(tmp_path):
+    work, questions = _setup(tmp_path)
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
     assert tu.classify_export(rows, work) == {"prompts_written": 4, "withheld_by_the_net": 1}
-    _reply(work, "classify", "q1.0", '{"kind": "world_claim", "denies": null}')
-    _reply(work, "classify", "q1.1", '{"kind": "world_claim", "denies": null}')
-    _reply(work, "classify", "q1.2", '{"kind": "connective", "denies": null}')
-    _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": "what Origen taught or whether the church condemned him"}')
-    result = tu.classify_import(rows, work)
-    assert result == {"rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "to_shelf_check": 1, "withheld_by_the_net": 1}
-    _reply(work, "terms", "q1.3", '{"terms": ["Origen", "devil", "condemned"]}')
-    assert tu.terms_import(rows, work, shelf_root=shelf) == {"shelf_prompts_written": 1, "missing_replies": 0, "unreadable": 0, "shelf_files_missing": 0}
-    prompt = (work / "unbound" / "shelf" / "prompts" / "q1.3.md").read_text()
-    assert "devil would be freed" in prompt and "f.txt" in prompt
-    _reply(work, "shelf", "q1.3", '{"covered": true, "where": "f.txt 1-3", "reason": "states it"}')
+    _classify(work, ["world_claim", "world_claim", "connective", "limit"])
+    assert tu.classify_import(rows, work, records) == {
+        "rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "limit_not_stated_by_a_record": 1, "withheld_by_the_net": 1}
     summary = tu.final(rows, work)
-    assert summary["withhold"] == 1 and summary["withhold_net"] == 1 and summary["withhold_shelf"] == 1 and summary["keep"] == 2
-    assert (work / "unbound" / "final" / "q1.txt").read_text() == "Bound claim. Here is what we can say."
+    assert summary["withhold"] == 1 and summary["withhold_net"] == 1 and summary["withhold_limit"] == 1 and summary["fallback_added"] == 1
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. Here is what we can say. {us.LIMIT_FALLBACK}"
 
 
-def test_missing_replies_keep_their_sentences_and_are_counted(tmp_path, monkeypatch):
-    work, questions, shelf = _setup(tmp_path)
-    monkeypatch.setattr(tu, "shelf_files", lambda world: frozenset({"f.txt"}))
-    rows = tu._answers(questions, work, load_world_records("lpc"))
+def test_a_limit_a_record_states_is_kept_and_no_fallback_is_added(tmp_path):
+    work, questions = _setup(tmp_path, STATED, [LIMIT])
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
     tu.classify_export(rows, work)
-    _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": "what Origen taught"}')
-    assert tu.classify_import(rows, work)["missing_replies"] == 3
-    assert tu.terms_import(rows, work, shelf_root=shelf)["missing_replies"] == 1
+    _classify(work, ["world_claim", "world_claim", "connective", "limit"])
+    tu.classify_import(rows, work, records)
     summary = tu.final(rows, work)
-    assert summary["pending_classify"] == 3 and summary["pending_shelf"] == 1
-    assert "Nothing we carry speaks of him." in (work / "unbound" / "final" / "q1.txt").read_text()
+    assert summary["keep"] == 3 and "withhold_limit" not in summary and "fallback_added" not in summary
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. Here is what we can say. {STATED}"
 
 
-def test_a_limit_with_no_denied_phrase_is_still_checked(tmp_path, monkeypatch):
-    work, questions, shelf = _setup(tmp_path)
-    monkeypatch.setattr(tu, "shelf_files", lambda world: frozenset({"f.txt"}))
-    rows = tu._answers(questions, work, load_world_records("lpc"))
+def test_a_withheld_limit_does_not_add_the_fallback_when_a_stated_limit_remains(tmp_path):
+    work, questions = _setup(tmp_path)
+    records = load_world_records("lpc")
+    answer = json.loads((work / "answers" / "q1.json").read_text())
+    answer["net_sentences"][0] = {"sentence": STATED, "tags": [LIMIT], "verdict": "ok"}
+    answer["text"] = answer["text"].replace("Bound claim.", STATED)
+    (work / "answers" / "q1.json").write_text(json.dumps(answer))
+    rows = tu._answers(questions, work, records)
     tu.classify_export(rows, work)
-    _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": null}')
-    assert tu.classify_import(rows, work)["to_shelf_check"] == 1
-    assert (work / "unbound" / "terms" / "prompts" / "q1.3.md").exists()
+    _classify(work, ["limit", "world_claim", "connective", "limit"])
+    tu.classify_import(rows, work, records)
+    summary = tu.final(rows, work)
+    assert "fallback_added" not in summary and summary["withhold_limit"] == 1
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{STATED} Here is what we can say."
 
 
-def test_an_unreadable_shelf_stops_the_run(tmp_path, monkeypatch):
-    import pytest
-
-    work, questions, shelf = _setup(tmp_path)
-    monkeypatch.setattr(tu, "shelf_files", lambda world: frozenset())
-    rows = tu._answers(questions, work, load_world_records("lpc"))
+def test_missing_replies_keep_their_sentences_and_are_counted(tmp_path):
+    work, questions = _setup(tmp_path)
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
     tu.classify_export(rows, work)
-    _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": "x"}')
-    tu.classify_import(rows, work)
-    _reply(work, "terms", "q1.3", '{"terms": ["x"]}')
-    with pytest.raises(SystemExit):
-        tu.terms_import(rows, work, shelf_root=shelf)
+    _reply(work, "q1.3", '{"kind": "limit"}')
+    assert tu.classify_import(rows, work, records)["missing_replies"] == 3
+    summary = tu.final(rows, work)
+    assert summary["pending_classify"] == 3
+    assert "Nothing we carry speaks of him." not in (work / "unbound" / "final" / "q1.txt").read_text()
 
 
 def test_a_sentence_the_verify_step_rewrote_and_used_is_classified_too(tmp_path):
-    work, questions, shelf = _setup(tmp_path)
+    work, questions = _setup(tmp_path)
     (work / "verify" / "reread" / "replies").mkdir(parents=True)
-    (work / "verify" / "rewrite.jsonl").write_text(json.dumps({"key": "q1.0", "question_id": "q1", "n": 0, "rewrite": "Our record is silent on it."}) + "\n")
+    row = {"key": "q1.0", "question_id": "q1", "n": 0, "rewrite": "Our record is silent on it.", "bound": [LIMIT]}
+    (work / "verify" / "rewrite.jsonl").write_text(json.dumps(row) + "\n")
     (work / "verify" / "reread" / "replies" / "q1.0.txt").write_text('{"supported": true, "problem": null, "reason": ""}')
     items = tu._answers(questions, work, load_world_records("lpc"))[0][2]
     assert [i["n"] for i in items][-1] == "0r" and items[-1]["sentence"] == "Our record is silent on it."
+    assert items[-1]["records"] == [LIMIT]
