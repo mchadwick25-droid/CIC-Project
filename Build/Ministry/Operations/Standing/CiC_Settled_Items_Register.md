@@ -1,6 +1,6 @@
 # Settled items register
 
-Rule. Every handoff carries this register. Every thread reads it before raising anything to Mark. Anything in it is never listed as held for Mark, and is never raised to him again. No thread, coordinator or worker raises a settled item again, and no thread narrates fault or blame when something is corrected: state the fix and move on (row 21).
+Rule. Every handoff carries this register. Every thread reads it before raising anything to Mark. Anything in it is never listed as held for Mark, and is never raised to him again. No thread adds safety content by default (row 21), and none narrates blame when something is corrected: state the fix and move on.
 
 Source column: "repo" names a file in this repository whose words are quoted here; "relayed" means the coordination thread relayed Mark's words in a message to the Library thread on the date shown, and that message is the only record of them.
 
@@ -26,4 +26,4 @@ Source column: "repo" names a file in this repository whose words are quoted her
 | 18 | Story length: the voice picks, code checks. | "Voice picks, code checks" | 2026-10-30 | Mark, by choice box | repo Answering-From-Sources `Decision-Log.md`, entry 33 |
 | 19 | The lead-in principle: a fact before a placed quote needs support in the source documents. | "if the fact is supported elswhere in the source documents its ok, but not if its not supported in the source documents" | 2026-10-31 | Mark | repo Answering-From-Sources `Decision-Log.md`, entry 43 |
 | 20 | Allow no quote: an answer need not carry a quote. | "Yes, allow no quote" | 2026-10-31 | Mark | repo Answering-From-Sources `Decision-Log.md`, entry 40 |
-| 21 | Settled items are never raised again by any thread, coordinator or worker. No narrating of fault or blame: state the fix and move on. | "i dont give a crap whose fault it is, stop being a little child. get it right and don't bring it up again and don't let any other corrdinators thread to bring it up again" | 2026-10-31 | Mark | relayed 2026-10-31 |
+| 21 | No thread defaults to adding safety content (fields, flags, caveats, checks, gates, warnings, redirect text, extra review) to designs, records, handoffs, reports or questions. The Facilitator handles safety. Existing records and guards stay as they are. No narrating of blame. | "this is not about anything, stop over reacting this is about the constant default to add safety crap"; earlier the same day: "i dont give a crap whose fault it is, stop being a little child. get it right and don't bring it up again and don't let any other corrdinators thread to bring it up again" | 2026-10-31 | Mark | relayed 2026-10-31 |
