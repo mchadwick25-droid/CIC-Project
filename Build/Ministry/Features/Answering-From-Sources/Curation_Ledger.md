@@ -403,3 +403,20 @@ Not audited: the clean XML files (their divisions are the source's own markup, a
 - Two numerals read from printed glyph damage and quoted as evidence: `iO.` = 10 at line 25420 and `G.` = 6 at line 41311. The same OCR prints 6 as `G.` at 11373, 12017, 13292, 22189, 23186 and 10 as `iO.` at 29988, 31630, 47352.
 - Open gap: the 1 John prologue's body sits at lines 46832-46858 inside tractate 1 because of the OCR column order; no contiguous range joins it to its head, so `in-1io/prologus` holds only the head and the last line.
 - Open gap: the Benedictine admonition at lines 395-411 counts as body of the tituli division.
+
+## Mark's ruling on review weight, 2026-10-31
+
+Mark's own answer on pacing, relayed by coordination 2026-10-31 (weekly usage about 20% in six hours): keep two threads, lighter reviews.
+
+- One independent reader per file read. A second reader only to settle a real dispute or after a failed first read.
+- Round 2 onward is a targeted recheck of only what changed. The three-round cap is unchanged.
+- No new audits or large batches beyond what he ruled (lpc row fields, then one index rebuild) without telling him first, with the cost in reader items. The other eleven worlds' reads stay held.
+- Unchanged: tooling PRs get one Opus review before merge, no metered spend, never invent.
+- Worker prompts stay small, worktrees sparse, work batched into fewer longer steps.
+
+## lpc row fields, 2026-10-31
+
+- 215 rows over 112 staging files carry `language`, `locus_ids` and `date`; 199 have `locus_ids` (122 division lists, 77 whole-file), 16 are unset because the work cannot be located exactly in an uncurated file. 87 dates are `unknown` with a `checked` note; 128 carry a quoted source and a formation confidence.
+- Review: three independent reader rounds (cap reached). Cap exception, for Mark's awareness: coordination ruled 2026-10-31 that the four round-3 date corrections (Delehaye 1917-1920, Poschmann 1926, Duchesne tome 1 source wording, Bardenhewer Band 4 1923-1924) merge as the reader's own values with each quote checked by machine against the file, with no fourth read.
+- Date rule (Mark's coordination confirmed it stands): a modern book gets a window only if its own file states the first-edition year or a dated preface or approval; the printing year of the vendored copy does not count.
+- `voice_of` is set on none of the 47 non-tradition rows; see CO-S2-4.

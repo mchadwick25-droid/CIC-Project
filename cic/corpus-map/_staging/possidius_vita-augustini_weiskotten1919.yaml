@@ -17,6 +17,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat-eng
+    date: {start: 432, end: 439, source: "possidius_vita-augustini_weiskotten1919.txt Introduction (file lines 653-666): generally given 432; nearest certain approximation 432-439", formation_confidence: Dominant Modern Reconstruction}
     note: >
       Augustine's own companion for decades, and the Augustine-side
       counterpart to Pontius's already-vendored Life of Cyprian (this same

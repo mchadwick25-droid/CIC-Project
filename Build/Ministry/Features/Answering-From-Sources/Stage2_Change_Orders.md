@@ -60,3 +60,17 @@ new row fields (CO-S2-1).
 Keeps transparency: curation never edits the vendored file; it only decides where
 divisions start. A failing curation falls back to the heuristic class and keeps
 its divisions.
+
+## CO-S2-4. `voice_of` is set only where a party is ruled
+
+Changes: the Number line of CO-S2-1 ("every non-tradition row has `voice_of`") is replaced. `voice_of` is set only where a party is ruled in `PAIRS.yaml` or a census movement is clearly the voice of the work. A non-tradition row with no `voice_of` is outside the world's own voice: it stays citable and labelled, and is never spoken as the world's own.
+
+Authority: Mark's own ruling, 2026-10-31, relayed by coordination. Raised by the lpc row-fields work: `PAIRS.yaml` rules only the fixture party, and none of lpc's 47 non-tradition rows (modern scholarship, translations, the Gesta, Codex Theodosianus, Prosper) is clearly one movement's voice.
+
+What the code does with an unset `voice_of` (checked 2026-10-31):
+- `cic/engine/corpus_map.py` treats `voice_of` as optional and checks only its shape when present, so an unset row validates.
+- `engine/m9/confinement.py` (`gate_voicing_pair`): an emic citable record that cites a non-tradition row with no `voice_of` is a finding ("the row carries no voice_of"). Unset therefore already reads as not voiceable; the unset rows can be cited only where the record is not emic.
+- `engine/m9/shelf.py` carries `voice_of: None` through unchanged.
+- `engine/m10/quotes.py` runs its mixed-voice speaker check only on files that have at least one row with `voice_of`. A file whose rows are all unset gets no speaker check from that gate. This is a gap in the check, not a change made here.
+
+Keeps transparency: no row loses a field; the 47 rows stay on the shelf with their role and confidence.

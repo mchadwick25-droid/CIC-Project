@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 397, end: 397, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): composed about the year 397", formation_confidence: Widely Accepted}
     note: >
       A German translation of the Confessions, not the original. The Latin (Knoll) is the
       tradition entry. Registry row 244.

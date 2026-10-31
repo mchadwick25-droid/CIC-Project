@@ -12,6 +12,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    language: lat
+    date: {formation_confidence: unknown, checked: "cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt header and Source_Registry row 6: works transmitted under Cyprian's name that are not his; no window stated"}
     note: >
       Kept under Cyprian's name, the transmitted-author shelf (not
       re-attributed) - the same treatment Registry row 6 already
@@ -29,6 +31,15 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [line40258/line40258, line40258/line40288, line40258/line40326, line40258/line40353,
+      line40258/line40412, line40258/line40466, line40258/line40516, line40258/line40548,
+      line40258/line40580, line40258/line40631, line40258/line40671, line40258/line40706,
+      line40258/line40782, line40258/line40809, line40258/line40897, line40258/line40929,
+      line40258/line41001, line40258/line41044, line40258/line41098, line40258/line41142,
+      line40258/line41196, line40258/line41263, line40258/line41286, line40258/line41312,
+      line40258/line41342, line40258/line41369, line40258/line41392]
+    language: lat
+    date: {formation_confidence: unknown, checked: "Build/worlds/lpc/Doc_02_Source_Ecology.md says only 'composed after Cyprian's martyrdom (258), within living memory'; ANF 5 div2 4.3 has no introductory notice. A lower bound of 258 is stated, no end"}
     note: >
       Latin original standing behind the already-vendored ANF05 English
       translation of Pontius's Life (Registry row 7, Confidence A). Cyprian's
@@ -43,6 +54,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [line41413]
+    language: lat
+    date: {formation_confidence: unknown, checked: "Source_Registry row 41 gives 258 for the trial record of Cyprian's martyrdom, which is the event year; the Hartel text (file lines 41413-41628) opens with a hearing dated by the consuls 'Imperatore Valeriano quartum et Gallieno tertium consulibus' (line 41415; the file prints no year for that) and ends with a narrative of the execution, so it was put together after the death; no repo text dates the writing or the assembling"}
     note: >
       Not previously vendored in any form (Source_Registry.md row 41 named
       this as "not independently located at a separately citable URL" -- now

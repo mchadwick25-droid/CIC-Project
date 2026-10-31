@@ -12,6 +12,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 413, end: 413, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De fide et operibus (413)", formation_confidence: Widely Accepted}
     note: >
       Augustine's treatise on the admission of sinners to baptism and the place of works in faith. No
       English translation of this work is vendored in this corpus, so this file is new primary content
