@@ -82,6 +82,14 @@ Entries record what was claimed, what was wrong with it, and which review round 
 
 **2.20 The exact word counts 3,339,085, 3,357,623 and 3,035,294 (Doc_01 §1).** Withdrawn: the cap-ruling review (N5) re-ran them after the CCEL header clean-up changed the files; the figures are now 3,332,586, 3,351,124 and 3,032,271, with the method stated.
 
+**2.21 Theodoret's letter to Nestorius (`npnf203` `iv.x.clxxiii`) placed in a "430-431" run and held as a live edge case (Doc_01 §4, §7).** Withdrawn: the second cap-ruling review (R2-N1). The letter's text refers to Nestorius's deposition, and the Mansi editor's note (file lines 88713 to 88724) dates it after the union of 433. It is out of the window in `npnf203` and in the *Synodicon* copy, by the project lead's scope-boundary rule of 2026-10-29. The first cap-ruling review (N3) had also placed it in the run.
+
+**2.22 The *Synodicon*'s letters of 431 to 435 said to "fall wholly after the window" (Doc_01 §4).** Withdrawn: the second cap-ruling review (R2-N1). The span includes 431. The *Synodicon* is out of the window as a collection, by the compiler's later frame and the span of its letters, and each letter is dated by its own text or its editor's note.
+
+**2.23 Nestorius's letters to the governor of the Thebaid credited to "a Syriac account quoted in Nau's introduction" (Doc_01 §4).** Withdrawn: the second cap-ruling review (R2-N2). Nau's passage (file lines 899 to 943) is his summary of the historian Evagrius; footnote 2 (line 960) confirms it.
+
+**2.24 Canons XI to XIII said to condemn writings "never by title"; canon XI cited to `xii.vii-p26`; the *Bazaar* said to be written "by about twenty years" after the window (Doc_01 §4).** Withdrawn: the second cap-ruling review (R2-N3 to R2-N5). Canon XII names Theodore's *Commentary on the Acts of the Apostles*; canon XI's text is `xii.vii-p27`; the gap is about ten to twenty-two years across the three dating statements.
+
 ---
 
 ## 3. Doc_02 + Source Registry
@@ -133,3 +141,11 @@ Entries record what was claimed, what was wrong with it, and which review round 
 **3.23 A corpus-map confidence-tag revisit said to be "carried in §9" when it was not (Doc_02 §1).** Withdrawn: the cap-ruling review (D7). It is now §9 item 11.
 
 **3.24 The Registry word counts and the Living-document protocol pointer to "`Doc_02_Source_Ecology.md` §9" (Source Registry header, protocol).** Withdrawn: the cap-ruling review (D6, D9). The counts are re-run, and the pointer names §9 item 3.
+
+**3.25 Registry row 11a and Doc_02 §1 listing `iv.x.clxxiii` in the 430-431 run; row 23 and Doc_02 §1 calling the *Synodicon* out of the window "by subject and date" with its letters "wholly after the window".** Withdrawn: the second cap-ruling review (R2-D1); see §2.21 and §2.22.
+
+**3.26 Registry row 25a crediting "a Syriac account quoted in Nau's introduction" with the letters to the governor of the Thebaid.** Withdrawn: the second cap-ruling review (R2-D2); see §2.23.
+
+**3.27 Registry row 24: canon XI cited to `xii.vii-p26`; the *Bazaar* "composed about twenty years after the window closed".** Withdrawn: the second cap-ruling review (R2-D3, R2-D6); see §2.24.
+
+**3.28 Table D's "Assigned elsewhere" column complete for all 94 files; Registry row 26 saying all its Greek works have English covered by rows 5, 6, 6a and 9.** Withdrawn: the second cap-ruling review (R2-D4, R2-D5). Four Table D rows omitted current buckets, and *On compunction* and the PG 52 homily on the exile of Saturninus and Aurelian have no `npnf109` division.
