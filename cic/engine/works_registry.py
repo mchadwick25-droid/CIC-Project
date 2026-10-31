@@ -35,7 +35,8 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from yaml_unique import load_unique  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 WORKS_FILE = REPO_ROOT / "cic" / "corpus-map" / "WORKS.yaml"
@@ -45,7 +46,7 @@ _ADDRESS = re.compile(r"^cic:([A-Za-z0-9._-]+):(.+)$")
 
 
 def load() -> dict:
-    return yaml.safe_load(WORKS_FILE.read_text(encoding="utf-8")) or {}
+    return load_unique(WORKS_FILE.read_text(encoding="utf-8")) or {}
 
 
 def parse_address(addr: str) -> tuple[str, str] | None:

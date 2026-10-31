@@ -106,7 +106,10 @@ def load_staging() -> tuple[list[dict], dict[str, dict], list[str]]:
     rulings: dict[str, dict] = {}
     findings: list[str] = []
     seen_ids: dict[str, str] = {}
-    voice_ids = set(census_ids()) | pair_parties()
+    try:
+        voice_ids = set(census_ids()) | pair_parties()
+    except yaml.YAMLError as err:
+        return rows, rulings, [f"PAIRS.yaml: not parseable YAML with unique keys ({err})"]
     if not STAGING.is_dir():
         return rows, rulings, [f"no staging directory at {STAGING.relative_to(REPO_ROOT)}"]
 

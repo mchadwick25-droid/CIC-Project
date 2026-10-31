@@ -230,14 +230,39 @@ def test_latest_review_is_the_highest_round_or_the_last_unnumbered_file(tmp_path
     assert latest_review(review_files("w", 5, other))[0] == "Doc_05_Independent_Check.md"
 
 
+def _rule_for(root, world, names):
+    listed = ", ".join(f"`{n}`" for n in names)
+    write(root, DECISION_LOG, f"## 2026-10-31 - Cap ruling: {world} Doc_05\n\nOne more recheck: {listed}.\n")
+
+
+def _latest(root, code="w"):
+    return latest_review(review_files(code, 5, root), root, code)[0]
+
+
 def test_latest_review_is_the_review_a_cap_ruling_names(tmp_path):
     names = [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4)] + ["Doc_05_Targeted_Recheck_Ruled.md"]
     root = _world(tmp_path, names)
-    assert latest_review(review_files("w", 5, root), root)[0] == "round 4"
-    write(root, DECISION_LOG, "## 2026-10-31 - Cap ruling: w Doc_05\n\nOne more recheck, `Doc_05_Targeted_Recheck_Ruled.md`.\n")
-    description, latest = latest_review(review_files("w", 5, root), root)
-    assert description == "ruled review Doc_05_Targeted_Recheck_Ruled.md"
-    assert [p.name for p in latest] == ["Doc_05_Targeted_Recheck_Ruled.md"]
+    assert _latest(root) == "round 4"
+    _rule_for(root, "w", ["Doc_05_Targeted_Recheck_Ruled.md"])
+    assert _latest(root) == "ruled review Doc_05_Targeted_Recheck_Ruled.md"
+
+
+def test_a_numbered_round_after_the_ruled_review_is_still_the_latest(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4, 5)])
+    _rule_for(root, "w", ["Doc_05_Review_Round4.md"])
+    assert _latest(root) == "round 5"
+
+
+def test_a_ruling_for_another_world_does_not_override_this_worlds_rounds(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_ChangeOrder_Review_Round{i}.md" for i in (1, 2, 3, 4)])
+    _rule_for(root, "other", ["Doc_05_ChangeOrder_Review_Round3.md"])
+    assert _latest(root) == "round 4"
+
+
+def test_ruled_files_without_a_round_number_are_ordered_by_number_not_by_text(tmp_path):
+    root = _world(tmp_path, ["Doc_05_Review_Round1.md", "Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
+    _rule_for(root, "w", ["Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
+    assert _latest(root) == "ruled review Doc_05_CapRuling_Review10.md"
 
 
 def test_the_command_exits_nonzero_with_three_files_and_check_new(tmp_path):

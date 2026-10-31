@@ -118,6 +118,9 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
+from yaml_unique import load_unique, unique_key_loader  # noqa: E402,F401
 REPO_ROOT = HERE.parents[1]
 MAP_DIR = REPO_ROOT / "cic" / "corpus-map"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
@@ -165,41 +168,6 @@ NON_BUCKET_FILES = {
     "AUTHOR-IDS.yaml",    # an author identity registry (this file's own siblings' scope)
     "PAIRS.yaml",         # tradition-pair mutual-awareness rulings (Library Access Gate D3 CM-3)
 }
-
-
-def unique_key_loader():
-    """A SafeLoader that refuses a mapping which repeats a key. The stock
-    loader keeps the last value and says nothing, so a merge that wrote
-    `language` twice in one row passed every check."""
-    import yaml
-
-    class UniqueKeyLoader(yaml.SafeLoader):
-        def construct_mapping(self, node, deep=False):
-            if isinstance(node, yaml.MappingNode):
-                seen: set = set()
-                for key_node, _ in node.value:
-                    if key_node.tag == "tag:yaml.org,2002:merge":
-                        continue
-                    key = self.construct_object(key_node, deep=True)
-                    try:
-                        repeated = key in seen
-                    except TypeError:
-                        continue
-                    if repeated:
-                        raise yaml.constructor.ConstructorError(
-                            "while constructing a mapping", node.start_mark,
-                            f"repeated key {key!r}", key_node.start_mark)
-                    seen.add(key)
-            return super().construct_mapping(node, deep=deep)
-
-    return UniqueKeyLoader
-
-
-def load_unique(text: str):
-    """yaml.safe_load that raises yaml.YAMLError on a repeated mapping key."""
-    import yaml
-
-    return yaml.load(text, Loader=unique_key_loader())  # noqa: S506 - a SafeLoader subclass
 
 
 def load() -> dict[str, dict]:
@@ -320,22 +288,21 @@ def validate() -> list[str]:
     # exist. It is narrow on purpose: a slug is legal because a RULING exists,
     # never because a session was confident.
     unattributed = MAP_DIR / "UNATTRIBUTED.yaml"
-    if unattributed.is_file():
-        declared = (load_unique(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
-        known_authors |= set(declared)
+    import yaml
+
+    try:
+        if unattributed.is_file():
+            declared = (load_unique(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
+            known_authors |= set(declared)
+        voice_ids = set(ids) | pair_parties()
+        buckets_on_disk = load()
+    except yaml.YAMLError as err:
+        return [f"a map file cannot be read as YAML with unique keys: {err}"]
 
     # row_id -> (work, source_file, first place seen). A row lands in every
     # bucket its atlas_ids name, so one id may recur across buckets - but only
     # for the same work; inside one bucket it may not recur at all.
     row_ids: dict[str, tuple[str, str, str]] = {}
-    voice_ids = set(ids) | pair_parties()
-
-    import yaml
-
-    try:
-        buckets_on_disk = load()
-    except yaml.YAMLError as err:
-        return [f"a bucket cannot be read as YAML with unique keys: {err}"]
 
     for atlas_id, doc in buckets_on_disk.items():
         where = f"{atlas_id}.yaml"

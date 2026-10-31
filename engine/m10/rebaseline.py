@@ -62,7 +62,7 @@ def current_state(code: str, doc: int, root: Path = REPO_ROOT) -> State:
     found = review_files(code, doc, root)
     if not found:
         return State(0, "none", "none")
-    description, latest = latest_review(found, root)
+    description, latest = latest_review(found, root, code)
     return State(len(counted_review_files(code, doc, root)), description, verdict_word(latest))
 
 

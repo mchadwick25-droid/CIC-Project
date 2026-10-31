@@ -434,6 +434,17 @@ with tempfile.TemporaryDirectory() as _tmp:
     (Path(_tmp) / "dup-bucket.yaml").write_text("atlas_id: dup-bucket\nworks:\n" + _dup.replace("- work", "  - work").replace("\n  language", "\n    language"), encoding="utf-8")
     results.append(check("validate reports a bucket with a repeated key as a finding",
                          any("repeated key" in f for f in corpus_map.validate())))
+    (Path(_tmp) / "dup-bucket.yaml").unlink()
+    (Path(_tmp) / "UNATTRIBUTED.yaml").write_text("authors:\n  a: x\n  a: y\n", encoding="utf-8")
+    results.append(check("validate reports a repeated key in UNATTRIBUTED.yaml as a finding, not a crash",
+                         any("repeated key" in f for f in corpus_map.validate())))
+    (Path(_tmp) / "UNATTRIBUTED.yaml").unlink()
+    (Path(_tmp) / "PAIRS.yaml").write_text("parties:\n  p: 1\n  p: 2\n", encoding="utf-8")
+    results.append(check("validate reports a repeated key in PAIRS.yaml as a finding, not a crash",
+                         any("repeated key" in f for f in corpus_map.validate())))
+    _, _, _pf = corpus_map_merge.load_staging()
+    results.append(check("the merge read reports a repeated key in PAIRS.yaml as a finding",
+                         any("PAIRS.yaml" in f and "repeated key" in f for f in _pf)))
 corpus_map.MAP_DIR = _saved_dir
 
 
