@@ -2496,3 +2496,13 @@ Logged 2026-10-31.
 
 - **Open.** Gold labels for world-core and story items were made with the old pack. On 30 such items the fixed-pack judges disagree with 6 of the 13 gold-unsupported labels, and in five of the six read, both judges quote a field the old pack hid. These items need re-labelling before the held-out recall and false-alarm numbers are claimed for those record types.
 - **Owner.** Project lead, through the coordination thread.
+
+### OG-127. The mixed-voice speaker check runs on no lpc file (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open, not fixed now.** `engine/m10/quotes.py` runs its mixed-voice speaker check only on files that have at least one row with `voice_of`. After CO-S2-4 (`voice_of` set only where a party is ruled) none of lpc's 215 corpus-map rows carries it, so the check runs on no lpc file. Across the fleet one row of 3,875 carries `voice_of`.
+- **Reasoning.** Tried widening the check to every non-tradition row (context, antecedent, transmission), on lpc's 157 checked quotations: 3 findings, all in `Source_Registry.md` — two from the Codex Theodosianus web edition's own editorial disclaimer, one a modern essay quoting the votes of the 87 bishops. None presents a rival party's words as the tradition's. Where that risk is real, `engine/m9/confinement.py` (`gate_voicing_pair`) already flags an emic record citing a non-tradition row with no `voice_of`. A wider rule would change a fleet gate across 1,397 context rows for no harm found in lpc.
+- **No waiver.** The `ACCEPTED_OPEN` registers (`engine/m1/cross_world.py`, `engine/m9/enforce.py`) waive findings a run emits. This is a check that does not run, so no run emits a finding for it and no waiver key exists; an entry would be a stale waiver and fail the run. It is tracked here instead.
+- **Reopen when** a Step document quotes a non-tradition file as the tradition's voice, or another world's run of the widened rule finds a real case. The experiment's one-line change is `mixed = [r for r in file_rows if r.get("voice_of") or r.get("role") not in (None, "", "tradition")]`.
+- **Owner.** Project lead, through the coordination thread; the Library thread owns `engine/m10/quotes.py`.
