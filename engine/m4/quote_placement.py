@@ -174,13 +174,14 @@ def place_quotes(
                         reason, composed = REASON_NOT_SETTABLE, None
                     else:
                         refusal = placed_quote_refusal(composed, repository_records, index, record["id"])
+                        voice_lead_kept = refusal is None
                         if refusal == REASON_SPEAKER_UNNAMED:
                             code_lead = CODE_LEAD_IN.format(speaker=index.speaker_name(record))
                             repaired = f"{code_lead}: “{rendering}” [[{record['id']}]]"
                             if placed_quote_refusal(repaired, repository_records, index, record["id"]) is None:
                                 report.repaired.append({"draft": drafted, "why": REPAIR_LEAD_IN_UNNAMED, "lead_in": code_lead})
                                 composed, refusal = repaired, None
-                        if refusal is None:
+                        if voice_lead_kept:
                             checked = check_leadin(
                                 lead, record, repository_records,
                                 speaker_words=frozenset(w.lower() for w in re.findall(r"[^\W\d_]+", index.speaker_name(record))),

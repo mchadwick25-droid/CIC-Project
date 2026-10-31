@@ -135,3 +135,56 @@ def test_the_supporting_span_reaches_the_transparency_element_of_the_quote():
     )
     plan = build_transparency_plan(citations=citations, net_result=net_result, repository_records=RECORDS, world_key="fix", text=text)
     assert "leadin_support" not in next(e for e in plan["elements"] if e["kind"] == "quote")
+
+
+def _check(lead, **fields):
+    record = {**RECORDS["fix.quote.late"], **fields}
+    return check_leadin(lead, record, {**RECORDS, record["id"]: record}, speaker_words=_words())
+
+
+def test_common_capitalised_words_and_plurals_are_not_facts_to_source():
+    assert _check("Cyprian, reading the Scriptures, said")["unresolved"] == []
+    assert _check("Cyprian, speaking of Christ and the Church, said")["unresolved"] == []
+
+
+def test_a_role_is_matched_as_a_whole_word_not_a_five_letter_stem():
+    record = {"use_note": {"means": "We prefer to turn; the ordinary man may confess."}}
+    assert [d["detail"] for d in _check("Cyprian, as a prefect, said", **record)["unresolved"]] == ["prefect"]
+    assert [d["detail"] for d in _check("Cyprian, as a confessor, said", **record)["unresolved"]] == ["confessor"]
+
+
+def test_a_record_id_or_a_line_number_supports_nothing():
+    unsupported = _check("Cyprian preached", id="fix.quote.homily-of-love", sources=[{"source_id": "fix.source.address", "locus": "To Demetrianus, section 25"}])
+    assert [d["detail"] for d in unsupported["unresolved"]] == ["preach"]
+    numbered = _check("Cyprian said this in 410", sources=[{"locus": "To Demetrianus, cic/texts/x.xml, lines 400-410"}])
+    assert [d["detail"] for d in numbered["unresolved"]] == ["410"]
+
+
+def test_a_name_is_matched_with_its_capital_so_a_common_word_does_not_support_it():
+    checked = _check("Cyprian wrote to Mark", use_note={"means": "This is the mark of a true shepherd."})
+    assert [d["detail"] for d in checked["unresolved"]] == ["Mark"]
+
+
+def test_the_first_word_of_a_lead_in_is_checked_too():
+    assert [d["detail"] for d in _check("Ambrose heard Cyprian say")["unresolved"]] == ["Ambrose"]
+
+
+def test_a_lone_earlier_or_later_is_never_supported_by_a_stray_word():
+    checked = _check("Cyprian later said", use_note={"means": "Later writers often cited him."})
+    assert [d["kind"] for d in checked["unresolved"]] == ["time"]
+
+
+def test_a_plain_lowercase_fact_the_rules_list_is_checked():
+    assert [d["detail"] for d in _check("Cyprian, in exile, said")["unresolved"]] == ["exile"]
+    assert [d["detail"] for d in _check("Cyprian, writing to a friend, said")["unresolved"]] == ["friend"]
+
+
+def test_a_lead_in_code_already_replaced_for_naming_no_speaker_is_not_checked_again():
+    shaped = _place("At home in Carthage, the bishop said [[quote:fix.quote.late]].")
+    assert shaped["placed"] == ["fix.quote.late"]
+    assert [r["why"] for r in shaped["repaired"]] == ["lead-in named no speaker; replaced by code's"]
+    assert shaped["leadin_support"] == {}
+
+
+def test_an_ordinal_century_is_a_time_detail_to_source():
+    assert [d["kind"] for d in _check("Cyprian, in the third century, said")["unresolved"]] == ["time"]

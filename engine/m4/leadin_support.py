@@ -35,7 +35,8 @@ _WORD = re.compile(r"[A-Za-zÀ-ɏ][A-Za-zÀ-ɏ'’-]*")
 _NUMBER = re.compile(r"\b\d{2,4}\b")
 _TIME = re.compile(
     r"\b(?:(?:a|one|two|three|four|five|six|seven|eight|nine|ten|\d+)\s+(?:and a half\s+)?)?"
-    r"(?:years?|decades?|centur(?:y|ies))(?:\s+and a half)?\s+(?:earlier|later|before|after|ago)\b|\b(?:earlier|later)\b",
+    r"(?:years?|decades?|centur(?:y|ies))(?:\s+and a half)?\s+(?:earlier|later|before|after|ago)\b"
+    r"|\b(?:first|second|third|fourth|fifth|sixth)\s+century\b|\b(?:earlier|later)\b",
     re.IGNORECASE,
 )
 
@@ -43,11 +44,12 @@ _TIME = re.compile(
 # occasion. Each must be found in a source span.
 ROLE_WORDS = (
     "bishop", "presbyter", "priest", "deacon", "emperor", "proconsul", "martyr", "confessor", "pope",
-    "catechumen", "teacher", "governor", "prefect",
+    "catechumen", "teacher", "governor", "prefect", "monk", "abbot", "judge", "magistrate",
+    "friend", "brother", "sister", "mother", "father", "son", "daughter", "disciple", "pupil", "colleague",
 )
 OCCASION_WORDS = (
     "council", "synod", "conference", "debate", "trial", "sentence", "persecution", "plague", "baptism",
-    "ordination", "election",
+    "ordination", "election", "exile", "deathbed", "conversion", "imprisonment", "siege", "banishment",
 )
 # A genre word in the lead-in is supported by any of the cue words beside it.
 GENRE_CUES = {
@@ -58,12 +60,21 @@ GENRE_CUES = {
     ),
 }
 # Capitalised words that are not a name to be sourced.
-NOT_A_NAME = frozenset({"In", "I", "It", "He", "She", "They", "We", "This", "That", "The", "A", "An", "And", "But", "So", "Then", "English"})
+NOT_A_NAME = frozenset({
+    "In", "I", "It", "He", "She", "They", "We", "This", "That", "The", "A", "An", "And", "But", "So", "Then", "English",
+    "Here", "There", "As", "When", "After", "Before", "While", "On", "At", "For", "To", "Of", "With", "From", "By", "His", "Her",
+    "Their", "Our", "One", "Another", "Later", "Earlier",
+    "Church", "Churches", "Scripture", "Scriptures", "Gospel", "Gospels", "Christ", "Lord", "God", "Holy", "Spirit",
+    "Bible", "Testament", "Psalm", "Psalms", "Word", "Catholic",
+})
 
 
-def _stem(word: str) -> str:
-    word = word.lower().strip("'’-")
-    return word[:5] if len(word) > 5 else word
+PROSE_SKIP_KEYS = frozenset({
+    "id", "record_type", "world_id", "schema_version", "status", "register", "canon_cells", "license", "source_id",
+    "confidence", "speaker_or_author", "target", "type",
+})
+_RECORD_ID = re.compile(r"\b[a-z0-9]+\.[a-z_]+\.[a-z0-9][a-z0-9.-]*\b")
+_LINE_NUMBERS = re.compile(r"\blines?\s*\d+(?:\s*[-–]\s*\d+)?", re.IGNORECASE)
 
 
 @functools.lru_cache(maxsize=64)
@@ -78,29 +89,27 @@ def extract_details(lead: str, speaker_words: frozenset[str]) -> list[dict]:
     plain = strip_tags(lead)
     plain = re.sub(r"^\s*In today[’']s English,?\s*", "", plain)
     details: list[dict] = []
-    sentence_start = True
     for match in _WORD.finditer(plain):
         word = re.sub(r"['’]s$", "", match.group(0))
-        before = plain[: match.start()].rstrip()
-        sentence_start = not before or before[-1] in ".!?:"
-        if word[0].isupper() and not sentence_start and word not in NOT_A_NAME and word.lower() not in speaker_words:
+        if word[0].isupper() and word not in NOT_A_NAME and word.lower() not in speaker_words:
             if not any(d["text"] == word for d in details):
                 details.append({"kind": "name", "text": word, "needs": (word,)})
     for number in _NUMBER.findall(plain):
         details.append({"kind": "number", "text": number, "needs": (number,)})
     lowered = plain.lower()
     for word in ROLE_WORDS:
-        if re.search(rf"\b{word}", lowered):
+        if re.search(rf"\b{word}(?:s|es)?\b", lowered):
             details.append({"kind": "role", "text": word, "needs": (word,)})
     for word in OCCASION_WORDS:
-        if re.search(rf"\b{word}", lowered):
+        if re.search(rf"\b{word}(?:s|es)?\b", lowered):
             details.append({"kind": "occasion", "text": word, "needs": (word,)})
     for genre, (triggers, cues) in GENRE_CUES.items():
         trigger = next((t for t in triggers if re.search(rf"\b{t}", lowered)), None)
         if trigger:
             details.append({"kind": "genre", "text": trigger, "needs": cues})
     for time in _TIME.finditer(plain):
-        details.append({"kind": "time", "text": time.group(0), "needs": (time.group(0),)})
+        phrase = time.group(0)
+        details.append({"kind": "time", "text": phrase, "needs": (phrase,) if " " in phrase else ()})
     return details
 
 
@@ -114,10 +123,10 @@ def _record_text(record: dict) -> str:
 
     def walk(value):
         if isinstance(value, str):
-            parts.append(_PATH.sub(" ", value))
+            parts.append(_LINE_NUMBERS.sub(" ", _RECORD_ID.sub(" ", _PATH.sub(" ", value))))
         elif isinstance(value, dict):
             for key, item in value.items():
-                if key not in PROHIBITION_KEYS:
+                if key not in PROHIBITION_KEYS and key not in PROSE_SKIP_KEYS:
                     walk(item)
         elif isinstance(value, list):
             for item in value:
@@ -168,11 +177,14 @@ def support_pool(record: dict, records: dict[str, dict], texts_root: Path) -> li
 def _supporting_span(detail: dict, pool: list[tuple[str, str]]) -> dict | None:
     for span_id, text in pool:
         for need in detail["needs"]:
-            if detail["kind"] in ("name", "number", "time"):
-                pattern = rf"(?<![\w]){re.escape(need)}(?![\w])"
+            if detail["kind"] == "name":
+                found = re.search(rf"(?<![\w]){re.escape(need)}(?:s|es|'s|’s)?(?![\w])", text)
+            elif detail["kind"] in ("number", "time"):
+                found = re.search(rf"(?<![\w]){re.escape(need)}(?![\w])", text, re.IGNORECASE)
+            elif detail["kind"] == "genre":
+                found = re.search(rf"(?<![\w]){re.escape(need)}", text, re.IGNORECASE)
             else:
-                pattern = rf"(?<![\w]){re.escape(_stem(need))}"
-            found = re.search(pattern, text, re.IGNORECASE)
+                found = re.search(rf"(?<![\w]){re.escape(need)}(?:s|es)?(?![\w])", text, re.IGNORECASE)
             if found:
                 start = max(0, found.start() - SNIPPET_CHARS)
                 snippet = " ".join(text[start: found.end() + SNIPPET_CHARS].split())
