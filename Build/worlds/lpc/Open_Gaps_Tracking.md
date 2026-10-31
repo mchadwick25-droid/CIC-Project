@@ -2537,3 +2537,12 @@ Logged 2026-10-31.
 - **System fix built.** `engine/m4/unbound_step.py` (PR #1398): a sentence the net withheld is taken out; an unbound claim about the world is withheld; a denial of what the sources hold is checked against the shelf. On the shadow run it removes 5 of the 6. q024 still ships. q093 and q024 are treated as system failures (the voice widened a record's scope; the shelf holds the thing). No record edit.
 - **Open.** The shelf search is lexical, so a denial whose thing the shelf names in other words can pass (q024: Possidius 27). A production version needs a model-based passage finder, which is a paid step and needs Mark's named, capped approval.
 - **Owner.** Engine thread, through the coordination thread.
+
+### OG-132. A limit claim the shelf search could not catch, and two verify gaps (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The second fresh 30-answer reading found 6 serious answers: four voiced a limit ("our record is silent", "we know only") that the shelf contradicts, one used a pronoun whose referent the answer never settled, one stated two records of different confidence as one inference. The shelf search had run on two of the four limits and did not flag them.
+- **System fix built.** A limit sentence is kept only when a record it is bound to states that limit with its scope; unbound or unstated limits are withheld, with a fixed fallback sentence when no limit remains. The verify step now reads a referring word with the sentence before it, and caps a sentence at the lowest confidence level of the records it is bound to. No record edit.
+- **Open.** The fallback sentence is a fixed string, not wording reviewed from the world's own records. A same-answer check across sentences (two bound sentences that together state a merged inference) is not built.
+- **Owner.** Engine thread, through the coordination thread.

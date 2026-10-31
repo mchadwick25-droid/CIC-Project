@@ -691,3 +691,11 @@ Coordination-level, AI-reviewed (not Mark's own words). Mark's own words on paci
 - Shadow run, built before Stage 2 (`Stage4_Change_Order_Shadow_Before_Stage2.md`), free and in plan, not the Stage 4 proof. 106 questions answered. Verify read 343 cited sentences: 292 fine, 51 flagged (33 added detail, 8 stronger force, 4 widened scope, 4 unresolved referent, 1 dropped scope, 1 other); 42 rewrites used, 9 sentences taken out. Fit to the question, 52 placed quotes and stories: 24 fits, 23 partly, 5 off-point.
 - Fresh reading, seed 20261101, 30 answers (8 sealed, 20 other, 2 fit traps), one Opus reader: 6 serious, 24 acceptable. No invented quotation or fact. All 6 said the record is silent on something the shelf covers. A reading, not a measurement.
 - Ruling (coordination): fix the mechanism, not the phrasing. Built as the unbound-sentence step (#1398); logged as OG-131. Result on the same run: 5 of the 6 removed; mean answer 146 to 122 words.
+
+## 47. Stage 4: a limit no record states is always withheld; two verify gaps closed (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). The decision follows the second fresh 30-answer reading (seed 20261031, 8 sealed, 20 other, 2 fit traps, one Opus reader): 6 serious, 24 acceptable, no invented quotation or fact.
+
+- Four of the six said the record is silent on something the shelf covers, again. The lexical shelf search cannot catch these by design, since a silence claim can be phrased without end. Ruling: stop searching the shelf. A sentence a reader classes as a limit stays only when it is bound to a record that states that limit with its scope (`absence_rule.check_limit`, no cue phrase needed); otherwise it is withheld. When withheld limits leave an answer with no statement of limits, a fixed fallback sentence stands in the place of the first. No paid passage finder is needed.
+- Two verify gaps, both system: a word that refers back (a pronoun) is now read with the sentence before it and must be settled by the bound records; a sentence bound to records of different formation confidence may name no level above the lowest of them, and the import applies that cap whatever the judge said.
+- Built as one code pull request. The terms and shelf stages of the unbound step are removed.
