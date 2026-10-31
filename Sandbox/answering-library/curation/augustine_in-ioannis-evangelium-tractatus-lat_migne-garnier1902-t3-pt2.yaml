@@ -1,7 +1,7 @@
 file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
 scheme: 'PL 35 (Garnier 1902), the whole volume. Each work stands at its own top level, and the Migne column numbers are page furniture, not addresses. In Ioannis Evangelium tractates I-CXXIV and In Epistolam Ioannis ad Parthos tractates I-X are addressed by the numeral printed on each bare TRACTATUS head (tr26). Under a tractate, the printed paragraph numbers (tr5/p9) where the paragraphs of that tractate read as one unbroken series, and para-line followed by the line number of the head where they do not (a head too damaged to read stays inside the paragraph before it); 54 Gospel tractates and all 10 Epistle tractates are not divided below the tractate. Quaestiones Evangeliorum book 1 by printed quaestio number, De mirabilibus books 1 and 2 by printed caput number; every other quaestio, proposition, paragraph, caput and homilia is addressed by its kind and the line of its printed head, because the OCR numerals of those series do not read reliably; a head too damaged to find stays inside the item before it.'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 language: lat
 apparatus:
   - {lines: [12, 331], kind: front, locus: 'front-matter'}
