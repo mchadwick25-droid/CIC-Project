@@ -1,7 +1,7 @@
 file: koch_cathedra-petri-deu_1930.txt
 scheme: 'Koch''s parts printed as roman numerals I to III with their titles (the Einleitung is unnumbered), part I with sections 1 to 3 and part II with sections 1 to 6, each printed as an arabic numeral at the head of the section; the paragraphs headed Zusatz, the Nachträge and the Namenverzeichnis as printed'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 178
     locus: vorwort
