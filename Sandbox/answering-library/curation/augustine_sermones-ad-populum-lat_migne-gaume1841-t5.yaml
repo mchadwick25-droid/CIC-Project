@@ -1,7 +1,7 @@
 file: augustine_sermones-ad-populum-lat_migne-gaume1841-t5.txt
 scheme: 'Maurist sermon numbers I-CCCXCVI (the four classes and the doubtful sermons), printed as SERMO and a roman numeral at the head of each sermon, with the numbered CAPUT chapters as a second level in the sermons over 5,000 words; the Appendix of supposititious sermons carries its own numbering from I and is addressed under the appendix; a number whose heading the scan lost has no division; the fragments of lost sermons are addressed by line'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: class
     pattern: '^(?:S\. AUREL\w+ AUG\w+|CLASSIS V\.)$'
@@ -28,6 +28,7 @@ rules:
       - {line: 71810, set: {n: '188'}}
       - {line: 71943, set: {n: 'CLXXXIX'}}
       - {line: 73375, set: {n: 'CXCVIII'}}
+      - {line: 74548, quote: 'SERMOCCV', set: {n: 'CCV'}}
       - {line: 78909, set: {n: 'CCXXVII'}}
       - {line: 79818, set: {n: 'CCXXXIII'}}
       - {line: 80806, set: {n: '238'}}
@@ -39,6 +40,7 @@ rules:
       - {line: 93493, set: {n: '288'}}
       - {line: 97968, set: {n: 'CCXCVIII'}}
       - {line: 101085, set: {n: 'CCCVIII'}}
+      - {line: 103509, quote: 'SERMOCCCXX', set: {n: 'CCCXX'}}
       - {line: 104246, set: {n: '328'}}
       - {line: 105056, set: {n: '333'}}
       - {line: 105875, set: {n: '337'}}
@@ -48,6 +50,7 @@ rules:
       - {line: 118205, set: {n: '368'}}
       - {line: 119091, set: {n: '373'}}
       - {line: 119495, set: {n: 'CCCLXXVI'}}
+      - {line: 119267, quote: 'CCCLIXIV', set: {n: 'CCCLXXIV'}}
       - {line: 119694, set: {n: '377'}}
       - {line: 119765, set: {n: '378'}}
       - {line: 120571, set: {n: '382'}}
@@ -58,8 +61,8 @@ rules:
       - {line: 121807, set: {n: '388'}}
       - {line: 121962, set: {n: '389'}}
   - id: appendix
-    pattern: '^OPERUM S\. AUGUSTINI$'
-    lines: [124429, 124429]
+    pattern: '^CL\wSSIS PRIMA\.$'
+    lines: [124451, 124451]
     locus: appendix
     division: false
   - id: appendix-sermon
@@ -73,6 +76,7 @@ rules:
       - {line: 124456, set: {n: 'I'}}
       - {line: 125064, set: {n: 'III'}}
       - {line: 131141, set: {n: 'XXXIII'}}
+      - {line: 131777, quote: 'XXX Vi', set: {n: 'XXXVI'}}
       - {line: 135486, set: {n: 'LX'}}
       - {line: 135581, set: {n: 'LXI'}}
       - {line: 136688, set: {n: 'LXV'}}
@@ -85,9 +89,12 @@ rules:
       - {line: 151266, set: {n: 'CXLVII'}}
       - {line: 152266, set: {n: 'CLIII'}}
       - {line: 156003, set: {n: 'CLXXVII'}}
+      - {line: 157714, quote: 'sKP.MOCXCI', set: {n: 'CXCI'}}
       - {line: 157219, set: {n: '188'}}
       - {line: 161840, set: {n: 'CCXV'}}
       - {line: 162022, set: {n: 'CCXVI'}}
+      - {line: 163526, quote: 'CGXXVII', set: {n: 'CCXXVII'}}
+      - {line: 164184, quote: 'SERMO (XXXXI', set: {n: 'CCXXXI'}}
       - {line: 165381, set: {n: '238'}}
       - {line: 167511, set: {n: 'CCL'}}
       - {line: 167660, set: {n: 'CCLII'}}
@@ -103,26 +110,45 @@ rules:
     locus: 'fragmentum-line{line}'
   - id: chapter
     pattern: '^(?:C|G)[A-Za-z\\.'']{1,6}?\.?\s*\.?(?P<c>PRIMUM|PRIMU\.M|PIUMUM|PHIMUM|PMMUM|PKIMUM|PHIMU\.M|[IVXLCDMilW1][A-Za-z0-9\\]{0,8})\.?,?\s*[—-]'
-    lines: [[1391, 2728], [4382, 5569], [13450, 14257], [15322, 16396], [20842, 22406], [23573, 25151], [25153, 25848], [31568, 33105], [38506, 39525], [47362, 48092], [65472, 66280], [90254, 91059], [95891, 96814], [109710, 110729], [110731, 111433], [114349, 115246]]
+    lines: [[4382, 5569], [13450, 14257], [20842, 22406], [31568, 33105], [47362, 48092], [95891, 96814], [109710, 110729], [110731, 111433]]
     parent: sermon
     locus: 'cap{c|int}'
     number: c
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
-      - {line: 1396, set: {c: 'I'}}
+      - {line: 14181, quote: 'C VPUT XXVII', set: {c: 'XXVII'}}
       - {line: 4384, set: {c: 'I'}}
-      - {line: 15332, set: {c: 'I'}}
       - {line: 20848, set: {c: 'I'}}
+      - {line: 95897, set: {c: 'I'}}
+      - {line: 109711, set: {c: 'I'}}
+      - {line: 110734, quote: 'CAPUT rUIML.M.', set: {c: 'I'}}
+      - {line: 14022, quote: 'OAPUT XXI', set: {c: 'XXI'}}
+      - {line: 47367, quote: 'CAPUT PHl.MUM.', set: {c: 'I'}}
+  - id: chapter-open
+    pattern: '^(?:C|G)[A-Za-z\\.'']{1,6}?\.?\s*\.?(?P<c>PRIMUM|PRIMU\.M|PIUMUM|PHIMUM|PMMUM|PKIMUM|PHIMU\.M|[IVXLCDMilW1][A-Za-z0-9\\]{0,8})\.?,?\s*[—-]'
+    lines: [[1391, 2728], [15322, 16396], [23573, 25151], [25153, 25848], [38506, 39525], [65472, 66280], [90254, 91059], [114349, 115246]]
+    parent: sermon
+    locus: 'cap{c|int}'
+    ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
+    fixes:
+      - {line: 1396, set: {c: 'I'}}
+      - {line: 1531, quote: 'CAPUT VI. — 7.', set: {c: 'VI'}}
+      - {line: 1559, quote: "CAPUT V.'", set: {c: 'V'}}
+      - {line: 1839, quote: 'CAPUT XIII .', set: {c: 'XIII'}}
+      - {line: 2003, quote: 'CAPIJT X VI', set: {c: 'XVI'}}
+      - {line: 15332, set: {c: 'I'}}
       - {line: 23577, set: {c: 'I'}}
       - {line: 24729, set: {c: 'XVIII'}}
       - {line: 24915, set: {c: 'XXI'}}
+      - {line: 24990, quote: 'CAPOT XXIV.', set: {c: 'XXIV'}}
       - {line: 38512, set: {c: 'I'}}
       - {line: 65480, set: {c: 'I'}}
       - {line: 90262, set: {c: 'I'}}
-      - {line: 95897, set: {c: 'I'}}
-      - {line: 109711, set: {c: 'I'}}
+      - {line: 90715, quote: 'K CAPUT XII.', set: {c: 'XII'}}
       - {line: 114352, set: {c: 'I'}}
       - {line: 115135, set: {c: 'XX'}}
+      - {line: 25158, quote: 'CAPUT Plil.MUM.', set: {c: 'I'}}
+      - {line: 38695, quote: 'CAPI T V', set: {c: 'V'}}
   - id: chapter-46
     pattern: '^(?:C|G)[A-Za-z\\.'']{1,6}?\.?\s*\.?(?P<c>PRIMUM|PRIMU\.M|PIUMUM|PHIMUM|PMMUM|PKIMUM|PHIMU\.M|[IVXLCDMilW1][A-Za-z0-9\\]{0,8})\.?,?\s*[—-]'
     lines: [19030, 20840]
@@ -139,6 +165,7 @@ rules:
     ocr_map: {'1': 'I', 'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C'}
     fixes:
       - {line: 115251, set: {c: 'I'}}
+      - {line: 115389, quote: 'CAPI T V', set: {c: 'V'}}
       - {line: 116218, set: {c: 'XVIII'}}
 evidence:
   - line: 699
@@ -301,6 +328,8 @@ evidence:
     quote: 'S. AURELIX AUGUSTINI'
   - line: 124429
     quote: 'OPERUM S. AUGUSTINI'
+  - line: 124451
+    quote: 'CLdSSIS PRIMA.'
   - line: 124456
     quote: 'SERMO PRIMUS (a).'
   - line: 124898
@@ -371,39 +400,82 @@ evidence:
     quote: 'SERMOCCCH (a).'
   - line: 180458
     quote: 'INDEX RERUM.'
+  - line: 1531
+    quote: 'CAPUT VI. — 7.'
+  - line: 1559
+    quote: "CAPUT V.'—"
+  - line: 1839
+    quote: 'CAPUT XIII .'
+  - line: 2003
+    quote: 'CAPIJT X VI.'
+  - line: 14022
+    quote: 'OAPUT XXI.'
+  - line: 14181
+    quote: 'C VPUT XXVII.'
+  - line: 24990
+    quote: 'CAPOT XXIV.'
+  - line: 25158
+    quote: 'CAPUT Plil.MUM.'
+  - line: 38695
+    quote: 'CAPI T V.'
+  - line: 38758
+    quote: 'CMMTA VII et VIII.'
+  - line: 47367
+    quote: 'CAPUT PHl.MUM.'
+  - line: 90715
+    quote: 'K CAPUT XII.'
+  - line: 110734
+    quote: 'CAPUT rUIML.M.'
+  - line: 115389
+    quote: 'CAPI T V.'
+  - line: 74548
+    quote: 'SERMOCCV».'
+  - line: 103509
+    quote: 'SERMOCCCXX».'
+  - line: 119267
+    quote: '8ERM0 CCCLIXIV * (a).'
+  - line: 131777
+    quote: 'SERMO XXX Vi (a).'
+  - line: 157714
+    quote: 'sKP.MOCXCI (/>).'
+  - line: 163526
+    quote: '.SERMO CGXXVII (a).'
+  - line: 164184
+    quote: 'SERMO (XXXXI (a).'
 divisions:
-  - {start_line: 8552, locus: sermon19}
-  - {start_line: 11588, locus: sermon26}
-  - {start_line: 16397, locus: sermon38}
-  - {start_line: 19029, locus: sermon46}
-  - {start_line: 33324, locus: sermon73}
-  - {start_line: 35412, locus: sermon81}
-  - {start_line: 39916, locus: sermon90}
-  - {start_line: 40507, locus: sermon91}
-  - {start_line: 41537, locus: sermon95}
-  - {start_line: 47100, locus: sermon116}
-  - {start_line: 48093, locus: sermon118}
-  - {start_line: 48532, locus: sermon121}
-  - {start_line: 54594, locus: sermon138}
-  - {start_line: 57170, locus: sermon148}
-  - {start_line: 70171, locus: sermon181}
-  - {start_line: 73165, locus: sermon197}
-  - {start_line: 75159, locus: sermon210}
-  - {start_line: 78255, locus: sermon223}
-  - {start_line: 79049, locus: sermon228}
-  - {start_line: 79158, locus: sermon229}
-  - {start_line: 79250, locus: sermon231}
-  - {start_line: 86689, locus: sermon262}
-  - {start_line: 101237, locus: sermon309}
-  - {start_line: 105489, locus: sermon335}
-  - {start_line: 106065, locus: sermon338}
-  - {start_line: 115247, locus: sermon362}
+  - {start_line: 38758, locus: cap07-08, parent: sermon}
+  - {start_line: 8552, locus: sermon19, number: 19, series: sermon}
+  - {start_line: 11588, locus: sermon26, number: 26, series: sermon}
+  - {start_line: 16397, locus: sermon38, number: 38, series: sermon}
+  - {start_line: 19029, locus: sermon46, number: 46, series: sermon}
+  - {start_line: 33324, locus: sermon73, number: 73, series: sermon}
+  - {start_line: 35412, locus: sermon81, number: 81, series: sermon}
+  - {start_line: 39916, locus: sermon90, number: 90, series: sermon}
+  - {start_line: 40507, locus: sermon91, number: 91, series: sermon}
+  - {start_line: 41537, locus: sermon95, number: 95, series: sermon}
+  - {start_line: 47100, locus: sermon116, number: 116, series: sermon}
+  - {start_line: 48093, locus: sermon118, number: 118, series: sermon}
+  - {start_line: 48532, locus: sermon121, number: 121, series: sermon}
+  - {start_line: 54594, locus: sermon138, number: 138, series: sermon}
+  - {start_line: 57170, locus: sermon148, number: 148, series: sermon}
+  - {start_line: 70171, locus: sermon181, number: 181, series: sermon}
+  - {start_line: 73165, locus: sermon197, number: 197, series: sermon}
+  - {start_line: 75159, locus: sermon210, number: 210, series: sermon}
+  - {start_line: 78255, locus: sermon223, number: 223, series: sermon}
+  - {start_line: 79049, locus: sermon228, number: 228, series: sermon}
+  - {start_line: 79158, locus: sermon229, number: 229, series: sermon}
+  - {start_line: 79250, locus: sermon231, number: 231, series: sermon}
+  - {start_line: 86689, locus: sermon262, number: 262, series: sermon}
+  - {start_line: 101237, locus: sermon309, number: 309, series: sermon}
+  - {start_line: 105489, locus: sermon335, number: 335, series: sermon}
+  - {start_line: 106065, locus: sermon338, number: 338, series: sermon}
+  - {start_line: 115247, locus: sermon362, number: 362, series: sermon}
   - {start_line: 123341, locus: fragmenta-line123341}
-  - {start_line: 124898, locus: appendix/sermon2}
-  - {start_line: 140820, locus: appendix/sermon89}
-  - {start_line: 145003, locus: appendix/sermon109}
-  - {start_line: 153722, locus: appendix/sermon159}
-  - {start_line: 158848, locus: appendix/sermon197}
+  - {start_line: 124898, locus: appendix/sermon2, number: 2, series: appendix-sermon}
+  - {start_line: 140820, locus: appendix/sermon89, number: 89, series: appendix-sermon}
+  - {start_line: 145003, locus: appendix/sermon109, number: 109, series: appendix-sermon}
+  - {start_line: 153722, locus: appendix/sermon159, number: 159, series: appendix-sermon}
+  - {start_line: 158848, locus: appendix/sermon197, number: 197, series: appendix-sermon}
 ignore:
   - pattern: '^Dig\w{3,9} +by\b.{0,12}$'
     kind: scan-notice
@@ -411,7 +483,7 @@ apparatus:
   - lines: [12, 698]
     kind: front
     locus: front
-  - lines: [124428, 124455]
+  - lines: [124428, 124450]
     kind: front
     locus: appendix-front
   - lines: [180458, 196090]
