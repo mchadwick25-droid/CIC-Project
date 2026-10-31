@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1894, end: 1894, source: "toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt header, Publication Date: 1894", formation_confidence: Documented}
     note: >
       Modern (1894) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The Numidian volume of Toulotte's geography of the African

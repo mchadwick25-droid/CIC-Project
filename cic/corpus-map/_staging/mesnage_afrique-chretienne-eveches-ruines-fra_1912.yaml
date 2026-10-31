@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1912, end: 1912, source: "mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt header, Publication Date: 1912", formation_confidence: Documented}
     note: >
       Modern (1912) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. A reference work on the sees and ancient sites of Christian North

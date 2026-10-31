@@ -9,6 +9,19 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.iv.i, iv.iv.ii, iv.iv.ii/notes, iv.iv.iii, iv.iv.iii/notes, iv.iv.iv, iv.iv.v,
+    iv.iv.vi, iv.iv.vii, iv.iv.viii, iv.iv.ix, iv.iv.ix/notes, iv.iv.x, iv.iv.x/notes, iv.iv.xi,
+    iv.iv.xi/notes, iv.iv.xii, iv.iv.xii/notes, iv.iv.xiii, iv.iv.xiii/notes, iv.iv.xiv,
+    iv.iv.xiv/notes, iv.iv.xv, iv.iv.xv/notes, iv.iv.xvi, iv.iv.xvi/notes, iv.iv.xvii,
+    iv.iv.xvii/notes, iv.iv.xviii, iv.iv.xviii/notes, iv.iv.xix, iv.iv.xix/notes, iv.iv.xx,
+    iv.iv.xx/notes, iv.iv.xxi, iv.iv.xxi/notes, iv.iv.xxii, iv.iv.xxii/notes, iv.iv.xxiii,
+    iv.iv.xxiii/notes, iv.iv.xxiv, iv.iv.xxv, iv.iv.xxv/notes, iv.iv.xxvi, iv.iv.xxvi/notes,
+    iv.iv.xxvii, iv.iv.xxvii/notes, iv.iv.xxviii, iv.iv.xxviii/notes, iv.iv.xxix, iv.iv.xxix/notes,
+    iv.iv.xxx, iv.iv.xxx/notes, iv.iv.xxxi, iv.iv.xxxi/notes, iv.iv.xxxii, iv.iv.xxxii/notes,
+    iv.iv.xxxiii, iv.iv.xxxiii/notes, iv.iv.xxxiv, iv.iv.xxxv, iv.iv.xxxv/notes, iv.iv.xxxvi,
+    iv.iv.xxxvi/notes, iv.iv.xxxvii, iv.iv.xxxvii/notes]
+  language: eng
+  date: {start: 388, end: 388, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.4 and 4.5 headings: a.d. 388; P1 agrees", formation_confidence: Widely Accepted}
   note: 'First half of the paired De Moribus (388), answering the Manichaean charge against
     Catholic ethics. Positive exposition of Catholic morals, but written as anti-Manichaean
     polemic and grouped so by CCEL — dual assignment with its companion below.
@@ -37,6 +50,19 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.v.i, iv.v.ii, iv.v.iii, iv.v.iii/notes, iv.v.iv, iv.v.iv/notes, iv.v.v,
+    iv.v.v/notes, iv.v.vi, iv.v.vii, iv.v.viii, iv.v.ix, iv.v.ix/notes, iv.v.x, iv.v.x/notes,
+    iv.v.xi, iv.v.xi/notes, iv.v.xii, iv.v.xiii, iv.v.xiii/notes, iv.v.xiv, iv.v.xv, iv.v.xv/notes,
+    iv.v.xvi, iv.v.xvi/notes, iv.v.xvii, iv.v.xviii/line2941, iv.v.xviii/line2951,
+    iv.v.xviii/line2958, iv.v.xviii/line2964, iv.v.xviii/line2972, iv.v.xviii/line2978,
+    iv.v.xviii/line2985, iv.v.xviii/line2991, iv.v.xviii/line2997, iv.v.xviii/line3004,
+    iv.v.xviii/line3009, iv.v.xviii/line3020, iv.v.xviii/line3027, iv.v.xviii/line3034,
+    iv.v.xviii/line3040, iv.v.xviii/notes, iv.v.xix/line3051, iv.v.xix/line3061, iv.v.xix/line3069,
+    iv.v.xix/line3074, iv.v.xix/line3081, iv.v.xix/line3086, iv.v.xix/line3092, iv.v.xix/line3099,
+    iv.v.xix/line3105, iv.v.xix/line3111, iv.v.xix/line3117, iv.v.xix/notes, iv.v.xx, iv.v.xx/notes,
+    iv.v.xxi, iv.v.xxi/notes, iv.v.xxii]
+  language: eng
+  date: {start: 388, end: 388, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.4 and 4.5 headings: a.d. 388; P1 agrees", formation_confidence: Widely Accepted}
   note: 'Second half of De Moribus: a detailed, hostile description of Manichaean ethics —
     the three seals, the elect and auditors — from a former auditor. One of the principal
     Latin sources on Manichaean practice.
@@ -65,6 +91,13 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.vi.i, iv.vi.ii, iv.vi.ii/notes, iv.vi.iii, iv.vi.iii/notes, iv.vi.iv, iv.vi.v,
+    iv.vi.v/notes, iv.vi.vi, iv.vi.vii, iv.vi.viii, iv.vi.viii/notes, iv.vi.ix, iv.vi.ix/notes,
+    iv.vi.x, iv.vi.x/notes, iv.vi.xi, iv.vi.xi/notes, iv.vi.xii, iv.vi.xii/notes, iv.vi.xiii,
+    iv.vi.xiii/notes, iv.vi.xiv, iv.vi.xiv/notes, iv.vi.xv, iv.vi.xv/notes, iv.vi.xvi,
+    iv.vi.xvi/notes]
+  language: eng
+  date: {start: 391, end: 391, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.6 heading: a.d. 391", formation_confidence: Widely Accepted}
   note: 'Refutation (c. 391) of the Manichaean doctrine of two souls; states the doctrine
     in order to refute it.
 
@@ -91,6 +124,17 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.vii.i, iv.vii.ii/line3671, iv.vii.ii/line3703, iv.vii.ii/line3717,
+    iv.vii.ii/line3722, iv.vii.ii/line3727, iv.vii.ii/line3752, iv.vii.ii/line3757,
+    iv.vii.ii/line3763, iv.vii.ii/line3776, iv.vii.ii/line3794, iv.vii.ii/line3800,
+    iv.vii.ii/line3813, iv.vii.ii/line3826, iv.vii.ii/line3833, iv.vii.ii/line3850,
+    iv.vii.ii/line3861, iv.vii.ii/line3866, iv.vii.ii/line3880, iv.vii.ii/notes,
+    iv.vii.iii/line3895, iv.vii.iii/line3915, iv.vii.iii/line3925, iv.vii.iii/line3934,
+    iv.vii.iii/line3943, iv.vii.iii/line3955, iv.vii.iii/line3960, iv.vii.iii/line3966,
+    iv.vii.iii/line3983, iv.vii.iii/line4000, iv.vii.iii/line4009, iv.vii.iii/line4018,
+    iv.vii.iii/line4050, iv.vii.iii/line4059, iv.vii.iii/line4085, iv.vii.iii/notes]
+  language: eng
+  date: {start: 392, end: 392, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.7 heading: a.d. 392", formation_confidence: Widely Accepted}
   note: 'Transcript of the public debate at Hippo (392). Unusual in that it records Fortunatus''
     own words at length — as close to a Manichaean voice as this volume comes, though preserved
     by the winning side; a builder using it for the manichaeism entry should know the frame
@@ -121,6 +165,19 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.viii.i, iv.viii.ii, iv.viii.ii/notes, iv.viii.iii, iv.viii.iii/notes, iv.viii.iv,
+    iv.viii.v, iv.viii.vi, iv.viii.vi/notes, iv.viii.vii, iv.viii.vii/notes, iv.viii.viii,
+    iv.viii.ix, iv.viii.x, iv.viii.x/notes, iv.viii.xi, iv.viii.xi/notes, iv.viii.xii, iv.viii.xiii,
+    iv.viii.xiv, iv.viii.xiv/notes, iv.viii.xv, iv.viii.xvi, iv.viii.xvi/notes, iv.viii.xvii,
+    iv.viii.xvii/notes, iv.viii.xviii, iv.viii.xix, iv.viii.xx, iv.viii.xxi, iv.viii.xxii,
+    iv.viii.xxiii, iv.viii.xxiv, iv.viii.xxv, iv.viii.xxv/notes, iv.viii.xxvi, iv.viii.xxvii,
+    iv.viii.xxvii/notes, iv.viii.xxviii, iv.viii.xxix, iv.viii.xxx, iv.viii.xxxi, iv.viii.xxxii,
+    iv.viii.xxxii/notes, iv.viii.xxxiii, iv.viii.xxxiv, iv.viii.xxxv, iv.viii.xxxvi, iv.viii.xxxvii,
+    iv.viii.xxxviii, iv.viii.xxxviii/notes, iv.viii.xxxix, iv.viii.xxxix/notes, iv.viii.xl,
+    iv.viii.xl/notes, iv.viii.xli, iv.viii.xli/notes, iv.viii.xlii, iv.viii.xliii,
+    iv.viii.xliii/notes, iv.viii.xliv, iv.viii.xliv/notes]
+  language: eng
+  date: {start: 397, end: 397, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.8 heading: a.d. 397", formation_confidence: Widely Accepted}
   note: 'Refutation (397) that quotes Mani''s Fundamental Epistle verbatim as it goes — a
     primary Manichaean text surviving in Latin only through this work''s quotations.
 
@@ -147,6 +204,104 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.ix.i, iv.ix.ii, iv.ix.iii, iv.ix.iii/notes, iv.ix.iv, iv.ix.iv/notes, iv.ix.v,
+    iv.ix.v/notes, iv.ix.vi, iv.ix.vi/notes, iv.ix.vii/line5197, iv.ix.vii/line5212,
+    iv.ix.vii/line5219, iv.ix.vii/line5225, iv.ix.vii/line5233, iv.ix.vii/line5242,
+    iv.ix.vii/line5254, iv.ix.vii/line5263, iv.ix.vii/line5273, iv.ix.vii/line5281, iv.ix.vii/notes,
+    iv.ix.viii/line5295, iv.ix.viii/line5310, iv.ix.viii/line5317, iv.ix.viii/line5326,
+    iv.ix.viii/line5339, iv.ix.viii/line5346, iv.ix.viii/line5357, iv.ix.viii/line5365,
+    iv.ix.viii/line5382, iv.ix.viii/line5390, iv.ix.viii/line5398, iv.ix.viii/notes, iv.ix.ix,
+    iv.ix.ix/notes, iv.ix.x, iv.ix.x/notes, iv.ix.xi, iv.ix.xi/notes, iv.ix.xii, iv.ix.xii/notes,
+    iv.ix.xiii/line5543, iv.ix.xiii/line5559, iv.ix.xiii/line5568, iv.ix.xiii/line5579,
+    iv.ix.xiii/line5585, iv.ix.xiii/line5592, iv.ix.xiii/line5598, iv.ix.xiii/line5611,
+    iv.ix.xiii/notes, iv.ix.xiv/line5635, iv.ix.xiv/line5650, iv.ix.xiv/line5657,
+    iv.ix.xiv/line5663, iv.ix.xiv/line5670, iv.ix.xiv/line5676, iv.ix.xiv/line5683,
+    iv.ix.xiv/line5695, iv.ix.xiv/line5702, iv.ix.xiv/line5709, iv.ix.xiv/line5718,
+    iv.ix.xiv/line5726, iv.ix.xiv/line5733, iv.ix.xiv/line5741, iv.ix.xiv/line5747,
+    iv.ix.xiv/line5752, iv.ix.xiv/line5762, iv.ix.xiv/line5769, iv.ix.xiv/line5776,
+    iv.ix.xiv/line5782, iv.ix.xiv/line5788, iv.ix.xiv/line5799, iv.ix.xiv/line5810,
+    iv.ix.xiv/line5824, iv.ix.xiv/line5834, iv.ix.xiv/line5841, iv.ix.xiv/line5848,
+    iv.ix.xiv/line5854, iv.ix.xiv/line5861, iv.ix.xiv/line5871, iv.ix.xiv/line5877,
+    iv.ix.xiv/line5886, iv.ix.xiv/line5892, iv.ix.xiv/line5899, iv.ix.xiv/line5907,
+    iv.ix.xiv/line5916, iv.ix.xiv/line5928, iv.ix.xiv/line5934, iv.ix.xiv/line5942,
+    iv.ix.xiv/line5949, iv.ix.xiv/line5955, iv.ix.xiv/line5962, iv.ix.xiv/notes, iv.ix.xv/line5975,
+    iv.ix.xv/line5993, iv.ix.xv/line5999, iv.ix.xv/line6004, iv.ix.xv/line6012, iv.ix.xv/line6022,
+    iv.ix.xv/line6030, iv.ix.xv/line6039, iv.ix.xv/line6047, iv.ix.xv/line6053, iv.ix.xv/line6059,
+    iv.ix.xv/line6066, iv.ix.xv/line6073, iv.ix.xv/line6078, iv.ix.xv/line6085, iv.ix.xv/line6092,
+    iv.ix.xv/line6103, iv.ix.xv/line6112, iv.ix.xv/notes, iv.ix.xvi/line6131, iv.ix.xvi/line6151,
+    iv.ix.xvi/line6157, iv.ix.xvi/line6163, iv.ix.xvi/line6168, iv.ix.xvi/line6173,
+    iv.ix.xvi/line6181, iv.ix.xvi/line6189, iv.ix.xvi/line6202, iv.ix.xvi/line6215,
+    iv.ix.xvi/line6226, iv.ix.xvi/notes, iv.ix.xvii/line6242, iv.ix.xvii/line6260,
+    iv.ix.xvii/line6267, iv.ix.xvii/line6276, iv.ix.xvii/line6288, iv.ix.xvii/line6297,
+    iv.ix.xvii/line6311, iv.ix.xvii/line6326, iv.ix.xvii/line6339, iv.ix.xvii/line6348,
+    iv.ix.xvii/line6356, iv.ix.xvii/notes, iv.ix.xviii/line6372, iv.ix.xviii/line6388,
+    iv.ix.xviii/line6394, iv.ix.xviii/line6400, iv.ix.xviii/line6405, iv.ix.xviii/line6412,
+    iv.ix.xviii/line6419, iv.ix.xviii/line6424, iv.ix.xviii/line6432, iv.ix.xviii/line6438,
+    iv.ix.xviii/line6444, iv.ix.xviii/line6453, iv.ix.xviii/line6461, iv.ix.xviii/line6471,
+    iv.ix.xviii/line6480, iv.ix.xviii/line6488, iv.ix.xviii/line6493, iv.ix.xviii/line6502,
+    iv.ix.xviii/line6507, iv.ix.xviii/line6517, iv.ix.xviii/line6525, iv.ix.xviii/line6532,
+    iv.ix.xviii/line6543, iv.ix.xviii/line6550, iv.ix.xviii/line6561, iv.ix.xviii/line6569,
+    iv.ix.xviii/line6579, iv.ix.xviii/line6585, iv.ix.xviii/line6594, iv.ix.xviii/line6603,
+    iv.ix.xviii/line6609, iv.ix.xviii/line6623, iv.ix.xviii/line6629, iv.ix.xviii/notes, iv.ix.xix,
+    iv.ix.xix/notes, iv.ix.xx, iv.ix.xx/notes, iv.ix.xxi/line6769, iv.ix.xxi/line6783,
+    iv.ix.xxi/line6789, iv.ix.xxi/line6798, iv.ix.xxi/line6805, iv.ix.xxi/line6813,
+    iv.ix.xxi/line6821, iv.ix.xxi/line6830, iv.ix.xxi/line6836, iv.ix.xxi/line6843,
+    iv.ix.xxi/line6850, iv.ix.xxi/line6856, iv.ix.xxi/line6861, iv.ix.xxi/line6872,
+    iv.ix.xxi/line6886, iv.ix.xxi/line6893, iv.ix.xxi/line6899, iv.ix.xxi/line6906,
+    iv.ix.xxi/line6920, iv.ix.xxi/line6925, iv.ix.xxi/line6933, iv.ix.xxi/line6939,
+    iv.ix.xxi/line6952, iv.ix.xxi/line6962, iv.ix.xxi/line6977, iv.ix.xxi/line6984,
+    iv.ix.xxi/line6992, iv.ix.xxi/line7001, iv.ix.xxi/line7007, iv.ix.xxi/notes,
+    iv.ix.xxii/line7022, iv.ix.xxii/line7036, iv.ix.xxii/line7040, iv.ix.xxii/line7046,
+    iv.ix.xxii/line7055, iv.ix.xxii/line7063, iv.ix.xxii/line7070, iv.ix.xxii/line7080,
+    iv.ix.xxii/line7090, iv.ix.xxii/line7104, iv.ix.xxii/line7116, iv.ix.xxii/line7131,
+    iv.ix.xxii/line7137, iv.ix.xxii/line7145, iv.ix.xxii/line7154, iv.ix.xxii/line7162,
+    iv.ix.xxii/line7167, iv.ix.xxii/line7175, iv.ix.xxii/line7183, iv.ix.xxii/line7189,
+    iv.ix.xxii/line7195, iv.ix.xxii/line7213, iv.ix.xxii/line7220, iv.ix.xxii/notes,
+    iv.ix.xxiii/line7241, iv.ix.xxiii/line7257, iv.ix.xxiii/line7265, iv.ix.xxiii/line7273,
+    iv.ix.xxiii/line7281, iv.ix.xxiii/line7289, iv.ix.xxiii/line7296, iv.ix.xxiii/line7302,
+    iv.ix.xxiii/line7313, iv.ix.xxiii/line7323, iv.ix.xxiii/line7334, iv.ix.xxiii/line7341,
+    iv.ix.xxiii/line7348, iv.ix.xxiii/line7358, iv.ix.xxiii/line7370, iv.ix.xxiii/line7376,
+    iv.ix.xxiii/notes, iv.ix.xxiv/line7401, iv.ix.xxiv/line7414, iv.ix.xxiv/line7423,
+    iv.ix.xxiv/line7434, iv.ix.xxiv/line7439, iv.ix.xxiv/line7445, iv.ix.xxiv/line7455,
+    iv.ix.xxiv/line7462, iv.ix.xxiv/line7468, iv.ix.xxiv/line7473, iv.ix.xxiv/line7479,
+    iv.ix.xxiv/line7486, iv.ix.xxiv/line7494, iv.ix.xxiv/line7506, iv.ix.xxiv/line7514,
+    iv.ix.xxiv/line7522, iv.ix.xxiv/line7528, iv.ix.xxiv/line7537, iv.ix.xxiv/line7547,
+    iv.ix.xxiv/line7577, iv.ix.xxiv/line7583, iv.ix.xxiv/line7596, iv.ix.xxiv/line7603,
+    iv.ix.xxiv/line7611, iv.ix.xxiv/line7619, iv.ix.xxiv/line7631, iv.ix.xxiv/line7638,
+    iv.ix.xxiv/line7646, iv.ix.xxiv/line7653, iv.ix.xxiv/line7660, iv.ix.xxiv/line7666,
+    iv.ix.xxiv/line7673, iv.ix.xxiv/line7680, iv.ix.xxiv/line7687, iv.ix.xxiv/line7692,
+    iv.ix.xxiv/line7699, iv.ix.xxiv/line7704, iv.ix.xxiv/line7715, iv.ix.xxiv/line7723,
+    iv.ix.xxiv/line7729, iv.ix.xxiv/line7737, iv.ix.xxiv/line7744, iv.ix.xxiv/line7754,
+    iv.ix.xxiv/line7762, iv.ix.xxiv/line7771, iv.ix.xxiv/line7786, iv.ix.xxiv/line7793,
+    iv.ix.xxiv/line7800, iv.ix.xxiv/line7804, iv.ix.xxiv/line7814, iv.ix.xxiv/line7820,
+    iv.ix.xxiv/line7829, iv.ix.xxiv/line7842, iv.ix.xxiv/line7852, iv.ix.xxiv/line7857,
+    iv.ix.xxiv/line7862, iv.ix.xxiv/line7868, iv.ix.xxiv/line7874, iv.ix.xxiv/line7883,
+    iv.ix.xxiv/line7891, iv.ix.xxiv/line7897, iv.ix.xxiv/line7905, iv.ix.xxiv/line7914,
+    iv.ix.xxiv/line7921, iv.ix.xxiv/line7929, iv.ix.xxiv/line7936, iv.ix.xxiv/line7944,
+    iv.ix.xxiv/line7950, iv.ix.xxiv/line7959, iv.ix.xxiv/line7968, iv.ix.xxiv/line7978,
+    iv.ix.xxiv/line7990, iv.ix.xxiv/line7996, iv.ix.xxiv/line8001, iv.ix.xxiv/line8007,
+    iv.ix.xxiv/line8017, iv.ix.xxiv/line8024, iv.ix.xxiv/line8030, iv.ix.xxiv/line8035,
+    iv.ix.xxiv/line8043, iv.ix.xxiv/line8050, iv.ix.xxiv/line8063, iv.ix.xxiv/line8074,
+    iv.ix.xxiv/line8080, iv.ix.xxiv/line8087, iv.ix.xxiv/line8095, iv.ix.xxiv/line8101,
+    iv.ix.xxiv/line8107, iv.ix.xxiv/notes, iv.ix.xxv/line8140, iv.ix.xxv/line8152,
+    iv.ix.xxv/line8161, iv.ix.xxv/line8168, iv.ix.xxv/line8181, iv.ix.xxv/line8188,
+    iv.ix.xxv/line8192, iv.ix.xxv/line8202, iv.ix.xxv/line8212, iv.ix.xxv/notes, iv.ix.xxvi,
+    iv.ix.xxvi/notes, iv.ix.xxvii, iv.ix.xxvii/notes, iv.ix.xxviii/line8309, iv.ix.xxviii/line8326,
+    iv.ix.xxviii/line8333, iv.ix.xxviii/line8342, iv.ix.xxviii/line8348, iv.ix.xxviii/line8357,
+    iv.ix.xxviii/line8366, iv.ix.xxviii/line8373, iv.ix.xxviii/notes, iv.ix.xxix, iv.ix.xxx,
+    iv.ix.xxx/notes, iv.ix.xxxi, iv.ix.xxxi/notes, iv.ix.xxxii/line8513, iv.ix.xxxii/line8527,
+    iv.ix.xxxii/line8539, iv.ix.xxxii/line8553, iv.ix.xxxii/line8561, iv.ix.xxxii/notes,
+    iv.ix.xxxiii, iv.ix.xxxiii/notes, iv.ix.xxxiv/line8624, iv.ix.xxxiv/line8637,
+    iv.ix.xxxiv/line8645, iv.ix.xxxiv/line8651, iv.ix.xxxiv/line8657, iv.ix.xxxiv/line8664,
+    iv.ix.xxxiv/line8670, iv.ix.xxxiv/line8677, iv.ix.xxxiv/line8684, iv.ix.xxxiv/line8690,
+    iv.ix.xxxiv/line8696, iv.ix.xxxiv/line8702, iv.ix.xxxiv/line8707, iv.ix.xxxiv/line8716,
+    iv.ix.xxxiv/line8725, iv.ix.xxxiv/line8731, iv.ix.xxxiv/line8742, iv.ix.xxxiv/line8748,
+    iv.ix.xxxiv/line8756, iv.ix.xxxiv/line8765, iv.ix.xxxiv/line8772, iv.ix.xxxiv/line8778,
+    iv.ix.xxxiv/notes, iv.ix.xxxv/line8794, iv.ix.xxxv/line8811, iv.ix.xxxv/line8823,
+    iv.ix.xxxv/line8830, iv.ix.xxxv/line8837, iv.ix.xxxv/line8843, iv.ix.xxxv/line8855,
+    iv.ix.xxxv/line8865, iv.ix.xxxv/line8873, iv.ix.xxxv/notes]
+  language: eng
+  date: {start: 400, end: 400, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.9 heading: a.d. 400, 'written about the year 400'", formation_confidence: Widely Accepted}
   note: 'The largest anti-Manichaean work (c. 400), and the most valuable text in this volume
     for the manichaeism entry: each book opens by reproducing Faustus'' Capitula in his own
     words before answering, so the fullest surviving statement of Manichaean biblical criticism
@@ -177,6 +332,19 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.x.i, iv.x.ii, iv.x.iii, iv.x.iv, iv.x.v, iv.x.vi, iv.x.vii, iv.x.viii, iv.x.ix,
+    iv.x.x, iv.x.xi, iv.x.xii, iv.x.xiii, iv.x.xiv, iv.x.xv, iv.x.xv/notes, iv.x.xvi, iv.x.xvii,
+    iv.x.xviii, iv.x.xviii/notes, iv.x.xix, iv.x.xx, iv.x.xx/notes, iv.x.xxi, iv.x.xxi/notes,
+    iv.x.xxii, iv.x.xxii/notes, iv.x.xxiii, iv.x.xxiii/notes, iv.x.xxiv, iv.x.xxiv/notes, iv.x.xxv,
+    iv.x.xxvi, iv.x.xxvi/notes, iv.x.xxvii, iv.x.xxvii/notes, iv.x.xxviii, iv.x.xxviii/notes,
+    iv.x.xxix, iv.x.xxix/notes, iv.x.xxx, iv.x.xxx/notes, iv.x.xxxi, iv.x.xxxi/notes, iv.x.xxxii,
+    iv.x.xxxii/notes, iv.x.xxxiii, iv.x.xxxiii/notes, iv.x.xxxiv, iv.x.xxxiv/notes, iv.x.xxxv,
+    iv.x.xxxv/notes, iv.x.xxxvi, iv.x.xxxvi/notes, iv.x.xxxvii, iv.x.xxxvii/notes, iv.x.xxxviii,
+    iv.x.xxxviii/notes, iv.x.xxxix, iv.x.xl, iv.x.xli, iv.x.xli/notes, iv.x.xlii, iv.x.xlii/notes,
+    iv.x.xliii, iv.x.xliv, iv.x.xlv, iv.x.xlvi, iv.x.xlvii, iv.x.xlviii, iv.x.xlix, iv.x.l,
+    iv.x.l/notes]
+  language: eng
+  date: {start: 405, end: 405, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.10 heading: c. a.d. 405; the notice adds 'written after the year 404'", formation_confidence: Dominant Modern Reconstruction}
   note: 'Late (c. 404) statement of evil as privation against Manichaean dualism; quotes from
     Mani''s Thesaurus and Fundamental Epistle.
 
@@ -204,6 +372,83 @@ assignments:
   - donatism
   role: tradition
   confidence: assigned
+  locus_ids: [v.iv.i, v.iv.ii, v.iv.iii, v.iv.iii.i, v.iv.iii.i/notes, v.iv.iii.ii, v.iv.iii.iii,
+    v.iv.iii.iv, v.iv.iii.iv/notes, v.iv.iii.v, v.iv.iii.v/notes, v.iv.iii.vi, v.iv.iii.vi/notes,
+    v.iv.iii.vii, v.iv.iii.vii/notes, v.iv.iii.viii, v.iv.iii.viii/notes, v.iv.iii.ix,
+    v.iv.iii.ix/notes, v.iv.iii.x, v.iv.iii.x/notes, v.iv.iii.xi, v.iv.iii.xi/notes, v.iv.iii.xii,
+    v.iv.iii.xii/notes, v.iv.iii.xiii, v.iv.iii.xiv, v.iv.iii.xv, v.iv.iii.xv/notes, v.iv.iii.xvi,
+    v.iv.iii.xvi/notes, v.iv.iii.xvii, v.iv.iii.xvii/notes, v.iv.iii.xviii, v.iv.iii.xviii/notes,
+    v.iv.iii.xix, v.iv.iii.xix/notes, v.iv.iv, v.iv.iv.i, v.iv.iv.i/notes, v.iv.iv.ii,
+    v.iv.iv.ii/notes, v.iv.iv.iii, v.iv.iv.iv, v.iv.iv.iv/notes, v.iv.iv.v, v.iv.iv.v/notes,
+    v.iv.iv.vi, v.iv.iv.vi/notes, v.iv.iv.vii, v.iv.iv.vii/notes, v.iv.iv.viii, v.iv.iv.viii/notes,
+    v.iv.iv.ix, v.iv.iv.ix/notes, v.iv.iv.x, v.iv.iv.x/notes, v.iv.iv.xi, v.iv.iv.xi/notes,
+    v.iv.iv.xii, v.iv.iv.xii/notes, v.iv.iv.xiii, v.iv.iv.xiii/notes, v.iv.iv.xiv,
+    v.iv.iv.xiv/notes, v.iv.iv.xv, v.iv.iv.xv/notes, v.iv.v, v.iv.v.i, v.iv.v.i/notes, v.iv.v.ii,
+    v.iv.v.iii, v.iv.v.iii/notes, v.iv.v.iv, v.iv.v.iv/notes, v.iv.v.v, v.iv.v.v/notes, v.iv.v.vi,
+    v.iv.v.vi/notes, v.iv.v.vii, v.iv.v.vii/notes, v.iv.v.viii, v.iv.v.viii/notes, v.iv.v.ix,
+    v.iv.v.ix/notes, v.iv.v.x, v.iv.v.x/notes, v.iv.v.xi, v.iv.v.xi/notes, v.iv.v.xii,
+    v.iv.v.xii/notes, v.iv.v.xiii, v.iv.v.xiii/notes, v.iv.v.xiv, v.iv.v.xiv/notes, v.iv.v.xv,
+    v.iv.v.xv/notes, v.iv.v.xvi, v.iv.v.xvi/notes, v.iv.v.xvii, v.iv.v.xvii/notes, v.iv.v.xviii,
+    v.iv.v.xviii/notes, v.iv.v.xix, v.iv.v.xix/notes, v.iv.vi, v.iv.vi.i, v.iv.vi.i/notes,
+    v.iv.vi.ii, v.iv.vi.ii/notes, v.iv.vi.iii, v.iv.vi.iii/notes, v.iv.vi.iv, v.iv.vi.iv/notes,
+    v.iv.vi.v, v.iv.vi.v/notes, v.iv.vi.vi, v.iv.vi.vi/notes, v.iv.vi.vii, v.iv.vi.vii/notes,
+    v.iv.vi.viii, v.iv.vi.viii/notes, v.iv.vi.ix, v.iv.vi.ix/notes, v.iv.vi.x, v.iv.vi.x/notes,
+    v.iv.vi.xi, v.iv.vi.xi/notes, v.iv.vi.xii, v.iv.vi.xii/notes, v.iv.vi.xiii, v.iv.vi.xiii/notes,
+    v.iv.vi.xiv, v.iv.vi.xiv/notes, v.iv.vi.xv, v.iv.vi.xv/notes, v.iv.vi.xvi, v.iv.vi.xvi/notes,
+    v.iv.vi.xvii, v.iv.vi.xvii/notes, v.iv.vi.xviii, v.iv.vi.xviii/notes, v.iv.vi.xix,
+    v.iv.vi.xix/notes, v.iv.vi.xx, v.iv.vi.xxi, v.iv.vi.xxi/notes, v.iv.vi.xxii, v.iv.vi.xxii/notes,
+    v.iv.vi.xxiii, v.iv.vi.xxiv, v.iv.vi.xxiv/notes, v.iv.vi.xxv, v.iv.vi.xxvi, v.iv.vi.xxvi/notes,
+    v.iv.vii, v.iv.vii.i, v.iv.vii.i/notes, v.iv.vii.ii, v.iv.vii.ii/notes, v.iv.vii.iii,
+    v.iv.vii.iii/notes, v.iv.vii.iv, v.iv.vii.v, v.iv.vii.vi, v.iv.vii.vi/notes, v.iv.vii.vii,
+    v.iv.vii.vii/notes, v.iv.vii.viii, v.iv.vii.viii/notes, v.iv.vii.ix, v.iv.vii.ix/notes,
+    v.iv.vii.x, v.iv.vii.x/notes, v.iv.vii.xi, v.iv.vii.xi/notes, v.iv.vii.xii, v.iv.vii.xii/notes,
+    v.iv.vii.xiii, v.iv.vii.xiii/notes, v.iv.vii.xiv, v.iv.vii.xiv/notes, v.iv.vii.xv,
+    v.iv.vii.xv/notes, v.iv.vii.xvi, v.iv.vii.xvi/notes, v.iv.vii.xvii, v.iv.vii.xvii/notes,
+    v.iv.vii.xviii, v.iv.vii.xviii/notes, v.iv.vii.xix, v.iv.vii.xix/notes, v.iv.vii.xx,
+    v.iv.vii.xx/notes, v.iv.vii.xxi, v.iv.vii.xxi/notes, v.iv.vii.xxii, v.iv.vii.xxii/notes,
+    v.iv.vii.xxiii, v.iv.vii.xxiii/notes, v.iv.vii.xxiv, v.iv.vii.xxiv/notes, v.iv.vii.xxv,
+    v.iv.vii.xxv/notes, v.iv.vii.xxvi, v.iv.vii.xxvi/notes, v.iv.vii.xxvii, v.iv.vii.xxvii/notes,
+    v.iv.vii.xxviii, v.iv.vii.xxviii/notes, v.iv.viii, v.iv.viii.i, v.iv.viii.i/notes, v.iv.viii.ii,
+    v.iv.viii.ii/notes, v.iv.viii.iii, v.iv.viii.iii/notes, v.iv.viii.iv, v.iv.viii.v, v.iv.viii.vi,
+    v.iv.viii.vi/notes, v.iv.viii.vii, v.iv.viii.vii/notes, v.iv.viii.viii, v.iv.viii.viii/notes,
+    v.iv.viii.ix, v.iv.viii.ix/notes, v.iv.viii.x, v.iv.viii.x/notes, v.iv.viii.xi,
+    v.iv.viii.xi/notes, v.iv.viii.xii, v.iv.viii.xii/notes, v.iv.viii.xiii, v.iv.viii.xiii/notes,
+    v.iv.viii.xiv, v.iv.viii.xiv/notes, v.iv.viii.xv, v.iv.viii.xv/notes, v.iv.viii.xvi,
+    v.iv.viii.xvi/notes, v.iv.viii.xvii, v.iv.viii.xvii/notes, v.iv.viii.xviii,
+    v.iv.viii.xviii/notes, v.iv.viii.xix, v.iv.viii.xix/notes, v.iv.viii.xx, v.iv.viii.xx/notes,
+    v.iv.viii.xxi, v.iv.viii.xxi/notes, v.iv.viii.xxii, v.iv.viii.xxii/notes, v.iv.viii.xxiii,
+    v.iv.viii.xxiii/notes, v.iv.viii.xxiv, v.iv.viii.xxiv/notes, v.iv.viii.xxv, v.iv.viii.xxv/notes,
+    v.iv.viii.xxvi, v.iv.viii.xxvi/notes, v.iv.viii.xxvii, v.iv.viii.xxvii/notes, v.iv.viii.xxviii,
+    v.iv.viii.xxviii/notes, v.iv.viii.xxix, v.iv.viii.xxix/notes, v.iv.viii.xxx,
+    v.iv.viii.xxx/notes, v.iv.viii.xxxi, v.iv.viii.xxxi/notes, v.iv.viii.xxxii,
+    v.iv.viii.xxxii/notes, v.iv.viii.xxxiii, v.iv.viii.xxxiii/notes, v.iv.viii.xxxiv,
+    v.iv.viii.xxxiv/notes, v.iv.viii.xxxv, v.iv.viii.xxxv/notes, v.iv.viii.xxxvi,
+    v.iv.viii.xxxvi/notes, v.iv.viii.xxxvii, v.iv.viii.xxxvii/notes, v.iv.viii.xxxviii,
+    v.iv.viii.xxxviii/notes, v.iv.viii.xxxix, v.iv.viii.xxxix/notes, v.iv.viii.xl,
+    v.iv.viii.xl/notes, v.iv.viii.xli, v.iv.viii.xli/notes, v.iv.viii.xlii, v.iv.viii.xlii/notes,
+    v.iv.viii.xliii, v.iv.viii.xliii/notes, v.iv.viii.xliv, v.iv.viii.xliv/notes, v.iv.ix,
+    v.iv.ix.i, v.iv.ix.i/notes, v.iv.ix.ii, v.iv.ix.ii/notes, v.iv.ix.iii, v.iv.ix.iii/notes,
+    v.iv.ix.iv, v.iv.ix.iv/notes, v.iv.ix.v, v.iv.ix.v/notes, v.iv.ix.vi, v.iv.ix.vi/notes,
+    v.iv.ix.vii, v.iv.ix.vii/notes, v.iv.ix.viii, v.iv.ix.viii/notes, v.iv.ix.ix, v.iv.ix.ix/notes,
+    v.iv.ix.x, v.iv.ix.x/notes, v.iv.ix.xi, v.iv.ix.xi/notes, v.iv.ix.xii, v.iv.ix.xii/notes,
+    v.iv.ix.xiii, v.iv.ix.xiii/notes, v.iv.ix.xiv, v.iv.ix.xiv/notes, v.iv.ix.xv, v.iv.ix.xv/notes,
+    v.iv.ix.xvi, v.iv.ix.xvi/notes, v.iv.ix.xvii, v.iv.ix.xvii/notes, v.iv.ix.xviii,
+    v.iv.ix.xviii/notes, v.iv.ix.xix, v.iv.ix.xix/notes, v.iv.ix.xx, v.iv.ix.xx/notes, v.iv.ix.xxi,
+    v.iv.ix.xxi/notes, v.iv.ix.xxii, v.iv.ix.xxii/notes, v.iv.ix.xxiii, v.iv.ix.xxiii/notes,
+    v.iv.ix.xxiv, v.iv.ix.xxiv/notes, v.iv.ix.xxv, v.iv.ix.xxv/notes, v.iv.ix.xxvi,
+    v.iv.ix.xxvi/notes, v.iv.ix.xxvii, v.iv.ix.xxvii/notes, v.iv.ix.xxviii, v.iv.ix.xxviii/notes,
+    v.iv.ix.xxix, v.iv.ix.xxix/notes, v.iv.ix.xxx, v.iv.ix.xxx/notes, v.iv.ix.xxxi,
+    v.iv.ix.xxxi/notes, v.iv.ix.xxxii, v.iv.ix.xxxii/notes, v.iv.ix.xxxiii, v.iv.ix.xxxiii/notes,
+    v.iv.ix.xxxiv, v.iv.ix.xxxiv/notes, v.iv.ix.xxxv, v.iv.ix.xxxv/notes, v.iv.ix.xxxvi,
+    v.iv.ix.xxxvi/notes, v.iv.ix.xxxvii, v.iv.ix.xxxvii/notes, v.iv.ix.xxxviii,
+    v.iv.ix.xxxviii/notes, v.iv.ix.xxxix, v.iv.ix.xxxix/notes, v.iv.ix.xl, v.iv.ix.xl/notes,
+    v.iv.ix.xli, v.iv.ix.xli/notes, v.iv.ix.xlii, v.iv.ix.xlii/notes, v.iv.ix.xliii,
+    v.iv.ix.xliii/notes, v.iv.ix.xliv, v.iv.ix.xliv/notes, v.iv.ix.xlv, v.iv.ix.xlv/notes,
+    v.iv.ix.xlvi, v.iv.ix.xlvi/notes, v.iv.ix.xlvii, v.iv.ix.xlvii/notes, v.iv.ix.xlviii,
+    v.iv.ix.xlviii/notes, v.iv.ix.xlix, v.iv.ix.xlix/notes, v.iv.ix.l, v.iv.ix.l/notes, v.iv.ix.li,
+    v.iv.ix.li/notes, v.iv.ix.lii, v.iv.ix.liii, v.iv.ix.liii/notes, v.iv.ix.liv, v.iv.ix.liv/notes]
+  language: eng
+  date: {start: 400, end: 400, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 5.4 heading: circa a.d. 400; P1 gives 400; Source_Registry row 13 gives c. 400", formation_confidence: Widely Accepted}
   note: 'The central treatise (c. 400) on the validity of schismatic baptism. Also a major
     conduit for Cyprian: it argues through the acts of Cyprian''s baptismal councils at length,
     and Cyprian''s Carthage belongs to this same Latin pastoral entry — one bucket carries
@@ -219,6 +464,71 @@ assignments:
   - donatism
   role: tradition
   confidence: assigned
+  locus_ids: [v.v.i, v.v.ii, v.v.iii, v.v.iii.i, v.v.iii.i/notes, v.v.iii.ii, v.v.iii.iii,
+    v.v.iii.iii/notes, v.v.iii.iv, v.v.iii.v, v.v.iii.v/notes, v.v.iii.vi, v.v.iii.vii,
+    v.v.iii.vii/notes, v.v.iii.viii, v.v.iii.viii/notes, v.v.iii.ix, v.v.iii.ix/notes, v.v.iii.x,
+    v.v.iii.x/notes, v.v.iii.xi, v.v.iii.xii, v.v.iii.xiii, v.v.iii.xiii/notes, v.v.iii.xiv,
+    v.v.iii.xv, v.v.iii.xv/notes, v.v.iii.xvi, v.v.iii.xvii, v.v.iii.xviii, v.v.iii.xviii/notes,
+    v.v.iii.xix, v.v.iii.xix/notes, v.v.iii.xx, v.v.iii.xx/notes, v.v.iii.xxi, v.v.iii.xxi/notes,
+    v.v.iii.xxii, v.v.iii.xxii/notes, v.v.iii.xxiii, v.v.iii.xxiii/notes, v.v.iii.xxiv,
+    v.v.iii.xxiv/notes, v.v.iii.xxv, v.v.iii.xxvi, v.v.iii.xxvi/notes, v.v.iii.xxvii,
+    v.v.iii.xxvii/notes, v.v.iii.xxviii, v.v.iii.xxix, v.v.iii.xxix/notes, v.v.iv, v.v.iv/notes,
+    v.v.iv.i, v.v.iv.ii, v.v.iv.ii/notes, v.v.iv.iii, v.v.iv.iv, v.v.iv.iv/notes, v.v.iv.v,
+    v.v.iv.v/notes, v.v.iv.vi, v.v.iv.vi/notes, v.v.iv.vii, v.v.iv.vii/notes, v.v.iv.viii,
+    v.v.iv.viii/notes, v.v.iv.ix, v.v.iv.x, v.v.iv.x/notes, v.v.iv.xi, v.v.iv.xii, v.v.iv.xii/notes,
+    v.v.iv.xiii, v.v.iv.xiii/notes, v.v.iv.xiv, v.v.iv.xiv/notes, v.v.iv.xv, v.v.iv.xv/notes,
+    v.v.iv.xvi, v.v.iv.xvi/notes, v.v.iv.xvii, v.v.iv.xviii, v.v.iv.xviii/notes, v.v.iv.xix,
+    v.v.iv.xix/notes, v.v.iv.xx, v.v.iv.xx/notes, v.v.iv.xxi, v.v.iv.xxi/notes, v.v.iv.xxii,
+    v.v.iv.xxii/notes, v.v.iv.xxiii, v.v.iv.xxiii/notes, v.v.iv.xxiv, v.v.iv.xxiv/notes, v.v.iv.xxv,
+    v.v.iv.xxvi, v.v.iv.xxvi/notes, v.v.iv.xxvii, v.v.iv.xxvii/notes, v.v.iv.xxviii,
+    v.v.iv.xxviii/notes, v.v.iv.xxix, v.v.iv.xxx, v.v.iv.xxx/notes, v.v.iv.xxxi, v.v.iv.xxxi/notes,
+    v.v.iv.xxxii, v.v.iv.xxxii/notes, v.v.iv.xxxiii, v.v.iv.xxxiii/notes, v.v.iv.xxxiv, v.v.iv.xxxv,
+    v.v.iv.xxxv/notes, v.v.iv.xxxvi, v.v.iv.xxxvi/notes, v.v.iv.xxxvii, v.v.iv.xxxvii/notes,
+    v.v.iv.xxxviii, v.v.iv.xxxviii/notes, v.v.iv.xxxix, v.v.iv.xxxix/notes, v.v.iv.xl,
+    v.v.iv.xl/notes, v.v.iv.xli, v.v.iv.xli/notes, v.v.iv.xlii, v.v.iv.xliii, v.v.iv.xliii/notes,
+    v.v.iv.xliv, v.v.iv.xliv/notes, v.v.iv.xlv, v.v.iv.xlvi, v.v.iv.xlvi/notes, v.v.iv.xlvii,
+    v.v.iv.xlvii/notes, v.v.iv.xlviii, v.v.iv.xlviii/notes, v.v.iv.xlix, v.v.iv.xlix/notes,
+    v.v.iv.l, v.v.iv.li, v.v.iv.li/notes, v.v.iv.lii, v.v.iv.lii/notes, v.v.iv.liii,
+    v.v.iv.liii/notes, v.v.iv.liv, v.v.iv.lv, v.v.iv.lv/notes, v.v.iv.lvi, v.v.iv.lvi/notes,
+    v.v.iv.lvii, v.v.iv.lviii, v.v.iv.lviii/notes, v.v.iv.lix, v.v.iv.lix/notes, v.v.iv.lx,
+    v.v.iv.lxi, v.v.iv.lxi/notes, v.v.iv.lxii, v.v.iv.lxii/notes, v.v.iv.lxiii, v.v.iv.lxiv,
+    v.v.iv.lxiv/notes, v.v.iv.lxv, v.v.iv.lxv/notes, v.v.iv.lxvi, v.v.iv.lxvii, v.v.iv.lxvii/notes,
+    v.v.iv.lxviii, v.v.iv.lxix, v.v.iv.lxix/notes, v.v.iv.lxx, v.v.iv.lxx/notes, v.v.iv.lxxi,
+    v.v.iv.lxxi/notes, v.v.iv.lxxii, v.v.iv.lxxii/notes, v.v.iv.lxxiii, v.v.iv.lxxiii/notes,
+    v.v.iv.lxxiv, v.v.iv.lxxiv/notes, v.v.iv.lxxv, v.v.iv.lxxv/notes, v.v.iv.lxxvi,
+    v.v.iv.lxxvi/notes, v.v.iv.lxxvii, v.v.iv.lxxvii/notes, v.v.iv.lxxviii, v.v.iv.lxxix,
+    v.v.iv.lxxix/notes, v.v.iv.lxxx, v.v.iv.lxxx/notes, v.v.iv.lxxxi, v.v.iv.lxxxi/notes,
+    v.v.iv.lxxxii, v.v.iv.lxxxii/notes, v.v.iv.lxxxiii, v.v.iv.lxxxiv, v.v.iv.lxxxiv/notes,
+    v.v.iv.lxxxv, v.v.iv.lxxxv/notes, v.v.iv.lxxxvi, v.v.iv.lxxxvi/notes, v.v.iv.lxxxvii,
+    v.v.iv.lxxxvii/notes, v.v.iv.lxxxviii, v.v.iv.lxxxviii/notes, v.v.iv.lxxxix,
+    v.v.iv.lxxxix/notes, v.v.iv.xc, v.v.iv.xc/notes, v.v.iv.xci, v.v.iv.xcii, v.v.iv.xcii/notes,
+    v.v.iv.xciii/line15966, v.v.iv.xciii/line15978, v.v.iv.xciii/line15987, v.v.iv.xciii/line15999,
+    v.v.iv.xciii/line16011, v.v.iv.xciii/line16018, v.v.iv.xciii/line16026, v.v.iv.xciii/line16039,
+    v.v.iv.xciii/line16046, v.v.iv.xciii/line16054, v.v.iv.xciii/line16063, v.v.iv.xciii/line16074,
+    v.v.iv.xciii/notes, v.v.iv.xciv, v.v.iv.xcv, v.v.iv.xcv/notes, v.v.iv.xcvi, v.v.iv.xcvii,
+    v.v.iv.xcvii/notes, v.v.iv.xcviii, v.v.iv.xcviii/notes, v.v.iv.xcix, v.v.iv.xcix/notes,
+    v.v.iv.c, v.v.iv.c/notes, v.v.iv.ci, v.v.iv.ci/notes, v.v.iv.cii, v.v.iv.cii/notes, v.v.iv.ciii,
+    v.v.iv.ciii/notes, v.v.iv.civ, v.v.iv.civ/notes, v.v.iv.cv, v.v.iv.cv/notes, v.v.iv.cvi,
+    v.v.iv.cvi/notes, v.v.iv.cvii, v.v.iv.cvii/notes, v.v.iv.cviii, v.v.iv.cviii/notes, v.v.iv.cix,
+    v.v.iv.cix/notes, v.v.v, v.v.v/notes, v.v.v.i, v.v.v.i/notes, v.v.v.ii, v.v.v.ii/notes,
+    v.v.v.iii, v.v.v.iii/notes, v.v.v.iv, v.v.v.iv/notes, v.v.v.v, v.v.v.v/notes, v.v.v.vi,
+    v.v.v.vi/notes, v.v.v.vii, v.v.v.vii/notes, v.v.v.viii, v.v.v.viii/notes, v.v.v.ix, v.v.v.x,
+    v.v.v.x/notes, v.v.v.xi, v.v.v.xi/notes, v.v.v.xii, v.v.v.xii/notes, v.v.v.xiii,
+    v.v.v.xiii/notes, v.v.v.xiv, v.v.v.xiv/notes, v.v.v.xv, v.v.v.xvi, v.v.v.xvi/notes, v.v.v.xvii,
+    v.v.v.xviii, v.v.v.xviii/notes, v.v.v.xix, v.v.v.xix/notes, v.v.v.xx, v.v.v.xxi,
+    v.v.v.xxi/notes, v.v.v.xxii, v.v.v.xxii/notes, v.v.v.xxiii, v.v.v.xxiv, v.v.v.xxv, v.v.v.xxvi,
+    v.v.v.xxvii, v.v.v.xxvii/notes, v.v.v.xxviii, v.v.v.xxviii/notes, v.v.v.xxix, v.v.v.xxix/notes,
+    v.v.v.xxx, v.v.v.xxx/notes, v.v.v.xxxi, v.v.v.xxxi/notes, v.v.v.xxxii, v.v.v.xxxii/notes,
+    v.v.v.xxxiii, v.v.v.xxxiii/notes, v.v.v.xxxiv, v.v.v.xxxiv/notes, v.v.v.xxxv, v.v.v.xxxv/notes,
+    v.v.v.xxxvi, v.v.v.xxxvi/notes, v.v.v.xxxvii, v.v.v.xxxviii, v.v.v.xxxix, v.v.v.xxxix/notes,
+    v.v.v.xl, v.v.v.xl/notes, v.v.v.xli, v.v.v.xlii, v.v.v.xlii/notes, v.v.v.xliii,
+    v.v.v.xliii/notes, v.v.v.xliv, v.v.v.xliv/notes, v.v.v.xlv, v.v.v.xlv/notes, v.v.v.xlvi,
+    v.v.v.xlvi/notes, v.v.v.xlvii, v.v.v.xlviii, v.v.v.xlviii/notes, v.v.v.xlix, v.v.v.xlix/notes,
+    v.v.v.l, v.v.v.l/notes, v.v.v.li, v.v.v.li/notes, v.v.v.lii, v.v.v.liii, v.v.v.liii/notes,
+    v.v.v.liv, v.v.v.liv/notes, v.v.v.lv, v.v.v.lv/notes, v.v.v.lvi, v.v.v.lvi/notes, v.v.v.lvii,
+    v.v.v.lvii/notes, v.v.v.lviii, v.v.v.lviii/notes, v.v.v.lix]
+  language: eng
+  date: {start: 400, end: 401, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 5.5 heading: circa a.d. 400, second book c. 401; P1: about 400", formation_confidence: Widely Accepted}
   note: 'Book-by-book reply that quotes Petilian of Constantine''s letters clause by clause
     — the most extensive surviving Donatist voice in the vendored corpus, preserved inside
     its refutation. For the donatism entry this is the nearest thing to primary Donatist text
@@ -234,6 +544,12 @@ assignments:
   - donatism
   role: tradition
   confidence: assigned
+  locus_ids: [v.vi.i, v.vi.ii, v.vi.ii/notes, v.vi.iii, v.vi.iii/notes, v.vi.iv, v.vi.iv/notes,
+    v.vi.v, v.vi.v/notes, v.vi.vi, v.vi.vi/notes, v.vi.vii, v.vi.vii/notes, v.vi.viii,
+    v.vi.viii/notes, v.vi.ix, v.vi.ix/notes, v.vi.x, v.vi.x/notes, v.vi.xi, v.vi.xi/notes, v.vi.xii,
+    v.vi.xii/notes, v.vi.xiii, v.vi.xiii/notes]
+  language: eng
+  date: {start: 417, end: 417, source: "npnf104_augustine-anti-manichaean-anti-donatist.xml div2 5.6 heading: circa a.d. 417; P1 gives 417; Source_Registry row 12 gives c. 417", formation_confidence: Widely Accepted}
   note: 'Letter-treatise (c. 417) to the tribune Boniface justifying the imperial laws against
     the Donatists after the events at Carthage — the classic defense of state correction of
     schism ("compel them to come in"). Also assigned to imperial-juridical-christianity below.

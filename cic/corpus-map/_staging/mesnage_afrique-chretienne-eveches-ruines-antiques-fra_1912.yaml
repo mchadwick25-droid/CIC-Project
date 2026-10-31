@@ -9,5 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1912, end: 1912, source: "mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt header, Publication Date: 1912", formation_confidence: Documented}
     note: >
       Modern (1912) French survey of the African sees. Registry row 238.

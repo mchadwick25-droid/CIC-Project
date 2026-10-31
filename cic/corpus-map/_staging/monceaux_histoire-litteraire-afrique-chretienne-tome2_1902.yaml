@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1902, end: 1902, source: "monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt header, Publication Date: 1902", formation_confidence: Documented}
     note: >
       Modern (1902) French literary-historical scholarship -- role
       context, not tradition. The volume this world's own G5 request names as

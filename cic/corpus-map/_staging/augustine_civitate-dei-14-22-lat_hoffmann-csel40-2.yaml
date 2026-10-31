@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 413, end: 426, source: "npnf102_augustine-city-of-god-christian-doctrine.xml div1 4 Translator's Preface: begun 413, completed 426; P1 and Source_Registry row 24 agree", formation_confidence: Widely Accepted}
     note: >
       Latin critical-text original standing behind the already-vendored
       NPNF1-02 English translation of City of God (Registry row 24). Companion

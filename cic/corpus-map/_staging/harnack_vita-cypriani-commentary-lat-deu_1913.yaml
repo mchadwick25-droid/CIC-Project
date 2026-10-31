@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat-deu
+    date: {start: 1913, end: 1913, source: "harnack_vita-cypriani-commentary-lat-deu_1913.txt header, Publication Date: 1913", formation_confidence: Documented}
     note: >
       Modern (1913) critical study and German translation of Pontius's
       Vita Cypriani, built on Hartel's own Latin text (already separately

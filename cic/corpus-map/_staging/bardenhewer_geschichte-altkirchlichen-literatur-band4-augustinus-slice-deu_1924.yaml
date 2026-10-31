@@ -9,5 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1924, end: 1924, source: "bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt header, Publication Date: 1924", formation_confidence: Documented}
     note: >
       Modern German handbook account of Augustine and his circle. Registry row 250.

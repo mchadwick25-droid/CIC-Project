@@ -9,6 +9,90 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.i, iv.i.i/line914, iv.i.i/line946, iv.i.i/line971, iv.i.i/line993, iv.i.i/line1013,
+    iv.i.i/line1067, iv.i.i/line1110, iv.i.i/line1130, iv.i.i/line1158, iv.i.i/line1191,
+    iv.i.i/line1224, iv.i.i/line1272, iv.i.i/line1298, iv.i.i/line1325, iv.i.i/line1346,
+    iv.i.i/line1369, iv.i.i/line1391, iv.i.i/line1411, iv.i.i/line1444, iv.i.i/line1489,
+    iv.i.i/line1514, iv.i.i/line1537, iv.i.i/line1559, iv.i.i/notes, iv.i.ii, iv.i.iii, iv.i.iii.i,
+    iv.i.iii.i/notes, iv.i.iii.ii, iv.i.iii.iii, iv.i.iii.iii/notes, iv.i.iii.iv, iv.i.iii.iv/notes,
+    iv.i.iii.v, iv.i.iii.v/notes, iv.i.iii.vi, iv.i.iii.vi/notes, iv.i.iii.vii, iv.i.iii.vii/notes,
+    iv.i.iii.viii, iv.i.iii.viii/notes, iv.i.iii.ix, iv.i.iii.ix/notes, iv.i.iii.x,
+    iv.i.iii.x/notes, iv.i.iii.xi, iv.i.iii.xi/notes, iv.i.iii.xii, iv.i.iii.xii/notes,
+    iv.i.iii.xiii/line3243, iv.i.iii.xiii/line3303, iv.i.iii.xiii/line3354, iv.i.iii.xiii/line3419,
+    iv.i.iii.xiii/notes, iv.i.iv, iv.i.iv.i, iv.i.iv.i/notes, iv.i.iv.ii, iv.i.iv.ii/notes,
+    iv.i.iv.iii, iv.i.iv.iii/notes, iv.i.iv.iv, iv.i.iv.iv/notes, iv.i.iv.v, iv.i.iv.v/notes,
+    iv.i.iv.vi, iv.i.iv.vi/notes, iv.i.iv.vii, iv.i.iv.vii/notes, iv.i.iv.viii, iv.i.iv.viii/notes,
+    iv.i.iv.ix, iv.i.iv.ix/notes, iv.i.iv.x, iv.i.iv.x/notes, iv.i.iv.xi, iv.i.iv.xi/notes,
+    iv.i.iv.xii, iv.i.iv.xii/notes, iv.i.iv.xiii, iv.i.iv.xiii/notes, iv.i.iv.xiv,
+    iv.i.iv.xiv/notes, iv.i.iv.xv, iv.i.iv.xv/notes, iv.i.iv.xvi, iv.i.iv.xvi/notes, iv.i.iv.xvii,
+    iv.i.iv.xvii/notes, iv.i.iv.xviii, iv.i.iv.xviii/notes, iv.i.iv.xix, iv.i.iv.xix/notes, iv.i.v,
+    iv.i.v.i, iv.i.v.i/notes, iv.i.v.ii, iv.i.v.ii/notes, iv.i.v.iii, iv.i.v.iii/notes, iv.i.v.iv,
+    iv.i.v.v, iv.i.v.v/notes, iv.i.v.vi, iv.i.v.vi/notes, iv.i.v.vii, iv.i.v.vii/notes, iv.i.v.viii,
+    iv.i.v.viii/notes, iv.i.v.ix, iv.i.v.ix/notes, iv.i.v.x, iv.i.v.x/notes, iv.i.v.xi,
+    iv.i.v.xi/notes, iv.i.v.xii/line6042, iv.i.v.xii/line6108, iv.i.v.xii/line6130,
+    iv.i.v.xii/line6152, iv.i.v.xii/line6237, iv.i.v.xii/line6288, iv.i.v.xii/notes, iv.i.vi,
+    iv.i.vi.i, iv.i.vi.i/notes, iv.i.vi.ii, iv.i.vi.ii/notes, iv.i.vi.iii, iv.i.vi.iii/notes,
+    iv.i.vi.iv, iv.i.vi.iv/notes, iv.i.vi.v, iv.i.vi.v/notes, iv.i.vi.vi, iv.i.vi.vi/notes,
+    iv.i.vi.vii, iv.i.vi.vii/notes, iv.i.vi.viii, iv.i.vi.ix, iv.i.vi.ix/notes, iv.i.vi.x,
+    iv.i.vi.x/notes, iv.i.vi.xi, iv.i.vi.xi/notes, iv.i.vi.xii, iv.i.vi.xiii, iv.i.vi.xiii/notes,
+    iv.i.vi.xiv, iv.i.vi.xiv/notes, iv.i.vi.xv, iv.i.vi.xv/notes, iv.i.vi.xvi, iv.i.vi.xvi/notes,
+    iv.i.vi.xvii, iv.i.vi.xvii/notes, iv.i.vi.xviii, iv.i.vi.xviii/notes, iv.i.vi.xix,
+    iv.i.vi.xix/notes, iv.i.vi.xx, iv.i.vi.xx/notes, iv.i.vi.xxi, iv.i.vi.xxi/notes, iv.i.vi.xxii,
+    iv.i.vi.xxii/notes, iv.i.vii, iv.i.vii.i, iv.i.vii.i/notes, iv.i.vii.ii, iv.i.vii.ii/notes,
+    iv.i.vii.iii, iv.i.vii.iii/notes, iv.i.vii.iv, iv.i.vii.v, iv.i.vii.v/notes, iv.i.vii.vi,
+    iv.i.vii.vii, iv.i.vii.vii/notes, iv.i.vii.viii, iv.i.vii.viii/notes, iv.i.vii.ix,
+    iv.i.vii.ix/notes, iv.i.vii.x, iv.i.vii.xi, iv.i.vii.xi/notes, iv.i.vii.xii, iv.i.vii.xii/notes,
+    iv.i.vii.xiii, iv.i.vii.xiii/notes, iv.i.vii.xiv, iv.i.vii.xiv/notes, iv.i.vii.xv, iv.i.vii.xvi,
+    iv.i.vii.xvi/notes, iv.i.viii, iv.i.viii.i, iv.i.viii.i/notes, iv.i.viii.ii, iv.i.viii.ii/notes,
+    iv.i.viii.iii, iv.i.viii.iii/notes, iv.i.viii.iv, iv.i.viii.v, iv.i.viii.v/notes, iv.i.viii.vi,
+    iv.i.viii.vii, iv.i.viii.vii/notes, iv.i.viii.viii, iv.i.viii.viii/notes, iv.i.viii.ix,
+    iv.i.viii.ix/notes, iv.i.viii.x, iv.i.viii.x/notes, iv.i.ix, iv.i.ix.i/line9567,
+    iv.i.ix.i/line9643, iv.i.ix.i/notes, iv.i.ix.ii, iv.i.ix.ii/notes, iv.i.ix.iii,
+    iv.i.ix.iii/notes, iv.i.ix.iv, iv.i.ix.iv/notes, iv.i.ix.v, iv.i.ix.v/notes, iv.i.ix.vi,
+    iv.i.ix.vi/notes, iv.i.x, iv.i.x.i, iv.i.x.ii, iv.i.x.ii/notes, iv.i.x.iii, iv.i.x.iii/notes,
+    iv.i.x.iv, iv.i.x.iv/notes, iv.i.x.v, iv.i.x.v/notes, iv.i.x.vi, iv.i.x.vii, iv.i.x.vii/notes,
+    iv.i.x.viii, iv.i.x.viii/notes, iv.i.x.ix, iv.i.x.ix/notes, iv.i.x.x, iv.i.x.x/notes, iv.i.x.xi,
+    iv.i.xi, iv.i.xi.i, iv.i.xi.i/notes, iv.i.xi.ii, iv.i.xi.ii/notes, iv.i.xi.iii, iv.i.xi.iv,
+    iv.i.xi.v, iv.i.xi.v/notes, iv.i.xi.vi, iv.i.xi.vii, iv.i.xi.vii/notes, iv.i.xi.viii,
+    iv.i.xi.ix, iv.i.xi.ix/notes, iv.i.xi.x, iv.i.xi.x/notes, iv.i.xi.xi, iv.i.xi.xii,
+    iv.i.xi.xii/notes, iv.i.xii, iv.i.xii.i, iv.i.xii.i/notes, iv.i.xii.ii, iv.i.xii.iii,
+    iv.i.xii.iv, iv.i.xii.v, iv.i.xii.vi, iv.i.xii.vii, iv.i.xii.vii/notes, iv.i.xii.viii,
+    iv.i.xii.ix, iv.i.xii.x, iv.i.xii.xi, iv.i.xii.xi/notes, iv.i.xii.xii, iv.i.xiii, iv.i.xiii.i,
+    iv.i.xiii.i/notes, iv.i.xiii.ii, iv.i.xiii.ii/notes, iv.i.xiii.iii, iv.i.xiii.iii/notes,
+    iv.i.xiii.iv, iv.i.xiii.v, iv.i.xiii.v/notes, iv.i.xiii.vi, iv.i.xiii.vi/notes, iv.i.xiii.vii,
+    iv.i.xiii.viii, iv.i.xiii.ix, iv.i.xiii.ix/notes, iv.i.xiii.x, iv.i.xiii.x/notes, iv.i.xiii.xi,
+    iv.i.xiii.xi/notes, iv.i.xiv, iv.i.xiv.i, iv.i.xiv.ii, iv.i.xiv.ii/notes, iv.i.xiv.iii,
+    iv.i.xiv.iii/notes, iv.i.xiv.iv, iv.i.xiv.v, iv.i.xiv.v/notes, iv.i.xiv.vi, iv.i.xiv.vi/notes,
+    iv.i.xiv.vii, iv.i.xiv.vii/notes, iv.i.xiv.viii, iv.i.xiv.viii/notes, iv.i.xiv.ix,
+    iv.i.xiv.ix/notes, iv.i.xiv.x, iv.i.xiv.x/notes, iv.i.xiv.xi, iv.i.xiv.xi/notes, iv.i.xiv.xii,
+    iv.i.xiv.xii/notes, iv.i.xiv.xiii, iv.i.xiv.xiii/notes, iv.i.xiv.xiv, iv.i.xiv.xiv/notes,
+    iv.i.xiv.xv, iv.i.xiv.xv/notes, iv.i.xv, iv.i.xv.i, iv.i.xv.i/notes, iv.i.xv.ii,
+    iv.i.xv.ii/notes, iv.i.xv.iii, iv.i.xv.iv, iv.i.xv.iv/notes, iv.i.xv.v, iv.i.xv.v/notes,
+    iv.i.xv.vi, iv.i.xv.vii, iv.i.xv.vii/notes, iv.i.xv.viii, iv.i.xv.ix, iv.i.xv.ix/notes,
+    iv.i.xv.x, iv.i.xv.x/notes, iv.i.xv.xi, iv.i.xv.xi/notes, iv.i.xv.xii, iv.i.xv.xii/notes,
+    iv.i.xv.xiii, iv.i.xv.xiii/notes, iv.i.xv.xiv, iv.i.xv.xiv/notes, iv.i.xv.xv, iv.i.xv.xv/notes,
+    iv.i.xv.xvi, iv.i.xv.xvi/notes, iv.i.xv.xvii, iv.i.xv.xvii/notes, iv.i.xv.xviii,
+    iv.i.xv.xviii/notes, iv.i.xv.xix, iv.i.xv.xix/notes, iv.i.xv.xx, iv.i.xv.xx/notes, iv.i.xvi,
+    iv.i.xvi.i, iv.i.xvi.i/notes, iv.i.xvi.ii, iv.i.xvi.ii/notes, iv.i.xvi.iii, iv.i.xvi.iii/notes,
+    iv.i.xvi.iv, iv.i.xvi.iv/notes, iv.i.xvi.v, iv.i.xvi.v/notes, iv.i.xvi.vi, iv.i.xvi.vi/notes,
+    iv.i.xvi.vii, iv.i.xvi.viii, iv.i.xvi.viii/notes, iv.i.xvi.ix, iv.i.xvi.x, iv.i.xvi.xi,
+    iv.i.xvi.xi/notes, iv.i.xvi.xii, iv.i.xvi.xii/notes, iv.i.xvi.xiii, iv.i.xvi.xiii/notes,
+    iv.i.xvi.xiv, iv.i.xvi.xiv/notes, iv.i.xvi.xv, iv.i.xvi.xv/notes, iv.i.xvi.xvi,
+    iv.i.xvi.xvi/notes, iv.i.xvi.xvii, iv.i.xvi.xvii/notes, iv.i.xvi.xviii, iv.i.xvi.xviii/notes,
+    iv.i.xvi.xix, iv.i.xvi.xix/notes, iv.i.xvii, iv.i.xvii.i, iv.i.xvii.i/notes, iv.i.xvii.ii,
+    iv.i.xvii.ii/notes, iv.i.xvii.iii, iv.i.xvii.iii/notes, iv.i.xvii.iv, iv.i.xvii.v,
+    iv.i.xvii.v/notes, iv.i.xvii.vi, iv.i.xvii.vi/notes, iv.i.xvii.vii, iv.i.xvii.vii/notes,
+    iv.i.xvii.viii, iv.i.xvii.viii/notes, iv.i.xvii.ix, iv.i.xvii.ix/notes, iv.i.xvii.x,
+    iv.i.xvii.x/notes, iv.i.xvii.xi, iv.i.xvii.xi/notes, iv.i.xvii.xii, iv.i.xvii.xii/notes,
+    iv.i.xvii.xiii, iv.i.xvii.xiii/notes, iv.i.xvii.xiv, iv.i.xvii.xiv/notes, iv.i.xvii.xv,
+    iv.i.xvii.xv/notes, iv.i.xvii.xvi, iv.i.xvii.xvi/notes, iv.i.xvii.xvii, iv.i.xvii.xvii/notes,
+    iv.i.xvii.xviii, iv.i.xvii.xviii/notes, iv.i.xvii.xix, iv.i.xvii.xix/notes, iv.i.xvii.xx,
+    iv.i.xvii.xx/notes, iv.i.xvii.xxi, iv.i.xvii.xxi/notes, iv.i.xvii.xxii, iv.i.xvii.xxiii,
+    iv.i.xvii.xxiii/notes, iv.i.xvii.xxiv, iv.i.xvii.xxiv/notes, iv.i.xvii.xxv, iv.i.xvii.xxv/notes,
+    iv.i.xvii.xxvi, iv.i.xvii.xxvi/notes, iv.i.xvii.xxvii, iv.i.xvii.xxvii/notes, iv.i.xvii.xxviii,
+    iv.i.xvii.xxviii/notes]
+  language: eng
+  date: {start: 400, end: 428, source: "Sources disagree: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.1 Shedd's introductory essay gives 400 to 428; P1 gives 400-416", formation_confidence: Contested}
   note: 'The mature Latin statement of Nicene trinitarian theology, written over two decades
     at Hippo. Stays in Augustine''s own entry; it argues against Arian readings in places
     but is not aimed at the Homoian church the doctrinal-floor entry names, so it is not assigned
@@ -23,6 +107,43 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.ii, iv.ii.i, iv.ii.i/notes, iv.ii.ii, iv.ii.iii, iv.ii.iii/notes, iv.ii.iv,
+    iv.ii.iv/notes, iv.ii.v, iv.ii.vi, iv.ii.vii, iv.ii.vii/notes, iv.ii.viii, iv.ii.ix,
+    iv.ii.ix/notes, iv.ii.x, iv.ii.x/notes, iv.ii.xi, iv.ii.xii, iv.ii.xiii, iv.ii.xiv, iv.ii.xv,
+    iv.ii.xv/notes, iv.ii.xvi, iv.ii.xvii, iv.ii.xvii/notes, iv.ii.xviii, iv.ii.xviii/notes,
+    iv.ii.xix, iv.ii.xix/notes, iv.ii.xx, iv.ii.xxi, iv.ii.xxi/notes, iv.ii.xxii, iv.ii.xxii/notes,
+    iv.ii.xxiii, iv.ii.xxiii/notes, iv.ii.xxiv, iv.ii.xxiv/notes, iv.ii.xxv, iv.ii.xxvi,
+    iv.ii.xxvii, iv.ii.xxvii/notes, iv.ii.xxviii, iv.ii.xxviii/notes, iv.ii.xxix, iv.ii.xxx,
+    iv.ii.xxxi, iv.ii.xxxi/notes, iv.ii.xxxii, iv.ii.xxxii/notes, iv.ii.xxxiii, iv.ii.xxxiii/notes,
+    iv.ii.xxxiv, iv.ii.xxxiv/notes, iv.ii.xxxv, iv.ii.xxxv/notes, iv.ii.xxxvi, iv.ii.xxxvi/notes,
+    iv.ii.xxxvii, iv.ii.xxxvii/notes, iv.ii.xxxviii, iv.ii.xxxviii/notes, iv.ii.xxxix,
+    iv.ii.xxxix/notes, iv.ii.xl, iv.ii.xl/notes, iv.ii.xli, iv.ii.xlii, iv.ii.xliii,
+    iv.ii.xliii/notes, iv.ii.xliv, iv.ii.xlv, iv.ii.xlvi, iv.ii.xlvi/notes, iv.ii.xlvii,
+    iv.ii.xlvii/notes, iv.ii.xlviii, iv.ii.xlviii/notes, iv.ii.xlix, iv.ii.l, iv.ii.li,
+    iv.ii.li/notes, iv.ii.lii, iv.ii.lii/notes, iv.ii.liii, iv.ii.liii/notes, iv.ii.liv,
+    iv.ii.liv/notes, iv.ii.lv, iv.ii.lv/notes, iv.ii.lvi, iv.ii.lvi/notes, iv.ii.lvii,
+    iv.ii.lvii/notes, iv.ii.lviii, iv.ii.lviii/notes, iv.ii.lix, iv.ii.lix/notes, iv.ii.lx,
+    iv.ii.lx/notes, iv.ii.lxi, iv.ii.lxi/notes, iv.ii.lxii, iv.ii.lxii/notes, iv.ii.lxiii,
+    iv.ii.lxiii/notes, iv.ii.lxiv, iv.ii.lxiv/notes, iv.ii.lxv, iv.ii.lxv/notes, iv.ii.lxvi,
+    iv.ii.lxvi/notes, iv.ii.lxvii, iv.ii.lxvii/notes, iv.ii.lxviii, iv.ii.lxviii/notes, iv.ii.lxix,
+    iv.ii.lxix/notes, iv.ii.lxx, iv.ii.lxx/notes, iv.ii.lxxi, iv.ii.lxxi/notes, iv.ii.lxxii,
+    iv.ii.lxxii/notes, iv.ii.lxxiii, iv.ii.lxxiii/notes, iv.ii.lxxiv, iv.ii.lxxiv/notes, iv.ii.lxxv,
+    iv.ii.lxxv/notes, iv.ii.lxxvi, iv.ii.lxxvi/notes, iv.ii.lxxvii, iv.ii.lxxvii/notes,
+    iv.ii.lxxviii, iv.ii.lxxviii/notes, iv.ii.lxxix, iv.ii.lxxix/notes, iv.ii.lxxx,
+    iv.ii.lxxx/notes, iv.ii.lxxxi, iv.ii.lxxxi/notes, iv.ii.lxxxii, iv.ii.lxxxii/notes,
+    iv.ii.lxxxiii, iv.ii.lxxxiii/notes, iv.ii.lxxxiv, iv.ii.lxxxiv/notes, iv.ii.lxxxv,
+    iv.ii.lxxxv/notes, iv.ii.lxxxvi, iv.ii.lxxxvii, iv.ii.lxxxviii, iv.ii.lxxxix,
+    iv.ii.lxxxix/notes, iv.ii.xc, iv.ii.xci, iv.ii.xcii, iv.ii.xciii, iv.ii.xciii/notes, iv.ii.xciv,
+    iv.ii.xciv/notes, iv.ii.xcv, iv.ii.xcvi, iv.ii.xcvi/notes, iv.ii.xcvii, iv.ii.xcvii/notes,
+    iv.ii.xcviii, iv.ii.xcix, iv.ii.xcix/notes, iv.ii.c, iv.ii.c/notes, iv.ii.ci, iv.ii.ci/notes,
+    iv.ii.cii, iv.ii.cii/notes, iv.ii.ciii, iv.ii.ciii/notes, iv.ii.civ, iv.ii.cv, iv.ii.cv/notes,
+    iv.ii.cvi, iv.ii.cvii, iv.ii.cviii, iv.ii.cviii/notes, iv.ii.cix, iv.ii.cix/notes, iv.ii.cx,
+    iv.ii.cxi, iv.ii.cxii, iv.ii.cxii/notes, iv.ii.cxiii, iv.ii.cxiv, iv.ii.cxiv/notes, iv.ii.cxv,
+    iv.ii.cxvi, iv.ii.cxvi/notes, iv.ii.cxvii, iv.ii.cxvii/notes, iv.ii.cxviii, iv.ii.cxviii/notes,
+    iv.ii.cxix, iv.ii.cxix/notes, iv.ii.cxx, iv.ii.cxx/notes, iv.ii.cxxi, iv.ii.cxxi/notes,
+    iv.ii.cxxii, iv.ii.cxxii/notes, iv.ii.cxxiii, iv.ii.cxxiii/notes, iv.ii.cxxiv]
+  language: eng
+  date: {start: 421, end: 430, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.2 introductory notice: written after Jerome's death (30 Sept 420); P1: 'in 421, or later'. End 430 is Augustine's death (Doc_01), not stated for this work", formation_confidence: Inferential-Thin}
   note: 'Handbook of the faith for the layman Laurentius — catechetical-pastoral by design.
 
     '
@@ -34,6 +155,18 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.iii, iv.iii/notes, iv.iii.i, iv.iii.ii, iv.iii.ii/notes, iv.iii.iii,
+    iv.iii.iii/notes, iv.iii.iv, iv.iii.iv/notes, iv.iii.v, iv.iii.v/notes, iv.iii.vi,
+    iv.iii.vi/notes, iv.iii.vii, iv.iii.vii/notes, iv.iii.viii, iv.iii.viii/notes, iv.iii.ix,
+    iv.iii.ix/notes, iv.iii.x, iv.iii.x/notes, iv.iii.xi, iv.iii.xi/notes, iv.iii.xii,
+    iv.iii.xii/notes, iv.iii.xiii, iv.iii.xiii/notes, iv.iii.xiv, iv.iii.xiv/notes, iv.iii.xv,
+    iv.iii.xv/notes, iv.iii.xvi, iv.iii.xvi/notes, iv.iii.xvii, iv.iii.xvii/notes, iv.iii.xviii,
+    iv.iii.xviii/notes, iv.iii.xix, iv.iii.xix/notes, iv.iii.xx, iv.iii.xx/notes, iv.iii.xxi,
+    iv.iii.xxi/notes, iv.iii.xxii, iv.iii.xxii/notes, iv.iii.xxiii, iv.iii.xxiii/notes, iv.iii.xxiv,
+    iv.iii.xxiv/notes, iv.iii.xxv, iv.iii.xxv/notes, iv.iii.xxvi, iv.iii.xxvi/notes, iv.iii.xxvii,
+    iv.iii.xxvii/notes, iv.iii.xxviii, iv.iii.xxviii/notes]
+  language: eng
+  date: {start: 400, end: 400, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.3 introductory notice: about the year 400; P1 gives 400", formation_confidence: Widely Accepted}
   note: 'Written for the Carthaginian deacon Deogratias on how to teach beginners — congregational
     formation practice itself, as near the center of this entry as a work can sit.
 
@@ -46,6 +179,13 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.iv, iv.iv.i, iv.iv.i/notes, iv.iv.ii, iv.iv.ii/notes, iv.iv.iii, iv.iv.iii/notes,
+    iv.iv.iv, iv.iv.iv/notes, iv.iv.v, iv.iv.v/notes, iv.iv.vi, iv.iv.vi/notes, iv.iv.vii,
+    iv.iv.vii/notes, iv.iv.viii, iv.iv.viii/notes, iv.iv.ix, iv.iv.ix/notes, iv.iv.x/line29007,
+    iv.iv.x/line29049, iv.iv.x/line29112, iv.iv.x/line29174, iv.iv.x/line29273, iv.iv.x/line29318,
+    iv.iv.x/notes, iv.iv.xi, iv.iv.xi/notes]
+  language: eng
+  date: {start: 393, end: 393, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.4 introductory notice: delivered at the Council of Hippo-Regius, 393; P1 gives 393", formation_confidence: Widely Accepted}
   note: 'Exposition of the creed delivered to the North African bishops at Hippo in 393.
 
     '
@@ -57,6 +197,11 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.v, iv.v.i, iv.v.ii, iv.v.ii/notes, iv.v.iii, iv.v.iii/notes, iv.v.iv,
+    iv.v.iv/notes, iv.v.v, iv.v.v/notes, iv.v.vi, iv.v.vi/notes, iv.v.vii, iv.v.vii/notes,
+    iv.v.viii, iv.v.ix, iv.v.ix/notes, iv.v.x, iv.v.x/notes, iv.v.xi, iv.v.xi/notes]
+  language: eng
+  date: {formation_confidence: unknown, checked: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.5 introductory notice says only 'written after 399' (Honorius's laws against idols); P1 does not list it. A lower bound, no window"}
   note: 'Short apologetic-catechetical piece for his congregation.
 
     '
@@ -68,6 +213,18 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.vi, iv.vi.i, iv.vi.ii, iv.vi.ii/notes, iv.vi.iii, iv.vi.iii/notes, iv.vi.iv,
+    iv.vi.iv/notes, iv.vi.v, iv.vi.v/notes, iv.vi.vi, iv.vi.vii, iv.vi.vii/notes, iv.vi.viii,
+    iv.vi.viii/notes, iv.vi.ix, iv.vi.ix/notes, iv.vi.x, iv.vi.x/notes, iv.vi.xi, iv.vi.xi/notes,
+    iv.vi.xii, iv.vi.xiii, iv.vi.xiv, iv.vi.xiv/notes, iv.vi.xv, iv.vi.xvi, iv.vi.xvii,
+    iv.vi.xvii/notes, iv.vi.xviii, iv.vi.xviii/notes, iv.vi.xix, iv.vi.xx, iv.vi.xxi,
+    iv.vi.xxi/notes, iv.vi.xxii, iv.vi.xxiii, iv.vi.xxiii/notes, iv.vi.xxiv, iv.vi.xxv,
+    iv.vi.xxv/notes, iv.vi.xxvi, iv.vi.xxvi/notes, iv.vi.xxvii, iv.vi.xxvii/notes, iv.vi.xxviii,
+    iv.vi.xxviii/notes, iv.vi.xxix, iv.vi.xxx, iv.vi.xxxi, iv.vi.xxxi/notes, iv.vi.xxxii,
+    iv.vi.xxxii/notes, iv.vi.xxxiii, iv.vi.xxxiii/notes, iv.vi.xxxiv, iv.vi.xxxv, iv.vi.xxxv/notes,
+    iv.vi.xxxvi, iv.vi.xxxvi/notes, iv.vi.xxxvii, iv.vi.xxxvii/notes]
+  language: eng
+  date: {start: 392, end: 392, source: "P1 gives 392; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.6 introductory notice has it first among the works written as presbyter (ordained about the start of 391)", formation_confidence: Widely Accepted}
   note: 'Shelved by NPNF among the doctrinal treatises but written (391) to Honoratus, the
     friend Augustine had himself led into Manichaeism, against the Manichaean promise of reason
     without authority — Augustine''s own catalogue counts it among the anti-Manichaean works,
@@ -98,6 +255,13 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [iv.vii, iv.vii.i, iv.vii.i/notes, iv.vii.ii, iv.vii.ii/notes, iv.vii.iii, iv.vii.iv,
+    iv.vii.iv/notes, iv.vii.v, iv.vii.v/notes, iv.vii.vi, iv.vii.vii, iv.vii.vii/notes, iv.vii.viii,
+    iv.vii.viii/notes, iv.vii.ix, iv.vii.ix/notes, iv.vii.x, iv.vii.x/notes, iv.vii.xi,
+    iv.vii.xi/notes, iv.vii.xii, iv.vii.xii/notes, iv.vii.xiii, iv.vii.xiii/notes, iv.vii.xiv,
+    iv.vii.xiv/notes, iv.vii.xv, iv.vii.xv/notes, iv.vii.xvi, iv.vii.xvi/notes, iv.vii.xvii]
+  language: eng
+  date: {formation_confidence: unknown, checked: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.7 introductory notice and P1: no date stated"}
   note: 'Creedal instruction preached to catechumens.
 
     '
@@ -109,6 +273,17 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.i, v.i.i, v.i.i/notes, v.i.ii, v.i.ii/notes, v.i.iii, v.i.iii/notes, v.i.iv,
+    v.i.iv/notes, v.i.v, v.i.v/notes, v.i.vi, v.i.vi/notes, v.i.vii, v.i.vii/notes, v.i.viii,
+    v.i.viii/notes, v.i.ix, v.i.ix/notes, v.i.x, v.i.x/notes, v.i.xi, v.i.xi/notes, v.i.xii,
+    v.i.xii/notes, v.i.xiii, v.i.xiii/notes, v.i.xiv, v.i.xv, v.i.xv/notes, v.i.xvi, v.i.xvi/notes,
+    v.i.xvii, v.i.xvii/notes, v.i.xviii, v.i.xviii/notes, v.i.xix, v.i.xix/notes, v.i.xx,
+    v.i.xx/notes, v.i.xxi, v.i.xxi/notes, v.i.xxii, v.i.xxii/notes, v.i.xxiii, v.i.xxiii/notes,
+    v.i.xxiv, v.i.xxiv/notes, v.i.xxv, v.i.xxv/notes, v.i.xxvi, v.i.xxvi/notes, v.i.xxvii,
+    v.i.xxvii/notes, v.i.xxviii, v.i.xxviii/notes, v.i.xxix, v.i.xxix/notes, v.i.xxx, v.i.xxx/notes,
+    v.i.xxxi, v.i.xxxi/notes, v.i.xxxii, v.i.xxxii/notes]
+  language: eng
+  date: {start: 395, end: 395, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De continentia (395); the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.1 notice states no date", formation_confidence: Widely Accepted}
   note: 'Moral treatise; carries anti-Manichaean argument on the flesh in its later chapters
     but is not primarily about the movement, so it is not double-assigned.
 
@@ -121,6 +296,18 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.ii, v.ii.i, v.ii.ii, v.ii.ii/notes, v.ii.iii, v.ii.iii/notes, v.ii.iv,
+    v.ii.iv/notes, v.ii.v, v.ii.v/notes, v.ii.vi, v.ii.vi/notes, v.ii.vii, v.ii.vii/notes,
+    v.ii.viii, v.ii.viii/notes, v.ii.ix, v.ii.ix/notes, v.ii.x, v.ii.x/notes, v.ii.xi,
+    v.ii.xi/notes, v.ii.xii, v.ii.xii/notes, v.ii.xiii, v.ii.xiii/notes, v.ii.xiv, v.ii.xiv/notes,
+    v.ii.xv, v.ii.xv/notes, v.ii.xvi, v.ii.xvi/notes, v.ii.xvii, v.ii.xvii/notes, v.ii.xviii,
+    v.ii.xviii/notes, v.ii.xix, v.ii.xix/notes, v.ii.xx, v.ii.xx/notes, v.ii.xxi, v.ii.xxi/notes,
+    v.ii.xxii, v.ii.xxii/notes, v.ii.xxiii, v.ii.xxiii/notes, v.ii.xxiv, v.ii.xxiv/notes, v.ii.xxv,
+    v.ii.xxvi, v.ii.xxvi/notes, v.ii.xxvii, v.ii.xxvii/notes, v.ii.xxviii, v.ii.xxviii/notes,
+    v.ii.xxix, v.ii.xxx, v.ii.xxxi, v.ii.xxxii, v.ii.xxxii/notes, v.ii.xxxiii, v.ii.xxxiii/notes,
+    v.ii.xxxiv, v.ii.xxxv, v.ii.xxxv/notes, v.ii.xxxvi, v.ii.xxxvi/notes]
+  language: eng
+  date: {start: 400, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works) gives 400; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.2 introductory notice gives about 401", formation_confidence: Widely Accepted}
   note: 'Written (401) in the wake of the Jovinian controversy that Jerome''s Against Jovinian
     inflamed; the link to the Hieronymian world is real background but too indirect to be
     an assignment.
@@ -134,6 +321,26 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.iii, v.iii.i, v.iii.ii, v.iii.ii/notes, v.iii.iii, v.iii.iii/notes, v.iii.iv,
+    v.iii.iv/notes, v.iii.v, v.iii.v/notes, v.iii.vi, v.iii.vi/notes, v.iii.vii, v.iii.vii/notes,
+    v.iii.viii, v.iii.viii/notes, v.iii.ix, v.iii.x, v.iii.x/notes, v.iii.xi, v.iii.xii,
+    v.iii.xii/notes, v.iii.xiii, v.iii.xiii/notes, v.iii.xiv, v.iii.xiv/notes, v.iii.xv,
+    v.iii.xv/notes, v.iii.xvi, v.iii.xvi/notes, v.iii.xvii, v.iii.xvii/notes, v.iii.xviii,
+    v.iii.xix, v.iii.xix/notes, v.iii.xx, v.iii.xx/notes, v.iii.xxi, v.iii.xxi/notes, v.iii.xxii,
+    v.iii.xxii/notes, v.iii.xxiii, v.iii.xxiii/notes, v.iii.xxiv, v.iii.xxiv/notes, v.iii.xxv,
+    v.iii.xxv/notes, v.iii.xxvi, v.iii.xxvi/notes, v.iii.xxvii, v.iii.xxvii/notes, v.iii.xxviii,
+    v.iii.xxviii/notes, v.iii.xxix, v.iii.xxix/notes, v.iii.xxx, v.iii.xxx/notes, v.iii.xxxi,
+    v.iii.xxxi/notes, v.iii.xxxii, v.iii.xxxii/notes, v.iii.xxxiii, v.iii.xxxiii/notes, v.iii.xxxiv,
+    v.iii.xxxiv/notes, v.iii.xxxv, v.iii.xxxv/notes, v.iii.xxxvi, v.iii.xxxvi/notes, v.iii.xxxvii,
+    v.iii.xxxvii/notes, v.iii.xxxviii, v.iii.xxxviii/notes, v.iii.xxxix, v.iii.xxxix/notes,
+    v.iii.xl, v.iii.xl/notes, v.iii.xli, v.iii.xli/notes, v.iii.xlii, v.iii.xlii/notes, v.iii.xliii,
+    v.iii.xliii/notes, v.iii.xliv, v.iii.xliv/notes, v.iii.xlv, v.iii.xlv/notes, v.iii.xlvi,
+    v.iii.xlvi/notes, v.iii.xlvii, v.iii.xlvii/notes, v.iii.xlviii, v.iii.xlviii/notes, v.iii.xlix,
+    v.iii.xlix/notes, v.iii.l, v.iii.l/notes, v.iii.li, v.iii.li/notes, v.iii.lii, v.iii.lii/notes,
+    v.iii.liii, v.iii.liii/notes, v.iii.liv, v.iii.liv/notes, v.iii.lv, v.iii.lv/notes, v.iii.lvi,
+    v.iii.lvii, v.iii.lvii/notes, v.iii.lviii, v.iii.lviii/notes]
+  language: eng
+  date: {start: 401, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De virginitate (401)", formation_confidence: Widely Accepted}
   note: 'Companion piece to On the Good of Marriage, same year and setting.
 
     '
@@ -145,6 +352,17 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.iv, v.iv.i, v.iv.ii, v.iv.iii, v.iv.iii/notes, v.iv.iv, v.iv.iv/notes, v.iv.v,
+    v.iv.v/notes, v.iv.vi, v.iv.vi/notes, v.iv.vii, v.iv.vii/notes, v.iv.viii, v.iv.viii/notes,
+    v.iv.ix, v.iv.ix/notes, v.iv.x, v.iv.x/notes, v.iv.xi, v.iv.xi/notes, v.iv.xii, v.iv.xii/notes,
+    v.iv.xiii, v.iv.xiii/notes, v.iv.xiv, v.iv.xiv/notes, v.iv.xv, v.iv.xvi, v.iv.xvi/notes,
+    v.iv.xvii, v.iv.xvii/notes, v.iv.xviii, v.iv.xix, v.iv.xix/notes, v.iv.xx, v.iv.xx/notes,
+    v.iv.xxi, v.iv.xxi/notes, v.iv.xxii, v.iv.xxii/notes, v.iv.xxiii, v.iv.xxiii/notes, v.iv.xxiv,
+    v.iv.xxiv/notes, v.iv.xxv, v.iv.xxv/notes, v.iv.xxvi, v.iv.xxvi/notes, v.iv.xxvii,
+    v.iv.xxvii/notes, v.iv.xxviii, v.iv.xxviii/notes, v.iv.xxix, v.iv.xxix/notes, v.iv.xxx,
+    v.iv.xxx/notes]
+  language: eng
+  date: {start: 413, end: 418, source: "Sources disagree: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.4 introductory notice dates it 413 (consecration of Demetrias); P1 gives 418", formation_confidence: Contested}
   note: 'Letter-treatise to the widow Juliana (mother of Demetrias); pastoral counsel.
 
     '
@@ -156,6 +374,18 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.v, v.v.i, v.v.ii, v.v.iii, v.v.iv, v.v.v, v.v.vi, v.v.vi/notes, v.v.vii,
+    v.v.vii/notes, v.v.viii, v.v.ix, v.v.ix/notes, v.v.x, v.v.x/notes, v.v.xi, v.v.xi/notes,
+    v.v.xii, v.v.xii/notes, v.v.xiii, v.v.xiv, v.v.xiv/notes, v.v.xv, v.v.xvi, v.v.xvii, v.v.xviii,
+    v.v.xix, v.v.xx, v.v.xxi, v.v.xxi/notes, v.v.xxii, v.v.xxii/notes, v.v.xxiii, v.v.xxiv,
+    v.v.xxiv/notes, v.v.xxv, v.v.xxvi, v.v.xxvii, v.v.xxvii/notes, v.v.xxviii, v.v.xxviii/notes,
+    v.v.xxix, v.v.xxix/notes, v.v.xxx, v.v.xxx/notes, v.v.xxxi, v.v.xxxi/notes, v.v.xxxii,
+    v.v.xxxii/notes, v.v.xxxiii, v.v.xxxiii/notes, v.v.xxxiv, v.v.xxxv, v.v.xxxv/notes, v.v.xxxvi,
+    v.v.xxxvi/notes, v.v.xxxvii, v.v.xxxvii/notes, v.v.xxxviii, v.v.xxxviii/notes, v.v.xxxix,
+    v.v.xxxix/notes, v.v.xl, v.v.xli, v.v.xli/notes, v.v.xlii, v.v.xlii/notes, v.v.xliii,
+    v.v.xliii/notes, v.v.xliv, v.v.xliv/notes]
+  language: eng
+  date: {start: 395, end: 395, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.5 introductory notice: about a.d. 395; P1 gives 395", formation_confidence: Widely Accepted}
   note: 'Early treatise on truthfulness; paired by Augustine himself with the later Against
     Lying.
 
@@ -168,6 +398,20 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.vi, v.vi.i, v.vi.i/notes, v.vi.ii, v.vi.ii/notes, v.vi.iii, v.vi.iii/notes, v.vi.iv,
+    v.vi.iv/notes, v.vi.v, v.vi.vi, v.vi.vii, v.vi.viii, v.vi.ix, v.vi.ix/notes, v.vi.x,
+    v.vi.x/notes, v.vi.xi, v.vi.xi/notes, v.vi.xii, v.vi.xii/notes, v.vi.xiii, v.vi.xiii/notes,
+    v.vi.xiv, v.vi.xiv/notes, v.vi.xv, v.vi.xv/notes, v.vi.xvi, v.vi.xvi/notes, v.vi.xvii,
+    v.vi.xvii/notes, v.vi.xviii, v.vi.xviii/notes, v.vi.xix, v.vi.xix/notes, v.vi.xx, v.vi.xxi,
+    v.vi.xxi/notes, v.vi.xxii, v.vi.xxii/notes, v.vi.xxiii, v.vi.xxiii/notes, v.vi.xxiv,
+    v.vi.xxiv/notes, v.vi.xxv, v.vi.xxv/notes, v.vi.xxvi, v.vi.xxvii, v.vi.xxvii/notes, v.vi.xxviii,
+    v.vi.xxviii/notes, v.vi.xxix, v.vi.xxix/notes, v.vi.xxx, v.vi.xxx/notes, v.vi.xxxi,
+    v.vi.xxxi/notes, v.vi.xxxii, v.vi.xxxii/notes, v.vi.xxxiii, v.vi.xxxiii/notes, v.vi.xxxiv,
+    v.vi.xxxiv/notes, v.vi.xxxv, v.vi.xxxv/notes, v.vi.xxxvi, v.vi.xxxvi/notes, v.vi.xxxvii,
+    v.vi.xxxvii/notes, v.vi.xxxviii, v.vi.xxxviii/notes, v.vi.xxxix, v.vi.xl, v.vi.xl/notes,
+    v.vi.xli, v.vi.xli/notes, v.vi.xlii, v.vi.xlii/notes]
+  language: eng
+  date: {start: 420, end: 420, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): Contra mendacium, written in 420; the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.6 notice states no date", formation_confidence: Widely Accepted}
   note: 'Written (c. 420) to Consentius against infiltrating the Priscillianists by feigned
     apostasy. Also assigned to priscillianist-asceticism below.
 
@@ -196,6 +440,22 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.vii, v.vii.i, v.vii.ii, v.vii.ii/notes, v.vii.iii, v.vii.iii/notes, v.vii.iv,
+    v.vii.iv/notes, v.vii.v, v.vii.v/notes, v.vii.vi, v.vii.vi/notes, v.vii.vii, v.vii.vii/notes,
+    v.vii.viii, v.vii.viii/notes, v.vii.ix, v.vii.ix/notes, v.vii.x, v.vii.x/notes, v.vii.xi,
+    v.vii.xi/notes, v.vii.xii, v.vii.xii/notes, v.vii.xiii, v.vii.xiii/notes, v.vii.xiv,
+    v.vii.xiv/notes, v.vii.xv, v.vii.xv/notes, v.vii.xvi, v.vii.xvi/notes, v.vii.xvii,
+    v.vii.xvii/notes, v.vii.xviii, v.vii.xviii/notes, v.vii.xix, v.vii.xix/notes, v.vii.xx,
+    v.vii.xxi, v.vii.xxi/notes, v.vii.xxii, v.vii.xxii/notes, v.vii.xxiii, v.vii.xxiii/notes,
+    v.vii.xxiv, v.vii.xxiv/notes, v.vii.xxv, v.vii.xxv/notes, v.vii.xxvi, v.vii.xxvi/notes,
+    v.vii.xxvii, v.vii.xxvii/notes, v.vii.xxviii, v.vii.xxviii/notes, v.vii.xxix, v.vii.xxix/notes,
+    v.vii.xxx, v.vii.xxx/notes, v.vii.xxxi, v.vii.xxxi/notes, v.vii.xxxii, v.vii.xxxii/notes,
+    v.vii.xxxiii, v.vii.xxxiii/notes, v.vii.xxxiv, v.vii.xxxiv/notes, v.vii.xxxv, v.vii.xxxv/notes,
+    v.vii.xxxvi, v.vii.xxxvi/notes, v.vii.xxxvii, v.vii.xxxvii/notes, v.vii.xxxviii,
+    v.vii.xxxviii/notes, v.vii.xxxix, v.vii.xxxix/notes, v.vii.xl, v.vii.xl/notes, v.vii.xli,
+    v.vii.xli/notes, v.vii.xlii]
+  language: eng
+  date: {start: 400, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works) gives 400; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.7 introductory notice places it next after De bono coniugali, 401", formation_confidence: Widely Accepted}
   note: 'Written for Aurelius of Carthage against monks there refusing manual labor. Evidence
     for Augustine''s own North African monasticism, which lives inside this entry — not assigned
     to desert-monasticism, whose world is Egyptian.
@@ -209,6 +469,16 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.viii, v.viii.i, v.viii.ii, v.viii.ii/notes, v.viii.iii, v.viii.iii/notes, v.viii.iv,
+    v.viii.iv/notes, v.viii.v, v.viii.v/notes, v.viii.vi, v.viii.vii, v.viii.vii/notes, v.viii.viii,
+    v.viii.viii/notes, v.viii.ix, v.viii.ix/notes, v.viii.x, v.viii.xi, v.viii.xi/notes, v.viii.xii,
+    v.viii.xii/notes, v.viii.xiii, v.viii.xiii/notes, v.viii.xiv, v.viii.xiv/notes, v.viii.xv,
+    v.viii.xv/notes, v.viii.xvi, v.viii.xvi/notes, v.viii.xvii, v.viii.xvii/notes, v.viii.xviii,
+    v.viii.xviii/notes, v.viii.xix, v.viii.xix/notes, v.viii.xx, v.viii.xx/notes, v.viii.xxi,
+    v.viii.xxii, v.viii.xxiii, v.viii.xxiii/notes, v.viii.xxiv, v.viii.xxiv/notes, v.viii.xxv,
+    v.viii.xxv/notes, v.viii.xxvi, v.viii.xxvi/notes, v.viii.xxvii, v.viii.xxvii/notes]
+  language: eng
+  date: {start: 418, end: 418, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De patientia (418); the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.8 notice states no date", formation_confidence: Widely Accepted}
   note: 'Sermon-treatise on patience as gift of grace.
 
     '
@@ -220,6 +490,15 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [v.ix, v.ix.i, v.ix.i/notes, v.ix.ii, v.ix.ii/notes, v.ix.iii, v.ix.iii/notes, v.ix.iv,
+    v.ix.iv/notes, v.ix.v, v.ix.v/notes, v.ix.vi, v.ix.vi/notes, v.ix.vii, v.ix.vii/notes,
+    v.ix.viii, v.ix.viii/notes, v.ix.ix, v.ix.ix/notes, v.ix.x, v.ix.x/notes, v.ix.xi,
+    v.ix.xi/notes, v.ix.xii, v.ix.xii/notes, v.ix.xiii, v.ix.xiii/notes, v.ix.xiv, v.ix.xiv/notes,
+    v.ix.xv, v.ix.xv/notes, v.ix.xvi, v.ix.xvi/notes, v.ix.xvii, v.ix.xvii/notes, v.ix.xviii,
+    v.ix.xviii/notes, v.ix.xix, v.ix.xix/notes, v.ix.xx, v.ix.xx/notes, v.ix.xxi, v.ix.xxi/notes,
+    v.ix.xxii, v.ix.xxii/notes, v.ix.xxiii, v.ix.xxiii/notes, v.ix.xxiv]
+  language: eng
+  date: {start: 421, end: 421, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De cura pro mortuis gerenda (421); the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.9 notice states no date", formation_confidence: Widely Accepted}
   note: 'Answer to Paulinus of Nola on burial near the martyrs — burial practice, martyr cult
     and congregational piety in one short text.
 

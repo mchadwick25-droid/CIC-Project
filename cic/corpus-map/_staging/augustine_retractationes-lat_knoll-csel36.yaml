@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 427, end: 428, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4): the Retractations were produced in 427 and 428", formation_confidence: Widely Accepted}
     note: >
       Latin critical-text source for a citation Registry row 13
       previously disclosed as held only at second hand, via an NPNF editor's own

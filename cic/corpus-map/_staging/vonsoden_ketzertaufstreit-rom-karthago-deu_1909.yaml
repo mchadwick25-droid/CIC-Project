@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1909, end: 1909, source: "vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt header, Publication Date: 1909", formation_confidence: Documented}
     note: >
       Modern (1909) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The article on the dispute between Stephen of Rome and Cyprian of

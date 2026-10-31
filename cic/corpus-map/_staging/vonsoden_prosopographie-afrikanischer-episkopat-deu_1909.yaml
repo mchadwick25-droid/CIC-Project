@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1909, end: 1909, source: "vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt header, Publication Date: 1909", formation_confidence: Documented}
     note: >
       Modern (1909) German scholarship -- role context, not tradition.
       A prosopography of the African episcopate in Cyprian's own decade, closing a

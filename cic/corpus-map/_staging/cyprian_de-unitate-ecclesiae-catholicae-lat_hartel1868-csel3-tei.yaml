@@ -11,6 +11,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 251, end: 251, source: "Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md section 7: De Unitate written c. 251 against Novatian and Felicissimus", formation_confidence: Widely Accepted}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's treatise on the unity of the

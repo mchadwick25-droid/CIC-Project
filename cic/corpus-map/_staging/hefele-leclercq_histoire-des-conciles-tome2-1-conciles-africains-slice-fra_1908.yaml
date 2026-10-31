@@ -9,5 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1908, end: 1908, source: "hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt header, Publication Date: 1908", formation_confidence: Documented}
     note: >
       Modern French account of the African councils. Registry row 247.

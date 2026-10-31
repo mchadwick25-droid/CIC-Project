@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1921, end: 1921, source: "delehaye_passions-martyrs-genres-litteraires-fra_1921.txt header, Publication Date: 1921", formation_confidence: Documented}
     note: >
       Modern (1921) French scholarship -- role context, not tradition.
       The foundational study of what the passio/formation-biography genre

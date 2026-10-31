@@ -23,6 +23,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act6]
+    language: lat
+    date: {start: 180, end: 180, source: "acta-martyrum-selecta_gebhardt1902.txt content note: Passio Sanctorum Scilitanorum, Carthage, 180; also Source_Registry row 28 (180 CE)", formation_confidence: Widely Accepted}
     note: >
       Latin second witness for the ALREADY-PRESENT English entry in this bucket (source_file
       anf09_gospel-of-peter-diatessaron-origen-commentaries.xml) and for the Latin/Greek entry
@@ -59,6 +62,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act13]
+    language: lat
+    date: {start: 258, end: 258, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
     note: >
       Cyprian's trial and martyrdom record in Latin, a second Latin text of the work already assigned
       from Hartel's CSEL 3 Pars III (source_file cyprian_opera-spuria-vita-pontius-lat_hartel-
@@ -76,6 +82,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act15]
+    language: lat
+    date: {start: 259, end: 259, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
     note: >
       An anonymous African martyrdom account. Its Latin sets the journey in Numidia ('pergebamus in
       Numidiam') and names Cyprian, who appears to the martyrs in a vision (file line 5365, 'Cyprianus
@@ -94,6 +103,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [act16]
+    language: lat
+    date: {start: 259, end: 259, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
     note: >
       An anonymous African martyrdom account. Its Latin names Cyprian as the teacher from whom the
       martyrs learned the faith (file line 5918, 'Cypriano docente') and looks back on the Decian

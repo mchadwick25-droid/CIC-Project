@@ -25,6 +25,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    language: lat
+    date: {start: 411, end: 411, source: "mansi_sacrorum-conciliorum-collectio-tomus-4 header: Gesta collationis Carthaginensis of 411", formation_confidence: Widely Accepted}
     note: >
       The official acts of the imperially-convened 411 conference between
       Catholic and Donatist bishops — the single largest documentary record

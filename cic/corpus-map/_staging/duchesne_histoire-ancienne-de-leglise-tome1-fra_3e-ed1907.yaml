@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [chapter20]
+    language: fra
+    date: {formation_confidence: unknown, checked: "duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt: the edition header gives only the printing year of the vendored 3rd edition (1907); the year of first composition is not in the repo"}
     note: >
       Modern French history of the early church; the chapter named in the locus is the part
       that bears on this entry. Registry row 240.

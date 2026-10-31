@@ -30,6 +30,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 411, end: 411, source: "mansi_sacrorum-conciliorum-collectio-tomus-4 header: Gesta collationis Carthaginensis of 411", formation_confidence: Widely Accepted}
     note: >
       A second Latin printing of the acts beside the Migne PL 11 printing already in the map
       as context. Registry row 229.
@@ -41,6 +44,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 411, end: 411, source: "mansi tomus 4 header groups the sermon with the Gesta of 411 (delivered during the conference); the date is inferred from that grouping", formation_confidence: Inferential-Thin}
     note: >
       Augustine's sermon after the conference of 411. Registry row 229.
   - row_id: mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901--hippo-regiense-council-in-mansi-tom-4
@@ -51,6 +57,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "mansi tomus 3 and 4 headers name the council by heading and file line but give no year; P1 and the Bruns/Lauchert headers do not match it to a dated council"}
     note: >
       African council recorded in Mansi 4. Registry row 229.
 

@@ -10,6 +10,10 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [l11/c1/s1, l11/c1/s2, l11/c1/s3, l11/c1/s4, l11/c1/s5, l11/c1/s6, l11/appendice/1,
+      l11/appendice/2, l11/appendice/3]
+    language: fra
+    date: {start: 1923, end: 1923, source: "monceaux tomes 6-7 header: tome VII (file line 21976), Publication Date: 1923", formation_confidence: Documented}
     note: >
       Shared-Events Era 2 batch (worker C). Monceaux's own study (1923, French) of
       Augustine's campaign against Donatism, including the Conference of Carthage of 411

@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1901, end: 1901, source: "audollent_carthage-romaine-fra_1901.txt header, Publication Date: 1901", formation_confidence: Documented}
     note: >
       Modern (1901) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The standard history of Roman Carthage, 146 BC to 698 AD, the city

@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1905, end: 1905, source: "monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt header, Publication Date: 1905", formation_confidence: Documented}
     note: >
       Modern (1905) French literary-historical scholarship -- role
       context, not tradition. Closes the final third of Source_Acquisition_Manifest

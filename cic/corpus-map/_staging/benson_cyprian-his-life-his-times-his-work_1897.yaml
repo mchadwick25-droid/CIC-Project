@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: eng
+    date: {formation_confidence: unknown, checked: "the row note says the biography was published after Benson's death; the header gives 1897 as the printing year, and the composition years are not in the repo"}
     note: >
       Modern (1897) English scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. A full-length biography of Cyprian by a sometime Archbishop of

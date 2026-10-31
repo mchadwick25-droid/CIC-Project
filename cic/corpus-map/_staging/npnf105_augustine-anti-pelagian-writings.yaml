@@ -29,6 +29,53 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [x.i, x.ii, x.ii/notes, x.iii, x.iii.i, x.iii.i/notes, x.iii.ii, x.iii.ii/notes,
+      x.iii.iii, x.iii.iii/notes, x.iii.iv, x.iii.iv/notes, x.iii.v, x.iii.v/notes, x.iii.vi,
+      x.iii.vi/notes, x.iii.vii, x.iii.vii/notes, x.iii.viii, x.iii.viii/notes, x.iii.ix,
+      x.iii.ix/notes, x.iii.x, x.iii.x/notes, x.iii.xi, x.iii.xi/notes, x.iii.xii, x.iii.xii/notes,
+      x.iii.xiii, x.iii.xiii/notes, x.iii.xiv, x.iii.xiv/notes, x.iii.xv, x.iii.xv/notes, x.iii.xvi,
+      x.iii.xvii, x.iii.xvii/notes, x.iii.xviii, x.iii.xviii/notes, x.iii.xix, x.iii.xix/notes,
+      x.iii.xx, x.iii.xx/notes, x.iii.xxi, x.iii.xxi/notes, x.iii.xxii, x.iii.xxiii,
+      x.iii.xxiii/notes, x.iii.xxiv, x.iii.xxiv/notes, x.iii.xxv, x.iii.xxv/notes, x.iii.xxvi,
+      x.iii.xxvi/notes, x.iii.xxvii, x.iii.xxvii/notes, x.iii.xxviii, x.iii.xxviii/notes,
+      x.iii.xxix, x.iii.xxix/notes, x.iii.xxx, x.iii.xxx/notes, x.iii.xxxi, x.iii.xxxi/notes,
+      x.iii.xxxii, x.iii.xxxii/notes, x.iii.xxxiii, x.iii.xxxiii/notes, x.iii.xxxiv,
+      x.iii.xxxiv/notes, x.iii.xxxv, x.iii.xxxv/notes, x.iii.xxxvi, x.iii.xxxvi/notes, x.iii.xxxvii,
+      x.iii.xxxvii/notes, x.iii.xxxviii, x.iii.xxxviii/notes, x.iii.xxxix, x.iii.xxxix/notes,
+      x.iii.xl, x.iii.xl/notes, x.iii.xli, x.iii.xli/notes, x.iii.xlii, x.iii.xlii/notes,
+      x.iii.xliii, x.iii.xliii/notes, x.iii.xliv, x.iii.xliv/notes, x.iii.xlv, x.iii.xlv/notes,
+      x.iii.xlvi, x.iii.xlvi/notes, x.iii.xlvii, x.iii.xlvii/notes, x.iii.xlviii,
+      x.iii.xlviii/notes, x.iii.xlix, x.iii.xlix/notes, x.iii.l, x.iii.l/notes, x.iii.li,
+      x.iii.li/notes, x.iii.lii, x.iii.lii/notes, x.iii.liii, x.iii.liii/notes, x.iii.liv,
+      x.iii.liv/notes, x.iii.lv, x.iii.lv/notes, x.iii.lvi, x.iii.lvi/notes, x.iii.lvii,
+      x.iii.lvii/notes, x.iii.lviii, x.iii.lviii/notes, x.iii.lix, x.iii.lix/notes, x.iii.lx,
+      x.iii.lx/notes, x.iii.lxi, x.iii.lxi/notes, x.iii.lxii, x.iii.lxii/notes, x.iii.lxiii,
+      x.iii.lxiv, x.iii.lxv, x.iii.lxvi, x.iii.lxvi/notes, x.iii.lxvii, x.iii.lxvii/notes,
+      x.iii.lxviii, x.iii.lxviii/notes, x.iii.lxix, x.iii.lxx, x.iii.lxx/notes, x.iv, x.iv.i,
+      x.iv.i/notes, x.iv.ii, x.iv.ii/notes, x.iv.iii, x.iv.iii/notes, x.iv.iv, x.iv.iv/notes,
+      x.iv.v, x.iv.v/notes, x.iv.vi, x.iv.vi/notes, x.iv.vii, x.iv.vii/notes, x.iv.viii,
+      x.iv.viii/notes, x.iv.ix, x.iv.ix/notes, x.iv.x, x.iv.x/notes, x.iv.xi, x.iv.xi/notes,
+      x.iv.xii, x.iv.xii/notes, x.iv.xiii, x.iv.xiii/notes, x.iv.xiv, x.iv.xiv/notes, x.iv.xv,
+      x.iv.xv/notes, x.iv.xvi, x.iv.xvi/notes, x.iv.xvii, x.iv.xvii/notes, x.iv.xviii,
+      x.iv.xviii/notes, x.iv.xix, x.iv.xix/notes, x.iv.xx, x.iv.xx/notes, x.iv.xxi, x.iv.xxi/notes,
+      x.iv.xxii, x.iv.xxii/notes, x.iv.xxiii, x.iv.xxiv, x.iv.xxiv/notes, x.iv.xxv, x.iv.xxv/notes,
+      x.iv.xxvi, x.iv.xxvi/notes, x.iv.xxvii, x.iv.xxvii/notes, x.iv.xxviii, x.iv.xxviii/notes,
+      x.iv.xxix, x.iv.xxx, x.iv.xxx/notes, x.iv.xxxi, x.iv.xxxi/notes, x.iv.xxxii, x.iv.xxxii/notes,
+      x.iv.xxxiii, x.iv.xxxiii/notes, x.iv.xxxiv, x.iv.xxxiv/notes, x.iv.xxxv, x.iv.xxxv/notes,
+      x.iv.xxxvi, x.iv.xxxvi/notes, x.iv.xxxvii, x.iv.xxxvii/notes, x.iv.xxxviii,
+      x.iv.xxxviii/notes, x.iv.xxxix, x.iv.xxxix/notes, x.iv.xl, x.iv.xli, x.iv.xli/notes,
+      x.iv.xlii, x.iv.xlii/notes, x.iv.xliii, x.iv.xliii/notes, x.iv.xliv, x.iv.xlv, x.iv.xlv/notes,
+      x.iv.xlvi, x.iv.xlvi/notes, x.iv.xlvii, x.iv.xlviii, x.iv.xlviii/notes, x.iv.xlix,
+      x.iv.xlix/notes, x.iv.l, x.iv.l/notes, x.iv.li, x.iv.li/notes, x.iv.lii, x.iv.lii/notes,
+      x.iv.liii, x.iv.liii/notes, x.iv.liv, x.iv.liv/notes, x.iv.lv, x.iv.lv/notes, x.iv.lvi,
+      x.iv.lvii, x.iv.lvii/notes, x.iv.lviii, x.iv.lviii/notes, x.iv.lix, x.iv.lix/notes, x.v,
+      x.v.i, x.v.i/notes, x.v.ii, x.v.iii, x.v.iii/notes, x.v.iv, x.v.iv/notes, x.v.v, x.v.vi,
+      x.v.vi/notes, x.v.vii, x.v.vii/notes, x.v.viii, x.v.viii/notes, x.v.ix, x.v.ix/notes, x.v.x,
+      x.v.x/notes, x.v.xi, x.v.xii, x.v.xii/notes, x.v.xiii, x.v.xiii/notes, x.v.xiv, x.v.xiv/notes,
+      x.v.xv, x.v.xvi, x.v.xvii, x.v.xvii/notes, x.v.xviii, x.v.xix, x.v.xix/notes, x.v.xx,
+      x.v.xx/notes, x.v.xxi, x.v.xxi/notes, x.v.xxii, x.v.xxiii, x.v.xxiii/notes]
+    language: eng
+    date: {start: 412, end: 412, source: "npnf105_augustine-anti-pelagian-writings.xml div1 10 heading: addressed to Marcellinus, a.d. 412; P1 agrees", formation_confidence: Widely Accepted}
     note: >
       First of the anti-Pelagian treatises (412), against Caelestius' teaching
       on infant baptism and sinlessness. Tradition for its author's own entry;
@@ -43,6 +90,26 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xi.i, xi.ii, xi.ii/notes, xi.iii, xi.iv, xi.iv/notes, xi.v, xi.v/notes, xi.vi,
+      xi.vi/notes, xi.vii, xi.viii, xi.viii/notes, xi.ix, xi.ix/notes, xi.x, xi.x/notes, xi.xi,
+      xi.xi/notes, xi.xii, xi.xii/notes, xi.xiii, xi.xiii/notes, xi.xiv, xi.xiv/notes, xi.xv,
+      xi.xv/notes, xi.xvi, xi.xvi/notes, xi.xvii, xi.xvii/notes, xi.xviii, xi.xviii/notes, xi.xix,
+      xi.xix/notes, xi.xx, xi.xx/notes, xi.xxi, xi.xxi/notes, xi.xxii, xi.xxii/notes, xi.xxiii,
+      xi.xxiii/notes, xi.xxiv, xi.xxiv/notes, xi.xxv, xi.xxv/notes, xi.xxvi, xi.xxvi/notes,
+      xi.xxvii, xi.xxvii/notes, xi.xxviii, xi.xxviii/notes, xi.xxix, xi.xxix/notes, xi.xxx,
+      xi.xxx/notes, xi.xxxi, xi.xxxi/notes, xi.xxxii, xi.xxxii/notes, xi.xxxiii, xi.xxxiii/notes,
+      xi.xxxiv, xi.xxxiv/notes, xi.xxxv, xi.xxxvi, xi.xxxvi/notes, xi.xxxvii, xi.xxxvii/notes,
+      xi.xxxviii, xi.xxxviii/notes, xi.xxxix, xi.xxxix/notes, xi.xl, xi.xl/notes, xi.xli,
+      xi.xli/notes, xi.xlii, xi.xlii/notes, xi.xliii, xi.xliii/notes, xi.xliv, xi.xliv/notes,
+      xi.xlv, xi.xlv/notes, xi.xlvi, xi.xlvi/notes, xi.xlvii, xi.xlvii/notes, xi.xlviii,
+      xi.xlviii/notes, xi.xlix, xi.xlix/notes, xi.l, xi.l/notes, xi.li, xi.li/notes, xi.lii,
+      xi.lii/notes, xi.liii, xi.liii/notes, xi.liv, xi.liv/notes, xi.lv, xi.lv/notes, xi.lvi,
+      xi.lvi/notes, xi.lvii, xi.lvii/notes, xi.lviii, xi.lviii/notes, xi.lix, xi.lix/notes, xi.lx,
+      xi.lx/notes, xi.lxi, xi.lxi/notes, xi.lxii, xi.lxii/notes, xi.lxiii, xi.lxiii/notes, xi.lxiv,
+      xi.lxiv/notes, xi.lxv, xi.lxv/notes, xi.lxvi, xi.lxvi/notes, xi.lxvii, xi.lxvii/notes,
+      xi.lxviii, xi.lxviii/notes, xi.lxix, xi.lxix/notes]
+    language: eng
+    date: {start: 412, end: 413, source: "npnf105_augustine-anti-pelagian-writings.xml div1 11 heading gives a.d. 412; P1 gives 413", formation_confidence: Widely Accepted}
     note: >
       412, to Marcellinus, continuing the argument of div1 10 on grace and law.
       Anti-Pelagian in occasion and doctrine.
@@ -56,6 +123,31 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xii.i, xii.ii, xii.ii/notes, xii.iii, xii.iii/notes, xii.iv, xii.v, xii.v/notes,
+      xii.vi, xii.vi/notes, xii.vii, xii.vii/notes, xii.viii, xii.viii/notes, xii.ix, xii.ix/notes,
+      xii.x, xii.x/notes, xii.xi, xii.xii, xii.xii/notes, xii.xiii, xii.xiii/notes, xii.xiv,
+      xii.xiv/notes, xii.xv, xii.xvi, xii.xvii, xii.xvii/notes, xii.xviii, xii.xviii/notes, xii.xix,
+      xii.xix/notes, xii.xx, xii.xx/notes, xii.xxi, xii.xxi/notes, xii.xxii, xii.xxii/notes,
+      xii.xxiii, xii.xxiii/notes, xii.xxiv, xii.xxv, xii.xxv/notes, xii.xxvi, xii.xxvi/notes,
+      xii.xxvii, xii.xxvii/notes, xii.xxviii, xii.xxviii/notes, xii.xxix, xii.xxix/notes, xii.xxx,
+      xii.xxx/notes, xii.xxxi, xii.xxxi/notes, xii.xxxii, xii.xxxiii, xii.xxxiii/notes, xii.xxxiv,
+      xii.xxxv, xii.xxxv/notes, xii.xxxvi, xii.xxxvi/notes, xii.xxxvii, xii.xxxvii/notes,
+      xii.xxxviii, xii.xxxix, xii.xxxix/notes, xii.xl, xii.xl/notes, xii.xli, xii.xlii,
+      xii.xlii/notes, xii.xliii, xii.xliv, xii.xlv, xii.xlv/notes, xii.xlvi, xii.xlvi/notes,
+      xii.xlvii, xii.xlvii/notes, xii.xlviii, xii.xlix, xii.xlix/notes, xii.l, xii.l/notes, xii.li,
+      xii.li/notes, xii.lii, xii.lii/notes, xii.liii, xii.liii/notes, xii.liv, xii.liv/notes,
+      xii.lv, xii.lv/notes, xii.lvi, xii.lvii, xii.lvii/notes, xii.lviii, xii.lix, xii.lx,
+      xii.lx/notes, xii.lxi, xii.lxi/notes, xii.lxii, xii.lxii/notes, xii.lxiii, xii.lxiii/notes,
+      xii.lxiv, xii.lxiv/notes, xii.lxv, xii.lxv/notes, xii.lxvi, xii.lxvi/notes, xii.lxvii,
+      xii.lxvii/notes, xii.lxviii, xii.lxviii/notes, xii.lxix, xii.lxix/notes, xii.lxx,
+      xii.lxx/notes, xii.lxxi, xii.lxxi/notes, xii.lxxii, xii.lxxii/notes, xii.lxxiii, xii.lxxiv,
+      xii.lxxiv/notes, xii.lxxv, xii.lxxv/notes, xii.lxxvi, xii.lxxvi/notes, xii.lxxvii,
+      xii.lxxvii/notes, xii.lxxviii, xii.lxxviii/notes, xii.lxxix, xii.lxxix/notes, xii.lxxx,
+      xii.lxxx/notes, xii.lxxxi, xii.lxxxi/notes, xii.lxxxii, xii.lxxxii/notes, xii.lxxxiii,
+      xii.lxxxiii/notes, xii.lxxxiv, xii.lxxxiv/notes, xii.lxxxv, xii.lxxxv/notes, xii.lxxxvi,
+      xii.lxxxvi/notes, xii.lxxxvii, xii.lxxxvii/notes, xii.lxxxviii, xii.lxxxviii/notes]
+    language: eng
+    date: {start: 415, end: 415, source: "npnf105_augustine-anti-pelagian-writings.xml div1 12 heading: written in the year of our Lord 415; P1 agrees", formation_confidence: Widely Accepted}
     note: >
       415, answering Pelagius' own book De natura, which it quotes throughout —
       a principal channel for Pelagius' actual words.
@@ -69,6 +161,23 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xiii.i, xiii.ii, xiii.ii/notes, xiii.iii, xiii.iii/notes, xiii.iv, xiii.iv/notes,
+      xiii.v, xiii.v/notes, xiii.vi, xiii.vi/notes, xiii.vii, xiii.vii/notes, xiii.viii,
+      xiii.viii/notes, xiii.ix, xiii.ix/notes, xiii.x, xiii.xi, xiii.xi/notes, xiii.xii,
+      xiii.xii/notes, xiii.xiii, xiii.xiii/notes, xiii.xiv, xiii.xiv/notes, xiii.xv, xiii.xv/notes,
+      xiii.xvi, xiii.xvi/notes, xiii.xvii, xiii.xviii, xiii.xviii/notes, xiii.xix, xiii.xix/notes,
+      xiii.xx, xiii.xx/notes, xiii.xxi, xiii.xxi/notes, xiii.xxii, xiii.xxii/notes, xiii.xxiii,
+      xiii.xxiii/notes, xiii.xxiv, xiii.xxiv/notes, xiii.xxv, xiii.xxv/notes, xiii.xxvi,
+      xiii.xxvi/notes, xiii.xxvii, xiii.xxvii/notes, xiii.xxviii, xiii.xxviii/notes, xiii.xxix,
+      xiii.xxix/notes, xiii.xxx, xiii.xxx/notes, xiii.xxxi, xiii.xxxi/notes, xiii.xxxii,
+      xiii.xxxii/notes, xiii.xxxiii, xiii.xxxiii/notes, xiii.xxxiv, xiii.xxxiv/notes, xiii.xxxv,
+      xiii.xxxv/notes, xiii.xxxvi, xiii.xxxvi/notes, xiii.xxxvii, xiii.xxxvii/notes, xiii.xxxviii,
+      xiii.xxxviii/notes, xiii.xxxix, xiii.xxxix/notes, xiii.xl, xiii.xl/notes, xiii.xli,
+      xiii.xli/notes, xiii.xlii, xiii.xlii/notes, xiii.xliii, xiii.xliii/notes, xiii.xliv,
+      xiii.xliv/notes, xiii.xlv, xiii.xlv/notes, xiii.xlvi, xiii.xlvi/notes, xiii.xlvii,
+      xiii.xlvii/notes, xiii.xlviii, xiii.xlviii/notes]
+    language: eng
+    date: {start: 415, end: 415, source: "npnf105_augustine-anti-pelagian-writings.xml div1 13 preface: the editor argues for before midsummer 415", formation_confidence: Dominant Modern Reconstruction}
     note: >
       c. 415/416, answering the sixteen "breviates" (definitiones) of
       Caelestius, each of which the treatise reproduces before refuting —
@@ -83,6 +192,24 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xiv.i, xiv.ii, xiv.ii/notes, xiv.iii, xiv.iii/notes, xiv.iv, xiv.v, xiv.vi,
+      xiv.vi/notes, xiv.vii, xiv.viii, xiv.viii/notes, xiv.ix, xiv.ix/notes, xiv.x, xiv.x/notes,
+      xiv.xi, xiv.xi/notes, xiv.xii, xiv.xiii, xiv.xiii/notes, xiv.xiv, xiv.xiv/notes, xiv.xv,
+      xiv.xv/notes, xiv.xvi, xiv.xvi/notes, xiv.xvii, xiv.xvii/notes, xiv.xviii, xiv.xviii/notes,
+      xiv.xix, xiv.xx, xiv.xxi, xiv.xxii, xiv.xxii/notes, xiv.xxiii, xiv.xxiii/notes, xiv.xxiv,
+      xiv.xxiv/notes, xiv.xxv, xiv.xxv/notes, xiv.xxvi, xiv.xxvi/notes, xiv.xxvii, xiv.xxvii/notes,
+      xiv.xxviii, xiv.xxix, xiv.xxix/notes, xiv.xxx, xiv.xxx/notes, xiv.xxxi, xiv.xxxi/notes,
+      xiv.xxxii, xiv.xxxiii, xiv.xxxiii/notes, xiv.xxxiv, xiv.xxxv, xiv.xxxv/notes, xiv.xxxvi,
+      xiv.xxxvi/notes, xiv.xxxvii, xiv.xxxvii/notes, xiv.xxxviii, xiv.xxxviii/notes, xiv.xxxix,
+      xiv.xxxix/notes, xiv.xl, xiv.xl/notes, xiv.xli, xiv.xli/notes, xiv.xlii, xiv.xlii/notes,
+      xiv.xliii, xiv.xliii/notes, xiv.xliv, xiv.xliv/notes, xiv.xlv, xiv.xlv/notes, xiv.xlvi,
+      xiv.xlvi/notes, xiv.xlvii, xiv.xlviii, xiv.xlix, xiv.l, xiv.li, xiv.lii, xiv.lii/notes,
+      xiv.liii, xiv.liii/notes, xiv.liv, xiv.lv, xiv.lv/notes, xiv.lvi, xiv.lvi/notes, xiv.lvii,
+      xiv.lviii, xiv.lviii/notes, xiv.lix, xiv.lix/notes, xiv.lx, xiv.lxi, xiv.lxii, xiv.lxiii,
+      xiv.lxiv, xiv.lxv, xiv.lxv/notes, xiv.lxvi, xiv.lxvi/notes, xiv.lxvii, xiv.lxvii/notes,
+      xiv.lxviii, xiv.lxviii/notes, xiv.lxix, xiv.lxix/notes, xiv.lxx, xiv.lxx/notes]
+    language: eng
+    date: {start: 417, end: 417, source: "npnf105_augustine-anti-pelagian-writings.xml div1 14 preface: traced to the start of 417; P1 gives 417", formation_confidence: Dominant Modern Reconstruction}
     note: >
       417, Augustine's account of the Synod of Diospolis (415), quoting its
       acts. Part narrative history of the controversy, part polemic; the
@@ -98,6 +225,41 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xv.i, xv.ii, xv.ii/notes, xv.iii, xv.iii.i, xv.iii.i/notes, xv.iii.ii,
+      xv.iii.ii/notes, xv.iii.iii, xv.iii.iii/notes, xv.iii.iv, xv.iii.iv/notes, xv.iii.v,
+      xv.iii.v/notes, xv.iii.vi, xv.iii.vi/notes, xv.iii.vii, xv.iii.viii, xv.iii.ix,
+      xv.iii.ix/notes, xv.iii.x, xv.iii.x/notes, xv.iii.xi, xv.iii.xi/notes, xv.iii.xii,
+      xv.iii.xii/notes, xv.iii.xiii, xv.iii.xiii/notes, xv.iii.xiv, xv.iii.xiv/notes, xv.iii.xv,
+      xv.iii.xv/notes, xv.iii.xvi, xv.iii.xvi/notes, xv.iii.xvii, xv.iii.xvii/notes, xv.iii.xviii,
+      xv.iii.xix, xv.iii.xix/notes, xv.iii.xx, xv.iii.xx/notes, xv.iii.xxi, xv.iii.xxi/notes,
+      xv.iii.xxii, xv.iii.xxii/notes, xv.iii.xxiii, xv.iii.xxiii/notes, xv.iii.xxiv,
+      xv.iii.xxiv/notes, xv.iii.xxv, xv.iii.xxv/notes, xv.iii.xxvi, xv.iii.xxvi/notes, xv.iii.xxvii,
+      xv.iii.xxvii/notes, xv.iii.xxviii, xv.iii.xxviii/notes, xv.iii.xxix, xv.iii.xxx,
+      xv.iii.xxx/notes, xv.iii.xxxi, xv.iii.xxxi/notes, xv.iii.xxxii, xv.iii.xxxii/notes,
+      xv.iii.xxxiii, xv.iii.xxxiii/notes, xv.iii.xxxiv, xv.iii.xxxiv/notes, xv.iii.xxxv,
+      xv.iii.xxxvi, xv.iii.xxxvi/notes, xv.iii.xxxvii, xv.iii.xxxviii, xv.iii.xxxix,
+      xv.iii.xxxix/notes, xv.iii.xl, xv.iii.xl/notes, xv.iii.xli, xv.iii.xli/notes, xv.iii.xlii,
+      xv.iii.xlii/notes, xv.iii.xliii, xv.iii.xliii/notes, xv.iii.xliv, xv.iii.xliv/notes,
+      xv.iii.xlv, xv.iii.xlvi, xv.iii.xlvi/notes, xv.iii.xlvii, xv.iii.xlvii/notes, xv.iii.xlviii,
+      xv.iii.xlviii/notes, xv.iii.xlix, xv.iii.xlix/notes, xv.iii.l, xv.iii.l/notes, xv.iii.li,
+      xv.iii.li/notes, xv.iii.lii, xv.iii.lii/notes, xv.iii.liii, xv.iii.liii/notes, xv.iii.liv,
+      xv.iii.liv/notes, xv.iii.lv, xv.iii.lv/notes, xv.iv, xv.iv.i, xv.iv.i/notes, xv.iv.ii,
+      xv.iv.ii/notes, xv.iv.iii, xv.iv.iii/notes, xv.iv.iv, xv.iv.v, xv.iv.v/notes, xv.iv.vi,
+      xv.iv.vii, xv.iv.viii, xv.iv.ix, xv.iv.ix/notes, xv.iv.x, xv.iv.x/notes, xv.iv.xi, xv.iv.xii,
+      xv.iv.xii/notes, xv.iv.xiii, xv.iv.xiv, xv.iv.xv, xv.iv.xv/notes, xv.iv.xvi, xv.iv.xvii,
+      xv.iv.xviii, xv.iv.xviii/notes, xv.iv.xix, xv.iv.xx, xv.iv.xxi, xv.iv.xxi/notes, xv.iv.xxii,
+      xv.iv.xxiii, xv.iv.xxiii/notes, xv.iv.xxiv, xv.iv.xxiv/notes, xv.iv.xxv, xv.iv.xxv/notes,
+      xv.iv.xxvi, xv.iv.xxvi/notes, xv.iv.xxvii, xv.iv.xxvii/notes, xv.iv.xxviii,
+      xv.iv.xxviii/notes, xv.iv.xxix, xv.iv.xxix/notes, xv.iv.xxx, xv.iv.xxxi, xv.iv.xxxi/notes,
+      xv.iv.xxxii, xv.iv.xxxii/notes, xv.iv.xxxiii, xv.iv.xxxiii/notes, xv.iv.xxxiv,
+      xv.iv.xxxiv/notes, xv.iv.xxxv, xv.iv.xxxv/notes, xv.iv.xxxvi, xv.iv.xxxvi/notes, xv.iv.xxxvii,
+      xv.iv.xxxvii/notes, xv.iv.xxxviii, xv.iv.xxxviii/notes, xv.iv.xxxix, xv.iv.xxxix/notes,
+      xv.iv.xl, xv.iv.xl/notes, xv.iv.xli, xv.iv.xli/notes, xv.iv.xlii, xv.iv.xlii/notes,
+      xv.iv.xliii, xv.iv.xliii/notes, xv.iv.xliv, xv.iv.xliv/notes, xv.iv.xlv, xv.iv.xlv/notes,
+      xv.iv.xlvi, xv.iv.xlvi/notes, xv.iv.xlvii, xv.iv.xlvii/notes, xv.iv.xlviii,
+      xv.iv.xlviii/notes]
+    language: eng
+    date: {start: 418, end: 418, source: "npnf105_augustine-anti-pelagian-writings.xml div1 15 heading: a.d. 418; P1 agrees", formation_confidence: Widely Accepted}
     note: >
       418, to Albina, Pinianus and Melania. One work in two books, kept as one
       work — unlike div1 21, where two genuinely distinct treatises share a
@@ -112,6 +274,40 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xvi.i, xvi.ii, xvi.ii/notes, xvi.iii, xvi.iii/notes, xvi.iv, xvi.iv/notes, xvi.v,
+      xvi.v/notes, xvi.v.i, xvi.v.i/notes, xvi.v.ii, xvi.v.ii/notes, xvi.v.iii, xvi.v.iii/notes,
+      xvi.v.iv, xvi.v.iv/notes, xvi.v.v, xvi.v.v/notes, xvi.v.vi, xvi.v.vi/notes, xvi.v.vii,
+      xvi.v.vii/notes, xvi.v.viii, xvi.v.ix, xvi.v.ix/notes, xvi.v.x, xvi.v.x/notes, xvi.v.xi,
+      xvi.v.xi/notes, xvi.v.xii, xvi.v.xii/notes, xvi.v.xiii, xvi.v.xiii/notes, xvi.v.xiv,
+      xvi.v.xiv/notes, xvi.v.xv, xvi.v.xv/notes, xvi.v.xvi, xvi.v.xvi/notes, xvi.v.xvii,
+      xvi.v.xviii, xvi.v.xviii/notes, xvi.v.xix, xvi.v.xix/notes, xvi.v.xx, xvi.v.xx/notes,
+      xvi.v.xxi, xvi.v.xxii, xvi.v.xxii/notes, xvi.v.xxiii, xvi.v.xxiii/notes, xvi.v.xxiv,
+      xvi.v.xxiv/notes, xvi.v.xxv, xvi.v.xxv/notes, xvi.v.xxvi, xvi.v.xxvii, xvi.v.xxvii/notes,
+      xvi.v.xxviii, xvi.v.xxviii/notes, xvi.v.xxix, xvi.v.xxix/notes, xvi.v.xxx, xvi.v.xxx/notes,
+      xvi.v.xxxi, xvi.v.xxxi/notes, xvi.v.xxxii, xvi.v.xxxii/notes, xvi.v.xxxiii,
+      xvi.v.xxxiii/notes, xvi.v.xxxiv, xvi.v.xxxiv/notes, xvi.v.xxxv, xvi.v.xxxv/notes, xvi.v.xxxvi,
+      xvi.v.xxxvi/notes, xvi.v.xxxvii, xvi.v.xxxvii/notes, xvi.v.xxxviii, xvi.v.xxxviii/notes,
+      xvi.v.xxxix, xvi.v.xl, xvi.v.xl/notes, xvi.vi.i, xvi.vi.i/notes, xvi.vi.ii, xvi.vi.iii,
+      xvi.vi.iii/notes, xvi.vi.iv, xvi.vi.iv/notes, xvi.vi.v, xvi.vi.v/notes, xvi.vi.vi,
+      xvi.vi.vi/notes, xvi.vi.vii, xvi.vi.vii/notes, xvi.vi.viii, xvi.vi.viii/notes, xvi.vi.ix,
+      xvi.vi.ix/notes, xvi.vi.x, xvi.vi.x/notes, xvi.vi.xi, xvi.vi.xii, xvi.vi.xiii,
+      xvi.vi.xiii/notes, xvi.vi.xiv, xvi.vi.xiv/notes, xvi.vi.xv, xvi.vi.xv/notes, xvi.vi.xvi,
+      xvi.vi.xvi/notes, xvi.vi.xvii, xvi.vi.xvii/notes, xvi.vi.xviii, xvi.vi.xviii/notes,
+      xvi.vi.xix, xvi.vi.xx, xvi.vi.xx/notes, xvi.vi.xxi, xvi.vi.xxi/notes, xvi.vi.xxii,
+      xvi.vi.xxii/notes, xvi.vi.xxiii, xvi.vi.xxiv, xvi.vi.xxiv/notes, xvi.vi.xxv, xvi.vi.xxv/notes,
+      xvi.vi.xxvi, xvi.vi.xxvii, xvi.vi.xxviii, xvi.vi.xxviii/notes, xvi.vi.xxix, xvi.vi.xxix/notes,
+      xvi.vi.xxx, xvi.vi.xxxi, xvi.vi.xxxii, xvi.vi.xxxii/notes, xvi.vi.xxxiii, xvi.vi.xxxiii/notes,
+      xvi.vi.xxxiv, xvi.vi.xxxiv/notes, xvi.vi.xxxv, xvi.vi.xxxv/notes, xvi.vi.xxxvi,
+      xvi.vi.xxxvi/notes, xvi.vi.xxxvii, xvi.vi.xxxvii/notes, xvi.vi.xxxviii, xvi.vi.xxxviii/notes,
+      xvi.vi.xxxix, xvi.vi.xl, xvi.vi.xli, xvi.vi.xli/notes, xvi.vi.xlii, xvi.vi.xlii/notes,
+      xvi.vi.xliii, xvi.vi.xliii/notes, xvi.vi.xliv, xvi.vi.xliv/notes, xvi.vi.xlv, xvi.vi.xlvi,
+      xvi.vi.xlvi/notes, xvi.vi.xlvii, xvi.vi.xlvii/notes, xvi.vi.xlviii, xvi.vi.xlviii/notes,
+      xvi.vi.xlix, xvi.vi.xlix/notes, xvi.vi.l, xvi.vi.l/notes, xvi.vi.li, xvi.vi.li/notes,
+      xvi.vi.lii, xvi.vi.lii/notes, xvi.vi.liii, xvi.vi.liii/notes, xvi.vi.liv, xvi.vi.liv/notes,
+      xvi.vi.lv, xvi.vi.lv/notes, xvi.vi.lvi, xvi.vi.lvii, xvi.vi.lvii/notes, xvi.vi.lviii,
+      xvi.vi.lviii/notes, xvi.vi.lix, xvi.vi.lx, xvi.vi.lxi, xvi.vi.lxi/notes]
+    language: eng
+    date: {start: 418, end: 420, source: "npnf105_augustine-anti-pelagian-writings.xml div1 16 preface: book 1 at the close of 418 or start of 419, book 2 in 420; P1 gives 419", formation_confidence: Dominant Modern Reconstruction}
     note: >
       419-421, to Count Valerius, answering Julian of Eclanum's charge that
       the doctrine of original sin condemns marriage. Book II replies to
@@ -126,6 +322,46 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [xvii.i, xvii.ii, xvii.iii, xvii.iii/notes, xvii.iv, xvii.iv/notes, xvii.iv.i,
+      xvii.iv.ii, xvii.iv.ii/notes, xvii.iv.iii, xvii.iv.iv, xvii.iv.v, xvii.iv.vi, xvii.iv.vii,
+      xvii.iv.viii, xvii.iv.ix, xvii.iv.ix/notes, xvii.iv.x, xvii.iv.x/notes, xvii.iv.xi,
+      xvii.iv.xi/notes, xvii.iv.xii, xvii.iv.xiii, xvii.iv.xiii/notes, xvii.iv.xiv,
+      xvii.iv.xiv/notes, xvii.iv.xv, xvii.iv.xv/notes, xvii.iv.xvi, xvii.iv.xvii,
+      xvii.iv.xvii/notes, xvii.iv.xviii, xvii.iv.xviii/notes, xvii.iv.xix, xvii.iv.xix/notes,
+      xvii.iv.xx, xvii.iv.xx/notes, xvii.iv.xxi, xvii.iv.xxi/notes, xvii.iv.xxii,
+      xvii.iv.xxii/notes, xvii.iv.xxiii, xvii.iv.xxiii/notes, xvii.iv.xxiv, xvii.iv.xxiv/notes,
+      xvii.iv.xxv, xvii.iv.xxv/notes, xvii.iv.xxvi, xvii.iv.xxvi/notes, xvii.iv.xxvii,
+      xvii.iv.xxvii/notes, xvii.iv.xxviii, xvii.iv.xxviii/notes, xvii.iv.xxix, xvii.iv.xxix/notes,
+      xvii.iv.xxx, xvii.iv.xxx/notes, xvii.iv.xxxi, xvii.iv.xxxi/notes, xvii.iv.xxxii,
+      xvii.iv.xxxiii, xvii.iv.xxxiv, xvii.iv.xxxv, xvii.iv.xxxv/notes, xvii.v, xvii.v.i, xvii.v.ii,
+      xvii.v.ii/notes, xvii.v.iii, xvii.v.iii/notes, xvii.v.iv, xvii.v.v, xvii.v.vi,
+      xvii.v.vi/notes, xvii.v.vii, xvii.v.vii/notes, xvii.v.viii, xvii.v.viii/notes, xvii.v.ix,
+      xvii.v.ix/notes, xvii.v.x, xvii.v.x/notes, xvii.v.xi, xvii.v.xi/notes, xvii.v.xii,
+      xvii.v.xii/notes, xvii.v.xiii, xvii.v.xiii/notes, xvii.v.xiv, xvii.v.xiv/notes, xvii.v.xv,
+      xvii.v.xv/notes, xvii.v.xvi, xvii.v.xvi/notes, xvii.v.xvii, xvii.v.xvii/notes, xvii.v.xviii,
+      xvii.v.xviii/notes, xvii.v.xix, xvii.v.xix/notes, xvii.v.xx, xvii.v.xx/notes, xvii.v.xxi,
+      xvii.v.xxi/notes, xvii.v.xxii, xvii.v.xxii/notes, xvii.v.xxiii, xvii.v.xxiii/notes, xvii.vi,
+      xvii.vi.i, xvii.vi.ii, xvii.vi.ii/notes, xvii.vi.iii, xvii.vi.iii/notes, xvii.vi.iv,
+      xvii.vi.v, xvii.vi.vi, xvii.vi.vii, xvii.vi.vii/notes, xvii.vi.viii, xvii.vi.viii/notes,
+      xvii.vi.ix, xvii.vi.ix/notes, xvii.vi.x, xvii.vi.xi, xvii.vi.xii, xvii.vi.xii/notes,
+      xvii.vi.xiii, xvii.vi.xiv, xvii.vi.xiv/notes, xvii.vi.xv, xvii.vi.xv/notes, xvii.vi.xvi,
+      xvii.vi.xvii, xvii.vi.xvii/notes, xvii.vi.xviii, xvii.vi.xviii/notes, xvii.vi.xix,
+      xvii.vi.xix/notes, xvii.vi.xx, xvii.vi.xxi, xvii.vi.xxii, xvii.vi.xxiii, xvii.vii, xvii.vii.i,
+      xvii.vii.ii, xvii.vii.ii/notes, xvii.vii.iii, xvii.vii.iii/notes, xvii.vii.iv, xvii.vii.v,
+      xvii.vii.v/notes, xvii.vii.vi, xvii.vii.vi/notes, xvii.vii.vii, xvii.vii.vii/notes,
+      xvii.vii.viii, xvii.vii.ix, xvii.vii.x, xvii.vii.xi, xvii.vii.xii, xvii.vii.xii/notes,
+      xvii.vii.xiii, xvii.vii.xiii/notes, xvii.vii.xiv, xvii.vii.xv, xvii.vii.xv/notes,
+      xvii.vii.xvi, xvii.vii.xvi/notes, xvii.vii.xvii, xvii.vii.xvii/notes, xvii.vii.xviii,
+      xvii.vii.xix, xvii.vii.xix/notes, xvii.vii.xx, xvii.vii.xx/notes, xvii.vii.xxi,
+      xvii.vii.xxi/notes, xvii.vii.xxii, xvii.vii.xxii/notes, xvii.vii.xxiii, xvii.vii.xxiii/notes,
+      xvii.vii.xxiv, xvii.vii.xxiv/notes, xvii.vii.xxv, xvii.vii.xxvi, xvii.vii.xxvii,
+      xvii.vii.xxvii/notes, xvii.vii.xxviii, xvii.vii.xxviii/notes, xvii.vii.xxix,
+      xvii.vii.xxix/notes, xvii.vii.xxx, xvii.vii.xxx/notes, xvii.vii.xxxi, xvii.vii.xxxii,
+      xvii.vii.xxxiii, xvii.vii.xxxiv, xvii.vii.xxxiv/notes, xvii.vii.xxxv, xvii.vii.xxxv/notes,
+      xvii.vii.xxxvi, xvii.vii.xxxvi/notes, xvii.vii.xxxvii, xvii.vii.xxxvii/notes,
+      xvii.vii.xxxviii, xvii.vii.xxxviii/notes, xvii.vii.xxxix]
+    language: eng
+    date: {start: 419, end: 420, source: "npnf105_augustine-anti-pelagian-writings.xml div1 17 preface: end of 419 or start of 420", formation_confidence: Dominant Modern Reconstruction}
     note: >
       419/420, against Vincentius Victor on the soul's origin. Not addressed
       to Pelagians: NPNF groups it among the anti-Pelagian writings because
@@ -142,6 +378,52 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xviii.i, xviii.ii, xviii.iii, xviii.iii/notes, xviii.iii.i, xviii.iii.i/notes,
+      xviii.iii.ii, xviii.iii.iii, xviii.iii.iv, xviii.iii.v, xviii.iii.v/notes, xviii.iii.vi,
+      xviii.iii.vi/notes, xviii.iii.vii, xviii.iii.vii/notes, xviii.iii.viii, xviii.iii.viii/notes,
+      xviii.iii.ix, xviii.iii.ix/notes, xviii.iii.x, xviii.iii.xi, xviii.iii.xi/notes,
+      xviii.iii.xii, xviii.iii.xii/notes, xviii.iii.xiii, xviii.iii.xiii/notes, xviii.iii.xiv,
+      xviii.iii.xv, xviii.iii.xvi, xviii.iii.xvi/notes, xviii.iii.xvii, xviii.iii.xvii/notes,
+      xviii.iii.xviii, xviii.iii.xviii/notes, xviii.iii.xix, xviii.iii.xix/notes, xviii.iii.xx,
+      xviii.iii.xx/notes, xviii.iii.xxi, xviii.iii.xxi/notes, xviii.iii.xxii, xviii.iii.xxii/notes,
+      xviii.iii.xxiii, xviii.iii.xxiii/notes, xviii.iii.xxiv, xviii.iii.xxiv/notes, xviii.iii.xxv,
+      xviii.iii.xxv/notes, xviii.iii.xxvi, xviii.iii.xxvii, xviii.iii.xxvii/notes, xviii.iii.xxviii,
+      xviii.iii.xxviii/notes, xviii.iii.xxix, xviii.iii.xxx, xviii.iii.xxxi, xviii.iii.xxxii,
+      xviii.iii.xxxii/notes, xviii.iii.xxxiii, xviii.iii.xxxiv, xviii.iii.xxxv, xviii.iii.xxxvi,
+      xviii.iii.xxxvi/notes, xviii.iii.xxxvii, xviii.iii.xxxvii/notes, xviii.iii.xxxviii,
+      xviii.iii.xxxviii/notes, xviii.iii.xxxix, xviii.iii.xxxix/notes, xviii.iii.xl,
+      xviii.iii.xl/notes, xviii.iii.xli, xviii.iii.xlii, xviii.iii.xlii/notes, xviii.iv, xviii.iv.i,
+      xviii.iv.i/notes, xviii.iv.ii, xviii.iv.ii/notes, xviii.iv.iii, xviii.iv.iv, xviii.iv.v,
+      xviii.iv.v/notes, xviii.iv.vi, xviii.iv.vi/notes, xviii.iv.vii, xviii.iv.vii/notes,
+      xviii.iv.viii, xviii.iv.ix, xviii.iv.x, xviii.iv.x/notes, xviii.iv.xi, xviii.iv.xii,
+      xviii.iv.xii/notes, xviii.iv.xiii, xviii.iv.xiii/notes, xviii.iv.xiv, xviii.iv.xv,
+      xviii.iv.xv/notes, xviii.iv.xvi, xviii.iv.xvii, xviii.iv.xvii/notes, xviii.iv.xviii,
+      xviii.iv.xviii/notes, xviii.iv.xix, xviii.iv.xix/notes, xviii.iv.xx, xviii.iv.xx/notes,
+      xviii.iv.xxi, xviii.iv.xxi/notes, xviii.iv.xxii, xviii.iv.xxii/notes, xviii.iv.xxiii,
+      xviii.iv.xxiii/notes, xviii.v, xviii.v.i, xviii.v.ii, xviii.v.ii/notes, xviii.v.iii,
+      xviii.v.iii/notes, xviii.v.iv, xviii.v.iv/notes, xviii.v.v, xviii.v.v/notes, xviii.v.vi,
+      xviii.v.vi/notes, xviii.v.vii, xviii.v.vii/notes, xviii.v.viii, xviii.v.ix, xviii.v.ix/notes,
+      xviii.v.x, xviii.v.x/notes, xviii.v.xi, xviii.v.xi/notes, xviii.v.xii, xviii.v.xii/notes,
+      xviii.v.xiii, xviii.v.xiii/notes, xviii.v.xiv, xviii.v.xiv/notes, xviii.v.xv,
+      xviii.v.xv/notes, xviii.v.xvi, xviii.v.xvi/notes, xviii.v.xvii, xviii.v.xvii/notes,
+      xviii.v.xviii, xviii.v.xviii/notes, xviii.v.xix, xviii.v.xix/notes, xviii.v.xx,
+      xviii.v.xx/notes, xviii.v.xxi, xviii.v.xxi/notes, xviii.v.xxii, xviii.v.xxii/notes,
+      xviii.v.xxiii, xviii.v.xxiii/notes, xviii.v.xxiv, xviii.v.xxiv/notes, xviii.v.xxv,
+      xviii.v.xxvi, xviii.vi, xviii.vi.i, xviii.vi.ii, xviii.vi.ii/notes, xviii.vi.iii,
+      xviii.vi.iii/notes, xviii.vi.iv, xviii.vi.iv/notes, xviii.vi.v, xviii.vi.vi, xviii.vi.vii,
+      xviii.vi.vii/notes, xviii.vi.viii, xviii.vi.viii/notes, xviii.vi.ix, xviii.vi.ix/notes,
+      xviii.vi.x, xviii.vi.x/notes, xviii.vi.xi, xviii.vi.xi/notes, xviii.vi.xii,
+      xviii.vi.xii/notes, xviii.vi.xiii, xviii.vi.xiii/notes, xviii.vi.xiv, xviii.vi.xiv/notes,
+      xviii.vi.xv, xviii.vi.xv/notes, xviii.vi.xvi, xviii.vi.xvi/notes, xviii.vi.xvii,
+      xviii.vi.xvii/notes, xviii.vi.xviii, xviii.vi.xviii/notes, xviii.vi.xix, xviii.vi.xx,
+      xviii.vi.xxi, xviii.vi.xxi/notes, xviii.vi.xxii, xviii.vi.xxii/notes, xviii.vi.xxiii,
+      xviii.vi.xxiii/notes, xviii.vi.xxiv, xviii.vi.xxiv/notes, xviii.vi.xxv, xviii.vi.xxv/notes,
+      xviii.vi.xxvi, xviii.vi.xxvi/notes, xviii.vi.xxvii, xviii.vi.xxvii/notes, xviii.vi.xxviii,
+      xviii.vi.xxviii/notes, xviii.vi.xxix, xviii.vi.xxix/notes, xviii.vi.xxx, xviii.vi.xxx/notes,
+      xviii.vi.xxxi, xviii.vi.xxxi/notes, xviii.vi.xxxii, xviii.vi.xxxiii, xviii.vi.xxxiii/notes,
+      xviii.vi.xxxiv]
+    language: eng
+    date: {start: 420, end: 420, source: "npnf105_augustine-anti-pelagian-writings.xml div1 18 heading: a.d. 420, or a little later (no end year stated)", formation_confidence: Widely Accepted}
     note: >
       420/421, to Pope Boniface, answering two Pelagian circular letters
       (Julian's among them), which it quotes at length — again the Pelagians'
@@ -156,6 +438,26 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xix.i, xix.ii, xix.ii/notes, xix.iii, xix.iii/notes, xix.iii.i, xix.iii.i/notes,
+      xix.iii.ii, xix.iii.ii/notes, xix.iv, xix.iv.i, xix.iv.i/notes, xix.iv.ii, xix.iv.ii/notes,
+      xix.iv.iii, xix.iv.iii/notes, xix.iv.iv, xix.iv.iv/notes, xix.iv.v, xix.iv.v/notes, xix.iv.vi,
+      xix.iv.vi/notes, xix.iv.vii, xix.iv.vii/notes, xix.iv.viii, xix.iv.viii/notes, xix.iv.ix,
+      xix.iv.ix/notes, xix.iv.x, xix.iv.x/notes, xix.iv.xi, xix.iv.xi/notes, xix.iv.xii,
+      xix.iv.xii/notes, xix.iv.xiii, xix.iv.xiii/notes, xix.iv.xiv, xix.iv.xiv/notes, xix.iv.xv,
+      xix.iv.xv/notes, xix.iv.xvi, xix.iv.xvi/notes, xix.iv.xvii, xix.iv.xvii/notes, xix.iv.xviii,
+      xix.iv.xviii/notes, xix.iv.xix, xix.iv.xix/notes, xix.iv.xx, xix.iv.xx/notes, xix.iv.xxi,
+      xix.iv.xxi/notes, xix.iv.xxii, xix.iv.xxii/notes, xix.iv.xxiii, xix.iv.xxiii/notes,
+      xix.iv.xxiv, xix.iv.xxiv/notes, xix.iv.xxv, xix.iv.xxv/notes, xix.iv.xxvi, xix.iv.xxvi/notes,
+      xix.iv.xxvii, xix.iv.xxviii, xix.iv.xxviii/notes, xix.iv.xxix, xix.iv.xxix/notes, xix.iv.xxx,
+      xix.iv.xxx/notes, xix.iv.xxxi, xix.iv.xxxi/notes, xix.iv.xxxii, xix.iv.xxxii/notes,
+      xix.iv.xxxiii, xix.iv.xxxiii/notes, xix.iv.xxxiv, xix.iv.xxxiv/notes, xix.iv.xxxv,
+      xix.iv.xxxv/notes, xix.iv.xxxvi, xix.iv.xxxvi/notes, xix.iv.xxxvii, xix.iv.xxxvii/notes,
+      xix.iv.xxxviii, xix.iv.xxxviii/notes, xix.iv.xxxix, xix.iv.xxxix/notes, xix.iv.xl,
+      xix.iv.xl/notes, xix.iv.xli, xix.iv.xli/notes, xix.iv.xlii, xix.iv.xlii/notes, xix.iv.xliii,
+      xix.iv.xliii/notes, xix.iv.xliv, xix.iv.xliv/notes, xix.iv.xlv, xix.iv.xlv/notes, xix.iv.xlvi,
+      xix.iv.xlvi/notes]
+    language: eng
+    date: {start: 426, end: 426, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): On Grace and Free Will (426); the npnf105_augustine-anti-pelagian-writings.xml div1 19 head states no year", formation_confidence: Widely Accepted}
     note: >
       426/427, to the monks of Hadrumetum, on reconciling grace with free
       will against Pelagian error. The census has no separate entry for the
@@ -172,6 +474,21 @@ assignments:
       - gallic-monastic-ascetic-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [xx.i, xx.ii, xx.ii/notes, xx.iii, xx.iv, xx.iv/notes, xx.v, xx.v/notes, xx.vi,
+      xx.vi/notes, xx.vii, xx.vii/notes, xx.viii, xx.viii/notes, xx.ix, xx.ix/notes, xx.x,
+      xx.x/notes, xx.xi, xx.xi/notes, xx.xii, xx.xii/notes, xx.xiii, xx.xiii/notes, xx.xiv,
+      xx.xiv/notes, xx.xv, xx.xv/notes, xx.xvi, xx.xvi/notes, xx.xvii, xx.xvii/notes, xx.xviii,
+      xx.xviii/notes, xx.xix, xx.xix/notes, xx.xx, xx.xx/notes, xx.xxi, xx.xxi/notes, xx.xxii,
+      xx.xxii/notes, xx.xxiii, xx.xxiii/notes, xx.xxiv, xx.xxiv/notes, xx.xxv, xx.xxv/notes,
+      xx.xxvi, xx.xxvi/notes, xx.xxvii, xx.xxvii/notes, xx.xxviii, xx.xxviii/notes, xx.xxix,
+      xx.xxix/notes, xx.xxx, xx.xxx/notes, xx.xxxi, xx.xxxi/notes, xx.xxxii, xx.xxxii/notes,
+      xx.xxxiii, xx.xxxiii/notes, xx.xxxiv, xx.xxxiv/notes, xx.xxxv, xx.xxxv/notes, xx.xxxvi,
+      xx.xxxvii, xx.xxxvii/notes, xx.xxxviii, xx.xxxviii/notes, xx.xxxix, xx.xxxix/notes, xx.xl,
+      xx.xl/notes, xx.xli, xx.xli/notes, xx.xlii, xx.xlii/notes, xx.xliii, xx.xliii/notes, xx.xliv,
+      xx.xliv/notes, xx.xlv, xx.xlvi, xx.xlvii, xx.xlvii/notes, xx.xlviii, xx.xlviii/notes, xx.xlix,
+      xx.xlix/notes, xx.l, xx.l/notes, xx.li, xx.li/notes, xx.lii, xx.lii/notes]
+    language: eng
+    date: {start: 426, end: 427, source: "npnf105_augustine-anti-pelagian-writings.xml div1 20 heading: a.d. 426 or 427; P1 gives 427", formation_confidence: Widely Accepted}
     note: >
       426/427, addressed to Hadrumetum (North Africa), not to Gaul — the
       doubt is whether the gallic-monastic-ascetic-christianity id should
@@ -200,6 +517,23 @@ assignments:
       - gallic-monastic-ascetic-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xxi.ii, xxi.ii/notes, xxi.ii.i, xxi.ii.i/notes, xxi.ii.ii, xxi.ii.ii/notes,
+      xxi.ii.iii, xxi.ii.iii/notes, xxi.ii.iv, xxi.ii.iv/notes, xxi.ii.v, xxi.ii.v/notes, xxi.ii.vi,
+      xxi.ii.vi/notes, xxi.ii.vii, xxi.ii.vii/notes, xxi.ii.viii, xxi.ii.viii/notes, xxi.ii.ix,
+      xxi.ii.ix/notes, xxi.ii.x, xxi.ii.x/notes, xxi.ii.xi, xxi.ii.xi/notes, xxi.ii.xii,
+      xxi.ii.xii/notes, xxi.ii.xiii, xxi.ii.xiii/notes, xxi.ii.xiv, xxi.ii.xiv/notes, xxi.ii.xv,
+      xxi.ii.xv/notes, xxi.ii.xvi, xxi.ii.xvi/notes, xxi.ii.xvii, xxi.ii.xvii/notes, xxi.ii.xviii,
+      xxi.ii.xix, xxi.ii.xix/notes, xxi.ii.xx, xxi.ii.xx/notes, xxi.ii.xxi, xxi.ii.xxi/notes,
+      xxi.ii.xxii, xxi.ii.xxii/notes, xxi.ii.xxiii, xxi.ii.xxiv, xxi.ii.xxiv/notes, xxi.ii.xxv,
+      xxi.ii.xxvi, xxi.ii.xxvi/notes, xxi.ii.xxvii, xxi.ii.xxviii, xxi.ii.xxviii/notes, xxi.ii.xxix,
+      xxi.ii.xxx, xxi.ii.xxx/notes, xxi.ii.xxxi, xxi.ii.xxxi/notes, xxi.ii.xxxii,
+      xxi.ii.xxxii/notes, xxi.ii.xxxiii, xxi.ii.xxxiii/notes, xxi.ii.xxxiv, xxi.ii.xxxiv/notes,
+      xxi.ii.xxxv, xxi.ii.xxxv/notes, xxi.ii.xxxvi, xxi.ii.xxxvi/notes, xxi.ii.xxxvii,
+      xxi.ii.xxxvii/notes, xxi.ii.xxxviii, xxi.ii.xxxviii/notes, xxi.ii.xxxix, xxi.ii.xxxix/notes,
+      xxi.ii.xl, xxi.ii.xl/notes, xxi.ii.xli, xxi.ii.xli/notes, xxi.ii.xlii, xxi.ii.xlii/notes,
+      xxi.ii.xliii]
+    language: eng
+    date: {start: 428, end: 429, source: "npnf105_augustine-anti-pelagian-writings.xml div1 21 Book I heading: a.d. 428 or 429; P1 gives 428", formation_confidence: Widely Accepted}
     note: >
       428/429, to Prosper and a correspondent named Hilary, against the
       objections of the Gallic monks. NPNF prints two distinct treatises
@@ -223,6 +557,31 @@ assignments:
       - gallic-monastic-ascetic-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [xxi.iii.i, xxi.iii.ii, xxi.iii.ii/notes, xxi.iii.iii, xxi.iii.iv, xxi.iii.iv/notes,
+      xxi.iii.v, xxi.iii.v/notes, xxi.iii.vi, xxi.iii.vi/notes, xxi.iii.vii, xxi.iii.viii,
+      xxi.iii.ix, xxi.iii.ix/notes, xxi.iii.x, xxi.iii.x/notes, xxi.iii.xi, xxi.iii.xi/notes,
+      xxi.iii.xii, xxi.iii.xii/notes, xxi.iii.xiii, xxi.iii.xiv, xxi.iii.xiv/notes, xxi.iii.xv,
+      xxi.iii.xvi, xxi.iii.xvi/notes, xxi.iii.xvii, xxi.iii.xvii/notes, xxi.iii.xviii,
+      xxi.iii.xviii/notes, xxi.iii.xix, xxi.iii.xix/notes, xxi.iii.xx, xxi.iii.xxi,
+      xxi.iii.xxi/notes, xxi.iii.xxii, xxi.iii.xxii/notes, xxi.iii.xxiii, xxi.iii.xxiii/notes,
+      xxi.iii.xxiv, xxi.iii.xxv, xxi.iii.xxv/notes, xxi.iii.xxvi, xxi.iii.xxvii,
+      xxi.iii.xxvii/notes, xxi.iii.xxviii, xxi.iii.xxviii/notes, xxi.iii.xxix, xxi.iii.xxix/notes,
+      xxi.iii.xxx, xxi.iii.xxx/notes, xxi.iii.xxxi, xxi.iii.xxxi/notes, xxi.iii.xxxii,
+      xxi.iii.xxxii/notes, xxi.iii.xxxiii, xxi.iii.xxxiii/notes, xxi.iii.xxxiv, xxi.iii.xxxv,
+      xxi.iii.xxxv/notes, xxi.iii.xxxvi, xxi.iii.xxxvi/notes, xxi.iii.xxxvii, xxi.iii.xxxvii/notes,
+      xxi.iii.xxxviii, xxi.iii.xxxviii/notes, xxi.iii.xxxix, xxi.iii.xxxix/notes, xxi.iii.xl,
+      xxi.iii.xli, xxi.iii.xlii, xxi.iii.xlii/notes, xxi.iii.xliii, xxi.iii.xliii/notes,
+      xxi.iii.xliv, xxi.iii.xlv, xxi.iii.xlv/notes, xxi.iii.xlvi, xxi.iii.xlvi/notes, xxi.iii.xlvii,
+      xxi.iii.xlviii, xxi.iii.xlviii/notes, xxi.iii.xlix, xxi.iii.xlix/notes, xxi.iii.l,
+      xxi.iii.l/notes, xxi.iii.li, xxi.iii.li/notes, xxi.iii.lii, xxi.iii.liii, xxi.iii.liii/notes,
+      xxi.iii.liv, xxi.iii.liv/notes, xxi.iii.lv, xxi.iii.lv/notes, xxi.iii.lvi, xxi.iii.lvii,
+      xxi.iii.lvii/notes, xxi.iii.lviii, xxi.iii.lviii/notes, xxi.iii.lix, xxi.iii.lix/notes,
+      xxi.iii.lx, xxi.iii.lxi, xxi.iii.lxi/notes, xxi.iii.lxii, xxi.iii.lxiii, xxi.iii.lxiv,
+      xxi.iii.lxiv/notes, xxi.iii.lxv, xxi.iii.lxvi, xxi.iii.lxvi/notes, xxi.iii.lxvii,
+      xxi.iii.lxvii/notes, xxi.iii.lxviii, xxi.iii.lxviii/notes, xxi.iii.lxix, xxi.iii.lxix/notes,
+      xxi.iii.lxx, xxi.iii.lxx/notes]
+    language: eng
+    date: {start: 428, end: 429, source: "npnf105_augustine-anti-pelagian-writings.xml div1 21 heading: a.d. 428 or 429; P1 gives 429", formation_confidence: Widely Accepted}
     note: >
       428/429, the companion and continuation of De praedestinatione
       sanctorum, transmitted as a separate work; the div2 is itself titled

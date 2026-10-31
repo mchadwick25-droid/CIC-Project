@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "a French translation of Cyprian's letters; the set of letters it prints is not stated in the row, so the ANF letter windows cannot be carried over"}
     note: >
       A French translation of the letters, not the original. The Latin (Hartel) is the
       tradition entry. Registry row 234.

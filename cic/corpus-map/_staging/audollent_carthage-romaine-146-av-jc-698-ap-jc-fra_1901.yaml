@@ -9,5 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {start: 1901, end: 1901, source: "audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt header, Publication Date: 1901", formation_confidence: Documented}
     note: >
       Modern (1901) French history of Roman Carthage. Registry row 239.

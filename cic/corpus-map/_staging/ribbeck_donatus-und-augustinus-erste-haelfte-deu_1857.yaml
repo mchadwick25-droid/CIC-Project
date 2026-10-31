@@ -10,5 +10,8 @@ assignments:
       - donatism
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1857, end: 1857, source: "ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt header, Publication Date: 1857", formation_confidence: Documented}
     note: >
       Modern (1857) German study of the Donatist dispute. Registry row 236.

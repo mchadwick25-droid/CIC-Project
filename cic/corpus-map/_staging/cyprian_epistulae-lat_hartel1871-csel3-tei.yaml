@@ -12,6 +12,9 @@ assignments:
       - novatianism
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 249, end: 258, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: Epistles 60-61 placed before the Decian persecution (249), the rest to his martyrdom 258", formation_confidence: Widely Accepted}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: the correspondence of Cyprian, including

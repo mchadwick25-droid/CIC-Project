@@ -13,6 +13,11 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [appendix-l7094, the-acts-of-the-scillitan-martyrs-l7108,
+      passio-sanctorum-scilitanorum-l7372, maptyrion-toy-atioy-kai-kaaainikoy-maptypoz-l7428,
+      acta-proconsvlaria-martyrvm-scillitanorvm-l7753, passio-sancti-et-beatissimi-sperati-l7818]
+    language: lat-grc
+    date: {start: 180, end: 180, source: "acta-martyrum-selecta_gebhardt1902.txt content note: Passio Sanctorum Scilitanorum, Carthage, 180; also Source_Registry row 28 (180 CE)", formation_confidence: Widely Accepted}
     note: >
       Latin/Greek second witness for the ALREADY-PRESENT English-language
       entry in this same corpus-map bucket (source_file

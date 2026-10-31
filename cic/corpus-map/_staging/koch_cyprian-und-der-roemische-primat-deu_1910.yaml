@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1910, end: 1910, source: "koch_cyprian-und-der-roemische-primat-deu_1910.txt header, Publication Date: 1910", formation_confidence: Documented}
     note: >
       Modern (1910) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. Study of what Cyprian says about the Roman primacy (Texte und

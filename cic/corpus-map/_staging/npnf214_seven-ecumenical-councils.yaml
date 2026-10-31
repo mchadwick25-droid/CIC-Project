@@ -482,6 +482,45 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [xv.iv.i, xv.iv.ii, xv.iv.ii/notes, xv.iv.iii, xv.iv.iv.i, xv.iv.iv.i/notes,
+    xv.iv.iv.ii, xv.iv.iv.iii, xv.iv.iv.iii/notes, xv.iv.iv.iv, xv.iv.iv.v, xv.iv.iv.vi,
+    xv.iv.iv.vii, xv.iv.iv.viii, xv.iv.iv.ix, xv.iv.iv.x, xv.iv.iv.xi, xv.iv.iv.xii, xv.iv.iv.xiii,
+    xv.iv.iv.xiv, xv.iv.iv.xv, xv.iv.iv.xvi, xv.iv.iv.xvii, xv.iv.iv.xviii, xv.iv.iv.xviii/notes,
+    xv.iv.iv.xix, xv.iv.iv.xx, xv.iv.iv.xx/notes, xv.iv.iv.xxi, xv.iv.iv.xxii, xv.iv.iv.xxiii,
+    xv.iv.iv.xxiv, xv.iv.iv.xxv, xv.iv.iv.xxvi, xv.iv.iv.xxvi/notes, xv.iv.iv.xxvii,
+    xv.iv.iv.xxvii/notes, xv.iv.iv.xxviii, xv.iv.iv.xxviii/notes, xv.iv.iv.xxix,
+    xv.iv.iv.xxix/notes, xv.iv.iv.xxx, xv.iv.iv.xxx/notes, xv.iv.iv.xxxi, xv.iv.iv.xxxi/notes,
+    xv.iv.iv.xxxii, xv.iv.iv.xxxiii, xv.iv.iv.xxxiii/notes, xv.iv.iv.xxxiv, xv.iv.iv.xxxiv/notes,
+    xv.iv.iv.xxxv, xv.iv.iv.xxxvi, xv.iv.iv.xxxvii, xv.iv.iv.xxxviii, xv.iv.iv.xxxix, xv.iv.iv.xl,
+    xv.iv.iv.xl/notes, xv.iv.iv.xli, xv.iv.iv.xlii, xv.iv.iv.xlii/notes, xv.iv.iv.xliii,
+    xv.iv.iv.xliv, xv.iv.iv.xliv/notes, xv.iv.iv.xlv, xv.iv.iv.xlv/notes, xv.iv.iv.xlvi,
+    xv.iv.iv.xlvi/notes, xv.iv.iv.xlvii, xv.iv.iv.xlviii, xv.iv.iv.xlviii/notes, xv.iv.iv.xlix,
+    xv.iv.iv.xlix/notes, xv.iv.iv.l, xv.iv.iv.l/notes, xv.iv.iv.li, xv.iv.iv.li/notes, xv.iv.iv.lii,
+    xv.iv.iv.lii/notes, xv.iv.iv.liii, xv.iv.iv.liii/notes, xv.iv.iv.liv, xv.iv.iv.lv, xv.iv.iv.lvi,
+    xv.iv.iv.lvi/notes, xv.iv.iv.lvii, xv.iv.iv.lvii/notes, xv.iv.iv.lviii, xv.iv.iv.lix,
+    xv.iv.iv.lix/notes, xv.iv.iv.lx, xv.iv.iv.lx/notes, xv.iv.iv.lxi, xv.iv.iv.lxii,
+    xv.iv.iv.lxii/notes, xv.iv.iv.lxiii, xv.iv.iv.lxiv, xv.iv.iv.lxv, xv.iv.iv.lxvi, xv.iv.iv.lxvii,
+    xv.iv.iv.lxvii/notes, xv.iv.iv.lxviii, xv.iv.iv.lxviii/notes, xv.iv.iv.lxix,
+    xv.iv.iv.lxix/notes, xv.iv.iv.lxx, xv.iv.iv.lxx/notes, xv.iv.iv.lxxi, xv.iv.iv.lxxii,
+    xv.iv.iv.lxxiii, xv.iv.iv.lxxiv, xv.iv.iv.lxxv, xv.iv.iv.lxxvi, xv.iv.iv.lxxvii,
+    xv.iv.iv.lxxvii/notes, xv.iv.iv.lxxviii, xv.iv.iv.lxxix, xv.iv.iv.lxxx, xv.iv.iv.lxxx/notes,
+    xv.iv.iv.lxxxi, xv.iv.iv.lxxxii, xv.iv.iv.lxxxiii, xv.iv.iv.lxxxiv, xv.iv.iv.lxxxv,
+    xv.iv.iv.lxxxvi, xv.iv.iv.lxxxvii, xv.iv.iv.lxxxviii, xv.iv.iv.lxxxix, xv.iv.iv.lxxxix/notes,
+    xv.iv.iv.xc, xv.iv.iv.xci, xv.iv.iv.xci/notes, xv.iv.iv.xcii, xv.iv.iv.xciii,
+    xv.iv.iv.xciii/notes, xv.iv.iv.xciv, xv.iv.iv.xciv/notes, xv.iv.iv.xcv, xv.iv.iv.xcv/notes,
+    xv.iv.iv.xcvi, xv.iv.iv.xcvii, xv.iv.iv.xcviii, xv.iv.iv.xcviii/notes, xv.iv.iv.xcix,
+    xv.iv.iv.c, xv.iv.iv.ci, xv.iv.iv.cii, xv.iv.iv.ciii, xv.iv.iv.civ, xv.iv.iv.cv, xv.iv.iv.cvi,
+    xv.iv.iv.cvii, xv.iv.iv.cvii/notes, xv.iv.iv.cviii, xv.iv.iv.cix, xv.iv.iv.cix/notes,
+    xv.iv.iv.cx, xv.iv.iv.cxi, xv.iv.iv.cxii, xv.iv.iv.cxiii, xv.iv.iv.cxiv, xv.iv.iv.cxv,
+    xv.iv.iv.cxvi, xv.iv.iv.cxvii, xv.iv.iv.cxviii, xv.iv.iv.cxix, xv.iv.iv.cxx, xv.iv.iv.cxx/notes,
+    xv.iv.iv.cxxi, xv.iv.iv.cxxii, xv.iv.iv.cxxiii, xv.iv.iv.cxxiv, xv.iv.iv.cxxv, xv.iv.iv.cxxvi,
+    xv.iv.iv.cxxvii, xv.iv.iv.cxxviii, xv.iv.iv.cxxviii/notes, xv.iv.iv.cxxix, xv.iv.iv.cxxx,
+    xv.iv.iv.cxxxi, xv.iv.iv.cxxxi/notes, xv.iv.iv.cxxxii, xv.iv.iv.cxxxiii, xv.iv.iv.cxxxiv,
+    xv.iv.iv.cxxxv, xv.iv.iv.cxxxv/notes, xv.iv.iv.cxxxvi, xv.iv.iv.cxxxvi/notes, xv.iv.iv.cxxxvii,
+    xv.iv.iv.cxxxvii/notes, xv.iv.iv.cxxxviii, xv.iv.iv.cxxxviii/notes, xv.iv.iv.cxxxix,
+    xv.iv.iv.cxxxix/notes]
+  language: eng
+  date: {start: 419, end: 419, source: "npnf214_seven-ecumenical-councils.xml div2 15.4 heading and text: the council of 25 May 419", formation_confidence: Documented}
   note: 'The collected conciliar law of the African church in the age of Aurelius and Augustine
     - the institutional skeleton of the Latin-pastoral entry''s world (Carthage/Hippo, 240s-430).
 
@@ -520,6 +559,9 @@ assignments:
   - donatism
   role: tradition
   confidence: provisional
+  locus_ids: [xv.vi.i, xv.vi.ii, xv.vi.ii/notes, xv.vi.iii, xv.vi.iii/notes, xv.vi.iv]
+  language: eng
+  date: {start: 256, end: 258, source: "Contested across the repo: Source_Registry row 4 and records/lpc/source cyprian-seventh-council-of-carthage give 256; anf05_hippolytus-cyprian-caius-novatian.xml div2 4.6 heading gives a.d. 258; npnf214_seven-ecumenical-councils.xml heading gives a.d. 257", formation_confidence: Contested}
   note: 'The sententiae of the 87 bishops on rebaptism, under Cyprian - the entry''s own Carthage
     in its own century. Donatism is included as shared ancestry rather than heresiology: the
     Donatists claimed this council''s baptismal doctrine as their patrimony, so it is tradition

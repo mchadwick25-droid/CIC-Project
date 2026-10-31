@@ -35,6 +35,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "codex-theodosianus_latinlibrary.txt header, Source_Registry row 44, records/lpc/source codex-theodosianus-*: none states the compilation window"}
     note: >
       The imperial legal apparatus this tradition's own pastoral life operated
       under, not this tradition's own voice. Source_Registry.md row 44 names

@@ -20,6 +20,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [piece11]
+    language: lat
+    date: {start: 258, end: 258, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
     note: >
       Latin acts of Cyprian's martyrdom in Gebhardt's 1902 edition. Registry row 222.
   - row_id: acta-martyrum-selecta_gebhardt1902--passio-ss-mariani-et-iacobi
@@ -30,6 +33,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [piece13]
+    language: lat
+    date: {start: 259, end: 259, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
     note: >
       Latin martyr acts of the Cyprianic period. Registry row 222.
   - row_id: acta-martyrum-selecta_gebhardt1902--passio-ss-montani-et-lucii
@@ -40,5 +46,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [piece14]
+    language: lat
+    date: {start: 259, end: 259, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
     note: >
       Latin martyr acts of the Cyprianic period. Registry row 222.
