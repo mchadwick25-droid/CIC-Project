@@ -1,7 +1,7 @@
 file: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
 scheme: 'Augustine, Enarrationes in Psalmos, Migne text of the Maurist edition: one division per psalm, addressed by the Vulgate psalm number the edition prints in each head (IN PSALMUM N; Psalm 1 is headed PSALMI PRIMI ENARRATIO) as psNNN; the second exposition of Psalm 14 printed after Psalm 150 and opening at its own IN PSALMUM XIV head is ps014app and sits outside the numbered series; where a psalm is printed as ENARRATIO I and II the sections are enarr1 and enarr2, where it is printed as SERMO I, II, III, IV the sermons are sermo1 to sermo4 (in Psalms 30 and 32 the sermons stand inside enarr2), and the 32 sermons on Psalm 118 are sermo1 to sermo32; the printed Maurist paragraph numerals are not read as addresses: each paragraph start is addressed by its line in the vendored file (parN) and the numeral as printed is kept as the title; the Praefatio, the LOCA EX PSALMIS list of psalter variants, the prefatory testimonia (the prologue of Cassiodorus, the later preface to the commentary and the syllabus of manuscripts) and the closing editorial note are apparatus'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: psalm
     pattern: '^IN PSALMUM (?P<n>[IVXLC]+)\.?$'
