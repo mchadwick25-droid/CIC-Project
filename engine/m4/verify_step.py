@@ -1,56 +1,35 @@
-"""The verify and rewrite step: each cited sentence of a shipped answer is read
-against the records it is bound to, and one that goes beyond them is rewritten
-once or taken out.
-
-Shadow only. No live path calls it, and it makes no model call: it builds the
-judge's request, reads the reply, and decides.
+"""What the answer check reads a sentence against: a record as the voice was shown
+it (record_pack), what counts as a binding (valid_bindings), the criteria for a
+supported sentence (VERIFY_CRITERIA), a judgement read from a reply
+(judgement_from), the confidence cap (apply_confidence_cap) and the sentence
+splice. engine.m4.answer_check builds the requests and decides.
 
 Binding. A sentence's tags are its bindings. A binding to a context block
 (`ctx.` ids, engine.m4.fit_step) or to an id the world does not hold is not a
-binding; a sentence left with none is held out: it is not judged and is taken out of the answer. Sentences code
-placed itself (a quote, a story, the world's own answer record) are the record's
-words and are not read again.
-
-The judge sees what the voice saw: each bound record's spoken fields as numbered
-sentences, plus the force the record carries (its formation confidence and the
-years it is limited to). It answers supported or unsupported and names the
-problem: added detail, dropped or stronger force, widened scope, or a referent
+binding. The judge sees what the voice saw: each bound record's spoken fields as
+numbered sentences, plus the force the record carries (its formation confidence and
+the years it is limited to). It names the problem when a sentence is not
+supported: added detail, dropped or stronger force, widened scope, or a referent
 the records do not settle.
 
-Two checks beyond the judge's reading. A word that refers back (a pronoun, "the
-others") is read with the sentence before it, and must be settled by the bound
-records as that sentence names it, else the sentence is unsupported for an
-unresolved referent. A sentence bound to records of different formation
-confidence may state no level higher than the lowest of them
-(apply_confidence_cap): the five levels are Documented, Widely Accepted, Dominant
-Modern Reconstruction, Contested, Inferential-Thin, strongest first.
-
-decide: supported keeps the sentence; unsupported asks for one rewrite; an
-unreadable reply keeps the sentence. rewrite_request gives the voice the
-sentence, the problem and the same records; parse_rewrite reads back one plain
-sentence or a drop. A rewrite that carries a tag, any quotation mark, a line
-break or a second sentence, or that states an absence the bound records do not
-(engine.m4.absence_rule), is refused. A rewrite that the judge again finds unsupported is taken
-out, so a sentence is rewritten at most once.
+Confidence cap. A sentence bound to records of different formation confidence may
+state no level higher than the lowest of them: the five levels are Documented,
+Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin,
+strongest first.
 """
 from __future__ import annotations
 
-import json
 import re
 
 from engine.m4 import absence_rule
 from engine.m4 import evidence as ev
-from engine.m4.grounding_net import placed_by_code
 from engine.m4.fit_step import CONTEXT_PREFIX
 from engine.prose import sentences
 
 CONFIDENCE_LEVELS = ("Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin")
 PROBLEMS = ("added_detail", "stronger_force", "dropped_scope", "widened_scope", "unresolved_referent", "other")
-_JSON = re.compile(r"\{.*\}", re.DOTALL)
-_DROP = "DROP"
 
-VERIFY_SYSTEM = (
-    "You check one sentence a historical Representative said against the records it was bound to. "
+VERIFY_CRITERIA = (
     "The Representative speaks as \"we\" for its own tradition. The records are given as numbered sentences, with the force "
     "each carries. The sentence is supported only if every assertion in it is stated in the records or follows closely from "
     "them, with the same speaker and the same force. It is not supported if it adds a detail, drops or adds a negation, "
@@ -63,19 +42,7 @@ VERIFY_SYSTEM = (
     "one record it must stay within the narrower scope of them (years, persons, cases covered), the MUST NOT ASSERT line winning. When the records carry "
     "different formation confidence, the sentence may claim no more than the lowest level among them, and may not join "
     "them into one claim stated more firmly. Use no outside knowledge.\n"
-    'Reply with one JSON object only: {"supported": true or false, "problem": one of "added_detail", "stronger_force", '
-    '"dropped_scope", "widened_scope", "unresolved_referent", "other" or null when supported, "reason": "one short sentence"}'
 )
-REWRITE_SYSTEM = (
-    "You rewrite one sentence a historical Representative said. The reader found a problem with it. If the problem is an "
-    "unresolved referent, name the person or thing in the sentence itself instead of using a pronoun. Rewrite it so that it "
-    "says only what the bound records say, in the author's name, as a close paraphrase, with the same force "
-    "and the same limits the records carry. Keep the voice: \"we\", plain words, sentences under 25 words. Add nothing the "
-    "records do not state. Use no tags and no quotation marks. If nothing of the sentence is left that the records support, "
-    f"reply with the single word {_DROP}.\n"
-    "Reply with the rewritten sentence only, on one line."
-)
-
 
 def valid_bindings(tags: list[str], records: dict[str, dict]) -> list[str]:
     return [t for t in dict.fromkeys(tags) if not t.startswith(CONTEXT_PREFIX) and t in records]
@@ -134,44 +101,9 @@ def confidence_exceeds(sentence: str, bound: list[str], records: dict[str, dict]
     return any(i < lowest and re.search(rf"\b{re.escape(level)}\b", flat) for i, level in enumerate(CONFIDENCE_LEVELS))
 
 
-def _ships_through_verify(entry: dict, records: dict[str, dict]) -> bool:
-    """True for a net sentence the verify step leaves in the answer: not
-    withheld, and either untagged, placed by code, or holding a valid binding."""
-    tags = list(entry.get("tags") or [])
-    return entry.get("verdict") == "ok" and (not tags or placed_by_code(entry) or bool(valid_bindings(tags, records)))
-
-
-def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
-    """One item per cited, voice-written sentence of an answer's net output:
-    its position, the sentence, the sentence before it that stays in the answer
-    (`before`, for words that refer back), its valid bindings, and `held_out` when it has
-    tags but none valid."""
-    items = []
-    for n, entry in enumerate(answer.get("net_sentences", [])):
-        tags = list(entry.get("tags") or [])
-        if entry.get("verdict") != "ok" or not tags or placed_by_code(entry):
-            continue
-        bound = valid_bindings(tags, records)
-        before = next((e["sentence"] for e in reversed(answer["net_sentences"][:n]) if _ships_through_verify(e, records)), "")
-        items.append({"n": n, "sentence": entry["sentence"], "before": before, "bound": bound, "held_out": not bound})
-    return items
-
-
-def verify_request(sentence: str, bound: list[str], records: dict[str, dict], before: str = "") -> dict:
-    packs = "\n\n".join(record_pack(records[rid], records) for rid in bound)
-    context = f"SENTENCE BEFORE IT (read it for what a referring word points to)\n{before}\n\n" if before else ""
-    return {"system": VERIFY_SYSTEM, "user": f"RECORDS\n\n{packs}\n\n{context}SENTENCE\n{sentence}"}
-
-
-def parse_verify(reply: str) -> dict | None:
-    found = _JSON.search(reply or "")
-    if not found:
-        return None
-    try:
-        data = json.loads(found.group(0))
-    except json.JSONDecodeError:
-        return None
-    if not isinstance(data.get("supported"), bool):
+def judgement_from(data: dict) -> dict | None:
+    """A judgement from one reply entry: {"supported", "problem", "reason"}, or None when it carries no boolean verdict."""
+    if not isinstance(data, dict) or not isinstance(data.get("supported"), bool):
         return None
     problem = data.get("problem")
     return {"supported": data["supported"], "problem": problem if problem in PROBLEMS else ("other" if not data["supported"] else None),
@@ -185,22 +117,6 @@ def apply_confidence_cap(judgement: dict | None, sentence: str, bound: list[str]
     if judgement is not None and judgement["supported"] and confidence_exceeds(sentence, bound, records):
         return {"supported": False, "problem": "stronger_force", "reason": "names a confidence level above the lowest of the records it is bound to"}
     return judgement
-
-
-def read_reply(reply: str, sentence: str, bound: list[str], records: dict[str, dict]) -> dict | None:
-    """A judge's reply read with the confidence cap applied."""
-    return apply_confidence_cap(parse_verify(reply), sentence, bound, records)
-
-
-def decide(judgement: dict | None) -> str:
-    """keep or rewrite. An unreadable reply keeps the sentence."""
-    return "rewrite" if judgement and not judgement["supported"] else "keep"
-
-
-def rewrite_request(question: str, sentence: str, judgement: dict, bound: list[str], records: dict[str, dict]) -> dict:
-    packs = "\n\n".join(record_pack(records[rid], records) for rid in bound)
-    problem = f"{judgement.get('problem') or 'other'}: {judgement.get('reason') or ''}".strip()
-    return {"system": REWRITE_SYSTEM, "user": f"QUESTION\n{question}\n\nRECORDS\n\n{packs}\n\nSENTENCE\n{sentence}\n\nPROBLEM\n{problem}"}
 
 
 _QUOTE_MARKS = frozenset('"“”‘’\'«»‹›„')
@@ -219,21 +135,6 @@ def _has_quotation_mark(text: str) -> bool:
             continue
         return True
     return False
-
-
-def parse_rewrite(reply: str, bound: list[str] | None = None, records: dict[str, dict] | None = None) -> str | None:
-    """The one sentence, or None for a drop or a refused rewrite. A rewrite is
-    refused when it carries a tag, any quotation mark, a line break or more than
-    one sentence, or when, given the bound records, it states an absence they do
-    not (engine.m4.absence_rule). Apostrophes inside words are not quotation marks."""
-    text = (reply or "").strip()
-    if not text or text.upper().rstrip(".") == _DROP or "\n" in text or "[[" in text:
-        return None
-    if _has_quotation_mark(text) or len(sentences(text)) != 1:
-        return None
-    if bound and records and absence_rule.check_absence(text, [records[r] for r in bound if r in records]):
-        return None
-    return text
 
 
 def splice(text: str, old: str, new: str | None) -> tuple[str, bool]:

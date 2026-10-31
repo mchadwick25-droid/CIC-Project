@@ -10,7 +10,7 @@ rule, loaded from the bench itself), quotes placed by code, lead-ins repaired,
 stories placed, answer records placed, citations. Empty for readers: fit to
 the question, answers the question asked, the five quality marks, pass or fail,
 still-works, and the judge columns. The fit judge's verdict per placed record and the count of
-placements it would drop are filled when `fit/fit.jsonl` exists (engine.m3.test100_fit).
+placements it would drop are filled when `check/fit.jsonl` exists (engine.m3.test100_check).
 
 The totals printed at the end split the 28 sealed probes from the rest, so they
 stay comparable with the Stage 3 baseline, and report the fit traps (group K)
@@ -105,7 +105,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args(argv)
-    rows, missing = build_sheet(load_set(args.question_set), args.work / "answers", args.work / "fit" / "fit.jsonl")
+    rows, missing = build_sheet(load_set(args.question_set), args.work / "answers", args.work / "check" / "fit.jsonl")
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=MEASURED_COLUMNS + READER_COLUMNS)

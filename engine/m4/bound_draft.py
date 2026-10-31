@@ -111,5 +111,6 @@ def items(answer: dict, records: dict[str, dict], connectives: frozenset[str]) -
         out.append({
             "n": n, "sentence": entry["sentence"], "tags": list(entry.get("tags") or []), "records": bindings(list(entry.get("tags") or []), records),
             "label": label, "decision": decision, "reason": reason, "placed": placed_by_code(entry),
+            "placed_id": entry.get("placed_quote") or entry.get("placed_story") or entry.get("placed_answer"),
         })
     return out
