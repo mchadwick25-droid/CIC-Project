@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
-    language: lat
-    date: {formation_confidence: unknown, checked: "Augustine sermon collection with no single composition window: P1 lists the sermons without a date, the volume header (cic/texts) gives none, and no lpc record states one"}
     note: >
       Critical edition of Augustine's post-Maurist sermons. Also a completeness qualifier on
       the sermon body (Registry rows 189 and 219). Rights rest on the 1930 date alone.

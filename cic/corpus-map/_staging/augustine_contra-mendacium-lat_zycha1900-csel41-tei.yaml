@@ -12,9 +12,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 420, end: 420, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): Contra mendacium, written in 420; the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.6 notice states no date", formation_confidence: Widely Accepted}
     note: >
       The later of Augustine's two treatises on truthfulness, addressed to Consentius. Latin original
       of the ALREADY-PRESENT English entry 'Against Lying (Contra Mendacium)' (source_file

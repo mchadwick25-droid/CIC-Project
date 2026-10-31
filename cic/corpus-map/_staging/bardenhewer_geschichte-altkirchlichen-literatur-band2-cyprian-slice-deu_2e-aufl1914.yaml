@@ -9,8 +9,5 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    locus_ids: [whole-file]
-    language: deu
-    date: {formation_confidence: unknown, checked: "bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt: the header title reads 'Zweite, umgearbeitete Auflage' (second revised edition), printed 1914 (title page, item line 42); the first edition's year is not stated and no preface dateline is in the slice"}
     note: >
       Modern German handbook account of Cyprian's writings. Registry row 249.

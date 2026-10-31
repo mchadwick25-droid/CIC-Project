@@ -11,9 +11,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's treatise on works and alms.

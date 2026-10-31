@@ -21,9 +21,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 246, end: 258, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: Ad Donatum 246, the letters to his martyrdom 258", formation_confidence: Widely Accepted}
     note: >
       The Latin original behind the already-vendored ANF05 English
       translation's own Cyprian works (rows 1-7 and others in this bucket,

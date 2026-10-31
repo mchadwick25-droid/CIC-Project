@@ -10,9 +10,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    locus_ids: [whole-file]
-    language: deu
-    date: {start: 1926, end: 1926, source: "koch_cyprianische-untersuchungen-deu_1926.txt: Vorwort (file line 118) signed 'München, am 30. Januar 1926.' (line 307); this is the preface date", formation_confidence: Documented}
     note: >
       Modern (1926) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. Studies on the authorship and dating of Cyprian's writings (Quod

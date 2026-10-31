@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
-    language: lat
-    date: {formation_confidence: unknown, checked: "compilation of several works with different dates; each member work is dated in its own row, and no repo text gives one window for the whole"}
     note: >
       Latin critical text (Zycha, 1900). Fourteen works in one volume, assigned as one body
       until per-work loci are located. Registry row 215. Contra mendacium is also in the map

@@ -20,8 +20,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    language: lat
-    date: {start: 419, end: 419, source: "npnf214_seven-ecumenical-councils.xml div2 15.4 heading and text: the council of 25 May 419", formation_confidence: Documented}
     note: >
       Latin original standing behind the already-vendored NPNF2-14 English
       translation (Registry row 26) -- this world's own institutional

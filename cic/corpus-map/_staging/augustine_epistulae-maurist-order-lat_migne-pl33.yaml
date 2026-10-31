@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 386, end: 429, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): the Benedictine letters run in chronological order from A.D. 386 to A.D. 429", formation_confidence: Widely Accepted}
     note: >
       Maurist Latin of the letters, in the numbering the npnf101 volume follows, so it lines
       up with the Goldbacher files already in the map. It includes the Donatist letters, which

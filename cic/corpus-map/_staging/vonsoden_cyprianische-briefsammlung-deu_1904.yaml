@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
-    locus_ids: [whole-file]
-    language: deu
-    date: {start: 1903, end: 1903, source: "vonsoden_cyprianische-briefsammlung-deu_1904.txt: Vorwort (file line 303) signed 'Berlin, im November 1903.' (line 356); this is the preface date, not the 1904 printing year", formation_confidence: Documented}
     note: >
       Modern (1904) German scholarship -- role context, not tradition.
       The standard study of how Cyprian's own letter collection was formed and

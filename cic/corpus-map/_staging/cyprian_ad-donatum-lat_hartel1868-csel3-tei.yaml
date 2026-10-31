@@ -11,9 +11,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 246, end: 246, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: Epistle to Donatus written shortly after his baptism (246)", formation_confidence: Widely Accepted}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's early address to Donatus, a

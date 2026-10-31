@@ -9,8 +9,5 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    locus_ids: [whole-file]
-    language: deu
-    date: {formation_confidence: unknown, checked: "vonsoden_streit-rom-karthago-ketzertaufe-deu_1909.txt: header gives Publication Date 1909; title page and front matter read; no preface dateline; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1909) German scholarship on the rebaptism dispute. Registry row 224.

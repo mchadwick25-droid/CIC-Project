@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
-    language: lat
-    date: {formation_confidence: unknown, checked: "compilation of several works with different dates; each member work is dated in its own row, and no repo text gives one window for the whole"}
     note: >
       Maurist Latin of the catechetical short works. Largely overlaps the Krueger and CSEL 41
       files; adds works those omit. Per-work loci not yet located, so assigned as one body.

@@ -19,8 +19,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    language: lat
-    date: {formation_confidence: unknown, checked: "Augustine sermon collection with no single composition window: P1 lists the sermons without a date, the volume header (cic/texts) gives none, and no lpc record states one"}
     note: >
       PRIMARY ORIGINAL per cic/texts/INTAKE.md: Morin's first edition (Kempten and Munich, 1917), in a
       readable OCR scan of a microfilm copy (0.83 to 0.88 of word forms found in a vocabulary test
@@ -38,8 +36,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    language: lat
-    date: {formation_confidence: unknown, checked: "the row names nine tractatus from Codex Guelferbytanus 4096 by Optatus of Milevis, Quodvultdeus and others; the Morin 1917 header, P1 and Source_Registry state no window for them"}
     note: >
       The nine further tractatus printed after the Augustine sermons; the title page names Optatus of
       Milevis and Quodvultdeus of Carthage, both African bishops, and others of Augustine's school,

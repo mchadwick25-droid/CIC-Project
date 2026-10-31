@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {formation_confidence: unknown, checked: "P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over many years"}
     note: >
       Latin original (Migne's 1861 Maurist-text printing, not a modern
       critical edition) standing behind the already-vendored NPNF1-08 English

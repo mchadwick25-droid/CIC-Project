@@ -31,29 +31,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [book-first, book-first/ch1, book-first/ch2, book-first/ch3, book-first/ch4,
-      book-first/ch5, book-first/ch6, book-first/ch7, book-first/ch8, book-first/ch9,
-      book-first/ch10, book-first/ch11, book-first/ch12, book-first/ch13, book-first/ch14,
-      book-first/ch15, book-first/ch16, book-first/ch17, book-first/ch18, book-first/ch19,
-      book-first/ch20, book-first/ch21, book-first/ch22, book-first/ch23, book-first/ch24,
-      book-first/ch25, book-first/ch26, book-first/ch27, book-first/ch28, book-second,
-      book-second/ch1, book-second/ch2, book-second/ch3, book-second/ch4, book-second/ch5,
-      book-second/ch6, book-second/ch7, book-second/ch8, book-second/ch9, book-second/ch10,
-      book-second/ch11, book-second/ch12, book-second/ch13, book-second/ch14, book-second/ch15,
-      book-second/ch16, book-second/ch17, book-second/ch18, book-second/ch19, book-second/ch20,
-      book-second/ch21, book-second/ch22, book-second/ch23, book-second/ch24, book-second/ch26,
-      book-third, book-third/ch1, book-third/ch2, book-third/ch3, book-third/ch4, book-third/ch5,
-      book-third/ch6, book-third/ch7, book-third/ch8, book-third/ch9, book-third/ch10,
-      book-third/ch11, book-third/ch12, book-third/ch13, book-third/ch14, book-fourth,
-      book-fourth/ch1, book-fourth/ch2, book-fourth/ch3, book-fourth/ch4, book-fourth/ch5,
-      book-fourth/ch6, book-fourth/ch7, book-fourth/ch8, book-fourth/ch9, book-fifth,
-      book-fifth/ch1, book-fifth/ch2, book-fifth/ch3, book-fifth/ch4, book-fifth/ch5,
-      book-fifth/ch6, book-fifth/ch7, book-fifth/ch8, book-fifth/ch9, book-fifth/ch10,
-      book-fifth/ch11, book-sixth, book-sixth/ch1, book-sixth/ch2, book-sixth/ch3, book-sixth/ch4,
-      book-sixth/ch5, book-sixth/ch6, book-sixth/ch7, book-sixth/ch8, book-seventh,
-      book-seventh/ch1, book-seventh/ch2, book-seventh/ch3, book-seventh/ch4, book-seventh/ch5]
-    language: eng
-    date: {start: 366, end: 393, source: "optatus_against-the-donatists.txt header: Optatus of Milevis, Latin original, c. 366-393 CE", formation_confidence: Widely Accepted}
     note: >
       Optatus, Bishop of Milevis, "the African" per the file's title page -
       the North African Catholic voice answering Parmenian, c. 366-393.

@@ -11,9 +11,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 256, end: 256, source: "anf05_hippolytus-cyprian-caius-novatian.xml div3 4.5.9 heading of On the Advantage of Patience: sent with the Epistle to Jubaianus, a.d. 256", formation_confidence: Widely Accepted}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's treatise on the advantage of

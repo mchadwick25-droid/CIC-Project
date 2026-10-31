@@ -12,9 +12,6 @@ assignments:
       - novatianism
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 248, end: 258, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: Epistles 60-61 are placed 'at the beginning of Cyprian's episcopate, before the outbreak of the Decian persecution, a.d. 249'; the notice says nothing suggests their date except the probability of a time of peace, so this start is a guess (his episcopate began 248, same notice); the rest run to his martyrdom 258", formation_confidence: Inferential-Thin}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: the correspondence of Cyprian, including

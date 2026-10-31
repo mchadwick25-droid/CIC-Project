@@ -11,9 +11,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 246, end: 248, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: written before he became bishop (248), after the baptism of 246 that the same notice dates; start is that baptism", formation_confidence: Inferential-Thin}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: the treatise on the vanity of idols. PRIMARY

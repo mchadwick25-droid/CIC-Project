@@ -12,17 +12,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-fide-et-symbolo, de-fide-et-symbolo/sectio1, de-fide-et-symbolo/sectio2,
-      de-fide-et-symbolo/sectio3, de-fide-et-symbolo/sectio4, de-fide-et-symbolo/sectio5,
-      de-fide-et-symbolo/sectio6, de-fide-et-symbolo/sectio7, de-fide-et-symbolo/sectio8,
-      de-fide-et-symbolo/sectio9, de-fide-et-symbolo/sectio10, de-fide-et-symbolo/sectio11,
-      de-fide-et-symbolo/sectio12, de-fide-et-symbolo/sectio13, de-fide-et-symbolo/sectio14,
-      de-fide-et-symbolo/sectio15, de-fide-et-symbolo/sectio16, de-fide-et-symbolo/sectio17,
-      de-fide-et-symbolo/sectio18, de-fide-et-symbolo/sectio19, de-fide-et-symbolo/sectio20,
-      de-fide-et-symbolo/sectio21, de-fide-et-symbolo/sectio22, de-fide-et-symbolo/sectio23,
-      de-fide-et-symbolo/sectio24, de-fide-et-symbolo/sectio25]
-    language: lat
-    date: {start: 393, end: 393, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.4 introductory notice: delivered at the Council of Hippo-Regius, 393; P1 gives 393", formation_confidence: Widely Accepted}
     note: >
       Latin original of the ALREADY-PRESENT English entry 'A Treatise on Faith and the Creed'
       (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
@@ -40,25 +29,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-fide-et-operibus, de-fide-et-operibus/sectio1, de-fide-et-operibus/sectio2,
-      de-fide-et-operibus/sectio3, de-fide-et-operibus/sectio4, de-fide-et-operibus/sectio5,
-      de-fide-et-operibus/sectio6, de-fide-et-operibus/sectio7, de-fide-et-operibus/sectio8,
-      de-fide-et-operibus/sectio9, de-fide-et-operibus/sectio10, de-fide-et-operibus/sectio11,
-      de-fide-et-operibus/sectio12, de-fide-et-operibus/sectio13, de-fide-et-operibus/sectio14,
-      de-fide-et-operibus/sectio15, de-fide-et-operibus/sectio16, de-fide-et-operibus/sectio17,
-      de-fide-et-operibus/sectio18, de-fide-et-operibus/sectio19, de-fide-et-operibus/sectio20,
-      de-fide-et-operibus/sectio21, de-fide-et-operibus/sectio22, de-fide-et-operibus/sectio23,
-      de-fide-et-operibus/sectio24, de-fide-et-operibus/sectio25, de-fide-et-operibus/sectio26,
-      de-fide-et-operibus/sectio27, de-fide-et-operibus/sectio28, de-fide-et-operibus/sectio29,
-      de-fide-et-operibus/sectio30, de-fide-et-operibus/sectio31, de-fide-et-operibus/sectio32,
-      de-fide-et-operibus/sectio33, de-fide-et-operibus/sectio34, de-fide-et-operibus/sectio35,
-      de-fide-et-operibus/sectio36, de-fide-et-operibus/sectio37, de-fide-et-operibus/sectio38,
-      de-fide-et-operibus/sectio39, de-fide-et-operibus/sectio40, de-fide-et-operibus/sectio41,
-      de-fide-et-operibus/sectio42, de-fide-et-operibus/sectio43, de-fide-et-operibus/sectio44,
-      de-fide-et-operibus/sectio45, de-fide-et-operibus/sectio46, de-fide-et-operibus/sectio47,
-      de-fide-et-operibus/sectio48, de-fide-et-operibus/sectio49]
-    language: lat
-    date: {start: 413, end: 413, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De fide et operibus (413)", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt, which is the preferred base for
@@ -75,20 +45,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-agone-christiano, de-agone-christiano/sectio1, de-agone-christiano/sectio2,
-      de-agone-christiano/sectio3, de-agone-christiano/sectio4, de-agone-christiano/sectio5,
-      de-agone-christiano/sectio6, de-agone-christiano/sectio7, de-agone-christiano/sectio8,
-      de-agone-christiano/sectio9, de-agone-christiano/sectio10, de-agone-christiano/sectio11,
-      de-agone-christiano/sectio12, de-agone-christiano/sectio13, de-agone-christiano/sectio14,
-      de-agone-christiano/sectio15, de-agone-christiano/sectio16, de-agone-christiano/sectio17,
-      de-agone-christiano/sectio18, de-agone-christiano/sectio19, de-agone-christiano/sectio20,
-      de-agone-christiano/sectio21, de-agone-christiano/sectio22, de-agone-christiano/sectio23,
-      de-agone-christiano/sectio24, de-agone-christiano/sectio25, de-agone-christiano/sectio26,
-      de-agone-christiano/sectio27, de-agone-christiano/sectio28, de-agone-christiano/sectio29,
-      de-agone-christiano/sectio30, de-agone-christiano/sectio31, de-agone-christiano/sectio32,
-      de-agone-christiano/sectio33, de-agone-christiano/sectio34, de-agone-christiano/sectio35]
-    language: lat
-    date: {start: 396, end: 396, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De agone Christiano (396)", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt, which is the preferred base for
@@ -105,19 +61,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-continentia, de-continentia/sectio1, de-continentia/sectio2,
-      de-continentia/sectio3, de-continentia/sectio4, de-continentia/sectio5,
-      de-continentia/sectio6, de-continentia/sectio7, de-continentia/sectio8,
-      de-continentia/sectio9, de-continentia/sectio10, de-continentia/sectio11,
-      de-continentia/sectio12, de-continentia/sectio13, de-continentia/sectio14,
-      de-continentia/sectio15, de-continentia/sectio16, de-continentia/sectio17,
-      de-continentia/sectio18, de-continentia/sectio19, de-continentia/sectio20,
-      de-continentia/sectio21, de-continentia/sectio22, de-continentia/sectio23,
-      de-continentia/sectio24, de-continentia/sectio25, de-continentia/sectio26,
-      de-continentia/sectio27, de-continentia/sectio28, de-continentia/sectio29,
-      de-continentia/sectio30, de-continentia/sectio31, de-continentia/sectio32]
-    language: lat
-    date: {start: 395, end: 395, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De continentia (395); the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.1 notice states no date", formation_confidence: Widely Accepted}
     note: >
       Latin original of the ALREADY-PRESENT English entry 'On Continence' (source_file
       npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket. PRIMARY ORIGINAL
@@ -134,20 +77,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-bono-coniugali, de-bono-coniugali/sectio1, de-bono-coniugali/sectio2,
-      de-bono-coniugali/sectio3, de-bono-coniugali/sectio4, de-bono-coniugali/sectio5,
-      de-bono-coniugali/sectio6, de-bono-coniugali/sectio7, de-bono-coniugali/sectio8,
-      de-bono-coniugali/sectio9, de-bono-coniugali/sectio10, de-bono-coniugali/sectio11,
-      de-bono-coniugali/sectio12, de-bono-coniugali/sectio13, de-bono-coniugali/sectio14,
-      de-bono-coniugali/sectio15, de-bono-coniugali/sectio16, de-bono-coniugali/sectio17,
-      de-bono-coniugali/sectio18, de-bono-coniugali/sectio19, de-bono-coniugali/sectio20,
-      de-bono-coniugali/sectio21, de-bono-coniugali/sectio22, de-bono-coniugali/sectio23,
-      de-bono-coniugali/sectio24, de-bono-coniugali/sectio25, de-bono-coniugali/sectio26,
-      de-bono-coniugali/sectio27, de-bono-coniugali/sectio28, de-bono-coniugali/sectio29,
-      de-bono-coniugali/sectio30, de-bono-coniugali/sectio31, de-bono-coniugali/sectio32,
-      de-bono-coniugali/sectio33, de-bono-coniugali/sectio34, de-bono-coniugali/sectio35]
-    language: lat
-    date: {start: 400, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works) gives 400; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.2 introductory notice gives about 401", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_de-bono-coniugali-lat_zycha1900-csel41-tei.txt, which is the preferred base for
@@ -164,35 +93,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-sancta-uirginitate, de-sancta-uirginitate/sectio1, de-sancta-uirginitate/sectio2,
-      de-sancta-uirginitate/sectio3, de-sancta-uirginitate/sectio4, de-sancta-uirginitate/sectio5,
-      de-sancta-uirginitate/sectio6, de-sancta-uirginitate/sectio7, de-sancta-uirginitate/sectio8,
-      de-sancta-uirginitate/sectio9, de-sancta-uirginitate/sectio10, de-sancta-uirginitate/sectio11,
-      de-sancta-uirginitate/sectio12, de-sancta-uirginitate/sectio13,
-      de-sancta-uirginitate/sectio14, de-sancta-uirginitate/sectio15,
-      de-sancta-uirginitate/sectio16, de-sancta-uirginitate/sectio17,
-      de-sancta-uirginitate/sectio18, de-sancta-uirginitate/sectio19,
-      de-sancta-uirginitate/sectio20, de-sancta-uirginitate/sectio21,
-      de-sancta-uirginitate/sectio22, de-sancta-uirginitate/sectio23,
-      de-sancta-uirginitate/sectio24, de-sancta-uirginitate/sectio25,
-      de-sancta-uirginitate/sectio26, de-sancta-uirginitate/sectio27,
-      de-sancta-uirginitate/sectio28, de-sancta-uirginitate/sectio29,
-      de-sancta-uirginitate/sectio30, de-sancta-uirginitate/sectio31,
-      de-sancta-uirginitate/sectio32, de-sancta-uirginitate/sectio33,
-      de-sancta-uirginitate/sectio34, de-sancta-uirginitate/sectio35,
-      de-sancta-uirginitate/sectio36, de-sancta-uirginitate/sectio37,
-      de-sancta-uirginitate/sectio38, de-sancta-uirginitate/sectio39,
-      de-sancta-uirginitate/sectio40, de-sancta-uirginitate/sectio41,
-      de-sancta-uirginitate/sectio42, de-sancta-uirginitate/sectio43,
-      de-sancta-uirginitate/sectio44, de-sancta-uirginitate/sectio45,
-      de-sancta-uirginitate/sectio46, de-sancta-uirginitate/sectio47,
-      de-sancta-uirginitate/sectio48, de-sancta-uirginitate/sectio49,
-      de-sancta-uirginitate/sectio50, de-sancta-uirginitate/sectio51,
-      de-sancta-uirginitate/sectio52, de-sancta-uirginitate/sectio53,
-      de-sancta-uirginitate/sectio54, de-sancta-uirginitate/sectio55,
-      de-sancta-uirginitate/sectio56, de-sancta-uirginitate/sectio57]
-    language: lat
-    date: {start: 401, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De virginitate (401)", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_de-sancta-virginitate-lat_zycha1900-csel41-tei.txt, which is the preferred base for
@@ -209,18 +109,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-bono-uiduitatis, de-bono-uiduitatis/sectio1, de-bono-uiduitatis/sectio2,
-      de-bono-uiduitatis/sectio3, de-bono-uiduitatis/sectio4, de-bono-uiduitatis/sectio5,
-      de-bono-uiduitatis/sectio6, de-bono-uiduitatis/sectio7, de-bono-uiduitatis/sectio8,
-      de-bono-uiduitatis/sectio9, de-bono-uiduitatis/sectio10, de-bono-uiduitatis/sectio11,
-      de-bono-uiduitatis/sectio12, de-bono-uiduitatis/sectio13, de-bono-uiduitatis/sectio14,
-      de-bono-uiduitatis/sectio15, de-bono-uiduitatis/sectio16, de-bono-uiduitatis/sectio17,
-      de-bono-uiduitatis/sectio18, de-bono-uiduitatis/sectio19, de-bono-uiduitatis/sectio20,
-      de-bono-uiduitatis/sectio21, de-bono-uiduitatis/sectio22, de-bono-uiduitatis/sectio23,
-      de-bono-uiduitatis/sectio24, de-bono-uiduitatis/sectio25, de-bono-uiduitatis/sectio26,
-      de-bono-uiduitatis/sectio27, de-bono-uiduitatis/sectio28, de-bono-uiduitatis/sectio29]
-    language: lat
-    date: {start: 413, end: 418, source: "Sources disagree: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.4 introductory notice dates it 413 (consecration of Demetrias); P1 gives 418", formation_confidence: Contested}
     note: >
       Latin original of the ALREADY-PRESENT English entry 'On the Good of Widowhood' (source_file
       npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket. PRIMARY ORIGINAL
@@ -237,38 +125,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-adulterinis-coniugiis-1, de-adulterinis-coniugiis-1/sectio1,
-      de-adulterinis-coniugiis-1/sectio2, de-adulterinis-coniugiis-1/sectio3,
-      de-adulterinis-coniugiis-1/sectio4, de-adulterinis-coniugiis-1/sectio5,
-      de-adulterinis-coniugiis-1/sectio6, de-adulterinis-coniugiis-1/sectio7,
-      de-adulterinis-coniugiis-1/sectio8, de-adulterinis-coniugiis-1/sectio9,
-      de-adulterinis-coniugiis-1/sectio10, de-adulterinis-coniugiis-1/sectio11,
-      de-adulterinis-coniugiis-1/sectio12, de-adulterinis-coniugiis-1/sectio13,
-      de-adulterinis-coniugiis-1/sectio14, de-adulterinis-coniugiis-1/sectio15,
-      de-adulterinis-coniugiis-1/sectio16, de-adulterinis-coniugiis-1/sectio17,
-      de-adulterinis-coniugiis-1/sectio18, de-adulterinis-coniugiis-1/sectio19,
-      de-adulterinis-coniugiis-1/sectio20, de-adulterinis-coniugiis-1/sectio21,
-      de-adulterinis-coniugiis-1/sectio22, de-adulterinis-coniugiis-1/sectio23,
-      de-adulterinis-coniugiis-1/sectio24, de-adulterinis-coniugiis-1/sectio25,
-      de-adulterinis-coniugiis-1/sectio26, de-adulterinis-coniugiis-1/sectio27,
-      de-adulterinis-coniugiis-1/sectio28, de-adulterinis-coniugiis-1/sectio29,
-      de-adulterinis-coniugiis-1/sectio30, de-adulterinis-coniugiis-1/sectio31,
-      de-adulterinis-coniugiis-1/sectio32, de-adulterinis-coniugiis-1/sectio33,
-      de-adulterinis-coniugiis-1/sectio34, de-adulterinis-coniugiis-1/sectio35,
-      de-adulterinis-coniugiis-2, de-adulterinis-coniugiis-2/sectio1,
-      de-adulterinis-coniugiis-2/sectio2, de-adulterinis-coniugiis-2/sectio3,
-      de-adulterinis-coniugiis-2/caput4, de-adulterinis-coniugiis-2/caput5,
-      de-adulterinis-coniugiis-2/sectio5, de-adulterinis-coniugiis-2/sectio6,
-      de-adulterinis-coniugiis-2/sectio7, de-adulterinis-coniugiis-2/sectio8,
-      de-adulterinis-coniugiis-2/sectio9, de-adulterinis-coniugiis-2/sectio10,
-      de-adulterinis-coniugiis-2/sectio11, de-adulterinis-coniugiis-2/sectio12,
-      de-adulterinis-coniugiis-2/sectio13, de-adulterinis-coniugiis-2/sectio14,
-      de-adulterinis-coniugiis-2/sectio15, de-adulterinis-coniugiis-2/sectio16,
-      de-adulterinis-coniugiis-2/sectio17, de-adulterinis-coniugiis-2/sectio18,
-      de-adulterinis-coniugiis-2/sectio19, de-adulterinis-coniugiis-2/sectio20,
-      de-adulterinis-coniugiis-2/sectio21, de-adulterinis-coniugiis-2/sectio22]
-    language: lat
-    date: {start: 419, end: 419, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De adulterinis conjugiis (419)", formation_confidence: Widely Accepted}
     note: >
       No English translation of this work is vendored in this corpus, so this is new primary content
       for this world. PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this work
@@ -284,19 +140,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-mendacio, de-mendacio/sectio1, de-mendacio/sectio2, de-mendacio/sectio3,
-      de-mendacio/sectio4, de-mendacio/sectio5, de-mendacio/sectio6, de-mendacio/sectio7,
-      de-mendacio/sectio8, de-mendacio/sectio9, de-mendacio/sectio10, de-mendacio/sectio11,
-      de-mendacio/sectio12, de-mendacio/sectio13, de-mendacio/sectio14, de-mendacio/sectio15,
-      de-mendacio/sectio16, de-mendacio/sectio17, de-mendacio/sectio18, de-mendacio/sectio19,
-      de-mendacio/sectio20, de-mendacio/sectio21, de-mendacio/sectio22, de-mendacio/sectio23,
-      de-mendacio/sectio24, de-mendacio/sectio25, de-mendacio/sectio26, de-mendacio/sectio27,
-      de-mendacio/sectio28, de-mendacio/sectio29, de-mendacio/sectio30, de-mendacio/sectio31,
-      de-mendacio/sectio32, de-mendacio/sectio33, de-mendacio/sectio34, de-mendacio/sectio35,
-      de-mendacio/sectio36, de-mendacio/sectio37, de-mendacio/sectio38, de-mendacio/sectio39,
-      de-mendacio/sectio40, de-mendacio/sectio41, de-mendacio/sectio42, de-mendacio/sectio43]
-    language: lat
-    date: {start: 395, end: 395, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.5 introductory notice: about a.d. 395; P1 gives 395", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_de-mendacio-lat_zycha1900-csel41-tei.txt, which is the preferred base for quoting.
@@ -313,22 +156,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [contra-mendacium, contra-mendacium/sectio1, contra-mendacium/sectio2,
-      contra-mendacium/sectio3, contra-mendacium/sectio4, contra-mendacium/sectio5,
-      contra-mendacium/sectio6, contra-mendacium/sectio7, contra-mendacium/sectio8,
-      contra-mendacium/sectio9, contra-mendacium/sectio10, contra-mendacium/sectio11,
-      contra-mendacium/sectio12, contra-mendacium/sectio13, contra-mendacium/sectio14,
-      contra-mendacium/sectio15, contra-mendacium/sectio16, contra-mendacium/sectio17,
-      contra-mendacium/sectio18, contra-mendacium/sectio19, contra-mendacium/sectio20,
-      contra-mendacium/sectio21, contra-mendacium/sectio22, contra-mendacium/sectio23,
-      contra-mendacium/sectio24, contra-mendacium/sectio25, contra-mendacium/sectio26,
-      contra-mendacium/sectio27, contra-mendacium/sectio28, contra-mendacium/sectio29,
-      contra-mendacium/sectio30, contra-mendacium/sectio31, contra-mendacium/sectio32,
-      contra-mendacium/sectio33, contra-mendacium/sectio34, contra-mendacium/sectio35,
-      contra-mendacium/sectio36, contra-mendacium/sectio37, contra-mendacium/sectio38,
-      contra-mendacium/sectio39, contra-mendacium/sectio40, contra-mendacium/sectio41]
-    language: lat
-    date: {start: 420, end: 420, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): Contra mendacium, written in 420; the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.6 notice states no date", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_contra-mendacium-lat_zycha1900-csel41-tei.txt, which is the preferred base for
@@ -346,22 +173,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-opere-monachorum, de-opere-monachorum/sectio1, de-opere-monachorum/sectio2,
-      de-opere-monachorum/sectio3, de-opere-monachorum/sectio4, de-opere-monachorum/sectio5,
-      de-opere-monachorum/sectio6, de-opere-monachorum/sectio7, de-opere-monachorum/sectio8,
-      de-opere-monachorum/sectio9, de-opere-monachorum/sectio10, de-opere-monachorum/sectio11,
-      de-opere-monachorum/sectio12, de-opere-monachorum/sectio13, de-opere-monachorum/sectio14,
-      de-opere-monachorum/sectio15, de-opere-monachorum/sectio16, de-opere-monachorum/sectio17,
-      de-opere-monachorum/sectio18, de-opere-monachorum/sectio19, de-opere-monachorum/sectio20,
-      de-opere-monachorum/sectio21, de-opere-monachorum/sectio22, de-opere-monachorum/sectio23,
-      de-opere-monachorum/sectio24, de-opere-monachorum/sectio25, de-opere-monachorum/sectio26,
-      de-opere-monachorum/sectio27, de-opere-monachorum/sectio28, de-opere-monachorum/sectio29,
-      de-opere-monachorum/sectio30, de-opere-monachorum/sectio31, de-opere-monachorum/sectio32,
-      de-opere-monachorum/sectio33, de-opere-monachorum/sectio34, de-opere-monachorum/sectio35,
-      de-opere-monachorum/sectio36, de-opere-monachorum/sectio37, de-opere-monachorum/sectio38,
-      de-opere-monachorum/sectio39, de-opere-monachorum/sectio40, de-opere-monachorum/sectio41]
-    language: lat
-    date: {start: 400, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works) gives 400; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.7 introductory notice places it next after De bono coniugali, 401", formation_confidence: Widely Accepted}
     note: >
       SECOND WITNESS, print check: the same text is vendored as the machine-corrected TEI
       augustine_de-opere-monachorum-lat_zycha1900-csel41-tei.txt, which is the preferred base for
@@ -378,16 +189,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [de-diuinatione-daemonum, de-diuinatione-daemonum/sectio1,
-      de-diuinatione-daemonum/sectio2, de-diuinatione-daemonum/sectio3,
-      de-diuinatione-daemonum/sectio4, de-diuinatione-daemonum/sectio5,
-      de-diuinatione-daemonum/sectio6, de-diuinatione-daemonum/sectio7,
-      de-diuinatione-daemonum/sectio8, de-diuinatione-daemonum/sectio9,
-      de-diuinatione-daemonum/sectio10, de-diuinatione-daemonum/sectio11,
-      de-diuinatione-daemonum/sectio12, de-diuinatione-daemonum/sectio13,
-      de-diuinatione-daemonum/sectio14]
-    language: lat
-    date: {formation_confidence: unknown, checked: "P1 and Source_Registry do not list De divinatione daemonum; the CSEL 41 header gives no date"}
     note: >
       No English translation of this work is vendored in this corpus, so this is new primary content
       for this world. PRIMARY ORIGINAL per cic/texts/INTAKE.md, the only Latin witness of this work
@@ -405,20 +206,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-cura-pro-mortuis-gerenda, de-cura-pro-mortuis-gerenda/sectio1,
-      de-cura-pro-mortuis-gerenda/sectio2, de-cura-pro-mortuis-gerenda/sectio3,
-      de-cura-pro-mortuis-gerenda/sectio4, de-cura-pro-mortuis-gerenda/sectio5,
-      de-cura-pro-mortuis-gerenda/sectio6, de-cura-pro-mortuis-gerenda/sectio7,
-      de-cura-pro-mortuis-gerenda/sectio8, de-cura-pro-mortuis-gerenda/sectio9,
-      de-cura-pro-mortuis-gerenda/sectio10, de-cura-pro-mortuis-gerenda/sectio11,
-      de-cura-pro-mortuis-gerenda/sectio12, de-cura-pro-mortuis-gerenda/sectio13,
-      de-cura-pro-mortuis-gerenda/sectio14, de-cura-pro-mortuis-gerenda/sectio15,
-      de-cura-pro-mortuis-gerenda/sectio16, de-cura-pro-mortuis-gerenda/sectio17,
-      de-cura-pro-mortuis-gerenda/sectio18, de-cura-pro-mortuis-gerenda/sectio19,
-      de-cura-pro-mortuis-gerenda/sectio20, de-cura-pro-mortuis-gerenda/sectio21,
-      de-cura-pro-mortuis-gerenda/sectio22, de-cura-pro-mortuis-gerenda/sectio23]
-    language: lat
-    date: {start: 421, end: 421, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De cura pro mortuis gerenda (421); the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.9 notice states no date", formation_confidence: Widely Accepted}
     note: >
       Latin original of the ALREADY-PRESENT English entry 'On Care to Be Had for the Dead'
       (source_file npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket.
@@ -436,15 +223,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [de-patientia, de-patientia/sectio1, de-patientia/sectio2, de-patientia/sectio3,
-      de-patientia/sectio4, de-patientia/sectio5, de-patientia/sectio6, de-patientia/sectio7,
-      de-patientia/sectio8, de-patientia/sectio9, de-patientia/sectio10, de-patientia/sectio11,
-      de-patientia/sectio12, de-patientia/sectio13, de-patientia/sectio14, de-patientia/sectio15,
-      de-patientia/sectio16, de-patientia/sectio17, de-patientia/sectio18, de-patientia/sectio19,
-      de-patientia/sectio20, de-patientia/sectio21, de-patientia/sectio22, de-patientia/sectio23,
-      de-patientia/sectio24, de-patientia/sectio25, de-patientia/sectio26]
-    language: lat
-    date: {start: 418, end: 418, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De patientia (418); the npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.8 notice states no date", formation_confidence: Widely Accepted}
     note: >
       Latin original of the ALREADY-PRESENT English entry 'On Patience' (source_file
       npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml) in this bucket. PRIMARY ORIGINAL

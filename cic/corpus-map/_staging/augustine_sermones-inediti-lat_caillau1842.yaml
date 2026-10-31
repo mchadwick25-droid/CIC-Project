@@ -10,9 +10,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
-    language: lat
-    date: {formation_confidence: unknown, checked: "Augustine sermon collection with no single composition window: P1 lists the sermons without a date, the volume header (cic/texts) gives none, and no lpc record states one"}
     note: >
       SECOND WITNESS ONLY, because of scan quality (cic/texts/INTAKE.md section 2 and 6): the OCR
       misreads about one word in five or six (0.44 to 0.65 of word forms found in a vocabulary test

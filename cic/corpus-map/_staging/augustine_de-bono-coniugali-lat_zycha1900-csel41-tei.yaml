@@ -12,9 +12,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 400, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works) gives 400; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.2 introductory notice gives about 401", formation_confidence: Widely Accepted}
     note: >
       Augustine's treatise on marriage as a natural good. Latin original of the ALREADY-PRESENT
       English entry 'On the Good of Marriage' (source_file npnf103_augustine-holy-trinity-doctrinal-

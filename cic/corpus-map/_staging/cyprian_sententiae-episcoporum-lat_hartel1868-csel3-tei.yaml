@@ -11,9 +11,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [whole-file]
-    language: lat
-    date: {start: 256, end: 258, source: "Contested across the repo: Source_Registry row 4 and records/lpc/source cyprian-seventh-council-of-carthage give 256; anf05_hippolytus-cyprian-caius-novatian.xml div2 4.6 heading gives a.d. 258; npnf214_seven-ecumenical-councils.xml heading gives a.d. 257", formation_confidence: Contested}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: the opinions of the 87 bishops at the

@@ -9,9 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    locus_ids: [whole-file]
-    language: deu
-    date: {formation_confidence: unknown, checked: "a modern selection with the compiler unnamed (row note); only the 1861 printing year is stated, which dates the edition, not the sermons"}
     note: >
       A German selection of sermons, compiler not named in the OCR. Not the original. Fraktur
       OCR is poor. Registry row 251.

@@ -9,8 +9,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    language: lat
-    date: {start: 345, end: 397, source: "lauchert_kanones-altkirchlichen-concilien header contents list: Carthago I (c. 345-348), II (c. 387-390), III (397)", formation_confidence: Dominant Modern Reconstruction}
     note: >
       A modern (1896) edition of council canons. Only the African councils at Carthage I-III
       bear on this entry. Registry row 235.

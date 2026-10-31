@@ -10,9 +10,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    locus_ids: [whole-file]
-    language: eng
-    date: {formation_confidence: unknown, checked: "benson_cyprian-his-life-his-times-his-work_1897.txt: header gives 1897; the editor's note is signed 'Arthur Christopher Benson. Jan. I, 1897' (file line 173) and a second dateline 'Addington. September, 1896' stands at line 319. The book was published after the author's death (row note), so these are the editor's dates and not when it was written; left unknown by the round-1 ruling"}
     note: >
       Modern (1897) English scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. A full-length biography of Cyprian by a sometime Archbishop of
