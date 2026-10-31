@@ -166,6 +166,10 @@ def split_cells(line: str) -> list[str]:
     return [c.strip() for c in body.split("|")]
 
 
+def is_separator(cells: list[str]) -> bool:
+    return all(re.fullmatch(r":?-+:?", c) for c in cells)
+
+
 def parse_registry(lines: list[str]) -> list[Row]:
     rows: list[Row] = []
     in_registry = False
@@ -173,11 +177,11 @@ def parse_registry(lines: list[str]) -> list[Row]:
         if not line.startswith("|"):
             continue
         cells = split_cells(line)
-        if set(cells[0]) <= set("-: "):
+        if is_separator(cells):
             continue
         following = lines[number] if number < len(lines) else ""
-        if following.startswith("|") and set(split_cells(following)[0]) <= set("-: "):
-            in_registry = cells[0] == "#"
+        if following.startswith("|") and is_separator(split_cells(following)):
+            in_registry = strip_marks(cells[0]) == "#"
             continue
         if in_registry:
             rows.append(Row(number, cells))
@@ -193,8 +197,10 @@ def load_world(repo: Path, code: str) -> World:
             raise SystemExit(f"missing {path}")
     doc_lines = doc_path.read_text(encoding="utf-8").splitlines()
     reg_lines = reg_path.read_text(encoding="utf-8").splitlines()
-    return World(code, doc_path, reg_path, doc_lines, reg_lines,
-                 parse_registry(reg_lines))
+    rows = parse_registry(reg_lines)
+    if not rows:
+        raise SystemExit(f"no Registry rows read from {reg_path}: no table is headed `#`")
+    return World(code, doc_path, reg_path, doc_lines, reg_lines, rows)
 
 
 def sentences(text: str) -> list[str]:
