@@ -2512,3 +2512,11 @@ Logged 2026-10-31.
 Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Cyprian's *Address to Demetrianus* and *On the Vanity of Idols* (ascribed to Cyprian), which both shelves hold. This world's records also cite Tertullian's *On Modesty* chapter XXII as comparandum evidence (`lpc.source.tertullian-de-pudicitia`, used by `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace`), and the work is on the Latin Apologists' shelf. Whether the two worlds hold the shared works at the same weight is a cross-world question. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
 
 - **Open.** Owner: this world's thread.
+
+### OG-129. Should the world hold a record on John's prologue? (2026-10-31)
+
+Logged 2026-10-31.
+
+- **Open, for the record stage.** In the 30-answer reading, q084 said "We have no sermon of our own on those opening lines to give you." No record says this; the voice made the denial up. That is a system failure, fixed by the absence rule (`engine/m4/absence_rule.py`), not by a record edit. Augustine's Tractate I on John (`npnf107_augustine-homilies-john-soliloquies.xml`, lines 483-542) is a sermon on John 1:1-5 and sits on the shelf.
+- **The question.** Whether a limit record should state what the world does hold on John's prologue. Not decided; no record edit now.
+- **Owner.** Project lead, through the coordination thread.
