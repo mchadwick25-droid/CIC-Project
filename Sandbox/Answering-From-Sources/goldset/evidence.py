@@ -16,13 +16,18 @@ from pathlib import Path
 
 from goldset.common import git_show, records_at
 from engine.m1.spoken_fields import fields_with_role
+from engine.prose import all_text
 
 VOICED_FIELDS = (
     "text", "modern_rendering", "positions", "tensions", "plain_meaning", "quick_meaning", "summary",
     "description", "claim", "statement", "held_against", "concedes", "narratable", "bridge_line",
     "exchange", "result", "why_sources_cannot_answer", "senses",
 )
-ANSWER_FIELDS = ("absent_detail", "modern_contrast", "thin_topics", "modern_lens_note")
+ANSWER_FIELDS = ("absent_detail", "thin_topics", "classification")
+CARD_ONLY_FIELDS = {"story": ("heart",)}
+HEAD_TEXT_TYPES = frozenset({
+    "term", "story", "quote", "doctrinal_witness", "honest_limit", "gravity", "force", "contested_claim", "world_core",
+})
 LABEL_FIELDS = ("world_word", "title", "name", "speaker_or_author", "work")
 
 DIVISION_WHOLE_LINES = 300
@@ -191,9 +196,11 @@ def voiced_fields(record: dict) -> tuple[str, ...]:
     """The fields the pack shows for a record: the fixed list, every field the
     engine's registry of spoken fields declares for the record's type as ground
     the voice says back or heads its evidence with, and the structured fields
-    that answer a direct question."""
-    declared = fields_with_role(record.get("record_type"), "voice-diet", "evidence-head")
-    return tuple(dict.fromkeys((*VOICED_FIELDS, *declared, *ANSWER_FIELDS)))
+    the voice also receives, less the fields only the citation card shows."""
+    record_type = record.get("record_type")
+    declared = fields_with_role(record_type, "voice-diet", "evidence-head")
+    shown = dict.fromkeys((*VOICED_FIELDS, *declared, *ANSWER_FIELDS))
+    return tuple(field for field in shown if field not in CARD_ONLY_FIELDS.get(record_type, ()))
 
 
 def record_block(record: dict) -> str:
@@ -201,8 +208,6 @@ def record_block(record: dict) -> str:
     for field in LABEL_FIELDS:
         if record.get(field):
             rows.append(f"{field}: {_render_value(record[field])}")
-    if record.get("sources"):
-        rows.append("sources:\n" + _render_value([f"{s.get('source_id')}, {s.get('locus')}" for s in record["sources"]]))
     use = record.get("use_note") or {}
     if use.get("means"):
         rows.append(f"means: {_render_value(use['means'])}")
@@ -218,6 +223,8 @@ def record_block(record: dict) -> str:
     for field in voiced_fields(record):
         if record.get(field):
             rows.append(f"{field}:\n{_render_value(record[field])}")
+    if record.get("record_type") not in HEAD_TEXT_TYPES:
+        rows.append("record text:\n" + all_text(record))
     return "\n".join(rows)
 
 
