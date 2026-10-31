@@ -2,9 +2,8 @@
 
 ## Migration status (2026-10-29, paused for allowance)
 
-- Merged: alx (#1281), cappadocian (#1283), desert (#1289), don (#1298), gallic (#1305).
-- Parked as a draft pull request: hal (#1315), CI had not finished when work stopped; mark ready and merge once green.
-- Remaining, in order: ijc (20, 33), pahc (16, 12), rzg (2, 0), syr (10, 39), witt (15, 0), then fix and lpc (the lpc branch holds 3 off-shelf records to rule on). Pairs are shelf-row and voicing-pair waiver counts from the earlier plan; rerun the pointer script to confirm before each.
+- Merged: alx (#1281), cappadocian (#1283), desert (#1289), don (#1298), gallic (#1305), hal (#1315).
+- 2026-10-31: ijc, pahc, rzg, syr, witt and fix pointed in one batch (53 records pointed after an independent read; the rest listed under each world below). Remaining: lpc's ambiguous records.
 - Worlds aec, hus, jes, meth, obel, wsyr have no source records to point.
 
 ## lpc
@@ -1426,3 +1425,221 @@ None.
 ### Off-shelf (0)
 
 None.
+
+## ijc
+
+Pointed 2026-10-31: 3 records (a record whose vendored file and work match exactly one row). Below are the records left without a pointer.
+
+### Ambiguous (26)
+
+- `ijc.source.ambrose-de-mysteriis`: 13 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.ambrose-epistles`: 13 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.ambrose-sermo-contra-auxentium`: 13 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.ammianus-marcellinus`: 2 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.athanasius-apologia-contra-arianos`: 35 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.augustine-city-of-god`: 5 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.augustine-confessions`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.augustine-correction-donatists`: 18 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.canons-constantinople-381`: 44 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.canons-nicaea`: 44 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.cassian-de-incarnatione`: 12 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.chalcedon-acts`: 44 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.chrysostom-homilies-romans`: 3 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.eusebius-historia-ecclesiastica`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.eusebius-vita-constantini`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.hilary-de-synodis`: 7 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.jerome-de-viris`: 34 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.leo-letters`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.leo-sermons`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.optatus-imperial-dossier`: 4 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.paulinus-vita-ambrosii`: 2 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.socrates-he`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.sozomen-he`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.sulpicius-chronica`: 12 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.symmachus-memorial`: 13 rows share the file; neither work text nor id slug matches exactly one.
+- `ijc.source.theodoret-he`: 34 rows share the file; neither work text nor id slug matches exactly one.
+
+### Off-shelf (1)
+
+- `ijc.source.auxentius-letter-ulfila`: no vendored file named in the record is on the corpus map.
+
+## pahc
+
+Pointed 2026-10-31: 8 records (a record whose vendored file and work match exactly one row). Below are the records left without a pointer.
+
+### Left unpointed after the independent read (1)
+
+The file is right but the record cites a different work or part inside it (front matter, a translator's note, a quoted text), or cites two files. The only row is the whole-file row for the main work.
+
+- `pahc.source.first-clement`
+
+### Ambiguous (14)
+
+- `pahc.source.anti-montanist-fragments`: 27 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.athanasius-festal-39`: 35 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.didache`: 18 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.eusebius-historia-ecclesiastica`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.ignatius-letters`: 23 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.irenaeus-adversus-haereses`: 23 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.lucian-peregrinus`: 3 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.pliny-letters`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.polycarp-philippians`: 23 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.second-century-apocrypha`: 71 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.second-third-century-remains`: 71 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.shepherd-hermas`: 11 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.tertullian-adversus-marcionem`: 33 rows share the file; neither work text nor id slug matches exactly one.
+- `pahc.source.tertullian-apologeticus`: 33 rows share the file; neither work text nor id slug matches exactly one.
+
+### Off-shelf (0)
+
+
+## rzg
+
+Pointed 2026-10-31: 9 records (a record whose vendored file and work match exactly one row). Below are the records left without a pointer.
+
+### Ambiguous (4)
+
+- `rzg.source.beza-job-expounded`: 2 rows share the file; neither work text nor id slug matches exactly one.
+- `rzg.source.heidelberg-catechism`: 5 rows share the file; neither work text nor id slug matches exactly one.
+- `rzg.source.zwingli-selected-works`: 3 rows share the file; neither work text nor id slug matches exactly one.
+- `rzg.source.zwingli-sixty-seven-articles`: 3 rows share the file; neither work text nor id slug matches exactly one.
+
+### Off-shelf (6)
+
+- `rzg.source.beza-works`: no vendored file named in the record is on the corpus map.
+- `rzg.source.dentiere-works`: no vendored file named in the record is on the corpus map.
+- `rzg.source.ecclesiastical-ordinances-1541`: no vendored file named in the record is on the corpus map.
+- `rzg.source.geneva-consistory-registers`: no vendored file named in the record is on the corpus map.
+- `rzg.source.gordon-calvin-biography`: no vendored file named in the record is on the corpus map.
+- `rzg.source.manetsch-calvins-pastors`: no vendored file named in the record is on the corpus map.
+
+## syr
+
+Pointed 2026-10-31: 9 records (a record whose vendored file and work match exactly one row). Below are the records left without a pointer.
+
+### Ambiguous (15)
+
+- `syr.source.ancient-syriac-documents`: 71 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.aphrahat-demonstrations-hallock`: 4 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.aphrahat-select-demonstrations`: 14 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.bar-hebraeus-chronicon-ecclesiasticum`: 7 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.bardaisan-book-of-laws`: 71 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.chronicle-of-edessa`: 3 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.ephrem-nisibene-hymns`: 14 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.ephrem-prose-refutations`: 11 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.eusebius-historia-ecclesiastica`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.jerome-de-viris`: 34 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.palladius-lausiac-history`: 6 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.palladius-paradise-syriac`: 5 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.socrates-historia-ecclesiastica`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.sozomen-historia-ecclesiastica`: 9 rows share the file; neither work text nor id slug matches exactly one.
+- `syr.source.theodoret-historia-ecclesiastica`: 34 rows share the file; neither work text nor id slug matches exactly one.
+
+### Off-shelf (16)
+
+- `syr.source.brock-luminous-eye`: no vendored file named in the record is on the corpus map.
+- `syr.source.drijvers-bardaisan`: no vendored file named in the record is on the corpus map.
+- `syr.source.ephrem-vita-tradition`: no vendored file named in the record is on the corpus map.
+- `syr.source.gedsh`: no vendored file named in the record is on the corpus map.
+- `syr.source.griffith-edessa-frontier`: no vendored file named in the record is on the corpus map.
+- `syr.source.griffith-qyama-studies`: no vendored file named in the record is on the corpus map.
+- `syr.source.harvey-voiced-silence`: no vendored file named in the record is on the corpus map.
+- `syr.source.kayaalp-nisibis-cathedral`: no vendored file named in the record is on the corpus map.
+- `syr.source.koltun-fromm-dialogue`: no vendored file named in the record is on the corpus map.
+- `syr.source.malki-qyama`: no vendored file named in the record is on the corpus map.
+- `syr.source.millar-roman-near-east`: no vendored file named in the record is on the corpus map.
+- `syr.source.murray-symbols`: no vendored file named in the record is on the corpus map.
+- `syr.source.petersen-diatessaron`: no vendored file named in the record is on the corpus map.
+- `syr.source.possekel-bardaisan`: no vendored file named in the record is on the corpus map.
+- `syr.source.ramelli-bardaisan`: no vendored file named in the record is on the corpus map.
+- `syr.source.segal-edessa`: no vendored file named in the record is on the corpus map.
+
+## witt
+
+Pointed 2026-10-31: 23 records (a record whose vendored file and work match exactly one row). Below are the records left without a pointer.
+
+### Left unpointed after the independent read (10)
+
+The file is right but the record cites a different work or part inside it (front matter, a translator's note, a quoted text), or cites two files. The only row is the whole-file row for the main work.
+
+- `witt.source.coleridge-heine`
+- `witt.source.cyriacus-preface-to-the-cithara-lutheri`
+- `witt.source.johann-letter-of-reminiscence-on-luther-as`
+- `witt.source.luther-martin-luthers-judgment-of-erasmus`
+- `witt.source.leonard-introduction-to-the-hymns-of-martin`
+- `witt.source.henry-introduction-to-selections-from-the-table`
+- `witt.source.johann-testimony-concerning-luthers-divine-discourses`
+- `witt.source.henry-translators-preface`
+- `witt.source.robert-translators-notes-and-public-domain-release`
+- `witt.source.luther-four-hymnal-prefaces-to-walters-gesangb`
+
+### Ambiguous (14)
+
+- `witt.source.bente-concordia-triglotta`: 2 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-answer-to-the-superchristian-superspiritual`: 7 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-babylonian-captivity-of-the-church`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-disputation-on-the-power-and-efficacy`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-fourteen-of-consolation`: 15 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-open-letter-to-the-christian-nobility`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-papacy-at-rome-an-answer`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-reply-to-the-answer`: 7 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-to-the-leipzig-goat`: 7 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-treatise-concerning-the-blessed-sacrament`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.luther-treatise-on-christian-liberty`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.philadelphia-vols-i-iii-general-introduction`: 23 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.philadelphia-vols-i-iii`: 8 rows share the file; neither work text nor id slug matches exactly one.
+- `witt.source.print-history-evidence-embedded`: 24 rows share the file; neither work text nor id slug matches exactly one.
+
+### Off-shelf (40)
+
+- `witt.source.alejandro-andreas-bodenstein-von-karlstadt-1486-1541`: no vendored file named in the record is on the corpus map.
+- `witt.source.andreas-theses-and-sermons-of-1521-as`: no vendored file named in the record is on the corpus map.
+- `witt.source.argula-womans-voice-in-the-reformation`: no vendored file named in the record is on the corpus map.
+- `witt.source.augustin-latin-and-german-tracts`: no vendored file named in the record is on the corpus map.
+- `witt.source.book-of-concord`: no vendored file named in the record is on the corpus map.
+- `witt.source.cambridge-history-of-christianity`: no vendored file named in the record is on the corpus map.
+- `witt.source.church-cic-website-data-world-census-json`: no vendored file named in the record is on the corpus map.
+- `witt.source.encyclopaedia-britannica`: no vendored file named in the record is on the corpus map.
+- `witt.source.erasmus-de-libero-arbitrio-diatribe`: no vendored file named in the record is on the corpus map.
+- `witt.source.erwin-theses-were-not-posted-luther-between`: no vendored file named in the record is on the corpus map.
+- `witt.source.gerald-luthers-house-of-learning-indoctrination`: no vendored file named in the record is on the corpus map.
+- `witt.source.global-anabaptist-mennonite-encyclopedia-online`: no vendored file named in the record is on the corpus map.
+- `witt.source.heiko-luther-man-between-god`: no vendored file named in the record is on the corpus map.
+- `witt.source.james-successes-and-failures-in-the-german`: no vendored file named in the record is on the corpus map.
+- `witt.source.jerome-controversial-writings-against-luther`: no vendored file named in the record is on the corpus map.
+- `witt.source.johann-eyewitness-report-of-luthers-first-invocavit`: no vendored file named in the record is on the corpus map.
+- `witt.source.johannes-reception-of-luthers-writings`: no vendored file named in the record is on the corpus map.
+- `witt.source.karsthans`: no vendored file named in the record is on the corpus map.
+- `witt.source.leo-bull-exsurge-domine`: no vendored file named in the record is on the corpus map.
+- `witt.source.luther-das-newe-testament-deutzsch`: no vendored file named in the record is on the corpus map.
+- `witt.source.luther-de-votis-monasticis`: no vendored file named in the record is on the corpus map.
+- `witt.source.luther-that-jesus-christ-was-born`: no vendored file named in the record is on the corpus map.
+- `witt.source.luther-von-den-juden-und-ihren-l`: no vendored file named in the record is on the corpus map.
+- `witt.source.lutherstadt-wittenberg-luthers-house-and-melanchthons`: no vendored file named in the record is on the corpus map.
+- `witt.source.lyndal-martin-luther-renegade-and-prophet`: no vendored file named in the record is on the corpus map.
+- `witt.source.marburg-articles`: no vendored file named in the record is on the corpus map.
+- `witt.source.martin-martin-luther`: no vendored file named in the record is on the corpus map.
+- `witt.source.melanchthon-deuttung-der-zwo-grewlichen-figuren-bapstesels`: no vendored file named in the record is on the corpus map.
+- `witt.source.melanchthon-instructions-for-the-visitors-of-parish`: no vendored file named in the record is on the corpus map.
+- `witt.source.melanchthon-oratio-in-funere-reverendi-viri-d`: no vendored file named in the record is on the corpus map.
+- `witt.source.peter-revolution-of-1525-the-german-peasants`: no vendored file named in the record is on the corpus map.
+- `witt.source.philadelphia-edition-vols-iv`: no vendored file named in the record is on the corpus map.
+- `witt.source.robert-sources-and-contexts-of-the-book`: no vendored file named in the record is on the corpus map.
+- `witt.source.roman-confutation-of-the-augsburg-confession`: no vendored file named in the record is on the corpus map.
+- `witt.source.saxon-visitation-protocols`: no vendored file named in the record is on the corpus map.
+- `witt.source.scott-martin-luther-visionary-reformer`: no vendored file named in the record is on the corpus map.
+- `witt.source.scribner-for-the-sake-of-simple-folk`: no vendored file named in the record is on the corpus map.
+- `witt.source.susan-reformation-of-ritual-an-interpretation`: no vendored file named in the record is on the corpus map.
+- `witt.source.thomas-luthers-jews-a-journey-into-anti`: no vendored file named in the record is on the corpus map.
+- `witt.source.wikipedia-on-the-jews-and-their-lies`: no vendored file named in the record is on the corpus map.
+
+## fix
+
+Pointed 2026-10-31: 1 records (a record whose vendored file and work match exactly one row). Below are the records left without a pointer.
+
+### Ambiguous (0)
+
+
+### Off-shelf (0)
+
+

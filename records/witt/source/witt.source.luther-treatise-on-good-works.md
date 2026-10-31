@@ -19,6 +19,7 @@ work: A Treatise on Good Works
 edition: (1520), to Duke John, trans. Steinhaeuser, vol. I; vendored as cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt
 citation: Luther, A Treatise on Good Works (1520), to Duke John, trans. Steinhaeuser, vol. I
 kind: vendored
+shelf_row: luther_works-v1-selected_jacobs-spaeth1915--a-treatise-on-good-works
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 6; v1 contents; 2026-09-15

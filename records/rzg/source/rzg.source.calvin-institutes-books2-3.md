@@ -27,5 +27,6 @@ external_ids:
   rzg_source_registry_row: 2
 citation: 'John Calvin, Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining the Grace of Christ), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)'
 kind: vendored
+shelf_row: calvin_institutes-christian-religion-vol2_beveridge1845--institutes-of-the-christian-religion-books-ii-iii-of-the
 ---
 Christ the Redeemer; faith, justification, predestination - this world's own load-bearing doctrinal core (G1). Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note.

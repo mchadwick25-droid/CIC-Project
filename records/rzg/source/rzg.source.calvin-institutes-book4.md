@@ -27,5 +27,6 @@ external_ids:
   rzg_source_registry_row: 3
 citation: 'John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the Society of Christ, and Keeps Us in It), trans. Henry Beveridge (Edinburgh: Calvin Translation Society, 1845)'
 kind: vendored
+shelf_row: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-of-the-christian-religion-book-iv-of-the-external
 ---
 The church, sacraments, and civil government - G2 and G4's own doctrinal grounding. Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note. AUTHORED note: the Registry's Source cell names this volume 'Beveridge 1845' although Institutes Book IV is conventionally bound as the translation's own third volume; the vendored filename (`...vol3_beveridge1845.txt`) resolves this without ambiguity and is carried as the `edition` field's own file citation.
