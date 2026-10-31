@@ -38,6 +38,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
+from pathlib import Path
 
 from engine.m4.grounding_net import (
     QUOTE_MARKER,
@@ -50,6 +51,7 @@ from engine.m4.grounding_net import (
     reads_as_lead,
     strip_tags,
 )
+from engine.m4.leadin_support import REPO_ROOT, check_leadin
 from engine.m4.rhythm import MAX_PLACED_QUOTES_PER_REPLY
 from engine.prose import quote_aware_sentences
 
@@ -69,6 +71,7 @@ REASON_PLACED_MISMATCH = "placed quote does not match its record"
 REASON_LEAD_IN = "lead-in to a quote that was not placed"
 REASON_STORY_RETOLD = "story already told in this conversation"
 REPAIR_LEAD_IN_UNNAMED = "lead-in named no speaker; replaced by code's"
+REPAIR_LEAD_IN_UNSUPPORTED = "lead-in stated a detail no source document supports; replaced by code's"
 CODE_LEAD_IN = "In today's English, {speaker} says"
 
 
@@ -84,6 +87,7 @@ class PlacementContext:
     told_stories: frozenset[str] = frozenset()
     offered_stories: frozenset[str] = frozenset()
     max_quotes: int = MAX_PLACED_QUOTES_PER_REPLY
+    texts_root: Path = REPO_ROOT
 
     @classmethod
     def for_evidence(cls, candidates: list[dict], **kwargs) -> "PlacementContext":
@@ -97,6 +101,7 @@ class _Report:
     placed_drafts: dict[str, str] = field(default_factory=dict)
     removed: list[dict] = field(default_factory=list)
     repaired: list[dict] = field(default_factory=list)
+    leadin_support: dict[str, list[dict]] = field(default_factory=dict)
 
     def drop(self, sentence: str, why: str, *, draft: str | None = None) -> None:
         self.removed.append({"sentence": strip_tags(sentence).strip(), "why": why, "draft": (draft or sentence).strip()})
@@ -134,7 +139,9 @@ def place_quotes(
     to the sentence as the voice wrote it, marker included), "removed" (each
     sentence removed, with why, and as the voice wrote it in "draft"),
     "repaired" (each quote whose lead-in code wrote because the voice's named
-    no speaker, with the lead-in and the voice's draft)}.
+    no speaker or stated a detail no source document supports, with the lead-in and the voice's
+    draft), "leadin_support" (for each placed quote whose lead-in states details, the span of a
+    source document supporting each; engine.m4.leadin_support)}.
     A sentence tagged with a record in `sealed` (a story code placed, by
     engine.m4.story_placement) is never taken as a lead-in."""
     report = _Report()
@@ -173,6 +180,25 @@ def place_quotes(
                             if placed_quote_refusal(repaired, repository_records, index, record["id"]) is None:
                                 report.repaired.append({"draft": drafted, "why": REPAIR_LEAD_IN_UNNAMED, "lead_in": code_lead})
                                 composed, refusal = repaired, None
+                        if refusal is None:
+                            checked = check_leadin(
+                                lead, record, repository_records,
+                                speaker_words=frozenset(w.lower() for w in re.findall(r"[^\W\d_]+", index.speaker_name(record))),
+                                texts_root=context.texts_root,
+                            )
+                            if checked["unresolved"]:
+                                code_lead = CODE_LEAD_IN.format(speaker=index.speaker_name(record))
+                                repaired = f"{code_lead}: “{rendering}” [[{record['id']}]]"
+                                if placed_quote_refusal(repaired, repository_records, index, record["id"]) is None:
+                                    report.repaired.append({
+                                        "draft": drafted, "why": REPAIR_LEAD_IN_UNSUPPORTED, "lead_in": code_lead,
+                                        "unresolved": checked["unresolved"],
+                                    })
+                                    composed = repaired
+                                else:
+                                    refusal = REASON_PLACED_MISMATCH
+                            elif checked["supported"]:
+                                report.leadin_support[record["id"]] = checked["supported"]
                         if refusal:
                             # decided here, as the net decides it, so a quote the
                             # net would refuse never takes the reply's one place
@@ -214,6 +240,7 @@ def place_quotes(
         "placed_drafts": report.placed_drafts,
         "removed": report.removed,
         "repaired": report.repaired,
+        "leadin_support": report.leadin_support,
     }
 
 

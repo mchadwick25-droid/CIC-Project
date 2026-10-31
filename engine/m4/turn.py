@@ -338,8 +338,10 @@ def apply_net(
     every marker is removed with its sentence. quotable_texts are the words
     the participant side said, which a reply may repeat in quotation marks.
     net_result carries "reply_shape": the quote records placed, and each
-    sentence removed with why, and "repaired": each quote whose lead-in code
-    wrote because the voice's named no speaker. Each sentence verdict, and each sentence
+    sentence removed with why, "repaired": each quote whose lead-in code
+    wrote because the voice's named no speaker or stated a detail no source
+    document supports, and "leadin_support": for each placed quote whose
+    lead-in states details, the source span supporting each. Each sentence verdict, and each sentence
     removed, carries "draft": the sentence as the voice wrote it, tags and
     quote marker included. Only ok-verdict sentences' tags become
     citations.
@@ -421,6 +423,8 @@ def apply_net(
         "removed": removed,
         "repaired": shaped.get("repaired", []),
     }
+    if support := {rid: spans for rid, spans in shaped.get("leadin_support", {}).items() if rid in net_result["reply_shape"]["placed"]}:
+        net_result["reply_shape"]["leadin_support"] = support
     if story_lengths := {rid: length for rid, length in shaped.get("story_lengths", {}).items() if rid in net_result["reply_shape"]["placed"]}:
         net_result["reply_shape"]["story_lengths"] = story_lengths
     text = grounding_net.shown_text(tagged, net_result["sentences"])
