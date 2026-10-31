@@ -1,0 +1,725 @@
+file: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
+scheme: 'Augustine, Enarrationes in Psalmos, Migne text of the Maurist edition: one division per psalm, addressed by the Vulgate psalm number the edition prints in each head (IN PSALMUM N; Psalm 1 is headed PSALMI PRIMI ENARRATIO) as psNNN; the second exposition of Psalm 14 printed after Psalm 150 and opening at its own IN PSALMUM XIV head is ps014app and sits outside the numbered series; where a psalm is printed as ENARRATIO I and II the sections are enarr1 and enarr2, where it is printed as SERMO I, II, III, IV the sermons are sermo1 to sermo4 (in Psalms 30 and 32 the sermons stand inside enarr2), and the 32 sermons on Psalm 118 are sermo1 to sermo32; the printed Maurist paragraph numerals are not read as addresses: each paragraph start is addressed by its line in the vendored file (parN) and the numeral as printed is kept as the title; the Praefatio, the LOCA EX PSALMIS list of psalter variants, the prefatory testimonia (the prologue of Cassiodorus, the later preface to the commentary and the syllabus of manuscripts) and the closing editorial note are apparatus'
+curator: Sonnet 5.5
+status: sampled-ok
+rules:
+  - id: psalm
+    pattern: '^IN PSALMUM (?P<n>[IVXLC]+)\.?$'
+    lines:
+      - [5665, 139925]
+    locus: 'ps{n|int:3}'
+    number: n
+    fixes:
+      - line: 5665
+        quote: "PSALMI PRIMI ENARRATIO"
+        set: {n: I}
+      - line: 11513
+        quote: "~~ IN PSALMUM XVII"
+        set: {n: XVII}
+      - line: 12976
+        quote: "IN PSALMUM XXI (a)"
+        set: {n: XXI}
+      - line: 25508
+        quote: ". IN PSALMUM XXXV"
+        set: {n: XXXV}
+      - line: 26434
+        quote: "IN PSALMUM XXXV/"
+        set: {n: XXXVI}
+      - line: 36473
+        quote: "IN PSALMUM XLIV *"
+        set: {n: XLIV}
+      - line: 39238
+        quote: "IN PSALMUM XLVH"
+        set: {n: XLVII}
+      - line: 39993
+        quote: "IN PSALMUM XLV1II"
+        set: {n: XLVIII}
+      - line: 41422
+        quote: "IS PSALMUM XL1X"
+        set: {n: XLIX}
+      - line: 45282
+        quote: "IN PSALMUM L11I"
+        set: {n: LIII}
+      - line: 47173
+        quote: "IN' PSALMUM LY"
+        set: {n: LV}
+      - line: 55196
+        quote: "IN PSALMUM LXIIi"
+        set: {n: LXIII}
+      - line: 70750
+        quote: "IN PSALMUM LXXV1I"
+        set: {n: LXXVII}
+      - line: 75110
+        quote: "IN PSALMUM I.XXXI"
+        set: {n: LXXXI}
+      - line: 75437
+        quote: "IN PSALMUM LXXX1I"
+        set: {n: LXXXII}
+      - line: 76719
+        quote: "IN psalmom lxxxiv"
+        set: {n: LXXXIV}
+      - line: 79517
+        quote: "IN PSALMUM LXXXV1I"
+        set: {n: LXXXVII}
+      - line: 80288
+        quote: "IN PSALMUM LXXXV11I"
+        set: {n: LXXXVIII}
+      - line: 83902
+        quote: "IN PSALMUM XC1"
+        set: {n: XCI}
+      - line: 89717
+        quote: "IN PSALMDM XCV1I"
+        set: {n: XCVII}
+      - line: 101336
+        quote: "IN PSALMUM CV1"
+        set: {n: CVI}
+      - line: 104385
+        quote: "IN PSALMUM C\\"
+        set: {n: CX}
+      - line: 104942
+        quote: "IN PSALMUM CXH"
+        set: {n: CXII}
+      - line: 116808
+        quote: "IN PSALMUM CXXII1"
+        set: {n: CXXIII}
+      - line: 119473
+        quote: "IN PSALMUM CXXVli"
+        set: {n: CXXVII}
+      - line: 134160
+        quote: "IN PSALMUM CX1.V"
+        set: {n: CXLV}
+      - line: 136187
+        quote: "IN PSALMUM CXLYII"
+        set: {n: CXLVII}
+  - id: psalm-appendix
+    pattern: '^IN PSALMUM XIV$'
+    lines:
+      - [139926, 139926]
+    locus: ps014app
+  - id: enarr
+    parent: psalm
+    pattern: '^ENARRATIO (?P<n>[IVX]+)\.$'
+    lines:
+      - [12032, 12032]
+      - [12238, 12238]
+      - [12978, 12978]
+      - [13245, 13245]
+      - [14458, 14458]
+      - [14554, 14554]
+      - [15184, 15184]
+      - [15343, 15343]
+      - [16426, 16426]
+      - [16546, 16546]
+      - [17256, 17256]
+      - [19322, 19322]
+      - [19424, 19424]
+      - [20693, 20693]
+    locus: 'enarr{n|int}'
+    number: n
+    fixes:
+      - line: 12978
+        quote: "ENAUDATIO I."
+        set: {n: I}
+      - line: 15184
+        quote: "ENARRATIO l."
+        set: {n: I}
+      - line: 16546
+        quote: "ENARRATIO 11."
+        set: {n: II}
+  - id: enarr-heading
+    parent: psalm
+    pattern: '^ENARRATIO (?P<n>[IVX]+)\.$'
+    lines:
+      - [17510, 17510]
+      - [20856, 20856]
+    locus: 'enarr{n|int}'
+    division: false
+  - id: sermo-in-enarr
+    parent: enarr-heading
+    pattern: '^SERMO (?P<n>[IVX]+)(?: ?[.,(]|$)'
+    lines:
+      - [17512, 17512]
+      - [18153, 18153]
+      - [18745, 18745]
+      - [20858, 20858]
+      - [21507, 21507]
+    locus: 'sermo{n|int}'
+    number: n
+    fixes:
+      - line: 17512
+        quote: "sxauo I, UAtlTUS"
+        set: {n: I}
+      - line: 18745
+        quote: "SERMO III,"
+        set: {n: III}
+      - line: 20858
+        quote: "SEMO I."
+        set: {n: I}
+      - line: 21507
+        quote: "SERMg n."
+        set: {n: II}
+  - id: sermo
+    parent: psalm
+    pattern: '^SERMO (?P<n>[IVX]+)(?: ?[.,(]|$)'
+    lines:
+      - [22523, 22523]
+      - [23056, 23056]
+      - [24167, 24167]
+      - [24896, 24896]
+      - [26437, 26437]
+      - [27088, 27088]
+      - [28622, 28622]
+      - [39995, 39995]
+      - [40784, 40784]
+      - [50459, 50459]
+      - [51413, 51413]
+      - [60766, 60766]
+      - [61661, 61661]
+      - [63138, 63138]
+      - [64320, 64320]
+      - [80292, 80292]
+      - [81087, 81087]
+      - [82393, 82393]
+      - [83053, 83053]
+      - [92564, 92564]
+      - [93395, 93395]
+      - [95470, 95470]
+      - [96612, 96612]
+      - [97041, 97041]
+      - [98447, 98447]
+      - [105256, 105256]
+      - [105654, 105654]
+    locus: 'sermo{n|int}'
+    number: n
+    fixes:
+      - line: 23056
+        quote: "SERUO II, HABITUS DIE DOMINICO"
+        set: {n: II}
+      - line: 24896
+        quote: "icuo II, HABITUS DIE PBOXIHO"
+        set: {n: II}
+      - line: 26437
+        quote: "SERUS 1 (6)"
+        set: {n: I}
+      - line: 27088
+        quote: "SERMO n."
+        set: {n: II}
+      - line: 28622
+        quote: "SERMO 111."
+        set: {n: III}
+      - line: 39995
+        quote: "sermo i."
+        set: {n: I}
+      - line: 40784
+        quote: "SF.RHO II."
+        set: {n: II}
+      - line: 60766
+        quote: "SEnuo i."
+        set: {n: I}
+      - line: 61661
+        quote: "SERUO II."
+        set: {n: II}
+      - line: 63138
+        quote: "SERMO !."
+        set: {n: I}
+      - line: 64320
+        quote: "tenuo ii."
+        set: {n: II}
+      - line: 81087
+        quote: "seuo it (a)."
+        set: {n: II}
+      - line: 82393
+        quote: "sumo i."
+        set: {n: I}
+      - line: 83053
+        quote: "8EEHO II."
+        set: {n: II}
+      - line: 92564
+        quote: "SERMO i (a)."
+        set: {n: I}
+      - line: 95470
+        quote: "skruo i (a)."
+        set: {n: I}
+      - line: 97041
+        quote: "Se Ruo ui. #"
+        set: {n: III}
+      - line: 105256
+        quote: "SEMO I."
+        set: {n: I}
+  - id: sermo118
+    parent: psalm
+    pattern: '^SERMO (?P<n>[IVXL]+)\.$'
+    lines:
+      - [107124, 113705]
+    locus: 'sermo{n|int}'
+    number: n
+    fixes:
+      - line: 107476
+        quote: "SEMIO III."
+        set: {n: III}
+      - line: 107639
+        quote: "srauo tv."
+        set: {n: IV}
+      - line: 107777
+        quote: "sermo v."
+        set: {n: V}
+      - line: 108099
+        quote: "senio vu."
+        set: {n: VII}
+      - line: 108700
+        quote: "sumo x."
+        set: {n: X}
+      - line: 108905
+        quote: "SCRHO XI."
+        set: {n: XI}
+      - line: 109163
+        quote: "ssbuo xn."
+        set: {n: XII}
+      - line: 109446
+        quote: "SEBMO xm."
+        set: {n: XIII}
+      - line: 110119
+        quote: "SERIO XVI."
+        set: {n: XVI}
+      - line: 110269
+        quote: "sesao xvii."
+        set: {n: XVII}
+      - line: 110509
+        quote: "semo xvm."
+        set: {n: XVIII}
+      - line: 110712
+        quote: "SERMO xtx."
+        set: {n: XIX}
+      - line: 110914
+        quote: "sebmo xx."
+        set: {n: XX}
+      - line: 111133
+        quote: "SERMO xx>."
+        set: {n: XXI}
+      - line: 111608
+        quote: "sermo xxm."
+        set: {n: XXIII}
+      - line: 111816
+        quote: "SMUO XXIV."
+        set: {n: XXIV}
+      - line: 111970
+        quote: "SERItO xxv."
+        set: {n: XXV}
+      - line: 112298
+        quote: "SBBUO XXV)."
+        set: {n: XXVI}
+      - line: 113561
+        quote: "sermo xxxn."
+        set: {n: XXXII}
+  - id: para118
+    parent: sermo118
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2}) ?[.,] ?[\[\\(]'
+    locus: 'par{line}'
+    title: '{n}'
+    lines:
+      - [107124, 113705]
+  - id: para118-plain
+    parent: sermo118
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2})\. ?(?!A\S{3,12} \S{4,10}(?: \S{1,6})?$)[A-Z«"“‘](?![A-Z.])'
+    locus: 'par{line}'
+    title: '{n}'
+    context:
+      prev_blank: true
+    lines:
+      - [107124, 113705]
+  - id: para-sermo-in-enarr
+    parent: sermo-in-enarr
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2}) ?[.,] ?[\[\\(]'
+    locus: 'par{line}'
+    title: '{n}'
+    lines:
+      - [17512, 18152]
+      - [18153, 18744]
+      - [18745, 19319]
+      - [20858, 21506]
+      - [21507, 22519]
+  - id: para-sermo-in-enarr-plain
+    parent: sermo-in-enarr
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2})\. ?(?!A\S{3,12} \S{4,10}(?: \S{1,6})?$)[A-Z«"“‘](?![A-Z.])'
+    locus: 'par{line}'
+    title: '{n}'
+    context:
+      prev_blank: true
+    lines:
+      - [17512, 18152]
+      - [18153, 18744]
+      - [18745, 19319]
+      - [20858, 21506]
+      - [21507, 22519]
+  - id: para-enarr
+    parent: enarr
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2}) ?[.,] ?[\[\\(]'
+    locus: 'par{line}'
+    title: '{n}'
+    lines:
+      - [12032, 12237]
+      - [12238, 12727]
+      - [12978, 13244]
+      - [13245, 14048]
+      - [14458, 14553]
+      - [14554, 15182]
+      - [15184, 15342]
+      - [15343, 16210]
+      - [16426, 16545]
+      - [16546, 17254]
+      - [17256, 17509]
+      - [19322, 19423]
+      - [19424, 20690]
+      - [20693, 20855]
+  - id: para-enarr-plain
+    parent: enarr
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2})\. ?(?!A\S{3,12} \S{4,10}(?: \S{1,6})?$)[A-Z«"“‘](?![A-Z.])'
+    locus: 'par{line}'
+    title: '{n}'
+    context:
+      prev_blank: true
+    lines:
+      - [12032, 12237]
+      - [12238, 12727]
+      - [12978, 13244]
+      - [13245, 14048]
+      - [14458, 14553]
+      - [14554, 15182]
+      - [15184, 15342]
+      - [15343, 16210]
+      - [16426, 16545]
+      - [16546, 17254]
+      - [17256, 17509]
+      - [19322, 19423]
+      - [19424, 20690]
+      - [20693, 20855]
+  - id: para-sermo
+    parent: sermo
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2}) ?[.,] ?[\[\\(]'
+    locus: 'par{line}'
+    title: '{n}'
+    lines:
+      - [22523, 23055]
+      - [23056, 24162]
+      - [24167, 24895]
+      - [24896, 25507]
+      - [26437, 27087]
+      - [27088, 28621]
+      - [28622, 29460]
+      - [39995, 40783]
+      - [40784, 41421]
+      - [50459, 51412]
+      - [51413, 51914]
+      - [60766, 61660]
+      - [61661, 62508]
+      - [63138, 64319]
+      - [64320, 65096]
+      - [80292, 81086]
+      - [81087, 81800]
+      - [82393, 83052]
+      - [83053, 83901]
+      - [92564, 93394]
+      - [93395, 94132]
+      - [95470, 96611]
+      - [96612, 97040]
+      - [97041, 98446]
+      - [98447, 99306]
+      - [105256, 105653]
+      - [105654, 106027]
+  - id: para-sermo-plain
+    parent: sermo
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2})\. ?(?!A\S{3,12} \S{4,10}(?: \S{1,6})?$)[A-Z«"“‘](?![A-Z.])'
+    locus: 'par{line}'
+    title: '{n}'
+    context:
+      prev_blank: true
+    lines:
+      - [22523, 23055]
+      - [23056, 24162]
+      - [24167, 24895]
+      - [24896, 25507]
+      - [26437, 27087]
+      - [27088, 28621]
+      - [28622, 29460]
+      - [39995, 40783]
+      - [40784, 41421]
+      - [50459, 51412]
+      - [51413, 51914]
+      - [60766, 61660]
+      - [61661, 62508]
+      - [63138, 64319]
+      - [64320, 65096]
+      - [80292, 81086]
+      - [81087, 81800]
+      - [82393, 83052]
+      - [83053, 83901]
+      - [92564, 93394]
+      - [93395, 94132]
+      - [95470, 96611]
+      - [96612, 97040]
+      - [97041, 98446]
+      - [98447, 99306]
+      - [105256, 105653]
+      - [105654, 106027]
+  - id: para-psalm
+    parent: psalm
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2}) ?[.,] ?[\[\\(]'
+    locus: 'par{line}'
+    title: '{n}'
+    lines:
+      - [5665, 139925]
+  - id: para-psalm-plain
+    parent: psalm
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2})\. ?(?!A\S{3,12} \S{4,10}(?: \S{1,6})?$)[A-Z«"“‘](?![A-Z.])'
+    locus: 'par{line}'
+    title: '{n}'
+    context:
+      prev_blank: true
+    lines:
+      - [5665, 139925]
+  - id: para-appendix
+    parent: psalm-appendix
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2}) ?[.,] ?[\[\\(]'
+    locus: 'par{line}'
+    title: '{n}'
+    lines:
+      - [139926, 140119]
+  - id: para-appendix-plain
+    parent: psalm-appendix
+    pattern: '^(?P<n>[0-9IlOSs!|]{1,3}|[0-9IlOSs!|](?: [0-9IlOSs!|]){1,2})\. ?(?!A\S{3,12} \S{4,10}(?: \S{1,6})?$)[A-Z«"“‘](?![A-Z.])'
+    locus: 'par{line}'
+    title: '{n}'
+    context:
+      prev_blank: true
+    lines:
+      - [139926, 140119]
+ignore:
+  - pattern: '^(?:[^A-Za-z\s]{1,5} ?|\S{1,5} )?(?:[SsR8&]|fi|SL|S\.)\.? ?A[UCGLK][A-Za-z.\-]{2,9}[NIl!] [EFKe][A-Za-z.\-‘'']{3,8}(?: [^a-z\s]\S{0,5})?$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^(?:[^A-Za-z\s]{1,5} ?|\S{1,5} )?(?:[SsR8&]|fi|SL|S\.)\.? ?A[UCGLK][A-Za-z.\-]{2,9}[NIl!]$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^(?:[^A-Za-z\s]{1,5} ?|\S{1,5} )?[EL][NA]\S{0,3}[A-Za-z]{0,3}[RT][A-Za-z]{2,4}O? [IL1]?N''?(?: [PF]\S{3,8}[MS]\*?\.?(?: \S{1,9})?\.?)?(?: \S{1,6})?$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^(?:[^A-Za-z\s]{1,5} ?)?[ENAR]{1,2}[A-Z]{0,3}RATIO IN$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^(?:[^A-Za-z\s]{1,4} ?)?(?:PS|P\.S|P|F)[A-Z.]{3,5}(?:M|UM|UU|UH) (?:ALTERUM )?[IVXLCl1HY|]{1,9}\.?(?: \S{1,6})?$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^P[a-zA-Z*™.]{2,4}[Ll][Oo]?[Ll]?\.? [XVI]{3,6}\.?$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^[0-9][0-9IlSOo!|<«»&A-Za-z.]{1,4}$'
+    kind: column-number
+    lines:
+      - [5665, 140119]
+  - pattern: '^[IlSO1|!<«»&]{2,5}\.?$'
+    kind: column-number
+    lines:
+      - [5665, 140119]
+  - pattern: '^S\. A.{1,16}EPISCOPI$'
+    kind: running-head
+    lines:
+      - [5665, 140119]
+  - pattern: '^.'
+    kind: title-page
+    lines:
+      - [73953, 74145]
+apparatus:
+  - lines: [11, 132]
+    kind: front
+    locus: front-pl36
+  - lines: [133, 565]
+    kind: front
+    locus: praefatio
+  - lines: [566, 4888]
+    kind: front
+    locus: loca-ex-psalmis
+  - lines: [4889, 5664]
+    kind: front
+    locus: editorial-prefaces
+  - lines: [140120, 140131]
+    kind: index
+    locus: editorial-note
+evidence:
+  - line: 5665
+    quote: "PSALMI PRIMI ENARRATIO."
+  - line: 5831
+    quote: "IN PSALMUM II"
+  - line: 37974
+    quote: "IN PSALMUM XLV"
+  - line: 139523
+    quote: "IN PSALMUM CL"
+  - line: 139931
+    quote: "ejusdem Psalmi expositionem"
+  - line: 139926
+    quote: "IN PSALMUM XIV"
+  - line: 12032
+    quote: "ENARRATIO I."
+  - line: 12238
+    quote: "ENARRATIO II."
+  - line: 22523
+    quote: "SERMO I , HABITUS"
+  - line: 28622
+    quote: "SERMO 111."
+  - line: 107085
+    quote: "IN PSALMUM CXVIII"
+  - line: 107124
+    quote: "SERMO I."
+  - line: 113330
+    quote: "SERMO XXXI."
+  - line: 105599
+    quote: "ALTERUM"
+  - line: 5707
+    quote: "5. [vers. 5.]"
+  - line: 9840
+    quote: "90."
+  - line: 5665
+    quote: "PSALMI PRIMI ENARRATIO"
+  - line: 11513
+    quote: "~~ IN PSALMUM XVII"
+  - line: 12976
+    quote: "IN PSALMUM XXI (a)"
+  - line: 25508
+    quote: ". IN PSALMUM XXXV"
+  - line: 26434
+    quote: "IN PSALMUM XXXV/"
+  - line: 36473
+    quote: "IN PSALMUM XLIV *"
+  - line: 39238
+    quote: "IN PSALMUM XLVH"
+  - line: 39993
+    quote: "IN PSALMUM XLV1II"
+  - line: 41422
+    quote: "IS PSALMUM XL1X"
+  - line: 45282
+    quote: "IN PSALMUM L11I"
+  - line: 47173
+    quote: "IN' PSALMUM LY"
+  - line: 55196
+    quote: "IN PSALMUM LXIIi"
+  - line: 70750
+    quote: "IN PSALMUM LXXV1I"
+  - line: 75110
+    quote: "IN PSALMUM I.XXXI"
+  - line: 75437
+    quote: "IN PSALMUM LXXX1I"
+  - line: 76719
+    quote: "IN psalmom lxxxiv"
+  - line: 79517
+    quote: "IN PSALMUM LXXXV1I"
+  - line: 80288
+    quote: "IN PSALMUM LXXXV11I"
+  - line: 83902
+    quote: "IN PSALMUM XC1"
+  - line: 89717
+    quote: "IN PSALMDM XCV1I"
+  - line: 101336
+    quote: "IN PSALMUM CV1"
+  - line: 104385
+    quote: "IN PSALMUM C\\"
+  - line: 104942
+    quote: "IN PSALMUM CXH"
+  - line: 116808
+    quote: "IN PSALMUM CXXII1"
+  - line: 119473
+    quote: "IN PSALMUM CXXVli"
+  - line: 134160
+    quote: "IN PSALMUM CX1.V"
+  - line: 136187
+    quote: "IN PSALMUM CXLYII"
+  - line: 12978
+    quote: "ENAUDATIO I."
+  - line: 15184
+    quote: "ENARRATIO l."
+  - line: 16546
+    quote: "ENARRATIO 11."
+  - line: 17512
+    quote: "sxauo I, UAtlTUS"
+  - line: 18745
+    quote: "SERMO III,"
+  - line: 20858
+    quote: "SEMO I."
+  - line: 21507
+    quote: "SERMg n."
+  - line: 107476
+    quote: "SEMIO III."
+  - line: 107639
+    quote: "srauo tv."
+  - line: 107777
+    quote: "sermo v."
+  - line: 108099
+    quote: "senio vu."
+  - line: 108700
+    quote: "sumo x."
+  - line: 108905
+    quote: "SCRHO XI."
+  - line: 109163
+    quote: "ssbuo xn."
+  - line: 109446
+    quote: "SEBMO xm."
+  - line: 110119
+    quote: "SERIO XVI."
+  - line: 110269
+    quote: "sesao xvii."
+  - line: 110509
+    quote: "semo xvm."
+  - line: 110712
+    quote: "SERMO xtx."
+  - line: 110914
+    quote: "sebmo xx."
+  - line: 111133
+    quote: "SERMO xx>."
+  - line: 111608
+    quote: "sermo xxm."
+  - line: 111816
+    quote: "SMUO XXIV."
+  - line: 111970
+    quote: "SERItO xxv."
+  - line: 112298
+    quote: "SBBUO XXV)."
+  - line: 113561
+    quote: "sermo xxxn."
+  - line: 23056
+    quote: "SERUO II, HABITUS DIE DOMINICO"
+  - line: 24896
+    quote: "icuo II, HABITUS DIE PBOXIHO"
+  - line: 26437
+    quote: "SERUS 1 (6)"
+  - line: 27088
+    quote: "SERMO n."
+  - line: 39995
+    quote: "sermo i."
+  - line: 40784
+    quote: "SF.RHO II."
+  - line: 60766
+    quote: "SEnuo i."
+  - line: 61661
+    quote: "SERUO II."
+  - line: 63138
+    quote: "SERMO !."
+  - line: 64320
+    quote: "tenuo ii."
+  - line: 81087
+    quote: "seuo it (a)."
+  - line: 82393
+    quote: "sumo i."
+  - line: 83053
+    quote: "8EEHO II."
+  - line: 92564
+    quote: "SERMO i (a)."
+  - line: 95470
+    quote: "skruo i (a)."
+  - line: 97041
+    quote: "Se Ruo ui. #"
+  - line: 105256
+    quote: "SEMO I."

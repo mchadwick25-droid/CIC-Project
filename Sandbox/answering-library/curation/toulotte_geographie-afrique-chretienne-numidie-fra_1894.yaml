@@ -1,18 +1,154 @@
 file: toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt
-scheme: 'Toulotte''s Numidie volume: an unnumbered introduction on the province, then the sees in alphabetical order, each opened by a roman numeral, a dash and the see''s name in capitals; the entry numerals are damaged in many places in the scan and some runs of pages are repeated, so each see is addressed by its printed name and the line of its heading (see-<name>-<line>); the Liste of the bishops of Numidie at the Conference of Carthage and the Noms list as printed'
+scheme: 'Toulotte''s Numidie volume: an unnumbered introduction on the province, then the sees in alphabetical order, each opened by a roman numeral, a dash and the see''s name in capitals, and listed in the introduction as 195 numbered sees; the entry numerals are damaged in many places in the scan, so each see is addressed by its printed name and the line of its heading (see-<name>-<line>); where leaves are missing or runs of pages are repeated, the text that falls under another see''s head is addressed by the printed page head and its line (p<page>-<line>), and second copies of repeated page runs that were carved out of a see are addressed the same way; the heads printed CLXIII and CLXIV at lines 12764 (Suava) and 12789 (Sulli) stand at 143 and 144 in the introduction''s own list, and are read there for the sequence check only, not as printed; the Liste of the bishops of Numidie at the Conference of Carthage, the Noms list of all bishops of 411, and the Addition on Sitipa are addressed by name'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: see
-    pattern: '^\.? ?[IVXLCGOl1ilJ]{1,9}\.? ?[—–-]+ ?(?P<name>[A-ZÉÈ][A-ZÉÈÏËÂÔÎ0-9\^\.\x27’ ’\-]*?)\.? ?$'
-    lines: [1341, 16849]
+    pattern: '^\.? ?(?P<num>[IVXLCGOl1ilJ]{1,9})\.? ?[—–-]+ ?(?P<name>[A-ZÉÈ][A-ZÉÈÏËÂÔÎ0-9\^\.\x27’ ’\-]*?)\.? ?$'
+    lines: [[1341, 9878], [9961, 10052], [10532, 14207], [14672, 15648], [16041, 16849]]
+    locus: 'see-{name|slug}-{line}'
+    title: '{name}'
+    number: num
+    ocr_map: {G: C, l: I, '1': I, i: I, J: I}
+    fixes:
+      - line: 2126
+        quote: 'IL — AIVKA.'
+        set: {num: II, name: 'AIVKA'}
+      - line: 2395
+        quote: 'VIL — ARSAGAL.'
+        set: {num: VII, name: 'ARSAGAL'}
+      - line: 3481
+        quote: 'XXVI. — CiËSAREA.'
+        set: {num: XXVI, name: 'CiËSAREA'}
+      - line: 3511
+        quote: 'XXVII. — CiESARIANA.'
+        set: {num: XXVII, name: 'CiESARIANA'}
+      - line: 4188
+        quote: 'XXXII. — CASiE FAVENSES.'
+        set: {num: XXXII, name: 'CASiE FAVENSES'}
+      - line: 4229
+        quote: 'XXXIII. — CASiE MEDIANiE.'
+        set: {num: XXXIII, name: 'CASiE MEDIANiE'}
+      - line: 4304
+        quote: 'XXXIV. — CASiE NIGRiE.'
+        set: {num: XXXIV, name: 'CASiE NIGRiE'}
+      - line: 4393
+        quote: 'XXXV. — CASiE SILVAN^.'
+        set: {num: XXXV, name: 'CASiE SILVAN^'}
+      - line: 5092
+        quote: 'XLIV. — CENTEiVARlA.'
+        set: {num: XLIV, name: 'CENTEiVARlA'}
+      - line: 5311
+        quote: 'XL VIL — CERAMVSSA.'
+        set: {num: XLVII, name: 'CERAMVSSA'}
+      - line: 5384
+        quote: 'XLVUl. — GVIGVL.'
+        set: {num: XLVIII, name: 'GVIGVL'}
+      - line: 5955
+        quote: 'LU. — FATA.'
+        set: {num: LII, name: 'FATA'}
+      - line: 5974
+        quote: 'LUI. — FESSEI.'
+        set: {num: LIII, name: 'FESSEI'}
+      - line: 6137
+        quote: 'LVI. _ FVSSALA.'
+        set: {num: LVI, name: 'FVSSALA'}
+      - line: 6605
+        quote: 'LXIL — GEMELLiE.'
+        set: {num: LXII, name: 'GEMELLiE'}
+      - line: 7693
+        quote: 'LXXIIL — HIZIRZADA.'
+        set: {num: LXXIII, name: 'HIZIRZADA'}
+      - line: 7787
+        quote: 'LXXVL — IDICRÂ.'
+        set: {num: LXXVI, name: 'IDICRÂ'}
+      - line: 7843
+        quote: 'LXXVIL — IVGVNDIANA.'
+        set: {num: LXXVII, name: 'IVGVNDIANA'}
+      - line: 8063
+        quote: 'LXXXI. — LAMBiESIS.'
+        set: {num: LXXXI, name: 'LAMBiESIS'}
+      - line: 10532
+        quote: 'cm. — MAZACES.'
+        set: {num: CIII, name: 'MAZACES'}
+      - line: 10982
+        quote: 'GVIIL — MILIDIA.'
+        set: {num: CVIII, name: 'MILIDIA'}
+      - line: 11038
+        quote: 'ex. — MVLIA.'
+        set: {num: CX, name: 'MVLIA'}
+      - line: 11311
+        quote: 'cxvii. — nigrj: maigres.'
+        set: {num: CXVII, name: 'nigrj: maigres'}
+      - line: 11415
+        quote: 'CXIX. — NOVA CiESARIS.'
+        set: {num: CXIX, name: 'NOVA CiESARIS'}
+      - line: 11780
+        quote: 'CXXVII. — PRiESIDlVM.'
+        set: {num: CXXVII, name: 'PRiESIDlVM'}
+      - line: 12764
+        quote: 'CLXIII. — SVAVA.'
+        set: {num: CXLIII, name: 'SVAVA'}
+      - line: 12789
+        quote: 'GLXIV. — SVLLI.'
+        set: {num: CXLIV, name: 'SVLLI'}
+      - line: 13527
+        quote: 'GLIIL — THAMVGADE.'
+        set: {num: CLIII, name: 'THAMVGADE'}
+      - line: 14879
+        quote: 'CLXIL — TIPASA.'
+        set: {num: CLXII, name: 'TIPASA'}
+      - line: 14993
+        quote: 'CLXV. — TVBVNiE.'
+        set: {num: CLXV, name: 'TVBVNiE'}
+      - line: 15302
+        quote: 'CLXIX. — TVRRES AMMENIJl.'
+        set: {num: CLXIX, name: 'TVRRES AMMENIJl'}
+      - line: 15329
+        quote: 'GLXX. — TVRRES GONCORDIiE.'
+        set: {num: CLXX, name: 'TVRRES GONCORDIiE'}
+      - line: 15362
+        quote: 'CLXXL — TVRRIS ROTVNDA.'
+        set: {num: CLXXI, name: 'TVRRIS ROTVNDA'}
+      - line: 15475
+        quote: 'CLXXVL — VAGEATA.'
+        set: {num: CLXXVI, name: 'VAGEATA'}
+      - line: 16098
+        quote: 'GLXXXIU. — VESCERA.'
+        set: {num: CLXXXIII, name: 'VESCERA'}
+      - line: 16256
+        quote: 'GLXXXV. — VIGVS GiESARIS.'
+        set: {num: CLXXXV, name: 'VIGVS GiESARIS'}
+  - id: see-run
+    pattern: '^\.? ?(?P<num>[IVXLCGOl1ilJ]{1,9})\.? ?[—–-]+ ?(?P<name>[A-ZÉÈ][A-ZÉÈÏËÂÔÎ0-9\^\.\x27’ ’\-]*?)\.? ?$'
+    lines: [[9879, 9960], [10053, 10531], [14208, 14671], [15649, 16040]]
     locus: 'see-{name|slug}-{line}'
     title: '{name}'
 divisions:
   - start_line: 233
     locus: introduction
+  - start_line: 3307
+    locus: p58-3307
+  - start_line: 3387
+    locus: p70-3387
+  - start_line: 9123
+    locus: p198-9123
+  - start_line: 9879
+    locus: p212-9879
+  - start_line: 10053
+    locus: p206-10053
+  - start_line: 14208
+    locus: p289-14208
+  - start_line: 14658
+    locus: p310-14658
+  - start_line: 15649
+    locus: p324-15649
   - start_line: 16850
     locus: liste-411
+  - start_line: 17119
+    locus: noms-411
+  - start_line: 20213
+    locus: addition-sitipa
 ignore:
   - pattern: '^[—–\-_ ]{1,3} ?\d{1,3} ?[—–\-_ ]{1,3}$'
     kind: running-head
@@ -20,20 +156,121 @@ apparatus:
   - lines: [12, 232]
     kind: front
     locus: front
-  - lines: [17119, 20347]
+  - lines: [19585, 20212]
     kind: index
-    locus: noms
+    locus: noms-numidie
+  - lines: [20248, 20347]
+    kind: back
+    locus: back
+expected_gaps:
+  - series: see
+    line: 3394
+    quote: 'XXIII. — BVRCA.'
+    reason:
+      leaf_missing: {between: [3289, 3394]}
+  - series: see
+    line: 9224
+    quote: 'XCVI. — MACOMADES RVSTICIANA.'
+    reason:
+      leaf_missing: {between: [9107, 9224]}
+  - series: see
+    line: 14672
+    quote: 'CLX. — TIGILLAVA.'
+    reason:
+      leaf_missing: {between: [14137, 14672]}
 evidence:
   - line: 233
     quote: 'L''AFRIQUE CHRÉTIENNE'
+  - line: 964
+    quote: 'Ajura.'
+  - line: 973
+    quote: 'Arsacal.'
+  - line: 1059
+    quote: 'Fata.'
+  - line: 1061
+    quote: 'Fesseï.'
+  - line: 1101
+    quote: 'Hizirzada.'
+  - line: 1106
+    quote: 'Idicra.'
+  - line: 1108
+    quote: 'lucundiana.'
+  - line: 1159
+    quote: 'Mazaces.'
+  - line: 1168
+    quote: 'Milidia.'
+  - line: 1235
+    quote: 'Sua va.'
+  - line: 1237
+    quote: 'Sulli.'
+  - line: 1238
+    quote: '145. Summa.'
+  - line: 1257
+    quote: 'Thamugade.'
+  - line: 1273
+    quote: 'Tipasa.'
+  - line: 1289
+    quote: 'Turris Rotunda.'
+  - line: 1298
+    quote: 'Vageata.'
+  - line: 1337
+    quote: '195. Zerta II.'
   - line: 1341
     quote: 'I. — CIRTA.'
+  - line: 2126
+    quote: 'IL — AIVKA.'
+  - line: 2395
+    quote: 'VIL — ARSAGAL.'
+  - line: 3387
+    quote: '- 70 -'
   - line: 3394
     quote: 'XXIII. — BVRCA.'
   - line: 5010
     quote: 'XLII. — CELERINA.'
+  - line: 5311
+    quote: 'XL VIL — CERAMVSSA.'
+  - line: 5384
+    quote: 'XLVUl. — GVIGVL.'
+  - line: 5955
+    quote: 'LU. — FATA.'
+  - line: 5974
+    quote: 'LUI. — FESSEI.'
+  - line: 7693
+    quote: 'LXXIIL — HIZIRZADA.'
+  - line: 7787
+    quote: 'LXXVL — IDICRÂ.'
+  - line: 7843
+    quote: 'LXXVIL — IVGVNDIANA.'
+  - line: 9123
+    quote: '- 198 -'
+  - line: 10532
+    quote: 'cm. — MAZACES.'
+  - line: 10982
+    quote: 'GVIIL — MILIDIA.'
+  - line: 11038
+    quote: 'ex. — MVLIA.'
+  - line: 11311
+    quote: 'cxvii. — nigrj: maigres.'
   - line: 12032
     quote: 'GXXXIII. — RESSIANA.'
+  - line: 12764
+    quote: 'CLXIII. — SVAVA.'
+  - line: 12789
+    quote: 'GLXIV. — SVLLI.'
+  - line: 13527
+    quote: 'GLIIL — THAMVGADE.'
+  - line: 14208
+    quote: '— 289 —'
+  - line: 14658
+    quote: '- 310 -'
+  - line: 14879
+    quote: 'CLXIL — TIPASA.'
+  - line: 15362
+    quote: 'CLXXL — TVRRIS ROTVNDA.'
+  - line: 15475
+    quote: 'CLXXVL — VAGEATA.'
+  - line: 16098
+    quote: 'GLXXXIU. — VESCERA.'
   - line: 16429
     quote: 'GLXXXVIII. — VISA.'
   - line: 16824
@@ -42,3 +279,17 @@ evidence:
     quote: 'LISTE'
   - line: 17119
     quote: 'NOMS'
+  - line: 19585
+    quote: 'NOMS'
+  - line: 20213
+    quote: 'ADDITION'
+  - line: 20221
+    quote: 'SITIPA.'
+  - line: 3307
+    quote: '— 58 «'
+  - line: 9879
+    quote: '- 212 -'
+  - line: 10053
+    quote: '- 206 -'
+  - line: 15649
+    quote: '- 324 -'

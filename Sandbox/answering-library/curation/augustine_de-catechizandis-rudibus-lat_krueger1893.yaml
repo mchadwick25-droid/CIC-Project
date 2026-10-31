@@ -1,7 +1,7 @@
 file: augustine_de-catechizandis-rudibus-lat_krueger1893.txt
 scheme: 'Maurist chapter numbers 1-27, printed at the head of each chapter as the chapter number followed by section 1; the section numbers inside chapters are the editor''s own and are not used for addresses'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: chapter
     pattern: '^(?:\S{1,3} )?(?P<ch>\d{1,2}) [iIl1] [A-Za-z]'

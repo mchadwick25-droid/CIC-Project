@@ -317,3 +317,81 @@ Each file was redone by a Sonnet worker and read by independent Opus readers who
 
 - `edition_unnumbered` is refused by the look-alike test where a head prints a Roman chapter numeral and no Arabic section numeral (Petschenig line 19797).
 - Splitting a numbered series, or dropping `number`, turns off the look-alike scan over that stretch. In the CSEL group this hid wrong page and section addresses in two files until a reader opened the lines. A rule that keeps the scan on across an absent head would help.
+
+## Group C and the large Augustine files, 2026-10-31
+
+Each file was read by independent Opus readers who opened the vendored lines. No reason form was added and no tooling changed.
+
+| File | Outcome |
+|---|---|
+| `augustine_de-catechizandis-rudibus-lat_krueger1893` | `sampled-ok` after one read |
+| `augustine_confessiones-lat_knoll-csel33` | `sampled-ok` after one read |
+| `augustine_civitate-dei-1-13-lat_hoffmann-csel40-1` | `sampled-ok` after one read |
+| `augustine_civitate-dei-14-22-lat_hoffmann-csel40-2` | `sampled-ok` after one read |
+| `poschmann_abendlaendische-kirchenbusse-deu_1928` | `sampled-ok` after one read |
+| `koch_cyprian-und-der-roemische-primat-deu_1910` | `sampled-ok` after two rounds (the Anhang was folded into chapter XXI) |
+| `koch_cathedra-petri-deu_1930` | `sampled-ok` after two rounds |
+| `vonsoden_cyprianische-briefsammlung-deu_1904` | `sampled-ok` after two rounds |
+| `ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857` | `sampled-ok` after two rounds |
+| `toulotte_geographie-afrique-chretienne-numidie-fra_1894` | `sampled-ok` after three rounds (the cap) |
+| `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902` | `sampled-ok` on its second review (the first, in the B8 batch, ruled needs-redo) |
+| `koch_cyprianische-untersuchungen-deu_1926` | `sampled-ok` after three rounds and Mark's one fourth look (below) |
+
+### Mark's ruling, 2026-10-31
+
+`koch_cyprianische-untersuchungen-deu_1926` got one fourth look: a fresh independent Opus reader on the one fixed sentence only (the lettered-points clause of the scheme line, now matching Anhang item 4's a) and b)). It is a one-time ruling for this file and does not reopen the cap elsewhere. The fourth reader found the sentence true to both the division list and the page. If it had failed, the file would have stayed `drafted` with no fifth look.
+
+### Open gaps
+
+- Ribbeck, first half: the file holds both halves although its library header says first half only. The scan repeats pages 284 to 285 in II/1 (lines 12265 to 12390), pages 352 to 353 four times in the Parmenian stretch (15212 to 15578), pages 434 to 436 in II/5/a2 (19340 to 19722) and pages 598 to 599 four times in the third-day account (26854 to 27202). Addresses stay correct. Undivided printed sub-heads remain in divisions under 5,000 words.
+- Toulotte: nine sees are missing from the scan (XX to XXII, XCIV to XCV, CLVI to CLIX), with the pages 68 to 69, 196 to 197 and 300 to 309 absent. Four runs of repeated pages are read outside the numbered series. The heads printed CLXIII and CLXIV at lines 12764 (Suava) and 12789 (Sulli) are read at 143 and 144 from the edition's own list, for the sequence check only.
+- Koch, Cyprianische Untersuchungen: Cap. 6 is printed twice (lines 1152 and 1243); the second is addressed by line outside the numbered series.
+- Gebhardt 1902 (second scan): in Perpetua the Latin and Greek alternate on each page, so continued text lands in the neighbouring language's chapter division. The format cannot give one chapter two ranges. This is a question for the Howto owner (a sub-address split by language or page), not a defect of either Gebhardt file.
+- Pionius II and XIII in that scan rest on the first scan as a second printed instance of the same head, and Piece XVIII on its printed `XVIH.` alone.
+
+### Open tooling notes (added)
+
+- `clean` does not mean citable addresses. See the caveat in `Stage2_Segmentation_Report.md`, section 2.
+- The format cannot give one chapter two ranges, so interleaved parallel texts cannot be addressed by language within a chapter.
+- A head that prints a clean numeral contradicting its position (Toulotte 12764 and 12789, Caillau 32624) cannot be taken out of the numbered series without a reason form, because the look-alike test flags it. It is handled by reading the position from the edition's own list for the sequence check only, or by line address.
+- Partial markup files (anf05, anf04, npnf101, npnf106, npnf108, and also npnf104 and npnf107): file-level fallback is enough for now (coordination ruling, 2026-10-31). Their share of words in divisions over 5,000 words is 28.7, 15.2, 31.4, 24.0, 49.7, 32.3 and 50.9 per cent. The lpc records cite by work, section number and quote, so the coarse divisions break no cited locus.
+
+## Audit of the clean plain-text files, 2026-10-31
+
+Why: the segmenter's class `clean` means enough markers, sequential numbering and no oversize divisions. It does not mean the addresses are numbers the edition prints for its divisions (caveat in `Stage2_Segmentation_Report.md`, section 2).
+
+Method. A script measured every plain-text file with the segmenter's own heuristics and no curation: the class, the share of divisions addressed by a line number, the share addressed by a bare four-digit number, the share of tiny divisions, and the share whose address numeral appears in the first 200 characters of the division. It found 41 plain-text files of class clean (the Stage 2 report counted 38; the three extra are unexplained and may come from tooling changes since 2026-10-29). Every clean file on the lpc shelf (14) was then read by an independent Opus reader who opened the text.
+
+Result on the lpc shelf: 14 of 14 need curation. None is usable as it stands. 13 need whole-file curation; Bardenhewer needs a light, scoped one.
+
+| File | Measured address match | What the addresses really are | Verdict |
+|---|---|---|---|
+| `augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2` | 0.958 (94% four-digit) | Migne column numbers; 0 of 134 tractate heads addressable | needs curation (in progress) |
+| `augustine_enarrationes-in-psalmos-lat_migne-pl36-37` | 0.666 | `lineN` and `lineN/pM`; 22 of 151 psalm heads open a division | needs curation (curation drafted, under read) |
+| `augustine_opera-minora-catechetica-lat_migne-pl40` | 0.216 | chapter and section numbers with no work name; 88 of 122 Enchiridion chapters found | needs curation, whole file |
+| `audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901` | 0.0 (85% line) | line numbers that hide the printed Livre/Chapitre structure | needs curation, whole file |
+| `audollent_carthage-romaine-fra_1901` | 0.877 | page numbers, gathering numbers, misreads; 0 of 41 Livre/Chapitre heads open a division | needs curation, whole file |
+| `duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907` | 0.0 (91% line) | 98% of divisions are page or running-head debris | needs curation, whole file |
+| `augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870` | 0.38 | paragraph numbers under running-head parents, no work or book | needs curation, whole file |
+| `mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901` | 0.857 | Mansi column numbers; 0 of 27 council heads open a division | needs curation, whole file |
+| `mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901` | 0.096 (76% line) | line numbers; 73 of 87 council heads open a division | needs curation, whole file |
+| `mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901` | 0.908 | Mansi column numbers; 0 of 34 council heads open a division | needs curation, whole file |
+| `augustine_sermones-guelferbytani-lat_morin1917` | 0.83 | page numbers; 9 of 42 tractatus heads open a division | needs curation, whole file |
+| `augustine_bekenntnisse-deu_hefele-diederichs1921` | 0.921 | page numbers (n1 to n315); about 22 pages missing from the scan | needs curation, whole file |
+| `bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924` | 0.889 | printed subsection numbers; 24 of 28 addressable; four damaged heads, one false division | needs light curation |
+| `hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908` | 0.978 | page numbers; 22 of 22 section heads present, none addressed by its number | needs curation, whole file |
+
+Reading the table:
+- The measured address match cannot clear a file. Of the four lpc files that passed the cheap rule, three (Audollent fra, Bekenntnisse, Hefele-Leclercq) were fooled by page numbers.
+- Citing by page works roughly in the page-numbered files; citing by chapter, section, council or canon does not.
+- Mansi is cited by column in the literature, so column addresses may stay as a locator, but not as the only address.
+
+Known gaps found by the audit (source defects, not curation defects):
+- `augustine_bekenntnisse-deu_hefele-diederichs1921`: about 22 pages are missing between pages 265 and 315 (254 of 278 chapter heads present). The library header says the OCR is clean and all thirteen books are present; it is not.
+- `augustine_opera-minora-catechetica-lat_migne-pl40`: the title page and I.1 of De catechizandis rudibus are missing from the scan (jump at line 21143).
+- `audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901` and `audollent_carthage-romaine-fra_1901` are one book in two scans (the second adds the Additions and Corrections); the corpus map lists them as two works; the corpus map row for 'Les chretiens' points to line 47700, which is the Table entry, not the chapter (line 38751).
+- `augustine_sermones-guelferbytani-lat_morin1917` is Morin's first edition of sermons whose 1930 reprint is curated (`augustine_sermones-post-maurinos-reperti-lat_morin1930`); the 1917 file adds the nine appendix tractatus and the praefatio.
+
+Size of the same risk elsewhere (cheap measures only; not read): 27 of the 41 clean plain files are not on the lpc shelf. By the cheap rule 4 pass, 3 are doubtful and 20 raise at least one flag (line, column or low-match addresses, tiny-division clutter). The pass rule failed on the lpc shelf, so these figures are a warning list and not a clearance. By world (files may be on several worlds): alx 2, cappadocian 2, don 4, ijc 8, pahc 3, rzg 8, syr 3, witt 4; desert, gallic and hal have none.
+
+Not audited: the clean XML files (their divisions are the source's own markup, a different risk) and the 30 TEI `.txt` files (a separate class).
