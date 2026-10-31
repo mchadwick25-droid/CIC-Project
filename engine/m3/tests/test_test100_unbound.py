@@ -40,10 +40,10 @@ def test_an_unbound_limit_is_withheld_and_the_fallback_stands_in_its_place(tmp_p
     assert tu.classify_export(rows, work) == {"prompts_written": 4, "withheld_by_the_net": 1}
     _classify(work, ["world_claim", "world_claim", "connective", "limit"])
     assert tu.classify_import(rows, work, records) == {
-        "rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "limit_not_stated_by_a_record": 1, "withheld_by_the_net": 1}
+        "rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "limit_not_stated_by_a_record": 1, "talks_of_tags": 0, "withheld_by_the_net": 1}
     summary = tu.final(rows, work)
     assert summary["withhold"] == 1 and summary["withhold_net"] == 1 and summary["withhold_limit"] == 1 and summary["fallback_added"] == 1
-    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. Here is what we can say. {us.LIMIT_FALLBACK}"
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. Here is what we can say. {us.LIMIT_FALLBACK_ALONE}"
 
 
 def test_a_limit_a_record_states_is_kept_and_no_fallback_is_added(tmp_path):
@@ -121,7 +121,7 @@ def _run(tmp_path, tags, sentences, verify_text, kinds):
 def test_a_limit_the_verify_step_removed_is_not_read_and_the_fallback_still_lands(tmp_path):
     work, summary = _run(tmp_path, [[LIMIT], ()], ["Bound claim.", "Nothing we carry speaks of him."], "Bound claim. Nothing we carry speaks of him.",
                          ["world_claim", "limit"])
-    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. {us.LIMIT_FALLBACK}"
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. {us.LIMIT_FALLBACK_ALONE}"
     assert summary["fallback_added"] == 1
 
 
@@ -140,7 +140,7 @@ def test_the_fallback_stands_where_the_first_withheld_limit_stands_in_the_text(t
 def test_a_withheld_limit_that_reads_like_the_fallback_does_not_eat_it(tmp_path):
     work, _ = _run(tmp_path, [(), ()], ["Nothing we carry speaks of him.", "We do not have that here."],
                    "Nothing we carry speaks of him. We do not have that here.", ["limit", "limit"])
-    assert (work / "unbound" / "final" / "q1.txt").read_text() == us.LIMIT_FALLBACK
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == us.LIMIT_FALLBACK_ALONE
 
 
 def test_no_fallback_is_added_while_a_reply_for_the_answer_is_missing(tmp_path):
@@ -160,3 +160,24 @@ def test_the_same_withheld_limit_twice_is_removed_both_times_and_the_fallback_st
     work, summary = _run(tmp_path, [(), (), ()], ["Nothing we carry speaks of him.", "Bound claim.", "Nothing we carry speaks of him."],
                          "Nothing we carry speaks of him. Bound claim. Nothing we carry speaks of him.", ["limit", "connective", "limit"])
     assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{us.LIMIT_FALLBACK} Bound claim."
+
+
+LONG = " ".join(["The council met and the bishops spoke in turn about the lapsed and the road back to the church."] * 3)
+
+
+def test_a_long_answer_loses_a_withheld_limit_without_a_fallback(tmp_path):
+    work, summary = _run(tmp_path, [[LIMIT], (), ()], [LONG, "Nothing we carry speaks of him.", "Here is what we can say."], None,
+                         ["world_claim", "limit", "connective"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{LONG} Here is what we can say."
+    assert "fallback_added" not in summary
+
+
+def test_the_fallback_that_leads_into_more_text_says_what_follows(tmp_path):
+    work, _ = _run(tmp_path, [(), [LIMIT]], ["Nothing we carry speaks of him.", "Bound claim."], None, ["limit", "world_claim"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{us.LIMIT_FALLBACK} Bound claim."
+
+
+def test_a_sentence_that_names_a_confidence_level_is_withheld(tmp_path):
+    work, summary = _run(tmp_path, [[LIMIT], [LIMIT]], [LONG, "We hold it at Widely Accepted."], None, ["world_claim", "world_claim"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == LONG
+    assert summary["withhold_tags"] == 1

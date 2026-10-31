@@ -172,3 +172,12 @@ def test_level_names_count_only_as_names_of_a_level(records):
 def test_the_cap_keeps_the_judges_own_finding(records):
     own = {"supported": False, "problem": "added_detail", "reason": "adds a date"}
     assert vs.apply_confidence_cap(own, "We hold it at Widely Accepted.", [WIDELY, THIN], records) == own
+
+
+def test_the_judge_holds_a_joined_sentence_to_the_narrower_scope_and_the_claim_guard():
+    assert "MUST NOT ASSERT" in vs.VERIFY_SYSTEM and "narrower scope" in vs.VERIFY_SYSTEM
+
+
+def test_the_pack_shows_each_bound_records_claim_guard(records):
+    pack = vs.record_pack(records["lpc.term.bishop-of-bishops"], records)
+    assert "MUST NOT ASSERT" in pack
