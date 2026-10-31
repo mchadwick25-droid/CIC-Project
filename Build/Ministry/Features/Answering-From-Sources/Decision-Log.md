@@ -699,3 +699,13 @@ Coordination-level, AI-reviewed (not Mark's own words). The decision follows the
 - Four of the six said the record is silent on something the shelf covers, again. The lexical shelf search cannot catch these by design, since a silence claim can be phrased without end. Ruling: stop searching the shelf. A sentence a reader classes as a limit stays only when it is bound to a record that states that limit with its scope (`absence_rule.check_limit`, no cue phrase needed); otherwise it is withheld. When withheld limits leave an answer with no statement of limits, a fixed fallback sentence stands in the place of the first. No paid passage finder is needed.
 - Two verify gaps, both system: a word that refers back (a pronoun) is now read with the sentence before it and must be settled by the bound records; a sentence bound to records of different formation confidence may name no level above the lowest of them, and the import applies that cap whatever the judge said.
 - Built as one code pull request. The terms and shelf stages of the unbound step are removed.
+
+## 48. Stage 4, second small round: five system fixes after the thin-answer finding (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). The second fresh reading (seed 20261102) found 3 serious and 27 acceptable, but 13 of 30 answers did not address the question: the always-withhold rule had stripped most untagged limit sentences and the fixed fallback sentence stood in 45 of 106 answers.
+
+- A sentence worded as a limit or an exclusive claim ("only", "nothing", "never", "does not say") gets the limit test whatever a reader called it, bound or not. This closes the gap that let "we know only that..." through.
+- The turn directive now tells the voice to say what the sources lack only when a limit record in its ground says so, to cite it, and never to name a confidence level or say how a claim is tagged. A deterministic check withholds a sentence that names a level.
+- The fallback sentence is used only when withheld limits leave under 25 words, once, and its "Here is what we can tell you" half only when text follows.
+- The verify prompt holds a sentence joining content from two records to the narrower scope, the record's MUST NOT ASSERT line winning.
+- Retrieval is not touched here; the routing finding goes to Mark through coordination.

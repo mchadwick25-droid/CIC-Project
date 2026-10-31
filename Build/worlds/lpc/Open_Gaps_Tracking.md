@@ -2546,3 +2546,12 @@ Logged 2026-10-31.
 - **System fix built.** A limit sentence is kept only when a record it is bound to states that limit with its scope; unbound or unstated limits are withheld, with a fixed fallback sentence when no limit remains. The verify step now reads a referring word with the sentence before it, and caps a sentence at the lowest confidence level of the records it is bound to. No record edit.
 - **Open.** The fallback sentence is a fixed string, not wording reviewed from the world's own records. A same-answer check across sentences (two bound sentences that together state a merged inference) is not built. A record's own limit sentence with no limit word ("That much I cannot give you.") is withheld when the voice repeats it. A record sentence with no negation word ("Our record says little of ...") is never offered as backing for a limit. A sentence starting with a capitalised level name is read as naming that level.
 - **Owner.** Engine thread, through the coordination thread.
+
+### OG-133. Thin answers after the limit rule, and a limit worded without cue words (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The second fresh reading: 3 serious (one a silence claim worded "we know only", bound to a record that does not state it, so it was never held to the limit test; two splice or scope slips) and 13 of 30 answers that do not address the question. Limit records win retrieval on questions the shelf can answer, and the voice states many limits with no tag.
+- **System fix built.** The limit test applies to any sentence worded as a limit; the directive stops the voice from stating lacks without a cited limit record and from naming confidence levels; the fallback is rare and placed once; the verify prompt holds a joined sentence to the narrower scope. No record edit.
+- **Open.** Retrieval and routing (which records are offered for a question) is not changed; coordination takes it to Mark.
+- **Owner.** Engine thread, through the coordination thread.
