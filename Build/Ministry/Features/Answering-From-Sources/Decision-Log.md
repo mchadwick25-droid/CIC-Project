@@ -652,3 +652,15 @@ Coordination-level, AI-reviewed (not Mark's): `S3-Test100/Early_Pass_Report.md` 
 ## 39. Correction to entry 38: the 100 was overstated (2026-10-31)
 
 Coordination-level, AI-reviewed (not Mark's): entry 38 and the early-pass report gave 100 of 462 gate-kept sentences as not supported. The judges' evidence pack omitted fields the voice is shown. After the pack fix (PR #1383) and a re-judge of all 503 sentences, the figure is 58 of 462; 31 of the 41 withheld sentences are labelled supported. The held-out judge numbers were measured with the old pack and do not carry over to world-core and story records until those gold items are re-labelled (OG-126). The 58 are the thing to read for kind before any gate is retuned.
+
+## 40. Mark's ruling: allow no quote (2026-10-31)
+
+Mark's own answer, relayed by the coordination thread, on proposal item 1: "Yes, allow no quote". The draft directive no longer requires a quote: when a quote is due it says to place one if it answers the ask and none if it does not (PR #1386; Opus review before merge, no blocking findings). Every claim still cites a reviewed record; the three levels are unchanged. The production fit judge, which would apply fit-step drops, is not part of this and needs a named, capped live test.
+
+## 41. Mark's ruling: lighter reviews (2026-10-31)
+
+Mark's own answer, relayed by the coordination thread, on pacing (weekly usage about 20% in six hours): two threads, lighter reviews. One independent reader per review, a second only to settle a real dispute or a failed first read. Round 2 onward stays a targeted recheck. No large re-read or new audit without telling Mark first, with the cost in reader items. Unchanged: one Opus review before any tooling or code PR merges; the guard and nothing-added check on record edits (one reviewer); the three-round cap; no metered spend; safety-adjacent records keep their guards. Helper prompts stay small.
+
+## 42. Early pass 2 (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's): `S3-Test100/Early_Pass_2_Report.md`. Placed quotes fell from 83 to 35 and fit-step off-point placements from 43 to 3 across the same 106 questions. The not-supported rate on a 120-sentence sample showed no difference between passes (10.7% and 12.5%, wide error). One run, new drafts; not independent proof. The lead-in constraint (the sentence before a quote may state only what the record states) is proposed to Mark and not built.
