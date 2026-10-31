@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: lat
+    date: {formation_confidence: unknown, checked: "file header and the printed text (Rome 1606 print): the print year is not the date the Constitutions were composed or approved, and the file states neither"}
+    locus_ids: [whole-file]
     note: >
       The Society's own governing document, Latin original (1606 Rome
       printing). This 1606 print is flagged as garbled under the

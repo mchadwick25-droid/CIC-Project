@@ -115,6 +115,13 @@ works:
     in group IV'
   role: tradition
   confidence: provisional
+  language: eng-lat
+  date:
+    start: 1597
+    end: 1601
+    source: contents headings, file line 94 ("THE QUARREL WITH THE JESUITS, 1597-1598") and
+      line 176 ("RENEWAL OF THE CONFLICT, JUNE, 1599-JUNE, 1601")
+    formation_confidence: Documented
   note: 'The other side of the same quarrel in its own words: Garnet and Parsons defending
     the Society''s conduct of the mission, Blackwell asserting his authority, Holtby''s long
     letter from the North. Tradition for the recusant world (the Jesuit party was part of
@@ -147,6 +154,13 @@ works:
   locus: group II from about file line 3149 to the letters at about 8064
   role: tradition
   confidence: provisional
+  language: eng-lat
+  date:
+    start: 1597
+    end: 1602
+    source: contents, file line 124 (item 21, Parsons' letter, "March 1597") and file line
+      81 (item 6, "Aug. 12, 1602")
+    formation_confidence: Documented
   note: 'Both parties stating their case to Rome in Latin and Italian: the seculars'' account
     of the mission since 1587 and their plea for a bishop and for liberty of conscience, Parsons''
     answers, the Inquisition''s sentence. Original-language primary documents with Law''s

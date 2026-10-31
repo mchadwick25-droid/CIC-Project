@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat-spa
+  date: {formation_confidence: unknown, checked: "title page (file line 89 'TOMUS QUARTUS') and the preface; no span of years is stated for this volume of instructions and other monuments"}
   note: 'Nadal''s own instructions and writings, printed as the complement of his letters. They give his
     Latin voice on the Society''s government and practice. The volume omits the Adnotationes and the Scholia,
     which are vendored in other files. Primary original evidence for the movement, quotable once each

@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa-por-lat
+  date: {formation_confidence: unknown, checked: "title page (file line 93 'TOMUS PRIMUS', Madrid 1899-1900 imprint) and the front matter; no span of years is stated, and the volume joins Xavier's letters to a later Life by Valignano"}
   note: 'Xavier''s own letters and writings in the Spanish, Portuguese and Latin he wrote, in a critical
     edition. It is the original-language source for the vendored Coleridge English Life and Letters (whose
     letters were translated from earlier printings). Primary original evidence for the movement, quotable

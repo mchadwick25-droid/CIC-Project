@@ -25,6 +25,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: eng
+    date: {start: 1582, end: 1582, source: "file header lines 1-2: \"A Briefe Historie ... (1582)\", Allen's 1582 text", formation_confidence: Documented}
     note: >
       The first account of Campion's death, by the secular priest who ran the seminary and
       had sent him: an ally's account from outside the Society, not the Society's own

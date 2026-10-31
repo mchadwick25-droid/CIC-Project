@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: lat
+    date: {formation_confidence: unknown, checked: "file header; the 1595 year is that of the printing, and the file does not state when the work was composed"}
+    locus_ids: [whole-file]
     note: >
       Jeronimo Nadal's own Gospel annotations and meditations, Latin
       original (1595) - a major first-generation Jesuit theological

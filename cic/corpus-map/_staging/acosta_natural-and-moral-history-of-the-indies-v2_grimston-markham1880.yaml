@@ -23,6 +23,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: eng
+    date: {start: 1604, end: 1604, source: "title page, file lines 35-39: \"reprinted from the English translated edition of Edward Grimston, 1604\"", formation_confidence: Documented}
     note: >
       A first-generation Jesuit's own published work on the American missions (Acosta
       was provincial of Peru and later wrote the Society's mission manual De procuranda).

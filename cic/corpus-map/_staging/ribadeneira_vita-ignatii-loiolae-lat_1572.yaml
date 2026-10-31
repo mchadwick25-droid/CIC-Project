@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: lat
+    date: {start: 1572, end: 1572, source: "title page of the Naples print, file line 56: \"NEAPOLI M. D. LXXII\"", formation_confidence: Documented}
+    locus_ids: [whole-file]
     note: >
       Ribadeneira's original Latin life of Ignatius, commissioned by the
       3rd Superior General - an early, primary-adjacent biography by

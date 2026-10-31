@@ -26,4 +26,6 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa
+  date: {start: 1660, end: 1663, source: "Colin's memorial to the king is dated \"En Madrid, y Febrero 12. de 1660\" (file line 206); the file title line 1 names the first edition as Madrid, 1663", formation_confidence: Widely Accepted}
   note: The Society's own history of its Philippine province, by its provincial, in the Spanish written.

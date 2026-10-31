@@ -42,6 +42,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header and the translator's front matter (imprimatur 'Die 27 Sept., 1904', file line 59, dates the translation); the composition date of the Life is not stated in the lines read"}
   note: The Society seen from outside by a woman who consulted its fathers; the editor's note at line
     1850 says she told everything to St Francis de Borja, who changed one point of her direction. Placed
     on word counts and that note, so provisional.

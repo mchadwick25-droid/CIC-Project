@@ -9,6 +9,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date: {start: 1648, end: 1649, source: "the volume's own title page, file line 88: the volume is headed with the years 1648-1649", formation_confidence: Documented}
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and missionaries
     wrote, printed by Thwaites with a facing English translation. Primary original evidence for the movement
     once a quotation is checked against the page image. The English pages are a translation and serve

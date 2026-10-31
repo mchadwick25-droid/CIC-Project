@@ -25,6 +25,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: provisional
+    language: eng-lat
+    date: {start: 1597, end: 1602, source: "contents, file line 124 (item 21, Parsons' letter, \"March 1597\") and file line 81 (item 6, \"Aug. 12, 1602\")", formation_confidence: Documented}
     note: >
       Both parties stating their case to Rome in Latin and Italian: the seculars'
       account of the mission since 1587 and their plea for a bishop and for

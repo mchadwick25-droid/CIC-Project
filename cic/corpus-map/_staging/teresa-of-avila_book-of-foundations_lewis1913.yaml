@@ -54,6 +54,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header and the translator's introduction; no first-edition year is stated and the composition dates are not given in the lines read"}
   note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed on word searches
     only, so provisional.
 - row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-carmelites

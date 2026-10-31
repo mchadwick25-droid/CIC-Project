@@ -65,6 +65,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: rus
+  date: {formation_confidence: unknown, checked: "file header and the editors' preface; the volume joins texts of different dates (1577, 1590, 1595, 1603) and states no span for item IV"}
   note: 'Skarga was a Jesuit and wrote this for the Ostroh prince, with the Society''s argument for the
     primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a Ruthenian-language
     edition.'

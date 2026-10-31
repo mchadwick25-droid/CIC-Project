@@ -24,4 +24,6 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {start: 1615, end: 1622, source: "file line 35 (\"1615-1622\") and lines 136-137: the diary runs from 1 June 1615 and ends 24 March 1622", formation_confidence: Documented}
   note: 'The Society seen by a hostile English merchant in Japan, 1615-1617; placed on a word count only.'

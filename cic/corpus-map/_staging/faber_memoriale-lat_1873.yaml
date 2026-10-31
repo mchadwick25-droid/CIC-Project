@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: lat
+    date: {start: 1542, end: 1546, source: "first dated entry \"Anno 1542, in octava Corporis Christi Domini\" (file line 523); the volume carries dated matter to \"anno 1546\" (file lines 11593 and 14287), and the file header gives Faber 1506-1546", formation_confidence: Widely Accepted}
+    locus_ids: [whole-file]
     note: >
       Faber's own spiritual diary - genuine primary Faber material, not
       a biography quoting him. This world's corpus previously held only

@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header, title page and preface (the preface is undated, file lines 88-207); the 1873 imprint is that of the vendored copy and no first-edition statement is made"}
+    locus_ids: [whole-file]
     note: >
       Giuseppe Boero's biography of Peter Faber, trans. Henry James
       Coleridge, S.J. (1873) - role context, not tradition, since this is

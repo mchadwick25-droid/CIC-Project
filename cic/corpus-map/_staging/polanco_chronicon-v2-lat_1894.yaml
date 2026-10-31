@@ -8,6 +8,9 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat
+  date: {formation_confidence: unknown, checked: "title page (file lines 142-144: 'TOMUS SECUNDUS (1550-1552)'); the title page names the years the chronicle narrates, not when it was written, and no composition date is stated"}
+  locus_ids: [whole-file]
   note: 'Polanco''s year-by-year chronicle of the Society, 1550-1552, in Latin with the editors'' notes.
     It is the Society''s own account of its houses, colleges and missions, written by Ignatius''s secretary,
     and covers other years than the vendored Tomus 5 (polanco_chronicon-v1-lat_1894.txt, 1555). Primary original evidence for the movement, quotable

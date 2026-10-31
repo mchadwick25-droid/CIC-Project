@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat
+  date: {start: 1615, end: 1615, source: "file header lines 4-5 and 15: Augsburg, Christopher Mang, 1615; the scan is of the 1615 first printing", formation_confidence: Documented}
   note: 'The Jesuit account of Ricci''s China mission, in the Latin Trigault published in 1615 from Ricci''s
     own commentaries. Trigault edited and reordered Ricci''s text, so it is the mission''s printed public
     voice and not a copy of Ricci''s own Italian. Second witness for now, not yet quotable: the scan is

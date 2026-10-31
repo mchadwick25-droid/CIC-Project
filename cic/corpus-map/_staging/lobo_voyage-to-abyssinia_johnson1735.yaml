@@ -23,6 +23,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header: the transcription is from an 1887 edition of Johnson's translation; no composition year for Lobo's voyage is stated in the lines read"}
   note: >-
     A Jesuit's own account of the Ethiopian mission in the last years before the expulsion. Placed on
     window and subject; the Jesuit world's builders will weigh it.

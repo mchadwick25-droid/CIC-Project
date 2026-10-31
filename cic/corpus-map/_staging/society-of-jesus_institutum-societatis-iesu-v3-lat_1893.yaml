@@ -9,6 +9,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat
+  date: {formation_confidence: unknown, checked: "title page and front matter (1893 imprint dates the edition only); rules and regulations of many dates, no single span stated"}
   note: 'The Society''s own collected Latin text of the Rules, the Ratio Studiorum, the ordinances and
     instructions, the Exercises and the Directory. The Ratio Studiorum is printed here with the Society''s
     rules and instructions. Society-authored and corporate; no single writer. Primary original evidence

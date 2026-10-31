@@ -34,6 +34,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header, title page and Morris's preface; no dated preface or first-edition statement, and the date of Gerard's own Narrative is not stated in the lines read"}
     note: >
       Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself) of
       complicity in the Plot; chapters IX-XV are the Society's own defence of its English
@@ -75,6 +77,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header, title page and Morris's preface; no dated preface or first-edition statement, and the date of Gerard's own Narrative is not stated in the lines read"}
     note: >
       The autobiography of a Jesuit of the English mission, as translated and framed by a
       later Jesuit; same caveat as the recusant row (Gerard's words only where marked).

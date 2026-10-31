@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: lat
+    date: {formation_confidence: unknown, checked: "file header; the 1883 edition date dates the edition only, and no composition date is stated"}
+    locus_ids: [whole-file]
     note: >
       Nadal's own commentary explaining the Jesuit Constitutions to the
       provinces. Per the Library's non-English-primary-evidence rule

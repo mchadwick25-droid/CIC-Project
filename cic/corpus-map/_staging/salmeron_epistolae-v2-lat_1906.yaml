@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: spa-ita-lat
+    date: {start: 1536, end: 1565, source: "title page of Tomus Primus, file line 131: \"1536-1565\"", formation_confidence: Documented}
     note: >
       Salmeron's own letters, previously wholly unassessed for this
       world. The file's own title page reads "TOMUS PRIMUS 1536-1565".

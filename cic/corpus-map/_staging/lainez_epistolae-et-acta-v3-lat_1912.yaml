@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa-ita-lat
+  date: {start: 1558, end: 1558, source: "title page of Tomus Tertius, file line 81: \"1558\"", formation_confidence: Documented}
   note: 'Lainez''s own letters and acts as second General of the Society, 1558, printed from the originals
     and registers. The letters are in Latin, Spanish and Italian as written, and the Society''s General
     speaks here for himself and not only through register copies. Primary original evidence for the movement,

@@ -26,6 +26,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header and Pollen's introduction; Challoner's compilation of 1741-42 is stated only in the header, and the 1924 edition date dates the revision"}
     note: >
       A secular vicar apostolic's martyrology that covers the Society's English martyrs
       (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed
