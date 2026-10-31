@@ -19,6 +19,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: provisional
+    language: ces
+    date: {formation_confidence: unknown, checked: "title page (894 to 1632, appended account of 1655) and file line 6916 (a death in 1653): the text is later than 1655, but no composition year is stated"}
     note: "The Czech exiles' history of their church's sufferings to the suppression under Ferdinand II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once each wording is checked against the page image. Authorship is the host catalogue's ascription to Comenius with Adam Hartmann; the title page names no author, so the author slug is the Unity. Placed on headings and a year-index read; not read in full."
 
   - row_id: "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th-3"

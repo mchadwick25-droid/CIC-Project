@@ -27,6 +27,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: provisional
+    language: eng
+    date: {start: 1659, end: 1660, source: "van Braght's own preface dated 'Dort, July the 23rd, 1659' (file line 578) and the title page: 'from the Edition of 1660'", formation_confidence: Documented}
     note: >
       A Dutch Mennonite martyrologist's 1660 account, in the 1886
       English edition, of Hus and of the Taborites (it calls them
