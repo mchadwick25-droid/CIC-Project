@@ -122,3 +122,11 @@ def test_check_limit_does_not_match_two_limits_that_only_share_their_way_of_spea
     record = {"id": "x.limit.a", "record_type": "honest_limit", "statement": "Our sources do not tell us when the council met."}
     assert absence_rule.check_limit("Our sources do not tell us how the bishop died.", [record])
     assert absence_rule.check_limit("Our sources never tell us what the bishop ate.", [record])
+
+
+def test_check_limit_ignores_the_plural_of_a_word_every_limit_shares():
+    records = load_world_records("lpc")
+    from engine.m4 import absence_rule
+    record = records["lpc.limit.the-lapsed-own-account"]
+    assert absence_rule.check_limit("No words of the bishops survive.", [record])
+    assert absence_rule.check_limit("Nobody wrote down a bishop's own words.", [record])

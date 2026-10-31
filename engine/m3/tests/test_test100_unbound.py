@@ -154,3 +154,9 @@ def test_no_fallback_is_added_while_a_reply_for_the_answer_is_missing(tmp_path):
     tu.classify_import(rows, work, records)
     summary = tu.final(rows, work)
     assert "fallback_added" not in summary and summary["pending_classify"] == 1
+
+
+def test_the_same_withheld_limit_twice_is_removed_both_times_and_the_fallback_stands_once(tmp_path):
+    work, summary = _run(tmp_path, [(), (), ()], ["Nothing we carry speaks of him.", "Bound claim.", "Nothing we carry speaks of him."],
+                         "Nothing we carry speaks of him. Bound claim. Nothing we carry speaks of him.", ["limit", "connective", "limit"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{us.LIMIT_FALLBACK} Bound claim."

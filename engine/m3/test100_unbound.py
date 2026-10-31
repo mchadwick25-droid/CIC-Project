@@ -111,6 +111,16 @@ def classify_import(rows: list, work: Path, records: dict) -> dict:
             "withheld_by_the_net": sum(r["decision"] == "withhold_net" for r in out)}
 
 
+_MARK = "\x00limit\x00"
+
+
+def _position(text: str, sentence: str) -> int:
+    """Where the sentence stands in the text as a whole sentence (the place
+    splice would replace), else past the end."""
+    marked, found = splice(text, sentence, _MARK)
+    return marked.find(_MARK) if found else len(text) + 1
+
+
 def final(rows: list, work: Path) -> dict:
     classified = {r["key"]: r for r in _load(work / "unbound" / "classify.jsonl")}
     counts: Counter = Counter()
@@ -140,14 +150,15 @@ def final(rows: list, work: Path) -> dict:
             elif decision in ("withhold", "withhold_net"):
                 text, _found = splice(text, item["sentence"], None)
         if withheld_limits:
-            first = min(withheld_limits, key=text.find)
-            for sentence in withheld_limits:
-                if sentence != first:
+            first = min(withheld_limits, key=lambda sentence: _position(text, sentence))
+            text, _found = splice(text, first, _MARK)
+            for sentence in dict.fromkeys(withheld_limits):
+                while splice(text, sentence, None)[1]:
                     text, _found = splice(text, sentence, None)
             add_fallback = complete and not kept_limits
             if add_fallback:
                 counts["fallback_added"] += 1
-            text, _found = splice(text, first, us.LIMIT_FALLBACK if add_fallback else None)
+            text, _found = splice(text, _MARK, us.LIMIT_FALLBACK if add_fallback else None)
         (out_dir / f"{question['id']}.txt").write_text(text, encoding="utf-8")
     summary = {"answers": len(rows), **counts}
     (work / "unbound" / "summary.json").write_text(json.dumps(summary, indent=1, sort_keys=True), encoding="utf-8")

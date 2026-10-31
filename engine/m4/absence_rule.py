@@ -157,10 +157,10 @@ def limit_words(sentence: str) -> frozenset[str]:
     """The words that say what a limit is about: the content words less the
     words every limit shares ("sources", "tell", "know"), so two limits that
     only share their way of speaking do not match."""
-    return content_words(sentence) - _LIMIT_BOILERPLATE
+    return frozenset(w for w in content_words(sentence) if w not in _LIMIT_BOILERPLATE and w.rstrip("s") not in _LIMIT_BOILERPLATE)
 
 
-def _backed(sentence: str, cited: list[dict], words=content_words) -> str | None:
+def _backed(sentence: str, cited: list[dict], words=content_words, strict: bool = False) -> str | None:
     """None when a cited record states the sentence's absence with its scope;
     else the reason it is not backed. A sentence with no word left to match
     makes no claim about the world (pass `words` to change what counts)."""
@@ -172,7 +172,7 @@ def _backed(sentence: str, cited: list[dict], words=content_words) -> str | None
         best: tuple[int, bool, str] | None = None
         for candidate in _candidates(record):
             shared = claimed & words(candidate)
-            if len(shared) < min(MATCH_MINIMUM, len(claimed)) or len(shared) < MATCH_SHARE * len(claimed):
+            if len(shared) < (MATCH_MINIMUM if strict else min(MATCH_MINIMUM, len(claimed))) or len(shared) < MATCH_SHARE * len(claimed):
                 continue
             rank = (len(shared), any(marker.search(candidate) for marker in _SCOPE_MARKERS), candidate)
             if best is None or rank[:2] > best[:2]:
@@ -201,4 +201,4 @@ def check_limit(sentence: str, cited: list[dict]) -> str | None:
     no such word ("That is not known.") is not backed by any record."""
     if not limit_words(sentence):
         return REASON_ABSENCE_UNSUPPORTED
-    return _backed(sentence, cited, limit_words)
+    return _backed(sentence, cited, limit_words, strict=True)
