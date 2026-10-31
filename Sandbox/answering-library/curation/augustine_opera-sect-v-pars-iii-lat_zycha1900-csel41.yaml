@@ -1,6 +1,5 @@
 file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-scheme: Zycha's section numbers (Arabic, restarting at 1 in each work), printed at the head of each section and usually after the Roman chapter number; the works are addressed by their printed titles, and a section marker
-  the scan cannot read is addressed by its line number
+scheme: 'Zycha''s Arabic section numbers, restarting at 1 in each work and printed at each section head, usually after the Roman chapter numeral; works addressed by their printed titles; where the edition prints a chapter head with no section numeral, the head is addressed by its chapter numeral (De sancta virginitate XXII as sectio22, its chapter and section numbering coinciding there; De adulterinis II IIII and V as caput4 and caput5, outside the section series)'
 curator: Sonnet 5.5
 status: drafted
 rules:
@@ -376,6 +375,71 @@ ignore:
   - 2300
   - 33955
 apparatus:
+- lines:
+  - 3742
+  - 3784
+  kind: front
+  locus: sigla-de-fide-et-operibus
+- lines:
+  - 6791
+  - 6830
+  kind: front
+  locus: sigla-de-agone-christiano
+- lines:
+  - 8623
+  - 8653
+  kind: front
+  locus: sigla-de-continentia
+- lines:
+  - 10697
+  - 10740
+  kind: front
+  locus: sigla-de-bono-coniugali
+- lines:
+  - 12845
+  - 12893
+  kind: front
+  locus: sigla-de-sancta-uirginitate
+- lines:
+  - 16201
+  - 16240
+  kind: front
+  locus: sigla-de-bono-uiduitatis
+- lines:
+  - 18064
+  - 18100
+  kind: front
+  locus: sigla-de-adulterinis-coniugiis-1
+- lines:
+  - 21067
+  - 21102
+  kind: front
+  locus: sigla-de-mendacio
+- lines:
+  - 23575
+  - 23619
+  kind: front
+  locus: sigla-contra-mendacium
+- lines:
+  - 26458
+  - 26502
+  kind: front
+  locus: sigla-de-opere-monachorum
+- lines:
+  - 29595
+  - 29628
+  kind: front
+  locus: sigla-de-diuinatione-daemonum
+- lines:
+  - 30568
+  - 30608
+  kind: front
+  locus: sigla-de-cura-pro-mortuis-gerenda
+- lines:
+  - 32522
+  - 32561
+  kind: front
+  locus: sigla-de-patientia
 - lines:
   - 1
   - 2304
