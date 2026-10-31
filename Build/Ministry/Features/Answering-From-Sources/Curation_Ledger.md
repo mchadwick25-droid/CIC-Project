@@ -430,3 +430,30 @@ Mark's own answer on pacing, relayed by coordination 2026-10-31 (weekly usage ab
 - Curated divisions: the records cite 26 files. 10 are curated (13,144 of the 39,257 passages in those 26 files, 33%). 15 are uncurated and on the shelf: the seven ThML volumes anf05 and npnf101 to npnf108 (the markup's own divisions, file-level fallback by ruling), five Cyprian Hartel and Pontius files, and Prosper. anf04 is cited by a record but is not on lpc's shelf, so it has no passages in this index.
 - The 12 uncurated clean-but-wrong files still point at the segmenter's guess: `augustine_opera-minora-catechetica-lat_migne-pl40`, both Audollent scans, `duchesne_histoire-ancienne-de-leglise-tome2`, `augustine_oeuvres-completes-tome15-donatistes-slice-fra_raulx1870`, Mansi tomes 2, 3 and 4, `augustine_sermones-guelferbytani-lat_morin1917`, `augustine_bekenntnisse-deu_hefele-diederichs1921`, the Bardenhewer Band 4 slice and the Hefele-Leclercq tome 2 slice. No lpc record cites any of them, so the cited-passage figure above does not touch them; they still sit in the index as retrievable passages with guessed addresses.
 - Method note: the passage files were made from the 112 lpc files only, so the OCR vocabulary behind `ocr_score` is built from those files, not from the union of all twelve shelves. OCR scores can differ slightly from a union build.
+
+## Free retrieval trials on lpc, 2026-10-31
+
+Mark's direction (2026-10-31, coordination relay and his own words in session): look for scholarly acceptance and, where cheap, something a visitor would appreciate; no endless fine-tuning. Stop at the first clearly useful gain or after two trials in a row with no gain. No model call, no metered spend, zero reader items. Local embedder: multilingual-e5-small (ONNX, CPU), first 256 tokens of each passage; all 102,415 lpc passages embedded in 78 minutes. The model, vectors and scratch index were removed afterwards.
+
+Passage search, same bench as S1-05 (visitor wording alone, with the sub-question label, best wording per pair, record routing from the record's own `retrieve_when` text; top 20):
+
+| Trial | wording | with label | best wording per pair | record routing |
+|---|---:|---:|---:|---:|
+| Keyword search (S1-05, rebuilt on merged `main`) | 2% | 4% | 8% | 39% |
+| T1 embedding only | 1% | 1% | 3% | 10% |
+| T2 keyword plus embedding, reciprocal-rank fusion | 2% | 3% | 8% | 41% |
+| T3 trimmed query | identical to keyword search (the bench already drops function words) | | | |
+
+Pairs the keyword search misses within 20 (109 of 119): 76 outranked, 32 vocabulary mismatch, 1 OCR. Embedding and fusion reach 3 to 4 of the 76 outranked and 0 to 1 of the 32 vocabulary-mismatch pairs. Neither fixes them. T1 and T2 show no useful gain, so the passage-search trials stop here; the in-plan contextual-lines trial (T4) was not started.
+
+What does work is routing the visitor's question to a record first, then reading the passages that record already cites. One further free measure, 121 records with `retrieve_when` text, the right record counted if it is any record listed for the question's sub-question (chance is about 9% in the top 5):
+
+| Method | question alone, top 5 | top 10 | question plus sub-question label, top 5 | top 10 |
+|---|---:|---:|---:|---:|
+| Keyword on `retrieve_when` | 32% | 46% | 52% | 64% |
+| Embedding | 37% | 48% | 48% | 61% |
+| Fusion | 42% | 55% | 59% | 71% |
+
+Best wording per sub-question reaches the right record in the top 5 for 72% (fusion, question alone) and 69% (with label). The label is a topic gloss the system holds; using it at run time needs the question first sorted into a sub-question. Caveat: this measure is by sub-question, not by single question, and the two bench units differ (the passage bench uses 47 records with grounded citations).
+
+Reading: a visitor's own words almost never reach the right passage in a 102,415-passage index, by keyword or by embedding. They reach a fitting record about four times in ten at the top 5 and more than half the time at the top 10 when matched against what each record says it is for, and better once the question is placed under a sub-question. The cheapest change that gets most of the way is a routing layer over records, not passage search.
