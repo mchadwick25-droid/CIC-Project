@@ -1009,13 +1009,17 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
 
 
 def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:
-    """A sentence of a story record's telling that code placed: it stands
-    in the telling word for word, tagged with that record. The telling's
+    """A sentence of one of a story record's tellings (the full telling, or a
+    shorter reviewed one) that code placed: it stands in that telling word for
+    word, tagged with that record. The telling's
     speech is the record's own rendering, so no quotation check applies."""
     record = records.get(record_id) or {}
     holds = (
         record.get("record_type") == "story" and record_id in tags and bool(text.strip())
-        and placed_key(text) in placed_key(record.get("telling") or "")
+        and any(
+            placed_key(text) in placed_key(record.get(field) or "")
+            for field in ("telling", "telling_short", "telling_medium")
+        )
     )
     if not holds:
         return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_STORY_MISMATCH}
