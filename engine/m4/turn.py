@@ -377,6 +377,7 @@ def apply_net(
             **shaped,
             "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
             "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
+            "story_lengths": stories["placed_lengths"],
         }
         removed = [*stories["removed"], *shaped["removed"]]
     tagged = shaped["text"]
@@ -420,6 +421,8 @@ def apply_net(
         "removed": removed,
         "repaired": shaped.get("repaired", []),
     }
+    if story_lengths := {rid: length for rid, length in shaped.get("story_lengths", {}).items() if rid in net_result["reply_shape"]["placed"]}:
+        net_result["reply_shape"]["story_lengths"] = story_lengths
     text = grounding_net.shown_text(tagged, net_result["sentences"])
     citations = [
         {"sentence": s["sentence"], "record_ids": s["tags"]}
