@@ -14,7 +14,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
 from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
-from engine.m4 import fit_step
+from engine.m4 import bound_draft, fit_step
 from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
@@ -382,6 +382,7 @@ def _build_turn_directive(
     quote_offers: list[dict] | None = None,
     has_ground: bool = True,
     story_offers: list[dict] | None = None,
+    bound_connectives: list[str] | None = None,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -439,6 +440,8 @@ def _build_turn_directive(
             parts.append(kind_line)
         parts += _quote_lines(quote_offers or [], due=quote_asked or rhythm is None or rhythm.quote_due)
         parts += story_lines(story_offers or [])
+        if bound_connectives is not None:
+            parts += bound_draft.directive_lines(bound_connectives)
         if not has_ground:
             parts.append(NO_GROUND_LINE)
         if rhythm is not None and rhythm.figure_gate_closed:
@@ -642,6 +645,7 @@ def prepare_voice_turn_inputs(
         quote_offers=_placeable_quotes(turn_evidence),
         has_ground=bool(turn_evidence["candidates"]),
         story_offers=story_offers,
+        bound_connectives=list(world.frame.get("bound_connectives") or []) if world.frame.get("bound_drafting") else None,
     )
     if correction:
         turn_directive = (turn_directive or "") + correction

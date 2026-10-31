@@ -81,7 +81,7 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # transcript for transparency markup: one turn's raw text ended inside an
 # unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
 # left untouched, verbatim, brackets and all.
-_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
+_DANGLING_TAG = re.compile(r"\[\[(?:\s*(?:quote|story|as)\s*:\s*)?[a-z0-9_.-]*\Z", re.IGNORECASE)
 
 
 def _drop_truncated_tail(text: str) -> tuple[str, bool]:
@@ -117,7 +117,10 @@ QUOTE_MARKER = re.compile(r"\[\[\s*quote\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORE
 # A story marker, [[story:<record id>]]: where the voice asks for a story
 # record's telling to be placed (engine.m4.story_placement).
 STORY_MARKER = re.compile(r"\[\[\s*story\s*(?::[^\]\[]*)?(?:\]\]|\Z)", re.IGNORECASE)
-_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern}))")
+# A label marker, [[as:paraphrase]] or [[as:inference]]: how the voice says a
+# sentence stands to the records it is tagged to (engine.m4.bound_draft).
+LABEL_MARKER = re.compile(r"\[\[\s*as\s*:\s*(paraphrase|inference)\s*\]\]", re.IGNORECASE)
+_DISPLAY_TAG = re.compile(rf"\s*(?:\[\[[a-z0-9_.-]+\]\]|(?i:{QUOTE_MARKER.pattern})|(?i:{STORY_MARKER.pattern})|(?i:{LABEL_MARKER.pattern}))")
 
 
 def strip_tags(text: str) -> str:
