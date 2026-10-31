@@ -35,7 +35,7 @@ READER_COLUMNS = [
 MEASURED_COLUMNS = [
     "id", "group", "cluster", "route", "words", "fk", "fre", "sentences_shipped", "cuts", "cut_reasons",
     "orphan_flags", "quotes_placed", "leadins_repaired", "stories_placed", "answer_records_placed", "citations",
-    "fit_judge", "fit_drops",
+    "fit_judge", "fit_drops", "voice_set_aside",
 ]
 
 
@@ -65,13 +65,14 @@ def measure(question: dict, answer: dict, orphans, fit_rows: list[dict] | None =
         "citations": len(answer.get("citations", [])),
         "fit_judge": "; ".join(f"{r['record_id']}: {(r['judgement'] or {}).get('fit', 'unreadable')}" for r in fit_rows or []),
         "fit_drops": sum(r["decision"] == "drop" for r in fit_rows or []),
+        "voice_set_aside": bool(answer.get("voice_set_aside")),
     }
 
 
 def _totals(rows: list[dict]) -> dict:
     graded = [r for r in rows if r["fk"] is not None]
     return {
-        "answers": len(rows), "cuts": sum(r["cuts"] for r in rows), "orphan_flags": sum(r["orphan_flags"] for r in rows),
+        "answers": len(rows), "voice_set_aside": sum(r["voice_set_aside"] for r in rows), "cuts": sum(r["cuts"] for r in rows), "orphan_flags": sum(r["orphan_flags"] for r in rows),
         "quotes_placed": sum(r["quotes_placed"] for r in rows),
         "answers_with_a_quote_placed": sum(1 for r in rows if r["quotes_placed"]),
         "leadins_repaired": sum(r["leadins_repaired"] for r in rows),
