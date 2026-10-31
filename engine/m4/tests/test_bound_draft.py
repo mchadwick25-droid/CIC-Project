@@ -93,3 +93,10 @@ def test_the_directive_lists_the_reviewed_connectives():
     lines = " ".join(bd.directive_lines(["Here is what we can say."]))
     assert '"Here is what we can say."' in lines and "[[as:paraphrase]]" in lines
     assert "none" in " ".join(bd.directive_lines([]))
+
+
+def test_the_lead_in_of_a_placed_passage_needs_no_label():
+    lead_in = _entry("Pontius tells how Cyprian was chosen:", ["w.witness.a"], draft="Pontius tells how Cyprian was chosen: [[story:w.witness.a:short]]")
+    assert bd.decide(lead_in, None, RECORDS, CONNECTIVES)[0] == "keep"
+    plain = _entry("Pontius tells how Cyprian was chosen.", ["w.witness.a"], draft="Pontius tells how Cyprian was chosen [[w.witness.a]].")
+    assert bd.decide(plain, None, RECORDS, CONNECTIVES)[0] == "withhold_unlabelled"
