@@ -1,41 +1,62 @@
 file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
-scheme: 'Gebhardt 1902 (second scan): the 22 numbered pieces (I to XXII, a roman numeral above each piece title, read from the running heads where the scan garbles the numeral above the title); inside piece 7 (Perpetua) the Latin chapter numbers I to XXI the edition prints; piece 8 (Pionius) is split once at a printed running head, addressed by line'
+scheme: 'Gebhardt 1902 (second scan): the 22 numbered pieces (I to XXII, a roman numeral above each piece title, read from the running heads of its pages where the scan garbles or loses the numeral; piece XVIII is read from the printed XVIH., and piece XX prints no numeral line); inside piece VII (Perpetua) the chapter numbers the edition prints at the head of the Latin text (lat-ch) and of the Greek text (grc-ch), a damaged numeral being read from the running head of its page; inside piece VIII (Pionius) the printed chapter numbers I to XXIII; other pieces are addressed by piece alone'
 curator: Sonnet 5.5
-status: needs-redo
+status: drafted
 rules:
-  - id: perpetua
-    pattern: '^(?:\d{1,2} )?(?P<c>[IVXl]+)\. (?=[A-Z][a-z])'
+  - id: perpetua-latin
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVXl]+)[.,]? '
     lines: [[3492, 3492], [3627, 3627], [3637, 3637], [3744, 3744], [3888, 3888], [3942, 3942], [4030, 4030], [4123, 4123], [4175, 4175], [4220, 4220], [4380, 4380], [4477, 4477], [4533, 4533], [4583, 4583], [4631, 4631], [4683, 4683], [4733, 4733], [4773, 4773], [4864, 4864], [4917, 4917], [5028, 5028]]
-    locus: 'piece7/ch{c|int}'
+    locus: 'piece7/lat-ch{c|int}'
     ocr_map: {'l': 'I'}
     number: c
     fixes:
-      - line: 4477
-        set: {c: 'XII'}
+      - {line: 4477, set: {c: 'XII'}, quote: 'XI. Et uenimus prope locum'}
+  - id: perpetua-greek
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVXl]+)[.,]? '
+    lines: [[3511, 3511], [3644, 3644], [3658, 3658], [3766, 3766], [3912, 3912], [3961, 3961], [4048, 4048], [4143, 4143], [4191, 4191], [4239, 4239], [4398, 4398], [4493, 4493], [4551, 4551], [4602, 4602], [4653, 4653], [4701, 4701], [4751, 4751], [4792, 4792], [4881, 4881], [4937, 4937], [5046, 5046]]
+    locus: 'piece7/grc-ch{c|int}'
+    ocr_map: {'l': 'I'}
+    number: c
+    fixes:
+      - {line: 4143, set: {c: 'VIII'}, quote: '3 VII Kai'}
+      - {line: 4493, set: {c: 'XII'}, quote: 'XI. Kai n7AJousv'}
+      - {line: 4751, set: {c: 'XVII'}, quote: 'XVI. He zei'}
+      - {line: 4792, set: {c: 'XVIII'}, quote: 'XVII. ’Enelowwvev'}
+  - id: pionius
+    pattern: '^(?:\d{1,2} )?(?P<c>[IVXL]+)[.,]? '
+    lines: [[5210, 5210], [5221, 5221], [5246, 5246], [5267, 5267], [5420, 5420], [5449, 5449], [5473, 5473], [5510, 5510], [5536, 5536], [5582, 5582], [5604, 5604], [5633, 5633], [5704, 5704], [5746, 5746], [5836, 5836], [5861, 5861], [5903, 5903], [5914, 5914], [5968, 5968], [6017, 6017], [6043, 6043], [6094, 6094], [6111, 6111]]
+    locus: 'piece8/ch{c|int}'
+    number: c
+    fixes:
+      - {line: 5221, set: {c: 'II'}, quote: 'I. Mnvos'}
+      - {line: 5633, set: {c: 'XII'}, quote: 'XI. Oyuws'}
+      - {line: 5704, set: {c: 'XIII'}, quote: 'XII. 4Hxovw'}
+      - {line: 5914, set: {c: 'XVIII'}, quote: 'XVII. Eis de'}
+      - {line: 6094, set: {c: 'XXII'}, quote: 'XXI. Towödrov'}
+      - {line: 6111, set: {c: 'XXIII'}, quote: 'XXIU. Tevre'}
 divisions:
-  - {start_line: 580, locus: 'piece1'}
-  - {start_line: 1169, locus: 'piece2'}
-  - {start_line: 1372, locus: 'piece3'}
-  - {start_line: 1559, locus: 'piece4'}
-  - {start_line: 1834, locus: 'piece5'}
-  - {start_line: 2653, locus: 'piece6'}
-  - {start_line: 3486, locus: 'piece7'}
-  - {start_line: 5206, locus: 'piece8'}
-  - {start_line: 6128, locus: 'piece9'}
-  - {start_line: 6368, locus: 'piece10'}
-  - {start_line: 6471, locus: 'piece11'}
-  - {start_line: 6666, locus: 'piece12'}
-  - {start_line: 6917, locus: 'piece13'}
-  - {start_line: 7492, locus: 'piece14'}
-  - {start_line: 8220, locus: 'piece15'}
-  - {start_line: 8386, locus: 'piece16'}
-  - {start_line: 8596, locus: 'piece17'}
-  - {start_line: 9098, locus: 'piece18'}
-  - {start_line: 9212, locus: 'piece19'}
-  - {start_line: 9368, locus: 'piece20'}
-  - {start_line: 10179, locus: 'piece21'}
-  - {start_line: 10609, locus: 'piece22'}
-  - {start_line: 5619, locus: 'piece8/l5619', title: 'VIII. Martyrium S. Pionii XII. 105'}
+  - {start_line: 580, locus: 'piece1', number: 'I'}
+  - {start_line: 1169, locus: 'piece2', number: 'II'}
+  - {start_line: 1369, locus: 'piece3', number: 'III'}
+  - {start_line: 1559, locus: 'piece4', number: 'IV'}
+  - {start_line: 1834, locus: 'piece5', number: 'V'}
+  - {start_line: 2652, locus: 'piece6', number: 'VI'}
+  - {start_line: 3486, locus: 'piece7', number: 'VII'}
+  - {start_line: 5203, locus: 'piece8', number: 'VIII'}
+  - {start_line: 6128, locus: 'piece9', number: 'IX'}
+  - {start_line: 6367, locus: 'piece10', number: 'X'}
+  - {start_line: 6471, locus: 'piece11', number: 'XI'}
+  - {start_line: 6666, locus: 'piece12', number: 'XII'}
+  - {start_line: 6917, locus: 'piece13', number: 'XIII'}
+  - {start_line: 7489, locus: 'piece14', number: 'XIV'}
+  - {start_line: 8220, locus: 'piece15', number: 'XV'}
+  - {start_line: 8386, locus: 'piece16', number: 'XVI'}
+  - {start_line: 8596, locus: 'piece17', number: 'XVII'}
+  - {start_line: 9098, locus: 'piece18', number: 'XVIII'}
+  - {start_line: 9212, locus: 'piece19', number: 'XIX'}
+  - {start_line: 9368, locus: 'piece20', number: 'XX'}
+  - {start_line: 10179, locus: 'piece21', number: 'XXI'}
+  - {start_line: 10609, locus: 'piece22', number: 'XXII'}
 apparatus:
   - lines: [11, 579]
     kind: front
@@ -48,61 +69,133 @@ evidence:
     quote: 'T:'
   - line: 638
     quote: 'I. Martyrium S. Polycarpi'
-  - line: 1204
-    quote: 'II. Martyrium SS. Carpi'
+  - line: 1169
+    quote: 'II.'
+  - line: 1369
+    quote: 'Ik'
   - line: 1405
-    quote: 'III. Martyrium'
-  - line: 1602
-    quote: 'IV. Passio'
+    quote: 'III. Martyrium SS, Iustini'
+  - line: 1559
+    quote: 'IV.'
   - line: 1834
     quote: 'NV.'
   - line: 1870
     quote: 'V. Epist. ecel. Vienn.'
+  - line: 2652
+    quote: 'vl.'
   - line: 2686
     quote: 'VI. Martyrium S. Apollonii'
   - line: 3486
     quote: 'VI.'
   - line: 3492
     quote: 'I. Si uetera fidei exempla'
+  - line: 3511
+    quote: 'I. Ei va nelaıe'
   - line: 3528
     quote: 'VII. Passio S. Perpetuae I.'
+  - line: 3644
+    quote: 'Il. Ev noAsı'
+  - line: 3658
+    quote: 'Ill. "Erı'
+  - line: 4048
+    quote: '25 VII. Kai'
+  - line: 4123
+    quote: 'VIII. Die quo in neruo'
+  - line: 4143
+    quote: '3 VII Kai'
+  - line: 4474
+    quote: 'VII. Passio S. Perpetuae XII. 81'
   - line: 4477
     quote: 'XI. Et uenimus prope locum'
+  - line: 4493
+    quote: 'XI. Kai n7AJousv'
+  - line: 4720
+    quote: 'VII. Passio S. Perpetuae XVII.'
+  - line: 4751
+    quote: 'XVI. He zei'
+  - line: 4761
+    quote: 'VII. Passio S. Perpetuae XVIII. 87'
+  - line: 4792
+    quote: 'XVII. ’Enelowwvev'
   - line: 4917
     quote: 'XX. Puellis autem'
+  - line: 5028
+    quote: 'XXI. Item Saturus'
+  - line: 5046
+    quote: 'XXI Kai'
+  - line: 5203
+    quote: 'vl.'
+  - line: 5210
+    quote: 'I. Teis wveioıs'
+  - line: 5221
+    quote: 'I. Mnvos'
   - line: 5236
-    quote: 'VIII. Martyrium'
+    quote: 'VIII. Martyrium $. Pionii III. IV. 97'
+  - line: 5246
+    quote: 'III. MNooosvsausvav'
+  - line: 5619
+    quote: 'VIII. Martyrium 8. Pionii XII. 105'
+  - line: 5633
+    quote: 'XI. Oyuws'
+  - line: 5704
+    quote: 'XII. 4Hxovw'
+  - line: 5723
+    quote: 'VIII. Martyrium $. Pionii XIV. 107'
+  - line: 5861
+    quote: 'XVI Bowvre'
+  - line: 5883
+    quote: 'VIII. Martyrium $. Pionii XVII. XVMI.'
+  - line: 5903
+    quote: '15 XVII Kai'
+  - line: 5914
+    quote: 'XVII. Eis de'
+  - line: 6043
+    quote: 'XXI Ansl90vrvos'
+  - line: 6088
+    quote: 'Martyrium 8. Pionii XXII. XXIM.'
+  - line: 6094
+    quote: 'XXI. Towödrov'
+  - line: 6111
+    quote: 'XXIU. Tevre'
   - line: 6128
     quote: 'IX.'
-  - line: 6449
-    quote: 'X. Acta'
+  - line: 6367
+    quote: 'BR'
+  - line: 6405
+    quote: 'X, Acta 8. Maximi I.'
   - line: 6471
     quote: 'XI.'
   - line: 6666
     quote: 'X11'
   - line: 6709
-    quote: 'XII. Martyrium S. Cononis'
+    quote: 'XII. Martyrium S. Cononis III. IV.'
   - line: 6917
     quote: 'XII.'
   - line: 6955
     quote: 'XIII. Passio SS. Mariani'
+  - line: 7489
+    quote: 'DER'
   - line: 7529
     quote: 'XIV. Passio'
   - line: 8220
     quote: 'XV.'
   - line: 8386
     quote: 'XVL'
+  - line: 8428
+    quote: 'XVI. Testamentum SS. XL'
   - line: 8596
     quote: 'XVII.'
   - line: 9098
     quote: 'XVIH.'
   - line: 9212
     quote: 'XIX.'
+  - line: 9368
+    quote: 'Gesta apud Zenophilum.'
   - line: 9402
-    quote: 'XX. Gesta'
+    quote: 'XX. Gesta apud Zenophilum II.'
   - line: 10179
     quote: 'XXL'
   - line: 10609
     quote: 'XXI.'
   - line: 10753
-    quote: 'XXII. Acta Pauli'
+    quote: 'XXII. Acta Pauli et Theclae 9'
