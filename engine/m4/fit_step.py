@@ -1,13 +1,16 @@
 """The fit step: a quote or story placed in an answer must answer the question
 asked, in its own source context, and not only share its words.
 
-Two parts, both shadow only. Nothing in the live turn calls either.
+Two parts, both shadow only. The judge is called by no live path. Context
+blocks are attached to the evidence only when a frame sets `context_blocks`,
+which no registered frame does.
 
 Context blocks. For a quote or story record, the source text around the places
 its `sources[].locus` cites (a `cic/texts/<file>, line N` locus), so the voice
 can see what the passage was saying. A block is marked as context, and the cited
-lines are always inside it. Its id (`ctx.<record id>.<n>`) cannot be a binding: a
-sentence tagged to one is withheld (grounding_net) before any other check.
+lines are always inside it, whole. Its id (`ctx.<record id>.<n>`) is not a record
+id, so a sentence tagged to one is treated by the net as tagged to an unknown
+record.
 
 The fit judge. `fit_request` builds the question, the record's own statement of
 what it means and must not be used for, the passage and its context;
@@ -48,16 +51,17 @@ def _words(lines: list[str], number: int) -> list[str]:
 
 
 def _window(path: Path, first: int, last: int) -> str:
-    """The cited lines, then lines either side of them, alternating, until the
-    radius or the word ceiling is reached. The cited lines are always inside."""
+    """The cited lines in full, then lines either side of them, alternating, until
+    the radius or the word ceiling is reached. The ceiling limits only the text
+    added around the cited lines, never the cited lines themselves."""
     lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
     if first > len(lines):
         return ""
     last = min(last, len(lines))
-    cited = [w for n in range(first, last + 1) for w in _words(lines, n)][:CONTEXT_MAX_WORDS]
+    cited = [w for n in range(first, last + 1) for w in _words(lines, n)]
     before: list[str] = []
     after: list[str] = []
-    budget = CONTEXT_MAX_WORDS - len(cited)
+    budget = max(CONTEXT_MAX_WORDS - len(cited), 0)
     lower, upper = first - 1, last + 1
     floor, ceiling = max(first - CONTEXT_RADIUS_LINES, 1), min(last + CONTEXT_RADIUS_LINES, len(lines))
     while budget > 0 and (lower >= floor or upper <= ceiling):

@@ -5,7 +5,6 @@ import pytest
 from engine.m1.loader import load_world_records
 from engine.m4 import fit_step
 from engine.m4.evidence import render_evidence_block
-from engine.m4.grounding_net import REASON_CONTEXT_BINDING
 from engine.m4.quote_placement import PlacementContext
 from engine.m4.turn import apply_net
 
@@ -54,12 +53,28 @@ def test_the_evidence_block_marks_context_as_supporting_nothing(texts):
     assert context and "supports no sentence" in context[0] and "line 100 of the sermon" in context[0]
 
 
-def test_a_sentence_tagged_to_a_context_block_is_withheld_whatever_it_says():
-    records = load_world_records("desert")
-    draft = "Abba Moses was once a robber in the desert [[ctx.desert.quote.one.1]]."
-    _t, _c, net = apply_net(draft, repository_records=records, thin_topics=None, placement=PlacementContext())
-    flagged = [s for s in net["sentences"] if "ctx.desert.quote.one.1" in s["tags"]]
-    assert flagged and all(s["verdict"] == "withhold" and s["why"] == REASON_CONTEXT_BINDING for s in flagged)
+_TYPED = 'Pontius wrote, "the huge destruction of a hateful disease invaded the houses of the trembling people" [[{tag}]]. The church helped.'
+
+
+def _shown(tag):
+    shown, citations, net = apply_net(
+        _TYPED.format(tag=tag), repository_records=load_world_records("lpc"), thin_topics=None, placement=PlacementContext())
+    return shown, citations, net["reply_shape"]
+
+
+def test_a_context_tag_is_treated_as_an_unknown_record_and_cannot_carry_a_typed_quotation():
+    ctx_shown, ctx_citations, ctx_shape = _shown("ctx.lpc.quote.a-dreadful-plague-broke-out.1")
+    unknown_shown, unknown_citations, unknown_shape = _shown("not.a.record")
+    assert "huge destruction" not in ctx_shown
+    assert (ctx_shown, ctx_citations) == (unknown_shown, unknown_citations)
+    assert [(r["sentence"], r["why"]) for r in ctx_shape["removed"]] == [(r["sentence"], r["why"]) for r in unknown_shape["removed"]]
+    assert ctx_shape["removed"]
+
+
+def test_no_record_in_any_world_has_an_id_the_context_prefix_could_collide_with():
+    from engine.m1.loader import load_fleet_records
+
+    assert not [rid for rid in load_fleet_records() if rid.startswith(fit_step.CONTEXT_PREFIX)]
 
 
 def test_the_fit_request_carries_question_guards_passage_and_context(texts):
@@ -107,7 +122,7 @@ def test_an_unreadable_reply_keeps_the_placement():
     assert fit_step.decide(None) == "keep"
 
 
-def test_a_sentence_tagged_to_context_on_a_placed_quotes_lead_in_is_withheld_too():
+def test_a_context_tag_on_a_placed_quotes_lead_in_is_never_cited():
     records = load_world_records("lpc")
     quote = "lpc.quote.a-dreadful-plague-broke-out"
     draft = f"Pontius said it this way [[ctx.{quote}.1]] [[quote:{quote}]]."
@@ -142,3 +157,13 @@ def test_a_locus_cannot_climb_out_of_the_texts_directory(tmp_path):
     (tmp_path / "secret.txt").write_text("not for the prompt", encoding="utf-8")
     record = {"id": "t.q.d", "sources": [{"locus": "cic/texts/../../secret.txt, line 1"}]}
     assert fit_step.context_blocks(record, tmp_path) == []
+
+
+def test_a_cited_span_longer_than_the_ceiling_is_kept_whole_and_nothing_is_added_around_it(tmp_path):
+    (tmp_path / "cic" / "texts").mkdir(parents=True)
+    body = [" ".join(f"w{n}x{k}" for k in range(60)) for n in range(1, 101)]
+    (tmp_path / "cic" / "texts" / "long.txt").write_text("\n".join(body), encoding="utf-8")
+    record = {"id": "t.quote.long", "sources": [{"source_id": "s", "locus": "cic/texts/long.txt, lines 40-50"}]}
+    [block] = fit_step.context_blocks(record, tmp_path)
+    assert block["text"] == " ".join(w for n in range(40, 51) for w in body[n - 1].split())
+    assert len(block["text"].split()) > fit_step.CONTEXT_MAX_WORDS
