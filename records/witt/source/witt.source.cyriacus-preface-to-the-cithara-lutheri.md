@@ -19,6 +19,7 @@ work: preface to the Cithara Lutheri
 edition: (1545) — as quoted in Bacon's Introduction; vendored as cic/texts/luther_hymns_bacon-allen.txt
 citation: Cyriacus Spangenberg, preface to the Cithara Lutheri (1545)
 kind: vendored
+shelf_row: luther_hymns_bacon-allen--dr-martin-luther-s-deutsche-geistliche-lieder-the-hymns-of
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 47; hymns file; 2026-09-15

@@ -20,6 +20,7 @@ edition: '(1525), trans. Henry Cole (London: Bensley for Simpkin & Marshall, 182
   vendored as cic/texts/luther_bondage-of-the-will_cole1823.txt'
 citation: 'Luther, On the Bondage of the Will (1525), trans. Henry Cole (London: Bensley for Simpkin & Marshall, 1823)'
 kind: vendored
+shelf_row: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 34; Cole file; 2026-09-15

@@ -18,6 +18,7 @@ work: "The Epistle of Barnabas, chapters 18-20 ONLY (the Two Ways section) - reg
 edition: "Ante-Nicene Fathers vol. 1 (1885), vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 vi, div2 vi.ii)"
 citation: The Epistle of Barnabas, chapters 18-20, Ante-Nicene Fathers vol. 1 (1885)
 kind: vendored
+shelf_row: anf01_apostolic-fathers-justin-irenaeus--the-epistle-of-barnabas
 rights_status: public-domain
 attribution_status: anonymous-traditional
 discovery_channel: "registered at this build's step 2 so Force 1B-2's Two-Ways-parallel claim (Doc_08, from Doc_03 SS2.7) traces to a vendored witness rather than an unregistered citation; work presence verified at div2 vi.ii"

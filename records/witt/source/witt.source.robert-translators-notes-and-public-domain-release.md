@@ -19,6 +19,7 @@ work: translator's notes and public-domain release, Project Wittenberg
 edition: (1994/2002/2004), in R26; vendored as cic/texts/luther_small-catechism_smith1994.txt
 citation: Robert E. Smith, translator's notes and public-domain release, Project Wittenberg (1994/2002/2004)
 kind: vendored
+shelf_row: luther_small-catechism_smith1994--the-small-catechism-of-martin-luther
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 65; SC file; 2026-09-15

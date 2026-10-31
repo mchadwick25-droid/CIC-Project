@@ -22,6 +22,7 @@ work: "The Passion of St. Symphorosa and Her Seven Sons - a Roman martyr act set
 edition: "Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml (div2 5.6)"
 citation: The Passion of St. Symphorosa and Her Seven Sons, Ante-Nicene Fathers vol. 6 (1886)
 kind: vendored
+shelf_row: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-passion-of-st-symphorosa-and-her-seven-sons
 rights_status: public-domain
 attribution_status: "disputed - the attribution to Africanus is the point still under ruling"
 discovery_channel: "assigned to this world by the cross-world corpus assignment and flagged `needs-ruling` there; recorded here 2026-08-27 so the text is registered without the flag being pre-empted"

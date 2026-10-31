@@ -21,6 +21,7 @@ edition: trans. J.B. Morris (hymns 1-13, Oxford Library of the Fathers 1847, fro
   (div iii.v)
 citation: Ephrem the Syrian, Nineteen Hymns on the Nativity of Christ in the Flesh, trans. J. B. Morris and A. Edward Johnston, ed. John Gwynn, Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898)
 kind: vendored
+shelf_row: npnf213_gregory-great-ephraim-syrus-aphrahat--nineteen-hymns-on-the-nativity-of-christ-in-the-flesh
 rights_status: public-domain
 attribution_status: attributed (cycle substantially genuine; individual hymns assessed by Beck's tests)
 discovery_channel: 'named in the approved legacy Doc_02 Source Ecology (SS2, reviewed twice, approved

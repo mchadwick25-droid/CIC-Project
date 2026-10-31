@@ -20,6 +20,7 @@ edition: trans. A. Edward Johnston from Lamy's text (Tom. I, 1889), revised and 
   (div iii.viii)
 citation: 'Ephrem the Syrian, Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman, trans. A. Edward Johnston, ed. John Gwynn, Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898)'
 kind: vendored
+shelf_row: npnf213_gregory-great-ephraim-syrus-aphrahat--three-homilies-on-our-lord-on-admonition-and-repentance-on
 rights_status: public-domain
 attribution_status: attributed per the edition; the wider Ephremic homily corpus contains later pseudonymous
   material (Ephraem Graecus etc.), so authenticity is assessed case by case - On Our Lord is the strongest
