@@ -272,7 +272,7 @@ NO_QUOTE_LINE = (
     "in quotation marks or after 'said', 'wrote' or a colon; say what they did or taught in your own words."
 )
 QUOTE_OFFERS_LINE = "Quotes you may place this turn, and no others: {offers}."
-QUOTE_DUE_LINE = "Place one of them in full."
+QUOTE_DUE_LINE = "If one of them answers the ask, place it in full. If none does, place none."
 QUOTE_OPTIONAL_LINE = "Place one only where it answers the ask; no quote is needed."
 QUOTE_SPEAKER_LINE = (
     "A marker ends a sentence that names the quote's speaker by the name listed with it, exactly as listed, "
