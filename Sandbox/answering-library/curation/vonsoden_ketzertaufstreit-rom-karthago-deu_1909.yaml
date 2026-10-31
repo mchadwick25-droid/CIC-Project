@@ -1,7 +1,7 @@
 file: vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt
 scheme: 'von Soden''s part I in five sections, printed as arabic numerals 1 to 5 with a full stop at the head of each section''s first paragraph; the sections carry no printed titles (the one printed heading, "Der Verlauf des Streites und die Chronologie seiner Dokumente", stands over section 1); von Soden''s unheaded opening paragraphs before that heading (lines 58 to 80) are addressed by line number as l58'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: head
     pattern: '^Der Verlauf des Streites und die Chronologie$'
