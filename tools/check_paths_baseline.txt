@@ -1007,3 +1007,4 @@ Build/Ministry/Operations/Handoffs/2026-10-27_lpc-go-live-readiness.md: packages
 Build/worlds/lpc/Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md: packages/lpc/2026-10-29T11-53-43Z
 Build/worlds/lpc/build/lpc_Probe_Results.md: packages/lpc/2026-10-29T11-53-43Z/compiled/prompt.txt
 Build/worlds/lpc/lpc_Decision_Log.md: packages/lpc/2026-10-29T11-53-43Z
+Build/worlds/lpc/Open_Gaps_Tracking.md: engine/m4/unbound_step.py
