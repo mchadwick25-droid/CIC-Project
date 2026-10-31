@@ -167,3 +167,18 @@ def test_a_cited_span_longer_than_the_ceiling_is_kept_whole_and_nothing_is_added
     [block] = fit_step.context_blocks(record, tmp_path)
     assert block["text"] == " ".join(w for n in range(40, 51) for w in body[n - 1].split())
     assert len(block["text"].split()) > fit_step.CONTEXT_MAX_WORDS
+
+
+
+def test_the_fit_pack_is_the_request_without_the_question_and_the_answer(texts):
+    record = {**RECORD, "modern_rendering": "Love, and do what you will.", "use_note": {"means": "The root decides the deed.", "not_for": ["a warrant for striking a child"]}}
+    blocks = fit_step.context_blocks(record, texts)
+    assert fit_step.fit_pack(record, blocks) in fit_step.fit_request("Q?", record, blocks)["user"]
+
+
+@pytest.mark.parametrize("entry,expected", [
+    ({"fit": "fits", "reason": "ok", "limit_stated": False}, {"fit": "fits", "reason": "ok", "limit_stated": False}),
+    ({"fit": "partly", "reason": "x"}, None), ({"fit": "maybe"}, None), ({}, None), ("text", None),
+])
+def test_an_entry_is_read_or_refused(entry, expected):
+    assert fit_step.judgement_from(entry) == expected
