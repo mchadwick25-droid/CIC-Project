@@ -168,13 +168,19 @@ def split_cells(line: str) -> list[str]:
 
 def parse_registry(lines: list[str]) -> list[Row]:
     rows: list[Row] = []
+    in_registry = False
     for number, line in enumerate(lines, 1):
         if not line.startswith("|"):
             continue
         cells = split_cells(line)
-        if cells[0] in ("#", "---") or set(cells[0]) <= set("-: "):
+        if set(cells[0]) <= set("-: "):
             continue
-        rows.append(Row(number, cells))
+        following = lines[number] if number < len(lines) else ""
+        if following.startswith("|") and set(split_cells(following)[0]) <= set("-: "):
+            in_registry = cells[0] == "#"
+            continue
+        if in_registry:
+            rows.append(Row(number, cells))
     return rows
 
 
