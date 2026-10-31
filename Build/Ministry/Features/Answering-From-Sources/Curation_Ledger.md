@@ -457,3 +457,13 @@ What does work is routing the visitor's question to a record first, then reading
 Best wording per sub-question reaches the right record in the top 5 for 72% (fusion, question alone) and 69% (with label). The label is a topic gloss the system holds; using it at run time needs the question first sorted into a sub-question. Caveat: this measure is by sub-question, not by single question, and the two bench units differ (the passage bench uses 47 records with grounded citations).
 
 Reading: a visitor's own words almost never reach the right passage in a 102,415-passage index, by keyword or by embedding. They reach a fitting record about four times in ten at the top 5 and more than half the time at the top 10 when matched against what each record says it is for, and better once the question is placed under a sub-question. The cheapest change that gets most of the way is a routing layer over records, not passage search.
+
+## Open tooling notes and method notes, 2026-10-31
+
+Open tooling notes (recorded, not built; coordination ruling 2026-10-31: bundle into one small tooling PR with an Opus review before merge, after #1317 or when a file needs it):
+- `cic/engine/corpus_map.py` does not reject a repeated key inside a staging row. A merge of two branches that both added `locus_ids`, `language` or `date` to the same row left two copies in five lpc and latap shared rows; the YAML loader keeps the last copy without warning and the corpus-map check still passed. A repeated-key check belongs in `corpus_map.py` and in the merge's `--check`.
+- Handoff check 2 (`latest_review` in `engine/m10/rounds.py`) reads only the latest numbered review and counts the numbered rounds, so it fails for latap Step 0 although the cap ruling of 2026-10-29 is on file and Step 0 is approved to proceed. The gate should read the ruled review file named in the Hub Decision Log.
+
+Method note, lpc row fields: a ThML container division has no unit of its own, so its `locus_ids` expand to every unit beneath it in document order, including stray ids with no parent prefix (`I_1`, `II_1`, `IV_1`, `LVI`, `div`). A sibling test written as a roman-numeral match also matches the letters d-i-v and ends a range early (it cut the Confessions off after Book IV in the first pass). Editor material (title pages, introductions, contents, elucidations, footnotes, book-head summaries) is left out of ThML rows.
+
+Not curated, with the reason: `codex-theodosianus_latinlibrary`. The curation file passes `check` but is unsampled, and the lpc questions do not need it (coordination ruling 2026-10-31). It stays retrievable on branch `claude/curation-redo-B` (head 20e6acdd) at `Sandbox/answering-library/curation/codex-theodosianus_latinlibrary.yaml`.
