@@ -1,5 +1,5 @@
 file: koch_cyprianische-untersuchungen-deu_1926.txt
-scheme: 'Koch''s twelve chapters I to XII, each opened by a numeral and title on their own lines (the numerals are damaged in the scan and are read from the running head printed on every following page); inside a chapter the edition''s own sections: A. and B., Anhang with its numbers, the numbered paragraphs 1., 2. and so on, and the lettered points a), b); Vorwort, Nachträge, Berichtigungen und Ergänzungen as printed. In chapter V section A the paragraphs 1. and 2. carry letters a) to e); chapter VI Anhang item 5 is read from the Inhaltsverzeichnis, which prints its number'
+scheme: 'Koch''s twelve chapters I to XII, each opened by a numeral and title on their own lines (the numerals are damaged in the scan and are read from the running head printed on every following page). Inside a chapter the divisions made are these printed sections: in chapter I the Cap. 1 to Cap. 15 comments (Cap. 6 is printed twice; the second, at line 1243, is addressed cap6-line1243 outside the numbered series), the Schluss, and Anhang I and II with their numbered items; chapters II to VI with A. and B., the numbered sections of chapters III and IV, and the numbered paragraphs and Anhang items of chapters II, VI, IX, X and XII; chapter IX with its Nachtrag; chapter XII with its numbered sections. Lettered points a) to e) are divided only in chapter V section A, chapter VI Anhang item 4 and chapter X paragraph 6; all other lettered or numbered points inside a chapter stay inside their division. Vorwort, Nachträge and Berichtigungen und Ergänzungen are divided as printed; the Inhaltsverzeichnis, the Register and the printer''s line with the publisher''s catalogue after it are apparatus. Chapter VI Anhang item 5 is read from the Inhaltsverzeichnis, which prints its number'
 curator: Sonnet 5.5
 status: drafted
 divisions:
@@ -15,6 +15,8 @@ divisions:
     parent: ch1
     locus: schluss
   - start_line: 3435
+    locus: ch1/anhang1
+  - start_line: 3467
     locus: ch1/anhang1/1
   - start_line: 3618
     locus: ch1/anhang1/2
@@ -40,8 +42,16 @@ divisions:
     locus: ch2/anhang/2
   - start_line: 7153
     locus: ch3
+  - start_line: 7160
+    locus: ch3/1
+  - start_line: 7340
+    locus: ch3/2
   - start_line: 7470
     locus: ch4
+  - start_line: 7478
+    locus: ch4/1
+  - start_line: 7733
+    locus: ch4/2
   - start_line: 7883
     locus: ch5/A
   - start_line: 7928
@@ -212,6 +222,12 @@ apparatus:
   - lines: [323, 461]
     kind: index
     locus: inhaltsverzeichnis
+  - lines: [23677, 24844]
+    kind: index
+    locus: register
+  - lines: [24845, 25228]
+    kind: notes
+    locus: back-matter
 evidence:
   - line: 118
     quote: 'Vorwort'
