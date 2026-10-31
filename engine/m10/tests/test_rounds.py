@@ -230,6 +230,16 @@ def test_latest_review_is_the_highest_round_or_the_last_unnumbered_file(tmp_path
     assert latest_review(review_files("w", 5, other))[0] == "Doc_05_Independent_Check.md"
 
 
+def test_latest_review_is_the_review_a_cap_ruling_names(tmp_path):
+    names = [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4)] + ["Doc_05_Targeted_Recheck_Ruled.md"]
+    root = _world(tmp_path, names)
+    assert latest_review(review_files("w", 5, root), root)[0] == "round 4"
+    write(root, DECISION_LOG, "## 2026-10-31 - Cap ruling: w Doc_05\n\nOne more recheck, `Doc_05_Targeted_Recheck_Ruled.md`.\n")
+    description, latest = latest_review(review_files("w", 5, root), root)
+    assert description == "ruled review Doc_05_Targeted_Recheck_Ruled.md"
+    assert [p.name for p in latest] == ["Doc_05_Targeted_Recheck_Ruled.md"]
+
+
 def test_the_command_exits_nonzero_with_three_files_and_check_new(tmp_path):
     root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3)])
     run = lambda *extra: subprocess.run([sys.executable, "-m", "engine.m10.cli", "roundcount", "w", "5", "--root", str(root), *extra], capture_output=True, text=True).returncode  # noqa: E731

@@ -393,5 +393,49 @@ results.append(check("`checked` with a confidence level, an unknown date key and
                      and any("must be a mapping" in f for f in _fields(date="c. 300"))))
 
 
+# --- a repeated key is a finding, never a silent last-wins ---
+import tempfile  # noqa: E402
+import yaml  # noqa: E402
+
+_dup = "- work: A\n  language: la\n  language: grc\n"
+
+
+def _raises(text):
+    try:
+        corpus_map.load_unique(text)
+    except yaml.YAMLError as err:
+        return "repeated key 'language'" in str(err)
+    return False
+
+
+results.append(check("load_unique refuses a repeated key and names it", _raises(_dup)))
+results.append(check("load_unique refuses a repeated key in a nested mapping and a flow mapping",
+                     _raises("x:\n  - {language: la, language: grc}\n")
+                     and _raises("x:\n  y:\n    language: la\n    language: grc\n")))
+results.append(check("load_unique keeps ordinary documents, repeated values and merge keys",
+                     corpus_map.load_unique("a: 1\nb: [1, 1]\nc: {a: 1}\nd: {a: 1}\n") == {"a": 1, "b": [1, 1], "c": {"a": 1}, "d": {"a": 1}}
+                     and corpus_map.load_unique("base: &b {x: 1}\nuse:\n  <<: *b\n  y: 2\n")["use"] == {"x": 1, "y": 2}))
+
+_saved = corpus_map_merge.STAGING
+with tempfile.TemporaryDirectory() as _tmp:
+    corpus_map_merge.STAGING = Path(_tmp)
+    (Path(_tmp) / "dup.yaml").write_text("source_file: x.txt\nassignments:\n" + _dup.replace("- work", "  - work").replace("\n  language", "\n    language"), encoding="utf-8")
+    _, _, _found = corpus_map_merge.load_staging()
+    results.append(check("a staging file with a repeated key is a finding in the merge read",
+                         any("dup.yaml" in f and "repeated key" in f for f in _found)))
+    _ids = corpus_map_merge.assign_ids(write=False)
+    results.append(check("a staging file with a repeated key is a finding in the id pass",
+                         any("dup.yaml" in f and "repeated key" in f for f in _ids[2])))
+corpus_map_merge.STAGING = _saved
+
+_saved_dir = corpus_map.MAP_DIR
+with tempfile.TemporaryDirectory() as _tmp:
+    corpus_map.MAP_DIR = Path(_tmp)
+    (Path(_tmp) / "dup-bucket.yaml").write_text("atlas_id: dup-bucket\nworks:\n" + _dup.replace("- work", "  - work").replace("\n  language", "\n    language"), encoding="utf-8")
+    results.append(check("validate reports a bucket with a repeated key as a finding",
+                         any("repeated key" in f for f in corpus_map.validate())))
+corpus_map.MAP_DIR = _saved_dir
+
+
 print("\nall passed" if all(results) else "\nFAILURES")
 sys.exit(0 if all(results) else 1)

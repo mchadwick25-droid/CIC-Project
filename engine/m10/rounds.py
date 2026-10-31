@@ -177,9 +177,15 @@ def counted_review_files(code: str, doc: int, root: Path = REPO_ROOT) -> list[Pa
     return _counted(review_files(code, doc, root), root)
 
 
-def latest_review(files: list[Path]) -> tuple[str, list[Path]]:
-    """(description, files) of the latest review: the files of the highest round
-    number when any name carries one, otherwise the last file by name."""
+def latest_review(files: list[Path], root: Path = REPO_ROOT) -> tuple[str, list[Path]]:
+    """(description, files) of the latest review. A review a "Cap ruling" entry
+    names is the latest: it was ordered after the cap, so it follows every
+    numbered round. With no such file: the files of the highest round number
+    when any name carries one, otherwise the last file by name."""
+    ruled = ruled_names(root)
+    ordered = [p for p in _series_order(files) if p.name in ruled]
+    if ordered:
+        return f"ruled review {ordered[-1].name}", [ordered[-1]]
     numbered = {p: round_number(p) for p in files if round_number(p) is not None}
     if numbered:
         top = max(numbered.values())

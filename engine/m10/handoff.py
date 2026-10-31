@@ -196,7 +196,7 @@ def _check_step(w: World, step: int, docs: dict[int, Path | None], check_id: str
     counted = counted_review_files(w.code, step, w.root)
     if len(counted) > ROUND_CAP:
         out.append(Finding(rel(doc, w.root), check_id, f"{cap_message(label, len(counted))}; route to project lead{unhonoured(reviews, w.root)}"))
-    description, latest = latest_review(reviews)
+    description, latest = latest_review(reviews, w.root)
     if not has_clearance(latest):
         out.append(Finding(rel(latest[0], w.root), check_id, clearance_message(label, description)))
     return out

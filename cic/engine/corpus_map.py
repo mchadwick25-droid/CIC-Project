@@ -167,10 +167,46 @@ NON_BUCKET_FILES = {
 }
 
 
+def unique_key_loader():
+    """A SafeLoader that refuses a mapping which repeats a key. The stock
+    loader keeps the last value and says nothing, so a merge that wrote
+    `language` twice in one row passed every check."""
+    import yaml
+
+    class UniqueKeyLoader(yaml.SafeLoader):
+        def construct_mapping(self, node, deep=False):
+            if isinstance(node, yaml.MappingNode):
+                seen: set = set()
+                for key_node, _ in node.value:
+                    if key_node.tag == "tag:yaml.org,2002:merge":
+                        continue
+                    key = self.construct_object(key_node, deep=True)
+                    try:
+                        repeated = key in seen
+                    except TypeError:
+                        continue
+                    if repeated:
+                        raise yaml.constructor.ConstructorError(
+                            "while constructing a mapping", node.start_mark,
+                            f"repeated key {key!r}", key_node.start_mark)
+                    seen.add(key)
+            return super().construct_mapping(node, deep=deep)
+
+    return UniqueKeyLoader
+
+
+def load_unique(text: str):
+    """yaml.safe_load that raises yaml.YAMLError on a repeated mapping key."""
+    import yaml
+
+    return yaml.load(text, Loader=unique_key_loader())  # noqa: S506 - a SafeLoader subclass
+
+
 def load() -> dict[str, dict]:
     """atlas_id -> the parsed file. Missing directory is not an error - the
-    map does not exist until the assignment thread starts."""
-    import yaml
+    map does not exist until the assignment thread starts. A bucket that is
+    not valid YAML, or repeats a key, raises yaml.YAMLError; validate()
+    reports it as a finding."""
 
     out: dict[str, dict] = {}
     if not MAP_DIR.is_dir():
@@ -178,18 +214,16 @@ def load() -> dict[str, dict]:
     for path in sorted(MAP_DIR.glob("*.yaml")):
         if path.name in NON_BUCKET_FILES:
             continue
-        out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        out[path.stem] = load_unique(path.read_text(encoding="utf-8")) or {}
     return out
 
 
 def pair_parties() -> set[str]:
     """Slugs of the non-census parties PAIRS.yaml rules on."""
-    import yaml
-
     path = MAP_DIR / "PAIRS.yaml"
     if not path.is_file():
         return set()
-    doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    doc = load_unique(path.read_text(encoding="utf-8")) or {}
     parties = doc.get("parties")
     return set(parties) if isinstance(parties, dict) else set()
 
@@ -287,8 +321,7 @@ def validate() -> list[str]:
     # never because a session was confident.
     unattributed = MAP_DIR / "UNATTRIBUTED.yaml"
     if unattributed.is_file():
-        import yaml
-        declared = (yaml.safe_load(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
+        declared = (load_unique(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
         known_authors |= set(declared)
 
     # row_id -> (work, source_file, first place seen). A row lands in every
@@ -297,7 +330,14 @@ def validate() -> list[str]:
     row_ids: dict[str, tuple[str, str, str]] = {}
     voice_ids = set(ids) | pair_parties()
 
-    for atlas_id, doc in load().items():
+    import yaml
+
+    try:
+        buckets_on_disk = load()
+    except yaml.YAMLError as err:
+        return [f"a bucket cannot be read as YAML with unique keys: {err}"]
+
+    for atlas_id, doc in buckets_on_disk.items():
         where = f"{atlas_id}.yaml"
         # CM-6 (Library Access Gate D3 SS3): a bucket
         # carrying `fixture: true` is the M9 selftest's own synthetic data,

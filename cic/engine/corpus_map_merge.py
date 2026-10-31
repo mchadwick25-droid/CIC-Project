@@ -66,7 +66,7 @@ MAP_DIR = REPO_ROOT / "cic" / "corpus-map"
 STAGING = MAP_DIR / "_staging"
 
 sys.path.insert(0, str(HERE))
-from corpus_map import ROW_FIELDS, census_ids, pair_parties, row_field_findings  # noqa: E402
+from corpus_map import ROW_FIELDS, census_ids, load_unique, pair_parties, row_field_findings, unique_key_loader  # noqa: E402
 
 # Files under cic/corpus-map/ that are not buckets and must never be merged
 # into or overwritten.
@@ -113,7 +113,11 @@ def load_staging() -> tuple[list[dict], dict[str, dict], list[str]]:
     for path in sorted(STAGING.glob("*.yaml")):
         if ONLY and not any(token in path.name for token in ONLY):
             continue
-        doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        try:
+            doc = load_unique(path.read_text(encoding="utf-8")) or {}
+        except yaml.YAMLError as err:
+            findings.append(f"{path.name}: not parseable YAML with unique keys ({err})")
+            continue
         source_file = doc.get("source_file")
         if not source_file:
             findings.append(f"{path.name}: no `source_file`")
@@ -200,12 +204,12 @@ def assign_ids(write: bool = True) -> tuple[int, int, list[str]]:
         if eol == "\r\n" and text.count("\n") != text.count("\r\n"):
             findings.append(f"{path.name}: mixed line endings")
             continue
-        loader = yaml.SafeLoader(text)
+        loader = unique_key_loader()(text)
         try:
             node = loader.get_single_node()
             doc = loader.construct_document(node) if node is not None else None
         except yaml.YAMLError as err:
-            findings.append(f"{path.name}: not parseable YAML ({err.__class__.__name__})")
+            findings.append(f"{path.name}: not parseable YAML with unique keys ({err.__class__.__name__}: {err})")
             continue
         finally:
             loader.dispose()
