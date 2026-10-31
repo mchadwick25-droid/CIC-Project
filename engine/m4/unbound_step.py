@@ -171,6 +171,17 @@ def _normalise(word: str) -> str:
     return word[:-1] if len(word) > 5 and word.endswith("s") and not word.endswith("ss") else word
 
 
+def _around_a_hit(line: str, terms) -> str:
+    """The line with markup removed, cut to LINE_CHARS around its first query
+    term when it is longer."""
+    text = " ".join(_MARKUP.sub(" ", line).split())
+    if len(text) <= LINE_CHARS:
+        return text
+    hit = next((m.start() for m in _WORD.finditer(text) if _normalise(m.group()) in terms), 0)
+    start = max(hit - LINE_CHARS // 2, 0)
+    return text[start:start + LINE_CHARS]
+
+
 class ShelfIndex:
     """Line positions of a set of terms across the shelf files, built in one pass."""
 
@@ -220,14 +231,18 @@ class ShelfIndex:
             lines = self.lines[c["fi"]]
             window = range(c["start"], min(c["start"] + WINDOW_LINES, len(lines)))
             matching = [n for n in window if any(n in self.postings[t].get(c["fi"], ()) for t in weight)]
-            shown = sorted({m for n in matching for m in (n - 1, n, n + 1) if c["start"] <= m < c["start"] + WINDOW_LINES and m < len(lines)})
-            budget, parts = PASSAGE_CHARS, []
-            for n in shown:
-                line = " ".join(_MARKUP.sub(" ", lines[n]).split())[:LINE_CHARS]
+            context = sorted({m for n in matching for m in (n - 1, n + 1) if c["start"] <= m < c["start"] + WINDOW_LINES and m < len(lines)} - set(matching))
+            budget, kept = PASSAGE_CHARS, {}
+            for n in [*matching, *context]:
+                line = _around_a_hit(lines[n], weight) if n in matching else " ".join(_MARKUP.sub(" ", lines[n]).split())[:LINE_CHARS]
                 if line and budget > 0:
-                    parts.append(line[:budget])
-                    budget -= len(line)
-            out.append({"file": self.files[c["fi"]], "lines": f"{shown[0] + 1}-{shown[-1] + 1}", "text": " ".join(parts)})
+                    kept[n] = line[:budget]
+                    budget -= len(kept[n])
+            shown = sorted(kept)
+            if not shown:
+                continue
+            text = " ".join(kept[n] for n in shown)
+            out.append({"file": self.files[c["fi"]], "lines": f"{shown[0] + 1}-{shown[-1] + 1}", "text": text})
         return out
 
 

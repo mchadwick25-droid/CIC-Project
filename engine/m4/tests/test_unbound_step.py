@@ -106,3 +106,13 @@ def test_a_missing_shelf_file_is_recorded(tmp_path):
     (tmp_path / "a.txt").write_text("Maximinus")
     index = us.ShelfIndex(tmp_path, ["a.txt", "gone.txt"], {"maximinu"})
     assert index.missing_files == ["gone.txt"]
+
+
+def test_the_budget_goes_to_matching_lines_before_context_and_long_lines_are_cut_around_the_hit(tmp_path):
+    filler = "word " * 150
+    lines = [filler] * 6 + [filler + "Primian spoke at the conference " + filler] + [filler] * 8
+    (tmp_path / "a.txt").write_text("\n".join(lines))
+    index = us.ShelfIndex(tmp_path, ["a.txt"], {"primian", "conference"})
+    text = index.search({"primian": 2.0, "conference": 2.0})[0]["text"]
+    assert "Primian spoke at the conference" in text
+    assert len(text) <= us.PASSAGE_CHARS + 20
