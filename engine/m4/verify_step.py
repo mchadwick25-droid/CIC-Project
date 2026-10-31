@@ -7,7 +7,7 @@ judge's request, reads the reply, and decides.
 
 Binding. A sentence's tags are its bindings. A binding to a context block
 (`ctx.` ids, engine.m4.fit_step) or to an id the world does not hold is not a
-binding; a sentence left with none is held out and never judged. Sentences code
+binding; a sentence left with none is held out: it is not judged and is taken out of the answer. Sentences code
 placed itself (a quote, a story, the world's own answer record) are the record's
 words and are not read again.
 
@@ -20,8 +20,9 @@ the records do not settle.
 decide: supported keeps the sentence; unsupported asks for one rewrite; an
 unreadable reply keeps the sentence. rewrite_request gives the voice the
 sentence, the problem and the same records; parse_rewrite reads back one plain
-sentence or a drop. A rewrite that carries a tag, a quotation mark or a line
-break is refused. A rewrite that the judge again finds unsupported is taken
+sentence or a drop. A rewrite that carries a tag, any quotation mark, a line
+break or a second sentence, or that states an absence the bound records do not
+(engine.m4.absence_rule), is refused. A rewrite that the judge again finds unsupported is taken
 out, so a sentence is rewritten at most once.
 """
 from __future__ import annotations
@@ -30,6 +31,8 @@ import json
 import re
 
 from engine.m4 import absence_rule
+from engine.m4 import evidence as ev
+from engine.m4.grounding_net import placed_by_code
 from engine.m4.fit_step import CONTEXT_PREFIX
 from engine.prose import sentences
 
@@ -62,11 +65,36 @@ def valid_bindings(tags: list[str], records: dict[str, dict]) -> list[str]:
     return [t for t in dict.fromkeys(tags) if not t.startswith(CONTEXT_PREFIX) and t in records]
 
 
-def record_pack(record: dict) -> str:
+def _voiced_text(record: dict) -> str:
+    """What the voice was shown of a record: the head its evidence entry uses
+    (a story's tellable_as, a quote's modern_rendering, a limit's statement),
+    else the record's spoken fields."""
+    if record.get("record_type") in ("story", "quote"):
+        try:
+            return ev._head_text(record)
+        except ValueError:
+            return ""
+    return absence_rule.spoken_text(record)
+
+
+def record_pack(record: dict, records: dict[str, dict]) -> str:
+    """The record as the voice was shown it: its voiced text as numbered
+    sentences, its means line, what it must not be used to assert, what is not
+    known, a quote's setting, and the force it carries (formation confidence and
+    the years it is limited to)."""
+    rider = ev._with_riders({"id": record["id"], "record_type": record.get("record_type")}, records)
     conf = (record.get("confidence") or {}).get("formation_confidence")
     years = absence_rule._years(record)
     force = ", ".join(x for x in (f"formation confidence: {conf}" if conf else "", f"limited to the years {years[0]} to {years[1]}" if years else "") if x)
-    lines = [f"({n}) {s}" for n, s in enumerate(sentences(absence_rule.spoken_text(record)), start=1)]
+    lines = [f"({n}) {t}" for n, t in enumerate(sentences(_voiced_text(record)), start=1)]
+    if means := (record.get("use_note") or {}).get("means"):
+        lines.append(f"means: {means}")
+    if rider.get("setting"):
+        lines.append(f"setting: {rider['setting']}")
+    if rider.get("claim_guards"):
+        lines.append("MUST NOT ASSERT: " + "; ".join(rider["claim_guards"]))
+    if rider.get("absent_detail"):
+        lines.append("NOT KNOWN: " + rider["absent_detail"])
     return f"Record {record['id']} [{force or 'no stated limit'}]\n" + "\n".join(lines)
 
 
@@ -74,11 +102,10 @@ def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
     """One item per cited, voice-written sentence of an answer's net output:
     its position, the sentence, its valid bindings, and `held_out` when it has
     tags but none valid."""
-    placed = set((answer.get("reply_shape") or {}).get("placed", []))
     items = []
     for n, entry in enumerate(answer.get("net_sentences", [])):
         tags = list(entry.get("tags") or [])
-        if entry.get("verdict") != "ok" or not tags or entry.get("placed_quote") or (set(tags) & placed):
+        if entry.get("verdict") != "ok" or not tags or placed_by_code(entry):
             continue
         bound = valid_bindings(tags, records)
         items.append({"n": n, "sentence": entry["sentence"], "bound": bound, "held_out": not bound})
@@ -86,7 +113,7 @@ def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
 
 
 def verify_request(sentence: str, bound: list[str], records: dict[str, dict]) -> dict:
-    packs = "\n\n".join(record_pack(records[rid]) for rid in bound)
+    packs = "\n\n".join(record_pack(records[rid], records) for rid in bound)
     return {"system": VERIFY_SYSTEM, "user": f"RECORDS\n\n{packs}\n\nSENTENCE\n{sentence}"}
 
 
@@ -111,23 +138,39 @@ def decide(judgement: dict | None) -> str:
 
 
 def rewrite_request(question: str, sentence: str, judgement: dict, bound: list[str], records: dict[str, dict]) -> dict:
-    packs = "\n\n".join(record_pack(records[rid]) for rid in bound)
+    packs = "\n\n".join(record_pack(records[rid], records) for rid in bound)
     problem = f"{judgement.get('problem') or 'other'}: {judgement.get('reason') or ''}".strip()
     return {"system": REWRITE_SYSTEM, "user": f"QUESTION\n{question}\n\nRECORDS\n\n{packs}\n\nSENTENCE\n{sentence}\n\nPROBLEM\n{problem}"}
 
 
-def parse_rewrite(reply: str) -> str | None:
-    """The one sentence, or None for a drop or a refused rewrite."""
+_QUOTE_MARKS = frozenset('"“”‘’«»‹›„')
+
+
+def parse_rewrite(reply: str, bound: list[str] | None = None, records: dict[str, dict] | None = None) -> str | None:
+    """The one sentence, or None for a drop or a refused rewrite. A rewrite is
+    refused when it carries a tag, any quotation mark, a line break or more than
+    one sentence, or when, given the bound records, it states an absence they do
+    not (engine.m4.absence_rule). Apostrophes inside words are not quotation marks."""
     text = (reply or "").strip()
-    if not text or text.upper().rstrip(".") == _DROP or "\n" in text or "[[" in text or '"' in text or "“" in text:
+    if not text or text.upper().rstrip(".") == _DROP or "\n" in text or "[[" in text:
+        return None
+    if any(ch in _QUOTE_MARKS for ch in text.replace("’s", "").replace("'s", "")) or len(sentences(text)) != 1:
+        return None
+    if bound and records and absence_rule.check_absence(text, [records[r] for r in bound if r in records]):
         return None
     return text
 
 
-def splice(text: str, old: str, new: str | None) -> str:
-    """The answer text with one sentence replaced, or removed when new is None."""
-    if old not in text:
-        return text
-    out = text.replace(old, new or "", 1)
-    out = re.sub(r"[ \t]+\n", "\n", re.sub(r" {2,}", " ", out))
-    return re.sub(r"\n{3,}", "\n\n", out).strip()
+def splice(text: str, old: str, new: str | None) -> tuple[str, bool]:
+    """The answer text with one whole sentence replaced, or removed when new is
+    None, and whether it was found. Only a match that stands as a sentence
+    (start of the text or after a space or line break, ending at a space, line
+    break or the end) is replaced."""
+    for found in re.finditer(re.escape(old), text):
+        before = text[: found.start()]
+        after = text[found.end():]
+        if (not before or before[-1] in " \n") and (not after or after[0] in " \n"):
+            out = before + (new or "") + after
+            out = re.sub(r"[ \t]+\n", "\n", re.sub(r" {2,}", " ", out))
+            return re.sub(r"\n{3,}", "\n\n", out).strip(), True
+    return text, False

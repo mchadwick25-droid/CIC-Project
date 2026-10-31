@@ -47,6 +47,8 @@ def _answers(questions: list[dict], work: Path, records: dict) -> list[tuple[dic
         path = work / "answers" / f"{question['id']}.json"
         if path.exists():
             answer = json.loads(path.read_text(encoding="utf-8"))
+            if not answer.get("text"):
+                continue
             out.append((question, answer, vs.sentence_items(answer, records)))
     return out
 
@@ -64,12 +66,13 @@ def export(rows: list, work: Path, records: dict) -> dict:
 
 
 def import_read(rows: list, work: Path, records: dict) -> dict:
-    out, unread, wrote = [], 0, 0
+    out, unread, wrote, missing = [], 0, 0, 0
     for question, _answer, items in rows:
         for item in items:
             key = f"{question['id']}.{item['n']}"
             reply = None if item["held_out"] else _reply(work, "read", key)
             if reply is None and not item["held_out"]:
+                missing += 1
                 continue
             judgement = None if item["held_out"] else vs.parse_verify(reply)
             decision = "held_out" if item["held_out"] else vs.decide(judgement)
@@ -80,27 +83,34 @@ def import_read(rows: list, work: Path, records: dict) -> dict:
                 _write_prompt(work, "rewrite", key, vs.rewrite_request(question_text(question), item["sentence"], judgement, item["bound"], records))
                 wrote += 1
     _save(work / "verify" / "read.jsonl", out)
-    return {"rows": len(out), "unreadable": unread, "to_rewrite": wrote, "held_out": sum(r["decision"] == "held_out" for r in out)}
+    return {"rows": len(out), "missing_replies": missing, "unreadable": unread, "to_rewrite": wrote,
+            "held_out": sum(r["decision"] == "held_out" for r in out)}
 
 
 def import_rewrite(work: Path, records: dict) -> dict:
-    out, wrote = [], 0
+    out, wrote, missing = [], 0, 0
     for row in _load(work / "verify" / "read.jsonl"):
         if row["decision"] != "rewrite":
             continue
         reply = _reply(work, "rewrite", row["key"])
         if reply is None:
+            missing += 1
             continue
-        new = vs.parse_rewrite(reply)
+        new = vs.parse_rewrite(reply, row["bound"], records)
         out.append({**row, "rewrite": new})
         if new:
             _write_prompt(work, "reread", row["key"], vs.verify_request(new, row["bound"], records))
             wrote += 1
     _save(work / "verify" / "rewrite.jsonl", out)
-    return {"rewrites": len(out), "refused_or_dropped": sum(r["rewrite"] is None for r in out), "to_reread": wrote}
+    return {"rewrites": len(out), "missing_replies": missing, "refused_or_dropped": sum(r["rewrite"] is None for r in out), "to_reread": wrote}
 
 
 def final(rows: list, work: Path) -> dict:
+    """The final text of each answer and a count of every sentence's fate.
+    A sentence whose reply is missing or unreadable is kept and counted
+    (`unjudged`, `pending_rewrite`, `pending_reread`); a run is complete only
+    when those are zero. A rewrite is used only when its re-read reply is
+    present, readable and supported."""
     read = {r["key"]: r for r in _load(work / "verify" / "read.jsonl")}
     rewritten = {r["key"]: r for r in _load(work / "verify" / "rewrite.jsonl")}
     counts: Counter = Counter()
@@ -113,25 +123,36 @@ def final(rows: list, work: Path) -> dict:
             key = f"{question['id']}.{item['n']}"
             row = read.get(key)
             if row is None:
+                counts["unjudged"] += 1
                 continue
-            counts["checked"] += row["decision"] != "held_out"
-            counts["held_out"] += row["decision"] == "held_out"
+            if row["decision"] == "held_out":
+                counts["held_out"] += 1
+                text, found = vs.splice(text, item["sentence"], None)
+                counts["not_found_in_text"] += not found
+                continue
+            counts["checked"] += 1
+            if row["judgement"] is None:
+                counts["unreadable"] += 1
+                continue
             if row["decision"] == "keep":
                 counts["kept"] += 1
                 continue
-            if row["decision"] == "held_out":
-                text = vs.splice(text, item["sentence"], None)
-                continue
-            problems[(row["judgement"] or {}).get("problem") or "other"] += 1
+            problems[row["judgement"].get("problem") or "other"] += 1
             counts["unsupported"] += 1
-            new = (rewritten.get(key) or {}).get("rewrite")
+            if key not in rewritten:
+                counts["pending_rewrite"] += 1
+                continue
+            new = rewritten[key]["rewrite"]
             again = vs.parse_verify(_reply(work, "reread", key) or "") if new else None
-            if new and (again is None or again["supported"]):
-                counts["rewritten_kept"] += 1
-                text = vs.splice(text, item["sentence"], new)
+            if new and again is None:
+                counts["pending_reread"] += 1
+                continue
+            if new and again["supported"]:
+                text, found = vs.splice(text, item["sentence"], new)
+                counts["rewritten_kept" if found else "not_found_in_text"] += 1
             else:
-                counts["taken_out"] += 1
-                text = vs.splice(text, item["sentence"], None)
+                text, found = vs.splice(text, item["sentence"], None)
+                counts["taken_out" if found else "not_found_in_text"] += 1
         (out_dir / f"{question['id']}.txt").write_text(text, encoding="utf-8")
     summary = {"answers": len(rows), **counts, "problems": dict(problems)}
     (work / "verify" / "summary.json").write_text(json.dumps(summary, indent=1, sort_keys=True), encoding="utf-8")
@@ -154,7 +175,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("command", choices=("export", "import", "rewrite-import", "final"))
     parser.add_argument("--set", type=Path, required=True, dest="question_set")
     parser.add_argument("--work", type=Path, required=True)
-    parser.add_argument("--world", default="lpc")
+    parser.add_argument("--world", required=True)
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     records = load_world_records(args.world)

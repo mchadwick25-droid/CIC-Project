@@ -32,16 +32,29 @@ def test_a_sentence_with_no_valid_binding_is_held_out(records):
 def test_uncited_withheld_and_placed_sentences_are_not_read(records):
     answer = _answer(
         _entry("Uncited framing.", []), _entry("Withheld.", [LIMIT], verdict="withhold"),
-        _entry("Quote lead-in.", [LIMIT], placed_quote=True), _entry("Story.", ["lpc.story.numidicus"]),
-        placed=["lpc.story.numidicus"],
+        _entry("Quote lead-in.", [LIMIT], placed_quote=True), _entry("Story.", ["lpc.story.numidicus"], placed_story=True),
+        _entry("Answer record.", [LIMIT], placed_answer=True),
     )
     assert vs.sentence_items(answer, records) == []
 
 
+def test_a_voice_sentence_citing_a_story_code_placed_is_still_read(records):
+    answer = _answer(_entry("The story.", ["lpc.story.numidicus"], placed_story=True),
+                     _entry("That is why we keep the vigil.", ["lpc.story.numidicus"]), placed=["lpc.story.numidicus"])
+    assert [i["n"] for i in vs.sentence_items(answer, records)] == [1]
+
+
+def test_the_story_pack_is_what_the_voice_was_shown_not_the_source_text(records):
+    pack = vs.record_pack(records["lpc.story.numidicus"], records)
+    assert records["lpc.story.numidicus"]["tellable_as"].split(".")[0] in pack
+    assert "cic/texts" not in pack
+
+
 def test_the_pack_carries_force_and_years(records):
-    pack = vs.record_pack(records[LIMIT])
+    pack = vs.record_pack(records[LIMIT], records)
     assert "limited to the years 246 to 430" in pack and "formation confidence: Documented" in pack
-    assert "(1) " in pack and "a claim that a woman's own writing survives" not in pack
+    assert "(1) " in pack and "MUST NOT ASSERT: a claim that a woman's own writing survives" in pack
+    assert "lpc.source" not in pack and "Doc_09" not in pack
 
 
 def test_the_request_names_the_sentence_and_its_records(records):
@@ -69,13 +82,21 @@ def test_decide_keeps_supported_and_unreadable_and_rewrites_unsupported():
     ("Women reach us in men's words.", "Women reach us in men's words."),
     ("DROP", None), ("drop.", None), ("", None),
     ("Women [[x]] reach us.", None), ('He said "no".', None), ("One line.\nTwo lines.", None),
+    ("He said ‘no’ to them.", None), ("He said «no».", None), ("One sentence. Another one.", None),
+    ("Cyprian's letter reached us.", "Cyprian's letter reached us."),
 ])
 def test_parse_rewrite(reply, expected):
     assert vs.parse_rewrite(reply) == expected
 
 
+def test_a_rewrite_that_states_an_unsupported_absence_is_refused(records):
+    assert vs.parse_rewrite("We have no sermon of our own on those opening lines.", [LIMIT], records) is None
+    assert vs.parse_rewrite("In all our years, no text a woman wrote survives from our two cities.", [LIMIT], records)
+
+
 def test_splice_replaces_or_removes_one_sentence():
     text = "First one. Second one.\n\nThird one."
-    assert vs.splice(text, "Second one.", "Changed.") == "First one. Changed.\n\nThird one."
-    assert vs.splice(text, "Third one.", None) == "First one. Second one."
-    assert vs.splice(text, "Absent.", "x") == text
+    assert vs.splice(text, "Second one.", "Changed.") == ("First one. Changed.\n\nThird one.", True)
+    assert vs.splice(text, "Third one.", None) == ("First one. Second one.", True)
+    assert vs.splice(text, "Absent.", "x") == (text, False)
+    assert vs.splice("A long sentence. Long.", "Long.", "Short.")[0] == "A long sentence. Short."

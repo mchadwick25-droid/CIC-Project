@@ -37,10 +37,10 @@ def test_a_full_round(tmp_path):
     assert tv.export(rows, work, records) == {"prompts_written": 2, "held_out_no_valid_binding": 1}
     _reply(work, "read", "q1.0", '{"supported": true, "problem": null, "reason": "ok"}')
     _reply(work, "read", "q1.1", '{"supported": false, "problem": "dropped_scope", "reason": "years dropped"}')
-    assert tv.import_read(rows, work, records) == {"rows": 3, "unreadable": 0, "to_rewrite": 1, "held_out": 1}
+    assert tv.import_read(rows, work, records) == {"rows": 3, "missing_replies": 0, "unreadable": 0, "to_rewrite": 1, "held_out": 1}
     assert (work / "verify" / "rewrite" / "prompts" / "q1.1.md").exists()
     _reply(work, "rewrite", "q1.1", "In our years, no text a woman wrote survives.")
-    assert tv.import_rewrite(work, records) == {"rewrites": 1, "refused_or_dropped": 0, "to_reread": 1}
+    assert tv.import_rewrite(work, records) == {"rewrites": 1, "missing_replies": 0, "refused_or_dropped": 0, "to_reread": 1}
     _reply(work, "reread", "q1.1", '{"supported": true, "problem": null, "reason": "ok"}')
     summary = tv.final(rows, work)
     assert summary["kept"] == 1 and summary["rewritten_kept"] == 1 and summary["held_out"] == 1 and summary["problems"] == {"dropped_scope": 1}
@@ -61,3 +61,29 @@ def test_a_rewrite_still_unsupported_is_taken_out(tmp_path):
     summary = tv.final(rows, work)
     assert summary["taken_out"] == 1
     assert (work / "verify" / "final" / "q1.txt").read_text() == GOOD
+
+
+def test_a_missing_reread_reply_does_not_ship_the_rewrite(tmp_path):
+    work, questions = _setup(tmp_path)
+    records = load_world_records("lpc")
+    rows = tv._answers(questions, work, records)
+    tv.export(rows, work, records)
+    _reply(work, "read", "q1.0", '{"supported": true, "problem": null, "reason": ""}')
+    _reply(work, "read", "q1.1", '{"supported": false, "problem": "added_detail", "reason": "x"}')
+    tv.import_read(rows, work, records)
+    _reply(work, "rewrite", "q1.1", "In our years, no text a woman wrote survives.")
+    tv.import_rewrite(work, records)
+    summary = tv.final(rows, work)
+    assert summary["pending_reread"] == 1 and "rewritten_kept" not in summary
+    assert BAD in (work / "verify" / "final" / "q1.txt").read_text()
+
+
+def test_missing_and_unreadable_replies_are_counted(tmp_path):
+    work, questions = _setup(tmp_path)
+    records = load_world_records("lpc")
+    rows = tv._answers(questions, work, records)
+    tv.export(rows, work, records)
+    _reply(work, "read", "q1.0", "garbled")
+    assert tv.import_read(rows, work, records)["missing_replies"] == 1
+    summary = tv.final(rows, work)
+    assert summary["unreadable"] == 1 and summary["unjudged"] == 1
