@@ -17,6 +17,14 @@ years it is limited to). It answers supported or unsupported and names the
 problem: added detail, dropped or stronger force, widened scope, or a referent
 the records do not settle.
 
+Two checks beyond the judge's reading. A word that refers back (a pronoun, "the
+others") is read with the sentence before it, and must be settled by the bound
+records as that sentence names it, else the sentence is unsupported for an
+unresolved referent. A sentence bound to records of different formation
+confidence may state no level higher than the lowest of them
+(apply_confidence_cap): the five levels are Documented, Widely Accepted, Dominant
+Modern Reconstruction, Contested, Inferential-Thin, strongest first.
+
 decide: supported keeps the sentence; unsupported asks for one rewrite; an
 unreadable reply keeps the sentence. rewrite_request gives the voice the
 sentence, the problem and the same records; parse_rewrite reads back one plain
@@ -36,6 +44,7 @@ from engine.m4.grounding_net import placed_by_code
 from engine.m4.fit_step import CONTEXT_PREFIX
 from engine.prose import sentences
 
+CONFIDENCE_LEVELS = ("Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin")
 PROBLEMS = ("added_detail", "stronger_force", "dropped_scope", "widened_scope", "unresolved_referent", "other")
 _JSON = re.compile(r"\{.*\}", re.DOTALL)
 _DROP = "DROP"
@@ -47,12 +56,17 @@ VERIFY_SYSTEM = (
     "them, with the same speaker and the same force. It is not supported if it adds a detail, drops or adds a negation, "
     "states a Contested or inferential point as settled, widens the years or the place a record limits itself to, states as "
     "the whole tradition's what one author says, or uses a word like \"the bishop\" for a person the records do not name. "
-    "A sentence that only frames the answer and claims nothing is supported. Use no outside knowledge.\n"
+    "A sentence that only frames the answer and claims nothing is supported. A word that refers back to something (he, they, \"them\", \"the others\", \"it\") "
+    "must name, through the sentence before it, the very person or thing the records say it of; if the records cannot settle it, "
+    "or the sentence before points to something else, it is not supported (unresolved_referent). When the records carry "
+    "different formation confidence, the sentence may claim no more than the lowest level among them, and may not join "
+    "them into one claim stated more firmly. Use no outside knowledge.\n"
     'Reply with one JSON object only: {"supported": true or false, "problem": one of "added_detail", "stronger_force", '
     '"dropped_scope", "widened_scope", "unresolved_referent", "other" or null when supported, "reason": "one short sentence"}'
 )
 REWRITE_SYSTEM = (
-    "You rewrite one sentence a historical Representative said. The reader found a problem with it. Rewrite it so that it "
+    "You rewrite one sentence a historical Representative said. The reader found a problem with it. If the problem is an "
+    "unresolved referent, name the person or thing in the sentence itself instead of using a pronoun. Rewrite it so that it "
     "says only what the bound records say, in the author's name, as a close paraphrase, with the same force "
     "and the same limits the records carry. Keep the voice: \"we\", plain words, sentences under 25 words. Add nothing the "
     "records do not state. Use no tags and no quotation marks. If nothing of the sentence is left that the records support, "
@@ -101,9 +115,34 @@ def record_pack(record: dict, records: dict[str, dict]) -> str:
     return f"Record {record['id']} [{force or 'no stated limit'}]\n" + "\n".join(lines)
 
 
+def _record_level(record: dict) -> int | None:
+    conf = (record.get("confidence") or {}).get("formation_confidence")
+    return next((i for i, level in enumerate(CONFIDENCE_LEVELS) if isinstance(conf, str) and conf.lower().startswith(level.lower())), None)
+
+
+def confidence_exceeds(sentence: str, bound: list[str], records: dict[str, dict]) -> bool:
+    """True when the sentence names a formation-confidence level (written as the
+    five names are, capitalised) higher than the lowest level among the records
+    it is bound to."""
+    levels = [lv for lv in (_record_level(records[r]) for r in bound if r in records) if lv is not None]
+    if not levels:
+        return False
+    lowest = max(levels)
+    flat = re.sub(r"\s+", " ", sentence)
+    return any(i < lowest and re.search(rf"\b{re.escape(level)}\b", flat) for i, level in enumerate(CONFIDENCE_LEVELS))
+
+
+def _ships_through_verify(entry: dict, records: dict[str, dict]) -> bool:
+    """True for a net sentence the verify step leaves in the answer: not
+    withheld, and either untagged, placed by code, or holding a valid binding."""
+    tags = list(entry.get("tags") or [])
+    return entry.get("verdict") == "ok" and (not tags or placed_by_code(entry) or bool(valid_bindings(tags, records)))
+
+
 def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
     """One item per cited, voice-written sentence of an answer's net output:
-    its position, the sentence, its valid bindings, and `held_out` when it has
+    its position, the sentence, the sentence before it that stays in the answer
+    (`before`, for words that refer back), its valid bindings, and `held_out` when it has
     tags but none valid."""
     items = []
     for n, entry in enumerate(answer.get("net_sentences", [])):
@@ -111,13 +150,15 @@ def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
         if entry.get("verdict") != "ok" or not tags or placed_by_code(entry):
             continue
         bound = valid_bindings(tags, records)
-        items.append({"n": n, "sentence": entry["sentence"], "bound": bound, "held_out": not bound})
+        before = next((e["sentence"] for e in reversed(answer["net_sentences"][:n]) if _ships_through_verify(e, records)), "")
+        items.append({"n": n, "sentence": entry["sentence"], "before": before, "bound": bound, "held_out": not bound})
     return items
 
 
-def verify_request(sentence: str, bound: list[str], records: dict[str, dict]) -> dict:
+def verify_request(sentence: str, bound: list[str], records: dict[str, dict], before: str = "") -> dict:
     packs = "\n\n".join(record_pack(records[rid], records) for rid in bound)
-    return {"system": VERIFY_SYSTEM, "user": f"RECORDS\n\n{packs}\n\nSENTENCE\n{sentence}"}
+    context = f"SENTENCE BEFORE IT (read it for what a referring word points to)\n{before}\n\n" if before else ""
+    return {"system": VERIFY_SYSTEM, "user": f"RECORDS\n\n{packs}\n\n{context}SENTENCE\n{sentence}"}
 
 
 def parse_verify(reply: str) -> dict | None:
@@ -133,6 +174,20 @@ def parse_verify(reply: str) -> dict | None:
     problem = data.get("problem")
     return {"supported": data["supported"], "problem": problem if problem in PROBLEMS else ("other" if not data["supported"] else None),
             "reason": str(data.get("reason") or "")}
+
+
+def apply_confidence_cap(judgement: dict | None, sentence: str, bound: list[str], records: dict[str, dict]) -> dict | None:
+    """A supported reading, turned to unsupported (stronger_force) when the
+    sentence names a level above the lowest of its bound records. An unsupported
+    reading keeps the judge's own problem."""
+    if judgement is not None and judgement["supported"] and confidence_exceeds(sentence, bound, records):
+        return {"supported": False, "problem": "stronger_force", "reason": "names a confidence level above the lowest of the records it is bound to"}
+    return judgement
+
+
+def read_reply(reply: str, sentence: str, bound: list[str], records: dict[str, dict]) -> dict | None:
+    """A judge's reply read with the confidence cap applied."""
+    return apply_confidence_cap(parse_verify(reply), sentence, bound, records)
 
 
 def decide(judgement: dict | None) -> str:

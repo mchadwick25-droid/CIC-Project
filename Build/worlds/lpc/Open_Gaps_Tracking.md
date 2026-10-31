@@ -2528,3 +2528,21 @@ Logged 2026-10-31.
 - **Open, for the Stage 4 verify step.** `engine/m4/absence_rule.py` matches by whole words, so a sentence that reverses a limit record's claim can pass when it shares two or more content words with the record's negated sentence. The Opus review (round 1) found: "No woman's spoken words reach us." citing `lpc.limit.womens-own-voice`, whose statement says a woman's spoken words do reach us, set down by men. The rule also reads no `formation_confidence`, so an absence stated in a Contested record passes as settled.
 - **Not a rule fix.** Word overlap cannot decide polarity or force. The verify step's judge reads each sentence against its bound records with force and scope in the pack (Stage 4 build plan, Phase 2).
 - **Owner.** Engine thread, through the coordination thread.
+
+### OG-131. Shipped sentences that deny what the sources hold were never read (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The fresh 30-answer reading (seed 20261101) on the shadow run found 6 serious answers, all one kind: the voice said the record is silent on something the shelf covers (q029, q071, q093, q101, q103, q024). Cause: the verify step read only cited, bound sentences, a sentence with no valid binding shipped as plain text, and the net exempts honesty-scaffolding sentences from any check. A list of cue phrases was tried and not merged; coordination ruled that a phrase patch shows up later under a different statement.
+- **System fix built.** `engine/m4/unbound_step.py` (PR #1398): a sentence the net withheld is taken out; an unbound claim about the world is withheld; a denial of what the sources hold is checked against the shelf. On the shadow run it removes 5 of the 6. q024 still ships. q093 and q024 are treated as system failures (the voice widened a record's scope; the shelf holds the thing). No record edit.
+- **Open.** The shelf search is lexical, so a denial whose thing the shelf names in other words can pass (q024: Possidius 27). A production version needs a model-based passage finder, which is a paid step and needs Mark's named, capped approval.
+- **Owner.** Engine thread, through the coordination thread.
+
+### OG-132. A limit claim the shelf search could not catch, and two verify gaps (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The second fresh 30-answer reading found 6 serious answers: four voiced a limit ("our record is silent", "we know only") that the shelf contradicts, one used a pronoun whose referent the answer never settled, one stated two records of different confidence as one inference. The shelf search had run on two of the four limits and did not flag them.
+- **System fix built.** A limit sentence is kept only when a record it is bound to states that limit with its scope; unbound or unstated limits are withheld, with a fixed fallback sentence when no limit remains. The verify step now reads a referring word with the sentence before it, and caps a sentence at the lowest confidence level of the records it is bound to. No record edit.
+- **Open.** The fallback sentence is a fixed string, not wording reviewed from the world's own records. A same-answer check across sentences (two bound sentences that together state a merged inference) is not built. A record's own limit sentence with no limit word ("That much I cannot give you.") is withheld when the voice repeats it. A record sentence with no negation word ("Our record says little of ...") is never offered as backing for a limit. A sentence starting with a capitalised level name is read as naming that level.
+- **Owner.** Engine thread, through the coordination thread.

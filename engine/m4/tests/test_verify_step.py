@@ -107,3 +107,68 @@ def test_splice_replaces_or_removes_one_sentence():
 def test_the_quote_pack_names_the_speaker(records):
     pack = vs.record_pack(records["lpc.quote.a-dreadful-plague-broke-out"], records)
     assert "quote from" in pack and "Pontius" in pack
+
+
+WIDELY = "lpc.gravity.collegial-communion-preserved"
+THIN = "lpc.witness.answerability-as-ground"
+
+
+def test_the_request_shows_the_sentence_before_it_for_words_that_refer_back(records):
+    request = vs.verify_request("What light made them, he wrote, is beyond our senses.", ["lpc.witness.days-before-the-sun"], records,
+                                "The older books speak of days before the sun.")
+    assert "SENTENCE BEFORE IT" in request["user"] and "The older books speak" in request["user"]
+    assert request["user"].endswith("SENTENCE\nWhat light made them, he wrote, is beyond our senses.")
+    assert "SENTENCE BEFORE IT" not in vs.verify_request("We wrote it.", [LIMIT], records)["user"]
+
+
+def test_sentence_items_carry_the_sentence_before(records):
+    items = vs.sentence_items(_answer(_entry("First.", []), _entry("Then them.", [LIMIT])), records)
+    assert items[0]["before"] == "First."
+
+
+def test_the_judge_instructions_cover_referents_and_the_lowest_confidence():
+    assert "unresolved_referent" in vs.VERIFY_SYSTEM and "lowest level" in vs.VERIFY_SYSTEM
+
+
+def test_a_rewrite_names_the_thing_instead_of_a_pronoun():
+    assert "instead of using a pronoun" in vs.REWRITE_SYSTEM
+
+
+def test_records_of_different_confidence_cap_a_sentence_at_the_lowest(records):
+    held = "We hold the link at Widely Accepted, and no source states it."
+    assert vs.confidence_exceeds(held, [WIDELY, THIN], records)
+    assert not vs.confidence_exceeds("We call the link Inferential-Thin.", [WIDELY, THIN], records)
+    assert not vs.confidence_exceeds(held, [WIDELY], records)
+    assert not vs.confidence_exceeds("We say nothing of levels.", [WIDELY, THIN], records)
+    assert not vs.confidence_exceeds(held, [], records)
+
+
+def test_the_cap_turns_a_supported_reading_into_stronger_force(records):
+    supported = {"supported": True, "problem": None, "reason": "ok"}
+    sentence = "We hold the link at Widely Accepted."
+    capped = vs.apply_confidence_cap(supported, sentence, [WIDELY, THIN], records)
+    assert capped["supported"] is False and capped["problem"] == "stronger_force"
+    assert vs.decide(capped) == "rewrite"
+    assert vs.apply_confidence_cap(supported, sentence, [WIDELY], records) == supported
+    assert vs.apply_confidence_cap(None, sentence, [WIDELY, THIN], records) is None
+    reply = '{"supported": true, "problem": null, "reason": "ok"}'
+    assert vs.read_reply(reply, sentence, [WIDELY, THIN], records)["supported"] is False
+
+
+def test_the_sentence_before_skips_one_that_does_not_stay_in_the_answer(records):
+    answer = _answer(_entry("Kept first.", []), _entry("Held out.", ["not.a.record"]), _entry("Withheld.", [], verdict="withhold"), _entry("Then he.", [LIMIT]))
+    items = vs.sentence_items(answer, records)
+    assert items[-1]["sentence"] == "Then he." and items[-1]["before"] == "Kept first."
+    assert vs.sentence_items(_answer(_entry("Only.", [LIMIT])), records)[0]["before"] == ""
+
+
+def test_level_names_count_only_as_names_of_a_level(records):
+    for sentence in ("Augustine documented his conversion in a book.", "This is not documented; it is contested.", "It was widely accepted by his hearers."):
+        assert not vs.confidence_exceeds(sentence, ["lpc.witness.days-before-the-sun", THIN], records)
+    assert vs.confidence_exceeds("We hold it at Widely\n Accepted.", [WIDELY, THIN], records)
+    assert vs.confidence_exceeds("It is Documented.", ["lpc.witness.days-before-the-sun", THIN], records)
+
+
+def test_the_cap_keeps_the_judges_own_finding(records):
+    own = {"supported": False, "problem": "added_detail", "reason": "adds a date"}
+    assert vs.apply_confidence_cap(own, "We hold it at Widely Accepted.", [WIDELY, THIN], records) == own

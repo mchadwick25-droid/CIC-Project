@@ -682,3 +682,20 @@ Mark's own words, relayed by the coordination thread: "again, we are not refinin
 Mark's own answer, relayed by the coordination thread, 2026-10-31, to "absence rule first or the larger path": "Go straight to the larger path". That answer is his.
 
 Coordination-level, AI-reviewed (not Mark's own words), on the engine thread's build plan: the Stage 2 gate is changed by `Stage4_Change_Order_Shadow_Before_Stage2.md` (shadow on lpc now, the real proof reruns after Stage 2). The absence rule is built first as its own small pull request, being a component of the larger path and an early gain, and Phase 2 (bound draft, verify, one rewrite) follows without waiting on a further decision. A report goes to the coordination thread after each pull request. q084's record half is treated as a system fix only, and the open question is logged as OG-129 (the q084 gap on John's prologue, 2026-10-31). The Phase 3 reading uses a fresh seed, written down. Pacing rules of entry 41 and the bar of entry 44 apply; no metered spend.
+
+## 46. Stage 4: verify, rewrite and the unbound-sentence step on the 106 questions (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). Mark's own words on pacing, relayed 2026-10-31: "keep going with both, we are at 25% now, we will slow down when we are at 75%".
+
+- Merged: the absence rule (#1394), docs (#1395), the verify and rewrite step (#1396). The cue-phrase widening of the absence rule was not merged: coordination ruled it the same patch one phrase later.
+- Shadow run, built before Stage 2 (`Stage4_Change_Order_Shadow_Before_Stage2.md`), free and in plan, not the Stage 4 proof. 106 questions answered. Verify read 343 cited sentences: 292 fine, 51 flagged (33 added detail, 8 stronger force, 4 widened scope, 4 unresolved referent, 1 dropped scope, 1 other); 42 rewrites used, 9 sentences taken out. Fit to the question, 52 placed quotes and stories: 24 fits, 23 partly, 5 off-point.
+- Fresh reading, seed 20261101, 30 answers (8 sealed, 20 other, 2 fit traps), one Opus reader: 6 serious, 24 acceptable. No invented quotation or fact. All 6 said the record is silent on something the shelf covers. A reading, not a measurement.
+- Ruling (coordination): fix the mechanism, not the phrasing. Built as the unbound-sentence step (#1398); logged as OG-131. Result on the same run: 5 of the 6 removed; mean answer 146 to 122 words.
+
+## 47. Stage 4: a limit no record states is always withheld; two verify gaps closed (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's own words). The decision follows the second fresh 30-answer reading (seed 20261031, 8 sealed, 20 other, 2 fit traps, one Opus reader): 6 serious, 24 acceptable, no invented quotation or fact.
+
+- Four of the six said the record is silent on something the shelf covers, again. The lexical shelf search cannot catch these by design, since a silence claim can be phrased without end. Ruling: stop searching the shelf. A sentence a reader classes as a limit stays only when it is bound to a record that states that limit with its scope (`absence_rule.check_limit`, no cue phrase needed); otherwise it is withheld. When withheld limits leave an answer with no statement of limits, a fixed fallback sentence stands in the place of the first. No paid passage finder is needed.
+- Two verify gaps, both system: a word that refers back (a pronoun) is now read with the sentence before it and must be settled by the bound records; a sentence bound to records of different formation confidence may name no level above the lowest of them, and the import applies that cap whatever the judge said.
+- Built as one code pull request. The terms and shelf stages of the unbound step are removed.
