@@ -15,12 +15,14 @@ import re
 from pathlib import Path
 
 from goldset.common import git_show, records_at
+from engine.m1.spoken_fields import fields_with_role
 
 VOICED_FIELDS = (
     "text", "modern_rendering", "positions", "tensions", "plain_meaning", "quick_meaning", "summary",
     "description", "claim", "statement", "held_against", "concedes", "narratable", "bridge_line",
     "exchange", "result", "why_sources_cannot_answer", "senses",
 )
+ANSWER_FIELDS = ("absent_detail", "modern_contrast", "thin_topics", "modern_lens_note")
 LABEL_FIELDS = ("world_word", "title", "name", "speaker_or_author", "work")
 
 DIVISION_WHOLE_LINES = 300
@@ -185,11 +187,22 @@ def _render_value(value) -> str:
     return " ".join(str(value).split())
 
 
+def voiced_fields(record: dict) -> tuple[str, ...]:
+    """The fields the pack shows for a record: the fixed list, every field the
+    engine's registry of spoken fields declares for the record's type as ground
+    the voice says back or heads its evidence with, and the structured fields
+    that answer a direct question."""
+    declared = fields_with_role(record.get("record_type"), "voice-diet", "evidence-head")
+    return tuple(dict.fromkeys((*VOICED_FIELDS, *declared, *ANSWER_FIELDS)))
+
+
 def record_block(record: dict) -> str:
     rows = [f"record id: {record['id']}", f"record type: {record.get('record_type')}"]
     for field in LABEL_FIELDS:
         if record.get(field):
             rows.append(f"{field}: {_render_value(record[field])}")
+    if record.get("sources"):
+        rows.append("sources:\n" + _render_value([f"{s.get('source_id')}, {s.get('locus')}" for s in record["sources"]]))
     use = record.get("use_note") or {}
     if use.get("means"):
         rows.append(f"means: {_render_value(use['means'])}")
@@ -202,7 +215,7 @@ def record_block(record: dict) -> str:
         rows.append(f"formation confidence: {confidence['formation_confidence']}")
     if confidence.get("divergence_note"):
         rows.append(f"divergence note: {_render_value(confidence['divergence_note'])}")
-    for field in VOICED_FIELDS:
+    for field in voiced_fields(record):
         if record.get(field):
             rows.append(f"{field}:\n{_render_value(record[field])}")
     return "\n".join(rows)
