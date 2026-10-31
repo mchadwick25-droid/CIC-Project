@@ -259,12 +259,12 @@ def _atlas_windows() -> dict:
 
 def _file_mappings() -> dict:
     """file -> [(atlas_id, role)], read from the generated buckets."""
-    import yaml
+    from yaml_unique import load_unique
     out = {}
     for bucket in sorted(MAP_DIR.glob("*.yaml")):
         if bucket.name in ("AUTHOR-IDS.yaml", "PAIRS.yaml", "UNATTRIBUTED.yaml", "WORKS.yaml"):
             continue
-        data = yaml.safe_load(bucket.read_text(encoding="utf-8")) or {}
+        data = load_unique(bucket.read_text(encoding="utf-8")) or {}
         for w in data.get("works", []) if isinstance(data, dict) else []:
             f = w.get("source_file")
             if f:

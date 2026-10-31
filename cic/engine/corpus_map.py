@@ -118,6 +118,9 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
+from yaml_unique import load_unique, unique_key_loader  # noqa: E402,F401
 REPO_ROOT = HERE.parents[1]
 MAP_DIR = REPO_ROOT / "cic" / "corpus-map"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
@@ -169,8 +172,9 @@ NON_BUCKET_FILES = {
 
 def load() -> dict[str, dict]:
     """atlas_id -> the parsed file. Missing directory is not an error - the
-    map does not exist until the assignment thread starts."""
-    import yaml
+    map does not exist until the assignment thread starts. A bucket that is
+    not valid YAML, or repeats a key, raises yaml.YAMLError; validate()
+    reports it as a finding."""
 
     out: dict[str, dict] = {}
     if not MAP_DIR.is_dir():
@@ -178,18 +182,16 @@ def load() -> dict[str, dict]:
     for path in sorted(MAP_DIR.glob("*.yaml")):
         if path.name in NON_BUCKET_FILES:
             continue
-        out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        out[path.stem] = load_unique(path.read_text(encoding="utf-8")) or {}
     return out
 
 
 def pair_parties() -> set[str]:
     """Slugs of the non-census parties PAIRS.yaml rules on."""
-    import yaml
-
     path = MAP_DIR / "PAIRS.yaml"
     if not path.is_file():
         return set()
-    doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    doc = load_unique(path.read_text(encoding="utf-8")) or {}
     parties = doc.get("parties")
     return set(parties) if isinstance(parties, dict) else set()
 
@@ -286,18 +288,23 @@ def validate() -> list[str]:
     # exist. It is narrow on purpose: a slug is legal because a RULING exists,
     # never because a session was confident.
     unattributed = MAP_DIR / "UNATTRIBUTED.yaml"
-    if unattributed.is_file():
-        import yaml
-        declared = (yaml.safe_load(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
-        known_authors |= set(declared)
+    import yaml
+
+    try:
+        if unattributed.is_file():
+            declared = (load_unique(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
+            known_authors |= set(declared)
+        voice_ids = set(ids) | pair_parties()
+        buckets_on_disk = load()
+    except yaml.YAMLError as err:
+        return [f"a map file cannot be read as YAML with unique keys: {err}"]
 
     # row_id -> (work, source_file, first place seen). A row lands in every
     # bucket its atlas_ids name, so one id may recur across buckets - but only
     # for the same work; inside one bucket it may not recur at all.
     row_ids: dict[str, tuple[str, str, str]] = {}
-    voice_ids = set(ids) | pair_parties()
 
-    for atlas_id, doc in load().items():
+    for atlas_id, doc in buckets_on_disk.items():
         where = f"{atlas_id}.yaml"
         # CM-6 (Library Access Gate D3 SS3): a bucket
         # carrying `fixture: true` is the M9 selftest's own synthetic data,
