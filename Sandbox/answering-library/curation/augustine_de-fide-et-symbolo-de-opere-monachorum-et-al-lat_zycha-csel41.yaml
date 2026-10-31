@@ -1,7 +1,7 @@
 file: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
 scheme: 'Zycha''s Arabic section numbers, restarting at 1 in each work and printed at each section head, usually after the Roman chapter numeral; works addressed by their printed titles; where the edition prints a chapter head with no section numeral, the head is addressed by its chapter numeral (De sancta virginitate XXII as sectio22, its chapter and section numbering coinciding there; De adulterinis II IIII and V as caput4 and caput5, outside the section series)'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: w0
   pattern: .
