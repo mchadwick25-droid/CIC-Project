@@ -52,7 +52,7 @@ import re
 
 from engine.m4 import absence_rule
 from engine.m4.grounding_net import placed_by_code
-from engine.m4.verify_step import parse_rewrite, record_pack, valid_bindings
+from engine.m4.verify_step import _ships_through_verify, parse_rewrite, record_pack, valid_bindings
 
 BIND_ACTIONS = ("bind", "repair", "none")
 KINDS = ("connective", "conversation", "world_claim", "limit")
@@ -117,7 +117,18 @@ def parse_bind(reply: str, sentence: str, offered: list[str], records: dict[str,
     if action == "bind":
         return {"action": "bind", "record": record, "sentence": sentence}
     new = parse_rewrite(str(data.get("sentence") or ""), [record], records)
-    return {"action": "repair", "record": record, "sentence": new} if new else None
+    return {"action": "repair", "record": record, "sentence": new} if new and not talks_of_tags(new) else None
+
+
+def bind_reply_readable(reply: str) -> bool:
+    """True when a bind reply is one JSON object with a known action."""
+    found = _JSON.search(reply or "")
+    if not found:
+        return False
+    try:
+        return json.loads(found.group(0)).get("action") in BIND_ACTIONS
+    except (json.JSONDecodeError, AttributeError):
+        return False
 
 
 def bound_limit_stands(new_sentence: str, record_id: str, was_limit: bool, records: dict[str, dict]) -> bool:
@@ -138,7 +149,8 @@ def shipped_items(answer: dict, records: dict[str, dict]) -> list[dict]:
             continue
         withheld = entry.get("verdict") != "ok"
         ids = [] if withheld else valid_bindings(list(entry.get("tags") or []), records)
-        items.append({"n": n, "sentence": entry["sentence"], "bound": bool(ids), "records": ids, "withheld": withheld, "why": entry.get("why")})
+        before = next((e["sentence"] for e in reversed(answer["net_sentences"][:n]) if _ships_through_verify(e, records)), "")
+        items.append({"n": n, "sentence": entry["sentence"], "before": before, "bound": bool(ids), "records": ids, "withheld": withheld, "why": entry.get("why")})
     return items
 
 

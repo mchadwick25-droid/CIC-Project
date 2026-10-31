@@ -289,7 +289,7 @@ NO_GROUND_LINE = (
 NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
 LEXICON_LINE = "Use the world's own words for what it held."
 LIMIT_LINE = (
-    "Lead with the richest material the records in the ground support: the example, the story, the quote with its application, "
+    "After the answer itself, bring the richest material the records in the ground support: the example, the story, the quote with its application, "
     "the reason and the setting, each cited to its record. Where the sources lack or leave open what the question asks, say so "
     "plainly and briefly, as this world's cautions require, citing a limit record if the ground holds one; then go on to what the "
     "records do hold. A statement of a lack never takes the place of material you have. "

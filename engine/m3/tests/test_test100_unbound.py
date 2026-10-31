@@ -204,7 +204,7 @@ def _bind_run(tmp_path, bind_reply, check_reply):
 def test_an_unbound_claim_is_bound_to_the_record_that_states_it_and_stays(tmp_path):
     reply = json.dumps({"action": "bind", "record": "lpc.witness.days-before-the-sun", "sentence": None})
     work, result, summary = _bind_run(tmp_path, reply, '{"supported": true, "problem": null, "reason": "ok"}')
-    assert result == {"candidates": 2, "missing_replies": 0, "bound_or_repaired": 1, "bound": 1, "repaired": 0}
+    assert result == {"candidates": 2, "missing_replies": 0, "unreadable": 0, "bound_or_repaired": 1, "bound": 1, "repaired": 0}
     assert summary["bound_kept"] == 1 and summary["withhold"] == 1
     assert (work / "unbound" / "final" / "q1.txt").read_text() == "Bound claim. A fact with no citation. Here is what we can say."
 
@@ -226,3 +226,44 @@ def test_a_bound_claim_the_read_finds_unsupported_is_withheld_after_all(tmp_path
 def test_no_support_leaves_the_claim_withheld(tmp_path):
     work, result, summary = _bind_run(tmp_path, '{"action": "none", "record": null, "sentence": null}', None)
     assert result["bound_or_repaired"] == 0 and summary["withhold"] == 2
+
+
+def test_a_bound_limit_that_stays_stops_the_fallback_for_a_withheld_one(tmp_path):
+    work, questions = _setup(tmp_path)
+    answer = {"text": f"{STATED} Nothing we carry speaks of him.", "offered": [LIMIT],
+              "net_sentences": [{"sentence": STATED, "tags": [], "verdict": "ok"}, {"sentence": "Nothing we carry speaks of him.", "tags": [], "verdict": "ok"}],
+              "reply_shape": {"placed": []}}
+    (work / "answers" / "q1.json").write_text(json.dumps(answer))
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
+    tu.classify_export(rows, work)
+    _classify(work, ["limit", "limit"])
+    tu.classify_import(rows, work, records)
+    (work / "unbound" / "bind" / "replies" / "q1.0.txt").write_text(json.dumps({"action": "bind", "record": LIMIT, "sentence": None}))
+    (work / "unbound" / "bind" / "replies" / "q1.1.txt").write_text('{"action": "none", "record": null, "sentence": null}')
+    tu.bind_import(rows, work, records)
+    (work / "unbound" / "bindcheck" / "replies" / "q1.0.txt").write_text('{"supported": true, "problem": null, "reason": "ok"}')
+    summary = tu.final(rows, work, records)
+    assert "fallback_added" not in summary and (work / "unbound" / "final" / "q1.txt").read_text() == STATED
+
+
+def test_the_bindcheck_prompt_shows_the_sentence_before_it(tmp_path):
+    work, questions = _setup(tmp_path, "Another fact.")
+    answer = json.loads((work / "answers" / "q1.json").read_text())
+    answer["offered"] = [LIMIT, "lpc.witness.days-before-the-sun"]
+    (work / "answers" / "q1.json").write_text(json.dumps(answer))
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
+    tu.classify_export(rows, work)
+    _classify(work, ["world_claim", "world_claim", "connective", "world_claim"])
+    tu.classify_import(rows, work, records)
+    (work / "unbound" / "bind" / "replies" / "q1.1.txt").write_text(json.dumps({"action": "bind", "record": "lpc.witness.days-before-the-sun", "sentence": None}))
+    (work / "unbound" / "bind" / "replies" / "q1.3.txt").write_text('{"action": "none", "record": null, "sentence": null}')
+    tu.bind_import(rows, work, records)
+    prompt = (work / "unbound" / "bindcheck" / "prompts" / "q1.1.md").read_text()
+    assert "SENTENCE BEFORE IT" in prompt and "Bound claim." in prompt
+
+
+def test_an_unreadable_bindcheck_keeps_the_sentence_and_withholds_the_fallback(tmp_path):
+    work, _result, summary = _bind_run(tmp_path, json.dumps({"action": "bind", "record": "lpc.witness.days-before-the-sun", "sentence": None}), "garbage")
+    assert summary["unreadable"] == 1 and "fallback_added" not in summary

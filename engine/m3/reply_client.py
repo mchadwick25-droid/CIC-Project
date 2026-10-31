@@ -65,7 +65,7 @@ def offered_ids(request: dict) -> list[str]:
     if request["kind"] != "voice":
         return []
     text = "\n".join(m["text"] for m in request["messages"])
-    return list(dict.fromkeys(_OFFERED.findall(text)))
+    return list(dict.fromkeys(re.sub(r"^(?:quote|story):", "", found) for found in _OFFERED.findall(text)))
 
 
 class ReplyFileClient:

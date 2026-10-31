@@ -64,7 +64,7 @@ def _rewritten(work: Path, records: dict) -> dict[str, list[dict]]:
     for row in _load(work / "verify" / "rewrite.jsonl"):
         path = work / "verify" / "reread" / "replies" / f"{row['key']}.txt"
         if row.get("rewrite") and path.exists() and (vs.read_reply(path.read_text(encoding="utf-8"), row["rewrite"], row["bound"], records) or {}).get("supported"):
-            used.setdefault(row["question_id"], []).append({"n": f"{row['n']}r", "sentence": row["rewrite"], "bound": True, "records": row["bound"], "withheld": False, "why": None})
+            used.setdefault(row["question_id"], []).append({"n": f"{row['n']}r", "sentence": row["rewrite"], "before": row.get("before", ""), "bound": True, "records": row["bound"], "withheld": False, "why": None})
     return used
 
 
@@ -92,6 +92,11 @@ def classify_export(rows: list, work: Path) -> dict:
     return {"prompts_written": written, "withheld_by_the_net": withheld}
 
 
+def _starting_text(work: Path, question: dict, answer: dict) -> str:
+    start = work / "verify" / "final" / f"{question['id']}.txt"
+    return start.read_text(encoding="utf-8") if start.exists() else answer["text"]
+
+
 def classify_import(rows: list, work: Path, records: dict) -> dict:
     out, pending, unreadable = [], 0, 0
     for question, _answer, items in rows:
@@ -109,7 +114,7 @@ def classify_import(rows: list, work: Path, records: dict) -> dict:
             decision = us.decide_classified(judgement, item, records)
             out.append({**item, "key": key, "question_id": question["id"], "judgement": judgement, "decision": decision})
             offered = [r for r in _answer.get("offered") or [] if r in records]
-            if decision in ("withhold", "withhold_limit") and offered:
+            if decision in ("withhold", "withhold_limit") and offered and splice(_starting_text(work, question, _answer), item["sentence"], None)[1]:
                 _write_prompt(work, "bind", key, us.bind_request(question_text(question), item["sentence"], offered, records))
     _save(work / "unbound" / "classify.jsonl", out)
     return {"rows": len(out), "missing_replies": pending, "unreadable": unreadable,
@@ -132,14 +137,17 @@ def _position(text: str, sentence: str) -> int:
 def bind_import(rows: list, work: Path, records: dict) -> dict:
     """Read the bind replies; write a bindcheck prompt for each bind or repair that stands."""
     offered = {q["id"]: [r for r in a.get("offered") or [] if r in records] for q, a, _i in rows}
-    out, missing, stand = [], 0, 0
+    out, missing, stand, unreadable = [], 0, 0, 0
     for row in _load(work / "unbound" / "classify.jsonl"):
         if row["decision"] not in ("withhold", "withhold_limit") or not offered.get(row["question_id"]):
+            continue
+        if not (work / "unbound" / "bind" / "prompts" / f"{row['key']}.md").exists():
             continue
         reply = _reply(work, "bind", row["key"])
         if reply is None:
             missing += 1
             continue
+        unreadable += not us.bind_reply_readable(reply)
         found = us.parse_bind(reply, row["sentence"], offered[row["question_id"]], records)
         was_limit = row["decision"] == "withhold_limit"
         if found and not us.bound_limit_stands(found["sentence"], found["record"], was_limit, records):
@@ -149,7 +157,7 @@ def bind_import(rows: list, work: Path, records: dict) -> dict:
             stand += 1
             _write_prompt(work, "bindcheck", row["key"], vs.verify_request(found["sentence"], [found["record"]], records, row.get("before", "")))
     _save(work / "unbound" / "bind.jsonl", out)
-    return {"candidates": len(out), "missing_replies": missing, "bound_or_repaired": stand,
+    return {"candidates": len(out), "missing_replies": missing, "unreadable": unreadable, "bound_or_repaired": stand,
             "bound": sum(1 for r in out if r["bind"] and r["bind"]["action"] == "bind"),
             "repaired": sum(1 for r in out if r["bind"] and r["bind"]["action"] == "repair")}
 
@@ -161,8 +169,7 @@ def final(rows: list, work: Path, records: dict) -> dict:
     out_dir = work / "unbound" / "final"
     out_dir.mkdir(parents=True, exist_ok=True)
     for question, answer, items in rows:
-        start = work / "verify" / "final" / f"{question['id']}.txt"
-        text = start.read_text(encoding="utf-8") if start.exists() else answer["text"]
+        text = _starting_text(work, question, answer)
         shipped = [i for i in items if splice(text, i["sentence"], None)[1]]
         complete = True
         withheld_limits, kept_limits = [], 0
@@ -183,7 +190,9 @@ def final(rows: list, work: Path, records: dict) -> dict:
                     continue
                 judged = vs.read_reply(reply, found["sentence"], [found["record"]], records)
                 counts["unreadable"] += judged is None
+                complete = complete and judged is not None
                 if judged is None or judged["supported"]:
+                    kept_limits += decision == "withhold_limit"
                     counts["bound_kept" if found["action"] == "bind" else "repaired_kept"] += 1
                     if found["action"] == "repair":
                         text, _found = splice(text, item["sentence"], found["sentence"])

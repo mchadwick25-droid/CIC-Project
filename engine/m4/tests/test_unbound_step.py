@@ -117,3 +117,35 @@ def test_a_limit_bound_to_a_record_must_still_be_stated_by_it(records):
     assert us.bound_limit_stands(stated, "lpc.limit.womens-own-voice", True, records)
     assert not us.bound_limit_stands("Nothing we carry speaks of him.", "lpc.limit.womens-own-voice", True, records)
     assert us.bound_limit_stands("Nothing we carry speaks of him.", "lpc.limit.womens-own-voice", False, records)
+
+
+def test_a_repair_that_names_a_confidence_level_is_refused(records):
+    reply = '{"action": "repair", "record": "lpc.witness.days-before-the-sun", "sentence": "We hold it as Documented that the days came before the sun."}'
+    assert us.parse_bind(reply, "S.", OFFERED, records) is None
+
+
+def test_bind_reply_readable():
+    assert us.bind_reply_readable('{"action": "none", "record": null, "sentence": null}')
+    assert not us.bind_reply_readable("garbage") and not us.bind_reply_readable('{"action": "maybe"}')
+
+
+def test_shipped_items_carry_the_sentence_before_that_stays_in_the_answer(records):
+    answer = {"net_sentences": [_entry("First one."), _entry("Held out.", ["not.a.record"]), _entry("Then he spoke.", [LIMIT])]}
+    items = us.shipped_items(answer, records)
+    assert items[-1]["before"] == "First one." and items[0]["before"] == ""
+
+
+def test_a_repair_that_names_a_confidence_level_is_refused(records):
+    reply = '{"action": "repair", "record": "lpc.witness.days-before-the-sun", "sentence": "We hold it as Documented that the days came before the sun."}'
+    assert us.parse_bind(reply, "S.", OFFERED, records) is None
+
+
+def test_bind_reply_readable():
+    assert us.bind_reply_readable('{"action": "none", "record": null, "sentence": null}')
+    assert not us.bind_reply_readable("garbage") and not us.bind_reply_readable('{"action": "maybe"}')
+
+
+def test_shipped_items_carry_the_sentence_before_that_stays_in_the_answer(records):
+    answer = {"net_sentences": [_entry("First one."), _entry("Held out.", ["not.a.record"]), _entry("Then he spoke.", [LIMIT])]}
+    items = us.shipped_items(answer, records)
+    assert items[-1]["before"] == "First one." and items[0]["before"] == ""
