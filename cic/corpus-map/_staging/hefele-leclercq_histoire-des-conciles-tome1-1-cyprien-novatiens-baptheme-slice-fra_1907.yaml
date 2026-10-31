@@ -11,7 +11,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: fra
-    date: {start: 1907, end: 1907, source: "hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt header, Publication Date: 1907", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt: the edition header gives only the printing year (1907) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern French account of the councils under Cyprian and the baptism dispute. Registry
       row 248.

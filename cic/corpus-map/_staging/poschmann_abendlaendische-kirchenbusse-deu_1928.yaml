@@ -12,7 +12,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: deu
-    date: {start: 1928, end: 1928, source: "poschmann_abendlaendische-kirchenbusse-deu_1928.txt header, Publication Date: 1928", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "poschmann_abendlaendische-kirchenbusse-deu_1928.txt: the edition header gives only the printing year (1928) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern (1928) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. Penance teaching and practice in the Western churches at the close

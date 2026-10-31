@@ -11,7 +11,7 @@ assignments:
     confidence: assigned
     locus_ids: [whole-file]
     language: fra
-    date: {start: 1921, end: 1921, source: "delehaye_passions-martyrs-genres-litteraires-fra_1921.txt header, Publication Date: 1921", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "delehaye_passions-martyrs-genres-litteraires-fra_1921.txt: the edition header gives only the printing year (1921) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern (1921) French scholarship -- role context, not tradition.
       The foundational study of what the passio/formation-biography genre

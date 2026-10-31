@@ -11,6 +11,6 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: fra
-    date: {start: 1912, end: 1912, source: "mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt header, Publication Date: 1912", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt: the edition header gives only the printing year (1912) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern (1912) French survey of the African sees. Registry row 238.

@@ -11,7 +11,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: fra-lat
-    date: {start: 1922, end: 1922, source: "gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt header, Publication Date: 1922", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "gsell_inscriptions-latines-de-lalgerie-tome1-proconsulaire-fra-lat_1922.txt: the edition header gives only the printing year (1922) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern (1922) edition of Latin inscriptions from the old Proconsular province. Not
       checked against any specific inscription. Registry row 227.

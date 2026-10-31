@@ -22,7 +22,7 @@ assignments:
     confidence: provisional
     locus_ids: [piece11]
     language: lat
-    date: {start: 258, end: 258, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 258 as the date of the Acta S. Cypriani, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       Latin acts of Cyprian's martyrdom in Gebhardt's 1902 edition. Registry row 222.
   - row_id: acta-martyrum-selecta_gebhardt1902--passio-ss-mariani-et-iacobi
@@ -35,7 +35,7 @@ assignments:
     confidence: provisional
     locus_ids: [piece13]
     language: lat
-    date: {start: 259, end: 259, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 259 as the date of the Passio SS. Mariani et Iacobi, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       Latin martyr acts of the Cyprianic period. Registry row 222.
   - row_id: acta-martyrum-selecta_gebhardt1902--passio-ss-montani-et-lucii
@@ -48,6 +48,6 @@ assignments:
     confidence: provisional
     locus_ids: [piece14]
     language: lat
-    date: {start: 259, end: 259, source: "acta-martyrum-selecta_gebhardt1902.txt content note (conventional dates)", formation_confidence: Widely Accepted}
+    date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 259 as the date of the Passio SS. Montani et Lucii, 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing"}
     note: >
       Latin martyr acts of the Cyprianic period. Registry row 222.

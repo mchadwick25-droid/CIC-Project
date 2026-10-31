@@ -260,9 +260,9 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: provisional
-  locus_ids: [xiv.iii, xiv.iii/notes]
+  locus_ids: [xiv.iii]
   language: eng
-  date: {start: 180, end: 180, source: "acta-martyrum-selecta_gebhardt1902.txt content note: Passio Sanctorum Scilitanorum, Carthage, 180; also Source_Registry row 28 (180 CE)", formation_confidence: Widely Accepted}
+  date: {formation_confidence: unknown, checked: "acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows 28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing; Source_Registry row 28 (180 CE) is also the event year; anf09 div2 14.3 gives the consuls of the trial, not a date of writing"}
   note: 'Carthage, 180 CE — the earliest dated Latin Christian document, the direct root of
     the Carthaginian congregational tradition (and the world Tertullian''s Voice would speak
     from). It predates the entry''s c. 240s start; provisional for that reason, but no earlier

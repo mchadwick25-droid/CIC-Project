@@ -12,6 +12,6 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: deu
-    date: {start: 1857, end: 1857, source: "ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt header, Publication Date: 1857", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt: the edition header gives only the printing year (1857) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern (1857) German study of the Donatist dispute. Registry row 236.

@@ -12,7 +12,7 @@ assignments:
     confidence: assigned
     locus_ids: [whole-file]
     language: deu
-    date: {start: 1910, end: 1910, source: "koch_cyprian-und-der-roemische-primat-deu_1910.txt header, Publication Date: 1910", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "koch_cyprian-und-der-roemische-primat-deu_1910.txt: the edition header gives only the printing year (1910) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Modern (1910) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. Study of what Cyprian says about the Roman primacy (Texte und

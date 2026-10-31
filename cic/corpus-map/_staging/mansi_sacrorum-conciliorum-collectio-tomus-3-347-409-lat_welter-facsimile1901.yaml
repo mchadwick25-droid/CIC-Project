@@ -26,7 +26,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
     language: lat
     date: {start: 345, end: 348, source: "lauchert_kanones-altkirchlichen-concilien header contents list: Carthago I (c. 345-348); the Bruns header gives Carthage I-IV as 348-398", formation_confidence: Dominant Modern Reconstruction}
     note: >
@@ -39,7 +38,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
     language: lat
     date: {start: 419, end: 419, source: "npnf214_seven-ecumenical-councils.xml div2 15.4 heading and text: the council of 25 May 419", formation_confidence: Documented}
     note: >
@@ -53,7 +51,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
     language: lat
     date: {formation_confidence: unknown, checked: "mansi tomus 3 and 4 headers name the council by heading and file line but give no year; P1 and the Bruns/Lauchert headers do not match it to a dated council"}
     note: >
@@ -66,7 +63,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [whole-file]
     language: lat
     date: {formation_confidence: unknown, checked: "mansi tomus 3 and 4 headers name the council by heading and file line but give no year; P1 and the Bruns/Lauchert headers do not match it to a dated council"}
     note: >

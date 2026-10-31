@@ -13,7 +13,7 @@ assignments:
     locus_ids: [l11/c1/s1, l11/c1/s2, l11/c1/s3, l11/c1/s4, l11/c1/s5, l11/c1/s6, l11/appendice/1,
       l11/appendice/2, l11/appendice/3]
     language: fra
-    date: {start: 1923, end: 1923, source: "monceaux tomes 6-7 header: tome VII (file line 21976), Publication Date: 1923", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt: the edition header gives only the printing year (1923) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
     note: >
       Shared-Events Era 2 batch (worker C). Monceaux's own study (1923, French) of
       Augustine's campaign against Donatism, including the Conference of Carthage of 411

@@ -18,7 +18,6 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
-    locus_ids: [whole-file]
     language: lat
     date: {start: 314, end: 314, source: "mansi_sacrorum-conciliorum-collectio-tomus-2 header: Council of Arles 314", formation_confidence: Widely Accepted}
     note: >

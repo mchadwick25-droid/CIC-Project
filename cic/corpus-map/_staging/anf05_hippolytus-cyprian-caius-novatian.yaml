@@ -172,7 +172,7 @@ assignments:
   locus_ids: [iv.iii/line26345, iv.iii/line26399, iv.iii/line26449, iv.iii/line26497,
     iv.iii/line26549, iv.iii/line26571, iv.iii/line26618, iv.iii/line26642, iv.iii/line26680,
     iv.iii/line26707, iv.iii/line26753, iv.iii/line26800, iv.iii/line26848, iv.iii/line26875,
-    iv.iii/line26915, iv.iii/line26947, iv.iii/line26970, iv.iii/line26998, iv.iii/notes]
+    iv.iii/line26915, iv.iii/line26947, iv.iii/line26970, iv.iii/line26998]
   language: eng
   date: {formation_confidence: unknown, checked: "Build/worlds/lpc/Doc_02_Source_Ecology.md says only 'composed after Cyprian's martyrdom (258), within living memory'; ANF 5 div2 4.3 has no introductory notice. A lower bound of 258 is stated, no end"}
   note: 'By Pontius the Deacon, Cyprian''s own deacon - often counted the earliest Christian
@@ -193,82 +193,56 @@ assignments:
   locus_ids: [iv.iv.i/line27028, iv.iv.i/line27077, iv.iv.i/line27096, iv.iv.i/line27128,
     iv.iv.i/line27165, iv.iv.i/line27201, iv.iv.i/line27223, iv.iv.i/line27249, iv.iv.i/line27292,
     iv.iv.i/line27315, iv.iv.i/line27359, iv.iv.i/line27398, iv.iv.i/line27429, iv.iv.i/line27447,
-    iv.iv.i/line27475, iv.iv.i/line27501, iv.iv.i/notes, iv.iv.ii, iv.iv.ii/notes, iv.iv.iii,
-    iv.iv.iii/notes, iv.iv.iv, iv.iv.iv/notes, iv.iv.v, iv.iv.v/notes, iv.iv.vi, iv.iv.vi/notes,
-    iv.iv.vii, iv.iv.vii/notes, iv.iv.viii, iv.iv.viii/notes, iv.iv.ix, iv.iv.ix/notes, iv.iv.x,
-    iv.iv.x/notes, iv.iv.xi, iv.iv.xi/notes, iv.iv.xii, iv.iv.xii/notes, iv.iv.xiii,
-    iv.iv.xiii/notes, iv.iv.xiv, iv.iv.xiv/notes, iv.iv.xv, iv.iv.xv/notes, iv.iv.xvi,
-    iv.iv.xvi/notes, iv.iv.xvii, iv.iv.xvii/notes, iv.iv.xviii, iv.iv.xviii/notes, iv.iv.xix,
-    iv.iv.xix/notes, iv.iv.xx, iv.iv.xx/notes, iv.iv.xxi, iv.iv.xxi/notes, iv.iv.xxii,
-    iv.iv.xxii/notes, iv.iv.xxiii, iv.iv.xxiii/notes, iv.iv.xxiv, iv.iv.xxiv/notes, iv.iv.xxv,
-    iv.iv.xxv/notes, iv.iv.xxvi, iv.iv.xxvi/notes, iv.iv.xxvii, iv.iv.xxvii/notes, iv.iv.xxviii,
-    iv.iv.xxviii/notes, iv.iv.xxix, iv.iv.xxix/notes, iv.iv.xxx/line30248, iv.iv.xxx/line30283,
-    iv.iv.xxx/line30313, iv.iv.xxx/line30351, iv.iv.xxx/line30371, iv.iv.xxx/line30413,
-    iv.iv.xxx/line30449, iv.iv.xxx/line30476, iv.iv.xxx/notes, iv.iv.xxxi, iv.iv.xxxi/notes,
-    iv.iv.xxxii, iv.iv.xxxii/notes, iv.iv.xxxiii, iv.iv.xxxiii/notes, iv.iv.xxxiv,
-    iv.iv.xxxiv/notes, iv.iv.xxxv, iv.iv.xxxv/notes, iv.iv.xxxvi, iv.iv.xxxvi/notes, iv.iv.xxxvii,
-    iv.iv.xxxvii/notes, iv.iv.xxxviii, iv.iv.xxxviii/notes, iv.iv.xxxix, iv.iv.xxxix/notes,
-    iv.iv.xl, iv.iv.xl/notes, iv.iv.xli, iv.iv.xli/notes, iv.iv.xlii, iv.iv.xlii/notes, iv.iv.xliii,
-    iv.iv.xliii/notes, iv.iv.xliv, iv.iv.xliv/notes, iv.iv.xlv, iv.iv.xlv/notes, iv.iv.xlvi,
-    iv.iv.xlvi/notes, iv.iv.xlvii, iv.iv.xlvii/notes, iv.iv.xlviii, iv.iv.xlviii/notes, iv.iv.xlix,
-    iv.iv.xlix/notes, iv.iv.l, iv.iv.l/notes, iv.iv.li/line32085, iv.iv.li/line32112,
-    iv.iv.li/line32148, iv.iv.li/line32178, iv.iv.li/line32197, iv.iv.li/line32221,
-    iv.iv.li/line32242, iv.iv.li/line32283, iv.iv.li/line32311, iv.iv.li/line32347,
-    iv.iv.li/line32387, iv.iv.li/line32413, iv.iv.li/line32438, iv.iv.li/line32460,
-    iv.iv.li/line32481, iv.iv.li/line32512, iv.iv.li/line32530, iv.iv.li/line32553,
-    iv.iv.li/line32611, iv.iv.li/line32643, iv.iv.li/line32686, iv.iv.li/line32703,
-    iv.iv.li/line32725, iv.iv.li/line32764, iv.iv.li/line32789, iv.iv.li/line32811, iv.iv.li/notes,
-    iv.iv.lii, iv.iv.lii/notes, iv.iv.liii, iv.iv.liii/notes, iv.iv.liv/line33097,
-    iv.iv.liv/line33132, iv.iv.liv/line33184, iv.iv.liv/line33227, iv.iv.liv/line33265,
-    iv.iv.liv/line33308, iv.iv.liv/line33332, iv.iv.liv/line33371, iv.iv.liv/line33389,
-    iv.iv.liv/line33437, iv.iv.liv/line33461, iv.iv.liv/line33490, iv.iv.liv/line33519,
-    iv.iv.liv/line33596, iv.iv.liv/line33638, iv.iv.liv/line33683, iv.iv.liv/line33714,
-    iv.iv.liv/line33737, iv.iv.liv/line33756, iv.iv.liv/line33789, iv.iv.liv/notes,
+    iv.iv.i/line27475, iv.iv.i/line27501, iv.iv.ii, iv.iv.iii, iv.iv.iv, iv.iv.v, iv.iv.vi,
+    iv.iv.vii, iv.iv.viii, iv.iv.ix, iv.iv.x, iv.iv.xi, iv.iv.xii, iv.iv.xiii, iv.iv.xiv, iv.iv.xv,
+    iv.iv.xvi, iv.iv.xvii, iv.iv.xviii, iv.iv.xix, iv.iv.xx, iv.iv.xxi, iv.iv.xxii, iv.iv.xxiii,
+    iv.iv.xxiv, iv.iv.xxv, iv.iv.xxvi, iv.iv.xxvii, iv.iv.xxviii, iv.iv.xxix, iv.iv.xxx/line30248,
+    iv.iv.xxx/line30283, iv.iv.xxx/line30313, iv.iv.xxx/line30351, iv.iv.xxx/line30371,
+    iv.iv.xxx/line30413, iv.iv.xxx/line30449, iv.iv.xxx/line30476, iv.iv.xxxi, iv.iv.xxxii,
+    iv.iv.xxxiii, iv.iv.xxxiv, iv.iv.xxxv, iv.iv.xxxvi, iv.iv.xxxvii, iv.iv.xxxviii, iv.iv.xxxix,
+    iv.iv.xl, iv.iv.xli, iv.iv.xlii, iv.iv.xliii, iv.iv.xliv, iv.iv.xlv, iv.iv.xlvi, iv.iv.xlvii,
+    iv.iv.xlviii, iv.iv.xlix, iv.iv.l, iv.iv.li/line32085, iv.iv.li/line32112, iv.iv.li/line32148,
+    iv.iv.li/line32178, iv.iv.li/line32197, iv.iv.li/line32221, iv.iv.li/line32242,
+    iv.iv.li/line32283, iv.iv.li/line32311, iv.iv.li/line32347, iv.iv.li/line32387,
+    iv.iv.li/line32413, iv.iv.li/line32438, iv.iv.li/line32460, iv.iv.li/line32481,
+    iv.iv.li/line32512, iv.iv.li/line32530, iv.iv.li/line32553, iv.iv.li/line32611,
+    iv.iv.li/line32643, iv.iv.li/line32686, iv.iv.li/line32703, iv.iv.li/line32725,
+    iv.iv.li/line32764, iv.iv.li/line32789, iv.iv.li/line32811, iv.iv.lii, iv.iv.liii,
+    iv.iv.liv/line33097, iv.iv.liv/line33132, iv.iv.liv/line33184, iv.iv.liv/line33227,
+    iv.iv.liv/line33265, iv.iv.liv/line33308, iv.iv.liv/line33332, iv.iv.liv/line33371,
+    iv.iv.liv/line33389, iv.iv.liv/line33437, iv.iv.liv/line33461, iv.iv.liv/line33490,
+    iv.iv.liv/line33519, iv.iv.liv/line33596, iv.iv.liv/line33638, iv.iv.liv/line33683,
+    iv.iv.liv/line33714, iv.iv.liv/line33737, iv.iv.liv/line33756, iv.iv.liv/line33789,
     iv.iv.lv/line33845, iv.iv.lv/line33892, iv.iv.lv/line33934, iv.iv.lv/line33956,
     iv.iv.lv/line33980, iv.iv.lv/line34020, iv.iv.lv/line34056, iv.iv.lv/line34081,
-    iv.iv.lv/line34114, iv.iv.lv/line34137, iv.iv.lv/line34163, iv.iv.lv/notes, iv.iv.lvi,
-    iv.iv.lvi/notes, iv.iv.lvii, iv.iv.lvii/notes, iv.iv.lviii, iv.iv.lviii/notes, iv.iv.lix,
-    iv.iv.lix/notes, iv.iv.lx, iv.iv.lx/notes, iv.iv.lxi, iv.iv.lxi/notes, iv.iv.lxii/line34933,
-    iv.iv.lxii/line34974, iv.iv.lxii/line34999, iv.iv.lxii/line35038, iv.iv.lxii/line35057,
-    iv.iv.lxii/line35088, iv.iv.lxii/line35131, iv.iv.lxii/line35157, iv.iv.lxii/line35187,
-    iv.iv.lxii/line35218, iv.iv.lxii/line35238, iv.iv.lxii/line35266, iv.iv.lxii/line35304,
-    iv.iv.lxii/line35341, iv.iv.lxii/line35361, iv.iv.lxii/line35404, iv.iv.lxii/notes, iv.iv.lxiii,
-    iv.iv.lxiii/notes, iv.iv.lxiv, iv.iv.lxiv/notes, iv.iv.lxv, iv.iv.lxv/notes, iv.iv.lxvi,
-    iv.iv.lxvi/notes, iv.iv.lxvii/line35931, iv.iv.lxvii/line35985, iv.iv.lxvii/line36010,
-    iv.iv.lxvii/line36035, iv.iv.lxvii/line36072, iv.iv.lxvii/line36105, iv.iv.lxvii/line36134,
-    iv.iv.lxvii/line36178, iv.iv.lxvii/notes, iv.iv.lxviii, iv.iv.lxviii/notes, iv.iv.lxix,
-    iv.iv.lxix/notes, iv.iv.lxx, iv.iv.lxx/notes, iv.iv.lxxi, iv.iv.lxxi/notes,
-    iv.iv.lxxii/line36844, iv.iv.lxxii/line36880, iv.iv.lxxii/line36913, iv.iv.lxxii/line36930,
-    iv.iv.lxxii/line36950, iv.iv.lxxii/line36982, iv.iv.lxxii/line36999, iv.iv.lxxii/line37016,
-    iv.iv.lxxii/line37051, iv.iv.lxxii/line37078, iv.iv.lxxii/line37101, iv.iv.lxxii/line37116,
-    iv.iv.lxxii/line37138, iv.iv.lxxii/line37167, iv.iv.lxxii/line37188, iv.iv.lxxii/line37206,
-    iv.iv.lxxii/line37240, iv.iv.lxxii/line37274, iv.iv.lxxii/line37311, iv.iv.lxxii/line37353,
-    iv.iv.lxxii/line37379, iv.iv.lxxii/line37415, iv.iv.lxxii/line37440, iv.iv.lxxii/notes,
-    iv.iv.lxxiii/line37461, iv.iv.lxxiii/line37496, iv.iv.lxxiii/line37543, iv.iv.lxxiii/line37565,
-    iv.iv.lxxiii/line37586, iv.iv.lxxiii/line37619, iv.iv.lxxiii/line37636, iv.iv.lxxiii/line37657,
-    iv.iv.lxxiii/line37696, iv.iv.lxxiii/line37720, iv.iv.lxxiii/line37756, iv.iv.lxxiii/line37782,
-    iv.iv.lxxiii/notes, iv.iv.lxxiv/line37798, iv.iv.lxxiv/line37835, iv.iv.lxxiv/line37857,
+    iv.iv.lv/line34114, iv.iv.lv/line34137, iv.iv.lv/line34163, iv.iv.lvi, iv.iv.lvii, iv.iv.lviii,
+    iv.iv.lix, iv.iv.lx, iv.iv.lxi, iv.iv.lxii/line34933, iv.iv.lxii/line34974,
+    iv.iv.lxii/line34999, iv.iv.lxii/line35038, iv.iv.lxii/line35057, iv.iv.lxii/line35088,
+    iv.iv.lxii/line35131, iv.iv.lxii/line35157, iv.iv.lxii/line35187, iv.iv.lxii/line35218,
+    iv.iv.lxii/line35238, iv.iv.lxii/line35266, iv.iv.lxii/line35304, iv.iv.lxii/line35341,
+    iv.iv.lxii/line35361, iv.iv.lxii/line35404, iv.iv.lxiii, iv.iv.lxiv, iv.iv.lxv, iv.iv.lxvi,
+    iv.iv.lxvii/line35931, iv.iv.lxvii/line35985, iv.iv.lxvii/line36010, iv.iv.lxvii/line36035,
+    iv.iv.lxvii/line36072, iv.iv.lxvii/line36105, iv.iv.lxvii/line36134, iv.iv.lxvii/line36178,
+    iv.iv.lxviii, iv.iv.lxix, iv.iv.lxx, iv.iv.lxxi, iv.iv.lxxii/line36844, iv.iv.lxxii/line36880,
+    iv.iv.lxxii/line36913, iv.iv.lxxii/line36930, iv.iv.lxxii/line36950, iv.iv.lxxii/line36982,
+    iv.iv.lxxii/line36999, iv.iv.lxxii/line37016, iv.iv.lxxii/line37051, iv.iv.lxxii/line37078,
+    iv.iv.lxxii/line37101, iv.iv.lxxii/line37116, iv.iv.lxxii/line37138, iv.iv.lxxii/line37167,
+    iv.iv.lxxii/line37188, iv.iv.lxxii/line37206, iv.iv.lxxii/line37240, iv.iv.lxxii/line37274,
+    iv.iv.lxxii/line37311, iv.iv.lxxii/line37353, iv.iv.lxxii/line37379, iv.iv.lxxii/line37415,
+    iv.iv.lxxii/line37440, iv.iv.lxxiii/line37461, iv.iv.lxxiii/line37496, iv.iv.lxxiii/line37543,
+    iv.iv.lxxiii/line37565, iv.iv.lxxiii/line37586, iv.iv.lxxiii/line37619, iv.iv.lxxiii/line37636,
+    iv.iv.lxxiii/line37657, iv.iv.lxxiii/line37696, iv.iv.lxxiii/line37720, iv.iv.lxxiii/line37756,
+    iv.iv.lxxiii/line37782, iv.iv.lxxiv/line37798, iv.iv.lxxiv/line37835, iv.iv.lxxiv/line37857,
     iv.iv.lxxiv/line37893, iv.iv.lxxiv/line37917, iv.iv.lxxiv/line37941, iv.iv.lxxiv/line37960,
     iv.iv.lxxiv/line38001, iv.iv.lxxiv/line38020, iv.iv.lxxiv/line38045, iv.iv.lxxiv/line38103,
     iv.iv.lxxiv/line38131, iv.iv.lxxiv/line38174, iv.iv.lxxiv/line38193, iv.iv.lxxiv/line38217,
     iv.iv.lxxiv/line38247, iv.iv.lxxiv/line38283, iv.iv.lxxiv/line38315, iv.iv.lxxiv/line38333,
-    iv.iv.lxxiv/line38360, iv.iv.lxxiv/line38389, iv.iv.lxxiv/line38411, iv.iv.lxxiv/notes,
-    iv.iv.lxxv/line38445, iv.iv.lxxv/line38501, iv.iv.lxxv/line38533, iv.iv.lxxv/line38549,
-    iv.iv.lxxv/line38576, iv.iv.lxxv/line38594, iv.iv.lxxv/line38643, iv.iv.lxxv/line38659,
-    iv.iv.lxxv/line38696, iv.iv.lxxv/line38718, iv.iv.lxxv/line38738, iv.iv.lxxv/line38769,
-    iv.iv.lxxv/line38814, iv.iv.lxxv/line38842, iv.iv.lxxv/line38869, iv.iv.lxxv/line38899,
-    iv.iv.lxxv/line38920, iv.iv.lxxv/notes, iv.iv.lxxvi, iv.iv.lxxvi/notes, iv.iv.lxxvii,
-    iv.iv.lxxvii/notes, iv.iv.lxxviii, iv.iv.lxxviii/notes, iv.iv.lxxix, iv.iv.lxxix/notes,
-    iv.iv.lxxx, iv.iv.lxxx/notes, iv.iv.lxxxi, iv.iv.lxxxi/notes, iv.iv.lxxxii, iv.iv.lxxxii/notes,
-    iv.iv.lxxxiii/line39588, iv.iv.lxxxiii/line39632, iv.iv.lxxxiii/line39663,
-    iv.iv.lxxxiii/line39706, iv.iv.lxxxiii/line39729, iv.iv.lxxxiii/line39769,
-    iv.iv.lxxxiii/line39802, iv.iv.lxxxiii/line39839, iv.iv.lxxxiii/line39883,
-    iv.iv.lxxxiii/line39931, iv.iv.lxxxiii/line39962, iv.iv.lxxxiii/line40009,
-    iv.iv.lxxxiii/line40039, iv.iv.lxxxiii/line40070, iv.iv.lxxxiii/line40100,
-    iv.iv.lxxxiii/line40151, iv.iv.lxxxiii/line40189, iv.iv.lxxxiii/line40230,
-    iv.iv.lxxxiii/line40261, iv.iv.lxxxiii/line40285, iv.iv.lxxxiii/line40314,
-    iv.iv.lxxxiii/line40344, iv.iv.lxxxiii/line40389, iv.iv.lxxxiii/line40441,
-    iv.iv.lxxxiii/line40467, iv.iv.lxxxiii/line40503, iv.iv.lxxxiii/notes]
+    iv.iv.lxxiv/line38360, iv.iv.lxxiv/line38389, iv.iv.lxxiv/line38411, iv.iv.lxxv/line38445,
+    iv.iv.lxxv/line38501, iv.iv.lxxv/line38533, iv.iv.lxxv/line38549, iv.iv.lxxv/line38576,
+    iv.iv.lxxv/line38594, iv.iv.lxxv/line38643, iv.iv.lxxv/line38659, iv.iv.lxxv/line38696,
+    iv.iv.lxxv/line38718, iv.iv.lxxv/line38738, iv.iv.lxxv/line38769, iv.iv.lxxv/line38814,
+    iv.iv.lxxv/line38842, iv.iv.lxxv/line38869, iv.iv.lxxv/line38899, iv.iv.lxxv/line38920,
+    iv.iv.lxxvi, iv.iv.lxxvii, iv.iv.lxxviii, iv.iv.lxxix, iv.iv.lxxx, iv.iv.lxxxi, iv.iv.lxxxii]
   language: eng
   date: {start: 246, end: 258, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: Epistle to Donatus 246, remaining letters to his martyrdom 258", formation_confidence: Widely Accepted}
   note: 'The central documentary corpus of mid-3rd-c. North African church life: the Decian
@@ -333,7 +307,7 @@ assignments:
     iv.v.i/line40849, iv.v.i/line40874, iv.v.i/line40900, iv.v.i/line40953, iv.v.i/line41012,
     iv.v.i/line41038, iv.v.i/line41066, iv.v.i/line41098, iv.v.i/line41122, iv.v.i/line41147,
     iv.v.i/line41169, iv.v.i/line41211, iv.v.i/line41235, iv.v.i/line41266, iv.v.i/line41287,
-    iv.v.i/line41321, iv.v.i/notes]
+    iv.v.i/line41321]
   language: eng
   date: {start: 251, end: 251, source: "Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md section 7: De Unitate written c. 251 against Novatian and Felicissimus", formation_confidence: Widely Accepted}
   note: 'The classic treatise on schism and the one episcopate, written amid the Novatianist
@@ -377,7 +351,7 @@ assignments:
     iv.v.ii/line41482, iv.v.ii/line41515, iv.v.ii/line41544, iv.v.ii/line41578, iv.v.ii/line41597,
     iv.v.ii/line41616, iv.v.ii/line41635, iv.v.ii/line41664, iv.v.ii/line41685, iv.v.ii/line41721,
     iv.v.ii/line41740, iv.v.ii/line41768, iv.v.ii/line41789, iv.v.ii/line41818, iv.v.ii/line41839,
-    iv.v.ii/line41862, iv.v.ii/line41913, iv.v.ii/line41942, iv.v.ii/line41976, iv.v.ii/notes]
+    iv.v.ii/line41862, iv.v.ii/line41913, iv.v.ii/line41942, iv.v.ii/line41976]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'Pastoral discipline for consecrated virgins, following Tertullian''s dress treatises.
@@ -398,7 +372,7 @@ assignments:
     iv.v.iii/line42465, iv.v.iii/line42490, iv.v.iii/line42530, iv.v.iii/line42556,
     iv.v.iii/line42575, iv.v.iii/line42593, iv.v.iii/line42625, iv.v.iii/line42659,
     iv.v.iii/line42694, iv.v.iii/line42725, iv.v.iii/line42752, iv.v.iii/line42770,
-    iv.v.iii/line42808, iv.v.iii/line42833, iv.v.iii/line42869, iv.v.iii/line42920, iv.v.iii/notes]
+    iv.v.iii/line42808, iv.v.iii/line42833, iv.v.iii/line42869, iv.v.iii/line42920]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'The post-Decian treatise on those who sacrificed under persecution - the founding
@@ -435,7 +409,7 @@ assignments:
     iv.v.iv/line43395, iv.v.iv/line43426, iv.v.iv/line43456, iv.v.iv/line43478, iv.v.iv/line43503,
     iv.v.iv/line43529, iv.v.iv/line43565, iv.v.iv/line43590, iv.v.iv/line43610, iv.v.iv/line43629,
     iv.v.iv/line43673, iv.v.iv/line43707, iv.v.iv/line43743, iv.v.iv/line43762, iv.v.iv/line43800,
-    iv.v.iv/line43825, iv.v.iv/line43861, iv.v.iv/notes]
+    iv.v.iv/line43825, iv.v.iv/line43861]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'Catechetical-pastoral exposition, dependent on Tertullian''s De Oratione.
@@ -453,8 +427,7 @@ assignments:
     iv.v.v/line44010, iv.v.v/line44031, iv.v.v/line44053, iv.v.v/line44079, iv.v.v/line44102,
     iv.v.v/line44134, iv.v.v/line44171, iv.v.v/line44204, iv.v.v/line44235, iv.v.v/line44263,
     iv.v.v/line44282, iv.v.v/line44302, iv.v.v/line44332, iv.v.v/line44363, iv.v.v/line44382,
-    iv.v.v/line44405, iv.v.v/line44437, iv.v.v/line44493, iv.v.v/line44515, iv.v.v/line44553,
-    iv.v.v/notes]
+    iv.v.v/line44405, iv.v.v/line44437, iv.v.v/line44493, iv.v.v/line44515, iv.v.v/line44553]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'Reply to a pagan critic blaming Christians for the empire''s disasters - apologetic
@@ -486,7 +459,7 @@ assignments:
   confidence: provisional
   locus_ids: [iv.v.vi/line44597, iv.v.vi/line44628, iv.v.vi/line44651, iv.v.vi/line44688,
     iv.v.vi/line44718, iv.v.vi/line44736, iv.v.vi/line44766, iv.v.vi/line44784, iv.v.vi/line44808,
-    iv.v.vi/line44825, iv.v.vi/line44842, iv.v.vi/line44873, iv.v.vi/line44898, iv.v.vi/notes]
+    iv.v.vi/line44825, iv.v.vi/line44842, iv.v.vi/line44873, iv.v.vi/line44898]
   language: eng
   date: {start: 246, end: 248, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: written before he became bishop (248), after the baptism of 246 that the same notice dates; start is that baptism", formation_confidence: Inferential-Thin}
   note: 'Authenticity has been questioned (it compiles Tertullian and Minucius Felix), but
@@ -521,7 +494,7 @@ assignments:
     iv.v.vii/line45158, iv.v.vii/line45179, iv.v.vii/line45205, iv.v.vii/line45226,
     iv.v.vii/line45254, iv.v.vii/line45283, iv.v.vii/line45303, iv.v.vii/line45334,
     iv.v.vii/line45351, iv.v.vii/line45377, iv.v.vii/line45397, iv.v.vii/line45418,
-    iv.v.vii/line45441, iv.v.vii/line45460, iv.v.vii/line45483, iv.v.vii/line45502, iv.v.vii/notes]
+    iv.v.vii/line45441, iv.v.vii/line45460, iv.v.vii/line45483, iv.v.vii/line45502]
   language: eng
   date: {start: 252, end: 253, source: "Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md section 2: the Carthage plague and De Mortalitate (c. 252-253)", formation_confidence: Widely Accepted}
   note: 'Pastoral consolation during the great plague of the 250s - lived congregational experience
@@ -542,7 +515,7 @@ assignments:
     iv.v.viii/line45872, iv.v.viii/line45898, iv.v.viii/line45921, iv.v.viii/line45954,
     iv.v.viii/line45981, iv.v.viii/line46016, iv.v.viii/line46041, iv.v.viii/line46071,
     iv.v.viii/line46095, iv.v.viii/line46110, iv.v.viii/line46145, iv.v.viii/line46200,
-    iv.v.viii/line46217, iv.v.viii/line46246, iv.v.viii/notes]
+    iv.v.viii/line46217, iv.v.viii/line46246]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'Almsgiving as the congregation''s practical piety.
@@ -560,7 +533,7 @@ assignments:
     iv.v.ix/line46406, iv.v.ix/line46430, iv.v.ix/line46472, iv.v.ix/line46498, iv.v.ix/line46527,
     iv.v.ix/line46562, iv.v.ix/line46584, iv.v.ix/line46613, iv.v.ix/line46653, iv.v.ix/line46689,
     iv.v.ix/line46720, iv.v.ix/line46741, iv.v.ix/line46762, iv.v.ix/line46795, iv.v.ix/line46824,
-    iv.v.ix/line46860, iv.v.ix/line46883, iv.v.ix/line46901, iv.v.ix/notes]
+    iv.v.ix/line46860, iv.v.ix/line46883, iv.v.ix/line46901]
   language: eng
   date: {start: 256, end: 256, source: "anf05_hippolytus-cyprian-caius-novatian.xml div3 4.5.9 heading of On the Advantage of Patience: sent with the Epistle to Jubaianus, a.d. 256", formation_confidence: Widely Accepted}
   note: 'Written amid the baptismal controversy with Rome; reworks Tertullian''s De Patientia.
@@ -577,7 +550,7 @@ assignments:
   locus_ids: [iv.v.x/line46933, iv.v.x/line46975, iv.v.x/line46994, iv.v.x/line47017,
     iv.v.x/line47037, iv.v.x/line47071, iv.v.x/line47102, iv.v.x/line47128, iv.v.x/line47145,
     iv.v.x/line47166, iv.v.x/line47192, iv.v.x/line47218, iv.v.x/line47242, iv.v.x/line47264,
-    iv.v.x/line47300, iv.v.x/line47330, iv.v.x/line47355, iv.v.x/line47388, iv.v.x/notes]
+    iv.v.x/line47300, iv.v.x/line47330, iv.v.x/line47355, iv.v.x/line47388]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'Pastoral treatise against rivalry in the congregation.
@@ -591,12 +564,9 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
-  locus_ids: [iv.v.xi.i, iv.v.xi.i/notes, iv.v.xi.ii, iv.v.xi.ii/notes, iv.v.xi.iii,
-    iv.v.xi.iii/notes, iv.v.xi.iv, iv.v.xi.iv/notes, iv.v.xi.v, iv.v.xi.v/notes, iv.v.xi.vi,
-    iv.v.xi.vi/notes, iv.v.xi.vii, iv.v.xi.vii/notes, iv.v.xi.viii, iv.v.xi.viii/notes, iv.v.xi.ix,
-    iv.v.xi.ix/notes, iv.v.xi.x, iv.v.xi.x/notes, iv.v.xi.xi, iv.v.xi.xi/notes, iv.v.xi.xii,
-    iv.v.xi.xii/notes, iv.v.xi.xiii/line48021, iv.v.xi.xiii/line48158, iv.v.xi.xiii/line48235,
-    iv.v.xi.xiii/notes, iv.v.xi.xiv, iv.v.xi.xiv/notes, iv.v.xi.xv, iv.v.xi.xv/notes]
+  locus_ids: [iv.v.xi.i, iv.v.xi.ii, iv.v.xi.iii, iv.v.xi.iv, iv.v.xi.v, iv.v.xi.vi, iv.v.xi.vii,
+    iv.v.xi.viii, iv.v.xi.ix, iv.v.xi.x, iv.v.xi.xi, iv.v.xi.xii, iv.v.xi.xiii/line48021,
+    iv.v.xi.xiii/line48158, iv.v.xi.xiii/line48235, iv.v.xi.xiv, iv.v.xi.xv]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 Introductory Notice to Cyprian (anf05 div iv.ii), the treatise's own ANF heading and argument, Build/worlds/lpc Doc_01 and Source_Registry, records/lpc/source: none states a window for this work"}
   note: 'Scripture testimonies arming the congregation for the Valerianic persecution.
@@ -610,94 +580,42 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
-  locus_ids: [iv.v.xii.i, iv.v.xii.i/notes, iv.v.xii.ii.i, iv.v.xii.ii.i/notes, iv.v.xii.ii.ii,
-    iv.v.xii.ii.ii/notes, iv.v.xii.ii.iii, iv.v.xii.ii.iii/notes, iv.v.xii.ii.iv,
-    iv.v.xii.ii.iv/notes, iv.v.xii.ii.v, iv.v.xii.ii.v/notes, iv.v.xii.ii.vi, iv.v.xii.ii.vi/notes,
-    iv.v.xii.ii.vii, iv.v.xii.ii.vii/notes, iv.v.xii.ii.viii, iv.v.xii.ii.viii/notes,
-    iv.v.xii.ii.ix, iv.v.xii.ii.ix/notes, iv.v.xii.ii.x, iv.v.xii.ii.x/notes, iv.v.xii.ii.xi,
-    iv.v.xii.ii.xi/notes, iv.v.xii.ii.xii, iv.v.xii.ii.xii/notes, iv.v.xii.ii.xiii,
-    iv.v.xii.ii.xiii/notes, iv.v.xii.ii.xiv, iv.v.xii.ii.xiv/notes, iv.v.xii.ii.xv,
-    iv.v.xii.ii.xv/notes, iv.v.xii.ii.xvi, iv.v.xii.ii.xvi/notes, iv.v.xii.ii.xvii,
-    iv.v.xii.ii.xvii/notes, iv.v.xii.ii.xviii, iv.v.xii.ii.xviii/notes, iv.v.xii.ii.xix,
-    iv.v.xii.ii.xix/notes, iv.v.xii.ii.xx, iv.v.xii.ii.xx/notes, iv.v.xii.ii.xxi,
-    iv.v.xii.ii.xxi/notes, iv.v.xii.ii.xxii, iv.v.xii.ii.xxii/notes, iv.v.xii.ii.xxiii,
-    iv.v.xii.ii.xxiii/notes, iv.v.xii.ii.xxiv, iv.v.xii.ii.xxiv/notes, iv.v.xii.ii.xxv,
-    iv.v.xii.ii.xxv/notes, iv.v.xii.iii.i, iv.v.xii.iii.ii, iv.v.xii.iii.ii/notes, iv.v.xii.iii.iii,
-    iv.v.xii.iii.iii/notes, iv.v.xii.iii.iv, iv.v.xii.iii.iv/notes, iv.v.xii.iii.v,
-    iv.v.xii.iii.v/notes, iv.v.xii.iii.vi, iv.v.xii.iii.vi/notes, iv.v.xii.iii.vii,
-    iv.v.xii.iii.vii/notes, iv.v.xii.iii.viii, iv.v.xii.iii.viii/notes, iv.v.xii.iii.ix,
-    iv.v.xii.iii.ix/notes, iv.v.xii.iii.x, iv.v.xii.iii.x/notes, iv.v.xii.iii.xi,
-    iv.v.xii.iii.xi/notes, iv.v.xii.iii.xii, iv.v.xii.iii.xii/notes, iv.v.xii.iii.xiii,
-    iv.v.xii.iii.xiii/notes, iv.v.xii.iii.xiv, iv.v.xii.iii.xiv/notes, iv.v.xii.iii.xv,
-    iv.v.xii.iii.xv/notes, iv.v.xii.iii.xvi, iv.v.xii.iii.xvi/notes, iv.v.xii.iii.xvii,
-    iv.v.xii.iii.xvii/notes, iv.v.xii.iii.xviii, iv.v.xii.iii.xviii/notes, iv.v.xii.iii.xix,
-    iv.v.xii.iii.xix/notes, iv.v.xii.iii.xx, iv.v.xii.iii.xx/notes, iv.v.xii.iii.xxi,
-    iv.v.xii.iii.xxi/notes, iv.v.xii.iii.xxii, iv.v.xii.iii.xxii/notes, iv.v.xii.iii.xxiii,
-    iv.v.xii.iii.xxiii/notes, iv.v.xii.iii.xxiv, iv.v.xii.iii.xxiv/notes, iv.v.xii.iii.xxv,
-    iv.v.xii.iii.xxv/notes, iv.v.xii.iii.xxvi, iv.v.xii.iii.xxvi/notes, iv.v.xii.iii.xxvii,
-    iv.v.xii.iii.xxvii/notes, iv.v.xii.iii.xxviii, iv.v.xii.iii.xxviii/notes, iv.v.xii.iii.xxix,
-    iv.v.xii.iii.xxix/notes, iv.v.xii.iii.xxx, iv.v.xii.iii.xxx/notes, iv.v.xii.iii.xxxi,
-    iv.v.xii.iii.xxxi/notes, iv.v.xii.iv.i, iv.v.xii.iv.i/notes, iv.v.xii.iv.ii,
-    iv.v.xii.iv.ii/notes, iv.v.xii.iv.iii, iv.v.xii.iv.iii/notes, iv.v.xii.iv.iv,
-    iv.v.xii.iv.iv/notes, iv.v.xii.iv.v, iv.v.xii.iv.v/notes, iv.v.xii.iv.vi, iv.v.xii.iv.vi/notes,
-    iv.v.xii.iv.vii, iv.v.xii.iv.vii/notes, iv.v.xii.iv.viii, iv.v.xii.iv.viii/notes,
-    iv.v.xii.iv.ix, iv.v.xii.iv.ix/notes, iv.v.xii.iv.x, iv.v.xii.iv.x/notes, iv.v.xii.iv.xi,
-    iv.v.xii.iv.xi/notes, iv.v.xii.iv.xii, iv.v.xii.iv.xii/notes, iv.v.xii.iv.xiii,
-    iv.v.xii.iv.xiii/notes, iv.v.xii.iv.xiv, iv.v.xii.iv.xiv/notes, iv.v.xii.iv.xv,
-    iv.v.xii.iv.xv/notes, iv.v.xii.iv.xvi, iv.v.xii.iv.xvi/notes, iv.v.xii.iv.xvii,
-    iv.v.xii.iv.xvii/notes, iv.v.xii.iv.xviii, iv.v.xii.iv.xviii/notes, iv.v.xii.iv.xix,
-    iv.v.xii.iv.xix/notes, iv.v.xii.iv.xx, iv.v.xii.iv.xx/notes, iv.v.xii.iv.xxi,
-    iv.v.xii.iv.xxi/notes, iv.v.xii.iv.xxii, iv.v.xii.iv.xxii/notes, iv.v.xii.iv.xxiii,
-    iv.v.xii.iv.xxiii/notes, iv.v.xii.iv.xxiv, iv.v.xii.iv.xxiv/notes, iv.v.xii.iv.xxv,
-    iv.v.xii.iv.xxv/notes, iv.v.xii.iv.xxvi, iv.v.xii.iv.xxvi/notes, iv.v.xii.iv.xxvii,
-    iv.v.xii.iv.xxvii/notes, iv.v.xii.iv.xxviii, iv.v.xii.iv.xxviii/notes, iv.v.xii.iv.xxix,
-    iv.v.xii.iv.xxix/notes, iv.v.xii.iv.xxx, iv.v.xii.iv.xxx/notes, iv.v.xii.iv.xxxi,
-    iv.v.xii.iv.xxxi/notes, iv.v.xii.iv.xxxii, iv.v.xii.iv.xxxii/notes, iv.v.xii.iv.xxxiii,
-    iv.v.xii.iv.xxxiii/notes, iv.v.xii.iv.xxxiv, iv.v.xii.iv.xxxiv/notes, iv.v.xii.iv.xxxv,
-    iv.v.xii.iv.xxxv/notes, iv.v.xii.iv.xxxvi, iv.v.xii.iv.xxxvi/notes, iv.v.xii.iv.xxxvii,
-    iv.v.xii.iv.xxxvii/notes, iv.v.xii.iv.xxxviii, iv.v.xii.iv.xxxviii/notes, iv.v.xii.iv.xxxix,
-    iv.v.xii.iv.xxxix/notes, iv.v.xii.iv.xl, iv.v.xii.iv.xl/notes, iv.v.xii.iv.xli,
-    iv.v.xii.iv.xli/notes, iv.v.xii.iv.xlii, iv.v.xii.iv.xlii/notes, iv.v.xii.iv.xliii,
-    iv.v.xii.iv.xliii/notes, iv.v.xii.iv.xliv, iv.v.xii.iv.xliv/notes, iv.v.xii.iv.xlv,
-    iv.v.xii.iv.xlv/notes, iv.v.xii.iv.xlvi, iv.v.xii.iv.xlvi/notes, iv.v.xii.iv.xlvii,
-    iv.v.xii.iv.xlvii/notes, iv.v.xii.iv.xlviii, iv.v.xii.iv.xlviii/notes, iv.v.xii.iv.xlix,
-    iv.v.xii.iv.xlix/notes, iv.v.xii.iv.l, iv.v.xii.iv.l/notes, iv.v.xii.iv.li,
-    iv.v.xii.iv.li/notes, iv.v.xii.iv.lii, iv.v.xii.iv.lii/notes, iv.v.xii.iv.liii,
-    iv.v.xii.iv.liii/notes, iv.v.xii.iv.liv, iv.v.xii.iv.liv/notes, iv.v.xii.iv.lv,
-    iv.v.xii.iv.lv/notes, iv.v.xii.iv.lvi, iv.v.xii.iv.lvi/notes, iv.v.xii.iv.lvii,
-    iv.v.xii.iv.lvii/notes, iv.v.xii.iv.lviii, iv.v.xii.iv.lviii/notes, iv.v.xii.iv.lix,
-    iv.v.xii.iv.lix/notes, iv.v.xii.iv.lx, iv.v.xii.iv.lx/notes, iv.v.xii.iv.lxi,
-    iv.v.xii.iv.lxi/notes, iv.v.xii.iv.lxii, iv.v.xii.iv.lxii/notes, iv.v.xii.iv.lxiii,
-    iv.v.xii.iv.lxiii/notes, iv.v.xii.iv.lxiv, iv.v.xii.iv.lxiv/notes, iv.v.xii.iv.lxv,
-    iv.v.xii.iv.lxv/notes, iv.v.xii.iv.lxvi, iv.v.xii.iv.lxvi/notes, iv.v.xii.iv.lxvii,
-    iv.v.xii.iv.lxvii/notes, iv.v.xii.iv.lxviii, iv.v.xii.iv.lxviii/notes, iv.v.xii.iv.lxix,
-    iv.v.xii.iv.lxix/notes, iv.v.xii.iv.lxx, iv.v.xii.iv.lxx/notes, iv.v.xii.iv.lxxi,
-    iv.v.xii.iv.lxxi/notes, iv.v.xii.iv.lxxii, iv.v.xii.iv.lxxii/notes, iv.v.xii.iv.lxxiii,
-    iv.v.xii.iv.lxxiii/notes, iv.v.xii.iv.lxxiv, iv.v.xii.iv.lxxiv/notes, iv.v.xii.iv.lxxv,
-    iv.v.xii.iv.lxxv/notes, iv.v.xii.iv.lxxvi, iv.v.xii.iv.lxxvi/notes, iv.v.xii.iv.lxxvii,
-    iv.v.xii.iv.lxxvii/notes, iv.v.xii.iv.lxxviii, iv.v.xii.iv.lxxviii/notes, iv.v.xii.iv.lxxix,
-    iv.v.xii.iv.lxxix/notes, iv.v.xii.iv.lxxx, iv.v.xii.iv.lxxx/notes, iv.v.xii.iv.lxxxi,
-    iv.v.xii.iv.lxxxi/notes, iv.v.xii.iv.lxxxii, iv.v.xii.iv.lxxxii/notes, iv.v.xii.iv.lxxxiii,
-    iv.v.xii.iv.lxxxiii/notes, iv.v.xii.iv.lxxxiv, iv.v.xii.iv.lxxxiv/notes, iv.v.xii.iv.lxxxv,
-    iv.v.xii.iv.lxxxv/notes, iv.v.xii.iv.lxxxvi, iv.v.xii.iv.lxxxvi/notes, iv.v.xii.iv.lxxxvii,
-    iv.v.xii.iv.lxxxvii/notes, iv.v.xii.iv.lxxxviii, iv.v.xii.iv.lxxxviii/notes, iv.v.xii.iv.lxxxix,
-    iv.v.xii.iv.lxxxix/notes, iv.v.xii.iv.xc, iv.v.xii.iv.xc/notes, iv.v.xii.iv.xci,
-    iv.v.xii.iv.xci/notes, iv.v.xii.iv.xcii, iv.v.xii.iv.xcii/notes, iv.v.xii.iv.xciii,
-    iv.v.xii.iv.xciii/notes, iv.v.xii.iv.xciv, iv.v.xii.iv.xciv/notes, iv.v.xii.iv.xcv,
-    iv.v.xii.iv.xcv/notes, iv.v.xii.iv.xcvi, iv.v.xii.iv.xcvi/notes, iv.v.xii.iv.xcvii,
-    iv.v.xii.iv.xcvii/notes, iv.v.xii.iv.xcviii, iv.v.xii.iv.xcviii/notes, iv.v.xii.iv.xcix,
-    iv.v.xii.iv.xcix/notes, iv.v.xii.iv.c, iv.v.xii.iv.c/notes, iv.v.xii.iv.ci,
-    iv.v.xii.iv.ci/notes, iv.v.xii.iv.cii, iv.v.xii.iv.cii/notes, iv.v.xii.iv.ciii,
-    iv.v.xii.iv.ciii/notes, iv.v.xii.iv.civ, iv.v.xii.iv.civ/notes, iv.v.xii.iv.cv,
-    iv.v.xii.iv.cv/notes, iv.v.xii.iv.cvi, iv.v.xii.iv.cvi/notes, iv.v.xii.iv.cvii,
-    iv.v.xii.iv.cvii/notes, iv.v.xii.iv.cviii, iv.v.xii.iv.cviii/notes, iv.v.xii.iv.cix,
-    iv.v.xii.iv.cix/notes, iv.v.xii.iv.cx, iv.v.xii.iv.cx/notes, iv.v.xii.iv.cxi,
-    iv.v.xii.iv.cxi/notes, iv.v.xii.iv.cxii, iv.v.xii.iv.cxii/notes, iv.v.xii.iv.cxiii,
-    iv.v.xii.iv.cxiii/notes, iv.v.xii.iv.cxiv, iv.v.xii.iv.cxiv/notes, iv.v.xii.iv.cxv,
-    iv.v.xii.iv.cxv/notes, iv.v.xii.iv.cxvi, iv.v.xii.iv.cxvi/notes, iv.v.xii.iv.cxvii,
-    iv.v.xii.iv.cxvii/notes, iv.v.xii.iv.cxviii, iv.v.xii.iv.cxviii/notes, iv.v.xii.iv.cxix,
-    iv.v.xii.iv.cxix/notes, iv.v.xii.iv.cxx, iv.v.xii.iv.cxx/notes, iv.v.xii.iv.cxxi,
-    iv.v.xii.iv.cxxi/notes, iv.v.xii.iv.cxxii, iv.v.xii.iv.cxxii/notes]
+  locus_ids: [iv.v.xii.i, iv.v.xii.ii.i, iv.v.xii.ii.ii, iv.v.xii.ii.iii, iv.v.xii.ii.iv,
+    iv.v.xii.ii.v, iv.v.xii.ii.vi, iv.v.xii.ii.vii, iv.v.xii.ii.viii, iv.v.xii.ii.ix, iv.v.xii.ii.x,
+    iv.v.xii.ii.xi, iv.v.xii.ii.xii, iv.v.xii.ii.xiii, iv.v.xii.ii.xiv, iv.v.xii.ii.xv,
+    iv.v.xii.ii.xvi, iv.v.xii.ii.xvii, iv.v.xii.ii.xviii, iv.v.xii.ii.xix, iv.v.xii.ii.xx,
+    iv.v.xii.ii.xxi, iv.v.xii.ii.xxii, iv.v.xii.ii.xxiii, iv.v.xii.ii.xxiv, iv.v.xii.ii.xxv,
+    iv.v.xii.iii.i, iv.v.xii.iii.ii, iv.v.xii.iii.iii, iv.v.xii.iii.iv, iv.v.xii.iii.v,
+    iv.v.xii.iii.vi, iv.v.xii.iii.vii, iv.v.xii.iii.viii, iv.v.xii.iii.ix, iv.v.xii.iii.x,
+    iv.v.xii.iii.xi, iv.v.xii.iii.xii, iv.v.xii.iii.xiii, iv.v.xii.iii.xiv, iv.v.xii.iii.xv,
+    iv.v.xii.iii.xvi, iv.v.xii.iii.xvii, iv.v.xii.iii.xviii, iv.v.xii.iii.xix, iv.v.xii.iii.xx,
+    iv.v.xii.iii.xxi, iv.v.xii.iii.xxii, iv.v.xii.iii.xxiii, iv.v.xii.iii.xxiv, iv.v.xii.iii.xxv,
+    iv.v.xii.iii.xxvi, iv.v.xii.iii.xxvii, iv.v.xii.iii.xxviii, iv.v.xii.iii.xxix, iv.v.xii.iii.xxx,
+    iv.v.xii.iii.xxxi, iv.v.xii.iv.i, iv.v.xii.iv.ii, iv.v.xii.iv.iii, iv.v.xii.iv.iv,
+    iv.v.xii.iv.v, iv.v.xii.iv.vi, iv.v.xii.iv.vii, iv.v.xii.iv.viii, iv.v.xii.iv.ix, iv.v.xii.iv.x,
+    iv.v.xii.iv.xi, iv.v.xii.iv.xii, iv.v.xii.iv.xiii, iv.v.xii.iv.xiv, iv.v.xii.iv.xv,
+    iv.v.xii.iv.xvi, iv.v.xii.iv.xvii, iv.v.xii.iv.xviii, iv.v.xii.iv.xix, iv.v.xii.iv.xx,
+    iv.v.xii.iv.xxi, iv.v.xii.iv.xxii, iv.v.xii.iv.xxiii, iv.v.xii.iv.xxiv, iv.v.xii.iv.xxv,
+    iv.v.xii.iv.xxvi, iv.v.xii.iv.xxvii, iv.v.xii.iv.xxviii, iv.v.xii.iv.xxix, iv.v.xii.iv.xxx,
+    iv.v.xii.iv.xxxi, iv.v.xii.iv.xxxii, iv.v.xii.iv.xxxiii, iv.v.xii.iv.xxxiv, iv.v.xii.iv.xxxv,
+    iv.v.xii.iv.xxxvi, iv.v.xii.iv.xxxvii, iv.v.xii.iv.xxxviii, iv.v.xii.iv.xxxix, iv.v.xii.iv.xl,
+    iv.v.xii.iv.xli, iv.v.xii.iv.xlii, iv.v.xii.iv.xliii, iv.v.xii.iv.xliv, iv.v.xii.iv.xlv,
+    iv.v.xii.iv.xlvi, iv.v.xii.iv.xlvii, iv.v.xii.iv.xlviii, iv.v.xii.iv.xlix, iv.v.xii.iv.l,
+    iv.v.xii.iv.li, iv.v.xii.iv.lii, iv.v.xii.iv.liii, iv.v.xii.iv.liv, iv.v.xii.iv.lv,
+    iv.v.xii.iv.lvi, iv.v.xii.iv.lvii, iv.v.xii.iv.lviii, iv.v.xii.iv.lix, iv.v.xii.iv.lx,
+    iv.v.xii.iv.lxi, iv.v.xii.iv.lxii, iv.v.xii.iv.lxiii, iv.v.xii.iv.lxiv, iv.v.xii.iv.lxv,
+    iv.v.xii.iv.lxvi, iv.v.xii.iv.lxvii, iv.v.xii.iv.lxviii, iv.v.xii.iv.lxix, iv.v.xii.iv.lxx,
+    iv.v.xii.iv.lxxi, iv.v.xii.iv.lxxii, iv.v.xii.iv.lxxiii, iv.v.xii.iv.lxxiv, iv.v.xii.iv.lxxv,
+    iv.v.xii.iv.lxxvi, iv.v.xii.iv.lxxvii, iv.v.xii.iv.lxxviii, iv.v.xii.iv.lxxix, iv.v.xii.iv.lxxx,
+    iv.v.xii.iv.lxxxi, iv.v.xii.iv.lxxxii, iv.v.xii.iv.lxxxiii, iv.v.xii.iv.lxxxiv,
+    iv.v.xii.iv.lxxxv, iv.v.xii.iv.lxxxvi, iv.v.xii.iv.lxxxvii, iv.v.xii.iv.lxxxviii,
+    iv.v.xii.iv.lxxxix, iv.v.xii.iv.xc, iv.v.xii.iv.xci, iv.v.xii.iv.xcii, iv.v.xii.iv.xciii,
+    iv.v.xii.iv.xciv, iv.v.xii.iv.xcv, iv.v.xii.iv.xcvi, iv.v.xii.iv.xcvii, iv.v.xii.iv.xcviii,
+    iv.v.xii.iv.xcix, iv.v.xii.iv.c, iv.v.xii.iv.ci, iv.v.xii.iv.cii, iv.v.xii.iv.ciii,
+    iv.v.xii.iv.civ, iv.v.xii.iv.cv, iv.v.xii.iv.cvi, iv.v.xii.iv.cvii, iv.v.xii.iv.cviii,
+    iv.v.xii.iv.cix, iv.v.xii.iv.cx, iv.v.xii.iv.cxi, iv.v.xii.iv.cxii, iv.v.xii.iv.cxiii,
+    iv.v.xii.iv.cxiv, iv.v.xii.iv.cxv, iv.v.xii.iv.cxvi, iv.v.xii.iv.cxvii, iv.v.xii.iv.cxviii,
+    iv.v.xii.iv.cxix, iv.v.xii.iv.cxx, iv.v.xii.iv.cxxi, iv.v.xii.iv.cxxii]
   language: eng
   date: {start: 246, end: 248, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: written before he became bishop (248), after the baptism of 246 that the same notice dates; start is that baptism", formation_confidence: Inferential-Thin}
   note: 'Proof-text collection; a principal witness to the Latin biblical text and to catechetical
@@ -717,8 +635,7 @@ assignments:
     iv.vi.i/line55240, iv.vi.i/line55267, iv.vi.i/line55290, iv.vi.i/line55316, iv.vi.i/line55339,
     iv.vi.i/line55372, iv.vi.i/line55396, iv.vi.i/line55416, iv.vi.i/line55441, iv.vi.i/line55469,
     iv.vi.i/line55502, iv.vi.i/line55528, iv.vi.i/line55558, iv.vi.i/line55592, iv.vi.i/line55624,
-    iv.vi.i/line55648, iv.vi.i/line55681, iv.vi.i/line55702, iv.vi.i/line55729, iv.vi.i/notes,
-    iv.vi.ii, iv.vi.ii/notes]
+    iv.vi.i/line55648, iv.vi.i/line55681, iv.vi.i/line55702, iv.vi.i/line55729]
   language: eng
   date: {start: 256, end: 258, source: "Contested across the repo: Source_Registry row 4 and records/lpc/source cyprian-seventh-council-of-carthage give 256; anf05_hippolytus-cyprian-caius-novatian.xml div2 4.6 heading gives a.d. 258; npnf214_seven-ecumenical-councils.xml heading gives a.d. 257", formation_confidence: Contested}
   note: 'Conciliar acts under Cyprian''s presidency - a collective document (the recorded
@@ -754,24 +671,23 @@ assignments:
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: assigned
-  locus_ids: [iv.vii, iv.vii.i, iv.vii.i/notes, iv.vii.ii/line55869, iv.vii.ii/line55920,
-    iv.vii.ii/line55953, iv.vii.ii/line55986, iv.vii.ii/line56023, iv.vii.ii/line56067,
-    iv.vii.ii/line56104, iv.vii.ii/line56128, iv.vii.ii/line56151, iv.vii.ii/line56182,
-    iv.vii.ii/notes, iv.vii.iii/line56214, iv.vii.iii/line56268, iv.vii.iii/line56286,
-    iv.vii.iii/line56306, iv.vii.iii/line56337, iv.vii.iii/line56374, iv.vii.iii/line56398,
-    iv.vii.iii/line56428, iv.vii.iii/line56448, iv.vii.iii/line56487, iv.vii.iii/line56512,
-    iv.vii.iii/line56541, iv.vii.iii/line56565, iv.vii.iii/line56597, iv.vii.iii/line56631,
-    iv.vii.iii/line56669, iv.vii.iii/line56711, iv.vii.iii/line56734, iv.vii.iii/line56756,
-    iv.vii.iii/line56785, iv.vii.iii/line56801, iv.vii.iii/line56826, iv.vii.iii/line56848,
-    iv.vii.iii/line56869, iv.vii.iii/line56893, iv.vii.iii/line56917, iv.vii.iii/line56946,
-    iv.vii.iii/line56978, iv.vii.iii/notes, iv.vii.iv/line57010, iv.vii.iv/line57047,
-    iv.vii.iv/line57079, iv.vii.iv/line57114, iv.vii.iv/line57132, iv.vii.iv/line57159,
-    iv.vii.iv/line57180, iv.vii.iv/line57202, iv.vii.iv/line57244, iv.vii.iv/line57268,
-    iv.vii.iv/line57296, iv.vii.iv/line57324, iv.vii.iv/line57362, iv.vii.iv/line57389,
-    iv.vii.iv/notes, iv.vii.v/line57413, iv.vii.v/line57447, iv.vii.v/line57472, iv.vii.v/line57501,
-    iv.vii.v/line57526, iv.vii.v/line57551, iv.vii.v/line57577, iv.vii.v/line57608,
-    iv.vii.v/line57638, iv.vii.v/line57662, iv.vii.v/line57690, iv.vii.v/line57717,
-    iv.vii.v/line57743, iv.vii.v/notes, iv.vii.vi, iv.vii.vi/notes]
+  locus_ids: [iv.vii, iv.vii.ii/line55869, iv.vii.ii/line55920, iv.vii.ii/line55953,
+    iv.vii.ii/line55986, iv.vii.ii/line56023, iv.vii.ii/line56067, iv.vii.ii/line56104,
+    iv.vii.ii/line56128, iv.vii.ii/line56151, iv.vii.ii/line56182, iv.vii.iii/line56214,
+    iv.vii.iii/line56268, iv.vii.iii/line56286, iv.vii.iii/line56306, iv.vii.iii/line56337,
+    iv.vii.iii/line56374, iv.vii.iii/line56398, iv.vii.iii/line56428, iv.vii.iii/line56448,
+    iv.vii.iii/line56487, iv.vii.iii/line56512, iv.vii.iii/line56541, iv.vii.iii/line56565,
+    iv.vii.iii/line56597, iv.vii.iii/line56631, iv.vii.iii/line56669, iv.vii.iii/line56711,
+    iv.vii.iii/line56734, iv.vii.iii/line56756, iv.vii.iii/line56785, iv.vii.iii/line56801,
+    iv.vii.iii/line56826, iv.vii.iii/line56848, iv.vii.iii/line56869, iv.vii.iii/line56893,
+    iv.vii.iii/line56917, iv.vii.iii/line56946, iv.vii.iii/line56978, iv.vii.iv/line57010,
+    iv.vii.iv/line57047, iv.vii.iv/line57079, iv.vii.iv/line57114, iv.vii.iv/line57132,
+    iv.vii.iv/line57159, iv.vii.iv/line57180, iv.vii.iv/line57202, iv.vii.iv/line57244,
+    iv.vii.iv/line57268, iv.vii.iv/line57296, iv.vii.iv/line57324, iv.vii.iv/line57362,
+    iv.vii.iv/line57389, iv.vii.v/line57413, iv.vii.v/line57447, iv.vii.v/line57472,
+    iv.vii.v/line57501, iv.vii.v/line57526, iv.vii.v/line57551, iv.vii.v/line57577,
+    iv.vii.v/line57608, iv.vii.v/line57638, iv.vii.v/line57662, iv.vii.v/line57690,
+    iv.vii.v/line57717, iv.vii.v/line57743]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 div2 4.7 Translator's Introduction and Source_Registry row 6: the four pieces are disputed and the repo gives no window"}
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
@@ -839,11 +755,11 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: provisional
-  locus_ids: [vii.iii.i, vii.iii.i/notes, vii.iii.ii/line62279, vii.iii.ii/line62330,
-    vii.iii.ii/line62399, vii.iii.ii/line62420, vii.iii.ii/line62435, vii.iii.ii/line62462,
-    vii.iii.ii/line62493, vii.iii.ii/line62537, vii.iii.ii/line62591, vii.iii.ii/line62619,
-    vii.iii.ii/line62650, vii.iii.ii/line62691, vii.iii.ii/line62722, vii.iii.ii/line62749,
-    vii.iii.ii/line62778, vii.iii.ii/line62810, vii.iii.ii/line62848, vii.iii.ii/notes]
+  locus_ids: [vii.iii.ii/line62279, vii.iii.ii/line62330, vii.iii.ii/line62399,
+    vii.iii.ii/line62420, vii.iii.ii/line62435, vii.iii.ii/line62462, vii.iii.ii/line62493,
+    vii.iii.ii/line62537, vii.iii.ii/line62591, vii.iii.ii/line62619, vii.iii.ii/line62650,
+    vii.iii.ii/line62691, vii.iii.ii/line62722, vii.iii.ii/line62749, vii.iii.ii/line62778,
+    vii.iii.ii/line62810, vii.iii.ii/line62848]
   language: eng
   date: {start: 254, end: 256, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 7.3 introductory notice: written early in the reign of Valerian (254-256); Source_Registry row 8 gives c. 255", formation_confidence: Widely Accepted}
   note: '3rd-c. anti-Novatianist treatise (c. 255, probably African; the editorial notice
@@ -860,12 +776,11 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: provisional
-  locus_ids: [vii.iv.i, vii.iv.i/notes, vii.iv.ii/line62933, vii.iv.ii/line63025,
-    vii.iv.ii/line63076, vii.iv.ii/line63108, vii.iv.ii/line63155, vii.iv.ii/line63180,
-    vii.iv.ii/line63198, vii.iv.ii/line63283, vii.iv.ii/line63314, vii.iv.ii/line63352,
-    vii.iv.ii/line63425, vii.iv.ii/line63481, vii.iv.ii/line63518, vii.iv.ii/line63588,
-    vii.iv.ii/line63634, vii.iv.ii/line63683, vii.iv.ii/line63750, vii.iv.ii/line63786,
-    vii.iv.ii/line63822, vii.iv.ii/line63852, vii.iv.ii/notes, vii.iv.iii, vii.iv.iii/notes]
+  locus_ids: [vii.iv.ii/line62933, vii.iv.ii/line63025, vii.iv.ii/line63076, vii.iv.ii/line63108,
+    vii.iv.ii/line63155, vii.iv.ii/line63180, vii.iv.ii/line63198, vii.iv.ii/line63283,
+    vii.iv.ii/line63314, vii.iv.ii/line63352, vii.iv.ii/line63425, vii.iv.ii/line63481,
+    vii.iv.ii/line63518, vii.iv.ii/line63588, vii.iv.ii/line63634, vii.iv.ii/line63683,
+    vii.iv.ii/line63750, vii.iv.ii/line63786, vii.iv.ii/line63822, vii.iv.ii/line63852]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 div2 7.4 introductory notice says only 'about the time of that Father' (Rigaltius) while the baptismal dispute was live; no years stated"}
   note: 'The anti-Cyprianic side of the 250s rebaptism controversy, arguing heretical baptism
