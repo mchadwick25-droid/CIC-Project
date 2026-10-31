@@ -21,5 +21,7 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: provisional
+  language: ces-lat
+  date: {start: 1441, end: 1444, source: "title (file line 113): 'Prameny k synodám strany pražské a táborské ... v létech 1441-1444'", formation_confidence: Documented}
   note: 'Both parties'' documents from the synods of 1441-1444 in Czech; placed on the Hussite entry as
     the origin of the Utraquist-Taborite exchange. Provisional: not read through.'

@@ -9,6 +9,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: assigned
+  language: ces
+  date: {formation_confidence: unknown, checked: "title page and the notes naming manuscripts of 1412 and 1414: several works, no composition year stated"}
   note: Hus's shorter Czech works, among them the Dcerka, the Zrcadlo and the Výklad písničky Šalomúnovy,
     in Czech, in a critical edition from the oldest known sources. These are Hus's own Czech pastoral
     works, which the vendored English letters and De Ecclesia do not reach. Primary original evidence

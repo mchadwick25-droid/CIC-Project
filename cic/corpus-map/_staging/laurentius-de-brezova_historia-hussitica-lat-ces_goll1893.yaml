@@ -10,6 +10,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: provisional
+  language: lat-ces
+  date: {formation_confidence: unknown, checked: "editor's notes (file lines 1735 and 2581): the Historia closes in 1422 and one passage was written no earlier than late 1419; no composition year stated"}
   note: 'Lawrence of Březová, an Utraquist chronicler close to the Prague university, on the Hussite movement
     to 1422, in Latin. He is the main source for Tabor and the Adamites and is hostile to Tabor, so the
     Taborite strand is seen through him and not in its own voice. The volume also holds Bartošek''s chronicle
