@@ -1,6 +1,6 @@
 file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
-scheme: Petschenig's section numbers (Arabic, restarting at 1 in each book), printed at the head of each section and usually after the Roman chapter number; each work and book is addressed by its printed title and book number,
-  a repeated page of the scan by the line where it starts, and a section marker the scan cannot read by its line number
+scheme: Petschenig's section numbers (Arabic, restarting at 1 in each book), printed at the head of each section and usually after the Roman chapter number; each work and book is addressed by its printed
+  title and book number; a stretch the scan prints twice, or one whose numbers the page does not show in full, is addressed head by head by the line where it starts and is not part of the numbered series
 curator: Sonnet 5.5
 status: drafted
 rules:
@@ -20,10 +20,15 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w1
   lines:
-  - 2083
-  - 3368
+  - - 2083
+    - 3368
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 2439
+    set:
+      s: '6'
+    quote: 6. Frustra itaque
 - id: w2
   pattern: .
   lines:
@@ -37,13 +42,18 @@ rules:
   - - 3370
     - 3382
   - - 3384
-    - 3474
-  - - 3476
-    - 5324
-  - - 5326
     - 6197
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 3475
+    set:
+      s: '3'
+    quote: 8. Accipientes itaque
+  - line: 5325
+    set:
+      s: '30'
+    quote: 80. Et haec quidem
 - id: w3
   pattern: .
   lines:
@@ -73,11 +83,14 @@ rules:
   parent: w4
   lines:
   - - 8473
-    - 9642
-  - - 9644
     - 9992
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 9643
+    set:
+      s: '23'
+    quote: 28. Ecclesia quippe
 - id: w5
   pattern: .
   lines:
@@ -91,8 +104,6 @@ rules:
   - - 9994
     - 10081
   - - 10083
-    - 10143
-  - - 10145
     - 10182
   - - 10184
     - 10896
@@ -100,6 +111,11 @@ rules:
     - 11147
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 10144
+    set:
+      s: '3'
+    quote: II. 8. Cum in unum
 - id: w6
   pattern: .
   lines:
@@ -127,8 +143,8 @@ rules:
   parent: w7
   lines:
   - - 12512
-    - 12891
-  - - 12893
+    - 12805
+  - - 12807
     - 14463
   locus: sectio{s|int}
   number: s
@@ -152,6 +168,11 @@ rules:
     - 16315
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 14466
+    set:
+      s: '1'
+    quote: I. l.Ecclesiae
 - id: w9
   pattern: .
   lines:
@@ -167,13 +188,32 @@ rules:
   - - 16651
     - 17112
   - - 17114
-    - 17355
-  - - 17357
     - 18105
   - - 18107
     - 18602
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 16889
+    set:
+      s: '14'
+    quote: '[13] 14. Ad ea quae'
+  - line: 16930
+    set:
+      s: '17'
+    quote: '[16] 17. Nouatus'
+  - line: 16936
+    set:
+      s: '19'
+    quote: '[18] 19. Nemesianus'
+  - line: 17087
+    set:
+      s: '23'
+    quote: '[22] 23. Lucius'
+  - line: 17356
+    set:
+      s: '34'
+    quote: XX. 84. Pollianus
 - id: w10
   pattern: .
   lines:
@@ -190,6 +230,11 @@ rules:
     - 20437
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 19797
+    set:
+      s: '80'
+    quote: XLI. Honoratus a Tucca
 - id: w11
   pattern: .
   lines:
@@ -201,8 +246,6 @@ rules:
   parent: w11
   lines:
   - - 24748
-    - 24837
-  - - 24839
     - 25289
   - - 25291
     - 25540
@@ -210,118 +253,77 @@ rules:
     - 25767
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 24838
+    set:
+      s: '3'
+    quote: II. 8. Unde igitur
 - id: w12
   pattern: .
   lines:
   - 25768
   - 25768
   locus: contra-litteras-petiliani-liber2
+- id: s12x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w12
+  lines:
+  - - 28627
+    - 28922
+  locus: line{line}
+- id: s12x2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w12
+  lines:
+  - - 29617
+    - 29916
+  locus: line{line}
+- id: s12x3
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w12
+  lines:
+  - - 31873
+    - 31901
+  - - 31903
+    - 32169
+  locus: line{line}
 - id: s12
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w12
   lines:
   - - 25769
-    - 27634
-  - - 27636
-    - 28922
-  - - 28924
-    - 28940
-  - - 28942
-    - 28974
-  - - 28976
-    - 28992
-  - - 28994
-    - 29091
-  - - 29093
-    - 29096
-  - - 29098
-    - 29129
-  - - 29131
-    - 29151
-  - - 29153
-    - 29195
-  - - 29197
-    - 29200
-  - - 29202
-    - 29202
-  - - 29204
-    - 29916
-  - - 29918
-    - 29921
-  - - 29923
-    - 29966
-  - - 29968
-    - 29971
-  - - 29973
-    - 29974
-  - - 29976
-    - 29978
-  - - 29980
-    - 30011
-  - - 30013
-    - 30023
-  - - 30025
-    - 30027
-  - - 30029
-    - 30036
-  - - 30038
-    - 30067
-  - - 30069
-    - 30071
-  - - 30073
-    - 30078
-  - - 30080
-    - 30082
-  - - 30084
-    - 30138
-  - - 30140
-    - 30162
-  - - 30164
-    - 30170
-  - - 30172
-    - 30173
-  - - 30175
-    - 30189
-  - - 30191
     - 31901
   - - 31903
-    - 32127
-  - - 32129
-    - 32133
-  - - 32135
-    - 32169
-  - - 32171
-    - 32223
-  - - 32225
-    - 32282
-  - - 32284
-    - 32292
-  - - 32294
-    - 32295
-  - - 32297
-    - 32301
-  - - 32303
-    - 32319
-  - - 32321
-    - 32327
-  - - 32329
-    - 32330
-  - - 32332
-    - 32338
-  - - 32340
-    - 32341
-  - - 32343
-    - 32386
-  - - 32388
-    - 32759
-  - - 32761
-    - 33219
-  - - 33221
     - 33225
   - - 33227
     - 33386
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 26887
+    set:
+      s: '46'
+    quote: 4f>. Et tamea
+  - line: 27635
+    set:
+      s: '73'
+    quote: 78. Augustinus respondit
+  - line: 30008
+    set:
+      s: '145'
+    quote: 145. Petilianus
+  - line: 30032
+    set:
+      s: '149'
+    quote: 149. Petilianus
+  - line: 32760
+    set:
+      s: '233'
+    quote: 238. Iam cetera
+  - line: 33220
+    set:
+      s: '243'
+    quote: 248. Augastinus
 - id: w13
   pattern: .
   lines:
@@ -333,10 +335,6 @@ rules:
   parent: w13
   lines:
   - - 33388
-    - 34842
-  - - 34844
-    - 35168
-  - - 35170
     - 35390
   - - 35392
     - 36124
@@ -344,93 +342,102 @@ rules:
     - 36665
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 34077
+    set:
+      s: '15'
+    quote: 15. Proinde si impetraro
+  - line: 34811
+    set:
+      s: '35'
+    quote: XXX. 36. Unde hoc
+  - line: 35169
+    set:
+      s: '43'
+    quote: XXXVII. 48. Proinde
 - id: w14
   pattern: .
   lines:
   - 36696
   - 36696
   locus: epistula-ad-catholicos-de-secta-donatistarum
+- id: s14x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w14
+  lines:
+  - - 36757
+    - 37037
+  locus: line{line}
+- id: s14x2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w14
+  lines:
+  - - 38767
+    - 38785
+  - - 38787
+    - 39253
+  locus: line{line}
 - id: s14
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w14
   lines:
   - - 36697
-    - 37037
-  - - 37039
-    - 37060
-  - - 37062
-    - 37155
-  - - 37157
-    - 37232
-  - - 37234
-    - 37274
-  - - 37276
     - 37296
   - - 37298
     - 37543
   - - 37545
-    - 38717
-  - - 38719
     - 38785
   - - 38787
-    - 38878
-  - - 38880
-    - 38953
-  - - 38955
-    - 39060
-  - - 39062
-    - 39100
-  - - 39102
-    - 39253
-  - - 39255
     - 39272
   - - 39274
     - 39320
   - - 39322
-    - 39360
-  - - 39362
     - 39663
   - - 39665
-    - 39692
-  - - 39694
     - 39712
   - - 39714
     - 40571
   - - 40573
     - 41149
   - - 41151
-    - 41175
-  - - 41177
     - 41775
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 38718
+    set:
+      s: '30'
+    quote: 80. Iam per alias
+  - line: 39361
+    set:
+      s: '32'
+    quote: 82. Si autem aliunde clamas
+  - line: 39693
+    set:
+      s: '37'
+    quote: XV. 87. De nobis
+  - line: 41176
+    set:
+      s: '63'
+    quote: 68. Dicat mihi
 - id: w15
   pattern: .
   lines:
   - 41776
   - 41776
   locus: contra-cresconium-liber1
+- id: s15x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w15
+  lines:
+  - - 42326
+    - 42706
+  locus: line{line}
 - id: s15
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w15
   lines:
   - - 41777
-    - 42706
-  - - 42708
-    - 42743
-  - - 42745
-    - 42818
-  - - 42820
-    - 42902
-  - - 42904
-    - 42954
-  - - 42956
-    - 42998
-  - - 43000
-    - 43016
-  - - 43018
-    - 43066
-  - - 43068
     - 43828
   locus: sectio{s|int}
   number: s
@@ -450,12 +457,38 @@ rules:
     - 46279
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 45626
+    set:
+      s: '37'
+    quote: 37. Sic enim te putabo
 - id: w17
   pattern: .
   lines:
   - 46280
   - 46280
   locus: contra-cresconium-liber3
+- id: s17x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w17
+  lines:
+  - - 48145
+    - 48419
+  locus: line{line}
+- id: s17x2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w17
+  lines:
+  - - 49186
+    - 49470
+  locus: line{line}
+- id: s17x3
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w17
+  lines:
+  - - 50933
+    - 51219
+  locus: line{line}
 - id: s17
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w17
@@ -463,67 +496,58 @@ rules:
   - - 46281
     - 47430
   - - 47432
-    - 47653
-  - - 47655
     - 47669
   - - 47671
-    - 48144
-  - - 48146
-    - 48183
-  - - 48185
-    - 48223
-  - - 48225
-    - 48259
-  - - 48261
-    - 48321
-  - - 48323
-    - 48375
-  - - 48377
     - 48484
   - - 48486
-    - 48511
-  - - 48513
     - 48638
   - - 48640
-    - 49185
-  - - 49187
-    - 49261
-  - - 49263
-    - 49276
-  - - 49278
-    - 49364
-  - - 49366
-    - 49379
-  - - 49381
-    - 49405
-  - - 49407
-    - 49427
-  - - 49429
-    - 50180
-  - - 50182
     - 50259
   - - 50261
-    - 50932
-  - - 50934
-    - 50984
-  - - 50986
-    - 51025
-  - - 51027
-    - 51124
-  - - 51126
-    - 51168
-  - - 51170
-    - 51181
-  - - 51183
     - 51351
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 46447
+    set:
+      s: '5'
+    quote: '5.'
+  - line: 47654
+    set:
+      s: '32'
+    quote: XXVIII. 82. Intererat
+  - line: 48512
+    set:
+      s: '43'
+    quote: XXXVIIII. 48. Ecce
+  - line: 50181
+    set:
+      s: '73'
+    quote: LXV. 78. In his
 - id: w18
   pattern: .
   lines:
   - 51352
   - 51352
   locus: contra-cresconium-liber4
+- id: s18x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w18
+  lines:
+  - - 51416
+    - 51609
+  - - 51611
+    - 51699
+  locus: line{line}
+- id: s18x2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w18
+  lines:
+  - - 54613
+    - 54634
+  - - 54636
+    - 55286
+  locus: line{line}
 - id: s18
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w18
@@ -531,50 +555,14 @@ rules:
   - - 51353
     - 51609
   - - 51611
-    - 51699
-  - - 51701
-    - 51778
-  - - 51780
-    - 51821
-  - - 51823
-    - 51844
-  - - 51846
-    - 53356
-  - - 53358
-    - 53402
-  - - 53404
     - 53702
   - - 53704
     - 53948
   - - 53950
     - 54134
   - - 54136
-    - 54329
-  - - 54331
-    - 54371
-  - - 54373
-    - 54404
-  - - 54406
-    - 54454
-  - - 54456
-    - 54512
-  - - 54514
-    - 54554
-  - - 54556
-    - 54612
-  - - 54614
     - 54634
   - - 54636
-    - 54649
-  - - 54651
-    - 55030
-  - - 55032
-    - 55132
-  - - 55134
-    - 55197
-  - - 55199
-    - 55245
-  - - 55247
     - 55308
   - - 55310
     - 56075
@@ -582,6 +570,23 @@ rules:
     - 56468
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 52192
+    set:
+      s: '9'
+    quote: Haec cum ita sint
+  - line: 53357
+    set:
+      s: '34'
+    quote: XXVII. 84. Itaque
+  - line: 53403
+    set:
+      s: '35'
+    quote: XXVIII. 85. Bene
+  - line: 54330
+    set:
+      s: '55'
+    quote: XLVI. 56. Iam uero
 - id: w19
   pattern: .
   lines:
@@ -610,6 +615,15 @@ rules:
   - 61190
   - 61190
   locus: de-vnico-baptismo
+- id: s20x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w20
+  lines:
+  - - 61223
+    - 61349
+  - - 61351
+    - 61429
+  locus: line{line}
 - id: s20
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w20
@@ -648,36 +662,26 @@ rules:
   - 63565
   - 63565
   locus: breviculus-collationis-dies3
+- id: s24x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w24
+  lines:
+  - - 64812
+    - 65282
+  locus: line{line}
 - id: s24
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w24
   lines:
   - - 63566
-    - 64811
-  - - 64813
-    - 64854
-  - - 64856
-    - 64897
-  - - 64899
-    - 64916
-  - - 64918
-    - 64991
-  - - 64993
-    - 65018
-  - - 65020
-    - 65057
-  - - 65059
-    - 65093
-  - - 65095
-    - 65154
-  - - 65156
-    - 65239
-  - - 65241
-    - 65609
-  - - 65611
     - 66056
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 65610
+    set:
+      s: '33'
+    quote: 83. Cum ergo hinc
 - id: w25
   pattern: .
   lines:
@@ -700,6 +704,28 @@ rules:
   - 66757
   - 66757
   locus: contra-partem-donati-post-gesta
+- id: s26x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w26
+  lines:
+  - - 68390
+    - 68727
+  - - 68729
+    - 68731
+  - - 68733
+    - 68869
+  locus: line{line}
+- id: s26x2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w26
+  lines:
+  - - 69057
+    - 69498
+  - - 69500
+    - 70067
+  - - 70069
+    - 70104
+  locus: line{line}
 - id: s26
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w26
@@ -711,76 +737,16 @@ rules:
   - - 68247
     - 68249
   - - 68251
-    - 68389
-  - - 68391
-    - 68433
-  - - 68435
-    - 68472
-  - - 68474
-    - 68513
-  - - 68515
-    - 68605
-  - - 68607
-    - 68630
-  - - 68632
-    - 68695
-  - - 68697
-    - 68723
-  - - 68725
     - 68727
   - - 68729
     - 68731
   - - 68733
-    - 68767
-  - - 68769
     - 69498
   - - 69500
-    - 69822
-  - - 69824
-    - 69996
-  - - 69998
-    - 70045
-  - - 70047
     - 70067
   - - 70069
-    - 70104
-  - - 70106
-    - 70186
-  - - 70188
-    - 70228
-  - - 70230
-    - 70255
-  - - 70257
-    - 70291
-  - - 70293
-    - 70356
-  - - 70358
-    - 70391
-  - - 70393
-    - 70439
-  - - 70441
-    - 70483
-  - - 70485
-    - 70532
-  - - 70534
     - 70554
   - - 70556
-    - 70579
-  - - 70581
-    - 70633
-  - - 70635
-    - 70685
-  - - 70687
-    - 70719
-  - - 70721
-    - 70744
-  - - 70746
-    - 70790
-  - - 70792
-    - 70867
-  - - 70869
-    - 70918
-  - - 70920
     - 71461
   locus: sectio{s|int}
   number: s
@@ -795,11 +761,14 @@ rules:
   parent: w27
   lines:
   - - 71493
-    - 71669
-  - - 71671
     - 72031
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 71670
+    set:
+      s: '3'
+    quote: 8. Et quid non habent
 - id: w28
   pattern: .
   lines:
@@ -810,8 +779,8 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w28
   lines:
-  - 72033
-  - 72776
+  - - 72033
+    - 72776
   locus: sectio{s|int}
   number: s
 - id: w29
@@ -820,12 +789,19 @@ rules:
   - 73259
   - 73259
   locus: contra-gaudentium-liber1-line73259
+- id: s29x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w29
+  lines:
+  - - 73406
+    - 73525
+  locus: line{line}
 - id: s29
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w29
   lines:
-  - 73260
-  - 73525
+  - - 73260
+    - 73525
   locus: sectio{s|int}
   number: s
 - id: w30
@@ -834,6 +810,22 @@ rules:
   - 73559
   - 73559
   locus: contra-gaudentium-liber1
+- id: s30x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w30
+  lines:
+  - - 74251
+    - 74730
+  locus: line{line}
+- id: s30x2
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w30
+  lines:
+  - - 76542
+    - 76939
+  - - 76941
+    - 77017
+  locus: line{line}
 - id: s30
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w30
@@ -841,46 +833,14 @@ rules:
   - - 73560
     - 74140
   - - 74142
-    - 74730
-  - - 74732
-    - 74831
-  - - 74833
-    - 74885
-  - - 74887
-    - 74995
-  - - 74997
-    - 75046
-  - - 75048
-    - 75089
-  - - 75091
     - 75834
   - - 75836
     - 76411
   - - 76413
     - 76451
   - - 76453
-    - 76541
-  - - 76543
-    - 76578
-  - - 76580
-    - 76620
-  - - 76622
-    - 76635
-  - - 76637
-    - 76730
-  - - 76732
-    - 76793
-  - - 76795
-    - 76835
-  - - 76837
-    - 76871
-  - - 76873
-    - 76917
-  - - 76919
     - 76939
   - - 76941
-    - 76964
-  - - 76966
     - 77166
   locus: sectio{s|int}
   number: s
@@ -890,6 +850,13 @@ rules:
   - 77167
   - 77167
   locus: contra-gaudentium-liber2
+- id: s31x1
+  pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
+  parent: w31
+  lines:
+  - - 77908
+    - 78386
+  locus: line{line}
 - id: s31
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w31
@@ -897,22 +864,6 @@ rules:
   - - 77168
     - 77320
   - - 77322
-    - 77907
-  - - 77909
-    - 77989
-  - - 77991
-    - 78003
-  - - 78005
-    - 78073
-  - - 78075
-    - 78121
-  - - 78123
-    - 78145
-  - - 78147
-    - 78229
-  - - 78231
-    - 78287
-  - - 78289
     - 78572
   locus: sectio{s|int}
   number: s
@@ -926,8 +877,8 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[A-Za-z1^.]{1,10}[.,:]? ){0,2}(?P<s>\d{1,3})[.,:] ?[‘’\'"\[\(A-Za-z0«.*^]
   parent: w32
   lines:
-  - 78732
-  - 78984
+  - - 78732
+    - 78984
   locus: sectio{s|int}
   number: s
 - id: w33
@@ -945,317 +896,40 @@ rules:
   - - 79046
     - 79072
   - - 79074
-    - 79398
-  - - 79400
-    - 79591
-  - - 79593
-    - 79864
-  - - 79866
     - 79947
   - - 79949
     - 80230
   locus: caput{s|int}
   number: s
-divisions:
-- start_line: 3475
-  locus: contra-epistulam-parmeniani-liber2/line3475
-- start_line: 9643
-  locus: de-baptismo-liber1/line9643
-- start_line: 10144
-  locus: de-baptismo-liber2/line10144
-- start_line: 17356
-  locus: de-baptismo-liber6/line17356
-- start_line: 24838
-  locus: contra-litteras-petiliani-liber1/line24838
-- start_line: 27635
-  locus: contra-litteras-petiliani-liber2/line27635
-- start_line: 28923
-  locus: contra-litteras-petiliani-liber2/line28923
-- start_line: 28941
-  locus: contra-litteras-petiliani-liber2/line28941
-- start_line: 28975
-  locus: contra-litteras-petiliani-liber2/line28975
-- start_line: 28993
-  locus: contra-litteras-petiliani-liber2/line28993
-- start_line: 29092
-  locus: contra-litteras-petiliani-liber2/line29092
-- start_line: 29097
-  locus: contra-litteras-petiliani-liber2/line29097
-- start_line: 29152
-  locus: contra-litteras-petiliani-liber2/line29152
-- start_line: 29196
-  locus: contra-litteras-petiliani-liber2/line29196
-- start_line: 29201
-  locus: contra-litteras-petiliani-liber2/line29201
-- start_line: 29203
-  locus: contra-litteras-petiliani-liber2/line29203
-- start_line: 29917
-  locus: contra-litteras-petiliani-liber2/line29917
-- start_line: 29922
-  locus: contra-litteras-petiliani-liber2/line29922
-- start_line: 29967
-  locus: contra-litteras-petiliani-liber2/line29967
-- start_line: 29972
-  locus: contra-litteras-petiliani-liber2/line29972
-- start_line: 29975
-  locus: contra-litteras-petiliani-liber2/line29975
-- start_line: 29979
-  locus: contra-litteras-petiliani-liber2/line29979
-- start_line: 30012
-  locus: contra-litteras-petiliani-liber2/line30012
-- start_line: 30024
-  locus: contra-litteras-petiliani-liber2/line30024
-- start_line: 30028
-  locus: contra-litteras-petiliani-liber2/line30028
-- start_line: 30037
-  locus: contra-litteras-petiliani-liber2/line30037
-- start_line: 30068
-  locus: contra-litteras-petiliani-liber2/line30068
-- start_line: 30072
-  locus: contra-litteras-petiliani-liber2/line30072
-- start_line: 30079
-  locus: contra-litteras-petiliani-liber2/line30079
-- start_line: 30139
-  locus: contra-litteras-petiliani-liber2/line30139
-- start_line: 30163
-  locus: contra-litteras-petiliani-liber2/line30163
-- start_line: 30171
-  locus: contra-litteras-petiliani-liber2/line30171
-- start_line: 30174
-  locus: contra-litteras-petiliani-liber2/line30174
-- start_line: 32128
-  locus: contra-litteras-petiliani-liber2/line32128
-- start_line: 32134
-  locus: contra-litteras-petiliani-liber2/line32134
-- start_line: 32170
-  locus: contra-litteras-petiliani-liber2/line32170
-- start_line: 32224
-  locus: contra-litteras-petiliani-liber2/line32224
-- start_line: 32293
-  locus: contra-litteras-petiliani-liber2/line32293
-- start_line: 32296
-  locus: contra-litteras-petiliani-liber2/line32296
-- start_line: 32302
-  locus: contra-litteras-petiliani-liber2/line32302
-- start_line: 32320
-  locus: contra-litteras-petiliani-liber2/line32320
-- start_line: 32328
-  locus: contra-litteras-petiliani-liber2/line32328
-- start_line: 32331
-  locus: contra-litteras-petiliani-liber2/line32331
-- start_line: 32339
-  locus: contra-litteras-petiliani-liber2/line32339
-- start_line: 32342
-  locus: contra-litteras-petiliani-liber2/line32342
-- start_line: 32387
-  locus: contra-litteras-petiliani-liber2/line32387
-- start_line: 32760
-  locus: contra-litteras-petiliani-liber2/line32760
-- start_line: 33220
-  locus: contra-litteras-petiliani-liber2/line33220
-- start_line: 35169
-  locus: contra-litteras-petiliani-liber3/line35169
-- start_line: 37038
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line37038
-- start_line: 37061
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line37061
-- start_line: 37156
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line37156
-- start_line: 37233
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line37233
-- start_line: 37275
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line37275
-- start_line: 38718
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line38718
-- start_line: 38954
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line38954
-- start_line: 39061
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line39061
-- start_line: 39101
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line39101
-- start_line: 41176
-  locus: epistula-ad-catholicos-de-secta-donatistarum/line41176
-- start_line: 42819
-  locus: contra-cresconium-liber1/line42819
-- start_line: 42903
-  locus: contra-cresconium-liber1/line42903
-- start_line: 42955
-  locus: contra-cresconium-liber1/line42955
-- start_line: 42999
-  locus: contra-cresconium-liber1/line42999
-- start_line: 43017
-  locus: contra-cresconium-liber1/line43017
-- start_line: 43067
-  locus: contra-cresconium-liber1/line43067
-- start_line: 47654
-  locus: contra-cresconium-liber3/line47654
-- start_line: 48184
-  locus: contra-cresconium-liber3/line48184
-- start_line: 48260
-  locus: contra-cresconium-liber3/line48260
-- start_line: 48376
-  locus: contra-cresconium-liber3/line48376
-- start_line: 48512
-  locus: contra-cresconium-liber3/line48512
-- start_line: 49186
-  locus: contra-cresconium-liber3/line49186
-- start_line: 49262
-  locus: contra-cresconium-liber3/line49262
-- start_line: 49277
-  locus: contra-cresconium-liber3/line49277
-- start_line: 49365
-  locus: contra-cresconium-liber3/line49365
-- start_line: 49380
-  locus: contra-cresconium-liber3/line49380
-- start_line: 49406
-  locus: contra-cresconium-liber3/line49406
-- start_line: 49428
-  locus: contra-cresconium-liber3/line49428
-- start_line: 50933
-  locus: contra-cresconium-liber3/line50933
-- start_line: 51026
-  locus: contra-cresconium-liber3/line51026
-- start_line: 51125
-  locus: contra-cresconium-liber3/line51125
-- start_line: 51169
-  locus: contra-cresconium-liber3/line51169
-- start_line: 51182
-  locus: contra-cresconium-liber3/line51182
-- start_line: 51700
-  locus: contra-cresconium-liber4/line51700
-- start_line: 51779
-  locus: contra-cresconium-liber4/line51779
-- start_line: 51822
-  locus: contra-cresconium-liber4/line51822
-- start_line: 53357
-  locus: contra-cresconium-liber4/line53357
-- start_line: 53403
-  locus: contra-cresconium-liber4/line53403
-- start_line: 54330
-  locus: contra-cresconium-liber4/line54330
-- start_line: 54372
-  locus: contra-cresconium-liber4/line54372
-- start_line: 54405
-  locus: contra-cresconium-liber4/line54405
-- start_line: 54455
-  locus: contra-cresconium-liber4/line54455
-- start_line: 54513
-  locus: contra-cresconium-liber4/line54513
-- start_line: 54613
-  locus: contra-cresconium-liber4/line54613
-- start_line: 54650
-  locus: contra-cresconium-liber4/line54650
-- start_line: 55031
-  locus: contra-cresconium-liber4/line55031
-- start_line: 55133
-  locus: contra-cresconium-liber4/line55133
-- start_line: 55198
-  locus: contra-cresconium-liber4/line55198
-- start_line: 55246
-  locus: contra-cresconium-liber4/line55246
-- start_line: 64992
-  locus: breviculus-collationis-dies3/line64992
-- start_line: 65058
-  locus: breviculus-collationis-dies3/line65058
-- start_line: 65094
-  locus: breviculus-collationis-dies3/line65094
-- start_line: 65155
-  locus: breviculus-collationis-dies3/line65155
-- start_line: 65240
-  locus: breviculus-collationis-dies3/line65240
-- start_line: 65610
-  locus: breviculus-collationis-dies3/line65610
-- start_line: 68390
-  locus: contra-partem-donati-post-gesta/line68390
-- start_line: 68434
-  locus: contra-partem-donati-post-gesta/line68434
-- start_line: 68473
-  locus: contra-partem-donati-post-gesta/line68473
-- start_line: 68606
-  locus: contra-partem-donati-post-gesta/line68606
-- start_line: 68631
-  locus: contra-partem-donati-post-gesta/line68631
-- start_line: 68696
-  locus: contra-partem-donati-post-gesta/line68696
-- start_line: 68724
-  locus: contra-partem-donati-post-gesta/line68724
-- start_line: 68768
-  locus: contra-partem-donati-post-gesta/line68768
-- start_line: 69823
-  locus: contra-partem-donati-post-gesta/line69823
-- start_line: 69997
-  locus: contra-partem-donati-post-gesta/line69997
-- start_line: 70105
-  locus: contra-partem-donati-post-gesta/line70105
-- start_line: 70229
-  locus: contra-partem-donati-post-gesta/line70229
-- start_line: 70256
-  locus: contra-partem-donati-post-gesta/line70256
-- start_line: 70292
-  locus: contra-partem-donati-post-gesta/line70292
-- start_line: 70392
-  locus: contra-partem-donati-post-gesta/line70392
-- start_line: 70440
-  locus: contra-partem-donati-post-gesta/line70440
-- start_line: 70484
-  locus: contra-partem-donati-post-gesta/line70484
-- start_line: 70580
-  locus: contra-partem-donati-post-gesta/line70580
-- start_line: 70634
-  locus: contra-partem-donati-post-gesta/line70634
-- start_line: 70686
-  locus: contra-partem-donati-post-gesta/line70686
-- start_line: 70720
-  locus: contra-partem-donati-post-gesta/line70720
-- start_line: 70745
-  locus: contra-partem-donati-post-gesta/line70745
-- start_line: 70791
-  locus: contra-partem-donati-post-gesta/line70791
-- start_line: 70868
-  locus: contra-partem-donati-post-gesta/line70868
-- start_line: 70919
-  locus: contra-partem-donati-post-gesta/line70919
-- start_line: 74731
-  locus: contra-gaudentium-liber1/line74731
-- start_line: 74886
-  locus: contra-gaudentium-liber1/line74886
-- start_line: 75047
-  locus: contra-gaudentium-liber1/line75047
-- start_line: 75090
-  locus: contra-gaudentium-liber1/line75090
-- start_line: 76542
-  locus: contra-gaudentium-liber1/line76542
-- start_line: 76579
-  locus: contra-gaudentium-liber1/line76579
-- start_line: 76621
-  locus: contra-gaudentium-liber1/line76621
-- start_line: 76636
-  locus: contra-gaudentium-liber1/line76636
-- start_line: 76731
-  locus: contra-gaudentium-liber1/line76731
-- start_line: 76794
-  locus: contra-gaudentium-liber1/line76794
-- start_line: 76836
-  locus: contra-gaudentium-liber1/line76836
-- start_line: 76872
-  locus: contra-gaudentium-liber1/line76872
-- start_line: 76965
-  locus: contra-gaudentium-liber1/line76965
-- start_line: 77908
-  locus: contra-gaudentium-liber2/line77908
-- start_line: 78004
-  locus: contra-gaudentium-liber2/line78004
-- start_line: 78074
-  locus: contra-gaudentium-liber2/line78074
-- start_line: 78122
-  locus: contra-gaudentium-liber2/line78122
-- start_line: 78230
-  locus: contra-gaudentium-liber2/line78230
-- start_line: 78288
-  locus: contra-gaudentium-liber2/line78288
+  fixes:
+  - line: 79399
+    set:
+      s: VIIII
+    quote: VI III. Donatista dixit
+  - line: 79592
+    set:
+      s: XIIII
+    quote: XII II. Donatista dixit
+  - line: 79865
+    set:
+      s: XVIIII
+    quote: XVI III. Donatista dixit
 ignore:
 - pattern: ^\d{1,3}\*?$
   kind: page-or-margin-number
+  lines:
+  - 1252
+  - 80230
+- pattern: '^(?:\d{1,3} [^\w\s]? ?)?[^\w\s]{0,2}[IVXLUCHT1ljJi]{1,5}(?: [IVXLUCHT1l]{1,4})?[.,] ?(?:C\S{0,3}t\S{0,5}|Co\S{0,4}|C«\S{3,6}|Con-tra|Oo\S{3,5}|De|[Il1)>(]{1,2}[ec]|l\)e|Dc|Ep\S{3,7}|Br\S{5,10}|Breu\S{3,9}|Gesta|Sermo|Psalm\S{0,3}|Ul)(?:
+    \S+){0,6}[ »]?$'
+  kind: running-head
+  lines:
+  - - 1252
+    - 20437
+  - - 20444
+    - 80230
+- pattern: ^[IVXLUCHT1l]{1,3}[.,] (?:A\S{3,7}|Au\S{2,6}|Ao\S{3,5}|Aa\S{3,5}|An\S{3,6})[.,-]? [ocea]{1,2}\.? ?\S{0,4} ?\S{0,6} ?\S{0,6}$
+  kind: page-signature
   lines:
   - 1252
   - 80230
@@ -1340,6 +1014,8 @@ evidence:
   quote: II.
 - line: 2126
   quote: I. 1.
+- line: 2439
+  quote: 6. Frustra itaque
 - line: 2742
   quote: VII. 12.
 - line: 3315
@@ -1352,6 +1028,8 @@ evidence:
   quote: '8.'
 - line: 4753
   quote: '22.'
+- line: 5325
+  quote: 80. Et haec quidem
 - line: 6185
   quote: XXIII. 43.
 - line: 6198
@@ -1400,6 +1078,8 @@ evidence:
   quote: XXVI. 33.
 - line: 14464
   quote: ''' LIBER QUINTUS.'
+- line: 14466
+  quote: I. l.Ecclesiae
 - line: 14555
   quote: II. 2.
 - line: 15397
@@ -1410,6 +1090,14 @@ evidence:
   quote: LIBER SEXTUS.
 - line: 16318
   quote: I. 1.
+- line: 16889
+  quote: '[13] 14. Ad ea quae'
+- line: 16930
+  quote: '[16] 17. Nouatus'
+- line: 16936
+  quote: '[18] 19. Nemesianus'
+- line: 17087
+  quote: '[22] 23. Lucius'
 - line: 17356
   quote: XX. 84.
 - line: 17752
@@ -1422,6 +1110,8 @@ evidence:
   quote: I. 1.
 - line: 19543
   quote: XXVII. 52.
+- line: 19797
+  quote: XLI. Honoratus a Tucca
 - line: 20368
   quote: LIIII. 103.
 - line: 24747
@@ -1438,6 +1128,8 @@ evidence:
   quote: LIBER SECUNDUS.
 - line: 25770
   quote: 20 I. 1.
+- line: 26887
+  quote: 4f>. Et tamea
 - line: 27635
   quote: '78.'
 - line: 28923
@@ -1446,12 +1138,24 @@ evidence:
   quote: '108.'
 - line: 29339
   quote: '124.'
+- line: 30008
+  quote: 145. Petilianus
+- line: 30032
+  quote: 149. Petilianus
+- line: 32760
+  quote: 238. Iam cetera
+- line: 33220
+  quote: 248. Augastinus
 - line: 33271
   quote: '247.'
 - line: 33387
   quote: LIBER TERTIUS.
 - line: 33389
   quote: 1. 1.
+- line: 34077
+  quote: 15. Proinde si impetraro
+- line: 34811
+  quote: XXX. 36. Unde hoc
 - line: 34907
   quote: XXXII. 37.
 - line: 35169
@@ -1468,8 +1172,16 @@ evidence:
   quote: '3.'
 - line: 37156
   quote: '4.'
+- line: 38718
+  quote: 80. Iam per alias
+- line: 39361
+  quote: 82. Si autem aliunde clamas
+- line: 39693
+  quote: XV. 87. De nobis
 - line: 39846
   quote: '39.'
+- line: 41176
+  quote: 68. Dicat mihi
 - line: 41716
   quote: '75.'
 - line: 41776
@@ -1492,20 +1204,28 @@ evidence:
   quote: I. 1.
 - line: 45020
   quote: '25.'
+- line: 45626
+  quote: 37. Sic enim te putabo
 - line: 46249
   quote: so 49.
 - line: 46280
   quote: LIBER TERTIUS.
 - line: 46282
   quote: 1. 1.
+- line: 46447
+  quote: '5.'
 - line: 47654
   quote: XXVIII. 82.
 - line: 48184
   quote: XXXII. 36.
 - line: 48260
   quote: XXXIIII. 38.
+- line: 48512
+  quote: XXXVIIII. 48. Ecce
 - line: 48762
   quote: XLV. 49.
+- line: 50181
+  quote: LXV. 78. In his
 - line: 51315
   quote: LXXXl I. 94.
 - line: 51352
@@ -1518,8 +1238,16 @@ evidence:
   quote: TTI. 3.
 - line: 51822
   quote: IIII. 4.
+- line: 52192
+  quote: Haec cum ita sint
+- line: 53357
+  quote: XXVII. 84. Itaque
+- line: 53403
+  quote: XXVIII. 85. Bene
 - line: 53830
   quote: XXXVII. 44.
+- line: 54330
+  quote: XLVI. 56. Iam uero
 - line: 56393
   quote: '83.'
 - line: 60946
@@ -1550,6 +1278,8 @@ evidence:
   quote: '23.'
 - line: 65094
   quote: XII. 24.
+- line: 65610
+  quote: 83. Cum ergo hinc
 - line: 66014
   quote: XXV. 43.
 - line: 66508
@@ -1578,6 +1308,8 @@ evidence:
   quote: X.
 - line: 71504
   quote: '1.'
+- line: 71670
+  quote: 8. Et quid non habent
 - line: 71853
   quote: '6.'
 - line: 71993
@@ -1638,7 +1370,46 @@ evidence:
   quote: II. LIBELLVS ADVERSVS FVLGEN-
 - line: 79002
   quote: I.
+- line: 79399
+  quote: VI III. Donatista dixit
 - line: 79577
   quote: XIII.
+- line: 79592
+  quote: XII II. Donatista dixit
+- line: 79865
+  quote: XVI III. Donatista dixit
 - line: 80151
   quote: io XXVI.
+expected_gaps:
+- series: s9
+  line: 16889
+  quote: '[13] 14.'
+  reason:
+    leaf_missing:
+      between:
+      - 16822
+      - 16889
+- series: s9
+  line: 16930
+  quote: '[16] 17.'
+  reason:
+    leaf_missing:
+      between:
+      - 16899
+      - 16930
+- series: s9
+  line: 16936
+  quote: '[18] 19.'
+  reason:
+    leaf_missing:
+      between:
+      - 16930
+      - 16936
+- series: s9
+  line: 17087
+  quote: '[22] 23.'
+  reason:
+    leaf_missing:
+      between:
+      - 17061
+      - 17087
