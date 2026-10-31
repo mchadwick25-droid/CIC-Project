@@ -19,6 +19,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: context
   confidence: provisional
+  language: gmh
+  date: {formation_confidence: unknown, checked: "Buck's introduction (file lines 403-580): argues only that the exemplar of codex A was finished before 1433; the title gives the council's years 1414-1418, no composition year"}
   note: The lay eyewitness chronicle of Constance in the German of the Aulendorf codex, a mid-fifteenth-century
     copy. Readable, not clean; quote after checking the scan. Placed as context on the Hussite entry for
     the trial of Hus. No public-domain English translation is vendored.

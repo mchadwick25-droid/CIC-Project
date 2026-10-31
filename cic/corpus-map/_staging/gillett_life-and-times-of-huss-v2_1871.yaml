@@ -9,6 +9,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "title page and the appended notes: the 1871 imprint only; a note cites a July 1864 article but no first-edition year is stated"}
     note: >
       Secondary history, English, Gillett (1871). Vol. II of a 2-volume
       set; Vol. I not independently checked or vendored.

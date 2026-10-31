@@ -8,6 +8,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: context
   confidence: provisional
+  language: lat
+  date: {formation_confidence: unknown, checked: "title page and colophon (file lines 1-30 and 8399): only the October 1524 Cologne printing, no composition year"}
   note: 'Aeneas Silvius''s Latin history of Bohemia, from the Catholic humanist outside the movement,
     in a second printing. It has no interleaved marginal notes and keeps the long s as ſ, which the quote
     gate normalises, but its OCR has more letter-level noise than the 1592 printing. Second witness for

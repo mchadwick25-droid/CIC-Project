@@ -20,6 +20,8 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: provisional
+  language: lat-deu
+  date: {formation_confidence: unknown, checked: "heading of item XXIV (file line 25285 ff.) and the Latin text: no composition year stated for the Chronicon"}
   note: The radical wing's own text, placed on the Hussite entry because the census files Tabor as a world
     within it. Provisional until the Hussite entry's build rules on the Taborite strand.
 - row_id: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865--chronicon-taboritarum-part-ii-the-bohemians-hearing-at-the

@@ -8,6 +8,9 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: assigned
+  locus_ids: [whole-file]
+  language: ces
+  date: {formation_confidence: unknown, checked: "heading at file line 65 names the base manuscript as 'z roku 1414', which fixes only a latest date for the Postilla, not its composition"}
   note: Hus's Czech Postilla, from the manuscript of 1414, in Czech, in a critical edition from the oldest
     known sources. These are Hus's own Czech pastoral works, which the vendored English letters and De
     Ecclesia do not reach. Primary original evidence for the movement in Czech, quotable once each wording
