@@ -29,6 +29,7 @@ work: "The City of God, Book XVIII, chapters 42-44 - the authority of the Septua
 edition: "Nicene and Post-Nicene Fathers, first series, vol. 2, ed. Schaff, vendored as cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml - City of God XVIII.43 at file line 36715, XVIII.42 at 36469, and the Hebrew-versus-Septuagint chronology question at 28189"
 citation: Augustine of Hippo, The City of God, Book XVIII, chapters 42-44, ed. Schaff, Nicene and Post-Nicene Fathers, 1st series, vol. 2
 kind: vendored
+shelf_row: fleet-sweep-additions-npnf102--the-city-of-god-book-xviii-chapters-42-44-the-authority-of
 rights_status: "public-domain; NPNF1-02, long out of US copyright"
 attribution_status: attributed
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (hal.search.unopened-volume-sweep); this volume was on cross_world's second-hand-source list because this world names Augustine constantly and had opened only npnf101, his letters"
