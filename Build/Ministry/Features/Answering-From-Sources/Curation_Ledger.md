@@ -395,3 +395,11 @@ Known gaps found by the audit (source defects, not curation defects):
 Size of the same risk elsewhere (cheap measures only; not read): 27 of the 41 clean plain files are not on the lpc shelf. By the cheap rule 4 pass, 3 are doubtful and 20 raise at least one flag (line, column or low-match addresses, tiny-division clutter). The pass rule failed on the lpc shelf, so these figures are a warning list and not a clearance. By world (files may be on several worlds): alx 2, cappadocian 2, don 4, ijc 8, pahc 3, rzg 8, syr 3, witt 4; desert, gallic and hal have none.
 
 Not audited: the clean XML files (their divisions are the source's own markup, a different risk) and the 30 TEI `.txt` files (a separate class).
+
+## In Ioannis, Migne PL 35 whole volume, 2026-10-31
+
+- File: `augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2`. Status `sampled-ok` after three review rounds (round 1 worker redo and read, round 2 recheck, round 3 wording confirm). 1,334 divisions, coverage 100%, no byte-range mismatches.
+- Gospel tractates: 66 divided by printed paragraph numbers, 4 divided by line of the paragraph head, 54 undivided. All 10 Epistle tractates are undivided although they print paragraph numbers.
+- Two numerals read from printed glyph damage and quoted as evidence: `iO.` = 10 at line 25420 and `G.` = 6 at line 41311. The same OCR prints 6 as `G.` at 11373, 12017, 13292, 22189, 23186 and 10 as `iO.` at 29988, 31630, 47352.
+- Open gap: the 1 John prologue's body sits at lines 46832-46858 inside tractate 1 because of the OCR column order; no contiguous range joins it to its head, so `in-1io/prologus` holds only the head and the last line.
+- Open gap: the Benedictine admonition at lines 395-411 counts as body of the tituli division.
