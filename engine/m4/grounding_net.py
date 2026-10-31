@@ -50,6 +50,7 @@ even make a checkable claim," owned once.
 import re
 
 from engine.m1.quote_verbatim import normalize_archaic_letterforms
+from engine.m4.fit_step import CONTEXT_PREFIX
 from engine.prose import (
     SCAFFOLD_MARKERS,
     SELF_NAMING_MARKER,
@@ -693,6 +694,7 @@ REASON_LEAD_TYPES_QUOTATION = "lead-in to a placed quote types a quotation of it
 REASON_SPEAKER_UNNAMED = "lead-in to a placed quote does not name its speaker"
 WHY_PLACED = "quote placed by code, verbatim to its record"
 REASON_STORY_MISMATCH = "placed story does not match its record"
+REASON_CONTEXT_BINDING = "tagged to context text, which supports no sentence"
 WHY_STORY_PLACED = "story placed by code, verbatim to its record"
 WHY_ANSWER_PLACED = "answer record placed by code, verbatim to its record"
 
@@ -1392,6 +1394,9 @@ def _claim_verdict(
         # number, or enumeration, so they cannot themselves trip a
         # withhold; whatever fires below is the real content).
 
+    if context_only := [t for t in tags if t.startswith(CONTEXT_PREFIX)]:
+        entry["verdict"], entry["why"] = "withhold", REASON_CONTEXT_BINDING
+        return entry
     unknown = [t for t in tags if t not in repository_records]
     if unknown:
         entry["verdict"], entry["why"] = "withhold", f"unresolvable record id(s): {unknown}"

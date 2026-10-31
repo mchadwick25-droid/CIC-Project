@@ -1,4 +1,4 @@
-"""Runs the frozen lpc 100-question set through the engine's own turn path
+"""Runs the frozen lpc test set (100 questions, or the 106 with the fit traps) through the engine's own turn path
 with no model call. Every model call is answered from a reply file
 (engine.m3.reply_client); a question whose replies are not all written yet
 is left pending and its requests are written out for whoever drafts them.
@@ -11,7 +11,8 @@ requests of a sealed question carry its wording.
       --work <dir outside the repo>
 
 The run sets the world's story_placement on, in memory only, so the story door is exercised on a world whose registered flag is off (lpc's is);
---no-story-placement leaves the registered flag. Citation attach is always off, since it makes extra model calls.
+--no-story-placement leaves the registered flag. The run also sets context_blocks on, in memory only, so each offered quote and story
+carries the source text around it (engine.m4.fit_step); --no-context leaves it out. Citation attach is always off, since it makes extra model calls.
 
 One pass runs every question as far as its replies allow. Run it again after the
 replies are written. A finished question leaves `answers/<id>.json` in the work
@@ -67,7 +68,7 @@ def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str])
     }
 
 
-def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True) -> dict:
+def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True) -> dict:
     from engine.m1.registry import load_registry
     from engine.m3.generation import LiveModelAnswerer, LivePathSettings
     from engine.m4 import turn as m4_turn
@@ -80,6 +81,8 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
     )
     if story_placement:
         loaded.frame["story_placement"] = True
+    if context_blocks:
+        loaded.frame["context_blocks"] = True
     reply_dir, pending_dir, answers_dir = work / "replies", work / "pending", work / "answers"
     answers_dir.mkdir(parents=True, exist_ok=True)
     for stale in pending_dir.glob("*") if pending_dir.exists() else []:
@@ -125,13 +128,14 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--world", required=True)
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--only", nargs="*", help="run only these question ids")
+    parser.add_argument("--no-context", action="store_true", help="leave the source-text context blocks out of the offer")
     parser.add_argument("--no-story-placement", action="store_true", help="leave the world's own story_placement flag as registered")
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     questions = load_set(args.question_set)
     if args.only:
         questions = [q for q in questions if q["id"] in set(args.only)]
-    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement)
+    summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement, context_blocks=not args.no_context)
     print(json.dumps({k: v for k, v in summary.items() if k != "pending_ids"}, indent=1))
     return 0
 

@@ -14,6 +14,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
 from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
+from engine.m4 import fit_step
 from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
@@ -606,6 +607,8 @@ def prepare_voice_turn_inputs(
     )
     if world.frame.get("story_placement"):
         turn_evidence = with_placeable_stories(turn_evidence, repository_records)
+    if world.frame.get("context_blocks"):
+        turn_evidence = fit_step.with_context(turn_evidence, repository_records)
     story_offers = [c for c in turn_evidence["candidates"] if c.get("placeable")]
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
