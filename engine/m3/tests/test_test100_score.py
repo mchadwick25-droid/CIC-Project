@@ -17,6 +17,13 @@ def test_the_measured_columns_come_from_the_answer():
     assert row["cluster"] == "C3" and row["words"] == 7
 
 
+def test_an_answer_whose_voice_was_set_aside_is_marked_and_counted():
+    aside = {**ANSWER, "voice_set_aside": True}
+    row = measure({"id": "q001", "group": "B"}, aside, lambda raw, shown: 0)
+    assert row["voice_set_aside"] is True
+    assert measure({"id": "q001", "group": "B"}, ANSWER, lambda raw, shown: 0)["voice_set_aside"] is False
+
+
 def test_an_unanswered_question_is_listed_not_scored(tmp_path):
     (tmp_path / "q001.json").write_text(json.dumps(ANSWER))
     questions = [{"id": "q001", "group": "B"}, {"id": "q002", "group": "B"}]

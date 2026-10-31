@@ -19,6 +19,7 @@ import yaml
 from engine.m1 import canon
 from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence as m4_evidence
+from engine.m4.facilitator_turns import voice_rejected_turn
 from engine.m4.rhythm import tally_from_transcript
 from engine.m4.turn import SESSION_TURN_CAP, UnhandledRoutingAction, run_turn
 from engine.m4.uncited_claims import (
@@ -291,7 +292,10 @@ class LiveModelAnswerer:
             raise AnswerUnavailable(f"{type(last_error).__name__}: {last_error}") from last_error
 
         voice_event = result.voice_event
-        if voice_event is not None:
+        if voice_event is not None and voice_event.get("r27_enforcement_exhausted"):
+            text = voice_rejected_turn(self.world.frame["representative"]["name"])["text"]
+            citation_entries = []
+        elif voice_event is not None:
             text = voice_event["text"]
             citation_entries = [{"sentence": c["sentence"], "record_ids": list(c["record_ids"])} for c in voice_event["citations"]]
         else:
