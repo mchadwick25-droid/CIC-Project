@@ -26,7 +26,7 @@ divisions:
     locus: II/1/zusatz
   - start_line: 3698
     locus: II/2
-  - start_line: 4231
+  - start_line: 4234
     locus: II/3
     allow_oversize: 'the scan shows no numbered or titled break inside this section; its Inhaltsübersicht lists topics by page only, and the body carries only running heads'
   - start_line: 5322
@@ -53,6 +53,9 @@ apparatus:
   - lines: [12, 177]
     kind: front
     locus: front
+  - lines: [290, 318]
+    kind: front
+    locus: berichtigungen
   - lines: [319, 554]
     kind: index
     locus: inhaltsuebersicht
@@ -81,8 +84,8 @@ evidence:
     quote: 'I. De unitate c. 4: Super unum aedificat ecclesiam'
   - line: 3698
     quote: '2. De unitatec. 5: Episcodatus unus est cuius a sin-'
-  - line: 4231
-    quote: '3. Ep. 48, 3: Ecclesiae catholiecae matrix et radız 7I'
+  - line: 4234
+    quote: '-3. Ep. 48, 3: Ut ecclesiae catholicae matricem et'
   - line: 5322
     quote: '4. Ep. 59, 14: Ad Petri cathedram atque ad ecclesiam'
   - line: 6625
