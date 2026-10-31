@@ -290,3 +290,30 @@ No tooling is built from these now. Coordination batches them into one small too
 - The checker does not fail a body division left as a `text/line` gap under a context heading that an apparatus range clips. It was found by reading the resolved divisions in Gaume t5 and PL33.
 - `counterpart` is accepted for a bare head with no numeral token even when the file is not a parallel text. No curation uses it for that now.
 - There is no reason form for a numeral the edition itself skips with no text missing (Caillau LXVI and LXXV). `leaf_missing` is used and misdescribes it. A form such as `edition_skips`, checked against the edition's own index, is the likeliest to be worth building.
+
+## CSEL group redo, 2026-10-30 and 2026-10-31
+
+Each file was redone by a Sonnet worker and read by independent Opus readers who opened the vendored lines. No reason form was added and no tooling changed.
+
+| File | Outcome |
+|---|---|
+| `augustine_epistulae-critical_goldbacher-csel57-pars4` | `sampled-ok` after two rounds |
+| `augustine_epistulae-1-123-lat_goldbacher-csel34` | `sampled-ok` after two rounds |
+| `augustine_epistulae-124-184a-lat_goldbacher-csel44` | `sampled-ok` after two rounds |
+| `augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41` | `sampled-ok` after two rounds |
+| `augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41` | `sampled-ok` after two rounds |
+| `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910` | `sampled-ok` after the third round (the cap) |
+
+### Open gaps
+
+- Goldbacher CSEL 34: pages 55 (head printed `oo`, unreadable), 384, 468, 554, 622 and 690 (head line absent, text present) are read outside the numbered page series. Pages 62 and 63 are missing from the scan; letter XXIII is read from the running heads.
+- Goldbacher CSEL 44: pages 55 (head printed without a number) and 70 (head absent) are read outside the numbered page series. Three damaged odd-page heads are read as 73, 323 and 357 from the two printed leading digits, odd-page position and the neighbouring heads, with no cross-reference to confirm them.
+- Goldbacher CSEL 57: page and section sub-series of twelve oversize letters are hand-listed and not checked as a series.
+- Zycha CSEL 41 (both scans): Book II of De adulterinis prints chapters IIII and V with no section numeral and no section 4 head; they are addressed `caput4` and `caput5`, outside the section series.
+- Petschenig: sections 81 to 103 of De baptismo VII are read outside the numbered series, because the head at line 19797 prints only a Roman chapter numeral and the look-alike test refuses `edition_unnumbered`. Stretches the scan prints twice are read by line address in one copy and numbered in the other. The Epistula ad catholicos prints pages 268 and 269 out of order.
+- Petschenig line 39361 (`82.` read as 32) is the weakest accepted numeral reading.
+
+### Open tooling notes (added to the three above)
+
+- `edition_unnumbered` is refused by the look-alike test where a head prints a Roman chapter numeral and no Arabic section numeral (Petschenig line 19797).
+- Splitting a numbered series, or dropping `number`, turns off the look-alike scan over that stretch. In the CSEL group this hid wrong page and section addresses in two files until a reader opened the lines. A rule that keeps the scan on across an absent head would help.

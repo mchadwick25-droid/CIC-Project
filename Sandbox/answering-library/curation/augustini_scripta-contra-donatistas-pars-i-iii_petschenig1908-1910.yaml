@@ -3,7 +3,7 @@ scheme: Petschenig's section numbers (Arabic, restarting at 1 in each book), pri
   title and book number; a stretch the scan prints twice, one printed out of page order, or one whose numbers the page does not show in full, is addressed head by head by the line where it starts and is
   not part of the numbered series
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: w0
   pattern: .
