@@ -97,9 +97,11 @@ def import_read(rows: list, work: Path, records: dict) -> dict:
             counts["unreadable"] += 1
             out.append({"question_id": qid, "status": "clean", "units": units, "unsupported": {}, "dropped": [], "unreadable_reply": True})
             continue
-        result = ac.outcome(units, parsed)
+        result = ac.outcome(units, parsed, records)
         counts["unreadable"] += result["unreadable"]
         for rid in dict.fromkeys(u["placed_id"] for u in units if u.get("placed") and u.get("placed_id")):
+            if (records.get(rid) or {}).get("record_type") not in ("quote", "story"):
+                continue
             judgement = parsed["placed"].get(rid)
             fit_rows.append({"question_id": qid, "record_id": rid, "judgement": judgement, "decision": fit_step.decide(judgement)})
         failed = bool(result["unsupported"] or result["dropped"])
@@ -172,15 +174,12 @@ def final(rows: list, work: Path, records: dict) -> dict:
                 counts["abstained_rewrite_refused"] += 1
             else:
                 reply = _reply(work, "reread", qid)
-                parsed = ac.parse_check(reply, rewrite["rewrite"], records) if reply is not None else None
                 if reply is None:
                     counts["pending_reread"] += 1
                     continue
-                if parsed is None:
-                    counts["unreadable"] += 1
-                    text = ac.assemble(rewrite["rewrite"])
-                    counts["rewritten"] += 1
-                elif ac.outcome(rewrite["rewrite"], parsed)["unsupported"]:
+                parsed = ac.parse_check(reply, rewrite["rewrite"], records)
+                result = ac.outcome(rewrite["rewrite"], parsed, records) if parsed is not None else None
+                if result is None or result["unsupported"] or result["unreadable"]:
                     text = bound_draft.FALLBACK_ALONE
                     counts["abstained_rewrite_failed_read"] += 1
                 else:

@@ -54,14 +54,14 @@ def test_the_reply_is_read_per_sentence_and_joining_or_placed_entries_are_ignore
     ], [{"id": QUOTE, "fit": "off_point", "reason": "other question", "limit_stated": False}])
     parsed = ac.parse_check(reply, answer, records)
     assert parsed["sentences"][0]["supported"] and not parsed["sentences"][1]["supported"] and 3 not in parsed["sentences"]
-    result = ac.outcome(answer, parsed)
+    result = ac.outcome(answer, parsed, records)
     assert list(result["unsupported"]) == [1] and result["dropped"] == [QUOTE] and result["unreadable"] == 0
 
 
 def test_a_sentence_or_placement_with_no_judgement_is_kept_and_counted(records):
     answer = _answer()
     parsed = ac.parse_check(_reply([{"n": 1, "supported": True, "problem": None, "reason": ""}]), answer, records)
-    result = ac.outcome(answer, parsed)
+    result = ac.outcome(answer, parsed, records)
     assert result["unsupported"] == {} and result["dropped"] == [] and result["unreadable"] == 2
     assert ac.parse_check("no object here", answer, records) is None
 
@@ -128,6 +128,10 @@ def test_final_uses_an_accepted_rewrite_only_when_its_read_passes(tmp_path, reco
     (reread / "q1.txt").write_text(_reply([{"n": 1, "supported": True, "problem": None, "reason": ""}]), encoding="utf-8")
     assert runner.final(rows, tmp_path, records)["rewritten"] == 1
     assert (tmp_path / "check" / "final" / "q1.txt").read_text() == "We keep to the older books on the first days."
+    (reread / "q1.txt").write_text("no object", encoding="utf-8")
+    assert runner.final(rows, tmp_path, records)["abstained_rewrite_failed_read"] == 1
+    (reread / "q1.txt").write_text(_reply([]), encoding="utf-8")
+    assert runner.final(rows, tmp_path, records)["abstained_rewrite_failed_read"] == 1
     (reread / "q1.txt").write_text(_reply([{"n": 1, "supported": False, "problem": "other", "reason": ""}]), encoding="utf-8")
     summary = runner.final(rows, tmp_path, records)
     assert summary["abstained_rewrite_failed_read"] == 1
@@ -153,3 +157,31 @@ def test_import_reads_each_answer_once_decides_its_status_and_writes_the_fit_row
     fit = [json.loads(line) for line in (tmp_path / "check" / "fit.jsonl").read_text().splitlines()]
     assert fit[0]["record_id"] == QUOTE and fit[0]["decision"] == "drop"
     assert runner.import_read([({"id": "q2"}, units)], tmp_path, records)["pending_read"] == 1
+
+
+def test_a_placed_story_comes_back_whole_in_the_rewrite(records):
+    story = "lpc.story.numidicus"
+    answer = [_unit("First story sentence.", [story], story), _unit("Second story sentence.", [story], story), _unit("A claim.", [WITNESS])]
+    kept = ac.survivors(answer, {"unsupported": {2: {}}, "dropped": [], "unreadable": 0})
+    out = ac.parse_rewrite(f"[[story:{story}]]", kept, records, CONNECTIVES)
+    assert [u["sentence"] for u in out] == ["First story sentence.", "Second story sentence."]
+
+
+def test_the_world_answer_record_is_not_judged_for_fit_and_a_story_is_judged_once(records):
+    witness_id = "lpc.witness.days-before-the-sun"
+    story = "lpc.story.numidicus"
+    answer = [_unit("Answer record words.", [witness_id], witness_id), _unit("S one.", [story], story), _unit("S two.", [story], story)]
+    parsed = {"sentences": {}, "placed": {story: {"fit": "off_point", "reason": "", "limit_stated": False}}}
+    result = ac.outcome(answer, parsed, records)
+    assert result["dropped"] == [story] and result["unreadable"] == 0
+
+
+def test_a_lead_in_goes_with_the_quote_that_was_dropped(records):
+    answer = [_unit("Our founder put it this way.", [QUOTE]), _unit("Love, and do what you will.", [QUOTE], QUOTE), _unit("A claim.", [WITNESS])]
+    kept = ac.survivors(answer, {"unsupported": {}, "dropped": [QUOTE], "unreadable": 0})
+    assert [u["sentence"] for u in kept] == ["A claim."]
+
+
+def test_a_rewrite_that_states_an_absence_its_records_do_not_is_refused(records):
+    kept = [_unit("We keep to the older books.", [LIMIT])]
+    assert ac.parse_rewrite(f"We have no sermon of our own on those opening lines [[{LIMIT}]] [[as:paraphrase]].", kept, records, CONNECTIVES) is None

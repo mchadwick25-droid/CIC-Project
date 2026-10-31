@@ -12,13 +12,16 @@ lines are always inside it, whole. Its id (`ctx.<record id>.<n>`) is not a recor
 id, so a sentence tagged to one is treated by the net as tagged to an unknown
 record.
 
-The fit read. It is part of the answer check (engine.m4.answer_check), not a call of
-its own. `fit_pack` gives the judge the record's own statement of what it means and
-must not be used for, the passage and its context; `judgement_from` reads one verdict
-from the reply; `decide` turns it into keep or drop: fits is kept, off-point is
-dropped, partly is kept only when the answer's own words already state what the
-passage does not cover. An unreadable verdict keeps the placement.
+The fit read. In the answer check (engine.m4.answer_check) it is part of the one read
+of the answer: `fit_pack` gives the judge the record's own statement of what it means
+and must not be used for, the passage and its context, and `judgement_from` reads one
+verdict. On its own, `fit_request` and `parse_fit` serve the calibration of the fit
+judge on planted pairs (Sandbox/Answering-From-Sources/goldset/fit.py). `decide` turns a
+verdict into keep or drop: fits is kept, off-point is dropped, partly is kept only when
+the answer's own words already state what the passage does not cover. An unreadable
+verdict keeps the placement.
 """
+import json
 import re
 from pathlib import Path
 
@@ -34,6 +37,14 @@ FIT_RUBRIC = (
     "partly: it bears on the question but answers a nearby one, or only part of it.\n"
     "off_point: it shares words or a topic with the question but answers a different one, or the record forbids this use.\n"
     "limit_stated is true only when the answer's own sentences already say what the passage does not cover. Use only what is given.\n"
+)
+
+FIT_SYSTEM = (
+    "You judge whether a quote or a story from a source record answers a visitor's question. "
+    "You are given the question, the record's own statement of what it means and what it must not be used for, "
+    "the passage as the record gives it, and the text around the passage in its source.\n"
+    + FIT_RUBRIC
+    + 'Reply with one JSON object only: {"fit": "fits" or "partly" or "off_point", "reason": "one short sentence", "limit_stated": true or false}.'
 )
 
 _LOCUS = re.compile(r"(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
@@ -133,6 +144,27 @@ def fit_pack(record: dict, blocks: list[dict], length: str | None = None) -> str
         f"The passage:\n{passage(record, length)}\n"
         f"Context from the source text:\n{context}"
     )
+
+
+def fit_request(question: str, record: dict, blocks: list[dict], length: str | None = None, answer_text: str = "") -> dict:
+    """The system prompt and the user message for the fit judge on its own."""
+    return {"system": FIT_SYSTEM, "user": f"Question:\n{question}\n\n{fit_pack(record, blocks, length)}\n\nThe answer text around the passage (may be empty):\n{answer_text or '(none)'}"}
+
+
+def _first_object(text: str) -> dict | None:
+    decoder = json.JSONDecoder()
+    for opening in re.finditer(r"\{", text or ""):
+        try:
+            found, _end = decoder.raw_decode(text[opening.start():])
+        except json.JSONDecodeError:
+            continue
+        return found if isinstance(found, dict) else None
+    return None
+
+
+def parse_fit(reply: str) -> dict | None:
+    """The verdict in a reply, or None when there is none."""
+    return judgement_from(_first_object(reply))
 
 
 def judgement_from(data: dict) -> dict | None:

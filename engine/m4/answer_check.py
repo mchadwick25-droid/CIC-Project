@@ -22,7 +22,8 @@ words). The voice writes the answer again from the supported sentences only, in
 the bound-drafting grammar (record ids and a label on every sentence, a passage
 placed by [[quote:id]] or [[story:id]] only where it was kept). Code refuses a
 rewrite with a sentence that has no binding, an inference label, a quotation mark,
-or a placement that was not kept; a refused rewrite abstains. The accepted rewrite
+or a placement that was not kept, or a sentence that states an absence its records do not (the check the live net
+runs); a refused rewrite abstains. The accepted rewrite
 is read the same way. Any sentence not supported abstains. There is no second rewrite.
 
 An unreadable reply keeps what it was asked about and is counted.
@@ -30,7 +31,7 @@ An unreadable reply keeps what it was asked about and is counted.
 import json
 import re
 
-from engine.m4 import bound_draft, fit_step, verify_step
+from engine.m4 import absence_rule, bound_draft, fit_step, verify_step
 from engine.m4.grounding_net import parse_tagged
 
 SURVIVE_MIN_WORDS = bound_draft.FALLBACK_BELOW_WORDS
@@ -110,9 +111,11 @@ def parse_check(reply: str, answer_units: list[dict], records: dict[str, dict]) 
     return {"sentences": sentences, "placed": placed}
 
 
-def outcome(answer_units: list[dict], parsed: dict) -> dict:
+def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict]) -> dict:
     """What failed: unit indexes the judge found unsupported (with the judgement), placed record ids
-    dropped for fit, and the count of bound sentences or placements with no readable judgement."""
+    dropped for fit, and the count of bound sentences or placements with no readable judgement. Fit is
+    judged once per placed quote or story; the world's own placed answer record is the record's words
+    and is not judged."""
     unsupported, unreadable = {}, 0
     for i, u in enumerate(answer_units):
         if _kind(u) != "BOUND":
@@ -123,18 +126,27 @@ def outcome(answer_units: list[dict], parsed: dict) -> dict:
         elif not judgement["supported"]:
             unsupported[i] = judgement
     dropped = []
-    for u in answer_units:
-        if u.get("placed") and u.get("placed_id"):
-            judgement = parsed["placed"].get(u["placed_id"])
-            if judgement is None:
-                unreadable += 1
-            elif fit_step.decide(judgement) == "drop":
-                dropped.append(u["placed_id"])
-    return {"unsupported": unsupported, "dropped": list(dict.fromkeys(dropped)), "unreadable": unreadable}
+    for rid in dict.fromkeys(u["placed_id"] for u in answer_units if u.get("placed") and u.get("placed_id")):
+        if (records.get(rid) or {}).get("record_type") not in ("quote", "story"):
+            continue
+        judgement = parsed["placed"].get(rid)
+        if judgement is None:
+            unreadable += 1
+        elif fit_step.decide(judgement) == "drop":
+            dropped.append(rid)
+    return {"unsupported": unsupported, "dropped": dropped, "unreadable": unreadable}
 
 
 def survivors(answer_units: list[dict], result: dict) -> list[dict]:
-    return [u for i, u in enumerate(answer_units) if i not in result["unsupported"] and u.get("placed_id") not in result["dropped"]]
+    """The units that stay: not unsupported, not a dropped placement, and not the lead-in of a
+    dropped placement (a sentence bound to that record alone, standing just before it)."""
+    out = []
+    for i, u in enumerate(answer_units):
+        following = answer_units[i + 1] if i + 1 < len(answer_units) else {}
+        lead_in = bool(u["records"]) and not u.get("placed") and following.get("placed_id") in result["dropped"] and u["records"] == [following.get("placed_id")]
+        if i not in result["unsupported"] and u.get("placed_id") not in result["dropped"] and not lead_in:
+            out.append(u)
+    return out
 
 
 def words(answer_units: list[dict]) -> int:
@@ -157,8 +169,8 @@ def rewrite_request(question: str, answer_units: list[dict], result: dict, recor
 
 def parse_rewrite(reply: str, kept: list[dict], records: dict[str, dict], connectives: frozenset[str]) -> list[dict] | None:
     """The rewrite as units, or None when it is refused: empty, a quotation mark, a sentence with no binding
-    (that is not a question or a reviewed connective), an inference label, a missing label, or a placement
-    that was not kept."""
+    (that is not a question or a reviewed connective), an inference label, a missing label, a sentence that states an
+    absence its records do not, or a placement that was not kept. A kept placement is inserted whole: every unit it had."""
     text = (reply or "").strip()
     if not text or verify_step._has_quotation_mark(_PLACEMENT.sub("", text)):
         return None
@@ -169,13 +181,13 @@ def parse_rewrite(reply: str, kept: list[dict], records: dict[str, dict], connec
         for sentence in parse_tagged(pieces[index]) if pieces[index].strip() else []:
             entry = {"sentence": sentence["text"], "tags": sentence["tags"], "verdict": "ok"}
             decision, _reason = bound_draft.decide(entry, bound_draft.label_of(sentence["raw"]), records, connectives)
-            if decision != "keep":
+            if decision != "keep" or absence_rule.check_absence(sentence["text"], [records[t] for t in sentence["tags"] if t in records]):
                 return None
             out.append({"sentence": sentence["text"], "tags": sentence["tags"], "records": bound_draft.bindings(sentence["tags"], records), "placed": False, "placed_id": None})
         if index + 2 < len(pieces):
             if pieces[index + 2] not in allowed:
                 return None
-            out.append({**next(u for u in kept if u.get("placed_id") == pieces[index + 2])})
+            out.extend({**u} for u in kept if u.get("placed_id") == pieces[index + 2])
     return out or None
 
 

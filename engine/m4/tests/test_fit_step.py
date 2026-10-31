@@ -77,13 +77,15 @@ def test_no_record_in_any_world_has_an_id_the_context_prefix_could_collide_with(
     assert not [rid for rid in load_fleet_records() if rid.startswith(fit_step.CONTEXT_PREFIX)]
 
 
-def test_the_fit_pack_carries_guards_passage_and_context(texts):
+def test_the_fit_request_carries_question_guards_passage_and_context(texts):
     record = {
         **RECORD, "modern_rendering": "Love, and do what you will.",
         "use_note": {"means": "The root decides the deed.", "not_for": ["a warrant for striking a child"]},
     }
-    user = fit_step.fit_pack(record, fit_step.context_blocks(record, texts))
-    for part in ("The root decides the deed.", "a warrant for striking a child", "Love, and do what you will.", "line 100 of the sermon"):
+    request = fit_step.fit_request("Is it right to hit a child?", record, fit_step.context_blocks(record, texts))
+    assert request["system"] == fit_step.FIT_SYSTEM
+    user = request["user"]
+    for part in ("Is it right to hit a child?", "The root decides the deed.", "a warrant for striking a child", "Love, and do what you will.", "line 100 of the sermon"):
         assert part in user
 
 
@@ -93,17 +95,19 @@ def test_a_story_is_passed_at_the_length_told():
     assert fit_step.passage({"id": "t.story.two", "record_type": "story", "telling": "Only full."}, "medium") == "Only full."
 
 
-@pytest.mark.parametrize("entry,expected", [
-    ({"fit": "fits", "reason": "ok", "limit_stated": False}, {"fit": "fits", "reason": "ok", "limit_stated": False}),
-    ({"fit": "off_point", "reason": "x", "limit_stated": True}, {"fit": "off_point", "reason": "x", "limit_stated": True}),
-    ({"fit": "maybe", "reason": "x", "limit_stated": False}, None),
-    ({"fit": "fits", "reason": "x"}, {"fit": "fits", "reason": "x", "limit_stated": False}),
-    ({"fit": "partly", "reason": "x"}, None),
-    ({"fit": "partly", "reason": "x", "limit_stated": "yes"}, None),
-    ({}, None), ("text", None),
+@pytest.mark.parametrize("reply,expected", [
+    ('{"fit": "fits", "reason": "ok", "limit_stated": false}', {"fit": "fits", "reason": "ok", "limit_stated": False}),
+    ('Here: {"fit": "off_point", "reason": "x", "limit_stated": true}', {"fit": "off_point", "reason": "x", "limit_stated": True}),
+    ('{"fit": "maybe", "reason": "x", "limit_stated": false}', None),
+    ('{"fit": "fits", "reason": "x"}', {"fit": "fits", "reason": "x", "limit_stated": False}),
+    ('{"fit": "partly", "reason": "x"}', None),
+    ('{"fit": "partly", "reason": "x", "limit_stated": "yes"}', None),
+    ('I weighed {both} sides. {"fit": "off_point", "reason": "x"} Done {ok}.', {"fit": "off_point", "reason": "x", "limit_stated": False}),
+    ("not json", None),
+    ("", None),
 ])
-def test_an_entry_is_read_or_refused(entry, expected):
-    assert fit_step.judgement_from(entry) == expected
+def test_a_reply_is_read_or_refused(reply, expected):
+    assert fit_step.parse_fit(reply) == expected
 
 
 @pytest.mark.parametrize("fit,limit,expected", [
@@ -163,3 +167,18 @@ def test_a_cited_span_longer_than_the_ceiling_is_kept_whole_and_nothing_is_added
     [block] = fit_step.context_blocks(record, tmp_path)
     assert block["text"] == " ".join(w for n in range(40, 51) for w in body[n - 1].split())
     assert len(block["text"].split()) > fit_step.CONTEXT_MAX_WORDS
+
+
+
+def test_the_fit_pack_is_the_request_without_the_question_and_the_answer(texts):
+    record = {**RECORD, "modern_rendering": "Love, and do what you will.", "use_note": {"means": "The root decides the deed.", "not_for": ["a warrant for striking a child"]}}
+    blocks = fit_step.context_blocks(record, texts)
+    assert fit_step.fit_pack(record, blocks) in fit_step.fit_request("Q?", record, blocks)["user"]
+
+
+@pytest.mark.parametrize("entry,expected", [
+    ({"fit": "fits", "reason": "ok", "limit_stated": False}, {"fit": "fits", "reason": "ok", "limit_stated": False}),
+    ({"fit": "partly", "reason": "x"}, None), ({"fit": "maybe"}, None), ({}, None), ("text", None),
+])
+def test_an_entry_is_read_or_refused(entry, expected):
+    assert fit_step.judgement_from(entry) == expected
