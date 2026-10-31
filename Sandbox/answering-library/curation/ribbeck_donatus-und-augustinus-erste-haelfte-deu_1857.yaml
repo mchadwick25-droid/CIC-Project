@@ -1,7 +1,7 @@
 file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
 scheme: Ribbeck's three Theile (Erster, Zweiter, Dritter), each in Capitel numbered in words (Erstes, Zweites and so on) and, where the edition prints them, Abschnitte (Erster, Zweiter, Dritter), addressed T<Theil>/c<Capitel>/a<Abschnitt>; inside the Abschnitte Ribbeck prints unnumbered titled sub-headings on their own lines, and where a division is made at one the address is the Abschnitt address, a slash, and the printed title as a slug (for example T1/c3/a2/concil-zu-arles); Zweiter Theil Capitel 4 divides at the printed titles of the works discussed (Abecedarium, Gegen den Brief Petilian's with its printed Erstes, Zweites and Drittes Buch, Gegen den Brief Parmenian's, Ueber die Taufe, Ueber die Einheit der Kirche); inside Dritter Theil Capitel 1 Abschnitt 2 the printed Erster, Zweiter and Dritter Tag; the scan repeats the opening pages of Erster Theil Capitel 5 (second copy addressed by its line) and lacks printed pages 153 to 161, so the stretch from the printed page number 162 is addressed T1/page162; the scan binds both halves of the book, and the title pages of the second half are declared front matter; Vorrede, Einleitung, Inhalts-Verzeichniss and Druckfehler as printed
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
 - start_line: 124
   locus: vorrede
