@@ -13,8 +13,10 @@ position in the answer's net output; a rewrite the verify step used is `<n>r`),
 replies are read from `unbound/classify/replies/<question>.<n>.txt`. `final`
 starts from `verify/final/<question>.txt` when the verify step has run, else from
 the answer text, and writes `unbound/final/<question>.txt` and
-`unbound/summary.json`. When withheld limits leave an answer with no statement of
-limits, the fallback sentence stands where the first one stood. A missing or
+`unbound/summary.json`. Only sentences that stand in the starting text are
+read: one the verify step replaced or removed is not. When withheld limits leave
+an answer with no statement of limits, the fallback sentence stands where the
+first one stood (not added while any reply for that answer is missing or unreadable). A missing or
 unreadable reply keeps its sentence and is counted (`pending_classify`,
 `unreadable`); a run is complete only when those are zero. The prompts carry the
 question wording, so the run directory must lie outside the repository.
@@ -117,29 +119,35 @@ def final(rows: list, work: Path) -> dict:
     for question, answer, items in rows:
         start = work / "verify" / "final" / f"{question['id']}.txt"
         text = start.read_text(encoding="utf-8") if start.exists() else answer["text"]
-        withheld_limits, kept_limits = [], 0
-        for item in items:
+        shipped = [i for i in items if splice(text, i["sentence"], None)[1]]
+        complete = True
+        kept_limits, withheld_limits = 0, []
+        for item in shipped:
             key = f"{question['id']}.{item['n']}"
             row = classified.get(key)
             if row is None:
                 counts["pending_classify"] += 1
+                complete = False
                 continue
             decision = row["decision"]
             if row["judgement"] is None and decision == "keep":
                 counts["unreadable"] += 1
+                complete = False
             counts[decision] += 1
             kept_limits += decision == "keep" and (row["judgement"] or {}).get("kind") == "limit"
             if decision == "withhold_limit":
                 withheld_limits.append(item["sentence"])
             elif decision in ("withhold", "withhold_net"):
-                text, found = splice(text, item["sentence"], None)
-                counts["not_found_in_text"] += not found
-        if withheld_limits and not kept_limits:
-            counts["fallback_added"] += 1
-        for number, sentence in enumerate(withheld_limits):
-            replacement = us.LIMIT_FALLBACK if number == 0 and not kept_limits else None
-            text, found = splice(text, sentence, replacement)
-            counts["not_found_in_text"] += not found
+                text, _found = splice(text, item["sentence"], None)
+        if withheld_limits:
+            first = min(withheld_limits, key=text.find)
+            for sentence in withheld_limits:
+                if sentence != first:
+                    text, _found = splice(text, sentence, None)
+            add_fallback = complete and not kept_limits
+            if add_fallback:
+                counts["fallback_added"] += 1
+            text, _found = splice(text, first, us.LIMIT_FALLBACK if add_fallback else None)
         (out_dir / f"{question['id']}.txt").write_text(text, encoding="utf-8")
     summary = {"answers": len(rows), **counts}
     (work / "unbound" / "summary.json").write_text(json.dumps(summary, indent=1, sort_keys=True), encoding="utf-8")

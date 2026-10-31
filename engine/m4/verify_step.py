@@ -121,19 +121,28 @@ def _record_level(record: dict) -> int | None:
 
 
 def confidence_exceeds(sentence: str, bound: list[str], records: dict[str, dict]) -> bool:
-    """True when the sentence names a formation-confidence level higher than the
-    lowest level among the records it is bound to."""
+    """True when the sentence names a formation-confidence level (written as the
+    five names are, capitalised) higher than the lowest level among the records
+    it is bound to."""
     levels = [lv for lv in (_record_level(records[r]) for r in bound if r in records) if lv is not None]
     if not levels:
         return False
     lowest = max(levels)
-    return any(i < lowest and re.search(rf"\b{re.escape(level)}\b", sentence, re.IGNORECASE) for i, level in enumerate(CONFIDENCE_LEVELS))
+    flat = re.sub(r"\s+", " ", sentence)
+    return any(i < lowest and re.search(rf"\b{re.escape(level)}\b", flat) for i, level in enumerate(CONFIDENCE_LEVELS))
+
+
+def _ships_through_verify(entry: dict, records: dict[str, dict]) -> bool:
+    """True for a net sentence the verify step leaves in the answer: not
+    withheld, and either untagged, placed by code, or holding a valid binding."""
+    tags = list(entry.get("tags") or [])
+    return entry.get("verdict") == "ok" and (not tags or placed_by_code(entry) or bool(valid_bindings(tags, records)))
 
 
 def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
     """One item per cited, voice-written sentence of an answer's net output:
-    its position, the sentence, the sentence before it in the answer (`before`,
-    for words that refer back), its valid bindings, and `held_out` when it has
+    its position, the sentence, the sentence before it that stays in the answer
+    (`before`, for words that refer back), its valid bindings, and `held_out` when it has
     tags but none valid."""
     items = []
     for n, entry in enumerate(answer.get("net_sentences", [])):
@@ -141,7 +150,7 @@ def sentence_items(answer: dict, records: dict[str, dict]) -> list[dict]:
         if entry.get("verdict") != "ok" or not tags or placed_by_code(entry):
             continue
         bound = valid_bindings(tags, records)
-        before = answer["net_sentences"][n - 1]["sentence"] if n else ""
+        before = next((e["sentence"] for e in reversed(answer["net_sentences"][:n]) if _ships_through_verify(e, records)), "")
         items.append({"n": n, "sentence": entry["sentence"], "before": before, "bound": bound, "held_out": not bound})
     return items
 
@@ -168,9 +177,10 @@ def parse_verify(reply: str) -> dict | None:
 
 
 def apply_confidence_cap(judgement: dict | None, sentence: str, bound: list[str], records: dict[str, dict]) -> dict | None:
-    """The judge's reading, turned to unsupported (stronger_force) when the
-    sentence names a level above the lowest of its bound records."""
-    if judgement is not None and confidence_exceeds(sentence, bound, records):
+    """A supported reading, turned to unsupported (stronger_force) when the
+    sentence names a level above the lowest of its bound records. An unsupported
+    reading keeps the judge's own problem."""
+    if judgement is not None and judgement["supported"] and confidence_exceeds(sentence, bound, records):
         return {"supported": False, "problem": "stronger_force", "reason": "names a confidence level above the lowest of the records it is bound to"}
     return judgement
 

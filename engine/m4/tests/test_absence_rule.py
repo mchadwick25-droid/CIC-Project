@@ -107,3 +107,18 @@ def test_check_limit_holds_a_limit_the_cue_phrases_miss_to_the_same_test():
     assert absence_rule.check_limit("We know only that for one country town Augustine looked for a bishop who knew Punic.", [limit])
     stated = "From our own two cities, in our years from 246 to 430, no text a woman wrote herself survives."
     assert absence_rule.check_limit(stated, [limit]) is None
+
+
+def test_check_limit_passes_nothing_with_no_word_that_says_what_it_is_about():
+    records = load_world_records("lpc")
+    from engine.m4 import absence_rule
+    for record in (records["lpc.limit.womens-own-voice"], records["lpc.gravity.collegial-communion-preserved"]):
+        for sentence in ("That is not known.", "Nothing of that is known to us.", "We cannot say.", "We have nothing on that."):
+            assert absence_rule.check_limit(sentence, [record])
+
+
+def test_check_limit_does_not_match_two_limits_that_only_share_their_way_of_speaking():
+    from engine.m4 import absence_rule
+    record = {"id": "x.limit.a", "record_type": "honest_limit", "statement": "Our sources do not tell us when the council met."}
+    assert absence_rule.check_limit("Our sources do not tell us how the bishop died.", [record])
+    assert absence_rule.check_limit("Our sources never tell us what the bishop ate.", [record])

@@ -153,3 +153,22 @@ def test_the_cap_turns_a_supported_reading_into_stronger_force(records):
     assert vs.apply_confidence_cap(None, sentence, [WIDELY, THIN], records) is None
     reply = '{"supported": true, "problem": null, "reason": "ok"}'
     assert vs.read_reply(reply, sentence, [WIDELY, THIN], records)["supported"] is False
+
+
+def test_the_sentence_before_skips_one_that_does_not_stay_in_the_answer(records):
+    answer = _answer(_entry("Kept first.", []), _entry("Held out.", ["not.a.record"]), _entry("Withheld.", [], verdict="withhold"), _entry("Then he.", [LIMIT]))
+    items = vs.sentence_items(answer, records)
+    assert items[-1]["sentence"] == "Then he." and items[-1]["before"] == "Kept first."
+    assert vs.sentence_items(_answer(_entry("Only.", [LIMIT])), records)[0]["before"] == ""
+
+
+def test_level_names_count_only_as_names_of_a_level(records):
+    for sentence in ("Augustine documented his conversion in a book.", "This is not documented; it is contested.", "It was widely accepted by his hearers."):
+        assert not vs.confidence_exceeds(sentence, ["lpc.witness.days-before-the-sun", THIN], records)
+    assert vs.confidence_exceeds("We hold it at Widely\n Accepted.", [WIDELY, THIN], records)
+    assert vs.confidence_exceeds("It is Documented.", ["lpc.witness.days-before-the-sun", THIN], records)
+
+
+def test_the_cap_keeps_the_judges_own_finding(records):
+    own = {"supported": False, "problem": "added_detail", "reason": "adds a date"}
+    assert vs.apply_confidence_cap(own, "We hold it at Widely Accepted.", [WIDELY, THIN], records) == own

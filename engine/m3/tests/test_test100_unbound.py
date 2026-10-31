@@ -95,3 +95,62 @@ def test_a_sentence_the_verify_step_rewrote_and_used_is_classified_too(tmp_path)
     items = tu._answers(questions, work, load_world_records("lpc"))[0][2]
     assert [i["n"] for i in items][-1] == "0r" and items[-1]["sentence"] == "Our record is silent on it."
     assert items[-1]["records"] == [LIMIT]
+
+
+def _verify_text(work, text):
+    (work / "verify" / "final").mkdir(parents=True)
+    (work / "verify" / "final" / "q1.txt").write_text(text, encoding="utf-8")
+
+
+def _run(tmp_path, tags, sentences, verify_text, kinds):
+    work, questions = _setup(tmp_path)
+    answer = {"text": " ".join(sentences), "net_sentences": [{"sentence": s, "tags": list(t), "verdict": "ok"} for s, t in zip(sentences, tags)],
+              "reply_shape": {"placed": []}}
+    (work / "answers" / "q1.json").write_text(json.dumps(answer))
+    if verify_text is not None:
+        _verify_text(work, verify_text)
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
+    tu.classify_export(rows, work)
+    for n, kind in enumerate(kinds):
+        _reply(work, f"q1.{n}", json.dumps({"kind": kind}))
+    tu.classify_import(rows, work, records)
+    return work, tu.final(rows, work)
+
+
+def test_a_limit_the_verify_step_removed_is_not_read_and_the_fallback_still_lands(tmp_path):
+    work, summary = _run(tmp_path, [[LIMIT], ()], ["Bound claim.", "Nothing we carry speaks of him."], "Bound claim. Nothing we carry speaks of him.",
+                         ["world_claim", "limit"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. {us.LIMIT_FALLBACK}"
+    assert summary["fallback_added"] == 1
+
+
+def test_a_kept_limit_that_no_longer_stands_in_the_text_does_not_stop_the_fallback(tmp_path):
+    work, summary = _run(tmp_path, [[LIMIT], (), ()], [STATED, "Nothing we carry speaks of him.", "Bound claim."],
+                         "Nothing we carry speaks of him. Bound claim.", ["limit", "limit", "connective"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{us.LIMIT_FALLBACK} Bound claim."
+
+
+def test_the_fallback_stands_where_the_first_withheld_limit_stands_in_the_text(tmp_path):
+    work, _ = _run(tmp_path, [(), (), ()], ["Nothing we carry speaks of him.", "Bound claim.", "We have no more on it."],
+                   "We have no more on it. Bound claim. Nothing we carry speaks of him.", ["limit", "connective", "limit"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{us.LIMIT_FALLBACK} Bound claim."
+
+
+def test_a_withheld_limit_that_reads_like_the_fallback_does_not_eat_it(tmp_path):
+    work, _ = _run(tmp_path, [(), ()], ["Nothing we carry speaks of him.", "We do not have that here."],
+                   "Nothing we carry speaks of him. We do not have that here.", ["limit", "limit"])
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == us.LIMIT_FALLBACK
+
+
+def test_no_fallback_is_added_while_a_reply_for_the_answer_is_missing(tmp_path):
+    work, questions = _setup(tmp_path)
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
+    tu.classify_export(rows, work)
+    _reply(work, "q1.0", '{"kind": "world_claim"}')
+    _reply(work, "q1.1", '{"kind": "world_claim"}')
+    _reply(work, "q1.3", '{"kind": "limit"}')
+    tu.classify_import(rows, work, records)
+    summary = tu.final(rows, work)
+    assert "fallback_added" not in summary and summary["pending_classify"] == 1

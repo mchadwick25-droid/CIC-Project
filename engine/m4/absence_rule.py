@@ -147,17 +147,31 @@ def _keeps_scope(sentence: str, supporting: str, record: dict) -> bool:
     return True
 
 
-def _backed(sentence: str, cited: list[dict]) -> str | None:
+_LIMIT_BOILERPLATE = frozenset({
+    "source", "tell", "know", "speak", "mention", "describe", "unknown", "word", "anything", "something", "whether",
+    "text", "texts", "write", "writes", "wrote", "written", "account", "accounts", "say", "says", "state", "states",
+})
+
+
+def limit_words(sentence: str) -> frozenset[str]:
+    """The words that say what a limit is about: the content words less the
+    words every limit shares ("sources", "tell", "know"), so two limits that
+    only share their way of speaking do not match."""
+    return content_words(sentence) - _LIMIT_BOILERPLATE
+
+
+def _backed(sentence: str, cited: list[dict], words=content_words) -> str | None:
     """None when a cited record states the sentence's absence with its scope;
-    else the reason it is not backed."""
-    claimed = content_words(sentence)
+    else the reason it is not backed. A sentence with no word left to match
+    makes no claim about the world (pass `words` to change what counts)."""
+    claimed = words(sentence)
     if not claimed:
         return None
     scope_failed = False
     for record in cited:
         best: tuple[int, bool, str] | None = None
         for candidate in _candidates(record):
-            shared = claimed & content_words(candidate)
+            shared = claimed & words(candidate)
             if len(shared) < min(MATCH_MINIMUM, len(claimed)) or len(shared) < MATCH_SHARE * len(claimed):
                 continue
             rank = (len(shared), any(marker.search(candidate) for marker in _SCOPE_MARKERS), candidate)
@@ -182,7 +196,9 @@ def check_absence(sentence: str, cited: list[dict]) -> str | None:
 def check_limit(sentence: str, cited: list[dict]) -> str | None:
     """For a sentence a reader has already found to say that something is
     missing or not known, whatever its wording: None when a cited record states
-    that limit with its scope; else the reason. No cue phrase is needed, so a
-    limit worded in a way the cues miss ("we know only that...") is held to the
-    same test."""
-    return _backed(sentence, cited)
+    that limit with its scope; else the reason. No cue phrase is needed, the
+    match uses only the words that say what the limit is about, and a limit with
+    no such word ("That is not known.") is not backed by any record."""
+    if not limit_words(sentence):
+        return REASON_ABSENCE_UNSUPPORTED
+    return _backed(sentence, cited, limit_words)
