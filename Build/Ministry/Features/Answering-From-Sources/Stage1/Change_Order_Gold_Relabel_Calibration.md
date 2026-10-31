@@ -42,7 +42,16 @@ The 3 items that keep their label:
 
 ## Changed in the repository
 
-`canon/gold_set/calibration.jsonl`: the 4 items above, each with the new `label`, `label_source` set to `relabelled_fixed_pack`, and a `relabel` record (from, to, reads, pack, this change order). The `relabel` record is provenance data on the item, not prose; whether it belongs in a canon file is for the project lead to confirm. Nothing else in the file changes. `goldset/tests`: 37 passed.
+`canon/gold_set/calibration.jsonl`: the 4 items above carry the new `label` and `label_source` set to `relabelled_fixed_pack`. Nothing else in the file changes. The history of each change is kept here, not in the file.
+
+| Item | Old label | New label | Old label source | Reads | Pack |
+|---|---|---|---|---|---|
+| gs-3684b2df4d2e | unsupported | supported | specialist_only | 2 | fixed (PR #1383) |
+| gs-3a2c786bd048 | unsupported | supported | agreed_by_two_labellers | 2 | fixed (PR #1383) |
+| gs-ccdd354f9269 | unsupported | supported | specialist_only | 2 | fixed (PR #1383) |
+| gs-d6a54d0d70ef | unsupported | supported | specialist_only | 2 | fixed (PR #1383) |
+
+The old labels stay traceable in git history (`canon/gold_set/calibration.jsonl` before this change). The calibration half carries no seal; the held-out half does, and `canon/gold_set/seals.yaml` is unchanged. `goldset/tests`: 37 passed.
 
 ## Not done
 
