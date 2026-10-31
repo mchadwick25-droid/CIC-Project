@@ -50,8 +50,10 @@ WINDOW_LINES = 12
 PASSAGE_CONTEXT = 3
 PASSAGE_CHARS = 1400
 TOP_WINDOWS = 4
-MIN_DISTINCT_TERMS = 3
+MIN_DISTINCT_TERMS = 2
 DENIED_WEIGHT = 2.0
+SUGGESTED_WEIGHT = 2.5
+QUESTION_WEIGHT = 0.5
 _JSON = re.compile(r"\{.*\}", re.DOTALL)
 _MARKUP = re.compile(r"<[^>]+>")
 _WORD = re.compile(r"[A-Za-z][A-Za-z'’-]*")
@@ -67,6 +69,14 @@ CLASSIFY_SYSTEM = (
     "is not known. For a limit, \"denies\" is a short phrase of 3 to 8 plain words naming the thing said to be missing, "
     "without \"our record\" or \"we\" (for example \"how the Maximinus conference ended\"). For any other kind \"denies\" is null.\n"
     'Reply with one JSON object only: {"kind": "connective" or "conversation" or "world_claim" or "limit", "denies": string or null}'
+)
+TERMS_SYSTEM = (
+    "A historical Representative said a sentence that denies that its sources hold something. You are given the visitor's "
+    "question, the sentence and the thing it denies. List 6 to 12 distinctive words that would appear in an English edition "
+    "of an ancient or late-antique source if it did state the denied thing: names of people and places, and the older "
+    "words a translator might use instead of the modern ones (for example \"conference\", \"disputation\", \"nuptials\", "
+    "\"sacrifice\"). Give single words only, no phrases and no common words such as \"the\" or \"said\".\n"
+    'Reply with one JSON object only: {"terms": ["word", "word"]}'
 )
 SHELF_SYSTEM = (
     "A historical Representative said a sentence that denies that its sources hold something. You are given the visitor's "
@@ -125,10 +135,29 @@ def decide_classified(judgement: dict | None, bound: bool) -> str:
     return "keep"
 
 
-def query_terms(question: str, sentence: str, denies: str) -> dict[str, float]:
-    """Weighted terms for the shelf search: the denied phrase counts double."""
+def terms_request(question: str, sentence: str, denies: str) -> dict:
+    return {"system": TERMS_SYSTEM, "user": f"QUESTION\n{question}\n\nSENTENCE\n{sentence}\n\nTHE SENTENCE DENIES\n{denies}"}
+
+
+def parse_terms(reply: str) -> list[str] | None:
+    found = _JSON.search(reply or "")
+    if not found:
+        return None
+    try:
+        data = json.loads(found.group(0))
+    except json.JSONDecodeError:
+        return None
+    terms = data.get("terms")
+    if not isinstance(terms, list) or not all(isinstance(t, str) for t in terms):
+        return None
+    return [t.strip() for t in terms if t.strip()][:12]
+
+
+def query_terms(question: str, sentence: str, denies: str, suggested: list[str] | None = None) -> dict[str, float]:
+    """Weighted terms for the shelf search: words a reader suggested count most,
+    then the denied phrase, then the sentence, then the question."""
     terms: dict[str, float] = {}
-    for text, weight in ((question, 1.0), (sentence, 1.0), (denies, DENIED_WEIGHT)):
+    for text, weight in ((question, QUESTION_WEIGHT), (sentence, 1.0), (denies, DENIED_WEIGHT), (" ".join(suggested or []), SUGGESTED_WEIGHT)):
         for word in absence_rule.content_words(text):
             terms[word] = max(terms.get(word, 0.0), weight)
     return terms

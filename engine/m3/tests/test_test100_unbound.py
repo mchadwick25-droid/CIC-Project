@@ -38,8 +38,10 @@ def test_a_full_round(tmp_path, monkeypatch):
     _reply(work, "classify", "q1.1", '{"kind": "world_claim", "denies": null}')
     _reply(work, "classify", "q1.2", '{"kind": "connective", "denies": null}')
     _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": "what Origen taught or whether the church condemned him"}')
-    result = tu.classify_import(rows, work, shelf_root=shelf)
+    result = tu.classify_import(rows, work)
     assert result == {"rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "to_shelf_check": 1, "withheld_by_the_net": 1}
+    _reply(work, "terms", "q1.3", '{"terms": ["Origen", "devil", "condemned"]}')
+    assert tu.terms_import(rows, work, shelf_root=shelf) == {"shelf_prompts_written": 1, "missing_replies": 0, "unreadable": 0}
     prompt = (work / "unbound" / "shelf" / "prompts" / "q1.3.md").read_text()
     assert "devil would be freed" in prompt and "f.txt" in prompt
     _reply(work, "shelf", "q1.3", '{"covered": true, "where": "f.txt 1-3", "reason": "states it"}')
@@ -54,7 +56,8 @@ def test_missing_replies_keep_their_sentences_and_are_counted(tmp_path, monkeypa
     rows = tu._answers(questions, work, load_world_records("lpc"))
     tu.classify_export(rows, work)
     _reply(work, "classify", "q1.3", '{"kind": "limit", "denies": "what Origen taught"}')
-    assert tu.classify_import(rows, work, shelf_root=shelf)["missing_replies"] == 3
+    assert tu.classify_import(rows, work)["missing_replies"] == 3
+    assert tu.terms_import(rows, work, shelf_root=shelf)["missing_replies"] == 1
     summary = tu.final(rows, work)
     assert summary["pending_classify"] == 3 and summary["pending_shelf"] == 1
     assert "Nothing we carry speaks of him." in (work / "unbound" / "final" / "q1.txt").read_text()

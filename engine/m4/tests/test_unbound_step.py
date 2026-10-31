@@ -58,9 +58,19 @@ def test_parse_shelf_and_decide(reply, expected):
     assert us.decide_shelf(judgement) == ("withhold" if expected and expected["covered"] else "keep")
 
 
-def test_query_terms_weight_the_denied_phrase_double():
-    terms = us.query_terms("What happened at the meeting with Maximinus?", "Our record does not say how it ended.", "how the Maximinus conference ended")
-    assert terms[us._normalise("maximinus")] == us.DENIED_WEIGHT and terms["conference"] == us.DENIED_WEIGHT and terms["meeting"] == 1.0
+def test_query_terms_rank_suggested_then_denied_then_sentence_then_question():
+    terms = us.query_terms("What happened at the meeting with Maximinus?", "Our record does not say how it ended.",
+                           "how the Maximinus conference ended", ["disputation", "Arian"])
+    assert terms["disputation"] == terms["arian"] == us.SUGGESTED_WEIGHT
+    assert terms["conference"] == us.DENIED_WEIGHT and terms[us._normalise("maximinus")] == us.DENIED_WEIGHT
+    assert terms["ended"] == us.DENIED_WEIGHT and terms["meeting"] == us.QUESTION_WEIGHT
+
+
+@pytest.mark.parametrize("reply, expected", [
+    ('{"terms": ["Maximinus", " Arian ", ""]}', ["Maximinus", "Arian"]), ('{"terms": "x"}', None), ('{"terms": [1]}', None), ("no", None),
+])
+def test_parse_terms(reply, expected):
+    assert us.parse_terms(reply) == expected
 
 
 def test_the_shelf_search_finds_the_window_that_holds_the_terms_and_shows_where(tmp_path):

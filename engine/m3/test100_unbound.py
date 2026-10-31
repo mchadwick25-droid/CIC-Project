@@ -7,13 +7,15 @@ not, is checked against the shelf by a second reader
 
   python -m engine.m3.test100_unbound classify-export --set <set.yaml> --work <run dir> --world lpc
   python -m engine.m3.test100_unbound classify-import --set <set.yaml> --work <run dir> --world lpc
+  python -m engine.m3.test100_unbound terms-import    --set <set.yaml> --work <run dir> --world lpc
   python -m engine.m3.test100_unbound final           --set <set.yaml> --work <run dir> --world lpc
 
 Prompts go to `unbound/<stage>/prompts/<question>.<n>.md` (n is the sentence's
 position in the answer's net output), replies are read from
 `unbound/<stage>/replies/<question>.<n>.txt`. Stages: `classify` (every sentence
-the voice wrote that the net did not withhold), `shelf` (each sentence found to be a denial,
-with the shelf passages found). `final` starts from `verify/final/<question>.txt`
+the voice wrote that the net did not withhold), `terms` (each sentence found to be a denial: a reader
+suggests the words a source would use if it stated the denied thing), `shelf` (the
+same sentences, with the shelf passages those words find). `final` starts from `verify/final/<question>.txt`
 when the verify step has run, else from the answer text, and writes
 `unbound/final/<question>.txt` and `unbound/summary.json`. A missing or unreadable
 reply keeps its sentence and is counted (`pending_classify`, `pending_shelf`,
@@ -77,8 +79,8 @@ def classify_export(rows: list, work: Path) -> dict:
     return {"prompts_written": written, "withheld_by_the_net": withheld}
 
 
-def classify_import(rows: list, work: Path, shelf_root: Path = TEXTS_ROOT, world: str = "lpc") -> dict:
-    out, pending, unreadable, queries = [], 0, 0, []
+def classify_import(rows: list, work: Path) -> dict:
+    out, pending, unreadable, denials = [], 0, 0, 0
     for question, _answer, items in rows:
         for item in items:
             key = f"{question['id']}.{item['n']}"
@@ -92,19 +94,39 @@ def classify_import(rows: list, work: Path, shelf_root: Path = TEXTS_ROOT, world
             judgement = us.parse_classify(reply)
             unreadable += judgement is None
             decision = us.decide_classified(judgement, item["bound"])
-            row = {**item, "key": key, "question_id": question["id"], "judgement": judgement, "decision": decision}
-            out.append(row)
+            out.append({**item, "key": key, "question_id": question["id"], "judgement": judgement, "decision": decision})
             if decision == "shelf_check":
-                queries.append((row, question_text(question), us.query_terms(question_text(question), item["sentence"], judgement["denies"])))
+                denials += 1
+                _write_prompt(work, "terms", key, us.terms_request(question_text(question), item["sentence"], judgement["denies"]))
+    _save(work / "unbound" / "classify.jsonl", out)
+    return {"rows": len(out), "missing_replies": pending, "unreadable": unreadable, "world_claim": sum(r["decision"] == "withhold" for r in out),
+            "to_shelf_check": denials, "withheld_by_the_net": sum(r["decision"] == "withhold_net" for r in out)}
+
+
+def terms_import(rows: list, work: Path, shelf_root: Path = TEXTS_ROOT, world: str = "lpc") -> dict:
+    questions = {q["id"]: q for q, _a, _i in rows}
+    queries, missing, unreadable = [], 0, 0
+    classified = _load(work / "unbound" / "classify.jsonl")
+    for row in classified:
+        if row["decision"] != "shelf_check":
+            continue
+        reply = _reply(work, "terms", row["key"])
+        if reply is None:
+            missing += 1
+            continue
+        suggested = us.parse_terms(reply)
+        unreadable += suggested is None
+        row["suggested_terms"] = suggested or []
+        question = question_text(questions[row["question_id"]])
+        queries.append((row, question, us.query_terms(question, row["sentence"], row["judgement"]["denies"], suggested)))
     if queries:
         index = us.ShelfIndex(shelf_root, sorted(shelf_files(world)), {t for _r, _q, terms in queries for t in terms})
         for row, question, terms in queries:
             passages = index.search(terms)
             row["passages"] = [{k: p[k] for k in ("file", "lines")} for p in passages]
             _write_prompt(work, "shelf", row["key"], us.shelf_request(question, row["sentence"], row["judgement"]["denies"], passages))
-    _save(work / "unbound" / "classify.jsonl", out)
-    return {"rows": len(out), "missing_replies": pending, "unreadable": unreadable, "world_claim": sum(r["decision"] == "withhold" for r in out),
-            "to_shelf_check": len(queries), "withheld_by_the_net": sum(r["decision"] == "withhold_net" for r in out)}
+    _save(work / "unbound" / "classify.jsonl", classified)
+    return {"shelf_prompts_written": len(queries), "missing_replies": missing, "unreadable": unreadable}
 
 
 def final(rows: list, work: Path) -> dict:
@@ -146,7 +168,7 @@ def main(argv: list[str] | None = None) -> int:
     from engine.m1.loader import load_world_records
 
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("command", choices=("classify-export", "classify-import", "final"))
+    parser.add_argument("command", choices=("classify-export", "classify-import", "terms-import", "final"))
     parser.add_argument("--set", type=Path, required=True, dest="question_set")
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--world", required=True)
@@ -155,7 +177,8 @@ def main(argv: list[str] | None = None) -> int:
     rows = _answers(load_set(args.question_set), work, load_world_records(args.world))
     result = {
         "classify-export": lambda: classify_export(rows, work),
-        "classify-import": lambda: classify_import(rows, work, world=args.world),
+        "classify-import": lambda: classify_import(rows, work),
+        "terms-import": lambda: terms_import(rows, work, world=args.world),
         "final": lambda: final(rows, work),
     }[args.command]()
     print(json.dumps(result))
