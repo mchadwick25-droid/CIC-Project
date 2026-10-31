@@ -414,6 +414,10 @@ Mark's own answer on pacing, relayed by coordination 2026-10-31 (weekly usage ab
 - Unchanged: tooling PRs get one Opus review before merge, no metered spend, never invent.
 - Worker prompts stay small, worktrees sparse, work batched into fewer longer steps.
 
+## Rule for later worlds: a confirmed false alarm counts as passing, 2026-10-31
+
+Mark's ruling, 2026-10-31. When a script check of a world's Doc_02 or Source Registry (`tools/verify_world_source_citations.py`, `tools/verify_world_source_docs.py`) reports a failure, and the failure is recorded with its reason and an independent reader has confirmed it is a false alarm, the check counts as passing for Approved to proceed. Each false alarm is recorded in the world's `Open_Gaps_Tracking.md` with its reason. A failure the reader finds real, or a checker vocabulary gap, is not covered: it is fixed or tracked as before.
+
 ## lpc row fields, 2026-10-31
 
 - 215 rows over 112 staging files carry `language`, `locus_ids` and `date`; 199 have `locus_ids` (122 division lists, 77 whole-file), 16 are unset because the work cannot be located exactly in an uncurated file. 87 dates are `unknown` with a `checked` note; 128 carry a quoted source and a formation confidence.
@@ -460,9 +464,9 @@ Reading: a visitor's own words almost never reach the right passage in a 102,415
 
 ## Open tooling notes and method notes, 2026-10-31
 
-Open tooling notes (recorded, not built; coordination ruling 2026-10-31: bundle into one small tooling PR with an Opus review before merge, after #1317 or when a file needs it):
-- `cic/engine/corpus_map.py` does not reject a repeated key inside a staging row. A merge of two branches that both added `locus_ids`, `language` or `date` to the same row left two copies in five lpc and latap shared rows; the YAML loader keeps the last copy without warning and the corpus-map check still passed. A repeated-key check belongs in `corpus_map.py` and in the merge's `--check`.
-- Handoff check 2 (`latest_review` in `engine/m10/rounds.py`) reads only the latest numbered review and counts the numbered rounds, so it fails for latap Step 0 although the cap ruling of 2026-10-29 is on file and Step 0 is approved to proceed. The gate should read the ruled review file named in the Hub Decision Log.
+Tooling notes built (PR 1400, merged 2026-10-31): the corpus-map check and the merge's `--check` now refuse a repeated key in a staging file, a bucket, `UNATTRIBUTED.yaml` and `PAIRS.yaml`, and every map reader uses `cic/engine/yaml_unique.py`; handoff check 2 (`latest_review` in `engine/m10/rounds.py`) now reads the review that a Cap ruling headed for the world names, when the round counter excuses that file.
+
+Review of PR 1400: one Opus reader, rounds 1 to 3 (the cap), then a fourth read of one change by Mark's one-time ruling of 2026-10-31, for this PR only. The fourth read found one defect (a ruling made after the cap in a restarted cycle was ignored). It was fixed and, under the same ruling, not read a fifth time: the final change was not re-read. Tests cover it, including the new case and the real aec Doc_01, Doc_02, rcg Doc_02 and latap Step 0 reviews.
 
 Method note, lpc row fields: a ThML container division has no unit of its own, so its `locus_ids` expand to every unit beneath it in document order, including stray ids with no parent prefix (`I_1`, `II_1`, `IV_1`, `LVI`, `div`). A sibling test written as a roman-numeral match also matches the letters d-i-v and ends a range early (it cut the Confessions off after Book IV in the first pass). Editor material (title pages, introductions, contents, elucidations, footnotes, book-head summaries) is left out of ThML rows.
 
