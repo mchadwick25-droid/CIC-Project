@@ -25,5 +25,6 @@ external_ids:
   rzg_source_registry_row: 9
 citation: Heinrich Bullinger, The Second Helvetic Confession (1566), in Philip Schaff, Creeds of Christendom (1919 printing)
 kind: vendored
+shelf_row: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566
 ---
 Zurich's own mature confessional statement - this world's own doctrinal-floor text (ch. III Trinity, ch. XI Christ's full deity and humanity, per Doc_04 SS - directly verified against this vendored text). Bullinger's own Chapter X carries the CT contest's own pastoral framing (rzglex008's own Key Sources). Verified directly against the vendored file at the cited section, per Source_Registry.md's own Verification Note.

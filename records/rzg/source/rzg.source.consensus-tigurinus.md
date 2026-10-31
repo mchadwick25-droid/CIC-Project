@@ -31,5 +31,6 @@ external_ids:
   rzg_source_registry_row: 5
 citation: John Calvin and the Zurich pastors, Mutual Consent in Regard to the Sacraments (the Consensus Tigurinus, 1549/1554), trans. Henry Beveridge (1844)
 kind: vendored
+shelf_row: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844--mutual-consent-in-regard-to-the-sacraments-the-consensus
 ---
 The single document most directly evidencing the Zurich/Geneva strand bridge (Doc_01 SS5). The 9th Head of Agreement carries this world's own CT-tagged contested term (Sign and the Thing Signified, rzglex008) and T2's own second pole. Verified directly against the vendored file, whole bounded extract, per Source_Registry.md's own Verification Note.
