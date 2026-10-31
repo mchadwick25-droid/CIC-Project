@@ -25,7 +25,7 @@ VOICED_FIELDS = (
 )
 ANSWER_FIELDS = ("absent_detail", "thin_topics", "classification")
 CARD_ONLY_FIELDS = {"story": ("heart",)}
-HEAD_TEXT_TYPES = frozenset({
+FIELD_SHOWN_TYPES = frozenset({
     "term", "story", "quote", "doctrinal_witness", "honest_limit", "gravity", "force", "contested_claim", "world_core",
 })
 LABEL_FIELDS = ("world_word", "title", "name", "speaker_or_author", "work")
@@ -223,7 +223,7 @@ def record_block(record: dict) -> str:
     for field in voiced_fields(record):
         if record.get(field):
             rows.append(f"{field}:\n{_render_value(record[field])}")
-    if record.get("record_type") not in HEAD_TEXT_TYPES:
+    if record.get("record_type") not in FIELD_SHOWN_TYPES:
         rows.append("record text:\n" + all_text(record))
     return "\n".join(rows)
 
