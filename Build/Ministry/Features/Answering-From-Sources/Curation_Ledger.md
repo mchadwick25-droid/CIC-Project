@@ -317,3 +317,41 @@ Each file was redone by a Sonnet worker and read by independent Opus readers who
 
 - `edition_unnumbered` is refused by the look-alike test where a head prints a Roman chapter numeral and no Arabic section numeral (Petschenig line 19797).
 - Splitting a numbered series, or dropping `number`, turns off the look-alike scan over that stretch. In the CSEL group this hid wrong page and section addresses in two files until a reader opened the lines. A rule that keeps the scan on across an absent head would help.
+
+## Group C and the large Augustine files, 2026-10-31
+
+Each file was read by independent Opus readers who opened the vendored lines. No reason form was added and no tooling changed.
+
+| File | Outcome |
+|---|---|
+| `augustine_de-catechizandis-rudibus-lat_krueger1893` | `sampled-ok` after one read |
+| `augustine_confessiones-lat_knoll-csel33` | `sampled-ok` after one read |
+| `augustine_civitate-dei-1-13-lat_hoffmann-csel40-1` | `sampled-ok` after one read |
+| `augustine_civitate-dei-14-22-lat_hoffmann-csel40-2` | `sampled-ok` after one read |
+| `poschmann_abendlaendische-kirchenbusse-deu_1928` | `sampled-ok` after one read |
+| `koch_cyprian-und-der-roemische-primat-deu_1910` | `sampled-ok` after two rounds (the Anhang was folded into chapter XXI) |
+| `koch_cathedra-petri-deu_1930` | `sampled-ok` after two rounds |
+| `vonsoden_cyprianische-briefsammlung-deu_1904` | `sampled-ok` after two rounds |
+| `ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857` | `sampled-ok` after two rounds |
+| `toulotte_geographie-afrique-chretienne-numidie-fra_1894` | `sampled-ok` after three rounds (the cap) |
+| `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902` | `sampled-ok` on its second review (the first, in the B8 batch, ruled needs-redo) |
+| `koch_cyprianische-untersuchungen-deu_1926` | `sampled-ok` after three rounds and Mark's one fourth look (below) |
+
+### Mark's ruling, 2026-10-31
+
+`koch_cyprianische-untersuchungen-deu_1926` got one fourth look: a fresh independent Opus reader on the one fixed sentence only (the lettered-points clause of the scheme line, now matching Anhang item 4's a) and b)). It is a one-time ruling for this file and does not reopen the cap elsewhere. The fourth reader found the sentence true to both the division list and the page. If it had failed, the file would have stayed `drafted` with no fifth look.
+
+### Open gaps
+
+- Ribbeck, first half: the file holds both halves although its library header says first half only. The scan repeats pages 284 to 285 in II/1 (lines 12265 to 12390), pages 352 to 353 four times in the Parmenian stretch (15212 to 15578), pages 434 to 436 in II/5/a2 (19340 to 19722) and pages 598 to 599 four times in the third-day account (26854 to 27202). Addresses stay correct. Undivided printed sub-heads remain in divisions under 5,000 words.
+- Toulotte: nine sees are missing from the scan (XX to XXII, XCIV to XCV, CLVI to CLIX), with the pages 68 to 69, 196 to 197 and 300 to 309 absent. Four runs of repeated pages are read outside the numbered series. The heads printed CLXIII and CLXIV at lines 12764 (Suava) and 12789 (Sulli) are read at 143 and 144 from the edition's own list, for the sequence check only.
+- Koch, Cyprianische Untersuchungen: Cap. 6 is printed twice (lines 1152 and 1243); the second is addressed by line outside the numbered series.
+- Gebhardt 1902 (second scan): in Perpetua the Latin and Greek alternate on each page, so continued text lands in the neighbouring language's chapter division. The format cannot give one chapter two ranges. This is a question for the Howto owner (a sub-address split by language or page), not a defect of either Gebhardt file.
+- Pionius II and XIII in that scan rest on the first scan as a second printed instance of the same head, and Piece XVIII on its printed `XVIH.` alone.
+
+### Open tooling notes (added)
+
+- `clean` does not mean citable addresses. See the caveat in `Stage2_Segmentation_Report.md`, section 3.
+- The format cannot give one chapter two ranges, so interleaved parallel texts cannot be addressed by language within a chapter.
+- A head that prints a clean numeral contradicting its position (Toulotte 12764 and 12789, Caillau 32624) cannot be taken out of the numbered series without a reason form, because the look-alike test flags it. It is handled by reading the position from the edition's own list for the sequence check only, or by line address.
+- Partial markup files (anf05, anf04, npnf101, npnf106, npnf108, and also npnf104 and npnf107): file-level fallback is enough for now (coordination ruling, 2026-10-31). Their share of words in divisions over 5,000 words is 28.7, 15.2, 31.4, 24.0, 49.7, 32.3 and 50.9 per cent. The lpc records cite by work, section number and quote, so the coarse divisions break no cited locus.
