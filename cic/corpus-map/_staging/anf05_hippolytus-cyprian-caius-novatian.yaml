@@ -630,7 +630,7 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
-  locus_ids: [iv.vi, iv.vi.i/line54964, iv.vi.i/line55019, iv.vi.i/line55047, iv.vi.i/line55072,
+  locus_ids: [iv.vi.i/line54964, iv.vi.i/line55019, iv.vi.i/line55047, iv.vi.i/line55072,
     iv.vi.i/line55116, iv.vi.i/line55145, iv.vi.i/line55163, iv.vi.i/line55186, iv.vi.i/line55215,
     iv.vi.i/line55240, iv.vi.i/line55267, iv.vi.i/line55290, iv.vi.i/line55316, iv.vi.i/line55339,
     iv.vi.i/line55372, iv.vi.i/line55396, iv.vi.i/line55416, iv.vi.i/line55441, iv.vi.i/line55469,
@@ -671,23 +671,23 @@ assignments:
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: assigned
-  locus_ids: [iv.vii, iv.vii.ii/line55869, iv.vii.ii/line55920, iv.vii.ii/line55953,
-    iv.vii.ii/line55986, iv.vii.ii/line56023, iv.vii.ii/line56067, iv.vii.ii/line56104,
-    iv.vii.ii/line56128, iv.vii.ii/line56151, iv.vii.ii/line56182, iv.vii.iii/line56214,
-    iv.vii.iii/line56268, iv.vii.iii/line56286, iv.vii.iii/line56306, iv.vii.iii/line56337,
-    iv.vii.iii/line56374, iv.vii.iii/line56398, iv.vii.iii/line56428, iv.vii.iii/line56448,
-    iv.vii.iii/line56487, iv.vii.iii/line56512, iv.vii.iii/line56541, iv.vii.iii/line56565,
-    iv.vii.iii/line56597, iv.vii.iii/line56631, iv.vii.iii/line56669, iv.vii.iii/line56711,
-    iv.vii.iii/line56734, iv.vii.iii/line56756, iv.vii.iii/line56785, iv.vii.iii/line56801,
-    iv.vii.iii/line56826, iv.vii.iii/line56848, iv.vii.iii/line56869, iv.vii.iii/line56893,
-    iv.vii.iii/line56917, iv.vii.iii/line56946, iv.vii.iii/line56978, iv.vii.iv/line57010,
-    iv.vii.iv/line57047, iv.vii.iv/line57079, iv.vii.iv/line57114, iv.vii.iv/line57132,
-    iv.vii.iv/line57159, iv.vii.iv/line57180, iv.vii.iv/line57202, iv.vii.iv/line57244,
-    iv.vii.iv/line57268, iv.vii.iv/line57296, iv.vii.iv/line57324, iv.vii.iv/line57362,
-    iv.vii.iv/line57389, iv.vii.v/line57413, iv.vii.v/line57447, iv.vii.v/line57472,
-    iv.vii.v/line57501, iv.vii.v/line57526, iv.vii.v/line57551, iv.vii.v/line57577,
-    iv.vii.v/line57608, iv.vii.v/line57638, iv.vii.v/line57662, iv.vii.v/line57690,
-    iv.vii.v/line57717, iv.vii.v/line57743]
+  locus_ids: [iv.vii.ii/line55869, iv.vii.ii/line55920, iv.vii.ii/line55953, iv.vii.ii/line55986,
+    iv.vii.ii/line56023, iv.vii.ii/line56067, iv.vii.ii/line56104, iv.vii.ii/line56128,
+    iv.vii.ii/line56151, iv.vii.ii/line56182, iv.vii.iii/line56214, iv.vii.iii/line56268,
+    iv.vii.iii/line56286, iv.vii.iii/line56306, iv.vii.iii/line56337, iv.vii.iii/line56374,
+    iv.vii.iii/line56398, iv.vii.iii/line56428, iv.vii.iii/line56448, iv.vii.iii/line56487,
+    iv.vii.iii/line56512, iv.vii.iii/line56541, iv.vii.iii/line56565, iv.vii.iii/line56597,
+    iv.vii.iii/line56631, iv.vii.iii/line56669, iv.vii.iii/line56711, iv.vii.iii/line56734,
+    iv.vii.iii/line56756, iv.vii.iii/line56785, iv.vii.iii/line56801, iv.vii.iii/line56826,
+    iv.vii.iii/line56848, iv.vii.iii/line56869, iv.vii.iii/line56893, iv.vii.iii/line56917,
+    iv.vii.iii/line56946, iv.vii.iii/line56978, iv.vii.iv/line57010, iv.vii.iv/line57047,
+    iv.vii.iv/line57079, iv.vii.iv/line57114, iv.vii.iv/line57132, iv.vii.iv/line57159,
+    iv.vii.iv/line57180, iv.vii.iv/line57202, iv.vii.iv/line57244, iv.vii.iv/line57268,
+    iv.vii.iv/line57296, iv.vii.iv/line57324, iv.vii.iv/line57362, iv.vii.iv/line57389,
+    iv.vii.v/line57413, iv.vii.v/line57447, iv.vii.v/line57472, iv.vii.v/line57501,
+    iv.vii.v/line57526, iv.vii.v/line57551, iv.vii.v/line57577, iv.vii.v/line57608,
+    iv.vii.v/line57638, iv.vii.v/line57662, iv.vii.v/line57690, iv.vii.v/line57717,
+    iv.vii.v/line57743]
   language: eng
   date: {formation_confidence: unknown, checked: "ANF 5 div2 4.7 Translator's Introduction and Source_Registry row 6: the four pieces are disputed and the repo gives no window"}
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.

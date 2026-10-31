@@ -11,6 +11,6 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: deu
-    date: {formation_confidence: unknown, checked: "bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt: the edition header gives only the printing year (1924) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {start: 1924, end: 1924, source: "bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt header: title page 'Erste und zweite Auflage. Freiburg im Breisgau 1924'; imprimatur dated Freiburg, 5 September 1923", formation_confidence: Documented}
     note: >
       Modern German handbook account of Augustine and his circle. Registry row 250.

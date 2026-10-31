@@ -11,7 +11,7 @@ assignments:
     confidence: provisional
     locus_ids: [chapter20]
     language: fra
-    date: {formation_confidence: unknown, checked: "duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt: the edition header gives only the printing year of the vendored 3rd edition (1907); the year of first composition is not in the repo"}
+    date: {start: 1905, end: 1905, source: "duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt: preface signed 'Rome, 22 novembre 1905.' (file line 225); the title page reads 'Troisieme edition' 1907 and the file does not say which edition the preface first introduced; this is the preface date, not a first-publication year", formation_confidence: Documented}
     note: >
       Modern French history of the early church; the chapter named in the locus is the part
       that bears on this entry. Registry row 240.

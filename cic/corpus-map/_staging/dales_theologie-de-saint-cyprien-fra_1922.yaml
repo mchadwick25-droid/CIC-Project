@@ -12,7 +12,7 @@ assignments:
     confidence: assigned
     locus_ids: [whole-file]
     language: fra
-    date: {formation_confidence: unknown, checked: "dales_theologie-de-saint-cyprien-fra_1922.txt: the edition header gives only the printing year (1922) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {start: 1921, end: 1921, source: "dales_theologie-de-saint-cyprien-fra_1922.txt: nihil obstat 'Parisiis, die 114 Novembris 1921' (file line 156; the header reads 'nihil obstat of November 1921'); this is the approval date, not a printing year", formation_confidence: Documented}
     note: >
       Modern (1922) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. A French monograph on Cyprian's theology, by the author of the

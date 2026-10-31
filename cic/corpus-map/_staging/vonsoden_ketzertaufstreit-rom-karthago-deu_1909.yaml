@@ -12,7 +12,7 @@ assignments:
     confidence: assigned
     locus_ids: [whole-file]
     language: deu
-    date: {formation_confidence: unknown, checked: "vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt: the edition header gives only the printing year (1909) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {formation_confidence: unknown, checked: "vonsoden_ketzertaufstreit-rom-karthago-deu_1909.txt: header gives 1909 from the title page of Band XII (Quellen und Forschungen); the file notes the host's date field of 1898 is a catalogue error; no preface dateline and no first-publication statement"}
     note: >
       Modern (1909) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The article on the dispute between Stephen of Rome and Cyprian of

@@ -29,25 +29,25 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [x.iii, x.iii.i, x.iii.ii, x.iii.iii, x.iii.iv, x.iii.v, x.iii.vi, x.iii.vii,
-      x.iii.viii, x.iii.ix, x.iii.x, x.iii.xi, x.iii.xii, x.iii.xiii, x.iii.xiv, x.iii.xv,
-      x.iii.xvi, x.iii.xvii, x.iii.xviii, x.iii.xix, x.iii.xx, x.iii.xxi, x.iii.xxii, x.iii.xxiii,
-      x.iii.xxiv, x.iii.xxv, x.iii.xxvi, x.iii.xxvii, x.iii.xxviii, x.iii.xxix, x.iii.xxx,
-      x.iii.xxxi, x.iii.xxxii, x.iii.xxxiii, x.iii.xxxiv, x.iii.xxxv, x.iii.xxxvi, x.iii.xxxvii,
-      x.iii.xxxviii, x.iii.xxxix, x.iii.xl, x.iii.xli, x.iii.xlii, x.iii.xliii, x.iii.xliv,
-      x.iii.xlv, x.iii.xlvi, x.iii.xlvii, x.iii.xlviii, x.iii.xlix, x.iii.l, x.iii.li, x.iii.lii,
-      x.iii.liii, x.iii.liv, x.iii.lv, x.iii.lvi, x.iii.lvii, x.iii.lviii, x.iii.lix, x.iii.lx,
-      x.iii.lxi, x.iii.lxii, x.iii.lxiii, x.iii.lxiv, x.iii.lxv, x.iii.lxvi, x.iii.lxvii,
-      x.iii.lxviii, x.iii.lxix, x.iii.lxx, x.iv, x.iv.i, x.iv.ii, x.iv.iii, x.iv.iv, x.iv.v,
-      x.iv.vi, x.iv.vii, x.iv.viii, x.iv.ix, x.iv.x, x.iv.xi, x.iv.xii, x.iv.xiii, x.iv.xiv,
-      x.iv.xv, x.iv.xvi, x.iv.xvii, x.iv.xviii, x.iv.xix, x.iv.xx, x.iv.xxi, x.iv.xxii, x.iv.xxiii,
-      x.iv.xxiv, x.iv.xxv, x.iv.xxvi, x.iv.xxvii, x.iv.xxviii, x.iv.xxix, x.iv.xxx, x.iv.xxxi,
-      x.iv.xxxii, x.iv.xxxiii, x.iv.xxxiv, x.iv.xxxv, x.iv.xxxvi, x.iv.xxxvii, x.iv.xxxviii,
-      x.iv.xxxix, x.iv.xl, x.iv.xli, x.iv.xlii, x.iv.xliii, x.iv.xliv, x.iv.xlv, x.iv.xlvi,
-      x.iv.xlvii, x.iv.xlviii, x.iv.xlix, x.iv.l, x.iv.li, x.iv.lii, x.iv.liii, x.iv.liv, x.iv.lv,
-      x.iv.lvi, x.iv.lvii, x.iv.lviii, x.iv.lix, x.v, x.v.i, x.v.ii, x.v.iii, x.v.iv, x.v.v, x.v.vi,
-      x.v.vii, x.v.viii, x.v.ix, x.v.x, x.v.xi, x.v.xii, x.v.xiii, x.v.xiv, x.v.xv, x.v.xvi,
-      x.v.xvii, x.v.xviii, x.v.xix, x.v.xx, x.v.xxi, x.v.xxii, x.v.xxiii]
+    locus_ids: [x.iii.i, x.iii.ii, x.iii.iii, x.iii.iv, x.iii.v, x.iii.vi, x.iii.vii, x.iii.viii,
+      x.iii.ix, x.iii.x, x.iii.xi, x.iii.xii, x.iii.xiii, x.iii.xiv, x.iii.xv, x.iii.xvi,
+      x.iii.xvii, x.iii.xviii, x.iii.xix, x.iii.xx, x.iii.xxi, x.iii.xxii, x.iii.xxiii, x.iii.xxiv,
+      x.iii.xxv, x.iii.xxvi, x.iii.xxvii, x.iii.xxviii, x.iii.xxix, x.iii.xxx, x.iii.xxxi,
+      x.iii.xxxii, x.iii.xxxiii, x.iii.xxxiv, x.iii.xxxv, x.iii.xxxvi, x.iii.xxxvii, x.iii.xxxviii,
+      x.iii.xxxix, x.iii.xl, x.iii.xli, x.iii.xlii, x.iii.xliii, x.iii.xliv, x.iii.xlv, x.iii.xlvi,
+      x.iii.xlvii, x.iii.xlviii, x.iii.xlix, x.iii.l, x.iii.li, x.iii.lii, x.iii.liii, x.iii.liv,
+      x.iii.lv, x.iii.lvi, x.iii.lvii, x.iii.lviii, x.iii.lix, x.iii.lx, x.iii.lxi, x.iii.lxii,
+      x.iii.lxiii, x.iii.lxiv, x.iii.lxv, x.iii.lxvi, x.iii.lxvii, x.iii.lxviii, x.iii.lxix,
+      x.iii.lxx, x.iv.i, x.iv.ii, x.iv.iii, x.iv.iv, x.iv.v, x.iv.vi, x.iv.vii, x.iv.viii, x.iv.ix,
+      x.iv.x, x.iv.xi, x.iv.xii, x.iv.xiii, x.iv.xiv, x.iv.xv, x.iv.xvi, x.iv.xvii, x.iv.xviii,
+      x.iv.xix, x.iv.xx, x.iv.xxi, x.iv.xxii, x.iv.xxiii, x.iv.xxiv, x.iv.xxv, x.iv.xxvi,
+      x.iv.xxvii, x.iv.xxviii, x.iv.xxix, x.iv.xxx, x.iv.xxxi, x.iv.xxxii, x.iv.xxxiii, x.iv.xxxiv,
+      x.iv.xxxv, x.iv.xxxvi, x.iv.xxxvii, x.iv.xxxviii, x.iv.xxxix, x.iv.xl, x.iv.xli, x.iv.xlii,
+      x.iv.xliii, x.iv.xliv, x.iv.xlv, x.iv.xlvi, x.iv.xlvii, x.iv.xlviii, x.iv.xlix, x.iv.l,
+      x.iv.li, x.iv.lii, x.iv.liii, x.iv.liv, x.iv.lv, x.iv.lvi, x.iv.lvii, x.iv.lviii, x.iv.lix,
+      x.v.i, x.v.ii, x.v.iii, x.v.iv, x.v.v, x.v.vi, x.v.vii, x.v.viii, x.v.ix, x.v.x, x.v.xi,
+      x.v.xii, x.v.xiii, x.v.xiv, x.v.xv, x.v.xvi, x.v.xvii, x.v.xviii, x.v.xix, x.v.xx, x.v.xxi,
+      x.v.xxii, x.v.xxiii]
     language: eng
     date: {start: 412, end: 412, source: "npnf105_augustine-anti-pelagian-writings.xml div1 10 heading: addressed to Marcellinus, a.d. 412; P1 agrees", formation_confidence: Widely Accepted}
     note: >
@@ -157,17 +157,17 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [xv.iii, xv.iii.i, xv.iii.ii, xv.iii.iii, xv.iii.iv, xv.iii.v, xv.iii.vi, xv.iii.vii,
+    locus_ids: [xv.iii.i, xv.iii.ii, xv.iii.iii, xv.iii.iv, xv.iii.v, xv.iii.vi, xv.iii.vii,
       xv.iii.viii, xv.iii.ix, xv.iii.x, xv.iii.xi, xv.iii.xii, xv.iii.xiii, xv.iii.xiv, xv.iii.xv,
       xv.iii.xvi, xv.iii.xvii, xv.iii.xviii, xv.iii.xix, xv.iii.xx, xv.iii.xxi, xv.iii.xxii,
       xv.iii.xxiii, xv.iii.xxiv, xv.iii.xxv, xv.iii.xxvi, xv.iii.xxvii, xv.iii.xxviii, xv.iii.xxix,
       xv.iii.xxx, xv.iii.xxxi, xv.iii.xxxii, xv.iii.xxxiii, xv.iii.xxxiv, xv.iii.xxxv, xv.iii.xxxvi,
       xv.iii.xxxvii, xv.iii.xxxviii, xv.iii.xxxix, xv.iii.xl, xv.iii.xli, xv.iii.xlii, xv.iii.xliii,
       xv.iii.xliv, xv.iii.xlv, xv.iii.xlvi, xv.iii.xlvii, xv.iii.xlviii, xv.iii.xlix, xv.iii.l,
-      xv.iii.li, xv.iii.lii, xv.iii.liii, xv.iii.liv, xv.iii.lv, xv.iv, xv.iv.i, xv.iv.ii,
-      xv.iv.iii, xv.iv.iv, xv.iv.v, xv.iv.vi, xv.iv.vii, xv.iv.viii, xv.iv.ix, xv.iv.x, xv.iv.xi,
-      xv.iv.xii, xv.iv.xiii, xv.iv.xiv, xv.iv.xv, xv.iv.xvi, xv.iv.xvii, xv.iv.xviii, xv.iv.xix,
-      xv.iv.xx, xv.iv.xxi, xv.iv.xxii, xv.iv.xxiii, xv.iv.xxiv, xv.iv.xxv, xv.iv.xxvi, xv.iv.xxvii,
+      xv.iii.li, xv.iii.lii, xv.iii.liii, xv.iii.liv, xv.iii.lv, xv.iv.i, xv.iv.ii, xv.iv.iii,
+      xv.iv.iv, xv.iv.v, xv.iv.vi, xv.iv.vii, xv.iv.viii, xv.iv.ix, xv.iv.x, xv.iv.xi, xv.iv.xii,
+      xv.iv.xiii, xv.iv.xiv, xv.iv.xv, xv.iv.xvi, xv.iv.xvii, xv.iv.xviii, xv.iv.xix, xv.iv.xx,
+      xv.iv.xxi, xv.iv.xxii, xv.iv.xxiii, xv.iv.xxiv, xv.iv.xxv, xv.iv.xxvi, xv.iv.xxvii,
       xv.iv.xxviii, xv.iv.xxix, xv.iv.xxx, xv.iv.xxxi, xv.iv.xxxii, xv.iv.xxxiii, xv.iv.xxxiv,
       xv.iv.xxxv, xv.iv.xxxvi, xv.iv.xxxvii, xv.iv.xxxviii, xv.iv.xxxix, xv.iv.xl, xv.iv.xli,
       xv.iv.xlii, xv.iv.xliii, xv.iv.xliv, xv.iv.xlv, xv.iv.xlvi, xv.iv.xlvii, xv.iv.xlviii]
@@ -187,7 +187,7 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [xvi.iv, xvi.v, xvi.v.i, xvi.v.ii, xvi.v.iii, xvi.v.iv, xvi.v.v, xvi.v.vi, xvi.v.vii,
+    locus_ids: [xvi.iv, xvi.v.i, xvi.v.ii, xvi.v.iii, xvi.v.iv, xvi.v.v, xvi.v.vi, xvi.v.vii,
       xvi.v.viii, xvi.v.ix, xvi.v.x, xvi.v.xi, xvi.v.xii, xvi.v.xiii, xvi.v.xiv, xvi.v.xv,
       xvi.v.xvi, xvi.v.xvii, xvi.v.xviii, xvi.v.xix, xvi.v.xx, xvi.v.xxi, xvi.v.xxii, xvi.v.xxiii,
       xvi.v.xxiv, xvi.v.xxv, xvi.v.xxvi, xvi.v.xxvii, xvi.v.xxviii, xvi.v.xxix, xvi.v.xxx,
@@ -217,25 +217,24 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
-    locus_ids: [xvii.iv, xvii.iv.i, xvii.iv.ii, xvii.iv.iii, xvii.iv.iv, xvii.iv.v, xvii.iv.vi,
-      xvii.iv.vii, xvii.iv.viii, xvii.iv.ix, xvii.iv.x, xvii.iv.xi, xvii.iv.xii, xvii.iv.xiii,
-      xvii.iv.xiv, xvii.iv.xv, xvii.iv.xvi, xvii.iv.xvii, xvii.iv.xviii, xvii.iv.xix, xvii.iv.xx,
-      xvii.iv.xxi, xvii.iv.xxii, xvii.iv.xxiii, xvii.iv.xxiv, xvii.iv.xxv, xvii.iv.xxvi,
-      xvii.iv.xxvii, xvii.iv.xxviii, xvii.iv.xxix, xvii.iv.xxx, xvii.iv.xxxi, xvii.iv.xxxii,
-      xvii.iv.xxxiii, xvii.iv.xxxiv, xvii.iv.xxxv, xvii.v, xvii.v.i, xvii.v.ii, xvii.v.iii,
-      xvii.v.iv, xvii.v.v, xvii.v.vi, xvii.v.vii, xvii.v.viii, xvii.v.ix, xvii.v.x, xvii.v.xi,
-      xvii.v.xii, xvii.v.xiii, xvii.v.xiv, xvii.v.xv, xvii.v.xvi, xvii.v.xvii, xvii.v.xviii,
-      xvii.v.xix, xvii.v.xx, xvii.v.xxi, xvii.v.xxii, xvii.v.xxiii, xvii.vi, xvii.vi.i, xvii.vi.ii,
-      xvii.vi.iii, xvii.vi.iv, xvii.vi.v, xvii.vi.vi, xvii.vi.vii, xvii.vi.viii, xvii.vi.ix,
-      xvii.vi.x, xvii.vi.xi, xvii.vi.xii, xvii.vi.xiii, xvii.vi.xiv, xvii.vi.xv, xvii.vi.xvi,
-      xvii.vi.xvii, xvii.vi.xviii, xvii.vi.xix, xvii.vi.xx, xvii.vi.xxi, xvii.vi.xxii,
-      xvii.vi.xxiii, xvii.vii, xvii.vii.i, xvii.vii.ii, xvii.vii.iii, xvii.vii.iv, xvii.vii.v,
-      xvii.vii.vi, xvii.vii.vii, xvii.vii.viii, xvii.vii.ix, xvii.vii.x, xvii.vii.xi, xvii.vii.xii,
-      xvii.vii.xiii, xvii.vii.xiv, xvii.vii.xv, xvii.vii.xvi, xvii.vii.xvii, xvii.vii.xviii,
-      xvii.vii.xix, xvii.vii.xx, xvii.vii.xxi, xvii.vii.xxii, xvii.vii.xxiii, xvii.vii.xxiv,
-      xvii.vii.xxv, xvii.vii.xxvi, xvii.vii.xxvii, xvii.vii.xxviii, xvii.vii.xxix, xvii.vii.xxx,
-      xvii.vii.xxxi, xvii.vii.xxxii, xvii.vii.xxxiii, xvii.vii.xxxiv, xvii.vii.xxxv, xvii.vii.xxxvi,
-      xvii.vii.xxxvii, xvii.vii.xxxviii, xvii.vii.xxxix]
+    locus_ids: [xvii.iv.i, xvii.iv.ii, xvii.iv.iii, xvii.iv.iv, xvii.iv.v, xvii.iv.vi, xvii.iv.vii,
+      xvii.iv.viii, xvii.iv.ix, xvii.iv.x, xvii.iv.xi, xvii.iv.xii, xvii.iv.xiii, xvii.iv.xiv,
+      xvii.iv.xv, xvii.iv.xvi, xvii.iv.xvii, xvii.iv.xviii, xvii.iv.xix, xvii.iv.xx, xvii.iv.xxi,
+      xvii.iv.xxii, xvii.iv.xxiii, xvii.iv.xxiv, xvii.iv.xxv, xvii.iv.xxvi, xvii.iv.xxvii,
+      xvii.iv.xxviii, xvii.iv.xxix, xvii.iv.xxx, xvii.iv.xxxi, xvii.iv.xxxii, xvii.iv.xxxiii,
+      xvii.iv.xxxiv, xvii.iv.xxxv, xvii.v.i, xvii.v.ii, xvii.v.iii, xvii.v.iv, xvii.v.v, xvii.v.vi,
+      xvii.v.vii, xvii.v.viii, xvii.v.ix, xvii.v.x, xvii.v.xi, xvii.v.xii, xvii.v.xiii, xvii.v.xiv,
+      xvii.v.xv, xvii.v.xvi, xvii.v.xvii, xvii.v.xviii, xvii.v.xix, xvii.v.xx, xvii.v.xxi,
+      xvii.v.xxii, xvii.v.xxiii, xvii.vi.i, xvii.vi.ii, xvii.vi.iii, xvii.vi.iv, xvii.vi.v,
+      xvii.vi.vi, xvii.vi.vii, xvii.vi.viii, xvii.vi.ix, xvii.vi.x, xvii.vi.xi, xvii.vi.xii,
+      xvii.vi.xiii, xvii.vi.xiv, xvii.vi.xv, xvii.vi.xvi, xvii.vi.xvii, xvii.vi.xviii, xvii.vi.xix,
+      xvii.vi.xx, xvii.vi.xxi, xvii.vi.xxii, xvii.vi.xxiii, xvii.vii.i, xvii.vii.ii, xvii.vii.iii,
+      xvii.vii.iv, xvii.vii.v, xvii.vii.vi, xvii.vii.vii, xvii.vii.viii, xvii.vii.ix, xvii.vii.x,
+      xvii.vii.xi, xvii.vii.xii, xvii.vii.xiii, xvii.vii.xiv, xvii.vii.xv, xvii.vii.xvi,
+      xvii.vii.xvii, xvii.vii.xviii, xvii.vii.xix, xvii.vii.xx, xvii.vii.xxi, xvii.vii.xxii,
+      xvii.vii.xxiii, xvii.vii.xxiv, xvii.vii.xxv, xvii.vii.xxvi, xvii.vii.xxvii, xvii.vii.xxviii,
+      xvii.vii.xxix, xvii.vii.xxx, xvii.vii.xxxi, xvii.vii.xxxii, xvii.vii.xxxiii, xvii.vii.xxxiv,
+      xvii.vii.xxxv, xvii.vii.xxxvi, xvii.vii.xxxvii, xvii.vii.xxxviii, xvii.vii.xxxix]
     language: eng
     date: {start: 419, end: 420, source: "npnf105_augustine-anti-pelagian-writings.xml div1 17 preface: end of 419 or start of 420", formation_confidence: Dominant Modern Reconstruction}
     note: >
@@ -254,27 +253,27 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [xviii.iii, xviii.iii.i, xviii.iii.ii, xviii.iii.iii, xviii.iii.iv, xviii.iii.v,
-      xviii.iii.vi, xviii.iii.vii, xviii.iii.viii, xviii.iii.ix, xviii.iii.x, xviii.iii.xi,
-      xviii.iii.xii, xviii.iii.xiii, xviii.iii.xiv, xviii.iii.xv, xviii.iii.xvi, xviii.iii.xvii,
-      xviii.iii.xviii, xviii.iii.xix, xviii.iii.xx, xviii.iii.xxi, xviii.iii.xxii, xviii.iii.xxiii,
-      xviii.iii.xxiv, xviii.iii.xxv, xviii.iii.xxvi, xviii.iii.xxvii, xviii.iii.xxviii,
-      xviii.iii.xxix, xviii.iii.xxx, xviii.iii.xxxi, xviii.iii.xxxii, xviii.iii.xxxiii,
-      xviii.iii.xxxiv, xviii.iii.xxxv, xviii.iii.xxxvi, xviii.iii.xxxvii, xviii.iii.xxxviii,
-      xviii.iii.xxxix, xviii.iii.xl, xviii.iii.xli, xviii.iii.xlii, xviii.iv, xviii.iv.i,
-      xviii.iv.ii, xviii.iv.iii, xviii.iv.iv, xviii.iv.v, xviii.iv.vi, xviii.iv.vii, xviii.iv.viii,
-      xviii.iv.ix, xviii.iv.x, xviii.iv.xi, xviii.iv.xii, xviii.iv.xiii, xviii.iv.xiv, xviii.iv.xv,
-      xviii.iv.xvi, xviii.iv.xvii, xviii.iv.xviii, xviii.iv.xix, xviii.iv.xx, xviii.iv.xxi,
-      xviii.iv.xxii, xviii.iv.xxiii, xviii.v, xviii.v.i, xviii.v.ii, xviii.v.iii, xviii.v.iv,
-      xviii.v.v, xviii.v.vi, xviii.v.vii, xviii.v.viii, xviii.v.ix, xviii.v.x, xviii.v.xi,
-      xviii.v.xii, xviii.v.xiii, xviii.v.xiv, xviii.v.xv, xviii.v.xvi, xviii.v.xvii, xviii.v.xviii,
-      xviii.v.xix, xviii.v.xx, xviii.v.xxi, xviii.v.xxii, xviii.v.xxiii, xviii.v.xxiv, xviii.v.xxv,
-      xviii.v.xxvi, xviii.vi, xviii.vi.i, xviii.vi.ii, xviii.vi.iii, xviii.vi.iv, xviii.vi.v,
-      xviii.vi.vi, xviii.vi.vii, xviii.vi.viii, xviii.vi.ix, xviii.vi.x, xviii.vi.xi, xviii.vi.xii,
-      xviii.vi.xiii, xviii.vi.xiv, xviii.vi.xv, xviii.vi.xvi, xviii.vi.xvii, xviii.vi.xviii,
-      xviii.vi.xix, xviii.vi.xx, xviii.vi.xxi, xviii.vi.xxii, xviii.vi.xxiii, xviii.vi.xxiv,
-      xviii.vi.xxv, xviii.vi.xxvi, xviii.vi.xxvii, xviii.vi.xxviii, xviii.vi.xxix, xviii.vi.xxx,
-      xviii.vi.xxxi, xviii.vi.xxxii, xviii.vi.xxxiii, xviii.vi.xxxiv]
+    locus_ids: [xviii.iii.i, xviii.iii.ii, xviii.iii.iii, xviii.iii.iv, xviii.iii.v, xviii.iii.vi,
+      xviii.iii.vii, xviii.iii.viii, xviii.iii.ix, xviii.iii.x, xviii.iii.xi, xviii.iii.xii,
+      xviii.iii.xiii, xviii.iii.xiv, xviii.iii.xv, xviii.iii.xvi, xviii.iii.xvii, xviii.iii.xviii,
+      xviii.iii.xix, xviii.iii.xx, xviii.iii.xxi, xviii.iii.xxii, xviii.iii.xxiii, xviii.iii.xxiv,
+      xviii.iii.xxv, xviii.iii.xxvi, xviii.iii.xxvii, xviii.iii.xxviii, xviii.iii.xxix,
+      xviii.iii.xxx, xviii.iii.xxxi, xviii.iii.xxxii, xviii.iii.xxxiii, xviii.iii.xxxiv,
+      xviii.iii.xxxv, xviii.iii.xxxvi, xviii.iii.xxxvii, xviii.iii.xxxviii, xviii.iii.xxxix,
+      xviii.iii.xl, xviii.iii.xli, xviii.iii.xlii, xviii.iv.i, xviii.iv.ii, xviii.iv.iii,
+      xviii.iv.iv, xviii.iv.v, xviii.iv.vi, xviii.iv.vii, xviii.iv.viii, xviii.iv.ix, xviii.iv.x,
+      xviii.iv.xi, xviii.iv.xii, xviii.iv.xiii, xviii.iv.xiv, xviii.iv.xv, xviii.iv.xvi,
+      xviii.iv.xvii, xviii.iv.xviii, xviii.iv.xix, xviii.iv.xx, xviii.iv.xxi, xviii.iv.xxii,
+      xviii.iv.xxiii, xviii.v.i, xviii.v.ii, xviii.v.iii, xviii.v.iv, xviii.v.v, xviii.v.vi,
+      xviii.v.vii, xviii.v.viii, xviii.v.ix, xviii.v.x, xviii.v.xi, xviii.v.xii, xviii.v.xiii,
+      xviii.v.xiv, xviii.v.xv, xviii.v.xvi, xviii.v.xvii, xviii.v.xviii, xviii.v.xix, xviii.v.xx,
+      xviii.v.xxi, xviii.v.xxii, xviii.v.xxiii, xviii.v.xxiv, xviii.v.xxv, xviii.v.xxvi, xviii.vi.i,
+      xviii.vi.ii, xviii.vi.iii, xviii.vi.iv, xviii.vi.v, xviii.vi.vi, xviii.vi.vii, xviii.vi.viii,
+      xviii.vi.ix, xviii.vi.x, xviii.vi.xi, xviii.vi.xii, xviii.vi.xiii, xviii.vi.xiv, xviii.vi.xv,
+      xviii.vi.xvi, xviii.vi.xvii, xviii.vi.xviii, xviii.vi.xix, xviii.vi.xx, xviii.vi.xxi,
+      xviii.vi.xxii, xviii.vi.xxiii, xviii.vi.xxiv, xviii.vi.xxv, xviii.vi.xxvi, xviii.vi.xxvii,
+      xviii.vi.xxviii, xviii.vi.xxix, xviii.vi.xxx, xviii.vi.xxxi, xviii.vi.xxxii, xviii.vi.xxxiii,
+      xviii.vi.xxxiv]
     language: eng
     date: {start: 420, end: 420, source: "npnf105_augustine-anti-pelagian-writings.xml div1 18 heading: a.d. 420, or a little later (no end year stated)", formation_confidence: Widely Accepted}
     note: >
@@ -291,14 +290,13 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [xix.iii, xix.iii.i, xix.iii.ii, xix.iv, xix.iv.i, xix.iv.ii, xix.iv.iii, xix.iv.iv,
-      xix.iv.v, xix.iv.vi, xix.iv.vii, xix.iv.viii, xix.iv.ix, xix.iv.x, xix.iv.xi, xix.iv.xii,
-      xix.iv.xiii, xix.iv.xiv, xix.iv.xv, xix.iv.xvi, xix.iv.xvii, xix.iv.xviii, xix.iv.xix,
-      xix.iv.xx, xix.iv.xxi, xix.iv.xxii, xix.iv.xxiii, xix.iv.xxiv, xix.iv.xxv, xix.iv.xxvi,
-      xix.iv.xxvii, xix.iv.xxviii, xix.iv.xxix, xix.iv.xxx, xix.iv.xxxi, xix.iv.xxxii,
-      xix.iv.xxxiii, xix.iv.xxxiv, xix.iv.xxxv, xix.iv.xxxvi, xix.iv.xxxvii, xix.iv.xxxviii,
-      xix.iv.xxxix, xix.iv.xl, xix.iv.xli, xix.iv.xlii, xix.iv.xliii, xix.iv.xliv, xix.iv.xlv,
-      xix.iv.xlvi]
+    locus_ids: [xix.iii.i, xix.iii.ii, xix.iv.i, xix.iv.ii, xix.iv.iii, xix.iv.iv, xix.iv.v,
+      xix.iv.vi, xix.iv.vii, xix.iv.viii, xix.iv.ix, xix.iv.x, xix.iv.xi, xix.iv.xii, xix.iv.xiii,
+      xix.iv.xiv, xix.iv.xv, xix.iv.xvi, xix.iv.xvii, xix.iv.xviii, xix.iv.xix, xix.iv.xx,
+      xix.iv.xxi, xix.iv.xxii, xix.iv.xxiii, xix.iv.xxiv, xix.iv.xxv, xix.iv.xxvi, xix.iv.xxvii,
+      xix.iv.xxviii, xix.iv.xxix, xix.iv.xxx, xix.iv.xxxi, xix.iv.xxxii, xix.iv.xxxiii,
+      xix.iv.xxxiv, xix.iv.xxxv, xix.iv.xxxvi, xix.iv.xxxvii, xix.iv.xxxviii, xix.iv.xxxix,
+      xix.iv.xl, xix.iv.xli, xix.iv.xlii, xix.iv.xliii, xix.iv.xliv, xix.iv.xlv, xix.iv.xlvi]
     language: eng
     date: {start: 426, end: 427, source: "npnf105_augustine-anti-pelagian-writings.xml div1 19, editor's note to the Retractations extract (xix.ii/notes): 'in the year of Christ 426 or 427' for this treatise and De correptione; P1 gives 426", formation_confidence: Widely Accepted}
     note: >
@@ -352,7 +350,7 @@ assignments:
       - gallic-monastic-ascetic-christianity
     role: tradition
     confidence: assigned
-    locus_ids: [xxi.ii, xxi.ii.i, xxi.ii.ii, xxi.ii.iii, xxi.ii.iv, xxi.ii.v, xxi.ii.vi, xxi.ii.vii,
+    locus_ids: [xxi.ii.i, xxi.ii.ii, xxi.ii.iii, xxi.ii.iv, xxi.ii.v, xxi.ii.vi, xxi.ii.vii,
       xxi.ii.viii, xxi.ii.ix, xxi.ii.x, xxi.ii.xi, xxi.ii.xii, xxi.ii.xiii, xxi.ii.xiv, xxi.ii.xv,
       xxi.ii.xvi, xxi.ii.xvii, xxi.ii.xviii, xxi.ii.xix, xxi.ii.xx, xxi.ii.xxi, xxi.ii.xxii,
       xxi.ii.xxiii, xxi.ii.xxiv, xxi.ii.xxv, xxi.ii.xxvi, xxi.ii.xxvii, xxi.ii.xxviii, xxi.ii.xxix,

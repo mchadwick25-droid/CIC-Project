@@ -12,7 +12,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: fra
-    date: {formation_confidence: unknown, checked: "toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt: the edition header gives only the printing year (1894) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {formation_confidence: unknown, checked: "toulotte_geographie-afrique-chretienne-numidie-fra_1894.txt: header gives Publication Date 1894; title page and front matter read; no edition statement and no preface dateline; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1894) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The Numidian volume of Toulotte's geography of the African

@@ -56,7 +56,7 @@ assignments:
     confidence: provisional
     locus_ids: [line41413]
     language: lat
-    date: {start: 258, end: 258, source: "Source_Registry row 41 (Build/worlds/lpc): the official trial record of Cyprian's martyrdom, 258", formation_confidence: Widely Accepted}
+    date: {formation_confidence: unknown, checked: "Source_Registry row 41 gives 258 for the trial record of Cyprian's martyrdom, which is the event year; the Hartel text (file lines 41413-41628) opens with a hearing dated by the consuls 'Imperatore Valeriano quartum et Gallieno tertium consulibus' (line 41415; the file prints no year for that) and ends with a narrative of the execution, so it was put together after the death; no repo text dates the writing or the assembling"}
     note: >
       Not previously vendored in any form (Source_Registry.md row 41 named
       this as "not independently located at a separately citable URL" -- now

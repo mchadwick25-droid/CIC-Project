@@ -12,7 +12,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: fra
-    date: {formation_confidence: unknown, checked: "mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt: the edition header gives only the printing year (1912) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {start: 1912, end: 1912, source: "mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt: preface signed 'J. Mesnage ... Paris, 29 février 1912.' (file line 159); this is the preface date", formation_confidence: Documented}
     note: >
       Modern (1912) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. A reference work on the sees and ancient sites of Christian North

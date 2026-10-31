@@ -12,7 +12,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: deu
-    date: {formation_confidence: unknown, checked: "koch_cyprianische-untersuchungen-deu_1926.txt: the edition header gives only the printing year (1926) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {start: 1926, end: 1926, source: "koch_cyprianische-untersuchungen-deu_1926.txt: Vorwort (file line 118) signed 'München, am 30. Januar 1926.' (line 307); this is the preface date", formation_confidence: Documented}
     note: >
       Modern (1926) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. Studies on the authorship and dating of Cyprian's writings (Quod

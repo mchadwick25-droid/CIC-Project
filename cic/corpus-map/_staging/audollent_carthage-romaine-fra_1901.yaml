@@ -12,7 +12,7 @@ assignments:
     confidence: provisional
     locus_ids: [whole-file]
     language: fra
-    date: {formation_confidence: unknown, checked: "audollent_carthage-romaine-fra_1901.txt: the edition header gives only the printing year (1901) of the vendored edition; the file does not state the work's first publication year, so no window is set"}
+    date: {formation_confidence: unknown, checked: "audollent_carthage-romaine-fra_1901.txt: header gives Publication Date 1901; title page, Avant-propos (file line 226) and front matter read; no edition statement and no dateline in the OCR; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1901) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The standard history of Roman Carthage, 146 BC to 698 AD, the city
