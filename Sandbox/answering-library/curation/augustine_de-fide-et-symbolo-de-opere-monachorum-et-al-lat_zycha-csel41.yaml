@@ -1,8 +1,7 @@
 file: augustine_de-fide-et-symbolo-de-opere-monachorum-et-al-lat_zycha-csel41.txt
-scheme: Zycha's section numbers (Arabic, restarting at 1 in each work), printed at the head of each section and usually after the Roman chapter number; the works are addressed by their printed titles, and a section marker
-  the scan cannot read is addressed by its line number
+scheme: 'Zycha''s Arabic section numbers, restarting at 1 in each work and printed at each section head, usually after the Roman chapter numeral; works addressed by their printed titles; where the edition prints a chapter head with no section numeral, the head is addressed by its chapter numeral (De sancta virginitate XXII as sectio22, its chapter and section numbering coinciding there; De adulterinis II IIII and V as caput4 and caput5, outside the section series)'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: w0
   pattern: .
@@ -28,12 +27,15 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
   parent: w1
   lines:
-  - - 4102
-    - 6849
-  - - 6851
-    - 7457
+  - 4102
+  - 7457
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 6850
+    quote: '5 48.'
+    set:
+      s: '43'
 - id: w2
   pattern: .
   lines:
@@ -86,12 +88,19 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
   parent: w5
   lines:
-  - - 14237
-    - 15161
-  - - 15163
-    - 17935
+  - 14237
+  - 17935
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 15162
+    quote: 'XYI1II. 10.'
+    set:
+      s: '19'
+  - line: 15388
+    quote: 'XXII. Nunc iam'
+    set:
+      s: '22'
 - id: w6
   pattern: .
   lines:
@@ -122,6 +131,11 @@ rules:
   - 21873
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 20038
+    quote: '5 1.1.'
+    set:
+      s: '1'
 - id: w8
   pattern: .
   lines:
@@ -133,14 +147,29 @@ rules:
   parent: w8
   lines:
   - 21875
+  - 21989
+  locus: sectio{s|int}
+  number: s
+- id: c8
+  pattern: ^(?P<c>[IVX]{1,6})\. [A-Za-z]
+  parent: w8
+  lines:
+  - 21990
+  - 22149
+  locus: caput{c|int}
+- id: s8b
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
+  parent: w8
+  lines:
+  - 22150
   - 23385
   locus: sectio{s|int}
   number: s
 - id: w9
   pattern: .
   lines:
-  - 23386
-  - 23386
+  - 23384
+  - 23384
   locus: de-mendacio
 - id: s9
   pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
@@ -160,12 +189,15 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUirl1O]{1,9}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«]
   parent: w10
   lines:
-  - - 26282
-    - 26447
-  - - 26449
-    - 29539
+  - 26282
+  - 29539
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 26448
+    quote: '8.'
+    set:
+      s: '3'
 - id: w11
   pattern: .
   lines:
@@ -222,13 +254,6 @@ rules:
   - 37826
   locus: sectio{s|int}
   number: s
-divisions:
-- start_line: 6850
-  locus: de-fide-et-operibus/line6850
-- start_line: 15162
-  locus: de-sancta-uirginitate/line15162
-- start_line: 26448
-  locus: contra-mendacium/line26448
 ignore:
 - pattern: ^S\. Aureli Augustini$
   kind: running-head
@@ -241,6 +266,71 @@ ignore:
   - 2452
   - 37826
 apparatus:
+- lines:
+  - 4057
+  - 4100
+  kind: front
+  locus: sigla-de-fide-et-operibus
+- lines:
+  - 7412
+  - 7457
+  kind: front
+  locus: sigla-de-agone-christiano
+- lines:
+  - 9447
+  - 9489
+  kind: front
+  locus: sigla-de-continentia
+- lines:
+  - 11768
+  - 11809
+  kind: front
+  locus: sigla-de-bono-coniugali
+- lines:
+  - 14158
+  - 14235
+  kind: front
+  locus: sigla-de-sancta-uirginitate
+- lines:
+  - 17897
+  - 17935
+  kind: front
+  locus: sigla-de-bono-uiduitatis
+- lines:
+  - 19996
+  - 20030
+  kind: front
+  locus: sigla-de-adulterinis-coniugiis-1
+- lines:
+  - 23350
+  - 23383
+  kind: front
+  locus: sigla-de-mendacio
+- lines:
+  - 26240
+  - 26280
+  kind: front
+  locus: sigla-contra-mendacium
+- lines:
+  - 29488
+  - 29539
+  kind: front
+  locus: sigla-de-opere-monachorum
+- lines:
+  - 33011
+  - 33047
+  kind: front
+  locus: sigla-de-diuinatione-daemonum
+- lines:
+  - 34096
+  - 34143
+  kind: front
+  locus: sigla-de-cura-pro-mortuis-gerenda
+- lines:
+  - 36242
+  - 36302
+  kind: front
+  locus: sigla-de-patientia
 - lines:
   - 1
   - 2449
@@ -300,6 +390,8 @@ evidence:
   quote: I. 1.
 - line: 15162
   quote: XYI1II. 10.
+- line: 15388
+  quote: XXII. Nunc iam
 - line: 15973
   quote: XXX. 30.
 - line: 17838
@@ -314,6 +406,8 @@ evidence:
   quote: '29.'
 - line: 20031
   quote: VIII.
+- line: 20038
+  quote: 5 1.1.
 - line: 20101
   quote: II. 2.
 - line: 21047
@@ -324,6 +418,12 @@ evidence:
   quote: LIBER SECYNDVS.
 - line: 21876
   quote: I. 1.
+- line: 21990
+  quote: IIII. Et uide
+- line: 22085
+  quote: V. Sicut enim
+- line: 22150
+  quote: Yl. 5.
 - line: 22563
   quote: '12.'
 - line: 23295

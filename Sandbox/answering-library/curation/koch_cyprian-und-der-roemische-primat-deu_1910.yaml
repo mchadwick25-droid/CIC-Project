@@ -1,7 +1,7 @@
 file: koch_cyprian-und-der-roemische-primat-deu_1910.txt
-scheme: 'Koch''s chapter numerals I-XXI, each printed as a roman numeral alone on a line above the chapter text; the chapter titles are printed only in the Inhaltsübersicht, so division_title is empty'
+scheme: 'Koch''s chapter numerals I-XXI, each printed as a roman numeral alone on a line above the chapter text; the chapter titles are printed in the Inhaltsübersicht and as short forms in the recto running heads, never beside the numeral, so division_title is empty; the Anhang (Der Text in De catholicae ecclesiae unitate cap. 4) follows chapter XXI as an unnumbered division at appendix'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: chapter
     pattern: '^(?P<r>[IVXLC1lY]{1,6})\.$'
@@ -9,7 +9,11 @@ rules:
     locus: 'chapter{r|int}'
     ocr_map: {'1': 'I', 'l': 'I', 'Y': 'V'}
     number: r
-    allow_oversize: 'chapters are the finest division the edition prints; no numbered or titled sections between the chapter numerals at lines 161 and 7217 (21 numerals, 21 chapters)'
+    allow_oversize: 'chapters are the finest division the edition prints; no numbered or titled sections inside any chapter between lines 161 and 7829; the Anhang at line 7830 is its own division'
+divisions:
+  - start_line: 7830
+    locus: appendix
+    title: 'Der Text in De catholicae ecclesiae unitate cap. 4'
 ignore:
   - pattern: '^(?:\S{1,5} )?Ko\w{2,3},? Cyprian und der römische Primat\.?(?: \S{1,5})?$'
     kind: running-head
@@ -39,3 +43,7 @@ evidence:
     quote: XVIII. Cyprians Ton in den Briefen nach Rom
   - line: 8417
     quote: Verzeichnisse.
+  - line: 7830
+    quote: 'Anhang.'
+  - line: 9140
+    quote: 'Anhang: Der Text in De catholicae ecclesiae unitate c. 4'

@@ -1,7 +1,7 @@
 file: possidius_vita-augustini_weiskotten1919.txt
 scheme: 'Possidius Life of Augustine in Weiskotten 1919: the Praefatio and Capita I to XXXI of the Latin text (printed CAPUT) and the matching English version (printed CHAPTER); inside chapter 30 the numbered paragraphs of Augustine''s letter that Possidius quotes, as printed; the introduction, notes and indexes are apparatus'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: caput
     pattern: '^(?:\d{1,2} )?CAPUT (?P<n>[IVXL]+)$'
@@ -15,16 +15,22 @@ rules:
     number: n
   - id: letter-eng
     parent: chapter
-    pattern: '^(?P<s>\d{1,2})\. '
-    lines: [[4260, 4260], [4327, 4327], [4341, 4341], [4386, 4386], [4447, 4447], [4513, 4513], [4574, 4574], [4596, 4596], [4645, 4645], [4735, 4735], [4840, 4840], [4863, 4863]]
+    pattern: '^(?:\d{1,2} )?(?P<s>\d{1,2})\. '
+    lines: [[4212, 4212], [4260, 4260], [4327, 4327], [4341, 4341], [4386, 4386], [4447, 4447], [4513, 4513], [4574, 4574], [4596, 4596], [4645, 4645], [4667, 4667], [4735, 4735], [4840, 4840], [4863, 4863]]
     locus: 'sec{s|int}'
     number: s
+    fixes:
+      - {line: 4212, quote: 'i. I thought', set: {s: '1'}}
+      - {line: 4667, quote: 'n. But another question', set: {s: '11'}}
   - id: letter-lat
     parent: caput
-    pattern: '^(?P<s>\d{1,2})\. '
-    lines: [[4293, 4293], [4305, 4305], [4354, 4354], [4414, 4414], [4479, 4479], [4544, 4544], [4697, 4697], [4805, 4805], [4825, 4825]]
+    pattern: '^(?:\d{1,2} )?(?P<s>\d{1,2})\. '
+    lines: [[4177, 4177], [4229, 4229], [4293, 4293], [4305, 4305], [4354, 4354], [4414, 4414], [4479, 4479], [4544, 4544], [4563, 4563], [4611, 4611], [4629, 4629], [4697, 4697], [4805, 4805], [4825, 4825]]
     locus: 'sec{s|int}'
     number: s
+    fixes:
+      - {line: 4177, quote: 'i. Caritati tuae', set: {s: '1'}}
+      - {line: 4629, quote: 'ii. Occurrit autem', set: {s: '11'}}
 divisions:
   - {start_line: 1485, locus: 'lat-praefatio', title: 'PRAEFATIO'}
   - {start_line: 1518, locus: 'eng-preface', title: 'PREFACE'}
@@ -59,3 +65,17 @@ evidence:
     quote: '2. But this advice'
   - line: 4293
     quote: '3. Quod si contigerit'
+  - line: 4177
+    quote: 'i. Caritati tuae'
+  - line: 4212
+    quote: 'i. I thought'
+  - line: 4229
+    quote: '2. Sed hoc consilium'
+  - line: 4563
+    quote: '9. Certe iam vides'
+  - line: 4611
+    quote: '10. Hie fortasse'
+  - line: 4629
+    quote: 'ii. Occurrit autem'
+  - line: 4667
+    quote: 'n. But another question'

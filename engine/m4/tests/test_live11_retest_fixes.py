@@ -163,9 +163,14 @@ def test_the_voice_is_told_not_to_say_the_quote_before_it_is_placed():
     ("desert", 4, "It is Christ who works them, by means of those who believe in him."),  # Antony unnamed
     ("ijc", 3, "Eusebius of Caesarea, who was at the council, hesitated before he signed"),  # Socrates' words
 ])
-def test_a_quote_whose_lead_in_does_not_name_its_speaker_is_not_placed(world, q, lead):
-    assert (grounding_net.REASON_SPEAKER_UNNAMED, lead) in _removed(world, q)
-    assert _replayed(world, q)["first_net"]["reply_shape"]["placed"] == []
+def test_a_quote_whose_lead_in_does_not_name_its_speaker_is_placed_under_codes_lead_in(world, q, lead):
+    # the voice's lead-in goes and code writes one that names the speaker
+    # and the repair is recorded with the voice's draft
+    shape = _replayed(world, q)["first_net"]["reply_shape"]
+    assert len(shape["placed"]) == 1
+    assert [r for r in shape["repaired"] if lead.rstrip(".") in r["draft"]]
+    assert all(r["lead_in"].startswith("In today's English, ") for r in shape["repaired"])
+    assert (grounding_net.REASON_SPEAKER_UNNAMED, lead) not in _removed(world, q)
 
 
 @pytest.mark.parametrize("run", list(live11_replay.RUNS))
@@ -300,10 +305,11 @@ def test_every_rebuilt_retest_draft_puts_every_recorded_sentence_back():
 def test_the_replay_over_all_42_retest_drafts():
     counts = live11_replay.summary(live11_replay.run_all(RUN), RUN)
     assert counts["turns"] == 42
-    # recorded on 14 October: 20 cuts, 8 overcuts, 10 placed, 2 unnamed
-    assert counts["cuts"] == 18
+    # code writes the lead-in for a quote whose lead-in names no speaker,
+    # so 2 quotes are placed that were cut
+    assert counts["cuts"] == 16
     # still cut: ijc Q2's creed clauses, ijc Q3's homoios phrases and desert
     # Q5's reworded saying, which the records they cite do not hold as theirs
     assert counts["overcuts_still_cut"] == 3
-    assert counts["placed_quotes"] == 7 and counts["placed_without_speaker_named"] == 0
+    assert counts["placed_quotes"] == 9 and counts["placed_without_speaker_named"] == 0
     assert counts["degraded_sent"] == 0 and counts["stray_punctuation_sentences"] == 0

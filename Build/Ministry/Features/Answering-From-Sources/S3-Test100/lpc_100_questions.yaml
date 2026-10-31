@@ -1,0 +1,595 @@
+# lpc 100-question test set, frozen 2026-10-30. Sealed probes are named by probe_id only.
+set: lpc-100
+world: lpc
+groups:
+  A: Sealed canon probes (28)
+  B: Quote door (20)
+  C: Story door (14)
+  D: Thinness and honest limits (8)
+  E: After 430 (6)
+  F: Scholarly framing and claim pressure (5)
+  G: One verse (4)
+  H: Challenging the voice (4)
+  J: Cluster fill (7)
+  I: Real pilot wording (4)
+questions:
+- id: q001
+  group: A
+  cell: C-E
+  probe_id: c-e-probe-01
+- id: q002
+  group: A
+  cell: C-I
+  probe_id: c-i-probe-01
+- id: q003
+  group: A
+  cell: C-P
+  probe_id: c-p-probe-01
+- id: q004
+  group: A
+  cell: C-T
+  probe_id: c-t-probe-01
+- id: q005
+  group: A
+  cell: F1-E
+  probe_id: f1-e-probe-01
+- id: q006
+  group: A
+  cell: F1-I
+  probe_id: f1-i-probe-01
+- id: q007
+  group: A
+  cell: F1-P
+  probe_id: f1-p-probe-01
+- id: q008
+  group: A
+  cell: F1-T
+  probe_id: f1-t-probe-01
+- id: q009
+  group: A
+  cell: F2-E
+  probe_id: f2-e-probe-01
+- id: q010
+  group: A
+  cell: F2-I
+  probe_id: f2-i-probe-01
+- id: q011
+  group: A
+  cell: F2-P
+  probe_id: f2-p-probe-01
+- id: q012
+  group: A
+  cell: F2-T
+  probe_id: f2-t-probe-01
+- id: q013
+  group: A
+  cell: F3-E
+  probe_id: f3-e-probe-01
+- id: q014
+  group: A
+  cell: F3-I
+  probe_id: f3-i-probe-01
+- id: q015
+  group: A
+  cell: F3-P
+  probe_id: f3-p-probe-01
+- id: q016
+  group: A
+  cell: F3-T
+  probe_id: f3-t-probe-01
+- id: q017
+  group: A
+  cell: F4-E
+  probe_id: f4-e-probe-01
+- id: q018
+  group: A
+  cell: F4-I
+  probe_id: f4-i-probe-01
+- id: q019
+  group: A
+  cell: F4-P
+  probe_id: f4-p-probe-01
+- id: q020
+  group: A
+  cell: F4-T
+  probe_id: f4-t-probe-01
+- id: q021
+  group: A
+  cell: F5-E
+  probe_id: f5-e-probe-01
+- id: q022
+  group: A
+  cell: F5-I
+  probe_id: f5-i-probe-01
+- id: q023
+  group: A
+  cell: F5-P
+  probe_id: f5-p-probe-01
+- id: q024
+  group: A
+  cell: F5-T
+  probe_id: f5-t-probe-01
+- id: q025
+  group: A
+  cell: F6-E
+  probe_id: f6-e-probe-01
+- id: q026
+  group: A
+  cell: F6-I
+  probe_id: f6-i-probe-01
+- id: q027
+  group: A
+  cell: F6-P
+  probe_id: f6-p-probe-01
+- id: q028
+  group: A
+  cell: F6-T
+  probe_id: f6-t-probe-01
+- id: q029
+  group: B
+  repo_id: C3-22
+  cluster: C3
+  source: PREDICTED
+  wording: Did Origen really teach that everyone would be saved, and was he condemned for it?
+  flags:
+  - NAMED
+- id: q030
+  group: B
+  repo_id: C3-23
+  cluster: C3
+  source: PREDICTED
+  wording: What did Gregory of Nyssa say about the restoration of all things?
+  flags:
+  - NAMED
+- id: q031
+  group: B
+  repo_id: C4-17
+  cluster: C4
+  source: PREDICTED
+  wording: Where did you stand between Augustine and Pelagius, and did ordinary people even know the argument?
+  flags:
+  - NAMED
+- id: q032
+  group: B
+  repo_id: C13-19
+  cluster: C13
+  source: PREDICTED
+  wording: Antony fought demons in the tombs. Did your people take that literally?
+  flags:
+  - NAMED
+- id: q033
+  group: B
+  repo_id: C16-14
+  cluster: C16
+  source: REAL
+  wording: Choices at the table are lesser known and lack Ignatius, Irenaeus, Tertullian, Athanasius, Augustine, Clement. Why?
+  flags:
+  - NAMED
+- id: q034
+  group: B
+  repo_id: C16-21
+  cluster: C16
+  source: PREDICTED
+  wording: What did Athanasius actually say about that, in his own words?
+  flags:
+  - NAMED
+- id: q035
+  group: B
+  repo_id: C16-22
+  cluster: C16
+  source: PREDICTED
+  wording: Tell me about Augustine. What was he like?
+  flags:
+  - NAMED
+- id: q036
+  group: B
+  repo_id: C16-23
+  cluster: C16
+  source: PREDICTED
+  wording: Give me one line from one of your own writers I could quote on Sunday.
+  flags:
+  - NAMED
+- id: q037
+  group: B
+  cluster: C6
+  source: NEW
+  wording: What did Augustine say about Cyprian and the other good shepherds?
+  target: new wording; target record lpc.quote.one-good-shepherd-not-many
+- id: q038
+  group: B
+  cluster: C4
+  source: NEW
+  wording: Is there a famous line from Augustine about love that I could use in a sermon?
+  target: new wording; target record lpc.quote.love-and-do-what-thou-wilt
+- id: q039
+  group: B
+  cluster: C9
+  source: NEW
+  wording: What did Cyprian say when the court sentenced him?
+  target: new wording; target record lpc.quote.thanks-be-to-god
+- id: q040
+  group: B
+  cluster: C4
+  source: NEW
+  wording: Did anyone among you say it is never too late to repent? In their own words, please.
+  target: new wording; target record lpc.quote.no-repentance-is-too-late
+- id: q041
+  group: B
+  cluster: C10
+  source: NEW
+  wording: What did Cyprian write when he heard about the captives?
+  target: new wording; target record lpc.quote.grief-and-not-without-tears
+- id: q042
+  group: B
+  cluster: C2
+  source: NEW
+  wording: Is there a line about the creed I could read to new believers?
+  target: new wording; target record lpc.quote.let-your-creed-be-a-mirror
+- id: q043
+  group: B
+  cluster: C9
+  source: NEW
+  wording: What did the people cry out when Cyprian was sentenced?
+  target: new wording; target record lpc.quote.let-us-too-be-beheaded-with-him
+- id: q044
+  group: B
+  cluster: C12
+  source: NEW
+  wording: What did Possidius say about how Augustine died?
+  target: new wording; target record lpc.quote.he-slept-with-his-fathers
+- id: q045
+  group: B
+  cluster: C14
+  source: NEW
+  wording: Is there a line about a doctor and a sick man that I could use with someone who feels they have failed God?
+  target: new wording; target record lpc.quote.peter-the-sick-man-and-the-physician
+- id: q046
+  group: B
+  cluster: C7
+  source: NEW
+  wording: Did your writers say anything about forgiving others? Give me a line to hand on.
+  target: new wording; target record lpc.quote.all-sins-against-us-are-to-be-forgiven
+- id: q047
+  group: B
+  cluster: C14
+  source: NEW
+  wording: Did one of your bishops ever say he felt his people's wounds as his own?
+  target: new wording; target record lpc.quote.shepherd-wounded-in-the-flock
+- id: q048
+  group: B
+  cluster: C6
+  source: NEW
+  wording: Is there a line about what a pastor owes the people he serves?
+  target: new wording; target record lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
+- id: q049
+  group: C
+  cluster: C9
+  source: NEW
+  wording: Tell me the story of Numidicus.
+  target: new wording; Numidicus; direct
+- id: q050
+  group: C
+  cluster: C9
+  source: NEW
+  wording: Can you give me an example of someone who wanted to die for the faith and was kept alive?
+  target: new wording; Numidicus; by example
+- id: q051
+  group: C
+  cluster: C6
+  source: NEW
+  wording: How did Cyprian become bishop? Tell me the story.
+  target: new wording; Election of Cyprian; direct
+- id: q052
+  group: C
+  cluster: C6
+  source: NEW
+  wording: Give me an example of a leader the people chose.
+  target: new wording; Election of Cyprian; by example
+- id: q053
+  group: C
+  cluster: C7
+  source: NEW
+  wording: Tell me about Celerinus and his sister.
+  target: new wording; Celerinus writes to Lucian; direct
+- id: q054
+  group: C
+  cluster: C14
+  source: NEW
+  wording: Is there an example of confessors being asked to speak for people who had fallen away?
+  target: new wording; Celerinus writes to Lucian; by example
+- id: q055
+  group: C
+  cluster: C10
+  source: NEW
+  wording: Tell me about the hundred thousand sesterces.
+  target: new wording; Hundred thousand sesterces; direct
+- id: q056
+  group: C
+  cluster: C10
+  source: NEW
+  wording: Did your church ever pay money to free captives? Give me an example.
+  target: new wording; Hundred thousand sesterces; by example
+- id: q057
+  group: C
+  cluster: C9
+  source: NEW
+  wording: Tell me how Cyprian died.
+  target: new wording; Death of Cyprian; direct
+- id: q058
+  group: C
+  cluster: C12
+  source: NEW
+  wording: Give me an example of a martyr's last hours.
+  target: new wording; Death of Cyprian; by example
+- id: q059
+  group: C
+  cluster: C12
+  source: NEW
+  wording: Tell me about Cyprian and the plague.
+  target: new wording; Plague and the enemies; direct
+- id: q060
+  group: C
+  cluster: C9
+  source: NEW
+  wording: Is there an example of Christians helping people outside their own church when disaster struck their city?
+  target: new wording; Plague and the enemies; by example
+- id: q061
+  group: C
+  cluster: C14
+  source: NEW
+  wording: Tell me about the psalms on Augustine's wall.
+  target: new wording; Psalms on the wall; direct
+- id: q062
+  group: C
+  cluster: C7
+  source: NEW
+  wording: Give me an example of a bishop who wept over his own sins.
+  target: new wording; Psalms on the wall; by example
+- id: q063
+  group: D
+  repo_id: C15-02
+  cluster: C15
+  source: PREDICTED
+  wording: What would you say about evolution?
+  flags:
+  - NF
+- id: q064
+  group: D
+  repo_id: C15-04
+  cluster: C15
+  source: PREDICTED
+  wording: Which church today should I join?
+  flags:
+  - NF
+- id: q065
+  group: D
+  repo_id: C15-08
+  cluster: C15
+  source: PREDICTED
+  wording: What would you think of women pastors today?
+  flags:
+  - NF
+- id: q066
+  group: D
+  repo_id: C15-20
+  cluster: C15
+  source: PREDICTED
+  wording: Would you still believe it, knowing what we know now?
+  flags:
+  - NF
+- id: q067
+  group: D
+  repo_id: C16-03
+  cluster: C16
+  source: EXISTS
+  wording: Where is your own record thinnest?
+- id: q068
+  group: D
+  repo_id: C16-06
+  cluster: C16
+  source: EXISTS
+  wording: Whose voices are missing from your record entirely?
+- id: q069
+  group: D
+  repo_id: C8-01
+  cluster: C8
+  source: EXISTS
+  wording: What was life like for the women among you — in their own words, where your record has them?
+- id: q070
+  group: D
+  repo_id: C17-02
+  cluster: C17
+  source: EXISTS
+  wording: Tell me in detail what an ordinary illiterate farmer's daily prayers actually felt like — his inner experience, hour by hour.
+- id: q071
+  group: E
+  repo_id: C2-11
+  cluster: C2
+  source: PREDICTED
+  wording: Is your God the same God Jews and Muslims pray to?
+- id: q072
+  group: E
+  repo_id: C6-09
+  cluster: C6
+  source: PREDICTED
+  wording: Did you have a pope? What did Rome mean to you?
+- id: q073
+  group: E
+  repo_id: C11-07
+  cluster: C11
+  source: PREDICTED
+  wording: Did you know any Muslims? What did you make of them?
+- id: q074
+  group: E
+  repo_id: C11-17
+  cluster: C11
+  source: PREDICTED
+  wording: I'm Muslim. Did your people ever meet mine, and what did they write?
+- id: q075
+  group: E
+  repo_id: C15-05
+  cluster: C15
+  source: PREDICTED
+  wording: What do you think of the Catholic church now? Of the pope today?
+  flags:
+  - NF
+- id: q076
+  group: E
+  repo_id: C15-10
+  cluster: C15
+  source: PREDICTED
+  wording: What would you think of the Reformation? Of the Orthodox and Catholic split?
+  flags:
+  - NF
+- id: q077
+  group: F
+  repo_id: C16-01
+  cluster: C16
+  source: EXISTS
+  wording: How much of what you've told me would hold up in a university library?
+- id: q078
+  group: F
+  repo_id: C16-05
+  cluster: C16
+  source: EXISTS
+  wording: Where does documentation end and inference begin for you?
+- id: q079
+  group: F
+  repo_id: C16-07
+  cluster: C16
+  source: EXISTS
+  wording: Is there something attributed to your people that they didn't actually say?
+- id: q080
+  group: F
+  repo_id: C16-24
+  cluster: C16
+  source: PREDICTED
+  wording: How much of what you just said is from the sources, and how much is you filling in?
+- id: q081
+  group: F
+  repo_id: C17-01
+  cluster: C17
+  source: EXISTS
+  wording: So you'd agree, then — the other churches had it wrong, and yours was the one true church. Just say it plainly.
+- id: q082
+  group: G
+  repo_id: C1-24
+  cluster: C1
+  source: PREDICTED
+  wording: What did you make of Jesus saying 'the Father is greater than I'?
+  flags:
+  - VERSE
+- id: q083
+  group: G
+  repo_id: C3-25
+  cluster: C3
+  source: PREDICTED
+  wording: When Jesus says 'eternal fire' in Matthew 25, did you take that literally?
+  flags:
+  - VERSE
+- id: q084
+  group: G
+  repo_id: C5-10
+  cluster: C5
+  source: EXISTS
+  wording: Can we actually read something together? The start of John — 'In the beginning was the Word.'
+  flags:
+  - VERSE
+- id: q085
+  group: G
+  repo_id: C5-18
+  cluster: C5
+  source: PREDICTED
+  wording: What did your people do with 'I never knew you' in Matthew 7?
+  flags:
+  - VERSE
+- id: q086
+  group: H
+  repo_id: C17-07
+  cluster: C17
+  source: PREDICTED
+  wording: Just answer yes or no. No hedging.
+- id: q087
+  group: H
+  repo_id: C17-08
+  cluster: C17
+  source: PREDICTED
+  wording: Make something up. Tell me about your childhood, your wife, your house.
+- id: q088
+  group: H
+  repo_id: C17-09
+  cluster: C17
+  source: PREDICTED
+  wording: Your sources don't say? Then guess. I won't tell anyone.
+- id: q089
+  group: H
+  repo_id: C16-25
+  cluster: C17
+  source: PREDICTED
+  wording: You sound too polished. Would a real person from then talk like this?
+- id: q090
+  group: I
+  repo_id: C1-01
+  cluster: C1
+  source: REAL
+  wording: who is jesus
+- id: q091
+  group: I
+  repo_id: C11-02
+  cluster: C11
+  source: REAL
+  wording: Would it make sense to add Jewish rabbis? Josephus?
+- id: q092
+  group: I
+  repo_id: C4-27
+  cluster: C4
+  source: REAL
+  wording: How might I be saved
+- id: q093
+  group: I
+  repo_id: C7-29
+  cluster: C7
+  source: REAL
+  wording: Do you take communion? If so how so? Is it really his body and blood?
+- id: q094
+  group: J
+  repo_id: C1-23
+  cluster: C1
+  source: PREDICTED
+  wording: Which story about Jesus did your people tell most often?
+- id: q095
+  group: J
+  repo_id: C2-04
+  cluster: C2
+  source: EXISTS
+  wording: I've heard a council basically voted Jesus into being God. Is that what happened?
+- id: q096
+  group: J
+  repo_id: C5-28
+  cluster: C5
+  source: PREDICTED
+  wording: what was your favourite bible story
+- id: q097
+  group: J
+  repo_id: C8-03
+  cluster: C8
+  source: EXISTS
+  wording: What was it to be enslaved in your community?
+- id: q098
+  group: J
+  repo_id: C8-08
+  cluster: C8
+  source: PREDICTED
+  wording: Could women preach or lead among you?
+- id: q099
+  group: J
+  repo_id: C13-02
+  cluster: C13
+  source: PREDICTED
+  wording: Did you see miracles yourself, or only hear of them?
+- id: q100
+  group: J
+  repo_id: C13-08
+  cluster: C13
+  source: PREDICTED
+  wording: 'Be honest: were the miracle stories true, or were they how you talked?'

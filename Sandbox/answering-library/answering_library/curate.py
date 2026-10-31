@@ -17,6 +17,8 @@ A file is class 'curated' when all of these hold:
     allow_oversize justification (apparatus divisions are exempt);
   - every rule matched, every fix landed on a match, and every evidence quote
     appears on the line it cites;
+  - every step in a numbered series is listed in expected_gaps with a reason that
+    verifies, and no look-alike heading of the series hides between its neighbours;
   - passage words plus declared furniture words equal the words of the file;
   - every passage byte range, re-read from the vendored file, reproduces the
     passage text, less only words on declared furniture lines.
@@ -132,9 +134,12 @@ def run_check(cur: cu.Curation, entry, n: int = DEFAULT_SAMPLE) -> Result:
                    f"gaps {len(note['gaps'])}, unreadable {len(note['unread'])}")
         for label in ("repeated", "backward", "gaps"):
             if note[label]:
-                out.append(f"      {label}: {note[label][:8]}")
+                out.append(f"      {label}: {note[label]}")
         if note["unread"]:
-            out.append(f"      unreadable at lines: {note['unread'][:8]}")
+            out.append(f"      unreadable at lines: {note['unread']}")
+
+    for note in res.notes:
+        out.append(f"warn  {note}")
 
     body = [d for d in res.divisions if d.origin != "header" and d.words > 0 and not d.apparatus]
     sampled = [body[i] for i in sample_indices(len(body), n)]

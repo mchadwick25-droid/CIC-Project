@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: lat-eng
+    date: {start: 400, end: 400, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 4.3 introductory notice: about the year 400; P1 gives 400", formation_confidence: Widely Accepted}
     note: >
       A 1926 edition with an English translation and commentary: modern scholarship on a work
       already in the map, so context, not tradition. Registry row 221. Which Latin text it

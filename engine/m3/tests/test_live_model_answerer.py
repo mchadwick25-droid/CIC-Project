@@ -236,3 +236,35 @@ def test_a_probe_with_no_voice_reply_is_graded_as_not_passed():
 
     assert result.passed is False
     assert result.error == "no voice reply: routed to safety_turn"
+
+
+def test_a_voice_the_uncited_claims_rule_sets_aside_is_answered_by_the_facilitators_turn_as_in_production():
+    from engine.m4.facilitator_turns import voice_rejected_turn
+
+    settings = LivePathSettings(
+        voice_model_id="voice-model", safety_model_id="safety-model",
+        r27_enforce=True, self_revision_enabled=False, citation_attach_enabled=False,
+    )
+    client = FakeClient(draft=["The sea was rough that night and the bishop was afraid of the crossing."])
+
+    result = _answerer(client, settings=settings).answer("C-I", ASK_TEXT)
+
+    assert result.live_turn.voice_event["r27_enforcement_exhausted"] is True
+    assert result.text == voice_rejected_turn("Vera")["text"]
+    assert result.citations == []
+    assert result.citation_entries == []
+
+
+def test_a_probe_whose_voice_the_uncited_claims_rule_set_aside_is_graded_as_not_passed():
+    from engine.m3 import harness
+
+    settings = LivePathSettings(
+        voice_model_id="voice-model", safety_model_id="safety-model",
+        r27_enforce=True, self_revision_enabled=False, citation_attach_enabled=False,
+    )
+    answerer = _answerer(FakeClient(draft=["The sea was rough that night and the bishop was afraid of the crossing."]), settings=settings)
+
+    result = harness.run_battery("fix", {}, answerer=answerer, limit=1)[0]
+
+    assert result.passed is False
+    assert result.error == "no voice reply: routed to voice_with_directive"

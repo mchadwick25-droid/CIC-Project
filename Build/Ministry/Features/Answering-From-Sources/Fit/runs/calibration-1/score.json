@@ -1,0 +1,30 @@
+{
+  "bar": "19 of 20 planted pairs dropped",
+  "planted": {
+    "pairs": 20,
+    "judged": 20,
+    "unreadable_or_missing": 0,
+    "right": 20,
+    "wrong": [],
+    "verdicts": {
+      "fits": 0,
+      "partly": 0,
+      "off_point": 20
+    }
+  },
+  "control": {
+    "pairs": 20,
+    "judged": 20,
+    "unreadable_or_missing": 0,
+    "right": 20,
+    "wrong": [],
+    "verdicts": {
+      "fits": 20,
+      "partly": 0,
+      "off_point": 0
+    }
+  },
+  "planted_dropped": 20,
+  "meets_bar": true,
+  "controls_wrongly_dropped": 0
+}
