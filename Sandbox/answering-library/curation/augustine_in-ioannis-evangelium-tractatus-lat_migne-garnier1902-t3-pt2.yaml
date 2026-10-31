@@ -1,11 +1,10 @@
 file: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt
-scheme: 'PL 35 (Garnier 1902), the whole volume. Each work stands at its own top level, and the Migne column numbers are page furniture, not addresses. In Ioannis Evangelium tractates I-CXXIV and In Epistolam Ioannis ad Parthos tractates I-X are addressed by the numeral printed on each bare TRACTATUS head (tr26). Under a tractate, the printed paragraph numbers (tr5/p9) where the paragraphs of that tractate read as one unbroken series, and para-line followed by the line number where they do not; 56 tractates are not divided below the tractate. Quaestiones Evangeliorum book 1 by printed quaestio number, De mirabilibus books 1 and 2 by printed caput number; every other quaestio, proposition, paragraph, caput and homilia is addressed by its kind and the line of its printed head, because the OCR numerals of those series do not read reliably.'
+scheme: 'PL 35 (Garnier 1902), the whole volume. Each work stands at its own top level, and the Migne column numbers are page furniture, not addresses. In Ioannis Evangelium tractates I-CXXIV and In Epistolam Ioannis ad Parthos tractates I-X are addressed by the numeral printed on each bare TRACTATUS head (tr26). Under a tractate, the printed paragraph numbers (tr5/p9) where the paragraphs of that tractate read as one unbroken series, and para-line followed by the line number of the head where they do not (a head too damaged to read stays inside the paragraph before it); 54 tractates are not divided below the tractate. Quaestiones Evangeliorum book 1 by printed quaestio number, De mirabilibus books 1 and 2 by printed caput number; every other quaestio, proposition, paragraph, caput and homilia is addressed by its kind and the line of its printed head, because the OCR numerals of those series do not read reliably; a head too damaged to find stays inside the item before it.'
 curator: Sonnet 5.5
 status: drafted
 language: lat
 apparatus:
   - {lines: [12, 331], kind: front, locus: 'front-matter'}
-  - {lines: [368, 751], kind: front, locus: 'tituli'}
   - {lines: [3547, 3600], kind: front, locus: 'admonitio'}
   - {lines: [4311, 4388], kind: front, locus: 'admonitio'}
   - {lines: [59178, 59217], kind: front, locus: 'appendix-front'}
@@ -30,12 +29,14 @@ divisions:
   - {id: work, start_line: 4389, locus: 'in-io-praefatio-incerti-auctoris', title: ''}
   - {id: work, start_line: 4455, locus: 'in-io', title: ''}
   - {id: work, start_line: 46777, locus: 'in-1io', title: ''}
+  - {id: ep1sec, parent: work, start_line: 46787, locus: 'prologus', title: ''}
   - {id: etr, parent: work, start_line: 49304, locus: 'tr5', title: '', number: 'V', series: epistle-tractate}
   - {id: work, start_line: 53046, locus: 'rom-propositiones', title: ''}
   - {id: work, start_line: 54865, locus: 'rom-inchoata', title: ''}
   - {id: work, start_line: 56205, locus: 'gal', title: ''}
   - {id: work, start_line: 59178, locus: 'appendix-front', title: ''}
   - {id: work, start_line: 59218, locus: 'de-mirabilibus', title: ''}
+  - {id: dmsec, parent: work, start_line: 59223, locus: 'epistola-line59223', title: ''}
   - {id: dmb, parent: work, start_line: 59313, locus: 'liber1', title: ''}
   - {id: dmb, parent: work, start_line: 61256, locus: 'liber2', title: ''}
   - {id: dmb, parent: work, start_line: 62995, locus: 'liber3', title: ''}
@@ -63,16 +64,22 @@ rules:
       - {line: 36173, quote: 'TRACT.ATUS LXXIV.', set: {n: 'LXXIV'}}
   - id: john-para
     pattern: '^[^A-Za-z0-9\s]{0,3}\s?(?P<p>[0-9IiLl!tJ{]{1,2})[.,]\s*[^\sa-z\d]'
-    lines: [[4460, 5149], [6928, 7698], [9436, 9973], [10554, 11107], [14520, 14833], [15952, 17443], [18145, 18704], [19474, 19727], [22319, 23036], [23418, 24107], [26679, 27226], [27757, 28263], [30211, 30558], [32137, 32514], [32934, 33222], [33443, 33784], [33979, 34102], [34250, 34393], [34548, 34696], [35014, 35149], [35266, 35526], [35727, 36362], [36649, 37472], [37594, 38274], [38458, 41120], [41504, 42467], [43170, 44071], [44492, 44879], [46284, 46776]]
+    lines: [[4460, 5149], [6928, 7698], [9436, 9973], [10554, 11107], [14520, 14833], [15952, 17443], [18145, 18704], [19474, 19727], [22319, 23036], [23418, 24107], [25052, 25454], [26679, 27226], [27757, 28263], [30211, 30558], [32137, 32514], [32934, 33222], [33443, 33784], [33979, 34102], [34250, 34393], [34548, 34696], [35014, 35149], [35266, 35526], [35727, 36362], [36649, 37472], [37594, 38274], [38458, 41338], [41504, 42467], [43170, 44071], [44492, 44879], [46284, 46776]]
     parent: john-tractate
     locus: 'p{p|int}'
     number: p
     ocr_map: {'i': '1', 'l': '1', 'I': '1'}
+    fixes:
+      - {line: 25420, quote: 'iO. Dicit aliquis', set: {p: '10'}}
+      - {line: 41311, quote: 'G. Et credidiili', set: {p: '6'}}
   - id: john-para-line
-    pattern: '^[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d]'
+    pattern: '^(?P<h>)[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d)\]]'
     lines: [[7699, 9055], [9057, 9435], [13680, 14519], [30559, 30619], [30621, 31401]]
     parent: john-tractate
     locus: 'para-line{line}'
+    fixes:
+      - {line: 14028, quote: 'iti. Verumlamen', set: {h: ''}}
+      - {line: 14176, quote: '21 Iterum cogit', set: {h: ''}}
   - id: epistle-tractate
     pattern: '^T[A-Za-z]{2,5}T[Aa]?T(?:US|LIS|U3)\s*(?P<n>[A-Za-z0-9!|\\]{1,9})[.,]?$'
     lines: [[46795, 46795], [47574, 47574], [48250, 48250], [48792, 48792], [49810, 49810], [50526, 50526], [50965, 50965], [51677, 51677], [52343, 52343]]
@@ -89,30 +96,50 @@ rules:
     fixes:
       - {line: 1332, quote: 'XLIIL [Ib. XXVI, 29.', set: {q: 'XLIII'}}
   - id: quaestio-line
-    pattern: '^(?:QU\S{1,4}\s?ST\.\s+|QuA:vr\.\s+)?[IVXLCHl!|.]{1,9}\s*[.,]\s*[\[(f{]'
+    pattern: '^(?P<h>)(?:QU\S{1,4}\s?ST\.\s+|QuA:vr\.\s+)?[IVXLCHl!|.]{1,9}\s*[.,]\s*[\[(f{]'
     lines: [[1433, 3536]]
     parent: qsec
     locus: 'q-line{line}'
+    fixes:
+      - {line: 1502, quote: 'in [Ib. v, 14.', set: {h: ''}}
+      - {line: 2051, quote: 'XXfl. [Ib. XI,', set: {h: ''}}
+      - {line: 2081, quote: 'XXV [Ib. XII, ', set: {h: ''}}
+      - {line: 2538, quote: 'XXXIV [Ib. XVI', set: {h: ''}}
+      - {line: 2589, quote: 'X.XXV [[b. XVI', set: {h: ''}}
+      - {line: 3143, quote: 'XLIII. |Ib. XV', set: {h: ''}}
   - id: quaestio-matt-line
-    pattern: '^(?:QU\S{1,4}\s?ST\.\s+|QU/EST\.\s+)?[IVXLCHl!|.]{1,9}\s*[.,]\s*[\[(f{]'
+    pattern: '^(?P<h>)(?:QU\S{1,4}\s?ST\.\s+|QU/EST\.\s+)?[IVXLCHl!|.]{1,9}\s*[.,]\s*[\[(f{]'
     lines: [[3610, 4310]]
     parent: work
     locus: 'q-line{line}'
+    fixes:
+      - {line: 3922, quote: 'XII. 1 Ib. XII', set: {h: ''}}
   - id: rom-proposition-line
-    pattern: '^(?:Prop\w*\s?prima|[^\[(f{]{0,16}[\[(f{]\s?[I1l!|]?[bhn]\.?[\s.,])'
+    pattern: '^(?P<h>)(?:Prop\w*\s?prima|[^\[(f{]{0,16}[\[(f{]\s?[I1l!|]?[bhn]\.?[\s.,])'
     lines: [[53062, 54864]]
     parent: work
     locus: 'prop-line{line}'
+    fixes:
+      - {line: 54020, quote: 'LlV.[ib. viii,', set: {h: ''}}
+      - {line: 54085, quote: 'LVI. [II). VII', set: {h: ''}}
   - id: rom-inchoata-para-line
-    pattern: '^[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d]'
+    pattern: '^(?P<h>)[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d)\]]'
     lines: [[54865, 56204]]
     parent: work
     locus: 'para-line{line}'
+    fixes:
+      - {line: 54941, quote: '2.1taque Epist', set: {h: ''}}
+      - {line: 55245, quote: 'Q.Per quem acc', set: {h: ''}}
+      - {line: 55315, quote: 'S.Restatergout', set: {h: ''}}
+      - {line: 55446, quote: '1 1 .Quod aute', set: {h: ''}}
   - id: gal-para-line
-    pattern: '^[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d]'
+    pattern: '^(?P<h>)[^A-Za-z0-9\s]{0,3}\s?[0-9IiLl!tJ{]{1,2}[.,]\s*[^\sa-z\d)\]]'
     lines: [[56205, 59177]]
     parent: work
     locus: 'para-line{line}'
+    fixes:
+      - {line: 56640, quote: 'iS.Nequeinconl', set: {h: ''}}
+      - {line: 57865, quote: '34. flb. IV, 1', set: {h: ''}}
   - id: mirabilia-cap
     pattern: '^[CG](?:[Aa]|\.\\)P(?:UT|IIT)\s?(?P<c>PRIMUM|[IVXLCDMUHYTFGr1ilj!|\\]{1,9})[.,]?\s*[—~-]'
     lines: [[59313, 62994]]
@@ -126,16 +153,25 @@ rules:
     parent: dmb
     locus: 'cap-line{line}'
   - id: quaest-vnt-line
-    pattern: '^(?:[IVXLCDMlHi!|.1]{1,9}\s*(?:\(.{1,2}\)\s*)?[.,]?\s*[—~]\s|Q[^\s]{1,8}\.?\s+[A-Za-z]{2,5}MA\b)'
+    pattern: '^(?P<h>)(?:[IVXLCDMlHi!|.1yh]{1,9}\s*(?:[({\[]?\s?.{1,3}\s?[)}\]]\s*)?[.,]?\s*[—~-]{1,2}\s|Q[^\s]{1,8}\.?\s+[A-Za-z]{2,5}MA\b)'
     lines: [[65148, 80739]]
     parent: work
     locus: 'q-line{line}'
+    fixes:
+      - {line: 66251, quote: 'X VII. — Quid ', set: {h: ''}}
+      - {line: 67157, quote: 'XXXVIU. — Sieq', set: {h: ''}}
+      - {line: 69744, quote: 'LX.\ (a). — Do', set: {h: ''}}
+      - {line: 74216, quote: 'GV(a). — Quomo', set: {h: ''}}
+      - {line: 74731, quote: 'CVl[. — Quantu', set: {h: ''}}
+      - {line: 78523, quote: 'GXVllI (a). — ', set: {h: ''}}
     allow_oversize: 'Each quaestio is the finest division the edition prints; the two over 5,000 words print no numbered or titled sub-heading inside them.'
   - id: quaest-vnt-2-line
-    pattern: '^(?:[IVXLCDMlHi!|.1]{1,9}\s*(?:\(.{1,2}\)\s*)?[.,]?\s*[—~]\s|Q[^\s]{1,8}\.?\s+[A-Za-z]{2,5}MA\b)'
+    pattern: '^(?P<h>)(?:[IVXLCDMlHi!|.1yh]{1,9}\s*(?:[({\[]?\s?.{1,3}\s?[)}\]]\s*)?[.,]?\s*[—~-]{1,2}\s|Q[^\s]{1,8}\.?\s+[A-Za-z]{2,5}MA\b)'
     lines: [[80761, 83609]]
     parent: work
     locus: 'q-line{line}'
+    fixes:
+      - {line: 81215, quote: 'XVm (a). — Cur', set: {h: ''}}
   - id: apoc-homilia-line
     pattern: '^H[O0]\.?[MJ][A-Za-z0-9.]{2,8}[,.]?\s+[IVXLCivxlmn]{1,6}'
     lines: [[83664, 86844]]
