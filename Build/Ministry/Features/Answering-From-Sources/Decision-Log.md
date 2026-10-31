@@ -630,3 +630,21 @@ Reader columns are by blind reads, two of three agree, marked AI-adjudicated und
 ## 36. Net: a sentence composed around a placed quote cites that quote alone (2026-10-31)
 
 Mark asked for this fix directly: the net's verdict on a sentence built around a placed quote carried the sentence's own tags, so an unverified tag in a lead-in reached the citation list. The verdict now cites the placed quote's record id alone. Merged as pull request 1375 (`engine/m4/grounding_net.py`, test `engine/m4/tests/test_placed_quote_citations.py`), full regression 2576 passed. Logged as OG-121.
+
+## 37. OG-118: absence statements out of what the voice and participants see (2026-10-31)
+
+Mark, 2026-10-31, relayed by the coordination thread. Two answers, the second replacing the first.
+
+- First answer: all fields the voice sees (tensions, senses, witness text, figures) count; clean all 51 flagged sentences by the stories rule. It rested on a wrong premise from this thread: a scan reader reported that a term's `senses` and a witness's `tensions` reach the voice. The engine's registry of spoken fields (`engine/m1/spoken_fields.py`) says the voice sees a term's `plain_meaning` and `quick_meaning`, a witness's `text`, and a figure's `names` and `bridge_line`; a term's `senses.translational` is the participant hover gloss. `tensions` and the other `senses` fields are build notes. This thread corrected the premise the same day.
+- Second answer, on the corrected picture: clean only what the voice and participants see (those fields plus the hover gloss). Leave `tensions` and the other `senses` fields alone. One records pull request, one re-pin, an Opus guard check and nothing-added check per edit, `engine.m9.cli check` before the push, three-level transparency kept.
+- Coordination-level, AI-reviewed (not Mark's): record bodies are not spoken, so they are out of scope for this rule.
+
+Method. Two independent Opus readers read all 53 figure, term and witness records whole (51 flagged sentences in 30 records, 46 flagged by both). A third reader ruled the five flagged by one reader only: celerinus (markdown body, out of scope), the-people (not an absence statement), and three confirmed. Sonnet drafted the edits and Opus reviewed them.
+
+Result. 15 sentences or clauses removed from 13 records: eleven witness `text` fields, and the hover gloss `senses.translational` of two terms (compel-them-to-come-in, catechesis). Nothing added. The Opus review passed 13 of 15 passages and found two edits whose removal left the text overreaching: confessor-claim-vs-regulated-peace (the removed sentence was the world's own Tensional point, that the two never become one rule) and no-one-may-take-his-own-life (the removed sentences were the only thing stopping a verdict on everyone who dies this way). Both edits were undone whole and stay as caveats. One readability finding (apostolic-succession `text`, reading ease 57.3 after the removal) was fixed by splitting three long sentences with the record's own words. lpc re-pinned to 2026-10-31T02-58-38Z; records and regate gates pass.
+
+Not done, registered as OG-124: the sentences left in build-note fields and the body statements.
+
+## 38. Early pass and judge findings: what the report says about the gates (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's): `S3-Test100/Early_Pass_Report.md` records that 100 of 462 gate-kept sentences were labelled not supported by two of three reads, and 28 of 41 gate-withheld sentences supported. Whether those 100 are the Representative's own framing lines or real overreach has not been measured; that is the next thing to read before any gate is retuned.
