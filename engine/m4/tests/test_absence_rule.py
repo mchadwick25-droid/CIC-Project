@@ -80,3 +80,19 @@ def test_net_removes_the_widened_sentence_and_keeps_the_scoped_one(records):
         f"In all our years, no text a woman wrote survives from our two cities [[{LIMIT}]].", records,
     )[0]
     assert "survives" in kept
+
+
+@pytest.mark.parametrize("sentence", [
+    "In all our years, no text a woman wrote survives anywhere in the Christian world.",
+    "In our years from 246 to 430, no text a woman wrote survives in Rome or Alexandria or Antioch.",
+])
+def test_a_claim_that_inverts_or_widens_the_record_is_withheld(records, sentence):
+    assert _check(sentence, records, LIMIT) is not None
+
+
+def test_the_fixed_sentence_with_more_after_it_is_checked():
+    assert check_absence("Our record doesn't mention that Christian tradition, and no text a man wrote survives either.", []) is not None
+
+
+def test_a_possessive_is_matched_as_its_word():
+    assert "woman" in content_words("No woman's writing survives.")

@@ -88,7 +88,7 @@ def has_absence_cue(sentence: str) -> bool:
 def content_words(sentence: str) -> frozenset[str]:
     words = set()
     for word in _WORD.findall(sentence.lower()):
-        word = word.strip("'’-")
+        word = re.sub(r"['’]s?$", "", word.strip("-"))
         if len(word) < 4 or word in _FUNCTION_WORDS:
             continue
         if len(word) > 5 and word.endswith("s") and not word.endswith("ss"):
@@ -99,6 +99,13 @@ def content_words(sentence: str) -> frozenset[str]:
     return frozenset(words)
 
 
+_NEGATOR = re.compile(r"\b(?:no|not|never|nothing|none|cannot|without|neither|nor|lost|silent)\b|n't\b", re.IGNORECASE)
+_WIDENING = re.compile(
+    r"\b(?:anywhere|everywhere|at\s+all|in\s+the\s+whole|whole\s+(?:church|world)|christian\s+world|christendom"
+    r"|any\s+other|anyone\s+else)\b",
+    re.IGNORECASE,
+)
+_NAME = re.compile(r"(?<![.!?]\s)(?<!^)\b[A-Z][a-z]{3,}\b")
 _LIMIT_TYPES = frozenset({"honest_limit"})
 _LIMIT_FIELDS = {"world_core": ("thinness", "cautions")}
 
@@ -110,7 +117,7 @@ def _candidates(record: dict) -> list[str]:
     absence cue."""
     record_type = record.get("record_type")
     if record_type in _LIMIT_TYPES:
-        return sentences(spoken_text(record))
+        return [s for s in sentences(spoken_text(record)) if _NEGATOR.search(s)]
     own = [t for name in _LIMIT_FIELDS.get(record_type, ()) for t in field_texts(record, name)]
     return [*sentences(" ".join(own)), *(s for s in sentences(spoken_text(record)) if has_absence_cue(s))]
 
@@ -124,8 +131,15 @@ def _years(record: dict) -> tuple[int, int] | None:
 
 def _keeps_scope(sentence: str, supporting: str, record: dict) -> bool:
     """True when the supporting sentence states no scope, or the claim states
-    one too. A year in the claim must lie inside the record's own years."""
+    one too. A year in the claim must lie inside the record's own years, and
+    the claim may not widen by an extent word the supporting sentence lacks or
+    by a name the record does not hold."""
     window = _years(record)
+    held = spoken_text(record)
+    if _WIDENING.search(sentence) and not _WIDENING.search(supporting):
+        return False
+    if any(not re.search(rf"\b{re.escape(name)}\b", held) for name in _NAME.findall(sentence)):
+        return False
     if any(marker.search(supporting) for marker in _SCOPE_MARKERS) and not any(m.search(sentence) for m in _SCOPE_MARKERS):
         return False
     if window is not None:
@@ -136,7 +150,7 @@ def _keeps_scope(sentence: str, supporting: str, record: dict) -> bool:
 def check_absence(sentence: str, cited: list[dict]) -> str | None:
     """None when the sentence makes no absence claim or the cited records
     back it with its scope; else the reason it is withheld."""
-    if not has_absence_cue(sentence) or R26_SENTENCE in sentence.lower():
+    if not has_absence_cue(sentence) or sentence.strip().lower().rstrip(".") == R26_SENTENCE:
         return None
     claimed = content_words(sentence)
     if not claimed:
