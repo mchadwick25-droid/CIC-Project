@@ -1,7 +1,7 @@
 file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
 scheme: Goldbacher's letter numbers CLXXXV to CCLXX, printed as a Roman numeral on a line of its own above the address of each letter; the running heads give the same numbers; a numeral the scan has damaged is read from the same line and from the running head of its page; CLXXXV A, CCII A and CCL A are printed with the letter A after the numeral; the twelve letters over 5,000 words (185, 186, 187, 190, 194, 196, 199, 205, 211, 217, 225, 238) are also divided at section numbers (sectio) or page numbers (p) that the scan shows plainly; the section and page heads are listed by hand and are not checked as a series, and a section or page whose number the scan drops or damages has no division of its own and runs on inside the one before
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: ep
   pattern: '^(?:\S{1,3} ){0,3}(?P<n>[IVXLCYT][IVXLCYT1lUNi]*[.,]|[IVXLCYT][IVXLCYT1lUNi]*L)(?: \S{1,2})?$'
