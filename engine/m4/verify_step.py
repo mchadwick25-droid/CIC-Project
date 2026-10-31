@@ -58,7 +58,9 @@ VERIFY_SYSTEM = (
     "the whole tradition's what one author says, or uses a word like \"the bishop\" for a person the records do not name. "
     "A sentence that only frames the answer and claims nothing is supported. A word that refers back to something (he, they, \"them\", \"the others\", \"it\") "
     "must name, through the sentence before it, the very person or thing the records say it of; if the records cannot settle it, "
-    "or the sentence before points to something else, it is not supported (unresolved_referent). When the records carry "
+    "or the sentence before points to something else, it is not supported (unresolved_referent). A claim of exclusivity or absence (\"only\", \"never\", \"none\", \"nothing\") is supported only if a bound record states that exclusivity or absence; a record that merely names the thing does not. Each record may carry a MUST NOT ASSERT line: a sentence that "
+    "asserts what any bound record says must not be asserted is not supported, and when a sentence joins content from more than "
+    "one record it must stay within the narrower scope of them (years, persons, cases covered), the MUST NOT ASSERT line winning. When the records carry "
     "different formation confidence, the sentence may claim no more than the lowest level among them, and may not join "
     "them into one claim stated more firmly. Use no outside knowledge.\n"
     'Reply with one JSON object only: {"supported": true or false, "problem": one of "added_detail", "stronger_force", '
