@@ -35,7 +35,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: eng
-    date: {formation_confidence: unknown, checked: "file header, title page and Morris's preface; no dated preface or first-edition statement, and the date of Gerard's own Narrative is not stated in the lines read"}
+    date: {start: 1606, end: 1606, source: "Morris, file lines 8474-8481: the Narrative was written before the creation of baronets in 1611, and as Gerard escaped from England in May 1606 'it would seem to have been written in the latter part of that year'", formation_confidence: Widely Accepted}
     note: >
       Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself) of
       complicity in the Plot; chapters IX-XV are the Society's own defence of its English
@@ -78,7 +78,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: eng
-    date: {formation_confidence: unknown, checked: "file header, title page and Morris's preface; no dated preface or first-edition statement, and the date of Gerard's own Narrative is not stated in the lines read"}
+    date: {start: 1609, end: 1609, source: "Morris, file line 8497: 'The Autobiography was composed in 1609', from its mention of Robert Drury's martyrdom two years before; this dates the Autobiography whose extracts the row's text is, not Morris's 1871 framing", formation_confidence: Widely Accepted}
     note: >
       The autobiography of a Jesuit of the English mission, as translated and framed by a
       later Jesuit; same caveat as the recusant row (Gerard's words only where marked).

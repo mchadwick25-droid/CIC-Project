@@ -10,7 +10,7 @@ assignments:
     role: context
     confidence: assigned
     language: lat
-    date: {start: 1572, end: 1572, source: "title page of the Naples print, file line 56: \"NEAPOLI M. D. LXXII\"", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "title page, file line 56 ('NEAPOLI M. D. LXXII'), and the colophon at line 17164 date this printing (1572); the file never says whether it is the first edition or when the Life was composed"}
     locus_ids: [whole-file]
     note: >
       Ribadeneira's original Latin life of Ignatius, commissioned by the

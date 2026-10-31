@@ -10,7 +10,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: lat
-    date: {formation_confidence: unknown, checked: "file header; the 1595 year is that of the printing, and the file does not state when the work was composed"}
+    date: {formation_confidence: unknown, checked: "printed title: Antwerp, Martinus Nutius, 1594 (file line 167); the Imagines title page, Antwerp 1593 (line 186); papal privilege dated 14 August 1593 (line 359); the file does not state when Nadal composed the work"}
     locus_ids: [whole-file]
     note: >
       Jeronimo Nadal's own Gospel annotations and meditations, Latin

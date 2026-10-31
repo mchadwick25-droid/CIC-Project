@@ -10,8 +10,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: lat
-    date: {start: 1542, end: 1546, source: "first dated entry \"Anno 1542, in octava Corporis Christi Domini\" (file line 523); the volume carries dated matter to \"anno 1546\" (file lines 11593 and 14287), and the file header gives Faber 1506-1546", formation_confidence: Widely Accepted}
-    locus_ids: [whole-file]
+    date: {start: 1542, end: 1546, source: "Memoriale entries run from 'Anno 1542, in octava Corporis Christi' (file line 523) to 'ANNO 1543, MENSE JULIO' (line 11526); the editor's rubric to the Epilogus (lines 11592-11593) reads 'ab anno 1543 usque ad vitae finem anno 1546'; the Appendix of letters from line 12746 is outside this span", formation_confidence: Widely Accepted}
     note: >
       Faber's own spiritual diary - genuine primary Faber material, not
       a biography quoting him. This world's corpus previously held only

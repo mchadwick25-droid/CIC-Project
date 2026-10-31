@@ -12,11 +12,9 @@ works:
   confidence: assigned
   language: eng
   date:
-    start: 1604
-    end: 1604
-    source: 'title page, file lines 35-39: "reprinted from the English translated edition
-      of Edward Grimston, 1604"'
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: title page, file lines 35-39, dates Grimston's English translation (1604) and
+      the editing; the file never states the year Acosta wrote the work
   note: 'A first-generation Jesuit''s own published work on the American missions (Acosta
     was provincial of Peru and later wrote the Society''s mission manual De procuranda). Context
     here because it is a translated English edition, not the Society''s own text.
@@ -33,7 +31,9 @@ works:
   date:
     start: 1582
     end: 1582
-    source: 'file header lines 1-2: "A Briefe Historie ... (1582)", Allen''s 1582 text'
+    source: 'Pollen''s introduction, file lines 147-148 and 186-188: Allen''s letters of 7
+      July and 3 September 1582 on writing and sending the book (''I now send you the complete
+      book about the Martyrs'', 3 September 1582)'
     formation_confidence: Documented
   note: 'The first account of Campion''s death, by the secular priest who ran the seminary
     and had sent him: an ally''s account from outside the Society, not the Society''s own
@@ -93,7 +93,7 @@ works:
   locus: group II from about file line 3149 to the letters at about 8064
   role: tradition
   confidence: provisional
-  language: eng-lat
+  language: eng-lat-ita-spa
   date:
     start: 1597
     end: 1602
@@ -112,8 +112,6 @@ works:
   work: The Life of the Blessed Peter Favre (Faber), of the Society of Jesus
   author: boero
   locus: whole text
-  locus_ids:
-  - whole-file
   role: context
   confidence: provisional
   language: eng
@@ -275,8 +273,10 @@ works:
   language: lat
   date:
     formation_confidence: unknown
-    checked: file header and title page; the 1573 year is that of this printing, and the file
-      does not give the year the Summa was first composed or printed
+    checked: Canisius's own dedication to the Duke of Bavaria for this enlarged text is dated
+      'Dilingae ... Kalendas Februarij ... M. D. LXXI' (file lines 640-644); the file does
+      not give a single composition year for the Summa, and the 1573 year is that of this
+      printing
   note: 'Canisius''s Latin catechism, in a sixteenth-century printing, the Latin original
     for the vendored 1622 English translation. The book prints its marginal scripture and
     patristic citations in the outer margins. Second witness for now, not yet quotable: a
@@ -294,10 +294,11 @@ works:
   confidence: provisional
   language: eng-lat
   date:
-    formation_confidence: unknown
-    checked: file header and Pollen's introduction; documents of 1580-1603 per the header,
-      but no dated preface is cited and the title page span (1584-1603) differs from the first
-      document
+    start: 1584
+    end: 1603
+    source: the volume's title page, file line 171 ('Vol. I, 1584-1603'); the contents list
+      items from 1580 (line 376) too, so the span is the title-page span only
+    formation_confidence: Documented
   note: 'Letters of the Society''s English missioners to their superiors and to the English
     College, printed from the Jesuit archives. Placed on the headings; not read document by
     document this pass.
@@ -312,9 +313,11 @@ works:
   confidence: provisional
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header and Pollen's introduction; Challoner's compilation of 1741-42 is
-      stated only in the header, and the 1924 edition date dates the revision
+    start: 1741
+    end: 1742
+    source: 'Pollen''s introduction, file line 474: ''the first volume appeared in 1741, the
+      second in 1742'''
+    formation_confidence: Documented
   note: 'A secular vicar apostolic''s martyrology that covers the Society''s English martyrs
     (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed on that
     coverage, not read for its treatment of the Society as such.
@@ -382,10 +385,12 @@ works:
   language: eng
   date:
     start: 1615
-    end: 1622
-    source: 'file line 35 ("1615-1622") and lines 136-137: the diary runs from 1 June 1615
-      and ends 24 March 1622'
-    formation_confidence: Documented
+    end: 1617
+    source: the journal begun 'le 1th day of June, 1615' (file line 1363); the entry 'January
+      1, 1616-7' (line 9208); the last entry of the volume, '_December 31._' (line 13653),
+      is the third December 31 in the sequence, so 1617 by inference from the sequence of
+      printed dates, not a printed year
+    formation_confidence: Widely Accepted
   note: The Society seen by a hostile English merchant in Japan, 1615-1617; placed on a word
     count only.
   source_file: cocks_diary-v1_thompson1883.txt
@@ -401,9 +406,11 @@ works:
   language: spa
   date:
     start: 1660
-    end: 1663
-    source: Colin's memorial to the king is dated "En Madrid, y Febrero 12. de 1660" (file
-      line 206); the file title line 1 names the first edition as Madrid, 1663
+    end: 1660
+    source: the memorial to the king presenting the work is dated 'En Madrid, y Febrero 12.
+      de 1660' (file line 206; the memorial is signed Magino Sola, line 209, not Colin) and
+      Pastells's introduction gives Colin's death on 6 May 1660 (line 55883); the 1663 on
+      the title line is the edition header only
     formation_confidence: Widely Accepted
   note: The Society's own history of its Philippine province, by its provincial, in the Spanish
     written.
@@ -433,17 +440,16 @@ works:
   work: Memoriale Beati Petri Fabri
   author: faber
   locus: whole volume
-  locus_ids:
-  - whole-file
   role: tradition
   confidence: assigned
   language: lat
   date:
     start: 1542
     end: 1546
-    source: first dated entry "Anno 1542, in octava Corporis Christi Domini" (file line 523);
-      the volume carries dated matter to "anno 1546" (file lines 11593 and 14287), and the
-      file header gives Faber 1506-1546
+    source: Memoriale entries run from 'Anno 1542, in octava Corporis Christi' (file line
+      523) to 'ANNO 1543, MENSE JULIO' (line 11526); the editor's rubric to the Epilogus (lines
+      11592-11593) reads 'ab anno 1543 usque ad vitae finem anno 1546'; the Appendix of letters
+      from line 12746 is outside this span
     formation_confidence: Widely Accepted
   note: 'Faber''s own spiritual diary - genuine primary Faber material, not a biography quoting
     him. This world''s corpus previously held only the Boero secondary biography for Faber.
@@ -500,9 +506,10 @@ works:
   confidence: assigned
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header and opening pages; no preface or first-edition year is stated, the
-      1872 year is the imprint of the vendored copy
+    start: 1872
+    end: 1872
+    source: preface signed 'London, Feast of St. Antony Abbot, 1872' (file line 481)
+    formation_confidence: Documented
   note: 'Compiled by Henry James Coleridge, S.J. (1872), embedding extensive Xavier-Ignatius
     correspondence and Xavier''s own letters from the India/Fishery Coast and Malacca/Moluccas
     mission. Companion to Vol. II (Japan/China years).
@@ -517,9 +524,10 @@ works:
   confidence: assigned
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header and opening pages; no preface or first-edition year is stated, the
-      1872 year is the imprint of the vendored copy
+    start: 1872
+    end: 1872
+    source: preface signed 'London, Eve of St. Thomas the Apostle, 1872' (file line 181)
+    formation_confidence: Documented
   note: 'Compiled by Henry James Coleridge, S.J. (1872) - Xavier''s later years, the Japan
     and China missions, and his death in 1552. Companion to Vol. I (university years, India/Fishery
     Coast, Malacca/Moluccas, 1541-1548).
@@ -553,9 +561,12 @@ works:
   confidence: assigned
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header, title page and Morris's preface; no dated preface or first-edition
-      statement, and the date of Gerard's own Narrative is not stated in the lines read
+    start: 1606
+    end: 1606
+    source: 'Morris, file lines 8474-8481: the Narrative was written before the creation of
+      baronets in 1611, and as Gerard escaped from England in May 1606 ''it would seem to
+      have been written in the latter part of that year'''
+    formation_confidence: Widely Accepted
   note: 'Gerard is a Jesuit writing to clear the Society (Garnet, Oldcorne, Gerard himself)
     of complicity in the Plot; chapters IX-XV are the Society''s own defence of its English
     superior. The English mission''s voice inside the Society''s world.
@@ -591,8 +602,9 @@ works:
   language: eng
   date:
     formation_confidence: unknown
-    checked: file header and Morris's preface (no dated preface found); the papers are of
-      different dates and no span is stated
+    checked: Morris's introduction (file lines 5476-5483) dates only the second of Holtby's
+      two narratives, to 1593 ('This year, 1593'); this row spans both narratives and the
+      Commission's acts (lines 5017 to 10653), for which no single window is stated
   note: 'A Jesuit missioner''s report to a Jesuit superior; placed on that fact, the report''s
     own Jesuit framing not read closely this pass.
 
@@ -664,10 +676,10 @@ works:
   confidence: assigned
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header and opening pages; the 24 letters (1524-1547 per the volume heading,
-      file line 99) are dated singly, the 1914 imprint dates the translation only, and the
-      volume is a selection
+    start: 1524
+    end: 1547
+    source: the volume heading 'VOL. I. 1524-1547' (file line 99)
+    formation_confidence: Documented
   note: 'A selection of Ignatius''s own letters (1524-1547), trans. D.F. O''Leary, ed. A.
     Goodier, S.J. (1914) - not the full ~7,000-letter corpus. A companion Vol. 2 was searched
     for and not conclusively found.
@@ -857,7 +869,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1636
     end: 1637
@@ -986,7 +998,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1639
     end: 1640
@@ -1071,7 +1083,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1612
     end: 1614
@@ -1159,7 +1171,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1642
     end: 1643
@@ -1203,7 +1215,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1642
     end: 1644
@@ -1291,11 +1303,11 @@ works:
   confidence: assigned
   language: fra-eng
   date:
-    start: 1645
+    start: 1646
     end: 1646
-    source: 'the volume contents, file lines 504-514: its one document is the Relation ''ésannées
-      1645. & 1646'', dated Quebec 28 October 1646 and Huron country 1 May 1646 (the title-page
-      year is garbled in the OCR at line 469)'
+    source: the volume's one document (Relation of 1645 and 1646), signed Quebec 28 October
+      1646 and Huron country 1 May 1646 (file lines 513-514, 529-531), and the text's own
+      'present year 1646' (line 748); the title-page year at line 469 is garbled in the OCR
     formation_confidence: Documented
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and
     missionaries wrote, printed by Thwaites with a facing English translation. Primary original
@@ -1311,7 +1323,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1611
     end: 1616
@@ -1376,7 +1388,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1647
     end: 1648
@@ -1398,7 +1410,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1648
     end: 1649
@@ -1442,7 +1454,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1650
     end: 1650
@@ -1464,7 +1476,7 @@ works:
     pages
   role: tradition
   confidence: assigned
-  language: fra-eng
+  language: fra-lat-eng
   date:
     start: 1616
     end: 1629
@@ -1776,11 +1788,9 @@ works:
   confidence: provisional
   language: eng
   date:
-    start: 1682
-    end: 1682
-    source: 'imprint on the title page, file line 108: "St. Pauls Church-yard, 1682" (the
-      English book; the file does not date the Latin original)'
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: 'title page and header: 1682 is the English translation by J. P.; the Latin original
+      (Frankfurt, 1681) appears only in the library header note, not in the printed text'
   note: 'A Protestant scholar''s account of the Jesuit mission''s failure, written against
     the Jesuit histories it draws on. Placed on subject without a close read; for the Jesuit
     world''s builders to weigh.
@@ -1810,9 +1820,12 @@ works:
   confidence: assigned
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header, title page and Morris's preface; no dated preface or first-edition
-      statement, and the date of Gerard's own Narrative is not stated in the lines read
+    start: 1609
+    end: 1609
+    source: 'Morris, file line 8497: ''The Autobiography was composed in 1609'', from its
+      mention of Robert Drury''s martyrdom two years before; this dates the Autobiography
+      whose extracts the row''s text is, not Morris''s 1871 framing'
+    formation_confidence: Widely Accepted
   note: 'The autobiography of a Jesuit of the English mission, as translated and framed by
     a later Jesuit; same caveat as the recusant row (Gerard''s words only where marked).
 
@@ -1848,8 +1861,9 @@ works:
   language: lat
   date:
     formation_confidence: unknown
-    checked: file header; the 1595 year is that of the printing, and the file does not state
-      when the work was composed
+    checked: 'printed title: Antwerp, Martinus Nutius, 1594 (file line 167); the Imagines
+      title page, Antwerp 1593 (line 186); papal privilege dated 14 August 1593 (line 359);
+      the file does not state when Nadal composed the work'
   note: 'Jeronimo Nadal''s own Gospel annotations and meditations, Latin original (1595) -
     a major first-generation Jesuit theological voice. This 1595 print is flagged as garbled
     under the Library''s own OCR-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md).
@@ -1924,7 +1938,7 @@ works:
   locus: whole volume - Tomus IV
   role: tradition
   confidence: assigned
-  language: lat-spa
+  language: lat-spa-ita
   date:
     formation_confidence: unknown
     checked: title page (file line 89 'TOMUS QUARTUS') and the preface; no span of years is
@@ -1947,9 +1961,10 @@ works:
   confidence: assigned
   language: lat
   date:
-    formation_confidence: unknown
-    checked: file header; the 1883 edition date dates the edition only, and no composition
-      date is stated
+    start: 1560
+    end: 1560
+    source: 'file line 12451: ''Nam anno 1560 quo haec scribuntur'''
+    formation_confidence: Widely Accepted
   note: 'Nadal''s own commentary explaining the Jesuit Constitutions to the provinces. Per
     the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text is primary evidence directly, verified against the vendored file, since
@@ -1967,8 +1982,9 @@ works:
   language: por-lat
   date:
     formation_confidence: unknown
-    checked: file header and Beccari's Latin preface (1906 imprint dates the edition only);
-      the preface does not give a composition date for the books
+    checked: Beccari's Latin preface, file lines 283-288, says Paez carried the history to
+      March 1622 and lived until mid-1622; the books are not dated as one span and the 1906
+      imprint dates the edition only
   note: The Jesuit mission to Ethiopia in the mission's own historian's words. Placed on window
     and subject without reading the whole volume; role tradition because the author is a Jesuit
     narrating a Jesuit mission, for the Jesuit world's builders to confirm.
@@ -2126,10 +2142,10 @@ works:
   confidence: assigned
   language: lat
   date:
-    start: 1572
-    end: 1572
-    source: 'title page of the Naples print, file line 56: "NEAPOLI M. D. LXXII"'
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: title page, file line 56 ('NEAPOLI M. D. LXXII'), and the colophon at line 17164
+      date this printing (1572); the file never says whether it is the first edition or when
+      the Life was composed
   note: 'Ribadeneira''s original Latin life of Ignatius, commissioned by the 3rd Superior
     General - an early, primary-adjacent biography by someone who knew Ignatius personally.
     Per the Library''s scan-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
@@ -2190,11 +2206,14 @@ works:
     footnotes); item V, the new articles of 1590, ends at 35639
   role: context
   confidence: provisional
-  language: rus
+  language: pol-rus
   date:
-    formation_confidence: unknown
-    checked: file header and the editors' preface; the volume joins texts of different dates
-      (1577, 1590, 1595, 1603) and states no span for item IV
+    start: 1577
+    end: 1590
+    source: 'editors'' preface, file lines 155-160: the 1577 book is the first edition and
+      the second edition, 1590, appeared with changes; contents list the 1577 text (line 269)
+      and the 1590 additions (line 275)'
+    formation_confidence: Documented
   note: 'Skarga was a Jesuit and wrote this for the Ostroh prince, with the Society''s argument
     for the primacy of Rome. Provisional: the Jesuit world is 1540-1650 and may not want a
     Ruthenian-language edition.'
@@ -2227,8 +2246,10 @@ works:
   language: lat
   date:
     formation_confidence: unknown
-    checked: 'file header and the printed text (Rome 1606 print): the print year is not the
-      date the Constitutions were composed or approved, and the file states neither'
+    checked: 'printed text: papal confirmations are dated Kal. Feb. MDLXXXII (file line 61),
+      Gregory XIV, 4 Kal. July MDXCI (line 66) and Paul V, pridie Nonas Septembris, 1606 (line
+      70); the file does not say which date is the composition, and the year of a later edition
+      printing is not the composition year'
   note: 'The Society''s own governing document, Latin original (1606 Rome printing). This
     1606 print is flagged as garbled under the Library''s own OCR-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md).
     It stays second witness for that reason until a cleaner edition is vendored. It closes
@@ -2396,9 +2417,12 @@ works:
   confidence: provisional
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header and the translator's introduction; no first-edition year is stated
-      and the composition dates are not given in the lines read
+    start: 1573
+    end: 1582
+    source: 'introduction, file lines 1157-1169: in 1573 Teresa began the history of the Foundations
+      at Salamanca on 24 August; the foundation list ends with Burgos, 22 April 1582 (line
+      977)'
+    formation_confidence: Widely Accepted
   note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed
     on word searches only, so provisional.
   source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
@@ -2412,10 +2436,12 @@ works:
   confidence: provisional
   language: eng
   date:
-    formation_confidence: unknown
-    checked: file header and the translator's front matter (imprimatur 'Die 27 Sept., 1904',
-      file line 59, dates the translation); the composition date of the Life is not stated
-      in the lines read
+    start: 1561
+    end: 1565
+    source: 'Zimmerman''s introduction, file lines 897-908: the biographers hold a first writing
+      in 1561 and the following year (finished at Toledo in June) and a second between 1563
+      and 1565; the closing letter is concluded to date from 1565'
+    formation_confidence: Contested
   note: The Society seen from outside by a woman who consulted its fathers; the editor's note
     at line 1850 says she told everything to St Francis de Borja, who changed one point of
     her direction. Placed on word counts and that note, so provisional.
@@ -2430,8 +2456,9 @@ works:
   date:
     start: 1615
     end: 1615
-    source: 'file header lines 4-5 and 15: Augsburg, Christopher Mang, 1615; the scan is of
-      the 1615 first printing'
+    source: 'printed text: the dedication ''Romae 14 Kalendas Februarias, Anno Salutis 1615''
+      (file line 220, OCR ''i6i$''), the preface dated 14 Kalendas Februarias, 1615 (line
+      430, ''c I D 1 3 c XV''), and the approval ''Anno 1615'' (line 452, OCR ''i6i$'')'
     formation_confidence: Documented
   note: 'The Jesuit account of Ricci''s China mission, in the Latin Trigault published in
     1615 from Ricci''s own commentaries. Trigault edited and reordered Ricci''s text, so it

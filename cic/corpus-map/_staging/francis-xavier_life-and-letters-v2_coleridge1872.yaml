@@ -10,7 +10,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: eng
-    date: {formation_confidence: unknown, checked: "file header and opening pages; no preface or first-edition year is stated, the 1872 year is the imprint of the vendored copy"}
+    date: {start: 1872, end: 1872, source: "preface signed 'London, Eve of St. Thomas the Apostle, 1872' (file line 181)", formation_confidence: Documented}
     note: >
       Compiled by Henry James Coleridge, S.J. (1872) - Xavier's later
       years, the Japan and China missions, and his death in 1552.

@@ -9,7 +9,7 @@ assignments:
   role: tradition
   confidence: assigned
   language: lat
-  date: {start: 1615, end: 1615, source: "file header lines 4-5 and 15: Augsburg, Christopher Mang, 1615; the scan is of the 1615 first printing", formation_confidence: Documented}
+  date: {start: 1615, end: 1615, source: "printed text: the dedication 'Romae 14 Kalendas Februarias, Anno Salutis 1615' (file line 220, OCR 'i6i$'), the preface dated 14 Kalendas Februarias, 1615 (line 430, 'c I D 1 3 c XV'), and the approval 'Anno 1615' (line 452, OCR 'i6i$')", formation_confidence: Documented}
   note: 'The Jesuit account of Ricci''s China mission, in the Latin Trigault published in 1615 from Ricci''s
     own commentaries. Trigault edited and reordered Ricci''s text, so it is the mission''s printed public
     voice and not a copy of Ricci''s own Italian. Second witness for now, not yet quotable: the scan is

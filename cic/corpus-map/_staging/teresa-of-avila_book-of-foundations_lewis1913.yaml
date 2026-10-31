@@ -55,7 +55,7 @@ assignments:
   role: context
   confidence: provisional
   language: eng
-  date: {formation_confidence: unknown, checked: "file header and the translator's introduction; no first-edition year is stated and the composition dates are not given in the lines read"}
+  date: {start: 1573, end: 1582, source: "introduction, file lines 1157-1169: in 1573 Teresa began the history of the Foundations at Salamanca on 24 August; the foundation list ends with Burgos, 22 April 1582 (line 977)", formation_confidence: Widely Accepted}
   note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed on word searches
     only, so provisional.
 - row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-carmelites

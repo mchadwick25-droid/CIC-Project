@@ -43,7 +43,7 @@ assignments:
   role: context
   confidence: provisional
   language: eng
-  date: {formation_confidence: unknown, checked: "file header and the translator's front matter (imprimatur 'Die 27 Sept., 1904', file line 59, dates the translation); the composition date of the Life is not stated in the lines read"}
+  date: {start: 1561, end: 1565, source: "Zimmerman's introduction, file lines 897-908: the biographers hold a first writing in 1561 and the following year (finished at Toledo in June) and a second between 1563 and 1565; the closing letter is concluded to date from 1565", formation_confidence: Contested}
   note: The Society seen from outside by a woman who consulted its fathers; the editor's note at line
     1850 says she told everything to St Francis de Borja, who changed one point of her direction. Placed
     on word counts and that note, so provisional.

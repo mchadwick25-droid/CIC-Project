@@ -10,7 +10,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: lat
-    date: {formation_confidence: unknown, checked: "file header and the printed text (Rome 1606 print): the print year is not the date the Constitutions were composed or approved, and the file states neither"}
+    date: {formation_confidence: unknown, checked: "printed text: papal confirmations are dated Kal. Feb. MDLXXXII (file line 61), Gregory XIV, 4 Kal. July MDXCI (line 66) and Paul V, pridie Nonas Septembris, 1606 (line 70); the file does not say which date is the composition, and the year of a later edition printing is not the composition year"}
     locus_ids: [whole-file]
     note: >
       The Society's own governing document, Latin original (1606 Rome

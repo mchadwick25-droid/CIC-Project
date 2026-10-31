@@ -10,7 +10,7 @@ assignments:
     role: tradition
     confidence: assigned
     language: lat
-    date: {formation_confidence: unknown, checked: "file header; the 1883 edition date dates the edition only, and no composition date is stated"}
+    date: {start: 1560, end: 1560, source: "file line 12451: 'Nam anno 1560 quo haec scribuntur'", formation_confidence: Widely Accepted}
     locus_ids: [whole-file]
     note: >
       Nadal's own commentary explaining the Jesuit Constitutions to the

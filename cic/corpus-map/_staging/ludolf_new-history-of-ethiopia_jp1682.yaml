@@ -35,7 +35,7 @@ assignments:
     role: context
     confidence: provisional
     language: eng
-    date: {start: 1682, end: 1682, source: "imprint on the title page, file line 108: \"St. Pauls Church-yard, 1682\" (the English book; the file does not date the Latin original)", formation_confidence: Documented}
+    date: {formation_confidence: unknown, checked: "title page and header: 1682 is the English translation by J. P.; the Latin original (Frankfurt, 1681) appears only in the library header note, not in the printed text"}
     note: >
       A Protestant scholar's account of the Jesuit mission's failure, written against the Jesuit
       histories it draws on. Placed on subject without a close read; for the Jesuit world's

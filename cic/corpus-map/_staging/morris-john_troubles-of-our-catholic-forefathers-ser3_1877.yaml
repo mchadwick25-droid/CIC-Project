@@ -72,7 +72,7 @@ assignments:
     role: tradition
     confidence: provisional
     language: eng
-    date: {formation_confidence: unknown, checked: "file header and Morris's preface (no dated preface found); the papers are of different dates and no span is stated"}
+    date: {formation_confidence: unknown, checked: "Morris's introduction (file lines 5476-5483) dates only the second of Holtby's two narratives, to 1593 ('This year, 1593'); this row spans both narratives and the Commission's acts (lines 5017 to 10653), for which no single window is stated"}
     note: >
       A Jesuit missioner's report to a Jesuit superior; placed on that fact, the report's
       own Jesuit framing not read closely this pass.

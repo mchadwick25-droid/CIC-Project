@@ -51,7 +51,7 @@ assignments:
     role: tradition
     confidence: provisional
     language: eng-lat
-    date: {formation_confidence: unknown, checked: "file header and Pollen's introduction; documents of 1580-1603 per the header, but no dated preface is cited and the title page span (1584-1603) differs from the first document"}
+    date: {start: 1584, end: 1603, source: "the volume's title page, file line 171 ('Vol. I, 1584-1603'); the contents list items from 1580 (line 376) too, so the span is the title-page span only", formation_confidence: Documented}
     note: >
       Letters of the Society's English missioners to their superiors and to the English
       College, printed from the Jesuit archives. Placed on the headings; not read

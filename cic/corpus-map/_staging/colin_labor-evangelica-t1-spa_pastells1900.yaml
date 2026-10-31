@@ -27,5 +27,5 @@ assignments:
   role: tradition
   confidence: assigned
   language: spa
-  date: {start: 1660, end: 1663, source: "Colin's memorial to the king is dated \"En Madrid, y Febrero 12. de 1660\" (file line 206); the file title line 1 names the first edition as Madrid, 1663", formation_confidence: Widely Accepted}
+  date: {start: 1660, end: 1660, source: "the memorial to the king presenting the work is dated 'En Madrid, y Febrero 12. de 1660' (file line 206; the memorial is signed Magino Sola, line 209, not Colin) and Pastells's introduction gives Colin's death on 6 May 1660 (line 55883); the 1663 on the title line is the edition header only", formation_confidence: Widely Accepted}
   note: The Society's own history of its Philippine province, by its provincial, in the Spanish written.
