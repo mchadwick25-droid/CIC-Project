@@ -31,5 +31,7 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: eng
+  date: {start: 1604, end: 1604, source: "the contents, file line 46: Chirino's Relacion, \"Roma, 1604\"", formation_confidence: Documented}
   note: Second half of the Society's own account of its first Philippine decades, and Chirino's grant
     for the Jesuit seminary at Cebu.

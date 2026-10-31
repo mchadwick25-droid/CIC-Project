@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: eng
+    date: {start: 1872, end: 1872, source: "preface signed 'London, Feast of St. Antony Abbot, 1872' (file line 481)", formation_confidence: Documented}
     note: >
       Compiled by Henry James Coleridge, S.J. (1872), embedding extensive
       Xavier-Ignatius correspondence and Xavier's own letters from the

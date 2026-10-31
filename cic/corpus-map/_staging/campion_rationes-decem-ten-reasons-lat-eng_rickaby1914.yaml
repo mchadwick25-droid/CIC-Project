@@ -35,6 +35,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: lat-eng
+    date: {start: 1581, end: 1581, source: "Pollen's introduction, file line 602: the book \"was finished and sent up to Persons in March, 1581\"", formation_confidence: Widely Accepted}
     note: >
       Campion's own voice as a Jesuit of the first English mission; the Challenge states
       the Society's rule against meddling in matters of state in his own words (article

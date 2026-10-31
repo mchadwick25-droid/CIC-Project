@@ -23,6 +23,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "title page, file lines 35-39, dates Grimston's English translation (1604) and the editing; the file never states the year Acosta wrote the work"}
     note: >
       A first-generation Jesuit's own published work on the American missions (Acosta
       was provincial of Peru and later wrote the Society's mission manual De procuranda).

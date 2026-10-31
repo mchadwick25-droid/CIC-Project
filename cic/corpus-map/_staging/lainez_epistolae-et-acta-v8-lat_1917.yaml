@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa-lat-ita
+  date: {start: 1564, end: 1565, source: "title page of Tomus Octavus, file line 60: \"1564-1565\"", formation_confidence: Documented}
   note: 'Lainez''s own letters and acts as second General of the Society, 1564-1565, printed from the
     originals and registers. The letters are in Latin, Spanish and Italian as written, and the Society''s
     General speaks here for himself and not only through register copies. Primary original evidence for

@@ -23,6 +23,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header and Walter's 1822 edition front matter; the year the Epistle of Comfort was composed is not stated in the lines read"}
     note: >
       A Jesuit of the English mission writing to prisoners for the faith; the Society's
       own pastoral voice in England.

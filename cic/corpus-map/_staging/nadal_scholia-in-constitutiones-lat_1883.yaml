@@ -9,6 +9,9 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: lat
+    date: {start: 1560, end: 1560, source: "file line 12451: 'Nam anno 1560 quo haec scribuntur'", formation_confidence: Widely Accepted}
+    locus_ids: [whole-file]
     note: >
       Nadal's own commentary explaining the Jesuit Constitutions to the
       provinces. Per the Library's non-English-primary-evidence rule

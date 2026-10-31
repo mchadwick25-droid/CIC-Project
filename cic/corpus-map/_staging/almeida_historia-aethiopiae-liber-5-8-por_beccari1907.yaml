@@ -33,6 +33,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: provisional
+    language: por-lat
+    date: {formation_confidence: unknown, checked: "file header and Beccari's Latin preface (1907 imprint dates the edition only); the preface does not give a composition date for the books"}
     note: >
       The Ethiopian mission in the Society's own historian's words, from the patriarch's arrival
       to the expulsion. Placed on window and subject without reading the whole volume; role

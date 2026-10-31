@@ -44,6 +44,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {start: 1599, end: 1599, source: "title page, file line 124: \"Celebrated in the Year of our Lord 1599\" (the synod; Geddes's English translation is of 1694)", formation_confidence: Documented}
   note: >-
     Placed on window and place without a close read of the relevant part. The synod was run by the Jesuit-advised
     archbishop of Goa; the Society's part is in Hough and Whitehouse as well.
@@ -68,6 +70,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {start: 1693, end: 1694, source: "the licence dated \"Feb. 12, 1693\" (file lines 95-97) and the imprint \"Prince's-Arms ... 1694\" (file line 142)", formation_confidence: Documented}
   note: >-
     Anglican polemic against Jesuit and Roman method in Malabar; second-hand for the Society, read as
     an outside witness.

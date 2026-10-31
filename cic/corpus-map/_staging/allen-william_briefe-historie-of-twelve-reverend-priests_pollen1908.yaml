@@ -25,6 +25,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: eng
+    date: {start: 1582, end: 1582, source: "Pollen's introduction, file lines 147-148 and 186-188: Allen's letters of 7 July and 3 September 1582 on writing and sending the book ('I now send you the complete book about the Martyrs', 3 September 1582)", formation_confidence: Documented}
     note: >
       The first account of Campion's death, by the secular priest who ran the seminary and
       had sent him: an ally's account from outside the Society, not the Society's own

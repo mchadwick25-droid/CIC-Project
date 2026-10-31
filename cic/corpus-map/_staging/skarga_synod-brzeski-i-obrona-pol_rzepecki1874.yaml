@@ -24,5 +24,7 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: pol
+  date: {formation_confidence: unknown, checked: "Rzepecki's preface (signed 5 March 1874, file lines 66-69) dates the 1874 edition, not the 1596-1597 text; the file does not date the text itself in the lines read"}
   note: A Jesuit's defence of a union the Society helped to make, mirroring the provisional Society of
     Jesus row already on Skarga's 1577 treatise in RIB vol. 7. The Jesuit thread decides.

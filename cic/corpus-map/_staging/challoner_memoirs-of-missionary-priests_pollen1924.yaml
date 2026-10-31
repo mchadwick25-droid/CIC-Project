@@ -26,6 +26,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: provisional
+    language: eng
+    date: {start: 1741, end: 1742, source: "Pollen's introduction, file line 474: 'the first volume appeared in 1741, the second in 1742'", formation_confidence: Documented}
     note: >
       A secular vicar apostolic's martyrology that covers the Society's English martyrs
       (Campion, Southwell, Walpole, Garnet and others) from outside the Society. Placed

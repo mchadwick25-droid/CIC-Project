@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: fra-eng
+  date: {start: 1646, end: 1646, source: "the volume's one document (Relation of 1645 and 1646), signed Quebec 28 October 1646 and Huron country 1 May 1646 (file lines 513-514, 529-531), and the text's own 'present year 1646' (line 748); the title-page year at line 469 is garbled in the OCR", formation_confidence: Documented}
   note: The Society's missionary voice in New France, in the French the Jesuit superiors and missionaries
     wrote, printed by Thwaites with a facing English translation. Primary original evidence for the movement
     once a quotation is checked against the page image. The English pages are a translation and serve

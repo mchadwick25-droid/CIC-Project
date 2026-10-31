@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: ita-spa-lat
+  date: {start: 1566, end: 1577, source: "title page of Tomus Tertius, file line 75: \"(1566-1577)\"", formation_confidence: Documented}
   note: 'Nadal''s own letters, 1566-1577, in the languages written, from the years of his visitations
     of the Society. It carries Nadal''s voice on from the vendored Tomus I, which stops in 1562. Primary
     original evidence for the movement, quotable once each wording is checked against the page image:

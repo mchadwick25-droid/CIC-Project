@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header and the opening text; the 1622 English printing is not the date the Latin Summa was composed, and the file does not state that date"}
     note: >
       Peter Canisius's own catechism, in a 1622 English translation
       (translator not named in this edition) - the first primary source
