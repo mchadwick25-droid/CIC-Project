@@ -61,3 +61,19 @@ Two readers sorted the 43. Both gave 8 forced by the quote rule and 18 other. Th
 - The fit-trap group has 6 questions, too few to read.
 - No full reader pass and no verifier or third read, by Mark's pacing ruling (Decision-Log entry 41).
 - The production fit judge is not wired in (metered); the fit-step drops above are reported, not applied.
+
+## The app check, three answers
+
+The real frontend against the real engine API, with the recorded pass-2 model replies standing in for the model (no model call; the stand-in server lives outside the repository). Three answers on lpc: q035, q040, q044. On each, the quote carries a mark after it; hovering shows a card naming the source (for q040: "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom, To Demetrianus"); clicking opens a panel with the quote, the source work and its locus. The `still_works` column is filled for those three rows.
+
+Seen and not changed: the click-through panel for a quote is titled "Where this story comes from"; its sources are shown as plain text paths (file and lines), not links; two of the three answers logged a React duplicate-key console warning; no frontend shows `leadin_support`. The engine does put it on the quote's element in the API response (checked on q035: a lead-in whose details are supported carries it; one with an unsupported detail is replaced by "In today's English, X says:").
+
+## Reading to the acceptance bar, 30 answers
+
+One Opus reader, 30 pass-2 answers drawn at random (seed 20261031; sealed 8, other 20, fit traps 2), reading each against its cited records and against the world's shelf. The bar is Mark's: no serious fabrication, no claim a scholar would call wrong or unsupported by the shelf; minor wording drift is acceptable.
+
+- Serious 2, acceptable 28. No invented fact, quotation or speaker in any of the 30.
+- Both serious findings are statements of absence that the shelf contradicts. q065: "no text a woman wrote survives from our two cities" drops the record's limit to the world's own years (246 to 430); the Passion of Perpetua (Carthage, 203), on the shelf, says she wrote her own account. q084: "We have no sermon of our own on those opening lines to give you" is wrong: Augustine's Tractate I on John, on the shelf, is a sermon on John 1:1 to 5.
+- One acceptable answer carries the same kind of claim, q042: "What we cannot give you is the words of the creed as said at Hippo or Carthage", although the shelf holds creed wording (Cyprian quotes Carthage's baptismal question; an Augustinian sermon on the creed). Left acceptable because it is worded as a limit and the sermon's authorship is doubtful.
+- One reader, 30 answers: the rate is wide (2 of 30 is about 7 percent; the 95 percent interval is roughly 1 to 22 percent). It is a reading, not a measurement.
+

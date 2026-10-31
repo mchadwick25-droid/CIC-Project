@@ -72,7 +72,7 @@ Ranked by mentions of Tertullian, Minucius Felix, Arnobius, Lactantius or Commod
 **Source:** `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` ("Neighbour re-confirmation"); Doc_01 §7.
 **Status:** Open. Owner: the three neighbour worlds' own threads.
 
-Doc_01 names three built neighbours: Post-Apostolic House-Church Christianity (`pahc`), Latin Pastoral-Congregational Christianity (`lpc`) and Imperial-Juridical Christianity (`ijc`). Each is asked to re-confirm its shared boundary from its own side. The request is logged in each neighbour's `Open_Gaps_Tracking.md`: `pahc` OG-44, `lpc` OG-127 and `ijc` entry 48, all dated 2026-10-29.
+Doc_01 names three built neighbours: Post-Apostolic House-Church Christianity (`pahc`), Latin Pastoral-Congregational Christianity (`lpc`) and Imperial-Juridical Christianity (`ijc`). Each is asked to re-confirm its shared boundary from its own side. The request is logged in each neighbour's `Open_Gaps_Tracking.md`: `pahc` OG-44, `lpc` OG-128 and `ijc` entry 48, all dated 2026-10-29.
 
 ## OG-11 — Tertullian's *On Modesty* chapter XXII is cited by LPC as comparandum evidence (2026-10-29)
 

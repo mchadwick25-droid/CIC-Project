@@ -10,6 +10,7 @@ import pytest
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m4 import evidence, grounding_net, turn_prep
 from engine.m4.tests import live11_replay
+from engine.m4.quote_placement import REPAIR_LEAD_IN_UNNAMED
 from engine.m5.routing import Directive
 
 _MARKER = re.compile(r"\[\[\s*quote\s*:\s*([a-z0-9_.-]+)\s*\]\]")
@@ -83,7 +84,7 @@ def _repaired_for_the_name(run):
     out = []
     for turn, result in live11_replay.run_all(run):
         shape = result["first_net"]["reply_shape"]
-        for repair in shape["repaired"]:
+        for repair in (r for r in shape["repaired"] if r["why"] == REPAIR_LEAD_IN_UNNAMED):
             found = _MARKER.search(repair["draft"])
             out.append((turn["world"], turn["q"], found.group(1), found.group(1) in shape["placed"]))
     return out
