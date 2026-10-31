@@ -48,6 +48,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
+from engine.m4.absence_rule import check_absence
 from engine.m4.output_check import REASON_HORIZON, check_horizon, ungrounded_horizon_mentions
 from engine.m4.leadin_support import shelf_files
 from engine.m4.quote_placement import PlacementContext, place_quotes
@@ -403,6 +404,10 @@ def apply_net(
             grounds = [grounding_net._groundable_text(repository_records[t]) for t in entry["tags"] if t in repository_records]
             if ungrounded_horizon_mentions(entry["sentence"], window_end, grounds):
                 entry.update(verdict="withhold", why=REASON_HORIZON)
+                going.append(entry)
+                continue
+            if why := check_absence(entry["sentence"], [repository_records[t] for t in entry["tags"] if t in repository_records]):
+                entry.update(verdict="withhold", why=why)
                 going.append(entry)
         if not going:
             break
