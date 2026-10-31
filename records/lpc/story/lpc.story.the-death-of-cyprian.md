@@ -96,5 +96,57 @@ absent_detail: 'What cannot be told is what any one person in the crowd made of 
 modern_contrast: A modern listener asking "did that really happen?" deserves three things at once. Cyprian
   was executed under Valerian and Gallienus on 14 September 258. Two early texts agree on the core of
   how it happened. And they disagree on one detail, who tied the cloths over his eyes.
+heart: Our great bishop Cyprian was executed on 14 September 258, and his people kept watch and cried out to die with him. Two early texts tell his death; they agree on the core and differ on who tied the cloths over his eyes.
+events:
+- line: Cyprian was executed on 14 September 258.
+  rests_on: Our great bishop Cyprian was executed on 14 September 258.
+  essential: true
+- line: 'Two early texts tell it: a saint''s life by his deacon Pontius, and the Acta, a Christian compilation built around the records of his hearings.'
+  rests_on: One is a saint's life by his deacon Pontius.
+  essential: true
+- line: On his last night he was held in an officer's house, and the whole people kept watch at the door.
+  rests_on: Meanwhile the whole people kept watch before the officer's door,
+  essential: true
+- line: The sentence called him a standard-bearer of the sect and an enemy of the gods; in the Acta he answered with thanks to God.
+  rests_on: Only the Acta gives his answer
+  essential: true
+- line: In the Acta the brothers cried out to be beheaded with him; Pontius calls the people blessed for suffering with their bishop.
+  rests_on: Let us be beheaded with him too.
+  essential: true
+- line: In the Acta, in the field of Sextus he took off his cloak, knelt in prayer, and had twenty-five gold pieces given to the executioner.
+  rests_on: He told his people to give the executioner twenty-five gold pieces.
+  essential: false
+- line: 'The texts differ on the cloth over his eyes: Pontius says he bound them himself; the Acta says two clergy named Julianus tied them.'
+  rests_on: The two texts differ on the cloth over his eyes.
+  essential: true
+- line: Pontius tells of people in the trees, as with Zacchaeus, and of the executioner's trembling hand strengthened from above.
+  rests_on: Some things only Pontius tells.
+  essential: false
+- line: So the blessed Cyprian suffered martyrdom.
+  rests_on: So the blessed Cyprian suffered martyrdom.
+  essential: true
+telling_short: 'Our great bishop Cyprian was executed on 14 September 258. His deacon Pontius told it in a saint''s life. The Acta, a Christian compilation built around his hearings, tells it too.
+
+
+  On his last night, "the whole people kept watch before the officer''s door," Pontius writes. In the Acta, sentenced as an enemy of the gods, Cyprian answered, "Thanks be to God." The brothers cried, "Let us be beheaded with him too."
+
+
+  The texts differ on the cloth over his eyes. Pontius says he bound them himself. In the Acta, two clergy, both named Julianus, tied them. So the blessed Cyprian suffered martyrdom.'
+telling_medium: 'Our great bishop Cyprian was executed on 14 September 258. His deacon Pontius told it in a saint''s life. The Acta, a Christian compilation built around his hearings, tells it too.
+
+
+  On his last night, "the whole people kept watch before the officer''s door," Pontius writes.
+
+
+  The sentence called Cyprian a standard-bearer of the sect and an enemy of the gods. In the Acta, Cyprian answered, "Thanks be to God." The brothers cried, "Let us be beheaded with him too." Pontius calls the people blessed for suffering with their bishop.
+
+
+  In the field of Sextus, the Acta says, Cyprian took off his cloak and knelt in prayer. He told his people to give the executioner twenty-five gold pieces.
+
+
+  The texts differ on the cloth over his eyes. Pontius says he bound them himself. In the Acta, two clergy, both named Julianus, tied them.
+
+
+  Pontius adds that people climbed into the trees to see, as with Zacchaeus. In his telling, the executioner''s fingers trembled until the hour of glory strengthened his hand from above. So, in the Acta, the blessed Cyprian suffered martyrdom.'
 ---
 Derived from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into first-person register. Quotations from Pontius are in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28160-28303, and the English renderings of the Acta are this build's own.

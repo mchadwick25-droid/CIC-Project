@@ -87,5 +87,39 @@ absent_detail: The specific claim that Cyprian was a neophyte rests on Pontius a
 modern_contrast: A modern listener may hear 'the people chose him' as describing a vote, with a candidacy
   and a count. We had none of that. What we had was a crowd whose favour we treated as evidence of God's
   own judgment, and a man who did not want the office in the first place.
+heart: Our deacon Pontius says God's judgment and the people's favour made Cyprian bishop, though he was newly baptized. We kept it because the people's favour was how God's judgment became visible to us.
+events:
+- line: After Cyprian's death, Pontius passed over much and named one fact as proof enough of his good works.
+  rests_on: settled on one fact as enough
+  essential: false
+- line: By God's judgment and the people's favour, Cyprian was chosen bishop.
+  rests_on: by God's judgment and the people's favour, he was chosen bishop
+  essential: true
+- line: He was still newly baptized, a beginner.
+  rests_on: while still a neophyte
+  essential: true
+- line: Cyprian stepped back from the office; the people pressed him.
+  rests_on: 'the reviewed telling only: ''he humbly stepped back''; ''A crowd of the brothers besieged the doors of his house'''
+  essential: false
+- line: For Pontius, the people's favour was how God's judgment became visible.
+  rests_on: The second is how the first became visible to us
+  essential: true
+- line: Years later, against rivals, Cyprian called it our suffrage joined to God's judgment.
+  rests_on: our own suffrage, joined to God's own judgment
+  essential: true
+telling_short: Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner." For Pontius, the people's favour was how God's judgment became visible to us. Years later, answering rivals, Cyprian called it our suffrage, the support of the people, joined to God's judgment.
+telling_medium: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said one fact was proof enough of Cyprian''s good works.
+
+
+  "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner."
+
+
+  Cyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.
+
+
+  For Pontius, the people''s favour was how God''s judgment became visible to us.
+
+
+  Years later, rivals who had never accepted him renewed their attack. Cyprian wrote to us that they still carried "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
 ---
 Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820 (the word 'neophyte') and the lines through 27823. The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.

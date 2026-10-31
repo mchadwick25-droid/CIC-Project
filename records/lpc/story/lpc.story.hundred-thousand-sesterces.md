@@ -82,5 +82,48 @@ modern_contrast: A modern listener may reach at once for a currency conversion -
   Our own record licenses none. What it tells plainly is that it was collected from one congregation's
   clergy and people for the ransom of captive brethren, and that we do not know what proportion of anything
   it represented.
+heart: Cyprian told eight bishops in Numidia that Christ is to be seen in our captive brothers, and our church sent one hundred thousand sesterces to ransom them. His argument for the gift was not about charity but about who the captives were.
+events:
+- line: Our brothers and sisters were carried off and held captive among barbarians.
+  rests_on: had been carried off and were held captive among barbarians
+  essential: true
+- line: Eight bishops in Numidia wrote to Cyprian about it.
+  rests_on: Eight bishops in Numidia wrote to Cyprian about it.
+  essential: true
+- line: He read their letter with grief and tears.
+  rests_on: not without tears, dearest brothers, I have read your letter.
+  essential: false
+- line: Quoting Paul, he said that Christ is to be seen in our captive brothers.
+  rests_on: So Christ is to be seen in our captive brothers.
+  essential: true
+- line: 'He set us a test: would each do for another what he would want done for himself?'
+  rests_on: Will each of us do for another what he would want done for himself
+  essential: false
+- line: We sent one hundred thousand sesterces, from the gifts of our clergy and people.
+  rests_on: So we have sent you a sum of one hundred thousand sesterces.
+  essential: true
+- line: He thanked the bishops for offering us fruitful fields in which to sow the seeds of our hope.
+  rests_on: fruitful fields in which to sow the seeds of our hope.
+  essential: false
+telling_short: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it.
+
+
+  His argument was not about charity but about who the captives were. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion. "So Christ is to be seen in our captive brothers."
+
+
+  Our clergy and people gave the money. "So we have sent you a sum of one hundred thousand sesterces."'
+telling_medium: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
+
+
+  His reply opens without composure. "With great grief of mind, and not without tears, dearest brothers, I have read your letter."
+
+
+  His argument was not about charity but about who the captives were. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion. "So Christ is to be seen in our captive brothers."
+
+
+  He named the test this set for us. "Will each of us do for another what he would want done for himself, if he were held captive among barbarians?"
+
+
+  "So we have sent you a sum of one hundred thousand sesterces." It came from the gifts of our clergy and people. He thanked the bishops for offering us "fruitful fields in which to sow the seeds of our hope."'
 ---
 Recast into first-person register from Cyprian's own Epistle LIX. "Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.

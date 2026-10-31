@@ -76,5 +76,48 @@ absent_detail: Whether the persecutors themselves were among those helped is not
 modern_contrast: 'A modern listener may hear ''love your enemies'' as a maxim available anywhere. What
   is not available everywhere is the specific setting: said to a frightened congregation, in a city where
   the dead were left where they fell, by a bishop who would himself be executed a few years later.'
+heart: Pontius says that when plague struck and people put out their own, Cyprian taught us to love even our enemies. Then good was done to all people, not only to our own.
+events:
+- line: A dreadful plague broke out and carried off countless people every day.
+  rests_on: Afterwards a dreadful plague broke out,
+  essential: true
+- line: People fled the contagion and put out their own; corpses lay all over the city.
+  rests_on: They wickedly put out their own people.
+  essential: true
+- line: 'Our bishop gathered us and preached: caring only for our own is nothing remarkable.'
+  rests_on: There was nothing remarkable, he said, in caring only for our own.
+  essential: true
+- line: We must love even our enemies and pray for our persecutors, as God gives sun and rain beyond His own people.
+  rests_on: We must love even our enemies, and pray for those who persecute us.
+  essential: true
+- line: Cyprian said it is right for us to live up to our birth.
+  rests_on: It is right for us,
+  essential: false
+- line: Good was done to all people, not only to the household of faith; the poor gave their labour.
+  rests_on: good was done to all people, not only to those of the household of faith.
+  essential: true
+- line: Pontius says more was done here than Tobias did, who buried only his own race.
+  rests_on: More was done here.
+  essential: false
+telling_short: 'Our deacon Pontius was there. He tells it in his life of our bishop, written in praise of the man who preached.
+
+
+  "Afterwards a dreadful plague broke out," he wrote. "Everyone shuddered and fled, and shunned the contagion. They wickedly put out their own people."
+
+
+  Our bishop Cyprian gathered us in one place and preached. There was nothing remarkable, he said, in caring only for our own. We must love even our enemies, and pray for those who persecute us.
+
+
+  Then, Pontius says, good was done to all people, not only to those of the household of faith.'
+telling_medium: 'Our deacon Pontius was there. He tells it in his life of our bishop, written in praise of the man who preached.
+
+
+  "Afterwards a dreadful plague broke out," he wrote. It carried off countless people every day. "Everyone shuddered and fled, and shunned the contagion. They wickedly put out their own people." All over the city lay "no longer bodies but the corpses of many."
+
+
+  Our bishop gathered us and preached. There was nothing remarkable, he said, in caring only for our own. We must love even our enemies, and pray for those who persecute us. God makes His sun rise and sends rain to feed the seed, and not only for His own people. "It is right for us," Cyprian said, "to live up to our birth."
+
+
+  Then, Pontius says, good was done to all people, not only to those of the household of faith. Many who were too poor to give money gave their own labour instead. Tobias gathered the bodies of his own race only. More was done here.'
 ---
 Derived from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into first-person register. The epidemic description and Cyprian's reported address are in the Life and Passion of Cyprian by Pontius, in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, several thousand lines after the passage lpcstory001 uses.
