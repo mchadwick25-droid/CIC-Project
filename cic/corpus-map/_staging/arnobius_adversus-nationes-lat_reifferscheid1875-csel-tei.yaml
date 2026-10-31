@@ -21,4 +21,14 @@ assignments:
       Representative speaks is rendered from it, with the vendored English as a cross-check. CC
       BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English
       twin's role and confidence exactly.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0034.stoa001.opp-lat1
+    - 'textpart subtype=book: n=1..7 (7 divisions)'
+    - 'textpart subtype=section: n=1..78 (347 divisions)'
+    language: lat
+    date:
+      start: 295
+      end: 310
+      source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III (between 284 and 311); Finer order (books I-II first, later books after the edicts of 303) is Dominant Modern Reconstruction.
+      formation_confidence: Widely Accepted
 

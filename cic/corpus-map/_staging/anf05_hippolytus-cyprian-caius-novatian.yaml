@@ -449,6 +449,14 @@ assignments:
     - squarely the genre this entry exists to hold, not merely an adjacent congregational text.
 
     '
+  locus_ids:
+  - div3:iv.v.v
+  language: eng
+  date:
+    start: 251
+    end: 253
+    source: Harnack 1904 (end of 251 or beginning of 252, 'mit einiger Wahrscheinlichkeit'); Monceaux 1901 II (252 or 253)
+    formation_confidence: Dominant Modern Reconstruction
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint
   work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
@@ -474,13 +482,13 @@ assignments:
   - latin-apologists
   role: transmission
   confidence: provisional
-  note: 'Cross-linked from a Source Readiness Dossier finding. Filed as transmission,
-    not tradition, given the same disputed authorship already noted above - but that dependency
-    cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix, both
-    already primary authors here, which makes it a plausible transmission-tier link even while
-    its own authorship stays contested.
-
-    '
+  note: 'Cross-linked from a Source Readiness Dossier finding. Filed as transmission, not tradition, given the same disputed authorship already noted above - but that dependency cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix, both already primary authors here, which makes it a plausible transmission-tier link even while its own authorship stays contested. Voices recorded for this work: felix (chs. 1-9, largely word for word (Harnack 1904, printed pp. 336-337)); tertullian (chs. 10-15, Apology 21-23 copied with slight changes (Harnack 1904, printed pp. 336-337)); unknown (the compiler; ascribed to Cyprian in the manuscript tradition, authorship Contested).'
+  locus_ids:
+  - div3:iv.v.vi
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: after Tertullian''s Apology and the Octavius; before its insertion into the Cyprianic collection, at the latest early in the fourth century; source: Harnack 1904, printed pp. 336-337, reporting Soden on the manuscript tradition; Authorship is Contested: Harnack (1904) argues against Cyprian; Monceaux and Bardenhewer defend him, as Harnack reports. If Cyprian wrote it, it falls in his lifetime (to 258).; first recorded confidence: Contested'
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-mortality-de-mortalitate
   work: On the Mortality (De Mortalitate)
   author: cyprian

@@ -36,16 +36,12 @@ assignments:
       - latin-apologists
     role: transmission
     confidence: provisional
-    note: >
-      Latin original of the work the English twin row(s) in
-      anf05_hippolytus-cyprian-caius-novatian.xml hold: the treatise on the vanity of idols. PRIMARY
-      ORIGINAL per cic/texts/INTAKE.md: Hartel's critical text (Pars I, Vienna: Gerold, 1868), in
-      the University of Leipzig's machine-corrected TEI (the project's OCR correction of the printed
-      edition, not a fresh human edition). Ready to quote once each quote is verified verbatim
-      against this file (INTAKE section 6); the English a Representative speaks is rendered from it.
-      Verify quotes against the printed apparatus in the scan
-      cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 598-1118), which carries the
-      manuscript sigla and the variant readings in place on the printed page; this file keeps the
-      footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel
-      with any quotation. Mirrors the English twin's roles and confidence exactly.
+    note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml hold: the treatise on the vanity of idols. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected TEI (the project''s OCR correction of the printed edition, not a fresh human edition). Ready to quote once each quote is verified verbatim against this file (INTAKE section 6); the English a Representative speaks is rendered from it. Verify quotes against the printed apparatus in the scan cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt (scan lines 598-1118), which carries the manuscript sigla and the variant readings in place on the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike travel with any quotation. Mirrors the English twin''s roles and confidence exactly. Voices recorded for this work: felix (chs. 1-9, largely word for word (Harnack 1904, printed pp. 336-337)); tertullian (chs. 10-15, Apology 21-23 copied with slight changes (Harnack 1904, printed pp. 336-337)); unknown (the compiler; ascribed to Cyprian in the manuscript tradition, authorship Contested).'
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0104a.stoa006.opp-lat1
+    - 'textpart subtype=section: n=1..15 (15 divisions)'
+    language: lat
+    date:
+      formation_confidence: unknown
+      checked: 'date window as first recorded: after Tertullian''s Apology and the Octavius; before its insertion into the Cyprianic collection, at the latest early in the fourth century; source: Harnack 1904, printed pp. 336-337, reporting Soden on the manuscript tradition; Authorship is Contested: Harnack (1904) argues against Cyprian; Monceaux and Bardenhewer defend him, as Harnack reports. If Cyprian wrote it, it falls in his lifetime (to 258).; first recorded confidence: Contested'
 

@@ -495,3 +495,90 @@ assignments:
   note: >
     The one 5th-century notice of a British bishop as an author; provisional, before the
     entry's window.
+
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-liii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the presbyter' (file line 40489)
+  author: jerome
+  locus: div3 v.iii.lv, Chapter LIII
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Tertullian: presbyter of the church until middle life, then a lapse to the doctrine of Montanus; it names four works written against the church (On modesty, On persecution, On fasts, On monogamy). The file''s gloss ''Born about 160, christian 195, apology 198, died about 245'' is the NPNF editor''s, not Jerome''s. Context, not tradition: an outside cataloguer writing about 392.'
+  locus_ids:
+  - div3:v.iii.lv (Chapter LIII)
+  language: eng
+  date: &id001
+    start: 392
+    end: 392
+    source: 'npnf203_theodoret-jerome-gennadius-rufinus.xml, prologue of the Lives of Illustrious Men (div3 v.iii.i); window as first recorded: the work states its end point as the fourteenth year of the Emperor Theodosius (file line 38785); the NPNF note there prints ''a.d. 492'', which reads as a misprint for 392 since Theodosius reigned from 379; The date is the work''s own terminal statement. The year number 392 is the reading of that statement.'
+    formation_confidence: Documented
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lviii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LVIII 'Minucius Felix' (file line 40642)
+  author: jerome
+  locus: div3 v.iii.lx, Chapter LVIII
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Minucius Felix: a distinguished advocate of Rome, author of the Octavius, to whom another work, On fate, is also ascribed; Jerome adds that Lactantius mentions him. The file''s gloss ''Flourished 196?'' is the NPNF editor''s. Context, not tradition.'
+  locus_ids:
+  - div3:v.iii.lx (Chapter LVIII)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxix
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXIX 'Arnobius the rhetorician' (file line 41017)
+  author: jerome
+  locus: div3 v.iii.lxxxi, Chapter LXXIX
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Arnobius: a teacher of rhetoric at Sicca in Africa under Diocletian, who wrote volumes Against the nations. It says nothing of a dream, a bishop or a pledge; those belong to Jerome''s Chronicle, which is not vendored. Context, not tradition.'
+  locus_ids:
+  - div3:v.iii.lxxxi (Chapter LXXIX)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxx
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXX 'Firmianus, surnamed Lactantius' (file line 41028)
+  author: jerome
+  locus: div3 v.iii.lxxxii, Chapter LXXX
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Jerome''s notice of Lactantius: called a disciple of Arnobius; taught rhetoric at Nicomedia; his works are listed, the Divine Institutes among them; in extreme old age tutor to Crispus in Gaul. It says nothing of chiliasm or of the Holy Spirit. Context, not tradition.'
+  locus_ids:
+  - div3:v.iii.lxxxii (Chapter LXXX)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-xviii
+  work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. XVIII 'Papias the bishop' (file line 39858)
+  author: jerome
+  locus: div3 v.iii.xx, Chapter XVIII
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: Jerome's notice of Papias. Its last sentences say that Irenaeus, Apollinaris and others hold the millennial reign, and that Tertullian (in On the hope of the faithful), Victorinus of Petau and Lactantius follow the view. Read for the chiliasm of Tertullian and Lactantius only. Context, not tradition.
+  locus_ids:
+  - div3:v.iii.xx (Chapter XVIII)
+  language: eng
+  date: *id001
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-xv
+  work: Gennadius, Lives of Illustrious Men (continuation), ch. XV 'Commodianus' (file line 42419)
+  author: gennadius
+  locus: div3 v.iv.xvi, Chapter XV
+  atlas_ids:
+  - latin-apologists
+  role: context
+  confidence: assigned
+  note: 'Gennadius''s notice of Commodian: a convert from secular literature who wrote, in rough verse, Against the pagans. It gives no date. The file''s gloss ''Flourished about 270'' with the remark that opinions differ from 250 to nearly a century later is the NPNF editor''s. Context, not tradition.'
+  locus_ids:
+  - div3:v.iv.xvi (Chapter XV)
+  language: eng
+  date:
+    start: 477
+    end: 494
+    source: 'harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt (file line 24439); window as first recorded: composed after the death of Jerome (the Gennadius continuation); Harnack 1904 says Gennadius wrote certainly between 477 and 494'
+    formation_confidence: Widely Accepted

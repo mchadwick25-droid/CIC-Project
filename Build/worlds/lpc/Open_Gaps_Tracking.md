@@ -2506,3 +2506,9 @@ Logged 2026-10-31.
 - **No waiver.** The `ACCEPTED_OPEN` registers (`engine/m1/cross_world.py`, `engine/m9/enforce.py`) waive findings a run emits. This is a check that does not run, so no run emits a finding for it and no waiver key exists; an entry would be a stale waiver and fail the run. It is tracked here instead.
 - **Reopen when** a Step document quotes a non-tradition file as the tradition's voice, or another world's run of the widened rule finds a real case. The experiment's one-line change is `mixed = [r for r in file_rows if r.get("voice_of") or r.get("role") not in (None, "", "tradition")]`.
 - **Owner.** Project lead, through the coordination thread; the Library thread owns `engine/m10/quotes.py`.
+
+### OG-128. Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01 (2026-10-29)
+
+Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Cyprian's *Address to Demetrianus* and *On the Vanity of Idols* (ascribed to Cyprian), which both shelves hold. This world's records also cite Tertullian's *On Modesty* chapter XXII as comparandum evidence (`lpc.source.tertullian-de-pudicitia`, used by `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace`), and the work is on the Latin Apologists' shelf. Whether the two worlds hold the shared works at the same weight is a cross-world question. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+- **Open.** Owner: this world's thread.
