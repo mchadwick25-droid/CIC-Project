@@ -2448,3 +2448,18 @@ Logged 2026-10-30.
 - **Open.** The love quote also carries a matching `claim_guards` line; this record does not. Not added; the reviewer called it a separate choice.
 - **Open.** lpc's registered `story_placement` flag is off, so the story door does not place a story in the live path. The shadow run turns it on in memory. Turning it on for lpc in production is a change for the project lead.
 - **Owner.** Project lead, through the coordination thread.
+
+### OG-121. The net cited a placed quote's lead-in tags: fixed (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Closed.** A sentence code composed around a placed quote now cites that quote's record id alone. Before, an unverified tag in the lead-in reached the citation list. Fixed on Mark's own ask (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 36), pull request 1375.
+- **Open.** Nothing stops a future record id from starting with `ctx.`, the prefix the fit step reserves for context blocks. A loader or id check refusing the prefix would close it.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-122. q086 ships an empty answer in the early pass (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open.** In the early pass on the 106 questions (`Build/Ministry/Features/Answering-From-Sources/S3-Test100/Early_Pass_Report.md`), the bare message "just answer yes or no" ships an empty answer, with no sentences and no removal recorded, although the voice's draft was a plain decline. It reproduces on a clean re-run of that question. Cause not found.
+- **Owner.** Project lead, through the coordination thread.
