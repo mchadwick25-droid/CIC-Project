@@ -648,3 +648,7 @@ Not done, registered as OG-124: the sentences left in build-note fields and the 
 ## 38. Early pass and judge findings: what the report says about the gates (2026-10-31)
 
 Coordination-level, AI-reviewed (not Mark's): `S3-Test100/Early_Pass_Report.md` records that 100 of 462 gate-kept sentences were labelled not supported by two of three reads, and 28 of 41 gate-withheld sentences supported. Whether those 100 are the Representative's own framing lines or real overreach has not been measured; that is the next thing to read before any gate is retuned.
+
+## 39. Correction to entry 38: the 100 was overstated (2026-10-31)
+
+Coordination-level, AI-reviewed (not Mark's): entry 38 and the early-pass report gave 100 of 462 gate-kept sentences as not supported. The judges' evidence pack omitted fields the voice is shown. After the pack fix (PR #1383) and a re-judge of all 503 sentences, the figure is 58 of 462; 31 of the 41 withheld sentences are labelled supported. The held-out judge numbers were measured with the old pack and do not carry over to world-core and story records until those gold items are re-labelled (OG-126). The 58 are the thing to read for kind before any gate is retuned.
