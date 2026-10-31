@@ -78,22 +78,20 @@ def ruled_names(root: Path = REPO_ROOT) -> set[str]:
 
 
 def ruled_names_for(code: str, root: Path = REPO_ROOT) -> set[str]:
-    """The names a "Cap ruling" entry lists, for the entries that mention the
-    world code as a word (a path such as `Build/worlds/aec/...` counts)."""
+    """The names listed by the "Cap ruling" entries whose heading names this
+    world straight after "Cap ruling:" (for example "Cap ruling: aec Doc_01")."""
     log = root / DECISION_LOG
     if not log.is_file():
         return set()
     text = log.read_text(encoding="utf-8")
     marks = list(_SECTION.finditer(text))
-    word = re.compile(rf"(?<![A-Za-z0-9_-]){re.escape(code)}(?![A-Za-z0-9_-])", re.IGNORECASE)
+    heading = re.compile(rf"cap ruling:\s*{re.escape(code)}(?![A-Za-z0-9_-])", re.IGNORECASE)
     names: set[str] = set()
     for i, m in enumerate(marks):
-        if "cap ruling" not in m.group(1).lower():
+        if not heading.search(m.group(1)):
             continue
         end = marks[i + 1].start() if i + 1 < len(marks) else len(text)
-        body = m.group(0) + text[m.end():end]
-        if word.search(body):
-            names.update(_LOGGED_FILE.findall(body))
+        names.update(_LOGGED_FILE.findall(text[m.end():end]))
     return names
 
 
@@ -203,19 +201,22 @@ def _natural(path: Path) -> list:
 
 def latest_review(files: list[Path], root: Path = REPO_ROOT, code: str | None = None) -> tuple[str, list[Path]]:
     """(description, files) of the latest review. A review that a "Cap ruling"
-    entry for this world names is the latest when it was ordered after the last
-    numbered round: it carries no round number, or one at least the highest
-    among the other files. Several such files are taken in natural name order.
-    Otherwise: the files of the highest round number when any name carries one,
-    else the last file by name."""
+    entry headed for this world names, and that lies in the current cycle, is
+    the latest when it carries no round number or a round number at least the
+    highest among the other files; the unruled files of its own round are read
+    with it. Several such files are taken in natural name order. Otherwise: the
+    files of the highest round number when any name carries one, else the last
+    file by name."""
     numbered = {p: round_number(p) for p in files if round_number(p) is not None}
     ruled = ruled_names_for(code, root) if code else set()
-    ruled_files = [p for p in files if p.name in ruled]
+    current = set(cycle_files(files, root))
+    ruled_files = [p for p in files if p.name in ruled and p in current]
     other_top = max((n for p, n in numbered.items() if p not in ruled_files), default=0)
     after = [p for p in ruled_files if p not in numbered or numbered[p] >= other_top]
     if after:
         pick = max(after, key=lambda p: (p not in numbered, numbered.get(p, 0), _natural(p)))
-        return f"ruled review {pick.name}", [pick]
+        same_round = [p for p in files if p in numbered and numbered.get(p) == numbered.get(pick) and p != pick]
+        return f"ruled review {pick.name}", [pick, *same_round]
     if numbered:
         top = max(numbered.values())
         return f"round {top}", [p for p in files if numbered.get(p) == top]

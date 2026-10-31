@@ -259,6 +259,19 @@ def test_a_ruling_for_another_world_does_not_override_this_worlds_rounds(tmp_pat
     assert _latest(root) == "round 4"
 
 
+def test_a_word_in_another_worlds_ruling_does_not_make_a_file_ruled(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3)] + ["Doc_05_CapRuling_Review.md"])
+    write(root, DECISION_LOG, "## 2026-10-01 - Cap ruling: rcg Doc_05\n\nFix both findings (w included), then `Doc_05_CapRuling_Review.md`.\n")
+    assert _latest(root) == "round 3"
+
+
+def test_the_unruled_files_of_the_ruled_round_are_read_with_it(tmp_path):
+    root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4)] + ["Doc_05_Recheck_Round4.md"])
+    _rule_for(root, "w", ["Doc_05_Review_Round4.md"])
+    names = [p.name for p in latest_review(review_files("w", 5, root), root, "w")[1]]
+    assert sorted(names) == ["Doc_05_Recheck_Round4.md", "Doc_05_Review_Round4.md"]
+
+
 def test_ruled_files_without_a_round_number_are_ordered_by_number_not_by_text(tmp_path):
     root = _world(tmp_path, ["Doc_05_Review_Round1.md", "Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
     _rule_for(root, "w", ["Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
