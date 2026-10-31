@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [chapter20]
+    language: fra
+    date: {start: 1905, end: 1905, source: "duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt: preface signed 'Rome, 22 novembre 1905.' (file line 225), followed by 'Avis sur la deuxième édition' (line 228): the second edition, made two months after the first went on sale, is 'exactement semblable à la première' bar three small changes (lines 233-234); the preface date is the date of the work, the 1907 title page is the third edition", formation_confidence: Documented}
     note: >
       Modern French history of the early church; the chapter named in the locus is the part
       that bears on this entry. Registry row 240.
