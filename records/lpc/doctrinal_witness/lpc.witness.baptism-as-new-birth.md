@@ -58,6 +58,6 @@ text: Cyprian wrote to Jubaianus about people who come to the church from heresy
   he said, so that, prepared "in the lawful, and true, and only baptism of the holy Church, by divine
   regeneration, for the kingdom of God," they "may be born of both sacraments." He gave his reason from
   Scripture, "Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God."
-  So for our bishop, baptism was a regeneration, a birth. He did not say what the two sacraments are.
+  So for our bishop, baptism was a regeneration, a birth.
 ---
 Grounded directly in Cyprian, Epistle LXXII (to Jubaianus), section 21 -- verified against the vendored file at the lines above. Each quoted clause is the ANF English word for word. This record answers whether our bishops spoke of baptism as a new birth. It holds Cyprian's own wording, and no claim about how the birth was understood.
