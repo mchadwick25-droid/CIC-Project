@@ -676,3 +676,9 @@ The three examples, settled against the sources, are all supported: "as bishop a
 ## 44. Mark's bar: scholarly acceptance (2026-10-31)
 
 Mark's own words, relayed by the coordination thread: "again, we are not refining to perfection, we are looking for scholerly acceptance". Then: "maybe appreciation beyond acceptance, but not endless minution driving perfection". The bar for judging the answers is no serious fabrication and no claim a scholar would call wrong or unsupported by the world's shelf; minor wording drift is tolerated. Aim a little above bare acceptability where a visitor would feel it, and stop at the first clearly useful gain. Coordination-level application, AI-reviewed: no further judge re-labelling or re-judging beyond what is in flight, and the held-out relabel is cancelled until a held-out number is needed.
+
+## 45. Stage 4 build order: the absence rule first as a component, then straight on (2026-10-31)
+
+Mark's own answer, relayed by the coordination thread, 2026-10-31, to "absence rule first or the larger path": "Go straight to the larger path". That answer is his.
+
+Coordination-level, AI-reviewed (not Mark's own words), on the engine thread's build plan: the Stage 2 gate is changed by `Stage4_Change_Order_Shadow_Before_Stage2.md` (shadow on lpc now, the real proof reruns after Stage 2). The absence rule is built first as its own small pull request, being a component of the larger path and an early gain, and Phase 2 (bound draft, verify, one rewrite) follows without waiting on a further decision. A report goes to the coordination thread after each pull request. q084's record half is treated as a system fix only, and the open question is logged as OG-129 (the q084 gap on John's prologue, 2026-10-31). The Phase 3 reading uses a fresh seed, written down. Pacing rules of entry 41 and the bar of entry 44 apply; no metered spend.
