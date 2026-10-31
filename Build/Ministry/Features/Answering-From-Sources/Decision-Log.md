@@ -554,3 +554,50 @@ Mark's own ruling, 2026-10-30, on the Library thread's escalation at the end of 
 - Third round: Benson and Knoll passed. Both Mesnage scans failed on recall: the same 16 printed entries were missing from each (among them Béja and Haïdra, filed under the entry before).
 - The pass: 16 known entries added to each scan, plus three sub-headings and Bains romains, 20 and 19 divisions in all. A reader who was not the fixer drew 40 index entries per scan with a fixed seed and found a division at every printed heading, read 20 unresolved index names per scan (none a missing entry) and scanned three windows per file for heading-shaped lines (no misses). Both scans are `sampled-ok`.
 - Residual risk, stated plainly: no scan rules out a heading that has no blank line before it, no full stop and a place out of alphabetical order. None turned up.
+
+## 28. The lpc 100-question test set frozen (2026-10-30)
+
+Mark, 2026-10-30, relayed by the coordination thread: "Mix is right"; freeze this mix. He did not ask to read the 26 new wordings.
+
+- The mix: 28 sealed canon probes (by probe id only; the wording stays sealed), 20 quote door, 14 story door, 8 thinness and honest limits, 6 after 430, 5 scholarly framing and claim pressure, 4 one verse, 4 challenging the voice, 4 real pilot wording, 7 cluster fill. Every cluster C1 to C16 has at least 3 questions, counted from the file.
+- The 26 new wordings (12 quote, 14 story) were checked by a fresh Opus reviewer against each target record's text. Round 1: 22 passed, 4 needed fixes (a Cyprian line that was Augustine's words about Cyprian; a doctor-and-sick-man line pointed at someone hurting, where the record is about failure put right; a wounded-shepherd line that went against the passage; an enemies example the record rules out). Each finding was checked against its record, then fixed. One round was enough; no fix needed a second.
+- Frozen file: `S3-Test100/lpc_100_questions.yaml`, sha256 `4a2b891cfabb0768942821ce8008dfcebe5cb01c5aa3741928d7e779ea51340f`, held in `S3-Test100/lpc_100_questions.sha256`. A change to it is a change order, named and reasoned.
+- Next, free of model spend: the shadow mode and the in-plan answer drafter.
+
+## 29. Stage 4 rulings: the rigor line, the shadow design, the deferred spend (2026-10-30)
+
+- Rigor line (proposal decision 1), Mark's own answer, 2026-10-30: in general answers the voice quotes and closely paraphrases only, in the author's name, with no inference from a passage that no reviewed record frames. Revisit when the measured judge agreement earns more.
+- Targets, already ruled 2026-10-29: recall on unsupported at least 0.95, precision at least 0.85.
+- Design to shadow first: citation-recall as the main judge, the verifier beside it for comparison only. This is a coordination-level ruling, reviewed by AI, and is not Mark's own; he may change it. Basis: held-out false alarms 3.3% against 9.1%, agreement with gold 0.85 against 0.73, and on the calibration half neither combination of the two beats the better single judge.
+- The production judge's spend (proposal decision 2a) and the production judge models are deferred. They are raised only if a paid step is absolutely necessary, by name and with a cap, under Mark's standing rule that spend questions are not put to him in advance.
+- The Stage 4 change order is drafted as an Artifact for Mark's approval by one choice box. Nothing is written into the feature directory until he approves it.
+
+## 30. Rigor line addition: context to understand, and fit to the question (2026-10-30)
+
+Mark, 2026-10-30, in his own words, relayed by the coordination thread: "you said quote or parapharse only, i am adding they can look at texts to get context of what the quote or story was trying to say not just the worlds quotes and stories in an answer have to not only have the right words but also the right application/contexts, so it does answer the right question".
+
+- The answer stays at quotation and close paraphrase. The voice may be shown the source text around a quote or story, as context that supports no sentence, to understand what it was saying; it is not limited to the world's own records.
+- A quote or story placed in an answer must fit the question: the right words and the right application. A fit check covers every placed quote and story and whether the answer addresses the question asked. The 100-question scoring sheet gets a "fit to the question" column.
+- The Stage 4 page carries the design (context blocks that cannot be bindings, the fit step, three-level transparency unchanged). No code is built.
+- Proposed, not applied: six fit-trap questions for the frozen 100-question set, as a change order. The frozen file and its seal are untouched until Mark approves.
+
+## 31. Stage 4 approved to proceed; six fit traps added (2026-10-30)
+
+Mark, 2026-10-30, by choice box, relayed by the coordination thread:
+
+1. Stage 4 change order (draft version 3): "Approve to proceed". Shadow only on lpc, free in-plan, no gate retired. It starts when Stage 2 lands on lpc. The order is filed as `Stage4_Change_Order.md`.
+2. Six fit traps: "Add the six". The lpc test set becomes 106 questions under a new seal. The original 100 and their seal (entry 28) stay as they are. The change order is filed as `S3-Test100/Change_Order_Fit_Traps.md`.
+
+Coordination-level, AI-reviewed (not Mark's own): the 20-pair calibration set for the fit step, with a bar of 19 of 20 caught before its verdicts count.
+
+A fresh Opus reviewer checked the six wordings against their records before the new seal: four passed, two were reworded (q101 moved to the past tense and third person, q105 narrowed to the church's own poor and widows). The new set `S3-Test100/lpc_106_questions.yaml` has sha256 `22fefa5581554c4dca1e1e2e2db7bf973dc2fe1f5ccb7c73c0a9c2be6b97c0c2`. The original 100 and their seal (entry 28) are untouched. Findings and fixes are in the change order file.
+
+## 32. Drafter helper, guard before the run, shadow-run findings (2026-10-30)
+
+Coordination-level, AI-reviewed (not Mark's own), relayed by the coordination thread:
+
+- A separate helper type for drafting, Read and Write only, in the same pattern as `judge-reader` (Mark approved that pattern): `.claude/agents/voice-drafter.md`. `judge-reader` keeps its labelling and judging role.
+- No allowance go-ahead is needed for the run: in-system work is not tracked or capped (Mark's standing rule). The run starts when the Library thread says Stage 2 is on lpc.
+- The surgeon's-knife quote record gets the not_for line "a warrant for striking a child or anyone today", before the run so the run uses final records (OG-119 closed by that change).
+- Found while building the run: the "story record not offered for placement" note on a test draft came from a made-up reader reply that did not match the question, not from the story door. With a matching reader reply the story is offered and placed. lpc's registered `story_placement` flag is off (only desert's is on), so the shadow run sets it on in memory. A story is placed whole as its `telling`; the short and medium lengths are not built into the placement code.
+- The current gates' verdicts for the judge steps come from the run's own net output through `engine/m3/test100_export.py`, in place of `engine/m3/gate_replay.py`.

@@ -2431,3 +2431,20 @@ Logged 2026-10-30.
 - **Open.** Other record types (figures, terms, honest limits, witnesses) were not scanned for the same pattern; an `absent_detail` or `honest_limit` is a deliberate answer to a direct question and stays.
 - **Owner.** Project lead, to say whether a scan of the other record types is wanted.
 
+
+### OG-119. The surgeon's-knife quote record has no "no warrant for striking anyone today" line (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Open.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` carries "if need be with scourges". Its `not_for` says the blows are not a church penalty, but, unlike `lpc.quote.love-and-do-what-thou-wilt`, it has no line against using the passage to excuse striking a child or anyone today. Found by the fresh reviewer of the six fit traps (`Build/Ministry/Features/Answering-From-Sources/S3-Test100/Change_Order_Fit_Traps.md`).
+- **Not done.** A record edit, which stales lpc's package and needs a re-pin, so it is not made quietly. Whether to add the line is a record decision.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-120. OG-119 closed: the surgeon's-knife quote record carries the no-warrant guard (2026-10-30).
+
+Logged 2026-10-30.
+
+- **Closed.** `lpc.quote.reprove-and-forgive-the-surgeons-knife` has the `not_for` line "a warrant for striking a child or anyone today", word for word the love quote's (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 32). A fresh Opus guard check and nothing-added check passed; lpc repinned to 2026-10-30T22-41-23Z.
+- **Open.** The love quote also carries a matching `claim_guards` line; this record does not. Not added; the reviewer called it a separate choice.
+- **Open.** lpc's registered `story_placement` flag is off, so the story door does not place a story in the live path. The shadow run turns it on in memory. Turning it on for lpc in production is a change for the project lead.
+- **Owner.** Project lead, through the coordination thread.
