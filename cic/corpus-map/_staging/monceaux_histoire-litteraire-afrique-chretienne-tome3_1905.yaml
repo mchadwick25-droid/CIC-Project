@@ -7,6 +7,7 @@ assignments:
     locus: "whole file"
     atlas_ids:
       - latin-pastoral-congregational-christianity
+      - latin-apologists
     role: context
     confidence: assigned
     locus_ids: [whole-file]

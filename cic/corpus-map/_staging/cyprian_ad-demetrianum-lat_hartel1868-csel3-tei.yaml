@@ -49,4 +49,13 @@ assignments:
       the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA 4.0, so
       attribution and share-alike travel with any quotation. Mirrors the English twin's roles and
       confidence exactly.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0104a.stoa002.opp-lat1
+    - 'textpart subtype=section: n=1..26 (26 divisions)'
+    language: lat
+    date:
+      start: 251
+      end: 253
+      source: Harnack 1904 (end of 251 or beginning of 252, 'mit einiger Wahrscheinlichkeit'); Monceaux 1901 II (252 or 253)
+      formation_confidence: Dominant Modern Reconstruction
 

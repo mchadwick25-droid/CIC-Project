@@ -20,4 +20,12 @@ assignments:
       running text, so this file is ready to quote once each quote is verified verbatim against it
       (INTAKE section 6); the English a Representative speaks is rendered from it, with the
       vendored English as a cross-check. Mirrors the English twin's role and confidence exactly.
+    locus_ids:
+    - 'line 2991: 2. Suscepto igitur inlustrandae weritatis offieio non putaui'
+    language: lat
+    date:
+      start: 304
+      end: 311
+      source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+      formation_confidence: Widely Accepted
 
