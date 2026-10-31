@@ -1,11 +1,11 @@
 file: augustine_sermones-inediti-lat_caillau1842.txt
-scheme: 'Sermon numerals as the edition prints them, SERMO and a roman numeral at the head of each sermon, qualified by the part in which they stand because the edition restarts its numbering in each supplement and appendix; each part is named by the line number at the foot of its title page; a head whose numeral the scan does not show, and the pieces of the closing treatise, are addressed by heading and line; the chapters of the last treatise carry the numerals the edition prints'
+scheme: 'Sermon numerals as the edition prints them, SERMO and a roman numeral at the head of each sermon, qualified by the part in which they stand because the edition restarts its numbering in each supplement and appendix; each part is named by the line number of its heading at the foot of the title page (for one part the line of the first synopsis); where the scan lost the numeral from a head, the numeral is the one the edition prints for that sermon in its running head or index; the head printed XVII at line 32624, which its title and the index place as the sixth Epiphany sermon, is addressed by heading and line, and the sermons after it in that part carry their printed numerals outside the numbered series; the head block at line 23366 is addressed by line; the three works after sermon XCVIII and the pieces of the closing treatise are addressed by heading and line; the chapters of the last treatise carry the numerals the edition prints'
 curator: Sonnet 5.5
 status: drafted
 rules:
   - id: part
     pattern: '^.+$'
-    lines: [[3795, 3795], [15310, 15310], [17220, 17220], [28198, 28198], [34969, 34969], [40848, 40848], [46589, 46589], [50856, 50856], [55094, 55094], [62762, 62762]]
+    lines: [[3795, 3795], [15310, 15310], [17220, 17220], [28198, 28198], [34969, 34969], [40848, 40848], [46584, 46584], [50856, 50856], [55094, 55094], [62762, 62762]]
     locus: 'part-line{line}'
     division: false
   - id: page
@@ -13,23 +13,9 @@ rules:
     lines: [[4534, 4534], [11723, 11723], [14714, 14714]]
     locus: 'page-line{line}'
     division: false
-  - id: sermon-aside-a
-    pattern: '^(?:[^\w\s]\s?){0,3}[S5$][A-Za-z.]{1,6}?[MHNImnhiUW.]?[OoQ0)UC]\s+(?P<n>[A-Za-z0-9\\!|:](?:[A-Za-z0-9\\!|:.]{0,10}[A-Za-z0-9\\!|:])?)\.{1,2}$'
-    lines: [23366, 23366]
-    parent: part
-    locus: 'sermon{n|int}'
-    number: n
-    ocr_map: {'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C', '1': 'I', 'm': 'III', 'n': 'II'}
-  - id: sermon-aside-b
-    pattern: '^(?:[^\w\s]\s?){0,3}[S5$][A-Za-z.]{1,6}?[MHNImnhiUW.]?[OoQ0)UC]\s+(?P<n>[A-Za-z0-9\\!|:](?:[A-Za-z0-9\\!|:.]{0,10}[A-Za-z0-9\\!|:])?)\.{1,2}$'
-    lines: [23377, 23377]
-    parent: part
-    locus: 'sermon{n|int}'
-    number: n
-    ocr_map: {'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C', '1': 'I', 'm': 'III', 'n': 'II'}
   - id: sermon
     pattern: '^(?:[^\w\s]\s?){0,3}[S5$][A-Za-z.]{1,6}?[MHNImnhiUW.]?[OoQ0)UC]\s+(?P<n>[A-Za-z0-9\\!|:](?:[A-Za-z0-9\\!|:.]{0,10}[A-Za-z0-9\\!|:])?)\.{1,2}$'
-    lines: [[3781, 15301], [15303, 16995], [17208, 28181], [28183, 34956], [34958, 40830], [40832, 46562], [46564, 50840], [50842, 51590], [55081, 62476], [62755, 66309]]
+    lines: [[3781, 15301], [15303, 16995], [17208, 23365], [23367, 28181], [28183, 32623], [34958, 40830], [40832, 46562], [46585, 50840], [50842, 51590], [55081, 62476], [62755, 66309]]
     parent: part
     skip_repeat: true
     locus: 'sermon{n|int}'
@@ -49,6 +35,10 @@ rules:
       - {line: 7936, set: {n: 'XXII'}}
       - {line: 8090, set: {n: 'XXIII'}}
       - {line: 8174, set: {n: 'XXIV'}}
+      - {line: 8813, quote: 'SRUMO', set: {n: 'XXVII'}}
+      - {line: 13761, quote: 'SERMO', set: {n: 'LVIII'}}
+      - {line: 14552, quote: 'SERMO', set: {n: 'LXIV'}}
+      - {line: 17869, quote: 'SERMO', set: {n: 'IV'}}
       - {line: 8985, set: {n: 'XXVIII'}}
       - {line: 9456, set: {n: 'XXXI'}}
       - {line: 9725, set: {n: 'XXXIII'}}
@@ -80,11 +70,6 @@ rules:
       - {line: 26994, set: {n: 'LVI'}}
       - {line: 27381, quote: 'SERMO UX', set: {n: 'LIX'}}
       - {line: 30401, quote: 'SERMO XII,', set: {n: 'XII'}}
-      - {line: 32624, quote: 'SEHMO XVII', set: {n: 'XXII'}}
-      - {line: 33341, quote: 'SERMO XXVI.', set: {n: 'XXVI'}}
-      - {line: 33479, quote: 'SEltMO XXVll', set: {n: 'XXVII'}}
-      - {line: 33765, quote: 'SERMO xxvai', set: {n: 'XXVIII'}}
-      - {line: 34569, set: {n: 'XXXII'}}
       - {line: 34972, quote: 'SERMO 1.XI1I.', set: {n: 'LXIII'}}
       - {line: 35015, quote: 'SERMO LXIV.', set: {n: 'LXIV'}}
       - {line: 35555, set: {n: 'LXVII'}}
@@ -127,9 +112,21 @@ rules:
       - {line: 58329, set: {n: 'XVI'}}
       - {line: 60688, set: {n: 'XXI'}}
       - {line: 65232, quote: 'SERMO \U', set: {n: 'VI'}}
+  - id: sermon-tail
+    pattern: '^(?:[^\w\s]\s?){0,3}[S5$][A-Za-z.]{1,6}?[MHNImnhiUW.]?[OoQ0)UC]\s+(?P<n>[A-Za-z0-9\\!|:](?:[A-Za-z0-9\\!|:.]{0,10}[A-Za-z0-9\\!|:])?)\.{1,2}$'
+    lines: [32625, 34956]
+    parent: part
+    skip_repeat: true
+    locus: 'sermon{n|int}'
+    ocr_map: {'l': 'I', 'U': 'II', 'Y': 'V', 'H': 'II', '!': 'I', '|': 'I', 'G': 'C', '1': 'I', 'm': 'III', 'n': 'II'}
+    fixes:
+      - {line: 33341, quote: 'SERMO XXVI.', set: {n: 'XXVI'}}
+      - {line: 33479, quote: 'SEltMO XXVll', set: {n: 'XXVII'}}
+      - {line: 33765, quote: 'SERMO xxvai', set: {n: 'XXVIII'}}
+      - {line: 34569, set: {n: 'XXXII'}}
   - id: section
     pattern: '^[IVXLCl1]{1,7}\s?[.,]\s+[A-Za-z]'
-    lines: [[5092, 6020], [15440, 16217], [39600, 40830], [57542, 58089], [59518, 60159], [60168, 60687], [61481, 62092], [62908, 63606], [63639, 64309]]
+    lines: [[5092, 5629], [5631, 6020], [15440, 16217], [57542, 58089], [59518, 60159], [60173, 60687], [61481, 61883], [61885, 62092], [62908, 63606], [63639, 64309]]
     parent: sermon
     locus: 'sec-line{line}'
   - id: chapter-liber
@@ -391,12 +388,46 @@ evidence:
     quote: 'SEllMO \ *'
   - line: 57936
     quote: '<;FUMn \1V'
+  - line: 8711
+    quote: 'SKKMO XXVil.'
+  - line: 17079
+    quote: 'XXVn.'
+  - line: 14599
+    quote: 'SERMO LXIV.'
+  - line: 17147
+    quote: 'LVm.'
+  - line: 17158
+    quote: 'LXIV.'
+  - line: 17755
+    quote: 'SEKMU iV'
+  - line: 21354
+    quote: 'SKRMO XIX'
+  - line: 21365
+    quote: 'SERMO XIX.'
+  - line: 54273
+    quote: 'XIX.'
+  - line: 23419
+    quote: 'Chriftna retiil'
+  - line: 39757
+    quote: 'TRACTATUS.'
+  - line: 39760
+    quote: 'UBER'
+  - line: 40106
+    quote: 'UBER'
+  - line: 40524
+    quote: 'EPISTOLA'
+  - line: 54429
+    quote: 'xvn.'
+  - line: 46584
+    quote: 'DE SANCTIS.'
 divisions:
-  - {start_line: 8813, locus: 'part-line3795/sermo-line8813'}
-  - {start_line: 13761, locus: 'part-line3795/sermo-line13761'}
-  - {start_line: 14552, locus: 'part-line3795/sermo-line14552'}
-  - {start_line: 17869, locus: 'part-line17220/sermo-line17869'}
-  - {start_line: 21426, locus: 'part-line17220/sermo-line21426'}
+  - {start_line: 32624, locus: 'part-line28198/sermon-line32624'}
+  - {start_line: 21426, locus: 'sermon19', parent: part, number: 'XIX', series: sermon}
+  - {start_line: 23366, locus: 'sermo-head-line23366', parent: part}
+  - {start_line: 23419, locus: 'sermon32', parent: part, number: 'XXXII', series: sermon}
+  - {start_line: 39757, locus: tractatus-line39757}
+  - {start_line: 40106, locus: liber-line40106}
+  - {start_line: 40524, locus: epistola-line40524}
   - {start_line: 51598, locus: tractatus-line51598}
   - {start_line: 51723, locus: liber-line51723}
   - {start_line: 52281, locus: liber-line52281}
@@ -426,10 +457,13 @@ apparatus:
   - lines: [34957, 34968]
     kind: front
     locus: title-page-line34957
+  - lines: [39747, 39756]
+    kind: front
+    locus: title-page-line39747
   - lines: [40831, 40847]
     kind: front
     locus: title-page-line40831
-  - lines: [46563, 46588]
+  - lines: [46563, 46583]
     kind: front
     locus: title-page-line46563
   - lines: [50841, 50855]
@@ -457,36 +491,6 @@ apparatus:
     kind: index
     locus: index-line66310
 expected_gaps:
-  - series: sermon
-    line: 8985
-    quote: 'SKIWIO XWIII'
-    reason:
-      counterpart: {line: 8813}
-  - series: sermon
-    line: 13850
-    quote: 'SERMO LIX.'
-    reason:
-      counterpart: {line: 13761}
-  - series: sermon
-    line: 14728
-    quote: 'SERMO EXV.'
-    reason:
-      counterpart: {line: 14552}
-  - series: sermon
-    line: 18041
-    quote: 'SEILMO V.'
-    reason:
-      counterpart: {line: 17869}
-  - series: sermon
-    line: 21894
-    quote: 'SERMO XX.'
-    reason:
-      counterpart: {line: 21426}
-  - series: sermon
-    line: 23497
-    quote: '.SERMO XXXIII.'
-    reason:
-      counterpart: {line: 23366}
   - series: sermon
     line: 35555
     quote: 'SERMO EXVn.'
