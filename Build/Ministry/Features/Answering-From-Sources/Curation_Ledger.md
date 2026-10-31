@@ -413,3 +413,10 @@ Mark's own answer on pacing, relayed by coordination 2026-10-31 (weekly usage ab
 - No new audits or large batches beyond what he ruled (lpc row fields, then one index rebuild) without telling him first, with the cost in reader items. The other eleven worlds' reads stay held.
 - Unchanged: tooling PRs get one Opus review before merge, no metered spend, never invent.
 - Worker prompts stay small, worktrees sparse, work batched into fewer longer steps.
+
+## lpc row fields, 2026-10-31
+
+- 215 rows over 112 staging files carry `language`, `locus_ids` and `date`; 199 have `locus_ids` (122 division lists, 77 whole-file), 16 are unset because the work cannot be located exactly in an uncurated file. 87 dates are `unknown` with a `checked` note; 128 carry a quoted source and a formation confidence.
+- Review: three independent reader rounds (cap reached). Cap exception, for Mark's awareness: coordination ruled 2026-10-31 that the four round-3 date corrections (Delehaye 1917-1920, Poschmann 1926, Duchesne tome 1 source wording, Bardenhewer Band 4 1923-1924) merge as the reader's own values with each quote checked by machine against the file, with no fourth read.
+- Date rule (Mark's coordination confirmed it stands): a modern book gets a window only if its own file states the first-edition year or a dated preface or approval; the printing year of the vendored copy does not count.
+- `voice_of` is set on none of the 47 non-tradition rows; see CO-S2-4.
