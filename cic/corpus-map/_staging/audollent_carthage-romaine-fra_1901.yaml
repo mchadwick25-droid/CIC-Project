@@ -19,11 +19,3 @@ assignments:
       witness to any ancient text. The standard history of Roman Carthage, 146 BC to 698 AD, the city
       of Cyprian's episcopate and of Augustine's schooling and preaching. Provisional because its
       subject is the city, not the church.
-    locus_ids:
-    - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
-    language: fra
-    date:
-      start: 1901
-      end: 1901
-      source: audollent_carthage-romaine-fra_1901.txt
-      formation_confidence: Documented

@@ -29,7 +29,7 @@
 
 | Step | Review round it cleared in | Review file | Date |
 |---|---|---|---|
-| Step 0 | 7 (past the three-round cap; the project lead's ruling is not on file) | Review-Artifacts/Step0_Round7_Review.md | 2026-09-29 |
+| Step 0 | 7 (past the three-round cap; the cap ruling of 2026-10-29 is on file in `CiC_System_Hub_Decision_Log.md`, naming `Review-Artifacts/Step0_CapRuling_Review.md`) | Review-Artifacts/Step0_Round7_Review.md | 2026-09-29 |
 | Step 1 | 3 | Review-Artifacts/Doc01_Round3_Review.md | 2026-10-29 |
 | Step 2 | 2 | Review-Artifacts/Doc02_Round2_Review.md | 2026-10-29 |
 
@@ -37,8 +37,8 @@
 
 | # | Check | Result | Evidence |
 |---|---|---|---|
-| 1 | The world's identity is fixed. Its registry entry at the registry entry for `latap` (not yet created) exists, with one `world_id`, before any of the world's records reach `main`. Every later file uses that same `world_id`. The entry carries `safety_adjacent: true` or `false`, set by Mark. A new world fails this check until it is set. | FAIL | `records/worlds/latap.yaml` has no `safety_adjacent` field. Mark sets it. |
-| 2 | Step 0, Movement-Scope Confirmation, is approved to proceed. It cleared independent Opus review within the round cap, and the movement's own status in `cic-website/data/world-census.json` was checked. | FAIL | Step 0 has 7 review files against a cap of 3, and the latest numbered review (round 7) does not say Approved to proceed. The targeted cap-ruling review (`Review-Artifacts/Step0_CapRuling_Review.md`) says Approved to proceed (Step 0 only; not Frozen); the gate does not read it. Mark's call. |
+| 1 | The world's identity is fixed. Its registry entry at the registry entry for `latap` exists, with one `world_id`, before any of the world's records reach `main`. Every later file uses that same `world_id`. The entry carries `safety_adjacent: true` or `false`, set by Mark. A new world fails this check until it is set. | FAIL | `records/worlds/latap.yaml` has no `safety_adjacent` field. Mark sets it. |
+| 2 | Step 0, Movement-Scope Confirmation, is approved to proceed. It cleared independent Opus review within the round cap, and the movement's own status in `cic-website/data/world-census.json` was checked. | FAIL | Step 0 has 7 review files against a cap of 3, and the latest numbered review (round 7) does not say Approved to proceed. The targeted cap-ruling review (`Review-Artifacts/Step0_CapRuling_Review.md`) says Approved to proceed (Step 0 only; not Frozen); the gate does not read it. Owner: engine/m10 tooling; the cap ruling is on file in `CiC_System_Hub_Decision_Log.md`. |
 | 3 | Step 1, World Identification, is approved to proceed, under the same review rule. | PASS | |
 | 4 | Step 2, Source Ecology, is approved to proceed. Its Source Registry gives every item in the library package a line, and no dossier item, corpus-map entry or holdings-report file is missing one. | PASS | |
 | 5 | The Source Readiness Dossier is at `Build/worlds/_cross-world/dossiers/latin-apologists_Source_Readiness_Dossier.md`. | PASS | |
@@ -56,4 +56,4 @@
 |---|---|
 | Checks passed | 9 / 12 |
 | Handoff gate run (`python -m engine.m10.cli handoff latap`) | Full run on 2026-10-31, quotation check included. Checks 3, 4, 5, 6, 7, 9, 10, 11 and 12 pass (9 of 12); checks 1, 2 and 8 fail. |
-| Failed checks sent back to the source-research thread | None. Checks 1 and 2 are Mark's calls. Check 8 is the Arnobius flag kept on purpose; a later change order may close it. |
+| Failed checks sent back to the source-research thread | None. Check 1 (`safety_adjacent`) is Mark's call. Check 2 is a gap in the gate, not an open ruling: the cap ruling is on file and Step 0 is approved to proceed, but `latest_review` (`engine/m10/rounds.py`) reads only round 7 and counts seven numbered rounds; the owner is the engine/m10 tooling. Check 8 is the Arnobius flag kept on purpose; a later change order may close it. |

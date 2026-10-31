@@ -234,3 +234,15 @@ The targeted Opus review checked all 24 rows of the change order against the rea
 On a full checkout of `main`, handoff check 8 reports 7 findings. One is the Arnobius flag the order keeps. Six are genuine quotations that the checker cannot reach: four from Harnack's *Chronologie* II, which is not yet vendored on `main`, and two from Monceaux III, which Step 0 cites without the file path. These six are pre-existing and not defects of the order.
 
 For Mark: whether a later change order adds the Monceaux path, and whether to bring all of Step 0's project-file quotations onto the single-mark convention.
+
+## OG-27 — OG-25 closed: staging dates rewritten to the integer form; two follow-ups (2026-10-31)
+
+**Source:** the merge of `main` into the library-stage branch; `python cic/engine/corpus_map_merge.py --check`; one independent read of the script checks against Doc_02 and the Source Registry.
+**Status:** OG-25 is closed. Two follow-ups stay open. Owner: the build thread for the first; the engine/m10 tooling for the second.
+
+The `date` key on 116 rows in 36 staging files now carries integer `start` and `end` with its source and confidence, or `formation_confidence: unknown` with a `checked` note where the text states only one end ("197 or soon after", "soon after 217/8"): 18 new unknown fallbacks beside 3 that already said unknown. No year was added that the original text did not state; every earlier window and note is kept in `source` or `checked`. Nineteen `voice_of` lists that main's schema does not accept were removed; sixteen only restated the row's own author, and the three Quod idola rows moved word for word into `note`. One `language` list became `lat-grc`.
+
+The merge also left a second copy of `locus_ids`, `language` and `date` in five rows shared with lpc (the two Audollent scans and Monceaux tomes 1 to 3); the YAML loader keeps the last copy without warning. The branch's copies were deleted, so main's reviewed values stand.
+
+- **Open.** The corpus-map check does not reject a repeated key inside a row, so a bad merge of this kind passes it. A check for repeated keys belongs in `cic/engine/corpus_map.py`.
+- **Open.** Handoff check 2 reads only the latest numbered review (round 7) and counts seven numbered rounds, so it fails although the cap ruling of 2026-10-29 is on file and Step 0 is approved to proceed. The gate needs to read the ruled review file named in the Hub Decision Log. Doc_02 line 227 gives Arnobius's Tertullian-table range as 296-310 where the Registry says 295-310; the Registry figure is the one the Harnack page prints (pp. 295-296).

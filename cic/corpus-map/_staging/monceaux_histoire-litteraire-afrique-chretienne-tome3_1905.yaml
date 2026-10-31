@@ -18,11 +18,3 @@ assignments:
       context, not tradition. Closes the final third of Source_Acquisition_Manifest
       G5. Consultation-only per cic/texts/INTAKE.md; covers fourth-century African
       literature outside this world's own core Cyprian/Augustine focus.
-    locus_ids:
-    - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
-    language: fra
-    date:
-      start: 1905
-      end: 1905
-      source: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
-      formation_confidence: Documented

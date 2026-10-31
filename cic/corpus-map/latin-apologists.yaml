@@ -89,16 +89,16 @@ works:
   author: audollent
   locus: whole file; chapter Les chretiens at file line 47700
   locus_ids:
-  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
-    printed page'
+  - whole-file
   role: context
   confidence: provisional
   language: fra
   date:
-    start: 1901
-    end: 1901
-    source: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: 'audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt: header gives Publication
+      Date 1901; year read from the foot of the title page; no edition statement; the Avant-propos
+      has no dateline in the OCR; the file states neither the work''s first publication year
+      nor a dated preface or approval, so no window is set'
   note: 'Modern (1901) French history of Roman Carthage. Registry row 239.
 
     '
@@ -108,16 +108,16 @@ works:
   author: audollent
   locus: whole file; title page at file line 33
   locus_ids:
-  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
-    printed page'
+  - whole-file
   role: context
   confidence: provisional
   language: fra
   date:
-    start: 1901
-    end: 1901
-    source: audollent_carthage-romaine-fra_1901.txt
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: 'audollent_carthage-romaine-fra_1901.txt: header gives Publication Date 1901;
+      title page, Avant-propos (file line 226) and front matter read; no edition statement
+      and no dateline in the OCR; the file states neither the work''s first publication year
+      nor a dated preface or approval, so no window is set'
   note: 'Modern (1901) French scholarship, role context, not tradition. Not a primary source
     and not a witness to any ancient text. The standard history of Roman Carthage, 146 BC
     to 698 AD, the city of Cyprian''s episcopate and of Augustine''s schooling and preaching.
@@ -967,16 +967,16 @@ works:
   author: monceaux
   locus: whole file
   locus_ids:
-  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
-    printed page'
+  - whole-file
   role: context
   confidence: assigned
   language: fra
   date:
-    start: 1902
-    end: 1902
-    source: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: 'monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt: header gives
+      Publication Date 1902; tome II front matter read; no Préface or dateline in the file
+      and no edition statement; the file states neither the work''s first publication year
+      nor a dated preface or approval, so no window is set'
   note: 'Modern (1902) French literary-historical scholarship -- role context, not tradition.
     The volume this world''s own G5 request names as most directly relevant, bearing directly
     on the Cyprian phase. Closes another third of Source_Acquisition_Manifest G5. Consultation-only
@@ -989,15 +989,16 @@ works:
   author: monceaux
   locus: whole file
   locus_ids:
-  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
-    printed page'
+  - whole-file
   role: context
   confidence: assigned
   language: fra
   date:
     start: 1901
     end: 1901
-    source: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+    source: 'monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt: Préface (file
+      line 330) dated ''Paris, 1er octobre 1901'' (OCR ''1" octobre 1901'', line 366); this
+      is the preface date'
     formation_confidence: Documented
   note: 'Modern (1901) French literary-historical scholarship -- role context, not tradition.
     Closes one-third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
@@ -1012,16 +1013,16 @@ works:
   author: monceaux
   locus: whole file
   locus_ids:
-  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
-    printed page'
+  - whole-file
   role: context
   confidence: assigned
   language: fra
   date:
-    start: 1905
-    end: 1905
-    source: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
-    formation_confidence: Documented
+    formation_confidence: unknown
+    checked: 'monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt: header gives
+      Publication Date 1905; tome III front matter read; no Préface or dateline in the file
+      and no edition statement; the file states neither the work''s first publication year
+      nor a dated preface or approval, so no window is set'
   note: 'Modern (1905) French literary-historical scholarship -- role context, not tradition.
     Closes the final third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
     covers fourth-century African literature outside this world''s own core Cyprian/Augustine
