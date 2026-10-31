@@ -351,7 +351,7 @@ Each file was read by independent Opus readers who opened the vendored lines. No
 
 ### Open tooling notes (added)
 
-- `clean` does not mean citable addresses. See the caveat in `Stage2_Segmentation_Report.md`, section 3.
+- `clean` does not mean citable addresses. See the caveat in `Stage2_Segmentation_Report.md`, section 2.
 - The format cannot give one chapter two ranges, so interleaved parallel texts cannot be addressed by language within a chapter.
 - A head that prints a clean numeral contradicting its position (Toulotte 12764 and 12789, Caillau 32624) cannot be taken out of the numbered series without a reason form, because the look-alike test flags it. It is handled by reading the position from the edition's own list for the sequence check only, or by line address.
 - Partial markup files (anf05, anf04, npnf101, npnf106, npnf108, and also npnf104 and npnf107): file-level fallback is enough for now (coordination ruling, 2026-10-31). Their share of words in divisions over 5,000 words is 28.7, 15.2, 31.4, 24.0, 49.7, 32.3 and 50.9 per cent. The lpc records cite by work, section number and quote, so the coarse divisions break no cited locus.
