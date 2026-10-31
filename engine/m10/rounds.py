@@ -201,15 +201,16 @@ def _natural(path: Path) -> list:
 
 def latest_review(files: list[Path], root: Path = REPO_ROOT, code: str | None = None) -> tuple[str, list[Path]]:
     """(description, files) of the latest review. A review that a "Cap ruling"
-    entry headed for this world names is the latest, in a cycle that no earned
-    Cycle reset restarted, when it carries no round number or a round number at least the
+    entry headed for this world names, and that the round counter excuses (the
+    cap was already reached in its cycle), is the latest when it carries no round number or a round number at least the
     highest among the other files; the unruled files of its own round are read
     with it. Several such files are taken in natural name order. Otherwise: the
     files of the highest round number when any name carries one, else the last
     file by name."""
     numbered = {p: round_number(p) for p in files if round_number(p) is not None}
     ruled = ruled_names_for(code, root) if code else set()
-    ruled_files = [p for p in files if p.name in ruled] if cycle_start(files, root) == 1 else []
+    counted = set(_counted(files, root))
+    ruled_files = [p for p in files if p.name in ruled and p not in counted]
     other_top = max((n for p, n in numbered.items() if p not in ruled_files), default=0)
     after = [p for p in ruled_files if p not in numbered or numbered[p] >= other_top]
     if after:

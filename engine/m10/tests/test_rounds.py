@@ -278,6 +278,20 @@ def test_a_ruled_review_of_a_closed_cycle_is_not_the_latest(tmp_path):
     assert _latest(root) == "round 4"
 
 
+def test_a_ruling_made_after_the_cap_in_a_restarted_cycle_is_the_latest(tmp_path):
+    from .fixture_world import review_text
+
+    root = _world(tmp_path, ["Doc_05_Review_Round5.md", "Doc_05_Review_Round6.md", "Doc_05_CapRuling_Review.md"])
+    write(root, "Build/Ministry/Operations/Standing/Some_Decision_Log.md", "## 2026-10-05 \u2014 New sources\n\nx\n")
+    for n in (1, 2, 3):
+        write(root, f"Build/worlds/w/Doc_05_Review_Round{n}.md", review_text(n))
+    _reset(root, "Doc_05_Review_Round4.md", 4, field="New sources")
+    write(root, "Build/worlds/w/Doc_05_Review_Round5.md", review_text(5, cleared=False))
+    write(root, "Build/worlds/w/Doc_05_Review_Round6.md", review_text(6, cleared=False))
+    _rule_for(root, "w", ["Doc_05_CapRuling_Review.md"])
+    assert _latest(root) == "ruled review Doc_05_CapRuling_Review.md"
+
+
 def test_the_unruled_files_of_the_ruled_round_are_read_with_it(tmp_path):
     root = _world(tmp_path, [f"Doc_05_Review_Round{i}.md" for i in (1, 2, 3, 4)] + ["Doc_05_Recheck_Round4.md"])
     _rule_for(root, "w", ["Doc_05_Review_Round4.md"])
@@ -286,7 +300,7 @@ def test_the_unruled_files_of_the_ruled_round_are_read_with_it(tmp_path):
 
 
 def test_ruled_files_without_a_round_number_are_ordered_by_number_not_by_text(tmp_path):
-    root = _world(tmp_path, ["Doc_05_Review_Round1.md", "Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
+    root = _world(tmp_path, ["Doc_05_Review_Round1.md", "Doc_05_Review_Round2.md", "Doc_05_Review_Round3.md", "Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
     _rule_for(root, "w", ["Doc_05_CapRuling_Review3.md", "Doc_05_CapRuling_Review10.md"])
     assert _latest(root) == "ruled review Doc_05_CapRuling_Review10.md"
 
