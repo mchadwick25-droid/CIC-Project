@@ -253,3 +253,18 @@ def test_a_voice_the_uncited_claims_rule_sets_aside_is_answered_by_the_facilitat
     assert result.text == voice_rejected_turn("Vera")["text"]
     assert result.citations == []
     assert result.citation_entries == []
+
+
+def test_a_probe_whose_voice_the_uncited_claims_rule_set_aside_is_graded_as_not_passed():
+    from engine.m3 import harness
+
+    settings = LivePathSettings(
+        voice_model_id="voice-model", safety_model_id="safety-model",
+        r27_enforce=True, self_revision_enabled=False, citation_attach_enabled=False,
+    )
+    answerer = _answerer(FakeClient(draft=["The sea was rough that night and the bishop was afraid of the crossing."]), settings=settings)
+
+    result = harness.run_battery("fix", {}, answerer=answerer, limit=1)[0]
+
+    assert result.passed is False
+    assert result.error == "no voice reply: routed to voice_with_directive"
