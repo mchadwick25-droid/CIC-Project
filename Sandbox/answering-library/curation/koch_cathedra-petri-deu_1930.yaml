@@ -97,3 +97,10 @@ evidence:
     quote: 'Namenverzeichnis'
   - line: 1705
     quote: 'Zusatz. Zuvor aber müssen wir noch zu Harnacks Auf-'
+not_subheadings:
+  - lines: [2314, 2421, 2525, 2638, 2766, 2868, 2973, 3074, 3182, 3292, 3395, 3506]
+    kind: running-head
+    quote: 'De un. c. 4: Super unum aedificat'
+  - lines: [6644, 6753, 6856, 6967, 7079, 7240, 7342, 7443, 7550, 7656, 7864, 7975, 8075, 8186, 8291, 8399]
+    kind: running-head
+    quote: '5. Die zweite Fassung von de unitate c. 4'

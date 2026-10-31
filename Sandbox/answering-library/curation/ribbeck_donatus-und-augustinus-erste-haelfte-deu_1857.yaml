@@ -15,7 +15,6 @@ divisions:
     allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
   - start_line: 1520
     locus: T1/c1/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
   - start_line: 2327
     locus: T1/c2/a1
     allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
@@ -129,9 +128,18 @@ divisions:
   - start_line: 29828
     locus: T3/c4
     allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+page_splits:
+  - pattern: '^[—\-]\s*(?P<p>\d+)\s*[—\-]$'
+    number: p
+    lines: [1520, 2326]
+    only_oversize: true
 ignore:
   - pattern: '^[—\-_^■\.\'' ]{1,6}\d{1,3}[—\-_■ \.]{1,6}$'
     kind: running-head
+not_subheadings:
+  - lines: [22017, 22020, 22098, 22153, 22198, 22200, 22286, 22292, 22350, 22396, 22575]
+    kind: footnote
+    quote: '1001)'
 apparatus:
   - lines: [12, 123]
     kind: front
