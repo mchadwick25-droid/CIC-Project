@@ -601,3 +601,13 @@ Coordination-level, AI-reviewed (not Mark's own), relayed by the coordination th
 - The surgeon's-knife quote record gets the not_for line "a warrant for striking a child or anyone today", before the run so the run uses final records (OG-119 closed by that change).
 - Found while building the run: the "story record not offered for placement" note on a test draft came from a made-up reader reply that did not match the question, not from the story door. With a matching reader reply the story is offered and placed. lpc's registered `story_placement` flag is off (only desert's is on), so the shadow run sets it on in memory. A story is placed whole as its `telling`; the short and medium lengths are not built into the placement code.
 - The current gates' verdicts for the judge steps come from the run's own net output through `engine/m3/test100_export.py`, in place of `engine/m3/gate_replay.py`.
+
+## 33. Story length: the voice picks, code checks (2026-10-30)
+
+Mark, 2026-10-30, by choice box, relayed by the coordination thread: "Voice picks, code checks".
+
+- The voice names the length in the story marker: `[[story:id:short]]`, `:medium` or `:full`. The offer line lists each length with its word count. The instruction for the voice: medium unless there is a reason; short when the story is an example inside a reply that also says other things; full only when the participant asks for the story itself and nothing else.
+- Code checks the pick. A length the record does not have, or none named, is medium (full when the record has no medium). A short or medium telling that does not fit the words left in the reply falls to the next shorter length the record has, and stays at the shortest it has. A full telling is not checked for room. A record with no shorter tellings places its full telling, as before. Code places the reviewed words and never retells.
+- The room is 220 words less the words the voice itself wrote in the reply. The 220 is the existing norm in the voice directive ("most replies run between 120 and 220 words, a question that earns more may take more"). Mark did not set it. It is one constant (`REPLY_WORD_ROOM` in `engine/m4/story_placement.py`) and changes by one edit. Coordination-level, AI-reviewed.
+- Three-level transparency and the fit step are unchanged. The length told is carried as data in the reply shape (`story_lengths`, present only when a story was placed), and a story card also carries the record's `heart`.
+- Built as a placement code change and a records change. The records change puts `heart`, `events`, `telling_short` and `telling_medium` into lpc's seven story records, with one lpc re-pin. lpc's registered `story_placement` flag stays off in production (OG-120).
