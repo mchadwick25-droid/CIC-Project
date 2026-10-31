@@ -2528,3 +2528,12 @@ Logged 2026-10-31.
 - **Open, for the Stage 4 verify step.** `engine/m4/absence_rule.py` matches by whole words, so a sentence that reverses a limit record's claim can pass when it shares two or more content words with the record's negated sentence. The Opus review (round 1) found: "No woman's spoken words reach us." citing `lpc.limit.womens-own-voice`, whose statement says a woman's spoken words do reach us, set down by men. The rule also reads no `formation_confidence`, so an absence stated in a Contested record passes as settled.
 - **Not a rule fix.** Word overlap cannot decide polarity or force. The verify step's judge reads each sentence against its bound records with force and scope in the pack (Stage 4 build plan, Phase 2).
 - **Owner.** Engine thread, through the coordination thread.
+
+### OG-131. Shipped sentences that deny what the sources hold were never read (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Found.** The fresh 30-answer reading (seed 20261101) on the shadow run found 6 serious answers, all one kind: the voice said the record is silent on something the shelf covers (q029, q071, q093, q101, q103, q024). Cause: the verify step read only cited, bound sentences, a sentence with no valid binding shipped as plain text, and the net exempts honesty-scaffolding sentences from any check. A list of cue phrases was tried and not merged; coordination ruled that a phrase patch shows up later under a different statement.
+- **System fix built.** `engine/m4/unbound_step.py` (PR #1398): a sentence the net withheld is taken out; an unbound claim about the world is withheld; a denial of what the sources hold is checked against the shelf. On the shadow run it removes 5 of the 6. q024 still ships. q093 and q024 are treated as system failures (the voice widened a record's scope; the shelf holds the thing). No record edit.
+- **Open.** The shelf search is lexical, so a denial whose thing the shelf names in other words can pass (q024: Possidius 27). A production version needs a model-based passage finder, which is a paid step and needs Mark's named, capped approval.
+- **Owner.** Engine thread, through the coordination thread.
