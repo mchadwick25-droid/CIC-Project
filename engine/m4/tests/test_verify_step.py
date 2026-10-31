@@ -84,6 +84,8 @@ def test_decide_keeps_supported_and_unreadable_and_rewrites_unsupported():
     ("Women [[x]] reach us.", None), ('He said "no".', None), ("One line.\nTwo lines.", None),
     ("He said ‘no’ to them.", None), ("He said «no».", None), ("One sentence. Another one.", None),
     ("Cyprian's letter reached us.", "Cyprian's letter reached us."),
+    ("We don’t hold that.", "We don’t hold that."), ("The apostles’ letters reached us.", "The apostles’ letters reached us."),
+    ("Ignatius called it 'the medicine of immortality'.", None),
 ])
 def test_parse_rewrite(reply, expected):
     assert vs.parse_rewrite(reply) == expected
@@ -100,3 +102,8 @@ def test_splice_replaces_or_removes_one_sentence():
     assert vs.splice(text, "Third one.", None) == ("First one. Second one.", True)
     assert vs.splice(text, "Absent.", "x") == (text, False)
     assert vs.splice("A long sentence. Long.", "Long.", "Short.")[0] == "A long sentence. Short."
+
+
+def test_the_quote_pack_names_the_speaker(records):
+    pack = vs.record_pack(records["lpc.quote.a-dreadful-plague-broke-out"], records)
+    assert "quote from" in pack and "Pontius" in pack

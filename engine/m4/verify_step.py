@@ -53,7 +53,7 @@ VERIFY_SYSTEM = (
 )
 REWRITE_SYSTEM = (
     "You rewrite one sentence a historical Representative said. The reader found a problem with it. Rewrite it so that it "
-    "says only what the bound records say, in the author's name, as a quotation or a close paraphrase, with the same force "
+    "says only what the bound records say, in the author's name, as a close paraphrase, with the same force "
     "and the same limits the records carry. Keep the voice: \"we\", plain words, sentences under 25 words. Add nothing the "
     "records do not state. Use no tags and no quotation marks. If nothing of the sentence is left that the records support, "
     f"reply with the single word {_DROP}.\n"
@@ -82,11 +82,14 @@ def record_pack(record: dict, records: dict[str, dict]) -> str:
     sentences, its means line, what it must not be used to assert, what is not
     known, a quote's setting, and the force it carries (formation confidence and
     the years it is limited to)."""
-    rider = ev._with_riders({"id": record["id"], "record_type": record.get("record_type")}, records)
+    rider = ev._with_quote_index(ev._with_riders({"id": record["id"], "record_type": record.get("record_type")}, records), records)
     conf = (record.get("confidence") or {}).get("formation_confidence")
     years = absence_rule._years(record)
-    force = ", ".join(x for x in (f"formation confidence: {conf}" if conf else "", f"limited to the years {years[0]} to {years[1]}" if years else "") if x)
+    kind = record.get("classification")
+    force = ", ".join(x for x in (f"classification: {kind}" if isinstance(kind, str) and kind else "", f"formation confidence: {conf}" if conf else "", f"limited to the years {years[0]} to {years[1]}" if years else "") if x)
     lines = [f"({n}) {t}" for n, t in enumerate(sentences(_voiced_text(record)), start=1)]
+    if rider.get("speaker"):
+        lines.insert(0, f"quote from {rider['speaker']}")
     if means := (record.get("use_note") or {}).get("means"):
         lines.append(f"means: {means}")
     if rider.get("setting"):
@@ -143,7 +146,22 @@ def rewrite_request(question: str, sentence: str, judgement: dict, bound: list[s
     return {"system": REWRITE_SYSTEM, "user": f"QUESTION\n{question}\n\nRECORDS\n\n{packs}\n\nSENTENCE\n{sentence}\n\nPROBLEM\n{problem}"}
 
 
-_QUOTE_MARKS = frozenset('"“”‘’«»‹›„')
+_QUOTE_MARKS = frozenset('"“”‘’\'«»‹›„')
+_APOSTROPHES = frozenset("'’")
+
+
+def _has_quotation_mark(text: str) -> bool:
+    """Any quotation mark. An apostrophe between two letters (don't) or after a
+    plural s before a space or the end (apostles') is not one."""
+    for i, ch in enumerate(text):
+        if ch not in _QUOTE_MARKS:
+            continue
+        before = text[i - 1] if i else ""
+        after = text[i + 1] if i + 1 < len(text) else ""
+        if ch in _APOSTROPHES and ((before.isalpha() and after.isalpha()) or (before == "s" and not after.isalnum())):
+            continue
+        return True
+    return False
 
 
 def parse_rewrite(reply: str, bound: list[str] | None = None, records: dict[str, dict] | None = None) -> str | None:
@@ -154,7 +172,7 @@ def parse_rewrite(reply: str, bound: list[str] | None = None, records: dict[str,
     text = (reply or "").strip()
     if not text or text.upper().rstrip(".") == _DROP or "\n" in text or "[[" in text:
         return None
-    if any(ch in _QUOTE_MARKS for ch in text.replace("’s", "").replace("'s", "")) or len(sentences(text)) != 1:
+    if _has_quotation_mark(text) or len(sentences(text)) != 1:
         return None
     if bound and records and absence_rule.check_absence(text, [records[r] for r in bound if r in records]):
         return None
