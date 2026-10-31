@@ -1,7 +1,7 @@
 file: bardenhewer_geschichte-altkirchlichen-literatur-band2-cyprian-slice-deu_2e-aufl1914.txt
 scheme: 'Bardenhewer section 82 (Cyprian), its ten numbered parts printed as "N. Title. -" at the start of each part (1 Das Urteil der Nachwelt to 10 Cyprian als Theologe); the part titles are printed in the heading list at the head of the section'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: part
     pattern: '^(?P<n>\d{1,2})\. (?:Das Urteil der Nachwelt|Der Lebenslauf Cyprian ?s|Cyprians Schriften|Abhandlungen|Abhandlungen\. Forts|Briefe|Briefe\. Forts|Unechte Schriften|Cyprian als Schriftsteller|Cyprian als Theologe)\. ?[—-]'

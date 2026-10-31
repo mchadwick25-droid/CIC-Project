@@ -27,7 +27,8 @@ assignments:
     - 'line 1289: Inter carnis alimenta, benedicti martyres designati", quae vobis cnp. i.'
     language: lat
     date:
-      window: 197, early in the year
+      start: 197
+      end: 197
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -53,7 +54,8 @@ assignments:
     - 'line 12027: APOLOGETICUM.'
     language: lat
     date:
-      window: 197, end of the year
+      start: 197
+      end: 197
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -97,7 +99,8 @@ assignments:
     - 'line 41061: DE CORONA.'
     language: lat
     date:
-      window: '211'
+      start: 211
+      end: 211
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -124,7 +127,8 @@ assignments:
     - 'line 45082: FUGA IN PERSECUTIONE.'
     language: lat
     date:
-      window: 211 or 212
+      start: 211
+      end: 212
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -149,7 +153,8 @@ assignments:
     - 'line 51161: SCAPULAM.'
     language: lat
     date:
-      window: end of 212 or the very beginning of 213
+      start: 212
+      end: 213
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -174,8 +179,9 @@ assignments:
     - 'line 59791: PAENITENTIA.'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--to-his-wife-ad-uxorem
@@ -200,8 +206,9 @@ assignments:
     - 'line 62943: 682 QUI5TI SEPTIMII FLORENTIS TBRTOLLIAIfl AD UXOREM UB. 1.'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-the-apparel-of-women-de-cultu-feminarum
@@ -226,10 +233,10 @@ assignments:
     - 'line 64376: CULTU FEMINARUM'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198); Harnack lists book I and book II of this work separately in the group.'
       formation_confidence: Dominant Modern Reconstruction
-      note: Harnack lists book I and book II of this work separately in the group.
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-exhortation-to-chastity-de-exhortatione-castitatis
     work: "On Exhortation to Chastity (De Exhortatione Castitatis)"
@@ -254,10 +261,10 @@ assignments:
     - 'line 67376: EXHORTATIONE CASTITATIS.'
     language: lat
     date:
-      window: 204-206/7, before the break with the church
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 204
+      end: 207
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's table, is Contested between scholars.
       formation_confidence: Dominant Modern Reconstruction
-      note: Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's table, is Contested between scholars.
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-monogamy-de-monogamia
     work: "On Monogamy (De Monogamia)"
@@ -282,9 +289,8 @@ assignments:
     - 'line 69315: DB MONOGAMIA. 769'
     language: lat
     date:
-      window: soon after 217/8
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
-      formation_confidence: Dominant Modern Reconstruction
+      formation_confidence: unknown
+      checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); first recorded confidence: Dominant Modern Reconstruction'
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-the-veiling-of-virgins-de-virginibus-velandis
     work: "On the Veiling of Virgins (De Virginibus Velandis)"
@@ -309,10 +315,10 @@ assignments:
     - 'line 78139: VIRGINIBUS VELANDIS.'
     language: lat
     date:
-      window: 204-206/7, before the break with the church
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 204
+      end: 207
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's table, is Contested between scholars.
       formation_confidence: Dominant Modern Reconstruction
-      note: Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's table, is Contested between scholars.
 
   - row_id: tertullian_quae-supersunt-t1-apologetica-lat_oehler1853--on-the-pallium-de-pallio
     work: "On the Pallium (De Pallio)"
@@ -336,7 +342,8 @@ assignments:
     - 'line 83174: OE PALLIO.'
     language: lat
     date:
-      window: 210 (or 209)
+      start: 209
+      end: 210
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 

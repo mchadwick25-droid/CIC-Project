@@ -10,6 +10,9 @@ assignments:
       - latin-apologists
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt: header gives Publication Date 1905; tome III front matter read; no Préface or dateline in the file and no edition statement; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1905) French literary-historical scholarship -- role
       context, not tradition. Closes the final third of Source_Acquisition_Manifest
@@ -18,10 +21,8 @@ assignments:
     locus_ids:
     - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
     language: fra
-    voice_of:
-    - author: monceaux
-      loci: the whole volume
     date:
-      window: 1905 (publication date on the title page)
+      start: 1905
+      end: 1905
       source: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
       formation_confidence: Documented

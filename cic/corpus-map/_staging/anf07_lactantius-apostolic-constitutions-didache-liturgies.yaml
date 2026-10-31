@@ -73,7 +73,8 @@ assignments:
   - div3:iii.ii.i..iii.ii.viii (8 divisions)
   language: eng
   date:
-    window: 304-311
+    start: 304
+    end: 311
     source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
     formation_confidence: Widely Accepted
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god
@@ -95,9 +96,8 @@ assignments:
   - div3:iii.iii.i..iii.iii.xxiii (23 divisions)
   language: eng
   date:
-    window: soon after the Divine Institutes
-    source: Harnack 1904 (one source)
-    formation_confidence: Dominant Modern Reconstruction
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after the Divine Institutes; source: Harnack 1904 (one source); first recorded confidence: Dominant Modern Reconstruction'
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-the-workmanship-of-god
   work: On the Workmanship of God
   author: lactantius
@@ -117,7 +117,8 @@ assignments:
   - div3:iii.iv.i..iii.iv.xxi (21 divisions)
   language: eng
   date:
-    window: 303/304
+    start: 303
+    end: 304
     source: Harnack 1904 (one source)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--of-the-manner-in-which-the-persecutors-died
@@ -156,7 +157,7 @@ assignments:
   - div3:iii.vi.i..iii.vi.iii (3 divisions; prose fragments I to IV precede the first division)
   language: eng
   date:
-    window: unknown
+    formation_confidence: unknown
     checked: The division prints four prose fragments, two poems and a General Note by the editor. The General Note gives no date and doubts the ascription of the poems
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--on-easter-de-pascha
   work: On Easter (De Pascha)

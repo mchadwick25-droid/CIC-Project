@@ -1,7 +1,7 @@
 file: vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
 scheme: 'von Soden''s section numerals 1 to 6, each printed as an arabic numeral and full stop at the head of a section''s first paragraph; the sections carry no printed titles'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: section
     pattern: '^(?P<n>[1-6])\. ?"?(?:Unseren Ausgang|Wir gehen nunmehr|Endlich haben wir|Sicheres Zeugnis|Unter Berücksichtigung|Folgende Liste)'

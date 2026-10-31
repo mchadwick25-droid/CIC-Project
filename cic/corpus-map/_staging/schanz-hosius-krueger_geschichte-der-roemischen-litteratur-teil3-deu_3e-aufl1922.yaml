@@ -17,10 +17,8 @@ assignments:
   locus_ids:
   - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
   language: deu
-  voice_of:
-  - author: schanz-hosius-krueger
-    loci: the whole volume
   date:
-    window: 1922 (publication date on the title page)
+    start: 1922
+    end: 1922
     source: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
     formation_confidence: Documented

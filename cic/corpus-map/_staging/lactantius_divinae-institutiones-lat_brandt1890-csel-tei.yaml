@@ -29,7 +29,8 @@ assignments:
     - 'textpart subtype=MSS: no n attribute (1 divisions)'
     language: lat
     date:
-      window: 304-311
+      start: 304
+      end: 311
       source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
       formation_confidence: Widely Accepted
 

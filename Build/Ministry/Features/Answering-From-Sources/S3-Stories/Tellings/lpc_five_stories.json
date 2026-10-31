@@ -1,0 +1,242 @@
+{
+ "lpc.story.celerinus-writes-to-lucian": {
+  "heart": "Celerinus, a confessor, asked Lucian in prison to win peace for his fallen sister and two other women. Lucian gave it in the martyrs' name, if each case went before the bishop.",
+  "events": [
+   {
+    "line": "Celerinus, a confessor who had not denied Christ, wrote to Lucian, another confessor still in prison.",
+    "rests_on": "He wrote to Lucian, another confessor, who was still in prison.",
+    "essential": true
+   },
+   {
+    "line": "He asked Lucian to grieve with him over his sister, who had fallen away from Christ.",
+    "rests_on": "Grieve with me over my sister's death, a death of the spirit,",
+    "essential": true
+   },
+   {
+    "line": "He would weep until help came through Lucian or the martyrs.",
+    "rests_on": "He would weep, he said, until help came through Lucian",
+    "essential": false
+   },
+   {
+    "line": "He also asked the martyrs' pardon for Numeria and Candida, pointing to their repentance and good works.",
+    "rests_on": "He also asked the martyrs' pardon for two women Lucian knew, Numeria and Candida.",
+    "essential": true
+   },
+   {
+    "line": "Candida had given gifts so that she would not have to sacrifice; Celerinus knew she had not sacrificed.",
+    "rests_on": "So I know she has not sacrificed.",
+    "essential": false
+   },
+   {
+    "line": "Both letters still call what the women did a great sin.",
+    "rests_on": "Still, both letters call what the women did a great sin.",
+    "essential": false
+   },
+   {
+    "line": "Lucian answered from the prison, where the confessors were to die by hunger and thirst.",
+    "rests_on": "where the emperor had ordered the confessors put to death by hunger and thirst",
+    "essential": false
+   },
+   {
+    "line": "He wrote that now they had reached the brightness itself.",
+    "rests_on": "But now we have reached the brightness itself,",
+    "essential": false
+   },
+   {
+    "line": "He granted the request in the name of the martyr Paulus and the other martyrs.",
+    "rests_on": "He granted the request in the name of the martyr Paulus and the other martyrs, with one condition.",
+    "essential": true
+   },
+   {
+    "line": "His condition: each case set before the bishop and the sin openly confessed; then, he asked, let the women have peace.",
+    "rests_on": "Each case was to be set before the bishop and the sin openly confessed.",
+    "essential": true
+   }
+  ],
+  "telling_short": "Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor still in prison.\n\n\"Grieve with me over my sister's death, a death of the spirit,\" he wrote. \"In this time of ruin she has fallen away from Christ.\" He also asked the martyrs' pardon for two women Lucian knew, Numeria and Candida.\n\nLucian granted the request in the name of the martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, let the women have peace.",
+  "telling_medium": "Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor, who was still in prison.\n\n\"Grieve with me over my sister's death, a death of the spirit,\" he wrote. \"In this time of ruin she has fallen away from Christ.\" He would weep, he said, until help came through Lucian or the martyrs.\n\nHe also asked the martyrs' pardon for Numeria and Candida. He pointed to their repentance and their good works. Candida had given gifts so that she would not have to sacrifice. \"So I know she has not sacrificed.\" Still, both letters call what the women did a great sin.\n\nLucian answered from the prison, where the confessors were to die by hunger and thirst. \"But now we have reached the brightness itself,\" he wrote.\n\nHe granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, let the women have peace."
+ },
+ "lpc.story.hundred-thousand-sesterces": {
+  "heart": "Cyprian told eight bishops in Numidia that Christ is to be seen in our captive brothers, and our church sent one hundred thousand sesterces to ransom them. His argument for the gift was not about charity but about who the captives were.",
+  "events": [
+   {
+    "line": "Our brothers and sisters were carried off and held captive among barbarians.",
+    "rests_on": "had been carried off and were held captive among barbarians",
+    "essential": true
+   },
+   {
+    "line": "Eight bishops in Numidia wrote to Cyprian about it.",
+    "rests_on": "Eight bishops in Numidia wrote to Cyprian about it.",
+    "essential": true
+   },
+   {
+    "line": "He read their letter with grief and tears.",
+    "rests_on": "not without tears, dearest brothers, I have read your letter.",
+    "essential": false
+   },
+   {
+    "line": "Quoting Paul, he said that Christ is to be seen in our captive brothers.",
+    "rests_on": "So Christ is to be seen in our captive brothers.",
+    "essential": true
+   },
+   {
+    "line": "He set us a test: would each do for another what he would want done for himself?",
+    "rests_on": "Will each of us do for another what he would want done for himself",
+    "essential": false
+   },
+   {
+    "line": "We sent one hundred thousand sesterces, from the gifts of our clergy and people.",
+    "rests_on": "So we have sent you a sum of one hundred thousand sesterces.",
+    "essential": true
+   },
+   {
+    "line": "He thanked the bishops for offering us fruitful fields in which to sow the seeds of our hope.",
+    "rests_on": "fruitful fields in which to sow the seeds of our hope.",
+    "essential": false
+   }
+  ],
+  "telling_short": "Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it.\n\nHis argument was not about charity but about who the captives were. He quoted Paul: \"As many of you as have been baptized into Christ have put on Christ.\" Then he drew the conclusion. \"So Christ is to be seen in our captive brothers.\"\n\nOur clergy and people gave the money. \"So we have sent you a sum of one hundred thousand sesterces.\"",
+  "telling_medium": "Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.\n\nHis reply opens without composure. \"With great grief of mind, and not without tears, dearest brothers, I have read your letter.\"\n\nHis argument was not about charity but about who the captives were. He quoted Paul: \"As many of you as have been baptized into Christ have put on Christ.\" Then he drew the conclusion. \"So Christ is to be seen in our captive brothers.\"\n\nHe named the test this set for us. \"Will each of us do for another what he would want done for himself, if he were held captive among barbarians?\"\n\n\"So we have sent you a sum of one hundred thousand sesterces.\" It came from the gifts of our clergy and people. He thanked the bishops for offering us \"fruitful fields in which to sow the seeds of our hope.\""
+ },
+ "lpc.story.the-death-of-cyprian": {
+  "heart": "Our great bishop Cyprian was executed on 14 September 258, and his people kept watch and cried out to die with him. Two early texts tell his death; they agree on the core and differ on who tied the cloths over his eyes.",
+  "events": [
+   {
+    "line": "Cyprian was executed on 14 September 258.",
+    "rests_on": "Our great bishop Cyprian was executed on 14 September 258.",
+    "essential": true
+   },
+   {
+    "line": "Two early texts tell it: a saint's life by his deacon Pontius, and the Acta, a Christian compilation built around the records of his hearings.",
+    "rests_on": "One is a saint's life by his deacon Pontius.",
+    "essential": true
+   },
+   {
+    "line": "On his last night he was held in an officer's house, and the whole people kept watch at the door.",
+    "rests_on": "Meanwhile the whole people kept watch before the officer's door,",
+    "essential": true
+   },
+   {
+    "line": "The sentence called him a standard-bearer of the sect and an enemy of the gods; in the Acta he answered with thanks to God.",
+    "rests_on": "Only the Acta gives his answer",
+    "essential": true
+   },
+   {
+    "line": "In the Acta the brothers cried out to be beheaded with him; Pontius calls the people blessed for suffering with their bishop.",
+    "rests_on": "Let us be beheaded with him too.",
+    "essential": true
+   },
+   {
+    "line": "In the Acta, in the field of Sextus he took off his cloak, knelt in prayer, and had twenty-five gold pieces given to the executioner.",
+    "rests_on": "He told his people to give the executioner twenty-five gold pieces.",
+    "essential": false
+   },
+   {
+    "line": "The texts differ on the cloth over his eyes: Pontius says he bound them himself; the Acta says two clergy named Julianus tied them.",
+    "rests_on": "The two texts differ on the cloth over his eyes.",
+    "essential": true
+   },
+   {
+    "line": "Pontius tells of people in the trees, as with Zacchaeus, and of the executioner's trembling hand strengthened from above.",
+    "rests_on": "Some things only Pontius tells.",
+    "essential": false
+   },
+   {
+    "line": "So the blessed Cyprian suffered martyrdom.",
+    "rests_on": "So the blessed Cyprian suffered martyrdom.",
+    "essential": true
+   }
+  ],
+  "telling_short": "Our great bishop Cyprian was executed on 14 September 258. His deacon Pontius told it in a saint's life. The Acta, a Christian compilation built around his hearings, tells it too.\n\nOn his last night, \"the whole people kept watch before the officer's door,\" Pontius writes. In the Acta, sentenced as an enemy of the gods, Cyprian answered, \"Thanks be to God.\" The brothers cried, \"Let us be beheaded with him too.\"\n\nThe texts differ on the cloth over his eyes. Pontius says he bound them himself. In the Acta, two clergy, both named Julianus, tied them. So the blessed Cyprian suffered martyrdom.",
+  "telling_medium": "Our great bishop Cyprian was executed on 14 September 258. His deacon Pontius told it in a saint's life. The Acta, a Christian compilation built around his hearings, tells it too.\n\nOn his last night, \"the whole people kept watch before the officer's door,\" Pontius writes.\n\nThe sentence called Cyprian a standard-bearer of the sect and an enemy of the gods. In the Acta, Cyprian answered, \"Thanks be to God.\" The brothers cried, \"Let us be beheaded with him too.\" Pontius calls the people blessed for suffering with their bishop.\n\nIn the field of Sextus, the Acta says, Cyprian took off his cloak and knelt in prayer. He told his people to give the executioner twenty-five gold pieces.\n\nThe texts differ on the cloth over his eyes. Pontius says he bound them himself. In the Acta, two clergy, both named Julianus, tied them.\n\nPontius adds that people climbed into the trees to see, as with Zacchaeus. In his telling, the executioner's fingers trembled until the hour of glory strengthened his hand from above. So, in the Acta, the blessed Cyprian suffered martyrdom."
+ },
+ "lpc.story.the-plague-and-the-enemies": {
+  "heart": "Pontius says that when plague struck and people put out their own, Cyprian taught us to love even our enemies. Then good was done to all people, not only to our own.",
+  "events": [
+   {
+    "line": "A dreadful plague broke out and carried off countless people every day.",
+    "rests_on": "Afterwards a dreadful plague broke out,",
+    "essential": true
+   },
+   {
+    "line": "People fled the contagion and put out their own; corpses lay all over the city.",
+    "rests_on": "They wickedly put out their own people.",
+    "essential": true
+   },
+   {
+    "line": "Our bishop gathered us and preached: caring only for our own is nothing remarkable.",
+    "rests_on": "There was nothing remarkable, he said, in caring only for our own.",
+    "essential": true
+   },
+   {
+    "line": "We must love even our enemies and pray for our persecutors, as God gives sun and rain beyond His own people.",
+    "rests_on": "We must love even our enemies, and pray for those who persecute us.",
+    "essential": true
+   },
+   {
+    "line": "Cyprian said it is right for us to live up to our birth.",
+    "rests_on": "It is right for us,",
+    "essential": false
+   },
+   {
+    "line": "Good was done to all people, not only to the household of faith; the poor gave their labour.",
+    "rests_on": "good was done to all people, not only to those of the household of faith.",
+    "essential": true
+   },
+   {
+    "line": "Pontius says more was done here than Tobias did, who buried only his own race.",
+    "rests_on": "More was done here.",
+    "essential": false
+   }
+  ],
+  "telling_short": "Our deacon Pontius was there. He tells it in his life of our bishop, written in praise of the man who preached.\n\n\"Afterwards a dreadful plague broke out,\" he wrote. \"Everyone shuddered and fled, and shunned the contagion. They wickedly put out their own people.\"\n\nOur bishop Cyprian gathered us in one place and preached. There was nothing remarkable, he said, in caring only for our own. We must love even our enemies, and pray for those who persecute us.\n\nThen, Pontius says, good was done to all people, not only to those of the household of faith.",
+  "telling_medium": "Our deacon Pontius was there. He tells it in his life of our bishop, written in praise of the man who preached.\n\n\"Afterwards a dreadful plague broke out,\" he wrote. It carried off countless people every day. \"Everyone shuddered and fled, and shunned the contagion. They wickedly put out their own people.\" All over the city lay \"no longer bodies but the corpses of many.\"\n\nOur bishop gathered us and preached. There was nothing remarkable, he said, in caring only for our own. We must love even our enemies, and pray for those who persecute us. God makes His sun rise and sends rain to feed the seed, and not only for His own people. \"It is right for us,\" Cyprian said, \"to live up to our birth.\"\n\nThen, Pontius says, good was done to all people, not only to those of the household of faith. Many who were too poor to give money gave their own labour instead. Tobias gathered the bodies of his own race only. More was done here."
+ },
+ "lpc.story.the-psalms-on-the-wall": {
+  "heart": "Augustine taught that even good Christians ought not leave this life without fitting repentance, and in his last illness he did it himself. Possidius, who was there, saw him weep over psalms of penance.",
+  "events": [
+   {
+    "line": "Possidius, Augustine's friend for nearly forty years, was in the house at the end.",
+    "rests_on": "he was in the house at the end",
+    "essential": true
+   },
+   {
+    "line": "The Vandals were besieging Hippo, and Augustine fell ill with a fever.",
+    "rests_on": "The Vandals were besieging Hippo",
+    "essential": false
+   },
+   {
+    "line": "Augustine often taught that even after baptism, good Christians and priests ought not leave this life without fitting repentance.",
+    "rests_on": "ought not leave this life without fitting repentance",
+    "essential": true
+   },
+   {
+    "line": "In his last illness he had the penitential Psalms copied, read them on the wall, and wept freely and constantly.",
+    "rests_on": "And he wept freely and constantly.",
+    "essential": true
+   },
+   {
+    "line": "About ten days before the end he asked that no one come in except the doctors and those bringing food, and he had the time for prayer.",
+    "rests_on": "he had all that time free for prayer",
+    "essential": false
+   },
+   {
+    "line": "Until that last illness he had preached without ceasing.",
+    "rests_on": "he had preached in the church without ceasing",
+    "essential": false
+   },
+   {
+    "line": "He made no will, because as a poor man of God he had nothing to make one from.",
+    "rests_on": "He made no will, because as a poor man of God he had nothing to make one from.",
+    "essential": false
+   },
+   {
+    "line": "He died with his sight and hearing unimpaired, while Possidius and the others watched and prayed.",
+    "rests_on": "he slept with his fathers",
+    "essential": false
+   }
+  ],
+  "telling_short": "Possidius was Augustine's friend for nearly forty years, and he was in the house at the end.\n\nIn private talk, Possidius says, Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.\n\n\"And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly.\"",
+  "telling_medium": "Possidius was Augustine's friend for nearly forty years, and he was in the house at the end. Augustine fell ill with a fever while the Vandals besieged Hippo.\n\nPossidius says Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.\n\n\"And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly.\"\n\nHe had preached without ceasing until that illness. While Possidius and the others stood by, watching and praying, \"he slept with his fathers,\" in the words of Scripture. He made no will, because as a poor man of God he had nothing to make one from.\n\nAbout ten days before the end, he asked that only the doctors and those bringing food come in. The request was kept, and he had that time free for prayer."
+ }
+}

@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "Augustine sermon collection with no single composition window: P1 lists the sermons without a date, the volume header (cic/texts) gives none, and no lpc record states one"}
     note: >
       Latin of the sermons preached to Augustine's congregations, the defining material of
       this entry. The English body is npnf106 (about 97 sermons, Registry row 19); this file

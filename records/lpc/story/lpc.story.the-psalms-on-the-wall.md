@@ -76,7 +76,7 @@ text: 'Possidius had been Augustine''s friend for nearly forty years, and he was
   And the end, in Possidius''s own first person: his body whole, his sight and hearing sound, he slept with his fathers, as Scripture says, well nourished in a good old age, while we stood by, watching and praying. He made no will, because he had nothing to make
   one from. He ordered that the church''s library and all its books be carefully preserved for those who
   came after. The city was under siege by the Vandals while this happened.'
-telling: "Possidius was Augustine's friend for nearly forty years, and he was in the house at the end. The Vandals were besieging Hippo, and in the third month of the siege Augustine fell ill with a fever.\n\nIn private talk, Possidius says, Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.\n\n\"And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly.\"\n\nAbout ten days before the end, he asked those who were there to let no one in. The only exceptions were the doctors and those who brought his food. The request was kept, and he had all that time free for prayer.\n\nUp to that last illness he had preached in the church without ceasing. At the end his sight and hearing were unimpaired. While Possidius and the others stood by, watching and praying, \"he slept with his fathers,\" in the words of Scripture.\n\nHe made no will, because as a poor man of God he had nothing to make one from. He had ordered that the church's library and all its books be carefully kept for those who came after.\n\nPossidius is the only witness to these last weeks. The death and the siege are known from outside Hippo, but no second source shows us the sickroom."
+telling: "Possidius was Augustine's friend for nearly forty years, and he was in the house at the end. The Vandals were besieging Hippo, and in the third month of the siege Augustine fell ill with a fever.\n\nIn private talk, Possidius says, Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.\n\n\"And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly.\"\n\nAbout ten days before the end, he asked those who were there to let no one in. The only exceptions were the doctors and those who brought his food. The request was kept, and he had all that time free for prayer.\n\nUp to that last illness he had preached in the church without ceasing. At the end his sight and hearing were unimpaired. While Possidius and the others stood by, watching and praying, \"he slept with his fathers,\" in the words of Scripture.\n\nHe made no will, because as a poor man of God he had nothing to make one from. He had ordered that the church's library and all its books be carefully kept for those who came after."
 absent_detail: Possidius is the only witness to the last weeks -- the psalms, the request, the ten days.
   The death itself is corroborated from outside Hippo, by its date and the siege around it, but what no
   second source gives is the interior of the sickroom. No one who fled Hippo wrote down what leaving the
@@ -85,5 +85,51 @@ modern_contrast: 'A modern listener may expect this told as a serene death. Poss
   not support serenity: a man who taught repentance wept freely and constantly for days, looking at psalms
   about sin -- the disproportion, if it looks like one, is the formation content, not an embarrassment
   to smooth over.'
+heart: Augustine taught that even good Christians ought not leave this life without fitting repentance, and in his last illness he did it himself. Possidius, who was there, saw him weep over psalms of penance.
+events:
+- line: Possidius, Augustine's friend for nearly forty years, was in the house at the end.
+  rests_on: he was in the house at the end
+  essential: true
+- line: The Vandals were besieging Hippo, and Augustine fell ill with a fever.
+  rests_on: The Vandals were besieging Hippo
+  essential: false
+- line: Augustine often taught that even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+  rests_on: ought not leave this life without fitting repentance
+  essential: true
+- line: In his last illness he had the penitential Psalms copied, read them on the wall, and wept freely and constantly.
+  rests_on: And he wept freely and constantly.
+  essential: true
+- line: About ten days before the end he asked that no one come in except the doctors and those bringing food, and he had the time for prayer.
+  rests_on: he had all that time free for prayer
+  essential: false
+- line: Until that last illness he had preached without ceasing.
+  rests_on: he had preached in the church without ceasing
+  essential: false
+- line: He made no will, because as a poor man of God he had nothing to make one from.
+  rests_on: He made no will, because as a poor man of God he had nothing to make one from.
+  essential: false
+- line: He died with his sight and hearing unimpaired, while Possidius and the others watched and prayed.
+  rests_on: he slept with his fathers
+  essential: false
+telling_short: 'Possidius was Augustine''s friend for nearly forty years, and he was in the house at the end.
+
+
+  In private talk, Possidius says, Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+
+
+  "And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly."'
+telling_medium: 'Possidius was Augustine''s friend for nearly forty years, and he was in the house at the end. Augustine fell ill with a fever while the Vandals besieged Hippo.
+
+
+  Possidius says Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+
+
+  "And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly."
+
+
+  He had preached without ceasing until that illness. While Possidius and the others stood by, watching and praying, "he slept with his fathers," in the words of Scripture. He made no will, because as a poor man of God he had nothing to make one from.
+
+
+  About ten days before the end, he asked that only the doctors and those bringing food come in. The request was kept, and he had that time free for prayer.'
 ---
 Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' is at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.

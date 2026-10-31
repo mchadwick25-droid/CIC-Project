@@ -58,6 +58,45 @@ def test_a_marker_yields_the_records_modern_rendering_byte_for_byte_with_its_cit
     assert placed["verdict"] == "ok" and placed["tags"] == ["fix.quote.leo"]
 
 
+def test_a_lead_in_naming_no_speaker_is_replaced_by_codes_and_the_quote_is_placed():
+    text, net_result = _net(f"One of us told the philosophers [[quote:fix.quote.leo]]. {GO_ON}")
+    assert net_result["reply_shape"]["placed"] == ["fix.quote.leo"]
+    assert text.startswith(f"In today's English, Leo says: “{RENDERING}”")
+    assert text.endswith(GO_ON_SHOWN)
+    repair = net_result["reply_shape"]["repaired"][0]
+    assert repair["lead_in"] == "In today's English, Leo says"
+    assert repair["draft"] == "One of us told the philosophers [[quote:fix.quote.leo]]"
+    assert not net_result["reply_shape"]["removed"]
+
+
+def test_a_marker_with_no_lead_in_at_all_takes_codes():
+    text, net_result = _net("[[quote:fix.quote.leo]]")
+    assert net_result["reply_shape"]["placed"] == ["fix.quote.leo"]
+    assert text.startswith(f"In today's English, Leo says: “{RENDERING}”")
+    assert len(net_result["reply_shape"]["repaired"]) == 1
+
+
+def test_a_lead_in_that_names_its_speaker_is_never_replaced():
+    text, net_result = _net("Leo put it plainly [[quote:fix.quote.leo]].")
+    assert text.startswith(f"Leo put it plainly: “{RENDERING}”")
+    assert "In today's English" not in text
+    assert net_result["reply_shape"]["repaired"] == []
+
+
+def test_a_lead_in_that_types_a_quotation_of_its_own_is_still_refused_not_repaired():
+    text, net_result = _net("Leo said “the meal held a memory of Jesus” [[quote:fix.quote.leo]].")
+    assert net_result["reply_shape"]["placed"] == []
+    assert net_result["reply_shape"]["repaired"] == []
+    assert RENDERING not in text
+
+
+def test_a_repaired_quote_still_counts_as_the_one_quote_a_reply_may_carry():
+    both = PlacementContext(offered=frozenset({"fix.quote.leo", "fix.quote.other"}))
+    text, net_result = _net("One of us told them [[quote:fix.quote.leo]]. Leo added [[quote:fix.quote.other]].", context=both)
+    assert net_result["reply_shape"]["placed"] == ["fix.quote.leo"]
+    assert OTHER_RENDERING not in text
+
+
 def test_a_marker_alone_takes_the_sentence_before_it_as_its_lead_in():
     shaped = place_quotes("Leo put it plainly.\n\n[[quote:fix.quote.leo]]\n\nMore.", repository_records=RECORDS, context=OFFERED)
     assert shaped["text"] == f"Leo put it plainly: “{RENDERING}” [[fix.quote.leo]]\n\nMore."
@@ -262,7 +301,7 @@ def test_the_placed_quote_and_a_refer_back_in_the_same_reply_both_stay(syr_recor
         f"Ephrem put it plainly [[quote:{EPHREM_QUOTE}]].\n\nThat is how we sing of his coming [[{EPHREM_QUOTE}]]. {SYR_CLEAN}",
         syr_records,
     )
-    assert net_result["reply_shape"] == {"placed": [EPHREM_QUOTE], "removed": []}
+    assert net_result["reply_shape"] == {"placed": [EPHREM_QUOTE], "removed": [], "repaired": []}
     assert syr_records[EPHREM_QUOTE]["modern_rendering"].split()[-1] in text
     assert text.endswith(f"That is how we sing of his coming. {SYR_CLEAN_SHOWN}")
 
@@ -520,3 +559,13 @@ def test_no_quote_records_gist_is_taken_for_its_words_anywhere_in_the_fleet():
             if whys & {"gives a quote record's words without placing it", "tagged to a quote record that has not been placed"}:
                 refused.append(record["id"])
     assert refused == []
+
+
+def test_a_reply_with_no_marker_ships_without_a_quote_and_keeps_its_citation():
+    text, net_result = _net(f"Leo preached on the fast, and we go on keeping it. {GO_ON}")
+    assert net_result["reply_shape"]["placed"] == []
+    assert net_result["reply_shape"]["removed"] == []
+    assert "“" not in text
+    assert text.startswith("Leo preached on the fast, and we go on keeping it.")
+    assert text.endswith(GO_ON_SHOWN)
+    assert any(s.get("tags") == ["fix.witness.w"] and s["verdict"] == "ok" for s in net_result["sentences"])

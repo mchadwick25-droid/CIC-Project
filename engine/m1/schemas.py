@@ -566,6 +566,29 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # story, readability-graded, placed word for word into a turn by
         # code. Optional; `text` stays the unvoiced source wording.
         "telling": {"type": "string"},
+        # What the story is about and why it was kept: one or two plain
+        # sentences, reviewed against the full record.
+        "heart": {"type": "string"},
+        # The story's events in order. `essential` marks an event the story
+        # fails without; `rests_on` names the place in `text` it rests on.
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "line": {"type": "string"},
+                    "rests_on": {"type": "string"},
+                    "essential": {"type": "boolean"},
+                },
+                "required": ["line", "rests_on"],
+                "additionalProperties": False,
+            },
+        },
+        # Shorter reviewed tellings of the same story, placed word for word
+        # like `telling`: short (about 90 words) keeps every essential event
+        # and the heart; medium (about 160 words) keeps every event.
+        "telling_short": {"type": "string"},
+        "telling_medium": {"type": "string"},
         "absent_detail": {"type": "string"},
         # Story's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS2) - not yet in COMPLETION_REQUIRED;

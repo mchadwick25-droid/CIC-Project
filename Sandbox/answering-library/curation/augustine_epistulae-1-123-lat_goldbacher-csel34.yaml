@@ -1,8 +1,7 @@
 file: augustine_epistulae-1-123-lat_goldbacher-csel34.txt
-scheme: Goldbacher's letter numbers I to CXXIII, printed as a Roman numeral on a line of its own above the address of each letter (Part I runs I to XXX, Part II XXXI to CXXIII); the running heads give the same numbers; letters
-  over 5,000 words are divided by the page numbers printed at the head of each page
+scheme: Goldbacher's letter numbers I to CXXIII, with the letter XCII A, printed as a Roman numeral on a line of its own above the address of each letter (Part I runs I to XXX, Part II XXXI to CXXIII); the running heads give the same numbers; letters over 5,000 words are divided by the page numbers printed at the head of each page
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: ep
   pattern: ^(?:\S{1,3} ){0,3}(?P<n>[IVXLCYT][IVXLCYT1lUN]*[.,]|[IVXLCYT][IVXLCYT1lUN]*L)$
@@ -77,7 +76,7 @@ rules:
       n: CXXI
   flags: i
 - id: pg8601
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 8640
@@ -126,6 +125,12 @@ rules:
     - 9751
   - - 9797
     - 9797
+  locus: p{p|int}
+  number: p
+- id: pg9912
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
+  parent: ep
+  lines:
   - - 9912
     - 9912
   - - 9974
@@ -145,7 +150,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg10621
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 10688
@@ -175,7 +180,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg11526
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 11573
@@ -194,6 +199,8 @@ rules:
     - 11878
   - - 11939
     - 11939
+  - - 11986
+    - 11986
   - - 12032
     - 12032
   - - 12077
@@ -227,7 +234,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg15981
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 16098
@@ -278,6 +285,8 @@ rules:
     - 17298
   - - 17352
     - 17352
+  - - 17404
+    - 17404
   - - 17454
     - 17454
   - - 17515
@@ -317,7 +326,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg21077
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 21141
@@ -355,7 +364,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg21993
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 22061
@@ -449,7 +458,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg24723
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 24777
@@ -476,18 +485,22 @@ rules:
     - 25311
   - - 25365
     - 25365
+  - - 25415
+    - 25415
   - - 25465
     - 25465
   locus: p{p|int}
   number: p
 - id: pg25787
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 25826
     - 25826
   - - 25885
     - 25885
+  - - 25937
+    - 25937
   - - 25991
     - 25991
   - - 26037
@@ -530,6 +543,8 @@ rules:
     - 27019
   - - 27076
     - 27076
+  - - 27122
+    - 27122
   - - 27178
     - 27178
   - - 27224
@@ -544,18 +559,31 @@ rules:
     - 27425
   - - 27487
     - 27487
+  locus: p{p|int}
+  number: p
+  fixes:
+  - line: 25937
+    quote: '854'
+    set:
+      p: '354'
+  - line: 27122
+    quote: ■ 376
+    set:
+      p: '376'
+- id: pg27593
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
+  parent: ep
+  lines:
   - - 27593
     - 27593
   - - 27651
     - 27651
   - - 27714
     - 27714
-  - - 27758
-    - 27758
   locus: p{p|int}
   number: p
 - id: pg30678
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 30779
@@ -596,8 +624,16 @@ rules:
     - 31647
   - - 31711
     - 31711
+  - - 31761
+    - 31761
   - - 31810
     - 31810
+  locus: p{p|int}
+  number: p
+- id: pg31911
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
+  parent: ep
+  lines:
   - - 31911
     - 31911
   - - 31958
@@ -608,6 +644,8 @@ rules:
     - 32069
   - - 32123
     - 32123
+  - - 32170
+    - 32170
   - - 32220
     - 32220
   - - 32267
@@ -618,6 +656,8 @@ rules:
     - 32379
   - - 32441
     - 32441
+  - - 32486
+    - 32486
   - - 32537
     - 32537
   - - 32589
@@ -640,6 +680,8 @@ rules:
     - 32991
   - - 33054
     - 33054
+  - - 33097
+    - 33097
   - - 33147
     - 33147
   - - 33194
@@ -653,7 +695,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg35864
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 35923
@@ -674,8 +716,16 @@ rules:
     - 36301
   - - 36361
     - 36361
+  locus: p{p|int}
+  number: p
+- id: pg36462
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
+  parent: ep
+  lines:
   - - 36462
     - 36462
+  - - 36512
+    - 36512
   - - 36570
     - 36570
   - - 36615
@@ -686,8 +736,12 @@ rules:
     - 36725
   - - 36785
     - 36785
+  - - 36839
+    - 36839
   - - 36895
     - 36895
+  - - 36945
+    - 36945
   - - 37002
     - 37002
   - - 37048
@@ -710,6 +764,8 @@ rules:
     - 37475
   - - 37539
     - 37539
+  - - 37583
+    - 37583
   - - 37640
     - 37640
   - - 37694
@@ -717,11 +773,15 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg38571
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 38618
     - 38618
+  - - 38677
+    - 38677
+  - - 38721
+    - 38721
   - - 38778
     - 38778
   - - 38826
@@ -730,6 +790,8 @@ rules:
     - 38891
   - - 38935
     - 38935
+  - - 38994
+    - 38994
   - - 39037
     - 39037
   - - 39098
@@ -747,7 +809,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg39492
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 39546
@@ -768,6 +830,12 @@ rules:
     - 39916
   - - 39978
     - 39978
+  locus: p{p|int}
+  number: p
+- id: pg40079
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
+  parent: ep
+  lines:
   - - 40079
     - 40079
   - - 40126
@@ -778,6 +846,8 @@ rules:
     - 40228
   - - 40288
     - 40288
+  - - 40333
+    - 40333
   - - 40381
     - 40381
   - - 40427
@@ -793,7 +863,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg41078
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 41125
@@ -808,20 +878,33 @@ rules:
     - 41340
   - - 41388
     - 41388
+  - - 41449
+    - 41449
   - - 41494
     - 41494
+  - - 41547
+    - 41547
   - - 41607
     - 41607
+  - - 41668
+    - 41668
   - - 41714
     - 41714
   - - 41776
     - 41776
   - - 41831
     - 41831
+  - - 41884
+    - 41884
   locus: p{p|int}
   number: p
+  fixes:
+  - line: 41547
+    quote: 65 1
+    set:
+      p: '651'
 - id: pg42325
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 42373
@@ -844,6 +927,8 @@ rules:
     - 42809
   - - 42868
     - 42868
+  - - 42916
+    - 42916
   - - 42974
     - 42974
   - - 43019
@@ -870,6 +955,12 @@ rules:
     - 43538
   - - 43603
     - 43603
+  locus: p{p|int}
+  number: p
+- id: pg43711
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
+  parent: ep
+  lines:
   - - 43711
     - 43711
   - - 43761
@@ -889,7 +980,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg44433
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 44472
@@ -900,6 +991,8 @@ rules:
     - 44586
   - - 44636
     - 44636
+  - - 44698
+    - 44698
   - - 44744
     - 44744
   - - 44808
@@ -931,7 +1024,7 @@ rules:
   locus: p{p|int}
   number: p
 - id: pg45453
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?:epistularum [IVXLCYT1lU]+\.?(?: [IVXLCYT1lU]+\.?)* )?(?P<p>[3-9]\d|\d{3})(?: S\. Aureli Augustini)?$'
   parent: ep
   lines:
   - - 45507
@@ -962,6 +1055,8 @@ rules:
     - 46147
   - - 46206
     - 46206
+  - - 46260
+    - 46260
   - - 46319
     - 46319
   - - 46374
@@ -975,6 +1070,10 @@ rules:
 divisions:
 - start_line: 3480
   locus: epistula23
+  number: XXIII
+  series: ep
+- start_line: 30626
+  locus: epistula92A
 ignore:
 - pattern: '^S\. Aureli Augustini(?: ep\. [IVXLCYT1]+\.)?$'
   kind: running-head
@@ -996,6 +1095,11 @@ ignore:
   lines:
   - 127
   - 46724
+- pattern: ^(?:[3-9]\d|1[0-2]\d)$
+  kind: page-number
+  lines:
+  - 127
+  - 6857
 apparatus:
 - lines:
   - 6858
@@ -1030,6 +1134,8 @@ evidence:
   quote: '70'
 - line: 11573
   quote: '86'
+- line: 11986
+  quote: 94 S. Aureli Augustini
 - line: 13414
   quote: XLY.
 - line: 13481
@@ -1040,6 +1146,8 @@ evidence:
   quote: LY.
 - line: 16098
   quote: '171'
+- line: 17404
+  quote: epistularum LV. 195
 - line: 18411
   quote: LYI.
 - line: 19129
@@ -1052,10 +1160,16 @@ evidence:
   quote: '332'
 - line: 25826
   quote: '352'
+- line: 25937
+  quote: '854'
+- line: 27122
+  quote: ■ 376
 - line: 27978
   quote: LXXXIY.
 - line: 29657
   quote: xc.
+- line: 30626
+  quote: XCII A.
 - line: 30779
   quote: '447'
 - line: 33856
@@ -1076,6 +1190,10 @@ evidence:
   quote: '613'
 - line: 41125
   quote: '643'
+- line: 41547
+  quote: epistularum CXI. 65 1
+- line: 41884
+  quote: epistularum CXI. CXII. 657
 - line: 42222
   quote: CXYII.
 - line: 42325

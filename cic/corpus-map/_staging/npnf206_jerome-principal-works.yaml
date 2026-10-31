@@ -240,11 +240,9 @@ assignments:
   locus_ids:
   - div2:v.LXX (Letter LXX)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date:
-    window: '397'
+    start: 397
+    end: 397
     source: 'NPNF editor''s headnote to the letter (file line 16452 onward): ''The date of the letter is 397'''
     formation_confidence: Dominant Modern Reconstruction
 - row_id: npnf206_jerome-principal-works--letter-lxxxiv-to-pammachius-and-oceanus-on-lactantius-and
@@ -259,10 +257,8 @@ assignments:
   locus_ids:
   - div2:v.LXXXIV (Letter LXXXIV)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date:
-    window: '400'
+    start: 400
+    end: 400
     source: 'NPNF editor''s headnote to the letter (file line 18919 onward): ''The date of the letter is 400'''
     formation_confidence: Dominant Modern Reconstruction

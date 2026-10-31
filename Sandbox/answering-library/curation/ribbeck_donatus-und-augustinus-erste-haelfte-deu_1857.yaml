@@ -1,229 +1,339 @@
 file: ribbeck_donatus-und-augustinus-erste-haelfte-deu_1857.txt
-scheme: 'Ribbeck''s three Theile (Erster, Zweiter, Dritter), each in Capitel numbered in words (Erstes, Zweites and so on) and, where the edition prints them, Abschnitte (Erster, Zweiter, Dritter), addressed T<Theil>/c<Capitel>/a<Abschnitt>; inside Zweiter Theil Capitel 4 the printed Erstes, Zweites and Drittes Buch, and inside Dritter Theil Capitel 1 Abschnitt 2 the printed Erster, Zweiter and Dritter Tag; the scan repeats the opening pages of Erster Theil Capitel 5 (second copy addressed by its line) and lacks printed pages 153 to 161, so the stretch from the printed page number 162 is addressed T1/page162; Vorrede, Einleitung, Inhalts-Verzeichniss and Druckfehler as printed'
+scheme: Ribbeck's three Theile (Erster, Zweiter, Dritter), each in Capitel numbered in words (Erstes, Zweites and so on) and, where the edition prints them, Abschnitte (Erster, Zweiter, Dritter), addressed T<Theil>/c<Capitel>/a<Abschnitt>; inside the Abschnitte Ribbeck prints unnumbered titled sub-headings on their own lines, and where a division is made at one the address is the Abschnitt address, a slash, and the printed title as a slug (for example T1/c3/a2/concil-zu-arles); Zweiter Theil Capitel 4 divides at the printed titles of the works discussed (Abecedarium, Gegen den Brief Petilian's with its printed Erstes, Zweites and Drittes Buch, Gegen den Brief Parmenian's, Ueber die Taufe, Ueber die Einheit der Kirche); inside Dritter Theil Capitel 1 Abschnitt 2 the printed Erster, Zweiter and Dritter Tag; the scan repeats the opening pages of Erster Theil Capitel 5 (second copy addressed by its line) and lacks printed pages 153 to 161, so the stretch from the printed page number 162 is addressed T1/page162; the scan binds both halves of the book, and the title pages of the second half are declared front matter; Vorrede, Einleitung, Inhalts-Verzeichniss and Druckfehler as printed
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
-  - start_line: 124
-    locus: vorrede
-  - start_line: 229
-    locus: einleitung
-  - start_line: 469
-    locus: T1/c1/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 830
-    locus: T1/c1/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 1520
-    locus: T1/c1/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 2327
-    locus: T1/c2/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 2857
-    locus: T1/c2/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 3209
-    locus: T1/c2/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 3331
-    locus: T1/c3/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 3506
-    locus: T1/c3/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 4957
-    locus: T1/c3/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 5260
-    locus: T1/c4/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 5900
-    locus: T1/c4/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 6686
-    locus: T1/c4/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 6790
-    locus: T1/c5
-  - start_line: 6866
-    locus: T1/c5/line6866
-  - start_line: 6903
-    locus: T1/page162
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 8155
-    locus: T1/c7/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 8429
-    locus: T1/c7/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 8777
-    locus: T1/c7/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 10204
-    locus: T1/c8/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 10983
-    locus: T1/c8/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 11633
-    locus: T2/c1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 13037
-    locus: T2/c2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 13703
-    locus: T2/c3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 14127
-    locus: T2/c4
-  - start_line: 14738
-    locus: T2/c4/buch1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 17326
-    locus: T2/c4/buch2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 18431
-    locus: T2/c4/buch3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 18951
-    locus: T2/c5/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 19121
-    locus: T2/c5/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 19733
-    locus: T2/c5/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 21276
-    locus: T2/c6/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 22597
-    locus: T2/c6/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 23282
-    locus: T3/c1/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 23682
-    locus: T3/c1/a2
-  - start_line: 24169
-    locus: T3/c1/a2/tag1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 24856
-    locus: T3/c1/a2/tag2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 25174
-    locus: T3/c1/a2/tag3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 27621
-    locus: T3/c2/a1
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 27797
-    locus: T3/c2/a2
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 28003
-    locus: T3/c2/a3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 28369
-    locus: T3/c3
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
-  - start_line: 29828
-    locus: T3/c4
-    allow_oversize: 'the scan shows no numbered or titled break inside this stretch; only page numbers and footnotes'
+- start_line: 124
+  locus: vorrede
+- start_line: 229
+  locus: einleitung
+- start_line: 469
+  locus: T1/c1/a1
+- start_line: 830
+  locus: T1/c1/a2
+  allow_oversize: no head stands on its own line after the Abschnitt title; the body has only page numbers, footnotes and running paragraphs
+- start_line: 1520
+  locus: T1/c1/a3
+- start_line: 1571
+  locus: T1/c1/a3/montanismus
+- start_line: 1871
+  locus: T1/c1/a3/felicissimus
+- start_line: 1999
+  locus: T1/c1/a3/novatianer
+- start_line: 2218
+  locus: T1/c1/a3/meletianische-spaltung
+- start_line: 2327
+  locus: T1/c2/a1
+- start_line: 2857
+  locus: T1/c2/a2
+- start_line: 3209
+  locus: T1/c2/a3
+- start_line: 3331
+  locus: T1/c3/a1
+- start_line: 3506
+  locus: T1/c3/a2
+- start_line: 3560
+  locus: T1/c3/a2/constantin-und-die-separatisten
+- start_line: 3688
+  locus: T1/c3/a2/concil-nach-rom
+- start_line: 3817
+  locus: T1/c3/a2/erste-entscheidung
+- start_line: 4010
+  locus: T1/c3/a2/appellation
+- start_line: 4266
+  locus: T1/c3/a2/concil-zu-arles
+- start_line: 4863
+  locus: T1/c3/a2/verhandlung-in-mailand
+- start_line: 4957
+  locus: T1/c3/a3
+- start_line: 5260
+  locus: T1/c4/a1
+- start_line: 5900
+  locus: T1/c4/a2
+- start_line: 5904
+  locus: T1/c4/a2/geduldete-sekte
+- start_line: 6102
+  locus: T1/c4/a2/verfolgte-sekte
+- start_line: 6686
+  locus: T1/c4/a3
+- start_line: 6790
+  locus: T1/c5
+- start_line: 6866
+  locus: T1/c5/line6866
+- start_line: 6903
+  locus: T1/page162
+- start_line: 6915
+  locus: T1/page162/parmenian-und-optatus
+- start_line: 7041
+  locus: T1/page162/theologischer-kampf
+  allow_oversize: no further head stands on its own line after this one; the contents list topics inside it that the body does not print as heads
+- start_line: 8155
+  locus: T1/c7/a1
+- start_line: 8429
+  locus: T1/c7/a2
+- start_line: 8777
+  locus: T1/c7/a3
+- start_line: 8915
+  locus: T1/c7/a3/synode-zu-cabarsussis
+  allow_oversize: no further head stands on its own line after this one; the title Synode zu Bagai (line 9395) is set inside a sentence
+- start_line: 10204
+  locus: T1/c8/a1
+  allow_oversize: no head stands on its own line after the Abschnitt title lines; line 10249 is a canon title the author quotes
+- start_line: 10983
+  locus: T1/c8/a2
+- start_line: 11633
+  locus: T2/c1
+  allow_oversize: no head stands on its own line after the Capitel title; the contents list topics the body does not print as heads, and line 12663 is a one-sentence paragraph
+- start_line: 13037
+  locus: T2/c2
+  allow_oversize: no head stands on its own line after the Capitel title; only page numbers, footnotes and running paragraphs
+- start_line: 13703
+  locus: T2/c3
+- start_line: 14127
+  locus: T2/c4
+- start_line: 14453
+  locus: T2/c4/abecedarium
+- start_line: 14736
+  locus: T2/c4/petilian-buch1
+- start_line: 15040
+  locus: T2/c4/parmenian
+  allow_oversize: no further head stands on its own line after this one; the book references inside are run into sentences
+- start_line: 16183
+  locus: T2/c4/taufe
+  allow_oversize: no further head stands on its own line after this one; the book references inside are run into sentences
+- start_line: 17325
+  locus: T2/c4/petilian-buch2
+- start_line: 17956
+  locus: T2/c4/einheit
+- start_line: 18430
+  locus: T2/c4/petilian-buch3
+- start_line: 18951
+  locus: T2/c5/a1
+- start_line: 19121
+  locus: T2/c5/a2
+- start_line: 19733
+  locus: T2/c5/a3
+  allow_oversize: no head stands on its own line after the Abschnitt title; only page numbers, footnotes and running paragraphs
+- start_line: 21276
+  locus: T2/c6/a1
+  allow_oversize: the only titles set on their own lines after the Abschnitt title, lines 21317 and 22417, are run into a sentence ending in "Titel:"
+- start_line: 22597
+  locus: T2/c6/a2
+  allow_oversize: no head stands on its own line after the Abschnitt title; only page numbers, footnotes and running paragraphs
+- start_line: 23282
+  locus: T3/c1/a1
+- start_line: 23682
+  locus: T3/c1/a2
+- start_line: 24169
+  locus: T3/c1/a2/tag1
+- start_line: 24856
+  locus: T3/c1/a2/tag2
+- start_line: 25174
+  locus: T3/c1/a2/tag3
+  allow_oversize: no head stands on its own line between this one and the Urtheil des Vorsitzenden; the stretch is the printed record of the day
+- start_line: 27319
+  locus: T3/c1/a2/tag3/urtheil-des-vorsitzenden
+- start_line: 27621
+  locus: T3/c2/a1
+- start_line: 27797
+  locus: T3/c2/a2
+- start_line: 28003
+  locus: T3/c2/a3
+- start_line: 28369
+  locus: T3/c3
+- start_line: 28559
+  locus: T3/c3/marcellinus-tod
+- start_line: 28802
+  locus: T3/c3/besserung-der-donatisten
+- start_line: 29118
+  locus: T3/c3/verhandlung-mit-emeritus
+- start_line: 29277
+  locus: T3/c3/augustin-und-gaudentius
+- start_line: 29776
+  locus: T3/c3/augustinus-tod
+- start_line: 29828
+  locus: T3/c4
 ignore:
-  - pattern: '^[—\-_^■\.\'' ]{1,6}\d{1,3}[—\-_■ \.]{1,6}$'
-    kind: running-head
+- pattern: ^[—\-_^■\.\' ]{1,6}\d{1,3}[—\-_■ \.]{1,6}$
+  kind: running-head
+not_subheadings:
+- lines:
+  - 22017
+  - 22020
+  - 22098
+  - 22153
+  - 22198
+  - 22200
+  - 22286
+  - 22292
+  - 22350
+  - 22396
+  - 22575
+  kind: footnote
+  quote: 1001)
 apparatus:
-  - lines: [12, 123]
-    kind: front
-    locus: front
-  - lines: [30221, 31111]
-    kind: index
-    locus: inhalts-verzeichniss
-  - lines: [31112, 31173]
-    kind: notes
-    locus: druckfehler
+- lines:
+  - 12
+  - 123
+  kind: front
+  locus: front
+- lines:
+  - 18857
+  - 18950
+  kind: front
+  locus: front-zweite-haelfte
+- lines:
+  - 30221
+  - 30700
+  kind: index
+  locus: inhalts-verzeichniss
+- lines:
+  - 30701
+  - 31173
+  kind: notes
+  locus: druckfehler
 evidence:
-  - line: 124
-    quote: 'Vorrede.'
-  - line: 229
-    quote: 'Einleitung.'
-  - line: 469
-    quote: 'Erster Theil.'
-  - line: 473
-    quote: 'Erstes CapiteL'
-  - line: 477
-    quote: 'Erster Abschnitt'
-  - line: 830
-    quote: 'Zweiter Absdinitt'
-  - line: 1520
-    quote: 'Dritter Abschnitt.'
-  - line: 2327
-    quote: 'Zweites Capitel.'
-  - line: 2857
-    quote: 'Zweiter Abscknitt.'
-  - line: 3331
-    quote: 'Drittes Capitel.'
-  - line: 4957
-    quote: 'Dritter Abschnitt.'
-  - line: 5260
-    quote: 'Viertes Capitel.'
-  - line: 6686
-    quote: 'Dritter Abschnitt.'
-  - line: 6790
-    quote: 'FQnftes Capitel;'
-  - line: 6866
-    quote: 'Fünftes Capitel.'
-  - line: 6901
-    quote: '— 162 —'
-  - line: 8155
-    quote: 'siebentes Capitel.'
-  - line: 8777
-    quote: 'Dritter Absdmitt'
-  - line: 10204
-    quote: 'Achtes Capitel.'
-  - line: 10983
-    quote: 'Zweiter Abschnitt.'
-  - line: 11633
-    quote: 'Zweiter Theil.'
-  - line: 11637
-    quote: 'Erstes €apiteL'
-  - line: 13037
-    quote: 'Zweites CapiteL'
-  - line: 13703
-    quote: 'Drittes CapiteL'
-  - line: 14127
-    quote: 'Viertes Capitel.'
-  - line: 14738
-    quote: 'Erstes Buch.'
-  - line: 17326
-    quote: 'Zweites Buch.'
-  - line: 18431
-    quote: 'Drittes Buch.'
-  - line: 18951
-    quote: 'Fünftes Capitel.'
-  - line: 19121
-    quote: 'Zweiter Atadiitt.'
-  - line: 21276
-    quote: 'Sechstes Capitel.'
-  - line: 22597
-    quote: 'Zweiter ibschnitt.'
-  - line: 23282
-    quote: 'Dritter TheiL'
-  - line: 24169
-    quote: 'Erster Tag.'
-  - line: 24856
-    quote: 'Zweiter Tag.'
-  - line: 25174
-    quote: 'Dritter Tag.'
-  - line: 27621
-    quote: 'Zweites Gapiteh'
-  - line: 27797
-    quote: 'ZweHor Absdmitt.'
-  - line: 28003
-    quote: 'Dritter Abschnitt.'
-  - line: 28369
-    quote: 'Drittes Ca|>iteL'
-  - line: 29828
-    quote: 'Viertes Capitel.'
-  - line: 30221
-    quote: 'Inhalts-Verzeichniss.'
+- line: 124
+  quote: Vorrede.
+- line: 229
+  quote: Einleitung.
+- line: 469
+  quote: Erster Theil.
+- line: 473
+  quote: Erstes CapiteL
+- line: 477
+  quote: Erster Abschnitt
+- line: 830
+  quote: Zweiter Absdinitt
+- line: 1520
+  quote: Dritter Abschnitt.
+- line: 1571
+  quote: Montanismus.
+- line: 1871
+  quote: Die Spaltung des Felicissimus.
+- line: 1999
+  quote: Die Novatianer.
+- line: 2218
+  quote: Meletianische Spaltung.
+- line: 2327
+  quote: Zweites Capitel.
+- line: 2857
+  quote: Zweiter Abscknitt.
+- line: 3331
+  quote: Drittes Capitel.
+- line: 3560
+  quote: Constantin's Verhältnisszu den Separatisten.
+- line: 3688
+  quote: Der Kaiser beruft ein Concil nach Rom.
+- line: 3817
+  quote: Erste Entscheidung zu Gunsten
+- line: 4010
+  quote: Der Kaiser nimmt die Appellation an.
+- line: 4266
+  quote: Concil zu Arles.
+- line: 4863
+  quote: Verhandlung in Mailand vor dem Kaiser selbst.
+- line: 4957
+  quote: Dritter Abschnitt.
+- line: 5260
+  quote: Viertes Capitel.
+- line: 5904
+  quote: Die Donatisten breiten sich aus als geduldete Sekte.
+- line: 6102
+  quote: Die Donatisten wachsen und werden fanatisirt als
+- line: 6686
+  quote: Dritter Abschnitt.
+- line: 6790
+  quote: FQnftes Capitel;
+- line: 6866
+  quote: Fünftes Capitel.
+- line: 6901
+  quote: — 162 —
+- line: 6915
+  quote: Persönlichkeit.
+- line: 7041
+  quote: Kampf zwischen beiden
+- line: 8155
+  quote: siebentes Capitel.
+- line: 8777
+  quote: Dritter Absdmitt
+- line: 8915
+  quote: Synode zu Cabarsussis.
+- line: 10204
+  quote: Achtes Capitel.
+- line: 10983
+  quote: Zweiter Abschnitt.
+- line: 11633
+  quote: Zweiter Theil.
+- line: 11637
+  quote: Erstes €apiteL
+- line: 13037
+  quote: Zweites CapiteL
+- line: 13703
+  quote: Drittes CapiteL
+- line: 14127
+  quote: Viertes Capitel.
+- line: 14453
+  quote: Abecedarium.
+- line: 14736
+  quote: Gegen den Brief Petilian's.
+- line: 14738
+  quote: Erstes Buch.
+- line: 15040
+  quote: Gegen den Brief Parmenian
+- line: 16183
+  quote: Taufe.
+- line: 17325
+  quote: Gegen den Brief Petilian's.
+- line: 17326
+  quote: Zweites Buch.
+- line: 17956
+  quote: Einheit der Kirche.
+- line: 18430
+  quote: Gegen den Brief Petilian's.
+- line: 18431
+  quote: Drittes Buch.
+- line: 18888
+  quote: (Zweite Hälfte.)
+- line: 18951
+  quote: Fünftes Capitel.
+- line: 19121
+  quote: Zweiter Atadiitt.
+- line: 21276
+  quote: Sechstes Capitel.
+- line: 22597
+  quote: Zweiter ibschnitt.
+- line: 23282
+  quote: Dritter TheiL
+- line: 24169
+  quote: Erster Tag.
+- line: 24856
+  quote: Zweiter Tag.
+- line: 25174
+  quote: Dritter Tag.
+- line: 27319
+  quote: Urtheil des Vorsitzenden.
+- line: 27621
+  quote: Zweites Gapiteh
+- line: 27797
+  quote: ZweHor Absdmitt.
+- line: 28003
+  quote: Dritter Abschnitt.
+- line: 28369
+  quote: Drittes Ca|>iteL
+- line: 28559
+  quote: Marcellinus' Tod.
+- line: 28802
+  quote: Augustin's Schrift
+- line: 29118
+  quote: Augustin's Verhandlung mit Emeritus.
+- line: 29277
+  quote: Augustin und Gaudentius.
+- line: 29776
+  quote: Augustinus Tod.
+- line: 29828
+  quote: Viertes Capitel.
+- line: 30221
+  quote: Inhalts-Verzeichniss.
+- line: 30701
+  quote: Druck fehler.

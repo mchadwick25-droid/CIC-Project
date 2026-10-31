@@ -12,10 +12,8 @@ assignments:
   locus_ids:
   - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
   language: deu
-  voice_of:
-  - author: harnack
-    loci: the whole volume
   date:
-    window: 1904 (publication date on the title page)
+    start: 1904
+    end: 1904
     source: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
     formation_confidence: Documented

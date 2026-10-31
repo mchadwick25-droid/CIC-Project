@@ -24,7 +24,8 @@ assignments:
     - 'line 2991: 2. Suscepto igitur inlustrandae weritatis offieio non putaui'
     language: lat
     date:
-      window: 304-311
+      start: 304
+      end: 311
       source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
       formation_confidence: Widely Accepted
 

@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 397, end: 397, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): composed about the year 397", formation_confidence: Widely Accepted}
     note: >
       Latin critical-text original standing behind the already-vendored
       NPNF1-01 English translation (Registry row 9) -- this world's own founding

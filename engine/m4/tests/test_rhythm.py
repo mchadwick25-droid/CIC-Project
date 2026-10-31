@@ -299,3 +299,9 @@ def test_the_tally_adds_no_field_to_the_session_state():
     from engine.m4.projection import SessionState
 
     assert not [name for name in SessionState.__dataclass_fields__ if any(w in name for w in ("rhythm", "voiced", "tally", "figures_introduced"))]
+
+
+def test_the_due_line_lets_the_voice_place_none_when_none_answers_the_ask():
+    assert "place none" in QUOTE_DUE_LINE
+    assert "Place one of them in full" not in QUOTE_DUE_LINE
+    assert QUOTE_DUE_LINE in _prepare([]).turn_directive

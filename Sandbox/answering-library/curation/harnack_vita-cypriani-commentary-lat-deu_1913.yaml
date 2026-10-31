@@ -1,7 +1,7 @@
 file: harnack_vita-cypriani-commentary-lat-deu_1913.txt
 scheme: 'Harnack 1913: his seven numbered sections I to VII; inside section II the Latin text of Pontius, Vita Cypriani, by its chapter numbers (printed as chapter,paragraph at the head of each chapter), and inside section VII Harnack''s German translation by the same chapter numbers; section IV by Harnack''s numbered paragraphs 1 to 5 and section V by his lettered parts a to g; the commentary and the index are not divided further'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: vita-latin
     pattern: '^(?P<c>\d{1,2})[,.]\s?[1iIl]'

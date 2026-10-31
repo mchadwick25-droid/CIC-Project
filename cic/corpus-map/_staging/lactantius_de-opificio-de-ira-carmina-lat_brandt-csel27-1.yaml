@@ -25,7 +25,8 @@ assignments:
     - 'line 3523: DE OPIFICIO BEI'
     language: lat
     date:
-      window: 303/304
+      start: 303
+      end: 304
       source: Harnack 1904 (one source)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -50,9 +51,8 @@ assignments:
     - 'line 6768: DE IRA DEI'
     language: lat
     date:
-      window: soon after the Divine Institutes
-      source: Harnack 1904 (one source)
-      formation_confidence: Dominant Modern Reconstruction
+      formation_confidence: unknown
+      checked: 'date window as first recorded: soon after the Divine Institutes; source: Harnack 1904 (one source); first recorded confidence: Dominant Modern Reconstruction'
 
   - row_id: lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1--fragments-of-lactantius
     work: "Fragments of Lactantius"
@@ -77,5 +77,5 @@ assignments:
     - 'line 11021: LIBRORVM PERDITORVM FRAGMENTA.'
     language: lat
     date:
-      window: unknown
+      formation_confidence: unknown
       checked: The English twin prints prose fragments I to IV before two poems, then a General Note. The General Note gives no date and doubts the ascription of the poems; the dates of the lost works were not found in the editions read

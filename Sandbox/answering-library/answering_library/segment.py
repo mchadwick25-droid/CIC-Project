@@ -198,7 +198,8 @@ def _curated_plan(entry, src: Source, cur: cu.Curation) -> Plan:
     if entry.suffix == ".xml" or mu.looks_like_markup(raw):
         raise cu.CurationError(f"{cur.path.name}: curation applies to plain-text files only")
     lines = raw.split("\n")
-    res = cu.resolve(cur, lines)
+    codes = [cur.language] if cur.language else codes_for(entry.filename, raw)
+    res = cu.resolve(cur, lines, codes)
     work = "\n".join(" " * len(ln) if i in res.furniture else ln for i, ln in enumerate(lines))
     offsets = res.line_offsets
     divs = [UDiv("main", offsets[d.start], offsets[d.end], d.locus, d.title, d.apparatus, d.origin)
@@ -223,7 +224,6 @@ def _curated_plan(entry, src: Source, cur: cu.Curation) -> Plan:
                                               "kinds": res.furniture_kinds},
                "curation": {"file": cur.path.name, "sha256": cur.sha256, "status": cur.status,
                             "curator": cur.curator, "scheme": cur.scheme}}
-    codes = [cur.language] if cur.language else codes_for(entry.filename, raw)
     cls = "curated" if not reasons else _fallback_class(m)
     return Plan(src, codes, False, {"main": (work, _Identity())}, [], divs, cls, evidence, summary,
                 res.furniture_words, Curated(cur, res, m, work))

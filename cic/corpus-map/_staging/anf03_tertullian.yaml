@@ -37,7 +37,8 @@ assignments:
   - div3:iv.iii.i..iv.iii.li (51 divisions)
   language: eng
   date:
-    window: 197, end of the year
+    start: 197
+    end: 197
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--apology-apologeticus-2
@@ -70,8 +71,9 @@ assignments:
   - div3:iv.iv.i..iv.iv.xxv (25 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-shows-de-spectaculis
   work: The Shows (De Spectaculis)
@@ -89,8 +91,9 @@ assignments:
   - div3:iv.v.i..iv.v.xxx (30 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-chaplet-de-corona
   work: The Chaplet (De Corona)
@@ -108,7 +111,8 @@ assignments:
   - div3:iv.vi.i..iv.vi.xvi (16 divisions)
   language: eng
   date:
-    window: '211'
+    start: 211
+    end: 211
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--to-scapula
@@ -127,7 +131,8 @@ assignments:
   - div3:iv.vii.i..iv.vii.vi (6 divisions)
   language: eng
   date:
-    window: end of 212 or the very beginning of 213
+    start: 212
+    end: 213
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--ad-nationes
@@ -146,7 +151,8 @@ assignments:
   - div3:iv.viii.i..iv.viii.iv (4 divisions)
   language: eng
   date:
-    window: 197, summer or autumn
+    start: 197
+    end: 197
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--an-answer-to-the-jews
@@ -166,8 +172,9 @@ assignments:
   - div3:iv.ix.i..iv.ix.xiv (14 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-soul-s-testimony
   work: The Soul's Testimony
@@ -185,9 +192,8 @@ assignments:
   - div3:iv.x.i..iv.x.vii (7 divisions)
   language: eng
   date:
-    window: 197 or soon after, shortly after the Apology
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
-    formation_confidence: Dominant Modern Reconstruction
+    formation_confidence: unknown
+    checked: 'date window as first recorded: 197 or soon after, shortly after the Apology; source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); first recorded confidence: Dominant Modern Reconstruction'
 - row_id: anf03_tertullian--a-treatise-on-the-soul-de-anima
   work: A Treatise on the Soul (De Anima)
   author: tertullian
@@ -204,8 +210,9 @@ assignments:
   - div3:iv.xi.i..iv.xi.lviii (58 divisions)
   language: eng
   date:
-    window: between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt) (Harnack's text places De Anima after the martyrdom of Perpetua)
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt) (Harnack''s text places De Anima after the martyrdom of Perpetua); window as first recorded: between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-prescription-against-heretics
   work: The Prescription Against Heretics
@@ -224,8 +231,9 @@ assignments:
   - div3:v.iii.i..v.iii.xlv (45 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-prescription-against-heretics-2
   work: The Prescription Against Heretics
@@ -260,8 +268,9 @@ assignments:
   - div3:v.iv.i..v.iv.vi (6 divisions)
   language: eng
   date:
-    window: 'three stages: first and second drafts within 198-202/3; third version, books I-IV, 207/8; book V between 208/9 and 213 or later'
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: three stages: first and second drafts within 198-202/3; third version, books I-IV, 207/8; book V between 208/9 and 213 or later'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-five-books-against-marcion-2
   work: The Five Books Against Marcion
@@ -308,8 +317,9 @@ assignments:
   - div3:v.v.i..v.v.xlv (45 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-the-valentinians
   work: Against the Valentinians
@@ -328,7 +338,8 @@ assignments:
   - div3:v.vi.i..v.vi.xxxix (39 divisions)
   language: eng
   date:
-    window: around 207/8
+    start: 207
+    end: 208
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-the-valentinians-2
@@ -359,8 +370,9 @@ assignments:
   - div3:v.vii.i..v.vii.xxvi (26 divisions)
   language: eng
   date:
-    window: between 208/9 and 213 or later
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: between 208/9 and 213 or later'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--on-the-flesh-of-christ-2
   work: On the Flesh of Christ
@@ -393,8 +405,9 @@ assignments:
   - div3:v.viii.i..v.viii.lxiv (64 divisions)
   language: eng
   date:
-    window: between 208/9 and 213 or later
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: between 208/9 and 213 or later'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-praxeas
   work: Against Praxeas
@@ -411,7 +424,8 @@ assignments:
   - div3:v.ix.i..v.ix.xxxiii (33 divisions)
   language: eng
   date:
-    window: c. 213-218
+    start: 213
+    end: 218
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-praxeas-2
@@ -459,7 +473,8 @@ assignments:
   - div3:v.x.i..v.x.xv (15 divisions)
   language: eng
   date:
-    window: 212 or 213
+    start: 212
+    end: 213
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--against-all-heresies-spurious-appendix
@@ -521,8 +536,9 @@ assignments:
   - div3:vi.ii.i..vi.ii.xiii (13 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--on-baptism
   work: On Baptism
@@ -540,8 +556,9 @@ assignments:
   - div3:vi.iii.i..vi.iii.xxi (21 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--on-prayer
   work: On Prayer
@@ -559,8 +576,9 @@ assignments:
   - div3:vi.iv.i..vi.iv.xxix (29 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--ad-martyras
   work: Ad Martyras
@@ -578,7 +596,8 @@ assignments:
   - div3:vi.v.i..vi.v.vi (6 divisions)
   language: eng
   date:
-    window: 197, early in the year
+    start: 197
+    end: 197
     source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
     formation_confidence: Dominant Modern Reconstruction
 - row_id: anf03_tertullian--the-passion-of-the-holy-martyrs-perpetua-and-felicitas
@@ -599,10 +618,10 @@ assignments:
   - div3:vi.vi.i..vi.vi.ix (9 divisions)
   language: eng
   date:
-    window: 7 March 202 or 203, under Severus
-    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202)'
+    start: 202
+    end: 203
+    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'
     formation_confidence: Widely Accepted
-    note: 'The visions of Perpetua and Saturus are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian as author or editor, or another hand.'
 - row_id: anf03_tertullian--on-patience
   work: On Patience
   author: tertullian
@@ -619,6 +638,7 @@ assignments:
   - div3:vi.vii.i..vi.vii.xvii (17 divisions)
   language: eng
   date:
-    window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
     formation_confidence: Dominant Modern Reconstruction

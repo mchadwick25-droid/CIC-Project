@@ -1,7 +1,7 @@
 file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 scheme: 'Robinson 1891: the Passion of S. Perpetua in chapters I to XXI, printed in the Latin text and again in the Greek text (addresses lat-ch and grc-ch); the introduction, additional notes, appendix and recensions have no numbered divisions in the edition, except the four additional notes, so they are addressed by the printed heading text plus the line number'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
   - id: latin
     pattern: '^(?:\d+ )?(?P<c>[IVX]+)\. '
@@ -23,16 +23,16 @@ divisions:
   - {start_line: 2341, locus: 'influence-of-the-apocalypse-of-peter-l2341', title: 'The Influence of the Apocalypse of Peter on the Vision of Saturus.'}
   - {start_line: 2658, locus: 'authorship-of-the-visions-l2658', title: 'The Authorship of the Visions.'}
   - {start_line: 2847, locus: 'authorship-of-the-rest-of-the-martyrdom-l2847', title: 'The Authorship of the rest of the Martyrdom.'}
-  - {start_line: 3438, locus: 'passion-texts-title-l3438', title: 'THE LATIN AND GREEK TEXTS OF THE PASSION OF S. PERPETUA.'}
+  - {start_line: 3438, locus: 'the-latin-and-greek-texts-of-the-passion-of-s-perpetua-l3438', title: 'THE LATIN AND GREEK TEXTS OF THE PASSION OF S. PERPETUA.'}
   - {start_line: 6662, locus: 'additional-notes-l6662', title: 'ADDITIONAL NOTES.'}
   - {start_line: 6665, locus: 'additional-note-1', title: 'Variants of A and B not included in the apparatus criticus.'}
   - {start_line: 6731, locus: 'additional-note-2', title: 'Note on Retranslations from a Latin Version of the N. T. in Ep'}
   - {start_line: 6901, locus: 'additional-note-3', title: 'Note on the reading of the text in c. xvi.'}
   - {start_line: 6925, locus: 'additional-note-4', title: 'The Shorter Latin Acts of the Passion of S. Perpetua.'}
   - {start_line: 7094, locus: 'appendix-l7094', title: 'APPENDIX'}
-  - {start_line: 7108, locus: 'acts-of-the-scillitan-martyrs-introduction-l7108', title: 'THE ACTS OF THE SCILLITAN MARTYRS.'}
+  - {start_line: 7108, locus: 'the-acts-of-the-scillitan-martyrs-l7108', title: 'THE ACTS OF THE SCILLITAN MARTYRS.'}
   - {start_line: 7372, locus: 'passio-sanctorum-scilitanorum-l7372', title: 'PASSIO SANCTORVM SCILITANORVM.'}
-  - {start_line: 7428, locus: 'greek-version-l7428', title: 'MAPTYPION TOY ATIOY KAI KAAAINIKOY MAPTYPOZ'}
+  - {start_line: 7428, locus: 'maptyrion-toy-atioy-kai-kaaainikoy-maptypoz-l7428', title: 'MAPTYPION TOY ATIOY KAI KAAAINIKOY MAPTYPOZ'}
   - {start_line: 7753, locus: 'acta-proconsvlaria-martyrvm-scillitanorvm-l7753', title: 'ACTA PROCONSVLARIA MARTYRVM SCILLITANORVM.'}
   - {start_line: 7818, locus: 'passio-sancti-et-beatissimi-sperati-l7818', title: 'PASSIO SANCTI ET BEATISSIMI SPERATI ET COMITVM EIVS QVI PASSI SVNT'}
 apparatus:

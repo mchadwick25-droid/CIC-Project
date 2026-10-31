@@ -1,8 +1,7 @@
 file: augustine_opera-sect-v-pars-iii-lat_zycha1900-csel41.txt
-scheme: Zycha's section numbers (Arabic, restarting at 1 in each work), printed at the head of each section and usually after the Roman chapter number; the works are addressed by their printed titles, and a section marker
-  the scan cannot read is addressed by its line number
+scheme: 'Zycha''s Arabic section numbers, restarting at 1 in each work and printed at each section head, usually after the Roman chapter numeral; works addressed by their printed titles; where the edition prints a chapter head with no section numeral, the head is addressed by its chapter numeral (De sancta virginitate XXII as sectio22, its chapter and section numbering coinciding there; De adulterinis II IIII and V as caput4 and caput5, outside the section series)'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: w0
   pattern: .
@@ -15,8 +14,6 @@ rules:
   parent: w0
   lines:
   - - 2306
-    - 2977
-  - - 2979
     - 3054
   - - 3056
     - 3247
@@ -24,6 +21,11 @@ rules:
     - 3784
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 2978
+    quote: 'VIII. 16.'
+    set:
+      s: '15'
 - id: w1
   pattern: .
   lines:
@@ -41,11 +43,14 @@ rules:
   - - 5107
     - 5109
   - - 5111
-    - 6288
-  - - 6290
     - 6830
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 6289
+    quote: '5 48.'
+    set:
+      s: '43'
 - id: w2
   pattern: .
   lines:
@@ -59,11 +64,14 @@ rules:
   - - 6832
     - 6998
   - - 7000
-    - 8228
-  - - 8230
     - 8653
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 8229
+    quote: 'XXyni. 80.'
+    set:
+      s: '30'
 - id: w3
   pattern: .
   lines:
@@ -119,8 +127,6 @@ rules:
   - - 12895
     - 14143
   - - 14145
-    - 15100
-  - - 15102
     - 15323
   - - 15325
     - 16153
@@ -128,6 +134,15 @@ rules:
     - 16240
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 15101
+    quote: 'XXXVin. 89.'
+    set:
+      s: '39'
+  - line: 13936
+    quote: 'XXII. Nunc iam'
+    set:
+      s: '22'
 - id: w6
   pattern: .
   lines:
@@ -171,13 +186,16 @@ rules:
   - - 19464
     - 19598
   - - 19600
-    - 19623
-  - - 19625
     - 19682
   - - 19684
     - 19754
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 19624
+    quote: '82.'
+    set:
+      s: '32'
 - id: w8
   pattern: .
   lines:
@@ -188,7 +206,22 @@ rules:
   pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUJOHlmnirvxy1^]{1,10}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«.*^]
   parent: w8
   lines:
-  - - 19756
+  - 19756
+  - 19858
+  locus: sectio{s|int}
+  number: s
+- id: c8
+  pattern: ^(?P<c>[IVX]{1,6})\. [A-Za-z]
+  parent: w8
+  lines:
+  - 19859
+  - 19986
+  locus: caput{c|int}
+- id: s8b
+  pattern: ^(?:\S{1,3} ){0,2}(?:[IVXLCYTUJOHlmnirvxy1^]{1,10}[.,:]? )?(?P<s>\d{1,3})[.,] ?[‘’\'"A-Za-z«.*^]
+  parent: w8
+  lines:
+  - - 19987
     - 20107
   - - 20109
     - 20297
@@ -259,13 +292,16 @@ rules:
   - - 27911
     - 28799
   - - 28801
-    - 29117
-  - - 29119
     - 29185
   - - 29187
     - 29628
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 29118
+    quote: 'XXVIIII. 87.'
+    set:
+      s: '37'
 - id: w12
   pattern: .
   lines:
@@ -286,6 +322,11 @@ rules:
     - 30608
   locus: sectio{s|int}
   number: s
+  fixes:
+  - line: 30061
+    quote: 'VI. lO.Hac'
+    set:
+      s: '10'
 - id: w13
   pattern: .
   lines:
@@ -322,19 +363,6 @@ rules:
     - 33955
   locus: sectio{s|int}
   number: s
-divisions:
-- start_line: 2978
-  locus: de-fide-et-symbolo/line2978
-- start_line: 6289
-  locus: de-fide-et-operibus/line6289
-- start_line: 8229
-  locus: de-agone-christiano/line8229
-- start_line: 15101
-  locus: de-sancta-uirginitate/line15101
-- start_line: 19624
-  locus: de-adulterinis-coniugiis-1/line19624
-- start_line: 29118
-  locus: de-opere-monachorum/line29118
 ignore:
 - pattern: ^S\. Aureli Augustini$
   kind: running-head
@@ -347,6 +375,71 @@ ignore:
   - 2300
   - 33955
 apparatus:
+- lines:
+  - 3742
+  - 3784
+  kind: front
+  locus: sigla-de-fide-et-operibus
+- lines:
+  - 6791
+  - 6830
+  kind: front
+  locus: sigla-de-agone-christiano
+- lines:
+  - 8623
+  - 8653
+  kind: front
+  locus: sigla-de-continentia
+- lines:
+  - 10697
+  - 10740
+  kind: front
+  locus: sigla-de-bono-coniugali
+- lines:
+  - 12845
+  - 12893
+  kind: front
+  locus: sigla-de-sancta-uirginitate
+- lines:
+  - 16201
+  - 16240
+  kind: front
+  locus: sigla-de-bono-uiduitatis
+- lines:
+  - 18064
+  - 18100
+  kind: front
+  locus: sigla-de-adulterinis-coniugiis-1
+- lines:
+  - 21067
+  - 21102
+  kind: front
+  locus: sigla-de-mendacio
+- lines:
+  - 23575
+  - 23619
+  kind: front
+  locus: sigla-contra-mendacium
+- lines:
+  - 26458
+  - 26502
+  kind: front
+  locus: sigla-de-opere-monachorum
+- lines:
+  - 29595
+  - 29628
+  kind: front
+  locus: sigla-de-diuinatione-daemonum
+- lines:
+  - 30568
+  - 30608
+  kind: front
+  locus: sigla-de-cura-pro-mortuis-gerenda
+- lines:
+  - 32522
+  - 32561
+  kind: front
+  locus: sigla-de-patientia
 - lines:
   - 1
   - 2304
@@ -408,6 +501,8 @@ evidence:
   quote: VL
 - line: 12898
   quote: I. 1.
+- line: 13936
+  quote: XXII. Nunc iam
 - line: 14408
   quote: XXVIIII. 29.
 - line: 15101
@@ -430,6 +525,12 @@ evidence:
   quote: XVIL 18.
 - line: 19624
   quote: '82.'
+- line: 19859
+  quote: IIII. Et uide
+- line: 19937
+  quote: V. Sicut enim
+- line: 19987
+  quote: VI. 5.
 - line: 19721
   quote: XXVin. 35.
 - line: 19755
@@ -472,6 +573,8 @@ evidence:
   quote: 1. 1.
 - line: 29825
   quote: 15 III. 7.
+- line: 30061
+  quote: VI. lO.Hac
 - line: 30455
   quote: X. 14.
 - line: 30609

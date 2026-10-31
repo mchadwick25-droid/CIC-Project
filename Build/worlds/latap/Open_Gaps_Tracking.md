@@ -72,7 +72,7 @@ Ranked by mentions of Tertullian, Minucius Felix, Arnobius, Lactantius or Commod
 **Source:** `Build/reference/method/CiC_Record_Native_World_Build_Process_V2.0.md` ("Neighbour re-confirmation"); Doc_01 §7.
 **Status:** Open. Owner: the three neighbour worlds' own threads.
 
-Doc_01 names three built neighbours: Post-Apostolic House-Church Christianity (`pahc`), Latin Pastoral-Congregational Christianity (`lpc`) and Imperial-Juridical Christianity (`ijc`). Each is asked to re-confirm its shared boundary from its own side. The request is logged in each neighbour's `Open_Gaps_Tracking.md`: `pahc` OG-44, `lpc` OG-114 and `ijc` entry 48, all dated 2026-10-29.
+Doc_01 names three built neighbours: Post-Apostolic House-Church Christianity (`pahc`), Latin Pastoral-Congregational Christianity (`lpc`) and Imperial-Juridical Christianity (`ijc`). Each is asked to re-confirm its shared boundary from its own side. The request is logged in each neighbour's `Open_Gaps_Tracking.md`: `pahc` OG-44, `lpc` OG-127 and `ijc` entry 48, all dated 2026-10-29.
 
 ## OG-11 — Tertullian's *On Modesty* chapter XXII is cited by LPC as comparandum evidence (2026-10-29)
 
@@ -223,3 +223,14 @@ Pause status: done are the approval above, the fixes of both rounds, and the mer
 **Status:** Open. Owner: the build thread, first thing on resume.
 
 Main's corpus-map tooling now validates the `date` key of each staging row and rejects the form this world's staging files use (`window`, `source`, `formation_confidence`) with "date end must be an integer year". The error repeats on the Tertullian rows of `anf03_tertullian.yaml`, the two Oehler files and other staging files this branch added keys to. Before the merge the same check passed. The fix is to rewrite the `date` keys of this world's staging files into the form the tool now asks for (integer start and end years, with the source and confidence kept in the fields the tool names), then regenerate the bucket with `corpus_map_merge.py --write-only` for these files, then run the check. It was not started at the pause, so no staging file is half edited. The same full handoff run shows one more finding in Step 0 (the Arnobius line, already flagged on purpose in the Step 0 quotation entry) and the same unset `safety_adjacent` and Step 0 review-count findings as before; checks 3, 4, 5, 7, 9, 10 and 11 pass.
+
+## OG-26 — Step 0 cap-ruling targeted review: Approved to proceed (2026-10-29)
+
+**Source:** `Build/worlds/latap/Review-Artifacts/Step0_CapRuling_Review.md`; Mark's ruling of 2026-10-29 on the Step 0 quotation change order.
+**Status:** Review closed with its verdict. Two items are left for Mark's call. Owner: Mark.
+
+The targeted Opus review checked all 24 rows of the change order against the real files and found no defect. A diff by two methods confirmed that only the 21 listed spans changed. The claim in finding 9 stands on the document's own evidence. By Mark's ruling the review does not count toward the cap. Its verdict is Approved to proceed (Step 0 only; not Frozen).
+
+On a full checkout of `main`, handoff check 8 reports 7 findings. One is the Arnobius flag the order keeps. Six are genuine quotations that the checker cannot reach: four from Harnack's *Chronologie* II, which is not yet vendored on `main`, and two from Monceaux III, which Step 0 cites without the file path. These six are pre-existing and not defects of the order.
+
+For Mark: whether a later change order adds the Monceaux path, and whether to bring all of Step 0's project-file quotations onto the single-mark convention.

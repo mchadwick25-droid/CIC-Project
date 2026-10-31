@@ -23,8 +23,9 @@ assignments:
     - 'line 565: DE SPECTACVLIS.'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-idolatry
@@ -46,8 +47,9 @@ assignments:
     - 'line 2166: DE IDOLOLATRIA.'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--ad-nationes
@@ -69,7 +71,8 @@ assignments:
     - 'line 3697: AD NATIONES LIBRI DUO.'
     language: lat
     date:
-      window: 197, summer or autumn
+      start: 197
+      end: 197
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -92,9 +95,8 @@ assignments:
     - 'line 8012: DE TESTIMONIO ANIMAE.'
     language: lat
     date:
-      window: 197 or soon after, shortly after the Apology
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
-      formation_confidence: Dominant Modern Reconstruction
+      formation_confidence: unknown
+      checked: 'date window as first recorded: 197 or soon after, shortly after the Apology; source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); first recorded confidence: Dominant Modern Reconstruction'
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--scorpiace
     work: "Scorpiace"
@@ -115,7 +117,8 @@ assignments:
     - 'line 8516: SCORPIACE.'
     language: lat
     date:
-      window: 212 or 213
+      start: 212
+      end: 213
       source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
       formation_confidence: Dominant Modern Reconstruction
 
@@ -138,8 +141,9 @@ assignments:
     - 'line 10348: DE ORATIONE.'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-baptism
@@ -161,8 +165,9 @@ assignments:
     - 'line 11486: DE BAPTISMO.'
     language: lat
     date:
-      window: 198-202/3 (Harnack's group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      start: 198
+      end: 203
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside the group is only partly certain and that part of it may fall before 198)'
       formation_confidence: Dominant Modern Reconstruction
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-modesty-de-pudicitia
@@ -187,10 +192,8 @@ assignments:
     - 'line 12447: DE PUDICITIA.'
     language: lat
     date:
-      window: not long before 222/3
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
-      formation_confidence: Dominant Modern Reconstruction
-      note: The identity of the bishop whose edict the work attacks is Contested between scholars.
+      formation_confidence: unknown
+      checked: 'date window as first recorded: not long before 222/3; source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); The identity of the bishop whose edict the work attacks is Contested between scholars.; first recorded confidence: Dominant Modern Reconstruction'
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--on-fasting-in-opposition-to-the-psychics-de-jejunio
     work: "On Fasting, in Opposition to the Psychics (De Jejunio)"
@@ -214,9 +217,8 @@ assignments:
     - 'line 15475: DE IEIUNIO ADUEESUS PSYCHICOS.'
     language: lat
     date:
-      window: soon after 217/8
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
-      formation_confidence: Dominant Modern Reconstruction
+      formation_confidence: unknown
+      checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt); first recorded confidence: Dominant Modern Reconstruction'
 
   - row_id: tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20--a-treatise-on-the-soul-de-anima
     work: "A Treatise on the Soul (De Anima)"
@@ -237,7 +239,8 @@ assignments:
     - 'line 16764: DE ANIMA.'
     language: lat
     date:
-      window: between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names
-      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt) (Harnack's text places De Anima after the martyrdom of Perpetua)
+      start: 208
+      end: 213
+      source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt) (Harnack''s text places De Anima after the martyrdom of Perpetua); window as first recorded: between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names'
       formation_confidence: Dominant Modern Reconstruction
 

@@ -10,10 +10,10 @@ canon_cells:
 use_note:
   means: "Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness."
   not_for:
-    - "a claim that the blows are a church penalty, when they belong to an illustration about unruly boys"
-    - "a claim that it describes formal public penance or excommunication"
+    - "a claim that the blows are a church penalty, when they belong to an illustration about unruly boys, or that it describes formal public penance or excommunication"
     - "a claim that the Latin asks for forgetting the fault"
     - "a claim that it describes how a person entered the church"
+    - "a warrant for striking a child or anyone today"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:

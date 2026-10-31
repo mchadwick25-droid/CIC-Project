@@ -26,7 +26,7 @@ of promotion. See "How things move" for the promotion path.
 | `engine/` | interview engine, table engine, facilitator (m5), build engine (m1–m3), audit and cost (m7, m8), API, `deeper/` (the pay-as-you-go meter, switched off), `accounts/` (the account store and sign-in, switched off) | Render (Docker COPY), CI, engine |
 | `records/` | world truth — one directory per world by registry code, holding what the world's package carries; `worlds/<code>.yaml` is the registry, one file per world. Fleet records live with the engine module that owns each kind (`engine/shape/records/`, `engine/canon/records/`, `engine/m5/records/`) | Render, CI, engine |
 | `packages/` | compiled world packages, derived from `records/`; only pinned manifests are tracked | Render, CI, engine |
-| `canon/` | sealed admission probes (fleet-shared) | CI, engine |
+| `canon/` | sealed admission probes (fleet-shared); `gold_set/`, the Answering-from-the-Sources gold set's calibration half and sealed held-out half | CI, engine, `Sandbox/Answering-From-Sources/goldset` |
 | `fixtures/` | the synthetic fixture world and seeded defects | CI, engine |
 | `cic/` | **the Library**: `texts/` (vendored public-domain editions, flat, one copy of each), `corpus-map/` (which works belong to which tradition, at which locus, in what role), `engine/` (corpus tools) | Render (`cic/texts/` only, for the in-image compile), engine gates at build time; never at runtime |
 | `cic-poc/` | the participant-facing frontend (interview and table); the proof-of-concept backend it was named for is retired | Render (Docker COPY `frontend/`), CI |

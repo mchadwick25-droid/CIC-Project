@@ -30,8 +30,6 @@ assignments:
     - 'textpart subtype=poem: n=1..41 (80 divisions)'
     language: lat
     date:
-      window: 'mainstream: mid-third century to 313; Harnack: not before c. 260 and probably after the persecution of Diocletian; minority: fifth century (Brewer)'
-      source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III
-      formation_confidence: Contested
-      note: 'Sub-claim: that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.'
+      formation_confidence: unknown
+      checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack: not before c. 260 and probably after the persecution of Diocletian; minority: fifth century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim: that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.; first recorded confidence: Contested'
 

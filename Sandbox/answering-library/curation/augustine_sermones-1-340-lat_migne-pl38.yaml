@@ -1,70 +1,263 @@
 file: augustine_sermones-1-340-lat_migne-pl38.txt
-scheme: Maurist sermon numbers 1-340, read from the Roman numeral in each sermon heading (SERMO <numeral> with its footnote mark); the CAPUT and section numbers inside a sermon are not used; three headings whose numeral the scan destroys are addressed by line (unread-numeral-line<N>)
+scheme: Maurist sermon numbers 1-340, read from the Roman numeral in each sermon heading (SERMO <numeral> with its footnote mark), addressed sermoNNN; inside the fourteen sermons that run over 5,000 words (4, 9, 32, 37, 46, 47, 51, 52, 71, 88, 117, 169, 277, 294) the printed CAPUT headings are a second level (sermoNNN/caputNN); in sermon 88 the printed head CAPITA VII et VIII is one division (caput07-08), and in sermon 294 CAPUT V and VI are printed in the middle of a line and have no division of their own; section numbers are not used
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
-- id: sermon-long
-  pattern: ^(?:[*•] )?(?:SERMONIS|SERMO|SEHMO|SERHO|SEKMO|SEIiMO|SE HMO|Sermo|SERM\(j|SE11MO) (?P<n>[IVXLCivxclUHYPTrfRG1n.!]+) ?(?:[*•‘’“»■"'(\[]|[0-9,] \()
-  lines:
-  - [70339, 70339]
-  - [79062, 79062]
-  - [89075, 89075]
-  - [90318, 90318]
-  - [91417, 91417]
-  - [91504, 91504]
-  - [102087, 102087]
-  - [102932, 102932]
-  - [103979, 103979]
-  locus: sermo{n|int:3}
-  number: n
-  allow_oversize: The sermon number is the Maurist citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
-  fixes:
-  - line: 70339
-    set: {n: '188'}
-  - line: 79062
-    set: {n: '238'}
-  - line: 89075
-    set: {n: '278'}
-  - line: 90318
-    set: {n: '283'}
-  - line: 91417
-    set: {n: '287'}
-  - line: 91504
-    set: {n: '288'}
-  - line: 102087
-    set: {n: '328'}
-  - line: 102932
-    set: {n: '333'}
-  - line: 103979
-    set: {n: '338'}
 - id: sermon-first
   pattern: '^SERMO PRIMUS '
   lines:
   - [937, 937]
   locus: sermo001
 - id: sermon
-  pattern: ^(?:[*•] )?(?:SERMONIS|SERMO|SEHMO|SERHO|SEKMO|SEIiMO|SE HMO|Sermo|SERM\(j|SE11MO) (?P<n>(?!CCIXVII(?![A-Za-z])|CCCIXXYH(?![A-Za-z]))[IVXLCivxclUHYPTrfRG1n.!]+) ?(?:[*•‘’“»■"'(\[]|[0-9,] \()
+  pattern: ^(?:[*•] )?(?:SERMONIS|SERMO|SEHMO|SERHO|SEKMO|SEIiMO|SE HMO|Sermo|SERM\(j|SE11MO) (?P<n>[IVXLCivxclUHYPTrfRG1n.!]+) ?(?:[*•‘’“»■"'(\[]|[0-9,] \()
   lines:
   - [938, 104456]
   locus: sermo{n|int:3}
   number: n
-  allow_oversize: The sermon number is the Maurist citation unit of this volume; the CAPUT and section numbers restart inside every sermon, so a sermon is the finest division the volume numbers on its own.
-  ocr_map: {'1': I, l: I, i: I, U: II, H: II, Y: V, P: I, T: I, r: I, G: C, n: II, .: ''}
+  ocr_map: {'1': I, l: I, i: I, U: II, H: II, Y: V, P: I, T: I, r: I, G: C, n: II, .: '', '!': I}
   fixes:
   - line: 55002
     set: {n: CXLIII}
   - line: 87661
     set: {n: CCLXXIII}
+  - line: 4026
+    quote: SERMONIS VHP,
+    set: {n: VIII}
+  - line: 39023
+    quote: SEKMO KC
+    set: {n: XC}
+  - line: 69336
+    quote: SERMO CLXXX1K
+    set: {n: CLXXXIII}
+  - line: 77245
+    quote: SERMO CCIXVII
+    set: {n: CCXXVII}
+  - line: 77495
+    quote: SERMO CCXXI X
+    set: {n: CCXXIX}
+  - line: 77587
+    quote: SERMO CCXXXF
+    set: {n: CCXXXI}
+  - line: 99047
+    quote: SERMO CCdX
+    set: {n: CCCIX}
+  - line: 101235
+    quote: SERMO CCCMt
+    set: {n: CCCXIX}
+  - line: 103781
+    quote: SERMO CCCIXXYH
+    set: {n: CCCXXXVII}
+- id: caput
+  parent: sermon
+  pattern: ^(?:CAPUT|CA\.PUT|CAPllT|CAPU1|CAPITA)\.? ?'?(?P<c>PRIMUM|[IVXLCivxlcYH1|]+)[ .,]*[—_-]
+  lines:
+  - [1636, 2996]
+  - [4587, 5746]
+  - [13334, 14120]
+  - [15120, 16142]
+  - [18623, 20405]
+  - [20406, 21883]
+  - [23040, 24551]
+  - [24552, 25267]
+  - [30996, 32529]
+  - [46252, 46982]
+  - [64175, 64954]
+  - [88330, 89074]
+  locus: caput{c|int:2}
+  number: c
+  ocr_map: {'1': I, l: I, i: I, '|': I, H: II, Y: V}
+  fixes:
+  - line: 1912
+    quote: CAPUT V IH.
+    set: {c: VIII}
+  - line: 24188
+    quote: CAPUT XVII I.
+    set: {c: XVIII}
+  - line: 24348
+    quote: CAPUT XXL
+    set: {c: XXI}
+  - line: 46709
+    quote: CAPUT IXl
+    set: {c: IX}
+  - line: 13685
+    quote: CAPUT XU.
+    set: {c: XII}
+  - line: 13704
+    quote: CAPUT XU1.
+    set: {c: XIII}
+  - line: 20762
+    quote: CAPUT VIU.
+    set: {c: VIII}
+  - line: 24672
+    quote: CAPUT IU.
+    set: {c: III}
+  - line: 14049
+    quote: VPUT  XXVII.
+    set: {c: XXVII}
+  - line: 88756
+    quote: CAPUT  XII.
+    set: {c: XII}
 divisions:
-- {start_line: 4026, locus: sermo008}
-- {start_line: 39023, locus: sermo090}
-- {start_line: 69336, locus: sermo183}
-- {start_line: 77245, locus: unread-numeral-line77245}
-- {start_line: 77495, locus: sermo229}
-- {start_line: 77587, locus: sermo231}
-- {start_line: 99047, locus: sermo309}
-- {start_line: 101235, locus: unread-numeral-line101235}
-- {start_line: 103781, locus: unread-numeral-line103781}
+- start_line: 37668
+  parent: sermon
+  locus: caput01
+  title: ''
+- start_line: 37693
+  parent: sermon
+  locus: caput02
+  title: ''
+- start_line: 37742
+  parent: sermon
+  locus: caput03
+  title: ''
+- start_line: 37801
+  parent: sermon
+  locus: caput04
+  title: ''
+- start_line: 37864
+  parent: sermon
+  locus: caput05
+  title: ''
+- start_line: 37888
+  parent: sermon
+  locus: caput06
+  title: ''
+- start_line: 37916
+  parent: sermon
+  locus: caput07-08
+  title: ''
+- start_line: 37972
+  parent: sermon
+  locus: caput09
+  title: ''
+- start_line: 37997
+  parent: sermon
+  locus: caput10
+  title: ''
+- start_line: 38037
+  parent: sermon
+  locus: caput11
+  title: ''
+- start_line: 38105
+  parent: sermon
+  locus: caput12
+  title: ''
+- start_line: 38121
+  parent: sermon
+  locus: caput13
+  title: ''
+- start_line: 38151
+  parent: sermon
+  locus: caput14
+  title: ''
+- start_line: 38205
+  parent: sermon
+  locus: caput15
+  title: ''
+- start_line: 38259
+  parent: sermon
+  locus: caput16
+  title: ''
+- start_line: 38316
+  parent: sermon
+  locus: caput17
+  title: ''
+- start_line: 38356
+  parent: sermon
+  locus: caput18
+  title: ''
+- start_line: 38429
+  parent: sermon
+  locus: caput19
+  title: ''
+- start_line: 38522
+  parent: sermon
+  locus: caput20
+  title: ''
+- start_line: 38565
+  parent: sermon
+  locus: caput21
+  title: ''
+- start_line: 38617
+  parent: sermon
+  locus: caput22
+  title: ''
+- start_line: 93803
+  parent: sermon
+  locus: caput01
+  title: ''
+- start_line: 93858
+  parent: sermon
+  locus: caput02
+  title: ''
+- start_line: 93918
+  parent: sermon
+  locus: caput03
+  title: ''
+- start_line: 93985
+  parent: sermon
+  locus: caput04
+  title: ''
+- start_line: 94045
+  parent: sermon
+  locus: caput07
+  title: ''
+- start_line: 94095
+  parent: sermon
+  locus: caput08
+  title: ''
+- start_line: 94135
+  parent: sermon
+  locus: caput09
+  title: ''
+- start_line: 94190
+  parent: sermon
+  locus: caput10
+  title: ''
+- start_line: 94243
+  parent: sermon
+  locus: caput11
+  title: ''
+- start_line: 94275
+  parent: sermon
+  locus: caput12
+  title: ''
+- start_line: 94315
+  parent: sermon
+  locus: caput13
+  title: ''
+- start_line: 94351
+  parent: sermon
+  locus: caput14
+  title: ''
+- start_line: 94391
+  parent: sermon
+  locus: caput15
+  title: ''
+- start_line: 94441
+  parent: sermon
+  locus: caput16
+  title: ''
+- start_line: 94476
+  parent: sermon
+  locus: caput17
+  title: ''
+- start_line: 94512
+  parent: sermon
+  locus: caput18
+  title: ''
+- start_line: 94545
+  parent: sermon
+  locus: caput19
+  title: ''
+- start_line: 94595
+  parent: sermon
+  locus: caput20
+  title: ''
+- start_line: 94647
+  parent: sermon
+  locus: caput21
+  title: ''
 ignore:
 - pattern: '^(?:\S{1,6} )?(?:S\. AUGUSTINI EPISCOPI )?SERMO(?: [IVXLCivxclUHYPTrfGKd1n.!]{1,14})?\.?(?: (?=[A-Za-z]*[0-9«%$&])[0-9A-Za-z«»%$&]{1,6})?[ ,.]*$'
   kind: running-head
@@ -155,3 +348,35 @@ evidence:
 - {line: 87649, quote: S. AURELII AUGUSTINI}
 - {line: 87658, quote: CLASSIS III. DE SANCTIS.}
 - {line: 935, quote: CLASSIS PRIMA.}
+- {line: 1642, quote: 'CAPUT PRIMUM. — i. Spirilualiler'}
+- {line: 1673, quote: 'CAPUT 11. —'}
+- {line: 1854, quote: 'CAPUT VH —'}
+- {line: 1912, quote: 'CAPUT V IH. —'}
+- {line: 2656, quote: 'CAPUT XXV11I. —'}
+- {line: 2981, quote: 'CAPUT XXXIV. —'}
+- {line: 13685, quote: 'CAPUT XU. —'}
+- {line: 13704, quote: 'CAPUT XU1. —'}
+- {line: 14049, quote: 'VPUT XXVII. — 27.'}
+- {line: 14088, quote: 'CAPUT XXVIII. —'}
+- {line: 20762, quote: 'CAPUT VIU. —'}
+- {line: 24188, quote: 'CAPUT XVII I. —'}
+- {line: 24348, quote: 'CAPUT XXL —'}
+- {line: 24672, quote: 'CAPUT IU. —'}
+- {line: 38617, quote: 'CAPUT XXU.—'}
+- {line: 37916, quote: 'CAPITA VII et VIII. —'}
+- {line: 37972, quote: 'CAPUT IX. — 8.'}
+- {line: 46465, quote: 'CAPUT |V. —'}
+- {line: 46709, quote: 'CAPUT IXl —'}
+- {line: 88756, quote: 'CAPUT XII. — 12.'}
+- {line: 93918, quote: 'CAPUT IU. —'}
+- {line: 93985, quote: 'CAPUT IV. — Ecce exposuit'}
+- {line: 93997, quote: 'non CAPUT VI. — Respondete'}
+- {line: 94045, quote: 'CAPUT VII. — 7.'}
+- {line: 94275, quote: 'C.iPUT XII. — Misit'}
+- {line: 94647, quote: 'CAPUT XXI. — 20.'}
+- {line: 4294, quote: 'SERMO VIII.'}
+- {line: 69379, quote: 'SERMO CLXXXllI.'}
+- {line: 63290, quote: 'SERMO CLXV • (i).'}
+- {line: 103885, quote: 'SERMO GCCXXXYIU'}
+- {line: 101411, quote: 'SERMO CCCXX*'}
+- {line: 77382, quote: 'SERMO CCXXVIIl'}

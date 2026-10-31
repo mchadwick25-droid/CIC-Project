@@ -10,15 +10,16 @@ assignments:
       - latin-apologists
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt: header gives Publication Date 1901; year read from the foot of the title page; no edition statement; the Avant-propos has no dateline in the OCR; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1901) French history of Roman Carthage. Registry row 239.
     locus_ids:
     - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
     language: fra
-    voice_of:
-    - author: audollent
-      loci: the whole volume
     date:
-      window: 1901 (publication date on the title page)
+      start: 1901
+      end: 1901
       source: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
       formation_confidence: Documented

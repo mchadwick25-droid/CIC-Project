@@ -23,8 +23,8 @@ assignments:
     - 'line 88: M. MINUCII FELICIS'
     language: lat
     date:
-      window: c. 160-192 or c. 200-250; no single date can be given
-      source: Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger 1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals)
+      start: 160
+      end: 250
+      source: 'Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger 1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals); window as first recorded: c. 160-192 or c. 200-250; no single date can be given; Two poles. Pole A lies before Tertullian''s Apology and outside the window; pole B lies after it and inside the window.'
       formation_confidence: Contested
-      note: Two poles. Pole A lies before Tertullian's Apology and outside the window; pole B lies after it and inside the window.
 

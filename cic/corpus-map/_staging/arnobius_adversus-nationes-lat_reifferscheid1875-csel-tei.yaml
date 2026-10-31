@@ -27,8 +27,8 @@ assignments:
     - 'textpart subtype=section: n=1..78 (347 divisions)'
     language: lat
     date:
-      window: c. 295-310
-      source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III (between 284 and 311)
+      start: 295
+      end: 310
+      source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III (between 284 and 311); Finer order (books I-II first, later books after the edicts of 303) is Dominant Modern Reconstruction.
       formation_confidence: Widely Accepted
-      note: Finer order (books I-II first, later books after the edicts of 303) is Dominant Modern Reconstruction.
 

@@ -15,6 +15,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "P1 dates only the whole letter collection (386-429); the npnf101 headings cover 168 of about 270 letters; no repo text dates this volume's range of letters"}
     note: >
       The Latin original of the same letters already assigned to lpc from
       the vendored NPNF translation (npnf101), covering letters 185-270 -

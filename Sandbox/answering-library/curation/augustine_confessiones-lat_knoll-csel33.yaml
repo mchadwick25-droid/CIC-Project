@@ -2,7 +2,7 @@ file: augustine_confessiones-lat_knoll-csel33.txt
 scheme: 'Knoll''s book and chapter numbers: each book opens with its printed heading LIBER and the ordinal, and each chapter with its Roman numeral and a full stop (1 to 13 books; the section numbers in
   the margin are not used for addresses)'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 rules:
 - id: liber1
   pattern: '^(?:\d )?L[IT]BER \S+(?: DECIMVS)?\.$'

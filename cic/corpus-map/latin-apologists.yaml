@@ -7,8 +7,19 @@ works:
   work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
   author: arnobius
   locus: div2 12.3
+  locus_ids:
+  - div2:xii.iii
+  - div3:xii.iii.i..xii.iii.ix (9 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 295
+    end: 310
+    source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III
+      (between 284 and 311); Finer order (books I-II first, later books after the edicts of
+      303) is Dominant Modern Reconstruction.
+    formation_confidence: Widely Accepted
   note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius.
     Filed under latin-apologists rather than latin-pastoral-congregational-christianity: combative
     apologetics by a recent convert, not congregational pastoralia - a hundred and forty thousand
@@ -22,8 +33,18 @@ works:
   work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
   author: arnobius
   locus: file line 876 (heading 'LIBER PRIMVS', opening of Book I)
+  locus_ids:
+  - 'line 876: LIBER PRIMVS'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 295
+    end: 310
+    source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III
+      (between 284 and 311); Finer order (books I-II first, later books after the edicts of
+      303) is Dominant Modern Reconstruction.
+    formation_confidence: Widely Accepted
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid,
     CSEL 4 (Vienna, 1875), a critical edition with commentary. The Latin OCR is readable running
@@ -37,8 +58,20 @@ works:
   work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
   author: arnobius
   locus: file line 102 (start of the TEI <body>, Book I follows)
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0034.stoa001.opp-lat1
+  - 'textpart subtype=book: n=1..7 (7 divisions)'
+  - 'textpart subtype=section: n=1..78 (347 divisions)'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 295
+    end: 310
+    source: ANF06 introductory notice ('297-303'); Harnack 1904 (304-310); Monceaux 1901 III
+      (between 284 and 311); Finer order (books I-II first, later books after the edicts of
+      303) is Dominant Modern Reconstruction.
+    formation_confidence: Widely Accepted
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-
     arnobius.xml) in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid,
@@ -55,8 +88,17 @@ works:
   work: Audollent, Carthage romaine, 146 av. J.-C. - 698 ap. J.-C. (1901)
   author: audollent
   locus: whole file; chapter Les chretiens at file line 47700
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: provisional
+  language: fra
+  date:
+    start: 1901
+    end: 1901
+    source: audollent_carthage-romaine-146-av-jc-698-ap-jc-fra_1901.txt
+    formation_confidence: Documented
   note: 'Modern (1901) French history of Roman Carthage. Registry row 239.
 
     '
@@ -65,8 +107,17 @@ works:
   work: Carthage romaine (Audollent, 1901)
   author: audollent
   locus: whole file; title page at file line 33
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: provisional
+  language: fra
+  date:
+    start: 1901
+    end: 1901
+    source: audollent_carthage-romaine-fra_1901.txt
+    formation_confidence: Documented
   note: 'Modern (1901) French scholarship, role context, not tradition. Not a primary source
     and not a witness to any ancient text. The standard history of Roman Carthage, 146 BC
     to 698 AD, the city of Cyprian''s episcopate and of Augustine''s schooling and preaching.
@@ -78,8 +129,17 @@ works:
   work: Brewer, Kommodian von Gaza (1906)
   author: brewer
   locus: whole file
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: assigned
+  language: deu
+  date:
+    start: 1906
+    end: 1906
+    source: brewer_kommodian-von-gaza-deu_1906.txt
+    formation_confidence: Documented
   note: 'Modern German monograph, role context, not tradition. Argues the minority fifth-century
     date for Commodian (between 458 and 466). Read for that thesis only. Consultation only:
     no world''s own voice.'
@@ -88,8 +148,20 @@ works:
   work: Carmen apologeticum (Commodian)
   author: commodian
   locus: file line 101 (start of the TEI <body>, the poem follows)
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0096.stoa004.opp-lat2
+  - no textpart divisions in the file; verse lines are carried by <lb n="..."/> (n=1 to 955
+    where numbered)
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack:
+      not before c. 260 and probably after the persecution of Diocletian; minority: fifth
+      century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim:
+      that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.;
+      first recorded confidence: Contested'
   note: 'Commodian''s Carmen apologeticum in the University of Leipzig''s machine-corrected
     TEI transcription of CSEL 15 (Dombart, 1887; OCR corrected by the project, not a fresh
     human edition). NO English twin is vendored (ANF04 carries only the Instructions), so
@@ -105,8 +177,18 @@ works:
   work: Carmen apologeticum (Commodian)
   author: commodian
   locus: file line 8557 (heading 'CARMEN APOLOGETICVM.')
+  locus_ids:
+  - 'line 8557: CARMEN APOLOGETICVM.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack:
+      not before c. 260 and probably after the persecution of Diocletian; minority: fifth
+      century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim:
+      that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.;
+      first recorded confidence: Contested'
   note: 'Commodian''s second poem, in the same CSEL 15 volume as the Instructiones; NO English
     twin is vendored (ANF04 carries only the Instructions), so this is a new work entry in
     latin- apologists, given the same role and confidence as the Instructiones (tradition,
@@ -121,8 +203,19 @@ works:
   work: The Instructions of Commodianus (Instructiones)
   author: commodian
   locus: div2 5.2 - The Instructions of Commodianus
+  locus_ids:
+  - div2:v.ii
+  - div3:v.ii.i..v.ii.lxxxi (81 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack:
+      not before c. 260 and probably after the persecution of Diocletian; minority: fifth
+      century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim:
+      that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.;
+      first recorded confidence: Contested'
   note: 'Latin Christian acrostic verse instruction, placed with the rest of the Latin apologetic
     body under latin-apologists. PROVISIONAL, NOT ASSIGNED, and the reason is the date rather
     than the shelf: proposals run from the 3rd century to the 5th, and only the early ones
@@ -136,8 +229,18 @@ works:
   work: The Instructions of Commodianus (Instructiones)
   author: commodian
   locus: file line 1368 (heading 'COMMODIANI INSTRVCTIONES')
+  locus_ids:
+  - 'line 1368: COMMODIANI INSTRVCTIONES'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack:
+      not before c. 260 and probably after the persecution of Diocletian; minority: fifth
+      century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim:
+      that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.;
+      first recorded confidence: Contested'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Dombart, CSEL 15
     (Vienna, 1887), a critical edition with commentary. The Latin OCR is readable running
@@ -151,8 +254,22 @@ works:
   work: The Instructions of Commodianus (Instructiones)
   author: commodian
   locus: file line 103 (start of the TEI <body>, Instructiones follow)
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0096.stoa003.opp-lat2
+  - 'textpart subtype=MSS: no n attribute (1 divisions)'
+  - 'textpart subtype=book: n=1..2 (2 divisions)'
+  - 'textpart subtype=toc: no n attribute (2 divisions)'
+  - 'textpart subtype=poem: n=1..41 (80 divisions)'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack:
+      not before c. 260 and probably after the persecution of Diocletian; minority: fifth
+      century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim:
+      that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.;
+      first recorded confidence: Contested'
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Dombart, CSEL 15
@@ -170,8 +287,18 @@ works:
   locus: file line 108 (first text of the TEI body, opening 'Oblatrantem te et aduersus Deum');
     urn:cts:latinLit:stoa0104a.stoa002.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
     lines 12664-13428
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0104a.stoa002.opp-lat1
+  - 'textpart subtype=section: n=1..26 (26 divisions)'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 251
+    end: 253
+    source: Harnack 1904 (end of 251 or beginning of 252, 'mit einiger Wahrscheinlichkeit');
+      Monceaux 1901 II (252 or 253)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
     hold: Cyprian''s reply to the pagan Demetrianus, who blamed Christians for the calamities
     of the age. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s critical text (Pars I,
@@ -190,8 +317,17 @@ works:
   work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
   locus: div3 under 4.5 - Treatise V
+  locus_ids:
+  - div3:iv.v.v
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 251
+    end: 253
+    source: Harnack 1904 (end of 251 or beginning of 252, 'mit einiger Wahrscheinlichkeit');
+      Monceaux 1901 II (252 or 253)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Cross-linked from a Source Readiness Dossier finding. Cyprian himself is not one
     of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian); this
     is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
@@ -206,8 +342,17 @@ works:
   author: cyprian
   locus: file line 12656 (heading 'AD DEMETRIANVM' (OCR 'AB'); opening words 'sacrilego et
     uerbis impiis obstrepentem frequenter, Demetriane' at line 12666)
+  locus_ids:
+  - 'line 12656: AB DEMETRIANVM.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 251
+    end: 253
+    source: Harnack 1904 (end of 251 or beginning of 252, 'mit einiger Wahrscheinlichkeit');
+      Monceaux 1901 II (252 or 253)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf05_hippolytus-cyprian-caius-novatian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel, CSEL 3
     part 1 (Vienna, 1868), already vendored. The Latin OCR is readable running text, so this
@@ -221,31 +366,56 @@ works:
   work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
   locus: div3 under 4.5 - Treatise VI
+  locus_ids:
+  - div3:iv.v.vi
   role: transmission
   confidence: provisional
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: after Tertullian''s Apology and the Octavius;
+      before its insertion into the Cyprianic collection, at the latest early in the fourth
+      century; source: Harnack 1904, printed pp. 336-337, reporting Soden on the manuscript
+      tradition; Authorship is Contested: Harnack (1904) argues against Cyprian; Monceaux
+      and Bardenhewer defend him, as Harnack reports. If Cyprian wrote it, it falls in his
+      lifetime (to 258).; first recorded confidence: Contested'
   note: 'Cross-linked from a Source Readiness Dossier finding. Filed as transmission, not
     tradition, given the same disputed authorship already noted above - but that dependency
     cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix,
     both already primary authors here, which makes it a plausible transmission-tier link even
-    while its own authorship stays contested.
-
-    '
+    while its own authorship stays contested. Voices recorded for this work: felix (chs. 1-9,
+    largely word for word (Harnack 1904, printed pp. 336-337)); tertullian (chs. 10-15, Apology
+    21-23 copied with slight changes (Harnack 1904, printed pp. 336-337)); unknown (the compiler;
+    ascribed to Cyprian in the manuscript tradition, authorship Contested).'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - row_id: cyprian_apologetic-treatises-in-hartel-csel3-lat-latin-apologists--on-the-vanity-of-idols-quod-idola-dii-non-sint
   work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
   locus: file line 598 (heading 'QVOD IDOLA DII NON SINT.' (OCR 'BII'); the 'QVOD IDOLA' line
     at 11640 is a Testimonia chapter title, not this treatise)
+  locus_ids:
+  - 'line 598: QVOD IDOLA BII NON SINT.'
   role: transmission
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: after Tertullian''s Apology and the Octavius;
+      before its insertion into the Cyprianic collection, at the latest early in the fourth
+      century; source: Harnack 1904, printed pp. 336-337, reporting Soden on the manuscript
+      tradition; Authorship is Contested: Harnack (1904) argues against Cyprian; Monceaux
+      and Bardenhewer defend him, as Harnack reports. If Cyprian wrote it, it falls in his
+      lifetime (to 258).; first recorded confidence: Contested'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf05_hippolytus-cyprian-caius-novatian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel, CSEL 3
     part 1 (Vienna, 1868), already vendored. The Latin OCR is readable running text, so this
     file is ready to quote once each quote is verified verbatim against it (INTAKE section
     6); the English a Representative speaks is rendered from it, with the vendored English
-    as a cross-check. Mirrors the English twin''s role and confidence exactly.
-
-    '
+    as a cross-check. Mirrors the English twin''s role and confidence exactly. Voices recorded
+    for this work: felix (chs. 1-9, largely word for word (Harnack 1904, printed pp. 336-337));
+    tertullian (chs. 10-15, Apology 21-23 copied with slight changes (Harnack 1904, printed
+    pp. 336-337)); unknown (the compiler; ascribed to Cyprian in the manuscript tradition,
+    authorship Contested).'
   source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 - row_id: cyprian_quod-idola-dii-non-sint-lat_hartel1868-csel3-tei--quod-idola-dii-non-sint-csel-3-latin-text-tei-2
   work: Quod Idola Dii Non Sint, CSEL 3 Latin text (TEI)
@@ -253,8 +423,20 @@ works:
   locus: file line 109 (first text of the TEI body, opening 'Deos non esse, quos colit uulgus');
     urn:cts:latinLit:stoa0104a.stoa006.opp-lat1; scan twin cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
     lines 598-1118
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0104a.stoa006.opp-lat1
+  - 'textpart subtype=section: n=1..15 (15 divisions)'
   role: transmission
   confidence: provisional
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: after Tertullian''s Apology and the Octavius;
+      before its insertion into the Cyprianic collection, at the latest early in the fourth
+      century; source: Harnack 1904, printed pp. 336-337, reporting Soden on the manuscript
+      tradition; Authorship is Contested: Harnack (1904) argues against Cyprian; Monceaux
+      and Bardenhewer defend him, as Harnack reports. If Cyprian wrote it, it falls in his
+      lifetime (to 258).; first recorded confidence: Contested'
   note: 'Latin original of the work the English twin row(s) in anf05_hippolytus-cyprian-caius-novatian.xml
     hold: the treatise on the vanity of idols. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hartel''s
     critical text (Pars I, Vienna: Gerold, 1868), in the University of Leipzig''s machine-corrected
@@ -265,16 +447,31 @@ works:
     lines 598-1118), which carries the manuscript sigla and the variant readings in place
     on the printed page; this file keeps the footnotes only as unaligned note text. CC BY-SA
     4.0, so attribution and share-alike travel with any quotation. Mirrors the English twin''s
-    roles and confidence exactly.
-
-    '
+    roles and confidence exactly. Voices recorded for this work: felix (chs. 1-9, largely
+    word for word (Harnack 1904, printed pp. 336-337)); tertullian (chs. 10-15, Apology 21-23
+    copied with slight changes (Harnack 1904, printed pp. 336-337)); unknown (the compiler;
+    ascribed to Cyprian in the manuscript tradition, authorship Contested).'
   source_file: cyprian_quod-idola-dii-non-sint-lat_hartel1868-csel3-tei.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix
   work: The Octavius of Minucius Felix
   author: felix
   locus: div2 4.3 - The Octavius of Minucius Felix
+  locus_ids:
+  - div2:iv.iii
+  - div3:iv.iii.i..iv.iii.xlii (42 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 160
+    end: 250
+    source: 'Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under
+      Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger
+      1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals);
+      window as first recorded: c. 160-192 or c. 200-250; no single date can be given; Two
+      poles. Pole A lies before Tertullian''s Apology and outside the window; pole B lies
+      after it and inside the window.'
+    formation_confidence: Contested
   note: 'Earliest surviving Latin apologetic dialogue (Rome/Ostia, late 2nd-3rd c.). latin-apologists
     (I.43) was minted for this gap, on the I.35 precedent - the Greek apologists had been
     registered on the same reasoning and the Latin case had simply never been made. Note kept
@@ -290,8 +487,21 @@ works:
   author: felix
   locus: file line 88 (title page 'M. MINUCII FELICIS OCTAVIUS'; the text begins after Boenig's
     preface)
+  locus_ids:
+  - 'line 88: M. MINUCII FELICIS'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 160
+    end: 250
+    source: 'Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under
+      Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger
+      1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals);
+      window as first recorded: c. 160-192 or c. 200-250; no single date can be given; Two
+      poles. Pole A lies before Tertullian''s Apology and outside the window; pole B lies
+      after it and inside the window.'
+    formation_confidence: Contested
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Boenig, Teubner
     (Leipzig, 1903), a critical text with preface and apparatus. The Latin OCR is readable
@@ -305,8 +515,23 @@ works:
   work: The Octavius of Minucius Felix
   author: felix
   locus: file line 102 (start of the TEI <body>, Octavius follows)
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0203.stoa001.opp-lat2
+  - 'textpart subtype=chapter: n=1..40 (40 divisions)'
+  - 'textpart subtype=section: n=1..15 (304 divisions)'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 160
+    end: 250
+    source: 'Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under
+      Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger
+      1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals);
+      window as first recorded: c. 160-192 or c. 200-250; no single date can be given; Two
+      poles. Pole A lies before Tertullian''s Apology and outside the window; pole B lies
+      after it and inside the window.'
+    formation_confidence: Contested
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Halm, CSEL 2 (1867),
@@ -324,8 +549,21 @@ works:
   author: felix
   locus: file line 126 (title page 'M. MINUCII FELICIS OCTAVIUS'; the text begins after Waltzing's
     preface)
+  locus_ids:
+  - 'line 126: M. MINUCII FELICIS'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 160
+    end: 250
+    source: 'Monceaux 1901 I; Harnack 1904 (not written in the second century; possibly under
+      Alexander Severus, more probably between Maximinus Thrax and Decius); Schanz-Hosius-Krueger
+      1922 (declines to choose); ANF04 notices (Coxe c. 205-230; Wallis gives both conditionals);
+      window as first recorded: c. 160-192 or c. 200-250; no single date can be given; Two
+      poles. Pole A lies before Tertullian''s Apology and outside the window; pole B lies
+      after it and inside the window.'
+    formation_confidence: Contested
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Waltzing, Teubner
     (Leipzig, 1912), a critical text with commentary and apparatus. The Latin OCR is readable
@@ -340,8 +578,19 @@ works:
     42419)
   author: gennadius
   locus: div3 v.iv.xvi, Chapter XV
+  locus_ids:
+  - div3:v.iv.xvi (Chapter XV)
   role: context
   confidence: assigned
+  language: eng
+  date:
+    start: 477
+    end: 494
+    source: 'harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
+      (file line 24439); window as first recorded: composed after the death of Jerome (the
+      Gennadius continuation); Harnack 1904 says Gennadius wrote certainly between 477 and
+      494'
+    formation_confidence: Widely Accepted
   note: 'Gennadius''s notice of Commodian: a convert from secular literature who wrote, in
     rough verse, Against the pagans. It gives no date. The file''s gloss ''Flourished about
     270'' with the remark that opinions differ from 250 to nearly a century later is the NPNF
@@ -351,8 +600,17 @@ works:
   work: Harnack, Die Chronologie der altchristlichen Litteratur bis Eusebius, Band 2 (1904)
   author: harnack
   locus: whole file
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: assigned
+  language: deu
+  date:
+    start: 1904
+    end: 1904
+    source: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt
+    formation_confidence: Documented
   note: 'Modern German scholarship on dating, role context, not tradition. The dating authority
     for Minucius Felix, Commodian, Arnobius, Lactantius, Tertullian, the Passion of Perpetua
     and the Cyprianic writings of this shelf (Tertullian chronology table at printed pp. 295-296).
@@ -363,8 +621,20 @@ works:
     presbyter' (file line 40489)
   author: jerome
   locus: div3 v.iii.lv, Chapter LIII
+  locus_ids:
+  - div3:v.iii.lv (Chapter LIII)
   role: context
   confidence: assigned
+  language: eng
+  date: &id001
+    start: 392
+    end: 392
+    source: 'npnf203_theodoret-jerome-gennadius-rufinus.xml, prologue of the Lives of Illustrious
+      Men (div3 v.iii.i); window as first recorded: the work states its end point as the fourteenth
+      year of the Emperor Theodosius (file line 38785); the NPNF note there prints ''a.d.
+      492'', which reads as a misprint for 392 since Theodosius reigned from 379; The date
+      is the work''s own terminal statement. The year number 392 is the reading of that statement.'
+    formation_confidence: Documented
   note: 'Jerome''s notice of Tertullian: presbyter of the church until middle life, then a
     lapse to the doctrine of Montanus; it names four works written against the church (On
     modesty, On persecution, On fasts, On monogamy). The file''s gloss ''Born about 160, christian
@@ -376,8 +646,12 @@ works:
     (file line 40642)
   author: jerome
   locus: div3 v.iii.lx, Chapter LVIII
+  locus_ids:
+  - div3:v.iii.lx (Chapter LVIII)
   role: context
   confidence: assigned
+  language: eng
+  date: *id001
   note: 'Jerome''s notice of Minucius Felix: a distinguished advocate of Rome, author of the
     Octavius, to whom another work, On fate, is also ascribed; Jerome adds that Lactantius
     mentions him. The file''s gloss ''Flourished 196?'' is the NPNF editor''s. Context, not
@@ -388,8 +662,12 @@ works:
     (file line 41017)
   author: jerome
   locus: div3 v.iii.lxxxi, Chapter LXXIX
+  locus_ids:
+  - div3:v.iii.lxxxi (Chapter LXXIX)
   role: context
   confidence: assigned
+  language: eng
+  date: *id001
   note: 'Jerome''s notice of Arnobius: a teacher of rhetoric at Sicca in Africa under Diocletian,
     who wrote volumes Against the nations. It says nothing of a dream, a bishop or a pledge;
     those belong to Jerome''s Chronicle, which is not vendored. Context, not tradition.'
@@ -399,8 +677,12 @@ works:
     Lactantius' (file line 41028)
   author: jerome
   locus: div3 v.iii.lxxxii, Chapter LXXX
+  locus_ids:
+  - div3:v.iii.lxxxii (Chapter LXXX)
   role: context
   confidence: assigned
+  language: eng
+  date: *id001
   note: 'Jerome''s notice of Lactantius: called a disciple of Arnobius; taught rhetoric at
     Nicomedia; his works are listed, the Divine Institutes among them; in extreme old age
     tutor to Crispus in Gaul. It says nothing of chiliasm or of the Holy Spirit. Context,
@@ -411,8 +693,12 @@ works:
     (file line 39858)
   author: jerome
   locus: div3 v.iii.xx, Chapter XVIII
+  locus_ids:
+  - div3:v.iii.xx (Chapter XVIII)
   role: context
   confidence: assigned
+  language: eng
+  date: *id001
   note: Jerome's notice of Papias. Its last sentences say that Irenaeus, Apollinaris and others
     hold the millennial reign, and that Tertullian (in On the hope of the faithful), Victorinus
     of Petau and Lactantius follow the view. Read for the chiliasm of Tertullian and Lactantius
@@ -423,8 +709,17 @@ works:
     pagan learning
   author: jerome
   locus: div2 v.LXX, Letter LXX
+  locus_ids:
+  - div2:v.LXX (Letter LXX)
   role: context
   confidence: assigned
+  language: eng
+  date:
+    start: 397
+    end: 397
+    source: 'NPNF editor''s headnote to the letter (file line 16452 onward): ''The date of
+      the letter is 397'''
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Jerome defends his use of pagan authors by the example of earlier Christian writers.
     His list names Tertullian, Minucius Felix, Arnobius (seven books against the Gentiles),
     his pupil Lactantius and Cyprian, whom he praises for the theme that idols are no gods.
@@ -434,8 +729,17 @@ works:
   work: Letter LXXXIV (To Pammachius and Oceanus), on Lactantius and the Holy Spirit
   author: jerome
   locus: div2 v.LXXXIV, Letter LXXXIV
+  locus_ids:
+  - div2:v.LXXXIV (Letter LXXXIV)
   role: context
   confidence: assigned
+  language: eng
+  date:
+    start: 400
+    end: 400
+    source: 'NPNF editor''s headnote to the letter (file line 18919 onward): ''The date of
+      the letter is 400'''
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Jerome''s charge that Lactantius, in his books and particularly in his letters to
     Demetrian, denied the subsistence of the Holy Spirit (file line 19196 onward). Context,
     not tradition: the charge of an outside critic, not Lactantius''s own words.'
@@ -444,8 +748,16 @@ works:
   work: A Treatise on the Anger of God
   author: lactantius
   locus: div2 3.3
+  locus_ids:
+  - div2:iii.iii
+  - div3:iii.iii.i..iii.iii.xxiii (23 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after the Divine Institutes; source: Harnack
+      1904 (one source); first recorded confidence: Dominant Modern Reconstruction'
   note: 'Philosophical-theological treatise against Epicurean and Stoic accounts of deity.
     It belongs with the *Divine Institutes* in `latin-apologists`, as part of Lactantius''
     apologetic corpus. Confidence is `assigned`: the doubt this work carried was the era-straddle
@@ -457,8 +769,15 @@ works:
   work: A Treatise on the Anger of God
   author: lactantius
   locus: file line 6768 (heading 'DE IRA DEI')
+  locus_ids:
+  - 'line 6768: DE IRA DEI'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after the Divine Institutes; source: Harnack
+      1904 (one source); first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
     part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
@@ -473,8 +792,16 @@ works:
   work: Fragments of Lactantius
   author: lactantius
   locus: div2 3.6
+  locus_ids:
+  - div2:iii.vi
+  - div3:iii.vi.i..iii.vi.iii (3 divisions; prose fragments I to IV precede the first division)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: The division prints four prose fragments, two poems and a General Note by the
+      editor. The General Note gives no date and doubts the ascription of the poems
   note: 'The surviving fragments, carried with the corpus they belong to: `latin-apologists`,
     alongside the *Divine Institutes*. Confidence is `assigned`: the doubt this work carried
     was the era-straddle question, and that is settled by the Institutes'' placement.
@@ -486,8 +813,18 @@ works:
   author: lactantius
   locus: file line 11021 (heading 'LIBRORVM PERDITORVM FRAGMENTA.', the fragments of lost
     works; the poems (Carmina) begin earlier at line 10119 and have no English twin here)
+  locus_ids:
+  - 'line 10126: DE AVE PHOENICE.'
+  - 'line 10806: DE PASSIONE DOMINI.'
+  - 'line 11021: LIBRORVM PERDITORVM FRAGMENTA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: The English twin prints prose fragments I to IV before two poems, then a General
+      Note. The General Note gives no date and doubts the ascription of the poems; the dates
+      of the lost works were not found in the editions read
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
     part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
@@ -502,8 +839,17 @@ works:
   work: On the Workmanship of God
   author: lactantius
   locus: div2 3.4
+  locus_ids:
+  - div2:iii.iv
+  - div3:iii.iv.i..iii.iv.xxi (21 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 303
+    end: 304
+    source: Harnack 1904 (one source)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'On the design of the human body, against Epicurean chance - Lactantius'' natural-theology
     piece. It belongs with the *Divine Institutes* in `latin-apologists`, as part of Lactantius''
     apologetic corpus. Confidence is `assigned`: the doubt this work carried was the era-straddle
@@ -515,8 +861,16 @@ works:
   work: On the Workmanship of God
   author: lactantius
   locus: file line 3523 (heading 'DE OPIFICIO DEI' (OCR 'BEI'), following the prolegomena)
+  locus_ids:
+  - 'line 3523: DE OPIFICIO BEI'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 303
+    end: 304
+    source: Harnack 1904 (one source)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 27
     part 2 fasc. 1 (Vienna, 1893), a critical edition with prolegomena and apparatus. The
@@ -531,8 +885,17 @@ works:
   work: The Divine Institutes
   author: lactantius
   locus: div2 3.2 — The Divine Institutes
+  locus_ids:
+  - div2:iii.ii
+  - div3:iii.ii.i..iii.ii.viii (8 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 304
+    end: 311
+    source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+    formation_confidence: Widely Accepted
   note: 'Lactantius lives in `latin-apologists` (I.43): written c. 303-311 under the Great
     Persecution by a rhetor teaching at Nicomedia, who afterwards tutored Constantine''s son
     at Trier. Jerome makes him Arnobius'' pupil at Sicca, and Arnobius is in this entry; the
@@ -550,8 +913,16 @@ works:
   author: lactantius
   locus: file line 2991 (Book I chapter 2, 'Suscepto igitur inlustrandae ueritatis officio
     ...'; chapter 1 sits on the page just before, whose OCR is partly damaged)
+  locus_ids:
+  - 'line 2991: 2. Suscepto igitur inlustrandae weritatis offieio non putaui'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 304
+    end: 311
+    source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+    formation_confidence: Widely Accepted
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 19
     (Vienna, 1890), a critical edition with prolegomena and apparatus. The Latin OCR is readable
@@ -565,8 +936,20 @@ works:
   work: The Divine Institutes
   author: lactantius
   locus: file line 109 (start of the TEI <body>, Book I follows)
+  locus_ids:
+  - CTS urn:cts:latinLit:stoa0171.stoa009.opp-lat1
+  - 'textpart subtype=book: n=1..7 (7 divisions)'
+  - 'textpart subtype=chapter: n=1..30 (177 divisions)'
+  - 'textpart subtype=section: n=1..71 (3274 divisions)'
+  - 'textpart subtype=MSS: no n attribute (1 divisions)'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 304
+    end: 311
+    source: Harnack 1904 (begun 304, finished before April 311); Monceaux 1901 III (307-311)
+    formation_confidence: Widely Accepted
   note: 'Latin original (clean machine-corrected transcription) of the ALREADY-PRESENT English
     entry for this work (source_file anf07_lactantius-apostolic-constitutions-didache-liturgies.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Brandt, CSEL 19
@@ -583,8 +966,17 @@ works:
     temps'
   author: monceaux
   locus: whole file
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: assigned
+  language: fra
+  date:
+    start: 1902
+    end: 1902
+    source: monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt
+    formation_confidence: Documented
   note: 'Modern (1902) French literary-historical scholarship -- role context, not tradition.
     The volume this world''s own G5 request names as most directly relevant, bearing directly
     on the Cyprian phase. Closes another third of Source_Acquisition_Manifest G5. Consultation-only
@@ -596,8 +988,17 @@ works:
   work: 'Histoire litteraire de l''Afrique chretienne, Tome Premier: Tertullien et les origines'
   author: monceaux
   locus: whole file
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: assigned
+  language: fra
+  date:
+    start: 1901
+    end: 1901
+    source: monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt
+    formation_confidence: Documented
   note: 'Modern (1901) French literary-historical scholarship -- role context, not tradition.
     Closes one-third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
     covers Tertullian and the origins of African Christian literature, background to this
@@ -610,8 +1011,17 @@ works:
     a Victorin'
   author: monceaux
   locus: whole file
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: assigned
+  language: fra
+  date:
+    start: 1905
+    end: 1905
+    source: monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt
+    formation_confidence: Documented
   note: 'Modern (1905) French literary-historical scholarship -- role context, not tradition.
     Closes the final third of Source_Acquisition_Manifest G5. Consultation-only per cic/texts/INTAKE.md;
     covers fourth-century African literature outside this world''s own core Cyprian/Augustine
@@ -623,8 +1033,20 @@ works:
   work: The Passion of the Holy Martyrs Perpetua and Felicitas
   author: passion_of_perpetua
   locus: div2 6.6 under div1 'Ethical.' (printed as an Appendix)
+  locus_ids:
+  - div2:vi.vi
+  - div3:vi.vi.i..vi.vi.ix (9 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 202
+    end: 203
+    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom
+      on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus
+      are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian
+      as author or editor, or another hand.'
+    formation_confidence: Widely Accepted
   note: The Passion of Perpetua and Felicitas, printed as an Appendix to Tertullian's works.
     The visions of Perpetua and Saturus are their own writing. The compiler of the frame is
     not established, and the volume's translator thinks Tertullian was its editor, not its
@@ -636,8 +1058,19 @@ works:
   work: The Passion of the Holy Martyrs Perpetua and Felicitas
   author: passion_of_perpetua
   locus: pp. 60-95 of the printed volume
+  locus_ids:
+  - pp. 60-95 of the printed volume
   role: tradition
   confidence: assigned
+  language: lat-grc
+  date:
+    start: 202
+    end: 203
+    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom
+      on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus
+      are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian
+      as author or editor, or another hand.'
+    formation_confidence: Widely Accepted
   note: 'Latin and Greek second witness to the English entry in this bucket (source_file anf03_tertullian.xml,
     where the work is printed as an Appendix). The same file also prints the Passion of the
     Scillitan Martyrs (pp. 112-117), which is assigned elsewhere. The file header warns of
@@ -650,8 +1083,19 @@ works:
     VII)
   author: passion_of_perpetua
   locus: file line 3489 ('Passio SS. Perpetuae et Felicitatis.'); collection no. VII
+  locus_ids:
+  - 'line 3489: Passio SS. Perpetuae et Felicitatis.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 202
+    end: 203
+    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom
+      on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus
+      are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian
+      as author or editor, or another hand.'
+    formation_confidence: Widely Accepted
   note: 'Latin second witness for the ALREADY-PRESENT English entry in latin-apologists.yaml
     (source_file anf03_tertullian.xml) and for the Latin/Greek entry (source_file perpetua-scillitan-martyrs-lat-
     grc_robinson1891.txt). Gebhardt''s collection (Berlin, 1902): the Latin acts are readable
@@ -669,8 +1113,19 @@ works:
   author: passion_of_perpetua
   locus: file line 2910 ('PASSIO SS. FELICITATIS ET PERPETVAE'); collection no. 8 heading
     at file line 2909
+  locus_ids:
+  - 'line 2910: PASSIO SS. FELICITATIS ET PERPETVAE. rapt mt'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 202
+    end: 203
+    source: 'Harnack 1904 (7 March 202 or 203); Monceaux 1901 I (file line 5625: the martyrdom
+      on 7 March 203); ANF03 translator''s note (about 202); The visions of Perpetua and Saturus
+      are their own writing (Widely Accepted). The compiler of the rest is Contested: Tertullian
+      as author or editor, or another hand.'
+    formation_confidence: Widely Accepted
   note: 'Latin second witness for the ALREADY-PRESENT English entry in latin-apologists.yaml
     (source_file anf03_tertullian.xml) and for the Latin/Greek entry (source_file perpetua-scillitan-martyrs-lat-
     grc_robinson1891.txt). Knopf''s collection in Krueger''s third edition (Tuebingen, 1929):
@@ -685,8 +1140,17 @@ works:
   work: Schanz-Hosius-Krueger, Geschichte der roemischen Litteratur, Teil 3 (3rd ed., 1922)
   author: schanz-hosius-krueger
   locus: whole file
+  locus_ids:
+  - 'unknown: plain OCR text without division ids; passages are addressed by file line and
+    printed page'
   role: context
   confidence: assigned
+  language: deu
+  date:
+    start: 1922
+    end: 1922
+    source: schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt
+    formation_confidence: Documented
   note: 'Modern German handbook, role context, not tradition. Read for the dating of Minucius
     Felix (paragraphs 654-656), where it declines to choose between the proposed dates. Consultation
     only: no world''s own voice.'
@@ -695,8 +1159,19 @@ works:
   work: A Treatise on the Soul (De Anima)
   author: tertullian
   locus: div2 4.11 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.xi
+  - div3:iv.xi.i..iv.xi.lviii (58 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      (Harnack''s text places De Anima after the martyrdom of Perpetua); window as first recorded:
+      between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'His longest philosophical work, against the philosophers and gnostic psychologies.
 
     '
@@ -705,8 +1180,18 @@ works:
   work: A Treatise on the Soul (De Anima)
   author: tertullian
   locus: file line 16764 (heading 'DE ANIMA.', treatise X)
+  locus_ids:
+  - 'line 16764: DE ANIMA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      (Harnack''s text places De Anima after the martyrdom of Perpetua); window as first recorded:
+      between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -721,8 +1206,18 @@ works:
   author: tertullian
   locus: file line 36757 (first apparatus line naming the treatise ('DE ANIMA LIBER'); grep
     does not find the treatise heading itself)
+  locus_ids:
+  - 'line 36757: THaGINENSIS (CARTHAGINENSIS otn. C) DE ANIMA LIBER. BC.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+      (Harnack''s text places De Anima after the martyrdom of Perpetua); window as first recorded:
+      between 208/9 and 213 or later; after the martyrdom of Perpetua, whom De Anima 55 names'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -737,8 +1232,17 @@ works:
   work: Ad Martyras
   author: tertullian
   locus: div2 6.5 under div1 'Ethical.'
+  locus_ids:
+  - div2:vi.v
+  - div3:vi.v.i..vi.v.vi (6 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Exhortation to imprisoned confessors, Carthage, c. 197.
 
     '
@@ -748,8 +1252,16 @@ works:
   author: tertullian
   locus: file line 1289 (opening words of the treatise; the OCR'd heading 'AD / M A R T Y
     R A S' sits a few lines above)
+  locus_ids:
+  - 'line 1289: Inter carnis alimenta, benedicti martyres designati", quae vobis cnp. i.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -765,8 +1277,17 @@ works:
   work: Ad Nationes
   author: tertullian
   locus: div2 4.8 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.viii
+  - div3:iv.viii.i..iv.viii.iv (4 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Earlier draft-sibling of the Apology, addressed to the pagan nations.
 
     '
@@ -775,8 +1296,16 @@ works:
   work: Ad Nationes
   author: tertullian
   locus: file line 3697 (heading 'AD NATIONES LIBRI DVO.', treatise III)
+  locus_ids:
+  - 'line 3697: AD NATIONES LIBRI DUO.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -790,8 +1319,19 @@ works:
   work: Against Hermogenes
   author: tertullian
   locus: div2 5.5 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.v
+  - div3:v.v.i..v.v.xlv (45 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Against Hermogenes'' doctrine of eternal matter. Hermogenes was a Carthaginian painter-philosopher,
     not a Valentinian or Marcionite, so no doctrinal-floor entry fits; the census has no bucket
     for him.
@@ -802,8 +1342,18 @@ works:
   work: Against Hermogenes
   author: tertullian
   locus: file line 7179 (heading 'ADVERSVS HERMOGENEM.', treatise III)
+  locus_ids:
+  - 'line 7179: ADVERSVS HERMOGENEM.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
     47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
@@ -817,8 +1367,18 @@ works:
   work: Against Hermogenes
   author: tertullian
   locus: file line 18353 (first heading (OCR 'iDVERSUS HERMOGENEM.'))
+  locus_ids:
+  - 'line 18353: iDVERSUS HERMOGENEM.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -833,8 +1393,17 @@ works:
   work: Against Praxeas
   author: tertullian
   locus: div2 5.9 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.ix
+  - div3:v.ix.i..v.ix.xxxiii (33 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 213
+    end: 218
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism
     holds that face: the party this work argues with has an entry of its own.'
   source_file: anf03_tertullian.xml
@@ -842,8 +1411,16 @@ works:
   work: Against Praxeas
   author: tertullian
   locus: file line 11686 (heading 'ADVERSVS PRAXEAN.', treatise VI)
+  locus_ids:
+  - 'line 11686: ADVERSVS PRAXEAN.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 213
+    end: 218
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
     47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
@@ -857,8 +1434,16 @@ works:
   work: Against Praxeas
   author: tertullian
   locus: file line 43048 (heading 'ADVERSUS PRAXEAN.')
+  locus_ids:
+  - 'line 43048: ADVERSUS PRAXEAN.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 213
+    end: 218
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -873,8 +1458,17 @@ works:
   work: Against the Valentinians
   author: tertullian
   locus: div2 5.6 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.vi
+  - div3:v.vi.i..v.vi.xxxix (39 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 207
+    end: 208
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Satirical exposure of the Valentinian system, largely following Irenaeus. Context
     face below.
 
@@ -884,8 +1478,16 @@ works:
   work: Against the Valentinians
   author: tertullian
   locus: file line 9473 (heading 'ADVERSVS VALENTINIANOS.', treatise IV)
+  locus_ids:
+  - 'line 9473: ADVERSVS VALENTINIANOS.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 207
+    end: 208
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
     47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
@@ -899,8 +1501,16 @@ works:
   work: Against the Valentinians
   author: tertullian
   locus: file line 21225 (heading 'ADVERSUS VALENTINIANOS.')
+  locus_ids:
+  - 'line 21225: ADVERSUS VALENTINIANOS.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 207
+    end: 208
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -915,8 +1525,19 @@ works:
   work: An Answer to the Jews
   author: tertullian
   locus: div2 4.9 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.ix
+  - div3:iv.ix.i..iv.ix.xiv (14 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Adversus Judaeos literature aimed at Jews, not Jewish Christians - so no ebionite-nazoraean-current
     assignment is made.
 
@@ -927,8 +1548,18 @@ works:
   author: tertullian
   locus: file line 48907 (first running head 'ADVERSUS IUDAE(' (page 699 of the printed volume;
     the OCR lost the treatise heading))
+  locus_ids:
+  - 'line 48907: ADVERSUS IUDAE('
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -944,8 +1575,17 @@ works:
   work: Apology (Apologeticus)
   author: tertullian
   locus: div2 4.3 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.iii
+  - div3:iv.iii.i..iv.iii.li (51 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Carthage, 197. The date is the best-anchored in this shelf and is its first fixed
     date. It is not the opening of the Latin case, because the Octavius may be earlier.
 
@@ -955,8 +1595,16 @@ works:
   work: Apology (Apologeticus)
   author: tertullian
   locus: file line 12027 (heading 'APOLOGETICUM.')
+  locus_ids:
+  - 'line 12027: APOLOGETICUM.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 197
+    end: 197
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -974,8 +1622,17 @@ works:
     Five Books in Reply to Marcion)
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
+  locus_ids:
+  - div2:iii.xi
+  - div3:iii.xi.i..iii.xi.vii (7 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: Harnack's Tertullian table (printed pp. 295-296) dates genuine works only; the
+      file anf04 prints these poems as an appendix to Tertullian without a date; no composition
+      date was established in this pass
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
@@ -994,8 +1651,17 @@ works:
   work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
   locus: div2 3.10 - De Fuga in Persecutione
+  locus_ids:
+  - div2:iii.x
+  - div3:iii.x.i..iii.x.ii (2 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 211
+    end: 212
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Forbids flight in persecution on the Spirit''s authority ("Comforter" x2); no explicit
     Paraclete/Psychici vocabulary in this translation, so the montanism assignment rests on
     the rigorist position and standard dating rather than internal markers - hence provisional.
@@ -1006,8 +1672,16 @@ works:
   work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
   locus: file line 45082 (heading 'FUGA IN PERSECUTIONE.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 45082: FUGA IN PERSECUTIONE.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    start: 211
+    end: 212
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1023,8 +1697,19 @@ works:
   work: On Baptism
   author: tertullian
   locus: div2 6.3 under div1 'Ethical.'
+  locus_ids:
+  - div2:vi.iii
+  - div3:vi.iii.i..vi.iii.xxi (21 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'The earliest surviving treatise devoted to baptism.
 
     '
@@ -1033,8 +1718,18 @@ works:
   work: On Baptism
   author: tertullian
   locus: file line 11486 (heading 'DE BAPTISMO.', treatise VII)
+  locus_ids:
+  - 'line 11486: DE BAPTISMO.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1048,8 +1743,19 @@ works:
   work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
   locus: div2 3.6 - On Exhortation to Chastity
+  locus_ids:
+  - div2:iii.vi
+  - div3:iii.vi.i..iii.vi.xiv (14 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Cites an oracle of "the holy prophetess Prisca" as authority - a direct New Prophecy
     citation, and one of the few surviving fragments of the movement''s own words. Provisional
     because the treatise is transitional rather than openly sectarian.
@@ -1060,8 +1766,18 @@ works:
   work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
   locus: file line 67376 (heading 'EXHORTATIONE CASTITATIS.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 67376: EXHORTATIONE CASTITATIS.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1077,8 +1793,17 @@ works:
   work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
   locus: div2 3.9 - On Fasting
+  locus_ids:
+  - div2:iii.ix
+  - div3:iii.ix.i..iii.ix.xviii (18 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Defense of the New Prophecy''s fasting discipline against the "Psychics" (x13); names
     Montanus. Among the most explicitly Montanist works in the corpus.
 
@@ -1088,8 +1813,16 @@ works:
   work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
   locus: file line 15475 (heading 'DE IEIVNIO ADVERSVS PSYCHICOS.', treatise IX)
+  locus_ids:
+  - 'line 15475: DE IEIUNIO ADUEESUS PSYCHICOS.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1103,8 +1836,19 @@ works:
   work: On Idolatry
   author: tertullian
   locus: div2 4.4 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.iv
+  - div3:iv.iv.i..iv.iv.xxv (25 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Practical treatise on Christians amid pagan civic life, Carthage.
 
     '
@@ -1113,8 +1857,18 @@ works:
   work: On Idolatry
   author: tertullian
   locus: file line 2166 (heading 'DE IDOLOLATRIA.', treatise II)
+  locus_ids:
+  - 'line 2166: DE IDOLOLATRIA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1128,8 +1882,18 @@ works:
   work: On Modesty (De Pudicitia)
   author: tertullian
   locus: div2 3.8 - On Modesty
+  locus_ids:
+  - div2:iii.viii
+  - div3:iii.viii.i..iii.viii.xxiii (23 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: not long before 222/3; source: Harnack 1904,
+      Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      The identity of the bishop whose edict the work attacks is Contested between scholars.;
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Montanist-period attack on the bishop''s edict admitting adulterers to penance ("Psychics"
     x5, Paraclete x4). Also a key early witness to the developing penitential discipline the
     Cyprianic and Donatist disputes later fought over - noted here, not assigned there.
@@ -1140,8 +1904,17 @@ works:
   work: On Modesty (De Pudicitia)
   author: tertullian
   locus: file line 12447 (heading 'DE PVDICITIA.', treatise VIII)
+  locus_ids:
+  - 'line 12447: DE PUDICITIA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: not long before 222/3; source: Harnack 1904,
+      Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      The identity of the bishop whose edict the work attacks is Contested between scholars.;
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1155,8 +1928,17 @@ works:
   work: On Monogamy (De Monogamia)
   author: tertullian
   locus: div2 3.7 - On Monogamy
+  locus_ids:
+  - div2:iii.vii
+  - div3:iii.vii.i..iii.vii.xviii (18 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Openly New Prophecy: 17 appeals to the Paraclete, opponents named "Psychics" 12 times.
     Tertullian speaking as a Montanist adherent - tradition for montanism, not description
     of it.
@@ -1168,8 +1950,16 @@ works:
   author: tertullian
   locus: file line 69315 (first running head 'DE MONOGAMIA. 769' (the OCR lost the treatise
     heading))
+  locus_ids:
+  - 'line 69315: DB MONOGAMIA. 769'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1185,8 +1975,19 @@ works:
   work: On Patience
   author: tertullian
   locus: div2 6.7 under div1 'Ethical.'
+  locus_ids:
+  - div2:vi.vii
+  - div3:vi.vii.i..vi.vii.xvii (17 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Moral treatise; closes the Ethical part.
 
     '
@@ -1195,8 +1996,18 @@ works:
   work: On Patience
   author: tertullian
   locus: file line 1566 (heading 'DE PATIENTIA.', treatise I of the volume's Index)
+  locus_ids:
+  - 'line 1566: DE PATIENTIA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
     47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
@@ -1210,8 +2021,19 @@ works:
   work: On Prayer
   author: tertullian
   locus: div2 6.4 under div1 'Ethical.'
+  locus_ids:
+  - div2:vi.iv
+  - div3:vi.iv.i..vi.iv.xxix (29 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Exposition of the Lord''s Prayer and prayer practice.
 
     '
@@ -1220,8 +2042,18 @@ works:
   work: On Prayer
   author: tertullian
   locus: file line 10348 (heading 'DE ORATIONE.', treatise VI)
+  locus_ids:
+  - 'line 10348: DE ORATIONE.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1235,8 +2067,19 @@ works:
   work: On Repentance
   author: tertullian
   locus: div2 6.2 under div1 'Ethical.'
+  locus_ids:
+  - div2:vi.ii
+  - div3:vi.ii.i..vi.ii.xiii (13 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Pre-Montanist treatise on penitence and the second repentance.
 
     '
@@ -1245,8 +2088,18 @@ works:
   work: On Repentance
   author: tertullian
   locus: file line 59791 (heading 'PAENITENTIA.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 59791: PAENITENTIA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1262,8 +2115,20 @@ works:
   work: On the Apparel of Women (De Cultu Feminarum)
   author: tertullian
   locus: div2 3.3 - On the Apparel of Women
+  locus_ids:
+  - div2:iii.iii
+  - div3:iii.iii.i..iii.iii.iii (3 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198); Harnack lists
+      book I and book II of this work separately in the group.'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Disciplinary treatise on dress and adornment; no New Prophecy markers in the text.
 
     '
@@ -1272,8 +2137,19 @@ works:
   work: On the Apparel of Women (De Cultu Feminarum)
   author: tertullian
   locus: file line 64376 (heading 'CULTU FEMINARUM LIBRI DVO' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 64376: CULTU FEMINARUM'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198); Harnack lists
+      book I and book II of this work separately in the group.'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1289,8 +2165,18 @@ works:
   work: On the Flesh of Christ
   author: tertullian
   locus: div2 5.7 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.vii
+  - div3:v.vii.i..v.vii.xxvi (26 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Defense of Christ''s real flesh against docetic readings.
 
     '
@@ -1299,8 +2185,17 @@ works:
   work: On the Flesh of Christ
   author: tertullian
   locus: file line 24712 (heading 'CARNE CHRISTI.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 24712: CARNE CHRISTI.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1316,8 +2211,17 @@ works:
   work: On the Pallium (De Pallio)
   author: tertullian
   locus: div2 3.2 - On the Pallium
+  locus_ids:
+  - div2:iii.ii
+  - div3:iii.ii.i..iii.ii.vii (7 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 209
+    end: 210
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Short personal apologia for adopting the philosopher''s cloak; Carthage. No Montanist
     markers in the text.
 
@@ -1327,8 +2231,16 @@ works:
   work: On the Pallium (De Pallio)
   author: tertullian
   locus: file line 83174 (first heading-like line 'OE PALLIO.' (OCR of 'DE PALLIO.'))
+  locus_ids:
+  - 'line 83174: OE PALLIO.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 209
+    end: 210
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1344,8 +2256,18 @@ works:
   work: On the Resurrection of the Flesh
   author: tertullian
   locus: div2 5.8 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.viii
+  - div3:v.viii.i..v.viii.lxiv (64 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Companion to On the Flesh of Christ against gnostic denial of bodily resurrection;
     kept to the author''s entry since its heresiological description is diffuse.
 
@@ -1355,8 +2277,17 @@ works:
   work: On the Resurrection of the Flesh
   author: tertullian
   locus: file line 2656 (heading 'DE CARNIS RESVRRECTIONE.', treatise II)
+  locus_ids:
+  - 'line 2656: DE CARNIS RESVRRECTIONE.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
     47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
@@ -1370,8 +2301,17 @@ works:
   work: On the Resurrection of the Flesh
   author: tertullian
   locus: file line 27327 (heading 'RESURRECTIONE CARNIS.')
+  locus_ids:
+  - 'line 27327: RESURRECTIONE CARNIS.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 208
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1386,8 +2326,19 @@ works:
   work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
   locus: div2 3.4 - On the Veiling of Virgins
+  locus_ids:
+  - div2:iii.iv
+  - div3:iii.iv.i..iii.iv.xviii (18 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Appeals to the Paraclete four times as authority for stricter discipline; commonly
     dated to Tertullian''s New Prophecy period. The montanism assignment rests on those internal
     appeals - provisional because the work never names the movement.
@@ -1398,8 +2349,18 @@ works:
   work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
   locus: file line 78139 (heading 'VIRGINIBUS VELANDIS.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 78139: VIRGINIBUS VELANDIS.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1415,8 +2376,17 @@ works:
   work: Scorpiace
   author: tertullian
   locus: div2 5.10 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.x
+  - div3:v.x.i..v.x.xv (15 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 212
+    end: 213
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: '"Antidote for the scorpion''s sting" - against gnostic evasion of martyrdom.
 
     '
@@ -1425,8 +2395,16 @@ works:
   work: Scorpiace
   author: tertullian
   locus: file line 8516 (heading 'SCORPIACE.', treatise V)
+  locus_ids:
+  - 'line 8516: SCORPIACE.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 212
+    end: 213
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1440,8 +2418,17 @@ works:
   work: The Chaplet (De Corona)
   author: tertullian
   locus: div2 4.6 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.vi
+  - div3:iv.vi.i..iv.vi.xvi (16 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 211
+    end: 211
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'On the soldier''s crown and military service; within the entry''s window.
 
     '
@@ -1450,8 +2437,16 @@ works:
   work: The Chaplet (De Corona)
   author: tertullian
   locus: file line 41061 (heading 'DE CORONA.')
+  locus_ids:
+  - 'line 41061: DE CORONA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 211
+    end: 211
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1467,8 +2462,19 @@ works:
   work: The Five Books Against Marcion
   author: tertullian
   locus: div2 5.4 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.iv
+  - div3:v.iv.i..v.iv.vi (6 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: three stages: first and second drafts within 198-202/3; third
+      version, books I-IV, 207/8; book V between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'His largest surviving work, 187k words here. The anti-Marcionite face is a separate
     context entry; assignment is not exclusive (§6.1).
 
@@ -1478,8 +2484,18 @@ works:
   work: The Five Books Against Marcion
   author: tertullian
   locus: file line 14512 (heading 'ADVERSVS MARCIONEM LIBRI QVINQVE', treatise VII)
+  locus_ids:
+  - 'line 14512: ADVERSVS MARCIONEM'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: three stages: first and second drafts within 198-202/3; third
+      version, books I-IV, 207/8; book V between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Kroymann, CSEL
     47 (Vienna, 1906), a critical edition with apparatus. The Latin OCR is readable running
@@ -1493,8 +2509,18 @@ works:
   work: The Five Books Against Marcion
   author: tertullian
   locus: file line 2948 (first heading 'ADVERSUS MARCIONEM')
+  locus_ids:
+  - 'line 2948: ADVERSUS MARCIONEM'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 213
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: three stages: first and second drafts within 198-202/3; third
+      version, books I-IV, 207/8; book V between 208/9 and 213 or later'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1509,8 +2535,19 @@ works:
   work: The Prescription Against Heretics
   author: tertullian
   locus: div2 5.3 under div1 'Anti-Marcion.'
+  locus_ids:
+  - div2:v.iii
+  - div3:v.iii.i..v.iii.xlv (45 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'The rule-of-faith argument against heresy as such. Its heresiological face is carried
     by a separate context entry (§6.1).
 
@@ -1520,8 +2557,18 @@ works:
   work: The Prescription Against Heretics
   author: tertullian
   locus: file line 141 (heading 'DE PRAESCRIPTIONE HAERETICORUM' (title lines))
+  locus_ids:
+  - 'line 141: PRAESCRIPTIONE'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1537,8 +2584,19 @@ works:
   work: The Shows (De Spectaculis)
   author: tertullian
   locus: div2 4.5 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.v
+  - div3:iv.v.i..iv.v.xxx (30 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Companion piece to On Idolatry on the games and theatre.
 
     '
@@ -1547,8 +2605,18 @@ works:
   work: The Shows (De Spectaculis)
   author: tertullian
   locus: file line 565 (heading 'DE SPECTACVLIS.', treatise I of the volume's Index)
+  locus_ids:
+  - 'line 565: DE SPECTACVLIS.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1562,8 +2630,17 @@ works:
   work: The Soul's Testimony
   author: tertullian
   locus: div2 4.10 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.x
+  - div3:iv.x.i..iv.x.vii (7 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: 197 or soon after, shortly after the Apology;
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Short apologetic argument from the soul''s spontaneous speech.
 
     '
@@ -1572,8 +2649,16 @@ works:
   work: The Soul's Testimony
   author: tertullian
   locus: file line 8012 (heading 'DE TESTIMONIO ANIMAE.', treatise IV)
+  locus_ids:
+  - 'line 8012: DE TESTIMONIO ANIMAE.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: 197 or soon after, shortly after the Apology;
+      source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -1587,8 +2672,19 @@ works:
   work: To His Wife (Ad Uxorem)
   author: tertullian
   locus: div2 3.5 - To His Wife
+  locus_ids:
+  - div2:iii.v
+  - div3:iii.v.i..iii.v.iii (3 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Two books to his wife on remarriage; earlier, pre-Montanist discipline. No New Prophecy
     markers in the text.
 
@@ -1599,8 +2695,18 @@ works:
   author: tertullian
   locus: file line 62943 (first running head 'AD UXOREM LIB. 1.' (the OCR lost the treatise
     heading))
+  locus_ids:
+  - 'line 62943: 682 QUI5TI SEPTIMII FLORENTIS TBRTOLLIAIfl AD UXOREM UB. 1.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 198
+    end: 203
+    source: 'Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      window as first recorded: 198-202/3 (Harnack''s group; he writes that the order inside
+      the group is only partly certain and that part of it may fall before 198)'
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -1616,8 +2722,17 @@ works:
   work: To Scapula
   author: tertullian
   locus: div2 4.7 under div1 'Apologetic.'
+  locus_ids:
+  - div2:iv.vii
+  - div3:iv.vii.i..iv.vii.vi (6 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 212
+    end: 213
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Open letter to the proconsul of Africa, 212.
 
     '
@@ -1626,8 +2741,16 @@ works:
   work: To Scapula
   author: tertullian
   locus: file line 51161 (heading 'SCAPULAM.' (the 'AD' is on the line above))
+  locus_ids:
+  - 'line 51161: SCAPULAM.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    start: 212
+    end: 213
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf03_tertullian.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The

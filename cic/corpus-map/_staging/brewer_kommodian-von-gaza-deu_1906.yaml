@@ -17,10 +17,8 @@ assignments:
   locus_ids:
   - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
   language: deu
-  voice_of:
-  - author: brewer
-    loci: the whole volume
   date:
-    window: 1906 (publication date on the title page)
+    start: 1906
+    end: 1906
     source: brewer_kommodian-von-gaza-deu_1906.txt
     formation_confidence: Documented

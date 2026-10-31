@@ -21,6 +21,10 @@ and returns tagged text the net checks:
   does not name the quote's speaker, or that types a quotation of its own)
   places nothing, and the sentence that introduced it goes with it. Only a quote that is placed counts toward
   the one a reply may carry.
+- a lead-in that is missing or names no speaker is not a reason to lose the
+  quote: code writes the lead-in itself from the record's speaker, "In
+  today's English, <speaker> says:", and the voice's own lead-in goes. A lead-in
+  that names the speaker is never replaced.
 - a story the conversation has already told keeps its first tagged
   sentence, as a reference back; later sentences tagged to it go.
 
@@ -37,6 +41,7 @@ from dataclasses import dataclass, field
 
 from engine.m4.grounding_net import (
     QUOTE_MARKER,
+    REASON_SPEAKER_UNNAMED,
     QuotationIndex,
     placed_key,
     placed_quote_refusal,
@@ -63,6 +68,8 @@ REASON_NOT_SETTABLE = "rendering cannot be set apart as one quotation"
 REASON_PLACED_MISMATCH = "placed quote does not match its record"
 REASON_LEAD_IN = "lead-in to a quote that was not placed"
 REASON_STORY_RETOLD = "story already told in this conversation"
+REPAIR_LEAD_IN_UNNAMED = "lead-in named no speaker; replaced by code's"
+CODE_LEAD_IN = "In today's English, {speaker} says"
 
 
 @dataclass(frozen=True)
@@ -89,6 +96,7 @@ class _Report:
     placed_sentences: dict[str, str] = field(default_factory=dict)
     placed_drafts: dict[str, str] = field(default_factory=dict)
     removed: list[dict] = field(default_factory=list)
+    repaired: list[dict] = field(default_factory=list)
 
     def drop(self, sentence: str, why: str, *, draft: str | None = None) -> None:
         self.removed.append({"sentence": strip_tags(sentence).strip(), "why": why, "draft": (draft or sentence).strip()})
@@ -124,7 +132,9 @@ def place_quotes(
     "placed_sentences" (each placed sentence's text, tags stripped and
     whitespace collapsed, to its record id), "placed_drafts" (the same keys,
     to the sentence as the voice wrote it, marker included), "removed" (each
-    sentence removed, with why, and as the voice wrote it in "draft")}.
+    sentence removed, with why, and as the voice wrote it in "draft"),
+    "repaired" (each quote whose lead-in code wrote because the voice's named
+    no speaker, with the lead-in and the voice's draft)}.
     A sentence tagged with a record in `sealed` (a story code placed, by
     engine.m4.story_placement) is never taken as a lead-in."""
     report = _Report()
@@ -155,10 +165,18 @@ def place_quotes(
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None
-                    elif refusal := placed_quote_refusal(composed, repository_records, index, record["id"]):
-                        # decided here, as the net decides it, so a quote the
-                        # net would refuse never takes the reply's one place
-                        reason, composed = refusal, None
+                    else:
+                        refusal = placed_quote_refusal(composed, repository_records, index, record["id"])
+                        if refusal == REASON_SPEAKER_UNNAMED:
+                            code_lead = CODE_LEAD_IN.format(speaker=index.speaker_name(record))
+                            repaired = f"{code_lead}: “{rendering}” [[{record['id']}]]"
+                            if placed_quote_refusal(repaired, repository_records, index, record["id"]) is None:
+                                report.repaired.append({"draft": drafted, "why": REPAIR_LEAD_IN_UNNAMED, "lead_in": code_lead})
+                                composed, refusal = repaired, None
+                        if refusal:
+                            # decided here, as the net decides it, so a quote the
+                            # net would refuse never takes the reply's one place
+                            reason, composed = refusal, None
                 if composed is None:
                     report.drop(QUOTE_MARKER.sub("", drafted).strip() or drafted, reason, draft=drafted)
                     if not lead and (previous := _take_lead_in(kept, paragraphs_out, sealed, only_if_lead=True)):
@@ -195,6 +213,7 @@ def place_quotes(
         "placed_sentences": report.placed_sentences,
         "placed_drafts": report.placed_drafts,
         "removed": report.removed,
+        "repaired": report.repaired,
     }
 
 

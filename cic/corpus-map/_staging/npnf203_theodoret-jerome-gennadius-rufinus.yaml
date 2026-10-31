@@ -508,14 +508,11 @@ assignments:
   locus_ids:
   - div3:v.iii.lv (Chapter LIII)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date: &id001
-    window: the work states its end point as the fourteenth year of the Emperor Theodosius (file line 38785); the NPNF note there prints 'a.d. 492', which reads as a misprint for 392 since Theodosius reigned from 379
-    source: npnf203_theodoret-jerome-gennadius-rufinus.xml, prologue of the Lives of Illustrious Men (div3 v.iii.i)
+    start: 392
+    end: 392
+    source: 'npnf203_theodoret-jerome-gennadius-rufinus.xml, prologue of the Lives of Illustrious Men (div3 v.iii.i); window as first recorded: the work states its end point as the fourteenth year of the Emperor Theodosius (file line 38785); the NPNF note there prints ''a.d. 492'', which reads as a misprint for 392 since Theodosius reigned from 379; The date is the work''s own terminal statement. The year number 392 is the reading of that statement.'
     formation_confidence: Documented
-    note: The date is the work's own terminal statement. The year number 392 is the reading of that statement.
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lviii
   work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LVIII 'Minucius Felix' (file line 40642)
   author: jerome
@@ -528,9 +525,6 @@ assignments:
   locus_ids:
   - div3:v.iii.lx (Chapter LVIII)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date: *id001
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxix
   work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXIX 'Arnobius the rhetorician' (file line 41017)
@@ -544,9 +538,6 @@ assignments:
   locus_ids:
   - div3:v.iii.lxxxi (Chapter LXXIX)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date: *id001
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-lxxx
   work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LXXX 'Firmianus, surnamed Lactantius' (file line 41028)
@@ -560,9 +551,6 @@ assignments:
   locus_ids:
   - div3:v.iii.lxxxii (Chapter LXXX)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date: *id001
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--jerome-lives-of-illustrious-men-de-viris-illustribus-ch-xviii
   work: Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. XVIII 'Papias the bishop' (file line 39858)
@@ -576,9 +564,6 @@ assignments:
   locus_ids:
   - div3:v.iii.xx (Chapter XVIII)
   language: eng
-  voice_of:
-  - author: jerome
-    loci: the whole chapter or letter
   date: *id001
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-ch-xv
   work: Gennadius, Lives of Illustrious Men (continuation), ch. XV 'Commodianus' (file line 42419)
@@ -592,10 +577,8 @@ assignments:
   locus_ids:
   - div3:v.iv.xvi (Chapter XV)
   language: eng
-  voice_of:
-  - author: gennadius
-    loci: the whole chapter or letter
   date:
-    window: composed after the death of Jerome (the Gennadius continuation); Harnack 1904 says Gennadius wrote certainly between 477 and 494
-    source: harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt (file line 24439)
+    start: 477
+    end: 494
+    source: 'harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt (file line 24439); window as first recorded: composed after the death of Jerome (the Gennadius continuation); Harnack 1904 says Gennadius wrote certainly between 477 and 494'
     formation_confidence: Widely Accepted

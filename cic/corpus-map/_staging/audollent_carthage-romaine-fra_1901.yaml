@@ -11,6 +11,9 @@ assignments:
       - latin-apologists
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "audollent_carthage-romaine-fra_1901.txt: header gives Publication Date 1901; title page, Avant-propos (file line 226) and front matter read; no edition statement and no dateline in the OCR; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1901) French scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. The standard history of Roman Carthage, 146 BC to 698 AD, the city
@@ -19,10 +22,8 @@ assignments:
     locus_ids:
     - 'unknown: plain OCR text without division ids; passages are addressed by file line and printed page'
     language: fra
-    voice_of:
-    - author: audollent
-      loci: the whole volume
     date:
-      window: 1901 (publication date on the title page)
+      start: 1901
+      end: 1901
       source: audollent_carthage-romaine-fra_1901.txt
       formation_confidence: Documented

@@ -53,9 +53,7 @@ tensions:
 text: One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it. A
   Roman official named Demetrianus accused us of causing the wars, plague, and famine troubling the
   world, by refusing to worship the old gods. He said many around him believed the same thing. That
-  is a neighbour's own charge, reported in our own bishop's words, not preserved in the neighbour's
-  own. We still cannot say, in a stranger's own voice, what he found strangest about us, or
-  whether we were really hiding in catacombs.
+  is a neighbour's own charge, reported in our own bishop's words.
 ---
 Grounded directly in An Address to Demetrianus. Answers one of F3-E's four sub-questions -- what our neighbours
 said about us -- with a real, reported accusation this world's own corpus contains. Two sub-questions, catacombs and an outsider's own strangeness-perception,
