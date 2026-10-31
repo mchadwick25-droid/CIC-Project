@@ -60,7 +60,7 @@ tensions:
   before God -- he named other Christian emperors, Jovian and Gratian, whom God did not grant the same
   long or peaceful reign, precisely so no one would become a Christian only to court a Constantine's own
   fortune.
-text: Augustine never puts the question in those words. But a Donatist bishop named Petilian once told
+text: A Donatist bishop named Petilian once told
   us we had no business with the kings of this world, since Christianity had found nothing in them but
   envy. Augustine answered him directly, in a work written about 400 to 402. Constantine, he wrote, was "no foe to the name of Christian,
   but rather rendered glorious by it," and he judged "most justly on behalf of His unity," the unity

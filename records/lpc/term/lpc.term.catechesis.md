@@ -88,7 +88,7 @@ senses:
     making a consequential change of standing. It was taken seriously enough that a working manual for
     instructors exists. Baptism was not adult-only, though. Augustine writes plainly that
     those baptized into Christ's own death include "not adults only, but infants as well." That is a different
-    question from who received instruction, and this term does not answer it by itself.
+    question from who received instruction.
 quick_meaning: For us, catechesis means teaching people before they are baptized. We teach them the creed,
   and the basics of belief, before the water, not after it.
 ---

@@ -28,14 +28,18 @@ Stories: 16 answers placed a story whole; 13 at short length, 1 at medium, 2 at 
 
 ## Judge steps against the gates
 
-503 draft sentences bound to a record: the gates kept 462 and withheld or removed 41. The citation-recall judge and the verifier agreed with each other on 479 and split on 24. Every one of the 143 sentences where the gates and both judges did not all agree went to a third blind read. Labels by two of three:
+503 draft sentences bound to a record: the gates kept 462 and withheld or removed 41.
 
-| Gate decision | Supported | Not supported |
-|---|---|---|
-| Kept | 362 | 100 |
-| Withheld or removed | 28 | 13 |
+**Correction.** An earlier version of this section said 100 of the 462 kept sentences were not supported. That figure was overstated. The judges' evidence pack left out fields the voice is shown (a world-core record's horizon, thinness, cautions and living traditions; a story's tellings and absent_detail), so judges and readers marked sentences unsupported when the support sat in those fields. The pack was fixed in PR #1383 and all 503 sentences were judged again, free and in plan, with the fixed pack. Both judges ran again; a third blind read settled the 19 sentences where they split (two of three).
 
-So 100 sentences the gates kept are labelled not supported, and 28 the gates withheld are labelled supported. Examples read: some are the Representative's own framing lines ("neither is among the voices we carry") bound to a record that does not state them; others are plain overreach ("every voice that preaches to us is a bishop's"). The split between the two kinds has not been measured.
+| Gate decision | Old pack: supported | Old pack: not supported | Fixed pack: supported | Fixed pack: not supported |
+|---|---|---|---|---|
+| Kept (462) | 362 | 100 | 404 | 58 |
+| Withheld or removed (41) | 28 | 13 | 31 | 10 |
+
+So with the fixed pack, 58 gate-kept sentences are labelled not supported, and 31 of the 41 the gates withheld are labelled supported. The 58 have not been read for kind (the Representative's own framing lines against real overreach).
+
+**What does not carry over.** The held-out judge numbers (recall 0.885, false alarms 3.3% and 9.1%) were measured with the old pack, against gold labels made with the old pack. On 30 gold items bound to world-core and story records (13 labelled unsupported), the fixed-pack judges flagged 7 of 13 where the old-pack judges flagged 12 and 13. Six of the gold-unsupported items were read: in five, both judges quote a field the old pack hid that states the sentence; in one, only the verifier does. The gold labels on these record types are therefore suspect, not the new judges. On 30 control items bound to other record types, nothing changed. Until those gold items are re-labelled, the held-out numbers are not established for world-core and story records.
 
 ## Blind readers (two of three agree)
 
@@ -55,5 +59,5 @@ Two blind reads of every answer; a third on the 64 answers where they split on 1
 - The first reader packets cut record text and left several record types empty. All reads were redone on corrected packets.
 - The context window cut any cited span over 450 words and added nothing around it (found by the Opus review of the fit step). Fixed; 13 fit judgments and 10 calibration pairs were rejudged; one fit verdict changed and the calibration did not.
 - The guard added for `ctx.` tags let a typed quotation through uncited. It was a fix on a fix; removed. No draft in this run used a `ctx.` tag.
-- q086 ("Just answer yes or no") ships an empty answer, reproducibly, although the voice's draft was a plain decline. Cause not found (OG-122).
+- q086 ("Just answer yes or no") ships an empty answer, reproducibly, although the voice's draft was a plain decline. Cause: the answerer ignored the engine's set-aside flag; fixed in PR #1382 (OG-122, OG-125).
 - Not run: the three replay benches that read the fleet-graded-run format (`S1-L2/bench.py`, `S3-Stories/story_bench.py`, `S1-01-free/saved_scores.py`) and `engine/m7/standing_measure.py`; the sheet carries the same measures for this run.

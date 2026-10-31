@@ -63,6 +63,7 @@ def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str])
         "id": question["id"], "group": question["group"], "text": result.text, "citations": result.citations,
         "citation_entries": result.citation_entries, "routing_action": result.live_turn.routing_action,
         "routing_reason": result.live_turn.routing_reason, "sends": result.live_turn.sends,
+        "voice_set_aside": bool((result.live_turn.voice_event or {}).get("r27_enforcement_exhausted")),
         "raw_text": raw_drafts[-1] if raw_drafts else "",
         "net_sentences": net.get("sentences", []), "reply_shape": net.get("reply_shape"),
     }

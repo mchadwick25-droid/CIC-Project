@@ -2463,3 +2463,36 @@ Logged 2026-10-31.
 
 - **Open.** In the early pass on the 106 questions (`Build/Ministry/Features/Answering-From-Sources/S3-Test100/Early_Pass_Report.md`), the bare message "just answer yes or no" ships an empty answer, with no sentences and no removal recorded, although the voice's draft was a plain decline. It reproduces on a clean re-run of that question. Cause not found.
 - **Owner.** Project lead, through the coordination thread.
+
+### OG-123. OG-118 closed: absence statements out of the fields the voice and participants see (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Closed.** Done under Mark's corrected ruling (`Build/Ministry/Features/Answering-From-Sources/Decision-Log.md`, entry 37): 15 sentences or clauses removed from eleven witness `text` fields and the hover gloss of two terms. Two further removals were undone after the Opus review and stay as caveats (confessor-claim-vs-regulated-peace, no-one-may-take-his-own-life). lpc repinned to 2026-10-31T02-58-38Z.
+- **Open.** Other worlds were not scanned. Mark's order: only after the lpc result, through the coordination thread.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-124. Absence statements remain in lpc build-note fields and record bodies (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open.** 40 flagged sentences stay in fields the voice does not see: 21 in witness `tensions`, 2 in witness `positions`, 17 in term `senses` other than the hover gloss (one of them, in the-people, ruled not an absence statement). Mark ruled them out of the OG-118 fix (entry 37). Many sit beside a `not_for` or `claim_guards` line that says the same thing, and some hold the reviewer-facing reason for a guard.
+- **Open.** Record bodies hold 19 further absence statements in term and witness build notes, plus one each in the celerinus, cyprian, numidicus and possidius figure bodies. Not spoken. Coordination-level (AI-reviewed, not Mark's): out of scope for the rule.
+- **Open.** Build notes inside records may conflict with the live-surface rule (no notes or process narration in `records/`). To be checked later with `tools/check_live_commentary.py`; not fixed here.
+- **Open.** The two scan readers disagreed on whether `senses` and `tensions` reach the model; the registry settles it for the voice (`engine/m1/spoken_fields.py`), but the net's grounding text (`engine/prose.py`) still includes them. Whether the net should keep scanning them is a separate question.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-125. OG-122 closed; judge evidence pack fixed (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Closed.** OG-122: the engine set the voice's turn aside as designed; the answerer ignored the flag and shipped the empty text. Fixed in PR #1382 (answerer substitutes the voice-rejected turn; harness admission checks the flag).
+- **Closed.** The judge evidence pack left out fields the voice is shown; fixed in PR #1383. The early-pass figure of 100 unsupported gate-kept sentences was overstated; 58 with the fixed pack (`Early_Pass_Report.md`, Decision-Log entry 39).
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-126. Gold labels on world-core and story records were made with the old judge pack (2026-10-31).
+
+Logged 2026-10-31.
+
+- **Open.** Gold labels for world-core and story items were made with the old pack. On 30 such items the fixed-pack judges disagree with 6 of the 13 gold-unsupported labels, and in five of the six read, both judges quote a field the old pack hid. These items need re-labelling before the held-out recall and false-alarm numbers are claimed for those record types.
+- **Owner.** Project lead, through the coordination thread.
