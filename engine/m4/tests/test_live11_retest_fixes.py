@@ -306,8 +306,10 @@ def test_the_replay_over_all_42_retest_drafts():
     counts = live11_replay.summary(live11_replay.run_all(RUN), RUN)
     assert counts["turns"] == 42
     # code writes the lead-in for a quote whose lead-in names no speaker,
-    # so 2 quotes are placed that were cut
-    assert counts["cuts"] == 16
+    # so 2 quotes are placed that were cut. The absence rule then withholds 3
+    # more: alx Q5, hal Q3 and pahc Q2, each a stated absence with no record
+    # behind it.
+    assert counts["cuts"] == 19
     # still cut: ijc Q2's creed clauses, ijc Q3's homoios phrases and desert
     # Q5's reworded saying, which the records they cite do not hold as theirs
     assert counts["overcuts_still_cut"] == 3

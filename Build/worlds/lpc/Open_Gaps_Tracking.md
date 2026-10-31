@@ -2512,3 +2512,19 @@ Logged 2026-10-31.
 Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Cyprian's *Address to Demetrianus* and *On the Vanity of Idols* (ascribed to Cyprian), which both shelves hold. This world's records also cite Tertullian's *On Modesty* chapter XXII as comparandum evidence (`lpc.source.tertullian-de-pudicitia`, used by `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace`), and the work is on the Latin Apologists' shelf. Whether the two worlds hold the shared works at the same weight is a cross-world question. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
 
 - **Open.** Owner: this world's thread.
+
+### OG-129. Should the world hold a record on John's prologue? (2026-10-31)
+
+Logged 2026-10-31.
+
+- **Open, for the record stage.** In the 30-answer reading, q084 said "We have no sermon of our own on those opening lines to give you." No record says this; the voice made the denial up. That is a system failure, fixed by the absence rule (`engine/m4/absence_rule.py`), not by a record edit. Augustine's Tractate I on John (`npnf107_augustine-homilies-john-soliloquies.xml`, lines 483-542) is a sermon on John 1:1-5 and sits on the shelf.
+- **The question.** Whether a limit record should state what the world does hold on John's prologue. Not decided; no record edit now.
+- **Owner.** Project lead, through the coordination thread.
+
+### OG-130. The absence rule cannot tell a flipped claim from its record (2026-10-31)
+
+Logged 2026-10-31.
+
+- **Open, for the Stage 4 verify step.** `engine/m4/absence_rule.py` matches by whole words, so a sentence that reverses a limit record's claim can pass when it shares two or more content words with the record's negated sentence. The Opus review (round 1) found: "No woman's spoken words reach us." citing `lpc.limit.womens-own-voice`, whose statement says a woman's spoken words do reach us, set down by men. The rule also reads no `formation_confidence`, so an absence stated in a Contested record passes as settled.
+- **Not a rule fix.** Word overlap cannot decide polarity or force. The verify step's judge reads each sentence against its bound records with force and scope in the pack (Stage 4 build plan, Phase 2).
+- **Owner.** Engine thread, through the coordination thread.
