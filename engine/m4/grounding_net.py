@@ -984,7 +984,9 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
     lead-in attributes it to no one but that record's own speaker, types no
     quotation of its own (a quotation mark left open counts), and names that
     speaker (the project lead's ruling of 14 October: code checks the name
-    and adds no words)."""
+    and adds no words). The sentence cites that record alone: any other tag
+    the voice wrote on its lead-in was not checked against the sentence, and a
+    citation carries only what the net verified."""
     record = records.get(record_id) or {}
     rendering = placed_key(quotable_rendering(record))
     spans = [span for span in _checked_pairs(text) if placed_key(span[2]) == rendering]
@@ -1005,7 +1007,7 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
             why = REASON_SPEAKER_UNNAMED
     if why is not None:
         return {"sentence": text, "tags": tags, "verdict": "withhold", "why": why}
-    return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
+    return {"sentence": text, "tags": [record_id], "verdict": "ok", "why": WHY_PLACED, "placed_quote": record_id}
 
 
 def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:

@@ -611,3 +611,22 @@ Mark, 2026-10-30, by choice box, relayed by the coordination thread: "Voice pick
 - The room is 220 words less the words the voice itself wrote in the reply. The 220 is the existing norm in the voice directive ("most replies run between 120 and 220 words, a question that earns more may take more"). Mark did not set it. It is one constant (`REPLY_WORD_ROOM` in `engine/m4/story_placement.py`) and changes by one edit. Coordination-level, AI-reviewed.
 - Three-level transparency and the fit step are unchanged. The length told is carried as data in the reply shape (`story_lengths`, present only when a story was placed), and a story card also carries the record's `heart`.
 - Built as a placement code change and a records change. The records change puts `heart`, `events`, `telling_short` and `telling_medium` into lpc's seven story records, with one lpc re-pin. lpc's registered `story_placement` flag stays off in production (OG-120).
+
+## 34. OG-118: scan lpc for unprompted absence statements, then fix by the story rule (2026-10-31)
+
+Mark, 2026-10-31, relayed by the coordination thread:
+
+- Scan lpc first (figure, term and witness records) for unprompted absence statements. Report the scan as a count and a list before any fix.
+- Fix by the same rule as the stories, in one records pull request with one re-pin. Run `engine.m9.cli check` locally before the push. An Opus guard check and a nothing-added check per edit. The three levels of transparency stay.
+- Other worlds only after the lpc result, through the coordination thread. OG-118 closes in a docs batch with this ruling.
+- The scan runs after the early pass (entry 35), not before it.
+
+## 35. An early records-only pass on the 106 questions (2026-10-31)
+
+Mark, 2026-10-31, relayed by the coordination thread: start the 106 run now as an early records-only pass; name it that way everywhere ("an early pass, not the Stage 4 proof"); file a short named change order recording the departure from the "Stage 2 done on lpc first" gate. The real proof reruns after Stage 2 lands. The change order is filed as `S3-Test100/Change_Order_Early_Pass.md`.
+
+Reader columns are by blind reads, two of three agree, marked AI-adjudicated under entry 17. The report gives scoring-sheet totals with each number taken from the run files, the judge-versus-gate disagreements adjudicated, and what broke.
+
+## 36. Net: a sentence composed around a placed quote cites that quote alone (2026-10-31)
+
+Mark asked for this fix directly: the net's verdict on a sentence built around a placed quote carried the sentence's own tags, so an unverified tag in a lead-in reached the citation list. The verdict now cites the placed quote's record id alone. Merged as pull request 1375 (`engine/m4/grounding_net.py`, test `engine/m4/tests/test_placed_quote_citations.py`), full regression 2576 passed. Logged as OG-121.

@@ -9,7 +9,8 @@ sentences shipped, cuts and their reasons, orphan flags (the S1-L2 bench's
 rule, loaded from the bench itself), quotes placed by code, lead-ins repaired,
 stories placed, answer records placed, citations. Empty for readers: fit to
 the question, answers the question asked, the five quality marks, pass or fail,
-still-works, and the judge columns.
+still-works, and the judge columns. The fit judge's verdict per placed record and the count of
+placements it would drop are filled when `fit/fit.jsonl` exists (engine.m3.test100_fit).
 
 The totals printed at the end split the 28 sealed probes from the rest, so they
 stay comparable with the Stage 3 baseline, and report the fit traps (group K)
@@ -34,6 +35,7 @@ READER_COLUMNS = [
 MEASURED_COLUMNS = [
     "id", "group", "cluster", "route", "words", "fk", "fre", "sentences_shipped", "cuts", "cut_reasons",
     "orphan_flags", "quotes_placed", "leadins_repaired", "stories_placed", "answer_records_placed", "citations",
+    "fit_judge", "fit_drops",
 ]
 
 
@@ -44,7 +46,7 @@ def _load_orphans():
     return module.orphans
 
 
-def measure(question: dict, answer: dict, orphans) -> dict:
+def measure(question: dict, answer: dict, orphans, fit_rows: list[dict] | None = None) -> dict:
     shape = answer.get("reply_shape") or {}
     removed = shape.get("removed", [])
     sentences = answer.get("net_sentences", [])
@@ -61,6 +63,8 @@ def measure(question: dict, answer: dict, orphans) -> dict:
         "stories_placed": sum(1 for s in sentences if s.get("placed_story")),
         "answer_records_placed": sum(1 for s in sentences if s.get("placed_answer")),
         "citations": len(answer.get("citations", [])),
+        "fit_judge": "; ".join(f"{r['record_id']}: {(r['judgement'] or {}).get('fit', 'unreadable')}" for r in fit_rows or []),
+        "fit_drops": sum(r["decision"] == "drop" for r in fit_rows or []),
     }
 
 
@@ -78,15 +82,19 @@ def _totals(rows: list[dict]) -> dict:
     }
 
 
-def build_sheet(questions: list[dict], answers_dir: Path) -> tuple[list[dict], list[str]]:
+def build_sheet(questions: list[dict], answers_dir: Path, fit_path: Path | None = None) -> tuple[list[dict], list[str]]:
     orphans = _load_orphans()
+    fit_by_question: dict[str, list[dict]] = {}
+    for line in (fit_path.read_text(encoding="utf-8").splitlines() if fit_path and fit_path.exists() else []):
+        row = json.loads(line)
+        fit_by_question.setdefault(row["question_id"], []).append(row)
     rows, missing = [], []
     for question in questions:
         path = answers_dir / f"{question['id']}.json"
         if not path.exists():
             missing.append(question["id"])
             continue
-        rows.append(measure(question, json.loads(path.read_text(encoding="utf-8")), orphans))
+        rows.append(measure(question, json.loads(path.read_text(encoding="utf-8")), orphans, fit_by_question.get(question["id"])))
     return rows, missing
 
 
@@ -96,7 +104,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args(argv)
-    rows, missing = build_sheet(load_set(args.question_set), args.work / "answers")
+    rows, missing = build_sheet(load_set(args.question_set), args.work / "answers", args.work / "fit" / "fit.jsonl")
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=MEASURED_COLUMNS + READER_COLUMNS)
