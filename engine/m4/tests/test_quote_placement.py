@@ -566,5 +566,6 @@ def test_a_reply_with_no_marker_ships_without_a_quote_and_keeps_its_citation():
     assert net_result["reply_shape"]["placed"] == []
     assert net_result["reply_shape"]["removed"] == []
     assert "“" not in text
+    assert text.startswith("Leo preached on the fast, and we go on keeping it.")
     assert text.endswith(GO_ON_SHOWN)
     assert any(s.get("tags") == ["fix.witness.w"] and s["verdict"] == "ok" for s in net_result["sentences"])
