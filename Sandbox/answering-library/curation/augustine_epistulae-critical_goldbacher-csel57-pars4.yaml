@@ -1,6 +1,5 @@
 file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
-scheme: Goldbacher's letter numbers CLXXXV to CCLXX, printed as a Roman numeral on a line of its own above the address of each letter; the running heads give the same numbers; a numeral the scan has damaged is read from the
-  same line and from the running head of its page; letters over 5,000 words are divided by the page numbers printed at the head of each page
+scheme: Goldbacher's letter numbers CLXXXV to CCLXX, printed as a Roman numeral on a line of its own above the address of each letter; the running heads give the same numbers; a numeral the scan has damaged is read from the same line and from the running head of its page; CCII A and CCL A are printed with the letter A after the numeral; the eight letters over 5,000 words are also divided at the section numbers (sectio) or page numbers (p) that the scan shows plainly, and a section or page whose number the scan drops or damages has no division of its own and runs on inside the one before
 curator: Sonnet 5.5
 status: drafted
 rules:
@@ -22,9 +21,14 @@ rules:
   locus: epistula{n|int}
   number: n
   fixes:
-  - line: 4368
+  - line: 2962
+    quote: CLXXXVB.
     set:
-      n: '188'
+      n: CLXXXVII
+  - line: 4368
+    quote: CLXXXVIIi.
+    set:
+      n: CLXXXVIII
   - line: 5020
     set:
       n: CXC
@@ -34,6 +38,10 @@ rules:
   - line: 8554
     set:
       n: CXCVII
+  - line: 8708
+    quote: cxcvm.
+    set:
+      n: CXCVIII
   - line: 11118
     set:
       n: CCII
@@ -43,6 +51,10 @@ rules:
   - line: 11986
     set:
       n: CCV
+  - line: 12709
+    quote: CCVTJI.
+    set:
+      n: CCVIII
   - line: 12888
     set:
       n: CCIX
@@ -64,6 +76,10 @@ rules:
   - line: 16039
     set:
       n: CCXX
+  - line: 16693
+    quote: ccxxm.
+    set:
+      n: CCXXIII
   - line: 17436
     set:
       n: CCXXVI
@@ -73,30 +89,59 @@ rules:
   - line: 18578
     set:
       n: CCXXX
+  - line: 19240
+    quote: ccxxxm.
+    set:
+      n: CCXXXIII
   - line: 19390
     set:
       n: CCXXXV
-  - line: 19815
-    set:
-      n: '238'
   - line: 20935
     set:
       n: CCXLII
+  - line: 21917
+    quote: ccxvw.
+    set:
+      n: CCXLVIII
   - line: 22322
     set:
       n: CCLII
+  - line: 22357
+    quote: CCIJV.
+    set:
+      n: CCLIV
+  - line: 22422
+    quote: CCLVI
+    set:
+      n: CCLVI
+  - line: 22488
+    quote: ccLvra.
+    set:
+      n: CCLVIII
+  - line: 22937
+    quote: CCIAT
+    set:
+      n: CCLXI
   - line: 23059
     set:
       n: CCLXII
+  - line: 23450
+    quote: CCLXJIL
+    set:
+      n: CCLXIII
   - line: 23583
     set:
       n: CCLXIV
+  - line: 24172
+    quote: caxvn.
+    set:
+      n: CCLXVII
   - line: 24208
     set:
       n: CCLXVIII
   flags: i
 - id: pg2382
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 2456
@@ -118,10 +163,9 @@ rules:
   - - 2899
     - 2899
   locus: p{p|int}
-  number: p
 - id: pg3118
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
-  parent: epx2962
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
+  parent: ep
   lines:
   - - 3250
     - 3250
@@ -164,9 +208,8 @@ rules:
   - - 4325
     - 4325
   locus: p{p|int}
-  number: p
 - id: pg5024
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 5124
@@ -192,9 +235,8 @@ rules:
   - - 5967
     - 5967
   locus: p{p|int}
-  number: p
 - id: pg9002
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 9076
@@ -215,14 +257,20 @@ rules:
     - 9541
   - - 9698
     - 9698
+  - - 9735
+    - 9735
   - - 9772
     - 9772
+  - - 9807
+    - 9807
   - - 9844
     - 9844
   - - 9958
     - 9958
   - - 9995
     - 9995
+  - - 10032
+    - 10032
   - - 10071
     - 10071
   - - 10107
@@ -239,6 +287,10 @@ rules:
     - 10339
   - - 10452
     - 10452
+  - - 10564
+    - 10564
+  - - 10641
+    - 10641
   - - 10675
     - 10675
   - - 10827
@@ -248,9 +300,8 @@ rules:
   - - 10895
     - 10895
   locus: p{p|int}
-  number: p
 - id: pg11986
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 12022
@@ -263,12 +314,13 @@ rules:
     - 12248
   - - 12363
     - 12363
+  - - 12401
+    - 12401
   - - 12474
     - 12474
   locus: p{p|int}
-  number: p
 - id: pg13215
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 13285
@@ -286,9 +338,8 @@ rules:
   - - 13781
     - 13781
   locus: p{p|int}
-  number: p
 - id: pg14987
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 15022
@@ -297,12 +348,16 @@ rules:
     - 15060
   - - 15135
     - 15135
+  - - 15172
+    - 15172
   - - 15209
     - 15209
   - - 15246
     - 15246
   - - 15285
     - 15285
+  - - 15322
+    - 15322
   - - 15359
     - 15359
   - - 15395
@@ -311,6 +366,8 @@ rules:
     - 15433
   - - 15583
     - 15583
+  - - 15621
+    - 15621
   - - 15658
     - 15658
   - - 15734
@@ -318,9 +375,8 @@ rules:
   - - 15771
     - 15771
   locus: p{p|int}
-  number: p
 - id: pg16888
-  pattern: ^(?P<p>[3-9]\d|\d{3})$
+  pattern: '^(?P<p>[3-9]\d|\d{3})(?: (?:\S{1,3} )?A\w{2,5}li A\w{3,9})?$'
   parent: ep
   lines:
   - - 16920
@@ -344,7 +400,6 @@ rules:
   - - 17424
     - 17424
   locus: p{p|int}
-  number: p
 - id: sc44
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -384,7 +439,6 @@ rules:
   - - 1279
     - 1279
   locus: sectio{s|int}
-  number: s
 - id: sc1677
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -412,23 +466,15 @@ rules:
   - - 2382
     - 2382
   locus: sectio{s|int}
-  number: s
-- id: epx2962
-  pattern: .
-  lines:
-  - 2962
-  - 2962
-  locus: epistula187
 - id: sc2962
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
-  parent: epx2962
+  parent: ep
   lines:
   - - 2964
     - 2964
   - - 3118
     - 3118
   locus: sectio{s|int}
-  number: s
 - id: sc5020
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -436,7 +482,6 @@ rules:
   - 5024
   - 5024
   locus: sectio{s|int}
-  number: s
 - id: sc6480
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -476,7 +521,6 @@ rules:
   - - 7854
     - 7854
   locus: sectio{s|int}
-  number: s
 - id: sc7996
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -498,7 +542,6 @@ rules:
   - - 8449
     - 8449
   locus: sectio{s|int}
-  number: s
 - id: sc9002
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -506,7 +549,6 @@ rules:
   - 10318
   - 10318
   locus: sectio{s|int}
-  number: s
 - id: sc19815
   pattern: '^(?:[A-Za-z0-9]{1,3} )?(?:[IVXLCYTU1l]{1,8}[.,]? )?(?P<s>\d{1,2})[.,]? (?=[A-Z][a-z]{2,}(?: [a-z,;:.?]{2,}){2,})(?!.{0,30}\d)'
   parent: ep
@@ -538,30 +580,7 @@ rules:
   - - 20610
     - 20610
   locus: sectio{s|int}
-  number: s
 divisions:
-- start_line: 8708
-  locus: epistula198
-- start_line: 12709
-  locus: epistula208
-- start_line: 16693
-  locus: epistula223
-- start_line: 19240
-  locus: epistula233
-- start_line: 21917
-  locus: epistula248
-- start_line: 22357
-  locus: epistula254
-- start_line: 22422
-  locus: epistula256
-- start_line: 22937
-  locus: epistula261
-- start_line: 23450
-  locus: epistula263
-- start_line: 24172
-  locus: epistula267
-- start_line: 22488
-  locus: epistula258
 - start_line: 11214
   locus: epistula202A
 - start_line: 22249
@@ -611,6 +630,8 @@ evidence:
   quote: '4 '
 - line: 3250
   quote: '89'
+- line: 4361
+  quote: CLXXXVTI. CLXXXVIII.
 - line: 4368
   quote: CLXXXVIIi.
 - line: 5020
@@ -637,8 +658,12 @@ evidence:
   quote: cxcvm.
 - line: 9076
   quote: '245'
+- line: 9735
+  quote: 262 Anreli Augustini
 - line: 10318
   quote: '1 '
+- line: 11114
+  quote: CCI. CCIT.
 - line: 11118
   quote: ccn.
 - line: 11214
@@ -649,6 +674,8 @@ evidence:
   quote: ccv.
 - line: 12022
   quote: '324'
+- line: 12401
+  quote: 334 S. Aureli Augustini
 - line: 12709
   quote: CCVTJI.
 - line: 12729
@@ -669,6 +696,8 @@ evidence:
   quote: CCXVT.
 - line: 15022
   quote: '404'
+- line: 15172
+  quote: 408 s- Aureli Angnstini
 - line: 15817
   quote: CCXVIIl.
 - line: 16039
@@ -699,10 +728,14 @@ evidence:
   quote: '27 '
 - line: 20935
   quote: ccxlii.
+- line: 21913
+  quote: CCXLVII. CCILVIII.
 - line: 21917
   quote: ccxvw.
 - line: 21989
   quote: epistularum CCXLVtli.
+- line: 22068
+  quote: CCL.
 - line: 22249
   quote: CCL A.
 - line: 22322
@@ -719,6 +752,8 @@ evidence:
   quote: epistularum CCLVII. CCLVIII.
 - line: 22488
   quote: ccLvra.
+- line: 22929
+  quote: CCLX. CCLiU
 - line: 22937
   quote: CCIAT
 - line: 23000
