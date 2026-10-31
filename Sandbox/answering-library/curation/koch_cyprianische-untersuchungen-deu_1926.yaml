@@ -6,8 +6,14 @@ divisions:
   - start_line: 118
     locus: vorwort
   - start_line: 462
+    id: ch1
     locus: ch1
-    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 1243
+    parent: ch1
+    locus: cap6-line1243
+  - start_line: 3102
+    parent: ch1
+    locus: schluss
   - start_line: 3435
     locus: ch1/anhang1/1
   - start_line: 3618
@@ -130,6 +136,7 @@ divisions:
     locus: ch8
     allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
   - start_line: 16443
+    id: ch9
     locus: ch9
   - start_line: 16506
     locus: ch9/1
@@ -139,7 +146,9 @@ divisions:
     locus: ch9/3
   - start_line: 16745
     locus: ch9/4
-    allow_oversize: 'the scan shows no numbered, lettered or titled break inside this stretch; only running heads and footnotes'
+  - start_line: 17480
+    parent: ch9
+    locus: nachtrag
   - start_line: 17646
     locus: ch10
   - start_line: 17827
@@ -182,6 +191,13 @@ divisions:
     locus: nachtraege
   - start_line: 23656
     locus: berichtigungen
+rules:
+  - id: cap
+    pattern: '^Cap\. ?(?P<n>\d+)\D'
+    parent: ch1
+    locus: cap{n|int}
+    number: n
+    lines: [[462, 1242], [1244, 3434]]
 ignore:
   - pattern: '^(?:\d{1,3} )?[IVXlvi]{1,4}\.? (?:Quod idola|De lapsis und|De zelo|De mortal|Ad Fortunatum|Die Bußfrage|Cyprian und (?:Seneca|Apuleius)|Zur ps?\.?-?cypr)[^.]{0,60}?(?: \S{1,5})?$'
     kind: running-head
@@ -201,6 +217,18 @@ evidence:
     quote: 'Vorwort'
   - line: 462
     quote: 'I.'
+  - line: 573
+    quote: 'Cap. 1. Jedem Leser der cyprianischen Schriften'
+  - line: 946
+    quote: 'Cap.5!. In c.5 heißt es'
+  - line: 2341
+    quote: 'Cap. 15. ‚Ac ne esset probatio'
+  - line: 1243
+    quote: 'Cap.6. ‚Poetae'
+  - line: 3102
+    quote: 'Schluß. Die Stellung von Idola'
+  - line: 17480
+    quote: 'Nachtrag.'
   - line: 465
     quote: 'Quod idola dii non sint: ein Werk'
   - line: 4615
