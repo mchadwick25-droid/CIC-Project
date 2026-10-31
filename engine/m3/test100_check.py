@@ -178,7 +178,7 @@ def final(rows: list, work: Path, records: dict) -> dict:
                     counts["pending_reread"] += 1
                     continue
                 parsed = ac.parse_check(reply, rewrite["rewrite"], records)
-                result = ac.outcome(rewrite["rewrite"], parsed, records) if parsed is not None else None
+                result = ac.outcome(rewrite["rewrite"], parsed, records, judge_placements=False) if parsed is not None else None
                 if result is None or result["unsupported"] or result["unreadable"]:
                     text = bound_draft.FALLBACK_ALONE
                     counts["abstained_rewrite_failed_read"] += 1

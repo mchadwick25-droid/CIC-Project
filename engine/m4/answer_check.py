@@ -111,11 +111,12 @@ def parse_check(reply: str, answer_units: list[dict], records: dict[str, dict]) 
     return {"sentences": sentences, "placed": placed}
 
 
-def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict]) -> dict:
+def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict], judge_placements: bool = True) -> dict:
     """What failed: unit indexes the judge found unsupported (with the judgement), placed record ids
     dropped for fit, and the count of bound sentences or placements with no readable judgement. Fit is
     judged once per placed quote or story; the world's own placed answer record is the record's words
-    and is not judged."""
+    and is not judged. With `judge_placements` false (the read of a rewrite) the fit verdicts of the first
+    read stand: a kept placement was judged there and is not asked about again."""
     unsupported, unreadable = {}, 0
     for i, u in enumerate(answer_units):
         if _kind(u) != "BOUND":
@@ -126,7 +127,7 @@ def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict]) ->
         elif not judgement["supported"]:
             unsupported[i] = judgement
     dropped = []
-    for rid in dict.fromkeys(u["placed_id"] for u in answer_units if u.get("placed") and u.get("placed_id")):
+    for rid in dict.fromkeys(u["placed_id"] for u in answer_units if judge_placements and u.get("placed") and u.get("placed_id")):
         if (records.get(rid) or {}).get("record_type") not in ("quote", "story"):
             continue
         judgement = parsed["placed"].get(rid)

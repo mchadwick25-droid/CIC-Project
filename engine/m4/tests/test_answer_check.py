@@ -185,3 +185,14 @@ def test_a_lead_in_goes_with_the_quote_that_was_dropped(records):
 def test_a_rewrite_that_states_an_absence_its_records_do_not_is_refused(records):
     kept = [_unit("We keep to the older books.", [LIMIT])]
     assert ac.parse_rewrite(f"We have no sermon of our own on those opening lines [[{LIMIT}]] [[as:paraphrase]].", kept, records, CONNECTIVES) is None
+
+
+def test_a_rewrite_that_keeps_a_placement_is_read_without_asking_about_it_again(tmp_path, records):
+    row = _work(tmp_path, "rewrite")
+    rewrite = [_unit("We keep to the older books on the first days.", [WITNESS]), _unit("Love, and do what you will.", [], QUOTE)]
+    (tmp_path / "check" / "rewrite.jsonl").write_text(json.dumps({**row, "rewrite": rewrite}) + "\n", encoding="utf-8")
+    reread = tmp_path / "check" / "reread" / "replies"
+    reread.mkdir(parents=True)
+    (reread / "q1.txt").write_text(_reply([{"n": 1, "supported": True, "problem": None, "reason": ""}], []), encoding="utf-8")
+    summary = runner.final([({"id": "q1"}, _answer())], tmp_path, records)
+    assert summary["rewritten"] == 1 and "abstained_rewrite_failed_read" not in summary
