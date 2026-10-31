@@ -1,7 +1,7 @@
 file: vonsoden_cyprianische-briefsammlung-deu_1904.txt
 scheme: 'von Soden''s paragraph numbers § 1 to § 20, printed as § and an arabic numeral at the head of each paragraph, with his own sub-numbers 1 and 2 under § 4, § 12, § 13, § 14 and § 16 (inside § 13 part 1 and § 14 part 1 the edition heads each codex group with a Greek siglum and codex numbers that the scan does not read reliably, so those groups are addressed by heading line number); the Vorwort, the part heads Erster Teil and Zweiter Teil with their sections A, I and II, the Anhang, and the appendix Exkurs I to IV (Exkurs I with sub-numbers 1 and 2, Exkurs II with its unnumbered introduction and items 1 to 26); the Literaturverzeichnis and Handschriftenverzeichnis as printed'
 curator: Sonnet 5.5
-status: drafted
+status: sampled-ok
 divisions:
   - start_line: 303
     locus: vorwort
