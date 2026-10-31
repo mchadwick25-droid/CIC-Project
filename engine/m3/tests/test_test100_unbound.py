@@ -41,7 +41,7 @@ def test_an_unbound_limit_is_withheld_and_the_fallback_stands_in_its_place(tmp_p
     _classify(work, ["world_claim", "world_claim", "connective", "limit"])
     assert tu.classify_import(rows, work, records) == {
         "rows": 5, "missing_replies": 0, "unreadable": 0, "world_claim": 1, "limit_not_stated_by_a_record": 1, "talks_of_tags": 0, "withheld_by_the_net": 1}
-    summary = tu.final(rows, work)
+    summary = tu.final(rows, work, records)
     assert summary["withhold"] == 1 and summary["withhold_net"] == 1 and summary["withhold_limit"] == 1 and summary["fallback_added"] == 1
     assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. Here is what we can say. {us.LIMIT_FALLBACK_ALONE}"
 
@@ -53,7 +53,7 @@ def test_a_limit_a_record_states_is_kept_and_no_fallback_is_added(tmp_path):
     tu.classify_export(rows, work)
     _classify(work, ["world_claim", "world_claim", "connective", "limit"])
     tu.classify_import(rows, work, records)
-    summary = tu.final(rows, work)
+    summary = tu.final(rows, work, records)
     assert summary["keep"] == 3 and "withhold_limit" not in summary and "fallback_added" not in summary
     assert (work / "unbound" / "final" / "q1.txt").read_text() == f"Bound claim. Here is what we can say. {STATED}"
 
@@ -69,7 +69,7 @@ def test_a_withheld_limit_does_not_add_the_fallback_when_a_stated_limit_remains(
     tu.classify_export(rows, work)
     _classify(work, ["limit", "world_claim", "connective", "limit"])
     tu.classify_import(rows, work, records)
-    summary = tu.final(rows, work)
+    summary = tu.final(rows, work, records)
     assert "fallback_added" not in summary and summary["withhold_limit"] == 1
     assert (work / "unbound" / "final" / "q1.txt").read_text() == f"{STATED} Here is what we can say."
 
@@ -81,7 +81,7 @@ def test_missing_replies_keep_their_sentences_and_are_counted(tmp_path):
     tu.classify_export(rows, work)
     _reply(work, "q1.3", '{"kind": "limit"}')
     assert tu.classify_import(rows, work, records)["missing_replies"] == 3
-    summary = tu.final(rows, work)
+    summary = tu.final(rows, work, records)
     assert summary["pending_classify"] == 3
     assert "Nothing we carry speaks of him." not in (work / "unbound" / "final" / "q1.txt").read_text()
 
@@ -115,7 +115,7 @@ def _run(tmp_path, tags, sentences, verify_text, kinds):
     for n, kind in enumerate(kinds):
         _reply(work, f"q1.{n}", json.dumps({"kind": kind}))
     tu.classify_import(rows, work, records)
-    return work, tu.final(rows, work)
+    return work, tu.final(rows, work, records)
 
 
 def test_a_limit_the_verify_step_removed_is_not_read_and_the_fallback_still_lands(tmp_path):
@@ -152,7 +152,7 @@ def test_no_fallback_is_added_while_a_reply_for_the_answer_is_missing(tmp_path):
     _reply(work, "q1.1", '{"kind": "world_claim"}')
     _reply(work, "q1.3", '{"kind": "limit"}')
     tu.classify_import(rows, work, records)
-    summary = tu.final(rows, work)
+    summary = tu.final(rows, work, records)
     assert "fallback_added" not in summary and summary["pending_classify"] == 1
 
 
@@ -181,3 +181,48 @@ def test_a_sentence_that_names_a_confidence_level_is_withheld(tmp_path):
     work, summary = _run(tmp_path, [[LIMIT], [LIMIT]], [LONG, "We hold it at Widely Accepted."], None, ["world_claim", "world_claim"])
     assert (work / "unbound" / "final" / "q1.txt").read_text() == LONG
     assert summary["withhold_tags"] == 1
+
+
+def _bind_run(tmp_path, bind_reply, check_reply):
+    work, questions = _setup(tmp_path, "Another fact.")
+    answer = json.loads((work / "answers" / "q1.json").read_text())
+    answer["offered"] = [LIMIT, "lpc.witness.days-before-the-sun"]
+    (work / "answers" / "q1.json").write_text(json.dumps(answer))
+    records = load_world_records("lpc")
+    rows = tu._answers(questions, work, records)
+    tu.classify_export(rows, work)
+    _classify(work, ["world_claim", "world_claim", "connective", "world_claim"])
+    tu.classify_import(rows, work, records)
+    (work / "unbound" / "bind" / "replies" / "q1.1.txt").write_text(bind_reply)
+    (work / "unbound" / "bind" / "replies" / "q1.3.txt").write_text('{"action": "none", "record": null, "sentence": null}')
+    result = tu.bind_import(rows, work, records)
+    if check_reply is not None:
+        (work / "unbound" / "bindcheck" / "replies" / "q1.1.txt").write_text(check_reply)
+    return work, result, tu.final(rows, work, records)
+
+
+def test_an_unbound_claim_is_bound_to_the_record_that_states_it_and_stays(tmp_path):
+    reply = json.dumps({"action": "bind", "record": "lpc.witness.days-before-the-sun", "sentence": None})
+    work, result, summary = _bind_run(tmp_path, reply, '{"supported": true, "problem": null, "reason": "ok"}')
+    assert result == {"candidates": 2, "missing_replies": 0, "bound_or_repaired": 1, "bound": 1, "repaired": 0}
+    assert summary["bound_kept"] == 1 and summary["withhold"] == 1
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == "Bound claim. A fact with no citation. Here is what we can say."
+
+
+def test_an_unbound_claim_is_repaired_to_the_scope_the_record_carries(tmp_path):
+    reply = json.dumps({"action": "repair", "record": "lpc.witness.days-before-the-sun", "sentence": "Augustine wrote that the days came before the sun."})
+    work, _result, summary = _bind_run(tmp_path, reply, '{"supported": true, "problem": null, "reason": "ok"}')
+    assert summary["repaired_kept"] == 1
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == "Bound claim. Augustine wrote that the days came before the sun. Here is what we can say."
+
+
+def test_a_bound_claim_the_read_finds_unsupported_is_withheld_after_all(tmp_path):
+    reply = json.dumps({"action": "bind", "record": "lpc.witness.days-before-the-sun", "sentence": None})
+    work, _result, summary = _bind_run(tmp_path, reply, '{"supported": false, "problem": "added_detail", "reason": "x"}')
+    assert "bound_kept" not in summary and summary["withhold"] == 2
+    assert (work / "unbound" / "final" / "q1.txt").read_text() == "Bound claim. Here is what we can say."
+
+
+def test_no_support_leaves_the_claim_withheld(tmp_path):
+    work, result, summary = _bind_run(tmp_path, '{"action": "none", "record": null, "sentence": null}', None)
+    assert result["bound_or_repaired"] == 0 and summary["withhold"] == 2

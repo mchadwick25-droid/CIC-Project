@@ -57,7 +57,7 @@ def _outside_repo(path: Path) -> Path:
     return resolved
 
 
-def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str]) -> dict:
+def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str], offered: list[str] | None = None) -> dict:
     net = net_results[-1] if net_results else {}
     return {
         "id": question["id"], "group": question["group"], "text": result.text, "citations": result.citations,
@@ -65,7 +65,7 @@ def _row(question: dict, result, net_results: list[dict], raw_drafts: list[str])
         "routing_reason": result.live_turn.routing_reason, "sends": result.live_turn.sends,
         "voice_set_aside": bool((result.live_turn.voice_event or {}).get("r27_enforcement_exhausted")),
         "raw_text": raw_drafts[-1] if raw_drafts else "",
-        "net_sentences": net.get("sentences", []), "reply_shape": net.get("reply_shape"),
+        "net_sentences": net.get("sentences", []), "reply_shape": net.get("reply_shape"), "offered": offered or [],
     }
 
 
@@ -115,7 +115,7 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
                 pending.append(question["id"])
                 continue
             (answers_dir / f"{question['id']}.json").write_text(
-                json.dumps(_row(question, result, list(captured), list(drafts)), ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8",
+                json.dumps(_row(question, result, list(captured), list(drafts), list(dict.fromkeys(i for r in client.requests for i in r.get("offered", [])))), ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8",
             )
             done.append(question["id"])
     finally:

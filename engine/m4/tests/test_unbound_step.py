@@ -93,3 +93,37 @@ def test_says_limit(sentence, expected):
 ])
 def test_talks_of_tags(sentence, expected):
     assert us.talks_of_tags(sentence) is expected
+
+
+OFFERED = ["lpc.limit.womens-own-voice", "lpc.witness.days-before-the-sun"]
+
+
+def test_the_bind_request_shows_the_offered_records_and_the_sentence(records):
+    request = us.bind_request("Q?", "We kept it so.", OFFERED, records)
+    assert "lpc.limit.womens-own-voice" in request["user"] and request["user"].endswith("SENTENCE\nWe kept it so.")
+    assert "bind" in us.BIND_SYSTEM and "repair" in us.BIND_SYSTEM and "none" in us.BIND_SYSTEM
+
+
+@pytest.mark.parametrize("reply, expected", [
+    ('{"action": "bind", "record": "lpc.limit.womens-own-voice", "sentence": null}', {"action": "bind", "record": "lpc.limit.womens-own-voice", "sentence": "S."}),
+    ('{"action": "none", "record": null, "sentence": null}', None),
+    ('{"action": "bind", "record": "lpc.limit.not-offered", "sentence": null}', None),
+    ('{"action": "repair", "record": "lpc.limit.womens-own-voice", "sentence": "We keep to what is written. And more."}', None),
+    ('{"action": "repair", "record": "lpc.limit.womens-own-voice", "sentence": "We keep what is written [[x]]."}', None),
+    ("not json", None),
+])
+def test_parse_bind(reply, expected, records):
+    assert us.parse_bind(reply, "S.", OFFERED, records) == expected
+
+
+def test_a_repair_that_is_one_plain_sentence_stands(records):
+    reply = '{"action": "repair", "record": "lpc.witness.days-before-the-sun", "sentence": "Augustine wrote that the days came before the sun."}'
+    assert us.parse_bind(reply, "S.", OFFERED, records) == {
+        "action": "repair", "record": "lpc.witness.days-before-the-sun", "sentence": "Augustine wrote that the days came before the sun."}
+
+
+def test_a_limit_bound_to_a_record_must_still_be_stated_by_it(records):
+    stated = "From our own two cities, in our years from 246 to 430, no text a woman wrote herself survives."
+    assert us.bound_limit_stands(stated, "lpc.limit.womens-own-voice", True, records)
+    assert not us.bound_limit_stands("Nothing we carry speaks of him.", "lpc.limit.womens-own-voice", True, records)
+    assert us.bound_limit_stands("Nothing we carry speaks of him.", "lpc.limit.womens-own-voice", False, records)

@@ -50,3 +50,11 @@ def test_a_reply_that_is_not_json_is_an_error_not_a_pending_call(tmp_path):
 def test_the_work_directory_may_not_be_inside_the_repository():
     with pytest.raises(SystemExit):
         _outside_repo(__import__("pathlib").Path("engine/m3"))
+
+
+def test_offered_ids_are_the_records_a_voice_request_offers_in_order_without_repeats():
+    from engine.m3.reply_client import offered_ids
+
+    request = {"kind": "voice", "messages": [{"role": "user", "text": "## Ground\n- [[a.b.c]] witness, x\n- [[d.e.f]] limit, y\nQ?\n- [[a.b.c]] again"}]}
+    assert offered_ids(request) == ["a.b.c", "d.e.f"]
+    assert offered_ids({"kind": "submit_reader_output", "messages": request["messages"]}) == []

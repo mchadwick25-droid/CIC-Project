@@ -32,6 +32,14 @@ A sentence worded as a limit or an exclusive claim ("only", "nothing", "never",
 "does not say") gets the same test whatever the reader called it. A sentence that
 names a confidence level or says how a claim is tagged is withheld.
 
+Bind or repair, withhold last. A sentence the rule would withhold (an unbound world
+claim, or a limit no record states) is first offered, with the records offered
+for the turn, to a reader who binds it to the record that states it (it stays,
+tagged to that record), repairs it to the narrower or broader scope the record
+carries, or finds no support (BIND_SYSTEM). A bound or repaired sentence is then
+read against its record like any bound sentence, and a limit must also pass the
+limit test against that record. Only a sentence with no support is withheld.
+
 When withheld limits leave an answer with almost nothing (under
 FALLBACK_BELOW_WORDS words), one fallback sentence stands where the first one
 stood: LIMIT_FALLBACK when the answer goes on after it, LIMIT_FALLBACK_ALONE when
@@ -44,8 +52,9 @@ import re
 
 from engine.m4 import absence_rule
 from engine.m4.grounding_net import placed_by_code
-from engine.m4.verify_step import valid_bindings
+from engine.m4.verify_step import parse_rewrite, record_pack, valid_bindings
 
+BIND_ACTIONS = ("bind", "repair", "none")
 KINDS = ("connective", "conversation", "world_claim", "limit")
 LIMIT_FALLBACK = "We do not have that here. Here is what we can tell you."
 LIMIT_FALLBACK_ALONE = "We do not have that here."
@@ -74,6 +83,54 @@ CLASSIFY_SYSTEM = (
     "is not known.\n"
     'Reply with one JSON object only: {"kind": "connective" or "conversation" or "world_claim" or "limit"}'
 )
+
+
+BIND_SYSTEM = (
+    "You help a historical Representative keep a sentence it said. The sentence carries no valid citation. You are given the "
+    "visitor's question, the sentence, and the records offered for this turn as numbered sentences with the force each carries. "
+    "Decide one of three things.\n"
+    "bind: one offered record states what the sentence says, with the same speaker, force and scope; give its id, and the sentence "
+    "stays as it is.\n"
+    "repair: the sentence is right in part, or too broad or too narrow for the records; rewrite it as one plain sentence under "
+    "25 words, in \"we\", as a close paraphrase of what one offered record states, with that record's force and limits, with no "
+    "quotation marks and no tag; give that record's id and the rewritten sentence.\n"
+    "none: no offered record supports any version of it.\n"
+    "Use no outside knowledge.\n"
+    'Reply with one JSON object only: {"action": "bind" or "repair" or "none", "record": "the record id" or null, '
+    '"sentence": "the rewritten sentence" or null}'
+)
+
+
+def bind_request(question: str, sentence: str, offered: list[str], records: dict[str, dict]) -> dict:
+    packs = "\n\n".join(record_pack(records[r], records) for r in offered if r in records)
+    return {"system": BIND_SYSTEM, "user": f"QUESTION\n{question}\n\nRECORDS OFFERED\n\n{packs}\n\nSENTENCE\n{sentence}"}
+
+
+def parse_bind(reply: str, sentence: str, offered: list[str], records: dict[str, dict]) -> dict | None:
+    """{"action", "record", "sentence"} for a bind or a repair that stands, else
+    None: an unreadable reply, a record that was not offered, a repair that is
+    not one plain sentence (engine.m4.verify_step.parse_rewrite), or none."""
+    found = _JSON.search(reply or "")
+    if not found:
+        return None
+    try:
+        data = json.loads(found.group(0))
+    except json.JSONDecodeError:
+        return None
+    action, record = data.get("action"), data.get("record")
+    if action not in ("bind", "repair") or record not in offered or record not in records:
+        return None
+    if action == "bind":
+        return {"action": "bind", "record": record, "sentence": sentence}
+    new = parse_rewrite(str(data.get("sentence") or ""), [record], records)
+    return {"action": "repair", "record": record, "sentence": new} if new else None
+
+
+def bound_limit_stands(new_sentence: str, record_id: str, was_limit: bool, records: dict[str, dict]) -> bool:
+    """A sentence that says something is missing stays bound only when the
+    record it is bound to states that limit; any other sentence needs only the
+    verify read."""
+    return not was_limit or limit_backed({"sentence": new_sentence, "records": [record_id]}, records)
 
 
 def shipped_items(answer: dict, records: dict[str, dict]) -> list[dict]:

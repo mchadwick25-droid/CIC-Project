@@ -289,9 +289,10 @@ NO_GROUND_LINE = (
 NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
 LEXICON_LINE = "Use the world's own words for what it held."
 LIMIT_LINE = (
-    "Answer from the records in the ground. Say what the sources lack or leave open only when a limit record in the ground says it, "
-    "and cite that record; otherwise leave the gap unmentioned and give what the records do hold. "
-    "Never name a confidence level or say how a claim is tagged."
+    "Answer with the richest material the records in the ground support: the example, the story, the quote with its application, "
+    "the reason and the setting, each cited to its record. Say what the sources lack or leave open only when a limit record in "
+    "the ground says it, cite that record, and then go on to what the records do hold; never let a statement of a lack replace "
+    "material you have. Never name a confidence level or say how a claim is tagged."
 )
 REFER_BACK_LINE = (
     "Where a record marked as already used bears on this answer, refer back to it in your own way "

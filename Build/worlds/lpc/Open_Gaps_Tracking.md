@@ -2552,6 +2552,6 @@ Logged 2026-10-31.
 Logged 2026-10-31.
 
 - **Found.** The second fresh reading: 3 serious (one a silence claim worded "we know only", bound to a record that does not state it, so it was never held to the limit test; two splice or scope slips) and 13 of 30 answers that do not address the question. Limit records win retrieval on questions the shelf can answer, and the voice states many limits with no tag.
-- **System fix built.** The limit test applies to any sentence worded as a limit; the directive stops the voice from stating lacks without a cited limit record and from naming confidence levels; the fallback is rare and placed once; the verify prompt holds a joined sentence to the narrower scope. No record edit.
+- **System fix built.** A sentence the rule would withhold is first bound or repaired against the records the voice was offered; only an unsupported one is withheld. The limit test applies to any sentence worded as a limit; the directive stops the voice from stating lacks without a cited limit record and from naming confidence levels; the fallback is rare and placed once; the verify prompt holds a joined sentence to the narrower scope. No record edit.
 - **Open.** Retrieval and routing (which records are offered for a question) is not changed; coordination takes it to Mark.
 - **Owner.** Engine thread, through the coordination thread.
