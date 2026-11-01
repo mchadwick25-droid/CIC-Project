@@ -129,7 +129,7 @@ def test_a_source_with_a_citation_line_shows_only_that_line_and_its_place_in_the
     [source] = resolve_source_card("w.term.x", repo)["sources"]
     assert source == {
         "source_id": "w.source.s", "citation": "An Author, A Work, trans. A Translator (1898)", "author": None,
-        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None,
+        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None, "vendored": [], "translator": None, "edition_date": None,
     }
 
 
@@ -347,7 +347,9 @@ def test_a_story_or_quote_card_names_the_vendored_text_span_each_source_cites():
     assert quote["original"] == [{"label": "Latin", "file": "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt", "lines": "12508-12516"}]
     assert quote["edition_words"] and quote["means"]
     term = resolve_source_card("lpc.term.catechesis", records)
-    assert all("vendored" not in source for source in term["sources"])
+    spans = {source["source_id"]: source["vendored"] for source in term["sources"]}
+    assert spans["lpc.source.augustine-the-enchiridion"] == [{"file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "lines": "21773-21773", "label": None}]
+    assert spans["lpc.source.augustine-confessions"] == []
 
 
 def test_locus_refs_reads_single_lines_ranges_and_refuses_the_rest():
@@ -392,3 +394,18 @@ def test_a_story_card_carries_the_long_telling_when_the_record_has_one_and_none_
     }
     assert resolve_source_card("w.story.a", repo)["telling_long"] == "The long telling."
     assert resolve_source_card("w.story.b", repo)["telling_long"] is None
+
+
+def test_a_source_card_carries_the_translator_and_edition_date_the_package_holds():
+    facts = {
+        "translator": {"name": "A. Translator", "source": "file line 3", "formation_confidence": "Documented"},
+        "edition_date": {"formation_confidence": "unknown", "checked": "title page and preface"},
+    }
+    repo = {
+        "w.term.x": {"id": "w.term.x", "record_type": "term", "sources": [{"source_id": "w.source.s", "locus": "Letter 5"}, {"source_id": "w.source.t", "locus": "Letter 6"}]},
+        "w.source.s": {"id": "w.source.s", "record_type": "source", "citation": "A work, trans. A. Translator", "edition_facts": facts},
+        "w.source.t": {"id": "w.source.t", "record_type": "source", "citation": "Another work"},
+    }
+    with_facts, without = resolve_source_card("w.term.x", repo)["sources"]
+    assert with_facts["translator"] == facts["translator"] and with_facts["edition_date"] == facts["edition_date"]
+    assert without["translator"] is None and without["edition_date"] is None

@@ -21,9 +21,22 @@ export interface SourceReference {
   locus: string | null;
   rights_status: string | null;
   edition?: string | null;
-  // Story and quote cards: the vendored text spans (file under cic/texts and
+  // Story, quote and term cards: the vendored text spans (file under cic/texts and
   // line range) the locus cites, for a click-through to the source document.
   vendored?: { file: string; lines: string; label: string | null }[];
+  // Who translated or edited the vendored edition and the year its own file
+  // states, from the source's corpus-map row. A fact set (name or year) or
+  // an unknown that says where it was looked for; null when the row has none.
+  translator?: EditionFact | null;
+  edition_date?: EditionFact | null;
+}
+
+export interface EditionFact {
+  name?: string;
+  year?: number;
+  source?: string;
+  formation_confidence: string;
+  checked?: string;
 }
 
 export interface SourceCard {
@@ -94,8 +107,18 @@ export interface GlossUsed {
   matched_name: string;
   plain_meaning: string | null;
   quick_meaning: string | null;
+  world_word: string | null;
+  // The whole translational block: shown only for a term not yet split into
+  // heard_today and meant_here.
   translational_sense: string | null;
+  // Both set, or both null.
+  heard_today: string | null;
+  meant_here: string | null;
   false_friend: string[];
+  distortion_risk: 'low' | 'medium' | 'high' | null;
+  confidence: Record<string, unknown> | null;
+  // The term record's own sources, with any vendored span.
+  rests_on: SourceReference[];
   sourced_by: SourceReference[];
 }
 
