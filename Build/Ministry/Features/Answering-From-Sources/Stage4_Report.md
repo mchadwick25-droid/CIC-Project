@@ -75,3 +75,32 @@ Retrieval misses of the exact line asked for (q042, q038, q099). Rewrites that d
 ## Not changed by this report
 
 Nothing in the engine, the abstain rule, or the records. The open items go where they belong: Library's gap log for the record gaps (Letter 47.5, City of God XXII.8, the `unexcavated` wording of the world-core record), and the coordination thread for any change order on abstention, depth, or the live path's `LIMIT_LINE`.
+
+## Round 2: source fixes and a targeted redraft
+
+Same method and limits as above (shadow, in-plan helpers, no metered spend, no cost figures). Four fixes went in at their source, each as one reviewed PR: the draft and rewrite instructions add no person, place, title or date the bound records lack (#1414); a kept placed passage reaches the rewrite as its marker alone, and a story's lead-in names its subject without telling its facts (#1415); the read, the draft directive and the rewrite instruction keep a record's hedge, concession and date (#1418); the long fallback sentence stands only when a bound or placed sentence follows it (#1421). Library meanwhile fixed the world-core wording and the answers sidecar (#1419, #1420, #1422, #1423).
+
+Redraft sets, drawn after the fixes: the 18 first-run abstentions plus 12 shipped answers (30 answers, before #1415); then 17 answers (the 8 named defects, q029, and 8 shipped) on main at `7e40cdb7`; then q034, q072, q029 and q091 again on main at `de380da9`.
+
+| Set | Shipped | Abstained | Tier 1 | Tier 2 |
+|---|---|---|---|---|
+| 30 (18 earlier abstentions, 12 shipped) | 25 | 5 | 0 | 1 |
+| 17 (8 defects, q029, 8 shipped) | 16 | 1 | 0 | 5 answers, 1 serious |
+| 4 (q034, q072, q029, q091) | 4 | 0 | 0 | 4 |
+
+The 17 answers' first read struck 8 sentences (added detail 5, other 2, widened scope 1), against 71 of 516 in the proof run.
+
+Outcome of the nine defects found in the proof run (after the 17-answer set, and the last four after the last set):
+
+- Gone: q006 (a supposition no longer stated as teaching), q021 (matches the fixed world-core wording), q075 (rule dated, given to Cyprian, no pope judgement), q080 (hedge restored), q074 (the world's 430 boundary stated).
+- Still present: q072 leads with the council-of-256 rule as "for us", the world's answer on the pope. Its dated form is correct; the "for us" widening and a wrong force ("a rule" for the presiding bishop's account of how the council proceeds) remain, and the read passed them.
+- q034: the answer ships the world's own answer record for suicide. The voice wrote "we hold no words of Athanasius", but the net removed all three of its sentences (an absence stated wider than the record it cites; words attributed without a quote record), and the live answer-record fallback (`engine/m4/turn.py` `_answer_record_fallback`) then placed the first-offered doctrinal witness, which is on suicide. Wrong person, silently swapped in, though every word is the record's. The offer for q034 is at its cap and not on point: no record in lpc mentions Athanasius.
+- q029 (Origen) and q091 (rabbis, Josephus): no longer an unrelated opposing view or off-topic, but neither answers its question. q029 gives Augustine on endless punishment and Cyprian on repentance without naming Origen; City of God XXI.17 (on the shelf, no record) answers both halves. q091 describes the thinness of the record rather than addressing rabbis or Josephus.
+
+## Design limits and open items
+
+- One rewrite from survivors cannot see that the survivors now answer wrongly: q075 in the proof run kept a rule once its framing sentence was struck. No step was added for it.
+- The voice has no unbound way to state a lack, and the fallback sentence is code-inserted only. Questions the ground does not cover therefore get a thin answer, a question back, or an abstention; q029, q034, q091 and the earlier q100 and q102 are of this kind.
+- The live path's answer-record fallback places the first-offered witness whether or not it fits the question. This is the live path, left for its own change order.
+- Record gaps for Library's gap log: Letter 47.5 to Publicola (q102), City of God XXII.8 (q099, q100), City of God XXI.17 on Origen (q029), no record on Athanasius (q034), and sub-questions with no sidecar records (C11.S4, C11.S8).
+- Not measured here: the judge trial's recall, precision and constructed-defect rows (they belong to the held-out trial under `Stage1/runs/`).
