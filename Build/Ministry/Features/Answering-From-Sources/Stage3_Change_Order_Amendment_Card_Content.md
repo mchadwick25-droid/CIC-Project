@@ -21,3 +21,8 @@ Mark, 2026-11-01, relayed by the coordination thread: "the function of the card 
 ## Done when
 
 Mark has chosen a template from the options put to him, entry 50 of the Decision-Log records the choice, and the card and its test are changed together under that choice.
+
+## Outcome
+
+Mark chose template B on 2026-11-01 (Decision-Log 52): hover with speaker, work, locus, confidence phrase and the record's one-line meaning; click page with three labelled layers (today's English, the edition, the original). The quote card's test is rewritten to template B in the pull request that builds it.
+

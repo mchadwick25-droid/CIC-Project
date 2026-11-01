@@ -734,3 +734,12 @@ Mark, 2026-11-01, relayed by the coordination thread: "on the card i would like 
 - No story is invented or extended past its record. Recording, and any paid step, is a later and separate decision.
 - The schema amendment for the new field, and what Library needs to write the seven tellings, are drafted for Mark in an Artifact; neither is written into the repo until Mark approves.
 
+## 52. Quote-card template B chosen (2026-11-01)
+
+Mark picked template B from the options put to him: three labelled layers, with the record's one-line meaning in the hover. Relayed by the coordination thread on 2026-11-01 (the message is the record; Mark's own words were not quoted).
+
+- Hover: speaker, work, locus, the plain confidence phrase, and the record's one-line meaning.
+- Click page: layer 1 "In today's English", the spoken modern rendering; layer 2 "In the edition", the edition's words with their citation; layer 3 "In the original", the locus in the original language where we hold it, with the vendored file and lines.
+- Held as data and not yet available: the translator and the date of the edition. The source records carry the edition's series and volume in their `edition` and `citation` fields and no separate translator or date. Library question, recorded in lpc `Open_Gaps_Tracking.md` (OG-140).
+- The card's tests are rewritten to this template in the same pull request that changes the card. Three-level transparency (Settled row 12) is kept.
+

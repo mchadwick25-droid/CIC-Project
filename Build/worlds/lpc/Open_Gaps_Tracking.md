@@ -2609,3 +2609,8 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Context.** The seven lpc full tellings are 201 to 288 words, about 1.2 to 1.9 minutes at the recorded pace (154 to 169 words a minute); the long telling Mark asked for is 2 to 4 minutes (340 to 615 words at that pace). The amendment draft is an Artifact for Mark, not in the repo.
 - **Owner.** Library thread, through the coordination thread.
 
+### OG-140. Source records carry no translator or edition date, which the quote card's second layer would show (2026-11-01).
+
+- **Open.** Quote-card template B (Decision-Log 52) shows "In the edition" with the edition's words, its translator and its date. The lpc source records carry `edition` and `citation` as free text (for example "Nicene and Post-Nicene Fathers, Series I, vol. III") and no structured translator or date; none of the 210 source records has one. The card shows the edition words and the citation now and shows no translator or date until the source records carry them. A record-stage item: add the fields, or confirm the citation line is enough for Mark.
+- **Owner.** Library thread, through the coordination thread.
+
