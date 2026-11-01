@@ -75,7 +75,7 @@ senses:
     years and does not carry Cyprian's own argument in it; the phrase episcopatus unus est is not
     evidence for that dispute, and this entry draws on the treatise for its general ecclesiology alone.
     The treatise also carries an unresolved two-recension question for chapters 4-5 -- one form, the 'Primacy
-    Text,' more favourable to Roman primacy -- on which nothing here depends.
+    Text,' more favourable to Roman primacy -- on which nothing here depends. It is widely accepted that the sentence used here is common to both forms. The edition that would settle the question, Bévenot's, is not read in this build; the open question is carried in lpc.contested.de-unitate-recensions.
   translational: 'A modern listener may hear either a bureaucratic hierarchy or a loose association of
     independent congregations. We mean neither: a single office shared corporately, each holder holding
     his part for the whole, which makes both equality among bishops and the seriousness of separation
