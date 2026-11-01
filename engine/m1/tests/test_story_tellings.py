@@ -169,13 +169,23 @@ def _floor(rec):
     return gates.gate_readability_floor({rec["id"]: rec}, {}, {})
 
 
-def test_a_telling_below_the_grade_floor_is_reported_and_never_failed():
+def test_a_telling_at_grade_seven_is_not_reported_and_one_below_seven_is_reported_and_never_failed():
     rec = _long(_with_fields(_story()))
-    rec["telling_long"] = "He ran to the town. The man was kind. He gave her a loaf. She said thanks to him. They sat down to eat. It was a good day for all of them."
-    assert gates.grade_text(rec["telling_long"])["fk"] < gates.FK_FLOOR
-    assert gates.grade_text(rec["telling_long"])["fre"] >= gates.FRE_FLOOR
+    seven = "Celerinus wrote to Lucian from his prison cell and asked for peace for his sister, who had fallen away from the church. Lucian agreed, but only if each case went before the bishop first."
+    very_plain = "He ran to the town. The man was kind. He gave her a loaf. She said thanks to him. They sat down to eat. It was a good day for all of them."
+    assert gates.STORY_TELLING_FK_FLOOR <= gates.grade_text(seven)["fk"] < gates.FK_FLOOR
+    assert gates.grade_text(very_plain)["fk"] < gates.STORY_TELLING_FK_FLOOR
+    rec["telling_long"] = seven
+    assert not any("telling_long" in f for f in _floor(rec)) and not any("telling_long" in f for f in _readability(rec))
+    rec["telling_long"] = very_plain
+    assert gates.grade_text(very_plain)["fre"] >= gates.FRE_FLOOR
+    assert any("telling_long" in f and "story-telling floor of 7 (reported, not failed)" in f for f in _floor(rec))
     assert not any("telling_long" in f for f in _readability(rec))
-    assert any("telling_long" in f and "reported, not failed" in f for f in _floor(rec))
+
+
+def test_other_fields_keep_the_band_floor_of_eight():
+    term = {"id": "w.term.x", "record_type": "term", "plain_meaning": "He ran to the town. The man was kind. He gave her a loaf. She said thanks to him. They sat down to eat."}
+    assert any("below the band floor of 8" in f for f in gates._floor_observations([("w.term.x", term)]))
 
 
 def test_a_telling_below_the_ease_floor_still_fails():
