@@ -810,3 +810,11 @@ Coordination-level, AI-reviewed (not Mark's own words). Shadow run on all 106 lp
 
 - Gaps are OG-152 to OG-154. The 30 quote placements and the 21 tellings are put to Mark as an Artifact; the 15% tolerance and the Numidicus closing stay held for him.
 
+## 62. Two record-stage gates: quote text at its cited locus, and a review file for every rendering (2026-11-01)
+
+Mark, 2026-11-01, choice box, relayed by the coordination thread (the message is the record; Mark's own words were not quoted): the two mechanical defect checks become engine gates for the record stage; hedges and years stay writing rules checked by the independent reader. No new passes beyond these two.
+
+- The gates are filed in `Record_Gates_Change_Order.md`: `quote-locus` (a verbatim quote's text must occur at the vendored lines its locus cites) and `rendering-review` (a `modern_rendering` needs a named Opus review file that lists it, in the format of Library's lpc rendering log). Both are machine checks, no model call.
+- Checked against all 13 built worlds before registering. Every current failure is a dated `ACCEPTED_OPEN` waiver: `quote-locus` 4 in lpc and 1 in desert; `rendering-review` 372 across 11 worlds with no review log. Verbatim quotes whose locus names no span (364 outside lpc, desert and witt) are not reached; whether to require a span is put to Mark.
+- Every pinned package is rebuilt and re-pinned for the new gates.
+
