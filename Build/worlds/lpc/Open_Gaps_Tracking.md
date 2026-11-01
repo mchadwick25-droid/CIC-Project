@@ -2670,3 +2670,5 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 
 - **Done.** `lpc.story.election-of-cyprian` `tellable_as` now reads "How we came to see a new convert's election, against his own reluctance, as God's own judgment made visible", at Flesch Reading Ease 62.9 (was 58.4, under the bar of 60). Same claim, plainer words. One independent Opus reader on that field only: PASS, no findings. Closes the `tellable_as` item in OG-145 and OG-146.
 - **Owner.** Library thread, through the coordination thread.
+
+- **OG-147 follow-up (2026-11-01).** The lpc readability waiver in the fleet gate (`m1:readability/lpc`) was tightened from 13 to 12, because the Election `tellable_as` fix removed one of the 13 findings it covered (the gate itself asks for the tighten; waivers only shrink).
