@@ -2563,3 +2563,13 @@ Logged 2026-10-31.
 - **Open: the closed list of joining sentences.** An unbound sentence ships only as a question to the visitor or one of the world's reviewed joining sentences. lpc has no reviewed list yet, so none are spoken. Owner: Library thread.
 - **Open: the absence check on the live path.** The check that withholds a tagged absence claim still runs inside the live net. Retiring it needs its own change order with numbers. Owner: coordination.
 - **Owner.** Engine thread, through the coordination thread.
+
+### OG-135. lpc sub-question map reviewed record by record; joining sentences done (2026-11-01).
+
+- **Done.** The sub-question map in `build/lpc_Answers_Sidecar.yaml` was reviewed for every lpc record of a type the offer uses, plus the four demonstrations. One independent reader checked every pairing; two false fits it found were removed and its missing pairs were added. Records mapped: 69 before, 186 after. Sub-questions with records: 41 before, 75 after, of 130. Two force records fit no sub-question and stay unmapped (`inherited-latin-theological-vocabulary`, `vandal-invasion-siege-of-hippo`).
+- **Done.** The closed list of joining sentences is `build/lpc_Joining_Sentences.yaml` (five sentences, PR #1410). This closes the joining-sentences item in OG-134.
+- **Open: record gap, self-defence (q102).** The sidecar offers only `lpc.witness.violence-commanded-not-cruel`. Letter 47.5 is on the shelf and has no record. No record written here. Owner: Library thread, once Mark rules on new records.
+- **Open: record gap, miracles (C13.S3, q100).** No lpc record speaks to miracles seen or heard. The sub-question stays empty. Owner: Library thread, once Mark rules on new records.
+- **Open: 55 sub-questions have no lpc record**, mostly the modern and Facilitator-ground clusters (C15, C17) and topics the lpc sources do not reach. Empty is the correct state until a record exists.
+- **Open: system hazard.** `tools/build_answers_sidecar.py` regenerates the sidecar from the coverage maps and would overwrite this reviewed file. Owner: coordination, to rule whether the reviewed sidecar replaces the generator for lpc.
+- **Owner.** Library thread, through the coordination thread.
