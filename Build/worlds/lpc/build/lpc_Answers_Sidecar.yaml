@@ -1,12 +1,13 @@
 world: lpc
+reviewed: true
 subquestions:
   C1.S1:
     cluster: C1
     label: Who Jesus was to them; the good news; what he taught
     records:
     - lpc.witness.the-pattern-we-are-modelled-on
-    - lpc.quote.the-creed-first-then-the-prayer
-    - lpc.quote.what-is-done-by-you-he-does-in-you
+    - lpc.quote.many-have-learned-to-offer-the-other-cheek
+    - lpc.demo.who-is-jesus-to-us
   C1.S2:
     cluster: C1
     label: Was he God; prophet, teacher or God as an outsider asks; virgin birth; 'the Father is greater'
@@ -17,13 +18,14 @@ subquestions:
     label: 'His death: why killed, what it did, ''in our place'', ''personal Lord'''
     records:
     - lpc.witness.the-pattern-we-are-modelled-on
+    - lpc.quote.the-old-man-nailed-to-the-cross-speaks
     - lpc.quote.two-hear-one-scorns-one-rises
   C1.S4:
     cluster: C1
     label: 'Resurrection: what happened, how they knew, ''grew in the telling'''
     records:
+    - lpc.witness.the-pattern-we-are-modelled-on
     - lpc.limit.no-chain-of-witnesses
-    - lpc.quote.peter-the-sick-man-and-the-physician
   C1.S5:
     cluster: C1
     label: Did he exist; eyewitness chain; outside witnesses
@@ -42,8 +44,8 @@ subquestions:
     label: Would Jesus want someone like me; I want to believe
     records:
     - lpc.witness.grant-me-chastity-but-not-yet
-    - lpc.quote.bind-him-justly
     - lpc.quote.peter-the-sick-man-and-the-physician
+    - lpc.demo.who-is-jesus-to-us
   C2.S1:
     cluster: C2
     label: Is God real; who made God
@@ -53,7 +55,6 @@ subquestions:
     label: 'What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God'
     records:
     - lpc.witness.violence-commanded-not-cruel
-    - lpc.witness.restless-heart-and-the-unrepentant-enemy
   C2.S3:
     cluster: C2
     label: The Trinity in plain words; the one-and-three objection
@@ -62,15 +63,16 @@ subquestions:
   C2.S4:
     cluster: C2
     label: 'The Spirit: person or force; tongues; prophecy; still speaks'
-    records: []
+    records:
+    - lpc.quote.no-one-has-the-love-of-god-from-himself
   C2.S5:
     cluster: C2
     label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
     records:
-    - lpc.gravity.conciliar-authority-theory
     - lpc.witness.scripture-above-councils
-    - lpc.limit.411-gesta-unread
     - lpc.witness.the-only-son-and-the-trinity
+    - lpc.quote.earlier-councils-corrected-by-later
+    - lpc.gravity.conciliar-authority-theory
   C2.S6:
     cluster: C2
     label: Can God be known, felt, experienced; God in nature; God heals
@@ -80,7 +82,6 @@ subquestions:
     cluster: C2
     label: Where evil comes from; did God create it
     records:
-    - lpc.witness.violence-commanded-not-cruel
     - lpc.force.manichaeism-and-pelagian-anthropology
   C2.S8:
     cluster: C2
@@ -89,11 +90,23 @@ subquestions:
   C3.S1:
     cluster: C3
     label: Was hell and a last judgment real; how pictured, preached, used
-    records: []
+    records:
+    - lpc.witness.judged-on-the-life-lived-here
+    - lpc.witness.punishment-without-end
+    - lpc.quote.a-respite-from-their-torments
+    - lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life
+    - lpc.quote.an-ever-burning-gehenna
+    - lpc.quote.the-life-and-the-death-shall-both-be-without-end
+    - lpc.quote.very-many-make-moan-over-the-eternal-punishment
   C3.S2:
     cluster: C3
     label: Was hell forever, or did it end
-    records: []
+    records:
+    - lpc.witness.punishment-without-end
+    - lpc.quote.a-respite-from-their-torments
+    - lpc.quote.an-ever-burning-gehenna
+    - lpc.quote.the-life-and-the-death-shall-both-be-without-end
+    - lpc.quote.very-many-make-moan-over-the-eternal-punishment
   C3.S3:
     cluster: C3
     label: Did everyone get restored in the end, even the devil
@@ -105,7 +118,13 @@ subquestions:
   C3.S5:
     cluster: C3
     label: 'Right after death: waiting place, Sheol, purgatory, prayer for the dead; ghosts; reincarnation'
-    records: []
+    records:
+    - lpc.witness.judged-on-the-life-lived-here
+    - lpc.witness.remembered-at-the-altar
+    - lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life
+    - lpc.quote.left-doubtful-a-kind-of-purgatorial-fire
+    - lpc.quote.remember-me-at-the-lords-altar
+    - lpc.quote.thank-offerings-for-the-very-good
   C3.S6:
     cluster: C3
     label: Heaven; the body raised; seeing loved ones; losing it after baptism
@@ -113,7 +132,17 @@ subquestions:
   C3.S7:
     cluster: C3
     label: 'Who is lost: outsiders, Jews and pagans, a loved one, unbaptised infants, suicide'
-    records: []
+    records:
+    - lpc.witness.infants-and-the-sin-of-another
+    - lpc.witness.no-one-may-take-his-own-life
+    - lpc.witness.no-salvation-outside-the-church
+    - lpc.quote.an-ever-burning-gehenna
+    - lpc.quote.no-place-for-a-healing-penitence
+    - lpc.quote.no-repentance-is-too-late
+    - lpc.quote.no-salvation-out-of-the-church
+    - lpc.quote.the-mildest-condemnation-of-all
+    - lpc.quote.the-mildest-punishment-of-all
+    - lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them
   C3.S8:
     cluster: C3
     label: 'The end of the world: rapture, Antichrist, ''in your lifetime'''
@@ -121,35 +150,64 @@ subquestions:
   C4.S1:
     cluster: C4
     label: Faith and works, grace, 'what must I do'
-    records: []
+    records:
+    - lpc.term.grace
+    - lpc.quote.believe-and-thou-hast-eaten-already
+    - lpc.quote.boast-in-nothing-since-nothing-is-our-own
+    - lpc.quote.love-and-do-what-thou-wilt
+    - lpc.quote.no-one-has-the-love-of-god-from-himself
+    - lpc.gravity.grace-and-human-incapacity
   C4.S2:
     cluster: C4
     label: Original sin, inherited guilt, infants
-    records: []
+    records:
+    - lpc.witness.infants-and-the-sin-of-another
+    - lpc.quote.not-his-own-sins-but-the-sins-of-another
+    - lpc.quote.the-mildest-condemnation-of-all
+    - lpc.quote.the-mildest-punishment-of-all
   C4.S3:
     cluster: C4
     label: Free will, predestination, election, Romans 9
-    records: []
+    records:
+    - lpc.term.grace
+    - lpc.quote.boast-in-nothing-since-nothing-is-our-own
+    - lpc.quote.no-one-has-the-love-of-god-from-himself
+    - lpc.quote.two-hear-one-scorns-one-rises
+    - lpc.quote.what-is-done-by-you-he-does-in-you
+    - lpc.gravity.grace-and-human-incapacity
+    - lpc.contested.grace-pelagius-characterization
   C4.S4:
     cluster: C4
     label: Assurance, losing salvation, falling and returning
-    records: []
+    records:
+    - lpc.term.reconciliation-penitential-discipline
+    - lpc.term.the-lapsed
+    - lpc.quote.david-himself-hath-been-sent-to-thee
+    - lpc.quote.no-repentance-is-too-late
+    - lpc.quote.peter-the-sick-man-and-the-physician
   C4.S5:
     cluster: C4
     label: Baptism as new birth, is it needed, once-only repentance
-    records: []
+    records:
+    - lpc.witness.baptism-as-new-birth
   C4.S6:
     cluster: C4
     label: Those who never heard; good without God
-    records: []
+    records:
+    - lpc.witness.no-salvation-outside-the-church
+    - lpc.quote.no-salvation-out-of-the-church
   C4.S7:
     cluster: C4
     label: Indulgences, almsgiving, paying for sin
-    records: []
+    records:
+    - lpc.witness.almsgiving-quenches-sin
+    - lpc.witness.judged-on-the-life-lived-here
+    - lpc.quote.not-to-purchase-impunity
   C4.S8:
     cluster: C4
     label: The sin that cannot be forgiven
-    records: []
+    records:
+    - lpc.quote.no-place-for-a-healing-penitence
   C5.S1:
     cluster: C5
     label: Which books, the apocrypha, who decided, the Bible as only authority
@@ -158,7 +216,13 @@ subquestions:
   C5.S2:
     cluster: C5
     label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
-    records: []
+    records:
+    - lpc.witness.days-before-the-sun
+    - lpc.witness.violence-commanded-not-cruel
+    - lpc.quote.believe-and-thou-hast-eaten-already
+    - lpc.quote.dash-the-little-ones-against-the-rock
+    - lpc.quote.the-old-man-nailed-to-the-cross-speaks
+    - lpc.quote.they-first-dwelt-together-in-unity
   C5.S3:
     cluster: C5
     label: Reliability, errors, authorship, 'science disproves it'
@@ -167,7 +231,8 @@ subquestions:
   C5.S4:
     cluster: C5
     label: Genesis and creation, the six days
-    records: []
+    records:
+    - lpc.witness.days-before-the-sun
   C5.S5:
     cluster: C5
     label: Revelation and the end
@@ -176,57 +241,91 @@ subquestions:
     cluster: C5
     label: Who could read or own a Bible; language; translation
     records:
+    - lpc.term.preaching
     - lpc.quote.the-sermon-and-the-readings-are-daily-bread
-    - lpc.story.the-psalms-on-the-wall
+    - lpc.limit.rural-punic-berber-life
   C5.S7:
     cluster: C5
     label: The violence in the texts; the cursing psalms
-    records: []
+    records:
+    - lpc.witness.violence-commanded-not-cruel
+    - lpc.quote.dash-the-little-ones-against-the-rock
   C5.S8:
     cluster: C5
     label: One passage at a time (VERSE)
-    records:
-    - lpc.witness.days-before-the-sun
-    - lpc.witness.violence-commanded-not-cruel
+    records: []
   C6.S1:
     cluster: C6
     label: Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one
     records:
-    - lpc.story.election-of-cyprian
+    - lpc.witness.answerability-as-ground
+    - lpc.term.bishop-of-bishops
+    - lpc.term.confessor
     - lpc.term.suffrage
-    - lpc.quote.clamour-and-tears
+    - lpc.term.the-flock
+    - lpc.term.the-one-episcopate
     - lpc.term.the-people
+    - lpc.story.election-of-cyprian
     - lpc.quote.ancient-venom-against-my-episcopate
+    - lpc.quote.bishop-of-bishops
+    - lpc.quote.chosen-while-still-a-neophyte
+    - lpc.quote.clamour-and-tears
+    - lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
+    - lpc.quote.stewards-and-future-bishops
     - lpc.quote.ye-belong-to-my-care
+    - lpc.gravity.confessor-authority-vs-episcopal-peace
+    - lpc.gravity.pastoral-office-flock-keeping
+    - lpc.force.congregational-acclamation-overriding-preference
+    - lpc.force.organized-carthaginian-church
   C6.S2:
     cluster: C6
     label: The pope and Rome; Peter and 'on this rock'
-    records: []
+    records:
+    - lpc.witness.apostolic-succession-of-bishops
+    - lpc.term.bishop-of-bishops
+    - lpc.term.the-one-episcopate
+    - lpc.quote.bishop-of-bishops
+    - lpc.quote.one-good-shepherd-not-many
+    - lpc.contested.de-unitate-recensions
   C6.S3:
     cluster: C6
     label: Councils and creeds; who decided disputes; did ordinary believers have a say
     records:
-    - lpc.term.plenary-council
+    - lpc.witness.communion-over-separation
     - lpc.witness.scripture-above-councils
+    - lpc.term.bishop-of-bishops
+    - lpc.term.plenary-council
+    - lpc.term.the-people
+    - lpc.quote.bishop-of-bishops
+    - lpc.quote.earlier-councils-corrected-by-later
+    - lpc.gravity.collegial-communion-preserved
     - lpc.gravity.conciliar-authority-theory
+    - lpc.force.augustine-engagement-cyprian-conciliar-acts
   C6.S4:
     cluster: C6
     label: Tradition and scripture; apostolic succession; the only true church; is there a church today that is yours
     records:
     - lpc.witness.apostolic-succession-of-bishops
+    - lpc.witness.no-salvation-outside-the-church
+    - lpc.witness.scripture-above-councils
     - lpc.witness.tradition-tested-by-apostolic-warrant
-    - lpc.limit.apostolic-origin-undefended
     - lpc.quote.one-good-shepherd-not-many
-    - lpc.witness.communion-over-separation
+    - lpc.limit.apostolic-origin-undefended
   C6.S5:
     cluster: C6
     label: 'Heresy: who decided, what happened to heretics'
     records:
+    - lpc.term.communion
+    - lpc.term.compel-them-to-come-in
     - lpc.term.heresy
     - lpc.term.schism
-    - lpc.term.compel-them-to-come-in
-    - lpc.demo.compel-three-phase
+    - lpc.quote.consider-who-was-there
     - lpc.quote.the-branch-cut-from-the-vine
+    - lpc.gravity.sacramental-ordination-validity
+    - lpc.force.donatist-schism
+    - lpc.contested.compel-coercion-development
+    - lpc.demo.compel-three-phase
+    - lpc.demo.font-twice-answered
   C6.S6:
     cluster: C6
     label: Married clergy; deacons and deaconesses
@@ -236,17 +335,18 @@ subquestions:
     label: The emperor's say in belief
     records:
     - lpc.witness.constantine-did-not-corrupt
-    - lpc.witness.blamed-for-the-worlds-troubles
-    - lpc.limit.the-outsiders-own-view
     - lpc.term.compel-them-to-come-in
   C6.S8:
     cluster: C6
     label: Leaders who failed, got rich, or abused; distrust of leaders; lonely leaders and divided congregations
     records:
+    - lpc.quote.ancient-venom-against-my-episcopate
+    - lpc.quote.apart-in-heart-united-in-body
+    - lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
     - lpc.quote.pardon-through-a-wicked-clergyman
     - lpc.quote.shepherd-wounded-in-the-flock
-    - lpc.quote.ancient-venom-against-my-episcopate
-    - lpc.story.the-plague-and-the-enemies
+    - lpc.quote.the-flight-of-the-mind-is-fear
+    - lpc.quote.ye-belong-to-my-care
   C6.S9:
     cluster: C6
     label: 'The Representative''s own beginnings: how they came to believe; how the tradition started (no invented personal
@@ -256,41 +356,65 @@ subquestions:
     cluster: C7
     label: 'Becoming one of them; baptism: infants, dunking or pouring'
     records:
+    - lpc.witness.baptism-as-new-birth
     - lpc.witness.baptism-traced-to-the-apostles
+    - lpc.witness.infants-and-the-sin-of-another
     - lpc.term.catechesis
     - lpc.term.heresy
+    - lpc.quote.consider-who-was-there
+    - lpc.quote.let-your-creed-be-a-mirror
+    - lpc.quote.not-his-own-sins-but-the-sins-of-another
+    - lpc.quote.not-to-be-refused-to-any-one-born-of-man
+    - lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth
+    - lpc.quote.the-branch-cut-from-the-vine
+    - lpc.quote.the-creed-first-then-the-prayer
+    - lpc.quote.the-word-is-added-to-the-element
+    - lpc.gravity.preaching-and-catechesis
+    - lpc.gravity.sacramental-ordination-validity
     - lpc.limit.apostolic-origin-undefended
+    - lpc.demo.font-twice-answered
   C7.S2:
     cluster: C7
     label: 'The meal: what happened, how often, real presence or symbol, who was refused'
     records:
-    - lpc.witness.communion-over-separation
     - lpc.term.communion
-    - lpc.quote.ye-belong-to-my-care
   C7.S3:
     cluster: C7
     label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
     records:
-    - lpc.quote.the-creed-first-then-the-prayer
-    - lpc.quote.longing-expectation-is-a-prayer-for-me
     - lpc.witness.heard-for-salvation-not-for-wish
-    - lpc.story.the-psalms-on-the-wall
+    - lpc.quote.all-sins-against-us-are-to-be-forgiven
+    - lpc.quote.the-creed-first-then-the-prayer
+    - lpc.quote.what-is-done-by-you-he-does-in-you
   C7.S4:
     cluster: C7
     label: 'Worship in the room: singing and instruments, buildings, images, posture, preaching'
     records:
-    - lpc.quote.the-sermon-and-the-readings-are-daily-bread
     - lpc.term.preaching
+    - lpc.quote.good-works-the-comfort-of-our-dangers
+    - lpc.quote.longing-expectation-is-a-prayer-for-me
+    - lpc.quote.the-sermon-and-the-readings-are-daily-bread
+    - lpc.gravity.preaching-and-catechesis
     - lpc.limit.ordinary-interior-life
   C7.S5:
     cluster: C7
     label: Confession and penance; fasting
     records:
-    - lpc.quote.bind-him-justly
-    - lpc.quote.peter-the-sick-man-and-the-physician
-    - lpc.term.reconciliation-penitential-discipline
+    - lpc.witness.confessor-claim-vs-regulated-peace
+    - lpc.witness.peace-for-the-dying-penitent
     - lpc.term.certificates-letters-of-peace
+    - lpc.term.reconciliation-penitential-discipline
     - lpc.story.celerinus-writes-to-lucian
+    - lpc.story.the-psalms-on-the-wall
+    - lpc.quote.before-even-a-deacon
+    - lpc.quote.bind-him-justly
+    - lpc.quote.david-himself-hath-been-sent-to-thee
+    - lpc.quote.penitents-in-peril-of-sickness-should-be-assisted
+    - lpc.quote.peter-the-sick-man-and-the-physician
+    - lpc.quote.such-a-one-with-his-friends
+    - lpc.quote.the-case-set-before-the-bishop
+    - lpc.quote.the-psalms-hung-upon-the-wall
+    - lpc.gravity.penitential-discipline
     - lpc.demo.road-back-examined
   C7.S6:
     cluster: C7
@@ -300,17 +424,18 @@ subquestions:
     cluster: C7
     label: Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor
     records:
-    - lpc.story.the-death-of-cyprian
     - lpc.witness.marriage-a-threefold-good
-    - lpc.witness.the-pattern-we-are-modelled-on
+    - lpc.witness.remembered-at-the-altar
+    - lpc.witness.the-dying-and-the-pastors-post
+    - lpc.quote.remember-me-at-the-lords-altar
   C7.S8:
     cluster: C7
     label: Did the practices go back to the apostles
     records:
+    - lpc.witness.apostolic-succession-of-bishops
     - lpc.witness.baptism-traced-to-the-apostles
     - lpc.witness.tradition-tested-by-apostolic-warrant
     - lpc.limit.apostolic-origin-undefended
-    - lpc.witness.apostolic-succession-of-bishops
   C8.S1:
     cluster: C8
     label: Women's lives in their own words; any writing by women; nuns
@@ -327,7 +452,9 @@ subquestions:
   C8.S4:
     cluster: C8
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
-    records: []
+    records:
+    - lpc.witness.marriage-a-threefold-good
+    - lpc.quote.the-wretched-woman-and-mercy
   C8.S5:
     cluster: C8
     label: Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism
@@ -348,34 +475,75 @@ subquestions:
     cluster: C9
     label: How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations
     records:
-    - lpc.force.decian-persecution-libelli-system
-    - lpc.force.valerianic-persecution
+    - lpc.witness.blamed-for-the-worlds-troubles
+    - lpc.term.libelli
     - lpc.story.numidicus
+    - lpc.story.the-death-of-cyprian
+    - lpc.quote.a-standard-bearer-of-the-sect
+    - lpc.quote.because-i-am-already-weary
+    - lpc.quote.he-covered-his-eyes-with-his-own-hand
+    - lpc.quote.let-us-too-be-beheaded-with-him
+    - lpc.quote.numidicus-remained-unwillingly
+    - lpc.quote.o-blessed-people-of-the-church
+    - lpc.quote.shut-up-in-two-cells
+    - lpc.quote.thanks-be-to-god
+    - lpc.quote.the-people-kept-watch-at-the-door
+    - lpc.quote.the-trees-and-the-trembling-executioner
+    - lpc.quote.the-whole-people-of-the-brethren-came
+    - lpc.quote.walled-in-by-a-mingled-multitude
+    - lpc.force.decian-persecution-libelli-system
+    - lpc.force.standing-legal-condition-unlicensed-religion
+    - lpc.force.valerianic-persecution
     - lpc.limit.the-outsiders-own-view
   C9.S2:
     cluster: C9
     label: Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king
-    records: []
+    records:
+    - lpc.witness.confessor-claim-vs-regulated-peace
+    - lpc.term.certificates-letters-of-peace
+    - lpc.term.confessor
+    - lpc.term.libellatici-sacrificati
+    - lpc.term.libelli
+    - lpc.term.reconciliation-penitential-discipline
+    - lpc.term.the-lapsed
+    - lpc.story.celerinus-writes-to-lucian
+    - lpc.story.numidicus
+    - lpc.quote.grieve-with-me-for-my-sister
+    - lpc.quote.let-us-too-be-beheaded-with-him
+    - lpc.quote.such-a-one-with-his-friends
+    - lpc.quote.thanks-be-to-god
+    - lpc.quote.the-case-set-before-the-bishop
+    - lpc.quote.thousands-of-certificates-daily
+    - lpc.gravity.confessor-authority-vs-episcopal-peace
+    - lpc.gravity.penitential-discipline
+    - lpc.force.confessors-claim-to-grant-peace
+    - lpc.force.recurring-contest-failed-member
+    - lpc.limit.the-lapsed-own-account
+    - lpc.demo.road-back-examined
   C9.S3:
     cluster: C9
     label: Constantine and the empire; instrument or beast; taxes and office; praying for the persecutor
-    records: []
+    records:
+    - lpc.witness.constantine-did-not-corrupt
+    - lpc.force.illegal-to-established-shift
   C9.S4:
     cluster: C9
     label: Soldiers, war, judges, the death penalty, 'render unto Caesar'
-    records:
-    - lpc.witness.violence-commanded-not-cruel
+    records: []
   C9.S5:
     cluster: C9
     label: 'Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer''s
       side'
-    records: []
+    records:
+    - lpc.term.compel-them-to-come-in
+    - lpc.force.donatist-schism
+    - lpc.contested.compel-coercion-development
+    - lpc.demo.compel-three-phase
   C9.S6:
     cluster: C9
     label: The church taking political sides; injustice in Christian history
     records:
     - lpc.contested.compel-coercion-development
-    - lpc.limit.the-lapsed-own-account
   C10.S1:
     cluster: C10
     label: Was wealth a sin; the rich young man; the camel; prosperity teaching
@@ -383,15 +551,27 @@ subquestions:
   C10.S2:
     cluster: C10
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
-    records: []
+    records:
+    - lpc.witness.almsgiving-quenches-sin
+    - lpc.story.hundred-thousand-sesterces
+    - lpc.quote.a-hundred-thousand-sesterces
+    - lpc.quote.not-to-purchase-impunity
   C10.S3:
     cluster: C10
     label: Sharing in common as in Acts
-    records: []
+    records:
+    - lpc.quote.they-first-dwelt-together-in-unity
   C10.S4:
     cluster: C10
     label: Care for the poor, widows, orphans, the sick, non-Christians
-    records: []
+    records:
+    - lpc.story.hundred-thousand-sesterces
+    - lpc.story.the-plague-and-the-enemies
+    - lpc.quote.a-hundred-thousand-sesterces
+    - lpc.quote.christ-redeemed-in-our-captive-brethren
+    - lpc.quote.good-done-to-all-not-only-the-household
+    - lpc.quote.grief-and-not-without-tears
+    - lpc.quote.it-becomes-us-to-answer-to-our-birth
   C10.S5:
     cluster: C10
     label: Usury and lending
@@ -411,7 +591,8 @@ subquestions:
   C11.S2:
     cluster: C11
     label: Pagans and their gods; eating and festivals with them; getting along with Rome
-    records: []
+    records:
+    - lpc.witness.blamed-for-the-worlds-troubles
   C11.S3:
     cluster: C11
     label: Greek philosophy taken or refused; pagan authors quoted
@@ -423,23 +604,24 @@ subquestions:
   C11.S5:
     cluster: C11
     label: Can a good pagan or person of another religion be saved; one way; does God accept all worship
-    records: []
+    records:
+    - lpc.witness.no-salvation-outside-the-church
+    - lpc.quote.no-salvation-out-of-the-church
   C11.S6:
     cluster: C11
     label: Would you have converted me, and is trying wrong
     records:
     - lpc.term.compel-them-to-come-in
-    - lpc.demo.compel-three-phase
     - lpc.contested.compel-coercion-development
-    - lpc.gravity.preaching-and-catechesis
+    - lpc.demo.compel-three-phase
   C11.S7:
     cluster: C11
     label: 'Rivals: gnostics, Manichees, Marcion'
     records:
-    - lpc.force.manichaeism-and-pelagian-anthropology
     - lpc.witness.violence-commanded-not-cruel
     - lpc.term.heresy
     - lpc.term.schism
+    - lpc.force.manichaeism-and-pelagian-anthropology
   C11.S8:
     cluster: C11
     label: Respect for other religions; faiths far away; atheists; the spiritual-but-not-religious; adding rabbis
@@ -455,15 +637,24 @@ subquestions:
   C12.S3:
     cluster: C12
     label: Work, school, community size, travel, letters, telling time
-    records: []
+    records:
+    - lpc.limit.rural-punic-berber-life
   C12.S4:
     cluster: C12
     label: Sickness, plague, lifespan, child death
-    records: []
+    records:
+    - lpc.witness.the-dying-and-the-pastors-post
+    - lpc.story.the-plague-and-the-enemies
+    - lpc.quote.a-dreadful-plague-broke-out
+    - lpc.quote.good-done-to-all-not-only-the-household
+    - lpc.force.plague-of-cyprian
   C12.S5:
     cluster: C12
     label: Burial, grief, mourning customs
-    records: []
+    records:
+    - lpc.witness.remembered-at-the-altar
+    - lpc.quote.he-slept-with-his-fathers
+    - lpc.quote.remember-me-at-the-lords-altar
   C12.S6:
     cluster: C12
     label: What belonging cost; distance from loved ones
@@ -471,7 +662,8 @@ subquestions:
   C12.S7:
     cluster: C12
     label: '''Were you happy''; ''what''s the point of life'''
-    records: []
+    records:
+    - lpc.limit.ordinary-interior-life
   C12.S8:
     cluster: C12
     label: What archaeology would find; how historians know
@@ -508,70 +700,60 @@ subquestions:
     cluster: C14
     label: Why God allows suffering; a sick child; healing refused; 'do not fear'
     records:
-    - lpc.witness.blamed-for-the-worlds-troubles
-    - lpc.force.plague-of-cyprian
-    - lpc.story.the-plague-and-the-enemies
     - lpc.witness.heard-for-salvation-not-for-wish
+    - lpc.story.the-plague-and-the-enemies
+    - lpc.force.plague-of-cyprian
   C14.S2:
     cluster: C14
     label: Unanswered prayer; God not listening; grief that does not lift
     records:
     - lpc.witness.heard-for-salvation-not-for-wish
     - lpc.quote.shepherd-wounded-in-the-flock
-    - lpc.witness.restless-heart-and-the-unrepentant-enemy
   C14.S3:
     cluster: C14
     label: Anger at God; lament out loud
-    records: []
+    records:
+    - lpc.quote.the-old-man-nailed-to-the-cross-speaks
   C14.S4:
     cluster: C14
     label: Doubt and room for it; not believing the church; losing faith and saying so; deconstructing and keeping something
     records:
     - lpc.witness.grant-me-chastity-but-not-yet
     - lpc.limit.ordinary-interior-life
-    - lpc.limit.the-lapsed-own-account
   C14.S5:
     cluster: C14
     label: Hypocrisy and a judgmental community; belonging; forgiving the unrepentant
     records:
+    - lpc.witness.restless-heart-and-the-unrepentant-enemy
+    - lpc.quote.all-sins-against-us-are-to-be-forgiven
     - lpc.quote.apart-in-heart-united-in-body
+    - lpc.quote.going-out-without-violating-unity
+    - lpc.quote.judge-not-nor-despair-of-a-return
     - lpc.quote.pardon-through-a-wicked-clergyman
     - lpc.quote.reprove-and-forgive-the-surgeons-knife
-    - lpc.witness.restless-heart-and-the-unrepentant-enemy
-    - lpc.quote.going-out-without-violating-unity
-    - lpc.witness.communion-over-separation
+    - lpc.quote.the-wretched-woman-and-mercy
+    - lpc.quote.they-went-out-from-us-but-were-not-of-us
+    - lpc.demo.road-back-examined
   C14.S6:
     cluster: C14
     label: Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing
     records:
-    - lpc.demo.road-back-examined
     - lpc.quote.bind-him-justly
-    - lpc.witness.confessor-claim-vs-regulated-peace
+    - lpc.quote.the-flight-of-the-mind-is-fear
     - lpc.quote.ye-belong-to-my-care
-    - lpc.gravity.penitential-discipline
-    - lpc.demo.compel-three-phase
-    - lpc.witness.violence-commanded-not-cruel
-    - lpc.limit.the-lapsed-own-account
   C14.S7:
     cluster: C14
     label: Leaving, drifting, moving away, shunned for questions; what was said to those who left
     records:
-    - lpc.limit.the-lapsed-own-account
-    - lpc.demo.road-back-examined
+    - lpc.witness.communion-over-separation
     - lpc.quote.going-out-without-violating-unity
-    - lpc.quote.peter-the-sick-man-and-the-physician
-    - lpc.story.celerinus-writes-to-lucian
-    - lpc.term.libellatici-sacrificati
-    - lpc.force.recurring-contest-failed-member
+    - lpc.quote.they-went-out-from-us-but-were-not-of-us
   C14.S8:
     cluster: C14
     label: Despair and depression in the world's words; a mind that will not quiet; tired of being good; faith bad for mental
       health
     records:
     - lpc.witness.restless-heart-and-the-unrepentant-enemy
-    - lpc.witness.grant-me-chastity-but-not-yet
-    - lpc.quote.peter-the-sick-man-and-the-physician
-    - lpc.quote.shepherd-wounded-in-the-flock
   C14.S9:
     cluster: C14
     label: 'Crisis statements: not wanting to be here; a violent husband (Facilitator ground)'
@@ -611,23 +793,51 @@ subquestions:
   C16.S1:
     cluster: C16
     label: How do you know; a single voice; where documentation ends and inference begins; how much is filling in
-    records: []
+    records:
+    - lpc.force.corpus-outliving-the-world
+    - lpc.limit.the-silent-century
   C16.S2:
     cluster: C16
     label: Legend collected later; false attribution; later polish; what historians think you got wrong
-    records: []
+    records:
+    - lpc.story.the-death-of-cyprian
+    - lpc.quote.he-covered-his-eyes-with-his-own-hand
+    - lpc.quote.the-trees-and-the-trembling-executioner
+    - lpc.contested.cyprian-death-genre
+    - lpc.contested.de-unitate-recensions
+    - lpc.contested.grace-pelagius-characterization
   C16.S3:
     cluster: C16
     label: Where the record is thinnest; whose voices are missing
-    records: []
+    records:
+    - lpc.force.transmission-asymmetric-span-133-year-silence
+    - lpc.force.transmission-institutionally-dominant-side
+    - lpc.limit.411-gesta-unread
+    - lpc.limit.no-chain-of-witnesses
+    - lpc.limit.ordinary-interior-life
+    - lpc.limit.rural-punic-berber-life
+    - lpc.limit.the-lapsed-own-account
+    - lpc.limit.the-outsiders-own-view
+    - lpc.limit.the-silent-century
+    - lpc.limit.womens-own-voice
   C16.S4:
     cluster: C16
     label: Name your sources; show me the page; which edition; is the text genuine
-    records: []
+    records:
+    - lpc.quote.the-paper-itself
+    - lpc.quote.thirteen-letters-sent-to-rome
+    - lpc.contested.de-unitate-recensions
   C16.S5:
     cluster: C16
     label: Named figures in their own words; one line to quote; the famous names missing from the table
-    records: []
+    records:
+    - lpc.figure.augustine
+    - lpc.figure.celerinus
+    - lpc.figure.cyprian
+    - lpc.figure.lucian
+    - lpc.figure.numidicus
+    - lpc.figure.pontius
+    - lpc.figure.possidius
   C17.S1:
     cluster: C17
     label: What are you; why do you say 'we'; which model; who made you; who is behind this (Facilitator ground)

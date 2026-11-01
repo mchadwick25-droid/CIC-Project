@@ -11,6 +11,9 @@ does not hold is left out and counted.
 
 Reads Build/Ministry/Features/Question-Coverage/{Repository/07-subquestions.yaml,
 Coverage-Maps/C*-coverage.json}. No model call.
+
+A sidecar a reader has checked record by record carries `reviewed: true` and is the
+source: this tool refuses to write over it and exits with 2.
 """
 import argparse
 import json
@@ -64,6 +67,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--repository", required=True, type=Path, help="the world's compiled repository.json")
     parser.add_argument("--out", required=True, type=Path)
     args = parser.parse_args(argv)
+    if args.out.exists() and (yaml.safe_load(args.out.read_text(encoding="utf-8")) or {}).get("reviewed") is True:
+        print(json.dumps({"refused": str(args.out), "reason": "the file is marked reviewed and is the source"}))
+        return 2
     repository = {r["id"]: r for r in json.loads(args.repository.read_text(encoding="utf-8"))["records"]}
     result, unknown, unheld = build(args.world, repository)
     args.out.parent.mkdir(parents=True, exist_ok=True)
