@@ -92,7 +92,7 @@ def test_the_fallback_stands_where_the_first_withheld_sentence_stood_when_too_li
 def test_the_directive_lists_the_reviewed_connectives():
     lines = " ".join(bd.directive_lines(["Here is what we can say."]))
     assert '"Here is what we can say."' in lines and "[[as:paraphrase]]" in lines
-    assert "none" in " ".join(bd.directive_lines([]))
+    assert bd.FALLBACK_ALONE in " ".join(bd.directive_lines([]))
 
 
 def test_the_lead_in_of_a_placed_passage_needs_no_label():
@@ -100,3 +100,9 @@ def test_the_lead_in_of_a_placed_passage_needs_no_label():
     assert bd.decide(lead_in, None, RECORDS, CONNECTIVES)[0] == "keep"
     plain = _entry("Pontius tells how Cyprian was chosen.", ["w.witness.a"], draft="Pontius tells how Cyprian was chosen [[w.witness.a]].")
     assert bd.decide(plain, None, RECORDS, CONNECTIVES)[0] == "withhold_unlabelled"
+
+
+def test_the_worlds_fallback_sentence_is_in_the_closed_set_and_stands_unbound():
+    assert bd.normalize(bd.FALLBACK) in bd.connective_set([]) and bd.normalize(bd.FALLBACK_ALONE) in bd.connective_set([])
+    assert bd.decide(_entry(bd.FALLBACK_ALONE), None, RECORDS, bd.connective_set([]))[0] == "keep"
+    assert "no framing sentence" in " ".join(bd.directive_lines([]))

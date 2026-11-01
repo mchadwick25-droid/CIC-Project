@@ -388,3 +388,7 @@ def test_the_stream_holds_back_a_sentence_carrying_a_story_marker(desert):
     stream = SentenceStream(repository_records=desert, world_key="desert", thin_topics=None)
     released = stream.feed(f"{ANTONY_LEAD} {ANTONY_INTRO} Following Jesus meant total giving [[desert.dw.jesus]]. ")
     assert not any("[[story:" in (e.get("raw") or "") or "took it as meant" in (e.get("text") or "") for e in released)
+
+
+def test_the_story_line_places_a_story_only_where_it_answers_the_ask():
+    assert STORY_PLACE_LINE.startswith("Place a story only if it answers the ask; if none does, place none.")

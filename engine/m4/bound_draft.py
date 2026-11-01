@@ -47,13 +47,19 @@ DIRECTIVE_LINES = (
     "[[as:inference]] when it goes past them. Use inference only if you must; it will not be spoken. "
     "Quote only by [[quote:id]]. Each sentence is read alone against its records, so name the person or thing in every sentence: "
     "never use he, she, it, they, this, that or such to point back to an earlier sentence.",
-    "A sentence with no record id is spoken only if it is a question to the visitor or one of these joining sentences: {connectives}. "
-    "Say what the sources lack only from a limit record in your ground, cited. Keep the answer's depth and the world's own images.",
+    "Every sentence is bound to a record by its id, or is a question to the visitor, or is exactly one of these sentences: {connectives}. "
+    "Write no other sentence without a record id: no framing sentence, no sentence about what you can or cannot say, no limit. "
+    "Say what the sources lack only from a limit record in your ground, cited by its id. Keep the answer's depth and the world's own images.",
 )
 
 
+def closed_set(world_sentences: list[str]) -> list[str]:
+    """The sentences that may stand unbound: the world's reviewed joining sentences and the world's fallback sentence."""
+    return list(dict.fromkeys([*world_sentences, FALLBACK, FALLBACK_ALONE]))
+
+
 def directive_lines(connectives: list[str]) -> list[str]:
-    listed = "; ".join(f'"{c}"' for c in connectives) if connectives else "none"
+    listed = "; ".join(f'"{c}"' for c in closed_set(connectives))
     return [DIRECTIVE_LINES[0], DIRECTIVE_LINES[1].format(connectives=listed)]
 
 
@@ -62,7 +68,7 @@ def normalize(sentence: str) -> str:
 
 
 def connective_set(sentences: list[str]) -> frozenset[str]:
-    return frozenset(normalize(s) for s in sentences if normalize(s))
+    return frozenset(normalize(s) for s in closed_set(sentences) if normalize(s))
 
 
 def label_of(raw_sentence: str) -> str | None:
