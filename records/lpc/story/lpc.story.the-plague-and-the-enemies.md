@@ -62,19 +62,19 @@ narrative_tier_justification: 'Widely Accepted. Tier 1 at the narrative level, W
 tellable_as: How our bishop met a plague by teaching us to love even our enemies, and to help everyone,
   not only our own
 text: "Pontius, writing as a deacon, described the epidemic. A dreadful plague broke out, he wrote, and went from house to house through a frightened city, carrying off countless people every day, each from his own home.\n\nWhat followed was not about the disease. It was about what the city did. People shuddered and fled from the contagion, and wickedly put out their own people -- bodies left where they fell, no longer bodies but the corpses of many.\n\nAgainst that, when we were gathered in one place, our bishop preached. He began with mercy, and then went further. There was nothing remarkable, he told us, in caring for our own. Anyone does that. What would distinguish us was loving our enemies and praying for those persecuting us, in imitation of a God who makes His sun rise and sends rain to feed the seed, and shows these kindnesses to strangers as well as to His own. We ought, he said, to live up to our birth: those who are plainly born of God should not fall short of it.\n\nAnd Pontius records what followed. The poor among us, who had no money to give, gave labour instead. Relief was given to everyone, not only to those of the household of faith. Pontius reaches for a comparison and finds it wanting -- more was done, he writes, than is recorded of Tobias, who gathered up the dead of his own race only."
-telling: 'A dreadful plague broke out in our city. It went from house to house, and every day it carried off more people than anyone could count.
+telling: 'A dreadful plague broke out in our city and went from house to house, carrying off countless people every day.
 
 
-  People shuddered and ran from the sickness. They even put their own friends out of doors. Soon the dead lay all over the city. They were no longer bodies, only corpses.
+  Everyone shuddered and fled the infection, even putting their own friends out of doors. Soon the dead lay all over the city, no longer bodies but only corpses.
 
 
-  Then we gathered in one place, and our bishop spoke to us. He began with mercy, and then went further. Caring only for our own, he said, was nothing remarkable. To be perfect, we had to love even our enemies, and pray for those who persecute us. God makes His sun rise and sends rain to feed the seed. He gives these gifts to strangers as well as to His own people. We ought to live up to our birth.
+  Then we gathered in one place, where our bishop spoke to us first about mercy and then went further. Caring only for our own was nothing remarkable, but to be perfect we had to love even our enemies and pray for our persecutors. God makes His sun rise and sends rain to feed the seed, for strangers as well as for His own people. If we call ourselves His children, we ought to live up to our birth.
 
 
-  So the work began. Many who were too poor to give money gave their labour instead. Good was done to everyone, not only to our own people.
+  So the work began, and many whose poverty left them no money to give offered their own labour instead. Good was done to everyone, not only to our own people.
 
 
-  Our deacon Pontius, who wrote all this down, said that more was done here than in the story of Tobias. He asked Tobias to forgive him for saying so. Tobias gathered up the dead whom the king had killed, but only those of his own people.'
+  Our deacon Pontius judged that more was done here than in the story of Tobias, and he asked Tobias to forgive him. Tobias gathered up the dead whom the king had killed, but only those of his own people.'
 absent_detail: Whether the persecutors themselves were among those helped is not something Pontius says
   one way or the other, and no source outside him describes the relief operation at all. No pagan Carthaginian
   of ours left a word about being helped by us during this epidemic.
@@ -104,53 +104,50 @@ events:
 - line: Pontius says more was done here than is recorded of Tobias, who gathered the dead of his own race only.
   rests_on: more was done, he writes, than is recorded of Tobias
   essential: false
-telling_short: 'A dreadful plague broke out. Every day it carried off more people than anyone could count. People ran from it and put their own friends out of doors.
+telling_short: 'When a dreadful plague broke out and carried off countless people every day, everyone fled the infection, even putting their own friends out of doors.
 
 
-  Then we gathered, and our bishop spoke to us. Caring only for our own, he said, was nothing remarkable. We had to love even our enemies, and pray for those who persecute us.
+  When we gathered, our bishop told us that caring only for our own was nothing remarkable. We had to love even our enemies and pray for those who persecute us.
 
 
-  So good was done to everyone, not only to our own people. Our deacon Pontius said more was done here than in the story of Tobias. He asked Tobias to forgive him. Tobias gathered the dead of his own people only.'
-telling_medium: 'A dreadful plague broke out in our city. It went from house to house, and every day it carried off more people than anyone could count.
+  So good was done to everyone, not only to our own people. Our deacon Pontius judged that more was done here than in the story of Tobias, and he asked Tobias to forgive him. Tobias had gathered the dead of his own people only.'
+telling_medium: 'A dreadful plague broke out in our city and went from house to house, carrying off countless people every day. Everyone shuddered and fled the infection, even putting their own friends out of doors, and soon the dead lay all over the city.
 
 
-  People shuddered and ran from the sickness. They even put their own friends out of doors. Soon the dead lay all over the city.
+  When we gathered, our bishop told us that caring only for our own was nothing remarkable. We had to love even our enemies and pray for those who persecute us. God makes His sun rise and sends rain on strangers as well as on His own people. If we call ourselves His children, we ought to live up to our birth.
 
 
-  Then we gathered, and our bishop spoke to us. Caring only for our own, he said, was nothing remarkable. We had to love even our enemies, and pray for those who persecute us. God makes His sun rise and sends rain on strangers as well as on His own people. We ought to live up to our birth.
+  So the work began, and many whose poverty left them no money to give offered their own labour instead. Good was done to everyone, not only to our own people.
 
 
-  So the work began. Many who were too poor to give money gave their labour instead. Good was done to everyone, not only to our own people.
+  Our deacon Pontius judged that more was done here than in the story of Tobias, and he asked Tobias to forgive him. Tobias gathered up the dead whom the king had killed, but only those of his own people.'
+telling_long: 'A dreadful plague broke out in our city and went through the houses one after another. Every day it struck without warning and carried off countless people, each one from his own home.
 
 
-  Our deacon Pontius, who wrote all this down, said that more was done here than in the story of Tobias. He asked Tobias to forgive him for saying so. Tobias gathered up the dead whom the king had killed, but only those of his own people.'
-telling_long: 'A dreadful plague broke out in our city. It went through the houses one after another. Every day it struck without warning. Every day it carried off more people than anyone could count, each one from his own home.
+  The whole city was afraid, and people shuddered and fled the infection. They even put their own friends out of doors, as if shutting out the dying could shut out death too.
 
 
-  The whole city was afraid. People shuddered and ran from the sickness. They even put their own friends out of doors. It was as if shutting out the dying could shut out death too.
+  Soon the dead lay all over the city, no longer bodies but only corpses. They seemed to ask the passers-by for pity, since the same end would come to them in turn. But no one cared for anything except his own cruel gain, and no one did for another what he would want done for himself.
 
 
-  Soon the dead lay all over the city. They were no longer bodies, only corpses. They seemed to ask the passers-by for pity, since the same end would come to them in turn. But no one cared for anything except his own cruel gain. No one did for another what he would want done for himself.
+  In those days our bishop also wrote to us, and he observed that many of us stood firm like a rock. Some stood less steadily, because their minds were weak or their faith was failing. So he reminded us that the Lord had already foretold wars, famines, earthquakes and plagues.
 
 
-  In those days our bishop wrote to us as well. Many of us, he saw, stood firm like a rock. Some stood less steadily, because their minds were weak or their faith was failing. He reminded us that the Lord had warned us of wars, famines, earthquakes and plagues.
+  When we all gathered in one place, he began with mercy and showed from the sacred readings how much kindness counts with God.
 
 
-  Then we all gathered in one place, and he spoke to us. He began with mercy. With examples from the sacred readings, he showed how much kindness counts with God.
+  After that he went further, and told us that caring only for our own was nothing remarkable. To be perfect, we had to do more than the tax collector or the pagan, and overcome evil with good. We had to show mercy the way God shows it, and love even our enemies and pray for those who persecute us.
 
 
-  After that he went further. Caring only for our own, he said, was nothing remarkable. To be perfect, we had to do more than the tax collector or the pagan. We had to overcome evil with good, and show mercy the way God shows it. We had to love even our enemies, and pray for those who persecute us.
+  Look at God, he told us, who makes His sun rise and sends rain to feed the seed. He gives these gifts to strangers as well as to His own people. If we call ourselves His children, why not follow the example of our Father? We ought to live up to our birth, and people born of God should show their good Father by imitating His goodness.
 
 
-  Look at God, he told us. He makes His sun rise. He sends rain to feed the seed. And He gives these gifts to strangers as well as to His own people. So if we call ourselves His children, why not act like our Father? We ought to live up to our birth. People born of God should show their good Father by copying His goodness.
+  So the work began, and the tasks were shared out to fit each person and each rank. Many whose poverty left them no money to give offered their own labour instead, and that gift was worth more than any wealth.
 
 
-  So the work began. The tasks were shared out to fit each person and each rank. Many who were too poor to give money gave their own labour instead. That gift was worth more than any wealth.
+  Good was done to everyone, not only to our own people.
 
 
-  Good was done to everyone, not only to our own people. Our deacon Pontius, who wrote all this down, set it beside the old story of Tobias. The old story tells of the great kindness of Tobias. Yet more was done here.
-
-
-  Pontius asked Tobias to forgive him, "and forgive again, and frequently forgive." Much could be done before Christ, but more after Christ, since all fullness belongs to His time. Tobias gathered up the dead whom the king had killed and thrown out. But he gathered only those of his own people.'
+  Our deacon Pontius set this beside the great kindness told of Tobias, and judged that more was done here. He asked Tobias to forgive him, "and forgive again, and frequently forgive." Tobias must grant that much could be done before Christ, but more after Christ, since all fullness belongs to His time. Tobias gathered up the dead whom the king had killed and thrown out, but he gathered only those of his own people.'
 ---
 Derived from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into first-person register. The epidemic description and Cyprian's reported address are in the Life and Passion of Cyprian by Pontius, in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, several thousand lines after the passage lpcstory001 uses.
