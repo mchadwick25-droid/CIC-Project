@@ -356,3 +356,40 @@ Round 1 reviewed `means`, `plain_meaning` and `quick_meaning`. The same defects 
 
 ### Failed ids
 lpc.term.certificates-letters-of-peace, lpc.term.confessor, lpc.term.libelli, lpc.term.the-lapsed, lpc.term.the-flock; lpc.story.election-of-cyprian.
+
+## Cap-exception read
+
+Date: 2026-11-01. Reviewer: independent (Opus 5.5). This is Mark's one-time cap exception, not a new round. It is a targeted read of the round 2 corrections, which were applied unread. Records read at HEAD of `claude/lpc-term-spans`; the story read from the working tree. Every cited span was opened in `cic/texts/` with tags and notes folded.
+
+### Result
+**12 items: 9 PASS, 3 FAIL.**
+
+| Item | Verdict | Note |
+|---|---|---|
+| certificates-letters-of-peace | PASS | 30386 holds "Know that, to"; 30389 closes "we have granted peace". Latin 3010 "contra euangelii" / 3011 "legem". |
+| confessor | PASS | 43650 opens "We look with glad countenances upon"; 43661 closes "it has once confessed that it believed". Latin 124 opens "Confessores"; 131 "religiosa uox Christum locuta", 142 "est, in quem se semel credidisse confessa est". Ep. XVI 30386-30391 as above. |
+| libelli | PASS | §28: English 44392-44394 ("28. Moreover ... bound by no crime of / sacrifice to idols or of certificate"); Latin 1070-1071 ("Denique ... nullo sacrificii aut libelli facinore constricti"). |
+| the-lapsed | PASS | Ep. LI 14 clause inserted as specified. 33696-33716 holds the libellaticus's plea from "when he by whom the certificate has been received" to "prepared."; "I pay a price for this purpose" is on 33709. Latin 7855 "quando is cui libellus acceptus est" to 7887 "paratus sit contestatur"; "dare me ob hoc praemium" on 7880. The plea joins the received certificate to the price paid, so "bought" (`means`) and "paid for" (`plain_meaning`) now rest on a cited line. Advisory: "a certificate that said they had" rests on De Lapsis 27 ("He says that he has done what another has actually committed", 44363-44364), which this record's De Lapsis locus cites without lines. |
+| the-flock | PASS | `quick_meaning` matches the prescribed text exactly. Sentences 10, 12, 12 words. |
+| schism `senses.informational` | PASS | "someone walks out, and sets up another altar and another bishop" rests on De Unitate 17 (42693-42706) and 10 (42458-42462). "same town" is gone. 15 words. |
+| schism `senses.translational` | PASS | The uncited "a town where both parties are present" is removed; nothing added. Advisory: the sentence is 29 words. |
+| heresy `senses.informational` | **FAIL** | Wording is right against 10827-10830 ("not indeed rightly given, but yet it is given"; "given to no profit"). But the edited sentence is now 46 words. |
+| story: "Later" | PASS | `text`, `telling`, `telling_medium`, `telling_short` and the `events` line all read "Later"/"later"; no "Years later" remains. Advisory: `years: {from: 248, to: 251}` still carries the uncited 248. |
+| story: "For us" | **FAIL** | Applied only to `telling_short`, `telling_medium` and the `events` line. It doubles "us" there. `telling` and `text` still give the relation and the non-tension as Pontius's view, which the new claim guard forbids. |
+| story: new `claim_guards` entry | **FAIL** | Content is right and the tag is right. Its second sentence is 52 words. The record's own `telling` and `text` break it (see the row above). |
+| story: `events` rests_on | PASS | "our own reading (Inferential-Thin); Pontius section 5 gives the pairing ... not this relation between them" is accurate against 27817-27821. |
+
+### Exact corrections for the three FAILs
+
+**heresy `senses.informational`.** Replace `The other answer, a century and a half later, from a man arguing against that very ruling: what was given outside was given, though not rightly, and does no good where the person stands; bring them in, and what they already carry will begin to work.` with `The other answer came a century and a half later, from a man arguing against that very ruling. What was given outside was given, though not rightly, and does no good where the person stands. Bring them in, and what they already carry will begin to work.`
+
+**story "For us".**
+- `telling_short` and `telling_medium`: `For us, the people's favour was how God's judgment became visible to us.` becomes `For us, the people's favour was how God's judgment became visible.`
+- `telling`: `For Pontius, God's judgment and the people's favour were not two claims pulling against each other. The people's favour was how God's judgment became visible to us.` becomes `Pontius names God's judgment and the people's favour together. For us, the people's favour was how God's judgment became visible.`
+- `text`: `Two things are claimed at once in that sentence, and for Pontius they are not in tension: the judgment of God, and the favour of the people. The second is how the first became visible to us -- and later,` becomes `Two things are named at once in that sentence: the judgment of God, and the favour of the people. For us, the second is how the first became visible. Later,` The rest of that sentence is unchanged. The `text` line "It was something we thought we could already see." stays, since the guard now marks it as our reading.
+
+**story `claim_guards`.** Replace the entry with: `That the people's favour was how God's judgment became visible to us is our own reading (Inferential-Thin). Pontius section 5 pairs the two but does not state how they relate. Do not present that relation as Pontius's own statement. The same holds for any claim that for Pontius the two were not in tension. It also holds for the line about what we thought we could already see in Cyprian.`
+
+### Still open, outside this read
+- The `events` entry "Cyprian stepped back from the office; the people pressed him" still rests on "the reviewed telling only". It can cite Pontius §5, 27826-27840.
+- The process-narration paragraphs under the front matter of the story and the edited term records remain (CLAUDE.md live/canonical rule).

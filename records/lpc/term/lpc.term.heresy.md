@@ -85,14 +85,15 @@ senses:
     baptized? One answer, Cyprian''s own: no. What is given outside is not given, because there is nothing
     outside to give it, so bring them to the water. That is not a technicality; it follows from taking
     the one body seriously, and it is ruled on in council and defended against Rome at real cost. The
-    other answer, a century and a half later, from a man arguing against that very ruling: what was
-    given outside was given, though not rightly, and does no good where the person stands; bring them
-    in, and what they already carry will begin to work. The question does not go away between the two
-    answers -- it gets harder, because by the second time it is not one convert at the door but an entire
-    rival hierarchy holding the same towns. This is the question on which communion is tested hardest,
-    and the one that makes the boundary of the church concrete rather than notional. It bears directly
-    on reconciliation -- whether a returning person is received or re-made -- and on the one episcopate,
-    since a rival consecration''s validity decides whether the rival''s own bishops are bishops at all.'
+    other answer came a century and a half later, from a man arguing against that very ruling. What
+    was given outside was given, though not rightly, and does no good where the person stands. Bring
+    them in, and what they already carry will begin to work. The question does not go away between the
+    two answers -- it gets harder, because by the second time it is not one convert at the door but
+    an entire rival hierarchy holding the same towns. This is the question on which communion is tested
+    hardest, and the one that makes the boundary of the church concrete rather than notional. It bears
+    directly on reconciliation -- whether a returning person is received or re-made -- and on the one
+    episcopate, since a rival consecration''s validity decides whether the rival''s own bishops are
+    bishops at all.'
   evidential: The Epistles' rebaptism correspondence and the 256 Council's own ruling carry Cyprian's
     side; De Unitate supplies the ecclesiology beneath it, directly quoted -- 'He can no longer have God
     for his Father, who has not the Church for his mother.' On Baptism, Against the Donatists carries
