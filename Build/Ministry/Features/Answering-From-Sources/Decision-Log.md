@@ -796,3 +796,11 @@ Mark, 2026-11-01, relayed by the coordination thread, his words verbatim and in 
 - For a story's tellings (`telling`, `telling_short`, `telling_medium`, `telling_long`) the target is grade 8. Grade 7 is accepted. Below 7 is not acceptable, and grade 3 to 4 least of all. Flesch reading ease of at least 60 and the grade ceiling of 10 still hold.
 - The report line for tellings starts below grade 7. It is reported and never failed, and no gate is added: `gate_readability_floor` keeps its band floor of 8 for every other field and uses 7 for these four.
 - A telling below grade 7 is for its author to rewrite; nothing in the engine rejects it.
+
+## 60. The story tellings on main are accepted (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his words verbatim: "we wont get it perfect, but if it tells the story well and cleanly and accuratly we are good to move on".
+
+- The seven lpc story tellings on `main` (#1443, with #1442 before it) are accepted as the tellings the Stage 3 proof run uses. Library's open reading-level and length items on them stay in `Open_Gaps_Tracking.md` and do not hold the run.
+- Next, by the coordination thread's order of the same day: the Stage 3 proof run in shadow on lpc with the final cards and tellings, one fresh seed, one Opus reader, and a report in the form of the Stage 4 report. Stories stay off in production for lpc.
+
