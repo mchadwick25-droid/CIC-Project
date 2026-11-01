@@ -2571,5 +2571,5 @@ Logged 2026-10-31.
 - **Open: record gap, self-defence (q102).** The sidecar offers only `lpc.witness.violence-commanded-not-cruel`. Letter 47.5 is on the shelf and has no record. No record written here. Owner: Library thread, once Mark rules on new records.
 - **Open: record gap, miracles (C13.S3, q100).** No lpc record speaks to miracles seen or heard. The sub-question stays empty. Owner: Library thread, once Mark rules on new records.
 - **Open: 55 sub-questions have no lpc record**, mostly the modern and Facilitator-ground clusters (C15, C17) and topics the lpc sources do not reach. Empty is the correct state until a record exists.
-- **Open: system hazard.** `tools/build_answers_sidecar.py` regenerates the sidecar from the coverage maps and would overwrite this reviewed file. Owner: coordination, to rule whether the reviewed sidecar replaces the generator for lpc.
+- **Done: generator guard.** `tools/build_answers_sidecar.py` now refuses (exit 2) to write over a sidecar marked `reviewed: true`; the lpc sidecar carries that mark and is the source. The tool still builds a sidecar for a world that has none.
 - **Owner.** Library thread, through the coordination thread.
