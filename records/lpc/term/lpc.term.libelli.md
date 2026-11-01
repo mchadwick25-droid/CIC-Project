@@ -79,6 +79,9 @@ senses:
   translational: A modern listener may picture a formal identity document or licence. We mean a compliance
     record produced by an empire-wide administrative demand, whose existence is exactly what made failure
     documentary and public rather than private.
+  heard_today: A modern listener may picture a formal identity document or licence.
+  meant_here: We mean a compliance record produced by an empire-wide administrative demand, whose existence
+    is exactly what made failure documentary and public rather than private.
 quick_meaning: The libelli were papers saying a person had sacrificed. Some people bought one and never
   sacrificed. Holding that paper made a person one of the lapsed.
 ---

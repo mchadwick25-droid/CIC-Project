@@ -101,6 +101,13 @@ senses:
     compliance with the empire and made a person lapsed; this certificate asks peace for that person,
     or says it is granted. It is administratively real -- issued in thousands, argued over by name, and
     regulated in writing.'
+  heard_today: A modern listener who has just heard about the sacrifice-certificate will assume this
+    is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional
+    gesture.
+  meant_here: 'We mean the opposite of the sacrifice-certificate, travelling the opposite way: the sacrifice-certificate
+    proves compliance with the empire and made a person lapsed; this certificate asks peace for that
+    person, or says it is granted. It is administratively real -- issued in thousands, argued over by
+    name, and regulated in writing.'
 quick_meaning: For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or
   grants it. Who decides is what we argued over.
 ---

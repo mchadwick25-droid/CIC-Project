@@ -78,6 +78,11 @@ senses:
     with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute
     a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and
     can still be refused.
+  heard_today: A modern listener may hear either a passive congregation or a modern democratic electorate
+    with formal voting rights.
+  meant_here: We mean a corporate body whose consent and demand genuinely constitute a call to office,
+    and which can be exerted disruptively, but which holds no procedural mechanism and can still be
+    refused.
 quick_meaning: For us, 'the people' names the congregation when it acts. They consent, they demand, and
   they elect -- unlike the flock, which is the congregation being cared for.
 ---

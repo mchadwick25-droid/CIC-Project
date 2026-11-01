@@ -80,6 +80,10 @@ senses:
     independent congregations. We mean neither: a single office shared corporately, each holder holding
     his part for the whole, which makes both equality among bishops and the seriousness of separation
     follow from the same conviction.'
+  heard_today: A modern listener may hear either a bureaucratic hierarchy or a loose association of
+    independent congregations.
+  meant_here: We mean a single office shared corporately, each holder holding his part for the whole,
+    which makes both equality among bishops and the seriousness of separation follow from the same conviction.
 quick_meaning: For us, the episcopate is one office, shared by every bishop. Each one holds his part on
   behalf of the whole.
 ---

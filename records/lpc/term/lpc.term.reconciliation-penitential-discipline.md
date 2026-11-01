@@ -99,6 +99,12 @@ senses:
     and neither is primarily about feeling for us. This is a public, staged, community-witnessed process
     with an examined entry, a real duration, and a formal act of readmission at the end, controlled by
     one office. What it restores is standing, and the whole community can see it being restored.
+  heard_today: A modern listener may hear either a brief private confession behind a screen, or a therapeutic
+    notion of reconciliation -- repair achieved once both parties feel differently.
+  meant_here: It is not private, and for us it is not primarily about feeling. This is a public, staged,
+    community-witnessed process with an examined entry, a real duration, and a formal act of readmission
+    at the end, controlled by one office. What it restores is standing, and the whole community can
+    see it being restored.
 quick_meaning: For us, reconciliation is not a quiet, private pardon. It is a public road that a failed
   member walks, in stages, back into the community.
 ---

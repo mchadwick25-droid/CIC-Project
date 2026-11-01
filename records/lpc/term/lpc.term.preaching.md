@@ -82,6 +82,12 @@ senses:
     piece, and assume it is one component of a service among several. For us it was the central formative
     act of ordinary life, delivered by the person personally answerable for the hearers, occasional and
     responsive rather than scripted, and openly aware of what it competed with for people's own attention.
+  heard_today: A modern listener may hear either a stern moralizing monologue or a polished performance
+    piece, and assume it is one component of a service among several.
+  meant_here: For us preaching was the bishop's regular talk to the whole gathered church, baptized
+    and still learning alike. It came from the person personally answerable for the hearers. It was
+    tied to the occasion and responsive rather than scripted, and openly aware of what it competed with
+    for people's own attention.
 quick_meaning: For us, preaching is the regular talk to the whole church, baptized or still learning. It is how our bishop speaks to all of us at once.
 ---
 Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest divergence in this world between textual abundance and ecological weight') and Lexicon-Chunks/lpclex008_preaching.md. Relations: five terms per this term's own Related-Terms line.

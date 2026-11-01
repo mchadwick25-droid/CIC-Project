@@ -2624,3 +2624,10 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open: three spans end before their sentence does** (advisories): `plenary-council` Latin (closes at 7951), `suffrage` Pontius (27841), `the-people` Letter XXXI (25849-25859). Owner: Library thread.
 - **Open: fleet buckets behind their staging.** The committed corpus-map buckets lack row fields that staging holds (the lpc bucket carried none of `locus_ids`, `language` or `date` before this PR regenerated it; `donatism`, `pelagianism` and others differ the same way, as do `UNATTRIBUTED.yaml` entries). Only the lpc bucket is regenerated in this PR. A cross-world decision, held. Owner: coordination.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-142. Term split (heard today, meant here) and the preaching claim that still stands elsewhere (2026-11-01).
+
+- **Done.** The 19 lpc term records carry `senses.heard_today` and `senses.meant_here`, split from `senses.translational` (which stays), wording kept and only what each half needed to stand alone changed. An independent Opus reader reviewed all 19: 17 passed; `preaching` (P1) and `confessor` (P2) failed and were fixed as the reader wrote them, not read again. Review: `Review-Artifacts/Term_Split_Review_2026-11-01.md`.
+- **Open: an unsupported claim in `preaching`.** `senses.translational` and `false_friend` in `lpc.term.preaching`, and `Build/worlds/lpc/Lexicon-Chunks/lpclex008_preaching.md` (lines 25 and 49), still say preaching was the central formative act of ordinary life. An earlier review found the "main way" claim unsupported by any cited source, and it conflicts with the record's own `not_for`. The new `meant_here` leaves it out. Left alone here because `translational` stays by the schema order. A record-stage fix. Owner: Library thread.
+- **Open: long sentences carried over unchanged** from `translational` in 16 term records (the longest, in `grace`, run 39 and 47 words). Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
