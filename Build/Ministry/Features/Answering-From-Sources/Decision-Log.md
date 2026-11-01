@@ -709,3 +709,11 @@ Coordination-level, AI-reviewed (not Mark's own words). The second fresh reading
 - The fallback sentence is used only when withheld limits leave under 25 words, once, and its "Here is what we can tell you" half only when text follows.
 - The verify prompt holds a sentence joining content from two records to the narrower scope, the record's MUST NOT ASSERT line winning.
 - Retrieval is not touched here; the routing finding goes to Mark through coordination.
+
+## 49. Stage 4 accepted as the shadow proof on lpc (2026-11-01)
+
+Mark's choice, relayed by the coordination thread: "Accept as the shadow proof."
+
+- Scope: the shadow pipeline on `lpc` only, as run and reported in `Stage4_Report.md` (the proof run on the 106 questions and the round-2 redraft). No other world, and no step of the pipeline is registered on any live frame.
+- What the proof showed: no false or invented sentence in any of the readings; 92 of 106 answers shipped and 14 abstained in the proof run; depth the weaker axis.
+- Nothing in the live path changes with this entry. Two live-path items need their own change order and are logged, not drafted, in `Build/worlds/lpc/Open_Gaps_Tracking.md` (OG-138).
