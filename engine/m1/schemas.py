@@ -508,6 +508,8 @@ TYPE_PROPERTIES: dict[str, dict] = {
                 "evidential": {"type": "string"},
                 "personal": {"type": "string"},
                 "translational": {"type": "string"},
+                "heard_today": {"type": "string"},
+                "meant_here": {"type": "string"},
             },
             "additionalProperties": False,
         },

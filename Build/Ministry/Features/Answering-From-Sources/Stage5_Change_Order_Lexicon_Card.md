@@ -27,3 +27,7 @@ Mark chose template B on 2026-11-01 (Decision-Log 55): labelled layers "In plain
 
 Mark added on 2026-11-01 (Decision-Log 56): "b, but we need the modern misunderstanding or a contrast to how people think it means today vs in that world". Template B therefore carries a named contrast layer, "How we hear it today" beside "In this world", fed from `senses.translational` and `false_friend`; a term without a usable modern-reading field shows the layer as unavailable and nothing is invented. The contrast is not added to the quote card.
 
+
+## Schema: the contrast split at the source
+
+Coordination ruled on 2026-11-01 that the contrast is split at the source, not by sentence in code. `Schema_Change_Order_Term_Senses_Split.md` adds two optional fields to a term record's `senses`: `heard_today` (how people hear the word today) and `meant_here` (what the word means in this world). The card renders the two-column contrast from them; a term not yet split shows the whole `senses.translational` block as the fallback. No code splits `senses.translational` by sentence.

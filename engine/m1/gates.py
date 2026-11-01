@@ -340,6 +340,13 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: missing required field 'false_friend' (an empty list is a valid 'none identified' - omitting the field is not)")
         if _is_blank((rec.get("senses") or {}).get("translational")):
             findings.append(f"{rid}: missing required field 'senses.translational'")
+        senses = rec.get("senses") or {}
+        split = {f: senses[f] for f in ("heard_today", "meant_here") if f in senses}
+        if split and len(split) < 2:
+            findings.append(f"{rid}: senses.heard_today and senses.meant_here come as a pair; only {sorted(split)[0]!r} is present")
+        for field, value in split.items():
+            if not isinstance(value, str) or not value.strip():
+                findings.append(f"{rid}: senses.{field} is present and blank")
     return findings
 
 
