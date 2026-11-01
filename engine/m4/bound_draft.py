@@ -47,7 +47,8 @@ DIRECTIVE_LINES = (
     "[[as:inference]] when it goes past them. Use inference only if you must; it will not be spoken. "
     "Quote only by [[quote:id]]. Each sentence is read alone against its records, so name the person or thing in every sentence: "
     "never use he, she, it, they, this, that or such to point back to an earlier sentence. "
-    "Add no person, place, title, date or other detail that is not in the sentence's own bound records: if a record says only \"our bishop\", write \"our bishop\".",
+    "Add no person, place, title, date or other detail that is not in the sentence's own bound records: if a record says only \"our bishop\", write \"our bishop\". "
+    "Keep the hedge, concession and date of the sentence's own bound records: if one of them says an author only allowed, supposed or conceded something, or ties a rule or event to a council, a year or an occasion, say so in the sentence.",
     "Every sentence is bound to a record by its id, or is a question to the visitor, or is exactly one of these sentences: {connectives}. "
     "Write no other sentence without a record id: no framing sentence, no sentence about what you can or cannot say, no limit. "
     "Say what the sources lack only from a limit record in your ground, cited by its id. Keep the answer's depth and the world's own images.",

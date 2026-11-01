@@ -239,3 +239,7 @@ def test_the_rewrite_request_names_what_code_sets_in_by_kind(records):
     units = [_unit("Numidicus is the one we tell of.", [story]), _unit("He stood.", [story], story)]
     user = ac.rewrite_request("Q?", units, {"unsupported": {}, "dropped": []}, records)["user"]
     assert f"[[story:{story}]]; code sets in the story" in user and "Numidicus is the one we tell of." in user
+
+
+def test_the_rewrite_instruction_keeps_the_hedge_and_date():
+    assert "Keep its hedge, concession and date as its bound records give them" in ac.REWRITE_SYSTEM

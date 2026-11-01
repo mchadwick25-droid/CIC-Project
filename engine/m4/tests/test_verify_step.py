@@ -97,3 +97,9 @@ def test_the_pack_shows_each_bound_records_claim_guard(records):
 
 def test_the_judge_needs_a_record_to_state_an_exclusive_or_absent_claim():
     assert "exclusivity or absence" in vs.VERIFY_CRITERIA and "merely names the thing" in vs.VERIFY_CRITERIA
+
+
+def test_the_judge_holds_a_sentence_to_the_sources_hedge_and_date():
+    assert "keeps its records' own hedge, concession and date" in vs.VERIFY_CRITERIA
+    assert "only allowed, supposed or conceded (stronger_force)" in vs.VERIFY_CRITERIA and "(dropped_scope)" in vs.VERIFY_CRITERIA
+    assert "a span of years a record is limited to is not such a tie" in vs.VERIFY_CRITERIA

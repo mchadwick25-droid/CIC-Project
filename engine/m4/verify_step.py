@@ -39,7 +39,7 @@ VERIFY_CRITERIA = (
     "must name, through the sentence before it, the very person or thing the records say it of; if the records cannot settle it, "
     "or the sentence before points to something else, it is not supported (unresolved_referent). A claim of exclusivity or absence (\"only\", \"never\", \"none\", \"nothing\") is supported only if a bound record states that exclusivity or absence; a record that merely names the thing does not. Each record may carry a MUST NOT ASSERT line: a sentence that "
     "asserts what any bound record says must not be asserted is not supported, and when a sentence joins content from more than "
-    "one record it must stay within the narrower scope of them (years, persons, cases covered), the MUST NOT ASSERT line winning. When the records carry "
+    "one record it must stay within the narrower scope of them (years, persons, cases covered), the MUST NOT ASSERT line winning. A sentence keeps its records' own hedge, concession and date: it is not supported if it states flatly what a record gives as something the author only allowed, supposed or conceded (stronger_force), or if it states a rule or event without the council, year or occasion the record's own words tie it to (dropped_scope); a span of years a record is limited to is not such a tie. When the records carry "
     "different formation confidence, the sentence may claim no more than the lowest level among them, and may not join "
     "them into one claim stated more firmly. Use no outside knowledge.\n"
 )
