@@ -158,7 +158,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     if record.get("record_type") == "modern_term" and not record.get("display_terms"):
         return None
     sources = []
-    spans = record.get("record_type") in ("story", "quote")
+    spans = record.get("record_type") in ("story", "quote", "term")
     for entry in record.get("sources") or []:
         source_id = entry.get("source_id")
         source_record = repository_records.get(source_id) or {}
@@ -166,7 +166,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         if source_record.get("citation"):
             sources.append({
                 "source_id": source_id, "citation": source_record["citation"], "author": None, "work": None,
-                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": None, **vendored,
+                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": source_record.get("edition"), **vendored,
             })
             continue
         candidate = {

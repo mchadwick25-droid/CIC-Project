@@ -2564,3 +2564,45 @@ button {
 .account-home button {
   font-size: 0.95rem;
 }
+
+/* Term card (lexicon template B): labelled layers on the click page. */
+.term-mark__layer {
+  margin-top: 8px;
+}
+
+.term-mark__layer-label {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.term-mark__layer p:not(.term-mark__layer-label),
+.term-mark__layer ul {
+  margin: 4px 0 0;
+  font-size: 0.88rem;
+}
+
+.term-mark__layer ul {
+  padding-left: 18px;
+}
+
+.term-mark__contrast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px 16px;
+}
+
+.term-mark__flag,
+.term-mark__confidence {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.term-mark__unavailable {
+  font-style: italic;
+  color: var(--color-text-muted);
+}

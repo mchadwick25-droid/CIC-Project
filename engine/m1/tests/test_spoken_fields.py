@@ -162,6 +162,17 @@ _STORY_CARD_READS = {
 }
 
 
+# engine/m4/term_glosses.py find_glosses_used: the term card's senses, read
+# off the record and shown on its click page.
+_TERM_CARD_READS = {
+    "term": ["senses.translational", "senses.heard_today", "senses.meant_here", "plain_meaning", "quick_meaning", "world_word"],
+}
+
+
+def test_term_card_reads_are_all_declared():
+    _assert_all_declared("term_glosses.find_glosses_used", _TERM_CARD_READS)
+
+
 def test_build_prompt_reads_are_all_declared():
     _assert_all_declared("builders.build_prompt/shape.build_shape", _BUILD_PROMPT_READS)
 
@@ -198,3 +209,13 @@ def test_fields_with_role_filters_correctly():
     ]
     assert fields_with_role("nonexistent-type") == []
     assert fields_with_role("nonexistent-type", "voice-diet") == []
+
+
+def test_card_page_fields_stay_out_of_what_the_voice_sees():
+    from engine.m1.spoken_fields import voiced_fields
+    from engine.m4.absence_rule import spoken_text
+    card_only = ["senses.translational", "senses.heard_today", "senses.meant_here"]
+    assert all(SPOKEN_FIELDS["term"][f].role == "card-page" for f in card_only)
+    assert not set(card_only) & set(voiced_fields("term"))
+    record = {"record_type": "term", "plain_meaning": "A certificate.", "senses": {"heard_today": "A modern ear hears a licence."}}
+    assert spoken_text(record) == "A certificate."

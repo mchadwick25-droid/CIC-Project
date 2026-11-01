@@ -129,7 +129,7 @@ def test_a_source_with_a_citation_line_shows_only_that_line_and_its_place_in_the
     [source] = resolve_source_card("w.term.x", repo)["sources"]
     assert source == {
         "source_id": "w.source.s", "citation": "An Author, A Work, trans. A Translator (1898)", "author": None,
-        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None,
+        "work": None, "locus": "Hymn I.1", "rights_status": None, "edition": None, "vendored": [],
     }
 
 
@@ -344,7 +344,9 @@ def test_a_story_or_quote_card_names_the_vendored_text_span_each_source_cites():
     assert quote["original"] == [{"label": "Latin", "file": "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt", "lines": "12508-12516"}]
     assert quote["edition_words"] and quote["means"]
     term = resolve_source_card("lpc.term.catechesis", records)
-    assert all("vendored" not in source for source in term["sources"])
+    spans = {source["source_id"]: source["vendored"] for source in term["sources"]}
+    assert spans["lpc.source.augustine-the-enchiridion"] == [{"file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "lines": "21773-21773", "label": None}]
+    assert spans["lpc.source.augustine-confessions"] == []
 
 
 def test_locus_refs_reads_single_lines_ranges_and_refuses_the_rest():

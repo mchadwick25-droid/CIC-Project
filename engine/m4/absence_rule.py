@@ -17,7 +17,7 @@ from __future__ import annotations
 
 import re
 
-from engine.m1.spoken_fields import SHARED_SPOKEN_FIELDS, field_texts, fields_with_role
+from engine.m1.spoken_fields import SHARED_SPOKEN_FIELDS, field_texts, voiced_fields
 from engine.prose import sentences
 
 REASON_ABSENCE_UNSUPPORTED = "states an absence that no record it cites states"
@@ -73,7 +73,7 @@ def spoken_text(record: dict) -> str:
     spoken fields and the shared ones, nested lists and mappings included."""
     record_type = record.get("record_type") or ""
     out = []
-    for name in [*fields_with_role(record_type), *SHARED_SPOKEN_FIELDS]:
+    for name in [*voiced_fields(record_type), *SHARED_SPOKEN_FIELDS]:
         value = record
         for part in name.split("."):
             value = value.get(part) if isinstance(value, dict) else None
