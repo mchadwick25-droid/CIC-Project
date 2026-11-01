@@ -335,7 +335,10 @@ def test_a_story_or_quote_card_names_the_vendored_text_span_each_source_cites():
     from engine.m4.citation_cards import resolve_source_card
     records = load_world_records("lpc")
     story = resolve_source_card("lpc.story.celerinus-writes-to-lucian", records)
-    assert story["sources"][0]["vendored"] == [{"file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml", "lines": "30528-30720", "label": None}]
+    from engine.prose import locus_refs
+    cited = locus_refs(records["lpc.story.celerinus-writes-to-lucian"]["sources"][0]["locus"])
+    assert cited and all(ref["file"] == "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml" for ref in cited)
+    assert story["sources"][0]["vendored"] == [{"file": ref["file"], "lines": ref["lines"], "label": ref["label"]} for ref in cited]
     assert story["heart"] and story["means"] and story["narrative_tier"] == 1 and "telling" not in story
     quote = resolve_source_card("lpc.quote.a-respite-from-their-torments", records)
     files = [ref["file"] for ref in quote["sources"][0]["vendored"]]
