@@ -134,65 +134,65 @@ events:
 - line: 'His condition: each case set before the bishop, and confession made; then, he asked, let the women have peace.'
   rests_on: Each case was to be set before the bishop, and confession made.
   essential: true
-telling_short: 'Celerinus was one of our confessors. He wrote to Lucian, another confessor, who was in prison.
+telling_short: 'Celerinus, one of our confessors, wrote to Lucian, another confessor in prison. He asked Lucian to grieve with him over his sister''s death, a death of the spirit. In this time of devastation she had fallen from Christ. He also asked the martyrs'' pardon for two women they knew, Numeria and Candida.
 
 
-  He asked Lucian to grieve with him over the death of his sister, a death of the spirit. In this time of devastation she had fallen from Christ. He also asked the martyrs'' pardon for two women Lucian knew, Numeria and Candida.
+  Lucian answered from the prison and granted the request in the name of the martyr Paulus and the other martyrs, on one condition. Each case was to be set before the bishop, and confession made. Then, he asked, let these women have peace.'
+telling_medium: 'Celerinus, one of our confessors, wrote to Lucian, another confessor in prison. He asked Lucian to grieve with him over his sister''s death, a death of the spirit. In this time of devastation she had fallen from Christ, and she "has sacrificed and provoked our Lord, as seems manifest to us." He would weep until help came through Lucian or the martyrs.
 
 
-  Lucian granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop, and confession made. Then, he asked, let these women have peace.'
-telling_medium: 'Celerinus, one of our confessors, wrote to Lucian, another confessor in prison.
+  He also asked the martyrs'' pardon for Numeria and Candida. They had repented and done good works for our banished colleagues. He called what they did a great sin, yet Candida had given gifts so that she would not have to sacrifice. "I know, therefore, that she has not sacrificed."
 
 
-  He asked Lucian to grieve with him over his sister''s death, a death of the spirit. She had fallen from Christ. He wrote that "she has sacrificed and provoked our Lord, as seems manifest to us." He would weep until help came through Lucian or the martyrs.
-
-
-  He also asked the martyrs'' pardon for Numeria and Candida, citing their repentance and good works. He called what they did a great sin. Yet Candida had given gifts so that she would not have to sacrifice. "I know, therefore, that she has not sacrificed."
-
-
-  Lucian answered from the prison. He too spoke of "so great a crime committed." The confessors there had been ordered to die by hunger and thirst. "But now we have attained the brightness itself," he wrote.
+  Lucian answered from the prison. He too grieved over "so great a crime committed." He and his fellow confessors were to die by hunger and thirst. Yet "now we have attained the brightness itself."
 
 
   He granted the request in the name of the martyr Paulus and the other martyrs, on one condition. Each case was to be set before the bishop, and confession made. Then, he asked, let the women have peace.'
-telling_long: 'Celerinus was one of our confessors. He wrote to Lucian, another confessor, who was in prison.
+telling_long: 'Celerinus was one of our confessors, at Rome. Lucian was one of the Carthaginian confessors, held in prison. No letter had come from Lucian since the two men were last together. Now Celerinus wrote to him.
 
 
-  His letter began with joy and sorrow together. He rejoiced that Lucian had confessed the name of Christ before the magistrates. But he was sorry that no letter from Lucian had reached him.
+  He had heard that Lucian had confessed the name of Christ before the magistrates, and he rejoiced. He had made his own confession too, and he asked Lucian to pray that he might be crowned along with him.
 
 
-  Then he came to his grief. He asked Lucian to grieve with him over the death of his sister, a death of the spirit. In this time of devastation she had fallen from Christ. He wrote that "she has sacrificed and provoked our Lord, as seems manifest to us."
+  His joy came with a grief. He asked Lucian to grieve with him over his sister''s death, a death of the spirit. In this time of devastation she had fallen from Christ. She "has sacrificed and provoked our Lord, as seems manifest to us."
 
 
-  It was the day of paschal rejoicing, yet he was spending his days in tears, in sackcloth and ashes. He would weep until help came from our Lord Jesus Christ, through Lucian or through those already crowned, whom Lucian would ask.
+  It was the day of paschal rejoicing, yet Celerinus was spending his days in tears, in sackcloth and ashes. He would keep weeping until help came from our Lord Jesus Christ, through Lucian or through those already crowned.
 
 
-  He also asked Lucian to grieve for Numeria and Candida, two women they both knew well. He pointed to their repentance and to the good works they had done for our banished colleagues. Christ would have mercy on them, he believed, when the martyrs asked Him.
+  Two other women weighed on him, Numeria and Candida, whom Lucian knew well. They had repented, and they had done good works for our banished colleagues. Celerinus trusted that Christ would have mercy on them when His martyrs asked.
 
 
-  He begged Lucian to refer the case to his fellow confessors. Whichever of them was crowned first should forgive the women "such a great sin."
+  He begged Lucian to take the case to his fellow confessors. Whichever of them was crowned first should remit "such a great sin."
 
 
-  Of Candida he said more. She had given gifts so that she would not have to sacrifice. She seems only to have gone up as far as the Tria Fata, and then come back down. "I know, therefore, that she has not sacrificed."
+  The case of Candida was not simple. She had given gifts so that she would not have to sacrifice. She seems to have gone up only as far as the Tria Fata, and then come back down. "I know, therefore, that she has not sacrificed," Celerinus wrote.
 
 
-  Their case had lately been heard. Those in charge had ordered the women to remain as they were until a bishop was appointed.
+  Those in charge had lately heard the women''s case. They had ordered them to stay as they were until a bishop was appointed.
 
 
-  Celerinus was not the only one asking. Statius and Severianus joined him, with all the confessors who had come from Lucian. These women had gone down to the harbour for those confessors and brought them up into the city. They had ministered to sixty-five, and still cared for them in all things.
+  Others joined the plea: Statius and Severianus, and all the confessors who had come from Lucian. These women had gone down to the harbour for them and brought them up into the city. They had cared for sixty-five, and still tended them in all things.
 
 
-  Lucian answered from the prison. He wished they could speak of these sisters without remembering "so great a crime committed."
+  Lucian answered from his prison. The letter had almost overcome him with joy. He himself had confessed "with trembling before the inferior magistrates." Celerinus, when he confessed, had "frightened back the great serpent himself, the pioneer of Antichrist."
 
 
-  He explained the authority behind his answer. While still in the body, the martyr Paulus had told him: "Lucian, in the presence of Christ I say to you, If any one, after my being called away, shall ask for peace from you, grant it in my name." And Lucian and the others with him, by their letters and by mutual agreement, had given peace to all.
+  Lucian grieved for the women too. He wished they could be mentioned without remembering "so great a crime committed."
 
 
-  By the emperor''s command they had been ordered to die by hunger and thirst. They were shut up in two cells so that hunger and thirst would weaken them. The fire of their torture was more than anyone could bear. "But now we have attained the brightness itself," he wrote.
+  He gave the ground for his answer. While still in the body, the martyr Paulus had called him. He told Lucian, "If any one, after my being called away, shall ask for peace from you, grant it in my name." By their letters and by mutual agreement, Lucian and the confessors dying with him had already given peace to all.
 
 
-  He granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop, and confession made. Then he asked "that not only these may have peace, but also ... those whom you know to be very near to our heart."
+  By the emperor''s command they were to die by hunger and thirst. They were shut up in two cells, so that hunger and thirst would weaken them. The fire of their torture was more than anyone could bear. "But now we have attained the brightness itself."
 
 
-  He greeted friends by name and left the rest out, "because I am already weary. Therefore they must pardon me."'
+  Numeria and Candida would have peace, by the precept of Paulus and the other martyrs. Lucian listed those martyrs by name. Many had already died of hunger in the prison, and he expected to join them within days.
+
+
+  The Lord had begun to give peace to the church itself, and Lucian set one condition. Each case was to be set before the bishop, and confession made. He asked "that not only these may have peace, but also ... those whom you know to be very near to our heart."
+
+
+  He sent greetings to many by name and left the rest out, "because I am already weary. Therefore they must pardon me."'
 ---
 Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into first-person register (the letters of Celerinus and Lucian are already first-person; the surrounding narration is recast). 'Put to death by hunger and thirst' is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30705-30706. Two of the claim_guards entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the tension...'; 'not one of these women speaks for herself') into the schema's barred-claim field.
