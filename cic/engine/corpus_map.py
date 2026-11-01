@@ -133,7 +133,8 @@ REQUIRED = ("work", "author", "source_file", "role", "confidence")
 # Every key a bucket row may carry. A key outside this set is a finding, so a
 # misspelt field is reported instead of silently lost.
 ROW_FIELDS = ("row_id", "work", "author", "source_file", "locus", "locus_ids", "role",
-              "confidence", "voice_of", "documented_exchange", "language", "date", "note")
+              "confidence", "voice_of", "documented_exchange", "language", "date", "translator",
+              "edition_date", "note")
 DOCUMENTED_EXCHANGES = {"confirmed", "not-confirmed", "needs-ruling"}
 # The project's five-level formation_confidence vocabulary, plus `unknown` for
 # a date nobody has been able to fix. "Not Attested" names an absent claim, not
@@ -231,6 +232,37 @@ def _date_findings(date: object, tag: str) -> list[str]:
     return out
 
 
+def _edition_fact_findings(value: object, tag: str, field: str, key: str, is_valid) -> list[str]:
+    """Shape of `translator` and `edition_date`: a fact about the vendored edition of a work,
+    with the line of the file that states it and a formation confidence, or `unknown` with
+    where it was looked for. `key` is the fact's own key (`name` or `year`)."""
+    if not isinstance(value, dict):
+        return [f"{tag}: {field} must be a mapping, not {type(value).__name__}"]
+    out: list[str] = []
+    allowed = {key, "source", "formation_confidence", "checked"}
+    for k in sorted(set(value) - allowed, key=str):
+        out.append(f"{tag}: {field} has unknown key {k!r} (allowed: {sorted(allowed)})")
+    confidence = value.get("formation_confidence")
+    if confidence == "unknown":
+        if not isinstance(value.get("checked"), str) or not value["checked"].strip():
+            out.append(f"{tag}: {field} with formation_confidence 'unknown' needs `checked`, "
+                       "naming where it was looked for")
+        for k in (key, "source"):
+            if k in value:
+                out.append(f"{tag}: {field} with formation_confidence 'unknown' must not carry {k!r}")
+        return out
+    if confidence not in FORMATION_CONFIDENCES:
+        out.append(f"{tag}: {field} formation_confidence {confidence!r} is not one of "
+                   f"{list(FORMATION_CONFIDENCES)} or 'unknown'")
+    if "checked" in value:
+        out.append(f"{tag}: {field} `checked` belongs only with formation_confidence 'unknown'")
+    if not is_valid(value.get(key)):
+        out.append(f"{tag}: {field} {key} is missing or malformed")
+    if not isinstance(value.get("source"), str) or not value["source"].strip():
+        out.append(f"{tag}: {field} needs a non-empty `source`, the file and line that state it")
+    return out
+
+
 def row_field_findings(entry: dict, tag: str, voice_ids: set[str]) -> list[str]:
     """Shape of the optional row fields, shared by validate() on buckets and the
     merge's check on staging rows. `voice_ids` is every slug `voice_of` may
@@ -267,6 +299,11 @@ def row_field_findings(entry: dict, tag: str, voice_ids: set[str]) -> list[str]:
                        "hyphens as the filenames do (grc, lat, grc-lat)")
     if "date" in entry:
         out.extend(_date_findings(entry["date"], tag))
+    if "translator" in entry:
+        out.extend(_edition_fact_findings(entry["translator"], tag, "translator", "name",
+                                          lambda v: isinstance(v, str) and bool(v.strip())))
+    if "edition_date" in entry:
+        out.extend(_edition_fact_findings(entry["edition_date"], tag, "edition_date", "year", _is_year))
     return out
 
 

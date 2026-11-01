@@ -381,3 +381,5 @@ assignments:
       is not in the corpus. Anti-Donatist polemic surfaces in a number of
       expositions (a few dozen mentions across 695k words) but is diffuse,
       so no donatism id is claimed for the body.
+    translator: {name: "The Oxford \"Library of the Fathers\" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J. E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland Coxe, D.D.", source: "npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the six volumes of the oxford translation, by A. Cleveland coxe, d.d.,", formation_confidence: Documented}
+    edition_date: {year: 1888, source: "npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.", formation_confidence: Inferential-Thin}

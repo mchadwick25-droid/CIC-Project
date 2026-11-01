@@ -72,6 +72,10 @@ assignments:
       the file and against the page image where a letter is doubtful (INTAKE section 6) before it is
       used. Mirrors that entry's role and confidence.
 
+    translator: {name: "none (Latin edition); editor: Oscar von Gebhardt", source: "gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt line 2: Oscar von Gebhardt (Editor, 1844-1906)", formation_confidence: Documented}
+
+    edition_date: {year: 1902, source: "gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt line 4: Publication Date: 1902", formation_confidence: Documented}
+
   - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-of-marianus-and-jacobus-latin-gebhardt-1902-no-xiii
     work: "Passio of Marianus and Jacobus, Latin (Gebhardt 1902, no. XIII)"
     author: passion-of-marianus-and-jacobus

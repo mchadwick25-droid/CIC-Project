@@ -35,7 +35,7 @@ relations:
 - type: associated-with
   target: lpc.term.the-people
 use_note:
-  means: "The flock is the particular people given to one bishop in one place, for whom he answers and who can hold him to it."
+  means: "The flock is the particular people given to one bishop in one place, for whom he answers and who can press him face to face."
   not_for:
     - "a claim that it is a sentimental name for churchgoers or the church in general"
     - "a claim that Augustine used the image as often as Cyprian"
@@ -56,9 +56,10 @@ sources:
   locus: De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his
-    doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith
-    and have not forsaken Christ's flock'
+  locus: Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of
+    his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken
+    faith and have not forsaken Christ's flock'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 35009-35011; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 10115-10117
   license: public-domain
 - source_id: lpc.source.cyprian-de-unitate
   locus: De Unitate's own citation of John 10:16, 'one flock and one shepherd'
@@ -70,8 +71,7 @@ sources:
   locus: Sermon I's own cognate image of gathering 'into His fold'
   license: public-domain
 - source_id: lpc.source.augustine-general-correspondence
-  locus: Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same
-    determination with terrible and incessant clamour and shouting'
+  locus: Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'; verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 44486-44507
   license: public-domain
 retrieval:
   tier: 1
@@ -86,8 +86,7 @@ retrieval:
     over his own congregation -- ask about the one episcopate or bishop of bishops instead
 plain_meaning: 'A bishop, for us, is not an officer of some wider institution, dropped into a posting.
   He is given a people. He preaches to them and baptizes them, and when they fail it is not a problem
-  he manages but a wound he carries. The charge runs both ways: he answers for his flock, and his flock
-  can stand in front of his seat and refuse to leave until he hears them.'
+  he manages but a wound he carries. The charge runs both ways. He answers for his flock. And his flock can stand before his seat and refuse to leave until he hears them.'
 world_word: the flock
 distortion_risk: high
 false_friend:
@@ -120,6 +119,6 @@ senses:
     demand, and they can force a bishop''s hand. And the bishop is not remote -- he is the man who preached
     to you himself and knows which of you did not come.'
 quick_meaning: For us, the flock is not the church in general. It is the particular people one bishop
-  is given, in one place. He answers for them, and they can hold him to it.
+  is given, in one place. He answers for them, and they can press him face to face.
 ---
 Re-derived from Doc_06 SS2.1 (lpclex001, Tier 1, G1 Primary -- 'the ecological hub; Doc_05 SS9.1 finds every lens passes through it') and Lexicon-Chunks/lpclex001_the-flock.md, already-authored, already-reviewed deployment prose -- mapped onto the live term schema per this script's own field-mapping judgment calls (see script docstring). No register correction was needed: the chunk's own Quick Meaning and World Meaning are already written 'For us, ...', first-person emic throughout, unlike don's own third-person source chunks. Ecological Function folded into senses.informational (schema has no dedicated field). Relations: this term's own Related-Terms line names thirteen other terms, all built this pass; see RELATED_TERMS/ADJACENCY.

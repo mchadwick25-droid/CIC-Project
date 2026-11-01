@@ -33,12 +33,13 @@ confidence:
     sense, so distortion risk is high.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'
+  locus: Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom';
+    verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32372-32373;
+    Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 5904-5906
   license: public-domain
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the
-    favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate
-    while still a neophyte'
+    favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'; and, on 'even against his wishes', 'he humbly withdrew, giving place to men of older standing' with the crowd 'besieging the doors of the house'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27817-27840
   license: public-domain
 - source_id: lpc.source.augustine-general-correspondence
   locus: Letters XXXI and CCXIII carry Augustine's own accounts

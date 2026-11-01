@@ -44,7 +44,9 @@ sources:
   locus: On Baptism, Against the Donatists II.3 -- 'The Councils themselves, which are held in the several
     districts and provinces, must yield, beyond all possibility of doubt, to the authority of plenary
     Councils which are formed for the whole Christian world; and... even of the plenary Councils, the
-    earlier are often corrected by those which follow them'
+    earlier are often corrected by those which follow them'; verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
+    lines 11302-11303; Latin at cic/texts/augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt,
+    lines 7926-7945
   license: public-domain
 retrieval:
   tier: 2

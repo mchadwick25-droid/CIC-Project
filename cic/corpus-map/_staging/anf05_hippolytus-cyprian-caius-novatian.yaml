@@ -180,6 +180,8 @@ assignments:
     entry''s Carthage 240s-430 range.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian
   work: The Epistles of Cyprian
   author: cyprian
@@ -254,6 +256,8 @@ assignments:
     attributes the whole body to cyprian.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian-2
   work: The Epistles of Cyprian
   author: cyprian
@@ -314,6 +318,8 @@ assignments:
     and Felicissimus crises.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-unity-of-the-church-de-unitate-2
   work: On the Unity of the Church (De Unitate)
   author: cyprian
@@ -357,6 +363,8 @@ assignments:
   note: 'Pastoral discipline for consecrated virgins, following Tertullian''s dress treatises.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis
   work: On the Lapsed (De Lapsis)
   author: cyprian
@@ -379,6 +387,8 @@ assignments:
     document of the penitential controversy that runs through Novatianism and later Donatism.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-lapsed-de-lapsis-2
   work: On the Lapsed (De Lapsis)
   author: cyprian
@@ -415,6 +425,8 @@ assignments:
   note: 'Catechetical-pastoral exposition, dependent on Tertullian''s De Oratione.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum
   work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
@@ -434,6 +446,8 @@ assignments:
     from inside the Latin pastoral world.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--an-address-to-demetrianus-ad-demetrianum-2
   work: An Address to Demetrianus (Ad Demetrianum)
   author: cyprian
@@ -474,6 +488,8 @@ assignments:
     it is transmitted in the Cyprianic corpus and CCEL prints it among the genuine treatises.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-vanity-of-idols-quod-idola-dii-non-sint-2
   work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
@@ -509,6 +525,8 @@ assignments:
     of epidemic, mortality and hope.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-works-and-alms-de-opere-et-eleemosynis
   work: On Works and Alms (De Opere et Eleemosynis)
   author: cyprian
@@ -529,6 +547,8 @@ assignments:
   note: 'Almsgiving as the congregation''s practical piety.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-the-advantage-of-patience-de-bono-patientiae
   work: On the Advantage of Patience (De Bono Patientiae)
   author: cyprian
@@ -547,6 +567,8 @@ assignments:
   note: 'Written amid the baptismal controversy with Rome; reworks Tertullian''s De Patientia.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--on-jealousy-and-envy-de-zelo-et-livore
   work: On Jealousy and Envy (De Zelo et Livore)
   author: cyprian
@@ -564,6 +586,8 @@ assignments:
   note: 'Pastoral treatise against rivalry in the congregation.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--exhortation-to-martyrdom-addressed-to-fortunatus-ad
   work: Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)
   author: cyprian
@@ -580,6 +604,8 @@ assignments:
   note: 'Scripture testimonies arming the congregation for the Valerianic persecution.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--three-books-of-testimonies-against-the-jews-ad-quirinum
   work: Three Books of Testimonies Against the Jews (Ad Quirinum)
   author: cyprian
@@ -630,6 +656,8 @@ assignments:
     method in 3rd-c. Africa. Adversus-Judaeos framing noted for later readers.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism
   work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian
@@ -651,6 +679,8 @@ assignments:
     to him; noted here so the collective character is not lost.
 
     '
+  translator: {name: "Rev. Ernest Wallis, Ph.D.", source: "anf05_hippolytus-cyprian-caius-novatian.xml line 27378: [Translated by the Rev. Ernest Wallis, Ph.D.]", formation_confidence: Documented}
+  edition_date: {formation_confidence: unknown, checked: "ANF5 title pages (lines 398-436), Preface (436-573), the Cyprian title page and introductory notice; whole-file searches (tags stripped) for 'copyright', 'reprint', 'originally published', 'American edition', 'imprint', and every four-digit year 1840-1899. No imprint or preface year is printed for the volume. The latest years in running text are editorial: 'in 1885' (line 16246), 'True in a.d. 1885' (line 18630, American editor's bracketed note) and 'London, 1884' (line 60051), which only give a floor of about 1885 for the editor's annotations. npnf101 lines 665-667 (another file) says the American ANF reprint ran '(1884-1886)' over 8 volumes, which dates the series, not this volume."}
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-seventh-council-of-carthage-under-cyprian-on-the-baptism-2
   work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian

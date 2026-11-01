@@ -50,10 +50,12 @@ confidence:
     not characterize the Donatists.'
 sources:
 - source_id: lpc.source.augustine-correction-of-the-donatists
-  locus: Letter 185, SS25-26, the imperial-coercion defence
+  locus: Letter 185, SS24 (Chapter 6), the imperial-coercion defence; verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
+    lines 19616-19617; Latin at cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt,
+    lines 911-916
   license: public-domain
 - source_id: lpc.source.augustine-letter-93-to-vincentius
-  locus: Letter XCIII, SS17, the retrospective account of the earlier, contrary opinion
+  locus: Letter XCIII, SS17, the retrospective account of the earlier, contrary opinion -- 'originally my opinion was, that no one should be coerced into the unity of Christ'; verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 38245-38251
   license: public-domain
 retrieval:
   tier: 2
@@ -86,7 +88,7 @@ senses:
     force of our own ecology, and that is a finding rather than an omission -- nothing in this ecology
     organizes around it; the shift changes the instruments available to a bishop, not the thing a bishop
     is.'
-  evidential: Letter 185, SS25-26, the imperial-coercion defence, and Letter XCIII, SS17, the retrospective
+  evidential: Letter 185, SS24, the imperial-coercion defence, and Letter XCIII, SS17, the retrospective
     account of the earlier opinion, are both directly quoted and re-verified. The parable exegesis is
     Augustine's own, re-verified at source. This doctrine is known in our own corpus only through Augustine's
     own advocacy, in his own defence, with no Donatist first-person answer surviving in our Native record;

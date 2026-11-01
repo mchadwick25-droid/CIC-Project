@@ -82,6 +82,10 @@ assignments:
       text, and the Greek acts are not recoverable from this scan. Each quote is verified verbatim
       against the file (INTAKE section 6) before it is used. Mirrors that entry's role and confidence.
 
+    translator: {name: "none (Latin edition); editor: Rudolf Knopf (earlier editions); third edition by Gustav Krueger", source: "knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt line 2: Gustav Krueger (editor of the third edition)", formation_confidence: Documented}
+
+    edition_date: {year: 1929, source: "knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt line 4: Publication Date: 1929 (title page, third edition)", formation_confidence: Documented}
+
   - row_id: knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929--passio-of-marianus-and-jacobus-latin-knopf-krueger-1929-no
     work: "Passio of Marianus and Jacobus, Latin (Knopf-Krueger 1929, no. 15)"
     author: passion-of-marianus-and-jacobus

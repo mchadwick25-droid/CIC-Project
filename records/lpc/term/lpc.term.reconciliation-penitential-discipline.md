@@ -49,9 +49,11 @@ confidence:
     not speak anywhere in our record.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance
-    for a set time, and according to the rules of discipline come to public confession, and by imposition
-    of the hand of the bishop and clergy receive the right of communion'
+  locus: the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do
+    penance for a set time, and according to the rules of discipline come to public confession, and
+    by imposition of the hand of the bishop and clergy receive the right of communion'; verified directly
+    against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29767-29778; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
+    lines 2566-2569
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis carries the argument for episcopal control of the process

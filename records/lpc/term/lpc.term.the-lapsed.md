@@ -46,11 +46,20 @@ confidence:
     This entry''s account also rests on De Lapsis''s refusal to let either group''s failure be final.'
 sources:
 - source_id: lpc.source.cyprian-de-lapsis
-  locus: De Lapsis, the founding document of the controversy, directly quoted throughout
+  locus: De Lapsis, the founding document of the controversy, directly quoted throughout; De Lapsis
+    27 -- 'He says that he has done what another has actually committed', said of the one who bought
+    a certificate; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 44362-44365; Latin at cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt, lines 1047-1049
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors'
-    own first-person voices
+  locus: the Epistles' own lapsed-crisis correspondence; Epistle LI 3 (to Antonianus) -- 'those who
+    have stained their conscience with certificates, or have offered abominable sacrifices, are to have
+    peace made easy to them'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 33453-33455; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 7487-7488;
+    Epistle LI 14 -- the plea of one who obtained a certificate, 'I pay a price for this purpose'; verified
+    directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 33696-33716; Latin
+    at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 7855-7887. The same correspondence
+    includes Epistles XX-XXI, two lay confessors' own first-person voices
   license: public-domain
 retrieval:
   tier: 1
@@ -62,8 +71,7 @@ retrieval:
   - the participant is asking about heresy or schism -- leaving the church by conviction -- rather than
     about failing it under compulsion
   - ask about heresy or schism instead
-plain_meaning: The lapsed are our own people who complied with the order to sacrifice during the persecution
-  -- some by sacrificing, some only by paying for a certificate that said they had. They are not strangers
+plain_meaning: The lapsed are our own people who obeyed the order to sacrifice during the persecution. Some sacrificed. Others only paid for a certificate that said they had. They are not strangers
   and not enemies. They sat where we sit, and now they are asking to come back.
 world_word: the lapsed
 distortion_risk: high

@@ -45,12 +45,15 @@ confidence:
     uses his wording.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: 'Cyprian''s own crisis correspondence, Epistle X -- ''designate by name in the certificate those
-    whom you yourselves see, whom you have known, whose penitence you see to be very near to full satisfaction'';
-    ''Let such a one be received to communion along with his friends''; Epistle XIV -- ''thousands of
-    certificates were daily given, contrary to the law of the Gospel''; Epistle XVI -- the confessors
-    to Cyprian: ''to all, concerning whom the account of what they have done since the commission of their
-    sin has been, in your estimation, satisfactory, we have granted peace'''
+  locus: 'Cyprian''s own crisis correspondence, Epistle X -- ''designate by name in the certificate
+    those whom you yourselves see, whom you have known, whose penitence you see to be very near to full
+    satisfaction''; ''Let such a one be received to communion along with his friends''; Epistle XIV
+    -- ''thousands of certificates were daily given, contrary to the law of the Gospel''; Epistle XVI
+    -- the confessors to Cyprian: ''to all, concerning whom the account of what they have done since
+    the commission of their sin has been, in your estimation, satisfactory, we have granted peace'';
+    verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29935-29949
+    (Epistle X), 30198-30207 (Epistle XIV) and 30386-30391 (Epistle XVI); Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
+    lines 2473-2476 (Epistle X), 3010-3011 (Epistle XIV) and 3389-3391 (Epistle XVI)'
   license: public-domain
 retrieval:
   tier: 2
@@ -64,8 +67,7 @@ retrieval:
   - both entries answer to the bare word 'certificate,' and whichever is retrieved should surface the
     other's existence rather than answer as if its own referent were the only one
 plain_meaning: A certificate is a letter from a confessor, given to a lapsed person. It asks for peace,
-  or says peace is granted. Cyprian wanted each one to name the person. Some named one person and then
-  let in his own people too, without naming them.
+  or says peace is granted. Cyprian wanted each one to name the person. Some named one person, and then asked peace for his friends too, without naming them.
 world_word: certificate
 distortion_risk: high
 false_friend:

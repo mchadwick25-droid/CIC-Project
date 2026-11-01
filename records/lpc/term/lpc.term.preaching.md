@@ -19,7 +19,7 @@ relations:
 - type: associated-with
   target: lpc.term.the-people
 use_note:
-  means: "Preaching was the regular talk to the whole church, and the main way its teaching reached plain believers."
+  means: "Preaching was the bishop's regular talk to the whole gathered church, the baptized and those still learning."
   not_for:
     - "a claim that it was a stern monologue or a polished performance among several parts of a service"
     - "a claim that it was an organizing force of its own"
@@ -39,7 +39,8 @@ sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts
     that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer
-    for me'
+    for me'; verified directly against cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
+    lines 9398-9398; Sermon LXXXII (Ben. 132) 1 -- 'For those of you who have been baptized and the faithful do know what He meant. But those among you who are yet called Catechumens, or Hearers' ... 'Accordingly our discourse is directed to both'; verified directly against cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 20038-20039
   license: public-domain
 - source_id: lpc.source.augustine-tractates-on-john-and-related-exegesis
   locus: the Tractates on John, exegetical preaching
@@ -81,7 +82,6 @@ senses:
     piece, and assume it is one component of a service among several. For us it was the central formative
     act of ordinary life, delivered by the person personally answerable for the hearers, occasional and
     responsive rather than scripted, and openly aware of what it competed with for people's own attention.
-quick_meaning: For us, preaching is the regular talk to the whole church, baptized or still learning.
-  It is the main way what we hold reaches an ordinary believer.
+quick_meaning: For us, preaching is the regular talk to the whole church, baptized or still learning. It is how our bishop speaks to all of us at once.
 ---
 Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest divergence in this world between textual abundance and ecological weight') and Lexicon-Chunks/lpclex008_preaching.md. Relations: five terms per this term's own Related-Terms line.
