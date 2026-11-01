@@ -1,62 +1,129 @@
 /**
- * The term/concept gloss's inline mark - the OTHER track VR_1A named,
- * addressing complicated vocabulary a participant may not know (e.g.
- * catechumen, Didache). Same InlineBridge grammar as the name/figure
- * bridge, with its sources listed last.
+ * The term card: the word's inline mark, a hover with its quick meaning,
+ * how sure we are and how easily it is misheard, and a click page of
+ * labelled layers.
  *
- * `translational_sense` is the actual point of this whole system, not a
- * side effect: engine.m4.term_glosses reads it straight from the term
- * record's own `senses.translational` field, written specifically to
- * answer a modern-phrased question in the world's own terms - e.g.
- * alx.term.allegoria's: "'Was Jesus God?' - this world answers through
- * the Logos..." The point is surfacing how a world understands a question
- * in its own terms, not supplying a dictionary definition.
+ * "In this world" and "How we hear it today" are the term's own split
+ * fields, shown side by side. A term not yet split shows the whole
+ * translational block under "In this world" alone. Where a term's source
+ * names no vendored text, or no edition, the page says "unavailable"; it
+ * never supplies a link or a date of its own.
  */
-import type { GlossUsed } from '../types/conversation';
+import type { GlossUsed, SourceReference } from '../types/conversation';
+import { confidencePhrase } from '../lib/confidence';
+import {
+  TERM_LAYER_FRIENDS,
+  TERM_LAYER_PLAIN,
+  TERM_LAYER_RESTS_ON,
+  TERM_LAYER_TODAY,
+  TERM_LAYER_WORLD,
+  TERM_RISK_PHRASES,
+  TERM_UNAVAILABLE,
+} from '../lib/markCopy';
 import { InlineBridge } from './InlineBridge';
-import { SourceList } from './SourceList';
 
 interface GlossMarkProps {
   label: string;
   gloss: GlossUsed;
 }
 
+function Unavailable({ what }: { what: string }) {
+  return (
+    <span className="term-mark__unavailable">
+      {what}: {TERM_UNAVAILABLE}
+    </span>
+  );
+}
+
+function RestsOn({ source }: { source: SourceReference }) {
+  const spans = source.vendored ?? [];
+  return (
+    <li>
+      <span>{source.citation ?? source.work ?? source.source_id}</span>
+      {source.author && ` — ${source.author}`}
+      {source.locus && `, ${source.locus}`}
+      <br />
+      {source.edition ? <span>{source.edition}</span> : <Unavailable what="Edition, translator and date" />}
+      <br />
+      {spans.length > 0 ? (
+        spans.map((ref) => (
+          <span key={`${ref.file}:${ref.lines}`}>
+            {ref.label ? `${ref.label} text` : 'Text'}: <code>{ref.file}</code>, lines {ref.lines}
+          </span>
+        ))
+      ) : (
+        <Unavailable what="Text in the Library" />
+      )}
+    </li>
+  );
+}
+
 export function GlossMark({ label, gloss }: GlossMarkProps) {
+  const phrase = confidencePhrase(gloss.confidence);
+  const risk = gloss.distortion_risk ? TERM_RISK_PHRASES[gloss.distortion_risk] : null;
+  const split = Boolean(gloss.heard_today && gloss.meant_here);
+  const worldSense = split ? gloss.meant_here : gloss.translational_sense;
+  const id = gloss.id;
   return (
     <InlineBridge
       label={label}
       markClassName="name-bridge-mark"
-      level2={<p>{gloss.quick_meaning ?? gloss.plain_meaning}</p>}
+      level2={
+        <>
+          <p>{gloss.quick_meaning ?? gloss.plain_meaning}</p>
+          {phrase && <p className="term-mark__confidence">{phrase}</p>}
+          {risk && <p className="term-mark__flag">{risk}</p>}
+        </>
+      }
       level3Title={gloss.matched_name}
       level3={
         <>
           {gloss.plain_meaning && (
-            <>
-              <p className="level3__section-label">What it means</p>
-              <p>{gloss.plain_meaning}</p>
-            </>
+            <div className="term-mark__layer">
+              <p className="term-mark__layer-label" id={`${id}-plain`}>{TERM_LAYER_PLAIN}</p>
+              <p aria-labelledby={`${id}-plain`}>{gloss.plain_meaning}</p>
+            </div>
           )}
 
-          {gloss.translational_sense && (
-            <>
-              <p className="level3__section-label">Where a modern ear might hear it differently</p>
-              <p>{gloss.translational_sense}</p>
-            </>
+          {(worldSense || split) && (
+            <div className={split ? 'term-mark__contrast' : undefined}>
+              {split && (
+                <div className="term-mark__layer">
+                  <p className="term-mark__layer-label" id={`${id}-today`}>{TERM_LAYER_TODAY}</p>
+                  <p aria-labelledby={`${id}-today`}>{gloss.heard_today}</p>
+                </div>
+              )}
+              <div className="term-mark__layer">
+                <p className="term-mark__layer-label" id={`${id}-world`}>{TERM_LAYER_WORLD}</p>
+                <p aria-labelledby={`${id}-world`}>{worldSense}</p>
+              </div>
+            </div>
           )}
 
           {gloss.false_friend.length > 0 && (
-            <>
-              <p className="level3__section-label">Not to be confused with</p>
-              <ul className="level3__false-friend">
+            <div className="term-mark__layer">
+              <p className="term-mark__layer-label" id={`${id}-friends`}>{TERM_LAYER_FRIENDS}</p>
+              <ul className="level3__false-friend" aria-labelledby={`${id}-friends`}>
                 {gloss.false_friend.map((f) => (
                   <li key={f}>{f}</li>
                 ))}
               </ul>
-            </>
+            </div>
           )}
 
-          <p className="level3__section-label">Sources</p>
-          <SourceList sources={gloss.sourced_by} empty="Nothing in this sentence was drawn from a source." />
+          <div className="term-mark__layer">
+            <p className="term-mark__layer-label" id={`${id}-rests`}>{TERM_LAYER_RESTS_ON}</p>
+            {gloss.rests_on.length > 0 ? (
+              <ul aria-labelledby={`${id}-rests`}>
+                {gloss.rests_on.map((s) => (
+                  <RestsOn key={s.source_id} source={s} />
+                ))}
+              </ul>
+            ) : (
+              <p aria-labelledby={`${id}-rests`}><Unavailable what="Sources" /></p>
+            )}
+            {phrase && <p className="term-mark__confidence">{phrase}</p>}
+          </div>
         </>
       }
     />

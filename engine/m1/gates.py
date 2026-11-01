@@ -1662,8 +1662,9 @@ def gate_cells_required(records, fleet, registry) -> list[str]:
 # later thing as the edge.
 _EDGE_FIELDS = {("world_core", "horizon"), ("world_core", "cautions")}
 # Fields the voice-facing roles declare that the voice never reads: the
-# source wording of a quote or story (decision 24).
-_UNVOICED_FIELDS = {("quote", "text"), ("story", "text")}
+# source wording of a quote or story, and a term's senses, which the card
+# page shows and which name the modern misunderstanding on purpose.
+_UNVOICED_FIELDS = {("quote", "text"), ("story", "text"), ("term", "senses.translational"), ("term", "senses.heard_today"), ("term", "senses.meant_here")}
 
 
 def gate_horizon(records, fleet, registry) -> list[str]:

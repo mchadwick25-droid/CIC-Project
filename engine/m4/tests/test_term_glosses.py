@@ -189,3 +189,59 @@ def test_an_internal_capital_form_never_matches_ordinary_prose():
         g["id"] == "alx.term.word-of-god"
         for g in find_glosses_used("The Word entered what he made in order to remake it.", [], repo)
     )
+
+
+# ---- The lexicon card (template B): what a gloss carries -------------------
+
+def _term_repo(**changes):
+    term = {
+        "id": "fix.term.certificate", "record_type": "term", "world_word": "libellus",
+        "plain_meaning": "A certificate.", "quick_meaning": "A certificate.",
+        "distortion_risk": "high", "false_friend": ["a licence"],
+        "confidence": {"formation_confidence": "Documented"},
+        "senses": {"translational": "A modern ear hears a licence; we mean a certificate."},
+        "sources": [{"source_id": "fix.source.one", "locus": "Letter 5; English at cic/texts/fix/one.txt, lines 4-9"}, {"source_id": "fix.source.two", "locus": "Letter 6"}],
+    }
+    term.update(changes)
+    sources = {
+        "fix.source.one": {"id": "fix.source.one", "record_type": "source", "author": "Cyprian", "work": "Letters", "edition": "ANF vol. 5", "rights_status": "public-domain"},
+        "fix.source.two": {"id": "fix.source.two", "record_type": "source", "author": "Cyprian", "work": "Letters", "edition": None, "rights_status": "public-domain"},
+    }
+    return {term["id"]: term, **sources}
+
+
+def _gloss(**changes):
+    [gloss] = find_glosses_used("He carried a libellus.", [], _term_repo(**changes))
+    return gloss
+
+
+def test_a_gloss_carries_the_confidence_the_risk_flag_and_the_world_word():
+    gloss = _gloss()
+    assert gloss["confidence"] == {"formation_confidence": "Documented"}
+    assert gloss["distortion_risk"] == "high"
+    assert gloss["world_word"] == "libellus"
+
+
+def test_rests_on_lists_each_source_with_its_edition_and_vendored_span():
+    one, two = _gloss()["rests_on"]
+    assert one["edition"] == "ANF vol. 5"
+    assert one["vendored"] == [{"file": "cic/texts/fix/one.txt", "lines": "4-9", "label": "English"}]
+    assert two["edition"] is None and two["vendored"] == []
+
+
+def test_a_term_with_no_source_carries_an_empty_list_not_an_invented_one():
+    assert _gloss(sources=[])["rests_on"] == []
+
+
+def test_a_split_term_carries_both_new_senses_and_the_whole_block_stays_as_the_fallback():
+    split = _gloss(senses={"translational": "whole block", "heard_today": "A modern ear hears a licence.", "meant_here": "We mean a certificate."})
+    assert (split["heard_today"], split["meant_here"]) == ("A modern ear hears a licence.", "We mean a certificate.")
+    assert split["translational_sense"] == "whole block"
+    unsplit = _gloss()
+    assert unsplit["heard_today"] is None and unsplit["meant_here"] is None
+    assert unsplit["translational_sense"].startswith("A modern ear hears")
+
+
+def test_a_half_split_term_is_treated_as_unsplit_and_never_split_from_the_block():
+    half = _gloss(senses={"translational": "A. B.", "heard_today": "A modern ear hears a licence."})
+    assert half["heard_today"] is None and half["meant_here"] is None

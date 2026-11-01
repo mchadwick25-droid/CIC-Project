@@ -158,7 +158,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     if record.get("record_type") == "modern_term" and not record.get("display_terms"):
         return None
     sources = []
-    spans = record.get("record_type") in ("story", "quote")
+    spans = record.get("record_type") in ("story", "quote", "term")
     for entry in record.get("sources") or []:
         source_id = entry.get("source_id")
         source_record = repository_records.get(source_id) or {}

@@ -102,6 +102,9 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "plain_meaning": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head"),
         "quick_meaning": SpokenField("voice-diet"),
         "world_word": SpokenField("participant-label", "prompt section header + citation-card label + _chunk_text"),
+        "senses.translational": SpokenField("evidence-head", "shown on the term's card page in 'In this world' when the term is not yet split into heard_today and meant_here; readability-graded"),
+        "senses.heard_today": SpokenField("evidence-head", "shown on the term's card page as 'How we hear it today'; readability-graded"),
+        "senses.meant_here": SpokenField("evidence-head", "shown on the term's card page as 'In this world'; readability-graded"),
     },
     "gravity": {
         "name": SpokenField("participant-label", "build_prompt's Gravities list + citation-card label fallback"),

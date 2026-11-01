@@ -162,6 +162,17 @@ _STORY_CARD_READS = {
 }
 
 
+# engine/m4/term_glosses.py find_glosses_used: the term card's senses, read
+# off the record and shown on its click page.
+_TERM_CARD_READS = {
+    "term": ["senses.translational", "senses.heard_today", "senses.meant_here", "plain_meaning", "quick_meaning", "world_word"],
+}
+
+
+def test_term_card_reads_are_all_declared():
+    _assert_all_declared("term_glosses.find_glosses_used", _TERM_CARD_READS)
+
+
 def test_build_prompt_reads_are_all_declared():
     _assert_all_declared("builders.build_prompt/shape.build_shape", _BUILD_PROMPT_READS)
 

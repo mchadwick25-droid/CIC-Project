@@ -20,3 +20,18 @@ export const QUOTE_LAYER_RENDERING = "In today's English";
 export const QUOTE_LAYER_EDITION = 'In the edition';
 export const QUOTE_LAYER_ORIGINAL = 'In the original';
 
+
+// The labelled layers of a term card's click page.
+export const TERM_LAYER_PLAIN = 'In plain English';
+export const TERM_LAYER_WORLD = 'In this world';
+export const TERM_LAYER_TODAY = 'How we hear it today';
+export const TERM_LAYER_FRIENDS = 'Not to be confused with';
+export const TERM_LAYER_RESTS_ON = 'What it rests on';
+export const TERM_UNAVAILABLE = 'unavailable';
+
+// The risk flag in plain words, by distortion_risk.
+export const TERM_RISK_PHRASES: Record<string, string> = {
+  low: 'Low risk of being misheard today.',
+  medium: 'Often misheard today.',
+  high: 'Very easily misheard today.',
+};
