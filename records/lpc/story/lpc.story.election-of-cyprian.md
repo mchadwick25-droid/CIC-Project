@@ -76,7 +76,7 @@ narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is 
   recognise -- the election-by-acclamation pattern is attested independently of the one biography that
   celebrates it. Carried rather than resolved: the specific claim that Cyprian was a neophyte rests on
   Pontius alone.'
-tellable_as: How we came to treat a recent convert's own election, over his reluctance, as God's own judgment
+tellable_as: How we came to see a new convert's election, against his own reluctance, as God's own judgment
   made visible
 text: 'Our own deacon Pontius, writing in praise of his bishop after Cyprian had been executed, passed over most of what he
   could have said about Cyprian''s early years and settled on one fact as enough. That one fact, he wrote,
