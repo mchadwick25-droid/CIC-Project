@@ -30,8 +30,10 @@ confidence:
     item 7), and this story does not rest on it.
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
-  locus: SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28161-28303; Latin in
-    cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41243-41366
+  locus: 'SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28161-28303; the year
+    of the martyrdom, 258, is in the ANF editor''s notice to Cyprian: ''until his martyrdom (a.d. 258)'',
+    same file, lines 27520-27526; Latin in cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt,
+    lines 41243-41366'
   license: public-domain
 - source_id: lpc.source.acta-proconsularia-sancti-cypriani
   locus: Acta 2-6, an early compilation with an unnamed compiler, in one edition (Hartel) printed three
