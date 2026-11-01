@@ -73,8 +73,8 @@ distortion_risk: high
 false_friend:
 - the same document as the Decian sacrifice-certificate, rather than the opposite one -- a request to
   be readmitted, not a record of prior compliance
-- a devotional or ceremonial gesture rather than an administratively real, regulated instrument issued
-  in the thousands
+- a devotional or ceremonial gesture rather than an administratively real, regulated instrument issued,
+  on Cyprian's account, in thousands
 senses:
   informational: 'The claim is not made in the abstract; it is made on paper, and the paper arrives. A
     confessor who stood before the magistrate writes a letter for a lapsed person, asking for peace or
@@ -99,8 +99,15 @@ senses:
     is the same document, or a version of it, and will tend to hear ''letter of peace'' as a devotional
     gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves
     compliance with the empire and made a person lapsed; this certificate asks peace for that person,
-    or says it is granted. It is administratively real -- issued in thousands, argued over by name, and
-    regulated in writing.'
+    or says it is granted. It is administratively real -- issued, on Cyprian''s account, in thousands,
+    argued over by name, and regulated in writing.'
+  heard_today: A modern listener who has just heard about the sacrifice-certificate will assume this
+    is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional
+    gesture.
+  meant_here: 'We mean the opposite of the sacrifice-certificate, travelling the opposite way: the sacrifice-certificate
+    proves compliance with the empire and made a person lapsed; this certificate asks peace for that
+    person, or says it is granted. It is administratively real -- issued, on Cyprian''s account, in
+    thousands, argued over by name, and regulated in writing.'
 quick_meaning: For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or
   grants it. Who decides is what we argued over.
 ---

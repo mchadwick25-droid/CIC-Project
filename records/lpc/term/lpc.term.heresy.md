@@ -107,6 +107,13 @@ senses:
     a specific act performed outside one communion is valid. Our two most respected figures answer it
     in opposite directions, and the later one argues against the earlier one's ruling while treating him
     as unquestionably inside the church.
+  heard_today: A modern listener is likely to hear 'heresy' as settled, malicious deviation from an
+    agreed orthodoxy -- a charge levelled by an institution confident of its own correctness, with a
+    foregone conclusion.
+  meant_here: We mean a genuinely open question, argued at book length by both sides, about whether
+    a specific act performed outside one communion is valid. Our two most respected figures answer it
+    in opposite directions, and the later one argues against the earlier one's ruling while treating
+    him as unquestionably inside the church.
 quick_meaning: For us, the sharpest question this word raises is whether a baptism given outside our one
   church counts at all.
 ---

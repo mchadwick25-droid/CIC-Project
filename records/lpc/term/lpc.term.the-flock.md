@@ -118,6 +118,13 @@ senses:
     and its failure is reckoned to the one who holds it. Our people are not passive: they elect, they
     demand, and they can force a bishop''s hand. And the bishop is not remote -- he is the man who preached
     to you himself and knows which of you did not come.'
+  heard_today: A modern listener often hears 'flock' as soft and a little patronizing -- pious language
+    for churchgoers, gentle on the pastor's side, passive on theirs, and 'bishop' as a regional administrator
+    several removes from ordinary life.
+  meant_here: 'The flock is a charge that can be lost, and its failure is reckoned to the one who holds
+    it. Our people are not passive: they elect, they demand, and they can force a bishop''s hand. And
+    the bishop is not remote -- he is the man who preached to you himself and knows which of you did
+    not come.'
 quick_meaning: For us, the flock is not the church in general. It is the particular people one bishop
   is given, in one place. He answers for them, and they can press him face to face.
 ---

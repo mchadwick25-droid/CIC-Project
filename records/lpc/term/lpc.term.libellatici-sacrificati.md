@@ -70,6 +70,10 @@ senses:
   translational: 'A modern listener may assume a formal canonical taxonomy, fixed by the church itself
     and applied uniformly. We mean a real practical distinction in how gravely a failure was reckoned,
     inside a process whose outcome was the same in the end: a road back that all of us could walk.'
+  heard_today: A modern listener may assume a formal canonical taxonomy, fixed by the church itself
+    and applied uniformly.
+  meant_here: 'We mean a real practical distinction in how gravely a failure was reckoned, inside a
+    process whose outcome was the same in the end: a road back that all of us could walk.'
 quick_meaning: This is our two-way split of the lapsed. One group bought their way out of the sacrifice.
   The other group sacrificed.
 ---

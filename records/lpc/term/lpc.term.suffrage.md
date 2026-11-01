@@ -80,6 +80,11 @@ senses:
     a ballot, and a procedure. We mean neither. A corporate acclamation that carries real constitutive
     force, in a community where the man acclaimed is expected to resist and where an organized faction
     can oppose without stopping it.
+  heard_today: A modern listener will hear 'suffrage' as the right to vote, and expect a franchise,
+    a ballot, and a procedure.
+  meant_here: We mean a corporate acclamation that carries real constitutive force, in a community where
+    the man acclaimed is expected to resist and where an organized faction can oppose without stopping
+    it.
 quick_meaning: For us, suffrage is the voice of the people that puts a man into office. It can go against
   his own wishes.
 ---

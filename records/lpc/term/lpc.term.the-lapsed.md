@@ -101,6 +101,11 @@ senses:
     entirely: a documented act under state compulsion, on a specific occasion, with a certificate as evidence,
     carrying a public consequence for standing in the community. The lapsed did not drift off. They stayed,
     and asked to be readmitted, and we had to decide in public what to do with them.'
+  heard_today: A modern listener often hears a category of lapsed or lapsed-Catholic believers -- people
+    who drifted away, stopped attending, lost interest. Gentle, gradual, private.
+  meant_here: We mean a documented act under state compulsion, on a specific occasion, with a certificate
+    as evidence, carrying a public consequence for standing in the community. The lapsed did not drift
+    off. They stayed, and asked to be readmitted, and we had to decide in public what to do with them.
 quick_meaning: For us, the lapsed are our own people. Under threat, they gave in to the order to sacrifice,
   and now they want to come back.
 ---

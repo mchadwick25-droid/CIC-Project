@@ -114,6 +114,12 @@ senses:
     of communion. We mean a formal, structural status of standing within the body, with public consequences,
     that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among
     us; what would break communion is not arguing but separating.
+  heard_today: A modern listener is likely to hear either a specific liturgical rite -- going up to
+    receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure
+    of communion.
+  meant_here: We mean a formal, structural status of standing within the body, with public consequences,
+    that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among
+    us; what would break communion is not arguing but separating.
 quick_meaning: For us, communion is a real standing inside the one body. You can lose it, and be given
   it back. Cyprian held that it should survive sharp disagreement.
 ---

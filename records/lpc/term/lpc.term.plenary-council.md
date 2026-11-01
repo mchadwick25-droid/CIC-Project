@@ -83,6 +83,12 @@ senses:
     that authority revisable. We mean a layered, self-correcting account: wider bodies outrank narrower
     ones, and the widest are corrected by later ones as understanding develops, both asserted together
     by one man using both halves at once.'
+  heard_today: A modern listener is likely to hear a straightforward claim of centralized institutional
+    authority -- Rome or a general council laying down the law -- and miss that Augustine's own sentence
+    makes that authority revisable.
+  meant_here: 'We mean a layered, self-correcting account: wider bodies outrank narrower ones, and the
+    widest are corrected by later ones as understanding develops, both asserted together by one man
+    using both halves at once.'
 quick_meaning: 'For us, this is the other rule: small councils yield to bigger ones. Even the biggest
   council can later be corrected.'
 ---

@@ -90,6 +90,12 @@ senses:
     opposite direction entirely: not one who hears confession, but one who made confession, under interrogation,
     at real risk, and survived. The word names what was done to us and what we did not say, and it carries
     a claim on the church''s own decisions rather than an office within its ministry.'
+  heard_today: A modern listener will almost certainly hear 'confessor' as a priest who hears confessions
+    -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure.
+  meant_here: 'We mean the opposite direction entirely: not one who hears confession, but one who made
+    confession, under interrogation, at real risk, and survived. The word names what was done to us
+    and what we did not say, and it carries a claim on the church''s own decisions rather than an office
+    within its ministry.'
 quick_meaning: For us, a confessor is someone who was asked to deny the faith, did not, and lived. In
   Cyprian's time, that standing could rival a bishop.
 ---
