@@ -62,26 +62,26 @@ tellable_as: How we sent a hundred thousand sesterces to ransom our captive bret
 text: 'Word reached us that our brethren and sisters had been carried off, captive among barbarians. Cyprian''s reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one -- opens in grief: he read their letter, he says, in great grief and not without tears.
 
 
-  Not love only, he wrote, but also religion should move us to redeem them. Quoting Paul, that all who have been baptized into Christ have put on Christ, he drew the conclusion directly: Christ is to be seen in our captive brethren, and the one who redeemed us from death is now to be redeemed from captivity.
+  Not love only, he wrote, but also religion should move us to redeem them. Quoting Paul, that all who have been baptized into Christ have put on Christ, he drew the conclusion directly: Christ is to be seen in our captive brethren, and the one who redeemed us from death is now to be redeemed from captivity. He let this happen, Cyprian wrote, to test our faith: would each of us do for another what he would want done for himself?
 
 
   He thanked them for being asked -- for offering us, as he put it, fruitful fields in which we might cast the seeds of our hope. Then he said what the money was. He sent one hundred thousand sesterces, collected in our church from the gifts of our clergy and people, for the bishops to hand out there as carefully as they could.'
-telling: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it. In his reply he named each of them: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
+telling: 'Word came to us that our brothers and sisters had been carried off. Barbarians held them captive. Eight bishops wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
 
 
-  He read their letter with deep grief, and "not without tears."
+  Cyprian read their letter with tears and deep grief. We are one body, so their captivity was our captivity.
 
 
-  He answered that "not love only, but also religion" ought to move us to redeem them. Paul wrote: "As many of you as have been baptized into Christ have put on Christ." Cyprian drew the conclusion: "Christ is to be contemplated in our captive brethren." Christ once redeemed us from death. Now he himself was to be redeemed from captivity.
+  He wrote back that not love only, but our religion too, should move us to redeem them. Paul says that all who are baptized into Christ have put on Christ. From that came the heart of the letter: "Christ is to be contemplated in our captive brethren." Christ once redeemed us from death. Now he himself was to be redeemed from captivity.
 
 
-  This was a test of our faith. Would each of us do for another what he would want done for himself, if he were held captive among barbarians?
+  Christ let this happen to test our faith. Would each of us do for another what he would want done for himself?
 
 
-  Our clergy and people gave quickly and freely. Cyprian thanked the bishops for offering us "fruitful fields in which we might cast the seeds of our hope."
+  Our clergy and people gave quickly and freely. Cyprian thanked the bishops for letting us share their worry. They had given us good ground to sow the seeds of our hope.
 
 
-  He told them: "We have then sent you a sum of one hundred thousand sesterces." The bishops were to hand it out there as carefully as they could.'
+  We sent them one hundred thousand sesterces and asked them to hand it out as carefully as they could.'
 absent_detail: We do not know whether the ransom worked. Cyprian never wrote again about the outcome,
   and the eight bishops' own reply, if there was one, does not survive. The story ends with the money
   leaving Carthage.
@@ -92,73 +92,73 @@ modern_contrast: A modern listener may reach at once for a currency conversion -
 heart: Cyprian told eight bishops that Christ is to be seen in our captive brothers, and our church sent one hundred thousand sesterces to ransom them. Not love only, he wrote, but also religion should move us to redeem them.
 events:
 - line: Our brothers and sisters were carried off and held captive among barbarians.
-  rests_on: had been carried off and were held captive among barbarians
+  rests_on: had been carried off, captive among barbarians
   essential: true
 - line: Eight bishops wrote to Cyprian about it.
-  rests_on: Eight bishops wrote to Cyprian about it.
+  rests_on: the eight bishops who told us
   essential: true
 - line: He read their letter with grief and tears.
   rests_on: not without tears
   essential: false
 - line: Quoting Paul, he said that Christ is to be seen in our captive brothers.
-  rests_on: Christ is to be contemplated in our captive brethren
+  rests_on: Christ is to be seen in our captive brethren
   essential: true
 - line: 'He set us a test: would each do for another what he would want done for himself?'
-  rests_on: each of us do for another what he would want done for himself
+  rests_on: would each of us do for another what he would want done for himself
   essential: false
 - line: He thanked the bishops for offering us fruitful fields in which to sow the seeds of our hope.
   rests_on: fruitful fields in which we might cast the seeds of our hope
   essential: false
 - line: We sent one hundred thousand sesterces, from the gifts of our clergy and people.
-  rests_on: We have then sent you a sum of one hundred thousand sesterces
+  rests_on: He sent one hundred thousand sesterces
   essential: true
-telling_short: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it.
+telling_short: 'Word came that barbarians had carried off our brothers and sisters. Eight bishops wrote to Cyprian about it, and he read their letter with tears.
 
 
-  He answered that "not love only, but also religion" ought to move us to redeem them. Paul wrote: "As many of you as have been baptized into Christ have put on Christ." Cyprian drew the conclusion: "Christ is to be contemplated in our captive brethren."
+  Not love only, he answered, but our religion too should move us to redeem them. Paul says all who are baptized into Christ have put on Christ. So "Christ is to be contemplated in our captive brethren." The one who redeemed us from death was now to be redeemed himself.
 
 
-  Our clergy and people gave quickly and freely. "We have then sent you a sum of one hundred thousand sesterces," he told the bishops.'
-telling_medium: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
+  Our clergy and people gave quickly and freely. We sent the bishops one hundred thousand sesterces and asked them to hand it out as carefully as they could.'
+telling_medium: 'Word came to us that our brothers and sisters had been carried off. Barbarians held them captive. Eight bishops wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
 
 
-  He read their letter with deep grief, and "not without tears."
+  Cyprian read their letter with tears and deep grief. We are one body, so their captivity was our captivity.
 
 
-  He answered that "not love only, but also religion" ought to move us to redeem them. Paul wrote: "As many of you as have been baptized into Christ have put on Christ." Cyprian drew the conclusion: "Christ is to be contemplated in our captive brethren."
+  He wrote back that not love only, but our religion too, should move us to redeem them. Paul says that all who are baptized into Christ have put on Christ. So "Christ is to be contemplated in our captive brethren." The one who redeemed us from death was now to be redeemed from captivity.
 
 
-  This was a test of our faith. Would each of us do for another what he would want done for himself, if he were held captive among barbarians?
+  Christ let this happen to test our faith. Would each of us do for another what he would want done for himself?
 
 
-  Our clergy and people gave quickly and freely. Cyprian thanked the bishops for offering us "fruitful fields in which we might cast the seeds of our hope." He told them: "We have then sent you a sum of one hundred thousand sesterces."'
-telling_long: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it. In his reply he named each of them: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
+  Our clergy and people gave quickly and freely. Cyprian thanked the bishops for giving us good ground to sow the seeds of our hope. We sent them one hundred thousand sesterces and asked them to hand it out as carefully as they could.'
+telling_long: 'Word came to us that our brothers and sisters had been carried off. Barbarians held them captive. Eight bishops wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
 
 
-  He read their letter with deep grief, and "not without tears." Who would not grieve at such a loss? Paul wrote that when one member suffers, all the members suffer with it. Their captivity was our captivity, Cyprian told them, for we are one body.
+  Cyprian read their letter with tears and deep grief. Who would not grieve at a loss like that? Paul says that when one member suffers, all the members suffer with it. We are one body. So their captivity was our captivity, and their grief was ours.
 
 
-  He wrote that "not love only, but also religion" ought to move us to redeem them. Paul calls believers the temple of God, where the Spirit of God lives. Even if our love were weak, the captives were still temples of God. We ought not to leave them captive through long neglect. We had to act quickly.
+  He wrote back that not love only, but our religion too, should move us to redeem them. Paul calls believers the temple of God. The Spirit of God lives in them. Even if our love grew weak, the captives were still temples of God. We could not leave them there through long neglect. We had to act quickly.
 
 
-  Paul also wrote: "As many of you as have been baptized into Christ have put on Christ." From this Cyprian drew his conclusion: "Christ is to be contemplated in our captive brethren." Christ once redeemed us from death by his cross and blood. Now he himself was to be redeemed from the hands of barbarians, with money.
+  Paul also says that all who are baptized into Christ have put on Christ. From that came the heart of the letter: "Christ is to be contemplated in our captive brethren." Christ once redeemed us from death by his cross and blood. Now money was to buy him back from the hands of barbarians.
 
 
-  Christ allowed this to happen to test our faith. Would each of us do for another what he would want done for himself, if he were held captive among barbarians? Every father should think of his own sons there. Every husband should think of his wife held there.
+  Christ let this happen to test our faith. Would each of us do for another what he would want done for himself? A father could picture his own sons there. A husband could picture his own wife held there.
 
 
-  All of us grieved for the virgins held there. They had lost their freedom, and their modesty was in danger.
+  Women vowed to Christ were held there too, and all of us grieved for them. They had lost their freedom. Now their modesty was in danger as well.
 
 
-  Our people weighed the bishops'' letter with sorrow. Then everyone gave, quickly, willingly and generously. They were always ready for the work of God, but this suffering stirred them even more.
+  By then our clergy and people had read the bishops'' letter and weighed it with sorrow. Everyone gave promptly, willingly and generously. They were always ready for the work of God. This suffering stirred them even more.
 
 
-  Cyprian reminded the bishops of the words of the Lord in the Gospel: I was sick, and you visited me. How much greater the reward will be when he says: I was captive, and you redeemed me.
+  The Lord says in the Gospel: I was sick, and you visited me. How much greater the reward when he says: I was captive, and you redeemed me.
 
 
-  He thanked them for letting us share their concern. They had offered us "fruitful fields in which we might cast the seeds of our hope." He looked for a rich harvest from this heavenly and saving work.
+  Cyprian thanked the bishops for letting us share their worry. They had given us good ground to sow the seeds of our hope. He looked for a rich harvest from this saving work.
 
 
-  He told them: "We have then sent you a sum of one hundred thousand sesterces." Our clergy and people had given it. The bishops were to hand it out there as carefully as they could.'
+  We sent them one hundred thousand sesterces and asked them to hand it out as carefully as they could.'
 ---
 Recast into first-person register from Cyprian's own Epistle LIX. "Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.
