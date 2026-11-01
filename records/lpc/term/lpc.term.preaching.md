@@ -64,7 +64,7 @@ world_word: preaching
 distortion_risk: medium
 false_friend:
 - a stern moralizing monologue, or a polished performance piece, assumed to be one component of a service
-  among several rather than the central formative act
+  among several
 senses:
   informational: 'You are in the room, baptized or still learning, and again and again the same voice
     works on you. It is not a lecture and not entertainment; it is the man answerable for you saying what
@@ -79,9 +79,10 @@ senses:
     role is as the medium the other gravities are taught through, not an independently organizing force,
     which is why this term now sits at Tier 2.
   translational: A modern listener may hear either a stern moralizing monologue or a polished performance
-    piece, and assume it is one component of a service among several. For us it was the central formative
-    act of ordinary life, delivered by the person personally answerable for the hearers, occasional and
-    responsive rather than scripted, and openly aware of what it competed with for people's own attention.
+    piece, and assume it is one component of a service among several. For us preaching was the bishop's
+    regular talk to the whole gathered church, baptized and still learning alike. It came from the person
+    personally answerable for the hearers. It was tied to the occasion and responsive rather than scripted,
+    and openly aware of what it competed with for people's own attention.
   heard_today: A modern listener may hear either a stern moralizing monologue or a polished performance
     piece, and assume it is one component of a service among several.
   meant_here: For us preaching was the bishop's regular talk to the whole gathered church, baptized
