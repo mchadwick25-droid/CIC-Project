@@ -29,7 +29,7 @@ use_note:
   not_for:
     - "a claim that it is a ranked hierarchy or a federation of independent officers"
     - "a claim that De Unitate carries Cyprian's argument against Stephen"
-    - "a claim that either recension of De Unitate chapters 4 and 5 grounds the term"
+    - "a claim that the term rests on the disputed two-recension wording of De Unitate chapters 4 and 5; only the one sentence of chapter 5 below is used"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:
@@ -44,8 +44,11 @@ confidence:
     4-5, on which nothing in this entry depends.
 sources:
 - source_id: lpc.source.cyprian-de-unitate
-  locus: De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate
-    is one, each part of which is held by each one for the whole'
+  locus: De Unitate 5, the one sentence 'The episcopate is one, each part of which is held by each one for the whole'
+    (episcopatus unus est, cuius a singulis in solidum pars tenetur), Cyprian's own ecclesiology of the
+    single, undivided episcopate -- verified directly against cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt,
+    lines 339-340, and cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42290-42291; the disputed
+    two-recension wording of chapters 4-5 is not used
   license: public-domain
 retrieval:
   tier: 2
