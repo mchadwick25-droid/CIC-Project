@@ -774,3 +774,11 @@ Mark, 2026-11-01, relayed by the coordination thread: "b, but we need the modern
 - The layer is fed from the term record's modern-reading field (`senses.translational`) and false friends (`false_friend`). Where a term has no usable modern-reading field the layer shows as unavailable and nothing is invented.
 - The same contrast is applied to the quote card only where the record already holds it. No new quote field is added now.
 
+## 57. Context from any other cited source may fill out a story (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his sentence verbatim: "thats ok, we said if other sources in the record give context we can use it to fill out the story".
+
+- This applies entry 43 to tellings: a detail in a telling is allowed when another source the record cites supports it. The telling gives that detail as that source's, not as the main source's.
+- The `telling_long` gate checks names and numbers against the record and the cited passages of every source the record cites, not the first only. A test now holds this on `lpc.story.the-death-of-cyprian` (Pontius and the Acta).
+- A cited source that names no vendored line span adds nothing to the check, so a name that only such a source holds is still flagged. That is the safe side; the gap is OG-144.
+
