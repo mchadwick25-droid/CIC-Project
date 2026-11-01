@@ -78,3 +78,8 @@ def test_every_lpc_rendering_is_listed_in_the_real_log():
 
 def test_the_gate_is_registered():
     assert gates.GATES["rendering-review"] is gate_rendering_review
+
+
+def test_a_review_that_lists_only_a_longer_id_does_not_count(folder):
+    (folder / "Review_One.md").write_text("Model Opus 5.5. alpha-two: PASS. beta: PASS.")
+    assert [f for f in _run() if f.startswith("w.quote.alpha")]

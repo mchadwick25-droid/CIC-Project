@@ -11,7 +11,7 @@ cited at two spans (an English edition and a Latin one) passes when its text
 is in any one of them.
 
 A quote whose locus names no machine-readable span is out of this gate's
-reach; `unchecked_quotes` counts them so the gap stays visible.
+reach and passes unchecked; `unchecked_quotes` lists them.
 """
 from functools import lru_cache
 from pathlib import Path
@@ -70,6 +70,7 @@ def gate_quote_locus(records, fleet, registry) -> list[str]:
             findings.append(
                 f"{rid}: text does not occur at its cited locus {ref['file']}, lines {ref['lines']} - "
                 f"failed segment {result.failed_segment!r}; nearest span text: {result.nearest_context!r}"
+                + (f"; spans that did not resolve: {', '.join(unresolved)}" if unresolved else "")
             )
         else:
             findings.append(f"{rid}: every cited span fails to resolve to lines of a vendored text: {', '.join(unresolved)}")

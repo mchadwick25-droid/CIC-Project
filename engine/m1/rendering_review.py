@@ -8,7 +8,8 @@ rendering review log there (`Rendering_Review_Log*.md`) is a table with one row 
 
 The record cell is the record id with or without its `<world>.<type>.` prefix.
 A record passes when a log row names it and at least one review file that row
-names exists in that folder, mentions Opus, and itself mentions the record. A
+names exists in that folder, mentions Opus, and itself mentions the record. The
+gate asks that a named review exists; it does not read the verdict. A
 fixture world is skipped: its quotes are test material, not voiced renderings.
 """
 import re
@@ -51,6 +52,11 @@ def _short(rid: str) -> str:
     return rid.split(".", 2)[-1]
 
 
+def _lists(rid: str, text: str) -> bool:
+    """The review text names the record id, full or short, not as the start of a longer id."""
+    return any(re.search(rf"(?<![\w.-]){re.escape(name)}(?![\w-])", text) for name in (rid, _short(rid)))
+
+
 def gate_rendering_review(records, fleet, registry) -> list[str]:
     rendered = {rid: r for rid, r in records.items() if isinstance(r.get("modern_rendering"), str) and r["modern_rendering"].strip()}
     if not rendered:
@@ -72,6 +78,6 @@ def gate_rendering_review(records, fleet, registry) -> list[str]:
         if not existing:
             findings.append(f"{rid}: its log row names review files that do not exist: {', '.join(p.name for p in named)}")
             continue
-        if not any("Opus" in _text(str(p)) and (rid in _text(str(p)) or _short(rid) in _text(str(p))) for p in existing):
+        if not any("Opus" in _text(str(p)) and _lists(rid, _text(str(p))) for p in existing):
             findings.append(f"{rid}: none of its named review files mentions Opus and this record: {', '.join(p.name for p in existing)}")
     return findings
