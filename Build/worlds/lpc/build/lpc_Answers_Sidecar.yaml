@@ -180,10 +180,6 @@ subquestions:
     label: Free will, predestination, election, Romans 9
     records:
     - lpc.term.grace
-    - lpc.quote.boast-in-nothing-since-nothing-is-our-own
-    - lpc.quote.no-one-has-the-love-of-god-from-himself
-    - lpc.quote.two-hear-one-scorns-one-rises
-    - lpc.quote.what-is-done-by-you-he-does-in-you
     - lpc.gravity.grace-and-human-incapacity
     - lpc.contested.grace-pelagius-characterization
   C4.S4:
@@ -203,9 +199,7 @@ subquestions:
   C4.S6:
     cluster: C4
     label: Those who never heard; good without God
-    records:
-    - lpc.witness.no-salvation-outside-the-church
-    - lpc.quote.no-salvation-out-of-the-church
+    records: []
   C4.S7:
     cluster: C4
     label: Indulgences, almsgiving, paying for sin
@@ -236,8 +230,7 @@ subquestions:
   C5.S3:
     cluster: C5
     label: Reliability, errors, authorship, 'science disproves it'
-    records:
-    - lpc.witness.days-before-the-sun
+    records: []
   C5.S4:
     cluster: C5
     label: Genesis and creation, the six days
@@ -292,9 +285,6 @@ subquestions:
     label: The pope and Rome; Peter and 'on this rock'
     records:
     - lpc.witness.apostolic-succession-of-bishops
-    - lpc.term.bishop-of-bishops
-    - lpc.term.the-one-episcopate
-    - lpc.quote.bishop-of-bishops
     - lpc.quote.one-good-shepherd-not-many
     - lpc.contested.de-unitate-recensions
   C6.S3:
@@ -369,6 +359,7 @@ subquestions:
     - lpc.witness.baptism-as-new-birth
     - lpc.witness.baptism-traced-to-the-apostles
     - lpc.witness.infants-and-the-sin-of-another
+    - lpc.witness.the-dying-and-the-pastors-post
     - lpc.term.catechesis
     - lpc.term.heresy
     - lpc.quote.consider-who-was-there
@@ -412,15 +403,13 @@ subquestions:
     records:
     - lpc.witness.confessor-claim-vs-regulated-peace
     - lpc.witness.peace-for-the-dying-penitent
+    - lpc.witness.the-dying-and-the-pastors-post
     - lpc.term.certificates-letters-of-peace
     - lpc.term.reconciliation-penitential-discipline
     - lpc.story.celerinus-writes-to-lucian
     - lpc.story.the-psalms-on-the-wall
     - lpc.quote.before-even-a-deacon
-    - lpc.quote.bind-him-justly
-    - lpc.quote.david-himself-hath-been-sent-to-thee
     - lpc.quote.penitents-in-peril-of-sickness-should-be-assisted
-    - lpc.quote.peter-the-sick-man-and-the-physician
     - lpc.quote.such-a-one-with-his-friends
     - lpc.quote.the-case-set-before-the-bishop
     - lpc.quote.the-psalms-hung-upon-the-wall
@@ -434,9 +423,7 @@ subquestions:
     cluster: C7
     label: Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor
     records:
-    - lpc.witness.marriage-a-threefold-good
     - lpc.witness.remembered-at-the-altar
-    - lpc.witness.the-dying-and-the-pastors-post
     - lpc.quote.remember-me-at-the-lords-altar
   C7.S8:
     cluster: C7
@@ -464,7 +451,6 @@ subquestions:
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
     records:
     - lpc.witness.marriage-a-threefold-good
-    - lpc.quote.the-wretched-woman-and-mercy
   C8.S5:
     cluster: C8
     label: Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism
@@ -614,9 +600,7 @@ subquestions:
   C11.S5:
     cluster: C11
     label: Can a good pagan or person of another religion be saved; one way; does God accept all worship
-    records:
-    - lpc.witness.no-salvation-outside-the-church
-    - lpc.quote.no-salvation-out-of-the-church
+    records: []
   C11.S6:
     cluster: C11
     label: Would you have converted me, and is trying wrong
@@ -629,8 +613,6 @@ subquestions:
     label: 'Rivals: gnostics, Manichees, Marcion'
     records:
     - lpc.witness.violence-commanded-not-cruel
-    - lpc.term.heresy
-    - lpc.term.schism
     - lpc.force.manichaeism-and-pelagian-anthropology
   C11.S8:
     cluster: C11
@@ -653,7 +635,6 @@ subquestions:
     cluster: C12
     label: Sickness, plague, lifespan, child death
     records:
-    - lpc.witness.the-dying-and-the-pastors-post
     - lpc.story.the-plague-and-the-enemies
     - lpc.quote.a-dreadful-plague-broke-out
     - lpc.quote.good-done-to-all-not-only-the-household
@@ -737,6 +718,7 @@ subquestions:
     - lpc.witness.restless-heart-and-the-unrepentant-enemy
     - lpc.quote.all-sins-against-us-are-to-be-forgiven
     - lpc.quote.apart-in-heart-united-in-body
+    - lpc.quote.bind-him-justly
     - lpc.quote.going-out-without-violating-unity
     - lpc.quote.judge-not-nor-despair-of-a-return
     - lpc.quote.pardon-through-a-wicked-clergyman
@@ -748,7 +730,6 @@ subquestions:
     cluster: C14
     label: Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing
     records:
-    - lpc.quote.bind-him-justly
     - lpc.quote.the-flight-of-the-mind-is-fear
     - lpc.quote.ye-belong-to-my-care
   C14.S7:
@@ -841,10 +822,8 @@ subquestions:
     cluster: C16
     label: Named figures in their own words; one line to quote; the famous names missing from the table
     records:
-    - lpc.quote.a-dreadful-plague-broke-out
     - lpc.quote.a-hundred-thousand-sesterces
     - lpc.quote.a-respite-from-their-torments
-    - lpc.quote.a-standard-bearer-of-the-sect
     - lpc.quote.all-sins-against-us-are-to-be-forgiven
     - lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life
     - lpc.quote.an-ever-burning-gehenna
@@ -856,24 +835,18 @@ subquestions:
     - lpc.quote.bind-him-justly
     - lpc.quote.bishop-of-bishops
     - lpc.quote.boast-in-nothing-since-nothing-is-our-own
-    - lpc.quote.chosen-while-still-a-neophyte
     - lpc.quote.christ-redeemed-in-our-captive-brethren
-    - lpc.quote.clamour-and-tears
     - lpc.quote.consider-who-was-there
     - lpc.quote.dash-the-little-ones-against-the-rock
     - lpc.quote.david-himself-hath-been-sent-to-thee
     - lpc.quote.earlier-councils-corrected-by-later
     - lpc.quote.going-out-without-violating-unity
-    - lpc.quote.good-done-to-all-not-only-the-household
     - lpc.quote.good-works-the-comfort-of-our-dangers
     - lpc.quote.grief-and-not-without-tears
     - lpc.quote.grieve-with-me-for-my-sister
-    - lpc.quote.he-slept-with-his-fathers
-    - lpc.quote.it-becomes-us-to-answer-to-our-birth
     - lpc.quote.judge-not-nor-despair-of-a-return
     - lpc.quote.left-doubtful-a-kind-of-purgatorial-fire
     - lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
-    - lpc.quote.let-us-too-be-beheaded-with-him
     - lpc.quote.let-your-creed-be-a-mirror
     - lpc.quote.longing-expectation-is-a-prayer-for-me
     - lpc.quote.love-and-do-what-thou-wilt
@@ -886,20 +859,17 @@ subquestions:
     - lpc.quote.not-to-be-refused-to-any-one-born-of-man
     - lpc.quote.not-to-purchase-impunity
     - lpc.quote.numidicus-remained-unwillingly
-    - lpc.quote.o-blessed-people-of-the-church
     - lpc.quote.one-good-shepherd-not-many
     - lpc.quote.pardon-through-a-wicked-clergyman
     - lpc.quote.penitents-in-peril-of-sickness-should-be-assisted
     - lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth
     - lpc.quote.peter-the-sick-man-and-the-physician
-    - lpc.quote.remember-me-at-the-lords-altar
     - lpc.quote.reprove-and-forgive-the-surgeons-knife
     - lpc.quote.shepherd-wounded-in-the-flock
     - lpc.quote.shut-up-in-two-cells
     - lpc.quote.stewards-and-future-bishops
     - lpc.quote.such-a-one-with-his-friends
     - lpc.quote.thank-offerings-for-the-very-good
-    - lpc.quote.thanks-be-to-god
     - lpc.quote.the-branch-cut-from-the-vine
     - lpc.quote.the-case-set-before-the-bishop
     - lpc.quote.the-creed-first-then-the-prayer
@@ -909,10 +879,7 @@ subquestions:
     - lpc.quote.the-mildest-punishment-of-all
     - lpc.quote.the-old-man-nailed-to-the-cross-speaks
     - lpc.quote.the-paper-itself
-    - lpc.quote.the-people-kept-watch-at-the-door
-    - lpc.quote.the-psalms-hung-upon-the-wall
     - lpc.quote.the-sermon-and-the-readings-are-daily-bread
-    - lpc.quote.the-trees-and-the-trembling-executioner
     - lpc.quote.the-word-is-added-to-the-element
     - lpc.quote.the-wretched-woman-and-mercy
     - lpc.quote.they-first-dwelt-together-in-unity
@@ -921,7 +888,6 @@ subquestions:
     - lpc.quote.thousands-of-certificates-daily
     - lpc.quote.two-hear-one-scorns-one-rises
     - lpc.quote.very-many-make-moan-over-the-eternal-punishment
-    - lpc.quote.walled-in-by-a-mingled-multitude
     - lpc.quote.what-is-done-by-you-he-does-in-you
     - lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them
     - lpc.quote.ye-belong-to-my-care
