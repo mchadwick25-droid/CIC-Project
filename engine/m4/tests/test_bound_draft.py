@@ -106,3 +106,9 @@ def test_the_worlds_fallback_sentence_is_in_the_closed_set_and_stands_unbound():
     assert bd.normalize(bd.FALLBACK) in bd.connective_set([]) and bd.normalize(bd.FALLBACK_ALONE) in bd.connective_set([])
     assert bd.decide(_entry(bd.FALLBACK_ALONE), None, RECORDS, bd.connective_set([]))[0] == "keep"
     assert "no framing sentence" in " ".join(bd.directive_lines([]))
+
+
+def test_the_fallback_is_not_inserted_again_when_the_voice_already_wrote_it():
+    rows = [{"sentence": bd.FALLBACK, "decision": "keep"}, {"sentence": "An unlabelled claim here.", "decision": "withhold_unbound"}, {"sentence": "Short.", "decision": "keep"}]
+    text, fallback = final_text(f"{bd.FALLBACK} An unlabelled claim here. Short.", rows)
+    assert not fallback and text.count(bd.FALLBACK_ALONE) == 1

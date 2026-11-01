@@ -46,7 +46,8 @@ def final_text(text: str, rows: list[dict]) -> tuple[str, bool]:
     for sentence in rest:
         text, _found = splice(text, sentence, None)
     before, _mark, after = text.partition(_MARK)
-    if marked and len((before + " " + after).split()) < bound_draft.FALLBACK_BELOW_WORDS:
+    already = bound_draft.FALLBACK_ALONE in (before + after)
+    if marked and not already and len((before + " " + after).split()) < bound_draft.FALLBACK_BELOW_WORDS:
         return splice(text, _MARK, bound_draft.FALLBACK if (before + after).strip() else bound_draft.FALLBACK_ALONE)[0], True
     return splice(text, _MARK, None)[0], False
 
