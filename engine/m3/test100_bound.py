@@ -3,7 +3,8 @@ Each sentence the net let through is decided from the draft itself
 (engine.m4.bound_draft): kept, or withheld for an inference label, no valid
 binding, or talk of confidence tags. When what is left is under
 FALLBACK_BELOW_WORDS words and something was withheld, the world's fallback
-sentence stands where the first withheld sentence stood.
+sentence stands where the first withheld sentence stood: the long form when a bound or
+placed sentence comes after it for it to introduce, the short form when nothing after it is bound or placed.
 
   python -m engine.m3.test100_bound --set <set.yaml> --work <run dir> --world lpc [--connectives <file.yaml>]
 
@@ -47,7 +48,8 @@ def final_text(text: str, rows: list[dict]) -> tuple[str, bool]:
         text, _found = splice(text, sentence, None)
     before, _mark, after = text.partition(_MARK)
     if marked and len((before + " " + after).split()) < bound_draft.FALLBACK_BELOW_WORDS:
-        return splice(text, _MARK, bound_draft.FALLBACK if (before + after).strip() else bound_draft.FALLBACK_ALONE)[0], True
+        tells = any(r["decision"] == "keep" and (r.get("placed") or r.get("records")) and r["sentence"] in after for r in rows)
+        return splice(text, _MARK, bound_draft.FALLBACK if tells else bound_draft.FALLBACK_ALONE)[0], True
     return splice(text, _MARK, None)[0], False
 
 

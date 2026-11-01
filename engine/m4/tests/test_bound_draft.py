@@ -82,7 +82,7 @@ def test_an_identical_kept_sentence_is_not_removed_with_a_withheld_one():
 
 
 def test_the_fallback_stands_where_the_first_withheld_sentence_stood_when_too_little_is_left():
-    rows = [{"sentence": "Nothing survives.", "decision": "withhold_unbound"}, {"sentence": "Short.", "decision": "keep"}]
+    rows = [{"sentence": "Nothing survives.", "decision": "withhold_unbound"}, {"sentence": "Short.", "decision": "keep", "records": ["w.witness.a"]}]
     text, fallback = final_text("Nothing survives. Short.", rows)
     assert fallback and text == f"{bd.FALLBACK} Short."
     alone, fallback_alone = final_text("Nothing survives.", rows[:1])
@@ -110,3 +110,17 @@ def test_the_fallback_sentence_is_code_inserted_only_so_the_voice_cannot_write_i
 
 def test_the_draft_directive_keeps_the_sources_hedge_and_date():
     assert "Keep the hedge, concession and date of the sentence's own bound records" in bd.directive_lines([])[0]
+
+
+def test_the_short_fallback_stands_when_only_a_question_to_the_visitor_remains():
+    rows = [{"sentence": "Nothing survives.", "decision": "withhold_unbound"}, {"sentence": "Which one do you mean?", "decision": "keep", "records": [], "placed": False}]
+    text, fallback = final_text("Which one do you mean? Nothing survives.", rows)
+    assert fallback and text == f"Which one do you mean? {bd.FALLBACK_ALONE}"
+
+
+def test_the_short_fallback_stands_when_the_bound_sentence_comes_before_it():
+    rows = [{"sentence": "Macrina founded Annisa.", "decision": "keep", "records": ["w.witness.a"], "placed": False},
+            {"sentence": "Which do you mean?", "decision": "keep", "records": [], "placed": False},
+            {"sentence": "Nothing survives.", "decision": "withhold_unbound"}]
+    text, fallback = final_text("Macrina founded Annisa. Which do you mean? Nothing survives.", rows)
+    assert fallback and text == f"Macrina founded Annisa. Which do you mean? {bd.FALLBACK_ALONE}"
