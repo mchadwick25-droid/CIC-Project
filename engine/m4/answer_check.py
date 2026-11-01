@@ -57,7 +57,8 @@ REWRITE_SYSTEM = (
     "Use only what they say; add nothing, and do not use the sentences marked REMOVED. Keep the voice: \"we\", plain words, "
     "sentences under 25 words, the world's own images. Each sentence is read alone against its records, so name the person or thing in every sentence; "
     "never use he, she, it, they, this, that or such to point back to an earlier sentence. Say what each supported sentence's records say, with the same force and limits.\n"
-    "Every sentence ends with the ids of the records it rests on, then [[as:paraphrase]]. No quotation marks. "
+    "Every sentence ends with each record it rests on written in double square brackets, then [[as:paraphrase]], before the full stop, "
+    "for example: We kept the creed first [[lpc.witness.example]] [[lpc.term.example]] [[as:paraphrase]]. No quotation marks. "
     "Where a PLACED passage stands in the kept sentences, write its marker ([[quote:id]] or [[story:id]]) alone in that place; "
     "never write the passage's words. Do not place a passage not listed as kept.\n"
     "Reply with the answer only."
@@ -162,7 +163,7 @@ def rewrite_request(question: str, answer_units: list[dict], result: dict, recor
     lines = []
     for u in answer_units:
         if u in kept:
-            tag = "PLACED " + u["placed_id"] if u.get("placed") and u.get("placed_id") else ("bound to " + ", ".join(u["records"]) if u["records"] else "JOINING")
+            tag = "PLACED " + u["placed_id"] if u.get("placed") and u.get("placed_id") else ("bound to " + " ".join(f"[[{r}]]" for r in u["records"]) if u["records"] else "JOINING")
             lines.append(f"KEPT [{tag}] {u['sentence']}")
         else:
             lines.append(f"REMOVED {u['sentence']}")
