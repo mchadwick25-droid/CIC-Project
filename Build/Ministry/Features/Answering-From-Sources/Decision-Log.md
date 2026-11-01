@@ -717,3 +717,29 @@ Mark's choice, relayed by the coordination thread: "Accept as the shadow proof."
 - Scope: the shadow pipeline on `lpc` only, as run and reported in `Stage4_Report.md` (the proof run on the 106 questions and the round-2 redraft). No other world, and no step of the pipeline is registered on any live frame.
 - What the proof showed: no false or invented sentence in any of the readings; 92 of 106 answers shipped and 14 abstained in the proof run; depth the weaker axis.
 - Nothing in the live path changes with this entry. Two live-path items need their own change order and are logged, not drafted, in `Build/worlds/lpc/Open_Gaps_Tracking.md` (OG-138).
+
+## 50. The quote card keeps its function; its content may be upgraded (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "the function of the card stays, the content can be updated into a strong template."
+
+- The quote card keeps its function: the spoken modern rendering and the source reference, with the three-level transparency (Settled row 12).
+- Its content is no longer frozen at today's content. This narrows entry 16 ("the quote card stays as it is today") and Settled row 11. The narrowing is made by `Stage3_Change_Order_Amendment_Card_Content.md`.
+- Nothing about the card changes until Mark picks a template from the options the engine thread puts in front of him. Today's card and its test stand until then.
+
+## 51. A long telling of each story on the card page (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "on the card i would like the full long story in modern english that we can record (2 - 4 minutes)."
+
+- Each lpc story gets a third, long telling in modern English, faithful to its record and sized to be read aloud in 2 to 4 minutes, shown on the card page with the three-level transparency.
+- No story is invented or extended past its record. Recording, and any paid step, is a later and separate decision.
+- The schema amendment for the new field, and what Library needs to write the seven tellings, are drafted for Mark in an Artifact; neither is written into the repo until Mark approves.
+
+## 52. Quote-card template B chosen (2026-11-01)
+
+Mark picked template B from the options put to him: three labelled layers, with the record's one-line meaning in the hover. Relayed by the coordination thread on 2026-11-01 (the message is the record; Mark's own words were not quoted).
+
+- Hover: speaker, work, locus, the plain confidence phrase, and the record's one-line meaning.
+- Click page: layer 1 "In today's English", the spoken modern rendering; layer 2 "In the edition", the edition's words with their citation; layer 3 "In the original", the locus in the original language where we hold it, with the vendored file and lines.
+- Held as data and not yet available: the translator and the date of the edition. The source records carry the edition's series and volume in their `edition` and `citation` fields and no separate translator or date. Library question, recorded in lpc `Open_Gaps_Tracking.md` (OG-140).
+- The card's tests are rewritten to this template in the same pull request that changes the card. Three-level transparency (Settled row 12) is kept.
+
