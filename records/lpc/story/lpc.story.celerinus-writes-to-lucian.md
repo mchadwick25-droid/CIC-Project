@@ -149,5 +149,42 @@ telling_medium: 'Celerinus was one of our confessors, a man who had been impriso
 
 
   He granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, let the women have peace.'
+telling_long: 'Celerinus was one of our confessors, a man who had been imprisoned and had not denied Christ. He wrote to Lucian, another confessor, who was still in prison.
+
+
+  His letter began with joy and sorrow together. He rejoiced that Lucian had confessed the name of Christ before the magistrates, yet regretted receiving no letter from him.
+
+
+  Then he came to his grief. "Grieve with me over my sister''s death, a death of the spirit," he wrote. "In this time of ruin she has fallen away from Christ. For she has sacrificed and angered our Lord, as seems clear to us."
+
+
+  His sister was still alive in body. Although he was writing in the days of paschal rejoicing, he was spending his days in tears, in sackcloth and ashes. He would weep, he said, until help came through Lucian or through the martyrs Lucian would ask.
+
+
+  He also asked the martyrs'' pardon for two women Lucian knew, Numeria and Candida. He pointed to their repentance and to the good works they had done for our banished colleagues. These women had travelled down to the harbour, accompanied the arriving confessors into the city, and ministered to sixty-five.
+
+
+  Celerinus was not the only one making this petition, since Statius and Severianus and all the confessors who had come from Lucian joined it. He begged Lucian to present the request to his fellow confessors, so that whoever was crowned first might forgive the women''s great sin.
+
+
+  Of Candida he said more: she had given gifts so that she would not have to sacrifice. She seems only to have gone up as far as the Tria Fata, and then come back down. "So I know she has not sacrificed." Still, both letters call what the women did a great sin.
+
+
+  Their case had recently been heard, and those in charge had ordered the women to remain as they were until a bishop was appointed.
+
+
+  Lucian''s answer came back from the prison, where the emperor had ordered the confessors put to death by hunger and thirst. They were shut up in two cells so that hunger and thirst would weaken them. The fire of their torture was more than anyone could bear. "But now we have reached the brightness itself," he wrote.
+
+
+  He explained the authority behind his answer. While still living, the martyr Paulus had instructed him to grant peace in the name of Paulus to anyone who asked after his death.
+
+
+  He granted the request in the name of the martyr Paulus and the other martyrs, with one condition. Each case was to be set before the bishop and the sin openly confessed. Then, he asked, "let not only these women have peace, but also those whom you know to be dear to our heart."
+
+
+  He greeted friends by name and left the rest out, "because I am already tired. So they must forgive me."
+
+
+  So one confessor petitioned another, imprisoned and condemned to hunger and thirst, to win peace for a fallen sister and two other women. Lucian granted it in the martyrs'' name, provided that each case went before the bishop.'
 ---
 Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into first-person register (the letters of Celerinus and Lucian are already first-person; the surrounding narration is recast). 'Put to death by hunger and thirst' is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Two of the claim_guards entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the tension...'; 'not one of these women speaks for herself') into the schema's barred-claim field.

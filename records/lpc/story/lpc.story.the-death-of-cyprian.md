@@ -148,5 +148,45 @@ telling_medium: 'Our great bishop Cyprian was executed on 14 September 258. His 
 
 
   Pontius adds that people climbed into the trees to see, as with Zacchaeus. In his telling, the executioner''s fingers trembled until the hour of glory strengthened his hand from above. So, in the Acta, the blessed Cyprian suffered martyrdom.'
+telling_long: 'Our great bishop Cyprian was executed on 14 September 258, and two early texts tell his death. One is a saint''s life written by his deacon, Pontius. The other is the Acta, an early Christian compilation built around the records of his hearings.
+
+
+  On his last night Cyprian was held in an officer''s house, and Pontius says that he and the other friends were with him, as usual. "Meanwhile the whole people kept watch before the officer''s door," Pontius writes, for they feared something might be done in the night without their knowing.
+
+
+  The Acta tells the night more briefly, saying that the whole people of the brothers came there. When Cyprian learned of this, he had the young women guarded, since everyone had stayed in the street before the officer''s door.
+
+
+  In the morning, Pontius says, Cyprian went out walled in on every side by a mixed crowd. The Acta says that a large crowd gathered at Sextus''s place, as the proconsul Galerius Maximus had ordered.
+
+
+  In Pontius''s account, the proconsul read from a tablet a sentence calling Cyprian a standard-bearer of the sect and an enemy of the gods. It also named him an example to his own people, and said that with his blood discipline would begin to be made firm.
+
+
+  The Acta gives the sentence in nearly the same words, so on the sentence the two texts are not independent witnesses. The Acta also gives Cyprian''s answer to the sentence: "Thanks be to God."
+
+
+  Then, the Acta says, the brothers kept crying, "Let us be beheaded with him too." Pontius says the people all wished that the whole congregation might suffer together and share a like glory. He calls them blessed for suffering with their bishop in words spoken aloud.
+
+
+  The Acta says that in the field of Sextus, Cyprian first took off his cloak. He knelt on the ground and bowed down in prayer to the Lord, then took off his tunic and handed it to the deacons. He stood there in his linen garment and began to wait for the executioner.
+
+
+  When the executioner came, Cyprian told his people to give him twenty-five gold pieces, and the brothers laid linen cloths and hand-cloths before him.
+
+
+  The two texts differ on the cloth over his eyes. Pontius says Cyprian bound his eyes with his own hands and tried to hurry the executioner. In the Acta he covered them with his hand but could not tie the strips, so the presbyter Julianus and the subdeacon Julianus tied them. We set the two accounts side by side and do not choose between them.
+
+
+  Pontius adds that the ground was level, with trees planted thickly all around it. People who could not see had climbed into the branches, so that Cyprian, as with Zacchaeus, was gazed at from the trees.
+
+
+  In Pontius''s telling, the executioner could hardly grip the blade with trembling fingers, until the hour of glory strengthened his hand from above. We tell that part as Pontius''s own reading of the moment.
+
+
+  "So the blessed Cyprian suffered martyrdom," the Acta says. Because the pagans were curious, his body was laid nearby, and by night it was taken up with candles and torches. With prayer and great triumph it was brought to the grounds of the procurator Macrobius Candidianus, on the Mappalian road beside the pools.
+
+
+  Two texts tell it, and while they differ on who tied the cloths, they agree on the core of the story. Our great bishop was executed, and his people kept watch and cried out to die with him.'
 ---
 Derived from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into first-person register. Quotations from Pontius are in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28160-28303, and the English renderings of the Acta are this build's own.

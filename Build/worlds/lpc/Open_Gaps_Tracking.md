@@ -2632,3 +2632,12 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open: document item.** `Build/worlds/lpc/Lexicon-Chunks/lpclex008_preaching.md` (lines 25 and 49) carries the same "central formative act" claim. It is a construction document: for its own review, not edited here. Owner: Library thread.
 - **Open: long sentences carried over unchanged** from `translational` in 16 term records (the longest, in `grace`, run 39 and 47 words). Owner: Library thread.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-143. Long tellings for the seven lpc stories (2026-11-01).
+
+- **Done.** `telling_long` is written for all seven stories, in modern English, from the record and the vendored passage at the cited lines. Words: Celerinus 515, Sesterces 476, Death of Cyprian 597, Plague 510, Psalms 378, Election 319, Numidicus 292. Each was read once by an independent Opus reader against the full record and passage; the readers' corrections were applied as written and not read again. Reviews are in the review thread's scratch notes; the findings were: Sesterces (P1: "never about charity" overstated the source), Psalms (P1: two paragraphs drew on lines outside the cited span, removed), Numidicus (P1: "completion" was credited to Cyprian, now ours), and eleven precision or reading-level fixes.
+- **Done: record fix.** `the-plague-and-the-enemies` cited lines 27920-27980; the sermon's sentence on "a Christian people" and its before-and-after-Christ close sit at 27980-27999. The cited span now runs 27920-28000.
+- **Open: reading level below grade 8.** Election (grade 8.1 by the reviewer's count after merges) passes. Celerinus (7.3), Psalms (6.7), Numidicus (6.0) stay below the floor, because the record's own short quoted sentences set the level and longer sentences would need words the sources do not support. The record's `telling` and `telling_medium` sit at the same level. Left as is, not padded. Owner: Library thread.
+- **Open: Numidicus and Election stay short** (292 and 319 words): only as long as the sources support. No floor applies.
+- **Open: decisions held for Mark.** The 15% length tolerance, and how Numidicus closes.
+- **Owner.** Library thread, through the coordination thread.

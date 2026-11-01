@@ -131,5 +131,36 @@ telling_medium: 'Possidius was Augustine''s friend for nearly forty years, and h
 
 
   About ten days before the end, he asked that only the doctors and those bringing food come in. The request was kept, and he had that time free for prayer.'
+telling_long: 'Possidius, a bishop and Augustine''s friend for nearly forty years, was in the house at the end.
+
+
+  In those days the Vandals were besieging Hippo. In the third month of the siege, Augustine fell ill with a fever, and it was the illness of which he died.
+
+
+  He had lived seventy-six years, almost forty of them as a priest or bishop. In private conversation, Possidius says, Augustine often taught one particular thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+
+
+  Then Possidius describes what Augustine did with his own teaching. "And he did this himself in the last illness of which he died. He ordered the very few penitential Psalms of David to be copied for him."
+
+
+  "As he lay in bed during his sickness, he would look at these sheets hanging on the wall and read them. And he wept freely and constantly."
+
+
+  He did not want his attention interrupted by anyone. So about ten days before the end, he asked those who were present to let no one in to him. The only exceptions were the physicians who came to examine him and the people who brought his food.
+
+
+  The request was observed, and he had all that time free for prayer.
+
+
+  Up to that last illness he had preached in the church without ceasing. Possidius remembers him preaching with energy and power, and with a clear mind and sound judgment.
+
+
+  At the end his body was whole, and his sight and hearing were unimpaired. While Possidius and the others stood by, watching and praying, "he slept with his fathers," in the words of Scripture. Possidius adds a second line of Scripture, saying that he died "well nourished in a good old age."
+
+
+  A service was offered to God in their presence, and afterwards he was buried. He made no will, because as a poor man of God he had nothing to make one from. He had repeatedly ordered that the church''s library and all its books be carefully preserved for future generations.
+
+
+  Augustine had taught that even good Christians ought not leave this life without fitting repentance. In his last illness he did it himself, and Possidius, who was there, saw him weep over the psalms of penance.'
 ---
 Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' is at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.

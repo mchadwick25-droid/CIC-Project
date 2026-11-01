@@ -27,7 +27,7 @@ confidence:
     Tier Justification).
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
-  locus: SSSS9-10; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27920-27980
+  locus: SSSS9-10; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27920-28000
   license: public-domain
 - source_id: lpc.source.cyprian-minor-pastoral-treatises
   locus: De Mortalitate, the corroborating treatise written into the same epidemic
@@ -119,5 +119,42 @@ telling_medium: 'Our deacon Pontius was there. He tells it in his life of our bi
 
 
   Then, Pontius says, good was done to all people, not only to those of the household of faith. Many who were too poor to give money gave their own labour instead. Tobias gathered the bodies of his own race only. More was done here.'
+telling_long: 'Our deacon Pontius was there, and he describes these events in his life of our bishop Cyprian. He wrote that biography in praise of the man who preached, so we hear the sermon as Pontius remembered it.
+
+
+  "Afterwards a dreadful plague broke out," he wrote, and it invaded the houses of the trembling population one after another. Day by day, with sudden attack, it carried off countless people, each from his own house.
+
+
+  Then Pontius turns from the disease to the behaviour of the frightened city. "Everyone shuddered and fled, and shunned the contagion. They wickedly put out their own people." They behaved as if excluding the dying could somehow exclude death itself.
+
+
+  Everywhere in the city, Pontius says, there lay "no longer bodies but the corpses of many." The dead reminded passers-by that the same fate would in turn be theirs. In his telling, nobody considered anything except cruel profit, and nobody treated another person as he hoped to be treated.
+
+
+  Our bishop gathered us together in one place and preached to the assembled people. He began with the benefits of mercy, using examples from divine lessons to demonstrate how much generosity counts before God.
+
+
+  Then he went further, and told us there was nothing remarkable in caring only for our own. Anyone who desired to be perfect had to do more than the tax collector or the pagan. He had to overcome evil with good, imitating the mercy of God.
+
+
+  So, he said, we must love even our enemies, and pray for those who persecute us, as the Lord instructs. God makes His sun rise and sends rain to feed the seed. He shows these kindnesses not only to His own people, but to strangers too.
+
+
+  If a man claims to be a son of God, Cyprian asked, why does he not follow the example of his Father? "It is right for us," Cyprian said, "to live up to our birth." Those clearly born of God should not fall short of it, and the good Father should be recognizable in children who imitate His goodness.
+
+
+  Pontius thinks that if pagans had heard this sermon, they would probably have believed immediately. Then he asks what a Christian people should do, whose very name comes from faith.
+
+
+  The work was shared out according to each person''s character and rank. Many who were too poor to give money contributed their own labour instead, which Pontius considers more precious than all riches.
+
+
+  Then, Pontius says, good was done to all people, not only to those of the household of faith. He reaches for a comparison in Tobias, and finds that it falls short. Tobias gathered the bodies of those the king had killed and abandoned, but only those of his own race.
+
+
+  More was done here, Pontius says, because much could be accomplished before Christ, but something greater could be accomplished after Him.
+
+
+  As Pontius remembers it, when the city put out its own, our bishop taught us to love even our enemies. And good was done to all people, not only to our own.'
 ---
 Derived from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into first-person register. The epidemic description and Cyprian's reported address are in the Life and Passion of Cyprian by Pontius, in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, several thousand lines after the passage lpcstory001 uses.

@@ -134,5 +134,27 @@ telling_medium: 'Our deacon Pontius wrote a work in praise of his bishop, the li
 
 
   Later, rivals who had never accepted him renewed their attack. Cyprian wrote to us that they still carried "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
+telling_long: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said it would take too long to tell everything Cyprian did, and that one fact was proof enough of his good works.
+
+
+  "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner."
+
+
+  Pontius presses the point that Cyprian was still in the first days of his faith, untaught as yet in the life of the spirit. Yet a noble nature shone in him, Pontius says, and he gave every promise that he could be trusted with the coming office.
+
+
+  Cyprian did not reach for the office: when the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy, and in the eyes of Pontius that made him more worthy still.
+
+
+  The people would not let him go. A crowd of the brothers besieged the doors of his house, and an anxious love, Pontius writes, moved along every way that led there. Writing after the death, he says they were seeking not only a bishop, but a future martyr.
+
+
+  Some resisted him, Pontius admits, and Cyprian bore with them gently and forgave them. Later, to the surprise of many, he counted them among his closest friends.
+
+
+  Pontius names God''s judgment and the people''s favour together; for us, the people''s favour was how God''s judgment became visible.
+
+
+  Later, certain presbyters who had never accepted him renewed their attack, and Cyprian answered them in a letter to us. They still carried, he wrote, "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
 ---
 Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (section 5; the word 'neophyte' is at line 27820). The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.

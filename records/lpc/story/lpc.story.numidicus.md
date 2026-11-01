@@ -121,5 +121,27 @@ telling_medium: 'Cyprian wrote to us that he was adding Numidicus to the presbyt
 
 
   "Against his will, he stayed behind the companions he himself had sent ahead." Cyprian saw a reason why he survived. The Lord meant to add Numidicus to our clergy.'
+telling_long: 'Cyprian wrote to us with news that he said belonged to the joy of us all. He was adding Numidicus to the presbyters of Carthage, and he wanted us to know who the man was.
+
+
+  Cyprian said that divine kindness had warned and taught him to make this appointment. Numidicus would sit with us among the clergy, a man made famous by the brightest light of confession.
+
+
+  "By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire." His own wife died with them. "With joy he watched his wife, who stayed at his side, burned with the others," Cyprian wrote, and then corrected himself. "I should rather say she was preserved."
+
+
+  That correction is not a slip, for we did not count a martyr''s death as a loss to be consoled. We named it as a completion, even at the cost of sounding cold.
+
+
+  "He himself was half burned, buried under stones and left for dead." Afterwards his daughter came looking for her father''s body "with the anxious care of love." He was found half dead, pulled out and revived.
+
+
+  Cyprian adds one more clause, and it gives the whole letter its weight. "Against his will, he stayed behind the companions he himself had sent ahead." Numidicus had not wanted to survive.
+
+
+  Cyprian gave the reason he saw for it: the Lord meant to add Numidicus to our clergy. He meant to fill the ranks of our presbyters, thinned when some of them lapsed.
+
+
+  So the man who had urged the martyrs forward was added to our presbyters. His wife had gone on before him, and Cyprian called her preserved, not burned. We named her death a completion, not a loss.'
 ---
 Derived from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (the chunk gives Cyprian's letter in the first person; the surrounding narration changes from 'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' is in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml.
