@@ -57,8 +57,8 @@ modern_lens_note: 'A modern listener may hear ''the priest'' as a parish priest.
 modern_rendering: O blessed people of the Church! In sight and in feeling, and what is more in words spoken
   aloud, they suffered with such a bishop as theirs. As they had always heard him say in his own sermons,
   they were crowned by God the Judge. The common wish was that the whole congregation should suffer at
-  once, sharing a like glory. That could not happen. Yet some, under the watching eyes of Christ and in
-  the hearing of the bishop, truly longed to suffer. Through that longing, a fit witness, each of them
-  sent a kind of letter to God, as his envoy.
+  once, sharing a like glory. That could not happen. Yet whoever truly longed to suffer, under Christ's
+  watching eyes and in the bishop's hearing, sent God a kind of envoy's letter. That longing was witness
+  enough.
 ---
 Pontius, Life and Passion of Cyprian, section 18. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28267-28276. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41359-41367 (OCR text). The passage carries the story lpc.story.the-death-of-cyprian.
