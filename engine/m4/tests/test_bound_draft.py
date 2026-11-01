@@ -92,7 +92,7 @@ def test_the_fallback_stands_where_the_first_withheld_sentence_stood_when_too_li
 def test_the_directive_lists_the_reviewed_connectives():
     lines = " ".join(bd.directive_lines(["Here is what we can say."]))
     assert '"Here is what we can say."' in lines and "[[as:paraphrase]]" in lines
-    assert bd.FALLBACK_ALONE in " ".join(bd.directive_lines([]))
+    assert "none" in " ".join(bd.directive_lines([]))
 
 
 def test_the_lead_in_of_a_placed_passage_needs_no_label():
@@ -102,13 +102,7 @@ def test_the_lead_in_of_a_placed_passage_needs_no_label():
     assert bd.decide(plain, None, RECORDS, CONNECTIVES)[0] == "withhold_unlabelled"
 
 
-def test_the_worlds_fallback_sentence_is_in_the_closed_set_and_stands_unbound():
-    assert bd.normalize(bd.FALLBACK) in bd.connective_set([]) and bd.normalize(bd.FALLBACK_ALONE) in bd.connective_set([])
-    assert bd.decide(_entry(bd.FALLBACK_ALONE), None, RECORDS, bd.connective_set([]))[0] == "keep"
+def test_the_fallback_sentence_is_code_inserted_only_so_the_voice_cannot_write_it_unbound():
+    assert bd.normalize(bd.FALLBACK) not in bd.connective_set([]) and bd.normalize(bd.FALLBACK_ALONE) not in bd.connective_set([])
+    assert bd.decide(_entry(bd.FALLBACK_ALONE), None, RECORDS, bd.connective_set([]))[0] == "withhold_unbound"
     assert "no framing sentence" in " ".join(bd.directive_lines([]))
-
-
-def test_the_fallback_is_not_inserted_again_when_the_voice_already_wrote_it():
-    rows = [{"sentence": bd.FALLBACK, "decision": "keep"}, {"sentence": "An unlabelled claim here.", "decision": "withhold_unbound"}, {"sentence": "Short.", "decision": "keep"}]
-    text, fallback = final_text(f"{bd.FALLBACK} An unlabelled claim here. Short.", rows)
-    assert not fallback and text.count(bd.FALLBACK_ALONE) == 1

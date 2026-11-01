@@ -53,13 +53,8 @@ DIRECTIVE_LINES = (
 )
 
 
-def closed_set(world_sentences: list[str]) -> list[str]:
-    """The sentences that may stand unbound: the world's reviewed joining sentences and the world's fallback sentence."""
-    return list(dict.fromkeys([*world_sentences, FALLBACK, FALLBACK_ALONE]))
-
-
 def directive_lines(connectives: list[str]) -> list[str]:
-    listed = "; ".join(f'"{c}"' for c in closed_set(connectives))
+    listed = "; ".join(f'"{c}"' for c in connectives) if connectives else "none"
     return [DIRECTIVE_LINES[0], DIRECTIVE_LINES[1].format(connectives=listed)]
 
 
@@ -68,7 +63,7 @@ def normalize(sentence: str) -> str:
 
 
 def connective_set(sentences: list[str]) -> frozenset[str]:
-    return frozenset(normalize(s) for s in closed_set(sentences) if normalize(s))
+    return frozenset(normalize(s) for s in sentences if normalize(s))
 
 
 def label_of(raw_sentence: str) -> str | None:
