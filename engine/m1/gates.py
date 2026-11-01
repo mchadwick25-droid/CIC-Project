@@ -36,6 +36,12 @@ FRE_FLOOR = 60
 # failed: "too-simple" is not the risk it guards against).
 FK_FLOOR = 8
 
+# A story's tellings read plainly on purpose: grade 8 is the target and grade 7 is accepted, so the
+# report line for them starts below 7 (reported, never failed). Reading ease and the grade ceiling
+# apply to them as to every field.
+STORY_TELLING_FK_FLOOR = 7
+STORY_TELLING_FIELDS = ("telling", "telling_short", "telling_medium", "telling_long")
+
 # Below this, gate_readability skips FK grading entirely - see that
 # function's own inline comment for why. 12 was chosen empirically: every
 # short-but-clear test case found stayed under it, and every deliberately
@@ -728,7 +734,8 @@ def gate_readability_fleet(fleet) -> list[str]:
 
 
 def _floor_observations(items) -> list[str]:
-    """Every readability-graded field scoring below FK_FLOOR - the same
+    """Every readability-graded field scoring below FK_FLOOR (below
+    STORY_TELLING_FK_FLOOR for a story's tellings) - the same
     field set _grade_records checks against the ceiling above, just the
     other edge. Report-only by construction: this list is never merged
     into a finding count that a waiver or hygiene_problems() looks at
@@ -736,10 +743,13 @@ def _floor_observations(items) -> list[str]:
     cannot fail a gate or need a waiver, only be seen."""
     findings = []
     for rid, rec in items:
-        for field, text in _readability_checks(rec.get("record_type"), rec):
+        record_type = rec.get("record_type")
+        for field, text in _readability_checks(record_type, rec):
+            floor = STORY_TELLING_FK_FLOOR if record_type == "story" and field in STORY_TELLING_FIELDS else FK_FLOOR
+            label = "story-telling floor" if floor == STORY_TELLING_FK_FLOOR else "band floor"
             graded = grade_text(text)
-            if graded is not None and graded["fk"] < FK_FLOOR:
-                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
+            if graded is not None and graded["fk"] < floor:
+                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, below the {label} of {floor} (reported, not failed)")
     return findings
 
 

@@ -789,3 +789,10 @@ Mark, 2026-11-01, relayed by the coordination thread, his words verbatim: "for s
 - A story's telling may read at grade 6 to 7. The grade-8 floor is not applied to `telling`, `telling_short`, `telling_medium` or `telling_long`. Flesch reading ease of at least 60 and the grade ceiling of 10 still hold for them.
 - The code already treated the grade floor as a report line for every field (`gate_readability_floor`, never a finding, never waived), so no gate changes. Tests now hold both halves for a long telling: a grade-6 telling is reported and not failed, and a telling under 60 reading ease still fails.
 
+## 59. Story tellings: the target is grade 8, grade 7 is accepted, below 7 is not (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his words verbatim and in order: "while 7 is ok, not 3 and 4 grade"; then, correcting the first relay's reading of it: "target is 8, 7 is ok". This refines entry 58; entry 58 stands as written.
+
+- For a story's tellings (`telling`, `telling_short`, `telling_medium`, `telling_long`) the target is grade 8. Grade 7 is accepted. Below 7 is not acceptable, and grade 3 to 4 least of all. Flesch reading ease of at least 60 and the grade ceiling of 10 still hold.
+- The report line for tellings starts below grade 7. It is reported and never failed, and no gate is added: `gate_readability_floor` keeps its band floor of 8 for every other field and uses 7 for these four.
+- A telling below grade 7 is for its author to rewrite; nothing in the engine rejects it.
