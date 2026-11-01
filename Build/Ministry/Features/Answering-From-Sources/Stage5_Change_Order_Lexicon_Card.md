@@ -25,3 +25,5 @@ Mark has chosen a template, Decision-Log records the choice, and the card and it
 
 Mark chose template B on 2026-11-01 (Decision-Log 55): labelled layers "In plain English", "In this world", "Not to be confused with" and "What it rests on", with the confidence phrase and the risk flag. A source that names no vendored span, or an edition without a held translator and date, is shown as unavailable.
 
+Mark added on 2026-11-01 (Decision-Log 56): "b, but we need the modern misunderstanding or a contrast to how people think it means today vs in that world". Template B therefore carries a named contrast layer, "How we hear it today" beside "In this world", fed from `senses.translational` and `false_friend`; a term without a usable modern-reading field shows the layer as unavailable and nothing is invented. The contrast is not added to the quote card.
+

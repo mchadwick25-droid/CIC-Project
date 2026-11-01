@@ -766,3 +766,11 @@ Mark picked lexicon template B from the options put to him, relayed by the coord
 - Where a term's source names no vendored span, or the edition's translator and date are not held (OG-140), the page shows that as unavailable. No link is invented.
 - Built after the story card pull request. Three-level transparency (Settled row 12) is kept; today's lexicon tests are rewritten to the template in the pull request that changes the card.
 
+## 56. Lexicon template B: the modern misunderstanding set beside the world's sense (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "b, but we need the modern misunderstanding or a contrast to how people think it means today vs in that world".
+
+- The lexicon card shows, side by side, how people hear the word today and what it meant in this world, as a named layer of template B (for example "How we hear it today" beside "In this world"), not only a "not to be confused with" line.
+- The layer is fed from the term record's modern-reading field (`senses.translational`) and false friends (`false_friend`). Where a term has no usable modern-reading field the layer shows as unavailable and nothing is invented.
+- The same contrast is applied to the quote card only where the record already holds it. No new quote field is added now.
+
