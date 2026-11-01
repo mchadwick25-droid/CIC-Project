@@ -106,3 +106,7 @@ def test_the_fallback_sentence_is_code_inserted_only_so_the_voice_cannot_write_i
     assert bd.normalize(bd.FALLBACK) not in bd.connective_set([]) and bd.normalize(bd.FALLBACK_ALONE) not in bd.connective_set([])
     assert bd.decide(_entry(bd.FALLBACK_ALONE), None, RECORDS, bd.connective_set([]))[0] == "withhold_unbound"
     assert "no framing sentence" in " ".join(bd.directive_lines([]))
+
+
+def test_the_draft_directive_keeps_the_sources_hedge_and_date():
+    assert "Keep the hedge, concession and date of the sentence's own bound records" in bd.directive_lines([])[0]
