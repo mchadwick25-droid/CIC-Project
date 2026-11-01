@@ -14,7 +14,7 @@ use_note:
     - "a claim that gives words to Numidicus, his wife or his daughter"
     - "a claim that Numidicus lapsed or was readmitted"
     - "a claim about where the daughter searched"
-    - "a claim that 'burned, preserved' is a cruel word game and not a martyr's death named as completion"
+    - "a claim that burned, then preserved, is a cruel word game and not a martyr's death named as completion"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:
@@ -47,13 +47,13 @@ relations:
   target: lpc.quote.numidicus-remained-unwillingly
 narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). This is Cyprian''s own letter,
-  written in his own hand as bishop, to his own congregation, about a man both he and they could identify
+  written as bishop, to his own congregation, about a man both he and they could identify
   -- the strongest evidentiary position any story in this repository occupies. There is no biographer
   between the reader and the event, no genre of praise, and no later tradition. The only caution worth
   stating is not about tier but about perspective: Cyprian is making a case for an appointment, and the
   letter''s own rhetoric -- ''the common joy,'' ''the greatest glory of our Church'' -- is the rhetoric
   of advocacy.'
-tellable_as: How our bishop added to our presbyters a confessor who had not wanted to survive
+tellable_as: How our bishop added to our presbyters a confessor left for dead
 text: 'Cyprian wrote to us with news that he said belonged to the joy of us all. He was adding a presbyter
   to our clergy, and he wanted us to know who the man was.
 
@@ -65,20 +65,35 @@ text: 'Cyprian wrote to us with news that he said belonged to the joy of us all.
 
 
   Then Numidicus himself: half burned, buried under stones and left for dead. His daughter came looking
-  for her father''s body -- Cyprian says she searched with the anxious care of love -- and found him alive.
+  for her father''s body -- Cyprian says she searched with the anxious care of love.
   He was found half dead, pulled out and revived.
 
 
-  And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, stayed behind
-  against his will, when the companions he himself had sent ahead went on. He had not wanted to survive.
-  Cyprian knew this, wrote it down, and gave the reason he thought it happened: the Lord meant to add
+  And Cyprian adds one clause. Our copy of his letter says Numidicus ''remained unwillingly'' behind
+  the companions he himself had sent ahead; another reading has ''unconquered'' in that place. Cyprian
+  gave the reason he thought it happened: the Lord meant to add
   him to our clergy.'
-telling: "Cyprian wrote to us with news that he said belonged to the joy of us all. He was adding Numidicus to the presbyters of Carthage, and he wanted us to know who the man was.\n\n\"By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire.\" His own wife died with them. \"With joy he watched his wife, who stayed at his side, burned with the others,\" Cyprian wrote, and then corrected himself. \"I should rather say she was preserved.\"\n\nThat correction is not a slip, for we did not count a martyr's death as a loss to be consoled. We named it as a completion, even at the cost of sounding cold.\n\n\"He himself was half burned, buried under stones and left for dead.\" His daughter came looking for her father's body \"with the anxious care of love.\" He was found half dead, pulled out and revived.\n\nCyprian adds one more clause. \"Against his will, he stayed behind the companions he himself had sent ahead.\"\n\nCyprian gave the reason he saw for it. The Lord meant to add Numidicus to our clergy, and to fill the ranks of our presbyters, thinned when some of them lapsed."
+telling: 'Cyprian wrote to us with news that he said belonged to the joy of us all. He was adding Numidicus to the presbyters of Carthage, and he wanted us to know who the man was.
+
+
+  By his urging, Numidicus "sent before himself an abundant number of martyrs, slain by stones and by the flames." His own wife died with them. He "beheld with joy" his wife at his side, burned with the rest. Then Cyprian corrected himself: "I should rather say, preserved."
+
+
+  We do not read that correction as a slip. We did not count a martyr''s death as a loss to be consoled. We named it a completion, even at the cost of sounding cold.
+
+
+  Numidicus himself was "half consumed, overwhelmed with stones, and left for dead." His daughter came looking for her father''s body "with the anxious consideration of affection." He "was found half dead, was drawn out and revived."
+
+
+  Cyprian adds one more clause. Our copy of the letter says Numidicus "remained unwillingly" behind the companions he himself had sent ahead. Another reading has "unconquered" in that place.
+
+
+  Cyprian gave the reason he saw for it. The Lord meant to add Numidicus to our clergy, and to fill the ranks of our presbyters, thinned when some of them lapsed.'
 absent_detail: The three people this story is about left no word of their own. Numidicus's wife burned;
-  his daughter searched for his body and found him alive; Numidicus himself did not want to have survived.
+  his daughter searched for his body, and he was found alive; Numidicus himself, our copy says, remained unwillingly.
   What the wife thought she was doing, what the daughter found, and what Numidicus said when they revived
   him are unrecoverable, and nothing in our own corpus supplies them.
-modern_contrast: 'A modern listener may hear ''burned, preserved'' as a cruel word-game played on a real
+modern_contrast: 'A modern listener may hear burned, then preserved, as a cruel word-game played on a real
   death. We did say that, and mean it: this world did not treat a martyr''s death as a loss to be consoled
   but as a completion to be named correctly, even at the cost of sounding cold to an outsider.'
 heart: Numidicus urged others to martyrdom, watched his wife burn and was left for dead, yet Cyprian added him to the presbyters of Carthage. We kept the story because it calls a martyr's death a completion, not a loss.
@@ -104,22 +119,41 @@ events:
 - line: He was found half dead, pulled out and revived.
   rests_on: He was found half dead, pulled out and revived
   essential: true
-- line: He stayed behind against his will; he had not wanted to survive.
-  rests_on: stayed behind against his will
+- line: He remained behind the companions he had sent ahead; our copy says unwillingly, another reading says unconquered.
+  rests_on: 'Numidicus ''remained unwillingly'' behind'
   essential: true
 - line: 'Cyprian''s reason: the Lord meant to add him to our clergy.'
   rests_on: the Lord meant to add him to our clergy
   essential: true
-telling_short: Cyprian wrote that he was adding Numidicus to our presbyters. "By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire." Cyprian wrote that his wife was burned with them, then corrected himself. "I should rather say she was preserved." We called her death a completion, not a loss. Numidicus was half burned, buried under stones and left for dead. His daughter searched for his body. He was found half dead and revived. He stayed behind against his will. The Lord, Cyprian said, meant to add him to our clergy.
+telling_short: Cyprian wrote that he was adding Numidicus to our presbyters. By his urging, many martyrs went ahead of him, killed by stones and by fire. His wife was burned at his side. Cyprian wrote "burned," then "I should rather say, preserved." For us, a martyr's death was a completion, not a loss. Numidicus was half burned, buried under stones and left for dead. His daughter searched for his body. He was found half dead and revived. Our copy of the letter says he "remained unwillingly" behind. Another reading has "unconquered." The Lord, Cyprian said, meant to add him to our clergy.
 telling_medium: 'Cyprian wrote to us that he was adding Numidicus to the presbyters of Carthage.
 
 
-  "By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire." His own wife died with them. "With joy he watched his wife, who stayed at his side, burned with the others," Cyprian wrote, and then corrected himself. "I should rather say she was preserved." For us, a martyr''s death was a completion, not a loss.
+  By his urging, Cyprian wrote, Numidicus "sent before himself an abundant number of martyrs, slain by stones and by the flames." His own wife died with them. He "beheld with joy" his wife at his side, burned with the rest. Then Cyprian corrected himself: "I should rather say, preserved." For us, a martyr''s death was a completion, not a loss.
 
 
-  "He himself was half burned, buried under stones and left for dead." His daughter came looking for her father''s body "with the anxious care of love." He was found half dead, pulled out and revived.
+  Numidicus himself was half burned, buried under stones and left for dead. Afterwards his daughter came looking for her father''s body "with the anxious consideration of affection." He "was found half dead, was drawn out and revived."
 
 
-  "Against his will, he stayed behind the companions he himself had sent ahead." Cyprian saw a reason why he survived. The Lord meant to add Numidicus to our clergy.'
+  Our copy of the letter says he "remained unwillingly" behind the companions he himself had sent ahead. Another reading has "unconquered" in that place. Cyprian saw a reason why he remained. The Lord meant to add Numidicus to our clergy.'
+telling_long: 'Cyprian wrote to us with news that he said belonged "both to the common joy and to the greatest glory of our Church." He was adding Numidicus to the presbyters of Carthage, and he wanted us to know who the man was.
+
+
+  Cyprian said that divine kindness had warned and taught him to make this appointment. Numidicus would sit with us among the clergy. He was "a man illustrious by the brightest light of confession."
+
+
+  By his urging, Numidicus "sent before himself an abundant number of martyrs, slain by stones and by the flames." His own wife died with them. He "beheld with joy" his wife standing by his side, burned with the rest. Then Cyprian corrected himself: "I should rather say, preserved."
+
+
+  We do not read that correction as a slip. We did not count a martyr''s death as a loss to be consoled. We named it a completion, even at the cost of sounding cold.
+
+
+  Numidicus himself was "half consumed, overwhelmed with stones, and left for dead." Afterwards his daughter came looking for her father''s body "with the anxious consideration of affection." He "was found half dead, was drawn out and revived."
+
+
+  Then Cyprian adds one more clause. Our copy of the letter says Numidicus "remained unwillingly" behind the companions he himself had sent ahead. Another reading has "unconquered" in that place.
+
+
+  Cyprian gave the reason he saw for it: "that the Lord might add him to our clergy." The Lord meant to fill the ranks of our presbyters with glorious priests. Those ranks had been "desolated by the lapse of some."'
 ---
 Derived from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (the chunk gives Cyprian's letter in the first person; the surrounding narration changes from 'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' is in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml.

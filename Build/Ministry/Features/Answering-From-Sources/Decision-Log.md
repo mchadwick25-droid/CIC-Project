@@ -780,5 +780,5 @@ Mark, 2026-11-01, relayed by the coordination thread, his sentence verbatim: "th
 
 - This applies entry 43 to tellings: a detail in a telling is allowed when another source the record cites supports it. The telling gives that detail as that source's, not as the main source's.
 - The `telling_long` gate checks names and numbers against the record and the cited passages of every source the record cites, not the first only. A test now holds this on `lpc.story.the-death-of-cyprian` (Pontius and the Acta).
-- A cited source that names no vendored line span adds nothing to the check, so a name that only such a source holds is still flagged. That is the safe side; the gap is OG-143.
+- A cited source that names no vendored line span adds nothing to the check, so a name that only such a source holds is still flagged. That is the safe side; the gap is OG-144.
 

@@ -22,6 +22,7 @@ def _narratability(rec):
 
 
 def _with_fields(rec):
+    rec.pop("telling_long", None)
     rec["heart"] = "Celerinus pleads for his sister and Lucian grants peace on one condition."
     rec["events"] = [
         {"line": "Celerinus asks Lucian to win peace for his sister", "rests_on": "Ep. XX", "essential": True},
