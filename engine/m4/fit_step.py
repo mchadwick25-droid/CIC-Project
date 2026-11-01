@@ -25,6 +25,8 @@ import json
 import re
 from pathlib import Path
 
+from engine.prose import locus_refs
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONTEXT_PREFIX = "ctx."
 CONTEXT_RADIUS_LINES = 30
@@ -47,7 +49,6 @@ FIT_SYSTEM = (
     + 'Reply with one JSON object only: {"fit": "fits" or "partly" or "off_point", "reason": "one short sentence", "limit_stated": true or false}.'
 )
 
-_LOCUS = re.compile(r"(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
 _MARKUP = re.compile(r"<[^>]+>")
 
 
@@ -85,7 +86,8 @@ def context_blocks(record: dict, texts_root: Path = REPO_ROOT) -> list[dict]:
     blocks = []
     base = (texts_root / "cic" / "texts").resolve()
     for source in record.get("sources") or []:
-        for file, first, last in _LOCUS.findall(source.get("locus") or ""):
+        for ref in locus_refs(source.get("locus")):
+            file, first, last = ref["file"], *ref["lines"].split("-")
             path = (texts_root / file).resolve()
             if base not in path.parents or not path.is_file():
                 continue

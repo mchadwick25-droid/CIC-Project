@@ -581,6 +581,41 @@ button {
   font-size: 0.88rem;
 }
 
+/* Quote card template B: three labelled layers on the click page. */
+.story-mark__layer {
+  margin-top: 8px;
+}
+
+.story-mark__layer-label {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.story-mark__edition blockquote {
+  margin: 4px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--color-border);
+  font-size: 0.88rem;
+}
+
+.story-mark__layer-note,
+.story-mark__layer-list {
+  margin: 4px 0 0;
+  font-size: 0.82rem;
+}
+
+.story-mark__layer-list {
+  padding-left: 18px;
+}
+
+.story-mark__means {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+}
+
 /* WitnessMark's Level-2/Level-3 content (VoiceTurnBody.tsx) - identical
    treatment to .story-mark__* above, under its own selector rather than a
    shared one: same visual grammar, different record_type, kept separable
