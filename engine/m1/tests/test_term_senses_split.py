@@ -31,6 +31,7 @@ def test_a_term_with_both_split_fields_validates_and_a_term_without_them_is_unch
 
 def test_one_split_field_without_the_other_is_a_finding():
     rec = _term()
+    rec["senses"].pop("meant_here", None)
     rec["senses"]["heard_today"] = "A modern listener may picture a licence."
     assert any("come as a pair" in f for f in _retrofit(rec))
 
