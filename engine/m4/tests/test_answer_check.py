@@ -214,3 +214,9 @@ def test_final_records_how_each_answer_ended(tmp_path, records):
     _work(tmp_path, "too_little")
     runner.final([({"id": "q1"}, _answer())], tmp_path, records)
     assert json.loads((tmp_path / "check" / "endings.json").read_text()) == {"q1": "abstained_too_little"}
+
+
+def test_draft_and_rewrite_instructions_forbid_added_detail():
+    from engine.m4 import bound_draft
+    assert "Add no person, place, title, date" in bound_draft.DIRECTIVE_LINES[0]
+    assert "Add no person, place, title, date" in ac.REWRITE_SYSTEM and "Keep each KEPT sentence's wording" in ac.REWRITE_SYSTEM

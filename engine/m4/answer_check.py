@@ -60,7 +60,9 @@ REWRITE_SYSTEM = (
     "Every sentence ends with each record it rests on written in double square brackets, then [[as:paraphrase]], before the full stop, "
     "for example: We kept the creed first [[lpc.witness.example]] [[lpc.term.example]] [[as:paraphrase]]. No quotation marks. "
     "Where a PLACED passage stands in the kept sentences, write its marker ([[quote:id]] or [[story:id]]) alone in that place; "
-    "never write the passage's words. Do not place a passage not listed as kept.\n"
+    "never write the passage's words. Do not place a passage not listed as kept. "
+    "Keep each KEPT sentence's wording; change it only to name the person or thing, or to end it with its tags. "
+    "Add no person, place, title, date or other detail that is not in its bound records: if a record says only \"our bishop\", write \"our bishop\".\n"
     "Reply with the answer only."
 )
 
