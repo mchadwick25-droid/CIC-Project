@@ -141,3 +141,20 @@ def test_a_story_with_no_long_telling_is_not_checked_for_unresolved_spans():
     rec = _with_fields(_story())
     rec["sources"] = [{"source_id": "lpc.source.cyprian-epistles", "locus": "cic/texts/no_such_file.xml, lines 1-5"}]
     assert not any("does not resolve" in f for f in _narratability(rec))
+
+
+def test_a_long_telling_may_use_a_name_from_any_cited_source_not_the_first_only():
+    rec = copy.deepcopy(load_world_records("lpc")["lpc.story.the-death-of-cyprian"])
+    first, second = rec["sources"][0], rec["sources"][1]
+    texts = {}
+    for label, source in (("first", first), ("second", second)):
+        solo = {**rec, "sources": [source]}
+        texts[label] = set(gates._story_vocabulary(solo, with_passage=True)) - gates._story_vocabulary(rec)
+    only_second = sorted(w for w in texts["second"] - texts["first"] if w.isalpha() and len(w) > 4)
+    assert only_second, "the second cited source must hold words the first and the record do not"
+    word = only_second[0].capitalize()
+    rec["telling_long"] = f"Cyprian was executed. Then {word} spoke."
+    rec["events"] = [{"line": "Cyprian is executed", "rests_on": "Acta", "essential": True}]
+    assert not any("telling_long uses" in f for f in _narratability(rec))
+    rec["sources"] = [first]
+    assert any(f"telling_long uses '{word.lower()}'" in f for f in _narratability(rec))
