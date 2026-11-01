@@ -34,6 +34,7 @@ retrieval:
   retrieve_when:
   - participant asks what Cyprian taught about boasting or merit
   - participant asks which words of Cyprian Augustine used against the Pelagians
+  - participant asks whether anyone could take credit for their own goodness or gifts
   prefer_instead:
   - participant asks how Augustine himself put grace -- lpc.quote.two-hear-one-scorns-one-rises gives
     that

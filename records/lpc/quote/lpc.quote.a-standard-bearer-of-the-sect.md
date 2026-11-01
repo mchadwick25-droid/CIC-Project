@@ -32,6 +32,7 @@ retrieval:
   retrieve_when:
   - participant asks what Cyprian was sentenced for
   - participant asks how Pontius read the proconsul's sentence
+  - participant asks why the Romans put the bishop of Carthage to death, or what charge was read against him
   prefer_instead:
   - participant asks how Cyprian answered the sentence -- lpc.quote.thanks-be-to-god gives that
 claim_guards:

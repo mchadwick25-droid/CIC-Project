@@ -31,6 +31,7 @@ retrieval:
   retrieve_when:
   - participant asks whether Cyprian's own election was ever accepted without dispute
   - participant asks how Cyprian spoke of the rivals who kept opposing him after his election
+  - participant asks whether a bishop had enemies inside his own church who never accepted his election
   prefer_instead:
   - participant is asking about the Felicissimus schism's own doctrinal content (this quote names the
     persistence of the hostility toward Cyprian's own election specifically, not the schism's own later
