@@ -109,7 +109,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     },
     "quote": {
         "modern_rendering": SpokenField("evidence-head"),
-        "text": SpokenField("evidence-head", "verbatim source wording, never voiced or shown; kept on this role so the gates still scan it, never readability-graded by design"),
+        "text": SpokenField("evidence-head", "verbatim source wording: never voiced; shown on the quote card as the edition's words; kept on this role so the gates still scan it, never readability-graded by design"),
         "speaker_or_author": SpokenField("participant-label", "feeds _quote_label via _quote_speaker_label"),
         "sources": SpokenField("participant-label", "list of {source_id, locus}; feeds _quote_label"),
     },

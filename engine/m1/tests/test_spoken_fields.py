@@ -149,6 +149,13 @@ _MODERN_TERM_CARD_READS = {
     "modern_term": ["modern_sense", "distinguishing_claim"],
 }
 
+# Hand-verified against citation_cards.resolve_source_card's quote enrichment:
+# the spoken rendering, the edition's words and the one-line meaning, carried
+# onto the card verbatim.
+_QUOTE_CARD_READS = {
+    "quote": ["modern_rendering", "text"],
+}
+
 
 def test_build_prompt_reads_are_all_declared():
     _assert_all_declared("builders.build_prompt/shape.build_shape", _BUILD_PROMPT_READS)
@@ -164,6 +171,10 @@ def test_head_text_reads_are_all_declared():
 
 def test_citation_label_reads_are_all_declared():
     _assert_all_declared("citation_cards label helpers", _CITATION_LABEL_READS)
+
+
+def test_quote_card_reads_are_all_declared():
+    _assert_all_declared("citation_cards.resolve_source_card quote enrichment", _QUOTE_CARD_READS)
 
 
 def test_modern_term_card_reads_are_all_declared():
