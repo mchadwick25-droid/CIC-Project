@@ -380,3 +380,12 @@ def test_a_latin_only_quote_marks_its_edition_as_latin_and_repeats_no_original()
 def test_a_word_before_at_that_is_not_a_language_is_not_a_label():
     from engine.prose import locus_refs
     assert locus_refs("Augustine at cic/texts/a.txt, lines 1-2")[0]["label"] is None
+
+
+def test_a_story_card_carries_the_long_telling_when_the_record_has_one_and_none_when_it_does_not():
+    repo = {
+        "w.story.a": {"id": "w.story.a", "record_type": "story", "tellable_as": "A story", "telling_long": "The long telling.", "sources": []},
+        "w.story.b": {"id": "w.story.b", "record_type": "story", "tellable_as": "B story", "sources": []},
+    }
+    assert resolve_source_card("w.story.a", repo)["telling_long"] == "The long telling."
+    assert resolve_source_card("w.story.b", repo)["telling_long"] is None

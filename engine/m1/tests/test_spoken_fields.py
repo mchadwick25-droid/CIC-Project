@@ -156,6 +156,11 @@ _QUOTE_CARD_READS = {
     "quote": ["modern_rendering", "text"],
 }
 
+# resolve_source_card's story enrichment: the long telling is shown on the card page.
+_STORY_CARD_READS = {
+    "story": ["telling_long", "heart"],
+}
+
 
 def test_build_prompt_reads_are_all_declared():
     _assert_all_declared("builders.build_prompt/shape.build_shape", _BUILD_PROMPT_READS)
@@ -171,6 +176,10 @@ def test_head_text_reads_are_all_declared():
 
 def test_citation_label_reads_are_all_declared():
     _assert_all_declared("citation_cards label helpers", _CITATION_LABEL_READS)
+
+
+def test_story_card_reads_are_all_declared():
+    _assert_all_declared("citation_cards.resolve_source_card story enrichment", _STORY_CARD_READS)
 
 
 def test_quote_card_reads_are_all_declared():
