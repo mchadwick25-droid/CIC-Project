@@ -24,11 +24,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
-  locus: SSSS28-29 and SS31; cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 3982-4148 (SSSS28-29, English text of the Vandals come into Africa, the siege of Hippo, the fever in its third month); cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4916-5061 (SS31, English text of death and burial, through the closing words on forty years of friendship)
+  locus: SSSS28-29 and SS31; cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 3982-4150 (SSSS28-29, English text of the Vandals come into Africa, the siege of Hippo, the fever in its third month, and the answer to his prayer); cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4916-5061 (SS31, English text of death and burial, through the closing words on forty years of friendship)
   license: public-domain
 - source_id: lpc.source.prosper-epitoma-chronicon-mommsen1892
-  locus: the independent, outside-Hippo corroboration of the death's own date and the siege around it,
-    a. 430
+  locus: a. 430; cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt, lines 54200-54212 (Latin text of the year 430 heading, printed a. -130 in the OCR, and the entry on Augustine's death)
   license: public-domain
 retrieval:
   tier: 1
@@ -75,7 +74,7 @@ text: 'Possidius had been Augustine''s friend for nearly forty years, and he was
 
   And the end, in Possidius''s own first person: his body whole, his sight and hearing sound, he slept with his fathers, as Scripture says, well nourished in a good old age, while we stood by, watching and praying. He made no will, because he had nothing to make
   one from. He ordered that the church''s library and all its books be carefully preserved for those who
-  came after. The city was under siege by the Vandals while this happened.'
+  came after. The city was under siege by the Vandals while this happened. Prosper also set the death down in his chronicle, under the year 430, giving the day as 28 August, and says Augustine was answering the books of Julian amid the attacks of the besieging Vandals, to the very end of his days.'
 telling: 'Possidius was Augustine''s friend for nearly forty years, and he was there at the end. The Vandals were besieging Hippo, and in the third month of the siege Augustine fell ill with a fever.
 
 
@@ -93,7 +92,7 @@ telling: 'Possidius was Augustine''s friend for nearly forty years, and he was t
 
   He made no will, because as a poor man of God he had nothing to make one from. He had ordered that the church''s library and all its books be carefully kept for those who came after.'
 absent_detail: Possidius is the only witness to the last weeks -- the psalms, the request, the ten days.
-  The death itself is corroborated from outside Hippo, by its date and the siege around it, but what no
+  The death itself is corroborated, by its date and the siege around it, but what no
   second source gives is the interior of the sickroom. No one who fled Hippo wrote down what leaving the
   city was like, either.
 modern_contrast: 'A modern listener may expect this told as a serene death. Possidius''s own text does
@@ -126,53 +125,59 @@ events:
 - line: He died with his sight and hearing unimpaired, while Possidius and the others watched and prayed.
   rests_on: he slept with his fathers
   essential: false
-telling_short: 'Possidius was Augustine''s friend for nearly forty years, and he was there at the end.
+telling_short: 'Possidius, Augustine''s friend for almost forty years, was with him at the end, in the besieged city of Hippo.
 
 
-  In private talk, Possidius says, Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+  Augustine had often taught that even after baptism, good Christians and priests ought not leave this life without fitting repentance. "And this he himself did in his last illness of which he died."
 
 
-  "And this he himself did in his last illness of which he died." He had "the shortest penitential Psalms of David" copied for him. As he lay sick in bed, he looked at the sheets hanging on the wall and read them, "and he wept freely and constantly."'
-telling_medium: 'Possidius was Augustine''s friend for nearly forty years, and he was there at the end. The Vandals were besieging Hippo when Augustine fell ill with a fever.
+  He had "the shortest penitential Psalms of David" copied out, and the sheets hung on the wall. Lying sick in bed, he looked at them and read them, "and he wept freely and constantly."'
+telling_medium: 'Possidius, a bishop and Augustine''s friend for almost forty years, was with him at the end. The Vandals were besieging Hippo, and in the third month of the siege Augustine fell ill with a fever.
 
 
-  Possidius says Augustine often taught one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
-
-
-  "And this he himself did in his last illness of which he died." He had "the shortest penitential Psalms of David" copied for him. As he lay sick in bed, he looked at the sheets hanging on the wall and read them, "and he wept freely and constantly."
+  He had often taught that even after baptism, good Christians and priests ought not leave this life without fitting repentance. "And this he himself did in his last illness of which he died." He had "the shortest penitential Psalms of David" copied and hung on the wall. From his bed he read them, "and he wept freely and constantly."
 
 
   About ten days before the end, he asked that no one come in except the doctors and those bringing food. The request was kept, and he had that time free for prayer.
 
 
-  He had preached without ceasing until that illness. While Possidius and the others stood by, watching and praying, "he slept with his fathers," in the words of Scripture. He made no will, because as a poor man of God he had nothing to make one from.'
-telling_long: 'Possidius, a bishop and Augustine''s friend for nearly forty years, was there at the end.
+  He had preached without ceasing until that illness. While Possidius and the others stood by, watching and praying, "he slept with his fathers." He made no will, because as a poor man of God he had nothing to make one from.'
+telling_long: 'Possidius, a bishop and Augustine''s friend for almost forty years, was with him at the end.
 
 
-  In those days the Vandals were besieging Hippo. Possidius and other bishops from nearby had taken refuge in the city, and they stayed there through the whole siege. In the third month of the siege, Augustine fell ill with a fever, and it was the illness of which he died.
+  Vandals and Alans, with some Goths among them, had crossed the sea from Spain and poured into Africa. They burned, robbed and killed across the provinces. They spared neither priests nor churches. Augustine grieved over all of it every day.
 
 
-  He had lived seventy-six years, almost forty of them as a priest or bishop. In private conversation, Possidius says, Augustine often taught one particular thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+  The same enemy came to besiege Hippo itself. Count Boniface held the city with an army of allied Goths. The siege lasted almost fourteen months, and the enemy blockaded the coast as well.
 
 
-  Then Possidius tells what Augustine did with his own teaching. "And this he himself did in his last illness of which he died." He had "the shortest penitential Psalms of David" copied for him.
+  Possidius and other bishops from nearby took refuge in the city and stayed through the whole siege. They talked often about the awful judgments of God before their eyes. In their grief they wept and prayed for help.
 
 
-  During the days of his sickness, as he lay in bed, he would look at these sheets as they hung on the wall and read them, "and he wept freely and constantly."
+  One day at table, Augustine told them what he was asking of God. He asked God to free the city. If God willed otherwise, he asked that his servants be made brave to bear it. Failing that, he asked at least that God would take him to Himself. The bishops joined him in that prayer.
 
 
-  He did not want his attention interrupted by anyone. So about ten days before the end, he asked those who were present to let no one in to him. The only exceptions were the physicians who came to examine him and the people who brought his food.
+  In the third month of the siege he fell ill with a fever. It was his last illness. Possidius believed the Lord did not deny his servant the reward of that prayer.
 
 
-  The request was observed, and he had all that time free for prayer.
+  Augustine had lived seventy-six years, almost forty of them as a priest or bishop. In private talk he often taught one particular thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
 
 
-  Up to that last illness he had preached in the church without ceasing. Possidius remembers him preaching with energy and power, and with a clear mind and sound judgment.
+  "And this he himself did in his last illness of which he died." He had "the shortest penitential Psalms of David" copied out. The sheets hung on the wall, and through the days of his sickness he looked at them from his bed. He read them, "and he wept freely and constantly."
+
+
+  About ten days before the end, he asked those who were present to let no one in. He did not want anything to break his attention. Only the physicians who came to examine him, and those who brought his food, could enter. The request was kept, and he had all that time free for prayer.
+
+
+  Up to that last illness he had preached in the church without ceasing. He preached with energy and power, with a clear mind and sound judgment.
 
 
   At the end his body was whole, and his sight and hearing were unimpaired. While Possidius and the others stood by, watching and praying, "he slept with his fathers," as it is written, "well-nourished in a good old age."
 
 
-  A service was offered to God in their presence, and afterwards he was buried. He made no will, because as a poor man of God he had nothing to make one from. He had repeatedly ordered that the church''s library and all its books be carefully preserved for future generations.'
+  Prosper also set the death down in his chronicle, under the year 430. He gives the day as 28 August. He says Augustine was still answering the books of Julian at the very end of his days, amid the attacks of the besieging Vandals.
+
+
+  A service was offered to God in their presence, and he was buried. He made no will, because as a poor man of God he had nothing to make one from. He had often ordered that the church''s library and all its books be kept safe for those who came after.'
 ---
 Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' is at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.

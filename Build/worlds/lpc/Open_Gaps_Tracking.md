@@ -2649,3 +2649,13 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 
 - **Open.** The `telling_long` gate checks names and numbers against the cited passages of every source a story cites (Decision-Log 57). A source whose locus names no vendored span adds no text to that check. Two lpc stories cite one: `the-plague-and-the-enemies` (the minor pastoral treatises) and `the-psalms-on-the-wall` (Prosper). A name that only such a source holds is flagged as added.
 - **Owner.** Library thread, through the coordination thread: add the span for each such source, or say the source is not vendored.
+
+### OG-145. Woven tellings for the seven lpc stories (2026-11-01).
+
+- **Done.** Each story's `telling_short`, `telling_medium` and `telling_long` (and base `telling` where it changed) is now one story in the world's voice, woven from every source the record cites, with a source named only where it matters to the listener (Mark's ruling: "we are telling the story, not just quoting a single source"; other cited sources may give context). Rules held: nothing outside the record's cited sources, quote marks only for the raw cited English, no closing sentence that restates the point, ends on the last event, no reading of ours in a speaker's mouth. Writers: Opus, one per story; one independent Opus reader per story on the changed items; the readers applied their own exact corrections and nothing was read a second time.
+- **Done: record changes this pass.** Plague cites De Mortalitate lines 46695-46728; Psalms cites Prosper's year-430 entry (lines 54200-54212, Latin) and Possidius to line 4150; Election gains a non-essential event for Ep. LXVII (Sabinus, dated 257 by the editor, lines 37409-37416) and its years run 248-257; Death's year 258 is kept, resting on the ANF editor's notice (Mark's ruling). The Plague Tobias paragraph was checked against the Latin (Hartel lines 40856-40858 and 40884-40886): Tobias is the one asked to forgive.
+- **Done: OG-144's spans.** Every source cited by the seven stories now resolves to vendored line spans (Plague: De Mortalitate lines 46695-46728; Psalms: Prosper lines 54200-54212 and Possidius to 4150); checked across all seven.
+- **Open: reading level below grade 8 in most tellings** (the quoted source sentences and short narrative sentences set it); not padded. Owner: Library thread.
+- **Open: Numidicus and Sesterces cite one source each**, so their tellings add no second source (Numidicus long 270 words, no floor).
+- **Open: `Election` `tellable_as` scores 58.4 Flesch Reading Ease, under the floor of 60** (predates this pass). Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
