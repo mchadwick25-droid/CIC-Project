@@ -63,18 +63,13 @@ tellable_as: How the man who taught that even good Christians must repent before
 text: 'Possidius had been Augustine''s friend for nearly forty years, and he was there at the end.
 
 
-  He records something Augustine had said often, in private conversation: that even after baptism, exemplary
-  Christians and priests ought not depart this life without fitting repentance. Then he records what Augustine
-  did with his own rule. He did it himself in the last illness of which he died. He had the shortest penitential Psalms of David copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read them, and wept freely and constantly.
+  He records something Augustine had said often, in private conversation: that even after baptism, exemplary Christians and priests ought not depart this life without fitting repentance. Then he records what Augustine did with his own rule. He did it himself in the last illness of which he died. He had the shortest penitential Psalms of David copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read them, and wept freely and constantly.
 
 
-  About ten days before the end he asked to be left alone -- Possidius says he asked those of us who were there to let no one in, except when the doctors came to examine him or when food was brought. The request was kept. Until that last illness he had not
-  stopped preaching.
+  About ten days before the end he asked to be left alone -- Possidius says he asked those of us who were there to let no one in, except when the doctors came to examine him or when food was brought. The request was kept. Until that last illness he had not stopped preaching.
 
 
-  And the end, in Possidius''s own first person: his body whole, his sight and hearing sound, he slept with his fathers, as Scripture says, well nourished in a good old age, while we stood by, watching and praying. He made no will, because he had nothing to make
-  one from. He ordered that the church''s library and all its books be carefully preserved for those who
-  came after. The city was under siege by the Vandals while this happened. Prosper also set the death down in his chronicle, under the year we call 430, giving the day as 28 August, and says Augustine was answering the books of Julian amid the attacks of the besieging Vandals, at the very end of his days.'
+  Possidius, who was there, tells the end. His body was sound, and his sight and hearing were good. While we stood by, watching and praying, he slept with his fathers, as Scripture says, in a good old age. He made no will, because he had nothing to make one from. He ordered that the church''s library and all its books be carefully preserved for those who came after. The city was under siege by the Vandals while this happened. Prosper also set the death down in his chronicle, in the year we count as 430, giving the day as 28 August, and says Augustine was answering the books of Julian amid the attacks of the besieging Vandals, at the very end of his days.'
 telling: 'Possidius, a bishop, was Augustine''s friend for nearly forty years, and he was there at the end.
 
 
