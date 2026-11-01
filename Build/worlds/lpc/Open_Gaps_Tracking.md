@@ -2702,3 +2702,19 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Closed: OG-150 open item on `text`.** The Plague and Psalms `text` fields now use the plain wording: "the bodies of many left lying about the city as mere corpses", "fellow believers", the Tobias comparison stated outright, "told by Possidius as one who was there", "in the year we count as 430". One independent Opus reader read those two fields only; its corrections were applied once, with no second round. Every `rests_on` string still occurs in `text` or `telling`.
 - **Still open, held, not mine to change.** Mark's 15% length tolerance and the Numidicus closing; OG-141 (fleet corpus-map buckets); the "central formative act" claim in `Build/worlds/lpc/Lexicon-Chunks/lpclex008_preaching.md` (lines 25 and 49), a construction document, not edited.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-152. Stage 3 proof run on lpc: placed quotes with no translator or edition year on their cards (2026-11-01).
+
+- **Open.** In the Stage 3 proof run, 18 distinct quotes were placed in shipped answers. 14 of them carry no translator or edition year on their cards (the card says "unavailable"); of the other 4, two carry an edition year the row marks unknown. Cause: 15 of the cited source entries name a source record with no `shelf_row`, so the card has no corpus-map row to read (`augustine-sermons-on-selected-lessons`, `cyprian-epistles`, `acta-proconsularia-sancti-cypriani`, `augustine-on-baptism-against-the-donatists`, and four more). The card code reads the row's facts correctly where the link exists (4 sources).
+- **Owner.** Library thread: set `shelf_row` on those source records, and `translator` and `edition_date` on their rows (or `unknown` with where it was looked for).
+
+### OG-153. Stage 3 proof run on lpc: two Tier 1 lines in the Election telling (2026-11-01).
+
+- **Open.** An independent Opus reader read all 21 tellings (short, medium, long, seven stories) against their cited sources: no Tier 2, 12 Tier 3, and 2 Tier 1, both in `lpc.story.election-of-cyprian`. Short: "surrounded his house" (Pontius has a crowd besieging the doors of the house and does not say whose). Long: "he held no office yet" (Pontius, just before the cited span, has Cyprian already a presbyter; "had not yet become bishop" is what holds). The other 19 tellings are faithful.
+- **Owner.** Library thread. The Tier 3 items are in the Stage 3 report.
+
+### OG-154. Stage 3 proof run on lpc: readability of the voice's own sentences on the sealed set (2026-11-01).
+
+- **Open.** On the 28 sealed answers the mean is grade 10.2 and reading ease 59.7 (project target: grade 10 or lower, ease 60 or higher). The voice's own text alone scores 10.4 and 59.1, so the placed quotes and tellings are not the cause. Across all 106 answers the mean is grade 9.3, ease 64.7. No new gate or pass is added; any change needs a named order.
+- **Owner.** Engine thread, through the coordination thread.
+

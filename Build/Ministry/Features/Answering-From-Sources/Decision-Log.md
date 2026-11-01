@@ -804,3 +804,9 @@ Mark, 2026-11-01, relayed by the coordination thread, his words verbatim: "we wo
 - The seven lpc story tellings on `main` (#1443, with #1442 before it) are accepted as the tellings the Stage 3 proof run uses. Library's open reading-level and length items on them stay in `Open_Gaps_Tracking.md` and do not hold the run.
 - Next, by the coordination thread's order of the same day: the Stage 3 proof run in shadow on lpc with the final cards and tellings, one fresh seed, one Opus reader, and a report in the form of the Stage 4 report. Stories stay off in production for lpc.
 
+## 61. Stage 3 proof run on lpc reported (2026-11-01)
+
+Coordination-level, AI-reviewed (not Mark's own words). Shadow run on all 106 lpc questions with the final cards and the tellings of entry 60, in plan, no metered spend. Report: `Stage3_Report.md`. Outcome in one line: no false or invented sentence in the 30 answers read; 10 of 106 abstained; quote placement by code is up, readability on the sealed set is a hair over the target, and both fit traps were handled wrongly.
+
+- Gaps are OG-152 to OG-154. The 30 quote placements and the 21 tellings are put to Mark as an Artifact; the 15% tolerance and the Numidicus closing stay held for him.
+
