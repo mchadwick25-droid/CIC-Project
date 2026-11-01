@@ -24,8 +24,8 @@ def folder(tmp_path, monkeypatch):
     monkeypatch.setattr(rendering_review, "review_dir", lambda world_key: tmp_path)
     rendering_review._text.cache_clear()
     (tmp_path / "Rendering_Review_Log_x.md").write_text(LOG)
-    (tmp_path / "Review_One.md").write_text("Reviewer: Opus 5.5. alpha: PASS. beta: PASS.")
-    (tmp_path / "Review_Two.md").write_text("Reviewer: Opus 5.5. beta: PASS.")
+    (tmp_path / "Review_One.md").write_text("Model Opus 5.5. alpha: PASS. beta: PASS.")
+    (tmp_path / "Review_Two.md").write_text("Model Opus 5.5. beta: PASS.")
     return tmp_path
 
 
@@ -51,13 +51,13 @@ def test_a_row_naming_a_missing_file_fails(folder):
 
 
 def test_a_review_file_that_does_not_mention_opus_fails(folder):
-    (folder / "Review_One.md").write_text("Reviewer: someone. alpha: PASS. beta: PASS.")
+    (folder / "Review_One.md").write_text("Model someone. alpha: PASS. beta: PASS.")
     [finding] = [f for f in _run() if f.startswith("w.quote.alpha")]
     assert "Opus" in finding
 
 
 def test_a_review_file_that_does_not_list_the_record_fails(folder):
-    (folder / "Review_One.md").write_text("Reviewer: Opus 5.5. beta: PASS.")
+    (folder / "Review_One.md").write_text("Model Opus 5.5. beta: PASS.")
     assert [f for f in _run() if f.startswith("w.quote.alpha")]
 
 
