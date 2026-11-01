@@ -61,3 +61,30 @@ describe('StoryMark quote card', () => {
     expect(document.body.textContent).toContain('Enchiridion 112 - Augustine');
   });
 });
+
+describe('StoryMark quote card edition facts', () => {
+  it('prints the edition source\'s translator and year, and says unavailable where the row is silent', () => {
+    const facts: SourceCard = {
+      ...quote,
+      sources: [{ ...quote.sources[0], translator: { name: 'Rev. J. F. Shaw', formation_confidence: 'Documented' }, edition_date: { formation_confidence: 'unknown', checked: 'title page' } }],
+    };
+    const { container } = render(<StoryMark sources={[facts]} quote />);
+    fireEvent.click(container.querySelector('.story-mark')!);
+    expect(document.body.textContent).toContain('Translated or edited by Rev. J. F. Shaw (the edition prints it)');
+    expect(document.body.textContent).toContain('Edition year: unavailable (checked: title page)');
+  });
+
+  it('shows the facts of the English edition source, not the Latin one', () => {
+    const two: SourceCard = {
+      ...quote,
+      sources: [
+        { ...quote.sources[0], source_id: 'fix.source.en', vendored: [{ file: 'cic/texts/en.xml', lines: '1-2', label: 'English' }], translator: { name: 'English Translator', formation_confidence: 'Documented' } },
+        { ...quote.sources[0], source_id: 'fix.source.la', vendored: [{ file: 'cic/texts/la.txt', lines: '1-2', label: 'Latin' }], translator: { name: 'Latin Editor', formation_confidence: 'Documented' } },
+      ],
+    };
+    const { container } = render(<StoryMark sources={[two]} quote />);
+    fireEvent.click(container.querySelector('.story-mark')!);
+    expect(document.body.textContent).toContain('English Translator');
+    expect(document.body.textContent).not.toContain('Latin Editor');
+  });
+});

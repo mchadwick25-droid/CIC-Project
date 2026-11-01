@@ -19,13 +19,23 @@
  * verb, per the citation marks' own design constraints; see VoiceTurnBody.tsx's
  * renderFromElements for where these are computed.
  */
-import type { SourceCard } from '../types/conversation';
+import type { SourceCard, SourceReference } from '../types/conversation';
 import { confidencePhrase } from '../lib/confidence';
 import { QUOTE_CARD_PHRASE, QUOTE_LAYER_EDITION, QUOTE_LAYER_ORIGINAL, QUOTE_LAYER_RENDERING } from '../lib/markCopy';
+import { EditionFacts } from './EditionFacts';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
 const LANGUAGE_TAGS: Record<string, string> = { Latin: 'la', Greek: 'el', Syriac: 'syr', Armenian: 'hy', Coptic: 'cop', Hebrew: 'he', Arabic: 'ar', Ethiopic: 'gez', Georgian: 'ka', German: 'de', French: 'fr' };
+
+// The sources whose vendored text is the edition shown in the card's edition layer:
+// those with a span in the edition's language (English when no other is named),
+// else the first source, the one the edition layer already cites.
+function editionSources(card: SourceCard): SourceReference[] {
+  const language = card.edition_language ?? 'English';
+  const matching = card.sources.filter((s) => (s.vendored ?? []).some((ref) => (ref.label ?? 'English') === language));
+  return matching.length > 0 ? matching : card.sources.slice(0, 1);
+}
 
 interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
@@ -83,6 +93,9 @@ export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps)
                   <p className="story-mark__layer-label" id={`${card.record_id}-edition`}>{QUOTE_LAYER_EDITION}</p>
                   <blockquote aria-labelledby={`${card.record_id}-edition`} lang={card.edition_language ? LANGUAGE_TAGS[card.edition_language] : undefined}>{card.edition_words}</blockquote>
                   {card.sources[0]?.citation && <p className="story-mark__layer-note">{card.sources[0].citation}</p>}
+                  {editionSources(card).map((s) => (
+                    <p key={s.source_id} className="story-mark__layer-note"><EditionFacts source={s} /></p>
+                  ))}
                 </div>
               )}
               {card.original && card.original.length > 0 && (

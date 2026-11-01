@@ -24,6 +24,19 @@ export interface SourceReference {
   // Story, quote and term cards: the vendored text spans (file under cic/texts and
   // line range) the locus cites, for a click-through to the source document.
   vendored?: { file: string; lines: string; label: string | null }[];
+  // Who translated or edited the vendored edition and the year its own file
+  // states, from the source's corpus-map row. A fact set (name or year) or
+  // an unknown that says where it was looked for; null when the row has none.
+  translator?: EditionFact | null;
+  edition_date?: EditionFact | null;
+}
+
+export interface EditionFact {
+  name?: string;
+  year?: number;
+  source?: string;
+  formation_confidence: string;
+  checked?: string;
 }
 
 export interface SourceCard {

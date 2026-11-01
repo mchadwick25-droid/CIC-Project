@@ -55,7 +55,7 @@ describe('GlossMark term card', () => {
   });
 
   it('names the edition, locus and vendored span of a source that has them', () => {
-    const rich = { ...gloss, rests_on: [source({ locus: 'De Unitate 17', edition: 'ANF vol. 5', vendored: [{ file: 'cic/texts/cyprian.txt', lines: '10-20', label: 'English' }] })] };
+    const rich = { ...gloss, rests_on: [source({ locus: 'De Unitate 17', edition: 'ANF vol. 5', translator: { name: 'R. E. Wallis', formation_confidence: 'Documented' }, edition_date: { year: 1885, formation_confidence: 'Documented' }, vendored: [{ file: 'cic/texts/cyprian.txt', lines: '10-20', label: 'English' }] })] };
     render(<GlossMark label="catechumen" gloss={rich} />);
     open();
     expect(screen.getByText('ANF vol. 5')).toBeTruthy();
@@ -66,7 +66,7 @@ describe('GlossMark term card', () => {
   it('says unavailable where a source names no edition and no vendored text, and invents neither', () => {
     render(<GlossMark label="catechumen" gloss={gloss} />);
     open();
-    expect(screen.getByText('Edition, translator and date: unavailable')).toBeTruthy();
+    expect(screen.getByText('Translator or editor: unavailable')).toBeTruthy();
     expect(screen.getByText('Line span in the Library: unavailable')).toBeTruthy();
     expect(document.querySelector('.level3 a, [role="dialog"] a')).toBeNull();
   });
@@ -85,5 +85,31 @@ describe('GlossMark term card', () => {
     open();
     expect(labels()).toEqual(['What it rests on']);
     expect(screen.getByText('Sources: unavailable')).toBeTruthy();
+  });
+});
+
+describe('GlossMark edition facts', () => {
+  const fact = (extra: object) => ({ formation_confidence: 'Documented', ...extra });
+
+  it('prints the translator and edition year with how sure we are', () => {
+    const g = { ...gloss, rests_on: [source({ translator: fact({ name: 'Rev. E. Wallis' }), edition_date: fact({ year: 1885, formation_confidence: 'Inferential-Thin' }) })] };
+    render(<GlossMark label="catechumen" gloss={g} />);
+    open();
+    expect(screen.getByText('Translated or edited by Rev. E. Wallis (the edition prints it)')).toBeTruthy();
+    expect(screen.getByText('Edition year 1885 (thinly supported)')).toBeTruthy();
+  });
+
+  it('says unavailable with what was checked where the row says unknown', () => {
+    const g = { ...gloss, rests_on: [source({ translator: fact({ name: 'X' }), edition_date: { formation_confidence: 'unknown', checked: 'title pages and preface' } })] };
+    render(<GlossMark label="catechumen" gloss={g} />);
+    open();
+    expect(screen.getByText('Edition year: unavailable (checked: title pages and preface)')).toBeTruthy();
+  });
+
+  it('says unavailable alone where the row holds nothing', () => {
+    render(<GlossMark label="catechumen" gloss={gloss} />);
+    open();
+    expect(screen.getByText('Translator or editor: unavailable')).toBeTruthy();
+    expect(screen.getByText('Edition year: unavailable')).toBeTruthy();
   });
 });

@@ -35,3 +35,12 @@ export const TERM_RISK_PHRASES: Record<string, string> = {
   medium: 'Often misheard today.',
   high: 'Very easily misheard today.',
 };
+
+// How sure we are of a fact about an edition, by formation_confidence.
+export const EDITION_FACT_SURENESS: Record<string, string> = {
+  Documented: 'the edition prints it',
+  'Widely Accepted': 'widely accepted',
+  'Dominant Modern Reconstruction': 'the leading modern reading',
+  Contested: 'contested',
+  'Inferential-Thin': 'thinly supported',
+};

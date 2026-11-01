@@ -719,9 +719,11 @@ _PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "world_front", "facilitator_b
 _PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification", "oblique_reason"}
 
 
-def build_repository_json(records: dict) -> bytes:
+def build_repository_json(records: dict, edition_facts: dict[str, dict] | None = None) -> bytes:
+    facts = edition_facts or {}
     entries = [
-        {k: v for k, v in record.items() if not k.startswith("_") and k not in _PACKAGE_STRIPPED_FIELDS}
+        {**{k: v for k, v in record.items() if not k.startswith("_") and k not in _PACKAGE_STRIPPED_FIELDS},
+         **({"edition_facts": facts[record["id"]]} if record["id"] in facts else {})}
         for record in sorted(records.values(), key=lambda r: r["id"])
         if record.get("record_type") not in _PACKAGE_EXCLUDED_RECORD_TYPES
     ]

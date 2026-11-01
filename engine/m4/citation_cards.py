@@ -162,11 +162,13 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     for entry in record.get("sources") or []:
         source_id = entry.get("source_id")
         source_record = repository_records.get(source_id) or {}
-        vendored = {"vendored": locus_refs(entry.get("locus") or "")} if spans else {}
+        facts = source_record.get("edition_facts") or {}
+        carried = {**({"vendored": locus_refs(entry.get("locus") or "")} if spans else {}),
+                   "translator": facts.get("translator"), "edition_date": facts.get("edition_date")}
         if source_record.get("citation"):
             sources.append({
                 "source_id": source_id, "citation": source_record["citation"], "author": None, "work": None,
-                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": source_record.get("edition"), **vendored,
+                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": source_record.get("edition"), **carried,
             })
             continue
         candidate = {
@@ -178,7 +180,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         }
         if any(_printable(v) for v in candidate.values()):
             candidate["edition"] = source_record.get("edition")
-            sources.append({**candidate, **vendored})
+            sources.append({**candidate, **carried})
     card = {
         "record_id": record_id,
         "record_type": record.get("record_type"),

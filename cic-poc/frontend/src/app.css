@@ -2606,3 +2606,7 @@ button {
   font-style: italic;
   color: var(--color-text-muted);
 }
+
+.edition-facts__line {
+  font-size: 0.82rem;
+}
