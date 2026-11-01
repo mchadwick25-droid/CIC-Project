@@ -20,3 +20,8 @@ Mark, 2026-11-01, relayed by the coordination thread: "i think the template for 
 ## Done when
 
 Mark has chosen a template, Decision-Log records the choice, and the card and its tests change together under that choice.
+
+## Outcome
+
+Mark chose template B on 2026-11-01 (Decision-Log 55): labelled layers "In plain English", "In this world", "Not to be confused with" and "What it rests on", with the confidence phrase and the risk flag. A source that names no vendored span, or an edition without a held translator and date, is shown as unavailable.
+

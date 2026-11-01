@@ -758,3 +758,11 @@ Mark, 2026-11-01, relayed by the coordination thread: "i think the template for 
 - Plan row 5.1 ("the lexicon door, kept as it is") no longer holds. The change is made by `Stage5_Change_Order_Lexicon_Card.md`.
 - The card keeps the three levels (Settled row 12). The template is chosen by Mark from options put to him as an Artifact; nothing is built until he chooses.
 
+## 55. Lexicon card template B chosen (2026-11-01)
+
+Mark picked lexicon template B from the options put to him, relayed by the coordination thread on 2026-11-01 (the message is the record; Mark's own words were not quoted): labelled layers "In plain English", "In this world", "Not to be confused with" and "What it rests on", with the plain confidence phrase and the risk flag.
+
+- The glossing code carries the confidence, the risk flag and the source editions with a gloss; the click page shows the four layers.
+- Where a term's source names no vendored span, or the edition's translator and date are not held (OG-140), the page shows that as unavailable. No link is invented.
+- Built after the story card pull request. Three-level transparency (Settled row 12) is kept; today's lexicon tests are rewritten to the template in the pull request that changes the card.
+
