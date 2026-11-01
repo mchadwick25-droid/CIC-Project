@@ -2665,3 +2665,10 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Closed.** The "reading level below grade 8" items in OG-143 and OG-145 are closed. Mark's ruling (2026-11-01): "for stories that is ok" for grade 6 to 7. The grade floor stays a report line for tellings; the Flesch Reading Ease bar of 60 still applies. The seven tellings stay as they are and are not lengthened to raise the grade.
 - **Still open from OG-145:** Election `tellable_as` at Flesch Reading Ease 58.4, under the bar of 60. Owner: Library thread.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-147. Election `tellable_as` lifted over the reading-ease bar (2026-11-01).
+
+- **Done.** `lpc.story.election-of-cyprian` `tellable_as` now reads "How we came to see a new convert's election, against his own reluctance, as God's own judgment made visible", at Flesch Reading Ease 62.9 (was 58.4, under the bar of 60). Same claim, plainer words. One independent Opus reader on that field only: PASS, no findings. Closes the `tellable_as` item in OG-145 and OG-146.
+- **Owner.** Library thread, through the coordination thread.
+
+- **OG-147 follow-up (2026-11-01).** The lpc readability waiver in the fleet gate (`m1:readability/lpc`) was tightened from 13 to 12, because the Election `tellable_as` fix removed one of the 13 findings it covered (the gate itself asks for the tighten; waivers only shrink).
