@@ -4,6 +4,7 @@
 
 - Merged: alx (#1281), cappadocian (#1283), desert (#1289), don (#1298), gallic (#1305), hal (#1315).
 - 2026-10-31: ijc, pahc, rzg, syr, witt and fix pointed in one batch (53 records pointed after an independent read; the rest listed under each world below). Remaining: lpc's ambiguous records.
+- 2026-11-01: lpc, 10 of its cited sources pointed (the one-work sources and the same-translator Cyprian group; OG-155). The 18 left are listed below and in OG-155; those below that are now pointed are no longer ambiguous.
 - Worlds aec, hus, jes, meth, obel, wsyr have no source records to point.
 
 ## lpc
