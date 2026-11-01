@@ -34,6 +34,7 @@ retrieval:
   retrieve_when:
   - participant asks how Celerinus spoke of his sister's fall
   - participant asks how a family member grieved someone who lapsed
+  - participant asks how a Christian felt when his own sister gave up the faith under persecution
   prefer_instead:
   - participant wants Lucian's answer -- lpc.quote.the-case-set-before-the-bishop gives that
 claim_guards:
