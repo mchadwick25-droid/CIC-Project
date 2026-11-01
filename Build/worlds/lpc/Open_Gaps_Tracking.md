@@ -2573,3 +2573,12 @@ Logged 2026-10-31.
 - **Open: 55 sub-questions have no lpc record**, mostly the modern and Facilitator-ground clusters (C15, C17) and topics the lpc sources do not reach. Empty is the correct state until a record exists.
 - **Done: generator guard.** `tools/build_answers_sidecar.py` now refuses (exit 2) to write over a sidecar marked `reviewed: true`; the lpc sidecar carries that mark and is the source. The tool still builds a sidecar for a world that has none.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-136. Shelf texts with no record, and one overstated wording in the world core (2026-11-01).
+
+- **Open: Augustine, Letter 47.5 (self-defence; q102).** On the shelf, no record. The sub-question answer offers only `lpc.witness.violence-commanded-not-cruel`. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Augustine, City of God XXII.8 (miracles; q100).** On the shelf, no record. C13.S3 has no lpc record. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Origen (q029).** Origen's commentaries are on the shelf; no lpc quote or witness record is built from them. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: Optatus, Against the Donatists, and the African council acts (q080).** Both have a source record; neither has a quote or witness record of its own. No record written. Owner: Library thread, once Mark rules on new records.
+- **Open: world-core wording "unexcavated, not empty" (q021).** The world-core record says material evidence here is "unexcavated" in two places (`records/lpc/world_core/lpc.core.latin-pastoral-congregational-christianity.md`, the material-evidence paragraph and the basilica-archaeology keyword note). The record's own text says site reports and inscription collections exist and have not been read. "Unexcavated" says nothing has been dug, which the record does not support; "not yet read" is what it supports. This is a record-stage fix in the world-core record, not a log-only item, because the voice repeats the word. Owner: Library thread; the edit waits on coordination's go-ahead.
+- **Owner.** Library thread, through the coordination thread.
