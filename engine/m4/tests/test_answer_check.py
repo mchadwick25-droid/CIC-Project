@@ -220,3 +220,22 @@ def test_draft_and_rewrite_instructions_forbid_added_detail():
     from engine.m4 import bound_draft
     assert "Add no person, place, title, date" in bound_draft.DIRECTIVE_LINES[0]
     assert "Add no person, place, title, date" in ac.REWRITE_SYSTEM and "Keep each KEPT sentence's wording" in ac.REWRITE_SYSTEM
+
+
+def test_the_rewrite_request_shows_a_kept_placement_as_its_marker_alone(records):
+    units = [_unit("A", [WITNESS]), _unit("In today's English, Augustine says: Love.", [QUOTE], QUOTE), _unit("Second unit.", [QUOTE], QUOTE)]
+    user = ac.rewrite_request("Q?", units, {"unsupported": {}, "dropped": []}, records)["user"]
+    assert user.count("PLACED") == 1 and f"[[quote:{QUOTE}]]" in user
+    assert "In today's English, Augustine says" not in user and "Second unit." not in user
+
+
+def test_the_story_line_keeps_the_lead_in_from_telling_the_story():
+    from engine.m4 import story_placement
+    assert "gives no date, place or event that the story tells" in story_placement.STORY_PLACE_LINE
+
+
+def test_the_rewrite_request_names_what_code_sets_in_by_kind(records):
+    story = "lpc.story.numidicus"
+    units = [_unit("Numidicus is the one we tell of.", [story]), _unit("He stood.", [story], story)]
+    user = ac.rewrite_request("Q?", units, {"unsupported": {}, "dropped": []}, records)["user"]
+    assert f"[[story:{story}]]; code sets in the story" in user and "Numidicus is the one we tell of." in user
