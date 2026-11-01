@@ -162,12 +162,18 @@ def rewrite_request(question: str, answer_units: list[dict], result: dict, recor
     kept = survivors(answer_units, result)
     ids = list(dict.fromkeys(r for u in kept for r in u["records"]))
     packs = "\n\n".join(verify_step.record_pack(records[r], records) for r in ids) or "(none)"
-    lines = []
+    lines, shown = [], set()
     for u in answer_units:
-        if u in kept:
-            tag = "PLACED " + u["placed_id"] if u.get("placed") and u.get("placed_id") else ("bound to " + " ".join(f"[[{r}]]" for r in u["records"]) if u["records"] else "JOINING")
+        if u in kept and u.get("placed") and u.get("placed_id"):
+            if u["placed_id"] not in shown:
+                shown.add(u["placed_id"])
+                story = (records.get(u["placed_id"]) or {}).get("record_type") == "story"
+                kind, sets_in = ("story", "the story") if story else ("quote", "the passage and its lead-in")
+                lines.append(f"KEPT [PLACED {u['placed_id']}] write only [[{kind}:{u['placed_id']}]]; code sets in {sets_in}")
+        elif u in kept:
+            tag = "bound to " + " ".join(f"[[{r}]]" for r in u["records"]) if u["records"] else "JOINING"
             lines.append(f"KEPT [{tag}] {u['sentence']}")
-        else:
+        elif not u.get("placed"):
             lines.append(f"REMOVED {u['sentence']}")
     return {"system": REWRITE_SYSTEM, "user": f"QUESTION\n{question}\n\nRECORDS\n\n{packs}\n\nSENTENCES IN ORDER\n" + "\n".join(lines)}
 
