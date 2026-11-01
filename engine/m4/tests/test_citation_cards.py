@@ -325,3 +325,26 @@ def test_a_real_story_card_carries_the_records_one_line_meaning_for_the_hover():
     assert card["means"] == record["use_note"]["means"]
     assert card["means"].startswith("Celerinus asked Lucian")
     assert card["narrative_tier"] == record["narrative_tier"] == 1
+
+
+def test_a_story_or_quote_card_names_the_vendored_text_span_each_source_cites():
+    from engine.m1.loader import load_world_records
+    from engine.m4.citation_cards import resolve_source_card
+    records = load_world_records("lpc")
+    story = resolve_source_card("lpc.story.celerinus-writes-to-lucian", records)
+    assert story["sources"][0]["vendored"] == [{"file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml", "lines": "30528-30720"}]
+    assert story["heart"] and story["means"] and story["narrative_tier"] == 1 and "telling" not in story
+    quote = resolve_source_card("lpc.quote.a-respite-from-their-torments", records)
+    files = [ref["file"] for ref in quote["sources"][0]["vendored"]]
+    assert files == ["cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt"]
+    term = resolve_source_card("lpc.term.catechesis", records)
+    assert all("vendored" not in source for source in term["sources"])
+
+
+def test_locus_refs_reads_single_lines_ranges_and_refuses_the_rest():
+    from engine.prose import locus_refs
+    assert locus_refs("Ep. 5; cic/texts/a_b.xml, line 42") == [{"file": "cic/texts/a_b.xml", "lines": "42-42"}]
+    assert locus_refs("cic/texts/a_b.xml, lines 10–20; Latin at cic/texts/c.txt, lines 3-4") == [
+        {"file": "cic/texts/a_b.xml", "lines": "10-20"}, {"file": "cic/texts/c.txt", "lines": "3-4"}]
+    assert locus_refs("") == [] and locus_refs(None) == []
+    assert locus_refs("cic/texts/../../etc/passwd, lines 1-2") == []

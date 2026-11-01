@@ -21,6 +21,9 @@ export interface SourceReference {
   locus: string | null;
   rights_status: string | null;
   edition?: string | null;
+  // Story and quote cards: the vendored text spans (file under cic/texts and
+  // line range) the locus cites, for a click-through to the source document.
+  vendored?: { file: string; lines: string }[];
 }
 
 export interface SourceCard {
@@ -32,6 +35,11 @@ export interface SourceCard {
   // speaker; the source reference is in `sources`.
   spoken_rendering?: string | null;
   speaker?: string | null;
+  // Story cards carry the record's one-line meaning, narrative tier and heart;
+  // the display reads them as it is given the room.
+  means?: string | null;
+  narrative_tier?: number | null;
+  heart?: string | null;
   // engine/m4/citation_cards.py's own modern_term enrichment: present only
   // when record_type is "modern_term" - the plain-English sense of a
   // modern word the Facilitator bridged away from the voice, plus the
