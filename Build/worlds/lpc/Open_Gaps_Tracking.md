@@ -2695,3 +2695,10 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open: five tellings sit at FK 7.0 exactly** (Election medium, Sesterces long, Death long, Plague medium, Psalms medium and long): the lowest Mark accepts, with no room. Any later edit must not lower them. Owner: Library thread.
 - **Open: the record `text` fields of Plague and Psalms still hold the old unclear phrasing** ("no longer bodies but the corpses of many", "household of faith", "the year we call 430"). The tellings no longer use it; `text` is the record's own source-facing summary and rests_on strings point into it. Owner: Library thread, for a later pass.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-151. OG-149 closed on Mark's word; Plague and Psalms `text` made plain (2026-11-01).
+
+- **Closed: OG-149 (rhythm, grade 7).** Mark's ruling: "we wont get it perfect, but if it tells the story well and cleanly and accuratly we are good to move on." Grade 7 with plain words stands. The tellings are accepted as they are on main. No further rewrites unless an accuracy defect is found.
+- **Closed: OG-150 open item on `text`.** The Plague and Psalms `text` fields now use the plain wording: "the bodies of many left lying about the city as mere corpses", "fellow believers", the Tobias comparison stated outright, "told by Possidius as one who was there", "in the year we count as 430". One independent Opus reader read those two fields only; its corrections were applied once, with no second round. Every `rests_on` string still occurs in `text` or `telling`.
+- **Still open, held, not mine to change.** Mark's 15% length tolerance and the Numidicus closing; OG-141 (fleet corpus-map buckets); the "central formative act" claim in `Build/worlds/lpc/Lexicon-Chunks/lpclex008_preaching.md` (lines 25 and 49), a construction document, not edited.
+- **Owner.** Library thread, through the coordination thread.
