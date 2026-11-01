@@ -192,17 +192,20 @@ def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
     assert card["sources"][0]["citation"].startswith("Ignatius of Antioch, the seven letters")  # the source line below the headline
 
 
-def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording():
+def test_a_quote_card_carries_three_labelled_layers_and_the_one_line_meaning():
+    """A quote card carries the spoken rendering, the edition's words with their citation, and the
+    original-language locus where held, plus the record's one-line meaning for the hover."""
     repo = _real_repository("pahc")
     record = repo["pahc.quote.ignatius-truly-born"]
     card = resolve_source_card("pahc.quote.ignatius-truly-born", repo)
-    assert "original_wording" not in card
     assert card["spoken_rendering"] == record["modern_rendering"]
+    assert card["edition_words"] == record["text"]
+    assert card["means"] == record["use_note"]["means"]
     assert card["speaker"] == "Ignatius, bishop of Antioch"
     source = card["sources"][0]
     assert source["citation"] and source["locus"]
     assert "edition" in source
-    assert record["text"] not in json.dumps(card)
+    assert isinstance(card["original"], list)
 
 
 def test_a_story_card_carries_no_source_wording():
@@ -332,19 +335,22 @@ def test_a_story_or_quote_card_names_the_vendored_text_span_each_source_cites():
     from engine.m4.citation_cards import resolve_source_card
     records = load_world_records("lpc")
     story = resolve_source_card("lpc.story.celerinus-writes-to-lucian", records)
-    assert story["sources"][0]["vendored"] == [{"file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml", "lines": "30528-30720"}]
+    assert story["sources"][0]["vendored"] == [{"file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml", "lines": "30528-30720", "label": None}]
     assert story["heart"] and story["means"] and story["narrative_tier"] == 1 and "telling" not in story
     quote = resolve_source_card("lpc.quote.a-respite-from-their-torments", records)
     files = [ref["file"] for ref in quote["sources"][0]["vendored"]]
     assert files == ["cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml", "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt"]
+    assert [ref["label"] for ref in quote["sources"][0]["vendored"]] == ["English", "Latin"]
+    assert quote["original"] == [{"label": "Latin", "file": "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt", "lines": "12508-12516"}]
+    assert quote["edition_words"] and quote["means"]
     term = resolve_source_card("lpc.term.catechesis", records)
     assert all("vendored" not in source for source in term["sources"])
 
 
 def test_locus_refs_reads_single_lines_ranges_and_refuses_the_rest():
     from engine.prose import locus_refs
-    assert locus_refs("Ep. 5; cic/texts/a_b.xml, line 42") == [{"file": "cic/texts/a_b.xml", "lines": "42-42"}]
-    assert locus_refs("cic/texts/a_b.xml, lines 10–20; Latin at cic/texts/c.txt, lines 3-4") == [
-        {"file": "cic/texts/a_b.xml", "lines": "10-20"}, {"file": "cic/texts/c.txt", "lines": "3-4"}]
+    assert locus_refs("Ep. 5; cic/texts/a_b.xml, line 42") == [{"file": "cic/texts/a_b.xml", "lines": "42-42", "label": None}]
+    assert locus_refs("English at cic/texts/a_b.xml, lines 10–20; Latin at cic/texts/c.txt, lines 3-4") == [
+        {"file": "cic/texts/a_b.xml", "lines": "10-20", "label": "English"}, {"file": "cic/texts/c.txt", "lines": "3-4", "label": "Latin"}]
     assert locus_refs("") == [] and locus_refs(None) == []
     assert locus_refs("cic/texts/../../etc/passwd, lines 1-2") == []

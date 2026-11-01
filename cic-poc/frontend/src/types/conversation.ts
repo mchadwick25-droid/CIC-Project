@@ -23,7 +23,7 @@ export interface SourceReference {
   edition?: string | null;
   // Story and quote cards: the vendored text spans (file under cic/texts and
   // line range) the locus cites, for a click-through to the source document.
-  vendored?: { file: string; lines: string }[];
+  vendored?: { file: string; lines: string; label: string | null }[];
 }
 
 export interface SourceCard {
@@ -35,6 +35,10 @@ export interface SourceCard {
   // speaker; the source reference is in `sources`.
   spoken_rendering?: string | null;
   speaker?: string | null;
+  // Quote card template B: the edition's own words and the original-language
+  // spans held in the vendored texts, beside the spoken rendering.
+  edition_words?: string | null;
+  original?: { label: string; file: string; lines: string }[];
   // Story cards carry the record's one-line meaning, narrative tier and heart;
   // the display reads them as it is given the room.
   means?: string | null;

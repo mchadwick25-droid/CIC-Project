@@ -61,7 +61,6 @@ def test_every_card_keeps_the_fields_it_had_and_only_adds(plan):
             assert SOURCE_KEYS <= set(source)
     quote = _card(plan, QUOTE)
     assert quote["spoken_rendering"] and quote["speaker"]
-    assert "text" not in quote and "original" not in quote
 
 
 def test_the_story_and_quote_cards_now_carry_what_the_click_needs(plan):

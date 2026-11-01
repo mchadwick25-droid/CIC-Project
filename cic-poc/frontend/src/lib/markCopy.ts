@@ -14,3 +14,9 @@ export const QUOTE_CARD_PHRASE = 'Where this story comes from';
 export const END_REFERENCES_HEADING = 'General references';
 
 export const pendingMarkWording = ['QUOTE_CARD_PHRASE', 'END_REFERENCES_HEADING', 'Arrival disclosure line'] as const;
+
+// The three labelled layers of a quote card's click page.
+export const QUOTE_LAYER_RENDERING = "In today's English";
+export const QUOTE_LAYER_EDITION = 'In the edition';
+export const QUOTE_LAYER_ORIGINAL = 'In the original';
+

@@ -186,7 +186,14 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         "sources": sources,
     }
     if record.get("record_type") == "quote":
+        card["means"] = (record.get("use_note") or {}).get("means")
         card["spoken_rendering"] = record.get("modern_rendering")
+        card["edition_words"] = record.get("text")
+        card["original"] = [
+            {"label": ref["label"], "file": ref["file"], "lines": ref["lines"]}
+            for source in sources for ref in source.get("vendored") or []
+            if ref["label"] and ref["label"].lower() != "english"
+        ]
         card["speaker"] = _quote_speaker_label(record, repository_records)
     if record.get("record_type") == "story":
         card["means"] = (record.get("use_note") or {}).get("means")

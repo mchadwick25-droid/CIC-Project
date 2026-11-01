@@ -671,15 +671,15 @@ def grounding_ratio(sentence: str, cited_words: set[str]) -> float:
     return len(words & cited_words) / len(words)
 
 
-_VENDORED_SPAN = re.compile(r"(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
+_VENDORED_SPAN = re.compile(r"(?:\b([A-Z][a-z]+) at )?(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
 
 
 def locus_refs(locus: str) -> list[dict]:
-    """The vendored text spans a locus names: each `cic/texts/<file>, lines N-M` as {"file", "lines"}.
-    A path with a parent-directory segment is not a span."""
+    """The vendored text spans a locus names: each `cic/texts/<file>, lines N-M` as {"file", "lines", "label"},
+    the label being the word before "at" ("English at ...", "Latin at ...") or None. A path with a
+    parent-directory segment is not a span."""
     return [
-        {"file": file, "lines": f"{first}-{last or first}"}
-        for file, first, last in _VENDORED_SPAN.findall(locus or "")
+        {"file": file, "lines": f"{first}-{last or first}", "label": label or None}
+        for label, file, first, last in _VENDORED_SPAN.findall(locus or "")
         if ".." not in file.split("/")
     ]
-
