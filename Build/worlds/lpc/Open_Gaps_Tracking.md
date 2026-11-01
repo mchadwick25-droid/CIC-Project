@@ -2659,3 +2659,9 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open: Numidicus and Sesterces cite one source each**, so their tellings add no second source (Numidicus long 270 words, no floor).
 - **Open: `Election` `tellable_as` scores 58.4 Flesch Reading Ease, under the floor of 60** (predates this pass). Owner: Library thread.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-146. Reading-grade shortfall in the seven tellings: closed by Mark's ruling (2026-11-01).
+
+- **Closed.** The "reading level below grade 8" items in OG-143 and OG-145 are closed. Mark's ruling (2026-11-01): "for stories that is ok" for grade 6 to 7. The grade floor stays a report line for tellings; the Flesch Reading Ease bar of 60 still applies. The seven tellings stay as they are and are not lengthened to raise the grade.
+- **Still open from OG-145:** Election `tellable_as` at Flesch Reading Ease 58.4, under the bar of 60. Owner: Library thread.
+- **Owner.** Library thread, through the coordination thread.
