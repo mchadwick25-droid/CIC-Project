@@ -34,6 +34,16 @@ describe('StoryMark quote card', () => {
     expect(document.body.textContent).toContain('Augustine, The Enchiridion, NPNF I, vol. III');
   });
 
+  it('names each layer for assistive technology and marks a Latin-only edition as Latin', () => {
+    const latin: SourceCard = { ...quote, edition_words: 'Deo gratias.', edition_language: 'Latin', original: [] };
+    const { container } = render(<StoryMark sources={[latin]} quote />);
+    fireEvent.click(container.querySelector('.story-mark')!);
+    const edition = document.querySelector('.story-mark__edition blockquote')!;
+    expect(edition.getAttribute('lang')).toBe('la');
+    expect(document.getElementById(edition.getAttribute('aria-labelledby')!)?.textContent).toBe(QUOTE_LAYER_EDITION);
+    expect(document.querySelector('.story-mark__original')).toBeNull();
+  });
+
   it('a quote with no edition words or original shows only the layers it has', () => {
     const bare: SourceCard = { ...quote, edition_words: null, original: [] };
     const { container, queryByText } = render(<StoryMark sources={[bare]} quote />);

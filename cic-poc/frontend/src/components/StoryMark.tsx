@@ -25,6 +25,8 @@ import { QUOTE_CARD_PHRASE, QUOTE_LAYER_EDITION, QUOTE_LAYER_ORIGINAL, QUOTE_LAY
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
+const LANGUAGE_TAGS: Record<string, string> = { Latin: 'la', Greek: 'el', Syriac: 'syr', Armenian: 'hy', Coptic: 'cop', Hebrew: 'he', Arabic: 'ar', Ethiopic: 'gez', Georgian: 'ka', German: 'de', French: 'fr' };
+
 interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
   repeat?: boolean;
@@ -72,21 +74,21 @@ export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps)
               <p className="turn__sources-label">{card.label}</p>
               {card.spoken_rendering && (
                 <div className="story-mark__rendering story-mark__layer">
-                  <p className="story-mark__layer-label">{QUOTE_LAYER_RENDERING}</p>
-                  <blockquote>{card.spoken_rendering}</blockquote>
+                  <p className="story-mark__layer-label" id={`${card.record_id}-rendering`}>{QUOTE_LAYER_RENDERING}</p>
+                  <blockquote aria-labelledby={`${card.record_id}-rendering`}>{card.spoken_rendering}</blockquote>
                 </div>
               )}
               {card.edition_words && (
                 <div className="story-mark__edition story-mark__layer">
-                  <p className="story-mark__layer-label">{QUOTE_LAYER_EDITION}</p>
-                  <blockquote>{card.edition_words}</blockquote>
+                  <p className="story-mark__layer-label" id={`${card.record_id}-edition`}>{QUOTE_LAYER_EDITION}</p>
+                  <blockquote aria-labelledby={`${card.record_id}-edition`} lang={card.edition_language ? LANGUAGE_TAGS[card.edition_language] : undefined}>{card.edition_words}</blockquote>
                   {card.sources[0]?.citation && <p className="story-mark__layer-note">{card.sources[0].citation}</p>}
                 </div>
               )}
               {card.original && card.original.length > 0 && (
                 <div className="story-mark__original story-mark__layer">
-                  <p className="story-mark__layer-label">{QUOTE_LAYER_ORIGINAL}</p>
-                  <ul className="story-mark__layer-list">
+                  <p className="story-mark__layer-label" id={`${card.record_id}-original`}>{QUOTE_LAYER_ORIGINAL}</p>
+                  <ul className="story-mark__layer-list" aria-labelledby={`${card.record_id}-original`}>
                     {card.original.map((ref) => (
                       <li key={`${ref.file}:${ref.lines}`}>
                         {ref.label} text: <code>{ref.file}</code>, lines {ref.lines}

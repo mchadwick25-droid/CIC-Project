@@ -354,3 +354,29 @@ def test_locus_refs_reads_single_lines_ranges_and_refuses_the_rest():
         {"file": "cic/texts/a_b.xml", "lines": "10-20", "label": "English"}, {"file": "cic/texts/c.txt", "lines": "3-4", "label": "Latin"}]
     assert locus_refs("") == [] and locus_refs(None) == []
     assert locus_refs("cic/texts/../../etc/passwd, lines 1-2") == []
+
+
+def _quote_repo(license_, locus):
+    return {
+        "w.quote.x": {"id": "w.quote.x", "record_type": "quote", "speaker_or_author": "A", "text": "The edition words.", "modern_rendering": "Plain words.",
+                      "license": license_, "use_note": {"means": "It means this."}, "sources": [{"source_id": "w.source.s", "locus": locus}]},
+        "w.source.s": {"id": "w.source.s", "record_type": "source", "citation": "A work, ed. B"},
+    }
+
+
+def test_a_paraphrase_only_quote_never_shows_its_edition_words():
+    verbatim = resolve_source_card("w.quote.x", _quote_repo("verbatim", "ch. 1"))
+    assert verbatim["edition_words"] == "The edition words."
+    assert resolve_source_card("w.quote.x", _quote_repo("paraphrase-only", "ch. 1"))["edition_words"] is None
+
+
+def test_a_latin_only_quote_marks_its_edition_as_latin_and_repeats_no_original():
+    card = resolve_source_card("w.quote.x", _quote_repo("verbatim", "Latin at cic/texts/a.txt, lines 1-2"))
+    assert card["edition_language"] == "Latin" and card["original"] == []
+    both = resolve_source_card("w.quote.x", _quote_repo("verbatim", "English at cic/texts/e.xml, lines 5-6; Latin at cic/texts/a.txt, lines 1-2"))
+    assert both["edition_language"] is None and [r["label"] for r in both["original"]] == ["Latin"]
+
+
+def test_a_word_before_at_that_is_not_a_language_is_not_a_label():
+    from engine.prose import locus_refs
+    assert locus_refs("Augustine at cic/texts/a.txt, lines 1-2")[0]["label"] is None

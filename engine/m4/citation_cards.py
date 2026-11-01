@@ -188,13 +188,13 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     if record.get("record_type") == "quote":
         card["means"] = (record.get("use_note") or {}).get("means")
         card["spoken_rendering"] = record.get("modern_rendering")
-        card["edition_words"] = record.get("text")
-        card["original"] = [
-            {"label": ref["label"], "file": ref["file"], "lines": ref["lines"]}
-            for source in sources for ref in source.get("vendored") or []
-            if ref["label"] and ref["label"].lower() != "english"
-        ]
         card["speaker"] = _quote_speaker_label(record, repository_records)
+        spans = [ref for source in sources for ref in source.get("vendored") or []]
+        other = [ref for ref in spans if ref["label"] and ref["label"].lower() != "english"]
+        edition_in_original = bool(other) and not [ref for ref in spans if ref not in other]
+        card["edition_words"] = record.get("text") if record.get("license") == "verbatim" else None
+        card["edition_language"] = other[0]["label"] if edition_in_original else None
+        card["original"] = [] if edition_in_original else [{"label": ref["label"], "file": ref["file"], "lines": ref["lines"]} for ref in other]
     if record.get("record_type") == "story":
         card["means"] = (record.get("use_note") or {}).get("means")
         card["narrative_tier"] = record.get("narrative_tier")

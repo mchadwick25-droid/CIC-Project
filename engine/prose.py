@@ -671,7 +671,8 @@ def grounding_ratio(sentence: str, cited_words: set[str]) -> float:
     return len(words & cited_words) / len(words)
 
 
-_VENDORED_SPAN = re.compile(r"(?:\b([A-Z][a-z]+) at )?(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
+_SPAN_LANGUAGES = ("English", "Latin", "Greek", "Syriac", "Armenian", "Coptic", "Hebrew", "Arabic", "Ethiopic", "Georgian", "German", "French")
+_VENDORED_SPAN = re.compile(r"(?:\b(" + "|".join(_SPAN_LANGUAGES) + r") at )?(cic/texts/[\w./-]+?),?\s*lines?\s*(\d+)(?:\s*[-–]\s*(\d+))?")
 
 
 def locus_refs(locus: str) -> list[dict]:

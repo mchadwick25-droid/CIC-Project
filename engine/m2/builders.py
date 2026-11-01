@@ -629,7 +629,7 @@ def build_quotes_json(records: dict) -> bytes:
             "id": q["id"],
             "text": q.get("text"),
             # The spoken form. `text` above is the verbatim source,
-            # kept for the citation net's verbatim check and never shown.
+            # kept for the citation net's verbatim check; never voiced, shown on the quote card as the edition's words.
             "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),

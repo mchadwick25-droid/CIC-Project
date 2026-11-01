@@ -38,6 +38,8 @@ export interface SourceCard {
   // Quote card template B: the edition's own words and the original-language
   // spans held in the vendored texts, beside the spoken rendering.
   edition_words?: string | null;
+  // Set when the edition's words are in a language other than English (a Latin-only quote).
+  edition_language?: string | null;
   original?: { label: string; file: string; lines: string }[];
   // Story cards carry the record's one-line meaning, narrative tier and heart;
   // the display reads them as it is given the room.
