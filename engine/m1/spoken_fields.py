@@ -119,6 +119,7 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "telling": SpokenField("evidence-head", "the world's own reviewed telling, placed word for word into a turn by code; readability-graded"),
         "telling_short": SpokenField("evidence-head", "a shorter reviewed telling, placed word for word like telling; readability-graded"),
         "telling_medium": SpokenField("evidence-head", "a fuller reviewed telling, placed word for word like telling; readability-graded"),
+        "telling_long": SpokenField("evidence-head", "the long reviewed telling in modern English, shown on the story's card page and read aloud in two to four minutes; never placed in an answer; readability-graded"),
         "heart": SpokenField("evidence-head", "what the story is about, carried as data for the voice's choice of telling; readability-graded"),
     },
     "demonstration": {
@@ -227,7 +228,7 @@ ATTRIBUTION_FIELDS: dict[str, list[str]] = {
     "term": ["plain_meaning", "quick_meaning", "world_word"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
-    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"],
+    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"],
     "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
 }
 
@@ -235,7 +236,7 @@ ATTRIBUTION_FIELDS: dict[str, list[str]] = {
 # fields only).
 PERSPECTIVE_FIELDS: dict[str, list[str]] = {
     "term": ["plain_meaning", "quick_meaning"],
-    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "heart"],
+    "story": ["tellable_as", "text", "telling", "telling_short", "telling_medium", "telling_long", "heart"],
     "ambient": ["detail"],
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
@@ -245,7 +246,7 @@ PERSPECTIVE_FIELDS: dict[str, list[str]] = {
 PARTICIPANT_FIELDS: dict[str, list[str]] = {
     "figure": ["bridge_line"],
     "term": ["world_word"],
-    "story": ["tellable_as", "telling", "telling_short", "telling_medium"],
+    "story": ["tellable_as", "telling", "telling_short", "telling_medium", "telling_long"],
     "gravity": ["name"],
     "force": ["name"],
     "contested_claim": ["claim"],

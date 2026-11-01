@@ -743,3 +743,18 @@ Mark picked template B from the options put to him: three labelled layers, with 
 - Held as data and not yet available: the translator and the date of the edition. The source records carry the edition's series and volume in their `edition` and `citation` fields and no separate translator or date. Library question, recorded in lpc `Open_Gaps_Tracking.md` (OG-140).
 - The card's tests are rewritten to this template in the same pull request that changes the card. Three-level transparency (Settled row 12) is kept.
 
+## 53. The long telling is a target of 2 to 4 minutes, never padded (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: the long telling is a target of 2 to 4 minutes, never padded, and a thin story stays shorter. Relayed in the coordination thread's own words; Mark's words were not quoted.
+
+- Word range: 340 to 615 words, from the recorded pace (about 134 to 147 words a minute at the approved audition pace, 154 to 169 after the 1.15 times speed-up Mark chose; Front-End Decision Log, 2026-09-29). 615 is a ceiling. There is no floor.
+- A story whose record and cited source hold less is as long as they allow. Nothing is added to reach the range.
+- The field and its gate are filed in `Schema_Change_Order_Story_Long_Telling.md`.
+
+## 54. The lexicon card matches the rigor of the quotes and stories (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "i think the template for lexicon should match the rigor of the quotes and stories".
+
+- Plan row 5.1 ("the lexicon door, kept as it is") no longer holds. The change is made by `Stage5_Change_Order_Lexicon_Card.md`.
+- The card keeps the three levels (Settled row 12). The template is chosen by Mark from options put to him as an Artifact; nothing is built until he chooses.
+

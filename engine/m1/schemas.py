@@ -589,6 +589,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # and the heart; medium (about 160 words) keeps every event.
         "telling_short": {"type": "string"},
         "telling_medium": {"type": "string"},
+        "telling_long": {"type": "string"},
         "absent_detail": {"type": "string"},
         # Story's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS2) - not yet in COMPLETION_REQUIRED;

@@ -246,12 +246,36 @@ def gate_narratability(records, fleet, registry) -> list[str]:
 
 STORY_TELLING_TARGET_WORDS = {"telling_short": 90, "telling_medium": 160}
 STORY_TELLING_LENGTH_TOLERANCE = 1.15
+# The long telling is read aloud in two to four minutes: 340 to 615 words at the recorded pace of 154 to
+# 169 words a minute. 615 is a ceiling with no tolerance; there is no floor, a story whose record and
+# cited source hold less is as long as they allow.
+STORY_LONG_TELLING_MAX_WORDS = 615
+_TEXTS_ROOT = Path(__file__).resolve().parents[2]
+_MARKUP = re.compile(r"<[^>]+>")
 _WORD = re.compile(r"[A-Za-z0-9']+")
 _SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
 
-def _story_vocabulary(rec: dict) -> set[str]:
+def _cited_passage(rec: dict) -> str:
+    """The text at the vendored line spans the record's sources cite, markup removed."""
+    from engine.prose import locus_refs
+
+    words = []
+    for source in rec.get("sources") or []:
+        for ref in locus_refs(source.get("locus") or ""):
+            path = _TEXTS_ROOT / ref["file"]
+            if not path.is_file():
+                continue
+            first, last = (int(n) for n in ref["lines"].split("-"))
+            lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+            words += [_MARKUP.sub(" ", line) for line in lines[first - 1:last]]
+    return " ".join(words)
+
+
+def _story_vocabulary(rec: dict, with_passage: bool = False) -> set[str]:
     parts = [rec.get(f) or "" for f in ("text", "telling", "tellable_as", "heart")]
+    if with_passage:
+        parts.append(_cited_passage(rec))
     parts += [e.get("line") or "" for e in rec.get("events") or [] if isinstance(e, dict)]
     parts.append((rec.get("use_note") or {}).get("means") or "")
     return {w.lower() for part in parts for w in _WORD.findall(part)}
@@ -273,7 +297,7 @@ def _added_names_and_numbers(telling: str, vocabulary: set[str]) -> list[str]:
 def _story_telling_findings(rid: str, rec: dict) -> list[str]:
     findings = []
     events = rec.get("events")
-    tellings = {f: rec[f] for f in STORY_TELLING_TARGET_WORDS if not _is_blank(rec.get(f))}
+    tellings = {f: rec[f] for f in (*STORY_TELLING_TARGET_WORDS, "telling_long") if not _is_blank(rec.get(f))}
     if events is not None:
         for i, event in enumerate(events):
             if not isinstance(event, dict) or _is_blank(event.get("line")) or _is_blank(event.get("rests_on")):
@@ -281,13 +305,16 @@ def _story_telling_findings(rid: str, rec: dict) -> list[str]:
     if tellings and not any(isinstance(e, dict) and e.get("essential") for e in events or []):
         findings.append(f"{rid}: a shorter telling needs events with at least one marked essential")
     vocabulary = _story_vocabulary(rec)
+    long_vocabulary = _story_vocabulary(rec, with_passage=True) if "telling_long" in tellings else vocabulary
     for field, telling in tellings.items():
         words = len(telling.split())
-        limit = STORY_TELLING_TARGET_WORDS[field] * STORY_TELLING_LENGTH_TOLERANCE
-        if words > limit:
+        if field == "telling_long":
+            if words > STORY_LONG_TELLING_MAX_WORDS:
+                findings.append(f"{rid}: telling_long runs {words} words, over its ceiling of {STORY_LONG_TELLING_MAX_WORDS}")
+        elif words > STORY_TELLING_TARGET_WORDS[field] * STORY_TELLING_LENGTH_TOLERANCE:
             findings.append(f"{rid}: {field} runs {words} words, over its target of about {STORY_TELLING_TARGET_WORDS[field]}")
-        for token in _added_names_and_numbers(telling, vocabulary):
-            findings.append(f"{rid}: {field} uses {token!r}, which the full record does not")
+        for token in _added_names_and_numbers(telling, long_vocabulary if field == "telling_long" else vocabulary):
+            findings.append(f"{rid}: {field} uses {token!r}, which the {'record and its cited passage do' if field == 'telling_long' else 'full record does'} not")
     return findings
 
 

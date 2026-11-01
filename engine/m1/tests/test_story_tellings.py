@@ -1,5 +1,5 @@
 """The optional story fields for reviewed tellings: heart, events,
-telling_short, telling_medium. Real lpc story as the base record."""
+telling_short, telling_medium, telling_long. Real lpc story as the base record."""
 import copy
 
 from engine.m1 import gates
@@ -82,3 +82,41 @@ def test_the_new_fields_are_readability_graded_like_telling():
     rec = _with_fields(_story())
     labels = [label for label, _ in gates._readability_checks("story", rec)]
     assert {"telling", "telling_short", "telling_medium", "heart"} <= set(labels)
+
+
+def _long(rec):
+    rec["telling_long"] = "Celerinus asked Lucian to win peace for his sister. Lucian gave it, if each case went to the bishop."
+    return rec
+
+
+def test_a_long_telling_validates_and_has_no_floor():
+    rec = _long(_with_fields(_story()))
+    assert not [f for f in _schema_findings(rec) if "unexpected" in f.lower() or "additional" in f.lower()]
+    assert _narratability(rec) == []
+    assert len(rec["telling_long"].split()) < 340
+
+
+def test_a_long_telling_over_its_ceiling_is_a_finding_and_at_the_ceiling_is_not():
+    rec = _long(_with_fields(_story()))
+    rec["telling_long"] = " ".join(["Celerinus asked Lucian."] * 205)
+    assert len(rec["telling_long"].split()) == 615 and _narratability(rec) == []
+    rec["telling_long"] += " Lucian gave it."
+    assert any("telling_long runs 618 words, over its ceiling of 615" in f for f in _narratability(rec))
+
+
+def test_a_long_telling_may_use_a_name_from_the_cited_passage_and_a_shorter_one_may_not():
+    rec = _long(_with_fields(_story()))
+    record_words = gates._story_vocabulary(rec)
+    passage_only = sorted(w for w in gates._story_vocabulary(rec, with_passage=True) - record_words if w.isalpha() and len(w) > 4)
+    assert passage_only, "the cited passage must hold words the record does not"
+    word = passage_only[0].capitalize()
+    rec["telling_long"] = f"Celerinus asked Lucian to win peace for his sister. Then {word} spoke."
+    assert not any("telling_long uses" in f for f in _narratability(rec))
+    rec["telling_medium"] = f"Celerinus asked Lucian to win peace for his sister. Then {word} spoke."
+    assert any(f"telling_medium uses '{word.lower()}'" in f for f in _narratability(rec))
+
+
+def test_a_name_outside_the_record_and_its_passage_is_a_finding_in_a_long_telling():
+    rec = _long(_with_fields(_story()))
+    rec["telling_long"] += " Then Tertullian wrote back."
+    assert any("telling_long uses 'tertullian'" in f for f in _narratability(rec))
