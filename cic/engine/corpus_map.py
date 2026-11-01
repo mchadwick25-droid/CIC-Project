@@ -6,8 +6,9 @@ so it can be integrated into each world later, after the parsing and
 organizing is done.
 
 So this lives at `cic/corpus-map/`, outside `records/` entirely - beside the
-texts it describes and the tooling that reads them, and touched by nothing in
-the compile path. The fleet records would NOT have been separate: compile_world()
+texts it describes and the tooling that reads them. The compile reads only each
+source's translator and edition_date from it (engine/m2/edition_facts.py). The
+fleet records would NOT have been separate: compile_world()
 loads them on every build (build_coverage_json,
 build_canon_map_json, and the manifest), so anything there moves all seven
 package hashes.

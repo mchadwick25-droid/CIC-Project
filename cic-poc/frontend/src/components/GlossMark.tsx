@@ -20,6 +20,7 @@ import {
   TERM_RISK_PHRASES,
   TERM_UNAVAILABLE,
 } from '../lib/markCopy';
+import { EditionFacts } from './EditionFacts';
 import { InlineBridge } from './InlineBridge';
 
 interface GlossMarkProps {
@@ -43,7 +44,8 @@ function RestsOn({ source }: { source: SourceReference }) {
       {source.author && ` — ${source.author}`}
       {source.locus && `, ${source.locus}`}
       <br />
-      {source.edition ? <span>{source.edition}</span> : <Unavailable what="Edition, translator and date" />}
+      {source.edition && <span>{source.edition}<br /></span>}
+      <EditionFacts source={source} />
       <br />
       {spans.length > 0 ? (
         spans.map((ref) => (

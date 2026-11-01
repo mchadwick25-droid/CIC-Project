@@ -2606,3 +2606,12 @@ button {
   font-style: italic;
   color: var(--color-text-muted);
 }
+
+.edition-facts__line {
+  font-size: 0.82rem;
+}
+
+.edition-facts__checked {
+  margin: 2px 0 0;
+  font-size: 0.78rem;
+}
