@@ -30,6 +30,7 @@ retrieval:
   retrieve_when:
   - participant asks how Cyprian's letters were kept and passed on
   - participant asks how Cyprian accounted for his time in hiding
+  - participant asks what a bishop did for his people while he was in hiding
   prefer_instead:
   - participant asks about a letter Cyprian suspected was altered -- lpc.quote.the-paper-itself gives
     that

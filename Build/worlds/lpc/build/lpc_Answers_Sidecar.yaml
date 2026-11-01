@@ -462,7 +462,11 @@ subquestions:
   C8.S7:
     cluster: C8
     label: 'Children: raised, taught, treated'
-    records: []
+    records:
+    - lpc.quote.love-and-do-what-thou-wilt
+    - lpc.quote.not-to-be-refused-to-any-one-born-of-man
+    - lpc.quote.not-his-own-sins-but-the-sins-of-another
+    - lpc.witness.infants-and-the-sin-of-another
   C8.S8:
     cluster: C8
     label: A wife beaten and the church's word (Facilitator ground)

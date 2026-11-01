@@ -34,6 +34,8 @@ retrieval:
   retrieve_when:
   - participant asks what prison was like for the confessors in Carthage
   - participant asks how the confessors were treated under Decius
+  - participant asks what prison was like for Christians who would not deny their faith
+  - participant asks whether Christians were starved in prison
   prefer_instead:
   - participant wants to know who could grant peace to the lapsed -- lpc.quote.the-case-set-before-the-bishop
     gives that

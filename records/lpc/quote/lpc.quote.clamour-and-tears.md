@@ -36,6 +36,7 @@ retrieval:
   - participant asks how Augustine came to be ordained
   - participant asks how a crowd at Hippo drew Augustine into the priesthood against his will
   - participant asks whether a congregation at Hippo claimed a man for office the way Carthage claimed Cyprian
+  - participant asks whether a man could be made a priest against his will
   prefer_instead:
   - participant wants Augustine's own later account of the same event in his own words -- this quote is
     Possidius's own narration; Augustine's own first-person account survives separately (Sermo CCCLV)
