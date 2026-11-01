@@ -782,3 +782,10 @@ Mark, 2026-11-01, relayed by the coordination thread, his sentence verbatim: "th
 - The `telling_long` gate checks names and numbers against the record and the cited passages of every source the record cites, not the first only. A test now holds this on `lpc.story.the-death-of-cyprian` (Pontius and the Acta).
 - A cited source that names no vendored line span adds nothing to the check, so a name that only such a source holds is still flagged. That is the safe side; the gap is OG-144.
 
+## 58. The grade-8 floor is not applied to story tellings (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread, his words verbatim: "for stories that is ok".
+
+- A story's telling may read at grade 6 to 7. The grade-8 floor is not applied to `telling`, `telling_short`, `telling_medium` or `telling_long`. Flesch reading ease of at least 60 and the grade ceiling of 10 still hold for them.
+- The code already treated the grade floor as a report line for every field (`gate_readability_floor`, never a finding, never waived), so no gate changes. Tests now hold both halves for a long telling: a grade-6 telling is reported and not failed, and a telling under 60 reading ease still fails.
+

@@ -159,3 +159,28 @@ def test_a_long_telling_may_use_a_name_from_any_cited_source_not_the_first_only(
     assert not any("telling_long uses" in f for f in _narratability(rec))
     rec["sources"] = [first]
     assert any(f"telling_long uses '{word.lower()}'" in f for f in _narratability(rec))
+
+
+def _readability(rec):
+    return gates.gate_readability({rec["id"]: rec}, {}, {})
+
+
+def _floor(rec):
+    return gates.gate_readability_floor({rec["id"]: rec}, {}, {})
+
+
+def test_a_telling_below_the_grade_floor_is_reported_and_never_failed():
+    rec = _long(_with_fields(_story()))
+    rec["telling_long"] = "He ran to the town. The man was kind. He gave her a loaf. She said thanks to him. They sat down to eat. It was a good day for all of them."
+    assert gates.grade_text(rec["telling_long"])["fk"] < gates.FK_FLOOR
+    assert gates.grade_text(rec["telling_long"])["fre"] >= gates.FRE_FLOOR
+    assert not any("telling_long" in f for f in _readability(rec))
+    assert any("telling_long" in f and "reported, not failed" in f for f in _floor(rec))
+
+
+def test_a_telling_below_the_ease_floor_still_fails():
+    rec = _long(_with_fields(_story()))
+    rec["telling_long"] = ("The consideration of administrative responsibilities necessitated considerable "
+                           "deliberation regarding ecclesiastical jurisdiction and institutional accountability.")
+    assert gates.grade_text(rec["telling_long"])["fre"] < gates.FRE_FLOOR
+    assert any("telling_long scores FRE" in f for f in _readability(rec))
