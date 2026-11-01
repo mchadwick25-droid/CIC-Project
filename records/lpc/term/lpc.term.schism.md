@@ -81,7 +81,7 @@ senses:
     step, not to this entry, which names the general concept only.
   translational: A modern listener is likely to hear denominational difference -- a normal, unremarkable
     feature of a plural religious landscape. We mean a tearing of a single body, with real consequences
-    for standing and sacraments -- not one option among many, but the outcome we organize ourselves
+    for standing and sacraments. It is not one option among many. It is the outcome we organize ourselves
     to avoid.
 quick_meaning: 'For us, schism means a split in the one church: someone leaves its clergy and people and
   sets up another altar. It is a tear, not a mere argument.'

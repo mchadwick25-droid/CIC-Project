@@ -23,7 +23,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
-  locus: SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (the whole section 5, from 'It would be tedious' to 'a mind so retentive')
+  locus: 'SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (the whole section
+    5, from ''It would be tedious'' to ''a mind so retentive''); the date of the election, 248, is in
+    the ANF editor''s notice to Cyprian: ''the popular urgency constrained him to accept the office
+    of Bishop of Carthage (a.d. 248)'', same file, lines 27520-27526'
   license: public-domain
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: title line, 'By Pontius the Deacon'; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27661
@@ -109,7 +112,7 @@ events:
   rests_on: while still a neophyte
   essential: true
 - line: Cyprian stepped back from the office; the people pressed him.
-  rests_on: 'the reviewed telling only: ''he humbly stepped back''; ''A crowd of the brothers besieged the doors of his house'''
+  rests_on: 'Pontius section 5, lines 27826-27840: ''he humbly withdrew''; ''A crowded fraternity was besieging the doors of the house'''
   essential: false
 - line: For us, the people's favour was how God's judgment became visible.
   rests_on: our own reading (Inferential-Thin); Pontius section 5 gives the pairing of God's judgment and the people's favour, not this relation between them

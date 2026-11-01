@@ -46,7 +46,10 @@ confidence:
     This entry''s account also rests on De Lapsis''s refusal to let either group''s failure be final.'
 sources:
 - source_id: lpc.source.cyprian-de-lapsis
-  locus: De Lapsis, the founding document of the controversy, directly quoted throughout
+  locus: De Lapsis, the founding document of the controversy, directly quoted throughout; De Lapsis
+    27 -- 'He says that he has done what another has actually committed', said of the one who bought
+    a certificate; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 44362-44365; Latin at cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt, lines 1047-1049
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
   locus: the Epistles' own lapsed-crisis correspondence; Epistle LI 3 (to Antonianus) -- 'those who
