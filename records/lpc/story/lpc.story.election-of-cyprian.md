@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Pontius says God's judgment and the people's favour made Cyprian bishop, and he later called it suffrage."
+  means: "Pontius says God's judgment and the people's favour made Cyprian bishop, and later Cyprian named our suffrage and God's judgment side by side."
   not_for:
     - "a claim that it was a vote with a candidacy and a count"
     - "a claim that any witness besides Pontius confirms that Cyprian was a neophyte"
@@ -90,10 +90,21 @@ text: 'Our own deacon Pontius, writing in praise of his bishop after Cyprian had
 
 
   Two things are named at once in that sentence: the judgment of God, and the favour of the people. For us, the second is how the first became visible. Later,
-  writing to defend his own contested episcopate against a faction that had never accepted
-  it, Cyprian himself would call that same acclamation by its proper name: our own suffrage, joined to
-  God''s own judgment.'
-telling: "Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said it would take too long to tell all that Cyprian did, and that one fact was proof enough of his good works.\n\n\"By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner.\"\n\nCyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.\n\nPontius names God's judgment and the people's favour together. For us, the people's favour was how God's judgment became visible.\n\nLater, rivals who had never accepted him renewed their attack. Cyprian answered them in a letter to us. They still carried, he wrote, \"that old venom against my office as bishop, which means against your suffrage and against God's judgment.\" By suffrage he meant the support of the people."
+  writing to us, the people, about certain presbyters who still held an ancient venom against his
+  episcopate, Cyprian himself would name our suffrage and God''s judgment side by side.'
+telling: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said it would take too long to tell all that Cyprian did, and that one fact was proof enough of his good works.
+
+
+  Cyprian was chosen bishop, he wrote, "by the judgment of God and the favour of the people." He was still newly baptized and, as people thought, a beginner.
+
+
+  Cyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of the house.
+
+
+  Pontius names God''s judgment and the people''s favour together. For us, the people''s favour was how God''s judgment became visible.
+
+
+  Later, Cyprian wrote a letter to us, the people. Certain presbyters, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."'
 absent_detail: The specific claim that Cyprian was a neophyte rests on Pontius alone; no other witness
   of ours confirms or corrects it, and we do not claim more certainty about it than that one source supports.
   Pontius is writing in praise, and he says so himself.
@@ -117,44 +128,44 @@ events:
 - line: For us, the people's favour was how God's judgment became visible.
   rests_on: our own reading (Inferential-Thin); Pontius section 5 gives the pairing of God's judgment and the people's favour, not this relation between them
   essential: true
-- line: Later, against rivals, Cyprian called it our suffrage joined to God's judgment.
-  rests_on: our own suffrage, joined to God's own judgment
+- line: Later, in a letter to us, the people, Cyprian said certain presbyters still held an ancient venom against his episcopate, that is, against our suffrage and God's judgment.
+  rests_on: certain presbyters who still held an ancient venom against his episcopate, Cyprian himself would name our suffrage and God's judgment side by side
   essential: true
-telling_short: Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner." For us, the people's favour was how God's judgment became visible. Later, answering rivals, Cyprian called it our suffrage, the support of the people, joined to God's judgment.
-telling_medium: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said one fact was proof enough of Cyprian''s good works.
+telling_short: Our deacon Pontius wrote the life of his bishop, Cyprian, after Cyprian had been put to death. He gave one fact as proof enough of his good works. Cyprian was chosen bishop "by the judgment of God and the favour of the people," while still newly baptized. For us, the people's favour was how God's judgment became visible. Later, Cyprian wrote a letter to us, the people. Certain presbyters, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God's judgment."
+telling_medium: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said one fact was proof enough of his good works.
 
 
-  "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner."
+  Cyprian was chosen bishop "by the judgment of God and the favour of the people." He was still newly baptized and, as people thought, a beginner.
 
 
-  Cyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.
+  Cyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. Yet a crowd of the brothers besieged the doors of the house.
 
 
   For us, the people''s favour was how God''s judgment became visible.
 
 
-  Later, rivals who had never accepted him renewed their attack. Cyprian wrote to us that they still carried "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
+  Later, Cyprian wrote a letter to us, the people. Certain presbyters, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."'
 telling_long: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said it would take too long to tell everything Cyprian did, and that one fact was proof enough of his good works.
 
 
-  "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner."
+  Cyprian was chosen bishop, he wrote, "by the judgment of God and the favour of the people." He was still newly baptized and, as people thought, a beginner.
 
 
-  Pontius presses the point that Cyprian was still in the first days of his faith, untaught as yet in the life of the spirit. Yet a noble nature shone in him, Pontius says, and he gave every promise that he could be trusted with the coming office.
+  Pontius adds that Cyprian was still in the first days of his faith, untaught as yet in the life of the spirit. Yet a generous nature shone in him, Pontius says, and he gave every promise that he could be trusted with the coming office.
 
 
-  Cyprian did not reach for the office: when the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy, and in the eyes of Pontius that made him more worthy still.
+  Cyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy, and in the eyes of Pontius that made him more worthy still.
 
 
-  The people would not let him go. A crowd of the brothers besieged the doors of his house, and an anxious love, Pontius writes, moved along every way that led there. Writing after the death, he says they were seeking not only a bishop, but a future martyr.
+  The people were on fire with longing. Writing after the death, Pontius says they were seeking not only a bishop, but a future martyr. A crowd of the brothers besieged the doors of the house, and an anxious love, Pontius writes, moved along every way that led there. Cyprian wished, Pontius says, to be let down through a window, as the apostle once was. Perhaps that might have happened, had he been equal to the apostle in rank. All the rest waited for him in suspense, and when he came they met him with great joy.
 
 
-  Some resisted him, Pontius admits, and Cyprian bore with them gently and forgave them. Later, to the surprise of many, he counted them among his closest friends.
+  Some resisted him, Pontius admits. Cyprian bore with them gently and forgave them. Later, to the surprise of many, he counted them among his closest friends.
 
 
-  Pontius names God''s judgment and the people''s favour together; for us, the people''s favour was how God''s judgment became visible.
+  Pontius names God''s judgment and the people''s favour together. For us, the people''s favour was how God''s judgment became visible.
 
 
-  Later, certain presbyters who had never accepted him renewed their attack, and Cyprian answered them in a letter to us. They still carried, he wrote, "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
+  Later, Cyprian wrote a letter to us, the people. Certain presbyters, he wrote, had kept him from coming to us. Still mindful of their plot, they held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."'
 ---
-Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (section 5; the word 'neophyte' is at line 27820). The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.
+Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (section 5; the word 'neophyte' is at line 27820). The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's reference to Ep. XXXIX (lines 32346-32350, 32369-32375) is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.

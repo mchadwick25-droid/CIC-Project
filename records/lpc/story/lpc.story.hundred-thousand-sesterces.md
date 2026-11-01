@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F5-P
 use_note:
-  means: "Cyprian told eight Numidian bishops that Christ is seen in captives, and sent them 100,000 sesterces."
+  means: "Cyprian told eight bishops that Christ is seen in captives, and sent them 100,000 sesterces."
   not_for:
     - "a claim about what the sum was worth in modern money"
     - "a claim that the ransom worked"
@@ -59,22 +59,14 @@ narrative_tier_justification: 'Documented. First-person testimony from Cyprian''
   matter, not Cyprian''s own words. This record cites SS3 of the letter''s own body, where Cyprian states
   the sum in his own voice, rather than the Argument, which happens to carry the same true figure.'
 tellable_as: How we sent a hundred thousand sesterces to ransom our captive brethren
-text: 'Word reached us that our brethren and sisters had been carried off, captive among barbarians. Cyprian''s
-  reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus,
-  Nampulus and Honoratus, whom he names one by one -- opens without composure: he read their letter, he
-  says, in great grief and not without tears.
+text: 'Word reached us that our brethren and sisters had been carried off, captive among barbarians. Cyprian''s reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one -- opens in grief: he read their letter, he says, in great grief and not without tears.
 
 
-  The argument he made was not about charity. It was about identity. Quoting Paul, that all who have been
-  baptized into Christ have put on Christ, he drew the conclusion directly: Christ is to be seen in our
-  captive brethren, and the one who redeemed us from death is now to be redeemed from captivity.
+  Not love only, he wrote, but also religion should move us to redeem them. Quoting Paul, that all who have been baptized into Christ have put on Christ, he drew the conclusion directly: Christ is to be seen in our captive brethren, and the one who redeemed us from death is now to be redeemed from captivity.
 
 
-  Then he said what the money was. He sent one hundred thousand sesterces, collected in our church from
-  the gifts of our clergy and people, for the bishops to hand out there as carefully as they could. And
-  he thanked them, for being asked -- for offering us, as he put it, fruitful fields in which to sow the
-  seeds of our hope.'
-telling: "Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it. He names them one by one: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.\n\nHis reply opens without composure. \"With great grief of mind, and not without tears, dearest brothers, I have read your letter.\"\n\nHis argument was not about charity but about who the captives were. He quoted Paul: \"As many of you as have been baptized into Christ have put on Christ.\" Then he drew the conclusion. \"So Christ is to be seen in our captive brothers. He who redeemed us from the danger of death is to be redeemed from the danger of captivity.\"\n\nHe named the test this set for us. \"Will each of us do for another what he would want done for himself, if he were held captive among barbarians?\"\n\nThen he said what we were sending. \"So we have sent you a sum of one hundred thousand sesterces.\" It came from the gifts of our clergy and people. The bishops were to hand it out there as carefully as they could.\n\nHe thanked them for asking us, since they had offered us \"fruitful fields in which to sow the seeds of our hope.\""
+  He thanked them for being asked -- for offering us, as he put it, fruitful fields in which we might cast the seeds of our hope. Then he said what the money was. He sent one hundred thousand sesterces, collected in our church from the gifts of our clergy and people, for the bishops to hand out there as carefully as they could.'
+telling: "Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it. He names them one by one: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.\n\nHis reply opens in grief. He read their letter, he says, with deep grief of mind and \"not without tears.\"\n\nHe wrote that \"not love only, but also religion\" should move us to redeem them. He quoted Paul: \"As many of you as have been baptized into Christ have put on Christ.\" Then he drew the conclusion: \"Christ is to be contemplated in our captive brethren.\" He who redeemed us from the danger of death, he wrote, is now to be redeemed from the danger of captivity.\n\nHe said this was how our faith would be tested. Would each of us do for another what he would want done for himself, if he were held captive among barbarians?\n\nHe thanked them for letting us share in their concern, since they had offered us \"fruitful fields in which we might cast the seeds of our hope.\"\n\nThen he told them what we were sending: \"We have then sent you a sum of one hundred thousand sesterces.\" It came from the gifts of our clergy and people. The bishops were to hand it out there as carefully as they could."
 absent_detail: We do not know whether the ransom worked. Cyprian never wrote again about the outcome,
   and the eight bishops' own reply, if there was one, does not survive. The story ends with the money
   leaving Carthage.
@@ -82,65 +74,62 @@ modern_contrast: A modern listener may reach at once for a currency conversion -
   Our own record licenses none. What it tells plainly is that it was collected from one congregation's
   clergy and people for the ransom of captive brethren, and that we do not know what proportion of anything
   it represented.
-heart: Cyprian told eight bishops in Numidia that Christ is to be seen in our captive brothers, and our church sent one hundred thousand sesterces to ransom them. His argument for the gift was not about charity but about who the captives were.
+heart: Cyprian told eight bishops that Christ is to be seen in our captive brothers, and our church sent one hundred thousand sesterces to ransom them. Not love only, he wrote, but also religion should move us to redeem them.
 events:
 - line: Our brothers and sisters were carried off and held captive among barbarians.
   rests_on: had been carried off and were held captive among barbarians
   essential: true
-- line: Eight bishops in Numidia wrote to Cyprian about it.
-  rests_on: Eight bishops in Numidia wrote to Cyprian about it.
+- line: Eight bishops wrote to Cyprian about it.
+  rests_on: Eight bishops wrote to Cyprian about it.
   essential: true
 - line: He read their letter with grief and tears.
-  rests_on: not without tears, dearest brothers, I have read your letter.
+  rests_on: not without tears
   essential: false
 - line: Quoting Paul, he said that Christ is to be seen in our captive brothers.
-  rests_on: So Christ is to be seen in our captive brothers.
+  rests_on: Christ is to be contemplated in our captive brethren
   essential: true
 - line: 'He set us a test: would each do for another what he would want done for himself?'
-  rests_on: Will each of us do for another what he would want done for himself
+  rests_on: each of us do for another what he would want done for himself
+  essential: false
+- line: He thanked the bishops for offering us fruitful fields in which to sow the seeds of our hope.
+  rests_on: fruitful fields in which we might cast the seeds of our hope
   essential: false
 - line: We sent one hundred thousand sesterces, from the gifts of our clergy and people.
-  rests_on: So we have sent you a sum of one hundred thousand sesterces.
+  rests_on: We have then sent you a sum of one hundred thousand sesterces
   essential: true
-- line: He thanked the bishops for offering us fruitful fields in which to sow the seeds of our hope.
-  rests_on: fruitful fields in which to sow the seeds of our hope.
-  essential: false
-telling_short: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it.
+telling_short: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it. Cyprian wrote that "not love only, but also religion" should move us to redeem them. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion: "Christ is to be contemplated in our captive brethren."
 
 
-  His argument was not about charity but about who the captives were. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion. "So Christ is to be seen in our captive brothers."
+  "We have then sent you a sum of one hundred thousand sesterces," he wrote. It came from the gifts of our clergy and people.'
+telling_medium: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
 
 
-  Our clergy and people gave the money. "So we have sent you a sum of one hundred thousand sesterces."'
-telling_medium: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
+  His reply opens in grief. He read their letter, he says, with deep grief of mind and "not without tears."
 
 
-  His reply opens without composure. "With great grief of mind, and not without tears, dearest brothers, I have read your letter."
+  He wrote that "not love only, but also religion" should move us to redeem them. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion: "Christ is to be contemplated in our captive brethren."
 
 
-  His argument was not about charity but about who the captives were. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion. "So Christ is to be seen in our captive brothers."
+  He said this was how our faith would be tested. Would each of us do for another what he would want done for himself, if he were held captive among barbarians?
 
 
-  He named the test this set for us. "Will each of us do for another what he would want done for himself, if he were held captive among barbarians?"
+  He thanked the bishops for offering us "fruitful fields in which we might cast the seeds of our hope." And he told them: "We have then sent you a sum of one hundred thousand sesterces." It came from the gifts of our clergy and people.'
+telling_long: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops wrote to Cyprian about it. Cyprian names every one of them individually: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
 
 
-  "So we have sent you a sum of one hundred thousand sesterces." It came from the gifts of our clergy and people. He thanked the bishops for offering us "fruitful fields in which to sow the seeds of our hope."'
-telling_long: 'Word came that our brothers and sisters had been carried off and were held captive among barbarians. Eight bishops in Numidia wrote to Cyprian about it. Cyprian names every one of them individually: Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus.
+  His reply opens in grief. He read their letter, he says, with deep grief of mind and "not without tears."
 
 
-  His reply opens without composure: "With great grief of mind, and not without tears, dearest brothers, I have read your letter."
-
-
-  Who would not grieve at such misfortunes, he asked, or consider a brother''s grief his own? He turned to the apostle Paul, who wrote that when one member suffers, all the members suffer with it. So the captivity of our brothers, Cyprian wrote, must be counted as our own captivity, because we share one body.
+  Who would not grieve at such misfortunes, he asked, or consider a brother''s grief his own? He turned to the apostle Paul, who wrote that when one member suffers, all the members suffer with it. So the captivity of our brothers, Cyprian wrote, must be counted as our own captivity, because we share one body. He wrote that "not love only, but also religion" should move us to redeem them.
 
 
   He pressed the point further, recalling that Paul also calls believers the temple of God, where the Spirit of God lives. Even if love moved us too little, Cyprian reasoned, the captives were temples of God. We ought not to leave them long in captivity through inactivity and neglect.
 
 
-  His argument was not about charity but about who the captives were. He quoted Paul: "As many of you as have been baptized into Christ have put on Christ." Then he drew the conclusion. "So Christ is to be seen in our captive brothers. He who redeemed us from the danger of death is to be redeemed from the danger of captivity."
+  Then he quoted Paul again: "As many of you as have been baptized into Christ have put on Christ." He drew the conclusion: "Christ is to be contemplated in our captive brethren." He who redeemed us from the danger of death, he wrote, is now to be redeemed from the danger of captivity.
 
 
-  He named the test this set for us. "Will each of us do for another what he would want done for himself, if he were held captive among barbarians?" Each father, he wrote, should consider that his own sons are there, and every husband that his wife is held there.
+  He said this was how our faith would be tested. Would each of us do for another what he would want done for himself, if he were held captive among barbarians? Each father, he wrote, should consider that his own sons are there, and every husband that his wife is held there.
 
 
   Our brotherhood considered everything the bishops'' letter described, and examined it sorrowfully. Then, Cyprian says, they all gathered money for our brothers promptly, willingly and generously. They were always eager for the work of God, he wrote, but so great a suffering stirred them even more.
@@ -149,12 +138,9 @@ telling_long: 'Word came that our brothers and sisters had been carried off and 
   He reminded the bishops of the words of the Lord in the Gospel: I was sick, and you visited me. How much greater the reward will be, he wrote, when the Lord says: I was captive, and you redeemed me.
 
 
-  He thanked the bishops for asking us, since they had offered us "fruitful fields in which to sow the seeds of our hope." He expected an abundant harvest from this heavenly and saving work.
+  He thanked the bishops for letting us share in their concern, since they had offered us "fruitful fields in which we might cast the seeds of our hope." He expected an abundant harvest from this heavenly and saving work.
 
 
-  Then he said what we were sending: "So we have sent you a sum of one hundred thousand sesterces." It came from the contributions of our clergy and people. The bishops were to distribute it there as carefully as they could.
-
-
-  That was the gift. His argument for it was not about charity but about who the captives were. Christ was to be seen in our captive brothers, and our church sent its money to redeem Christ from captivity.'
+  He told them what we were sending: "We have then sent you a sum of one hundred thousand sesterces." It came from the contributions of our clergy and people. The bishops were to distribute it there as carefully as they could.'
 ---
 Recast into first-person register from Cyprian's own Epistle LIX. "Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.
