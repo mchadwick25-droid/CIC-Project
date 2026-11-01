@@ -110,11 +110,21 @@ subquestions:
   C3.S3:
     cluster: C3
     label: Did everyone get restored in the end, even the devil
-    records: []
+    records:
+    - lpc.witness.punishment-without-end
+    - lpc.quote.a-respite-from-their-torments
+    - lpc.quote.an-ever-burning-gehenna
+    - lpc.quote.the-life-and-the-death-shall-both-be-without-end
+    - lpc.quote.very-many-make-moan-over-the-eternal-punishment
   C3.S4:
     cluster: C3
     label: Were the wicked destroyed rather than tormented
-    records: []
+    records:
+    - lpc.witness.punishment-without-end
+    - lpc.quote.a-respite-from-their-torments
+    - lpc.quote.an-ever-burning-gehenna
+    - lpc.quote.the-life-and-the-death-shall-both-be-without-end
+    - lpc.quote.very-many-make-moan-over-the-eternal-punishment
   C3.S5:
     cluster: C3
     label: 'Right after death: waiting place, Sheol, purgatory, prayer for the dead; ghosts; reincarnation'
@@ -831,6 +841,90 @@ subquestions:
     cluster: C16
     label: Named figures in their own words; one line to quote; the famous names missing from the table
     records:
+    - lpc.quote.a-dreadful-plague-broke-out
+    - lpc.quote.a-hundred-thousand-sesterces
+    - lpc.quote.a-respite-from-their-torments
+    - lpc.quote.a-standard-bearer-of-the-sect
+    - lpc.quote.all-sins-against-us-are-to-be-forgiven
+    - lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life
+    - lpc.quote.an-ever-burning-gehenna
+    - lpc.quote.ancient-venom-against-my-episcopate
+    - lpc.quote.apart-in-heart-united-in-body
+    - lpc.quote.because-i-am-already-weary
+    - lpc.quote.before-even-a-deacon
+    - lpc.quote.believe-and-thou-hast-eaten-already
+    - lpc.quote.bind-him-justly
+    - lpc.quote.bishop-of-bishops
+    - lpc.quote.boast-in-nothing-since-nothing-is-our-own
+    - lpc.quote.chosen-while-still-a-neophyte
+    - lpc.quote.christ-redeemed-in-our-captive-brethren
+    - lpc.quote.clamour-and-tears
+    - lpc.quote.consider-who-was-there
+    - lpc.quote.dash-the-little-ones-against-the-rock
+    - lpc.quote.david-himself-hath-been-sent-to-thee
+    - lpc.quote.earlier-councils-corrected-by-later
+    - lpc.quote.going-out-without-violating-unity
+    - lpc.quote.good-done-to-all-not-only-the-household
+    - lpc.quote.good-works-the-comfort-of-our-dangers
+    - lpc.quote.grief-and-not-without-tears
+    - lpc.quote.grieve-with-me-for-my-sister
+    - lpc.quote.he-slept-with-his-fathers
+    - lpc.quote.it-becomes-us-to-answer-to-our-birth
+    - lpc.quote.judge-not-nor-despair-of-a-return
+    - lpc.quote.left-doubtful-a-kind-of-purgatorial-fire
+    - lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
+    - lpc.quote.let-us-too-be-beheaded-with-him
+    - lpc.quote.let-your-creed-be-a-mirror
+    - lpc.quote.longing-expectation-is-a-prayer-for-me
+    - lpc.quote.love-and-do-what-thou-wilt
+    - lpc.quote.many-have-learned-to-offer-the-other-cheek
+    - lpc.quote.no-one-has-the-love-of-god-from-himself
+    - lpc.quote.no-place-for-a-healing-penitence
+    - lpc.quote.no-repentance-is-too-late
+    - lpc.quote.no-salvation-out-of-the-church
+    - lpc.quote.not-his-own-sins-but-the-sins-of-another
+    - lpc.quote.not-to-be-refused-to-any-one-born-of-man
+    - lpc.quote.not-to-purchase-impunity
+    - lpc.quote.numidicus-remained-unwillingly
+    - lpc.quote.o-blessed-people-of-the-church
+    - lpc.quote.one-good-shepherd-not-many
+    - lpc.quote.pardon-through-a-wicked-clergyman
+    - lpc.quote.penitents-in-peril-of-sickness-should-be-assisted
+    - lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth
+    - lpc.quote.peter-the-sick-man-and-the-physician
+    - lpc.quote.remember-me-at-the-lords-altar
+    - lpc.quote.reprove-and-forgive-the-surgeons-knife
+    - lpc.quote.shepherd-wounded-in-the-flock
+    - lpc.quote.shut-up-in-two-cells
+    - lpc.quote.stewards-and-future-bishops
+    - lpc.quote.such-a-one-with-his-friends
+    - lpc.quote.thank-offerings-for-the-very-good
+    - lpc.quote.thanks-be-to-god
+    - lpc.quote.the-branch-cut-from-the-vine
+    - lpc.quote.the-case-set-before-the-bishop
+    - lpc.quote.the-creed-first-then-the-prayer
+    - lpc.quote.the-flight-of-the-mind-is-fear
+    - lpc.quote.the-life-and-the-death-shall-both-be-without-end
+    - lpc.quote.the-mildest-condemnation-of-all
+    - lpc.quote.the-mildest-punishment-of-all
+    - lpc.quote.the-old-man-nailed-to-the-cross-speaks
+    - lpc.quote.the-paper-itself
+    - lpc.quote.the-people-kept-watch-at-the-door
+    - lpc.quote.the-psalms-hung-upon-the-wall
+    - lpc.quote.the-sermon-and-the-readings-are-daily-bread
+    - lpc.quote.the-trees-and-the-trembling-executioner
+    - lpc.quote.the-word-is-added-to-the-element
+    - lpc.quote.the-wretched-woman-and-mercy
+    - lpc.quote.they-first-dwelt-together-in-unity
+    - lpc.quote.they-went-out-from-us-but-were-not-of-us
+    - lpc.quote.thirteen-letters-sent-to-rome
+    - lpc.quote.thousands-of-certificates-daily
+    - lpc.quote.two-hear-one-scorns-one-rises
+    - lpc.quote.very-many-make-moan-over-the-eternal-punishment
+    - lpc.quote.walled-in-by-a-mingled-multitude
+    - lpc.quote.what-is-done-by-you-he-does-in-you
+    - lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them
+    - lpc.quote.ye-belong-to-my-care
     - lpc.figure.augustine
     - lpc.figure.celerinus
     - lpc.figure.cyprian
