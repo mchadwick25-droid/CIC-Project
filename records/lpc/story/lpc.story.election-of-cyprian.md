@@ -55,7 +55,7 @@ retrieval:
   - participant asks about modern church governance or ordination procedure, which this account cannot
     speak to
 claim_guards:
-- 'That the people''s favour was how God''s judgment became visible to us is our own reading (Inferential-Thin). Pontius section 5 pairs the two but does not say how they relate. Do not present that relation as Pontius''s own statement. The same holds for any claim that for Pontius the two were not in tension. It also holds for the line about what we thought we could already see in Cyprian.'
+- 'That the people''s favour was how God''s judgment became visible to us is our own reading (Inferential-Thin). Pontius section 5 pairs the two but does not say how they relate. Do not present that relation as Pontius''s own statement. The same holds for any claim that for Pontius the two were not in tension. It also holds for the line about what we saw in him in Cyprian.'
 relations:
 - type: associated-with
   target: lpc.figure.cyprian
@@ -79,14 +79,14 @@ narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is 
 tellable_as: How we came to see a new convert's election, against his own reluctance, as God's own judgment
   made visible
 text: 'Our own deacon Pontius, writing in praise of his bishop after Cyprian had been executed, passed over most of what he
-  could have said about Cyprian''s early years and settled on one fact as enough. That one fact, he wrote,
+  could have said and settled on one fact as enough. That one fact, he wrote,
   was proof enough of his good works: by God''s judgment and the people''s favour, he was chosen bishop
   while still a neophyte, and, as people thought, a novice.
 
 
   A neophyte. Newly baptised. Pontius noted that Cyprian was still
   in the first days of his faith, untaught as yet in the life of the spirit. What we saw in him was not
-  training. It was something we thought we could already see.
+  training. It was a generous nature that already made him seem fully trustworthy.
 
 
   Two things are named at once in that sentence: the judgment of God, and the favour of the people. For us, the second is how the first became visible. Later,
@@ -98,7 +98,7 @@ telling: 'Our bishop Cyprian was executed by the sword, and afterward his deacon
   In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." Yet he had only recently been baptized, and people considered him a novice, a beginner in the faith.
 
 
-  When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men. He considered himself unworthy, but a crowd of believers still surrounded the house where he was.
+  When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men. He considered himself unworthy, but a crowd of believers still pressed at the doors of the house where he was.
 
 
   Pontius named two things side by side, the judgment of God and the favour of the people. In our own reading, the people''s favour was the way we saw God''s judgment at work.
@@ -137,14 +137,14 @@ events:
 - line: In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain that a bishop should be chosen in the presence of the people; Sabinus had been made bishop there by the suffrage of the whole brotherhood and the sentence of the bishops.
   rests_on: 'Ep. LXVII, lines 37409-37416: ''a.d. 257''; ''To the Clergy and People Abiding in Spain''; ''Cyprian with His Fellow-Bishops''; lines 37563-37571: ''the bishop should be chosen in the presence of the people''; ''by the suffrage of the whole brotherhood, and by the sentence of the bishops'''
   essential: false
-telling_short: Our deacon Pontius wrote the life of our bishop, Cyprian, and chose a single fact as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." He had only recently been baptized, and he stepped back from the office, but a crowd of believers surrounded his house. For us, the people's favour was the way we saw God's judgment at work. In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, and that this meant they hated our choice and God's judgment.
+telling_short: Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was. For us, the people's favour was the way we saw God's judgment at work. In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.
 telling_medium: 'Our bishop Cyprian was executed by the sword, and afterward his deacon, Pontius, recorded his life. There was too much to tell, so he chose one fact as proof enough of the good Cyprian did.
 
 
   In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." He had only recently been baptized, and people considered him a novice.
 
 
-  When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men. Even so, a crowd of believers surrounded the house where he was.
+  When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men. Even so, a crowd of believers crowded outside the house where he was.
 
 
   In our own reading, the people''s favour was the way we saw God''s judgment at work.
@@ -160,7 +160,7 @@ telling_long: 'Our bishop Cyprian was executed by the sword, and afterward his d
   In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." Yet he had only recently been baptized, and people considered him a novice, a beginner in the faith.
 
 
-  He was still in the early days of his faith, untaught in the spiritual life, and he held no office yet. Even so, his generous nature showed so clearly that he already seemed completely trustworthy for the office ahead of him.
+  He was still in the early days of his faith, untaught in the spiritual life, and he was not yet bishop. Even so, his generous nature showed so clearly that he already seemed completely trustworthy for the office ahead of him.
 
 
   When the whole people rushed forward to honour him, he humbly stepped back and gave way to older men. He considered himself unworthy of such an honour, and to Pontius, refusing what he deserved only made him more deserving.
@@ -169,7 +169,7 @@ telling_long: 'Our bishop Cyprian was executed by the sword, and afterward his d
   The people were on fire with a spiritual longing for him. As his death would later prove, they were seeking not only a bishop but a future martyr, someone who would die for his faith.
 
 
-  A crowd of believers surrounded the doors of the house where he was, and anxious, loving people filled every street leading there. Cyprian wished he could be lowered from a window and escape, as an apostle once was lowered. But everyone else waited anxiously for him to appear, and when he came, they welcomed him with enormous joy.
+  A crowd of believers pressed at the doors of the house, and anxious, loving people filled every street leading to it. Cyprian wished he could be lowered from a window and escape, as an apostle once was lowered. But everyone else waited anxiously for him to appear, and when he came, they welcomed him with enormous joy.
 
 
   Not everyone was glad, and some men opposed him. Cyprian bore with them gently and patiently, and he forgave them. Later, to the astonishment of many, he counted them among his closest friends.

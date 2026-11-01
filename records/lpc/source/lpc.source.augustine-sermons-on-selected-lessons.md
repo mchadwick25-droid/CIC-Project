@@ -25,6 +25,7 @@ work: 'Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 w
 edition: Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
 citation: 'Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI'
 kind: vendored
+shelf_row: npnf106_augustine-sermon-mount-harmony-gospels-homilies--sermons-on-selected-lessons-of-the-new-testament-sermones-ad
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'
