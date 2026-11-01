@@ -26,7 +26,7 @@ relations:
 - type: associated-with
   target: lpc.term.the-one-episcopate
 use_note:
-  means: "The word asks if baptism outside the church counts. Cyprian's council said no; Augustine said it was given, though it did no good there."
+  means: "The word asks if baptism outside the church counts: Cyprian's council said no, and Augustine said it was given, though it did no good there."
   not_for:
     - "a claim that it names a settled malicious deviation from an agreed orthodoxy"
     - "a claim that De Unitate bears on Cyprian's argument against Stephen"

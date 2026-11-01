@@ -55,7 +55,7 @@ retrieval:
   - participant asks about modern church governance or ordination procedure, which this account cannot
     speak to
 claim_guards:
-- 'That the people''s favour was how God''s judgment became visible to us is our own reading (Inferential-Thin). Pontius section 5 pairs the two but does not state how they relate. Do not present that relation as Pontius''s own statement. The same holds for any claim that for Pontius the two were not in tension. It also holds for the line about what we thought we could already see in Cyprian.'
+- 'That the people''s favour was how God''s judgment became visible to us is our own reading (Inferential-Thin). Pontius section 5 pairs the two but does not say how they relate. Do not present that relation as Pontius''s own statement. The same holds for any claim that for Pontius the two were not in tension. It also holds for the line about what we thought we could already see in Cyprian.'
 relations:
 - type: associated-with
   target: lpc.figure.cyprian
