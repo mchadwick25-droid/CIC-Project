@@ -23,11 +23,21 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
-  locus: SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820
+  locus: SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (the whole section 5, from 'It would be tedious' to 'a mind so retentive')
+  license: public-domain
+- source_id: lpc.source.pontius-life-and-passion-of-cyprian
+  locus: title line, 'By Pontius the Deacon'; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27661
+  license: public-domain
+- source_id: lpc.source.pontius-life-and-passion-of-cyprian
+  locus: SS18, the execution of Cyprian; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28260-28267
+  license: public-domain
+
+- source_id: lpc.source.cyprian-epistles
+  locus: Ep. XXXIX, 'ancient venom against my episcopate, that is, against your suffrage and God's judgment'; heading 'To the People, Concerning Five Schismatic Presbyters' and the editor's date 'a.d. 251'; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32346-32350 and 32369-32375
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
   locus: Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of
-    Pontius's own narrative
+    Pontius's own narrative; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37563-37571
   license: public-domain
 retrieval:
   tier: 1
@@ -76,11 +86,11 @@ text: 'Our own deacon Pontius, writing in praise of his bishop after Cyprian had
 
 
   Two things are claimed at once in that sentence, and for Pontius they are not in tension: the judgment
-  of God, and the favour of the people. The second is how the first became visible to us -- and years
-  afterward, writing to defend his own contested episcopate against a faction that had never accepted
+  of God, and the favour of the people. The second is how the first became visible to us -- and later,
+  writing to defend his own contested episcopate against a faction that had never accepted
   it, Cyprian himself would call that same acclamation by its proper name: our own suffrage, joined to
   God''s own judgment.'
-telling: "Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said it would take too long to tell all that Cyprian did, and that one fact was proof enough of his good works.\n\n\"By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner.\"\n\nCyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.\n\nFor Pontius, God's judgment and the people's favour were not two claims pulling against each other. The people's favour was how God's judgment became visible to us.\n\nYears later, rivals who had never accepted him renewed their attack. Cyprian answered them in a letter to us. They still carried, he wrote, \"that old venom against my office as bishop, which means against your suffrage and against God's judgment.\" By suffrage he meant the support of the people."
+telling: "Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said it would take too long to tell all that Cyprian did, and that one fact was proof enough of his good works.\n\n\"By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner.\"\n\nCyprian did not reach for the office. When the whole people leapt forward in love for him, Pontius says, he humbly stepped back. He gave way to older men and thought himself unworthy. A crowd of the brothers besieged the doors of his house.\n\nFor Pontius, God's judgment and the people's favour were not two claims pulling against each other. The people's favour was how God's judgment became visible to us.\n\nLater, rivals who had never accepted him renewed their attack. Cyprian answered them in a letter to us. They still carried, he wrote, \"that old venom against my office as bishop, which means against your suffrage and against God's judgment.\" By suffrage he meant the support of the people."
 absent_detail: The specific claim that Cyprian was a neophyte rests on Pontius alone; no other witness
   of ours confirms or corrects it, and we do not claim more certainty about it than that one source supports.
   Pontius is writing in praise, and he says so himself.
@@ -104,10 +114,10 @@ events:
 - line: For Pontius, the people's favour was how God's judgment became visible.
   rests_on: The second is how the first became visible to us
   essential: true
-- line: Years later, against rivals, Cyprian called it our suffrage joined to God's judgment.
+- line: Later, against rivals, Cyprian called it our suffrage joined to God's judgment.
   rests_on: our own suffrage, joined to God's own judgment
   essential: true
-telling_short: Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner." For Pontius, the people's favour was how God's judgment became visible to us. Years later, answering rivals, Cyprian called it our suffrage, the support of the people, joined to God's judgment.
+telling_short: Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. "By the judgment of God and the favour of the people, he was chosen for the sacred office and the rank of bishop. He was still newly baptized and, as people thought, a beginner." For Pontius, the people's favour was how God's judgment became visible to us. Later, answering rivals, Cyprian called it our suffrage, the support of the people, joined to God's judgment.
 telling_medium: 'Our deacon Pontius wrote a work in praise of his bishop, the life of Cyprian, after Cyprian had been put to death. He said one fact was proof enough of Cyprian''s good works.
 
 
@@ -120,6 +130,6 @@ telling_medium: 'Our deacon Pontius wrote a work in praise of his bishop, the li
   For Pontius, the people''s favour was how God''s judgment became visible to us.
 
 
-  Years later, rivals who had never accepted him renewed their attack. Cyprian wrote to us that they still carried "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
+  Later, rivals who had never accepted him renewed their attack. Cyprian wrote to us that they still carried "that old venom against my office as bishop, which means against your suffrage and against God''s judgment." By suffrage he meant the support of the people, joined to God''s judgment.'
 ---
-Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820 (the word 'neophyte') and the lines through 27823. The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.
+Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (section 5; the word 'neophyte' is at line 27820). The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.

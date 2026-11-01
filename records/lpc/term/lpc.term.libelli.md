@@ -39,12 +39,13 @@ sources:
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates);
     De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice
-    or of certificate)
+    or of certificate); verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 44357-44365 (section 27) and 44392-44394 (section 28); Latin at cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt,
+    lines 1028-1030 and 1048-1049 (section 27) and 1070-1071 (section 28)
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on
-    a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price
-    for it
+    a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it, 'I pay a price for this purpose'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 33696-33716; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 7855-7887
   license: public-domain
 retrieval:
   tier: 2

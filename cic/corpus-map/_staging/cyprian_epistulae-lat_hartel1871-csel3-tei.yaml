@@ -29,6 +29,8 @@ assignments:
       with any quotation. Mirrors the English twin's roles and confidence exactly. The corpus embeds
       letters by others (Cornelius, the Roman clergy, Firmilian of Caesarea, the confessors) under
       Cyprian's name, so author cyprian is the corpus author of record.
+    translator: {name: "none (Latin edition); editor: Wilhelm von Hartel (CSEL 3, Pars II)", source: "cyprian_epistulae-lat_hartel1871-csel3-tei.txt line 2: Wilhelm von Hartel (editor of the printed edition, CSEL 3)", formation_confidence: Documented}
+    edition_date: {year: 1871, source: "cyprian_epistulae-lat_hartel1871-csel3-tei.txt line 4: Publication Date: 1871 (printed edition); 2014 (TEI)", formation_confidence: Documented}
 
   - row_id: cyprian_epistulae-lat_hartel1871-csel3-tei--epistulae-hartel-s-81-letters-csel-3-pars-ii-csel-3-latin-2
     work: "Epistulae (Hartel's 81 letters, CSEL 3 Pars II), CSEL 3 Latin text (TEI)"

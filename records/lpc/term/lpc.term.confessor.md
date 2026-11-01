@@ -38,12 +38,17 @@ confidence:
     carries this sense -- this term belongs to Cyprian''s phase and does not cross into Augustine''s.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: the Epistles are the primary evidence, including Epistles XX-XXI, whose own title-line the Registry
-    gives as 'the confessors'
+  locus: the Epistles are the primary evidence, including Epistles XX-XXI, whose own title-line the
+    Registry gives as 'the confessors'; Epistle XVI, the confessors to Cyprian -- 'we have granted peace;
+    and we have desired that this rescript should be made known by you to the other bishops also'; verified
+    directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30386-30391; Latin
+    at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3389-3391
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis 2 -- 'We look with glad countenances upon confessors illustrious with the heraldry
-    of a good name... The white-robed cohort of Christ's soldiers is here'
+    of a good name... The white-robed cohort of Christ's soldiers is here'; verified directly against
+    cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43650-43661; Latin at cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt,
+    lines 124-131 and 142
   license: public-domain
 retrieval:
   tier: 1

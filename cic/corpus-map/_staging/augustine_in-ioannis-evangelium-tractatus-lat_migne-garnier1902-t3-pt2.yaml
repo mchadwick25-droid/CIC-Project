@@ -157,6 +157,8 @@ assignments:
       checked against the page image or a clean witness is vendored. The text is the pre-critical
       Maurist edition, reissued in Migne's Patrologia Latina (PL 35). Mirrors the English twin's role
       and confidence exactly.
+    translator: {name: "none (Latin edition); editor: the Benedictines of Saint-Maur (Maurist editors), reissued by J.-P. Migne / Garnier (PL 35)", source: "augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt line 2: the Benedictines of Saint-Maur (Maurist editors); J.-P. Migne (publisher-editor)", formation_confidence: Documented}
+    edition_date: {year: 1902, source: "augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt line 4: Publication Date: 1902 (title page: 'Parisiis apud Garnier fratres editores et J.-P. Migne successores ... 1902'", formation_confidence: Documented}
 
   - row_id: augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2--in-epistolam-ioannis-ad-parthos-tractatus-x-maurist-edition
     work: "In Epistolam Ioannis ad Parthos Tractatus X (Maurist edition, Migne reissue)"
@@ -180,3 +182,7 @@ assignments:
       same way). Not to be quoted until the passage is checked against the page image or a clean
       witness is vendored. The text is the pre-critical Maurist edition, reissued in Migne's
       Patrologia Latina (PL 35). Mirrors the English twin's role and confidence exactly.
+
+    translator: {name: "none (Latin edition); editor: the Benedictines of Saint-Maur (Maurist editors), reissued by J.-P. Migne / Garnier (PL 35)", source: "augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt line 2: the Benedictines of Saint-Maur (Maurist editors); J.-P. Migne (publisher-editor)", formation_confidence: Documented}
+
+    edition_date: {year: 1902, source: "augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt line 4: Publication Date: 1902 (title page: 'Parisiis apud Garnier fratres editores et J.-P. Migne successores ... 1902'", formation_confidence: Documented}

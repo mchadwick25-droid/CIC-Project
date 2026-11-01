@@ -49,7 +49,8 @@ sources:
     a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences
     of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the
     Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith
-    itself'
+    itself'; verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, lines
+    10082-10082
   license: public-domain
 retrieval:
   tier: 1

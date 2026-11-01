@@ -42,8 +42,10 @@ sources:
   locus: Epistle XXXIX, addressed to the people concerning five schismatic presbyters
   license: public-domain
 - source_id: lpc.source.augustine-general-correspondence
-  locus: Letter CXXVI carries the Hippo episode; Augustine's own account of accepting the episcopate cites
-    'the love of Valerius and the importunity of the people'
+  locus: Letter CXXVI 1, the Hippo crowd; verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 44486-44507
+  license: public-domain
+- source_id: lpc.source.augustine-general-correspondence
+  locus: Letter XXXI 4, Augustine's own account of accepting the episcopate -- 'the love of Valerius and the importunity of the people'; verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 25850-25858
   license: public-domain
 retrieval:
   tier: 2
@@ -68,9 +70,7 @@ senses:
     and when told the bishop was bound by a promise they grew still more excited, calculating the promise
     might break. He held his ground. Real leverage, loudly exercised, and finally bounded by one man's
     refusal -- that is the shape of it. This is the active face of the flock and the ground of suffrage.
-  evidential: Epistle XXXIX is addressed to the people concerning five schismatic presbyters; Letter CXXVI
-    carries the Hippo episode, re-verified at source; Augustine's own account cites 'the love of Valerius
-    and the importunity of the people.' In the vendored English edition of Cyprian the Latin plebs occurs
+  evidential: Epistle XXXIX is addressed to the people concerning five schismatic presbyters; Letter CXXVI carries the Hippo episode, re-verified at source; Letter XXXI, Augustine's own account, cites 'the love of Valerius and the importunity of the people.' In the vendored English edition of Cyprian the Latin plebs occurs
     only three times, all inside the 19th-century editor's own prose. Cyprian's Latin letters do use
     it in running text, so 'the people' is the English volume's recurring rendering and a working handle,
     not a settled headword.

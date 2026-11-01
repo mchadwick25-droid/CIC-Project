@@ -29,3 +29,5 @@ assignments:
       identification Doc_01 discloses. Bilingual edition; the English translation is primary
       evidence in the ordinary sense, the accompanying Latin text and
       apparatus are useful for checking a specific reading against it.
+    translator: {name: "Herbert T. Weiskotten (editor of the revised Latin text and author of the English version)", source: "possidius_vita-augustini_weiskotten1919.txt line 53: EDITED WITH REVISED TEXT, INTRODUCTION, NOTES, AND AN ENGLISH VERSION BY HERBERT T. WEISKOTTEN", formation_confidence: Documented}
+    edition_date: {year: 1919, source: "possidius_vita-augustini_weiskotten1919.txt line 69: Published 1919.", formation_confidence: Documented}

@@ -74,3 +74,15 @@ What the code does with an unset `voice_of` (checked 2026-10-31):
 - `engine/m10/quotes.py` runs its mixed-voice speaker check only on files that have at least one row with `voice_of`. A file whose rows are all unset gets no speaker check from that gate. This is a gap in the check, not a change made here.
 
 Keeps transparency: no row loses a field; the 47 rows stay on the shelf with their role and confidence.
+
+## CO-S2-5. `translator` and `edition_date` on the shelf row (OG-140)
+
+Changes: `cic/engine/corpus_map.py` gains two optional row fields, kept by the merge like the others. `translator` is a mapping `{name, source, formation_confidence}`, where `name` is the translator as the vendored file prints it (for a Latin edition, its editor) and `source` is the file and line that state it; `edition_date` is `{year, source, formation_confidence}`, the year the vendored file states for the edition it holds. Either may be `{formation_confidence: unknown, checked: "<where it was looked for>"}`. Confidence is one of the five formation levels; "Documented" only where the file states the fact in so many words. Nothing is filled from memory.
+
+Why: the quote card's second layer (template B, Decision-Log 52) shows the edition's words with their translator and date, and the source records carry only free-text `edition` and `citation`. The work's facts live on its row (CO-S2-1), so the fields go on the row, and the card reads them through the row the source record already points at.
+
+Number: every lpc row cited by a quote or term record carries both fields, set or `unknown` with where it was looked for; none is guessed.
+
+Keeps transparency: nothing is removed from any row or record; both fields are additive.
+
+Authority: coordination relay of 2026-11-01 after Mark chose template B. The shape of the two fields is the Library thread's reading of that request and is open to change.

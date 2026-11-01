@@ -337,6 +337,26 @@ results.append(check("validate applies the field rules and rejects unknown field
                      any("unknown field 'colour'" in f for f in _via_validate)
                      and any("neither a census movement id" in f for f in _via_validate)))
 
+# --- translator and edition_date: facts about the vendored edition, each with its source line ---
+_EDITION_OK = _fields(translator={"name": "Ernest Wallis", "source": "anf05_x.xml line 40", "formation_confidence": "Documented"},
+                      edition_date={"year": 1886, "source": "anf05_x.xml line 12", "formation_confidence": "Documented"})
+results.append(check("translator and edition_date with a source line and a confidence are accepted", _EDITION_OK == []))
+_EDITION_UNKNOWN = _fields(translator={"formation_confidence": "unknown", "checked": "title page; volume preface"},
+                           edition_date={"formation_confidence": "unknown", "checked": "title page"})
+results.append(check("translator and edition_date may be unknown with where it was looked for", _EDITION_UNKNOWN == []))
+results.append(check("translator without a source line is a finding",
+                     any("needs a non-empty `source`" in f for f in _fields(
+                         translator={"name": "A. B.", "formation_confidence": "Documented"}))))
+results.append(check("edition_date needs an integer year",
+                     any("year is missing or malformed" in f for f in _fields(
+                         edition_date={"year": "1886", "source": "x line 1", "formation_confidence": "Documented"}))))
+results.append(check("an unknown translator without `checked` is a finding",
+                     any("needs `checked`" in f for f in _fields(translator={"formation_confidence": "unknown"}))))
+results.append(check("a made-up confidence level is a finding",
+                     any("is not one of" in f for f in _fields(
+                         edition_date={"year": 1886, "source": "x line 1", "formation_confidence": "Not Attested"}))))
+
+
 
 def _ctx(**extra):
     return _fields(role="context", voice_of="fixture-synthetic-neighbour", **extra)

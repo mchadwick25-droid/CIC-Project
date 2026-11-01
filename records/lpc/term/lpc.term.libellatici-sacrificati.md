@@ -32,10 +32,12 @@ confidence:
     the same split in the editor's words, and nothing in this record rests on that endnote.
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle LI (to Antonianus) 13 and 17 -- the view that those who receive certificates are to be
-    put on a par with those who have sacrificed is refused ('libellaticos cum sacrificatis aequari oportere'),
-    and the decision is reported that the first be admitted in the meantime and the second be helped
-    at death ('libellaticos interim admitti, sacrificatis in exitu subueniri')
+  locus: Epistle LI (to Antonianus) 13 and 17 -- the view that those who receive certificates are to
+    be put on a par with those who have sacrificed is refused ('libellaticos cum sacrificatis aequari
+    oportere'), and the decision is reported that the first be admitted in the meantime and the second
+    be helped at death ('libellaticos interim admitti, sacrificatis in exitu subueniri'); verified directly
+    against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 33676-33679 and 33780-33784 (section 17); Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
+    lines 7837-7840 and 7978-7981
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis 27 and 28 -- the act of sacrifice and the act of the certificate as two kinds of failure

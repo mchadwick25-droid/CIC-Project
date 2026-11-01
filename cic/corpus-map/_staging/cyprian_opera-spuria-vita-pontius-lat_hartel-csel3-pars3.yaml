@@ -46,6 +46,10 @@ assignments:
       own election and the Curubis exile passage this world's own Doc_01
       draws on directly are both in this Latin text.
 
+    translator: {name: "none (Latin edition); editor: Wilhelm (Guilelmus) Hartel (CSEL 3, Pars III)", source: "cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt line 2: Wilhelm (Guilelmus) Hartel (Editor)", formation_confidence: Documented}
+
+    edition_date: {year: 1871, source: "cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt line 4: Publication Date: 1871", formation_confidence: Documented}
+
   - row_id: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3--acta-proconsularia-sancti-cypriani-cyprian-s-own-trial-and
     work: "Acta Proconsularia Sancti Cypriani (Cyprian's own trial and martyrdom record)"
     author: cyprian
@@ -61,3 +65,7 @@ assignments:
       Not previously vendored in any form (Source_Registry.md row 41 named
       this as "not independently located at a separately citable URL" -- now
       closed by this same file). Cyprian's own martyrdom record, in Latin.
+
+    translator: {name: "none (Latin edition); editor: Wilhelm (Guilelmus) Hartel (CSEL 3, Pars III)", source: "cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt line 2: Wilhelm (Guilelmus) Hartel (Editor)", formation_confidence: Documented}
+
+    edition_date: {year: 1871, source: "cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt line 4: Publication Date: 1871", formation_confidence: Documented}

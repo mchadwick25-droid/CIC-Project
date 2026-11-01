@@ -114,6 +114,8 @@ assignments:
       pagan critics and Book X engages Porphyry, but the census has no pagan
       bucket and the Platonist engagement is Augustine's, not Alexandria's —
       this restraint follows a deliberate per-work framing.
+    translator: {name: "Rev. Marcus Dods, D.D. (Books IV, XVII, XVIII by Rev. George Wilson; Books V-VIII by Rev. J. J. Smith)", source: "npnf102_augustine-city-of-god-christian-doctrine.xml line 753: translated by Rev. Marcus Dods, D.D.", formation_confidence: Documented}
+    edition_date: {year: 1886, source: "npnf102_augustine-city-of-god-christian-doctrine.xml line 744: New York, December 10, 1886.", formation_confidence: Inferential-Thin}
 
   - row_id: npnf102_augustine-city-of-god-christian-doctrine--city-of-god-2
     work: "City of God"

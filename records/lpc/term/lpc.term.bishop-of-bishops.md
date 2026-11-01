@@ -45,7 +45,8 @@ sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: the 256 Council preface -- 'For neither does any of us set himself up as a bishop of bishops,
     nor by tyrannical terror does any compel his colleague to the necessity of obedience; since every
-    bishop... has his own proper right of judgment'
+    bishop... has his own proper right of judgment'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 56871-56884; Latin at cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt, lines 140-147
   license: public-domain
 retrieval:
   tier: 2
