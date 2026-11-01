@@ -67,8 +67,16 @@ describe('GlossMark term card', () => {
     render(<GlossMark label="catechumen" gloss={gloss} />);
     open();
     expect(screen.getByText('Edition, translator and date: unavailable')).toBeTruthy();
-    expect(screen.getByText('Text in the Library: unavailable')).toBeTruthy();
+    expect(screen.getByText('Line span in the Library: unavailable')).toBeTruthy();
     expect(document.querySelector('.level3 a, [role="dialog"] a')).toBeNull();
+  });
+
+  it('renders a gloss logged before the card fields existed', () => {
+    const old = { id: gloss.id, matched_name: 'catechumen', plain_meaning: gloss.plain_meaning, quick_meaning: gloss.quick_meaning, translational_sense: null, false_friend: [], sourced_by: [] } as unknown as GlossUsed;
+    render(<GlossMark label="catechumen" gloss={old} />);
+    open();
+    expect(labels()).toEqual(['In plain English', 'What it rests on']);
+    expect(screen.getByText('Sources: unavailable')).toBeTruthy();
   });
 
   it('says unavailable when the term has no source at all, and drops absent layers', () => {

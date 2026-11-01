@@ -209,3 +209,13 @@ def test_fields_with_role_filters_correctly():
     ]
     assert fields_with_role("nonexistent-type") == []
     assert fields_with_role("nonexistent-type", "voice-diet") == []
+
+
+def test_card_page_fields_stay_out_of_what_the_voice_sees():
+    from engine.m1.spoken_fields import voiced_fields
+    from engine.m4.absence_rule import spoken_text
+    card_only = ["senses.translational", "senses.heard_today", "senses.meant_here"]
+    assert all(SPOKEN_FIELDS["term"][f].role == "card-page" for f in card_only)
+    assert not set(card_only) & set(voiced_fields("term"))
+    record = {"record_type": "term", "plain_meaning": "A certificate.", "senses": {"heard_today": "A modern ear hears a licence."}}
+    assert spoken_text(record) == "A certificate."

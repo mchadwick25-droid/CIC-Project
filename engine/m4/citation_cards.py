@@ -166,7 +166,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         if source_record.get("citation"):
             sources.append({
                 "source_id": source_id, "citation": source_record["citation"], "author": None, "work": None,
-                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": None, **vendored,
+                "locus": display_locus(entry.get("locus") or "") or None, "rights_status": None, "edition": source_record.get("edition"), **vendored,
             })
             continue
         candidate = {

@@ -52,7 +52,7 @@ function RestsOn({ source }: { source: SourceReference }) {
           </span>
         ))
       ) : (
-        <Unavailable what="Text in the Library" />
+        <Unavailable what="Line span in the Library" />
       )}
     </li>
   );
@@ -64,6 +64,7 @@ export function GlossMark({ label, gloss }: GlossMarkProps) {
   const split = Boolean(gloss.heard_today && gloss.meant_here);
   const worldSense = split ? gloss.meant_here : gloss.translational_sense;
   const id = gloss.id;
+  const restsOn = gloss.rests_on ?? [];
   return (
     <InlineBridge
       label={label}
@@ -79,31 +80,31 @@ export function GlossMark({ label, gloss }: GlossMarkProps) {
       level3={
         <>
           {gloss.plain_meaning && (
-            <div className="term-mark__layer">
+            <div className="term-mark__layer" role="group" aria-labelledby={`${id}-plain`}>
               <p className="term-mark__layer-label" id={`${id}-plain`}>{TERM_LAYER_PLAIN}</p>
-              <p aria-labelledby={`${id}-plain`}>{gloss.plain_meaning}</p>
+              <p>{gloss.plain_meaning}</p>
             </div>
           )}
 
           {(worldSense || split) && (
             <div className={split ? 'term-mark__contrast' : undefined}>
               {split && (
-                <div className="term-mark__layer">
+                <div className="term-mark__layer" role="group" aria-labelledby={`${id}-today`}>
                   <p className="term-mark__layer-label" id={`${id}-today`}>{TERM_LAYER_TODAY}</p>
-                  <p aria-labelledby={`${id}-today`}>{gloss.heard_today}</p>
+                  <p>{gloss.heard_today}</p>
                 </div>
               )}
-              <div className="term-mark__layer">
+              <div className="term-mark__layer" role="group" aria-labelledby={`${id}-world`}>
                 <p className="term-mark__layer-label" id={`${id}-world`}>{TERM_LAYER_WORLD}</p>
-                <p aria-labelledby={`${id}-world`}>{worldSense}</p>
+                <p>{worldSense}</p>
               </div>
             </div>
           )}
 
           {gloss.false_friend.length > 0 && (
-            <div className="term-mark__layer">
+            <div className="term-mark__layer" role="group" aria-labelledby={`${id}-friends`}>
               <p className="term-mark__layer-label" id={`${id}-friends`}>{TERM_LAYER_FRIENDS}</p>
-              <ul className="level3__false-friend" aria-labelledby={`${id}-friends`}>
+              <ul className="level3__false-friend">
                 {gloss.false_friend.map((f) => (
                   <li key={f}>{f}</li>
                 ))}
@@ -111,16 +112,16 @@ export function GlossMark({ label, gloss }: GlossMarkProps) {
             </div>
           )}
 
-          <div className="term-mark__layer">
+          <div className="term-mark__layer" role="group" aria-labelledby={`${id}-rests`}>
             <p className="term-mark__layer-label" id={`${id}-rests`}>{TERM_LAYER_RESTS_ON}</p>
-            {gloss.rests_on.length > 0 ? (
-              <ul aria-labelledby={`${id}-rests`}>
-                {gloss.rests_on.map((s) => (
-                  <RestsOn key={s.source_id} source={s} />
+            {restsOn.length > 0 ? (
+              <ul>
+                {restsOn.map((s, i) => (
+                  <RestsOn key={`${s.source_id}-${i}`} source={s} />
                 ))}
               </ul>
             ) : (
-              <p aria-labelledby={`${id}-rests`}><Unavailable what="Sources" /></p>
+              <p><Unavailable what="Sources" /></p>
             )}
             {phrase && <p className="term-mark__confidence">{phrase}</p>}
           </div>

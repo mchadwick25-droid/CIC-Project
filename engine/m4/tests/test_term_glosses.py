@@ -204,7 +204,7 @@ def _term_repo(**changes):
     }
     term.update(changes)
     sources = {
-        "fix.source.one": {"id": "fix.source.one", "record_type": "source", "author": "Cyprian", "work": "Letters", "edition": "ANF vol. 5", "rights_status": "public-domain"},
+        "fix.source.one": {"id": "fix.source.one", "record_type": "source", "citation": "Cyprian, Letters, trans. Someone (1886)", "author": "Cyprian", "work": "Letters", "edition": "ANF vol. 5", "rights_status": "public-domain"},
         "fix.source.two": {"id": "fix.source.two", "record_type": "source", "author": "Cyprian", "work": "Letters", "edition": None, "rights_status": "public-domain"},
     }
     return {term["id"]: term, **sources}
@@ -245,3 +245,8 @@ def test_a_split_term_carries_both_new_senses_and_the_whole_block_stays_as_the_f
 def test_a_half_split_term_is_treated_as_unsplit_and_never_split_from_the_block():
     half = _gloss(senses={"translational": "A. B.", "heard_today": "A modern ear hears a licence."})
     assert half["heard_today"] is None and half["meant_here"] is None
+
+
+def test_a_source_with_a_citation_line_still_carries_its_edition():
+    one, _two = _gloss()["rests_on"]
+    assert one["citation"] == "Cyprian, Letters, trans. Someone (1886)" and one["edition"] == "ANF vol. 5"

@@ -46,6 +46,9 @@ because the same field can reach different surfaces differently:
   functions (`_figure_label`, `_quote_label`), not reimplemented here;
   this registry only declares which fields feed them, so a future field
   those helpers start reading has to be declared too.
+- "card-page": full sentences a card's click page shows that the voice never
+  sees (a term's senses). No voice-facing consumer reads them: they stay out
+  of the evidence block, the absence rule and the support check.
 - "facilitator-spoken": composed, multi-sentence prose the Facilitator's
   own apparatus (not the world's Representative voice) puts in front of
   a participant, whether spoken verbatim in a turn
@@ -68,7 +71,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class SpokenField:
-    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "facilitator-spoken"
+    role: str  # "instruction" | "voice-diet" | "evidence-head" | "participant-label" | "card-page" | "facilitator-spoken"
     note: str = ""
 
 
@@ -102,9 +105,9 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
         "plain_meaning": SpokenField("voice-diet", "build_prompt + _chunk_text + evidence-head"),
         "quick_meaning": SpokenField("voice-diet"),
         "world_word": SpokenField("participant-label", "prompt section header + citation-card label + _chunk_text"),
-        "senses.translational": SpokenField("evidence-head", "shown on the term's card page in 'In this world' when the term is not yet split into heard_today and meant_here; readability-graded"),
-        "senses.heard_today": SpokenField("evidence-head", "shown on the term's card page as 'How we hear it today'; readability-graded"),
-        "senses.meant_here": SpokenField("evidence-head", "shown on the term's card page as 'In this world'; readability-graded"),
+        "senses.translational": SpokenField("card-page", "shown on the term's card page under 'In this world' for a term not yet split into heard_today and meant_here"),
+        "senses.heard_today": SpokenField("card-page", "shown on the term's card page as 'How we hear it today'"),
+        "senses.meant_here": SpokenField("card-page", "shown on the term's card page as 'In this world'"),
     },
     "gravity": {
         "name": SpokenField("participant-label", "build_prompt's Gravities list + citation-card label fallback"),
@@ -188,6 +191,12 @@ def field_texts(record: dict, field: str) -> list[str]:
     if isinstance(value, list):
         return [v for v in value if isinstance(v, str)]
     return []
+
+
+def voiced_fields(record_type: str) -> list[str]:
+    """Every declared field for a type except the card-page ones, which the
+    voice never sees."""
+    return [name for name, sf in SPOKEN_FIELDS.get(record_type, {}).items() if sf.role != "card-page"]
 
 
 def fields_with_role(record_type: str, *roles: str) -> list[str]:
