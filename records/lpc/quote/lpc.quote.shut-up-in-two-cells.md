@@ -53,10 +53,10 @@ license: verbatim
 modern_lens_note: 'A modern listener may expect a clear sentence. Lucian wrote from prison, and the ANF
   translator calls the Latin confused. What is clear is the sentence on the confessors: death by hunger
   and thirst, in two cells. ''The brightness itself'' is the glory he believes they have reached by confessing.'
-modern_rendering: So you see, brother, how I have done this. It is partly what Paulus told me, and partly
-  what we all decided for everyone while we were in this trouble. In it, by the emperor's command, we
-  were ordered to be put to death by hunger and thirst. We were shut up in two cells, so that they might
-  weaken us by hunger and thirst. Besides, the fire that came with our torture was so unbearable that
-  no one could endure it. But now we have reached the brightness itself.
+modern_rendering: So you see, brother, how I have done this. It is in part what Paulus told me, and also
+  what we decided in every case while we were in this trouble. In it, by the emperor's command, we were
+  ordered to be put to death by hunger and thirst. We were shut up in two cells, so that they might weaken
+  us by hunger and thirst. Besides, the fire that came with our torture was so unbearable that no one
+  could endure it. But now we have reached the brightness itself.
 ---
 Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30702-30711. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3298-3305. The first part of the section, Paulus's charge to Lucian, is left out. A translator's note inside the passage is stripped. The passage carries the story lpc.story.celerinus-writes-to-lucian.

@@ -53,7 +53,7 @@ modern_lens_note: 'A modern listener may hear ''discipline'' as punishment. The 
 modern_rendering: And so the judge read the sentence from his tablet, the one he had not read in the vision
   a little before. It was a spiritual sentence, not to be spoken lightly. It was a sentence worthy of
   such a bishop and such a witness. It was a glorious sentence. In it Cyprian was called a standard-bearer
-  of the sect and an enemy of the gods. He was to be an example to his own people, and with his blood
-  discipline would begin to be made firm.
+  of the sect and an enemy of the gods. It also called him one who was to be an example to his own people.
+  And it said that with his blood, discipline would begin to be made firm.
 ---
 Pontius, Life and Passion of Cyprian, section 17. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28231-28237. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41312-41317 (OCR text). The present tense 'reads' is the translator's; the Latin legit can be either tense. The Acta gives the sentence in nearly the same words. The passage carries the story lpc.story.the-death-of-cyprian.

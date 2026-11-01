@@ -53,8 +53,8 @@ modern_lens_note: A modern listener may not know Tobias, who is Tobit in the Boo
   the dead of his own people whom the king had killed and thrown out. Pontius claims that more was done
   in the plague at Carthage, because the help went to everyone.
 modern_rendering: So good was done, in a flood of generous works, to all people, not only to those of
-  the household of faith. More was done than is recorded of the matchless kindness of Tobias. Tobias must
-  forgive, and forgive again, and often forgive. Or, to speak more truly, he must rightly grant this.
+  the household of faith. More was done than is recorded of the matchless kindness of Tobias. Let Tobias
+  forgive, and forgive again, and often forgive. Or, to speak more truly, let him rightly grant this.
   Much could be done before Christ, but something more could be done after Christ, since all fullness
   belongs to His times. Tobias gathered those whom the king had killed and thrown out, but only those
   of his own race.

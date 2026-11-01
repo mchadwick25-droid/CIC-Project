@@ -20,7 +20,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: modern_rendering follows the Latin where the English misleads - suorum is 'their own people', not 'friends', and offertur is passive, so the rendering does not say who offers the sacrifice.
 sources:
 - source_id: lpc.source.augustine-the-enchiridion
   locus: Enchiridion, chapter 110 (chapter CX in the Latin), first part; English at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml,
@@ -60,12 +60,13 @@ modern_lens_note: A modern listener may think prayers or gifts could still chang
   such merit'. He says 'it is in this life that all the merit or demerit is acquired'. No one need hope
   to gain after death what he 'neglected to secure here'.
 modern_rendering: Nor can it be denied that the souls of the dead are helped by the devotion of their
-  living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their
-  behalf. But these services help only those who earned, during their lives, the kind of merit that lets
-  such services help them. For there is a way of life that is not so good that it needs no such help after
-  death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good
-  that it does not need them. And there is one so bad that, when life is over, they give no help. So all
-  merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this
-  life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.
+  own living people. This is when the sacrifice of the Mediator is offered for them, or alms are given
+  in the church on their behalf. But these services help only those who earned, during their lives, the
+  kind of merit that lets such services help them. For there is a way of life that is not so good that
+  it needs no such help after death. Nor is it so bad that such help is of no use after death. There is
+  also a kind of life so good that it does not need them. And there is one so bad that, when life is over,
+  they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person's
+  sufferings after this life. No one, then, should hope to gain after death the merit with God that he
+  neglected to secure here.
 ---
 Augustine, Enchiridion, chapter 110 (chapter CX in the Latin text), from the opening to 'neglected to secure here.'. English in the NPNF translation at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23550-23564. Latin (Bruder, 1838) at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12430-12448 (OCR text, with misreads; a page header and footnote marks at lines 12444-12447 sit inside the range and are not part of the passage). The rest of chapter 110, from 'And accordingly it is plain' to 'the different kinds of lives that men lead in the body?', is left out. The closing sentences are at lpc.quote.thank-offerings-for-the-very-good. In the Latin, hic omne meritum comparatur is 'here all merit is acquired'. The passage carries the witness lpc.witness.judged-on-the-life-lived-here.
