@@ -70,8 +70,8 @@ describe('StoryMark quote card edition facts', () => {
     };
     const { container } = render(<StoryMark sources={[facts]} quote />);
     fireEvent.click(container.querySelector('.story-mark')!);
-    expect(document.body.textContent).toContain('Translated or edited by Rev. J. F. Shaw (the edition prints it)');
-    expect(document.body.textContent).toContain('Edition year: unavailable (checked: title page)');
+    expect(document.body.textContent).toContain('Translator or editor: Rev. J. F. Shaw (the edition prints it)');
+    expect(document.body.textContent).toContain('Edition year: unavailable');
   });
 
   it('shows the facts of the English edition source, not the Latin one', () => {
@@ -86,5 +86,35 @@ describe('StoryMark quote card edition facts', () => {
     fireEvent.click(container.querySelector('.story-mark')!);
     expect(document.body.textContent).toContain('English Translator');
     expect(document.body.textContent).not.toContain('Latin Editor');
+  });
+
+  it('does not show the English edition\'s translator under a Latin edition', () => {
+    const latin: SourceCard = {
+      ...quote,
+      edition_words: 'Deo gratias.',
+      edition_language: 'Latin',
+      sources: [{ ...quote.sources[0], vendored: [{ file: 'cic/texts/la.txt', lines: '1-2', label: 'Latin' }], translator: { name: 'English Translator', formation_confidence: 'Documented' } }],
+    };
+    const { container } = render(<StoryMark sources={[latin]} quote />);
+    fireEvent.click(container.querySelector('.story-mark')!);
+    expect(document.body.textContent).not.toContain('English Translator');
+    expect(document.body.textContent).toContain('Translator or editor: unavailable');
+  });
+
+  it('names the source each set of edition facts belongs to', () => {
+    const two: SourceCard = {
+      ...quote,
+      sources: [
+        { ...quote.sources[0], source_id: 'fix.source.a', citation: 'First work', vendored: [{ file: 'cic/texts/a.xml', lines: '1-2', label: 'English' }], translator: { name: 'First Translator', formation_confidence: 'Documented' } },
+        { ...quote.sources[0], source_id: 'fix.source.b', citation: 'Second work', vendored: [{ file: 'cic/texts/b.xml', lines: '1-2', label: 'English' }], translator: { name: 'Second Translator', formation_confidence: 'Documented' } },
+      ],
+    };
+    const { container } = render(<StoryMark sources={[two]} quote />);
+    fireEvent.click(container.querySelector('.story-mark')!);
+    const notes = Array.from(document.querySelectorAll('.story-mark__layer-note')).map((n) => n.textContent ?? '');
+    expect(notes[0]).toContain('First work');
+    expect(notes[0]).toContain('First Translator');
+    expect(notes[1]).toContain('Second work');
+    expect(notes[1]).toContain('Second Translator');
   });
 });

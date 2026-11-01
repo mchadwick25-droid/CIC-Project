@@ -95,15 +95,18 @@ describe('GlossMark edition facts', () => {
     const g = { ...gloss, rests_on: [source({ translator: fact({ name: 'Rev. E. Wallis' }), edition_date: fact({ year: 1885, formation_confidence: 'Inferential-Thin' }) })] };
     render(<GlossMark label="catechumen" gloss={g} />);
     open();
-    expect(screen.getByText('Translated or edited by Rev. E. Wallis (the edition prints it)')).toBeTruthy();
-    expect(screen.getByText('Edition year 1885 (thinly supported)')).toBeTruthy();
+    expect(screen.getByText('Translator or editor: Rev. E. Wallis (the edition prints it)')).toBeTruthy();
+    expect(screen.getByText('Edition year: 1885 (thinly supported)')).toBeTruthy();
   });
 
   it('says unavailable with what was checked where the row says unknown', () => {
     const g = { ...gloss, rests_on: [source({ translator: fact({ name: 'X' }), edition_date: { formation_confidence: 'unknown', checked: 'title pages and preface' } })] };
     render(<GlossMark label="catechumen" gloss={g} />);
     open();
-    expect(screen.getByText('Edition year: unavailable (checked: title pages and preface)')).toBeTruthy();
+    expect(screen.getByText('Edition year: unavailable')).toBeTruthy();
+    expect(screen.getByText('What was checked')).toBeTruthy();
+    expect(document.body.textContent).toContain('title pages and preface');
+    expect(document.body.textContent).not.toContain('(checked:');
   });
 
   it('says unavailable alone where the row holds nothing', () => {

@@ -37,6 +37,14 @@ function editionSources(card: SourceCard): SourceReference[] {
   return matching.length > 0 ? matching : card.sources.slice(0, 1);
 }
 
+// A source record's facts describe the edition its row names, which is the
+// English one. Under an edition in another language they are not shown as that
+// edition's own.
+function editionFactsFor(card: SourceCard, source: SourceReference): SourceReference {
+  const english = !card.edition_language || card.edition_language === 'English';
+  return english ? source : { ...source, translator: null, edition_date: null };
+}
+
 interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
   repeat?: boolean;
@@ -92,9 +100,11 @@ export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps)
                 <div className="story-mark__edition story-mark__layer">
                   <p className="story-mark__layer-label" id={`${card.record_id}-edition`}>{QUOTE_LAYER_EDITION}</p>
                   <blockquote aria-labelledby={`${card.record_id}-edition`} lang={card.edition_language ? LANGUAGE_TAGS[card.edition_language] : undefined}>{card.edition_words}</blockquote>
-                  {card.sources[0]?.citation && <p className="story-mark__layer-note">{card.sources[0].citation}</p>}
                   {editionSources(card).map((s) => (
-                    <p key={s.source_id} className="story-mark__layer-note"><EditionFacts source={s} /></p>
+                    <div key={s.source_id} className="story-mark__layer-note">
+                      {s.citation && <p>{s.citation}</p>}
+                      <EditionFacts source={editionFactsFor(card, s)} />
+                    </div>
                   ))}
                 </div>
               )}

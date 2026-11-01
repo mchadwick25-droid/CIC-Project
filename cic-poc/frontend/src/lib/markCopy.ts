@@ -44,3 +44,4 @@ export const EDITION_FACT_SURENESS: Record<string, string> = {
   Contested: 'contested',
   'Inferential-Thin': 'thinly supported',
 };
+export const EDITION_CHECKED_LABEL = 'What was checked';
