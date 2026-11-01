@@ -12,8 +12,8 @@ Starts from `bound/items.jsonl` (engine.m3.test100_bound). Prompts go to
 `check/<stage>/prompts/<question>.md` and replies are read from
 `check/<stage>/replies/<question>.txt`; `import` also writes `check/fit.jsonl`, one row per placed passage (the score sheet's fit columns). Stages: `read` (every answer with a bound
 sentence or a placed passage), `rewrite` (each answer where something failed and enough
-survives), `reread` (each accepted rewrite). `final` writes `check/final/<question>.txt`
-and `check/summary.json`. A missing or unreadable reply keeps what it was asked about and
+survives), `reread` (each accepted rewrite). `final` writes `check/final/<question>.txt`,
+`check/endings.json` (how each answer ended) and `check/summary.json`. A missing or unreadable reply keeps what it was asked about and
 is counted (`pending_*`, `unreadable`); a run is complete only when those are zero.
 The prompts carry question wording, so the run directory must lie outside the repository.
 """
@@ -145,6 +145,7 @@ def final(rows: list, work: Path, records: dict) -> dict:
     rewritten = {r["question_id"]: r for r in _load(work / "check" / "rewrite.jsonl")}
     counts: Counter = Counter()
     problems: Counter = Counter()
+    endings: dict[str, str] = {}
     out_dir = work / "check" / "final"
     out_dir.mkdir(parents=True, exist_ok=True)
     for question, units in rows:
@@ -161,9 +162,11 @@ def final(rows: list, work: Path, records: dict) -> dict:
         if row["status"] == "clean":
             text = start.read_text(encoding="utf-8") if start.exists() else ac.assemble(units)
             counts["clean"] += 1
+            endings[qid] = "clean"
         elif row["status"] == "too_little":
             text = bound_draft.FALLBACK_ALONE
             counts["abstained_too_little"] += 1
+            endings[qid] = "abstained_too_little"
         else:
             rewrite = rewritten.get(qid)
             if rewrite is None:
@@ -172,6 +175,7 @@ def final(rows: list, work: Path, records: dict) -> dict:
             if rewrite["rewrite"] is None:
                 text = bound_draft.FALLBACK_ALONE
                 counts["abstained_rewrite_refused"] += 1
+                endings[qid] = "abstained_rewrite_refused"
             else:
                 reply = _reply(work, "reread", qid)
                 if reply is None:
@@ -182,11 +186,14 @@ def final(rows: list, work: Path, records: dict) -> dict:
                 if result is None or result["unsupported"] or result["unreadable"]:
                     text = bound_draft.FALLBACK_ALONE
                     counts["abstained_rewrite_failed_read"] += 1
+                    endings[qid] = "abstained_rewrite_failed_read"
                 else:
                     text = ac.assemble(rewrite["rewrite"])
                     counts["rewritten"] += 1
+                    endings[qid] = "rewritten"
         (out_dir / f"{qid}.txt").write_text(text, encoding="utf-8")
         counts["answers"] += 1
+    (work / "check" / "endings.json").write_text(json.dumps(endings, indent=1, sort_keys=True), encoding="utf-8")
     summary = {**counts, "problems": dict(problems)}
     (work / "check" / "summary.json").write_text(json.dumps(summary, indent=1, sort_keys=True), encoding="utf-8")
     return summary

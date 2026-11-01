@@ -142,11 +142,11 @@ def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict], ju
 
 def survivors(answer_units: list[dict], result: dict) -> list[dict]:
     """The units that stay: not unsupported, not a dropped placement, and not the lead-in of a
-    dropped placement (a sentence bound to that record alone, standing just before it)."""
+    dropped placement (a sentence bound to that record, standing just before it)."""
     out = []
     for i, u in enumerate(answer_units):
         following = answer_units[i + 1] if i + 1 < len(answer_units) else {}
-        lead_in = bool(u["records"]) and not u.get("placed") and following.get("placed_id") in result["dropped"] and u["records"] == [following.get("placed_id")]
+        lead_in = bool(u["records"]) and not u.get("placed") and following.get("placed_id") in result["dropped"] and following.get("placed_id") in u["records"]
         if i not in result["unsupported"] and u.get("placed_id") not in result["dropped"] and not lead_in:
             out.append(u)
     return out

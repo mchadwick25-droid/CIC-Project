@@ -202,3 +202,15 @@ def test_the_rewrite_request_teaches_the_tag_form_and_shows_ids_in_it(records):
     request = ac.rewrite_request("Q?", _answer(), {"unsupported": {1: {}}, "dropped": [], "unreadable": 0}, records)
     assert "double square brackets" in request["system"] and "[[lpc.witness.example]]" in request["system"]
     assert f"KEPT [bound to [[{WITNESS}]]]" in request["user"]
+
+
+def test_the_lead_in_goes_with_a_dropped_quote_even_when_it_also_cites_another_record(records):
+    answer = [_unit("Pontius tells how Cyprian was chosen:", [WITNESS, QUOTE]), _unit("Love, and do what you will.", [QUOTE], QUOTE), _unit("A claim.", [WITNESS])]
+    kept = ac.survivors(answer, {"unsupported": {}, "dropped": [QUOTE], "unreadable": 0})
+    assert [u["sentence"] for u in kept] == ["A claim."]
+
+
+def test_final_records_how_each_answer_ended(tmp_path, records):
+    _work(tmp_path, "too_little")
+    runner.final([({"id": "q1"}, _answer())], tmp_path, records)
+    assert json.loads((tmp_path / "check" / "endings.json").read_text()) == {"q1": "abstained_too_little"}

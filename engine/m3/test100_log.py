@@ -6,7 +6,7 @@ check's judgements, the placement verdicts, how the answer ended, and its final 
   python -m engine.m3.test100_log --set <set.yaml> --work <run dir>
 
 Reads `answers/`, `bound/items.jsonl`, `check/read.jsonl`, `check/rewrite.jsonl`,
-`check/fit.jsonl` and `check/final/`. Writes `log/<question>.json` and
+`check/fit.jsonl`, `check/endings.json` and `check/final/`. Writes `log/<question>.json` and
 `log/summary.json`. The records carry question wording, so the run directory must
 lie outside the repository.
 """
@@ -29,24 +29,17 @@ def _by_question(rows: list[dict]) -> dict[str, list[dict]]:
     return out
 
 
-def ending(read: dict | None, rewrite: dict | None, final: str | None) -> str:
-    if read is None or final is None:
-        return "incomplete"
-    if read["status"] == "clean":
-        return "clean"
-    if read["status"] == "too_little":
-        return "abstained_too_little"
-    if rewrite is None:
-        return "incomplete"
-    if rewrite["rewrite"] is None:
-        return "abstained_rewrite_refused"
-    return "rewritten" if final and not final.startswith("We do not have that here.") else "abstained_rewrite_failed_read"
+def ending(endings: dict[str, str], question_id: str, final: str | None) -> str:
+    """How the answer ended, as `test100_check final` recorded it."""
+    return endings.get(question_id, "incomplete") if final is not None else "incomplete"
 
 
 def run(questions: list[dict], work: Path) -> dict:
     bound, fit = _by_question(_load(work / "bound" / "items.jsonl")), _by_question(_load(work / "check" / "fit.jsonl"))
     read = {r["question_id"]: r for r in _load(work / "check" / "read.jsonl")}
     rewrite = {r["question_id"]: r for r in _load(work / "check" / "rewrite.jsonl")}
+    endings_path = work / "check" / "endings.json"
+    endings = json.loads(endings_path.read_text(encoding="utf-8")) if endings_path.exists() else {}
     out_dir = work / "log"
     out_dir.mkdir(parents=True, exist_ok=True)
     counts: Counter = Counter()
@@ -57,7 +50,7 @@ def run(questions: list[dict], work: Path) -> dict:
         answer = json.loads(path.read_text(encoding="utf-8"))
         final_path = work / "check" / "final" / f"{question['id']}.txt"
         final = final_path.read_text(encoding="utf-8") if final_path.exists() else None
-        how = ending(read.get(question["id"]), rewrite.get(question["id"]), final)
+        how = ending(endings, question["id"], final)
         record = {
             "question_id": question["id"], "group": question["group"], "question": question_text(question),
             "sub_question": answer.get("sub_question"), "offered": answer.get("offered", []),

@@ -8,14 +8,11 @@ def _read(status):
     return {"question_id": "q1", "status": status, "units": [], "unsupported": {}, "dropped": []}
 
 
-def test_how_an_answer_ended():
-    assert log.ending(_read("clean"), None, "text") == "clean"
-    assert log.ending(_read("too_little"), None, "We do not have that here.") == "abstained_too_little"
-    assert log.ending(_read("rewrite"), None, "x") == "incomplete"
-    assert log.ending(_read("rewrite"), {"rewrite": None}, "We do not have that here.") == "abstained_rewrite_refused"
-    assert log.ending(_read("rewrite"), {"rewrite": [{}]}, "A rewritten answer.") == "rewritten"
-    assert log.ending(_read("rewrite"), {"rewrite": [{}]}, "We do not have that here.") == "abstained_rewrite_failed_read"
-    assert log.ending(None, None, None) == "incomplete"
+def test_how_an_answer_ended_is_what_the_check_recorded_not_a_guess_from_its_text():
+    endings = {"q1": "rewritten", "q2": "abstained_too_little"}
+    assert log.ending(endings, "q1", "We do not have that here. Then more.") == "rewritten"
+    assert log.ending(endings, "q2", "We do not have that here.") == "abstained_too_little"
+    assert log.ending(endings, "q3", "text") == "incomplete" and log.ending(endings, "q1", None) == "incomplete"
 
 
 def test_a_record_is_written_per_answer_with_its_stages(tmp_path):
@@ -25,6 +22,7 @@ def test_a_record_is_written_per_answer_with_its_stages(tmp_path):
     (tmp_path / "bound" / "items.jsonl").write_text(json.dumps({"question_id": "q1", "n": 0, "sentence": "Shown.", "tags": ["a.b.c"], "label": "paraphrase", "decision": "keep", "reason": None, "placed": False, "placed_id": None}) + "\n", encoding="utf-8")
     (tmp_path / "check" / "final").mkdir(parents=True)
     (tmp_path / "check" / "read.jsonl").write_text(json.dumps(_read("clean")) + "\n", encoding="utf-8")
+    (tmp_path / "check" / "endings.json").write_text(json.dumps({"q1": "clean"}), encoding="utf-8")
     (tmp_path / "check" / "final" / "q1.txt").write_text("Shown.", encoding="utf-8")
     summary = log.run([{"id": "q1", "group": "B", "wording": "A question?"}], tmp_path)
     record = json.loads((tmp_path / "log" / "q1.json").read_text())
