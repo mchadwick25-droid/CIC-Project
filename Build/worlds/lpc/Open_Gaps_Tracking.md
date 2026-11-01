@@ -2672,3 +2672,11 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Owner.** Library thread, through the coordination thread.
 
 - **OG-147 follow-up (2026-11-01).** The lpc readability waiver in the fleet gate (`m1:readability/lpc`) was tightened from 13 to 12, because the Election `tellable_as` fix removed one of the 13 findings it covered (the gate itself asks for the tighten; waivers only shrink).
+
+### OG-148. Tellings told aloud, the seven lpc stories (2026-11-01).
+
+- **Done.** Mark read the Plague and Psalms tellings ("the stories seem to read too formal and don't flow as well, these need to be told as stories not quotes") and added "no hanging or tail sentences". All seven stories' `telling_short`, `telling_medium`, `telling_long` and base `telling` were rewritten as a story told aloud: scenes in order, plain words, the world's voice (a speaker is named once where it matters), quotes rare and only raw cited English, no tail sentences, written to be heard, ending on the last event. Unchanged rules held: cited sources only, every event kept, nothing invented, ease at least 60. Writers: Opus, one per story; one independent Opus reader per story on the changed items, with "reads like a story told aloud, not a report" and the no-tail rule as criteria; the readers applied their own exact corrections and nothing was read a second time.
+- **Done: record fields kept consistent.** `events` `rests_on` strings were re-pointed so each occurs in `text` or `telling` (Celerinus, Sesterces, Plague, Death); Sesterces and Death gain one `text` sentence; Psalms' events now put the death before the will, as in the passage.
+- **Not read by a second reader:** in the Plague tellings the sentence "No one had ever matched the kindness of Tobias" (a reader-applied wording that claimed more than the passage) was changed to "The old story tells of the great kindness of Tobias" (the passage says more was done than is recorded of his kindness). Flag for any later read. Owner: Library thread.
+- **Open: the short and medium tellings of Sesterces, Death, Psalms, Celerinus sit at or one word under their gate limits** (103 and 184 words); any later edit must trim as it adds.
+- **Owner.** Library thread, through the coordination thread.
