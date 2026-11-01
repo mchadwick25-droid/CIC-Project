@@ -31,3 +31,5 @@ Mark added on 2026-11-01 (Decision-Log 56): "b, but we need the modern misunders
 ## Schema: the contrast split at the source
 
 Coordination ruled on 2026-11-01 that the contrast is split at the source, not by sentence in code. `Schema_Change_Order_Term_Senses_Split.md` adds two optional fields to a term record's `senses`: `heard_today` (how people hear the word today) and `meant_here` (what the word means in this world). The card renders the two-column contrast from them; a term not yet split shows the whole `senses.translational` block as the fallback. No code splits `senses.translational` by sentence.
+
+The card build registers `senses.translational`, `senses.heard_today` and `senses.meant_here` in the spoken-field registry, so the readability gate and the leak scans cover the text a participant will see on the card; they are not registered today.

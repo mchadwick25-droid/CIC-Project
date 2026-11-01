@@ -6,16 +6,17 @@ to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
 import re
+from functools import lru_cache
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from engine.prose import is_guard_marker_line, quote_aware_sentences
+from engine.prose import is_guard_marker_line, locus_refs, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade, fre_score
 from .loader import home_for_record_type, voiced_records
-from .quote_verbatim import gate_quote_verbatim
+from .quote_verbatim import _NOTE_BLOCK_RE, _TAG_RE, gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
 from .witness_quotations import gate_witness_quotation_verbatim
@@ -250,26 +251,35 @@ STORY_TELLING_LENGTH_TOLERANCE = 1.15
 # 169 words a minute. 615 is a ceiling with no tolerance; there is no floor, a story whose record and
 # cited source hold less is as long as they allow.
 STORY_LONG_TELLING_MAX_WORDS = 615
-_TEXTS_ROOT = Path(__file__).resolve().parents[2]
-_MARKUP = re.compile(r"<[^>]+>")
+_REPO_ROOT = Path(__file__).resolve().parents[2]
 _WORD = re.compile(r"[A-Za-z0-9']+")
 _SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
 
-def _cited_passage(rec: dict) -> str:
-    """The text at the vendored line spans the record's sources cite, markup removed."""
-    from engine.prose import locus_refs
+@lru_cache(maxsize=32)
+def _vendored_lines(file: str) -> tuple[str, ...] | None:
+    path = _REPO_ROOT / file
+    return tuple(path.read_text(encoding="utf-8", errors="replace").splitlines()) if path.is_file() else None
 
-    words = []
+
+def _cited_spans(rec: dict) -> tuple[list[str], list[str]]:
+    """The text at the vendored line spans the record's sources cite, with the editor's notes and
+    markup removed over the whole span, and the cited spans that do not resolve to lines of a vendored file."""
+    texts, unresolved = [], []
     for source in rec.get("sources") or []:
         for ref in locus_refs(source.get("locus") or ""):
-            path = _TEXTS_ROOT / ref["file"]
-            if not path.is_file():
-                continue
+            lines = _vendored_lines(ref["file"])
             first, last = (int(n) for n in ref["lines"].split("-"))
-            lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
-            words += [_MARKUP.sub(" ", line) for line in lines[first - 1:last]]
-    return " ".join(words)
+            if lines is None or first < 1 or last < first or last > len(lines):
+                unresolved.append(f"{ref['file']}, lines {ref['lines']}")
+                continue
+            span = _NOTE_BLOCK_RE.sub(" ", "\n".join(lines[first - 1:last]))
+            texts.append(_TAG_RE.sub(" ", span))
+    return texts, unresolved
+
+
+def _cited_passage(rec: dict) -> str:
+    return " ".join(_cited_spans(rec)[0])
 
 
 def _story_vocabulary(rec: dict, with_passage: bool = False) -> set[str]:
@@ -303,9 +313,12 @@ def _story_telling_findings(rid: str, rec: dict) -> list[str]:
             if not isinstance(event, dict) or _is_blank(event.get("line")) or _is_blank(event.get("rests_on")):
                 findings.append(f"{rid}: events[{i}] needs a non-empty line and rests_on")
     if tellings and not any(isinstance(e, dict) and e.get("essential") for e in events or []):
-        findings.append(f"{rid}: a shorter telling needs events with at least one marked essential")
+        findings.append(f"{rid}: a short, medium or long telling needs events with at least one marked essential")
     vocabulary = _story_vocabulary(rec)
     long_vocabulary = _story_vocabulary(rec, with_passage=True) if "telling_long" in tellings else vocabulary
+    if "telling_long" in tellings:
+        for span in _cited_spans(rec)[1]:
+            findings.append(f"{rid}: telling_long rests on a cited span that does not resolve to lines of a vendored text: {span}")
     for field, telling in tellings.items():
         words = len(telling.split())
         if field == "telling_long":
@@ -331,7 +344,9 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
     - term.senses.translational: the actual today-vs-world bridge
       sentence - required to be a real, non-blank string; senses itself
       being present (COMPLETION_REQUIRED's own check) says nothing about
-      whether this specific nested field was ever filled in."""
+      whether this specific nested field was ever filled in.
+    - term.senses.heard_today and term.senses.meant_here: optional, but a
+      pair, and each a non-blank string when present."""
     findings = []
     for rid, rec in records.items():
         if rec.get("record_type") != "term":

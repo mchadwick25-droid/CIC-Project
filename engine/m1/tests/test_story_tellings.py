@@ -120,3 +120,24 @@ def test_a_name_outside_the_record_and_its_passage_is_a_finding_in_a_long_tellin
     rec = _long(_with_fields(_story()))
     rec["telling_long"] += " Then Tertullian wrote back."
     assert any("telling_long uses 'tertullian'" in f for f in _narratability(rec))
+
+
+def test_the_cited_passage_leaves_out_the_editors_notes_and_markup():
+    rec = _long(_with_fields(_story()))
+    passage = gates._cited_passage(rec)
+    assert "<" not in passage and "</note>" not in passage
+    assert "250" not in gates._story_vocabulary(rec, with_passage=True) - gates._story_vocabulary(rec)
+
+
+def test_a_cited_span_that_does_not_resolve_is_reported_for_a_long_telling():
+    rec = _long(_with_fields(_story()))
+    rec["sources"] = [{"source_id": "lpc.source.cyprian-epistles", "locus": "cic/texts/no_such_file.xml, lines 1-5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 9999999-99999999; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 20-10"}]
+    texts, unresolved = gates._cited_spans(rec)
+    assert texts == [] and len(unresolved) == 3
+    assert sum("does not resolve" in f for f in _narratability(rec)) == 3
+
+
+def test_a_story_with_no_long_telling_is_not_checked_for_unresolved_spans():
+    rec = _with_fields(_story())
+    rec["sources"] = [{"source_id": "lpc.source.cyprian-epistles", "locus": "cic/texts/no_such_file.xml, lines 1-5"}]
+    assert not any("does not resolve" in f for f in _narratability(rec))
