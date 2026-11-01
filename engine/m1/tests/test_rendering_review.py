@@ -66,10 +66,8 @@ def test_a_world_with_no_log_fails_every_rendering(tmp_path, monkeypatch):
     assert len(_run()) == 2
 
 
-def test_a_fixture_world_is_skipped(tmp_path, monkeypatch):
-    monkeypatch.setattr(rendering_review, "review_dir", lambda world_key: tmp_path / "absent")
-    monkeypatch.setattr(rendering_review, "is_fixture", lambda entry: True)
-    assert _run(registry={"w": {}}) == []
+def test_the_fixture_world_passes_its_own_log():
+    assert gate_rendering_review(load_world_records("fix"), {}, {}) == []
 
 
 def test_every_lpc_rendering_is_listed_in_the_real_log():

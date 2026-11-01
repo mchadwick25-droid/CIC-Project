@@ -9,15 +9,13 @@ rendering review log there (`Rendering_Review_Log*.md`) is a table with one row 
 The record cell is the record id with or without its `<world>.<type>.` prefix.
 A record passes when a log row names it and at least one review file that row
 names exists in that folder, mentions Opus, and itself mentions the record. The
-gate asks that a named review exists; it does not read the verdict. A
-fixture world is skipped: its quotes are test material, not voiced renderings.
+gate asks that a named review exists; it does not read the verdict.
 """
 import re
 from functools import lru_cache
 from pathlib import Path
 
 from .loader import REPO_ROOT
-from .registry import get_world, is_fixture
 
 _ROW = re.compile(r"^\|\s*(?P<record>[^|]+?)\s*\|\s*(?P<files>[^|]+?)\s*\|\s*(?P<verdict>[^|]+?)\s*\|\s*$")
 _FILE = re.compile(r"[\w.\-]+\.md")
@@ -62,9 +60,6 @@ def gate_rendering_review(records, fleet, registry) -> list[str]:
     if not rendered:
         return []
     world_key = next(iter(rendered)).split(".")[0]
-    entry = (registry or {}).get(world_key)
-    if entry is not None and is_fixture(entry):
-        return []
     rows = log_rows(world_key)
     folder = review_dir(world_key)
     findings = []
