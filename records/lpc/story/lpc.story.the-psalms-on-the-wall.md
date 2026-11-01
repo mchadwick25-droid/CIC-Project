@@ -74,26 +74,26 @@ text: 'Possidius had been Augustine''s friend for nearly forty years, and he was
 
   And the end, in Possidius''s own first person: his body whole, his sight and hearing sound, he slept with his fathers, as Scripture says, well nourished in a good old age, while we stood by, watching and praying. He made no will, because he had nothing to make
   one from. He ordered that the church''s library and all its books be carefully preserved for those who
-  came after. The city was under siege by the Vandals while this happened. Prosper also set the death down in his chronicle, under the year 430, giving the day as 28 August, and says Augustine was answering the books of Julian amid the attacks of the besieging Vandals, to the very end of his days.'
-telling: 'Possidius was Augustine''s friend for nearly forty years. He was a bishop too, and he was there at the end.
+  came after. The city was under siege by the Vandals while this happened. Prosper also set the death down in his chronicle, under the year we call 430, giving the day as 28 August, and says Augustine was answering the books of Julian amid the attacks of the besieging Vandals, at the very end of his days.'
+telling: 'Possidius, a bishop, was Augustine''s friend for nearly forty years, and he was there at the end.
 
 
-  The Vandals were besieging Hippo. Possidius and other bishops had fled into the city, and they stayed through the siege. In its third month, Augustine came down with a fever. It was his last illness.
+  While the Vandals were besieging Hippo, Possidius and other bishops took refuge in the city and stayed through the siege. In its third month, Augustine came down with the fever that would be his last illness.
 
 
-  In private talk he had often told his friends one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+  In private conversation he had often told his friends that even after baptism, good Christians and priests ought not leave this life without fitting repentance.
 
 
-  Now he did it himself. He had the shortest penitential Psalms of David copied out. The sheets were hung on the wall. Through the days of his sickness he lay in bed and looked at them. He read them, and he wept "freely and constantly."
+  Now he did it himself: he had the shortest penitential Psalms of David copied out and hung on the wall. Through the days of his sickness he lay in bed looking at them and reading them, and he wept "freely and constantly."
 
 
-  About ten days before the end, he asked those who were with him to let no one in. People could come in only when the doctors examined him, or when his food was brought. His wish was kept, and he had all that time free for prayer.
+  About ten days before the end, he asked those who were with him to let no one in. People could come in only when the doctors came to examine him, or when his food was brought. His wish was kept, and he had all that time free for prayer.
 
 
-  Until that illness he had never stopped preaching. At the end his sight and hearing were still sound. His friends stood by, watching and praying. In the words of Scripture, "he slept with his fathers."
+  Until that illness he had never stopped preaching, and at the end his sight and hearing were still sound. In the words of Scripture, "he slept with his fathers," while his friends stood by, watching and praying.
 
 
-  He left no will. As a poor man of God, he had nothing to make one from. He had ordered that the church library and all its books be kept safe for those who came after.'
+  He left no will, because as a poor man of God he had nothing to make one from. He had ordered that the church library and all its books be carefully preserved for those who came after.'
 absent_detail: Possidius is the only witness to the last weeks -- the psalms, the request, the ten days.
   The death itself is corroborated, by its date and the siege around it, but what no
   second source gives is the interior of the sickroom. No one who fled Hippo wrote down what leaving the
@@ -108,7 +108,7 @@ events:
   rests_on: he was there at the end
   essential: true
 - line: The Vandals were besieging Hippo, and Augustine fell ill with a fever.
-  rests_on: The Vandals were besieging Hippo
+  rests_on: While the Vandals were besieging Hippo
   essential: false
 - line: Augustine often taught that even after baptism, good Christians and priests ought not leave this life without fitting repentance.
   rests_on: ought not leave this life without fitting repentance
@@ -128,62 +128,59 @@ events:
 - line: He made no will, because as a poor man of God he had nothing to make one from.
   rests_on: He made no will, because he had nothing to make one from.
   essential: false
-telling_short: 'In private talk, Augustine often told his friends one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+telling_short: 'In private conversation, Augustine often told his friends that even after baptism, good Christians and priests ought not leave this life without fitting repentance.
 
 
-  Then the Vandals besieged Hippo, and he came down with a fever. It was his last illness. His friend Possidius, a bishop, was there with him to the end.
+  Then the Vandals besieged Hippo, and he came down with the fever that would be his last illness. His friend Possidius, a fellow bishop, was there with him to the end.
 
 
-  Now Augustine did what he had taught. He had the shortest penitential Psalms of David copied out and hung on the wall. From his bed he looked at the sheets and read them, and he wept "freely and constantly."'
-telling_medium: 'Possidius was Augustine''s friend for nearly forty years, and he was there at the end.
+  Now Augustine did what he had taught: he had the shortest penitential Psalms of David copied out and hung on the wall. Through the days of his sickness, he lay in bed reading the sheets, and he wept "freely and constantly."'
+telling_medium: 'Possidius was Augustine''s friend for nearly forty years, and when the Vandals besieged Hippo, he took refuge in the city with other bishops. In the third month of the siege, Augustine came down with the fever that would be his last illness.
 
 
-  The Vandals were besieging Hippo, and Possidius had fled into the city with other bishops. In the third month of the siege, Augustine came down with a fever. It was his last illness.
-
-
-  In private talk he had often told his friends one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance. Now he did it himself. He had the shortest penitential Psalms of David copied out and hung on the wall. From his bed he read them, and he wept "freely and constantly."
+  In private conversation he had often told his friends that even after baptism, good Christians and priests ought not leave this life without fitting repentance. Now he did it himself: he had the shortest penitential Psalms of David copied out and hung on the wall. Lying in bed, he read them, and he wept "freely and constantly."
 
 
   About ten days before the end, he asked that no one come in except the doctors and those bringing food. His wish was kept, and he had all that time free for prayer.
 
 
-  Until that illness he had never stopped preaching. At the end his sight and hearing were still sound. His friends stood by, watching and praying, as he died. He left no will. As a poor man of God, he had nothing to make one from.'
-telling_long: 'Possidius was Augustine''s friend for nearly forty years. He was a bishop too, and he was there at the end.
+  Until that illness he had never stopped preaching, and at the end his sight and hearing were still sound. His friends, Possidius among them, stood by, watching and praying, as he died. He left no will, because as a poor man of God he had nothing to make one from.'
+telling_long: 'Possidius, a bishop, was Augustine''s friend for nearly forty years, and he was there at the end.
 
 
-  In those last years, the Vandals crossed the sea from Spain and poured into Africa. Alans and some Goths came with them. They burned, robbed and killed across the provinces. They spared no one, not even priests or churches. Augustine wept over it every day.
+  In those last years, the Vandals crossed the sea from Spain with Alans and some Goths, and they poured into Africa. They burned, robbed and killed across the provinces, sparing no one, not even priests or churches. Augustine wept over it every day.
 
 
-  Then the same enemy came to Hippo itself. Count Boniface held the city with an army of allied Goths. The siege went on for almost fourteen months. The enemy cut off the coast as well.
+  Then the same enemy came to Hippo itself, where Count Boniface held the city with an army of allied Goths. The siege went on for almost fourteen months, and the enemy cut off the coast as well.
 
 
-  Possidius and other bishops from nearby fled into the city. They stayed through the whole siege. Often they talked together about the terrible judgments of God they were watching. They grieved and wept together, and they prayed for help.
+  Possidius and other bishops from nearby took refuge in the city, and they stayed through the whole siege. Often they talked about the terrible judgments of God laid bare before their eyes, and in their shared grief they wept and prayed for help.
 
 
-  One day at table, Augustine told them what he was asking of God. He asked God to free the city. If God willed something else, he asked that his servants be made brave enough to bear it. Failing that, he asked God to take him to Himself. The bishops joined him in that prayer.
+  One day at table, Augustine told them what he was asking of God. He asked God to free the city, or, if God willed something else, to make his servants brave enough to bear it. Failing that, he asked God to take him to Himself, and the bishops joined him in that prayer.
 
 
-  In the third month of the siege, he came down with a fever. It was his last illness.
+  In the third month of the siege, he came down with the fever that would be his last illness.
 
 
-  Augustine had lived seventy-six years. For almost forty of them he had served as a priest or bishop. In private talk he often told his friends one thing. Even after baptism, good Christians and priests ought not leave this life without fitting repentance.
+  Augustine had lived seventy-six years, and for almost forty of them he had served as a priest or bishop. In private conversation he often told his friends that even after baptism, good Christians and priests ought not leave this life without fitting repentance.
 
 
-  Now, in his own last illness, he did it himself. He had the shortest penitential Psalms of David copied out. The sheets were hung on the wall. Through the days of his sickness he lay in bed and looked at them. He read them, and he wept "freely and constantly."
+  Now, in his own last illness, he did it himself. He had the shortest penitential Psalms of David copied out, and the sheets were hung on the wall. Through the days of his sickness he lay in bed looking at them and reading them, and he wept "freely and constantly."
 
 
-  About ten days before the end, he asked those who were with him to let no one in. He did not want anyone to break his attention. People could come in only when the doctors examined him, or when his food was brought. They did as he asked, and he had all that time free for prayer.
+  About ten days before the end, he asked those with him to let no one in, so that no one would distract him. People could come in only when the doctors came to examine him, or when his food was brought. They did as he asked, and he had all that time free for prayer.
 
 
-  Until that last illness, he had never stopped preaching in the church. He preached with force, with a clear mind and sound judgment.
+  Until that last illness, he never stopped preaching in the church, and he preached with force, with a clear mind and sound judgment.
 
 
-  At the end his body was whole. His sight and hearing were still sound. Possidius and the others stood by, watching and praying. In the words of Scripture, "he slept with his fathers." With his friends there, a service was offered to God for him, and he was buried.
+  At the end his body was whole, and his sight and hearing were still sound. In the words of Scripture, "he slept with his fathers," while Possidius and the others stood by, watching and praying. With his friends present, a service was offered to God for him, and he was buried.
 
 
-  Prosper also wrote the death into his chronicle. He set it under the year 430 and gave the day as 28 August. To the very end of his days, amid the attacks of the besieging Vandals, Augustine was answering the books of Julian.
+  Prosper also recorded the death in his chronicle, under the year we call 430, and gave the day as 28 August. At the very end of his days, amid the attacks of the besieging Vandals, Augustine was answering the books of Julian.
 
 
-  Augustine left no will. As a poor man of God, he had nothing to make one from. Again and again he had given one order. The church library and all its books must be kept safe for those who came after.'
+  Augustine left no will, because as a poor man of God he had nothing to make one from. Again and again he had given one order: the church library and all its books must be carefully preserved for those who came after.'
 ---
 Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' is at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.

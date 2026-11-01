@@ -92,22 +92,22 @@ text: 'Our own deacon Pontius, writing in praise of his bishop after Cyprian had
   Two things are named at once in that sentence: the judgment of God, and the favour of the people. For us, the second is how the first became visible. Later,
   writing to us, the people, about certain presbyters who still held an ancient venom against his
   episcopate, Cyprian himself would name our suffrage and God''s judgment side by side.'
-telling: 'Our bishop Cyprian died by the sword. Afterward his deacon, Pontius, wrote his life. There was too much to tell, he said. So he chose one thing, and it was proof enough of the good he did.
+telling: 'Our bishop Cyprian died by the sword, and afterward his deacon, Pontius, wrote his life. There was too much to tell, he said, so he chose one thing, and it was proof enough of the good he did.
 
 
   In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." Yet he had only just been baptized, and people thought him a beginner.
 
 
-  He did not reach for the office. The whole people surged toward him in love and honour, and he stepped back. He made way for older men and thought himself unworthy. But a crowd of the brothers besieged the doors of the house.
+  When the whole people surged toward him in love and honour, he stepped back and made way for older men. He thought himself unworthy, yet a crowd of the brothers besieged the doors of the house.
 
 
-  Pontius named two things side by side: the judgment of God and the favour of the people. Our own reading is this: the people''s favour was how God''s judgment became visible.
+  Pontius named two things side by side, the judgment of God and the favour of the people. Our own reading is this: the people''s favour was how God''s judgment became visible.
 
 
-  By 251 certain presbyters were renewing their old attack on him. So Cyprian wrote a letter to us, the people. These men, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."
+  By 251 certain presbyters were renewing their old attack on him, so Cyprian wrote a letter to us, the people. These men, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."
 
 
-  In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain. A bishop, they wrote, should be chosen in front of the people, who knew each man''s life best. The whole brotherhood there gave its voice for Sabinus, and the bishops gave their sentence. That was how he was made bishop.'
+  In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain. A bishop, they wrote, should be chosen in front of the people, who knew each man''s life best. The whole brotherhood there gave its voice for Sabinus, the bishops gave their sentence, and so he was made bishop.'
 absent_detail: The specific claim that Cyprian was a neophyte rests on Pontius alone; no other witness
   of ours confirms or corrects it, and we do not claim more certainty about it than that one source supports.
   Pontius is writing in praise, and he says so himself.
@@ -137,50 +137,50 @@ events:
 - line: In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain that a bishop should be chosen in the presence of the people; Sabinus had been made bishop there by the suffrage of the whole brotherhood and the sentence of the bishops.
   rests_on: 'Ep. LXVII, lines 37409-37416: ''a.d. 257''; ''To the Clergy and People Abiding in Spain''; ''Cyprian with His Fellow-Bishops''; lines 37563-37571: ''the bishop should be chosen in the presence of the people''; ''by the suffrage of the whole brotherhood, and by the sentence of the bishops'''
   essential: false
-telling_short: Our deacon Pontius wrote the life of our bishop, Cyprian. He chose one thing as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." He had only just been baptized. He stepped back from the office, but a crowd of the brothers besieged the house. For us, the people's favour was how God's judgment became visible. In 251 Cyprian wrote to us about certain presbyters. They still held "that ancient venom against my episcopate, that is, against your suffrage and God's judgment."
-telling_medium: 'Our bishop Cyprian died by the sword. Afterward his deacon, Pontius, wrote his life. There was too much to tell, so he chose one thing as proof enough of the good he did.
+telling_short: Our deacon Pontius wrote the life of our bishop, Cyprian, and chose one thing as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." He had only just been baptized, and he stepped back from the office, but a crowd of the brothers besieged the house. For us, the people's favour was how God's judgment became visible. In 251 Cyprian wrote to us that certain presbyters still held "that ancient venom against my episcopate, that is, against your suffrage and God's judgment."
+telling_medium: 'Our bishop Cyprian died by the sword, and afterward his deacon, Pontius, wrote his life. There was too much to tell, so he chose one thing as proof enough of the good he did.
 
 
-  In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." Yet he had only just been baptized, and people thought him a beginner.
+  In 248 Cyprian, newly baptized and thought a beginner, was chosen bishop of Carthage "by the judgment of God and the favour of the people."
 
 
-  He did not reach for the office. The whole people surged toward him, and he stepped back. He made way for older men. But a crowd of the brothers besieged the doors of the house.
+  When the whole people surged toward him, he did not reach for the office but stepped back and made way for older men. Even so, a crowd of the brothers besieged the doors of the house.
 
 
   For us, the people''s favour was how God''s judgment became visible.
 
 
-  By 251 certain presbyters were renewing their old attack on him. So Cyprian wrote to us, the people. These men, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."
+  By 251 certain presbyters were renewing their old attack on him, so Cyprian wrote to us, the people. These men, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."
 
 
-  In 257 Cyprian and his fellow bishops wrote to the people in Spain. A bishop, they wrote, should be chosen in front of the people. That was how Sabinus had been made bishop there.'
-telling_long: 'Our bishop Cyprian died by the sword. Afterward his deacon, Pontius, set down the story of his life. There was too much to tell, he said. So he chose one thing, and that one thing was proof enough of the good he did.
+  In 257 Cyprian and his fellow bishops told the people in Spain that a bishop should be chosen in front of the people. That was how Sabinus had been made bishop there.'
+telling_long: 'Our bishop Cyprian died by the sword, and afterward his deacon, Pontius, set down the story of his life. There was too much to tell, he said, so he chose one thing, and it was proof enough of the good he did.
 
 
-  In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." Yet he had only just been baptized, and people thought him a beginner. He was in the first days of his faith, still untaught in the life of the spirit.
+  In 248 Cyprian was chosen bishop of Carthage "by the judgment of God and the favour of the people." Yet he had only just been baptized, and people thought him a beginner.
 
 
-  Even so, something generous shone in him. No office yet made him shine, only hope. But he already gave every promise that he could be trusted with the office coming to him.
+  Though he was in the first days of his faith and untaught in the life of the spirit, something generous shone in him. No office yet made him shine, only hope, but he already gave every promise that he could be trusted with the office coming to him.
 
 
-  He did not reach for it. The whole people surged toward him in love and honour, and he stepped back. He made way for older men. He thought himself unworthy, and that made him more worthy still.
+  When the whole people surged toward him in love and honour, he stepped back and made way for older men. He thought himself unworthy, and that made him more worthy still.
 
 
-  The people were stirred up. They burned with longing for him. As his death would show, they were seeking more than a bishop. They were seeking a future martyr.
+  The people burned with longing for him, and as his death would show, they were seeking not only a bishop but a future martyr.
 
 
-  A crowd of the brothers besieged the doors of the house. Anxious love moved along every road that led there. Cyprian wished he could be let down through a window, as the apostle once was. But all the rest waited for him in suspense. When he came, they met him with great joy.
+  A crowd of the brothers besieged the doors of the house, while anxious love moved along every road that led there. Cyprian wished he could be let down through a window, as the apostle once was, but all the rest waited for him in suspense. When he came, they met him with great joy.
 
 
-  Not everyone was glad. Some resisted him. Cyprian bore with them gently and forgave them. Later, to the surprise of many, he counted them among his closest friends.
+  Not everyone was glad, and some resisted him. But Cyprian bore with them gently and forgave them, and later, to the surprise of many, he counted them among his closest friends.
 
 
-  Pontius named two things side by side: the judgment of God and the favour of the people. Our own reading is this: the people''s favour was how God''s judgment became visible.
+  Pontius named two things side by side, the judgment of God and the favour of the people. Our own reading is this: the people''s favour was how God''s judgment became visible.
 
 
-  Three years later, in 251, certain presbyters schemed to keep Cyprian away from us. They were renewing their old attack on him. So he wrote a letter to us, the people. These men, he wrote, still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."
+  Three years later, in 251, certain presbyters schemed to keep Cyprian away from us and renewed their old attack on him. He wrote to us, the people, that these men still held "that ancient venom against my episcopate, that is, against your suffrage and God''s judgment."
 
 
-  In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain. A bishop, they wrote, should be chosen in front of the people. The people knew each man''s life best. They had watched how each one lived. The whole brotherhood there gave its voice for Sabinus, and the bishops gathered there gave their sentence. That was how he was made bishop.'
+  In 257 Cyprian and his fellow bishops wrote to the clergy and people in Spain. A bishop, they wrote, should be chosen in front of the people, who knew each man''s life best and had watched how each one lived. The whole brotherhood there gave its voice for Sabinus, the bishops gathered there gave their sentence, and so he was made bishop.'
 ---
 Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27815-27849 (section 5; the word 'neophyte' is at line 27820). The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's reference to Ep. XXXIX (lines 32346-32350, 32369-32375) is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.

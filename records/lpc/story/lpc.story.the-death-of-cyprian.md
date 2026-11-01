@@ -114,25 +114,25 @@ text: 'This is how two early texts tell the death of our great bishop Cyprian, e
 
 
   Pontius adds details of his own. He says the ground was level, with trees planted thickly all around, so that it gave a fine view. People who could not see had climbed into the branches, so that even this was not lacking to him: as with Zacchaeus, he was gazed at from the trees. He writes that the executioner could barely grip the blade with the trembling fingers of his failing right hand, until the hour of glory came and strengthened the centurion''s hand with power from above. We tell that part as Pontius''s reading. Pontius calls the people blessed because they suffered with their bishop in words spoken aloud, and he says they all wished that the whole congregation might suffer together and share a like glory. The Acta calls the executioner a spiculator.'
-telling: 'Our great bishop Cyprian was put to death on 14 September, in the year 258. Two early texts tell how he died. One is a saint''s life by his deacon, Pontius. The other is the Acta, a Christian compilation built around the records of his hearings.
+telling: 'Our great bishop Cyprian was put to death on 14 September, in the year 258, and two early texts tell how he died. One is a saint''s life by his deacon, Pontius, and the other is the Acta, a Christian compilation built around the records of his hearings.
 
 
-  On his last night he was held in an officer''s house. Pontius and his other friends stayed with him. Outside, the whole people kept watch before the officer''s door.
+  On his last night he was held in an officer''s house, and Pontius and his other friends stayed with him. Outside, the whole people kept watch before the officer''s door.
 
 
-  In the morning a great crowd went with him to the proconsul. Both texts give the sentence in nearly the same words. It called Cyprian a standard-bearer of the sect and an enemy of the gods. He would be an example to his own people. With his blood, discipline would be made firm. Cyprian said, Thanks be to God.
+  In the morning a great crowd went with him to the proconsul, whose sentence both texts give in nearly the same words. It called Cyprian a standard-bearer of the sect and an enemy of the gods, who would be an example to his own people. With his blood, it said, discipline would be made firm, and Cyprian answered, Thanks be to God.
 
 
   At that, the brothers kept crying out to be beheaded with him too. Pontius calls them blessed, because they suffered with their bishop in words spoken aloud.
 
 
-  He was led out to the field of Sextus. People who could not see climbed into the trees. Pontius likens the scene to Zacchaeus. Cyprian took off his cloak and knelt in prayer. When the executioner came, Cyprian had his people give him twenty-five gold pieces.
+  He was led out to the field of Sextus, where people who could not see climbed trees, and Pontius likens the scene to Zacchaeus. Cyprian took off his cloak and knelt in prayer, and when the executioner came, he had his people give him twenty-five gold pieces.
 
 
-  Here our two texts differ, and we do not choose between them. Pontius says Cyprian bound his eyes with his own hands. The Acta says he covered them with his hand, but could not tie the strips. The presbyter Julianus and the subdeacon Julianus tied them for him.
+  Here our two texts differ, and we do not choose between them: Pontius says Cyprian bound his eyes with his own hands. The Acta says he covered them with his hand but could not tie the strips. So the presbyter Julianus and the subdeacon Julianus tied them for him.
 
 
-  Pontius tells the last moment his own way. The executioner could barely grip the blade, and his fingers shook. Then the hour of glory strengthened the centurion''s hand from above.
+  Pontius tells the last moment his own way, with an executioner whose fingers shook so that he could barely grip the blade. Then the hour of glory strengthened the centurion''s hand from above.
 
 
   And so the blessed Cyprian suffered martyrdom.'
@@ -170,72 +170,72 @@ events:
 - line: So, the Acta says, the blessed Cyprian suffered martyrdom.
   rests_on: So the blessed Cyprian suffered martyrdom.
   essential: true
-telling_short: 'Our great bishop Cyprian was put to death on 14 September. Two early texts tell his death: a life by his deacon Pontius, and the Acta.
+telling_short: 'Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.
 
 
-  On his last night the whole people kept watch at the door where he was held.
+  On his last night the whole people kept watch at the door of the house where he was held.
 
 
-  Sentenced as an enemy of the gods, Cyprian said, Thanks be to God. The brothers cried out to be beheaded with him.
+  Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the brothers cried out to be beheaded with him.
 
 
-  The texts differ on the cloth over his eyes. Pontius says he bound it himself. In the Acta, two clergy named Julianus tied it.
+  The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.
 
 
   And so the blessed Cyprian suffered martyrdom.'
-telling_medium: 'Our great bishop Cyprian was put to death on 14 September. His deacon Pontius told it in a saint''s life. The Acta, built on his hearing records, tells it too.
+telling_medium: 'Our great bishop Cyprian was executed on 14 September. His deacon Pontius told it in a saint''s life, and the Acta, built on his hearing records, tells it too.
 
 
-  On his last night he was held in an officer''s house. Outside, the whole people kept watch before the door.
+  On his last night he was held in an officer''s house, while outside the whole people kept watch before the door.
 
 
-  Next morning the proconsul sentenced him as a standard-bearer of the sect and an enemy of the gods. Cyprian said, Thanks be to God. The brothers kept crying out to be beheaded with him too. Pontius calls them blessed for suffering with their bishop in words spoken aloud.
+  Next morning he was sentenced as a standard-bearer of the sect and an enemy of the gods. Cyprian said, Thanks be to God, and the brothers cried out to be beheaded with him. Pontius calls them blessed for suffering with their bishop in words spoken aloud.
 
 
-  He was led out to the field of Sextus. People climbed trees to see. Pontius likens the scene to Zacchaeus. Cyprian took off his cloak and knelt in prayer. He had his people give the executioner twenty-five gold pieces.
+  He was led out to the field of Sextus, where people climbed trees to see, and Pontius likens the scene to Zacchaeus. Cyprian took off his cloak and knelt in prayer, and he had his people give the executioner twenty-five gold pieces.
 
 
-  Here the two texts differ. Pontius says Cyprian bound his own eyes. The Acta says two clergy named Julianus tied the cloth for him.
+  Here the two texts differ: Pontius says Cyprian bound his own eyes, but in the Acta two clergy named Julianus tied the cloth.
 
 
   In Pontius, the executioner''s fingers shook until the hour of glory strengthened his hand from above.
 
 
   And so the blessed Cyprian suffered martyrdom.'
-telling_long: 'Our great bishop Cyprian was put to death on 14 September, in the year 258. Two early texts tell how he died. One is a saint''s life by his deacon, Pontius, who was with him on his last night. The other is the Acta, a Christian compilation built around the records of his hearings.
+telling_long: 'Our great bishop Cyprian was put to death on 14 September, in the year 258, and two early texts tell how he died. One is a saint''s life by his deacon, Pontius, who was with him on his last night. The other is the Acta, a Christian compilation built around the records of his hearings.
 
 
-  The proconsul sent an officer and his soldiers to take him at his gardens. The hearing was put off until the next day. So Cyprian spent one night under guard in the officer''s house.
+  The proconsul sent an officer and his soldiers to take him at his gardens, but the hearing was put off until the next day. So Cyprian spent one night under guard in the officer''s house, and his friends stayed with him as usual, with Pontius among them.
 
 
-  His friends stayed with him as usual, and Pontius was among them. Outside, the whole people kept watch before the officer''s door. They wanted nothing done in the night without their knowing. Cyprian learned that all the brothers were out in the street, so he had the young women guarded.
+  Outside, the whole people kept watch before the officer''s door, because they wanted nothing done in the night without their knowing. When Cyprian learned that all the brothers were out in the street, he had the young women guarded.
 
 
-  The next day dawned bright and clear. Cyprian came out of the house, and a mixed crowd closed in around him on every side. A great crowd gathered at the place of Sextus, as the proconsul Galerius Maximus had ordered.
+  The next day dawned bright and clear, and as Cyprian came out of the house, a mixed crowd closed in around him on every side. A great crowd also gathered at the place of Sextus, as the proconsul Galerius Maximus had ordered.
 
 
-  At the hall the proconsul had not yet come out, so Cyprian sat down to wait. He was soaked with sweat after the long journey. An officer who had once been a Christian offered him dry clothes. Cyprian answered him: "We apply medicines to annoyances which probably to-day will no longer exist."
+  At the hall the proconsul had not yet come out, so Cyprian sat down to wait. He was soaked with sweat after the long journey, and an officer who had once been a Christian offered him dry clothes. Cyprian answered him: "We apply medicines to annoyances which probably to-day will no longer exist."
 
 
-  Then he was brought in and asked if he was Thascius Cyprian. He said he was. In the Acta, the proconsul told him the emperors had ordered him to perform the rites. Cyprian said he would not. Told to think of his own good, he said that in so just a matter there was nothing to weigh.
+  He was brought in and asked if he was Thascius Cyprian, and he said he was. In the Acta, the proconsul told him the emperors had ordered him to perform the rites, but Cyprian said he would not. When he was told to think of his own good, he said that in so just a matter there was nothing to weigh.
 
 
-  Both texts give the sentence in nearly the same words. The proconsul spoke with his council. Then he named Cyprian a standard-bearer of the sect and an enemy of the gods. He would be an example to his own people. With his blood, discipline would be made firm. The proconsul read from a tablet that Thascius Cyprian must die by the sword. Cyprian said, Thanks be to God.
+  Both texts give the sentence in nearly the same words. The proconsul spoke with his council, then named Cyprian a standard-bearer of the sect and an enemy of the gods. He would be an example to his own people, and with his blood discipline would be made firm. The proconsul read from a tablet that Thascius Cyprian must die by the sword, and Cyprian said, Thanks be to God.
 
 
   At that, the crowd of the brothers kept crying out to be beheaded with him too. An uproar rose, and a great crowd followed him. Pontius calls these people blessed, because they suffered with their bishop in words spoken aloud.
 
 
-  He was led out to the field of Sextus. The ground there was level, with trees planted thickly all around. People at the back could not see, so they climbed into the branches. As in the story of Zacchaeus, Pontius says, Cyprian was gazed at from the trees.
+  He was led out to the field of Sextus, where the ground was level, with trees planted thickly all around. People at the back could not see, so they climbed into the branches. As in the story of Zacchaeus, Pontius says, Cyprian was gazed at from the trees.
 
 
-  In the Acta, Cyprian took off his cloak, knelt, and bowed down in prayer to the Lord. He gave his tunic to the deacons and stood waiting in his linen garment. When the executioner came, Cyprian told his people to give the man twenty-five gold pieces. The brothers laid linen cloths and hand-cloths in front of him.
+  In the Acta, Cyprian took off his cloak, knelt, and bowed down in prayer to the Lord. He gave his tunic to the deacons and stood in his linen garment, waiting for the executioner. When the executioner came, Cyprian had his people give him twenty-five gold pieces, and the brothers laid linen cloths and hand-cloths before him.
 
 
-  Here our two texts differ, and we do not choose between them. Pontius says Cyprian bound his eyes with his own hands. The Acta says he covered his eyes with his hand, but could not tie the strips himself. So the presbyter Julianus and the subdeacon Julianus tied them for him.
+  Here our two texts differ, and we do not choose between them: Pontius says Cyprian bound his eyes with his own hands. The Acta says he covered his eyes with his hand but could not tie the strips himself. So the presbyter Julianus and the subdeacon Julianus tied them for him.
 
 
-  Pontius tells the last moment his own way. Cyprian tried to hurry the slow executioner, who could barely grip the blade. The man''s right hand was failing, and his fingers shook. Then, as Pontius tells it, the hour of glory strengthened the centurion''s hand with power from above.
+  Pontius tells the last moment his own way: Cyprian tried to hurry the slow executioner, whose fingers shook. The man could barely grip the blade in his failing right hand, until the hour of glory strengthened the centurion''s hand with power from above.
 
 
   And so the blessed Cyprian suffered martyrdom.'
