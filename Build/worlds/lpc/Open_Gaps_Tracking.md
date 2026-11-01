@@ -2644,3 +2644,8 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open: Numidicus and Election stay short** (292 and 319 words): only as long as the sources support. No floor applies.
 - **Open: decisions held for Mark.** The 15% length tolerance, and how Numidicus closes.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-144. Cited sources with no vendored line span cannot fill out a long telling (2026-11-01).
+
+- **Open.** The `telling_long` gate checks names and numbers against the cited passages of every source a story cites (Decision-Log 57). A source whose locus names no vendored span adds no text to that check. Two lpc stories cite one: `the-plague-and-the-enemies` (the minor pastoral treatises) and `the-psalms-on-the-wall` (Prosper). A name that only such a source holds is flagged as added.
+- **Owner.** Library thread, through the coordination thread: add the span for each such source, or say the source is not vendored.
