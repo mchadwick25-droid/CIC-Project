@@ -6,16 +6,17 @@ to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
 import re
+from functools import lru_cache
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from engine.prose import is_guard_marker_line, quote_aware_sentences
+from engine.prose import is_guard_marker_line, locus_refs, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade, fre_score
 from .loader import home_for_record_type, voiced_records
-from .quote_verbatim import gate_quote_verbatim
+from .quote_verbatim import _NOTE_BLOCK_RE, _TAG_RE, gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
 from .witness_quotations import gate_witness_quotation_verbatim
@@ -246,12 +247,45 @@ def gate_narratability(records, fleet, registry) -> list[str]:
 
 STORY_TELLING_TARGET_WORDS = {"telling_short": 90, "telling_medium": 160}
 STORY_TELLING_LENGTH_TOLERANCE = 1.15
+# The long telling is read aloud in two to four minutes: 340 to 615 words at the recorded pace of 154 to
+# 169 words a minute. 615 is a ceiling with no tolerance; there is no floor, a story whose record and
+# cited source hold less is as long as they allow.
+STORY_LONG_TELLING_MAX_WORDS = 615
+_REPO_ROOT = Path(__file__).resolve().parents[2]
 _WORD = re.compile(r"[A-Za-z0-9']+")
 _SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
 
-def _story_vocabulary(rec: dict) -> set[str]:
+@lru_cache(maxsize=32)
+def _vendored_lines(file: str) -> tuple[str, ...] | None:
+    path = _REPO_ROOT / file
+    return tuple(path.read_text(encoding="utf-8", errors="replace").splitlines()) if path.is_file() else None
+
+
+def _cited_spans(rec: dict) -> tuple[list[str], list[str]]:
+    """The text at the vendored line spans the record's sources cite, with the editor's notes and
+    markup removed over the whole span, and the cited spans that do not resolve to lines of a vendored file."""
+    texts, unresolved = [], []
+    for source in rec.get("sources") or []:
+        for ref in locus_refs(source.get("locus") or ""):
+            lines = _vendored_lines(ref["file"])
+            first, last = (int(n) for n in ref["lines"].split("-"))
+            if lines is None or first < 1 or last < first or last > len(lines):
+                unresolved.append(f"{ref['file']}, lines {ref['lines']}")
+                continue
+            span = _NOTE_BLOCK_RE.sub(" ", "\n".join(lines[first - 1:last]))
+            texts.append(_TAG_RE.sub(" ", span))
+    return texts, unresolved
+
+
+def _cited_passage(rec: dict) -> str:
+    return " ".join(_cited_spans(rec)[0])
+
+
+def _story_vocabulary(rec: dict, with_passage: bool = False) -> set[str]:
     parts = [rec.get(f) or "" for f in ("text", "telling", "tellable_as", "heart")]
+    if with_passage:
+        parts.append(_cited_passage(rec))
     parts += [e.get("line") or "" for e in rec.get("events") or [] if isinstance(e, dict)]
     parts.append((rec.get("use_note") or {}).get("means") or "")
     return {w.lower() for part in parts for w in _WORD.findall(part)}
@@ -273,21 +307,27 @@ def _added_names_and_numbers(telling: str, vocabulary: set[str]) -> list[str]:
 def _story_telling_findings(rid: str, rec: dict) -> list[str]:
     findings = []
     events = rec.get("events")
-    tellings = {f: rec[f] for f in STORY_TELLING_TARGET_WORDS if not _is_blank(rec.get(f))}
+    tellings = {f: rec[f] for f in (*STORY_TELLING_TARGET_WORDS, "telling_long") if not _is_blank(rec.get(f))}
     if events is not None:
         for i, event in enumerate(events):
             if not isinstance(event, dict) or _is_blank(event.get("line")) or _is_blank(event.get("rests_on")):
                 findings.append(f"{rid}: events[{i}] needs a non-empty line and rests_on")
     if tellings and not any(isinstance(e, dict) and e.get("essential") for e in events or []):
-        findings.append(f"{rid}: a shorter telling needs events with at least one marked essential")
+        findings.append(f"{rid}: a short, medium or long telling needs events with at least one marked essential")
     vocabulary = _story_vocabulary(rec)
+    long_vocabulary = _story_vocabulary(rec, with_passage=True) if "telling_long" in tellings else vocabulary
+    if "telling_long" in tellings:
+        for span in _cited_spans(rec)[1]:
+            findings.append(f"{rid}: telling_long rests on a cited span that does not resolve to lines of a vendored text: {span}")
     for field, telling in tellings.items():
         words = len(telling.split())
-        limit = STORY_TELLING_TARGET_WORDS[field] * STORY_TELLING_LENGTH_TOLERANCE
-        if words > limit:
+        if field == "telling_long":
+            if words > STORY_LONG_TELLING_MAX_WORDS:
+                findings.append(f"{rid}: telling_long runs {words} words, over its ceiling of {STORY_LONG_TELLING_MAX_WORDS}")
+        elif words > STORY_TELLING_TARGET_WORDS[field] * STORY_TELLING_LENGTH_TOLERANCE:
             findings.append(f"{rid}: {field} runs {words} words, over its target of about {STORY_TELLING_TARGET_WORDS[field]}")
-        for token in _added_names_and_numbers(telling, vocabulary):
-            findings.append(f"{rid}: {field} uses {token!r}, which the full record does not")
+        for token in _added_names_and_numbers(telling, long_vocabulary if field == "telling_long" else vocabulary):
+            findings.append(f"{rid}: {field} uses {token!r}, which the {'record and its cited passage do' if field == 'telling_long' else 'full record does'} not")
     return findings
 
 
@@ -304,7 +344,9 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
     - term.senses.translational: the actual today-vs-world bridge
       sentence - required to be a real, non-blank string; senses itself
       being present (COMPLETION_REQUIRED's own check) says nothing about
-      whether this specific nested field was ever filled in."""
+      whether this specific nested field was ever filled in.
+    - term.senses.heard_today and term.senses.meant_here: optional, but a
+      pair, and each a non-blank string when present."""
     findings = []
     for rid, rec in records.items():
         if rec.get("record_type") != "term":
@@ -313,6 +355,13 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: missing required field 'false_friend' (an empty list is a valid 'none identified' - omitting the field is not)")
         if _is_blank((rec.get("senses") or {}).get("translational")):
             findings.append(f"{rid}: missing required field 'senses.translational'")
+        senses = rec.get("senses") or {}
+        split = {f: senses[f] for f in ("heard_today", "meant_here") if f in senses}
+        if split and len(split) < 2:
+            findings.append(f"{rid}: senses.heard_today and senses.meant_here come as a pair; only {sorted(split)[0]!r} is present")
+        for field, value in split.items():
+            if not isinstance(value, str) or not value.strip():
+                findings.append(f"{rid}: senses.{field} is present and blank")
     return findings
 
 

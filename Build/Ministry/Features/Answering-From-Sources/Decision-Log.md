@@ -743,3 +743,34 @@ Mark picked template B from the options put to him: three labelled layers, with 
 - Held as data and not yet available: the translator and the date of the edition. The source records carry the edition's series and volume in their `edition` and `citation` fields and no separate translator or date. Library question, recorded in lpc `Open_Gaps_Tracking.md` (OG-140).
 - The card's tests are rewritten to this template in the same pull request that changes the card. Three-level transparency (Settled row 12) is kept.
 
+## 53. The long telling is a target of 2 to 4 minutes, never padded (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: the long telling is a target of 2 to 4 minutes, never padded, and a thin story stays shorter. Relayed in the coordination thread's own words; Mark's words were not quoted.
+
+- Word range: 340 to 615 words, from the recorded pace (about 134 to 147 words a minute at the approved audition pace, 154 to 169 after the 1.15 times speed-up Mark chose; Front-End Decision Log, 2026-09-29). 615 is a ceiling. There is no floor.
+- A story whose record and cited source hold less is as long as they allow. Nothing is added to reach the range.
+- The field and its gate are filed in `Schema_Change_Order_Story_Long_Telling.md`.
+
+## 54. The lexicon card matches the rigor of the quotes and stories (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "i think the template for lexicon should match the rigor of the quotes and stories".
+
+- Plan row 5.1 ("the lexicon door, kept as it is") no longer holds. The change is made by `Stage5_Change_Order_Lexicon_Card.md`.
+- The card keeps the three levels (Settled row 12). The template is chosen by Mark from options put to him as an Artifact; nothing is built until he chooses.
+
+## 55. Lexicon card template B chosen (2026-11-01)
+
+Mark picked lexicon template B from the options put to him, relayed by the coordination thread on 2026-11-01 (the message is the record; Mark's own words were not quoted): labelled layers "In plain English", "In this world", "Not to be confused with" and "What it rests on", with the plain confidence phrase and the risk flag.
+
+- The glossing code carries the confidence, the risk flag and the source editions with a gloss; the click page shows the four layers.
+- Where a term's source names no vendored span, or the edition's translator and date are not held (OG-140), the page shows that as unavailable. No link is invented.
+- Built after the story card pull request. Three-level transparency (Settled row 12) is kept; today's lexicon tests are rewritten to the template in the pull request that changes the card.
+
+## 56. Lexicon template B: the modern misunderstanding set beside the world's sense (2026-11-01)
+
+Mark, 2026-11-01, relayed by the coordination thread: "b, but we need the modern misunderstanding or a contrast to how people think it means today vs in that world".
+
+- The lexicon card shows, side by side, how people hear the word today and what it meant in this world, as a named layer of template B (for example "How we hear it today" beside "In this world"), not only a "not to be confused with" line.
+- The layer is fed from the term record's modern-reading field (`senses.translational`) and false friends (`false_friend`). Where a term has no usable modern-reading field the layer shows as unavailable and nothing is invented.
+- The same contrast is applied to the quote card only where the record already holds it. No new quote field is added now.
+

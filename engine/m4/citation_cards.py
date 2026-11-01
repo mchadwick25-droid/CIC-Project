@@ -199,6 +199,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         card["means"] = (record.get("use_note") or {}).get("means")
         card["narrative_tier"] = record.get("narrative_tier")
         card["heart"] = record.get("heart")
+        card["telling_long"] = record.get("telling_long")
     if record.get("record_type") == "modern_term":
         # Carried onto the card the same way a quote's own modern_rendering
         # is above: verbatim, additive, never composed by this function -

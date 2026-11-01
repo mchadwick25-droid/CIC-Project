@@ -41,11 +41,12 @@ export interface SourceCard {
   // Set when the edition's words are in a language other than English (a Latin-only quote).
   edition_language?: string | null;
   original?: { label: string; file: string; lines: string }[];
-  // Story cards carry the record's one-line meaning, narrative tier and heart;
+  // Story cards carry the record's one-line meaning, narrative tier, heart and long telling;
   // the display reads them as it is given the room.
   means?: string | null;
   narrative_tier?: number | null;
   heart?: string | null;
+  telling_long?: string | null;
   // engine/m4/citation_cards.py's own modern_term enrichment: present only
   // when record_type is "modern_term" - the plain-English sense of a
   // modern word the Facilitator bridged away from the voice, plus the
