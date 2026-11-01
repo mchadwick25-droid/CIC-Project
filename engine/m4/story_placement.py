@@ -109,6 +109,7 @@ STORY_LENGTH_LINE = (
     "other things. Choose full only when the participant asks for the story itself and nothing else."
 )
 STORY_PLACE_LINE = (
+    "Place a story only if it answers the ask; if none does, place none. "
     "To tell one, write one sentence of your own that names who or what it is about, and end it with its "
     "marker (\"Our sayings tell of Abba Moses at Scete: [[story:id]]\" is the shape). Code sets the whole story "
     "in after it. Place at most one. Never tell the story yourself, before or after the marker."

@@ -15,7 +15,8 @@ paraphrase only, so an inference never ships.
 `decide` gives one verdict per sentence the net let through:
   keep               to the verify step when it has a valid binding, else as it stands
   withhold_inference the voice labelled it an inference
-  withhold_unlabelled it has a binding but the voice gave it no label
+  withhold_unlabelled it has a binding but the voice gave it no label (the lead-in of a
+                      placed quote or story needs none: its placement marker stands there)
   withhold_unbound   no valid binding, not a question, not a reviewed connective
   withhold_tags      it names a confidence level or says how a claim is tagged
 A sentence the net withheld stays withheld (`withhold_net`); the net removes only some
@@ -27,7 +28,7 @@ fallback sentence stands where the first withheld sentence stood.
 """
 import re
 
-from engine.m4.grounding_net import LABEL_MARKER, placed_by_code
+from engine.m4.grounding_net import LABEL_MARKER, QUOTE_MARKER, STORY_MARKER, placed_by_code
 from engine.m4.verify_step import _voiced_text, valid_bindings
 
 LABELS = ("paraphrase", "inference")
@@ -44,9 +45,11 @@ DIRECTIVE_LINES = (
     "Every sentence you write ends with the ids of the records it rests on, then one marker: "
     "[[as:paraphrase]] when it closely restates what those records say, in the author's name; "
     "[[as:inference]] when it goes past them. Use inference only if you must; it will not be spoken. "
-    "Quote only by [[quote:id]].",
-    "A sentence with no record id is spoken only if it is a question to the visitor or one of these joining sentences: {connectives}. "
-    "Say what the sources lack only from a limit record in your ground, cited. Keep the answer's depth and the world's own images.",
+    "Quote only by [[quote:id]]. Each sentence is read alone against its records, so name the person or thing in every sentence: "
+    "never use he, she, it, they, this, that or such to point back to an earlier sentence.",
+    "Every sentence is bound to a record by its id, or is a question to the visitor, or is exactly one of these sentences: {connectives}. "
+    "Write no other sentence without a record id: no framing sentence, no sentence about what you can or cannot say, no limit. "
+    "Say what the sources lack only from a limit record in your ground, cited by its id. Keep the answer's depth and the world's own images.",
 )
 
 
@@ -82,6 +85,13 @@ def bindings(tags: list[str], records: dict[str, dict]) -> list[str]:
     return [t for t in valid_bindings(tags, records) if _voiced_text(records[t]).strip()]
 
 
+def leads_a_placement(entry: dict) -> bool:
+    """True when the sentence ends in a quote or story marker: it is the lead-in of a passage code
+    places, written around that record, and its marker stands where the label would."""
+    draft = entry.get("draft") or ""
+    return bool(QUOTE_MARKER.search(draft) or STORY_MARKER.search(draft))
+
+
 def decide(entry: dict, label: str | None, records: dict[str, dict], connectives: frozenset[str]) -> tuple[str, str | None]:
     """The verdict for one net sentence and its label: (decision, reason)."""
     if entry.get("verdict") != "ok":
@@ -94,7 +104,7 @@ def decide(entry: dict, label: str | None, records: dict[str, dict], connectives
     if bindings(list(entry.get("tags") or []), records):
         if label == "inference":
             return "withhold_inference", None
-        return ("keep", None) if label == "paraphrase" else ("withhold_unlabelled", "no label")
+        return ("keep", None) if label == "paraphrase" or leads_a_placement(entry) else ("withhold_unlabelled", "no label")
     if _is_question(sentence) or normalize(sentence) in connectives:
         return "keep", "no claim"
     return "withhold_unbound", "no valid binding" if not entry.get("tags") else "tags name no record the world holds"

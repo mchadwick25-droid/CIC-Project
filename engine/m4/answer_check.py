@@ -55,8 +55,10 @@ CHECK_SYSTEM = (
 REWRITE_SYSTEM = (
     "You write a historical Representative's answer again from the sentences below, which were checked and found supported. "
     "Use only what they say; add nothing, and do not use the sentences marked REMOVED. Keep the voice: \"we\", plain words, "
-    "sentences under 25 words, the world's own images. Say what each supported sentence's records say, with the same force and limits.\n"
-    "Every sentence ends with the ids of the records it rests on, then [[as:paraphrase]]. No quotation marks. "
+    "sentences under 25 words, the world's own images. Each sentence is read alone against its records, so name the person or thing in every sentence; "
+    "never use he, she, it, they, this, that or such to point back to an earlier sentence. Say what each supported sentence's records say, with the same force and limits.\n"
+    "Every sentence ends with each record it rests on written in double square brackets, then [[as:paraphrase]], before the full stop, "
+    "for example: We kept the creed first [[lpc.witness.example]] [[lpc.term.example]] [[as:paraphrase]]. No quotation marks. "
     "Where a PLACED passage stands in the kept sentences, write its marker ([[quote:id]] or [[story:id]]) alone in that place; "
     "never write the passage's words. Do not place a passage not listed as kept.\n"
     "Reply with the answer only."
@@ -140,11 +142,11 @@ def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict], ju
 
 def survivors(answer_units: list[dict], result: dict) -> list[dict]:
     """The units that stay: not unsupported, not a dropped placement, and not the lead-in of a
-    dropped placement (a sentence bound to that record alone, standing just before it)."""
+    dropped placement (a sentence bound to that record, standing just before it)."""
     out = []
     for i, u in enumerate(answer_units):
         following = answer_units[i + 1] if i + 1 < len(answer_units) else {}
-        lead_in = bool(u["records"]) and not u.get("placed") and following.get("placed_id") in result["dropped"] and u["records"] == [following.get("placed_id")]
+        lead_in = bool(u["records"]) and not u.get("placed") and following.get("placed_id") in result["dropped"] and following.get("placed_id") in u["records"]
         if i not in result["unsupported"] and u.get("placed_id") not in result["dropped"] and not lead_in:
             out.append(u)
     return out
@@ -161,7 +163,7 @@ def rewrite_request(question: str, answer_units: list[dict], result: dict, recor
     lines = []
     for u in answer_units:
         if u in kept:
-            tag = "PLACED " + u["placed_id"] if u.get("placed") and u.get("placed_id") else ("bound to " + ", ".join(u["records"]) if u["records"] else "JOINING")
+            tag = "PLACED " + u["placed_id"] if u.get("placed") and u.get("placed_id") else ("bound to " + " ".join(f"[[{r}]]" for r in u["records"]) if u["records"] else "JOINING")
             lines.append(f"KEPT [{tag}] {u['sentence']}")
         else:
             lines.append(f"REMOVED {u['sentence']}")
