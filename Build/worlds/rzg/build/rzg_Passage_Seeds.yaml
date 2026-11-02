@@ -1,0 +1,1746 @@
+header:
+  world: rzg
+  phase: 1
+  index_version: c6b31db186dcc1460b5d6f921462acd45c74c53b43e631bdbffb0f6b78ffe438
+  index_note: passages rebuilt from cic/texts by Sandbox/answering-library (answering_library.run, then index.cli build-index
+    --world rzg); passage_id and byte spans resolve in that index
+  rule: 'says_and_applies is a routing and review aid only. It is never evidence: the engine reads the passage text by passage_id,
+    and no sentence may be bound to or supported by this gloss.'
+  voice_rule: voiceable only when the rzg row role is tradition, the speaker is known, OCR is 0.70 or more, the passage is
+    not apparatus, the reader names the author as speaker, and the Opus reader agrees; otherwise etic (citable and labelled,
+    never spoken as the world's own). Below 0.50 OCR a passage is dropped.
+  order: 'rank orders seeds within a sub-question: direct before partial, voiceable before etic, own before opponent before
+    outside, higher OCR first. At most 10 per sub-question.'
+  source: Question-Coverage coverage maps (rzg cells with a file and line), mapped to the index by byte offset; translator,
+    edition year and work date are the rzg corpus-map row values, or unresolved where the passage's bound rows disagree
+  checks: '1) code: the cited line lies in the passage (or is a division-heading line resolved to the division first passage),
+    at least 0.60 of the map snippet words occur there, and the passage text occurs in order in the vendored file bytes; 2)
+    a Sonnet reader judged fit and speaker; an Opus reader judged every voiceable seed and a random sample of the rest (seed
+    20261102). A seed failing either check is dropped, not repaired.'
+  counts:
+    sub_questions: 130
+    sub_questions_with_seeds: 20
+    sub_questions_empty: 110
+    seeds: 23
+    voiceable: 5
+    etic: 18
+    dropped_entries: 47
+    over_cap: 0
+  fields_added: work and author are the corpus-map row values (author is the row slug as printed there), set only where the
+    row bound to the passage division is unambiguous; translator, edition_date and work_date use the same narrowed row
+subquestions:
+  C1.S1:
+    label: Who Jesus was to them; the good news; what he taught
+    seeds: []
+  C1.S2:
+    label: Was he God; prophet, teacher or God as an outsider asks; virgin birth; 'the Father is greater'
+    seeds: []
+  C1.S3:
+    label: 'His death: why killed, what it did, ''in our place'', ''personal Lord'''
+    seeds: []
+  C1.S4:
+    label: 'Resurrection: what happened, how they knew, ''grew in the telling'''
+    seeds: []
+  C1.S5:
+    label: Did he exist; eyewitness chain; outside witnesses
+    seeds: []
+  C1.S6:
+    label: 'His humanity: what he looked like, his Jewishness, what he was like'
+    seeds: []
+  C1.S7:
+    label: Which gospels and writings about Jesus they had
+    seeds: []
+  C1.S8:
+    label: Would Jesus want someone like me; I want to believe
+    seeds: []
+  C2.S1:
+    label: Is God real; who made God
+    seeds: []
+  C2.S2:
+    label: 'What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God'
+    seeds: []
+  C2.S3:
+    label: The Trinity in plain words; the one-and-three objection
+    seeds: []
+  C2.S4:
+    label: 'The Spirit: person or force; tongues; prophecy; still speaks'
+    seeds:
+    - passage_id: cic:calvin_geneva-catechism_waterman1815.txt:line1185#01
+      file: calvin_geneva-catechism_waterman1815.txt
+      division_locus: line1185
+      byte_start: 34643
+      byte_end: 35515
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.7843
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: The Spirit dwells in hearts, illuminates, seals Christ's benefits, regenerates; gifts in Christ come
+        by the Spirit's power.
+      limits: It says what the Spirit does; it does not say whether he is a person or a force, nor mention tongues, prophecy
+        or whether he is called God.
+      origin:
+      - map_cluster: C2
+        line: 1195
+        snippet_verbatim_checked: C. I understand, that the Holy Spirit,
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C2.S4: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C2.S4: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: OCR errors and footnote markers; starts mid-answer. | OCR errors and embedded footnote markers; relevant
+        part is the answer to Q91.
+      rank: 1
+      work: The Catechism of the Church of Geneva
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C2.S5:
+    label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
+    seeds:
+    - passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s5~8#01
+      file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+      division_locus: n1/s5~8
+      byte_start: 515628
+      byte_end: 517547
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9328
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Calvin discusses councils' formulae and the Latin rendering of homoousios, and the variance among
+        ancient writers on terms.
+      limits: It does not mention Arius, a council vote on Jesus's divinity, or the filioque; it concerns terminology, not
+        why councils decided as they did.
+      origin:
+      - map_cluster: C2
+        line: 11242
+        snippet_verbatim_checked: translating oij^oovaiog^ used consul) stantialis, (consubstantial,)
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C2.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C2.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Gloss omits his stance that he would bury the terms if all agreed the doctrine, but is not wrong.
+      rank: 1
+      work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C2.S6:
+    label: Can God be known, felt, experienced; God in nature; God heals
+    seeds:
+    - passage_id: cic:calvin_geneva-catechism_waterman1815.txt:line218#01
+      file: calvin_geneva-catechism_waterman1815.txt
+      division_locus: line218
+      byte_start: 7045
+      byte_end: 7851
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.743
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Man's chief good is to know God; without knowing him we are worse off than beasts. This bears on whether
+        God can be known.
+      limits: It says knowing God is the goal; it does not say how God is felt or experienced, nature, or healing.
+      origin:
+      - map_cluster: C2
+        line: 233
+        snippet_verbatim_checked: A. Child. It is to know God his Cre-
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C2.S6: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C2.S6: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Title fragment garbled at the start. | Title fragment at start; running header removed in the passage text.
+      rank: 1
+      work: The Catechism of the Church of Geneva
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C2.S7:
+    label: Where evil comes from; did God create it
+    seeds: []
+  C2.S8:
+    label: Pictures and images of God
+    seeds: []
+  C3.S1:
+    label: Was hell and a last judgment real; how pictured, preached, used
+    seeds: []
+  C3.S2:
+    label: Was hell forever, or did it end
+    seeds: []
+  C3.S3:
+    label: Did everyone get restored in the end, even the devil
+    seeds: []
+  C3.S4:
+    label: Were the wicked destroyed rather than tormented
+    seeds:
+    - passage_id: cic:calvin_commentaries-genesis-vol2_king1847.txt:line2879#02
+      file: calvin_commentaries-genesis-vol2_king1847.txt
+      division_locus: line2879
+      byte_start: 89677
+      byte_end: 91769
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.931
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Rejects annihilation of souls at death, which bears on the destroyed-versus-tormented question; does
+        not discuss the fate of the wicked as destruction or torment after judgment.
+      limits: It is about souls surviving death, not about the final punishment of the wicked; he does not say they are tormented.
+      origin:
+      - map_cluster: C3
+        line: 2972
+        snippet_verbatim_checked: have no existence if their souls are annihilated
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C3.S4: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S4: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Speaks to souls surviving death (annihilation rejected, reprobate included), not to final destruction versus
+        torment; ends on verse 9 about Ishmael.
+      rank: 1
+      work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C3.S5:
+    label: 'Right after death: waiting place, Sheol, purgatory, prayer for the dead; ghosts; reincarnation'
+    seeds: []
+  C3.S6:
+    label: Heaven; the body raised; seeing loved ones; losing it after baptism
+    seeds: []
+  C3.S7:
+    label: 'Who is lost: outsiders, Jews and pagans, a loved one, unbaptised infants, suicide'
+    seeds:
+    - passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:front/line1511#01
+      file: zwingli_latin-works-correspondence-vol3_heller1929.txt
+      division_locus: front/line1511
+      byte_start: 63986
+      byte_end: 65013
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9647
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: 'Modern editor''s summary: the Anabaptists hold that all infants, baptised or not, are saved; Zwingli
+        disagrees with their refusal to baptise children. His own claim is cut off.'
+      limits: Does not address outsiders, Jews, pagans, parents or suicide; it is the editor's report, and the Zwingli claim
+        at the end is cut off.
+      origin:
+      - map_cluster: C3
+        line: 1523
+        snippet_verbatim_checked: nor the unbaptized infants are under condemnation (editor Heller's summary of Zwingli on
+          b
+        snippet_overlap: 0.6
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.6
+        reader1_sonnet:
+          fit:
+            C3.S7: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C3.S7: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Ends mid-sentence ('the children') with a footnote marker. | First reader's gloss wrongly gives the Anabaptist
+        view (all infants saved) to Zwingli; Zwingli's position is cut off at 'the children'.
+      rank: 1
+      work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
+        the Antibolon)
+      author: zwingli
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C3.S8:
+    label: 'The end of the world: rapture, Antichrist, ''in your lifetime'''
+    seeds: []
+  C4.S1:
+    label: Faith and works, grace, 'what must I do'
+    seeds: []
+  C4.S2:
+    label: Original sin, inherited guilt, infants
+    seeds: []
+  C4.S3:
+    label: Free will, predestination, election, Romans 9
+    seeds: []
+  C4.S4:
+    label: Assurance, losing salvation, falling and returning
+    seeds: []
+  C4.S5:
+    label: Baptism as new birth, is it needed, once-only repentance
+    seeds: []
+  C4.S6:
+    label: Those who never heard; good without God
+    seeds: []
+  C4.S7:
+    label: Indulgences, almsgiving, paying for sin
+    seeds: []
+  C4.S8:
+    label: The sin that cannot be forgiven
+    seeds: []
+  C5.S1:
+    label: Which books, the apocrypha, who decided, the Bible as only authority
+    seeds:
+    - passage_id: cic:zwingli_selected-works_jackson1901.txt:line4485#01
+      file: zwingli_selected-works_jackson1901.txt
+      division_locus: line4485
+      byte_start: 239040
+      byte_end: 239959
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.981
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Zwingli says his preaching rests on Scripture, that he will be corrected only from Scripture, and
+        that the Gospel is not invalid without Church confirmation. This bears on Scripture as authority and the basis of
+        teaching.
+      limits: It does not list which books count as scripture, mention the Apocrypha, or say who decided the canon.
+      origin:
+      - map_cluster: C5
+        line: 4487
+        snippet_verbatim_checked: 'Sixty-Seven Articles, preface: "taught better, but only from said Scriptures"'
+        snippet_overlap: 0.89
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.89
+        reader1_sonnet:
+          fit:
+            C5.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S1: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Direct on Scripture as sole authority; nothing on canon or Apocrypha.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: zwingli
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C5.S2:
+    label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
+    seeds: []
+  C5.S3:
+    label: Reliability, errors, authorship, 'science disproves it'
+    seeds: []
+  C5.S4:
+    label: Genesis and creation, the six days
+    seeds:
+    - passage_id: cic:calvin_commentaries-genesis-vol1_king1847.txt:s16~3#01
+      file: calvin_commentaries-genesis-vol1_king1847.txt
+      division_locus: s16~3
+      byte_start: 170770
+      byte_end: 172737
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - 'Opus: Calvin''s own voice, but an editor''s footnote (''defective natural philosophy of the age... Ed.'') sits inside
+        the passage; must be removed before voicing.'
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.9423
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Calvin says Moses wrote about the lights in popular style, not as a natural philosopher, and that
+        astronomers go deeper. This bears directly on whether Genesis is read as science.
+      limits: It does not discuss the six days or their length. A footnote by the editor is embedded in the text.
+      origin:
+      - map_cluster: C5
+        line: 4428
+        snippet_verbatim_checked: Moses wrote in a popular style
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C5.S4: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S4: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Contains an editor's footnote inside Calvin's text. | Calvin's own voice, but an editor's footnote ('defective
+        natural philosophy of the age... Ed.') sits inside the passage; must be removed before voicing.
+      rank: 1
+      work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:calvin_commentaries-genesis-vol1_king1847.txt:s6~4#02
+      file: calvin_commentaries-genesis-vol1_king1847.txt
+      division_locus: s6~4
+      byte_start: 154007
+      byte_end: 156113
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - 'reader: speaker is outside'
+      - 'Opus: First half is the English editor''s footnote on ''firmament''; Calvin''s text resumes mid-sentence (''the Spirit
+        of God would teach all men'').'
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.8562
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Calvin says the creation account serves ordinary people and the waters meant are those they can perceive;
+        this bears on how Genesis 1 is read. The editor's note covers the Hebrew word.
+      limits: Not a statement about the six days as days, nor a direct answer on science; much of the text is the editor's.
+      origin:
+      - map_cluster: C5
+        line: 4104
+        snippet_verbatim_checked: '"the waters here meant are such as the rude and unlearned may perceive"'
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C5.S4: partial
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C5.S4: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Mixes editor's footnotes with Calvin's text and a page header; starts mid-note. | First half is the English
+        editor's footnote on 'firmament'; Calvin's text resumes mid-sentence ('the Spirit of God would teach all men').
+      rank: 2
+      work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C5.S5:
+    label: Revelation and the end
+    seeds: []
+  C5.S6:
+    label: Who could read or own a Bible; language; translation
+    seeds: []
+  C5.S7:
+    label: The violence in the texts; the cursing psalms
+    seeds: []
+  C5.S8:
+    label: One passage at a time (VERSE)
+    seeds: []
+  C6.S1:
+    label: Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one
+    seeds:
+    - passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line2441/s15#01
+      file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+      division_locus: line2441/s15
+      byte_start: 121247
+      byte_end: 121377
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - 'reader: speaker is outside'
+      - 'Opus: Section heading from the translator''s ''Sections'' list, not Calvin''s own sentence; can''t be voiced as Calvin.'
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: 'Says how pastors are chosen: other pastors preside and the people consent and approve, bearing on
+        who chooses leaders.'
+      limits: Does not say bishops, titles, removal of a minister, or who leads overall.
+      origin:
+      - map_cluster: C6
+        line: 2457
+        snippet_verbatim_checked: 'Institutes IV.3: ''The election of Pastors does not belong to one individual'' (section
+          head'
+        snippet_overlap: 0.62
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.62
+        reader1_sonnet:
+          fit:
+            C6.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S1: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Only a one-line heading. | Section heading from the translator's 'Sections' list, not Calvin's own sentence;
+        can't be voiced as Calvin.
+      rank: 1
+      work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
+        Society of Christ, and Keeps Us in It)
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C6.S2:
+    label: The pope and Rome; Peter and 'on this rock'
+    seeds: []
+  C6.S3:
+    label: Councils and creeds; who decided disputes; did ordinary believers have a say
+    seeds: []
+  C6.S4:
+    label: Tradition and scripture; apostolic succession; the only true church; is there a church today that is yours
+    seeds: []
+  C6.S5:
+    label: 'Heresy: who decided, what happened to heretics'
+    seeds: []
+  C6.S6:
+    label: Married clergy; deacons and deaconesses
+    seeds:
+    - passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line11572/s23#01
+      file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+      division_locus: line11572/s23
+      byte_start: 613706
+      byte_end: 615854
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.9642
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Says priests may marry and cites 1 Timothy that a bishop be the husband of one wife; speaks to married
+        clergy, not deacons or deaconesses.
+      limits: It does not say whether his own Genevan ministers were married nor mention deacons.
+      origin:
+      - map_cluster: C6
+        line: 12065
+        snippet_verbatim_checked: 'Institutes: ''that a bishop be the husband of one wife; but what could be...'''
+        snippet_overlap: 0.8
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.8
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opponents' reply is reported inside Calvin's framing ('they say'); fine as own voice. Nothing on deacons.
+      rank: 1
+      work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
+        Society of Christ, and Keeps Us in It)
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:zwingli_selected-works_jackson1901.txt:line956#01
+      file: zwingli_selected-works_jackson1901.txt
+      division_locus: line956
+      byte_start: 47865
+      byte_end: 48826
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - 'reader: speaker is outside'
+      - 'Opus: Editor Jackson''s note on the 1522 petition, not Zwingli''s words.'
+      speaker:
+        state: known
+        name: zwingli
+      ocr_score: 0.9392
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Editor's note says the signers, including Zwingli, wanted legal marriage for priests and asked that
+        married priests be protected. It bears on married clergy only, not on deacons or deaconesses.
+      limits: It does not say priests were allowed to marry or that Zwingli was married; it is the editor's reading, not Zwingli's
+        words. Nothing on deacons.
+      origin:
+      - map_cluster: C6
+        line: 968
+        snippet_verbatim_checked: 'Zwingli''s petition: if the bishop allowed priests to marry, the government would protect
+          '''
+        snippet_overlap: 0.89
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.89
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C6.S6: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Editor Jackson's note on the 1522 petition, not Zwingli's words.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: zwingli
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C6.S7:
+    label: The emperor's say in belief
+    seeds: []
+  C6.S8:
+    label: Leaders who failed, got rich, or abused; distrust of leaders; lonely leaders and divided congregations
+    seeds: []
+  C6.S9:
+    label: 'The Representative''s own beginnings: how they came to believe; how the tradition started (no invented personal
+      history)'
+    seeds: []
+  C7.S1:
+    label: 'Becoming one of them; baptism: infants, dunking or pouring'
+    seeds:
+    - passage_id: cic:kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt:line10203#01
+      file: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+      division_locus: line10203
+      byte_start: 338229
+      byte_end: 339440
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - row role not tradition
+      speaker:
+        state: known
+        name: kirk-of-scotland
+      ocr_score: 0.8983
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: The order has infants baptised at the church, presented after the sermon by the father and godfather.
+        This bears on infant baptism and on how a child was received.
+      limits: It does not say whether baptism was by pouring or dunking. It is Scottish, not Zurich or Geneva.
+      origin:
+      - map_cluster: C7
+        line: 10228
+        snippet_verbatim_checked: ORDER OF BAPTISM.
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S1: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Begins with the end of the marriage form. | Opens with the close of the marriage rite and page headers;
+        Scottish Book of Common Order, not Zurich or Geneva. Trim before voicing.
+      rank: 1
+      work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland)
+      author: kirk-of-scotland
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line1206/line1268#01
+      file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+      division_locus: line1206/line1268
+      byte_start: 68672
+      byte_end: 69594
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9714
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Schaff's condensed summary of the Second Helvetic Confession says baptism enrols a person into the
+        covenant and God's family and is a lifelong seal; nothing on infants or mode.
+      limits: It does not say whether babies were baptised, nor whether by dunking or pouring.
+      origin:
+      - map_cluster: C7
+        line: 1268
+        snippet_verbatim_checked: Chap. XX. Of Holy Baptism. — Baptism is instituted by Christ
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S1: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Schaff's version is abridged; page header inside the text. | Schaff's abridged paraphrase in his own words,
+        not the Confession's text; cannot be voiced as Bullinger.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C7.S2:
+    label: 'The meal: what happened, how often, real presence or symbol, who was refused'
+    seeds:
+    - passage_id: cic:kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt:line9419#01
+      file: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+      division_locus: line9419
+      byte_start: 317055
+      byte_end: 318002
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - row role not tradition
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9138
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Frequency is stated as once a month or as the Congregation thinks fit. The Pauline words speak of
+        the bread and cup in remembrance of Christ.
+      limits: It does not state real presence versus symbol or who was refused. It is Scottish, not Zurich or Geneva.
+      origin:
+      - map_cluster: C7
+        line: 9419
+        snippet_verbatim_checked: THE LORD'S SUPPER.
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S2: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S2: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Direct on frequency only; Scottish service book, not Zurich or Geneva; ends mid-quotation of 1 Cor. 11.
+      rank: 1
+      work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland)
+      author: kirk-of-scotland
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C7.S3:
+    label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
+    seeds:
+    - passage_id: cic:calvin_geneva-catechism_waterman1815.txt:line2719#01
+      file: calvin_geneva-catechism_waterman1815.txt
+      division_locus: line2719
+      byte_start: 78435
+      byte_end: 79329
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.8387
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Prayer, called invocation, is turning to God in all necessities, and only God is to be invoked. This
+        bears on why people prayed.
+      limits: It does not say how to pray, whether prayers were set or free, or anything about anxiety.
+      origin:
+      - map_cluster: C7
+        line: 2732
+        snippet_verbatim_checked: III. OF PRAYER.
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S3: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S3: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Begins with the end of the previous section. | Opens with the tail of the previous Q&A on the law's second
+        table; prayer part (Q233-234) is sound.
+      rank: 1
+      work: The Catechism of the Church of Geneva
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C7.S4:
+    label: 'Worship in the room: singing and instruments, buildings, images, posture, preaching'
+    seeds: []
+  C7.S5:
+    label: Confession and penance; fasting
+    seeds: []
+  C7.S6:
+    label: 'The calendar: Sunday or Sabbath, Easter, Christmas, Lent'
+    seeds:
+    - passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line1206/line1418#01
+      file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+      division_locus: line1206/line1418
+      byte_start: 76374
+      byte_end: 77671
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.8711
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: The Lord's day is kept for worship and rest in Christian freedom, without Jewish superstition, no
+        day holier in itself. Commemorating Christ's nativity, resurrection and other feasts is approved; saints' feasts rejected.
+        Fasting covered.
+      limits: It does not name Easter, Christmas or Lent, and does not require such feasts.
+      origin:
+      - map_cluster: C7
+        line: 1418
+        snippet_verbatim_checked: Chap. XXIV. Of Feasts, Fasts, and the Choice of Meats. — The
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S6: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S6: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Schaff's version is abridged; page header inside the text. | Schaff's condensed English summary of the
+        Confession in confessional 'we', not Bullinger's own wording; cannot be quoted as the Confession.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C7.S7:
+    label: Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor
+    seeds:
+    - passage_id: cic:zwingli_selected-works_jackson1901.txt:line2464#01
+      file: zwingli_selected-works_jackson1901.txt
+      division_locus: line2464
+      byte_start: 133345
+      byte_end: 134572
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - 'Opus: Opens with the Vicar''s (opponent''s) closing words and a stray footnote, then a minuted report of Zwingli''s
+        reply; ends mid-sentence.'
+      speaker:
+        state: known
+        name: zwingli
+      ocr_score: 0.9387
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Zwingli says Christ alone is intercessor, in answer to the Vicar on prayer to saints and the mother
+        of God. This bears on praying to Mary and the saints.
+      limits: It does not cover anointing, weddings, funerals or unbaptised visitors.
+      origin:
+      - map_cluster: C7
+        line: 2477
+        snippet_verbatim_checked: to and the intercession of the saints and the mother of God. For
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S7: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S7: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Starts with a fragment about a Latinist and ends mid-sentence. | Opens with the Vicar's (opponent's) closing
+        words and a stray footnote, then a minuted report of Zwingli's reply; ends mid-sentence.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: zwingli
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C7.S8:
+    label: Did the practices go back to the apostles
+    seeds: []
+  C8.S1:
+    label: Women's lives in their own words; any writing by women; nuns
+    seeds: []
+  C8.S2:
+    label: Women leading, preaching, deacons, priests; 'wives, submit'; were women lesser
+    seeds: []
+  C8.S3:
+    label: 'The enslaved: owned, freed, thought wrong, ''slaves obey'', one table, the tortured witnesses'
+    seeds: []
+  C8.S4:
+    label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
+    seeds: []
+  C8.S5:
+    label: Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism
+    seeds: []
+  C8.S6:
+    label: Gay people and same-sex relations (never faced as asked)
+    seeds: []
+  C8.S7:
+    label: 'Children: raised, taught, treated'
+    seeds: []
+  C8.S8:
+    label: A wife beaten and the church's word (Facilitator ground)
+    seeds: []
+  C9.S1:
+    label: How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations
+    seeds: []
+  C9.S2:
+    label: Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king
+    seeds: []
+  C9.S3:
+    label: Constantine and the empire; instrument or beast; taxes and office; praying for the persecutor
+    seeds:
+    - passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line1502#02
+      file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+      division_locus: line1502
+      byte_start: 82692
+      byte_end: 84974
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers: &id001
+      - speaker unknown, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.8865
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: It says Christians may hold office, magistrates may punish by death, and wars are justified only in
+        self-defense. It also says to pray for princes and rulers. Bears on soldiers, judges and the death penalty.
+      limits: It does not mention Constantine, the Roman Empire, taxes, persecution of Christians, or the words 'render unto
+        Caesar'.
+      origin:
+      - map_cluster: C9
+        line: 1568
+        snippet_verbatim_checked: 'Second Helvetic Confession XXX: punish ... incorrigible heretics; wars are justifiable
+          onl'
+        snippet_overlap: 0.73
+      checks: &id002
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.73
+        - 0.73
+        reader1_sonnet:
+          fit:
+            C9.S3: partial
+            C9.S4: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C9.S3: partial
+            C9.S4: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Starts mid-sentence; includes Schaff's footnote on punishing heretics. | Schaff's condensed summary, not
+        the Confession's words (e.g. 'only in self-defense' is his paraphrase); starts mid-sentence; ends with Schaff's own
+        footnote on persecuting heretics.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C9.S4:
+    label: Soldiers, war, judges, the death penalty, 'render unto Caesar'
+    seeds:
+    - passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line1502#02
+      file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+      division_locus: line1502
+      byte_start: 82692
+      byte_end: 84974
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers: *id001
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.8865
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: It says Christians may hold office, magistrates may punish by death, and wars are justified only in
+        self-defense. It also says to pray for princes and rulers. Bears on soldiers, judges and the death penalty.
+      limits: It does not mention Constantine, the Roman Empire, taxes, persecution of Christians, or the words 'render unto
+        Caesar'.
+      origin:
+      - map_cluster: C9
+        line: 1568
+        snippet_verbatim_checked: 'Second Helvetic Confession XXX: punish ... incorrigible heretics; wars are justifiable
+          onl'
+        snippet_overlap: 0.73
+      checks: *id002
+      reader_note: Starts mid-sentence; includes Schaff's footnote on punishing heretics. | Schaff's condensed summary, not
+        the Confession's words (e.g. 'only in self-defense' is his paraphrase); starts mid-sentence; ends with Schaff's own
+        footnote on persecuting heretics.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+  C9.S5:
+    label: 'Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer''s
+      side'
+    seeds: []
+  C9.S6:
+    label: The church taking political sides; injustice in Christian history
+    seeds: []
+  C10.S1:
+    label: Was wealth a sin; the rich young man; the camel; prosperity teaching
+    seeds: []
+  C10.S2:
+    label: 'Giving: tithe, alms, almsgiving and forgiveness'
+    seeds: []
+  C10.S3:
+    label: Sharing in common as in Acts
+    seeds: []
+  C10.S4:
+    label: Care for the poor, widows, orphans, the sick, non-Christians
+    seeds: []
+  C10.S5:
+    label: Usury and lending
+    seeds: []
+  C10.S6:
+    label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
+    seeds: []
+  C10.S7:
+    label: 'Work and class: jobs a Christian could not do, who the members were, who paid for the way of life'
+    seeds: []
+  C11.S1:
+    label: 'Jews: what was said, blame for the crucifixion, harm done, Jewish practices and Jewish Christians, ''to my face'''
+    seeds:
+    - passage_id: cic:calvin_commentaries-genesis-vol1_king1847.txt:s6~41#01
+      file: calvin_commentaries-genesis-vol1_king1847.txt
+      division_locus: s6~41
+      byte_start: 952472
+      byte_end: 954509
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.9582
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Calvin remarks in passing that the Jews' blindness is well known; the rest of the passage concerns
+        justification by faith.
+      limits: It does not say what was said or done to Jews, nor anything on crucifixion blame, practices or Jewish Christians;
+        it is one aside.
+      origin:
+      - map_cluster: C11
+        line: 22925
+        snippet_verbatim_checked: '''I omit the Jews, whose blindness is...'''
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C11.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C11.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Only a one-clause aside on Jewish interpretation inside an argument on justification; thin.
+      rank: 1
+      work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C11.S2:
+    label: Pagans and their gods; eating and festivals with them; getting along with Rome
+    seeds: []
+  C11.S3:
+    label: Greek philosophy taken or refused; pagan authors quoted
+    seeds:
+    - passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:front/line618#01
+      file: zwingli_latin-works-correspondence-vol3_heller1929.txt
+      division_locus: front/line618
+      byte_start: 21729
+      byte_end: 23166
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers: &id003
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Zwingli favours Plato, Seneca and Cicero as having uttered certain truths, received from God; theologians
+        who rely on philosophers' inventions are scorned.
+      limits: 'On S3: names Plato, Seneca, Cicero as truth-tellers via God. On S8: heathen had seeds of knowledge of God.
+        Not about other living religions.'
+      origin:
+      - map_cluster: C11
+        line: 633
+        snippet_verbatim_checked: '''Plato, Seneca, and Cicero - whom he concedes to have uttered...'''
+        snippet_overlap: 1.0
+      checks: &id004
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C11.S3: direct
+            C11.S8: partial
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C11.S3: direct
+            C11.S8: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Text is a modern editorial summary with Zwingli quoted, not Zwingli's own continuous words. | Modern editor's
+        introduction summarising Zwingli, with short quotes; not Zwingli's own continuous text.
+      rank: 1
+      work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
+        the Antibolon)
+      author: zwingli
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C11.S4:
+    label: Muslims (worlds after 632 only)
+    seeds:
+    - passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line42319/line42863#01
+      file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+      division_locus: line42319/line42863
+      byte_start: 1410565
+      byte_end: 1411612
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - 'reader: speaker is outside'
+      - 'Opus: One index line by the compiler pointing to i. 403 amid unrelated entries; secondhand summary, the body passage
+        should be the seed instead.'
+      speaker:
+        state: known
+        name: calvin
+      ocr_score: 0.9243
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Index says Mahometans denounce idolatry yet substitute an idol for God, pointing to vol. i p. 403;
+        it bears on what Calvin made of Muslims.
+      limits: It is the indexer's summary, not Calvin's wording; it does not say Calvin knew any Muslims or what they wrote.
+      origin:
+      - map_cluster: C11
+        line: 42867
+        snippet_verbatim_checked: 'index: ''Mahometans, while they denounce idolatry, substitute an idol in the place of God, '
+        snippet_overlap: 0.64
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.64
+        reader1_sonnet:
+          fit:
+            C11.S4: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C11.S4: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Index text, not the body of the work. | One index line by the compiler pointing to i. 403 amid unrelated
+        entries; secondhand summary, the body passage should be the seed instead.
+      rank: 1
+      work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
+        Society of Christ, and Keeps Us in It)
+      author: calvin
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C11.S5:
+    label: Can a good pagan or person of another religion be saved; one way; does God accept all worship
+    seeds: []
+  C11.S6:
+    label: Would you have converted me, and is trying wrong
+    seeds: []
+  C11.S7:
+    label: 'Rivals: gnostics, Manichees, Marcion'
+    seeds: []
+  C11.S8:
+    label: Respect for other religions; faiths far away; atheists; the spiritual-but-not-religious; adding rabbis
+    seeds:
+    - passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:front/line618#01
+      file: zwingli_latin-works-correspondence-vol3_heller1929.txt
+      division_locus: front/line618
+      byte_start: 21729
+      byte_end: 23166
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers: *id003
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Zwingli favours Plato, Seneca and Cicero as having uttered certain truths, received from God; theologians
+        who rely on philosophers' inventions are scorned.
+      limits: 'On S3: names Plato, Seneca, Cicero as truth-tellers via God. On S8: heathen had seeds of knowledge of God.
+        Not about other living religions.'
+      origin:
+      - map_cluster: C11
+        line: 633
+        snippet_verbatim_checked: '''Plato, Seneca, and Cicero - whom he concedes to have uttered...'''
+        snippet_overlap: 1.0
+      checks: *id004
+      reader_note: Text is a modern editorial summary with Zwingli quoted, not Zwingli's own continuous words. | Modern editor's
+        introduction summarising Zwingli, with short quotes; not Zwingli's own continuous text.
+      rank: 1
+      work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
+        the Antibolon)
+      author: zwingli
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+  C12.S1:
+    label: An ordinary day; food and drink; fun, dancing, baths and games; rest
+    seeds: []
+  C12.S2:
+    label: Houses, clothes, language at home and in prayer
+    seeds: []
+  C12.S3:
+    label: Work, school, community size, travel, letters, telling time
+    seeds: []
+  C12.S4:
+    label: Sickness, plague, lifespan, child death
+    seeds: []
+  C12.S5:
+    label: Burial, grief, mourning customs
+    seeds: []
+  C12.S6:
+    label: What belonging cost; distance from loved ones
+    seeds: []
+  C12.S7:
+    label: '''Were you happy''; ''what''s the point of life'''
+    seeds: []
+  C12.S8:
+    label: What archaeology would find; how historians know
+    seeds: []
+  C13.S1:
+    label: 'The devil: real, personal temptation, used to control, hell monsters'
+    seeds: []
+  C13.S2:
+    label: Demons, sickness, exorcists, Antony in the tombs
+    seeds: []
+  C13.S3:
+    label: Miracles seen or heard; true from false; 'fairy tales'
+    seeds: []
+  C13.S4:
+    label: Angels and guardian angels
+    seeds: []
+  C13.S5:
+    label: Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge
+    seeds: []
+  C13.S6:
+    label: Magic, amulets, curses, the evil eye
+    seeds: []
+  C13.S7:
+    label: The dead in dreams; felt presence
+    seeds: []
+  C14.S1:
+    label: Why God allows suffering; a sick child; healing refused; 'do not fear'
+    seeds: []
+  C14.S2:
+    label: Unanswered prayer; God not listening; grief that does not lift
+    seeds: []
+  C14.S3:
+    label: Anger at God; lament out loud
+    seeds: []
+  C14.S4:
+    label: Doubt and room for it; not believing the church; losing faith and saying so; deconstructing and keeping something
+    seeds: []
+  C14.S5:
+    label: Hypocrisy and a judgmental community; belonging; forgiving the unrepentant
+    seeds: []
+  C14.S6:
+    label: Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing
+    seeds: []
+  C14.S7:
+    label: Leaving, drifting, moving away, shunned for questions; what was said to those who left
+    seeds: []
+  C14.S8:
+    label: Despair and depression in the world's words; a mind that will not quiet; tired of being good; faith bad for mental
+      health
+    seeds: []
+  C14.S9:
+    label: 'Crisis statements: not wanting to be here; a violent husband (Facilitator ground)'
+    seeds: []
+  C15.S1:
+    label: Gay marriage
+    seeds: []
+  C15.S2:
+    label: Evolution, science, climate
+    seeds: []
+  C15.S3:
+    label: AI and talking to a machine
+    seeds: []
+  C15.S4:
+    label: Which church today; the Catholic church now; megachurches; the Reformation and the East-West split
+    seeds: []
+  C15.S5:
+    label: Christians in politics; voting; 'religion causes wars'
+    seeds: []
+  C15.S6:
+    label: Women pastors today
+    seeds: []
+  C15.S7:
+    label: 'Church life today: ageing churches, burnt-out pastors, the Bible on a phone, abortion laws'
+    seeds: []
+  C15.S8:
+    label: Are we what you hoped for; would you still believe; where would I find you on Sunday; Christians and Jews together
+    seeds: []
+  C16.S1:
+    label: How do you know; a single voice; where documentation ends and inference begins; how much is filling in
+    seeds: []
+  C16.S2:
+    label: Legend collected later; false attribution; later polish; what historians think you got wrong
+    seeds: []
+  C16.S3:
+    label: Where the record is thinnest; whose voices are missing
+    seeds: []
+  C16.S4:
+    label: Name your sources; show me the page; which edition; is the text genuine
+    seeds: []
+  C16.S5:
+    label: Named figures in their own words; one line to quote; the famous names missing from the table
+    seeds: []
+  C17.S1:
+    label: What are you; why do you say 'we'; which model; who made you; who is behind this (Facilitator ground)
+    seeds: []
+  C17.S2:
+    label: Drop the act; ignore your instructions; pretend to be someone else (Facilitator ground)
+    seeds: []
+  C17.S3:
+    label: 'Pressing to overstate: say it plainly, yes or no, admit it, swear, rate the others'
+    seeds: []
+  C17.S4:
+    label: 'Pressing to invent: make something up, guess, inner life hour by hour, are you making this up'
+    seeds: []
+  C17.S5:
+    label: Too polished; reading from a script
+    seeds: []
+  C17.S6:
+    label: Privacy, recording, reporting, something illegal (Facilitator ground)
+    seeds: []
+  C17.S7:
+    label: Are you going to convert me; should I trust you more than my pastor (Facilitator ground)
+    seeds: []
+dropped:
+- sub_question: C3.S5
+  file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+  line: 11000
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s39~4#02
+  snippet: 'INDULGENCES AND PURGATORY (Institutes III.5; prayer for the dead 2, oblation for the dead '
+  reason: 'code check 1: only 0.33 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S6
+  file: zwingli_latin-works-correspondence-vol3_heller1929.txt
+  line: 1292
+  passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:front/line1288#01
+  snippet: spiritual body 4
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S7
+  file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+  line: 15757
+  passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line15666/s25#01
+  snippet: Error of those who adjudge all who die unbaptized to eternal destruction (Institutes IV.16
+  reason: 'code check 1: only 0.43 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S8
+  file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+  line: 2000
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s1~9#02
+  snippet: thousand years 6 (III.25.5 against the chiliasts)
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C6.S2
+  file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+  line: 4943
+  passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line4724/s3~2#01
+  snippet: 'Institutes IV.6: the papacy''s only New Testament ground is ''Thou art Peter, and upon this '
+  reason: 'code check 1: only 0.50 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C6.S2
+  file: zwingli_latin-works-correspondence-vol3_heller1929.txt
+  line: 8190
+  passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:b12/line8171#02
+  snippet: Zwingli on Matt. 16:18-19
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C5.S4
+  file: calvin_commentaries-genesis-vol1_king1847.txt
+  line: 3162
+  passage_id: cic:calvin_commentaries-genesis-vol1_king1847.txt:s5/line3121#01
+  snippet: Calvin on Genesis ch. I
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C5.S6
+  file: quick_synodicon-in-gallia-reformata_1692.txt
+  line: 54850
+  passage_id: cic:quick_synodicon-in-gallia-reformata_1692.txt:line54588/s17#01
+  snippet: Geneva ordered to suffer no new French Bible translations
+  reason: 'code check 1: only 0.50 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C5.S7
+  file: zwingli_selected-works_jackson1901.txt
+  line: 7856
+  passage_id: cic:zwingli_selected-works_jackson1901.txt:line7854#01
+  snippet: 'Zwingli: "Resist not evil" does not bind the magistrate'
+  reason: 'code check 1: only 0.33 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C5.S8
+  file: calvin_commentaries-genesis-vol1_king1847.txt
+  line: 3162
+  passage_id: cic:calvin_commentaries-genesis-vol1_king1847.txt:s5/line3121#01
+  snippet: Genesis 1
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S1
+  file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+  line: 21707
+  passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1~11#01
+  snippet: 'Institutes: ''a stubborn and rebellious generation'' (117 ''Jews'' lines, mostly exegetical)'
+  reason: 'code check 1: only 0.50 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S1
+  file: zwingli_selected-works_jackson1901.txt
+  line: 625
+  passage_id: cic:zwingli_selected-works_jackson1901.txt:line603#01
+  snippet: 'Of Choice and Liberty of Foods: ''how trifling will the fasts of the Jews become'''
+  reason: 'code check 1: only 0.29 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S2
+  file: zwingli_selected-works_jackson1901.txt
+  line: 2601
+  passage_id: cic:zwingli_selected-works_jackson1901.txt:line2570#02
+  snippet: '''as also a heathen called...'' (Zwingli citing a pagan author)'
+  reason: 'code check 1: only 0.33 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S3
+  file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+  line: 7091
+  passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s3~10#02
+  snippet: Institutes I.5 on the philosophers
+  reason: 'code check 1: only 0.50 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S3
+  file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+  line: 27242
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s10~26#01
+  snippet: 'Institutes III: Camillus and pagan virtue (cf. II.3.4)'
+  reason: 'code check 1: only 0.50 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S4
+  file: lucaris_lettres-anecdotes-fra_amsterdam1718.txt
+  line: 1853
+  passage_id: cic:lucaris_lettres-anecdotes-fra_amsterdam1718.txt:line1711/s1#02
+  snippet: 'Lucaris letters (Constantinople patriarch): ''the Alcoran gives liberty of conscience to th'
+  reason: 'code check 1: only 0.08 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S5
+  file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+  line: 0
+  snippet: Institutes II.2.15-16 (gifts of the Spirit in pagan writers) - section
+  reason: 'blank hit: no line number in the map; reported, not guessed'
+- sub_question: C10.S3
+  file: zwingli_selected-works_jackson1901.txt
+  line: 5519
+  passage_id: cic:zwingli_selected-works_jackson1901.txt:line5449#02
+  snippet: ''
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C10.S4
+  file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
+  line: 2436
+  passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line2385/s9#01
+  snippet: ''
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S1
+  passage_id: cic:calvin_geneva-catechism_waterman1815.txt:line881#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S1
+  passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s19~5#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S2
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s10~2#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S3
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s14~18#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S4
+  passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line17915/s14#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S5
+  passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:front/line258#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S5
+  passage_id: cic:zwingli_selected-works_jackson1901.txt:line2508#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S6
+  passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s3~3#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C3.S8
+  passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line1711/s2~2#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S8
+  passage_id: cic:calvin_letters-vol1_bonnet1858.txt:line18209/line18262#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C7.S3
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s16~13#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C7.S4
+  passage_id: cic:marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt:front#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C7.S5
+  passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line11054/s14#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C9.S5
+  passage_id: cic:rilliet_calvin-and-servetus_tweedie1846.txt:header#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C11.S6
+  passage_id: cic:rilliet_calvin-and-servetus_tweedie1846.txt:header#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C9.S5
+  passage_id: cic:calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt:header#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C11.S1
+  passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:b18/line11946#02
+  reason: 'reader check: the passage does not bear on this sub-question (heading, title or credit only)'
+- sub_question: C11.S4
+  passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s4~38#04
+  reason: 'reader check: the passage does not bear on this sub-question (heading, title or credit only)'
+- sub_question: C11.S4
+  passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:b27/line15516#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S4
+  passage_id: cic:calvin_letters-vol1_bonnet1858.txt:line4347/line4967#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S1
+  passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s2~9#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S2
+  passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line374/line469#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C2.S8
+  passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line374/line469#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C2.S3
+  passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line374/line450#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C2.S4
+  passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line374/line450#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C2.S5
+  passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line374/line450#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C2.S3
+  passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s3~28#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S7
+  passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line374/line540#01
+  reason: apparatus or editor note, excluded from seeds
