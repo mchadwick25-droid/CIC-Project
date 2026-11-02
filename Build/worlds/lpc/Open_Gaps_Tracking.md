@@ -2761,3 +2761,12 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open.** 23 seeds have no work or author, because the passage binds to several works and the rows cannot narrow it (the Seven Ecumenical Councils canons and similar). Same cause as OG-155; fixing it is a row-level change, not a seed change.
 - **Open.** The sub-questions linked by the question repository to the 28 sealed canon cells number 58; 42 have no passage seed, 38 of them because phase 2 so far targeted only sub-questions with no sidecar record (C1.S1 to S5, S8; C2.S2, S5, S6; C4.S1, S2, S5; C14.S1 to S8 and others), and 4 have no record and no seed (C11.S5, C11.S8, C12.S6, C12.S8).
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-161. C5 split into finer sub-questions, and what the split showed (2026-11-02).
+
+- **Done.** Rule, stated before use: a sub-question splits when its member questions would be answered from different records or passages; members answered from the same ones stay together. Applied to C5: C5.S1 into 5 (S1a to S1e), S2 into 6, S3 into 4, S6 into 2, S7 into 2 (one Opus read of the split moved C5.S7 from whole to split); S4, S5 and S8 stay whole. 19 splits, listed in `Build/Ministry/Features/Question-Coverage/Repository/08-subquestion-splits.yaml` (parent ids unchanged; 07 is untouched). The sidecar and the seed file carry the split ids with the parent id.
+- **Done.** Records placed under splits from what each record's `means` and `not_for` answer: 7 placements (S1d, S6a, S6b, S7a, S7b). Four existing seeds re-keyed under their split. Free search for 10 splits with concrete vocabulary: 20 new seeds on 7 of them. 11 of the 19 splits now hold at least one seed.
+- **Open.** Empty splits, left empty by the stopping rule (abstract vocabulary or nothing found): C5.S1b (who decided the canon, was it a vote), S1e, S2a, S2e, S2f, S3a (errors and reliability), S6a (no seed, three records), S6b.
+- **Open.** The six records the sidecar lists under C5.S2 do not answer any of its members (three answer C5.S4 and C5.S7, three are about one narrow verse each). The parent entry is left as it is; C5.S2 has no supporting record, so its splits rest on seeds only.
+- **Open.** R-28 (science disproves the Bible) may belong with C5.S4 rather than C5.S3d, and C5-11 may belong outside C5.S2e; both stay where they are until a passage settles it.
+- **Owner.** Library thread, through the coordination thread.

@@ -930,3 +930,105 @@ subquestions:
     cluster: C17
     label: Are you going to convert me; should I trust you more than my pastor (Facilitator ground)
     records: []
+  C5.S1a:
+    cluster: C5
+    label: Which books counted as scripture, the Apocrypha, and books they disputed
+    parent: C5.S1
+    records: []
+  C5.S1b:
+    cluster: C5
+    label: Who decided what went in the Bible, and was it a vote
+    parent: C5.S1
+    records: []
+  C5.S1c:
+    cluster: C5
+    label: Gospels that did not make it in, and whether they were suppressed
+    parent: C5.S1
+    records: []
+  C5.S1d:
+    cluster: C5
+    label: Whether the Bible was the only authority
+    parent: C5.S1
+    records:
+    - lpc.witness.scripture-above-councils
+  C5.S1e:
+    cluster: C5
+    label: What their teaching rested on, and what it stressed
+    parent: C5.S1
+    records: []
+  C5.S2a:
+    cluster: C5
+    label: How they read scripture and what they looked for
+    parent: C5.S2
+    records: []
+  C5.S2b:
+    cluster: C5
+    label: Reading literally, and one verse meaning more than one thing
+    parent: C5.S2
+    records: []
+  C5.S2c:
+    cluster: C5
+    label: The Old Testament read as about Jesus
+    parent: C5.S2
+    records: []
+  C5.S2d:
+    cluster: C5
+    label: Reading the Hebrew scriptures with or against the Jews
+    parent: C5.S2
+    records: []
+  C5.S2e:
+    cluster: C5
+    label: What a modern reader misses or misreads
+    parent: C5.S2
+    records: []
+  C5.S2f:
+    cluster: C5
+    label: Their favourite Bible story
+    parent: C5.S2
+    records: []
+  C5.S3a:
+    cluster: C5
+    label: Whether the Bible had errors, and how reliable it is
+    parent: C5.S3
+    records: []
+  C5.S3b:
+    cluster: C5
+    label: Which translation they used, and its mistakes
+    parent: C5.S3
+    records: []
+  C5.S3c:
+    cluster: C5
+    label: 'Who wrote the books: Moses and the first five, Paul and his letters'
+    parent: C5.S3
+    records: []
+  C5.S3d:
+    cluster: C5
+    label: Whether science disproves the Bible
+    parent: C5.S3
+    records: []
+  C5.S6a:
+    cluster: C5
+    label: How someone who could not read received the scriptures
+    parent: C5.S6
+    records:
+    - lpc.term.preaching
+    - lpc.quote.the-sermon-and-the-readings-are-daily-bread
+    - lpc.limit.rural-punic-berber-life
+  C5.S6b:
+    cluster: C5
+    label: Whether ordinary people could own or read a Bible, and in what language
+    parent: C5.S6
+    records:
+    - lpc.limit.rural-punic-berber-life
+  C5.S7a:
+    cluster: C5
+    label: Whether the violence in the texts troubled them
+    parent: C5.S7
+    records:
+    - lpc.witness.violence-commanded-not-cruel
+  C5.S7b:
+    cluster: C5
+    label: 'Psalm 137: dashing the little ones against the rock'
+    parent: C5.S7
+    records:
+    - lpc.quote.dash-the-little-ones-against-the-rock
