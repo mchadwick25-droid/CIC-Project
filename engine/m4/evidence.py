@@ -42,7 +42,7 @@ import re
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
-from engine.m4 import fit_step, passage_offer
+from engine.m4 import fit_step, passage_offer, subquestion_routing
 from engine.m4.citation_cards import _quote_speaker_label
 from engine.m4.grounding_net import QuotationIndex, scope_completion
 from engine.m4.rhythm import RhythmTally
@@ -1351,8 +1351,9 @@ def assemble_evidence(
         m for i, m in enumerate(extras)
         if m["cell"] not in seen_cells and m["cell"] not in {x["cell"] for x in extras[:i]}
     ]
-    if sub_question and coverage.get(sub_question):
-        cell_matches = [{"cell": sub_question, "score": 1.0, "from_sub_question": True}] + [m for m in cell_matches if m["cell"] != sub_question]
+    held = subquestion_routing.resolve(sub_question, {k for k, v in coverage.items() if v})
+    if held:
+        cell_matches = [{"cell": held, "score": 1.0, "from_sub_question": True}] + [m for m in cell_matches if m["cell"] != held]
 
     selected: list[dict] = []
     seen_ids: set[str] = set()

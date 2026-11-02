@@ -75,7 +75,7 @@ def render_report(
     for cluster in sorted({c.cluster for c in cases}, key=lambda x: int(x[1:])):
         out.append(f"| {cluster} {cluster_names.get(cluster, '')} | {_cells([c for c in cases if c.cluster == cluster])}")
     out += ["", "## By sub-question", "", HEADER.format("Sub-question")]
-    for sub in sorted({c.sub_question for c in cases}, key=lambda s: (int(s.split(".")[0][1:]), int(s.split("S")[-1]))):
+    for sub in sorted({c.sub_question for c in cases}, key=lambda s: (int(s.split(".")[0][1:]), int(s.split("S")[-1].rstrip("abcdefghijklmnopqrstuvwxyz")), s)):
         out.append(f"| {sub} {subquestions[sub]['label'][:60]} | {_cells([c for c in cases if c.sub_question == sub])}")
     groups: dict[tuple[str, str], list[Case]] = defaultdict(list)
     for c in raw:

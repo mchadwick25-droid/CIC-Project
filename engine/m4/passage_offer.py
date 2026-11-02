@@ -20,6 +20,8 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
+from engine.m4 import subquestion_routing
+
 PASSAGE_TYPE = "passage"
 DEFAULT_MAX_PASSAGES = 6
 DEFAULT_MAX_WORDS = 1800
@@ -72,7 +74,8 @@ def select(offer: dict, sub_question: str | None, budget: Budget) -> list[dict]:
     """The sub-question's passages that fit the budget, in offer order."""
     chosen: list[dict] = []
     words = 0
-    for passage in ranked((offer.get("subquestions") or {}).get(sub_question or "") or []):
+    held = {k for k, v in (offer.get("subquestions") or {}).items() if v}
+    for passage in ranked((offer.get("subquestions") or {}).get(subquestion_routing.resolve(sub_question, held) or "") or []):
         if len(chosen) >= budget.max_passages:
             break
         if chosen and words + passage["word_count"] > budget.max_words:

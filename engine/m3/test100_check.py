@@ -107,7 +107,7 @@ def import_read(rows: list, work: Path, records: dict) -> dict:
         failed = bool(result["unsupported"] or result["dropped"])
         left = ac.survivors(units, result)
         status = "clean" if not failed else ("rewrite" if ac.words(left) >= ac.SURVIVE_MIN_WORDS else "too_little")
-        out.append({"question_id": qid, "status": status, "units": units, "unsupported": {str(i): j for i, j in result["unsupported"].items()}, "dropped": result["dropped"]})
+        out.append({"question_id": qid, "status": status, "units": units, "unsupported": {str(i): j for i, j in result["unsupported"].items()}, "dropped": result["dropped"], "answers": parsed["answers"]})
         if status == "rewrite":
             _write_prompt(work, "rewrite", qid, ac.rewrite_request(question_text(question), units, {"unsupported": result["unsupported"], "dropped": result["dropped"]}, records))
             counts["to_rewrite"] += 1

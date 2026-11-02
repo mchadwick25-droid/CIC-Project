@@ -91,3 +91,15 @@ def test_the_lpc_sidecar_only_names_records_the_world_holds():
     assert len(sidecar["subquestions"]) == 130
     assert all(set(e) == {"cluster", "label", "records"} for e in sidecar["subquestions"].values())
     assert sr.SUB_QUESTION_ID.fullmatch(next(iter(sidecar["subquestions"])))
+
+
+def test_a_split_id_is_a_catalogue_id_and_a_split_with_nothing_of_its_own_takes_its_parent():
+    sidecar = {"world": "fix", "subquestions": {"C1.S1": {"cluster": "C1", "label": "a", "records": ["fix.term.baptisma"]}, "C1.S1a": {"cluster": "C1", "label": "b", "records": []}}}
+    assert sr.parse_sub_question({"sub_question": "C1.S1a"}, sidecar) == "C1.S1a"
+    assert sr.parent_of("C1.S1a") == "C1.S1" and sr.parent_of("C1.S1") is None
+    assert sr.resolve("C1.S1a", {"C1.S1"}) == "C1.S1" and sr.resolve("C1.S1a", {"C1.S1", "C1.S1a"}) == "C1.S1a"
+    assert sr.resolve("C1.S2a", {"C1.S1"}) is None and sr.resolve(None, {"C1.S1"}) is None
+
+
+def test_the_offer_of_a_split_with_no_records_is_its_parents():
+    assert _offer("C1.S1a") == _offer("C1.S1")
