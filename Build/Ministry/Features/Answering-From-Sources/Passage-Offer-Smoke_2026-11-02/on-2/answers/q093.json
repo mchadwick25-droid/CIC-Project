@@ -1,0 +1,171 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Yes, communion of the Lord's body was part of our life, and Augustine would not have the dying cheated of it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429, that when ministers stay at their posts in danger, none are defrauded of that communion."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d8219731a60f"
+   ],
+   "sentence": "A writing we hold writes that some dare not take the sacrament every day, and others dare not omit it any day."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d8219731a60f"
+   ],
+   "sentence": "A writing we hold writes that both kinds are moved by a wish to honour it."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.a4ee6140ff47"
+   ],
+   "sentence": "A writing we hold writes that the Christians of Carthage call baptism salvation, and the sacrament of the body of Christ life."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d8219731a60f"
+   ],
+   "sentence": "A writing we hold writes that the apostle faults those who ate unworthily, by not telling it from other food or giving it the special honour due."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d8219731a60f",
+    "lpc.passage.a4ee6140ff47"
+   ],
+   "sentence": "A writing we hold writes of the sacrament as the body and blood of the Lord, and goes no further than those names."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "sentence": "Among us the altar was also where we remembered our dead, and Augustine's mother, Monica, asked her sons to remember her there."
+  }
+ ],
+ "citations": [
+  "lpc.passage.a4ee6140ff47",
+  "lpc.passage.d8219731a60f",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.witness.the-dying-and-the-pastors-post"
+ ],
+ "group": "I",
+ "id": "q093",
+ "net_sentences": [
+  {
+   "draft": "Yes, communion of the Lord's body was part of our life, and Augustine would not have the dying cheated of it [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "Yes, communion of the Lord's body was part of our life, and Augustine would not have the dying cheated of it.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429, that when ministers stay at their posts in danger, none are defrauded of that communion [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429, that when ministers stay at their posts in danger, none are defrauded of that communion.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A writing we hold writes that some dare not take the sacrament every day, and others dare not omit it any day [[lpc.passage.d8219731a60f]] [[as:paraphrase]].",
+   "sentence": "A writing we hold writes that some dare not take the sacrament every day, and others dare not omit it any day.",
+   "tags": [
+    "lpc.passage.d8219731a60f"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A writing we hold writes that both kinds are moved by a wish to honour it [[lpc.passage.d8219731a60f]] [[as:paraphrase]].",
+   "sentence": "A writing we hold writes that both kinds are moved by a wish to honour it.",
+   "tags": [
+    "lpc.passage.d8219731a60f"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A writing we hold writes that the Christians of Carthage call baptism salvation, and the sacrament of the body of Christ life [[lpc.passage.a4ee6140ff47]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "A writing we hold writes that the Christians of Carthage call baptism salvation, and the sacrament of the body of Christ life.",
+   "tags": [
+    "lpc.passage.a4ee6140ff47"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "A writing we hold writes that the apostle faults those who ate unworthily, by not telling it from other food or giving it the special honour due [[lpc.passage.d8219731a60f]] [[as:paraphrase]].",
+   "sentence": "A writing we hold writes that the apostle faults those who ate unworthily, by not telling it from other food or giving it the special honour due.",
+   "tags": [
+    "lpc.passage.d8219731a60f"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A writing we hold writes of the sacrament as the body and blood of the Lord, and goes no further than those names [[lpc.passage.d8219731a60f]] [[lpc.passage.a4ee6140ff47]] [[as:paraphrase]].",
+   "sentence": "A writing we hold writes of the sacrament as the body and blood of the Lord, and goes no further than those names.",
+   "tags": [
+    "lpc.passage.d8219731a60f",
+    "lpc.passage.a4ee6140ff47"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Among us the altar was also where we remembered our dead, and Augustine's mother, Monica, asked her sons to remember her there [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Among us the altar was also where we remembered our dead, and Augustine's mother, Monica, asked her sons to remember her there.",
+   "tags": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.communion",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.christ-redeemed-in-our-captive-brethren",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.communion-over-separation",
+  "lpc.quote.apart-in-heart-united-in-body",
+  "lpc.passage.d8219731a60f",
+  "lpc.passage.a4ee6140ff47"
+ ],
+ "raw_text": "Yes, communion of the Lord's body was part of our life, and Augustine would not have the dying cheated of it [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429, that when ministers stay at their posts in danger, none are defrauded of that communion [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. A writing we hold writes that some dare not take the sacrament every day, and others dare not omit it any day [[lpc.passage.d8219731a60f]] [[as:paraphrase]]. A writing we hold writes that both kinds are moved by a wish to honour it [[lpc.passage.d8219731a60f]] [[as:paraphrase]]. A writing we hold writes that the Christians of Carthage call baptism salvation, and the sacrament of the body of Christ life [[lpc.passage.a4ee6140ff47]] [[as:paraphrase]]. That writing supposes this comes from an old apostolic tradition, that without baptism and the Lord's supper no one reaches the kingdom of God [[lpc.passage.a4ee6140ff47]] [[as:paraphrase]]. A writing we hold writes that the apostle faults those who ate unworthily, by not telling it from other food or giving it the special honour due [[lpc.passage.d8219731a60f]] [[as:paraphrase]]. A writing we hold writes of the sacrament as the body and blood of the Lord, and goes no further than those names [[lpc.passage.d8219731a60f]] [[lpc.passage.a4ee6140ff47]] [[as:paraphrase]]. Among us the altar was also where we remembered our dead, and Augustine's mother, Monica, asked her sons to remember her there [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "That writing supposes this comes from an old apostolic tradition, that without baptism and the Lord's supper no one reaches the kingdom of God [[lpc.passage.a4ee6140ff47]] [[as:paraphrase]].",
+    "sentence": "That writing supposes this comes from an old apostolic tradition, that without baptism and the Lord's supper no one reaches the kingdom of God.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S2",
+ "text": "Yes, communion of the Lord's body was part of our life, and Augustine would not have the dying cheated of it. Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429, that when ministers stay at their posts in danger, none are defrauded of that communion. A writing we hold writes that some dare not take the sacrament every day, and others dare not omit it any day. A writing we hold writes that both kinds are moved by a wish to honour it. A writing we hold writes that the Christians of Carthage call baptism salvation, and the sacrament of the body of Christ life. A writing we hold writes that the apostle faults those who ate unworthily, by not telling it from other food or giving it the special honour due. A writing we hold writes of the sacrament as the body and blood of the Lord, and goes no further than those names. Among us the altar was also where we remembered our dead, and Augustine's mother, Monica, asked her sons to remember her there.",
+ "voice_set_aside": false
+}
