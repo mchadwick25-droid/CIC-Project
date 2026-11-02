@@ -1,0 +1,251 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Yes, Pontius says that in the plague Cyprian preached love of enemies, and help reached beyond believers."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.good-done-to-all-not-only-the-household"
+   ],
+   "sentence": "Pontius wrote: “So good was done, in a flood of generous works, to all people, not only to those of the household of faith. More was done than is recorded of the matchless kindness of Tobias. Let Tobias forgive, and forgive again, and often forgive. Or, to speak more truly, let him rightly grant this. Much could be done before Christ, but something more could be done after Christ, since all fullness belongs to His times. Tobias gathered those whom the king had killed and thrown out, but only those of his own race.”"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Pontius tells of the plague and the enemies:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "A dreadful plague broke out and killed countless people every day."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Everyone fled the infection, and they even put their own dying friends out of their homes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "When we gathered, our bishop told us that there was nothing special about caring only for our own people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "We had to love even our enemies and pray for those who persecute us."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "So good was done to everyone, not only to our own people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "No source outside Pontius describes the relief at all."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Pontius does not say whether the persecutors themselves were among those helped."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "No pagan Carthaginian of ours left a word about being helped by us during this epidemic."
+  }
+ ],
+ "citations": [
+  "lpc.quote.good-done-to-all-not-only-the-household",
+  "lpc.story.the-plague-and-the-enemies"
+ ],
+ "group": "C",
+ "id": "q060",
+ "net_sentences": [
+  {
+   "draft": "Yes, Pontius says that in the plague Cyprian preached love of enemies, and help reached beyond believers [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Yes, Pontius says that in the plague Cyprian preached love of enemies, and help reached beyond believers.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Pontius wrote: [[quote:lpc.quote.good-done-to-all-not-only-the-household]]",
+   "placed_quote": "lpc.quote.good-done-to-all-not-only-the-household",
+   "sentence": "Pontius wrote: “So good was done, in a flood of generous works, to all people, not only to those of the household of faith. More was done than is recorded of the matchless kindness of Tobias. Let Tobias forgive, and forgive again, and often forgive. Or, to speak more truly, let him rightly grant this. Much could be done before Christ, but something more could be done after Christ, since all fullness belongs to His times. Tobias gathered those whom the king had killed and thrown out, but only those of his own race.”",
+   "tags": [
+    "lpc.quote.good-done-to-all-not-only-the-household"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Pontius tells of the plague and the enemies: [[story:lpc.story.the-plague-and-the-enemies:short]]",
+   "sentence": "Pontius tells of the plague and the enemies:",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A dreadful plague broke out and killed countless people every day [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "A dreadful plague broke out and killed countless people every day.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Everyone fled the infection, and they even put their own dying friends out of their homes [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "Everyone fled the infection, and they even put their own dying friends out of their homes.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When we gathered, our bishop told us that there was nothing special about caring only for our own people [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "When we gathered, our bishop told us that there was nothing special about caring only for our own people.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We had to love even our enemies and pray for those who persecute us [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "We had to love even our enemies and pray for those who persecute us.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "So good was done to everyone, not only to our own people [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "So good was done to everyone, not only to our own people.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "No source outside Pontius describes the relief at all [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].",
+   "narrates_story": true,
+   "ratio": 1.0,
+   "sentence": "No source outside Pontius describes the relief at all.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Pontius does not say whether the persecutors themselves were among those helped [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].",
+   "sentence": "Pontius does not say whether the persecutors themselves were among those helped.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No pagan Carthaginian of ours left a word about being helped by us during this epidemic [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No pagan Carthaginian of ours left a word about being helped by us during this epidemic.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.term.the-flock",
+  "lpc.term.heresy",
+  "lpc.term.schism",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.good-done-to-all-not-only-the-household",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.force.congregational-acclamation-overriding-preference",
+  "lpc.limit.the-lapsed-own-account",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.a-standard-bearer-of-the-sect",
+  "lpc.limit.the-outsiders-own-view",
+  "lpc.witness.blamed-for-the-worlds-troubles",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.quote.the-psalms-hung-upon-the-wall",
+  "lpc.force.vandal-invasion-siege-of-hippo"
+ ],
+ "raw_text": "Yes, Pontius says that in the plague Cyprian preached love of enemies, and help reached beyond believers [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].\n\nPontius wrote: [[quote:lpc.quote.good-done-to-all-not-only-the-household]]\n\nPontius tells of the plague and the enemies: [[story:lpc.story.the-plague-and-the-enemies:short]]\n\nNo source outside Pontius describes the relief at all [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]]. Pontius does not say whether the persecutors themselves were among those helped [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]]. No pagan Carthaginian of ours left a word about being helped by us during this epidemic [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.good-done-to-all-not-only-the-household": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "on. He went with him into exile, and after the execution he wrote the account of his life and death. Cyprian's own deacon, pr",
+     "span": "record lpc.figure.pontius"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.story.the-plague-and-the-enemies",
+   "lpc.quote.good-done-to-all-not-only-the-household"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.the-plague-and-the-enemies": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C10.S4",
+ "text": "Yes, Pontius says that in the plague Cyprian preached love of enemies, and help reached beyond believers.\n\nPontius wrote: “So good was done, in a flood of generous works, to all people, not only to those of the household of faith. More was done than is recorded of the matchless kindness of Tobias. Let Tobias forgive, and forgive again, and often forgive. Or, to speak more truly, let him rightly grant this. Much could be done before Christ, but something more could be done after Christ, since all fullness belongs to His times. Tobias gathered those whom the king had killed and thrown out, but only those of his own race.”\n\nPontius tells of the plague and the enemies:\n\nA dreadful plague broke out and killed countless people every day. Everyone fled the infection, and they even put their own dying friends out of their homes.\n\nWhen we gathered, our bishop told us that there was nothing special about caring only for our own people. We had to love even our enemies and pray for those who persecute us.\n\nSo good was done to everyone, not only to our own people. Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only.\n\nNo source outside Pontius describes the relief at all. Pontius does not say whether the persecutors themselves were among those helped. No pagan Carthaginian of ours left a word about being helped by us during this epidemic.",
+ "voice_set_aside": false
+}

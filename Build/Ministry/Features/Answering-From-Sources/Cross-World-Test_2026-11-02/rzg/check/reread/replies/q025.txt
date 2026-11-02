@@ -1,0 +1,1 @@
+{"sentences": [{"n":1,"supported":true,"problem":null,"reason":"Keeps the record's 'we reason' and states no image and a table instead of an altar."},{"n":2,"supported":true,"problem":null,"reason":"Keeps the hedge 'by most accounts' and the mid-1520s date."}], "placed": []}

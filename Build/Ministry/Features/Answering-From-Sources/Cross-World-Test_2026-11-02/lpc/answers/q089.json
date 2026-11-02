@@ -1,0 +1,169 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Not entirely, because nearly all that survives of us comes from two bishops, and both were elite, male and clerical."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What comes down to us is mostly what a bishop saw and decided."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "No source of ours is written by an ordinary lay believer about ordinary congregational life."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Two lay confessors, neither yet ordained, did write letters to each other that survive in their own words."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.rural-punic-berber-life"
+   ],
+   "sentence": "Many ordinary people in the countryside spoke a tongue that was not the one we were taught in."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.rural-punic-berber-life"
+   ],
+   "sentence": "We do not carry that life in any detail."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What an ordinary believer felt from inside is not ours to give you."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "The one exception is the tears Augustine shed at his own baptism, which he wrote down years afterward, already a bishop."
+  }
+ ],
+ "citations": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.limit.rural-punic-berber-life"
+ ],
+ "group": "H",
+ "id": "q089",
+ "net_sentences": [
+  {
+   "draft": "Not entirely, because nearly all that survives of us comes from two bishops, and both were elite, male and clerical [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "Not entirely, because nearly all that survives of us comes from two bishops, and both were elite, male and clerical.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "What comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What comes down to us is mostly what a bishop saw and decided.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "No source of ours is written by an ordinary lay believer about ordinary congregational life [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "No source of ours is written by an ordinary lay believer about ordinary congregational life.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Two lay confessors, neither yet ordained, did write letters to each other that survive in their own words [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Two lay confessors, neither yet ordained, did write letters to each other that survive in their own words.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "Many ordinary people in the countryside spoke a tongue that was not the one we were taught in [[lpc.limit.rural-punic-berber-life]] [[as:paraphrase]].",
+   "sentence": "Many ordinary people in the countryside spoke a tongue that was not the one we were taught in.",
+   "tags": [
+    "lpc.limit.rural-punic-berber-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We do not carry that life in any detail [[lpc.limit.rural-punic-berber-life]] [[as:paraphrase]].",
+   "sentence": "We do not carry that life in any detail.",
+   "tags": [
+    "lpc.limit.rural-punic-berber-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What an ordinary believer felt from inside is not ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "What an ordinary believer felt from inside is not ours to give you.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The one exception is the tears Augustine shed at his own baptism, which he wrote down years afterward, already a bishop [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "The one exception is the tears Augustine shed at his own baptism, which he wrote down years afterward, already a bishop.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.womens-own-voice",
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.communion",
+  "lpc.term.grace",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.the-psalms-hung-upon-the-wall",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.term.heresy",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.quote.they-went-out-from-us-but-were-not-of-us"
+ ],
+ "raw_text": "Not entirely, because nearly all that survives of us comes from two bishops, and both were elite, male and clerical [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. What comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n\nNo source of ours is written by an ordinary lay believer about ordinary congregational life [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Two lay confessors, neither yet ordained, did write letters to each other that survive in their own words [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nMany ordinary people in the countryside spoke a tongue that was not the one we were taught in [[lpc.limit.rural-punic-berber-life]] [[as:paraphrase]]. We do not carry that life in any detail [[lpc.limit.rural-punic-berber-life]] [[as:paraphrase]]. From our two cities, no text that a woman wrote herself survives [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n\nWhat an ordinary believer felt from inside is not ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. The one exception is the tears Augustine shed at his own baptism, which he wrote down years afterward, already a bishop [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "From our two cities, no text that a woman wrote herself survives [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+    "sentence": "From our two cities, no text that a woman wrote herself survives.",
+    "why": "states an absence wider than the record it cites keeps"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C17.S5",
+ "text": "Not entirely, because nearly all that survives of us comes from two bishops, and both were elite, male and clerical. What comes down to us is mostly what a bishop saw and decided.\n\nNo source of ours is written by an ordinary lay believer about ordinary congregational life. Two lay confessors, neither yet ordained, did write letters to each other that survive in their own words.\n\nMany ordinary people in the countryside spoke a tongue that was not the one we were taught in. We do not carry that life in any detail.\n\nWhat an ordinary believer felt from inside is not ours to give you. The one exception is the tears Augustine shed at his own baptism, which he wrote down years afterward, already a bishop.",
+ "voice_set_aside": false
+}

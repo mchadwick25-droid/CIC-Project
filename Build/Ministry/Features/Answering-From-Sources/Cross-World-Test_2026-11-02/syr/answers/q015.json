@@ -1,0 +1,135 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "We answered need with service, as the covenant's sons and daughters stayed in town and served the congregation."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "The covenant's work was the fast, the watch, the vigil, and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "We spoke of sin as a wounding, a sickness in the human race, and we preached that our Lord took sin and nailed it to his cross."
+  },
+  {
+   "record_ids": [
+    "syr.quote.dem6-visit-the-sick"
+   ],
+   "sentence": "The Persian sage wrote in the covenant exhortation of Demonstration VI: “Let us visit our Lord in the persons of the sick.”"
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "We answered need with service, as the covenant's sons and daughters stayed in town and served the congregation [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "We answered need with service, as the covenant's sons and daughters stayed in town and served the congregation.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The covenant's work was the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "The covenant's work was the fast, the watch, the vigil, and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We spoke of sin as a wounding, a sickness in the human race, and we preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "sentence": "We spoke of sin as a wounding, a sickness in the human race, and we preached that our Lord took sin and nailed it to his cross.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Persian sage wrote in the covenant exhortation of Demonstration VI: [[quote:syr.quote.dem6-visit-the-sick]]",
+   "placed_quote": "syr.quote.dem6-visit-the-sick",
+   "sentence": "The Persian sage wrote in the covenant exhortation of Demonstration VI: “Let us visit our Lord in the persons of the sick.”",
+   "tags": [
+    "syr.quote.dem6-visit-the-sick"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "syr.limit.ritual-sequence",
+  "syr.dw.adam-grace",
+  "syr.term.qyama",
+  "syr.story.ephrem-famine-death",
+  "syr.story.choirs-tradition",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.story.qyama-morning",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.force.frontier-plural-milieu"
+ ],
+ "raw_text": "We answered need with service, as the covenant's sons and daughters stayed in town and served the congregation [[syr.term.qyama]] [[as:paraphrase]].\n\nThe covenant's work was the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]].\n\nWe spoke of sin as a wounding, a sickness in the human race, and we preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]] [[as:paraphrase]].\n\nIn the famine of Ephrem's last year, the early tradition says Ephrem nursed the starving in Edessa's public porches [[syr.story.ephrem-famine-death]] [[as:paraphrase]].\n\nThe Persian sage wrote in the covenant exhortation of Demonstration VI: [[quote:syr.quote.dem6-visit-the-sick]]\n\nThe early accounts' telling of that famine is remembered tradition, not verified reporting [[syr.story.ephrem-famine-death]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.dem6-visit-the-sick": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "ersons of the sick Aphrahat, in the covenant exhortation of Demonstration VI, urges his hearers to visit the Lord in the persons of t",
+     "span": "record syr.quote.dem6-visit-the-sick"
+    },
+    {
+     "detail": "VI",
+     "kind": "name",
+     "snippet": "Let us visit our Lord in the persons of the sick. VI (the covenant exhortation) Let us visit our Lord in the per",
+     "span": "record syr.quote.dem6-visit-the-sick"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.dem6-visit-the-sick"
+  ],
+  "removed": [
+   {
+    "draft": "In the famine of Ephrem's last year, the early tradition says Ephrem nursed the starving in Edessa's public porches [[syr.story.ephrem-famine-death]] [[as:paraphrase]].",
+    "sentence": "In the famine of Ephrem's last year, the early tradition says Ephrem nursed the starving in Edessa's public porches.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "The early accounts' telling of that famine is remembered tradition, not verified reporting [[syr.story.ephrem-famine-death]] [[as:paraphrase]].",
+    "sentence": "The early accounts' telling of that famine is remembered tradition, not verified reporting.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S8",
+ "text": "We answered need with service, as the covenant's sons and daughters stayed in town and served the congregation.\n\nThe covenant's work was the fast, the watch, the vigil, and the singing.\n\nWe spoke of sin as a wounding, a sickness in the human race, and we preached that our Lord took sin and nailed it to his cross.\n\nThe Persian sage wrote in the covenant exhortation of Demonstration VI: “Let us visit our Lord in the persons of the sick.”",
+ "voice_set_aside": false
+}

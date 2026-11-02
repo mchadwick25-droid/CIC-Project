@@ -1,0 +1,129 @@
+<title>Stage 3 on lpc</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one plain page, three tables (quote door, stories door, transparency), then the open list. */
+:root {
+  --bg: #fbfaf7; --fg: #1d2127; --muted: #5d6671; --rule: #d9d6cd; --head: #efece4;
+  --built: #1f6a45; --built-bg: #dcefe3; --part: #8a5a00; --part-bg: #f6e8c4; --miss: #9b2c2c; --miss-bg: #f5dada;
+  --font-body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-head: "Source Serif 4", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15181c; --fg: #e6e7e9; --muted: #9aa3ad; --rule: #333a42; --head: #1f242a;
+    --built: #7fd1a1; --built-bg: #1d3a2b; --part: #e8c26b; --part-bg: #3d3115; --miss: #f19a9a; --miss-bg: #432222;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15181c; --fg: #e6e7e9; --muted: #9aa3ad; --rule: #333a42; --head: #1f242a;
+  --built: #7fd1a1; --built-bg: #1d3a2b; --part: #e8c26b; --part-bg: #3d3115; --miss: #f19a9a; --miss-bg: #432222;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.45;
+  padding-block: 28px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+main { max-width: 1040px; margin: 0 auto; }
+h1 { font-family: var(--font-head); font-size: 28px; line-height: 1.15; margin: 0 0 6px; text-wrap: balance; }
+h2 { font-family: var(--font-head); font-size: 19px; margin: 34px 0 10px; }
+p.lede { color: var(--muted); margin: 0 0 6px; max-width: 70ch; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--rule); }
+th { background: var(--head); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+td.req { width: 28%; font-weight: 600; }
+td.state { width: 90px; }
+.chip { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 4px; white-space: nowrap; }
+.chip.built { color: var(--built); background: var(--built-bg); }
+.chip.part { color: var(--part); background: var(--part-bg); }
+.chip.miss { color: var(--miss); background: var(--miss-bg); }
+td.num { font-variant-numeric: tabular-nums; }
+.note { color: var(--muted); font-size: 13px; margin-top: 8px; max-width: 80ch; }
+ol.open { padding-left: 20px; max-width: 80ch; }
+ol.open li { margin-bottom: 6px; }
+code { font-size: 13px; }
+@media (max-width: 520px) { h1 { font-size: 24px; } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:wght@600&display=swap">
+<main>
+<h1>Stage 3 on lpc: what it requires, what exists, what is missing</h1>
+<p class="lede">From <code>Stage3_Change_Order.md</code> (approved 2026-10-29). Shadow only. Stories stay off in production for lpc, the quote card stays as it is today. Nothing is built yet for this stage; this is a read of what is already merged.</p>
+<p class="lede">Numbers marked "proof run" come from the Stage 4 shadow proof on the 106 lpc questions (the 28 sealed probes are q001 to q028). They are measured on the shadow path, not live. No cost figures.</p>
+
+<h2>Quote door</h2>
+<div class="scroll"><table>
+<tr><th>Stage 3 requires</th><th>State</th><th>What is already merged</th><th>What is missing</th></tr>
+<tr><td class="req">The voice marks a quote by record id; code inserts the reviewed rendering and writes the lead-in that names the speaker. The model never types a quotation.</td>
+<td class="state"><span class="chip built">Built</span></td>
+<td><code>[[quote:id]]</code> marker, placement and code-written lead-in ("In today's English, X says") in <code>engine/m4/quote_placement.py</code>; the bound-draft step and the rewrite refuse a typed quotation mark.</td>
+<td>Typed quotations cut are not counted on their own in the proof run (today: 15 of the 45 cuts on the 28).</td></tr>
+<tr><td class="req">Every spoken rendering fully reviewed before it can be spoken; written by Opus, in plan.</td>
+<td class="state"><span class="chip part">Partly checked</span></td>
+<td>All 86 lpc quote records carry a <code>modern_rendering</code> and status <code>ready</code>.</td>
+<td>I did not check the review log per rendering. Library to confirm.</td></tr>
+<tr><td class="req">Card shows three labelled layers: spoken rendering, edition words with translator and date, the original's locus.</td>
+<td class="state"><span class="chip miss">Not built</span></td>
+<td>Today's card carries the spoken rendering and the source reference; a test asserts no original wording.</td>
+<td>Open question, not approved: may the card carry the edition words. The rule and its test stay until Mark rules; coordination raises it when the door is blocked on it.</td></tr>
+<tr><td class="req">Fit of the placed quote to the question (30-draft sample read by Mark).</td>
+<td class="state"><span class="chip part">Step built, sample unread</span></td>
+<td><code>engine/m4/fit_step.py</code> judges each placement; 39 placements dropped for fit across the 106 in the proof run.</td>
+<td>Mark has not read a 30-draft fit sample.</td></tr>
+</table></div>
+
+<h2>Quote door: the change order's numbers (the 28 sealed probes)</h2>
+<div class="scroll"><table>
+<tr><th>Measure</th><th>lpc today</th><th>Replay ceiling</th><th>Target</th><th>Proof run, 28 sealed</th></tr>
+<tr><td>Answers with a quote placed by code</td><td class="num">4 of 28</td><td class="num">10</td><td>More than today</td><td class="num">11 of 28 (48 of 106)</td></tr>
+<tr><td>All cuts</td><td class="num">45</td><td class="num">39</td><td>Fewer</td><td class="num">Not the same count. Removed by the net 10, withheld by the bound step 15, struck by the read 23.</td></tr>
+<tr><td>Orphan flags</td><td class="num">13</td><td class="num">13</td><td>Fewer</td><td class="num">3 unresolved-referent flags by the read</td></tr>
+<tr><td>Words per answer</td><td class="num">233</td><td class="num">290 (all worlds)</td><td>No worse</td><td class="num">144. Below today, so not met. Two of the 28 abstained.</td></tr>
+<tr><td>Readability, FK grade / reading ease</td><td class="num">6.5 / 74.0</td><td class="num">not measured</td><td>No worse</td><td class="num">9.8 / 62.2. Worse than today; the placed quotes are the record's own renderings and read harder.</td></tr>
+</table></div>
+<p class="note">Placement counts are what the engine placed before the read; the read then dropped some placements for fit (39 across the 106).</p>
+<p class="note">The change order counts "cuts" by the old gates. The proof run has three steps that remove words, so the 45 and the 48 are not the same kind of count. Readability baseline and proof-run figures use the same scorer family (<code>engine/m7/turn_readability.py</code>) but I did not confirm the baseline was scored identically.</p>
+
+<h2>Stories door</h2>
+<div class="scroll"><table>
+<tr><th>Stage 3 requires</th><th>State</th><th>What is already merged</th><th>What is missing</th></tr>
+<tr><td class="req">Only a reviewed story record tells a story; the voice never retells from the passage. Stories marked inline.</td>
+<td class="state"><span class="chip built">Built</span></td>
+<td><code>engine/m4/story_placement.py</code>: marker <code>[[story:id:length]]</code>, code sets the telling in; the voice's own sentence only names the subject. Proof run: story placed in 30 of 106 answers, 5 of 28 sealed (today 0 of 28).</td>
+<td>Nothing told by the voice itself is possible on this path; the voice's own story sentences are withheld by the bound step.</td></tr>
+<tr><td class="req">Reviewed tellings at more than one length plus a plain statement of the heart, reviewed against the full record.</td>
+<td class="state"><span class="chip built">Built, review to confirm</span></td>
+<td>All 7 lpc story records carry <code>telling_short</code>, <code>telling_medium</code>, a heart statement and a narrative tier; status <code>ready</code>. Notes in <code>S3-Stories/Tellings/Review_Notes.md</code>.</td>
+<td>Library to confirm the full review of each telling.</td></tr>
+<tr><td class="req">Faithfulness of a shortened telling: every event kept, nothing added, zero tolerance.</td>
+<td class="state"><span class="chip miss">Not measured</span></td>
+<td>The tellings exist.</td>
+<td>No faithfulness measure on the shortened tellings; no human-read sample of about 20 retellings for Mark.</td></tr>
+<tr><td class="req">Live retelling fitted to a question runs only under the bound-draft path; falls back to a reviewed telling.</td>
+<td class="state"><span class="chip built">Built (shadow)</span></td>
+<td>Bound drafting, the batched read and the one rewrite, as proven in Stage 4.</td>
+<td>Not on any live frame; by design.</td></tr>
+</table></div>
+
+<h2>Three-level transparency (binding)</h2>
+<div class="scroll"><table>
+<tr><th>Stage 3 requires</th><th>State</th><th>What is already merged</th><th>What is missing</th></tr>
+<tr><td class="req">Marked text, hover with brief context, click to the full page with source links. A placed quote and a told story each get all three.</td>
+<td class="state"><span class="chip part">Partly</span></td>
+<td>Inline mark, a hover (title, source, a plain confidence phrase) and a click (source list) exist for a story and for a quote today.</td>
+<td>From the code read of 2026-10-29, not changed since: the story card carries no brief meaning and no narrative tier; the hover shows only the confidence phrase; the click shows a source list, not a page for the full story.</td></tr>
+<tr><td class="req">Still-works check: lexicon highlight with hover and click-through, and the citation marker with its sourcing links, work exactly as now on the changed path.</td>
+<td class="state"><span class="chip miss">Not run</span></td>
+<td>The shadow path does not touch the display.</td>
+<td>The check has to be written and run on one answer with a placed quote and one with a told story.</td></tr>
+</table></div>
+
+<h2>Missing, in the order I would take it</h2>
+<ol class="open">
+<li>Story card data: brief meaning and narrative tier from the record, a fuller hover, a link to the full story page. Engine data only, no layout.</li>
+<li>The still-works check on the changed path, for one quote answer and one story answer.</li>
+<li>Words per answer and readability on the 28 sealed: 144 words against 233, grade 9.8 against 6.5. Find the cause at the source before more numbers are taken.</li>
+<li>The measure of faithfulness for the shortened tellings, and the human sample of about 20 retellings for Mark. The 30-draft quote fit sample for Mark.</li>
+<li>The quote card's edition-words layer: waits on Mark's ruling.</li>
+<li>The change order's "before it starts" line says Stage 2 is not done on lpc. Library to say where it stands; Stage 2 reports exist in the folder.</li>
+</ol>
+<p class="note">No new gates or passes in any of this. Build waits for your reply.</p>
+</main>

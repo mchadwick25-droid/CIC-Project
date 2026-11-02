@@ -1,0 +1,130 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space",
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "Our churches kept a plain table where an altar once stood."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "No image stood to bow to, and no altar was built for a sacrifice we no longer offered."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "Article XVIII refused the sacrificial character of the Mass, and the doctrine behind the plain table is drawn from there."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space",
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years after."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "We reason all of this from what we held about the Mass, and no source in our record describes the rooms directly."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "sentence": "Catholic pressure bore on us through those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s."
+  }
+ ],
+ "citations": [
+  "rzg.ambient.emptied-worship-space",
+  "rzg.witness.what-a-stranger-would-notice"
+ ],
+ "group": "A",
+ "id": "q021",
+ "net_sentences": [
+  {
+   "draft": "Our churches kept a plain table where an altar once stood [[rzg.ambient.emptied-worship-space]] [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "Our churches kept a plain table where an altar once stood.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space",
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No image stood to bow to, and no altar was built for a sacrifice we no longer offered [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "sentence": "No image stood to bow to, and no altar was built for a sacrifice we no longer offered.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Article XVIII refused the sacrificial character of the Mass, and the doctrine behind the plain table is drawn from there [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "Article XVIII refused the sacrificial character of the Mass, and the doctrine behind the plain table is drawn from there.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years after [[rzg.ambient.emptied-worship-space]] [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years after.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space",
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We reason all of this from what we held about the Mass, and no source in our record describes the rooms directly [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We reason all of this from what we held about the Mass, and no source in our record describes the rooms directly.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Catholic pressure bore on us through those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Catholic pressure bore on us through those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s.",
+   "tags": [
+    "rzg.witness.what-a-stranger-would-notice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.story.first-zurich-disputation",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.ambient.emptied-worship-space",
+  "rzg.contested.sign-and-the-thing-signified"
+ ],
+ "raw_text": "Our churches kept a plain table where an altar once stood [[rzg.ambient.emptied-worship-space]] [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\nNo image stood to bow to, and no altar was built for a sacrifice we no longer offered [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\nArticle XVIII refused the sacrificial character of the Mass, and the doctrine behind the plain table is drawn from there [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].\nBy most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years after [[rzg.ambient.emptied-worship-space]] [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\nWe reason all of this from what we held about the Mass, and no source in our record describes the rooms directly [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\nCatholic pressure bore on us through those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s [[rzg.witness.what-a-stranger-would-notice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S8",
+ "text": "Our churches kept a plain table where an altar once stood. No image stood to bow to, and no altar was built for a sacrifice we no longer offered. Article XVIII refused the sacrificial character of the Mass, and the doctrine behind the plain table is drawn from there. By most accounts the organ at the Zurich Grossmunster fell silent in the mid-1520s, and no instrument answered the voice in worship for years after. We reason all of this from what we held about the Mass, and no source in our record describes the rooms directly. Catholic pressure bore on us through those years, with Jesuits at Fribourg from 1580 and a reconquest fought on Geneva's own doorstep in the 1590s.",
+ "voice_set_aside": false
+}

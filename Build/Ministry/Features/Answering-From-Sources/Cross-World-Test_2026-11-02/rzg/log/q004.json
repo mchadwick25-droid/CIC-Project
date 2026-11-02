@@ -1,0 +1,123 @@
+{
+ "draft": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]] [[rzg.term.predestination-election]] [[as:paraphrase]].\n\nBoth Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]].\n\nWe hold God's choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nWhoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nProvidence is God's own continuous, active care over everything he made [[rzg.term.providence]] [[as:paraphrase]].\n\nGod is not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]].\n\nElection's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nWe held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]?\n",
+ "ending": "clean",
+ "final": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen.\n\nBoth Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.\n\nWe hold God's choice as the ground of a settled life, not as a threat.\n\nWhoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.\n\nProvidence is God's own continuous, active care over everything he made.\n\nGod is not a distant first cause who set the world going and stepped back.\n\nElection's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away.\n\nWe held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture?",
+ "group": "A",
+ "offered": [
+  "rzg.witness.a-narrow-true-church",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.sovereignty-of-god-predestination-election"
+ ],
+ "placements": [],
+ "question": "Explain your community's understanding of Jesus's divine status and its relation to God the Father and the Spirit.",
+ "question_id": "q004",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election",
+    "rzg.term.predestination-election"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold God's choice as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Providence is God's own continuous, active care over everything he made.",
+   "tags": [
+    "rzg.term.providence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God is not a distant first cause who set the world going and stepped back.",
+   "tags": [
+    "rzg.term.providence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Election's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture?",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ]
+  }
+ ],
+ "shipped_by_net": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen.\n\nBoth Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.\n\nWe hold God's choice as the ground of a settled life, not as a threat.\n\nWhoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.\n\nProvidence is God's own continuous, active care over everything he made.\n\nGod is not a distant first cause who set the world going and stepped back.\n\nElection's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away.\n\nWe held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture?",
+ "sub_question": "C2.S3"
+}

@@ -1,0 +1,12 @@
+{
+ "answers": 28,
+ "clean": 10,
+ "placements_dropped": 16,
+ "problems": {
+  "added_detail": 7,
+  "unresolved_referent": 1,
+  "widened_scope": 1
+ },
+ "rewritten": 18,
+ "unsupported_sentences": 9
+}

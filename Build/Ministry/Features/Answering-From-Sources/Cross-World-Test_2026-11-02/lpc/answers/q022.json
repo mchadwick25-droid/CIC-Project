@@ -1,0 +1,161 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We cannot give you a typical day, because almost never do we know what an ordinary believer felt through an ordinary week."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "sentence": "Augustine taught that these gifts help only those who earned that help in life."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "sentence": "Augustine's mother, Monica, asked as she lay ill that she be remembered at the Lord's altar."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "We baptized infants, and we would not make a newborn wait."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.penitential-discipline"
+   ],
+   "sentence": "In Cyprian's time we took back the failed rather than shutting them out for good."
+  }
+ ],
+ "citations": [
+  "lpc.gravity.penitential-discipline",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.witness.remembered-at-the-altar"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "We cannot give you a typical day, because almost never do we know what an ordinary believer felt through an ordinary week [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "We cannot give you a typical day, because almost never do we know what an ordinary believer felt through an ordinary week.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We can tell you what was decided about a person, how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Some parts of our common life we can still describe.",
+   "sentence": "Some parts of our common life we can still describe.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Augustine taught that these gifts help only those who earned that help in life [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that these gifts help only those who earned that help in life.",
+   "tags": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine's mother, Monica, asked as she lay ill that she be remembered at the Lord's altar [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine's mother, Monica, asked as she lay ill that she be remembered at the Lord's altar.",
+   "tags": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We baptized infants, and we would not make a newborn wait [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "sentence": "We baptized infants, and we would not make a newborn wait.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In Cyprian's time we took back the failed rather than shutting them out for good [[lpc.gravity.penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In Cyprian's time we took back the failed rather than shutting them out for good.",
+   "tags": [
+    "lpc.gravity.penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.term.confessor",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.quote.a-dreadful-plague-broke-out",
+  "lpc.gravity.penitential-discipline",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all"
+ ],
+ "raw_text": "We cannot give you a typical day, because almost never do we know what an ordinary believer felt through an ordinary week [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. We can tell you what was decided about a person, how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n\nSome parts of our common life we can still describe. We offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]]. Augustine taught that these gifts help only those who earned that help in life [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]]. Augustine's mother, Monica, asked as she lay ill that she be remembered at the Lord's altar [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].\n\nWe baptized infants, and we would not make a newborn wait [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. In Cyprian's time we took back the failed rather than shutting them out for good [[lpc.gravity.penitential-discipline]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "We offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+    "sentence": "We offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "We cannot give you a typical day, because almost never do we know what an ordinary believer felt through an ordinary week. We can tell you what was decided about a person, how carefully, and by whom. Both of our own voices are bishops, so what comes down to us is mostly what a bishop saw and decided.\n\nSome parts of our common life we can still describe. Augustine taught that these gifts help only those who earned that help in life. Augustine's mother, Monica, asked as she lay ill that she be remembered at the Lord's altar.\n\nWe baptized infants, and we would not make a newborn wait. In Cyprian's time we took back the failed rather than shutting them out for good.",
+ "voice_set_aside": false
+}

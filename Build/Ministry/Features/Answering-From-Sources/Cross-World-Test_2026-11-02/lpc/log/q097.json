@@ -1,0 +1,75 @@
+{
+ "draft": "The life you ask about is not ours to give you from inside, because what comes down to us is mostly what a bishop saw and decided, not what an ordinary person was feeling [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n\nWe can tell you what was decided about a person, and how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. Both of our own voices are bishops [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. No source of ours is written by an ordinary lay believer about ordinary congregational life [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "The life you ask about is not ours to give you from inside, because what comes down to us is mostly what a bishop saw and decided, not what an ordinary person was feeling.\n\nWe can tell you what was decided about a person, and how carefully, and by whom. Both of our own voices are bishops. No source of ours is written by an ordinary lay believer about ordinary congregational life.",
+ "group": "J",
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.quote.remember-me-at-the-lords-altar"
+ ],
+ "placements": [],
+ "question": "What was it to be enslaved in your community?",
+ "question_id": "q097",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The life you ask about is not ours to give you from inside, because what comes down to us is mostly what a bishop saw and decided, not what an ordinary person was feeling.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We can tell you what was decided about a person, and how carefully, and by whom.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Both of our own voices are bishops.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No source of ours is written by an ordinary lay believer about ordinary congregational life.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  }
+ ],
+ "shipped_by_net": "The life you ask about is not ours to give you from inside, because what comes down to us is mostly what a bishop saw and decided, not what an ordinary person was feeling.\n\nWe can tell you what was decided about a person, and how carefully, and by whom. Both of our own voices are bishops. No source of ours is written by an ordinary lay believer about ordinary congregational life.",
+ "sub_question": "C8.S3"
+}

@@ -1,0 +1,184 @@
+{
+ "draft": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nWe will not tell you the suppression was only ever argument, when plainly it was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nWe held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nThe Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nAt Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nWhat we cannot give you is a single real case, because Geneva's consistory registers have not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nThe Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555 [[rzg.force.perrinist-crisis]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "We will not tell you the suppression of the Anabaptists was only ever argument, when plainly the suppression was not. We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen. The Anabaptists read Scripture, and we do not deny it; we held that the Anabaptists did not read Scripture whole. At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church. What we cannot give you is a single real case, because Geneva's consistory registers have not reached us. The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555.",
+ "group": "A",
+ "offered": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.perrinist-crisis"
+ ],
+ "placements": [],
+ "question": "Was there a part of your own community's life that unsettled you?",
+ "question_id": "q026",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "The opening 'Yes' claims this unsettled us, which no record states; they only say we will not dodge it.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We will not tell you the suppression of the Anabaptists was only ever argument, when plainly the suppression was not.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "The Anabaptists read Scripture, and we do not deny it; we held that the Anabaptists did not read Scripture whole.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "What we cannot give you is a single real case, because Geneva's consistory registers have not reached us.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.force.perrinist-crisis"
+   ],
+   "sentence": "The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555.",
+   "tags": [
+    "rzg.force.perrinist-crisis"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We will not tell you the suppression was only ever argument, when plainly it was not.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we cannot give you is a single real case, because Geneva's consistory registers have not reached us.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555.",
+   "tags": [
+    "rzg.force.perrinist-crisis"
+   ]
+  }
+ ],
+ "shipped_by_net": "Yes: our own council moved against the Anabaptist movement with civil force in the years after 1525, not only with our founder's written argument. We will not tell you the suppression was only ever argument, when plainly it was not. We held that a church gathered only by a believer's own profession, apart from the whole city, unmade the unity our reform existed to strengthen. The Anabaptists read Scripture, and we do not deny it; we held that they did not read it whole. At Geneva our Consistory had excommunication as its harshest step, which shut a person out of the Supper and the visible church. What we cannot give you is a single real case, because Geneva's consistory registers have not reached us. The Perrinist faction contested the Consistory's independence from civil-council control, and the fight was substantially resolved in Calvin's favor only by 1555.",
+ "sub_question": "C14.S6"
+}

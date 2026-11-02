@@ -1,0 +1,299 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "Among us a person who failed was met with a road back, walked in public and in steps under the bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The road had an order, the order took time, and everyone could see it."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "The Decian persecution made failure common, through certificates that recorded the holder had sacrificed."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "A person could get one by performing the sacrifice, or by paying to have it recorded."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "The persecution sorted the congregation into those who had stood and those who had not, and both groups still belonged."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "Cyprian wrote that when the flock is wounded, the shepherd is wounded most."
+  },
+  {
+   "record_ids": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "sentence": "Confessors issued written requests that named lapsed persons to be received back."
+  },
+  {
+   "record_ids": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "sentence": "The contest over the lapsed had to be settled by a formal process, not by a bishop's word alone."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "sentence": "Cyprian wrote to his presbyters and deacons: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "When danger fell on all alike, Augustine held, ministers must not leave those who depend on them, so that the dying can be baptized and reconciled."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "sentence": "Augustine also held that when someone who has sinned against you asks forgiveness, and you forgive from the heart, that much fulfils what the Lord's Prayer asks."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What an ordinary believer felt walking up to the altar is not ours to give you."
+  }
+ ],
+ "citations": [
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.witness.the-dying-and-the-pastors-post"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "Among us a person who failed was met with a road back, walked in public and in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "Among us a person who failed was met with a road back, walked in public and in steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "The road had an order, the order took time, and everyone could see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "sentence": "The road had an order, the order took time, and everyone could see it.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Decian persecution made failure common, through certificates that recorded the holder had sacrificed [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "The Decian persecution made failure common, through certificates that recorded the holder had sacrificed.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "A person could get one by performing the sacrifice, or by paying to have it recorded [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "A person could get one by performing the sacrifice, or by paying to have it recorded.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The persecution sorted the congregation into those who had stood and those who had not, and both groups still belonged [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "The persecution sorted the congregation into those who had stood and those who had not, and both groups still belonged.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote that when the flock is wounded, the shepherd is wounded most [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "Cyprian wrote that when the flock is wounded, the shepherd is wounded most.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Confessors issued written requests that named lapsed persons to be received back [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]].",
+   "sentence": "Confessors issued written requests that named lapsed persons to be received back.",
+   "tags": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The contest over the lapsed had to be settled by a formal process, not by a bishop's word alone [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The contest over the lapsed had to be settled by a formal process, not by a bishop's word alone.",
+   "tags": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The sick were not made to wait.",
+   "sentence": "The sick were not made to wait.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Cyprian wrote to his presbyters and deacons: [[quote:lpc.quote.before-even-a-deacon]]",
+   "placed_quote": "lpc.quote.before-even-a-deacon",
+   "sentence": "Cyprian wrote to his presbyters and deacons: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”",
+   "tags": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429 [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "When danger fell on all alike, Augustine held, ministers must not leave those who depend on them, so that the dying can be baptized and reconciled [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "When danger fell on all alike, Augustine held, ministers must not leave those who depend on them, so that the dying can be baptized and reconciled.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Augustine also held that when someone who has sinned against you asks forgiveness, and you forgive from the heart, that much fulfils what the Lord's Prayer asks [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Augustine also held that when someone who has sinned against you asks forgiveness, and you forgive from the heart, that much fulfils what the Lord's Prayer asks.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "We can tell you what was decided about a person, how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What an ordinary believer felt walking up to the altar is not ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "What an ordinary believer felt walking up to the altar is not ours to give you.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.contested.cyprian-death-genre",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.quote.peter-the-sick-man-and-the-physician",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.quote.a-dreadful-plague-broke-out",
+  "lpc.quote.remember-me-at-the-lords-altar",
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.quote.david-himself-hath-been-sent-to-thee"
+ ],
+ "raw_text": "Among us a person who failed was met with a road back, walked in public and in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. The road had an order, the order took time, and everyone could see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].\n\nThe Decian persecution made failure common, through certificates that recorded the holder had sacrificed [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. A person could get one by performing the sacrifice, or by paying to have it recorded [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. The persecution sorted the congregation into those who had stood and those who had not, and both groups still belonged [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. Cyprian wrote that when the flock is wounded, the shepherd is wounded most [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].\n\nConfessors issued written requests that named lapsed persons to be received back [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]]. The contest over the lapsed had to be settled by a formal process, not by a bishop's word alone [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]].\n\nThe sick were not made to wait. Cyprian wrote to his presbyters and deacons: [[quote:lpc.quote.before-even-a-deacon]]\n\nAugustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429 [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. When danger fell on all alike, Augustine held, ministers must not leave those who depend on them, so that the dying can be baptized and reconciled [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. Augustine also held that when someone who has sinned against you asks forgiveness, and you forgive from the heart, that much fulfils what the Lord's Prayer asks [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].\n\nWe can tell you what was decided about a person, how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. What an ordinary believer felt walking up to the altar is not ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.before-even-a-deacon": [
+    {
+     "detail": "presbyter",
+     "kind": "role",
+     "snippet": "resent. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "deacon",
+     "kind": "role",
+     "snippet": "d death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way th",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "he peace the martyrs asked for them in their letters to us. Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1,",
+     "span": "record lpc.quote.before-even-a-deacon"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.before-even-a-deacon"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S5",
+ "text": "Among us a person who failed was met with a road back, walked in public and in steps under the bishop. The road had an order, the order took time, and everyone could see it.\n\nThe Decian persecution made failure common, through certificates that recorded the holder had sacrificed. A person could get one by performing the sacrifice, or by paying to have it recorded. The persecution sorted the congregation into those who had stood and those who had not, and both groups still belonged. Cyprian wrote that when the flock is wounded, the shepherd is wounded most.\n\nConfessors issued written requests that named lapsed persons to be received back. The contest over the lapsed had to be settled by a formal process, not by a bishop's word alone.\n\nThe sick were not made to wait. Cyprian wrote to his presbyters and deacons: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”\n\nAugustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429. When danger fell on all alike, Augustine held, ministers must not leave those who depend on them, so that the dying can be baptized and reconciled. Augustine also held that when someone who has sinned against you asks forgiveness, and you forgive from the heart, that much fulfils what the Lord's Prayer asks.\n\nWe can tell you what was decided about a person, how carefully, and by whom. What an ordinary believer felt walking up to the altar is not ours to give you.",
+ "voice_set_aside": false
+}

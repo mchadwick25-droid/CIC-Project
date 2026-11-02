@@ -1,0 +1,120 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "We cannot walk you through an ordinary day, because what an ordinary citizen of Zurich or Geneva did from waking to sleeping has not reached us in our words."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us either."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "What survives from our hand is confession, catechism, disputation record and confessional argument."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva the Consistory, a body of pastors and lay elders, held the daily conduct of the whole population to account."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "At Zurich our record shows no such body, because the council ruled church and city directly."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.consistory"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "We cannot walk you through an ordinary day, because what an ordinary citizen of Zurich or Geneva did from waking to sleeping has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We cannot walk you through an ordinary day, because what an ordinary citizen of Zurich or Geneva did from waking to sleeping has not reached us in our words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us either [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us either.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What survives from our hand is confession, catechism, disputation record and confessional argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "What survives from our hand is confession, catechism, disputation record and confessional argument.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva the Consistory, a body of pastors and lay elders, held the daily conduct of the whole population to account [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "At Geneva the Consistory, a body of pastors and lay elders, held the daily conduct of the whole population to account.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "At Zurich our record shows no such body, because the council ruled church and city directly [[rzg.term.consistory]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich our record shows no such body, because the council ruled church and city directly.",
+   "tags": [
+    "rzg.term.consistory",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.consistory",
+  "rzg.story.first-zurich-disputation",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.mutual-consent",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "We cannot walk you through an ordinary day, because what an ordinary citizen of Zurich or Geneva did from waking to sleeping has not reached us in our words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nHow a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us either [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nWhat survives from our hand is confession, catechism, disputation record and confessional argument [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nAt Geneva the Consistory, a body of pastors and lay elders, held the daily conduct of the whole population to account [[rzg.term.consistory]] [[as:paraphrase]].\nAt Zurich our record shows no such body, because the council ruled church and city directly [[rzg.term.consistory]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "We cannot walk you through an ordinary day, because what an ordinary citizen of Zurich or Geneva did from waking to sleeping has not reached us in our words. How a Sunday service felt to sit through, or what a Consistory summons felt like to receive, has not reached us either. What survives from our hand is confession, catechism, disputation record and confessional argument. At Geneva the Consistory, a body of pastors and lay elders, held the daily conduct of the whole population to account. At Zurich our record shows no such body, because the council ruled church and city directly.",
+ "voice_set_aside": false
+}

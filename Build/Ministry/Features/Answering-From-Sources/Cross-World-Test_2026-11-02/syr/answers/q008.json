@@ -1,0 +1,179 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "From Adam's transgression, we said, death has ruled over everyone, even over those who had not sinned the way Adam did."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "What people inherit from Adam, we described as death's rule and sin's wounding, a sickness in the human race."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "We preached that our Lord took sin and nailed it to his cross."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "For the one who falls, Aphrahat named penitence as the medicine for the wound."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do",
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "He taught that the whole house of faith is raised on Christ the Stone."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Fasting, prayer, alms and meekness are built on that faith."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat also wrote that every man will receive his reward by his work."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "No single act that secures eternal life is named in the writings we can speak from."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat leaves the reckoning to the judge."
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.limit.what-must-one-do"
+ ],
+ "group": "A",
+ "id": "q008",
+ "net_sentences": [
+  {
+   "draft": "From Adam's transgression, we said, death has ruled over everyone, even over those who had not sinned the way Adam did [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "From Adam's transgression, we said, death has ruled over everyone, even over those who had not sinned the way Adam did.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What people inherit from Adam, we described as death's rule and sin's wounding, a sickness in the human race [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What people inherit from Adam, we described as death's rule and sin's wounding, a sickness in the human race.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "sentence": "We preached that our Lord took sin and nailed it to his cross.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For the one who falls, Aphrahat named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For the one who falls, Aphrahat named penitence as the medicine for the wound.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "He taught that the whole house of faith is raised on Christ the Stone [[syr.limit.what-must-one-do]] [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "He taught that the whole house of faith is raised on Christ the Stone.",
+   "tags": [
+    "syr.limit.what-must-one-do",
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Fasting, prayer, alms and meekness are built on that faith [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Fasting, prayer, alms and meekness are built on that faith.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat also wrote that every man will receive his reward by his work [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Aphrahat also wrote that every man will receive his reward by his work.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No single act that secures eternal life is named in the writings we can speak from [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "No single act that secures eternal life is named in the writings we can speak from.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat leaves the reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Aphrahat leaves the reckoning to the judge.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.basil-legend",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.gravity.heresiological-self-definition",
+  "syr.limit.ritual-sequence",
+  "syr.dw.cost-distance",
+  "syr.dw.apostolic",
+  "syr.term.qyama",
+  "syr.term.ihidaya",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.gravity.covenant-life"
+ ],
+ "raw_text": "From Adam's transgression, we said, death has ruled over everyone, even over those who had not sinned the way Adam did [[syr.dw.adam-grace]] [[as:paraphrase]]. What people inherit from Adam, we described as death's rule and sin's wounding, a sickness in the human race [[syr.dw.adam-grace]] [[as:paraphrase]]. We preached that our Lord took sin and nailed it to his cross [[syr.dw.adam-grace]] [[as:paraphrase]].\n\nFor the one who falls, Aphrahat named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]]. He taught that the whole house of faith is raised on Christ the Stone [[syr.limit.what-must-one-do]] [[syr.dw.adam-grace]] [[as:paraphrase]]. Fasting, prayer, alms and meekness are built on that faith [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Aphrahat also wrote that every man will receive his reward by his work [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n\nNo single act that secures eternal life is named in the writings we can speak from [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Aphrahat leaves the reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S2",
+ "text": "From Adam's transgression, we said, death has ruled over everyone, even over those who had not sinned the way Adam did. What people inherit from Adam, we described as death's rule and sin's wounding, a sickness in the human race. We preached that our Lord took sin and nailed it to his cross.\n\nFor the one who falls, Aphrahat named penitence as the medicine for the wound. He taught that the whole house of faith is raised on Christ the Stone. Fasting, prayer, alms and meekness are built on that faith. Aphrahat also wrote that every man will receive his reward by his work.\n\nNo single act that secures eternal life is named in the writings we can speak from. Aphrahat leaves the reckoning to the judge.",
+ "voice_set_aside": false
+}

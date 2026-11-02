@@ -1,0 +1,211 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "sentence": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "The Only-Begotten left his place with God and made his home in the Virgin."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "By being born as we are born, the Only-Begotten became the brother of many."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "In him the words of the prophets, kings, and priests came true."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "We hold that his death and rising were one rescue."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "His own resurrection is the promise that he will bring us out after him."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "To those who followed him, he is the Physician, and his coming is medicine for a wounded people."
+  },
+  {
+   "record_ids": [
+    "syr.term.ihidaya"
+   ],
+   "sentence": "The word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ."
+  },
+  {
+   "record_ids": [
+    "syr.quote.nativity-this-is-the-day"
+   ],
+   "sentence": "Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”"
+  }
+ ],
+ "citations": [
+  "syr.dw.jesus",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.term.ihidaya"
+ ],
+ "group": "A",
+ "id": "q002",
+ "net_sentences": [
+  {
+   "draft": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him.",
+   "tags": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Only-Begotten left his place with God and made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Only-Begotten left his place with God and made his home in the Virgin.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "By being born as we are born, the Only-Begotten became the brother of many [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "By being born as we are born, the Only-Begotten became the brother of many.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In him the words of the prophets, kings, and priests came true [[syr.dw.jesus]] [[as:paraphrase]].",
+   "sentence": "In him the words of the prophets, kings, and priests came true.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that his death and rising were one rescue [[syr.dw.jesus]] [[as:paraphrase]].",
+   "sentence": "We hold that his death and rising were one rescue.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "His own resurrection is the promise that he will bring us out after him [[syr.dw.jesus]] [[as:paraphrase]].",
+   "sentence": "His own resurrection is the promise that he will bring us out after him.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "To those who followed him, he is the Physician, and his coming is medicine for a wounded people [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To those who followed him, he is the Physician, and his coming is medicine for a wounded people.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ [[syr.term.ihidaya]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ.",
+   "tags": [
+    "syr.term.ihidaya"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Ephrem sang in his first Nativity hymn: [[quote:syr.quote.nativity-this-is-the-day]]",
+   "placed_quote": "syr.quote.nativity-this-is-the-day",
+   "sentence": "Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+   "tags": [
+    "syr.quote.nativity-this-is-the-day"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "syr.dw.jesus",
+  "syr.term.ihidaya",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.contested.edessa-origins",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.was-jesus-god",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "raw_text": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]]. The Only-Begotten left his place with God and made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]]. By being born as we are born, the Only-Begotten became the brother of many [[syr.dw.jesus]] [[as:paraphrase]]. In him the words of the prophets, kings, and priests came true [[syr.dw.jesus]] [[as:paraphrase]].\n\nWe hold that his death and rising were one rescue [[syr.dw.jesus]] [[as:paraphrase]]. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom [[syr.dw.jesus]] [[as:paraphrase]]. His own resurrection is the promise that he will bring us out after him [[syr.dw.jesus]] [[as:paraphrase]]. To those who followed him, he is the Physician, and his coming is medicine for a wounded people [[syr.dw.jesus]] [[as:paraphrase]].\n\nThe word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ [[syr.term.ihidaya]] [[as:paraphrase]]. Ephrem sang in his first Nativity hymn: [[quote:syr.quote.nativity-this-is-the-day]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.nativity-this-is-the-day": [
+    {
+     "detail": "Nativity",
+     "kind": "name",
+     "snippet": "his day brought forth Immanuel in Bethlehem. Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethleh",
+     "span": "record syr.quote.nativity-this-is-the-day"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.nativity-this-is-the-day"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S1",
+ "text": "To us Jesus is the Only-Begotten of God, the Ihidaya, our own name for him. The Only-Begotten left his place with God and made his home in the Virgin. By being born as we are born, the Only-Begotten became the brother of many. In him the words of the prophets, kings, and priests came true.\n\nWe hold that his death and rising were one rescue. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom. His own resurrection is the promise that he will bring us out after him. To those who followed him, he is the Physician, and his coming is medicine for a wounded people.\n\nThe word Ihidaya also names our vowed celibate, so the one who lives single shares a name with Christ. Ephrem sang in his first Nativity hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+ "voice_set_aside": false
+}

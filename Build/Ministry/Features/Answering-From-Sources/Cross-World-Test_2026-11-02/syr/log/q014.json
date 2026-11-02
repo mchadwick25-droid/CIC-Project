@@ -1,0 +1,363 @@
+{
+ "draft": "Among us authority came by three paths: being made a bishop, taking the vow, or being found trustworthy over time [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Shepherds came first, and those were our bishops [[syr.dw.authority-lived]] [[as:paraphrase]]. Nisibis sang of Jacob and Babu and Valgash as the city's fathers, the ones who prayed for it [[syr.dw.authority-lived]] [[as:paraphrase]]. The Persian church had bishops too, enough of them to quarrel over precedence [[syr.dw.authority-lived]] [[as:paraphrase]]. Aphrahat wrote that the good shepherd gives himself for the flock [[syr.dw.authority-lived]] [[as:paraphrase]]. Office was not the only path our trust ran along [[syr.dw.authority-lived]] [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]]. The sons and daughters of the covenant, our vowed order, promised a celibate life for good [[syr.term.qyama]] [[as:paraphrase]]. They stayed in town among their own kin and served the congregation: the fast, the watch, the vigil, the singing [[syr.term.qyama]] [[as:paraphrase]]. That vow gave them a standing of their own [[syr.dw.authority-lived]] [[as:paraphrase]]. A teacher whose word held could also write to bishops in a synod's name [[syr.dw.authority-lived]] [[as:paraphrase]]. Aphrahat did so, and no one now knows his rank [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Which of the three finally outranked the others, we never settled in our own years [[syr.dw.authority-lived]] [[as:paraphrase]]. No one among us used the title Catholicos, which is the later name for the head of the Persian church [[syr.term.catholicos]] [[as:paraphrase]]. What it felt like to live with this plurality day to day is not attested [[syr.force.authority-ambiguity-condition]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Among us authority came by three paths: being made a bishop, taking the vow, or being found trustworthy over time. Shepherds came first, and those were our bishops. Nisibis sang of Jacob and Babu and Valgash as the city's fathers, the ones who prayed for it. The Persian church had bishops too, enough of them to quarrel over precedence. Office was not the only path our trust ran along. The sons and daughters of the covenant, our vowed order, promised a celibate life for good. The sons and daughters of the covenant stayed in town among their own kin and served the congregation: the fast, the watch, the vigil, the singing. The covenant vow gave the sons and daughters of the covenant a standing of their own. A teacher whose word held could also write to bishops in a synod's name. Aphrahat did so, and no one now knows his rank. Which of the three paths finally outranked the others, we never settled in our own years. No one among us used the title Catholicos, which is the later name for the head of the Persian church. What it felt like to live with the plurality of authority day to day is not attested.",
+ "group": "A",
+ "offered": [
+  "syr.dw.authority-lived",
+  "syr.term.qyama",
+  "syr.term.catholicos",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.authority-ambiguity-condition",
+  "syr.force.frontier-plural-milieu",
+  "syr.dw.suffering",
+  "syr.quote.aphrahat-persecuted-litany",
+  "syr.gravity.persecution-endurance",
+  "syr.limit.ritual-sequence",
+  "syr.dw.reading",
+  "syr.quote.dem6-visit-the-sick"
+ ],
+ "placements": [],
+ "question": "Explain how leadership and authority were established within your community.",
+ "question_id": "q014",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "4": {
+    "problem": "added_detail",
+    "reason": "The bound record names only 'the sage' as the writer, and does not name Aphrahat.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Among us authority came by three paths: being made a bishop, taking the vow, or being found trustworthy over time.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Shepherds came first, and those were our bishops.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Nisibis sang of Jacob and Babu and Valgash as the city's fathers, the ones who prayed for it.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "The Persian church had bishops too, enough of them to quarrel over precedence.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "sentence": "Office was not the only path our trust ran along.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.qyama"
+   ],
+   "sentence": "The sons and daughters of the covenant, our vowed order, promised a celibate life for good.",
+   "tags": [
+    "syr.term.qyama"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.qyama"
+   ],
+   "sentence": "The sons and daughters of the covenant stayed in town among their own kin and served the congregation: the fast, the watch, the vigil, the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "The covenant vow gave the sons and daughters of the covenant a standing of their own.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "A teacher whose word held could also write to bishops in a synod's name.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Aphrahat did so, and no one now knows his rank.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Which of the three paths finally outranked the others, we never settled in our own years.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.catholicos"
+   ],
+   "sentence": "No one among us used the title Catholicos, which is the later name for the head of the Persian church.",
+   "tags": [
+    "syr.term.catholicos"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.authority-ambiguity-condition",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "What it felt like to live with the plurality of authority day to day is not attested.",
+   "tags": [
+    "syr.force.authority-ambiguity-condition",
+    "syr.gravity.authority-ambiguity"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Among us authority came by three paths: being made a bishop, taking the vow, or being found trustworthy over time.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Shepherds came first, and those were our bishops.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Nisibis sang of Jacob and Babu and Valgash as the city's fathers, the ones who prayed for it.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Persian church had bishops too, enough of them to quarrel over precedence.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Aphrahat wrote that the good shepherd gives himself for the flock.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Office was not the only path our trust ran along.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The sons and daughters of the covenant, our vowed order, promised a celibate life for good.",
+   "tags": [
+    "syr.term.qyama"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "They stayed in town among their own kin and served the congregation: the fast, the watch, the vigil, the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That vow gave them a standing of their own.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A teacher whose word held could also write to bishops in a synod's name.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 10,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Aphrahat did so, and no one now knows his rank.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 11,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Which of the three finally outranked the others, we never settled in our own years.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 12,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No one among us used the title Catholicos, which is the later name for the head of the Persian church.",
+   "tags": [
+    "syr.term.catholicos"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 13,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What it felt like to live with this plurality day to day is not attested.",
+   "tags": [
+    "syr.force.authority-ambiguity-condition",
+    "syr.gravity.authority-ambiguity"
+   ]
+  }
+ ],
+ "shipped_by_net": "Among us authority came by three paths: being made a bishop, taking the vow, or being found trustworthy over time. Shepherds came first, and those were our bishops. Nisibis sang of Jacob and Babu and Valgash as the city's fathers, the ones who prayed for it. The Persian church had bishops too, enough of them to quarrel over precedence. Aphrahat wrote that the good shepherd gives himself for the flock. Office was not the only path our trust ran along. The sons and daughters of the covenant, our vowed order, promised a celibate life for good. They stayed in town among their own kin and served the congregation: the fast, the watch, the vigil, the singing. That vow gave them a standing of their own. A teacher whose word held could also write to bishops in a synod's name. Aphrahat did so, and no one now knows his rank. Which of the three finally outranked the others, we never settled in our own years. No one among us used the title Catholicos, which is the later name for the head of the Persian church. What it felt like to live with this plurality day to day is not attested.",
+ "sub_question": "C6.S1"
+}

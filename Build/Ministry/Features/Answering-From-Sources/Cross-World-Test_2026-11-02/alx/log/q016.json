@@ -1,0 +1,124 @@
+{
+ "draft": "Whether any present-day church is our church reaches past what we can see [[alx.dw.one-church]] [[as:paraphrase]]. We speak from before the splits that made today's map [[alx.dw.one-church]] [[as:paraphrase]]. In our own time we called ourselves part of the catholic church, meaning the whole church spread everywhere, as against the sects [[alx.dw.one-church]] [[as:paraphrase]]. What we belonged to was one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]]. The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture [[alx.term.kanon-pisteos]] [[as:paraphrase]]. We received baptism, Eucharist, catechesis, Scripture heard as formative address, and shared life as the deposit, not as our own invention [[alx.force.apostolic-tradition]] [[as:paraphrase]]. Gnostic schools and, after 318, the Arian churches also invoked Christ, and the boundary with them was real to us [[alx.dw.one-church]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "Whether any present-day church is our church reaches past what we can see. We speak from before the splits that made today's map. In our own time we called ourselves part of the catholic church, meaning the whole church spread everywhere, as against the sects. What we belonged to was one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture. We received baptism, Eucharist, catechesis, Scripture heard as formative address, and shared life as the deposit, not as our own invention. Gnostic schools and, after 318, the Arian churches also invoked Christ, and the boundary with them was real to us.",
+ "group": "A",
+ "offered": [
+  "alx.dw.one-church",
+  "alx.term.kanon-pisteos",
+  "alx.story.john-young-robber",
+  "alx.story.plague-nursing",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.quote.the-grades-here-in-the-church",
+  "alx.gravity.learning-formation",
+  "alx.force.apostolic-tradition",
+  "alx.dw.church-failure",
+  "alx.quote.clement-bee",
+  "alx.dw.god",
+  "alx.term.pneuma-hagion",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.martys",
+  "alx.story.potamiaena",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.force.persecution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "placements": [],
+ "question": "Does any present-day church continue your community's exact tradition?",
+ "question_id": "q016",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whether any present-day church is our church reaches past what we can see.",
+   "tags": [
+    "alx.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We speak from before the splits that made today's map.",
+   "tags": [
+    "alx.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In our own time we called ourselves part of the catholic church, meaning the whole church spread everywhere, as against the sects.",
+   "tags": [
+    "alx.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we belonged to was one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world.",
+   "tags": [
+    "alx.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We received baptism, Eucharist, catechesis, Scripture heard as formative address, and shared life as the deposit, not as our own invention.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Gnostic schools and, after 318, the Arian churches also invoked Christ, and the boundary with them was real to us.",
+   "tags": [
+    "alx.dw.one-church"
+   ]
+  }
+ ],
+ "shipped_by_net": "Whether any present-day church is our church reaches past what we can see. We speak from before the splits that made today's map. In our own time we called ourselves part of the catholic church, meaning the whole church spread everywhere, as against the sects. What we belonged to was one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. The rule of faith was the short summary of what the apostles handed down, and it set the bounds for reading Scripture. We received baptism, Eucharist, catechesis, Scripture heard as formative address, and shared life as the deposit, not as our own invention. Gnostic schools and, after 318, the Arian churches also invoked Christ, and the boundary with them was real to us.",
+ "sub_question": "C6.S4"
+}

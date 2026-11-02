@@ -1,0 +1,566 @@
+[
+ {
+  "id": "q001",
+  "question": "What sources, if any, connected your community to Jesus, and by what path did they arrive?",
+  "offered": [
+   "lpc.limit.no-chain-of-witnesses",
+   "lpc.witness.the-only-son-and-the-trinity",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.bishop-of-bishops",
+   "lpc.gravity.collegial-communion-preserved",
+   "lpc.force.decian-persecution-libelli-system",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.story.numidicus",
+   "lpc.quote.let-us-too-be-beheaded-with-him",
+   "lpc.force.organized-carthaginian-church"
+  ],
+  "sub_question": "C1.S5",
+  "ending": "clean"
+ },
+ {
+  "id": "q002",
+  "question": "In your own words, describe who Jesus was for your community.",
+  "offered": [
+   "lpc.witness.the-pattern-we-are-modelled-on",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+   "lpc.gravity.collegial-communion-preserved",
+   "lpc.limit.ordinary-interior-life",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.quote.he-slept-with-his-fathers",
+   "lpc.quote.remember-me-at-the-lords-altar",
+   "lpc.witness.infants-and-the-sin-of-another",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+  ],
+  "sub_question": "C1.S1",
+  "ending": "clean"
+ },
+ {
+  "id": "q003",
+  "question": "Someone tells you they cannot manage to believe in Jesus - what is your response to them?",
+  "offered": [
+   "lpc.limit.ordinary-interior-life",
+   "lpc.witness.grant-me-chastity-but-not-yet",
+   "lpc.term.confessor",
+   "lpc.term.schism",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.quote.an-ever-burning-gehenna",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace",
+   "lpc.limit.no-chain-of-witnesses",
+   "lpc.witness.days-before-the-sun",
+   "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+  ],
+  "sub_question": "C14.S4",
+  "ending": "clean"
+ },
+ {
+  "id": "q004",
+  "question": "Explain your community's understanding of Jesus's divine status and its relation to God the Father and the Spirit.",
+  "offered": [
+   "lpc.witness.the-only-son-and-the-trinity",
+   "lpc.story.hundred-thousand-sesterces",
+   "lpc.quote.numidicus-remained-unwillingly",
+   "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+   "lpc.gravity.collegial-communion-preserved",
+   "lpc.contested.grace-pelagius-characterization",
+   "lpc.witness.baptism-as-new-birth",
+   "lpc.quote.believe-and-thou-hast-eaten-already",
+   "lpc.quote.bishop-of-bishops",
+   "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+   "lpc.quote.the-wretched-woman-and-mercy",
+   "lpc.term.preaching",
+   "lpc.quote.love-and-do-what-thou-wilt",
+   "lpc.quote.dash-the-little-ones-against-the-rock",
+   "lpc.gravity.preaching-and-catechesis"
+  ],
+  "sub_question": "C2.S3",
+  "ending": "clean"
+ },
+ {
+  "id": "q005",
+  "question": "When your people disagreed about doctrine, who settled it, and what evidence tells us that process actually worked that way?",
+  "offered": [
+   "lpc.witness.communion-over-separation",
+   "lpc.term.bishop-of-bishops",
+   "lpc.term.plenary-council",
+   "lpc.story.election-of-cyprian",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.quote.bishop-of-bishops",
+   "lpc.gravity.collegial-communion-preserved",
+   "lpc.limit.no-chain-of-witnesses",
+   "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace",
+   "lpc.witness.days-before-the-sun",
+   "lpc.term.heresy",
+   "lpc.gravity.conciliar-authority-theory"
+  ],
+  "sub_question": "C6.S3",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q006",
+  "question": "Describe the character and nature of God as your community understood it.",
+  "offered": [
+   "lpc.witness.violence-commanded-not-cruel",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.chosen-while-still-a-neophyte",
+   "lpc.quote.before-even-a-deacon",
+   "lpc.contested.grace-pelagius-characterization",
+   "lpc.limit.womens-own-voice",
+   "lpc.witness.heard-for-salvation-not-for-wish",
+   "lpc.witness.infants-and-the-sin-of-another",
+   "lpc.term.grace",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.quote.numidicus-remained-unwillingly",
+   "lpc.quote.thanks-be-to-god"
+  ],
+  "sub_question": "C2.S2",
+  "ending": "abstained_rewrite_failed_read"
+ },
+ {
+  "id": "q007",
+  "question": "Was there space in your community for someone who struggled to believe?",
+  "offered": [
+   "lpc.limit.ordinary-interior-life",
+   "lpc.witness.grant-me-chastity-but-not-yet",
+   "lpc.term.confessor",
+   "lpc.term.schism",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.an-ever-burning-gehenna",
+   "lpc.quote.earlier-councils-corrected-by-later",
+   "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "lpc.witness.peace-for-the-dying-penitent",
+   "lpc.term.the-lapsed",
+   "lpc.quote.the-case-set-before-the-bishop",
+   "lpc.quote.longing-expectation-is-a-prayer-for-me"
+  ],
+  "sub_question": "C14.S4",
+  "ending": "clean"
+ },
+ {
+  "id": "q008",
+  "question": "Did your community hold that a person enters the world already carrying guilt?",
+  "offered": [
+   "lpc.witness.infants-and-the-sin-of-another",
+   "lpc.term.grace",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.quote.the-mildest-condemnation-of-all",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace",
+   "lpc.gravity.grace-and-human-incapacity",
+   "lpc.witness.the-dying-and-the-pastors-post",
+   "lpc.term.the-lapsed",
+   "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "lpc.quote.shepherd-wounded-in-the-flock",
+   "lpc.witness.answerability-as-ground",
+   "lpc.witness.no-one-may-take-his-own-life",
+   "lpc.story.numidicus",
+   "lpc.quote.a-hundred-thousand-sesterces",
+   "lpc.quote.christ-redeemed-in-our-captive-brethren"
+  ],
+  "sub_question": "C4.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q009",
+  "question": "If a modern scholar examined your claims, how much would survive rigorous scrutiny?",
+  "offered": [
+   "lpc.witness.almsgiving-quenches-sin",
+   "lpc.term.communion",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+   "lpc.quote.the-trees-and-the-trembling-executioner",
+   "lpc.gravity.conciliar-authority-theory",
+   "lpc.contested.grace-pelagius-characterization"
+  ],
+  "sub_question": "C16.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q010",
+  "question": "Describe your community's approach and purpose in reading sacred texts.",
+  "offered": [
+   "lpc.witness.days-before-the-sun",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.story.numidicus",
+   "lpc.quote.believe-and-thou-hast-eaten-already",
+   "lpc.gravity.collegial-communion-preserved",
+   "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+  ],
+  "sub_question": "C5.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q011",
+  "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+  "offered": [
+   "lpc.witness.violence-commanded-not-cruel",
+   "lpc.term.catechesis",
+   "lpc.term.the-people",
+   "lpc.story.numidicus",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.quote.dash-the-little-ones-against-the-rock",
+   "lpc.quote.believe-and-thou-hast-eaten-already",
+   "lpc.gravity.grace-and-human-incapacity",
+   "lpc.quote.david-himself-hath-been-sent-to-thee",
+   "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+   "lpc.witness.days-before-the-sun",
+   "lpc.quote.no-salvation-out-of-the-church",
+   "lpc.quote.two-hear-one-scorns-one-rises",
+   "lpc.witness.confessor-claim-vs-regulated-peace",
+   "lpc.term.confessor",
+   "lpc.term.certificates-letters-of-peace",
+   "lpc.term.heresy",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.such-a-one-with-his-friends",
+   "lpc.quote.pardon-through-a-wicked-clergyman",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace"
+  ],
+  "sub_question": "C5.S2",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q012",
+  "question": "Was scripture your community's sole source of authority, or were there others?",
+  "offered": [
+   "lpc.witness.scripture-above-councils",
+   "lpc.term.confessor",
+   "lpc.term.the-lapsed",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.earlier-councils-corrected-by-later",
+   "lpc.quote.an-ever-burning-gehenna",
+   "lpc.witness.days-before-the-sun",
+   "lpc.witness.confessor-claim-vs-regulated-peace",
+   "lpc.term.certificates-letters-of-peace",
+   "lpc.quote.thousands-of-certificates-daily",
+   "lpc.quote.they-went-out-from-us-but-were-not-of-us",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace"
+  ],
+  "sub_question": "C5.S1",
+  "ending": "clean"
+ },
+ {
+  "id": "q013",
+  "question": "Is it accurate that believers regularly concealed themselves underground?",
+  "offered": [
+   "lpc.limit.the-outsiders-own-view",
+   "lpc.witness.blamed-for-the-worlds-troubles",
+   "lpc.term.libelli",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.story.numidicus",
+   "lpc.quote.let-us-too-be-beheaded-with-him",
+   "lpc.quote.numidicus-remained-unwillingly",
+   "lpc.force.decian-persecution-libelli-system",
+   "lpc.witness.judged-on-the-life-lived-here",
+   "lpc.story.hundred-thousand-sesterces",
+   "lpc.quote.left-doubtful-a-kind-of-purgatorial-fire",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+  ],
+  "sub_question": "C9.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q014",
+  "question": "Explain how leadership and authority were established within your community.",
+  "offered": [
+   "lpc.witness.answerability-as-ground",
+   "lpc.term.confessor",
+   "lpc.term.the-flock",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace",
+   "lpc.force.organized-carthaginian-church",
+   "lpc.limit.womens-own-voice",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.quote.a-hundred-thousand-sesterces",
+   "lpc.witness.peace-for-the-dying-penitent",
+   "lpc.term.the-lapsed",
+   "lpc.quote.before-even-a-deacon"
+  ],
+  "sub_question": "C6.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q015",
+  "question": "Every community has failed people at times - how did yours respond when it failed someone?",
+  "offered": [
+   "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.election-of-cyprian",
+   "lpc.story.hundred-thousand-sesterces",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+   "lpc.quote.pardon-through-a-wicked-clergyman",
+   "lpc.force.confessors-claim-to-grant-peace",
+   "lpc.contested.cyprian-death-genre",
+   "lpc.witness.the-dying-and-the-pastors-post",
+   "lpc.quote.peter-the-sick-man-and-the-physician",
+   "lpc.quote.before-even-a-deacon",
+   "lpc.force.decian-persecution-libelli-system",
+   "lpc.limit.ordinary-interior-life",
+   "lpc.witness.remembered-at-the-altar",
+   "lpc.quote.a-dreadful-plague-broke-out",
+   "lpc.quote.remember-me-at-the-lords-altar",
+   "lpc.witness.violence-commanded-not-cruel",
+   "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+   "lpc.quote.david-himself-hath-been-sent-to-thee"
+  ],
+  "sub_question": "C14.S5",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q016",
+  "question": "Does any present-day church continue your community's exact tradition?",
+  "offered": [
+   "lpc.limit.apostolic-origin-undefended",
+   "lpc.witness.apostolic-succession-of-bishops",
+   "lpc.term.heresy",
+   "lpc.term.the-flock",
+   "lpc.term.preaching",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.one-good-shepherd-not-many",
+   "lpc.force.confessors-claim-to-grant-peace",
+   "lpc.witness.answerability-as-ground",
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+   "lpc.quote.ancient-venom-against-my-episcopate",
+   "lpc.quote.judge-not-nor-despair-of-a-return",
+   "lpc.quote.the-sermon-and-the-readings-are-daily-bread"
+  ],
+  "sub_question": "C6.S4",
+  "ending": "clean"
+ },
+ {
+  "id": "q017",
+  "question": "What evidence connects your rituals to the earliest followers, rather than later invention?",
+  "offered": [
+   "lpc.limit.apostolic-origin-undefended",
+   "lpc.witness.baptism-traced-to-the-apostles",
+   "lpc.term.plenary-council",
+   "lpc.story.election-of-cyprian",
+   "lpc.story.numidicus",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.quote.earlier-councils-corrected-by-later",
+   "lpc.force.congregational-acclamation-overriding-preference"
+  ],
+  "sub_question": "C7.S8",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q018",
+  "question": "Describe, step by step, the process by which someone joined your community.",
+  "offered": [
+   "lpc.limit.apostolic-origin-undefended",
+   "lpc.witness.baptism-traced-to-the-apostles",
+   "lpc.term.catechesis",
+   "lpc.term.heresy",
+   "lpc.story.election-of-cyprian",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth",
+   "lpc.gravity.preaching-and-catechesis",
+   "lpc.witness.judged-on-the-life-lived-here",
+   "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+   "lpc.witness.the-dying-and-the-pastors-post",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.quote.before-even-a-deacon",
+   "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life"
+  ],
+  "sub_question": "C7.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q019",
+  "question": "For someone whose mind won't settle, does your community's practice offer anything?",
+  "offered": [
+   "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "lpc.term.confessor",
+   "lpc.term.schism",
+   "lpc.story.the-plague-and-the-enemies",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.quote.earlier-councils-corrected-by-later",
+   "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+   "lpc.force.recurring-contest-failed-member",
+   "lpc.contested.compel-coercion-development",
+   "lpc.witness.confessor-claim-vs-regulated-peace",
+   "lpc.term.certificates-letters-of-peace",
+   "lpc.quote.consider-who-was-there",
+   "lpc.quote.such-a-one-with-his-friends",
+   "lpc.witness.the-pattern-we-are-modelled-on",
+   "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+   "lpc.quote.the-wretched-woman-and-mercy"
+  ],
+  "sub_question": "C14.S8",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q020",
+  "question": "Would your community describe conversion using language like being 'born again'?",
+  "offered": [
+   "lpc.witness.baptism-as-new-birth",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.the-plague-and-the-enemies",
+   "lpc.quote.let-your-creed-be-a-mirror",
+   "lpc.quote.o-blessed-people-of-the-church",
+   "lpc.gravity.confessor-authority-vs-episcopal-peace",
+   "lpc.contested.compel-coercion-development",
+   "lpc.limit.ordinary-interior-life",
+   "lpc.quote.a-dreadful-plague-broke-out",
+   "lpc.quote.he-slept-with-his-fathers",
+   "lpc.limit.womens-own-voice",
+   "lpc.witness.answerability-as-ground"
+  ],
+  "sub_question": "C4.S5",
+  "ending": "clean"
+ },
+ {
+  "id": "q021",
+  "question": "What physical evidence would remain of your community's gathering place?",
+  "offered": [
+   "lpc.core.latin-pastoral-congregational-christianity",
+   "lpc.force.organized-carthaginian-church",
+   "lpc.limit.411-gesta-unread"
+  ],
+  "sub_question": "C12.S8",
+  "ending": "clean"
+ },
+ {
+  "id": "q022",
+  "question": "Describe a typical day in the life of someone in your community.",
+  "offered": [
+   "lpc.limit.ordinary-interior-life",
+   "lpc.witness.remembered-at-the-altar",
+   "lpc.term.confessor",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.quote.he-slept-with-his-fathers",
+   "lpc.quote.a-dreadful-plague-broke-out",
+   "lpc.gravity.penitential-discipline",
+   "lpc.witness.infants-and-the-sin-of-another",
+   "lpc.term.grace",
+   "lpc.story.hundred-thousand-sesterces",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.quote.the-mildest-condemnation-of-all"
+  ],
+  "sub_question": "C12.S1",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q023",
+  "question": "What, if anything, did people give up to belong to your community?",
+  "offered": [
+   "lpc.witness.confessor-claim-vs-regulated-peace",
+   "lpc.term.confessor",
+   "lpc.quote.pardon-through-a-wicked-clergyman",
+   "lpc.quote.thousands-of-certificates-daily",
+   "lpc.force.confessors-claim-to-grant-peace",
+   "lpc.witness.baptism-as-new-birth",
+   "lpc.story.the-plague-and-the-enemies",
+   "lpc.story.hundred-thousand-sesterces",
+   "lpc.story.the-psalms-on-the-wall",
+   "lpc.quote.thank-offerings-for-the-very-good",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.force.decian-persecution-libelli-system"
+  ],
+  "sub_question": "C12.S6",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q024",
+  "question": "How did your community understand and mark marriage?",
+  "offered": [
+   "lpc.witness.marriage-a-threefold-good",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+   "lpc.gravity.pastoral-office-flock-keeping",
+   "lpc.force.decian-persecution-libelli-system",
+   "lpc.force.organized-carthaginian-church"
+  ],
+  "sub_question": "C8.S4",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q025",
+  "question": "Given that a key outside record of your worship was obtained under torture, how reliable is that source?",
+  "offered": [
+   "lpc.witness.answerability-as-ground",
+   "lpc.term.communion",
+   "lpc.term.grace",
+   "lpc.term.heresy",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.story.the-death-of-cyprian",
+   "lpc.quote.the-paper-itself",
+   "lpc.quote.thirteen-letters-sent-to-rome",
+   "lpc.force.confessors-claim-to-grant-peace",
+   "lpc.contested.de-unitate-recensions",
+   "lpc.limit.ordinary-interior-life",
+   "lpc.story.the-plague-and-the-enemies",
+   "lpc.quote.good-done-to-all-not-only-the-household",
+   "lpc.quote.he-slept-with-his-fathers",
+   "lpc.witness.confessor-claim-vs-regulated-peace",
+   "lpc.quote.thousands-of-certificates-daily",
+   "lpc.quote.pardon-through-a-wicked-clergyman"
+  ],
+  "sub_question": "C16.S4",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q026",
+  "question": "Was there a part of your own community's life that unsettled you?",
+  "offered": [],
+  "sub_question": "C17.S4",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q027",
+  "question": "How would your community have regarded a person like the one asking you this?",
+  "offered": [
+   "lpc.witness.remembered-at-the-altar",
+   "lpc.term.grace",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.term.the-lapsed",
+   "lpc.story.celerinus-writes-to-lucian",
+   "lpc.story.the-plague-and-the-enemies",
+   "lpc.quote.remember-me-at-the-lords-altar",
+   "lpc.gravity.penitential-discipline",
+   "lpc.witness.infants-and-the-sin-of-another",
+   "lpc.quote.the-mildest-condemnation-of-all",
+   "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "lpc.witness.the-dying-and-the-pastors-post",
+   "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "lpc.quote.before-even-a-deacon",
+   "lpc.witness.almsgiving-quenches-sin",
+   "lpc.quote.they-first-dwelt-together-in-unity"
+  ],
+  "sub_question": "C7.S7",
+  "ending": "rewritten"
+ },
+ {
+  "id": "q028",
+  "question": "What did your community hold about the eternal fate of those outside it?",
+  "offered": [
+   "lpc.witness.no-one-may-take-his-own-life",
+   "lpc.witness.no-salvation-outside-the-church",
+   "lpc.term.reconciliation-penitential-discipline",
+   "lpc.term.heresy",
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them",
+   "lpc.quote.no-salvation-out-of-the-church",
+   "lpc.witness.infants-and-the-sin-of-another",
+   "lpc.term.grace",
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "lpc.quote.the-mildest-condemnation-of-all",
+   "lpc.term.schism"
+  ],
+  "sub_question": "C3.S7",
+  "ending": "rewritten"
+ }
+]

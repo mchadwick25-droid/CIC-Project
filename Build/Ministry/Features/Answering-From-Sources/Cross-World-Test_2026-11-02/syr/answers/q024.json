@@ -1,0 +1,139 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.limit.marriage"
+   ],
+   "sentence": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it."
+  },
+  {
+   "record_ids": [
+    "syr.limit.marriage"
+   ],
+   "sentence": "Most of our people married and raised children, and their weddings and their homes were real."
+  },
+  {
+   "record_ids": [
+    "syr.limit.marriage"
+   ],
+   "sentence": "The texts we kept praise the single life far more than they describe the married one."
+  },
+  {
+   "record_ids": [
+    "syr.quote.the-wedding-feast-continues-for-but-seven-days"
+   ],
+   "sentence": "In today's English, Aphrahat says: “And instead of the groans of the daughters of Eve, they sing the songs of the Bridegroom. The wedding feast of the daughters of Eve lasts only seven days; but these virgins have the Bridegroom who never goes away. The adornment of the daughters of Eve is wool that wears out and perishes; the garments of these do not wear out. Old age withers the beauty of the daughters of Eve; the beauty of these will be made new at the time of the Resurrection.”"
+  },
+  {
+   "record_ids": [
+    "syr.force.qyama-commitment"
+   ],
+   "sentence": "The covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The women's and the ordinary believers' own words on marriage were not kept."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.force.qyama-commitment",
+  "syr.limit.marriage",
+  "syr.quote.the-wedding-feast-continues-for-but-seven-days"
+ ],
+ "group": "A",
+ "id": "q024",
+ "net_sentences": [
+  {
+   "draft": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it [[syr.limit.marriage]] [[as:paraphrase]].",
+   "sentence": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it.",
+   "tags": [
+    "syr.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Most of our people married and raised children, and their weddings and their homes were real [[syr.limit.marriage]] [[as:paraphrase]].",
+   "sentence": "Most of our people married and raised children, and their weddings and their homes were real.",
+   "tags": [
+    "syr.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The texts we kept praise the single life far more than they describe the married one [[syr.limit.marriage]] [[as:paraphrase]].",
+   "sentence": "The texts we kept praise the single life far more than they describe the married one.",
+   "tags": [
+    "syr.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat wrote in Demonstration VI.6: [[quote:syr.quote.the-wedding-feast-continues-for-but-seven-days]]",
+   "placed_quote": "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+   "sentence": "In today's English, Aphrahat says: “And instead of the groans of the daughters of Eve, they sing the songs of the Bridegroom. The wedding feast of the daughters of Eve lasts only seven days; but these virgins have the Bridegroom who never goes away. The adornment of the daughters of Eve is wool that wears out and perishes; the garments of these do not wear out. Old age withers the beauty of the daughters of Eve; the beauty of these will be made new at the time of the Resurrection.”",
+   "tags": [
+    "syr.quote.the-wedding-feast-continues-for-but-seven-days"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness [[syr.force.qyama-commitment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness.",
+   "tags": [
+    "syr.force.qyama-commitment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The women's and the ordinary believers' own words on marriage were not kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The women's and the ordinary believers' own words on marriage were not kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.marriage",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment"
+ ],
+ "raw_text": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it [[syr.limit.marriage]] [[as:paraphrase]].\n\nMost of our people married and raised children, and their weddings and their homes were real [[syr.limit.marriage]] [[as:paraphrase]].\n\nThe texts we kept praise the single life far more than they describe the married one [[syr.limit.marriage]] [[as:paraphrase]].\n\nAphrahat wrote in Demonstration VI.6: [[quote:syr.quote.the-wedding-feast-continues-for-but-seven-days]]\n\nThe covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness [[syr.force.qyama-commitment]] [[as:paraphrase]].\n\nThe women's and the ordinary believers' own words on marriage were not kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.the-wedding-feast-continues-for-but-seven-days"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Aphrahat wrote in Demonstration VI.6: [[quote:syr.quote.the-wedding-feast-continues-for-but-seven-days]]",
+    "lead_in": "In today's English, Aphrahat says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C8.S4",
+ "text": "The voices of ours that survive are vowed celibates, and they wrote of marriage mostly from the covenant's side, to those who had renounced it.\n\nMost of our people married and raised children, and their weddings and their homes were real.\n\nThe texts we kept praise the single life far more than they describe the married one.\n\nIn today's English, Aphrahat says: “And instead of the groans of the daughters of Eve, they sing the songs of the Bridegroom. The wedding feast of the daughters of Eve lasts only seven days; but these virgins have the Bridegroom who never goes away. The adornment of the daughters of Eve is wool that wears out and perishes; the garments of these do not wear out. Old age withers the beauty of the daughters of Eve; the beauty of these will be made new at the time of the Resurrection.”\n\nThe covenant order stood at the heart of the community early on, and Demonstration 6, from 337, is its first datable witness.\n\nThe women's and the ordinary believers' own words on marriage were not kept.",
+ "voice_set_aside": false
+}

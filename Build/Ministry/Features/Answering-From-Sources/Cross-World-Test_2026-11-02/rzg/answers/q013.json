@@ -1,0 +1,139 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "What our record holds is Catholic pressure, sustained across the whole of our window."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "In the 1590s the Catholic reconquest of the Chablais was fought on Geneva's own doorstep."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "Those named episodes kept our refusal of Rome alive across the whole window, without ever ending our world."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "With Rome, our quarrel was never over who Jesus is."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "To us Jesus is what the whole church says he is."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him."
+  }
+ ],
+ "citations": [
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.witness.one-thing-not-in-dispute"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "What our record holds is Catholic pressure, sustained across the whole of our window [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "What our record holds is Catholic pressure, sustained across the whole of our window.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In the 1590s the Catholic reconquest of the Chablais was fought on Geneva's own doorstep [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In the 1590s the Catholic reconquest of the Chablais was fought on Geneva's own doorstep.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Those named episodes kept our refusal of Rome alive across the whole window, without ever ending our world [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Those named episodes kept our refusal of Rome alive across the whole window, without ever ending our world.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "With Rome, our quarrel was never over who Jesus is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "With Rome, our quarrel was never over who Jesus is.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "To us Jesus is what the whole church says he is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us Jesus is what the whole church says he is.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.force.counter-reformation-sustained-pressure"
+ ],
+ "raw_text": "What our record holds is Catholic pressure, sustained across the whole of our window [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].\n\nThe Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].\n\nIn the 1590s the Catholic reconquest of the Chablais was fought on Geneva's own doorstep [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].\n\nThose named episodes kept our refusal of Rome alive across the whole window, without ever ending our world [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].\n\nWith Rome, our quarrel was never over who Jesus is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nTo us Jesus is what the whole church says he is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nWhat is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "What our record holds is Catholic pressure, sustained across the whole of our window.\n\nThe Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva.\n\nIn the 1590s the Catholic reconquest of the Chablais was fought on Geneva's own doorstep.\n\nThose named episodes kept our refusal of Rome alive across the whole window, without ever ending our world.\n\nWith Rome, our quarrel was never over who Jesus is.\n\nTo us Jesus is what the whole church says he is.\n\nWhat is distinctly ours is what we were taught about who is chosen in him.",
+ "voice_set_aside": false
+}

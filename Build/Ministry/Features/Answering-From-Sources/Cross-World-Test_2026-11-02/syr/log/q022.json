@@ -1,0 +1,220 @@
+{
+ "draft": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]].\n\nThe covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation [[syr.term.qyama]] [[syr.gravity.covenant-life]] [[as:paraphrase]].\n\nAround us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan [[syr.force.frontier-plural-milieu]] [[as:paraphrase]].\n\nWe gathered on the first day and kept the fasts [[syr.dw.apostolic]] [[as:paraphrase]].\n\nAphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith [[syr.dw.adam-grace]] [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n\nThe Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]\n\nWe can tell you how men praised the daughters of the covenant, but we cannot give you their own words [[syr.limit.f5-women-own-words]] [[as:paraphrase]].\n\nOf the days of the enslaved inside our own churches, we can tell you nothing true [[syr.limit.f5-enslaved]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "The covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation. Around us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan. We gathered on the first day and kept the fasts. Aphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith. We can tell you how men praised the daughters of the covenant, but we cannot give you their own words. Of the days of the enslaved inside our own churches, we can tell you nothing true.",
+ "group": "A",
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.term.qyama",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.gravity.covenant-life",
+  "syr.force.frontier-plural-milieu",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.aphrahat-stone-foundation"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It describes Christ as the foundation of faith and says nothing of a typical day."
+   },
+   "record_id": "syr.quote.aphrahat-stone-foundation"
+  }
+ ],
+ "question": "Describe a typical day in the life of someone in your community.",
+ "question_id": "q022",
+ "read": {
+  "dropped": [
+   "syr.quote.aphrahat-stone-foundation"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "The record lists the covenant's service but does not say it made up the day or any daily routine.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ],
+   "sentence": "The covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation.",
+   "tags": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.frontier-plural-milieu"
+   ],
+   "sentence": "Around us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "We gathered on the first day and kept the fasts.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.adam-grace",
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith.",
+   "tags": [
+    "syr.dw.adam-grace",
+    "syr.limit.what-must-one-do"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "sentence": "We can tell you how men praised the daughters of the covenant, but we cannot give you their own words.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.limit.f5-enslaved"
+   ],
+   "sentence": "Of the days of the enslaved inside our own churches, we can tell you nothing true.",
+   "tags": [
+    "syr.limit.f5-enslaved"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation.",
+   "tags": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Around us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We gathered on the first day and kept the fasts.",
+   "tags": [
+    "syr.dw.apostolic"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Aphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith.",
+   "tags": [
+    "syr.dw.adam-grace",
+    "syr.limit.what-must-one-do"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "syr.quote.aphrahat-stone-foundation",
+   "reason": "placed by code",
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”",
+   "tags": [
+    "syr.quote.aphrahat-stone-foundation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We can tell you how men praised the daughters of the covenant, but we cannot give you their own words.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Of the days of the enslaved inside our own churches, we can tell you nothing true.",
+   "tags": [
+    "syr.limit.f5-enslaved"
+   ]
+  }
+ ],
+ "shipped_by_net": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing.\n\nThe covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation.\n\nAround us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan.\n\nWe gathered on the first day and kept the fasts.\n\nAphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith.\n\nThe Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”\n\nWe can tell you how men praised the daughters of the covenant, but we cannot give you their own words.\n\nOf the days of the enslaved inside our own churches, we can tell you nothing true.",
+ "sub_question": "C12.S1"
+}

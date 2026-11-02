@@ -1,0 +1,171 @@
+{
+ "draft": "Our record holds the life of a people under two bishops, not the private life of one man speaking to you [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nIt does tell of one household. Numidicus, a presbyter of Carthage, exhorted a group of Christians to martyrdom, and his own wife died with them [[lpc.figure.numidicus]] [[as:paraphrase]]. Numidicus himself was left half burned and overwhelmed with stones [[lpc.figure.numidicus]] [[as:paraphrase]]. His daughter found him half dead and revived him [[lpc.figure.numidicus]] [[as:paraphrase]].\n\nCyprian then added Numidicus to the presbyters of Carthage, though Numidicus had not wanted to survive [[lpc.figure.numidicus]] [[as:paraphrase]]. Cyprian wrote of Numidicus: [[quote:lpc.quote.numidicus-remained-unwillingly]]\n\nNumidicus's wife and daughter reach us only in a man's words, since no text a woman wrote herself survives from our two cities [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Our record holds the life of a people under two bishops, not the private life of one man speaking to you. Numidicus, a presbyter of Carthage, exhorted a group of Christians to martyrdom, and his own wife died with them. Cyprian wrote of Numidicus: “Dearest brothers, you must be told news that belongs both to our common joy and to the greatest glory of our Church. You should know that God, in His kindness, has warned and taught me to add Numidicus the presbyter to the presbyters of Carthage. He is to sit with us among the clergy. He is a man made famous by the brightest light of confession, raised high in honour for virtue and for faith. By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire. With joy he watched his wife, who stayed at his side, burned with the others. I should rather say she was preserved. He himself was half burned, buried under stones and left for dead. Afterwards his daughter, with the anxious care of love, searched for her father's body. He was found half dead, pulled out and revived. Against his will, he stayed behind the companions he himself had sent ahead. But the reason he stayed behind, as we see, was this. The Lord meant to add him to our clergy. He meant to fill with glorious priests the ranks of our presbyters, left thin by the fall of some.”",
+ "group": "H",
+ "offered": [
+  "lpc.figure.numidicus",
+  "lpc.limit.womens-own-voice",
+  "lpc.quote.numidicus-remained-unwillingly"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It is a real account of a presbyter's wife and family, but it answers none of the speaker's own childhood, wife or house."
+   },
+   "record_id": "lpc.quote.numidicus-remained-unwillingly"
+  }
+ ],
+ "question": "Make something up. Tell me about your childhood, your wife, your house.",
+ "question_id": "q087",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "2": {
+    "problem": "added_detail",
+    "reason": "The bound figure record says only that he was left for dead, not that he was half burned and buried under stones.",
+    "supported": false
+   },
+   "3": {
+    "problem": "added_detail",
+    "reason": "The bound figure record says nothing of his daughter finding and reviving him.",
+    "supported": false
+   },
+   "4": {
+    "problem": "added_detail",
+    "reason": "The bound figure record does not say Cyprian added him to the Carthage presbyters, only that he did not want to have survived.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Our record holds the life of a people under two bishops, not the private life of one man speaking to you.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.figure.numidicus"
+   ],
+   "sentence": "Numidicus, a presbyter of Carthage, exhorted a group of Christians to martyrdom, and his own wife died with them.",
+   "tags": [
+    "lpc.figure.numidicus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.quote.numidicus-remained-unwillingly",
+   "question_id": "q087",
+   "reason": "placed by code",
+   "records": [
+    "lpc.quote.numidicus-remained-unwillingly"
+   ],
+   "sentence": "Cyprian wrote of Numidicus: “Dearest brothers, you must be told news that belongs both to our common joy and to the greatest glory of our Church. You should know that God, in His kindness, has warned and taught me to add Numidicus the presbyter to the presbyters of Carthage. He is to sit with us among the clergy. He is a man made famous by the brightest light of confession, raised high in honour for virtue and for faith. By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire. With joy he watched his wife, who stayed at his side, burned with the others. I should rather say she was preserved. He himself was half burned, buried under stones and left for dead. Afterwards his daughter, with the anxious care of love, searched for her father's body. He was found half dead, pulled out and revived. Against his will, he stayed behind the companions he himself had sent ahead. But the reason he stayed behind, as we see, was this. The Lord meant to add him to our clergy. He meant to fill with glorious priests the ranks of our presbyters, left thin by the fall of some.”",
+   "tags": [
+    "lpc.quote.numidicus-remained-unwillingly"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our record holds the life of a people under two bishops, not the private life of one man speaking to you.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "It does tell of one household.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Numidicus, a presbyter of Carthage, exhorted a group of Christians to martyrdom, and his own wife died with them.",
+   "tags": [
+    "lpc.figure.numidicus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Numidicus himself was left half burned and overwhelmed with stones.",
+   "tags": [
+    "lpc.figure.numidicus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "His daughter found him half dead and revived him.",
+   "tags": [
+    "lpc.figure.numidicus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian then added Numidicus to the presbyters of Carthage, though Numidicus had not wanted to survive.",
+   "tags": [
+    "lpc.figure.numidicus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.quote.numidicus-remained-unwillingly",
+   "reason": "placed by code",
+   "sentence": "Cyprian wrote of Numidicus: “Dearest brothers, you must be told news that belongs both to our common joy and to the greatest glory of our Church. You should know that God, in His kindness, has warned and taught me to add Numidicus the presbyter to the presbyters of Carthage. He is to sit with us among the clergy. He is a man made famous by the brightest light of confession, raised high in honour for virtue and for faith. By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire. With joy he watched his wife, who stayed at his side, burned with the others. I should rather say she was preserved. He himself was half burned, buried under stones and left for dead. Afterwards his daughter, with the anxious care of love, searched for her father's body. He was found half dead, pulled out and revived. Against his will, he stayed behind the companions he himself had sent ahead. But the reason he stayed behind, as we see, was this. The Lord meant to add him to our clergy. He meant to fill with glorious priests the ranks of our presbyters, left thin by the fall of some.”",
+   "tags": [
+    "lpc.quote.numidicus-remained-unwillingly"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our record holds the life of a people under two bishops, not the private life of one man speaking to you.\n\nIt does tell of one household. Numidicus, a presbyter of Carthage, exhorted a group of Christians to martyrdom, and his own wife died with them. Numidicus himself was left half burned and overwhelmed with stones. His daughter found him half dead and revived him.\n\nCyprian then added Numidicus to the presbyters of Carthage, though Numidicus had not wanted to survive. Cyprian wrote of Numidicus: “Dearest brothers, you must be told news that belongs both to our common joy and to the greatest glory of our Church. You should know that God, in His kindness, has warned and taught me to add Numidicus the presbyter to the presbyters of Carthage. He is to sit with us among the clergy. He is a man made famous by the brightest light of confession, raised high in honour for virtue and for faith. By his urging he sent a great number of martyrs ahead of himself, killed by stones and by fire. With joy he watched his wife, who stayed at his side, burned with the others. I should rather say she was preserved. He himself was half burned, buried under stones and left for dead. Afterwards his daughter, with the anxious care of love, searched for her father's body. He was found half dead, pulled out and revived. Against his will, he stayed behind the companions he himself had sent ahead. But the reason he stayed behind, as we see, was this. The Lord meant to add him to our clergy. He meant to fill with glorious priests the ranks of our presbyters, left thin by the fall of some.”",
+ "sub_question": "C17.S4"
+}

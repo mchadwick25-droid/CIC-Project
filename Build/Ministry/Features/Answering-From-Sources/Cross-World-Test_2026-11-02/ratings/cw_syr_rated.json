@@ -1,0 +1,506 @@
+[
+ {
+  "id": "q013-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "relocates catacomb frame and explains Persian-side cost faithfully to outsiders-empire record"
+ },
+ {
+  "id": "q022-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "honest pieces-not-a-day answer covering covenanters, laity, mixed city, enslaved limit"
+ },
+ {
+  "id": "q008-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "gives death's rule and wounding but never squarely answers the guilt question, drifts into what-must-one-do"
+ },
+ {
+  "id": "q006-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "polemical definitions plus persecuted litany and Physician, all record-grounded"
+ },
+ {
+  "id": "q004-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "dangling 'He strung Scripture's names' with no antecedent; otherwise faithful to was-jesus-god"
+ },
+ {
+  "id": "q018-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "states missing ordo honestly and supplies verified warned-before-baptism quote and covenant vow"
+ },
+ {
+  "id": "q019-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "penitence-as-medicine plus honest no-technique line, distinct from guilt case"
+ },
+ {
+  "id": "q026-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "report-voice list of contested facts that are not unsettling; narrates post-410 Rabbula shift and loss of Syriac copies from inside the window"
+ },
+ {
+  "id": "q026-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "names one-sided anti-Jewish polemic and blind spots, matching dw.failures/unsettled"
+ },
+ {
+  "id": "q014-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "three paths to authority, Aphrahat rank unknown, Catholicos anachronism flagged; some repetitive phrasing"
+ },
+ {
+  "id": "q015-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "separates individual repair from communal failure and names the silence honestly"
+ },
+ {
+  "id": "q017-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "accurate legend-vs-record answer but stiff repeated noun phrases"
+ },
+ {
+  "id": "q008-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "clearly distinguishes wound and death's rule from later original-guilt frame"
+ },
+ {
+  "id": "q007-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "faith-as-building, taunt, penitence, verified stonecutter quote"
+ },
+ {
+  "id": "q020-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "'as public as a wedding, sung the same way' invents wedding practice the marriage limit says is unrecorded"
+ },
+ {
+  "id": "q013-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "off-topic leadership/Catholicos note, then asks visitor to clarify instead of answering"
+ },
+ {
+  "id": "q005-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "claims each of the 23 Demonstrations refutes a rival by name or corrects error, overstating the corpus"
+ },
+ {
+  "id": "q009-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "breaks voice into meta-commentary on 'your limits'/'the voice'; 'Peshitta nowhere' overclaims against contested Peshitta dating; typo"
+ },
+ {
+  "id": "q017-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "flood line with caveat, practices present at sources' start, Addai told as legend"
+ },
+ {
+  "id": "q001-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "harmony, Law and Prophets, Abgar as legend, received witness; faithful to gospel-harmony"
+ },
+ {
+  "id": "q020-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "born-again as public baptismal birth plus unasked but accurate no-rapture point"
+ },
+ {
+  "id": "q011-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "terse definitional raza note that barely addresses what modern readers miss"
+ },
+ {
+  "id": "q014-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "plural authority with ihidaya, 410 synod, Catholicos later - all in records"
+ },
+ {
+  "id": "q024-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "says surviving voices include women who gave up marriage, contradicting the documented absence of any woman's words"
+ },
+ {
+  "id": "q028-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "judgment real, no roster, Aphrahat's order and judge's reckoning, per records"
+ },
+ {
+  "id": "q012-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "scripture supreme yet received through community, raza reading"
+ },
+ {
+  "id": "q018-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "constructs partial sequence (Gospel taught before the water) that the ritual-sequence limit says is unrecorded"
+ },
+ {
+  "id": "q021-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "dated Nisibis baptistery, verified Chronicle flood quote with caveat"
+ },
+ {
+  "id": "q006-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "accurate but repetitive and choppy persecution lines"
+ },
+ {
+  "id": "q019-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "faithful to penitence-prayer record"
+ },
+ {
+  "id": "q007-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "space for struggle via physician and building images"
+ },
+ {
+  "id": "q003-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Physician and weeping woman, door open, repentance not bypassed"
+ },
+ {
+  "id": "q028-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "core answer right but veers into anti-Jewish polemic and 'failures' unrelated to the question"
+ },
+ {
+  "id": "q016-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "describes rivals and one-name identity but never says plainly it cannot speak to present-day churches"
+ },
+ {
+  "id": "q010-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "full raza/shrara and harmony account; pearl hymn referenced without being shown"
+ },
+ {
+  "id": "q023-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "leads with verified quote (marriage, possessions) then drifts to unrelated born-again and mixed-city notes"
+ },
+ {
+  "id": "q016-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "calls the 410 synod one 'we did not live to see' contradicting its own 410 close, and names later churches keeping 'feast days we kept' without record"
+ },
+ {
+  "id": "q023-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "'everyone gave up the old gods' and 'wrote mostly to each other' are not in the records; rest matches cost-distance"
+ },
+ {
+  "id": "q002-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "dangling 'He used Scripture's own names'; drifts into reading method"
+ },
+ {
+  "id": "q027-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "opens with out-of-world self-introduction disclaimer and assumes the visitor is a would-be celibate"
+ },
+ {
+  "id": "q022-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "disconnected list of facts with no sense of a day"
+ },
+ {
+  "id": "q025-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "rightly rejects false premise but in system-talk ('no record given to me for this turn')"
+ },
+ {
+  "id": "q005-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "no standing court, bishops/synods/teachers, evidence named"
+ },
+ {
+  "id": "q011-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "raza/shrara, sung in community, not science - addresses the modern reader well"
+ },
+ {
+  "id": "q027-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "speaks only to the struggling believer, not to how the visitor would be regarded"
+ },
+ {
+  "id": "q004-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "sung confession, font Trinity, guarded mystery per was-jesus-god"
+ },
+ {
+  "id": "q012-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "list of record statements; 'Which path' has no antecedent"
+ },
+ {
+  "id": "q010-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "brief raza definition in report voice ('Ephrem's method'), then off-topic apostolic note"
+ },
+ {
+  "id": "q001-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "ihidaya and remains fragments that do not address sources about Jesus"
+ },
+ {
+  "id": "q002-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "faithful to dw.jesus but clunky repeated 'Jesus' for pronouns"
+ },
+ {
+  "id": "q021-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "accurate but refers to 'that one archived sentence' never introduced"
+ },
+ {
+  "id": "q003-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Physician answer then an off-topic eyewitness/resurrection tail"
+ },
+ {
+  "id": "q015-A",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "two disconnected sentences that do not address communal failure"
+ },
+ {
+  "id": "q009-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "what holds and what is thin, matching corpus-and-its-edges"
+ },
+ {
+  "id": "q025-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "lists the world's sources but never engages or corrects the torture premise"
+ },
+ {
+  "id": "q024-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "marriage limit plus verified Dem. VI wedding-feast quote"
+ }
+]

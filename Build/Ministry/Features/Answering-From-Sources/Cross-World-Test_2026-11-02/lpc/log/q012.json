@@ -1,0 +1,187 @@
+{
+ "draft": "Scripture stood above our bishops' own writings, but it was not our only authority [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. About what it contains, he said, there can be no doubt or argument [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. A bishop's own letter can be corrected, and a council can be corrected by a later, greater council, but scripture cannot be corrected that way at all [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Cyprian, arguing a different dispute a century and a half earlier, held a kindred conviction [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Custom without truth, he wrote, is only the old age of error [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Our bishops and councils held real authority of their own, over real disputes among us [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. In Cyprian's time, a confessor's standing could rival a bishop's own authority [[lpc.term.confessor]] [[as:paraphrase]]. The confessors held that their suffering gave them standing to ask peace for some who had failed [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. That claim still had to be answered by a name set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. We hold both as real, and we have never found the place where they become one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.earlier-councils-corrected-by-later]]\n",
+ "ending": "clean",
+ "final": "Scripture stood above our bishops' own writings, but it was not our only authority. Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop. About what it contains, he said, there can be no doubt or argument. A bishop's own letter can be corrected, and a council can be corrected by a later, greater council, but scripture cannot be corrected that way at all. Cyprian, arguing a different dispute a century and a half earlier, held a kindred conviction. Custom without truth, he wrote, is only the old age of error. Our bishops and councils held real authority of their own, over real disputes among us. In Cyprian's time, a confessor's standing could rival a bishop's own authority. The confessors held that their suffering gave them standing to ask peace for some who had failed. That claim still had to be answered by a name set down, then examined before the whole congregation. We hold both as real, and we have never found the place where they become one settled rule. Augustine wrote: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”",
+ "group": "A",
+ "offered": [
+  "lpc.witness.scripture-above-councils",
+  "lpc.term.confessor",
+  "lpc.term.the-lapsed",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.witness.days-before-the-sun",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.quote.thousands-of-certificates-daily",
+  "lpc.quote.they-went-out-from-us-but-were-not-of-us",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "fits",
+    "limit_stated": true,
+    "reason": "It puts Scripture above bishops' letters and councils while allowing that bishops and councils carry authority that can be corrected."
+   },
+   "record_id": "lpc.quote.earlier-councils-corrected-by-later"
+  }
+ ],
+ "question": "Was scripture your community's sole source of authority, or were there others?",
+ "question_id": "q012",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Scripture stood above our bishops' own writings, but it was not our only authority.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "About what it contains, he said, there can be no doubt or argument.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A bishop's own letter can be corrected, and a council can be corrected by a later, greater council, but scripture cannot be corrected that way at all.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian, arguing a different dispute a century and a half earlier, held a kindred conviction.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Custom without truth, he wrote, is only the old age of error.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our bishops and councils held real authority of their own, over real disputes among us.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In Cyprian's time, a confessor's standing could rival a bishop's own authority.",
+   "tags": [
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The confessors held that their suffering gave them standing to ask peace for some who had failed.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That claim still had to be answered by a name set down, then examined before the whole congregation.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 10,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold both as real, and we have never found the place where they become one settled rule.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 11,
+   "placed": true,
+   "placed_id": "lpc.quote.earlier-councils-corrected-by-later",
+   "reason": "placed by code",
+   "sentence": "Augustine wrote: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”",
+   "tags": [
+    "lpc.quote.earlier-councils-corrected-by-later"
+   ]
+  }
+ ],
+ "shipped_by_net": "Scripture stood above our bishops' own writings, but it was not our only authority. Augustine wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a bishop. About what it contains, he said, there can be no doubt or argument. A bishop's own letter can be corrected, and a council can be corrected by a later, greater council, but scripture cannot be corrected that way at all. Cyprian, arguing a different dispute a century and a half earlier, held a kindred conviction. Custom without truth, he wrote, is only the old age of error. Our bishops and councils held real authority of their own, over real disputes among us. In Cyprian's time, a confessor's standing could rival a bishop's own authority. The confessors held that their suffering gave them standing to ask peace for some who had failed. That claim still had to be answered by a name set down, then examined before the whole congregation. We hold both as real, and we have never found the place where they become one settled rule. Augustine wrote: “But who does not know this? The holy canon of Scripture, both Old and New Testament, is held within its own limits. It stands far above all later letters of bishops. So no one may doubt or dispute whether what is clearly in it is right and true. But bishops' letters, written since the canon was closed or still being written, may be shown wrong if anything in them strays from the truth. This may come through the word of someone wiser in the matter. It may come through the weightier authority and greater learning of other bishops, or through councils. Councils held in single regions or provinces must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole Christian world. And even among plenary councils, the earlier are often corrected by the later. This happens when some experience of events brings to light what was hidden, and what lay concealed becomes known. It happens without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.”",
+ "sub_question": "C5.S1"
+}
