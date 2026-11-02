@@ -14,7 +14,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import evidence
 from engine.m4.name_bridge import find_figures_used, spoken_name
 from engine.m4.rhythm import RhythmTally, asks_for_the_words
-from engine.m4 import bound_draft, fit_step
+from engine.m4 import bound_draft, fit_step, passage_offer
 from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
@@ -602,6 +602,11 @@ def prepare_voice_turn_inputs(
     if rhythm is not None:
         asked = find_figures_used(participant_message, world.figures.get("figures") or [], already_bridged_ids=set(rhythm.figures_introduced))
         rhythm = replace(rhythm, figures_asked=frozenset(f["id"] for f in asked))
+    sub_question = directive.sub_question if directive and world.frame.get("subquestion_routing") else None
+    passage_config = world.frame.get("passage_offer")
+    offered_passages = passage_offer.select(passage_config["offer"], sub_question, passage_config["budget"]) if passage_config and sub_question else []
+    if offered_passages:
+        repository_records = {**repository_records, **passage_offer.records_by_id(offered_passages)}
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,
@@ -616,7 +621,8 @@ def prepare_voice_turn_inputs(
         kind=kind,
         rhythm=rhythm,
         words_asked=quote_asked,
-        sub_question=directive.sub_question if directive and world.frame.get("subquestion_routing") else None,
+        sub_question=sub_question,
+        passage_candidates=passage_offer.candidates(offered_passages, sub_question) if offered_passages else None,
     )
     if world.frame.get("story_placement"):
         turn_evidence = with_placeable_stories(turn_evidence, repository_records)

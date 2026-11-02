@@ -138,6 +138,9 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     "honest_limit": {
         "statement": SpokenField("voice-diet", "citation-card label uses first sentence"),
     },
+    "passage": {
+        "text": SpokenField("evidence-head", "a leaf passage of a vendored edition, offered live beside the records; the voice restates it in the author's name and never types it, and the sentence it supports is read against it"),
+    },
     "force": {
         "name": SpokenField("participant-label"),
         "description": SpokenField("evidence-head", "also citation-card label fallback"),
