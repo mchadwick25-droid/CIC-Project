@@ -101,6 +101,8 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
         loaded.frame["subquestion_routing"] = True
         loaded.frame["subquestion_catalogue"] = subquestion_routing.reader_catalogue(sidecar)
     if passage_offer_file is not None:
+        if not sub_question_routing:
+            raise SystemExit("--passage-offer needs --sub-question-routing: passages are offered under the sub-question the reader names")
         from engine.m4 import passage_offer
         loaded.frame["passage_offer"] = {"offer": passage_offer.load_offer(passage_offer_file), "budget": passage_budget or passage_offer.Budget()}
     reply_dir, pending_dir, answers_dir = work / "replies", work / "pending", work / "answers"

@@ -88,8 +88,11 @@ def test_the_lpc_sidecar_only_names_records_the_world_holds():
     from pathlib import Path
     root = Path(__file__).resolve().parents[3]
     sidecar = yaml.safe_load((root / "Build/worlds/lpc/build/lpc_Answers_Sidecar.yaml").read_text(encoding="utf-8"))
-    assert len(sidecar["subquestions"]) == 130
-    assert all(set(e) == {"cluster", "label", "records"} for e in sidecar["subquestions"].values())
+    entries = sidecar["subquestions"]
+    parents = {k for k, e in entries.items() if "parent" not in e}
+    assert len(parents) == 130
+    assert all(set(e) == {"cluster", "label", "records"} for k, e in entries.items() if k in parents)
+    assert all(set(e) == {"cluster", "label", "parent", "records"} and e["parent"] in parents for k, e in entries.items() if k not in parents)
     assert sr.SUB_QUESTION_ID.fullmatch(next(iter(sidecar["subquestions"])))
 
 

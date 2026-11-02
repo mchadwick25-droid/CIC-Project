@@ -1,12 +1,11 @@
 """The passage offer: leaf passages from the built passage index, offered beside
 a sub-question's records.
 
-A built offer file (made by engine.m4.reports.passage_offer_build from a seed, the
-passage index and the vendored texts) holds, per sub-question, the passages that
-answer it, each with its speaker, row, role, date and a voiceable-or-etic flag. This
-module reads that file, takes the sub-question's passages within a budget, and turns
-each into a record-shaped entry so the bound draft, the one batched read and the
-three-level transparency treat it like any other record.
+A built offer file (made by engine.m4.reports.passage_offer_build from Library's reviewed
+seed and the passage index) holds, per sub-question, the passages that answer it, each with
+its source, role, date and a voiceable-or-etic flag. This module reads that file, takes the
+sub-question's passages within a budget, and turns each into a record-shaped entry so the
+bound draft and the one batched read treat it like any other record.
 
 Evidence rules. Only a leaf passage is offered: never a summary or the frame. A
 sentence bound only to passages is a quotation or close paraphrase in the author's
@@ -37,12 +36,12 @@ def load_offer(path: Path) -> dict:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def author_work(passage: dict) -> str:
-    """How the voice names the passage's source: author and work, or the work alone when no author is ruled."""
+def author_work(passage: dict) -> str | None:
+    """How the voice names the passage's source: author and work, or whichever is named; None when neither is."""
     author, work = passage.get("author_name"), passage.get("work")
     if author and work:
         return f"{author}, in {work}"
-    return work or author or "a writing we hold"
+    return work or author
 
 
 def record_for(passage: dict) -> dict:
@@ -54,8 +53,7 @@ def record_for(passage: dict) -> dict:
         "text": passage["text"],
         "source_label": author_work(passage),
         "voiceable": bool(passage["voiceable"]),
-        "speaker": passage.get("speaker"),
-        "row": passage.get("row_id"),
+        "fit": passage.get("fit"),
         "role": passage.get("role"),
         "date": passage.get("date"),
         "locus": passage.get("locus"),
@@ -66,20 +64,20 @@ def record_for(passage: dict) -> dict:
 
 
 def ranked(passages: list[dict]) -> list[dict]:
-    """Voiceable first, then the cleaner scan, then the seed's own order."""
+    """The seed's reviewed rank (direct before partial, voiceable before etic); the seed's own order where a passage has none."""
     order = {p["tag"]: n for n, p in enumerate(passages)}
-    return sorted(passages, key=lambda p: (not p["voiceable"], -(p.get("ocr_score") or 0.0), order[p["tag"]]))
+    return sorted(passages, key=lambda p: (p.get("rank") if p.get("rank") is not None else len(order), order[p["tag"]]))
 
 
 def select(offer: dict, sub_question: str | None, budget: Budget) -> list[dict]:
-    """The sub-question's passages that fit the budget, in offer order."""
+    """The sub-question's passages that fit the budget, in rank order. A passage with no named author or work is never offered."""
     chosen: list[dict] = []
     words = 0
     held = {k for k, v in (offer.get("subquestions") or {}).items() if v}
     for passage in ranked((offer.get("subquestions") or {}).get(subquestion_routing.resolve(sub_question, held) or "") or []):
         if len(chosen) >= budget.max_passages:
             break
-        if chosen and words + passage["word_count"] > budget.max_words:
+        if not author_work(passage) or words + passage["word_count"] > budget.max_words:
             continue
         chosen.append(passage)
         words += passage["word_count"]
@@ -106,11 +104,12 @@ def render_line(candidate: dict) -> str:
     rec = candidate["passage"]
     where = f", {rec['locus']}" if rec.get("locus") else ""
     when = f", {rec['date']}" if rec.get("date") else ""
+    part = "; it answers only part of the question" if rec.get("fit") == "partial" else ""
     if rec["voiceable"]:
         how = f"VOICEABLE; say \"{rec['source_label']}, writes\"; \"we\" only with a reviewed record bound to the same sentence"
     else:
         how = f"OUTSIDE OUR VOICE; say \"{rec['source_label']}, writes\"; never \"we\""
-    return f"- [[{candidate['id']}]] passage ({how}{where}{when}) — {candidate['head']}"
+    return f"- [[{candidate['id']}]] passage ({how}{where}{when}{part}) — {candidate['head']}"
 
 
 def all_records(offer: dict) -> dict[str, dict]:

@@ -605,8 +605,6 @@ def prepare_voice_turn_inputs(
     sub_question = directive.sub_question if directive and world.frame.get("subquestion_routing") else None
     passage_config = world.frame.get("passage_offer")
     offered_passages = passage_offer.select(passage_config["offer"], sub_question, passage_config["budget"]) if passage_config and sub_question else []
-    if offered_passages:
-        repository_records = {**repository_records, **passage_offer.records_by_id(offered_passages)}
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,
@@ -624,6 +622,8 @@ def prepare_voice_turn_inputs(
         sub_question=sub_question,
         passage_candidates=passage_offer.candidates(offered_passages, sub_question) if offered_passages else None,
     )
+    if offered_passages:
+        repository_records = {**repository_records, **passage_offer.records_by_id(offered_passages)}
     if world.frame.get("story_placement"):
         turn_evidence = with_placeable_stories(turn_evidence, repository_records)
     if world.frame.get("context_blocks"):
