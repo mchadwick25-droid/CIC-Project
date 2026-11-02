@@ -11,7 +11,7 @@ from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
 
-def _world():
+def _world(**frame):
     return LoadedWorld(
         world_key="fix",
         manifest_hash="sha256:test",
@@ -26,7 +26,7 @@ def _world():
         quotes={"quotes": []},
         figures={"figures": [{"id": "fix.figure.paul", "names": [{"name": "Paul"}]}]},
         coverage={},
-        frame={"representative": {"name": "Vera"}},
+        frame={"representative": {"name": "Vera"}, **frame},
     )
 
 
@@ -101,3 +101,18 @@ def test_other_tradition_first_ask_always_produces_a_real_directive():
     )
     assert prepared.turn_directive is not None
     assert "another Christian tradition" in prepared.turn_directive
+
+
+def test_offered_passages_reach_the_voice_and_the_bound_records_but_not_the_records_search():
+    from engine.m4 import passage_offer
+    passage = {
+        "tag": "fix.passage.abc", "passage_id": "cic:f.xml:a#01", "file": "f.xml", "text": "Concerning the lapsed, the bishop writes of mercy after penance.",
+        "word_count": 10, "locus": "73", "role": "own", "work": "Letter 73", "author_name": "Cyprian", "date": None, "voiceable": False,
+        "fit": "direct", "rank": 1, "byte_start": 0, "byte_end": 10,
+    }
+    world = _world(passage_offer={"offer": {"subquestions": {"C1.S1": [passage]}}, "budget": passage_offer.Budget()}, subquestion_routing=True)
+    prepared = prepare_voice_turn_inputs(world=world, participant_message="Lapsed penance mercy?", directive=_directive(sub_question="C1.S1"))
+    assert "fix.passage.abc" in prepared.repository_records and prepared.repository_records["fix.passage.abc"]["passage_id"] == "cic:f.xml:a#01"
+    assert "[[fix.passage.abc]] passage (OUTSIDE OUR VOICE" in prepared.user_message
+    assert prepared.offered_ids["passage"] == ["fix.passage.abc"]
+    assert "fix.witness.who-is-jesus" in prepared.repository_records

@@ -147,11 +147,3 @@ def test_an_offer_is_not_built_from_a_seed_made_against_another_index(tmp_path):
 def test_a_passage_whose_span_differs_from_the_index_is_not_offered(tmp_path):
     got, report = _offered(tmp_path, _hit("a", 0, 11))
     assert got == [] and len(report["unresolved"]) == 1
-
-
-def test_passages_stay_out_of_the_records_search_pool_so_the_fallback_cannot_pick_them_up():
-    passages = po.candidates(po.select(OFFER, "C1.S1", po.Budget(2, 5000)), "C1.S1")
-    kwargs = dict(message="Text of p.b it is a sentence", asks=None, canon_questions=CANON_QUESTIONS, coverage={}, repository_records=REPOSITORY, passage_candidates=passages)
-    result = assemble_evidence(**kwargs)
-    assert all(c.get("passage") for c in result["candidates"] if c["id"] in ("p.b", "p.d"))
-    assert "[[p.b]] passage" in render_evidence_block(result)
