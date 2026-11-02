@@ -402,3 +402,9 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
    - No record cites any of the newly held files yet; using them is future build work.
 
    Status: CLOSED for the 2026-10-26 entry. OPEN for the items above.
+
+81. **Passage seeds: phase 1 and the first phase 2 batch, 2026-11-02.** `Build/worlds/rzg/build/rzg_Passage_Seeds.yaml` holds 50 checked seeds for 31 of the 130 sub-questions, 13 of them voiceable and 37 etic. Phase 1 gave 23 seeds from the coverage-map hits; the first search batch (12 concrete sub-questions) added 27. Each seed passed the code check against the vendored text and a reading by Sonnet, and Opus read every passage the first reader rated direct or partial, plus a random sample of the rest. Opus lowered the fit of about a third of the first reader's positives and moved several voiceable candidates to etic (a translator's or editor's summary of the Second Helvetic Confession, footnotes inside the passage, an opponent's argument).
+
+   What rzg needs that lpc did not have: `locus_ids`, translator and edition year and a dated window on its corpus-map rows. All 50 seeds read `file level only`; work and author are set on 38 and 46 of the 50, translator and edition year on none, and the date window is unknown on all. Several voiceable seeds need editor's footnotes and page headers trimmed before the passage is spoken.
+
+   Status: OPEN for the row fields. Owner: Library thread, through the coordination thread.

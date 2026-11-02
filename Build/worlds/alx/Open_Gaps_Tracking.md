@@ -840,3 +840,11 @@ Status: OPEN for an independent recheck of the quotes.
 The closing now says the quarrel over 'saved by faith alone' came later, not that the words did (Rufinus's Latin has 'sola fide' in Origen's passage on the thief); 'merely' is dropped from the Quis Dives paraphrase. Two Clement hits for 'faith alone' (Stromateis V.6, anf02 line 41905; and anf02 line 32187) are not in the record's list of what was found; neither sets faith against works. Awaiting a fourth read.
 
 Status: OPEN for the fourth read.
+
+### OG-41. Passage seeds: phase 1 and the first phase 2 batch, 2026-11-02.
+
+`Build/worlds/alx/build/alx_Passage_Seeds.yaml` holds 52 checked seeds for 28 of the 130 sub-questions; none can be voiced, because no alx passage has a named speaker. Phase 1 gave 21 seeds from the coverage-map hits; the first search batch (11 concrete sub-questions) added 31. Each seed passed the code check against the vendored text and a reading by Sonnet, and Opus read every passage the first reader rated direct or partial.
+
+What alx needs that lpc did not have: (1) `locus_ids` on its corpus-map rows. Without them every seed binds to the whole file, 52 of 52 read `file level only`, and many passages sit in works that are not Alexandrian (Methodius, Tertullian, the Apostolic Constitutions, Gregory of Nyssa); work and author are set on 10 and 19 of the 52, translator and edition year on none, and the date window is unknown on all. (2) Speaker marks for the multi-author Ante-Nicene volumes, where the index marks speakers mixed or unknown. Neither is a seed fix.
+
+Status: OPEN. Owner: Library thread, through the coordination thread.
