@@ -252,3 +252,15 @@ def test_the_rewrite_instruction_allows_the_worlds_voice_and_keeps_the_pronoun_r
 
 def test_the_rewrite_instruction_keeps_every_record_id_a_sentence_lists():
     assert "Keep every record id a kept sentence lists" in ac.REWRITE_SYSTEM
+
+
+def test_the_whole_answer_verdict_is_read_from_the_same_reply_and_changes_nothing_that_ships(records):
+    answer = _answer()
+    sentences = [{"n": 1, "supported": True, "problem": None, "reason": ""}]
+    with_verdict = json.dumps({"sentences": sentences, "placed": [], "answers": {"verdict": "partly", "reason": "nearby question", "addressed": "the first days"}})
+    parsed = ac.parse_check(with_verdict, answer, records)
+    assert parsed["answers"] == {"verdict": "partly", "reason": "nearby question", "addressed": "the first days"}
+    assert ac.outcome(answer, parsed, records) == ac.outcome(answer, ac.parse_check(_reply(sentences), answer, records), records)
+    assert ac.parse_check(_reply(sentences), answer, records)["answers"] is None
+    assert ac.answers_from({"verdict": "maybe"}) is None and ac.answers_from("yes") is None
+    assert '"answers"' in ac.check_request("Q?", answer, records, {})["system"]

@@ -89,9 +89,20 @@ def test_the_lpc_sidecar_only_names_records_the_world_holds():
     root = Path(__file__).resolve().parents[3]
     sidecar = yaml.safe_load((root / "Build/worlds/lpc/build/lpc_Answers_Sidecar.yaml").read_text(encoding="utf-8"))
     entries = sidecar["subquestions"]
-    parents = {k: e for k, e in entries.items() if "parent" not in e}
-    splits = {k: e for k, e in entries.items() if "parent" in e}
+    parents = {k for k, e in entries.items() if "parent" not in e}
     assert len(parents) == 130
-    assert all(set(e) == {"cluster", "label", "records"} for e in parents.values())
-    assert all(set(e) == {"cluster", "label", "records", "parent"} and e["parent"] in parents for e in splits.values())
+    assert all(set(e) == {"cluster", "label", "records"} for k, e in entries.items() if k in parents)
+    assert all(set(e) == {"cluster", "label", "parent", "records"} and e["parent"] in parents for k, e in entries.items() if k not in parents)
     assert sr.SUB_QUESTION_ID.fullmatch(next(iter(sidecar["subquestions"])))
+
+
+def test_a_split_id_is_a_catalogue_id_and_a_split_with_nothing_of_its_own_takes_its_parent():
+    sidecar = {"world": "fix", "subquestions": {"C1.S1": {"cluster": "C1", "label": "a", "records": ["fix.term.baptisma"]}, "C1.S1a": {"cluster": "C1", "label": "b", "records": []}}}
+    assert sr.parse_sub_question({"sub_question": "C1.S1a"}, sidecar) == "C1.S1a"
+    assert sr.parent_of("C1.S1a") == "C1.S1" and sr.parent_of("C1.S1") is None
+    assert sr.resolve("C1.S1a", {"C1.S1"}) == "C1.S1" and sr.resolve("C1.S1a", {"C1.S1", "C1.S1a"}) == "C1.S1a"
+    assert sr.resolve("C1.S2a", {"C1.S1"}) is None and sr.resolve(None, {"C1.S1"}) is None
+
+
+def test_the_offer_of_a_split_with_no_records_is_its_parents():
+    assert _offer("C1.S1a") == _offer("C1.S1")

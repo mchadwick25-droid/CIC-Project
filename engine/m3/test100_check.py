@@ -107,7 +107,7 @@ def import_read(rows: list, work: Path, records: dict) -> dict:
         failed = bool(result["unsupported"] or result["dropped"])
         left = ac.survivors(units, result)
         status = "clean" if not failed else ("rewrite" if ac.words(left) >= ac.SURVIVE_MIN_WORDS else "too_little")
-        out.append({"question_id": qid, "status": status, "units": units, "unsupported": {str(i): j for i, j in result["unsupported"].items()}, "dropped": result["dropped"]})
+        out.append({"question_id": qid, "status": status, "units": units, "unsupported": {str(i): j for i, j in result["unsupported"].items()}, "dropped": result["dropped"], "answers": parsed["answers"]})
         if status == "rewrite":
             _write_prompt(work, "rewrite", qid, ac.rewrite_request(question_text(question), units, {"unsupported": result["unsupported"], "dropped": result["dropped"]}, records))
             counts["to_rewrite"] += 1
@@ -208,9 +208,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--world", required=True)
     parser.add_argument("--connectives", type=Path)
+    parser.add_argument("--passage-offer", type=Path, help="the passage offer file the run was made with; its passages are records the sentences may bind to")
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     records = load_world_records(args.world)
+    if args.passage_offer:
+        from engine.m4 import passage_offer
+        records = {**records, **passage_offer.all_records(passage_offer.load_offer(args.passage_offer))}
     rows = _answers(load_set(args.question_set), work)
     connectives = bound_draft.connective_set(yaml.safe_load(args.connectives.read_text(encoding="utf-8")) if args.connectives else [])
     result = {
