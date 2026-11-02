@@ -15,7 +15,8 @@ header:
     edition year and work date are the lpc corpus-map row values, or unresolved where the passage's bound rows disagree. Phase
     2 seeds are found by a free keyword search of the index (no model call), terms only from the sub-question label and wordings;
     the same two checks apply. Phase 2 seeds are found by a free keyword search of the index (no model call), terms only from
-    the sub-question label and wordings; the same two checks apply
+    the sub-question label and wordings; the same two checks apply. Phase 2 seeds are found by a free keyword search of the
+    index (no model call), terms only from the sub-question label and wordings; the same two checks apply
   checks: '1) code: the cited line lies in the passage (or is a division-heading line resolved to the division first passage),
     at least 0.60 of the map snippet words occur there, and the passage text occurs in order in the vendored file bytes; 2)
     a Sonnet reader judged fit and speaker; an Opus reader judged every voiceable seed and a random sample of the rest (seed
@@ -27,7 +28,7 @@ header:
     seeds: 119
     voiceable: 32
     etic: 87
-    dropped_entries: 132
+    dropped_entries: 177
     over_cap: 0
   phase_2_batches:
   - batch: p2a
@@ -88,8 +89,34 @@ header:
     empty:
     - C12.S6
     - C1.S6
+  - batch: p2c
+    sub_questions:
+    - C5.S1a
+    - C5.S1b
+    - C5.S2b
+    - C5.S2c
+    - C5.S2d
+    - C5.S3a
+    - C5.S3b
+    - C5.S3d
+    - C5.S6b
+    - C5.S7b
+    seeded:
+    - C5.S1a
+    - C5.S2b
+    - C5.S2c
+    - C5.S2d
+    - C5.S3b
+    - C5.S3d
+    - C5.S7b
+    empty:
+    - C5.S1b
+    - C5.S3a
+    - C5.S6b
   fields_added: work and author are the corpus-map row values (author is the row slug as printed there), set only where the
     row bound to the passage division is unambiguous; translator, edition_date and work_date use the same narrowed row
+  splits: split entries (a parent id plus a letter, with `parent` and `members`) are listed after the 130 parents; the parents
+    are unchanged; counts above are over the 130 parents only; a split with no seeds is empty and the parent is the fallback
 subquestions:
   C1.S1:
     label: Who Jesus was to them; the good news; what he taught
@@ -7865,6 +7892,1436 @@ subquestions:
   C17.S7:
     label: Are you going to convert me; should I trust you more than my pastor (Facilitator ground)
     seeds: []
+  C5.S1a:
+    label: Which books counted as scripture, the Apocrypha, and books they disputed
+    parent: C5.S1
+    members:
+    - C5-02
+    - C5-16
+    - C5-30
+    seeds:
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.iv/line57153#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvii.iv/line57153
+      byte_start: 2955772
+      byte_end: 2957363
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is unclear'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Gives a list of sacred books, with Maccabees (three) counted and Sirach only recommended for teaching
+        the young, and adds Clement's epistles and Constitutions to the New Testament.
+      limits: Does not name Tobit or Wisdom; Judith appears only in some texts; Revelation is absent from the list; the opening
+        Canon 84 is unrelated.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -26.195
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: direct
+          who_speaks: unclear
+        reader2_opus:
+          fit:
+            C5.S1a: direct
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Pseudo-apostolic canon speaking as 'me Clemens'; bracketed editorial note on Judith; opens with unrelated
+        Canon 84; Revelation not listed.
+      rank: 1
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.ix#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvii.ix
+      byte_start: 2974916
+      byte_end: 2978576
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9535
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Lists the canonical Old Testament books (22, Baruch with Jeremiah), a second list of books read to
+        new learners (Wisdom, Sirach, Esther, Judith, Tobit, Didache, Pastor), and bans heretical apocrypha.
+      limits: Esther is not in the canon list but in the second list; Maccabees is not named; the New Testament list is not
+        given, only summarised; this is an editor's epitome, not Athanasius's own wording.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -43.477
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C5.S1a: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Passage is a paraphrase by the editor with bracketed insertions; begins with a heading. | Editor Percival's
+        own epitome of Athanasius's 39th Festal Letter, with bracketed editorial insertions and heading; NT list only summarised;
+        cannot be voiced as Athanasius's words.
+      rank: 2
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xv.iv.iv.xxv#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xv.iv.iv.xxv
+      byte_start: 2274259
+      byte_end: 2277871
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is unclear'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.8817
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: A Carthage canon lists the books to be read in church as divine Scripture, including Tobit, Judith,
+        Esther and two Maccabees (an editor's note says Maccabees appear in only one copy); nothing else is read so.
+      limits: Does not mention Wisdom or Sirach in its list; editor's note says the Maccabees are found only in one copy of
+        the canon, so the list is not uniformly attested.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -29.524
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: direct
+          who_speaks: unclear
+        reader2_opus:
+          fit:
+            C5.S1a: direct
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Council canon (no single author) followed by editors' notes; gloss dropped 'in church' and the note that
+        Maccabees are in only one copy.
+      rank: 3
+    - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xiii/line5585#01
+      file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+      division_locus: iv.ix.xiii/line5585
+      byte_start: 901444
+      byte_end: 903904
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9958
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 9 rows disagree'
+      fit: partial
+      says_and_applies: Augustine says a clear line divides all post-apostolic writings from the canonical books of both Testaments,
+        whose authority came from the apostles through the bishops' successions and the Church's spread.
+      limits: Names no books and does not mention the Apocrypha or any disputed book.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -23.56
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S1a: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Names no books; about scripture's authority more than which books; gloss added 'apostolic succession' framing.
+      rank: 4
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XV.23#05
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XV.23
+      byte_start: 1874031
+      byte_end: 1876178
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Explains why writings under an ancient name were kept out of the canon, and says heretical forgeries
+        under apostles' names were set aside as Apocrypha.
+      limits: Does not list the canonical books or discuss Maccabees, Tobit or Wisdom; the writer is not named in the passage;
+        the main subject is giants.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -25.49
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S1a: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opens on 'these writings'/'his' without naming Enoch (named just before the span); second half is about
+        giants.
+      rank: 5
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:viii.vii.iii.lxiv#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: viii.vii.iii.lxiv
+      byte_start: 894334
+      byte_end: 896285
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is unclear'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9307
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Says only canonical books of both Testaments may be read in church, forbidding uncanonical books.
+      limits: Gives no list of canonical books; mentions no Apocrypha or disputed book; notes are about hymns and psalms.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -23.115
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: partial
+          who_speaks: unclear
+        reader2_opus:
+          fit:
+            C5.S1a: partial
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: One-sentence Laodicean canon, no list; the rest is editors' notes on hymns.
+      rank: 6
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:v.i#03
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: v.i
+      byte_start: 1527184
+      byte_end: 1529659
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.8886
+      translator: null
+      edition_date: null
+      work_date:
+        checked: acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum
+          (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is
+          the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows
+          28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing; Source_Registry row 28
+          (180 CE) is also the event year; anf09 div2 14.3 gives the consuls of the trial, not a date of writing
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: A modern editor shows the Revelation of Peter listed among the Apocrypha in one list and among disputed
+        books in another, and infers it was once popular but ultimately rejected.
+      limits: Concerns a single New Testament book only; not about Maccabees, Tobit or Wisdom; late lists (Nicephorus, Mkhitan)
+        are medieval, not early church voice.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - books
+        - counted
+        - scripture
+        - apocrypha
+        - disputed
+        - writings
+        - treat
+        - bible
+        - same
+        - ours
+        - maccabees
+        - tobit
+        - wisdom
+        - fought
+        bm25: -26.461
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S1a: partial
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C5.S1a: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Starts mid-text at a numbered footnote (8). | Modern editor's introduction starting mid-list (items 8-10);
+        cites medieval lists; not an early Christian voice.
+      rank: 7
+  C5.S1b:
+    label: Who decided what went in the Bible, and was it a vote
+    parent: C5.S1
+    members:
+    - C5-27
+    seeds: []
+  C5.S1c:
+    label: Gospels that did not make it in, and whether they were suppressed
+    parent: C5.S1
+    members:
+    - C5-04
+    seeds:
+    - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.iv.x#01
+      file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+      division_locus: vi.iv.x
+      byte_start: 595227
+      byte_end: 596660
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9874
+      translator:
+        formation_confidence: Documented
+        name: Rev. S. D. F. Salmond, D.D. (edited, with notes, by Rev. M. B. Riddle, D.D.)
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 561: Translated by the Rev. S. D. F. Salmond,
+          D.D. Edited, with Notes, by the Rev. M. B. Riddle, D.D.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.'
+        year: 1887
+      work_date:
+        end: 400
+        formation_confidence: Widely Accepted
+        source: 'NPNF 1 Prolegomena ''The Writings of St. Augustin'' (npnf101_augustine-confessions-letters.xml, id iv.4,
+          Schaff''s list of Augustine''s works): Harmony of the Gospels (400)'
+        start: 400
+      fit: partial
+      says_and_applies: Augustine says it is quite possible that enemies of Christ, or magicians seeking authority, wrote
+        books under the names of Christ and the apostles; he calls the claim laughable. Bears on forged authorship only.
+      limits: It does not address the reliability or errors of the canonical Bible.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reliability
+        - errors
+        - authorship
+        - science
+        - disproves
+        - believe
+        - bible
+        - translation
+        - know
+        - mistakes
+        - moses
+        - wrote
+        - first
+        - five
+        - books
+        - paul
+        - letters
+        - reliable
+        - even
+        - check
+        - doesn
+        - disprove
+        - most
+        bm25: -32.529
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S3: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S3: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Gloss dropped the 'quite possible' hedge.
+      rank: 1
+      work: The Harmony of the Gospels (De consensu evangelistarum)
+      author: augustine
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+  C5.S1d:
+    label: Whether the Bible was the only authority
+    parent: C5.S1
+    members:
+    - C5-07
+    seeds:
+    - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:v.iv.iv.iii#01
+      file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+      division_locus: v.iv.iv.iii
+      byte_start: 2329756
+      byte_end: 2331738
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator:
+        formation_confidence: Documented
+        name: Rev. J. R. King, M.A. (revision with additional annotations by Rev. Chester D. Hartranft, D.D.)
+        source: 'npnf104_augustine-anti-manichaean-anti-donatist.xml line 10775: translated by the rev. j. r. king, m.a.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf104_augustine-anti-manichaean-anti-donatist.xml line 565: New York, June, 1887.'
+        year: 1887
+      work_date:
+        end: 400
+        formation_confidence: Widely Accepted
+        source: 'npnf104_augustine-anti-manichaean-anti-donatist.xml div2 5.4 heading: circa a.d. 400; P1 gives 400; Source_Registry
+          row 13 gives c. 400'
+        start: 400
+      fit: partial
+      says_and_applies: Scripture's canon, Old and New Testament, is fixed and beyond doubt, above all later bishops' letters;
+        those letters can be corrected by councils, and even plenary councils by later ones.
+      limits: It does not list the books, mention the Apocrypha, or say who decided the canon.
+      origin:
+      - map_cluster: C5
+        line: 11301
+        snippet_verbatim_checked: 'Augustine On Baptism II.3.4: the canon confined within its limits'
+        snippet_overlap: 0.67
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C5.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Gloss says Scripture stands above councils; the text implies it but states only that it stands above bishops'
+        letters.
+      rank: 1
+      work: On Baptism, Against the Donatists
+      author: augustine
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+  C5.S1e:
+    label: What their teaching rested on, and what it stressed
+    parent: C5.S1
+    members:
+    - C5-31
+    seeds: []
+  C5.S2a:
+    label: How they read scripture and what they looked for
+    parent: C5.S2
+    members:
+    - C5-01
+    seeds: []
+  C5.S2b:
+    label: Reading literally, and one verse meaning more than one thing
+    parent: C5.S2
+    members:
+    - C5-12
+    - C5-26
+    seeds:
+    - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.xxv#05
+      file: npnf107_augustine-homilies-john-soliloquies.xml
+      division_locus: iii.xxv
+      byte_start: 906102
+      byte_end: 909011
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: direct
+      says_and_applies: 'Shows him reading one event as both a real deed and a sign with several layered meanings: ''nothing
+        is without meaning; everything is significant''.'
+      limits: Applies to this miracle; does not state a general rule, and does not deny the event happened.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reading
+        - literally
+        - verse
+        - meaning
+        - more
+        - thing
+        - take
+        - bible
+        - think
+        - could
+        - mean
+        bm25: -20.141
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2b: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2b: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opening sentence depends on earlier discussion of the barley and Philip's testing; not misleading but opaque
+        out of context.
+      rank: 1
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:v.vi.xxix#02
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: v.vi.xxix
+      byte_start: 3522843
+      byte_end: 3524611
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9766
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: 'States his rule: if the literal sense is absurd, look for a figurative sense.'
+      limits: Gives a test for absurd literal readings; does not say every verse has more than one meaning.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reading
+        - literally
+        - verse
+        - meaning
+        - more
+        - thing
+        - take
+        - bible
+        - think
+        - could
+        - mean
+        bm25: -19.941
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2b: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2b: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 2
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LV/line29478#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.LV/line29478
+      byte_start: 2214141
+      byte_end: 2217165
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9739
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: direct
+      says_and_applies: Says the Decalogue is to be taken literally except the Sabbath commandment, which he reads as a figure
+        of spiritual rest.
+      limits: About the Ten Commandments only; does not claim the same split for all Scripture, though he adds that things
+        figuratively set forth in Scripture stir love for rest.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reading
+        - literally
+        - verse
+        - meaning
+        - more
+        - thing
+        - take
+        - bible
+        - think
+        - could
+        - mean
+        bm25: -20.377
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2b: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2b: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Begins with heading 'Chap. XII.'; contains a harsh line on Jewish Sabbath observance that needs care if
+        voiced.
+      rank: 3
+  C5.S2c:
+    label: The Old Testament read as about Jesus
+    parent: C5.S2
+    members:
+    - C5-25
+    seeds:
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:vi.iii.x#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: vi.iii.x
+      byte_start: 4773081
+      byte_end: 4776981
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: direct
+      says_and_applies: It says Jesus was promised in the Old Testament and lists specific Genesis, Moses and Isaiah passages
+        it takes to speak of Him.
+      limits: It states a reading and lists texts; it does not explain method beyond promise-and-fulfilment, and does not
+        discuss other readings.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - testament
+        - read
+        - jesus
+        - being
+        bm25: -14.788
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2c: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2c: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opens with the chapter 'Argument' heading, which should be stripped before voicing.
+      rank: 1
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XX.4#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XX.4
+      byte_start: 2630573
+      byte_end: 2632501
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: The Old Testament is herald and witness to the New and to the righteousness of God through faith of
+        Jesus Christ. It states the relation in general terms.
+      limits: It gives no example of an Old Testament text read as about Jesus; its purpose is ordering proofs of the last
+        judgment.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - testament
+        - read
+        - jesus
+        - being
+        bm25: -15.13
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2c: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2c: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opens with chapter heading; purpose is ordering proofs of the last judgment; gives no example of an OT
+        text read as about Christ.
+      rank: 2
+  C5.S2d:
+    label: Reading the Hebrew scriptures with or against the Jews
+    parent: C5.S2
+    members:
+    - C5-29
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXI#03
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.LXXI
+      byte_start: 2338464
+      byte_end: 2341115
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9918
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Augustine says Jews, if consulted on the Hebrew text's meaning, may give a different opinion from
+        Jerome; the Oea Jews supported the Greek version, 'whether from ignorance or from spite'.
+      limits: It concerns the dispute over translating the text and the Jews as witnesses to Hebrew wording, not how he interprets
+        the scriptures against or with Jews.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reading
+        - hebrew
+        - scriptures
+        - against
+        - jews
+        - read
+        bm25: -22.355
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2d: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2d: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: About translation and Jews as witnesses to Hebrew wording, not interpretive method; contains editorial
+        chapter marker 'Chap. III. 5.'
+      rank: 1
+    - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xv/line5999#01
+      file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+      division_locus: iv.ix.xv/line5999
+      byte_start: 1032524
+      byte_end: 1034989
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9895
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 9 rows disagree'
+      fit: partial
+      says_and_applies: Augustine reads Hebrew prophecy as foretelling Christ as God, and calls the Jews addressed by Christ
+        'carnal'. It shows his reading and how he characterises Jews.
+      limits: It does not describe how Jews themselves read these texts; it argues against Faustus, a Manichaean.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reading
+        - hebrew
+        - scriptures
+        - against
+        - jews
+        - read
+        bm25: -21.534
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2d: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S2d: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Argument aimed at Faustus; the 'carnal Jews' reading of David's son is the only contrast with a Jewish
+        reading; Faustus phrase is clearly attributed.
+      rank: 2
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXV/line32917#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.LXXV/line32917
+      byte_start: 2439392
+      byte_end: 2440329
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Jerome says his Latin version of the corrected Greek text brings out what the Jews omitted or tampered
+        with, so Latin readers know what the original Hebrew has; no one must read it.
+      limits: It does not say how Jews interpret the scriptures or how he read them against or with Jews; the claim concerns
+        text transmission.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reading
+        - hebrew
+        - scriptures
+        - against
+        - jews
+        - read
+        bm25: -26.615
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S2d: partial
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C5.S2d: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Speaker is Jerome writing to Augustine, not the volume's author; gloss wrongly said the tampering was in
+        the Hebrew and that he translated from the Hebrew.
+      rank: 3
+  C5.S2e:
+    label: What a modern reader misses or misreads
+    parent: C5.S2
+    members:
+    - C5-05
+    - C5-11
+    seeds: []
+  C5.S2f:
+    label: Their favourite Bible story
+    parent: C5.S2
+    members:
+    - C5-28
+    seeds: []
+  C5.S3a:
+    label: Whether the Bible had errors, and how reliable it is
+    parent: C5.S3
+    members:
+    - C5-13
+    - R-27
+    seeds: []
+  C5.S3b:
+    label: Which translation they used, and its mistakes
+    parent: C5.S3
+    members:
+    - C5-17
+    seeds:
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XVIII.43#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XVIII.43
+      byte_start: 2408675
+      byte_end: 2411027
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Names the Septuagint and its Latin version as the church's text, notes Jerome's Hebrew-based version
+        and the Jewish claim that the Septuagint erred, and says he prefers the Septuagint.
+      limits: It does not say he himself found errors in the Septuagint; he rejects the Jewish claim.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - translation
+        - used
+        - mistakes
+        - know
+        bm25: -13.447
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S3b: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S3b: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 1
+    - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:iv/line833#01
+      file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+      division_locus: iv/line833
+      byte_start: 18933
+      byte_end: 20958
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9566
+      translator: 'unresolved: 3 rows disagree'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.'
+        year: 1887
+      work_date: 'unresolved: 3 rows disagree'
+      fit: direct
+      says_and_applies: 'Says Augustine used the Septuagint with its errors, pre-Vulgate Latin for the New Testament, Greek
+        as final authority, and opposed the Vulgate. Whether he knew of mistakes: he took no offence at them, says the editor.'
+      limits: These are the modern editor's judgments, not Augustine's words; 'took no offence' does not say Augustine called
+        them mistakes.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - translation
+        - used
+        - mistakes
+        - know
+        bm25: -19.58
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S3b: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C5.S3b: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Modern editor's introductory essay, not Augustine; usable only as outside description.
+      rank: 2
+  C5.S3c:
+    label: 'Who wrote the books: Moses and the first five, Paul and his letters'
+    parent: C5.S3
+    members:
+    - C5-24
+    seeds:
+    - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.lxxvii/line11783#01
+      file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+      division_locus: vii.lxxvii/line11783
+      byte_start: 3512381
+      byte_end: 3514892
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9925
+      translator:
+        formation_confidence: Documented
+        name: Rev. R. G. MacMullen (edited by Dr. Schaff)
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 582: Translated by the Rev. R. G. MacMullen.
+          Edited by Dr. Schaff.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.'
+        year: 1887
+      work_date:
+        checked: 'Augustine sermon collection with no single composition window: P1 lists the sermons without a date, the
+          volume header (cic/texts) gives none, and no lpc record states one'
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: He says Moses wrote five books; his main point is allegory, not whether the Bible has errors.
+      limits: It does not discuss errors, translations or science; the Moses claim is stated, not argued.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - reliability
+        - errors
+        - authorship
+        - science
+        - disproves
+        - believe
+        - bible
+        - translation
+        - know
+        - mistakes
+        - moses
+        - wrote
+        - first
+        - five
+        - books
+        - paul
+        - letters
+        - reliable
+        - even
+        - check
+        - doesn
+        - disprove
+        - most
+        bm25: -36.611
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S3: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S3: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Cut off mid-sentence at the end. | 'Moses... wrote five books' is a passing premise in an allegory, not
+        a treatment of authorship or reliability; passage ends mid-sentence ('by the transgression') and must be trimmed.
+      rank: 1
+      work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
+      author: augustine
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+  C5.S3d:
+    label: Whether science disproves the Bible
+    parent: C5.S3
+    members:
+    - R-28
+    seeds:
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XVIII.40#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XVIII.40
+      byte_start: 2395560
+      byte_end: 2397367
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: 'Bears on how Augustine treats a secular claim that conflicts with Scripture: he rejects it on divine
+        authority. It is about the age of Egypt and the world, not science generally.'
+      limits: It does not say science as a whole fits Scripture or that Scripture was tested against evidence; it rests on
+        authority and on historians disagreeing.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - whether
+        - science
+        - disproves
+        - bible
+        - doesn
+        - disprove
+        - most
+        bm25: -14.251
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S3d: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S3d: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Concerns Egyptian astronomical chronology versus biblical history, not science generally; rests on divine
+        authority.
+      rank: 1
+  C5.S6a:
+    label: How someone who could not read received the scriptures
+    parent: C5.S6
+    members:
+    - C5-03
+    seeds: []
+  C5.S6b:
+    label: Whether ordinary people could own or read a Bible, and in what language
+    parent: C5.S6
+    members:
+    - C5-15
+    seeds: []
+  C5.S7a:
+    label: Whether the violence in the texts troubled them
+    parent: C5.S7
+    members:
+    - C5-06
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.III.VII#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vi.III.VII
+      byte_start: 359606
+      byte_end: 362927
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9932
+      translator:
+        formation_confidence: Documented
+        name: J. G. Pilkington, M.A.
+        source: 'npnf101_augustine-confessions-letters.xml line 3333: Translated and Annotated by J.G. Pilkington, M.A.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf101_augustine-confessions-letters.xml line 725: New York, October, 1886.'
+        year: 1886
+      work_date:
+        end: 397
+        formation_confidence: Widely Accepted
+        source: 'NPNF 1 Prolegomena ''The Writings of St. Augustin'' (npnf101_augustine-confessions-letters.xml, id iv.4,
+          Schaff''s list of Augustine''s works): composed about the year 397'
+        start: 397
+      fit: partial
+      says_and_applies: Reports that Manichaean objections about patriarchs who killed men and sacrificed living creatures
+        troubled him; bears only on the part of the question about whether violence in the texts disturbed people.
+      limits: It gives no answer to the objection here, and says nothing about cursing psalms or Psalm 137.
+      origin:
+      - map_cluster: C5
+        line: 5895
+        snippet_verbatim_checked: Confessions III.7.12, "much disturbed"
+        snippet_overlap: 0.67
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C5.S7: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+      work: The Confessions
+      author: augustine
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+  C5.S7b:
+    label: 'Psalm 137: dashing the little ones against the rock'
+    parent: C5.S7
+    members:
+    - C5-21
+    seeds:
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXXVII#06
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.CXXXVII
+      byte_start: 5009997
+      byte_end: 5012298
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9959
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: direct
+      says_and_applies: He reads Babylon's little ones as evil desires at their birth, to be dashed while still small against
+        the Rock, which is Christ; he urges hearers to sing songs of Sion.
+      limits: It does not say whether the Psalm was sung literally, or discuss the verse's original sense.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - psalm
+        - dashing
+        - little
+        - ones
+        - against
+        - rock
+        - babies
+        - rocks
+        - sing
+        bm25: -37.209
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S7b: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S7b: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Gloss adds 'not children', which the passage does not state.
+      rank: 1
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXXVII#05
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.CXXXVII
+      byte_start: 5007270
+      byte_end: 5009996
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.963
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: 'Bears on how Augustine understands the repayment: Babylon harmed infants by teaching them error.
+        The passage stops before his interpretation of dashing.'
+      limits: It does not yet say what 'dashing' means; that is not in this passage.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - psalm
+        - dashing
+        - little
+        - ones
+        - against
+        - rock
+        - babies
+        - rocks
+        - sing
+        bm25: -21.86
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C5.S7b: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S7b: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Cut off before his reading of the dashing; voiced alone, the talk of infants could mislead toward a literal
+        sense; contains editorial ellipses and reported persecutors' words.
+      rank: 2
 dropped:
 - sub_question: C3.S1
   file: npnf102_augustine-city-of-god-christian-doctrine.xml
@@ -8333,4 +9790,139 @@ dropped:
   reason: 'search hit; reader check: the passage does not bear on this sub-question'
 - sub_question: C5.S3
   passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XVIII.39#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S1a
+  passage_id: cic:npnf214_seven-ecumenical-councils.xml:ix.iv/line18075#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S1b
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xix.iv.xii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S1b
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:v.ii.ii/line1160#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S1b
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iii.iii.iv.iv#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S1b
+  passage_id: cic:npnf214_seven-ecumenical-councils.xml:xv.iv.iv.lxxix#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2b
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:v.IV_1.5#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2b
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXIX.ix#04
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2c
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxiv/line7479#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2c
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xviii.iii.xxxix#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2c
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxxiv/line8670#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2c
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxxiv/line8664#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2c
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.xl/line9466#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2c
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.x#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2d
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXV/line32285#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2d
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXV/line32954#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2d
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LXIII/line7392#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S2d
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXXII/line15683#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xxi.ii.xviii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xi.lvii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.v/line44282#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXVIII/line43094#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.VIII.X#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3d
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.VIII.X#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.ix.xiii#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf214_seven-ecumenical-councils.xml:xv.iv.iv.lxxiii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3a
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xi.lx#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3b
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.ii.xviii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3b
+  passage_id: cic:npnf214_seven-ecumenical-councils.xml:viii.vii.iii.xxxvii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3d
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xv.i/line21582#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3d
+  passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:v.iv/line12947#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3d
+  passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:v.iv/line12966#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3d
+  passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:v.iv/line13075#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S3d
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xvi/line6173#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S6b
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXV/line32216#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S6b
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.xli/line9606#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S6b
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.IX.5#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S6b
+  passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.xi/line2075#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S6b
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.III#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S6b
+  passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.viii/line1786#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S7b
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CIV/line12588#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S7b
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXIX#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S7b
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.iv.xxviii#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S7b
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.li/line10276#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S7b
+  passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line659#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C5.S7b
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.XXVII#03
   reason: 'search hit; reader check: the passage does not bear on this sub-question'
