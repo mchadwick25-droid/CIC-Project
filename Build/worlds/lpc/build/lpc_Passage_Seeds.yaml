@@ -1,6 +1,6 @@
 header:
   world: lpc
-  phase: 1
+  phase: 2
   index_version: b7511f922475e5a09342378cfe4ed96fb690a1bfe901eca38c5144d0854b7e0e
   index_note: passages rebuilt from cic/texts by Sandbox/answering-library (answering_library.run, then index.cli build-index
     --world lpc); passage_id and byte spans resolve in that index
@@ -12,20 +12,43 @@ header:
   order: 'rank orders seeds within a sub-question: direct before partial, voiceable before etic, own before opponent before
     outside, higher OCR first. At most 10 per sub-question.'
   source: Question-Coverage coverage maps (lpc cells with a file and line), mapped to the index by byte offset; translator,
-    edition year and work date are the lpc corpus-map row values, or unresolved where the passage's bound rows disagree
+    edition year and work date are the lpc corpus-map row values, or unresolved where the passage's bound rows disagree. Phase
+    2 seeds are found by a free keyword search of the index (no model call), terms only from the sub-question label and wordings;
+    the same two checks apply
   checks: '1) code: the cited line lies in the passage (or is a division-heading line resolved to the division first passage),
     at least 0.60 of the map snippet words occur there, and the passage text occurs in order in the vendored file bytes; 2)
     a Sonnet reader judged fit and speaker; an Opus reader judged every voiceable seed and a random sample of the rest (seed
     20261102). A seed failing either check is dropped, not repaired.'
   counts:
     sub_questions: 130
-    sub_questions_with_seeds: 23
-    sub_questions_empty: 107
-    seeds: 33
-    voiceable: 9
-    etic: 24
-    dropped_entries: 30
+    sub_questions_with_seeds: 30
+    sub_questions_empty: 100
+    seeds: 71
+    voiceable: 16
+    etic: 55
+    dropped_entries: 55
     over_cap: 0
+  phase_2_batches:
+  - batch: p2a
+    sub_questions:
+    - C10.S5
+    - C10.S1
+    - C13.S5
+    - C13.S1
+    - C11.S5
+    - C6.S6
+    - C4.S6
+    - C2.S8
+    seeded:
+    - C10.S5
+    - C10.S1
+    - C13.S5
+    - C13.S1
+    - C6.S6
+    - C4.S6
+    - C2.S8
+    empty:
+    - C11.S5
 subquestions:
   C1.S1:
     label: Who Jesus was to them; the good news; what he taught
@@ -211,7 +234,167 @@ subquestions:
       rank: 1
   C2.S8:
     label: Pictures and images of God
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xiv.iii.lxxxiii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xiv.iii.lxxxiii
+      byte_start: 2032387
+      byte_end: 2034479
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9895
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: 'Direct on depicting Christ our God: the canon orders it in painted images.'
+      limits: About Christ in human form, not God the Father; does not mention carving.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - pictures
+        - images
+        - picture
+        - draw
+        - carve
+        bm25: -15.952
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C2.S8: direct
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.viii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvi.viii
+      byte_start: 2674988
+      byte_end: 2677913
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9715
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Defends images of the incarnate Christ.
+      limits: Does not speak of picturing God the Father; no discussion of carving. Quoted fathers are reported.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - pictures
+        - images
+        - picture
+        - draw
+        - carve
+        bm25: -15.806
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C2.S8: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 2
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.x/line52355#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvi.x/line52355
+      byte_start: 2704156
+      byte_end: 2705353
+      language: eng
+      role: opponent
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is opponent'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: 'Bears on depicting God the Word (Christ): this council condemned it.'
+      limits: This is a council later rejected as a mock synod; not the orthodox position. Conditional anathemas, trailing
+        off with 'etc.'; says nothing on carving.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - pictures
+        - images
+        - picture
+        - draw
+        - carve
+        bm25: -23.891
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C2.S8: partial
+          who_speaks: opponent
+        reader2_opus:
+          fit:
+            C2.S8: partial
+          who_speaks: opponent
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Clauses are cut with 'etc.'; epitome only. | Iconoclast 754 definition, later rejected; clauses truncated
+        with 'etc.'.
+      rank: 3
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xi#03
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvi.xi
+      byte_start: 2712810
+      byte_end: 2715527
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9296
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Background on the image controversy only.
+      limits: Does not say whether anyone pictured or carved God.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - pictures
+        - images
+        - picture
+        - draw
+        - carve
+        bm25: -19.093
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C2.S8: partial
+          who_speaks: outside
+        reader2_opus: null
+      reader_note: Opens and ends mid-sentence.
+      rank: 4
   C3.S1:
     label: Was hell and a last judgment real; how pictured, preached, used
     seeds:
@@ -670,7 +853,52 @@ subquestions:
     seeds: []
   C4.S6:
     label: Those who never heard; good without God
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.lxxxvii#03
+      file: npnf107_augustine-homilies-john-soliloquies.xml
+      division_locus: iii.lxxxvii
+      byte_start: 2127305
+      byte_end: 2130130
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: 'Bears on ''good without God'': says goodness in people does not precede or earn God''s choosing.'
+      limits: Does not discuss people who never heard of Christ or other religions; about election of believers.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - never
+        - heard
+        - good
+        - without
+        - jesus
+        - could
+        - person
+        - another
+        - religion
+        - saved
+        - eyes
+        - someone
+        - think
+        bm25: -24.226
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C4.S6: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
   C4.S7:
     label: Indulgences, almsgiving, paying for sin
     seeds: []
@@ -876,7 +1104,352 @@ subquestions:
     seeds: []
   C6.S6:
     label: Married clergy; deacons and deaconesses
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xiv.iii.iii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xiv.iii.iii
+      byte_start: 1824146
+      byte_end: 1826605
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9889
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: 'Married clergy: rules on clergy marriages, including presbyters, deacons and subdeacons.'
+      limits: Does not say clergy could not marry once; it targets second marriages and marriage to a widow. Says nothing
+        on deaconesses.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -20.481
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: direct
+          who_speaks: own
+        reader2_opus: null
+      reader_note: Text cuts off mid-sentence ('shall be').
+      rank: 1
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.viii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: vii.viii
+      byte_start: 399596
+      byte_end: 401723
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9697
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: 'Married clergy: bears on whether clergy married before ordination could continue marital life; names
+        deacons among those affected.'
+      limits: Not a Nicaea canon; the Acts are not extant and this is a later historians' report ('is said to have failed').
+        Nothing on deaconesses.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -22.797
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C6.S6: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Text ends mid-speech (Paphnutius's argument cut off after 'chaste intercourse.'). | Editor quoting Hefele's
+        report of later historians; Paphnutius episode is a reported, debated account; cut mid-quotation.
+      rank: 2
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xiv.iii.vii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xiv.iii.vii
+      byte_start: 1837195
+      byte_end: 1839733
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9637
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Speaks directly to married clergy and gives rules for deacons and deaconesses who marry. Gives no
+        account of their work.
+      limits: It is a nineteenth-century editor's summary of canon law, not a clergyman's own voice; it does not say what
+        deacons or deaconesses did.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -28.947
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: direct
+          who_speaks: outside
+        reader2_opus: null
+      rank: 3
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxix#03
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: vii.vi.xxix
+      byte_start: 349914
+      byte_end: 352140
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.862
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: 'Deaconesses: their role, how they were set apart, and when the order ended.'
+      limits: Modern-era editor's argument against those who equate it with ordination; says nothing on deacons or on married
+        priests.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -20.527
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: direct
+          who_speaks: outside
+        reader2_opus: null
+      rank: 4
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.xxvi#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvii.xxvi
+      byte_start: 3037566
+      byte_end: 3039388
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9401
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Bears only on a deacon's marriage, a case about marriage before baptism; deacon's marriage is treated
+        as a matter for discipline.
+      limits: Does not say whether priests could marry; does not mention deaconesses or what deacons did.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -23.698
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 5
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xv.iv.iv.xxxii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xv.iv.iv.xxxii
+      byte_start: 2291920
+      byte_end: 2293404
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9814
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: 'Johnson''s note touches married clergy: marriage allowed to inferior clergy, forbidden after priest
+        or deacon orders. Background only.'
+      limits: The canon itself says nothing on marriage; the marriage point is Johnson's reading ('most probable'), not the
+        council's words.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -22.399
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: outside
+        reader2_opus: null
+      rank: 6
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxviii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: vii.vi.xxviii
+      byte_start: 338209
+      byte_end: 341140
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is unclear'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9097
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Shows deaconesses existed among the Paulianists and were not ordained. Bears on the deaconess part
+        only.
+      limits: It concerns deaconesses of a heterodox group, not the Catholic Church's own, and does not say what they did.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -27.299
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: unclear
+        reader2_opus:
+          fit:
+            C6.S6: partial
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Canon plus editor's notes and later commentators in one span; concerns Paulianist deaconesses only.
+      rank: 7
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:viii.v.iv.vi#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: viii.v.iv.vi
+      byte_start: 582455
+      byte_end: 585227
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9006
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: 'Background on married clergy: some sectarians rejected the ministry of married priests.'
+      limits: The canon itself says nothing about marriage; deacons and deaconesses are not discussed. The Eustathian reading
+        is Hefele's.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -22.187
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: outside
+        reader2_opus: null
+      rank: 8
   C6.S7:
     label: The emperor's say in belief
     seeds: []
@@ -1367,7 +1940,568 @@ subquestions:
     seeds: []
   C10.S1:
     label: Was wealth a sin; the rich young man; the camel; prosperity teaching
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LII/line6133#03
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.LII/line6133
+      byte_start: 1622684
+      byte_end: 1624676
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9796
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: direct
+      says_and_applies: Says money in a rich man is not condemned, covetousness is; points to rich Abraham and the poor Lazarus.
+        Speaks directly to whether being rich was a sin and to the camel saying.
+      limits: It does not address whether everyone must give away everything, nor any prosperity teaching. It ends mid-thought
+        with an ellipsis.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -54.263
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opening 'This thought not the Apostles' has its antecedent in the preceding sentence; meaning unaffected.
+      rank: 1
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXX/line44859#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.CXXX/line44859
+      byte_start: 3239371
+      byte_end: 3241536
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: direct
+      says_and_applies: 'Treats the camel saying as overcome by God''s power: rich Zacchaeus entered, and many rich were led
+        to despise riches. Cites the apostle''s charge to the rich to do good and trust in God. Bears on the camel and on
+        wealth.'
+      limits: It does not say being rich is or is not sin in itself. It does not tell the rich to give everything away; the
+        apostle's text asks them to be ready to distribute.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -47.305
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus: null
+      rank: 2
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXI#04
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.CXI
+      byte_start: 4310009
+      byte_end: 4313198
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9912
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: direct
+      says_and_applies: Reads the camel saying as made possible by God, notes many who did not give up all possessions still
+        confessed Christ under suffering. Bears on the camel saying and on whether all must give everything away.
+      limits: It does not call riches a sin. The camel here is a figure for those who endure suffering; the rest of the passage
+        turns to martyrs and heaven.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -47.377
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus: null
+      rank: 3
+    - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.xxxvii#02
+      file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+      division_locus: vii.xxxvii
+      byte_start: 2691102
+      byte_end: 2694005
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9815
+      translator: 'unresolved: 3 rows disagree'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.'
+        year: 1887
+      work_date: 'unresolved: 3 rows disagree'
+      fit: direct
+      says_and_applies: Reads the camel saying as showing real impossibility, not mere difficulty, and does not soften it.
+        Addresses the poor as the larger part of his hearers. Bears on the rich young man and the camel.
+      limits: It does not say here whether wealth itself is a sin; the first half targets someone who plunders. It starts
+        mid-sentence and gives no resolution of the disciples' question.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -51.626
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus: null
+      reader_note: Begins mid-sentence ('Honour thy father...') and 'neigh bour' is split.
+      rank: 4
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.iii.xxix#01
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: iv.iii.xxix
+      byte_start: 839829
+      byte_end: 844591
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9842
+      translator: null
+      edition_date: null
+      work_date:
+        checked: acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum
+          (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is
+          the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows
+          28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing; Source_Registry row 28
+          (180 CE) is also the event year; anf09 div2 14.3 gives the consuls of the trial, not a date of writing
+        formation_confidence: unknown
+      fit: direct
+      says_and_applies: Gives the camel saying and the promise of 'many times as much in this time' to those who leave things
+        for the kingdom, 'with persecution'. Bears on the camel and on the question of reward.
+      limits: The reward is promised to those who left houses and family, together with persecution; it is not stated as riches
+        for the faithful. There is no commentary on it here.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -43.688
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: outside
+        reader2_opus: null
+      rank: 5
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iv.ix#03
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: xvi.ii.iv.ix
+      byte_start: 3282709
+      byte_end: 3286480
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9882
+      translator: null
+      edition_date: null
+      work_date:
+        checked: acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum
+          (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is
+          the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows
+          28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing; Source_Registry row 28
+          (180 CE) is also the event year; anf09 div2 14.3 gives the consuls of the trial, not a date of writing
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Condemns the love of money and misuse of funds meant for the poor. Bears only on the attitude to money;
+        it says nothing about rich people as such, the camel or the rich young man.
+      limits: It does not say that being rich is a sin. The target is love of money and theft from the poor, in Pharisees
+        and church officers.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -35.482
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 6
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LII/line6133#02
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.LII/line6133
+      byte_start: 1620750
+      byte_end: 1622683
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9828
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Retells the camel saying and the command to sell all and give to the poor. Bears on part of the question
+        only; its drift is to dismiss concern for the rich, which the next passage reverses.
+      limits: It is not Augustine's conclusion; the following section says the Apostles did not think this. It does not say
+        wealth is or is not a sin.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -57.093
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 7
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.iii.xxviii#03
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: iv.iii.xxviii
+      byte_start: 831749
+      byte_end: 839572
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9845
+      translator: null
+      edition_date: null
+      work_date:
+        checked: acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum
+          (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is
+          the year of the martyrdom, not of the writing; the Gebhardt (second scan) and Knopf headers, Source_Registry rows
+          28, 41 and 222 and the anf09 and Robinson texts were also read and none dates the writing; Source_Registry row 28
+          (180 CE) is also the event year; anf09 div2 14.3 gives the consuls of the trial, not a date of writing
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Gospel narrative (Diatessaron) of the rich fool and the rich young ruler told to sell all and give
+        to the poor if he would be perfect. Shows the episode, not how Christians applied it.
+      limits: It is Gospel narrative without interpretation. It does not say whether the command applied to everyone. The
+        rich fool parable condemns not being 'rich in God'.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -35.874
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C10.S1: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Scripture text, not an early Christian's answer; it states the command but not whether believers took it
+        as binding, so 'direct' overstates.
+      rank: 8
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -1379,7 +2513,407 @@ subquestions:
     seeds: []
   C10.S5:
     label: Usury and lending
-    seeds: []
+    seeds:
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.xii.iv.l#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.v.xii.iv.l
+      byte_start: 4269558
+      byte_end: 4270998
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: direct
+      says_and_applies: States under its heading that usury must not be taken, supported by three quoted Scripture verses.
+        Speaks directly to lending at interest.
+      limits: It gives no comment, definition or exceptions. The Deuteronomy line is limited to 'thy brother'.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -34.637
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Heading is Cyprian's; body is Scripture he compiles, attributed in-text.
+      rank: 1
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XXXVII.3/line3920#02
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.XXXVII.3/line3920
+      byte_start: 822993
+      byte_end: 825284
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9834
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: direct
+      says_and_applies: Defines taking more than was lent, in any form, as usury and says such a person is censured. Directly
+        bears on lending at interest.
+      limits: Its positive advice, to lend to the Lord through the poor, is about almsgiving. It says nothing here about legal
+        rates or exceptions.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -30.28
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 2
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXIX#03
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.CXXIX
+      byte_start: 4849572
+      byte_end: 4853432
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - 'Opus: Opens mid-sentence (''censure him / not, the Bishop is a good man''), reversing sense; ''He replieth: let not
+        the clergy lend'' is the objector''s retort, misread by first reader as Augustine''s ruling; embedded objector lines.'
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9697
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: direct
+      says_and_applies: Tells hearers 'Lend not money at interest' on Scripture's authority ('He that hath not given his money
+        upon usury'). When an objector retorts that clergy lend too, he answers that a preacher's failings do not void God's
+        word.
+      limits: It does not define usury or discuss lay lenders separately; the clause about clergy is the only group named.
+        The passage starts and ends mid-argument.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -37.931
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: 'Begins mid-sentence and uses ellipses between sections. | Opens mid-sentence (''censure him / not, the
+        Bishop is a good man''), reversing sense; ''He replieth: let not the clergy lend'' is the objector''s retort, misread
+        by first reader as Augustine''s ruling; embedded objector lines.'
+      rank: 3
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxv#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: vii.vi.xxv
+      byte_start: 317433
+      byte_end: 319524
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9313
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Prohibits clergy from taking usury on pain of deposition, citing Scripture. Speaks directly to lending
+        at interest, for clergy.
+      limits: It binds enrolled clergy only; it does not say what applies to laypeople. Van Espen's wider claim is a later
+        canonist's reading, not the canon's text.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -35.213
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: outside
+        reader2_opus: null
+      rank: 4
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxvi#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: vii.vi.xxvi
+      byte_start: 319729
+      byte_end: 322757
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.8894
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Claims that the Church's teachers, popes and councils all treated interest on loans as usury and theft
+        until Calvin. Speaks to the question, but in a later writer's voice.
+      limits: It is a nineteenth-century editor's and canonist's claim, not a patristic statement. The next passage (005)
+        shows he overstates uniformity.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -25.638
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: outside
+        reader2_opus: null
+      rank: 5
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LV/line6395#01
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.LV/line6395
+      byte_start: 1719481
+      byte_end: 1721508
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9944
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Calls usury an evil practised in public and notes moneylending is a taxed profession. Most of the
+        passage turns usury into a figure for unforgiving anger. Bears on lending only in its opening lines.
+      limits: It does not give a rule for the hearer's own lending. The 'worse usury' is about forgiving injuries, not money.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -33.206
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 6
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XXXVII.3/line3920#03
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.XXXVII.3/line3920
+      byte_start: 825285
+      byte_end: 828876
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9879
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Calls the lender a 'covetous usurer' and redirects lending toward the poor, to be repaid in heaven.
+        Bears on lending only indirectly; it does not state a rule about interest.
+      limits: The 'usury' it recommends is a figure for giving to the poor, not a permission to charge interest. It does not
+        state a ban either.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -35.563
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 7
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxvi#04
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: vii.vi.xxvi
+      byte_start: 328265
+      byte_end: 330883
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.8888
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Reports mixed evidence on whether lending at legal interest was accepted, from Gregory of Nyssa to
+        councils of 813-816. Gives background, not an answer from one author.
+      limits: It is a modern editor's survey; it does not quote Augustine's own view. It is not a ruling that interest was
+        allowed.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -30.592
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: partial
+          who_speaks: outside
+        reader2_opus: null
+      reader_note: Begins mid-sentence (opening reference 'can. 12' lacks its author).
+      rank: 8
   C10.S6:
     label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
     seeds: []
@@ -1652,7 +3186,341 @@ subquestions:
     seeds: []
   C13.S1:
     label: 'The devil: real, personal temptation, used to control, hell monsters'
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XLIX.2/line5629#01
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.XLIX.2/line5629
+      byte_start: 1413717
+      byte_end: 1415213
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Names the devil as the one through whom death comes, set against Christ as life. Background on how
+        he spoke of the devil.
+      limits: Does not say the devil is a personal daily tempter, nor describe hell monsters; "hell" appears only in the psalm
+        quote.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -30.985
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: 'Thin: devil only as the one through whom death comes.'
+      rank: 1
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LXI#02
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.LXI
+      byte_start: 1988028
+      byte_end: 1990386
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Presents the devil as a real tempter of Christ and says believers overcome him in Christ. Bears on
+        temptation in general.
+      limits: Does not say the devil tempted him personally every day, or speak of children, control, or hell monsters.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -30.076
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Editorial ellipsis joins non-adjacent text.
+      rank: 2
+    - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.liii/line7140#01
+      file: npnf107_augustine-homilies-john-soliloquies.xml
+      division_locus: iii.liii/line7140
+      byte_start: 1697950
+      byte_end: 1699352
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Shows the devil as a real tempter of Christ and gives a model for answering temptation. Little else
+        on the question.
+      limits: Does not say the devil tempted Augustine daily, nor mention children, control, or hell monsters.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -28.916
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: '''[of Jesus]'' is an editor''s insertion.'
+      rank: 3
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XCI/line11041#01
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.XCI/line11041
+      byte_start: 3559483
+      byte_end: 3561139
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9877
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Treats the devil as a real tempter who also inflicts troubles, and tells hearers to resist him. Bears
+        on whether the devil was real and personal.
+      limits: Does not say temptation came to Augustine daily, nor address children, control of people, or hell monsters.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -31.989
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Editorial ellipsis joins non-adjacent text.
+      rank: 4
+    - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.v.xvii#01
+      file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+      division_locus: vi.v.xvii
+      byte_start: 866247
+      byte_end: 868719
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml line 608: New York, December, 1887.'
+        year: 1887
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Treats the devil's tempting of Jesus as an event that happened. Only background on whether the devil
+        was real.
+      limits: Does not discuss the devil's role in the believer's own life, teaching children, or hell.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -31.956
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 5
   C13.S2:
     label: Demons, sickness, exorcists, Antony in the tombs
     seeds: []
@@ -1664,7 +3532,246 @@ subquestions:
     seeds: []
   C13.S5:
     label: Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.ix.xx#01
+      file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
+      division_locus: v.ix.xx
+      byte_start: 3275298
+      byte_end: 3277250
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.986
+      translator: 'unresolved: 6 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 16 rows disagree'
+      fit: direct
+      says_and_applies: Martyrs take an interest in the living and help some people, but only by divine power, not by the
+        dead's own nature. Bears on whether dead saints could help.
+      limits: It does not describe praying to saints, relics, graves or holy water, and does not say the dead hear every request.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -29.456
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Addressed to Paulinus ('thou piously lovest'); answers only the 'could the dead help' wording.
+      rank: 1
+    - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.ix.ix#01
+      file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
+      division_locus: v.ix.ix
+      byte_start: 3238265
+      byte_end: 3240303
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9818
+      translator: 'unresolved: 6 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 16 rows disagree'
+      fit: partial
+      says_and_applies: Concerns the fate of martyrs' bones and the wish of persecutors that no memorial remain. Bears only
+        on remains of martyrs; it says nothing here on veneration, prayer or relics.
+      limits: It does not say Christians venerated or kept relics. Its point is that what happens to the body does not harm
+        the martyrs.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -31.396
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 2
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xiii#04
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvi.xiii
+      byte_start: 2735648
+      byte_end: 2738288
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9828
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Explains the later Latin teaching that saints are asked to intercede and relics are overseen by bishops.
+        Bears on prayer to saints and relics, but as 1560s doctrine.
+      limits: It is not early Christian evidence. It does not say what believers did at tombs or with holy water or oil.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -30.671
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: partial
+          who_speaks: outside
+        reader2_opus: null
+      rank: 3
+    - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xiii#01
+      file: npnf214_seven-ecumenical-councils.xml
+      division_locus: xvi.xiii
+      byte_start: 2729786
+      byte_end: 2731613
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9433
+      translator: null
+      edition_date: null
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: States the later Latin Church's teaching on invoking saints and relics, and rejects the idolatry charge.
+        Gives later doctrine, not the early Church's practice.
+      limits: It is a 1563 decree, not an early Christian witness. It does not describe what early believers did at graves
+        or with relics.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -45.376
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: partial
+          who_speaks: outside
+        reader2_opus: null
+      rank: 4
   C13.S6:
     label: Magic, amulets, curses, the evil eye
     seeds: []
@@ -1922,3 +4029,78 @@ dropped:
 - sub_question: C9.S2
   passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXXIII#01
   reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.lxxix/line12081#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xviii.vi.ii#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.xxi#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xvi.vi.xxviii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S1
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:v.iii.ix#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S1
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iv.xvii#04
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S1
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XVI.32#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xv/line5975#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XVIII.35#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxiv/line7486#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXLVI/line16884#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxxiii#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.v.xxxv#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.i.ix.vi#05
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S5
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.IV.7#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CLXVI/line52131#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.x.xliii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxiii#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.i.iv.xi#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.lviii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.vi.xiii#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C4.S6
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.v.xviii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S8
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.i.xii.ii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S8
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:v.ii.ii/line9988#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S8
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.i.xi.vi#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'

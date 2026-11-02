@@ -2746,3 +2746,10 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open.** 107 sub-questions have no seed. 22 have no lpc cell in the coverage maps (C6.S9, C12.S1 to S8, C14.S9, C16.S1 to S5, C17.S1 to S7). The rest have only gloss-style hits that no passage text confirms. They go to the search batches (phase 2), not to weak seeds.
 - **Open.** Translator, edition year and work date read `unresolved` on 30 of the 33 seeds (the shared Nicene Fathers volumes), because the passage binds to several rows that disagree. Same cause as OG-155.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-159. Passage seeds, phase 2 pilot: what a free keyword search finds (2026-11-02).
+
+- **Done.** Pilot batch of 8 source-answerable sub-questions searched (free, no model call, terms from the sub-question label and wordings only). 38 seeds added, 7 of the 8 sub-questions now seeded (C10.S5, C10.S1, C13.S5, C13.S1, C6.S6, C4.S6, C2.S8); 25 of 63 candidate passages did not bear on their sub-question and are logged as dropped.
+- **Open.** C11.S5 (a good pagan or another religion saved) found nothing that bears on it and stays empty. C4.S6 (those who never heard) found one seed. The search works where the question has distinctive words (usury, wealth, married clergy, the devil) and badly where it is abstract.
+- **Open.** Not seeded, by kind: Facilitator-ground and system questions (C8.S8, C14.S9, C17.S1, S2, S6, S7), pressing and invention questions (C17.S3 to S5), modern-issue questions (C15.S1 to S8), the Representative's own beginnings (C6.S9), a period after 632 (C11.S4), and archaeology (C12.S8).
+- **Owner.** Library thread, through the coordination thread.
