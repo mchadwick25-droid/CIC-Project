@@ -82,6 +82,13 @@ def run(questions: list[dict], work: Path, records: dict, connectives: frozenset
     return dict(counts)
 
 
+def _records(args) -> dict:
+    from engine.m1.loader import load_world_records
+    from engine.m4 import passage_offer
+    records = load_world_records(args.world)
+    return {**records, **passage_offer.all_records(passage_offer.load_offer(args.passage_offer))} if args.passage_offer else records
+
+
 def main(argv: list[str] | None = None) -> int:
     from engine.m1.loader import load_world_records
 
@@ -90,9 +97,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--world", required=True)
     parser.add_argument("--connectives", type=Path)
+    parser.add_argument("--passage-offer", type=Path, help="the passage offer file the run was made with; its passages are records the sentences may bind to")
     args = parser.parse_args(argv)
     connectives = bound_draft.connective_set(yaml.safe_load(args.connectives.read_text(encoding="utf-8")) if args.connectives else [])
-    print(json.dumps(run(load_set(args.question_set), _outside_repo(args.work), load_world_records(args.world), connectives)))
+    print(json.dumps(run(load_set(args.question_set), _outside_repo(args.work), _records(args), connectives)))
     return 0
 
 

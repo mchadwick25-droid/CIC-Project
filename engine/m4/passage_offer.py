@@ -111,3 +111,8 @@ def render_line(candidate: dict) -> str:
     else:
         how = f"OUTSIDE OUR VOICE; say \"{rec['source_label']}, writes\"; never \"we\""
     return f"- [[{candidate['id']}]] passage ({how}{where}{when}) — {candidate['head']}"
+
+
+def all_records(offer: dict) -> dict[str, dict]:
+    """Every passage of an offer file as a record, for the steps that run after a turn over a finished run."""
+    return {p["tag"]: record_for(p) for passages in (offer.get("subquestions") or {}).values() for p in passages}
