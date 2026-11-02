@@ -88,37 +88,54 @@ def _date_text(date) -> str | None:
     return None
 
 
+def _file_work(staging: dict) -> str | None:
+    """The work of a file when every row in it names the same one; None when the rows disagree."""
+    works = {r.get("work") for r in staging.values() if r.get("work")}
+    return next(iter(works)) if len(works) == 1 else None
+
+
 def _label(slug: str | None) -> str | None:
     return slug.replace("-", " ").title() if slug else None
 
 
 def build_offer(seed: dict, db_path: Path) -> tuple[dict, dict]:
-    world = seed["world"]
+    world = seed.get("world") or (seed.get("header") or {}).get("world")
     connection = sqlite3.connect(db_path)
     connection.row_factory = sqlite3.Row
     meta = dict(connection.execute("SELECT key, value FROM meta"))
+    header = seed.get("header") or {}
+    if header.get("index_version") and header["index_version"] != meta.get("version"):
+        raise SystemExit(f"the seed was made against index {header['index_version'][:8]}, this index is {str(meta.get('version'))[:8]}; the offer is not built from a mismatched index")
     offsets: dict = {}
     staging_cache: dict = {}
     out: dict[str, list[dict]] = {}
     report = {"hits": 0, "resolved": 0, "unresolved": [], "snippet_missing": [], "not_english": 0, "apparatus": 0, "duplicates": 0}
     for sid, entry in (seed.get("subquestions") or {}).items():
         seen = set()
-        for hit in entry.get("passages") or []:
-            if not hit.get("line"):
-                continue
-            report["hits"] += 1
-            file_name = Path(hit["file"]).name
-            offset = _line_offset(TEXTS / file_name, int(hit["line"]), offsets) if (TEXTS / file_name).exists() else None
-            row = None if offset is None else connection.execute(
-                "SELECT * FROM passages WHERE file = ? AND byte_start <= ? AND byte_end > ? ORDER BY byte_start LIMIT 1", (file_name, offset, offset)).fetchone()
-            if row is None and offset is not None and (TEXTS / file_name).read_bytes()[offset:offset + 4] == b"<div":
-                row = connection.execute("SELECT * FROM passages WHERE file = ? AND byte_start >= ? ORDER BY byte_start LIMIT 1", (file_name, offset)).fetchone()
-            if row is None:
-                report["unresolved"].append([sid, file_name, hit["line"]])
-                continue
-            if hit.get("snippet") and _norm(hit["snippet"])[:80] not in _norm(row["text"]):
-                report["snippet_missing"].append([sid, file_name, hit["line"], row["passage_id"]])
-                continue
+        for hit in entry.get("seeds") or entry.get("passages") or []:
+            if hit.get("passage_id"):
+                report["hits"] += 1
+                row = connection.execute("SELECT * FROM passages WHERE passage_id = ?", (hit["passage_id"],)).fetchone()
+                if row is None or (row["byte_start"], row["byte_end"]) != (hit.get("byte_start"), hit.get("byte_end")):
+                    report["unresolved"].append([sid, hit["passage_id"], "id or byte span differs from the index"])
+                    continue
+                file_name = row["file"]
+            else:
+                if not hit.get("line"):
+                    continue
+                report["hits"] += 1
+                file_name = Path(hit["file"]).name
+                offset = _line_offset(TEXTS / file_name, int(hit["line"]), offsets) if (TEXTS / file_name).exists() else None
+                row = None if offset is None else connection.execute(
+                    "SELECT * FROM passages WHERE file = ? AND byte_start <= ? AND byte_end > ? ORDER BY byte_start LIMIT 1", (file_name, offset, offset)).fetchone()
+                if row is None and offset is not None and (TEXTS / file_name).read_bytes()[offset:offset + 4] == b"<div":
+                    row = connection.execute("SELECT * FROM passages WHERE file = ? AND byte_start >= ? ORDER BY byte_start LIMIT 1", (file_name, offset)).fetchone()
+                if row is None:
+                    report["unresolved"].append([sid, file_name, hit["line"]])
+                    continue
+                if hit.get("snippet") and _norm(hit["snippet"])[:80] not in _norm(row["text"]):
+                    report["snippet_missing"].append([sid, file_name, hit["line"], row["passage_id"]])
+                    continue
             if row["language"] != "eng":
                 report["not_english"] += 1
                 continue
@@ -136,20 +153,26 @@ def build_offer(seed: dict, db_path: Path) -> tuple[dict, dict]:
             staging = staging_cache.setdefault(file_name, _staging_rows(file_name))
             detail = staging.get(rows[0]["row_id"], {}) if len(rows) == 1 else {}
             speaker = row["speaker_voice"] if row["speaker_state"] == "known" else None
+            reviewed = "voice" in hit
+            voiceable = hit["voice"] == "voiceable" if reviewed else role == "tradition" and row["speaker_state"] == "known"
+            if voiceable and (row["speaker_state"] != "known" or row["apparatus"]):
+                report["voiceable_but_index_disagrees"] = report.get("voiceable_but_index_disagrees", 0) + 1
+                voiceable = False
+            work = detail.get("work") or _file_work(staging)
             out.setdefault(sid, []).append({
                 "passage_id": row["passage_id"], "file": file_name, "text": row["text"], "word_count": row["word_count"],
                 "locus": " ".join(x for x in (row["division_locus"], row["division_title"]) if x) or None,
                 "speaker_state": row["speaker_state"], "speaker": speaker, "ocr_score": row["ocr_score"], "role": role,
-                "row_id": rows[0]["row_id"] if len(rows) == 1 else None, "work": detail.get("work"),
+                "row_id": rows[0]["row_id"] if len(rows) == 1 else None, "work": work, "rank": hit.get("rank"),
                 "author_name": _label(detail.get("author") or speaker), "date": _date_text(detail.get("date")),
-                "voiceable": role == "tradition" and row["speaker_state"] == "known",
-                "byte_start": row["byte_start"], "byte_end": row["byte_end"], "seed_line": int(hit["line"]),
+                "voiceable": voiceable, "seed_origin": "reviewed" if reviewed else "derived",
+                "byte_start": row["byte_start"], "byte_end": row["byte_end"], "seed_line": hit.get("line"),
             })
             report["resolved"] += 1
     connection.close()
     seed_text = yaml.safe_dump(seed, sort_keys=True)
     offer = {
-        "world": world, "index_version": meta.get("version"), "seed_status": seed.get("status"),
+        "world": world, "index_version": meta.get("version"), "seed_status": seed.get("status") or (f"reviewed, phase {header.get('phase')}" if header else None),
         "seed_sha256": hashlib.sha256(seed_text.encode()).hexdigest(), "subquestions": out,
     }
     report["sub_questions_with_passages"] = len(out)
