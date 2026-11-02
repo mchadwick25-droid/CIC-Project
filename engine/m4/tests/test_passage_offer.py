@@ -74,3 +74,48 @@ def test_the_read_is_shown_who_a_passage_is_from_as_the_voice_was():
     records = po.records_by_id([_passage("p.b"), _passage("p.a", voiceable=False)])
     assert verify_step.record_pack(records["p.b"], records).splitlines()[1] == "passage from Cyprian, in Letter 73, 73"
     assert verify_step.record_pack(records["p.a"], records).splitlines()[1].endswith("(outside our voice)")
+
+
+def _index(tmp_path, name="i"):
+    import sqlite3
+    path = tmp_path / f"{name}.sqlite"
+    c = sqlite3.connect(path)
+    c.executescript("""
+    CREATE TABLE meta (key TEXT, value TEXT);
+    CREATE TABLE passages (passage_id TEXT, file TEXT, division_locus TEXT, division_title TEXT, language TEXT, apparatus INTEGER,
+      speaker_state TEXT, speaker_voice TEXT, ocr_score REAL, byte_start INTEGER, byte_end INTEGER, word_count INTEGER, text TEXT);
+    CREATE TABLE passage_rows (passage_id TEXT, world TEXT, row_id TEXT, role TEXT);
+    CREATE TABLE shelf_files (file TEXT, world TEXT, row_id TEXT, role TEXT);
+    INSERT INTO meta VALUES ('version', 'v1');
+    INSERT INTO passages VALUES ('cic:f.xml:a#01', 'f.xml', 'a', '', 'eng', 0, 'known', 'cyprian', 0.9, 0, 10, 100, 'Text of a.');
+    INSERT INTO passages VALUES ('cic:f.xml:b#01', 'f.xml', 'b', '', 'eng', 0, 'known', 'cyprian', 0.9, 10, 20, 100, 'Text of b.');
+    INSERT INTO passage_rows VALUES ('cic:f.xml:a#01', 'w', 'r1', 'tradition');
+    INSERT INTO passage_rows VALUES ('cic:f.xml:b#01', 'w', 'r1', 'tradition');
+    """)
+    c.commit()
+    c.close()
+    return path
+
+
+def _seed(binding, window="inside"):
+    return {"header": {"world": "w", "index_version": "v1", "phase": 2}, "subquestions": {"C1.S1": {"seeds": [
+        {"passage_id": "cic:f.xml:a#01", "byte_start": 0, "byte_end": 10, "voice": "voiceable", "rank": 1, "shelf_binding": binding, "window": window},
+        {"passage_id": "cic:f.xml:b#01", "byte_start": 10, "byte_end": 20, "voice": "voiceable", "rank": 2, "shelf_binding": "file level only: the file is on the world shelf, this work may not be", "window": window}]}}}
+
+
+def test_only_a_seed_in_the_worlds_lens_is_offered_and_one_outside_its_window_is_etic(tmp_path):
+    from engine.m4.reports.passage_offer_build import build_offer
+    offer, report = build_offer(_seed("row narrowed by locus_ids to r1"), _index(tmp_path))
+    assert [p["passage_id"] for p in offer["subquestions"]["C1.S1"]] == ["cic:f.xml:a#01"] and report["not_in_lens"] == 1
+    assert offer["subquestions"]["C1.S1"][0]["voiceable"] is True
+    outside, _ = build_offer(_seed("row narrowed by locus_ids to r1", "outside the window"), _index(tmp_path, "j"))
+    assert outside["subquestions"]["C1.S1"][0]["voiceable"] is False
+
+
+def test_an_offer_is_not_built_from_a_seed_made_against_another_index(tmp_path):
+    import pytest
+    from engine.m4.reports.passage_offer_build import build_offer
+    seed = _seed("row narrowed by locus_ids to r1")
+    seed["header"]["index_version"] = "other"
+    with pytest.raises(SystemExit):
+        build_offer(seed, _index(tmp_path))

@@ -8,7 +8,9 @@ derive-seed reads the coverage maps' structured file-and-line hits and writes a 
 to the one passage whose byte span holds that line, checks the seed's snippet against that
 passage, and writes the offer file with the index version, the seed's hash and a report of what
 resolved. A hit that does not resolve, or whose snippet is not in its passage, is listed in the
-report and left out. No model call.
+report and left out. A reviewed seed whose shelf_binding is not "row narrowed ..." (the file is on the world's
+shelf but its work may not be) is not in the world's lens and is not offered; one outside the world's window is
+offered etic. No model call.
 
 Seed shape:
   world: lpc
@@ -119,6 +121,9 @@ def build_offer(seed: dict, db_path: Path) -> tuple[dict, dict]:
     for sid, entry in (seed.get("subquestions") or {}).items():
         seen = set()
         for hit in entry.get("seeds") or entry.get("passages") or []:
+            if hit.get("shelf_binding") is not None and not str(hit["shelf_binding"]).startswith("row narrowed"):
+                report["not_in_lens"] = report.get("not_in_lens", 0) + 1
+                continue
             if hit.get("passage_id"):
                 report["hits"] += 1
                 row = connection.execute("SELECT * FROM passages WHERE passage_id = ?", (hit["passage_id"],)).fetchone()
@@ -161,6 +166,8 @@ def build_offer(seed: dict, db_path: Path) -> tuple[dict, dict]:
             speaker = row["speaker_voice"] if row["speaker_state"] == "known" else None
             reviewed = "voice" in hit
             voiceable = hit["voice"] == "voiceable" if reviewed else role == "tradition" and row["speaker_state"] == "known"
+            if voiceable and str(hit.get("window") or "").startswith("outside"):
+                voiceable = False
             if voiceable and (row["speaker_state"] != "known" or row["apparatus"]):
                 report["voiceable_but_index_disagrees"] = report.get("voiceable_but_index_disagrees", 0) + 1
                 voiceable = False
@@ -171,7 +178,7 @@ def build_offer(seed: dict, db_path: Path) -> tuple[dict, dict]:
                 "speaker_state": row["speaker_state"], "speaker": speaker, "ocr_score": row["ocr_score"], "role": role,
                 "row_id": rows[0]["row_id"] if len(rows) == 1 else None, "work": work, "rank": hit.get("rank"),
                 "author_name": _label(detail.get("author") or speaker), "date": _date_text(detail.get("date")),
-                "voiceable": voiceable, "seed_origin": "reviewed" if reviewed else "derived",
+                "voiceable": voiceable, "window": hit.get("window"), "seed_origin": "reviewed" if reviewed else "derived",
                 "byte_start": row["byte_start"], "byte_end": row["byte_end"], "seed_line": hit.get("line"),
             })
             report["resolved"] += 1
