@@ -42,13 +42,14 @@ def author_work(passage: dict) -> str:
     author, work = passage.get("author_name"), passage.get("work")
     if author and work:
         return f"{author}, in {work}"
-    return work or author or passage.get("file", "")
+    return work or author or "a writing we hold"
 
 
 def record_for(passage: dict) -> dict:
     """The passage as a record the pipeline can bind a sentence to."""
     return {
-        "id": passage["passage_id"],
+        "id": passage["tag"],
+        "passage_id": passage["passage_id"],
         "record_type": PASSAGE_TYPE,
         "text": passage["text"],
         "source_label": author_work(passage),
@@ -66,8 +67,8 @@ def record_for(passage: dict) -> dict:
 
 def ranked(passages: list[dict]) -> list[dict]:
     """Voiceable first, then the cleaner scan, then the seed's own order."""
-    order = {p["passage_id"]: n for n, p in enumerate(passages)}
-    return sorted(passages, key=lambda p: (not p["voiceable"], -(p.get("ocr_score") or 0.0), order[p["passage_id"]]))
+    order = {p["tag"]: n for n, p in enumerate(passages)}
+    return sorted(passages, key=lambda p: (not p["voiceable"], -(p.get("ocr_score") or 0.0), order[p["tag"]]))
 
 
 def select(offer: dict, sub_question: str | None, budget: Budget) -> list[dict]:
@@ -89,7 +90,7 @@ def candidates(passages: list[dict], sub_question: str) -> list[dict]:
     """Evidence-shaped candidates for the offered passages."""
     return [
         {
-            "id": p["passage_id"], "record_type": PASSAGE_TYPE, "head": p["text"], "confidence": None, "classification": None,
+            "id": p["tag"], "record_type": PASSAGE_TYPE, "head": p["text"], "confidence": None, "classification": None,
             "cell": sub_question, "score": None, "passage": record_for(p),
         }
         for p in passages
@@ -97,7 +98,7 @@ def candidates(passages: list[dict], sub_question: str) -> list[dict]:
 
 
 def records_by_id(passages: list[dict]) -> dict[str, dict]:
-    return {p["passage_id"]: record_for(p) for p in passages}
+    return {p["tag"]: record_for(p) for p in passages}
 
 
 def render_line(candidate: dict) -> str:

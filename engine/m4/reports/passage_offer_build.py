@@ -36,6 +36,12 @@ COVERAGE = REPO_ROOT / "Build" / "Ministry" / "Features" / "Question-Coverage" /
 _WS = re.compile(r"\s+")
 
 
+def tag_for(world: str, passage_id: str) -> str:
+    """The id a sentence cites a passage by. The citation grammar takes only [a-z0-9_.-], and an index passage id holds
+    ':' and '#', so the passage is cited under a world-prefixed record-style id; the record keeps its index passage_id."""
+    return f"{world}.passage.{hashlib.sha1(passage_id.encode()).hexdigest()[:12]}"
+
+
 def _norm(text: str) -> str:
     return _WS.sub(" ", re.sub(r"<[^>]*>", " ", text)).strip().lower()
 
@@ -160,7 +166,7 @@ def build_offer(seed: dict, db_path: Path) -> tuple[dict, dict]:
                 voiceable = False
             work = detail.get("work") or _file_work(staging)
             out.setdefault(sid, []).append({
-                "passage_id": row["passage_id"], "file": file_name, "text": row["text"], "word_count": row["word_count"],
+                "tag": tag_for(world, row["passage_id"]), "passage_id": row["passage_id"], "file": file_name, "text": row["text"], "word_count": row["word_count"],
                 "locus": " ".join(x for x in (row["division_locus"], row["division_title"]) if x) or None,
                 "speaker_state": row["speaker_state"], "speaker": speaker, "ocr_score": row["ocr_score"], "role": role,
                 "row_id": rows[0]["row_id"] if len(rows) == 1 else None, "work": work, "rank": hit.get("rank"),
