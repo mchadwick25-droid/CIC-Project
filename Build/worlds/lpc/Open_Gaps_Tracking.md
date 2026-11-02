@@ -2746,3 +2746,27 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open.** 107 sub-questions have no seed. 22 have no lpc cell in the coverage maps (C6.S9, C12.S1 to S8, C14.S9, C16.S1 to S5, C17.S1 to S7). The rest have only gloss-style hits that no passage text confirms. They go to the search batches (phase 2), not to weak seeds.
 - **Open.** Translator, edition year and work date read `unresolved` on 30 of the 33 seeds (the shared Nicene Fathers volumes), because the passage binds to several rows that disagree. Same cause as OG-155.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-159. Passage seeds, phase 2 pilot: what a free keyword search finds (2026-11-02).
+
+- **Done.** Pilot batch of 8 source-answerable sub-questions searched (free, no model call, terms from the sub-question label and wordings only). 38 seeds added, 7 of the 8 sub-questions now seeded (C10.S5, C10.S1, C13.S5, C13.S1, C6.S6, C4.S6, C2.S8); 25 of 63 candidate passages did not bear on their sub-question and are logged as dropped.
+- **Open.** C11.S5 (a good pagan or another religion saved) found nothing that bears on it and stays empty. C4.S6 (those who never heard) found one seed. The search works where the question has distinctive words (usury, wealth, married clergy, the devil) and badly where it is abstract.
+- **Open.** Not seeded, by kind: Facilitator-ground and system questions (C8.S8, C14.S9, C17.S1, S2, S6, S7), pressing and invention questions (C17.S3 to S5), modern-issue questions (C15.S1 to S8), the Representative's own beginnings (C6.S9), a period after 632 (C11.S4), and archaeology (C12.S8).
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-160. Passage seeds, phase 2 batch 2, and work, author and translator on each seed (2026-11-02).
+
+- **Done.** Batch 2 searched 17 concrete sub-questions (free keyword search, no model call). 15 are now seeded; C12.S6 and C1.S6 found nothing that bears on them and stay empty. The file now holds 119 seeds (32 voiceable, 87 etic) for 45 of the 130 sub-questions. 124 candidates were read by Sonnet and 87 of those by Opus (every voiceable candidate, every other passage the first reader rated direct or partial, and a random sample of the rest); Opus lowered the fit of 22 and moved 12 candidates from voiceable to etic.
+- **Done.** Each seed now carries `work` and `author` from the corpus-map row narrowed by its `locus_ids` to the passage's division. Set on 96 of 119 seeds. Translator, edition year and work date use the same narrowed row, which supersedes the unresolved counts in OG-158: set on 69 seeds, unresolved on 50.
+- **Open.** 23 seeds have no work or author, because the passage binds to several works and the rows cannot narrow it (the Seven Ecumenical Councils canons and similar). Same cause as OG-155; fixing it is a row-level change, not a seed change.
+- **Open.** The sub-questions linked by the question repository to the 28 sealed canon cells number 58; 42 have no passage seed, 38 of them because phase 2 so far targeted only sub-questions with no sidecar record (C1.S1 to S5, S8; C2.S2, S5, S6; C4.S1, S2, S5; C14.S1 to S8 and others), and 4 have no record and no seed (C11.S5, C11.S8, C12.S6, C12.S8).
+- **Owner.** Library thread, through the coordination thread.
+
+### OG-161. C5 split into finer sub-questions, and what the split showed (2026-11-02).
+
+- **Done.** Rule, stated before use: a sub-question splits when its member questions would be answered from different records or passages; members answered from the same ones stay together. Applied to C5: C5.S1 into 5 (S1a to S1e), S2 into 6, S3 into 4, S6 into 2, S7 into 2 (one Opus read of the split moved C5.S7 from whole to split); S4, S5 and S8 stay whole. 19 splits, listed in `Build/Ministry/Features/Question-Coverage/Repository/08-subquestion-splits.yaml` (parent ids unchanged; 07 is untouched). The sidecar and the seed file carry the split ids with the parent id.
+- **Done.** Records placed under splits from what each record's `means` and `not_for` answer: 7 placements (S1d, S6a, S6b, S7a, S7b). Four existing seeds re-keyed under their split. Free search for 10 splits with concrete vocabulary: 20 new seeds on 7 of them. 11 of the 19 splits now hold at least one seed.
+- **Open.** Empty splits, left empty by the stopping rule (abstract vocabulary or nothing found): C5.S1b (who decided the canon, was it a vote), S1e, S2a, S2e, S2f, S3a (errors and reliability), S6a (no seed, three records), S6b.
+- **Open.** The six records the sidecar lists under C5.S2 do not answer any of its members (three answer C5.S4 and C5.S7, three are about one narrow verse each). The parent entry is left as it is; C5.S2 has no supporting record, so its splits rest on seeds only.
+- **Open.** R-28 (science disproves the Bible) may belong with C5.S4 rather than C5.S3d, and C5-11 may belong outside C5.S2e; both stay where they are until a passage settles it.
+- **Owner.** Library thread, through the coordination thread.
