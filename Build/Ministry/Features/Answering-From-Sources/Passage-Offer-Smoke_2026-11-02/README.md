@@ -1,6 +1,6 @@
 # Passage offer smoke test, 2026-11-02 (no tuning)
 
-Six lpc questions whose reader-named sub-question has a seeded passage in Library's Phase 1 seed file (q029, q030, q083, q084, q085, q093; q083's sub-question C5.S2 has no seed, so it is the control). Same reader and safety replies for both conditions (made once). Voice drafts and reads by helper agents, one run each, no ratings. Offer file: `lpc_offer_phase1.json` (index b7511f92). Code: branch engine/passage-offer.
+Six lpc questions whose reader-named sub-question has a seeded passage in Library's Phase 1 seed file (q029, q030, q083, q084, q085, q093; q083's sub-question C5.S2 has no seed, so it is the control). Same reader and safety replies for both conditions (made once). Voice drafts and reads by helper agents, one run each, no ratings. Offer file: `lpc_offer_phase1.json` (index b7511f92). Code: the passage-offer pull request (1457).
 
 - `off`: offer without passages.
 - `on-1`: first offer-on run. Passage ids were `cic:...#01`, which the citation grammar cannot read, so every passage-bound sentence was struck by the net as having no citation tag. Fixed at the source: passages are cited under `lpc.passage.<hash>`.
