@@ -1,0 +1,200 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "No, we read Scripture inside the rule of faith, the short summary of what the apostles handed down."
+  },
+  {
+   "record_ids": [
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "The rule of faith set the bounds within which inquiry into Scripture could range."
+  },
+  {
+   "record_ids": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "sentence": "In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”"
+  },
+  {
+   "record_ids": [
+    "alx.term.episkopos"
+   ],
+   "sentence": "The bishop governs how the community is formed and guards what it received."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, the bond between teacher and student was itself the path of formation."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our churches had failures, and our greatest teacher was driven out by his own bishop, not by pagans."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world."
+  },
+  {
+   "record_ids": [
+    "alx.contested.allegory-from-within"
+   ],
+   "sentence": "The claim that all Egyptian Christians read Scripture in one allegorical way is contested, since Nepos attacked the allegorists from within Egypt."
+  },
+  {
+   "record_ids": [
+    "alx.contested.allegory-from-within"
+   ],
+   "sentence": "Allegory still dominated the literate Alexandrian tradition."
+  }
+ ],
+ "citations": [
+  "alx.contested.allegory-from-within",
+  "alx.dw.church-failure",
+  "alx.dw.one-church",
+  "alx.gravity.learning-formation",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.term.episkopos",
+  "alx.term.kanon-pisteos"
+ ],
+ "group": "A",
+ "id": "q012",
+ "net_sentences": [
+  {
+   "draft": "No, we read Scripture inside the rule of faith, the short summary of what the apostles handed down [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "No, we read Scripture inside the rule of faith, the short summary of what the apostles handed down.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The rule of faith set the bounds within which inquiry into Scripture could range [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "The rule of faith set the bounds within which inquiry into Scripture could range.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen of Alexandria, in On First Principles preface 2, wrote: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+   "placed_quote": "alx.quote.ecclesiastical-and-apostolical-tradition",
+   "sentence": "In today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”",
+   "tags": [
+    "alx.quote.ecclesiastical-and-apostolical-tradition"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The bishop governs how the community is formed and guards what it received [[alx.term.episkopos]] [[as:paraphrase]].",
+   "sentence": "The bishop governs how the community is formed and guards what it received.",
+   "tags": [
+    "alx.term.episkopos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In the school tradition, the bond between teacher and student was itself the path of formation [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "In the school tradition, the bond between teacher and student was itself the path of formation.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our churches had failures, and our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our churches had failures, and our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The claim that all Egyptian Christians read Scripture in one allegorical way is contested, since Nepos attacked the allegorists from within Egypt [[alx.contested.allegory-from-within]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The claim that all Egyptian Christians read Scripture in one allegorical way is contested, since Nepos attacked the allegorists from within Egypt.",
+   "tags": [
+    "alx.contested.allegory-from-within"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Allegory still dominated the literate Alexandrian tradition [[alx.contested.allegory-from-within]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Allegory still dominated the literate Alexandrian tradition.",
+   "tags": [
+    "alx.contested.allegory-from-within"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "alx.dw.one-church",
+  "alx.term.kanon-pisteos",
+  "alx.story.didymus-meeting",
+  "alx.quote.ecclesiastical-and-apostolical-tradition",
+  "alx.quote.the-grades-here-in-the-church",
+  "alx.gravity.learning-formation",
+  "alx.contested.allegory-from-within",
+  "alx.dw.church-failure",
+  "alx.quote.no-sun-no-moon-no-sky",
+  "alx.term.episkopos",
+  "alx.quote.clement-bee",
+  "alx.term.martys",
+  "alx.story.potamiaena",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "No, we read Scripture inside the rule of faith, the short summary of what the apostles handed down [[alx.term.kanon-pisteos]] [[as:paraphrase]]. The rule of faith set the bounds within which inquiry into Scripture could range [[alx.term.kanon-pisteos]] [[as:paraphrase]].\n\nOrigen of Alexandria, in On First Principles preface 2, wrote: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]\n\nThe bishop governs how the community is formed and guards what it received [[alx.term.episkopos]] [[as:paraphrase]]. In the school tradition, the bond between teacher and student was itself the path of formation [[alx.gravity.learning-formation]] [[as:paraphrase]]. Our churches had failures, and our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]].\n\nWe belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]]. The claim that all Egyptian Christians read Scripture in one allegorical way is contested, since Nepos attacked the allegorists from within Egypt [[alx.contested.allegory-from-within]] [[as:paraphrase]]. Allegory still dominated the literate Alexandrian tradition [[alx.contested.allegory-from-within]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "alx.quote.ecclesiastical-and-apostolical-tradition"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Origen of Alexandria, in On First Principles preface 2, wrote: [[quote:alx.quote.ecclesiastical-and-apostolical-tradition]]",
+    "lead_in": "In today's English, Origen of Alexandria says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "No, we read Scripture inside the rule of faith, the short summary of what the apostles handed down. The rule of faith set the bounds within which inquiry into Scripture could range.\n\nIn today's English, Origen of Alexandria says: “So, there are many who think they hold the opinions of Christ, and some of them think differently from those who came before. Yet the teaching of the Church is still preserved. It has been handed down in orderly succession from the apostles, and it remains in the churches to this day. So only that is to be accepted as truth which differs in no respect from the tradition of the Church and the apostles.”\n\nThe bishop governs how the community is formed and guards what it received. In the school tradition, the bond between teacher and student was itself the path of formation. Our churches had failures, and our greatest teacher was driven out by his own bishop, not by pagans.\n\nWe belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. The claim that all Egyptian Christians read Scripture in one allegorical way is contested, since Nepos attacked the allegorists from within Egypt. Allegory still dominated the literate Alexandrian tradition.",
+ "voice_set_aside": false
+}

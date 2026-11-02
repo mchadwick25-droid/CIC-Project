@@ -1,0 +1,141 @@
+{
+ "draft": "What we claim rests on public books a person can check, and we name the places where scrutiny finds thin ground [[alx.dw.record]] [[as:paraphrase]]. Our books survive, and they were public from the start [[alx.dw.record]] [[as:paraphrase]]. Origen answered Celsus by name, point by point, in the open [[alx.dw.record]] [[as:paraphrase]].\n\nOur teachers marked the difference between eyewitness testimony and received tradition, and Clement flags the John story as handed down [[alx.dw.record]] [[as:paraphrase]]. Dionysius weighed the Apocalypse's authorship by its style, like a critic, and Origen compared manuscript readings [[alx.dw.record]] [[as:paraphrase]].\n\nDionysius of Alexandria, quoted by Eusebius, wrote: [[quote:alx.quote.dionysius-too-high-for-me-to-grasp]]\n\nMuch of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]]. The majority who could not write left almost nothing, and some of the greatest teacher's works survive only in translations made by men with a stake in the outcome [[alx.dw.record]] [[as:paraphrase]]. The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and it rests almost entirely on Eusebius [[alx.contested.didaskaleion-institution]] [[as:paraphrase]]. A wider view of the cosmos built on the word logikos is contested, and so is whether Origen held it [[alx.term.logikos]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "What we claim rests on public books a person can check, and we name the places where scrutiny finds thin ground. Our books survive, and they were public from the start. Origen answered Celsus by name, point by point, in the open.\n\nOur teachers marked the difference between eyewitness testimony and received tradition, and Clement flags the John story as handed down. Dionysius weighed the Apocalypse's authorship by its style, like a critic, and Origen compared manuscript readings.\n\nMuch of what survives comes through one later historian's selection. The majority who could not write left almost nothing, and some of the greatest teacher's works survive only in translations made by men with a stake in the outcome. The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and it rests almost entirely on Eusebius. A wider view of the cosmos built on the word logikos is contested, and so is whether Origen held it.",
+ "group": "A",
+ "offered": [
+  "alx.dw.record",
+  "alx.term.pistis",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.force.gnostic-challenge",
+  "alx.contested.didaskaleion-institution",
+  "alx.dw.god",
+  "alx.term.gnosis",
+  "alx.term.logikos",
+  "alx.term.autexousia",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.logos-unity"
+ ],
+ "placements": [],
+ "question": "If a modern scholar examined your claims, how much would survive rigorous scrutiny?",
+ "question_id": "q009",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we claim rests on public books a person can check, and we name the places where scrutiny finds thin ground.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our books survive, and they were public from the start.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Origen answered Celsus by name, point by point, in the open.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers marked the difference between eyewitness testimony and received tradition, and Clement flags the John story as handed down.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Dionysius weighed the Apocalypse's authorship by its style, like a critic, and Origen compared manuscript readings.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Much of what survives comes through one later historian's selection.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The majority who could not write left almost nothing, and some of the greatest teacher's works survive only in translations made by men with a stake in the outcome.",
+   "tags": [
+    "alx.dw.record"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and it rests almost entirely on Eusebius.",
+   "tags": [
+    "alx.contested.didaskaleion-institution"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A wider view of the cosmos built on the word logikos is contested, and so is whether Origen held it.",
+   "tags": [
+    "alx.term.logikos"
+   ]
+  }
+ ],
+ "shipped_by_net": "What we claim rests on public books a person can check, and we name the places where scrutiny finds thin ground. Our books survive, and they were public from the start. Origen answered Celsus by name, point by point, in the open.\n\nOur teachers marked the difference between eyewitness testimony and received tradition, and Clement flags the John story as handed down. Dionysius weighed the Apocalypse's authorship by its style, like a critic, and Origen compared manuscript readings.\n\nMuch of what survives comes through one later historian's selection. The majority who could not write left almost nothing, and some of the greatest teacher's works survive only in translations made by men with a stake in the outcome. The claim of a formal school with an unbroken line of heads from Pantaenus onward is contested, and it rests almost entirely on Eusebius. A wider view of the cosmos built on the word logikos is contested, and so is whether Origen held it.",
+ "sub_question": "C16.S2"
+}

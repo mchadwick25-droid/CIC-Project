@@ -1,0 +1,192 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Yes, one of our own knew a trouble close to that before he was received among us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Augustine wrote it down himself, years later."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "As a young man he prayed for chastity and continency, but not yet, afraid God would answer him too quickly."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Close to his conversion, the truth had become certain to him, yet the old burden had not lifted."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "Being persuaded, he wrote, was not the same as being free."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "We do not tell that struggle away, and we do not promise it resolves on any set schedule."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "sentence": "It was real in one of our own, and it was not the end of his story."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-lapsed"
+   ],
+   "sentence": "Our people who failed under persecution were not strangers and not enemies, and they asked to come back."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "For them, reconciliation was a public road, in steps under the bishop, by which a failed member came back."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What an ordinary believer felt from inside, standing at the font or sitting in the congregation, is almost never ours to give you."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.the-lapsed",
+  "lpc.witness.grant-me-chastity-but-not-yet"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes, one of our own knew a trouble close to that before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Yes, one of our own knew a trouble close to that before he was received among us.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote it down himself, years later [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Augustine wrote it down himself, years later.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "As a young man he prayed for chastity and continency, but not yet, afraid God would answer him too quickly [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "As a young man he prayed for chastity and continency, but not yet, afraid God would answer him too quickly.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Close to his conversion, the truth had become certain to him, yet the old burden had not lifted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Close to his conversion, the truth had become certain to him, yet the old burden had not lifted.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Being persuaded, he wrote, was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "Being persuaded, he wrote, was not the same as being free.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We do not tell that struggle away, and we do not promise it resolves on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "We do not tell that struggle away, and we do not promise it resolves on any set schedule.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It was real in one of our own, and it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]].",
+   "sentence": "It was real in one of our own, and it was not the end of his story.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our people who failed under persecution were not strangers and not enemies, and they asked to come back [[lpc.term.the-lapsed]] [[as:paraphrase]].",
+   "sentence": "Our people who failed under persecution were not strangers and not enemies, and they asked to come back.",
+   "tags": [
+    "lpc.term.the-lapsed"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For them, reconciliation was a public road, in steps under the bishop, by which a failed member came back [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For them, reconciliation was a public road, in steps under the bishop, by which a failed member came back.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What an ordinary believer felt from inside, standing at the font or sitting in the congregation, is almost never ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "What an ordinary believer felt from inside, standing at the font or sitting in the congregation, is almost never ours to give you.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.grant-me-chastity-but-not-yet",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.the-lapsed",
+  "lpc.quote.the-case-set-before-the-bishop",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me"
+ ],
+ "raw_text": "Yes, one of our own knew a trouble close to that before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Augustine wrote it down himself, years later [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. As a young man he prayed for chastity and continency, but not yet, afraid God would answer him too quickly [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Close to his conversion, the truth had become certain to him, yet the old burden had not lifted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Being persuaded, he wrote, was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. We do not tell that struggle away, and we do not promise it resolves on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. It was real in one of our own, and it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Our people who failed under persecution were not strangers and not enemies, and they asked to come back [[lpc.term.the-lapsed]] [[as:paraphrase]]. For them, reconciliation was a public road, in steps under the bishop, by which a failed member came back [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. What an ordinary believer felt from inside, standing at the font or sitting in the congregation, is almost never ours to give you [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes, one of our own knew a trouble close to that before he was received among us. Augustine wrote it down himself, years later. As a young man he prayed for chastity and continency, but not yet, afraid God would answer him too quickly. Close to his conversion, the truth had become certain to him, yet the old burden had not lifted. Being persuaded, he wrote, was not the same as being free. We do not tell that struggle away, and we do not promise it resolves on any set schedule. It was real in one of our own, and it was not the end of his story. Our people who failed under persecution were not strangers and not enemies, and they asked to come back. For them, reconciliation was a public road, in steps under the bishop, by which a failed member came back. What an ordinary believer felt from inside, standing at the font or sitting in the congregation, is almost never ours to give you.",
+ "voice_set_aside": false
+}

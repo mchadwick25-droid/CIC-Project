@@ -1,0 +1,232 @@
+{
+ "draft": "Much of what we know of Cyprian's life comes from his own deacon, Pontius, who wrote in praise of his bishop and says so himself [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. Pontius is the only witness for the claim that Cyprian was a new convert when he was chosen, and no other witness of ours confirms or corrects it [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. No source outside Pontius describes the plague relief in Carthage [[lpc.story.the-plague-and-the-enemies]] [[as:paraphrase]].\n\nWhat comes down to us is mostly what a bishop saw and decided, not what a plain believer was feeling [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n\nCyprian wrote to the clergy at Rome: [[quote:lpc.quote.the-paper-itself]]\n\nNo spectator of Cyprian's death left an account of his own [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]]. Our record tells of two early texts about Cyprian's death: [[story:lpc.story.the-death-of-cyprian:short]]\n",
+ "ending": "rewritten",
+ "final": "Pontius is the only witness for the claim that Cyprian was a new convert when chosen, and no other witness of ours confirms or corrects the claim. What comes down to us is mostly what a bishop saw and decided, not what a plain believer was feeling. No spectator of Cyprian's death left an account of his own.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.communion",
+  "lpc.term.grace",
+  "lpc.term.heresy",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.the-paper-itself",
+  "lpc.quote.thirteen-letters-sent-to-rome",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.contested.de-unitate-recensions",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.good-done-to-all-not-only-the-household",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.quote.thousands-of-certificates-daily",
+  "lpc.quote.pardon-through-a-wicked-clergyman"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It shows Cyprian doubting one letter's authenticity and says nothing of torture or the outside record asked about."
+   },
+   "record_id": "lpc.quote.the-paper-itself"
+  },
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows two texts agreeing on the core and differing on one detail, but says nothing of torture or any outside record."
+   },
+   "record_id": "lpc.story.the-death-of-cyprian"
+  }
+ ],
+ "question": "Given that a key outside record of your worship was obtained under torture, how reliable is that source?",
+ "question_id": "q025",
+ "read": {
+  "dropped": [
+   "lpc.quote.the-paper-itself",
+   "lpc.story.the-death-of-cyprian"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "The record says Pontius wrote in praise and says so, but not that much of what we know of Cyprian's life comes from him.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius is the only witness for the claim that Cyprian was a new convert when chosen, and no other witness of ours confirms or corrects the claim.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What comes down to us is mostly what a bishop saw and decided, not what a plain believer was feeling.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "No spectator of Cyprian's death left an account of his own.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Much of what we know of Cyprian's life comes from his own deacon, Pontius, who wrote in praise of his bishop and says so himself.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Pontius is the only witness for the claim that Cyprian was a new convert when he was chosen, and no other witness of ours confirms or corrects it.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What comes down to us is mostly what a bishop saw and decided, not what a plain believer was feeling.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": true,
+   "placed_id": "lpc.quote.the-paper-itself",
+   "reason": "placed by code",
+   "sentence": "Cyprian wrote to the clergy at Rome: “I have also read another letter. In it, neither the writer nor the people it was written to were clearly named. In that letter the handwriting, the content and even the paper itself made me think something was removed or changed from the original. So I have sent the letter back to you just as it reached me. You can check whether it is the very one you gave to Crementius the subdeacon to carry. For it is a very serious thing if the truth of a letter from the clergy is corrupted by any lie or deceit.”",
+   "tags": [
+    "lpc.quote.the-paper-itself"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No spectator of Cyprian's death left an account of his own.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our record tells of two early texts about Cyprian's death:",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "On his last night all his people kept watch at the door of the house where he was held.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "And so the blessed Cyprian suffered martyrdom.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  }
+ ],
+ "shipped_by_net": "Much of what we know of Cyprian's life comes from his own deacon, Pontius, who wrote in praise of his bishop and says so himself. Pontius is the only witness for the claim that Cyprian was a new convert when he was chosen, and no other witness of ours confirms or corrects it.\n\nWhat comes down to us is mostly what a bishop saw and decided, not what a plain believer was feeling.\n\nCyprian wrote to the clergy at Rome: “I have also read another letter. In it, neither the writer nor the people it was written to were clearly named. In that letter the handwriting, the content and even the paper itself made me think something was removed or changed from the original. So I have sent the letter back to you just as it reached me. You can check whether it is the very one you gave to Crementius the subdeacon to carry. For it is a very serious thing if the truth of a letter from the clergy is corrupted by any lie or deceit.”\n\nNo spectator of Cyprian's death left an account of his own. Our record tells of two early texts about Cyprian's death:\n\nTwo early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.\n\nOn his last night all his people kept watch at the door of the house where he was held.\n\nSentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.\n\nThe texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.\n\nAnd so the blessed Cyprian suffered martyrdom.",
+ "sub_question": "C16.S4"
+}

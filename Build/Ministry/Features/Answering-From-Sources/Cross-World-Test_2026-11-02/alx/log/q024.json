@@ -1,0 +1,147 @@
+{
+ "draft": "We honored marriage, we did not despise the body, and we held the home to be a place of formation [[alx.limit.marriage]] [[as:paraphrase]]. Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis [[alx.limit.marriage]] [[as:paraphrase]]. In the English we can offer you, the book is left in Latin, so we cannot give you its detail [[alx.limit.marriage]] [[as:paraphrase]]. The Valentinian and Basilidean movements rejected the body and its Maker [[alx.force.gnostic-challenge]] [[as:paraphrase]]. Timothy, bishop of Alexandria, answered practical questions put to him: [[quote:alx.quote.timothy-ordinary-questions]]\n",
+ "ending": "rewritten",
+ "final": "We honored marriage, we did not despise the body, and we held the home to be a place of formation. Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis. In the English we can offer you, Clement's book on marriage is left in Latin, so we cannot give you its detail. The Valentinian and Basilidean movements rejected the body and its Maker.",
+ "group": "A",
+ "offered": [
+  "alx.limit.marriage",
+  "alx.dw.church-failure",
+  "alx.term.eikon",
+  "alx.term.episkopos",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.learning-community-tension",
+  "alx.force.apostolic-tradition",
+  "alx.force.gnostic-challenge",
+  "alx.gravity.learning-formation"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "Only one question touches marriage, and that one is about an incestuous marriage in the 380s."
+   },
+   "record_id": "alx.quote.timothy-ordinary-questions"
+  }
+ ],
+ "question": "How did your community understand and mark marriage?",
+ "question_id": "q024",
+ "read": {
+  "dropped": [
+   "alx.quote.timothy-ordinary-questions"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "We honored marriage, we did not despise the body, and we held the home to be a place of formation.",
+   "tags": [
+    "alx.limit.marriage"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis.",
+   "tags": [
+    "alx.limit.marriage"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "In the English we can offer you, Clement's book on marriage is left in Latin, so we cannot give you its detail.",
+   "tags": [
+    "alx.limit.marriage"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.force.gnostic-challenge"
+   ],
+   "sentence": "The Valentinian and Basilidean movements rejected the body and its Maker.",
+   "tags": [
+    "alx.force.gnostic-challenge"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We honored marriage, we did not despise the body, and we held the home to be a place of formation.",
+   "tags": [
+    "alx.limit.marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis.",
+   "tags": [
+    "alx.limit.marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the English we can offer you, the book is left in Latin, so we cannot give you its detail.",
+   "tags": [
+    "alx.limit.marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Valentinian and Basilidean movements rejected the body and its Maker.",
+   "tags": [
+    "alx.force.gnostic-challenge"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": true,
+   "placed_id": "alx.quote.timothy-ordinary-questions",
+   "reason": "placed by code",
+   "sentence": "Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”",
+   "tags": [
+    "alx.quote.timothy-ordinary-questions"
+   ]
+  }
+ ],
+ "shipped_by_net": "We honored marriage, we did not despise the body, and we held the home to be a place of formation. Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis. In the English we can offer you, the book is left in Latin, so we cannot give you its detail. The Valentinian and Basilidean movements rejected the body and its Maker. Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”",
+ "sub_question": "C8.S4"
+}

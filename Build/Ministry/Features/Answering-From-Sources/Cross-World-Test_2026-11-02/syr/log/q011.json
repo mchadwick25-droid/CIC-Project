@@ -1,0 +1,176 @@
+{
+ "draft": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]]. Our word for the symbol is raza, and the raza is bound to the truth it shows [[syr.term.raza-shrara]] [[as:paraphrase]]. It is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].\n\nA modern reader may also be missing the song [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our teachers held that what God is, is better sung than dissected [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our native tongue for our faith was praise [[syr.dw.was-jesus-god]] [[as:paraphrase]].\n\nAs we reconstruct a typical morning in Nisibis before 363, it holds the covenant's vigil, sung hymns, the Gospel harmony read, and the vow lived at home [[syr.story.qyama-morning]] [[as:paraphrase]]. No such specific morning is recorded anywhere [[syr.story.qyama-morning]] [[as:paraphrase]]. The inner experience of the worshippers is not attested [[syr.story.qyama-morning]] [[as:paraphrase]].\n\nEphrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.a-pearl-upon-the-palm]]\n",
+ "ending": "rewritten",
+ "final": "Our word for the symbol is raza, and the raza is bound to the truth it shows. The raza is not a stand-in that a reader picks at will. Our teachers held that what God is, is better sung than dissected. Our native tongue for our faith was praise.",
+ "group": "A",
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.story.qyama-morning",
+  "syr.story.choirs-tradition",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows symbolic seeing in a pearl but does not speak of Scripture or what a modern reader misses."
+   },
+   "record_id": "syr.quote.a-pearl-upon-the-palm"
+  }
+ ],
+ "question": "A modern reader finds the scriptures confusing or dull - what would you say they are missing?",
+ "question_id": "q011",
+ "read": {
+  "dropped": [
+   "syr.quote.a-pearl-upon-the-palm"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "The record says a raza is a thing in Scripture or nature that shows a truth, not that each thing in Scripture does.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "Our word for the symbol is raza, and the raza is bound to the truth it shows.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The raza is not a stand-in that a reader picks at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our teachers held that what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our native tongue for our faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our word for the symbol is raza, and the raza is bound to the truth it shows.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "It is not a stand-in that a reader picks at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ]
+  },
+  {
+   "decision": "withhold_net",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": "tagged claim sharing no content word with its own tagged records",
+   "sentence": "A modern reader may also be missing the song.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers held that what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our native tongue for our faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "syr.quote.a-pearl-upon-the-palm",
+   "reason": "placed by code",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+   "tags": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ]
+  }
+ ],
+ "shipped_by_net": "A modern reader may be missing the symbol: each thing in Scripture shows a hidden truth, which we call the shrara. Our word for the symbol is raza, and the raza is bound to the truth it shows. It is not a stand-in that a reader picks at will.\n\nA modern reader may also be missing the song. Our teachers held that what God is, is better sung than dissected. Our native tongue for our faith was praise.\n\nIn today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+ "sub_question": "C5.S2"
+}

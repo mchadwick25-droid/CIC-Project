@@ -1,0 +1,525 @@
+{
+ "draft": "Among us a bishop was given a particular people, and he answered for what became of them [[lpc.witness.answerability-as-ground]] [[lpc.term.the-flock]] [[as:paraphrase]]. The people of that flock could stand before his seat and refuse to leave until he heard them [[lpc.term.the-flock]] [[as:paraphrase]]. Pontius, writing in praise of Cyprian, says God's judgment and the people's favour made Cyprian bishop [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. Later Cyprian named our suffrage and God's judgment side by side [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. Pontius tells of Cyprian's election: [[story:lpc.story.election-of-cyprian:short]]\n\nPontius alone says Cyprian was a new convert, and no other witness of ours confirms it [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. Authority also came with a charge. Augustine, our bishop at Hippo, wrote: [[quote:lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock]]\n\nOther claims pressed on the bishop's authority. A confessor was someone who was questioned for the Name, did not deny it, and lived [[lpc.term.confessor]] [[as:paraphrase]]. In Cyprian's time that standing could rival a bishop's own [[lpc.term.confessor]] [[as:paraphrase]]. Confessors wrote notes asking that named lapsed people be taken back, an informal claim to grant peace [[lpc.gravity.confessor-authority-vs-episcopal-peace]] [[as:paraphrase]]. Cyprian's penance, which the bishop ran and controlled, answered that rival claim [[lpc.gravity.confessor-authority-vs-episcopal-peace]] [[as:paraphrase]]. The road back came in public steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].\n\nOur church was already organized enough to hold factions, and to call councils of dozens of bishops [[lpc.force.organized-carthaginian-church]] [[as:paraphrase]]. When our bishops disagreed, the one bond they both answered to held the disagreement inside it [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Among us a bishop was given a particular people, and the bishop answered for what became of the people. The people of a bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them. Pontius, writing in praise of Cyprian, says God's judgment and the people's favour made Cyprian bishop. Later Cyprian named our suffrage and God's judgment side by side. Pontius tells of Cyprian's election. Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\" He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was. For us, the people's favour was the way we saw God's judgment at work. In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment. Pontius alone says Cyprian was a new convert, and no other witness of ours confirms that Cyprian was a new convert. A confessor was someone who was questioned for the Name, did not deny the Name, and lived. In Cyprian's time a confessor's standing could rival a bishop's own. Confessors wrote notes asking that named lapsed people be taken back, an informal claim to grant peace. Cyprian's penance, which the bishop ran and controlled, answered the confessors' rival claim. The road back came in public steps under the bishop. Our church was already organized enough to hold factions, and to call councils of dozens of bishops.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.confessor",
+  "lpc.term.the-flock",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.womens-own-voice",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.the-lapsed",
+  "lpc.quote.before-even-a-deacon"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "fits",
+    "limit_stated": false,
+    "reason": "It shows how a bishop's authority was established, by God's judgment and the people's favour, though only in Cyprian's case."
+   },
+   "record_id": "lpc.story.election-of-cyprian"
+  },
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It speaks of the motive and duty of those who feed Christ's flock, not of how authority was established, and names no rank."
+   },
+   "record_id": "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+  }
+ ],
+ "question": "Explain how leadership and authority were established within your community.",
+ "question_id": "q014",
+ "read": {
+  "dropped": [
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "18": {
+    "problem": "stronger_force",
+    "reason": "The record gives this as 'as we see it', an Inferential-Thin reading of ours, and the sentence states it flatly.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.term.the-flock"
+   ],
+   "sentence": "Among us a bishop was given a particular people, and the bishop answered for what became of the people.",
+   "tags": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.term.the-flock"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "The people of a bishop's flock could stand before the bishop's seat and refuse to leave until the bishop heard them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius, writing in praise of Cyprian, says God's judgment and the people's favour made Cyprian bishop.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Later Cyprian named our suffrage and God's judgment side by side.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius tells of Cyprian's election.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "question_id": "q014",
+   "reason": "placed by code",
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "question_id": "q014",
+   "reason": "placed by code",
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\"",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "question_id": "q014",
+   "reason": "placed by code",
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "question_id": "q014",
+   "reason": "placed by code",
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "For us, the people's favour was the way we saw God's judgment at work.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "question_id": "q014",
+   "reason": "placed by code",
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius alone says Cyprian was a new convert, and no other witness of ours confirms that Cyprian was a new convert.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.confessor"
+   ],
+   "sentence": "A confessor was someone who was questioned for the Name, did not deny the Name, and lived.",
+   "tags": [
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.confessor"
+   ],
+   "sentence": "In Cyprian's time a confessor's standing could rival a bishop's own.",
+   "tags": [
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.confessor-authority-vs-episcopal-peace"
+   ],
+   "sentence": "Confessors wrote notes asking that named lapsed people be taken back, an informal claim to grant peace.",
+   "tags": [
+    "lpc.gravity.confessor-authority-vs-episcopal-peace"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.confessor-authority-vs-episcopal-peace"
+   ],
+   "sentence": "Cyprian's penance, which the bishop ran and controlled, answered the confessors' rival claim.",
+   "tags": [
+    "lpc.gravity.confessor-authority-vs-episcopal-peace"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The road back came in public steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.force.organized-carthaginian-church"
+   ],
+   "sentence": "Our church was already organized enough to hold factions, and to call councils of dozens of bishops.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Among us a bishop was given a particular people, and he answered for what became of them.",
+   "tags": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.term.the-flock"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The people of that flock could stand before his seat and refuse to leave until he heard them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Pontius, writing in praise of Cyprian, says God's judgment and the people's favour made Cyprian bishop.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Later Cyprian named our suffrage and God's judgment side by side.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Pontius tells of Cyprian's election:",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\"",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 8,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "For us, the people's favour was the way we saw God's judgment at work.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": true,
+   "placed_id": "lpc.story.election-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 10,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Pontius alone says Cyprian was a new convert, and no other witness of ours confirms it.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 11,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "Authority also came with a charge.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 12,
+   "placed": true,
+   "placed_id": "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+   "reason": "placed by code",
+   "sentence": "Augustine, our bishop at Hippo, wrote: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”",
+   "tags": [
+    "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+   ]
+  },
+  {
+   "decision": "withhold_net",
+   "label": null,
+   "n": 13,
+   "placed": false,
+   "placed_id": null,
+   "reason": "specific claim (figure-name:[\"bishop's\"]) with no citation tag",
+   "sentence": "Other claims pressed on the bishop's authority.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 14,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A confessor was someone who was questioned for the Name, did not deny it, and lived.",
+   "tags": [
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 15,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In Cyprian's time that standing could rival a bishop's own.",
+   "tags": [
+    "lpc.term.confessor"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 16,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Confessors wrote notes asking that named lapsed people be taken back, an informal claim to grant peace.",
+   "tags": [
+    "lpc.gravity.confessor-authority-vs-episcopal-peace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 17,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian's penance, which the bishop ran and controlled, answered that rival claim.",
+   "tags": [
+    "lpc.gravity.confessor-authority-vs-episcopal-peace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 18,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The road back came in public steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 19,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our church was already organized enough to hold factions, and to call councils of dozens of bishops.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 20,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "When our bishops disagreed, the one bond they both answered to held the disagreement inside it.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ]
+  }
+ ],
+ "shipped_by_net": "Among us a bishop was given a particular people, and he answered for what became of them. The people of that flock could stand before his seat and refuse to leave until he heard them. Pontius, writing in praise of Cyprian, says God's judgment and the people's favour made Cyprian bishop. Later Cyprian named our suffrage and God's judgment side by side. Pontius tells of Cyprian's election:\n\nOur deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\" He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was. For us, the people's favour was the way we saw God's judgment at work. In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.\n\nPontius alone says Cyprian was a new convert, and no other witness of ours confirms it. Authority also came with a charge. Augustine, our bishop at Hippo, wrote: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”\n\nOther claims pressed on the bishop's authority. A confessor was someone who was questioned for the Name, did not deny it, and lived. In Cyprian's time that standing could rival a bishop's own. Confessors wrote notes asking that named lapsed people be taken back, an informal claim to grant peace. Cyprian's penance, which the bishop ran and controlled, answered that rival claim. The road back came in public steps under the bishop.\n\nOur church was already organized enough to hold factions, and to call councils of dozens of bishops. When our bishops disagreed, the one bond they both answered to held the disagreement inside it.",
+ "sub_question": "C6.S1"
+}

@@ -1,0 +1,198 @@
+[
+ {
+  "id": "q001",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.story.abgar-addai-legend",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.apostolic"
+ },
+ {
+  "id": "q002",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.jesus",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.jesus"
+ },
+ {
+  "id": "q003",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.physician",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.physician"
+ },
+ {
+  "id": "q004",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.was-jesus-god",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.was-jesus-god"
+ },
+ {
+  "id": "q005",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.decides",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.decides"
+ },
+ {
+  "id": "q006",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.god",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.god"
+ },
+ {
+  "id": "q007",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.doubt",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.doubt"
+ },
+ {
+  "id": "q008",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.adam-grace",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.adam-grace"
+ },
+ {
+  "id": "q009",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.corpus-and-its-edges",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.corpus-and-its-edges"
+ },
+ {
+  "id": "q010",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.term.raza-shrara",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.reading"
+ },
+ {
+  "id": "q011",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.term.raza-shrara",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.reading"
+ },
+ {
+  "id": "q012",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.reading",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.reading"
+ },
+ {
+  "id": "q013",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.outsiders-empire"
+ },
+ {
+  "id": "q014",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.authority-lived",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.authority-lived"
+ },
+ {
+  "id": "q015",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "syr.dw.failures"
+ },
+ {
+  "id": "q016",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.dw.one-church",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "syr.dw.one-church"
+ },
+ {
+  "id": "q017",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.dw.corpus-and-its-edges",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.apostolic"
+ },
+ {
+  "id": "q018",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.limit.ritual-sequence",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.limit.ritual-sequence"
+ },
+ {
+  "id": "q019",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.dw.penitence-prayer",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.doubt"
+ },
+ {
+  "id": "q020",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.born-again-endtimes",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.born-again-endtimes"
+ },
+ {
+  "id": "q021",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.remains",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.remains"
+ },
+ {
+  "id": "q022",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.gravity.covenant-life",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.story.qyama-morning"
+ },
+ {
+  "id": "q023",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.quote.warned-before-baptism",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.cost-distance"
+ },
+ {
+  "id": "q024",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.limit.marriage",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.limit.marriage"
+ },
+ {
+  "id": "q025",
+  "fit_in_offer": "partly",
+  "best_in_offer": "syr.dw.corpus-and-its-edges",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "syr.dw.corpus-and-its-edges"
+ },
+ {
+  "id": "q026",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.unsettled"
+ },
+ {
+  "id": "q027",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.demo.someone-like-me"
+ },
+ {
+  "id": "q028",
+  "fit_in_offer": "yes",
+  "best_in_offer": "syr.dw.death-judgment",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "syr.dw.death-judgment"
+ }
+]

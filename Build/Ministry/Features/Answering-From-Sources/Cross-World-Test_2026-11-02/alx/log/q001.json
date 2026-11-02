@@ -1,0 +1,196 @@
+{
+ "draft": "What reached us came through teachers and their students, a remembered line of them in Alexandria [[alx.term.catechetical-school]] [[as:paraphrase]]. Our word for such a teacher was didaskalos, and the teacher's standing rested on wisdom the community could see, not on a title [[alx.term.didaskalos]] [[as:paraphrase]]. Whether a formal school stood behind that line is disputed [[alx.term.catechetical-school]] [[as:paraphrase]].\n\nClement, opening the Stromateis, wrote of his final teacher, whom he does not name there: [[quote:alx.quote.clement-bee]]\n\nEusebius is the one who names that teacher as Pantaenus, and Clement does not name him in that place [[alx.quote.clement-bee]] [[as:paraphrase]]. In the school tradition, study and the bond between teacher and student were themselves the path of formation, strongest in the early and middle years [[alx.gravity.learning-formation]] [[as:paraphrase]].\n\nWhen belief was disputed, our teachers first argued with books, lectures, and letters, and authority went to proven wisdom [[alx.dw.councils]] [[as:paraphrase]]. Later the bishop's judgment grew, and at Nicaea bishops from everywhere ruled on the disputed confession for all [[alx.dw.councils]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "What reached us came through teachers and their students, a remembered line of teachers and students in Alexandria. Our word for a teacher was didaskalos, and the teacher's standing rested on wisdom the community could see, not on a title. Whether a formal school stood behind the remembered line of teachers in Alexandria is disputed. In the school tradition, study and the bond between teacher and student were themselves the path of formation, strongest in the early and middle years. When belief was disputed, our teachers first argued with books, lectures, and letters, and authority went to proven wisdom. Later the bishop's judgment grew, and at Nicaea bishops from everywhere ruled on the disputed confession for all.",
+ "group": "A",
+ "offered": [
+  "alx.dw.councils",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-nepos",
+  "alx.dw.church-failure",
+  "alx.term.catechetical-school",
+  "alx.term.didaskalos",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.post-nicene-authority-shift",
+  "alx.force.teacher-bishop-ongoing",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows a teacher passing on prophetic and apostolic teaching but does not directly name the sources linking the community to Jesus."
+   },
+   "record_id": "alx.quote.clement-bee"
+  }
+ ],
+ "question": "What sources, if any, connected your community to Jesus, and by what path did they arrive?",
+ "question_id": "q001",
+ "read": {
+  "dropped": [
+   "alx.quote.clement-bee"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.catechetical-school"
+   ],
+   "sentence": "What reached us came through teachers and their students, a remembered line of teachers and students in Alexandria.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.didaskalos"
+   ],
+   "sentence": "Our word for a teacher was didaskalos, and the teacher's standing rested on wisdom the community could see, not on a title.",
+   "tags": [
+    "alx.term.didaskalos"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.catechetical-school"
+   ],
+   "sentence": "Whether a formal school stood behind the remembered line of teachers in Alexandria is disputed.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, study and the bond between teacher and student were themselves the path of formation, strongest in the early and middle years.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.councils"
+   ],
+   "sentence": "When belief was disputed, our teachers first argued with books, lectures, and letters, and authority went to proven wisdom.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.councils"
+   ],
+   "sentence": "Later the bishop's judgment grew, and at Nicaea bishops from everywhere ruled on the disputed confession for all.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What reached us came through teachers and their students, a remembered line of them in Alexandria.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our word for such a teacher was didaskalos, and the teacher's standing rested on wisdom the community could see, not on a title.",
+   "tags": [
+    "alx.term.didaskalos"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whether a formal school stood behind that line is disputed.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": true,
+   "placed_id": "alx.quote.clement-bee",
+   "reason": "placed by code",
+   "sentence": "Clement, opening the Stromateis, wrote of his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”",
+   "tags": [
+    "alx.quote.clement-bee"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the school tradition, study and the bond between teacher and student were themselves the path of formation, strongest in the early and middle years.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "When belief was disputed, our teachers first argued with books, lectures, and letters, and authority went to proven wisdom.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Later the bishop's judgment grew, and at Nicaea bishops from everywhere ruled on the disputed confession for all.",
+   "tags": [
+    "alx.dw.councils"
+   ]
+  }
+ ],
+ "shipped_by_net": "What reached us came through teachers and their students, a remembered line of them in Alexandria. Our word for such a teacher was didaskalos, and the teacher's standing rested on wisdom the community could see, not on a title. Whether a formal school stood behind that line is disputed.\n\nClement, opening the Stromateis, wrote of his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”\n\nIn the school tradition, study and the bond between teacher and student were themselves the path of formation, strongest in the early and middle years.\n\nWhen belief was disputed, our teachers first argued with books, lectures, and letters, and authority went to proven wisdom. Later the bishop's judgment grew, and at Nicaea bishops from everywhere ruled on the disputed confession for all.",
+ "sub_question": "C1.S5"
+}

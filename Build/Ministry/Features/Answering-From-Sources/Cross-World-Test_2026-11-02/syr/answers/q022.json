@@ -1,0 +1,190 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ],
+   "sentence": "The covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation."
+  },
+  {
+   "record_ids": [
+    "syr.force.frontier-plural-milieu"
+   ],
+   "sentence": "Around us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "We gathered on the first day and kept the fasts."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace",
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”"
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "sentence": "We can tell you how men praised the daughters of the covenant, but we cannot give you their own words."
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-enslaved"
+   ],
+   "sentence": "Of the days of the enslaved inside our own churches, we can tell you nothing true."
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.dw.apostolic",
+  "syr.force.frontier-plural-milieu",
+  "syr.gravity.covenant-life",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.limit.what-must-one-do",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation [[syr.term.qyama]] [[syr.gravity.covenant-life]] [[as:paraphrase]].",
+   "sentence": "The covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation.",
+   "tags": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Around us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan [[syr.force.frontier-plural-milieu]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Around us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan.",
+   "tags": [
+    "syr.force.frontier-plural-milieu"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "We gathered on the first day and kept the fasts [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "We gathered on the first day and kept the fasts.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith [[syr.dw.adam-grace]] [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Aphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith.",
+   "tags": [
+    "syr.dw.adam-grace",
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]",
+   "placed_quote": "syr.quote.aphrahat-stone-foundation",
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”",
+   "tags": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We can tell you how men praised the daughters of the covenant, but we cannot give you their own words [[syr.limit.f5-women-own-words]] [[as:paraphrase]].",
+   "sentence": "We can tell you how men praised the daughters of the covenant, but we cannot give you their own words.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Of the days of the enslaved inside our own churches, we can tell you nothing true [[syr.limit.f5-enslaved]] [[as:paraphrase]].",
+   "sentence": "Of the days of the enslaved inside our own churches, we can tell you nothing true.",
+   "tags": [
+    "syr.limit.f5-enslaved"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.term.qyama",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.gravity.covenant-life",
+  "syr.force.frontier-plural-milieu",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.aphrahat-stone-foundation"
+ ],
+ "raw_text": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]].\n\nThe covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation [[syr.term.qyama]] [[syr.gravity.covenant-life]] [[as:paraphrase]].\n\nAround us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan [[syr.force.frontier-plural-milieu]] [[as:paraphrase]].\n\nWe gathered on the first day and kept the fasts [[syr.dw.apostolic]] [[as:paraphrase]].\n\nAphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith [[syr.dw.adam-grace]] [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n\nThe Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]\n\nWe can tell you how men praised the daughters of the covenant, but we cannot give you their own words [[syr.limit.f5-women-own-words]] [[as:paraphrase]].\n\nOf the days of the enslaved inside our own churches, we can tell you nothing true [[syr.limit.f5-enslaved]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-stone-foundation": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "the structure rises until it is completed. Aphrahat says in Demonstration I that Jesus Christ is the true Stone founding all faith, a",
+     "span": "record syr.quote.aphrahat-stone-foundation"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.aphrahat-stone-foundation"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "For the vowed, the day was service in town: the fast, the watch, the vigil, and the singing.\n\nThe covenant's sons and daughters did not leave for the desert, but stayed among their own kin and served the congregation.\n\nAround us in Edessa lived pagans, a large Jewish community, and followers of Marcion and Bardaisan.\n\nWe gathered on the first day and kept the fasts.\n\nAphrahat taught faith as a house raised on Christ the Stone, with fasting, prayer, love, almsgiving, and meekness built on faith.\n\nThe Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”\n\nWe can tell you how men praised the daughters of the covenant, but we cannot give you their own words.\n\nOf the days of the enslaved inside our own churches, we can tell you nothing true.",
+ "voice_set_aside": false
+}

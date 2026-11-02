@@ -1,0 +1,139 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation."
+  },
+  {
+   "record_ids": [
+    "alx.force.post-nicene-authority-shift"
+   ],
+   "sentence": "The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-possessions"
+   ],
+   "sentence": "Clement wrote in Quis Dives Salvetur 16: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”"
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.force.post-nicene-authority-shift",
+  "alx.quote.clement-possessions"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools [[alx.force.post-nicene-authority-shift]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools.",
+   "tags": [
+    "alx.force.post-nicene-authority-shift"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Clement wrote in Quis Dives Salvetur 16: [[quote:alx.quote.clement-possessions]]",
+   "placed_quote": "alx.quote.clement-possessions",
+   "sentence": "Clement wrote in Quis Dives Salvetur 16: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”",
+   "tags": [
+    "alx.quote.clement-possessions"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.episkopos",
+  "alx.story.arsinoite-conference",
+  "alx.story.origen-daring-deed",
+  "alx.story.origen-demetrius",
+  "alx.quote.dionysius-nepos",
+  "alx.force.post-nicene-authority-shift",
+  "alx.contested.allegory-from-within",
+  "alx.term.photismos",
+  "alx.quote.clement-possessions",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution"
+ ],
+ "raw_text": "After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]]. The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools [[alx.force.post-nicene-authority-shift]] [[as:paraphrase]]. Dionysius answered Nepos's book in the Arsinoite villages with three days of open argument, until Coracion was persuaded [[alx.story.arsinoite-conference]] [[as:paraphrase]]. Origen was ordained in Palestine without Demetrius's consent, and Demetrius condemned him [[alx.story.origen-demetrius]] [[as:paraphrase]]. Origen then left Alexandria for Caesarea [[alx.story.origen-demetrius]] [[as:paraphrase]]. Clement wrote in Quis Dives Salvetur 16: [[quote:alx.quote.clement-possessions]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-possessions": [
+    {
+     "detail": "Quis",
+     "kind": "name",
+     "snippet": "dom of heaven, not one who could not live rich. Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as G",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "Dives",
+     "kind": "name",
+     "snippet": "f heaven, not one who could not live rich. Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as God's g",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "Salvetur",
+     "kind": "name",
+     "snippet": "en, not one who could not live rich. Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as God's gift for o",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "16",
+     "kind": "number",
+     "snippet": "of the kingdom of heaven, not one who could not live rich. 16 (anf02 ) For he who holds possessions, and gold, and silve",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does c. 150 (tr",
+     "span": "record alx.figure.clement"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-possessions"
+  ],
+  "removed": [
+   {
+    "draft": "Dionysius answered Nepos's book in the Arsinoite villages with three days of open argument, until Coracion was persuaded [[alx.story.arsinoite-conference]] [[as:paraphrase]].",
+    "sentence": "Dionysius answered Nepos's book in the Arsinoite villages with three days of open argument, until Coracion was persuaded.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "Origen was ordained in Palestine without Demetrius's consent, and Demetrius condemned him [[alx.story.origen-demetrius]] [[as:paraphrase]].",
+    "sentence": "Origen was ordained in Palestine without Demetrius's consent, and Demetrius condemned him.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "Origen then left Alexandria for Caesarea [[alx.story.origen-demetrius]] [[as:paraphrase]].",
+    "sentence": "Origen then left Alexandria for Caesarea.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "After Nicaea, the church itself learned to use exile and condemnation. The bishop of Alexandria became the enforcer of the drawn confession across Egypt, with exile, letter-networks, and synods as his tools. Clement wrote in Quis Dives Salvetur 16: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”",
+ "voice_set_aside": false
+}

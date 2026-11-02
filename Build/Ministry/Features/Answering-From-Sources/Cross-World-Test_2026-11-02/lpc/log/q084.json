@@ -1,0 +1,104 @@
+{
+ "draft": "Yes, we can read together, and what we can set before you are the words our two bishops spoke and wrote themselves [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nAugustine wrote: [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]\n\nScripture stood above all our bishops' own writings, and Augustine said that about what it contains there can be no doubt or argument [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].\n",
+ "ending": "abstained_rewrite_failed_read",
+ "final": "We do not have that here.",
+ "group": "G",
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.the-flock",
+  "lpc.term.suffrage",
+  "lpc.quote.clamour-and-tears",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.the-one-episcopate",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.quote.bishop-of-bishops"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It is Augustine on John 6 and eating the food that lasts, not a reading of John 1:1 'In the beginning was the Word'."
+   },
+   "record_id": "lpc.quote.believe-and-thou-hast-eaten-already"
+  }
+ ],
+ "question": "Can we actually read something together? The start of John — 'In the beginning was the Word.'",
+ "question_id": "q084",
+ "read": {
+  "dropped": [
+   "lpc.quote.believe-and-thou-hast-eaten-already"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Yes, we can read together, and what we can set before you are the words our two bishops spoke and wrote themselves.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "Scripture stood above all our bishops' own writings, and Augustine said that about what Scripture contains there can be no doubt or argument.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yes, we can read together, and what we can set before you are the words our two bishops spoke and wrote themselves.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 1,
+   "placed": true,
+   "placed_id": "lpc.quote.believe-and-thou-hast-eaten-already",
+   "reason": "placed by code",
+   "sentence": "Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”",
+   "tags": [
+    "lpc.quote.believe-and-thou-hast-eaten-already"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Scripture stood above all our bishops' own writings, and Augustine said that about what it contains there can be no doubt or argument.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ]
+  }
+ ],
+ "shipped_by_net": "Yes, we can read together, and what we can set before you are the words our two bishops spoke and wrote themselves.\n\nAugustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”\n\nScripture stood above all our bishops' own writings, and Augustine said that about what it contains there can be no doubt or argument.",
+ "sub_question": "C5.S8"
+}

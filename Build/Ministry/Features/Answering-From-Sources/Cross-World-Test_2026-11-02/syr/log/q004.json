@@ -1,0 +1,272 @@
+{
+ "draft": "Jesus is God, we said, in our own way of speaking [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our sage used a chain of Scripture's own names, not a philosopher's definition [[syr.dw.was-jesus-god]] [[as:paraphrase]]. The Persian sage wrote in Demonstration XVII: [[quote:syr.quote.aphrahat-sure-thing]]\n\nOur poet confesses the Only-Begotten who was with Deity and came to dwell among us [[syr.dw.was-jesus-god]] [[syr.dw.jesus]] [[as:paraphrase]]. Asked about the Trinity, we answered from our font [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our teachers held that in baptism's second birth the believer received the Holy Spirit [[syr.dw.was-jesus-god]] [[as:paraphrase]].\n\nThen we guarded the mystery [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our teachers warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our tradition remembers that our own bishop of Nisibis sat at Nicaea [[syr.dw.was-jesus-god]] [[syr.story.jacob-nicaea]] [[as:paraphrase]]. No account of what he said or did at the council survives [[syr.story.jacob-nicaea]] [[as:paraphrase]]. Our native tongue for the faith was praise [[syr.dw.was-jesus-god]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Jesus is God, we said, in our own way of speaking. Our sage used a chain of Scripture's own names, not a philosopher's definition. Our poet confesses the Only-Begotten who was with Deity and came to dwell among us. Asked about the Trinity, we answered from our font. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized. Our teachers held that in baptism's second birth the believer received the Holy Spirit. Then we guarded the mystery. Our teachers warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected. Our native tongue for our faith was praise.",
+ "group": "A",
+ "offered": [
+  "syr.dw.was-jesus-god",
+  "syr.term.raza-shrara",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.gravity.covenant-life",
+  "syr.contested.edessa-origins",
+  "syr.dw.god",
+  "syr.quote.basil-credits-a-syrian",
+  "syr.quote.a-man-called-wise-amongst-the-jews",
+  "syr.dw.jesus",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.ephrem-only-begotten-dwelling",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It affirms Jesus as God and Son of God but says nothing of his relation to the Father and the Spirit."
+   },
+   "record_id": "syr.quote.aphrahat-sure-thing"
+  }
+ ],
+ "question": "Explain your community's understanding of Jesus's divine status and its relation to God the Father and the Spirit.",
+ "question_id": "q004",
+ "read": {
+  "dropped": [
+   "syr.quote.aphrahat-sure-thing"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Jesus is God, we said, in our own way of speaking.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our sage used a chain of Scripture's own names, not a philosopher's definition.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god",
+    "syr.dw.jesus"
+   ],
+   "sentence": "Our poet confesses the Only-Begotten who was with Deity and came to dwell among us.",
+   "tags": [
+    "syr.dw.was-jesus-god",
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Asked about the Trinity, we answered from our font.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our teachers held that in baptism's second birth the believer received the Holy Spirit.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Then we guarded the mystery.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our teachers warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our native tongue for our faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Jesus is God, we said, in our own way of speaking.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our sage used a chain of Scripture's own names, not a philosopher's definition.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": true,
+   "placed_id": "syr.quote.aphrahat-sure-thing",
+   "reason": "placed by code",
+   "sentence": "The Persian sage wrote in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”",
+   "tags": [
+    "syr.quote.aphrahat-sure-thing"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our poet confesses the Only-Begotten who was with Deity and came to dwell among us.",
+   "tags": [
+    "syr.dw.was-jesus-god",
+    "syr.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Asked about the Trinity, we answered from our font.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers held that in baptism's second birth the believer received the Holy Spirit.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Then we guarded the mystery.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our native tongue for the faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ]
+  }
+ ],
+ "shipped_by_net": "Jesus is God, we said, in our own way of speaking. Our sage used a chain of Scripture's own names, not a philosopher's definition. The Persian sage wrote in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”\n\nOur poet confesses the Only-Begotten who was with Deity and came to dwell among us. Asked about the Trinity, we answered from our font. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized. Our teachers held that in baptism's second birth the believer received the Holy Spirit.\n\nThen we guarded the mystery. Our teachers warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected. Our native tongue for the faith was praise.",
+ "sub_question": "C1.S2"
+}

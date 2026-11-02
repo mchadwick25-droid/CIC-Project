@@ -1,0 +1,9 @@
+{"sentences": [
+{"n": 1, "supported": true, "problem": null, "reason": "The record says that for our bishop baptism was a regeneration, a birth."},
+{"n": 2, "supported": true, "problem": null, "reason": "The record says Cyprian wrote to Jubaianus about people coming from heresy."},
+{"n": 3, "supported": true, "problem": null, "reason": "The record quotes Cyprian on being prepared by divine regeneration for the kingdom of God and born of both sacraments, without naming the sacraments."},
+{"n": 4, "supported": true, "problem": null, "reason": "The record says he gave his reason from Scripture, citing John 3:5 on being born of water and of the Spirit."},
+{"n": 5, "supported": true, "problem": null, "reason": "The limit record says we cannot tell what an ordinary believer felt standing at the font."},
+{"n": 6, "supported": true, "problem": null, "reason": "The limit record says we can tell what was decided about a person, how carefully and by whom."}
+],
+"placed": []}

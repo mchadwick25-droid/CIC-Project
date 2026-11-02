@@ -1,0 +1,191 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "We read Scripture as the final authority for our doctrine and our church order, above church tradition or a pope's decree."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Whatever Scripture will not yield, we have no standing to require."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Whatever Scripture does yield, no pope, council, or custom may set aside."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "At Zurich we put this into practice through public Disputation, argued aloud before the city council until the council judged what the text had yielded."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "At Geneva we used sustained catechesis, with doctrine built up book by book and taught to the whole population."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Our two cities never borrowed each other's method."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "Each time a rival claim came, we asked the same question: does this reading hold against Scripture?"
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "The Anabaptist schism of 1525 tested our method from inside our own founding circle."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "We do not deny the Anabaptists read Scripture, but we deny they read it whole."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.what-scripture-asked-of-a-modern-reader"
+   ],
+   "sentence": "Nothing in our record reflects on whether the violent content of Scripture troubled our people."
+  }
+ ],
+ "citations": [
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.limit.what-scripture-asked-of-a-modern-reader",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.a-narrow-true-church"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read Scripture as the final authority for our doctrine and our church order, above church tradition or a pope's decree [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "We read Scripture as the final authority for our doctrine and our church order, above church tradition or a pope's decree.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whatever Scripture will not yield, we have no standing to require [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "sentence": "Whatever Scripture will not yield, we have no standing to require.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whatever Scripture does yield, no pope, council, or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "sentence": "Whatever Scripture does yield, no pope, council, or custom may set aside.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Zurich we put this into practice through public Disputation, argued aloud before the city council until the council judged what the text had yielded [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "At Zurich we put this into practice through public Disputation, argued aloud before the city council until the council judged what the text had yielded.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "At Geneva we used sustained catechesis, with doctrine built up book by book and taught to the whole population [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "At Geneva we used sustained catechesis, with doctrine built up book by book and taught to the whole population.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "Our two cities never borrowed each other's method [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our two cities never borrowed each other's method.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Each time a rival claim came, we asked the same question: does this reading hold against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]?",
+   "sentence": "Each time a rival claim came, we asked the same question: does this reading hold against Scripture?",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Anabaptist schism of 1525 tested our method from inside our own founding circle [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Anabaptist schism of 1525 tested our method from inside our own founding circle.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We do not deny the Anabaptists read Scripture, but we deny they read it whole [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "We do not deny the Anabaptists read Scripture, but we deny they read it whole.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Nothing in our record reflects on whether the violent content of Scripture troubled our people [[rzg.limit.what-scripture-asked-of-a-modern-reader]] [[as:paraphrase]].",
+   "sentence": "Nothing in our record reflects on whether the violent content of Scripture troubled our people.",
+   "tags": [
+    "rzg.limit.what-scripture-asked-of-a-modern-reader"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.what-scripture-asked-of-a-modern-reader",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.term.sola-scriptura",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.force.anabaptist-schism"
+ ],
+ "raw_text": "We read Scripture as the final authority for our doctrine and our church order, above church tradition or a pope's decree [[rzg.term.sola-scriptura]] [[as:paraphrase]].\n\nWhatever Scripture will not yield, we have no standing to require [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nWhatever Scripture does yield, no pope, council, or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nAt Zurich we put this into practice through public Disputation, argued aloud before the city council until the council judged what the text had yielded [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nAt Geneva we used sustained catechesis, with doctrine built up book by book and taught to the whole population [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nOur two cities never borrowed each other's method [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nEach time a rival claim came, we asked the same question: does this reading hold against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]?\n\nThe Anabaptist schism of 1525 tested our method from inside our own founding circle [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[rzg.force.anabaptist-schism]] [[as:paraphrase]].\n\nWe do not deny the Anabaptists read Scripture, but we deny they read it whole [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nNothing in our record reflects on whether the violent content of Scripture troubled our people [[rzg.limit.what-scripture-asked-of-a-modern-reader]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read Scripture as the final authority for our doctrine and our church order, above church tradition or a pope's decree.\n\nWhatever Scripture will not yield, we have no standing to require.\n\nWhatever Scripture does yield, no pope, council, or custom may set aside.\n\nAt Zurich we put this into practice through public Disputation, argued aloud before the city council until the council judged what the text had yielded.\n\nAt Geneva we used sustained catechesis, with doctrine built up book by book and taught to the whole population.\n\nOur two cities never borrowed each other's method.\n\nEach time a rival claim came, we asked the same question: does this reading hold against Scripture?\n\nThe Anabaptist schism of 1525 tested our method from inside our own founding circle.\n\nWe do not deny the Anabaptists read Scripture, but we deny they read it whole.\n\nNothing in our record reflects on whether the violent content of Scripture troubled our people.",
+ "voice_set_aside": false
+}

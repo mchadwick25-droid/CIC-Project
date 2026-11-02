@@ -1,0 +1,172 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "Our exact tradition was one conviction tested two ways, and the two cities never became one arrangement."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "The conviction was this: Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Zurich we argued the conviction aloud before the council, and at Geneva we built doctrine up article by article through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.consistory"
+   ],
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it."
+  },
+  {
+   "record_ids": [
+    "rzg.term.mutual-consent"
+   ],
+   "sentence": "In 1549 the two cities agreed one text on the Supper, which we called Mutual Consent."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.signs-and-things-signified"
+   ],
+   "sentence": "In today's English, the Ministers of the Church of Zurich and John Calvin says: “Therefore, though we distinguish signs from the things signified, as we ought, we do not separate the thing itself from the signs...”"
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "sentence": "We hold both Zwingli's 1523 word and the 1549 formula as our own, and our record does not decide which is the last word."
+  }
+ ],
+ "citations": [
+  "rzg.quote.signs-and-things-signified",
+  "rzg.term.consistory",
+  "rzg.term.mutual-consent",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.witness.one-supper-two-poles"
+ ],
+ "group": "A",
+ "id": "q016",
+ "net_sentences": [
+  {
+   "draft": "Our exact tradition was one conviction tested two ways, and the two cities never became one arrangement [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "Our exact tradition was one conviction tested two ways, and the two cities never became one arrangement.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "The conviction was this: Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "The conviction was this: Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Zurich we argued the conviction aloud before the council, and at Geneva we built doctrine up article by article through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich we argued the conviction aloud before the council, and at Geneva we built doctrine up article by article through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In 1549 the two cities agreed one text on the Supper, which we called Mutual Consent [[rzg.term.mutual-consent]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "In 1549 the two cities agreed one text on the Supper, which we called Mutual Consent.",
+   "tags": [
+    "rzg.term.mutual-consent"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "The Ministers of the Church of Zurich and John Calvin, Minister of the Church of Geneva, wrote together: [[quote:rzg.quote.signs-and-things-signified]]",
+   "placed_quote": "rzg.quote.signs-and-things-signified",
+   "sentence": "In today's English, the Ministers of the Church of Zurich and John Calvin says: “Therefore, though we distinguish signs from the things signified, as we ought, we do not separate the thing itself from the signs...”",
+   "tags": [
+    "rzg.quote.signs-and-things-signified"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We hold both Zwingli's 1523 word and the 1549 formula as our own, and our record does not decide which is the last word [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We hold both Zwingli's 1523 word and the 1549 formula as our own, and our record does not decide which is the last word.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.consistory",
+  "rzg.term.elder",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.term.mutual-consent",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.mass-not-a-sacrifice"
+ ],
+ "raw_text": "Our exact tradition was one conviction tested two ways, and the two cities never became one arrangement [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\nThe conviction was this: Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\nAt Zurich we argued the conviction aloud before the council, and at Geneva we built doctrine up article by article through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\nZurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.consistory]] [[as:paraphrase]].\nIn 1549 the two cities agreed one text on the Supper, which we called Mutual Consent [[rzg.term.mutual-consent]] [[as:paraphrase]].\nThe Ministers of the Church of Zurich and John Calvin, Minister of the Church of Geneva, wrote together: [[quote:rzg.quote.signs-and-things-signified]]\nWe hold both Zwingli's 1523 word and the 1549 formula as our own, and our record does not decide which is the last word [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.signs-and-things-signified"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "The Ministers of the Church of Zurich and John Calvin, Minister of the Church of Geneva, wrote together: [[quote:rzg.quote.signs-and-things-signified]]",
+    "lead_in": "In today's English, the Ministers of the Church of Zurich and John Calvin says",
+    "unresolved": [
+     {
+      "detail": "Minister",
+      "kind": "name"
+     },
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Our exact tradition was one conviction tested two ways, and the two cities never became one arrangement. The conviction was this: Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us. At Zurich we argued the conviction aloud before the council, and at Geneva we built doctrine up article by article through the Catechism. Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it. In 1549 the two cities agreed one text on the Supper, which we called Mutual Consent. In today's English, the Ministers of the Church of Zurich and John Calvin says: “Therefore, though we distinguish signs from the things signified, as we ought, we do not separate the thing itself from the signs...”\n\nWe hold both Zwingli's 1523 word and the 1549 formula as our own, and our record does not decide which is the last word.",
+ "voice_set_aside": false
+}

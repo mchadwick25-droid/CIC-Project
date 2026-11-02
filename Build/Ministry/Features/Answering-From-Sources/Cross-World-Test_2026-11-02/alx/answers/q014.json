@@ -1,0 +1,153 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.empire"
+   ],
+   "sentence": "What we hold is that danger came on and off across three centuries before 325, not as one unbroken hunt."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "Four persecutions marked our years: the Antonine, the Severan, the Decian from 249 to 251, and the Diocletianic from 303 to 311."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "The last two did most to shape formation."
+  },
+  {
+   "record_ids": [
+    "alx.dw.empire"
+   ],
+   "sentence": "In those years property was seized, teachers' fathers were beheaded, and bishops fled."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "Origen himself was jailed and tortured under Decius."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "When the threat came, it was a test of whether what formation had built in the soul was equal to the ultimate choice."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "The events are well attested, while the memory kept between them is a modern reconstruction."
+  }
+ ],
+ "citations": [
+  "alx.dw.empire",
+  "alx.force.persecution"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "What we hold is that danger came on and off across three centuries before 325, not as one unbroken hunt [[alx.dw.empire]] [[as:paraphrase]].",
+   "ratio": 0.43,
+   "sentence": "What we hold is that danger came on and off across three centuries before 325, not as one unbroken hunt.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 43% in own tagged records"
+  },
+  {
+   "draft": "Four persecutions marked our years: the Antonine, the Severan, the Decian from 249 to 251, and the Diocletianic from 303 to 311 [[alx.force.persecution]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "Four persecutions marked our years: the Antonine, the Severan, the Decian from 249 to 251, and the Diocletianic from 303 to 311.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "The last two did most to shape formation [[alx.force.persecution]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The last two did most to shape formation.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In those years property was seized, teachers' fathers were beheaded, and bishops fled [[alx.dw.empire]] [[as:paraphrase]].",
+   "sentence": "In those years property was seized, teachers' fathers were beheaded, and bishops fled.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen himself was jailed and tortured under Decius [[alx.force.persecution]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Origen himself was jailed and tortured under Decius.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "When the threat came, it was a test of whether what formation had built in the soul was equal to the ultimate choice [[alx.force.persecution]] [[as:paraphrase]].",
+   "sentence": "When the threat came, it was a test of whether what formation had built in the soul was equal to the ultimate choice.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The events are well attested, while the memory kept between them is a modern reconstruction [[alx.force.persecution]] [[as:paraphrase]].",
+   "sentence": "The events are well attested, while the memory kept between them is a modern reconstruction.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.suffering",
+  "alx.story.john-young-robber",
+  "alx.story.plague-nursing",
+  "alx.quote.dionysius-plague",
+  "alx.force.post-nicene-authority-shift",
+  "alx.force.teacher-bishop-ongoing",
+  "alx.dw.councils",
+  "alx.term.kanon-pisteos",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-nepos",
+  "alx.gravity.learning-formation",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "What we hold is that danger came on and off across three centuries before 325, not as one unbroken hunt [[alx.dw.empire]] [[as:paraphrase]]. Four persecutions marked our years: the Antonine, the Severan, the Decian from 249 to 251, and the Diocletianic from 303 to 311 [[alx.force.persecution]] [[as:paraphrase]]. The last two did most to shape formation [[alx.force.persecution]] [[as:paraphrase]].\n\nIn those years property was seized, teachers' fathers were beheaded, and bishops fled [[alx.dw.empire]] [[as:paraphrase]]. Origen himself was jailed and tortured under Decius [[alx.force.persecution]] [[as:paraphrase]].\n\nOur record also keeps the remembered account of how persecution entered Origen's boyhood house: [[story:alx.story.leonides-martyrdom]]\n\nWhen the threat came, it was a test of whether what formation had built in the soul was equal to the ultimate choice [[alx.force.persecution]] [[as:paraphrase]]. The events are well attested, while the memory kept between them is a modern reconstruction [[alx.force.persecution]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Our record also keeps the remembered account of how persecution entered Origen's boyhood house: [[story:alx.story.leonides-martyrdom]]",
+    "sentence": "Our record also keeps the remembered account of how persecution entered Origen's boyhood house:",
+    "why": "story record not offered for placement this turn"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "What we hold is that danger came on and off across three centuries before 325, not as one unbroken hunt. Four persecutions marked our years: the Antonine, the Severan, the Decian from 249 to 251, and the Diocletianic from 303 to 311. The last two did most to shape formation.\n\nIn those years property was seized, teachers' fathers were beheaded, and bishops fled. Origen himself was jailed and tortured under Decius.\n\nWhen the threat came, it was a test of whether what formation had built in the soul was equal to the ultimate choice. The events are well attested, while the memory kept between them is a modern reconstruction.",
+ "voice_set_aside": false
+}

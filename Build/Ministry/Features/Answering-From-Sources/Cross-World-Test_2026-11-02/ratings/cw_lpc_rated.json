@@ -1,0 +1,506 @@
+[
+ {
+  "id": "q025-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Declines the unrecognized premise plainly and separates confessors' suffering from extracted testimony; slips into 'I'."
+ },
+ {
+  "id": "q023-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Certificate demand, Cyprian's verdict on libellatici and Celerinus's grief for his sister all match the records."
+ },
+ {
+  "id": "q010-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sets scripture above bishops but says little about how or why they read; a quote runs on with no full stop."
+ },
+ {
+  "id": "q014-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Election, acclamation, councils and confessors are all grounded, but it is very long and drifts into creed, women's voices and tradition."
+ },
+ {
+  "id": "q017-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Gives Augustine's test of age and universality accurately, but reads as a report of 'Augustine said', not a community voice."
+ },
+ {
+  "id": "q003-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Uses Augustine's struggle but never names him, and repeats 'years later'; says almost nothing about Jesus."
+ },
+ {
+  "id": "q001-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Two paths, the Rome succession list, apostolic custom and the Cyprian/Augustine split over tests are all record-grounded."
+ },
+ {
+  "id": "q018-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Gives only catechesis then baptism, with an awkward repeated 'the person', and drifts into the rebaptism dispute."
+ },
+ {
+  "id": "q027-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honestly won't presume and answers through how the lapsed were received; warm and plain."
+ },
+ {
+  "id": "q009-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Leaks build instructions about inline record ids, 'nine places' and excluded sources; meta-talk breaks the world boundary."
+ },
+ {
+  "id": "q026-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names the baptism reversal and the confessor tension as standing unease; accurate."
+ },
+ {
+  "id": "q001-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Covers written testimony and Augustine's argument, then turns to the Trinity and Maximinus instead of how sources arrived."
+ },
+ {
+  "id": "q002-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Shepherd image plus the pattern of cross, burial and rising lived out; distinctive and grounded."
+ },
+ {
+  "id": "q024-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "States Augustine's three goods and the indissoluble bond as a report; nothing on how marriage was marked."
+ },
+ {
+  "id": "q005-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Both theories, the 256 quote and an honest evidential limit (bishops' writing only) are accurate; 'plenary 31 times' is a researcher's aside."
+ },
+ {
+  "id": "q009-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Separates what is well attested from what is weak, with fair limits including the Pelagius one-sidedness."
+ },
+ {
+  "id": "q002-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Pattern of Christ's death lived out is grounded, but it gives no wider picture of who Jesus was."
+ },
+ {
+  "id": "q013-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Plainly says the record can't settle the underground question and offers the Demetrianus charge and the libelli instead."
+ },
+ {
+  "id": "q007-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Never names the bishop and 'He told them their longing...' has no referent, so it is hard to follow."
+ },
+ {
+  "id": "q007-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Augustine's 'not yet' and the road back for the lapsed answer the question; grounded."
+ },
+ {
+  "id": "q006-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Has dangling referents ('They said this about newborns', 'He did not flinch'), a missing full stop and a disjointed run of claims."
+ },
+ {
+  "id": "q010-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Uses the Genesis days and the 6,000 years as one example of reading but never states a purpose; report-like."
+ },
+ {
+  "id": "q020-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Cyprian's regeneration and 'born of both sacraments' to Jubaianus, citing John 3:5, matches the record."
+ },
+ {
+  "id": "q016-A",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Boundary refusal is correct, but the rest is unrelated filler on bishops and preaching."
+ },
+ {
+  "id": "q028-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Extra ecclesiam, the ark and Demetrianus are accurate, but it is heavy with 'Cyprian' in a report register."
+ },
+ {
+  "id": "q014-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Grounded on Pontius and the confessors, but the election is told twice, repetitively and choppily."
+ },
+ {
+  "id": "q022-B",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Three unconnected facts; doesn't say plainly that no ordinary day can be described."
+ },
+ {
+  "id": "q020-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "Denies the world spoke of being born again, but Cyprian called baptism regeneration and a birth (lpc.witness.baptism-as-new-birth)."
+ },
+ {
+  "id": "q008-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Contagion of the ancient death, the council of 66 and Augustine's mildest condemnation are all grounded."
+ },
+ {
+  "id": "q012-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Accurate, but it repeats its paraphrase and then adds a long block quote that is heavy to read aloud."
+ },
+ {
+  "id": "q021-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "Places the apse letter as written to the people of Fussala; the record has it as Letter 126 to Albina (411)."
+ },
+ {
+  "id": "q019-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Offers a road walked in steps, Augustine's restless heart and baptismal pattern; warm and grounded."
+ },
+ {
+  "id": "q027-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Repetitive 'the lapsed... the public road' phrasing; answers via the lapsed without addressing the asker."
+ },
+ {
+  "id": "q011-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Turns the question around well with Genesis days and Moses' obedience, matching the records."
+ },
+ {
+  "id": "q017-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear account of what is traced and what is not; honest about the gap."
+ },
+ {
+  "id": "q021-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Correct Letter 126 to Albina 411 and an honest 'unread, not absent' limit; the closing council aside drifts."
+ },
+ {
+  "id": "q018-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest about the gaps but alludes to an unnamed 'one real exception' without saying who or what."
+ },
+ {
+  "id": "q006-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Empty non-answer."
+ },
+ {
+  "id": "q023-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Facts on the certificates are accurate but disjointed; it barely says what was given up."
+ },
+ {
+  "id": "q005-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest that the two theories were never reconciled, and shows communion holding through the dispute; accurate."
+ },
+ {
+  "id": "q016-B",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Correct boundary refusal, with the meta-label 'I am a representative of Latin Pastoral-Congregational Christianity'."
+ },
+ {
+  "id": "q008-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Mentions the letter to Fidus and Augustine's 'hard end' without saying what Augustine held; vague."
+ },
+ {
+  "id": "q022-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest limit plus plague, road back and Monica at the altar; the unnamed 'one exception' is unclear."
+ },
+ {
+  "id": "q011-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Covers the violence question accurately but never answers what the reader is missing; report register."
+ },
+ {
+  "id": "q019-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Three disconnected sentences, the last (the confessors' claim) off-topic."
+ },
+ {
+  "id": "q012-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear order of authorities with the canon above bishops and Cyprian's 'custom without truth'."
+ },
+ {
+  "id": "q024-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Threefold good and the bond held, with an honest gap on the rite; the almsgiving aside is weak."
+ },
+ {
+  "id": "q015-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names the Felicissimus and Novatian schisms and the response through the road back and communion held; grounded."
+ },
+ {
+  "id": "q003-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Augustine's 'not yet', the restless heart and the argument from testimony are grounded and fitting."
+ },
+ {
+  "id": "q013-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest limit with Demetrianus, Cyprian's death (14 Sept 258) and the libelli; accurate."
+ },
+ {
+  "id": "q025-A",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Off-topic: talks of Pontius and Cyprian's death, not the question."
+ },
+ {
+  "id": "q026-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "The confessors' claim as standing unease, with Cyprian's letter asking for names; grounded."
+ },
+ {
+  "id": "q004-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Trinitarian confession, one person of the Only-begotten, and Maximinus; grounded."
+ },
+ {
+  "id": "q028-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Plain and unsoftened, with an honest limit on those who never heard."
+ },
+ {
+  "id": "q004-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same confession plus the lived pattern; grounded, if a little padded."
+ },
+ {
+  "id": "q015-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Accurate but a choppy list of facts that jumps from the lapsed to Honoratus to the Lord's Prayer."
+ }
+]

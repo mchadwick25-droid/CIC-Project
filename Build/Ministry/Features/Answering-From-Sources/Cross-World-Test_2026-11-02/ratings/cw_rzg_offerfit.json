@@ -1,0 +1,198 @@
+[
+ {
+  "id": "q001",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.witness.what-we-have-of-christ",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.witness.what-we-have-of-christ"
+ },
+ {
+  "id": "q002",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.witness.one-thing-not-in-dispute",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.witness.one-thing-not-in-dispute"
+ },
+ {
+  "id": "q003",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.witness.a-quieted-mind",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.a-quieted-mind"
+ },
+ {
+  "id": "q004",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.one-thing-not-in-dispute"
+ },
+ {
+  "id": "q005",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.story.first-zurich-disputation",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.story.first-zurich-disputation"
+ },
+ {
+  "id": "q006",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.gravity.sovereignty-of-god-predestination-election",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.term.providence"
+ },
+ {
+  "id": "q007",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.witness.a-quieted-mind",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.a-quieted-mind"
+ },
+ {
+  "id": "q008",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "no",
+  "best_in_world": null
+ },
+ {
+  "id": "q009",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.core.the-reformed-cities-zurich-and-geneva"
+ },
+ {
+  "id": "q010",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ },
+ {
+  "id": "q011",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.limit.what-scripture-asked-of-a-modern-reader",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.limit.what-scripture-asked-of-a-modern-reader"
+ },
+ {
+  "id": "q012",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.term.sola-scriptura",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.term.sola-scriptura"
+ },
+ {
+  "id": "q013",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.force.counter-reformation-sustained-pressure",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.core.the-reformed-cities-zurich-and-geneva"
+ },
+ {
+  "id": "q014",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ },
+ {
+  "id": "q015",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.limit.consistory-case-narrative",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.defending-the-anabaptist-suppression"
+ },
+ {
+  "id": "q016",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.force.selective-reception-four-descendant-traditions"
+ },
+ {
+  "id": "q017",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.witness.what-we-have-of-christ",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.what-we-have-of-christ"
+ },
+ {
+  "id": "q018",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.witness.why-the-children-too",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.why-the-children-too"
+ },
+ {
+  "id": "q019",
+  "fit_in_offer": "yes",
+  "best_in_offer": "rzg.witness.a-quieted-mind",
+  "fit_exists_in_world": "yes",
+  "best_in_world": "rzg.witness.a-quieted-mind"
+ },
+ {
+  "id": "q020",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "no",
+  "best_in_world": null
+ },
+ {
+  "id": "q021",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.ambient.emptied-worship-space",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.ambient.emptied-worship-space"
+ },
+ {
+  "id": "q022",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.limit.ordinary-daily-practice",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.limit.ordinary-daily-practice"
+ },
+ {
+  "id": "q023",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.force.genevas-refugee-inflow-bernese-dependence"
+ },
+ {
+  "id": "q024",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.limit.no-teaching-on-wealth-or-marriage",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.limit.no-teaching-on-wealth-or-marriage"
+ },
+ {
+  "id": "q025",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "no",
+  "best_in_world": null
+ },
+ {
+  "id": "q026",
+  "fit_in_offer": "partly",
+  "best_in_offer": "rzg.witness.defending-the-anabaptist-suppression",
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.defending-the-anabaptist-suppression"
+ },
+ {
+  "id": "q027",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.witness.a-narrow-true-church"
+ },
+ {
+  "id": "q028",
+  "fit_in_offer": "no",
+  "best_in_offer": null,
+  "fit_exists_in_world": "partly",
+  "best_in_world": "rzg.gravity.sovereignty-of-god-predestination-election"
+ }
+]

@@ -1,0 +1,149 @@
+{
+ "draft": "To us Jesus is what the whole church says he is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nThat was never our own quarrel, not with Rome and not between our two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nWhat is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nGod's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nWe hold election as a settled ground, not a threat, and we will not send you searching your own heart for proof of it [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\n\nOur confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\n\nA mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\n\nSo we turned such a mind outward toward Christ, once, rather than toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\n\nIn 1549 Zurich and Geneva agreed words for the Lord's Supper that distinguish the bread from the reality it points to [[rzg.term.sign-and-the-thing-signified]] [[as:paraphrase]].\n\nIn those words we never disjoined the two [[rzg.term.sign-and-the-thing-signified]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "To us Jesus is what the whole church says he is.\n\nThat was never our own quarrel, not with Rome and not between our two cities.\n\nWhat is distinctly ours is what we were taught about who is chosen in him.\n\nGod's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned.\n\nWe hold election as a settled ground, not a threat, and we will not send you searching your own heart for proof of it.\n\nOur confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him.\n\nA mind turned only on itself finds more of itself, and no bottom to it.\n\nSo we turned such a mind outward toward Christ, once, rather than toward the self, endlessly.\n\nIn 1549 Zurich and Geneva agreed words for the Lord's Supper that distinguish the bread from the reality it points to.\n\nIn those words we never disjoined the two.",
+ "group": "A",
+ "offered": [
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.not-a-death-he-sought"
+ ],
+ "placements": [],
+ "question": "In your own words, describe who Jesus was for your community.",
+ "question_id": "q002",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "To us Jesus is what the whole church says he is.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That was never our own quarrel, not with Rome and not between our two cities.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We hold election as a settled ground, not a threat, and we will not send you searching your own heart for proof of it.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "So we turned such a mind outward toward Christ, once, rather than toward the self, endlessly.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In 1549 Zurich and Geneva agreed words for the Lord's Supper that distinguish the bread from the reality it points to.",
+   "tags": [
+    "rzg.term.sign-and-the-thing-signified"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In those words we never disjoined the two.",
+   "tags": [
+    "rzg.term.sign-and-the-thing-signified"
+   ]
+  }
+ ],
+ "shipped_by_net": "To us Jesus is what the whole church says he is.\n\nThat was never our own quarrel, not with Rome and not between our two cities.\n\nWhat is distinctly ours is what we were taught about who is chosen in him.\n\nGod's own free choice, made before the world began, decides who is saved, and not anything foreseen or earned.\n\nWe hold election as a settled ground, not a threat, and we will not send you searching your own heart for proof of it.\n\nOur confession called Christ the mirror in which we see whether we are chosen, and rejected looking for election apart from him.\n\nA mind turned only on itself finds more of itself, and no bottom to it.\n\nSo we turned such a mind outward toward Christ, once, rather than toward the self, endlessly.\n\nIn 1549 Zurich and Geneva agreed words for the Lord's Supper that distinguish the bread from the reality it points to.\n\nIn those words we never disjoined the two.",
+ "sub_question": "C1.S1"
+}
