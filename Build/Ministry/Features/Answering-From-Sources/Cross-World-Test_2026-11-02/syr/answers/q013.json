@@ -1,0 +1,65 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.catholicos"
+   ],
+   "sentence": "What we hold here concerns the Persian church's leadership: it was real but contested and untitled in our own years."
+  },
+  {
+   "record_ids": [
+    "syr.term.catholicos"
+   ],
+   "sentence": "No one in our own years used the later title Catholicos for the head of the Persian church."
+  }
+ ],
+ "citations": [
+  "syr.term.catholicos"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "What we hold here concerns the Persian church's leadership: it was real but contested and untitled in our own years [[syr.term.catholicos]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "What we hold here concerns the Persian church's leadership: it was real but contested and untitled in our own years.",
+   "tags": [
+    "syr.term.catholicos"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "No one in our own years used the later title Catholicos for the head of the Persian church [[syr.term.catholicos]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "No one in our own years used the later title Catholicos for the head of the Persian church.",
+   "tags": [
+    "syr.term.catholicos"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Which place and which years do you have in mind when you ask about hiding?",
+   "sentence": "Which place and which years do you have in mind when you ask about hiding?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.term.catholicos"
+ ],
+ "raw_text": "What we hold here concerns the Persian church's leadership: it was real but contested and untitled in our own years [[syr.term.catholicos]] [[as:paraphrase]]. No one in our own years used the later title Catholicos for the head of the Persian church [[syr.term.catholicos]] [[as:paraphrase]]. Which place and which years do you have in mind when you ask about hiding?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "What we hold here concerns the Persian church's leadership: it was real but contested and untitled in our own years. No one in our own years used the later title Catholicos for the head of the Persian church. Which place and which years do you have in mind when you ask about hiding?",
+ "voice_set_aside": false
+}

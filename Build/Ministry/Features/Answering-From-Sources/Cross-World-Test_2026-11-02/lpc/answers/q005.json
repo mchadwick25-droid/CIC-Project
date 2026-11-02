@@ -1,0 +1,259 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.term.bishop-of-bishops"
+   ],
+   "sentence": "Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.term.plenary-council"
+   ],
+   "sentence": "Augustine held that a council of one province must yield to a plenary council."
+  },
+  {
+   "record_ids": [
+    "lpc.term.plenary-council"
+   ],
+   "sentence": "Even the widest council can later be corrected, when experience brings to light what was hidden."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.bishop-of-bishops"
+   ],
+   "sentence": "At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "At that same council, we judged no one, and rejected no one from communion, for thinking differently from us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "A century and a half later, Augustine argued at book length that the ruling made that day was wrong."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "He never once put Cyprian outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Cyprian's formula stands at length in the preface to the 256 council, and he states the same freedom in his letters to Jubaianus and Magnus."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Augustine's theory recurs in On Baptism, where the word plenary occurs 31 times."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Presbyters, deacons and a large part of the congregation were present in 256 when Cyprian stated his formula."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Beyond that, each theory is one bishop writing to other bishops, and nothing shows either one at work among ordinary clergy."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "The record of the 411 conference has not been read in full, so we do not ask it to settle the question."
+  }
+ ],
+ "citations": [
+  "lpc.gravity.conciliar-authority-theory",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.plenary-council",
+  "lpc.witness.communion-over-separation"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop [[lpc.gravity.conciliar-authority-theory]] [[lpc.term.bishop-of-bishops]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.term.bishop-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine held that a council of one province must yield to a plenary council [[lpc.gravity.conciliar-authority-theory]] [[lpc.term.plenary-council]] [[as:paraphrase]].",
+   "sentence": "Augustine held that a council of one province must yield to a plenary council.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.term.plenary-council"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Even the widest council can later be corrected, when experience brings to light what was hidden [[lpc.term.plenary-council]] [[as:paraphrase]].",
+   "sentence": "Even the widest council can later be corrected, when experience brings to light what was hidden.",
+   "tags": [
+    "lpc.term.plenary-council"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At the council of 256, Cyprian said: [[quote:lpc.quote.bishop-of-bishops]]",
+   "placed_quote": "lpc.quote.bishop-of-bishops",
+   "sentence": "At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”",
+   "tags": [
+    "lpc.quote.bishop-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "At that same council, we judged no one, and rejected no one from communion, for thinking differently from us [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "sentence": "At that same council, we judged no one, and rejected no one from communion, for thinking differently from us.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A century and a half later, Augustine argued at book length that the ruling made that day was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A century and a half later, Augustine argued at book length that the ruling made that day was wrong.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "He never once put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "He never once put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Cyprian's formula stands at length in the preface to the 256 council, and he states the same freedom in his letters to Jubaianus and Magnus [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Cyprian's formula stands at length in the preface to the 256 council, and he states the same freedom in his letters to Jubaianus and Magnus.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Augustine's theory recurs in On Baptism, where the word plenary occurs 31 times [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine's theory recurs in On Baptism, where the word plenary occurs 31 times.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Presbyters, deacons and a large part of the congregation were present in 256 when Cyprian stated his formula [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Presbyters, deacons and a large part of the congregation were present in 256 when Cyprian stated his formula.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Beyond that, each theory is one bishop writing to other bishops, and nothing shows either one at work among ordinary clergy [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Beyond that, each theory is one bishop writing to other bishops, and nothing shows either one at work among ordinary clergy.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The record of the 411 conference has not been read in full, so we do not ask it to settle the question [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "The record of the 411 conference has not been read in full, so we do not ask it to settle the question.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.communion-over-separation",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.plenary-council",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.witness.days-before-the-sun",
+  "lpc.term.heresy",
+  "lpc.gravity.conciliar-authority-theory"
+ ],
+ "raw_text": "Our two bishops each gave a different answer on what a council can decide, and we have not closed the matter [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop [[lpc.gravity.conciliar-authority-theory]] [[lpc.term.bishop-of-bishops]] [[as:paraphrase]]. Augustine held that a council of one province must yield to a plenary council [[lpc.gravity.conciliar-authority-theory]] [[lpc.term.plenary-council]] [[as:paraphrase]]. Even the widest council can later be corrected, when experience brings to light what was hidden [[lpc.term.plenary-council]] [[as:paraphrase]]. At the council of 256, Cyprian said: [[quote:lpc.quote.bishop-of-bishops]]\nAt that same council, we judged no one, and rejected no one from communion, for thinking differently from us [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. A century and a half later, Augustine argued at book length that the ruling made that day was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. He never once put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Cyprian's formula stands at length in the preface to the 256 council, and he states the same freedom in his letters to Jubaianus and Magnus [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Augustine's theory recurs in On Baptism, where the word plenary occurs 31 times [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Presbyters, deacons and a large part of the congregation were present in 256 when Cyprian stated his formula [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Beyond that, each theory is one bishop writing to other bishops, and nothing shows either one at work among ordinary clergy [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. The record of the 411 conference has not been read in full, so we do not ask it to settle the question [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.bishop-of-bishops": [
+    {
+     "detail": "256",
+     "kind": "number",
+     "snippet": "His Church and to judge how we conduct ourselves there. the 256 Council preface; independently re-located and re-read this",
+     "span": "record lpc.quote.bishop-of-bishops"
+    },
+    {
+     "detail": "council",
+     "kind": "occasion",
+     "snippet": "Church and to judge how we conduct ourselves there. the 256 Council preface; independently re-located and re-read this session",
+     "span": "record lpc.quote.bishop-of-bishops"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.bishop-of-bishops"
+  ],
+  "removed": [
+   {
+    "draft": "Our two bishops each gave a different answer on what a council can decide, and we have not closed the matter [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+    "sentence": "Our two bishops each gave a different answer on what a council can decide, and we have not closed the matter.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop. Augustine held that a council of one province must yield to a plenary council. Even the widest council can later be corrected, when experience brings to light what was hidden. At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”\n\nAt that same council, we judged no one, and rejected no one from communion, for thinking differently from us. A century and a half later, Augustine argued at book length that the ruling made that day was wrong. He never once put Cyprian outside our communion. Cyprian's formula stands at length in the preface to the 256 council, and he states the same freedom in his letters to Jubaianus and Magnus. Augustine's theory recurs in On Baptism, where the word plenary occurs 31 times. Presbyters, deacons and a large part of the congregation were present in 256 when Cyprian stated his formula. Beyond that, each theory is one bishop writing to other bishops, and nothing shows either one at work among ordinary clergy. The record of the 411 conference has not been read in full, so we do not ask it to settle the question.",
+ "voice_set_aside": false
+}

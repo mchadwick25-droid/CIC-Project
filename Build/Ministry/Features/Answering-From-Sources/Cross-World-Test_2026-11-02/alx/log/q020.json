@@ -1,0 +1,169 @@
+{
+ "draft": "In our own words, a person's change was a wound healed and an image restored [[alx.term.eikon]] [[alx.term.hamartia]] [[alx.term.psyche]] [[as:paraphrase]]. Hamartia, our word for sin, meant the soul turned from God toward lesser goods, more a wound than a debt owed or a law broken [[alx.term.hamartia]] [[as:paraphrase]]. Every person bears the mark God gave at creation, which sin can damage but never destroy [[alx.term.eikon]] [[as:paraphrase]]. The psyche, the whole person made for God, is being restored toward the likeness of the one whose image the person bears [[alx.term.psyche]] [[as:paraphrase]]. Psyche did not mean a ghost caged in flesh, for the person was alive and acting through the body [[alx.term.psyche]] [[as:paraphrase]]. In the school tradition, learning was the very path of the soul's transformation, not preparation for it [[alx.gravity.learning-formation]] [[as:paraphrase]].\n",
+ "ending": "abstained_rewrite_failed_read",
+ "final": "We do not have that here.",
+ "group": "A",
+ "offered": [
+  "alx.limit.f5-women-own-words",
+  "alx.dw.doubt",
+  "alx.term.eikon",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.quote.dionysius-plague",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.learning-community-tension",
+  "alx.dw.suffering",
+  "alx.term.hamartia",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-formation"
+ ],
+ "placements": [],
+ "question": "Would your community describe conversion using language like being 'born again'?",
+ "question_id": "q020",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "No record says change was a wound healed and an image restored; eikon is never destroyed and the soul is restored toward likeness.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.hamartia"
+   ],
+   "sentence": "Hamartia, our word for sin, meant the soul turned from God toward lesser goods, more a wound than a debt owed or a law broken.",
+   "tags": [
+    "alx.term.hamartia"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.eikon"
+   ],
+   "sentence": "Every person bears the mark God gave at creation, which sin can damage but never destroy.",
+   "tags": [
+    "alx.term.eikon"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.psyche"
+   ],
+   "sentence": "The psyche, the whole person made for God, is being restored toward the likeness of the one whose image the person bears.",
+   "tags": [
+    "alx.term.psyche"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.psyche"
+   ],
+   "sentence": "Psyche did not mean a ghost caged in flesh, for the person was alive and acting through the body.",
+   "tags": [
+    "alx.term.psyche"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, learning was the very path of the soul's transformation, not preparation for it.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In our own words, a person's change was a wound healed and an image restored.",
+   "tags": [
+    "alx.term.eikon",
+    "alx.term.hamartia",
+    "alx.term.psyche"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Hamartia, our word for sin, meant the soul turned from God toward lesser goods, more a wound than a debt owed or a law broken.",
+   "tags": [
+    "alx.term.hamartia"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Every person bears the mark God gave at creation, which sin can damage but never destroy.",
+   "tags": [
+    "alx.term.eikon"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The psyche, the whole person made for God, is being restored toward the likeness of the one whose image the person bears.",
+   "tags": [
+    "alx.term.psyche"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Psyche did not mean a ghost caged in flesh, for the person was alive and acting through the body.",
+   "tags": [
+    "alx.term.psyche"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the school tradition, learning was the very path of the soul's transformation, not preparation for it.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  }
+ ],
+ "shipped_by_net": "In our own words, a person's change was a wound healed and an image restored. Hamartia, our word for sin, meant the soul turned from God toward lesser goods, more a wound than a debt owed or a law broken. Every person bears the mark God gave at creation, which sin can damage but never destroy. The psyche, the whole person made for God, is being restored toward the likeness of the one whose image the person bears. Psyche did not mean a ghost caged in flesh, for the person was alive and acting through the body. In the school tradition, learning was the very path of the soul's transformation, not preparation for it.",
+ "sub_question": "C4.S5"
+}

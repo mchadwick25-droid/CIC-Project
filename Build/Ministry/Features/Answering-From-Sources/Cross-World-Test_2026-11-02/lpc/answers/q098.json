@@ -1,0 +1,163 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.preaching"
+   ],
+   "sentence": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "Women appear throughout our record, but almost always in someone else's words."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "Numeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "From our two cities, in our years from 246 to 430, no text that a woman wrote herself survives."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "Now and then a woman's spoken words reach us, set down by men."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "sentence": "That is one voice, kept inside a text men wrote, and not a body of women's writing."
+  }
+ ],
+ "citations": [
+  "lpc.limit.womens-own-voice",
+  "lpc.term.preaching"
+ ],
+ "group": "J",
+ "id": "q098",
+ "net_sentences": [
+  {
+   "draft": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning [[lpc.term.preaching]] [[as:paraphrase]].",
+   "ratio": 0.82,
+   "sentence": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning.",
+   "tags": [
+    "lpc.term.preaching"
+   ],
+   "verdict": "ok",
+   "why": "grounded 82% in own tagged records"
+  },
+  {
+   "draft": "Women appear throughout our record, but almost always in someone else's words [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "sentence": "Women appear throughout our record, but almost always in someone else's words.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Numeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Numeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "From our two cities, in our years from 246 to 430, no text that a woman wrote herself survives [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "From our two cities, in our years from 246 to 430, no text that a woman wrote herself survives.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Now and then a woman's spoken words reach us, set down by men [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "sentence": "Now and then a woman's spoken words reach us, set down by men.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That is one voice, kept inside a text men wrote, and not a body of women's writing [[lpc.limit.womens-own-voice]] [[as:paraphrase]].",
+   "sentence": "That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.the-case-set-before-the-bishop",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.quote.remember-me-at-the-lords-altar"
+ ],
+ "raw_text": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning [[lpc.term.preaching]] [[as:paraphrase]]. Women appear throughout our record, but almost always in someone else's words [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n\nNumeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n\nFrom our two cities, in our years from 246 to 430, no text that a woman wrote herself survives [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. Now and then a woman's spoken words reach us, set down by men [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. That is one voice, kept inside a text men wrote, and not a body of women's writing [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C8.S2",
+ "text": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning. Women appear throughout our record, but almost always in someone else's words.\n\nNumeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them. We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them.\n\nFrom our two cities, in our years from 246 to 430, no text that a woman wrote herself survives. Now and then a woman's spoken words reach us, set down by men. One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person. That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+ "voice_set_aside": false
+}

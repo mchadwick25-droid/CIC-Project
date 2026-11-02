@@ -1,0 +1,185 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.grace"
+   ],
+   "sentence": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Paul asked God three times to take away a thorn in his flesh, and God did not take it away."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "God answered instead that his grace was sufficient, and that strength is made perfect in weakness."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "We also held God to be just."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.no-one-has-the-love-of-god-from-himself"
+   ],
+   "sentence": "Augustine wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.term.grace",
+  "lpc.witness.heard-for-salvation-not-for-wish",
+  "lpc.witness.violence-commanded-not-cruel"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it [[lpc.term.grace]] [[as:paraphrase]].",
+   "sentence": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it.",
+   "tags": [
+    "lpc.term.grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Paul asked God three times to take away a thorn in his flesh, and God did not take it away [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Paul asked God three times to take away a thorn in his flesh, and God did not take it away.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "God answered instead that his grace was sufficient, and that strength is made perfect in weakness [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "sentence": "God answered instead that his grace was sufficient, and that strength is made perfect in weakness.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We also held God to be just [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+   "sentence": "We also held God to be just.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote: [[quote:lpc.quote.no-one-has-the-love-of-god-from-himself]]",
+   "placed_quote": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "sentence": "Augustine wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”",
+   "tags": [
+    "lpc.quote.no-one-has-the-love-of-god-from-himself"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.chosen-while-still-a-neophyte",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.contested.grace-pelagius-characterization",
+  "lpc.limit.womens-own-voice",
+  "lpc.witness.heard-for-salvation-not-for-wish",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.numidicus-remained-unwillingly",
+  "lpc.quote.thanks-be-to-god"
+ ],
+ "raw_text": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it [[lpc.term.grace]] [[as:paraphrase]]. Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. Paul asked God three times to take away a thorn in his flesh, and God did not take it away [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. God answered instead that his grace was sufficient, and that strength is made perfect in weakness [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. We also held God to be just [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Moses, Augustine said, showed not ferocity but obedience [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.no-one-has-the-love-of-god-from-himself]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.no-one-has-the-love-of-god-from-himself": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "words of the Apostle, which have been just read out of his Epistle. “But I say, Walk in the Spirit, and ye shall not fulfil th",
+     "span": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 19456-19516"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.no-one-has-the-love-of-god-from-himself"
+  ],
+  "removed": [
+   {
+    "draft": "Moses, Augustine said, showed not ferocity but obedience [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+    "sentence": "Moses, Augustine said, showed not ferocity but obedience.",
+    "why": "words attributed without a placed quote"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it. Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished. Paul asked God three times to take away a thorn in his flesh, and God did not take it away. God answered instead that his grace was sufficient, and that strength is made perfect in weakness. We also held God to be just. Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved. That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching. Augustine wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”",
+ "voice_set_aside": false
+}

@@ -1,0 +1,169 @@
+{
+ "draft": "We believed in one God, the maker of all things, who is good and beyond every image and every clever description [[alx.dw.god]] [[as:paraphrase]]. God is never alone: his Word and his Spirit are his own, not lesser gods and not created things [[alx.dw.god]] [[as:paraphrase]]. The full divinity of the Word and the Spirit was said with clarity only after Nicaea [[alx.dw.god]] [[as:paraphrase]].\n\nGod is known the way light is known: you do not stare at the sun, you see everything else by it [[alx.dw.god]] [[as:paraphrase]]. Our deepest habit was to speak of God as a teacher, with the whole creation as his school and scripture as his main lesson [[alx.dw.god]] [[as:paraphrase]]. The slow healing of a soul is God's patient method [[alx.dw.god]] [[as:paraphrase]].\n\nIn pain, God's hand is a physician's, and suffering is the school's hardest classroom, not proof of abandonment [[alx.dw.suffering]] [[as:paraphrase]].\n\nOrigen, in Philocalia XXVII, wrote: [[quote:alx.quote.origen-punishment-heals]]\n\nOrigen raised the hope that all may be brought back to God as an open question, and how firmly he held it cannot be fixed [[alx.term.apokatastasis]] [[as:paraphrase]]. We refuse the idea that suffering proves God absent, and we do not claim to solve the riddle of each grief [[alx.dw.suffering]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We believed in one God, the maker of all things, who is good and beyond every image and every clever description. God is never alone: his Word and his Spirit are his own, not lesser gods and not created things. The full divinity of the Word and the Spirit was said with clarity only after Nicaea.\n\nGod is known the way light is known: you do not stare at the sun, you see everything else by it. Our deepest habit was to speak of God as a teacher, with the whole creation as his school and scripture as his main lesson. The slow healing of a soul is God's patient method.\n\nIn pain, God's hand is a physician's, and suffering is the school's hardest classroom, not proof of abandonment.\n\nOrigen, in Philocalia XXVII, wrote: “And so we think that every threat, pain and punishment that comes from God is never inflicted in order to injure the sufferers. Instead, it is always intended to do them good.”\n\nOrigen raised the hope that all may be brought back to God as an open question, and how firmly he held it cannot be fixed. We refuse the idea that suffering proves God absent, and we do not claim to solve the riddle of each grief.",
+ "group": "A",
+ "offered": [
+  "alx.dw.god",
+  "alx.dw.suffering",
+  "alx.term.methexis",
+  "alx.term.autexousia",
+  "alx.story.gregory-formation",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.soul-transformation",
+  "alx.term.thanatos",
+  "alx.quote.dionysius-plague",
+  "alx.term.psyche",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.term.logikos",
+  "alx.term.apokatastasis",
+  "alx.contested.origen-positions",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It bears on God's purpose in pain but addresses suffering, not God's character and nature as a whole."
+   },
+   "record_id": "alx.quote.origen-punishment-heals"
+  }
+ ],
+ "question": "Describe the character and nature of God as your community understood it.",
+ "question_id": "q006",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We believed in one God, the maker of all things, who is good and beyond every image and every clever description.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God is never alone: his Word and his Spirit are his own, not lesser gods and not created things.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The full divinity of the Word and the Spirit was said with clarity only after Nicaea.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God is known the way light is known: you do not stare at the sun, you see everything else by it.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our deepest habit was to speak of God as a teacher, with the whole creation as his school and scripture as his main lesson.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The slow healing of a soul is God's patient method.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In pain, God's hand is a physician's, and suffering is the school's hardest classroom, not proof of abandonment.",
+   "tags": [
+    "alx.dw.suffering"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "alx.quote.origen-punishment-heals",
+   "reason": "placed by code",
+   "sentence": "Origen, in Philocalia XXVII, wrote: “And so we think that every threat, pain and punishment that comes from God is never inflicted in order to injure the sufferers. Instead, it is always intended to do them good.”",
+   "tags": [
+    "alx.quote.origen-punishment-heals"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Origen raised the hope that all may be brought back to God as an open question, and how firmly he held it cannot be fixed.",
+   "tags": [
+    "alx.term.apokatastasis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We refuse the idea that suffering proves God absent, and we do not claim to solve the riddle of each grief.",
+   "tags": [
+    "alx.dw.suffering"
+   ]
+  }
+ ],
+ "shipped_by_net": "We believed in one God, the maker of all things, who is good and beyond every image and every clever description. God is never alone: his Word and his Spirit are his own, not lesser gods and not created things. The full divinity of the Word and the Spirit was said with clarity only after Nicaea.\n\nGod is known the way light is known: you do not stare at the sun, you see everything else by it. Our deepest habit was to speak of God as a teacher, with the whole creation as his school and scripture as his main lesson. The slow healing of a soul is God's patient method.\n\nIn pain, God's hand is a physician's, and suffering is the school's hardest classroom, not proof of abandonment.\n\nOrigen, in Philocalia XXVII, wrote: “And so we think that every threat, pain and punishment that comes from God is never inflicted in order to injure the sufferers. Instead, it is always intended to do them good.”\n\nOrigen raised the hope that all may be brought back to God as an open question, and how firmly he held it cannot be fixed. We refuse the idea that suffering proves God absent, and we do not claim to solve the riddle of each grief.",
+ "sub_question": "C2.S2"
+}

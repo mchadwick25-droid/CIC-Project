@@ -1,0 +1,189 @@
+{
+ "draft": "What stays unsettled is how much of our record is our own side alone: the Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nThe beloved story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nWe tell the legend as our own story, not as our history [[syr.dw.corpus-and-its-edges]] [[syr.story.abgar-addai-legend]] [[as:paraphrase]].\n\nKing Abgar wrote in the Doctrine of Addai's own text of his letter: [[quote:syr.quote.abgar-letter]]\n\nA church at Edessa by about 200 is firmly attested, though its founding by Addai is contested [[syr.contested.edessa-origins]] [[as:paraphrase]].\n\nAt the close of our years, the harmony read for two centuries gave way to the four separate Gospels [[syr.force.transmission-ending]] [[as:paraphrase]].\n\nTradition links the change to Rabbula, but his own part in it is disputed [[syr.force.transmission-ending]] [[as:paraphrase]].\n\nThe Syriac copies of the harmony were lost, and it survives only in pieces and in later versions [[syr.force.transmission-ending]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "The beloved story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning. A church at Edessa by about 200 is firmly attested, though the founding of the Edessa church by Addai is contested. At the close of our years, the harmony read for two centuries gave way to the four separate Gospels. Tradition links the change to Rabbula, but Rabbula's own part in the change is disputed. The Syriac copies of the harmony were lost, and the harmony survives only in pieces and in later versions.",
+ "group": "A",
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line",
+  "syr.gravity.covenant-life",
+  "syr.gravity.diatessaron-normative",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": true,
+    "reason": "It is a legend's letter praising healing and does not name any part of the community's life that unsettled the speaker."
+   },
+   "record_id": "syr.quote.abgar-letter"
+  }
+ ],
+ "question": "Was there a part of your own community's life that unsettled you?",
+ "question_id": "q026",
+ "read": {
+  "dropped": [
+   "syr.quote.abgar-letter"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "The record says some arguments survive only from our side and the Jewish answers were not kept, but never calls how much of the record is one-sided an unsettled matter.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The beloved story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.contested.edessa-origins"
+   ],
+   "sentence": "A church at Edessa by about 200 is firmly attested, though the founding of the Edessa church by Addai is contested.",
+   "tags": [
+    "syr.contested.edessa-origins"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.transmission-ending"
+   ],
+   "sentence": "At the close of our years, the harmony read for two centuries gave way to the four separate Gospels.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.transmission-ending"
+   ],
+   "sentence": "Tradition links the change to Rabbula, but Rabbula's own part in the change is disputed.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.force.transmission-ending"
+   ],
+   "sentence": "The Syriac copies of the harmony were lost, and the harmony survives only in pieces and in later versions.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What stays unsettled is how much of our record is our own side alone: the Jewish answers to our teachers were not kept at all.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The beloved story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": true,
+   "placed_id": "syr.quote.abgar-letter",
+   "reason": "placed by code",
+   "sentence": "King Abgar wrote in the Doctrine of Addai's own text of his letter: “I have heard about you and your healing: that you heal without medicines or herbs, and that by your word you open the eyes of the blind.”",
+   "tags": [
+    "syr.quote.abgar-letter"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A church at Edessa by about 200 is firmly attested, though its founding by Addai is contested.",
+   "tags": [
+    "syr.contested.edessa-origins"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At the close of our years, the harmony read for two centuries gave way to the four separate Gospels.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Tradition links the change to Rabbula, but his own part in it is disputed.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Syriac copies of the harmony were lost, and it survives only in pieces and in later versions.",
+   "tags": [
+    "syr.force.transmission-ending"
+   ]
+  }
+ ],
+ "shipped_by_net": "What stays unsettled is how much of our record is our own side alone: the Jewish answers to our teachers were not kept at all.\n\nThe beloved story of the king who wrote to Jesus is a legend, written down generations later to give our church an apostolic beginning.\n\nKing Abgar wrote in the Doctrine of Addai's own text of his letter: “I have heard about you and your healing: that you heal without medicines or herbs, and that by your word you open the eyes of the blind.”\n\nA church at Edessa by about 200 is firmly attested, though its founding by Addai is contested.\n\nAt the close of our years, the harmony read for two centuries gave way to the four separate Gospels.\n\nTradition links the change to Rabbula, but his own part in it is disputed.\n\nThe Syriac copies of the harmony were lost, and it survives only in pieces and in later versions.",
+ "sub_question": null
+}

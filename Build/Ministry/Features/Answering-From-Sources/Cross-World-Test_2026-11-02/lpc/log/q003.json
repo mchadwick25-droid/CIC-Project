@@ -1,0 +1,164 @@
+{
+ "draft": "We do not tell that struggle away, and we do not promise it resolves on any set schedule [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Augustine knew a trouble close to it before he was received among us [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. As a young man he prayed for chastity and continency, but not yet [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. He was afraid God would answer him too quickly, before he was ready to let go of what he still wanted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Close to his conversion, the truth was certain to him, yet the old burden had not lifted [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Being persuaded, he wrote, was not the same as being free [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. That struggle was real in one of our own, and it was not the end of his story [[lpc.witness.grant-me-chastity-but-not-yet]] [[as:paraphrase]]. Augustine opened the story of his own life with a restless heart [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]]. He wrote that God formed us for himself, and our hearts are restless until they find rest in him [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]]. We also argue for the resurrection's credibility, and do not only confess it [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]]. Obscure, unlearned men testified in writing that they had seen it themselves, and the whole world was persuaded [[lpc.limit.no-chain-of-witnesses]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We do not tell that struggle away, and we do not promise it resolves on any set schedule. Augustine knew a trouble close to it before he was received among us. As a young man he prayed for chastity and continency, but not yet. He was afraid God would answer him too quickly, before he was ready to let go of what he still wanted. Close to his conversion, the truth was certain to him, yet the old burden had not lifted. Being persuaded, he wrote, was not the same as being free. That struggle was real in one of our own, and it was not the end of his story. Augustine opened the story of his own life with a restless heart. He wrote that God formed us for himself, and our hearts are restless until they find rest in him. We also argue for the resurrection's credibility, and do not only confess it. Obscure, unlearned men testified in writing that they had seen it themselves, and the whole world was persuaded.",
+ "group": "A",
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.grant-me-chastity-but-not-yet",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.days-before-the-sun",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+ ],
+ "placements": [],
+ "question": "Someone tells you they cannot manage to believe in Jesus - what is your response to them?",
+ "question_id": "q003",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We do not tell that struggle away, and we do not promise it resolves on any set schedule.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine knew a trouble close to it before he was received among us.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "As a young man he prayed for chastity and continency, but not yet.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He was afraid God would answer him too quickly, before he was ready to let go of what he still wanted.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Close to his conversion, the truth was certain to him, yet the old burden had not lifted.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Being persuaded, he wrote, was not the same as being free.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That struggle was real in one of our own, and it was not the end of his story.",
+   "tags": [
+    "lpc.witness.grant-me-chastity-but-not-yet"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine opened the story of his own life with a restless heart.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He wrote that God formed us for himself, and our hearts are restless until they find rest in him.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We also argue for the resurrection's credibility, and do not only confess it.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 10,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Obscure, unlearned men testified in writing that they had seen it themselves, and the whole world was persuaded.",
+   "tags": [
+    "lpc.limit.no-chain-of-witnesses"
+   ]
+  }
+ ],
+ "shipped_by_net": "We do not tell that struggle away, and we do not promise it resolves on any set schedule. Augustine knew a trouble close to it before he was received among us. As a young man he prayed for chastity and continency, but not yet. He was afraid God would answer him too quickly, before he was ready to let go of what he still wanted. Close to his conversion, the truth was certain to him, yet the old burden had not lifted. Being persuaded, he wrote, was not the same as being free. That struggle was real in one of our own, and it was not the end of his story. Augustine opened the story of his own life with a restless heart. He wrote that God formed us for himself, and our hearts are restless until they find rest in him. We also argue for the resurrection's credibility, and do not only confess it. Obscure, unlearned men testified in writing that they had seen it themselves, and the whole world was persuaded.",
+ "sub_question": "C14.S4"
+}

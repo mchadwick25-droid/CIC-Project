@@ -1,0 +1,213 @@
+{
+ "draft": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity [[alx.dw.original-sin]] [[as:paraphrase]]. Adam's fall cast its shadow over every soul, and death and disorder came down to all of us [[alx.dw.original-sin]] [[as:paraphrase]]. No one reached God unwounded [[alx.dw.original-sin]] [[as:paraphrase]].\n\nOur teachers spoke of inherited death and weakness, and also of a fall that each soul signs onto in its own living [[alx.dw.original-sin]] [[as:paraphrase]]. The wound was real, universal, and inherited in its effects, and the doctor's imagery outweighed the courtroom's [[alx.dw.original-sin]] [[as:paraphrase]]. Origen wondered about the soul's own descent, but as open inquiry, not doctrine [[alx.dw.original-sin]] [[as:paraphrase]].\n\nThe doctor's image runs through our witness to Jesus, whose death is the doctor entering the sickness [[alx.dw.jesus]] [[as:paraphrase]]. The resurrection, the anastasis, meant death reversed in both kinds: the soul reunited with God, and the body truly transformed [[alx.term.anastasis]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity. Adam's fall cast its shadow over every soul, and death and disorder came down to all of us. No one reached God unwounded. Our teachers spoke of inherited death and weakness, and also of a fall that each soul signs onto in its own living. The wound was real, universal, and inherited in its effects, and the doctor's imagery outweighed the courtroom's. Origen wondered about the soul's own descent, but as open inquiry, not doctrine. The doctor's image runs through our witness to Jesus, whose death is the doctor entering the sickness.",
+ "group": "A",
+ "offered": [
+  "alx.limit.faith-alone-later-frame",
+  "alx.dw.original-sin",
+  "alx.term.anastasis",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.dw.jesus",
+  "alx.term.baptism",
+  "alx.term.elpis",
+  "alx.quote.clement-instructor",
+  "alx.quote.gregory-spark",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "placements": [],
+ "question": "Did your community hold that a person enters the world already carrying guilt?",
+ "question_id": "q008",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "7": {
+    "problem": "dropped_scope",
+    "reason": "The record gives this account of anastasis as Athanasius's, from 318 on, and the sentence states it without that tie.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Adam's fall cast its shadow over every soul, and death and disorder came down to all of us.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "No one reached God unwounded.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Our teachers spoke of inherited death and weakness, and also of a fall that each soul signs onto in its own living.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "The wound was real, universal, and inherited in its effects, and the doctor's imagery outweighed the courtroom's.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Origen wondered about the soul's own descent, but as open inquiry, not doctrine.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.jesus"
+   ],
+   "sentence": "The doctor's image runs through our witness to Jesus, whose death is the doctor entering the sickness.",
+   "tags": [
+    "alx.dw.jesus"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Adam's fall cast its shadow over every soul, and death and disorder came down to all of us.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No one reached God unwounded.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers spoke of inherited death and weakness, and also of a fall that each soul signs onto in its own living.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The wound was real, universal, and inherited in its effects, and the doctor's imagery outweighed the courtroom's.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Origen wondered about the soul's own descent, but as open inquiry, not doctrine.",
+   "tags": [
+    "alx.dw.original-sin"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The doctor's image runs through our witness to Jesus, whose death is the doctor entering the sickness.",
+   "tags": [
+    "alx.dw.jesus"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The resurrection, the anastasis, meant death reversed in both kinds: the soul reunited with God, and the body truly transformed.",
+   "tags": [
+    "alx.term.anastasis"
+   ]
+  }
+ ],
+ "shipped_by_net": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity. Adam's fall cast its shadow over every soul, and death and disorder came down to all of us. No one reached God unwounded.\n\nOur teachers spoke of inherited death and weakness, and also of a fall that each soul signs onto in its own living. The wound was real, universal, and inherited in its effects, and the doctor's imagery outweighed the courtroom's. Origen wondered about the soul's own descent, but as open inquiry, not doctrine.\n\nThe doctor's image runs through our witness to Jesus, whose death is the doctor entering the sickness. The resurrection, the anastasis, meant death reversed in both kinds: the soul reunited with God, and the body truly transformed.",
+ "sub_question": "C4.S2"
+}

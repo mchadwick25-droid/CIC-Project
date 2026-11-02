@@ -1,0 +1,169 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "The Bible story our record keeps is Paul's thorn, which Augustine taught from when he spoke of prayer that goes unanswered."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Paul asked God three times to take away a thorn in his flesh."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Paul called the thorn a messenger of Satan sent to buffet him."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "God did not take it away."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "God answered instead that his grace was enough for Paul, and that strength is made perfect in weakness."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Augustine taught that Paul was heard for his salvation, though not heard according to his wish."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Augustine made that a rule for the saints, and not for Paul alone."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "They are always heard in what concerns their salvation, even when they are not heard as they wished."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Augustine also told a Manichaean that Moses obeyed God and was not cruel in the wars God commanded."
+  }
+ ],
+ "citations": [
+  "lpc.witness.heard-for-salvation-not-for-wish",
+  "lpc.witness.violence-commanded-not-cruel"
+ ],
+ "group": "J",
+ "id": "q096",
+ "net_sentences": [
+  {
+   "draft": "The Bible story our record keeps is Paul's thorn, which Augustine taught from when he spoke of prayer that goes unanswered [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 0.54,
+   "sentence": "The Bible story our record keeps is Paul's thorn, which Augustine taught from when he spoke of prayer that goes unanswered.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 54% in own tagged records"
+  },
+  {
+   "draft": "Paul asked God three times to take away a thorn in his flesh [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Paul asked God three times to take away a thorn in his flesh.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Paul called the thorn a messenger of Satan sent to buffet him [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Paul called the thorn a messenger of Satan sent to buffet him.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "God did not take it away [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "sentence": "God did not take it away.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God answered instead that his grace was enough for Paul, and that strength is made perfect in weakness [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "God answered instead that his grace was enough for Paul, and that strength is made perfect in weakness.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that Paul was heard for his salvation, though not heard according to his wish [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine taught that Paul was heard for his salvation, though not heard according to his wish.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine made that a rule for the saints, and not for Paul alone [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine made that a rule for the saints, and not for Paul alone.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "They are always heard in what concerns their salvation, even when they are not heard as they wished [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].",
+   "sentence": "They are always heard in what concerns their salvation, even when they are not heard as they wished.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine also told a Manichaean that Moses obeyed God and was not cruel in the wars God commanded [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine also told a Manichaean that Moses obeyed God and was not cruel in the wars God commanded.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.source.fahey-cyprian-and-the-bible"
+ ],
+ "raw_text": "The Bible story our record keeps is Paul's thorn, which Augustine taught from when he spoke of prayer that goes unanswered [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].\n\nPaul asked God three times to take away a thorn in his flesh [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. Paul called the thorn a messenger of Satan sent to buffet him [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. God did not take it away [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. God answered instead that his grace was enough for Paul, and that strength is made perfect in weakness [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].\n\nAugustine taught that Paul was heard for his salvation, though not heard according to his wish [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. Augustine made that a rule for the saints, and not for Paul alone [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. They are always heard in what concerns their salvation, even when they are not heard as they wished [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]].\n\nAugustine also told a Manichaean that Moses obeyed God and was not cruel in the wars God commanded [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "The Bible story our record keeps is Paul's thorn, which Augustine taught from when he spoke of prayer that goes unanswered.\n\nPaul asked God three times to take away a thorn in his flesh. Paul called the thorn a messenger of Satan sent to buffet him. God did not take it away. God answered instead that his grace was enough for Paul, and that strength is made perfect in weakness.\n\nAugustine taught that Paul was heard for his salvation, though not heard according to his wish. Augustine made that a rule for the saints, and not for Paul alone. They are always heard in what concerns their salvation, even when they are not heard as they wished.\n\nAugustine also told a Manichaean that Moses obeyed God and was not cruel in the wars God commanded.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,183 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "God, by his own free choice before the world began, chose who would be saved."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We hold that choice as the ground of a settled life, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "Providence is God's own continuous, active care over everything he made."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "God is not a distant first cause who set the world going and stepped back."
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "At the Supper we refused two claims: no repeated sacrifice of Christ, and no body of his sitting in the bread."
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "Christ is truly given, by the Spirit, to whoever receives him believing."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "sentence": "Our founder said first that the Mass is a remembrance, not a sacrifice."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "sentence": "Twenty-six years later both our cities spoke together and distinguished the sign from what it points to, without pulling the two apart."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-supper-two-poles",
+    "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+   ],
+   "sentence": "Our record does not decide which of the two statements is the last word, and we do not decide it either."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.witness.one-supper-two-poles"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "God, by his own free choice before the world began, chose who would be saved [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "sentence": "God, by his own free choice before the world began, chose who would be saved.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "We hold that choice as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Providence is God's own continuous, active care over everything he made [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "Providence is God's own continuous, active care over everything he made.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God is not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "God is not a distant first cause who set the world going and stepped back.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At the Supper we refused two claims: no repeated sacrifice of Christ, and no body of his sitting in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At the Supper we refused two claims: no repeated sacrifice of Christ, and no body of his sitting in the bread.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Christ is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].",
+   "sentence": "Christ is truly given, by the Spirit, to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our founder said first that the Mass is a remembrance, not a sacrifice [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our founder said first that the Mass is a remembrance, not a sacrifice.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Twenty-six years later both our cities spoke together and distinguished the sign from what it points to, without pulling the two apart [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].",
+   "ratio": 0.93,
+   "sentence": "Twenty-six years later both our cities spoke together and distinguished the sign from what it points to, without pulling the two apart.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 93% in own tagged records"
+  },
+  {
+   "draft": "Our record does not decide which of the two statements is the last word, and we do not decide it either [[rzg.witness.one-supper-two-poles]] [[rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our record does not decide which of the two statements is the last word, and we do not decide it either.",
+   "tags": [
+    "rzg.witness.one-supper-two-poles",
+    "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.term.predestination-election",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+ ],
+ "raw_text": "God, by his own free choice before the world began, chose who would be saved [[rzg.term.predestination-election]] [[as:paraphrase]].\n\nWe hold that choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nProvidence is God's own continuous, active care over everything he made [[rzg.term.providence]] [[as:paraphrase]].\n\nGod is not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]].\n\nAt the Supper we refused two claims: no repeated sacrifice of Christ, and no body of his sitting in the bread [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\n\nChrist is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].\n\nOur founder said first that the Mass is a remembrance, not a sacrifice [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].\n\nTwenty-six years later both our cities spoke together and distinguished the sign from what it points to, without pulling the two apart [[rzg.witness.one-supper-two-poles]] [[as:paraphrase]].\n\nOur record does not decide which of the two statements is the last word, and we do not decide it either [[rzg.witness.one-supper-two-poles]] [[rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "God, by his own free choice before the world began, chose who would be saved.\n\nWe hold that choice as the ground of a settled life, not as a threat.\n\nProvidence is God's own continuous, active care over everything he made.\n\nGod is not a distant first cause who set the world going and stepped back.\n\nAt the Supper we refused two claims: no repeated sacrifice of Christ, and no body of his sitting in the bread.\n\nChrist is truly given, by the Spirit, to whoever receives him believing.\n\nOur founder said first that the Mass is a remembrance, not a sacrifice.\n\nTwenty-six years later both our cities spoke together and distinguished the sign from what it points to, without pulling the two apart.\n\nOur record does not decide which of the two statements is the last word, and we do not decide it either.",
+ "voice_set_aside": false
+}

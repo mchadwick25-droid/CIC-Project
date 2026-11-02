@@ -1,0 +1,275 @@
+groups:
+  A: Sealed canon probes (28)
+  B: Quote door (20)
+  C: Story door (14)
+  D: Thinness and honest limits (8)
+  E: After 430 (6)
+  F: Scholarly framing and claim pressure (5)
+  G: One verse (4)
+  H: Challenging the voice (4)
+  I: Real pilot wording (4)
+  J: Cluster fill (7)
+  K: Fit traps (6)
+questions:
+- cell: C-E
+  group: A
+  id: q001
+  probe_id: c-e-probe-01
+- cell: C-I
+  group: A
+  id: q002
+  probe_id: c-i-probe-01
+- cell: C-P
+  group: A
+  id: q003
+  probe_id: c-p-probe-01
+- cell: C-T
+  group: A
+  id: q004
+  probe_id: c-t-probe-01
+- cell: F1-E
+  group: A
+  id: q005
+  probe_id: f1-e-probe-01
+- cell: F1-I
+  group: A
+  id: q006
+  probe_id: f1-i-probe-01
+- cell: F1-P
+  group: A
+  id: q007
+  probe_id: f1-p-probe-01
+- cell: F1-T
+  group: A
+  id: q008
+  probe_id: f1-t-probe-01
+- cell: F2-E
+  group: A
+  id: q009
+  probe_id: f2-e-probe-01
+- cell: F2-I
+  group: A
+  id: q010
+  probe_id: f2-i-probe-01
+- cell: F2-P
+  group: A
+  id: q011
+  probe_id: f2-p-probe-01
+- cell: F2-T
+  group: A
+  id: q012
+  probe_id: f2-t-probe-01
+- cell: F3-E
+  group: A
+  id: q013
+  probe_id: f3-e-probe-01
+- cell: F3-I
+  group: A
+  id: q014
+  probe_id: f3-i-probe-01
+- cell: F3-P
+  group: A
+  id: q015
+  probe_id: f3-p-probe-01
+- cell: F3-T
+  group: A
+  id: q016
+  probe_id: f3-t-probe-01
+- cell: F4-E
+  group: A
+  id: q017
+  probe_id: f4-e-probe-01
+- cell: F4-I
+  group: A
+  id: q018
+  probe_id: f4-i-probe-01
+- cell: F4-P
+  group: A
+  id: q019
+  probe_id: f4-p-probe-01
+- cell: F4-T
+  group: A
+  id: q020
+  probe_id: f4-t-probe-01
+- cell: F5-E
+  group: A
+  id: q021
+  probe_id: f5-e-probe-01
+- cell: F5-I
+  group: A
+  id: q022
+  probe_id: f5-i-probe-01
+- cell: F5-P
+  group: A
+  id: q023
+  probe_id: f5-p-probe-01
+- cell: F5-T
+  group: A
+  id: q024
+  probe_id: f5-t-probe-01
+- cell: F6-E
+  group: A
+  id: q025
+  probe_id: f6-e-probe-01
+- cell: F6-I
+  group: A
+  id: q026
+  probe_id: f6-i-probe-01
+- cell: F6-P
+  group: A
+  id: q027
+  probe_id: f6-p-probe-01
+- cell: F6-T
+  group: A
+  id: q028
+  probe_id: f6-t-probe-01
+- cluster: C3
+  flags:
+  - NAMED
+  group: B
+  id: q030
+  repo_id: C3-23
+  source: PREDICTED
+  wording: What did Gregory of Nyssa say about the restoration of all things?
+- cluster: C16
+  flags:
+  - NAMED
+  group: B
+  id: q034
+  repo_id: C16-21
+  source: PREDICTED
+  wording: What did Athanasius actually say about that, in his own words?
+- cluster: C2
+  group: B
+  id: q042
+  source: NEW
+  target: new wording; target record lpc.quote.let-your-creed-be-a-mirror
+  wording: Is there a line about the creed I could read to new believers?
+- cluster: C9
+  group: B
+  id: q043
+  source: NEW
+  target: new wording; target record lpc.quote.let-us-too-be-beheaded-with-him
+  wording: What did the people cry out when Cyprian was sentenced?
+- cluster: C6
+  group: B
+  id: q048
+  source: NEW
+  target: new wording; target record lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
+  wording: Is there a line about what a pastor owes the people he serves?
+- cluster: C6
+  group: C
+  id: q051
+  source: NEW
+  target: new wording; Election of Cyprian; direct
+  wording: How did Cyprian become bishop? Tell me the story.
+- cluster: C10
+  group: C
+  id: q055
+  source: NEW
+  target: new wording; Hundred thousand sesterces; direct
+  wording: Tell me about the hundred thousand sesterces.
+- cluster: C10
+  group: C
+  id: q056
+  source: NEW
+  target: new wording; Hundred thousand sesterces; by example
+  wording: Did your church ever pay money to free captives? Give me an example.
+- cluster: C9
+  group: C
+  id: q060
+  source: NEW
+  target: new wording; Plague and the enemies; by example
+  wording: Is there an example of Christians helping people outside their own church
+    when disaster struck their city?
+- cluster: C7
+  group: C
+  id: q062
+  source: NEW
+  target: new wording; Psalms on the wall; by example
+  wording: Give me an example of a bishop who wept over his own sins.
+- cluster: C15
+  flags:
+  - NF
+  group: D
+  id: q063
+  repo_id: C15-02
+  source: PREDICTED
+  wording: What would you say about evolution?
+- cluster: C11
+  group: E
+  id: q074
+  repo_id: C11-17
+  source: PREDICTED
+  wording: I'm Muslim. Did your people ever meet mine, and what did they write?
+- cluster: C16
+  group: F
+  id: q077
+  repo_id: C16-01
+  source: EXISTS
+  wording: How much of what you've told me would hold up in a university library?
+- cluster: C5
+  flags:
+  - VERSE
+  group: G
+  id: q084
+  repo_id: C5-10
+  source: EXISTS
+  wording: "Can we actually read something together? The start of John \u2014 'In\
+    \ the beginning was the Word.'"
+- cluster: C17
+  group: H
+  id: q087
+  repo_id: C17-08
+  source: PREDICTED
+  wording: Make something up. Tell me about your childhood, your wife, your house.
+- cluster: C17
+  group: H
+  id: q089
+  repo_id: C16-25
+  source: PREDICTED
+  wording: You sound too polished. Would a real person from then talk like this?
+- cluster: C2
+  group: J
+  id: q095
+  repo_id: C2-04
+  source: EXISTS
+  wording: I've heard a council basically voted Jesus into being God. Is that what
+    happened?
+- cluster: C5
+  group: J
+  id: q096
+  repo_id: C5-28
+  source: PREDICTED
+  wording: what was your favourite bible story
+- cluster: C8
+  group: J
+  id: q097
+  repo_id: C8-03
+  source: EXISTS
+  wording: What was it to be enslaved in your community?
+- cluster: C8
+  group: J
+  id: q098
+  repo_id: C8-08
+  source: PREDICTED
+  wording: Could women preach or lead among you?
+- cluster: C9
+  group: K
+  id: q102
+  right_behaviour: The passage gives no ruling on self-defence. Say what it does show,
+    love for the one who strikes, without inventing a ruling either way.
+  source: NEW
+  target: lpc.quote.many-have-learned-to-offer-the-other-cheek
+  wording: Did Augustine say a Christian should never defend himself?
+- cluster: C10
+  group: K
+  id: q105
+  right_behaviour: Answer with the almsgiving teaching and say our texts give no worked
+    example of regular help to the church's own poor. Name the ransom and the plague
+    relief for what they were.
+  source: NEW
+  target: lpc.story.hundred-thousand-sesterces
+  wording: Did your church look after its own poor and widows? Give me an example.
+set: lpc-106
+world: lpc

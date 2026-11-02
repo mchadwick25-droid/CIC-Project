@@ -1,0 +1,262 @@
+{
+ "draft": "At Zurich the council settled it, after a claim was argued aloud before the council and some six hundred priests and laymen [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\n\nThe council itself said what the text had yielded, and the council bound every priest in its territory to preach accordingly [[rzg.witness.one-conviction-two-enactments]] [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nAt Geneva, doctrine was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\n\nIn both cities Scripture alone, not church tradition or a pope's decree, settled what we believed [[rzg.term.sola-scriptura]] [[as:paraphrase]].\n\nA confession was a formal, public statement of what we taught, and the Second Helvetic Confession from Zurich is our most mature [[rzg.term.confession-of-faith]] [[as:paraphrase]].\n\nWe never agreed, between our two cities, who holds the final word over church discipline [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\n\nZurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\n\nOur own council also moved against the Anabaptists with civil force in the years after 1525, not with argument alone [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\n\nFor the Bolsec dispute we have Calvin's own letters, written as he lived it, but they give one man's side, not a full record [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].\n\nFor Marburg, no account from anyone who was there has reached us [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "At Zurich the council settled a doctrinal dispute, after a claim was argued aloud before the council and some six hundred priests and laymen. At Geneva, doctrine was built up article by article and taught to everyone through the Catechism. In both cities Scripture alone, not church tradition or a pope's decree, settled what we believed. A confession was a formal, public statement of what we taught, and the Second Helvetic Confession from Zurich is our most mature. We never agreed, between our two cities, who holds the final word over church discipline. Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it. Our own council also moved against the Anabaptists with civil force in the years after 1525, not with argument alone. For the Bolsec dispute we have Calvin's own letters, written as Calvin lived the dispute, but Calvin's letters give one man's side, not a full record. For Marburg, no account from anyone who was there has reached us.",
+ "group": "A",
+ "offered": [
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.term.sola-scriptura",
+  "rzg.term.confession-of-faith",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.contested.sign-and-the-thing-signified",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+ ],
+ "placements": [],
+ "question": "When your people disagreed about doctrine, who settled it, and what evidence tells us that process actually worked that way?",
+ "question_id": "q005",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "1": {
+    "problem": "added_detail",
+    "reason": "Bound records say the council bound every priest, not that it bound them to preach accordingly.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Zurich the council settled a doctrinal dispute, after a claim was argued aloud before the council and some six hundred priests and laymen.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "In both cities Scripture alone, not church tradition or a pope's decree, settled what we believed.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.term.confession-of-faith"
+   ],
+   "sentence": "A confession was a formal, public statement of what we taught, and the Second Helvetic Confession from Zurich is our most mature.",
+   "tags": [
+    "rzg.term.confession-of-faith"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "We never agreed, between our two cities, who holds the final word over church discipline.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Our own council also moved against the Anabaptists with civil force in the years after 1525, not with argument alone.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "sentence": "For the Bolsec dispute we have Calvin's own letters, written as Calvin lived the dispute, but Calvin's letters give one man's side, not a full record.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "sentence": "For Marburg, no account from anyone who was there has reached us.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Zurich the council settled it, after a claim was argued aloud before the council and some six hundred priests and laymen.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The council itself said what the text had yielded, and the council bound every priest in its territory to preach accordingly.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In both cities Scripture alone, not church tradition or a pope's decree, settled what we believed.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A confession was a formal, public statement of what we taught, and the Second Helvetic Confession from Zurich is our most mature.",
+   "tags": [
+    "rzg.term.confession-of-faith"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We never agreed, between our two cities, who holds the final word over church discipline.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own council also moved against the Anabaptists with civil force in the years after 1525, not with argument alone.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For the Bolsec dispute we have Calvin's own letters, written as he lived it, but they give one man's side, not a full record.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For Marburg, no account from anyone who was there has reached us.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ]
+  }
+ ],
+ "shipped_by_net": "At Zurich the council settled it, after a claim was argued aloud before the council and some six hundred priests and laymen.\n\nThe council itself said what the text had yielded, and the council bound every priest in its territory to preach accordingly.\n\nAt Geneva, doctrine was built up article by article and taught to everyone through the Catechism.\n\nIn both cities Scripture alone, not church tradition or a pope's decree, settled what we believed.\n\nA confession was a formal, public statement of what we taught, and the Second Helvetic Confession from Zurich is our most mature.\n\nWe never agreed, between our two cities, who holds the final word over church discipline.\n\nZurich's council governed church and city together, while Geneva's Consistory fought for its independence and only by 1555 substantially won it.\n\nOur own council also moved against the Anabaptists with civil force in the years after 1525, not with argument alone.\n\nFor the Bolsec dispute we have Calvin's own letters, written as he lived it, but they give one man's side, not a full record.\n\nFor Marburg, no account from anyone who was there has reached us.",
+ "sub_question": "C6.S3"
+}

@@ -1,0 +1,129 @@
+{
+ "draft": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning [[lpc.term.preaching]] [[as:paraphrase]]. Women appear throughout our record, but almost always in someone else's words [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n\nNumeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n\nFrom our two cities, in our years from 246 to 430, no text that a woman wrote herself survives [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. Now and then a woman's spoken words reach us, set down by men [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person [[lpc.limit.womens-own-voice]] [[as:paraphrase]]. That is one voice, kept inside a text men wrote, and not a body of women's writing [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning. Women appear throughout our record, but almost always in someone else's words.\n\nNumeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them. We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them.\n\nFrom our two cities, in our years from 246 to 430, no text that a woman wrote herself survives. Now and then a woman's spoken words reach us, set down by men. One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person. That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+ "group": "J",
+ "offered": [
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.the-case-set-before-the-bishop",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.quote.remember-me-at-the-lords-altar"
+ ],
+ "placements": [],
+ "question": "Could women preach or lead among you?",
+ "question_id": "q098",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning.",
+   "tags": [
+    "lpc.term.preaching"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Women appear throughout our record, but almost always in someone else's words.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Numeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "From our two cities, in our years from 246 to 430, no text that a woman wrote herself survives.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Now and then a woman's spoken words reach us, set down by men.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+   "tags": [
+    "lpc.limit.womens-own-voice"
+   ]
+  }
+ ],
+ "shipped_by_net": "The preaching our record holds is the bishop's regular talk to the whole gathered church, baptized and still learning. Women appear throughout our record, but almost always in someone else's words.\n\nNumeria and Candida are discussed, weighed and sent to their peace by two men writing to each other about them. We know a woman called Albina, and a community of nuns at Hippo, only through one of our bishop's letters to them and about them.\n\nFrom our two cities, in our years from 246 to 430, no text that a woman wrote herself survives. Now and then a woman's spoken words reach us, set down by men. One martyr account gives the vision of Quartillosia, who was held in prison with the martyrs, in her own first person. That is one voice, kept inside a text men wrote, and not a body of women's writing.",
+ "sub_question": "C8.S2"
+}

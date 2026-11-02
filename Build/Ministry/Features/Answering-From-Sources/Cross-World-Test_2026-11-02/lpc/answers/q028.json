@@ -1,0 +1,174 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "Among us, Cyprian taught that there is no salvation outside the Church, and he said it of heretics and those who split from it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "In the book on the Church's unity, Cyprian called one who leaves the Church a stranger, profane and an enemy."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.no-salvation-out-of-the-church"
+   ],
+   "sentence": "Cyprian wrote: “Can the power of baptism be greater or worth more than confession and suffering? That is when someone confesses Christ before others and is baptized in his own blood. Yet even this baptism does not help a heretic, though he confessed Christ and was put to death outside the Church. Only the defenders and advocates of heretics say otherwise. They declare that heretics killed in a false confession of Christ are martyrs. They give them the glory and crown of martyrdom against the word of the apostle. He says it will profit them nothing, even if they were burned and killed. Not even the baptism of public confession and blood can help a heretic to salvation, because there is no salvation outside the Church. How much less will it help him in a hiding-place and a den of robbers, stained with the infection of adulterous water! There he has not only failed to put off his old sins. He has piled up still newer and greater ones.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "Cyprian gave the ark of Noah as his picture, and no one outside the ark could escape."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us, of what awaits those who will not believe."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "sentence": "Even so, Cyprian pressed Demetrianus to turn in time, since no repentance is too late for one still in this world."
+  },
+  {
+   "record_ids": [
+    "lpc.term.schism"
+   ],
+   "sentence": "Schism, for us, is the tear made when someone leaves the church's bishop, clergy and people and sets up another altar and another bishop."
+  }
+ ],
+ "citations": [
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.term.schism",
+  "lpc.witness.no-salvation-outside-the-church"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "Among us, Cyprian taught that there is no salvation outside the Church, and he said it of heretics and those who split from it [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "Among us, Cyprian taught that there is no salvation outside the Church, and he said it of heretics and those who split from it.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "In the book on the Church's unity, Cyprian called one who leaves the Church a stranger, profane and an enemy [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "In the book on the Church's unity, Cyprian called one who leaves the Church a stranger, profane and an enemy.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "Cyprian wrote: [[quote:lpc.quote.no-salvation-out-of-the-church]]",
+   "placed_quote": "lpc.quote.no-salvation-out-of-the-church",
+   "sentence": "Cyprian wrote: “Can the power of baptism be greater or worth more than confession and suffering? That is when someone confesses Christ before others and is baptized in his own blood. Yet even this baptism does not help a heretic, though he confessed Christ and was put to death outside the Church. Only the defenders and advocates of heretics say otherwise. They declare that heretics killed in a false confession of Christ are martyrs. They give them the glory and crown of martyrdom against the word of the apostle. He says it will profit them nothing, even if they were burned and killed. Not even the baptism of public confession and blood can help a heretic to salvation, because there is no salvation outside the Church. How much less will it help him in a hiding-place and a den of robbers, stained with the infection of adulterous water! There he has not only failed to put off his old sins. He has piled up still newer and greater ones.”",
+   "tags": [
+    "lpc.quote.no-salvation-out-of-the-church"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Cyprian gave the ark of Noah as his picture, and no one outside the ark could escape [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian gave the ark of Noah as his picture, and no one outside the ark could escape.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us, of what awaits those who will not believe [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us, of what awaits those who will not believe.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Even so, Cyprian pressed Demetrianus to turn in time, since no repentance is too late for one still in this world [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Even so, Cyprian pressed Demetrianus to turn in time, since no repentance is too late for one still in this world.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Schism, for us, is the tear made when someone leaves the church's bishop, clergy and people and sets up another altar and another bishop [[lpc.term.schism]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Schism, for us, is the tear made when someone leaves the church's bishop, clergy and people and sets up another altar and another bishop.",
+   "tags": [
+    "lpc.term.schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.no-one-may-take-his-own-life",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.heresy",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.term.schism"
+ ],
+ "raw_text": "Among us, Cyprian taught that there is no salvation outside the Church, and he said it of heretics and those who split from it [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. In the book on the Church's unity, Cyprian called one who leaves the Church a stranger, profane and an enemy [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].\n\nCyprian wrote: [[quote:lpc.quote.no-salvation-out-of-the-church]]\n\nCyprian gave the ark of Noah as his picture, and no one outside the ark could escape [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us, of what awaits those who will not believe [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. On the day of judgment, Cyprian wrote, a fire burns the condemned with no respite or end to their torments [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Even so, Cyprian pressed Demetrianus to turn in time, since no repentance is too late for one still in this world [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].\n\nSchism, for us, is the tear made when someone leaves the church's bishop, clergy and people and sets up another altar and another bishop [[lpc.term.schism]] [[as:paraphrase]]. Augustine taught that infants who leave the body unbaptized meet the mildest condemnation of all, which is still condemnation [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.no-salvation-out-of-the-church": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "his old sins. He has piled up still newer and greater ones. Epistle LXXII, to Jubaianus, section 21 (Epistle LXXIII in the Oxfo",
+     "span": "record lpc.quote.no-salvation-out-of-the-church"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.no-salvation-out-of-the-church"
+  ],
+  "removed": [
+   {
+    "draft": "On the day of judgment, Cyprian wrote, a fire burns the condemned with no respite or end to their torments [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].",
+    "sentence": "On the day of judgment, Cyprian wrote, a fire burns the condemned with no respite or end to their torments.",
+    "why": "words attributed without a placed quote"
+   },
+   {
+    "draft": "Augustine taught that infants who leave the body unbaptized meet the mildest condemnation of all, which is still condemnation [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+    "sentence": "Augustine taught that infants who leave the body unbaptized meet the mildest condemnation of all, which is still condemnation.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S7",
+ "text": "Among us, Cyprian taught that there is no salvation outside the Church, and he said it of heretics and those who split from it. In the book on the Church's unity, Cyprian called one who leaves the Church a stranger, profane and an enemy.\n\nCyprian wrote: “Can the power of baptism be greater or worth more than confession and suffering? That is when someone confesses Christ before others and is baptized in his own blood. Yet even this baptism does not help a heretic, though he confessed Christ and was put to death outside the Church. Only the defenders and advocates of heretics say otherwise. They declare that heretics killed in a false confession of Christ are martyrs. They give them the glory and crown of martyrdom against the word of the apostle. He says it will profit them nothing, even if they were burned and killed. Not even the baptism of public confession and blood can help a heretic to salvation, because there is no salvation outside the Church. How much less will it help him in a hiding-place and a den of robbers, stained with the infection of adulterous water! There he has not only failed to put off his old sins. He has piled up still newer and greater ones.”\n\nCyprian gave the ark of Noah as his picture, and no one outside the ark could escape. Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us, of what awaits those who will not believe. Even so, Cyprian pressed Demetrianus to turn in time, since no repentance is too late for one still in this world.\n\nSchism, for us, is the tear made when someone leaves the church's bishop, clergy and people and sets up another altar and another bishop.",
+ "voice_set_aside": false
+}

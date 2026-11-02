@@ -1,0 +1,9 @@
+{
+ "answers": 50,
+ "fallback_stands": 0,
+ "keep": 456,
+ "label_none": 24,
+ "label_paraphrase": 345,
+ "withhold_net": 3,
+ "withhold_unbound": 12
+}

@@ -1,0 +1,60 @@
+{
+ "draft": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\nOur pastor at Geneva was a married man, and that much is a biographical fact [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\nNo record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it. Our pastor at Geneva was a married man, and that much is a biographical fact. No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked.",
+ "group": "A",
+ "offered": [
+  "rzg.limit.no-teaching-on-wealth-or-marriage",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.force.anabaptist-schism"
+ ],
+ "placements": [],
+ "question": "How did your community understand and mark marriage?",
+ "question_id": "q024",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our pastor at Geneva was a married man, and that much is a biographical fact.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ]
+  }
+ ],
+ "shipped_by_net": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it. Our pastor at Geneva was a married man, and that much is a biographical fact. No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked.",
+ "sub_question": "C8.S4"
+}

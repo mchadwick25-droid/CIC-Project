@@ -1,0 +1,199 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Scripture alone was our final authority for doctrine and church order, not church tradition or a pope's decree."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Whatever Scripture does yield, no pope, council, or custom may set aside."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "sentence": "Huldrych Zwingli declared: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”"
+  },
+  {
+   "record_ids": [
+    "rzg.force.zwinglis-1519-preaching-sausage-affair"
+   ],
+   "sentence": "Zwingli began continuous, book-by-book exposition at Zurich's Grossmunster from 1519, rather than following the fixed lectionary."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sixty-seven-articles"
+   ],
+   "sentence": "He brought his Sixty-Seven Articles to the First Zurich Disputation in 1523."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "At Zurich the city council judged what the text had yielded, and the council bound every priest in its territory."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Geneva, doctrine was taught to the whole population through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.term.catechism"
+   ],
+   "sentence": "We held more than one catechism, in more than one voice."
+  },
+  {
+   "record_ids": [
+    "rzg.contested.anabaptist-schism-legitimacy"
+   ],
+   "sentence": "We hold that the 1525 Swiss Brethren baptisms misread Scripture, for a church gathered only by adult profession unmakes the unity of church and city."
+  }
+ ],
+ "citations": [
+  "rzg.contested.anabaptist-schism-legitimacy",
+  "rzg.force.zwinglis-1519-preaching-sausage-affair",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.term.catechism",
+  "rzg.term.sixty-seven-articles",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.one-conviction-two-enactments"
+ ],
+ "group": "A",
+ "id": "q012",
+ "net_sentences": [
+  {
+   "draft": "Scripture alone was our final authority for doctrine and church order, not church tradition or a pope's decree [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Scripture alone was our final authority for doctrine and church order, not church tradition or a pope's decree.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "Scripture alone may bind a church, and what Scripture does not warrant, no one may require of us.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whatever Scripture does yield, no pope, council, or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "sentence": "Whatever Scripture does yield, no pope, council, or custom may set aside.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Huldrych Zwingli declared: [[quote:rzg.quote.taught-better-from-scripture]]",
+   "placed_quote": "rzg.quote.taught-better-from-scripture",
+   "sentence": "Huldrych Zwingli declared: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”",
+   "tags": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Zwingli began continuous, book-by-book exposition at Zurich's Grossmunster from 1519, rather than following the fixed lectionary [[rzg.force.zwinglis-1519-preaching-sausage-affair]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Zwingli began continuous, book-by-book exposition at Zurich's Grossmunster from 1519, rather than following the fixed lectionary.",
+   "tags": [
+    "rzg.force.zwinglis-1519-preaching-sausage-affair"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "He brought his Sixty-Seven Articles to the First Zurich Disputation in 1523 [[rzg.term.sixty-seven-articles]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "He brought his Sixty-Seven Articles to the First Zurich Disputation in 1523.",
+   "tags": [
+    "rzg.term.sixty-seven-articles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Zurich the city council judged what the text had yielded, and the council bound every priest in its territory [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "At Zurich the city council judged what the text had yielded, and the council bound every priest in its territory.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "At Geneva, doctrine was taught to the whole population through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, doctrine was taught to the whole population through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We held more than one catechism, in more than one voice [[rzg.term.catechism]] [[as:paraphrase]].",
+   "sentence": "We held more than one catechism, in more than one voice.",
+   "tags": [
+    "rzg.term.catechism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that the 1525 Swiss Brethren baptisms misread Scripture, for a church gathered only by adult profession unmakes the unity of church and city [[rzg.contested.anabaptist-schism-legitimacy]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "We hold that the 1525 Swiss Brethren baptisms misread Scripture, for a church gathered only by adult profession unmakes the unity of church and city.",
+   "tags": [
+    "rzg.contested.anabaptist-schism-legitimacy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.term.catechism",
+  "rzg.term.sixty-seven-articles",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.force.zwinglis-1519-preaching-sausage-affair",
+  "rzg.contested.anabaptist-schism-legitimacy"
+ ],
+ "raw_text": "Scripture alone was our final authority for doctrine and church order, not church tradition or a pope's decree [[rzg.term.sola-scriptura]] [[as:paraphrase]].\n\nScripture alone may bind a church, and what Scripture does not warrant, no one may require of us [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\n\nWhatever Scripture does yield, no pope, council, or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nHuldrych Zwingli declared: [[quote:rzg.quote.taught-better-from-scripture]]\n\nZwingli began continuous, book-by-book exposition at Zurich's Grossmunster from 1519, rather than following the fixed lectionary [[rzg.force.zwinglis-1519-preaching-sausage-affair]] [[as:paraphrase]].\n\nHe brought his Sixty-Seven Articles to the First Zurich Disputation in 1523 [[rzg.term.sixty-seven-articles]] [[as:paraphrase]].\n\nAt Zurich the city council judged what the text had yielded, and the council bound every priest in its territory [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\n\nAt Geneva, doctrine was taught to the whole population through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].\n\nWe held more than one catechism, in more than one voice [[rzg.term.catechism]] [[as:paraphrase]].\n\nWe hold that the 1525 Swiss Brethren baptisms misread Scripture, for a church gathered only by adult profession unmakes the unity of church and city [[rzg.contested.anabaptist-schism-legitimacy]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.taught-better-from-scripture"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Scripture alone was our final authority for doctrine and church order, not church tradition or a pope's decree.\n\nScripture alone may bind a church, and what Scripture does not warrant, no one may require of us.\n\nWhatever Scripture does yield, no pope, council, or custom may set aside.\n\nHuldrych Zwingli declared: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”\n\nZwingli began continuous, book-by-book exposition at Zurich's Grossmunster from 1519, rather than following the fixed lectionary.\n\nHe brought his Sixty-Seven Articles to the First Zurich Disputation in 1523.\n\nAt Zurich the city council judged what the text had yielded, and the council bound every priest in its territory.\n\nAt Geneva, doctrine was taught to the whole population through the Catechism.\n\nWe held more than one catechism, in more than one voice.\n\nWe hold that the 1525 Swiss Brethren baptisms misread Scripture, for a church gathered only by adult profession unmakes the unity of church and city.",
+ "voice_set_aside": false
+}

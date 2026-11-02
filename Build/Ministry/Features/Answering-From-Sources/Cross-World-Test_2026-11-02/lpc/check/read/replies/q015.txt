@@ -1,0 +1,18 @@
+{"sentences": [
+{"n": 1, "supported": true, "problem": null, "reason": "The reconciliation record calls it a public road, in stages, under the bishop."},
+{"n": 2, "supported": true, "problem": null, "reason": "The record says there is an order, it takes time, and everyone can see it."},
+{"n": 3, "supported": true, "problem": null, "reason": "The Decian record says the force made the lapsed common and worked through certificates recording a sacrifice."},
+{"n": 4, "supported": true, "problem": null, "reason": "The record says a certificate came by performing the sacrifice or paying to have it recorded."},
+{"n": 5, "supported": true, "problem": null, "reason": "The record says it sorted the congregation into those who had stood and those who had not, and both still belonged."},
+{"n": 6, "supported": true, "problem": null, "reason": "The record says Cyprian wrote that when the flock is wounded the shepherd is wounded most."},
+{"n": 7, "supported": true, "problem": null, "reason": "The confessors record says they issued written requests naming lapsed persons to be received back."},
+{"n": 8, "supported": true, "problem": null, "reason": "The record says the contest over the lapsed had to be settled by a formal process, not by a bishop's word alone."},
+{"n": 10, "supported": true, "problem": null, "reason": "The record says Augustine wrote to Honoratus, a bishop in Mauritania, in 428 or 429."},
+{"n": 11, "supported": true, "problem": null, "reason": "The record gives this as Augustine's reason for ministers to stay when danger falls on all alike, so the dying are baptized and reconciled."},
+{"n": 12, "supported": true, "problem": null, "reason": "The record states this as Augustine's second, ordinary standard of forgiveness."},
+{"n": 13, "supported": true, "problem": null, "reason": "The limit record says we can tell what was decided, how carefully and by whom."},
+{"n": 14, "supported": true, "problem": null, "reason": "The limit record says we cannot tell what an ordinary believer felt walking up to the altar."}
+],
+"placed": [
+{"id": "lpc.quote.before-even-a-deacon", "fit": "partly", "reason": "It shows one response to the failed, a provision for sick penitents holding martyrs' letters, not the church's general response.", "limit_stated": false}
+]}
