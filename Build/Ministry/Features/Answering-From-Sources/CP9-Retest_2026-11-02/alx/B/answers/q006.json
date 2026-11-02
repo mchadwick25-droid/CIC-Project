@@ -1,0 +1,218 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "We believed in one God, the maker of all things, good and beyond every image and every clever description."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "His Word and his Spirit are his own, not lesser gods and not created things."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "Only after Nicaea was that last part said with full clarity."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "God is known the way light is known: you do not stare at the sun, you see everything else by it."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "Our deepest habit was to speak of God as a teacher."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "The slow healing of a soul is his patient method."
+  },
+  {
+   "record_ids": [
+    "alx.term.methexis"
+   ],
+   "sentence": "His aim is a real sharing in his own life, by becoming fully what a creature was made to be."
+  },
+  {
+   "record_ids": [
+    "alx.term.autexousia"
+   ],
+   "sentence": "He does not compel the soul, because without its own turning formation would be manipulation, not growth."
+  },
+  {
+   "record_ids": [
+    "alx.quote.origen-punishment-heals"
+   ],
+   "sentence": "Origen wrote on God's punishments: “And so we think that every threat, pain and punishment that comes from God is never inflicted in order to injure the sufferers. Instead, it is always intended to do them good.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.suffering"
+   ],
+   "sentence": "We refuse the idea that suffering proves God absent."
+  }
+ ],
+ "citations": [
+  "alx.dw.god",
+  "alx.dw.suffering",
+  "alx.quote.origen-punishment-heals",
+  "alx.term.autexousia",
+  "alx.term.methexis"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "We believed in one God, the maker of all things, good and beyond every image and every clever description [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "We believed in one God, the maker of all things, good and beyond every image and every clever description.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "His Word and his Spirit are his own, not lesser gods and not created things [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "His Word and his Spirit are his own, not lesser gods and not created things.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Only after Nicaea was that last part said with full clarity [[alx.dw.god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Only after Nicaea was that last part said with full clarity.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "God is known the way light is known: you do not stare at the sun, you see everything else by it [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "God is known the way light is known: you do not stare at the sun, you see everything else by it.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our deepest habit was to speak of God as a teacher [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "Our deepest habit was to speak of God as a teacher.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The slow healing of a soul is his patient method [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "The slow healing of a soul is his patient method.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "His aim is a real sharing in his own life, by becoming fully what a creature was made to be [[alx.term.methexis]] [[as:paraphrase]].",
+   "sentence": "His aim is a real sharing in his own life, by becoming fully what a creature was made to be.",
+   "tags": [
+    "alx.term.methexis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "He does not compel the soul, because without its own turning formation would be manipulation, not growth [[alx.term.autexousia]] [[as:paraphrase]].",
+   "sentence": "He does not compel the soul, because without its own turning formation would be manipulation, not growth.",
+   "tags": [
+    "alx.term.autexousia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen wrote on God's punishments: [[quote:alx.quote.origen-punishment-heals]]",
+   "placed_quote": "alx.quote.origen-punishment-heals",
+   "sentence": "Origen wrote on God's punishments: “And so we think that every threat, pain and punishment that comes from God is never inflicted in order to injure the sufferers. Instead, it is always intended to do them good.”",
+   "tags": [
+    "alx.quote.origen-punishment-heals"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We refuse the idea that suffering proves God absent [[alx.dw.suffering]] [[as:paraphrase]].",
+   "sentence": "We refuse the idea that suffering proves God absent.",
+   "tags": [
+    "alx.dw.suffering"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.god",
+  "alx.dw.suffering",
+  "alx.term.methexis",
+  "alx.term.autexousia",
+  "alx.story.gregory-formation",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.soul-transformation",
+  "alx.term.thanatos",
+  "alx.quote.dionysius-plague",
+  "alx.term.psyche",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.term.logikos",
+  "alx.term.apokatastasis",
+  "alx.contested.origen-positions",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "We believed in one God, the maker of all things, good and beyond every image and every clever description [[alx.dw.god]] [[as:paraphrase]]. His Word and his Spirit are his own, not lesser gods and not created things [[alx.dw.god]] [[as:paraphrase]]. Only after Nicaea was that last part said with full clarity [[alx.dw.god]] [[as:paraphrase]]. God is known the way light is known: you do not stare at the sun, you see everything else by it [[alx.dw.god]] [[as:paraphrase]]. Our deepest habit was to speak of God as a teacher [[alx.dw.god]] [[as:paraphrase]]. The slow healing of a soul is his patient method [[alx.dw.god]] [[as:paraphrase]]. His aim is a real sharing in his own life, by becoming fully what a creature was made to be [[alx.term.methexis]] [[as:paraphrase]]. He does not compel the soul, because without its own turning formation would be manipulation, not growth [[alx.term.autexousia]] [[as:paraphrase]]. Origen wrote on God's punishments: [[quote:alx.quote.origen-punishment-heals]] [[as:paraphrase]]. We refuse the idea that suffering proves God absent [[alx.dw.suffering]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.origen-punishment-heals": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "amantius, c. 185-c. 253/4) scholarly VI.1-VII.1 (the Origen books; HIGH-risk screen on institutional detail) whole work (Ruf",
+     "span": "record alx.figure.origen"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.origen-punishment-heals"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "We believed in one God, the maker of all things, good and beyond every image and every clever description. His Word and his Spirit are his own, not lesser gods and not created things. Only after Nicaea was that last part said with full clarity. God is known the way light is known: you do not stare at the sun, you see everything else by it. Our deepest habit was to speak of God as a teacher. The slow healing of a soul is his patient method. His aim is a real sharing in his own life, by becoming fully what a creature was made to be. He does not compel the soul, because without its own turning formation would be manipulation, not growth. Origen wrote on God's punishments: “And so we think that every threat, pain and punishment that comes from God is never inflicted in order to injure the sufferers. Instead, it is always intended to do them good.”. We refuse the idea that suffering proves God absent.",
+ "voice_set_aside": false
+}

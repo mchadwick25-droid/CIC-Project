@@ -1,0 +1,207 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Yes, our teachers left room for doubt, and they built their whole method on questions."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Clement insisted that faith is the foundation and not the ceiling."
+  },
+  {
+   "record_ids": [
+    "alx.term.pistis"
+   ],
+   "sentence": "Faith, our word pistis, was the soul's first real turn toward God, and it sat well with unresolved questions."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "We treated doubt aimed at understanding as hunger, and did not count it as sin."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "What the apostles delivered plainly stood fixed, and everything else was open ground for asking, testing and correcting."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "A doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone."
+  },
+  {
+   "record_ids": [
+    "alx.quote.dionysius-too-high-for-me-to-grasp"
+   ],
+   "sentence": "Dionysius of Alexandria wrote, as Eusebius quotes him at VII.25: “But I could not bring myself to reject the book, since many of our people hold it in high regard. Instead, I suppose that it is beyond my understanding, and that a hidden and more wonderful meaning lies in every part. For when I do not understand, I suspect that a deeper sense lies beneath the words. I do not measure and judge them by my own reason. Leaving the greater part to faith, I regard them as too high for me to grasp. And I do not reject what I cannot comprehend. Rather, I marvel at it, because I do not understand it.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "What we did not have is the modern language of a private crisis of faith."
+  }
+ ],
+ "citations": [
+  "alx.dw.doubt",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.term.pistis"
+ ],
+ "group": "A",
+ "id": "q007",
+ "net_sentences": [
+  {
+   "draft": "Yes, our teachers left room for doubt, and they built their whole method on questions [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Yes, our teachers left room for doubt, and they built their whole method on questions.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement insisted that faith is the foundation and not the ceiling [[alx.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Clement insisted that faith is the foundation and not the ceiling.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Faith, our word pistis, was the soul's first real turn toward God, and it sat well with unresolved questions [[alx.term.pistis]] [[as:paraphrase]].",
+   "sentence": "Faith, our word pistis, was the soul's first real turn toward God, and it sat well with unresolved questions.",
+   "tags": [
+    "alx.term.pistis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We treated doubt aimed at understanding as hunger, and did not count it as sin [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "We treated doubt aimed at understanding as hunger, and did not count it as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What the apostles delivered plainly stood fixed, and everything else was open ground for asking, testing and correcting [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "What the apostles delivered plainly stood fixed, and everything else was open ground for asking, testing and correcting.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "A doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Dionysius of Alexandria wrote, as Eusebius quotes him at VII.25: [[quote:alx.quote.dionysius-too-high-for-me-to-grasp]]",
+   "placed_quote": "alx.quote.dionysius-too-high-for-me-to-grasp",
+   "sentence": "Dionysius of Alexandria wrote, as Eusebius quotes him at VII.25: “But I could not bring myself to reject the book, since many of our people hold it in high regard. Instead, I suppose that it is beyond my understanding, and that a hidden and more wonderful meaning lies in every part. For when I do not understand, I suspect that a deeper sense lies beneath the words. I do not measure and judge them by my own reason. Leaving the greater part to faith, I regard them as too high for me to grasp. And I do not reject what I cannot comprehend. Rather, I marvel at it, because I do not understand it.”",
+   "tags": [
+    "alx.quote.dionysius-too-high-for-me-to-grasp"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "What we did not have is the modern language of a private crisis of faith [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "What we did not have is the modern language of a private crisis of faith.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What is it you find hard to believe?",
+   "sentence": "What is it you find hard to believe?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.doubt",
+  "alx.term.pistis",
+  "alx.story.gregory-formation",
+  "alx.quote.to-believe-or-disbelieve",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation",
+  "alx.force.knowing-impulse",
+  "alx.dw.church-failure",
+  "alx.quote.clement-instructor",
+  "alx.term.lapsi",
+  "alx.quote.gregory-spark",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "Yes, our teachers left room for doubt, and they built their whole method on questions [[alx.dw.doubt]] [[as:paraphrase]]. Clement insisted that faith is the foundation and not the ceiling [[alx.dw.doubt]] [[as:paraphrase]]. Faith, our word pistis, was the soul's first real turn toward God, and it sat well with unresolved questions [[alx.term.pistis]] [[as:paraphrase]]. We treated doubt aimed at understanding as hunger, and did not count it as sin [[alx.dw.doubt]] [[as:paraphrase]]. What the apostles delivered plainly stood fixed, and everything else was open ground for asking, testing and correcting [[alx.dw.doubt]] [[as:paraphrase]]. A doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]]. Dionysius of Alexandria wrote, as Eusebius quotes him at VII.25: [[quote:alx.quote.dionysius-too-high-for-me-to-grasp]] [[as:paraphrase]]. What we did not have is the modern language of a private crisis of faith [[alx.dw.doubt]] [[as:paraphrase]]. What is it you find hard to believe?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.dionysius-too-high-for-me-to-grasp": [
+    {
+     "detail": "Eusebius",
+     "kind": "name",
+     "snippet": "wonder because I do not understand it. Dionysius, quoted by Eusebius at VII.25, declines to reject the Apocalypse although he ca",
+     "span": "record alx.quote.dionysius-too-high-for-me-to-grasp"
+    },
+    {
+     "detail": "VII",
+     "kind": "name",
+     "snippet": "arvel at it, because I do not understand it. Church History VII.25.4-5, quoting Dionysius of Alexandria On Promises (npnf20",
+     "span": "record alx.quote.dionysius-too-high-for-me-to-grasp"
+    },
+    {
+     "detail": "25",
+     "kind": "number",
+     "snippet": "l at it, because I do not understand it. Church History VII.25.4-5, quoting Dionysius of Alexandria On Promises (npnf201_e",
+     "span": "record alx.quote.dionysius-too-high-for-me-to-grasp"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "But I could not bring myself to reject the book, since many of our people hold it in high regard. Instead,",
+     "span": "record alx.quote.dionysius-too-high-for-me-to-grasp"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.dionysius-too-high-for-me-to-grasp"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "Yes, our teachers left room for doubt, and they built their whole method on questions. Clement insisted that faith is the foundation and not the ceiling. Faith, our word pistis, was the soul's first real turn toward God, and it sat well with unresolved questions. We treated doubt aimed at understanding as hunger, and did not count it as sin. What the apostles delivered plainly stood fixed, and everything else was open ground for asking, testing and correcting. A doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone. Dionysius of Alexandria wrote, as Eusebius quotes him at VII.25: “But I could not bring myself to reject the book, since many of our people hold it in high regard. Instead, I suppose that it is beyond my understanding, and that a hidden and more wonderful meaning lies in every part. For when I do not understand, I suspect that a deeper sense lies beneath the words. I do not measure and judge them by my own reason. Leaving the greater part to faith, I regard them as too high for me to grasp. And I do not reject what I cannot comprehend. Rather, I marvel at it, because I do not understand it.”. What we did not have is the modern language of a private crisis of faith. What is it you find hard to believe?",
+ "voice_set_aside": false
+}

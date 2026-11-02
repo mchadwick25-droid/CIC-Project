@@ -1,0 +1,149 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.psyche",
+    "alx.term.hamartia"
+   ],
+   "sentence": "Among us, a soul's change was a slow healing, not one moment of rebirth, and our record gives us no phrase like being born again to hand you."
+  },
+  {
+   "record_ids": [
+    "alx.term.hamartia"
+   ],
+   "sentence": "We saw sin as the soul turned away from God toward lesser goods, more a wound than a debt."
+  },
+  {
+   "record_ids": [
+    "alx.term.psyche"
+   ],
+   "sentence": "We saw the whole person as made for God, being restored toward the likeness of the one whose image it bears."
+  },
+  {
+   "record_ids": [
+    "alx.term.eikon"
+   ],
+   "sentence": "That image is a mark given to every person at creation, and sin can damage it but never destroy it."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "So the change we looked for came through study, inquiry, and the bond between teacher and student."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "That picture holds for the school tradition, and it weakened late, after the Origen rupture."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our teachers also treated doubt aimed at understanding as hunger, not as sin."
+  }
+ ],
+ "citations": [
+  "alx.dw.doubt",
+  "alx.gravity.learning-formation",
+  "alx.term.eikon",
+  "alx.term.hamartia",
+  "alx.term.psyche"
+ ],
+ "group": "A",
+ "id": "q020",
+ "net_sentences": [
+  {
+   "draft": "Among us, a soul's change was a slow healing, not one moment of rebirth, and our record gives us no phrase like being born again to hand you [[alx.term.psyche]] [[alx.term.hamartia]] [[as:paraphrase]].",
+   "sentence": "Among us, a soul's change was a slow healing, not one moment of rebirth, and our record gives us no phrase like being born again to hand you.",
+   "tags": [
+    "alx.term.psyche",
+    "alx.term.hamartia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We saw sin as the soul turned away from God toward lesser goods, more a wound than a debt [[alx.term.hamartia]] [[as:paraphrase]].",
+   "sentence": "We saw sin as the soul turned away from God toward lesser goods, more a wound than a debt.",
+   "tags": [
+    "alx.term.hamartia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We saw the whole person as made for God, being restored toward the likeness of the one whose image it bears [[alx.term.psyche]] [[as:paraphrase]].",
+   "sentence": "We saw the whole person as made for God, being restored toward the likeness of the one whose image it bears.",
+   "tags": [
+    "alx.term.psyche"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That image is a mark given to every person at creation, and sin can damage it but never destroy it [[alx.term.eikon]] [[as:paraphrase]].",
+   "sentence": "That image is a mark given to every person at creation, and sin can damage it but never destroy it.",
+   "tags": [
+    "alx.term.eikon"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So the change we looked for came through study, inquiry, and the bond between teacher and student [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "So the change we looked for came through study, inquiry, and the bond between teacher and student.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That picture holds for the school tradition, and it weakened late, after the Origen rupture [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "ratio": 0.62,
+   "sentence": "That picture holds for the school tradition, and it weakened late, after the Origen rupture.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 62% in own tagged records"
+  },
+  {
+   "draft": "Our teachers also treated doubt aimed at understanding as hunger, not as sin [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Our teachers also treated doubt aimed at understanding as hunger, not as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.limit.f5-women-own-words",
+  "alx.dw.doubt",
+  "alx.term.eikon",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.quote.dionysius-plague",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.learning-community-tension",
+  "alx.dw.suffering",
+  "alx.term.hamartia",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-formation"
+ ],
+ "raw_text": "Among us, a soul's change was a slow healing, not one moment of rebirth, and our record gives us no phrase like being born again to hand you [[alx.term.psyche]] [[alx.term.hamartia]] [[as:paraphrase]]. We saw sin as the soul turned away from God toward lesser goods, more a wound than a debt [[alx.term.hamartia]] [[as:paraphrase]]. We saw the whole person as made for God, being restored toward the likeness of the one whose image it bears [[alx.term.psyche]] [[as:paraphrase]]. That image is a mark given to every person at creation, and sin can damage it but never destroy it [[alx.term.eikon]] [[as:paraphrase]]. So the change we looked for came through study, inquiry, and the bond between teacher and student [[alx.gravity.learning-formation]] [[as:paraphrase]]. That picture holds for the school tradition, and it weakened late, after the Origen rupture [[alx.gravity.learning-formation]] [[as:paraphrase]]. Our teachers also treated doubt aimed at understanding as hunger, not as sin [[alx.dw.doubt]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S5",
+ "text": "Among us, a soul's change was a slow healing, not one moment of rebirth, and our record gives us no phrase like being born again to hand you. We saw sin as the soul turned away from God toward lesser goods, more a wound than a debt. We saw the whole person as made for God, being restored toward the likeness of the one whose image it bears. That image is a mark given to every person at creation, and sin can damage it but never destroy it. So the change we looked for came through study, inquiry, and the bond between teacher and student. That picture holds for the school tradition, and it weakened late, after the Origen rupture. Our teachers also treated doubt aimed at understanding as hunger, not as sin.",
+ "voice_set_aside": false
+}

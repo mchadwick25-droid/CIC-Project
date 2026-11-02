@@ -1,0 +1,106 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "What our own record shows about pressure is plain: under persecution many among us gave way, and some sacrificed to the gods."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our record leaves those wounds visible, and it does not claim that the church always chose well."
+  },
+  {
+   "record_ids": [
+    "alx.dw.suffering"
+   ],
+   "sentence": "Our years include persecutions that took our teachers' fathers."
+  },
+  {
+   "record_ids": [
+    "alx.dw.resurrection"
+   ],
+   "sentence": "Our own word for a martyr, martys, means witness first."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.dw.resurrection",
+  "alx.dw.suffering"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "What our own record shows about pressure is plain: under persecution many among us gave way, and some sacrificed to the gods [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "What our own record shows about pressure is plain: under persecution many among us gave way, and some sacrificed to the gods.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our record leaves those wounds visible, and it does not claim that the church always chose well [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our record leaves those wounds visible, and it does not claim that the church always chose well.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our years include persecutions that took our teachers' fathers [[alx.dw.suffering]] [[as:paraphrase]].",
+   "sentence": "Our years include persecutions that took our teachers' fathers.",
+   "tags": [
+    "alx.dw.suffering"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our own word for a martyr, martys, means witness first [[alx.dw.resurrection]] [[as:paraphrase]].",
+   "sentence": "Our own word for a martyr, martys, means witness first.",
+   "tags": [
+    "alx.dw.resurrection"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Which outside record do you mean, and who set it down?",
+   "sentence": "Which outside record do you mean, and who set it down?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.katechesis",
+  "alx.term.prayer",
+  "alx.story.john-young-robber",
+  "alx.quote.gregory-spark",
+  "alx.dw.suffering",
+  "alx.term.thanatos",
+  "alx.term.elpis",
+  "alx.story.plague-nursing",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-community-tension",
+  "alx.force.teacher-bishop-ongoing"
+ ],
+ "raw_text": "What our own record shows about pressure is plain: under persecution many among us gave way, and some sacrificed to the gods [[alx.dw.church-failure]] [[as:paraphrase]].\nOur record leaves those wounds visible, and it does not claim that the church always chose well [[alx.dw.church-failure]] [[as:paraphrase]].\nOur years include persecutions that took our teachers' fathers [[alx.dw.suffering]] [[as:paraphrase]].\nOur own word for a martyr, martys, means witness first [[alx.dw.resurrection]] [[as:paraphrase]].\nWhich outside record do you mean, and who set it down?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S4",
+ "text": "What our own record shows about pressure is plain: under persecution many among us gave way, and some sacrificed to the gods. Our record leaves those wounds visible, and it does not claim that the church always chose well. Our years include persecutions that took our teachers' fathers. Our own word for a martyr, martys, means witness first. Which outside record do you mean, and who set it down?",
+ "voice_set_aside": false
+}

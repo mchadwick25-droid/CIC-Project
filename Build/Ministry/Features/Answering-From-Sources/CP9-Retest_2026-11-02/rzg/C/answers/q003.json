@@ -1,0 +1,178 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "We offered no method for searching harder within yourself."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "So we turned such a mind outward, toward Christ, once, rather than toward the self, endlessly."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Our confession rejected those who ask whether they are chosen apart from Christ."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "sentence": "Bullinger set this down in our confession: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”"
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have of Christ is the text, and we hold that it is enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "No one among us met anyone who met him."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "sentence": "Whether an ordinary believer felt that comfort, or felt anxious instead, our record does not say."
+  }
+ ],
+ "citations": [
+  "rzg.limit.doubt-and-assurance",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q003",
+ "net_sentences": [
+  {
+   "draft": "We offered no method for searching harder within yourself [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "We offered no method for searching harder within yourself.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So we turned such a mind outward, toward Christ, once, rather than toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "So we turned such a mind outward, toward Christ, once, rather than toward the self, endlessly.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession rejected those who ask whether they are chosen apart from Christ [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Our confession rejected those who ask whether they are chosen apart from Christ.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Bullinger set this down in our confession: [[quote:rzg.quote.christ-the-mirror-of-election]]",
+   "placed_quote": "rzg.quote.christ-the-mirror-of-election",
+   "sentence": "Bullinger set this down in our confession: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”",
+   "tags": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "What we have of Christ is the text, and we hold that it is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we have of Christ is the text, and we hold that it is enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No one among us met anyone who met him [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "No one among us met anyone who met him.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether an ordinary believer felt that comfort, or felt anxious instead, our record does not say [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+   "sentence": "Whether an ordinary believer felt that comfort, or felt anxious instead, our record does not say.",
+   "tags": [
+    "rzg.limit.doubt-and-assurance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.doubt-and-assurance",
+  "rzg.witness.a-quieted-mind",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "raw_text": "We offered no method for searching harder within yourself [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. So we turned such a mind outward, toward Christ, once, rather than toward the self, endlessly [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. Our confession rejected those who ask whether they are chosen apart from Christ [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. Bullinger set this down in our confession: [[quote:rzg.quote.christ-the-mirror-of-election]]\nWhat we have of Christ is the text, and we hold that it is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. No one among us met anyone who met him [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Whether an ordinary believer felt that comfort, or felt anxious instead, our record does not say [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]]. We have given you what we taught, and we cannot give you what was felt [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.christ-the-mirror-of-election"
+  ],
+  "removed": [
+   {
+    "draft": "We have given you what we taught, and we cannot give you what was felt [[rzg.limit.doubt-and-assurance]] [[as:paraphrase]].",
+    "sentence": "We have given you what we taught, and we cannot give you what was felt.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "We offered no method for searching harder within yourself. A mind turned only on itself finds more of itself, and no bottom to it. So we turned such a mind outward, toward Christ, once, rather than toward the self, endlessly. Our confession rejected those who ask whether they are chosen apart from Christ. Bullinger set this down in our confession: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”\n\nWhat we have of Christ is the text, and we hold that it is enough on its own terms. No one among us met anyone who met him. Where we have not understood the Scriptures rightly, we will be taught better, but only from the Scriptures themselves. Whether an ordinary believer felt that comfort, or felt anxious instead, our record does not say.",
+ "voice_set_aside": false
+}

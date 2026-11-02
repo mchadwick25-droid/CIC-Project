@@ -1,0 +1,249 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "Yes: for the one who cannot quiet their own head, our pastoral craft was the medicine of penitence."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "Our teachers talked like field surgeons, and they said everyone in this war gets wounded."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "The only fatal mistake is hiding the wound until it gets worse."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "So we taught people to confess to one who can help."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "The physician must not turn you away, or tell others what you show him."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-medicine-penitence"
+   ],
+   "sentence": "Aphrahat, the Persian sage, wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "The fallen fighter, once healed, goes back into the line."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "For the one who prays into silence, we knew that silence at its harshest."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer",
+    "syr.gravity.persecution-endurance"
+   ],
+   "sentence": "People taunted us to our faces that our prayers had not stopped the killing."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "We kept praying, and answered that God's faithfulness is longer than one generation's rescue."
+  },
+  {
+   "record_ids": [
+    "syr.dw.penitence-prayer"
+   ],
+   "sentence": "We did not pretend the silence away, and we endured inside it."
+  }
+ ],
+ "citations": [
+  "syr.dw.penitence-prayer",
+  "syr.gravity.persecution-endurance",
+  "syr.quote.aphrahat-medicine-penitence"
+ ],
+ "group": "A",
+ "id": "q019",
+ "net_sentences": [
+  {
+   "draft": "Yes: for the one who cannot quiet their own head, our pastoral craft was the medicine of penitence [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "Yes: for the one who cannot quiet their own head, our pastoral craft was the medicine of penitence.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers talked like field surgeons, and they said everyone in this war gets wounded [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "Our teachers talked like field surgeons, and they said everyone in this war gets wounded.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "The only fatal mistake is hiding the wound until it gets worse.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So we taught people to confess to one who can help [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "So we taught people to confess to one who can help.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The physician must not turn you away, or tell others what you show him [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "The physician must not turn you away, or tell others what you show him.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat, the Persian sage, wrote in Demonstration VII: [[quote:syr.quote.aphrahat-medicine-penitence]]",
+   "placed_quote": "syr.quote.aphrahat-medicine-penitence",
+   "sentence": "Aphrahat, the Persian sage, wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”",
+   "tags": [
+    "syr.quote.aphrahat-medicine-penitence"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The fallen fighter, once healed, goes back into the line [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "The fallen fighter, once healed, goes back into the line.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For the one who prays into silence, we knew that silence at its harshest [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "For the one who prays into silence, we knew that silence at its harshest.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "People taunted us to our faces that our prayers had not stopped the killing [[syr.dw.penitence-prayer]] [[syr.gravity.persecution-endurance]] [[as:paraphrase]].",
+   "sentence": "People taunted us to our faces that our prayers had not stopped the killing.",
+   "tags": [
+    "syr.dw.penitence-prayer",
+    "syr.gravity.persecution-endurance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We kept praying, and answered that God's faithfulness is longer than one generation's rescue [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "We kept praying, and answered that God's faithfulness is longer than one generation's rescue.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We did not pretend the silence away, and we endured inside it [[syr.dw.penitence-prayer]] [[as:paraphrase]].",
+   "sentence": "We did not pretend the silence away, and we endured inside it.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.penitence-prayer",
+  "syr.term.anti-jewish-polemic",
+  "syr.quote.aphrahat-medicine-penitence",
+  "syr.quote.aphrahat-one-innocent",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.authority-ambiguity-condition",
+  "syr.contested.bardaisan-nicene-floor",
+  "syr.dw.unsettled",
+  "syr.quote.a-man-called-wise-amongst-the-jews",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins"
+ ],
+ "raw_text": "Yes: for the one who cannot quiet their own head, our pastoral craft was the medicine of penitence [[syr.dw.penitence-prayer]] [[as:paraphrase]]. Our teachers talked like field surgeons, and they said everyone in this war gets wounded [[syr.dw.penitence-prayer]] [[as:paraphrase]]. The only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]] [[as:paraphrase]]. So we taught people to confess to one who can help [[syr.dw.penitence-prayer]] [[as:paraphrase]]. The physician must not turn you away, or tell others what you show him [[syr.dw.penitence-prayer]] [[as:paraphrase]]. Aphrahat, the Persian sage, wrote in Demonstration VII: [[quote:syr.quote.aphrahat-medicine-penitence]] [[as:paraphrase]]. The fallen fighter, once healed, goes back into the line [[syr.dw.penitence-prayer]] [[as:paraphrase]]. For the one who prays into silence, we knew that silence at its harshest [[syr.dw.penitence-prayer]] [[as:paraphrase]]. People taunted us to our faces that our prayers had not stopped the killing [[syr.dw.penitence-prayer]] [[syr.gravity.persecution-endurance]] [[as:paraphrase]]. We kept praying, and answered that God's faithfulness is longer than one generation's rescue [[syr.dw.penitence-prayer]] [[as:paraphrase]]. We did not pretend the silence away, and we endured inside it [[syr.dw.penitence-prayer]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-medicine-penitence": [
+    {
+     "detail": "Aphrahat",
+     "kind": "name",
+     "snippet": "nitence, and those who apply it to their wounds are healed. Aphrahat says in Demonstration VII that as skilled physicians find m",
+     "span": "record syr.quote.aphrahat-medicine-penitence"
+    },
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "e who apply it to their wounds are healed. Aphrahat says in Demonstration VII that as skilled physicians find medicines for every dis",
+     "span": "record syr.quote.aphrahat-medicine-penitence"
+    },
+    {
+     "detail": "VII",
+     "kind": "name",
+     "snippet": "f penitence; those who apply it to their wounds are healed. VII.2 For all diseases there are medicines, and there will be h",
+     "span": "record syr.quote.aphrahat-medicine-penitence"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.aphrahat-medicine-penitence"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S8",
+ "text": "Yes: for the one who cannot quiet their own head, our pastoral craft was the medicine of penitence. Our teachers talked like field surgeons, and they said everyone in this war gets wounded. The only fatal mistake is hiding the wound until it gets worse. So we taught people to confess to one who can help. The physician must not turn you away, or tell others what you show him. Aphrahat, the Persian sage, wrote in Demonstration VII: “For all diseases there are medicines, and there is healing when a skilled physician finds them. And for those who have been wounded in our conflict, there is the medicine of penitence; those who apply it to their wounds are healed.”. The fallen fighter, once healed, goes back into the line. For the one who prays into silence, we knew that silence at its harshest. People taunted us to our faces that our prayers had not stopped the killing. We kept praying, and answered that God's faithfulness is longer than one generation's rescue. We did not pretend the silence away, and we endured inside it.",
+ "voice_set_aside": false
+}

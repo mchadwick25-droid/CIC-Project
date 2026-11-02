@@ -1,0 +1,172 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Fidus had thought a child should not be baptized before the eighth day, and no one agreed with him."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+   ],
+   "sentence": "Cyprian wrote for his council about the newborn himself: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Cyprian's letter to Fidus does not use the phrase original sin, or the word guilt."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "sentence": "Augustine went on to the hard end of this teaching, and wrote that in baptism infants die only to original sin."
+  }
+ ],
+ "citations": [
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.witness.infants-and-the-sin-of-another"
+ ],
+ "group": "A",
+ "id": "q008",
+ "net_sentences": [
+  {
+   "draft": "Yes, we taught that a newborn comes into the world bearing the old death that began with Adam, though Cyprian's council did not call it the child's own sin [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "ratio": 0.38,
+   "sentence": "Yes, we taught that a newborn comes into the world bearing the old death that began with Adam, though Cyprian's council did not call it the child's own sin.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['adam', \"cyprian's\"]) only 38% grounded in its own tags"
+  },
+  {
+   "draft": "Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Fidus had thought a child should not be baptized before the eighth day, and no one agreed with him [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "sentence": "Fidus had thought a child should not be baptized before the eighth day, and no one agreed with him.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote for his council about the newborn himself: [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]]",
+   "placed_quote": "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+   "sentence": "Cyprian wrote for his council about the newborn himself: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”",
+   "tags": [
+    "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Cyprian's letter to Fidus does not use the phrase original sin, or the word guilt [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "Cyprian's letter to Fidus does not use the phrase original sin, or the word guilt.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Augustine went on to the hard end of this teaching, and wrote that in baptism infants die only to original sin [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+   "sentence": "Augustine went on to the hard end of this teaching, and wrote that in baptism infants die only to original sin.",
+   "tags": [
+    "lpc.witness.infants-and-the-sin-of-another"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.gravity.grace-and-human-incapacity",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.term.the-lapsed",
+  "lpc.quote.longing-expectation-is-a-prayer-for-me",
+  "lpc.quote.shepherd-wounded-in-the-flock",
+  "lpc.witness.answerability-as-ground",
+  "lpc.witness.no-one-may-take-his-own-life",
+  "lpc.story.numidicus",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.quote.christ-redeemed-in-our-captive-brethren"
+ ],
+ "raw_text": "Yes, we taught that a newborn comes into the world bearing the old death that began with Adam, though Cyprian's council did not call it the child's own sin [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Fidus had thought a child should not be baptized before the eighth day, and no one agreed with him [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. They judged that God's mercy and grace are not to be refused to anyone born of man [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Cyprian wrote for his council about the newborn himself: [[quote:lpc.quote.not-his-own-sins-but-the-sins-of-another]] [[as:paraphrase]]. Cyprian's letter to Fidus does not use the phrase original sin, or the word guilt [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Augustine went on to the hard end of this teaching, and wrote that in baptism infants die only to original sin [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Augustine wrote that infants who leave the body unbaptized will be involved in the mildest condemnation of all [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]]. Augustine added that whoever teaches that they will not be condemned greatly deceives both himself and others [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another": [
+    {
+     "detail": "council",
+     "kind": "occasion",
+     "snippet": "itted, not his own sins, but the sins of another. Cyprian's council says a newborn has no sins of his own, just the old death's",
+     "span": "record lpc.quote.not-his-own-sins-but-the-sins-of-another"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "forgiven him is not his own sins, but the sins of another. Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numb",
+     "span": "record lpc.quote.not-his-own-sins-but-the-sins-of-another"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+  ],
+  "removed": [
+   {
+    "draft": "They judged that God's mercy and grace are not to be refused to anyone born of man [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+    "sentence": "They judged that God's mercy and grace are not to be refused to anyone born of man.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Augustine wrote that infants who leave the body unbaptized will be involved in the mildest condemnation of all [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+    "sentence": "Augustine wrote that infants who leave the body unbaptized will be involved in the mildest condemnation of all.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Augustine added that whoever teaches that they will not be condemned greatly deceives both himself and others [[lpc.witness.infants-and-the-sin-of-another]] [[as:paraphrase]].",
+    "sentence": "Augustine added that whoever teaches that they will not be condemned greatly deceives both himself and others.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S2",
+ "text": "Yes, we taught that a newborn comes into the world bearing the old death that began with Adam, though Cyprian's council did not call it the child's own sin. Cyprian and his colleagues met in council, sixty-six in number, and wrote to Fidus. Fidus had thought a child should not be baptized before the eighth day, and no one agreed with him. Cyprian wrote for his council about the newborn himself: “Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.”. Cyprian's letter to Fidus does not use the phrase original sin, or the word guilt. Augustine went on to the hard end of this teaching, and wrote that in baptism infants die only to original sin.",
+ "voice_set_aside": false
+}

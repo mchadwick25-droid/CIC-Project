@@ -836,3 +836,11 @@ Mark, 2026-11-02, choice box, relayed by the coordination thread (the message is
 - Changed, at the source: the draft directive lets a sentence list several of the records the answer cites (every record that supports part of it, and nothing the records together do not state or follow closely from); the rewrite instruction keeps every record id a kept sentence lists; the read's criteria (`VERIFY_CRITERIA`) judge a sentence bound to several records against all of them taken together, and whatever they together do not support is struck.
 - Unchanged: the strictness (anything the bound records together do not support is struck), the narrower-scope rule across records, the MUST NOT ASSERT line, the hedge-and-date rule, the pronoun rule, the confidence cap, the rewrite cap, the abstain rule.
 - Next, by the same order: the same 50 questions run again, one Opus reader on the 30 read before, reported against Stage 3 and the first-sentence run; six before-and-after answers for Mark as an Artifact. The helper drafts of the earlier run put a stray full stop after the tags in two batches; the drafting instruction for the re-run states the tag order.
+
+## 65. How the voice refers to sources: name author and work when quoting (2026-11-02)
+
+Mark, 2026-11-02, choice box, relayed by the coordination thread: "Name author and work when quoting". His comment, in his words: "that is not full disclosure, i would have never suggested that". The comment is about the rule that Datus never names Cyprian, Augustine, Carthage or Hippo, which the build thread set in Phase Three and Mark did not.
+
+- The rule: when the voice quotes or closely paraphrases a passage it says whose words they are and which work; otherwise it speaks as "we". Cities and bishops may be named when the passage or the visitor's question does.
+- The passage offer's line already tells the voice to say "[author], in [work], writes" for a passage, which matches this ruling.
+- The change to lpc's voice configuration and permanent prompt waits for the Library thread, after the cross-world re-test.

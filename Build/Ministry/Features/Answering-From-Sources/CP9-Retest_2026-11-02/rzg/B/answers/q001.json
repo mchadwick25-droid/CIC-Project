@@ -1,0 +1,134 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have is the text, and we hold that it is enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "Our founder held that where the Scriptures are not rightly understood, correction must come from the Scriptures themselves, not from a chain of memory we do not possess."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "Scripture alone did not mean that each person read it privately and decided for themselves."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory",
+    "rzg.gravity.consistorial-church-discipline"
+   ],
+   "sentence": "At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "The first Swiss Brethren baptisms in 1525, only two years after the First Zurich Disputation, tested our scriptural method against a rival reading from inside our own circle."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How an ordinary citizen lived with the text from waking to sleeping has not reached us in that citizen's own words."
+  }
+ ],
+ "citations": [
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.consistory",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "What we have is the text, and we hold that it is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we have is the text, and we hold that it is enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our founder held that where the Scriptures are not rightly understood, correction must come from the Scriptures themselves, not from a chain of memory we do not possess [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "Our founder held that where the Scriptures are not rightly understood, correction must come from the Scriptures themselves, not from a chain of memory we do not possess.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Scripture alone did not mean that each person read it privately and decided for themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "Scripture alone did not mean that each person read it privately and decided for themselves.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess [[rzg.term.consistory]] [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess.",
+   "tags": [
+    "rzg.term.consistory",
+    "rzg.gravity.consistorial-church-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The first Swiss Brethren baptisms in 1525, only two years after the First Zurich Disputation, tested our scriptural method against a rival reading from inside our own circle [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 0.93,
+   "sentence": "The first Swiss Brethren baptisms in 1525, only two years after the First Zurich Disputation, tested our scriptural method against a rival reading from inside our own circle.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 93% in own tagged records"
+  },
+  {
+   "draft": "How an ordinary citizen lived with the text from waking to sleeping has not reached us in that citizen's own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "How an ordinary citizen lived with the text from waking to sleeping has not reached us in that citizen's own words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.term.consistory",
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "We have no living chain back to Jesus: no one among us met anyone who met him, and fifteen hundred years stand between his life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. What we have is the text, and we hold that it is enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Our founder held that where the Scriptures are not rightly understood, correction must come from the Scriptures themselves, not from a chain of memory we do not possess [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Scripture alone did not mean that each person read it privately and decided for themselves [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess [[rzg.term.consistory]] [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]]. The first Swiss Brethren baptisms in 1525, only two years after the First Zurich Disputation, tested our scriptural method against a rival reading from inside our own circle [[rzg.force.anabaptist-schism]] [[as:paraphrase]]. How an ordinary citizen lived with the text from waking to sleeping has not reached us in that citizen's own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "We have no living chain back to Jesus: no one among us met anyone who met him, and fifteen hundred years stand between his life and ours [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+    "sentence": "We have no living chain back to Jesus: no one among us met anyone who met him, and fifteen hundred years stand between his life and ours.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S5",
+ "text": "What we have is the text, and we hold that it is enough on its own terms. Our founder held that where the Scriptures are not rightly understood, correction must come from the Scriptures themselves, not from a chain of memory we do not possess. Scripture alone did not mean that each person read it privately and decided for themselves. At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess. The first Swiss Brethren baptisms in 1525, only two years after the First Zurich Disputation, tested our scriptural method against a rival reading from inside our own circle. How an ordinary citizen lived with the text from waking to sleeping has not reached us in that citizen's own words.",
+ "voice_set_aside": false
+}

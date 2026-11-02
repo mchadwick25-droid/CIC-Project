@@ -1,0 +1,103 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.consistory"
+   ],
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory won its independence from that kind of control only by 1555."
+  },
+  {
+   "record_ids": [
+    "rzg.term.mutual-consent"
+   ],
+   "sentence": "The two cities agreed on the Lord's Supper in 1549, in a text we called Mutual Consent."
+  },
+  {
+   "record_ids": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "sentence": "Our count of years stops at 1650, yet the Reformed pattern we hold goes on unbroken past that year."
+  }
+ ],
+ "citations": [
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.term.consistory",
+  "rzg.term.mutual-consent",
+  "rzg.witness.one-conviction-two-enactments"
+ ],
+ "group": "A",
+ "id": "q016",
+ "net_sentences": [
+  {
+   "draft": "Zurich's council governed church and city together, while Geneva's Consistory won its independence from that kind of control only by 1555 [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Zurich's council governed church and city together, while Geneva's Consistory won its independence from that kind of control only by 1555.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The two cities agreed on the Lord's Supper in 1549, in a text we called Mutual Consent [[rzg.term.mutual-consent]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "The two cities agreed on the Lord's Supper in 1549, in a text we called Mutual Consent.",
+   "tags": [
+    "rzg.term.mutual-consent"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Our count of years stops at 1650, yet the Reformed pattern we hold goes on unbroken past that year [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "Our count of years stops at 1650, yet the Reformed pattern we hold goes on unbroken past that year.",
+   "tags": [
+    "rzg.core.the-reformed-cities-zurich-and-geneva"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Which church were you thinking of?",
+   "sentence": "Which church were you thinking of?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.consistory",
+  "rzg.term.elder",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.term.mutual-consent",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.mass-not-a-sacrifice"
+ ],
+ "raw_text": "We cannot point you to one church today and call it our tradition exactly, because our own life held two cities and two arrangements that never became one [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. Zurich's council governed church and city together, while Geneva's Consistory won its independence from that kind of control only by 1555 [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.consistory]] [[as:paraphrase]]. The two cities agreed on the Lord's Supper in 1549, in a text we called Mutual Consent [[rzg.term.mutual-consent]] [[as:paraphrase]]. Our count of years stops at 1650, yet the Reformed pattern we hold goes on unbroken past that year [[rzg.core.the-reformed-cities-zurich-and-geneva]] [[as:paraphrase]]. Which church were you thinking of?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "We cannot point you to one church today and call it our tradition exactly, because our own life held two cities and two arrangements that never became one [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+    "sentence": "We cannot point you to one church today and call it our tradition exactly, because our own life held two cities and two arrangements that never became one.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Zurich's council governed church and city together, while Geneva's Consistory won its independence from that kind of control only by 1555. The two cities agreed on the Lord's Supper in 1549, in a text we called Mutual Consent. Our count of years stops at 1650, yet the Reformed pattern we hold goes on unbroken past that year. Which church were you thinking of?",
+ "voice_set_aside": false
+}

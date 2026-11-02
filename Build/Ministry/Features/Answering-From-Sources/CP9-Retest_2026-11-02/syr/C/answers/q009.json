@@ -1,0 +1,199 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our core texts would hold up well, and our thin places would not be hidden from any scholar."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The sage's letters date themselves to the year, and the poet's hymns survive in ancient copies."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The flood line of 201 is our oldest dated word, though we cannot be sure it stood in the first record and was not added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The story of the king who wrote to Jesus is a legend, written down generations later, and we tell it as our legend, not as our history."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.raza-shrara-method"
+   ],
+   "sentence": "Our method of teaching in symbol and type rests above all on Ephrem, since Aphrahat's use of types is real but plainer."
+  },
+  {
+   "record_ids": [
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "sentence": "The single woven Gospel was Tatian's harmony, which does not survive as an intact book."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "Who carried authority never resolves, and we cannot say whether Aphrahat was a bishop."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Ordinary believers left no writings of their own, and the women whose singing everyone heard had not one line kept."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The enslaved are missing, and the last decades before the synod are nearly blank."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ],
+   "sentence": "Our argument with the Jews survives only from our side, and no Jewish answer was kept."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.gravity.authority-ambiguity",
+  "syr.gravity.raza-shrara-method",
+  "syr.term.anti-jewish-polemic",
+  "syr.term.ewangeliyon-da-mhallete"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "Our core texts would hold up well, and our thin places would not be hidden from any scholar [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Our core texts would hold up well, and our thin places would not be hidden from any scholar.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The sage's letters date themselves to the year, and the poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The sage's letters date themselves to the year, and the poet's hymns survive in ancient copies.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The flood line of 201 is our oldest dated word, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The flood line of 201 is our oldest dated word, though we cannot be sure it stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The story of the king who wrote to Jesus is a legend, written down generations later, and we tell it as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The story of the king who wrote to Jesus is a legend, written down generations later, and we tell it as our legend, not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our method of teaching in symbol and type rests above all on Ephrem, since Aphrahat's use of types is real but plainer [[syr.gravity.raza-shrara-method]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Our method of teaching in symbol and type rests above all on Ephrem, since Aphrahat's use of types is real but plainer.",
+   "tags": [
+    "syr.gravity.raza-shrara-method"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "The single woven Gospel was Tatian's harmony, which does not survive as an intact book [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "The single woven Gospel was Tatian's harmony, which does not survive as an intact book.",
+   "tags": [
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "Who carried authority never resolves, and we cannot say whether Aphrahat was a bishop [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "Who carried authority never resolves, and we cannot say whether Aphrahat was a bishop.",
+   "tags": [
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Ordinary believers left no writings of their own, and the women whose singing everyone heard had not one line kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Ordinary believers left no writings of their own, and the women whose singing everyone heard had not one line kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The enslaved are missing, and the last decades before the synod are nearly blank [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The enslaved are missing, and the last decades before the synod are nearly blank.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our argument with the Jews survives only from our side, and no Jewish answer was kept [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Our argument with the Jews survives only from our side, and no Jewish answer was kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.term.anti-jewish-polemic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.term.anti-jewish-polemic",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.basil-legend",
+  "syr.quote.pearl-mysteries",
+  "syr.quote.tatian-barbaric-writings",
+  "syr.gravity.diatessaron-normative",
+  "syr.gravity.raza-shrara-method",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.qyama-commitment"
+ ],
+ "raw_text": "Our core texts would hold up well, and our thin places would not be hidden from any scholar [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The sage's letters date themselves to the year, and the poet's hymns survive in ancient copies [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The flood line of 201 is our oldest dated word, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The story of the king who wrote to Jesus is a legend, written down generations later, and we tell it as our legend, not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our method of teaching in symbol and type rests above all on Ephrem, since Aphrahat's use of types is real but plainer [[syr.gravity.raza-shrara-method]] [[as:paraphrase]]. The single woven Gospel was Tatian's harmony, which does not survive as an intact book [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]]. Who carried authority never resolves, and we cannot say whether Aphrahat was a bishop [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Ordinary believers left no writings of their own, and the women whose singing everyone heard had not one line kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The enslaved are missing, and the last decades before the synod are nearly blank [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Our argument with the Jews survives only from our side, and no Jewish answer was kept [[syr.dw.corpus-and-its-edges]] [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "Our core texts would hold up well, and our thin places would not be hidden from any scholar. The sage's letters date themselves to the year, and the poet's hymns survive in ancient copies. The flood line of 201 is our oldest dated word, though we cannot be sure it stood in the first record and was not added later. The story of the king who wrote to Jesus is a legend, written down generations later, and we tell it as our legend, not as our history. Our method of teaching in symbol and type rests above all on Ephrem, since Aphrahat's use of types is real but plainer. The single woven Gospel was Tatian's harmony, which does not survive as an intact book. Who carried authority never resolves, and we cannot say whether Aphrahat was a bishop. Ordinary believers left no writings of their own, and the women whose singing everyone heard had not one line kept. The enslaved are missing, and the last decades before the synod are nearly blank. Our argument with the Jews survives only from our side, and no Jewish answer was kept.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,164 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.the-lapsed",
+    "lpc.gravity.penitential-discipline"
+   ],
+   "sentence": "Among us, a person who had failed was still one of our own, and the question we asked was how to take that person back, not how to shut that person out."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-lapsed"
+   ],
+   "sentence": "The lapsed were our own people who gave way under the order to sacrifice, and they sat where we sit."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "Their return was not a quiet private pardon but a public road, walked in stages under the bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "sentence": "Cyprian wrote to his presbyters and deacons about the sick who held a martyr's letter: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Augustine told a fellow bishop that ministers must not leave behind people who depend on them in a time of danger, so that the dying can be baptized and reconciled."
+  }
+ ],
+ "citations": [
+  "lpc.gravity.penitential-discipline",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.the-lapsed",
+  "lpc.witness.the-dying-and-the-pastors-post"
+ ],
+ "group": "A",
+ "id": "q027",
+ "net_sentences": [
+  {
+   "draft": "Among us, a person who had failed was still one of our own, and the question we asked was how to take that person back, not how to shut that person out [[lpc.term.the-lapsed]] [[lpc.gravity.penitential-discipline]] [[as:paraphrase]].",
+   "sentence": "Among us, a person who had failed was still one of our own, and the question we asked was how to take that person back, not how to shut that person out.",
+   "tags": [
+    "lpc.term.the-lapsed",
+    "lpc.gravity.penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The lapsed were our own people who gave way under the order to sacrifice, and they sat where we sit [[lpc.term.the-lapsed]] [[as:paraphrase]].",
+   "sentence": "The lapsed were our own people who gave way under the order to sacrifice, and they sat where we sit.",
+   "tags": [
+    "lpc.term.the-lapsed"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Their return was not a quiet private pardon but a public road, walked in stages under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "Their return was not a quiet private pardon but a public road, walked in stages under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "Cyprian wrote to his presbyters and deacons about the sick who held a martyr's letter: [[quote:lpc.quote.before-even-a-deacon]]",
+   "placed_quote": "lpc.quote.before-even-a-deacon",
+   "sentence": "Cyprian wrote to his presbyters and deacons about the sick who held a martyr's letter: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”",
+   "tags": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Augustine told a fellow bishop that ministers must not leave behind people who depend on them in a time of danger, so that the dying can be baptized and reconciled [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine told a fellow bishop that ministers must not leave behind people who depend on them in a time of danger, so that the dying can be baptized and reconciled.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.term.the-lapsed",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.quote.they-first-dwelt-together-in-unity",
+  "lpc.gravity.penitential-discipline"
+ ],
+ "raw_text": "Among us, a person who had failed was still one of our own, and the question we asked was how to take that person back, not how to shut that person out [[lpc.term.the-lapsed]] [[lpc.gravity.penitential-discipline]] [[as:paraphrase]]. The lapsed were our own people who gave way under the order to sacrifice, and they sat where we sit [[lpc.term.the-lapsed]] [[as:paraphrase]]. Their return was not a quiet private pardon but a public road, walked in stages under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. Cyprian wrote to his presbyters and deacons about the sick who held a martyr's letter: [[quote:lpc.quote.before-even-a-deacon]] [[as:paraphrase]]. Augustine told a fellow bishop that ministers must not leave behind people who depend on them in a time of danger, so that the dying can be baptized and reconciled [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. No account in the lapsed's own words reaches us [[lpc.term.the-lapsed]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.before-even-a-deacon": [
+    {
+     "detail": "presbyter",
+     "kind": "role",
+     "snippet": "resent. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "deacon",
+     "kind": "role",
+     "snippet": "d death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way th",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "martyr",
+     "kind": "role",
+     "snippet": "s in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If mi",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "he peace the martyrs asked for them in their letters to us. Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1,",
+     "span": "record lpc.quote.before-even-a-deacon"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.before-even-a-deacon"
+  ],
+  "removed": [
+   {
+    "draft": "No account in the lapsed's own words reaches us [[lpc.term.the-lapsed]] [[as:paraphrase]].",
+    "sentence": "No account in the lapsed's own words reaches us.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "Among us, a person who had failed was still one of our own, and the question we asked was how to take that person back, not how to shut that person out. The lapsed were our own people who gave way under the order to sacrifice, and they sat where we sit. Their return was not a quiet private pardon but a public road, walked in stages under the bishop. Cyprian wrote to his presbyters and deacons about the sick who held a martyr's letter: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”. Augustine told a fellow bishop that ministers must not leave behind people who depend on them in a time of danger, so that the dying can be baptized and reconciled.",
+ "voice_set_aside": false
+}

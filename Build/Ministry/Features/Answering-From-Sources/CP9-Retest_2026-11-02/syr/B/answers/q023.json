@@ -1,0 +1,120 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "sentence": "Before baptism, candidates were asked to weigh what held them, such as marriage and possessions, before they came to the water."
+  },
+  {
+   "record_ids": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "sentence": "In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "We sang of baptism as a second birth, in which the believer receives the Holy Spirit."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "For us that new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion."
+  }
+ ],
+ "citations": [
+  "syr.dw.born-again-endtimes",
+  "syr.quote.warned-before-baptism"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "Before baptism, candidates were asked to weigh what held them, such as marriage and possessions, before they came to the water [[syr.quote.warned-before-baptism]] [[as:paraphrase]].",
+   "sentence": "Before baptism, candidates were asked to weigh what held them, such as marriage and possessions, before they came to the water.",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Aphrahat wrote in Demonstration VII: [[quote:syr.quote.warned-before-baptism]]",
+   "placed_quote": "syr.quote.warned-before-baptism",
+   "sentence": "In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”",
+   "tags": [
+    "syr.quote.warned-before-baptism"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We sang of baptism as a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We sang of baptism as a second birth, in which the believer receives the Holy Spirit.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "For us that new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "For us that new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.unsettled",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.choirs-tradition",
+  "syr.story.edessa-flood-201",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.a-man-called-wise-amongst-the-jews",
+  "syr.force.authority-ambiguity-condition",
+  "syr.dw.born-again-endtimes",
+  "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+  "syr.quote.warned-before-baptism",
+  "syr.force.frontier-plural-milieu"
+ ],
+ "raw_text": "Before baptism, candidates were asked to weigh what held them, such as marriage and possessions, before they came to the water [[syr.quote.warned-before-baptism]] [[as:paraphrase]]. Aphrahat wrote in Demonstration VII: [[quote:syr.quote.warned-before-baptism]] [[as:paraphrase]]. We sang of baptism as a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]]. For us that new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.warned-before-baptism"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Aphrahat wrote in Demonstration VII: [[quote:syr.quote.warned-before-baptism]]",
+    "lead_in": "In today's English, Aphrahat says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "Before baptism, candidates were asked to weigh what held them, such as marriage and possessions, before they came to the water. In today's English, Aphrahat says: “For this reason it is right for the preachers of the Church, who sound the trumpet, to warn everyone in God's covenant before baptism. They are also to warn those who choose for themselves virginity and holiness: the young men, the virgins, and those wishing to become holy. The preachers are to warn them and say this. If your heart is set on marriage, then marry before your baptism. Otherwise you may fall in the fight and be killed. And if you are afraid of this part of the fight, turn back now, so that you do not break your brothers' hearts along with your own. And if you love your possessions, turn back from the army too. Otherwise, when the battle goes against you, you may remember your possessions and turn back to them. For there is disgrace for the one who turns back from the fight.”. We sang of baptism as a second birth, in which the believer receives the Holy Spirit. For us that new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.",
+ "voice_set_aside": false
+}

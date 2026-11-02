@@ -1,0 +1,131 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "To us Jesus is the one whose death and rising our own life is cut to fit."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "sentence": "We confess him as Jesus Christ, the only Son of God, our Lord."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We crucify our own flesh, and that is his cross in us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We are buried with him in the water, and we walk in a life made new."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We set our affection on what is above, our life hidden with him in God, worked out in an ordinary life."
+  }
+ ],
+ "citations": [
+  "lpc.witness.the-only-son-and-the-trinity",
+  "lpc.witness.the-pattern-we-are-modelled-on"
+ ],
+ "group": "A",
+ "id": "q002",
+ "net_sentences": [
+  {
+   "draft": "To us Jesus is the one whose death and rising our own life is cut to fit [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "To us Jesus is the one whose death and rising our own life is cut to fit.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "We confess him as Jesus Christ, the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We confess him as Jesus Christ, the only Son of God, our Lord.",
+   "tags": [
+    "lpc.witness.the-only-son-and-the-trinity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We crucify our own flesh, and that is his cross in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We crucify our own flesh, and that is his cross in us.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We are buried with him in the water, and we walk in a life made new [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We are buried with him in the water, and we walk in a life made new.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We set our affection on what is above, our life hidden with him in God, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We set our affection on what is above, our life hidden with him in God, worked out in an ordinary life.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.the-pattern-we-are-modelled-on",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.quote.remember-me-at-the-lords-altar",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.boast-in-nothing-since-nothing-is-our-own"
+ ],
+ "raw_text": "To us Jesus is the one whose death and rising our own life is cut to fit [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We confess him as Jesus Christ, the only Son of God, our Lord [[lpc.witness.the-only-son-and-the-trinity]] [[as:paraphrase]]. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We crucify our own flesh, and that is his cross in us [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We are buried with him in the water, and we walk in a life made new [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We set our affection on what is above, our life hidden with him in God, worked out in an ordinary life [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S1",
+ "text": "To us Jesus is the one whose death and rising our own life is cut to fit. We confess him as Jesus Christ, the only Son of God, our Lord. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered deliberately. We crucify our own flesh, and that is his cross in us. We are buried with him in the water, and we walk in a life made new. We set our affection on what is above, our life hidden with him in God, worked out in an ordinary life.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,197 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "No single rule settled it, because our two bishops answered what councils can decide in different ways, and we hold that question open."
+  },
+  {
+   "record_ids": [
+    "lpc.term.bishop-of-bishops"
+   ],
+   "sentence": "For Cyprian, no bishop stands over another, and each bishop judges for himself and answers to Christ."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.bishop-of-bishops"
+   ],
+   "sentence": "At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”"
+  },
+  {
+   "record_ids": [
+    "lpc.term.plenary-council"
+   ],
+   "sentence": "Augustine held that small councils yield to bigger ones, and that even the biggest council can later be corrected."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "Augustine also put Scripture above bishops and their councils."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "At that same council, Cyprian said we judge no one, and reject no one from communion, for thinking differently."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Augustine argued at book length that the ruling made that day was wrong, and never put Cyprian outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.411-gesta-unread"
+   ],
+   "sentence": "We cannot tell you how our bishops beyond Cyprian and Augustine argued authority, since the transcript of the 411 conference has not been validly read."
+  }
+ ],
+ "citations": [
+  "lpc.gravity.conciliar-authority-theory",
+  "lpc.limit.411-gesta-unread",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.plenary-council",
+  "lpc.witness.communion-over-separation",
+  "lpc.witness.scripture-above-councils"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "No single rule settled it, because our two bishops answered what councils can decide in different ways, and we hold that question open [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]].",
+   "ratio": 0.54,
+   "sentence": "No single rule settled it, because our two bishops answered what councils can decide in different ways, and we hold that question open.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 54% in own tagged records"
+  },
+  {
+   "draft": "For Cyprian, no bishop stands over another, and each bishop judges for himself and answers to Christ [[lpc.term.bishop-of-bishops]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For Cyprian, no bishop stands over another, and each bishop judges for himself and answers to Christ.",
+   "tags": [
+    "lpc.term.bishop-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At the council of 256, Cyprian said: [[quote:lpc.quote.bishop-of-bishops]]",
+   "placed_quote": "lpc.quote.bishop-of-bishops",
+   "sentence": "At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”",
+   "tags": [
+    "lpc.quote.bishop-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Augustine held that small councils yield to bigger ones, and that even the biggest council can later be corrected [[lpc.term.plenary-council]] [[as:paraphrase]].",
+   "sentence": "Augustine held that small councils yield to bigger ones, and that even the biggest council can later be corrected.",
+   "tags": [
+    "lpc.term.plenary-council"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine also put Scripture above bishops and their councils [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].",
+   "sentence": "Augustine also put Scripture above bishops and their councils.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At that same council, Cyprian said we judge no one, and reject no one from communion, for thinking differently [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At that same council, Cyprian said we judge no one, and reject no one from communion, for thinking differently.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine argued at book length that the ruling made that day was wrong, and never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine argued at book length that the ruling made that day was wrong, and never put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We cannot tell you how our bishops beyond Cyprian and Augustine argued authority, since the transcript of the 411 conference has not been validly read [[lpc.limit.411-gesta-unread]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "We cannot tell you how our bishops beyond Cyprian and Augustine argued authority, since the transcript of the 411 conference has not been validly read.",
+   "tags": [
+    "lpc.limit.411-gesta-unread"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.communion-over-separation",
+  "lpc.witness.scripture-above-councils",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.plenary-council",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.contested.compel-coercion-development",
+  "lpc.limit.no-chain-of-witnesses",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life",
+  "lpc.quote.apart-in-heart-united-in-body",
+  "lpc.witness.days-before-the-sun",
+  "lpc.term.heresy",
+  "lpc.quote.believe-and-thou-hast-eaten-already"
+ ],
+ "raw_text": "No single rule settled it, because our two bishops answered what councils can decide in different ways, and we hold that question open [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. For Cyprian, no bishop stands over another, and each bishop judges for himself and answers to Christ [[lpc.term.bishop-of-bishops]] [[as:paraphrase]]. At the council of 256, Cyprian said: [[quote:lpc.quote.bishop-of-bishops]] [[as:paraphrase]]. Augustine held that small councils yield to bigger ones, and that even the biggest council can later be corrected [[lpc.term.plenary-council]] [[as:paraphrase]]. Augustine also put Scripture above bishops and their councils [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. At that same council, Cyprian said we judge no one, and reject no one from communion, for thinking differently [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Augustine argued at book length that the ruling made that day was wrong, and never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. We cannot tell you how our bishops beyond Cyprian and Augustine argued authority, since the transcript of the 411 conference has not been validly read [[lpc.limit.411-gesta-unread]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.bishop-of-bishops": [
+    {
+     "detail": "256",
+     "kind": "number",
+     "snippet": "His Church and to judge how we conduct ourselves there. the 256 Council preface; independently re-located and re-read this",
+     "span": "record lpc.quote.bishop-of-bishops"
+    },
+    {
+     "detail": "council",
+     "kind": "occasion",
+     "snippet": "Church and to judge how we conduct ourselves there. the 256 Council preface; independently re-located and re-read this session",
+     "span": "record lpc.quote.bishop-of-bishops"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.bishop-of-bishops"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "No single rule settled it, because our two bishops answered what councils can decide in different ways, and we hold that question open. For Cyprian, no bishop stands over another, and each bishop judges for himself and answers to Christ. At the council of 256, Cyprian said: “None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.”. Augustine held that small councils yield to bigger ones, and that even the biggest council can later be corrected. Augustine also put Scripture above bishops and their councils. At that same council, Cyprian said we judge no one, and reject no one from communion, for thinking differently. Augustine argued at book length that the ruling made that day was wrong, and never put Cyprian outside our communion. We cannot tell you how our bishops beyond Cyprian and Augustine argued authority, since the transcript of the 411 conference has not been validly read.",
+ "voice_set_aside": false
+}

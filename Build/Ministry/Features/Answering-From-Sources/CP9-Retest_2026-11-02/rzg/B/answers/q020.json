@@ -1,0 +1,112 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "What survives from our hand is confession, catechism, disputation record, and argument, and not any account of how an ordinary believer lived or felt a turning of the heart."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "What we can show you is a refusal, from inside our own circle, of a church gathered only by a believer's own profession, apart from the whole city."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We held that such a church unmade the very unity our reform existed to strengthen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Those who held it read Scripture, and we do not deny it, but we held that they did not read it whole."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Our council also moved against them with civil force in the years after 1525, not only with argument."
+  }
+ ],
+ "citations": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.defending-the-anabaptist-suppression"
+ ],
+ "group": "A",
+ "id": "q020",
+ "net_sentences": [
+  {
+   "draft": "What survives from our hand is confession, catechism, disputation record, and argument, and not any account of how an ordinary believer lived or felt a turning of the heart [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "What survives from our hand is confession, catechism, disputation record, and argument, and not any account of how an ordinary believer lived or felt a turning of the heart.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we can show you is a refusal, from inside our own circle, of a church gathered only by a believer's own profession, apart from the whole city [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "What we can show you is a refusal, from inside our own circle, of a church gathered only by a believer's own profession, apart from the whole city.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We held that such a church unmade the very unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We held that such a church unmade the very unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Those who held it read Scripture, and we do not deny it, but we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "Those who held it read Scripture, and we do not deny it, but we held that they did not read it whole.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our council also moved against them with civil force in the years after 1525, not only with argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our council also moved against them with civil force in the years after 1525, not only with argument.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.limit.dentiere-and-womens-voice"
+ ],
+ "raw_text": "What survives from our hand is confession, catechism, disputation record, and argument, and not any account of how an ordinary believer lived or felt a turning of the heart [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nSo we cannot show you our people describing conversion in the words of being born again [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nWhat we can show you is a refusal, from inside our own circle, of a church gathered only by a believer's own profession, apart from the whole city [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nWe held that such a church unmade the very unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nThose who held it read Scripture, and we do not deny it, but we held that they did not read it whole [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\nOur council also moved against them with civil force in the years after 1525, not only with argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "So we cannot show you our people describing conversion in the words of being born again [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+    "sentence": "So we cannot show you our people describing conversion in the words of being born again.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S5",
+ "text": "What survives from our hand is confession, catechism, disputation record, and argument, and not any account of how an ordinary believer lived or felt a turning of the heart. What we can show you is a refusal, from inside our own circle, of a church gathered only by a believer's own profession, apart from the whole city. We held that such a church unmade the very unity our reform existed to strengthen. Those who held it read Scripture, and we do not deny it, but we held that they did not read it whole. Our council also moved against them with civil force in the years after 1525, not only with argument.",
+ "voice_set_aside": false
+}

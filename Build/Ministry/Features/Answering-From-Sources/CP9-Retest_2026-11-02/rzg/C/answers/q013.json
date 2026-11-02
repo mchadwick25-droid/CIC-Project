@@ -1,0 +1,170 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "What our record shows is a reform carried out in the open, not in hiding."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Zurich, our conviction was argued aloud before the council and some six hundred priests and laymen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "The council itself then said what the text had yielded."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "sentence": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "The pressure we lived under was real, and it came from outside our walls."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep."
+  },
+  {
+   "record_ids": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "sentence": "That pressure kept our refusal of Rome alive across the whole window, and it never ended our world."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "What an ordinary Sunday was like for a citizen of Zurich or Geneva has not reached us in our own words."
+  }
+ ],
+ "citations": [
+  "rzg.force.counter-reformation-sustained-pressure",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.witness.one-conviction-two-enactments"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "What our record shows is a reform carried out in the open, not in hiding [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "What our record shows is a reform carried out in the open, not in hiding.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Zurich, our conviction was argued aloud before the council and some six hundred priests and laymen [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Zurich, our conviction was argued aloud before the council and some six hundred priests and laymen.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The council itself then said what the text had yielded [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "sentence": "The council itself then said what the text had yielded.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, doctrine was built up article by article and taught to everyone through the Catechism.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The pressure we lived under was real, and it came from outside our walls [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "sentence": "The pressure we lived under was real, and it came from outside our walls.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That pressure kept our refusal of Rome alive across the whole window, and it never ended our world [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "That pressure kept our refusal of Rome alive across the whole window, and it never ended our world.",
+   "tags": [
+    "rzg.force.counter-reformation-sustained-pressure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "What an ordinary Sunday was like for a citizen of Zurich or Geneva has not reached us in our own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What an ordinary Sunday was like for a citizen of Zurich or Geneva has not reached us in our own words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.force.counter-reformation-sustained-pressure"
+ ],
+ "raw_text": "What our record shows is a reform carried out in the open, not in hiding [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. At Zurich, our conviction was argued aloud before the council and some six hundred priests and laymen [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. The council itself then said what the text had yielded [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. At Geneva, doctrine was built up article by article and taught to everyone through the Catechism [[rzg.witness.one-conviction-two-enactments]] [[as:paraphrase]]. The pressure we lived under was real, and it came from outside our walls [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. That pressure kept our refusal of Rome alive across the whole window, and it never ended our world [[rzg.force.counter-reformation-sustained-pressure]] [[as:paraphrase]]. What an ordinary Sunday was like for a citizen of Zurich or Geneva has not reached us in our own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "What our record shows is a reform carried out in the open, not in hiding. At Zurich, our conviction was argued aloud before the council and some six hundred priests and laymen. The council itself then said what the text had yielded. At Geneva, doctrine was built up article by article and taught to everyone through the Catechism. The pressure we lived under was real, and it came from outside our walls. The Jesuits, founded in 1540, were established at Fribourg from 1580, directly facing Reformed Bern and Geneva. In the 1590s a Catholic reconquest of the Chablais was fought on Geneva's own doorstep. That pressure kept our refusal of Rome alive across the whole window, and it never ended our world. What an ordinary Sunday was like for a citizen of Zurich or Geneva has not reached us in our own words.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,226 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "Authority was established differently in our two cities, and we never agreed between them who holds the final word over church discipline."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory",
+    "rzg.term.antistes"
+   ],
+   "sentence": "At Zurich the council governed church and city together, and the chief pastor's title, Antistes, answered to that council."
+  },
+  {
+   "record_ids": [
+    "rzg.term.antistes"
+   ],
+   "sentence": "Bullinger held the title of Antistes after Zwingli died."
+  },
+  {
+   "record_ids": [
+    "rzg.force.1541-ecclesiastical-ordinances-consistory-founding"
+   ],
+   "sentence": "At Geneva, Calvin's 1541 recall produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with the power of censure."
+  },
+  {
+   "record_ids": [
+    "rzg.term.elder"
+   ],
+   "sentence": "An elder there was a layperson, not a pastor, and held real power on the Consistory."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "sentence": "Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "Calvin wrote of Paul's governors in the church: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  },
+  {
+   "record_ids": [
+    "rzg.passage.db048ad75435"
+   ],
+   "sentence": "Calvin, in Institutes of the Christian Religion, Book IV, writes that the election of pastors does not belong to one individual, since other pastors should preside and the people consent and approve."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Under both arrangements stood one conviction, that Scripture alone may bind a church, and what it does not warrant, no one may require of us."
+  }
+ ],
+ "citations": [
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.passage.db048ad75435",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.term.antistes",
+  "rzg.term.consistory",
+  "rzg.term.elder",
+  "rzg.term.sola-scriptura",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.witness.what-we-have-not-agreed"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "Authority was established differently in our two cities, and we never agreed between them who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Authority was established differently in our two cities, and we never agreed between them who holds the final word over church discipline.",
+   "tags": [
+    "rzg.witness.what-we-have-not-agreed",
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "At Zurich the council governed church and city together, and the chief pastor's title, Antistes, answered to that council [[rzg.term.consistory]] [[rzg.term.antistes]] [[as:paraphrase]].",
+   "ratio": 0.82,
+   "sentence": "At Zurich the council governed church and city together, and the chief pastor's title, Antistes, answered to that council.",
+   "tags": [
+    "rzg.term.consistory",
+    "rzg.term.antistes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 82% in own tagged records"
+  },
+  {
+   "draft": "Bullinger held the title of Antistes after Zwingli died [[rzg.term.antistes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Bullinger held the title of Antistes after Zwingli died.",
+   "tags": [
+    "rzg.term.antistes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At Geneva, Calvin's 1541 recall produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with the power of censure [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[as:paraphrase]].",
+   "ratio": 0.79,
+   "sentence": "At Geneva, Calvin's 1541 recall produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with the power of censure.",
+   "tags": [
+    "rzg.force.1541-ecclesiastical-ordinances-consistory-founding"
+   ],
+   "verdict": "ok",
+   "why": "grounded 79% in own tagged records"
+  },
+  {
+   "draft": "An elder there was a layperson, not a pastor, and held real power on the Consistory [[rzg.term.elder]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "An elder there was a layperson, not a pastor, and held real power on the Consistory.",
+   "tags": [
+    "rzg.term.elder"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it.",
+   "tags": [
+    "rzg.gravity.council-led-authority-vs-consistorial-independence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "Calvin wrote of Paul's governors in the church: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "Calvin wrote of Paul's governors in the church: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Calvin, in Institutes of the Christian Religion, Book IV, writes that the election of pastors does not belong to one individual, since other pastors should preside and the people consent and approve [[rzg.passage.db048ad75435]] [[as:paraphrase]].",
+   "ratio": 0.87,
+   "sentence": "Calvin, in Institutes of the Christian Religion, Book IV, writes that the election of pastors does not belong to one individual, since other pastors should preside and the people consent and approve.",
+   "tags": [
+    "rzg.passage.db048ad75435"
+   ],
+   "verdict": "ok",
+   "why": "grounded 87% in own tagged records"
+  },
+  {
+   "draft": "Under both arrangements stood one conviction, that Scripture alone may bind a church, and what it does not warrant, no one may require of us [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Under both arrangements stood one conviction, that Scripture alone may bind a church, and what it does not warrant, no one may require of us.",
+   "tags": [
+    "rzg.witness.one-conviction-two-enactments",
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.term.consistory",
+  "rzg.term.antistes",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.force.1541-ecclesiastical-ordinances-consistory-founding",
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.term.sola-scriptura",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.passage.db048ad75435"
+ ],
+ "raw_text": "Authority was established differently in our two cities, and we never agreed between them who holds the final word over church discipline [[rzg.witness.what-we-have-not-agreed]] [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\nAt Zurich the council governed church and city together, and the chief pastor's title, Antistes, answered to that council [[rzg.term.consistory]] [[rzg.term.antistes]] [[as:paraphrase]].\nBullinger held the title of Antistes after Zwingli died [[rzg.term.antistes]] [[as:paraphrase]].\nAt Geneva, Calvin's 1541 recall produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with the power of censure [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[as:paraphrase]].\nAn elder there was a layperson, not a pastor, and held real power on the Consistory [[rzg.term.elder]] [[as:paraphrase]].\nGeneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it [[rzg.gravity.council-led-authority-vs-consistorial-independence]] [[as:paraphrase]].\nCalvin wrote of Paul's governors in the church: [[quote:rzg.quote.seniors-selected-from-the-people]]\nCalvin, in Institutes of the Christian Religion, Book IV, writes that the election of pastors does not belong to one individual, since other pastors should preside and the people consent and approve [[rzg.passage.db048ad75435]] [[as:paraphrase]].\nUnder both arrangements stood one conviction, that Scripture alone may bind a church, and what it does not warrant, no one may require of us [[rzg.witness.one-conviction-two-enactments]] [[rzg.term.sola-scriptura]] [[as:paraphrase]].\nGeneva's own 1541 text is not in our hands, so how the Consistory worked case by case, week by week, we cannot show you [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "Paul",
+     "kind": "name",
+     "snippet": "pronouncing censures and exercising discipline Calvin reads Paul's governors as elders chosen from the people who join the pas",
+     "span": "record rzg.quote.seniors-selected-from-the-people"
+    },
+    {
+     "detail": "governor",
+     "kind": "role",
+     "snippet": "By these governors I mean elders chosen from the people. They join with the pa",
+     "span": "record rzg.quote.seniors-selected-from-the-people"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "n Calvin John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us",
+     "span": "record rzg.source.calvin-institutes-book4"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [
+   {
+    "draft": "Geneva's own 1541 text is not in our hands, so how the Consistory worked case by case, week by week, we cannot show you [[rzg.force.1541-ecclesiastical-ordinances-consistory-founding]] [[rzg.gravity.consistorial-church-discipline]] [[as:paraphrase]].",
+    "sentence": "Geneva's own 1541 text is not in our hands, so how the Consistory worked case by case, week by week, we cannot show you.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "Authority was established differently in our two cities, and we never agreed between them who holds the final word over church discipline. At Zurich the council governed church and city together, and the chief pastor's title, Antistes, answered to that council. Bullinger held the title of Antistes after Zwingli died. At Geneva, Calvin's 1541 recall produced the Ecclesiastical Ordinances, which created a Consistory of pastors and lay elders with the power of censure. An elder there was a layperson, not a pastor, and held real power on the Consistory. Geneva's Consistory fought for its independence from the magistrate, and only by 1555 substantially won it. Calvin wrote of Paul's governors in the church: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”\n\nCalvin, in Institutes of the Christian Religion, Book IV, writes that the election of pastors does not belong to one individual, since other pastors should preside and the people consent and approve. Under both arrangements stood one conviction, that Scripture alone may bind a church, and what it does not warrant, no one may require of us.",
+ "voice_set_aside": false
+}

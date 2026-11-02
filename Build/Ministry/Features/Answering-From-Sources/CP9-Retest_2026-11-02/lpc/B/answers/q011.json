@@ -1,0 +1,158 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "We would say a reader is missing what the hard words are for, and Augustine himself began as that reader."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "As a young man drawn to a rival teaching, he was much disturbed by the violence in our older Scriptures."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Once he held our faith, he answered that Moses showed obedience, not ferocity, and that God in giving the command acted in righteous retribution."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "He also held that the earthly wars of the old order were a picture for a time."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Christ's command about the other cheek asks for an inward disposition, not only a bodily act."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.dash-the-little-ones-against-the-rock"
+   ],
+   "sentence": "Augustine wrote on the Psalm that blesses the one who dashes Babylon's little ones against the rock: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.witness.violence-commanded-not-cruel"
+ ],
+ "group": "A",
+ "id": "q011",
+ "net_sentences": [
+  {
+   "draft": "We would say a reader is missing what the hard words are for, and Augustine himself began as that reader [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]].",
+   "ratio": 0.5,
+   "sentence": "We would say a reader is missing what the hard words are for, and Augustine himself began as that reader.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "grounded 50% in own tagged records"
+  },
+  {
+   "draft": "As a young man drawn to a rival teaching, he was much disturbed by the violence in our older Scriptures [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]].",
+   "sentence": "As a young man drawn to a rival teaching, he was much disturbed by the violence in our older Scriptures.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Once he held our faith, he answered that Moses showed obedience, not ferocity, and that God in giving the command acted in righteous retribution [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Once he held our faith, he answered that Moses showed obedience, not ferocity, and that God in giving the command acted in righteous retribution.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "He also held that the earthly wars of the old order were a picture for a time [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]].",
+   "sentence": "He also held that the earthly wars of the old order were a picture for a time.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Christ's command about the other cheek asks for an inward disposition, not only a bodily act [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]].",
+   "sentence": "Christ's command about the other cheek asks for an inward disposition, not only a bodily act.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote on the Psalm that blesses the one who dashes Babylon's little ones against the rock: [[quote:lpc.quote.dash-the-little-ones-against-the-rock]]",
+   "placed_quote": "lpc.quote.dash-the-little-ones-against-the-rock",
+   "sentence": "Augustine wrote on the Psalm that blesses the one who dashes Babylon's little ones against the rock: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”",
+   "tags": [
+    "lpc.quote.dash-the-little-ones-against-the-rock"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.term.catechesis",
+  "lpc.term.the-people",
+  "lpc.story.numidicus",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.gravity.grace-and-human-incapacity",
+  "lpc.quote.david-himself-hath-been-sent-to-thee",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.witness.days-before-the-sun",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.quote.two-hear-one-scorns-one-rises",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.term.heresy",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace"
+ ],
+ "raw_text": "We would say a reader is missing what the hard words are for, and Augustine himself began as that reader [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]]. As a young man drawn to a rival teaching, he was much disturbed by the violence in our older Scriptures [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]]. Once he held our faith, he answered that Moses showed obedience, not ferocity, and that God in giving the command acted in righteous retribution [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]]. He also held that the earthly wars of the old order were a picture for a time [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]]. Christ's command about the other cheek asks for an inward disposition, not only a bodily act [[lpc.witness.violence-commanded-not-cruel]][[as:paraphrase]]. Augustine wrote on the Psalm that blesses the one who dashes Babylon's little ones against the rock: [[quote:lpc.quote.dash-the-little-ones-against-the-rock]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.dash-the-little-ones-against-the-rock": [
+    {
+     "detail": "Babylon",
+     "kind": "name",
+     "snippet": "their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight",
+     "span": "record lpc.quote.dash-the-little-ones-against-the-rock"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "d Augustine of Hippo Augustine of Hippo, Expositions on the Book of Psalms (Enarrationes in Psalmos), Nicene and Post-Nicene",
+     "span": "record lpc.source.augustine-expositions-on-the-psalms"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.dash-the-little-ones-against-the-rock"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2e",
+ "text": "We would say a reader is missing what the hard words are for, and Augustine himself began as that reader. As a young man drawn to a rival teaching, he was much disturbed by the violence in our older Scriptures. Once he held our faith, he answered that Moses showed obedience, not ferocity, and that God in giving the command acted in righteous retribution. He also held that the earthly wars of the old order were a picture for a time. Christ's command about the other cheek asks for an inward disposition, not only a bodily act. Augustine wrote on the Psalm that blesses the one who dashes Babylon's little ones against the rock: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”",
+ "voice_set_aside": false
+}

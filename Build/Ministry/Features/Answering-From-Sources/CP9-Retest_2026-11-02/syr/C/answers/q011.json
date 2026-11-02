@@ -1,0 +1,192 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.reading",
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "What the modern reader misses is the hidden truth that each word of Scripture carries."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "We read each word as a symbol, a raza, bound to the truth it shows, the shrara."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The symbol is not a stand-in that a reader picks at will."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "So Eden was read toward the cross, Adam toward Christ, and the ark toward the church."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "A whole chapter's worth of meaning was found in a single pearl."
+  },
+  {
+   "record_ids": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "We did not read Genesis as science, and that was because we read for something else."
+  },
+  {
+   "record_ids": [
+    "syr.term.madrasha"
+   ],
+   "sentence": "Our teaching also came in song, because doctrine was taught by singing it."
+  },
+  {
+   "record_ids": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "The Gospel reached us as one continuous story, woven from four accounts."
+  }
+ ],
+ "citations": [
+  "syr.dw.gospel-harmony",
+  "syr.dw.reading",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.term.madrasha",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q011",
+ "net_sentences": [
+  {
+   "draft": "What the modern reader misses is the hidden truth that each word of Scripture carries [[syr.dw.reading]] [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "What the modern reader misses is the hidden truth that each word of Scripture carries.",
+   "tags": [
+    "syr.dw.reading",
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We read each word as a symbol, a raza, bound to the truth it shows, the shrara [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "We read each word as a symbol, a raza, bound to the truth it shows, the shrara.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The symbol is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "The symbol is not a stand-in that a reader picks at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So Eden was read toward the cross, Adam toward Christ, and the ark toward the church [[syr.dw.reading]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "So Eden was read toward the cross, Adam toward Christ, and the ark toward the church.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A whole chapter's worth of meaning was found in a single pearl [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "A whole chapter's worth of meaning was found in a single pearl.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ephrem the Syrian wrote: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+   "placed_quote": "syr.quote.a-pearl-upon-the-palm",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”",
+   "tags": [
+    "syr.quote.a-pearl-upon-the-palm"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We did not read Genesis as science, and that was because we read for something else [[syr.dw.reading]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We did not read Genesis as science, and that was because we read for something else.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our teaching also came in song, because doctrine was taught by singing it [[syr.term.madrasha]] [[as:paraphrase]].",
+   "sentence": "Our teaching also came in song, because doctrine was taught by singing it.",
+   "tags": [
+    "syr.term.madrasha"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Gospel reached us as one continuous story, woven from four accounts [[syr.dw.gospel-harmony]] [[as:paraphrase]].",
+   "ratio": 0.57,
+   "sentence": "The Gospel reached us as one continuous story, woven from four accounts.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ],
+   "verdict": "ok",
+   "why": "grounded 57% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.raza-shrara",
+  "syr.story.qyama-morning",
+  "syr.story.choirs-tradition",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing"
+ ],
+ "raw_text": "What the modern reader misses is the hidden truth that each word of Scripture carries [[syr.dw.reading]] [[syr.term.raza-shrara]] [[as:paraphrase]]. We read each word as a symbol, a raza, bound to the truth it shows, the shrara [[syr.term.raza-shrara]] [[as:paraphrase]]. The symbol is not a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]]. So Eden was read toward the cross, Adam toward Christ, and the ark toward the church [[syr.dw.reading]] [[as:paraphrase]]. A whole chapter's worth of meaning was found in a single pearl [[syr.dw.reading]] [[as:paraphrase]]. Ephrem the Syrian wrote: [[quote:syr.quote.a-pearl-upon-the-palm]]\nWe did not read Genesis as science, and that was because we read for something else [[syr.dw.reading]] [[as:paraphrase]]. Our teaching also came in song, because doctrine was taught by singing it [[syr.term.madrasha]] [[as:paraphrase]]. The Gospel reached us as one continuous story, woven from four accounts [[syr.dw.gospel-harmony]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.a-pearl-upon-the-palm"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Ephrem the Syrian wrote: [[quote:syr.quote.a-pearl-upon-the-palm]]",
+    "lead_in": "In today's English, Ephrem the Syrian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "What the modern reader misses is the hidden truth that each word of Scripture carries. We read each word as a symbol, a raza, bound to the truth it shows, the shrara. The symbol is not a stand-in that a reader picks at will. So Eden was read toward the cross, Adam toward Christ, and the ark toward the church. A whole chapter's worth of meaning was found in a single pearl. In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side.”\n\nWe did not read Genesis as science, and that was because we read for something else. Our teaching also came in song, because doctrine was taught by singing it. The Gospel reached us as one continuous story, woven from four accounts.",
+ "voice_set_aside": false
+}

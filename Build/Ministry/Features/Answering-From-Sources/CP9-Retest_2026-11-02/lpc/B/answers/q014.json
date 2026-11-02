@@ -1,0 +1,270 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.term.the-flock"
+   ],
+   "sentence": "As we understand ourselves, a bishop's authority began with one plain fact: a particular people was placed in his care, and he would be asked what became of them."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "His flock could stand before his seat and refuse to leave until he heard them."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian",
+    "lpc.term.suffrage"
+   ],
+   "sentence": "Cyprian named two things that put a man in the office, our suffrage and God's judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "We keep the account of how Cyprian came to the office:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\""
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "For us, the people's favour was the way we saw God's judgment at work."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.force.organized-carthaginian-church"
+   ],
+   "sentence": "A church already organized enough to hold factions was organized enough to carry an election over a faction's opposition."
+  },
+  {
+   "record_ids": [
+    "lpc.term.bishop-of-bishops"
+   ],
+   "sentence": "Authority between bishops ran another way, for Cyprian held that no bishop stands over another and each answers to Christ."
+  },
+  {
+   "record_ids": [
+    "lpc.term.plenary-council"
+   ],
+   "sentence": "Augustine held that small councils yield to wider ones, and that even the widest can be corrected."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+   ],
+   "sentence": "Augustine wrote about what the office is for: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”"
+  }
+ ],
+ "citations": [
+  "lpc.force.organized-carthaginian-church",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.story.election-of-cyprian",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.plenary-council",
+  "lpc.term.suffrage",
+  "lpc.term.the-flock",
+  "lpc.witness.answerability-as-ground"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "As we understand ourselves, a bishop's authority began with one plain fact: a particular people was placed in his care, and he would be asked what became of them [[lpc.witness.answerability-as-ground]][[lpc.term.the-flock]][[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "As we understand ourselves, a bishop's authority began with one plain fact: a particular people was placed in his care, and he would be asked what became of them.",
+   "tags": [
+    "lpc.witness.answerability-as-ground",
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "His flock could stand before his seat and refuse to leave until he heard them [[lpc.term.the-flock]][[as:paraphrase]].",
+   "sentence": "His flock could stand before his seat and refuse to leave until he heard them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian named two things that put a man in the office, our suffrage and God's judgment [[lpc.story.election-of-cyprian]][[lpc.term.suffrage]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian named two things that put a man in the office, our suffrage and God's judgment.",
+   "tags": [
+    "lpc.story.election-of-cyprian",
+    "lpc.term.suffrage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We keep the account of how Cyprian came to the office: [[story:lpc.story.election-of-cyprian:short]]",
+   "ratio": 1.0,
+   "sentence": "We keep the account of how Cyprian came to the office:",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people [[lpc.story.election-of-cyprian]].\"",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\"",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "For us, the people's favour was the way we saw God's judgment at work [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "For us, the people's favour was the way we saw God's judgment at work.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "A church already organized enough to hold factions was organized enough to carry an election over a faction's opposition [[lpc.force.organized-carthaginian-church]][[as:paraphrase]].",
+   "sentence": "A church already organized enough to hold factions was organized enough to carry an election over a faction's opposition.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Authority between bishops ran another way, for Cyprian held that no bishop stands over another and each answers to Christ [[lpc.term.bishop-of-bishops]][[as:paraphrase]].",
+   "ratio": 0.73,
+   "sentence": "Authority between bishops ran another way, for Cyprian held that no bishop stands over another and each answers to Christ.",
+   "tags": [
+    "lpc.term.bishop-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "grounded 73% in own tagged records"
+  },
+  {
+   "draft": "Augustine held that small councils yield to wider ones, and that even the widest can be corrected [[lpc.term.plenary-council]][[as:paraphrase]].",
+   "sentence": "Augustine held that small councils yield to wider ones, and that even the widest can be corrected.",
+   "tags": [
+    "lpc.term.plenary-council"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote about what the office is for: [[quote:lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock]]",
+   "placed_quote": "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+   "sentence": "Augustine wrote about what the office is for: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”",
+   "tags": [
+    "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.confessor",
+  "lpc.term.the-flock",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.womens-own-voice",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.the-lapsed",
+  "lpc.quote.before-even-a-deacon"
+ ],
+ "raw_text": "As we understand ourselves, a bishop's authority began with one plain fact: a particular people was placed in his care, and he would be asked what became of them [[lpc.witness.answerability-as-ground]][[lpc.term.the-flock]][[as:paraphrase]]. His flock could stand before his seat and refuse to leave until he heard them [[lpc.term.the-flock]][[as:paraphrase]]. Cyprian named two things that put a man in the office, our suffrage and God's judgment [[lpc.story.election-of-cyprian]][[lpc.term.suffrage]][[as:paraphrase]]. We keep the account of how Cyprian came to the office: [[story:lpc.story.election-of-cyprian:short]] A church already organized enough to hold factions was organized enough to carry an election over a faction's opposition [[lpc.force.organized-carthaginian-church]][[as:paraphrase]]. Authority between bishops ran another way, for Cyprian held that no bishop stands over another and each answers to Christ [[lpc.term.bishop-of-bishops]][[as:paraphrase]]. Augustine held that small councils yield to wider ones, and that even the widest can be corrected [[lpc.term.plenary-council]][[as:paraphrase]]. Augustine wrote about what the office is for: [[quote:lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "not act from the love of obeying, serving and pleasing God. Tractate 123 on the Gospel of John (NPNF Tractate CXXIII), section 5",
+     "span": "record lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.election-of-cyprian": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "As we understand ourselves, a bishop's authority began with one plain fact: a particular people was placed in his care, and he would be asked what became of them. His flock could stand before his seat and refuse to leave until he heard them. Cyprian named two things that put a man in the office, our suffrage and God's judgment. We keep the account of how Cyprian came to the office:\n\nOur deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\" He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was. For us, the people's favour was the way we saw God's judgment at work. In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.\n\nA church already organized enough to hold factions was organized enough to carry an election over a faction's opposition. Authority between bishops ran another way, for Cyprian held that no bishop stands over another and each answers to Christ. Augustine held that small councils yield to wider ones, and that even the widest can be corrected. Augustine wrote about what the office is for: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”",
+ "voice_set_aside": false
+}

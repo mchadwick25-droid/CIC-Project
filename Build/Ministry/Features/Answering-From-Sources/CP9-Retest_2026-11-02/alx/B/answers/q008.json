@@ -1,0 +1,174 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Adam's fall cast its shadow over every soul."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Death and disorder came down to all of us, and no one reached God unwounded."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Our teachers spoke of inherited death and weakness."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "They also spoke of a fall that each soul signs onto in its own living."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "Origen wondered about the soul's own descent, but as open inquiry, not doctrine."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "The wound was real, universal, and inherited in its effects."
+  },
+  {
+   "record_ids": [
+    "alx.dw.original-sin"
+   ],
+   "sentence": "The doctor's imagery outweighed the courtroom's."
+  },
+  {
+   "record_ids": [
+    "alx.term.hamartia"
+   ],
+   "sentence": "So we named sin as the soul turned from God toward lesser goods, more a wound than only guilt for breaking a rule."
+  }
+ ],
+ "citations": [
+  "alx.dw.original-sin",
+  "alx.term.hamartia"
+ ],
+ "group": "A",
+ "id": "q008",
+ "net_sentences": [
+  {
+   "draft": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Adam's fall cast its shadow over every soul [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "Adam's fall cast its shadow over every soul.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Death and disorder came down to all of us, and no one reached God unwounded [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "Death and disorder came down to all of us, and no one reached God unwounded.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers spoke of inherited death and weakness [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "Our teachers spoke of inherited death and weakness.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They also spoke of a fall that each soul signs onto in its own living [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "They also spoke of a fall that each soul signs onto in its own living.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen wondered about the soul's own descent, but as open inquiry, not doctrine [[alx.dw.original-sin]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Origen wondered about the soul's own descent, but as open inquiry, not doctrine.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The wound was real, universal, and inherited in its effects [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "The wound was real, universal, and inherited in its effects.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The doctor's imagery outweighed the courtroom's [[alx.dw.original-sin]][[as:paraphrase]].",
+   "sentence": "The doctor's imagery outweighed the courtroom's.",
+   "tags": [
+    "alx.dw.original-sin"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So we named sin as the soul turned from God toward lesser goods, more a wound than only guilt for breaking a rule [[alx.term.hamartia]][[as:paraphrase]].",
+   "sentence": "So we named sin as the soul turned from God toward lesser goods, more a wound than only guilt for breaking a rule.",
+   "tags": [
+    "alx.term.hamartia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.limit.faith-alone-later-frame",
+  "alx.dw.original-sin",
+  "alx.term.anastasis",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.dw.jesus",
+  "alx.term.baptism",
+  "alx.term.elpis",
+  "alx.quote.clement-instructor",
+  "alx.quote.gregory-spark",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity [[alx.dw.original-sin]][[as:paraphrase]]. Adam's fall cast its shadow over every soul [[alx.dw.original-sin]][[as:paraphrase]]. Death and disorder came down to all of us, and no one reached God unwounded [[alx.dw.original-sin]][[as:paraphrase]]. Our teachers spoke of inherited death and weakness [[alx.dw.original-sin]][[as:paraphrase]]. They also spoke of a fall that each soul signs onto in its own living [[alx.dw.original-sin]][[as:paraphrase]]. Origen wondered about the soul's own descent, but as open inquiry, not doctrine [[alx.dw.original-sin]][[as:paraphrase]]. The wound was real, universal, and inherited in its effects [[alx.dw.original-sin]][[as:paraphrase]]. The doctor's imagery outweighed the courtroom's [[alx.dw.original-sin]][[as:paraphrase]]. So we named sin as the soul turned from God toward lesser goods, more a wound than only guilt for breaking a rule [[alx.term.hamartia]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S2",
+ "text": "We did not speak of guilt at birth, but we believed something real went wrong at the root of humanity. Adam's fall cast its shadow over every soul. Death and disorder came down to all of us, and no one reached God unwounded. Our teachers spoke of inherited death and weakness. They also spoke of a fall that each soul signs onto in its own living. Origen wondered about the soul's own descent, but as open inquiry, not doctrine. The wound was real, universal, and inherited in its effects. The doctor's imagery outweighed the courtroom's. So we named sin as the soul turned from God toward lesser goods, more a wound than only guilt for breaking a rule.",
+ "voice_set_aside": false
+}

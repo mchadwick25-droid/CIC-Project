@@ -1,0 +1,185 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "What we claim, we claim from named books that a person can check."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Those books survive, they are public, and they were public from the start."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Our teachers worked like critics: Dionysius weighed the authorship of the Apocalypse by its style, and Origen compared manuscript readings."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "They also marked the difference between eyewitness testimony and received tradition."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "There are thin places, and we name them."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Much of what survives comes through one later historian's selection."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Some of the greatest teacher's works survive only in translations made by men with a stake in the outcome."
+  },
+  {
+   "record_ids": [
+    "alx.contested.didaskaleion-institution"
+   ],
+   "sentence": "Whether a formal school stood behind our teachers is contested, and it rests almost entirely on Eusebius."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "What survives is the voice of the literate, so a modern scholar should not read it as the whole community."
+  }
+ ],
+ "citations": [
+  "alx.contested.didaskaleion-institution",
+  "alx.dw.record"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "What we claim, we claim from named books that a person can check [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "What we claim, we claim from named books that a person can check.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Those books survive, they are public, and they were public from the start [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Those books survive, they are public, and they were public from the start.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers worked like critics: Dionysius weighed the authorship of the Apocalypse by its style, and Origen compared manuscript readings [[alx.dw.record]] [[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "Our teachers worked like critics: Dionysius weighed the authorship of the Apocalypse by its style, and Origen compared manuscript readings.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "They also marked the difference between eyewitness testimony and received tradition [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "They also marked the difference between eyewitness testimony and received tradition.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "There are thin places, and we name them [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "There are thin places, and we name them.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Much of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Much of what survives comes through one later historian's selection.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some of the greatest teacher's works survive only in translations made by men with a stake in the outcome [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Some of the greatest teacher's works survive only in translations made by men with a stake in the outcome.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether a formal school stood behind our teachers is contested, and it rests almost entirely on Eusebius [[alx.contested.didaskaleion-institution]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "Whether a formal school stood behind our teachers is contested, and it rests almost entirely on Eusebius.",
+   "tags": [
+    "alx.contested.didaskaleion-institution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account [[alx.dw.record]] [[as:paraphrase]].",
+   "ratio": 0.2,
+   "sentence": "Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['arsinoite', 'coptic', 'egypt']) only 20% grounded in its own tags; inside a named thin topic: ['rural', 'Coptic', 'village'] (Rural and Coptic-speaking Egypt is structurally thin; the Arsinoite villagers appear only in their bishop's own account of persuading them, never in their own voice.)"
+  },
+  {
+   "draft": "What survives is the voice of the literate, so a modern scholar should not read it as the whole community [[alx.dw.record]] [[as:inference]].",
+   "sentence": "What survives is the voice of the literate, so a modern scholar should not read it as the whole community.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.record",
+  "alx.term.pistis",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.force.gnostic-challenge",
+  "alx.contested.didaskaleion-institution",
+  "alx.dw.god",
+  "alx.term.gnosis",
+  "alx.term.logikos",
+  "alx.term.autexousia",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.logos-unity"
+ ],
+ "raw_text": "What we claim, we claim from named books that a person can check [[alx.dw.record]] [[as:paraphrase]]. Those books survive, they are public, and they were public from the start [[alx.dw.record]] [[as:paraphrase]]. Our teachers worked like critics: Dionysius weighed the authorship of the Apocalypse by its style, and Origen compared manuscript readings [[alx.dw.record]] [[as:paraphrase]]. They also marked the difference between eyewitness testimony and received tradition [[alx.dw.record]] [[as:paraphrase]]. There are thin places, and we name them [[alx.dw.record]] [[as:paraphrase]]. Much of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]]. Some of the greatest teacher's works survive only in translations made by men with a stake in the outcome [[alx.dw.record]] [[as:paraphrase]]. Whether a formal school stood behind our teachers is contested, and it rests almost entirely on Eusebius [[alx.contested.didaskaleion-institution]] [[as:paraphrase]]. Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account [[alx.dw.record]] [[as:paraphrase]]. What survives is the voice of the literate, so a modern scholar should not read it as the whole community [[alx.dw.record]] [[as:inference]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "What we claim, we claim from named books that a person can check. Those books survive, they are public, and they were public from the start. Our teachers worked like critics: Dionysius weighed the authorship of the Apocalypse by its style, and Origen compared manuscript readings. They also marked the difference between eyewitness testimony and received tradition. There are thin places, and we name them. Much of what survives comes through one later historian's selection. Some of the greatest teacher's works survive only in translations made by men with a stake in the outcome. Whether a formal school stood behind our teachers is contested, and it rests almost entirely on Eusebius. Rural and Coptic-speaking Egypt is thin, and the Arsinoite villagers appear only in their bishop's own account. What survives is the voice of the literate, so a modern scholar should not read it as the whole community.",
+ "voice_set_aside": false
+}

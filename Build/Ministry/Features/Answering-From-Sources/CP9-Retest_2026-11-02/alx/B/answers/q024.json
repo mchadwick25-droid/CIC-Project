@@ -1,0 +1,145 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "Among us marriage was honored, the body was not despised, and the home was a place of formation."
+  },
+  {
+   "record_ids": [
+    "alx.term.oikos"
+   ],
+   "sentence": "The household was not a private family but a place where formation was put to the test."
+  },
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis."
+  },
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "That book has no English we can offer you, so the detail we must leave in the sources."
+  },
+  {
+   "record_ids": [
+    "alx.quote.timothy-ordinary-questions"
+   ],
+   "sentence": "Timothy, bishop of Alexandria, who died in 385, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”"
+  }
+ ],
+ "citations": [
+  "alx.limit.marriage",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.term.oikos"
+ ],
+ "group": "A",
+ "id": "q024",
+ "net_sentences": [
+  {
+   "draft": "Among us marriage was honored, the body was not despised, and the home was a place of formation [[alx.limit.marriage]] [[as:paraphrase]].",
+   "sentence": "Among us marriage was honored, the body was not despised, and the home was a place of formation.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The household was not a private family but a place where formation was put to the test [[alx.term.oikos]] [[as:paraphrase]].",
+   "sentence": "The household was not a private family but a place where formation was put to the test.",
+   "tags": [
+    "alx.term.oikos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis [[alx.limit.marriage]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That book has no English we can offer you, so the detail we must leave in the sources [[alx.limit.marriage]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That book has no English we can offer you, so the detail we must leave in the sources.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Timothy, bishop of Alexandria, who died in 385, answered practical questions put to him: [[quote:alx.quote.timothy-ordinary-questions]]",
+   "placed_quote": "alx.quote.timothy-ordinary-questions",
+   "sentence": "Timothy, bishop of Alexandria, who died in 385, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”",
+   "tags": [
+    "alx.quote.timothy-ordinary-questions"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.limit.marriage",
+  "alx.dw.church-failure",
+  "alx.term.eikon",
+  "alx.term.episkopos",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.learning-community-tension",
+  "alx.force.apostolic-tradition",
+  "alx.force.gnostic-challenge",
+  "alx.gravity.learning-formation"
+ ],
+ "raw_text": "Among us marriage was honored, the body was not despised, and the home was a place of formation [[alx.limit.marriage]] [[as:paraphrase]].\nThe household was not a private family but a place where formation was put to the test [[alx.term.oikos]] [[as:paraphrase]].\nClement wrote a whole book defending marriage against those who despised it, the third of his Stromateis [[alx.limit.marriage]] [[as:paraphrase]].\nThat book has no English we can offer you, so the detail we must leave in the sources [[alx.limit.marriage]] [[as:paraphrase]].\nTimothy, bishop of Alexandria, who died in 385, answered practical questions put to him: [[quote:alx.quote.timothy-ordinary-questions]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.timothy-ordinary-questions": [
+    {
+     "detail": "Alexandria",
+     "kind": "name",
+     "snippet": "swer. No; he must not share in other men's sins. Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, ) Q",
+     "span": "record alx.quote.timothy-ordinary-questions"
+    },
+    {
+     "detail": "385",
+     "kind": "number",
+     "snippet": "andria ruling on practice - Dionysius (d. 264), Timothy (d. 385), Theophilus (bp. 385-412) Bishops of Alexandria, The Alexa",
+     "span": "record alx.source.alexandrian-canonical-answers"
+    },
+    {
+     "detail": "bishop",
+     "kind": "role",
+     "snippet": ". No; he must not be partaker of other men’s sins. Timothy, bishop of Alexandria, answers practical questions on a catechumen",
+     "span": "record alx.quote.timothy-ordinary-questions"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.timothy-ordinary-questions"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C8.S4",
+ "text": "Among us marriage was honored, the body was not despised, and the home was a place of formation. The household was not a private family but a place where formation was put to the test. Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis. That book has no English we can offer you, so the detail we must leave in the sources. Timothy, bishop of Alexandria, who died in 385, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”.",
+ "voice_set_aside": false
+}

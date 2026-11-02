@@ -1,0 +1,351 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.empire"
+   ],
+   "sentence": "What our record shows is danger and flight: property was seized, bishops fled, and teachers' fathers were beheaded."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "Four persecutions came, the Antonine, the Severan, the Decian and the Diocletianic."
+  },
+  {
+   "record_ids": [
+    "alx.force.persecution"
+   ],
+   "sentence": "Origen himself was jailed and tortured under Decius, and his father Leonides died a martyr under Severus."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "The majority who could not write left almost nothing, so how ordinary believers lived through those years we cannot say from their own words."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "Our memory tells of how persecution entered Origen's boyhood house:"
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "About the year 202, under the emperor Severus, persecution struck Alexandria."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "Leonides was arrested and held for beheading."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "His son Origen was sixteen."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "Eusebius tells what happened next in that house."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "He wrote a century later, from our church's memory, from Origen's own letters and from reports about him."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "The boy burned to give himself up and die beside his father."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "His mother begged him to spare her, but he would not listen."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "So she hid all his clothes, and shame kept him at home."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "Origen did the one thing left to him."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "He wrote to his father in prison."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "One line of that letter survives, \"Take heed not to change your mind on our account.\""
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "Leonides did not change his mind."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "He was beheaded, and the family's property was seized."
+  },
+  {
+   "record_ids": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "sentence": "Not yet seventeen, Origen was left the eldest of seven children, and his mother was a widow."
+  }
+ ],
+ "citations": [
+  "alx.dw.empire",
+  "alx.dw.record",
+  "alx.force.persecution",
+  "alx.story.leonides-martyrdom"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "What our record shows is danger and flight: property was seized, bishops fled, and teachers' fathers were beheaded [[alx.dw.empire]] [[as:paraphrase]].",
+   "sentence": "What our record shows is danger and flight: property was seized, bishops fled, and teachers' fathers were beheaded.",
+   "tags": [
+    "alx.dw.empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Four persecutions came, the Antonine, the Severan, the Decian and the Diocletianic [[alx.force.persecution]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Four persecutions came, the Antonine, the Severan, the Decian and the Diocletianic.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Origen himself was jailed and tortured under Decius, and his father Leonides died a martyr under Severus [[alx.force.persecution]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Origen himself was jailed and tortured under Decius, and his father Leonides died a martyr under Severus.",
+   "tags": [
+    "alx.force.persecution"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The majority who could not write left almost nothing, so how ordinary believers lived through those years we cannot say from their own words [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "The majority who could not write left almost nothing, so how ordinary believers lived through those years we cannot say from their own words.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our memory tells of how persecution entered Origen's boyhood house: [[story:alx.story.leonides-martyrdom]]",
+   "ratio": 1.0,
+   "sentence": "Our memory tells of how persecution entered Origen's boyhood house:",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "About the year 202, under the emperor Severus, persecution struck Alexandria [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "About the year 202, under the emperor Severus, persecution struck Alexandria.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Leonides was arrested and held for beheading [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "Leonides was arrested and held for beheading.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "His son Origen was sixteen [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "His son Origen was sixteen.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Eusebius tells what happened next in that house [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "Eusebius tells what happened next in that house.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He wrote a century later, from our church's memory, from Origen's own letters and from reports about him [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "He wrote a century later, from our church's memory, from Origen's own letters and from reports about him.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The boy burned to give himself up and die beside his father [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "The boy burned to give himself up and die beside his father.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "His mother begged him to spare her, but he would not listen [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "His mother begged him to spare her, but he would not listen.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "So she hid all his clothes, and shame kept him at home [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "So she hid all his clothes, and shame kept him at home.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Origen did the one thing left to him [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "Origen did the one thing left to him.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He wrote to his father in prison [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "He wrote to his father in prison.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "One line of that letter survives, \"Take heed not to change your mind on our account [[alx.story.leonides-martyrdom]].\"",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "One line of that letter survives, \"Take heed not to change your mind on our account.\"",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Leonides did not change his mind [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "Leonides did not change his mind.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He was beheaded, and the family's property was seized [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "He was beheaded, and the family's property was seized.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Not yet seventeen, Origen was left the eldest of seven children, and his mother was a widow [[alx.story.leonides-martyrdom]].",
+   "placed_story": "alx.story.leonides-martyrdom",
+   "sentence": "Not yet seventeen, Origen was left the eldest of seven children, and his mother was a widow.",
+   "tags": [
+    "alx.story.leonides-martyrdom"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "alx.dw.empire",
+  "alx.story.leonides-martyrdom",
+  "alx.story.potamiaena",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.force.persecution",
+  "alx.limit.f5-women-own-words",
+  "alx.dw.resurrection",
+  "alx.term.oikos",
+  "alx.term.eikon",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.story.didymus-meeting",
+  "alx.quote.dionysius-plague",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.contested.ecology-wide-primacy"
+ ],
+ "raw_text": "What our record shows is danger and flight: property was seized, bishops fled, and teachers' fathers were beheaded [[alx.dw.empire]] [[as:paraphrase]]. Four persecutions came, the Antonine, the Severan, the Decian and the Diocletianic [[alx.force.persecution]] [[as:paraphrase]]. Origen himself was jailed and tortured under Decius, and his father Leonides died a martyr under Severus [[alx.force.persecution]] [[as:paraphrase]]. The majority who could not write left almost nothing, so how ordinary believers lived through those years we cannot say from their own words [[alx.dw.record]] [[as:paraphrase]]. Our memory tells of how persecution entered Origen's boyhood house: [[story:alx.story.leonides-martyrdom]]\n",
+ "reply_shape": {
+  "placed": [
+   "alx.story.leonides-martyrdom"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "alx.story.leonides-martyrdom": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "What our record shows is danger and flight: property was seized, bishops fled, and teachers' fathers were beheaded. Four persecutions came, the Antonine, the Severan, the Decian and the Diocletianic. Origen himself was jailed and tortured under Decius, and his father Leonides died a martyr under Severus. The majority who could not write left almost nothing, so how ordinary believers lived through those years we cannot say from their own words. Our memory tells of how persecution entered Origen's boyhood house:\n\nAbout the year 202, under the emperor Severus, persecution struck Alexandria. Leonides was arrested and held for beheading. His son Origen was sixteen. Eusebius tells what happened next in that house. He wrote a century later, from our church's memory, from Origen's own letters and from reports about him.\n\nThe boy burned to give himself up and die beside his father. His mother begged him to spare her, but he would not listen. So she hid all his clothes, and shame kept him at home.\n\nOrigen did the one thing left to him. He wrote to his father in prison. One line of that letter survives, \"Take heed not to change your mind on our account.\"\n\nLeonides did not change his mind. He was beheaded, and the family's property was seized. Not yet seventeen, Origen was left the eldest of seven children, and his mother was a widow.",
+ "voice_set_aside": false
+}

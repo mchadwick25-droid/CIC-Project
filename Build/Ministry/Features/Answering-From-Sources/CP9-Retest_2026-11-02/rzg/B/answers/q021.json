@@ -1,0 +1,138 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "sentence": "We cannot describe our worship space, because no source in our record describes it directly."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "sentence": "Its size, its furnishing, and the look of its walls are not given."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "sentence": "What we can tell you is what we refused: no image to bow to, and no altar built for a sacrifice we no longer offered."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "A plain table stood in the altar's place."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "By most accounts, the organ at the Grossmunster in Zurich fell silent in the mid-1520s, and no voice or instrument answered it in worship for years after."
+  },
+  {
+   "record_ids": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "sentence": "Our confession holds that God cannot be represented by any image."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "sentence": "All of this is reasoned from our doctrine, not read off a witness who was standing there."
+  }
+ ],
+ "citations": [
+  "rzg.ambient.emptied-worship-space",
+  "rzg.limit.material-culture-and-worship-space"
+ ],
+ "group": "A",
+ "id": "q021",
+ "net_sentences": [
+  {
+   "draft": "We cannot describe our worship space, because no source in our record describes it directly [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].",
+   "sentence": "We cannot describe our worship space, because no source in our record describes it directly.",
+   "tags": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Its size, its furnishing, and the look of its walls are not given [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].",
+   "sentence": "Its size, its furnishing, and the look of its walls are not given.",
+   "tags": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we can tell you is what we refused: no image to bow to, and no altar built for a sacrifice we no longer offered [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].",
+   "sentence": "What we can tell you is what we refused: no image to bow to, and no altar built for a sacrifice we no longer offered.",
+   "tags": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A plain table stood in the altar's place [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "sentence": "A plain table stood in the altar's place.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "By most accounts, the organ at the Grossmunster in Zurich fell silent in the mid-1520s, and no voice or instrument answered it in worship for years after [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "By most accounts, the organ at the Grossmunster in Zurich fell silent in the mid-1520s, and no voice or instrument answered it in worship for years after.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Our confession holds that God cannot be represented by any image [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]].",
+   "sentence": "Our confession holds that God cannot be represented by any image.",
+   "tags": [
+    "rzg.ambient.emptied-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "All of this is reasoned from our doctrine, not read off a witness who was standing there [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].",
+   "sentence": "All of this is reasoned from our doctrine, not read off a witness who was standing there.",
+   "tags": [
+    "rzg.limit.material-culture-and-worship-space"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.story.first-zurich-disputation",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.core.the-reformed-cities-zurich-and-geneva",
+  "rzg.ambient.emptied-worship-space",
+  "rzg.contested.sign-and-the-thing-signified"
+ ],
+ "raw_text": "We cannot describe our worship space, because no source in our record describes it directly [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]]. Its size, its furnishing, and the look of its walls are not given [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]]. What we can tell you is what we refused: no image to bow to, and no altar built for a sacrifice we no longer offered [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]]. A plain table stood in the altar's place [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]]. By most accounts, the organ at the Grossmunster in Zurich fell silent in the mid-1520s, and no voice or instrument answered it in worship for years after [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]]. Our confession holds that God cannot be represented by any image [[rzg.ambient.emptied-worship-space]] [[as:paraphrase]]. All of this is reasoned from our doctrine, not read off a witness who was standing there [[rzg.limit.material-culture-and-worship-space]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S8",
+ "text": "We cannot describe our worship space, because no source in our record describes it directly. Its size, its furnishing, and the look of its walls are not given. What we can tell you is what we refused: no image to bow to, and no altar built for a sacrifice we no longer offered. A plain table stood in the altar's place. By most accounts, the organ at the Grossmunster in Zurich fell silent in the mid-1520s, and no voice or instrument answered it in worship for years after. Our confession holds that God cannot be represented by any image. All of this is reasoned from our doctrine, not read off a witness who was standing there.",
+ "voice_set_aside": false
+}
