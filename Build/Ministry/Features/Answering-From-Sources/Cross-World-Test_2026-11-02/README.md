@@ -33,6 +33,10 @@ Engine code, directives and read criteria frozen at `main` `a61c37f2` (the merge
 
 Question by question: `ratings/cw_<world>_rated.json` (with `cw_<world>_key.json` for which answer is old or new), `ratings/cw_<world>_offerfit.json`.
 
+## The lpc runs
+
+Every lpc run held by the Engine thread, with the code each ran on and its seed, is in `lpc-runs/INDEX.md` (tarballs of each work folder, the run9 directive patch, the offer and routing analyses and the pages put to Mark).
+
 ## Mechanical notes
 
 - Story markers: the three new worlds' drafting helpers placed no `[[story:id:length]]` markers (no file they were given defined the length values), so the story door was not exercised there. Quote markers were placed.
