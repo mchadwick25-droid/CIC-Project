@@ -74,6 +74,8 @@ def record_pack(record: dict, records: dict[str, dict]) -> str:
     lines = [f"({n}) {t}" for n, t in enumerate(sentences(_voiced_text(record)), start=1)]
     if rider.get("speaker"):
         lines.insert(0, f"quote from {rider['speaker']}")
+    if record.get("record_type") == "passage":
+        lines.insert(0, f"passage from {record.get('source_label')}" + (f", {record['locus']}" if record.get("locus") else "") + ("" if record.get("voiceable") else " (outside our voice)"))
     if means := (record.get("use_note") or {}).get("means"):
         lines.append(f"means: {means}")
     if rider.get("setting"):

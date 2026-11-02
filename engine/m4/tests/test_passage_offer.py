@@ -68,3 +68,9 @@ def test_a_passage_is_cited_under_an_id_the_citation_grammar_reads():
 
 def test_a_passage_with_no_author_or_work_is_not_named_by_its_file():
     assert po.author_work({"file": "npnf101_x.xml"}) == "a writing we hold"
+
+
+def test_the_read_is_shown_who_a_passage_is_from_as_the_voice_was():
+    records = po.records_by_id([_passage("p.b"), _passage("p.a", voiceable=False)])
+    assert verify_step.record_pack(records["p.b"], records).splitlines()[1] == "passage from Cyprian, in Letter 73, 73"
+    assert verify_step.record_pack(records["p.a"], records).splitlines()[1].endswith("(outside our voice)")
