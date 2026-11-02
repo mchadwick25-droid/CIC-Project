@@ -95,9 +95,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9698
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Zwingli tells priests to buy a New Testament in Latin or German and read Matthew, the other gospels,
         Acts and Paul; he names the Gospel 'written by the four evangelists'. Bears on which writings they had and in what
@@ -132,10 +143,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Gloss wrongly says nothing on transmission; the passage names printed Latin and German New Testaments.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:zwingli_latin-works-correspondence-vol1_jackson1912.txt:n14/s36#02
       file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
@@ -151,9 +163,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9425
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel Macauley Jackson (editor)
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble, Walter Lichtenstein, and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912'
+        year: 1912
+      work_date:
+        end: 1522
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522'
+        start: 1510
       fit: partial
       says_and_applies: Zwingli says that, as historians report, Matthew first wrote the Gospel eight years after Christ's
         ascension; before that it was preached from memory. Bears on how the Gospel reached people, inside an argument against
@@ -193,9 +215,9 @@ subquestions:
       rank: 2
       work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises and letters)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C1.S8:
     label: Would Jesus want someone like me; I want to believe
     seeds: []
@@ -224,9 +246,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.7843
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Elijah Waterman
+        source: 'calvin_geneva-catechism_waterman1815.txt line 45: BY THE REV. EUJAH WATERMAN'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_geneva-catechism_waterman1815.txt line 74: 1815.'
+        year: 1815
+      work_date:
+        end: 1545
+        formation_confidence: Widely Accepted
+        source: 'calvin_geneva-catechism_waterman1815.txt line 131: 1545, Calvin observes'
+        start: 1545
       fit: partial
       says_and_applies: The Spirit dwells in hearts, illuminates, seals Christ's benefits, regenerates; gifts in Christ come
         by the Spirit's power.
@@ -257,9 +289,9 @@ subquestions:
       rank: 1
       work: The Catechism of the Church of Geneva
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S5:
     label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
     seeds:
@@ -277,9 +309,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9328
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY BEVERIDGE, ESQ'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        end: 1559
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva, 1st August 1559.'
+        start: 1559
       fit: partial
       says_and_applies: Calvin discusses councils' formulae and the Latin rendering of homoousios, and the variance among
         ancient writers on terms.
@@ -309,9 +351,9 @@ subquestions:
       rank: 1
       work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S6:
     label: Can God be known, felt, experienced; God in nature; God heals
     seeds:
@@ -329,9 +371,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.743
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Elijah Waterman
+        source: 'calvin_geneva-catechism_waterman1815.txt line 45: BY THE REV. EUJAH WATERMAN'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_geneva-catechism_waterman1815.txt line 74: 1815.'
+        year: 1815
+      work_date:
+        end: 1545
+        formation_confidence: Widely Accepted
+        source: 'calvin_geneva-catechism_waterman1815.txt line 131: 1545, Calvin observes'
+        start: 1545
       fit: partial
       says_and_applies: Man's chief good is to know God; without knowing him we are worse off than beasts. This bears on whether
         God can be known.
@@ -360,9 +412,9 @@ subquestions:
       rank: 1
       work: The Catechism of the Church of Geneva
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S7:
     label: Where evil comes from; did God create it
     seeds: []
@@ -382,9 +434,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9053
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY BEVERIDGE, ESQ'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        end: 1559
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva, 1st August 1559.'
+        start: 1559
       fit: direct
       says_and_applies: It states the rule against forming or picturing God; it does not describe what his own community did.
       limits: Does not claim the Reformed never had such images.
@@ -414,9 +476,9 @@ subquestions:
       rank: 1
       work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s2~26#02
       file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
       division_locus: n1/s2~26
@@ -432,9 +494,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.8834
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY BEVERIDGE, ESQ'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        end: 1559
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva, 1st August 1559.'
+        start: 1559
       fit: direct
       says_and_applies: He states that representing God in statues or pictures is wrong; it does not describe whether Reformed
         people actually made any.
@@ -466,9 +538,9 @@ subquestions:
       rank: 2
       work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1/s5~7#02
       file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
       division_locus: n1/s5~7
@@ -483,9 +555,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.8889
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY BEVERIDGE, ESQ'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        end: 1559
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva, 1st August 1559.'
+        start: 1559
       fit: partial
       says_and_applies: It bears on whether God should be shown in images, as an argument; it does not state his own practice
         of picturing or carving God.
@@ -517,9 +599,9 @@ subquestions:
       rank: 3
       work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C3.S1:
     label: Was hell and a last judgment real; how pictured, preached, used
     seeds: []
@@ -545,9 +627,17 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.931
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John King
+        source: 'calvin_commentaries-genesis-vol2_king1847.txt line 271: BY THE REV. JOHN KING, M.A'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_commentaries-genesis-vol2_king1847.txt line 297: M.DCCC.L.'
+        year: 1850
+      work_date:
+        checked: title page and front matter of this volume; no composition date is stated
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Rejects annihilation of souls at death, which bears on the destroyed-versus-tormented question; does
         not discuss the fate of the wicked as destruction or torment after judgment.
@@ -577,9 +667,9 @@ subquestions:
       rank: 1
       work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
       author: calvin
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C3.S5:
     label: 'Right after death: waiting place, Sheol, purgatory, prayer for the dead; ghosts; reincarnation'
     seeds: []
@@ -604,9 +694,23 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9647
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser); revised and annotated by Clarence
+          Nevin Heller (editor)
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was translated by Henry Preble,
+          Esq., of New York,'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929'
+        year: 1929
+      work_date:
+        end: 1525
+        formation_confidence: Widely Accepted
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning the task before the latter
+          part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt line 404: The book came from the
+          press at the end of March, 1525.'
+        start: 1524
       fit: partial
       says_and_applies: 'Modern editor''s summary: the Anabaptists hold that all infants, baptised or not, are saved; Zwingli
         disagrees with their refusal to baptise children. His own claim is cut off.'
@@ -639,9 +743,9 @@ subquestions:
       work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
         the Antibolon)
       author: zwingli
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C3.S8:
     label: 'The end of the world: rapture, Antichrist, ''in your lifetime'''
     seeds: []
@@ -686,9 +790,21 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.981
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth
+        source: 'zwingli_selected-works_jackson1901.txt line 1524: * Works, i. 114-168. Translated from the Zurich German
+          by Lawrence A.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        end: 1523
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 1544: printed 67 Articles as a programme for the debate; zwingli_selected-works_jackson1901.txt
+          line 1545: great eagerness to the time set, which was the 23d of January, 1523.'
+        start: 1523
       fit: direct
       says_and_applies: Zwingli says his preaching rests on Scripture, that he will be corrected only from Scripture, and
         that the Gospel is not invalid without Church confirmation. This bears on Scripture as authority and the basis of
@@ -716,11 +832,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Direct on Scripture as sole authority; nothing on canon or Apocrypha.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Sixty-Seven Articles of Zwingli (1523)
       author: zwingli
-      work_author_basis: unresolved
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C5.S2:
     label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
     seeds: []
@@ -745,9 +861,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9423
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John King
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 291: BY THE REV. JOHN KING, M.A'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 313: M.DCCC.XLVII.'
+        year: 1847
+      work_date:
+        end: 1554
+        formation_confidence: Widely Accepted
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 990: oN GENESIS'
+        start: 1554
       fit: direct
       says_and_applies: Calvin says Moses wrote about the lights in popular style, not as a natural philosopher, and that
         astronomers go deeper. This bears directly on whether Genesis is read as science.
@@ -777,9 +903,9 @@ subquestions:
       rank: 1
       work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:calvin_commentaries-genesis-vol1_king1847.txt:s6~4#02
       file: calvin_commentaries-genesis-vol1_king1847.txt
       division_locus: s6~4
@@ -796,9 +922,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.8562
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John King
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 291: BY THE REV. JOHN KING, M.A'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 313: M.DCCC.XLVII.'
+        year: 1847
+      work_date:
+        end: 1554
+        formation_confidence: Widely Accepted
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 990: oN GENESIS'
+        start: 1554
       fit: partial
       says_and_applies: Calvin says the creation account serves ordinary people and the waters meant are those they can perceive;
         this bears on how Genesis 1 is read. The editor's note covers the Hebrew word.
@@ -828,9 +964,9 @@ subquestions:
       rank: 2
       work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C5.S5:
     label: Revelation and the end
     seeds: []
@@ -861,9 +997,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 1.0
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+        year: 1846
+      work_date:
+        checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's footnote mentions the
+          1559 Geneva edition, no composition date for Book IV
+        formation_confidence: unknown
       fit: direct
       says_and_applies: 'Says how pastors are chosen: other pastors preside and the people consent and approve, bearing on
         who chooses leaders.'
@@ -895,9 +1040,9 @@ subquestions:
       work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
         Society of Christ, and Keeps Us in It)
       author: calvin
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C6.S2:
     label: The pope and Rome; Peter and 'on this rock'
     seeds: []
@@ -927,9 +1072,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9383
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel Macauley Jackson (editor)
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble, Walter Lichtenstein, and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912'
+        year: 1912
+      work_date:
+        end: 1522
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522'
+        start: 1510
       fit: direct
       says_and_applies: Zwingli says deacons are helpers of the bishops who, per Paul, should be husbands of one wife, and
         a priest should be given a wife. Bears on married clergy and what deacons were.
@@ -964,9 +1119,9 @@ subquestions:
       rank: 1
       work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises and letters)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:zwingli_latin-works-correspondence-vol1_jackson1912.txt:n13/line8201#01
       file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
       division_locus: n13/line8201
@@ -981,9 +1136,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9297
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel Macauley Jackson (editor)
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble, Walter Lichtenstein, and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912'
+        year: 1912
+      work_date:
+        end: 1522
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522'
+        start: 1510
       fit: direct
       says_and_applies: Zwingli says a priest troubled with desire should take a wife, since Paul excepts no one. Bears directly
         on whether a priest could be married.
@@ -1017,9 +1182,9 @@ subquestions:
       rank: 2
       work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises and letters)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line11572/s23#01
       file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
       division_locus: line11572/s23
@@ -1033,9 +1198,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9642
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+        year: 1846
+      work_date:
+        checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's footnote mentions the
+          1559 Geneva edition, no composition date for Book IV
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Says priests may marry and cites 1 Timothy that a bishop be the husband of one wife; speaks to married
         clergy, not deacons or deaconesses.
@@ -1065,9 +1239,9 @@ subquestions:
       work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
         Society of Christ, and Keeps Us in It)
       author: calvin
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:zwingli_latin-works-correspondence-vol1_jackson1912.txt:n13/line8398#01
       file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
       division_locus: n13/line8398
@@ -1083,9 +1257,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9589
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel Macauley Jackson (editor)
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble, Walter Lichtenstein, and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912'
+        year: 1912
+      work_date:
+        end: 1522
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522'
+        start: 1510
       fit: partial
       says_and_applies: Quotes canons that treat a married priest as offering the sacrifice and condemn despising marriage.
         Bears on the married priest.
@@ -1119,9 +1303,9 @@ subquestions:
       rank: 4
       work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises and letters)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:zwingli_selected-works_jackson1901.txt:line956#01
       file: zwingli_selected-works_jackson1901.txt
       division_locus: line956
@@ -1137,9 +1321,20 @@ subquestions:
         state: known
         name: zwingli
       ocr_score: 0.9392
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Editor's note says the signers, including Zwingli, wanted legal marriage for priests and asked that
         married priests be protected. It bears on married clergy only, not on deacons or deaconesses.
@@ -1168,11 +1363,12 @@ subquestions:
           can_be_voiced_as_own: false
       reader_note: Editor Jackson's note on the 1522 petition, not Zwingli's words.
       rank: 5
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C6.S7:
     label: The emperor's say in belief
     seeds: []
@@ -1200,9 +1396,22 @@ subquestions:
         state: known
         name: kirk-of-scotland
       ocr_score: 0.8983
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: George W. Sprott and Thomas Leishman (editors)
+        source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt line 69: REV. GEORGE
+          W. SPROTT, B.A., and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt line 77: 1868'
+        year: 1868
+      work_date:
+        end: 1564
+        formation_confidence: Inferential-Thin
+        source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt line 521: In 1554,
+          some English Protestants, flying from the; kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+          line 593: additions. . Between 1562 and 1564 it was modified and'
+        start: 1554
       fit: direct
       says_and_applies: The order has infants baptised at the church, presented after the sermon by the father and godfather.
         This bears on infant baptism and on how a child was received.
@@ -1232,9 +1441,9 @@ subquestions:
       rank: 1
       work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland)
       author: kirk-of-scotland
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:line1206/line1268#01
       file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
       division_locus: line1206/line1268
@@ -1250,9 +1459,22 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9714
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Philip Schaff (editor/compiler)
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip Schaff (Editor/compiler of
+          the volume'
+      edition_date:
+        checked: the file prints only "1919 printing (orig. 1877)" in its library header, which is a printing year; no title
+          page or preface year for the text itself
+        formation_confidence: unknown
+      work_date:
+        end: 1564
+        formation_confidence: Widely Accepted
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 193: Bullinger composed the Second Helvetic
+          Confession in 1562; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 197: 1562). Two years afterwards
+          he elaborated it more fully'
+        start: 1562
       fit: partial
       says_and_applies: Schaff's condensed summary of the Second Helvetic Confession says baptism enrols a person into the
         covenant and God's family and is a lifelong seal; nothing on infants or mode.
@@ -1280,11 +1502,11 @@ subquestions:
       reader_note: Schaff's version is abridged; page header inside the text. | Schaff's abridged paraphrase in his own words,
         not the Confession's text; cannot be voiced as Bullinger.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work: The Second Helvetic Confession (1566)
+      author: bullinger
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S2:
     label: 'The meal: what happened, how often, real presence or symbol, who was refused'
     seeds:
@@ -1303,9 +1525,22 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9138
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: George W. Sprott and Thomas Leishman (editors)
+        source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt line 69: REV. GEORGE
+          W. SPROTT, B.A., and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt line 77: 1868'
+        year: 1868
+      work_date:
+        end: 1564
+        formation_confidence: Inferential-Thin
+        source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt line 521: In 1554,
+          some English Protestants, flying from the; kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+          line 593: additions. . Between 1562 and 1564 it was modified and'
+        start: 1554
       fit: direct
       says_and_applies: Frequency is stated as once a month or as the Congregation thinks fit. The Pauline words speak of
         the bread and cup in remembrance of Christ.
@@ -1334,9 +1569,9 @@ subquestions:
       rank: 1
       work: The Book of Common Order (the Forme of Prayers of the English congregation at Geneva, 1556, as adopted in Scotland)
       author: kirk-of-scotland
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S3:
     label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
     seeds:
@@ -1353,9 +1588,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.8387
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Elijah Waterman
+        source: 'calvin_geneva-catechism_waterman1815.txt line 45: BY THE REV. EUJAH WATERMAN'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_geneva-catechism_waterman1815.txt line 74: 1815.'
+        year: 1815
+      work_date:
+        end: 1545
+        formation_confidence: Widely Accepted
+        source: 'calvin_geneva-catechism_waterman1815.txt line 131: 1545, Calvin observes'
+        start: 1545
       fit: partial
       says_and_applies: Prayer, called invocation, is turning to God in all necessities, and only God is to be invoked. This
         bears on why people prayed.
@@ -1385,9 +1630,9 @@ subquestions:
       rank: 1
       work: The Catechism of the Church of Geneva
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S4:
     label: 'Worship in the room: singing and instruments, buildings, images, posture, preaching'
     seeds: []
@@ -1412,9 +1657,22 @@ subquestions:
         state: unknown
         name: null
       ocr_score: 0.8711
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Philip Schaff (editor/compiler)
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip Schaff (Editor/compiler of
+          the volume'
+      edition_date:
+        checked: the file prints only "1919 printing (orig. 1877)" in its library header, which is a printing year; no title
+          page or preface year for the text itself
+        formation_confidence: unknown
+      work_date:
+        end: 1564
+        formation_confidence: Widely Accepted
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 193: Bullinger composed the Second Helvetic
+          Confession in 1562; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 197: 1562). Two years afterwards
+          he elaborated it more fully'
+        start: 1562
       fit: direct
       says_and_applies: The Lord's day is kept for worship and rest in Christian freedom, without Jewish superstition, no
         day holier in itself. Commemorating Christ's nativity, resurrection and other feasts is approved; saints' feasts rejected.
@@ -1443,11 +1701,11 @@ subquestions:
       reader_note: Schaff's version is abridged; page header inside the text. | Schaff's condensed English summary of the
         Confession in confessional 'we', not Bullinger's own wording; cannot be quoted as the Confession.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work: The Second Helvetic Confession (1566)
+      author: bullinger
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S7:
     label: Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor
     seeds:
@@ -1466,9 +1724,20 @@ subquestions:
         state: known
         name: zwingli
       ocr_score: 0.9387
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: direct
       says_and_applies: Zwingli says Christ alone is intercessor, in answer to the Vicar on prayer to saints and the mother
         of God. This bears on praying to Mary and the saints.
@@ -1496,11 +1765,12 @@ subquestions:
       reader_note: Starts with a fragment about a Latinist and ends mid-sentence. | Opens with the Vicar's (opponent's) closing
         words and a stray footnote, then a minuted report of Zwingli's reply; ends mid-sentence.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S8:
     label: Did the practices go back to the apostles
     seeds: []
@@ -1527,9 +1797,23 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9667
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser); revised and annotated by Clarence
+          Nevin Heller (editor)
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was translated by Henry Preble,
+          Esq., of New York,'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929'
+        year: 1929
+      work_date:
+        end: 1525
+        formation_confidence: Widely Accepted
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning the task before the latter
+          part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt line 404: The book came from the
+          press at the end of March, 1525.'
+        start: 1524
       fit: partial
       says_and_applies: Zwingli notes the apostles tell slaves to obey and believing masters to be kind. He argues that if
         a slaveholder could be Christian, so can a magistrate, adding that having slaves is nearer cruelty.
@@ -1593,9 +1877,9 @@ subquestions:
       work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
         the Antibolon)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C8.S4:
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
     seeds: []
@@ -1615,9 +1899,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9621
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+        year: 1846
+      work_date:
+        checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's footnote mentions the
+          1559 Geneva edition, no composition date for Book IV
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Calvin says excessive admiration of virginity lessened marriage's dignity and that early bishops could
         marry. Bears on virginity versus marriage, as history.
@@ -1669,8 +1962,8 @@ subquestions:
       work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
         Society of Christ, and Keeps Us in It)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:zwingli_selected-works_jackson1901.txt:line1279#02
       file: zwingli_selected-works_jackson1901.txt
@@ -1686,9 +1979,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9644
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Zwingli says one must live chastely or marry, and that passion is a sufficient reason for marriage.
         Bears on sex outside marriage and virginity versus marriage.
@@ -1739,10 +2043,11 @@ subquestions:
       reader_note: Argues against compulsory clerical celibacy, not ranking of virginity; voice is the plural petition of
         Zwingli and fellow priests.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:zwingli_selected-works_jackson1901.txt:line1355#01
       file: zwingli_selected-works_jackson1901.txt
@@ -1758,9 +2063,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9576
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Zwingli says forbidding marriage is a mark of false teaching and cites Hebrews that marriage is honourable
         and the bed undefiled. Bears on marriage not being bad and on fornication.
@@ -1811,10 +2127,11 @@ subquestions:
       reader_note: Argument is for clerical marriage against enforced celibacy; Heb 13:4 is cited for that, not a statement
         on sex within marriage generally.
       rank: 3
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:calvin_institutes-christian-religion-vol3_beveridge1845.txt:line11572/s28#01
       file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
@@ -1830,9 +2147,18 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9276
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+        year: 1846
+      work_date:
+        checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's footnote mentions the
+          1559 Geneva edition, no composition date for Book IV
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Calvin cites Chrysostom ranking virginity first and marriage second, while defending priests' marriage.
         Bears on virginity versus marriage, not stated as Calvin's own ranking.
@@ -1886,8 +2212,8 @@ subquestions:
       work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
         Society of Christ, and Keeps Us in It)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
   C8.S6:
     label: Gay people and same-sex relations (never faced as asked)
@@ -1922,9 +2248,22 @@ subquestions:
         state: unknown
         name: null
       ocr_score: 0.8865
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Philip Schaff (editor/compiler)
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip Schaff (Editor/compiler of
+          the volume'
+      edition_date:
+        checked: the file prints only "1919 printing (orig. 1877)" in its library header, which is a printing year; no title
+          page or preface year for the text itself
+        formation_confidence: unknown
+      work_date:
+        end: 1564
+        formation_confidence: Widely Accepted
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 193: Bullinger composed the Second Helvetic
+          Confession in 1562; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 197: 1562). Two years afterwards
+          he elaborated it more fully'
+        start: 1562
       fit: partial
       says_and_applies: It says Christians may hold office, magistrates may punish by death, and wars are justified only in
         self-defense. It also says to pray for princes and rulers. Bears on soldiers, judges and the death penalty.
@@ -1958,11 +2297,11 @@ subquestions:
         the Confession's words (e.g. 'only in self-defense' is his paraphrase); starts mid-sentence; ends with Schaff's own
         footnote on persecuting heretics.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work: The Second Helvetic Confession (1566)
+      author: bullinger
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C9.S4:
     label: Soldiers, war, judges, the death penalty, 'render unto Caesar'
     seeds:
@@ -1979,9 +2318,22 @@ subquestions:
         state: unknown
         name: null
       ocr_score: 0.8865
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Philip Schaff (editor/compiler)
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip Schaff (Editor/compiler of
+          the volume'
+      edition_date:
+        checked: the file prints only "1919 printing (orig. 1877)" in its library header, which is a printing year; no title
+          page or preface year for the text itself
+        formation_confidence: unknown
+      work_date:
+        end: 1564
+        formation_confidence: Widely Accepted
+        source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 193: Bullinger composed the Second Helvetic
+          Confession in 1562; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 197: 1562). Two years afterwards
+          he elaborated it more fully'
+        start: 1562
       fit: direct
       says_and_applies: It says Christians may hold office, magistrates may punish by death, and wars are justified only in
         self-defense. It also says to pray for princes and rulers. Bears on soldiers, judges and the death penalty.
@@ -1998,11 +2350,11 @@ subquestions:
         the Confession's words (e.g. 'only in self-defense' is his paraphrase); starts mid-sentence; ends with Schaff's own
         footnote on persecuting heretics.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work: The Second Helvetic Confession (1566)
+      author: bullinger
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C9.S5:
     label: 'Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer''s
       side'
@@ -2026,9 +2378,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9028
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John King
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 291: BY THE REV. JOHN KING, M.A'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 313: M.DCCC.XLVII.'
+        year: 1847
+      work_date:
+        end: 1554
+        formation_confidence: Widely Accepted
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 990: oN GENESIS'
+        start: 1554
       fit: direct
       says_and_applies: Calvin rejects the view that poverty is the only gate of heaven and that the rich are shut out, but
         warns riches can hinder. Bears on whether wealth is a sin.
@@ -2081,9 +2443,9 @@ subquestions:
       rank: 1
       work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:zwingli_latin-works-correspondence-vol3_heller1929.txt:b8/line6970#01
       file: zwingli_latin-works-correspondence-vol3_heller1929.txt
       division_locus: b8/line6970
@@ -2098,9 +2460,23 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9599
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser); revised and annotated by Clarence
+          Nevin Heller (editor)
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was translated by Henry Preble,
+          Esq., of New York,'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929'
+        year: 1929
+      work_date:
+        end: 1525
+        formation_confidence: Widely Accepted
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning the task before the latter
+          part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt line 404: The book came from the
+          press at the end of March, 1525.'
+        start: 1524
       fit: partial
       says_and_applies: 'Zwingli cites Luke 9 and 14: all must leave everything and follow Christ, renouncing all they have.
         He then asks what renouncing riches is worth without renouncing the sins for which riches are scorned.'
@@ -2155,9 +2531,9 @@ subquestions:
       work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
         the Antibolon)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -2184,9 +2560,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.8948
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Marcus Robert Gilchrist
+        source: 'calvin_letters-vol4_bonnet1858.txt line 75: MARCUS ROBERT GILCHRIST.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_letters-vol4_bonnet1858.txt line 84: in the year 1858'
+        year: 1858
+      work_date:
+        end: 1564
+        formation_confidence: Documented
+        source: 'calvin_letters-vol4_bonnet1858.txt line 17443: Pauis, 1534.; calvin_letters-vol4_bonnet1858.txt line 16760:
+          Geneva, 2nd May, 1564.'
+        start: 1534
       fit: direct
       says_and_applies: On ministers lending at interest, Calvin dares not call it unlawful. Safest to abstain, given scandal
         and excess, but since it is more bearable than trade he would not condemn it in general.
@@ -2220,9 +2607,9 @@ subquestions:
       rank: 1
       work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical Notes, Vol. IV
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:calvin_letters-vol4_bonnet1858.txt:line11733#02
       file: calvin_letters-vol4_bonnet1858.txt
       division_locus: line11733
@@ -2237,9 +2624,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9347
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Marcus Robert Gilchrist
+        source: 'calvin_letters-vol4_bonnet1858.txt line 75: MARCUS ROBERT GILCHRIST.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_letters-vol4_bonnet1858.txt line 84: in the year 1858'
+        year: 1858
+      work_date:
+        end: 1564
+        formation_confidence: Documented
+        source: 'calvin_letters-vol4_bonnet1858.txt line 17443: Pauis, 1534.; calvin_letters-vol4_bonnet1858.txt line 16760:
+          Geneva, 2nd May, 1564.'
+        start: 1534
       fit: partial
       says_and_applies: Calvin wishes lenders would not seek a fixed profit, but lend to an honest merchant and trust him
         to make an equitable gain from it if God prospers his work.
@@ -2274,9 +2672,9 @@ subquestions:
       rank: 2
       work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical Notes, Vol. IV
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C10.S6:
     label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
     seeds: []
@@ -2299,9 +2697,19 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9582
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John King
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 291: BY THE REV. JOHN KING, M.A'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 313: M.DCCC.XLVII.'
+        year: 1847
+      work_date:
+        end: 1554
+        formation_confidence: Widely Accepted
+        source: 'calvin_commentaries-genesis-vol1_king1847.txt line 990: oN GENESIS'
+        start: 1554
       fit: partial
       says_and_applies: Calvin remarks in passing that the Jews' blindness is well known; the rest of the passage concerns
         justification by faith.
@@ -2331,9 +2739,9 @@ subquestions:
       rank: 1
       work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
       author: calvin
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C11.S2:
     label: Pagans and their gods; eating and festivals with them; getting along with Rome
     seeds: []
@@ -2355,9 +2763,23 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 1.0
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser); revised and annotated by Clarence
+          Nevin Heller (editor)
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was translated by Henry Preble,
+          Esq., of New York,'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929'
+        year: 1929
+      work_date:
+        end: 1525
+        formation_confidence: Widely Accepted
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning the task before the latter
+          part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt line 404: The book came from the
+          press at the end of March, 1525.'
+        start: 1524
       fit: direct
       says_and_applies: Zwingli favours Plato, Seneca and Cicero as having uttered certain truths, received from God; theologians
         who rely on philosophers' inventions are scorned.
@@ -2392,9 +2814,9 @@ subquestions:
       work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
         the Antibolon)
       author: zwingli
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C11.S4:
     label: Muslims (worlds after 632 only)
     seeds:
@@ -2414,9 +2836,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9243
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+        year: 1846
+      work_date:
+        checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's footnote mentions the
+          1559 Geneva edition, no composition date for Book IV
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Index says Mahometans denounce idolatry yet substitute an idol for God, pointing to vol. i p. 403;
         it bears on what Calvin made of Muslims.
@@ -2447,9 +2878,9 @@ subquestions:
       work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
         Society of Christ, and Keeps Us in It)
       author: calvin
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C11.S5:
     label: Can a good pagan or person of another religion be saved; one way; does God accept all worship
     seeds: []
@@ -2475,9 +2906,23 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 1.0
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser); revised and annotated by Clarence
+          Nevin Heller (editor)
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was translated by Henry Preble,
+          Esq., of New York,'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929'
+        year: 1929
+      work_date:
+        end: 1525
+        formation_confidence: Widely Accepted
+        source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning the task before the latter
+          part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt line 404: The book came from the
+          press at the end of March, 1525.'
+        start: 1524
       fit: partial
       says_and_applies: Zwingli favours Plato, Seneca and Cicero as having uttered certain truths, received from God; theologians
         who rely on philosophers' inventions are scorned.
@@ -2495,9 +2940,9 @@ subquestions:
       work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of True and False Religion, and
         the Antibolon)
       author: zwingli
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
+      shelf_binding: row narrowed by locus_ids to this division
   C12.S1:
     label: An ordinary day; food and drink; fun, dancing, baths and games; rest
     seeds:
@@ -2516,9 +2961,17 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9362
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John King
+        source: 'calvin_commentaries-genesis-vol2_king1847.txt line 271: BY THE REV. JOHN KING, M.A'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_commentaries-genesis-vol2_king1847.txt line 297: M.DCCC.L.'
+        year: 1850
+      work_date:
+        checked: title page and front matter of this volume; no composition date is stated
+        formation_confidence: unknown
       fit: partial
       says_and_applies: It bears on food and wine only as a doctrine of lawful use; no account of what people ate or drank.
       limits: Does not say what they ate, who ate with them, or anything on dancing, baths or Sunday.
@@ -2569,8 +3022,8 @@ subquestions:
       rank: 1
       work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
   C12.S2:
     label: Houses, clothes, language at home and in prayer
@@ -2609,9 +3062,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 1.0
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 392: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 401: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        checked: title page, translator's preface area (lines 1-420), Calvin Translation Society reports and text; no composition
+          date stated for Books II-III
+        formation_confidence: unknown
       fit: direct
       says_and_applies: Satan is the enemy who lays snares for our life, armed by sin; we have no strength against him and
         ask God to rescue us from his power as from a raging lion.
@@ -2659,8 +3121,8 @@ subquestions:
       work: Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining
         the Grace of Christ)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:calvin_letters-vol4_bonnet1858.txt:line19694#01
       file: calvin_letters-vol4_bonnet1858.txt
@@ -2676,9 +3138,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9525
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Marcus Robert Gilchrist
+        source: 'calvin_letters-vol4_bonnet1858.txt line 75: MARCUS ROBERT GILCHRIST.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_letters-vol4_bonnet1858.txt line 84: in the year 1858'
+        year: 1858
+      work_date:
+        end: 1564
+        formation_confidence: Documented
+        source: 'calvin_letters-vol4_bonnet1858.txt line 17443: Pauis, 1534.; calvin_letters-vol4_bonnet1858.txt line 16760:
+          Geneva, 2nd May, 1564.'
+        start: 1534
       fit: partial
       says_and_applies: Calvin, writing to Macar in April 1558 as Charles Passelius, says the devil, father of all lies, will
         strive to overwhelm them with odium but gain nothing; God will not let his children be tempted beyond endurance.
@@ -2727,9 +3200,9 @@ subquestions:
       rank: 2
       work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical Notes, Vol. IV
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C13.S2:
     label: Demons, sickness, exorcists, Antony in the tombs
     seeds:
@@ -2746,9 +3219,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.9153
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+        year: 1846
+      work_date:
+        checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's footnote mentions the
+          1559 Geneva edition, no composition date for Book IV
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Calvin says ordained exorcists have never shown their power over demons, and rejects the office. Bears
         on whether exorcists existed as a job.
@@ -2788,8 +3270,8 @@ subquestions:
       work: Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us into the
         Society of Christ, and Keeps Us in It)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
   C13.S3:
     label: Miracles seen or heard; true from false; 'fairy tales'
@@ -2808,9 +3290,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9728
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel Macauley Jackson (editor)
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble, Walter Lichtenstein, and'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912'
+        year: 1912
+      work_date:
+        end: 1522
+        formation_confidence: Documented
+        source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522'
+        start: 1510
       fit: direct
       says_and_applies: Signs and wonders mark false prophets, and Zwingli does not readily believe signs. Speaks to telling
         a false prophet from a true one.
@@ -2857,9 +3349,9 @@ subquestions:
       rank: 1
       work: The Latin Works and the Correspondence of Huldreich Zwingli, Vol. I (early treatises and letters)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:calvin_institutes-christian-religion-vol1_beveridge1845.txt:n1~8#02
       file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
       division_locus: n1~8
@@ -2874,9 +3366,19 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.8936
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY BEVERIDGE, ESQ'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        end: 1559
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva, 1st August 1559.'
+        start: 1559
       fit: direct
       says_and_applies: Calvin says miracles alone do not prove truth; those drawing people from true worship are Satan's
         delusions. Speaks to telling true from false.
@@ -2923,9 +3425,9 @@ subquestions:
       rank: 2
       work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
-      window: 'unknown: the row gives no dated window'
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C13.S4:
     label: Angels and guardian angels
     seeds: []
@@ -2945,9 +3447,20 @@ subquestions:
         state: known
         name: zwingli
       ocr_score: 0.9907
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: direct
       says_and_applies: Zwingli says invocation and intercession of saints is not shown in scripture; only Christ is to be
         invoked. Speaks to praying to saints.
@@ -2994,10 +3507,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Starts mid-sentence.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s23~10#01
       file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
@@ -3012,9 +3526,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.924
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 392: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 401: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        checked: title page, translator's preface area (lines 1-420), Calvin Translation Society reports and text; no composition
+          date stated for Books II-III
+        formation_confidence: unknown
       fit: direct
       says_and_applies: Calvin denies Scripture gives departed saints an intercessory office and says angels hold the office
         of watching over us. Bears on whether dead saints help.
@@ -3064,8 +3587,8 @@ subquestions:
       work: Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining
         the Grace of Christ)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:calvin_institutes-christian-religion-vol2_beveridge1845.txt:s27~6#02
       file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
@@ -3080,9 +3603,18 @@ subquestions:
         state: known
         name: calvin
       ocr_score: 0.8983
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Henry Beveridge
+        source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 392: BY HENRY BEVERIDGE, ESQ.'
+      edition_date:
+        formation_confidence: Documented
+        source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 401: M.DCCC.XLV.'
+        year: 1845
+      work_date:
+        checked: title page, translator's preface area (lines 1-420), Calvin Translation Society reports and text; no composition
+          date stated for Books II-III
+        formation_confidence: unknown
       fit: direct
       says_and_applies: Calvin says Scripture never commands the dead to pray for us, and that seeking saints' intercession
         is superstition born of distrust that leaves nothing to Christ. Bears on praying to saints.
@@ -3132,8 +3664,8 @@ subquestions:
       work: Institutes of the Christian Religion, Books II-III (Of the Knowledge of God the Redeemer; Of the Mode of Obtaining
         the Grace of Christ)
       author: calvin
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:zwingli_selected-works_jackson1901.txt:line2709#02
       file: zwingli_selected-works_jackson1901.txt
@@ -3149,9 +3681,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9778
-      translator: 'unresolved: 1 rows disagree'
-      edition_date: 'unresolved: 1 rows disagree'
-      work_date: 'unresolved: 1 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+        source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence A. McLouth; zwingli_selected-works_jackson1901.txt
+          line 49: York University, and the Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+          George W. Gilmore'
+      edition_date:
+        formation_confidence: Documented
+        source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University of Pennsylvania, 1901'
+        year: 1901
+      work_date:
+        checked: table of contents (lines 275-290) dates the items individually, April 1522 to 1527; no single date for the
+          collection, so none is given
+        formation_confidence: unknown
       fit: partial
       says_and_applies: Zwingli says the age of a custom is not the question; he grants the litany dates from Gregory and
         asks for the Scripture behind praying to saints. Bears on intercession only.
@@ -3199,10 +3742,11 @@ subquestions:
       reader_note: Ends mid-sentence; trailing bracketed footnote is Faber's (opponent's) words. Gloss overstated 'the practice
         began later' (text is conditional).
       rank: 4
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Selected Works (letter to Erasmus; the petition to the Bishop of Constance on clerical marriage; the Acts of the
+        First and Second Zurich Disputations; the 1527 Refutation of the Tricks of the Baptists; and other shorter writings)
       author: zwingli
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
   C13.S6:
     label: Magic, amulets, curses, the evil eye

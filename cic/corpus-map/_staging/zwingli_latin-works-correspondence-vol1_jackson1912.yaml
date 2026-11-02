@@ -12,6 +12,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {end: 1522, formation_confidence: Documented, source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522', start: 1510}
+    translator: {formation_confidence: Documented, name: 'Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel Macauley Jackson (editor)', source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble, Walter Lichtenstein, and'}
+    edition_date: {formation_confidence: Documented, source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912', year: 1912}
     note: >
       A second, independent volume of Zwingli's own voice alongside the
       Selected Works (Jackson 1901) - not individually itemized by work
