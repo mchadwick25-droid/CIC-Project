@@ -2753,3 +2753,11 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open.** C11.S5 (a good pagan or another religion saved) found nothing that bears on it and stays empty. C4.S6 (those who never heard) found one seed. The search works where the question has distinctive words (usury, wealth, married clergy, the devil) and badly where it is abstract.
 - **Open.** Not seeded, by kind: Facilitator-ground and system questions (C8.S8, C14.S9, C17.S1, S2, S6, S7), pressing and invention questions (C17.S3 to S5), modern-issue questions (C15.S1 to S8), the Representative's own beginnings (C6.S9), a period after 632 (C11.S4), and archaeology (C12.S8).
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-160. Passage seeds, phase 2 batch 2, and work, author and translator on each seed (2026-11-02).
+
+- **Done.** Batch 2 searched 17 concrete sub-questions (free keyword search, no model call). 15 are now seeded; C12.S6 and C1.S6 found nothing that bears on them and stay empty. The file now holds 119 seeds (32 voiceable, 87 etic) for 45 of the 130 sub-questions. 124 candidates were read by Sonnet and 87 of those by Opus (every voiceable candidate, every other passage the first reader rated direct or partial, and a random sample of the rest); Opus lowered the fit of 22 and moved 12 candidates from voiceable to etic.
+- **Done.** Each seed now carries `work` and `author` from the corpus-map row narrowed by its `locus_ids` to the passage's division. Set on 96 of 119 seeds. Translator, edition year and work date use the same narrowed row, which supersedes the unresolved counts in OG-158: set on 69 seeds, unresolved on 50.
+- **Open.** 23 seeds have no work or author, because the passage binds to several works and the rows cannot narrow it (the Seven Ecumenical Councils canons and similar). Same cause as OG-155; fixing it is a row-level change, not a seed change.
+- **Open.** The sub-questions linked by the question repository to the 28 sealed canon cells number 58; 42 have no passage seed, 38 of them because phase 2 so far targeted only sub-questions with no sidecar record (C1.S1 to S5, S8; C2.S2, S5, S6; C4.S1, S2, S5; C14.S1 to S8 and others), and 4 have no record and no seed (C11.S5, C11.S8, C12.S6, C12.S8).
+- **Owner.** Library thread, through the coordination thread.
