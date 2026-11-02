@@ -147,3 +147,10 @@ def test_an_offer_is_not_built_from_a_seed_made_against_another_index(tmp_path):
 def test_a_passage_whose_span_differs_from_the_index_is_not_offered(tmp_path):
     got, report = _offered(tmp_path, _hit("a", 0, 11))
     assert got == [] and len(report["unresolved"]) == 1
+
+
+def test_an_anonymous_work_is_named_as_an_anonymous_writing(tmp_path):
+    got, _ = _offered(tmp_path, _hit("a", 0, 10, author="anonymous", author_slug="acta-cypriani", speaker={"state": "mixed", "name": None}, work="The Acts of Cyprian", voice="etic"))
+    assert got[0]["anonymous"] is True and got[0]["author_name"] is None
+    assert po.author_work(got[0]) == "an anonymous writing, The Acts of Cyprian"
+    assert po.record_for(got[0])["source_label"] == "an anonymous writing, The Acts of Cyprian"

@@ -89,7 +89,8 @@ def build_offer(seed: dict, db_path: Path, seed_bytes: bytes | None = None) -> t
                 report["duplicates"] += 1
                 continue
             speaker = hit.get("speaker") or {}
-            author = _name(_set(speaker.get("name")) or _set(hit.get("author")))
+            anonymous = _set(hit.get("author")) == "anonymous"
+            author = None if anonymous else _name(_set(speaker.get("name")) or _set(hit.get("author")))
             work = _set(hit.get("work"))
             if not author and not work:
                 report["no_source_label"] += 1
@@ -105,7 +106,7 @@ def build_offer(seed: dict, db_path: Path, seed_bytes: bytes | None = None) -> t
                 "tag": tag, "passage_id": row["passage_id"], "file": row["file"], "text": row["text"], "word_count": row["word_count"],
                 "locus": " ".join(x for x in (row["division_locus"], row["division_title"]) if x) or None,
                 "speaker_state": row["speaker_state"], "ocr_score": row["ocr_score"], "role": hit.get("role"),
-                "work": work, "author_name": author, "date": _date_text(hit.get("work_date")), "window": hit.get("window"),
+                "work": work, "author_name": author, "anonymous": anonymous, "date": _date_text(hit.get("work_date")), "window": hit.get("window"),
                 "fit": hit.get("fit"), "rank": hit.get("rank"), "voiceable": voiceable,
                 "byte_start": row["byte_start"], "byte_end": row["byte_end"],
             })

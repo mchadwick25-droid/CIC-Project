@@ -37,8 +37,10 @@ def load_offer(path: Path) -> dict:
 
 
 def author_work(passage: dict) -> str | None:
-    """How the voice names the passage's source: author and work, or whichever is named; None when neither is."""
+    """How the voice names the passage's source: author and work, an anonymous writing and its work, or whichever is named; None when neither is."""
     author, work = passage.get("author_name"), passage.get("work")
+    if passage.get("anonymous") and work:
+        return f"an anonymous writing, {work}"
     if author and work:
         return f"{author}, in {work}"
     return work or author
