@@ -35,6 +35,7 @@ VERIFY_CRITERIA = (
     "them, with the same speaker and the same force. It is not supported if it adds a detail, drops or adds a negation, "
     "states a Contested or inferential point as settled, widens the years or the place a record limits itself to, states as "
     "the whole tradition's what one author says, or uses a word like \"the bishop\" for a person the records do not name. "
+    "A sentence bound to several records is judged against all of them taken together: it is supported only if every assertion in it is stated in those records together or follows closely from them together; whatever they together do not support is not supported. "
     "A sentence that only frames the answer and claims nothing is supported. A word that refers back to something (he, they, \"them\", \"the others\", \"it\") "
     "must name, through the sentence before it, the very person or thing the records say it of; if the records cannot settle it, "
     "or the sentence before points to something else, it is not supported (unresolved_referent). A claim of exclusivity or absence (\"only\", \"never\", \"none\", \"nothing\") is supported only if a bound record states that exclusivity or absence; a record that merely names the thing does not. Each record may carry a MUST NOT ASSERT line: a sentence that "

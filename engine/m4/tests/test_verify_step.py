@@ -103,3 +103,9 @@ def test_the_judge_holds_a_sentence_to_the_sources_hedge_and_date():
     assert "keeps its records' own hedge, concession and date" in vs.VERIFY_CRITERIA
     assert "only allowed, supposed or conceded (stronger_force)" in vs.VERIFY_CRITERIA and "(dropped_scope)" in vs.VERIFY_CRITERIA
     assert "a span of years a record is limited to is not such a tie" in vs.VERIFY_CRITERIA
+
+
+def test_a_sentence_bound_to_several_records_is_judged_against_all_of_them_together():
+    assert "judged against all of them taken together" in vs.VERIFY_CRITERIA
+    assert "whatever they together do not support is not supported" in vs.VERIFY_CRITERIA
+    assert "narrower scope" in vs.VERIFY_CRITERIA

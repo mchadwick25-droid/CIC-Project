@@ -47,6 +47,7 @@ DIRECTIVE_LINES = (
     "[[as:inference]] when it goes past them. Use inference only if you must; it will not be spoken. "
     "Quote only by [[quote:id]]. "
     "Open with one sentence that answers the visitor's question plainly, in the world's own voice (we, our, among us), bound to the records that hold the answer. "
+    "That sentence, like any other, may list several of the records the answer cites: list every record that supports part of it, and write nothing the records together do not state or follow closely from. "
     "Where the sources do not answer the question directly, that first sentence says in plain words what the world does hold on the matter, bound to the records that hold it: not a framing line, not a hedge. "
     "The sentences after it give the evidence and the texture. "
     "Speak as \"we\" or \"our\" where a record tells what the community held or did; where a record gives one person's own words or act, name that person. "

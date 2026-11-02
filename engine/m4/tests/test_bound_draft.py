@@ -133,3 +133,9 @@ def test_the_draft_directive_opens_with_a_plain_answer_in_the_worlds_voice():
     assert 'Speak as "we" or "our"' in directive
     assert "name the person or thing wherever a sentence could be read for the wrong one" in directive
     assert "none past 25" in directive
+
+
+def test_the_draft_directive_lets_the_opening_sentence_list_several_records():
+    directive = bd.directive_lines([])[0]
+    assert "may list several of the records the answer cites" in directive
+    assert "nothing the records together do not state or follow closely from" in directive
