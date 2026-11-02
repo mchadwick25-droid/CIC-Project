@@ -92,8 +92,67 @@ works:
   work: The Second Helvetic Confession (1566)
   author: bullinger
   locus: Sec. 55 of the source volume (original pp. 390-421)
+  locus_ids:
+  - front
+  - line80
+  - line186
+  - line204
+  - line269
+  - line283
+  - line374/line374
+  - line374/line392
+  - line374/line418
+  - line374/line450
+  - line374/line469
+  - line374/line490
+  - line374/line510
+  - line374/line540
+  - line374/line558
+  - line374/line581
+  - line374/line601
+  - line374/line630
+  - line374/line648
+  - line374/line667
+  - line374/line689
+  - line374/line709
+  - line728
+  - line970
+  - line1018
+  - line1115
+  - line1206/line1206
+  - line1206/line1225
+  - line1206/line1246
+  - line1206/line1268
+  - line1206/line1284
+  - line1206/line1314
+  - line1206/line1334
+  - line1206/line1351
+  - line1206/line1377
+  - line1206/line1395
+  - line1206/line1418
+  - line1206/line1442
+  - line1206/line1464
+  - line1206/line1482
+  - line1502
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1564
+    formation_confidence: Widely Accepted
+    source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 193: Bullinger
+      composed the Second Helvetic Confession in 1562; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+      line 197: 1562). Two years afterwards he elaborated it more fully'
+    start: 1562
+  translator:
+    formation_confidence: Documented
+    name: Philip Schaff (editor/compiler)
+    source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip
+      Schaff (Editor/compiler of the volume'
+  edition_date:
+    checked: the file prints only "1919 printing (orig. 1877)" in its library header, which
+      is a printing year; no title page or preface year for the text itself
+    formation_confidence: unknown
   note: 'Heinrich Bullinger''s mature confessional statement - Zwingli''s real successor at
     Zurich, and per this world''s own Step 0 draft (§A1) the movement''s own floor-clearance
     text: ch. III (Trinity) and ch. XI (Christ''s full deity and humanity) directly verified
@@ -120,8 +179,25 @@ works:
   work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
   author: calvin
   locus: whole file - Vol. I
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1554
+    formation_confidence: Widely Accepted
+    source: 'calvin_commentaries-genesis-vol1_king1847.txt line 990: oN GENESIS'
+    start: 1554
+  translator:
+    formation_confidence: Documented
+    name: Rev. John King
+    source: 'calvin_commentaries-genesis-vol1_king1847.txt line 291: BY THE REV. JOHN KING,
+      M.A'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_commentaries-genesis-vol1_king1847.txt line 313: M.DCCC.XLVII.'
+    year: 1847
   note: 'Calvin''s own exegetical voice, trans. Rev. John King (Edinburgh: Calvin Translation
     Society, 1847) - a distinct register from the Institutes (systematic theology) and the
     Geneva Catechism (catechetical), completing this world''s coverage of Calvin''s three
@@ -136,8 +212,23 @@ works:
   work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
   author: calvin
   locus: whole file - Vol. II
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    checked: title page and front matter of this volume; no composition date is stated
+    formation_confidence: unknown
+  translator:
+    formation_confidence: Documented
+    name: Rev. John King
+    source: 'calvin_commentaries-genesis-vol2_king1847.txt line 271: BY THE REV. JOHN KING,
+      M.A'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_commentaries-genesis-vol2_king1847.txt line 297: M.DCCC.L.'
+    year: 1850
   note: 'Completes the two-volume Genesis commentary begun in calvin_commentaries-genesis-vol1_king1847.txt,
     same edition and vendoring basis.
 
@@ -163,8 +254,26 @@ works:
   work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
   author: calvin
   locus: whole file - Book First
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1559
+    formation_confidence: Documented
+    source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 6086: Geneva,
+      1st August 1559.'
+    start: 1559
+  translator:
+    formation_confidence: Documented
+    name: Henry Beveridge
+    source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 67: BY HENRY
+      BEVERIDGE, ESQ'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_institutes-christian-religion-vol1_beveridge1845.txt line 76: M.DCCC.XLV.'
+    year: 1845
   note: 'Calvin''s own systematic theology, 1559 final Latin edition, in the standard-cited
     Beveridge 1845 English translation. Book I: the knowledge of God as Creator, the created
     order, providence.
@@ -176,8 +285,24 @@ works:
     God Invites Us into the Society of Christ, and Keeps Us in It)
   author: calvin
   locus: whole file - Book Fourth
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    checked: title page (lines 1-80) and a grep for 1559/1536 and dedication; only a translator's
+      footnote mentions the 1559 Geneva edition, no composition date for Book IV
+    formation_confidence: unknown
+  translator:
+    formation_confidence: Documented
+    name: Henry Beveridge
+    source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 66: BY HENRY
+      BEVERIDGE, ESQ.'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_institutes-christian-religion-vol3_beveridge1845.txt line 75: M.DCCC.XLVI.'
+    year: 1846
   note: 'Book IV: the church, sacraments, and civil government - completes the Beveridge 1845
     three-volume Institutes.
 
@@ -188,8 +313,24 @@ works:
     Of the Mode of Obtaining the Grace of Christ)
   author: calvin
   locus: whole file - Book Second through Book Third
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    checked: title page, translator's preface area (lines 1-420), Calvin Translation Society
+      reports and text; no composition date stated for Books II-III
+    formation_confidence: unknown
+  translator:
+    formation_confidence: Documented
+    name: Henry Beveridge
+    source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 392: BY HENRY
+      BEVERIDGE, ESQ.'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_institutes-christian-religion-vol2_beveridge1845.txt line 401: M.DCCC.XLV.'
+    year: 1845
   note: 'Book II: Christ the Redeemer, law and gospel. Book III: faith, justification, predestination
     - the load-bearing doctrinal core for this world''s own audience pull (§3 B4 of the Step
     0 draft).
@@ -229,8 +370,25 @@ works:
     Notes, Vol. IV
   author: calvin
   locus: whole file - Vol. IV
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1564
+    formation_confidence: Documented
+    source: 'calvin_letters-vol4_bonnet1858.txt line 17443: Pauis, 1534.; calvin_letters-vol4_bonnet1858.txt
+      line 16760: Geneva, 2nd May, 1564.'
+    start: 1534
+  translator:
+    formation_confidence: Documented
+    name: Marcus Robert Gilchrist
+    source: 'calvin_letters-vol4_bonnet1858.txt line 75: MARCUS ROBERT GILCHRIST.'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_letters-vol4_bonnet1858.txt line 84: in the year 1858'
+    year: 1858
   note: 'Continues Calvin''s correspondence into his later years - this volume''s own cumulative
     index (which references entries across all four volumes by Roman-numeral volume number)
     confirms it is the set''s final volume, closing with "THE END" - same set and vendoring
@@ -260,8 +418,24 @@ works:
   work: The Catechism of the Church of Geneva
   author: calvin
   locus: whole file
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1545
+    formation_confidence: Widely Accepted
+    source: 'calvin_geneva-catechism_waterman1815.txt line 131: 1545, Calvin observes'
+    start: 1545
+  translator:
+    formation_confidence: Documented
+    name: Elijah Waterman
+    source: 'calvin_geneva-catechism_waterman1815.txt line 45: BY THE REV. EUJAH WATERMAN'
+  edition_date:
+    formation_confidence: Documented
+    source: 'calvin_geneva-catechism_waterman1815.txt line 74: 1815.'
+    year: 1815
   note: 'Calvin''s own catechetical voice - the census''s own general-knowledge "sources"
     field named this work unverified; now directly host-verified and vendored.
 
@@ -343,8 +517,400 @@ works:
   author: kirk-of-scotland
   locus: as above; Sprott's Introduction from file line 501 traces each section to the 'Book
     of Geneva'
+  locus_ids:
+  - line453
+  - line521
+  - line538
+  - line560
+  - line577
+  - line608
+  - line644
+  - line661
+  - line711
+  - line740
+  - line795
+  - line834
+  - line882
+  - line911
+  - line937
+  - line977
+  - line996
+  - line1015
+  - line1037
+  - line1068
+  - line1087
+  - line1122
+  - line1157
+  - line1190
+  - line1216
+  - line1248
+  - line1285
+  - line1299
+  - line1350
+  - line1377
+  - line1422
+  - line1441
+  - line1477
+  - line1497
+  - line1525
+  - line1572
+  - line1591
+  - line1609
+  - line1650
+  - line1678
+  - line1695
+  - line1754
+  - line1772
+  - line1793
+  - line1822
+  - line1838
+  - line1867
+  - line1894
+  - line1924
+  - line1946
+  - line1966
+  - line2011
+  - line2030
+  - line2046
+  - line2066
+  - line2096
+  - line2135
+  - line2154
+  - line2172
+  - line2191
+  - line2211
+  - line2250
+  - line2297
+  - line2328
+  - line2354
+  - line2380
+  - line2416
+  - line2442
+  - line2464
+  - line2497
+  - line2514
+  - line2563
+  - line2590
+  - line2613
+  - line2651
+  - line2691
+  - line2744
+  - line2759
+  - line2792
+  - line2824
+  - line2850
+  - line2867
+  - line2995
+  - line3199
+  - line3371
+  - line3610
+  - line3724
+  - line3830
+  - line3935
+  - line3959
+  - line4005
+  - line4029
+  - line4126
+  - line4171
+  - line4210
+  - line4286
+  - line4369
+  - line4423
+  - line4488
+  - line4520
+  - line4551
+  - line4605
+  - line4640
+  - line4681
+  - line4730
+  - line4758
+  - line4817
+  - line4842
+  - line4877
+  - line4931
+  - line4964
+  - line4994
+  - line5048
+  - line5079
+  - line5141
+  - line5171
+  - line5196
+  - line5254
+  - line5317
+  - line5354
+  - line5380
+  - line5439
+  - line5557
+  - line5583
+  - line5621
+  - line5646
+  - line5666
+  - line5717
+  - line5743
+  - line5779
+  - line5867
+  - line5918
+  - line5976
+  - line6038
+  - line6064
+  - line6144
+  - line6168
+  - line6221
+  - line6243
+  - line6279
+  - line6310
+  - line6346
+  - line6390
+  - line6435
+  - line6470
+  - line6513
+  - line6555
+  - line6599
+  - line6642
+  - line6686
+  - line6707
+  - line6739
+  - line6796
+  - line6819
+  - line6865
+  - line6904
+  - line6939
+  - line6970
+  - line7000
+  - line7028
+  - line7059
+  - line7121
+  - line7157
+  - line7192
+  - line7235
+  - line7282
+  - line7311
+  - line7335
+  - line7363
+  - line7408
+  - line7464
+  - line7517
+  - line7582
+  - line7645
+  - line7727
+  - line7768
+  - line7802
+  - line7854
+  - line7959
+  - line8020
+  - line8084
+  - line8114
+  - line8160
+  - line8190
+  - line8215
+  - line8236
+  - line8274
+  - line8333
+  - line8407
+  - line8433
+  - line8483
+  - line8538
+  - line8564
+  - line8597
+  - line8625
+  - line8703
+  - line8803
+  - line8876
+  - line8913
+  - line8959
+  - line8997
+  - line9023
+  - line9093
+  - line9121
+  - line9155
+  - line9232
+  - line9254
+  - line9310
+  - line9372
+  - line9419
+  - line9453
+  - line9496
+  - line9541
+  - line9618
+  - line9667
+  - line9789
+  - line9834
+  - line9907
+  - line9947
+  - line10009
+  - line10041
+  - line10069
+  - line10139
+  - line10177
+  - line10203
+  - line10248
+  - line10324
+  - line10386
+  - line10426
+  - line10515
+  - line10582
+  - line10644
+  - line10704
+  - line10736
+  - line10821
+  - line10848
+  - line10921
+  - line10955
+  - line11022
+  - line11058
+  - line11076
+  - line11142
+  - line11207
+  - line11246
+  - line11271
+  - line11306
+  - line11343
+  - line11431
+  - line11450
+  - line11498
+  - line11530
+  - line11564
+  - line11592
+  - line11623
+  - line11638
+  - line11681
+  - line11720
+  - line11757
+  - line11776
+  - line11852
+  - line11908
+  - line11929
+  - line11960
+  - line11993
+  - line12027
+  - line12049
+  - line12075
+  - line12114
+  - line12142
+  - line12236
+  - line12305
+  - line12378
+  - line12399
+  - line12429
+  - line12469
+  - line12539
+  - line12575
+  - line12604
+  - line12634
+  - line12671
+  - line12750
+  - line12784
+  - line12823
+  - line12865
+  - line12895
+  - line12957
+  - line13021
+  - line13048
+  - line13105
+  - line13169
+  - line13213
+  - line13255
+  - line13325
+  - line13388
+  - line13507
+  - line13603
+  - line13682
+  - line13748
+  - line13821
+  - line13894
+  - line13953
+  - line14008
+  - line14048
+  - line14103
+  - line14143
+  - line14199
+  - line14262
+  - line14329
+  - line14386
+  - line14440
+  - line14485
+  - line14547
+  - line14584
+  - line14651
+  - line14686
+  - line14720
+  - line14790
+  - line14857
+  - line14912
+  - line14942
+  - line15006
+  - line15037
+  - line15060
+  - line15092
+  - line15174
+  - line15198
+  - line15228
+  - line15283
+  - line15355
+  - line15376
+  - line15401
+  - line15449
+  - line15464
+  - line15514
+  - line15531
+  - line15575
+  - line15631
+  - line15706
+  - line15844
+  - line15921
+  - line15940
+  - line15957
+  - line15980
+  - line16004
+  - line16025
+  - line16061
+  - line16087
+  - line16116
+  - line16140
+  - line16158
+  - line16175
+  - line16194
+  - line16212
+  - line16238
+  - line16254
+  - line16278
+  - line16299
+  - line16320
+  - line16341
+  - line16367
+  - line16384
+  - line16405
+  - line16432
+  - line16456
+  - line16471
+  - line16487
+  - line16518
+  - line16542
+  - line16579
+  - line16594
+  - line16630
+  - line16651
+  - line16675
   role: context
   confidence: provisional
+  language: eng
+  date:
+    end: 1564
+    formation_confidence: Inferential-Thin
+    source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+      line 521: In 1554, some English Protestants, flying from the; kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+      line 593: additions. . Between 1562 and 1564 it was modified and'
+    start: 1554
+  translator:
+    formation_confidence: Documented
+    name: George W. Sprott and Thomas Leishman (editors)
+    source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+      line 69: REV. GEORGE W. SPROTT, B.A., and'
+  edition_date:
+    formation_confidence: Documented
+    source: 'kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt
+      line 77: 1868'
+    year: 1868
   note: 'This liturgy was first made in Geneva (1556) for the English exiles whom Knox served,
     with Calvin''s approval, before Scotland adopted it. Placed on that origin; the file carries
     the 1564 Scottish text, not the Geneva print, so the Reformed Cities world should treat
@@ -504,8 +1070,43 @@ works:
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus
   locus: Sec. 69 of the source volume (original pp. 529-554)
+  locus_ids:
+  - line1595
+  - line1663
+  - line1741
+  - line1751
+  - line1843
+  - line1927
+  - line1934
+  - line1973
+  - line2000
+  - line2021
+  - line2327
+  - line2357
+  - line2395
+  - line2466
+  - line2604
+  - line2848
+  - line2850
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1563
+    formation_confidence: Widely Accepted
+    source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 1949: In
+      December, 1562, Frederick submitted the work to a general synod; schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+      line 1954: Preface of the Elector, dated Tuesday, January 19, 1563'
+    start: 1562
+  translator:
+    formation_confidence: Documented
+    name: Philip Schaff (editor/compiler)
+    source: 'schaff_second-helvetic-confession-heidelberg-catechism_1919.txt line 11: Philip
+      Schaff (Editor/compiler of the volume'
+  edition_date:
+    checked: the file prints only "1919 printing (orig. 1877)" in its library header, which
+      is a printing year; no title page or preface year for the text itself
+    formation_confidence: unknown
   note: 'Zacharias Ursinus and Caspar Olevianus''s Palatinate catechism - named directly in
     this world''s own Step 0 draft as doctrinally consistent with the floor. A distinct pastoral/catechetical
     voice alongside Calvin''s Geneva Catechism, from the Reformed tradition''s German wing.
@@ -549,8 +1150,292 @@ works:
     the Tricks of the Baptists; and other shorter writings)
   author: zwingli
   locus: whole file except the Sixty-Seven Articles (see row above)
+  locus_ids:
+  - line1
+  - line47
+  - line124
+  - line144
+  - line182
+  - line247
+  - line270
+  - line312
+  - line334
+  - line376
+  - line419
+  - line435
+  - line496
+  - line573
+  - line603
+  - line650
+  - line669
+  - line684
+  - line723
+  - line751
+  - line768
+  - line809
+  - line824
+  - line865
+  - line889
+  - line908
+  - line924
+  - line956
+  - line970
+  - line1051
+  - line1125
+  - line1201
+  - line1279
+  - line1355
+  - line1382
+  - line1433
+  - line1495
+  - line1547
+  - line1590
+  - line1656
+  - line1685
+  - line1712
+  - line1772
+  - line1797
+  - line1821
+  - line1885
+  - line1906
+  - line1931
+  - line1967
+  - line2048
+  - line2087
+  - line2133
+  - line2168
+  - line2215
+  - line2253
+  - line2281
+  - line2301
+  - line2329
+  - line2389
+  - line2412
+  - line2428
+  - line2464
+  - line2508
+  - line2570
+  - line2624
+  - line2664
+  - line2709
+  - line2750
+  - line2827
+  - line2869
+  - line2947
+  - line2967
+  - line2998
+  - line3029
+  - line3054
+  - line3074
+  - line3117
+  - line3141
+  - line3168
+  - line3189
+  - line3234
+  - line3267
+  - line3289
+  - line3304
+  - line3330
+  - line3348
+  - line3407
+  - line3466
+  - line3486
+  - line3510
+  - line3533
+  - line3554
+  - line3586
+  - line3607
+  - line3671
+  - line3699
+  - line3756
+  - line3775
+  - line3798
+  - line3820
+  - line3874
+  - line3916
+  - line3963
+  - line3989
+  - line4014
+  - line4033
+  - line4086
+  - line4113
+  - line4141
+  - line4177
+  - line4201
+  - line4264
+  - line4319
+  - line4341
+  - line4373
+  - line4436
+  - line4459
+  - line4815
+  - line4855
+  - line4877
+  - line4893
+  - line4926
+  - line4952
+  - line4970
+  - line4998
+  - line5024
+  - line5086
+  - line5134
+  - line5160
+  - line5206
+  - line5288
+  - line5326
+  - line5342
+  - line5367
+  - line5403
+  - line5449
+  - line5526
+  - line5565
+  - line5635
+  - line5689
+  - line5729
+  - line5807
+  - line5845
+  - line5875
+  - line5902
+  - line5926
+  - line5949
+  - line6010
+  - line6068
+  - line6085
+  - line6104
+  - line6125
+  - line6143
+  - line6161
+  - line6198
+  - line6276
+  - line6327
+  - line6383
+  - line6451
+  - line6486
+  - line6518
+  - line6556
+  - line6570
+  - line6633
+  - line6648
+  - line6668
+  - line6696
+  - line6782
+  - line6810
+  - line6846
+  - line6890
+  - line6947
+  - line7000
+  - line7025
+  - line7065
+  - line7090
+  - line7156
+  - line7194
+  - line7241
+  - line7260
+  - line7289
+  - line7350
+  - line7385
+  - line7468
+  - line7486
+  - line7584
+  - line7610
+  - line7672
+  - line7738
+  - line7808
+  - line7854
+  - line7869
+  - line7892
+  - line7966
+  - line7986
+  - line8011
+  - line8087
+  - line8123
+  - line8143
+  - line8200
+  - line8281
+  - line8356
+  - line8384
+  - line8445
+  - line8512
+  - line8538
+  - line8627
+  - line8646
+  - line8678
+  - line8692
+  - line8712
+  - line8744
+  - line8804
+  - line8823
+  - line8840
+  - line8862
+  - line8882
+  - line8938
+  - line8982
+  - line9001
+  - line9060
+  - line9075
+  - line9089
+  - line9110
+  - line9127
+  - line9193
+  - line9209
+  - line9259
+  - line9282
+  - line9308
+  - line9345
+  - line9390
+  - line9420
+  - line9451
+  - line9479
+  - line9516
+  - line9554
+  - line9591
+  - line9620
+  - line9687
+  - line9723
+  - line9749
+  - line9814
+  - line9834
+  - line9891
+  - line9930
+  - line9969
+  - line9986
+  - line10042
+  - line10068
+  - line10117
+  - line10156
+  - line10207
+  - line10254
+  - line10326
+  - line10359
+  - line10407
+  - line10429
+  - line10468
+  - line10500
+  - line10534
+  - line10569
+  - line10607
+  - line10639
+  - line10667
+  - line10688
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    checked: table of contents (lines 275-290) dates the items individually, April 1522 to
+      1527; no single date for the collection, so none is given
+    formation_confidence: unknown
+  translator:
+    formation_confidence: Documented
+    name: Lawrence A. McLouth (German works); Henry Preble and George W. Gilmore (Latin works)
+    source: 'zwingli_selected-works_jackson1901.txt line 47: The German Works by Lawrence
+      A. McLouth; zwingli_selected-works_jackson1901.txt line 49: York University, and the
+      Latin by Henry Preble; zwingli_selected-works_jackson1901.txt line 51: and Professor
+      George W. Gilmore'
+  edition_date:
+    formation_confidence: Documented
+    source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University
+      of Pennsylvania, 1901'
+    year: 1901
   note: 'The volume''s remaining shorter selections, kept as one collective row rather than
     individually itemized - letters, petitions, and disputation records documenting Zwingli''s
     own Zurich reform, 1522-1527. This row''s own contents extend past 1522-1523 - the volume
@@ -565,8 +1450,26 @@ works:
     and letters)
   author: zwingli
   locus: whole file
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1522
+    formation_confidence: Documented
+    source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 74: 1510-1522'
+    start: 1510
+  translator:
+    formation_confidence: Documented
+    name: Henry Preble, Walter Lichtenstein, and Lawrence A. McLouth (translators); Samuel
+      Macauley Jackson (editor)
+    source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 69: Henry Preble,
+      Walter Lichtenstein, and'
+  edition_date:
+    formation_confidence: Documented
+    source: 'zwingli_latin-works-correspondence-vol1_jackson1912.txt line 86: Copyright, 1912'
+    year: 1912
   note: 'A second, independent volume of Zwingli''s own voice alongside the Selected Works
     (Jackson 1901) - not individually itemized by work within this row; the file''s own intake
     header discloses this as a multi-work compilation.
@@ -593,8 +1496,28 @@ works:
     True and False Religion, and the Antibolon)
   author: zwingli
   locus: whole file
+  locus_ids:
+  - whole-file
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1525
+    formation_confidence: Widely Accepted
+    source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 386: from beginning
+      the task before the latter part of the year 1524.; zwingli_latin-works-correspondence-vol3_heller1929.txt
+      line 404: The book came from the press at the end of March, 1525.'
+    start: 1524
+  translator:
+    formation_confidence: Documented
+    name: Henry Preble (True and False Religion); George William Gilmore (Reply to Emser);
+      revised and annotated by Clarence Nevin Heller (editor)
+    source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 144: Religion was
+      translated by Henry Preble, Esq., of New York,'
+  edition_date:
+    formation_confidence: Documented
+    source: 'zwingli_latin-works-correspondence-vol3_heller1929.txt line 89: Copyright, 1929'
+    year: 1929
   note: 'A third, independent volume of Zwingli''s own voice alongside the Selected Works
     (Jackson 1901) and the Latin Works Vol. I (Jackson 1912) - ed. Clarence Nevin Heller (Philadelphia:
     The Heidelberg Press, 1929). Contains "Of True and False Religion" (1525), called the
@@ -608,8 +1531,39 @@ works:
   work: The Sixty-Seven Articles of Zwingli (1523)
   author: zwingli
   locus: lines ~4485-4700, embedded within the Acts of the First Zurich Disputation
+  locus_ids:
+  - line4485
+  - line4508
+  - line4535
+  - line4557
+  - line4588
+  - line4612
+  - line4645
+  - line4678
+  - line4704
+  - line4735
+  - line4761
+  - line4790
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    end: 1523
+    formation_confidence: Documented
+    source: 'zwingli_selected-works_jackson1901.txt line 1544: printed 67 Articles as a programme
+      for the debate; zwingli_selected-works_jackson1901.txt line 1545: great eagerness to
+      the time set, which was the 23d of January, 1523.'
+    start: 1523
+  translator:
+    formation_confidence: Documented
+    name: Lawrence A. McLouth
+    source: 'zwingli_selected-works_jackson1901.txt line 1524: * Works, i. 114-168. Translated
+      from the Zurich German by Lawrence A.'
+  edition_date:
+    formation_confidence: Documented
+    source: 'zwingli_selected-works_jackson1901.txt line 7: Print Basis: Philadelphia: University
+      of Pennsylvania, 1901'
+    year: 1901
   note: 'Zwingli''s own founding doctrinal statement, presented at the First Zurich Disputation,
     January 1523. The Source Readiness Dossier had flagged this work''s presence in this volume
     as unconfirmed; directly verified this pass.
