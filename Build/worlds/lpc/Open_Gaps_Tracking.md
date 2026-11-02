@@ -2744,5 +2744,5 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 
 - **Done.** `Build/worlds/lpc/build/lpc_Passage_Seeds.yaml` holds 33 checked seeds for 23 of the 130 sub-questions (9 voiceable, 24 etic). Of 63 map hits that carry a line, 33 became seeds; 30 entries are dropped, each with its reason in the file.
 - **Open.** 107 sub-questions have no seed. 22 have no lpc cell in the coverage maps (C6.S9, C12.S1 to S8, C14.S9, C16.S1 to S5, C17.S1 to S7). The rest have only gloss-style hits that no passage text confirms. They go to the search batches (phase 2), not to weak seeds.
-- **Open.** Translator, edition year and work date read `unresolved` on every seed in a file shared by many rows (the Cyprian, Pontius and Nicene Fathers volumes), because the passage binds to several rows that disagree. Same cause as OG-155.
+- **Open.** Translator, edition year and work date read `unresolved` on 30 of the 33 seeds (the shared Nicene Fathers volumes), because the passage binds to several rows that disagree. Same cause as OG-155.
 - **Owner.** Library thread, through the coordination thread.
