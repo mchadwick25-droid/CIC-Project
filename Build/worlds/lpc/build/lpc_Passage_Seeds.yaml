@@ -198,6 +198,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.iv.xxxiv#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vi.iv.xxxiv
@@ -261,6 +263,8 @@ subquestions:
       work: The Harmony of the Gospels (De consensu evangelistarum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xv.iii.vi.ii#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xv.iii.vi.ii
@@ -321,6 +325,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.ii#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vi.ii
@@ -379,6 +385,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: augustine
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.i/line2687#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: iv.i/line2687
@@ -440,6 +448,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C1.S8:
     label: Would Jesus want someone like me; I want to believe
     seeds: []
@@ -504,6 +514,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C2.S2:
     label: 'What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God'
     seeds: []
@@ -566,6 +578,8 @@ subquestions:
       work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C2.S5:
     label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
     seeds: []
@@ -634,6 +648,8 @@ subquestions:
       work: The Confessions
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C2.S8:
     label: Pictures and images of God
     seeds:
@@ -677,6 +693,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.viii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvi.viii
@@ -717,6 +735,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.x/line52355#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvi.x/line52355
@@ -767,6 +787,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xi#03
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvi.xi
@@ -809,6 +831,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C3.S1:
     label: Was hell and a last judgment real; how pictured, preached, used
     seeds:
@@ -867,6 +891,8 @@ subquestions:
       work: The Epistles of Cyprian
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C3.S2:
     label: Was hell forever, or did it end
     seeds: []
@@ -931,6 +957,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C3.S4:
     label: Were the wicked destroyed rather than tormented
     seeds: []
@@ -994,6 +1022,8 @@ subquestions:
       work: The Enchiridion (On Faith, Hope, and Love)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.ii.lxxi#01
       file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
       division_locus: iv.ii.lxxi
@@ -1045,6 +1075,8 @@ subquestions:
       work: The Enchiridion (On Faith, Hope, and Love)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.IX.XI#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vi.IX.XI
@@ -1104,6 +1136,8 @@ subquestions:
       work: The Confessions
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C3.S6:
     label: Heaven; the body raised; seeing loved ones; losing it after baptism
     seeds:
@@ -1161,6 +1195,8 @@ subquestions:
       work: On the Mortality (De Mortalitate)
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C3.S7:
     label: 'Who is lost: outsiders, Jews and pagans, a loved one, unbaptised infants, suicide'
     seeds:
@@ -1220,6 +1256,8 @@ subquestions:
       work: On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum meritis et remissione)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.ii.xviii#01
       file: npnf102_augustine-city-of-god-christian-doctrine.xml
       division_locus: iv.ii.xviii
@@ -1279,6 +1317,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.iv.lviii#02
       file: anf05_hippolytus-cyprian-caius-novatian.xml
       division_locus: iv.iv.lviii
@@ -1334,6 +1374,8 @@ subquestions:
       work: The Epistles of Cyprian
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C3.S8:
     label: 'The end of the world: rapture, Antichrist, ''in your lifetime'''
     seeds:
@@ -1393,6 +1435,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C4.S1:
     label: Faith and works, grace, 'what must I do'
     seeds: []
@@ -1472,6 +1516,8 @@ subquestions:
       work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C4.S7:
     label: Indulgences, almsgiving, paying for sin
     seeds: []
@@ -1538,6 +1584,8 @@ subquestions:
       work: On Baptism, Against the Donatists
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C5.S2:
     label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
     seeds: []
@@ -1621,6 +1669,8 @@ subquestions:
       work: The Harmony of the Gospels (De consensu evangelistarum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.lxxvii/line11783#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vii.lxxvii/line11783
@@ -1697,6 +1747,8 @@ subquestions:
       work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C5.S4:
     label: Genesis and creation, the six days
     seeds: []
@@ -1754,6 +1806,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C5.S6:
     label: Who could read or own a Bible; language; translation
     seeds: []
@@ -1810,6 +1864,8 @@ subquestions:
       work: The Confessions
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C5.S8:
     label: One passage at a time (VERSE)
     seeds:
@@ -1871,6 +1927,8 @@ subquestions:
       work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C6.S1:
     label: Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one
     seeds: []
@@ -1933,6 +1991,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.viii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.viii
@@ -1986,6 +2046,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xiv.iii.vii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xiv.iii.vii
@@ -2031,6 +2093,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxix#03
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxix
@@ -2075,6 +2139,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.xxvi#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvii.xxvi
@@ -2118,6 +2184,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xv.iv.iv.xxxii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xv.iv.iv.xxxii
@@ -2167,6 +2235,8 @@ subquestions:
       work: The Code of Canons of the African Church (Council of Carthage, 419)
       author: council-of-carthage-419
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxviii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxviii
@@ -2218,6 +2288,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:viii.v.iv.vi#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: viii.v.iv.vi
@@ -2262,6 +2334,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C6.S7:
     label: The emperor's say in belief
     seeds: []
@@ -2333,6 +2407,8 @@ subquestions:
       work: The Epistles of Cyprian
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C7.S2:
     label: 'The meal: what happened, how often, real presence or symbol, who was refused'
     seeds:
@@ -2387,6 +2463,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01
       file: npnf105_augustine-anti-pelagian-writings.xml
       division_locus: x.iii.xxxiv
@@ -2437,6 +2515,8 @@ subquestions:
       work: On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum meritis et remissione)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C7.S3:
     label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
     seeds:
@@ -2494,6 +2574,8 @@ subquestions:
       work: On the Lord's Prayer (De Dominica Oratione)
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C7.S4:
     label: 'Worship in the room: singing and instruments, buildings, images, posture, preaching'
     seeds:
@@ -2552,6 +2634,8 @@ subquestions:
       work: The Confessions
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C7.S5:
     label: Confession and penance; fasting
     seeds: []
@@ -2608,6 +2692,8 @@ subquestions:
       work: Reply to Faustus the Manichaean (Contra Faustum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28433#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.LIV/line28433
@@ -2662,6 +2748,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C7.S7:
     label: Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor
     seeds:
@@ -2706,6 +2794,8 @@ subquestions:
       work: The Confessions
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C7.S8:
     label: Did the practices go back to the apostles
     seeds:
@@ -2752,6 +2842,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C8.S1:
     label: Women's lives in their own words; any writing by women; nuns
     seeds: []
@@ -2840,6 +2932,8 @@ subquestions:
       work: On Marriage and Concupiscence (De nuptiis et concupiscentia)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C8.S3:
     label: 'The enslaved: owned, freed, thought wrong, ''slaves obey'', one table, the tortured witnesses'
     seeds:
@@ -2930,6 +3024,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXV/line15294#01
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.CXXV/line15294
@@ -3020,6 +3116,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xiv.iii.lxxxvi#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xiv.iii.lxxxvi
@@ -3100,6 +3198,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C8.S4:
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
     seeds: []
@@ -3178,6 +3278,8 @@ subquestions:
       work: Of Holy Virginity
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.iii.xx#01
       file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
       division_locus: v.iii.xx
@@ -3250,6 +3352,8 @@ subquestions:
       work: Of Holy Virginity
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.ii.xxx#01
       file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
       division_locus: v.ii.xxx
@@ -3324,6 +3428,8 @@ subquestions:
       work: On the Good of Marriage
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LXXVI/line9211#04
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LXXVI/line9211
@@ -3406,6 +3512,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxxii/line8561#01
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xxxii/line8561
@@ -3479,6 +3587,8 @@ subquestions:
       work: Reply to Faustus the Manichaean (Contra Faustum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.iii.xix#01
       file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
       division_locus: v.iii.xix
@@ -3552,6 +3662,8 @@ subquestions:
       work: Of Holy Virginity
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxxii/line8561#02
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xxxii/line8561
@@ -3628,6 +3740,8 @@ subquestions:
       work: Reply to Faustus the Manichaean (Contra Faustum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C8.S6:
     label: Gay people and same-sex relations (never faced as asked)
     seeds: []
@@ -3706,6 +3820,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXXIII#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.CXXXIII
@@ -3761,6 +3877,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C9.S5:
     label: 'Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer''s
       side'
@@ -3852,6 +3970,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXX/line44859#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.CXXX/line44859
@@ -3928,6 +4048,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXI#04
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.CXI
@@ -4003,6 +4125,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.xxxvii#02
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vii.xxxvii
@@ -4077,6 +4201,8 @@ subquestions:
       work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.iii.xxix#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: iv.iii.xxix
@@ -4147,6 +4273,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iv.ix#03
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.iv.ix
@@ -4222,6 +4350,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LII/line6133#02
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LII/line6133
@@ -4297,6 +4427,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.iii.xxviii#03
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: iv.iii.xxviii
@@ -4375,6 +4507,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -4452,6 +4586,8 @@ subquestions:
       work: Three Books of Testimonies Against the Jews (Ad Quirinum)
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XXXVII.3/line3920#02
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.XXXVII.3/line3920
@@ -4513,6 +4649,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXIX#03
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.CXXIX
@@ -4579,6 +4717,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxv#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxv
@@ -4623,6 +4763,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxvi#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxvi
@@ -4667,6 +4809,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LV/line6395#01
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LV/line6395
@@ -4727,6 +4871,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XXXVII.3/line3920#03
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.XXXVII.3/line3920
@@ -4782,6 +4928,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxvi#04
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxvi
@@ -4827,6 +4975,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C10.S6:
     label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
     seeds:
@@ -4894,6 +5044,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:optatus_against-the-donatists.txt:appendix2#02
       file: optatus_against-the-donatists.txt
       division_locus: appendix2
@@ -4965,6 +5117,8 @@ subquestions:
       work: Against the Donatists (De Schismate Donatistarum, Books I-VII)
       author: optatus
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: inside
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xi.xviii.xxv#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xi.xviii.xxv
@@ -5031,6 +5185,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C10.S7:
     label: 'Work and class: jobs a Christian could not do, who the members were, who paid for the way of life'
     seeds:
@@ -5106,6 +5262,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.xiii/line7469#02
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vii.xiii/line7469
@@ -5179,6 +5337,8 @@ subquestions:
       work: Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LXXIII/line8783#02
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LXXIII/line8783
@@ -5254,6 +5414,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C11.S1:
     label: 'Jews: what was said, blame for the crucifixion, harm done, Jewish practices and Jewish Christians, ''to my face'''
     seeds:
@@ -5315,6 +5477,8 @@ subquestions:
       work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LIX.1/line6949#01
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LIX.1/line6949
@@ -5368,6 +5532,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C11.S2:
     label: Pagans and their gods; eating and festivals with them; getting along with Rome
     seeds:
@@ -5431,6 +5597,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.vi/line44597#01
       file: anf05_hippolytus-cyprian-caius-novatian.xml
       division_locus: iv.v.vi/line44597
@@ -5490,6 +5658,8 @@ subquestions:
       work: On the Vanity of Idols (Quod Idola Dii Non Sint)
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.v/line43887#01
       file: anf05_hippolytus-cyprian-caius-novatian.xml
       division_locus: iv.v.v/line43887
@@ -5545,6 +5715,8 @@ subquestions:
       work: An Address to Demetrianus (Ad Demetrianum)
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C11.S3:
     label: Greek philosophy taken or refused; pagan authors quoted
     seeds:
@@ -5609,6 +5781,8 @@ subquestions:
       work: Reply to Faustus the Manichaean (Contra Faustum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xiii.ii#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xiii.ii
@@ -5673,6 +5847,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C11.S4:
     label: Muslims (worlds after 632 only)
     seeds: []
@@ -5764,6 +5940,8 @@ subquestions:
       work: On Christian Doctrine
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXLVII/line16903#01
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.CXLVII/line16903
@@ -5843,6 +6021,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.XLVI#04
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.XLVI
@@ -5925,6 +6105,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C12.S2:
     label: Houses, clothes, language at home and in prayer
     seeds:
@@ -5982,6 +6164,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xiv.xvi#02
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvi.xiv.xvi
@@ -6037,6 +6221,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C12.S3:
     label: Work, school, community size, travel, letters, telling time
     seeds: []
@@ -6134,6 +6320,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LXI#02
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LXI
@@ -6209,6 +6397,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.liii/line7140#01
       file: npnf107_augustine-homilies-john-soliloquies.xml
       division_locus: iii.liii/line7140
@@ -6285,6 +6475,8 @@ subquestions:
       work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XCI/line11041#01
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.XCI/line11041
@@ -6360,6 +6552,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.v.xvii#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vi.v.xvii
@@ -6429,6 +6623,8 @@ subquestions:
       work: The Harmony of the Gospels (De consensu evangelistarum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C13.S2:
     label: Demons, sickness, exorcists, Antony in the tombs
     seeds:
@@ -6503,6 +6699,8 @@ subquestions:
       work: The Epistles of Cyprian
       author: cyprian
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.IX.1#01
       file: npnf102_augustine-city-of-god-christian-doctrine.xml
       division_locus: iv.IX.1
@@ -6571,6 +6769,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.VIII.26#03
       file: npnf102_augustine-city-of-god-christian-doctrine.xml
       division_locus: iv.VIII.26
@@ -6638,6 +6838,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C13.S3:
     label: Miracles seen or heard; true from false; 'fairy tales'
     seeds:
@@ -6713,6 +6915,8 @@ subquestions:
       work: City of God
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xv/line6012#02
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xv/line6012
@@ -6781,6 +6985,8 @@ subquestions:
       work: Reply to Faustus the Manichaean (Contra Faustum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CII/line41138#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.CII/line41138
@@ -6855,6 +7061,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.xiv/line2593#01
       file: npnf107_augustine-homilies-john-soliloquies.xml
       division_locus: iii.xiv/line2593
@@ -6931,6 +7139,8 @@ subquestions:
       work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:xxi.iii.xxxvii#01
       file: npnf105_augustine-anti-pelagian-writings.xml
       division_locus: xxi.iii.xxxvii
@@ -7004,6 +7214,8 @@ subquestions:
       work: On the Gift of Perseverance (De dono perseverantiae)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xiv/line5942#01
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xiv/line5942
@@ -7071,6 +7283,8 @@ subquestions:
       work: Reply to Faustus the Manichaean (Contra Faustum)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C13.S4:
     label: Angels and guardian angels
     seeds:
@@ -7128,6 +7342,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.vii.xxi#02
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.vii.xxi
@@ -7183,6 +7399,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.vii.xxi#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.vii.xxi
@@ -7237,6 +7455,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:vi.ii/line11787#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: vi.ii/line11787
@@ -7291,6 +7511,8 @@ subquestions:
       work: The Passion of the Scillitan Martyrs
       author: passion-of-scillitan-martyrs
       work_author_basis: all rows bound to the passage file
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C13.S5:
     label: Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge
     seeds:
@@ -7365,6 +7587,8 @@ subquestions:
       work: On Care to Be Had for the Dead
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.ix.ix#01
       file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
       division_locus: v.ix.ix
@@ -7436,6 +7660,8 @@ subquestions:
       work: On Care to Be Had for the Dead
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xiii#04
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvi.xiii
@@ -7496,6 +7722,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvi.xiii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvi.xiii
@@ -7557,6 +7785,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C13.S6:
     label: Magic, amulets, curses, the evil eye
     seeds:
@@ -7620,6 +7850,8 @@ subquestions:
       work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:viii.vii.iii.xli#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: viii.vii.iii.xli
@@ -7672,6 +7904,8 @@ subquestions:
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      window: 'unknown: the row gives no dated window'
   C13.S7:
     label: The dead in dreams; felt presence
     seeds:
@@ -7736,6 +7970,8 @@ subquestions:
       work: On Care to Be Had for the Dead
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CLVIII/line50138#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.CLVIII/line50138
@@ -7804,6 +8040,8 @@ subquestions:
       work: 'Letters of St. Augustin: the general correspondence'
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C14.S1:
     label: Why God allows suffering; a sick child; healing refused; 'do not fear'
     seeds: []
@@ -7915,8 +8153,8 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 1.0
-      translator: null
-      edition_date: null
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
       work_date: 'unresolved: 2 rows disagree'
       fit: direct
       says_and_applies: Gives a list of sacred books, with Maccabees (three) counted and Sirach only recommended for teaching
@@ -7957,6 +8195,11 @@ subquestions:
       reader_note: Pseudo-apostolic canon speaking as 'me Clemens'; bracketed editorial note on Judith; opens with unrelated
         Canon 84; Revelation not listed.
       rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.ix#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvii.ix
@@ -7972,8 +8215,8 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9535
-      translator: null
-      edition_date: null
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
       work_date: 'unresolved: 2 rows disagree'
       fit: direct
       says_and_applies: Lists the canonical Old Testament books (22, Baruch with Jeremiah), a second list of books read to
@@ -8015,6 +8258,11 @@ subquestions:
         own epitome of Athanasius's 39th Festal Letter, with bracketed editorial insertions and heading; NT list only summarised;
         cannot be voiced as Athanasius's words.
       rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xv.iv.iv.xxv#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xv.iv.iv.xxv
@@ -8030,9 +8278,13 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.8817
-      translator: null
-      edition_date: null
-      work_date: 'unresolved: 2 rows disagree'
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date:
+        end: 419
+        formation_confidence: Documented
+        source: 'npnf214_seven-ecumenical-councils.xml div2 15.4 heading and text: the council of 25 May 419'
+        start: 419
       fit: direct
       says_and_applies: A Carthage canon lists the books to be read in church as divine Scripture, including Tobit, Judith,
         Esther and two Maccabees (an editor's note says Maccabees appear in only one copy); nothing else is read so.
@@ -8072,6 +8324,11 @@ subquestions:
       reader_note: Council canon (no single author) followed by editors' notes; gloss dropped 'in church' and the note that
         Maccabees are in only one copy.
       rank: 3
+      work: The Code of Canons of the African Church (Council of Carthage, 419)
+      author: council-of-carthage-419
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xiii/line5585#01
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xiii/line5585
@@ -8087,7 +8344,12 @@ subquestions:
       ocr_score: 0.9958
       translator: 'unresolved: 3 rows disagree'
       edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 9 rows disagree'
+      work_date:
+        end: 400
+        formation_confidence: Widely Accepted
+        source: 'npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.9 heading: a.d. 400, ''written about the year
+          400'''
+        start: 400
       fit: partial
       says_and_applies: Augustine says a clear line divides all post-apostolic writings from the canonical books of both Testaments,
         whose authority came from the apostles through the bishops' successions and the Church's spread.
@@ -8125,6 +8387,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Names no books; about scripture's authority more than which books; gloss added 'apostolic succession' framing.
       rank: 4
+      work: Reply to Faustus the Manichaean (Contra Faustum)
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XV.23#05
       file: npnf102_augustine-city-of-god-christian-doctrine.xml
       division_locus: iv.XV.23
@@ -8139,9 +8406,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 1.0
-      translator: 'unresolved: 2 rows disagree'
-      edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 2 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. Marcus Dods, D.D. (Books IV, XVII, XVIII by Rev. George Wilson; Books V-VIII by Rev. J. J. Smith)
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 753: translated by Rev. Marcus Dods, D.D.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 744: New York, December 10, 1886.'
+        year: 1886
+      work_date:
+        end: 426
+        formation_confidence: Widely Accepted
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml div1 4 Translator''s Preface: begun 413, completed 426;
+          P1 and Source_Registry row 24 agree'
+        start: 413
       fit: partial
       says_and_applies: Explains why writings under an ancient name were kept out of the canon, and says heretical forgeries
         under apostles' names were set aside as Apocrypha.
@@ -8181,6 +8459,11 @@ subquestions:
       reader_note: Opens on 'these writings'/'his' without naming Enoch (named just before the span); second half is about
         giants.
       rank: 5
+      work: City of God
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:viii.vii.iii.lxiv#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: viii.vii.iii.lxiv
@@ -8196,8 +8479,8 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9307
-      translator: null
-      edition_date: null
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
       work_date: 'unresolved: 2 rows disagree'
       fit: partial
       says_and_applies: Says only canonical books of both Testaments may be read in church, forbidding uncanonical books.
@@ -8235,6 +8518,11 @@ subquestions:
           can_be_voiced_as_own: false
       reader_note: One-sentence Laodicean canon, no list; the rest is editors' notes on hymns.
       rank: 6
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:v.i#03
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: v.i
@@ -8250,8 +8538,8 @@ subquestions:
         state: unknown
         name: null
       ocr_score: 0.8886
-      translator: null
-      edition_date: null
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
       work_date:
         checked: acta-martyrum-selecta_gebhardt1902.txt content note gives 180 as the date of the Passio Sanctorum Scilitanorum
           (Carthage), 'conventionally', and says these dates are field knowledge 'not re-derived from this file'; that is
@@ -8298,6 +8586,11 @@ subquestions:
       reader_note: Starts mid-text at a numbered footnote (8). | Modern editor's introduction starting mid-list (items 8-10);
         cites medieval lists; not an early Christian voice.
       rank: 7
+      work: The Passion of the Scillitan Martyrs
+      author: passion-of-scillitan-martyrs
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
   C5.S1b:
     label: Who decided what went in the Bible, and was it a vote
     parent: C5.S1
@@ -8388,6 +8681,8 @@ subquestions:
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
       rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C5.S1d:
     label: Whether the Bible was the only authority
     parent: C5.S1
@@ -8452,6 +8747,8 @@ subquestions:
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
       rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C5.S1e:
     label: What their teaching rested on, and what it stressed
     parent: C5.S1
@@ -8484,9 +8781,22 @@ subquestions:
         state: known
         name: augustine
       ocr_score: 1.0
-      translator: 'unresolved: 3 rows disagree'
-      edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 3 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. John Gibb, D.D. (Tractates 1-37) and Rev. James Innes (Tractates 38-124)
+        source: 'npnf107_augustine-homilies-john-soliloquies.xml line 436: Translated by Rev. John Gibb, Professor in the
+          Presbyterian Theological College at London, and Rev. James Innes, Panbride.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf107_augustine-homilies-john-soliloquies.xml line 423: New York, March 23, 1888.'
+        year: 1888
+      work_date:
+        end: 417
+        formation_confidence: Widely Accepted
+        source: 'NPNF 1 Prolegomena ''The Writings of St. Augustin'' (npnf101_augustine-confessions-letters.xml, id iv.4,
+          Schaff''s list of Augustine''s works): homilies on John (416 and 417); npnf107_augustine-homilies-john-soliloquies.xml
+          div1 3 notice: about A.D. 416 or later'
+        start: 416
       fit: direct
       says_and_applies: 'Shows him reading one event as both a real deed and a sign with several layered meanings: ''nothing
         is without meaning; everything is significant''.'
@@ -8522,6 +8832,11 @@ subquestions:
       reader_note: Opening sentence depends on earlier discussion of the barley and Philip's testing; not misleading but opaque
         out of context.
       rank: 1
+      work: Tractates on the Gospel of John (In Evangelium Ioannis tractatus)
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:v.vi.xxix#02
       file: npnf102_augustine-city-of-god-christian-doctrine.xml
       division_locus: v.vi.xxix
@@ -8537,7 +8852,12 @@ subquestions:
       ocr_score: 0.9766
       translator: 'unresolved: 2 rows disagree'
       edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 2 rows disagree'
+      work_date:
+        end: 426
+        formation_confidence: Widely Accepted
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml div1 5 introductory note: books I-III written 397, book
+          IV added 426; P1 agrees'
+        start: 397
       fit: direct
       says_and_applies: 'States his rule: if the literal sense is absurd, look for a figurative sense.'
       limits: Gives a test for absurd literal readings; does not say every verse has more than one meaning.
@@ -8570,6 +8890,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 2
+      work: On Christian Doctrine
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LV/line29478#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.LV/line29478
@@ -8584,9 +8909,21 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 0.9739
-      translator: 'unresolved: 3 rows disagree'
-      edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 3 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. J. G. Cunningham, M.A.
+        source: 'npnf101_augustine-confessions-letters.xml line 21712: Translated by the Rev. J. G. Cunningham, M.A.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf101_augustine-confessions-letters.xml line 725: New York, October, 1886.'
+        year: 1886
+      work_date:
+        end: 429
+        formation_confidence: Widely Accepted
+        source: npnf101_augustine-confessions-letters.xml letter headings (a.d. dates) for the 138 letters of this row, the
+          earliest 386; Letter CCXIX's heading reads 436, after Augustine's death in 430, and is left out; 15 letters print
+          no date
+        start: 386
       fit: direct
       says_and_applies: Says the Decalogue is to be taken literally except the Sabbath commandment, which he reads as a figure
         of spiritual rest.
@@ -8623,6 +8960,11 @@ subquestions:
       reader_note: Begins with heading 'Chap. XII.'; contains a harsh line on Jewish Sabbath observance that needs care if
         voiced.
       rank: 3
+      work: 'Letters of St. Augustin: the general correspondence'
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C5.S2c:
     label: The Old Testament read as about Jesus
     parent: C5.S2
@@ -8674,6 +9016,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Opens with the chapter 'Argument' heading, which should be stripped before voicing.
       rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XX.4#01
       file: npnf102_augustine-city-of-god-christian-doctrine.xml
       division_locus: iv.XX.4
@@ -8688,9 +9035,20 @@ subquestions:
         state: mixed
         name: null
       ocr_score: 1.0
-      translator: 'unresolved: 2 rows disagree'
-      edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 2 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. Marcus Dods, D.D. (Books IV, XVII, XVIII by Rev. George Wilson; Books V-VIII by Rev. J. J. Smith)
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 753: translated by Rev. Marcus Dods, D.D.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 744: New York, December 10, 1886.'
+        year: 1886
+      work_date:
+        end: 426
+        formation_confidence: Widely Accepted
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml div1 4 Translator''s Preface: begun 413, completed 426;
+          P1 and Source_Registry row 24 agree'
+        start: 413
       fit: partial
       says_and_applies: The Old Testament is herald and witness to the New and to the righteousness of God through faith of
         Jesus Christ. It states the relation in general terms.
@@ -8720,6 +9078,11 @@ subquestions:
       reader_note: Opens with chapter heading; purpose is ordering proofs of the last judgment; gives no example of an OT
         text read as about Christ.
       rank: 2
+      work: City of God
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C5.S2d:
     label: Reading the Hebrew scriptures with or against the Jews
     parent: C5.S2
@@ -8742,7 +9105,12 @@ subquestions:
       ocr_score: 0.9918
       translator: 'unresolved: 3 rows disagree'
       edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 3 rows disagree'
+      work_date:
+        end: 419
+        formation_confidence: Widely Accepted
+        source: npnf101_augustine-confessions-letters.xml letter headings (a.d. dates printed in each) for the 17 letters
+          of this row; all 17 carry a date
+        start: 394
       fit: partial
       says_and_applies: Augustine says Jews, if consulted on the Hebrew text's meaning, may give a different opinion from
         Jerome; the Oea Jews supported the Greek version, 'whether from ignorance or from spite'.
@@ -8774,6 +9142,11 @@ subquestions:
       reader_note: About translation and Jews as witnesses to Hebrew wording, not interpretive method; contains editorial
         chapter marker 'Chap. III. 5.'
       rank: 1
+      work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xv/line5999#01
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xv/line5999
@@ -8790,7 +9163,12 @@ subquestions:
       ocr_score: 0.9895
       translator: 'unresolved: 3 rows disagree'
       edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 9 rows disagree'
+      work_date:
+        end: 400
+        formation_confidence: Widely Accepted
+        source: 'npnf104_augustine-anti-manichaean-anti-donatist.xml div2 4.9 heading: a.d. 400, ''written about the year
+          400'''
+        start: 400
       fit: partial
       says_and_applies: Augustine reads Hebrew prophecy as foretelling Christ as God, and calls the Jews addressed by Christ
         'carnal'. It shows his reading and how he characterises Jews.
@@ -8821,6 +9199,11 @@ subquestions:
       reader_note: Argument aimed at Faustus; the 'carnal Jews' reading of David's son is the only contrast with a Jewish
         reading; Faustus phrase is clearly attributed.
       rank: 2
+      work: Reply to Faustus the Manichaean (Contra Faustum)
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXV/line32917#01
       file: npnf101_augustine-confessions-letters.xml
       division_locus: vii.1.LXXV/line32917
@@ -8838,7 +9221,12 @@ subquestions:
       ocr_score: 1.0
       translator: 'unresolved: 3 rows disagree'
       edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 3 rows disagree'
+      work_date:
+        end: 419
+        formation_confidence: Widely Accepted
+        source: npnf101_augustine-confessions-letters.xml letter headings (a.d. dates printed in each) for the 17 letters
+          of this row; all 17 carry a date
+        start: 394
       fit: partial
       says_and_applies: Jerome says his Latin version of the corrected Greek text brings out what the Jews omitted or tampered
         with, so Latin readers know what the original Hebrew has; no one must read it.
@@ -8870,6 +9258,11 @@ subquestions:
       reader_note: Speaker is Jerome writing to Augustine, not the volume's author; gloss wrongly said the tampering was in
         the Hebrew and that he translated from the Hebrew.
       rank: 3
+      work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C5.S2e:
     label: What a modern reader misses or misreads
     parent: C5.S2
@@ -8909,9 +9302,20 @@ subquestions:
         state: known
         name: augustine
       ocr_score: 1.0
-      translator: 'unresolved: 2 rows disagree'
-      edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 2 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. Marcus Dods, D.D. (Books IV, XVII, XVIII by Rev. George Wilson; Books V-VIII by Rev. J. J. Smith)
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 753: translated by Rev. Marcus Dods, D.D.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 744: New York, December 10, 1886.'
+        year: 1886
+      work_date:
+        end: 426
+        formation_confidence: Widely Accepted
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml div1 4 Translator''s Preface: begun 413, completed 426;
+          P1 and Source_Registry row 24 agree'
+        start: 413
       fit: direct
       says_and_applies: Names the Septuagint and its Latin version as the church's text, notes Jerome's Hebrew-based version
         and the Jewish claim that the Septuagint erred, and says he prefers the Septuagint.
@@ -8938,6 +9342,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 1
+      work: City of God
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:iv/line833#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: iv/line833
@@ -8987,6 +9396,11 @@ subquestions:
           can_be_voiced_as_own: false
       reader_note: Modern editor's introductory essay, not Augustine; usable only as outside description.
       rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: augustine
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C5.S3c:
     label: 'Who wrote the books: Moses and the first five, Paul and his letters'
     parent: C5.S3
@@ -9070,6 +9484,8 @@ subquestions:
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
       rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+      shelf_binding: row narrowed by locus_ids to this division
+      window: 'unknown: the row gives no dated window'
   C5.S3d:
     label: Whether science disproves the Bible
     parent: C5.S3
@@ -9089,9 +9505,20 @@ subquestions:
         state: known
         name: augustine
       ocr_score: 1.0
-      translator: 'unresolved: 2 rows disagree'
-      edition_date: 'unresolved: 2 rows disagree'
-      work_date: 'unresolved: 2 rows disagree'
+      translator:
+        formation_confidence: Documented
+        name: Rev. Marcus Dods, D.D. (Books IV, XVII, XVIII by Rev. George Wilson; Books V-VIII by Rev. J. J. Smith)
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 753: translated by Rev. Marcus Dods, D.D.'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml line 744: New York, December 10, 1886.'
+        year: 1886
+      work_date:
+        end: 426
+        formation_confidence: Widely Accepted
+        source: 'npnf102_augustine-city-of-god-christian-doctrine.xml div1 4 Translator''s Preface: begun 413, completed 426;
+          P1 and Source_Registry row 24 agree'
+        start: 413
       fit: partial
       says_and_applies: 'Bears on how Augustine treats a secular claim that conflicts with Scripture: he rejects it on divine
         authority. It is about the age of Egypt and the world, not science generally.'
@@ -9124,6 +9551,11 @@ subquestions:
       reader_note: Concerns Egyptian astronomical chronology versus biblical history, not science generally; rests on divine
         authority.
       rank: 1
+      work: City of God
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: inside
   C5.S6a:
     label: How someone who could not read received the scriptures
     parent: C5.S6
@@ -9193,6 +9625,8 @@ subquestions:
       author: augustine
       work_author_basis: row narrowed by its locus_ids to this passage division
       rekeyed_from: parent sub-question seed, placed under the split by the Opus split read
+      shelf_binding: row narrowed by locus_ids to this division
+      window: inside
   C5.S7b:
     label: 'Psalm 137: dashing the little ones against the rock'
     parent: C5.S7
@@ -9260,6 +9694,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Gloss adds 'not children', which the passage does not state.
       rank: 1
+      work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: 'unknown: the row gives no dated window'
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXXVII#05
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.CXXXVII
@@ -9322,6 +9761,11 @@ subquestions:
       reader_note: Cut off before his reading of the dashing; voiced alone, the talk of infants could mislead toward a literal
         sense; contains editorial ellipses and reported persecutors' words.
       rank: 2
+      work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
+      author: augustine
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
+      window: 'unknown: the row gives no dated window'
 dropped:
 - sub_question: C3.S1
   file: npnf102_augustine-city-of-god-christian-doctrine.xml

@@ -205,3 +205,9 @@ Status: OPEN for the project lead.
 43. **Independent recheck round 2 passed, 2026-10-24.** Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B5 and the two Syriac leftovers against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
    Status: CLOSED for the live-reply claim check findings.
+
+44. **Passage seeds: phase 1 and the first phase 2 batch, 2026-11-02.** `Build/worlds/syr/build/syr_Passage_Seeds.yaml` holds 49 checked seeds for 19 of the 130 sub-questions; none can be voiced, because no checked syr passage has a named speaker the readers could confirm as the author's own. Phase 1 gave 7 seeds from the coverage-map hits; the first search batch (12 concrete sub-questions) added 42. Each seed passed the code check against the vendored text and a reading by Sonnet, and Opus read every passage the first reader rated direct or partial.
+
+   What syr needs that lpc did not have: `locus_ids` on its corpus-map rows. Without them all 49 seeds read `file level only`, and most passages are not by Syriac authors (Clement of Alexandria, Palladius, the Apostolic Constitutions, the Pseudo-Clementines, Gregory the Great around 600); work and author are set on 22 and 36 of the 49, translator and edition year on none, and the date window is unknown on all. The index also marks the speaker of the Doctrine of Addai passage as "addai", which Opus found wrong (the narrator is the anonymous author writing as the scribe Labubna).
+
+   Status: OPEN for the row fields. Owner: Library thread, through the coordination thread.
