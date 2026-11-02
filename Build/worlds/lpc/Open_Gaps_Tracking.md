@@ -2776,3 +2776,9 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Done.** Every seed in every world's `*_Passage_Seeds.yaml` now carries `window` (the row's dated window against the world's registry time window: `inside`, `outside` or `unknown`) and `shelf_binding` (`row narrowed by locus_ids to this division`, or `file level only`: the file is on the world's shelf, this work may not be). A seed outside the window cannot stay voiceable. lpc: 76 seeds inside, 67 unknown, none outside; 102 narrowed, 41 file level. The file shape and rules are the same for alx, syr and rzg.
 - **Open.** The 67 lpc seeds with an unknown window have rows that give no dated window (the Nicene Fathers volumes); same cause as OG-155.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-163. Seed `author` for anonymous works (2026-11-02).
+
+- **Done.** For a work the corpus map marks `kind: anonymous` in `UNATTRIBUTED.yaml`, the row's author slug names the work itself (`passion-of-scillitan-martyrs`, `council-of-carthage-419`), so a seed printed a work title as its author. The seed builder now writes `author: anonymous` and keeps the slug in a new `author_slug` field; 14 seed entries in the lpc file changed (12 Scillitan Martyrs, 2 Council of Carthage 419). alx, syr and rzg have none.
+- **Open.** Some `pseudonymous` slugs are also work titles (alx `liturgy-of-st-mark`, syr `liturgy-of-addai-and-mari`); the file cannot tell a title-shaped slug from a pseudonym, so they are left as they are. A rule for them is a call for the Library or Engine.
+- **Owner.** Library thread, through the coordination thread.
