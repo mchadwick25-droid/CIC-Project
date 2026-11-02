@@ -1,0 +1,407 @@
+[
+ {
+  "id": "q001-p1",
+  "relevant": "no",
+  "note": "Zwingli on predestination/God's being and Adam's fall; nothing on sources reaching Jesus"
+ },
+ {
+  "id": "q001-p2",
+  "relevant": "no",
+  "note": "Zwingli on predestination/God's being and Adam's fall; nothing on sources reaching Jesus"
+ },
+ {
+  "id": "q001-p3",
+  "relevant": "no",
+  "note": "Zwingli on predestination/God's being and Adam's fall; nothing on sources reaching Jesus"
+ },
+ {
+  "id": "q002-p1",
+  "relevant": "yes",
+  "note": "p1 editor: Zwingli defines Jesus as Savior, gospel = sins remitted in Christ; p2 grace through Christ; p3 Calvin letter about school news"
+ },
+ {
+  "id": "q002-p2",
+  "relevant": "partly",
+  "note": "p1 editor: Zwingli defines Jesus as Savior, gospel = sins remitted in Christ; p2 grace through Christ; p3 Calvin letter about school news"
+ },
+ {
+  "id": "q002-p3",
+  "relevant": "no",
+  "note": "p1 editor: Zwingli defines Jesus as Savior, gospel = sins remitted in Christ; p2 grace through Christ; p3 Calvin letter about school news"
+ },
+ {
+  "id": "q003-p1",
+  "relevant": "no",
+  "note": "p2 faith as Spirit-given trust in Christ bears on inability to believe; others off"
+ },
+ {
+  "id": "q003-p2",
+  "relevant": "partly",
+  "note": "p2 faith as Spirit-given trust in Christ bears on inability to believe; others off"
+ },
+ {
+  "id": "q003-p3",
+  "relevant": "no",
+  "note": "p2 faith as Spirit-given trust in Christ bears on inability to believe; others off"
+ },
+ {
+  "id": "q004-p1",
+  "relevant": "yes",
+  "note": "p1 one essence, Father fountain of Godhead; p2 against Arius/Sabellius; p3 God's decree"
+ },
+ {
+  "id": "q004-p2",
+  "relevant": "partly",
+  "note": "p1 one essence, Father fountain of Godhead; p2 against Arius/Sabellius; p3 God's decree"
+ },
+ {
+  "id": "q004-p3",
+  "relevant": "no",
+  "note": "p1 one essence, Father fountain of Godhead; p2 against Arius/Sabellius; p3 God's decree"
+ },
+ {
+  "id": "q005-p1",
+  "relevant": "no",
+  "note": "p3 Baden disputation as dispute venue; others off"
+ },
+ {
+  "id": "q005-p2",
+  "relevant": "no",
+  "note": "p3 Baden disputation as dispute venue; others off"
+ },
+ {
+  "id": "q005-p3",
+  "relevant": "partly",
+  "note": "p3 Baden disputation as dispute venue; others off"
+ },
+ {
+  "id": "q006-p1",
+  "relevant": "yes",
+  "note": "p1 God as favourable father not avenging judge; p2 Christ bore divine anger; p3 Paul's anger at Galatians"
+ },
+ {
+  "id": "q006-p2",
+  "relevant": "partly",
+  "note": "p1 God as favourable father not avenging judge; p2 Christ bore divine anger; p3 Paul's anger at Galatians"
+ },
+ {
+  "id": "q006-p3",
+  "relevant": "no",
+  "note": "p1 God as favourable father not avenging judge; p2 Christ bore divine anger; p3 Paul's anger at Galatians"
+ },
+ {
+  "id": "q007-p1",
+  "relevant": "no",
+  "note": "none speaks to room for doubters"
+ },
+ {
+  "id": "q007-p2",
+  "relevant": "no",
+  "note": "none speaks to room for doubters"
+ },
+ {
+  "id": "q007-p3",
+  "relevant": "no",
+  "note": "none speaks to room for doubters"
+ },
+ {
+  "id": "q008-p1",
+  "relevant": "yes",
+  "note": "all three treat original sin, inherited guilt and infants"
+ },
+ {
+  "id": "q008-p2",
+  "relevant": "yes",
+  "note": "all three treat original sin, inherited guilt and infants"
+ },
+ {
+  "id": "q008-p3",
+  "relevant": "yes",
+  "note": "all three treat original sin, inherited guilt and infants"
+ },
+ {
+  "id": "q009-p1",
+  "relevant": "no",
+  "note": "letters and Keys argument; nothing on scholarly scrutiny"
+ },
+ {
+  "id": "q009-p2",
+  "relevant": "no",
+  "note": "letters and Keys argument; nothing on scholarly scrutiny"
+ },
+ {
+  "id": "q009-p3",
+  "relevant": "no",
+  "note": "letters and Keys argument; nothing on scholarly scrutiny"
+ },
+ {
+  "id": "q010-p1",
+  "relevant": "no",
+  "note": "p2 OT as sole scripture of apostles, settling controversy by its authority"
+ },
+ {
+  "id": "q010-p2",
+  "relevant": "partly",
+  "note": "p2 OT as sole scripture of apostles, settling controversy by its authority"
+ },
+ {
+  "id": "q010-p3",
+  "relevant": "no",
+  "note": "p2 OT as sole scripture of apostles, settling controversy by its authority"
+ },
+ {
+  "id": "q011-p1",
+  "relevant": "no",
+  "note": "baptism polemic; nothing on what readers miss"
+ },
+ {
+  "id": "q011-p2",
+  "relevant": "no",
+  "note": "baptism polemic; nothing on what readers miss"
+ },
+ {
+  "id": "q011-p3",
+  "relevant": "no",
+  "note": "baptism polemic; nothing on what readers miss"
+ },
+ {
+  "id": "q012-p1",
+  "relevant": "no",
+  "note": "p2 true religion from word of God vs traditions of men; p3 papal succession claim"
+ },
+ {
+  "id": "q012-p2",
+  "relevant": "yes",
+  "note": "p2 true religion from word of God vs traditions of men; p3 papal succession claim"
+ },
+ {
+  "id": "q012-p3",
+  "relevant": "partly",
+  "note": "p2 true religion from word of God vs traditions of men; p3 papal succession claim"
+ },
+ {
+  "id": "q013-p1",
+  "relevant": "no",
+  "note": "nothing on hiding underground"
+ },
+ {
+  "id": "q013-p2",
+  "relevant": "no",
+  "note": "nothing on hiding underground"
+ },
+ {
+  "id": "q013-p3",
+  "relevant": "no",
+  "note": "nothing on hiding underground"
+ },
+ {
+  "id": "q014-p1",
+  "relevant": "no",
+  "note": "baptism and Adam passages; nothing on choosing leaders"
+ },
+ {
+  "id": "q014-p2",
+  "relevant": "no",
+  "note": "baptism and Adam passages; nothing on choosing leaders"
+ },
+ {
+  "id": "q014-p3",
+  "relevant": "no",
+  "note": "baptism and Adam passages; nothing on choosing leaders"
+ },
+ {
+  "id": "q015-p1",
+  "relevant": "no",
+  "note": "polemic against Pharisees/Anabaptists; no response to failing someone"
+ },
+ {
+  "id": "q015-p2",
+  "relevant": "no",
+  "note": "polemic against Pharisees/Anabaptists; no response to failing someone"
+ },
+ {
+  "id": "q015-p3",
+  "relevant": "no",
+  "note": "polemic against Pharisees/Anabaptists; no response to failing someone"
+ },
+ {
+  "id": "q016-p1",
+  "relevant": "no",
+  "note": "nothing on a present-day church continuing the tradition"
+ },
+ {
+  "id": "q016-p2",
+  "relevant": "no",
+  "note": "nothing on a present-day church continuing the tradition"
+ },
+ {
+  "id": "q016-p3",
+  "relevant": "no",
+  "note": "nothing on a present-day church continuing the tradition"
+ },
+ {
+  "id": "q017-p1",
+  "relevant": "partly",
+  "note": "p1 ministers must be sent as apostles were; weak link to apostolic practice"
+ },
+ {
+  "id": "q017-p2",
+  "relevant": "no",
+  "note": "p1 ministers must be sent as apostles were; weak link to apostolic practice"
+ },
+ {
+  "id": "q017-p3",
+  "relevant": "no",
+  "note": "p1 ministers must be sent as apostles were; weak link to apostolic practice"
+ },
+ {
+  "id": "q018-p1",
+  "relevant": "yes",
+  "note": "baptism by dipping in triune name; grounds for infant baptism; p3 apostles and infants"
+ },
+ {
+  "id": "q018-p2",
+  "relevant": "yes",
+  "note": "baptism by dipping in triune name; grounds for infant baptism; p3 apostles and infants"
+ },
+ {
+  "id": "q018-p3",
+  "relevant": "partly",
+  "note": "baptism by dipping in triune name; grounds for infant baptism; p3 apostles and infants"
+ },
+ {
+  "id": "q019-p1",
+  "relevant": "no",
+  "note": "nothing on an unsettled mind"
+ },
+ {
+  "id": "q019-p2",
+  "relevant": "no",
+  "note": "nothing on an unsettled mind"
+ },
+ {
+  "id": "q019-p3",
+  "relevant": "no",
+  "note": "nothing on an unsettled mind"
+ },
+ {
+  "id": "q020-p1",
+  "relevant": "partly",
+  "note": "baptism as initiation into new life; inward baptism of Spirit; no born-again wording"
+ },
+ {
+  "id": "q020-p2",
+  "relevant": "partly",
+  "note": "baptism as initiation into new life; inward baptism of Spirit; no born-again wording"
+ },
+ {
+  "id": "q020-p3",
+  "relevant": "partly",
+  "note": "baptism as initiation into new life; inward baptism of Spirit; no born-again wording"
+ },
+ {
+  "id": "q021-p1",
+  "relevant": "no",
+  "note": "nothing on archaeology or gathering places"
+ },
+ {
+  "id": "q021-p2",
+  "relevant": "no",
+  "note": "nothing on archaeology or gathering places"
+ },
+ {
+  "id": "q021-p3",
+  "relevant": "no",
+  "note": "nothing on archaeology or gathering places"
+ },
+ {
+  "id": "q022-p1",
+  "relevant": "partly",
+  "note": "food freedom, fasting and frugality bear on daily life only in part"
+ },
+ {
+  "id": "q022-p2",
+  "relevant": "partly",
+  "note": "food freedom, fasting and frugality bear on daily life only in part"
+ },
+ {
+  "id": "q022-p3",
+  "relevant": "partly",
+  "note": "food freedom, fasting and frugality bear on daily life only in part"
+ },
+ {
+  "id": "q023-p1",
+  "relevant": "no",
+  "note": "p2 threats for confessing faith and distance"
+ },
+ {
+  "id": "q023-p2",
+  "relevant": "partly",
+  "note": "p2 threats for confessing faith and distance"
+ },
+ {
+  "id": "q023-p3",
+  "relevant": "no",
+  "note": "p2 threats for confessing faith and distance"
+ },
+ {
+  "id": "q024-p1",
+  "relevant": "yes",
+  "note": "consent constitutes marriage; divorce for adultery; adultery punishment"
+ },
+ {
+  "id": "q024-p2",
+  "relevant": "yes",
+  "note": "consent constitutes marriage; divorce for adultery; adultery punishment"
+ },
+ {
+  "id": "q024-p3",
+  "relevant": "partly",
+  "note": "consent constitutes marriage; divorce for adultery; adultery punishment"
+ },
+ {
+  "id": "q025-p1",
+  "relevant": "no",
+  "note": "edition history of Institutes; nothing on torture-derived record"
+ },
+ {
+  "id": "q025-p2",
+  "relevant": "no",
+  "note": "edition history of Institutes; nothing on torture-derived record"
+ },
+ {
+  "id": "q025-p3",
+  "relevant": "no",
+  "note": "edition history of Institutes; nothing on torture-derived record"
+ },
+ {
+  "id": "q026-p1",
+  "relevant": "no",
+  "note": "p2 abuses crept into church discipline; others polemic"
+ },
+ {
+  "id": "q026-p2",
+  "relevant": "partly",
+  "note": "p2 abuses crept into church discipline; others polemic"
+ },
+ {
+  "id": "q026-p3",
+  "relevant": "no",
+  "note": "p2 abuses crept into church discipline; others polemic"
+ },
+ {
+  "id": "q028-p1",
+  "relevant": "partly",
+  "note": "p1 one people, Jews cut off; p3 judging election, children of Christians"
+ },
+ {
+  "id": "q028-p2",
+  "relevant": "no",
+  "note": "p1 one people, Jews cut off; p3 judging election, children of Christians"
+ },
+ {
+  "id": "q028-p3",
+  "relevant": "partly",
+  "note": "p1 one people, Jews cut off; p3 judging election, children of Christians"
+ }
+]
