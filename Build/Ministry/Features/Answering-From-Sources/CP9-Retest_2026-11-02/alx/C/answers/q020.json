@@ -1,0 +1,160 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.photismos"
+   ],
+   "sentence": "Among us the turning of a life came at baptism, and people called being baptized being enlightened."
+  },
+  {
+   "record_ids": [
+    "alx.term.photismos"
+   ],
+   "sentence": "The light of baptism was new birth spoken of as new sight."
+  },
+  {
+   "record_ids": [
+    "alx.term.baptism"
+   ],
+   "sentence": "We did not take baptism for a ceremony announcing a choice already made."
+  },
+  {
+   "record_ids": [
+    "alx.term.baptism"
+   ],
+   "sentence": "We held it to be a real crossing, in the body, into the new life."
+  },
+  {
+   "record_ids": [
+    "alx.term.photismos"
+   ],
+   "sentence": "It was not a private mystical experience, and it belonged to the community's own worship."
+  },
+  {
+   "record_ids": [
+    "alx.term.katechesis"
+   ],
+   "sentence": "The way to the water was long: katechesis, the staged and tested teaching given over a long time to those preparing for baptism."
+  },
+  {
+   "record_ids": [
+    "alx.term.baptism"
+   ],
+   "sentence": "The baptized did not come up from the water already fully formed."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Formation went on as a real turning of the whole person toward a share in the divine life, step by step."
+  }
+ ],
+ "citations": [
+  "alx.gravity.soul-transformation",
+  "alx.term.baptism",
+  "alx.term.katechesis",
+  "alx.term.photismos"
+ ],
+ "group": "A",
+ "id": "q020",
+ "net_sentences": [
+  {
+   "draft": "Among us the turning of a life came at baptism, and people called being baptized being enlightened [[alx.term.photismos]] [[as:paraphrase]].",
+   "sentence": "Among us the turning of a life came at baptism, and people called being baptized being enlightened.",
+   "tags": [
+    "alx.term.photismos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The light of baptism was new birth spoken of as new sight [[alx.term.photismos]] [[as:paraphrase]].",
+   "sentence": "The light of baptism was new birth spoken of as new sight.",
+   "tags": [
+    "alx.term.photismos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We did not take baptism for a ceremony announcing a choice already made [[alx.term.baptism]] [[as:paraphrase]].",
+   "sentence": "We did not take baptism for a ceremony announcing a choice already made.",
+   "tags": [
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We held it to be a real crossing, in the body, into the new life [[alx.term.baptism]] [[as:paraphrase]].",
+   "sentence": "We held it to be a real crossing, in the body, into the new life.",
+   "tags": [
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It was not a private mystical experience, and it belonged to the community's own worship [[alx.term.photismos]] [[as:paraphrase]].",
+   "sentence": "It was not a private mystical experience, and it belonged to the community's own worship.",
+   "tags": [
+    "alx.term.photismos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The way to the water was long: katechesis, the staged and tested teaching given over a long time to those preparing for baptism [[alx.term.katechesis]] [[as:paraphrase]].",
+   "sentence": "The way to the water was long: katechesis, the staged and tested teaching given over a long time to those preparing for baptism.",
+   "tags": [
+    "alx.term.katechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The baptized did not come up from the water already fully formed [[alx.term.baptism]] [[as:paraphrase]].",
+   "sentence": "The baptized did not come up from the water already fully formed.",
+   "tags": [
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Formation went on as a real turning of the whole person toward a share in the divine life, step by step [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "Formation went on as a real turning of the whole person toward a share in the divine life, step by step.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.limit.f5-women-own-words",
+  "alx.dw.doubt",
+  "alx.term.eikon",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.quote.dionysius-plague",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.learning-community-tension",
+  "alx.dw.suffering",
+  "alx.term.hamartia",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-formation"
+ ],
+ "raw_text": "Among us the turning of a life came at baptism, and people called being baptized being enlightened [[alx.term.photismos]] [[as:paraphrase]].\nThe light of baptism was new birth spoken of as new sight [[alx.term.photismos]] [[as:paraphrase]].\nWe did not take baptism for a ceremony announcing a choice already made [[alx.term.baptism]] [[as:paraphrase]].\nWe held it to be a real crossing, in the body, into the new life [[alx.term.baptism]] [[as:paraphrase]].\nIt was not a private mystical experience, and it belonged to the community's own worship [[alx.term.photismos]] [[as:paraphrase]].\nThe way to the water was long: katechesis, the staged and tested teaching given over a long time to those preparing for baptism [[alx.term.katechesis]] [[as:paraphrase]].\nThe baptized did not come up from the water already fully formed [[alx.term.baptism]] [[as:paraphrase]].\nFormation went on as a real turning of the whole person toward a share in the divine life, step by step [[alx.gravity.soul-transformation]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S5",
+ "text": "Among us the turning of a life came at baptism, and people called being baptized being enlightened. The light of baptism was new birth spoken of as new sight. We did not take baptism for a ceremony announcing a choice already made. We held it to be a real crossing, in the body, into the new life. It was not a private mystical experience, and it belonged to the community's own worship. The way to the water was long: katechesis, the staged and tested teaching given over a long time to those preparing for baptism. The baptized did not come up from the water already fully formed. Formation went on as a real turning of the whole person toward a share in the divine life, step by step.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,142 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "We would tell them that our teachers treated doubt aimed at understanding as hunger, and did not count it as sin."
+  },
+  {
+   "record_ids": [
+    "alx.term.pistis"
+   ],
+   "sentence": "Faith, as our teachers meant it, is not agreeing with a list of claims but the soul's first real turn toward God."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Clement insisted that faith is the foundation and not the ceiling, and that growing from faith into understanding means asking."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Origen's rule was that what the apostles delivered plainly is fixed, and everything else is open ground for asking, testing and correcting."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our doubters stood inside a praying community, and they were expected to bring the question to a teacher rather than carry it alone."
+  }
+ ],
+ "citations": [
+  "alx.dw.doubt",
+  "alx.term.pistis"
+ ],
+ "group": "A",
+ "id": "q003",
+ "net_sentences": [
+  {
+   "draft": "We would tell them that our teachers treated doubt aimed at understanding as hunger, and did not count it as sin [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "We would tell them that our teachers treated doubt aimed at understanding as hunger, and did not count it as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Faith, as our teachers meant it, is not agreeing with a list of claims but the soul's first real turn toward God [[alx.term.pistis]] [[as:paraphrase]].",
+   "sentence": "Faith, as our teachers meant it, is not agreeing with a list of claims but the soul's first real turn toward God.",
+   "tags": [
+    "alx.term.pistis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement insisted that faith is the foundation and not the ceiling, and that growing from faith into understanding means asking [[alx.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Clement insisted that faith is the foundation and not the ceiling, and that growing from faith into understanding means asking.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Origen's rule was that what the apostles delivered plainly is fixed, and everything else is open ground for asking, testing and correcting [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Origen's rule was that what the apostles delivered plainly is fixed, and everything else is open ground for asking, testing and correcting.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our doubters stood inside a praying community, and they were expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Our doubters stood inside a praying community, and they were expected to bring the question to a teacher rather than carry it alone.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.doubt",
+  "alx.term.pistis",
+  "alx.story.gregory-formation",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.quote.to-believe-or-disbelieve",
+  "alx.force.knowing-impulse",
+  "alx.dw.apostolic",
+  "alx.story.john-young-robber",
+  "alx.quote.gregory-spark",
+  "alx.dw.resurrection",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.term.ekklesia",
+  "alx.term.didaskalos",
+  "alx.term.episkopos",
+  "alx.story.origen-daring-deed",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.force.origen-demetrius-conflict",
+  "alx.contested.didaskaleion-institution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "We would tell them that our teachers treated doubt aimed at understanding as hunger, and did not count it as sin [[alx.dw.doubt]] [[as:paraphrase]]. Faith, as our teachers meant it, is not agreeing with a list of claims but the soul's first real turn toward God [[alx.term.pistis]] [[as:paraphrase]]. Clement insisted that faith is the foundation and not the ceiling, and that growing from faith into understanding means asking [[alx.dw.doubt]] [[as:paraphrase]]. Origen's rule was that what the apostles delivered plainly is fixed, and everything else is open ground for asking, testing and correcting [[alx.dw.doubt]] [[as:paraphrase]]. Our doubters stood inside a praying community, and they were expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]]. Dionysius of Alexandria, quoted by Eusebius, wrote: [[quote:alx.quote.dionysius-too-high-for-me-to-grasp]] [[as:paraphrase]]. We do not have the modern language of a private crisis of faith, and our sources barely show the ordinary doubter's own experience [[alx.dw.doubt]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Dionysius of Alexandria, quoted by Eusebius, wrote: [[quote:alx.quote.dionysius-too-high-for-me-to-grasp]]",
+    "sentence": "Dionysius of Alexandria, quoted by Eusebius, wrote:",
+    "why": "placed quote does not match its record"
+   },
+   {
+    "draft": "We do not have the modern language of a private crisis of faith, and our sources barely show the ordinary doubter's own experience [[alx.dw.doubt]] [[as:paraphrase]].",
+    "sentence": "We do not have the modern language of a private crisis of faith, and our sources barely show the ordinary doubter's own experience.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S4",
+ "text": "We would tell them that our teachers treated doubt aimed at understanding as hunger, and did not count it as sin. Faith, as our teachers meant it, is not agreeing with a list of claims but the soul's first real turn toward God. Clement insisted that faith is the foundation and not the ceiling, and that growing from faith into understanding means asking. Origen's rule was that what the apostles delivered plainly is fixed, and everything else is open ground for asking, testing and correcting. Our doubters stood inside a praying community, and they were expected to bring the question to a teacher rather than carry it alone..",
+ "voice_set_aside": false
+}

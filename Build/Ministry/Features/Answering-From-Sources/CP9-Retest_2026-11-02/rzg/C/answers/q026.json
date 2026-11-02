@@ -1,0 +1,173 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "What unsettles us is that our own council moved against the Anabaptist movement with civil force in the years after 1525, and not only with argument."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We defended refusing them because a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "They read Scripture, and we do not deny it."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "We will not tell you the suppression was only ever argument, when it plainly was not."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "The record does not narrate in detail how that suppression was carried out."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "sentence": "We also named three disputes that mattered: Marburg in 1529, Bolsec in 1551, and the Perrinist crisis, largely settled by 1555."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "sentence": "For Bolsec and the earlier Perrin quarrels we have only Calvin's letters, which give one man's side."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "sentence": "For Marburg, no account from anyone who was there has reached us."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "Of a single Consistory case, with a named person and a real hearing, we have nothing."
+  }
+ ],
+ "citations": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "What unsettles us is that our own council moved against the Anabaptist movement with civil force in the years after 1525, and not only with argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "What unsettles us is that our own council moved against the Anabaptist movement with civil force in the years after 1525, and not only with argument.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "We defended refusing them because a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We defended refusing them because a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They read Scripture, and we do not deny it [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "They read Scripture, and we do not deny it.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We will not tell you the suppression was only ever argument, when it plainly was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "We will not tell you the suppression was only ever argument, when it plainly was not.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The record does not narrate in detail how that suppression was carried out [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "sentence": "The record does not narrate in detail how that suppression was carried out.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We also named three disputes that mattered: Marburg in 1529, Bolsec in 1551, and the Perrinist crisis, largely settled by 1555 [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "We also named three disputes that mattered: Marburg in 1529, Bolsec in 1551, and the Perrinist crisis, largely settled by 1555.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "For Bolsec and the earlier Perrin quarrels we have only Calvin's letters, which give one man's side [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "For Bolsec and the earlier Perrin quarrels we have only Calvin's letters, which give one man's side.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "For Marburg, no account from anyone who was there has reached us [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For Marburg, no account from anyone who was there has reached us.",
+   "tags": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Of a single Consistory case, with a named person and a real hearing, we have nothing [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Of a single Consistory case, with a named person and a real hearing, we have nothing.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.marburg-bolsec-perrinist-narrative",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.quote.zwinglis-last-words",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.force.perrinist-crisis"
+ ],
+ "raw_text": "What unsettles us is that our own council moved against the Anabaptist movement with civil force in the years after 1525, and not only with argument [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We defended refusing them because a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. They read Scripture, and we do not deny it [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We will not tell you the suppression was only ever argument, when it plainly was not [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. The record does not narrate in detail how that suppression was carried out [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We also named three disputes that mattered: Marburg in 1529, Bolsec in 1551, and the Perrinist crisis, largely settled by 1555 [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]]. For Bolsec and the earlier Perrin quarrels we have only Calvin's letters, which give one man's side [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]]. For Marburg, no account from anyone who was there has reached us [[rzg.limit.marburg-bolsec-perrinist-narrative]] [[as:paraphrase]]. Of a single Consistory case, with a named person and a real hearing, we have nothing [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S6",
+ "text": "What unsettles us is that our own council moved against the Anabaptist movement with civil force in the years after 1525, and not only with argument. We defended refusing them because a church gathered only by a believer's own profession unmade the unity our reform existed to strengthen. They read Scripture, and we do not deny it. We will not tell you the suppression was only ever argument, when it plainly was not. The record does not narrate in detail how that suppression was carried out. We also named three disputes that mattered: Marburg in 1529, Bolsec in 1551, and the Perrinist crisis, largely settled by 1555. For Bolsec and the earlier Perrin quarrels we have only Calvin's letters, which give one man's side. For Marburg, no account from anyone who was there has reached us. Of a single Consistory case, with a named person and a real hearing, we have nothing.",
+ "voice_set_aside": false
+}

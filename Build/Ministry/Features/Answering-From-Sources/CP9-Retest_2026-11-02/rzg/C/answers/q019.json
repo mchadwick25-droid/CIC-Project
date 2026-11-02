@@ -1,0 +1,146 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Among us, a mind that would not settle was given no method for searching harder within, and was turned outward toward Christ instead."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "Our confession named Christ as the mirror in which we see our election."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "sentence": "Heinrich Bullinger set this down for those anxious about election: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”"
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We held election as the ground of a settled life, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.witness.a-quieted-mind"
+ ],
+ "group": "A",
+ "id": "q019",
+ "net_sentences": [
+  {
+   "draft": "Among us, a mind that would not settle was given no method for searching harder within, and was turned outward toward Christ instead [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Among us, a mind that would not settle was given no method for searching harder within, and was turned outward toward Christ instead.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "Our confession named Christ as the mirror in which we see our election.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "A mind turned only on itself finds more of itself, and no bottom to it.",
+   "tags": [
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Heinrich Bullinger set this down for those anxious about election: [[quote:rzg.quote.christ-the-mirror-of-election]]",
+   "placed_quote": "rzg.quote.christ-the-mirror-of-election",
+   "sentence": "Heinrich Bullinger set this down for those anxious about election: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”",
+   "tags": [
+    "rzg.quote.christ-the-mirror-of-election"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We held election as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "We held election as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.reformation",
+  "rzg.quote.christ-the-mirror-of-election",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.force.synod-of-dort-international-dimension",
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.force.perrinist-crisis"
+ ],
+ "raw_text": "Among us, a mind that would not settle was given no method for searching harder within, and was turned outward toward Christ instead [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. Our confession named Christ as the mirror in which we see our election [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. A mind turned only on itself finds more of itself, and no bottom to it [[rzg.witness.a-quieted-mind]] [[as:paraphrase]]. Heinrich Bullinger set this down for those anxious about election: [[quote:rzg.quote.christ-the-mirror-of-election]] [[as:paraphrase]]. We held election as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.christ-the-mirror-of-election": [
+    {
+     "detail": "election",
+     "kind": "occasion",
+     "snippet": "stination. Bullinger's confession turns those anxious about election away from self-scrutiny to Christ, the mirror in which beli",
+     "span": "record rzg.quote.christ-the-mirror-of-election"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.christ-the-mirror-of-election"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S8",
+ "text": "Among us, a mind that would not settle was given no method for searching harder within, and was turned outward toward Christ instead. Our confession named Christ as the mirror in which we see our election. A mind turned only on itself finds more of itself, and no bottom to it. Heinrich Bullinger set this down for those anxious about election: “We reject those who try to find out, apart from Christ, whether they are chosen. ... Let ... Christ be the mirror in which we look at our predestination.”. We held election as the ground of a settled life, not as a threat. Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,193 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "We read Scripture as the canon that stands far above every later letter of a bishop, Old Testament and New."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "Augustine said there can be no doubt or argument about what it contains."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "A bishop's letter can be corrected, and a council by a later, greater council, but Scripture cannot be corrected that way at all."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "sentence": "Our bishops and councils still held real authority of their own, over real disputes among us."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Genesis reports three days before the sun was made on the fourth, and Augustine named that difficulty honestly rather than explaining it away."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Augustine wrote that we cannot understand how it was, and yet we must believe it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "When a Manichaean pressed him on the wars of Moses, Augustine answered that Moses showed obedience, not ferocity, since the command was God's own."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "We held that the earthly wars of the old order were themselves a kind of picture, for a time."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.believe-and-thou-hast-eaten-already"
+   ],
+   "sentence": "Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.witness.days-before-the-sun",
+  "lpc.witness.scripture-above-councils",
+  "lpc.witness.violence-commanded-not-cruel"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read Scripture as the canon that stands far above every later letter of a bishop, Old Testament and New [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "We read Scripture as the canon that stands far above every later letter of a bishop, Old Testament and New.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Augustine said there can be no doubt or argument about what it contains [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].",
+   "sentence": "Augustine said there can be no doubt or argument about what it contains.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A bishop's letter can be corrected, and a council by a later, greater council, but Scripture cannot be corrected that way at all [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A bishop's letter can be corrected, and a council by a later, greater council, but Scripture cannot be corrected that way at all.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our bishops and councils still held real authority of their own, over real disputes among us [[lpc.witness.scripture-above-councils]] [[as:paraphrase]].",
+   "sentence": "Our bishops and councils still held real authority of their own, over real disputes among us.",
+   "tags": [
+    "lpc.witness.scripture-above-councils"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Genesis reports three days before the sun was made on the fourth, and Augustine named that difficulty honestly rather than explaining it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Genesis reports three days before the sun was made on the fourth, and Augustine named that difficulty honestly rather than explaining it away.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote that we cannot understand how it was, and yet we must believe it [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "sentence": "Augustine wrote that we cannot understand how it was, and yet we must believe it.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When a Manichaean pressed him on the wars of Moses, Augustine answered that Moses showed obedience, not ferocity, since the command was God's own [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "When a Manichaean pressed him on the wars of Moses, Augustine answered that Moses showed obedience, not ferocity, since the command was God's own.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "We held that the earthly wars of the old order were themselves a kind of picture, for a time [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]].",
+   "sentence": "We held that the earthly wars of the old order were themselves a kind of picture, for a time.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine wrote: [[quote:lpc.quote.believe-and-thou-hast-eaten-already]]",
+   "placed_quote": "lpc.quote.believe-and-thou-hast-eaten-already",
+   "sentence": "Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”",
+   "tags": [
+    "lpc.quote.believe-and-thou-hast-eaten-already"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.days-before-the-sun",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+ ],
+ "raw_text": "We read Scripture as the canon that stands far above every later letter of a bishop, Old Testament and New [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Augustine said there can be no doubt or argument about what it contains [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. A bishop's letter can be corrected, and a council by a later, greater council, but Scripture cannot be corrected that way at all [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Our bishops and councils still held real authority of their own, over real disputes among us [[lpc.witness.scripture-above-councils]] [[as:paraphrase]]. Genesis reports three days before the sun was made on the fourth, and Augustine named that difficulty honestly rather than explaining it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. Augustine wrote that we cannot understand how it was, and yet we must believe it [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. When a Manichaean pressed him on the wars of Moses, Augustine answered that Moses showed obedience, not ferocity, since the command was God's own [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. We held that the earthly wars of the old order were themselves a kind of picture, for a time [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.believe-and-thou-hast-eaten-already]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.believe-and-thou-hast-eaten-already": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "eth and stomach ready? Believe, and you have eaten already. Tractate 25 on the Gospel of John (NPNF Tractate XXV), section 12; E",
+     "span": "record lpc.quote.believe-and-thou-hast-eaten-already"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.believe-and-thou-hast-eaten-already"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2a",
+ "text": "We read Scripture as the canon that stands far above every later letter of a bishop, Old Testament and New. Augustine said there can be no doubt or argument about what it contains. A bishop's letter can be corrected, and a council by a later, greater council, but Scripture cannot be corrected that way at all. Our bishops and councils still held real authority of their own, over real disputes among us. Genesis reports three days before the sun was made on the fourth, and Augustine named that difficulty honestly rather than explaining it away. Augustine wrote that we cannot understand how it was, and yet we must believe it. When a Manichaean pressed him on the wars of Moses, Augustine answered that Moses showed obedience, not ferocity, since the command was God's own. We held that the earthly wars of the old order were themselves a kind of picture, for a time. Augustine wrote: “‘Jesus answered and said to them, This is the work of God, that you believe in Him whom He has sent.’ This, then, is to eat the food: not the food that perishes, but the food that lasts to eternal life. Why do you get your teeth and stomach ready? Believe, and you have eaten already.”.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,438 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "What we had of Jesus was the Gospel woven into one continuous story, and our churches read it in worship."
+  },
+  {
+   "record_ids": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "Beside it stood the Law and the Prophets, read as one long promise pointing to him."
+  },
+  {
+   "record_ids": [
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "We claimed no living eyewitnesses, since a century and more stood between us and the events."
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "sentence": "We confessed him as the Only-Begotten of God, the Ihidaya, our own name for him."
+  },
+  {
+   "record_ids": [
+    "syr.quote.nativity-this-is-the-day"
+   ],
+   "sentence": "Ephrem sang of the Nativity: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.gospel-harmony",
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Our own account of the path is a story of an apostle sent to our king, and that is our cherished legend, not our evidence."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Our cherished story of our founding names King Abgar and the apostle Addai:"
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "This is how we tell our own beginning."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "King Abgar of Edessa was sick when his envoys came home from Jerusalem with news of what Jesus was doing."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "The king wrote Jesus a letter."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "He had heard, he wrote, that Jesus healed without medicines or herbs and opened the eyes of the blind by his word."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Abgar called Jesus either God come down from heaven or the Son of God, and he asked him to come and heal him."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "He had heard that some were seeking Jesus' life, so he offered to share his own small and beautiful city."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Jesus answered, the story says, that the work he was sent for was now finished and he was going up to his Father."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "After that he would send one of his disciples to heal the king, and the city would be blessed."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "After the ascension Addai came, one of the seventy-two, and stayed with a Jewish man named Tobias."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "The story says he healed the king and preached to the city, calling it away from Nebo, Bel and Taratha to the one true God."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Before he died, Addai made Aggai leader in his place."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Years after Abgar died, one of his sons had Aggai's legs broken as he sat teaching in the church."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Aggai died too quickly to ordain Palut."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "So Palut went to Antioch and was ordained by its bishop, Serapion."
+  },
+  {
+   "record_ids": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "sentence": "Serapion had himself been ordained by Zephyrinus, bishop of Rome, in the line of Simon Peter."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "What the record actually shows is practice older than proof: when our sources begin, the first-day assembly, the fasting, the covenant, and the one Gospel are already there."
+  }
+ ],
+ "citations": [
+  "syr.dw.apostolic",
+  "syr.dw.gospel-harmony",
+  "syr.dw.jesus",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.story.abgar-addai-legend",
+  "syr.term.ihidaya"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "What we had of Jesus was the Gospel woven into one continuous story, and our churches read it in worship [[syr.dw.gospel-harmony]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we had of Jesus was the Gospel woven into one continuous story, and our churches read it in worship.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Beside it stood the Law and the Prophets, read as one long promise pointing to him [[syr.dw.gospel-harmony]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Beside it stood the Law and the Prophets, read as one long promise pointing to him.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We claimed no living eyewitnesses, since a century and more stood between us and the events [[syr.dw.gospel-harmony]] [[as:paraphrase]].",
+   "sentence": "We claimed no living eyewitnesses, since a century and more stood between us and the events.",
+   "tags": [
+    "syr.dw.gospel-harmony"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We confessed him as the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]].",
+   "ratio": 0.8,
+   "sentence": "We confessed him as the Only-Begotten of God, the Ihidaya, our own name for him.",
+   "tags": [
+    "syr.dw.jesus",
+    "syr.term.ihidaya"
+   ],
+   "verdict": "ok",
+   "why": "grounded 80% in own tagged records"
+  },
+  {
+   "draft": "Ephrem sang of the Nativity: [[quote:syr.quote.nativity-this-is-the-day]]",
+   "placed_quote": "syr.quote.nativity-this-is-the-day",
+   "sentence": "Ephrem sang of the Nativity: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+   "tags": [
+    "syr.quote.nativity-this-is-the-day"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Our own account of the path is a story of an apostle sent to our king, and that is our cherished legend, not our evidence [[syr.dw.gospel-harmony]] [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our own account of the path is a story of an apostle sent to our king, and that is our cherished legend, not our evidence.",
+   "tags": [
+    "syr.dw.gospel-harmony",
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our cherished story of our founding names King Abgar and the apostle Addai: [[story:syr.story.abgar-addai-legend]]",
+   "ratio": 0.75,
+   "sentence": "Our cherished story of our founding names King Abgar and the apostle Addai:",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "This is how we tell our own beginning [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "This is how we tell our own beginning.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "King Abgar of Edessa was sick when his envoys came home from Jerusalem with news of what Jesus was doing [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "King Abgar of Edessa was sick when his envoys came home from Jerusalem with news of what Jesus was doing.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The king wrote Jesus a letter [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "The king wrote Jesus a letter.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He had heard, he wrote, that Jesus healed without medicines or herbs and opened the eyes of the blind by his word [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "He had heard, he wrote, that Jesus healed without medicines or herbs and opened the eyes of the blind by his word.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Abgar called Jesus either God come down from heaven or the Son of God, and he asked him to come and heal him [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "Abgar called Jesus either God come down from heaven or the Son of God, and he asked him to come and heal him.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He had heard that some were seeking Jesus' life, so he offered to share his own small and beautiful city [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "He had heard that some were seeking Jesus' life, so he offered to share his own small and beautiful city.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Jesus answered, the story says, that the work he was sent for was now finished and he was going up to his Father [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "Jesus answered, the story says, that the work he was sent for was now finished and he was going up to his Father.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "After that he would send one of his disciples to heal the king, and the city would be blessed [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "After that he would send one of his disciples to heal the king, and the city would be blessed.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "After the ascension Addai came, one of the seventy-two, and stayed with a Jewish man named Tobias [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "After the ascension Addai came, one of the seventy-two, and stayed with a Jewish man named Tobias.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The story says he healed the king and preached to the city, calling it away from Nebo, Bel and Taratha to the one true God [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "The story says he healed the king and preached to the city, calling it away from Nebo, Bel and Taratha to the one true God.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Before he died, Addai made Aggai leader in his place [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "Before he died, Addai made Aggai leader in his place.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Years after Abgar died, one of his sons had Aggai's legs broken as he sat teaching in the church [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "Years after Abgar died, one of his sons had Aggai's legs broken as he sat teaching in the church.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Aggai died too quickly to ordain Palut [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "Aggai died too quickly to ordain Palut.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "So Palut went to Antioch and was ordained by its bishop, Serapion [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "So Palut went to Antioch and was ordained by its bishop, Serapion.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Serapion had himself been ordained by Zephyrinus, bishop of Rome, in the line of Simon Peter [[syr.story.abgar-addai-legend]].",
+   "placed_story": "syr.story.abgar-addai-legend",
+   "sentence": "Serapion had himself been ordained by Zephyrinus, bishop of Rome, in the line of Simon Peter.",
+   "tags": [
+    "syr.story.abgar-addai-legend"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "What the record actually shows is practice older than proof: when our sources begin, the first-day assembly, the fasting, the covenant, and the one Gospel are already there [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "What the record actually shows is practice older than proof: when our sources begin, the first-day assembly, the fasting, the covenant, and the one Gospel are already there.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.remains",
+  "syr.story.qyama-morning",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment",
+  "syr.dw.jesus",
+  "syr.term.ihidaya",
+  "syr.quote.nativity-this-is-the-day"
+ ],
+ "raw_text": "What we had of Jesus was the Gospel woven into one continuous story, and our churches read it in worship [[syr.dw.gospel-harmony]] [[as:paraphrase]].\nBeside it stood the Law and the Prophets, read as one long promise pointing to him [[syr.dw.gospel-harmony]] [[as:paraphrase]].\nWe claimed no living eyewitnesses, since a century and more stood between us and the events [[syr.dw.gospel-harmony]] [[as:paraphrase]].\nWe confessed him as the Only-Begotten of God, the Ihidaya, our own name for him [[syr.dw.jesus]] [[syr.term.ihidaya]] [[as:paraphrase]].\nEphrem sang of the Nativity: [[quote:syr.quote.nativity-this-is-the-day]] [[as:paraphrase]].\nOur own account of the path is a story of an apostle sent to our king, and that is our cherished legend, not our evidence [[syr.dw.gospel-harmony]] [[syr.dw.apostolic]] [[as:paraphrase]].\nOur cherished story of our founding names King Abgar and the apostle Addai: [[story:syr.story.abgar-addai-legend]] [[as:paraphrase]].\nWhat the record actually shows is practice older than proof: when our sources begin, the first-day assembly, the fasting, the covenant, and the one Gospel are already there [[syr.dw.apostolic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.nativity-this-is-the-day": [
+    {
+     "detail": "Nativity",
+     "kind": "name",
+     "snippet": "his day brought forth Immanuel in Bethlehem. Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethleh",
+     "span": "record syr.quote.nativity-this-is-the-day"
+    }
+   ]
+  },
+  "placed": [
+   "syr.story.abgar-addai-legend",
+   "syr.quote.nativity-this-is-the-day"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "syr.story.abgar-addai-legend": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S9",
+ "text": "What we had of Jesus was the Gospel woven into one continuous story, and our churches read it in worship. Beside it stood the Law and the Prophets, read as one long promise pointing to him. We claimed no living eyewitnesses, since a century and more stood between us and the events. We confessed him as the Only-Begotten of God, the Ihidaya, our own name for him. Ephrem sang of the Nativity: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”. Our own account of the path is a story of an apostle sent to our king, and that is our cherished legend, not our evidence. Our cherished story of our founding names King Abgar and the apostle Addai:\n\nThis is how we tell our own beginning.\n\nKing Abgar of Edessa was sick when his envoys came home from Jerusalem with news of what Jesus was doing. The king wrote Jesus a letter. He had heard, he wrote, that Jesus healed without medicines or herbs and opened the eyes of the blind by his word.\n\nAbgar called Jesus either God come down from heaven or the Son of God, and he asked him to come and heal him. He had heard that some were seeking Jesus' life, so he offered to share his own small and beautiful city.\n\nJesus answered, the story says, that the work he was sent for was now finished and he was going up to his Father. After that he would send one of his disciples to heal the king, and the city would be blessed.\n\nAfter the ascension Addai came, one of the seventy-two, and stayed with a Jewish man named Tobias. The story says he healed the king and preached to the city, calling it away from Nebo, Bel and Taratha to the one true God.\n\nBefore he died, Addai made Aggai leader in his place. Years after Abgar died, one of his sons had Aggai's legs broken as he sat teaching in the church. Aggai died too quickly to ordain Palut. So Palut went to Antioch and was ordained by its bishop, Serapion. Serapion had himself been ordained by Zephyrinus, bishop of Rome, in the line of Simon Peter.. What the record actually shows is practice older than proof: when our sources begin, the first-day assembly, the fasting, the covenant, and the one Gospel are already there.",
+ "voice_set_aside": false
+}

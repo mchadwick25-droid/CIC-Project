@@ -1,0 +1,206 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.god",
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "We read Scripture as a lesson from God the teacher, and for us study was itself the soul's formation."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "Our teachers called the whole creation God's school, and Scripture his main lesson."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "They drew one careful line."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "What the apostles delivered plainly stood fixed."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "Everything else was open ground, where asking questions was itself a way of loving God."
+  },
+  {
+   "record_ids": [
+    "alx.term.oikonomia"
+   ],
+   "sentence": "We saw this teaching as God's whole plan for saving creation, given in graduated steps and centered on the Incarnation."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "sentence": "Clement wrote of philosophy and the Greeks: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”"
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "This depth of study was the school's gift to the few, and the breadth owed to the whole worshipping community was a second pole we never gave up."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested."
+  }
+ ],
+ "citations": [
+  "alx.dw.god",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.learning-formation",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.oikonomia"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read Scripture as a lesson from God the teacher, and for us study was itself the soul's formation [[alx.dw.god]] [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "We read Scripture as a lesson from God the teacher, and for us study was itself the soul's formation.",
+   "tags": [
+    "alx.dw.god",
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers called the whole creation God's school, and Scripture his main lesson [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "Our teachers called the whole creation God's school, and Scripture his main lesson.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "They drew one careful line [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "They drew one careful line.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What the apostles delivered plainly stood fixed [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "What the apostles delivered plainly stood fixed.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Everything else was open ground, where asking questions was itself a way of loving God [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "Everything else was open ground, where asking questions was itself a way of loving God.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We saw this teaching as God's whole plan for saving creation, given in graduated steps and centered on the Incarnation [[alx.term.oikonomia]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "We saw this teaching as God's whole plan for saving creation, given in graduated steps and centered on the Incarnation.",
+   "tags": [
+    "alx.term.oikonomia"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "Clement wrote of philosophy and the Greeks: [[quote:alx.quote.clement-schoolmaster]]",
+   "placed_quote": "alx.quote.clement-schoolmaster",
+   "sentence": "Clement wrote of philosophy and the Greeks: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+   "tags": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "This depth of study was the school's gift to the few, and the breadth owed to the whole worshipping community was a second pole we never gave up [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "This depth of study was the school's gift to the few, and the breadth owed to the whole worshipping community was a second pole we never gave up.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.god",
+  "alx.term.oikonomia",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.suffering",
+  "alx.quote.clement-possessions",
+  "alx.term.ekklesia",
+  "alx.term.episkopos",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.origen-demetrius-conflict",
+  "alx.force.post-nicene-authority-shift",
+  "alx.gravity.learning-community-tension"
+ ],
+ "raw_text": "We read Scripture as a lesson from God the teacher, and for us study was itself the soul's formation [[alx.dw.god]] [[alx.gravity.learning-formation]] [[as:paraphrase]]. Our teachers called the whole creation God's school, and Scripture his main lesson [[alx.dw.god]] [[as:paraphrase]]. They drew one careful line [[alx.dw.god]] [[as:paraphrase]]. What the apostles delivered plainly stood fixed [[alx.dw.god]] [[as:paraphrase]]. Everything else was open ground, where asking questions was itself a way of loving God [[alx.dw.god]] [[as:paraphrase]]. We saw this teaching as God's whole plan for saving creation, given in graduated steps and centered on the Incarnation [[alx.term.oikonomia]] [[as:paraphrase]]. Clement wrote of philosophy and the Greeks: [[quote:alx.quote.clement-schoolmaster]] [[as:paraphrase]]. This depth of study was the school's gift to the few, and the breadth owed to the whole worshipping community was a second pole we never gave up [[alx.gravity.learning-community-tension]] [[as:paraphrase]]. The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-schoolmaster": [
+    {
+     "detail": "Greeks",
+     "kind": "name",
+     "snippet": "Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call",
+     "span": "record alx.quote.clement-schoolmaster"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does c. 150 (tr",
+     "span": "record alx.figure.clement"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-schoolmaster"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read Scripture as a lesson from God the teacher, and for us study was itself the soul's formation. Our teachers called the whole creation God's school, and Scripture his main lesson. They drew one careful line. What the apostles delivered plainly stood fixed. Everything else was open ground, where asking questions was itself a way of loving God. We saw this teaching as God's whole plan for saving creation, given in graduated steps and centered on the Incarnation. Clement wrote of philosophy and the Greeks: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”. This depth of study was the school's gift to the few, and the breadth owed to the whole worshipping community was a second pole we never gave up. The school side of our record is well attested, and the community side is thinly attested.",
+ "voice_set_aside": false
+}

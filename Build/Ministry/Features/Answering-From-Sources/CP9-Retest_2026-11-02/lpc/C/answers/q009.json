@@ -1,0 +1,245 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Both bishops speak in their own words at great length, but nothing survives from an ordinary lay believer about ordinary congregational life."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "That two competing theories of council authority exist, in each bishop's own words, is solidly attested."
+  },
+  {
+   "record_ids": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "That they shaped much of our life rests on far thinner evidence."
+  },
+  {
+   "record_ids": [
+    "lpc.contested.grace-pelagius-characterization"
+   ],
+   "sentence": "Whether Augustine was fair to Pelagius stays open, since we have only his side."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Even the death of Cyprian comes to us in two texts that agree on the core and differ on who tied the cloths over his eyes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Pontius says the centurion's hand was strengthened from above, and that is how he tells it, not a fact we assert."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "We tell how our two early texts give his death:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "On his last night all his people kept watch at the door of the house where he was held."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "sentence": "And so the blessed Cyprian suffered martyrdom."
+  }
+ ],
+ "citations": [
+  "lpc.contested.grace-pelagius-characterization",
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.gravity.conciliar-authority-theory",
+  "lpc.story.the-death-of-cyprian"
+ ],
+ "group": "A",
+ "id": "q009",
+ "net_sentences": [
+  {
+   "draft": "Much of what we say stands on firm ground, and some of it does not, and we keep the two apart.",
+   "sentence": "Much of what we say stands on firm ground, and some of it does not, and we keep the two apart.",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (number) with no citation tag"
+  },
+  {
+   "draft": "Both bishops speak in their own words at great length, but nothing survives from an ordinary lay believer about ordinary congregational life [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]].",
+   "sentence": "Both bishops speak in their own words at great length, but nothing survives from an ordinary lay believer about ordinary congregational life.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That two competing theories of council authority exist, in each bishop's own words, is solidly attested [[lpc.gravity.conciliar-authority-theory]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That two competing theories of council authority exist, in each bishop's own words, is solidly attested.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That they shaped much of our life rests on far thinner evidence [[lpc.gravity.conciliar-authority-theory]][[as:paraphrase]].",
+   "sentence": "That they shaped much of our life rests on far thinner evidence.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether Augustine was fair to Pelagius stays open, since we have only his side [[lpc.contested.grace-pelagius-characterization]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Whether Augustine was fair to Pelagius stays open, since we have only his side.",
+   "tags": [
+    "lpc.contested.grace-pelagius-characterization"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Even the death of Cyprian comes to us in two texts that agree on the core and differ on who tied the cloths over his eyes [[lpc.story.the-death-of-cyprian]][[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Even the death of Cyprian comes to us in two texts that agree on the core and differ on who tied the cloths over his eyes.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "We state that difference and do not resolve it [[lpc.story.the-death-of-cyprian]][[as:paraphrase]].",
+   "sentence": "We state that difference and do not resolve it.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "withhold",
+   "why": "tagged claim sharing no content word with its own tagged records"
+  },
+  {
+   "draft": "Pontius says the centurion's hand was strengthened from above, and that is how he tells it, not a fact we assert [[lpc.story.the-death-of-cyprian]][[as:paraphrase]].",
+   "sentence": "Pontius says the centurion's hand was strengthened from above, and that is how he tells it, not a fact we assert.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We tell how our two early texts give his death: [[story:lpc.story.the-death-of-cyprian:medium]]",
+   "ratio": 1.0,
+   "sentence": "We tell how our two early texts give his death:",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "On his last night all his people kept watch at the door of the house where he was held [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "On his last night all his people kept watch at the door of the house where he was held.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "And so the blessed Cyprian suffered martyrdom [[lpc.story.the-death-of-cyprian]].",
+   "placed_story": "lpc.story.the-death-of-cyprian",
+   "sentence": "And so the blessed Cyprian suffered martyrdom.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.term.communion",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+  "lpc.quote.the-trees-and-the-trembling-executioner",
+  "lpc.gravity.conciliar-authority-theory",
+  "lpc.contested.grace-pelagius-characterization"
+ ],
+ "raw_text": "Much of what we say stands on firm ground, and some of it does not, and we keep the two apart. Both bishops speak in their own words at great length, but nothing survives from an ordinary lay believer about ordinary congregational life [[lpc.core.latin-pastoral-congregational-christianity]][[as:paraphrase]]. That two competing theories of council authority exist, in each bishop's own words, is solidly attested [[lpc.gravity.conciliar-authority-theory]][[as:paraphrase]]. That they shaped much of our life rests on far thinner evidence [[lpc.gravity.conciliar-authority-theory]][[as:paraphrase]]. Whether Augustine was fair to Pelagius stays open, since we have only his side [[lpc.contested.grace-pelagius-characterization]][[as:paraphrase]]. Even the death of Cyprian comes to us in two texts that agree on the core and differ on who tied the cloths over his eyes [[lpc.story.the-death-of-cyprian]][[as:paraphrase]]. We state that difference and do not resolve it [[lpc.story.the-death-of-cyprian]][[as:paraphrase]]. Pontius says the centurion's hand was strengthened from above, and that is how he tells it, not a fact we assert [[lpc.story.the-death-of-cyprian]][[as:paraphrase]]. We tell how our two early texts give his death: [[story:lpc.story.the-death-of-cyprian:medium]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.the-death-of-cyprian"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.the-death-of-cyprian": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S2",
+ "text": "Much of what we say stands on firm ground, and some of it does not, and we keep the two apart. Both bishops speak in their own words at great length, but nothing survives from an ordinary lay believer about ordinary congregational life. That two competing theories of council authority exist, in each bishop's own words, is solidly attested. That they shaped much of our life rests on far thinner evidence. Whether Augustine was fair to Pelagius stays open, since we have only his side. Even the death of Cyprian comes to us in two texts that agree on the core and differ on who tied the cloths over his eyes. We state that difference and do not resolve it. Pontius says the centurion's hand was strengthened from above, and that is how he tells it, not a fact we assert. We tell how our two early texts give his death:\n\nTwo early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.\n\nOn his last night all his people kept watch at the door of the house where he was held.\n\nSentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.\n\nThe texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.\n\nAnd so the blessed Cyprian suffered martyrdom.",
+ "voice_set_aside": false
+}

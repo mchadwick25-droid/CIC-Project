@@ -1,0 +1,128 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "We honored marriage, we did not despise the body, and we counted the home a place of formation."
+  },
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis."
+  },
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "In the English we can offer you, that book is left in Latin, so we cannot give you its detail."
+  },
+  {
+   "record_ids": [
+    "alx.limit.marriage"
+   ],
+   "sentence": "The detail we leave in the sources."
+  },
+  {
+   "record_ids": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "Baptism, the bread, catechesis, and shared life formed people before any school, and without one."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school's depth reached the few, while the community side of our record is thinly attested."
+  }
+ ],
+ "citations": [
+  "alx.force.apostolic-tradition",
+  "alx.gravity.learning-community-tension",
+  "alx.limit.marriage"
+ ],
+ "group": "A",
+ "id": "q024",
+ "net_sentences": [
+  {
+   "draft": "We honored marriage, we did not despise the body, and we counted the home a place of formation [[alx.limit.marriage]] [[as:paraphrase]].",
+   "sentence": "We honored marriage, we did not despise the body, and we counted the home a place of formation.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis [[alx.limit.marriage]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "In the English we can offer you, that book is left in Latin, so we cannot give you its detail [[alx.limit.marriage]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In the English we can offer you, that book is left in Latin, so we cannot give you its detail.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The detail we leave in the sources [[alx.limit.marriage]] [[as:paraphrase]].",
+   "sentence": "The detail we leave in the sources.",
+   "tags": [
+    "alx.limit.marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Baptism, the bread, catechesis, and shared life formed people before any school, and without one [[alx.force.apostolic-tradition]] [[as:paraphrase]].",
+   "sentence": "Baptism, the bread, catechesis, and shared life formed people before any school, and without one.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The school's depth reached the few, while the community side of our record is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "The school's depth reached the few, while the community side of our record is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.limit.marriage",
+  "alx.dw.church-failure",
+  "alx.term.eikon",
+  "alx.term.episkopos",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.learning-community-tension",
+  "alx.force.apostolic-tradition",
+  "alx.force.gnostic-challenge",
+  "alx.gravity.learning-formation"
+ ],
+ "raw_text": "We honored marriage, we did not despise the body, and we counted the home a place of formation [[alx.limit.marriage]] [[as:paraphrase]]. Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis [[alx.limit.marriage]] [[as:paraphrase]]. In the English we can offer you, that book is left in Latin, so we cannot give you its detail [[alx.limit.marriage]] [[as:paraphrase]]. The detail we leave in the sources [[alx.limit.marriage]] [[as:paraphrase]]. Baptism, the bread, catechesis, and shared life formed people before any school, and without one [[alx.force.apostolic-tradition]] [[as:paraphrase]]. The school's depth reached the few, while the community side of our record is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C8.S4",
+ "text": "We honored marriage, we did not despise the body, and we counted the home a place of formation. Clement wrote a whole book defending marriage against those who despised it, the third of his Stromateis. In the English we can offer you, that book is left in Latin, so we cannot give you its detail. The detail we leave in the sources. Baptism, the bread, catechesis, and shared life formed people before any school, and without one. The school's depth reached the few, while the community side of our record is thinly attested.",
+ "voice_set_aside": false
+}

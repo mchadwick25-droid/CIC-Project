@@ -1,0 +1,222 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom, but not what an ordinary week felt like from inside."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What comes down to us is mostly what a bishop saw and decided."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "A member who had failed came back by a public road, in steps under the bishop, where everyone could see it."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Our sayings tell of our bishop Cyprian and his people:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "A dreadful plague broke out and killed countless people every day."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Everyone fled the infection, and they even put their own dying friends out of their homes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "When we gathered, our bishop told us that there was nothing special about caring only for our own people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "We had to love even our enemies and pray for those who persecute us."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "So good was done to everyone, not only to our own people."
+  },
+  {
+   "record_ids": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "sentence": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.term.reconciliation-penitential-discipline"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "We can tell you what was decided about a person, how carefully, and by whom, but not what an ordinary week felt like from inside [[lpc.limit.ordinary-interior-life]][[as:paraphrase]].",
+   "sentence": "We can tell you what was decided about a person, how carefully, and by whom, but not what an ordinary week felt like from inside.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What comes down to us is mostly what a bishop saw and decided.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A member who had failed came back by a public road, in steps under the bishop, where everyone could see it [[lpc.term.reconciliation-penitential-discipline]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A member who had failed came back by a public road, in steps under the bishop, where everyone could see it.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our sayings tell of our bishop Cyprian and his people: [[story:lpc.story.the-plague-and-the-enemies:short]]",
+   "ratio": 0.6,
+   "sentence": "Our sayings tell of our bishop Cyprian and his people:",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "grounded 60% in own tagged records"
+  },
+  {
+   "draft": "A dreadful plague broke out and killed countless people every day [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "A dreadful plague broke out and killed countless people every day.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Everyone fled the infection, and they even put their own dying friends out of their homes [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "Everyone fled the infection, and they even put their own dying friends out of their homes.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When we gathered, our bishop told us that there was nothing special about caring only for our own people [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "When we gathered, our bishop told us that there was nothing special about caring only for our own people.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We had to love even our enemies and pray for those who persecute us [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "We had to love even our enemies and pray for those who persecute us.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "So good was done to everyone, not only to our own people [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "So good was done to everyone, not only to our own people.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only [[lpc.story.the-plague-and-the-enemies]].",
+   "placed_story": "lpc.story.the-plague-and-the-enemies",
+   "sentence": "Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only.",
+   "tags": [
+    "lpc.story.the-plague-and-the-enemies"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.he-slept-with-his-fathers",
+  "lpc.gravity.penitential-discipline",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.passage.5895a6c44603",
+  "lpc.passage.0fcd24c00714",
+  "lpc.passage.263b0371920e"
+ ],
+ "raw_text": "We can tell you what was decided about a person, how carefully, and by whom, but not what an ordinary week felt like from inside [[lpc.limit.ordinary-interior-life]][[as:paraphrase]]. What comes down to us is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]][[as:paraphrase]]. A member who had failed came back by a public road, in steps under the bishop, where everyone could see it [[lpc.term.reconciliation-penitential-discipline]][[as:paraphrase]]. We offered the sacrifice of the Mediator for our dead and gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]][[as:paraphrase]]. Monica asked her sons only to remember her at the Lord's altar, wherever they were [[lpc.witness.remembered-at-the-altar]][[as:paraphrase]]. Possidius says Augustine had psalms of penance copied and wept over them in his last illness [[lpc.story.the-psalms-on-the-wall]][[as:paraphrase]]. Our sayings tell of our bishop Cyprian and his people: [[story:lpc.story.the-plague-and-the-enemies:short]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.the-plague-and-the-enemies"
+  ],
+  "removed": [
+   {
+    "draft": "Possidius says Augustine had psalms of penance copied and wept over them in his last illness [[lpc.story.the-psalms-on-the-wall]][[as:paraphrase]].",
+    "sentence": "Possidius says Augustine had psalms of penance copied and wept over them in his last illness.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "We offered the sacrifice of the Mediator for our dead and gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]][[as:paraphrase]].",
+    "sentence": "We offered the sacrifice of the Mediator for our dead and gave alms in the church on their behalf.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Monica asked her sons only to remember her at the Lord's altar, wherever they were [[lpc.witness.remembered-at-the-altar]][[as:paraphrase]].",
+    "sentence": "Monica asked her sons only to remember her at the Lord's altar, wherever they were.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.the-plague-and-the-enemies": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "We can tell you what was decided about a person, how carefully, and by whom, but not what an ordinary week felt like from inside. What comes down to us is mostly what a bishop saw and decided. A member who had failed came back by a public road, in steps under the bishop, where everyone could see it. Our sayings tell of our bishop Cyprian and his people:\n\nA dreadful plague broke out and killed countless people every day. Everyone fled the infection, and they even put their own dying friends out of their homes.\n\nWhen we gathered, our bishop told us that there was nothing special about caring only for our own people. We had to love even our enemies and pray for those who persecute us.\n\nSo good was done to everyone, not only to our own people. Our deacon Pontius judged that more was done here than in the story of Tobias, who had gathered the dead of his own people only.",
+ "voice_set_aside": false
+}

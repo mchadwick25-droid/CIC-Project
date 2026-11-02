@@ -1,0 +1,166 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Our account stands on our own books, which survive and were public from the start."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Origen answered Celsus by name, point by point, in the open."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "The scriptures were read aloud to anyone who came."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Our teachers marked the difference between eyewitness testimony and received tradition."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Clement flags the story of John as handed down."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "The record names its own thin places."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "Much of what survives comes through one later historian's selection."
+  },
+  {
+   "record_ids": [
+    "alx.dw.record"
+   ],
+   "sentence": "The majority who could not write left almost nothing."
+  }
+ ],
+ "citations": [
+  "alx.dw.record"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "Our account stands on our own books, which survive and were public from the start [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Our account stands on our own books, which survive and were public from the start.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen answered Celsus by name, point by point, in the open [[alx.dw.record]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Origen answered Celsus by name, point by point, in the open.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The scriptures were read aloud to anyone who came [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "The scriptures were read aloud to anyone who came.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers marked the difference between eyewitness testimony and received tradition [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Our teachers marked the difference between eyewitness testimony and received tradition.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement flags the story of John as handed down [[alx.dw.record]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Clement flags the story of John as handed down.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The record names its own thin places [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "The record names its own thin places.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Much of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "Much of what survives comes through one later historian's selection.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The majority who could not write left almost nothing [[alx.dw.record]] [[as:paraphrase]].",
+   "sentence": "The majority who could not write left almost nothing.",
+   "tags": [
+    "alx.dw.record"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Which outside record do you have in mind?",
+   "sentence": "Which outside record do you have in mind?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.katechesis",
+  "alx.term.prayer",
+  "alx.story.john-young-robber",
+  "alx.quote.gregory-spark",
+  "alx.dw.suffering",
+  "alx.term.thanatos",
+  "alx.term.elpis",
+  "alx.story.plague-nursing",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-community-tension",
+  "alx.force.teacher-bishop-ongoing"
+ ],
+ "raw_text": "Our account stands on our own books, which survive and were public from the start [[alx.dw.record]] [[as:paraphrase]]. Origen answered Celsus by name, point by point, in the open [[alx.dw.record]] [[as:paraphrase]]. The scriptures were read aloud to anyone who came [[alx.dw.record]] [[as:paraphrase]]. Our teachers marked the difference between eyewitness testimony and received tradition [[alx.dw.record]] [[as:paraphrase]]. Clement flags the story of John as handed down [[alx.dw.record]] [[as:paraphrase]]. The record names its own thin places [[alx.dw.record]] [[as:paraphrase]]. Much of what survives comes through one later historian's selection [[alx.dw.record]] [[as:paraphrase]]. The majority who could not write left almost nothing [[alx.dw.record]] [[as:paraphrase]]. Which outside record do you have in mind?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S4",
+ "text": "Our account stands on our own books, which survive and were public from the start. Origen answered Celsus by name, point by point, in the open. The scriptures were read aloud to anyone who came. Our teachers marked the difference between eyewitness testimony and received tradition. Clement flags the story of John as handed down. The record names its own thin places. Much of what survives comes through one later historian's selection. The majority who could not write left almost nothing. Which outside record do you have in mind?",
+ "voice_set_aside": false
+}

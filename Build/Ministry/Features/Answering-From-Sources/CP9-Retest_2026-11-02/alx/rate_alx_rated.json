@@ -1,0 +1,758 @@
+[
+ {
+  "id": "q027-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Welcomes the questioner well, but closes on etic attestation jargon."
+ },
+ {
+  "id": "q010-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear account of levels of reading and fixed versus open ground."
+ },
+ {
+  "id": "q005-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Traces teacher-bishop-council shift and names the evidence for each stage."
+ },
+ {
+  "id": "q006-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Vivid world images (light, school, physician) carry the answer."
+ },
+ {
+  "id": "q007-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Answers with pistis, Origen's rule and Arsinoe, and names its limits."
+ },
+ {
+  "id": "q023-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Strong on lapsed and katechesis, but guilds, processions and lost friends are not on the shelf."
+ },
+ {
+  "id": "q001-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Apostolic deposit and bee quote are sound, but the didaskalos line is a non-sequitur."
+ },
+ {
+  "id": "q011-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal where the shelf speaks directly on reading Scripture."
+ },
+ {
+  "id": "q004-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal although the records cover Logos, Nicaea and homoousios."
+ },
+ {
+  "id": "q008-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good wound-not-verdict answer, but the Clement fragment runs on unpunctuated and the answer drifts."
+ },
+ {
+  "id": "q021-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest about missing evidence, but a dangling line about the wealthy refers to nothing."
+ },
+ {
+  "id": "q013-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Clear denial, but 'our meeting places were known' goes beyond a shelf that is silent on rooms."
+ },
+ {
+  "id": "q025-y",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honestly says it holds no such record and turns to its own sources' honesty."
+ },
+ {
+  "id": "q026-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Right content, but the repeated 'those who gave way' phrasing reads mechanical."
+ },
+ {
+  "id": "q014-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Teacher, bishop, council sequence clearly stated."
+ },
+ {
+  "id": "q028-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Talks about the boundary but leaves out what the shelf says on outsiders' fate."
+ },
+ {
+  "id": "q005-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Arsinoe told well from Dionysius's own account, with its limits named."
+ },
+ {
+  "id": "q006-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Short, faithful use of the world's own images of God."
+ },
+ {
+  "id": "q012-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Four anchors well drawn; the bee paraphrase runs on without a stop."
+ },
+ {
+  "id": "q022-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Honest about gaps, but invents the teacher rising early and the day spent in the text."
+ },
+ {
+  "id": "q026-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "The Origen-Demetrius wound told with the Eusebius passage and its limits."
+ },
+ {
+  "id": "q024-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives the marriage limit faithfully but very little else."
+ },
+ {
+  "id": "q019-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Warm, concrete, and gives the limits of the rule of faith."
+ },
+ {
+  "id": "q025-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Defends its own sources and asks which record is meant."
+ },
+ {
+  "id": "q027-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Breaks frame with 'I am a representative' and a self-conscious disclaimer."
+ },
+ {
+  "id": "q002-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sound Logos and physician images; etic attestation tag at the end."
+ },
+ {
+  "id": "q009-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names checkable books and its own thin places concisely."
+ },
+ {
+  "id": "q011-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Vivid and on point; the Origen fragment runs on without punctuation."
+ },
+ {
+  "id": "q028-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Mostly about the internal boundary; outsiders' fate left largely silent."
+ },
+ {
+  "id": "q024-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Honest on the rite, but 'lifelong, lasting bond' goes past the marriage limit record."
+ },
+ {
+  "id": "q024-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Gives the limit, then trails into unrelated formation and attestation lines."
+ },
+ {
+  "id": "q004-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Nicaea, homoousios and the baptismal formula stated plainly."
+ },
+ {
+  "id": "q016-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Declines to name an heir and says what it did hold."
+ },
+ {
+  "id": "q015-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Right content; repeated 'power of exile and condemnation' is stiff."
+ },
+ {
+  "id": "q016-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sound but stiff repetition of 'baptism, the bread, or the teaching'."
+ },
+ {
+  "id": "q020-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Photismos as new birth and new sight, baptism as real crossing."
+ },
+ {
+  "id": "q020-y",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Talks about sin and image of God, not new birth."
+ },
+ {
+  "id": "q017-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives the evidence, the Origen line and the Rufinus caveat."
+ },
+ {
+  "id": "q007-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Warm and concrete; the Gregory line runs on without a stop."
+ },
+ {
+  "id": "q021-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest about missing evidence and points to practice."
+ },
+ {
+  "id": "q016-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear on catholic as wholeness and refusal to name an heir."
+ },
+ {
+  "id": "q011-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good content with the Philocalia quote; etic reach caveat reads stiff."
+ },
+ {
+  "id": "q005-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Full Arsinoe account with clear limits."
+ },
+ {
+  "id": "q015-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Lapsed and Origen cases, two easy exits refused."
+ },
+ {
+  "id": "q022-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "No day at all; abstract list of formation steps and etic hedge."
+ },
+ {
+  "id": "q013-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Lists persecutions but never says yes or no to hiding underground."
+ },
+ {
+  "id": "q021-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest absence plus ekklesia as assembly."
+ },
+ {
+  "id": "q010-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Very brief; ends on etic attestation tag."
+ },
+ {
+  "id": "q028-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Physician's fire and Clement on the Greeks answer well; the Athanasius line runs on."
+ },
+ {
+  "id": "q019-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "List of formation terms with little for an unsettled mind."
+ },
+ {
+  "id": "q013-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Persecution facts given but no direct answer on hiding."
+ },
+ {
+  "id": "q008-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Wound not verdict, stated plainly."
+ },
+ {
+  "id": "q010-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Full answer, but opens with an orphaned 'That is the center' and an unpunctuated paraphrase."
+ },
+ {
+  "id": "q001-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Teacher line from the bee to Origen, with Eusebius naming Pantaenus."
+ },
+ {
+  "id": "q001-x",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Correct but list-like and repetitive."
+ },
+ {
+  "id": "q012-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sound content, but the Nepos sentence is a non-sequitur and the ending is clipped."
+ },
+ {
+  "id": "q015-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Double answer on restoring the lapsed and the harder picture."
+ },
+ {
+  "id": "q017-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Evidence and three channels of transmission named."
+ },
+ {
+  "id": "q012-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal where the rule of faith and bishop records speak."
+ },
+ {
+  "id": "q002-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "New Song, physician and theosis carry the answer vividly."
+ },
+ {
+  "id": "q014-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Teacher versus office tension stated clearly."
+ },
+ {
+  "id": "q023-z",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal where the shelf speaks on baptism and the lapsed."
+ },
+ {
+  "id": "q003-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives faith as foundation and turns back with a question."
+ },
+ {
+  "id": "q004-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good content, but a broken 'one sentence:' lead-in and the jargon 'subordinationist'."
+ },
+ {
+  "id": "q003-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Sound answer on doubt as hunger; minor double stop."
+ },
+ {
+  "id": "q022-y",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal although the shelf speaks on sacraments and teaching."
+ },
+ {
+  "id": "q026-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Origen-Demetrius rupture and the teacher-office tension told well."
+ },
+ {
+  "id": "q014-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Arsinoe and post-Nicaea enforcement set side by side."
+ },
+ {
+  "id": "q019-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Terms first, practical help only at the end."
+ },
+ {
+  "id": "q018-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Vivid step-by-step, but the hearer stage and the watched-life details outrun the shelf."
+ },
+ {
+  "id": "q008-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Concise and faithful to the wound framing."
+ },
+ {
+  "id": "q009-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Long meta self-audit about 'the participant' and 'ecology' that reads as system voice."
+ },
+ {
+  "id": "q020-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Clear yes-and-no, but the Origen John citation and Paschal-night photismos are not on the shelf."
+ },
+ {
+  "id": "q023-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal where the shelf speaks."
+ },
+ {
+  "id": "q018-x",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Repetitive and stiff ('the teaching was tested teaching')."
+ },
+ {
+  "id": "q009-y",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal where the shelf speaks on its own limits."
+ },
+ {
+  "id": "q002-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "New Song and Athanasius quote are good; etic attestation close."
+ },
+ {
+  "id": "q018-z",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Bare refusal although katechesis and baptism are well covered."
+ },
+ {
+  "id": "q006-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Images of God plus the Origen punishment quote."
+ },
+ {
+  "id": "q007-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear yes with pistis and teacher."
+ },
+ {
+  "id": "q027-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Welcomes the questioner but ends with etic depth-breadth jargon."
+ },
+ {
+  "id": "q017-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Evidence, Origen quote and Rufinus caveat."
+ },
+ {
+  "id": "q003-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Warm, but a dangling line about love for the Holy Word lacks its Gregory source."
+ },
+ {
+  "id": "q025-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Short, honest, and asks which record is meant."
+ }
+]

@@ -1,0 +1,285 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.suffrage"
+   ],
+   "sentence": "Among us, a man came to the office of bishop through the voice of the people together with God's judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.term.suffrage",
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Cyprian named our suffrage and God's judgment side by side as the two things that put him in office."
+  },
+  {
+   "record_ids": [
+    "lpc.term.suffrage"
+   ],
+   "sentence": "Suffrage means the voice of the people, and it can go against the man's own wishes."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Pontius, our bishop's own deacon, tells of that election in his account of Cyprian's life:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\""
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "For us, the people's favour was the way we saw God's judgment at work."
+  },
+  {
+   "record_ids": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "sentence": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "A bishop is given a people in one place, and he preaches to them and baptizes them."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "He answers for them, and they can stand before his seat and refuse to leave until he hears them."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them."
+  },
+  {
+   "record_ids": [
+    "lpc.term.bishop-of-bishops"
+   ],
+   "sentence": "Among bishops, no one stands over the others, and each judges for himself and answers to Christ."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+   ],
+   "sentence": "Augustine said of those who feed Christ's flock: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.story.election-of-cyprian",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.suffrage",
+  "lpc.term.the-flock",
+  "lpc.witness.answerability-as-ground"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "Among us, a man came to the office of bishop through the voice of the people together with God's judgment [[lpc.term.suffrage]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "Among us, a man came to the office of bishop through the voice of the people together with God's judgment.",
+   "tags": [
+    "lpc.term.suffrage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "Cyprian named our suffrage and God's judgment side by side as the two things that put him in office [[lpc.term.suffrage]] [[lpc.story.election-of-cyprian]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Cyprian named our suffrage and God's judgment side by side as the two things that put him in office.",
+   "tags": [
+    "lpc.term.suffrage",
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Suffrage means the voice of the people, and it can go against the man's own wishes [[lpc.term.suffrage]] [[as:paraphrase]].",
+   "sentence": "Suffrage means the voice of the people, and it can go against the man's own wishes.",
+   "tags": [
+    "lpc.term.suffrage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Pontius, our bishop's own deacon, tells of that election in his account of Cyprian's life: [[story:lpc.story.election-of-cyprian:medium]]",
+   "ratio": 0.75,
+   "sentence": "Pontius, our bishop's own deacon, tells of that election in his account of Cyprian's life:",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "Our deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people [[lpc.story.election-of-cyprian]].\"",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\"",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "For us, the people's favour was the way we saw God's judgment at work [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "For us, the people's favour was the way we saw God's judgment at work.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment [[lpc.story.election-of-cyprian]].",
+   "placed_story": "lpc.story.election-of-cyprian",
+   "sentence": "In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.",
+   "tags": [
+    "lpc.story.election-of-cyprian"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "A bishop is given a people in one place, and he preaches to them and baptizes them [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A bishop is given a people in one place, and he preaches to them and baptizes them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "He answers for them, and they can stand before his seat and refuse to leave until he hears them [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "sentence": "He answers for them, and they can stand before his seat and refuse to leave until he hears them.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "sentence": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Among bishops, no one stands over the others, and each judges for himself and answers to Christ [[lpc.term.bishop-of-bishops]] [[as:paraphrase]].",
+   "sentence": "Among bishops, no one stands over the others, and each judges for himself and answers to Christ.",
+   "tags": [
+    "lpc.term.bishop-of-bishops"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine said of those who feed Christ's flock: [[quote:lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock]]",
+   "placed_quote": "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+   "sentence": "Augustine said of those who feed Christ's flock: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”",
+   "tags": [
+    "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.confessor",
+  "lpc.term.the-flock",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.gravity.confessor-authority-vs-episcopal-peace",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.womens-own-voice",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.witness.peace-for-the-dying-penitent",
+  "lpc.term.the-lapsed",
+  "lpc.quote.before-even-a-deacon"
+ ],
+ "raw_text": "Among us, a man came to the office of bishop through the voice of the people together with God's judgment [[lpc.term.suffrage]] [[as:paraphrase]]. Cyprian named our suffrage and God's judgment side by side as the two things that put him in office [[lpc.term.suffrage]] [[lpc.story.election-of-cyprian]] [[as:paraphrase]]. Suffrage means the voice of the people, and it can go against the man's own wishes [[lpc.term.suffrage]] [[as:paraphrase]]. Pontius, our bishop's own deacon, tells of that election in his account of Cyprian's life: [[story:lpc.story.election-of-cyprian:medium]] [[as:paraphrase]]. A bishop is given a people in one place, and he preaches to them and baptizes them [[lpc.term.the-flock]] [[as:paraphrase]]. He answers for them, and they can stand before his seat and refuse to leave until he hears them [[lpc.term.the-flock]] [[as:paraphrase]]. As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them [[lpc.witness.answerability-as-ground]] [[as:paraphrase]]. Among bishops, no one stands over the others, and each judges for himself and answers to Christ [[lpc.term.bishop-of-bishops]] [[as:paraphrase]]. Augustine said of those who feed Christ's flock: [[quote:lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.election-of-cyprian",
+   "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.election-of-cyprian": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "Among us, a man came to the office of bishop through the voice of the people together with God's judgment. Cyprian named our suffrage and God's judgment side by side as the two things that put him in office. Suffrage means the voice of the people, and it can go against the man's own wishes. Pontius, our bishop's own deacon, tells of that election in his account of Cyprian's life:\n\nOur deacon Pontius wrote our bishop Cyprian's life and chose one fact as proof enough of the good he did. In 248 Cyprian was chosen bishop of Carthage \"by the judgment of God and the favour of the people.\" He had only recently been baptized, and he stepped back from the office, but a crowd of believers crowded outside the house where he was. For us, the people's favour was the way we saw God's judgment at work. In 251 Cyprian wrote to us that some presbyters had long hated him as bishop, which meant hating our choice and God's judgment.. A bishop is given a people in one place, and he preaches to them and baptizes them. He answers for them, and they can stand before his seat and refuse to leave until he hears them. As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them. Among bishops, no one stands over the others, and each judges for himself and answers to Christ. Augustine said of those who feed Christ's flock: “Let it be the duty of love to feed the Lord’s flock, if it was the mark of fear to deny the Shepherd. Some feed the flock of Christ with this aim: to have the sheep as their own, and not as Christ’s. They are shown to love themselves, and not Christ. They act from the wish to boast, or to hold power, or to make gain. They do not act from the love of obeying, serving and pleasing God.”.",
+ "voice_set_aside": false
+}

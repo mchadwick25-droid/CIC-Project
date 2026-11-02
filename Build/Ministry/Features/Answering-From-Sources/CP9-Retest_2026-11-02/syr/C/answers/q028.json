@@ -1,0 +1,185 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "We drew far less of the modern map of who exactly burns than people assume."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "Our confidence lay in the Judge, not in a roster."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Our sage wrote that every man will receive his reward by his work, and that the judge will rebuke those with a small fault and then give them the inheritance of life."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "We leave the reckoning to the judge, as our sage did, and pass no verdict on any person's standing."
+  },
+  {
+   "record_ids": [
+    "syr.term.anti-jewish-polemic"
+   ],
+   "sentence": "Our argument against Jewish practice was real, and only our side of it was kept."
+  },
+  {
+   "record_ids": [
+    "syr.dw.failures"
+   ],
+   "sentence": "Roughly four of our sage's letters argue against the Jews with a bitterness the record never balances."
+  }
+ ],
+ "citations": [
+  "syr.dw.death-judgment",
+  "syr.dw.failures",
+  "syr.limit.what-must-one-do",
+  "syr.term.anti-jewish-polemic"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We drew far less of the modern map of who exactly burns than people assume [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "sentence": "We drew far less of the modern map of who exactly burns than people assume.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confidence lay in the Judge, not in a roster [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our confidence lay in the Judge, not in a roster.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our sage wrote that every man will receive his reward by his work, and that the judge will rebuke those with a small fault and then give them the inheritance of life [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 0.93,
+   "sentence": "Our sage wrote that every man will receive his reward by his work, and that the judge will rebuke those with a small fault and then give them the inheritance of life.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 93% in own tagged records"
+  },
+  {
+   "draft": "We leave the reckoning to the judge, as our sage did, and pass no verdict on any person's standing [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 0.62,
+   "sentence": "We leave the reckoning to the judge, as our sage did, and pass no verdict on any person's standing.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 62% in own tagged records"
+  },
+  {
+   "draft": "Our argument against Jewish practice was real, and only our side of it was kept [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our argument against Jewish practice was real, and only our side of it was kept.",
+   "tags": [
+    "syr.term.anti-jewish-polemic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Roughly four of our sage's letters argue against the Jews with a bitterness the record never balances [[syr.dw.failures]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Roughly four of our sage's letters argue against the Jews with a bitterness the record never balances.",
+   "tags": [
+    "syr.dw.failures"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.death-judgment",
+  "syr.term.anti-jewish-polemic",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.aphrahat-anti-jewish-frame",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.dw.failures",
+  "syr.quote.the-blasphemy-of-madmen"
+ ],
+ "raw_text": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]] [[as:paraphrase]]. We drew far less of the modern map of who exactly burns than people assume [[syr.dw.death-judgment]] [[as:paraphrase]]. Our confidence lay in the Judge, not in a roster [[syr.dw.death-judgment]] [[as:paraphrase]]. The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope [[syr.dw.death-judgment]] [[as:paraphrase]]. The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country [[syr.dw.death-judgment]] [[as:paraphrase]]. Our sage wrote that every man will receive his reward by his work, and that the judge will rebuke those with a small fault and then give them the inheritance of life [[syr.limit.what-must-one-do]] [[as:paraphrase]]. We leave the reckoning to the judge, as our sage did, and pass no verdict on any person's standing [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Our argument against Jewish practice was real, and only our side of it was kept [[syr.term.anti-jewish-polemic]] [[as:paraphrase]]. Roughly four of our sage's letters argue against the Jews with a bitterness the record never balances [[syr.dw.failures]] [[as:paraphrase]]. We do not offer that argument as a verdict on Jewish people or practice today [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "We do not offer that argument as a verdict on Jewish people or practice today [[syr.term.anti-jewish-polemic]] [[as:paraphrase]].",
+    "sentence": "We do not offer that argument as a verdict on Jewish people or practice today.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S7",
+ "text": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts. We drew far less of the modern map of who exactly burns than people assume. Our confidence lay in the Judge, not in a roster. The Kingdom repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope. The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country. Our sage wrote that every man will receive his reward by his work, and that the judge will rebuke those with a small fault and then give them the inheritance of life. We leave the reckoning to the judge, as our sage did, and pass no verdict on any person's standing. Our argument against Jewish practice was real, and only our side of it was kept. Roughly four of our sage's letters argue against the Jews with a bitterness the record never balances.",
+ "voice_set_aside": false
+}

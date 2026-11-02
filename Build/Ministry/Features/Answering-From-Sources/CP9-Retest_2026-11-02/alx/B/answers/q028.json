@@ -1,0 +1,188 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "We belonged to one baptism, one bread, the scriptures, and the rule of faith, and the boundary around them was real to us."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "That boundary meant argument and exclusion from communion, and after Nicaea, harder tools."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "sentence": "In today's English, Clement says: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”"
+  },
+  {
+   "record_ids": [
+    "alx.contested.origen-positions"
+   ],
+   "sentence": "Whether Origen taught the restoration of all things as settled doctrine is contested, since his texts reach us through Rufinus and Jerome."
+  },
+  {
+   "record_ids": [
+    "alx.limit.faith-alone-later-frame"
+   ],
+   "sentence": "Our teachers said that love of God and neighbour, and doing the Father's will, are required."
+  },
+  {
+   "record_ids": [
+    "alx.limit.faith-alone-later-frame"
+   ],
+   "sentence": "Clement also told the rich that trusting they will be saved does not save them."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "For our own who gave way under persecution, the tradition that won here brought the repentant back in, even at the deathbed."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "We did not pretend the failure away, and we did not make the failed unforgivable."
+  }
+ ],
+ "citations": [
+  "alx.contested.origen-positions",
+  "alx.dw.church-failure",
+  "alx.dw.one-church",
+  "alx.limit.faith-alone-later-frame",
+  "alx.quote.clement-schoolmaster"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "We belonged to one baptism, one bread, the scriptures, and the rule of faith, and the boundary around them was real to us [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We belonged to one baptism, one bread, the scriptures, and the rule of faith, and the boundary around them was real to us.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That boundary meant argument and exclusion from communion, and after Nicaea, harder tools [[alx.dw.one-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That boundary meant argument and exclusion from communion, and after Nicaea, harder tools.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Yet Clement wrote of the Greeks in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]]",
+   "placed_quote": "alx.quote.clement-schoolmaster",
+   "sentence": "In today's English, Clement says: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+   "tags": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Whether Origen taught the restoration of all things as settled doctrine is contested, since his texts reach us through Rufinus and Jerome [[alx.contested.origen-positions]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Whether Origen taught the restoration of all things as settled doctrine is contested, since his texts reach us through Rufinus and Jerome.",
+   "tags": [
+    "alx.contested.origen-positions"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Our teachers said that love of God and neighbour, and doing the Father's will, are required [[alx.limit.faith-alone-later-frame]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our teachers said that love of God and neighbour, and doing the Father's will, are required.",
+   "tags": [
+    "alx.limit.faith-alone-later-frame"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Clement also told the rich that trusting they will be saved does not save them [[alx.limit.faith-alone-later-frame]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Clement also told the rich that trusting they will be saved does not save them.",
+   "tags": [
+    "alx.limit.faith-alone-later-frame"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "For our own who gave way under persecution, the tradition that won here brought the repentant back in, even at the deathbed [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "For our own who gave way under persecution, the tradition that won here brought the repentant back in, even at the deathbed.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "We did not pretend the failure away, and we did not make the failed unforgivable.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.term.autexousia",
+  "alx.term.episkopos",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.learning-community-tension",
+  "alx.contested.origen-positions",
+  "alx.limit.faith-alone-later-frame",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "We belonged to one baptism, one bread, the scriptures, and the rule of faith, and the boundary around them was real to us [[alx.dw.one-church]] [[as:paraphrase]]. That boundary meant argument and exclusion from communion, and after Nicaea, harder tools [[alx.dw.one-church]] [[as:paraphrase]]. Yet Clement wrote of the Greeks in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]] [[as:paraphrase]]. Whether Origen taught the restoration of all things as settled doctrine is contested, since his texts reach us through Rufinus and Jerome [[alx.contested.origen-positions]] [[as:paraphrase]]. Our teachers said that love of God and neighbour, and doing the Father's will, are required [[alx.limit.faith-alone-later-frame]] [[as:paraphrase]]. Clement also told the rich that trusting they will be saved does not save them [[alx.limit.faith-alone-later-frame]] [[as:paraphrase]]. For our own who gave way under persecution, the tradition that won here brought the repentant back in, even at the deathbed [[alx.dw.church-failure]] [[as:paraphrase]]. We did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "alx.quote.clement-schoolmaster"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Yet Clement wrote of the Greeks in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]]",
+    "lead_in": "In today's English, Clement says",
+    "unresolved": [
+     {
+      "detail": "Yet",
+      "kind": "name"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C11.S5",
+ "text": "We belonged to one baptism, one bread, the scriptures, and the rule of faith, and the boundary around them was real to us. That boundary meant argument and exclusion from communion, and after Nicaea, harder tools. In today's English, Clement says: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”. Whether Origen taught the restoration of all things as settled doctrine is contested, since his texts reach us through Rufinus and Jerome. Our teachers said that love of God and neighbour, and doing the Father's will, are required. Clement also told the rich that trusting they will be saved does not save them. For our own who gave way under persecution, the tradition that won here brought the repentant back in, even at the deathbed. We did not pretend the failure away, and we did not make the failed unforgivable.",
+ "voice_set_aside": false
+}

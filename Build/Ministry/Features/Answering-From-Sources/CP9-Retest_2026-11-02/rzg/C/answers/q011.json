@@ -1,0 +1,165 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Among us Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches."
+  },
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Zurich tested that conviction in public debate, and Geneva built it up through sustained teaching."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "Whatever Scripture will not yield, we have no standing to require, and whatever it does yield, no pope, council, or custom may set aside."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "sentence": "At Geneva that meant doctrine built up book by book and taught to the whole population."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "sentence": "In today's English, Huldrych Zwingli says: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”"
+  },
+  {
+   "record_ids": [
+    "rzg.term.sola-scriptura"
+   ],
+   "sentence": "Scripture alone never meant that each believer decides doctrine from private study, with no authoritative church structure."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.what-scripture-asked-of-a-modern-reader"
+   ],
+   "sentence": "Nothing in our record states what a modern reader might miss in these texts, beyond the reading method we can show you."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.limit.what-scripture-asked-of-a-modern-reader",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.term.sola-scriptura"
+ ],
+ "group": "A",
+ "id": "q011",
+ "net_sentences": [
+  {
+   "draft": "Among us Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Among us Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Zurich tested that conviction in public debate, and Geneva built it up through sustained teaching [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Zurich tested that conviction in public debate, and Geneva built it up through sustained teaching.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Whatever Scripture will not yield, we have no standing to require, and whatever it does yield, no pope, council, or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "sentence": "Whatever Scripture will not yield, we have no standing to require, and whatever it does yield, no pope, council, or custom may set aside.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva that meant doctrine built up book by book and taught to the whole population [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "At Geneva that meant doctrine built up book by book and taught to the whole population.",
+   "tags": [
+    "rzg.gravity.scripture-sole-authority-disputation-catechesis"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Huldrych Zwingli rested his preached articles on Scripture and wrote: [[quote:rzg.quote.taught-better-from-scripture]]",
+   "placed_quote": "rzg.quote.taught-better-from-scripture",
+   "sentence": "In today's English, Huldrych Zwingli says: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”",
+   "tags": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Scripture alone never meant that each believer decides doctrine from private study, with no authoritative church structure [[rzg.term.sola-scriptura]] [[as:paraphrase]].",
+   "sentence": "Scripture alone never meant that each believer decides doctrine from private study, with no authoritative church structure.",
+   "tags": [
+    "rzg.term.sola-scriptura"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Nothing in our record states what a modern reader might miss in these texts, beyond the reading method we can show you [[rzg.limit.what-scripture-asked-of-a-modern-reader]] [[as:paraphrase]].",
+   "sentence": "Nothing in our record states what a modern reader might miss in these texts, beyond the reading method we can show you.",
+   "tags": [
+    "rzg.limit.what-scripture-asked-of-a-modern-reader"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.what-scripture-asked-of-a-modern-reader",
+  "rzg.witness.a-quieted-mind",
+  "rzg.term.sola-scriptura",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.witness.what-a-stranger-would-notice",
+  "rzg.force.counter-reformation-sustained-pressure"
+ ],
+ "raw_text": "Among us Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches [[rzg.term.sola-scriptura]] [[as:paraphrase]].\nZurich tested that conviction in public debate, and Geneva built it up through sustained teaching [[rzg.term.sola-scriptura]] [[as:paraphrase]].\nWhatever Scripture will not yield, we have no standing to require, and whatever it does yield, no pope, council, or custom may set aside [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\nAt Geneva that meant doctrine built up book by book and taught to the whole population [[rzg.gravity.scripture-sole-authority-disputation-catechesis]] [[as:paraphrase]].\nHuldrych Zwingli rested his preached articles on Scripture and wrote: [[quote:rzg.quote.taught-better-from-scripture]] [[as:paraphrase]].\nScripture alone never meant that each believer decides doctrine from private study, with no authoritative church structure [[rzg.term.sola-scriptura]] [[as:paraphrase]].\nNothing in our record states what a modern reader might miss in these texts, beyond the reading method we can show you [[rzg.limit.what-scripture-asked-of-a-modern-reader]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.taught-better-from-scripture"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Huldrych Zwingli rested his preached articles on Scripture and wrote: [[quote:rzg.quote.taught-better-from-scripture]]",
+    "lead_in": "In today's English, Huldrych Zwingli says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "Among us Scripture alone, not church tradition or a pope's decree, settled what we believed and how we governed our churches. Zurich tested that conviction in public debate, and Geneva built it up through sustained teaching. Whatever Scripture will not yield, we have no standing to require, and whatever it does yield, no pope, council, or custom may set aside. At Geneva that meant doctrine built up book by book and taught to the whole population. In today's English, Huldrych Zwingli says: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”. Scripture alone never meant that each believer decides doctrine from private study, with no authoritative church structure. Nothing in our record states what a modern reader might miss in these texts, beyond the reading method we can show you.",
+ "voice_set_aside": false
+}

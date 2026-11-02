@@ -1,0 +1,179 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "We left the fate of those outside us to the Judge, and our confidence lay in him, not in a roster of names."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "We drew far less of the map of who exactly burns than people assume."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country."
+  },
+  {
+   "record_ids": [
+    "syr.dw.death-judgment"
+   ],
+   "sentence": "Our hymns show Death himself trembling, because Jesus has plundered his house."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Aphrahat wrote that every man will receive his reward by his work."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Those with a small fault the judge will rebuke, and then give them the inheritance of life."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "No single act that secures that inheritance is named in the writings we keep, and Aphrahat leaves the reckoning to the judge."
+  },
+  {
+   "record_ids": [
+    "syr.term.anti-jewish-polemic",
+    "syr.dw.failures"
+   ],
+   "sentence": "Our harshest words went against rivals and against the Jews, and only our side of that argument was kept."
+  }
+ ],
+ "citations": [
+  "syr.dw.death-judgment",
+  "syr.dw.failures",
+  "syr.limit.what-must-one-do",
+  "syr.term.anti-jewish-polemic"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "We left the fate of those outside us to the Judge, and our confidence lay in him, not in a roster of names [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 0.62,
+   "sentence": "We left the fate of those outside us to the Judge, and our confidence lay in him, not in a roster of names.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 62% in own tagged records"
+  },
+  {
+   "draft": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "sentence": "Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We drew far less of the map of who exactly burns than people assume [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "sentence": "We drew far less of the map of who exactly burns than people assume.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our hymns show Death himself trembling, because Jesus has plundered his house [[syr.dw.death-judgment]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our hymns show Death himself trembling, because Jesus has plundered his house.",
+   "tags": [
+    "syr.dw.death-judgment"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Aphrahat wrote that every man will receive his reward by his work [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Aphrahat wrote that every man will receive his reward by his work.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Those with a small fault the judge will rebuke, and then give them the inheritance of life [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Those with a small fault the judge will rebuke, and then give them the inheritance of life.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No single act that secures that inheritance is named in the writings we keep, and Aphrahat leaves the reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "No single act that secures that inheritance is named in the writings we keep, and Aphrahat leaves the reckoning to the judge.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Our harshest words went against rivals and against the Jews, and only our side of that argument was kept [[syr.term.anti-jewish-polemic]] [[syr.dw.failures]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our harshest words went against rivals and against the Jews, and only our side of that argument was kept.",
+   "tags": [
+    "syr.term.anti-jewish-polemic",
+    "syr.dw.failures"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.death-judgment",
+  "syr.term.anti-jewish-polemic",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.aphrahat-anti-jewish-frame",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.dw.failures",
+  "syr.quote.the-blasphemy-of-madmen"
+ ],
+ "raw_text": "We left the fate of those outside us to the Judge, and our confidence lay in him, not in a roster of names [[syr.dw.death-judgment]] [[as:paraphrase]]. Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts [[syr.dw.death-judgment]] [[as:paraphrase]]. We drew far less of the map of who exactly burns than people assume [[syr.dw.death-judgment]] [[as:paraphrase]]. The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country [[syr.dw.death-judgment]] [[as:paraphrase]]. Our hymns show Death himself trembling, because Jesus has plundered his house [[syr.dw.death-judgment]] [[as:paraphrase]]. Aphrahat wrote that every man will receive his reward by his work [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Those with a small fault the judge will rebuke, and then give them the inheritance of life [[syr.limit.what-must-one-do]] [[as:paraphrase]]. No single act that secures that inheritance is named in the writings we keep, and Aphrahat leaves the reckoning to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Our harshest words went against rivals and against the Jews, and only our side of that argument was kept [[syr.term.anti-jewish-polemic]] [[syr.dw.failures]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S7",
+ "text": "We left the fate of those outside us to the Judge, and our confidence lay in him, not in a roster of names. Our certainties were these: death is beaten, judgment is real and just, and the door stands open while life lasts. We drew far less of the map of who exactly burns than people assume. The dialogue from Bardaisan's school said that Christ, at his coming, planted one new people in every country. Our hymns show Death himself trembling, because Jesus has plundered his house. Aphrahat wrote that every man will receive his reward by his work. Those with a small fault the judge will rebuke, and then give them the inheritance of life. No single act that secures that inheritance is named in the writings we keep, and Aphrahat leaves the reckoning to the judge. Our harshest words went against rivals and against the Jews, and only our side of that argument was kept.",
+ "voice_set_aside": false
+}

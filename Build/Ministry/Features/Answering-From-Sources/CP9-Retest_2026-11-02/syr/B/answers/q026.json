@@ -1,0 +1,158 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "What we can name is a silence in our own record, and it begins with our arguments."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Some of our arguments survive only from our side."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The Jewish answers to our teachers were not kept at all."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Ordinary believers left no writings of their own."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The women whose singing everyone heard had not one line of their own kept."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "The enslaved are missing, and the last decades before the synod are nearly blank."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "Even the covenant, our vowed order, is solid in its existence but thinly documented in its formal structure."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "We tell the beloved story of the king who wrote to Jesus as our legend, and not as our history."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "What we can name is a silence in our own record, and it begins with our arguments [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "What we can name is a silence in our own record, and it begins with our arguments.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some of our arguments survive only from our side [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Some of our arguments survive only from our side.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Jewish answers to our teachers were not kept at all.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Ordinary believers left no writings of their own [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "Ordinary believers left no writings of their own.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The women whose singing everyone heard had not one line of their own kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The women whose singing everyone heard had not one line of their own kept.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The enslaved are missing, and the last decades before the synod are nearly blank [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "The enslaved are missing, and the last decades before the synod are nearly blank.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Even the covenant, our vowed order, is solid in its existence but thinly documented in its formal structure [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "Even the covenant, our vowed order, is solid in its existence but thinly documented in its formal structure.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We tell the beloved story of the king who wrote to Jesus as our legend, and not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We tell the beloved story of the king who wrote to Jesus as our legend, and not as our history.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line",
+  "syr.gravity.covenant-life",
+  "syr.gravity.diatessaron-normative",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins"
+ ],
+ "raw_text": "What we can name is a silence in our own record, and it begins with our arguments [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Some of our arguments survive only from our side [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The Jewish answers to our teachers were not kept at all [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Ordinary believers left no writings of their own [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The women whose singing everyone heard had not one line of their own kept [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. The enslaved are missing, and the last decades before the synod are nearly blank [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. Even the covenant, our vowed order, is solid in its existence but thinly documented in its formal structure [[syr.term.qyama]] [[as:paraphrase]]. We tell the beloved story of the king who wrote to Jesus as our legend, and not as our history [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "What we can name is a silence in our own record, and it begins with our arguments. Some of our arguments survive only from our side. The Jewish answers to our teachers were not kept at all. Ordinary believers left no writings of their own. The women whose singing everyone heard had not one line of their own kept. The enslaved are missing, and the last decades before the synod are nearly blank. Even the covenant, our vowed order, is solid in its existence but thinly documented in its formal structure. We tell the beloved story of the king who wrote to Jesus as our legend, and not as our history.",
+ "voice_set_aside": false
+}

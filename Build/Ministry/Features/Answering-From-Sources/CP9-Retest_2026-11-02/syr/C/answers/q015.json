@@ -1,0 +1,328 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "Our covenant, the sons and daughters vowed for life, stayed in town and served the congregation in the fast, the watch, the vigil, and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "We hold a remembered account of how Ephrem spent his last year:"
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "In the last year of Ephrem's life, famine struck Edessa."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "Palladius of Galatia and Sozomen, a Greek historian, both tell of that year, writing a generation and more after his death."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "Their count of beds and the words they report come from remembered tradition."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "For many years Ephrem had lived quietly in his cell, but now he left it and went to the rich of the city."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "He asked them why they had no pity on people dying around them, while their wealth spoiled into the condemnation of their own souls."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "The rich answered that they had no one they could trust with the giving, because everyone was dishonest in such business."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "Ephrem asked what they thought of him, and they said they knew him to be a man of God."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "\"Then trust me,\" he said."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "\"See, on your behalf I appoint myself to take in and care for the needy.\""
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "He took their money and set up some three hundred beds in the public porches."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "There he nursed the starving and the sick, strangers and local people alike, and he buried those who died."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "When the year was over and good times returned, he went back to his cell."
+  },
+  {
+   "record_ids": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "sentence": "He died soon after, a month later in Palladius's account and a few days later in Sozomen's."
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "sentence": "You may ask what the women said of their own lives, and the writings we have are men's."
+  }
+ ],
+ "citations": [
+  "syr.limit.f5-women-own-words",
+  "syr.story.ephrem-famine-death",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "Our covenant, the sons and daughters vowed for life, stayed in town and served the congregation in the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "Our covenant, the sons and daughters vowed for life, stayed in town and served the congregation in the fast, the watch, the vigil, and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We hold a remembered account of how Ephrem spent his last year [[syr.story.ephrem-famine-death]]: [[story:syr.story.ephrem-famine-death]]",
+   "ratio": 0.86,
+   "sentence": "We hold a remembered account of how Ephrem spent his last year:",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "In the last year of Ephrem's life, famine struck Edessa [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "In the last year of Ephrem's life, famine struck Edessa.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Palladius of Galatia and Sozomen, a Greek historian, both tell of that year, writing a generation and more after his death [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "Palladius of Galatia and Sozomen, a Greek historian, both tell of that year, writing a generation and more after his death.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Their count of beds and the words they report come from remembered tradition [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "Their count of beds and the words they report come from remembered tradition.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "For many years Ephrem had lived quietly in his cell, but now he left it and went to the rich of the city [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "For many years Ephrem had lived quietly in his cell, but now he left it and went to the rich of the city.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He asked them why they had no pity on people dying around them, while their wealth spoiled into the condemnation of their own souls [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "He asked them why they had no pity on people dying around them, while their wealth spoiled into the condemnation of their own souls.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The rich answered that they had no one they could trust with the giving, because everyone was dishonest in such business [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "The rich answered that they had no one they could trust with the giving, because everyone was dishonest in such business.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Ephrem asked what they thought of him, and they said they knew him to be a man of God [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "Ephrem asked what they thought of him, and they said they knew him to be a man of God.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "\"Then trust me,\" he said [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "\"Then trust me,\" he said.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "\"See, on your behalf I appoint myself to take in and care for the needy [[syr.story.ephrem-famine-death]].\"",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "\"See, on your behalf I appoint myself to take in and care for the needy.\"",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He took their money and set up some three hundred beds in the public porches [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "He took their money and set up some three hundred beds in the public porches.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "There he nursed the starving and the sick, strangers and local people alike, and he buried those who died [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "There he nursed the starving and the sick, strangers and local people alike, and he buried those who died.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When the year was over and good times returned, he went back to his cell [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "When the year was over and good times returned, he went back to his cell.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He died soon after, a month later in Palladius's account and a few days later in Sozomen's [[syr.story.ephrem-famine-death]].",
+   "placed_story": "syr.story.ephrem-famine-death",
+   "sentence": "He died soon after, a month later in Palladius's account and a few days later in Sozomen's.",
+   "tags": [
+    "syr.story.ephrem-famine-death"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "You may ask what the women said of their own lives, and the writings we have are men's [[syr.limit.f5-women-own-words]] [[as:paraphrase]].",
+   "sentence": "You may ask what the women said of their own lives, and the writings we have are men's.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.ritual-sequence",
+  "syr.dw.adam-grace",
+  "syr.term.qyama",
+  "syr.story.ephrem-famine-death",
+  "syr.story.choirs-tradition",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.story.qyama-morning",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.force.frontier-plural-milieu"
+ ],
+ "raw_text": "Our covenant, the sons and daughters vowed for life, stayed in town and served the congregation in the fast, the watch, the vigil, and the singing [[syr.term.qyama]] [[as:paraphrase]]. Aphrahat wrote in the covenant exhortation of Demonstration VI: [[quote:syr.quote.dem6-visit-the-sick]] [[as:paraphrase]]. That is an exhortation to do it, and not a report of what members actually did [[syr.quote.dem6-visit-the-sick]] [[as:paraphrase]]. We hold a remembered account of how Ephrem spent his last year [[syr.story.ephrem-famine-death]]: [[story:syr.story.ephrem-famine-death]] [[as:paraphrase]]. You ask what it was to be enslaved among us, and our record holds no answer at all [[syr.limit.f5-enslaved]] [[as:paraphrase]]. You may ask what the women said of their own lives, and the writings we have are men's [[syr.limit.f5-women-own-words]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.story.ephrem-famine-death"
+  ],
+  "removed": [
+   {
+    "draft": "Aphrahat wrote in the covenant exhortation of Demonstration VI: [[quote:syr.quote.dem6-visit-the-sick]]",
+    "sentence": "Aphrahat wrote in the covenant exhortation of Demonstration VI:",
+    "why": "placed quote does not match its record"
+   },
+   {
+    "draft": "That is an exhortation to do it, and not a report of what members actually did [[syr.quote.dem6-visit-the-sick]] [[as:paraphrase]].",
+    "sentence": "That is an exhortation to do it, and not a report of what members actually did.",
+    "why": "tagged to a quote record that has not been placed"
+   },
+   {
+    "draft": "You ask what it was to be enslaved among us, and our record holds no answer at all [[syr.limit.f5-enslaved]] [[as:paraphrase]].",
+    "sentence": "You ask what it was to be enslaved among us, and our record holds no answer at all.",
+    "why": "states an absence wider than the record it cites keeps"
+   }
+  ],
+  "repaired": [],
+  "story_lengths": {
+   "syr.story.ephrem-famine-death": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S8",
+ "text": "Our covenant, the sons and daughters vowed for life, stayed in town and served the congregation in the fast, the watch, the vigil, and the singing.. We hold a remembered account of how Ephrem spent his last year:\n\nIn the last year of Ephrem's life, famine struck Edessa. Palladius of Galatia and Sozomen, a Greek historian, both tell of that year, writing a generation and more after his death. Their count of beds and the words they report come from remembered tradition.\n\nFor many years Ephrem had lived quietly in his cell, but now he left it and went to the rich of the city. He asked them why they had no pity on people dying around them, while their wealth spoiled into the condemnation of their own souls.\n\nThe rich answered that they had no one they could trust with the giving, because everyone was dishonest in such business. Ephrem asked what they thought of him, and they said they knew him to be a man of God. \"Then trust me,\" he said. \"See, on your behalf I appoint myself to take in and care for the needy.\"\n\nHe took their money and set up some three hundred beds in the public porches. There he nursed the starving and the sick, strangers and local people alike, and he buried those who died. When the year was over and good times returned, he went back to his cell. He died soon after, a month later in Palladius's account and a few days later in Sozomen's.. You may ask what the women said of their own lives, and the writings we have are men's.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,168 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.reformation",
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We gave up whatever would not stand against Scripture, and we do not pretend the refusing cost nothing."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We refused Rome's repeated sacrifice and its images."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We refused Wittenberg's claim that Christ's body sits in the bread."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We also refused a claim from inside our own circle, that only a believer's own chosen profession makes a true church."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "That refusal was not always won by argument alone."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "The first Swiss Brethren baptisms, on 21 January 1525 at Felix Manz's house in Zurich, split our founding community from within."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Our own council moved against the Anabaptist movement with civil force in the years after 1525."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "We held that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes."
+  }
+ ],
+ "citations": [
+  "rzg.force.anabaptist-schism",
+  "rzg.term.reformation",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.witness.defending-the-anabaptist-suppression",
+  "rzg.witness.why-the-children-too"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "We gave up whatever would not stand against Scripture, and we do not pretend the refusing cost nothing [[rzg.term.reformation]] [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "We gave up whatever would not stand against Scripture, and we do not pretend the refusing cost nothing.",
+   "tags": [
+    "rzg.term.reformation",
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We refused Rome's repeated sacrifice and its images [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We refused Rome's repeated sacrifice and its images.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We refused Wittenberg's claim that Christ's body sits in the bread [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We refused Wittenberg's claim that Christ's body sits in the bread.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We also refused a claim from inside our own circle, that only a believer's own chosen profession makes a true church [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "We also refused a claim from inside our own circle, that only a believer's own chosen profession makes a true church.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That refusal was not always won by argument alone [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "That refusal was not always won by argument alone.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The first Swiss Brethren baptisms, on 21 January 1525 at Felix Manz's house in Zurich, split our founding community from within [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The first Swiss Brethren baptisms, on 21 January 1525 at Felix Manz's house in Zurich, split our founding community from within.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our own council moved against the Anabaptist movement with civil force in the years after 1525 [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our own council moved against the Anabaptist movement with civil force in the years after 1525.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We held that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "We held that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.force.perrinist-crisis",
+  "rzg.witness.why-the-children-too",
+  "rzg.force.anabaptist-schism"
+ ],
+ "raw_text": "We gave up whatever would not stand against Scripture, and we do not pretend the refusing cost nothing [[rzg.term.reformation]] [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. We refused Rome's repeated sacrifice and its images [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. We refused Wittenberg's claim that Christ's body sits in the bread [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. We also refused a claim from inside our own circle, that only a believer's own chosen profession makes a true church [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. That refusal was not always won by argument alone [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. The first Swiss Brethren baptisms, on 21 January 1525 at Felix Manz's house in Zurich, split our founding community from within [[rzg.force.anabaptist-schism]] [[as:paraphrase]]. Our own council moved against the Anabaptist movement with civil force in the years after 1525 [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]]. We held that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]]. Within Zurich's territory, the council told every priest in its land to preach the same way [[rzg.story.first-zurich-disputation]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Within Zurich's territory, the council told every priest in its land to preach the same way [[rzg.story.first-zurich-disputation]] [[as:paraphrase]].",
+    "sentence": "Within Zurich's territory, the council told every priest in its land to preach the same way.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "We gave up whatever would not stand against Scripture, and we do not pretend the refusing cost nothing. We refused Rome's repeated sacrifice and its images. We refused Wittenberg's claim that Christ's body sits in the bread. We also refused a claim from inside our own circle, that only a believer's own chosen profession makes a true church. That refusal was not always won by argument alone. The first Swiss Brethren baptisms, on 21 January 1525 at Felix Manz's house in Zurich, split our founding community from within. Our own council moved against the Anabaptist movement with civil force in the years after 1525. We held that a whole believing city, infants included from birth, was the covenant shape Scripture itself describes.",
+ "voice_set_aside": false
+}

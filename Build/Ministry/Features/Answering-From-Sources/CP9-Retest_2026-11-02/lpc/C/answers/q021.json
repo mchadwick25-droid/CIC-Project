@@ -1,0 +1,104 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "What reaches us is a letter, not a trench: Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "We also have no distinctive inscription tied to our worship."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "So the material evidence we hold is unread, not absent."
+  },
+  {
+   "record_ids": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Beyond what that one letter describes, we cannot tell you what our buildings looked like."
+  }
+ ],
+ "citations": [
+  "lpc.core.latin-pastoral-congregational-christianity"
+ ],
+ "group": "A",
+ "id": "q021",
+ "net_sentences": [
+  {
+   "draft": "What reaches us is a letter, not a trench: Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What reaches us is a letter, not a trench: Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We also have no distinctive inscription tied to our worship [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "We also have no distinctive inscription tied to our worship.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So the material evidence we hold is unread, not absent [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "So the material evidence we hold is unread, not absent.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Beyond what that one letter describes, we cannot tell you what our buildings looked like [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+   "sentence": "Beyond what that one letter describes, we cannot tell you what our buildings looked like.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.411-gesta-unread"
+ ],
+ "raw_text": "What reaches us is a letter, not a trench: Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. We also have no distinctive inscription tied to our worship [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. So the material evidence we hold is unread, not absent [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Beyond what that one letter describes, we cannot tell you what our buildings looked like [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S8",
+ "text": "What reaches us is a letter, not a trench: Augustine's Letter CXXVI to Albina, from 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation. Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship. We also have no distinctive inscription tied to our worship. So the material evidence we hold is unread, not absent. Beyond what that one letter describes, we cannot tell you what our buildings looked like.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,176 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "To us Jesus is what the whole church says he is."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "That was never our own quarrel, not with Rome and not between our two cities."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him."
+  },
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "God's own free choice, made before the world began, decides who is saved."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and it rejected looking for that apart from him."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we have of Christ is the text, since no one among us met anyone who met him and fifteen hundred years stand between."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "We hold that text to be enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "sentence": "Huldrych Zwingli set the rule for his preached articles: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”"
+  }
+ ],
+ "citations": [
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.term.predestination-election",
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q004",
+ "net_sentences": [
+  {
+   "draft": "To us Jesus is what the whole church says he is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "To us Jesus is what the whole church says he is.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That was never our own quarrel, not with Rome and not between our two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "That was never our own quarrel, not with Rome and not between our two cities.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "What is distinctly ours is what we were taught about who is chosen in him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God's own free choice, made before the world began, decides who is saved [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "sentence": "God's own free choice, made before the world began, decides who is saved.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession called Christ the mirror in which we see whether we are chosen, and it rejected looking for that apart from him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and it rejected looking for that apart from him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we have of Christ is the text, since no one among us met anyone who met him and fifteen hundred years stand between [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "What we have of Christ is the text, since no one among us met anyone who met him and fifteen hundred years stand between.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "We hold that text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "We hold that text to be enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Huldrych Zwingli set the rule for his preached articles: [[quote:rzg.quote.taught-better-from-scripture]]",
+   "placed_quote": "rzg.quote.taught-better-from-scripture",
+   "sentence": "Huldrych Zwingli set the rule for his preached articles: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”",
+   "tags": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "rzg.witness.a-narrow-true-church",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.sovereignty-of-god-predestination-election"
+ ],
+ "raw_text": "To us Jesus is what the whole church says he is [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. That was never our own quarrel, not with Rome and not between our two cities [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. What is distinctly ours is what we were taught about who is chosen in him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. God's own free choice, made before the world began, decides who is saved [[rzg.term.predestination-election]] [[as:paraphrase]]. Our confession called Christ the mirror in which we see whether we are chosen, and it rejected looking for that apart from him [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]]. What we have of Christ is the text, since no one among us met anyone who met him and fifteen hundred years stand between [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. We hold that text to be enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Huldrych Zwingli set the rule for his preached articles: [[quote:rzg.quote.taught-better-from-scripture]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.taught-better-from-scripture": [
+    {
+     "detail": "preach",
+     "kind": "genre",
+     "snippet": "I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zuric",
+     "span": "record rzg.quote.taught-better-from-scripture"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.taught-better-from-scripture"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S3",
+ "text": "To us Jesus is what the whole church says he is. That was never our own quarrel, not with Rome and not between our two cities. What is distinctly ours is what we were taught about who is chosen in him. God's own free choice, made before the world began, decides who is saved. Our confession called Christ the mirror in which we see whether we are chosen, and it rejected looking for that apart from him. What we have of Christ is the text, since no one among us met anyone who met him and fifteen hundred years stand between. We hold that text to be enough on its own terms. Huldrych Zwingli set the rule for his preached articles: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”.",
+ "voice_set_aside": false
+}

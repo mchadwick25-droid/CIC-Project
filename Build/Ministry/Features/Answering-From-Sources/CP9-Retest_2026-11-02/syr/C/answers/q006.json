@@ -1,0 +1,210 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.god"
+   ],
+   "sentence": "We believed in one God, maker of all things, good and just in the same person."
+  },
+  {
+   "record_ids": [
+    "syr.dw.god"
+   ],
+   "sentence": "Against Marcion we held that the Maker of this world is the Father of Jesus."
+  },
+  {
+   "record_ids": [
+    "syr.dw.god"
+   ],
+   "sentence": "Against Bardaisan we held that God made all things from nothing."
+  },
+  {
+   "record_ids": [
+    "syr.dw.god"
+   ],
+   "sentence": "Against Mani we refused a world split between two powers."
+  },
+  {
+   "record_ids": [
+    "syr.dw.god"
+   ],
+   "sentence": "With Bardaisan we agreed that the stars do not rule us, and that free will is God's gift."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.raza-shrara-method"
+   ],
+   "sentence": "We taught in symbol and type, and the natural home of this teaching was the sung hymn."
+  },
+  {
+   "record_ids": [
+    "syr.dw.physician"
+   ],
+   "sentence": "To the one who fears Jesus would want nothing to do with them, we named him the Physician."
+  },
+  {
+   "record_ids": [
+    "syr.dw.physician"
+   ],
+   "sentence": "A physician is not scandalized by wounds, and he does not reject the one who repents."
+  },
+  {
+   "record_ids": [
+    "syr.dw.suffering"
+   ],
+   "sentence": "In the persecution, our answer was that God was with the persecuted, as he was with his Son."
+  },
+  {
+   "record_ids": [
+    "syr.dw.suffering"
+   ],
+   "sentence": "God did not spare that line from suffering, but he was with it and promised it resurrection."
+  }
+ ],
+ "citations": [
+  "syr.dw.god",
+  "syr.dw.physician",
+  "syr.dw.suffering",
+  "syr.gravity.raza-shrara-method"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "We believed in one God, maker of all things, good and just in the same person [[syr.dw.god]] [[as:paraphrase]].",
+   "sentence": "We believed in one God, maker of all things, good and just in the same person.",
+   "tags": [
+    "syr.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Against Marcion we held that the Maker of this world is the Father of Jesus [[syr.dw.god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Against Marcion we held that the Maker of this world is the Father of Jesus.",
+   "tags": [
+    "syr.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Against Bardaisan we held that God made all things from nothing [[syr.dw.god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Against Bardaisan we held that God made all things from nothing.",
+   "tags": [
+    "syr.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Against Mani we refused a world split between two powers [[syr.dw.god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Against Mani we refused a world split between two powers.",
+   "tags": [
+    "syr.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "With Bardaisan we agreed that the stars do not rule us, and that free will is God's gift [[syr.dw.god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "With Bardaisan we agreed that the stars do not rule us, and that free will is God's gift.",
+   "tags": [
+    "syr.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We taught in symbol and type, and the natural home of this teaching was the sung hymn [[syr.gravity.raza-shrara-method]] [[as:paraphrase]].",
+   "sentence": "We taught in symbol and type, and the natural home of this teaching was the sung hymn.",
+   "tags": [
+    "syr.gravity.raza-shrara-method"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "To the one who fears Jesus would want nothing to do with them, we named him the Physician [[syr.dw.physician]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "To the one who fears Jesus would want nothing to do with them, we named him the Physician.",
+   "tags": [
+    "syr.dw.physician"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "A physician is not scandalized by wounds, and he does not reject the one who repents [[syr.dw.physician]] [[as:paraphrase]].",
+   "sentence": "A physician is not scandalized by wounds, and he does not reject the one who repents.",
+   "tags": [
+    "syr.dw.physician"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In the persecution, our answer was that God was with the persecuted, as he was with his Son [[syr.dw.suffering]] [[as:paraphrase]].",
+   "sentence": "In the persecution, our answer was that God was with the persecuted, as he was with his Son.",
+   "tags": [
+    "syr.dw.suffering"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God did not spare that line from suffering, but he was with it and promised it resurrection [[syr.dw.suffering]] [[as:paraphrase]].",
+   "sentence": "God did not spare that line from suffering, but he was with it and promised it resurrection.",
+   "tags": [
+    "syr.dw.suffering"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.god",
+  "syr.term.anti-jewish-polemic",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.aphrahat-anti-jewish-frame",
+  "syr.gravity.raza-shrara-method",
+  "syr.dw.suffering",
+  "syr.quote.aphrahat-persecuted-litany",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.physician",
+  "syr.quote.aphrahat-one-innocent"
+ ],
+ "raw_text": "We believed in one God, maker of all things, good and just in the same person [[syr.dw.god]] [[as:paraphrase]]. Against Marcion we held that the Maker of this world is the Father of Jesus [[syr.dw.god]] [[as:paraphrase]]. Against Bardaisan we held that God made all things from nothing [[syr.dw.god]] [[as:paraphrase]]. Against Mani we refused a world split between two powers [[syr.dw.god]] [[as:paraphrase]]. With Bardaisan we agreed that the stars do not rule us, and that free will is God's gift [[syr.dw.god]] [[as:paraphrase]]. We taught in symbol and type, and the natural home of this teaching was the sung hymn [[syr.gravity.raza-shrara-method]] [[as:paraphrase]]. To the one who fears Jesus would want nothing to do with them, we named him the Physician [[syr.dw.physician]] [[as:paraphrase]]. A physician is not scandalized by wounds, and he does not reject the one who repents [[syr.dw.physician]] [[as:paraphrase]]. In the persecution, our answer was that God was with the persecuted, as he was with his Son [[syr.dw.suffering]] [[as:paraphrase]]. God did not spare that line from suffering, but he was with it and promised it resurrection [[syr.dw.suffering]] [[as:paraphrase]]. Aphrahat wrote, during the Persian persecution: [[quote:syr.quote.aphrahat-persecuted-litany]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Aphrahat wrote, during the Persian persecution: [[quote:syr.quote.aphrahat-persecuted-litany]]",
+    "sentence": "Aphrahat wrote, during the Persian persecution:",
+    "why": "placed quote does not match its record"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "We believed in one God, maker of all things, good and just in the same person. Against Marcion we held that the Maker of this world is the Father of Jesus. Against Bardaisan we held that God made all things from nothing. Against Mani we refused a world split between two powers. With Bardaisan we agreed that the stars do not rule us, and that free will is God's gift. We taught in symbol and type, and the natural home of this teaching was the sung hymn. To the one who fears Jesus would want nothing to do with them, we named him the Physician. A physician is not scandalized by wounds, and he does not reject the one who repents. In the persecution, our answer was that God was with the persecuted, as he was with his Son. God did not spare that line from suffering, but he was with it and promised it resurrection..",
+ "voice_set_aside": false
+}

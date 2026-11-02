@@ -1,0 +1,150 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "We were not hiding in catacombs, because that is another city's story."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "In Edessa a church building stood early enough to be destroyed in the great flood."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "The city's own chronicle records that loss as plainly as it records palaces."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "On the frontier, believers gathered openly on the first day of the week."
+  },
+  {
+   "record_ids": [
+    "syr.dw.cost-distance"
+   ],
+   "sentence": "On the Persian side the danger was of another kind."
+  },
+  {
+   "record_ids": [
+    "syr.dw.cost-distance"
+   ],
+   "sentence": "When the persecution came there, being known as a Christian made you a suspect, then you were taxed, then hunted."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "When Rome's emperor became a Christian, the court of the King of Kings accused Persia's bishops of loving Rome."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "Being Christian began to sound like being the enemy's friend."
+  }
+ ],
+ "citations": [
+  "syr.dw.cost-distance",
+  "syr.dw.outsiders-empire"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "We were not hiding in catacombs, because that is another city's story [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "sentence": "We were not hiding in catacombs, because that is another city's story.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In Edessa a church building stood early enough to be destroyed in the great flood [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In Edessa a church building stood early enough to be destroyed in the great flood.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The city's own chronicle records that loss as plainly as it records palaces [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "sentence": "The city's own chronicle records that loss as plainly as it records palaces.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On the frontier, believers gathered openly on the first day of the week [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "sentence": "On the frontier, believers gathered openly on the first day of the week.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On the Persian side the danger was of another kind [[syr.dw.cost-distance]] [[as:paraphrase]].",
+   "ratio": 0.4,
+   "sentence": "On the Persian side the danger was of another kind.",
+   "tags": [
+    "syr.dw.cost-distance"
+   ],
+   "verdict": "ok",
+   "why": "grounded 40% in own tagged records"
+  },
+  {
+   "draft": "When the persecution came there, being known as a Christian made you a suspect, then you were taxed, then hunted [[syr.dw.cost-distance]] [[as:paraphrase]].",
+   "sentence": "When the persecution came there, being known as a Christian made you a suspect, then you were taxed, then hunted.",
+   "tags": [
+    "syr.dw.cost-distance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When Rome's emperor became a Christian, the court of the King of Kings accused Persia's bishops of loving Rome [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "When Rome's emperor became a Christian, the court of the King of Kings accused Persia's bishops of loving Rome.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Being Christian began to sound like being the enemy's friend [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "sentence": "Being Christian began to sound like being the enemy's friend.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.term.catholicos"
+ ],
+ "raw_text": "We were not hiding in catacombs, because that is another city's story [[syr.dw.outsiders-empire]] [[as:paraphrase]]. In Edessa a church building stood early enough to be destroyed in the great flood [[syr.dw.outsiders-empire]] [[as:paraphrase]]. The city's own chronicle records that loss as plainly as it records palaces [[syr.dw.outsiders-empire]] [[as:paraphrase]]. On the frontier, believers gathered openly on the first day of the week [[syr.dw.outsiders-empire]] [[as:paraphrase]]. On the Persian side the danger was of another kind [[syr.dw.cost-distance]] [[as:paraphrase]]. When the persecution came there, being known as a Christian made you a suspect, then you were taxed, then hunted [[syr.dw.cost-distance]] [[as:paraphrase]]. When Rome's emperor became a Christian, the court of the King of Kings accused Persia's bishops of loving Rome [[syr.dw.outsiders-empire]] [[as:paraphrase]]. Being Christian began to sound like being the enemy's friend [[syr.dw.outsiders-empire]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "We were not hiding in catacombs, because that is another city's story. In Edessa a church building stood early enough to be destroyed in the great flood. The city's own chronicle records that loss as plainly as it records palaces. On the frontier, believers gathered openly on the first day of the week. On the Persian side the danger was of another kind. When the persecution came there, being known as a Christian made you a suspect, then you were taxed, then hunted. When Rome's emperor became a Christian, the court of the King of Kings accused Persia's bishops of loving Rome. Being Christian began to sound like being the enemy's friend.",
+ "voice_set_aside": false
+}

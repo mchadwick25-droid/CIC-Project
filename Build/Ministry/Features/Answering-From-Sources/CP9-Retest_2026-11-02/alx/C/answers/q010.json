@@ -1,0 +1,207 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "We read Scripture as God's main lesson, in a school that was the whole of creation."
+  },
+  {
+   "record_ids": [
+    "alx.term.scripture-as-address"
+   ],
+   "sentence": "We heard it as the Logos speaking now, through the text, to a soul formed to hear."
+  },
+  {
+   "record_ids": [
+    "alx.term.interpretation"
+   ],
+   "sentence": "So reading was a practice of formation: meeting the Logos at the depth the reader's formation allowed."
+  },
+  {
+   "record_ids": [
+    "alx.term.allegoria"
+   ],
+   "sentence": "We read at more than one level, the plain sense and deeper senses about Christ and the soul, a method contested within Egypt itself."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "What the apostles delivered plainly stood fixed, and everything else was open ground, where asking questions was itself a way of loving God."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, study and the bond between teacher and student were the very path of the soul's change."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-bee"
+   ],
+   "sentence": "Clement opened the Stromateis with a debt to his last teacher: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”"
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school side of this is well attested, while the community side is thinly attested."
+  },
+  {
+   "record_ids": [
+    "alx.core.alexandria"
+   ],
+   "sentence": "The villagers appear only in their bishop's own account of persuading them, never in their own voice."
+  }
+ ],
+ "citations": [
+  "alx.core.alexandria",
+  "alx.dw.god",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.learning-formation",
+  "alx.quote.clement-bee",
+  "alx.term.allegoria",
+  "alx.term.interpretation",
+  "alx.term.scripture-as-address"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read Scripture as God's main lesson, in a school that was the whole of creation [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "We read Scripture as God's main lesson, in a school that was the whole of creation.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We heard it as the Logos speaking now, through the text, to a soul formed to hear [[alx.term.scripture-as-address]] [[as:paraphrase]].",
+   "sentence": "We heard it as the Logos speaking now, through the text, to a soul formed to hear.",
+   "tags": [
+    "alx.term.scripture-as-address"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So reading was a practice of formation: meeting the Logos at the depth the reader's formation allowed [[alx.term.interpretation]] [[as:paraphrase]].",
+   "sentence": "So reading was a practice of formation: meeting the Logos at the depth the reader's formation allowed.",
+   "tags": [
+    "alx.term.interpretation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We read at more than one level, the plain sense and deeper senses about Christ and the soul, a method contested within Egypt itself [[alx.term.allegoria]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We read at more than one level, the plain sense and deeper senses about Christ and the soul, a method contested within Egypt itself.",
+   "tags": [
+    "alx.term.allegoria"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What the apostles delivered plainly stood fixed, and everything else was open ground, where asking questions was itself a way of loving God [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "What the apostles delivered plainly stood fixed, and everything else was open ground, where asking questions was itself a way of loving God.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In the school tradition, study and the bond between teacher and student were the very path of the soul's change [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "In the school tradition, study and the bond between teacher and student were the very path of the soul's change.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement opened the Stromateis with a debt to his last teacher: [[quote:alx.quote.clement-bee]]",
+   "placed_quote": "alx.quote.clement-bee",
+   "sentence": "Clement opened the Stromateis with a debt to his last teacher: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”",
+   "tags": [
+    "alx.quote.clement-bee"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The school side of this is well attested, while the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].",
+   "sentence": "The school side of this is well attested, while the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The villagers appear only in their bishop's own account of persuading them, never in their own voice [[alx.core.alexandria]] [[as:paraphrase]].",
+   "sentence": "The villagers appear only in their bishop's own account of persuading them, never in their own voice.",
+   "tags": [
+    "alx.core.alexandria"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.god",
+  "alx.term.oikonomia",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.suffering",
+  "alx.quote.clement-possessions",
+  "alx.term.ekklesia",
+  "alx.term.episkopos",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.origen-demetrius-conflict",
+  "alx.force.post-nicene-authority-shift",
+  "alx.gravity.learning-community-tension"
+ ],
+ "raw_text": "We read Scripture as God's main lesson, in a school that was the whole of creation [[alx.dw.god]] [[as:paraphrase]].\nWe heard it as the Logos speaking now, through the text, to a soul formed to hear [[alx.term.scripture-as-address]] [[as:paraphrase]].\nSo reading was a practice of formation: meeting the Logos at the depth the reader's formation allowed [[alx.term.interpretation]] [[as:paraphrase]].\nWe read at more than one level, the plain sense and deeper senses about Christ and the soul, a method contested within Egypt itself [[alx.term.allegoria]] [[as:paraphrase]].\nWhat the apostles delivered plainly stood fixed, and everything else was open ground, where asking questions was itself a way of loving God [[alx.dw.god]] [[as:paraphrase]].\nIn the school tradition, study and the bond between teacher and student were the very path of the soul's change [[alx.gravity.learning-formation]] [[as:paraphrase]].\nClement opened the Stromateis with a debt to his last teacher: [[quote:alx.quote.clement-bee]] [[as:paraphrase]].\nThe school side of this is well attested, while the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\nThe villagers appear only in their bishop's own account of persuading them, never in their own voice [[alx.core.alexandria]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-bee": [
+    {
+     "detail": "Stromateis",
+     "kind": "name",
+     "snippet": "rers a deathless element of knowledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and",
+     "span": "record alx.quote.clement-bee"
+    },
+    {
+     "detail": "teacher",
+     "kind": "role",
+     "snippet": "owledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and Eusebius names as Pantaenus",
+     "span": "record alx.quote.clement-bee"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-bee"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read Scripture as God's main lesson, in a school that was the whole of creation. We heard it as the Logos speaking now, through the text, to a soul formed to hear. So reading was a practice of formation: meeting the Logos at the depth the reader's formation allowed. We read at more than one level, the plain sense and deeper senses about Christ and the soul, a method contested within Egypt itself. What the apostles delivered plainly stood fixed, and everything else was open ground, where asking questions was itself a way of loving God. In the school tradition, study and the bond between teacher and student were the very path of the soul's change. Clement opened the Stromateis with a debt to his last teacher: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”. The school side of this is well attested, while the community side is thinly attested. The villagers appear only in their bishop's own account of persuading them, never in their own voice.",
+ "voice_set_aside": false
+}

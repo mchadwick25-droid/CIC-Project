@@ -1,0 +1,758 @@
+[
+ {
+  "id": "q001-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Names the text as the link but drifts into Consistory and Anabaptist material unrelated to the path of transmission."
+ },
+ {
+  "id": "q001-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Directly answers: no living chain, a copied and translated text, held sufficient on its own terms."
+ },
+ {
+  "id": "q001-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Answers with the text-not-chain image and Zurich/Geneva enactment; 1519 Matthew preaching is on the shelf."
+ },
+ {
+  "id": "q002-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Covers Christ as mirror of election and the 1549 Supper agreement; in line with records."
+ },
+ {
+  "id": "q002-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Creedal Christ, once-for-all sacrifice and spiritual presence, all supported by confession and records."
+ },
+ {
+  "id": "q002-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Mostly about election and the Supper formula rather than who Jesus was."
+ },
+ {
+  "id": "q003-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Turns the doubter outward to Christ with the world's own image; somewhat repetitive."
+ },
+ {
+  "id": "q003-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Restates stock lines about the text and the mirror without much of a response to the person."
+ },
+ {
+  "id": "q003-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Strong pastoral answer, but 'Bullinger wrote:' is left dangling with no quotation."
+ },
+ {
+  "id": "q004-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Sidesteps the Trinity question for election though the Second Helvetic Confession speaks to it directly."
+ },
+ {
+  "id": "q004-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Same sidestep to election; silent on Father, Son and Spirit where the shelf speaks."
+ },
+ {
+  "id": "q004-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives the Nicene/Chalcedonian confession (matches SHC ch. 3) and places election correctly."
+ },
+ {
+  "id": "q005-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Clear two-city answer with evidence limits; missing punctuation after the Calvin paraphrase."
+ },
+ {
+  "id": "q005-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Concrete Disputation account via Hegenwald plus honest limits on Marburg and Bolsec."
+ },
+ {
+  "id": "q005-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good evidence-led answer but has a stray double period and a slightly jumbled close."
+ },
+ {
+  "id": "q006-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Election and active providence, supported by records."
+ },
+ {
+  "id": "q006-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Reduces God's character almost entirely to election."
+ },
+ {
+  "id": "q006-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Rich picture of sovereignty, providence and faithfulness; stray double period and long drift to the Supper."
+ },
+ {
+  "id": "q007-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Answers with the outward-turn teaching and an honest limit on felt experience."
+ },
+ {
+  "id": "q007-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Quotes Bullinger's mirror passage accurately and names the limit on felt comfort."
+ },
+ {
+  "id": "q007-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives the mirror quote but never says whether there was space for the struggler."
+ },
+ {
+  "id": "q008-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Vague 'condition' wording blurs the guilt question the confession answers plainly, then drifts to election."
+ },
+ {
+  "id": "q008-y",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Answers election instead; the shelf (SHC on original sin) speaks directly to the question."
+ },
+ {
+  "id": "q008-z",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Identical election answer; silent on original sin where the shelf speaks."
+ },
+ {
+  "id": "q009-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Overclaims that every doctrinal claim 'survives scrutiny completely' and is all verified."
+ },
+ {
+  "id": "q009-y",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal on a question the world's own thinness records can answer."
+ },
+ {
+  "id": "q009-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Measured account of strengths, Calvin-heavy imbalance and open questions, matching the records."
+ },
+ {
+  "id": "q010-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Solid account of both methods; closes on questions the visitor did not ask."
+ },
+ {
+  "id": "q010-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Clear but says 'You ask' about matters not in the question."
+ },
+ {
+  "id": "q010-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Fully explains purpose and both methods with concrete detail."
+ },
+ {
+  "id": "q011-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives method and a Zwingli quote but does not really say what the reader is missing."
+ },
+ {
+  "id": "q011-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Offers a real answer: we read to be governed, as a whole shape, tested in public."
+ },
+ {
+  "id": "q011-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Repeats method plus quote; admits the record does not address the question itself."
+ },
+ {
+  "id": "q012-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal on a question the shelf answers fully."
+ },
+ {
+  "id": "q012-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Answers sola scriptura with Zwingli's own words and the two-city enactment."
+ },
+ {
+  "id": "q012-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good answer but 'Zwingli himself had said it plainly at the start:' is followed by nothing."
+ },
+ {
+  "id": "q013-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Implies open reform and outside pressure but never answers the question directly."
+ },
+ {
+  "id": "q013-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Plainly rejects the premise with dated public acts and the real external pressure."
+ },
+ {
+  "id": "q013-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Describes open reform and pressure without directly answering the hiding question."
+ },
+ {
+  "id": "q014-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Antistes, Ordinances, Consistory and Calvin on elders, all supported."
+ },
+ {
+  "id": "q014-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Concise, accurate two-city account."
+ },
+ {
+  "id": "q014-z",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Full account, but 'fought for decades' stretches the 1541-1555 span."
+ },
+ {
+  "id": "q015-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Describes the discipline system rather than how failure was answered; honest about missing cases."
+ },
+ {
+  "id": "q015-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Admits failure, names repentance and readmission, and the missing registers."
+ },
+ {
+  "id": "q015-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names the discipline and owns the civil force against the Anabaptists."
+ },
+ {
+  "id": "q016-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Restates the two-city arrangement without addressing present-day continuity."
+ },
+ {
+  "id": "q016-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Answers within the 1650 horizon: convictions handed forward, exact continuity not claimed."
+ },
+ {
+  "id": "q016-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Brief facts and a follow-up question; barely addresses the question."
+ },
+ {
+  "id": "q017-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Disclaims a chain of practice and states the scriptural test."
+ },
+ {
+  "id": "q017-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Answers directly with Supper and infant baptism as worked examples of the text test."
+ },
+ {
+  "id": "q017-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same answer concisely with an honest note on thin daily-practice evidence."
+ },
+ {
+  "id": "q018-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Covers infant baptism, then drifts into excommunication rather than steps of joining."
+ },
+ {
+  "id": "q018-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Gives baptism, catechism and discipline in order; missing punctuation after the Calvin paraphrase."
+ },
+ {
+  "id": "q018-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Strings author attributions, using the Scottish Book of Common Order as if it were this world's own rite."
+ },
+ {
+  "id": "q019-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Full answer with the world's outward-turn image and assurance in faith."
+ },
+ {
+  "id": "q019-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Accurate Bullinger mirror quote and the outward turn."
+ },
+ {
+  "id": "q019-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Concise and accurate, with the quote."
+ },
+ {
+  "id": "q020-x",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Talks about the Anabaptist refusal; silent on regeneration, which the shelf discusses."
+ },
+ {
+  "id": "q020-y",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Same Anabaptist refusal with repetitive phrasing; never addresses new-birth language."
+ },
+ {
+  "id": "q020-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "Says we would not use born-again language, but the Second Helvetic Confession and Calvin speak of regeneration."
+ },
+ {
+  "id": "q021-x",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest that no witness describes the space, plus what doctrine removed; matches records."
+ },
+ {
+  "id": "q021-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Same honest limit with the plain table and silent organ."
+ },
+ {
+  "id": "q021-z",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal where the records hold the honest-limit and subtraction content."
+ },
+ {
+  "id": "q022-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest that no day survives, then gives the frame; somewhat long."
+ },
+ {
+  "id": "q022-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest limit plus minimal frame."
+ },
+ {
+  "id": "q022-z",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest limit and discipline frame; ends on an unrelated Supper line."
+ },
+ {
+  "id": "q023-x",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier2",
+  "note": "Empty refusal though the records speak to costs of belonging."
+ },
+ {
+  "id": "q023-y",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Names three real costs; 'It could call someone to account' has no stated subject."
+ },
+ {
+  "id": "q023-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names what was refused and the cost, including civil force."
+ },
+ {
+  "id": "q024-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Says the marriage teaching cannot be given, though the shelf (SHC ch. 29, Institutes) holds it."
+ },
+ {
+  "id": "q024-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Notes the refusal of clerical celibacy but says the teaching is not held when the shelf has it."
+ },
+ {
+  "id": "q024-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Same silence on marriage teaching the shelf contains."
+ },
+ {
+  "id": "q025-x",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Briefly sets aside the premise then drifts into a list about worship rooms."
+ },
+ {
+  "id": "q025-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Says the tortured witness is not in our record and will not vouch for it; honest and on point."
+ },
+ {
+  "id": "q025-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Restates worship-room reasoning and asks which record; little engagement."
+ },
+ {
+  "id": "q026-x",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Refugee strain on discipline and the gap in felt experience, supported by the refugee force record."
+ },
+ {
+  "id": "q026-y",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Owns the civil force against the Anabaptists and the unsettled authority question."
+ },
+ {
+  "id": "q026-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Owns the Anabaptist suppression and names three disputes with evidence limits."
+ },
+ {
+  "id": "q027-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Says it cannot answer, then gives discipline frame; missing punctuation after the Calvin paraphrase."
+ },
+ {
+  "id": "q027-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives election and discipline lines that only indirectly touch the visitor."
+ },
+ {
+  "id": "q027-z",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Describes discipline and turns the question back on the visitor."
+ },
+ {
+  "id": "q028-x",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Explains election and refusals, but not the fate of outsiders, which the confession addresses."
+ },
+ {
+  "id": "q028-y",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Lists refusals and election; silent on outsiders where the shelf speaks."
+ },
+ {
+  "id": "q028-z",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Engages directly but says the record does not settle it, though SHC ch. 17 speaks of no certain salvation outside the church."
+ }
+]

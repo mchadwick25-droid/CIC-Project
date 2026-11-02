@@ -1,0 +1,183 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Our practices are older than our proof: when the sources begin, first-day assembly, fasting, the covenant, and the one Gospel are already there."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "We lived our inheritance as apostolic, but our written record shows it only from the point where the sources begin."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic",
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "Our story of Addai the apostle is a cherished legend, written down late, and it is not a document from the beginning."
+  },
+  {
+   "record_ids": [
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "sentence": "Tatian wove the four accounts into a single narrative around 172, and for some two hundred years that was the Gospel in our churches."
+  },
+  {
+   "record_ids": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "sentence": "The Chronicle of Edessa records our earliest hard trace in these words: “And they destroyed the temple of the church of the Christians.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege."
+  },
+  {
+   "record_ids": [
+    "syr.limit.ritual-sequence"
+   ],
+   "sentence": "No order of worship survives from us, so the pieces are real, but how they fit together on an actual morning is not known."
+  }
+ ],
+ "citations": [
+  "syr.dw.apostolic",
+  "syr.dw.corpus-and-its-edges",
+  "syr.dw.remains",
+  "syr.limit.ritual-sequence",
+  "syr.quote.chronicle-flood-line",
+  "syr.term.ewangeliyon-da-mhallete"
+ ],
+ "group": "A",
+ "id": "q017",
+ "net_sentences": [
+  {
+   "draft": "Our practices are older than our proof: when the sources begin, first-day assembly, fasting, the covenant, and the one Gospel are already there [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our practices are older than our proof: when the sources begin, first-day assembly, fasting, the covenant, and the one Gospel are already there.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We lived our inheritance as apostolic, but our written record shows it only from the point where the sources begin [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "We lived our inheritance as apostolic, but our written record shows it only from the point where the sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our story of Addai the apostle is a cherished legend, written down late, and it is not a document from the beginning [[syr.dw.apostolic]] [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our story of Addai the apostle is a cherished legend, written down late, and it is not a document from the beginning.",
+   "tags": [
+    "syr.dw.apostolic",
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Tatian wove the four accounts into a single narrative around 172, and for some two hundred years that was the Gospel in our churches [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Tatian wove the four accounts into a single narrative around 172, and for some two hundred years that was the Gospel in our churches.",
+   "tags": [
+    "syr.term.ewangeliyon-da-mhallete"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Chronicle of Edessa records our earliest hard trace in these words: [[quote:syr.quote.chronicle-flood-line]]",
+   "placed_quote": "syr.quote.chronicle-flood-line",
+   "sentence": "The Chronicle of Edessa records our earliest hard trace in these words: “And they destroyed the temple of the church of the Christians.”",
+   "tags": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "That line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "No order of worship survives from us, so the pieces are real, but how they fit together on an actual morning is not known [[syr.limit.ritual-sequence]] [[as:paraphrase]].",
+   "sentence": "No order of worship survives from us, so the pieces are real, but how they fit together on an actual morning is not known.",
+   "tags": [
+    "syr.limit.ritual-sequence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.term.qyama",
+  "syr.term.catholicos",
+  "syr.story.abgar-addai-legend",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.institutional-consolidation",
+  "syr.contested.jacob-death-year",
+  "syr.dw.was-jesus-god",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.story.edessa-flood-201",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.theodoret-gnats",
+  "syr.dw.god",
+  "syr.gravity.heresiological-self-definition",
+  "syr.gravity.raza-shrara-method",
+  "syr.force.rival-movements",
+  "syr.contested.bardaisan-nicene-floor"
+ ],
+ "raw_text": "Our practices are older than our proof: when the sources begin, first-day assembly, fasting, the covenant, and the one Gospel are already there [[syr.dw.apostolic]] [[as:paraphrase]].\nWe lived our inheritance as apostolic, but our written record shows it only from the point where the sources begin [[syr.dw.apostolic]] [[as:paraphrase]].\nOur story of Addai the apostle is a cherished legend, written down late, and it is not a document from the beginning [[syr.dw.apostolic]] [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\nTatian wove the four accounts into a single narrative around 172, and for some two hundred years that was the Gospel in our churches [[syr.term.ewangeliyon-da-mhallete]] [[as:paraphrase]].\nThe Chronicle of Edessa records our earliest hard trace in these words: [[quote:syr.quote.chronicle-flood-line]]\nThat line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\nThe Chronicle was compiled later from the city's archives, so it is not an eyewitness account [[syr.story.edessa-flood-201]] [[as:paraphrase]].\nAt Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].\nNo order of worship survives from us, so the pieces are real, but how they fit together on an actual morning is not known [[syr.limit.ritual-sequence]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.chronicle-flood-line"
+  ],
+  "removed": [
+   {
+    "draft": "The Chronicle was compiled later from the city's archives, so it is not an eyewitness account [[syr.story.edessa-flood-201]] [[as:paraphrase]].",
+    "sentence": "The Chronicle was compiled later from the city's archives, so it is not an eyewitness account.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S8",
+ "text": "Our practices are older than our proof: when the sources begin, first-day assembly, fasting, the covenant, and the one Gospel are already there. We lived our inheritance as apostolic, but our written record shows it only from the point where the sources begin. Our story of Addai the apostle is a cherished legend, written down late, and it is not a document from the beginning. Tatian wove the four accounts into a single narrative around 172, and for some two hundred years that was the Gospel in our churches. The Chronicle of Edessa records our earliest hard trace in these words: “And they destroyed the temple of the church of the Christians.”\n\nThat line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later. At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege. No order of worship survives from us, so the pieces are real, but how they fit together on an actual morning is not known.",
+ "voice_set_aside": false
+}

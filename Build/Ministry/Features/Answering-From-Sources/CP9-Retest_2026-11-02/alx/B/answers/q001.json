@@ -1,0 +1,174 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Our link to Jesus ran through what the apostles handed down: baptism, the bread and cup, the scriptures read aloud, and the rule of faith, which we received and kept visible."
+  },
+  {
+   "record_ids": [
+    "alx.term.kanon-pisteos"
+   ],
+   "sentence": "The rule of faith is the short summary of what the apostles handed down."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "We cannot show documentary proof of unbroken practice for each rite, and between the apostles and our first witnesses lies a gap our sources do not fill."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "Teachers carried the teaching further, for in the school tradition study and the bond between teacher and student were themselves the path of formation."
+  },
+  {
+   "record_ids": [
+    "alx.term.catechetical-school"
+   ],
+   "sentence": "What is well attested is a line of teachers and students, while whether a formal school stood behind it is disputed."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-bee"
+   ],
+   "sentence": "Clement opened his Stromateis with a tribute to his final teacher: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”"
+  }
+ ],
+ "citations": [
+  "alx.dw.apostolic",
+  "alx.dw.one-church",
+  "alx.gravity.learning-formation",
+  "alx.quote.clement-bee",
+  "alx.term.catechetical-school",
+  "alx.term.kanon-pisteos"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "Our link to Jesus ran through what the apostles handed down: baptism, the bread and cup, the scriptures read aloud, and the rule of faith, which we received and kept visible [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our link to Jesus ran through what the apostles handed down: baptism, the bread and cup, the scriptures read aloud, and the rule of faith, which we received and kept visible.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "The rule of faith is the short summary of what the apostles handed down [[alx.term.kanon-pisteos]] [[as:paraphrase]].",
+   "sentence": "The rule of faith is the short summary of what the apostles handed down.",
+   "tags": [
+    "alx.term.kanon-pisteos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We cannot show documentary proof of unbroken practice for each rite, and between the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "We cannot show documentary proof of unbroken practice for each rite, and between the apostles and our first witnesses lies a gap our sources do not fill.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Teachers carried the teaching further, for in the school tradition study and the bond between teacher and student were themselves the path of formation [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "Teachers carried the teaching further, for in the school tradition study and the bond between teacher and student were themselves the path of formation.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What is well attested is a line of teachers and students, while whether a formal school stood behind it is disputed [[alx.term.catechetical-school]] [[as:paraphrase]].",
+   "sentence": "What is well attested is a line of teachers and students, while whether a formal school stood behind it is disputed.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement opened his Stromateis with a tribute to his final teacher: [[quote:alx.quote.clement-bee]]",
+   "placed_quote": "alx.quote.clement-bee",
+   "sentence": "Clement opened his Stromateis with a tribute to his final teacher: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”",
+   "tags": [
+    "alx.quote.clement-bee"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.dw.councils",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-nepos",
+  "alx.dw.church-failure",
+  "alx.term.catechetical-school",
+  "alx.term.didaskalos",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.post-nicene-authority-shift",
+  "alx.force.teacher-bishop-ongoing",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "Our link to Jesus ran through what the apostles handed down: baptism, the bread and cup, the scriptures read aloud, and the rule of faith, which we received and kept visible [[alx.dw.apostolic]] [[as:paraphrase]]. The rule of faith is the short summary of what the apostles handed down [[alx.term.kanon-pisteos]] [[as:paraphrase]]. We cannot show documentary proof of unbroken practice for each rite, and between the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]] [[as:paraphrase]]. We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world [[alx.dw.one-church]] [[as:paraphrase]]. Teachers carried the teaching further, for in the school tradition study and the bond between teacher and student were themselves the path of formation [[alx.gravity.learning-formation]] [[as:paraphrase]]. What is well attested is a line of teachers and students, while whether a formal school stood behind it is disputed [[alx.term.catechetical-school]] [[as:paraphrase]]. Clement opened his Stromateis with a tribute to his final teacher: [[quote:alx.quote.clement-bee]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-bee": [
+    {
+     "detail": "Stromateis",
+     "kind": "name",
+     "snippet": "rers a deathless element of knowledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and",
+     "span": "record alx.quote.clement-bee"
+    },
+    {
+     "detail": "teacher",
+     "kind": "role",
+     "snippet": "owledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and Eusebius names as Pantaenus",
+     "span": "record alx.quote.clement-bee"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-bee"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S5",
+ "text": "Our link to Jesus ran through what the apostles handed down: baptism, the bread and cup, the scriptures read aloud, and the rule of faith, which we received and kept visible. The rule of faith is the short summary of what the apostles handed down. We cannot show documentary proof of unbroken practice for each rite, and between the apostles and our first witnesses lies a gap our sources do not fill. We belonged to one baptism, one bread, the scriptures, the rule of faith, and communion with churches across the whole world. Teachers carried the teaching further, for in the school tradition study and the bond between teacher and student were themselves the path of formation. What is well attested is a line of teachers and students, while whether a formal school stood behind it is disputed. Clement opened his Stromateis with a tribute to his final teacher: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”.",
+ "voice_set_aside": false
+}

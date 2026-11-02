@@ -1,0 +1,160 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "It is the only building of ours from those years that can be dated securely."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "The church the flood destroyed lives only in a chronicler's line."
+  },
+  {
+   "record_ids": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "sentence": "The Chronicle of Edessa records, in its entry for the year 513 of the Greeks: “And they destroyed the temple of the church of the Christians.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "We cannot be sure that line stood in the first record and was not added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "What is known of us comes from letters that date themselves to the year, and from hymns copied by later hands into books that still exist."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.dw.remains",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "group": "A",
+ "id": "q021",
+ "net_sentences": [
+  {
+   "draft": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "It is the only building of ours from those years that can be dated securely [[syr.dw.remains]] [[as:paraphrase]].",
+   "sentence": "It is the only building of ours from those years that can be dated securely.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The church the flood destroyed lives only in a chronicler's line [[syr.dw.remains]] [[as:paraphrase]].",
+   "sentence": "The church the flood destroyed lives only in a chronicler's line.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Chronicle of Edessa records, in its entry for the year 513 of the Greeks: [[quote:syr.quote.chronicle-flood-line]]",
+   "placed_quote": "syr.quote.chronicle-flood-line",
+   "sentence": "The Chronicle of Edessa records, in its entry for the year 513 of the Greeks: “And they destroyed the temple of the church of the Christians.”",
+   "tags": [
+    "syr.quote.chronicle-flood-line"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We cannot be sure that line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "We cannot be sure that line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What is known of us comes from letters that date themselves to the year, and from hymns copied by later hands into books that still exist [[syr.dw.remains]] [[as:paraphrase]].",
+   "sentence": "What is known of us comes from letters that date themselves to the year, and from hymns copied by later hands into books that still exist.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.remains",
+  "syr.story.qyama-morning",
+  "syr.quote.the-temple-of-the-church-of-the-christians",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.gravity.covenant-life",
+  "syr.contested.edessa-origins",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "raw_text": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]]. It is the only building of ours from those years that can be dated securely [[syr.dw.remains]] [[as:paraphrase]]. At Edessa, almost nothing remains, because the modern city sits directly on the ancient one [[syr.dw.remains]] [[as:paraphrase]]. The church the flood destroyed lives only in a chronicler's line [[syr.dw.remains]] [[as:paraphrase]]. The Chronicle of Edessa records, in its entry for the year 513 of the Greeks: [[quote:syr.quote.chronicle-flood-line]] [[as:paraphrase]]. We cannot be sure that line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]]. What is known of us comes from letters that date themselves to the year, and from hymns copied by later hands into books that still exist [[syr.dw.remains]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.chronicle-flood-line": [
+    {
+     "detail": "Greeks",
+     "kind": "name",
+     "snippet": "ns. The Chronicle of Edessa's entry for the year 513 of the Greeks records that the flood destroyed the temple of the church o",
+     "span": "record syr.quote.chronicle-flood-line"
+    },
+    {
+     "detail": "513",
+     "kind": "number",
+     "snippet": "troyed the temple of the church of the Christians. the year-513 entry And they destroyed the temple of the church of the Ch",
+     "span": "record syr.quote.chronicle-flood-line"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.chronicle-flood-line"
+  ],
+  "removed": [
+   {
+    "draft": "At Edessa, almost nothing remains, because the modern city sits directly on the ancient one [[syr.dw.remains]] [[as:paraphrase]].",
+    "sentence": "At Edessa, almost nothing remains, because the modern city sits directly on the ancient one.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S8",
+ "text": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege. It is the only building of ours from those years that can be dated securely. The church the flood destroyed lives only in a chronicler's line. The Chronicle of Edessa records, in its entry for the year 513 of the Greeks: “And they destroyed the temple of the church of the Christians.”. We cannot be sure that line stood in the first record and was not added later. What is known of us comes from letters that date themselves to the year, and from hymns copied by later hands into books that still exist.",
+ "voice_set_aside": false
+}
