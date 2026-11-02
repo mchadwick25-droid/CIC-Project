@@ -41,7 +41,6 @@ documents:
     status: decided later in the build, at Doc_10
     decided_by_mark:
     decision_date:
-safety_adjacent: "false (Mark, 2026-11-02; records/worlds/latap.yaml)"
 open_items_pointer: Open_Gaps_Tracking.md
 corpus_map_staging_keys: "Each corpus-map row for this world carries, in its cic/corpus-map/_staging/ file, the additive keys locus_ids, language, date (window, source, formation_confidence) and voice_of where the role is not tradition. corpus_map_merge.py keeps eight fields (row_id, work, author, source_file, locus, role, confidence, note), so the bucket cic/corpus-map/latin-apologists.yaml does not show them. The tooling change order has not landed. Open_Gaps_Tracking.md, entry OG-5."
 gates:

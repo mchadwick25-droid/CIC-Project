@@ -250,8 +250,8 @@ The merge also left a second copy of `locus_ids`, `language` and `date` in five 
 ## OG-28 — Handoff rulings: safety_adjacent false; Step 0 approval stands (2026-11-02)
 
 **Source:** Mark's choice-box rulings of 2026-11-02, relayed by the coordination thread; the Hub Decision Log entry "Cap ruling: latap Step 0, the approval to proceed stands".
-**Status:** Closed for the two rulings. One item stays with Engine. Owner: Engine thread for the checker.
+**Status:** Closed for the Step 0 ruling. Two items stay with Engine. Owner: Engine thread for the checker.
 
-1. `safety_adjacent` on the `latap` registry entry is `false` (OG-1 closed).
+1. `safety_adjacent` on the `latap` registry entry stays unset. Mark ruled that it is a facilitator role and not a part of the build. Engine is filing a change order to retire handoff check 1 and the build's dependence on the field; handoff check 1 reports this world until that lands (OG-1 stays open on that account).
 2. Step 0 has 7 counted review files. The approval to proceed stands; the Hub Decision Log carries the ruling and names `Step0_Round4_Review.md` to `Step0_Round7_Review.md`, so handoff check 2 reads the cap as ruled. The open item in OG-27 about handoff check 2 is the same matter and is closed by this entry.
 3. Handoff check 8 reports the Arnobius IV.36 quotation as not found. The words are in `cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt` lines 7434 to 7437; the checkers strip markup only for `.xml`, and a `<lb n="10"/>` tag lies inside the phrase. The fix is in both checkers (Engine). Step 0 is not edited.

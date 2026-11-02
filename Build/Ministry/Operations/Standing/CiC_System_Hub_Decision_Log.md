@@ -7356,5 +7356,3 @@ If any condition fails, the amount stays unspent.
 ## 2026-11-02 - Cap ruling: latap Step 0, the approval to proceed stands (project lead)
 
 **Ruling.** Mark, 2026-11-02, by choice box, relayed by the coordination thread: `latap` Step 0 has 7 counted review files against the cap of 3 and is already approved to proceed (self-disposed after Round 7, not Frozen). The approval stands. The handoff check should read the document as ruled, not as an open cap breach. The reviews of Rounds 4 to 7 that came after the first three are covered by this ruling: `Step0_Round4_Review.md`, `Step0_Round5_Review.md`, `Step0_Round6_Review.md` and `Step0_Round7_Review.md` (in `Build/worlds/latap/Review-Artifacts/`). It orders no further review. This ruling does not lift the cap for any other document or world.
-
-**Same date, same source.** Mark set `safety_adjacent: false` on the `latap` registry entry.
