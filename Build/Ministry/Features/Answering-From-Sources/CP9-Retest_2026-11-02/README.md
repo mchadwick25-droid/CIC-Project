@@ -52,7 +52,7 @@ lpc: 9 passages offered over the 5 seeded questions; the helpers' drafts bound n
 - lpc: not met. On the 5 seeded questions C answers "yes" in 3 against B's 4; accuracy tier 2 is 1 for C against 0 for B; depth is mixed (2 rich, 1 flat). The unseeded stratum moved by more than helper noise should allow (yes 15 to 12).
 - rzg: too few to read (4 seeded questions, under the floor of 5).
 - alx, syr: no passage was offered; no test of the offer. They are the controls and show the noise floor above.
-- Across all four worlds the old engine (A) still answers the question and carries depth better than either new arm: "yes" 24 to 26 of 28 against 11 to 20, rich depth 10 to 20 against 1 to 4. Accuracy is better in the new arms: tier 1 is 0 in B and C against 3 in A (lpc 2, rzg 1), tier 2 similar.
+- Across all four worlds the old engine (A) still answers the question and carries depth better than either new arm: "yes" 18 to 26 of 28 against 11 to 20, rich depth 10 to 20 against 1 to 4. Accuracy is better in the new arms: tier 1 is 0 in B and C against 3 in A (lpc 2, rzg 1), tier 2 similar.
 
 ## Limits (read before using the numbers)
 
