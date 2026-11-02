@@ -243,3 +243,8 @@ def test_the_rewrite_request_names_what_code_sets_in_by_kind(records):
 
 def test_the_rewrite_instruction_keeps_the_hedge_and_date():
     assert "Keep its hedge, concession and date as its bound records give them" in ac.REWRITE_SYSTEM
+
+
+def test_the_rewrite_instruction_allows_the_worlds_voice_and_keeps_the_pronoun_rule():
+    assert 'Speak as "we" or "our"' in ac.REWRITE_SYSTEM
+    assert "never use he, she, it, they, this, that or such to point back to an earlier sentence" in ac.REWRITE_SYSTEM
