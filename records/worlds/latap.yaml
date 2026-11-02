@@ -5,3 +5,4 @@ time_window: {start: 197, end: 320}
 place: "Carthage"
 state: candidate
 census_id: "latin-apologists"
+safety_adjacent: false

@@ -246,3 +246,12 @@ The merge also left a second copy of `locus_ids`, `language` and `date` in five 
 
 - **Open.** The corpus-map check does not reject a repeated key inside a row, so a bad merge of this kind passes it. A check for repeated keys belongs in `cic/engine/corpus_map.py`.
 - **Open.** Handoff check 2 reads only the latest numbered review (round 7) and counts seven numbered rounds, so it fails although the cap ruling of 2026-10-29 is on file and Step 0 is approved to proceed. The gate needs to read the ruled review file named in the Hub Decision Log. Doc_02 line 227 reads "c. 296-310" where the Registry reads "c. 295-310"; the two need to be made to agree against the source. Owner: the build thread.
+
+## OG-28 — Handoff rulings: safety_adjacent false; Step 0 approval stands (2026-11-02)
+
+**Source:** Mark's choice-box rulings of 2026-11-02, relayed by the coordination thread; the Hub Decision Log entry "Cap ruling: latap Step 0, the approval to proceed stands".
+**Status:** Closed for the two rulings. One item stays with Engine. Owner: Engine thread for the checker.
+
+1. `safety_adjacent` on the `latap` registry entry is `false` (OG-1 closed).
+2. Step 0 has 7 counted review files. The approval to proceed stands; the Hub Decision Log carries the ruling and names `Step0_Round4_Review.md` to `Step0_Round7_Review.md`, so handoff check 2 reads the cap as ruled. The open item in OG-27 about handoff check 2 is the same matter and is closed by this entry.
+3. Handoff check 8 reports the Arnobius IV.36 quotation as not found. The words are in `cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt` lines 7434 to 7437; the checkers strip markup only for `.xml`, and a `<lb n="10"/>` tag lies inside the phrase. The fix is in both checkers (Engine). Step 0 is not edited.
