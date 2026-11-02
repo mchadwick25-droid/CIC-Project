@@ -196,10 +196,11 @@ subquestions:
         should be stripped before voicing.
       rank: 1
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.iv.xxxiv#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vi.iv.xxxiv
@@ -323,10 +324,11 @@ subquestions:
         so only indirect.
       rank: 3
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vi.ii#01
       file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
       division_locus: vi.ii
@@ -446,10 +448,11 @@ subquestions:
         gloss stated it flatly.
       rank: 5
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
   C1.S8:
     label: Would Jesus want someone like me; I want to believe
     seeds: []
@@ -2233,10 +2236,11 @@ subquestions:
         reader2_opus: null
       rank: 6
       work: The Code of Canons of the African Church (Council of Carthage, 419)
-      author: council-of-carthage-419
+      author: anonymous
       work_author_basis: row narrowed by its locus_ids to this passage division
       shelf_binding: row narrowed by locus_ids to this division
       window: inside
+      author_slug: council-of-carthage-419
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxviii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxviii
@@ -4271,10 +4275,11 @@ subquestions:
         reader2_opus: null
       rank: 5
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iv.ix#03
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.iv.ix
@@ -4348,10 +4353,11 @@ subquestions:
           can_be_voiced_as_own: true
       rank: 6
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LII/line6133#02
       file: npnf108_augustine-exposition-psalms.xml
       division_locus: ii.LII/line6133
@@ -4505,10 +4511,11 @@ subquestions:
         as binding, so 'direct' overstates.
       rank: 8
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -5845,10 +5852,11 @@ subquestions:
       reader_note: Modern editor's introduction; a general characterisation, not any apologist's words.
       rank: 2
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
   C11.S4:
     label: Muslims (worlds after 632 only)
     seeds: []
@@ -7340,10 +7348,11 @@ subquestions:
         stated.
       rank: 1
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.vii.xxi#02
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.vii.xxi
@@ -7397,10 +7406,11 @@ subquestions:
         'she' (the soul) is unclear without the preceding setup. Partial, not direct.
       rank: 2
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.vii.xxi#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.vii.xxi
@@ -7453,10 +7463,11 @@ subquestions:
         who may divorce her), not a stated belief.
       rank: 3
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:vi.ii/line11787#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: vi.ii/line11787
@@ -7509,10 +7520,11 @@ subquestions:
       reader_note: Apocryphal Vision of Paul; pseudonymous narrator, not a church author's own voice.
       rank: 4
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       work_author_basis: all rows bound to the passage file
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
   C13.S5:
     label: Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge
     seeds:
@@ -8325,10 +8337,11 @@ subquestions:
         Maccabees are in only one copy.
       rank: 3
       work: The Code of Canons of the African Church (Council of Carthage, 419)
-      author: council-of-carthage-419
+      author: anonymous
       shelf_binding: row narrowed by locus_ids to this division
       work_author_basis: row narrowed by its locus_ids to this passage division
       window: inside
+      author_slug: council-of-carthage-419
     - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xiii/line5585#01
       file: npnf104_augustine-anti-manichaean-anti-donatist.xml
       division_locus: iv.ix.xiii/line5585
@@ -8587,10 +8600,11 @@ subquestions:
         cites medieval lists; not an early Christian voice.
       rank: 7
       work: The Passion of the Scillitan Martyrs
-      author: passion-of-scillitan-martyrs
+      author: anonymous
       shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      author_slug: passion-of-scillitan-martyrs
   C5.S1b:
     label: Who decided what went in the Bible, and was it a vote
     parent: C5.S1
