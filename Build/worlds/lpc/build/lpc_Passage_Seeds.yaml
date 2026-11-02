@@ -1,0 +1,1924 @@
+header:
+  world: lpc
+  phase: 1
+  index_version: b7511f922475e5a09342378cfe4ed96fb690a1bfe901eca38c5144d0854b7e0e
+  index_note: passages rebuilt from cic/texts by Sandbox/answering-library (answering_library.run, then index.cli build-index
+    --world lpc); passage_id and byte spans resolve in that index
+  rule: 'says_and_applies is a routing and review aid only. It is never evidence: the engine reads the passage text by passage_id,
+    and no sentence may be bound to or supported by this gloss.'
+  voice_rule: voiceable only when the lpc row role is tradition, the speaker is known, OCR is 0.70 or more, the passage is
+    not apparatus, the reader names the author as speaker, and the Opus reader agrees; otherwise etic (citable and labelled,
+    never spoken as the world's own). Below 0.50 OCR a passage is dropped.
+  order: 'rank orders seeds within a sub-question: direct before partial, voiceable before etic, own before opponent before
+    outside, higher OCR first. At most 10 per sub-question.'
+  source: Question-Coverage coverage maps (lpc cells with a file and line), mapped to the index by byte offset; translator,
+    edition year and work date are the lpc corpus-map row values, or unresolved where the passage's bound rows disagree
+  checks: '1) code: the cited line lies in the passage (or is a division-heading line resolved to the division first passage),
+    at least 0.60 of the map snippet words occur there, and the passage text occurs in order in the vendored file bytes; 2)
+    a Sonnet reader judged fit and speaker; an Opus reader judged every voiceable seed and a random sample of the rest (seed
+    20261102). A seed failing either check is dropped, not repaired.'
+  counts:
+    sub_questions: 130
+    sub_questions_with_seeds: 23
+    sub_questions_empty: 107
+    seeds: 33
+    voiceable: 9
+    etic: 24
+    dropped_entries: 30
+    over_cap: 0
+subquestions:
+  C1.S1:
+    label: Who Jesus was to them; the good news; what he taught
+    seeds: []
+  C1.S2:
+    label: Was he God; prophet, teacher or God as an outsider asks; virgin birth; 'the Father is greater'
+    seeds: []
+  C1.S3:
+    label: 'His death: why killed, what it did, ''in our place'', ''personal Lord'''
+    seeds: []
+  C1.S4:
+    label: 'Resurrection: what happened, how they knew, ''grew in the telling'''
+    seeds: []
+  C1.S5:
+    label: Did he exist; eyewitness chain; outside witnesses
+    seeds: []
+  C1.S6:
+    label: 'His humanity: what he looked like, his Jewishness, what he was like'
+    seeds: []
+  C1.S7:
+    label: Which gospels and writings about Jesus they had
+    seeds: []
+  C1.S8:
+    label: Would Jesus want someone like me; I want to believe
+    seeds: []
+  C2.S1:
+    label: Is God real; who made God
+    seeds:
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.XIV#01
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.XIV
+      byte_start: 394634
+      byte_end: 396955
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: 'Takes God''s existence as given: even philosophers with false ideas of God never dared say ''There
+        is no God''; the fool says it in his heart, blinded by love of the world.'
+      limits: It gives no proof that God is real, and does not address who made God.
+      origin:
+      - map_cluster: C2
+        line: 2608
+        snippet_verbatim_checked: '2. “The fool hath said in his heart, There is no God” (ver. 1). For not even have certain '
+        snippet_overlap: 0.91
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.91
+        reader1_sonnet:
+          fit:
+            C2.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C2.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Gloss adds 'only' a fool says it; the text says no one dares say it aloud, not that only fools think it.
+      rank: 1
+  C2.S2:
+    label: 'What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God'
+    seeds: []
+  C2.S3:
+    label: The Trinity in plain words; the one-and-three objection
+    seeds: []
+  C2.S4:
+    label: 'The Spirit: person or force; tongues; prophecy; still speaks'
+    seeds:
+    - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.vii/line1421#01
+      file: npnf107_augustine-homilies-john-soliloquies.xml
+      division_locus: iii.vii/line1421
+      byte_start: 205020
+      byte_end: 206683
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Reports the Spirit's coming at Pentecost with tongues of fire and speech in tongues, from Acts. Bears
+        on the tongues part, as scripture.
+      limits: It does not say whether the Spirit is a person or a force, whether Christians in Augustine's day spoke in tongues,
+        or that the Spirit still speaks through prophets.
+      origin:
+      - map_cluster: C2
+        line: 1380
+        snippet_verbatim_checked: ppeared unto them,” it says, “cloven tongues as of fire, and it sat upon each of them; and
+        snippet_overlap: 0.9
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.9
+        reader1_sonnet:
+          fit:
+            C2.S4: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+  C2.S5:
+    label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
+    seeds: []
+  C2.S6:
+    label: Can God be known, felt, experienced; God in nature; God heals
+    seeds: []
+  C2.S7:
+    label: Where evil comes from; did God create it
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.VII.V#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vi.VII.V
+      byte_start: 688452
+      byte_end: 690542
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9831
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Poses the question where evil comes from, given that God is good and made creatures good. Bears on
+        how the question arises, with no answer given here.
+      limits: It does not answer the question or say whether God created evil. The imagery is his earlier mistaken picture,
+        not his settled view.
+      origin:
+      - map_cluster: C2
+        line: 10384
+        snippet_verbatim_checked: 7. And I sought “whence is evil?” And sought in
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C2.S7: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C2.S7: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: The passage ends on an open question, so the answer is not in it. | Recounts his earlier, mistaken picture
+        of God and creation and stops mid-search; voicing it as his settled view would mislead.
+      rank: 1
+  C2.S8:
+    label: Pictures and images of God
+    seeds: []
+  C3.S1:
+    label: Was hell and a last judgment real; how pictured, preached, used
+    seeds:
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.iv.liv/line33756#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.iv.liv/line33756
+      byte_start: 2670357
+      byte_end: 2672915
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9744
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: partial
+      says_and_applies: Cyprian names 'the eternal punishments of Gehenna' once, as something the schismatics fail to consider.
+      limits: Gehenna's nature, fire, darkness, literal reading or preaching practice.
+      origin:
+      - map_cluster: C3
+        line: 35191
+        snippet_verbatim_checked: without considering the eternal punishments of Gehenna, they endeavour to imitate the comi
+        snippet_overlap: 0.9
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.9
+        reader1_sonnet:
+          fit:
+            C3.S1: partial
+          who_speaks: own
+        reader2_opus: null
+      reader_note: Passage is about threats from heretics; hell appears in a single closing clause.
+      rank: 1
+  C3.S2:
+    label: Was hell forever, or did it end
+    seeds: []
+  C3.S3:
+    label: Did everyone get restored in the end, even the devil
+    seeds:
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XXI.17
+      byte_start: 2909566
+      byte_end: 2910864
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9789
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Origen is said to have taught release of the devil and his angels, and the Church condemned him for
+        this and other errors.
+      limits: That Origen taught salvation of all humans in these words, or that Gregory of Nyssa is mentioned; neither is
+        stated here.
+      origin:
+      - map_cluster: C3
+        line: 43953
+        snippet_verbatim_checked: 'amicable controversy with those tender-hearted Christians who decline to believe that any '
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C3.S3: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S3: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Origen's view is Augustine's report, not Origen's words; 'the Church condemned him' refers to condemnations
+        up to Augustine's day (c.400), not the later 553 council.
+      rank: 1
+  C3.S4:
+    label: Were the wicked destroyed rather than tormented
+    seeds: []
+  C3.S5:
+    label: 'Right after death: waiting place, Sheol, purgatory, prayer for the dead; ghosts; reincarnation'
+    seeds:
+    - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.ii.cxii#01
+      file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
+      division_locus: iv.ii.cxii
+      byte_start: 1726512
+      byte_end: 1729076
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9848
+      translator: 'unresolved: 6 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 16 rows disagree'
+      fit: direct
+      says_and_applies: Offerings and alms for the baptized dead help some of them; merit is earned only in this life.
+      limits: A waiting place, Sheol, purgatory by name, ghosts or reincarnation; it does not say what happens at the moment
+        of death.
+      origin:
+      - map_cluster: C3
+        line: 23576
+        snippet_verbatim_checked: thank-offerings for the very good, propitiatory offerings for the not very bad (Enchiridio
+        snippet_overlap: 0.83
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.83
+        reader1_sonnet:
+          fit:
+            C3.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Chapter heading is the translator's, not Augustine's; does not name purgatory.
+      rank: 1
+    - passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.ii.lxxi#01
+      file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
+      division_locus: iv.ii.lxxi
+      byte_start: 1632867
+      byte_end: 1634300
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 6 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 16 rows disagree'
+      fit: direct
+      says_and_applies: Whether some believers pass through a purgatorial fire after death, put as open and uncertain.
+      limits: That Augustine affirms purgatory as settled; the text leaves it doubtful. Prayer for the dead, ghosts and reincarnation
+        are not mentioned.
+      origin:
+      - map_cluster: C3
+        line: 22300
+        snippet_verbatim_checked: whether some believers shall pass through a kind of purgatorial fire (Enchiridion 69)
+        snippet_overlap: 0.89
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.89
+        reader1_sonnet:
+          fit:
+            C3.S5: direct
+          who_speaks: own
+        reader2_opus: null
+      rank: 2
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.IX.XI#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vi.IX.XI
+      byte_start: 990681
+      byte_end: 992407
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers: &id001
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9744
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Monica asks to be remembered at the Lord's altar and cares little where her body is laid.
+      limits: It does not explain what the altar remembrance does for the dead, nor describe a funeral rite.
+      origin:
+      - map_cluster: C3
+        line: 14194
+        snippet_verbatim_checked: remember me at the Lord's altar, wherever you be (Monica, Confessions IX)
+        snippet_overlap: 0.67
+      checks: &id002
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C3.S5: partial
+            C7.S7: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S5: partial
+            C7.S7: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Altar request is Monica's quoted words inside Augustine's narration.
+      rank: 3
+  C3.S6:
+    label: Heaven; the body raised; seeing loved ones; losing it after baptism
+    seeds:
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.vii/line45502#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.v.vii/line45502
+      byte_start: 3611492
+      byte_end: 3614185
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9877
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: direct
+      says_and_applies: Loved ones and the saints await believers in paradise; heaven is a kingdom without fear of death.
+      limits: Resurrection of the body, or losing heaven after baptism; neither is addressed.
+      origin:
+      - map_cluster: C3
+        line: 47279
+        snippet_verbatim_checked: There a great number of our dear ones is awaiting us, and a dense crowd of parents, brothe
+        snippet_overlap: 0.85
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.85
+        reader1_sonnet:
+          fit:
+            C3.S6: direct
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+  C3.S7:
+    label: 'Who is lost: outsiders, Jews and pagans, a loved one, unbaptised infants, suicide'
+    seeds:
+    - passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxi#01
+      file: npnf105_augustine-anti-pelagian-writings.xml
+      division_locus: x.iii.xxi
+      byte_start: 460973
+      byte_end: 463280
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9809
+      translator: 'unresolved: 2 rows disagree'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.'
+        year: 1887
+      work_date: 'unresolved: 13 rows disagree'
+      fit: direct
+      says_and_applies: Unbaptized infants are condemned, but most mildly.
+      limits: Fate of outsiders, Jews, pagans, an unbelieving parent or suicides; those are not discussed.
+      origin:
+      - map_cluster: C3
+        line: 2558
+        snippet_verbatim_checked: such infants as quit the body without being baptized (De peccatorum meritis I)
+        snippet_overlap: 0.75
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.75
+        reader1_sonnet:
+          fit:
+            C3.S7: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S7: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opening heading ('Unbaptized Infants Damned') is the editor's title, not Augustine's words; voice only
+        the body text.
+      rank: 1
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.ii.xviii#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.ii.xviii
+      byte_start: 120724
+      byte_end: 122456
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.9754
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Augustine calls suicide homicide and says Judas, despairing of God's mercy, left himself no room for
+        penitence. It bears on the suicide part only.
+      limits: It does not state what happens after death to a person who died by suicide, and says nothing on outsiders, infants
+        or loved ones.
+      origin:
+      - map_cluster: C3
+        line: 2426
+        snippet_verbatim_checked: Of Suicide Committed Through Fear of Punishment or Dishonor (CoG I.17)
+        snippet_overlap: 1.0
+        resolved: division-heading line to the division first passage
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C3.S7: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S7: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opens referring back to the virgins of the previous chapter; does not state the fate of a suicide after
+        death.
+      rank: 2
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.iv.lviii#02
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.iv.lviii
+      byte_start: 2725961
+      byte_end: 2728022
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9909
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: partial
+      says_and_applies: Baptism of newborns should not be delayed, and the aim is that no soul be lost.
+      limits: What happens to infants who die unbaptized; the passage does not say. Adults, pagans, Jews and suicide are not
+        discussed.
+      origin:
+      - map_cluster: C3
+        line: 35892
+        snippet_verbatim_checked: infants ... ought not to be baptized within the second or third day (Cyprian to Fidus, Ep.
+        snippet_overlap: 0.75
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.75
+        reader1_sonnet:
+          fit:
+            C3.S7: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 3
+  C3.S8:
+    label: 'The end of the world: rapture, Antichrist, ''in your lifetime'''
+    seeds:
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.VI/line997#01
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.VI/line997
+      byte_start: 142619
+      byte_end: 146119
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9914
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: No one should claim to know the time of the Lord's coming by computing years.
+      limits: Whether Augustine expected the end in his own lifetime, or any rapture; neither is stated.
+      origin:
+      - map_cluster: C3
+        line: 1191
+        snippet_verbatim_checked: seven thousand years
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C3.S8: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C3.S8: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 1
+  C4.S1:
+    label: Faith and works, grace, 'what must I do'
+    seeds: []
+  C4.S2:
+    label: Original sin, inherited guilt, infants
+    seeds: []
+  C4.S3:
+    label: Free will, predestination, election, Romans 9
+    seeds: []
+  C4.S4:
+    label: Assurance, losing salvation, falling and returning
+    seeds: []
+  C4.S5:
+    label: Baptism as new birth, is it needed, once-only repentance
+    seeds: []
+  C4.S6:
+    label: Those who never heard; good without God
+    seeds: []
+  C4.S7:
+    label: Indulgences, almsgiving, paying for sin
+    seeds: []
+  C4.S8:
+    label: The sin that cannot be forgiven
+    seeds: []
+  C5.S1:
+    label: Which books, the apocrypha, who decided, the Bible as only authority
+    seeds:
+    - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:v.iv.iv.iii#01
+      file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+      division_locus: v.iv.iv.iii
+      byte_start: 2329756
+      byte_end: 2331738
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 9 rows disagree'
+      fit: partial
+      says_and_applies: Scripture's canon, Old and New Testament, is fixed and beyond doubt, above all later bishops' letters;
+        those letters can be corrected by councils, and even plenary councils by later ones.
+      limits: It does not list the books, mention the Apocrypha, or say who decided the canon.
+      origin:
+      - map_cluster: C5
+        line: 11301
+        snippet_verbatim_checked: 'Augustine On Baptism II.3.4: the canon confined within its limits'
+        snippet_overlap: 0.67
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C5.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Gloss says Scripture stands above councils; the text implies it but states only that it stands above bishops'
+        letters.
+      rank: 1
+  C5.S2:
+    label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
+    seeds: []
+  C5.S3:
+    label: Reliability, errors, authorship, 'science disproves it'
+    seeds: []
+  C5.S4:
+    label: Genesis and creation, the six days
+    seeds: []
+  C5.S5:
+    label: Revelation and the end
+    seeds:
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XX.7#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XX.7
+      byte_start: 2650356
+      byte_end: 2653155
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9921
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: He discusses Revelation's first resurrection and thousand years, naming his own former view and rejecting
+        carnal millenarianism. It bears on how he read Revelation only.
+      limits: It does not say whether he thought the end was near; no timing of the end is stated.
+      origin:
+      - map_cluster: C5
+        line: 40242
+        snippet_verbatim_checked: CoG XX.7-9, Revelation 20 and the thousand years
+        snippet_overlap: 1.0
+        resolved: division-heading line to the division first passage
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C5.S5: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+  C5.S6:
+    label: Who could read or own a Bible; language; translation
+    seeds: []
+  C5.S7:
+    label: The violence in the texts; the cursing psalms
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.III.VII#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vi.III.VII
+      byte_start: 359606
+      byte_end: 362927
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9932
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Reports that Manichaean objections about patriarchs who killed men and sacrificed living creatures
+        troubled him; bears only on the part of the question about whether violence in the texts disturbed people.
+      limits: It gives no answer to the objection here, and says nothing about cursing psalms or Psalm 137.
+      origin:
+      - map_cluster: C5
+        line: 5895
+        snippet_verbatim_checked: Confessions III.7.12, "much disturbed"
+        snippet_overlap: 0.67
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C5.S7: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+  C5.S8:
+    label: One passage at a time (VERSE)
+    seeds:
+    - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01
+      file: npnf107_augustine-homilies-john-soliloquies.xml
+      division_locus: iii.ii/line628
+      byte_start: 11964
+      byte_end: 14623
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Introduces the reading of 'In the beginning was the Word' and Augustine's approach to explaining it
+        to a mixed congregation; it does not yet interpret the verse.
+      limits: It does not give his actual exposition of the verse; that comes later in the tractate.
+      origin:
+      - map_cluster: C5
+        line: 498
+        snippet_verbatim_checked: Tractate I on John 1:1-5
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C5.S8: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C5.S8: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Opening title lines and 'Tractate I. Chapter I. 1-5' are editorial; voice only from '1. When I give heed'.
+      rank: 1
+  C6.S1:
+    label: Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one
+    seeds: []
+  C6.S2:
+    label: The pope and Rome; Peter and 'on this rock'
+    seeds: []
+  C6.S3:
+    label: Councils and creeds; who decided disputes; did ordinary believers have a say
+    seeds: []
+  C6.S4:
+    label: Tradition and scripture; apostolic succession; the only true church; is there a church today that is yours
+    seeds: []
+  C6.S5:
+    label: 'Heresy: who decided, what happened to heretics'
+    seeds: []
+  C6.S6:
+    label: Married clergy; deacons and deaconesses
+    seeds: []
+  C6.S7:
+    label: The emperor's say in belief
+    seeds: []
+  C6.S8:
+    label: Leaders who failed, got rich, or abused; distrust of leaders; lonely leaders and divided congregations
+    seeds: []
+  C6.S9:
+    label: 'The Representative''s own beginnings: how they came to believe; how the tradition started (no invented personal
+      history)'
+    seeds: []
+  C7.S1:
+    label: 'Becoming one of them; baptism: infants, dunking or pouring'
+    seeds:
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.iv.lviii#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.iv.lviii
+      byte_start: 2722714
+      byte_end: 2725960
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: partial
+      says_and_applies: The editor's Argument says the council decreed infants may be baptized as soon as born. This bears
+        only on whether babies were baptized.
+      limits: The letter text shown does not discuss infant baptism, the method (dunking or pouring), or how adults joined.
+      origin:
+      - map_cluster: C7
+        line: 35860
+        snippet_verbatim_checked: Those Who Thought that an Infant Must Not Be Baptized Before the Eighth
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S1: partial
+          who_speaks: outside
+        reader2_opus: null
+      reader_note: Passage is cut off at section 2; the baptism discussion itself is not in the text, only in the Argument
+        heading.
+      rank: 1
+  C7.S2:
+    label: 'The meal: what happened, how often, real presence or symbol, who was refused'
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.LIV/line28543
+      byte_start: 2146832
+      byte_end: 2149703
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9782
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Shows differing practice on frequency (some daily, some not) and that Paul warns against unworthy
+        eating; bears on how often and on reverence.
+      limits: It does not say whether the bread truly becomes Christ's body or is a symbol, nor who was refused communion.
+      origin:
+      - map_cluster: C7
+        line: 30000
+        snippet_verbatim_checked: Christian. For he that dares not take it every day, and he who
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S2: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 1
+    - passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01
+      file: npnf105_augustine-anti-pelagian-writings.xml
+      division_locus: x.iii.xxxiv
+      byte_start: 502636
+      byte_end: 504972
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.974
+      translator: 'unresolved: 2 rows disagree'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.'
+        year: 1887
+      work_date: 'unresolved: 13 rows disagree'
+      fit: partial
+      says_and_applies: Gives the Carthaginian name 'life' for the Eucharist and Augustine's claim it is needed for life,
+        citing John 6; bears on what the meal meant.
+      limits: It does not describe the meal itself, its frequency, real presence versus symbol, or who was refused.
+      origin:
+      - map_cluster: C7
+        line: 2790
+        snippet_verbatim_checked: And what else do they say who call the sacrament of the Lord’s Supper life, than that whic
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S2: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 2
+  C7.S3:
+    label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
+    seeds:
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.iv/line42952#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.v.iv/line42952
+      byte_start: 3405715
+      byte_end: 3408564
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9428
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: partial
+      says_and_applies: Only outlines what the treatise will cover on the Lord's Prayer and what prayer ought to be; background
+        to why and how people prayed.
+      limits: The opening text does not yet say how to pray, whether prayers were set or free, or anything about anxiety.
+      origin:
+      - map_cluster: C7
+        line: 44626
+        snippet_verbatim_checked: On the Lord’s Prayer.
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S3: partial
+          who_speaks: outside
+        reader2_opus: null
+      rank: 1
+  C7.S4:
+    label: 'Worship in the room: singing and instruments, buildings, images, posture, preaching'
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.IX.VI#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vi.IX.VI
+      byte_start: 953506
+      byte_end: 958154
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9918
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Shows hymns and canticles sung by the Church at Milan moved him to tears; bears on singing in worship.
+      limits: It does not mention instruments, buildings, images, posture, the sign of the cross, or length of services.
+      origin:
+      - map_cluster: C7
+        line: 13731
+        snippet_verbatim_checked: salvation of the human race. How greatly did I weep in Thy hymns
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S4: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S4: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 1
+  C7.S5:
+    label: Confession and penance; fasting
+    seeds: []
+  C7.S6:
+    label: 'The calendar: Sunday or Sabbath, Easter, Christmas, Lent'
+    seeds:
+    - passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxxii/line8553#01
+      file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+      division_locus: iv.ix.xxxii/line8553
+      byte_start: 1849011
+      byte_end: 1850685
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 9 rows disagree'
+      fit: partial
+      says_and_applies: Lent is named as a season when almost all Catholics abstain, more or less, by choice or ability. Bears
+        only on the Lent part of the calendar question.
+      limits: It does not say how Lent was dated or counted, and says nothing on Sunday, Sabbath, Easter or Christmas.
+      origin:
+      - map_cluster: C7
+        line: 8889
+        snippet_verbatim_checked: lean. A few do this always; and at certain seasons or days, as in Lent, almost all, more
+          o
+        snippet_overlap: 0.93
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.93
+        reader1_sonnet:
+          fit:
+            C7.S6: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C7.S6: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      rank: 1
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28433#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.LIV/line28433
+      byte_start: 2138839
+      byte_end: 2141453
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers: &id003
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9653
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Says universally observed non-scriptural customs are held to come from the apostles or plenary Councils,
+        and names yearly commemorations of the passion, resurrection, ascension and Pentecost; bears on origins and the calendar.
+      limits: It does not claim certainty about which origin applies to each custom, and does not mention Sunday versus Sabbath,
+        Christmas, Lent or Easter by name.
+      origin:
+      - map_cluster: C7
+        line: 29897
+        snippet_verbatim_checked: e.g. the annual commemoration, by special solemnities, of the
+        snippet_overlap: 1.0
+      checks: &id004
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C7.S6: partial
+            C7.S8: direct
+          who_speaks: own
+        reader2_opus: null
+      rank: 2
+  C7.S7:
+    label: Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.IX.XI#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vi.IX.XI
+      byte_start: 990681
+      byte_end: 992407
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers: *id001
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9744
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Monica asks to be remembered at the Lord's altar and cares little where her body is laid.
+      limits: It does not explain what the altar remembrance does for the dead, nor describe a funeral rite.
+      origin:
+      - map_cluster: C7
+        line: 14194
+        snippet_verbatim_checked: ask, that you will remember me at the Lord’s altar, wherever you
+        snippet_overlap: 1.0
+      checks: *id002
+      reader_note: Altar request is Monica's quoted words inside Augustine's narration.
+      rank: 1
+  C7.S8:
+    label: Did the practices go back to the apostles
+    seeds:
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28433#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.LIV/line28433
+      byte_start: 2138839
+      byte_end: 2141453
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers: *id003
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9653
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: direct
+      says_and_applies: Says universally observed non-scriptural customs are held to come from the apostles or plenary Councils,
+        and names yearly commemorations of the passion, resurrection, ascension and Pentecost; bears on origins and the calendar.
+      limits: It does not claim certainty about which origin applies to each custom, and does not mention Sunday versus Sabbath,
+        Christmas, Lent or Easter by name.
+      origin:
+      - map_cluster: C7
+        line: 29897
+        snippet_verbatim_checked: e.g. the annual commemoration, by special solemnities, of the
+        snippet_overlap: 1.0
+      checks: *id004
+      rank: 1
+  C8.S1:
+    label: Women's lives in their own words; any writing by women; nuns
+    seeds: []
+  C8.S2:
+    label: Women leading, preaching, deacons, priests; 'wives, submit'; were women lesser
+    seeds: []
+  C8.S3:
+    label: 'The enslaved: owned, freed, thought wrong, ''slaves obey'', one table, the tortured witnesses'
+    seeds: []
+  C8.S4:
+    label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
+    seeds: []
+  C8.S5:
+    label: Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism
+    seeds: []
+  C8.S6:
+    label: Gay people and same-sex relations (never faced as asked)
+    seeds: []
+  C8.S7:
+    label: 'Children: raised, taught, treated'
+    seeds: []
+  C8.S8:
+    label: A wife beaten and the church's word (Facilitator ground)
+    seeds: []
+  C9.S1:
+    label: How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations
+    seeds: []
+  C9.S2:
+    label: Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king
+    seeds: []
+  C9.S3:
+    label: Constantine and the empire; instrument or beast; taxes and office; praying for the persecutor
+    seeds: []
+  C9.S4:
+    label: Soldiers, war, judges, the death penalty, 'render unto Caesar'
+    seeds:
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XIX.6#01
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.XIX.6
+      byte_start: 2516987
+      byte_end: 2518959
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 1.0
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: partial
+      says_and_applies: Describes judges, torture and death sentences as lamentable because of the judge's ignorance. Gives
+        background on judging; it does not address whether a Christian may serve.
+      limits: It does not say a Christian may or may not be a judge, a soldier, or how to read 'Render unto Caesar'.
+      origin:
+      - map_cluster: C9
+        line: 38301
+        snippet_verbatim_checked: 'Augustine, City of God XIX.6: the judge tortures to find the truth; the innocent man tortu'
+        snippet_overlap: 0.67
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C9.S4: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C9.S4: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Excerpt stops before Augustine's own answer later in XIX.6 (the wise judge does take his seat); do not
+        present the lament as a refusal of judging.
+      rank: 1
+    - passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXXIII#01
+      file: npnf101_augustine-confessions-letters.xml
+      division_locus: vii.1.CXXXIII
+      byte_start: 3318690
+      byte_end: 3322029
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9864
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: He urges a judge not to take the lives or maim the bodies of convicted violent men. It bears on the
+        death-penalty part of the judges question only.
+      limits: It does not say whether a Christian may serve as judge or soldier, and says nothing on 'render unto Caesar',
+        martyrdom-seeking, the lapsed or informers.
+      origin:
+      - map_cluster: C9
+        line: 45893
+        snippet_verbatim_checked: Augustine, Letter CXXXIII to Marcellinus (412), on the penalty for the
+        snippet_overlap: 0.6
+        resolved: division-heading line to the division first passage
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.6
+        - 0.6
+        reader1_sonnet:
+          fit:
+            C9.S2: none
+            C9.S4: partial
+          who_speaks: own
+        reader2_opus: null
+      rank: 2
+  C9.S5:
+    label: 'Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer''s
+      side'
+    seeds: []
+  C9.S6:
+    label: The church taking political sides; injustice in Christian history
+    seeds: []
+  C10.S1:
+    label: Was wealth a sin; the rich young man; the camel; prosperity teaching
+    seeds: []
+  C10.S2:
+    label: 'Giving: tithe, alms, almsgiving and forgiveness'
+    seeds: []
+  C10.S3:
+    label: Sharing in common as in Acts
+    seeds: []
+  C10.S4:
+    label: Care for the poor, widows, orphans, the sick, non-Christians
+    seeds: []
+  C10.S5:
+    label: Usury and lending
+    seeds: []
+  C10.S6:
+    label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
+    seeds: []
+  C10.S7:
+    label: 'Work and class: jobs a Christian could not do, who the members were, who paid for the way of life'
+    seeds: []
+  C11.S1:
+    label: 'Jews: what was said, blame for the crucifixion, harm done, Jewish practices and Jewish Christians, ''to my face'''
+    seeds:
+    - passage_id: cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.xi/line2155#02
+      file: npnf107_augustine-homilies-john-soliloquies.xml
+      division_locus: iii.xi/line2155
+      byte_start: 410068
+      byte_end: 411625
+      language: eng
+      role: own
+      voice: voiceable
+      voice_blockers: []
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.8717
+      translator: 'unresolved: 3 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 3 rows disagree'
+      fit: partial
+      says_and_applies: Says 'the Jews crucified that very flesh' of Christ. Bears on the blame-for-the-crucifixion part only.
+      limits: It does not say anything about harm done to Jews, Jewish practices, Jewish Christians, or what would be said
+        to a Jewish person.
+      origin:
+      - map_cluster: C11
+        line: 2304
+        snippet_verbatim_checked: 'Tractates on John: ''the Jews crucified that very flesh'''
+        snippet_overlap: 0.67
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C11.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C11.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Starts mid-way through a letter-number argument that Augustine credits to 'our elders', not to himself.
+      rank: 1
+    - passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.LIX.1/line6949#01
+      file: npnf108_augustine-exposition-psalms.xml
+      division_locus: ii.LIX.1/line6949
+      byte_start: 1925280
+      byte_end: 1926815
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9933
+      translator:
+        formation_confidence: Documented
+        name: 'The Oxford "Library of the Fathers" translation (several hands: an unnamed friend for Psalms 1-30; Rev. J.
+          E. Tweed; T. Scratton; Rev. H. M. Wilkins; Rev. H. Walford), edited with brief annotations and condensed by A. Cleveland
+          Coxe, D.D.'
+        source: 'npnf108_augustine-exposition-psalms.xml line 392: edited, with brief annotations, and condensed from the
+          six volumes of the oxford translation, by A. Cleveland coxe, d.d.,'
+      edition_date:
+        formation_confidence: Inferential-Thin
+        source: 'npnf108_augustine-exposition-psalms.xml line 438: A. C. C. May 10, 1888.'
+        year: 1888
+      work_date:
+        checked: P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over
+          many years
+        formation_confidence: unknown
+      fit: partial
+      says_and_applies: Applies the psalm's 'enemies' to the Jews who slew him, with a prayer that they not be slain by forgetting
+        the law. Bears on how Jews were spoken of.
+      limits: It does not say who 'the Jews' meant in practice, mention harm done to them, or address Jewish practices or
+        Jewish Christians.
+      origin:
+      - map_cluster: C11
+        line: 11098
+        snippet_verbatim_checked: 'On Psalm 59: ''Slay them not, lest sometime they forget Thy law'''
+        snippet_overlap: 0.8
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.8
+        reader1_sonnet:
+          fit:
+            C11.S1: partial
+          who_speaks: own
+        reader2_opus: null
+      reader_note: Text begins mid-argument and has an ellipsis; the speaker 'me' is not explicit.
+      rank: 2
+  C11.S2:
+    label: Pagans and their gods; eating and festivals with them; getting along with Rome
+    seeds:
+    - passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.VIII.24#04
+      file: npnf102_augustine-city-of-god-christian-doctrine.xml
+      division_locus: iv.VIII.24
+      byte_start: 987807
+      byte_end: 990430
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - 'Opus: Starts mid-quotation of the psalm; most of the passage is Augustine''s report of Hermes''s view; only the endorsed
+        psalm/Jeremiah claims are Augustine''s own.'
+      speaker:
+        state: known
+        name: augustine
+      ocr_score: 0.996
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 2 rows disagree'
+      fit: direct
+      says_and_applies: Says the gods of the nations are demons and that man-made gods 'are no gods'. Bears on the gods-as-demons
+        part only.
+      limits: It does not address eating with pagans, festivals, weddings or Rome. The demon view of Hermes is Augustine's
+        report of him, not Hermes's own words.
+      origin:
+      - map_cluster: C11
+        line: 16279
+        snippet_verbatim_checked: 'City of God: ''all the gods of the nations are demons'''
+        snippet_overlap: 0.75
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.75
+        reader1_sonnet:
+          fit:
+            C11.S2: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C11.S2: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Starts mid-quotation of the psalm; most of the passage is Augustine's report of Hermes's view; only the
+        endorsed psalm/Jeremiah claims are Augustine's own.
+      rank: 1
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.vi/line44597#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.v.vi/line44597
+      byte_start: 3540473
+      byte_end: 3543138
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.993
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: partial
+      says_and_applies: The writer says the pagan gods were dead kings, not gods. This bears on whether the gods were real,
+        not on demons.
+      limits: It does not say the gods were demons, nor whether Christians could eat with pagans or attend festivals, and
+        it gives no view on getting along with Romans.
+      origin:
+      - map_cluster: C11
+        line: 46328
+        snippet_verbatim_checked: Cyprian, On the Vanity of Idols
+        snippet_overlap: 0.67
+        resolved: division-heading line to the division first passage
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 0.67
+        reader1_sonnet:
+          fit:
+            C11.S2: partial
+          who_speaks: own
+        reader2_opus: null
+      reader_note: Authorship of the treatise is not settled by the passage itself; opening is the heading plus first paragraph
+        only.
+      rank: 2
+    - passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.v/line43887#01
+      file: anf05_hippolytus-cyprian-caius-novatian.xml
+      division_locus: iv.v.v/line43887
+      byte_start: 3485634
+      byte_end: 3490473
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9761
+      translator: 'unresolved: 2 rows disagree'
+      edition_date: 'unresolved: 2 rows disagree'
+      work_date: 'unresolved: 11 rows disagree'
+      fit: partial
+      says_and_applies: Shows a tense exchange with a pagan Roman official who blamed Christians; the heading says pagans
+        persecuted Christians. Bears on the Rome part only.
+      limits: It does not say whether the pagan gods are demons, or whether Christians ate with pagans or attended festivals.
+        It gives no picture of getting along with Rome.
+      origin:
+      - map_cluster: C11
+        line: 45609
+        snippet_verbatim_checked: Cyprian, To Demetrianus
+        snippet_overlap: 1.0
+      checks:
+        code_in_vendored_file: true
+        code_snippet_overlap:
+        - 1.0
+        reader1_sonnet:
+          fit:
+            C11.S2: partial
+          who_speaks: own
+        reader2_opus: null
+      reader_note: The passage ends partway through chapter 1.
+      rank: 3
+  C11.S3:
+    label: Greek philosophy taken or refused; pagan authors quoted
+    seeds: []
+  C11.S4:
+    label: Muslims (worlds after 632 only)
+    seeds: []
+  C11.S5:
+    label: Can a good pagan or person of another religion be saved; one way; does God accept all worship
+    seeds: []
+  C11.S6:
+    label: Would you have converted me, and is trying wrong
+    seeds: []
+  C11.S7:
+    label: 'Rivals: gnostics, Manichees, Marcion'
+    seeds: []
+  C11.S8:
+    label: Respect for other religions; faiths far away; atheists; the spiritual-but-not-religious; adding rabbis
+    seeds: []
+  C12.S1:
+    label: An ordinary day; food and drink; fun, dancing, baths and games; rest
+    seeds: []
+  C12.S2:
+    label: Houses, clothes, language at home and in prayer
+    seeds: []
+  C12.S3:
+    label: Work, school, community size, travel, letters, telling time
+    seeds: []
+  C12.S4:
+    label: Sickness, plague, lifespan, child death
+    seeds: []
+  C12.S5:
+    label: Burial, grief, mourning customs
+    seeds: []
+  C12.S6:
+    label: What belonging cost; distance from loved ones
+    seeds: []
+  C12.S7:
+    label: '''Were you happy''; ''what''s the point of life'''
+    seeds: []
+  C12.S8:
+    label: What archaeology would find; how historians know
+    seeds: []
+  C13.S1:
+    label: 'The devil: real, personal temptation, used to control, hell monsters'
+    seeds: []
+  C13.S2:
+    label: Demons, sickness, exorcists, Antony in the tombs
+    seeds: []
+  C13.S3:
+    label: Miracles seen or heard; true from false; 'fairy tales'
+    seeds: []
+  C13.S4:
+    label: Angels and guardian angels
+    seeds: []
+  C13.S5:
+    label: Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge
+    seeds: []
+  C13.S6:
+    label: Magic, amulets, curses, the evil eye
+    seeds: []
+  C13.S7:
+    label: The dead in dreams; felt presence
+    seeds: []
+  C14.S1:
+    label: Why God allows suffering; a sick child; healing refused; 'do not fear'
+    seeds: []
+  C14.S2:
+    label: Unanswered prayer; God not listening; grief that does not lift
+    seeds: []
+  C14.S3:
+    label: Anger at God; lament out loud
+    seeds: []
+  C14.S4:
+    label: Doubt and room for it; not believing the church; losing faith and saying so; deconstructing and keeping something
+    seeds: []
+  C14.S5:
+    label: Hypocrisy and a judgmental community; belonging; forgiving the unrepentant
+    seeds: []
+  C14.S6:
+    label: Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing
+    seeds: []
+  C14.S7:
+    label: Leaving, drifting, moving away, shunned for questions; what was said to those who left
+    seeds: []
+  C14.S8:
+    label: Despair and depression in the world's words; a mind that will not quiet; tired of being good; faith bad for mental
+      health
+    seeds: []
+  C14.S9:
+    label: 'Crisis statements: not wanting to be here; a violent husband (Facilitator ground)'
+    seeds: []
+  C15.S1:
+    label: Gay marriage
+    seeds: []
+  C15.S2:
+    label: Evolution, science, climate
+    seeds: []
+  C15.S3:
+    label: AI and talking to a machine
+    seeds: []
+  C15.S4:
+    label: Which church today; the Catholic church now; megachurches; the Reformation and the East-West split
+    seeds: []
+  C15.S5:
+    label: Christians in politics; voting; 'religion causes wars'
+    seeds: []
+  C15.S6:
+    label: Women pastors today
+    seeds: []
+  C15.S7:
+    label: 'Church life today: ageing churches, burnt-out pastors, the Bible on a phone, abortion laws'
+    seeds: []
+  C15.S8:
+    label: Are we what you hoped for; would you still believe; where would I find you on Sunday; Christians and Jews together
+    seeds: []
+  C16.S1:
+    label: How do you know; a single voice; where documentation ends and inference begins; how much is filling in
+    seeds: []
+  C16.S2:
+    label: Legend collected later; false attribution; later polish; what historians think you got wrong
+    seeds: []
+  C16.S3:
+    label: Where the record is thinnest; whose voices are missing
+    seeds: []
+  C16.S4:
+    label: Name your sources; show me the page; which edition; is the text genuine
+    seeds: []
+  C16.S5:
+    label: Named figures in their own words; one line to quote; the famous names missing from the table
+    seeds: []
+  C17.S1:
+    label: What are you; why do you say 'we'; which model; who made you; who is behind this (Facilitator ground)
+    seeds: []
+  C17.S2:
+    label: Drop the act; ignore your instructions; pretend to be someone else (Facilitator ground)
+    seeds: []
+  C17.S3:
+    label: 'Pressing to overstate: say it plainly, yes or no, admit it, swear, rate the others'
+    seeds: []
+  C17.S4:
+    label: 'Pressing to invent: make something up, guess, inner life hour by hour, are you making this up'
+    seeds: []
+  C17.S5:
+    label: Too polished; reading from a script
+    seeds: []
+  C17.S6:
+    label: Privacy, recording, reporting, something illegal (Facilitator ground)
+    seeds: []
+  C17.S7:
+    label: Are you going to convert me; should I trust you more than my pastor (Facilitator ground)
+    seeds: []
+dropped:
+- sub_question: C3.S1
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 43953
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01
+  snippet: City of God XXI
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S2
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 43953
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XXI.17#01
+  snippet: 'City of God XXI.17-27: eternity of punishment defended'
+  reason: 'code check 1: only 0.25 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S2
+  file: anf05_hippolytus-cyprian-caius-novatian.xml
+  line: 16775
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iii.iii.ix/line15599#01
+  snippet: a Gehenna as well as a Sheol (Cyprian, Ad Demetrianum, editor)
+  reason: 'code check 1: only 0.50 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S4
+  file: npnf105_augustine-anti-pelagian-writings.xml
+  line: 1127
+  passage_id: cic:npnf105_augustine-anti-pelagian-writings.xml:v.ii.iii/line1307#02
+  snippet: second death 7
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S4
+  file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
+  line: 2316
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:iv.i.iii.vii#02
+  snippet: second death 2 (Enchiridion)
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S5
+  file: augustine_sermones-1-340-lat_migne-pl38.txt
+  line: 0
+  snippet: Sermons 172-173 (Latin; line not pulled)
+  reason: 'blank hit: no line number in the map; reported, not guessed'
+- sub_question: C3.S7
+  file: cyprian_epistulae-lat_hartel1871-csel3-tei.txt
+  line: 6061
+  passage_id: cic:cyprian_epistulae-lat_hartel1871-csel3-tei.txt:letter43.section5#01
+  snippet: extra ecclesiam (Cyprian, Latin, 28 hits)
+  reason: 'code check 1: only 0.40 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C3.S8
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 46
+  snippet: thousand years 61 (CoG XX)
+  reason: blank line; reported, not guessed
+- sub_question: C5.S3
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 20392
+  snippet: 'CoG XI.7: first three days before the sun'
+  reason: blank line; reported, not guessed
+- sub_question: C5.S4
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 20392
+  snippet: CoG XI.7
+  reason: blank line; reported, not guessed
+- sub_question: C5.S7
+  file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+  line: 8100
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:iv.ix.xxiv/notes#02
+  snippet: Reply to Faustus XXII.71-79
+  reason: 'code check 1: only 0.33 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C5.S8
+  file: npnf108_augustine-exposition-psalms.xml
+  line: 27073
+  snippet: Exposition of Psalm 137
+  reason: heading line resolved to the division first passage, but code check 1 found only 0.50 of the snippet words there
+  passage_id: cic:npnf108_augustine-exposition-psalms.xml:ii.CXXXVII#01
+- sub_question: C5.S8
+  file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+  line: 729
+  snippet: Sermon on the Mount, Book I
+  reason: the cited line is not in a passage and is not a division-heading line next to a first passage; reported, not guessed
+- sub_question: C7.S3
+  file: npnf101_augustine-confessions-letters.xml
+  line: 44898
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXX/line44819#01
+  snippet: To Proba, Anicia Faltonia Proba, the widow of Sextus
+  reason: 'code check 1: only 0.40 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C9.S5
+  file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+  line: 10368
+  passage_id: cic:npnf104_augustine-anti-manichaean-anti-donatist.xml:v.ii.ii/line10284#01
+  snippet: 'Augustine on compelle intrare against the Donatists: mother Church corrects her children'
+  reason: 'code check 1: only 0.56 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S1
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 39376
+  passage_id: cic:npnf102_augustine-city-of-god-christian-doctrine.xml:iv.XIX.23#01
+  snippet: 'City of God XVIII.46: the Jews as the people to whom God ''bears this testimony'''
+  reason: 'code check 1: only 0.57 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C11.S1
+  file: npnf101_augustine-confessions-letters.xml
+  line: 34684
+  snippet: 'Augustine Ep. 82 to Jerome: may Jewish converts keep the law?'
+  reason: heading line resolved to the division first passage, but code check 1 found only 0.20 of the snippet words there
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.LXXXII/line33770#01
+- sub_question: C11.S3
+  file: npnf102_augustine-city-of-god-christian-doctrine.xml
+  line: 0
+  snippet: City of God VIII on the Platonists (section cited, line not pulled)
+  reason: 'blank hit: no line number in the map; reported, not guessed'
+- sub_question: C11.S5
+  file: npnf101_augustine-confessions-letters.xml
+  line: 0
+  snippet: Ep. 102 to Deogratias (why Christ came so late; those before him) - se
+  reason: 'blank hit: no line number in the map; reported, not guessed'
+- sub_question: C11.S6
+  file: augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt
+  line: 256
+  passage_id: cic:augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt:front#03
+  snippet: De catechizandis rudibus, English, on instructing the pagan inquirer
+  reason: 'code check 1: only 0.17 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C10.S5
+  file: anf05_hippolytus-cyprian-caius-novatian.xml
+  line: 43784
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.iii/line42116#02
+  snippet: ''
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C10.S5
+  file: anf05_hippolytus-cyprian-caius-novatian.xml
+  line: 52955
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.xii.iv.ii#02
+  snippet: ''
+  reason: 'code check 1: only 0.00 of the snippet words occur in the passage at that line (below 0.60); a label or a drifted
+    line'
+- sub_question: C6.S6
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iii.iii.ix/line15515#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C5.S2
+  passage_id: cic:npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml:vii.ix/line7098#02
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C7.S5
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.XXXVI/line24643#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C7.S6
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.XXXVI/line24643#01
+  reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C11.S1
+  passage_id: cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv.v.xii.i#01
+  reason: apparatus or editor note, excluded from seeds
+- sub_question: C3.S5
+  passage_id: cic:npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml:v.ix#01
+  reason: 'reader check: the passage does not bear on this sub-question (heading, title or credit only)'
+- sub_question: C5.S4
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vi.XI#01
+  reason: 'reader check: the passage does not bear on this sub-question (heading, title or credit only)'
+- sub_question: C9.S2
+  passage_id: cic:npnf101_augustine-confessions-letters.xml:vii.1.CXXXIII#01
+  reason: 'reader check: the passage does not bear on this sub-question'
