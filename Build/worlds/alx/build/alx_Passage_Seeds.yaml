@@ -131,6 +131,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C1.S8:
     label: Would Jesus want someone like me; I want to believe
     seeds: []
@@ -192,6 +193,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C2.S3:
     label: The Trinity in plain words; the one-and-three objection
     seeds:
@@ -249,6 +251,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C2.S4:
     label: 'The Spirit: person or force; tongues; prophecy; still speaks'
     seeds:
@@ -287,6 +290,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C2.S5:
     label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
     seeds: []
@@ -345,6 +349,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C2.S8:
     label: Pictures and images of God
     seeds:
@@ -398,6 +403,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C3.S1:
     label: Was hell and a last judgment real; how pictured, preached, used
     seeds: []
@@ -452,6 +458,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C3.S3:
     label: Did everyone get restored in the end, even the devil
     seeds: []
@@ -548,6 +555,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf201_eusebius-church-history-life-of-constantine.xml:iii.viii.xxv#01
       file: npnf201_eusebius-church-history-life-of-constantine.xml
       division_locus: iii.viii.xxv
@@ -600,6 +608,7 @@ subquestions:
       author: eusebius
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C5.S2:
     label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
     seeds:
@@ -650,6 +659,7 @@ subquestions:
       author: origen
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C5.S3:
     label: Reliability, errors, authorship, 'science disproves it'
     seeds:
@@ -702,6 +712,7 @@ subquestions:
       author: eusebius
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C5.S4:
     label: Genesis and creation, the six days
     seeds: []
@@ -788,6 +799,7 @@ subquestions:
       author: liturgy-of-st-mark
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.viii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.viii
@@ -842,6 +854,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xiv.iii.vii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xiv.iii.vii
@@ -899,6 +912,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.ix.iv/line15809#01
       file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
       division_locus: ix.ix.iv/line15809
@@ -952,6 +966,7 @@ subquestions:
       author: liturgy-of-st-mark
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:vii.vi.xxviii#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: vii.vi.xxviii
@@ -1006,6 +1021,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C6.S7:
     label: The emperor's say in belief
     seeds: []
@@ -1070,6 +1086,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.xxiv#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvii.xxiv
@@ -1119,6 +1136,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C7.S3:
     label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
     seeds: []
@@ -1173,6 +1191,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C7.S5:
     label: Confession and penance; fasting
     seeds:
@@ -1225,6 +1244,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C7.S6:
     label: 'The calendar: Sunday or Sabbath, Easter, Christmas, Lent'
     seeds: []
@@ -1325,6 +1345,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:ix.iv.vi#01
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: ix.iv.vi
@@ -1406,6 +1427,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C8.S4:
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
     seeds: []
@@ -1483,6 +1505,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:xi.iii.iii.vii#02
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: xi.iii.iii.vii
@@ -1554,6 +1577,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:xi.iii.iv.xiv#01
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: xi.iii.iv.xiv
@@ -1625,6 +1649,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:xi.iii.iv.xiii#01
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: xi.iii.iv.xiii
@@ -1696,6 +1721,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:v.iii.v#01
       file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
       division_locus: v.iii.v
@@ -1766,6 +1792,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C8.S6:
     label: Gay people and same-sex relations (never faced as asked)
     seeds: []
@@ -1826,6 +1853,7 @@ subquestions:
       author: eusebius
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf04_tertullian4-minucius-felix-commodian-origen1-2.xml:vi.ix.iii.viii#01
       file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
       division_locus: vi.ix.iii.viii
@@ -1875,6 +1903,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C9.S2:
     label: Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king
     seeds: []
@@ -1932,6 +1961,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C9.S4:
     label: Soldiers, war, judges, the death penalty, 'render unto Caesar'
     seeds: []
@@ -1988,6 +2018,7 @@ subquestions:
       author: socrates
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf202_socrates-sozomen-ecclesiastical-histories.xml:ii.viii.xvii#01
       file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
       division_locus: ii.viii.xvii
@@ -2039,6 +2070,7 @@ subquestions:
       author: socrates
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C9.S6:
     label: The church taking political sides; injustice in Christian history
     seeds: []
@@ -2115,6 +2147,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iv.ii.v#02
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iv.ii.v
@@ -2190,6 +2223,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.iii.iv#03
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iii.iii.iv
@@ -2259,6 +2293,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -2320,6 +2355,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C10.S6:
     label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
     seeds: []
@@ -2381,6 +2417,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C11.S3:
     label: Greek philosophy taken or refused; pagan authors quoted
     seeds:
@@ -2432,6 +2469,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C11.S4:
     label: Muslims (worlds after 632 only)
     seeds: []
@@ -2520,6 +2558,7 @@ subquestions:
       author: liturgy-of-st-mark
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iii.xxii#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
       division_locus: xvi.ii.iii.xxii
@@ -2590,6 +2629,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.ii.ii/line23584#02
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iii.ii.ii/line23584
@@ -2657,6 +2697,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.ii.ii/line23513#01
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iii.ii.ii/line23513
@@ -2726,6 +2767,7 @@ subquestions:
       author: clement_alex
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C12.S2:
     label: Houses, clothes, language at home and in prayer
     seeds: []
@@ -2816,6 +2858,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:iv.iv.ii#05
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: iv.iv.ii
@@ -2882,6 +2925,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:iv.iv.iv#02
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: iv.iv.iv
@@ -2949,6 +2993,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C13.S2:
     label: Demons, sickness, exorcists, Antony in the tombs
     seeds:
@@ -3007,6 +3052,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf204_athanasius-select-works-letters.xml:xvi.ii.xxxii#01
       file: npnf204_athanasius-select-works-letters.xml
       division_locus: xvi.ii.xxxii
@@ -3062,6 +3108,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:npnf204_athanasius-select-works-letters.xml:xvi.ii.vii#01
       file: npnf204_athanasius-select-works-letters.xml
       division_locus: xvi.ii.vii
@@ -3119,6 +3166,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C13.S3:
     label: Miracles seen or heard; true from false; 'fairy tales'
     seeds:
@@ -3188,6 +3236,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iii.iii.xvi#01
       file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
       division_locus: vi.iii.iii.xvi
@@ -3254,6 +3303,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C13.S4:
     label: Angels and guardian angels
     seeds: []
@@ -3329,6 +3379,7 @@ subquestions:
       author: liturgy-of-st-mark
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
     - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xxxiv#04
       file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
       division_locus: vii.xxxiv
@@ -3398,6 +3449,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C13.S6:
     label: Magic, amulets, curses, the evil eye
     seeds: []

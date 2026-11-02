@@ -2770,3 +2770,9 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Open.** The six records the sidecar lists under C5.S2 do not answer any of its members (three answer C5.S4 and C5.S7, three are about one narrow verse each). The parent entry is left as it is; C5.S2 has no supporting record, so its splits rest on seeds only.
 - **Open.** R-28 (science disproves the Bible) may belong with C5.S4 rather than C5.S3d, and C5-11 may belong outside C5.S2e; both stay where they are until a passage settles it.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-162. Seed file shape for every world: window and shelf binding (2026-11-02).
+
+- **Done.** Every seed in every world's `*_Passage_Seeds.yaml` now carries `window` (the row's dated window against the world's registry time window: `inside`, `outside` or `unknown`) and `shelf_binding` (`row narrowed by locus_ids to this division`, or `file level only`: the file is on the world's shelf, this work may not be). A seed outside the window cannot stay voiceable. lpc: 76 seeds inside, 67 unknown, none outside; 102 narrowed, 41 file level. The file shape and rules are the same for alx, syr and rzg.
+- **Open.** The 67 lpc seeds with an unknown window have rows that give no dated window (the Nicene Fathers volumes); same cause as OG-155.
+- **Owner.** Library thread, through the coordination thread.

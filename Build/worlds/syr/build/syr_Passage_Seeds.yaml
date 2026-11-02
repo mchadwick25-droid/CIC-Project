@@ -1,6 +1,6 @@
 header:
   world: syr
-  phase: 1
+  phase: 2
   index_version: 45478e0cf1917bf1fe80cfb34db0d8eb05f49bf5ea11d782e6000c32738dde75
   index_note: passages rebuilt from cic/texts by Sandbox/answering-library (answering_library.run, then index.cli build-index
     --world syr); passage_id and byte spans resolve in that index
@@ -12,22 +12,53 @@ header:
   order: 'rank orders seeds within a sub-question: direct before partial, voiceable before etic, own before opponent before
     outside, higher OCR first. At most 10 per sub-question.'
   source: Question-Coverage coverage maps (syr cells with a file and line), mapped to the index by byte offset; translator,
-    edition year and work date are the syr corpus-map row values, or unresolved where the passage's bound rows disagree
+    edition year and work date are the syr corpus-map row values, or unresolved where the passage's bound rows disagree. Phase
+    2 seeds are found by a free keyword search of the index (no model call), terms only from the sub-question label and wordings;
+    the same two checks apply
   checks: '1) code: the cited line lies in the passage (or is a division-heading line resolved to the division first passage),
     at least 0.60 of the map snippet words occur there, and the passage text occurs in order in the vendored file bytes; 2)
     a Sonnet reader judged fit and speaker; an Opus reader judged every voiceable seed and a random sample of the rest (seed
     20261102). A seed failing either check is dropped, not repaired.'
   counts:
     sub_questions: 130
-    sub_questions_with_seeds: 7
-    sub_questions_empty: 123
-    seeds: 7
+    sub_questions_with_seeds: 19
+    sub_questions_empty: 111
+    seeds: 49
     voiceable: 0
-    etic: 7
-    dropped_entries: 26
+    etic: 49
+    dropped_entries: 47
     over_cap: 0
   fields_added: work and author are the corpus-map row values (author is the row slug as printed there), set only where the
     row bound to the passage division is unambiguous; translator, edition_date and work_date use the same narrowed row
+  phase_2_batches:
+  - batch: p2a
+    sub_questions:
+    - C10.S5
+    - C10.S1
+    - C6.S6
+    - C13.S1
+    - C13.S2
+    - C13.S3
+    - C13.S5
+    - C8.S3
+    - C8.S5
+    - C1.S7
+    - C2.S8
+    - C12.S1
+    seeded:
+    - C10.S5
+    - C10.S1
+    - C6.S6
+    - C13.S1
+    - C13.S2
+    - C13.S3
+    - C13.S5
+    - C8.S3
+    - C8.S5
+    - C1.S7
+    - C2.S8
+    - C12.S1
+    empty: []
 subquestions:
   C1.S1:
     label: Who Jesus was to them; the good news; what he taught
@@ -49,7 +80,175 @@ subquestions:
     seeds: []
   C1.S7:
     label: Which gospels and writings about Jesus they had
-    seeds: []
+    seeds:
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.i/line2687#01
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: iv.i/line2687
+      byte_start: 127107
+      byte_end: 128880
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9309
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: 'Modern editor: in its present Arabic form the Diatessaron draws on the four gospels and very little
+        else; its chapter division agrees with what is known of it as the old lectionary of the Syrian church.'
+      limits: It is a modern editor's description of the Arabic text, not a Syriac writer's own statement.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - gospels
+        - writings
+        - jesus
+        - actually
+        - memories
+        - reach
+        - same
+        - four
+        - fewer
+        - more
+        bm25: -17.124
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C1.S7: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C1.S7: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Modern editor's introduction (Hogg, ANF 9), describing the Arabic version; not a source voice.
+      rank: 1
+      work: The Diatessaron of Tatian
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:ephraim_prose-refutations_mitchell1912-1921.txt:p15/line2624#02
+      file: ephraim_prose-refutations_mitchell1912-1921.txt
+      division_locus: p15/line2624
+      byte_start: 566417
+      byte_end: 567953
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.7921
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: 'Modern editor (Burkitt): Ephraim''s branch of the Church habitually used the Diatessaron, not the
+        four separate Gospels; he seems unfamiliar with them as separate works.'
+      limits: It is a modern editor's judgement with hedges 'seems' and 'probably', not Ephrem's statement.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - gospels
+        - writings
+        - jesus
+        - actually
+        - memories
+        - reach
+        - same
+        - four
+        - fewer
+        - more
+        bm25: -14.167
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C1.S7: direct
+          who_speaks: outside
+        reader2_opus:
+          fit:
+            C1.S7: direct
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Modern editor's introduction, not Ephrem; second half drifts to Marcionite spelling of 'Jesus' with garbled
+        Syriac transliteration and page marker '|cxviii'.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: ephraim
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xv.iii.i.vi#01
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: xv.iii.i.vi
+      byte_start: 2296031
+      byte_end: 2299182
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9883
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Names four Gospels as the Church's elements. Bears on which gospels were held.
+      limits: It is Origen, not a Syriac writer; it says nothing about the Diatessaron or writings beyond the four.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - gospels
+        - writings
+        - jesus
+        - actually
+        - memories
+        - reach
+        - same
+        - four
+        - fewer
+        - more
+        bm25: -17.252
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C1.S7: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C1.S7: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Origen, Commentary on John I.6 (Alexandrian, not Syriac); four-Gospel view does not reflect Edessene use
+        of the Diatessaron, so voicing it for this world would mislead.
+      rank: 3
+      work: The Diatessaron of Tatian
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
   C1.S8:
     label: Would Jesus want someone like me; I want to believe
     seeds: []
@@ -104,6 +303,7 @@ subquestions:
       author: tatian
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C2.S2:
     label: 'What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God'
     seeds: []
@@ -124,7 +324,57 @@ subquestions:
     seeds: []
   C2.S8:
     label: Pictures and images of God
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf213_gregory-great-ephraim-syrus-aphrahat.xml:ii.vii.iii#02
+      file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+      division_locus: ii.vii.iii
+      byte_start: 363969
+      byte_end: 366345
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9881
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Permits pictures for teaching but forbids adoring them. Bears on pictures in church.
+      limits: It is about pictures of saints' stories, not of God, and is a Latin pope, not a Syriac writer.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - pictures
+        - images
+        - picture
+        - draw
+        - carve
+        bm25: -13.354
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C2.S8: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C2.S8: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Gregory the Great, Latin letter c. 600, far outside window and not Syriac; about pictures of saints' stories
+        in churches, not depictions of God.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C3.S1:
     label: Was hell and a last judgment real; how pictured, preached, used
     seeds: []
@@ -246,6 +496,7 @@ subquestions:
       author: tatian
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C6.S1:
     label: Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one
     seeds:
@@ -305,6 +556,7 @@ subquestions:
       author: addai
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C6.S2:
     label: The pope and Rome; Peter and 'on this rock'
     seeds:
@@ -343,6 +595,7 @@ subquestions:
       author: addai
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C6.S3:
     label: Councils and creeds; who decided disputes; did ordinary believers have a say
     seeds: []
@@ -354,7 +607,266 @@ subquestions:
     seeds: []
   C6.S6:
     label: Married clergy; deacons and deaconesses
-    seeds: []
+    seeds:
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.ix.iii#05
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.ix.iii
+      byte_start: 3852967
+      byte_end: 3855487
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.992
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Directly gives the duties and limits of deacons and deaconesses.
+      limits: It says nothing about whether clergy may marry.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -15.826
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S6: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions, not Syriac; nothing on married clergy.
+      rank: 1
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.iv.ii#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.iv.ii
+      byte_start: 3283647
+      byte_end: 3286811
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9913
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Directly describes the office of deacon and deaconess and the deaconess's duties with women, especially
+        baptism.
+      limits: Says nothing about marriage of clergy; the text is Apostolic Constitutions, not an early Syriac author.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -17.608
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S6: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions (Greek, Antiochene c.380), not Syriac; covers deacons/deaconesses only, nothing
+        on married clergy; includes section headings.
+      rank: 2
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.iii.iv/line13606#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.iii.iv/line13606
+      byte_start: 3113269
+      byte_end: 3116086
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9842
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Lists deacons and deaconesses among church orders as Levite-like.
+      limits: It gives no duties for them and says nothing about marriage; it lists widows, virgins and orphans in the same
+        line.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -16.145
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions, not Syriac; only lists deacons and deaconesses among church orders.
+      rank: 3
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.iv.i/line14123#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.iv.i/line14123
+      byte_start: 3273201
+      byte_end: 3275861
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9809
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Names deaconesses and deacons as ordained by bishop only; mostly about widows.
+      limits: It does not describe what they did or whether leaders were married.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -16.185
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions, not Syriac; mostly about widows and ends dangling at 'to say:—' before a heading.
+      rank: 4
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.ix.iv/line15809#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.ix.iv/line15809
+      byte_start: 3857687
+      byte_end: 3859936
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9618
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Shows deacons and deaconesses existed as ranks of clergy, with shares of offerings.
+      limits: It says nothing about marriage or what deaconesses did.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - married
+        - clergy
+        - deacons
+        - deaconesses
+        - could
+        - priest
+        - leaders
+        bm25: -22.999
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C6.S6: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions (Greek, Antiochene c.380), not Syriac; shows deaconesses as a rank and deacons
+        distributing, nothing on marriage.
+      rank: 5
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
   C6.S7:
     label: The emperor's say in belief
     seeds: []
@@ -440,6 +952,7 @@ subquestions:
       author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C7.S8:
     label: Did the practices go back to the apostles
     seeds: []
@@ -451,13 +964,529 @@ subquestions:
     seeds: []
   C8.S3:
     label: 'The enslaved: owned, freed, thought wrong, ''slaves obey'', one table, the tortured witnesses'
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf213_gregory-great-ephraim-syrus-aphrahat.xml:ii.v.xv#01
+      file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+      division_locus: ii.v.xv
+      byte_start: 89289
+      byte_end: 90535
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9403
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Gregory orders church tenants to obey the guardian, who may punish the disobedient, and to recover
+        to church jurisdiction any slaves hiding outside its bounds; bears on the Church holding slaves.
+      limits: It is Gregory the Great in Sicily, not early Syriac, and it does not say the Church owned them or considered
+        it wrong.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - enslaved
+        - owned
+        - freed
+        - thought
+        - wrong
+        - slaves
+        - obey
+        - table
+        - tortured
+        - witnesses
+        - community
+        - clearest
+        - outside
+        - account
+        - worship
+        - came
+        - torturing
+        - women
+        - doesn
+        - taint
+        - everything
+        - ever
+        - free
+        - think
+        - slave
+        - really
+        - same
+        - just
+        - slogan
+        - masters
+        - anyone
+        - among
+        - push
+        - back
+        - paul
+        bm25: -23.088
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S3: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S3: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: 'Gregory the Great, Sicily, c. 590s: far outside this world''s place and window; not Syriac.'
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C8.S4:
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
     seeds: []
   C8.S5:
     label: Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism
-    seeds: []
+    seeds:
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:v.ii.xxxiii#01
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: v.ii.xxxiii
+      byte_start: 935642
+      byte_end: 938849
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9945
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Marriage only for children; unmarried virginity brings nearer to God; second marriage called adultery.
+        Bears on sex in marriage and virginity ranking.
+      limits: Not a Syriac author; it says nothing on contraception or abortion, and eunuch is not castration practice.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - marriage
+        - virginity
+        - ranked
+        - above
+        - contraception
+        - abortion
+        - exposure
+        - extreme
+        - asceticism
+        - think
+        - before
+        - even
+        - leaving
+        - unwanted
+        - babies
+        - better
+        - stay
+        - virgin
+        - marry
+        - eyes
+        - allow
+        - practise
+        - castration
+        - origen
+        - really
+        - castrated
+        bm25: -19.936
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Athenagoras, Plea ch. 33 (Greek apologist, c. 177, Athens), not Syriac; silent on contraception, abortion
+        and castration ('eunuch' state is celibacy here).
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iv.ii.xviii/line36587#03
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iv.ii.xviii/line36587
+      byte_start: 2550681
+      byte_end: 2552570
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9845
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Condemns exposure of children as murder. Bears on abandoning unwanted babies.
+      limits: It does not mention abortion or contraception by name; it is not a Syriac author.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - marriage
+        - virginity
+        - ranked
+        - above
+        - contraception
+        - abortion
+        - exposure
+        - extreme
+        - asceticism
+        - think
+        - before
+        - even
+        - leaving
+        - unwanted
+        - babies
+        - better
+        - stay
+        - virgin
+        - marry
+        - eyes
+        - allow
+        - practise
+        - castration
+        - origen
+        - really
+        - castrated
+        bm25: -16.328
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria, Stromata II.18 (Alexandrian, not Syriac); exposure condemned within an argument
+        on Mosaic law's humaneness; 'womb its grave' refers to animals, not abortion.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:palladius_paradise-v1-syriac_budge1907.txt:line869#01
+      file: palladius_paradise-v1-syriac_budge1907.txt
+      division_locus: line869
+      byte_start: 288479
+      byte_end: 290515
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is unclear'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9797
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Ammon calls virginity a more excellent course than marriage and the couple live celibate. Bears on
+        virginity ranked above marriage.
+      limits: Not Syriac origin text; a monk's story, not a general rule, and it says nothing on contraception or abortion.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - marriage
+        - virginity
+        - ranked
+        - above
+        - contraception
+        - abortion
+        - exposure
+        - extreme
+        - asceticism
+        - think
+        - before
+        - even
+        - leaving
+        - unwanted
+        - babies
+        - better
+        - stay
+        - virgin
+        - marry
+        - eyes
+        - allow
+        - practise
+        - castration
+        - origen
+        - really
+        - castrated
+        bm25: -18.294
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S5: direct
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Palladius (Greek, c. 420) via Syriac version; Egyptian monk Ammon, not Syriac world; framed 'he used to
+        say' (reported); the ranking is in Ammon's and his wife's speech; '[than marriage]' is translator's supply.
+      rank: 3
+      work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
+      author: palladius
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:v.iii.v#01
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: v.iii.v
+      byte_start: 353183
+      byte_end: 358284
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - row role not tradition
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9781
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Praises virginity and urges bodily self-conquest; it does not rank it above marriage or mention sex
+        in marriage, contraception, abortion or castration.
+      limits: It does not compare virginity with marriage or discuss marriage at all.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - marriage
+        - virginity
+        - ranked
+        - above
+        - contraception
+        - abortion
+        - exposure
+        - extreme
+        - asceticism
+        - think
+        - before
+        - even
+        - leaving
+        - unwanted
+        - babies
+        - better
+        - stay
+        - virgin
+        - marry
+        - eyes
+        - allow
+        - practise
+        - castration
+        - origen
+        - really
+        - castrated
+        bm25: -23.645
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Pseudo-Clementine Letters on Virginity (3rd-century Syria/Palestine, survives in Syriac); not a named Syriac
+        author; no comparison with marriage.
+      rank: 4
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:ephraim_prose-refutations_mitchell1912-1921.txt:p31/line2286#01
+      file: ephraim_prose-refutations_mitchell1912-1921.txt
+      division_locus: p31/line2286
+      byte_start: 498320
+      byte_end: 499304
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9674
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Treats virginity as a vow to be kept. Bears only on virginity as a practice.
+      limits: It does not compare virginity with marriage or address sex in marriage or any other topic.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - marriage
+        - virginity
+        - ranked
+        - above
+        - contraception
+        - abortion
+        - exposure
+        - extreme
+        - asceticism
+        - think
+        - before
+        - even
+        - leaving
+        - unwanted
+        - babies
+        - better
+        - stay
+        - virgin
+        - marry
+        - eyes
+        - allow
+        - practise
+        - castration
+        - origen
+        - really
+        - castrated
+        bm25: -16.343
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Starts mid-text and the division label is a footnote note; stanza numbers run in the text. | Ephrem's prose
+        discourse on virginity addressed to a vowed virgin; strip page marker '[P. 182.]' and footnote numeral '18'; division
+        label is a stray footnote; does not compare virginity with marriage.
+      rank: 5
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: ephraim
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iv.viii.xxv#01
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: vi.iv.viii.xxv
+      byte_start: 1799769
+      byte_end: 1800589
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - row role not tradition
+      - 'reader: speaker is unclear'
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Gives a purpose for desire and advice to marry young to guard chastity. Bears on sex and marriage
+        only broadly.
+      limits: It does not rank virginity above marriage or speak of contraception, abortion or asceticism.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - marriage
+        - virginity
+        - ranked
+        - above
+        - contraception
+        - abortion
+        - exposure
+        - extreme
+        - asceticism
+        - think
+        - before
+        - even
+        - leaving
+        - unwanted
+        - babies
+        - better
+        - stay
+        - virgin
+        - marry
+        - eyes
+        - allow
+        - practise
+        - castration
+        - origen
+        - really
+        - castrated
+        bm25: -17.393
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C8.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C8.S5: partial
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: 'Pseudo-Clementine Homily V: a letter Clement says he composed in a woman''s persona to answer Appion,
+        a fiction inside a novel; not own voice; Greek, not Syriac.'
+      rank: 6
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C8.S6:
     label: Gay people and same-sex relations (never faced as asked)
     seeds: []
@@ -530,6 +1559,7 @@ subquestions:
       author: basil
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C9.S5:
     label: 'Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer''s
       side'
@@ -584,12 +1614,375 @@ subquestions:
       author: sozomen
       work_author_basis: all rows bound to the passage file
       window: 'unknown: the row gives no dated window'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
   C9.S6:
     label: The church taking political sides; injustice in Christian history
     seeds: []
   C10.S1:
     label: Was wealth a sin; the rich young man; the camel; prosperity teaching
-    seeds: []
+    seeds:
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.v/line63734#01
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.v/line63734
+      byte_start: 4254098
+      byte_end: 4255937
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.988
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Directly addresses the camel saying and says wealth is neither to be condemned nor trusted but used
+        well.
+      limits: It is Clement, not a Syriac author; he reads the camel as a mystery explained elsewhere.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -36.968
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria, not Syriac.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iv.ii.v#02
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iv.ii.v
+      byte_start: 2414861
+      byte_end: 2419000
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9842
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Gives the camel saying and a definition of true riches and poverty, but through philosophy; slavery
+        appears only as a metaphor for sin.
+      limits: It does not say wealth is a sin or that goods must be given away; it is not about actual slaves.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -46.922
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: partial
+            C8.S3: none
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: partial
+            C8.S3: none
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Clement of Alexandria, not Syriac; opens mid-quotation (end of a Plato quote) and mixes Plato with Scripture,
+        so the first words are not Clement's own; camel saying is reworded to 'lead a philosophic life'.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.iii.iv#03
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iii.iii.iv
+      byte_start: 1852484
+      byte_end: 1856375
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9354
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Bears on wealth misused and not given to the poor; it does not discuss riches as sin or the camel
+        saying.
+      limits: It condemns spending on luxury and not giving, not owning wealth as such; much of the text is about other matters.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -33.396
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria (Paedagogus), not Syriac; opens 'But these women' and depends on prior context.
+      rank: 3
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.iii.xxix#01
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: iv.iii.xxix
+      byte_start: 839829
+      byte_end: 844591
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9897
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Directly gives the camel saying and 'those that rely on their possessions', and the promise to those
+        who leave all.
+      limits: It is Gospel text with no commentary; it does not show whether anyone softened the saying.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -32.202
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Diatessaron (Tatian's harmony, the Gospel read at Edessa) via the Arabic version; Gospel words, not an
+        author's own view; contains editor's verse numbers and '[Arabic, p. 111]'.
+      rank: 4
+      work: The Diatessaron of Tatian
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.v/line63094#02
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.v/line63094
+      byte_start: 4209900
+      byte_end: 4211192
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - 'reader: speaker is outside'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9814
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Quotes the Gospel account of the rich young man, the camel saying and the promise to those who leave
+        possessions, with no comment in this passage.
+      limits: It is Gospel text quoted with no comment in this passage, so how the community read it is not shown.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - wealth
+        - rich
+        - young
+        - camel
+        - prosperity
+        - teaching
+        - look
+        - money
+        - poverty
+        - call
+        - anyone
+        - among
+        - think
+        - being
+        - give
+        - everything
+        - away
+        - follow
+        - jesus
+        - like
+        - easier
+        - through
+        - needle
+        - soften
+        - makes
+        - faithful
+        bm25: -33.292
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S1: partial
+          who_speaks: outside
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: false
+      reader_note: Gospel text quoted inside Clement's Quis dives salvetur, not his own words; starts and ends mid-quotation;
+        shows the text, not how it was read.
+      rank: 5
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -601,7 +1994,265 @@ subquestions:
     seeds: []
   C10.S5:
     label: Usury and lending
-    seeds: []
+    seeds:
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:iii.ii.viii.lx#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: iii.ii.viii.lx
+      byte_start: 1941253
+      byte_end: 1943087
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: 'Directly states: no lending at usury, but lending is not refused to someone in need.'
+      limits: Not a ban on lending as such, only on taking usury; it is Lactantius, not a Syriac author.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -14.908
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Lactantius, Latin West, not Syriac.
+      rank: 1
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iv.ii.xviii/line36489#01
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iv.ii.xviii/line36489
+      byte_start: 2536250
+      byte_end: 2538483
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9779
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Directly states the law forbids usury from a brother and says to give freely to the needy.
+      limits: It speaks of the law's rule, and 'usury' paid in virtues is figurative; it says nothing about lending to non-brothers.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -13.489
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria, not Syriac; rule given as Mosaic law (no usury from a 'brother'), which Clement
+        endorses and widens.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.iv.i/line14082#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.iv.i/line14082
+      byte_start: 3260628
+      byte_end: 3263469
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9913
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: 'Applies to lending at bitter usury by greedy widows only: it names the practice as part of a vice,
+        not a rule for all lenders.'
+      limits: The passage condemns widows' lending at 'bitter usury' as part of avarice; it does not say what interest, if
+        any, was allowed to others.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -15.997
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions (Greek, Syrian/Antiochene compilation c.380, pseudo-apostolic voice), not Syriac;
+        usury condemned only within a rebuke of greedy widows; passage opens with a section heading.
+      rank: 3
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:npnf213_gregory-great-ephraim-syrus-aphrahat.xml:ii.vi.xiii#02
+      file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+      division_locus: ii.vi.xiii
+      byte_start: 346825
+      byte_end: 348104
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9869
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Bears on usury only as a bar to ordination, not as a rule for lay believers.
+      limits: The ban stated is on ordaining usurers; it does not say lay Christians could not lend at interest. Gregory the
+        Great is not an early Syriac author.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -12.871
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Gregory the Great (Rome, c.600), far outside the world's period and not Syriac; bears only on usury as
+        a bar to ordination.
+      rank: 4
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.i.x#05
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iii.i.x
+      byte_start: 1516438
+      byte_end: 1519213
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9468
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Quotes Ezekiel's righteous man, who will not lend on usury or take interest, in a long list of virtues;
+        Clement says these words describe the conduct of Christians.
+      limits: Only a few lines among many virtues; it gives no reason for the ban and no exceptions.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - usury
+        - lending
+        - could
+        - lend
+        - money
+        - interest
+        bm25: -13.196
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C10.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C10.S5: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria, not Syriac; the usury line is quoted Ezekiel inside a chapter on God's threats and
+        exhortations, not a discussion of lending.
+      rank: 5
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C10.S6:
     label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
     seeds: []
@@ -634,7 +2285,287 @@ subquestions:
     seeds: []
   C12.S1:
     label: An ordinary day; food and drink; fun, dancing, baths and games; rest
-    seeds: []
+    seeds:
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.viii.ii/line15170#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.viii.ii/line15170
+      byte_start: 3631354
+      byte_end: 3634688
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Permits all foods, with blood poured out, and wine as a good gift. Bears on food and drink.
+      limits: It does not describe an ordinary day or other topics.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - ordinary
+        - food
+        - drink
+        - dancing
+        - baths
+        - games
+        - rest
+        - walk
+        - through
+        - among
+        - waking
+        - sleeping
+        - picked
+        - crowd
+        - look
+        - like
+        - everyone
+        - else
+        - wine
+        - dance
+        - anything
+        - allowed
+        - theatre
+        - sunday
+        - besides
+        bm25: -21.583
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C12.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C12.S1: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions VII.20 (Greek church order, Syria c. 380, not Syriac), pseudo-apostolic voice;
+        mostly a chain of scripture quotations; section headings included in passage.
+      rank: 1
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.ii.ii/line23584#02
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iii.ii.ii/line23584
+      byte_start: 1599957
+      byte_end: 1602266
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9323
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Advises drinking only to satisfy thirst, avoiding costly wines. Bears on drink.
+      limits: It is an Alexandrian writer's advice, not a description of daily life or of Syriac practice.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - ordinary
+        - food
+        - drink
+        - dancing
+        - baths
+        - games
+        - rest
+        - walk
+        - through
+        - among
+        - waking
+        - sleeping
+        - picked
+        - crowd
+        - look
+        - like
+        - everyone
+        - else
+        - wine
+        - dance
+        - anything
+        - allowed
+        - theatre
+        - sunday
+        - besides
+        bm25: -21.335
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C12.S1: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C12.S1: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria, Paedagogus II.2 (Alexandrian, not Syriac); wine allowed temperately, not forbidden.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.ix.iv/line15825#02
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.ix.iv/line15825
+      byte_start: 3862565
+      byte_end: 3864632
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9528
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Bars those in theatre, racing and dancing trades from admission unless they quit. Bears on games and
+        dancing.
+      limits: It is a rule for admission to the Church, not a description of daily fun, and not Syriac.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - ordinary
+        - food
+        - drink
+        - dancing
+        - baths
+        - games
+        - rest
+        - walk
+        - through
+        - among
+        - waking
+        - sleeping
+        - picked
+        - crowd
+        - look
+        - like
+        - everyone
+        - else
+        - wine
+        - dance
+        - anything
+        - allowed
+        - theatre
+        - sunday
+        - besides
+        bm25: -21.666
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C12.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C12.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: 'Apostolic Constitutions VIII.32 (Greek church order, Syria/Antioch c. 380, not Syriac), voiced as the
+        apostles: cite as the Constitutions; about trades barred at admission, not attending games.'
+      rank: 3
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.ii.ii/line23513#01
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.iii.ii.ii/line23513
+      byte_start: 1592257
+      byte_end: 1593841
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9132
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Condemns drunken excess; baths named only as part of a rebuked life. Bears on drink.
+      limits: It is not a description of ordinary days, and baths are only named in rebuke.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - ordinary
+        - food
+        - drink
+        - dancing
+        - baths
+        - games
+        - rest
+        - walk
+        - through
+        - among
+        - waking
+        - sleeping
+        - picked
+        - crowd
+        - look
+        - like
+        - everyone
+        - else
+        - wine
+        - dance
+        - anything
+        - allowed
+        - theatre
+        - sunday
+        - besides
+        bm25: -21.794
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C12.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C12.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Clement of Alexandria, Paedagogus II.2 (Alexandrian, not Syriac); a rebuke of drunkards, not a description
+        of Christian daily life.
+      rank: 4
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C12.S2:
     label: Houses, clothes, language at home and in prayer
     seeds: []
@@ -658,19 +2589,797 @@ subquestions:
     seeds: []
   C13.S1:
     label: 'The devil: real, personal temptation, used to control, hell monsters'
-    seeds: []
+    seeds:
+    - passage_id: cic:npnf213_gregory-great-ephraim-syrus-aphrahat.xml:iii.iv.xxx#02
+      file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+      division_locus: iii.iv.xxx
+      byte_start: 1107723
+      byte_end: 1109603
+      language: eng
+      role: opponent
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - 'reader: speaker is opponent'
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9858
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Directly shows a personal devil tempting by degrees and habit; also says anger is a devil.
+      limits: It is a poetic speech put in Satan's mouth by Ephrem, not a doctrinal statement; it says nothing on telling
+        children or hell monsters.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -18.089
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: direct
+          who_speaks: opponent
+        reader2_opus:
+          fit:
+            C13.S1: direct
+          who_speaks: opponent
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Ephrem (Syriac, Nisibis) but the first-person voice is Satan's speech in the hymn; cannot be spoken as
+        Ephrem's own claims.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iii.ii#01
+      file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+      division_locus: xvi.ii.iii.ii
+      byte_start: 3086086
+      byte_end: 3088283
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Says the devil sows evil opinions, an allegorical reading; it does not speak of personal daily temptation,
+        children or hell monsters.
+      limits: It does not say the devil is a personal being tempting each person; the tares are explained as evil words.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -19.073
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Author is Origen (Alexandrian), not Syriac; an allegorical reading of the parable of the tares.
+      rank: 2
+      work: The Diatessaron of Tatian
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:palladius_paradise-v1-syriac_budge1907.txt:line929#01
+      file: palladius_paradise-v1-syriac_budge1907.txt
+      division_locus: line929
+      byte_start: 319945
+      byte_end: 321164
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9805
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: A devil, disguised as a young man crying for help, tempts Nathaniel to leave his cell; shamed, it
+        takes the form of a whirlwind and wild asses. Speaks to a real, personal tempter only.
+      limits: The text does not say the devil tempted him daily, how children were told, or anything about hell monsters or
+        control of people.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - devil
+        - real
+        - personal
+        - temptation
+        - used
+        - control
+        - hell
+        - monsters
+        - think
+        - tempted
+        - personally
+        - every
+        - talk
+        - children
+        - frightened
+        - made
+        - among
+        - believe
+        - dogs
+        - anything
+        - like
+        bm25: -17.154
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S1: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Starts mid-story. | Palladius's Egyptian desert story (Budge's Syriac version), not a Syriac author; starts
+        mid-story, so the 'young man' is the devil only by context.
+      rank: 3
+      work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
+      author: palladius
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
   C13.S2:
     label: Demons, sickness, exorcists, Antony in the tombs
-    seeds: []
+    seeds:
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.ix.i#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.ix.i
+      byte_start: 3722671
+      byte_end: 3726714
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Casting out demons is a gift given to some, not all believers; the sick are healed by laying on hands.
+      limits: It does not say demons cause sickness, name a paid office of exorcist, or mention Antony.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - demons
+        - sickness
+        - exorcists
+        - antony
+        - tombs
+        - believe
+        - cast
+        - blame
+        - luck
+        - fought
+        - take
+        - literally
+        bm25: -13.44
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S2: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S2: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Ends mid-sentence. | Apostolic Constitutions (Greek, Syrian, c. 380), not Syriac; written in the apostles'
+        persona ('us the apostles'); ends mid-sentence.
+      rank: 1
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iv.xii.xvi#01
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: vi.iv.xii.xvi
+      byte_start: 1926363
+      byte_end: 1927613
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - row role not tradition
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9932
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Says pythons are cast out by 'us' as demons, and that demons, knowing remedies, cure curable diseases
+        and time their cures to take the credit.
+      limits: It does not say demons cause sickness in general or that there was an exorcist office.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - demons
+        - sickness
+        - exorcists
+        - antony
+        - tombs
+        - believe
+        - cast
+        - blame
+        - luck
+        - fought
+        - take
+        - literally
+        bm25: -12.928
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S2: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S2: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Pseudo-Clementine Homilies (Peter's speech in the novel), Syrian Greek, not Syriac; mixes in an imagined
+        objector's lines.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.ii.iv/line17930#01
+      file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+      division_locus: vi.ii.iv/line17930
+      byte_start: 1169810
+      byte_end: 1171574
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9403
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Demons are described as unclean spirits haunting graves; this bears on what demons were, polemically.
+      limits: It does not say demons cause sickness or that exorcists cast them out.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - demons
+        - sickness
+        - exorcists
+        - antony
+        - tombs
+        - believe
+        - cast
+        - blame
+        - luck
+        - fought
+        - take
+        - literally
+        bm25: -13.806
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S2: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S2: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Clement of Alexandria, not Syriac; opens with an unattributed Homer quote and argues partly from pagans'
+        own words, so not cleanly voiceable.
+      rank: 3
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: tatian
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C13.S3:
     label: Miracles seen or heard; true from false; 'fairy tales'
-    seeds: []
+    seeds:
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iv.iv.xix#01
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: vi.iv.iv.xix
+      byte_start: 1535290
+      byte_end: 1536966
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - row role not tradition
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Prophet is tested by prophetic signs before being believed; bears on telling a true prophet only.
+      limits: It does not say what the signs are or discuss miracles seen or heard.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - miracles
+        - seen
+        - heard
+        - 'true'
+        - 'false'
+        - fairy
+        - tales
+        - yourself
+        - only
+        - hear
+        - honest
+        - miracle
+        - stories
+        - talked
+        - tell
+        - prophet
+        - fraud
+        - sounds
+        - like
+        - believe
+        bm25: -21.166
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S3: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S3: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Pseudo-Clementine Homilies (Peter speaking), Syrian Greek, not Syriac; the 'true Prophet' is Christ.
+      rank: 1
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iii.iii.xvi#01
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: vi.iii.iii.xvi
+      byte_start: 511047
+      byte_end: 513206
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - row role not tradition
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9953
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Prophet's credentials are tested first, then believed; bears on telling a true prophet only.
+      limits: It names no signs or miracles as the test and does not discuss miracles seen or heard.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - miracles
+        - seen
+        - heard
+        - 'true'
+        - 'false'
+        - fairy
+        - tales
+        - yourself
+        - only
+        - hear
+        - honest
+        - miracle
+        - stories
+        - talked
+        - tell
+        - prophet
+        - fraud
+        - sounds
+        - like
+        - believe
+        bm25: -25.46
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S3: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S3: partial
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: Pseudo-Clementine Recognitions (Peter speaking), Syrian, not a Syriac author; the 'true Prophet' is Christ,
+        so the test bears on prophets only obliquely.
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xxx/line55058#01
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: vii.xxx/line55058
+      byte_start: 3541133
+      byte_end: 3542705
+      language: eng
+      role: outside
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      - row role not tradition
+      - 'reader: speaker is unclear'
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 1.0
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: partial
+      says_and_applies: Miracles are reported and still not believed; bears on hearing of miracles only.
+      limits: It does not discuss whether miracle stories were true or how a true miracle was told from a false one.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - miracles
+        - seen
+        - heard
+        - 'true'
+        - 'false'
+        - fairy
+        - tales
+        - yourself
+        - only
+        - hear
+        - honest
+        - miracle
+        - stories
+        - talked
+        - tell
+        - prophet
+        - fraud
+        - sounds
+        - like
+        - believe
+        bm25: -22.262
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S3: partial
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S3: partial
+          who_speaks: unclear
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Acts of Andrew and Matthias, apocryphal and not Syriac; entirely dialogue between characters (Jesus in
+        disguise and Andrew), not the author's own voice.
+      rank: 3
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C13.S4:
     label: Angels and guardian angels
     seeds: []
   C13.S5:
     label: Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge
-    seeds: []
+    seeds:
+    - passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.vii.vi#01
+      file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+      division_locus: ix.vii.vi
+      byte_start: 3575897
+      byte_end: 3579751
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9783
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: 'Tells believers to meet in the cemeteries, read Scripture, sing for the martyrs and saints, and offer
+        the Eucharist there. Relics are not without honour: Elisha''s bones raised a dead man.'
+      limits: It does not mention asking saints for help, holy water, or answering an idolatry charge.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -28.574
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: false
+          can_be_voiced_as_own: true
+      reader_note: Apostolic Constitutions (Greek, Syrian, c. 380, apostolic persona), not Syriac.
+      rank: 1
+      work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+      author: liturgy-of-addai-and-mari
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: all rows bound to the passage file
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:npnf213_gregory-great-ephraim-syrus-aphrahat.xml:ii.vii.xxxvi#01
+      file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+      division_locus: ii.vii.xxxvi
+      byte_start: 560668
+      byte_end: 563066
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker mixed, not named
+      speaker:
+        state: mixed
+        name: null
+      ocr_score: 0.9773
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Blessed water, relics deposited in altars and martyr anniversary feasts are all named.
+      limits: It is Gregory the Great writing about Anglo-Saxon England, not early Syriac practice, and it does not discuss
+        the idolatry charge.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -22.833
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: true
+      reader_note: 'Gregory the Great, Rome, AD 601, about England: far outside this world''s place and window; not Syriac.'
+      rank: 2
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
+    - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xxxiv#04
+      file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+      division_locus: vii.xxxiv
+      byte_start: 3755647
+      byte_end: 3758825
+      language: eng
+      role: own
+      voice: etic
+      voice_blockers:
+      - speaker unknown, not named
+      - row role not tradition
+      speaker:
+        state: unknown
+        name: null
+      ocr_score: 0.9516
+      translator: 'unresolved: 1 rows disagree'
+      edition_date: 'unresolved: 1 rows disagree'
+      work_date: 'unresolved: 1 rows disagree'
+      fit: direct
+      says_and_applies: Dust from an apostle's tomb used to heal a demoniac son; bears on relics and tomb use.
+      limits: It does not say believers prayed to the dead apostle, or give holy water; the apostle appears in a vision.
+      origin:
+      - found_by: free keyword search of the index, terms from the sub-question label and wordings
+        search_terms:
+        - saints
+        - martyrs
+        - graves
+        - relics
+        - intercession
+        - holy
+        - water
+        - idolatry
+        - charge
+        - pray
+        - keep
+        - visit
+        - believe
+        - dead
+        - could
+        - hear
+        - help
+        - bones
+        - bits
+        - cloth
+        - blessed
+        - kind
+        - thing
+        bm25: -24.077
+      checks:
+        code_in_vendored_file: true
+        reader1_sonnet:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+        reader2_opus:
+          fit:
+            C13.S5: direct
+          who_speaks: own
+          text_matches_vendored: true
+          gloss_ok: true
+          can_be_voiced_as_own: false
+      reader_note: Starts mid-sentence. | Acts of Thomas (Syriac origin, Edessa link); starts mid-sentence with no subject,
+        so trim to 'And after a long time'.
+      rank: 3
+      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
+      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      work_author_basis: unresolved
+      window: 'unknown: the row gives no dated window'
   C13.S6:
     label: Magic, amulets, curses, the evil eye
     seeds: []
@@ -909,3 +3618,66 @@ dropped:
 - sub_question: C3.S5
   passage_id: cic:npnf213_gregory-great-ephraim-syrus-aphrahat.xml:iii.ix.vi/line31561#01
   reason: 'reader check: the passage does not bear on this sub-question'
+- sub_question: C10.S5
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:x.xiv#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C8.S3
+  passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iv.ii.v#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C10.S1
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xxxi#05
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S1
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iv.xvii#04
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S1
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:ix.xvi/line74965#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S1
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.vii.xvi#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S2
+  passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.ii.iii#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S3
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xiii.xv#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S3
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xxxi#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:ix.vi.i/line14447#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:harris_odes-and-psalms-of-solomon_harris1911.txt:line8141/line8180#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C13.S5
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xii.iv.l#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C8.S3
+  passage_id: cic:ephraim_prose-refutations_mitchell1912-1921.txt:front/line294#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C8.S3
+  passage_id: cic:anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:iii.ii.v.xix#03
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C8.S3
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iii.xi.xv#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C1.S7
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:iv.i/line2475#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S8
+  passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.ii.iv/line17970#02
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S8
+  passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iii.xii.xxxvi#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C2.S8
+  passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.ii.iv/line18039#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C12.S1
+  passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iii.xxii#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
+- sub_question: C12.S1
+  passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.i.vi/line21275#01
+  reason: 'search hit; reader check: the passage does not bear on this sub-question'
