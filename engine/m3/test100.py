@@ -75,7 +75,7 @@ def _named_sub_question(reply_dir: Path, question_id: str) -> str | None:
     return json.loads(path.read_text(encoding="utf-8")).get("sub_question") if path.exists() else None
 
 
-def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True, sub_question_routing: bool = False, bound_connectives: list[str] | None = None) -> dict:
+def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Path = REPO_ROOT, story_placement: bool = True, context_blocks: bool = True, sub_question_routing: bool = False, bound_connectives: list[str] | None = None, passage_offer_file: Path | None = None, passage_budget=None) -> dict:
     from engine.m1.registry import load_registry
     from engine.m3.generation import LiveModelAnswerer, LivePathSettings
     from engine.m4 import turn as m4_turn
@@ -100,6 +100,11 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
         loaded.coverage.update(subquestion_routing.coverage_entries(sidecar, repository_records_by_id(loaded.repository)))
         loaded.frame["subquestion_routing"] = True
         loaded.frame["subquestion_catalogue"] = subquestion_routing.reader_catalogue(sidecar)
+    if passage_offer_file is not None:
+        if not sub_question_routing:
+            raise SystemExit("--passage-offer needs --sub-question-routing: passages are offered under the sub-question the reader names")
+        from engine.m4 import passage_offer
+        loaded.frame["passage_offer"] = {"offer": passage_offer.load_offer(passage_offer_file), "budget": passage_budget or passage_offer.Budget()}
     reply_dir, pending_dir, answers_dir = work / "replies", work / "pending", work / "answers"
     answers_dir.mkdir(parents=True, exist_ok=True)
     for stale in pending_dir.glob("*") if pending_dir.exists() else []:
@@ -139,6 +144,11 @@ def run_pass(*, questions: list[dict], world_key: str, work: Path, worktree: Pat
     return {"done": len(done), "pending": len(pending), "pending_ids": pending, "pending_requests": sorted(p.name for p in pending_dir.glob("*.prompt.txt")) if pending_dir.exists() else []}
 
 
+def _passage_budget(max_passages: int | None, max_words: int | None):
+    from engine.m4 import passage_offer
+    return passage_offer.Budget(max_passages if max_passages is not None else passage_offer.DEFAULT_MAX_PASSAGES, max_words if max_words is not None else passage_offer.DEFAULT_MAX_WORDS)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--set", type=Path, required=True, dest="question_set")
@@ -149,13 +159,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--sub-question-routing", action="store_true", help="the reader names a sub-question and the offer takes its records first (the world's answers sidecar)")
     parser.add_argument("--bound-drafting", type=Path, metavar="CONNECTIVES_YAML", help="the voice binds and labels every sentence; the file is the world's reviewed list of joining sentences (a YAML list, may be empty)")
     parser.add_argument("--no-story-placement", action="store_true", help="leave the world's own story_placement flag as registered")
+    parser.add_argument("--passage-offer", type=Path, help="the built passage offer file (engine.m4.reports.passage_offer_build); needs --sub-question-routing")
+    parser.add_argument("--passage-max", type=int, default=None, help="passages offered per sub-question")
+    parser.add_argument("--passage-max-words", type=int, default=None, help="words of passages offered per sub-question")
     args = parser.parse_args(argv)
     work = _outside_repo(args.work)
     questions = load_set(args.question_set)
     if args.only:
         questions = [q for q in questions if q["id"] in set(args.only)]
     summary = run_pass(questions=questions, world_key=args.world, work=work, story_placement=not args.no_story_placement, context_blocks=not args.no_context, sub_question_routing=args.sub_question_routing,
-                       bound_connectives=yaml.safe_load(args.bound_drafting.read_text(encoding="utf-8")) or [] if args.bound_drafting else None)
+                       bound_connectives=yaml.safe_load(args.bound_drafting.read_text(encoding="utf-8")) or [] if args.bound_drafting else None,
+                       passage_offer_file=args.passage_offer, passage_budget=_passage_budget(args.passage_max, args.passage_max_words))
     print(json.dumps({k: v for k, v in summary.items() if k != "pending_ids"}, indent=1))
     return 0
 

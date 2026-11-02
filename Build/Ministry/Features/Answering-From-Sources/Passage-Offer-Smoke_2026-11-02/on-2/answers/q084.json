@@ -1,0 +1,162 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that the apostolic lesson had just said the natural man does not perceive the things of the Spirit of God."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that many natural men must be in the assembly, and that he was in great difficulty how to explain the lesson."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that silence is no answer, since the lesson is read so that it may be explained and understood."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that some of his hearers may understand before he explains, and he will not cheat them."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that God's compassion will be present, so that each hearer receives what he is able, while the speaker says what he is able."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.d4661a219238"
+   ],
+   "sentence": "Augustine writes that John was inspired, yet still a man, and so spoke what a man could."
+  }
+ ],
+ "citations": [
+  "lpc.passage.d4661a219238"
+ ],
+ "group": "G",
+ "id": "q084",
+ "net_sentences": [
+  {
+   "draft": "Yes, and Augustine writes on those very opening words of John's gospel, speaking to his own hearers [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "ratio": 0.3,
+   "sentence": "Yes, and Augustine writes on those very opening words of John's gospel, speaking to his own hearers.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['augustine', \"john's\"]) only 30% grounded in its own tags"
+  },
+  {
+   "draft": "Augustine writes that the apostolic lesson had just said the natural man does not perceive the things of the Spirit of God [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that the apostolic lesson had just said the natural man does not perceive the things of the Spirit of God.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine writes that many natural men must be in the assembly, and that he was in great difficulty how to explain the lesson [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that many natural men must be in the assembly, and that he was in great difficulty how to explain the lesson.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine writes that silence is no answer, since the lesson is read so that it may be explained and understood [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that silence is no answer, since the lesson is read so that it may be explained and understood.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine writes that some of his hearers may understand before he explains, and he will not cheat them [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that some of his hearers may understand before he explains, and he will not cheat them.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine writes that God's compassion will be present, so that each hearer receives what he is able, while the speaker says what he is able [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "sentence": "Augustine writes that God's compassion will be present, so that each hearer receives what he is able, while the speaker says what he is able.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes that John was inspired, yet still a man, and so spoke what a man could [[lpc.passage.d4661a219238]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Augustine writes that John was inspired, yet still a man, and so spoke what a man could.",
+   "tags": [
+    "lpc.passage.d4661a219238"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Which line of that opening shall we stay with first?",
+   "sentence": "Which line of that opening shall we stay with first?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.the-flock",
+  "lpc.term.suffrage",
+  "lpc.quote.clamour-and-tears",
+  "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.bishop-of-bishops",
+  "lpc.term.the-one-episcopate",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.believe-and-thou-hast-eaten-already",
+  "lpc.quote.bishop-of-bishops",
+  "lpc.passage.d4661a219238"
+ ],
+ "raw_text": "Yes, and Augustine writes on those very opening words of John's gospel, speaking to his own hearers [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that the apostolic lesson had just said the natural man does not perceive the things of the Spirit of God [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that many natural men must be in the assembly, and that he was in great difficulty how to explain the lesson [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that silence is no answer, since the lesson is read so that it may be explained and understood [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that some of his hearers may understand before he explains, and he will not cheat them [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that God's compassion will be present, so that each hearer receives what he is able, while the speaker says what he is able [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Augustine writes that John was inspired, yet still a man, and so spoke what a man could [[lpc.passage.d4661a219238]] [[as:paraphrase]]. Which line of that opening shall we stay with first?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S8",
+ "text": "Yes, and Augustine writes on those very opening words of John's gospel, speaking to his own hearers. Augustine writes that the apostolic lesson had just said the natural man does not perceive the things of the Spirit of God. Augustine writes that many natural men must be in the assembly, and that he was in great difficulty how to explain the lesson. Augustine writes that silence is no answer, since the lesson is read so that it may be explained and understood. Augustine writes that some of his hearers may understand before he explains, and he will not cheat them. Augustine writes that God's compassion will be present, so that each hearer receives what he is able, while the speaker says what he is able. Augustine writes that perhaps not even John spoke of the matter as it is, but only as he was able. Augustine writes that John was inspired, yet still a man, and so spoke what a man could. Which line of that opening shall we stay with first?",
+ "voice_set_aside": false
+}

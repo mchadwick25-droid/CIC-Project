@@ -111,7 +111,7 @@ class RoutingDecision:
     out_of_scope_class: str | None = None
 
 
-_SUB_QUESTION_ID = re.compile(r"C\d+\.S\d+")
+_SUB_QUESTION_ID = re.compile(r"C\d+\.S\d+[a-z]?")
 
 
 def _sub_question_id(named) -> str | None:

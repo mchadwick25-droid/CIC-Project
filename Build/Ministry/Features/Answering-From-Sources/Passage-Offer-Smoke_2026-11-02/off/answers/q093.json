@@ -1,0 +1,136 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.communion"
+   ],
+   "sentence": "Among us, communion is a formal standing within the one body, which a person can lose and be given back."
+  },
+  {
+   "record_ids": [
+    "lpc.term.communion",
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "At the council of 256, Cyprian said no one would be put out of communion for thinking differently."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "A century and a half later, Augustine argued at book length that the ruling of that council was wrong."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Augustine never put Cyprian outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.apart-in-heart-united-in-body"
+   ],
+   "sentence": "Augustine wrote: “The Winnower will come and divide the bad from the good. Then there will be a bodily separation too. A separation in spirit comes before it now. In heart, always keep apart from the bad. In body, stay joined with them for a time, but with caution. Yet do not neglect to correct your own people, those who in any way are in your care. Do it by warning, by teaching, by urging, or by threats.”"
+  }
+ ],
+ "citations": [
+  "lpc.quote.apart-in-heart-united-in-body",
+  "lpc.term.communion",
+  "lpc.witness.communion-over-separation"
+ ],
+ "group": "I",
+ "id": "q093",
+ "net_sentences": [
+  {
+   "draft": "Among us, communion is a formal standing within the one body, which a person can lose and be given back [[lpc.term.communion]] [[as:paraphrase]].",
+   "sentence": "Among us, communion is a formal standing within the one body, which a person can lose and be given back.",
+   "tags": [
+    "lpc.term.communion"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At the council of 256, Cyprian said no one would be put out of communion for thinking differently [[lpc.term.communion]] [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At the council of 256, Cyprian said no one would be put out of communion for thinking differently.",
+   "tags": [
+    "lpc.term.communion",
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A century and a half later, Augustine argued at book length that the ruling of that council was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A century and a half later, Augustine argued at book length that the ruling of that council was wrong.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine never put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine wrote: [[quote:lpc.quote.apart-in-heart-united-in-body]]",
+   "placed_quote": "lpc.quote.apart-in-heart-united-in-body",
+   "sentence": "Augustine wrote: “The Winnower will come and divide the bad from the good. Then there will be a bodily separation too. A separation in spirit comes before it now. In heart, always keep apart from the bad. In body, stay joined with them for a time, but with caution. Yet do not neglect to correct your own people, those who in any way are in your care. Do it by warning, by teaching, by urging, or by threats.”",
+   "tags": [
+    "lpc.quote.apart-in-heart-united-in-body"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Is it the rite of the table you are asking about, or the standing we call communion?",
+   "sentence": "Is it the rite of the table you are asking about, or the standing we call communion?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.communion",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.christ-redeemed-in-our-captive-brethren",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.communion-over-separation",
+  "lpc.quote.apart-in-heart-united-in-body"
+ ],
+ "raw_text": "Among us, communion is a formal standing within the one body, which a person can lose and be given back [[lpc.term.communion]] [[as:paraphrase]]. At the council of 256, Cyprian said no one would be put out of communion for thinking differently [[lpc.term.communion]] [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. A century and a half later, Augustine argued at book length that the ruling of that council was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Augustine never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.apart-in-heart-united-in-body]]. Is it the rite of the table you are asking about, or the standing we call communion?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.apart-in-heart-united-in-body": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "hat is expressed most plainly in other places of the sacred books, that there are within the Church both good and bad, as I",
+     "span": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 15108-15169"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.apart-in-heart-united-in-body"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S2",
+ "text": "Among us, communion is a formal standing within the one body, which a person can lose and be given back. At the council of 256, Cyprian said no one would be put out of communion for thinking differently. A century and a half later, Augustine argued at book length that the ruling of that council was wrong. Augustine never put Cyprian outside our communion. Augustine wrote: “The Winnower will come and divide the bad from the good. Then there will be a bodily separation too. A separation in spirit comes before it now. In heart, always keep apart from the bad. In body, stay joined with them for a time, but with caution. Yet do not neglect to correct your own people, those who in any way are in your care. Do it by warning, by teaching, by urging, or by threats.”\n\nIs it the rite of the table you are asking about, or the standing we call communion?",
+ "voice_set_aside": false
+}

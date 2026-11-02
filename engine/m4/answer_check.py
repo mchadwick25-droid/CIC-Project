@@ -38,6 +38,14 @@ SURVIVE_MIN_WORDS = bound_draft.FALLBACK_BELOW_WORDS
 _JSON = re.compile(r"\{.*\}", re.DOTALL)
 _PLACEMENT = re.compile(r"\[\[\s*(quote|story)\s*:\s*([a-z0-9_.-]+)\s*\]\]", re.IGNORECASE)
 
+ANSWERS_VERDICTS = ("yes", "partly", "no")
+ANSWERS_RUBRIC = (
+    "Then decide, for the answer as a whole, whether it answers the question the visitor asked, whatever each sentence supports.\n"
+    "yes: the answer, taken as a whole, answers the question asked.\n"
+    "partly: it answers a nearby question, or only part of the one asked.\n"
+    "no: it answers a different question from the one asked.\n"
+)
+
 CHECK_SYSTEM = (
     "You check an answer a historical Representative gave a visitor. The answer is given as numbered sentences. A sentence "
     "bound to records names them; the records are given as numbered sentences with the force each carries. A sentence marked "
@@ -47,10 +55,13 @@ CHECK_SYSTEM = (
     + verify_step.VERIFY_CRITERIA
     + "For each PLACED passage, decide whether it answers the visitor's question in its own source context. "
     + fit_step.FIT_RUBRIC
+    + ANSWERS_RUBRIC
     + 'Reply with one JSON object only: {"sentences": [{"n": the sentence number, "supported": true or false, '
     '"problem": one of "added_detail", "stronger_force", "dropped_scope", "widened_scope", "unresolved_referent", "other" or null when supported, '
     '"reason": "one short sentence"}], "placed": [{"id": the record id, "fit": "fits" or "partly" or "off_point", '
-    '"reason": "one short sentence", "limit_stated": true or false}]}. Give one entry for every bound sentence and every PLACED passage.'
+    '"reason": "one short sentence", "limit_stated": true or false}], '
+    '"answers": {"verdict": "yes" or "partly" or "no", "reason": "one short sentence", "addressed": "the part of the question the answer addresses"}}. '
+    'Give one entry for every bound sentence and every PLACED passage, and one "answers" entry for the whole answer.'
 )
 REWRITE_SYSTEM = (
     "You write a historical Representative's answer again from the sentences below, which were checked and found supported. "
@@ -95,7 +106,7 @@ def check_request(question: str, answer_units: list[dict], records: dict[str, di
 
 
 def parse_check(reply: str, answer_units: list[dict], records: dict[str, dict]) -> dict | None:
-    """{"sentences": {unit index: judgement or None}, "placed": {record id: judgement or None}}, or None when the
+    """{"sentences": {unit index: judgement or None}, "placed": {record id: judgement or None}, "answers": verdict or None}, or None when the
     reply holds no object. A sentence the reply leaves out has no judgement (kept, counted)."""
     found = _JSON.search(reply or "")
     if not found:
@@ -114,7 +125,15 @@ def parse_check(reply: str, answer_units: list[dict], records: dict[str, dict]) 
     for entry in data.get("placed") or []:
         if isinstance(entry, dict) and isinstance(entry.get("id"), str):
             placed[entry["id"]] = fit_step.judgement_from(entry)
-    return {"sentences": sentences, "placed": placed}
+    return {"sentences": sentences, "placed": placed, "answers": answers_from(data.get("answers"))}
+
+
+def answers_from(entry) -> dict | None:
+    """The whole-answer verdict ({verdict, reason, addressed}), or None when the reply gives none or an unknown one.
+    Measured and recorded; it changes nothing about what ships."""
+    if not isinstance(entry, dict) or entry.get("verdict") not in ANSWERS_VERDICTS:
+        return None
+    return {"verdict": entry["verdict"], "reason": str(entry.get("reason") or ""), "addressed": str(entry.get("addressed") or "")}
 
 
 def outcome(answer_units: list[dict], parsed: dict, records: dict[str, dict], judge_placements: bool = True) -> dict:
