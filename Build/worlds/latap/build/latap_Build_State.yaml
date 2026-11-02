@@ -14,6 +14,7 @@ documents:
   - id: Step_0
     status: approved to proceed (self-disposed 2026-09-29 after the Round 7 recheck; not Frozen)
     rounds_used: 7
+    cap_ruling: "Mark, 2026-11-02: the approval to proceed stands (Hub Decision Log, Cap ruling: latap Step 0, the approval to proceed stands; Open_Gaps_Tracking.md OG-28)"
     review_files: [Review-Artifacts/Step0_Round1_Review.md, Review-Artifacts/Step0_Round2_Review.md, Review-Artifacts/Step0_Round3_Review.md, Review-Artifacts/Step0_Round4_Review.md, Review-Artifacts/Step0_Round5_Review.md, Review-Artifacts/Step0_Round6_Review.md, Review-Artifacts/Step0_Round7_Review.md]
   - id: Doc_01
     status: approved to proceed (self-disposed 2026-10-29 after the Round 3 Clear verdict; not Frozen)
