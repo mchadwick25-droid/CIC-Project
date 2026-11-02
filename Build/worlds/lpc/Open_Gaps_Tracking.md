@@ -2733,3 +2733,9 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Done.** In the reviewed sidecar, C8.S7 now lists `lpc.quote.love-and-do-what-thou-wilt`, `lpc.quote.not-to-be-refused-to-any-one-born-of-man`, `lpc.quote.not-his-own-sins-but-the-sins-of-another` and `lpc.witness.infants-and-the-sin-of-another`. One independent Opus reader on the changed pairs cut two lines it found wrong (a "was thought right" route; an either/or on one Shepherd) and removed `lpc.term.catechesis` from C8.S7 (it is adult instruction, and its `not_for` bars a children's catechism reading). Corrections applied once.
 - **Open.** C8.S7 stays thin: no record covers ordinary upbringing, schooling or how families treated children. That is an honest limit, not a reason for more records. For Mark or Engine if a Facilitator-ground answer is wanted there.
 - **Owner.** Library thread, through the coordination thread.
+
+### OG-157. The rendering-review gate reads that a review exists, not its verdict; one lpc rendering failed its review and was not re-read (2026-11-01).
+
+- **Open.** `rendering-review` (Decision-Log 62) passes a rendering when a named Opus review file lists it. The verdict cell is not read. `Build/worlds/lpc/Review-Artifacts/Rendering_Review_Log_86_2026-11-01.md` records `o-blessed-people-of-the-church` as "round 2 FAIL (a 26-word sentence), fixed ... not re-read (review cap)", and the gate passes it.
+- **Next.** Library re-reads that rendering, or Mark rules whether the gate should also require a passing verdict.
+- **Owner.** Library thread for the re-read; engine thread for the gate, on Mark's ruling.

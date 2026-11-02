@@ -317,6 +317,22 @@ defects:
     mutation: {op: set_field, path: use_note.means, value: "Use this only when asked about eyewitnesses. It is about trust."}
     expected_failure: "use_note.means is two sentences and opens as an instruction; a note describes what the record means in one sentence"
 
+  - id: quote-locus-span-without-the-text
+    gate: quote-locus
+    layer: M1
+    note: "fix.quote.witness-saying cites the witness scroll at lines 30-31, where its text stands; this mutation moves the cited span to lines 16-17, a heading, so the file still holds the words but the span the card links to does not."
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: "sources[0].locus", value: "1.4 (English at cic/texts/fixture-synthetic_witness-scroll.txt, lines 16-17)"}
+    expected_failure: "gate_quote_locus: text does not occur at its cited locus"
+
+  - id: rendering-without-a-review
+    gate: rendering-review
+    layer: M1
+    note: "the fixture's three quote renderings each have a row in Build/worlds/fix/Review-Artifacts/Rendering_Review_Log_fixture.md and a review file that names Opus and the record; this mutation gives the story a modern_rendering that no log row names."
+    target_record: records/fix/story/fix.story.the-long-road.md
+    mutation: {op: add_field, path: modern_rendering, value: "The long road, told again in today's English."}
+    expected_failure: "gate_rendering_review: no rendering review log row names this record"
+
   - id: inertness-proof
     gate: inertness
     layer: M1

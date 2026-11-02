@@ -16,7 +16,9 @@ from engine.prose import is_guard_marker_line, locus_refs, quote_aware_sentences
 from . import canon
 from .fk import fk_grade, fre_score
 from .loader import home_for_record_type, voiced_records
+from .quote_locus import gate_quote_locus
 from .quote_verbatim import _NOTE_BLOCK_RE, _TAG_RE, gate_quote_verbatim
+from .rendering_review import gate_rendering_review
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
 from .witness_quotations import gate_witness_quotation_verbatim
@@ -1785,6 +1787,8 @@ GATES = {
     # quote_verbatim.py's own `_REQUIRED_VERIFICATION_STATE` - and every
     # record still at verified-direct already verifies).
     "quote-verbatim": gate_quote_verbatim,
+    "quote-locus": gate_quote_locus,
+    "rendering-review": gate_rendering_review,
     "witness-quotation-verbatim": gate_witness_quotation_verbatim,
     # flag_cross_record_consistency and check_mode3_claim_fidelity are
     # NOT registered here, and are not deferred-pending-a-rebuild the way
