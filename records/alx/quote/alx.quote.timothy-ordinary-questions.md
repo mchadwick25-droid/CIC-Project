@@ -55,6 +55,32 @@ use_note:
     - "women's own words about their lives, which this world lacks"
   years: {from: 381, to: 385}
   status: reviewed
+reading_card:
+  setting: Timothy, bishop of Alexandria (died 385), answering questions put to him on clergy practice.
+  source_says: A child catechumen who ate the offering is baptized; new mothers and the sick skip the
+    Easter fast; no cleric blesses an incestuous marriage.
+  historians_conclude:
+    text: 'The construction record holds most believers formed by belonging: baptism, the shared table,
+      the fast. What they felt is lost.'
+    confidence: Dominant Modern Reconstruction
+  contributes: It shows a bishop settling everyday questions of baptism and fasting.
+  whose_view: A bishop's rulings from the 380s, not lay voices.
+  open: The quote skips rulings on women's bodies; women's own words on them do not survive.
+  reads_differently_today: '''Illuminated'' meant baptized; ''the oblation'' is the eucharist. A catechumen
+    could not take communion, so a child eating it by mistake was a real problem.'
+  complicated_by:
+  - alx.limit.f5-women-own-words
+  sources:
+    setting: alx.source.alexandrian-canonical-answers, author field; Canonical Answers heading, npnf214
+      lines 44104-44109
+    source_says: alx.source.alexandrian-canonical-answers, Timothy, Questions I, VIII, X, XI, npnf214
+      from line 44104
+    historians_conclude: Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §2 construction note
+    contributes: alx.gravity.learning-community-tension; alx.term.photismos; alx.term.fasting
+    whose_view: alx.quote.timothy-ordinary-questions, use_note.not_for; alx.source.alexandrian-canonical-answers,
+      body
+    open: alx.source.alexandrian-canonical-answers, body (what it is not); alx.limit.f5-women-own-words
+    reads_differently_today: alx.quote.timothy-ordinary-questions, modern_lens_note
 ---
 Verified verbatim against the vendored file at npnf214 line
 44104. DISCLOSED: these are Questions I, VIII, X and XI of a longer

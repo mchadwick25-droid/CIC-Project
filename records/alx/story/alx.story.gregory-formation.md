@@ -62,6 +62,32 @@ use_note:
     - "attributing the five-year stay or the Pontus homeland to the Address itself rather than to the editor's introduction"
   years: {from: 233, to: 238}
   status: reviewed
+reading_card:
+  setting: Gregory, from Pontus, recalls in his farewell Address his study with Origen at Caesarea.
+  source_says: Origen tested him like soil, then taught logic, natural science, ethics and at last theology.
+    Love kindled for the Word and for Origen.
+  historians_conclude:
+    text: The construction record reads the Address as first-person testimony whose praise idealizes but
+      does not invent.
+    confidence: Widely Accepted
+  contributes: 'It shows learning as formation: a staged path carried by a relationship.'
+  whose_view: One gifted pupil at Caesarea, not the ordinary Alexandrian catechumen.
+  open: Nautin disputed its authorship and date. Fees, rooms and fellow students go unmentioned.
+  reads_differently_today: '''Love kindled'' is not romance. Its object is the Holy Word first, and the
+    teacher as the Word''s friend.'
+  sources:
+    setting: alx.source.gregory-address-to-origen; anf06 editor's introduction, lines 631-632; alx.story.gregory-formation
+      body (five years, Pontus)
+    source_says: alx.source.gregory-address-to-origen, Address VI-IX, XIII, anf06 from line 2288; alx.gravity.learning-formation,
+      sources
+    historians_conclude: Build/worlds/alx/Doc_09_Story_Inventory.md §2 (alexstory001); Doc_02_Source_Ecology.md
+      §3.6
+    contributes: alx.gravity.learning-formation; alx.term.didaskalos
+    whose_view: alx.story.gregory-formation, absent_detail; Build/worlds/alx/Doc_02_Source_Ecology.md
+      §3.6
+    open: alx.source.gregory-address-to-origen, confidence.divergence_note; alx.story.gregory-formation,
+      absent_detail
+    reads_differently_today: alx.story.gregory-formation, modern_contrast
 ---
 Most elements are in the Address itself, within the stated VI-XVI locus
 (the soil-testing and curriculum sequence in Arguments VII-IX, the spark
