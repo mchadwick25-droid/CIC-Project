@@ -62,7 +62,7 @@ def build_signoffs(world_key: str, *, is_fixture: bool = False, state: str = "bu
         if is_fixture
         else (
             f"{world_key} is a formation world. All four per-world touchpoints (spec "
-            "SS4.3 - identity, the living-tradition determination, the world freeze, the admission read) "
+            "SS4.3 - identity, the living-tradition determination, the freeze, the admission read) "
             f"are OUTSTANDING, not waived, regardless of this world's own registry state ({state}) "
             "- state reflects mechanical, gate-based transitions (the M1 gate battery, the M3 "
             "admission battery), never one of the four sign-off touchpoints."
