@@ -34,11 +34,12 @@ def test_the_loader_returns_the_card_and_the_lens_note(tmp_path):
     }
 
 
-def test_the_loader_reads_the_real_alx_lens_notes():
+def test_the_loader_reads_the_real_alx_lens_notes_and_cards():
     context = load_reading_context(RECORDS_ROOT, "alx")
     entry = context["alx.quote.a-doctrine-they-would-not-have-taught"]
     assert entry["modern_lens_note"].startswith("The argument is about sincerity")
-    assert entry["reading_card"] is None
+    assert set(entry["reading_card"]) >= {"setting", "source_says", "historians_conclude", "sources"}
+    assert sum(1 for e in context.values() if e["reading_card"]) == 35
 
 
 def test_a_missing_world_returns_nothing(tmp_path):
