@@ -51,6 +51,27 @@ use_note:
     - "Clement's speculation generalized as Alexandrian church order"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in Stromateis VI, on the true gnostic and the glory to come.
+  source_says: One is enrolled as presbyter because righteous, not righteous because presbyter. He then
+    suggests the church's grades copy angelic glory.
+  historians_conclude:
+    text: 'The construction record holds teacher and bishop as two real authorities: one of shown wisdom,
+      one of office.'
+    confidence: Widely Accepted
+  contributes: It shows offices as steps of advance in holiness.
+  whose_view: Clement's own speculation, 'according to my opinion', not how Alexandria's offices worked.
+  reads_differently_today: '''Grades'' translates prokopai, steps of advance. The three offices are named,
+    but the reasoning behind them is unlike any modern denomination''s.'
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis VI.13, anf02 lines 47860-47895
+    source_says: alx.source.clement-stromateis, Stromateis VI.13, anf02 lines 47866-47900
+    historians_conclude: 'Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (T1: Widely Accepted structural);
+      Doc_05_Ecological_Reconstruction.md §4'
+    contributes: alx.term.episkopos
+    whose_view: alx.quote.the-grades-here-in-the-church, use_note.not_for; Stromateis VI.13, anf02 line
+      47889
+    reads_differently_today: alx.quote.the-grades-here-in-the-church, modern_lens_note
 ---
 Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.

@@ -65,6 +65,17 @@ _QUOTED = re.compile(
         r"(?<!\w)'(?=\S)(?:[^'\n]|\n(?!\s*\n))*?(?<=\S)'(?!\w)",
     ])
 )
+# Names and titles that carry a British spelling as part of the name: an institution, a periodical, a
+# work cited in running prose. They are written down here, never inferred.
+_NAMES = re.compile(
+    r"Pontifical Institute of Mediaeval Studies|Mediaeval Academy|Encyclopaedia (?:Iranica|Britannica|of Islam)"
+    r"|On the Catechising of the Uninstructed"
+    r"|(?:In )?Defence (?:of|Against|before) (?:the |his |His |Himself|Dionysius|Origen|Ries|English)[\w' ]*[A-Z]\w*"
+    r"|Programme to Combat Racism",
+)
+# A capitalized word of this kind next to another capitalized word is part of a name (Labour Party,
+# International Christian Centre, Mediaeval Studies), not prose.
+_NAME_PRONE = {"centre", "labour", "mediaeval", "encyclopaedia", "programme"}
 _URL = re.compile(r"https?://\S+")
 _PATHLIKE = re.compile(r"\S*[/_]\S*")
 
@@ -101,13 +112,25 @@ def _find(text: str, markdown: bool = True) -> list[tuple[int, str]]:
         masked.append(_PATHLIKE.sub(_blank, line))
     body = "\n".join(masked)
     body = _QUOTED.sub(_blank, body)
+    body = _NAMES.sub(_blank, body)
     out: list[tuple[int, str]] = []
     for m in _WORD_RE.finditer(body):
         word = m.group(0)
         if word.lower() in _LOWER_ONLY and not word.islower():
             continue
+        near = text[max(0, m.start() - 120):m.end() + 120]
+        if american(word).lower() in {w.lower() for w in re.findall(r"[^\W\d_]+", near)}:
+            continue
+        if word.lower() in _NAME_PRONE and word[:1].isupper() and _in_name(body, m):
+            continue
         out.append((m.start(), word))
     return out
+
+
+def _in_name(body: str, m: re.Match[str]) -> bool:
+    after = re.match(r"[ \t]+[A-Z][a-z]", body[m.end():])
+    before = re.search(r"[A-Z][\w'’-]*[ \t]+$", body[:m.start()])
+    return bool(after or before)
 
 
 def _line_of(text: str, offset: int, first_line: int = 1) -> int:
@@ -128,7 +151,7 @@ def fix_text(text: str) -> str:
 _SKIP_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register", "canon_cells", "locus", "edition",
     "work", "title", "translator", "translators", "author", "names", "source_id", "source", "sources_cited",
-    "license", "tier", "kind", "voice_of", "census_id", "shelf_row", "speaker", "name", "citation",
+    "license", "tier", "kind", "voice_of", "census_id", "shelf_row", "speaker", "speaker_or_author", "name", "citation",
 }
 
 

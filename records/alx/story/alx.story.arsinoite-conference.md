@@ -75,6 +75,32 @@ use_note:
     - "describing Nepos's book or the villagers' own words as surviving"
   years: {from: 248, to: 265}
   status: reviewed
+reading_card:
+  setting: Dionysius, bishop of Alexandria, recalls a visit to the Arsinoite villages; Eusebius quotes
+    him.
+  source_says: Nepos's teaching had split churches there. Dionysius spent three days with elders and teachers
+    over the book, until its leader Coracion gave it up.
+  historians_conclude:
+    text: The construction record holds that allegory ruled the literate tradition but was disputed inside
+      Egypt, as here.
+    confidence: Contested
+  contributes: It shows disputed belief settled by patient argument, not decree.
+  whose_view: Only Dionysius's side survives; Nepos's book is lost.
+  open: He says the teaching caused 'schisms and apostasies of entire churches'; the harmony was won from
+    a real split.
+  reads_differently_today: 'Neither a trial to punish dissent nor an agreement to stay divided: authority
+    worked through patient argument toward a truth held in common again.'
+  complicated_by:
+  - alx.contested.allegory-from-within
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VII.24.3, 6, npnf201 lines 41300-41345
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.24.6-9, npnf201 lines 41335-41382
+    historians_conclude: alx.contested.allegory-from-within, concedes; Build/worlds/alx/Doc_05_Ecological_Reconstruction.md
+      §6.4 construction note
+    contributes: alx.term.allegoria (evidential sense); alx.gravity.scripture-formative
+    whose_view: alx.story.arsinoite-conference, absent_detail
+    open: alx.source.eusebius-historia-ecclesiastica, HE VII.24.6, npnf201 lines 41336-41345
+    reads_differently_today: alx.story.arsinoite-conference, modern_contrast
 ---
 Serves three cells honestly: F1-E (how disputed belief was actually
 decided - by patient open argument, here), F4-T (the end-times cell:
