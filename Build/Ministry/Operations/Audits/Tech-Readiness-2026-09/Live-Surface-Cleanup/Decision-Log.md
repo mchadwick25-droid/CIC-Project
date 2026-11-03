@@ -2551,3 +2551,8 @@ The open clauses removed or reworded in the don construction documents and the c
 
 - `Cappadocian_Final_Report.md` line 46: "Ten findings" stays true with F17 removed from the list because the line now says F17 is tracked at OG-60.
 - `cappadocian_Doc_06_Full_Lexicon.md` line 196: the lex003 front-matter mismatch (OG-15) is stated again; it was dropped with the pending-rework clause.
+
+### CL5 merge with main
+
+- The record-defects thread rewrote the seven cappadocian force descriptions and took cappadocian OG-59, so this entry's cappadocian filing is OG-60 (Final_Report line 46 points at it).
+- Their rewrite removed lines that `tools/tests/test_check_live_commentary.py` pins. Two tests failed on `main` itself because that job only runs when `tools/` changes: `test_real_fleet_true_positives_still_match_on_main` now names the two records that still carry the matrix-cell-code hit (`ijc.force.leo-rejects-canon-28.md`, `pahc.core.house-church.md`), and the hand-label row for `cappadocian.force.capitals-gravity.md` line 25 is replaced by `ijc.force.leo-rejects-canon-28.md` line 29.

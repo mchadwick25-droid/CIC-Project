@@ -1012,18 +1012,10 @@ def _new_pattern_hits_for(text: str, tmp_path: Path, rel: str):
 
 def test_real_fleet_true_positives_still_match_on_main():
     # Confirms the patterns fire against real, currently-unfixed files on
-    # disk (not just synthetic examples). don.force.sustained-purity-
-    # rebaptism-practice.md's own hit (the original third example here)
-    # was cleared by don's #551 re-voicing PR after this test was written -
-    # exactly the intended outcome, not a false positive - so it was
-    # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
-    # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
-    # not yet remediated in any world. The cappadocian rulings pass later
-    # cleared ascetic-ferment.md too, so the third example is now
-    # famine-crisis.md, still carrying the tag.
-    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.capitals-gravity.md")
+    # disk (not just synthetic examples): the two records whose "Strand"
+    # labels are not defined anywhere the cleanup could rewrite them from.
+    assert _new_pattern_hits("records/ijc/force/ijc.force.leo-rejects-canon-28.md")
     assert _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
-    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.famine-crisis.md")
 
 
 def test_real_editorial_numbered_labels_not_flagged_as_headers():
@@ -1455,7 +1447,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 2026-10-04 and no longer carries a hit (the intended outcome), so
     # this entry moved to a cappadocian force record whose Doc_08 cell
     # tag is still unremediated.
-    ("records/cappadocian/force/cappadocian.force.capitals-gravity.md", 25, "REWRITE"),
+    ("records/ijc/force/ijc.force.leo-rejects-canon-28.md", 29, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 279, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 162, "PROTECTED"),
