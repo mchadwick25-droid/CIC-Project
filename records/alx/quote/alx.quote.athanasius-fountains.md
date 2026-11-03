@@ -44,6 +44,31 @@ use_note:
     - "a claim that this sentence itself lists which books were received"
   years: {from: 367, to: 367}
   status: reviewed
+reading_card:
+  setting: Athanasius, bishop of Alexandria, in his Easter letter of 367 to Egypt's churches.
+  source_says: He lists the Old and New Testament books, ending with Revelation. These alone proclaim
+    godliness; nothing may be added or removed.
+  historians_conclude:
+    text: The construction record warns that Athanasius's later, episcopal voice must not describe the
+      period before Nicaea.
+    confidence: Widely Accepted
+  contributes: It shows Scripture as the deep text by which this world formed people.
+  whose_view: A bishop drawing the line for all Egypt. It is no evidence for Clement's or Origen's day.
+  open: He adds books read to newcomers, so 'these alone' has a middle shelf beside it.
+  reads_differently_today: The fountain and living-water image still reads plainly, because it stays familiar
+    from the Bible.
+  complicated_by:
+  - alx.quote.appointed-by-the-fathers-to-be-read
+  - alx.quote.dionysius-too-high-for-me-to-grasp
+  sources:
+    setting: alx.source.athanasius-festal-letters; Letter XXXIX heading (For 367), npnf204 lines 68711-68716
+    source_says: alx.source.athanasius-festal-letters, Letter XXXIX §§4-6, npnf204 lines 68780-68815
+    historians_conclude: Build/worlds/alx/Doc_02_Source_Ecology.md §3.3; Doc_05_Ecological_Reconstruction.md
+      §7 construction note
+    contributes: alx.gravity.scripture-formative; alx.force.scripture-ongoing
+    whose_view: alx.force.post-nicene-authority-shift; alx.quote.athanasius-fountains, use_note.not_for
+    open: alx.source.athanasius-festal-letters, Letter XXXIX §7, npnf204 lines 68816-68822
+    reads_differently_today: alx.quote.athanasius-fountains, modern_lens_note
 ---
 The canon list's own summation - the bishop telling all Egypt which
 books the church receives. Serves F2-I ('which writings did your people

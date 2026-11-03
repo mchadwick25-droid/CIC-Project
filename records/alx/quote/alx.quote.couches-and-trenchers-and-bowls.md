@@ -53,6 +53,31 @@ use_note:
     - "certain identification of every named vessel, several of which the translation only transliterates"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in the Instructor, Book II, in the chapter 'On Costly Vessels'.
+  source_says: Gold cups and costly furniture are useless display. Since 'the time is short', Christians
+    should give them up and keep faith and kindness.
+  historians_conclude:
+    text: The construction record finds Alexandria's Christian remains meagre, and its writings rarely
+      describe meeting places.
+    confidence: Documented
+  contributes: It shows daily life as a field of formation, free of luxury.
+  whose_view: Clement addresses wealthy households, not most Christians' homes.
+  open: Several vessels are only transliterated, so some cannot be identified.
+  reads_differently_today: This is the nearest thing to an archaeologist's list in this world's writings,
+    but it describes a house, not a church. He forbids ivory to people who owned it.
+  complicated_by:
+  - alx.limit.material-remains
+  sources:
+    setting: alx.source.clement-paidagogos, Paedagogus II.3 heading, anf02 line 22104
+    source_says: alx.source.clement-paidagogos, Paedagogus II.3, anf02 lines 22105-22150
+    historians_conclude: alx.limit.material-remains, why_sources_cannot_answer; Build/worlds/alx/Doc_02_Source_Ecology.md
+      §8
+    contributes: alx.gravity.soul-transformation; alx.term.oikos
+    whose_view: alx.quote.couches-and-trenchers-and-bowls, use_note.not_for; Build/worlds/alx/Doc_02_Source_Ecology.md
+      §3.2
+    open: alx.quote.couches-and-trenchers-and-bowls, use_note.not_for
+    reads_differently_today: alx.quote.couches-and-trenchers-and-bowls, modern_lens_note
 ---
 alx.limit.material-remains is the cell's only serving record, and it cites a specific locus - Paedagogus
 II-III - so the limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.

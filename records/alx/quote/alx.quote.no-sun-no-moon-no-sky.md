@@ -53,6 +53,33 @@ use_note:
     - "Origen's reading generalized to all Alexandrian Christians, when he argues against literalists in his own church"
   years: {from: 203, to: 254}
   status: reviewed
+reading_card:
+  setting: Origen, in Book IV of On First Principles, on how to read Scripture.
+  source_says: The Spirit wove in some events that never happened, to make readers search; sunless days
+    are one example.
+  historians_conclude:
+    text: The construction record holds deep reading central to the literate tradition; Origen's worked-out
+      method is his own.
+    confidence: Dominant Modern Reconstruction
+  contributes: It shows hard passages taken as a call to read deeper.
+  whose_view: Origen argues against literal readers in his own church; Nepos's churches later opposed
+    allegorists.
+  open: He adds that passages true as history far outnumber purely spiritual ones.
+  reads_differently_today: His objection to solar days in Genesis 1 is made against literal readers, not
+    science. He does not call it false; it was written to be read on several levels.
+  complicated_by:
+  - alx.contested.allegory-from-within
+  - alx.story.arsinoite-conference
+  sources:
+    setting: alx.source.origen-de-principiis, De Principiis IV.1, anf04
+    source_says: alx.source.origen-de-principiis, De Principiis IV.1.15-16, anf04 lines 33683-33740
+    historians_conclude: alx.gravity.scripture-formative, body (systematized method Origen-concentrated,
+      caps at DMR); Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (C1)
+    contributes: alx.term.allegoria; alx.term.interpretation
+    whose_view: alx.quote.no-sun-no-moon-no-sky, use_note.not_for; alx.contested.allegory-from-within,
+      held_against
+    open: alx.source.origen-de-principiis, De Principiis IV.1.19, anf04 line 33869; work field (Rufinus)
+    reads_differently_today: alx.quote.no-sun-no-moon-no-sky, modern_lens_note
 ---
 Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.

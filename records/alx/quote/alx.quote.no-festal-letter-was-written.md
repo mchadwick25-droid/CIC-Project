@@ -47,6 +47,28 @@ use_note:
     - "a claim that the festal letters stopped for good, rather than for this year"
   years: {from: 356, to: 357}
   status: reviewed
+reading_card:
+  setting: The Festal Index, yearly headnotes to Athanasius's Easter letters kept in Syriac; entry for
+    356-7.
+  source_says: George entered with violence; Athanasius fled and was hunted in the city, so no letter
+    was written.
+  historians_conclude:
+    text: Robertson treats the Index as the accepted Alexandrian chronology and accepts its date for George's
+      arrival, February 357.
+    confidence: Widely Accepted
+  contributes: It shows the bishop's yearly teaching letter broken by imperial force.
+  whose_view: A later Alexandrian church headnote, not Athanasius's own words.
+  open: The edition prints fragments of a Letter 29 for 357; if genuine, the Index is wrong.
+  reads_differently_today: Read the last sentence as plain record. The yearly letter fixed Easter and
+    taught all Egypt. This year the bishop hid in his own city, under a Christian emperor.
+  sources:
+    setting: alx.source.athanasius-festal-letters; Festal Index XXIX, npnf204 lines 64360-64370
+    source_says: alx.source.athanasius-festal-letters, Festal Index XXIX-XXX, npnf204 lines 64362-64376
+    historians_conclude: Robertson, NPNF2 vol. 4 Prolegomena, npnf204 lines 6028-6036
+    contributes: alx.term.episkopos; alx.force.post-nicene-authority-shift; alx.force.arian-controversy
+    whose_view: alx.quote.no-festal-letter-was-written, use_note.not_for
+    open: Editor's note to Letter XXIX, npnf204 line 68615
+    reads_differently_today: alx.quote.no-festal-letter-was-written, modern_lens_note
 ---
 Opened for F3-E, served by alx.dw.empire alone, whose locus reads 'the exile-years
 letters' - a body of text rather than a place in one, which is why the instrument ruled this cell

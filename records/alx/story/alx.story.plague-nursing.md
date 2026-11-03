@@ -62,6 +62,27 @@ use_note:
     - "giving numbers, names, or the disease's identity"
   years: {from: 262, to: 263}
   status: reviewed
+reading_card:
+  setting: Dionysius, bishop of Alexandria, writing before Easter during a plague; Eusebius quotes him.
+  source_says: Most Christians nursed the sick and buried the dead with their own hands, while the heathen
+    cast out their own.
+  historians_conclude:
+    text: The construction record rates Eusebius's word-for-word quotations above his own narration.
+    confidence: Documented
+  contributes: It shows care as witness, a death 'lacking nothing of martyrdom'.
+  whose_view: A bishop praising his own flock; the pagan contrast is his frame.
+  open: McGiffert dates it before Easter 263. Names, numbers and the disease are unknown.
+  reads_differently_today: Not secular aid or a charity program. The letter roots the nursing in resurrection
+    hope and in sharing Christ's self-giving death.
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VII.22.1, npnf201 lines 41017-41030
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.22.4-10, npnf201 lines 41047-41110
+    historians_conclude: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim
+      quotation of documents)'
+    contributes: alx.term.martys; alx.term.agape
+    whose_view: alx.story.plague-nursing, absent_detail
+    open: McGiffert's note to HE VII.22.1, npnf201 lines 41020-41030; alx.story.plague-nursing, absent_detail
+    reads_differently_today: alx.story.plague-nursing, modern_contrast
 ---
 Every element in the text is in the letter (the fearless visiting, the
 joyful dying, the pagan contrast, the festival occasion); nothing is

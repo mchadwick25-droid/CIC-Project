@@ -67,6 +67,27 @@ use_note:
     - "stating the city as Smyrna where Clement himself does not commit to it"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement ends his treatise on the rich man with a story handed down about the apostle John.
+  source_says: He tells it so the truly repentant may trust in hope of salvation.
+  historians_conclude:
+    text: By the construction record's story tiers, collected tradition shows what the community remembered
+      and valued, not checked events.
+    confidence: Widely Accepted
+  contributes: It shows that one who fell could return, at real cost to those who restored him.
+  whose_view: Clement vouches for a received tradition set near Ephesus; the earlier chain is lost.
+  open: Clement names no city; the editor says Smyrna. Whether it happened cannot be shown.
+  reads_differently_today: Not a simple redemption tale. The bishop's relaxed watch caused the fall, and
+    John's pursuit and shared fasting are the cost of repair.
+  sources:
+    setting: alx.source.clement-quis-dives, Quis Dives Salvetur 42, anf02 lines 57244-57247
+    source_says: alx.source.clement-quis-dives, Quis Dives Salvetur 41-42, anf02 lines 57225-57247
+    historians_conclude: Build/worlds/alx/Doc_09_Story_Inventory.md §1 (tier cross-walk) and §2 (Tier
+      2 definition)
+    contributes: alx.term.lapsi; alx.term.metanoia
+    whose_view: alx.story.john-young-robber, narrative_tier_justification
+    open: alx.story.john-young-robber, absent_detail; anf02 footnote at line 57257
+    reads_differently_today: alx.story.john-young-robber, modern_contrast
 ---
 The world's best story for restoration-after-falling: serves F4-I (when
 someone wronged the community, could they come back?) and F6-P ('if

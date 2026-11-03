@@ -50,6 +50,31 @@ use_note:
     - "a claim that 'banish themselves' means literal exile"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in Book IV of the Stromateis, on what true martyrdom is.
+  source_says: He rejects heretics who call dying for the faith suicide, and name-only Christians who
+    rush to die hating the Creator.
+  historians_conclude:
+    text: The construction record reads martyrdom and contemplative ascent as two competing pictures of
+      the formed life, never resolved.
+    confidence: Widely Accepted
+  contributes: It shows witness as holding fast under trial, not seeking death.
+  whose_view: A teacher's judgment; martyrs' own inner view survives only through others.
+  open: The rivals he attacks are described only by him, in polemic.
+  reads_differently_today: '''Banish themselves'' is a figure: they put themselves outside true martyrdom.
+    It does not mean exile.'
+  complicated_by:
+  - alx.story.leonides-martyrdom
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis IV.4, anf02 lines 37795-37805
+    source_says: alx.source.clement-stromateis, Stromateis IV.4, anf02 lines 37812-37827
+    historians_conclude: Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (T4); Doc_05_Ecological_Reconstruction.md
+      §5 (Martyrdom as formation)
+    contributes: alx.term.martys; alx.gravity.martyrdom-contemplative-tension
+    whose_view: alx.gravity.martyrdom-contemplative-tension, description; Build/worlds/alx/Doc_09_Story_Inventory.md
+      §3 (the martyr's own interior)
+    open: alx.quote.clement-rash-martyrdom, use_note.not_for
+    reads_differently_today: alx.quote.clement-rash-martyrdom, modern_lens_note
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not

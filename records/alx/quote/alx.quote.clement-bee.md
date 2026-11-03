@@ -44,6 +44,30 @@ use_note:
     - "evidence of how a catechetical school was formally organized or run"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement opens his Stromateis, notes kept against forgetting, by recalling his teachers.
+  source_says: He names teachers from Greece to the East. The last, found hidden in Egypt, gave him rest;
+    such men kept the apostles' tradition.
+  historians_conclude:
+    text: Clement names no one; the editor and Eusebius say Pantaenus. Scholars divide on whether a formal
+      school existed then.
+    confidence: Contested
+  contributes: 'It shows the teacher''s authority from inside: wide learning planted in hearers.'
+  whose_view: Clement's personal tribute, written for the educated; most believers do not appear.
+  open: Clement never describes a formal school headed by this teacher or himself.
+  reads_differently_today: '''Sicilian bee'' is high praise: a bee gathers from many flowers, an old image
+    for wide reading made one''s own. It is not a belittling nickname.'
+  complicated_by:
+  - alx.contested.didaskaleion-institution
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis I.1, anf02 lines 27476-27483
+    source_says: alx.source.clement-stromateis, Stromateis I.1, anf02 lines 27483-27500
+    historians_conclude: anf02 editor's note at line 27489 ('Most likely Pantaenus'); alx.contested.didaskaleion-institution;
+      Build/worlds/alx/Doc_01_World_Identification_Boundaries_Orientation.md §1.2
+    contributes: alx.term.didaskalos; alx.gravity.learning-formation
+    whose_view: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.2 (Clement: representativeness partial)'
+    open: alx.contested.didaskaleion-institution, held_against
+    reads_differently_today: alx.quote.clement-bee, modern_lens_note
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

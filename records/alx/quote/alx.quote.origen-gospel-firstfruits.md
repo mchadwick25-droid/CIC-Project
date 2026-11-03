@@ -43,6 +43,28 @@ use_note:
     - "a formal church ranking of the canon rather than one teacher's judgment"
   years: {from: 203, to: 254}
   status: reviewed
+reading_card:
+  setting: Origen, at Alexandria, opening his Commentary on John, written for Ambrose.
+  source_says: No Gospel declares Christ's Godhead as plainly as John's. Only one who lay on Jesus' breast
+    can grasp it.
+  historians_conclude:
+    text: The construction record puts the Commentary on John at the heart of this world's Logos theology.
+    confidence: Widely Accepted
+  contributes: It shows John's Word theology ranked first in their reading.
+  whose_view: One teacher's judgment of rank, not a church ruling on the canon.
+  open: Only parts survive; books III and VII to IX are lost.
+  reads_differently_today: '''First fruits'' is an offering word: the best of the harvest given to God.
+    It means most holy, not earliest.'
+  sources:
+    setting: alx.source.origen-comm-john; Commentary on John I.4, anf09 lines 20455-20464; editor's note,
+      anf09 line 24426
+    source_says: alx.source.origen-comm-john, Commentary on John I.6, anf09 lines 20560-20582
+    historians_conclude: alx.gravity.logos-unity, manifestations; Build/worlds/alx/Doc_04_Gravity_Discovery.md
+      §4 table (C4)
+    contributes: alx.force.johannine-logos; alx.gravity.logos-unity
+    whose_view: alx.quote.origen-gospel-firstfruits, use_note.not_for
+    open: alx.source.origen-comm-john, work field
+    reads_differently_today: alx.quote.origen-gospel-firstfruits, modern_lens_note
 ---
 How the tradition ranked what it read: all Scripture, the Gospels its
 firstfruits, John the firstfruits of the Gospels. Verified verbatim.
