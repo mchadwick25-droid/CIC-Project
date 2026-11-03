@@ -856,7 +856,7 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
     return scored
 
 
-def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None, rhythm: RhythmTally | None = None, words_asked: bool = False) -> list[dict]:
+def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000, already_told_ids: set[str] | list[str] | None = None, kind: str | None = None, rhythm: RhythmTally | None = None, words_asked: bool = False, source_spread: bool = True) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
     candidate here is drawn from (see module docstring's named
@@ -879,7 +879,12 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     ranking would have chosen it, it still stands in the block, tagged by the
     caller, for the voice to refer back to. Until three rounds have passed
     since the last voiced quote, and unless words_asked, the quote floor is
-    one."""
+    one.
+
+    source_spread: each floor is filled breadth-first by source family
+    (_diverse_take). When False, each floor is filled in score order, and the
+    one diversity rule over records and passages in the offer
+    (engine.m4.passage_offer.diversify) takes its place."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
@@ -941,11 +946,12 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             for rid in (already_told_ids or ())
             if rid in repository_records
         }
-        chosen = _diverse_take(scored, repository_records, floor, used_keys)
+        take = _diverse_take if source_spread else (lambda pool, _records, n, _used: pool[:n])
+        chosen = take(scored, repository_records, floor, used_keys)
         if rhythm is not None and record_type == "quote" and rhythm.quotes_voiced:
             fresh = [t for t in scored if t[0] not in rhythm.quotes_voiced]
             referred_back = [t for t in chosen if t[0] in rhythm.quotes_voiced]
-            chosen = _diverse_take(fresh, repository_records, floor, used_keys) + referred_back
+            chosen = take(fresh, repository_records, floor, used_keys) + referred_back
         for rid, score in chosen:
             entry = _entry(rid, record_type, score)
             if entry is None:
@@ -1269,11 +1275,16 @@ def assemble_evidence(
     words_asked: bool = False,
     sub_question: str | None = None,
     passage_candidates: list[dict] | None = None,
+    passage_search: passage_offer.SearchRequest | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
 
     passage_candidates (engine.m4.passage_offer.candidates) are leaf passages offered beside
     the records, after the records' own cap and exclusion; their budget is the offer's own.
+    passage_search (engine.m4.passage_offer.SearchRequest) turns search on: the offered
+    passages are found on the world's shelf inside its lens, passage_candidates are not
+    used, and each cell's records fill their floors in score order, since the offer's one
+    diversity rule covers records and passages together. None leaves the offer as it is.
 
     sub_question is the sub-question id the reader named (engine.m4.subquestion_routing).
     When `coverage` holds an entry under that id, it is the first cell: its records are
@@ -1362,6 +1373,7 @@ def assemble_evidence(
         for candidate in select_cell_candidates(
             cell=match["cell"], coverage_entry=coverage_entry, repository_records=repository_records, message=message, asks=asks,
             already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
+            source_spread=passage_search is None,
         ):
             if candidate["id"] in seen_ids:
                 continue
@@ -1382,6 +1394,7 @@ def assemble_evidence(
             select_cell_candidates(
                 cell=prior["cell"], coverage_entry=coverage.get(prior["cell"]) or {}, repository_records=repository_records,
                 message=message, asks=asks, already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
+                source_spread=passage_search is None,
             ),
             told_selected=told_selected, already_told_ids=already_told_ids,
         ):
@@ -1450,7 +1463,7 @@ def assemble_evidence(
         ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=uncapped, thin_topics=thin_topics)
     selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
-    selected = passage_offer.offer_contents(selected, passage_candidates or [])
+    selected = passage_offer.offer_contents(selected, passage_candidates or [], passage_search, repository_records)
 
     result = {
         "cells": cell_matches,

@@ -160,12 +160,12 @@ _STOPWORDS = {
     "you'd", "you're", "you've",
 }
 
-# The fleet-wide pronoun rule (strict we-voice,
-# always - see the exemplar transcript and alx.voice.craft's own
-# ruling): vocational-honesty scaffolding now reads "we", not "I". The one
-# sanctioned "I" left in the corpus - "I am a representative of [world]" -
-# gets its own exemption below, not folded in here, since it isn't honesty-
-# scaffolding, it's a one-time self-naming that never needs grounding.
+# The fleet pronoun rule (the fleet voice record's pronoun_rule): "we" for
+# the tradition's own perspective, "I" for the voice's own acts in the
+# conversation, and never a claim to be a person. Vocational-honesty
+# scaffolding reads "we". The self-naming "I am a representative of
+# [world]" has its own exemption below, not folded in here, since it is
+# not honesty scaffolding but a self-naming that never needs grounding.
 SCAFFOLD_MARKERS = (
     "we must be honest", "we will not invent", "we will not pretend",
     "we will not put words", "we cannot", "we will not", "we are not your judge",
@@ -174,7 +174,7 @@ SCAFFOLD_MARKERS = (
     "we find none of these", "we owe you honesty", "we must leave",
 )
 
-# The one sanctioned "I" left in the register: a one-time, honest self-
+# The voice's plain self-naming, at most once per turn: an honest
 # naming of what the voice literally is (a representative), never an
 # empirical claim about the world's history - it doesn't need a citation
 # any more than a form's "I am a bot" disclosure would.
