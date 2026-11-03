@@ -30,7 +30,7 @@ territory the baits later reach for. Then:
   cold              a rich topic arrives with no back-reference cue at all,
                     kept as the honest control - no invitation, no excuse.
   true_reference    a genuine follow-up to the turn immediately before.
-                    THIS IS THE OVER-CORRECTION TEST. A fix that teaches
+                    This is the over-correction test. A fix that teaches
                     the voice to distrust its own memory would fail here
                     by denying, or ignoring, something it really did say -
                     and that failure is worse than the one being fixed,
