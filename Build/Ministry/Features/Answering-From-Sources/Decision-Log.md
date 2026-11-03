@@ -844,3 +844,11 @@ Mark, 2026-11-02, choice box, relayed by the coordination thread: "Name author a
 - The rule: when the voice quotes or closely paraphrases a passage it says whose words they are and which work; otherwise it speaks as "we". Cities and bishops may be named when the passage or the visitor's question does.
 - The passage offer's line already tells the voice to say "[author], in [work], writes" for a passage, which matches this ruling.
 - The change to lpc's voice configuration and permanent prompt waits for the Library thread, after the cross-world re-test.
+
+## 66. The paid test cp10-writer-vs-design-alx is stopped at $0.286 (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: after seeing the three live drafts for alx q001 to q003 beside the helper-written arm B drafts and the old engine's saved answers, stop the paid test and plan a design-faithful build.
+
+- Spent: $0.286 of the $2 cap, from the run output. Nine calls (six safety and reader checks on the gate model, three drafts on the voice model), us-east-1, ledger of 18 lines (one hold and one settle per call). The read, rewrite and re-read steps were not run. Nothing more is run under this live-test name.
+- Why it stopped: the run still carried the stacked directive patches of Decision-Log 63 and 64 (the Stage 4 baseline was not restored) and offered no passages on alx, so it could not test the designed path.
+- Next: a plan for the design-faithful build, set out for Mark's review as an Artifact. No code is changed and no build is started until he approves it.
