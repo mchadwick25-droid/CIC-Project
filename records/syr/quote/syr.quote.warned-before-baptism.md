@@ -23,20 +23,22 @@ text: >-
   For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: "He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict".
 modern_rendering: >-
   For this reason it is right for the preachers of the Church, who sound the
-  trumpet, to warn everyone in God's covenant before baptism. They are also to
-  warn those who choose for themselves virginity and holiness: the young men,
-  the virgins, and those wishing to become holy. The preachers are to warn
-  them and say this. If your heart is set on marriage, then marry before your
-  baptism. Otherwise you may fall in the fight and be killed. And if you are
-  afraid of this part of the fight, turn back now, so that you do not break
-  your brothers' hearts along with your own. And if you love your
-  possessions, turn back from the army too. Otherwise, when the battle goes
-  against you, you may remember your possessions and turn back to them. For
-  there is disgrace for the one who turns back from the fight.
+  trumpets, to warn everyone in God's covenant before baptism. It is right
+  also to warn those who choose virginity and holiness for themselves: young
+  men, virgins, and those [wishing to become] holy. It is right for the
+  preachers to warn them, and this is what they should say. "Whoever sets his
+  heart on the natural state of fellowship [that is, in marriage] should be
+  united before baptism. Otherwise, perhaps, he may fall in the fight and be
+  killed. Whoever is afraid of this part of the struggle should turn back.
+  Otherwise, perhaps, he may break the heart of his brothers as well as his
+  own heart. Whoever loves possessions should turn back from the army.
+  Otherwise, perhaps, when the battle goes against him, he may remember his
+  possessions and turn back to them. For there is disgrace for the one who
+  turns back from the fight."
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
-  The people warned here are old enough to choose for themselves. The preachers tell the candidates before baptism that anyone who wants marriage should marry first, anyone afraid should turn back now, and anyone attached to possessions should leave the army. Baptism is described as enlisting, and the passage draws on Gideon sending the fearful home. The decisive moment is a public choice, with its cost stated in advance and a way out offered. That is nearer to taking vows than to a modern conversion experience. The passage does not say whether infants were also baptised.
+  The people warned here are old enough to choose for themselves. The preachers tell the candidates before baptism that anyone who wants marriage should marry first, anyone afraid should turn back, and anyone attached to possessions should leave the army. Baptism is described as enlisting, and the passage draws on Gideon sending the fearful home. The decisive moment is a public choice, with its cost stated in advance and a way out offered. That is nearer to taking vows than to a modern conversion experience. The passage does not say whether infants were also baptised.
 retrieval:
   tier: 1
   retrieve_when:
