@@ -1373,9 +1373,8 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
     ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
-    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit b9ad408c):
-    # the original rzg example was cleaned by that effort. Re-pinned to a
-    # stable Build/reference/ example.
+    # Provenance lines in Build/worlds/ construction documents. A cleanup pass over the owning world
+    # removes such a line; when one stops matching, replace its row with a current line of the same kind.
     ("Build/worlds/gallic/gallic_Doc04_Gravity_Discovery.md", 5, "REWRITE"),
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside CiC_W7_Decision_Log.md, a per-world decision log
@@ -1397,22 +1396,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 1754 sits inside this file's own "## 12. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "PROTECTED"),
-    # Refreshed 2026-09-26 (Phase 3b: cic/engine/ + cic-poc/frontend
-    # cleanup, commits 11ee5a81 and the earlier f1e1e093): all 7 samples
-    # below (6 cic/engine, 1 cic-poc/frontend) were cleaned and stopped
-    # matching. Moved to fresh records/ examples, not yet touched by the
-    # cleanup program, to keep this table at >=60 real, currently-matching
-    # lines.
-    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): all 7 samples below were cleaned by that
-    # effort and stopped matching. Moved to fresh Build/reference/
-    # examples, a surface not part of any active or near-term cleanup
-    # pass, to keep this table stable and at >=60 real, currently-
-    # matching lines.
     ("Build/worlds/gallic/gallic_Doc05_Ecological_Reconstruction.md", 5, "REWRITE"),
     ("Build/worlds/gallic/gallic_Representative_Identity_Preliminary_Decision.md", 16, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
-    ("Build/worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md", 73, "REWRITE"),
+    ("Build/worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md", 73, "ROUTE"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
@@ -1437,13 +1424,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
-    # Refreshed 2026-09-27 (pahc hoarder-house narrative cleanup): the
-    # original pahc World_Profile.md:81 example ("Supporting (reclassified
-    # down from an initial Primary candidacy during Doc_04 construction,
-    # round 1)") was cleaned by that pass - the round-number wrapper was
-    # cut since the same cell's own Cross-Check flag column already states
-    # the substantive reason. Re-pinned to a stable Build/reference/
-    # example not yet touched by any cleanup pass.
     ("Build/worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md", 8, "REWRITE"),
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
@@ -1465,13 +1445,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 138, "KEEP"),
-    # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
-    # file's lines by +7 above this point; re-pinned to the same
-    # r27_regenerated assertion, now at 1131.
-    # Refreshed 2026-10-03: the docstring rewording in commit 30550bec
-    # stopped this line matching. Re-pinned to a "Drafted ... commit" line
-    # in a historical decision log under Build/reference/, a surface edited
-    # rarely and not part of any cleanup pass.
     ("Build/worlds/pahc/CiC_W1_Representative_Identity_Preliminary_Decision.md", 31, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
@@ -1493,36 +1466,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("fixtures/seeded_defects.yaml", 249, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
-    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
-    # was cleaned as part of that effort. Re-pinned to a stable
-    # Build/reference/ example.
-    # Refreshed 2026-09-25 (fleet-checks-widening PR): the original
-    # fix.craft.vera-voice.md:29 "REVISED 2026-09-19" line was itself
-    # cleaned as part of that PR (the file's `guard` field was rewritten
-    # for FK/FRE, which obligated removing the file's own pre-existing
-    # commentary too, per CLAUDE.md's "any PR that edits a live file also
-    # removes the commentary already in it"). Re-pinned to a fresh
-    # gravity-classification-label hit, not yet touched by any re-voicing
-    # PR.
-    # Refreshed 2026-10-03: the alx tag strip (commit 468d97ff) cleaned this
-    # line. Re-pinned to the same decision log as the row above.
     ("Build/worlds/rzg/rzg_Representative_Identity_Preliminary_Decision.md", 45, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 23, "PROTECTED"),
-    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
-    # line was cleaned as part of that effort. Re-pinned to a stable
-    # Build/reference/ example.
     ("Build/worlds/rzg/rzg_World_Profile.md", 23, "REWRITE"),
-    # Refreshed 2026-09-25 (Live-Surface-Cleanup Step 4/Item A prep): the
-    # original alx.figure.didymus.md:48 line was cleaned by PR #509 and
-    # stopped matching.
-    # Refreshed again 2026-09-26 (Phase 3b records/ cleanup, commits
-    # 0cbe76d5..30b1cb93): the re-pinned
-    # cappadocian.contested.agennetos-transmission.md:27 line was itself
-    # cleaned by that effort. Re-pinned to a stable Build/reference/
-    # example.
-    ("Build/worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md", 7, "REWRITE"),
+    ("Build/worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md", 7, "ROUTE"),
     ("Build/worlds/rzg/rzg_Representative_Ecology_Assessment_Theophilus.md", 7, "REWRITE"),
     # Hand label KEEP: "reviewer" here is generic instructional/methodology
     # prose (what a hypothetical reviewer of OTHER content would miss),
@@ -1531,7 +1478,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # PR body's precision limitation note (Build/reference/Project-Reference/
     # CiC_Cleaning_Pattern_Log.md and Build/reference/L4-Templates/*).
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 151, "KEEP"),
-    ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md", 3, "REWRITE"),
+    ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 5, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),

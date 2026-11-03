@@ -2234,3 +2234,10 @@ The removed items are quoted in full in the group sections above. Two are settle
 - Dated measurements kept at month level: Table_Process "Re-tested in July 2026"; lean validation "August 2026 live Deep-Interview sweep"; fleet order "frozen in July 2026". The length-ceiling memo's branch line is back as `retry-cost-investigation-*`.
 - `VR_1A_Representative_Voice_Design`: "The closing judgment, adopted". `VR_1A_Conversation_Palette`: "the same day as the first".
 - Removed from `CiC_OneDocAtATime_Build_Protocol_2026-07-06.md` line 5 summary paragraph and not logged before: the statement that world- and system-level testing "hasn't happened for any document in either world yet"; the word "thread-local" in "build output written to thread-local scratch paths"; the change-order citations CO-021 and CO-022.
+
+### CL3b (move of the Pipeline Decision Log; filings of CL3's open items)
+
+- `CiC_Pipeline_Decision_Log.md` moved from `Build/reference/L2C-System-Status/` to `Build/Ministry/Operations/Standing/` (see `CiC_Repo_Structure_Tracking.md`, 2026-11-03). This closes the "Held" item for that file above.
+- Open items from CL3 are filed: the homepage card clamp in `Build/worlds/pahc/Open_Gaps_Tracking.md` (OG-45); the other four in `CiC_Cross_System_Analysis_Tracking.md` (the governance gaps of `CiC_V7_Upgrade_Reference.md`, the unreviewed Paul of Samosata entry, the cross-session identity limit recorded as a known limit, and the undecided name for closure).
+- A pointer to a temporary scratch file was removed from the CL3 entry above ("The full original text is also saved at ..."); the text it pointed to is quoted in full in that entry.
+- Scanner sample table: `tools/tests/test_check_live_commentary.py` rows pointing at lines the cleanup removed or moved are replaced; two replaced rows are labelled ROUTE (an open testing gap and an unreviewed-draft statement), and the comments above the replaced rows are rewritten to match.
