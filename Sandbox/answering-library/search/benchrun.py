@@ -1,4 +1,4 @@
-"""Re-run the S1-05 retrieval bench (visitor wording) four ways inside the lens, and score each method against the others.
+"""Score retrieval of the passages a record cites, from the visitor's wording, four ways inside the lens, and test each method against the others.
 
   python -m search.benchrun --world lpc --db DB.sqlite --models DIR --vectors DIR --out RESULT.json
 
@@ -68,7 +68,7 @@ def run(world: str, db: Path, models: Path, vectors_root: Path, progress=print) 
     embedder = BgeSmallEmbedder(models / "bge-small-en-v1.5.onnx", models / "bge-small-en-v1.5.tokenizer.json")
     reranker = MiniLMReranker(models / "minilm-l6-msmarco.onnx", models / "minilm-l6-msmarco.tokenizer.json")
     search = Search(db, world, embedder=embedder, reranker=reranker)
-    folder = VectorStore.folder_for(vectors_root, db, world, embedder.model_id)
+    folder = VectorStore.folder_for(vectors_root, db, world, embedder.model_id, search.lens)
     store = VectorStore.load(folder)
     if store is None:
         started = time.monotonic()
@@ -114,7 +114,7 @@ def run(world: str, db: Path, models: Path, vectors_root: Path, progress=print) 
 
 
 def _unlensed(db: Path, wording: str, world: str) -> list[int]:
-    """The old file-level-shelf keyword ranking (index.bench.ranked), as internal ids: the reference line, not a method."""
+    """The file-level-shelf keyword ranking (index.bench.ranked) as internal ids, kept as a reference line and not scored as a method."""
     ids = old.ranked(db, wording, world)
     if not ids:
         return []
@@ -127,16 +127,27 @@ def _unlensed(db: Path, wording: str, world: str) -> list[int]:
 
 
 def summarise(cases: list[dict]) -> dict:
-    total = len(cases)
-    hits = {m: {k: sum(1 for c in cases if c["rank"][m] is not None and c["rank"][m] <= k) for k in KS} for m in METHODS}
+    """Case counts, and the paired tests at the level of the query. Every record cited for a sub-question shares one ranking
+    for one wording, so the cases of one query are not independent; a query counts as a hit when any of its cases is a hit."""
+    queries: dict[tuple, dict] = {}
+    for case in cases:
+        unit = queries.setdefault((case["cell"], case["wording_id"]), {m: None for m in METHODS})
+        for method in METHODS:
+            rank = case["rank"][method]
+            if rank is not None and (unit[method] is None or rank < unit[method]):
+                unit[method] = rank
+    units = [{"rank": ranks} for ranks in queries.values()]
+    hits = {m: {k: sum(1 for c in cases if _hit(c, m, k)) for k in KS} for m in METHODS}
+    query_hits = {m: {k: sum(1 for u in units if _hit(u, m, k)) for k in KS} for m in METHODS}
     paired = {}
     for a, b in PAIRS:
         for k in KS:
-            wins = sum(1 for c in cases if _hit(c, a, k) and not _hit(c, b, k))
-            losses = sum(1 for c in cases if _hit(c, b, k) and not _hit(c, a, k))
+            wins = sum(1 for u in units if _hit(u, a, k) and not _hit(u, b, k))
+            losses = sum(1 for u in units if _hit(u, b, k) and not _hit(u, a, k))
             p = sign_test_p(wins, losses)
             paired[f"{a} vs {b} @{k}"] = {"wins": wins, "losses": losses, "p": p, "better_at_99": wins > losses and p < ALPHA}
-    return {"total_cases": total, "gold_in_lens": sum(1 for c in cases if c["gold_in_lens"]), "hits": hits, "paired": paired}
+    return {"total_cases": len(cases), "gold_in_lens": sum(1 for c in cases if c["gold_in_lens"]), "hits": hits,
+            "total_queries": len(units), "query_hits": query_hits, "paired_at_query_level": paired}
 
 
 def _hit(case: dict, method: str, k: int) -> bool:

@@ -74,7 +74,11 @@ def _search(tmp_path, world):
 def test_lens_is_the_division_test_over_the_worlds_own_rows(tmp_path):
     db = _fixture(tmp_path)
     # wa: a_file passages 1 and 2 (one row), e_file passage 1 (one of two rows claims it); not Latin, apparatus, d_file (two claim), c_file (none claims)
-    assert len(lens.lens_ids(db, ROWS["wa"])) == 3
+    ids = lens.lens_ids(db, ROWS["wa"])
+    assert len(ids) == 3
+    sqlite = __import__("sqlite3").connect(db)
+    got = {r[0] for r in sqlite.execute(f"SELECT passage_id FROM passages WHERE id IN ({','.join(map(str, ids))})")}
+    assert got == {"a_file.txt:1", "a_file.txt:2", "e_file.txt:1"}
     assert len(lens.lens_ids(db, ROWS["wb"])) == 2
     assert len(lens.lens_ids(db, ROWS["wa"], window_rows=["wa.1"])) == 2
     assert lens.lens_ids(db, ROWS["wa"], window_rows=["wa.9"]) == []
@@ -95,9 +99,15 @@ def test_a_query_matching_only_world_b_returns_nothing_for_world_a_by_every_meth
 
 def test_a_seed_outside_the_lens_is_dropped_and_a_seed_inside_is_rank_help(tmp_path):
     a = _search(tmp_path, "wa")
-    inside = a.lens[0]
-    assert a.fused("catechumens baptism", seeds=[10_000]) == a.fused("catechumens baptism")
-    assert inside in a.fused("feast martyrs", seeds=[inside])
+    b = _search(tmp_path, "wb")
+    outside = b.lens[0]
+    assert outside not in a.lens
+    assert a.fused("catechumens baptism", seeds=[outside]) == a.fused("catechumens baptism")
+    assert outside not in a.fused("catechumens baptism", seeds=[outside])
+    seed = a.lens[-1]
+    plain = a.fused("catechumens baptism")
+    assert plain.index(seed) > 0
+    assert a.fused("catechumens baptism", seeds=[seed]).index(seed) < plain.index(seed)
 
 
 def test_windows_cover_a_long_passage_without_cutting_it():
@@ -109,6 +119,8 @@ def test_windows_cover_a_long_passage_without_cutting_it():
 def test_rrf_rewards_agreement_and_rerank_ties_prefer_seeds():
     assert set(fuse.reciprocal_rank_fusion([[1, 2, 3], [3, 2, 9]])[:2]) == {2, 3}
     assert fuse.reciprocal_rank_fusion([[1, 2], [2, 1]]) == [1, 2]
+    assert fuse.reciprocal_rank_fusion([[5], [], [9]], seeds={9}) == [9, 5]
+    assert fuse.reciprocal_rank_fusion([[5], [], [9]]) == [5, 9]
     assert fuse.rerank([5, 6, 7], lambda ids: [1.0, 1.0, 0.5], 3, seeds={6}) == [6, 5, 7]
     assert fuse.rerank([5, 6, 7, 8], lambda ids: [0.1, 0.9], 2) == [6, 5, 7, 8]
 
@@ -117,3 +129,49 @@ def test_sign_test_matches_the_binomial():
     assert sign_test_p(0, 0) == 1.0
     assert math.isclose(sign_test_p(10, 0), 2 / 1024)
     assert sign_test_p(30, 10) < 0.01 and sign_test_p(12, 8) > 0.5
+
+
+class LengthReranker:
+    """A test reranker that prefers the passage holding a marker word, whatever its length."""
+
+    def count_tokens(self, text):
+        return len(text.split())
+
+    def score(self, query, texts):
+        return [1.0 if "feast" in t else 0.0 for t in texts]
+
+
+def test_fused_with_a_reranker_orders_by_its_score_and_a_seed_wins_an_equal_score(tmp_path):
+    a = _search(tmp_path, "wa")
+    a.reranker = LengthReranker()
+    ranking = a.fused("bishop catechumens baptism feast martyrs")
+    feast = a.texts(ranking).index(SHARED)
+    assert feast == 0
+    unscored = [i for i in a.lens if a.texts([i])[0] != SHARED]
+    first, second = unscored[0], unscored[1]
+    out = a.fused("bishop catechumens baptism feast martyrs", seeds=[second])
+    assert out.index(second) < out.index(first)
+
+
+def test_windows_never_exceed_the_token_limit_and_keep_every_word():
+    text = " ".join(f"w{i}" for i in range(500))
+    parts = windows(text, count_tokens=lambda t: len(t.split()) * 3, limit=90)
+    assert all(len(p.split()) * 3 <= 90 for p in parts)
+    assert " ".join(parts).split() == text.split()
+
+
+def test_vectors_are_kept_apart_for_different_lenses(tmp_path):
+    db = _fixture(tmp_path)
+    one = VectorStore.folder_for(tmp_path, db, "wa", "m", [1, 2])
+    two = VectorStore.folder_for(tmp_path, db, "wa", "m", [1, 2, 3])
+    assert one != two and one == VectorStore.folder_for(tmp_path, db, "wa", "m", [1, 2])
+
+
+def test_query_level_pairing_counts_one_query_once():
+    from search.benchrun import summarise
+    ranks = lambda kw, me: {"keyword_unlensed": None, "keyword": kw, "meaning": me, "fused": me, "fused_seeds": me}
+    cases = [{"cell": "c", "wording_id": "q", "gold_in_lens": True, "rank": ranks(None, 3)} for _ in range(3)]
+    result = summarise(cases)
+    assert result["total_cases"] == 3 and result["total_queries"] == 1
+    assert result["hits"]["meaning"][5] == 3 and result["query_hits"]["meaning"][5] == 1
+    assert result["paired_at_query_level"]["meaning vs keyword @5"]["wins"] == 1

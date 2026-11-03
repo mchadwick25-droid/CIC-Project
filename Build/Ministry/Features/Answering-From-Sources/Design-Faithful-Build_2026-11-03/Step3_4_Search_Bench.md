@@ -1,5 +1,15 @@
 # Steps 3 and 4: search build, retrieval bench, known misses (2026-11-03)
 
+## Status: the figures below are not final
+Every count and sign test below comes from the run made before the Opus review of #1465. The review found five defects, all fixed in the code but not re-measured:
+- The sign test below pairs cases; one query's cases share one ranking, so they are not independent. The code now pairs at the query level. The "better" verdicts below are withdrawn.
+- 29 of 30,748 lpc windows and 1,215 of 17,092 lpc passages ran past the 512-token model limit and were cut for the embedder and the reranker. The code now windows by tokens and the reranker scores the best window.
+- The saved vectors were keyed without the lens. They are now keyed by a hash of the lens ids.
+- Reviewed seeds did not win ties in the fusion. They now do.
+- Four tests were too weak. They are strengthened (10 search tests pass).
+
+The corrected re-run did not finish, so there are no final per-question counts. The saved outputs of the run these tables come from are in `Bench_Results/` (`bench_lpc.json`, `bench_rzg.json`, `known_misses.json`). A first run on a lens that was too wide (the whole English shelf) was discarded and is not saved.
+
 No model call and no spend. The embedder is BAAI/bge-small-en-v1.5 (MIT licence) and the reranker is cross-encoder/ms-marco-MiniLM-L-6-v2 (Apache-2.0 licence), both run locally on onnxruntime. The code is in `Sandbox/answering-library/search/`, outside the hashed `index/` set; no index stamp changed. Indexes were rebuilt from `cic/texts` with no context lines (none exist without a model run), so every keyword figure is the plain-text baseline.
 
 ## Lens basis
@@ -26,7 +36,7 @@ Cases are (sub-question, wording, cited record) with the record's cited passages
 
 rzg has 27 of its 50 cases with a cited passage inside the lens. The count of lpc cases (625) is the wording condition only and differs from the 535 in the brief; the cause is not established.
 
-Paired cases, wins and losses of the first method, exact two-sided sign test, 99% line (p < 0.01). Only pairs that pass the line are better:
+Paired cases, wins and losses of the first method, exact two-sided sign test, 99% line (p < 0.01), as run before the query-level correction (not final):
 
 | lpc pair | top 5 | top 10 | top 20 |
 |---|---|---|---|
@@ -37,7 +47,7 @@ Paired cases, wins and losses of the first method, exact two-sided sign test, 99
 
 rzg: every pair has at most 1 win and 0 losses; none can reach the line with 50 cases.
 
-Reading: meaning search lifts reach past the 99% line at top 20 on lpc, and not at top 5 or 10. Fusing with reranking does not beat meaning alone on lpc. Seeds change 4 cases at top 20 on lpc and do not reach the line. The seeds come from the same coverage maps as the cited passages, so the seeds column is not independent.
+Reading, before the corrections above: meaning search ranks above keyword on lpc at every depth, and the case-level test passed the 99% line at top 20 only. That verdict is withdrawn until the query-level test is run. Fusing with reranking did not beat meaning alone on lpc. Seeds change 4 cases at top 20 on lpc and do not reach the line. The seeds come from the same coverage maps as the cited passages, so the seeds column is not independent.
 
 ## Step 4: known misses, lpc, from the visitor's words (existence checks)
 | check | question | gold passages (in lens) | keyword | meaning | fused | fused with seeds |
@@ -51,4 +61,4 @@ Reading: meaning search lifts reach past the 99% line at top 20 on lpc, and not 
 Cells show the best rank of a gold passage. In the top 10: XXII.8 for q099 and q100 (meaning, fused, fused with seeds, not keyword); XXI.17 for q029 (fused, fused with seeds). Not in the top 10 by any method: Letter 47.5 and the q101 quote. Only 1 of the q101 quote's 4 gold passages is inside the lens.
 
 ## Checks
-`search/tests`: 6 pass, including the two-world test (a query matching only world B's passage returns nothing for world A by keyword, meaning, fused and fused with seeds). `engine/m4/tests/test_passage_offer.py`: 16 pass with the new offer seam. Four `index/tests` fail with and without these changes because `boto3` and `anthropic` are not installed here.
+`search/tests`: 10 pass, including the two-world test (a query matching only world B's passage returns nothing for world A by keyword, meaning, fused and fused with seeds). `engine/m4/tests/test_passage_offer.py`: 16 pass with the new offer seam. Four `index/tests` fail with and without these changes because `boto3` and `anthropic` are not installed here.

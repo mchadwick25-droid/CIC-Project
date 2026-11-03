@@ -106,7 +106,7 @@ def interleave(records: list[dict], passages: list[dict]) -> list[dict]:
 
 
 def offer_contents(records: list[dict], passages: list[dict]) -> list[dict]:
-    """What the offer holds: the single place that decides it, so a later rule (records first with search on a missing or partial record, a stored-answer match) is added here and nowhere else."""
+    """What the offer holds: the records and the passages interleaved by rank. This is the one place that decides the offer's contents."""
     return interleave(records, passages)
 
 

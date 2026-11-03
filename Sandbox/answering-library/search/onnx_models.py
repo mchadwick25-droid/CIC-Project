@@ -49,6 +49,9 @@ class BgeSmallEmbedder:
         result[order] = matrix
         return result.tolist()
 
+    def count_tokens(self, text: str) -> int:
+        return len(self._tok.encode(text, add_special_tokens=True).ids)
+
     def embed_passages(self, texts: Sequence[str]) -> list[list[float]]:
         return self._embed(list(texts))
 
@@ -68,9 +71,22 @@ class MiniLMReranker:
         self._tok.enable_truncation(MAX_TOKENS)
         self._tok.enable_padding()
 
+    def count_tokens(self, text: str) -> int:
+        return len(self._tok.encode(text, add_special_tokens=True).ids)
+
     def score(self, query: str, texts: Sequence[str]) -> list[float]:
-        scores: list[float] = []
-        for start in range(0, len(texts), self.batch):
-            encodings = self._tok.encode_batch([(query, t) for t in texts[start:start + self.batch]])
-            scores += self._session.run(None, _feed(self._session, encodings))[0][:, 0].tolist()
+        """One relevance score per text: the best score over the text's windows, each short enough for the model's input
+        together with the query, so no part of a passage goes unread."""
+        from .meaning import windows
+
+        room = MAX_TOKENS - self.count_tokens(query) - 4
+        pairs: list[tuple[int, str]] = []
+        for index, text in enumerate(texts):
+            pairs += [(index, part) for part in windows(text, self.count_tokens, room)]
+        scores = [-1e9] * len(texts)
+        for start in range(0, len(pairs), self.batch):
+            chunk = pairs[start:start + self.batch]
+            encodings = self._tok.encode_batch([(query, part) for _, part in chunk])
+            for (index, _), value in zip(chunk, self._session.run(None, _feed(self._session, encodings))[0][:, 0].tolist()):
+                scores[index] = max(scores[index], value)
         return scores

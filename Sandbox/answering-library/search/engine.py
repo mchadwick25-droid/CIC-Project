@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Sequence
 
-from . import fuse, keyword, lens
+from . import fuse, fulltext, lens
 from .meaning import VectorStore
 
 CANDIDATES = 100
@@ -43,7 +43,7 @@ class Search:
     def keyword(self, query: str, depth: int = CANDIDATES) -> list[int]:
         key = ("keyword", query, depth)
         if key not in self._cache:
-            self._cache[key] = keyword.rank(self.db_path, query, self.lens, depth)
+            self._cache[key] = fulltext.rank(self.db_path, query, self.lens, depth)
         return self._cache[key]
 
     def meaning(self, query: str, depth: int = CANDIDATES) -> list[int]:
@@ -59,7 +59,7 @@ class Search:
         seeds = [s for s in seeds if s in self._lens_set]
         if seeds:
             rankings.append(seeds)
-        merged = fuse.reciprocal_rank_fusion(rankings)
+        merged = fuse.reciprocal_rank_fusion(rankings, seeds=set(seeds))
         if self.reranker is None:
             return merged
         return fuse.rerank(merged, lambda ids: self.reranker.score(query, self.texts(ids)), RERANK_KEEP, seeds)

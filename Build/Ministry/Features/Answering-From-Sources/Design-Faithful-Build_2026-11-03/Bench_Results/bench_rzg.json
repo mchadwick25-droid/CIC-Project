@@ -1,0 +1,762 @@
+{
+ "world": "rzg",
+ "cases": [
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-10",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-12",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-26",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-02",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-03",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": 90,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-20",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-26",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "R-12",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-12",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-21",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-22",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-24",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "R-08",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "C2-05",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "C2-16",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "C2-18",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "R-35",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "R-36",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S3",
+   "wording_id": "C4-03",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S3",
+   "wording_id": "C4-09",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S3",
+   "wording_id": "C4-10",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S3",
+   "wording_id": "C4-17",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S3",
+   "wording_id": "C4-21",
+   "record_id": "rzg.quote.christ-the-mirror-of-election",
+   "gold_in_lens": false,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-02",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 23
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-04",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 26
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-07",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 28
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-16",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 28
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-27",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 29
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-30",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-31",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 14
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "C5-13",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "C5-17",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "C5-24",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "R-27",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "R-28",
+   "record_id": "rzg.quote.taught-better-from-scripture",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 34,
+    "fused": 65,
+    "fused_seeds": 65
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 60,
+    "fused": 116,
+    "fused_seeds": 117
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 50,
+    "keyword": 47,
+    "meaning": 8,
+    "fused": 10,
+    "fused_seeds": 10
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 34,
+    "fused": 67,
+    "fused_seeds": 68
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "rzg.quote.seniors-selected-from-the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 28,
+    "fused": 55,
+    "fused_seeds": 55
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-06",
+   "record_id": "rzg.quote.zwinglis-last-words",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-08",
+   "record_id": "rzg.quote.zwinglis-last-words",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-16",
+   "record_id": "rzg.quote.zwinglis-last-words",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-17",
+   "record_id": "rzg.quote.zwinglis-last-words",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-21",
+   "record_id": "rzg.quote.zwinglis-last-words",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  }
+ ],
+ "lens_passages": 22004,
+ "windows": 34251,
+ "summary": {
+  "total_cases": 50,
+  "gold_in_lens": 27,
+  "hits": {
+   "keyword_unlensed": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "keyword": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "meaning": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "fused": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "fused_seeds": {
+    "5": 0,
+    "10": 1,
+    "20": 2
+   }
+  },
+  "paired": {
+   "meaning vs keyword @5": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "meaning vs keyword @10": {
+    "wins": 1,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "meaning vs keyword @20": {
+    "wins": 1,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs keyword @5": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs keyword @10": {
+    "wins": 1,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs keyword @20": {
+    "wins": 1,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs meaning @5": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs meaning @10": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs meaning @20": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused_seeds vs fused @5": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused_seeds vs fused @10": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused_seeds vs fused @20": {
+    "wins": 1,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   }
+  }
+ }
+}

@@ -1,4 +1,4 @@
-"""Step 4: the known retrieval misses, as existence checks from the visitor's own words (lpc). Not a rate.
+"""Existence checks for passages a question should reach, from the visitor's own words (lpc). Each check reports found or not found in the top 10 by each method; it is not a rate.
 
   python -m search.known_misses --db DB.sqlite --models DIR --vectors DIR --out RESULT.json
 """
@@ -16,7 +16,13 @@ from .engine import Search
 from .meaning import VectorStore
 from .onnx_models import BgeSmallEmbedder, MiniLMReranker
 
-QUESTIONS = REPO_ROOT / "Build/Ministry/Features/Answering-From-Sources/Cross-World-Test_2026-11-02/lpc-runs/analysis/routing_items.json"
+WORDING = {
+    "q029": "Did Origen really teach that everyone would be saved, and was he condemned for it?",
+    "q099": "Did you see miracles yourself, or only hear of them?",
+    "q100": "Be honest: were the miracle stories true, or were they how you talked?",
+    "q101": "In your time, was it thought right for a father to beat his son if he did it out of love?",
+    "q102": "Did Augustine say a Christian should never defend himself?",
+}
 ARTICLE = "npnf102_augustine-city-of-god-christian-doctrine.xml"
 LETTERS = "npnf101_augustine-confessions-letters.xml"
 TOP = 10
@@ -52,16 +58,15 @@ def main(argv=None) -> int:
     embedder = BgeSmallEmbedder(args.models / "bge-small-en-v1.5.onnx", args.models / "bge-small-en-v1.5.tokenizer.json")
     reranker = MiniLMReranker(args.models / "minilm-l6-msmarco.onnx", args.models / "minilm-l6-msmarco.tokenizer.json")
     search = Search(args.db, "lpc", embedder=embedder, reranker=reranker)
-    search.store = VectorStore.load(VectorStore.folder_for(args.vectors, args.db, "lpc", embedder.model_id))
+    search.store = VectorStore.load(VectorStore.folder_for(args.vectors, args.db, "lpc", embedder.model_id, search.lens))
     if search.store is None:
         raise SystemExit("no vectors for this index; run search.benchrun first")
     seeds = seed_ids(args.db, "lpc")
-    wording = {q["id"]: q["question"] for q in json.loads(QUESTIONS.read_text(encoding="utf-8"))}
     connection = sqlite3.connect(args.db)
     results = []
     lens = set(search.lens)
     for check in checks(connection):
-        text = wording[check["question"]]
+        text = WORDING[check["question"]]
         rankings = {"keyword": search.keyword(text), "meaning": search.meaning(text), "fused": search.fused(text),
                     "fused_seeds": search.fused(text, seeds.get(check["cell"], ()))}
         ranks = {m: best_rank(r, check["gold"]) for m, r in rankings.items()}

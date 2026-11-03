@@ -1,0 +1,97 @@
+[
+ {
+  "name": "Letter 47.5 (Augustine to Publicola)",
+  "question": "q102",
+  "words": "Did Augustine say a Christian should never defend himself?",
+  "gold_passages": 1,
+  "gold_in_lens": 1,
+  "rank": {
+   "keyword": null,
+   "meaning": 13,
+   "fused": 23,
+   "fused_seeds": 32
+  },
+  "in_top_10": {
+   "keyword": false,
+   "meaning": false,
+   "fused": false,
+   "fused_seeds": false
+  }
+ },
+ {
+  "name": "City of God XXII.8 (miracles)",
+  "question": "q099",
+  "words": "Did you see miracles yourself, or only hear of them?",
+  "gold_passages": 23,
+  "gold_in_lens": 23,
+  "rank": {
+   "keyword": 38,
+   "meaning": 2,
+   "fused": 1,
+   "fused_seeds": 1
+  },
+  "in_top_10": {
+   "keyword": false,
+   "meaning": true,
+   "fused": true,
+   "fused_seeds": true
+  }
+ },
+ {
+  "name": "City of God XXII.8 (miracles)",
+  "question": "q100",
+  "words": "Be honest: were the miracle stories true, or were they how you talked?",
+  "gold_passages": 23,
+  "gold_in_lens": 23,
+  "rank": {
+   "keyword": 12,
+   "meaning": 4,
+   "fused": 4,
+   "fused_seeds": 5
+  },
+  "in_top_10": {
+   "keyword": false,
+   "meaning": true,
+   "fused": true,
+   "fused_seeds": true
+  }
+ },
+ {
+  "name": "City of God XXI.17 (Origen)",
+  "question": "q029",
+  "words": "Did Origen really teach that everyone would be saved, and was he condemned for it?",
+  "gold_passages": 2,
+  "gold_in_lens": 2,
+  "rank": {
+   "keyword": 21,
+   "meaning": 16,
+   "fused": 2,
+   "fused_seeds": 2
+  },
+  "in_top_10": {
+   "keyword": false,
+   "meaning": false,
+   "fused": true,
+   "fused_seeds": true
+  }
+ },
+ {
+  "name": "q101 quote: love-and-do-what-thou-wilt",
+  "question": "q101",
+  "words": "In your time, was it thought right for a father to beat his son if he did it out of love?",
+  "gold_passages": 4,
+  "gold_in_lens": 1,
+  "rank": {
+   "keyword": null,
+   "meaning": 83,
+   "fused": 164,
+   "fused_seeds": 164
+  },
+  "in_top_10": {
+   "keyword": false,
+   "meaning": false,
+   "fused": false,
+   "fused_seeds": false
+  }
+ }
+]

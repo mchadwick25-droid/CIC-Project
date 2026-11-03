@@ -4,6 +4,7 @@ A passage longer than WINDOW_WORDS is embedded as several windows and scores as 
 is cut off by the model's input limit. Vectors are kept outside the index file, in a folder named by the index version
 and the embedder, so a rebuilt index or another model never reads stale vectors.
 """
+import hashlib
 import json
 import sqlite3
 from pathlib import Path
@@ -12,11 +13,25 @@ from typing import Sequence
 import numpy as np
 
 WINDOW_WORDS = 220
+MAX_TOKENS = 500
 
 
-def windows(text: str, size: int = WINDOW_WORDS) -> list[str]:
+def _fit(words: list[str], count_tokens, limit: int) -> list[str]:
+    chunk = " ".join(words)
+    if len(words) <= 1 or count_tokens(chunk) <= limit:
+        return [chunk]
+    middle = len(words) // 2
+    return _fit(words[:middle], count_tokens, limit) + _fit(words[middle:], count_tokens, limit)
+
+
+def windows(text: str, count_tokens=None, limit: int = MAX_TOKENS, size: int = WINDOW_WORDS) -> list[str]:
+    """The text in windows of at most `size` words and, when a token counter is given, at most `limit` tokens, so the model
+    never cuts a window short. Every word of the text is in exactly one window."""
     words = text.split()
-    return [" ".join(words[i:i + size]) for i in range(0, max(len(words), 1), size)]
+    chunks = [words[i:i + size] for i in range(0, max(len(words), 1), size)]
+    if count_tokens is None:
+        return [" ".join(c) for c in chunks]
+    return [part for c in chunks for part in _fit(c, count_tokens, limit)]
 
 
 class VectorStore:
@@ -24,13 +39,15 @@ class VectorStore:
         self.folder, self.vectors, self.owners = folder, vectors, owners
 
     @classmethod
-    def folder_for(cls, root: Path, db_path: Path, world: str, model_id: str) -> Path:
+    def folder_for(cls, root: Path, db_path: Path, world: str, model_id: str, lens: Sequence[int]) -> Path:
+        """Named by the index version, the model and the lens: another lens, index or model never reads these vectors."""
         connection = sqlite3.connect(db_path)
         try:
             version = connection.execute("SELECT value FROM meta WHERE key = 'version'").fetchone()[0]
         finally:
             connection.close()
-        return root / world / f"{version[:16]}-{model_id}"
+        lens_hash = hashlib.sha256(",".join(map(str, lens)).encode()).hexdigest()[:12]
+        return root / world / f"{version[:16]}-{model_id}-{lens_hash}"
 
     @classmethod
     def build(cls, folder: Path, db_path: Path, lens: Sequence[int], embedder, progress=None) -> "VectorStore":
@@ -42,7 +59,7 @@ class VectorStore:
                 chunk = list(lens[start:start + 900])
                 for pid, text in connection.execute(
                         f"SELECT id, text FROM passages WHERE id IN ({','.join('?' * len(chunk))}) ORDER BY id", chunk):
-                    for part in windows(text):
+                    for part in windows(text, getattr(embedder, "count_tokens", None)):
                         texts.append(part)
                         owners.append(pid)
         finally:
