@@ -26,7 +26,7 @@ The code it ran:
 - `main` at `ddabd865` plus commits that change only the run driver. The per-world commits are alx `c7a64ffd`, pahc `3c69d7bf` and syr `045a70b9`; the shape hash is `sha256:4b285d56…`.
 - `git diff ddabd865 c869dd86 -- engine records` is empty. So the engine and records that produced A are byte-identical to the `live` head now in production (c869dd86, promotion #1264, 2026-10-28).
 
-Where its files are: branch `claude/fleet-run-1-analysis`, in `engine/m3/reports/fleet-graded-run-1/`.
+Where its files are: on branch `claude/fleet-run-1-analysis` only (not on `main`), in the run's report folder `fleet-graded-run-1/` under the engine's m3 reports.
 - `<world>.json` holds, for each probe: the draft, the shipped `answer_text`, citations, token usage, `seconds_to_first_text`, `seconds_total` and the stop reason.
 - `ledger-<world>.jsonl` holds the priced cost of each call. By world: alx $0.686, pahc $0.659, syr $0.655, about $0.024 per answer.
 

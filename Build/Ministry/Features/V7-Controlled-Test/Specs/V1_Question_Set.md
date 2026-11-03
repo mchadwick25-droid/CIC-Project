@@ -12,7 +12,7 @@
   - the offered record ids, parsed from the run's `request` field
   - usage, `seconds_to_first_text`, `seconds_total`, stop reason, priced cost
 
-  Each line is copied from `engine/m3/reports/fleet-graded-run-1/<world>.json` and its ledger, on branch `claude/fleet-run-1-analysis`. No probe text is copied.
+  Each line is copied from the run's `<world>.json` and its ledger, in the `fleet-graded-run-1/` report folder on branch `claude/fleet-run-1-analysis` (not on `main`). No probe text is copied.
 - **`A_reviews_<world>.json`**: the second-pass and outside-referee findings for the same probes, by probe id.
 - **`repeat_draw.json`**: the seed, written before the draw, and the 42 drawn probe ids. That is 14 per world, stratified by family and register.
 - **`SHA256SUMS`** over all of the above.
