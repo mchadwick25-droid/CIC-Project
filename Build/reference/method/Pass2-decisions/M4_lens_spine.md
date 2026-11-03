@@ -1,8 +1,7 @@
 # M4 — Lens spine adoption (Pass 1 §12.8 / §4.1)
 
-**Decided by Mark, 2026-07-27: ADOPTED AS STATED** (recommendation;
-alternatives presented were adopt-without-the-ethical-lens and
-no-standardization).
+**Status: ADOPTED AS STATED.** The alternatives considered were
+adopt-without-the-ethical-lens and no-standardization.
 
 The Construction Framework's lens work standardizes, at S6.1, on:
 

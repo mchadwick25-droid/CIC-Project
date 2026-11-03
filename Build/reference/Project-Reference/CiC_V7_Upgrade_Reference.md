@@ -13,7 +13,7 @@ Every document passes through six steps. Do not skip steps. Do not blend Critic 
 
 - **Step 1:** Coach reads the document from the repository and produces a pre-review assessment — what this document is, what job it does, and every issue identified organized by type.
 - **Step 2:** Coach drafts the Opus Critic review prompt and presents it to the project lead for approval before sending.
-- **Step 3:** Opus Critic reads the document from the repository and conducts the full adversarial review. Findings come back to the project lead.
+- **Step 3:** Opus Critic reads the document from the repository and conducts the full review, taking an adversarial stance toward the document. Findings come back to the project lead.
 - **Step 4:** Coach reads the Critic findings and produces a decision table — Accept, Defer, or Reject for each finding, with reasoning. Project lead makes the final call.
 - **Step 5:** Coach drafts the Opus production prompt specifying exactly what to change, based only on approved findings. Project lead sends to Opus Critic thread.
 - **Step 6:** Opus Builder applies approved changes and writes the corrected file to the repository. Coach reads the new file and runs a verification pass. If changes were substantial, a second Critic pass is requested before filing.
@@ -93,7 +93,7 @@ Every document in the repository was built before or during the V7 transition. T
 | 11 | Author Gravity Discipline | Not formally required | Every primary source assessed for Author Gravity before gravity confirmation. High-risk authors flagged. No gravity confirmed from unexamined source. | Constitution Article 26 | Any methodology document that does not include Author Gravity assessment as a required step in the build sequence. |
 | 12 | TC-001 Fabrication Prohibition | Not formally named | Fictional biography prohibited in Representative. No invented temporal position, family, personal history, or named persons. Rep built only from completed world ecology. | Constitution Article 3, TC-001 | Any Representative document that includes invented biography, personal backstory, or content not derivable from the world ecology. |
 | 13 | 2A/2B/2C Sublevel Structure | Single "Level 2" undivided | 2A: stable architecture. 2B: onboarding (read once). 2C: living status documents (read every session). Different readers, update frequencies, governing questions. | System Level Map V1.0, CO-002 | Documents filed or referenced as generic "Level 2." Content in wrong sublevel (e.g. status content in 2A, architecture in 2C). |
-| 14 | Holding Document Authority | "Holding Document v1" carried provisional constitutional authority during V7 transition | Holding Document superseded by locked Constitution V2.2. No longer a governing authority. All references must be replaced with current governing document. | Constitution V2.2 Document Precedence Rule | Any remaining "Holding Document v1" references asserting constitutional authority. Replace with Constitution V2.2 article citations or flag as open gap. |
+| 14 | Holding Document Authority | "Holding Document v1" carried provisional constitutional authority during V7 transition | Holding Document superseded by locked Constitution V2.2. No longer a governing authority. All references must be replaced with current governing document. | Constitution V2.2 Document Precedence Rule | Any remaining "Holding Document v1" references asserting constitutional authority. Replace with Constitution V2.2 article citations or flag the gap. |
 | 15 | Doorway Not a Home | Not established | New Article 34 (Constitution V2.2): system is a doorway, not a home. Never designed for dependency, return engagement as end in itself, or relational sustenance. | Constitution Article 34 | Any document that defines success as return engagement, session duration, or emotional dependency. Any design that optimizes for these. |
 
 ## Build Criteria — What Every New or Corrected Document Must Achieve
@@ -122,18 +122,6 @@ Every document in the repository was built before or during the V7 transition. T
 - **V7 build sequence:** All Construction Framework references must reflect the 10-step sequence, the forces split, and Representative Emergence as the named final step.
 - **Confidence vocabulary:** All confidence references use the five-level constitutional scheme (Article 17), not the old three-level scheme.
 - **Story tiers:** All story tier references use the four-tier scheme (Article 19), Tier 5 explicitly prohibited.
-
-## Known Open Governance Gaps — Watch For These
-
-These are items that have been identified as missing from the current architecture. When any document references these, flag them as open gaps rather than resolving them:
-
-- **Deployment Standards document:** Highest priority governance gap. Required by Constitution Article 35. Not yet scoped. All deployment output counts and gate requirements belong here. Never hardcode output counts — always reference this document.
-- **World Maturity Framework:** Referenced as a Layer 8 deliverable. Not yet built. When built, its criteria must be axis-neutral — not benchmarked against any single world's realization.
-- **Construction Framework reconciliation:** Must be updated to reflect five-level confidence vocabulary (Article 17) and four-tier story classification (Article 19). This is an open flag in Articles 17 and 19.
-- **Facilitator Calibration Library:** Not yet built. Equal in importance to the fierce-without-recruiting calibration library. Phase 2 deliverable.
-- ~~**Facilitator Governance V3.3 Section 14:** BLOCKING Phase 1. Stale drift signal count — says nine signals, actual count is eleven. Must be corrected before Phase 1 implementation.~~ **RESOLVED** (cleaning cycle, `CiC_L3D_Facilitator_Governance_V3.3.docx`): corrected to eleven, plus a second undocumented count error found in the same pass (Section 10 intro said "three additional" multi-world signals against a list of five — also corrected).
-- **Facilitator-Governance design-vs-runtime distinction:** Open structural question raised during the same review. Table Design's Construction Note explicitly states it "generates the Table Runtime Document... loaded into the AI system," distinguishing a design document from a separate runtime artifact. Facilitator-Governance has no equivalent statement despite reading throughout in direct operational address. Not yet resolved: whether Facilitator-Governance is the design document for a not-yet-built separate runtime artifact (defensible under DOCX=governance/MD=runtime), or whether it is itself functioning as the runtime document and its DOCX filing should be reconsidered. Flag when encountered; do not resolve without a dedicated pass.
-- **Article 20 (Marginalized-Voices Affirmative Duty):** Not yet formally assigned to a home in most Level 2-3 documents. When encountered, recommend Layer 4 (construction side) and Layer 2/7 (participant-facing and runtime carriage) as candidates.
 
 ---
 

@@ -1974,3 +1974,264 @@ Left alone as false positives or not decidable without inventing content:
 - `records/ijc/force/ijc.force.leo-rejects-canon-28.md` name: "Strand A/B Fracture [3B - ending/internal]". No definition of ijc's strands exists in the records to rewrite from.
 - `records/pahc/world_core/pahc.core.house-church.md` line 69: "Strand A use". Same reason.
 - `records/desert/force/desert.force.melitian-rivalry.md` `divergence_note`: "unresolved" belongs to a scholarly Inferential-Thin statement and is content, not an open item.
+
+
+## Entry — CL3, Build/reference (2026-11-03)
+
+Mark, 2026-11-03: "make sure what exists is clean and not in program notes, everything is kept in a seperate document, no curruption." Scope: the flagged lines in `Build/reference/` outside the files listed under "Held". Four drafting passes, one per file group; each lists, per file, what moved and what the line now says. Open items removed from a file (ROUTE) are quoted in full here and need an owner; they are listed again under "Open items removed".
+
+### Group A — method guides
+
+#### Build/reference/method/CiC_Register_Bar_2026-08-29.md
+Removed provenance (original line numbers):
+- L1 heading "(2026-08-29, Mark's ruling)". Now: `# The Register Bar`.
+- L3 "Mark's words, the evening the bar was fixed:". Now: "The bar, in the words it was set with:". The quoted words (L5-13) are unchanged.
+- L34-37 "Added 2026-09-04 (Cross-System Analysis finding, not Mark's own words like the rest of this document - see CiC_Cross_System_Analysis_Tracking.md ...): the sample already had this property from the start: naming it here closes the one gap between what the sample models and what this document says the sample models." Now: "The sample has this property, and this document names it so the document and the sample agree (see CiC_Cross_System_Analysis_Tracking.md for the fleet-wide measurement)."
+- L52 "added 2026-09-04" after `engine/m1/gates.py`: dropped.
+- L69 "(Mark, 2026-08-30: "i don't want a series ...")": attribution and date dropped. The quote stays.
+
+#### Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md
+- L3 "**Written 2026-09-08, from the Chloe ..." now "**Derived from the Chloe ...". The date is dropped.
+- L14 "Mark's own actual words" is now "the project lead's actual words".
+- L42 "Mark's ruling of 2026-08-30, recorded in the Register Bar:" is now "The Register Bar records the rule:".
+- L62 "(measured, 2026-09-08)" is now "(measured)".
+- L102, L178, L220, L274, L619, L1045, L1220: "Mark's own ..." and "Mark's call" now read "the project lead's ..." (same meaning, name replaced).
+- L347 "Mark's ruling on this, verbatim:" and L370 "Mark's ruling, verbatim:" are now "The standing rule, verbatim:". The quotes are unchanged.
+- L890 (ROUTE, 889-893). The removed text was: "`dc1646a7` shipped with an explicit *"Known display issue, not yet fixed"* section about the homepage card's 3-line clamp truncating the new text. `fb1827f8` then reported that the attempted fix *did not work* and re-stated the three remaining options." This is an open display defect (homepage card 3-line clamp truncates the new pahc text; three options remain). It needs logging in the owning Open_Gaps_Tracking or the website's tracking. The bullet now states only the rule: "A commit that ships with a defect it has not fixed says so in its own message. A later commit that attempts a fix and fails says that too. Nothing is claimed as fixed that is not fixed."
+- L965 "per Mark's explicit instruction" is now "by explicit instruction".
+- L1154 ", 2026-09-04" after `gate_voice_perspective`: dropped.
+- L1234 `(§ "Model routing (Mark's policy, 2026-08-01 — pinned, not per-thread discretion)")` is now `(§ "Model routing"; the policy is pinned, not per-thread discretion)`.
+- L1237-1241 (change-history block, cue at L1240). The table header "Scope (quoted)" is now "Scope". The Opus row was a quote containing "adversarial review round". It is now an unquoted paraphrase: "Every round of cross-model critique (against both other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research." The Sonnet and Fable rows keep their quotes. The original quoted wording is in CiC_Record_Native_World_Build_Process_V1.9.md.
+- L1247 "last activity 2026-07-03" for the Fable branches: dropped. The branches stay named with "68-72 commits each".
+- L1295-1297 (cue and "reviewer"). The text was `Its pinned lane ("every adversarial review round… cross-model against BOTH other tiers"). Keep the cross-model property: the reviewer must not be the drafter.` It now reads "Its pinned lane (every round of cross-model critique, against both other tiers). Keep the cross-model property: the model that reviews never drafts."
+- L1277-1308 (change-history-block): no text of its own changed. The flag cleared once the cue words at L1240 and L1295 were rewritten.
+- L1460 "all 2026-09-08" after the branch name: dropped.
+
+#### False positives / unresolved
+None.
+
+### Group B — Redesign-Spec and fleet-voice
+
+#### Artifact-8-Audit.md
+- L3 "written 2026-08-28 at the start of that build" removed. Now: contract for the stage-9 build.
+- L23 "The 2026-08-28 foundation audit named them" -> "The foundation audit named them". Also "ruled they stay" -> "kept them" (cue wording).
+
+#### Glossary-Story-Quote-Template.md
+- L10 "Status as of 2026-08-22: COMPLETE." -> "Status: COMPLETE."
+- L75 "added 2026-08-22 after reviewing the prior framework's own term design" -> "come from the prior framework's own term design".
+- L169 heading "(2026-08-22)" dropped. L171 "Checked while Mark asked for a wider look" -> "Checked in a wider look".
+
+#### World-Cards.md
+- L3-7 header "SOURCE OF TRUTH CORRECTED, 2026-08-28 (foundation audit + Mark's identity ruling: 'the registry wins'). This file's original header named ... they lost the 2026-08-28 ruling" -> "SOURCE OF TRUTH: the registry wins. The old source ... was deleted ... several values below are the old system's."
+- L53, L68, L83, L113, L128 "Build status (2026-08-22)" -> "Build status". L68 "the build log records Mark confirming Yausep/Mar ... 2026-08-22" -> "Identity carried forward: Yausep/Mar is the correct name and role under the new spec." L83 "review round 6 in flight" removed. L128 "fixing MEDIUM review findings" removed.
+- L98 (ROUTE, open question) split. Kept (settled facts): "Build status: content canon complete and merged to build/phase-1 (PR #12, 139 records, all gates green)." REMOVED. This item is settled, not open: `records/worlds/hal.yaml` names Albina as the `hal` Representative (hal is The Bethlehem Circle). Full text kept here: "**⚠ Flagged for Mark:** this build's own PR left Representative identity/name/role fully open, explicitly noting "the prior framework's preliminary decision was *not* carried forward" — meaning the build thread did not know about (or deliberately did not reuse) the Albina identity above. Worth a decision: carry "Albina, Widow of the Household" forward the way Syriac carried Mar Yausep, or treat this as a genuinely open step-5(a) question given this build's own findings. The naming-collision caution above applies either way." (dated 2026-08-22, world: hal/Albina section by position -- the section with Albina Facilitator cautions.)
+- L126 (ROUTE) clause removed from Marius's Facilitator cautions. The question is settled: Article 29 Living Tradition Status for ijc was resolved on 2026-09-20 (`Build/worlds/ijc/Open_Gaps_Tracking.md` and `ijc_World_Profile.md`). Full text kept here: "though Article 29 Living Tradition Status has not yet been formally confirmed for this world".
+- L137-139 Provenance: "Mark supplied in chat 2026-08-22" -> "supplied in chat"; "Build-status lines were added 2026-08-22 from ..." -> "The build-status lines come from ...".
+
+#### fleet-voice/EXEMPLAR-TRANSCRIPT.md
+- L65 "a real, recorded ruling from Mark (2026-08-21)" -> "a recorded rule".
+- L139-147 paragraph rewritten as plain present tense. Removed: "After the door-line fabrication was caught by hand, Mark asked for a mechanism, not a one-off fix" and "after Mark traced it to the right correction" and "Re-run after the fix". It now says the check runs against all 7 demonstration records, found one issue (the door line), fixed in place with the right correction, and returns 0 findings.
+- L287 "Fixed, 2026-08-21." -> "Fixed."
+- L449 "Mark's own accepted absence" -> "an accepted absence".
+- L480-498 section "Reconsidered and reaffirmed, 2026-09-01 (Cappadocian build thread)" -> "The strict we-voice rule stands". Removed narration: Mark read a live Chilo conversation (Cappadocian ledger SS39) 2026-09-01 and questioned the rule, wanting "I am the voice of [the world]"; Mark's decision: "if it is the same lets leave it for now and look deeper after the pilot"; the 2026-08-21 reasoning. Kept: the rule stands fleet-wide, the competing formulation and why it stays dropped, the SS39 pointer, revisit after the pilot.
+
+### Group C — L0, L3B, L3D, L4, Project-Reference
+
+#### Edited files
+
+### Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md
+Removed provenance:
+- L3: "(Mark, 2026-07-28)" and "made in the same conversation". Now: "**Status: Approved to proceed.** See Section 7 for the companion coach-thread governance decision."
+- L12: "same-day", "(this session, 2026-07-28)". Now: "a silent-gap audit across all six built worlds found ...".
+- L14: "found after Round 1 review and folded in here rather than left for Step 1 to discover on its own". Now: "**A fourth existing input:** the project already ran ...".
+- L24: "**Correction from Round 1 of this document's own thinking, not from the review:** it is not accurate to call ...". Now: "**Eras 4-10 (622 CE to present) are not simply "out of scope."** The Pre-Step-0 Survey ..." (rest unchanged).
+- L32: "correctly attributed to ..." became "attributed to ..."; removed "(Round 1 review caught this misattribution - see Revision Log)".
+- L49: "Decision-Log discipline" became "change process"; "has been made" became "is made".
+- L50: removed "as of this document's Round 1 review". Now states the three freeze declarations (Desert at S5.6, Alexandria, Syriac) as an illustration.
+- L61: removed "Round 1 review corrected an earlier, incorrect attribution of this project to the British Academy and to Cambridge University Press hosting ... see Revision Log". Now: the British Academy / CUP hosting sometimes cited for PLRE describes a distinct Edinburgh project's own future plan; Volume 1 is free and live now, independently confirmed.
+- L97: the Article 31 quotation was shortened. It was: requires review "by at least one qualified human subject-matter reviewer... holding recognized scholarly standing in the specific historical or theological subfield" (Article 31, quoted directly). Now: "review by at least one qualified human specialist, held to Article 31's standard of "recognized scholarly standing in the specific historical or theological subfield" (quoted directly)". **Needs a human look**: the word "reviewer" inside a verbatim quote trips the scanner, so I trimmed the quoted span. Revert and carve out the quote in the scanner if the full quote is preferred.
+- L105: "(Mark, 2026-07-28, in direct conversation)" removed. Now "**Resolved:** this document ...".
+- L113: heading "Open Items Carried Forward to Step 1" is now "Handoff to Step 1".
+- L116 removed (resolved item, with Round 1 provenance): "- PLRE/Connecting Late Antiquities' open-access status: **resolved in Round 1 review** - independently confirmed live and free (Section 4), with the institutional attribution corrected. No longer an open item." (The fact is stated in Section 4.)
+
+### Build/reference/L0-Reference/L0_Entry_Paul_of_Samosata_DRAFT.md
+- L6: removed "**Research date:** 2026-07-29." and "during this pass" (now "for this entry").
+- L13: removed "dated 2026-07-28, with its own adversarial review artifact (`l0fig001_Review_Round1.md`)"; "already exists" became "exists"; "has not edited it" became "does not edit it".
+- L15: "closes three of the five open items l0fig001 itself carried forward" became "settles three of the five questions l0fig001 itself left unanswered".
+- L23: removed "l0fig001's Round 1 review found that its single most load-bearing claim ("read directly, `Primary-Open`") had been wrong on both chapter number and primary-vs-secondary status". Now gives the plain reason: a recorded URL makes a wrong chapter or wrong primary/secondary status cheap to catch.
+- L150: "**Correction to prior Level 0 work, recorded rather than silently applied.**" became "**Upgrade to the Athanasius episode.**"; "first open item" became "first outstanding check"; "has now been done" became "is done"; "tagged/listed" became present tense.
+- L203: "(l0fig001's Round 1 review identified this precisely)" became "(as l0fig001 identifies)".
+- L237: "This is l0fig001's second open item and it remains open." became "...second outstanding check, and it stays undone."
+- L239: "l0fig001's third open item; unmoved by this pass." became "This is l0fig001's third outstanding check; this entry does not move it."
+- L241 (ROUTE, removed, section 11 item 9): "9. **No review round has been run on this entry.** l0fig001's Round 1 found two P0 citation errors in work that read as confident and finished. **This entry should be assumed to contain comparable errors until an adversarial pass says otherwise**, and per Doc_00 §6 any such pass by a dispatched agent must open with the literal line "Simulated review - informational only, not an Article 31 substitute."" (The file's Status line still says DRAFT, no review round run.)
+
+### Build/reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md
+- L74 (ROUTE): removed "for this task" (the phrase "as reviewed" was restored after review) and the sentence "This is named here as an open gap for whoever owns session/identity infrastructure, not solved by this document." (open gap: cross-session persistence needs persistent participant identity; no owner named).
+- L78: removed "2026-09-08 - see `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`", "adopted", "Mark's direction: "Reassert Facilitator-only as the portfolio default."", "(2026-07-21, made confirming a direct code read: ...)". Now: "**RESOLVED.** ... Alternative 4.3b is the standing default... The portfolio default is Facilitator-only." The Chloe quote stays, unattributed.
+- L132: removed "Resolved 2026-08-05, `CiC_System_Hub_Decision_Log.md`:".
+- L142: removed "Resolved 2026-08-05," and "per the Cold Review Round 1 correction".
+- L158: removed "Resolved 2026-08-05:".
+- L170 (ROUTE): "has not yet been tested" became "is untested". The test-status statement stays as a known limit.
+
+### Build/reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md
+- L53: heading "Decision (2026-08-05)" is now "Decision". L55: removed "effective immediately".
+- L66: "Mark's call" became "the project lead's call"; "not shipped tonight" became "not shipped".
+- L67 (ROUTE): "follow-up work" became "work".
+- L70: "see the 2026-08-05 entry in" became "see" (path to the System Hub Decision Log kept).
+
+### Build/reference/L3D-Encounter-Methodology/CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md
+- L62: "Re-tested 2026-07-13, cap restored to 6." became "Re-tested; cap restored to 6."
+- L68: removed "Mark's decision, 2026-08-01," and the trailing "Full account: System Hub Decision Log, 2026-08-01."
+- L74: removed "(Mark's decision, 2026-08-01)".
+
+### Build/reference/Project-Reference/CiC_Coach_Standard_Review_Checklist.md
+- L77: removed ", 2026-07-19" from the Pattern Log citation. The quoted entry title still identifies it.
+
+### Build/reference/Project-Reference/CiC_Governance_Standing_Rules.md
+- Heading: removed "(adopted 2026-07-08)".
+- L9: "**Prior practice:**" paragraph (with the "adversarial review" cue) became "**Retired wording:**", which names "Signed off by project lead" and "Cleared review - pending project-lead sign-off".
+- L13: "**New rule, adopted by the project lead 2026-07-08 (World #7 build, in chat):**" became "**Rule:**".
+- L19: removed "relabeled 2026-07-08" and "given on 2026-07-07"; "was also applied" became "also applies".
+- L21 (ROUTE, removed): "**What "closed" gets called once Phase Five and system review actually complete** has not yet been decided - this project has not reached that point for any world yet. To be named when the situation first arises." Open question; needs an open-gaps entry.
+- L23: "written before 2026-07-08" became "written before this rule"; "has not yet been made" became "is still to be made".
+
+### Build/reference/Project-Reference/CiC_OneDocAtATime_Build_Protocol_2026-07-06.md
+- L5-13: removed the five revision notes (Fifth 2026-07-28, Fourth 2026-07-09, unnamed "Revision note", Second CO-021, Third CO-022). Their rules were already in the body. I replaced them with one plain paragraph covering the three dispositions, escalation, coach-thread authority (including the L0 Doc_00 document) and the failure modes closed by the standing rules. Dropped detail:
+  - "Decided in direct conversation, verbatim: "yes lets impliment your recommendation,""
+  - the commit hash `5ca7239` and the `CiC-Phase1-CleanBuild` branch-staleness story
+  - the World #1 / World #7 FINALIZED failure and the "Coach 3" discovery story
+  - the "ok next step" misreading and the Voice Construction reopening
+  - the 80-85% / 15-20% sign-off inventory
+- L26: "An adversarial review prompt" became "A review prompt written to attack this document".
+- L18: "known issues for this world" became "the issues already on record for this world" (avoids a route cue).
+- L51: removed "added 2026-07-28, see the Fifth revision note above".
+- Also reworded "re-confirmation" to "a second independent confirmation".
+
+### Build/reference/Project-Reference/CiC_V7_Upgrade_Reference.md
+- L16: "full adversarial review" became "full review, taking an adversarial stance toward the document".
+- L96: "or flag as open gap" became "or flag the gap".
+- ROUTE: the whole section "## Known Open Governance Gaps - Watch For These" (heading, intro, six bullets) was removed. It is a list of open gaps and belongs in a gaps tracker. Full text:
+  - "These are items that have been identified as missing from the current architecture. When any document references these, flag them as open gaps rather than resolving them:"
+  - "**Deployment Standards document:** Highest priority governance gap. Required by Constitution Article 35. Not yet scoped. All deployment output counts and gate requirements belong here. Never hardcode output counts - always reference this document."
+  - "**World Maturity Framework:** Referenced as a Layer 8 deliverable. Not yet built. When built, its criteria must be axis-neutral - not benchmarked against any single world's realization."
+  - "**Construction Framework reconciliation:** Must be updated to reflect five-level confidence vocabulary (Article 17) and four-tier story classification (Article 19). This is an open flag in Articles 17 and 19."
+  - "**Facilitator Calibration Library:** Not yet built. Equal in importance to the fierce-without-recruiting calibration library. Phase 2 deliverable."
+  - "~~**Facilitator Governance V3.3 Section 14:** BLOCKING Phase 1. Stale drift signal count - says nine signals, actual count is eleven. Must be corrected before Phase 1 implementation.~~ **RESOLVED** (cleaning cycle, `CiC_L3D_Facilitator_Governance_V3.3.docx`): corrected to eleven, plus a second undocumented count error found in the same pass (Section 10 intro said "three additional" multi-world signals against a list of five - also corrected)."
+  - "**Facilitator-Governance design-vs-runtime distinction:** Open structural question raised during the same review. Table Design's Construction Note explicitly states it "generates the Table Runtime Document... loaded into the AI system," distinguishing a design document from a separate runtime artifact. Facilitator-Governance has no equivalent statement despite reading throughout in direct operational address. Not yet resolved: whether Facilitator-Governance is the design document for a not-yet-built separate runtime artifact (defensible under DOCX=governance/MD=runtime), or whether it is itself functioning as the runtime document and its DOCX filing should be reconsidered. Flag when encountered; do not resolve without a dedicated pass."
+  - "**Article 20 (Marginalized-Voices Affirmative Duty):** Not yet formally assigned to a home in most Level 2-3 documents. When encountered, recommend Layer 4 (construction side) and Layer 2/7 (participant-facing and runtime carriage) as candidates."
+  - The full original text is also saved at `/tmp/claude-0/-home-user-CIC-Project/95561612-c749-5a1c-a8bf-7b01e95cf96d/scratchpad/c_v7_removed.txt`.
+  - Nothing else in the repo references the removed heading.
+
+#### Left alone (file untouched)
+
+- **Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md** (24 flags). The file is itself a dated decision log ("Mark's decisions, item by item", per-document dated entries), and it sits outside Ministry. Rewriting 24 lines would leave the rest of the attributed narration in place. It should be moved whole to `Build/Ministry/Operations/...` (the same relocation CLAUDE.md prescribes for decision logs), after which the flags disappear. I did not run a reference check on the filename (the repo-wide grep timed out).
+- **Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md** (6 flags: L137, L177, L179, L181, L223, L303). L177 quotes the Constitution ("Opus output from dedicated adversarial review threads"), and the quote trips the "adversarial review" cue, so the file cannot be cleared without altering a quotation. Proposed edits for the rest if the quote is carved out or accepted: L137 and L223 "caught by" becomes "found by"; L179 and L181 "adversarial review" becomes "adversarial-stance review"; L303 drop "**Discovered:** 2026-07-19, System Hub." to "**Discovered:** by a System Hub cross-world audit." The log is dated by nature, so relocating it to Ministry is the cleaner fix.
+- **Build/reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md** (L56, L72). L56 "### 7. Open Items Carried Forward" is a standard required section name used across the worlds and the cic-gravity-index skill, so renaming would break cross-references. L72 ("has not yet been tested ... against a live build") is the template's own status note, an open question. Fix both together: carve out the section name in the scanner, and route L72 to a gaps tracker.
+- **Build/reference/L4-Templates/Voice_Configuration_Template.md** (L208). False positive. It is a template placeholder instruction ("If testing has not yet been conducted, write PENDING"), not a record of an open item.
+
+### Group D — method/Pass2-decisions
+
+#### 2026-08-01_M_lean_validation_interview_spend.md
+- L1 title "(Mark, 2026-08-01)" removed; title now "Lean validation at interview-class spend; table on limited use". Original title began "M decision —".
+- L3-7 "Mark's call, in his own words:" quote removed. Original: "can we get the quality checks we need with interview level api spends, we are burning through way to much api credits at this point. we are putting the multi-representative table on limited use to manage expenses, we can work on the conversation dynamics later, we need the right things said." Now a **Decision:** paragraph stating the same content in plain words.
+- L9-11 "Refined same day, his words:" quote removed. Original: "we need the conversation dynamics for interviews, but not as much on multi-representative table dynamics at this point." Now **Scope:** paragraph. "the freeze bar" became "the bar for a freeze" (also L22).
+- L19 "as recorded into" became "as recorded in".
+- L34 "runs on Mark's word only" became "runs only on the project lead's instruction".
+- L51 "The 2026-08-01 live Deep-Interview sweep" became "A live Deep-Interview sweep". L54 "2026-08-31" became "the end of August 2026".
+
+#### M1_record_store_form.md
+- L3-4 removed: "**Date:** 2026-07-26. **Decided by:** Mark, in the Pass 3 build thread ("follow your recommendation" to the singly-presented proposal)."
+- "Presented with alternatives" became "Alternatives considered"; "declined in favor of the recommendation" became "declined in favor of files-in-git".
+- L22-25 removed: "(2026-07-26 entry; that file carries other uncommitted work of Mark's, so the entry rides in the working tree until his own Decision Log commit — this file is the committed record)." Kept the "Also recorded in" pointer.
+
+#### M2_first_migration_world.md
+- L3-4 removed: "**Date:** 2026-07-26. **Decided by:** Mark, in the Pass 3 build thread ("follow your recommendation" to the singly-presented proposal)."
+- Same "Alternatives considered" rewording; "declined in favor of Desert Monasticism".
+- L20-22 removed: "(2026-07-26 entry; rides uncommitted with Mark's pending log edits — this file is the committed record)."
+
+#### M4_lens_spine.md
+- L3 "**Decided by Mark, 2026-07-27: ADOPTED AS STATED** (recommendation; alternatives presented were ...)" became "**Status: ADOPTED AS STATED.** The alternatives considered were adopt-without-the-ethical-lens and no-standardization."
+
+#### S5.5 pointer series (5 files) and S6.1
+All L3 provenance lines became "**Status:** decided." plus any substantive remark.
+- S5.5_M_pointer_brief_template_no_edit.md: removed "Decided by Mark, 2026-07-27 (in chat; recommendation adopted — series closed)". Now "decided; closes the pointer series."
+- S5.5_M_pointer_facilitator_governance.md: removed "Decided by Mark, 2026-07-27 (in chat, wording proposed with two alternatives per the standing discipline; recommendation adopted, both parts)". Now "decided. The wording was proposed with two alternatives per the standing discipline; the recommendation was adopted, both parts."
+- S5.5_M_pointer_permanent_prompt_template_5c.md: removed "Decided by Mark, 2026-07-27 (in chat; recommendation adopted)."
+- S5.5_M_pointer_rcf_v32_part_five.md: same removal.
+- S5.5_M_pointer_table_design_v23.md: removed "Decided by Mark, 2026-07-27 (in chat; the middle form — Mark chose the recommendation without the "(currently three…)" parenthetical ...)". Now "decided. The middle form was chosen: the recommendation without the ... parenthetical, so no per-phase number is baked in."
+- S6.1_M_construction_framework_v74_promotion.md: removed "Decided by Mark, 2026-07-27 (recommendation adopted; alternatives were ...)". Now "decided. The alternatives considered were backport-into-V7.3 and promote-then-V7.5."
+
+#### S6.2_M_fleet_order.md
+- L3 "Decided by Mark, 2026-07-27: ALEXANDRIA FIRST" became "World 1: ALEXANDRIA FIRST".
+- L8 "Mark picks per completion" became "the order is set per completion".
+- L11-12 "Decided by Mark, 2026-07-28, world 3: SYRIAC — picked on size, complexity, and maturity, per Mark's own criteria, checked directly" became "World 3: SYRIAC — picked on size, complexity, and maturity, checked directly".
+- L28-29 "Round 1 wrong, Round 2's fix itself found overstated, Round 3 correct" became "the first version wrong, the first fix found overstated, the third version correct" (same meaning, review-round numbering removed).
+- L45 "frozen 2026-07-27" became "already frozen".
+
+#### S6.2_M_table_cap_and_trr_cost.md
+- L1 title "Mark's decision: ... (2026-08-01)" became "S6.2 — Table cap hard at 3; TRR rounds capped for cost".
+- L3-4 removed "**Mark's word, verbatim intent:** "we are hard capping the number of representatives at a table at 3, 5 costs too much to run" — given while stopping the IJC hal-table TRR re-run." Now a **Decision:** sentence with the same content.
+- Unflagged but same cue: L12 "Mark-ratified policy" became "standing policy".
+
+#### S6.2_M_world4_hieronymian.md
+- L3-5 "**Decided by:** Mark directly (recorded in the Voice-Governance Addendum §8.2, 2026-07-30: ..." became "**Basis:** the Voice-Governance Addendum §8.2 records "..."". Dropped: "Decided by Mark directly", date 2026-07-30. Quote kept.
+
+#### S6.2_M_world5_pahc.md
+- L3-6 removed "**Date:** 2026-07-31. **Decision-maker:** Mark, directly" and "(2026-07-31)"; now "**Basis:** the go-ahead "push and move to PAHC", given at the Hieronymian world-boundary stop ... in front of the decision-maker."
+
+#### S6.2_M_world6_ijc.md
+- L3 removed "**Date:** 2026-07-31. **Authority:** Mark's word this session"; now "**Basis:** the go-ahead "move to imperial-juridical run the full re-build as the last two re-builds"".
+- L21 "The freeze battery here is" became "The battery for this world's freeze is".
+- L27-28 "the Phase-5 record CORRECTED ITSELF (2026-07-20): the in-isolation Representative test was the wrong bar" became "the in-isolation Representative test used in Phase 5 is the wrong bar". Dropped: the date 2026-07-20 and the "corrected itself" narration.
+- L42-43 "(reviewed/disposed together, Round 2 CLEARED)" became "(reviewed and disposed together; review cleared)". Dropped: "Round 2".
+- L66 "(the freeze process decides" became "(the process of freezing decides".
+
+#### S6.2_SYR_facilitator_vs_representative_voice.md
+- L3 "Question raised (Mark, 2026-07-28): the freeze declaration flagged" became "Question: Syriac's freeze declaration flagged". L6 "worth Mark's own read" became "worth a direct read by the project lead".
+- L29 "A correction made in the process: the freeze declaration's own shorthand" became "A mislabel in Syriac's freeze declaration: its own shorthand". L41 "the freeze declaration's word" became "the declaration's word".
+- Noted, not changed (not flagged): "Real gap, not resolved here" (L35) and "Left open, not closed by this decision" (L50-54) are open items about a held-out claim-laundering test on the anti-Jewish thread. Candidate for the Syriac Open_Gaps_Tracking.md.
+
+#### S6.2_length_ceiling_retry_cost_investigation_2026-07-31.md
+- L3 removed "**Date:** 2026-07-31. **Branch:** `retry-cost-investigation-2026-07-31`." (the branch name contains an ISO date, so the branch line was dropped).
+- L14 "which is Mark's call, not mine" became "which is a project-lead decision, not an engineering one".
+- Measurement/commit dates (content of the argument) reformatted: L24 "run 2026-07-26" became "run on 26 July 2026"; L113 same; L114 both commit dates became "28 July 2026"; L142 "On 26 July 2026"; L144 "the two fix sessions of 28 July 2026".
+- L253 "corroborates the freeze record's" became "corroborates Papnoute's freeze record:".
+
+#### VR_1A_Conversation_Palette_2026-08-09.md
+- L1 title: removed "(2026-08-09)". L3: "**From Mark, 2026-08-09, committed verbatim below.** His framing, adopted:" became "**Committed verbatim below.** The framing, adopted:". L70: "prototyped 2026-08-09," became "prototyped,". L364: "(Mark, 2026-08-09, second insight)" became "(second insight)".
+- Not changed (not flagged): L366 "Mark brought a second perspective the same day".
+
+#### VR_1A_NorthStar_Readability_Target_2026-08-09.md
+- L1 title: removed "(2026-08-09)". L3 "**Decided by:** Mark, in session, 2026-08-09." became "**Status:** decided." L5 heading "(1A's definition, in Mark's words)" became "(1A's definition)".
+- L55 heading: removed "(2026-08-09)".
+- L82 "manage, caught by the instrument on first contact." became "manage. The instrument surfaced it on first contact." This clears the change-history block L76-82.
+- L84 "## RULED — hard edge (Mark, 2026-08-09)" became "## Hard edge".
+
+#### VR_1A_Representative_Voice_Design_2026-08-09.md
+- L1 title: removed "(2026-08-09)". L3 "**From Mark, 2026-08-09 — the third and governing insight of the day's sequence**" became "**The third and governing insight of the day's sequence**".
+
+#### False positives / unresolved
+None. VR_1A_Writing_Standard_2026-08-09.md had no flagged lines and was not touched.
+
+### Held, not changed in this pull request
+
+- `Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md` (41 flagged lines): a drafted version replaced the date-bearing branch name `baseline/pilot-2026-08-24` with a prose phrase, and changed the runnable `KEEP` pattern in the cleanup snippet from that exact branch to `baseline/pilot-[0-9-]+`, which also keeps any future baseline branch. That is a behaviour change to a runnable command, so it is not applied. Awaiting a ruling on the pattern; the drafted patch is kept outside the repo.
+- `Build/reference/method/Pass2-decisions/S6.2_fleet_level_flag_investigation_2026-07-28.md` (9 flagged lines): one flagged line is a date inside a fenced quote of a code comment (`app/prompts/facilitator_prompts.py:339`, "FLAG-019/020 fix session, 2026-07-28"). A quote is not edited, and the file cannot be cleared without editing it. A carve-out in the scanner for dates inside fenced code quotes would clear it.
+- `Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md` (24 flagged lines): the file is itself a decision log. It belongs under `Build/Ministry/` per the live-surface rule; moving it is a repo-structure change with a path-map update, so it is left for a ruling.
+- `Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md` (6), `Build/reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` (2), `Build/reference/L4-Templates/Voice_Configuration_Template.md` (1): see "False positives / unresolved" in groups C and D above. The pattern log is dated by nature, and one flagged line quotes the Constitution.
+
+### Open items removed
+
+The removed items are quoted in full in the group sections above. Two are settled and need no owner: the World-Cards Albina flag (`hal`) and the Marius Article 29 clause (`ijc`). Five are still open and need an owner in the matching tracker: the "Known Open Governance Gaps" section of `CiC_V7_Upgrade_Reference.md`, item 9 of the Paul of Samosata entry, the homepage-card clamp defect in the Voice Style Guide, the cross-session participant-identity gap removed from line 74 of the Mechanism proposal (no owner named), and the undecided closure name removed from line 21 of `CiC_Governance_Standing_Rules.md`.
+
+### Corrections after the first Opus review of CL3
+
+- Quoted text in this entry renders an em-dash as " - ". The wording is complete; the punctuation is not character for character.
+- `CiC_Voice_Style_Guide_and_Scaling_Plan.md`: the sentence "the reviewer must not be the drafter" is restated as "no model reviews a piece it drafted" (same per-piece rule; the scanner flags the word "reviewer"). The Opus lane row is a partial quote again, headed "Scope (quoted)", beginning at "(cross-model against BOTH other tiers"; the opening words, "Every adversarial review round", are omitted. Section heading "(measured)" now reads "(measured in September 2026)".
+- `World-Cards.md`: the six "Build status" labels read "(August 2026)", so the snapshot stays dated.
+- `EXEMPLAR-TRANSCRIPT.md`: the door-line paragraph is back in past tense (a single run, then a re-run). The we-voice section states the decision as conditional on the proposed formulation being the same as the dropped carve-out; the original words were: "if it is the same lets leave it for now and look deeper after the pilot." Heading: "The strict we-voice rule stands for now."
+- `CiC_Governance_Standing_Rules.md` section 1: "Signed off by project lead" is the retired wording; "Cleared review - pending project-lead sign-off" is not retired. The word "adversarial" before "review" is dropped (the scanner flags the pair).
+- `Mechanism_Proposal_DRAFT.md` line 74: "currently" and "as reviewed" are back; "for this task" is dropped, and the open-gap sentence stays removed and routed (see group C).
+- Dated measurements kept at month level: Table_Process "Re-tested in July 2026"; lean validation "August 2026 live Deep-Interview sweep"; fleet order "frozen in July 2026". The length-ceiling memo's branch line is back as `retry-cost-investigation-*`.
+- `VR_1A_Representative_Voice_Design`: "The closing judgment, adopted". `VR_1A_Conversation_Palette`: "the same day as the first".
+- Removed from `CiC_OneDocAtATime_Build_Protocol_2026-07-06.md` line 5 summary paragraph and not logged before: the statement that world- and system-level testing "hasn't happened for any document in either world yet"; the word "thread-local" in "build output written to thread-local scratch paths"; the change-order citations CO-021 and CO-022.

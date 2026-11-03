@@ -1,6 +1,6 @@
 # CiC Atlas Prose — Voice & Style Guide, Review Process, and Scaling Plan
 
-**Written 2026-09-08, from the Chloe / Scattered Households editorial pass
+**Derived from the Chloe / Scattered Households editorial pass
 (commits `2b00a20d`..`35ab377a` on `claude/website-v2-sandbox`).**
 
 Read this before touching any world's visitor-facing prose in
@@ -11,7 +11,7 @@ anti-pattern carries the real before → after from the diff that fixed it.
 **Two companion documents this file draws on and points back to:**
 `CiC_Prose_Craft_Analysis.md` (a sentence-by-sentence measurement of the
 shipped Chloe text — sentence length, concreteness, term introduction,
-hedging, verb choice) and `CiC_Marks_Voice_Analysis.md` (Mark's own actual
+hedging, verb choice) and `CiC_Marks_Voice_Analysis.md` (the project lead's actual
 words extracted from the raw session transcript, not the polished output —
 his correction patterns, and a direct check of what survives from his
 input to shipped text). §1.1 below is this document's synthesis of both;
@@ -39,7 +39,7 @@ window** (see anti-pattern 8).
 
 ### The governing constraint on this document itself
 
-Mark's ruling of 2026-08-30, recorded in the Register Bar: *"i don't want a
+The Register Bar records the rule: *"i don't want a
 series of rules for words... i want the base conditions to generate what we
 are looking for in each world and throughout the system."* That document
 holds a **no rules ledger** clause on purpose.
@@ -59,7 +59,7 @@ one. It holds two things:
 
 ---
 
-## The baseline gap you are closing (measured, 2026-09-08)
+## The baseline gap you are closing (measured in September 2026)
 
 Audited across all 292 entries in `atlas-v3.html`:
 
@@ -99,7 +99,7 @@ Sections 1.2 onward are a diagnosed list of what got caught and fixed. This
 section is what you're actually generating toward — derived from two
 things, not from any outside comparison: a sentence-by-sentence
 measurement of the shipped Chloe text (`CiC_Prose_Craft_Analysis.md`), and
-a direct extraction of Mark's own words from this session's raw transcript,
+a direct extraction of the project lead's own words from this session's raw transcript,
 separate from anything polished (`CiC_Marks_Voice_Analysis.md`). Read both
 in full before drafting for a new world; what follows is their
 distillation, not a replacement for them.
@@ -175,7 +175,7 @@ the axis of his corrections, on Claude's drafts and Gemini's alike:
    vividness from an actual primary-source quotation stays (Ignatius's own
    "wheat of God" line). Invented vividness goes, full stop, however good
    it sounds. ("Chloe is seated. The chair beside her has been pulled out
-   the whole time" — cut for exactly this, in Mark's own words: "the ai
+   the whole time" — cut for exactly this, in the project lead's own words: "the ai
    criptic speaking we are getting rid of.")
 
 ### The mechanical shape that passes this review
@@ -217,7 +217,7 @@ wrong as a description of the *effect*. But they are not the generative
 source, and citing them risks importing a house style that isn't Mark's.
 The actual mechanism that produces that effect — plain word before
 technical term, concreteness cashed immediately, tension held instead of
-resolved — is derived above directly from Mark's own catches and the
+resolved — is derived above directly from the project lead's own catches and the
 shipped text's own measured shape. If the result reads like good
 documentary narration, that's confirmation the mechanics are right, not
 the goal itself.
@@ -271,7 +271,7 @@ sentence-level tell. **Run this comparison, field by field against
 Chloe's shipped entry, as its own explicit step, separate from and after
 the five-question pass.** A world can pass every sentence-level check
 and still be a shallower first draft than Chloe's, because Chloe's own
-fields were shaped by dozens of rounds of Mark's own direct correction
+fields were shaped by dozens of rounds of the project lead's own direct correction
 and a new world's have not been.
 
 The three specific gaps found, each now fixed as the standing bar:
@@ -344,7 +344,7 @@ What we cannot give you is a single word any of them chose to write."
 Same content, same source-based honesty, but one reads as trying to
 sound like something and the other just says the thing.
 
-**Mark's ruling on this, verbatim: "there is no canonical record, all
+**The standing rule, verbatim: "there is no canonical record, all
 text needs to be reviewed and updated to this standard not just problem
 texts... everything is reviewable and upgradable."** This closes a gap
 the process had been quietly leaving open: `records/<code>/*.md` files
@@ -367,7 +367,7 @@ conversation (a different register, governed by
 `CiC_Register_Bar_2026-08-29.md` and gated by `engine/m1/gates.py`, not
 by this document — see "What this document governs, and what it does
 not" at the top), with its own established review process (Doc_08
-gates, probe batteries, the validation suite). Mark's ruling, verbatim:
+gates, probe batteries, the validation suite). The standing rule, verbatim:
 "website copy only, don't touch the record files." Never edit a
 canonical record file under this document's authorization — truth-check
 against it, quote it, rewrite the website's rendering of it, but leave
@@ -616,7 +616,7 @@ systematic, or empire-wide in this window."*
 | Commit | Text | Verdict |
 |---|---|---|
 | `dc1646a7` | "suspicion more than outright persecution, though real persecution came too, local and sporadic, not constant" | Accurate, but hedge-stacked into unreadability |
-| `fb1827f8` | "Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times" | **Shipped.** Mark's own plainer wording; same finding, said simply |
+| `fb1827f8` | "Following Jesus meant loss of status, suspicion from neighbors, and even outright persecution at times" | **Shipped.** The project lead's own plainer wording; same finding, said simply |
 | `1956cb6b` (Story) | "periodic waves of official violence" | Shipped — "periodic" carries the sporadic finding without a hedge clause |
 
 The lesson is not "add hedges." `fb1827f8`'s commit message: *"same real,
@@ -886,11 +886,10 @@ Two consequences worth copying:
 - **A word swap gets its own commit** when it changes meaning.
   `6dfc39c3` is one word — "staying one body" → "living as one body" — and
   nothing else. Reviewability beats commit economy here.
-- **Known-broken is recorded, not quietly carried.** `dc1646a7` shipped
-  with an explicit *"Known display issue, not yet fixed"* section about the
-  homepage card's 3-line clamp truncating the new text. `fb1827f8` then
-  reported that the attempted fix *did not work* and re-stated the three
-  remaining options. Nothing was claimed as fixed that was not fixed.
+- **Known-broken is recorded, not quietly carried.** A commit that ships
+  with a defect it has not fixed says so in its own message. A later commit that
+  attempts a fix and fails says that too. Nothing is claimed as fixed
+  that is not fixed.
 
 ## 2.3 Verify against the primary text, not against your memory of it
 
@@ -962,7 +961,7 @@ each generically and backward-compatibly:
   single-paragraph text renders identically to before."*
 - `110550cd`: a generic `sectionSources(list)` helper for per-section
   `Sources` disclosures, deliberately *flat* — *"a flat list of relevant
-  works, not mapped to individual sentences"* — per Mark's explicit
+  works, not mapped to individual sentences"* — by explicit
   instruction, and reusing the existing `.docstories` CSS rather than
   inventing a visual pattern.
 - `68f67d2b`: a second "Interview" button at the foot of the panel, plus a
@@ -1042,7 +1041,7 @@ own working interpretive packaging… No primary voice in this world's
 evidentiary base uses 'Strand A'/'Strand B' language."* Rendering that as
 one sentence a visitor reads in three seconds took four tile versions
 (`dc1646a7` → `e65a3ad3`) plus a Story rewrite. **When a record says its
-own frame is provisional, any compression of it is Mark's call.**
+own frame is provisional, any compression of it is the project lead's call.**
 
 **(C) Evidentiary-weight calls across a live scholarly dispute.** Whether
 Ignatius's execution is stated, hedged, or attributed — and whether Justin's
@@ -1151,7 +1150,7 @@ measured — 250 voice-perspective violations across all 8 built worlds'
 spoken fields, *"concentrated in the lexicon… authored as a Fable
 subagent's Doc_03/Doc_06 pass — a systematic authoring pattern, not
 scattered error"* — invisible until a mechanical gate was written for it
-(`gate_voice_perspective`, 2026-09-04). Reviews had not caught it.
+(`gate_voice_perspective`). Reviews had not caught it.
 
 **Option C — Multi-agent fan-out: N drafting agents, separate fact-check
 agent.**
@@ -1217,7 +1216,7 @@ Concretely:
 
    **The verification subagent's brief should be §1.1's five-question
    review pass, run explicitly, not "check this for quality."** That pass
-   is derived directly from what Mark's own corrections actually targeted
+   is derived directly from what the project lead's own corrections actually targeted
    across this session (quantifier/modality overclaims, material added
    during expansion, an over-performing closing sentence, a sentence that
    wouldn't survive being read back alone, invented cleverness) — proven
@@ -1231,20 +1230,19 @@ Concretely:
 specific about where Fable does and does not pay.**
 
 `Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md`
-(§ "Model routing (Mark's policy, 2026-08-01 — pinned, not per-thread
-discretion)"):
+(§ "Model routing"; the policy is pinned, not per-thread
+discretion):
 
 | Lane | Model | Scope (quoted) |
 |---|---|---|
 | Main thread | **Sonnet** | "Orchestration and ledger discipline; the mechanical Phase-B conversion scripts…; the remaining templated documents… the main thread's job is discipline, not depth." |
-| Review + research | **Opus** | "Every adversarial review round (cross-model against BOTH other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research." |
+| Review + research | **Opus** | "… (cross-model against BOTH other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research." (opening words omitted) |
 | Key components | **Fable** (subagent calls) | "Lexicon discovery and development…; story inventory + quote discovery and vetting (Doc_09, incl. the Absent Stories question) — **these demand the deepest, most inclusive searching and building, and discovery misses are invisible to every gate**; gravity discovery; forces synthesis; voice construction; Phase-D battery-fail diagnosis loops." |
 
 **Fable was adopted, not abandoned — but the branch evidence is thinner
 than a first pass suggested.** Three substantial world-build attempts exist
 on Fable branches — `origin/CiC-Fable-Cappadocian`, `origin/CiC-Fable-Desert`,
-`origin/CiC-Fable-EarlyCommunal` (68-72 commits each, last activity
-2026-07-03) — with real, substantial documents: Doc_01-06, Doc_09 (Desert's
+`origin/CiC-Fable-EarlyCommunal` (68-72 commits each) — with real, substantial documents: Doc_01-06, Doc_09 (Desert's
 Story Inventory has an actual "Absent Stories" section), a Forces Document,
 a Voice Configuration / World Capsule Core, and a Representative Permanent
 Prompt, under filenames that don't follow a clean Doc_01→Doc_10 numbering
@@ -1292,9 +1290,9 @@ register discipline, that is the specific risk to design against.
   record-less world's source-floor pass before committing to it at scale**,
   and brief it as pointers-not-summaries.
 - **Verification round per batch, and authoring the escalation document —
-  Opus.** Its pinned lane ("every adversarial review round… cross-model
-  against BOTH other tiers"). Keep the cross-model property: the reviewer
-  must not be the drafter.
+  Opus.** Its pinned lane (every round of cross-model critique, against
+  both other tiers). Keep the cross-model property: no model
+  reviews a piece it drafted.
 - **If Fable is used for drafting anyway** — a legitimate thing to try on
   Batch 1, where the material is richest and most contested — then the
   mechanical linter for every register property in §1 **must** exist and
@@ -1457,7 +1455,7 @@ history for 215 movements.
 
 ## Appendix — the commits this document is derived from
 
-Branch `claude/website-v2-sandbox`, all 2026-09-08.
+Branch `claude/website-v2-sandbox`.
 
 | Commit | What it fixed |
 |---|---|
