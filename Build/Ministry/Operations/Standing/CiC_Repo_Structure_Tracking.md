@@ -941,3 +941,9 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 
 **Action.** Added `canon/gold_set/` (`calibration.jsonl`, `heldout.jsonl`, `seals.yaml`), written only by `Sandbox/Answering-From-Sources/goldset/split.py`. Root `README.md`'s `canon/` row names it.
 
+
+## 2026-11-03 — `CiC_Pipeline_Decision_Log.md` moves from `Build/reference/L2C-System-Status/` to `Build/Ministry/Operations/Standing/`
+
+**Context.** The file is a decision log. Decision logs belong under `Build/Ministry/`, not in a live reference surface, and the Live-Surface Cleanup program found 24 lines of provenance in it that could not be cleaned in place without rewriting the log itself.
+
+**Action.** Moved with `git mv`, so history follows the file. `tools/moved_paths.txt` maps the old path to the new one, so older documents that cite it still resolve. The two entries `tools/check_paths_baseline.txt` held for it are removed, because `tools/check_paths.py` skips decision logs under `Build/Ministry/`. The three hand-labelled sample lines in `tools/tests/test_check_live_commentary.py` that pointed at the old file, and eight others the CL1 to CL3 cleanup had cleaned, now point at current lines in `Build/worlds/` (nine provenance lines, two open-item lines). The root `README.md` does not name the file.
