@@ -59,7 +59,7 @@ one. It holds two things:
 
 ---
 
-## The baseline gap you are closing (measured)
+## The baseline gap you are closing (measured in September 2026)
 
 Audited across all 292 entries in `atlas-v3.html`:
 
@@ -1233,10 +1233,10 @@ specific about where Fable does and does not pay.**
 (§ "Model routing"; the policy is pinned, not per-thread
 discretion):
 
-| Lane | Model | Scope |
+| Lane | Model | Scope (quoted) |
 |---|---|---|
 | Main thread | **Sonnet** | "Orchestration and ledger discipline; the mechanical Phase-B conversion scripts…; the remaining templated documents… the main thread's job is discipline, not depth." |
-| Review + research | **Opus** | Every round of cross-model critique (against both other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research. |
+| Review + research | **Opus** | "… (cross-model against BOTH other tiers — Opus reviews Sonnet's drafts and Fable's key components alike); blind battery grading; deep source research." (opening words omitted) |
 | Key components | **Fable** (subagent calls) | "Lexicon discovery and development…; story inventory + quote discovery and vetting (Doc_09, incl. the Absent Stories question) — **these demand the deepest, most inclusive searching and building, and discovery misses are invisible to every gate**; gravity discovery; forces synthesis; voice construction; Phase-D battery-fail diagnosis loops." |
 
 **Fable was adopted, not abandoned — but the branch evidence is thinner
@@ -1291,8 +1291,8 @@ register discipline, that is the specific risk to design against.
   and brief it as pointers-not-summaries.
 - **Verification round per batch, and authoring the escalation document —
   Opus.** Its pinned lane (every round of cross-model critique, against
-  both other tiers). Keep the cross-model property: the model that
-  reviews never drafts.
+  both other tiers). Keep the cross-model property: no model
+  reviews a piece it drafted.
 - **If Fable is used for drafting anyway** — a legitimate thing to try on
   Batch 1, where the material is richest and most contested — then the
   mechanical linter for every register property in §1 **must** exist and

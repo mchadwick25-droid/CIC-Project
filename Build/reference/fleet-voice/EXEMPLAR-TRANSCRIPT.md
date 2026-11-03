@@ -136,14 +136,15 @@ The seven statements (O2), for reference against what follows:
 
 ## What the new grounding check does — and doesn't — touch here
 
-The door-line fabrication was a mechanism problem, not a one-off fix
-(`engine/m1/gates_experimental.py`, `gate_grounded_claim` — still
-experimental, not yet in the accepted battery). The check runs against all
-7 real demonstration records behind this transcript, sentence by sentence.
-It found one issue, the door line in the "someone like me" turn. That line
-is fixed in place, marked ✅ below, with the right correction rather than a
-retreat into pure hedging (see that turn's note). The check now returns
-**0 findings across the whole transcript.**
+The door-line fabrication was first found by hand, and a mechanism was
+asked for in place of a one-off fix (`engine/m1/gates_experimental.py`,
+`gate_grounded_claim` — still experimental, not yet in the accepted
+battery). It ran against all 7 real demonstration records behind this
+transcript, sentence by sentence, and found one issue: the door line in the
+"someone like me" turn. That line was then fixed in place, marked ✅ below,
+with the right correction rather than a retreat into pure hedging (see that
+turn's note). Re-run after the fix: **0 findings across the whole
+transcript.**
 
 Mark's worry, directly: does this mechanism put pressure on lines like the
 Logos explanation — the kind of interpretive synthesis that makes this
@@ -476,18 +477,19 @@ that could carry this (e.g. `alx.contested.origen-positions`), but none of
 them yet has a matching spoken demonstration the way the eight turns above
 do, so nothing here was stretched to fill that shape.
 
-## The strict we-voice rule stands
+## The strict we-voice rule stands for now
 
 The strict we-voice rule established by this document's own SECOND RULING
 RECORD (via `records/alx/voice_craft/alx.voice.craft.md`) holds fleet-wide,
 unchanged. A competing formulation exists: "I am the voice of [the world],"
 with the world's own history spoken of in the third person plural. That is
 exactly the "I reserved for vocational acts" carve-out the second ruling
-dropped, and it stays dropped: it read as an individual explaining
-themselves, not a world speaking - the same diagnosis this document's own
-header names as the reason for the system-level pronoun fix. The
-Cappadocian account (`Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`
-§39) records the live conversation with Chilo that raised it. Revisit
-after the pilot, not before. Read this file and the SS39 account together
+dropped: it read as an individual explaining themselves, not a world
+speaking - the same diagnosis this document's own header names as the
+reason for the system-level pronoun fix. The Cappadocian account
+(`Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §39) records the
+live conversation with Chilo that raised it. The decision is conditional: if
+the two formulations sound the same, leave the rule as it is for now and
+look deeper after the pilot. Revisit after the pilot, not before. Read this file and the SS39 account together
 before drafting anything, so the earlier reasoning is answered on its own
 terms rather than rediscovered from scratch.

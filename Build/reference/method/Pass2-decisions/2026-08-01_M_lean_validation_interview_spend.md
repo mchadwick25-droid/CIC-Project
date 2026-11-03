@@ -46,7 +46,7 @@ deferred."
 
 **Context:** the six S6.2 freezes ran the full battery + TRR (PAHC
 battery ~$30; a credit exhaustion killed a TRR table mid-run once). A
-live Deep-Interview sweep demonstrated the fundamentals and
+August 2026 live Deep-Interview sweep demonstrated the fundamentals and
 content-accuracy re-probes verifiable at $1.25–1.80/world against the
 real deployed site. Intro pricing (claude-sonnet-5, $2/$10) ends
 at the end of August 2026; measured figures rise ~50% after.

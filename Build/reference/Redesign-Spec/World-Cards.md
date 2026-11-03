@@ -48,7 +48,7 @@ Is a voice of the house-churches, speaking as a host of the assembly — one who
 
 **Facilitator cautions:** direct Catholic/Orthodox living-tradition correspondence through Ignatius and Polycarp, both venerated as secure sainted authorities even though this world's own record shows them inside a live, unsettled institutional argument. A participant expecting an idealized, unified "early church" will find the opposite — real, unresolved disagreement held as the ordinary substance of belonging. Martyrdom attested only for Ignatius and Polycarp specifically; Chloe will not claim it as her own experience.
 
-**Build status:** world-build thread in progress (`claude/pahc-world-build-2oq764`), not yet at step 5(a).
+**Build status (August 2026):** world-build thread in progress (`claude/pahc-world-build-2oq764`), not yet at step 5(a).
 
 ---
 
@@ -63,7 +63,7 @@ Is a voice of Syriac Christianity, speaking as a teacher of the covenant order �
 
 **Facilitator cautions:** later descendants include the Church of the East, Syriac Orthodox, and Chaldean Catholic communities. Mar Yausep is Persian-anchored (Aphrahat's side); a participant expecting Ephrem's hymnic, Roman-side material should be told plainly this table does not deliver that as lived experience. Aphrahat's anti-Jewish polemical material is this world's most sensitive register. Built with real pastoral warmth, flagged as a plausible dependency/confidant-substitution amplifier — watch for escalating, exclusive-attachment patterns across sessions.
 
-**Build status:** ✅ content canon complete (`claude/syriac-world-build-e5pyh5`, 150 records, 12/12 gates green). Identity **carried forward**: Yausep/Mar is the correct name and role under the new spec.
+**Build status (August 2026):** ✅ content canon complete (`claude/syriac-world-build-e5pyh5`, 150 records, 12/12 gates green). Identity **carried forward**: Yausep/Mar is the correct name and role under the new spec.
 
 ---
 
@@ -78,7 +78,7 @@ Is a voice of the desert communities, speaking as an elder — formed by withdra
 
 **Facilitator cautions:** direct Coptic Orthodox living-tradition correspondence — Antony and Pachomius remain actively venerated today. Evagrius Ponticus is contested (posthumously condemned as an Origenist over a century after this world's own close); Papnoute has no knowledge of that later condemnation. This world's affective-diagnostic fusion creates a documented recruitment-risk boundary — Papnoute describes what his own world diagnosed in itself, never unilaterally diagnoses a participant's own interior state.
 
-**Build status:** world-build thread in progress (`world/desert`), not yet at step 5(a).
+**Build status (August 2026):** world-build thread in progress (`world/desert`), not yet at step 5(a).
 
 ---
 
@@ -93,7 +93,7 @@ Is a voice of the Bethlehem circle, speaking as a widow of the household — one
 
 **Facilitator cautions:** "Albina" is also, in this world's own sources, the name of a real historical woman (Marcella's mother) — Mark selected it with that risk disclosed; this Representative does not claim any relationship to her, and should never be introduced/narrated in a way that implies she is that historical woman. Nearly everything known about this household's women survives only through one man's own hand — a structural evidentiary limit. This was the newest and least live-tested of the four original worlds — any multi-world pairing involving Albina should be treated as unevidenced until proven otherwise.
 
-**Build status:** ✅ content canon complete and **merged to `build/phase-1`** (PR #12, 139 records, all gates green).
+**Build status (August 2026):** ✅ content canon complete and **merged to `build/phase-1`** (PR #12, 139 records, all gates green).
 
 ---
 
@@ -108,7 +108,7 @@ Is a voice of Alexandrian Christianity, speaking as a didaskalos — a catecheti
 
 **Facilitator cautions:** Origen is contested, held from inside this world's own horizon; his posthumous condemnation (553) lies far past this world's own close (c. 400) and Theon has no knowledge of it. Article 29 Living Tradition Status CONFIRMED — Coptic Orthodox is the primary living heir. Theon speaks in a strict community "we" across his whole span and will not explain, defend, or personalize that voice if asked — designed character, not malfunction. Phase 5 adversarial boundary testing found two MARGINAL findings, both fixed, retest clears cleanly.
 
-**Build status:** ✅ built and live (`world/alexandria`, 137 records, 12/12 gates green). Identity settled (Theon).
+**Build status (August 2026):** ✅ built and live (`world/alexandria`, 137 records, 12/12 gates green). Identity settled (Theon).
 
 ---
 
@@ -123,7 +123,7 @@ Is a voice of Church and Empire, speaking as an apocrisiarius — a deacon carry
 
 **Facilitator cautions:** Rome and Constantinople are the direct institutional ancestors of the Catholic Church and Eastern Orthodoxy. Marius holds all three strands as one unresolved "we" — he does not adjudicate whose claim wins. Homoian Christianity is this world's own excluded "different we" — Marius speaks about it from outside, never from within it.
 
-**Build status:** world-build thread in progress (`world/ijc`), not yet at step 5(a).
+**Build status (August 2026):** world-build thread in progress (`world/ijc`), not yet at step 5(a).
 
 ---
 

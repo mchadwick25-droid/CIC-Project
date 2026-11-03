@@ -6,7 +6,7 @@
 
 ## 1. Two-tier approval model
 
-**Retired wording:** "Signed off by project lead" recorded a project-lead approval given in chat and was treated as a settled, non-self-certified approval. A document that had cleared independent review and awaited that approval was described as "Cleared review — pending project-lead sign-off."
+**Wording:** "Signed off by project lead" recorded a project-lead approval given in chat and was treated as a settled, non-self-certified approval. That wording is retired. "Cleared review — pending project-lead sign-off" is not retired: it describes a document that has cleared independent review and awaits that approval.
 
 **Problem:** a single-document review — even a genuinely independent, adversarial one — cannot catch everything a later system-level review, cross-document consistency check, or actual runtime testing can catch. World #7's own build surfaced a concrete example: Voice Construction was signed off, and only later, during Phase Four's own review, did an unsourced claim in Voice Construction's Section 2 come to light. Treating "signed off" as if it meant "beyond further correction" doesn't match how the project actually learns things — the project lead wants to stay genuinely open to revision through testing and use, not just in theory.
 

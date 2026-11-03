@@ -363,7 +363,7 @@ uncertainty for this conversation, not just this topic.
 
 # Addendum — the "Conversation Composition System" perspective (second insight)
 
-Mark brought a second perspective the same day ("another perspective, what
+Mark brought a second perspective the same day as the first ("another perspective, what
 do you think?"). Assessment first, then the text verbatim.
 
 ## What it adds that we did not have
