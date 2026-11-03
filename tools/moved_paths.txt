@@ -10,3 +10,8 @@ records/<code>/world_front                    Build/worlds/<code>/surface/world_
 records/<code>/facilitator_brief              Build/worlds/<code>/surface/facilitator_brief
 records/<code>/search_record                  Build/worlds/<code>/build/records/search_record
 Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md   Build/Ministry/Operations/Standing/CiC_Pipeline_Decision_Log.md
+Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md   Build/worlds/cappadocian/build/CAPPADOCIAN_BUILD_LEDGER.md
+Build/worlds/don/scripts   Archive/Retired-World-Build-Scripts/don
+Build/worlds/witt/scripts/wb_witt_s25.py   Archive/Retired-World-Build-Scripts/witt/wb_witt_s25.py
+Build/worlds/don/Representative/don_Rep_Phase5_Probe11_Retest_2026-09-10.json   Build/worlds/don/Review-Artifacts/don_Rep_Phase5_Probe11_Retest_2026-09-10.json
+Build/worlds/don/Representative/don_Rep_Phase5_Probe11_Retest_2026-09-10_Round2.json   Build/worlds/don/Review-Artifacts/don_Rep_Phase5_Probe11_Retest_2026-09-10_Round2.json

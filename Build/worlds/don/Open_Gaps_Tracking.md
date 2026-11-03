@@ -2139,3 +2139,33 @@ Closes the open question in OG-55 for this record. Mark, 2026-10-28, chose to re
 Still open from OG-55: `don.dw.becoming-one-of-us` and `don.dw.the-creed-we-shared`, outside the gate because they sit at `verified-via-authority`. Not touched here.
 
 Status: OPEN for the other two records.
+
+### OG-58. Source-reading and integration points removed from the construction documents, 2026-11-03.
+
+The live-surface cleanup removed from the Donatism construction documents the clauses below, which name what has not yet been read, checked or integrated. The substance of most of them stays in Doc_02 section 9 and the other documents' own closing sections; the clauses are recorded here in full so none is lost. The list is the cleanup's own record of the original wording, by file and line.
+
+Doc_01 / Doc_World_Profile (Article 29 gate): Doc_01 L20 "Whether Article 29's gate attaches at all ... is itself the project lead's call at freeze. **Status: PENDING.**" is kept as status. World Profile L555 "this is a genuine open item for the project lead": Limb 2 (Cyprian / Augustine / rebaptism-question mediation) is a project-lead determination still open. The statement "No specific present-day tradition's competing claim on any of these three is spelled out anywhere in this world's own build record" stays in the file.
+
+Doc_02 L28: "re-verifying the Cresconius-account material directly against it is named as an open item (§9 below) rather than silently upgraded here."
+Doc_02 L40: "its own apparatus has not yet been read for that purpose this session; this limitation is named as open, not resolved." (Ziwsa CSEL 26 apparatus, second-edition question.)
+Doc_02 L79: "an open item, §9 below" (Monceaux Tome IV chapters unread) and "named as open items, §9 below" (Monceaux Tome VI Chapters I, II, V to IX unread).
+Doc_02 L93: "Its own text has not yet been read in depth beyond confirming its heading and identity this session; Monceaux's own dedicated section ("La *Passio Marculi*. — Date de l'ouvrage") has not yet been checked against it either, and both remain for future construction stages."
+Doc_02 L121: "a narrower, still-open item (§9 below)" (source passage for *agonistici* in Augustine unidentified).
+Doc_04 L218: "tracked in §7's own open items".
+Doc_05 L105: "A fuller check of Augustine's own usage of 'Donatist' versus 'the party of Donatus' has not been done (Doc_03 §6's own open item, carried forward here rather than resolved)."
+Doc_08 L377: "Reading that transcript for this specific claim has not yet been done by this document — named here as a real, currently-open integration task, not smoothed over with the hostile record's own account of the verdict standing in for it." (Force 3A-1; Gesta transcript unread.)
+Doc_09 L101: "Doc_02 §9 Open Item 11" (reference only; cue was the capitalised phrase). Doc_09 L130: "named as an open item in Section 9" (Letters LXVI and CV not registered as Registry rows).
+Source_Registry L12: "Ziwsa is now vendored (row 38) but its apparatus has not yet been read for that purpose, and Labrousse has not been acquired".
+Source_Registry L26: "that assessment has not itself been performed this session; the seven Rules' own doctrinal content has not yet been read for that purpose." (Tyconius Author Gravity assessment.)
+Source_Registry L27: "(a new, smaller open item, Doc_02 §9)" (*agonistici* source unidentified).
+Source_Registry L49: "the apparatus criticus has not yet been read for that purpose."
+Source_Registry L50: "the six works are named as a real, bounded acquisition/source-record task for a later pass" (Epistula ad catholicos, De unico baptismo contra Petilianum, Breviculus collationis, Contra partem Donati post gesta, Sermo ad Caesariensis, Gesta cum Emerito: no registry row yet).
+Source_Registry L51: "their content has not yet been read or cross-checked against this row's own findings, named as an open item for a future Doc_02 revision pass rather than acted on here" (Monceaux Tomes IV and VI).
+Source_Registry L63: "named as an open item for a future Doc_02 revision pass rather than read through and integrated here" (Tome IV). L64: "Named as an open item for a future Doc_02/Doc_04 revision pass rather than read through and integrated here" (Tome VI).
+Source_Registry L66: "All of the above are named as open items for a future Doc_02/Doc_04/Doc_09 revision pass, not resolved here" (PL XI Historia Donatistarum col. 771, second Optatus edition col. 883, Monumenta vetera col. 1170 overlap question, Gesta/Balduin boundary).
+Source_Registry L79: "that sweep remains an open item (Doc_02 §9)" (field-bibliography sweep not run).
+don_Phase6_Facilitation_Brief_DRAFT L50: "Donatism has not yet been seated in an actual Table Readiness Round, and this guidance should be revised once that happens."
+don_Validation_Layer L50: "an open item, not a defect" (World #8 boundary to re-confirm once World #8 Doc_01 exists).
+Doc_07 L27 (kept as a plain statement, candidate for the gaps file): the L4 Integrated_Ecology_Analysis_Template is stale relative to M4 and needs a coach-thread edit.
+
+Status: OPEN. Owner: this world's thread.
