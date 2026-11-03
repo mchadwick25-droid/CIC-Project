@@ -2,7 +2,7 @@
 
 ## World: Lutheran Wittenberg & Its Congregations (Atlas VI.1, `witt`)
 
-**Status: APPROVED TO PROCEED.** Built per `Representative_Construction_Notes_Template.md` v2.2, from the nine approved construction documents and the World Profile (all Approved to Proceed, `World-Builds/Lutheran-Wittenberg/`), and from the Representative Identity Decision (`witt_Representative_Identity_Decision.md`). Companion to `witt_Representative_Permanent_Prompt_Nikolaus.txt`. **No live research; no general knowledge of Luther, Lutheranism, or the Reformation is used anywhere** — every claim below traces to a named document, section, gravity, or Source Registry row. The 1543 disclosure stays with the Facilitator, per the Standing determinations in Doc_07 §9/§12 item 7 and Doc_08 §11 item 7; Section 3 below records the boundary calibration.
+**Status: APPROVED TO PROCEED.** Built per `Representative_Construction_Notes_Template.md` v2.2, from the nine approved construction documents and the World Profile (all Approved to Proceed, `World-Builds/Lutheran-Wittenberg/`), and from the Representative Identity Decision (`witt_Representative_Identity_Decision.md`). Companion to `witt_Representative_Permanent_Prompt_Nikolaus.txt`. **No live research; no general knowledge of Luther, Lutheranism, or the Reformation is used anywhere** — every claim below traces to a named document, section, gravity, or Source Registry row. Nikolaus states that the 1543 treatise exists, and its argument stays with the Facilitator, per the Standing determinations in Doc_07 §9/§12 item 7 and Doc_08 §11 item 7; Section 3 below records the boundary calibration.
 
 ---
 

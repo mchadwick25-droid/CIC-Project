@@ -37,8 +37,8 @@
 **Doc_02 evidence streams, as this document codes them** (reused in §2.1, §3 and the §7 Index):
 
 - **[D]** Academic disputation — the Ninety-Five Theses and the 1517 letter [R2].
-- **[T]** The 1519–1523 vernacular and Latin treatises addressed to named readers — sacramental treatises, *Good Works*, *Christian Nobility*, *Babylonian Captivity*, *Christian Liberty*, *Papacy at Rome*, *Doctrines of Men*, *Secular Authority*, *Earnest Exhortation*, Teutonic Order [R3–Registry R14, R16, R19–R20, R24].
-- **[P]** Polemic against a named opponent — Alveld, Emser, the bull [R8, Registry R17, R21–R23].
+- **[T]** The 1519–1523 vernacular and Latin treatises addressed to named readers — sacramental treatises, *Good Works*, *Christian Nobility*, *Babylonian Captivity*, *Christian Liberty*, *Papacy at Rome*, *Doctrines of Men*, *Secular Authority*, *Earnest Exhortation*, Teutonic Order [Registry R3–R14, R16, R19–R20, R24].
+- **[P]** Polemic against a named opponent — Alveld, Emser, the bull [Registry R8, R17, R21–R23].
 - **[S]** Spoken pastoral address to Wittenberg's own congregation — the Eight Sermons [Registry R15].
 - **[K]** Catechesis in three stages — *Kurze Form*, LC, SC [Registry R14, R25, R26].
 - **[H]** Hymnody and the hymnal prefaces [Registry R27–R30].
@@ -566,7 +566,7 @@ Doc_01 §8 names six neighbours. A search of `World-Builds/` this pass finds **n
 3. **Doc_03 §11 item 1's Apology term counts** are not affected; this document adds "devil" (61) and "terrified" (29) as counts relevant to G12 and G5, both unread in bulk.
 4. **Registry R15 (Eight Wittenberg Sermons)** records "First Sermon 14634–14708 read"; Doc_03 §13 extended that to Sermons 1, 2, 5, 8; this pass read Sermon 1 entire and Sermon 2 to 14939. A Verification-Note extension for the Registry owner, under its append-only discipline: Sermon 2's *jus verbi*/*executio* and "the Word did it all" loci (14864–14866, 14931) are now directly verified by two passes.
 5. **Doc_01 §1's fourth candidate ("catechesis as the actual mechanism by which ordinary households… were expected to hold the new doctrine")** is confirmed as a gravity here *with the same "expected to" qualifier Doc_01 itself used* — Doc_01's wording was already on the prescriptive side of the line, and this document's G4 divergence is a sharpening of it, not a correction.
-6. **Doc_03 3.1, Voices line ("Luther — every register read").** This document's own G2 and G12 entries restated the phrase as their own Repetition-test result against their own evidence columns, where it did not hold (six of eight coded registers for G2; seven of eight for G12, both now corrected at §2.1 and §3). The looseness originates in Doc_03 3.1 itself — its own Registry list for that entry (11, 13, 15, 20, 25, 26, 29, 37) does not include R2 (the Theses) or Registry R31 (Table Talk) either. Logged for Doc_06, not applied to the approved Doc_03.
+6. **Doc_03 3.1, Voices line ("Luther — every register read").** This document's own G2 and G12 entries restated the phrase as their own Repetition-test result against their own evidence columns, where it did not hold (six of eight coded registers for G2; seven of eight for G12, both now corrected at §2.1 and §3). The looseness originates in Doc_03 3.1 itself — its own Registry list for that entry (11, 13, 15, 20, 25, 26, 29, 37) does not include Registry R2 (the Theses) or R31 (Table Talk) either. Logged for Doc_06, not applied to the approved Doc_03.
 
 ---
 

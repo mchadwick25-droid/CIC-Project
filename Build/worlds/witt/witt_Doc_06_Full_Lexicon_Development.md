@@ -26,7 +26,7 @@
 
 **Discipline 5 — name the layer (Doc_02 §2; Doc_03 Discipline 2; Doc_04 Discipline 3; Doc_05 Discipline 3).** Editors' sidenotes and introductions (Jacobs, Steinhaeuser, Lambert, Schindel, Steimle, Schmauk, Neve; Bacon; Morley; Cole), Bente/Dau's bracketed German-text insertions in LC and Ap, Smith's modern idiom in SC, Bacon's composite hymn English, Bell's 1646 English in TT, and the OCR-degraded *Bondage* are named as layer wherever drawn on and never counted as a voice. Every hymn phrase is Bacon's English unless the German is quoted; the two Winkworth and Massie pieces Doc_05 §11 item 1 identified are attributed to those hands. Every headword is an English translator's; the original-language forms recorded are only those the vendored English itself shows.
 
-**Discipline 6 — World Meaning is written from inside, at Level 2, under the prescription/reception line (Chunk Template; Constitution Articles 23 and 30; Doc_02 §14; Doc_04 Discipline 5).** Each entry's World Meaning is what a participant receives on request at Level 2: the term's function in the world's own ecology, in accessible language, with no analytical-distance markers ("scholars," "the sources indicate," "reconstruction," "historically," "Lutheran," "the Reformation") inside it — a check run over every World Meaning before this draft was closed. The world's own words are quoted with their loci, because a locus is not an analytical marker. Where a locus inside a World Meaning is carried from a prior document without being re-opened here, it carries the build's standard pointer ("per Doc_03," "per Doc_05 §1.2," "[Registry R45]") — a citation of this build's own verification chain, not an analytical-distance marker, and every *quotation* so pointed was in any case re-verified at its line by the script run over the finished draft (§10). Phase B's chunk authoring should strip these pointers from the runtime World Meaning, as the Hieronymian build did for its own chunks, since a chunk cannot assume the construction record is in view; the Ecological Function and Key Sources sections, which serve Level 3, keep them. **The line Doc_02 §14 drew binds every World Meaning:** what the household or the parish was *to* do is stated as prescription, in the world's own imperative ("is to," "should," "as it is set down"); what the movement *claimed* it did is stated as its claim; nothing is stated as any household's or parish's fact, and G13 is never cited as evidence of what any congregation was like (Doc_04 §3 G13's bar). This document does not choose a Representative voice; where a first-person form appears in a World Meaning it is the world's own quoted "I" (the catechism's, the sermons', the confession's "we"), not this document's.
+**Discipline 6 — World Meaning is written from inside, at Level 2, under the prescription/reception line (Chunk Template; Constitution Articles 23 and 30; Doc_02 §14; Doc_04 Discipline 5).** Each entry's World Meaning is what a participant receives on request at Level 2: the term's function in the world's own ecology, in accessible language, with no analytical-distance markers ("scholars," "the sources indicate," "reconstruction," "historically," "Lutheran," "the Reformation") inside it — a check run over every World Meaning before this draft was closed. The world's own words are quoted with their loci, because a locus is not an analytical marker. Where a locus inside a World Meaning is carried from a prior document without being re-opened here, it carries the build's standard pointer ("per Doc_03," "per Doc_05 §1.2," "[R45]", a Registry row) — a citation of this build's own verification chain, not an analytical-distance marker, and every *quotation* so pointed was in any case re-verified at its line by the script run over the finished draft (§10). Phase B's chunk authoring should strip these pointers from the runtime World Meaning, as the Hieronymian build did for its own chunks, since a chunk cannot assume the construction record is in view; the Ecological Function and Key Sources sections, which serve Level 3, keep them. **The line Doc_02 §14 drew binds every World Meaning:** what the household or the parish was *to* do is stated as prescription, in the world's own imperative ("is to," "should," "as it is set down"); what the movement *claimed* it did is stated as its claim; nothing is stated as any household's or parish's fact, and G13 is never cited as evidence of what any congregation was like (Doc_04 §3 G13's bar). This document does not choose a Representative voice; where a first-person form appears in a World Meaning it is the world's own quoted "I" (the catechism's, the sermons', the confession's "we"), not this document's.
 
 **Discipline 7 — living tradition (Constitution Articles 28–29; Lexicon Framework Part VIII).** This world corresponds to a living tradition. **Every entry below reconstructs its term's function within the bounded window 1517–1545, as the vendored texts attest it, and makes no claim about how the term is used, understood or weighted in Lutheran churches, confessions or communities today.** This applies to every headword still in living use — faith, justification, the Word, catechism, baptism, the Sacrament of the Altar, confession, calling, vocation, the two governments and the rest — and to the two [CT] entries most of all, where present-day usage is one of the named contest types. Rather than repeat this sentence sixty-six times, each Tier 1 and Tier 2 entry carries a one-line "Living tradition" field pointing here; the field is a distinction, not a disclaimer, and it is the entry's own Article 28 statement. Where a Distortion Risk section names a "modern hearing," it names a *reader's* likely assumption, never a living community's self-understanding. Living Tradition Status Confirmation (Article 29) is a freeze-eligibility gate outside this document's scope and is not claimed here.
 
@@ -296,7 +296,7 @@ Organized in Doc_03's own nine thematic clusters, not alphabetically ([59]: "alp
 
 **Key Texts.** v1 1230–1232 (Th. 21), 1253–1254 (Th. 27), 1285–1286 (Th. 36), 1348–1349; 1553–1554 (Jacobs's footnote: Luther "uses the terms 'pardon' and 'indulgence' interchangeably" — layer); LC 3805–3807; Ap 6365–6378.
 
-**Key Sources.** [R2] the Ninety-Five Theses (Jacobs's English, with the file's own corrupted numbering — Doc_03 §0); [Registry R38] Ap XII and VI on satisfactions, read this pass. Author Gravity: none; the Apology's account of what indulgences "formerly" were is the confessional voice's own history, not the founder's.
+**Key Sources.** [Registry R2] the Ninety-Five Theses (Jacobs's English, with the file's own corrupted numbering — Doc_03 §0); [R38] Ap XII and VI on satisfactions, read this pass. Author Gravity: none; the Apology's account of what indulgences "formerly" were is the confessional voice's own history, not the founder's.
 
 **Related Terms.** 1.2 repentance; 1.4 satisfaction; 1.5 purgatory; 1.6 the keys; 2.4 merit; 9.3 assurance; 3.2 Gospel; 6.7 pope/Antichrist.
 
@@ -318,7 +318,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Key Texts.** v1 1154–1160 (Th. 1–2); v1 1522–1524 (Jacobs's fn. [1] — layer); v2 8953–8954, 8976–8977; AC 344–349; Ap 4936–4937, 5068–5074, 5078–5080, 5124–5128; SC 398–400.
 
-**Key Sources.** [R2] the Theses; [Registry R12] *Babylonian Captivity*, the sacrament of penance; [R37] AC XII; [R38] Ap XII, read to 5234 this pass; [R26] SC on baptism. Author Gravity: none — the confessional development is Melanchthon's own, the daily form Luther's, the founding sentence Luther's.
+**Key Sources.** [Registry R2] the Theses; [R12] *Babylonian Captivity*, the sacrament of penance; [R37] AC XII; [R38] Ap XII, read to 5234 this pass; [R26] SC on baptism. Author Gravity: none — the confessional development is Melanchthon's own, the daily form Luther's, the founding sentence Luther's.
 
 **Related Terms.** 1.1 indulgence; 1.3 contrition; 1.4 satisfaction; 1.6 the keys; 2.1 faith; 2.6 Law and Gospel; 2.8 conscience; 5.2 baptism; 5.10 confession/absolution; 9.3 assurance.
 
@@ -366,7 +366,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* that this world never used the word, or that its founder denied it from the first day. *World Hearing:* a word he reasoned inside in 1517 and the movement had refused by 1531 — a real change the entry states rather than flattens.
 
-**Key Texts.** v1 1213–1214; Ap 6363–6377 (read this pass); Hy 975–978, 1015–1017 (Bacon's English). **Key Sources.** [R2]; [Registry R38]; [R28] the 1542 preface. Author Gravity: none.
+**Key Texts.** v1 1213–1214; Ap 6363–6377 (read this pass); Hy 975–978, 1015–1017 (Bacon's English). **Key Sources.** [Registry R2]; [R38]; [R28] the 1542 preface. Author Gravity: none.
 
 **Related Terms.** 1.1 indulgence; 1.6 the keys; 9.4 death.
 
@@ -398,7 +398,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* "the cross" as a system ("theology of the cross") or as voluntary austerity. *World Hearing:* affliction sent, not chosen; a banner and a battle, not a method.
 
-**Key Texts.** v1 1506–1518; AC 1043–1046; Ap 6938–6944 (read this pass). **Key Sources.** [R2]; [Registry R37] AC XXVI; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** v1 1506–1518; AC 1043–1046; Ap 6938–6944 (read this pass). **Key Sources.** [Registry R2]; [R37] AC XXVI; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 5.2 baptism; 9.2 temptation; 8.5 perfection; 4.7 the devil.
 
@@ -422,7 +422,7 @@ In the parish the word is preached as received: the second of the "chief things"
 
 **Key Texts.** v1 6834–6842; v2 7341–7344; v2 11713–11714, 11720–11722; v2 14657–14664, 14689–14690, 14790–14792; LC 3916–3921; AC 234–239, 568–583; Ap 898–935, 1045–1048, 1091–1104, 1114–1122; Hy 1284–1293 (Bacon's English).
 
-**Key Sources.** [R6] *Good Works*; [Registry R12] *Babylonian Captivity*; [R13] *Christian Liberty*; [R15] the Sermons; [R25] LC; [R37] AC IV, XX; [R38] Ap IV, read this pass to 1457 — the article's later reply to the adversaries (1457–4183) unread; [R27] Hymn I. Author Gravity: none — the safest vocabulary in the lexicon (Doc_03 §10.1).
+**Key Sources.** [Registry R6] *Good Works*; [R12] *Babylonian Captivity*; [R13] *Christian Liberty*; [R15] the Sermons; [R25] LC; [R37] AC IV, XX; [R38] Ap IV, read this pass to 1457 — the article's later reply to the adversaries (1457–4183) unread; [R27] Hymn I. Author Gravity: none — the safest vocabulary in the lexicon (Doc_03 §10.1).
 
 **Related Terms.** 2.2 justification; 2.3 good works; 2.5 grace; 2.7 promise/testament; 2.8 conscience; 2.6 Law and Gospel; 2.10 sin; 3.1 the Word; 5.1 sacrament; 5.11 worthy/examination; 7.5 must and free; 4.4 to have a god; 9.3 assurance; 1.2 repentance; 5.4 for you; 6.8 sects; 8.1 vows; 9.2 temptation.
 
@@ -462,7 +462,7 @@ The word's purpose, in this world, is certainty. "In this they have sure and fir
 
 **Distortion Risk.** *Modern Hearing:* "works" as charity or ritual, and "faith alone" as their abolition. *World Hearing:* the whole of ordinary life, commanded and therefore good in faith; necessary, and worth nothing as a price.
 
-**Key Texts.** v1 6817–6818, 6863–6870; AC 496, 585–587; Ap 1101–1103, 6788–6793. **Key Sources.** [R6] *Good Works* (opening only read, 6713–6882; the treatise's Decalogue exposition, v1 6883–10599, unread); [Registry R38]. Author Gravity: none.
+**Key Texts.** v1 6817–6818, 6863–6870; AC 496, 585–587; Ap 1101–1103, 6788–6793. **Key Sources.** [Registry R6] *Good Works* (opening only read, 6713–6882; the treatise's Decalogue exposition, v1 6883–10599, unread); [R38]. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.2 justification; 2.4 merit; 6.4 calling; 6.3 office; 8.5 perfection; 4.6 neighbor.
 
@@ -534,7 +534,7 @@ At the altar the promise has a name. "A testament, as every one knows, is a prom
 
 **Key Texts.** v1 11044–11053; v2 7292–7294, 7305–7344; AC 367–372; Ap 928–935, 6434–6444 (read this pass); LC 3121–3123, 4370–4373.
 
-**Key Sources.** [R7] *New Testament*; [Registry R12] *Babylonian Captivity*; [R37] AC XIII; [R38] Ap IV, XIII; [R25] LC. Author Gravity: none.
+**Key Sources.** [Registry R7] *New Testament*; [R12] *Babylonian Captivity*; [R37] AC XIII; [R38] Ap IV, XIII; [R25] LC. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.2 justification; 2.6 Law and Gospel; 5.1 sacrament; 5.3 Sacrament of the Altar; 5.6 the mass; 5.10 confession/absolution; 9.5 prayer; 9.3 assurance; 3.1 the Word; 3.2 Gospel; 5.4 for you.
 
@@ -628,7 +628,7 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Distortion Risk.** *Modern Hearing:* "the Gospel" as the four books, or as Christianity in general. *World Hearing:* the promise of forgiveness for Christ's sake specifically — the treasure the indulgence-sellers had buried, and a light this world experienced as risen again.
 
-**Key Texts.** v1 1387–1388; AC 277–279; Ap 861–863; Hy 911–912. **Key Sources.** [R2]; [Registry R37] AC VII; [R28]. Author Gravity: none.
+**Key Texts.** v1 1387–1388; AC 277–279; Ap 861–863; Hy 911–912. **Key Sources.** [Registry R2]; [R37] AC VII; [R28]. Author Gravity: none.
 
 **Related Terms.** 2.6 Law and Gospel; 2.7 promise/testament; 3.1 the Word; 5.8 congregation; 1.1 indulgence.
 
@@ -644,7 +644,7 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Distortion Risk.** *Modern Hearing:* "Scripture alone" as a slogan meaning the Fathers and councils are worthless, or as private interpretation. *World Hearing:* the Fathers as witnesses to be judged by Scripture's light and cited as corroboration; a rule stated with two voices — one sharp, one additive — and never as a Latin formula.
 
-**Key Texts.** v1 268–269, 283–294; v2 2384–2390, 2413–2416; AC 534–537, 631–633. **Key Sources.** [R1] the 1539 preface; [Registry R11]; [R37] AC XX–XXI. Author Gravity: Luther-only for the sharp form — disclosed.
+**Key Texts.** v1 268–269, 283–294; v2 2384–2390, 2413–2416; AC 534–537, 631–633. **Key Sources.** [Registry R1] the 1539 preface; [R11]; [R37] AC XX–XXI. Author Gravity: Luther-only for the sharp form — disclosed.
 
 **Related Terms.** 3.1 the Word; 3.4 doctrines of men; 3.5 letter and spirit; 6.2 we are all priests; 6.7 pope/Antichrist; 1.6 the keys.
 
@@ -870,7 +870,7 @@ How a sacrament is used is by faith, and only by faith: "faith clings to the wat
 
 **Key Texts.** v2 220–228; v1 2271–2272; v2 6695–6701, 7341–7344, 15446–15447; LC 3861–3864, 3921–3922, 4070–4071; AC 367–372; Ap 6415–6455, 6510–6552 (read this pass).
 
-**Key Sources.** [R9] *Blessed Sacrament* (1519); [R3] *Baptism* (1519); [Registry R12] *Babylonian Captivity*; [R25] LC Baptism and Sacrament; [R37] AC XIII; [R38] Ap XIII, read entire. Author Gravity: none.
+**Key Sources.** [Registry R9] *Blessed Sacrament* (1519); [R3] *Baptism* (1519); [R12] *Babylonian Captivity*; [R25] LC Baptism and Sacrament; [R37] AC XIII; [R38] Ap XIII, read entire. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.7 promise/testament; 3.1 the Word; 5.2 baptism; 5.3 Sacrament of the Altar; 5.4 for you; 5.6 the mass; 5.7 transubstantiation; 5.8 congregation; 5.10 confession/absolution; 5.11 worthy/examination; 6.8 sects; 4.1 catechism.
 
@@ -886,7 +886,7 @@ How a sacrament is used is by faith, and only by faith: "faith clings to the wat
 
 **Distortion Risk.** *Modern Hearing:* a one-time naming rite, or a personal decision. *World Hearing:* a death begun that is repeated every morning, the ground of every Christian's priesthood, a comfort to be reached for on the deathbed, and the thing a vow may not equal.
 
-**Key Texts.** v1 2247–2257, 2319–2321; SC 398–400; LC 3789–3791, 3921–3922, 3840–3842; v2 2176–2177, 2214–2216, 15715–15717; Ap 9732–9736 (read this pass). **Key Sources.** [R3] *Baptism* (opening only, v1 2243–2422; the rest, 2423–2855, unread); [Registry R25] LC Baptism (opening only, 3760–3925; 3926–4032 unread); [R26]; [R11]. Author Gravity: none.
+**Key Texts.** v1 2247–2257, 2319–2321; SC 398–400; LC 3789–3791, 3921–3922, 3840–3842; v2 2176–2177, 2214–2216, 15715–15717; Ap 9732–9736 (read this pass). **Key Sources.** [Registry R3] *Baptism* (opening only, v1 2243–2422; the rest, 2423–2855, unread); [R25] LC Baptism (opening only, 3760–3925; 3926–4032 unread); [R26]; [R11]. Author Gravity: none.
 
 **Related Terms.** 5.1 sacrament; 1.2 repentance; 4.8 daily; 6.2 we are all priests; 8.1 vows; 6.8 sects; 9.4 death; 5.10 confession/absolution; 1.7 the cross; 2.10 sin.
 
@@ -986,7 +986,7 @@ The word is also a sanction and a scandal. The "brotherhoods" of the 1519 title 
 
 **Key Texts.** v2 263–297; LC 2800–2802, 2822–2864, 2887–2889; AC 277–279, 795–797, 1339–1340; Ap 6592–6594 (read this pass); v2 7235–7236; v2 15629–15631, 15646; v1 14739–14745, 14789–14793 (Steimle — layer).
 
-**Key Sources.** [R9] *Blessed Sacrament*; [Registry R10] *The Ban*; [R25] LC Creed, Third Article; [R37] AC VII; [R38] Ap XIV; [R8] *Papacy at Rome* footnotes; [R87] the translators' glossing footnotes. Author Gravity: none.
+**Key Sources.** [Registry R9] *Blessed Sacrament*; [R10] *The Ban*; [R25] LC Creed, Third Article; [R37] AC VII; [R38] Ap XIV; [R8] *Papacy at Rome* footnotes; [R87] the translators' glossing footnotes. Author Gravity: none.
 
 **Related Terms.** 5.1 sacrament; 5.3 Sacrament of the Altar; 5.9 the ban; 5.11 worthy/examination; 6.6 Christendom; 6.5 pastor; 6.3 office; 6.7 pope/Antichrist; 3.1 the Word; 3.2 Gospel; 8.7 saints.
 
@@ -1136,7 +1136,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Distortion Risk.** *Modern Hearing:* "Christendom" as a political order or a civilization. *World Hearing:* the whole assembly of Christians, wider than any pope's confirmation, named in preference to "Church."
 
-**Key Texts.** v1 12786–12819; v2 2298–2300, 2407–2411; LC 2840–2843; Ap 5625–5627. **Key Sources.** [R8] *Papacy at Rome*; [Registry R11]; [R25]; [R38]. Author Gravity: weighted to Luther — disclosed.
+**Key Texts.** v1 12786–12819; v2 2298–2300, 2407–2411; LC 2840–2843; Ap 5625–5627. **Key Sources.** [Registry R8] *Papacy at Rome*; [R11]; [R25]; [R38]. Author Gravity: weighted to Luther — disclosed.
 
 **Related Terms.** 5.8 congregation; 6.7 pope/Antichrist; 4.7 the devil; 7.1 two governments; 6.9 the Turk.
 
@@ -1458,7 +1458,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* assurance as self-confidence, or as presumption; "certain" as proven. *World Hearing:* a certainty grounded outside the self, in a promise that "cannot fail or deceive me," against the self-torture of "one week trails another"; the whole doctrine's purpose.
 
-**Key Texts.** v1 1348–1349, 6845–6852; v2 15722–15724; SC 351–352; Ap 1186–1209, 1430–1442; TT 3052–3064 (Bell's English); LC 3738–3749. **Key Sources.** [R2]; [R6]; [Registry R15]; [R26]; [R38]; [R31]; [R25] LC Prayer (read at Doc_05). Author Gravity: none.
+**Key Texts.** v1 1348–1349, 6845–6852; v2 15722–15724; SC 351–352; Ap 1186–1209, 1430–1442; TT 3052–3064 (Bell's English); LC 3738–3749. **Key Sources.** [Registry R2]; [R6]; [R15]; [R26]; [R38]; [R31]; [R25] LC Prayer (read at Doc_05). Author Gravity: none.
 
 **Related Terms.** 2.8 conscience; 2.2 justification; 2.7 promise/testament; 9.1 comfort; 9.5 prayer; 1.1 indulgence; 2.1 faith; 1.2 repentance; 2.6 Law and Gospel.
 
@@ -1517,27 +1517,27 @@ The project's lexicon-index discipline asks that tier, tag, [CT] status and Auth
 
 | # | Term | Doc_03 | Doc_06 | Δ | AS | SC | DR | TC | RT | PV | CT | CT type | RES | AG risk | Registry rows | Related |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1.1 | indulgence / pardon / "letters of pardon" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R1, R2, Registry R12, R25, R38 | 8 |
-| 1.2 | repentance / penance (*Poenitentiam agite*) | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R2, Registry R12, R25, R26, R37, R38 | 10 |
-| 1.3 | contrition / attrition | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R2, Registry R12, R37, R38 | 4 |
-| 1.4 | satisfaction — two referents | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Alias problem (see entry) | R2, Registry R37, R38 | 5 |
-| 1.5 | purgatory | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R2, Registry R28, R38 | 3 |
-| 1.6 | the keys / power of the keys | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R2, Registry R11, R12, R37, R38 | 9 |
-| 1.7 | the cross — "Cross, cross"; bearing affliction | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R2, R3, Registry R37 | 4 |
-| 2.1 | faith / "faith alone" / "by faith alone" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R6, Registry R12, R13, R15, R25, R37, R38 | 18 |
+| 1.1 | indulgence / pardon / "letters of pardon" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R1, R2, R12, R25, R38 | 8 |
+| 1.2 | repentance / penance (*Poenitentiam agite*) | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R2, R12, R25, R26, R37, R38 | 10 |
+| 1.3 | contrition / attrition | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | Registry R2, R12, R37, R38 | 4 |
+| 1.4 | satisfaction — two referents | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Alias problem (see entry) | Registry R2, R37, R38 | 5 |
+| 1.5 | purgatory | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R2, R28, R38 | 3 |
+| 1.6 | the keys / power of the keys | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R2, R11, R12, R37, R38 | 9 |
+| 1.7 | the cross — "Cross, cross"; bearing affliction | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R2, R3, R37 | 4 |
+| 2.1 | faith / "faith alone" / "by faith alone" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R6, R12, R13, R15, R25, R37, R38 | 18 |
 | 2.2 | justification / to justify / "the righteousness of faith" | 1 | 1 |  |  | Y | Y | Y | Y |  | Y | filled |  | Weighted | Registry R13, R34, R37, R38 | 11 |
-| 2.3 | good works / "works" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R6, Registry R13, R37, R38 | 7 |
-| 2.4 | merit (*meritum congrui* / *meritum condigni*) | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R2, Registry R13, R27, R37, R38 | 7 |
+| 2.3 | good works / "works" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R2, R6, R13, R37, R38 | 7 |
+| 2.4 | merit (*meritum congrui* / *meritum condigni*) | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | Registry R2, R13, R27, R37, R38 | 7 |
 | 2.5 | grace / "gracious God" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R12, R15, R25, R26, R27, R37 | 5 |
 | 2.6 | Law and Gospel — "commands and promises" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | Registry R13, R14, R20, R25, R38 | 12 |
-| 2.7 | promise / testament | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R4, R7, Registry R12, R25, R37, R38 | 12 |
-| 2.8 | conscience — "terrified," "anxious," "captive" consciences | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R4, Registry R15, R16, R18, R25, R31, R37, R38 | 15 |
+| 2.7 | promise / testament | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | Registry R4, R7, R12, R25, R37, R38 | 12 |
+| 2.8 | conscience — "terrified," "anxious," "captive" consciences | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R4, R15, R16, R18, R25, R31, R37, R38 | 15 |
 | 2.9 | free will / bondage / "assertion" | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Yes — single-voice/register | Registry R12, R27, R34, R37 | 5 |
 | 2.10 | sin / original sin — "born with sin" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R26, R37 | 6 |
 | 3.1 | the Word / Word of God — "the Word must do it" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R11, R13, R15, R20, R25, R26, R29, R37 | 18 |
-| 3.2 | Gospel | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, Registry R13, R19, R25, R28, R37 | 5 |
-| 3.3 | Scripture against Fathers, Councils and pope — "the Bible… under the bench" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | R1, Registry R11, R16, R23, R31, R34, R37 | 6 |
-| 3.4 | doctrines of men / human traditions (*Menschenlehren*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R2, Registry R11, R12, R16, R37, R38 | 9 |
+| 3.2 | Gospel | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R2, R13, R19, R25, R28, R37 | 5 |
+| 3.3 | Scripture against Fathers, Councils and pope — "the Bible… under the bench" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R1, R11, R16, R23, R31, R34, R37 | 6 |
+| 3.4 | doctrines of men / human traditions (*Menschenlehren*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R2, R11, R12, R16, R37, R38 | 9 |
 | 3.5 | the letter and the spirit / the literal sense | 2 | 2 |  |  | Y |  | Y |  |  |  |  |  | Yes — single-voice/register | Registry R23, R63 | 4 |
 | 3.6 | Christ alone — "Hear ye Him" | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R13, R16, R37 | 4 |
 | 4.1 | catechism / "the three parts" / "the five parts" | 1 | 1 |  |  | Y |  | Y | Y |  |  |  | Y | No | Registry R14, R25, R26, R31, R37, R38 | 15 |
@@ -1546,29 +1546,29 @@ The project's lexicon-index discipline asks that tier, tag, [CT] status and Auth
 | 4.4 | "to have a god is to trust" — god, idol, Mammon | 1 | 2 | ↓ | Y |  | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R25, R26, R31 | 5 |
 | 4.5 | "fear and love God" / "fear, love, and trust" | 2 | 3 | ↓ |  | Y |  |  | Y |  |  |  |  | No | Registry R25, R26, R37 | 0 |
 | 4.6 | neighbor | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R14, R15, R25, R26, R38 | 5 |
-| 4.7 | the devil — "the old evil foe," "a liar and murderer" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | R1, Registry R15, R25, R26, R29, R31, R37 | 15 |
+| 4.7 | the devil — "the old evil foe," "a liar and murderer" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R1, R15, R25, R26, R29, R31, R37 | 15 |
 | 4.8 | daily — "daily bread," "daily sorrow and repentance," daily reading | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | Registry R25, R26 | 7 |
 | 4.9 | hymn / "spiritual songs" / German singing | 2 | 1 | ↑ |  | Y | Y |  | Y |  |  |  | Y | No | Registry R25, R26, R27, R28, R37, R38, R45, R47 | 10 |
-| 5.1 | sacrament — "sign, significance, and faith"; "the Word joined to the element" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R3, R9, Registry R12, R25, R37, R38 | 13 |
-| 5.2 | baptism (*Taufe*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R3, Registry R11, R15, R25, R26, R37 | 10 |
-| 5.3 | the Sacrament of the Altar / Lord's Supper / "the bread" — "in and under" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R9, Registry R12, R25, R26, R37, R38, R56 | 14 |
+| 5.1 | sacrament — "sign, significance, and faith"; "the Word joined to the element" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R3, R9, R12, R25, R37, R38 | 13 |
+| 5.2 | baptism (*Taufe*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R3, R11, R15, R25, R26, R37 | 10 |
+| 5.3 | the Sacrament of the Altar / Lord's Supper / "the bread" — "in and under" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | Registry R9, R12, R25, R26, R37, R38, R56 | 14 |
 | 5.4 | "given for you" — "for you" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R12, R25, R26, R38 | 5 |
-| 5.5 | both kinds / the cup | 2 | 2 |  |  | Y |  | Y | Y |  |  |  |  | No | R9, Registry R12, R15, R37, R43 | 5 |
-| 5.6 | the mass — sacrifice, "good work," private mass, "evangelical mass" | 1 | 2 | ↓ |  | Y | Y | Y | Y | Y |  |  |  | No | R7, Registry R12, R15, R28, R37, R38, R43, R59 | 9 |
+| 5.5 | both kinds / the cup | 2 | 2 |  |  | Y |  | Y | Y |  |  |  |  | No | Registry R9, R12, R15, R37, R43 | 5 |
+| 5.6 | the mass — sacrifice, "good work," private mass, "evangelical mass" | 1 | 2 | ↓ |  | Y | Y | Y | Y | Y |  |  |  | No | Registry R7, R12, R15, R28, R37, R38, R43, R59 | 9 |
 | 5.7 | transubstantiation — "a monstrous word" | 3 | 3 |  |  | Y |  | Y |  |  |  |  |  | Yes — single-voice/register | Registry R12 | 0 |
-| 5.8 | fellowship / communion / congregation of saints (*communio*, *Gemeinde*) — and "brotherhoods" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R8, R9, Registry R10, R12, R25, R37, R87 | 11 |
+| 5.8 | fellowship / communion / congregation of saints (*communio*, *Gemeinde*) — and "brotherhoods" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R8, R9, R10, R12, R25, R37, R87 | 11 |
 | 5.9 | the ban / excommunication | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | Registry R10, R15, R37 | 4 |
-| 5.10 | confession / absolution — "many absolutions" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R4, Registry R15, R26, R37, R38 | 10 |
+| 5.10 | confession / absolution — "many absolutions" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R4, R15, R26, R37, R38 | 10 |
 | 5.11 | worthy / unworthy — examination before the sacrament | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R25, R26, R37, R38 | 11 |
 | 6.1 | spiritual estate / temporal estate — "the Christian Estate" | 1 | 2 | ↓ | Y |  | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R10, R11, R14, R19, R24, R25, R38 | 7 |
 | 6.2 | "we are all priests" — the royal priesthood | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | Weighted | Registry R11, R12, R30, R37, R38 | 11 |
 | 6.3 | office / office-holder | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R11, R12, R25, R37 | 8 |
 | 6.4 | calling / "regularly called" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | Registry R15, R31, R37, R38 | 11 |
 | 6.5 | pastor / preacher / "care-takers of souls" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R15, R25, R26, R31, R37, R38 | 11 |
-| 6.6 | Christendom (*Christenheit*) — the one holy Christian Church | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | R6, R8, Registry R11, R25, R38, R87 | 5 |
-| 6.7 | pope / papacy / papist / Romanist / "Antichrist" — and "the Church of Rome" | 1 | 2 | ↓ |  | Y | Y |  | Y | Y |  |  |  | No | R1, R8, Registry R11, R12, R25, R31, R37, R38 | 10 |
-| 6.8 | sects / "new spirits" / fanatics / enthusiasts / Anabaptists | 2 | 2 |  |  | Y | Y | Y | Y |  |  |  |  | No | R7, Registry R25, R28, R34, R37, R38 | 12 |
-| 6.9 | the Turk | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | R7, Registry R25, R31, R37 | 0 |
+| 6.6 | Christendom (*Christenheit*) — the one holy Christian Church | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | Registry R6, R8, R11, R25, R38, R87 | 5 |
+| 6.7 | pope / papacy / papist / Romanist / "Antichrist" — and "the Church of Rome" | 1 | 2 | ↓ |  | Y | Y |  | Y | Y |  |  |  | No | Registry R1, R8, R11, R12, R25, R31, R37, R38 | 10 |
+| 6.8 | sects / "new spirits" / fanatics / enthusiasts / Anabaptists | 2 | 2 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R7, R25, R28, R34, R37, R38 | 12 |
+| 6.9 | the Turk | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R7, R25, R31, R37 | 0 |
 | 7.1 | the two governments / "kingdom of God" and "kingdom of the world" — and *Bondage*'s "two kingdoms" | 1 | 1 |  | Y |  | Y | Y | Y |  | Y | filled |  | No | Registry R15, R20, R29, R34, R37 | 15 |
 | 7.2 | the sword / temporal sword / secular authority | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R10, R11, R20, R37 | 5 |
 | 7.3 | obedience / "obey God rather than men" / honor | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R11, R25, R26, R31, R37 | 5 |
@@ -1576,16 +1576,16 @@ The project's lexicon-index discipline asks that tier, tag, [CT] status and Auth
 | 7.5 | "must" and "free" — Christian liberty, the weak in faith, offence | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R13, R15, R16, R25, R37, R38 | 17 |
 | 8.1 | vow / monastic vows | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R12, R16, R24, R25, R37, R38, R61 | 10 |
 | 8.2 | chastity — "false chastity," "unchaste chastity," "the true chastity of wedlock" | 2 | 2 |  | Y |  | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R24, R25, R37, R38 | 4 |
-| 8.3 | marriage / matrimony / "the married estate" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | R9, Registry R24, R25, R26, R31, R37, R38 | 11 |
+| 8.3 | marriage / matrimony / "the married estate" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R9, R24, R25, R26, R31, R37, R38 | 11 |
 | 8.4 | "spiritual" / "spirituality" (*Geysterey*) / the orders | 2 | 2 |  | Y |  | Y | Y |  |  |  |  |  | No | Registry R11, R16, R24, R25, R37, R38 | 6 |
 | 8.5 | perfection / "evangelical counsels" / "state of perfection" | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Weighted | Registry R20, R37, R38 | 7 |
 | 8.6 | fasting / meats / fast-days / "butter-letters" | 3 | 2 | ↑ |  | Y | Y |  | Y |  |  |  |  | No | Registry R16, R25, R26, R37, R38 | 5 |
-| 8.7 | saints — invocation, "helper in need," "the memory of saints" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R2, Registry R25, R30, R31, R37, R38 | 6 |
+| 8.7 | saints — invocation, "helper in need," "the memory of saints" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R2, R25, R30, R31, R37, R38 | 6 |
 | 8.8 | images | 3 | 2 | ↑ |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R15, R16, R28, R38, R43 | 5 |
-| 9.1 | comfort / consolation | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R3, R5, Registry R15, R25, R27, R28, R37, R38 | 7 |
+| 9.1 | comfort / consolation | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R3, R5, R15, R25, R27, R28, R37, R38 | 7 |
 | 9.2 | temptation / trial — "the devil, the world, and the flesh" (*Bekoerunge*) | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R13, R15, R25, R26, R31, R38 | 6 |
-| 9.3 | assurance / "sure" / "certain" — against despair and "conditionally" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R4, R6, Registry R15, R26, R27, R31, R37, R38 | 9 |
-| 9.4 | death — "a deep, sound, sweet sleep"; burial | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R3, Registry R15, R26, R28, R38 | 7 |
+| 9.3 | assurance / "sure" / "certain" — against despair and "conditionally" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R2, R4, R6, R15, R26, R27, R31, R37, R38 | 9 |
+| 9.4 | death — "a deep, sound, sweet sleep"; burial | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R3, R15, R26, R28, R38 | 7 |
 | 9.5 | prayer — "Need teacheth to pray"; commandment, promise, form | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R14, R15, R25, R26, R31, R37, R38 | 10 |
 | 9.6 | martyr — "the two youths" | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | Registry R30 | 0 |
 | 9.7 | patience — "my whole life is nothing but patience" | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R15, R25, R31, R38 | 0 |
