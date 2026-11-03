@@ -310,7 +310,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 23
+    "fused_seeds": 24
    }
   },
   {
@@ -323,7 +323,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 26
+    "fused_seeds": 23
    }
   },
   {
@@ -336,7 +336,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 28
+    "fused_seeds": 27
    }
   },
   {
@@ -349,7 +349,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 28
+    "fused_seeds": 27
    }
   },
   {
@@ -362,7 +362,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 29
+    "fused_seeds": 30
    }
   },
   {
@@ -388,7 +388,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 14
+    "fused_seeds": 17
    }
   },
   {
@@ -490,9 +490,9 @@
    "rank": {
     "keyword_unlensed": null,
     "keyword": null,
-    "meaning": 60,
-    "fused": 116,
-    "fused_seeds": 117
+    "meaning": 61,
+    "fused": 119,
+    "fused_seeds": 120
    }
   },
   {
@@ -504,8 +504,8 @@
     "keyword_unlensed": 50,
     "keyword": 47,
     "meaning": 8,
-    "fused": 10,
-    "fused_seeds": 10
+    "fused": 4,
+    "fused_seeds": 4
    }
   },
   {
@@ -653,7 +653,7 @@
   }
  ],
  "lens_passages": 22004,
- "windows": 34251,
+ "windows": 34506,
  "summary": {
   "total_cases": 50,
   "gold_in_lens": 27,
@@ -674,17 +674,45 @@
     "20": 1
    },
    "fused": {
-    "5": 0,
+    "5": 1,
     "10": 1,
     "20": 1
    },
    "fused_seeds": {
-    "5": 0,
+    "5": 1,
     "10": 1,
     "20": 2
    }
   },
-  "paired": {
+  "total_queries": 50,
+  "query_hits": {
+   "keyword_unlensed": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "keyword": {
+    "5": 0,
+    "10": 0,
+    "20": 0
+   },
+   "meaning": {
+    "5": 0,
+    "10": 1,
+    "20": 1
+   },
+   "fused": {
+    "5": 1,
+    "10": 1,
+    "20": 1
+   },
+   "fused_seeds": {
+    "5": 1,
+    "10": 1,
+    "20": 2
+   }
+  },
+  "paired_at_query_level": {
    "meaning vs keyword @5": {
     "wins": 0,
     "losses": 0,
@@ -704,7 +732,7 @@
     "better_at_99": false
    },
    "fused vs keyword @5": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "p": 1.0,
     "better_at_99": false
@@ -722,7 +750,7 @@
     "better_at_99": false
    },
    "fused vs meaning @5": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "p": 1.0,
     "better_at_99": false

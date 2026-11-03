@@ -491,8 +491,8 @@
     "keyword_unlensed": 39,
     "keyword": 32,
     "meaning": 9,
-    "fused": 26,
-    "fused_seeds": 25
+    "fused": 24,
+    "fused_seeds": 23
    }
   },
   {
@@ -543,8 +543,8 @@
     "keyword_unlensed": 72,
     "keyword": 55,
     "meaning": 7,
-    "fused": 25,
-    "fused_seeds": 23
+    "fused": 12,
+    "fused_seeds": 22
    }
   },
   {
@@ -959,8 +959,8 @@
     "keyword_unlensed": 45,
     "keyword": 38,
     "meaning": 44,
-    "fused": 12,
-    "fused_seeds": 12
+    "fused": 13,
+    "fused_seeds": 13
    }
   },
   {
@@ -1401,8 +1401,8 @@
     "keyword_unlensed": 13,
     "keyword": 13,
     "meaning": 2,
-    "fused": 6,
-    "fused_seeds": 6
+    "fused": 10,
+    "fused_seeds": 10
    }
   },
   {
@@ -2454,8 +2454,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 6,
-    "fused": 5,
-    "fused_seeds": 5
+    "fused": 6,
+    "fused_seeds": 6
    }
   },
   {
@@ -2688,8 +2688,8 @@
     "keyword_unlensed": 19,
     "keyword": 17,
     "meaning": 3,
-    "fused": 1,
-    "fused_seeds": 1
+    "fused": 4,
+    "fused_seeds": 4
    }
   },
   {
@@ -2766,8 +2766,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 6,
-    "fused": 20,
-    "fused_seeds": 20
+    "fused": 24,
+    "fused_seeds": 24
    }
   },
   {
@@ -3755,7 +3755,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 28
+    "fused_seeds": 26
    }
   },
   {
@@ -3781,7 +3781,7 @@
     "keyword": null,
     "meaning": 14,
     "fused": 42,
-    "fused_seeds": 27
+    "fused_seeds": 30
    }
   },
   {
@@ -3794,7 +3794,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 26
+    "fused_seeds": 30
    }
   },
   {
@@ -3807,7 +3807,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 29
+    "fused_seeds": 30
    }
   },
   {
@@ -3820,7 +3820,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 29
+    "fused_seeds": 30
    }
   },
   {
@@ -4301,7 +4301,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 16
+    "fused_seeds": 19
    }
   },
   {
@@ -4898,8 +4898,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 1,
-    "fused": 9,
-    "fused_seeds": 9
+    "fused": 7,
+    "fused_seeds": 7
    }
   },
   {
@@ -4911,8 +4911,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 1,
-    "fused": 9,
-    "fused_seeds": 9
+    "fused": 7,
+    "fused_seeds": 7
    }
   },
   {
@@ -5054,8 +5054,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 1,
-    "fused": 16,
-    "fused_seeds": 16
+    "fused": 19,
+    "fused_seeds": 19
    }
   },
   {
@@ -5067,8 +5067,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 1,
-    "fused": 16,
-    "fused_seeds": 16
+    "fused": 19,
+    "fused_seeds": 19
    }
   },
   {
@@ -5509,8 +5509,8 @@
     "keyword_unlensed": 4,
     "keyword": 2,
     "meaning": 62,
-    "fused": 11,
-    "fused_seeds": 11
+    "fused": 14,
+    "fused_seeds": 14
    }
   },
   {
@@ -5821,8 +5821,8 @@
     "keyword_unlensed": 41,
     "keyword": 27,
     "meaning": 5,
-    "fused": 3,
-    "fused_seeds": 3
+    "fused": 10,
+    "fused_seeds": 10
    }
   },
   {
@@ -6224,8 +6224,8 @@
     "keyword_unlensed": 75,
     "keyword": 34,
     "meaning": 20,
-    "fused": 30,
-    "fused_seeds": 30
+    "fused": 18,
+    "fused_seeds": 17
    }
   },
   {
@@ -6341,8 +6341,8 @@
     "keyword_unlensed": 30,
     "keyword": 27,
     "meaning": null,
-    "fused": 55,
-    "fused_seeds": 57
+    "fused": 56,
+    "fused_seeds": 58
    }
   },
   {
@@ -6549,7 +6549,7 @@
     "keyword_unlensed": 19,
     "keyword": 13,
     "meaning": null,
-    "fused": 18,
+    "fused": 21,
     "fused_seeds": 32
    }
   },
@@ -6809,8 +6809,8 @@
     "keyword_unlensed": 65,
     "keyword": 51,
     "meaning": 76,
-    "fused": 24,
-    "fused_seeds": 24
+    "fused": 23,
+    "fused_seeds": 23
    }
   },
   {
@@ -6849,7 +6849,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 29
+    "fused_seeds": 30
    }
   },
   {
@@ -6888,124 +6888,124 @@
     "keyword": null,
     "meaning": 27,
     "fused": 49,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-14",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-14",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-14",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 27
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-19",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-19",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-19",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 27
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-20",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-20",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-20",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
     "fused_seeds": 28
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-14",
-   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": null
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-14",
-   "record_id": "lpc.term.preaching",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": null
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-14",
-   "record_id": "lpc.limit.ordinary-interior-life",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": 12
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-19",
-   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": null
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-19",
-   "record_id": "lpc.term.preaching",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": null
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-19",
-   "record_id": "lpc.limit.ordinary-interior-life",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": 19
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-20",
-   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": null
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-20",
-   "record_id": "lpc.term.preaching",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": null
-   }
-  },
-  {
-   "cell": "C7.S4",
-   "wording_id": "C7-20",
-   "record_id": "lpc.limit.ordinary-interior-life",
-   "gold_in_lens": true,
-   "rank": {
-    "keyword_unlensed": null,
-    "keyword": null,
-    "meaning": null,
-    "fused": null,
-    "fused_seeds": 26
    }
   },
   {
@@ -7083,7 +7083,7 @@
     "keyword": null,
     "meaning": null,
     "fused": null,
-    "fused_seeds": 15
+    "fused_seeds": 23
    }
   },
   {
@@ -7329,8 +7329,8 @@
     "keyword_unlensed": 5,
     "keyword": 5,
     "meaning": 5,
-    "fused": 8,
-    "fused_seeds": 8
+    "fused": 1,
+    "fused_seeds": 1
    }
   },
   {
@@ -7446,8 +7446,8 @@
     "keyword_unlensed": 57,
     "keyword": 47,
     "meaning": 10,
-    "fused": 6,
-    "fused_seeds": 6
+    "fused": 7,
+    "fused_seeds": 7
    }
   },
   {
@@ -7485,8 +7485,8 @@
     "keyword_unlensed": 55,
     "keyword": 50,
     "meaning": 12,
-    "fused": 6,
-    "fused_seeds": 7
+    "fused": 8,
+    "fused_seeds": 9
    }
   },
   {
@@ -7654,8 +7654,8 @@
     "keyword_unlensed": null,
     "keyword": null,
     "meaning": 1,
-    "fused": 11,
-    "fused_seeds": 11
+    "fused": 9,
+    "fused_seeds": 9
    }
   },
   {
@@ -7966,8 +7966,8 @@
     "keyword_unlensed": 41,
     "keyword": 17,
     "meaning": 1,
-    "fused": 5,
-    "fused_seeds": 5
+    "fused": 7,
+    "fused_seeds": 7
    }
   },
   {
@@ -7979,8 +7979,8 @@
     "keyword_unlensed": 1,
     "keyword": 1,
     "meaning": null,
-    "fused": 10,
-    "fused_seeds": 10
+    "fused": 15,
+    "fused_seeds": 15
    }
   },
   {
@@ -7992,8 +7992,8 @@
     "keyword_unlensed": 74,
     "keyword": 53,
     "meaning": 1,
-    "fused": 4,
-    "fused_seeds": 4
+    "fused": 3,
+    "fused_seeds": 3
    }
   },
   {
@@ -8128,7 +8128,7 @@
   }
  ],
  "lens_passages": 17092,
- "windows": 35733,
+ "windows": 30787,
  "summary": {
   "total_cases": 625,
   "gold_in_lens": 625,
@@ -8149,69 +8149,97 @@
     "20": 28
    },
    "fused": {
-    "5": 10,
+    "5": 8,
     "10": 17,
     "20": 24
    },
    "fused_seeds": {
-    "5": 10,
+    "5": 8,
     "10": 17,
-    "20": 27
+    "20": 24
    }
   },
-  "paired": {
+  "total_queries": 256,
+  "query_hits": {
+   "keyword_unlensed": {
+    "5": 5,
+    "10": 7,
+    "20": 11
+   },
+   "keyword": {
+    "5": 7,
+    "10": 8,
+    "20": 13
+   },
+   "meaning": {
+    "5": 11,
+    "10": 17,
+    "20": 25
+   },
+   "fused": {
+    "5": 8,
+    "10": 16,
+    "20": 22
+   },
+   "fused_seeds": {
+    "5": 8,
+    "10": 16,
+    "20": 22
+   }
+  },
+  "paired_at_query_level": {
    "meaning vs keyword @5": {
-    "wins": 11,
+    "wins": 9,
     "losses": 5,
-    "p": 0.210113525390625,
+    "p": 0.4239501953125,
     "better_at_99": false
    },
    "meaning vs keyword @10": {
-    "wins": 16,
+    "wins": 14,
     "losses": 5,
-    "p": 0.02660369873046875,
+    "p": 0.063568115234375,
     "better_at_99": false
    },
    "meaning vs keyword @20": {
-    "wins": 21,
+    "wins": 18,
     "losses": 6,
-    "p": 0.005924612283706665,
-    "better_at_99": true
+    "p": 0.022655844688415527,
+    "better_at_99": false
    },
    "fused vs keyword @5": {
-    "wins": 6,
-    "losses": 3,
-    "p": 0.5078125,
+    "wins": 3,
+    "losses": 2,
+    "p": 1.0,
     "better_at_99": false
    },
    "fused vs keyword @10": {
     "wins": 10,
-    "losses": 1,
-    "p": 0.01171875,
+    "losses": 2,
+    "p": 0.03857421875,
     "better_at_99": false
    },
    "fused vs keyword @20": {
-    "wins": 12,
-    "losses": 1,
-    "p": 0.00341796875,
-    "better_at_99": true
+    "wins": 11,
+    "losses": 2,
+    "p": 0.0224609375,
+    "better_at_99": false
    },
    "fused vs meaning @5": {
-    "wins": 4,
-    "losses": 7,
-    "p": 0.548828125,
+    "wins": 3,
+    "losses": 6,
+    "p": 0.5078125,
     "better_at_99": false
    },
    "fused vs meaning @10": {
-    "wins": 5,
-    "losses": 7,
-    "p": 0.7744140625,
+    "wins": 4,
+    "losses": 5,
+    "p": 1.0,
     "better_at_99": false
    },
    "fused vs meaning @20": {
-    "wins": 6,
-    "losses": 10,
-    "p": 0.454498291015625,
+    "wins": 5,
+    "losses": 8,
+    "p": 0.5810546875,
     "better_at_99": false
    },
    "fused_seeds vs fused @5": {
@@ -8227,9 +8255,9 @@
     "better_at_99": false
    },
    "fused_seeds vs fused @20": {
-    "wins": 4,
+    "wins": 1,
     "losses": 1,
-    "p": 0.375,
+    "p": 1.0,
     "better_at_99": false
    }
   }
