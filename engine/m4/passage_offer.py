@@ -95,6 +95,16 @@ def candidates(passages: list[dict], sub_question: str) -> list[dict]:
     ]
 
 
+def interleave(records: list[dict], passages: list[dict]) -> list[dict]:
+    """The records and the passages in one list, each in its own rank order, taken in turn: the records' first, the passages' first, and so on."""
+    seen = {r["id"] for r in records}
+    passages = [p for p in passages if p["id"] not in seen]
+    merged: list[dict] = []
+    for n in range(max(len(records), len(passages))):
+        merged += records[n:n + 1] + passages[n:n + 1]
+    return merged
+
+
 def records_by_id(passages: list[dict]) -> dict[str, dict]:
     return {p["tag"]: record_for(p) for p in passages}
 

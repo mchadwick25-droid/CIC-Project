@@ -41,14 +41,23 @@ def test_the_offer_line_names_the_author_and_never_lets_an_outside_voice_say_we(
     assert "OUTSIDE OUR VOICE" in lines["p.a"] and 'never "we"' in lines["p.a"]
 
 
-def test_passages_ride_in_the_evidence_block_after_the_records_and_do_not_change_them():
+def test_passages_are_placed_among_the_records_by_rank_and_the_records_keep_their_own_order():
     kwargs = dict(message="What does your community remember of Jesus?", asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
     base = assemble_evidence(**kwargs)
     passages = po.candidates(po.select(OFFER, "C1.S1", po.Budget(2, 5000)), "C1.S1")
     both = assemble_evidence(**kwargs, passage_candidates=passages)
-    assert both["candidates"][: len(base["candidates"])] == base["candidates"]
-    assert [c["id"] for c in both["candidates"][len(base["candidates"]):]] == ["p.b", "p.d"]
+    ids = [c["id"] for c in both["candidates"]]
+    assert [i for i in ids if i not in ("p.b", "p.d")] == [c["id"] for c in base["candidates"]]
+    assert ids.index("p.b") < len(base["candidates"]) and ids.index("p.b") == 1
     assert "[[p.b]] passage" in render_evidence_block(both)
+
+
+def test_interleave_takes_the_records_and_the_passages_in_turn_and_drops_a_repeat():
+    records = [{"id": "r1"}, {"id": "r2"}, {"id": "r3"}]
+    passages = [{"id": "p1"}, {"id": "r2"}, {"id": "p3"}]
+    assert [c["id"] for c in po.interleave(records, passages)] == ["r1", "p1", "r2", "p3", "r3"]
+    assert [c["id"] for c in po.interleave(records, [])] == ["r1", "r2", "r3"]
+    assert [c["id"] for c in po.interleave([], passages[:1])] == ["p1"]
 
 
 def test_a_passage_is_cited_under_an_id_the_citation_grammar_reads():

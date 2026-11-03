@@ -852,3 +852,11 @@ Mark, 2026-11-03, relayed by the coordination thread: after seeing the three liv
 - Spent: $0.286 of the $2 cap, from the run output. Nine calls (six safety and reader checks on the gate model, three drafts on the voice model), us-east-1, ledger of 18 lines (one hold and one settle per call). The read, rewrite and re-read steps were not run. Nothing more is run under this live-test name.
 - Why it stopped: the run still carried the stacked directive patches of Decision-Log 63 and 64 (the Stage 4 baseline was not restored) and offered no passages on alx, so it could not test the designed path.
 - Next: a plan for the design-faithful build, set out for Mark's review as an Artifact. No code is changed and no build is started until he approves it.
+
+## 67. Steps 0 to 2 of the design-faithful build plan (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: go on steps 0, 1 and 2 of the plan; the search build, and any step past 2, and the revert of Decision-Log 63 and 64, wait for his decisions.
+
+- Step 0: the CP.9 README is corrected in place, with a "Corrections" section. Wrong or overstated: "lpc: not met" (the offer was not tested), "tier 2 similar" (15, 21, 20), the old engine leading "in every world" (lpc "yes" 19 for B against 18 for A), "more than helper noise" for 15 to 12, and the noise floor for single questions. The tables are unchanged; they match the raw files.
+- Step 1: the coverage ceiling counts, the volumes behind the 101 blocked alx and syr seeds, and the check of the three index keys are in `Design-Faithful-Build_2026-11-03/Step1_Coverage_Ceiling.md`. Of the three index keys, only work-and-locus is filled, and its value is file plus division. The sub-question and scripture-reference keys are named and never filled, and nothing in the engine reads the index at question time. No embedder implementation exists.
+- Step 2: the harness checks and the order of passages in the offer are in `Design-Faithful-Build_2026-11-03/Step2_Harness_Fix.md`.
