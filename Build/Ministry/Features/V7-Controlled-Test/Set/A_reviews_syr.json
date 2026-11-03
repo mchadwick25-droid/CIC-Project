@@ -1,0 +1,667 @@
+{
+  "world": "syr",
+  "source_ref": "claude/fleet-run-1-analysis",
+  "source_commit": "4973efc8287e13ffcc775c198c1ca0f94234904d",
+  "second_pass": {
+    "file": "analysis-2026-10-29/second-pass/syr.json",
+    "rubric_file": "analysis-2026-10-29/RUBRIC.md",
+    "world_summary": {
+      "top_rigor_problems": [
+        "F1-E (6): the voice invents a description of Aphrahat's Demonstrations ('each one written to refute a rival teacher by name'), against syr.term.tahwyata.",
+        "F3-T (16): it names modern churches and their practices after saying that is not its to tell, and it puts the 410 synod outside the window ('a synod we did not live to see'), against world_core.",
+        "Small overreach where the records are thin (F2-E's flat 'no separated Gospel use', F5-P's martyrdom order, F4-T's wedding simile); none is fatal."
+      ],
+      "top_access_problems": [
+        "Engine-cut orphans: 'He' in C-I and C-T (the Aphrahat 'sure thing' sentence removed), 'That turning of the pearl' in F2-I, 'That one archived sentence' in F5-E.",
+        "System and build talk breaking persona: F2-E ('the voice', 'your limits', 'theRecord's'), F6-E ('given to me for this turn'), F6-P ('I am a representative of Syriac Christianity (Edessa/Nisibis)').",
+        "Pasted limit text and repeated definitions (qyama, raza, madrasha) pad F4-I, F5-I, F2-I and F2-P."
+      ],
+      "cost_note": "Output tokens ran 161-921, with most answers between 250 and 600. Answers longer than their value: F4-I (410 words, about 180 beyond need), F2-E (327 words, about 150), F5-I and F5-P (about 90 each), F1-E and F3-P (about 80-90 each), F2-I and F1-I (about 80 each). Reusing the qyama, raza and madrasha definitions and restating limits twice per answer is the main lever.",
+      "go_live_view": "Close to ready. Most answers are scholarly and unusually honest about gaps: the legend is told as legend, the persecution asymmetry is kept, and the women, the enslaved and the one-sided anti-Jewish record are named without anything invented to fill them. Craft is mostly plain and warm. Two answers need blocking (F1-E's invented description of the Demonstrations, F3-T's modern-church and synod-dating slips), and about seven need cleanup. The most valuable single fix is in the engine: stop cut sentences from leaving orphan referents ('He', 'That turning', 'That one archived sentence') and strip system-voice phrasing. Together these cause most FIX calls and are mechanical to catch."
+    },
+    "by_probe": {
+      "c-i-probe-01": {
+        "n": 1,
+        "cell": "C-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Tracks syr.dw.was-jesus-god and syr.term.raza-shrara closely; Nicaea held as 'our tradition remembers'.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "GOOD",
+        "craft_note": "Orphan pronoun in the second sentence: 'He used Scripture's own names' - the sage (Aphrahat) and his 'sure thing' chain were cut, so 'He' has no referent.",
+        "overall": "FIX",
+        "words_beyond_need": 20
+      },
+      "c-e-probe-01": {
+        "n": 2,
+        "cell": "C-E",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Matches syr.dw.gospel-harmony; Abgar told as legend per syr.story.abgar-addai-legend and world_core caution 2.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Clear, honest and well paced.",
+        "overall": "SHIP",
+        "words_beyond_need": 15
+      },
+      "c-p-probe-01": {
+        "n": 3,
+        "cell": "C-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Faithful to syr.dw.physician, keeps the repentance condition its use_note requires.",
+        "readable": "GOOD",
+        "understandable": "FAIR",
+        "succinct": "GOOD",
+        "craft_note": "Opening 'To the one who cannot manage to believe, we would call him...' reads as if the unbeliever is the Physician; 'him' is ambiguous.",
+        "overall": "SHIP",
+        "words_beyond_need": 0
+      },
+      "c-t-probe-01": {
+        "n": 4,
+        "cell": "C-T",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Follows syr.dw.was-jesus-god; Jacob at Nicaea hedged as tradition (syr.story.jacob-nicaea); avoids essence-language as the use_note requires.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "GOOD",
+        "craft_note": "Same cut as answer 1: 'He strung Scripture's own names together' - no one has been named.",
+        "overall": "FIX",
+        "words_beyond_need": 15
+      },
+      "f1-i-probe-01": {
+        "n": 5,
+        "cell": "F1-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "syr.dw.god, syr.dw.suffering and syr.dw.physician reproduced accurately, including the free-will agreement with Bardaisan.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Three stitched witnesses; the persecution roll-call is long for a question about God's character.",
+        "overall": "SHIP",
+        "words_beyond_need": 80
+      },
+      "f1-e-probe-01": {
+        "n": 6,
+        "cell": "F1-E",
+        "rigor": "NOT ACCEPTABLE",
+        "cause": "VOICE",
+        "rigor_note": "Answer: 'twenty-three Demonstrations, each one written to refute a rival teacher by name or to correct a wrong turn inside the faith.' syr.term.tahwyata: 'practical teaching on faith, love, penance, and endurance... structured teaching documents, each on one subject.' No record supports the claim; the first paragraph (syr.dw.decides) is sound.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Second paragraph repeats the madrasha definition and the 'never settled' point.",
+        "overall": "BLOCK",
+        "words_beyond_need": 90
+      },
+      "f1-p-probe-01": {
+        "n": 7,
+        "cell": "F1-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Draws on syr.dw.penitence-prayer and the foundation-stone teaching in syr.dw.adam-grace.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Warm, short sentences, direct answer.",
+        "overall": "SHIP",
+        "words_beyond_need": 10
+      },
+      "f1-t-probe-01": {
+        "n": 8,
+        "cell": "F1-T",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Correctly answers beside 'original guilt' as syr.dw.adam-grace's tension requires: death's rule and inherited wound, not guilt.",
+        "readable": "GOOD",
+        "understandable": "FAIR",
+        "succinct": "GOOD",
+        "craft_note": "'Our sage taught it with a picture' then gives the house-of-faith image, which does not illustrate inherited guilt; a jump in logic.",
+        "overall": "SHIP",
+        "words_beyond_need": 40
+      },
+      "f2-i-probe-01": {
+        "n": 9,
+        "cell": "F2-I",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Accurate to syr.dw.reading, syr.term.raza-shrara and syr.term.ewangeliyon-da-mhallete; reading the raza method across 'the whole of Scripture' is broader than the term's Ephrem-specific scope.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "FAIR",
+        "craft_note": "'That turning of the pearl was how we read' - the pearl being turned was never described (a cut quote); 'For two hundred years' and 'Doctrine was taught by singing it' drift from the question.",
+        "overall": "FIX",
+        "words_beyond_need": 80
+      },
+      "f2-e-probe-01": {
+        "n": 10,
+        "cell": "F2-E",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Facts track syr.gravity.diatessaron-normative and syr.force.qyama-commitment, but 'no separated four-Gospel use appears inside our years' is stated flatly where the early dating of the Old Syriac separated Gospels is debated. The answer also turns into a critique of the Representative's own past answers rather than the community's claims.",
+        "readable": "FAIR",
+        "understandable": "POOR",
+        "succinct": "POOR",
+        "craft_note": "Out of persona with system talk: 'you named the gap honestly in your limits, then walked past it in your answers', 'the voice wanted to give a fuller picture', 'reconstruction gap', 'Aphrahat's Demonstration 6', typo 'theRecord's'.",
+        "overall": "FIX",
+        "words_beyond_need": 150
+      },
+      "f2-p-probe-01": {
+        "n": 11,
+        "cell": "F2-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Consistent with syr.dw.reading and syr.term.raza-shrara personal sense.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Repeats the raza definition twice; 'a whole chapter's worth of meaning was found in a single pearl' is left unexplained.",
+        "overall": "SHIP",
+        "words_beyond_need": 70
+      },
+      "f2-t-probe-01": {
+        "n": 12,
+        "cell": "F2-T",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Close to syr.dw.reading; respects the not_for on Scripture alone apart from the church.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Fragments ('The church's worship. The harmony...') work; the Genesis-as-science aside is slightly off question.",
+        "overall": "SHIP",
+        "words_beyond_need": 40
+      },
+      "f3-i-probe-01": {
+        "n": 13,
+        "cell": "F3-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "syr.dw.authority-lived, syr.term.qyama, syr.term.ihidaya and syr.term.catholicos used correctly; Aphrahat's rank kept open.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "The ihidaya root aside adds length without serving the leadership question.",
+        "overall": "SHIP",
+        "words_beyond_need": 60
+      },
+      "f3-e-probe-01": {
+        "n": 14,
+        "cell": "F3-E",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Matches syr.dw.outsiders-empire and keeps the Roman/Persian asymmetry (syr.gravity.persecution-endurance).",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Short, direct, corrects the premise cleanly.",
+        "overall": "SHIP",
+        "words_beyond_need": 0
+      },
+      "f3-p-probe-01": {
+        "n": 15,
+        "cell": "F3-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Honest limit well drawn: separates personal penitence (syr.dw.penitence-prayer) from communal failure, which no record documents; limit records used within their not_for.",
+        "readable": "FAIR",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "One 50-word sentence ('What we did not keep - or perhaps never wrote - ...'); the closing two paragraphs restate the gap.",
+        "overall": "SHIP",
+        "words_beyond_need": 80
+      },
+      "f3-t-probe-01": {
+        "n": 16,
+        "cell": "F3-T",
+        "rigor": "NOT ACCEPTABLE",
+        "cause": "VOICE",
+        "rigor_note": "Anachronism and self-contradiction: says 'What happened after us is not ours to tell' then names 'Syriac Orthodox, Church of the East, Maronite' and claims 'They keep feast days we kept'; syr.dw.one-church not_for: 'an answer to which modern church continues this one'. Also 'a synod we did not live to see' contradicts world_core: the window 'closes with the Synod of Seleucia-Ctesiphon in 410' (syr.dw.decides: 'at the very end of our years').",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "'We are the voice of a formation that closed' is build vocabulary.",
+        "overall": "BLOCK",
+        "words_beyond_need": 60
+      },
+      "f4-i-probe-01": {
+        "n": 17,
+        "cell": "F4-I",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Keeps syr.limit.ritual-sequence's bound (pieces, not order) and its elements (font, sealing, vow before the water); the eucharist hedge follows syr.dw.adam-grace.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "POOR",
+        "craft_note": "410 words: repeats the limit at the start and end, restates the qyama definition, and lists the 'pieces' again in the closing paragraph.",
+        "overall": "FIX",
+        "words_beyond_need": 180
+      },
+      "f4-e-probe-01": {
+        "n": 18,
+        "cell": "F4-E",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Flood line hedged for interpolation as syr.story.edessa-flood-201 requires; Addai told as legend (syr.dw.apostolic).",
+        "readable": "FAIR",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "42-word sentence on the 330s practices; 'cherished legend... not a document from the beginning' repeats.",
+        "overall": "SHIP",
+        "words_beyond_need": 50
+      },
+      "f4-p-probe-01": {
+        "n": 19,
+        "cell": "F4-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Faithful to syr.dw.penitence-prayer, including its tension that mind-quieting techniques are not this world's idiom.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Humane, and the closing question invites the person in.",
+        "overall": "SHIP",
+        "words_beyond_need": 10
+      },
+      "f4-t-probe-01": {
+        "n": 20,
+        "cell": "F4-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Follows syr.dw.born-again-endtimes; the closing 'as public as a wedding, and we sang it the same way' implies knowledge of wedding singing that syr.limit.marriage says the record lacks (unverified flourish).",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Clear contrast with the modern private sense.",
+        "overall": "SHIP",
+        "words_beyond_need": 20
+      },
+      "f5-i-probe-01": {
+        "n": 21,
+        "cell": "F5-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Pieces sourced to syr.term.qyama, syr.dw.apostolic, syr.force.frontier-plural-milieu; women and enslaved limits used within bounds.",
+        "readable": "GOOD",
+        "understandable": "FAIR",
+        "succinct": "FAIR",
+        "craft_note": "'And you asked about someone in our community' leads into an enslaved-persons paragraph the question did not ask; the limit text is pasted in.",
+        "overall": "SHIP",
+        "words_beyond_need": 90
+      },
+      "f5-e-probe-01": {
+        "n": 22,
+        "cell": "F5-E",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Matches syr.dw.remains; baptistery only, no cathedral-plan overclaim.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "GOOD",
+        "craft_note": "'That one archived sentence is our earliest hard trace' - the flood-chronicle line it refers to was never given (a cut sentence).",
+        "overall": "FIX",
+        "words_beyond_need": 0
+      },
+      "f5-p-probe-01": {
+        "n": 23,
+        "cell": "F5-P",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Mostly from syr.term.qyama, syr.gravity.persecution-endurance and syr.story.choirs-tradition (hedged correctly); 'bishops died first, then the covenant's vowed members' and 'everyone gave up the old gods' are uncited generalisations.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Covenant cost restated twice; could close after the second paragraph.",
+        "overall": "SHIP",
+        "words_beyond_need": 90
+      },
+      "f5-t-probe-01": {
+        "n": 24,
+        "cell": "F5-T",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Stays inside syr.limit.marriage; does not borrow the regional catalogue. Could have used the one in-record detail (seven-day feast, syr.quote.the-wedding-feast-continues-for-but-seven-days).",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Honest and compact.",
+        "overall": "SHIP",
+        "words_beyond_need": 20
+      },
+      "f6-i-probe-01": {
+        "n": 25,
+        "cell": "F6-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Matches syr.dw.unsettled and world_core caution 4 ('roughly four'), invents no dissenting voice.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Strong and plain; one long paragraph but readable.",
+        "overall": "SHIP",
+        "words_beyond_need": 0
+      },
+      "f6-e-probe-01": {
+        "n": 26,
+        "cell": "F6-E",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "No syr record mentions torture, so rejecting the premise is fair; the inventory of sources is accurate.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "GOOD",
+        "craft_note": "System talk and curtness: 'I do not know what you are talking about', 'No record given to me for this turn', 'the sources listed here', 'another world's story'.",
+        "overall": "FIX",
+        "words_beyond_need": 20
+      },
+      "f6-p-probe-01": {
+        "n": 27,
+        "cell": "F6-P",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Content true to syr.term.ihidaya and syr.term.qyama, but it assumes the asker would take the celibate vow rather than saying how an ordinary outsider or seeker was regarded.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "FAIR",
+        "craft_note": "Opens in system voice: 'I am a representative of Syriac Christianity (Edessa/Nisibis)'; the ihidaya root explanation is off the question.",
+        "overall": "FIX",
+        "words_beyond_need": 80
+      },
+      "f6-t-probe-01": {
+        "n": 28,
+        "cell": "F6-T",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Uses syr.dw.death-judgment and syr.limit.what-must-one-do faithfully; no roster of the damned.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Second paragraph (the believing/loving order) leans to 'what must one do' rather than outsiders, but it stays short.",
+        "overall": "SHIP",
+        "words_beyond_need": 40
+      }
+    }
+  },
+  "outside_referees": {
+    "file": "analysis-2026-10-29/outside-referees/out-syr.json",
+    "key_file": "analysis-2026-10-29/outside-referees/KEY.json",
+    "packet_file": "analysis-2026-10-29/outside-referees/syr.md",
+    "packet_sha256": "26d780a65a94d9c32af178114ff84db528aa8fc3a0289c8902a2183a0a7db4fe",
+    "packet_copied": false,
+    "world_label": "Syriac Christianity of Edessa and Nisibis (Aphrahat, Ephrem), c. 250-410",
+    "checks_performed": [],
+    "overall_view": "With corrections, yes. These answers are unusually honest about gaps, mostly avoid invention, and use the right primary vocabulary (raza, qyama, ihidaye, Diatessaron, Dem. 1's building on faith, Dem. 14's synodal letter). A specialist would find nothing wildly wrong. They do lean toward rhetorical overstatement ('most often', 'each one', 'whole length of our years', 'in front of the whole congregation'), and they merge Aphrahat and Ephrem into one 'we' where the two differ, for example on Nicene language. The single biggest thing I would change is the baptismal order. Several answers place the sealing and the gift of the Spirit after the person comes up from the water. The defining feature of early Syriac initiation (Didascalia, Acts of Thomas, Winkler, Brock) is that the anointing (rushma) came before immersion, so the project is getting wrong the very rite it treats as central. Close behind: Ephrem's supposed 'agreement' with Bardaisan on the stars, and the claim that every Demonstration refutes a named rival.",
+    "items_reviewed": 10,
+    "by_probe": {
+      "c-p-probe-01": {
+        "cell": "C-P",
+        "n": 3,
+        "item": 1,
+        "verdict": "ACCEPT",
+        "doubted_claims": [
+          {
+            "claim": "we would call him what we called him most often: the Physician",
+            "problem": "Christ the Physician (asya) is a major Syriac title, but 'most often' is an unprovable frequency claim. Many titles are just as frequent (Shepherd, Light, Pearl, Medicine of Life, the Living Bread, Bridegroom). Better: 'one of our favourite names for him'.",
+            "source": "R. Murray, Symbols of Church and Kingdom (1975), ch. on the titles of Christ; Aphrahat, Dem. 7 (On Penitents), where the physician image and the advice not to hide a wound out of shame do appear."
+          },
+          {
+            "claim": "We also loved to preach about the woman who came to Jesus in tears",
+            "problem": "This is broadly fair. The verse homily on the sinful woman (Luke 7) attributed to Ephrem is of uncertain authenticity, though the theme is solidly Syriac. A light hedge would be enough.",
+            "source": "Ephrem (attrib.), Sermo de peccatrice; S. Brock's notes on the Ephrem corpus."
+          }
+        ],
+        "reader_note": "Clear, warm and the right length. One small overstatement ('most often'), and I would soften it, but it can stand."
+      },
+      "f4-i-probe-01": {
+        "cell": "F4-I",
+        "n": 17,
+        "item": 2,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "The one baptized received the sealing, a sign set on them.",
+            "problem": "Read with Items 4 and 8, the text implies the sealing came after the water. In the early Syriac rite the anointing/sealing (rushma) came BEFORE immersion, and there was no post-baptismal anointing. This order is the most distinctive thing about early Syriac initiation, and a specialist would expect it to be stated.",
+            "source": "Didascalia Apostolorum 16; Acts of Judas Thomas (baptismal scenes); G. Winkler, 'The Original Meaning of the Prebaptismal Anointing' (Worship 52, 1978); S. Brock, The Holy Spirit in the Syrian Baptismal Tradition."
+          },
+          {
+            "claim": "No order of worship survives from us - no manual, no teacher's letter laying out what came first and what came next.",
+            "problem": "It is true that no full ordo survives. But the Didascalia (in Syriac) and the Acts of Thomas give a clear sequence: anointing, then water, then eucharist. So the order is much better known than this suggests. The text is honest but too pessimistic.",
+            "source": "Didascalia 16; Acts of Thomas chs. 27, 121, 132, 157."
+          },
+          {
+            "claim": "for the whole length of our years 'the Gospel' meant that one narrative",
+            "problem": "Overstated. The Diatessaron was dominant, and Aphrahat and Ephrem's Commentary use it. But the Old Syriac separated Gospels (Evangelion da-Mepharreshe: Sinaitic and Curetonian) were in existence and probably in use within this period. The original language and date of the Diatessaron are also contested.",
+            "source": "W. L. Petersen, Tatian's Diatessaron (1994); P. J. Williams on the Old Syriac Gospels."
+          },
+          {
+            "claim": "They promised a celibate life for good.",
+            "problem": "This is broadly right. Aphrahat says those who intend to marry should do so before baptism. But the qyama included the qaddishe, married people living in continence, as well as the virgins (btule). Making it purely 'celibate' slightly flattens this.",
+            "source": "Aphrahat, Dem. 6 and 7.18-20; S. Griffith, 'Monks, Singers and Laymen in the Syriac Church' / 'Asceticism in the Church of Syria' (1995)."
+          },
+          {
+            "claim": "We asked no deeper questions about how they were his gift.",
+            "problem": "This is fair as a description of Ephrem's dislike of 'prying'. But Ephrem has a rich eucharistic theology of fire and Spirit in the bread (Hymns on Faith 10). 'No deeper questions' undersells it.",
+            "source": "Ephrem, Hymns on Faith 10."
+          }
+        ],
+        "reader_note": "Understandable and honest about gaps. It is a bit long and repetitive at the end, and it should fix the anointing-before-water point."
+      },
+      "f6-t-probe-01": {
+        "cell": "F6-T",
+        "n": 28,
+        "item": 3,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "Those with a small fault the judge will rebuke, and then he will give them the inheritance of life.",
+            "problem": "Aphrahat's Dem. 22 has graded rewards and punishments and a sleep of souls until the resurrection. I believe the paraphrase is close, but I cannot confirm the exact wording, and it should be checked against the text.",
+            "source": "Aphrahat, Dem. 22 (On Death and the Last Times), esp. 22.15-24."
+          },
+          {
+            "claim": "we drew far less of the modern map of who exactly burns than people assume",
+            "problem": "This is an evasion of the actual question. Ephrem's hymns (e.g. Hymns on Paradise 1, Nisibene Hymns) speak vividly of Gehenna and the exclusion of the wicked. Aphrahat discusses the fate of the wicked and unbelievers in Dem. 22. The answer also leaves out the distinctive Syriac teaching of soul-sleep, which is the most specific thing the community held about the dead.",
+            "source": "Aphrahat, Dem. 6.14, 8, 22; Ephrem, Hymns on Paradise 1-2; Nisibene Hymns 35-42 (Death and Satan)."
+          },
+          {
+            "claim": "First a man believes, and when he believes, he loves. When he loves, he hopes...",
+            "problem": "This is accurate to Aphrahat, Dem. 1, but it describes the believer, not outsiders, so it does not answer the question.",
+            "source": "Aphrahat, Dem. 1.3-4."
+          }
+        ],
+        "reader_note": "Readable, but it drifts away from the question asked. It should say plainly what Aphrahat and Ephrem said about the unbelieving dead, and mention soul-sleep."
+      },
+      "f5-p-probe-01": {
+        "cell": "F5-P",
+        "n": 23,
+        "item": 4,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "the one who came up from the water received the sealing and the Holy Spirit",
+            "problem": "This has the order wrong for this period. The rushma (anointing and seal), and with it the gift of the Spirit, preceded immersion in the early Syriac rite.",
+            "source": "Didascalia 16; Acts of Thomas; Winkler 1978; Brock, The Holy Spirit in the Syrian Baptismal Tradition."
+          },
+          {
+            "claim": "When the persecution came, bishops died first, then the covenant's vowed members.",
+            "problem": "The martyrologies list martyrs by rank (bishops, priests, deacons, bnay qyama). That is an order of listing, not of time. The Shapur II persecution (from c. 340/344) killed lay people, clergy and qyama together. Simeon bar Sabba'e's death early on is real, but 'first ... then' is not supported.",
+            "source": "Syriac Martyrology of 411 (BL Add. 12150); Acts of the Persian Martyrs; Sozomen HE 2.9-14; Aphrahat, Dem. 21."
+          },
+          {
+            "claim": "They stayed in town, among their own kin",
+            "problem": "This is broadly right (Griffith), but Aphrahat also expects them to avoid living with the opposite sex and enjoins some separation. 'Among their own kin' is a slight simplification.",
+            "source": "Aphrahat, Dem. 6.4-8."
+          },
+          {
+            "claim": "they wrote mostly to each other",
+            "problem": "This is loose. Ephrem wrote hymns for whole congregations, and Aphrahat addresses an unnamed inquirer and the church at large, not only the qyama.",
+            "source": "Aphrahat, Dem. 1.1 and 23.60ff; Ephrem's madrashe."
+          },
+          {
+            "claim": "Everyone who came to the font gave up the old gods.",
+            "problem": "Many in Aphrahat's milieu were close to Judaism, not pagans, so 'the old gods' does not fit every convert. This is a minor point.",
+            "source": "Aphrahat, Dem. 11-19 (on Jewish questions)."
+          }
+        ],
+        "reader_note": "Clear and well hedged about the silence of ordinary believers. Good length. Two factual fixes are needed: the sealing order and the persecution sequence."
+      },
+      "c-t-probe-01": {
+        "cell": "C-T",
+        "n": 4,
+        "item": 5,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "We said Jesus was God, in our own way of speaking. He strung Scripture's own names together",
+            "problem": "'He' has no antecedent, so the reader cannot tell who is meant (Aphrahat?). More substantively, Aphrahat's case in Dem. 17 is cautious: Christ may be called God just as Moses and others were called 'gods'. The tone is pre-Nicene. Presenting 'we said Jesus was God' as uniform hides the real difference between Aphrahat and Ephrem.",
+            "source": "Aphrahat, Dem. 17 (On Christ the Son of God); Murray, Symbols, 'the titles of Christ'."
+          },
+          {
+            "claim": "Our baptismal hymns sang the Father rejoicing with his Son and the Spirit over the baptized.",
+            "problem": "The Hymns on Epiphany, the usual source, are of disputed authenticity (E. Beck doubted Ephrem's authorship of much of the cycle). The attribution should be hedged.",
+            "source": "E. Beck, CSCO 186-187 (Hymnen de Nativitate / Epiphania), introduction."
+          },
+          {
+            "claim": "We stood with the great council's faith.",
+            "problem": "This is true of Ephrem, who was pro-Nicene in the Hymns on Faith. Aphrahat never mentions Nicaea or homoousios. 'We' overstates how uniform the community was. The Jacob-of-Nisibis-at-Nicaea tradition is properly hedged.",
+            "source": "Ephrem, Hymns on Faith; Aphrahat (no reference to Nicaea); Nicene subscription lists."
+          },
+          {
+            "claim": "We did not speak in the borrowed language of Greek essence.",
+            "problem": "This is broadly right, but Ephrem does use 'ituta (being), kyana (nature) and qnoma. 'Did not' is too absolute. 'Rarely, and warily' would be better.",
+            "source": "Ephrem, Hymns on Faith; S. Brock, The Luminous Eye."
+          }
+        ],
+        "reader_note": "Short and readable, but 'He' is confusing, and it smooths over the difference between Aphrahat and Ephrem on Nicene language."
+      },
+      "f1-e-probe-01": {
+        "cell": "F1-E",
+        "n": 6,
+        "item": 6,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "twenty-three Demonstrations, each one written to refute a rival teacher by name or to correct a wrong turn inside the faith",
+            "problem": "This is false as stated. Most of the Demonstrations are hortatory or catechetical (faith, love, fasting, prayer, humility, the qyama). Dem. 11-19 and 21 address Jewish arguments. Aphrahat almost never names a rival teacher; he only briefly mentions Marcion, Valentinus and Mani in Dem. 3.6.",
+            "source": "Aphrahat, Demonstrations, tr. A. Lehto (2010); J. Neusner, Aphrahat and Judaism (1971)."
+          },
+          {
+            "claim": "The Persian bishops fought over their own chief's claim to first place.",
+            "problem": "The Papa bar Aggai dispute (c. 315) is known mainly from much later sources, including the acts of the Synod of Dadisho (424), which may be tendentious or fabricated. It should be hedged.",
+            "source": "Synodicon Orientale (Chabot), Synod of Dadisho 424; J.-M. Fiey, Jalons pour une histoire de l'Eglise en Iraq."
+          },
+          {
+            "claim": "The persecution left the chief seat empty for twenty years.",
+            "problem": "The figure of about twenty years after Barba'shmin is traditional (late chronicles). It is roughly acceptable but uncertain, and should be hedged.",
+            "source": "Mari, 'Amr, Sliba (later chronicles); Chronicle of Seert."
+          },
+          {
+            "claim": "no settled machinery stood over the whole",
+            "problem": "This holds for Persia, but the Roman side (Edessa, and Nisibis to 363) was under the imperial conciliar church. Ephrem's own Edessa saw Bishop Barse exiled under Valens. The answer reads almost entirely from the Persian side.",
+            "source": "Chronicle of Edessa; Theodoret HE 4.16."
+          },
+          {
+            "claim": "answered Bardaisan, Marcion, and Mani ... by singing the true teaching louder",
+            "problem": "Ephrem's polemic against these three is solid (Hymns against Heresies, Prose Refutations). The image of countering Bardaisan's hymns with rival hymns comes from later hagiography (Jacob of Sarug, the Syriac Life) and should be marked as such.",
+            "source": "Ephrem, Hymns against Heresies; Prose Refutations (Mitchell); Jacob of Sarug, Memra on Ephrem."
+          }
+        ],
+        "reader_note": "Thoughtful, but long, and the 'sage'/'poet' epithets may confuse a lay reader. The statement that every Demonstration refutes someone must be fixed."
+      },
+      "f2-p-probe-01": {
+        "cell": "F2-P",
+        "n": 11,
+        "item": 7,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "We did not read Genesis the way people now argue about it - as science. That was not because we doubted the text. It was because we read for something else.",
+            "problem": "This misleads by omission and is somewhat anachronistic. In his Commentary on Genesis, Ephrem explicitly insists that the six days and the creation account be taken literally ('let no one think there is anything allegorical in the work of the six days'). The symbolic reading sat alongside a firmly literal/historical one; it did not replace it.",
+            "source": "Ephrem, Commentary on Genesis, Prologue and 1.1 (tr. E. Mathews and J. Amar, FC 91)."
+          },
+          {
+            "claim": "Scripture's words were each a raza to us: a symbol bound to the truth it carries, the shrara.",
+            "problem": "The raza/shrara vocabulary is correct for Ephrem. 'Each' word is an overstatement. It is Ephrem's idiom more than Aphrahat's.",
+            "source": "S. Brock, The Luminous Eye (1992); Murray, Symbols."
+          }
+        ],
+        "reader_note": "Evocative and accessible, a good length. It needs the Genesis-literalism correction."
+      },
+      "f4-t-probe-01": {
+        "cell": "F4-T",
+        "n": 20,
+        "item": 8,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "the sealing, the sign set on each one who came up from the water",
+            "problem": "Wrong order for the early Syriac rite. The rushma preceded immersion (see Item 4).",
+            "source": "Didascalia 16; Acts of Thomas; Winkler 1978."
+          },
+          {
+            "claim": "Our new birth happened in water, in front of the whole congregation ... as public as a wedding",
+            "problem": "Overstated. Baptism was naked, women were anointed by deaconesses (Didascalia 16), and it was probably done in a baptistery rather than in full view of the assembly. It was a corporate church event, but not a public spectacle. 'Not private' is right; 'in front of the whole congregation' is not supported.",
+            "source": "Didascalia Apostolorum 16; Brock, Holy Spirit in the Syrian Baptismal Tradition."
+          },
+          {
+            "claim": "It was not a private moment of conversion.",
+            "problem": "This is fair, but Syriac writers also stress inner repentance and the 'circumcision of the heart' (Aphrahat Dem. 11-12), so the contrast is a little too sharp.",
+            "source": "Aphrahat, Dem. 11-12."
+          }
+        ],
+        "reader_note": "Clear and short. It needs the sealing order corrected and the 'whole congregation' image toned down."
+      },
+      "f1-i-probe-01": {
+        "cell": "F1-I",
+        "n": 5,
+        "item": 9,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "And with Bardaisan, notably, we agreed on one great point: the stars do not rule us; free will is God's gift and cannot be compelled.",
+            "problem": "This is contested and stated as settled. Bardaisan (Book of the Laws of Countries) did defend free will, but he gave fate, governed by the heavenly bodies, real power over bodily circumstances. Ephrem attacks Bardaisan precisely as an astrologer and fatalist (Hymns against Heresies). Ephrem would not have presented this as an agreement, so the community voice is misrepresented.",
+            "source": "Book of the Laws of Countries (Drijvers 1965); Ephrem, Hymns against Heresies 1-14, 51-56; H. J. W. Drijvers, Bardaisan of Edessa (1966)."
+          },
+          {
+            "claim": "Abel was murdered ... Jacob was persecuted ... David was persecuted at the hands of Saul. Jesus was persecuted",
+            "problem": "Dem. 21 does answer a taunt (from a Jew, which the answer does not mention) with a long roll of persecuted righteous ones compared with Jesus. I am not certain that Abel heads the list; Joseph, Moses, David, Elijah and others are central. The exact list should be checked.",
+            "source": "Aphrahat, Dem. 21 (On Persecution), 21.1-22."
+          },
+          {
+            "claim": "Against Bardaisan we held that God made all things from nothing, not from eternal elements",
+            "problem": "This is correct. Ephrem attacks Bardaisan's eternal 'ityē.",
+            "source": "Ephrem, Prose Refutations; Hymns against Heresies."
+          }
+        ],
+        "reader_note": "Readable and of a reasonable length, but the Physician paragraph repeats Item 1 word for word. Fix the Bardaisan 'agreement'."
+      },
+      "f3-t-probe-01": {
+        "cell": "F3-T",
+        "n": 16,
+        "item": 10,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "The frontier cities we knew changed hands, were rebuilt, or vanished under later occupation.",
+            "problem": "Misleading. Edessa (Urfa) and Nisibis (Nusaybin) are continuously inhabited cities. Nisibis was ceded to Persia in 363 (within the window); neither 'vanished'.",
+            "source": "Ammianus Marcellinus 25.7-9; standard histories of Edessa (J. B. Segal, Edessa 'the Blessed City', 1970)."
+          },
+          {
+            "claim": "the Persian church ... finally organized itself under a settled head at a synod we did not live to see",
+            "problem": "This is internally inconsistent. The Synod of Isaac was held in 410, which this answer says is the closing year of 'our years', and Item 6 places it 'at the very end of our years'.",
+            "source": "Synodicon Orientale, Synod of Isaac (410)."
+          },
+          {
+            "claim": "was eventually replaced by the four separate accounts",
+            "problem": "This is correct (Peshitta Gospels; Rabbula and Theodoret suppressing the Diatessaron in the 5th century). It narrates events after the window, which the answer itself says it will not do, but here this is defensible.",
+            "source": "Theodoret, Haer. fab. 1.20; Rabbula's rules."
+          }
+        ],
+        "reader_note": "Clear and of a fitting length. The window-boundary inconsistency and the 'vanished' cities need fixing."
+      }
+    }
+  }
+}
