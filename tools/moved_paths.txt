@@ -9,3 +9,4 @@ records/_fleet/source                         engine/m5/records/source
 records/<code>/world_front                    Build/worlds/<code>/surface/world_front
 records/<code>/facilitator_brief              Build/worlds/<code>/surface/facilitator_brief
 records/<code>/search_record                  Build/worlds/<code>/build/records/search_record
+Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md   Build/Ministry/Operations/Standing/CiC_Pipeline_Decision_Log.md

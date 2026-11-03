@@ -890,3 +890,9 @@ Status: OPEN for the fourth read.
 Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Tertullian's *Apology* and *Against Marcion*, which this world holds as `register: etic` outside corroboration (`pahc.source.tertullian-apologeticus`, `pahc.source.tertullian-adversus-marcionem`), and the triangulation with *Apology* 39 in `pahc.source.lucian-peregrinus`. One record, `pahc.force.systematic-theological-mode-elsewhere`, says the *Apology* opens a body of confident Latin defense; the Latin Apologists' Step 0 does not adopt that framing, because on one of the two datings of Minucius Felix's *Octavius* that work comes first. In the Latin Apologists both works are the world's own voice. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
 
 Status: OPEN. Owner: this world's thread.
+
+### OG-45. Homepage card clamp truncates the new pahc text, 2026-11-03.
+
+A change that updated the pahc homepage text shipped with an explicit known display issue: the homepage card's 3-line clamp truncates the new text (commit `dc1646a7`). A later change (`fb1827f8`) reported that its attempted fix did not work and restated the three remaining options. The defect is open. Layout and screen work waits until the system works (Settled Items Register row 3). The statement of the rule that a commit shipping an unfixed defect says so, and that a failed fix says so, stays in the Voice Style Guide.
+
+Status: OPEN. Owner: the website thread.

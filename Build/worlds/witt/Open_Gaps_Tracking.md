@@ -2880,3 +2880,21 @@ Closes OG-85 (the second one, 2026-10-27, on this record). The sentence "I did n
 The gate is registered in `engine/m1/gates.py` as `witness-quotation-verbatim` and runs for every world. The known-findings file is empty. The package is rebuilt and repinned.
 
 Status: CLOSED.
+
+## OG-92. Step 0 has no independent review, 2026-11-03.
+
+`Step0_Movement_Scope_Confirmation.md` carries a Tier 1 judgement with no binding condition beyond one: the document itself has not been independently reviewed (its section 6 states the draft status). The tier judgement and the comparison with the Latin and Greek Apologists' Step 0 documents stay in the file. The open point was removed from the tier statement during the live-surface cleanup and is recorded here.
+
+Status: OPEN.
+
+## OG-93. Construction Framework V7.4 Step 7 and the L4 template name different lens lists, 2026-11-03.
+
+`witt_Doc_07_Integrated_Ecology_Analysis.md` applies the Framework V7.4 Step 7 lens spine (the M4 change order) as the governing text. The L4 template's v1.0 required-lens list predates that order and has not been revised to match. The conflict is recorded at Doc_07 section 12 item 1 and is for the coach thread. The sentence "the conflict is named as an open item, not settled by this thread" was removed from the Doc_07 heading during the live-surface cleanup and is recorded here.
+
+Status: OPEN. Owner: the coach thread.
+
+## OG-94. Construction Framework V7.4 status block and the S6.1 promotion decision are not reconciled, 2026-11-03.
+
+The Framework V7.4 status block still reads "DRAFT - pending Opus deep review and project-lead review; not yet ratified", with an addendum noting that six worlds have frozen against it as though it were governing and that ratifying it outright remains the project lead's decision. The S6.1 promotion decision and that status block have not been reconciled. `witt_Doc_07_Integrated_Ecology_Analysis.md` applies V7.4 as the governing text and records the residue at section 12. The residue is stated here as an open item after the live-surface cleanup removed the dated provenance around it from Doc_07 line 25.
+
+Status: OPEN. Owner: the project lead, through the coach thread.

@@ -86,8 +86,6 @@ Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md: cic-poc/back
 Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md: cic-poc/backend/wrs/records
 Build/reference/L0-Reference/L0_Entry_Paul_of_Samosata_DRAFT.md: Build/reference/L0-Reference/figures/l0fig001_paul_of_samosata.md
 Build/reference/L0-Reference/L0_Entry_Paul_of_Samosata_DRAFT.md: cic-poc/backend/data/pahc_world
-Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md: Build/reference/L3B-World-Build-Methodology/CiC_L3B_Formation_World_Construction_Framework_V7.4_DRAFT.docx
-Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md: Build/reference/L3D-Encounter-Methodology/CiC_L3D_Facilitator_Governance_V3.4.docx
 Build/reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md: cic-poc/backend/app/prompts/facilitator_prompts.py
 Build/reference/L3D-Encounter-Methodology/CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md: cic-poc/backend/app/main.py
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: Build/Ministry/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx
