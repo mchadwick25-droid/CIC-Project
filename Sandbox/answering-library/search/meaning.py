@@ -1,8 +1,9 @@
 """Meaning search inside a lens: passage vectors from an Embedder, cosine ranking over the lens rows only.
 
-A passage longer than WINDOW_WORDS is embedded as several windows and scores as its best window, so no part of a passage
-is cut off by the model's input limit. Vectors are kept outside the index file, in a folder named by the index version
-and the embedder, so a rebuilt index or another model never reads stale vectors.
+A passage is embedded as windows of at most WINDOW_WORDS words and MAX_TOKENS tokens, and scores as its best window, so no
+part of a passage is cut off by the model's input limit. Vectors are kept outside the index file, in a folder named by the
+index version, the embedder and a hash of the lens, so a rebuilt index, another model or another lens never reads stale
+vectors.
 """
 import hashlib
 import json

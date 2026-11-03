@@ -1,11 +1,11 @@
 # Steps 3 and 4: search build, retrieval bench, known misses (2026-11-03)
 
 ## Result in brief
-- On lpc, meaning search finds the cited passage more often than keyword search at every depth. It does not pass the 99% line at any depth: top 20 is 18 wins, 6 losses, p 0.023. The stop rule in the build plan applies. The search merges as built code with this result reported. It is still the design's search.
+- On lpc, meaning search finds the cited passage more often than keyword search at every depth. It does not pass the 99% line at any depth: top 20 is 18 wins, 6 losses, p 0.023. The build plan's stop rule applies: stop and report. The delivery lead's direction for this chunk is that, in this case, the pull request merges as built code with this result reported. No ruling from Mark on this case was found in the decision log.
 - Fusing keyword and meaning, then reranking, does not beat meaning alone on lpc at any depth. Its counts are below meaning's.
 - Seeds change nothing on lpc at top 5 or 10, and trade one query for another at top 20.
 - rzg is too thin to test: no method finds more than 2 of 50 queries in the top 20.
-- Known misses: City of God XXII.8 (q099, q100) and XXI.17 (q029) are found in the top 10. Letter 47.5 and the q101 quote are not.
+- Known misses: City of God XXII.8 (q099, q100) is found in the top 10 by meaning, fused and fused with seeds, but not by keyword. XXI.17 (q029) is found in the top 10 by fused and fused with seeds only. Letter 47.5 and the q101 quote are not found by any method.
 
 ## How the run was made
 The run used the code after the five review fixes:
