@@ -40,7 +40,7 @@ _family(
      "synchron", "steril", "pasteur", "formal", "human", "ideal", "industrial", "internation", "liber", "magnet",
      "moral", "natural", "personal", "polar", "social", "stabil", "vandal", "vulgar", "tyrann", "fantas", "hospital",
      "galvan", "mesmer", "agon", "item", "equal"),
-    "is", "iz", ("e", "es", "ed", "ing", "ation", "ations", "er", "ers"),
+    "is", "iz", ("e", "es", "ed", "ing", "ation", "ations", "er", "ers", "able", "ational", "ationally"),
 )
 
 # -yse -> -yze
@@ -76,7 +76,7 @@ TABLE.update({
     "programmes": "programs", "artefact": "artifact", "artefacts": "artifacts", "sceptic": "skeptic",
     "sceptics": "skeptics", "sceptical": "skeptical", "scepticism": "skepticism", "plough": "plow",
     "ploughed": "plowed", "ploughing": "plowing", "aluminium": "aluminum", "cheque": "check", "cheques": "checks",
-    "kerb": "curb", "tyre": "tire", "tyres": "tires", "gaol": "jail", "mould": "mold", "moulds": "molds",
+    "kerb": "curb", "tyre": "tire", "tyres": "tires", "mould": "mold", "moulds": "molds",
     "moulded": "molded", "smoulder": "smolder", "smouldering": "smoldering", "sulphur": "sulfur",
     "pyjamas": "pajamas", "draught": "draft", "draughts": "drafts", "cosy": "cozy", "moustache": "mustache",
     "enquire": "inquire", "enquired": "inquired", "enquiry": "inquiry", "enquiries": "inquiries",
@@ -85,6 +85,9 @@ TABLE.update({
     "skilful": "skillful", "skilfully": "skillfully", "wilful": "willful", "wilfully": "willfully",
     "jewellery": "jewelry", "instalment": "installment", "practise": "practice", "practised": "practiced",
     "practising": "practicing", "distil": "distill", "appal": "appall",
+    "councillor": "councilor", "councillors": "councilors",
+    "catalogue": "catalog", "catalogues": "catalogs", "catalogued": "cataloged", "cataloguing": "cataloging",
+    "cataloguer": "cataloger", "cataloguers": "catalogers",
 })
 
 WORD_RE = re.compile(
@@ -105,7 +108,7 @@ def american(word: str) -> str:
 
 
 # Spellings that are also surnames or other names when capitalized: matched in lower case only.
-LOWER_ONLY = {"grey", "greying", "mould", "moulds", "moulded"}
+LOWER_ONLY = {"grey", "greying", "mould", "moulds", "moulded", "tyre", "tyres"}
 
 
 def is_flagged(word: str) -> bool:

@@ -115,3 +115,39 @@ def test_a_citation_line_names_works_and_keeps_their_titles():
            'citation: Encyclopaedia Britannica (online), a Reply in Defence of the Doctrines of Men\n'
            'note: the colour of the page\n---\n')
     assert [f.word for f in cs.scan_record(rec, "r.md")] == ["colour"]
+
+
+def _words(text):
+    return [f.word for f in cs.scan_text(text)]
+
+
+def test_a_place_name_that_is_also_a_british_word_is_left_alone():
+    assert _words("Origen died at Tyre.") == []
+    assert _words("The old tyre split.") == ["tyre"]
+
+
+def test_institution_and_work_names_are_left_alone():
+    assert _words("Pontifical Institute of Mediaeval Studies at Toronto.") == []
+    assert _words("See the Encyclopaedia Iranica entry.") == []
+    assert _words("The Labour Party won.") == []
+    assert _words("the International Christian Centre in London") == []
+    assert _words("Augustine wrote On the Catechising of the Uninstructed.") == []
+    assert _words("Athanasius, Defence Against the Arians, is long.") == []
+    assert _words("Mediaeval scholars read it.") == ["Mediaeval"]
+    assert _words("The centre of the city.") == ["centre"]
+
+
+def test_a_text_that_names_both_spellings_is_left_alone():
+    assert _words("Whether you baptise or baptize babies.") == []
+    assert _words("They baptise babies.") == ["baptise"]
+
+
+def test_new_forms_are_flagged():
+    for old in ("recognisable", "organisational", "cataloguers", "councillor", "catalogued"):
+        assert _words(f"a {old} case") == [old], old
+    assert _words("a gaol") == []
+
+
+def test_speaker_or_author_is_not_rewritten():
+    text = "---\nrecord_type: quote\nspeaker_or_author: Summarising monk\nnote: summarising it\n---\n"
+    assert [f.word for f in cs.scan_record(text, "x.md")] == ["summarising"]
