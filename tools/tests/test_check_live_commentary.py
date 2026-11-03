@@ -1417,9 +1417,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # same label.
     ("cic-website/support.html", 110, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
-    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
-    # the original _cross-world example was cleaned by that effort.
-    # Re-pinned to a stable Build/reference/ example.
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
