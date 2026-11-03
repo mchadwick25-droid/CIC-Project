@@ -2718,3 +2718,10 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 ### CL6 sample table
 
 `tools/tests/test_check_live_commentary.py`: the rows for `alx/alex_World_Profile.md` line 69 and `ijc/ijc_World_Profile.md` line 227 (added in CL5) stopped matching once those lines were cleaned, and the rows for the moved alx and ijc findings no longer exist. They are replaced by `_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md` line 10 and `hal/hal_Doc_09c_Validation_Layer.md` line 70, and two earlier replacements point at `gallic_Representative_Construction_Notes_Renatus.md` line 285 and `hal_Representative_Identity_Preliminary_Decision.md` line 86. The final chunk (CL7) refreshes the whole table from lines in files that stay as they are.
+
+### Corrections after the Opus review of the alx and ijc files (CL6)
+
+- `alx/Doc_04_Gravity_Discovery.md` line 113: the Persistence caveat is stated again in the document (the "c. 150-254" endpoint is narrower than the corpus supports and contradicts `alx.figure.didymus`; the date wording across the two records is to be reconciled), without the "open item" label.
+- `alx/Lexicon-Chunks/alexlex038_love.md` line 56: "the vendored Origen corpus ... was not searched for an independently grounded account of love-as-orientation, and none is asserted here" restores the limit that had been dropped with the "open item" clause.
+- `alx/Doc_02_Source_Ecology.md`: "should be stated with it wherever reused" (line 249); "has been independently checked", "was as common a defect as" and "currently asserts" (line 11); "has not been read for any claim below" (line 104). The first rewrite had turned these qualifiers into present-tense guarantees.
+- ijc item 49(1) quotes the removed Doc_04 note verbatim, formatting included.

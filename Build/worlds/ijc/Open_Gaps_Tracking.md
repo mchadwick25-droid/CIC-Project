@@ -433,7 +433,7 @@ Status: OPEN for the project lead to schedule.
    Status: OPEN.
 
 49. **Open points removed from ijc construction documents by the live-surface cleanup, 2026-11-03.** The clauses below were removed from the ijc documents named in each item so the documents state what is true now. They are recorded in full here.
-   (1) ijc Doc_04 line 7, removed: "Note on this document's own place in this project's methodology: the L4 Template used for this document's structure states plainly that it 'has not yet been tested against a live build.' This is that template's first live application. Anything about it that doesn't fit this world's actual evidentiary shape is flagged in section 7 (Open Items) for report back to the coach thread, per the template's own explicit invitation, not silently worked around."
+   (1) ijc Doc_04 line 7, removed: "**Note on this document's own place in this project's methodology:** the L4 Template used for this document's structure states plainly that it \"has not yet been tested against a live build.\" This is that template's first live application. Anything about it that doesn't fit this world's actual evidentiary shape is flagged in §7 (Open Items) for report back to the coach thread, per the template's own explicit invitation, not silently worked around."
    (2) ijc Doc_04 L132 (wording replaced): "flagged as an open item (§7) rather than asserted either way" (Candidate 6 not independently evidenced in Strand B).
    (3) ijc Doc_07 L12: "see Open Item 2" (pointer to the lens-merge judgement; now "item 2 of the closing list").
    (4) ijc Doc_09 L29 (clause removed): "and should be re-confirmed once World #8's own Doc_01 exists (an open item, not a defect)."
