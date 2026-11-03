@@ -27,6 +27,7 @@ from engine.m1 import cross_world, gates, schemas
 from engine.m1.fk import fk_grade
 from engine.m1.loader import load_world_records, parse_record_text
 from engine.m1.question_endings import bare_question_hits
+from engine.m1.spelling_table import normalize
 from engine.m1.spoken_scaffolding import scaffolding_hits
 from engine.m9.enforce import ACCEPTED_OPEN as M9_ACCEPTED_OPEN
 from engine.m9.enforce import GRANDFATHERED_WORLDS, PROJECT_LEAD, new_world_waiver_problem
@@ -183,14 +184,16 @@ def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: s
     findings: list[Finding] = []
     base_texts: dict[str, set[str]] = {}
     for f in public_fields(base):
-        base_texts.setdefault(f.rid, set()).add(f.text)
+        base_texts.setdefault(f.rid, set()).add(normalize(f.text))
     fields = public_fields(head)
     graded = edited = below_floor = 0
     carried_over: list[str] = []
     for item in fields:
         if gates.grade_text(item.text) is not None:
             graded += 1
-        is_edited = item.text not in base_texts.get(item.rid, set())
+        # A change of spelling alone (British to American) is not an edit: both sides go through the
+        # same table, so a field that already fails stays "carried over" and any other change is graded.
+        is_edited = normalize(item.text) not in base_texts.get(item.rid, set())
         reasons = readability_failures(item)
         if is_edited:
             edited += 1
