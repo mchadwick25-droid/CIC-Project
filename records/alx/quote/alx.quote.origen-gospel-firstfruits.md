@@ -45,8 +45,8 @@ use_note:
   status: reviewed
 reading_card:
   setting: Origen, at Alexandria, opening his Commentary on John, written for Ambrose.
-  source_says: No Gospel declares Christ's Godhead as plainly as John's. Only one who lay on Jesus' breast
-    can grasp it.
+  source_says: No Gospel declares Christ's Godhead as plainly as John's. To grasp it one must lie on Jesus'
+    breast and receive Mary as mother.
   historians_conclude:
     text: The construction record puts the Commentary on John at the heart of this world's Logos theology.
     confidence: Widely Accepted

@@ -45,7 +45,8 @@ use_note:
   years: {from: 296, to: 373}
   status: reviewed
 reading_card:
-  setting: Athanasius, closing On the Incarnation of the Word, usually dated in or shortly before 318.
+  setting: Athanasius, near the end of On the Incarnation of the Word, usually dated in or shortly before
+    318.
   source_says: The Word is known by his works. He became man so we might be made God, and suffered insult
     so we might gain immortality.
   historians_conclude:
@@ -58,7 +59,8 @@ reading_card:
   reads_differently_today: '''Made God'' does not mean becoming a separate god. The Greek word means sharing
     in God''s life, as far as a creature can.'
   sources:
-    setting: alx.source.athanasius-de-incarnatione, work field; On the Incarnation §54, npnf204 line 18725
+    setting: alx.source.athanasius-de-incarnatione, work field; On the Incarnation §54 (the work runs
+      to §57), npnf204 lines 18725, 18867
     source_says: alx.source.athanasius-de-incarnatione, On the Incarnation §54, npnf204 lines 18725-18760
     historians_conclude: Build/worlds/alx/Doc_04_Gravity_Discovery.md §2 (D-B Theosis as Horizon) and
       §4 table; Robertson's endnote 347, npnf204 line 18744

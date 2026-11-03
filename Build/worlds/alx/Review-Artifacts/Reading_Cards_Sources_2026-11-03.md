@@ -16,6 +16,7 @@ Written blind: the author did not open the V7 Set, any graded-run answers or rev
   4. `alx.quote.athanasius-death-trampled-down` and `alx.quote.athanasius-made-god` come from On the Incarnation, which `alx.source.athanasius-de-incarnatione` dates in or shortly before 318, before Nicaea. The cards do not attach the post-Nicene reconfiguration (Doc_05 §7) to these passages.
   5. `alx.quote.dionysius-plague` and `alx.story.plague-nursing` call the letter a festal letter of c. 260; McGiffert dates it shortly before Easter 263 and says it "does not seem to have been a regular festal epistle so-called" (npnf201 lines 41020-41030). The cards' `open` lines carry the edition's dating.
   6. `alx.story.potamiaena`: Palladius, Lausiac History III (Palladius file lines 205-207), tells a different Potamiaena account (a slave handed over by her master, under 'Maximianus'), noted in McGiffert's headnote to HE VI.5. The card's `open` line carries it.
+- **Round 1 revisions (review CHANGES NEEDED, 33 of 35 clean).** Changed lines only: `ecclesiastical-and-apostolical-tradition` whose_view (states only Doc_05 §4's "inheritance and as unease at once"); `clement-bee` historians_conclude (Eusebius HE V.11.2 "It seems to me that he alludes to", editor "Most likely": both now "take him to be"); `plague-nursing` source_says (HE VII.22.9: carried, washed and dressed the dead); `couches-and-trenchers-and-bowls` reads_differently_today (the ivory point given as the lens note's inference); `potamiaena` source_says (Marcella clause in Eusebius's own voice, VI.5.1; "They say" from VI.5.2); `john-young-robber` open (editor's hedge "said to be Smyrna" kept); `origen-gospel-firstfruits` source_says (both conditions); `athanasius-made-god` setting (§54 is near the end; the work runs to §57, npnf204 line 18867); `dionysius-plague` and `plague-nursing` historians_conclude now both *Documented*: Doc_02 §3.6 sets no level, so the level is taken from both records' own formation_confidence (Documented) and, for the story, Doc_09 §1's Tier 1 cross-walk.
 - **Word counts** use the gate's own counter (`engine/m1/gates.py` `reading_card_texts`, `_WORD`); every card is at or under 120.
 
 ## Per-card source table
@@ -74,7 +75,7 @@ Written blind: the author did not open the V7 Set, any graded-run answers or rev
 
 | Line | Source / locus used |
 |---|---|
-| `setting` | alx.source.athanasius-de-incarnatione, work field; On the Incarnation §54, npnf204 line 18725 |
+| `setting` | alx.source.athanasius-de-incarnatione, work field; On the Incarnation §54 (the work runs to §57), npnf204 lines 18725, 18867 |
 | `source_says` | alx.source.athanasius-de-incarnatione, On the Incarnation §54, npnf204 lines 18725-18760 |
 | `historians_conclude` [confidence: Widely Accepted] | Build/worlds/alx/Doc_04_Gravity_Discovery.md §2 (D-B Theosis as Horizon) and §4 table; Robertson's endnote 347, npnf204 line 18744 |
 | `contributes` | alx.gravity.soul-transformation; alx.term.theosis |
@@ -88,7 +89,7 @@ Written blind: the author did not open the V7 Set, any graded-run answers or rev
 |---|---|
 | `setting` | alx.source.clement-stromateis, Stromateis I.1, anf02 lines 27476-27483 |
 | `source_says` | alx.source.clement-stromateis, Stromateis I.1, anf02 lines 27483-27500 |
-| `historians_conclude` [confidence: Contested] | anf02 editor's note at line 27489 ('Most likely Pantaenus'); alx.contested.didaskaleion-institution; Build/worlds/alx/Doc_01_World_Identification_Boundaries_Orientation.md §1.2 |
+| `historians_conclude` [confidence: Contested] | anf02 editor's note at line 27489 ('Most likely Pantaenus'); alx.source.eusebius-historia-ecclesiastica, HE V.11.2, npnf201 line 28702 ('It seems to me that he alludes to'); alx.contested.didaskaleion-institution; Build/worlds/alx/Doc_01_World_Identification_Boundaries_Orientation.md §1.2 |
 | `contributes` | alx.term.didaskalos; alx.gravity.learning-formation |
 | `whose_view` | Build/worlds/alx/Doc_02_Source_Ecology.md §3.2 (Clement: representativeness partial) |
 | `open` | alx.contested.didaskaleion-institution, held_against |
@@ -202,7 +203,7 @@ Written blind: the author did not open the V7 Set, any graded-run answers or rev
 |---|---|
 | `setting` | alx.source.eusebius-historia-ecclesiastica, HE VII.22.1, npnf201 lines 41017-41030 |
 | `source_says` | alx.source.eusebius-historia-ecclesiastica, HE VII.22.6-10, npnf201 lines 41058-41110 |
-| `historians_conclude` [confidence: Widely Accepted] | Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim quotation of documents); alx.source.eusebius-historia-ecclesiastica, work field |
+| `historians_conclude` [confidence: Documented] | Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim quotation of documents); alx.source.eusebius-historia-ecclesiastica, work field; level from alx.quote.dionysius-plague confidence.formation_confidence (Documented) |
 | `contributes` | alx.term.martys; alx.term.agape |
 | `whose_view` | alx.quote.dionysius-plague, use_note.not_for; alx.story.plague-nursing, absent_detail |
 | `open` | McGiffert's note to HE VII.22.1, npnf201 lines 41020-41030; alx.story.plague-nursing, absent_detail |
@@ -438,7 +439,7 @@ Written blind: the author did not open the V7 Set, any graded-run answers or rev
 |---|---|
 | `setting` | alx.source.eusebius-historia-ecclesiastica, HE VII.22.1, npnf201 lines 41017-41030 |
 | `source_says` | alx.source.eusebius-historia-ecclesiastica, HE VII.22.4-10, npnf201 lines 41047-41110 |
-| `historians_conclude` [confidence: Documented] | Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim quotation of documents) |
+| `historians_conclude` [confidence: Documented] | Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim quotation of documents); level from alx.story.plague-nursing confidence.formation_confidence (Documented) and Build/worlds/alx/Doc_09_Story_Inventory.md §1 (Tier 1 cross-walk) |
 | `contributes` | alx.term.martys; alx.term.agape |
 | `whose_view` | alx.story.plague-nursing, absent_detail |
 | `open` | McGiffert's note to HE VII.22.1, npnf201 lines 41020-41030; alx.story.plague-nursing, absent_detail |
@@ -456,4 +457,3 @@ Written blind: the author did not open the V7 Set, any graded-run answers or rev
 | `open` | alx.source.palladius-lausiac-history, Lausiac History III, file lines 205-207; McGiffert's note to HE VI.5, npnf201 lines 32925-32945 |
 | `reads_differently_today` | alx.story.potamiaena, modern_contrast |
 | `complicated_by` | alx.limit.f5-women-own-words (record ids; resolve under the gate) |
-

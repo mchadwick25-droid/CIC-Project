@@ -64,7 +64,7 @@ use_note:
   status: reviewed
 reading_card:
   setting: Dionysius, bishop of Alexandria, writing before Easter during a plague; Eusebius quotes him.
-  source_says: Most Christians nursed the sick and buried the dead with their own hands, while the heathen
+  source_says: Most Christians nursed the sick, and carried, washed and dressed the dead, while the heathen
     cast out their own.
   historians_conclude:
     text: The construction record rates Eusebius's word-for-word quotations above his own narration.
@@ -78,7 +78,8 @@ reading_card:
     setting: alx.source.eusebius-historia-ecclesiastica, HE VII.22.1, npnf201 lines 41017-41030
     source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.22.4-10, npnf201 lines 41047-41110
     historians_conclude: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim
-      quotation of documents)'
+      quotation of documents); level from alx.story.plague-nursing confidence.formation_confidence (Documented)
+      and Build/worlds/alx/Doc_09_Story_Inventory.md §1 (Tier 1 cross-walk)'
     contributes: alx.term.martys; alx.term.agape
     whose_view: alx.story.plague-nursing, absent_detail
     open: McGiffert's note to HE VII.22.1, npnf201 lines 41020-41030; alx.story.plague-nursing, absent_detail

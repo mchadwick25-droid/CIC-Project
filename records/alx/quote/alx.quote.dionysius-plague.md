@@ -66,7 +66,7 @@ reading_card:
     'lacking nothing of martyrdom'.
   historians_conclude:
     text: The construction record rates Eusebius's word-for-word quotations, as here, above his own narration.
-    confidence: Widely Accepted
+    confidence: Documented
   contributes: It shows care for the dying as witness, close to martyrdom.
   whose_view: A bishop praising his own flock. He says 'most', not all, and frames the pagans sharply.
   open: McGiffert dates it before Easter 263 and doubts it was a regular festal letter.
@@ -76,7 +76,8 @@ reading_card:
     setting: alx.source.eusebius-historia-ecclesiastica, HE VII.22.1, npnf201 lines 41017-41030
     source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.22.6-10, npnf201 lines 41058-41110
     historians_conclude: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim
-      quotation of documents); alx.source.eusebius-historia-ecclesiastica, work field'
+      quotation of documents); alx.source.eusebius-historia-ecclesiastica, work field; level from alx.quote.dionysius-plague
+      confidence.formation_confidence (Documented)'
     contributes: alx.term.martys; alx.term.agape
     whose_view: alx.quote.dionysius-plague, use_note.not_for; alx.story.plague-nursing, absent_detail
     open: McGiffert's note to HE VII.22.1, npnf201 lines 41020-41030; alx.story.plague-nursing, absent_detail

@@ -65,7 +65,7 @@ reading_card:
   whose_view: Clement addresses wealthy households, not most Christians' homes.
   open: Several vessels are only transliterated, so some cannot be identified.
   reads_differently_today: This is the nearest thing to an archaeologist's list in this world's writings,
-    but it describes a house, not a church. He forbids ivory to people who owned it.
+    but it describes a house, not a church. And a teacher need not forbid ivory to people who own none.
   complicated_by:
   - alx.limit.material-remains
   sources:

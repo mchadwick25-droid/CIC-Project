@@ -49,8 +49,8 @@ reading_card:
   source_says: He names teachers from Greece to the East. The last, found hidden in Egypt, gave him rest;
     such men kept the apostles' tradition.
   historians_conclude:
-    text: Clement names no one; the editor and Eusebius say Pantaenus. Scholars divide on whether a formal
-      school existed then.
+    text: Clement names no one; the editor and Eusebius take him to be Pantaenus. Scholars divide on whether
+      a formal school existed then.
     confidence: Contested
   contributes: 'It shows the teacher''s authority from inside: wide learning planted in hearers.'
   whose_view: Clement's personal tribute, written for the educated; most believers do not appear.
@@ -62,7 +62,8 @@ reading_card:
   sources:
     setting: alx.source.clement-stromateis, Stromateis I.1, anf02 lines 27476-27483
     source_says: alx.source.clement-stromateis, Stromateis I.1, anf02 lines 27483-27500
-    historians_conclude: anf02 editor's note at line 27489 ('Most likely Pantaenus'); alx.contested.didaskaleion-institution;
+    historians_conclude: anf02 editor's note at line 27489 ('Most likely Pantaenus'); alx.source.eusebius-historia-ecclesiastica,
+      HE V.11.2, npnf201 line 28702 ('It seems to me that he alludes to'); alx.contested.didaskaleion-institution;
       Build/worlds/alx/Doc_01_World_Identification_Boundaries_Orientation.md §1.2
     contributes: alx.term.didaskalos; alx.gravity.learning-formation
     whose_view: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.2 (Clement: representativeness partial)'

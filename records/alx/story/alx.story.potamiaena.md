@@ -65,8 +65,8 @@ use_note:
   status: reviewed
 reading_card:
   setting: Eusebius, Church History VI.5, retelling Alexandria's memory of a woman martyred under Severus.
-  source_says: '''They say'' she was killed with burning pitch, with her mother Marcella. Basilides, who
-    led her out, later confessed and was beheaded.'
+  source_says: 'In his own voice Eusebius says she died by fire with her mother Marcella. ''They say''
+    the rest: the judge''s threats, the pitch, and Basilides.'
   historians_conclude:
     text: The construction record treats martyr accounts as evidence of what the community believed, not
       of each event.

@@ -58,8 +58,7 @@ reading_card:
       held his boldest ideas.
     confidence: Contested
   contributes: It shows the rule of faith bounding how Scripture was read.
-  whose_view: Origen's framing. This world held him with inheritance and unease, so his boundary outweighs
-    his speculation.
+  whose_view: Origen's framing. This world held Origen as inheritance and as unease at once.
   open: Rufinus softened doubtful passages, so the wording is not Origen's own.
   reads_differently_today: 'Was the Bible the only authority? No: it is read inside what the churches
     kept from the apostles, a continuity of teaching, not a book, council or office.'

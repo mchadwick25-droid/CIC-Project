@@ -76,7 +76,8 @@ reading_card:
     confidence: Widely Accepted
   contributes: It shows that one who fell could return, at real cost to those who restored him.
   whose_view: Clement vouches for a received tradition set near Ephesus; the earlier chain is lost.
-  open: Clement names no city; the editor says Smyrna. Whether it happened cannot be shown.
+  open: Clement names no city; the editor notes it is 'said to be Smyrna'. Whether it happened cannot
+    be shown.
   reads_differently_today: Not a simple redemption tale. The bishop's relaxed watch caused the fall, and
     John's pursuit and shared fasting are the cost of repair.
   sources:
