@@ -36,7 +36,7 @@ license: verbatim
 modern_lens_note: >-
   This is not Ignatius, and it is not about docetism - it is a separate Asia Minor voice, roughly
   three generations after Ignatius, describing a different contemporary rival (the New Prophecy /
-  Montanism) being examined and rejected by gathered bishops rather than by one man's letters. It
+  Montanism) being examined and rejected by the faithful meeting together across Asia rather than by one man's letters. It
   corroborates that this world's boundary-drawing against contemporary rivals was a real, live,
   multi-voiced pattern - not that this specific gravity's anti-docetic claim has a second voice.
 retrieval:
