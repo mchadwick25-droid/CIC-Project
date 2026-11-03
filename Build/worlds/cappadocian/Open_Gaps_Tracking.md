@@ -1029,3 +1029,11 @@ Status: CLOSED for the seven descriptions; the relation gap is OPEN for cappadoc
 3. `cappadocian_Representative_Identity_Options.md`, line 36: the build's quotation of the comparative note ended with "flagged for the project lead with that comparative note." The open question itself, Option 2 (a female-anchored second voice, "live, evidenced, and explicitly not-closed"), stays in the document.
 
 Status: OPEN. Owner: this world's thread.
+
+### OG-61. `policy-oscillation` linked to Paideia converted, 2026-11-03.
+
+Follows OG-59 ("Seven force descriptions rewritten to the reading level", 2026-11-03), which left this open. The forces document's Section 5 ties Supporting 4 (Paideia converted) to three forces: 1B-3 (its ground), 2A-1 with Julian (its crisis) and 2A-3 (its discipline). `paideia-ladder` (1B-3) and `eunomian-movement` (2A-3) already carried the relation. `policy-oscillation` (2A-1) did not. It now carries `associated-with cappadocian.gravity.paideia-converted`, the gravity declares the relation back (its own note already named 2A-1 as associated-with), and the force's body note counts seven linked gravities, not six. An independent Opus review checked it against the forces document.
+
+Still open: the forces document's index table (`cappadocian_Forces_Document.md` line 27, the 2A-1 row) lists six gravities and leaves out Supporting 4, while its Section 5 includes it. The record now follows Section 5. The index row belongs to cappadocian's own build thread.
+
+Status: CLOSED for the record; OPEN for the index row.
