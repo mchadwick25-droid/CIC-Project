@@ -127,11 +127,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Origen's Commentary on the Gospel of John
+      author: origen
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C1.S8:
     label: Would Jesus want someone like me; I want to believe
     seeds: []
@@ -189,11 +189,11 @@ subquestions:
         be stripped; 'Thus do they vainly speculate' points back. Work is On the Incarnation 3, not Against the Heathen. Nothing
         argues God is real or who made God.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: On the Incarnation of the Word (De Incarnatione)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S3:
     label: The Trinity in plain words; the one-and-three objection
     seeds:
@@ -247,11 +247,11 @@ subquestions:
       reader_note: The doctrinal content is the reported reply of another party, which the synod accepts, not Athanasius's
         own statement; opens 'They assured us in reply that they neither meant this', with 'this' undefined.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Synodal Letter to the People of Antioch (Tomus ad Antiochenos)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S4:
     label: 'The Spirit: person or force; tongues; prophecy; still speaks'
     seeds:
@@ -286,11 +286,11 @@ subquestions:
       reader_note: The doctrinal content is the reported reply of another party, which the synod accepts, not Athanasius's
         own statement; opens 'They assured us in reply that they neither meant this', with 'this' undefined.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Synodal Letter to the People of Antioch (Tomus ad Antiochenos)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S5:
     label: 'Councils, Arius, homoousios, filioque: ''a council voted Jesus God'''
     seeds: []
@@ -345,11 +345,11 @@ subquestions:
       reader_note: Opens with the editor's synopsis (§7 'Refutation of dualism... perverted choice of the darkened soul'),
         not Athanasius's words; the first reader's gloss quotes that editor text as the passage's claim.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Against the Heathen (Contra Gentes)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S8:
     label: Pictures and images of God
     seeds:
@@ -399,11 +399,11 @@ subquestions:
       reader_note: 'Wrongly rejected: Clement''s own rejection of worshipping images and pictures bears on the question, though
         Christian practice is only implied.'
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Exhortation to the Heathen (Protrepticus)
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C3.S1:
     label: Was hell and a last judgment real; how pictured, preached, used
     seeds: []
@@ -454,11 +454,11 @@ subquestions:
       reader_note: Rufinus's Latin of De Principiis I.6; speaks of fallen rational beings being restored, not of hell or punishment
         by name.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: De Principiis (On First Principles)
+      author: origen
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C3.S3:
     label: Did everyone get restored in the end, even the devil
     seeds: []
@@ -551,11 +551,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: '''[merely]'' is a translator insertion.'
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: The Festal Letters (with the Festal Index)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:npnf201_eusebius-church-history-life-of-constantine.xml:iii.viii.xxv#01
       file: npnf201_eusebius-church-history-life-of-constantine.xml
       division_locus: iii.viii.xxv
@@ -606,9 +606,9 @@ subquestions:
       rank: 2
       work: The Church History of Eusebius (Historia Ecclesiastica)
       author: eusebius
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C5.S2:
     label: 'How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses'
     seeds:
@@ -710,9 +710,9 @@ subquestions:
       rank: 1
       work: The Church History of Eusebius (Historia Ecclesiastica)
       author: eusebius
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C5.S4:
     label: Genesis and creation, the six days
     seeds: []
@@ -1082,11 +1082,11 @@ subquestions:
       reader_note: 'Misattributed by the first reader: this is Dionysius of Alexandria''s Epistle to Basilides, Canon II (ANF06),
         not Gregory Thaumaturgus; he is Alexandrian.'
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Extant Fragments of Dionysius of Alexandria (works and epistles)
+      author: dionysius_gr
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:npnf214_seven-ecumenical-councils.xml:xvii.xxiv#01
       file: npnf214_seven-ecumenical-councils.xml
       division_locus: xvii.xxiv
@@ -1132,11 +1132,11 @@ subquestions:
       reader_note: Heading says Answers numbered IX; text begins with heading material. | Opens with the compiler's heading,
         not Timothy's words; the '1 Cor. vii. 5' reference may be editorial; NPNF canon texts can be abridged.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: The Canonical Answers of Timothy of Alexandria
+      author: timothy_alexandria
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S3:
     label: 'Prayer: why and how, set or free, teach me, prayer in anxiety'
     seeds: []
@@ -1187,11 +1187,11 @@ subquestions:
       reader_note: About conduct at banquets, not worship; fit rests only on Clement's view of instruments and his spiritual
         reading of Psalm 150.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Instructor (Paedagogus)
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S5:
     label: Confession and penance; fasting
     seeds:
@@ -1240,11 +1240,11 @@ subquestions:
       reader_note: NPNF14 gives Johnson's abridged paraphrase of Dionysius's canons with editorial 'Note.' lines (Johnson's
         date, Balsamon) inline; not Dionysius's own words, so not voiceable as his.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: The canonical letter of Dionysius of Alexandria to Basilides
+      author: dionysius_gr
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C7.S6:
     label: 'The calendar: Sunday or Sabbath, Easter, Christmas, Lent'
     seeds: []
@@ -1423,11 +1423,11 @@ subquestions:
       reader_note: 'Mixed voices: Gregory Thaumaturgus''s canon (c. 255) followed by 12th-century Byzantine commentators Balsamon
         and Zonaras; only the canon itself could be voiced, and not as an Alexandrian.'
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: The Canonical Epistle of Peter of Alexandria
+      author: peter_alexandria
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C8.S4:
     label: 'Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery'
     seeds: []
@@ -1851,9 +1851,9 @@ subquestions:
       rank: 1
       work: The Church History of Eusebius (Historia Ecclesiastica)
       author: eusebius
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf04_tertullian4-minucius-felix-commodian-origen1-2.xml:vi.ix.iii.viii#01
       file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
       division_locus: vi.ix.iii.viii
@@ -1899,11 +1899,11 @@ subquestions:
       reader_note: Opens with an unrelated argument about the Exodus before turning to Christians. | First half is an unrelated
         Exodus argument; the 'few, easily numbered' claim is apologetic, not a count.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Origen Against Celsus (Contra Celsum)
+      author: origen
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C9.S2:
     label: Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king
     seeds: []
@@ -1957,11 +1957,11 @@ subquestions:
       reader_note: Athanasius narrating, with Antony's quoted words; shows a stance toward Christian emperors only, nothing
         on persecutors, taxes or office.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Vita Antonii (Life of Antony)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C9.S4:
     label: Soldiers, war, judges, the death penalty, 'render unto Caesar'
     seeds: []
@@ -2016,9 +2016,9 @@ subquestions:
       rank: 1
       work: The Ecclesiastical History of Socrates Scholasticus
       author: socrates
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:npnf202_socrates-sozomen-ecclesiastical-histories.xml:ii.viii.xvii#01
       file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
       division_locus: ii.viii.xvii
@@ -2068,9 +2068,9 @@ subquestions:
       rank: 2
       work: The Ecclesiastical History of Socrates Scholasticus
       author: socrates
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C9.S6:
     label: The church taking political sides; injustice in Christian history
     seeds: []
@@ -2143,11 +2143,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Who is the Rich Man that shall be saved?
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iv.ii.v#02
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iv.ii.v
@@ -2219,11 +2219,11 @@ subquestions:
         wealth sits inside an argument that Greeks borrowed from Scripture; Clement's camel wording swaps in 'lead a philosophic
         life'.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Stromata, or Miscellanies
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.iii.iv#03
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iii.iii.iv
@@ -2289,11 +2289,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 3
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Instructor (Paedagogus)
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C10.S2:
     label: 'Giving: tithe, alms, almsgiving and forgiveness'
     seeds: []
@@ -2351,11 +2351,11 @@ subquestions:
       reader_note: Gloss drops 'a participator in the same word', which makes 'brother' read as ethnic only. Clement is expounding
         the Mosaic law.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Stromata, or Miscellanies
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C10.S6:
     label: Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong
     seeds: []
@@ -2413,11 +2413,11 @@ subquestions:
       reader_note: Covers only the demons question; first reader's passage_says misreads the comparison (it is those honoured
         by God, i.e. Jesus, not God, set against Apollo or Zeus).
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Origen Against Celsus (Contra Celsum)
+      author: origen
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C11.S3:
     label: Greek philosophy taken or refused; pagan authors quoted
     seeds:
@@ -2465,11 +2465,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: '''Well, be it so that'' is concessive framing of the thieves reading; opens mid-chapter but meaning intact.'
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Stromata, or Miscellanies
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C11.S4:
     label: Muslims (worlds after 632 only)
     seeds: []
@@ -2625,11 +2625,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Dancing is allegorical (movements of the people); only the birthday remark bears on celebrations.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Origen's Commentary on the Gospel of Matthew
+      author: origen
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.ii.ii/line23584#02
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iii.ii.ii/line23584
@@ -2693,11 +2693,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 3
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Instructor (Paedagogus)
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.iii.ii.ii/line23513#01
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
       division_locus: vi.iii.ii.ii/line23513
@@ -2763,11 +2763,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: 'Gloss overstates baths: no statement on whether Christians used baths.'
       rank: 4
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: The Instructor (Paedagogus)
       author: clement_alex
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C12.S2:
     label: Houses, clothes, language at home and in prayer
     seeds: []
@@ -2854,11 +2854,11 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Origen frames this as an alternative explanation ('you can otherwise take'); gloss drops that hedge.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Origen's Commentary on the Gospel of Matthew
+      author: origen
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:iv.iv.ii#05
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: iv.iv.ii
@@ -2921,11 +2921,11 @@ subquestions:
       reader_note: 'First reader misattributes: Dionysius of Alexandria''s Luke fragment, not Gregory Thaumaturgus; near-duplicate
         of 012; tail drifts to Judas''s kiss.'
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Exegetical Fragments of Dionysius of Alexandria
+      author: dionysius_gr
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:iv.iv.iv#02
       file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
       division_locus: iv.iv.iv
@@ -2989,11 +2989,11 @@ subquestions:
       reader_note: 'First reader misattributes: this is Dionysius of Alexandria''s exegetical fragments (ANF06 div ''Dionysius''),
         so Alexandrian, not Gregory; near-duplicate of 013; opening ''this'' refers to prior context.'
       rank: 3
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Exegetical Fragments of Dionysius of Alexandria
+      author: dionysius_gr
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C13.S2:
     label: Demons, sickness, exorcists, Antony in the tombs
     seeds:
@@ -3048,11 +3048,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Vita Antonii (Life of Antony)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:npnf204_athanasius-select-works-letters.xml:xvi.ii.xxxii#01
       file: npnf204_athanasius-select-works-letters.xml
       division_locus: xvi.ii.xxxii
@@ -3104,11 +3104,11 @@ subquestions:
           gloss_ok: true
           can_be_voiced_as_own: true
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Vita Antonii (Life of Antony)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
     - passage_id: cic:npnf204_athanasius-select-works-letters.xml:xvi.ii.vii#01
       file: npnf204_athanasius-select-works-letters.xml
       division_locus: xvi.ii.vii
@@ -3162,11 +3162,11 @@ subquestions:
       reader_note: Athanasius narrates the beating as a real event; Antony's report of the pain is given indirectly. Does
         not cover exorcists or sickness.
       rank: 3
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      work_author_basis: unresolved
+      work: Vita Antonii (Life of Antony)
+      author: athanasius
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C13.S3:
     label: Miracles seen or heard; true from false; 'fairy tales'
     seeds:

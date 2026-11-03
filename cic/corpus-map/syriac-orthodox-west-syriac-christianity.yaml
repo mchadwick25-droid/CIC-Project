@@ -77,8 +77,12 @@ works:
   work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
+  locus_ids:
+  - ix.iv
+  - ix.iv/notes
   role: tradition
   confidence: assigned
+  language: eng
   note: 'Jacob of Sarug (d. 521) versifying Edessa''s Abgar tradition: subject matter is syr''s,
     the author belongs to the West Syriac entry''s era. Non-exclusive on purpose.
 

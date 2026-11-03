@@ -126,8 +126,53 @@ works:
     Anathemas Against Origen'
   author: council-of-constantinople-553
   locus: div1 12
+  locus_ids:
+  - xii.i
+  - xii.ii
+  - xii.iii
+  - xii.iii/notes
+  - xii.iv
+  - xii.iv/notes
+  - xii.v
+  - xii.v/notes
+  - xii.vi/line30116
+  - xii.vi/notes
+  - xii.vi/line30138
+  - xii.vi/line30179
+  - xii.vi/line30204
+  - xii.vi/line30229
+  - xii.vi/line30260
+  - xii.vi/line30287
+  - xii.vi/line30320
+  - xii.vi/line30383
+  - xii.vi/line30469
+  - xii.vi/line30488
+  - xii.vii/line30557
+  - xii.vii/line30589
+  - xii.vii/line30636
+  - xii.vii/line30658
+  - xii.vii/notes
+  - xii.vii/line30680
+  - xii.vii/line30701
+  - xii.vii/line30725
+  - xii.vii/line30750
+  - xii.vii/line30787
+  - xii.vii/line30815
+  - xii.vii/line30860
+  - xii.viii
+  - xii.viii/notes
+  - xii.ix
+  - xii.ix/notes
+  - xii.x
+  - xii.x/notes
+  - xii.xi
+  - xii.xii
+  - xii.xii/notes
+  - xii.xiii
+  - xii.xiii/notes
   role: context
   confidence: provisional
+  language: eng
   note: 'The Three Chapters condemn Theodore of Mopsuestia - the Church of the East''s "Interpreter"
     - with Theodoret and Ibas: hostile record of the Antiochene school and of the tradition
     the Persian church canonized. The appended anathemas against Origen are the imperial condemnation
@@ -220,8 +265,38 @@ works:
   work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
   locus: div2 12.4
+  locus_ids:
+  - xii.iv/line21737
+  - xii.iv/notes
+  - xii.iv/line21785
+  - xii.iv/line21821
+  - xii.iv/line21854
+  - xii.iv/line21894
+  - xii.iv/line21934
+  - xii.iv/line21987
+  - xii.iv/line22011
+  - xii.iv/line22075
+  - xii.iv/line22103
+  - xii.iv/line22168
+  - xii.iv/line22192
+  - xii.iv/line22204
+  - xii.iv/line22220
+  - xii.iv/line22245
+  - xii.iv/line22261
+  - xii.iv/line22273
+  - xii.iv/line22305
+  - xii.iv/line22338
+  - xii.iv/line22366
+  - xii.iv/line22406
+  - xii.iv/line22419
+  - xii.iv/line22471
+  - xii.iv/line22519
+  - xii.iv/line22583
+  - xii.iv/line22644
+  - xii.iv/line22668
   role: tradition
   confidence: provisional
+  language: eng
   note: 'Declined for `syriac-edessa-nisibis`, for the same reason as the Liturgy of Mark
     and on the same page of apparatus. The ANF prints a text "corrected after Renaudot" from
     an 18th-c. collection, and the Early Liturgies section''s own notes date the received

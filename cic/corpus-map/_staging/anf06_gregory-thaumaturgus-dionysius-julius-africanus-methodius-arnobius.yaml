@@ -34,6 +34,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [iii.iii.iv.i, iii.iii.iv.i/notes, iii.iii.iv.ii, iii.iii.iv.ii/notes, iii.iii.iv.iii, iii.iii.iv.iii/notes, iii.iii.iv.iv, iii.iii.iv.iv/notes, iii.iii.iv.v, iii.iii.iv.v/notes, iii.iii.iv.vi, iii.iii.iv.vi/notes, iii.iii.iv.vii, iii.iii.iv.vii/notes, iii.iii.iv.viii, iii.iii.iv.viii/notes, iii.iii.iv.ix, iii.iii.iv.ix/notes, iii.iii.iv.x, iii.iii.iv.x/notes, iii.iii.iv.xi, iii.iii.iv.xi/notes, iii.iii.iv.xii, iii.iii.iv.xii/notes, iii.iii.iv.xiii, iii.iii.iv.xiii/notes, iii.iii.iv.xiv, iii.iii.iv.xiv/notes, iii.iii.iv.xv, iii.iii.iv.xv/notes, iii.iii.iv.xvi, iii.iii.iv.xvi/notes, iii.iii.iv.xvii, iii.iii.iv.xvii/notes, iii.iii.iv.xviii, iii.iii.iv.xix, iii.iii.iv.xix/notes, iii.iii.iv.xx, iii.iii.iv.xx/notes]
+  language: eng
   note: 'A student''s firsthand account of Origen''s school and teaching method - the best
     inside evidence of the catechetical tradition''s pedagogy that exists (delivered at Caesarea,
     but the school is Origen''s). Pairs with Origen''s Letter to Gregory in anf04.
@@ -169,6 +171,8 @@ assignments:
   - novatianism
   role: tradition
   confidence: assigned
+  locus_ids: [iv.iii, iv.iii.i.i/line7172, iv.iii.i.i/notes, iv.iii.i.i/line7233, iv.iii.i.i/line7269, iv.iii.i.i/line7306, iv.iii.i.i/line7329, iv.iii.i.i/line7365, iv.iii.i.i/line7394, iv.iii.i.i/line7442, iv.iii.i.ii.i, iv.iii.i.ii.i/notes, iv.iii.i.ii.ii, iv.iii.i.ii.ii/notes, iv.iii.i.ii.iii, iv.iii.i.ii.iii/notes, iv.iii.i.ii.iv, iv.iii.i.ii.iv/notes, iv.iii.i.ii.v, iv.iii.i.ii.v/notes, iv.iii.i.iii, iv.iii.i.iii/notes, iv.iii.i.iv.i, iv.iii.i.iv.i/notes, iv.iii.i.iv.ii, iv.iii.i.iv.ii/notes, iv.iii.i.iv.iii, iv.iii.i.iv.iv, iv.iii.i.iv.iv/notes, iv.iii.i.iv.v, iv.iii.i.iv.v/notes, iv.iii.i.iv.vi, iv.iii.i.iv.vi/notes, iv.iii.i.iv.vii, iv.iii.i.iv.vii/notes, iv.iii.i.iv.viii, iv.iii.i.iv.viii/notes, iv.iii.i.iv.ix, iv.iii.i.iv.ix/notes, iv.iii.i.iv.x, iv.iii.i.iv.x/notes, iv.iii.i.iv.xi, iv.iii.i.iv.xi/notes, iv.iii.i.v.i, iv.iii.i.v.i/notes, iv.iii.i.v.ii, iv.iii.i.v.ii/notes, iv.iii.i.v.iii, iv.iii.i.v.iii/notes, iv.iii.i.v.iv, iv.iii.i.v.iv/notes, iv.iii.ii.i, iv.iii.ii.i/notes, iv.iii.ii.ii, iv.iii.ii.ii/notes, iv.iii.ii.iii/line8734, iv.iii.ii.iii/notes, iv.iii.ii.iii/line8780, iv.iii.ii.iii/line8803, iv.iii.ii.iii/line8836, iv.iii.ii.iii/line8863, iv.iii.ii.iii/line8906, iv.iii.ii.iii/line8925, iv.iii.ii.iii/line8954, iv.iii.ii.iii/line8976, iv.iii.ii.iv, iv.iii.ii.iv/notes, iv.iii.ii.v, iv.iii.ii.v/notes, iv.iii.ii.vi, iv.iii.ii.vi/notes, iv.iii.ii.vii, iv.iii.ii.vii/notes, iv.iii.ii.viii, iv.iii.ii.viii/notes, iv.iii.ii.ix, iv.iii.ii.ix/notes, iv.iii.ii.x, iv.iii.ii.x/notes, iv.iii.ii.xi, iv.iii.ii.xi/notes, iv.iii.ii.xii, iv.iii.ii.xii/notes, iv.iii.ii.xiii, iv.iii.ii.xiii/notes, iv.iii.ii.xiv, iv.iii.ii.xiv/notes, iv.iii.ii.xv, iv.iii.ii.xv/notes]
+  language: eng
   note: 'Dionysius the Great, pupil of Origen and head of the catechetical school before becoming
     bishop - squarely Alexandrian tradition. The epistle fragments are also a principal contemporary
     witness to the Novatianist crisis (his letter to Novatian himself is here, with correspondence
@@ -185,6 +189,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [iv.iv, iv.iv.i.i, iv.iv.i.i/notes, iv.iv.i.ii, iv.iv.i.ii/notes, iv.iv.i.iii, iv.iv.i.iii/notes, iv.iv.ii, iv.iv.ii/notes, iv.iv.iii, iv.iv.iii/notes, iv.iv.iv, iv.iv.iv/notes, iv.iv.v, iv.iv.v/notes, iv.iv.vi, iv.iv.vi/notes, iv.iv.vii, iv.iv.vii/notes]
+  language: eng
   note: 'Exegetical and doctrinal fragments in the school''s manner.
 
     '
@@ -257,6 +263,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [vi.iii.i, vi.iii.i/notes, vi.iii.ii.i, vi.iii.ii.i/notes, vi.iii.ii.ii, vi.iii.ii.ii/notes, vi.iii.ii.iii, vi.iii.ii.iii/notes, vi.iii.ii.iv, vi.iii.ii.v, vi.iii.ii.v/notes, vi.iii.ii.vi, vi.iii.ii.vi/notes, vi.iii.ii.vii, vi.iii.ii.viii, vi.iii.ii.viii/notes, vi.iii.ii.ix, vi.iii.ii.x, vi.iii.ii.x/notes, vi.iii.ii.xi, vi.iii.ii.xi/notes, vi.iii.ii.xii, vi.iii.ii.xiii, vi.iii.ii.xiv, vi.iii.ii.xiv/notes, vi.iii.ii.xv, vi.iii.ii.xv/notes, vi.iii.ii.xvi, vi.iii.ii.xvi/notes, vi.iii.ii.xvii, vi.iii.ii.xvii/notes, vi.iii.iii, vi.iii.iii/notes]
+  language: eng
   note: 'Anatolius, Alexandrian scholar of the Aristotelian school there, later bishop of
     Laodicea - the Paschal computus and arithmetical fragments are products of Alexandrian
     Christian scholarship; provisional because his episcopate was Syrian.
@@ -286,6 +294,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [vi.v, vi.v.i, vi.v.i/notes, vi.v.ii.i, vi.v.ii.i/notes, vi.v.ii.ii, vi.v.ii.ii/notes, vi.v.ii.iii, vi.v.ii.iii/notes]
+  language: eng
   note: 'Alexandrian teacher of the later third century (fl. c. 260); the Hypotyposes fragments,
     Origenian in cast. Whether he headed the catechetical school after Dionysius is an inference,
     not documented fact - ANF6''s notice says only that he is titled exegetes and that "Dodwell
@@ -305,6 +315,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [vi.vi, vi.vi.i, vi.vi.i/notes, vi.vi.ii, vi.vi.ii/notes, vi.vi.iii, vi.vi.iii/notes]
+  language: eng
   note: 'Alexandrian presbyter and teacher, called "Origen the younger" by Jerome; fragments of his
     teaching. He is not documented head of the catechetical school - this world''s own vendored
     Eusebius contradicts that reading: HE VII.32 places ACHILLAS over the school, and NPNF''s
@@ -321,6 +333,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [vi.vii, vi.vii.i, vi.vii.i/notes, vi.vii.ii.i, vi.vii.ii.i/notes, vi.vii.ii.ii, vi.vii.ii.ii/notes, vi.vii.ii.iii, vi.vii.ii.iv, vi.vii.ii.iv/notes, vi.vii.ii.v, vi.vii.ii.vi, vi.vii.ii.vi/notes, vi.vii.ii.vii, vi.vii.ii.vii/notes, vi.vii.ii.viii, vi.vii.ii.viii/notes, vi.vii.ii.ix, vi.vii.ii.ix/notes]
+  language: eng
   note: 'Counsel from Theonas, bishop of Alexandria (282-300), to a Christian chief chamberlain
     at court on serving a pagan emperor faithfully. Authenticity has been questioned (known
     only through a later Latin transmission) - hence provisional.
@@ -334,6 +348,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [vi.viii, vi.viii.i, vi.viii.i/notes, vi.viii.ii.i, vi.viii.ii.i/notes, vi.viii.ii.ii, vi.viii.ii.ii/notes, vi.viii.ii.iii, vi.viii.ii.iii/notes, vi.viii.iii, vi.viii.iii.i, vi.viii.iii.i/notes, vi.viii.iii.ii, vi.viii.iii.ii/notes]
+  language: eng
   note: 'Phileas, bishop of Thmuis, martyred under the Diocletianic persecution; eyewitness
     material on the Alexandrian martyrs. Egyptian episcopal voice rather than the catechetical
     school proper - provisional. His imprisonment belongs to the immediate background of the
@@ -348,6 +364,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [vi.ix, vi.ix.i, vi.ix.i/notes, vi.ix.ii, vi.ix.ii/notes]
+  language: eng
   note: 'Pamphilus of Caesarea, Origen''s devoted defender, builder of the Caesarean library,
     teacher of Eusebius - the chief transmitter of the Origenian scholarly tradition outside
     Egypt. Provisional because his work is Caesarean, assigned to the entry whose tradition
@@ -420,6 +438,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [ix.iii/line22363, ix.iii/notes, ix.iii/line22395, ix.iii/line22414, ix.iii/line22443, ix.iii/line22467, ix.iii/line22485, ix.iii/line22505, ix.iii/line22539, ix.iii/line22559, ix.iii/line22601, ix.iii/line22620, ix.iii/line22640, ix.iii/line22665, ix.iii/line22703, ix.iii/line22722, ix.iii/line22761, ix.iii/line22814, ix.iii/line22849, ix.iii/line22887, ix.iii/line22920, ix.iii/line22944, ix.iii/line22987]
+  language: eng
   note: 'Martyrdom account ABOUT Peter (d. 311), not by him - a later hagiographical composition
     transmitted in his section; CCEL files it under peter_alexandria. Kept there with the
     caveat on record.
@@ -433,6 +453,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [ix.iv.i, ix.iv.i/notes, ix.iv.ii, ix.iv.ii/notes, ix.iv.iii, ix.iv.iv, ix.iv.iv/notes, ix.iv.v, ix.iv.v/notes, ix.iv.vi, ix.iv.vi/notes, ix.iv.vii, ix.iv.vii/notes, ix.iv.viii, ix.iv.viii/notes, ix.iv.ix, ix.iv.ix/notes, ix.iv.x, ix.iv.x/notes, ix.iv.xi, ix.iv.xi/notes, ix.iv.xii, ix.iv.xii/notes, ix.iv.xiii, ix.iv.xiii/notes, ix.iv.xiv, ix.iv.xiv/notes, ix.iv.xv, ix.iv.xv/notes]
+  language: eng
   note: 'Peter''s fourteen penitential canons (306) on receiving the lapsed of the Diocletianic
     persecution - the Alexandrian counterpart to Cyprian''s De Lapsis, and the immediate background
     of the Melitian schism (no census entry; noted). The printed text interleaves the 12th-c.
@@ -449,6 +471,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [ix.vi.i, ix.vi.i/notes, ix.vi.ii, ix.vi.ii/notes, ix.vi.iii, ix.vi.iii/notes, ix.vi.iv, ix.vi.iv/notes, ix.vi.v, ix.vi.v/notes, ix.vi.vi, ix.vi.vi/notes, ix.vi.vii, ix.vi.vii/notes, ix.vi.viii, ix.vi.viii/notes, ix.vi.ix, ix.vi.ix/notes]
+  language: eng
   note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. He is not
     documented as head of the catechetical school - nothing in the vendored material attests
     that: the whole anf06 div1 ix division nowhere links Peter to the school, and both its
@@ -467,6 +491,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [x.iii.i/line25086, x.iii.i/notes, x.iii.i/line25151, x.iii.i/line25192, x.iii.i/line25213, x.iii.i/line25251, x.iii.i/line25280, x.iii.i/line25308, x.iii.i/line25358, x.iii.i/line25385, x.iii.i/line25430, x.iii.i/line25455, x.iii.i/line25475, x.iii.i/line25555, x.iii.i/line25581, x.iii.ii, x.iii.ii/notes, x.iii.iii, x.iii.iii/notes, x.iii.iv, x.iii.iv/notes, x.iii.v, x.iii.v/notes, x.iii.vi, x.iii.vi/notes]
+  language: eng
   note: 'Alexander of Alexandria''s encyclicals (c. 319-324), the earliest documents of the
     Arian controversy, quoting Arius'' teaching at length - founding evidence about the Arian
     movement from its first opponent. The homoian entry is read here as the census''s general
@@ -531,6 +557,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [xi.v, xi.v.i/line32532, xi.v.i/notes, xi.v.i/line32577, xi.v.i/line32599, xi.v.i/line32634, xi.v.i/line32681, xi.v.i/line32737, xi.v.i/line32767, xi.v.i/line32805, xi.v.i/line32830, xi.v.i/line32886, xi.v.i/line32941, xi.v.i/line33009, xi.v.ii, xi.v.ii/notes, xi.v.iii.i, xi.v.iii.i/notes, xi.v.iii.ii/line33193, xi.v.iii.ii/notes, xi.v.iii.ii/line33295, xi.v.iii.ii/line33360, xi.v.iii.ii/line33422, xi.v.iii.ii/line33453, xi.v.iii.ii/line33543, xi.v.iii.ii/line33561, xi.v.iii.ii/line33589, xi.v.iii.ii/line33611, xi.v.iii.ii/line33628, xi.v.iii.ii/line33648, xi.v.iii.ii/line33683, xi.v.iii.ii/line33709, xi.v.iii.ii/line33732, xi.v.iii.ii/line33774, xi.v.iii.ii/line33827]
+  language: eng
   note: 'The whole point of this work is opposition to Origen: it argues directly against
     Origen''s doctrine of the resurrection body (Origen named x13 in the extract). Assigned
     to alexandria-catechetical as the entry whose central figure it argues against - a later

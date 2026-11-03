@@ -848,3 +848,11 @@ Status: OPEN for the fourth read.
 What alx needs that lpc did not have: (1) `locus_ids` on its corpus-map rows. Without them every seed binds to the whole file, 52 of 52 read `file level only`, and many passages sit in works that are not Alexandrian (Methodius, Tertullian, the Apostolic Constitutions, Gregory of Nyssa); work and author are set on 10 and 19 of the 52, translator and edition year on none, and the date window is unknown on all. (2) Speaker marks for the multi-author Ante-Nicene volumes, where the index marks speakers mixed or unknown. Neither is a seed fix.
 
 Status: OPEN. Owner: Library thread, through the coordination thread.
+
+## OG-42. Row narrowing of the volumes behind the seeds (2026-11-03)
+
+- **What changed.** 108 corpus-map rows in 18 multi-work volumes (alx and syr shelves) now carry `locus_ids` and `language`, set from the vendored file by in-session readers: the divisions of each volume are assigned to the row whose work they print. Volumes: ANF 2, 4, 6, 7, 8, 9; NPNF 2.1, 2.2, 2.3, 2.4, 2.8, 2.13, 2.14; Origen Philocalia, Addai, Ephraim prose, Aphrahat (Hallock), Palladius Paradise I. Ten world packages were rebuilt and repinned (alx, aec, desert, don, gallic, hal, ijc, pahc, syr, wsyr).
+- **Reach under the lens** (English passages that are not apparatus, by the division test): alx 47.7% before, 69.3% after (3,083,184 of 6,601,958 words before, 4,634,085 after).
+- **Seeds.** alx `row narrowed`: 0 of 52 before, 35 of 52 after. The 17 that stay `file level only` sit in works the alx rows do not name (Apostolic Constitutions, the Pseudo-Clementines, Gregory of Nyssa and others), so they are correctly off the lens.
+- **Not done.** Dates and translators on these rows are not set. `window` stays `unknown` on all 52. Divisions the readers left out of every row on purpose: general introductions and editors' notes that serve several works.
+- **Owner.** Library thread, through the coordination thread.
