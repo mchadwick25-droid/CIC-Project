@@ -1954,3 +1954,33 @@ Mark, 2026-11-03: "make sure what exists is clean and not in program notes, ever
 - `Sandbox/README.md`: removed "(decided 2026-09-26)" after the pure-code rule.
 
 Left alone as false positives, not edited: `engine/m2/validation.py` line 65 (era-gate matched "the freeze", the name of a sign-off touchpoint inside a runtime string that is written into each package's signoffs.json; rewording it would change compiled output to satisfy the scanner. An edit to it was tried and reverted after review); `engine/BASELINES.md` lines 10, 14, 17 and 22 (dates inside baseline branch and tag names, and the date of a historical run); `Sandbox/.../constructed.py` line 3 ("known defect" in a design description); the variable name `todo` in `runner.py` and `index/generate.py`; the salt constants in `cues.py` and `seeds.py` (changing them changes the draws); test-data dates in `test_goldset.py`.
+
+## Entry — CL2, records (2026-11-03)
+
+Scope: the flagged force and world_core records. The records now state the world's own content; construction-document citations and matrix-cell codes, which `matrix_cell` and `kind` already carry, are removed. This entry lists what moved. Mark's 2026-11-03 direction is quoted in the CL1 entry.
+
+`cappadocian` (`records/cappadocian/force/cappadocian.force.*`), descriptions:
+- `capitals-gravity`: removed "Doc_08 Cell 3A, Force 3A-2;", "per Doc_08 §7's own Confidence Assessment bucket," and "Doc_02 §8's after-life". The confidence statement (Documented trajectory; Widely Accepted as synthesis; Dominant Modern Reconstruction for the synthesis judgment) is unchanged. The `divergence_note` field still cites Doc_08 §7 and is untouched.
+- `famine-crisis`: removed "Doc_08 Cell 2A, Force 2A-2" and "Doc_06 §24".
+- `imperial-church-arrival`: removed "Doc_08 Cell 1A, Force 1A-1" and "Doc_07 2C".
+- `network-strains`: removed "Doc_08 Cell 2B, Force 2B-3".
+- `plateau-itself`: removed "Doc_08 Cell 1A, Force 1A-3;". The confidence statement stays.
+- `policy-oscillation`: removed "Doc_08 Cell 2A, Force 2A-1;", "Doc_06 §39" and "(Doc_07 2B temporal assumptions)". The confidence statement stays.
+- `theodosian-settlement`: removed "Doc_08 Cell 3A, Force 3A-1" and "(the honest edge of Doc_05 §8)", the pointer that marked where the world's documents stop.
+
+`desert` (`records/desert/force/`):
+- `evagrian-intensification` and `origenist-controversy` names: removed the bracketed cell codes "[2B - ongoing/internal]" and "[3A - ending/external]". Both records keep `matrix_cell` and `kind`.
+- "Strand C" in those names and in the `origenist-controversy` description is now "the semi-anchoritic strand", which is the world's own definition of Strand C (Nitria, Kellia, Scetis).
+
+`witt` (`records/witt/force/`), names: removed the bracketed cell codes from `friars-conviction` [1B - initiating/internal], `imperial-force-ongoing` [2A - ongoing/external], `internal-radical-force` [2B - ongoing/internal], `laitys-need-for-assurance` [1B - initiating/internal], `papal-force-initiating` [1A - initiating/external], `papal-force-ongoing` [2A - ongoing/external], `print-turned-inward` [2B - ongoing/internal] and `transmission-within-the-worlds-life` [2B - ongoing/internal]. All eight keep `matrix_cell` and `kind`.
+
+`rzg` (`records/rzg/force/`):
+- `no-internal-fracture`: "a genuine Tensional gravity" now reads "a genuine standing tension". The gravity classification stays in the record's gravity links.
+- `transmission-author-gravity-genre-asymmetries`: "G1's own Confidence/Gravity Cross-Check divergence" now reads "the divergence between G1's own confidence rating and its gravity".
+
+Packages rebuilt and repointed in `records/worlds/<code>.yaml` for cappadocian, desert, rzg and witt; the four old pinned `manifest.json` files are retired.
+
+Left alone as false positives or not decidable without inventing content:
+- `records/ijc/force/ijc.force.leo-rejects-canon-28.md` name: "Strand A/B Fracture [3B - ending/internal]". No definition of ijc's strands exists in the records to rewrite from. Open for the ijc owner.
+- `records/pahc/world_core/pahc.core.house-church.md` line 69: "Strand A use". Same reason.
+- `records/desert/force/desert.force.melitian-rivalry.md` `divergence_note`: the word "unresolved" belongs to a scholarly Inferential-Thin statement. It is content, not an open item.
