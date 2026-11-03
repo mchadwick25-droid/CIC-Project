@@ -380,8 +380,21 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /*
+            !/cic/texts/
             !/cic-website/audio/
           sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
           git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
@@ -425,8 +438,21 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /*
+            !/cic/texts/
             !/cic-website/audio/
           sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
           git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
@@ -470,9 +496,22 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /*
+            !/cic/texts/
             !/cic-website/audio/
             /cic-website/audio/cards/
           sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
           git ls-files -z -- cic-website/audio ':!cic-website/audio/cards' | while IFS= read -r -d '' f; do
@@ -651,8 +690,21 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /*
+            !/cic/texts/
             !/cic-website/audio/
           sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
           git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
@@ -717,8 +769,21 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /*
+            !/cic/texts/
             !/cic-website/audio/
           sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
       - name: Stand in empty files for the excluded audio
         run: |
           git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do

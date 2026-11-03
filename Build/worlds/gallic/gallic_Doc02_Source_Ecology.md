@@ -94,7 +94,7 @@ A claim that the Lérins–Marseilles link is "doubly evidenced" — by Gennadiu
 
 **Saint-Victor and Saint-Sauveur, Marseilles:** Gennadius's own direct text ("two monasteries... which are still standing") is genuine independent corroboration.
 
-**A further, small ancient transmission datum:** Gennadius describes the *Dialogues* as "a Conference between Postumianus and Gallus... in two divisions" — against `npnf211`'s own three-Dialogue structure. This document does not resolve the discrepancy (whether Gennadius is describing an earlier or differently-divided recension, or simply compressing loosely) and names it as an open item (§13) rather than building anything on it, particularly given Registry rows for the Dialogues split on the three-Dialogue structure this world's own vendored text actually has.
+**A further, small ancient transmission datum:** Gennadius describes the *Dialogues* as "a Conference between Postumianus and Gallus... in two divisions" — against `npnf211`'s own three-Dialogue structure. This document does not resolve the discrepancy (whether Gennadius is describing an earlier or differently-divided recension, or simply compressing loosely) and lists it at §13 rather than building anything on it, particularly given Registry rows for the Dialogues split on the three-Dialogue structure this world's own vendored text actually has.
 
 ---
 

@@ -1768,8 +1768,16 @@ def gate_reading_card(records, fleet, registry) -> list[str]:
         if isinstance(conclude, dict) and conclude.get("confidence") not in FORMATION_CONFIDENCE_LEVELS:
             findings.append(f"{rid}.reading_card.historians_conclude.confidence: {conclude.get('confidence')!r} "
                             f"is not one of {', '.join(FORMATION_CONFIDENCE_LEVELS)}")
-        for target in card.get("complicated_by") or []:
-            if target not in all_ids:
+        targets = card.get("complicated_by") or []
+        if not isinstance(targets, list):
+            findings.append(f"{rid}.reading_card.complicated_by: must be a list of record ids")
+            targets = []
+        for target in targets:
+            if not isinstance(target, str):
+                findings.append(f"{rid}.reading_card.complicated_by: {target!r} is not a record id")
+            elif target == rid:
+                findings.append(f"{rid}.reading_card.complicated_by: a record cannot complicate itself")
+            elif target not in all_ids:
                 findings.append(f"{rid}.reading_card.complicated_by: {target!r} does not resolve to any record")
         words = sum(len(_WORD.findall(text)) for text in reading_card_texts(card))
         if words > READING_CARD_MAX_WORDS:

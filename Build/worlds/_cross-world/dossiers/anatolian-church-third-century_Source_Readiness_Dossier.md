@@ -7,7 +7,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 240–312
 **Region(s):** Neocaesarea in Pontus, Olympus in Lycia
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** verified 2026-09-13, unchanged since
+**Corpus-map / `cic/texts/` state as of:** verified September 2026, unchanged since
 
 ## 1. Already assigned
 
