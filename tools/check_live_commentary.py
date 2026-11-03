@@ -839,10 +839,8 @@ _REVIEW_DOC_FILENAME_KEYWORDS = (
     #
     # A batch review's own suggestion to also add a bare "finding" keyword
     # and a blanket `Analysis/` directory rule was tried and dropped: the
-    # existing hand-labelled sample already carries counter-evidence for
-    # both - `alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md:13`
-    # and `ijc/Post_Admission_Source_Finding_...md:279` are each real,
-    # still-open construction-thread narrative (an active DRAFT's own
+    # files with such names were found to hold still-open
+    # construction-thread narrative (an active DRAFT's own
     # round-by-round disposition tracking), not a frozen review record -
     # confirming that "Finding"/"Analysis" in a name does not reliably
     # distinguish the two the way the keywords above do.

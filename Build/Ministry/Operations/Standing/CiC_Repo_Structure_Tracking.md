@@ -957,3 +957,21 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 - The eight don build generators (`wb_don_s21.py`, `wb_don_s22_s23.py`, `wb_don_s24.py`, `wb_don_s25.py`, `wb_don_s26.py`, `wb_don_s27.py`, `wb_don_s2x_doctrinal_witness.py`, `wb_don_s2y_canon_cells.py`) moved to `Archive/Retired-World-Build-Scripts/don/`, and `wb_witt_s25.py` to `Archive/Retired-World-Build-Scripts/witt/`. Nothing in CI, `tools/` or `engine/` runs or imports them; the only references are citations in documents, and the scripts' output already lives in `records/`.
 - `don_Rep_Phase5_Probe11_Retest_2026-09-10.json` and `..._Round2.json` moved from `Build/worlds/don/Representative/` to `Build/worlds/don/Review-Artifacts/`, beside the review files that cite them. They are probe-run records.
 - Two hand-labelled sample rows in `tools/tests/test_check_live_commentary.py` that pointed at the moved ledger and script are replaced.
+
+## 2026-11-03 — Seven don Representative build records and the cappadocian generator leave the live surface
+
+**Context.** The Live-Surface Cleanup program (CL5 and CL6) held these files: the seven documents record how the Donatism Representative was built, and their provenance (decision rounds as loci, attributed decisions, disclosed approval exceptions) is their content, so it cannot be rewritten as present-tense statements without changing what they say. The generator is superseded (cappadocian `Open_Gaps_Tracking.md` OG-7).
+
+**Action.** `git mv`, no content edited; `tools/moved_paths.txt` maps every old path to its new one.
+- `Build/worlds/don/Representative/` to `Build/worlds/don/Review-Artifacts/`: `don_Rep_Phase1_Ecology_Assessment.md`, `don_Rep_Phase2_Formation_Calibration.md`, `don_Rep_Phase4_Engagement_Architecture.md`, `don_Rep_Phase5_Probe11_Rerun_2026-09-15.md`, `don_Rep_Phase6_Facilitator_Coordination_Round1.md`, `don_Rep_Phase7_Encounter_Ecology_Mapping.md`, `don_Representative_Identity_Options.md`. `don_Rep_Phase3_Voice_Construction.md` and `don_Rep_Phase5_Boundary_Testing_Round1.md` stay (the scanner does not flag them).
+- `Build/worlds/cappadocian/scripts/wb_cappadocian_s21.py` to `Archive/Retired-World-Build-Scripts/cappadocian/`. Nothing in CI, `tools/` or `engine/` runs or imports it; the only references are citations in documents.
+
+## 2026-11-03 — Build records, dated findings and a superseded draft leave `Build/worlds/` (syr, alx, ijc)
+
+**Context.** The Live-Surface Cleanup program (CL6) found documents in the live `Build/worlds/` surface that record how something was built or found, so their dates, review rounds and attributions are their content. The delivery lead ruled on where each kind goes. All moves use `git mv`, no content edited; `tools/moved_paths.txt` maps every old path to its new one.
+
+**Action.**
+- Representative build records to the world's `Review-Artifacts/`, as for don: syr `Syriac_Phase1`, `Phase2`, `Phase3`, `Phase4`, `Phase5B`, `Phase6`, `Phase7` (all `_DRAFT.md`), `Doc_09_Validation_Layer_Section5_PROPOSED.md` and `SE2_RepetitionGuard_DesignNote.md`; alx `Representative/alex_Rep_Deployment_Salvage.md`, `alex_Rep_Phase1_Ecology_Assessment.md` and `alex_Representative_Identity_Options.md`; ijc `Step10_Phase1-2_Ecology_Assessment_and_Identity_Determination.md`. The alx and ijc records follow the same rule by analogy. Other Representative phase records of those worlds, which the scanner does not flag, stay where they are.
+- Dated findings and analysis reports to `Build/Ministry/Operations/Audits/World-Findings/<world>/`: alx `Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`, `alex_v7_vs_current_comparison.md`, `CROSS_WORLD_FINDING_Work_Granularity_Coverage_Gap.md`, `portfolio_parity.md`, `v7_Gap_Closure_Tracker.md`; ijc `Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md`. The items `v7_Gap_Closure_Tracker.md` still listed as open are filed as alx OG-43. The unflagged siblings in alx `Analysis/` (`CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md`, `Portfolio_Consistency_Audit_2026-07-19.md`) stay.
+- Superseded: syr `Archive/Step10_Phase1_Ecology_Assessment_DRAFT_SUPERSEDED.md` to `Archive/Superseded-World-Documents/syr/`.
+- Three sample rows in `tools/tests/test_check_live_commentary.py` that pointed at moved files are replaced.

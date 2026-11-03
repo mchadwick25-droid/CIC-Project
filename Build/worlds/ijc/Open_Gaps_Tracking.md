@@ -431,3 +431,13 @@ Status: OPEN for the project lead to schedule.
 48. **Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01, 2026-10-29.** Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The corpus map splits Lactantius: his apologetic corpus is the Latin Apologists', and *De mortibus persecutorum* is this world's (`ijc.source.lactantius-de-mortibus`). The work's authorship is disputed (Harnack holds it Lactantius's and Brandt denied it, as Harnack reports), and this world's source record does not name the dispute. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
 
    Status: OPEN.
+
+49. **Open points removed from ijc construction documents by the live-surface cleanup, 2026-11-03.** The clauses below were removed from the ijc documents named in each item so the documents state what is true now. They are recorded in full here.
+   (1) ijc Doc_04 line 7, removed: "**Note on this document's own place in this project's methodology:** the L4 Template used for this document's structure states plainly that it \"has not yet been tested against a live build.\" This is that template's first live application. Anything about it that doesn't fit this world's actual evidentiary shape is flagged in §7 (Open Items) for report back to the coach thread, per the template's own explicit invitation, not silently worked around."
+   (2) ijc Doc_04 L132 (wording replaced): "flagged as an open item (§7) rather than asserted either way" (Candidate 6 not independently evidenced in Strand B).
+   (3) ijc Doc_07 L12: "see Open Item 2" (pointer to the lens-merge judgement; now "item 2 of the closing list").
+   (4) ijc Doc_09 L29 (clause removed): "and should be re-confirmed once World #8's own Doc_01 exists (an open item, not a defect)."
+   (5) ijc ijc_World_Profile L6 (clause removed): "flagged here and in the Open Items below for System Hub, per this thread's own standing instruction to report rather than silently work around process gaps" (Doc_07 selected five lenses, not the template's fixed A–E set).
+   (6) ijc ijc_World_Profile L214: "Doc_07's own open item" (pagan-boundary coverage gap pointer; not found in Doc_07).
+
+   Status: OPEN.

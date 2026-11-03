@@ -856,3 +856,30 @@ Status: OPEN. Owner: Library thread, through the coordination thread.
 - **Seeds.** alx `row narrowed`: 0 of 52 before, 35 of 52 after. The 17 that stay `file level only` sit in works the alx rows do not name (Apostolic Constitutions, the Pseudo-Clementines, Gregory of Nyssa and others), so they are correctly off the lens.
 - **Not done.** Dates and translators on these rows are not set. `window` stays `unknown` on all 52. Divisions the readers left out of every row on purpose: general introductions and editors' notes that serve several works.
 - **Owner.** Library thread, through the coordination thread.
+
+## OG-43. Deployment-layer work still open from the v7 gap-closure tracker, 2026-11-03
+
+`v7_Gap_Closure_Tracker.md` (now under `Build/Ministry/Operations/Audits/World-Findings/alx/`) closed every item it named except the following, which it listed as remaining and which are recorded here so they do not go quiet:
+- The Tier-2 lexicon chunk files (`047` onward), including the governed contested-term entries `046`, `051`, `059`, `074`, `081` and `090`.
+- Full completion of the 153 one-directional reciprocity back-links flagged in the directory-wide audit; `051` (Apokatastasis) is the one genuinely unbuilt chunk.
+- Optional only: folding the fuller v7 prose for per-gravity temporal profiles and the daily, weekly and annual rhythm detail back into the cleared record. The content is preserved in the archive; the project lead decides whether to fold it back.
+
+Article 31 external review (OG-4) remains the outstanding external gate. The tracker's work did not freeze the world.
+
+Status: OPEN. Owner: this world's thread.
+
+## OG-44. Open points removed from alx construction documents by the live-surface cleanup, 2026-11-03
+
+The clauses below were removed from the alx documents named in each item so the documents state what is true now. They are recorded in full here. Article 31 external review is tracked at OG-4.
+
+1. alx Doc_02 L103 (removed clause): "a future revision pass may draw on it directly" (Mingarelli 1769 *De Trinitate*, Latin only, not yet used for any claim). Full original sentence: "Its own specific content has not yet been read for any claim below — this is a discovery-layer/library integration only, consistent with this project's own "vendor and map now, integrate later" discipline; a future revision pass may draw on it directly."
+2. alx Doc_02 L248 (label removed; line kept as a rule): "**Open item (verification hygiene):** two primary-source datings carry a live scholarly caveat and should be stated with it wherever reused — the *Address of Thanksgiving* dating (Nautin's authenticity/dating dispute; consensus reaffirms c. 238) and the exact endpoint of the Diocletianic persecution (303–311, toleration 313)."
+3. alx Doc_04 L33: "(deferred to Article 31 external scholarly review)" for the whole-ecology question (also at line 187 in the doc).
+4. alx Doc_04 L113 (bracket removed): "*[Open item, not resolved here (see Open_Gaps_Tracking.md). The "c. 150–254" endpoint is narrower than this world's own corpus supports — Theognostus (fl. c. 260) and Pierus (fl. c. 275) are assigned school-tradition voices inside 254–296 — and it contradicts `alx.figure.didymus`, which has Didymus holding "the school's chair for fifty years, to 398." Crucially, **that contradiction does not flip this Persistence verdict, and Didymus is why**: if the test measured whether advanced teachers existed, Didymus-to-398 would have flipped it long ago. It measures formation's centre of gravity moving to the episcopal-doctrinal channel under the post-Nicene authority shift, which none of these three touches. C5 remains **Supporting (temporally qualified)**; what needs reconciling is the date wording across two records.]*" The open point is the date-wording mismatch across two records. The verdict reasoning stays in the doc.
+5. alx Doc_04 L123 (label removed): "**Alexander of Alexandria's *Epistles on the Arian Heresy*** — also assigned to this world, directly transmitted, and currently drawn on by no record — is the stronger, later end of the same chain and is named here as an open item, not relied on."
+6. alx Doc_04 L170 (line removed): "- This entire divergence is **deferred to Article 31 external scholarly review** (a qualified subject-matter reviewer is the only accountable way to test whether the reconstruction has mistaken the school's gravities for the ecology's) and is logged as a standing open item."
+7. alx alexlex028 L58 (sentence removed): "Whether a fuller, independently-grounded account of prayer's contemplative development exists elsewhere in this world's own vendored Origen corpus (*On First Principles*, the biblical commentaries) is an open item for a future revision pass, not asserted here."
+8. alx alexlex038 L56 (clause removed): "whether an independently-grounded Origen account of love-as-orientation exists elsewhere in this world's vendored Origen corpus (*On First Principles*, the *Commentary on John*) is an open item for a future revision pass, not asserted here."
+9. alx alex_World_Profile lines 15 and 21, removed as stale: "The world's name and outer scope remain flagged for the project lead (OG-3) ... if the project lead prefers a narrower 'catechetical-school institution' world, the Profile and its upstream docs revise together" and "Name/scope flagged for the project lead, OG-3". OG-3 is RESOLVED: the project lead confirmed the broad reading and the name on 2026-07-17, and sections 9 and 11 of the same file say so. Nothing open remains in this item.
+
+Status: OPEN. Owner: this world's thread.

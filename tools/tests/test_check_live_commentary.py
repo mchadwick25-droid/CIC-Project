@@ -1357,7 +1357,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # not yet touched by the cleanup program (item 4), to keep this table
     # at >=60 real, currently-matching lines.
     ("Build/worlds/_cross-world/dossiers/anatolian-church-third-century_Source_Readiness_Dossier.md", 10, "REWRITE"),
-    ("Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
+    ("Build/worlds/gallic/gallic_Representative_Construction_Notes_Renatus.md", 285, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized to
     # content-based matching across any Build/worlds/ .md file): line 562
     # sits inside this file's own "## Document Log" section - genuinely
@@ -1408,13 +1408,13 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # (commit a5df3f70) added a line above it, so it is now 109. Same text,
     # same label.
     ("cic-website/support.html", 110, "KEEP"),
-    ("Build/worlds/alx/alex_World_Profile.md", 69, "REWRITE"),
+    ("Build/worlds/_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md", 10, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
     ("Build/worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md", 8, "REWRITE"),
-    ("Build/worlds/ijc/ijc_World_Profile.md", 227, "REWRITE"),
+    ("Build/worlds/hal/hal_Doc_09c_Validation_Layer.md", 70, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
     # cic/corpus-map samples in this block were cleaned by that PR's own
     # full surface pass and stopped matching. Moved to 10 more worlds/
@@ -1426,8 +1426,8 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # correctly PROTECTED rather than REWRITE under the new
     # _is_decision_log rule.
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
-    ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 7, "REWRITE"),
-    ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
+    ("Build/worlds/hal/hal_Representative_Identity_Preliminary_Decision.md", 86, "REWRITE"),
+    ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md", 30, "REWRITE"),
     ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
