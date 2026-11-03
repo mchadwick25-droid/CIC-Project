@@ -1013,3 +1013,11 @@ Also open: `cappadocian_Source_Registry.md` rows 16, 32, 36, 37, 43, 51, 53, 61,
 Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-40-06Z`. The M9 `emic-vendored-only/cappadocian` waiver was tightened from 73 to 43, because 30 findings cleared once their sources were marked held; no waiver was raised. Checks run: `records`, `regate`, determinism, the staleness check and the M9 check.
 
 Status: OPEN for the four rows, the quotation candidates and the registry rows. CLOSED for the 12 updated source records and OG-57.
+
+### OG-59. Seven force descriptions rewritten to the reading level, provenance moved out, 2026-11-03.
+
+The descriptions of `capitals-gravity`, `famine-crisis`, `imperial-church-arrival`, `network-strains`, `plateau-itself`, `policy-oscillation` and `theodosian-settlement` carried Doc_08 cell and force numbers, Doc_02/05/06/07 section citations, "Layer 2/3" labels and gravity numbers. They also failed the readability gate, at FK 14 to 21. Each description is rewritten to FK 10 or below and FRE 60 or above. Every claim and confidence statement is kept, nothing is added, and the world's own terms (pleonexia, philoptōchia, hēsychia, paideia, Homoian, encomium, doxology, confessor) are kept. Gravity numbers are replaced by the gravities' own names. What was removed is listed in the Live-Surface-Cleanup Decision-Log (entry "CL2 follow-on (RD1b)"). An independent Opus review compared old and new meaning line by line and found six P2 points; all are fixed, and a second Opus read confirmed the fixes. `m1:readability/cappadocian` waiver 195 → 181. Package rebuilt and re-pinned.
+
+Noted and not changed: `policy-oscillation`'s relations do not include `cappadocian.gravity.paideia-converted`, although Doc_08 §5 ties this force to that gravity's crisis (Julian's school edict).
+
+Status: CLOSED for the seven descriptions; the relation gap is OPEN for cappadocian's own build thread.
