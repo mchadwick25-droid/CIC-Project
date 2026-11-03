@@ -2,16 +2,17 @@
 
 It makes no model call. It writes request files and reads reply files.
 
-  export        one request per answer for each of reader-1 and reader-2, a key file and a manifest
+  export        one request per answer for each of reader-1 and reader-2, a manifest, and the key files in --key-dir
   seed-copies   adds seeded-defect copies to an export as further opaque items; seals their key
   adjudicate    writes a third-reader request for every item that meets the trigger
-  after-october writes the follow-up request that shows the October findings for each A item
+  after-october writes the follow-up request that shows the October findings, once a reader has filed every blind reply
   score         reads the replies and writes the score tables as JSON and markdown
   mark-pack     builds the JSON that the human review page loads
 
-Requests hold probe wording, so every output directory except score's must lie outside the
-repository and outside the main checkout. Item ids are the first 12 hex digits of
-sha256("<seed>|<internal key>"). The internal key is "<world>|<arm>|<run>|<probe_id>".
+Requests hold probe wording, so every output directory except score's tables must lie outside the
+repository and outside the main checkout. The key directory (key.json, seed.json, seed_key.json) lies
+outside the export directory too. Each request is one item and refers to no other, so a reader runs
+one item per fresh context.
 """
 import argparse
 import hashlib
@@ -23,15 +24,14 @@ import sys
 from pathlib import Path
 
 from engine.m1.loader import load_world_records
-from engine.m3 import sealed_probes
+from engine.m3 import sealed_probes, v7_passages
 from engine.m3.v7_run import WORLDS, protected_roots
-from engine.m4 import fit_step
-from engine.prose import locus_refs
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 FEATURE_DIR = REPO_ROOT / "Build" / "Ministry" / "Features" / "V7-Controlled-Test"
 RUBRIC_PATH = FEATURE_DIR / "Rubric.md"
 SET_DIR = FEATURE_DIR / "Set"
+REPORTS_DIR = REPO_ROOT / "engine" / "m3" / "reports"
 TEXTS_ROOT = REPO_ROOT
 
 READERS = ("reader-1", "reader-2")
@@ -42,26 +42,47 @@ DIMENSIONS = (
     "fidelity_to_the_world", "natural_and_engaging", "honest_uncertainty", "world_embodiment",
     "conversational_quality", "general_user_accessibility",
 )
+RIGOR_DIMENSIONS = DIMENSIONS[:3]
+ACCESS_DIMENSION = DIMENSIONS[9]
 DEPTHS = ("rich", "adequate", "thin", "flat")
 ERROR_TYPES = (
     "out of context", "claim beyond the source", "one author as the tradition", "does not answer",
     "beyond the author's intent", "modern projection", "flattened uncertainty", "invented", "misquoted", "other",
 )
+DEFECT_TYPES = {
+    "wrong_frame": {"out of context"},
+    "author_generalized": {"one author as the tradition"},
+    "modern_projection": {"modern projection"},
+    "unsupported_inference": {"claim beyond the source"},
+    **{re.sub(r"[\s-]+", "_", t): {t} for t in ERROR_TYPES},
+}
 CONFIDENCES = ("sure", "fairly sure", "unsure")
 TIERS = (1, 2, 3)
 EXACT_AGREEMENT_FLOOR = 0.60
 CATCH_RATE_FLOOR = 0.90
 MIN_SEEDED = 10
 MATCH_THRESHOLD = 0.5
-PASSAGE_MARGIN_LINES = 5
-PASSAGE_MAX_WORDS = 160
+SPAN_THRESHOLD = 0.5
+MARK_PASSAGE_WORDS = 160
 RISK_LEVELS = ("high", "medium")
 CARD_LABEL = "Project-authored reading note. It is not an authority. Check it against the source passage."
-RECORD_FIELDS = (
-    "id", "record_type", "text", "modern_rendering", "speaker_or_author", "sources", "confidence", "use_note",
-    "plain_meaning", "positions", "tensions", "world_word", "false_friend",
-)
+COMMON_FIELDS = ("id", "record_type", "confidence", "sources", "use_note")
+TYPE_FIELDS = {
+    "quote": ("text", "modern_rendering", "modern_lens_note", "speaker_or_author", "setting"),
+    "story": ("narrative_tier", "tellable_as", "text", "telling", "heart", "events", "absent_detail", "modern_contrast"),
+    "term": ("world_word", "plain_meaning", "quick_meaning", "senses", "false_friend", "distortion_risk", "prior_sense"),
+    "gravity": ("name", "description", "manifestations", "classification"),
+    "force": ("name", "kind", "description", "manifestations"),
+    "contested_claim": ("claim", "held_against", "concedes", "divergence_partners"),
+    "honest_limit": ("statement", "why_sources_cannot_answer", "nearest_material"),
+    "doctrinal_witness": ("text", "positions", "tensions", "answers_obliquely", "oblique_reason"),
+    "demonstration": ("exchange",),
+    "world_core": ("horizon", "formation_logic", "thinness", "cautions", "living_traditions"),
+    "voice_craft": ("identity", "flavor_notes", "characteristic_concerns"),
+    "figure": ("names", "dates", "narratable"),
+}
 FORBIDDEN_IN_BLIND = (r"\barm\b", r"october", r"second[ _-]pass", r"referee", r"fleet[ -]graded")
+QUOTED_FRAGMENT = re.compile(r"(?<![\w])'([^']{8,}?)'(?![\w])|\"([^\"]{8,}?)\"|“([^”]{8,}?)”")
 CONFIRMING_PREFIXES = ("this is correct", "correct", "accurate", "this is accurate", "this is broadly", "broadly fine",
                        "this is fair", "defensible", "fair but")
 
@@ -114,6 +135,10 @@ INSTRUCTIONS = (
     "Check each quotation and claim against the source passage. A reading note is project-authored: check it too. "
     "Reply with one JSON object in the reply format."
 )
+PASSAGE_NOTE = (
+    "A passage marked 'work opening only' is the start of the cited work, because the record's locus names no line and its "
+    "words were not found in the text. It is context, not the cited place."
+)
 
 
 class Refused(Exception):
@@ -126,7 +151,7 @@ def _sha256(path: Path) -> str:
 
 def _write_json(path: Path, data) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def _read_json(path: Path):
@@ -145,6 +170,12 @@ def require_outside_repo(path: Path) -> Path:
     return path
 
 
+def _require_apart(first: Path, second: Path) -> None:
+    a, b = first.resolve(), second.resolve()
+    if a == b or a in b.parents or b in a.parents:
+        raise Refused(f"{first} and {second} must be separate directories, neither inside the other")
+
+
 def item_id(seed: int, key: str) -> str:
     return "i" + hashlib.sha256(f"{seed}|{key}".encode("utf-8")).hexdigest()[:12]
 
@@ -160,6 +191,23 @@ def shuffled(ids: list[str], seed: int, label: str) -> list[str]:
     return ordered
 
 
+def write_seed(key_dir: Path, seed: int) -> None:
+    """The seed file, written before any id or order is drawn; an existing file must hold the same seed."""
+    path = key_dir / "seed.json"
+    if path.exists():
+        if _read_json(path)["seed"] != seed:
+            raise Refused(f"{path} holds a different seed")
+        return
+    _write_json(path, {"seed": seed})
+
+
+def read_seed(key_dir: Path) -> int:
+    path = key_dir / "seed.json"
+    if not path.exists():
+        raise Refused(f"no seed.json in {key_dir}")
+    return _read_json(path)["seed"]
+
+
 def register_of(cell: str) -> str:
     """The register letter of a cell code: the last letter after the final hyphen (C-E has three characters, F4-T four)."""
     letter = cell.rsplit("-", 1)[-1]
@@ -172,14 +220,10 @@ def rubric_text() -> str:
     """Rubric.md up to its reader-method section; that section names the arms and the October reviews."""
     text = RUBRIC_PATH.read_text(encoding="utf-8")
     head = text.split(RUBRIC_END, 1)[0].rstrip() + "\n"
-    _assert_blind(head, "the rubric text")
-    return head
-
-
-def _assert_blind(text: str, what: str) -> None:
     for pattern in FORBIDDEN_IN_BLIND:
-        if re.search(pattern, text, re.IGNORECASE):
-            raise Refused(f"{what} matches {pattern!r}; a blind request may not carry it")
+        if re.search(pattern, head, re.IGNORECASE):
+            raise Refused(f"the rubric text matches {pattern!r}; a blind request may not carry it")
+    return head
 
 
 def _load_records(world: str) -> dict[str, dict]:
@@ -205,16 +249,12 @@ def overlaps(first: str, second: str, threshold: float = MATCH_THRESHOLD) -> boo
 
 
 def _record_view(record: dict) -> dict:
-    view = {k: record[k] for k in RECORD_FIELDS if record.get(k) not in (None, "", [])}
+    fields = COMMON_FIELDS + TYPE_FIELDS.get(record.get("record_type"), ())
+    view = {k: record[k] for k in fields if record.get(k) not in (None, "", [], {})}
     card = record.get("reading_card")
     if card:
         view["reading_card"] = {"label": CARD_LABEL, "card": card}
     return view
-
-
-def _passages(record: dict) -> list[dict]:
-    return [{"record_id": b["record_id"], "source_id": b["source_id"], "file": b["file"], "lines": b["lines"], "text": b["text"]}
-            for b in fit_step.context_blocks(record, TEXTS_ROOT)]
 
 
 def lexicon_flags(records: dict[str, dict]) -> dict:
@@ -247,31 +287,37 @@ class Context:
             self._questions[probe_id] = read_question(probe_id)
         return self._questions[probe_id]
 
-    def cited(self, world: str, ids: list[str]) -> tuple[list[dict], list[dict], list[str]]:
+    def cited(self, world: str, ids: list[str], cap: int = v7_passages.DIVISION_MAX_WORDS) -> dict:
         records = self.records(world)
-        views, passages, missing = [], [], []
+        out = {"views": [], "passages": [], "unresolved": [], "missing": []}
         for rid in ids:
             if rid not in records:
-                missing.append(rid)
+                out["missing"].append(rid)
                 continue
-            views.append(_record_view(records[rid]))
-            passages.extend(_passages(records[rid]))
-        return views, passages, missing
+            out["views"].append(_record_view(records[rid]))
+            got = v7_passages.resolve_record(records[rid], records, TEXTS_ROOT, cap)
+            out["passages"].extend(got["passages"])
+            out["unresolved"].extend(got["unresolved"])
+        return out
+
+
+def _passage_view(p: dict) -> dict:
+    return {k: p[k] for k in ("record_id", "source_id", "locus", "file", "how", "division_path", "lines", "trimmed", "text")}
 
 
 def build_request(item: dict, reader: str, ctx: Context, rubric: str) -> dict:
-    views, passages, missing = ctx.cited(item["world"], item["citations"])
-    flags = lexicon_flags(ctx.records(item["world"]))
+    cited = ctx.cited(item["world"], item["citations"])
     request = {
         "item_id": item["id"], "kind": "blind", "reader": reader, "world": item["world"],
         "instructions": INSTRUCTIONS, "rubric": rubric, "reply_format": REPLY_SCHEMA,
         "question": ctx.question(item["probe_id"]), "answer": item["answer"],
-        "cited_records": views, "source_passages": passages, "lexicon_risk_flags": flags,
+        "cited_records": cited["views"], "source_passages": [_passage_view(p) for p in cited["passages"]],
+        "source_passages_note": PASSAGE_NOTE, "lexicon_risk_flags": lexicon_flags(ctx.records(item["world"])),
     }
-    if missing:
-        request["cited_records_not_found"] = missing
-    if not passages:
-        request["source_passages_note"] = "No cited record names a vendored text span."
+    if cited["unresolved"]:
+        request["source_passages_unresolved"] = cited["unresolved"]
+    if cited["missing"]:
+        request["cited_records_not_found"] = cited["missing"]
     return request
 
 
@@ -335,7 +381,7 @@ def _assign_ids(items: list[dict], seed: int) -> None:
 
 def _manifest(out: Path, seed: int, item_ids: list[str]) -> dict:
     return {
-        "seed": seed,
+        "run_one_item_per_fresh_context": True,
         "items": {
             iid: {r: {"request": str(_request_path(out, r, iid)), "reply": str(_reply_path(out, r, iid))} for r in READERS}
             for iid in sorted(item_ids)
@@ -344,50 +390,58 @@ def _manifest(out: Path, seed: int, item_ids: list[str]) -> dict:
     }
 
 
-def _fresh_dir(out: Path) -> None:
-    require_outside_repo(out)
-    if out.exists() and any(out.iterdir()):
-        raise Refused(f"{out} is not empty")
-    out.mkdir(parents=True, exist_ok=True)
+def _fresh_dir(path: Path) -> None:
+    require_outside_repo(path)
+    if path.exists() and any(path.iterdir()):
+        raise Refused(f"{path} is not empty")
+    path.mkdir(parents=True, exist_ok=True)
 
 
 def cmd_export(args) -> int:
-    out = Path(args.out)
+    out, key_dir = Path(args.out), Path(args.key_dir)
+    require_outside_repo(key_dir)
+    _require_apart(out, key_dir)
     _fresh_dir(out)
+    key_dir.mkdir(parents=True, exist_ok=True)
+    if (key_dir / "key.json").exists():
+        raise Refused(f"{key_dir} already holds a key")
+    write_seed(key_dir, args.seed)
     worlds = args.worlds.split(",")
     items, skipped = collect_items(Path(args.set_dir), worlds, [Path(p) for p in args.b])
     _assign_ids(items, args.seed)
     ctx, rubric = Context(), rubric_text()
     for item in items:
         for reader in READERS:
-            request = build_request(item, reader, ctx, rubric)
-            _write_json(_request_path(out, reader, item["id"]), request)
+            _write_json(_request_path(out, reader, item["id"]), build_request(item, reader, ctx, rubric))
     for reader in READERS:
         (out / "replies" / reader).mkdir(parents=True, exist_ok=True)
     _write_json(out / "reply_schema.json", REPLY_SCHEMA)
-    key = {
-        "seed": args.seed,
-        "items": {i["id"]: {k: i[k] for k in ("key", "world", "arm", "run", "probe_id", "cell")} for i in items},
-    }
-    _write_json(out / "key" / "key.json", key)
+    key = {"items": {i["id"]: {k: i[k] for k in ("key", "world", "arm", "run", "probe_id", "cell")} for i in items}}
+    _write_json(key_dir / "key.json", key)
     _write_json(out / "manifest.json", _manifest(out, args.seed, [i["id"] for i in items]))
     print(json.dumps({"items": len(items), "requests": len(items) * len(READERS), "skipped_b_records": skipped,
-                      "key_sha256": _sha256(out / "key" / "key.json")}, indent=1))
+                      "key_sha256": _sha256(key_dir / "key.json")}, indent=1))
     flagless = sorted(w for w in worlds if not lexicon_flags(ctx.records(w))["terms"])
     if flagless:
         print(f"no lexicon risk flags for: {', '.join(flagless)}", file=sys.stderr)
     return 0
 
 
+def accepted_error_types(defect_type: str) -> set[str]:
+    return DEFECT_TYPES.get(re.sub(r"[\s-]+", "_", defect_type.strip().lower()), set())
+
+
 def cmd_seed_copies(args) -> int:
-    out = Path(args.export_dir)
+    out, key_dir = Path(args.export_dir), Path(args.key_dir)
     require_outside_repo(out)
-    seed_key_path = out / "key" / "seed_key.json"
+    require_outside_repo(key_dir)
+    _require_apart(out, key_dir)
+    seed_key_path = key_dir / "seed_key.json"
     if seed_key_path.exists():
         raise Refused("this export already has a seed key")
-    key = _read_json(out / "key" / "key.json")
+    seed = read_seed(key_dir)
+    key = _read_json(key_dir / "key.json")
     manifest = _read_json(out / "manifest.json")
-    seed = key["seed"]
     by_key = {v["key"]: iid for iid, v in key["items"].items()}
     copies = _read_json(Path(args.copies))
     if len(copies) < MIN_SEEDED:
@@ -397,22 +451,24 @@ def cmd_seed_copies(args) -> int:
         for field in ("base", "answer_text", "defect_type", "expected_location"):
             if not str(copy.get(field) or "").strip():
                 raise Refused(f"seeded copy {n} has no {field}")
+        if not accepted_error_types(copy["defect_type"]):
+            raise Refused(f"seeded copy {n}: defect type {copy['defect_type']!r} is not one of {sorted(DEFECT_TYPES)}")
         if copy["base"] not in by_key:
             raise Refused(f"seeded copy {n}: base {copy['base']!r} is not an item of this export")
         iid = item_id(seed, f"seeded|{n}|{copy['base']}")
         if iid in key["items"] or iid in sealed:
             raise Refused("a seeded id collides with another id")
-        base_id = by_key[copy["base"]]
         for reader in READERS:
-            request = _read_json(_request_path(out, reader, base_id))
+            request = _read_json(_request_path(out, reader, by_key[copy["base"]]))
             request["item_id"], request["answer"] = iid, copy["answer_text"]
             _write_json(_request_path(out, reader, iid), request)
         sealed[iid] = {"base": copy["base"], "defect_type": copy["defect_type"], "expected_location": copy["expected_location"],
                        "answer_text": copy["answer_text"]}
         new_ids.append(iid)
-    all_ids = list(manifest["items"]) + new_ids
-    _write_json(out / "manifest.json", _manifest(out, seed, all_ids))
-    _write_json(seed_key_path, {"seed": seed, "items": sealed})
+    for reader in READERS:
+        (out / "replies" / reader).mkdir(parents=True, exist_ok=True)
+    _write_json(out / "manifest.json", _manifest(out, seed, list(manifest["items"]) + new_ids))
+    _write_json(seed_key_path, {"items": sealed})
     print(json.dumps({"seeded": len(new_ids), "seed_key_sha256": _sha256(seed_key_path)}, indent=1))
     return 0
 
@@ -462,11 +518,16 @@ def _error_problems(errors, label: str) -> list[str]:
     return problems
 
 
+def _unmatched(errors: list[dict], others: list[dict]) -> bool:
+    return any(not any(overlaps(e["answer_words"], o["answer_words"]) for o in others) for e in errors)
+
+
 def needs_adjudication(first: dict, second: dict) -> bool:
-    """True when any dimension score differs, the readers disagree on whether an error is present, or either found a tier 1 or 2 error."""
+    """True when any dimension score differs, either reader's error has no overlapping error from the other at any tier,
+    or either found a tier 1 or 2 error."""
     if any(first["scores"][d]["score"] != second["scores"][d]["score"] for d in DIMENSIONS):
         return True
-    if bool(first["errors"]) != bool(second["errors"]):
+    if _unmatched(first["errors"], second["errors"]) or _unmatched(second["errors"], first["errors"]):
         return True
     return any(e["tier"] in (1, 2) for r in (first, second) for e in r["errors"])
 
@@ -510,7 +571,8 @@ def cmd_adjudicate(args) -> int:
     (out / "replies" / ADJUDICATOR).mkdir(parents=True, exist_ok=True)
     listing = {iid: {"request": str(_request_path(out, ADJUDICATOR, iid)), "reply": str(_reply_path(out, ADJUDICATOR, iid))}
                for iid in written}
-    _write_json(out / "adjudication_manifest.json", {"items": listing, "waiting_for_readers": waiting, "invalid_replies": problems})
+    _write_json(out / "adjudication_manifest.json", {"run_one_item_per_fresh_context": True, "items": listing,
+                                                      "waiting_for_readers": waiting, "invalid_replies": problems})
     print(json.dumps({"adjudication_requests": len(written), "waiting_for_readers": len(waiting), "invalid_replies": len(problems)}, indent=1))
     return 0
 
@@ -528,20 +590,21 @@ def october_entry(set_dir: Path, world: str, probe_id: str) -> dict:
 
 
 def cmd_after_october(args) -> int:
-    out = Path(args.export_dir)
+    out, key_dir = Path(args.export_dir), Path(args.key_dir)
     require_outside_repo(out)
-    key = _read_json(out / "key" / "key.json")
+    require_outside_repo(key_dir)
+    key = _read_json(key_dir / "key.json")
     manifest = _read_json(out / "manifest.json")
-    seeded = _read_json(out / "key" / "seed_key.json")["items"] if (out / "key" / "seed_key.json").exists() else {}
-    problems, waiting, listing = [], [], {}
-    for iid, meta in sorted(key["items"].items()):
-        if meta["arm"] != "a" or meta["run"] != 1 or iid in seeded or iid not in manifest["items"]:
+    seeded = _read_json(key_dir / "seed_key.json")["items"] if (key_dir / "seed_key.json").exists() else {}
+    problems, held_back, listing = [], {}, {}
+    for reader in READERS:
+        filed = {iid: _load_reply(out, reader, iid, problems) for iid in manifest["items"]}
+        missing = sorted(iid for iid, reply in filed.items() if reply is None)
+        if missing:
+            held_back[reader] = len(missing)
             continue
-        review = october_entry(Path(args.set_dir), meta["world"], meta["probe_id"])
-        for reader in READERS:
-            filed = _load_reply(out, reader, iid, problems)
-            if filed is None:
-                waiting.append({"item_id": iid, "reader": reader})
+        for iid, meta in sorted(key["items"].items()):
+            if meta["arm"] != "a" or meta["run"] != 1 or iid in seeded:
                 continue
             request = _read_json(_request_path(out, reader, iid))
             request.update({
@@ -549,13 +612,15 @@ def cmd_after_october(args) -> int:
                 "instructions": ("Your scores are filed. Below are the October second-pass grades and outside-referee findings for this "
                                  "answer. You may add errors you missed. Mark each one after_october_review: true. Reply with one JSON "
                                  "object in the reply format."),
-                "reply_format": AFTER_OCTOBER_SCHEMA, "your_filed_reply": _findings(filed), "october_review": review,
+                "reply_format": AFTER_OCTOBER_SCHEMA, "your_filed_reply": _findings(filed[iid]),
+                "october_review": october_entry(Path(args.set_dir), meta["world"], meta["probe_id"]),
             })
-            _write_json(out / "requests" / "after-october" / reader / f"{iid}.json", request)
-            listing[f"{reader}/{iid}"] = {"request": str(out / "requests" / "after-october" / reader / f"{iid}.json"),
-                                          "reply": str(out / "replies" / "after-october" / reader / f"{iid}.json")}
-    _write_json(out / "after_october_manifest.json", {"items": listing, "waiting_for_blind_reply": waiting, "invalid_replies": problems})
-    print(json.dumps({"after_october_requests": len(listing), "waiting_for_blind_reply": len(waiting)}, indent=1))
+            path = out / "requests" / "after-october" / reader / f"{iid}.json"
+            _write_json(path, request)
+            listing[f"{reader}/{iid}"] = {"request": str(path), "reply": str(out / "replies" / "after-october" / reader / f"{iid}.json")}
+    _write_json(out / "after_october_manifest.json", {"run_one_item_per_fresh_context": True, "items": listing,
+                                                       "readers_held_back_missing_blind_replies": held_back, "invalid_replies": problems})
+    print(json.dumps({"after_october_requests": len(listing), "readers_held_back": held_back}, indent=1))
     return 0
 
 
@@ -585,20 +650,22 @@ def _final_errors(first: dict, second: dict, adjudicated: dict | None) -> list[d
     return merged
 
 
-def _catch(reply: dict, location: str) -> bool:
-    return any(overlaps(e["answer_words"], location) for e in reply["errors"])
+def catches(reply: dict, planted: dict) -> bool:
+    """True when one of the reader's errors has the planted defect's type and quotes at least SPAN_THRESHOLD of the planted span's words."""
+    wanted = accepted_error_types(planted["defect_type"])
+    return any(str(e["type"]).split(":")[0] in wanted and containment(planted["expected_location"], e["answer_words"]) >= SPAN_THRESHOLD
+               for e in reply["errors"])
 
 
 def seeded_catch(seeded: dict, replies: dict) -> dict:
-    """Per reader, the share of seeded copies whose planted location one of that reader's errors overlaps."""
+    """Per reader, the share of seeded copies whose planted defect one of that reader's errors catches."""
     result = {"seeded": len(seeded), "by_reader": {}, "missing": []}
     for r in READERS:
-        caught = sum(1 for iid, s in seeded.items() if replies[r].get(iid) and _catch(replies[r][iid], s["expected_location"]))
+        caught = sum(1 for iid, s in seeded.items() if replies[r].get(iid) and catches(replies[r][iid], s))
         read = sum(1 for iid in seeded if replies[r].get(iid))
         result["by_reader"][r] = {"read": read, "caught": caught, "rate": caught / len(seeded) if seeded else None}
     result["missing"] = sorted(iid for iid in seeded if any(not replies[r].get(iid) for r in READERS))
-    either = sum(1 for iid, s in seeded.items() if any(replies[r].get(iid) and _catch(replies[r][iid], s["expected_location"]) for r in READERS))
-    result["caught_by_either"] = either
+    result["found_by_either"] = sum(1 for iid, s in seeded.items() if any(replies[r].get(iid) and catches(replies[r][iid], s) for r in READERS))
     return result
 
 
@@ -615,24 +682,36 @@ def catch_gate(catch: dict) -> dict:
     return {"scores_count": not reasons, "reasons": reasons}
 
 
+def _fragments(note: str) -> list[str]:
+    return [next(g for g in m if g) for m in QUOTED_FRAGMENT.findall(note or "")]
+
+
 def known_october_errors(set_dir: Path, world: str) -> list[dict]:
-    """The A errors the October reviews name: outside-referee doubted claims that are not confirmations, and NOT ACCEPTABLE second-pass rigor notes."""
+    """Every October finding on A that may be an error: each outside-referee doubted claim, and each second-pass rigor note for a
+    non-SOUND answer and craft note for an answer not marked SHIP. `match_text` is the words a B finding is matched against; it is
+    empty for a second-pass note that quotes no answer words."""
     reviews = _read_json(set_dir / f"A_reviews_{world}.json")
     known = []
     for probe, entry in sorted(reviews["outside_referees"]["by_probe"].items()):
         for d in entry.get("doubted_claims") or []:
-            if d["problem"].strip().lower().startswith(CONFIRMING_PREFIXES):
-                continue
-            known.append({"world": world, "probe_id": probe, "source": "outside referee", "claim": d["claim"], "problem": d["problem"]})
+            known.append({"world": world, "probe_id": probe, "source": "outside referee", "claim": d["claim"], "problem": d["problem"],
+                          "match_text": [d["claim"]],
+                          "may_be_confirmation": d["problem"].strip().lower().startswith(CONFIRMING_PREFIXES)})
     for probe, entry in sorted(reviews["second_pass"]["by_probe"].items()):
-        if entry.get("rigor") == "NOT ACCEPTABLE":
-            known.append({"world": world, "probe_id": probe, "source": "second pass", "claim": entry["rigor_note"], "problem": entry["rigor_note"]})
+        notes = []
+        if entry.get("rigor") != "SOUND" and entry.get("rigor_note"):
+            notes.append(("rigor", entry["rigor_note"]))
+        if entry.get("overall") != "SHIP" and entry.get("craft_note"):
+            notes.append(("craft", entry["craft_note"]))
+        for kind, note in notes:
+            known.append({"world": world, "probe_id": probe, "source": f"second pass {kind}", "claim": note, "problem": note,
+                          "match_text": _fragments(note), "may_be_confirmation": entry.get("rigor") == "SOUND" and kind == "rigor"})
     return known
 
 
-def _load_all(out: Path) -> dict:
-    key = _read_json(out / "key" / "key.json")
-    seeded = _read_json(out / "key" / "seed_key.json")["items"] if (out / "key" / "seed_key.json").exists() else {}
+def _load_all(out: Path, key_dir: Path) -> dict:
+    key = _read_json(key_dir / "key.json")
+    seeded = _read_json(key_dir / "seed_key.json")["items"] if (key_dir / "seed_key.json").exists() else {}
     manifest = _read_json(out / "manifest.json")
     problems = []
     replies = {r: {} for r in READERS}
@@ -677,13 +756,58 @@ def final_values(first: dict, second: dict, adjudicated: dict | None) -> dict | 
     return values
 
 
-def compute_tables(out: Path, set_dir: Path) -> dict:
-    data = _load_all(out)
+def deterministic_measures(answer: str, cited_ids: list[str]) -> dict:
+    """Word count, sentence count, cited records and cited quote records of one answer."""
+    sentences = [s for s in re.split(r"(?<=[.!?])\s+", answer.strip()) if s]
+    return {"words": len(answer.split()), "sentences": len(sentences), "cited_records": len(set(cited_ids)),
+            "cited_quotes": len({c for c in cited_ids if ".quote." in c})}
+
+
+def _mean_measures(rows: list[dict]) -> dict:
+    return {k: round(statistics.fmean(r[k] for r in rows), 2) for k in ("words", "sentences", "cited_records", "cited_quotes")} if rows else {}
+
+
+def older_engine_band(band_dir: Path, worlds: list[str]) -> dict:
+    """Per world, the mean of each deterministic measure for each older-engine run (r1 to r3), its spread across runs and its
+    check pass rate. The older-engine answers are not read by the readers."""
+    band = {}
+    for world in worlds:
+        runs = {}
+        for path in sorted(band_dir.glob(f"live-admission-report-baseline-r*-{world}-*.json")):
+            run = re.search(r"baseline-(r\d+)-", path.name).group(1)
+            probes = _read_json(path)["worlds"][world]["per_probe"]
+            rows = [deterministic_measures(p["transcript"]["answer_text"], p["transcript"].get("citations") or []) for p in probes]
+            runs[run] = {"n": len(rows), **_mean_measures(rows), "check_pass_rate": round(sum(bool(p.get("passed")) for p in probes) / len(probes), 3)}
+        if runs:
+            spread = {k: {"min": min(r[k] for r in runs.values()), "max": max(r[k] for r in runs.values())}
+                      for k in ("words", "sentences", "cited_records", "cited_quotes")}
+            band[world] = {"runs": runs, "spread": spread}
+    return band
+
+
+def _by_world_arm(out: Path, key_items: dict) -> dict:
+    rows = {}
+    for iid, m in key_items.items():
+        if m["run"] != 1:
+            continue
+        req = _read_json(_request_path(out, READERS[0], iid))
+        measure = deterministic_measures(req["answer"], [r["id"] for r in req["cited_records"]])
+        rows.setdefault(m["world"], {}).setdefault(m["arm"], []).append(measure)
+    return {w: {arm: {"n": len(v), **_mean_measures(v)} for arm, v in arms.items()} for w, arms in rows.items()}
+
+
+def _bump(table: dict, *path) -> None:
+    for step in path[:-1]:
+        table = table.setdefault(step, {})
+    table[path[-1]] = table.get(path[-1], 0) + 1
+
+
+def compute_tables(out: Path, key_dir: Path, set_dir: Path, band_dir: Path | None = None) -> dict:
+    data = _load_all(out, key_dir)
     key_items, seeded = data["key"]["items"], data["seeded"]
     r1, r2, adj = data["replies"][READERS[0]], data["replies"][READERS[1]], data["adjudicated"]
-    final, awaiting, depth_by = {}, [], {}
-    errors_by = {}
-    for iid, meta in key_items.items():
+    final, awaiting, depth_by, errors_by = {}, [], {}, {}
+    for iid in key_items:
         if iid not in r1 or iid not in r2:
             continue
         values = final_values(r1[iid], r2[iid], adj.get(iid))
@@ -695,29 +819,25 @@ def compute_tables(out: Path, set_dir: Path) -> dict:
         depth_by[iid] = a["depth"] if a else (r1[iid]["depth"] if r1[iid]["depth"] == r2[iid]["depth"] else "split")
         errors_by[iid] = _final_errors(r1[iid], r2[iid], a)
 
-    def cells(arm, run=1):
-        out_cells = {}
-        for iid, v in final.items():
-            m = key_items[iid]
-            if m["arm"] == arm and m["run"] == run:
-                for world in (m["world"], "all"):
-                    out_cells.setdefault(world, []).append(iid)
-        return out_cells
-
+    cells = {}
+    for iid in final:
+        m = key_items[iid]
+        if m["run"] == 1:
+            for world in (m["world"], "all"):
+                cells.setdefault((m["arm"], world), []).append(iid)
     scores = {d: {} for d in DIMENSIONS}
     depth = {}
-    for arm in ("a", "b"):
-        for world, ids in sorted(cells(arm).items()):
-            for d in DIMENSIONS:
-                scores[d].setdefault(arm, {})[world] = _summary([final[i][d] for i in ids])
-            depth.setdefault(arm, {})[world] = {k: sum(1 for i in ids if depth_by[i] == k) for k in (*DEPTHS, "split")}
+    for (arm, world), ids in sorted(cells.items()):
+        for d in DIMENSIONS:
+            scores[d].setdefault(arm, {})[world] = _summary([final[i][d] for i in ids])
+        depth.setdefault(arm, {})[world] = {k: sum(1 for i in ids if depth_by[i] == k) for k in (*DEPTHS, "split")}
 
     by_probe_b = {}
     for iid, m in key_items.items():
         if m["arm"] == "b" and iid in final:
             by_probe_b.setdefault((m["world"], m["probe_id"]), {})[m["run"]] = iid
-    noise = {}
     repeats = [v for v in by_probe_b.values() if 1 in v and 2 in v]
+    noise = {}
     for d in DIMENSIONS:
         pairs = [(final[v[1]][d], final[v[2]][d]) for v in repeats]
         noise[d] = {**agreement(pairs), "mean_abs_difference": round(statistics.fmean(abs(a - b) for a, b in pairs), 3) if pairs else None}
@@ -729,50 +849,90 @@ def compute_tables(out: Path, set_dir: Path) -> dict:
         stat["readers_unreliable_here"] = stat["exact"] is not None and stat["exact"] < EXACT_AGREEMENT_FLOOR
         reader_agreement[d] = stat
 
-    error_counts = {}
+    error_counts, after_counts = {}, {}
     for iid, errs in errors_by.items():
         m = key_items[iid]
-        if m["run"] != 1:
+        if m["run"] == 1:
+            for e in errs:
+                for world in (m["world"], "all"):
+                    _bump(error_counts, world, m["arm"], str(e["type"]).split(":")[0], str(e["tier"]))
+    for iid, errs in data["after"].items():
+        m = key_items.get(iid)
+        if m is None:
             continue
         for e in errs:
-            row = error_counts.setdefault(m["arm"], {}).setdefault(str(e["type"]).split(":")[0], {})
-            row[str(e["tier"])] = row.get(str(e["tier"]), 0) + 1
-    after_counts = {}
-    for iid, errs in data["after"].items():
-        arm = key_items.get(iid, {}).get("arm", "a")
-        for e in errs:
-            row = after_counts.setdefault(arm, {}).setdefault(str(e["type"]).split(":")[0], {})
-            row[str(e["tier"])] = row.get(str(e["tier"]), 0) + 1
+            for world in (m["world"], "all"):
+                _bump(after_counts, world, m["arm"], str(e["type"]).split(":")[0], str(e["tier"]))
 
-    catch = seeded_catch(seeded, data["replies"]) if seeded else {"seeded": 0, "by_reader": {}, "missing": [], "caught_by_either": 0}
-    gate = catch_gate(catch if seeded else {"seeded": 0, "by_reader": {r: {"rate": None, "caught": 0} for r in READERS}, "missing": []})
+    if seeded:
+        catch = seeded_catch(seeded, data["replies"])
+    else:
+        catch = {"seeded": 0, "by_reader": {r: {"read": 0, "caught": 0, "rate": None} for r in READERS}, "missing": [], "found_by_either": 0}
+    gate = catch_gate(catch)
 
-    october = []
-    b_text = {}
-    for iid, m in key_items.items():
-        if m["arm"] == "b" and m["run"] == 1:
-            b_text[(m["world"], m["probe_id"])] = iid
-    for world in sorted({m["world"] for m in key_items.values()}):
+    worlds = sorted({m["world"] for m in key_items.values()})
+    october, comparison_rows = [], []
+    b_run1 = {(m["world"], m["probe_id"]): iid for iid, m in key_items.items() if m["arm"] == "b" and m["run"] == 1}
+    for world in worlds:
         if not (set_dir / f"A_reviews_{world}.json").exists():
             continue
+        reviews = _read_json(set_dir / f"A_reviews_{world}.json")["second_pass"]["by_probe"]
+        for iid, m in key_items.items():
+            if m["world"] == world and m["arm"] == "a" and m["run"] == 1 and iid in final and m["probe_id"] in reviews:
+                grades = reviews[m["probe_id"]]
+                comparison_rows.append({
+                    "world": world, "probe_id": m["probe_id"], "rigor": grades.get("rigor"), "readable": grades.get("readable"),
+                    "understandable": grades.get("understandable"),
+                    "fresh_dims_1_to_3": round(statistics.fmean(final[iid][d] for d in RIGOR_DIMENSIONS), 3),
+                    "fresh_dim_10": final[iid][ACCESS_DIMENSION],
+                })
         for known in known_october_errors(set_dir, world):
-            iid = b_text.get((world, known["probe_id"]))
+            iid = b_run1.get((world, known["probe_id"]))
             if iid is None or iid not in errors_by:
                 status, in_text = "not read in B", None
             else:
-                found = any(overlaps(e["answer_words"], known["claim"]) for e in errors_by[iid])
-                status = "repeated" if found else "not repeated"
                 answer = _read_json(_request_path(out, READERS[0], iid))["answer"]
-                in_text = containment(known["claim"], answer) >= 0.6
+                in_text = any(containment(f, answer) >= 0.6 for f in known["match_text"]) if known["match_text"] else None
+                if not known["match_text"]:
+                    status = "unmatched (for V10)"
+                elif any(overlaps(e["answer_words"], f) for e in errors_by[iid] for f in known["match_text"]):
+                    status = "candidate repeated"
+                else:
+                    status = "no candidate found"
             october.append({**known, "b_status": status, "claim_wording_in_b_answer": in_text})
+    comparison = {}
+    for column, dim in (("rigor", "fresh_dims_1_to_3"), ("readable", "fresh_dim_10"), ("understandable", "fresh_dim_10")):
+        grouped = {}
+        for row in comparison_rows:
+            grouped.setdefault(str(row[column]), []).append(row[dim])
+        comparison[column] = {g: {"n": len(v), "mean_fresh": round(statistics.fmean(v), 3)} for g, v in sorted(grouped.items())}
 
+    band = older_engine_band(band_dir, worlds) if band_dir is not None and band_dir.exists() else {}
     return {
         "scores": scores, "depth": depth, "noise_floor": {"repeat_probes": len(repeats), "by_dimension": noise},
         "reader_agreement": reader_agreement, "error_counts": error_counts, "after_october_error_counts": after_counts,
         "seeded_catch": catch, "gate": gate, "october_errors": october,
-        "awaiting_adjudication": sorted(awaiting), "invalid_replies": data["problems"],
-        "items_scored": len(final),
+        "october_comparison": {"by_grade": comparison, "rows": comparison_rows},
+        "older_engine_band": {"note": "Deterministic measures only. The older-engine answers were not read by the readers.",
+                              "by_world": band, "current_arms_by_world": _by_world_arm(out, {i: m for i, m in key_items.items() if i in r1})},
+        "awaiting_adjudication": sorted(awaiting), "invalid_replies": data["problems"], "items_scored": len(final),
     }
+
+
+def _pct(x) -> str:
+    return "-" if x is None else f"{round(x * 100)}%"
+
+
+def _error_table(lines: list[str], counts: dict) -> None:
+    if not counts:
+        lines += ["None.", ""]
+        return
+    lines += ["| World | Arm | Type | Tier 1 | Tier 2 | Tier 3 |", "|---|---|---|---|---|---|"]
+    for world in sorted(counts):
+        for arm in sorted(counts[world]):
+            for typ in sorted(counts[world][arm]):
+                lines.append(f"| {world} | {arm} | {typ} | " + " | ".join(str(counts[world][arm][typ].get(k, 0)) for k in "123") + " |")
+    lines.append("")
 
 
 def render_markdown(t: dict) -> str:
@@ -798,65 +958,46 @@ def render_markdown(t: dict) -> str:
               "| Dimension | n | Exact | Within one | Note |", "|---|---|---|---|---|"]
     for d, s in t["reader_agreement"].items():
         lines.append(f"| {d} | {s['n']} | {_pct(s['exact'])} | {_pct(s['within_one'])} | {'readers unreliable here' if s['readers_unreliable_here'] else ''} |")
-    lines += ["", "## Errors by type and tier", ""]
-    for title, counts in (("Blind reading", t["error_counts"]), ("Added after October review", t["after_october_error_counts"])):
-        lines += [f"{title}:", ""]
-        if not counts:
-            lines += ["None.", ""]
-            continue
-        lines += ["| Arm | Type | Tier 1 | Tier 2 | Tier 3 |", "|---|---|---|---|---|"]
-        for arm in sorted(counts):
-            for typ in sorted(counts[arm]):
-                lines.append(f"| {arm} | {typ} | " + " | ".join(str(counts[arm][typ].get(k, 0)) for k in "123") + " |")
-        lines.append("")
+    lines += ["", "## Errors by world, type and tier", "", "Blind reading:", ""]
+    _error_table(lines, t["error_counts"])
+    lines += ["Added after October review:", ""]
+    _error_table(lines, t["after_october_error_counts"])
     c = t["seeded_catch"]
-    lines += ["## Seeded catch rate", "", f"Seeded copies: {c['seeded']}. Scores count only if each reader catches at least 9 in 10.", ""]
+    lines += ["## Seeded catch rate", "", f"Seeded copies: {c['seeded']}. A catch needs the planted defect type and at least half of the planted span's words "
+              f"inside the reader's quoted words. Scores count only if each reader catches at least 9 in 10.", ""]
     for r, v in c["by_reader"].items():
         lines.append(f"- {r}: caught {v['caught']} of {c['seeded']} (read {v['read']}).")
-    lines += [f"- Found by at least one reader: {c['caught_by_either']}.", ""]
-    lines += ["## Known October errors in A, against B", "", "A B error counts as repeated when a reader finding on the same probe overlaps the October claim.", "",
-              "| World | Probe | Source | B | Wording in B answer |", "|---|---|---|---|---|"]
+    lines += [f"- Found by at least one reader: {c['found_by_either']}.", ""]
+    lines += ["## Fresh scores against the October grades on A", "", "Dimensions 1 to 3 against the October rigor grade. Dimension 10 against the readable and understandable grades.", "",
+              "| October column | Grade | n | Mean fresh score |", "|---|---|---|---|"]
+    for column, grades in t["october_comparison"]["by_grade"].items():
+        for grade, s in grades.items():
+            lines.append(f"| {column} | {grade} | {s['n']} | {s['mean_fresh']} |")
+    band = t["older_engine_band"]
+    lines += ["", "## Older-engine band", "", band["note"], "",
+              "| World | Run | Words | Sentences | Cited records | Cited quotes | Check pass rate |", "|---|---|---|---|---|---|---|"]
+    for world, b in sorted(band["by_world"].items()):
+        for run, m in b["runs"].items():
+            lines.append(f"| {world} | older {run} | {m['words']} | {m['sentences']} | {m['cited_records']} | {m['cited_quotes']} | {_pct(m['check_pass_rate'])} |")
+        for arm, m in sorted(band["current_arms_by_world"].get(world, {}).items()):
+            lines.append(f"| {world} | arm {arm} | {m['words']} | {m['sentences']} | {m['cited_records']} | {m['cited_quotes']} | - |")
+    lines += ["", "## Known October errors in A, against B", "",
+              "Each row is a mechanical candidate match. A person must confirm it in V10. 'No candidate found' does not mean B avoided the error.", "",
+              "| World | Probe | Source | B | Wording in B answer | May be a confirmation |", "|---|---|---|---|---|---|"]
     for e in t["october_errors"]:
-        lines.append(f"| {e['world']} | {e['probe_id']} | {e['source']} | {e['b_status']} | {e['claim_wording_in_b_answer']} |")
+        lines.append(f"| {e['world']} | {e['probe_id']} | {e['source']} | {e['b_status']} | {e['claim_wording_in_b_answer']} | {e['may_be_confirmation']} |")
     return "\n".join(lines) + "\n"
-
-
-def _pct(x) -> str:
-    return "-" if x is None else f"{round(x * 100)}%"
 
 
 def cmd_score(args) -> int:
     out, tables = Path(args.export_dir), Path(args.tables_dir)
-    t = compute_tables(out, Path(args.set_dir))
+    t = compute_tables(out, Path(args.key_dir), Path(args.set_dir), Path(args.band_dir))
     tables.mkdir(parents=True, exist_ok=True)
     _write_json(tables / "tables.json", t)
     (tables / "tables.md").write_text(render_markdown(t), encoding="utf-8")
     print(json.dumps({"items_scored": t["items_scored"], "scores_count": t["gate"]["scores_count"],
                       "awaiting_adjudication": len(t["awaiting_adjudication"])}, indent=1))
     return 0
-
-
-def _short_passages(ctx: Context, world: str, ids: list[str]) -> list[dict]:
-    records, out = ctx.records(world), []
-    base = (TEXTS_ROOT / "cic" / "texts").resolve()
-    for rid in ids:
-        for source in (records.get(rid) or {}).get("sources") or []:
-            for ref in locus_refs(source.get("locus")):
-                path = (TEXTS_ROOT / ref["file"]).resolve()
-                if base not in path.parents or not path.is_file():
-                    continue
-                first, last = (int(x) for x in ref["lines"].split("-"))
-                lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
-                lo, hi = max(first - PASSAGE_MARGIN_LINES, 1), min(last + PASSAGE_MARGIN_LINES, len(lines))
-                words = " ".join(lines[lo - 1:hi]).split()
-                if len(words) > PASSAGE_MAX_WORDS:
-                    cited = " ".join(lines[first - 1:last]).split()
-                    spare = max(PASSAGE_MAX_WORDS - len(cited), 0)
-                    before = " ".join(lines[lo - 1:first - 1]).split()[-(spare // 2):] if spare else []
-                    after = " ".join(lines[last:hi]).split()[:spare // 2] if spare else []
-                    words = before + cited + after
-                out.append({"record_id": rid, "file": ref["file"], "lines": ref["lines"], "text": " ".join(words)})
-    return out
 
 
 def pick_probes(candidates: list[dict], count: int, seed: int, world: str) -> list[dict]:
@@ -871,8 +1012,12 @@ def pick_probes(candidates: list[dict], count: int, seed: int, world: str) -> li
 
 
 def cmd_mark_pack(args) -> int:
-    out = Path(args.out)
+    out, key_dir = Path(args.out), Path(args.key_dir)
+    require_outside_repo(key_dir)
+    _require_apart(out, key_dir)
     _fresh_dir(out)
+    key_dir.mkdir(parents=True, exist_ok=True)
+    write_seed(key_dir, args.seed)
     worlds = args.worlds.split(",")
     a_items = [i for w in worlds for i in read_set_answers(Path(args.set_dir), w)]
     b_items, _ = read_run_answers(Path(args.b), 1)
@@ -886,45 +1031,52 @@ def cmd_mark_pack(args) -> int:
         candidates = []
         for p in common:
             both = (a_by[(world, p)], b_by[(world, p)])
-            quote = any(".quote." in rid for i in both for rid in i["citations"])
-            candidates.append({"probe_id": p, "cell": both[0]["cell"], "places_quote": quote})
+            candidates.append({"probe_id": p, "cell": both[0]["cell"],
+                               "places_quote": any(".quote." in rid for i in both for rid in i["citations"])})
         for chosen in pick_probes(candidates, args.per_world, args.seed, world):
             for arm_item in (a_by[(world, chosen["probe_id"])], b_by[(world, chosen["probe_id"])]):
                 k = item_key(world, arm_item["arm"], arm_item["run"], arm_item["probe_id"])
                 iid = item_id(args.seed, f"mark|{k}")
-                views, _, _ = ctx.cited(world, arm_item["citations"])
+                cited = ctx.cited(world, arm_item["citations"], MARK_PASSAGE_WORDS)
                 items.append({"item_id": iid, "world": world, "question": ctx.question(chosen["probe_id"]),
-                              "answer": arm_item["answer"], "cited_records": views,
-                              "source_lines": _short_passages(ctx, world, arm_item["citations"])})
+                              "answer": arm_item["answer"], "cited_records": cited["views"],
+                              "source_lines": [{k2: p[k2] for k2 in ("record_id", "how", "division_path", "lines", "text")}
+                                               for p in cited["passages"]]})
                 key[iid] = {"key": k, "world": world, "arm": arm_item["arm"], "probe_id": chosen["probe_id"], "cell": chosen["cell"]}
-    order = shuffled([i["item_id"] for i in items], args.seed, "mark")
     by_id = {i["item_id"]: i for i in items}
+    order = shuffled(list(by_id), args.seed, "mark")
     _write_json(out / "mark_pack.json", {"items": [by_id[i] for i in order]})
-    _write_json(out / "mark_pack_key.json", {"seed": args.seed, "items": key})
-    print(json.dumps({"items": len(items), "per_world": args.per_world, "key_sha256": _sha256(out / "mark_pack_key.json")}, indent=1))
+    _write_json(key_dir / "mark_pack_key.json", {"items": key})
+    print(json.dumps({"items": len(items), "per_world": args.per_world, "key_sha256": _sha256(key_dir / "mark_pack_key.json")}, indent=1))
     return 0
 
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
-    e = sub.add_parser("export", help="write the reader requests, the key and the manifest")
+    e = sub.add_parser("export", help="write the reader requests, the manifest and the key files")
     e.add_argument("--set-dir", default=str(SET_DIR))
     e.add_argument("--b", action="append", default=[], required=True, help="a v7_run --out file; the first is run 1, the next run 2")
     e.add_argument("--worlds", default=",".join(WORLDS))
     e.add_argument("--out", required=True)
+    e.add_argument("--key-dir", required=True)
     e.add_argument("--seed", type=int, required=True)
     s = sub.add_parser("seed-copies", help="add seeded-defect copies to an export")
     s.add_argument("--export-dir", required=True)
+    s.add_argument("--key-dir", required=True)
     s.add_argument("--copies", required=True)
     a = sub.add_parser("adjudicate", help="write the third-reader requests")
     a.add_argument("--export-dir", required=True)
     o = sub.add_parser("after-october", help="write the follow-up requests that show the October findings")
     o.add_argument("--export-dir", required=True)
+    o.add_argument("--key-dir", required=True)
     o.add_argument("--set-dir", default=str(SET_DIR))
     c = sub.add_parser("score", help="write the score tables")
     c.add_argument("--export-dir", required=True)
+    c.add_argument("--key-dir", required=True)
     c.add_argument("--set-dir", default=str(SET_DIR))
+    c.add_argument("--band-dir", default=str(max(REPORTS_DIR.glob("baseline-*"), default=REPORTS_DIR)),
+                   help="the older-engine baseline report folder")
     c.add_argument("--tables-dir", required=True)
     m = sub.add_parser("mark-pack", help="build the human review sample")
     m.add_argument("--set-dir", default=str(SET_DIR))
@@ -932,6 +1084,7 @@ def _parser() -> argparse.ArgumentParser:
     m.add_argument("--worlds", default=",".join(WORLDS))
     m.add_argument("--per-world", type=int, default=12)
     m.add_argument("--out", required=True)
+    m.add_argument("--key-dir", required=True)
     m.add_argument("--seed", type=int, required=True)
     return parser
 
