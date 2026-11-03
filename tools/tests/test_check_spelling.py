@@ -108,3 +108,10 @@ def test_a_wrapped_quotation_inside_a_record_field_is_skipped():
            '  psalms by heart, "fastened within the barriers\n  of the cell in a secure harbour" and the harbour of prayer\n---\n')
     assert [f.word for f in cs.scan_record(rec, "r.md")] == ["harbour"]
     assert 'secure harbour" and the harbor of prayer' in cs.fix_record(rec)
+
+
+def test_a_citation_line_names_works_and_keeps_their_titles():
+    rec = ('---\nid: a.source.b\nrecord_type: source\nwork: Encyclopaedia Britannica\n'
+           'citation: Encyclopaedia Britannica (online), a Reply in Defence of the Doctrines of Men\n'
+           'note: the colour of the page\n---\n')
+    assert [f.word for f in cs.scan_record(rec, "r.md")] == ["colour"]
