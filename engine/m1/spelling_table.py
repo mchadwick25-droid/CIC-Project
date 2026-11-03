@@ -1,4 +1,4 @@
-"""The British-to-American word table (Answering-From-Sources Decision-Log 77).
+"""The British-to-American word table.
 
 One table for the two programs that need it: `tools/check_spelling.py` finds British forms in modern-English
 prose, and `engine/m10/regate.py` compares a field with its base after both are put through `normalize`, so

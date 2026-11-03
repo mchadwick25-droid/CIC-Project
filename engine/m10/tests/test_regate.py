@@ -400,7 +400,7 @@ def test_a_waiver_on_a_clean_world_is_stale_and_fails(monkeypatch):
     assert any(f.check == "stale-waiver" for f in report.findings)
 
 
-# A spelling-only change is not an edit for the readability gate (Decision-Log 77): both texts are
+# A spelling-only change is not an edit for the readability gate: both texts are
 # compared after the British-to-American table, so converting a spelling in a field that already
 # fails stays "carried over"; any other difference, however small, is still graded.
 BRITISH_DENSE = DENSE.replace("authority", "authority and honour").replace("participants", "neighbours")
