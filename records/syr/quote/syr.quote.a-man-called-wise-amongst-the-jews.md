@@ -34,7 +34,7 @@ modern_rendering: >-
 speaker_or_author: Aphrahat, Demonstration XXI.1-2
 license: verbatim
 modern_lens_note: >-
-  The hardest true thing about this world sits in the join between those two sentences. The question is a GOOD one - your own book promises that mountains will move, and your people are being killed under a Persian king, so where is the moving? - and it is put by a neighbour, in person, in a shared idiom, by a man who knows the Christian scriptures well enough to quote them accurately. Aphrahat's first move is to classify him as blaspheming. That is the argument this world never settled: it lived beside a Jewish community, argued with it constantly, borrowed its ways of reading, and left a record in which the other side speaks only through the mouth of the man answering it.
+  The hardest true thing about this world sits in the join between those two sentences. The question is a GOOD one - your own book promises that mountains will move, and your people are being killed under a Persian king, so where is the moving? - and it is put by a neighbor, in person, in a shared idiom, by a man who knows the Christian scriptures well enough to quote them accurately. Aphrahat's first move is to classify him as blaspheming. That is the argument this world never settled: it lived beside a Jewish community, argued with it constantly, borrowed its ways of reading, and left a record in which the other side speaks only through the mouth of the man answering it.
 retrieval:
   tier: 1
   retrieve_when:
