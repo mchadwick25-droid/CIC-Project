@@ -1422,13 +1422,13 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # correctly PROTECTED.
     ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
     ("Build/worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md", 8, "REWRITE"),
-    ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
+    ("Build/worlds/ijc/ijc_World_Profile.md", 227, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
     # cic/corpus-map samples in this block were cleaned by that PR's own
     # full surface pass and stopped matching. Moved to 10 more worlds/
     # examples, distinct from the 8 above, to keep this table at >=60
     # real, currently-matching lines.
-    ("Build/worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
+    ("Build/worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md", 72, "REWRITE"),
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside hal_Decision_Log.md, a per-world decision log, now
     # correctly PROTECTED rather than REWRITE under the new
