@@ -1,6 +1,6 @@
 """The lens: the passages a world's search may reach. A hard filter, applied before any ranking.
 
-A passage is in a world's lens when the world's own corpus-map rows bind it to exactly one row (the division test the
+A passage is in a world's lens when the world's own corpus-map rows bind it to exactly one row (the division test
 the corpus-map rows use), it has an English reading, and it is not apparatus:
 
   a file with one row of the world         every passage of the file is bound to that row;
