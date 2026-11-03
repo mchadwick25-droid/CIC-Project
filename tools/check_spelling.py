@@ -15,7 +15,7 @@ from a pattern alone: every ending is paired with the stems it applies to, so
 - URLs and path-like tokens (anything with a slash or an underscore);
 - in a record's frontmatter, the fields that hold an edition's own words or a
   name: `text` on a quote record, `edition`, `work`, `title`, `translator`,
-  `author`, `names`, `locus` and the identifiers.
+  `author`, `names`, `citation`, `locus` and the identifiers.
 
 Usage:
   check_spelling.py                       report every finding in the checked trees
@@ -219,7 +219,7 @@ def fix_text(text: str) -> str:
 _SKIP_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register", "canon_cells", "locus", "edition",
     "work", "title", "translator", "translators", "author", "names", "source_id", "source", "sources_cited",
-    "license", "tier", "kind", "voice_of", "census_id", "shelf_row", "speaker", "name",
+    "license", "tier", "kind", "voice_of", "census_id", "shelf_row", "speaker", "name", "citation",
 }
 
 
