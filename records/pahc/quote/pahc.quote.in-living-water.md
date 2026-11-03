@@ -34,7 +34,7 @@ modern_lens_note: >-
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks how these people baptised, and whether babies were baptised"
+  - "participant asks how these people baptized, and whether babies were baptized"
   - "participant asks whether they were born again or what baptism did"
   - "participant asks how much the exact form of a rite mattered here"
 relations:
@@ -43,7 +43,7 @@ relations:
 use_note:
   means: "The Didache prescribes trinitarian baptism in running water, with fallbacks down to pouring water three times on the head."
   not_for:
-    - "a claim that the Didache says whether infants were baptised"
+    - "a claim that the Didache says whether infants were baptized"
     - "a claim that the form of the rite was fixed regardless of circumstance"
     - "a claim that the Didache's date and place are settled"
   years: {from: 80, to: 150}
@@ -52,7 +52,7 @@ use_note:
 This quote serves F4-T together with pahc.term.baptisma, which cites ch. 7 for "living
 water; the fallback ladder; threefold pouring".
 
-Kept as the whole ladder rather than the first clause. A cell asking whether this world baptised
+Kept as the whole ladder rather than the first clause. A cell asking whether this world baptized
 infants is not answered here - the Didache does not say - but the shape of the answer it CAN give
 is that the form bent to circumstance, and that only shows if the fallbacks are shown.
 

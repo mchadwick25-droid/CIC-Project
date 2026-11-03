@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 licence, not a public-domain text - see desert.source.evagrius-praktikos."
+  divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 license, not a public-domain text - see desert.source.evagrius-praktikos."
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "Praktikos prologue SS8, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
@@ -26,7 +26,7 @@ modern_rendering: >-
   blessedness."
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
-modern_lens_note: "Read as a self-improvement sequence this is badly misheard. Each step is what makes the next one possible, not a level to be cleared and left behind, and the whole ladder is presented as words the elders say when handing over the habit - a formula recited at a clothing, not a private programme."
+modern_lens_note: "Read as a self-improvement sequence this is badly misheard. Each step is what makes the next one possible, not a level to be cleared and left behind, and the whole ladder is presented as words the elders say when handing over the habit - a formula recited at a clothing, not a private program."
 retrieval:
   tier: 1
   retrieve_when:

@@ -18,7 +18,7 @@ confidence:
     were her associates told me" - which is unusual in this book and makes the eighty-year figure
     her own claim about herself rather than his estimate. He also says he sat with her, which makes
     the closing scene first-hand. The comparison with other houses ("as is customary in other
-    religious houses for women") is HIS generalisation, not hers, and is the least well-supported
+    religious houses for women") is HIS generalization, not hers, and is the least well-supported
     clause in the passage.
 sources:
 - source_id: desert.source.palladius-paradise-syriac

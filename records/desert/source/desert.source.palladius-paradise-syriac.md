@@ -71,7 +71,7 @@ WHAT THIS FILE GIVES THIS WORLD THAT IT DID NOT HAVE.
 
 WHAT IT DOES NOT CONTAIN, stated because the earlier fetch note got this
 wrong twice: NOT the Historia Monachorum / Asketikon, and NOT the
-Pachomian Rule. Budge's Introduction summarises Books I and II; only
+Pachomian Rule. Budge's Introduction summarizes Books I and II; only
 Book I's text is printed, ending "Here endeth the first Book". Chapter
 xx is Palladius' biography of Pachomius, not his legislation - for that
 see desert.source.pachomian-corpus and the Ethiopic recension vendored

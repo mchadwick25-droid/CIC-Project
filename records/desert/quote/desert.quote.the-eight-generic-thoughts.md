@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 licence, not a public-domain text - see desert.source.evagrius-praktikos."
+  divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 license, not a public-domain text - see desert.source.evagrius-praktikos."
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "Praktikos ch. 6, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
@@ -26,7 +26,7 @@ modern_rendering: >-
   linger or not, and whether they stir up passions or not, is up to us.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
-modern_lens_note: "The list is not a catalogue of sins. A logismos is an intruding thought, and the closing clause is the whole ethic: whether it arrives is not up to you, whether it stays is. A modern reader who hears 'eight deadly sins' has already lost the distinction this chapter is drawing. 'acedia' is left untranslated because no English word carries it - see desert.quote.the-noonday-demon for what it actually looks like. The vendored file reads 'sixth acedia' without the comma the other seven have; that is the file, not a silent edit here."
+modern_lens_note: "The list is not a catalog of sins. A logismos is an intruding thought, and the closing clause is the whole ethic: whether it arrives is not up to you, whether it stays is. A modern reader who hears 'eight deadly sins' has already lost the distinction this chapter is drawing. 'acedia' is left untranslated because no English word carries it - see desert.quote.the-noonday-demon for what it actually looks like. The vendored file reads 'sixth acedia' without the comma the other seven have; that is the file, not a silent edit here."
 retrieval:
   tier: 1
   retrieve_when:

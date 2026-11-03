@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
+  divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
   locus: "Homily XXVI SS18, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt)"
@@ -24,11 +24,11 @@ modern_rendering: >-
   But to hate it is your doing.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
-modern_lens_note: "The premise is what a modern reader is most likely to miss: this world takes it as obvious that a baptised person still has sin AND grace in them at once, and asks only what happens at death. The answer refuses to weigh the two quantities and looks at direction instead - where the mind aims, where the love is. The ellipsis drops two sentences of exhortation between question and the closing clause. The vendored file renders the section number as '1 8.' where the scan broke it; the section is 18."
+modern_lens_note: "The premise is what a modern reader is most likely to miss: this world takes it as obvious that a baptized person still has sin AND grace in them at once, and asks only what happens at death. The answer refuses to weigh the two quantities and looks at direction instead - where the mind aims, where the love is. The ellipsis drops two sentences of exhortation between question and the closing clause. The vendored file renders the section number as '1 8.' where the scan broke it; the section is 18."
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant says they were baptised or converted and are exactly the same person"
+  - "participant says they were baptized or converted and are exactly the same person"
   - "participant asks whether a believer still sins, or still struggles years later"
   - "participant asks what happens to someone who dies still fighting"
   - "participant says they converted and nothing changed, or that they feel unchanged"

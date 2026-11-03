@@ -29,7 +29,7 @@ retrieval:
   - "participant asks whether outsiders are condemned"
   - "participant asks whether this world's own way was too narrow"
   - "participant asks about divorce"
-  - "participant asks what the neighbours thought of them, and what was said about them locally"
+  - "participant asks what the neighbors thought of them, and what was said about them locally"
 relations: []
 positions:
 - "One of us, Justin, argued that anyone who 'lived reasonably' - even Socrates, even Heraclitus, even the barbarians' own righteous figures, born before Christ - was in some real sense already a Christian, whether or not they were ever thought so."

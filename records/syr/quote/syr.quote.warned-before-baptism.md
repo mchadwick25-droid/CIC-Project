@@ -36,11 +36,11 @@ modern_rendering: >-
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
-  The people warned here are old enough to choose for themselves. The preachers tell the candidates before baptism that anyone who wants marriage should marry first, anyone afraid should turn back now, and anyone attached to possessions should leave the army. Baptism is described as enlisting, and the passage draws on Gideon sending the fearful home. The decisive moment is a public choice, with its cost stated in advance and a way out offered. That is nearer to taking vows than to a modern conversion experience. The passage does not say whether infants were also baptised.
+  The people warned here are old enough to choose for themselves. The preachers tell the candidates before baptism that anyone who wants marriage should marry first, anyone afraid should turn back now, and anyone attached to possessions should leave the army. Baptism is described as enlisting, and the passage draws on Gideon sending the fearful home. The decisive moment is a public choice, with its cost stated in advance and a way out offered. That is nearer to taking vows than to a modern conversion experience. The passage does not say whether infants were also baptized.
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks whether babies were baptised or only adults who chose it"
+  - "participant asks whether babies were baptized or only adults who chose it"
   - "participant asks what baptism actually required of a person here"
   - "participant asks whether they would call what happened to them being born again"
 relations:

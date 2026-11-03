@@ -36,8 +36,8 @@ attribution_status: "Athanasius by the manuscript's own ascription, as in the Gr
 discovery_channel: "opened 2026-08-27 by the fleet unopened-volume sweep (alx.search.unopened-volume-sweep)"
 external_ids: {}
 ---
-THIS WORLD'S MOST WIDELY TRAVELLED BOOK, IN ONE OF THE PLACES IT
-TRAVELLED TO.
+THIS WORLD'S MOST WIDELY TRAVELED BOOK, IN ONE OF THE PLACES IT
+TRAVELED TO.
 
 The Vita Antonii is the Alexandrian text that went furthest: Athanasius
 wrote it, Latin readers had it within a decade, and Augustine records
@@ -52,7 +52,7 @@ literature and its own reasons to want this one. The abridgement is the evidence
 different tradition kept and what it did not think it needed is a
 measurement of what the book was FOR outside the city that wrote it -
 and this world can now make that measurement rather than assert that the
-Life travelled.
+Life traveled.
 
 WHAT IT IS NOT. Not a better text, not an earlier text, and not a
 correction to the Greek. Where the two differ this world reads npnf204

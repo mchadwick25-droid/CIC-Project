@@ -26,7 +26,7 @@ kind: vendored
 shelf_row: macarius_fifty-spiritual-homilies_mason1921--fifty-spiritual-homilies-of-st-macarius-the-egyptian
 rights_status: "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)"
 attribution_status: "pseudonymous by modern consensus, attributed in the vendored edition - the edition argues for the traditional ascription against the case that has since carried the field, which is stated wherever this source is cited"
-discovery_channel: "supplied by Mark 2026-08-27 as a scanned .docx, after a source audit of this world named the Macarian corpus as the largest gap in kind rather than in volume; vendored the same day with its OCR normalisation counted in the file's own header. Internet Archive item metadata (identifier, scanning library, copyright evidence, OCLC) supplied by Mark the same day and folded into the file header and this record"
+discovery_channel: "supplied by Mark 2026-08-27 as a scanned .docx, after a source audit of this world named the Macarian corpus as the largest gap in kind rather than in volume; vendored the same day with its OCR normalization counted in the file's own header. Internet Archive item metadata (identifier, scanning library, copyright evidence, OCLC) supplied by Mark the same day and folded into the file header and this record"
 external_ids: {internet_archive: "fiftyspiritualho00pseuuoft", oclc: "1045392049"}
 ---
 WHY THIS SOURCE, AND WHAT IT CHANGES. Every interior term this world holds
@@ -36,7 +36,7 @@ desert.term.penthos. That is one tradition of ascetic psychology, and until
 this file it was the only one in the corpus. The Macarian homilies are the
 other: grace as felt experience, the heart rather than the mind as the
 place where God is met, and an insistence that sin and grace coexist in the
-baptised rather than one displacing the other. Opening this source gives
+baptized rather than one displacing the other. Opening this source gives
 desert a second, competing interior vocabulary instead of more of the one
 it has.
 
@@ -48,7 +48,7 @@ currently holds from Cassian's Conference XIII alone.
 THE ATTRIBUTION PROBLEM IS THE MOST IMPORTANT THING ABOUT THIS RECORD.
 This is not a source that can be quoted as "one of us said". The safe frame
 is that these are homilies transmitted under
-Macarius's name from a neighbouring eastern monastic milieu, which no record shows desert monks carried, whose actual author is unknown and whose doctrine was
+Macarius's name from a neighboring eastern monastic milieu, which no record shows desert monks carried, whose actual author is unknown and whose doctrine was
 drawn on by a condemned current. The vendored edition is unusually good
 provenance for exactly this reason: Mason sets out the case against his own
 position, in print, and refuses it - so a reader can watch the argument
@@ -77,7 +77,7 @@ life-plus-70 arithmetic exactly.
 And it corroborates the attribution bound from a direction independent of
 Mason's own text. This record derived "pseudonymous by modern consensus"
 from Mason's own Introduction, where he sets out Villecourt's and Wilmart's
-Messalian case and refuses it. The Archive's cataloguers simply lead with
+Messalian case and refuses it. The Archive's catalogers simply lead with
 Pseudo-Macarius. Two independent routes to the same bound is better than
-one, and the author field now says so in the vocabulary a cataloguer would
-recognise.
+one, and the author field now says so in the vocabulary a cataloger would
+recognize.

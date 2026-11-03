@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested at the level of authorship, and the bound is not a formality. The Macarian Homilies are transmitted under the name of Macarius the Egyptian of Scetis, but the vendored edition's own translator states the ascription 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally assigned to a Syrian or Mesopotamian author of the late fourth or early fifth century. Propositions taken from these Homilies were condemned as Messalian. So this witness reports a current from eastern monastic homilies of a neighbouring milieu, held in this record's source set - not the settled teaching of the Egyptian elders, and never voiced as 'one of us said'."
+  divergence_note: "Contested at the level of authorship, and the bound is not a formality. The Macarian Homilies are transmitted under the name of Macarius the Egyptian of Scetis, but the vendored edition's own translator states the ascription 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally assigned to a Syrian or Mesopotamian author of the late fourth or early fifth century. Propositions taken from these Homilies were condemned as Messalian. So this witness reports a current from eastern monastic homilies of a neighboring milieu, held in this record's source set - not the settled teaching of the Egyptian elders, and never voiced as 'one of us said'."
 sources:
 - source_id: desert.source.macarian-homilies
   locus: "Homily I (the soul as the chariot of Ezekiel's vision); Homily IV (grace known in real experience and feeling); Homily XVII (the heart as a deep gulf); Homily XXVI SS18 (sin and grace in the same soul); and Mason's Introduction SS3, HIS TEACHING, where the disputed doctrines are set out"
@@ -42,13 +42,13 @@ text: >-
 positions:
 - "grace as consciously perceived - known 'in real experience and feeling', not inferred from sacraments or held by faith alone (Homily IV)"
 - "the Holy Spirit as indwelling and transforming presence, the soul made his seat and dwelling (Homily I)"
-- "sin and grace coexisting in the baptised, the war normal rather than a sign of failure (Homily XXVI SS18)"
+- "sin and grace coexisting in the baptized, the war normal rather than a sign of failure (Homily XXVI SS18)"
 - "the heart as the whole interior person, including what lies below inspection - the serpent under the mind, beneath the thoughts (Homily XVII)"
 - "at death, direction rather than quantity: where the mind aims and the love is, not which of the two holds more ground"
 tensions:
-- "this current and the Evagrian one are not one teaching. Evagrius has the nous behold its OWN proper radiance and treats the logismoi as observable arrivals to be caught early; this has the soul irradiated by Another, and locates the trouble beneath what watchfulness can reach. The corpus now carries both and does not harmonise them"
+- "this current and the Evagrian one are not one teaching. Evagrius has the nous behold its OWN proper radiance and treats the logismoi as observable arrivals to be caught early; this has the soul irradiated by Another, and locates the trouble beneath what watchfulness can reach. The corpus now carries both and does not harmonize them"
 - "desert.dw.god has this world knowing God by 'a long stilling of the passions' - an emptying. This is a filling, consciously felt. Both are registered; a participant should not be given either as the desert's single answer"
-- "the very claims that make this current distinctive - felt grace, sin persisting in the baptised - are the ones extracted from these Homilies and condemned as Messalian. Its interest and its jeopardy are the same sentences"
+- "the very claims that make this current distinctive - felt grace, sin persisting in the baptized - are the ones extracted from these Homilies and condemned as Messalian. Its interest and its jeopardy are the same sentences"
 relations:
 - type: associated-with
   target: desert.quote.sin-and-grace-in-one-soul
@@ -92,4 +92,4 @@ What is not claimed: nothing here says the Egyptian elders held this. The
 Homilies are addressed to an Abbot Symeon of Mesopotamia, and their author
 is unknown. What is claimed is narrower and checkable: this teaching
 circulated under a desert elder's name, and the homilies are in this record's source set as eastern
-monastic teaching of a neighbouring milieu. No record shows desert monks carried them in this world's window.
+monastic teaching of a neighboring milieu. No record shows desert monks carried them in this world's window.

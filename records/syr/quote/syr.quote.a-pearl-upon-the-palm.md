@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Ephrem's own opening in the standard English of the NPNF Ephrem volume, read directly at the hymn cited. Morris's 1847 English of a Syriac verse cycle: the images are Ephrem's, the metre is not reproducible, and Gwynn's revision notes where the Syriac is uncertain.
+    Documented as Ephrem's own opening in the standard English of the NPNF Ephrem volume, read directly at the hymn cited. Morris's 1847 English of a Syriac verse cycle: the images are Ephrem's, the meter is not reproducible, and Gwynn's revision notes where the Syriac is uncertain.
 sources:
 - source_id: syr.source.ephrem-hymns-on-faith-pearl
   locus: >-

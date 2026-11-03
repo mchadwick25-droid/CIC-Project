@@ -29,7 +29,7 @@ modern_rendering: >-
 speaker_or_author: Ambrose of Milan, Letter LXIII
 license: verbatim
 modern_lens_note: >-
-  The crucial words are 'Good too' and 'This way is taken by most'. Marriage is not condemned here - it reaches the same destination - but it is explicitly the longest road and the ordinary one. That is this world's answer about marriage: licit, honoured, and third. A reader who expects either condemnation or equality will misread it in opposite directions.
+  The crucial words are 'Good too' and 'This way is taken by most'. Marriage is not condemned here - it reaches the same destination - but it is explicitly the longest road and the ordinary one. That is this world's answer about marriage: licit, honored, and third. A reader who expects either condemnation or equality will misread it in opposite directions.
 retrieval:
   tier: 1
   retrieve_when:
@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: ijc.dw.marriage-ranked
 use_note:
-  means: "Ambrose ranks virginity, widowhood, and marriage as three roads, calling marriage good and the most travelled but the longest way to the saints."
+  means: "Ambrose ranks virginity, widowhood, and marriage as three roads, calling marriage good and the most traveled but the longest way to the saints."
   not_for:
     - "a claim that Ambrose condemns marriage"
     - "a claim that Ambrose treats marriage as equal to virginity or widowhood"

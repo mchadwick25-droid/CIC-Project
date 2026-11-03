@@ -31,11 +31,11 @@ modern_rendering: >-
 speaker_or_author: Eusebius of Caesarea, Life of Constantine
 license: verbatim
 modern_lens_note: >-
-  The emperor who summoned Nicaea was not baptised until he was dying, and on this account had not been so much as a catechumen before. Deferring baptism was common and rational in a world that treated post-baptismal sin as very hard to undo - it is not hypocrisy, and reading it as such misses what baptism was thought to do.
+  The emperor who summoned Nicaea was not baptized until he was dying, and on this account had not been so much as a catechumen before. Deferring baptism was common and rational in a world that treated post-baptismal sin as very hard to undo - it is not hypocrisy, and reading it as such misses what baptism was thought to do.
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks when people here were baptised, or whether babies were"
+  - "participant asks when people here were baptized, or whether babies were"
   - "participant asks whether the emperors were really Christians"
   - "participant asks what baptism did for a person in this world"
 relations:
