@@ -36,7 +36,7 @@ RECORD_FIELDS = {
     "probe_id", "cell", "arm", "world", "error", "passed", "checks", "answer_text", "raw_text", "citations", "citation_entries",
     "offered_record_ids", "usage", "seconds_to_first_text", "seconds_total", "stop_reason", "attempts", "priced_usd",
     "priced_includes_failed_holds", "voice_model_id", "voice_max_tokens", "region", "package_manifest_hash", "repo_commit",
-    "additions_chars", "evidence_chars", "evidence_chars_flag_off", "whole_world_signal",
+    "additions_chars", "evidence_chars", "evidence_chars_flag_off", "whole_world_signal", "reading_additions",
 }
 SETTINGS_FIELDS = {
     "voice_model_id", "voice_max_tokens", "a_voice_max_tokens", "voice_temperature", "region", "package_manifest_hash",
@@ -219,6 +219,10 @@ def test_arm_b_records_the_reading_directory_its_hash_and_the_signal(tmp_path):
     for record in _records(tmp_path / "run.jsonl"):
         assert record["whole_world_signal"] == {"count": 0, "sentences": []}
         assert record["additions_chars"] > 0
+        additions = record["reading_additions"]
+        assert additions["renderings"] > 0 and additions["reads_differently_today"] > 0
+        assert additions["chars"] == record["additions_chars"]
+        assert all(set(w) == {"record_id", "file", "lines", "trimmed"} for w in additions["context_windows"])
 
 
 def test_a_max_tokens_other_than_a_s_is_refused_unless_allowed(tmp_path):

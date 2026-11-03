@@ -130,6 +130,20 @@ def test_a_quote_with_no_card_shows_its_rendering_and_its_lens_note(on, records)
     assert "  Reads differently today: It meant more then." in block.splitlines()
 
 
+def test_a_lens_note_is_kept_with_the_renderings_when_the_cap_drops_card_lines(on, records, monkeypatch):
+    quotes = [rid for rid, r in records.items() if r["record_type"] == "quote"][:3]
+    reading = {quotes[0]: {"reading_card": None, "modern_lens_note": "It meant more then."},
+               quotes[1]: {"reading_card": SINGLE_CARD, "modern_lens_note": "Not shown."}}
+    monkeypatch.setattr(reading_context, "ADDITIONS_CAP", 1)
+    plan = reading_context.plan_additions(_evidence_for(records, quotes)["candidates"], records, reading)
+    assert not plan.cards and not plan.context
+    assert plan.today == {quotes[0]: "  Reads differently today: It meant more then.",
+                          quotes[1]: "  Reads differently today: Today the word sign sounds weaker than he meant."}
+    summary = plan.summary()
+    assert summary["renderings"] == 3 and summary["reads_differently_today"] == 2 and summary["card_lines"] == 0
+    assert summary["chars"] == plan.chars()
+
+
 def test_a_card_gives_its_lines_and_its_reads_differently_today_over_the_lens_note(on, records):
     quote = _quote(records)
     reading = {quote["id"]: {"reading_card": SINGLE_CARD, "modern_lens_note": "The lens note."}}
@@ -174,7 +188,8 @@ def test_the_cap_holds_dropping_context_first_then_cards_and_keeping_renderings(
     fewer_cards = plan(full.chars() - context_chars - 1)
     assert not fewer_cards.context and list(fewer_cards.cards) == quotes[:-1]
     bare = plan(1)
-    assert not bare.context and not bare.cards and list(bare.renderings) == quotes
+    assert not bare.context and not bare.cards and list(bare.renderings) == quotes and list(bare.today) == quotes
+    assert all(line == "  Reads differently today: Today the word sign sounds weaker than he meant." for line in bare.today.values())
 
     full = plan(8000)
     assert not full.context and 0 < len(full.cards) < len(quotes) and list(full.cards) == quotes[:len(full.cards)]
@@ -226,3 +241,19 @@ def test_the_signal_counts_a_whole_world_sentence_bound_only_to_single_author_ca
     signal = reading_context.whole_world_signal(entries, reading)
     assert signal == {"count": 1, "sentences": ["We held that the rite is the sign."]}
     assert entries == before
+
+
+@pytest.mark.parametrize("view, single", [
+    ("Origen's own case, made outside Alexandria; it is not automatically the community's.", True),
+    ("A bishop's ruling for all Egypt: the line he drew, not what every congregation read.", True),
+    ("One gifted pupil's praise, at Caesarea, not the ordinary student's experience.", True),
+    ("Only Dionysius's side survives; Nepos's book is lost.", True),
+    ("Origen argues against literal readers in his own church.", True),
+    ("Athanasius's wording, but the hope runs through all three main literate authors.", False),
+    ("Clement's rhetoric for outsiders. The Logos centre is shared, but only the literate attest it.", False),
+    ("A later Alexandrian church headnote, not Athanasius's own words.", False),
+    ("A bishop deferring to his people's esteem, against earlier critics.", False),
+    ("Remembered by others, not in her words; one of few named women here.", False),
+])
+def test_the_single_author_marks_read_whose_view_prose(view, single):
+    assert reading_context.single_author({"reading_card": {"whose_view": view}}) is single

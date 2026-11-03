@@ -53,3 +53,84 @@ def test_an_unresolvable_record_gets_no_window(tmp_path):
     _fixture(tmp_path)
     assert source_windows.context_blocks(_record("story", locus="the whole text", text=""), {SOURCE["id"]: SOURCE}, tmp_path) == []
     assert source_windows.context_blocks(_record(), {}, tmp_path) == []
+
+
+HISTORY = "xyz02_fixture-history.xml"
+HISTORY_SOURCE = {"id": "w.source.hist", "record_type": "source", "author": "Fixturius of Nowhere",
+                  "work": "Church History - a fixture", "edition": f"Fixture, vendored as cic/texts/{HISTORY}"}
+
+
+def _history(tmp_path, chapter_words=300):
+    body = " ".join(["word"] * chapter_words)
+    lines = ['<div1 title="Preface." id="i">', '<div2 type="Chapter" n="VI" title="Chapter VI.—A preface chapter" id="i.i">',
+             "<p>preface six</p>", "</div2>", "</div1>",
+             '<div1 title="The Church History of Fixturius." id="ii">']
+    for book in ("V", "VI"):
+        lines.append(f'<div2 type="Book" n="{book}" title="Book {book}" id="ii.{book.lower()}">')
+        for chapter in ("I", "II", "III"):
+            if chapter == "I":
+                lines.append(f'<div3 type="Chapter" n="I" title="First of book {book}." id="ii.{book.lower()}.i">')
+            else:
+                lines.append(f'<div3 type="Chapter" title="Untitled." id="ii.{book.lower()}.{chapter.lower()}">')
+            lines += [f"<p>Chapter {chapter}.— Book {book} chapter {chapter} opens.</p>", f"<p>{body}</p>", "</div3>"]
+        lines.append("</div2>")
+    lines.append("</div1>")
+    path = tmp_path / "cic" / "texts" / HISTORY
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def _story(locus, source=HISTORY_SOURCE):
+    return {"id": "w.story.s", "record_type": "story", "sources": [{"source_id": source["id"], "locus": locus}]}
+
+
+def test_a_book_and_chapter_reference_resolves_inside_the_work_by_n_or_by_the_division_s_own_heading(tmp_path):
+    _history(tmp_path)
+    records = {HISTORY_SOURCE["id"]: HISTORY_SOURCE}
+    (block,) = source_windows.context_blocks(_story("VI.1-2 (the gloss)"), records, tmp_path)
+    assert block["text"].startswith("Chapter I.— Book VI chapter I opens.")
+    assert block["trimmed"] is True and len(block["text"].split()) == fit_step.CONTEXT_MAX_WORDS
+    (block,) = source_windows.context_blocks(_story("VI.3"), records, tmp_path)
+    assert block["text"].startswith("Chapter III.— Book VI chapter III opens.") and block["trimmed"] is False
+
+
+def test_a_number_the_work_does_not_hold_resolves_nothing(tmp_path):
+    _history(tmp_path)
+    records = {HISTORY_SOURCE["id"]: HISTORY_SOURCE}
+    assert source_windows.context_blocks(_story("VI.96-97"), records, tmp_path) == []
+    assert source_windows.context_blocks(_story("the year-513 entry"), records, tmp_path) == []
+
+
+def test_a_chap_heading_inside_a_division_and_a_named_letter_resolve(tmp_path):
+    lines = ['<div1 title="Letters" id="v">', '<div2 title="The Epistle to the Magnesians" id="v.i">',
+             '<div3 id="v.i.vi" n="vi" title="Chapter VI.—Preserve harmony.">', "<p>Harmony text.</p>", "</div3>", "</div2>",
+             '<div2 title="Vision Second." id="v.ii">', "<h5>Chap. I.</h5>", "<p>first part</p>", "<h5>Chap. II.</h5>",
+             "<p>second part</p>", "</div2>", "</div1>"]
+    path = tmp_path / "cic" / "texts" / NAME
+    path.parent.mkdir(parents=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+    source = {**SOURCE, "edition": f"vendored as cic/texts/{NAME} (div1 v)"}
+    records = {source["id"]: source}
+    (block,) = source_windows.context_blocks(_story("Magnesians 6; Smyrnaeans 8", source), records, tmp_path)
+    assert block["text"] == "Harmony text." and block["lines"] == "3-5"
+    (block,) = source_windows.context_blocks(_story("Vision 2.2.3", source), records, tmp_path)
+    assert block["text"] == "Chap. II. second part"
+
+
+def test_a_plain_text_chapter_heading_skips_the_table_of_contents(tmp_path):
+    name = "xyz03_plain.txt"
+    lines = ["CHAPTER XL -- EPHRAIM", "CHAPTER XLI -- WOMEN", ""] + ["filler " * 10] * 3 + [
+        "CHAPTER XL. -- EPHRAIM", "You must have heard of Ephraim. " + "word " * 80, "CHAPTER XLI -- WOMEN", "other"]
+    path = tmp_path / "cic" / "texts" / name
+    path.parent.mkdir(parents=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+    source = {"id": "w.source.p", "record_type": "source", "edition": f"vendored as cic/texts/{name}"}
+    (block,) = source_windows.context_blocks(_story("ch. XL, the chapter", source), {source["id"]: source}, tmp_path)
+    assert block["text"].startswith("CHAPTER XL. -- EPHRAIM You must have heard") and "other" not in block["text"]
+
+
+def test_numbers_read_as_roman_arabic_and_ordinal():
+    assert [source_windows.number(t) for t in ("VI", "lviij", "44", "Second", "XXVI", "x1")] == [6, 58, 44, 2, 26, None]
+    assert source_windows.pieces("VI.8, VI.23-26 (HIGH-risk)") == [(None, [6, 8], None), (None, [6, 23], 26)]
+    assert source_windows.pieces("1:1-2; 2:1-4:14 (gloss)")[0] == (None, [1], None)
+    assert source_windows.pieces("Book I, ch. lviij - the opening")[0] == ("Book", [1, 58], None)

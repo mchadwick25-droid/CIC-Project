@@ -19,7 +19,10 @@ read from --reading-records-dir, to render_evidence_block. Arm b is refused
 for the world, or when render_evidence_block takes no `world` and `reading`.
 The world's records and package are A's; only the cards and lens notes come
 from the named directory. Each arm b record carries whole_world_signal
-(engine.m4.reading_context.whole_world_signal), reported only.
+(engine.m4.reading_context.whole_world_signal), reported only, and
+reading_additions: the counts of renderings, "Reads differently today" lines
+and card lines added, and each context window kept, with whether it was
+trimmed.
 
 Every paid setting is named on the command: --model-id, --region,
 --max-tokens. --max-tokens must equal the admission run's 2048 unless
@@ -72,7 +75,7 @@ from engine.m4 import evidence as m4_evidence
 from engine.m4.generation import stream_voice_turn
 from engine.m4.quote_placement import PlacementContext
 from engine.m4.reading_cards import load_reading_context
-from engine.m4.reading_context import whole_world_signal
+from engine.m4.reading_context import plan_additions, whole_world_signal
 from engine.m4.story_placement import with_placeable_stories
 from engine.m4.turn import apply_net
 from engine.m4.world_loader import LazyWorldLoader
@@ -259,15 +262,18 @@ class V7Answerer:
         if self.world.frame.get("story_placement"):
             turn_evidence = with_placeable_stories(turn_evidence, self.repository_records)
         if not turn_evidence["candidates"]:
-            return {"turn_evidence": turn_evidence, "user_message": probe_text, "evidence_chars": 0, "evidence_chars_flag_off": 0}
+            return {"turn_evidence": turn_evidence, "user_message": probe_text, "evidence_chars": 0, "evidence_chars_flag_off": 0,
+                    "reading_additions": None}
+        additions = None
         if self.reading_context:
             block = m4_evidence.render_evidence_block(turn_evidence, world=self.world, reading=self.reading)
             block_off = m4_evidence.render_evidence_block(turn_evidence, world=_flag_off(self.world), reading=self.reading)
+            additions = plan_additions(turn_evidence["candidates"], self.repository_records, self.reading or {}).summary()
         else:
             block = block_off = m4_evidence.render_evidence_block(turn_evidence)
         return {
             "turn_evidence": turn_evidence, "user_message": f"{block}\n{probe_text}",
-            "evidence_chars": len(block), "evidence_chars_flag_off": len(block_off),
+            "evidence_chars": len(block), "evidence_chars_flag_off": len(block_off), "reading_additions": additions,
         }
 
     def answer(self, probe_text: str) -> dict:
@@ -277,6 +283,7 @@ class V7Answerer:
             "offered_record_ids": [c["id"] for c in turn_evidence["candidates"]],
             "evidence_chars": prepared["evidence_chars"],
             "evidence_chars_flag_off": prepared["evidence_chars_flag_off"],
+            "reading_additions": prepared["reading_additions"],
         }
         first_call = len(self.client.calls)
         for _attempt in range(VOICE_CALL_ATTEMPTS):
@@ -438,6 +445,7 @@ def _record(*, seal: dict, args, settings: dict, answer: dict, priced_usd: float
         "evidence_chars": answer["evidence_chars"],
         "evidence_chars_flag_off": answer["evidence_chars_flag_off"],
         "whole_world_signal": answer.get("whole_world_signal"),
+        "reading_additions": answer.get("reading_additions"),
     }
 
 
