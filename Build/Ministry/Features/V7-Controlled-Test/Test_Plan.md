@@ -84,7 +84,10 @@ That spread is reported as an indication only, labelled "older engine". A's own 
 
 B changes what each offered item carries. It does not change which items are offered.
 
-1. **Same records.** Evidence selection is unchanged. With the same question, B offers the same record ids as A did. A's `request` field in the run files holds the offered set, and a test checks against it.
+1. **Same records.** Evidence selection is unchanged. With the same question, B is offered the same record ids A was.
+   - The run files did not save the offered set: the `request` field holds only the model and max tokens (V1, `Set/README.md`).
+   - So the offered set is rebuilt with no model call. Evidence assembly is replayed for each probe at A's run commits. Their engine, records and packages are identical to the `live` tree.
+   - On the test branch, with the switch off, B's user message must equal that rebuilt message, and a test checks this.
 2. **The quote in view.** Each offered quote also shows its reviewed modern rendering. Today the voice sees only the speaker and gist (`engine/m4/evidence.py:1518-1539`). Code still places the quote in the answer.
 3. **The surrounding text, for the top two items.** For the two highest-ranked offered quotes or stories, B adds the context window from `engine/m4/fit_step.py`: the cited lines plus up to 450 words around them. Context ids cannot be cited, so the voice cites the record.
 4. **The modern-lens note.** Every quote in the three worlds has one: alx 26 of 26, pahc 25 of 25, syr 34 of 34. It is stripped at compile (`engine/m2/builders.py:719`). B shows it as "Reads differently today". The test loader reads it from the record, so the package stays byte-equal.
@@ -156,11 +159,26 @@ How the 28 probes per world bear on Mark's nine cases:
 
 ## 6. Readers and human review
 
-**Model readers**
-- Both A's and B's answers are scored fresh, by the same readers, on all ten dimensions in `Rubric.md`.
-- Two blind, independent `judge-reader` helpers read each answer. Answers are shuffled with a seed written in advance, and arm labels are hidden.
-- Agreement between the two readers is reported per dimension.
-- Reading draws on the weekly allowance, not metered spend.
+**Model readers: a thorough Opus review of every answer** (Mark asked for "a very thorough opus review")
+- **Who reads.** Two independent Opus readers read each answer, at the highest effort. They are in-plan subagents, so this costs allowance, not metered spend.
+- **What they read.** Every answer in both arms, with no sampling: 84 A answers, 84 B answers and 42 B repeats, 210 in all.
+- **Blinding.** Answers are shuffled with a seed written in advance, and no arm label is shown.
+- **What each reader is given:**
+  - the question and the whole answer;
+  - every cited record, with its reading card where one exists. The card is marked as project-authored, not as authority, so readers check it against the source too.
+  - the source passage with its surrounding division;
+  - the world's lexicon risk flags.
+- **The October review is held back.** The October review of an A answer is shown to the readers only after their scores are filed.
+- **Scoring.** All ten dimensions. Every error is bound to the exact words of the answer and of the source that show it, with its type, severity and confidence.
+- **Adjudication.** A third Opus pass rules on every item where the two readers give any dimension different scores, or disagree on whether an error is present, and on every tier 1 or tier 2 finding.
+- **Seeded checks first.** At least 10 known defects are planted in copies of real answers, covering:
+  - an accurate quote with a wrong frame;
+  - one author generalized to the community;
+  - a modern assumption projected back;
+  - an unsupported inference.
+
+  The seeded copies are shuffled in among the rest. The readers' catch rate on them is reported, and their scores count only if they catch at least 9 of every 10 (**Assumption**: the line is set here, before the run).
+- **Agreement** between the two readers is reported per dimension.
 
 **The October reviews of A are reported beside the fresh scores, not mixed in**
 - **Why they are not reused as A's scores.** They used a different rubric (rigor; readable, understandable and succinct; ship, fix or block) and different readers. Scoring A with old readers and B with new ones would tie the reader to the arm. CP.9's corrections showed that one-reader ratings "cannot be compared between runs" (`../Answering-From-Sources/CP9-Retest_2026-11-02/README.md`, Corrections).
@@ -168,20 +186,23 @@ How the 28 probes per world bear on Mark's nine cases:
   - As a check on the fresh readers: on A, do the fresh scores for dimensions 1–3 and 10 agree with the October rigor and access grades?
   - As a list of known A errors, from the second-pass and outside-referee findings. The report says, for each one, whether B repeats it.
 
-**Human historical review**
-- **No independent human historian is available to this project today.**
+**Human historical review: Mark's own reading**
+- Mark chose, 2026-11-03: "I will review myself". So the human review is the project lead's, not an independent historian's, and the decision report says so plainly.
+- **The page.** Mark reads the 72-answer sample on an Artifact page built after the run, not on a file in the repository:
+  - one answer at a time, with the arm hidden;
+  - the question, the answer, the cited records, and the source lines in context;
+  - short, plain guidance on what to look for: the error types and severity tiers from `Rubric.md`, in non-specialist words.
+- **What he records**, per answer: error yes or no, type, severity, how sure he is, and a note. His entries are saved by the page and read back for the report.
+- **Length.** Each answer is kept short to read. The 12-hour estimate is the figure to beat.
+- **Why there is no independent historian:**
   - None is named in the repository, and every label so far is a model's (`../Answering-From-Sources/Decision-Log.md` entry 17).
   - The only reviewer brief is a draft (`Build/Ministry/Scholarly-Review/CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx`).
   - The fleet run's external-reviewer packets were prepared (`analysis-2026-10-29/external-reviewer-packets/`), but no human review of them is on record.
 - **The sample.**
   - 12 questions per world, the same 12 in both arms, so 72 answers.
-  - Each comes with a source packet: the question, the answer, the cited records, and the source lines with their context.
-  - About 10 minutes per answer, about 12 hours in all (**Assumption**).
-  - Reviewers record errors: the count, severity tier, type, and how sure they are.
-- **What Mark can do, in order of strength:**
-  1. Recruit one or two patristics scholars, paid or volunteer. Any fee is outside the $12 model cap and is Mark's decision.
-  2. Ask an existing seminary or university contact.
-  3. If neither happens before the decision report, the report says plainly that it has no human historical review, and reports serious-error rates as unknown.
+  - Each answer is shown on the review page with the question, the cited records, and the source lines with their context.
+  - Mark's estimate is about 12 hours, and the page is built to beat it.
+- **Later.** An independent scholar can still read the same sample later. The page and packets are built so that can happen without rework.
 - **What the sample can show.** It can find problems. It cannot show that serious errors are gone.
 
 ## 7. The paid run and its cap
@@ -232,7 +253,7 @@ Mark's eight questions (his response, §8), with verified findings, assumptions 
 4. Is the experience better for an ordinary user?
 5. What errors remain?
 6. What are the actual cost and latency?
-7. What did human reviewers find that automation missed?
+7. What did Mark's own review find that automation missed?
 8. What is the smallest next change the evidence justifies?
 
 **Success rules for B**, written before the run:
