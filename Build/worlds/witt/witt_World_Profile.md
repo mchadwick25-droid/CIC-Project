@@ -150,7 +150,7 @@ All thirteen gravities below are strand-singular (Doc_01 §6, confirmed on evide
 
 **Gravity type:** Supporting (within G3)
 
-**Confidence:** Documented for the doctrine; the organizing role assigned to it as this world's boundary against the Reformed cities is **untagged**, resting on the census and sibling worlds' own Step 0 documents rather than on any vendored source, pending acquisition of the Marburg Articles [R56]
+**Confidence:** Documented for the doctrine; the organizing role assigned to it as this world's boundary against the Reformed cities is **untagged**, resting on the census and sibling worlds' own Step 0 documents rather than on any vendored source, pending acquisition of the Marburg Articles [Registry R56]
 
 **Cross-strand status:** World is strand-singular; spread 3/4; reception: the founder's own claim about "the common people's" simple faith
 
