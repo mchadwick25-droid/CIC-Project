@@ -589,7 +589,13 @@ def prepare_voice_turn_inputs(
         rhythm = replace(rhythm, figures_asked=frozenset(f["id"] for f in asked))
     sub_question = directive.sub_question if directive and world.frame.get("subquestion_routing") else None
     passage_config = world.frame.get("passage_offer")
-    offered_passages = passage_offer.select(passage_config["offer"], sub_question, passage_config["budget"]) if passage_config and sub_question else []
+    search_config = world.frame.get("passage_search")
+    passage_search = passage_offer.SearchRequest(
+        shelf=search_config["shelf"], query=participant_message,
+        seeds=tuple(passage_offer.seeds_on_shelf(passage_config["offer"] if passage_config else None, search_config["shelf"], sub_question)),
+        budget=search_config.get("budget") or passage_offer.Budget(), sub_question=sub_question,
+    ) if search_config else None
+    offered_passages = passage_offer.select(passage_config["offer"], sub_question, passage_config["budget"]) if passage_config and sub_question and not passage_search else []
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,
@@ -606,9 +612,12 @@ def prepare_voice_turn_inputs(
         words_asked=quote_asked,
         sub_question=sub_question,
         passage_candidates=passage_offer.candidates(offered_passages, sub_question) if offered_passages else None,
+        passage_search=passage_search,
     )
     if offered_passages:
         repository_records = {**repository_records, **passage_offer.records_by_id(offered_passages)}
+    if passage_search:
+        repository_records = {**repository_records, **passage_offer.offered_records(turn_evidence["candidates"])}
     if world.frame.get("story_placement"):
         turn_evidence = with_placeable_stories(turn_evidence, repository_records)
     if world.frame.get("context_blocks"):
