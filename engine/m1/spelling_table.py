@@ -49,7 +49,9 @@ for _stem in ("anal", "paral", "catal"):
         TABLE[_stem + _b] = _stem + _a
 
 # -re -> -er
-_family(("cent", "epicent"), "re", "er", ("", "s", "d"))
+_family(("cent", "epicent"), "re", "er", ("", "s"))
+TABLE["centred"] = "centered"
+TABLE["epicentred"] = "epicentered"
 TABLE["centring"] = "centering"
 _family(("theat", "met", "lit", "fib", "calib", "somb", "lust", "meag", "spect", "sab", "kilomet", "millimet", "centimet"),
         "re", "er", ("", "s"))

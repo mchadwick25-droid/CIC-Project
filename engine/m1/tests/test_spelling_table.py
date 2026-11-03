@@ -23,3 +23,9 @@ def test_normalize_is_idempotent_and_leaves_american_text_alone():
 def test_american_gives_the_flagged_words_replacement():
     assert st.american("Saviours") == "Saviors"
     assert st.american("TRAVELLED") == "TRAVELED"
+
+
+def test_centred_forms_convert_to_correctly_spelled_american():
+    assert st.american("centred") == "centered"
+    assert st.american("epicentred") == "epicentered"
+    assert st.normalize("a centred view") == st.normalize("a centered view")
