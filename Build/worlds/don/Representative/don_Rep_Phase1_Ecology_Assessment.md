@@ -2,7 +2,7 @@
 ## Donatism Formation World — Representative "Fidelis"
 
 **Produced at:** Step 10, Phase One (Representative Construction Framework L3C V3.2, Part Three).
-**Representative identity (decided by the project lead, 2026-09-07; name and role-label refined 2026-09-08):** **Fidelis** — a bishop of the Donatist communion, a constructed name paired with an authentic role-label, not a documented office-holder. See `don_Representative_Identity_Options.md` §4 (Decision Record) for the full reasoning already established: this role sits closest to where this world's own evidentiary record concentrates and can voice all four Primary gravities from lived clerical experience, at the cost of standing furthest from this world's own numerically dominant lay base.
+**Representative identity:** **Fidelis** — a bishop of the Donatist communion, a constructed name paired with an authentic role-label, not a documented office-holder. See `don_Representative_Identity_Options.md` §4 (Decision Record) for the full reasoning: this role sits closest to where this world's own evidentiary record concentrates and can voice all four Primary gravities from lived clerical experience, at the cost of standing furthest from this world's own numerically dominant lay base.
 **Grounded in:** Doc_01–Doc_09, `don_World_Profile.md`, and `don_Validation_Layer.md` (all Approved to proceed). Doc_08 (Forces) informs the Thinness Mapping below, per Framework V3.2 Part Nine's own explicit requirement.
 **Status:** **Approved to proceed**, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies — the one identity decision this phase depends on was already escalated to and made by the project lead, per `don_Representative_Identity_Options.md`).
 

@@ -1013,3 +1013,11 @@ Also open: `cappadocian_Source_Registry.md` rows 16, 32, 36, 37, 43, 51, 53, 61,
 Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-40-06Z`. The M9 `emic-vendored-only/cappadocian` waiver was tightened from 73 to 43, because 30 findings cleared once their sources were marked held; no waiver was raised. Checks run: `records`, `regate`, determinism, the staleness check and the M9 check.
 
 Status: OPEN for the four rows, the quotation candidates and the registry rows. CLOSED for the 12 updated source records and OG-57.
+
+### OG-59. Open points removed from cappadocian documents by the live-surface cleanup, 2026-11-03.
+
+1. `Cappadocian_Final_Report.md`, line 46, finding F17, removed from the line (the rest stays): "the female-voice decision flagged for the project lead with a sharper edge than Early Latin's - this world is currently the best-evidenced site in the world-set for a future female-anchored voice."
+2. `cappadocian_Doc_06_Full_Lexicon.md`, line 196: chunk lex003 (koinonia) does not match this document's front matter (tracked at OG-15 above); and the Doc_02 rework into V7.4 Source Registry rows is still pending, those ids being the registry rows' designated ancestors.
+3. `cappadocian_Representative_Identity_Options.md`, line 36: the build's quotation of the comparative note ended with "flagged for the project lead with that comparative note." The open question itself, Option 2 (a female-anchored second voice, "live, evidenced, and explicitly not-closed"), stays in the document.
+
+Status: OPEN. Owner: this world's thread.
