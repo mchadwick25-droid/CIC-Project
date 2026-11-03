@@ -1954,3 +1954,23 @@ Mark, 2026-11-03: "make sure what exists is clean and not in program notes, ever
 - `Sandbox/README.md`: removed "(decided 2026-09-26)" after the pure-code rule.
 
 Left alone as false positives, not edited: `engine/m2/validation.py` line 65 (era-gate matched "the freeze", the name of a sign-off touchpoint inside a runtime string that is written into each package's signoffs.json; rewording it would change compiled output to satisfy the scanner. An edit to it was tried and reverted after review); `engine/BASELINES.md` lines 10, 14, 17 and 22 (dates inside baseline branch and tag names, and the date of a historical run); `Sandbox/.../constructed.py` line 3 ("known defect" in a design description); the variable name `todo` in `runner.py` and `index/generate.py`; the salt constants in `cues.py` and `seeds.py` (changing them changes the draws); test-data dates in `test_goldset.py`.
+
+## Entry — CL2, records (2026-11-03)
+
+Scope as merged: the nine force records whose edited fields clear the readability gate. The records now state the world's own content; the bracketed matrix-cell codes, which `matrix_cell` and `kind` already carry, are removed. Mark's 2026-11-03 direction is quoted in the CL1 entry.
+
+`witt` (`records/witt/force/witt.force.*`), names: removed the bracketed cell codes from `friars-conviction` [1B - initiating/internal], `imperial-force-ongoing` [2A - ongoing/external], `internal-radical-force` [2B - ongoing/internal], `laitys-need-for-assurance` [1B - initiating/internal], `papal-force-initiating` [1A - initiating/external], `papal-force-ongoing` [2A - ongoing/external], `print-turned-inward` [2B - ongoing/internal] and `transmission-within-the-worlds-life` [2B - ongoing/internal]. All eight keep `matrix_cell` and `kind`, and the removed code equals them in every record (checked in review).
+
+`desert` (`records/desert/force/desert.force.evagrian-intensification.md`), name: removed "[2B - ongoing/internal]"; "within Strand C" now reads "within the semi-anchoritic strand", which is the desert records' own definition of Strand C (Nitria, Kellia, Scetis).
+
+Packages rebuilt and repointed in `records/worlds/witt.yaml` and `records/worlds/desert.yaml`; the two old pinned `manifest.json` files are retired.
+
+Blocked, not done: the readability gate (`regate`) grades any edited public-facing field against FK grade 10 and FRE 60, even where the field already failed before the edit. These fields carry the remaining provenance and all fail by a wide margin, so removing the citation from them fails CI until the whole field is rewritten for reading level, which is voice work and not part of this cleanup. Attempted in the first version of this PR and reverted, with CI's "World gates (records, regate)" failing on exactly these fields (FK grade in brackets):
+- `cappadocian`: `capitals-gravity` (20.4), `famine-crisis` (14.3), `imperial-church-arrival` (18.7), `network-strains` (15.1), `plateau-itself` (16.8), `policy-oscillation` (19.9) and `theodosian-settlement` (19.6) descriptions. Citations to remove: "Doc_08 Cell/Force", "Doc_06 §", "Doc_07", "Doc_02 §8", "Doc_05 §8".
+- `desert`: `origenist-controversy` description (26.7) and name (the bracketed "[3A - ending/external]" and "Strand C").
+- `rzg`: `no-internal-fracture` (11.5) and `transmission-author-gravity-genre-asymmetries` (18.5) descriptions. The Opus review of that attempt also showed that "Confidence/Gravity Cross-Check divergence" means G1's split between its core conviction and its systematized form; any later rewording must keep that meaning.
+
+Left alone as false positives or not decidable without inventing content:
+- `records/ijc/force/ijc.force.leo-rejects-canon-28.md` name: "Strand A/B Fracture [3B - ending/internal]". No definition of ijc's strands exists in the records to rewrite from.
+- `records/pahc/world_core/pahc.core.house-church.md` line 69: "Strand A use". Same reason.
+- `records/desert/force/desert.force.melitian-rivalry.md` `divergence_note`: "unresolved" belongs to a scholarly Inferential-Thin statement and is content, not an open item.

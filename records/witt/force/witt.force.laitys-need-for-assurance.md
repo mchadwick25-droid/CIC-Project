@@ -39,7 +39,7 @@ relations:
 - type: precondition-for
   target: witt.gravity.german-for-the-people
 name: A laity taught to rely on indulgences, confession and the sacramental system for assurance -- the
-  need the world answered [1B - initiating/internal]
+  need the world answered
 kind: initiating
 matrix_cell: 1B
 description: '"The practical and pastoral problem... of a laity taught to rely on indulgences, private confession to a priest,
