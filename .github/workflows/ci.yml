@@ -382,7 +382,9 @@ jobs:
       - name: Write out the files this PR edits
         run: |
           base="$(git merge-base "origin/${{ github.base_ref }}" HEAD)"
-          git diff --name-only --diff-filter=AM "$base" HEAD | sed 's/[][*?\\]/\\&/g; s|^|/|' | git sparse-checkout add --stdin
+          { printf '/engine/__init__.py\n/engine/m1/__init__.py\n/engine/m1/spelling_table.py\n'
+            git diff --name-only --diff-filter=AM "$base" HEAD | sed 's/[][*?\\]/\\&/g; s|^|/|'
+          } | git sparse-checkout add --stdin
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
