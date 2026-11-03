@@ -10,7 +10,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
-  divergence_note: "This record is a compiled facilitator-only brief over this world's own already-rated records; the confidence of any individual claim lives in the record(s) named in that unit's own grounded_in, not in this envelope block. This block states only that the compilation itself was built by reading those records directly - migrating the curatorial substance of this world's own approved Phase Six Facilitator Coordination draft (`worlds/syr/Syriac_Phase6_Facilitator_Coordination_DRAFT.md`) into this schema, but re-grounded field by field in real M1 records under `records/syr/`, never in that document's own Doc_0X/Phase-N citations, which the compiler cannot resolve."
+  divergence_note: "This record is a compiled facilitator-only brief over this world's own already-rated records; the confidence of any individual claim lives in the record(s) named in that unit's own grounded_in, not in this envelope block. This block states only that the compilation itself was built by reading those records directly - migrating the curatorial substance of this world's own approved Phase Six Facilitator Coordination draft (`Build/worlds/syr/Review-Artifacts/Syriac_Phase6_Facilitator_Coordination_DRAFT.md`) into this schema, but re-grounded field by field in real M1 records under `records/syr/`, never in that document's own Doc_0X/Phase-N citations, which the compiler cannot resolve."
 audience: facilitator
 world_identity:
   text: >-

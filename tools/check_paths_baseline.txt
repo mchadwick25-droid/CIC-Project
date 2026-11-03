@@ -400,7 +400,6 @@ Build/worlds/latap/Review-Artifacts/Step0_Round3_Review.md: cic/corpus-map/tertu
 Build/worlds/latap/Review-Artifacts/Step0_Round4_Review.md: cic/corpus-map/tertullian-s-voice.yaml
 Build/worlds/latap/Step0_Movement_Scope_Confirmation.md: cic/corpus-map/tertullian-s-voice.yaml
 Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
-Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md
 Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: worlds/history
 Build/worlds/lpc/Doc_06_Full_Lexicon_Development.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Doc_07_Integrated_Ecology_Analysis.md: L4-Templates/Integrated_Ecology_Analysis_Template.md
@@ -425,7 +424,6 @@ Build/worlds/lpc/Lexicon-Chunks/lpclex017_libelli.md: L4-Templates/Deployment_Le
 Build/worlds/lpc/Lexicon-Chunks/lpclex018_libellatici-sacrificati.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md: L4-Templates/Deployment_Lexicon_Chunk_Template.md
 Build/worlds/lpc/Open_Gaps_Tracking.md: Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md
-Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc/2026-10-26T18-33-28Z
 Build/worlds/lpc/Open_Gaps_Tracking.md: packages/lpc/2026-10-28T02-55-50Z
 Build/worlds/lpc/Representative/lpc_Rep_Phase6_Facilitator_Coordination_Round1.md: L4-Templates/World_Facilitation_Brief_Template.md
@@ -512,7 +510,6 @@ Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: World-Builds/Latin-Pas
 Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: cic/corpus-map/tertullian-s-voice.yaml
-Build/worlds/lpc/Review-Artifacts/Doc02_Round1_Review.md: records/lpc/search_record
 Build/worlds/lpc/Review-Artifacts/Doc02_Round20_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round21_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md
 Build/worlds/lpc/Review-Artifacts/Doc02_Round22_Review.md: Archive/MSN
@@ -677,7 +674,6 @@ Build/worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-1
 Build/worlds/lpc/Review-Artifacts/Live_Validation_Review_2026-10-27.md: packages/lpc/2026-10-26T18-33-28Z
 Build/worlds/lpc/Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 Build/worlds/lpc/Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md: L1-Foundation/CiC_L1_Constitution_V2_2.docx
-Build/worlds/lpc/Review-Artifacts/OpenGapsTracking_Round1_Review.md: packages/lpc
 Build/worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Donatism
 Build/worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
 Build/worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity
@@ -704,10 +700,6 @@ Build/worlds/lpc/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Al
 Build/worlds/lpc/Review-Artifacts/WorldProfile_Round2_Review.md: World-Builds/Syriac-Christianity-Edessa-Nisibis/syr_World_Profile.md
 Build/worlds/lpc/Review-Artifacts/WorldProfile_Round4_Review_Consistency.md: records/worlds.yaml
 Build/worlds/lpc/Source_Registry.md: Archive/Microsoft
-Build/worlds/lpc/Source_Registry.md: records/lpc/search_record
-Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
-Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md
-Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.i-scorned-to-be-a-little-one.md
 Build/worlds/lpc/Step0_Movement_Scope_Confirmation.md: records/ijc/quote/ijc.quote.take-up-and-read.md
 Build/worlds/lpc/lpc_Decision_Log.md: Archive/Microsoft
@@ -721,7 +713,6 @@ Build/worlds/lpc/lpc_Decision_Log.md: Project-Reference/CiC_Governance_Standing_
 Build/worlds/lpc/lpc_Decision_Log.md: World-Builds/Donatism/scripts
 Build/worlds/lpc/lpc_Decision_Log.md: World-Builds/Latin-Pastoral-Congregational-Christianity
 Build/worlds/lpc/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
-Build/worlds/lpc/lpc_Decision_Log.md: packages/lpc
 Build/worlds/lpc/lpc_Decision_Log.md: records/worlds.yaml
 Build/worlds/lpc/lpc_World_Profile.md: L4-Templates/World_Profile_Template.md
 Build/worlds/lpc/lpc_World_Profile.md: World-Builds/Donatism/don_Decision_Log.md
@@ -739,10 +730,8 @@ Build/worlds/pahc/Review-Artifacts-Records-Build/Step5_Gravity_Round1_Review.md:
 Build/worlds/pahc/Review-Artifacts-Records-Build/Step7_ContestedClaims_HonestLimits_Round1_Review.md: records/fix/honest_limit/fix.limit.f2-e-scholarly-scrutiny.md
 Build/worlds/pahc/Review-Artifacts-Records-Build/Step7_ContestedClaims_HonestLimits_Round1_Review.md: records/pahc/honest_limit/pahc.limit.f5-e-material-remains.md
 Build/worlds/pahc/Review-Artifacts-Records-Build/Step9_Stories_Round1_Review.md: cic/texts/anf01...ch
-Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md: World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_Representative_Construction_Notes_Renatus.md
-Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md: records/WORLDS_REGISTRY_LOG.md
-Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md: records/WORLDS_REGISTRY_LOG.md
-Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md: World-Builds/Imperial-Juridical-Christianity/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md
+Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md: records/WORLDS_REGISTRY_LOG.md
+Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md: World-Builds/Imperial-Juridical-Christianity/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md
 Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Imperial-Juridical-Christianity
 Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Lutheran-Wittenberg/Step0_Movement_Scope_Confirmation.md
 Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Reformed-Zurich-and-Geneva/Open_Gaps_Tracking.md
@@ -934,20 +923,10 @@ Build/worlds/don/build/records/search_record/don.search.don-source-discovery-sat
 Build/worlds/don/build/records/search_record/don.search.don-source-discovery-saturation.md: cic-poc/backend
 Build/worlds/don/build/records/search_record/don.search.unrowed-vendored-sweep.md: World-Builds/Donatism/Source_Registry.md
 Build/worlds/don/build/records/search_record/don.search.unrowed-vendored-sweep.md: World-Builds/Donatism/donatism_B1a_B1b_Coverage_Check.md
-records/don/story/don.story.acta-purgationis-felicis.md: World-Builds/Donatism/Story-Chunks/donstory006_acta-
-records/don/story/don.story.bagai-reconciliation.md: World-Builds/Donatism/Story-Chunks/donstory008_bagai-
-records/don/story/don.story.council-of-cirta.md: World-Builds/Donatism/Story-Chunks/donstory007_council-of-
-records/don/story/don.story.gesta-apud-zenophilum.md: World-Builds/Donatism/Story-Chunks/donstory005_gesta-apud-
-records/don/story/don.story.lucilla-affair.md: World-Builds/Donatism/Story-Chunks/donstory004_lucilla-
-records/don/story/don.story.macrobius-letter.md: World-Builds/Donatism/Story-Chunks/donstory003_macrobius-
 records/don/story/don.story.passio-donati-sermon.md: World-Builds/Donatism/Story-Chunks/donstory001_passio-
-records/don/story/don.story.passio-marculi.md: World-Builds/Donatism/Story-Chunks/donstory002_passio-
-records/don/story/don.story.tyconius-condemnation.md: World-Builds/Donatism/Story-Chunks/donstory009_tyconius-
-Build/worlds/don/surface/world_front/don.front.donatism.md: records/latin-pastoral-
 records/fix/world_core/fix.core.fixture-world.md: records/worlds.yaml
 Build/worlds/gallic/surface/facilitator_brief/gallic.facilitator_brief.gallic-monastic-ascetic-christianity.md: worlds/gallic/Open_Gaps_Tracking.md
 records/gallic/voice_craft/gallic.voice.craft.md: World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_Representative_Permanent_Prompt_Renatus.txt
-Build/worlds/gallic/surface/world_front/gallic.front.gallic-monastic-ascetic-christianity.md: worlds/gallic
 Build/worlds/hal/surface/facilitator_brief/hal.facilitator_brief.hieronymian-ascetic-literary.md: worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md
 records/hal/voice_craft/hal.voice.craft.md: fleet-voice/EXEMPLAR-TRANSCRIPT.md
 records/hal/voice_craft/hal.voice.craft.md: records/worlds.yaml
@@ -959,7 +938,6 @@ records/ijc/voice_craft/ijc.voice.craft.md: records/worlds.yaml
 records/ijc/world_core/ijc.core.imperial-juridical.md: World-Builds/Imperial-Juridical-Christianity
 records/ijc/world_core/ijc.core.imperial-juridical.md: worlds/ijc/Open_Gaps_Tracking.md
 Build/worlds/ijc/surface/world_front/ijc.front.imperial-juridical.md: worlds/ijc/Open_Gaps_Tracking.md
-records/lpc/world_core/lpc.core.latin-pastoral-congregational-christianity.md: records/worlds.yaml
 records/pahc/demonstration/pahc.demo.identity-collision-womens-authority.md: World-Builds/01-Post-Apostolic-House-Church
 Build/worlds/pahc/surface/facilitator_brief/pahc.facilitator_brief.post-apostolic-house-church.md: worlds/pahc
 Build/worlds/pahc/surface/facilitator_brief/pahc.facilitator_brief.post-apostolic-house-church.md: worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md
@@ -969,12 +947,9 @@ records/pahc/voice_craft/pahc.craft.chloe-voice.md: Redesign-Spec/CiC-Program-Sp
 records/pahc/voice_craft/pahc.craft.chloe-voice.md: World-Builds/01-Post-Apostolic-House-
 records/pahc/voice_craft/pahc.craft.chloe-voice.md: World-Builds/01-Post-Apostolic-House-Church/CiC_W1_Representative
 records/pahc/world_core/pahc.core.house-church.md: records/worlds.yaml
-Build/worlds/syr/surface/facilitator_brief/syr.facilitator_brief.syriac-edessa-nisibis.md: worlds/syr/Syriac_Phase6_Facilitator_Coordination_DRAFT.md
 records/syr/voice_craft/syr.voice.craft.md: Redesign-Spec/CiC-Program-Spec.md
 records/syr/voice_craft/syr.voice.craft.md: records/worlds.yaml
 records/syr/world_core/syr.core.syriac.md: records/worlds.yaml
-records/witt/voice_craft/witt.voice.craft.md: World-Builds/Lutheran-Wittenberg/witt_Representative_Permanent_Prompt_Nikolaus.txt
-records/witt/voice_craft/witt.voice.craft.md: records/worlds.yaml
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: Archive/Ministry-Early-Days-2026-07/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx
 Build/worlds/lpc/Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md: Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md
 Build/worlds/lpc/Review-Artifacts/Doc_04_ChangeOrder_Review_Round14.md: records/worlds.yaml
@@ -986,10 +961,6 @@ Build/worlds/lpc/Review-Artifacts/Doc_08_ChangeOrder_Recheck_Round12.md: engine/
 Build/worlds/lpc/Review-Artifacts/Doc_09_ChangeOrder_Recheck_Round10.md: engine/m7/turn_readability.score_turn
 Build/worlds/lpc/Review-Artifacts/Doc_01_ChangeOrder_Recheck_Round15.md: Build/worlds/lpc/scripts/__pycache
 Build/worlds/lpc/Review-Artifacts/CO-LPC-3_Spoken_Corrections_Recheck.md: cic/texts/npnf10x
-Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md: packages/lpc
-Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Recheck_2026-10-24.md: packages/lpc
-Build/worlds/lpc/Open_Gaps_Tracking.md: cic-website/traditions/latin-pastoral-congregational-christianity.html
-Build/Ministry/Operations/Handoffs/2026-10-26_lpc-build-phase-L2-L3.md: cic-website/traditions/latin-pastoral-congregational-christianity.html
 Build/worlds/witt/Open_Gaps_Tracking.md: Build/worlds/witt/scripts/wb_witt_s21.py
 Build/worlds/witt/witt_GoLive_Adversarial_Review_Round1.md: Build/worlds/witt/scripts/wb_witt_s21.py
 Build/worlds/witt/witt_World_Profile.md: Build/worlds/witt/scripts/wb_witt_s21.py

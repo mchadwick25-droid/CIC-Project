@@ -28,9 +28,17 @@
 
 ## V9: reading
 
-- **Model readers.** V3 sends two blind `judge-reader` reads per answer: 210 answers (84 A, 84 B, 42 B repeats), 420 reads, drawing on allowance.
-- **Allowance check.** Reads are split into batches. If the weekly allowance's build half cannot carry them, they move to the next week rather than cutting a reader.
-- **Human packets.** These go to the reviewers Mark arranges. If none can be arranged, the report says so.
+- **Model readers.**
+  - Two blind Opus readers per answer, at the highest effort, run as in-plan subagents: 210 answers, 420 reads, plus the seeded copies.
+  - A third Opus pass adjudicates every item with any score or error disagreement, and every tier 1 or tier 2 finding (`../Test_Plan.md` §6).
+  - The seeded catch rate is computed first. If it is below 9 of every 10, the readers' scores do not count. The reader instructions are then fixed by change order, and the reading is redone.
+- **Allowance check.** Reads are split into batches. If the weekly allowance's build half cannot carry them, they move to the next week rather than being cut.
+- **Mark's review page.** An Artifact, not a repository file, built from V3's review data.
+  - **Layout.** One answer at a time, arm hidden: the question, the answer, the cited records, and the source lines in context.
+  - **Guidance.** Short, plain notes on the error types and severity tiers, in non-specialist words.
+  - **His record.** For each answer he can mark error yes or no, type, severity, how sure he is, and add a note.
+  - **Saving.** Entries are saved by the page's own saved state, using the artifact capabilities, and read back for the report.
+  - **Length.** Answers are kept short to read, to beat the 12-hour estimate.
 
 ## V10: decision report (Opus)
 
@@ -38,8 +46,9 @@
 - **What it holds.**
   - every count with its total;
   - the noise floor;
-  - reader agreement;
-  - the human reviewers' errors that the model readers missed;
+  - reader agreement per dimension, and the seeded catch rate;
+  - Mark's own findings, beside the Opus readers' findings for the same answers, with the errors he found that they missed and the reverse;
+  - a plain statement that the human review is the project lead's, not an independent historian's;
   - the actual cost and latency from the ledger;
   - the smallest next change the evidence justifies.
 - **Where it goes.** An Artifact for Mark, plus the filed report in this folder.

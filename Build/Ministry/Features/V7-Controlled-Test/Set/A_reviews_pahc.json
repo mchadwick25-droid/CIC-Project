@@ -1,0 +1,667 @@
+{
+  "world": "pahc",
+  "source_ref": "claude/fleet-run-1-analysis",
+  "source_commit": "4973efc8287e13ffcc775c198c1ca0f94234904d",
+  "second_pass": {
+    "file": "analysis-2026-10-29/second-pass/pahc.json",
+    "rubric_file": "analysis-2026-10-29/RUBRIC.md",
+    "world_summary": {
+      "top_rigor_problems": [
+        "Pliny misread twice (n.14, n.26): the voice treats the worship description as Pliny's mockery or as the product of torture, when pahc.witness.outsider-view says it is the believers' own testimony from apostate deponents and the torture is reported separately.",
+        "Wrong quote spliced into an answer (n.20): the Moses-older-than-Greeks quote is presented as Justin's words on regeneration, and the born-again saying is credited to 'the one who walked with Jesus'.",
+        "False denial from under-retrieval (n.13): leadership answer says the record cannot show who chose the next elder, while 1 Clement appointment quotes exist; related pattern of answering from the nearest limit record instead of the cell's substance (n.8, n.25, n.28)."
+      ],
+      "top_access_problems": [
+        "Engine-cut orphans: 'the old man's words' (n.3), 'But that argument was made' (n.13), 'Then came the water. Then came the table.' (n.20), 'That was the instruction we have ... that approval' (n.27).",
+        "Build/system language in the voice: n.10 ('two-strand frame', 'Dura-Europos', 'bibliography with confidence ratings', Bagnall) and n.16 ('ecology', 'generative problem', 'succession-arguing mode').",
+        "Pasted stock paragraphs: the how-we-know transmission block and the ordinary-majority literacy caveat recur in answers where they do not answer the question (n.3, n.9, n.21, n.23, n.27)."
+      ],
+      "cost_note": "Per-answer cost is mostly $0.014-0.027 with cache; n.1 is an outlier at $0.079 (no cache read). Output tokens are the lever: n.10 (1097 out, ~380 words beyond need) is the clear overrun; n.3, n.8, n.11, n.25, n.28 and n.5 each carry 90-110 words of off-question or repeated record text. Removing stock caveat paragraphs where the question did not touch literacy would cut roughly 15-20% of output.",
+      "go_live_view": "Close but not yet. The world's honesty discipline is its strength: limits are named plainly, out-of-window material is refused, and most answers are accurate and readable at grade 6-8. But four answers would mislead a participant, two of them on the same source (Pliny), and several answers show stitching seams where a record sentence was cut or a wrong quote was spliced in. The single most valuable fix is in assembly, not records: stop splicing quotes and record fragments into answers without checking that the quote's use_note matches the sentence that introduces it and that every pronoun/antecedent survives the cut; that one guard would clear n.20 and n.27 and the orphan problems in n.3 and n.13, and a Pliny-specific check against outsider-view's not_for would clear n.14 and n.26."
+    },
+    "by_probe": {
+      "c-i-probe-01": {
+        "n": 1,
+        "cell": "C-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Tracks pahc.witness.who-was-jesus and jesus-as-god closely; the unresolved 'how he could be God when the Father is God' is hedged as the record does.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Clear and warm; 'the eucharistia' is glossed by context. Cost $0.079 is an outlier (no cache read).",
+        "overall": "SHIP",
+        "words_beyond_need": 0
+      },
+      "c-e-probe-01": {
+        "n": 2,
+        "cell": "C-E",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Matches pahc.witness.how-we-know (chain from apostles; memoirs/prophets read in Rome) and its not_for on an unbroken chain.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Second paragraph repeats the reading point ('Those writings were read aloud when we gathered') already made.",
+        "overall": "SHIP",
+        "words_beyond_need": 40
+      },
+      "c-p-probe-01": {
+        "n": 3,
+        "cell": "C-P",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Justin's path and its limits follow pahc.witness.coming-to-belief; the record's 'old man' who spoke with him is cut, so 'the old man's words' has no antecedent.",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "POOR",
+        "craft_note": "'He turned the old man's words over' names an old man never introduced, and the middle paragraph pastes the C-E transmission answer ('None of us saw him ourselves...') which does not answer someone who cannot believe.",
+        "overall": "FIX",
+        "words_beyond_need": 100
+      },
+      "c-t-probe-01": {
+        "n": 4,
+        "cell": "C-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Claims follow jesus-as-god and god-and-argument; says almost nothing on the Spirit although records carry the triadic baptismal formula (Didache 7 via pahc.term.baptisma) - an omission, not an error.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Third paragraph on leadership and docetism fights is off the question of Father, Son and Spirit.",
+        "overall": "SHIP",
+        "words_beyond_need": 80
+      },
+      "f1-i-probe-01": {
+        "n": 5,
+        "cell": "F1-I",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Accurate to pahc.witness.god-and-argument, but the character of God gets one line ('maker of everything'); records hold more (Hermas: God 'remembers not evils, and has compassion').",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Half the answer is about what was argued (bishops, docetism, New Prophecy synods) rather than what God is like.",
+        "overall": "SHIP",
+        "words_beyond_need": 90
+      },
+      "f1-e-probe-01": {
+        "n": 6,
+        "cell": "F1-E",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Correctly denies council-settling, notes the Asia synods on the New Prophecy, and gives 1 Clement with the record's absent_detail (Corinth's reply lost).",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Answers both halves of the question in plain words.",
+        "overall": "SHIP",
+        "words_beyond_need": 10
+      },
+      "f1-p-probe-01": {
+        "n": 7,
+        "cell": "F1-P",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Hermas content matches pahc.witness.doubt-and-asking and the hermas-doubting quotes; but pahc.quote.put-away-doubting-from-you is not_for 'intellectual doubt over whether God exists', and the answer does not flag that Hermas's doubt is about asking in prayer, not struggling to believe.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Balanced and humane; the closing caveat is brief.",
+        "overall": "SHIP",
+        "words_beyond_need": 20
+      },
+      "f1-t-probe-01": {
+        "n": 8,
+        "cell": "F1-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "First paragraph is the faith-alone limit (pahc.limit.faith-alone-later-frame, celled to salvation, not inherited guilt); the actual answer ('our own texts do not say') is fair, as no record speaks of infant guilt.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "POOR",
+        "craft_note": "Opens with a faith-versus-works paragraph ('justified not by our own wisdom or works') that answers a different question before reaching inherited guilt.",
+        "overall": "FIX",
+        "words_beyond_need": 110
+      },
+      "f2-i-probe-01": {
+        "n": 9,
+        "cell": "F2-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Follows pahc.witness.reading-scripture and scripture-and-testimony; ordinary-majority caveat correctly applied.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Closing literacy caveat is a stock paragraph that adds little here.",
+        "overall": "SHIP",
+        "words_beyond_need": 40
+      },
+      "f2-e-probe-01": {
+        "n": 10,
+        "cell": "F2-E",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Caveats match world_core cautions and pahc.contested.egypt-exclusion, but the first-century voice names Roger Bagnall and defends 'our geographic boundary' - build reasoning, not period knowledge; 'before c. 189-231' garbles the record's 'before Bishop Demetrius's episcopate (189-231)'. The boast that 'a scholar checking our quotes ... would find them' is undercut by n.20 in this same set.",
+        "readable": "FAIR",
+        "understandable": "POOR",
+        "succinct": "POOR",
+        "craft_note": "613 words of system talk: 'That packaging is our own interpretive read', 'We never import Dura-Europos', 'the voice of a world, not as a bibliography with confidence ratings'.",
+        "overall": "FIX",
+        "words_beyond_need": 380
+      },
+      "f2-p-probe-01": {
+        "n": 11,
+        "cell": "F2-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "The Moses-older-than-Plato quote is used in its proper context (pahc.quote.moses-is-more-ancient) and the reading practice follows the witness records.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "The Genesis-and-science aside ('that fight had not been invented yet') and the long quote stretch it to 337 words.",
+        "overall": "SHIP",
+        "words_beyond_need": 110
+      },
+      "f2-t-probe-01": {
+        "n": 12,
+        "cell": "F2-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Prophetes, letters and apostolic testimony are supported (pahc.term.prophetes, translocal-network); the summary list of 'three sources' leaves out the prophets/Old Testament, which pahc.witness.reading-scripture calls 'what we called scripture, mostly'.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Direct and well organised.",
+        "overall": "SHIP",
+        "words_beyond_need": 15
+      },
+      "f3-i-probe-01": {
+        "n": 13,
+        "cell": "F3-I",
+        "rigor": "NOT ACCEPTABLE",
+        "cause": "RETRIEVAL",
+        "rigor_note": "False denial: 'who decided that this man should be the next elder ... our record does not show', yet pahc.quote.they-appointed-the-first-fruits and they-appointed-those-already-mentioned give Clement's account that the apostles appointed Spirit-tested converts and directed 'other approved men' to succeed them; the question is exactly how leaders were established.",
+        "readable": "FAIR",
+        "understandable": "POOR",
+        "succinct": "FAIR",
+        "craft_note": "'But that argument was made in a letter correcting another church's dispute' refers to an argument never stated (engine cut); one sentence runs 40 words.",
+        "overall": "BLOCK",
+        "words_beyond_need": 90
+      },
+      "f3-e-probe-01": {
+        "n": 14,
+        "cell": "F3-E",
+        "rigor": "NOT ACCEPTABLE",
+        "cause": "VOICE",
+        "rigor_note": "'He described it as common yet harmless... He meant it as mockery' inverts the record: pahc.witness.outsider-view says the description 'is entirely what his own deponents affirmed to him', i.e. the believers' own self-defence, not Pliny's mockery. The core 'no' on catacombs is correct.",
+        "readable": "GOOD",
+        "understandable": "FAIR",
+        "succinct": "GOOD",
+        "craft_note": "'It still shows we were visible enough to be mocked' rests on the misreading; otherwise brief and clear.",
+        "overall": "BLOCK",
+        "words_beyond_need": 0
+      },
+      "f3-p-probe-01": {
+        "n": 15,
+        "cell": "F3-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Faithful to pahc.witness.our-own-failures and the Corinth story's not_for (no verdict, Corinth's side lost).",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Strong and honest, a little long in the closing silence paragraph.",
+        "overall": "SHIP",
+        "words_beyond_need": 50
+      },
+      "f3-t-probe-01": {
+        "n": 16,
+        "cell": "F3-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Consistent with world_core horizon and what-we-never-settled; the 'no' is fair and hedged.",
+        "readable": "FAIR",
+        "understandable": "POOR",
+        "succinct": "GOOD",
+        "craft_note": "World_core build language pasted in: 'a new systematic, succession-arguing mode of teaching', 'None continues our own ecology', 'That generative problem'; FRE 51.8.",
+        "overall": "FIX",
+        "words_beyond_need": 40
+      },
+      "f4-i-probe-01": {
+        "n": 17,
+        "cell": "F4-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Matches pahc.story.two-ways-catechumen and term.baptisma (teaching, fasting by both, running water or pouring three times) and keeps the one-community caveat.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Crisp step-by-step; the one 31-word sentence is a list.",
+        "overall": "SHIP",
+        "words_beyond_need": 10
+      },
+      "f4-e-probe-01": {
+        "n": 18,
+        "cell": "F4-E",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Claim-versus-proof framing follows pahc.witness.apostolic-practice; 'The teaching of the Two Ways that we gave before baptism' drops the Didache single-community caveat (world_core caution 5), and 'the same practices repeated in Antioch, in Asia Minor, in Rome' generalises slightly.",
+        "readable": "FAIR",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Long sentences (avg 19.2, longest 33) but clear.",
+        "overall": "SHIP",
+        "words_beyond_need": 30
+      },
+      "f4-p-probe-01": {
+        "n": 19,
+        "cell": "F4-P",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Hermas on slow prayer and the eucharistia return follow prayer-and-struggle and liturgical-practice; Didache confession framed as one community.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Last paragraph on unreconciled enemies drifts from the unsettled-mind question.",
+        "overall": "SHIP",
+        "words_beyond_need": 50
+      },
+      "f4-t-probe-01": {
+        "n": 20,
+        "cell": "F4-T",
+        "rigor": "NOT ACCEPTABLE",
+        "cause": "VOICE",
+        "rigor_note": "Misused quote: after 'regenerated in the same way we ourselves were regenerated:' it quotes 'Moses is older than all the Greek writers...' (pahc.quote.moses-is-more-ancient, about Greek borrowing). It also says 'The one who walked with Jesus said it first' where pahc.term.baptisma has Justin quoting the saying of Christ himself, and contradicts itself ('We did use that language' vs 'was not usually spoken of with that phrase').",
+        "readable": "FAIR",
+        "understandable": "POOR",
+        "succinct": "FAIR",
+        "craft_note": "Fragments 'Then came the water. Then came the table.' dangle with nothing before them; a 40-word sentence; quote has nothing to do with new birth.",
+        "overall": "BLOCK",
+        "words_beyond_need": 70
+      },
+      "f5-i-probe-01": {
+        "n": 21,
+        "cell": "F5-I",
+        "rigor": "SOUND",
+        "cause": null,
+        "rigor_note": "Honest limit (ordinary-majority) plus the Rome gathering correctly scoped 'In Rome' per justin-sunday-gathering not_for; two-pattern note matches day-under-bishop not_for.",
+        "readable": "FAIR",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "One 47-word sentence; the limit is stated twice.",
+        "overall": "SHIP",
+        "words_beyond_need": 70
+      },
+      "f5-e-probe-01": {
+        "n": 22,
+        "cell": "F5-E",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Near-verbatim pahc.limit.material-remains; 'had them tortured to make them talk. What he wrote down afterward...' lets a reader think the worship description came from the tortured women, which outsider-view says it did not, but it is the record's own wording.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Opening 'You ask how historians even know about ordinary days like ours' answers a question not asked.",
+        "overall": "SHIP",
+        "words_beyond_need": 30
+      },
+      "f5-p-probe-01": {
+        "n": 23,
+        "cell": "F5-P",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Two Ways, baptism and Justin's collection are supported; 'The people who walked that road could not read or write' overstates ordinary-majority ('most of us').",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Fits the question; examples of cost are framed as unknown.",
+        "overall": "SHIP",
+        "words_beyond_need": 20
+      },
+      "f5-t-probe-01": {
+        "n": 24,
+        "cell": "F5-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Respects marriage-and-wealth not_for (no rite, no claim every household complied); the council-of-elders paragraph is speculation, though flagged as unknown.",
+        "readable": "GOOD",
+        "understandable": "FAIR",
+        "succinct": "FAIR",
+        "craft_note": "'That is the instruction we have' arrives before the instruction (marry with the bishop's approval) is ever stated, and Ignatius is never named.",
+        "overall": "SHIP",
+        "words_beyond_need": 60
+      },
+      "f6-i-probe-01": {
+        "n": 25,
+        "cell": "F6-I",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Marcion content follows pahc.witness.hard-texts with its opponents caveat; but that record is about troubling scriptures, and the question is about the community's own life - what-we-never-settled ('the hardest true thing about us') was the closer record.",
+        "readable": "GOOD",
+        "understandable": "FAIR",
+        "succinct": "POOR",
+        "craft_note": "The Two Ways paragraph ('love God, love your neighbor...') has nothing to do with what unsettled anyone.",
+        "overall": "FIX",
+        "words_beyond_need": 100
+      },
+      "f6-e-probe-01": {
+        "n": 26,
+        "cell": "F6-E",
+        "rigor": "NOT ACCEPTABLE",
+        "cause": "VOICE",
+        "rigor_note": "'What he wrote down comes from that interrogation' and 'his letter does not say' whether torture produced the worship details are both wrong: pahc.witness.outsider-view not_for 'a claim that the worship details came from the tortured ministrae', and its note: 'The descriptive detail comes from apostate deponents' testimony ... not from the two ministrae's torture, which the letter reports separately and after.' The premise needed correcting, not accepting.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "GOOD",
+        "craft_note": "Clear and serious in tone.",
+        "overall": "BLOCK",
+        "words_beyond_need": 20
+      },
+      "f6-p-probe-01": {
+        "n": 27,
+        "cell": "F6-P",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Limit content follows ordinary-majority; 'We did not break the teaching into one version for people we approved of' has no record behind it (unverified).",
+        "readable": "GOOD",
+        "understandable": "POOR",
+        "succinct": "FAIR",
+        "craft_note": "'That was the instruction we have. Whether every household actually sought that approval' is a leftover from the marriage record with no antecedent, and 'what we taught before the water' is announced but never given.",
+        "overall": "FIX",
+        "words_beyond_need": 50
+      },
+      "f6-t-probe-01": {
+        "n": 28,
+        "cell": "F6-T",
+        "rigor": "ACCEPTABLE",
+        "cause": null,
+        "rigor_note": "Justin-versus-Two-Ways tension follows outside-our-community; the second paragraph (faithful dead, from limit.assurance-and-the-dead) answers a different cell; no 'afterlife threat' read from the Two Ways, as not_for requires.",
+        "readable": "GOOD",
+        "understandable": "GOOD",
+        "succinct": "FAIR",
+        "craft_note": "Second paragraph on where the faithful go is not what was asked about outsiders.",
+        "overall": "SHIP",
+        "words_beyond_need": 90
+      }
+    }
+  },
+  "outside_referees": {
+    "file": "analysis-2026-10-29/outside-referees/out-pahc.json",
+    "key_file": "analysis-2026-10-29/outside-referees/KEY.json",
+    "packet_file": "analysis-2026-10-29/outside-referees/pahc.md",
+    "packet_sha256": "c4cf563e9c723613acfd52ba61e4b74ca09d5912dabf7b132530d0652319a9fe",
+    "packet_copied": false,
+    "world_label": "post-apostolic house-church Christianity (1 Clement, Didache, Ignatius, Justin, Pliny), c. 70-170",
+    "checks_performed": [],
+    "overall_view": "The voice is attractive, and the instinct to name the limits of the record is good. Several answers (3, 6, 8, 9) are close to publishable, and the quotations from Ignatius, Didache, 1 Clement and Polycarp are mostly accurate. I would not put my name to the set as it stands. Three answers have errors a specialist would catch at once: a misattributed Justin quotation (7), a misreading of which part of Pliny's letter came from torture (5), and a claim that one creator God was 'never in doubt' when Marcion is the central controversy of the period (4). More broadly, the representative repeatedly says 'our record does not show' or 'none of us ever laid out' about things the sources do address: the Didache's tests for prophets and its appointment of bishops, and Justin's Logos theology. The single biggest change: before any answer says something is absent from the record, check that claim against the core texts (Didache 11-15, 1 Clement 42-44, Justin's Apologies and Dialogue, Pliny Ep. 10.96). The project's humility is currently producing false silences, which are a form of inaccuracy.",
+    "items_reviewed": 10,
+    "by_probe": {
+      "f4-p-probe-01": {
+        "cell": "F4-P",
+        "n": 19,
+        "item": 1,
+        "verdict": "ACCEPT",
+        "doubted_claims": [
+          {
+            "claim": "if your prayer is slow to be answered, that is not the same as being refused. Look first at what might be holding it back in yourself",
+            "problem": "Accurate paraphrase, but the context is Hermas's attack on dipsychia (double-mindedness), which would speak more directly to a 'mind that won't settle' than the answer makes clear.",
+            "source": "Shepherd of Hermas, Mandate 9.7-8"
+          },
+          {
+            "claim": "The community returned to that thanksgiving ... to be formed once more into one body",
+            "problem": "Fair but interpretive. The 'one body' image rests on the prayer that the church be gathered as the scattered grain becomes one loaf.",
+            "source": "Didache 9.4; cf. Ignatius, Ephesians 20.2"
+          },
+          {
+            "claim": "they confessed their wrongs before the assembly and made peace with anyone they were at odds with first",
+            "problem": "Correct.",
+            "source": "Didache 4.14; 14.1-2"
+          }
+        ],
+        "reader_note": "Clear and the right length. The last paragraph is honest, but it ends a little abruptly for a pastoral question."
+      },
+      "f3-i-probe-01": {
+        "cell": "F3-I",
+        "n": 13,
+        "item": 2,
+        "verdict": "REJECT",
+        "doubted_claims": [
+          {
+            "claim": "Both went on, unresolved, for as long as our own story runs. It was only settled afterward",
+            "problem": "Overstated. Single bishops are attested in Asia by c. 110 (Ignatius), at Smyrna (Polycarp), and probably at Rome by the 150s-160s (Anicetus; Hegesippus's succession list). Most scholars see the single-bishop pattern as widespread, though not universal, by 170. Calling it a conscious disagreement ('we never agreed') presents as an argument what was really uneven development.",
+            "source": "Ignatius, Magnesians 6, Trallians 3; Eusebius, HE 4.22.3 (Hegesippus); A. Brent; A. Stewart, The Original Bishops (2014)"
+          },
+          {
+            "claim": "In others, a council of elders - the presbyterion - led",
+            "problem": "Wrong term. In Ignatius the presbyterion is the council that sits *with* the bishop, not an alternative to him. Where elders led collegially (1 Clement, Polycarp's Philippi, Hermas's Rome), the texts say presbyteroi or 'those who preside'.",
+            "source": "Ignatius, Magnesians 6.1, Trallians 3.1; 1 Clement 44; Polycarp, Philippians 5.3; Hermas, Vision 2.4.3"
+          },
+          {
+            "claim": "But that argument was made in a letter correcting another church's dispute.",
+            "problem": "The sentence points back to nothing (presumably 1 Clement to Corinth). As written it makes no sense.",
+            "source": "1 Clement 44"
+          },
+          {
+            "claim": "who decided that this man should be the next elder, how a prophet's claim to speak was tested ... our record does not show",
+            "problem": "False. The Didache sets out tests for prophets: a prophet who stays three days or asks for money is false, and one is known 'by his ways'. It also tells communities to 'appoint for yourselves bishops and deacons'. 1 Clement says presbyters were appointed by apostles or 'other eminent men with the consent of the whole church'. Hermas also discusses how to tell a true prophet from a false one.",
+            "source": "Didache 11.3-12, 15.1; 1 Clement 44.3; Hermas, Mandate 11"
+          },
+          {
+            "claim": "Two women among us carried the name ministrae - a title of service, of office",
+            "problem": "Pliny says they 'were called ministrae' (quae ministrae dicebantur), which suggests a community title, probably a rendering of diakonoi. Whether it was a formal office is debated, so 'of office' should be hedged.",
+            "source": "Pliny, Ep. 10.96.8"
+          }
+        ],
+        "reader_note": "Readable, but it is muddled in the middle by the dangling sentence. Its claims of silence are partly false, which undermines the honest tone."
+      },
+      "c-i-probe-01": {
+        "cell": "C-I",
+        "n": 1,
+        "item": 3,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "Born of Mary, from David's line. He ate and drank. He was persecuted under Pilate, crucified, and died ... truly raised the way we ourselves will be raised",
+            "problem": "Accurate.",
+            "source": "Ignatius, Trallians 9; Smyrnaeans 1-2; Ephesians 18.2"
+          },
+          {
+            "claim": "How he could be God when the Father is God, and God is one, none of us whose writing survives ever laid out. We did not work that through.",
+            "problem": "False for Justin. He argues at length that the Logos is 'another God' (heteros theos), distinct in number but not in will, begotten from the Father like fire kindled from fire. That is an early attempt to lay out exactly this question. The right claim is that it was not settled, not that no one tried.",
+            "source": "Justin, Dialogue with Trypho 56, 61, 128-129; 1 Apology 13, 63"
+          },
+          {
+            "claim": "we thanked the Father for the holy vine of David his servant, which he made known to us through Jesus",
+            "problem": "Accurate.",
+            "source": "Didache 9.2"
+          }
+        ],
+        "reader_note": "Clear, vivid, and the right length."
+      },
+      "f1-i-probe-01": {
+        "cell": "F1-I",
+        "n": 5,
+        "item": 4,
+        "verdict": "REJECT",
+        "doubted_claims": [
+          {
+            "claim": "We believed in one God, maker of everything. That much was never in doubt among us.",
+            "problem": "False for the period. In the 140s-160s Marcion taught that the creator God of the Jewish scriptures was not the Father of Jesus, and Valentinian and other teachers separated the high God from the maker. Justin treats Marcion as the leading current danger and wrote a treatise against all the heresies.",
+            "source": "Justin, 1 Apology 26.5, 58; Irenaeus, Against Heresies 1.27; Tertullian, Against Marcion"
+          },
+          {
+            "claim": "What we actually argued about, letter after letter, was two things. One was who should lead us ... The other was whether Christ truly suffered in the flesh.",
+            "problem": "Too narrow, and the first half is distorted. No surviving letter argues 'one bishop versus a council'. Besides docetism, the real disputes included Marcion's two gods, Valentinian teaching, the Easter date (Polycarp and Anicetus, c. 155), and Christian relations to Judaism (Barnabas, Dialogue with Trypho).",
+            "source": "Irenaeus in Eusebius, HE 5.24.16; Justin, Dialogue; Epistle of Barnabas"
+          },
+          {
+            "claim": "that we did not work out in the way your later world did",
+            "problem": "Acceptable as stated, but compare Item 3: Justin did attempt it.",
+            "source": "Justin, Dialogue 61, 128"
+          },
+          {
+            "claim": "churches in Asia did meet - often, and in many places - over a new prophetic movement",
+            "problem": "Correctly echoes the Anonymous. Montanism probably begins c. 157 or c. 172, and the synods are more likely in the 170s, so this sits at or just past the 170 boundary and should be hedged.",
+            "source": "Eusebius, HE 5.16.10"
+          },
+          {
+            "claim": "Justin ... said God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian",
+            "problem": "Accurate.",
+            "source": "Justin, 1 Apology 46; 2 Apology 8, 10, 13"
+          }
+        ],
+        "reader_note": "Readable. But it confidently misdescribes what second-century Christians argued about, which a lay reader would take as authoritative."
+      },
+      "f6-e-probe-01": {
+        "cell": "F6-E",
+        "n": 26,
+        "item": 5,
+        "verdict": "REJECT",
+        "doubted_claims": [
+          {
+            "claim": "What he wrote down comes from that interrogation.",
+            "problem": "Misreads the letter. The worship details (meeting before dawn on a set day, the hymn to Christ as to a god, the oath, the later meal) are what former Christians who had lapsed said in their defence. Pliny then tortured the two ministrae to test that account, and says he found 'nothing but a depraved and excessive superstition'.",
+            "source": "Pliny, Ep. 10.96.6-8"
+          },
+          {
+            "claim": "Whether the torture of those two women produced the worship details, or whether they came from other informants, his letter does not say.",
+            "problem": "False. The letter does say: the account came from the apostates ('adfirmabant autem...'), and the torture came afterward and added nothing beyond 'superstition'. The question's premise is therefore partly mistaken, and the answer should have corrected it.",
+            "source": "Pliny, Ep. 10.96.7-8"
+          },
+          {
+            "claim": "women he called ministrae, his own Latin word",
+            "problem": "Pliny reports that they 'were called' ministrae. It may be his Latin rendering of a Greek title, but it is presented as their designation, not his coinage.",
+            "source": "Pliny, Ep. 10.96.8"
+          },
+          {
+            "claim": "It is the only outside description of our worship that survives.",
+            "problem": "Roughly true for worship in this window, but slightly overstated. Lucian's Peregrinus (c. 165) describes Christian community practice, and the meal and the oath were also a target of contemporary rumour (Fronto in Minucius Felix).",
+            "source": "Lucian, Peregrinus 11-13; Minucius Felix, Octavius 9"
+          }
+        ],
+        "reader_note": "Clear prose and the right length, but on the exact point asked it gives the wrong account of where the evidence comes from."
+      },
+      "f1-p-probe-01": {
+        "cell": "F1-P",
+        "n": 7,
+        "item": 6,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "put doubting away from yourself ... He does not remember evils the way we do",
+            "problem": "Accurate paraphrase.",
+            "source": "Hermas, Mandate 9.1-3"
+          },
+          {
+            "claim": "Hermas was also warned how serious doubt is ... a thing with no power ... The double-souled ... are saved only with difficulty",
+            "problem": "Substantially accurate. Hermas's word is dipsychia, double-mindedness or wavering commitment, not intellectual doubt about whether Christianity is true. Applying it to 'someone who struggled to believe' in the modern sense needs that caveat.",
+            "source": "Hermas, Mandate 9.9-11; Vision 3.7.1; Similitude 8.9-10"
+          }
+        ],
+        "reader_note": "Clear, balanced, and the right length. The closing note about limits is well judged."
+      },
+      "f4-t-probe-01": {
+        "cell": "F4-T",
+        "n": 20,
+        "item": 7,
+        "verdict": "REJECT",
+        "doubted_claims": [
+          {
+            "claim": "regenerated in the same way we ourselves were regenerated: “Moses is older than all the Greek writers. Philosophers and poets have spoken of the undying soul...”",
+            "problem": "Misattributed quotation. The quoted passage comes from Justin's argument that the Greeks borrowed from Moses (1 Apology 44 and 59-60), not from his account of baptism. It has nothing to do with regeneration.",
+            "source": "Justin, 1 Apology 44.8-9; contrast 61.2-4"
+          },
+          {
+            "claim": "What we called the water - the baptisma - was not usually spoken of with that phrase.",
+            "problem": "Contradicted by the source the answer itself relies on. In 1 Apology 61 Justin connects baptism directly to 'Unless you are born again you will not enter the kingdom of heaven' and calls the rite anagennesis (regeneration). The sentences that follow ('Then came the water. Then came the table.') are incoherent.",
+            "source": "Justin, 1 Apology 61.3-4, 66.1"
+          },
+          {
+            "claim": "The one who walked with Jesus said it first: a person must be born of water and Spirit.",
+            "problem": "States a contested question as settled. That the Fourth Gospel was written by an eyewitness disciple is disputed. Justin's wording ('born again') does not clearly quote John 3:5 and may rest on independent tradition. Whether John was read in worship in every community before 170 is also uncertain.",
+            "source": "John 3:3-5; Justin, 1 Apology 61.4; C. E. Hill, The Johannine Corpus in the Early Church (2004)"
+          },
+          {
+            "claim": "a letter written for the emperor and the Senate",
+            "problem": "Minor. It is an apology addressed to Antoninus Pius, his sons, the Senate and the Roman people, not a letter.",
+            "source": "Justin, 1 Apology 1"
+          }
+        ],
+        "reader_note": "A lay reader would be confused: the middle paragraph contradicts itself and the quotation does not fit. It needs rewriting."
+      },
+      "f1-t-probe-01": {
+        "cell": "F1-T",
+        "n": 8,
+        "item": 8,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "First Clement wrote that we are justified not by our own wisdom or works, but by the faith ... God forbid",
+            "problem": "Accurate.",
+            "source": "1 Clement 32.4-33.1"
+          },
+          {
+            "claim": "Polycarp wrote that you are saved by grace, not by works, but by the will of God through Jesus Christ",
+            "problem": "Accurate (quoting Ephesians 2:8-9).",
+            "source": "Polycarp, Philippians 1.3"
+          },
+          {
+            "claim": "Whether an infant carried guilt from birth before any choice was made - our own texts do not say.",
+            "problem": "Slightly overstated. Justin contrasts our first birth, 'without our knowledge or choice' and into bad habits, with baptismal rebirth by choice, and speaks of the human race falling under death from Adam. Hermas uses infants as the image of innocence. None of this is a doctrine of inherited guilt, but the texts do touch the question, and the answer should say so.",
+            "source": "Justin, 1 Apology 61.10; Dialogue 88.4; Hermas, Similitude 9.29.1-3"
+          }
+        ],
+        "reader_note": "Clear and the right length. It is a sensible refusal of an anachronistic frame."
+      },
+      "f3-e-probe-01": {
+        "cell": "F3-E",
+        "n": 14,
+        "item": 9,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "No grave or building from our own time can be shown to be ours.",
+            "problem": "Broadly right for buildings and catacombs (the Roman Christian catacomb areas date from c. 200 onward). It should be hedged for the aedicula in the Vatican necropolis (c. 160-170), widely though not universally taken as a Christian memorial and probably the 'trophy' Gaius mentions.",
+            "source": "Eusebius, HE 2.25.7 (Gaius); J. Toynbee and J. Ward-Perkins, The Shrine of St Peter (1956)"
+          },
+          {
+            "claim": "He meant it as mockery. It still shows we were visible enough to be mocked",
+            "problem": "Pliny's letter is an administrative inquiry, not mockery. The summary of worship is the apostates' exculpatory account. He also reports that the meal had stopped after his edict banning associations, which shows Christians did adjust under pressure. The inference to 'visible' should rest on the denunciations and the anonymous list of names instead.",
+            "source": "Pliny, Ep. 10.96.5-7"
+          },
+          {
+            "claim": "We met in houses.",
+            "problem": "Fair. Justin, for example, says he lived and taught 'above the baths of Myrtinus'.",
+            "source": "Acts of Justin 3 (Recension A)"
+          }
+        ],
+        "reader_note": "Clear and short. It corrects the myth well, apart from the 'mockery' line."
+      },
+      "f6-p-probe-01": {
+        "cell": "F6-P",
+        "n": 27,
+        "item": 10,
+        "verdict": "ACCEPT WITH CORRECTION",
+        "doubted_claims": [
+          {
+            "claim": "Whether every household actually sought that approval, we do not know.",
+            "problem": "There is no antecedent for 'that approval'. Text seems to have dropped out, and the sentence does not make sense as it stands.",
+            "source": "n/a (internal coherence)"
+          },
+          {
+            "claim": "Nothing in our own record answers that question directly.",
+            "problem": "Defensible, since the asker is unknown, but evasive. The sources say a great deal about how outsiders were to be treated: love and pray for enemies, give to everyone who asks, welcome travellers for up to two or three days, and pray for persecutors. The answer could offer that without presuming who the asker is.",
+            "source": "Didache 1.3-5, 12.1-2; Justin, 1 Apology 14-15; Epistle to Diognetus 5-6"
+          },
+          {
+            "claim": "most of us could not read or write",
+            "problem": "Reasonable and in line with standard estimates of ancient literacy.",
+            "source": "W. V. Harris, Ancient Literacy (1989); H. Gamble, Books and Readers in the Early Church (1995)"
+          }
+        ],
+        "reader_note": "Understandable but thin, and the broken sentence will puzzle readers. A little more substance from the sources would serve better than the repeated disclaimers."
+      }
+    }
+  }
+}

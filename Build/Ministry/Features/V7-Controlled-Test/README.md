@@ -16,4 +16,4 @@ The reassessment that led here: https://claude.ai/artifact/EuKJQj3kEgvS2kDLkQvjC
 
 **Not in scope:** arm C (it is built only if B shows a remaining problem that selective correction could address), pre-verified bundles, new routine model calls, any permanent decision on source-library reach, and any change to production. D4 (pull request #1484) stays paused.
 
-**Status:** plan written. No chunk has started.
+**Status:** V1 done (2026-11-03). Arm A is frozen in [Set/](Set/README.md): 84 answers, 28 per world, each byte-equal to the run file. The gate replay reproduces 84 of 84. The repeat draw holds 42 probes, 14 per world. Priced cost from the ledgers: alx $0.6857, pahc $0.6587, syr $0.6554. The run did not save the offered record ids, so Test Plan §3, item 1 cannot be checked against A's run files as written (Set/README.md, "What did not match"). The optional hard-case questions were not written.

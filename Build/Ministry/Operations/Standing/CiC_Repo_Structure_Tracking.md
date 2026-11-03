@@ -975,3 +975,9 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 - Dated findings and analysis reports to `Build/Ministry/Operations/Audits/World-Findings/<world>/`: alx `Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md`, `alex_v7_vs_current_comparison.md`, `CROSS_WORLD_FINDING_Work_Granularity_Coverage_Gap.md`, `portfolio_parity.md`, `v7_Gap_Closure_Tracker.md`; ijc `Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md`. The items `v7_Gap_Closure_Tracker.md` still listed as open are filed as alx OG-43. The unflagged siblings in alx `Analysis/` (`CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md`, `Portfolio_Consistency_Audit_2026-07-19.md`) stay.
 - Superseded: syr `Archive/Step10_Phase1_Ecology_Assessment_DRAFT_SUPERSEDED.md` to `Archive/Superseded-World-Documents/syr/`.
 - Three sample rows in `tools/tests/test_check_live_commentary.py` that pointed at moved files are replaced.
+
+## 2026-11-03 — rzg and gallic retired generators leave `Build/worlds/`
+
+**Context.** The Live-Surface Cleanup program (CL7) found the retired build generators of rzg (nine) and gallic (one) in the live `Build/worlds/` surface. Nothing in CI, `tools/` or `engine/` runs or imports them; the only references are citations in documents and decision logs.
+
+**Action.** `git mv`, no edits. `Build/worlds/rzg/scripts/wb_rzg_s21.py`, `wb_rzg_s22_s23.py`, `wb_rzg_s24.py`, `wb_rzg_s25.py`, `wb_rzg_s26.py`, `wb_rzg_s27.py`, `wb_rzg_s2x_doctrinal_witness.py`, `wb_rzg_s2y_canon_cells.py`, `wb_rzg_s2z_canon_closure.py` to `Archive/Retired-World-Build-Scripts/rzg/`, and `Build/worlds/gallic/scripts/wb_gallic_s21.py` to `Archive/Retired-World-Build-Scripts/gallic/`. `tools/moved_paths.txt` maps each old path to its new one. The lpc `scripts/` folder stays: lpc is still being built and its review artifacts cite those scripts as current.

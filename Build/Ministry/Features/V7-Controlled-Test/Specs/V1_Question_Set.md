@@ -9,7 +9,7 @@
 - **`A_<world>.jsonl`** for alx, pahc and syr. One line per probe, with these fields:
   - probe id and cell
   - `answer_text`, citations and citation entries
-  - the offered record ids, parsed from the run's `request` field
+  - the offered record ids. These were not saved by the run, so the field is null. The set is rebuilt later by replaying evidence assembly (`../Test_Plan.md` §3, item 1). `draft_marker_ids` lists the ids the draft cited.
   - usage, `seconds_to_first_text`, `seconds_total`, stop reason, priced cost
 
   Each line is copied from the run's `<world>.json` and its ledger, in the `fleet-graded-run-1/` report folder on branch `claude/fleet-run-1-analysis` (not on `main`). No probe text is copied.
