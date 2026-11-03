@@ -23,8 +23,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: Ep. XXXIX SS1; independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    line 32372
+  locus: Ep. XXXIX SS1; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32371-32375
   license: public-domain
 retrieval:
   tier: 2
@@ -57,4 +56,4 @@ modern_rendering: For they have not forgotten their conspiracy. They still carry
   my office as bishop, which means against your suffrage and against God's judgment. They are renewing
   their old attack on me, and once again they are starting their sacrilegious plots with their usual cunning.
 ---
-Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37: 'a faction's ancient venom set against the plain suffrage of the people'), and at greater length at line 29 ('the crowd's own calling of a man to this office -- a faction's ancient venom set against the plain suffrage of the people, in one voice'). Independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 32372 -- the corrected locus (Ep. XXXIX, not Ep. XL) lpc.source.cyprian-epistles's own divergence_note already names (a citation error stood in this world's build for six days before correction); this record independently re-verifies the corrected locus directly rather than trusting the correction on the source record's own say-so, per this step's own discipline for the small set of places a confidence rating depends on a specific line actually being where it is said to be. This quotation begins mid-sentence in the source ('...since mindful of their conspiracy...'); per Doc_09 SS2's own disclosed transcription convention, the first letter is capitalised here without an opening ellipsis, and no wording is altered.
+The passage is Ep. XXXIX, not Ep. XL; lpc.source.cyprian-epistles's divergence_note names the same locus. It stands at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32371-32375. The quotation begins mid-sentence in the source ('...since mindful of their conspiracy...'). Under Doc_09 SS2's transcription convention the first letter is capitalised here without an opening ellipsis, and no wording is altered.
