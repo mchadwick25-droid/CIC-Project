@@ -66,3 +66,20 @@ Index schema (Sandbox/answering-library/index/store.py):
 - At question time the engine reads the offer JSON (frame `passage_offer`, turn_prep.py:606), not the sqlite.
 Embedder: only the Protocol in index/embeddings.py (9 lines, no class). grep of `embed` in .py files finds no implementation in Sandbox/answering-library or engine/m4 (matches elsewhere are unrelated: quotation embedding in engine/m1, etc.). Undetermined only in that I did not read each unrelated hit.
 SQLite index files on disk: none in the repository (the index build folder is gitignored, and no sqlite file sits under the texts folder). Built indexes existed only in the session scratch area: alx 538 MB, syr 290 MB, rzg 257 MB, lpc 851 MB. They are rebuilt from the vendored texts by the Library builder.
+
+## Reach under the lens, per world (from the built passage indexes)
+
+Counts of the world's whole shelf, not of seeds or records. "Shelf passages" are the passages the index ties to the world through its shelf rows. "English, not apparatus" removes passages with no English reading and editor's notes or headings. "Bound to one row" counts a passage that the index ties to exactly one corpus-map row of the world (the work is known); "several rows" counts a passage tied to more than one row of the world, which is the file-level case. The window (the row's dated window against the world's time window) is not applied here, because the row dates sit in the seed files and not in the index.
+
+| | lpc | alx | syr | rzg |
+|---|---|---|---|---|
+| files on the shelf | 112 | 36 | 27 | 42 |
+| shelf passages | 102,415 | 56,559 | 32,290 | 42,765 |
+| English, not apparatus | 20,149 | 25,704 | 22,012 | 22,004 |
+| of those, bound to one row (reachable) | 4,732 | 12,260 | 14,557 | 21,535 |
+| of those, several rows (file level, excluded) | 15,417 | 13,444 | 7,455 | 469 |
+| share reachable | 23.5% | 47.7% | 66.1% | 97.9% |
+| words, English not apparatus | 5,637,121 | 6,601,958 | 5,725,858 | 4,898,103 |
+| words reachable (one row) | 1,365,955 | 3,083,184 | 3,872,649 | 4,773,307 |
+
+The gap between a world's whole shelf and what the lens lets through is Library's row narrowing. The count is the index's own row tie; Library's seed-level "row narrowed by locus_ids" test is the reference, and the two may differ at the edges.
