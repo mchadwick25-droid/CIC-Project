@@ -50,7 +50,7 @@ modern_lens_note: >-
   teacher, read and talked with, in a country where the anchorite's road has no well-worn path of
   its own to follow yet.
 modern_rendering: >-
-  Your earlier efforts and labours have made a special contribution to this. The brothers are
+  Your earlier efforts and labors have made a special contribution to this. The brothers are
   already prepared and practiced in these exercises. So they can more readily receive the
   precepts and institutes of the Elders. They can receive into their cells the authors of the
   Conferences, together with the actual volumes of the Conferences. In a way, they can talk with

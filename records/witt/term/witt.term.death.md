@@ -69,10 +69,10 @@ senses:
     right to give care and honor to the burial of the dead.'''
   evidential: Attested for death as the terror faith overcomes at both voices; the sleep and burial register
     is specifically the founder's own.
-  personal: The last battle, faced alone, on a text -- and a burial we sing, honour, and strip of masses
+  personal: The last battle, faced alone, on a text -- and a burial we sing, honor, and strip of masses
     for the soul.
   translational: 'Do not hear death as faced by private inner resolve, or burial as private grief: we
-    mean the last battle, faced alone but on a promise, a sleep and a couch, a burial sung and honoured.'
+    mean the last battle, faced alone but on a promise, a sleep and a couch, a burial sung and honored.'
 quick_meaning: A battle faced alone. Faith teaches us to call it a sweet sleep.
 distortion_risk: high
 use_note:

@@ -14,7 +14,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: Documented; the [AS] tag (for 'testament' as our own name for the Supper, as a comparative
-    claim about neighbouring worlds) stays Inferential/Thin, since no neighbour's own lexicon exists yet.
+    claim about neighboring worlds) stays Inferential/Thin, since no neighbor's own lexicon exists yet.
 sources:
 - source_id: witt.source.luther-discussion-of-confession
   locus: Confession

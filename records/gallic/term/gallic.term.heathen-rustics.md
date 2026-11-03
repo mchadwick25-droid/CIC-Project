@@ -80,7 +80,7 @@ senses:
     Tours: "before the times of Martin, very few, nay, almost none, in those regions had received
     the name of Christ." The rustics are met on the road with their rites - "the images of demons
     veiled with a white covering" carried through the fields - and Martin halts them with the cross.
-    He burns "a very ancient and celebrated temple" and thrusts the flames back from a neighbouring
+    He burns "a very ancient and celebrated temple" and thrusts the flames back from a neighboring
     house; he fells a sacred pine while "the chief priest of that place, and a crowd of other
     heathens" oppose him; a heathen draws a sword and Martin offers his neck. "Wherever he destroyed
     heathen temples, there he used immediately to build either churches or monasteries." His own

@@ -63,7 +63,7 @@ use_note:
   not_for:
     - "the baptize-believe-glorify sequence argument, which sits in cappadocian.quote.baptize-believe-glorify-in-sequence"
     - "a claim that this world set tradition against scripture as rival authorities"
-    - "unwritten tradition as licence to defend whatever a bishop preferred"
+    - "unwritten tradition as license to defend whatever a bishop preferred"
   years: {from: 375, to: 375}
   status: reviewed
 ---
