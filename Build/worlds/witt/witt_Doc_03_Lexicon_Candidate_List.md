@@ -729,7 +729,7 @@ These fifteen clustered flags cover the **39** entries marked "Tier (est.) 1" (1
 
 ---
 
-## 12. Coverage limits (dated 2026-09-15)
+## 12. Coverage limits
 
 The audit found the *Papacy at Rome* item and four more items making the same "in full" overclaim: the *Kurze Form*, the four hymnal prefaces, and hymns I, IV and V, and XXVI each run well past their declared "in full" range into unread material. In every case checked, no cited locus falls into a zone this correction newly marks unread — the defect is confined to the coverage claim, not the evidence; this was verified by checking every `Hy` and Kurze-Form `v2` locus cited anywhere in the document against the corrected boundaries below before writing them. Three `Hy` loci (558–561, 766–768, 651–652) are honestly attributed to the Registry pass or to Bacon/R94 rather than read this pass, and sit outside every declared range without being affected by any correction.
 
@@ -745,7 +745,7 @@ Read in full this pass, boundaries verified against the files: SC (whole file, 1
 
 Read in part, as previously stated: everything listed at §11 item 8, plus Neve's introduction to *A Treatise on the New Testament* (v1 10600–10750, covering the three cited loci): the introduction runs from its heading at 10636 through prose still continuing past 10750 to a footnotes block at 10836.
 
-Not read by this document: everything listed at §11 item 2, now including AC Articles I and III, AC Article XXVIII's own close, and the seven items above — the Confession's Conclusion is a different case, recorded at Registry row R37 as read and not re-opened this pass; it is neither claimed as read by this document nor listed as an open gap. Saturation is claimed only for the sections read in full, above — continued reading there produced restatements (the Sermons' repeated "the Word must do it," the catechisms' repeated "fear and love God") rather than new candidates, the Lexicon Framework's own stopping criterion. Saturation is **not** claimed for the Apology, for *Bondage*, for AC Articles I and III or Article XXVIII's own close, for Neve's introduction beyond the loci read, for the *Papacy at Rome* beyond its introduction, for the *Kurze Form* beyond its preface and Commandments, for the hymnal prefaces' and hymns' unread portions (including the two further, separately titled pieces R4-2 found), or for the 1521–23 v3 works beyond the loci read.
+Not read by this document: everything listed at §11 item 2, now including AC Articles I and III, AC Article XXVIII's own close, and the seven items above — the Confession's Conclusion is a different case, recorded at Registry row R37 as read and not re-opened this pass; it is neither claimed as read by this document nor listed as a gap. Saturation is claimed only for the sections read in full, above — continued reading there produced restatements (the Sermons' repeated "the Word must do it," the catechisms' repeated "fear and love God") rather than new candidates, the Lexicon Framework's own stopping criterion. Saturation is **not** claimed for the Apology, for *Bondage*, for AC Articles I and III or Article XXVIII's own close, for Neve's introduction beyond the loci read, for the *Papacy at Rome* beyond its introduction, for the *Kurze Form* beyond its preface and Commandments, for the hymnal prefaces' and hymns' unread portions (including the two further, separately titled pieces named above), or for the 1521–23 v3 works beyond the loci read.
 
 ---
 
