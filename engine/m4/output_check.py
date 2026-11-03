@@ -38,9 +38,14 @@ are.
                  and never did: the transcript is right here. Checked the
                  same way grounding_net checks a claim against its records
                  - same shape, different ground.
-  pronoun        the strict we-voice. First-person singular outside the one
-                 sanctioned self-naming line, and outside quoted historical
-                 speech, which keeps its own original wording by rule.
+  pronoun        the voice claiming to be a person: a first-person role or
+                 name ("I am the bishop", "I am Ignatius", "I, Ignatius") or a
+                 first-person memory or witness ("I remember the day", "I
+                 saw him"), outside the one self-naming line and outside
+                 quoted historical speech, which keeps its own wording.
+                 Matched by a fixed list of first-person role, name and
+                 witness phrases; not exhaustive. "I" for the voice's own
+                 acts in the conversation is the rule, not a finding.
   guard_proximity a sentence that cites a record marked with a
                  claim_guards entry - a barred proposition -
                  and shares that barred proposition's own subject matter
@@ -129,7 +134,14 @@ _PREMISE_CORRECTION = re.compile(
     re.IGNORECASE,
 )
 
-_FIRST_PERSON_SINGULAR = re.compile(r"\b(?:I|me|my|mine|myself)\b")
+_PERSON_CLAIM = re.compile(
+    r"\bI(?:\s+am|\s+was|'m)\s+(?!(?:a\s+(?:little|bit)|the\s+(?:first|last|only|wrong|right)|one\s+of\s+(?:those|you))\b)(?:a|an|the|your|their|its|one\s+of)\b"
+    r"|\bI(?:\s+am|\s+was|'m)\s+(?:bishop|archbishop|deacon|deaconess|presbyter|priest|monk|abbot|abbess|elder|patriarch|pope|nun|hermit|martyr|confessor)\b"
+    r"|\bI(?:\s+am|\s+was|'m|,)\s+(?!(?:God|Christ)\b)[A-Z][a-z]+"
+    r"|\bI\s+(?:remember|remembered|recall|saw|witnessed|heard|met)\b(?!\s+(?:you|your|that\s+you|what\s+you)\b)"
+    r"|\bI\s+(?:lived|grew\s+up|was\s+born|was\s+there|was\s+present|served\s+as|was\s+ordained|was\s+consecrated|knew\s+(?:him|her|them))\b"
+    r"|\b[Mm]y\s+own\s+eyes\b"
+)
 
 
 def _quoted_ranges(text: str) -> list[tuple[int, int]]:
@@ -301,14 +313,14 @@ def _pronoun_findings(text: str) -> list[dict]:
     quoted = _quoted_ranges(text)
     out = []
     for sentence in sentences(text):
-        if SELF_NAMING_MARKER in sentence.lower():
+        if SELF_NAMING_MARKER in sentence.lower().replace("i'm", "i am"):
             continue  # the one fleet-sanctioned exception
         start = text.find(sentence)
-        for match in _FIRST_PERSON_SINGULAR.finditer(sentence):
+        for match in _PERSON_CLAIM.finditer(sentence):
             at = start + match.start() if start >= 0 else -1
             if any(lo <= at < hi for lo, hi in quoted):
                 continue  # a quoted figure keeps their own first person, by rule
-            out.append(_finding("pronoun", f"first-person singular {match.group(0)!r} outside the sanctioned self-naming line", sentence))
+            out.append(_finding("pronoun", f"the voice claims to be a person: {match.group(0)!r}", sentence))
             break
     return out
 

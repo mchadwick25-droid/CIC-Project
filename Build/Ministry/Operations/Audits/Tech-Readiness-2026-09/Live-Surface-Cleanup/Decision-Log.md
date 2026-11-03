@@ -2732,3 +2732,16 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 - `Doc_09`: the removed lead-in "Per this project's own two-tier approval discipline," was a process reference with no factual content; a "Doc_01 section-citation slip" is now worded "correction".
 - `Doc_04`: the "See ROUTE section" pointer is removed because the routed material is recorded in this log, not in the document.
 - `syr_World_Profile.md`: the re-sequencing decision of 2026-07-08 is kept as a historical date in a PROTECTED line and left unchanged.
+
+## Entry — D2b, engine/m4/turn_prep.py comments (2026-11-03)
+
+Delivery lead, 2026-11-03, chunk D2b: the process-narration comments in `engine/m4/turn_prep.py` are rewritten in the present tense, stating what the code does and why. The history they carried is kept here.
+
+- `R26_HONEST_LIMIT_SENTENCE`: the copy moved unchanged from `engine.m4.turn` when the turn setup was extracted into this module. It was kept as its own copy, not imported from `uncited_claims`, to match how it read before the extraction.
+- `NO_QUOTE_LINE`: told only "one quote in full" on a turn whose ground offered no quote, the voice wrote markers anyway, several for ids no record had.
+- The directive heading's leading newline: kept from when the directive text was joined onto the world prompt, so that after the split into system blocks the model saw the same bytes.
+- The ambiguity line: the earlier wording "options to offer" made the voice open with a menu. Over five questions the first sentence answered the ask on 2 of 5 turns, and a participant was given "I hear two ways to take your question" instead of an answer. With the instruction removed, 5 of 5.
+- The already-introduced line: three live probes showed the evidence block's own already-introduced header losing to a ground record's first-mention opening ("One of us, Ignatius" reproduced word for word on turn two), so the signal was put in the directive.
+- The no-directive return: written once `_other_tradition_directive` was changed always to return text when called.
+- `canon_questions`: not cached the way `LazyWorldLoader` caches a world's package. `compiled/indexes/canon-map.json` was built for that and nothing reads it yet. This was noted as a follow-up, not a correctness gap, since the corpus derived live is identical.
+- `figures_already_named`: a pilot read found that the session tracked a figure's introduction but only the screen knew it; the voice was never told.

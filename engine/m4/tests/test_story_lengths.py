@@ -1,7 +1,6 @@
 """A story record with shorter reviewed tellings places the length the voice
 names in its marker, checked by code: a missing or unknown length is medium,
-a short or medium telling that does not fit the room in the reply falls to
-the next shorter, and a full telling is not checked for room. The tellings are
+or full when the record has no medium. The tellings are
 built here from a desert story's own sentences."""
 import pytest
 
@@ -9,7 +8,6 @@ from engine.m1.loader import load_world_records
 from engine.m4.grounding_net import _placed_story_verdict, strip_tags
 from engine.m4.quote_placement import PlacementContext
 from engine.m4.story_placement import (
-    REPLY_WORD_ROOM,
     STORY_LENGTH_LINE,
     choose_length,
     place_stories,
@@ -79,18 +77,21 @@ def test_a_story_without_shorter_tellings_places_its_full_telling_whatever_the_m
         assert _shown(base[STORY]["telling"]) in _shown(shaped["text"])
 
 
-def test_a_medium_that_does_not_fit_the_room_falls_to_short_and_a_full_is_not_checked(records):
-    padding = " ".join(["word"] * (REPLY_WORD_ROOM - 20)) + "."
-    medium_fits = _placed(records, "medium")
-    assert medium_fits["placed_lengths"] == {STORY: "medium"}
-    crowded = _placed(records, "medium", before=f"{padding}\n\n")
-    assert crowded["placed_lengths"] == {STORY: "short"}
-    still_full = _placed(records, "full", before=f"{padding}\n\n")
-    assert still_full["placed_lengths"] == {STORY: "full"}
+def test_the_length_the_voice_names_is_placed_whatever_the_replys_own_length(records):
+    padding = " ".join(["word"] * 400) + "."
+    for named in ("short", "medium", "full"):
+        assert _placed(records, named)["placed_lengths"] == {STORY: named}
+        assert _placed(records, named, before=f"{padding}\n\n")["placed_lengths"] == {STORY: named}
 
 
-def test_a_short_telling_that_does_not_fit_is_still_placed_since_nothing_is_shorter(records):
-    assert choose_length(records[STORY], "short", room=1) == "short"
+def test_no_length_named_places_medium_and_an_unknown_length_falls_back_the_same_way(records):
+    assert choose_length(records[STORY], None) == "medium"
+    assert choose_length(records[STORY], "longest") == "medium"
+
+
+def test_the_placement_module_holds_no_fixed_reply_length():
+    import engine.m4.story_placement as story_placement
+    assert not hasattr(story_placement, "REPLY_WORD_ROOM")
 
 
 def test_every_sentence_of_a_shorter_telling_passes_the_net_and_is_cited_to_the_record(records):
