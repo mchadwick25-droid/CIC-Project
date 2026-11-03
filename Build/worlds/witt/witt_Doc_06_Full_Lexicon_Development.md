@@ -22,15 +22,15 @@
 
 **Discipline 3 — gravities and ecology are settled inputs, not subjects (Doc_04 §0; Doc_05 Discipline 8).** No Doc_04 classification is re-tested and no Doc_05 finding is reopened. Where an entry's tier turns on a Doc_04 divergence (G4's prescription/reception split; G10's inverse divergence; G13's bar) or on a Doc_05 finding (the hubs at §10B; the prayer fold at §2.6), the dependency is stated and the finding is applied as it stands. The one thing this document decides that neither prior document could — which *terms* organize the ecology — is this step's own mandate under the Framework.
 
-**Discipline 4 — read, don't infer (Doc_01 §10; Doc_02 preamble; Doc_03 §0; Doc_04 §0; Doc_05 §0).** Every quotation this document makes in its own voice was located in the vendored file at the line given, and the whole document was then re-run against the ten files by script (§10). Nothing below draws on general knowledge of Luther, Lutheranism or the Reformation: where a true thing about this world could not be traced to a rowed locus or to a finding in Doc_01–Doc_05, it was cut or named as a gap. R94's Named-Comparandum bar is observed — no "Here I stand," no *pecca fortiter*, nothing from the 1525 or 1543 texts beyond Doc_02 §12.3–12.4's disclosure characterizations, nothing from the *Deutsche Messe* beyond R59's named absence. No Latin or German lemma is supplied from general knowledge (Doc_03 Discipline 2); the one original-language addition this pass is the one Doc_05 §11 item 2 found in the vendored text itself (*Bekoerunge*, LC 3632–3634, at entry 9.2).
+**Discipline 4 — read, don't infer (Doc_01 §10; Doc_02 preamble; Doc_03 §0; Doc_04 §0; Doc_05 §0).** Every quotation this document makes in its own voice was located in the vendored file at the line given, and the whole document was then re-run against the ten files by script (§10). Nothing below draws on general knowledge of Luther, Lutheranism or the Reformation: where a true thing about this world could not be traced to a rowed locus or to a finding in Doc_01–Doc_05, it was cut or named as a gap. Registry R94's Named-Comparandum bar is observed — no "Here I stand," no *pecca fortiter*, nothing from the 1525 or 1543 texts beyond Doc_02 §12.3–12.4's disclosure characterizations, nothing from the *Deutsche Messe* beyond R59's named absence. No Latin or German lemma is supplied from general knowledge (Doc_03 Discipline 2); the one original-language addition this pass is the one Doc_05 §11 item 2 found in the vendored text itself (*Bekoerunge*, LC 3632–3634, at entry 9.2).
 
 **Discipline 5 — name the layer (Doc_02 §2; Doc_03 Discipline 2; Doc_04 Discipline 3; Doc_05 Discipline 3).** Editors' sidenotes and introductions (Jacobs, Steinhaeuser, Lambert, Schindel, Steimle, Schmauk, Neve; Bacon; Morley; Cole), Bente/Dau's bracketed German-text insertions in LC and Ap, Smith's modern idiom in SC, Bacon's composite hymn English, Bell's 1646 English in TT, and the OCR-degraded *Bondage* are named as layer wherever drawn on and never counted as a voice. Every hymn phrase is Bacon's English unless the German is quoted; the two Winkworth and Massie pieces Doc_05 §11 item 1 identified are attributed to those hands. Every headword is an English translator's; the original-language forms recorded are only those the vendored English itself shows.
 
-**Discipline 6 — World Meaning is written from inside, at Level 2, under the prescription/reception line (Chunk Template; Constitution Articles 23 and 30; Doc_02 §14; Doc_04 Discipline 5).** Each entry's World Meaning is what a participant receives on request at Level 2: the term's function in the world's own ecology, in accessible language, with no analytical-distance markers ("scholars," "the sources indicate," "reconstruction," "historically," "Lutheran," "the Reformation") inside it — a check run over every World Meaning before this draft was closed. The world's own words are quoted with their loci, because a locus is not an analytical marker. Where a locus inside a World Meaning is carried from a prior document without being re-opened here, it carries the build's standard pointer ("per Doc_03," "per Doc_05 §1.2," "[R45]") — a citation of this build's own verification chain, not an analytical-distance marker, and every *quotation* so pointed was in any case re-verified at its line by the script run over the finished draft (§10). Phase B's chunk authoring should strip these pointers from the runtime World Meaning, as the Hieronymian build did for its own chunks, since a chunk cannot assume the construction record is in view; the Ecological Function and Key Sources sections, which serve Level 3, keep them. **The line Doc_02 §14 drew binds every World Meaning:** what the household or the parish was *to* do is stated as prescription, in the world's own imperative ("is to," "should," "as it is set down"); what the movement *claimed* it did is stated as its claim; nothing is stated as any household's or parish's fact, and G13 is never cited as evidence of what any congregation was like (Doc_04 §3 G13's bar). This document does not choose a Representative voice; where a first-person form appears in a World Meaning it is the world's own quoted "I" (the catechism's, the sermons', the confession's "we"), not this document's.
+**Discipline 6 — World Meaning is written from inside, at Level 2, under the prescription/reception line (Chunk Template; Constitution Articles 23 and 30; Doc_02 §14; Doc_04 Discipline 5).** Each entry's World Meaning is what a participant receives on request at Level 2: the term's function in the world's own ecology, in accessible language, with no analytical-distance markers ("scholars," "the sources indicate," "reconstruction," "historically," "Lutheran," "the Reformation") inside it — a check run over every World Meaning before this draft was closed. The world's own words are quoted with their loci, because a locus is not an analytical marker. Where a locus inside a World Meaning is carried from a prior document without being re-opened here, it carries the build's standard pointer ("per Doc_03," "per Doc_05 §1.2," "[Registry R45]") — a citation of this build's own verification chain, not an analytical-distance marker, and every *quotation* so pointed was in any case re-verified at its line by the script run over the finished draft (§10). Phase B's chunk authoring should strip these pointers from the runtime World Meaning, as the Hieronymian build did for its own chunks, since a chunk cannot assume the construction record is in view; the Ecological Function and Key Sources sections, which serve Level 3, keep them. **The line Doc_02 §14 drew binds every World Meaning:** what the household or the parish was *to* do is stated as prescription, in the world's own imperative ("is to," "should," "as it is set down"); what the movement *claimed* it did is stated as its claim; nothing is stated as any household's or parish's fact, and G13 is never cited as evidence of what any congregation was like (Doc_04 §3 G13's bar). This document does not choose a Representative voice; where a first-person form appears in a World Meaning it is the world's own quoted "I" (the catechism's, the sermons', the confession's "we"), not this document's.
 
 **Discipline 7 — living tradition (Constitution Articles 28–29; Lexicon Framework Part VIII).** This world corresponds to a living tradition. **Every entry below reconstructs its term's function within the bounded window 1517–1545, as the vendored texts attest it, and makes no claim about how the term is used, understood or weighted in Lutheran churches, confessions or communities today.** This applies to every headword still in living use — faith, justification, the Word, catechism, baptism, the Sacrament of the Altar, confession, calling, vocation, the two governments and the rest — and to the two [CT] entries most of all, where present-day usage is one of the named contest types. Rather than repeat this sentence sixty-six times, each Tier 1 and Tier 2 entry carries a one-line "Living tradition" field pointing here; the field is a distinction, not a disclaimer, and it is the entry's own Article 28 statement. Where a Distortion Risk section names a "modern hearing," it names a *reader's* likely assumption, never a living community's self-understanding. Living Tradition Status Confirmation (Article 29) is a freeze-eligibility gate outside this document's scope and is not claimed here.
 
-**Discipline 8 — confidence inheritance (Lexicon Framework [43]; Constitution Article 17; Doc_02 §14).** Every claim about how a term *functioned* is calibrated in the five-level vocabulary exactly as Doc_02 §14 set it for this world: the doctrinal and confessional content, the founder's registers and the household-catechetical prescriptions are **Documented**; the movement's claimed parish practice is **Widely Accepted** as claim; every Table Talk saying is **Contested** as verbatim; everything about reception at the parish or household level is **Inferential/Thin**; and the reading of reception as such is **Contested** (the Strauss debate, Doc_02 §8 item 1 [R70–R72]). A term well-attested as *existing* is not thereby granted certainty about how it was *held*; the household entries (4.1, 4.2, 4.8) and every entry that touches reception carry Doc_04's G4 qualifier explicitly. The ten [AS] tags remain **Inferential/Thin** as comparative claims (Doc_03 §0; OG-3), unchanged, since no neighbour's lexicon exists yet.
+**Discipline 8 — confidence inheritance (Lexicon Framework [43]; Constitution Article 17; Doc_02 §14).** Every claim about how a term *functioned* is calibrated in the five-level vocabulary exactly as Doc_02 §14 set it for this world: the doctrinal and confessional content, the founder's registers and the household-catechetical prescriptions are **Documented**; the movement's claimed parish practice is **Widely Accepted** as claim; every Table Talk saying is **Contested** as verbatim; everything about reception at the parish or household level is **Inferential/Thin**; and the reading of reception as such is **Contested** (the Strauss debate, Doc_02 §8 item 1 [Registry R70–R72]). A term well-attested as *existing* is not thereby granted certainty about how it was *held*; the household entries (4.1, 4.2, 4.8) and every entry that touches reception carry Doc_04's G4 qualifier explicitly. The ten [AS] tags remain **Inferential/Thin** as comparative claims (Doc_03 §0; OG-3), unchanged, since no neighbour's lexicon exists yet.
 
 **Discipline 9 — cross-world consistency (Lexicon Framework Part VII).** Every entry is grounded in this world's own evidence only. Nothing is imported from the Gallic or Hieronymian lexicons, whose Doc_06s were read for structure and for known error classes (Discipline 10) and not for content; where a [SC]-tagged term here has a namesake in another built world (grace, merit, confession, obedience, perfection, the devil, martyr, patience), no cross-reference is made and no equivalence of meaning is assumed. Apparent similarity is Differentiation Testing's finding to make later, not this document's assumption.
 
@@ -161,7 +161,7 @@ Retrieval need ([RT]) and distortion risk ([DR]) are not tier criteria on their 
 
 **Promoted (3).**
 
-- **4.9 hymn / German singing → Tier 1.** The one promotion into Tier 1, and the one place this document applies [148]'s rule in the promoting direction. Doc_03 held it at Tier 2 with "A Preface to All Good Hymn-Books" unread. Doc_05 read it (§11 item 1) and, across §3, found the hymn organizing worship's formation ("German hymns, which have been added to teach the people," AC 790–791), its memory (the old tunes kept and re-worded, Hy 1009–1019; the hymnal "with name attached," Hy 1084), its belonging (Vespers for the students, Hy 772–774) and its authority (the 1543 guard on "our book," Hy 1090–1094); §6B makes the hymn a memory institution; §7.1 makes "our book / not our book" a boundary. G11 — the Supporting gravity with the fullest non-founder attestation in the build (Doc_04 §3 G11: Walter, Karsthans, Spangenberg) — has no other candidate term; "German" and "vernacular" are not Doc_03 headwords. Doc_02 §3.1 names the hymn as one of the registers with the widest actual congregational reach. **The evidential weakness is disclosed in the entry rather than used to hold the tier down:** no hymn text beyond four openings has been read in this build (Doc_05 §13 item 8), the tunes are absent from the file (R27), and every English line is Bacon's composite rendering. That is exactly the case [148] describes.
+- **4.9 hymn / German singing → Tier 1.** The one promotion into Tier 1, and the one place this document applies [148]'s rule in the promoting direction. Doc_03 held it at Tier 2 with "A Preface to All Good Hymn-Books" unread. Doc_05 read it (§11 item 1) and, across §3, found the hymn organizing worship's formation ("German hymns, which have been added to teach the people," AC 790–791), its memory (the old tunes kept and re-worded, Hy 1009–1019; the hymnal "with name attached," Hy 1084), its belonging (Vespers for the students, Hy 772–774) and its authority (the 1543 guard on "our book," Hy 1090–1094); §6B makes the hymn a memory institution; §7.1 makes "our book / not our book" a boundary. G11 — the Supporting gravity with the fullest non-founder attestation in the build (Doc_04 §3 G11: Walter, Karsthans, Spangenberg) — has no other candidate term; "German" and "vernacular" are not Doc_03 headwords. Doc_02 §3.1 names the hymn as one of the registers with the widest actual congregational reach. **The evidential weakness is disclosed in the entry rather than used to hold the tier down:** no hymn text beyond four openings has been read in this build (Doc_05 §13 item 8), the tunes are absent from the file (Registry R27), and every English line is Bacon's composite rendering. That is exactly the case [148] describes.
 - **8.6 fasting → Tier 2** and **8.8 images → Tier 2.** Both cross [144]'s line. Fasting now carries a Doc_05 §1.2 function ("The body's food is the 'must'/'free' distinction (G8) applied at the table") and a paired Distortion Risk (the assumption that this world abolished fasting, against "excellent disciplines for the body," SC 530–531); Ap XV, read this pass, adds the confession's own statement of what fasting is for (Ap 6950–6960). Images now has its own texts — the Third and Fourth Sermons, read at Doc_05 (§11 item 4): "we are free to have them or not" (v2 15062–15063), "images are neither here nor there" (v2 15204–15205) — and a paired Distortion Risk against the iconoclasm expectation; Ap 7610–7616 gives it a confessional voice for the first time. Neither can be a one-line entry.
 
 **Demoted from Tier 2 to Tier 3 (2).**
@@ -212,10 +212,10 @@ The contest is whether the later systematic label — a "two kingdoms doctrine" 
 ### 2.3 Considered for [CT] and not tagged, with reasons
 
 - **5.3 the bodily presence / "in and under."** The controversy with the Reformed is the sharpest doctrinal contest this world was party to, but it is a contest *between traditions* about the sacrament, not a live *scholarly* contest about the term's meaning, scope or application; Article 26's bar is scholarly contest within the subfield. What this library shows is the doctrine stated three times without change (Doc_04 §3 G10) and the controversy absent (R56, R57 unvendored). Tagging would invent a contest the Registry does not record; the boundary is carried as Distortion Risk and as Doc_04 §6.3's inverse divergence.
-- **4.1 catechism / 4.2 household — reception.** The Strauss–Scribner–Kittelson debate (R70–R72; Doc_02 §8 item 1) is a genuine, rowed scholarly contest, but it concerns whether the *program* was *received*, not what the term "catechism" or "household" meant or whether it applied to this world. It is carried as the **Contested** confidence tag on reception inside those entries, per Doc_04's G4 divergence, not as [CT] on the term.
-- **6.7 "Antichrist."** The apocalyptic reading of the frame (Oberman, R82) is a rowed secondary position, but Doc_04 §3 G12 holds it "Dominant Modern Reconstruction at most and unread" and builds nothing on it; a contest about how to *read* the world's adversary frame is not a contest about the term's meaning in the texts, which is Documented.
+- **4.1 catechism / 4.2 household — reception.** The Strauss–Scribner–Kittelson debate (Registry R70–R72; Doc_02 §8 item 1) is a genuine, rowed scholarly contest, but it concerns whether the *program* was *received*, not what the term "catechism" or "household" meant or whether it applied to this world. It is carried as the **Contested** confidence tag on reception inside those entries, per Doc_04's G4 divergence, not as [CT] on the term.
+- **6.7 "Antichrist."** The apocalyptic reading of the frame (Oberman, Registry R82) is a rowed secondary position, but Doc_04 §3 G12 holds it "Dominant Modern Reconstruction at most and unread" and builds nothing on it; a contest about how to *read* the world's adversary frame is not a contest about the term's meaning in the texts, which is Documented.
 - **1.2 repentance / penance.** The Jacobs footnote (v1 1522–1524) shows a translation ambiguity, not a scholarly contest; carried as Distortion Risk.
-- **2.9 free will.** The Erasmus debate is this world's own argument, not a live scholarly contest about the term; the OCR problem is an evidence-quality flag (R34), not a contest.
+- **2.9 free will.** The Erasmus debate is this world's own argument, not a live scholarly contest about the term; the OCR problem is an evidence-quality flag (Registry R34), not a contest.
 - **The ten [AS] tags.** Their comparative claims are Inferential/Thin (OG-3), which is a confidence status, not a contest.
 
 No other candidate carries [CT]. Two tags, both provisional, both with contest types stated: that is the whole [CT] set, and §6's index column records it.
@@ -262,7 +262,7 @@ Ap Articles II, VII–VIII, IX–XI, XVI–XXIII and XXVIII, and the parts of IV
 | 5.4 "for you" | 1 / 5 | Ap 5159–5162 ("the words of the Lord's Supper clearly testify… This is My body, which is given for you"); 9182 | **none** as quotation of the institution; the "put yourself into this YOU" development stays Luther's — stated as a compound in the entry |
 | 6.1 spiritual / temporal estate | 10 / 6 | Ap 9765–9767 (bracketed: "states of perfection, i.e., holier and higher states than the rest, such as marriage, rulership"); 6789 ("the title of a perfect and spiritual life") — the *Stand* vocabulary, never the spiritual/temporal pairing | **Luther-only, cross-register — confirmed** for the pairing; Melanchthon's "states" and "estates of life" noted |
 | 6.2 we are all priests | 0 / 12 | Ap 6463–6477 (priesthood "not… sacrifice… but they are called to teach the Gospel and administer the Sacraments"); 8719–8721 ("as Peter teaches, 1. Ep. 2, 5: An holy priesthood, to offer up spiritual sacrifices" — of all the reconciled) | **none, weighted to Luther** — the universal priesthood is attested in the Apology's sacrifice argument (8712–8724), the formula is Luther's |
-| 7.4 insurrection / common man | 0 / 0 ("sedition" 0 / 2) | Ap 10002–10006 (bracketed: "through such commendations Muentzer was deceived, and thereby many Anabaptists were led astray") — a 1531 retrospect on 1525, not the 1522 vocabulary | **Luther-only, cross-register, period-bound — confirmed**; the Ap sentence is recorded at the entry as the one confessional glance at [F-pop], and as a glance it does not lift R94's bar on 1525 |
+| 7.4 insurrection / common man | 0 / 0 ("sedition" 0 / 2) | Ap 10002–10006 (bracketed: "through such commendations Muentzer was deceived, and thereby many Anabaptists were led astray") — a 1531 retrospect on 1525, not the 1522 vocabulary | **Luther-only, cross-register, period-bound — confirmed**; the Ap sentence is recorded at the entry as the one confessional glance at [F-pop], and as a glance it does not lift Registry R94's bar on 1525 |
 | 8.8 images | 2 / 18 | Ap 7605–7616 ("From invocation the next step was to images; these also were worshiped… a statue of the blessed Virgin, which moved automatically by a trick"); 8946, 9001 (images among "trifles") | **none** — both voices |
 | 9.2 temptation / trial | 0 / 6 ("trial" 0 / 3) | Ap 3737–3738 ("in the midst of good works, temptations, and dangers"); 5155 ("this faith is nourished in a manifold way in temptations"); 5550 (bracketed: "in agony of death and temptation") | **none** — both voices; no Ap gloss of a German word |
 | 9.4 death | 4 / 129 | Ap 1439–1442 ("how will such persons sustain themselves in death"); 5550; 8577–8579 ("the terrors of sin and death must be overcome by faith") | **none** for death as the terror faith overcomes; **Luther-only** for the sleep/burial register (Hy 957–987) — stated as a compound |
@@ -296,7 +296,7 @@ Organized in Doc_03's own nine thematic clusters, not alphabetically ([59]: "alp
 
 **Key Texts.** v1 1230–1232 (Th. 21), 1253–1254 (Th. 27), 1285–1286 (Th. 36), 1348–1349; 1553–1554 (Jacobs's footnote: Luther "uses the terms 'pardon' and 'indulgence' interchangeably" — layer); LC 3805–3807; Ap 6365–6378.
 
-**Key Sources.** [R2] the Ninety-Five Theses (Jacobs's English, with the file's own corrupted numbering — Doc_03 §0); [R38] Ap XII and VI on satisfactions, read this pass. Author Gravity: none; the Apology's account of what indulgences "formerly" were is the confessional voice's own history, not the founder's.
+**Key Sources.** [R2] the Ninety-Five Theses (Jacobs's English, with the file's own corrupted numbering — Doc_03 §0); [Registry R38] Ap XII and VI on satisfactions, read this pass. Author Gravity: none; the Apology's account of what indulgences "formerly" were is the confessional voice's own history, not the founder's.
 
 **Related Terms.** 1.2 repentance; 1.4 satisfaction; 1.5 purgatory; 1.6 the keys; 2.4 merit; 9.3 assurance; 3.2 Gospel; 6.7 pope/Antichrist.
 
@@ -318,7 +318,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Key Texts.** v1 1154–1160 (Th. 1–2); v1 1522–1524 (Jacobs's fn. [1] — layer); v2 8953–8954, 8976–8977; AC 344–349; Ap 4936–4937, 5068–5074, 5078–5080, 5124–5128; SC 398–400.
 
-**Key Sources.** [R2] the Theses; [R12] *Babylonian Captivity*, the sacrament of penance; [R37] AC XII; [R38] Ap XII, read to 5234 this pass; [R26] SC on baptism. Author Gravity: none — the confessional development is Melanchthon's own, the daily form Luther's, the founding sentence Luther's.
+**Key Sources.** [R2] the Theses; [Registry R12] *Babylonian Captivity*, the sacrament of penance; [R37] AC XII; [R38] Ap XII, read to 5234 this pass; [R26] SC on baptism. Author Gravity: none — the confessional development is Melanchthon's own, the daily form Luther's, the founding sentence Luther's.
 
 **Related Terms.** 1.1 indulgence; 1.3 contrition; 1.4 satisfaction; 1.6 the keys; 2.1 faith; 2.6 Law and Gospel; 2.8 conscience; 5.2 baptism; 5.10 confession/absolution; 9.3 assurance.
 
@@ -334,7 +334,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* contrition as the adequate emotional condition for forgiveness — "if I'm sorry enough." *World Hearing:* a terror the Word itself produces, never sure of itself, worthless without faith, and never a merit.
 
-**Key Texts.** Ap 5078–5082 (read this pass); v2 8968–8977; AC 344–345. **Key Sources.** [R38] Ap XII; [R12]. Author Gravity: none.
+**Key Texts.** Ap 5078–5082 (read this pass); v2 8968–8977; AC 344–345. **Key Sources.** [Registry R38] Ap XII; [R12]. Author Gravity: none.
 
 **Related Terms.** 1.2 repentance; 1.6 the keys; 2.8 conscience; 2.6 Law and Gospel.
 
@@ -350,7 +350,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* the two referents collapse — "satisfaction" as a single doctrine, or as contentment. *World Hearing:* two referents held apart by ownership: ours, refused; Christ's, sufficient.
 
-**Key Texts.** AC 237–238 against AC 400–404; Ap 5003–5020; Ap 8672–8673. **Key Sources.** [R37] AC IV, XV, XXIV; [R38] Ap XII, XXIV. Author Gravity: none.
+**Key Texts.** AC 237–238 against AC 400–404; Ap 5003–5020; Ap 8672–8673. **Key Sources.** [Registry R37] AC IV, XV, XXIV; [R38] Ap XII, XXIV. Author Gravity: none.
 
 **Related Terms.** 1.1 indulgence; 1.2 repentance; 2.2 justification; 2.4 merit; 5.6 the mass.
 
@@ -366,7 +366,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* that this world never used the word, or that its founder denied it from the first day. *World Hearing:* a word he reasoned inside in 1517 and the movement had refused by 1531 — a real change the entry states rather than flattens.
 
-**Key Texts.** v1 1213–1214; Ap 6363–6377 (read this pass); Hy 975–978, 1015–1017 (Bacon's English). **Key Sources.** [R2]; [R38]; [R28] the 1542 preface. Author Gravity: none.
+**Key Texts.** v1 1213–1214; Ap 6363–6377 (read this pass); Hy 975–978, 1015–1017 (Bacon's English). **Key Sources.** [R2]; [Registry R38]; [R28] the 1542 preface. Author Gravity: none.
 
 **Related Terms.** 1.1 indulgence; 1.6 the keys; 9.4 death.
 
@@ -382,7 +382,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* "the keys" as a papal or clerical power over people. *World Hearing:* a ministry of the Word held by the whole community, whose only object is sin, and whose whole point is a conscience made sure.
 
-**Key Texts.** v2 2388–2392; v2 8917–8928; Ap 4955–4956, 5141–5152 (read this pass). **Key Sources.** [R11]; [R12]; [R38] Ap XII. Author Gravity: none.
+**Key Texts.** v2 2388–2392; v2 8917–8928; Ap 4955–4956, 5141–5152 (read this pass). **Key Sources.** [Registry R11]; [R12]; [R38] Ap XII. Author Gravity: none.
 
 **Related Terms.** 1.1 indulgence; 1.3 contrition; 1.5 purgatory; 3.1 the Word; 5.10 confession/absolution; 6.2 we are all priests; 1.2 repentance; 3.3 Scripture against Fathers; 6.7 pope/Antichrist.
 
@@ -398,7 +398,7 @@ In the household the word is daily and bodily. Baptism means "the old Adam in us
 
 **Distortion Risk.** *Modern Hearing:* "the cross" as a system ("theology of the cross") or as voluntary austerity. *World Hearing:* affliction sent, not chosen; a banner and a battle, not a method.
 
-**Key Texts.** v1 1506–1518; AC 1043–1046; Ap 6938–6944 (read this pass). **Key Sources.** [R2]; [R37] AC XXVI; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** v1 1506–1518; AC 1043–1046; Ap 6938–6944 (read this pass). **Key Sources.** [R2]; [Registry R37] AC XXVI; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 5.2 baptism; 9.2 temptation; 8.5 perfection; 4.7 the devil.
 
@@ -422,7 +422,7 @@ In the parish the word is preached as received: the second of the "chief things"
 
 **Key Texts.** v1 6834–6842; v2 7341–7344; v2 11713–11714, 11720–11722; v2 14657–14664, 14689–14690, 14790–14792; LC 3916–3921; AC 234–239, 568–583; Ap 898–935, 1045–1048, 1091–1104, 1114–1122; Hy 1284–1293 (Bacon's English).
 
-**Key Sources.** [R6] *Good Works*; [R12] *Babylonian Captivity*; [R13] *Christian Liberty*; [R15] the Sermons; [R25] LC; [R37] AC IV, XX; [R38] Ap IV, read this pass to 1457 — the article's later reply to the adversaries (1457–4183) unread; [R27] Hymn I. Author Gravity: none — the safest vocabulary in the lexicon (Doc_03 §10.1).
+**Key Sources.** [R6] *Good Works*; [Registry R12] *Babylonian Captivity*; [R13] *Christian Liberty*; [R15] the Sermons; [R25] LC; [R37] AC IV, XX; [R38] Ap IV, read this pass to 1457 — the article's later reply to the adversaries (1457–4183) unread; [R27] Hymn I. Author Gravity: none — the safest vocabulary in the lexicon (Doc_03 §10.1).
 
 **Related Terms.** 2.2 justification; 2.3 good works; 2.5 grace; 2.7 promise/testament; 2.8 conscience; 2.6 Law and Gospel; 2.10 sin; 3.1 the Word; 5.1 sacrament; 5.11 worthy/examination; 7.5 must and free; 4.4 to have a god; 9.3 assurance; 1.2 repentance; 5.4 for you; 6.8 sects; 8.1 vows; 9.2 temptation.
 
@@ -436,7 +436,7 @@ In the parish the word is preached as received: the second of the "chief things"
 
 The word does two things at once, and the confessional voice says so on purpose. "We maintain this, that properly and truly, by faith itself, we are for Christ's sake accounted righteous, or are acceptable to God. And because 'to be justified' means that out of unjust men just men are made, or born again, it means also that they are pronounced or accounted just. For Scripture speaks in both ways" (Ap 1080–1085); the bracketed German adds, "The term 'to be justified' is used in two ways: to denote, being converted or regenerated; again, being accounted righteous" (Ap 1085–1087). And so: "by faith alone we are justified, understanding justification as the making of a righteous man out of an unrighteous, or that he be regenerated" (Ap 1120–1122). What is excluded is not works but *confidence* in works: "confidence in the merit of love or of works is excluded in justification" (Ap 1102–1103); what is refused is the *fides formata* by which the schools "do not ascribe justification to faith except on account of love," because then "the remission of sins will always be uncertain, because we never love as much as we ought" (Ap 1384–1391).
 
-The word's purpose, in this world, is certainty. "In this they have sure and firm consolation against the terrors of sin, and against eternal death and against all the gates of hell. [Everything else is a foundation of sand that sinks in trials.]" (Ap 1206–1209). The confession makes the whole doctrine depend on the conscience in conflict, "neither can it be understood apart from that conflict" (AC 552–553). Justification is what a terrified conscience is *given*; the adversaries "bid them doubt whether they obtain remission of sins" and "how will such persons sustain themselves in death?" (Ap 1438–1441). The sharpest single admission in the library is the founder's, to Erasmus: that he alone "saw, what was the [grand] hinge, upon which the [whole] turned" — free will, the ground of merit (Co 15139–15142, OCR as found and recovered per [R34]).
+The word's purpose, in this world, is certainty. "In this they have sure and firm consolation against the terrors of sin, and against eternal death and against all the gates of hell. [Everything else is a foundation of sand that sinks in trials.]" (Ap 1206–1209). The confession makes the whole doctrine depend on the conscience in conflict, "neither can it be understood apart from that conflict" (AC 552–553). Justification is what a terrified conscience is *given*; the adversaries "bid them doubt whether they obtain remission of sins" and "how will such persons sustain themselves in death?" (Ap 1438–1441). The sharpest single admission in the library is the founder's, to Erasmus: that he alone "saw, what was the [grand] hinge, upon which the [whole] turned" — free will, the ground of merit (Co 15139–15142, OCR as found and recovered per [Registry R34]).
 
 **Ecological Function.** G1's confessional name and the Apology's whole Article IV; presupposes 2.1 (its instrument), 2.10 (its presupposition), 2.7 (its logic), 2.4 (what it excludes), 1.4 (its ground in Christ's satisfaction); lands in 2.8 (its site) and yields 9.3 (its purpose) and 2.3 (what follows it). Doc_05 §9A pattern 1. A participant who understands this term understands why this world's Representative Theological Patterns begin here and why the confession's order puts Article IV before the ministry (V).
 
@@ -444,7 +444,7 @@ The word's purpose, in this world, is certainty. "In this they have sure and fir
 
 **Key Texts.** AC 234–239, 515–516, 546–553; Ap 561–562, 857–888, 1053–1104, 1114–1122, 1186–1223, 1377–1449 (read this pass); v2 11737–11745; Co 15139–15142 (OCR as found).
 
-**Key Sources.** [R37] AC IV, XX; [R38] Ap IV to 1457, read this pass (1457–4183 unread); [R13] *Christian Liberty*; [R34] *Bondage* (OCR-degraded; per-quotation re-check required). Author Gravity: weighted to the Apology for the technical development, the founder attesting the doctrine in every register — the same double classification Doc_03 §10.1 gives.
+**Key Sources.** [Registry R37] AC IV, XX; [R38] Ap IV to 1457, read this pass (1457–4183 unread); [R13] *Christian Liberty*; [R34] *Bondage* (OCR-degraded; per-quotation re-check required). Author Gravity: weighted to the Apology for the technical development, the founder attesting the doctrine in every register — the same double classification Doc_03 §10.1 gives.
 
 **CT Contest Type.** *Meaning within its historical context:* the two wordings — "imputes for righteousness" (AC 238) and "the making of a righteous man out of an unrighteous" (Ap 1121) — occur in the world's own texts, and Ap 1085–1087 names them as two uses of one term; how they relate is a specialist question this library does not settle. *Relationship to present-day traditions:* the term is in active use in more than one living tradition that reads these wordings differently; this entry characterizes no present-day reading. **Status: provisional — no secondary source is rowed for the contest (Doc_03 §11 item 4; OG-4); §2 states the leads proposed for the Registry owner and the rule that the tag does not reach a deployment chunk without a row.**
 
@@ -462,7 +462,7 @@ The word's purpose, in this world, is certainty. "In this they have sure and fir
 
 **Distortion Risk.** *Modern Hearing:* "works" as charity or ritual, and "faith alone" as their abolition. *World Hearing:* the whole of ordinary life, commanded and therefore good in faith; necessary, and worth nothing as a price.
 
-**Key Texts.** v1 6817–6818, 6863–6870; AC 496, 585–587; Ap 1101–1103, 6788–6793. **Key Sources.** [R6] *Good Works* (opening only read, 6713–6882; the treatise's Decalogue exposition, v1 6883–10599, unread); [R38]. Author Gravity: none.
+**Key Texts.** v1 6817–6818, 6863–6870; AC 496, 585–587; Ap 1101–1103, 6788–6793. **Key Sources.** [R6] *Good Works* (opening only read, 6713–6882; the treatise's Decalogue exposition, v1 6883–10599, unread); [Registry R38]. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.2 justification; 2.4 merit; 6.4 calling; 6.3 office; 8.5 perfection; 4.6 neighbor.
 
@@ -478,7 +478,7 @@ The word's purpose, in this world, is certainty. "In this they have sure and fir
 
 **Distortion Risk.** *Modern Hearing:* "merit" as deserving in general. *World Hearing:* a technical claim that works earn grace — refused in its own Latin, with all merit given to Christ.
 
-**Key Texts.** Ap 681–686, 868–869; AC 234–235; Ap 9762–9774 (read this pass). **Key Sources.** [R38]; [R37]. Author Gravity: none; the Latin is the adversaries' as Melanchthon quotes it.
+**Key Texts.** Ap 681–686, 868–869; AC 234–235; Ap 9762–9774 (read this pass). **Key Sources.** [Registry R38]; [R37]. Author Gravity: none; the Latin is the adversaries' as Melanchthon quotes it.
 
 **Related Terms.** 2.2 justification; 2.3 good works; 1.4 satisfaction; 1.1 indulgence; 8.1 vows; 8.5 perfection; 2.9 free will.
 
@@ -494,7 +494,7 @@ The word's purpose, in this world, is certainty. "In this they have sure and fir
 
 **Distortion Risk.** *Modern Hearing:* grace as a substance infused, or as leniency. *World Hearing:* a favour freely given, received by faith, and known as a *gracious God* — a person, not a quantity.
 
-**Key Texts.** SC 181–183; LC 2967–2975; v2 15723–15724. **Key Sources.** [R26]; [R25]; [R15]. Author Gravity: none.
+**Key Texts.** SC 181–183; LC 2967–2975; v2 15723–15724. **Key Sources.** [Registry R26]; [R25]; [R15]. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.2 justification; 2.6 Law and Gospel; 2.8 conscience; 9.1 comfort.
 
@@ -514,7 +514,7 @@ The distinction is the catechism's own order. The Commandments "teach a man to k
 
 **Key Texts.** v2 11782–11788, 11817–11822; v2 13202–13210; LC 2967–2975; Ap 579–580, 820–824, 857–867; v3 12239–12241; v1 10917–10918.
 
-**Key Sources.** [R13] *Christian Liberty*; [R14] the *Kurze Form*; [R25] LC; [R38] Ap IV; [R20] *Secular Authority*. Author Gravity: none; the one-sentence rule is Melanchthon's, the two-part argument Luther's.
+**Key Sources.** [Registry R13] *Christian Liberty*; [R14] the *Kurze Form*; [R25] LC; [R38] Ap IV; [R20] *Secular Authority*. Author Gravity: none; the one-sentence rule is Melanchthon's, the two-part argument Luther's.
 
 **Related Terms.** 2.1 faith; 2.7 promise/testament; 2.8 conscience; 1.2 repentance; 1.3 contrition; 3.1 the Word; 3.2 Gospel; 3.5 letter and spirit; 4.1 catechism; 9.3 assurance; 2.10 sin; 2.5 grace.
 
@@ -534,7 +534,7 @@ At the altar the promise has a name. "A testament, as every one knows, is a prom
 
 **Key Texts.** v1 11044–11053; v2 7292–7294, 7305–7344; AC 367–372; Ap 928–935, 6434–6444 (read this pass); LC 3121–3123, 4370–4373.
 
-**Key Sources.** [R7] *New Testament*; [R12] *Babylonian Captivity*; [R37] AC XIII; [R38] Ap IV, XIII; [R25] LC. Author Gravity: none.
+**Key Sources.** [R7] *New Testament*; [Registry R12] *Babylonian Captivity*; [R37] AC XIII; [R38] Ap IV, XIII; [R25] LC. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.2 justification; 2.6 Law and Gospel; 5.1 sacrament; 5.3 Sacrament of the Altar; 5.6 the mass; 5.10 confession/absolution; 9.5 prayer; 9.3 assurance; 3.1 the Word; 3.2 Gospel; 5.4 for you.
 
@@ -556,7 +556,7 @@ The word is wider in the world's own tongue than in English: the translator reco
 
 **Key Texts.** AC 344–345, 396–398, 546–553, 1281–1282; Ap 698–699, 818–824, 1206–1209; v2 14798–14801, 14960–14961, 15694–15695, 15709–15724, 15902–15904, 15915–15920; LC 510–511; TT 3083–3084 (Bell's English); v3 7180 (Steinhaeuser's footnote — layer).
 
-**Key Sources.** [R37] AC XX, XV, XXVIII; [R38] Ap IV, XII; [R15] the Sermons; [R16] *Doctrines of Men*; [R25] LC; [R31] TT (Contested as verbatim); [R18] *Magnificat* footnote only. Author Gravity: none.
+**Key Sources.** [Registry R37] AC XX, XV, XXVIII; [R38] Ap IV, XII; [R15] the Sermons; [R16] *Doctrines of Men*; [R25] LC; [R31] TT (Contested as verbatim); [R18] *Magnificat* footnote only. Author Gravity: none.
 
 **Related Terms.** 1.2 repentance; 1.3 contrition; 2.1 faith; 2.2 justification; 2.6 Law and Gospel; 3.4 doctrines of men; 5.10 confession/absolution; 5.11 worthy/examination; 7.1 two governments; 7.5 must and free; 9.1 comfort; 9.3 assurance; 9.4 death; 2.5 grace; 7.3 obedience.
 
@@ -566,13 +566,13 @@ The word is wider in the world's own tongue than in English: the translator reco
 
 **Quick Meaning.** A will that can choose civil righteousness but has "no power, without the Holy Ghost, to work the righteousness of God" — denied against Erasmus in a book that also defends the very posture of *asserting*.
 
-**World Meaning.** The confession grants the will "some liberty to choose civil righteousness" and denies it "power, without the Holy Ghost, to work the righteousness of God" (AC 452–455, per Doc_03). The founder's sustained argument locates the bondage in a war: "there are two kingdoms in the world mutually militating against each other. — That Satan reigns in the one… [I]n the other kingdom Christ reigns" (Co 14747–14759, OCR as found and recovered per Doc_04 §3 G12) — a different "two kingdoms" from 7.1's. And the argument's own manner is part of its content: "Allow us to be assertors, and to study and delight in assertions" (Co 755–756); "The Holy Spirit is not a sceptic" (Co 759–762, OCR-recovered reading per [R34]). The hymn puts the doctrine in a stanza: "Free-will against God's judgment fought, / And dead to good remained" (Hy 1286–1287, Bacon's English).
+**World Meaning.** The confession grants the will "some liberty to choose civil righteousness" and denies it "power, without the Holy Ghost, to work the righteousness of God" (AC 452–455, per Doc_03). The founder's sustained argument locates the bondage in a war: "there are two kingdoms in the world mutually militating against each other. — That Satan reigns in the one… [I]n the other kingdom Christ reigns" (Co 14747–14759, OCR as found and recovered per Doc_04 §3 G12) — a different "two kingdoms" from 7.1's. And the argument's own manner is part of its content: "Allow us to be assertors, and to study and delight in assertions" (Co 755–756); "The Holy Spirit is not a sceptic" (Co 759–762, OCR-recovered reading per [Registry R34]). The hymn puts the doctrine in a stanza: "Free-will against God's judgment fought, / And dead to good remained" (Hy 1286–1287, Bacon's English).
 
 **Ecological Function.** The ground of 2.4's refusal (the "grand hinge," Co 15139–15142) and of 2.2; the Erasmus debate is the one sustained argument in the library [B]. Not an organizer beyond G1.
 
 **Distortion Risk.** *Modern Hearing:* "free will" as a philosophical problem about determinism, or as this world denying all human choice. *World Hearing:* a will free for civil things and bound toward God — and a world that will *assert* this rather than hold it as an opinion.
 
-**Key Texts.** AC 452–455; Co 755–762, 14747–14759 (OCR as found). **Key Sources.** [R37] AC XVIII; [R34] *Bondage*, OCR-degraded, "every further quotation needs its own character-level re-check"; [R27] Hymn I. Author Gravity: weighted to one OCR-degraded work — disclosed, not used to demote.
+**Key Texts.** AC 452–455; Co 755–762, 14747–14759 (OCR as found). **Key Sources.** [Registry R37] AC XVIII; [R34] *Bondage*, OCR-degraded, "every further quotation needs its own character-level re-check"; [R27] Hymn I. Author Gravity: weighted to one OCR-degraded work — disclosed, not used to demote.
 
 **Related Terms.** 2.2 justification; 2.4 merit; 2.10 sin; 7.1 two governments; 4.7 the devil.
 
@@ -588,7 +588,7 @@ The word is wider in the world's own tongue than in English: the translator reco
 
 **Distortion Risk.** *Modern Hearing:* sin as a discrete wrong act, or as guilt-feeling. *World Hearing:* an inherited disease of origin — no fear, no trust, disordered desire — that only faith, not effort, answers.
 
-**Key Texts.** AC 192–207; Ap 783–803 (read this pass); SC 398–400. **Key Sources.** [R37] AC II; [R38] Ap IV. Author Gravity: Melanchthon-only for the definition as read.
+**Key Texts.** AC 192–207; Ap 783–803 (read this pass); SC 398–400. **Key Sources.** [Registry R37] AC II; [R38] Ap IV. Author Gravity: Melanchthon-only for the definition as read.
 
 **Related Terms.** 2.1 faith; 2.2 justification; 2.6 Law and Gospel; 2.9 free will; 4.4 to have a god; 5.2 baptism.
 
@@ -612,7 +612,7 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Key Texts.** v2 11679–11680, 11701–11703; v2 14856–14866, 14917–14918, 14931, 15293–15294; v2 2384–2390; v2 15977–15978; v1 268–269, 292–294; LC 46–47, 130–138, 143–145, 2800–2802, 3861–3864; AC 246–255, 631–633, 1339–1344; Hy 3695 (Bacon's English).
 
-**Key Sources.** [R13] *Christian Liberty*; [R15] the Sermons (Sermon 2's *jus verbi* passage verified by two passes, Doc_04 §9); [R11] *Christian Nobility*; [R16] *Doctrines of Men*; [R1] the 1539 preface; [R25] LC; [R37] AC V, VII, XXVIII; [R29] Hymn XXVI. Author Gravity: none. Layer: Lambert's footnote glossing *Mein Wort* as "the message contained in the words. Luther does not claim for himself any form of inspiration" (v3 11232, per Doc_03) is editorial.
+**Key Sources.** [Registry R13] *Christian Liberty*; [R15] the Sermons (Sermon 2's *jus verbi* passage verified by two passes, Doc_04 §9); [R11] *Christian Nobility*; [R16] *Doctrines of Men*; [R1] the 1539 preface; [R25] LC; [R37] AC V, VII, XXVIII; [R29] Hymn XXVI. Author Gravity: none. Layer: Lambert's footnote glossing *Mein Wort* as "the message contained in the words. Luther does not claim for himself any form of inspiration" (v3 11232, per Doc_03) is editorial.
 
 **Related Terms.** 2.1 faith; 2.6 Law and Gospel; 2.7 promise/testament; 3.2 Gospel; 3.3 Scripture against Fathers; 3.4 doctrines of men; 3.5 letter and spirit; 3.6 Christ alone; 4.1 catechism; 4.7 the devil; 4.9 hymn; 5.1 sacrament; 5.8 congregation; 6.3 office; 6.8 sects; 7.5 must and free; 1.6 the keys; 7.4 insurrection.
 
@@ -628,7 +628,7 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Distortion Risk.** *Modern Hearing:* "the Gospel" as the four books, or as Christianity in general. *World Hearing:* the promise of forgiveness for Christ's sake specifically — the treasure the indulgence-sellers had buried, and a light this world experienced as risen again.
 
-**Key Texts.** v1 1387–1388; AC 277–279; Ap 861–863; Hy 911–912. **Key Sources.** [R2]; [R37] AC VII; [R28]. Author Gravity: none.
+**Key Texts.** v1 1387–1388; AC 277–279; Ap 861–863; Hy 911–912. **Key Sources.** [R2]; [Registry R37] AC VII; [R28]. Author Gravity: none.
 
 **Related Terms.** 2.6 Law and Gospel; 2.7 promise/testament; 3.1 the Word; 5.8 congregation; 1.1 indulgence.
 
@@ -644,7 +644,7 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Distortion Risk.** *Modern Hearing:* "Scripture alone" as a slogan meaning the Fathers and councils are worthless, or as private interpretation. *World Hearing:* the Fathers as witnesses to be judged by Scripture's light and cited as corroboration; a rule stated with two voices — one sharp, one additive — and never as a Latin formula.
 
-**Key Texts.** v1 268–269, 283–294; v2 2384–2390, 2413–2416; AC 534–537, 631–633. **Key Sources.** [R1] the 1539 preface; [R11]; [R37] AC XX–XXI. Author Gravity: Luther-only for the sharp form — disclosed.
+**Key Texts.** v1 268–269, 283–294; v2 2384–2390, 2413–2416; AC 534–537, 631–633. **Key Sources.** [R1] the 1539 preface; [Registry R11]; [R37] AC XX–XXI. Author Gravity: Luther-only for the sharp form — disclosed.
 
 **Related Terms.** 3.1 the Word; 3.4 doctrines of men; 3.5 letter and spirit; 6.2 we are all priests; 6.7 pope/Antichrist; 1.6 the keys.
 
@@ -660,7 +660,7 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Distortion Risk.** *Modern Hearing:* that this world rejected all tradition and ceremony. *World Hearing:* tradition kept for order and cheerfully — rejected only where it is made a mediator, a merit, or a "must" on the conscience.
 
-**Key Texts.** v2 15816–15819, 15974–15982; AC 400–404; Ap 6613–6643, 6688–6692, 6857–6871, 6962–6965 (read this pass). **Key Sources.** [R16]; [R37] AC XV; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** v2 15816–15819, 15974–15982; AC 400–404; Ap 6613–6643, 6688–6692, 6857–6871, 6962–6965 (read this pass). **Key Sources.** [Registry R16]; [R37] AC XV; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 3.1 the Word; 3.3 Scripture against Fathers; 2.8 conscience; 7.5 must and free; 8.6 fasting; 8.1 vows; 8.7 saints; 6.7 pope/Antichrist; 8.8 images.
 
@@ -670,13 +670,13 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Quick Meaning.** Against a secret "spiritual" sense laid over the plain one, the rule that the literal sense is "the sense accepted by Christ, God the Holy Spirit, and all the angels and saints."
 
-**World Meaning.** Emser had an "external sense and a secret sense, which he calls the literal and the spiritual" (v3 17758–17762, per Doc_03). The answer: the literal sense is "the sense accepted by Christ, God the Holy Spirit, and all the angels and saints," (v3 17784–17789), and "In this way we must interpret all the Scriptures, even the ancient types" (v3 17824–17825). A "clear text" is what a Christian must stand on alone — "You must rest upon a strong and clear text of Scripture if you would stand the test" (v2 14999–15000) — and the devil is a reader too, which is why the text must be clear (Doc_05 §6C mode 3). The translator's phrase, "the foundation principles of Protestant exegesis" (v3 14586–14594, Steimle, per [R23]), is the editor's, 1930.
+**World Meaning.** Emser had an "external sense and a secret sense, which he calls the literal and the spiritual" (v3 17758–17762, per Doc_03). The answer: the literal sense is "the sense accepted by Christ, God the Holy Spirit, and all the angels and saints," (v3 17784–17789), and "In this way we must interpret all the Scriptures, even the ancient types" (v3 17824–17825). A "clear text" is what a Christian must stand on alone — "You must rest upon a strong and clear text of Scripture if you would stand the test" (v2 14999–15000) — and the devil is a reader too, which is why the text must be clear (Doc_05 §6C mode 3). The translator's phrase, "the foundation principles of Protestant exegesis" (v3 14586–14594, Steimle, per [Registry R23]), is the editor's, 1930.
 
 **Ecological Function.** 3.1's interpretive rule; Doc_05 §6C mode 3; the complement of 2.6 (two *kinds of speech*, not two *senses*).
 
 **Distortion Risk.** *Modern Hearing:* "the letter and the spirit" as legalism versus freedom. *World Hearing:* a rule of reading: the plain sense *is* the spiritual sense; no hidden layer.
 
-**Key Texts.** v3 17755–17834; v2 14998–15002. **Key Sources.** [R23] *Answer to Emser*, "The Letter and the Spirit" only. Author Gravity: single work, single register — disclosed.
+**Key Texts.** v3 17755–17834; v2 14998–15002. **Key Sources.** [Registry R23] *Answer to Emser*, "The Letter and the Spirit" only. Author Gravity: single work, single register — disclosed.
 
 **Related Terms.** 3.1 the Word; 2.6 Law and Gospel; 3.3 Scripture against Fathers; 3.6 Christ alone.
 
@@ -686,13 +686,13 @@ And the Word acts. In the sermons of 1522 it is the reform's only agent. "His wo
 
 **Quick Meaning.** The one Teacher the Father appointed — "Hear ye Him, Him, Him" — and the one Mediator, so that all Scripture points to Christ alone.
 
-**World Meaning.** Christ "alone has been made our Teacher by the Father… He did not say. Hear ye St. Bernard, St. Gregory, etc., but, Hear ye Him, Him, Him" (v2 16023–16028, per Doc_03); "all the Scriptures point to Christ alone" (v2 15940–15941, per Doc_03). The confession: "the one Christ as the Mediator, Propitiation, High Priest, and Intercessor" (AC 624–626, per Doc_03), and the Apology: "just as it is necessary to maintain this sentence: Christ is Mediator, so is it necessary to defend that faith justifies" (Ap 1054–1056). The tone in which He is heard is a friend's: "Our Lord Christ is a good Friend, and his words are full of love" (Hy 759–761, Walter's report, per [R45]).
+**World Meaning.** Christ "alone has been made our Teacher by the Father… He did not say. Hear ye St. Bernard, St. Gregory, etc., but, Hear ye Him, Him, Him" (v2 16023–16028, per Doc_03); "all the Scriptures point to Christ alone" (v2 15940–15941, per Doc_03). The confession: "the one Christ as the Mediator, Propitiation, High Priest, and Intercessor" (AC 624–626, per Doc_03), and the Apology: "just as it is necessary to maintain this sentence: Christ is Mediator, so is it necessary to defend that faith justifies" (Ap 1054–1056). The tone in which He is heard is a friend's: "Our Lord Christ is a good Friend, and his words are full of love" (Hy 759–761, Walter's report, per [Registry R45]).
 
 **Ecological Function.** 3.1's one voice; 2.2's ground; 8.7's negative (the saints are not mediators); Doc_05 §6C mode 5.
 
 **Distortion Risk.** *Modern Hearing:* a slogan (*solus Christus*). *World Hearing:* a rule of hearing — one Teacher, one Mediator — and a tone.
 
-**Key Texts.** v2 16023–16028; AC 624–626; Ap 1053–1056. **Key Sources.** [R16]; [R37] AC XXI. Author Gravity: none.
+**Key Texts.** v2 16023–16028; AC 624–626; Ap 1053–1056. **Key Sources.** [Registry R16]; [R37] AC XXI. Author Gravity: none.
 
 **Related Terms.** 3.1 the Word; 2.2 justification; 8.7 saints; 3.5 letter and spirit.
 
@@ -716,7 +716,7 @@ The book exists because of a failure the founder reports: "many pastors and prea
 
 **Key Texts.** LC 43–47, 51–52, 80–90, 100–107, 120–125, 130–138, 194–198, 220–236, 241–243, 372–378, 4262–4265; v2 13182–13214; SC 44–53; Ap 6889–6901; TT 2394–2395 (Bell/Morley heading — layer).
 
-**Key Sources.** [R14] the *Kurze Form* (preface and Commandments; its Creed and Prayer, v2 13342–14402, unread); [R25] LC (preface, First Commandment entire, Creed I and III, Prayer entire, Sacrament and Conclusion — Doc_03 §13, Doc_05 §11, this pass); [R26] SC, whole file; [R38] Ap XV; [R31] TT (Contested as verbatim). Author Gravity: none for the practice; the household-father mechanism Luther-only (4.2). **Confidence:** Documented for the program; Inferential/Thin for any household's or parish's practice; Contested for how reception should be read (Doc_02 §8 item 1, R70–R72).
+**Key Sources.** [Registry R14] the *Kurze Form* (preface and Commandments; its Creed and Prayer, v2 13342–14402, unread); [R25] LC (preface, First Commandment entire, Creed I and III, Prayer entire, Sacrament and Conclusion — Doc_03 §13, Doc_05 §11, this pass); [R26] SC, whole file; [R38] Ap XV; [R31] TT (Contested as verbatim). Author Gravity: none for the practice; the household-father mechanism Luther-only (4.2). **Confidence:** Documented for the program; Inferential/Thin for any household's or parish's practice; Contested for how reception should be read (Doc_02 §8 item 1, R70–R72).
 
 **Reported-Experience Status.** Reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only. *Why it applies:* the catechism program sits under the same G4 divergence as 4.2 — formationally central, prescriptively documented to the hour, while whether any household or parish actually held it is Inferential/Thin (Doc_04 §6.3); the same reasoning that added this marker to 4.2 applies here.
 
@@ -738,7 +738,7 @@ Why the house: because "through baptism all of us are consecrated to the priesth
 
 **Key Texts.** SC 45, 305–306, 445–459, 543–607, 609–668; LC 241–243, 331–339, 1072–1075, 4493–4503; v2 2176–2177, 13182; TT 2394–2395 (Bell/Morley heading), 3094–3095, 3147–3148 (Bell's English).
 
-**Key Sources.** [R26] SC, whole file; [R25] LC preface, Fourth Commandment opening, Conclusion; [R31] TT (Contested as verbatim). Author Gravity: Luther-only, cross-register, for the mechanism — disclosed; the *practice* of catechization is both voices (4.1). **Confidence:** Documented as prescription; Inferential/Thin as any house's fact (Doc_04 §3 G4's divergence — the build's highest-stakes cross-check).
+**Key Sources.** [Registry R26] SC, whole file; [R25] LC preface, Fourth Commandment opening, Conclusion; [R31] TT (Contested as verbatim). Author Gravity: Luther-only, cross-register, for the mechanism — disclosed; the *practice* of catechization is both voices (4.1). **Confidence:** Documented as prescription; Inferential/Thin as any house's fact (Doc_04 §3 G4's divergence — the build's highest-stakes cross-check).
 
 **Reported-Experience Status.** Reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only. *Why it applies:* the household is formationally central — the movement's own chosen site — while whether any household held it is Inferential/Thin (Doc_04 §6.3); the entry speaks the program as the world set it down and keeps the two axes apart.
 
@@ -764,7 +764,7 @@ Why the house: because "through baptism all of us are consecrated to the priesth
 
 **Distortion Risk.** *Modern Hearing:* "god" as a being whose existence is at issue; "idol" as a statue. *World Hearing:* whatever the heart cleaves to for good — money most commonly — so that the First Commandment is about trust, not metaphysics, and everyone has some god.
 
-**Key Texts.** LC 408–416, 431–433, 447–448, 556–564, 668–680 (521–680 read this pass); SC 53. **Key Sources.** [R25] LC First Commandment, now entire; [R26]. Author Gravity: Luther-only, cross-register — disclosed.
+**Key Texts.** LC 408–416, 431–433, 447–448, 556–564, 668–680 (521–680 read this pass); SC 53. **Key Sources.** [Registry R25] LC First Commandment, now entire; [R26]. Author Gravity: Luther-only, cross-register — disclosed.
 
 **Related Terms.** 2.1 faith; 4.1 catechism; 4.5 fear and love God; 2.10 sin; 8.7 saints.
 
@@ -788,7 +788,7 @@ Why the house: because "through baptism all of us are consecrated to the priesth
 
 **Distortion Risk.** *Modern Hearing:* the person next door, or humanity in general. *World Hearing:* the specific other whom the second table names and whom my liberty must not destroy.
 
-**Key Texts.** v2 14713–14714, 14763; SC 93–145; LC 4448–4449. **Key Sources.** [R26]; [R15]. Author Gravity: none for the word.
+**Key Texts.** v2 14713–14714, 14763; SC 93–145; LC 4448–4449. **Key Sources.** [Registry R26]; [R15]. Author Gravity: none for the word.
 
 **Related Terms.** 2.3 good works; 7.5 must and free; 4.1 catechism; 4.2 household; 8.6 fasting.
 
@@ -808,7 +808,7 @@ The world reads its own troubles through him. Of the disorder of 1522: "here we 
 
 **Key Texts.** LC 130–138, 151–154, 3633–3634, 4266–4267, 4459–4463; SC 555; v2 14698, 14752–14756, 14772–14776, 15694–15695, 15730–15731; Hy 3671–3705 (Bacon's English), 3712 (German); TT 3149–3150 (Bell's English); AC 593–594; Ap 6631–6632; Co 14747–14759 (OCR as found).
 
-**Key Sources.** [R25] LC; [R26] SC; [R15] the Sermons; [R29] Hymn XXVI; [R31] TT (Contested as verbatim); [R37]; [R38]; [R34] (OCR-degraded). Author Gravity: none. The apocalyptic frame (Oberman, R82) is Dominant Modern Reconstruction at most and unread; nothing here builds on it.
+**Key Sources.** [Registry R25] LC; [R26] SC; [R15] the Sermons; [R29] Hymn XXVI; [R31] TT (Contested as verbatim); [R37]; [R38]; [R34] (OCR-degraded). Author Gravity: none. The apocalyptic frame (Oberman, R82) is Dominant Modern Reconstruction at most and unread; nothing here builds on it.
 
 **Related Terms.** 3.1 the Word; 4.1 catechism; 4.9 hymn; 9.2 temptation; 9.4 death; 9.5 prayer; 6.7 pope/Antichrist; 6.8 sects; 6.9 the Turk; 2.9 free will; 7.1 two governments; 7.5 must and free; 1.7 the cross; 5.3 Sacrament of the Altar; 6.6 Christendom.
 
@@ -824,7 +824,7 @@ The world reads its own troubles through him. Of the disorder of 1522: "here we 
 
 **Distortion Risk.** *Modern Hearing:* "daily bread" as food; "daily" as a devotional habit chosen by the pious. *World Hearing:* the whole household economy and its prince in one petition; a day whose three hours belong to the house by rule, and a baptism that happens every morning.
 
-**Key Texts.** SC 303–308, 398–400, 541–607; LC 100–106, 331–334. **Key Sources.** [R26]; [R25]. Author Gravity: Luther-only, single-register — disclosed.
+**Key Texts.** SC 303–308, 398–400, 541–607; LC 100–106, 331–334. **Key Sources.** [Registry R26]; [R25]. Author Gravity: Luther-only, single-register — disclosed.
 
 **Related Terms.** 4.1 catechism; 4.2 household; 5.2 baptism; 9.5 prayer; 7.1 two governments; 4.9 hymn; 8.3 marriage.
 
@@ -838,15 +838,15 @@ The world reads its own troubles through him. Of the disorder of 1522: "here we 
 
 The hymn carries memory. At burial "no dirges nor lamentations, but comforting songs" (Hy 983–984); "we have taken the sweet music or melodies which under popish rule are in use at wakes, funerals and masses for the dead… But we have set other words thereto, such as shall adorn our doctrine of the resurrection, not that of purgatory" (Hy 1009–1016); "The notes and melodies are of great price; it were pity to let them perish; but the words to them were unchristian and uncouth, so let these perish" (Hy 1017–1019); "The main point is the correcting of the words, not of the music" (Hy 1051–1052). Music itself is theologized: it "pleaseth God far more, we know, / Than any joys the world can show; / The Devil's work it doth impede" (Hy 1203–1205, from the verse piece *Lady Musick Speaketh*, in Catharine Winkworth's English, so attributed at Hy 1236); "Cheerful and merry must we be in heart and mind, when we would sing" (Hy 1116–1117). And the hymn is a weapon and a self-image: "Ein' feste Burg ist unser Gott" (Hy 3708) — "Strong tower and refuge is our God, / Right goodly shield and weapon" (Hy 3667–3668).
 
-The hymn is also where the world felt its own medium turn on it. By 1543 "the earliest of our hymns are more perverted the more they are printed," (Hy 1067–1069), so that a hymnal must go out "with name attached" (Hy 1084), "lest strange and unsuitable songs come to be sold under our name" (Hy 1086–1087), and "when it is amended without our knowledge, it be fully understood to be not our book published at Wittenberg" (Hy 1093–1094). "False masters now abound, who songs indite; / Beware of them, and learn to judge them right" (Hy 1249–1250, R. Massie's English). The one participant who describes the singing is a musician forty years on: "He kept me three weeks long at Wittenberg… until the first German Mass was sung in the parish church" (Hy 766–768, Walter, per [R45]); the charity-scholars "should sing from door to door Latin Hymns" (Hy 775–776).
+The hymn is also where the world felt its own medium turn on it. By 1543 "the earliest of our hymns are more perverted the more they are printed," (Hy 1067–1069), so that a hymnal must go out "with name attached" (Hy 1084), "lest strange and unsuitable songs come to be sold under our name" (Hy 1086–1087), and "when it is amended without our knowledge, it be fully understood to be not our book published at Wittenberg" (Hy 1093–1094). "False masters now abound, who songs indite; / Beware of them, and learn to judge them right" (Hy 1249–1250, R. Massie's English). The one participant who describes the singing is a musician forty years on: "He kept me three weeks long at Wittenberg… until the first German Mass was sung in the parish church" (Hy 766–768, Walter, per [Registry R45]); the charity-scholars "should sing from door to door Latin Hymns" (Hy 775–776).
 
 **Ecological Function.** G11's carrier — "German for the people: vernacular teaching and singing, Latin retained for the learned" (Doc_04 §3 G11) — and the hymnody Doc_04 folded into G11 and G4 (§2.2, §10 item 12). Doc_05 §3 finds it organizing worship's formation, memory, belonging and authority; §6B makes it a memory institution; §7.1 makes "our book / not our book" a boundary; §2.5 (d) makes the hymnal the community's guard against the print market [F-print]. Anchors 4.1 (songs "composed on these parts"), 4.8 (the work-song), 9.4 (the burial songs), 4.7 (the hymn as weapon), 5.6 (German hymns inside the Mass), 6.8 ("some fanatics" who would beat down the sciences). Doc_02 §3.1: one of the registers with the widest actual congregational reach.
 
-**Distortion Risk.** *Modern Hearing:* hymns as ornament or mood in a service; the German hymn as a break with all Latin; "Ein' feste Burg" as a battle-anthem of a founder at Worms (Bacon's own footnote refuses that legend, Hy 856–866, per [R29]). *World Hearing:* teaching set to old tunes so that the unlearned may learn or pray while the learned keep their Latin; a household work-song, a burial comfort, a weapon against the devil, and a book the movement had to sign to keep its own.
+**Distortion Risk.** *Modern Hearing:* hymns as ornament or mood in a service; the German hymn as a break with all Latin; "Ein' feste Burg" as a battle-anthem of a founder at Worms (Bacon's own footnote refuses that legend, Hy 856–866, per [Registry R29]). *World Hearing:* teaching set to old tunes so that the unlearned may learn or pray while the learned keep their Latin; a household work-song, a burial comfort, a weapon against the devil, and a book the movement had to sign to keep its own.
 
-**Key Texts.** Hy 909–930, 957–987, 1009–1019, 1047–1052, 1064–1094, 1116–1117, 1203–1206 (Winkworth, attributed at 1236), 1249–1250 (Massie, attributed at 1254), 3667–3668, 3708; AC 789–794; Ap 6893–6895, 8512–8515; SC 557–558; LC 376–378; Hy 766–777 (Walter, per [R45]).
+**Key Texts.** Hy 909–930, 957–987, 1009–1019, 1047–1052, 1064–1094, 1116–1117, 1203–1206 (Winkworth, attributed at 1236), 1249–1250 (Massie, attributed at 1254), 3667–3668, 3708; AC 789–794; Ap 6893–6895, 8512–8515; SC 557–558; LC 376–378; Hy 766–777 (Walter, per [Registry R45]).
 
-**Key Sources.** [R27] the hymn texts, Bacon's composite English (tunes absent from the file); [R28] the four hymnal prefaces; [R29] Hymn XXVI; [R45] Walter (late, laudatory, three hands — Widely Accepted); [R47] Spangenberg (partisan); [R37] AC XXIV; [R38] Ap XV, XXIV. Author Gravity: none. **Evidential weakness disclosed, per [148], not used to hold the tier:** no hymn text beyond the openings of I, IV, V and XXVI has been read in this build (Doc_05 §13 item 8); every English line is Bacon's rendering; the tunes are not in the file; what any parish sang is Inferential/Thin (Doc_05 §10A).
+**Key Sources.** [Registry R27] the hymn texts, Bacon's composite English (tunes absent from the file); [R28] the four hymnal prefaces; [R29] Hymn XXVI; [R45] Walter (late, laudatory, three hands — Widely Accepted); [R47] Spangenberg (partisan); [R37] AC XXIV; [R38] Ap XV, XXIV. Author Gravity: none. **Evidential weakness disclosed, per [148], not used to hold the tier:** no hymn text beyond the openings of I, IV, V and XXVI has been read in this build (Doc_05 §13 item 8); every English line is Bacon's rendering; the tunes are not in the file; what any parish sang is Inferential/Thin (Doc_05 §10A).
 
 **Reported-Experience Status.** Reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only. *Why it applies:* the hymn's formative work is central in the world's own account and in the register's reach, while what was sung, where, and to what tune is thinly attested (one late participant; no tune; no parish record).
 
@@ -870,7 +870,7 @@ How a sacrament is used is by faith, and only by faith: "faith clings to the wat
 
 **Key Texts.** v2 220–228; v1 2271–2272; v2 6695–6701, 7341–7344, 15446–15447; LC 3861–3864, 3921–3922, 4070–4071; AC 367–372; Ap 6415–6455, 6510–6552 (read this pass).
 
-**Key Sources.** [R9] *Blessed Sacrament* (1519); [R3] *Baptism* (1519); [R12] *Babylonian Captivity*; [R25] LC Baptism and Sacrament; [R37] AC XIII; [R38] Ap XIII, read entire. Author Gravity: none.
+**Key Sources.** [R9] *Blessed Sacrament* (1519); [R3] *Baptism* (1519); [Registry R12] *Babylonian Captivity*; [R25] LC Baptism and Sacrament; [R37] AC XIII; [R38] Ap XIII, read entire. Author Gravity: none.
 
 **Related Terms.** 2.1 faith; 2.7 promise/testament; 3.1 the Word; 5.2 baptism; 5.3 Sacrament of the Altar; 5.4 for you; 5.6 the mass; 5.7 transubstantiation; 5.8 congregation; 5.10 confession/absolution; 5.11 worthy/examination; 6.8 sects; 4.1 catechism.
 
@@ -886,7 +886,7 @@ How a sacrament is used is by faith, and only by faith: "faith clings to the wat
 
 **Distortion Risk.** *Modern Hearing:* a one-time naming rite, or a personal decision. *World Hearing:* a death begun that is repeated every morning, the ground of every Christian's priesthood, a comfort to be reached for on the deathbed, and the thing a vow may not equal.
 
-**Key Texts.** v1 2247–2257, 2319–2321; SC 398–400; LC 3789–3791, 3921–3922, 3840–3842; v2 2176–2177, 2214–2216, 15715–15717; Ap 9732–9736 (read this pass). **Key Sources.** [R3] *Baptism* (opening only, v1 2243–2422; the rest, 2423–2855, unread); [R25] LC Baptism (opening only, 3760–3925; 3926–4032 unread); [R26]; [R11]. Author Gravity: none.
+**Key Texts.** v1 2247–2257, 2319–2321; SC 398–400; LC 3789–3791, 3921–3922, 3840–3842; v2 2176–2177, 2214–2216, 15715–15717; Ap 9732–9736 (read this pass). **Key Sources.** [R3] *Baptism* (opening only, v1 2243–2422; the rest, 2423–2855, unread); [Registry R25] LC Baptism (opening only, 3760–3925; 3926–4032 unread); [R26]; [R11]. Author Gravity: none.
 
 **Related Terms.** 5.1 sacrament; 1.2 repentance; 4.8 daily; 6.2 we are all priests; 8.1 vows; 6.8 sects; 9.4 death; 5.10 confession/absolution; 1.7 the cross; 2.10 sin.
 
@@ -904,11 +904,11 @@ Its gate and its freedom are stated together. "None are admitted except they be 
 
 **Ecological Function.** G3's content at the Supper and the whole of G10 — "the bodily presence: 'truly present,' 'in and under'" (Doc_04 §3 G10), Supporting within G3 on this library's evidence, with the inverse divergence Doc_04 §6.3 flags: the presence's weight as this world's *boundary* against the Reformed (Doc_01 §8.1) is assigned from the census, not shown by the library, and "Supporting" is not "minor" (Doc_04 §10 item 3). The Supper is where the 1522 crisis was fought (Doc_04 §3 G3), where the examination gate stands (5.11), where the third inhabited passage of Doc_05 (§8) walks, and where belonging is decided (Doc_05 §3). Anchors 5.4, 5.5, 5.6, 5.7, 5.11, 5.8 (*communio*), 2.7 (testament), 9.1, 4.7 (food for the battle), 6.8 (those who "teach otherwise").
 
-**Distortion Risk.** *Modern Hearing:* a memorial meal, or a metaphysical theory ("consubstantiation" — a word this library does not use), or a boundary-marker whose whole point is who is excluded. *World Hearing:* Christ's body and blood truly there, "in and under," taken on his word without explanation of the how; a testament received, not a work offered; food for a daily battle; a table with an examination at its gate and no compulsion at its door. The controversy that made the presence a boundary with the Reformed is real (Doc_01 §7) and is not in this library; the Representative states the doctrine as the catechism states it and does not narrate the Colloquy (Doc_05 §9A item 3; R56, R57).
+**Distortion Risk.** *Modern Hearing:* a memorial meal, or a metaphysical theory ("consubstantiation" — a word this library does not use), or a boundary-marker whose whole point is who is excluded. *World Hearing:* Christ's body and blood truly there, "in and under," taken on his word without explanation of the how; a testament received, not a work offered; food for a daily battle; a table with an examination at its gate and no compulsion at its door. The controversy that made the presence a boundary with the Reformed is real (Doc_01 §7) and is not in this library; the Representative states the doctrine as the catechism states it and does not narrate the Colloquy (Doc_05 §9A item 3; Registry R56, R57).
 
 **Key Texts.** SC 496–500, 515–535; LC 4075–4077, 4135–4154, 4250–4254, 4287–4296, 4352–4377, 4389–4393, 4459–4466; AC 322–324, 787–799; v2 263–266, 7143–7149, 7185–7188, 7292–7294, 14765, 15446–15447, 15468–15470; Ap 8490–8494.
 
-**Key Sources.** [R25] LC Sacrament of the Altar, entire; [R26] SC; [R12] *Babylonian Captivity*; [R9] *Blessed Sacrament*; [R15] the Sermons (all eight now read, Doc_05 §11); [R37] AC X, XXIV; [R38] Ap XXIV. Author Gravity: none. **Confidence:** Documented for the doctrine; Untagged (Doc_04 §3 G10) for the organizing role against the Reformed, pending [R56]; Widely Accepted as claimed practice; Inferential/Thin as any parish's.
+**Key Sources.** [Registry R25] LC Sacrament of the Altar, entire; [R26] SC; [R12] *Babylonian Captivity*; [R9] *Blessed Sacrament*; [R15] the Sermons (all eight now read, Doc_05 §11); [R37] AC X, XXIV; [R38] Ap XXIV. Author Gravity: none. **Confidence:** Documented for the doctrine; Untagged (Doc_04 §3 G10) for the organizing role against the Reformed, pending [R56]; Widely Accepted as claimed practice; Inferential/Thin as any parish's.
 
 **Related Terms.** 2.7 promise/testament; 5.1 sacrament; 5.4 for you; 5.5 both kinds; 5.6 the mass; 5.7 transubstantiation; 5.8 congregation; 5.11 worthy/examination; 6.8 sects; 7.5 must and free; 4.7 the devil; 9.1 comfort; 5.10 confession/absolution; 5.9 the ban.
 
@@ -924,7 +924,7 @@ Its gate and its freedom are stated together. "None are admitted except they be 
 
 **Distortion Risk.** *Modern Hearing:* a liturgical formula. *World Hearing:* the moment the promise becomes mine — the whole benefit of the sacrament in two words, demanding a heart that believes them.
 
-**Key Texts.** SC 515–535; LC 4135–4143, 4374–4377; v2 7317–7319. **Key Sources.** [R26]; [R25]. Author Gravity: the development is Luther's — disclosed.
+**Key Texts.** SC 515–535; LC 4135–4143, 4374–4377; v2 7317–7319. **Key Sources.** [Registry R26]; [R25]. Author Gravity: the development is Luther's — disclosed.
 
 **Related Terms.** 5.3 Sacrament of the Altar; 2.7 promise/testament; 2.1 faith; 5.11 worthy/examination; 5.1 sacrament.
 
@@ -934,13 +934,13 @@ Its gate and its freedom are stated together. "None are admitted except they be 
 
 **Quick Meaning.** Bread *and* cup for the laity — in 1520 the sacrament's "first captivity," in 1522 necessary yet "not… made compulsory," in 1530 "the commandment of the Lord."
 
-**World Meaning.** In 1519 it is something "the Church in a general council should again decree" (v2 244–246, per Doc_03); in 1520 "Drink ye all of it" is "not by way of permission but of command" (v2 6787–6791, per Doc_03), and the withholding of the cup is the sacrament's first captivity (Steinhaeuser's sidenote, v2 6713–6714 — layer). In 1522 the cup is "necessary… nevertheless it must not be made compulsory nor a general law" (v2 15377–15380, per Doc_03) — the congregation had "forced… into a law" (v2 15392, per Doc_05) what should have waited on the Word. In 1530 it is "the commandment of the Lord" (AC 678–681, per Doc_03). The other side reaches the library only as the editor's quotation: "In my opinion, he who partakes only of the bread, sins" (v2 14446 — [R43], context).
+**World Meaning.** In 1519 it is something "the Church in a general council should again decree" (v2 244–246, per Doc_03); in 1520 "Drink ye all of it" is "not by way of permission but of command" (v2 6787–6791, per Doc_03), and the withholding of the cup is the sacrament's first captivity (Steinhaeuser's sidenote, v2 6713–6714 — layer). In 1522 the cup is "necessary… nevertheless it must not be made compulsory nor a general law" (v2 15377–15380, per Doc_03) — the congregation had "forced… into a law" (v2 15392, per Doc_05) what should have waited on the Word. In 1530 it is "the commandment of the Lord" (AC 678–681, per Doc_03). The other side reaches the library only as the editor's quotation: "In my opinion, he who partakes only of the bread, sins" (v2 14446 — [Registry R43], context).
 
 **Ecological Function.** 5.3's form and the first of 7.5's 1522 "free" things; the only lay-side change of practice the 1522 sermons address by name.
 
 **Distortion Risk.** *Modern Hearing:* a minor liturgical detail. *World Hearing:* Christ's command to the laity, and the test case for how a right thing must be done — by the Word and not by law.
 
-**Key Texts.** v2 6787–6791; v2 15377–15380; AC 678–681. **Key Sources.** [R12]; [R15]; [R37] AC XXII. Author Gravity: none.
+**Key Texts.** v2 6787–6791; v2 15377–15380; AC 678–681. **Key Sources.** [Registry R12]; [R15]; [R37] AC XXII. Author Gravity: none.
 
 **Related Terms.** 5.3 Sacrament of the Altar; 7.5 must and free; 5.6 the mass; 6.8 sects; 8.8 images.
 
@@ -952,13 +952,13 @@ Its gate and its freedom are stated together. "None are admitted except they be 
 
 **World Meaning.** "What we call the mass is the promise of remission of sins made to us by God" (v2 7321–7323); its "third captivity" is the opinion "that the mass is a good work and a sacrifice" (v2 7228–7231, per Doc_03), "an *opus operatum* and a sacrifice" (v2 7289–7290); "to have many masses is not to have the mass" (v1 11017–11018, per Doc_03). The 1522 voice holds the same doctrine and a different pace: "the mass is an evil thing… because it is performed as a sacrifice and work of merit. Therefore it must be abolished" (v2 14846–14848) — "the private mass must be abolished, as I have said in my writings. And I heartily wish it would be abolished everywhere and only the evangelical mass for all the people be retained" (v2 14850–14853) — but "the Word must do this thing, and not we poor sinners" (v2 14917–14918), and "I let it live in God's name" (v2 14893, per Doc_05 §3). The 1530 voice: "the Mass is retained among us, and celebrated with the highest reverence. Nearly all the usual ceremonies are also preserved" (AC 787–789); "Private Masses were discontinued" (AC 816–817, per Doc_03). The Apology draws the division the whole argument turns on: "A Sacrament is a ceremony or work in which God presents to us that which the promise annexed to the ceremony offers… A sacrifice, on the contrary, is a ceremony or work which we render God in order to afford Him honor" (Ap 8635–8642); of sacrifices "there has been only one propitiatory sacrifice in the world, namely, the death of Christ" (Ap 8672–8673), and the rest — "the preaching of the Gospel, faith, prayer, thanksgiving, confession, the afflictions of saints" — are "sacrifices of praise" (Ap 8712–8715) that "avail not *ex opere operato*, but on account of faith" (Ap 8735–8736). The funeral preface counts "masses for the soul" among the horrors abolished (Hy 977).
 
-**Ecological Function.** 5.3's public form, settled by G6's "aid of the authorities" (v2 14765) and defended before the Emperor (AC XXIV); the arc Doc_03 5.6 tagged [PV] and Doc_05 §3 treats as real change — "Worship's function did not change across the arc; its *public form* did, under [F-rad] and [F-imp]." Anchors 4.9 (German hymns interspersed), 5.11 (the examined congregation), 1.4 (the one satisfaction). No service order is vendored (R59).
+**Ecological Function.** 5.3's public form, settled by G6's "aid of the authorities" (v2 14765) and defended before the Emperor (AC XXIV); the arc Doc_03 5.6 tagged [PV] and Doc_05 §3 treats as real change — "Worship's function did not change across the arc; its *public form* did, under [F-rad] and [F-imp]." Anchors 4.9 (German hymns interspersed), 5.11 (the examined congregation), 1.4 (the one satisfaction). No service order is vendored (Registry R59).
 
 **Distortion Risk.** *Modern Hearing:* that this world abolished the mass, or that "mass" is the wrong word for what it kept; or that the 1520 treatise and the 1530 confession must mean two different things. *World Hearing:* the mass kept as a testament and refused as a sacrifice, its private form abolished and its public form retained "with the highest reverence" — one doctrine, three periods, and a documented change of public form the Representative must carry as change.
 
 **[PV], stated.** The 1520 abolition-logic, the 1522 "I let it live," and the 1530 "retained" are three periods inside one voice and between two voices (Doc_03 5.6); not silence, but a demonstrated plurality across periods, directly quoted at the loci above.
 
-**Key Texts.** v2 7228–7231, 7289–7290, 7321–7323; v2 14846–14853, 14893; AC 787–789, 816–817; Ap 8570–8573, 8635–8652, 8672–8673, 8712–8737 (read this pass). **Key Sources.** [R12]; [R15]; [R37] AC XXIV; [R38] Ap XXIV (8488–8806 read across three passes; 8806–9560 unread). Author Gravity: none.
+**Key Texts.** v2 7228–7231, 7289–7290, 7321–7323; v2 14846–14853, 14893; AC 787–789, 816–817; Ap 8570–8573, 8635–8652, 8672–8673, 8712–8737 (read this pass). **Key Sources.** [Registry R12]; [R15]; [R37] AC XXIV; [R38] Ap XXIV (8488–8806 read across three passes; 8806–9560 unread). Author Gravity: none.
 
 **Related Terms.** 5.3 Sacrament of the Altar; 2.7 promise/testament; 1.4 satisfaction; 4.9 hymn; 5.11 worthy/examination; 7.5 must and free; 7.1 two governments; 5.5 both kinds; 5.1 sacrament.
 
@@ -986,7 +986,7 @@ The word is also a sanction and a scandal. The "brotherhoods" of the 1519 title 
 
 **Key Texts.** v2 263–297; LC 2800–2802, 2822–2864, 2887–2889; AC 277–279, 795–797, 1339–1340; Ap 6592–6594 (read this pass); v2 7235–7236; v2 15629–15631, 15646; v1 14739–14745, 14789–14793 (Steimle — layer).
 
-**Key Sources.** [R9] *Blessed Sacrament*; [R10] *The Ban*; [R25] LC Creed, Third Article; [R37] AC VII; [R38] Ap XIV; [R8] *Papacy at Rome* footnotes; [R87] the translators' glossing footnotes. Author Gravity: none.
+**Key Sources.** [R9] *Blessed Sacrament*; [Registry R10] *The Ban*; [R25] LC Creed, Third Article; [R37] AC VII; [R38] Ap XIV; [R8] *Papacy at Rome* footnotes; [R87] the translators' glossing footnotes. Author Gravity: none.
 
 **Related Terms.** 5.1 sacrament; 5.3 Sacrament of the Altar; 5.9 the ban; 5.11 worthy/examination; 6.6 Christendom; 6.5 pastor; 6.3 office; 6.7 pope/Antichrist; 3.1 the Word; 3.2 Gospel; 8.7 saints.
 
@@ -1002,7 +1002,7 @@ The word is also a sanction and a scandal. The "brotherhoods" of the 1519 title 
 
 **Distortion Risk.** *Modern Hearing:* excommunication as damnation, or as a political weapon. *World Hearing:* a fence around the visible table only, for correction, without force — and an ordinance the founder himself said was no longer practiced (v2 15629–15631).
 
-**Key Texts.** v2 1154–1226; v2 15639–15648; AC 1338–1340. **Key Sources.** [R10] *The Ban* (opening only); [R15]; [R37] AC XXVIII. Author Gravity: none.
+**Key Texts.** v2 1154–1226; v2 15639–15648; AC 1338–1340. **Key Sources.** [Registry R10] *The Ban* (opening only); [R15]; [R37] AC XXVIII. Author Gravity: none.
 
 **Related Terms.** 5.8 congregation; 7.2 the sword; 6.5 pastor; 5.3 Sacrament of the Altar.
 
@@ -1018,7 +1018,7 @@ The word is also a sanction and a scandal. The "brotherhoods" of the 1519 title 
 
 **Distortion Risk.** *Modern Hearing:* that this world abolished confession, or that "absolution" is a Catholic word. *World Hearing:* private confession kept as a comfort, freed from compulsion and enumeration, with absolution heard "as if from God Himself" — the most-loved of the "many absolutions."
 
-**Key Texts.** SC 410–491; v2 15619–15724; AC 331–334, 906–912; Ap 4955–4956, 5141–5154 (read this pass); v1 3180–3197. **Key Sources.** [R26]; [R15] Sermon 8; [R4] *Confession* (opening only, v1 3165–3324); [R37] AC XI, XXV; [R38] Ap XII. Author Gravity: none.
+**Key Texts.** SC 410–491; v2 15619–15724; AC 331–334, 906–912; Ap 4955–4956, 5141–5154 (read this pass); v1 3180–3197. **Key Sources.** [Registry R26]; [R15] Sermon 8; [R4] *Confession* (opening only, v1 3165–3324); [R37] AC XI, XXV; [R38] Ap XII. Author Gravity: none.
 
 **Related Terms.** 1.2 repentance; 1.6 the keys; 2.8 conscience; 5.1 sacrament; 5.2 baptism; 5.3 Sacrament of the Altar; 5.11 worthy/examination; 9.1 comfort; 6.5 pastor; 2.7 promise/testament.
 
@@ -1034,7 +1034,7 @@ The word is also a sanction and a scandal. The "brotherhoods" of the 1519 title 
 
 **Distortion Risk.** *Modern Hearing:* worthiness as moral fitness, examination as a test of purity. *World Hearing:* worthiness is believing the words; examination is of the three parts; the unworthy are the untroubled.
 
-**Key Texts.** SC 528–535; LC 4327–4338, 4352–4363, 4414–4421; AC 797; Ap 6889–6892. **Key Sources.** [R25] LC Sacrament, exhortation; [R37] AC XXIV; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** SC 528–535; LC 4327–4338, 4352–4363, 4414–4421; AC 797; Ap 6889–6892. **Key Sources.** [Registry R25] LC Sacrament, exhortation; [R37] AC XXIV; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 5.3 Sacrament of the Altar; 5.4 for you; 4.1 catechism; 5.10 confession/absolution; 2.8 conscience; 2.1 faith; 5.8 congregation; 4.2 household; 5.1 sacrament; 5.6 the mass; 8.6 fasting.
 
@@ -1052,7 +1052,7 @@ The word is also a sanction and a scandal. The "brotherhoods" of the 1519 title 
 
 **Distortion Risk.** *Modern Hearing:* "estate" as property; "spiritual" as inward or pious. *World Hearing:* a *station* — and the refusal that clergy are a higher one, with the word kept for marriage, parenthood, rule and trade as holy stations of equal standing.
 
-**Key Texts.** v2 2159–2164, 2211–2214, 2233–2238, 2298–2300; LC 1051–1052, 1713–1716; v3 20897–20900; Ap 9765–9767. **Key Sources.** [R11]; [R25]; [R24]; [R38]. Author Gravity: Luther-only for the pairing — disclosed.
+**Key Texts.** v2 2159–2164, 2211–2214, 2233–2238, 2298–2300; LC 1051–1052, 1713–1716; v3 20897–20900; Ap 9765–9767. **Key Sources.** [Registry R11]; [R25]; [R24]; [R38]. Author Gravity: Luther-only for the pairing — disclosed.
 
 **Related Terms.** 6.2 we are all priests; 6.3 office; 6.4 calling; 8.3 marriage; 8.4 spiritual/Geysterey; 7.1 two governments; 4.2 household.
 
@@ -1072,7 +1072,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Key Texts.** v2 2159–2164, 2176–2180, 2191–2199, 2211–2231, 2413–2416; v2 8908–8909; v2 14778–14779; AC 383–384; Ap 6463–6477, 8712–8724 (read this pass); Hy 1789–1802 (Bacon's English); SC 45; LC 4497–4499.
 
-**Key Sources.** [R11] *Christian Nobility* (the "Three Walls" opening read; the rest, v2 2417–5051, unread); [R12]; [R15]; [R37] AC XIV; [R38] Ap XIII, XXIV; [R30] Hymn V. Author Gravity: weighted to Luther for the formula — disclosed; the Apology attests the substance.
+**Key Sources.** [Registry R11] *Christian Nobility* (the "Three Walls" opening read; the rest, v2 2417–5051, unread); [R12]; [R15]; [R37] AC XIV; [R38] Ap XIII, XXIV; [R30] Hymn V. Author Gravity: weighted to Luther for the formula — disclosed; the Apology attests the substance.
 
 **Related Terms.** 6.1 estate; 6.3 office; 6.4 calling; 6.5 pastor; 5.2 baptism; 4.2 household; 3.3 Scripture against Fathers; 1.6 the keys; 9.6 martyr; 7.1 two governments; 8.3 marriage.
 
@@ -1088,7 +1088,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Distortion Risk.** *Modern Hearing:* "office" as a position of rank or a room. *World Hearing:* a function held for a time, by which alone Christians differ — the pastor's, the cobbler's, the prince's — never an indelible character.
 
-**Key Texts.** v2 2163–2164, 2223–2257; AC 1329–1330; LC 51–52. **Key Sources.** [R11]; [R37] AC XXVIII; [R25]. Author Gravity: none.
+**Key Texts.** v2 2163–2164, 2223–2257; AC 1329–1330; LC 51–52. **Key Sources.** [Registry R11]; [R37] AC XXVIII; [R25]. Author Gravity: none.
 
 **Related Terms.** 6.2 we are all priests; 6.1 estate; 6.4 calling; 6.5 pastor; 7.2 the sword; 3.1 the Word; 2.3 good works; 5.8 congregation.
 
@@ -1104,7 +1104,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Distortion Risk.** *Modern Hearing:* "calling" as a career one chooses or feels drawn to; "vocation" as a religious profession. *World Hearing:* a station commanded — one is *called to* rulership, fatherhood, preaching — personal, not chosen, and holier in no case than another; and, for the pulpit, a *regular* call from the community, the fence against unlicensed preaching.
 
-**Key Texts.** AC 383–384, 497–500, 978–981, 1119–1121, 1233–1239; Ap 9905–9910, 10008–10022 (read this pass); v2 14776–14779; TT 2432 (Bell's English). **Key Sources.** [R37] AC XIV, XX, XXVI, XXVII; [R38] Ap XXVII, read entire; [R15]; [R31]. Author Gravity: weighted to Melanchthon — disclosed; Luther's own texts say "office" and "estate" (aliases: 6.1, 6.3).
+**Key Texts.** AC 383–384, 497–500, 978–981, 1119–1121, 1233–1239; Ap 9905–9910, 10008–10022 (read this pass); v2 14776–14779; TT 2432 (Bell's English). **Key Sources.** [Registry R37] AC XIV, XX, XXVI, XXVII; [R38] Ap XXVII, read entire; [R15]; [R31]. Author Gravity: weighted to Melanchthon — disclosed; Luther's own texts say "office" and "estate" (aliases: 6.1, 6.3).
 
 **Related Terms.** 6.2 we are all priests; 6.3 office; 6.1 estate; 6.5 pastor; 8.5 perfection; 2.3 good works; 8.3 marriage; 7.1 two governments; 4.2 household; 6.8 sects; 8.4 spiritual/Geysterey.
 
@@ -1120,7 +1120,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Distortion Risk.** *Modern Hearing:* the pastor as a professional clergyman with a settled role. *World Hearing:* a called office-holder, married, poor where nobles are stingy, told daily to read a page and rebuked in print for not doing so — the one office in this world that never speaks in its own voice in the library.
 
-**Key Texts.** LC 43–76, 92–97; SC 615–623; v2 15639–15648; AC 713–715, 754–756; Ap 6897–6899, 6908–6909; TT 2424 (Bell's English). **Key Sources.** [R25] LC preface; [R26] Home Chart; [R37] AC XXIII; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** LC 43–76, 92–97; SC 615–623; v2 15639–15648; AC 713–715, 754–756; Ap 6897–6899, 6908–6909; TT 2424 (Bell's English). **Key Sources.** [Registry R25] LC preface; [R26] Home Chart; [R37] AC XXIII; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 6.3 office; 6.4 calling; 6.2 we are all priests; 4.1 catechism; 5.9 the ban; 5.10 confession/absolution; 8.3 marriage; 4.2 household; 4.9 hymn; 5.8 congregation; 7.3 obedience.
 
@@ -1136,7 +1136,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Distortion Risk.** *Modern Hearing:* "Christendom" as a political order or a civilization. *World Hearing:* the whole assembly of Christians, wider than any pope's confirmation, named in preference to "Church."
 
-**Key Texts.** v1 12786–12819; v2 2298–2300, 2407–2411; LC 2840–2843; Ap 5625–5627. **Key Sources.** [R8] *Papacy at Rome*; [R11]; [R25]; [R38]. Author Gravity: weighted to Luther — disclosed.
+**Key Texts.** v1 12786–12819; v2 2298–2300, 2407–2411; LC 2840–2843; Ap 5625–5627. **Key Sources.** [R8] *Papacy at Rome*; [Registry R11]; [R25]; [R38]. Author Gravity: weighted to Luther — disclosed.
 
 **Related Terms.** 5.8 congregation; 6.7 pope/Antichrist; 4.7 the devil; 7.1 two governments; 6.9 the Turk.
 
@@ -1154,7 +1154,7 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **[PV], stated.** The confessional register (1530) and the polemical register (1520–21, 1539–45) demonstrably differ on the adversary's name — "the Church of Rome" versus "Antichrist" — a plurality of registers inside one world, directly quoted, that a Representative must not flatten into either (Doc_03 6.7; Doc_04 §3 G12's naming shift under [F-imp]).
 
-**Key Texts.** v2 2121–2124, 2347, 6508–6513; v1 327–328, 357, 408–409; v1 12786–12788; v2 15024, 15240, 15468; LC 58, 2807–2808, 4327; TT 3063, 3083–3084 (Bell's English); AC 631–633, 1276–1280; Ap 6722–6731 (read this pass). **Key Sources.** [R11]; [R12]; [R8]; [R1]; [R15]; [R25]; [R31]; [R37]; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** v2 2121–2124, 2347, 6508–6513; v1 327–328, 357, 408–409; v1 12786–12788; v2 15024, 15240, 15468; LC 58, 2807–2808, 4327; TT 3063, 3083–3084 (Bell's English); AC 631–633, 1276–1280; Ap 6722–6731 (read this pass). **Key Sources.** [Registry R11]; [R12]; [R8]; [R1]; [R15]; [R25]; [R31]; [R37]; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 4.7 the devil; 6.6 Christendom; 5.8 congregation; 3.3 Scripture against Fathers; 3.4 doctrines of men; 1.1 indulgence; 1.6 the keys; 6.9 the Turk; 6.8 sects; 7.1 two governments.
 
@@ -1164,13 +1164,13 @@ The priesthood is exercised where one stands. The father is a priest in his hous
 
 **Quick Meaning.** The founder's generic names for the radicals — "new spirits," "fanatics," "enthusiasts" — and the confession's named condemnation of "the Anabaptists and others who think that the Holy Ghost comes to men without the external Word."
 
-**World Meaning.** "Our new spirits, to mock at Baptism, omit from it God's Word" (LC 3840–3842, per Doc_03); "sects clamoring that Baptism is an external thing" (LC 3799–3800, per Doc_03); "the prating of nearly all the fanatical spirits" (LC 4069–4070, per Doc_03); those who "assert that faith alone saves, and that works and external things avail nothing" (LC 3916–3917); "some fanatics" who would have "all sciences… beaten down… by the Gospel" (Hy 926–928). The confession names them: "the Anabaptists and others who think that the Holy Ghost comes to men without the external Word, through their own preparations and works" (AC 253–255); the Apology restates the charge in its own words — "fanatical men, who dream that the Holy Ghost is given not through the Word, but because of certain preparations of their own, if they sit unoccupied and silent in obscure places, waiting for illumination, as the Enthusiasts formerly taught, and the Anabaptists now teach" (Ap 6492–6496) — and reports "through such commendations Muentzer was deceived, and thereby many Anabaptists were led astray" (Ap 10005–10006, bracket Bente/Dau's). In 1522 the congregation's own leaders are "the devil… through his apostles" (v2 15173–15174, per Doc_05); "Sacramentarians" is the founder's one in-voice word for the other rival (Co 16090–16091, per [R34]; the v1 occurrences are Neve's — layer).
+**World Meaning.** "Our new spirits, to mock at Baptism, omit from it God's Word" (LC 3840–3842, per Doc_03); "sects clamoring that Baptism is an external thing" (LC 3799–3800, per Doc_03); "the prating of nearly all the fanatical spirits" (LC 4069–4070, per Doc_03); those who "assert that faith alone saves, and that works and external things avail nothing" (LC 3916–3917); "some fanatics" who would have "all sciences… beaten down… by the Gospel" (Hy 926–928). The confession names them: "the Anabaptists and others who think that the Holy Ghost comes to men without the external Word, through their own preparations and works" (AC 253–255); the Apology restates the charge in its own words — "fanatical men, who dream that the Holy Ghost is given not through the Word, but because of certain preparations of their own, if they sit unoccupied and silent in obscure places, waiting for illumination, as the Enthusiasts formerly taught, and the Anabaptists now teach" (Ap 6492–6496) — and reports "through such commendations Muentzer was deceived, and thereby many Anabaptists were led astray" (Ap 10005–10006, bracket Bente/Dau's). In 1522 the congregation's own leaders are "the devil… through his apostles" (v2 15173–15174, per Doc_05); "Sacramentarians" is the founder's one in-voice word for the other rival (Co 16090–16091, per [Registry R34]; the v1 occurrences are Neve's — layer).
 
 **Ecological Function.** The Layer-2 name of [F-rad]; the reason G2's Word is defined as "external" and G7 is fenced "regularly called" (Doc_04 §3 G2, G7); Doc_05 §7.1's boundary and §2.5 (a). Anchors 5.2 (baptism mocked), 5.3 ("those that teach otherwise"), 6.4 (the fence), 2.1 (the slogan misused).
 
 **Distortion Risk.** *Modern Hearing:* "enthusiast" and "fanatic" as temperament words; "Anabaptist" as a neutral label. *World Hearing:* a specific theological charge — the Spirit without the external Word — made in two confessional wordings; and names this world gave to people its own authorities helped suppress, whose own account is not this world's to give.
 
-**Key Texts.** LC 3799–3842, 3916–3921, 4069–4070; AC 253–255; Ap 6492–6496, 10002–10006; Hy 926–928; v2 15173–15174. **Key Sources.** [R25]; [R37] AC V; [R38] Ap XIII, XXVII; [R28]. Author Gravity: none.
+**Key Texts.** LC 3799–3842, 3916–3921, 4069–4070; AC 253–255; Ap 6492–6496, 10002–10006; Hy 926–928; v2 15173–15174. **Key Sources.** [Registry R25]; [R37] AC V; [R38] Ap XIII, XXVII; [R28]. Author Gravity: none.
 
 **Related Terms.** 3.1 the Word; 5.2 baptism; 5.3 Sacrament of the Altar; 6.4 calling; 2.1 faith; 4.7 the devil; 6.7 pope/Antichrist; 7.4 insurrection; 4.9 hymn; 5.1 sacrament; 5.5 both kinds; 8.8 images.
 
@@ -1202,7 +1202,7 @@ The same English phrase carries a second referent. In the argument against Erasm
 
 **Key Texts.** v3 12139–12141, 12188–12191, 12318–12323, 12371–12374; v2 14764–14766, 14864–14866, 14974, 15334–15335; AC 411–428, 1281–1285, 1306–1312, 1339–1344; Ap 6931–6932; LC 3467–3468, 3480–3484; Co 14747–14759 (OCR as found); Hy 3705; v3 12123–12127 (editorial marginal — layer).
 
-**Key Sources.** [R20] *Secular Authority* (Part One only, v3 12100–12440; Parts Two and Three, 13133 to the work's end, unread); [R37] AC XVI, XXVIII; [R38] Ap XV; [R15]; [R25] LC Fourth Petition (per Doc_05); [R34] (OCR-degraded); [R29]. Author Gravity: none. **Coverage:** the treatise's own "main part," on the limits of obedience (Part Two), is unread; Philadelphia vol. IV [R62] and anything post-1546 unvendored.
+**Key Sources.** [Registry R20] *Secular Authority* (Part One only, v3 12100–12440; Parts Two and Three, 13133 to the work's end, unread); [R37] AC XVI, XXVIII; [R38] Ap XV; [R15]; [R25] LC Fourth Petition (per Doc_05); [R34] (OCR-degraded); [R29]. Author Gravity: none. **Coverage:** the treatise's own "main part," on the limits of obedience (Part Two), is unread; Philadelphia vol. IV [R62] and anything post-1546 unvendored.
 
 **CT Contest Type.** *Historical scope:* whether the later systematic label ("two kingdoms doctrine") applies as broadly to the founder's own usage as claimed, given that in this library he says "two classes," "two governments," and "kingdom of God / kingdom of the world" in one work, "two kingdoms" of Christ and Satan in another, and never treats the phrase as one fixed technical term across both — while the confessional voice says "the power of the Church and the power of the sword." **Status: provisional — no secondary source is rowed for the contest (Doc_03 §11 item 4; OG-4); §2 states the leads proposed for the Registry owner and the rule that the tag does not reach a deployment chunk without a row.**
 
@@ -1220,7 +1220,7 @@ The same English phrase carries a second referent. In the argument against Erasm
 
 **Distortion Risk.** *Modern Hearing:* "the sword" as violence sanctioned by religion, or "secular" as non-religious. *World Hearing:* God's own ordinance for external peace, held by the temporal ruler and by no cleric, honoured and prayed for, and never the Church's instrument.
 
-**Key Texts.** v2 2250–2269; v3 12300–12326; AC 411–416, 1306–1309. **Key Sources.** [R11]; [R20]; [R37] AC XVI, XXVIII. Author Gravity: none.
+**Key Texts.** v2 2250–2269; v3 12300–12326; AC 411–416, 1306–1309. **Key Sources.** [Registry R11]; [R20]; [R37] AC XVI, XXVIII. Author Gravity: none.
 
 **Related Terms.** 7.1 two governments; 7.3 obedience; 7.4 insurrection; 5.9 the ban; 6.3 office.
 
@@ -1236,7 +1236,7 @@ The same English phrase carries a second referent. In the argument against Erasm
 
 **Distortion Risk.** *Modern Hearing:* obedience as servility, or the limit-clause as a general right of resistance. *World Hearing:* honour of a majesty hidden in parents and rulers, limited at the one point where obedience would be sin — with the treatise's own part on the limits of obedience unread in this build (7.1).
 
-**Key Texts.** LC 1051–1075; SC 625–633; AC 426–428, 1342–1344. **Key Sources.** [R25] LC Fourth Commandment (opening); [R37] AC XVI, XXVIII; [R26]. Author Gravity: none.
+**Key Texts.** LC 1051–1075; SC 625–633; AC 426–428, 1342–1344. **Key Sources.** [Registry R25] LC Fourth Commandment (opening); [R37] AC XVI, XXVIII; [R26]. Author Gravity: none.
 
 **Related Terms.** 7.1 two governments; 7.2 the sword; 4.2 household; 6.5 pastor; 2.8 conscience.
 
@@ -1246,15 +1246,15 @@ The same English phrase carries a second referent. In the argument against Erasm
 
 **Quick Meaning.** The unrest addressed at the turn of 1522 — the common man who "would indeed have good reason to lay about him with flails and cudgels" — met with the refusal of force and the confidence that "God will watch over His Word."
 
-**World Meaning.** "The common man has been brooding over the injury he has suffered in property, in body and in soul, and has become provoked… and would indeed have good reason to lay about him with flails and cudgels, as the peasants are threatening to do" (v3 10665–10672, OCR hyphenation and a stray "!" as found); yet there is "no fear whatever that there will be an insurrection" because "God will watch over His Word" (v3 10696–10702, per Doc_03). In the sermons: "I could have brought great bloodshed upon Germany, Yea, I could have started such a little game at Worms that even the emperor would not have been safe. But what would it have been? A fool's play. I did nothing; I left it to the Word" (v2 14932–14935). The nobility's "three rods" (v2 2135, per Doc_03) and the peasant of the pamphlet asking "Where is my flail?" (v3 10586, editor's quotation, [R44] — layer) are the frame. In 1529 the Large Catechism remembers "murder, and riot" checked by "the prayer of a few godly men" that "intervened like a wall of iron" (LC 3190–3194, per Doc_05 §1.4) — naming no event.
+**World Meaning.** "The common man has been brooding over the injury he has suffered in property, in body and in soul, and has become provoked… and would indeed have good reason to lay about him with flails and cudgels, as the peasants are threatening to do" (v3 10665–10672, OCR hyphenation and a stray "!" as found); yet there is "no fear whatever that there will be an insurrection" because "God will watch over His Word" (v3 10696–10702, per Doc_03). In the sermons: "I could have brought great bloodshed upon Germany, Yea, I could have started such a little game at Worms that even the emperor would not have been safe. But what would it have been? A fool's play. I did nothing; I left it to the Word" (v2 14932–14935). The nobility's "three rods" (v2 2135, per Doc_03) and the peasant of the pamphlet asking "Where is my flail?" (v3 10586, editor's quotation, [Registry R44] — layer) are the frame. In 1529 the Large Catechism remembers "murder, and riot" checked by "the prayer of a few godly men" that "intervened like a wall of iron" (LC 3190–3194, per Doc_05 §1.4) — naming no event.
 
-**Ecological Function.** [F-pop]'s Layer-2 vocabulary as the library has it (Doc_04 §3 G6's forces notation); G2's restraint applied to "the common man" (Doc_04 §3 G8); Doc_05 §1.4. **Bar, stated:** the 1525 tract's own language is not in this library and is barred by [R94]; nothing here characterizes 1525 beyond Doc_02 §12.4's disclosure; [R48]'s named absence (the tract itself, not vendored) is the same bar's other face.
+**Ecological Function.** [F-pop]'s Layer-2 vocabulary as the library has it (Doc_04 §3 G6's forces notation); G2's restraint applied to "the common man" (Doc_04 §3 G8); Doc_05 §1.4. **Bar, stated:** the 1525 tract's own language is not in this library and is barred by [Registry R94]; nothing here characterizes 1525 beyond Doc_02 §12.4's disclosure; [R48]'s named absence (the tract itself, not vendored) is the same bar's other face.
 
 **Distortion Risk.** *Modern Hearing:* the 1525 tract's reputation projected onto this vocabulary. *World Hearing:* the 1522 texts' sympathy for "the common man," confidence in the Word, and refusal of force — a period-bound stance the library attests only for 1521–22.
 
 **[PV], stated.** Period-bound: this term is representative of 1521–22 in this library and not of the whole window (Doc_03 7.4; the Framework's own "periods").
 
-**Key Texts.** v3 10641–10672, 10696–10702; v2 14932–14935; LC 3190–3196. **Key Sources.** [R19] *Earnest Exhortation* (opening only; v3 10751–11659 unread); [R15]. The bar on the 1525 material is Ecological Function's own stated sentence and its rows are not repeated here. Author Gravity: Luther-only, period-bound — disclosed.
+**Key Texts.** v3 10641–10672, 10696–10702; v2 14932–14935; LC 3190–3196. **Key Sources.** [Registry R19] *Earnest Exhortation* (opening only; v3 10751–11659 unread); [R15]. The bar on the 1525 material is Ecological Function's own stated sentence and its rows are not repeated here. Author Gravity: Luther-only, period-bound — disclosed.
 
 **Related Terms.** 7.1 two governments; 7.2 the sword; 7.5 must and free; 3.1 the Word; 6.8 sects; 9.5 prayer.
 
@@ -1274,7 +1274,7 @@ By 1529 the same word is the charge. Pastors have kept "no more of the Gospel th
 
 **Key Texts.** v2 11618–11621, 11848–11851; v2 14711–14740, 14761–14762, 14790–14801, 14838–14841; v2 15288–15292, 15364–15366, 15915–15920, 15979–15980; v2 14945, 15031, 15070 (per Doc_05 §11 item 5); LC 78–80, 4244–4248, 4250–4296; AC 391–398, 1068; Ap 6978–6986 (read this pass).
 
-**Key Sources.** [R13] *Christian Liberty* (opening only; the treatise's own argument, v2 11870–13025, unread — its paradox is quoted from the vendored opening); [R15] all eight Sermons (Doc_05 §11); [R16]; [R25] LC preface and Sacrament; [R37] AC XV, XXVI, XXVIII; [R38] Ap XV. Author Gravity: the pairing is single-register — disclosed; the gravity is both voices. **Confidence:** Documented for the texts; Widely Accepted for the 1522 outcome (Steimle's editorial account, Doc_01 §2.3); reception "one congregation, once, editorial" (Doc_04 §3 G8).
+**Key Sources.** [Registry R13] *Christian Liberty* (opening only; the treatise's own argument, v2 11870–13025, unread — its paradox is quoted from the vendored opening); [R15] all eight Sermons (Doc_05 §11); [R16]; [R25] LC preface and Sacrament; [R37] AC XV, XXVI, XXVIII; [R38] Ap XV. Author Gravity: the pairing is single-register — disclosed; the gravity is both voices. **Confidence:** Documented for the texts; Widely Accepted for the 1522 outcome (Steimle's editorial account, Doc_01 §2.3); reception "one congregation, once, editorial" (Doc_04 §3 G8).
 
 **Related Terms.** 3.1 the Word; 2.1 faith; 2.8 conscience; 4.6 neighbor; 3.4 doctrines of men; 5.3 Sacrament of the Altar; 5.5 both kinds; 5.6 the mass; 8.1 vows; 8.3 marriage; 8.6 fasting; 8.8 images; 7.1 two governments; 7.4 insurrection; 4.7 the devil; 4.1 catechism; 9.7 patience.
 
@@ -1286,13 +1286,13 @@ By 1529 the same word is the charge. Pastors have kept "no more of the Gospel th
 
 **Quick Meaning.** The binding promise this world declares void where it is made to merit — once taught to be "equal to Baptism," a "state of perfection" — so that "no man's law, no vow, can annul the commandment and ordinance of God."
 
-**World Meaning.** "No man's law, no vow, can annul the commandment and ordinance of God" (AC 726–727, per Doc_03). The confession recalls what was taught: "They taught that vows were equal to Baptism" (AC 1110–1115), "a state of perfection" (AC 1130–1131) that merited forgiveness — vows "commonly taken have been wicked services, and, consequently, are void" (AC 1204–1206). The founder to the Teutonic knights: "such a vow is nothing at all and is not to be kept, unless a man have God's special grace" (v3 20906–20908, OCR punctuation as found); to his congregation, of "nuns and monks, who would like to escape from their bondage" (v2 15916–15918). The Apology, which "wish[es] here to consider that book as reiterated" — the unvendored *De Votis Monasticis* (Ap 9647–9649; [R61], not vendored — "excluded from this volume because of its size" (v3 20823–20824, the 1930 volume's own introduction — layer)) — says "we hold that lawful vows ought to be observed" (Ap 9619–9620) and then names what makes a vow unlawful: the opinion that "he who vows thinks that he merits the remission of sins before God" (Ap 9651–9653); "It is madness to make human tradition, which has neither God's command nor promise, equal to the ordinance of Christ" (Ap 9732–9734); obedience, poverty and celibacy "are, as exercises, adiaphora" that "the saints can use… without impiety, just as Bernard, Franciscus, and other holy men used them" (Ap 9738–9742); vows of chastity are not lawful "in those who do not have the gift of continence" (Ap 10030–10031); and vows "extorted either from the unwilling or from those who on account of age were not able to judge" are not vows even by the canons (Ap 9627–9630, 10073–10077). The older lay sense survives in the catechism's catalogue: "a vow to St. Sebastian or Rochio" (LC 454–455, per Doc_03).
+**World Meaning.** "No man's law, no vow, can annul the commandment and ordinance of God" (AC 726–727, per Doc_03). The confession recalls what was taught: "They taught that vows were equal to Baptism" (AC 1110–1115), "a state of perfection" (AC 1130–1131) that merited forgiveness — vows "commonly taken have been wicked services, and, consequently, are void" (AC 1204–1206). The founder to the Teutonic knights: "such a vow is nothing at all and is not to be kept, unless a man have God's special grace" (v3 20906–20908, OCR punctuation as found); to his congregation, of "nuns and monks, who would like to escape from their bondage" (v2 15916–15918). The Apology, which "wish[es] here to consider that book as reiterated" — the unvendored *De Votis Monasticis* (Ap 9647–9649; [Registry R61], not vendored — "excluded from this volume because of its size" (v3 20823–20824, the 1930 volume's own introduction — layer)) — says "we hold that lawful vows ought to be observed" (Ap 9619–9620) and then names what makes a vow unlawful: the opinion that "he who vows thinks that he merits the remission of sins before God" (Ap 9651–9653); "It is madness to make human tradition, which has neither God's command nor promise, equal to the ordinance of Christ" (Ap 9732–9734); obedience, poverty and celibacy "are, as exercises, adiaphora" that "the saints can use… without impiety, just as Bernard, Franciscus, and other holy men used them" (Ap 9738–9742); vows of chastity are not lawful "in those who do not have the gift of continence" (Ap 10030–10031); and vows "extorted either from the unwilling or from those who on account of age were not able to judge" are not vows even by the canons (Ap 9627–9630, 10073–10077). The older lay sense survives in the catechism's catalogue: "a vow to St. Sebastian or Rochio" (LC 454–455, per Doc_03).
 
 **Ecological Function.** G9's refusal — "the monastic estate refused, the married household and the married pastor affirmed" (Doc_04 §3 G9) — carried under 8.3; refused as merit-works (2.4, 2.1) and as a "doctrine of men" (3.4); one of 7.5's "free" things (leaving the monastery). The against-the-grain women's traces (nuns deciding by conscience, Doc_05 §1.3) sit here.
 
 **Distortion Risk.** *Modern Hearing:* that this world condemned all vows, or all monks. *World Hearing:* lawful vows kept; unlawful ones — those made to merit, made equal to baptism, extorted, or made against the gift one lacks — void; the "exercises" themselves indifferent.
 
-**Key Texts.** AC 726–727, 1110–1115, 1146–1148; v3 20906–20908; v2 15916–15918; Ap 9617–9653, 9732–9760, 10024–10038, 10073–10080 (read this pass). **Key Sources.** [R37] AC XXVII; [R38] Ap XXVII, entire; [R24]. Author Gravity: none.
+**Key Texts.** AC 726–727, 1110–1115, 1146–1148; v3 20906–20908; v2 15916–15918; Ap 9617–9653, 9732–9760, 10024–10038, 10073–10080 (read this pass). **Key Sources.** [Registry R37] AC XXVII; [R38] Ap XXVII, entire; [R24]. Author Gravity: none.
 
 **Related Terms.** 8.3 marriage; 8.2 chastity; 8.4 spiritual/Geysterey; 8.5 perfection; 2.4 merit; 3.4 doctrines of men; 5.2 baptism; 7.5 must and free; 2.1 faith; 8.6 fasting.
 
@@ -1308,7 +1308,7 @@ By 1529 the same word is the charge. Pastors have kept "no more of the Gospel th
 
 **Distortion Risk.** *Modern Hearing:* "chastity" as celibacy, and the argument as a lowering of standards. *World Hearing:* true chastity *is* marriage for all but the few with the gift; the vow of the rest is "unchaste chastity."
 
-**Key Texts.** v3 20875–20908; LC 1721–1729; AC 1168–1169; Ap 9698–9701, 10024–10031. **Key Sources.** [R24] (opening only); [R25]; [R38]. Author Gravity: the coinage is single-register — disclosed.
+**Key Texts.** v3 20875–20908; LC 1721–1729; AC 1168–1169; Ap 9698–9701, 10024–10031. **Key Sources.** [Registry R24] (opening only); [R25]; [R38]. Author Gravity: the coinage is single-register — disclosed.
 
 **Related Terms.** 8.3 marriage; 8.1 vows; 8.4 spiritual/Geysterey; 4.2 household.
 
@@ -1328,7 +1328,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Key Texts.** LC 1687–1729; SC 101–102, 635–660; v3 21017–21018; TT 2432–2438, 3013–3015 (Bell's English); AC 713–715, 751–767, 1136–1144; Ap 6933, 10024–10031 (read this pass); v2 15004–15013, 15288–15292.
 
-**Key Sources.** [R25] LC Sixth Commandment; [R26] SC; [R37] AC XXIII; [R38] Ap XXVII; [R24]; [R31] TT (Contested as verbatim); [R15] Sermons 3 and 5. Editorial-layer traces: Duchess Margaret as dedicatee [R9]; Albert's marriage, "July 1, 1526" [R24]. Author Gravity: none. **Article 20:** the household is documented from the father's side only (Doc_05 §1.3).
+**Key Sources.** [Registry R25] LC Sixth Commandment; [R26] SC; [R37] AC XXIII; [R38] Ap XXVII; [R24]; [R31] TT (Contested as verbatim); [R15] Sermons 3 and 5. Editorial-layer traces: Duchess Margaret as dedicatee [R9]; Albert's marriage, "July 1, 1526" [R24]. Author Gravity: none. **Article 20:** the household is documented from the father's side only (Doc_05 §1.3).
 
 **Related Terms.** 8.1 vows; 8.2 chastity; 8.4 spiritual/Geysterey; 6.1 estate; 6.4 calling; 6.5 pastor; 4.2 household; 4.8 daily; 7.5 must and free; 9.7 patience; 6.2 we are all priests.
 
@@ -1344,7 +1344,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* "spiritual" as inward, devout, or non-material. *World Hearing:* a *claimed status* over other Christians — mocked in scare-quotes — against which every calling is equally holy.
 
-**Key Texts.** v3 20994–20995, 21027 (footnote — layer for the English, the text for the German); v2 16003–16020; AC 976–978; Ap 6785–6798. **Key Sources.** [R24]; [R16]; [R37]; [R38] Ap XV. Author Gravity: none.
+**Key Texts.** v3 20994–20995, 21027 (footnote — layer for the English, the text for the German); v2 16003–16020; AC 976–978; Ap 6785–6798. **Key Sources.** [Registry R24]; [R16]; [R37]; [R38] Ap XV. Author Gravity: none.
 
 **Related Terms.** 6.1 estate; 8.1 vows; 8.5 perfection; 8.2 chastity; 6.4 calling; 8.3 marriage.
 
@@ -1360,7 +1360,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* "perfection" as moral flawlessness or as a spiritual elite's achievement. *World Hearing:* growth in fear, faith and one's calling — the farmer's as much as the monk's — with no counsels above the commandments.
 
-**Key Texts.** AC 1113–1115, 1130–1131, 1233–1247; v3 12133–12136; Ap 9819–9836, 9897–9924, 10008–10022 (read this pass). **Key Sources.** [R37] AC XXVII; [R38] Ap XXVII, entire; [R20]. Author Gravity: weighted to Melanchthon — disclosed.
+**Key Texts.** AC 1113–1115, 1130–1131, 1233–1247; v3 12133–12136; Ap 9819–9836, 9897–9924, 10008–10022 (read this pass). **Key Sources.** [Registry R37] AC XXVII; [R38] Ap XXVII, entire; [R20]. Author Gravity: weighted to Melanchthon — disclosed.
 
 **Related Terms.** 8.1 vows; 8.4 spiritual/Geysterey; 6.4 calling; 2.3 good works; 4.5 fear and love God; 2.4 merit; 1.7 the cross..
 
@@ -1376,7 +1376,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* that this world abolished fasting, or made eating meat a badge. *World Hearing:* fasting kept as a free bodily discipline against satiety, the calendar of meats refused as a "must," and the use of the freedom governed by the weak neighbour.
 
-**Key Texts.** v2 15963–15969, 15986–15999; SC 530–532; AC 1048–1062; Ap 6938–6960 (read this pass); v2 15229–15259. **Key Sources.** [R16]; [R26]; [R37] AC XXVI; [R38] Ap XV; [R15] Sermon 4. Author Gravity: none.
+**Key Texts.** v2 15963–15969, 15986–15999; SC 530–532; AC 1048–1062; Ap 6938–6960 (read this pass); v2 15229–15259. **Key Sources.** [Registry R16]; [R26]; [R37] AC XXVI; [R38] Ap XV; [R15] Sermon 4. Author Gravity: none.
 
 **Related Terms.** 7.5 must and free; 3.4 doctrines of men; 4.6 neighbor; 5.11 worthy/examination; 8.1 vows.
 
@@ -1392,7 +1392,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* that this world rejected the saints. *World Hearing:* the saints remembered and imitated, not invoked; the "helper in need" replaced by the one Mediator.
 
-**Key Texts.** LC 451–457; AC 620–626; Ap 7605–7612; TT 3045–3050 (Bell's English). **Key Sources.** [R25]; [R37] AC XXI; [R38] Ap XXI (grep-located, 7605–7616 read in context). Author Gravity: none.
+**Key Texts.** LC 451–457; AC 620–626; Ap 7605–7612; TT 3045–3050 (Bell's English). **Key Sources.** [Registry R25]; [R37] AC XXI; [R38] Ap XXI (grep-located, 7605–7616 read in context). Author Gravity: none.
 
 **Related Terms.** 4.4 to have a god; 3.6 Christ alone; 5.8 congregation; 8.8 images; 9.6 martyr; 3.4 doctrines of men.
 
@@ -1402,13 +1402,13 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Quick Meaning.** One of the 1522 "unnecessary things" — "we are free to have them or not"; "neither here nor there, neither evil nor good" — to be abolished "if they are going to be worshiped, otherwise not," and never by compulsion.
 
-**World Meaning.** Images are "unnecessary, and we are free to have them or not, although it would be much better if we did not have them. I am not partial to them" (v2 15062–15065); they "ought to be abolished if they are going to be worshiped, otherwise not" (v2 15144–15145); "we would do better to give a poor man a gold-piece than to give God a golden image" (v2 15165–15166); "images are neither here nor there, neither evil nor good, we may have them or not, as we please" (v2 15204–15206) — all from the Third and Fourth Sermons, read at Doc_05 (§11 item 4). Among "the leaving of monasteries by monks, the marriage of priests, and the images… no compulsion or law must be made of them" (v2 15288–15292); those whose only Christianity is that they "break the images" are warned (v2 15906–15909, per Doc_03). The funeral preface mocks "costly shrines of gold and silver, and images set with gems and jewels; but within are dead men's bones" (Hy 1027–1029, Bacon's English). The Apology tells the same descent: "From invocation the next step was to images; these also were worshiped, and a virtue was supposed to exist in these" — with the story of a statue "which moved automatically by a trick" (Ap 7610–7616). The other side reaches the library only as the editor's quotation of Karlstadt ([R43], context; "Dr. Carlstadt" named once in the sermons among four names, v2 14997, per Doc_05).
+**World Meaning.** Images are "unnecessary, and we are free to have them or not, although it would be much better if we did not have them. I am not partial to them" (v2 15062–15065); they "ought to be abolished if they are going to be worshiped, otherwise not" (v2 15144–15145); "we would do better to give a poor man a gold-piece than to give God a golden image" (v2 15165–15166); "images are neither here nor there, neither evil nor good, we may have them or not, as we please" (v2 15204–15206) — all from the Third and Fourth Sermons, read at Doc_05 (§11 item 4). Among "the leaving of monasteries by monks, the marriage of priests, and the images… no compulsion or law must be made of them" (v2 15288–15292); those whose only Christianity is that they "break the images" are warned (v2 15906–15909, per Doc_03). The funeral preface mocks "costly shrines of gold and silver, and images set with gems and jewels; but within are dead men's bones" (Hy 1027–1029, Bacon's English). The Apology tells the same descent: "From invocation the next step was to images; these also were worshiped, and a virtue was supposed to exist in these" — with the story of a statue "which moved automatically by a trick" (Ap 7610–7616). The other side reaches the library only as the editor's quotation of Karlstadt ([Registry R43], context; "Dr. Carlstadt" named once in the sermons among four names, v2 14997, per Doc_05).
 
-**Ecological Function.** 7.5's "free" thing and the 1522 crisis's test case (Doc_05 §2.5 a); 8.7's next step; Doc_05 §7.1's boundary against the radicals. Promoted for its paired Distortion Risk ([144]); no [PV] — the Karlstadt divergence is context-only (R43).
+**Ecological Function.** 7.5's "free" thing and the 1522 crisis's test case (Doc_05 §2.5 a); 8.7's next step; Doc_05 §7.1's boundary against the radicals. Promoted for its paired Distortion Risk ([144]); no [PV] — the Karlstadt divergence is context-only (Registry R43).
 
 **Distortion Risk.** *Modern Hearing:* that this world smashed images, or forbade them. *World Hearing:* images indifferent — kept or removed freely, removed where worshipped — and iconoclasm by force a "must" made of a "free" thing.
 
-**Key Texts.** v2 15062–15065, 15144–15145, 15165–15166, 15204–15206, 15288–15293; Hy 1027–1029; Ap 7605–7616. **Key Sources.** [R15] Sermons 3 and 4 (read at Doc_05); [R16]; [R28]; [R38] Ap XXI (grep-located). Author Gravity: none.
+**Key Texts.** v2 15062–15065, 15144–15145, 15165–15166, 15204–15206, 15288–15293; Hy 1027–1029; Ap 7605–7616. **Key Sources.** [Registry R15] Sermons 3 and 4 (read at Doc_05); [R16]; [R28]; [R38] Ap XXI (grep-located). Author Gravity: none.
 
 **Related Terms.** 7.5 must and free; 8.7 saints; 3.4 doctrines of men; 6.8 sects; 5.5 both kinds.
 
@@ -1426,7 +1426,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* comfort as reassurance or emotional support. *World Hearing:* the setting-at-rest of a terrified conscience by a promise — the thing every sacrament and absolution exists to give.
 
-**Key Texts.** AC 546–553; Ap 566–567, 1427–1430; v2 15679–15683, 15709–15724; Hy 1675–1677. **Key Sources.** [R37] AC XX; [R38]; [R15]; [R5] unread. Author Gravity: none.
+**Key Texts.** AC 546–553; Ap 566–567, 1427–1430; v2 15679–15683, 15709–15724; Hy 1675–1677. **Key Sources.** [Registry R37] AC XX; [R38]; [R15]; [R5] unread. Author Gravity: none.
 
 **Related Terms.** 2.8 conscience; 9.3 assurance; 5.10 confession/absolution; 2.5 grace; 5.3 Sacrament of the Altar; 9.4 death; 9.2 temptation.
 
@@ -1442,7 +1442,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* temptation as the urge to a specific sin. *World Hearing:* a lifelong threefold assault, expected and age-graded, in which faith and prayer are formed — and the world's own old Saxon word for it.
 
-**Key Texts.** LC 3632–3634, 3669–3680; SC 331–335; TT 3074–3079 (Bell's English); Ap 3734–3741, 5152–5157 (read this pass). **Key Sources.** [R25] LC Sixth Petition (read at Doc_05); [R26]; [R31]; [R38]. Author Gravity: none.
+**Key Texts.** LC 3632–3634, 3669–3680; SC 331–335; TT 3074–3079 (Bell's English); Ap 3734–3741, 5152–5157 (read this pass). **Key Sources.** [Registry R25] LC Sixth Petition (read at Doc_05); [R26]; [R31]; [R38]. Author Gravity: none.
 
 **Related Terms.** 4.7 the devil; 9.5 prayer; 9.1 comfort; 1.7 the cross; 9.4 death; 2.1 faith.
 
@@ -1458,7 +1458,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* assurance as self-confidence, or as presumption; "certain" as proven. *World Hearing:* a certainty grounded outside the self, in a promise that "cannot fail or deceive me," against the self-torture of "one week trails another"; the whole doctrine's purpose.
 
-**Key Texts.** v1 1348–1349, 6845–6852; v2 15722–15724; SC 351–352; Ap 1186–1209, 1430–1442; TT 3052–3064 (Bell's English); LC 3738–3749. **Key Sources.** [R2]; [R6]; [R15]; [R26]; [R38]; [R31]; [R25] LC Prayer (read at Doc_05). Author Gravity: none.
+**Key Texts.** v1 1348–1349, 6845–6852; v2 15722–15724; SC 351–352; Ap 1186–1209, 1430–1442; TT 3052–3064 (Bell's English); LC 3738–3749. **Key Sources.** [R2]; [R6]; [Registry R15]; [R26]; [R38]; [R31]; [R25] LC Prayer (read at Doc_05). Author Gravity: none.
 
 **Related Terms.** 2.8 conscience; 2.2 justification; 2.7 promise/testament; 9.1 comfort; 9.5 prayer; 1.1 indulgence; 2.1 faith; 1.2 repentance; 2.6 Law and Gospel.
 
@@ -1474,7 +1474,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* death as an end faced by inner resolve, and burial as private grief. *World Hearing:* the last battle, faced alone but on a text; a sleep and a couch; a burial sung, honoured and stripped of masses for the soul.
 
-**Key Texts.** v2 14641–14644; Hy 957–990 (Bacon's English); v1 2319–2321; SC 345–347; Ap 1439–1442, 8577–8579. **Key Sources.** [R15] Sermon 1; [R28] the 1542 preface; [R3]; [R26]; [R38]. Author Gravity: the sleep register is Luther's — disclosed.
+**Key Texts.** v2 14641–14644; Hy 957–990 (Bacon's English); v1 2319–2321; SC 345–347; Ap 1439–1442, 8577–8579. **Key Sources.** [Registry R15] Sermon 1; [R28] the 1542 preface; [R3]; [R26]; [R38]. Author Gravity: the sleep register is Luther's — disclosed.
 
 **Related Terms.** 9.1 comfort; 9.2 temptation; 4.7 the devil; 4.9 hymn; 5.2 baptism; 1.5 purgatory; 2.8 conscience.
 
@@ -1490,7 +1490,7 @@ The confession makes the pastor's marriage a public cause: "God ordained marriag
 
 **Distortion Risk.** *Modern Hearing:* prayer as spontaneous, private, optional devotion; set forms as lesser. *World Hearing:* a commanded duty with a promised answer and a given form, prayed with certainty ("Amen"), the household's frame and the community's wall — and the practice whose coldness the world reports of itself.
 
-**Key Texts.** LC 3006–3141, 3148–3149, 3174–3196, 3738–3749 (read entire at Doc_05); SC 235–238, 351–352, 537–607; TT 3027–3034, 3054–3064, 3076–3090, 3147–3151 (Bell's English); AC 575–579; Ap 6510–6515, 6925–6927, 8712–8714; v2 14764–14766. **Key Sources.** [R25] LC Third Part, entire (Doc_05 §11); [R26]; [R31] (Contested as verbatim); [R37] AC XX; [R38] Ap XIII, XV, XXIV; [R14] the *Kurze Form*'s own Lord's Prayer (v2 13342–14402) unread. Author Gravity: none.
+**Key Texts.** LC 3006–3141, 3148–3149, 3174–3196, 3738–3749 (read entire at Doc_05); SC 235–238, 351–352, 537–607; TT 3027–3034, 3054–3064, 3076–3090, 3147–3151 (Bell's English); AC 575–579; Ap 6510–6515, 6925–6927, 8712–8714; v2 14764–14766. **Key Sources.** [Registry R25] LC Third Part, entire (Doc_05 §11); [R26]; [R31] (Contested as verbatim); [R37] AC XX; [R38] Ap XIII, XV, XXIV; [R14] the *Kurze Form*'s own Lord's Prayer (v2 13342–14402) unread. Author Gravity: none.
 
 **Related Terms.** 4.8 daily; 4.2 household; 4.1 catechism; 2.7 promise/testament; 9.3 assurance; 9.2 temptation; 4.7 the devil; 7.4 insurrection; 6.9 the Turk; 9.7 patience.
 
@@ -1517,78 +1517,78 @@ The project's lexicon-index discipline asks that tier, tag, [CT] status and Auth
 
 | # | Term | Doc_03 | Doc_06 | Δ | AS | SC | DR | TC | RT | PV | CT | CT type | RES | AG risk | Registry rows | Related |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1.1 | indulgence / pardon / "letters of pardon" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R1, R2, R12, R25, R38 | 8 |
-| 1.2 | repentance / penance (*Poenitentiam agite*) | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R2, R12, R25, R26, R37, R38 | 10 |
-| 1.3 | contrition / attrition | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R2, R12, R37, R38 | 4 |
-| 1.4 | satisfaction — two referents | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Alias problem (see entry) | R2, R37, R38 | 5 |
-| 1.5 | purgatory | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R2, R28, R38 | 3 |
-| 1.6 | the keys / power of the keys | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R2, R11, R12, R37, R38 | 9 |
-| 1.7 | the cross — "Cross, cross"; bearing affliction | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R2, R3, R37 | 4 |
-| 2.1 | faith / "faith alone" / "by faith alone" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R6, R12, R13, R15, R25, R37, R38 | 18 |
-| 2.2 | justification / to justify / "the righteousness of faith" | 1 | 1 |  |  | Y | Y | Y | Y |  | Y | filled |  | Weighted | R13, R34, R37, R38 | 11 |
-| 2.3 | good works / "works" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R6, R13, R37, R38 | 7 |
-| 2.4 | merit (*meritum congrui* / *meritum condigni*) | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R2, R13, R27, R37, R38 | 7 |
-| 2.5 | grace / "gracious God" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R12, R15, R25, R26, R27, R37 | 5 |
-| 2.6 | Law and Gospel — "commands and promises" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R13, R14, R20, R25, R38 | 12 |
-| 2.7 | promise / testament | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R4, R7, R12, R25, R37, R38 | 12 |
-| 2.8 | conscience — "terrified," "anxious," "captive" consciences | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R4, R15, R16, R18, R25, R31, R37, R38 | 15 |
-| 2.9 | free will / bondage / "assertion" | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Yes — single-voice/register | R12, R27, R34, R37 | 5 |
-| 2.10 | sin / original sin — "born with sin" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | R26, R37 | 6 |
-| 3.1 | the Word / Word of God — "the Word must do it" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R11, R13, R15, R20, R25, R26, R29, R37 | 18 |
-| 3.2 | Gospel | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R13, R19, R25, R28, R37 | 5 |
-| 3.3 | Scripture against Fathers, Councils and pope — "the Bible… under the bench" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | R1, R11, R16, R23, R31, R34, R37 | 6 |
-| 3.4 | doctrines of men / human traditions (*Menschenlehren*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R2, R11, R12, R16, R37, R38 | 9 |
-| 3.5 | the letter and the spirit / the literal sense | 2 | 2 |  |  | Y |  | Y |  |  |  |  |  | Yes — single-voice/register | R23, R63 | 4 |
-| 3.6 | Christ alone — "Hear ye Him" | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | No | R13, R16, R37 | 4 |
-| 4.1 | catechism / "the three parts" / "the five parts" | 1 | 1 |  |  | Y |  | Y | Y |  |  |  | Y | No | R14, R25, R26, R31, R37, R38 | 15 |
-| 4.2 | household / "father of a family" / "head of a household" | 1 | 1 |  | Y |  | Y |  | Y |  |  |  | Y | Yes — single-voice/register | R25, R26, R31 | 13 |
-| 4.3 | "What does this mean?" — the question-and-answer form | 2 | 3 | ↓ |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | R25, R26 | 0 |
-| 4.4 | "to have a god is to trust" — god, idol, Mammon | 1 | 2 | ↓ | Y |  | Y |  | Y |  |  |  |  | Yes — single-voice/register | R25, R26, R31 | 5 |
-| 4.5 | "fear and love God" / "fear, love, and trust" | 2 | 3 | ↓ |  | Y |  |  | Y |  |  |  |  | No | R25, R26, R37 | 0 |
-| 4.6 | neighbor | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R14, R15, R25, R26, R38 | 5 |
-| 4.7 | the devil — "the old evil foe," "a liar and murderer" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | R1, R15, R25, R26, R29, R31, R37 | 15 |
-| 4.8 | daily — "daily bread," "daily sorrow and repentance," daily reading | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | R25, R26 | 7 |
-| 4.9 | hymn / "spiritual songs" / German singing | 2 | 1 | ↑ |  | Y | Y |  | Y |  |  |  | Y | No | R25, R26, R27, R28, R37, R38, R45, R47 | 10 |
-| 5.1 | sacrament — "sign, significance, and faith"; "the Word joined to the element" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R3, R9, R12, R25, R37, R38 | 13 |
-| 5.2 | baptism (*Taufe*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R3, R11, R15, R25, R26, R37 | 10 |
-| 5.3 | the Sacrament of the Altar / Lord's Supper / "the bread" — "in and under" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R9, R12, R25, R26, R37, R38, R56 | 14 |
-| 5.4 | "given for you" — "for you" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R12, R25, R26, R38 | 5 |
-| 5.5 | both kinds / the cup | 2 | 2 |  |  | Y |  | Y | Y |  |  |  |  | No | R9, R12, R15, R37, R43 | 5 |
-| 5.6 | the mass — sacrifice, "good work," private mass, "evangelical mass" | 1 | 2 | ↓ |  | Y | Y | Y | Y | Y |  |  |  | No | R7, R12, R15, R28, R37, R38, R43, R59 | 9 |
-| 5.7 | transubstantiation — "a monstrous word" | 3 | 3 |  |  | Y |  | Y |  |  |  |  |  | Yes — single-voice/register | R12 | 0 |
-| 5.8 | fellowship / communion / congregation of saints (*communio*, *Gemeinde*) — and "brotherhoods" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R8, R9, R10, R12, R25, R37, R87 | 11 |
-| 5.9 | the ban / excommunication | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R10, R15, R37 | 4 |
-| 5.10 | confession / absolution — "many absolutions" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R4, R15, R26, R37, R38 | 10 |
-| 5.11 | worthy / unworthy — examination before the sacrament | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R25, R26, R37, R38 | 11 |
-| 6.1 | spiritual estate / temporal estate — "the Christian Estate" | 1 | 2 | ↓ | Y |  | Y | Y | Y |  |  |  |  | Yes — single-voice/register | R10, R11, R14, R19, R24, R25, R38 | 7 |
-| 6.2 | "we are all priests" — the royal priesthood | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | Weighted | R11, R12, R30, R37, R38 | 11 |
-| 6.3 | office / office-holder | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R11, R12, R25, R37 | 8 |
-| 6.4 | calling / "regularly called" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | R15, R31, R37, R38 | 11 |
-| 6.5 | pastor / preacher / "care-takers of souls" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R15, R25, R26, R31, R37, R38 | 11 |
-| 6.6 | Christendom (*Christenheit*) — the one holy Christian Church | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | R6, R8, R11, R25, R38, R87 | 5 |
-| 6.7 | pope / papacy / papist / Romanist / "Antichrist" — and "the Church of Rome" | 1 | 2 | ↓ |  | Y | Y |  | Y | Y |  |  |  | No | R1, R8, R11, R12, R25, R31, R37, R38 | 10 |
-| 6.8 | sects / "new spirits" / fanatics / enthusiasts / Anabaptists | 2 | 2 |  |  | Y | Y | Y | Y |  |  |  |  | No | R7, R25, R28, R34, R37, R38 | 12 |
-| 6.9 | the Turk | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | R7, R25, R31, R37 | 0 |
-| 7.1 | the two governments / "kingdom of God" and "kingdom of the world" — and *Bondage*'s "two kingdoms" | 1 | 1 |  | Y |  | Y | Y | Y |  | Y | filled |  | No | R15, R20, R29, R34, R37 | 15 |
-| 7.2 | the sword / temporal sword / secular authority | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R10, R11, R20, R37 | 5 |
-| 7.3 | obedience / "obey God rather than men" / honor | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R11, R25, R26, R31, R37 | 5 |
-| 7.4 | insurrection / rebellion / "the common man" (1522 only) | 2 | 2 |  |  | Y | Y |  | Y | Y |  |  |  | Yes — single-voice/register | R11, R15, R19, R44, R48, R94 | 6 |
-| 7.5 | "must" and "free" — Christian liberty, the weak in faith, offence | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | Yes — single-voice/register | R13, R15, R16, R25, R37, R38 | 17 |
-| 8.1 | vow / monastic vows | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R12, R16, R24, R25, R37, R38, R61 | 10 |
-| 8.2 | chastity — "false chastity," "unchaste chastity," "the true chastity of wedlock" | 2 | 2 |  | Y |  | Y |  | Y |  |  |  |  | Yes — single-voice/register | R24, R25, R37, R38 | 4 |
-| 8.3 | marriage / matrimony / "the married estate" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | R9, R24, R25, R26, R31, R37, R38 | 11 |
-| 8.4 | "spiritual" / "spirituality" (*Geysterey*) / the orders | 2 | 2 |  | Y |  | Y | Y |  |  |  |  |  | No | R11, R16, R24, R25, R37, R38 | 6 |
-| 8.5 | perfection / "evangelical counsels" / "state of perfection" | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Weighted | R20, R37, R38 | 7 |
-| 8.6 | fasting / meats / fast-days / "butter-letters" | 3 | 2 | ↑ |  | Y | Y |  | Y |  |  |  |  | No | R16, R25, R26, R37, R38 | 5 |
-| 8.7 | saints — invocation, "helper in need," "the memory of saints" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R2, R25, R30, R31, R37, R38 | 6 |
-| 8.8 | images | 3 | 2 | ↑ |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R15, R16, R28, R38, R43 | 5 |
-| 9.1 | comfort / consolation | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R3, R5, R15, R25, R27, R28, R37, R38 | 7 |
-| 9.2 | temptation / trial — "the devil, the world, and the flesh" (*Bekoerunge*) | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R13, R15, R25, R26, R31, R38 | 6 |
-| 9.3 | assurance / "sure" / "certain" — against despair and "conditionally" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R4, R6, R15, R26, R27, R31, R37, R38 | 9 |
-| 9.4 | death — "a deep, sound, sweet sleep"; burial | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R3, R15, R26, R28, R38 | 7 |
-| 9.5 | prayer — "Need teacheth to pray"; commandment, promise, form | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | No | R14, R15, R25, R26, R31, R37, R38 | 10 |
-| 9.6 | martyr — "the two youths" | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | R30 | 0 |
-| 9.7 | patience — "my whole life is nothing but patience" | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | R15, R25, R31, R38 | 0 |
+| 1.1 | indulgence / pardon / "letters of pardon" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R1, R2, Registry R12, R25, R38 | 8 |
+| 1.2 | repentance / penance (*Poenitentiam agite*) | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R2, Registry R12, R25, R26, R37, R38 | 10 |
+| 1.3 | contrition / attrition | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R2, Registry R12, R37, R38 | 4 |
+| 1.4 | satisfaction — two referents | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Alias problem (see entry) | R2, Registry R37, R38 | 5 |
+| 1.5 | purgatory | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R2, Registry R28, R38 | 3 |
+| 1.6 | the keys / power of the keys | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R2, Registry R11, R12, R37, R38 | 9 |
+| 1.7 | the cross — "Cross, cross"; bearing affliction | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R2, R3, Registry R37 | 4 |
+| 2.1 | faith / "faith alone" / "by faith alone" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R6, Registry R12, R13, R15, R25, R37, R38 | 18 |
+| 2.2 | justification / to justify / "the righteousness of faith" | 1 | 1 |  |  | Y | Y | Y | Y |  | Y | filled |  | Weighted | Registry R13, R34, R37, R38 | 11 |
+| 2.3 | good works / "works" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R6, Registry R13, R37, R38 | 7 |
+| 2.4 | merit (*meritum congrui* / *meritum condigni*) | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | R2, Registry R13, R27, R37, R38 | 7 |
+| 2.5 | grace / "gracious God" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R12, R15, R25, R26, R27, R37 | 5 |
+| 2.6 | Law and Gospel — "commands and promises" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | Registry R13, R14, R20, R25, R38 | 12 |
+| 2.7 | promise / testament | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R4, R7, Registry R12, R25, R37, R38 | 12 |
+| 2.8 | conscience — "terrified," "anxious," "captive" consciences | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R4, Registry R15, R16, R18, R25, R31, R37, R38 | 15 |
+| 2.9 | free will / bondage / "assertion" | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Yes — single-voice/register | Registry R12, R27, R34, R37 | 5 |
+| 2.10 | sin / original sin — "born with sin" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R26, R37 | 6 |
+| 3.1 | the Word / Word of God — "the Word must do it" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | Registry R11, R13, R15, R20, R25, R26, R29, R37 | 18 |
+| 3.2 | Gospel | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, Registry R13, R19, R25, R28, R37 | 5 |
+| 3.3 | Scripture against Fathers, Councils and pope — "the Bible… under the bench" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Yes — single-voice/register | R1, Registry R11, R16, R23, R31, R34, R37 | 6 |
+| 3.4 | doctrines of men / human traditions (*Menschenlehren*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R2, Registry R11, R12, R16, R37, R38 | 9 |
+| 3.5 | the letter and the spirit / the literal sense | 2 | 2 |  |  | Y |  | Y |  |  |  |  |  | Yes — single-voice/register | Registry R23, R63 | 4 |
+| 3.6 | Christ alone — "Hear ye Him" | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R13, R16, R37 | 4 |
+| 4.1 | catechism / "the three parts" / "the five parts" | 1 | 1 |  |  | Y |  | Y | Y |  |  |  | Y | No | Registry R14, R25, R26, R31, R37, R38 | 15 |
+| 4.2 | household / "father of a family" / "head of a household" | 1 | 1 |  | Y |  | Y |  | Y |  |  |  | Y | Yes — single-voice/register | Registry R25, R26, R31 | 13 |
+| 4.3 | "What does this mean?" — the question-and-answer form | 2 | 3 | ↓ |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | Registry R25, R26 | 0 |
+| 4.4 | "to have a god is to trust" — god, idol, Mammon | 1 | 2 | ↓ | Y |  | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R25, R26, R31 | 5 |
+| 4.5 | "fear and love God" / "fear, love, and trust" | 2 | 3 | ↓ |  | Y |  |  | Y |  |  |  |  | No | Registry R25, R26, R37 | 0 |
+| 4.6 | neighbor | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R14, R15, R25, R26, R38 | 5 |
+| 4.7 | the devil — "the old evil foe," "a liar and murderer" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | R1, Registry R15, R25, R26, R29, R31, R37 | 15 |
+| 4.8 | daily — "daily bread," "daily sorrow and repentance," daily reading | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | Registry R25, R26 | 7 |
+| 4.9 | hymn / "spiritual songs" / German singing | 2 | 1 | ↑ |  | Y | Y |  | Y |  |  |  | Y | No | Registry R25, R26, R27, R28, R37, R38, R45, R47 | 10 |
+| 5.1 | sacrament — "sign, significance, and faith"; "the Word joined to the element" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R3, R9, Registry R12, R25, R37, R38 | 13 |
+| 5.2 | baptism (*Taufe*) | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R3, Registry R11, R15, R25, R26, R37 | 10 |
+| 5.3 | the Sacrament of the Altar / Lord's Supper / "the bread" — "in and under" | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | No | R9, Registry R12, R25, R26, R37, R38, R56 | 14 |
+| 5.4 | "given for you" — "for you" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | Registry R12, R25, R26, R38 | 5 |
+| 5.5 | both kinds / the cup | 2 | 2 |  |  | Y |  | Y | Y |  |  |  |  | No | R9, Registry R12, R15, R37, R43 | 5 |
+| 5.6 | the mass — sacrifice, "good work," private mass, "evangelical mass" | 1 | 2 | ↓ |  | Y | Y | Y | Y | Y |  |  |  | No | R7, Registry R12, R15, R28, R37, R38, R43, R59 | 9 |
+| 5.7 | transubstantiation — "a monstrous word" | 3 | 3 |  |  | Y |  | Y |  |  |  |  |  | Yes — single-voice/register | Registry R12 | 0 |
+| 5.8 | fellowship / communion / congregation of saints (*communio*, *Gemeinde*) — and "brotherhoods" | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | No | R8, R9, Registry R10, R12, R25, R37, R87 | 11 |
+| 5.9 | the ban / excommunication | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | No | Registry R10, R15, R37 | 4 |
+| 5.10 | confession / absolution — "many absolutions" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | R4, Registry R15, R26, R37, R38 | 10 |
+| 5.11 | worthy / unworthy — examination before the sacrament | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R25, R26, R37, R38 | 11 |
+| 6.1 | spiritual estate / temporal estate — "the Christian Estate" | 1 | 2 | ↓ | Y |  | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R10, R11, R14, R19, R24, R25, R38 | 7 |
+| 6.2 | "we are all priests" — the royal priesthood | 1 | 1 |  |  | Y | Y | Y | Y |  |  |  |  | Weighted | Registry R11, R12, R30, R37, R38 | 11 |
+| 6.3 | office / office-holder | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R11, R12, R25, R37 | 8 |
+| 6.4 | calling / "regularly called" | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | Registry R15, R31, R37, R38 | 11 |
+| 6.5 | pastor / preacher / "care-takers of souls" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R15, R25, R26, R31, R37, R38 | 11 |
+| 6.6 | Christendom (*Christenheit*) — the one holy Christian Church | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | Weighted | R6, R8, Registry R11, R25, R38, R87 | 5 |
+| 6.7 | pope / papacy / papist / Romanist / "Antichrist" — and "the Church of Rome" | 1 | 2 | ↓ |  | Y | Y |  | Y | Y |  |  |  | No | R1, R8, Registry R11, R12, R25, R31, R37, R38 | 10 |
+| 6.8 | sects / "new spirits" / fanatics / enthusiasts / Anabaptists | 2 | 2 |  |  | Y | Y | Y | Y |  |  |  |  | No | R7, Registry R25, R28, R34, R37, R38 | 12 |
+| 6.9 | the Turk | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | R7, Registry R25, R31, R37 | 0 |
+| 7.1 | the two governments / "kingdom of God" and "kingdom of the world" — and *Bondage*'s "two kingdoms" | 1 | 1 |  | Y |  | Y | Y | Y |  | Y | filled |  | No | Registry R15, R20, R29, R34, R37 | 15 |
+| 7.2 | the sword / temporal sword / secular authority | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R10, R11, R20, R37 | 5 |
+| 7.3 | obedience / "obey God rather than men" / honor | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | Registry R11, R25, R26, R31, R37 | 5 |
+| 7.4 | insurrection / rebellion / "the common man" (1522 only) | 2 | 2 |  |  | Y | Y |  | Y | Y |  |  |  | Yes — single-voice/register | Registry R11, R15, R19, R44, R48, R94 | 6 |
+| 7.5 | "must" and "free" — Christian liberty, the weak in faith, offence | 1 | 1 |  | Y |  | Y | Y | Y |  |  |  |  | Yes — single-voice/register | Registry R13, R15, R16, R25, R37, R38 | 17 |
+| 8.1 | vow / monastic vows | 1 | 2 | ↓ |  | Y | Y | Y | Y |  |  |  |  | No | Registry R12, R16, R24, R25, R37, R38, R61 | 10 |
+| 8.2 | chastity — "false chastity," "unchaste chastity," "the true chastity of wedlock" | 2 | 2 |  | Y |  | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R24, R25, R37, R38 | 4 |
+| 8.3 | marriage / matrimony / "the married estate" | 1 | 1 |  |  | Y | Y |  | Y |  |  |  |  | No | R9, Registry R24, R25, R26, R31, R37, R38 | 11 |
+| 8.4 | "spiritual" / "spirituality" (*Geysterey*) / the orders | 2 | 2 |  | Y |  | Y | Y |  |  |  |  |  | No | Registry R11, R16, R24, R25, R37, R38 | 6 |
+| 8.5 | perfection / "evangelical counsels" / "state of perfection" | 2 | 2 |  |  | Y | Y | Y |  |  |  |  |  | Weighted | Registry R20, R37, R38 | 7 |
+| 8.6 | fasting / meats / fast-days / "butter-letters" | 3 | 2 | ↑ |  | Y | Y |  | Y |  |  |  |  | No | Registry R16, R25, R26, R37, R38 | 5 |
+| 8.7 | saints — invocation, "helper in need," "the memory of saints" | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | No | R2, Registry R25, R30, R31, R37, R38 | 6 |
+| 8.8 | images | 3 | 2 | ↑ |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R15, R16, R28, R38, R43 | 5 |
+| 9.1 | comfort / consolation | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R3, R5, Registry R15, R25, R27, R28, R37, R38 | 7 |
+| 9.2 | temptation / trial — "the devil, the world, and the flesh" (*Bekoerunge*) | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | Registry R13, R15, R25, R26, R31, R38 | 6 |
+| 9.3 | assurance / "sure" / "certain" — against despair and "conditionally" | 1 | 2 | ↓ |  | Y | Y |  | Y |  |  |  |  | No | R2, R4, R6, Registry R15, R26, R27, R31, R37, R38 | 9 |
+| 9.4 | death — "a deep, sound, sweet sleep"; burial | 2 | 2 |  |  | Y | Y |  | Y |  |  |  |  | Yes — single-voice/register | R3, Registry R15, R26, R28, R38 | 7 |
+| 9.5 | prayer — "Need teacheth to pray"; commandment, promise, form | 2 | 2 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R14, R15, R25, R26, R31, R37, R38 | 10 |
+| 9.6 | martyr — "the two youths" | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | Yes — single-voice/register | Registry R30 | 0 |
+| 9.7 | patience — "my whole life is nothing but patience" | 3 | 3 |  |  | Y |  |  | Y |  |  |  |  | No | Registry R15, R25, R31, R38 | 0 |
 
 **Reading the index.** Tier 1 = 18, Tier 2 = 48, Tier 3 = 6 (§1.2). [AS] = 10, unchanged from Doc_03 (OG-3). [DR] = 60 (Doc_03's 57 plus the three disclosed additions at §1.5). [PV] = 3 (5.6, 6.7, 7.4), unchanged. [CT] = 2 (2.2, 7.1), both with Contest Type filled, both provisional (§2). RES = 3 (4.1, 4.2, 4.9). AG risk: 48 "No," 18 "Yes — single-voice/register," 5 "Weighted," 1 alias-problem note (1.4). No Excluded Registry row (R33, R55, R57, R58, R94, R95) is drawn on *as a source* in any Registry column: R94 appears once, at entry 7.4, transparently as the bar it is (see 7.4's Ecological Function), never as evidence, and the rest appear nowhere. Several rows are carried in an entry's `Registry:` line with a qualifier — "(context)," "as named absence," "as unread lead," "(bars)" — and the Registry-rows column strips those qualifiers to bare row codes. A reader should check the entry's own `Registry:` header line for the marker before treating a row as a source. This is the Gallic index's S5 defect the sentence exists to guard against. **The Registry column is not a complete list of an entry's sources**: it derives from the entry's own `Registry:` header line only, and a number of entries name additional rows inside Key Sources that their `Registry:` line omits — a reader who wants every source an entry draws on should read that entry's Key Sources directly, not stop at this index.
 
@@ -1606,7 +1606,7 @@ The Lexicon Framework's Development Workflow step 5 ([162]) asks for a cross-ref
 
 ## 8. Confidence review (Lexicon Framework Development Workflow step 6; Constitution Article 17; Doc_02 §14)
 
-Every claim about how a term *functioned* was checked against the five-level vocabulary as Doc_02 §14 calibrated it. The pattern, stated once: the doctrinal and confessional content of every entry is **Documented** at its loci (verified by script, §10); the founder's own registers are **Documented** as his; the household program (4.1, 4.2, 4.8, 9.5, 5.11) is **Documented** as prescription and **Inferential/Thin** as any household's practice, with the reading of reception **Contested** (R70–R72); the movement's parish practice (5.6, 4.9, 5.3, 5.10) is **Widely Accepted** as claimed and **Inferential/Thin** as any parish's; every Table Talk saying (in 2.8, 4.4, 4.7, 7.3, 8.3, 8.7, 9.2, 9.3, 9.5, 9.7, 6.5, 6.7) is **Contested** as verbatim and Documented as Aurifaber's report; the 1522 outcome (7.5) is **Widely Accepted** at the editor's word; the apocalyptic reading of the adversary frame (4.7) is **Dominant Modern Reconstruction** at most, unread, and not built on; the organizing role of the presence against the Reformed (5.3) is **untagged**, as Doc_04 §3 G10 left it, pending [R56]; the two [CT] contests are **Contested** as to how the in-text wordings relate and **Documented** as to the wordings themselves; and the ten [AS] tags are **Inferential/Thin** as comparative claims. No entry grants a term certainty about how it was *held* because it is well attested as *existing* — the Confidence Inheritance Principle's own warning ([43]). Three entries carry Reported-Experience Status (4.1, 4.2, 4.9), each stating why.
+Every claim about how a term *functioned* was checked against the five-level vocabulary as Doc_02 §14 calibrated it. The pattern, stated once: the doctrinal and confessional content of every entry is **Documented** at its loci (verified by script, §10); the founder's own registers are **Documented** as his; the household program (4.1, 4.2, 4.8, 9.5, 5.11) is **Documented** as prescription and **Inferential/Thin** as any household's practice, with the reading of reception **Contested** (Registry R70–R72); the movement's parish practice (5.6, 4.9, 5.3, 5.10) is **Widely Accepted** as claimed and **Inferential/Thin** as any parish's; every Table Talk saying (in 2.8, 4.4, 4.7, 7.3, 8.3, 8.7, 9.2, 9.3, 9.5, 9.7, 6.5, 6.7) is **Contested** as verbatim and Documented as Aurifaber's report; the 1522 outcome (7.5) is **Widely Accepted** at the editor's word; the apocalyptic reading of the adversary frame (4.7) is **Dominant Modern Reconstruction** at most, unread, and not built on; the organizing role of the presence against the Reformed (5.3) is **untagged**, as Doc_04 §3 G10 left it, pending [R56]; the two [CT] contests are **Contested** as to how the in-text wordings relate and **Documented** as to the wordings themselves; and the ten [AS] tags are **Inferential/Thin** as comparative claims. No entry grants a term certainty about how it was *held* because it is well attested as *existing* — the Confidence Inheritance Principle's own warning ([43]). Three entries carry Reported-Experience Status (4.1, 4.2, 4.9), each stating why.
 
 ---
 
@@ -1623,7 +1623,7 @@ The build's convention since Doc_04 §2.3: every instruction addressed to this d
 | Doc_03 §11 item 1; OG-4 | Read Ap Articles IV, XII, XIII, XV, XXIV, XXVII before Tier 1 entries in §2, §5, §6, §8; discharge the "Luther-only" flags | §4: IV to 1457, XII to 5234, XIII and XV and XXVII entire, XXIV's sacrifice division; the thirteen flags discharged one by one; the unread remainders declared (§10, §11) |
 | Doc_03 §11 item 2 | AC Articles I and III unread; Doc_06 to read and decide on Holy Ghost / person of Christ entries | §4: read; no entry added, with the reason and what would change it (§1.7, §11) |
 | Doc_03 §11 item 2 | "A Preface to All Good Hymn-Books" (Hy 1182–1236) unread, bearing on 4.9 | read at Doc_05 (§11 item 1); used at 4.9, with the Winkworth attribution |
-| Doc_03 §11 item 3 | Original-language verification against a German/Latin edition before any Tier 1 entry | **Not discharged — cannot be:** no period lexicon or German/Latin edition is rowed (R87; Doc_02 §16 item 9). Every lemma in this document is one the vendored English itself shows; the one addition (*Bekoerunge*, LC 3632–3634) is the founder's own gloss in the text. Carried at §11 |
+| Doc_03 §11 item 3 | Original-language verification against a German/Latin edition before any Tier 1 entry | **Not discharged — cannot be:** no period lexicon or German/Latin edition is rowed (Registry R87; Doc_02 §16 item 9). Every lemma in this document is one the vendored English itself shows; the one addition (*Bekoerunge*, LC 3632–3634) is the founder's own gloss in the text. Carried at §11 |
 | Doc_03 §11 item 4; OG-4 | The two [CT] tags: row a source for each or remove; neither to enter runtime vocabulary on Doc_03's word alone | §2: retained as provisional with contest types stated; leads proposed for the Registry owner; rule that no [CT] reaches a chunk without a row; the alternative (remove now) stated |
 | Doc_03 §11 item 5; OG-3 | Re-test the ten [AS] tags against neighbours' Doc_03s when they exist | **Not discharged — cannot be:** no neighbour's Doc_03 exists; tags carried unchanged at Inferential/Thin; §1.7 |
 | Doc_03 §11 item 7 | "Luther-only" flags are flags about what was read | §4 treats each as a pointer to check; ten moved, three confirmed |
@@ -1637,7 +1637,7 @@ The build's convention since Doc_04 §2.3: every instruction addressed to this d
 | Doc_04 §9 item 2 | Ap 6893–6895 as a second Melanchthon attestation for 4.9 | Applied at 4.9 |
 | Doc_04 §9 item 6 | Doc_03 3.1's "every register read" is loose (six of eight) | Applied at 3.1's AG line |
 | Doc_04 §10 item 1; OG-8 item 1 | Every downstream document citing G4 must carry the program/reception distinction | Every household entry (4.1, 4.2, 4.8, 9.5, 5.11) carries it; Discipline 6 and 8 |
-| Doc_04 §10 item 3; OG-8 item 2 | Do not read G10's "Supporting" as "minor"; the organizing-role confidence is untagged pending R56 | 5.3 states both; the Representative does not narrate the Colloquy |
+| Doc_04 §10 item 3; OG-8 item 2 | Do not read G10's "Supporting" as "minor"; the organizing-role confidence is untagged pending Registry R56 | 5.3 states both; the Representative does not narrate the Colloquy |
 | Doc_04 §10 item 8; OG-8 item 6 | The thirteen remaining "Luther-only" flags are Doc_06's | §4, discharged |
 | Doc_04 §10 item 9 | Nothing attests 1546–1580 except by reference | Every entry is a 1517–1545 entry (Discipline 7); no entry narrates 1546–1580 |
 | Doc_05 §2.6; §13 item 4 | For Doc_06: 9.5's evidence base; the "cold" vocabulary across two translators | Applied at 9.5 |
@@ -1666,7 +1666,7 @@ The build's convention since Doc_04 §2.3: every instruction addressed to this d
 5. **Doc_04 §3 G6 / R19 (v3 10670–10672).** The file prints "as the peasants! are threat- ening to do" — an OCR "!" and a line-break hyphen that R19's "verified verbatim" and Doc_04's quotation both silently smooth. The reading is not in doubt; 7.4 here quotes it with the OCR note. Proposed Verification-Note addition for the Registry owner (R19).
 6. **Doc_03 §0 / Registry R87 — a lemma the text supplies.** *Bekoerunge* (LC 3632–3634), found at Doc_05, is now recorded at 9.2 as the founder's own gloss; the list of text-supplied original-language forms at Doc_03 Discipline 2 should gain it when Doc_03 is next revised.
 7. **Registry R38 (Apology)** — proposed Verification-Note extension, under the append-only discipline: Ap 771–1457, 4935–5234, 6415–6566, 6613–6991, 8567–8806, 9561–10194 read in full this pass; every quotation this document draws from them verified at the line. **R37 (AC):** Articles I and III (166–191, 208–231) now read. **R25 (LC):** 521–680 now read — the First Commandment exposition is now read entire across Doc_03 and this pass.
-8. **Doc_02 §12.3 / §7.1 boundary against the Jews.** Nothing in this lexicon carries a term for it, because no vendored text is licensed for anything but disclosure (R49, R94); the Representative's obligation to acknowledge the 1543 treatise is Doc_02 §12.3's and Doc_05 §7.1's, and it is not a lexicon term. Stated so the absence is not read as an oversight.
+8. **Doc_02 §12.3 / §7.1 boundary against the Jews.** Nothing in this lexicon carries a term for it, because no vendored text is licensed for anything but disclosure (Registry R49, R94); the Representative's obligation to acknowledge the 1543 treatise is Doc_02 §12.3's and Doc_05 §7.1's, and it is not a lexicon term. Stated so the absence is not read as an oversight.
 
 ---
 
