@@ -116,3 +116,21 @@ def test_offered_passages_reach_the_voice_and_the_bound_records_but_not_the_reco
     assert "[[fix.passage.abc]] passage (OUTSIDE OUR VOICE" in prepared.user_message
     assert prepared.offered_ids["passage"] == ["fix.passage.abc"]
     assert "fix.witness.who-is-jesus" in prepared.repository_records
+
+
+def test_the_length_line_asks_for_succinctness_with_no_word_range():
+    from engine.m4.turn_prep import CONCISION_DIRECTIVE
+    assert "succinct" in CONCISION_DIRECTIVE
+    assert "120" not in CONCISION_DIRECTIVE and "220" not in CONCISION_DIRECTIVE
+    assert "fewest sentences" not in CONCISION_DIRECTIVE
+    assert "every sentence earns its place" in CONCISION_DIRECTIVE
+
+
+def test_the_limit_line_states_a_lack_plainly_and_succinctly():
+    from engine.m4.turn_prep import LIMIT_LINE
+    assert "plainly and succinctly" in LIMIT_LINE and "briefly" not in LIMIT_LINE
+
+
+def test_the_no_new_figure_line_yields_to_a_person_the_question_or_the_offered_sources_name():
+    from engine.m4.turn_prep import NO_NEW_FIGURE_LINE
+    assert "visitor's question" in NO_NEW_FIGURE_LINE and "sources offered" in NO_NEW_FIGURE_LINE

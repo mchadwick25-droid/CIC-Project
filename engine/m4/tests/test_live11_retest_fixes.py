@@ -237,13 +237,14 @@ def test_syr_has_no_post_window_year_left_in_what_its_voice_is_offered():
     assert findings == []
 
 
-# ---- 6. 'we', not 'I' -----------------------------------------------------
+# ---- 6. 'we' for the tradition, 'I' in the conversation ------------------
 
 
-def test_the_pronoun_rule_answers_a_question_put_to_you_as_we():
+def test_the_pronoun_rule_gives_the_traditions_perspective_as_we_and_the_conversation_as_i():
     shape = shape_text()
-    assert "The exception is that one naming sentence, not a license for 'I'." in shape
-    assert "'what we would want you to understand', 'we believed it because'" in shape
+    assert "not a license for 'I'" not in shape
+    assert "('we believed it because', 'what we would want you to understand')" in shape
+    assert "'I' is for the voice's own acts in this conversation" in shape
 
 
 # ---- 7. Q1 and Q2 reach their world's own evidence ------------------------
