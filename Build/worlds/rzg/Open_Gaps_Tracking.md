@@ -429,3 +429,17 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
 84. **Doc_08 brought into line with Doc_04 on G1's split, 2026-11-03.** Follows entry 83 ("The transmission force said G1's split is only about survival", 2026-11-03). Doc_08 lines 227, 351 and 413 now say the transmission asymmetry is part of the mechanism behind G1's Cross-Check divergence, alongside the qualitative register difference Doc_04 §3.1 names. The change order is in `rzg_Decision_Log.md` (2026-11-03). An independent Opus review checked it.
 
    Status: CLOSED. Entry 83's open Doc_08 item is closed by this entry.
+
+85. **Open points removed from rzg documents when their commentary was cleaned, 2026-11-03.** Removed from the live documents; the questions stay open here.
+
+   (a) Doc_07 (Integrated Ecology Analysis), former line 206, a standing open item carried from Doc_04 §7: "Whether Zwingli's own 1527 *Refutation of the Tricks of the Baptists* contains further doctrinal content beyond the election material already surfaced (Doc_04 §3.1) and the general Anabaptist refusal already stated (Doc_05 §6.2) — this document's own Boundary Structures lens (§2H) does not independently close this, consistent with Doc_05 §6.2's own disclosure of the same limit." The same question is recorded in Doc_04 §7 and Doc_05 §6.2.
+
+   (b) Doc_07 line 16, the open-item sentence: "the distinct, still-open item is the template file's own staleness, a coach-level correction this build thread cannot make (`cic-build-cycle`, 'Editing authority over non-world-build files... belongs to a coach thread'). §8 below re-flags it rather than re-escalating it." Doc_07 §8 ("Re-flagged, not re-escalated") still records it.
+
+   (c) Representative Construction Notes (Theophilus), former line 236, tail clause: "this is a genuine open item for the project lead, matching don's own disclosure exactly, not resolved here." Limb 2 stays recorded as open at lines 214 and 232.
+
+   (d) World Profile line 497, clauses: "— a genuine open item." and "and should be [surveyed] before the Permanent Prompt's own Living Traditions Distinction section is finalized." The line keeps that the survey has not been done.
+
+   (e) World Profile line 499, clause: "— a genuine open item for the project lead's own weighing, not resolved or dismissed here." The line now says the weighing belongs to the project lead.
+
+   Status: OPEN. Owner: rzg's own build thread, with the project lead for (c) to (e).

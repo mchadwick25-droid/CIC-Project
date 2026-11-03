@@ -14,7 +14,7 @@
 
 Per the LDF's own Foundational Principles: "A glossary defines words. A lexicon reconstructs how a world's participants understood, categorized, and navigated reality through their own vocabulary." This document is the construction-record layer of that reconstruction — the full development of all thirteen candidate terms Doc_03 identified, now at the depth Step 6 requires because Doc_04's gravity testing and Doc_05's ecological reconstruction exist to inform that depth, per the LDF's own sequencing rationale ("a term's true ecological weight becomes clearest after the formation ecology is established").
 
-This document does not itself contain each term's full entry text — per LDF Part VI, the full entry content lives in this world's **Deployment Lexicon chunks** (one self-contained file per term, thirteen files, filed alongside this document), so that the runtime retrieval system can surface any entry independently. This document is the construction-record companion: it states the methodology, resolves every open item Doc_03 carried forward to this step, documents the tier and tag decisions and why each was made, and provides the cross-reference and confidence-calibration audit that Part IV's Development Workflow requires. A companion index workbook (Section 7 below) makes the full set queryable without opening every chunk file, per this project's own indexing discipline.
+This document does not itself contain each term's full entry text — per LDF Part VI, the full entry content lives in this world's **Deployment Lexicon chunks** (one self-contained file per term, thirteen files, filed alongside this document), so that the runtime retrieval system can surface any entry independently. This document is the construction-record companion: it states the methodology, resolves every item Doc_03 §4 assigned to this step, documents the tier and tag decisions and why each was made, and provides the cross-reference and confidence-calibration audit that Part IV's Development Workflow requires. A companion index workbook (Section 7 below) makes the full set queryable without opening every chunk file, per this project's own indexing discipline.
 
 **World-code decision, made explicitly here since Doc_01 did not assign one:** the LDF (Part VI) requires a short, lowercase, two-to-six-letter world identifier for chunk file naming, normally assigned during World Identification (Step 1). Doc_01 did not assign one. This document assigns **`pahc`** (Post-Apostolic House-Church) now, as the first point in the pipeline where the omission becomes load-bearing. This is a naming decision, not a substantive historical claim, and is disclosed as this document's own choice rather than treated as an established fact carried from Doc_01 — a reviewer who prefers a different code should say so, since nothing upstream depends on this specific string. All thirteen chunk files use this code: `pahclex001` through `pahclex013`.
 
@@ -43,7 +43,7 @@ Per LDF Part III, tier assignment follows demonstrated ecological weight and dis
 | 1 | ἐπίσκοπος (episkopos) | 1 | none (Doc_03 already Tier 1) |
 | 2 | πρεσβύτερος (presbyteros) | 1 | none |
 | 3 | ἐκκλησία (ekklesia) | 1 | none |
-| 4 | εὐχαριστία (eucharistia) | **1** | **resolved from borderline Tier 1/2 (Section 1, Open Item 2)** |
+| 4 | εὐχαριστία (eucharistia) | **1** | **resolved from borderline Tier 1/2 (Section 1, item 2)** |
 | 5 | διάκονος (diakonos) | 2 | none |
 | 6 | πρεσβυτέριον (presbyterion) | 2 | none |
 | 7 | The Two Ways (Didache 1–6) | 2 | none |
