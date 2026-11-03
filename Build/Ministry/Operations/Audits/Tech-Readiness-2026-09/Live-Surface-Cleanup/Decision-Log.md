@@ -1975,8 +1975,8 @@ Scope: the flagged force and world_core records. The records now state the world
 `witt` (`records/witt/force/`), names: removed the bracketed cell codes from `friars-conviction` [1B - initiating/internal], `imperial-force-ongoing` [2A - ongoing/external], `internal-radical-force` [2B - ongoing/internal], `laitys-need-for-assurance` [1B - initiating/internal], `papal-force-initiating` [1A - initiating/external], `papal-force-ongoing` [2A - ongoing/external], `print-turned-inward` [2B - ongoing/internal] and `transmission-within-the-worlds-life` [2B - ongoing/internal]. All eight keep `matrix_cell` and `kind`.
 
 `rzg` (`records/rzg/force/`):
-- `no-internal-fracture`: "a genuine Tensional gravity" now reads "a genuine standing tension". The gravity classification stays in the record's gravity links.
-- `transmission-author-gravity-genre-asymmetries`: "G1's own Confidence/Gravity Cross-Check divergence" now reads "the divergence between G1's own confidence rating and its gravity".
+- `no-internal-fracture`: "a genuine Tensional gravity" now reads "a genuine standing tension". The Tensional classification stays on the T1 record itself; this sentence no longer repeats it, because the repeated label is what the scanner flags.
+- `transmission-author-gravity-genre-asymmetries`: "G1's own Confidence/Gravity Cross-Check divergence" now reads "G1's own flagged divergence between its core conviction and its systematized form", which is how the rzg gravity discovery document defines that divergence. A first wording ("between its confidence rating and its gravity") misdescribed it and was redone after the Opus review.
 
 Packages rebuilt and repointed in `records/worlds/<code>.yaml` for cappadocian, desert, rzg and witt; the four old pinned `manifest.json` files are retired.
 

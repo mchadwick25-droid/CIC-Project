@@ -24,8 +24,8 @@ description: 'This world''s own record transmitted itself through its own tradit
   asymmetries hold: Calvin''s own vendored corpus is roughly four times Zwingli''s by volume; and institutional
   daily-practice material (the 1541 Ordinances, the Genevan Psalter, Geneva''s own consistory registers)
   remains almost entirely unvendored for both cities alike. Documented as this world''s own central evidentiary
-  condition. This transmission pattern is the specific mechanism behind the divergence between G1''s own confidence
-  rating and its gravity - the asymmetry is a fact about what survived to be copied and reprinted, not about which
+  condition. This transmission pattern is the specific mechanism behind G1''s own flagged divergence between its core
+  conviction and its systematized form - the asymmetry is a fact about what survived to be copied and reprinted, not about which
   strand held the doctrine more centrally.'
 manifestations:
 - our own record does not reflect on its own future survival directly - no surviving voice narrates which
