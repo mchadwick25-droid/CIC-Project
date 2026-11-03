@@ -48,18 +48,10 @@ license: verbatim
 modern_lens_note: >-
   A modern reader may expect "he was regarded... as a monk" to describe someone withdrawn or solitary.
   Sulpitius's own evidence is the opposite: comrades, affection, a shared table, a soldier who "drew
-  off his servant's boots" himself. The monastic quality the passage names is expressed entirely inside
+  off his [servant's] boots" himself. The monastic quality the passage names is expressed entirely inside
   ordinary army life, in how one man treats a subordinate, before there is any monastery for him to
   belong to.
-modern_rendering: >-
-  And even toward him, it was as if the two had changed places. He was really the master, yet he often
-  acted as though he were the lower one. It went so far that, most of the time, he pulled off the other
-  man's boots and cleaned them with his own hand. They ate their meals together, yet the real master
-  usually played the part of servant. For nearly three years before his baptism he served as a soldier.
-  But he kept completely free of the vices that men of that trade too often fall into. He showed great
-  kindness to his fellow soldiers and held them in remarkable affection. His patience and humility went
-  beyond what seemed humanly possible. There is no need to praise the self-denial he showed. It was so
-  great that, even then, people saw him less as a soldier than as a monk.
+modern_rendering: "And even toward him, it was as if the two had changed places. He was really the master, yet he often acted as though he were the lower one. It went so far that, most of the time, he pulled off his [servant's] boots and cleaned them with his own hand. They ate their meals together, yet the real master usually played the part of servant. For nearly three years before his baptism he served as a soldier. But he kept completely free of the vices that men of that trade too often fall into. He showed great kindness to his fellow soldiers and held them in remarkable affection. His patience and humility went beyond what seemed humanly possible. There is no need to praise the self-denial he showed. It was so great that, even then, people saw him less as a soldier than as a monk."
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

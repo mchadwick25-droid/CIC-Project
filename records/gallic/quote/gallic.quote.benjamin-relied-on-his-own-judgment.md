@@ -12,11 +12,11 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Cassian's own narration in the Second Conference, closing the story of Brother
+    Documented as Abbot Moses's words in Cassian's Second Conference, closing the story of Brother
     Benjamin as a cautionary example.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i
-  locus: "Conference II, ch. XXIV (npnf211 div iv.iv.iii.xxiv, file lines 28106-28110): Cassian's narration of Brother Benjamin's fall"
+  locus: "Conference II, ch. XXIV (npnf211 div iv.iv.iii.xxiv, file lines 28106-28110): Abbot Moses on Brother Benjamin's fall"
   license: public-domain
 retrieval:
   tier: 2
@@ -31,18 +31,14 @@ text: >-
   judgment rather than on the traditions of the Elders, for he forsook
   the desert and returned back to the vain philosophy of this world and
   earthly vanities,
-speaker_or_author: John Cassian, narrating the fall of Brother Benjamin (Second Conference)
+speaker_or_author: Abbot Moses, as Cassian records him (Second Conference)
 license: verbatim
 modern_lens_note: >-
-  Benjamin's fault, as Cassian frames it, was not gluttony itself but obstinacy - insisting on his own
-  fasting schedule against what the Elders had handed down. The moral Cassian draws is not about food
+  Benjamin's fault, as Abbot Moses frames it, was not gluttony itself but obstinacy - insisting on his own
+  fasting schedule against what the Elders had handed down. The moral Abbot Moses draws is not about food
   at all: it is that trusting private judgment over inherited tradition is what led, in the end, to
   leaving the desert altogether.
-modern_rendering: >-
-  And you surely remember what kind of end this man's life came to. He
-  stubbornly and persistently relied on his own judgment rather than on
-  the traditions of the Elders. For he left the desert and went back to
-  the empty philosophy of this world and the hollow things of earth.
+modern_rendering: "And you surely remember this man, who relied stubbornly and persistently on his own judgment rather than on the traditions of the Elders. You remember how his life ended. For he left the desert and went back to the empty philosophy of this world and to earthly vanities."
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented
