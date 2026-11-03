@@ -741,8 +741,8 @@ Build/worlds/pahc/Review-Artifacts-Records-Build/Step7_ContestedClaims_HonestLim
 Build/worlds/pahc/Review-Artifacts-Records-Build/Step9_Stories_Round1_Review.md: cic/texts/anf01...ch
 Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md: World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_Representative_Construction_Notes_Renatus.md
 Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md: records/WORLDS_REGISTRY_LOG.md
-Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md: records/WORLDS_REGISTRY_LOG.md
-Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md: World-Builds/Imperial-Juridical-Christianity/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md
+Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md: records/WORLDS_REGISTRY_LOG.md
+Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md: World-Builds/Imperial-Juridical-Christianity/CiC_Imperial_Juridical_Christianity_World_Build_Thread_Launch_2026-07-19.md
 Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Imperial-Juridical-Christianity
 Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Lutheran-Wittenberg/Step0_Movement_Scope_Confirmation.md
 Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Reformed-Zurich-and-Geneva/Open_Gaps_Tracking.md

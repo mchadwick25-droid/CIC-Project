@@ -53,3 +53,8 @@ Build/worlds/rzg/scripts/wb_rzg_s2x_doctrinal_witness.py	Archive/Retired-World-B
 Build/worlds/rzg/scripts/wb_rzg_s2y_canon_cells.py	Archive/Retired-World-Build-Scripts/rzg/wb_rzg_s2y_canon_cells.py
 Build/worlds/rzg/scripts/wb_rzg_s2z_canon_closure.py	Archive/Retired-World-Build-Scripts/rzg/wb_rzg_s2z_canon_closure.py
 Build/worlds/gallic/scripts/wb_gallic_s21.py	Archive/Retired-World-Build-Scripts/gallic/wb_gallic_s21.py
+Build/worlds/gallic/gallic_PhaseD_LiveDeepInterview_2026-09-13.md	Build/worlds/gallic/Review-Artifacts/gallic_PhaseD_LiveDeepInterview_2026-09-13.md
+Build/worlds/gallic/gallic_PhaseD_LiveDeepInterview_Round2_2026-09-13.md	Build/worlds/gallic/Review-Artifacts/gallic_PhaseD_LiveDeepInterview_Round2_2026-09-13.md
+Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md	Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md
+Build/worlds/rzg/STATUS-FOR-SOURCE-THREAD.md	Build/worlds/rzg/Review-Artifacts/STATUS-FOR-SOURCE-THREAD.md
+Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md	Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md
