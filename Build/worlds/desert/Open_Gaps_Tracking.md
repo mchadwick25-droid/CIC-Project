@@ -1050,3 +1050,11 @@ Follows OG-44 ("Origenist-controversy force rewritten to the reading level", 202
 Still open: Jerome's letters other than Letter 22 have no desert source record, so Letter XCII is cited by file and line in the divergence_note, not through `sources[]`. Registering it is Library source work.
 
 Status: CLOSED for the Doc_01 citation; OPEN for registering Jerome's Letter XCII.
+
+### OG-47. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+The `rendering-review` gate found 61 desert renderings with no named Opus review file. Three independent Opus reviewers read all 61 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed nine, one of them P1: Budge's bracketed "[and the wife of such and such a man]" was voiced as Melania's own words. The nine were re-rendered by Opus and passed a second independent Opus reader. The independent pull-request review then found that the bracket rule had not been applied evenly: an editor's bracketed supplement must not be voiced as the source's own where it adds meaning. Six records with bracketed supplements were read against it. One more re-rendering was needed, for `composed-by-bishop-palladius-for-the-prefect-lausus`. Three others failed and passed a third independent Opus reader, within the three-round cap. Also corrected: `antony-on-living-near-kin`'s `text` now has the edition's capital "Anchorite". The use_note and lens note of `the-nous-beholds-its-own-radiance` now say "matters" with the edition, not "events". Per-record log: `Review-Artifacts/Rendering_Review_Log_61_2026-11-03.md`. The `m1:rendering-review/desert` waiver is removed; the gate reports 0 for desert (61 → 0).
+
+Open, found by the reviewers and not changed here (line-span work, RD7): `never-kneel-saturday-to-sunday` is at npnf211 lines 17735-17743, not 17728; `so-perfectly-silent` is at 17397-17409, not 17396.
+
+Status: CLOSED for the renderings. OPEN for the two loci.
