@@ -15,3 +15,11 @@ Build/worlds/don/scripts   Archive/Retired-World-Build-Scripts/don
 Build/worlds/witt/scripts/wb_witt_s25.py   Archive/Retired-World-Build-Scripts/witt/wb_witt_s25.py
 Build/worlds/don/Representative/don_Rep_Phase5_Probe11_Retest_2026-09-10.json   Build/worlds/don/Review-Artifacts/don_Rep_Phase5_Probe11_Retest_2026-09-10.json
 Build/worlds/don/Representative/don_Rep_Phase5_Probe11_Retest_2026-09-10_Round2.json   Build/worlds/don/Review-Artifacts/don_Rep_Phase5_Probe11_Retest_2026-09-10_Round2.json
+Build/worlds/don/Representative/don_Rep_Phase1_Ecology_Assessment.md   Build/worlds/don/Review-Artifacts/don_Rep_Phase1_Ecology_Assessment.md
+Build/worlds/don/Representative/don_Rep_Phase2_Formation_Calibration.md   Build/worlds/don/Review-Artifacts/don_Rep_Phase2_Formation_Calibration.md
+Build/worlds/don/Representative/don_Rep_Phase4_Engagement_Architecture.md   Build/worlds/don/Review-Artifacts/don_Rep_Phase4_Engagement_Architecture.md
+Build/worlds/don/Representative/don_Rep_Phase5_Probe11_Rerun_2026-09-15.md   Build/worlds/don/Review-Artifacts/don_Rep_Phase5_Probe11_Rerun_2026-09-15.md
+Build/worlds/don/Representative/don_Rep_Phase6_Facilitator_Coordination_Round1.md   Build/worlds/don/Review-Artifacts/don_Rep_Phase6_Facilitator_Coordination_Round1.md
+Build/worlds/don/Representative/don_Rep_Phase7_Encounter_Ecology_Mapping.md   Build/worlds/don/Review-Artifacts/don_Rep_Phase7_Encounter_Ecology_Mapping.md
+Build/worlds/don/Representative/don_Representative_Identity_Options.md   Build/worlds/don/Review-Artifacts/don_Representative_Identity_Options.md
+Build/worlds/cappadocian/scripts   Archive/Retired-World-Build-Scripts/cappadocian
