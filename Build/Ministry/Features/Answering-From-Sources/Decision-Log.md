@@ -876,3 +876,12 @@ Mark, 2026-11-03, relayed by the coordination thread: "follow all your recommend
 - "We" is for the tradition's perspective; in the present conversation the voice says "I". Names the sources contain are named. A gap is stated plainly when asked and not volunteered. The first sentence answers the question as asked.
 - Records and phase documents corrected in the Library change; Engine makes the one shared-rule change.
 
+
+## 70. Conformance removals approved; the plan re-baselined to the six stages (2026-11-03)
+
+Mark, 2026-11-03, choice box: "Approve all (Recommended)". The list is Engine 2's survey of the engine against the proposal, reconciled by the delivery lead against the proposal and the Settled Items register; it is on the plan page (version 65), section "Conformance".
+
+- Removed in one pull request (chunk D6): the experimental record gates (`engine/m1/gates_experimental.py`, never called); the fleet floor line (`engine/m4/evidence.py`, never wired); self-revision (`engine/m4/self_revision.py`, off in deployment); the r27 uncited-claims regeneration path in `engine/m4/turn.py` and its correction appendix (the offline report that shares `uncited_claims.py` stays); citation attach (`engine/m4/citation_attach.py`, staging only); and, on the new path only, the answer-record fallback in `engine/m4/turn.py` (the old path keeps it until its gates retire). Each removal is tested so the live path's output is unchanged on a replay of saved drafts.
+- Changed at a set point: one diversity rule over records and passages in the offer (chunk D4) replaces the record-only source spread; the world-core analytic sections (Horizon, Formation logic, Thinness, Cautions, Living traditions) leave a world's live prompt when that world's reviewed frame exists.
+- Carried out under rulings already made, not asked again: the Decision-Log 63 and 64 lines are reverted; the fleet "strict we" pronoun rule, the 120 to 220 word range, "briefly" in the limit line, and the three-round figure line where the question or the sources name the person change under Settled Items 22 to 24 (chunk D2).
+- The plan page is re-baselined to section 15's six stages, with the exit number and status per world and the remaining work as chunks D1 to D14 of one day or less.
