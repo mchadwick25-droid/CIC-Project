@@ -2254,61 +2254,9 @@ Mark, 2026-11-03: "make sure what exists is clean and not in program notes, ever
 - `don_Rep_Phase5_Probe11_Retest_2026-09-10.json` and its `_Round2.json` moved to `Build/worlds/don/Review-Artifacts/`. They are probe-run records; 37 flagged lines. The first file was not flagged and moved with its pair.
 - Paths: `tools/moved_paths.txt`, `tools/check_paths_baseline.txt`, `CiC_Repo_Structure_Tracking.md`. Two hand-labelled sample rows that pointed at the moved ledger and script are replaced.
 
-### Group A — don/Representative (7 files)
+### Group A — don/Representative (7 files): held, not changed
 
-#### Per file
-
-### don_Rep_Phase1_Ecology_Assessment.md
-- L5 removed "(decided by the project lead, 2026-09-07; name and role-label refined 2026-09-08)" and "already established". Now: "**Representative identity:** **Fidelis** ... for the full reasoning: ...".
-
-### don_Rep_Phase2_Formation_Calibration.md
-- L48 "Doc_08's own Open Items (item 2)" -> "Doc_08's closing list of process findings (item 2)". Quote unchanged. (Cue-only; Doc_08's section is "Open Items and Process Findings".)
-
-### don_Rep_Phase4_Engagement_Architecture.md
-- L90 removed "this same session (2026-09-07/08)" (now "is vendored, and ... already draws"). Replaced "out of scope for this phase; it is named here as an open item for a future Doc_09 revision pass (carried forward at §9)" with "outside the scope of this phase (§9)". See ROUTE section.
-
-### don_Rep_Phase5_Probe11_Rerun_2026-09-15.md
-- L9 "Round 1's own self-scoring" -> "the original run's self-scoring"; "Round 1's other self-scored PASSes" -> "that run's other".
-- L15 removed "as of the 2026-09-08 portfolio routing decision" (now "under the portfolio routing"); "now closed" -> "closed".
-- L19 heading "What has changed since Round 1" -> "since the original run".
-- L23 removed "(`don_Decision_Log.md`, 2026-09-08)"; "Round 1's finding" -> "The original run's finding".
-- L26, L48, L52, L54, L60, L64: "Round 1's ..." / "Round-1 sense" / "this same document's own Round 1" -> "the original run's ...", "original-run sense", "the original Phase Five run".
-- L72 removed "**Correction, 2026-09-17 (appended, not editing the transcript above).** Independent review (`Review-Artifacts/Phase5_Probe11_Rerun_2026-09-15_Round1_Review.md`, Finding F-2) found that", "the review's own point is that", "(the historical record of", and "Full disposition: `don_Decision_Log.md`'s 2026-09-17 entry." Now opens "**Fabricated detail in the §1 transcript.** §1's self-composed Fidelis output contains a fabricated detail ..." with the facts (Marculus's cliff grounded, no stake) unchanged.
-
-### don_Rep_Phase6_Facilitator_Coordination_Round1.md
-- L7 (unflagged header field, but its cues widened the flag onto L8-9; fixed): removed "Round 1, plus Round 2's retest and Round 3's Permanent Prompt hardening", "Round 1's independent adversarial review" (now "the independent review of Phase Five's first run"), "As of this Round 2 revision", "Round 3 correction, this document: Phase Five Round 2 actually recorded a fourth ... finding, not three", "This thread checked the full Decision Log and found no CLEARED entry for it anywhere" (now "The Decision Log holds no CLEARED entry for it"). Quote at `don_Decision_Log.md:505` untouched.
-- L8 removed "as corrected 2026-09-08 per `don_Decision_Log.md`", "as further hardened since" (now "with ... corrected, and further hardened"), "revised in this round to answer the independent review's challenge to that claim rather than simply restate it".
-- L9 status line rewritten. Removed: "DISPOSED — Approved to proceed, by the project lead directly, 2026-09-09. Round 3 (addressing an independent Opus review's 10 findings against Round 2) was itself independently re-reviewed; that confirming review found 8 of Round 3's 10 fixes fully verified correct against primary source and 3 further problems (2 of them incomplete fixes, 1 a new misattribution introduced while correcting an old one) ... Round 4 fixed those 3 narrowly. The project lead reviewed this account (not the complete document and every review artifact verbatim, per §9's own stated preference — a relayed summary of the verification chain instead) and disposed the document on that basis, explicitly accepting that departure from §9's own process", "confirmed twice over", "What changed in Round 2, keyed to that round's own review's numbered findings, is recorded in the Revision Log immediately below; Round 3's changes ... are in the Round 3 Revision Log entry; Round 4's 3 fixes are in the Round 4 entry near the end of this document", the Decision Log quote "routing question resolved by portfolio decision, not by this build thread," 2026-09-08, and "per the project lead's own standing ruling on this world". Now: "**Status: Approved to proceed.**" plus the plain statements (what may be relied on, what the approval does not resolve, portfolio routing resolved, Relational Safety needs a world-specific design so "nothing" is not an available answer).
-- L11 removed "see `don_Decision_Log.md`, 2026-09-08", "Mark settled it at the portfolio level" (now "The portfolio default settles it"), "(see the Decision Log entry for what was and was not re-verified, and why)". Quote of the default kept.
-- L17 removed "This document went through four rounds of drafting and independent review before disposition. The full round-by-round record — the Round 1 review's 14 numbered findings, Round 3's 10 further problems caught by an independent Opus review ... — is preserved in `Review-Artifacts/Rep_Phase6_FacilitatorCoordination_Round1_Review.md` and summarized in `Open_Gaps_Tracking.md`'s Phase Six entry and `don_Decision_Log.md`." Kept "The sections below state the current analysis directly, not as a sequence of corrections."
-- L62 removed "(2026-08-05)". L64 removed "dated status note (2026-08-24)", the quoted "Mark-approved participant-facing text," (code-comment phrase; the rest of the quote about the placeholder kept) and "the same day" ("A2 and the continuation turn are wired").
-- L72 removed "(2026-07-27)". L80 removed "2026-09-08". L84 removed "(2026-07-21)". L85 "until 2026-09-08" -> "formerly". L89 removed "2026-09-08" twice, "the independent Opus review caught". L105 removed ", 2026-09-08". L111 removed "`don_Decision_Log.md`, 2026-09-08". L133 "pre-2026-09-08 runtime" -> "runtime as it stood before the portfolio-wide fix"; removed "and when". L167 "2026-09-08-corrected form" -> "current form (which fixes ...)". L198 removed "2026-09-08". L214 "Mark-approved as of 2026-08-24" -> "approved". L317 removed "2026-09-08 (`don_Decision_Log.md`)". L352 removed "by the project lead, 2026-09-09" ("has the same disposition as this document"). L375 removed "`don_Decision_Log.md`, 2026-09-08".
-- L87, L344, L346: the two project-lead statements were cited by date (2026-07-09 and 2026-07-21). Dates dropped; they are now "the earlier statement" and "the later statement" (file loci unchanged, so each is still identifiable). L344 removed "RESOLVED, 2026-09-08 — see Decision Log. Mark settled it directly". L346 removed "2026-09-08", "retired 2026-08-28, on Mark's own prior decision" (now "is retired").
-- L348 removed "SUPERSEDED, 2026-09-08 — see Decision Log." and "— see the Decision Log entry for the full reasoning on why that floor is not implicated by this specific fix."
-- L367 removed "was never self-disposable ... did not receive", "adversarial review" (now "independent review"), "That path was followed to completion — the full round-by-round record is in `Review-Artifacts/Rep_Phase6_FacilitatorCoordination_Round1_Review.md`, `Open_Gaps_Tracking.md`, and `don_Decision_Log.md`.", "(2026-09-09 ...)" and "the project lead reviewed a relayed summary of the verification chain and disposed the document Approved to proceed" (now "the document is Approved to proceed").
-- Not edited (not flagged, still contains provenance wording): L4 "Filename note" paragraph is a plain convention note; L19 (revision-history paragraph about brief fixes, commit `278c4018`).
-
-### don_Rep_Phase7_Encounter_Ecology_Mapping.md
-- Round references: "Phase Five Round 1" -> "Phase Five first run"; "Round 2" -> "the Phase Five retest"/"retest" at L29, 37, 51, 64, 84, 114, 126, 128, 132, 136, 138, 146, 148, 166, 180, 187, 194, 223, 225. "Syriac's own Phase Seven Round 1 review" -> "first review" (L170, 225). "Phase Six's own Round 1 independent review" -> "first independent review" (L172).
-- Dates removed: L29 "2026-09-03 entries", "(2026-09-09)"; L33 "2026-09-03", "(2026-09-08)"; L37 "2026-09-08"; L217 "(2026-09-09)".
-- L33 removed "It was suggested, before this document was drafted, that" and "confirmed on direct inspection to be" (now "might be read as having 'faced this exact problem'"; the refutation unchanged).
-- L132 the quote "(Round 1's Turn 2 'poison' image)" (inside a Decision Log quotation) is now "([first run's] Turn 2 'poison' image)" with bracketed substitution; and the quote "Flagged for the retest, not yet fixed." is cut to "Flagged for the retest" plus unquoted "and left unfixed at that point".
-- ROUTE-cue rewrites listed in the ROUTE section above.
-
-### don_Representative_Identity_Options.md (a decision-record file)
-- L86 removed "Decided by Mark, 2026-09-07, via `AskUserQuestion`". Now: "**Chosen from the three options above.** Each option was presented with its name, role-label, stated grounding, ... together with this document's own §3 recommendation."
-- L94 heading "5. Live refinement — 2026-09-08 (name and role-label, not the underlying decision)" -> "5. Refinement of name and role-label (not the underlying decision)". No cross-reference to the old heading text exists in don/.
-- L96 removed "By this date", "were shown to Mark directly, at his own request to 'be a part of the representative naming and role' before the deployment artifacts were built", "live discussion", "exactly as it was on 2026-09-07" (now "stands as originally recorded").
-- L100 removed "Mark's own criteria, stated directly" (now "The criteria"), "his own stated rule" -> "the stated rule", "He also asked, directly," -> "The question was also asked".
-- L102 removed "reported to Mark directly", "and Mark's own agreement", "his own" ("fails the 'consistent representation of the movement' test").
-- L103 removed "Reported to Mark directly, since", "Mark's own judgment" (now "Judgment: not disqualifying"), "his own rule" -> "the rule", "His own remaining concern" -> "The remaining concern".
-- L104 (unflagged, same section, edited for consistency) "Mark ruled out **Justus** directly" -> "**Justus** was ruled out"; "He then considered **Vitalis**, then, in the same live discussion, settled on **Fidelis**" -> "**Vitalis** was then considered, then, in the same discussion, **Fidelis** was settled on".
-- L106 "Mark's own stated concern" -> "The concern".
-- L108 "re-grounding requiring fresh adversarial review" -> "re-grounding that requires a fresh independent review"; removed "See `don_Decision_Log.md`'s own 2026-09-08 entry for the full propagation record."
-- Lines 1-4 (Status line "DECIDED, then refined — 2026-09-07, Mark, via `AskUserQuestion` ... On 2026-09-08 ... Mark reconsidered") are a header field the scanner did not flag; left as is. The lead may want to neutralize them with the dated decision record logged.
-
-#### Entries for the Live-Surface-Cleanup Decision-Log
-Provenance removed above (decision dates 2026-09-07, 2026-09-08, 2026-09-09, 2026-08-24, 2026-08-05, 2026-07-27, 2026-08-28; review rounds 1-4; reviewers; Decision-Log pointers) can be copied from the quoted text in each file section.
+A drafting pass rewrote `don_Rep_Phase1_Ecology_Assessment.md`, `Phase2_Formation_Calibration`, `Phase4_Engagement_Architecture`, `Phase5_Probe11_Rerun_2026-09-15`, `Phase6_Facilitator_Coordination_Round1`, `Phase7_Encounter_Ecology_Mapping` and `don_Representative_Identity_Options` (75 lines). The Opus review found that these documents cite the Decision Log's rounds as the locus of what they quote (for example "Phase Five Round 1", "Round 2"), attribute decisions (the Representative identity decision is reserved for the project lead), and disclose how an approval was given (a relayed summary, accepting a departure from the document's own process). Removing the provenance there changed loci, quotations and those disclosures, so the pass was reverted and the seven files are unchanged. 75 lines stay flagged. They are Representative build records; a ruling is needed on whether to treat them as process records (for example, to move them beside the Review-Artifacts) or to clean them by hand.
 
 ### Group B — don construction documents (14 files)
 
@@ -2456,4 +2404,11 @@ Source_Registry row 55 (L66): "found via direct archive.org search this session 
 
 ### Open items filed
 
-The open clauses removed or reworded in these files are filed as OG-58 in `Build/worlds/don/Open_Gaps_Tracking.md` and OG-59 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`. In the don Representative phase documents the open content stays in each document's own closing section (Phase 4 section 9, Phase 6 section 10, Phase 7 section 12); only cue wording changed.
+The open clauses removed or reworded in the don construction documents and the cappadocian documents are filed as OG-58 in `Build/worlds/don/Open_Gaps_Tracking.md` and OG-59 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`.
+
+### Corrections after the Opus review of CL5
+
+- The drafting pass for the don construction documents had removed role-level statements that the project lead directed or decided something, together with the dates, decision-log pointers and names. Those statements are governance facts that other documents rely on (`don_World_Profile.md` line 600, `don_Validation_Layer.md` line 16, and the rzg Doc_07 and World Profile that cite the Donatism ruling). Restored, without dates or entry pointers: `Doc_07` line 27 (put to the project lead directly; "The project lead's direction: build this document on Smart's seven dimensions ..."); `don_World_Profile.md` line 23 ("escalated to and resolved by the project lead directly"; "The project lead's direction: cover all nine ..."); `don_Validation_Layer.md` line 32 (the scope-decision fork, first resolved by build-thread judgment, then escalated to the project lead); `don_Phase6_Facilitation_Brief_DRAFT.md` line 7 (disposed by the project lead; "was not self-disposed"; the project lead's ruling that brief and design both exist).
+- `Doc_01` line 20: "a note addressed to external scholarly review" replaces the first rewording ("an external scholarly note"), which changed what Blueprint V7.3 section 17 provides.
+- `don_Phase6_Facilitation_Brief_DRAFT.md` line 62: "on independent review" replaces the removed "on independent adversarial review".
+- Left as reviewed: `Doc_07` line 27 keeps the Framework quotation shortened to an exact substring that ends at "for every world", with the adoption date outside it; `don_World_Profile.md` line 19 names Doc_07's section 8 as "the closing handoff section" (the real heading, "Open Items and Handoff", carries the scanner's open-item cue); `Source_Registry.md` row 14 still reads "corrected 2026-09-07" in its Added cell.
