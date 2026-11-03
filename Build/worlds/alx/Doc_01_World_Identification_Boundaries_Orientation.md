@@ -211,7 +211,7 @@ This alignment is stated at the level of the *world*, not a Representative: how 
 
 ---
 
-## 11. Summary of Working Decisions (for reviewer convenience)
+## 11. Summary of Working Decisions
 
 1. **World name/scope (OG-3 — confirmed):** the Alexandrian Christian formation ecology, c. 150–400 CE, anchored and named by its catechetical-formation tradition; **confirmed name "Alexandrian Christianity (Catechetical-Formation World)"** (the broad reading, option (a)). Narrow institution-only reading argued against (the didaskaleion's institutional character is itself Contested and multi-directionally so — van den Broek 1995 and van den Hoek 1997 doubt a formal institution before Origen; Scholten 1995 affirms an institution but as a theological, not catechetical, school).
 2. **Temporal scope:** c. 150–400 CE. Beginning: Clement's floruit (Markan apostolic foundation treated as later legend, not history). Ending: c. 400, deliberately before the real Chalcedonian world-boundary (451). Nicaea (325) is an internal development, not a boundary; endpoint precision (possible tightening to the c. 399–400 first Origenist controversy) flagged for Doc_02/Doc_04.

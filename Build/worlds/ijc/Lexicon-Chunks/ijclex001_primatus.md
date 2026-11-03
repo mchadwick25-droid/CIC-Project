@@ -38,7 +38,7 @@ This is why we build in stone as much as in decretal. A pilgrim who walks to a m
 
 ## Plural-Voices Note
 
-This entry is written from Strand A's own voice specifically (Rome's own self-understanding) — per Doc_01's three-strand finding, this world does not have one unified "we"; Strand B's rival claim to this same question is rendered from its own voice in the *presbeia* entry, not flattened into agreement here. **This is a lexicon-organization device for construction and runtime-retrieval purposes only — it is not, and does not pre-decide, a Representative voice or identity decision.** Which strand (if any) an eventual Representative speaks primarily from, and how a Representative would handle a participant's question that spans two contested strands, is Step 10's own decision, not settled by this document (see Doc_06 §5, Open Item 4).
+This entry is written from Strand A's own voice specifically (Rome's own self-understanding) — per Doc_01's three-strand finding, this world does not have one unified "we"; Strand B's rival claim to this same question is rendered from its own voice in the *presbeia* entry, not flattened into agreement here. **This is a lexicon-organization device for construction and runtime-retrieval purposes only — it is not, and does not pre-decide, a Representative voice or identity decision.** Which strand (if any) an eventual Representative speaks primarily from, and how a Representative would handle a participant's question that spans two contested strands, is Step 10's own decision, not settled by this document (see Doc_06 §5, item 4).
 
 ---
 

@@ -38,7 +38,7 @@ This is not, for us, a claim about grand primacy or ancient sees. It is a narrow
 
 ## Plural-Voices Note
 
-This entry is written from Strand C's own voice specifically (Ambrose's own Milan community) — a third distinct voice alongside *primatus*'s (Strand A) and *presbeia*'s (Strand B), per Doc_01's three-strand finding. This strand's own voice does not persist as an independent claim-making stream to this world's 451 close (Doc_01 §4), which this entry's own Distortion Risk and Key Sources sections already reflect in their bounded, single-crisis evidentiary base. **This is a lexicon-organization device only — see the same caution recorded in the *primatus* entry and Doc_06 §5, Open Item 4: it does not pre-decide a Representative voice or identity question.**
+This entry is written from Strand C's own voice specifically (Ambrose's own Milan community) — a third distinct voice alongside *primatus*'s (Strand A) and *presbeia*'s (Strand B), per Doc_01's three-strand finding. This strand's own voice does not persist as an independent claim-making stream to this world's 451 close (Doc_01 §4), which this entry's own Distortion Risk and Key Sources sections already reflect in their bounded, single-crisis evidentiary base. **This is a lexicon-organization device only — see the same caution recorded in the *primatus* entry and Doc_06 §5, item 4: it does not pre-decide a Representative voice or identity question.**
 
 ---
 
