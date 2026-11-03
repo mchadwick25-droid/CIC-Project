@@ -4,18 +4,18 @@
 
 **Purpose.** A fixed set of visitor questions, written without sight of the sub-question list or the records, so tuning cannot fit to them.
 
-**Size (Mark's rule, 20 + 1 per 2 million shelf tokens; tokens are shelf bytes divided by four, as in the proposal, markup included; the whole number of 2M blocks).**
+**Size (Mark's rule, 20 + 1 per 2 million shelf tokens; tokens are shelf bytes divided by four, as in the proposal, markup included; rounded to the nearest whole question).**
 
 | world | shelf tokens (M) | questions | | world | shelf tokens (M) | questions |
 |---|---|---|---|---|---|---|
-| lpc | 47.5 | 43 | | rzg | 15.2 | 27 |
+| lpc | 47.5 | 44 | | rzg | 15.2 | 28 |
 | ijc | 38.3 | 39 | | syr | 14.4 | 27 |
 | cappadocian | 30.5 | 35 | | desert | 10.3 | 25 |
-| alx | 27.4 | 33 | | hal | 8.8 | 24 |
+| alx | 27.4 | 34 | | hal | 8.8 | 24 |
 | pahc | 20.7 | 30 | | witt | 6.4 | 23 |
-| don | 17.4 | 28 | | gallic | 3.7 | 21 |
+| don | 17.4 | 29 | | gallic | 3.7 | 22 |
 
-Total 355. The table matches the proposal's section 15 table, recomputed from the shelves on disk. Counting words instead of tokens would give fewer (lpc 22 instead of 43), because markup bytes count as tokens here; tokens are the approved basis.
+Total 360, as Mark approved. The table matches the proposal's section 15 table, recomputed from the shelves on disk. Counting words instead of tokens would give fewer (lpc 22 instead of 44), because markup bytes count as tokens here; tokens are the approved basis.
 
 **Inputs.** The world's identity and its shelf's list of works (titles and authors only). **Not given:** the sub-question list, the records, the seeds, any earlier bench or test question.
 
@@ -25,6 +25,6 @@ Total 355. The table matches the proposal's section 15 table, recomputed from th
 
 **May touch.** The new `Heldout/` folder. **Must not touch.** The sub-question list, the records, the existing bench.
 
-**Test written first.** (1) The count per world equals 20 + floor(shelf bytes / 4 / 2,000,000), the table above. (2) No question duplicates a sub-question wording or an earlier bench question beyond the overlap limit. (3) The SHA256SUMS file matches the files. (4) The drafting helper's request file holds no sub-question id and no record id.
+**Test written first.** (1) The count per world equals 20 + round(shelf bytes / 4 / 2,000,000), the table above. (2) No question duplicates a sub-question wording, an earlier bench question, one of the 106 lpc questions or a CP.9 question beyond the overlap limit, or a sealed probe (compared by hash of normalized text only, never printed). (3) The SHA256SUMS file matches the files. (4) The drafting helper's request file holds no sub-question id and no record id.
 
 **Done when.** The tests pass, the set is frozen and hashed, and the counts per world are reported. **Cost:** drafting runs in-plan with no metered spend; nothing is run against a model API.
