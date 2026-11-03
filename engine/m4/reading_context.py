@@ -46,7 +46,7 @@ from dataclasses import dataclass, field
 from engine.m4 import fit_step, source_windows
 
 READING_CONTEXT = "reading_context"
-ADDITIONS_CAP = 8000
+ADDITIONS_CAP = 12000
 CONTEXT_ITEMS = 2
 CONTEXT_RECORD_TYPES = ("quote", "story")
 TEXTS_ROOT = fit_step.REPO_ROOT
