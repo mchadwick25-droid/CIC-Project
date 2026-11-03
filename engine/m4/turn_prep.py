@@ -19,13 +19,10 @@ from engine.m4.story_placement import story_lines, with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
 from engine.m5.routing import Directive
 
-# engine.m4.uncited_claims.R26_HONEST_LIMIT_SENTENCE, matched exactly
-# (case-insensitive) by that module's own allowed-uncited detection - see
-# _other_tradition_directive's own docstring for why the two must stay
-# identical by construction. Kept as this module's own copy (moved here
-# unchanged from engine.m4.turn, where it lived before this extraction)
-# rather than imported from uncited_claims, matching how it already read
-# before this module existed.
+# The same sentence as engine.m4.uncited_claims.R26_HONEST_LIMIT_SENTENCE,
+# which that module's allowed-uncited detection matches exactly
+# (case-insensitive); _other_tradition_directive's docstring says why the two
+# must stay identical. This module keeps its own copy.
 R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition."
 
 
@@ -264,9 +261,9 @@ OBLIQUE_WHO_DIRECTIVE = (
 
 
 # The quotes a reply may place are exactly the turn's offered quotes not yet
-# voiced, so the directive names them, or says there are none. Told only "one
-# quote in full" on a turn whose ground offered no quote, the voice wrote
-# markers anyway, several for ids no record has.
+# voiced, so the directive names them, or says there are none. Without the
+# no-quote line, a turn whose ground offers no quote draws markers for ids no
+# record has.
 NO_QUOTE_LINE = (
     "No quote is offered this turn. Write no [[quote:...]] marker and tag no quote record. Put no one's words "
     "in quotation marks or after 'said', 'wrote' or a colon; say what they did or taught in your own words."
@@ -430,10 +427,9 @@ def _build_turn_directive(
     duplicating it."""
     if directive is None and not table_engagement and not is_other_tradition_first_ask:
         return None
-    # The leading newline is kept from when this text was concatenated onto
-    # the world prompt: system blocks are joined with no separator of their
-    # own, so dropping it would run the heading onto the prompt's last line.
-    # The model must see exactly the bytes it saw before this split.
+    # The leading newline separates the heading from the block before it:
+    # system blocks are joined with no separator of their own, so without it
+    # the heading would run onto the prompt's last line.
     parts = ["\n## This turn's private directive (never shown to the participant)"]
     if directive is not None:
         asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
@@ -459,26 +455,19 @@ def _build_turn_directive(
         if directive.suspend_register_statement_1:
             parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
         if directive.ambiguity_options:
-            # NOT "options to offer". That wording instructed the voice to
-            # present a menu, and it sits after register statement 1 in the
-            # prompt, so it won: measured over five questions the first
-            # sentence answered the ask on 2 of 5 turns, and the participant
-            # was handed "I hear two ways to take your question" instead of an
-            # answer. Removing the instruction entirely took that to 5 of 5.
-            # This keeps the reading available to the voice as information and
-            # restates statement 1 rather than overriding it.
+            # The readings are given as information, not as options to
+            # offer: an instruction to offer them sits after register
+            # statement 1 and overrides it, so the reply opens with a menu
+            # instead of an answer. This line restates statement 1.
             parts.append(
                 f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
                 "Answer the most likely reading first, in your opening sentence; then, only if the others "
                 "would change the answer, say briefly what they would change. Never open by listing the readings."
             )
         if figures_already_named:
-            # The directive channel is the one measured to win over other
-            # pressures (see the ambiguity_options note above). Three live
-            # probes showed the evidence block's own already-introduced
-            # header losing to a ground record's first-mention opening
-            # ("One of us, Ignatius" reproduced verbatim on turn two) - the
-            # signal belongs here, where the voice actually shapes the turn.
+            # The directive outweighs the evidence block's already-introduced
+            # header: a ground record written for a first mention otherwise
+            # re-introduces a figure the participant has already met.
             parts.append(
                 f"Already introduced in this conversation: {', '.join(figures_already_named)}. "
                 "The participant has met these names. A ground record that presents one of them afresh is "
@@ -499,13 +488,11 @@ def _build_turn_directive(
         if other_tradition_text:
             parts.append(other_tradition_text)
     if len(parts) == 1:
-        # Nothing was actually added. _other_tradition_directive always
-        # returns real text now when called (see
-        # this function's own docstring), so this path is only reachable
-        # when is_other_tradition_first_ask is False and directive/
-        # table_engagement were both falsy too - the header line alone is
-        # not a real directive, return None exactly as the no-directive
-        # path above does.
+        # Nothing was added: _other_tradition_directive always returns text
+        # when called, so this path is reached only when there is no
+        # directive, no table engagement and no other-tradition ask. The
+        # heading alone is not a directive, so None, as on the no-directive
+        # path above.
         return None
     return "\n".join(parts)
 
@@ -573,19 +560,14 @@ def prepare_voice_turn_inputs(
     thin_topics = evidence.thin_topics_for(repository_records)
 
     # canon_question records are fleet-shared, not part of any one world's
-    # hash-verified package, so loaded directly the same way
-    # engine.m1.gates already loads them - not yet cached the way
-    # LazyWorldLoader caches a world's own package (compiled/indexes/
-    # canon-map.json exists for exactly this optimization,
-    # engine.m2.builders.build_canon_map_json, but nothing reads it yet -
-    # a follow-up, not a correctness gap: this derives the identical
-    # corpus live, just without the compiled cache).
+    # hash-verified package, so they are loaded directly, as engine.m1.gates
+    # loads them. compiled/indexes/canon-map.json
+    # (engine.m2.builders.build_canon_map_json) holds the same corpus and is
+    # not read here.
     canon_questions = load_fleet_records()
     # The same set that keeps the UI's figure mark first-occurrence-only,
-    # resolved to spoken names and put where the VOICE can see it too
-    # (a pilot read found the session tracked a figure's introduction to
-    # the conversation, but only the screen knew - the voice itself was
-    # never told).
+    # resolved to spoken names so the voice knows which figures the
+    # participant has already met.
     figures_already_named = [
         name
         for figure in (world.figures.get("figures") or [])
