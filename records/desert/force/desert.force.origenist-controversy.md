@@ -11,10 +11,13 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented as to the 400 synod and expulsion themselves, well-attested events. Contested as to Theophilus's own motives for his 399-to-400 reversal, a genuine scholarly dispute this record carries forward at full strength rather than adjudicating. The Festal Letter of 399 and the specific year/council detail are Doc_01 SS2.3's own account, cited there rather than to a registered source record; desert.source.socrates-historia-ecclesiastica's own registered locus below covers the anthropomorphite dispute, the Tall Monks by name, and their flight to Constantinople, but that source's own screen for institutional claims (an outside, later, Constantinopolitan witness) applies and it does not itself name a Festal Letter or a council at Alexandria."
+  divergence_note: "Documented as to the 400 synod and expulsion themselves, well-attested events. Contested as to Theophilus's own motives for his 399-to-400 reversal, a genuine scholarly dispute this record carries forward at full strength rather than adjudicating. The festal letters against the Anthropomorphites are in Cassian, Conference X.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 35963-35999); the year 399 is the translator's note there. The council that condemned Origen's books appears in the NPNF summary of Theophilus's synodal letter, Jerome's Letter XCII (cic/texts/npnf206_jerome-principal-works.xml, from line 19795; the letter itself is not printed there); \"at Alexandria\" and the year 400 come from the editor's heading. Socrates VI.10 also reports that Theophilus assembled many bishops who condemned Origen's writings, without naming the place (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 17895-17898). desert.source.socrates-historia-ecclesiastica's locus below covers the anthropomorphite dispute, the Tall Monks by name, and their flight to Constantinople. It is an outside, later, Constantinopolitan witness, so its screen for institutional claims applies; it names no festal letter and does not place the council at Alexandria."
 sources:
 - source_id: desert.source.socrates-historia-ecclesiastica
   locus: "the Book VI Theophilus sequence - the anthropomorphite affair, the Tall Brothers, and the Origenist expulsion reaching Constantinople"
+  license: public-domain
+- source_id: desert.source.cassian-conferences
+  locus: "Conference X, ch. II (npnf211 file lines 35963-35999): the festal letters of Theophilus against the Anthropomorphites arriving at Scete"
   license: public-domain
 name: "Episcopal and conciliar intervention in the First Origenist Controversy (399-400), scattering the semi-anchoritic strand's intellectual leadership"
 kind: ending
@@ -79,12 +82,13 @@ dateable half of that synthesis; desert.force.authority-tension-vulnerability's
 own body carries the synthesis in full.
 
 The description's Festal Letter of 399, the year 400, and "a council at
-Alexandria" are not in Socrates Book VI (VI.7-9 carry the
-anthropomorphite dispute, the Tall Monks by name, and their flight, but
-no Festal Letter and no named council); those specifics are Doc_01
-SS2.3's, cited there in divergence_note rather than attributed to the
-registered Socrates locus, matching the discipline desert.force.martyrdom-unavailable
-applies to its own background history. The Cross-Cell Connection
+Alexandria" are not all in Socrates Book VI. VI.7-9 carry the
+anthropomorphite dispute, the Tall Monks by name, and their flight, and
+VI.10 reports a council Theophilus assembled to condemn Origen's writings,
+without naming its place. The festal letters come from Cassian's
+Conference X.2, cited in sources[]; the place and year of the council come
+from the NPNF heading to Theophilus's synodal letter (Jerome, Letter XCII),
+cited in divergence_note. The Cross-Cell Connection
 paragraph above explains the relation to authority-tension-vulnerability.
 
 desert.story.sarapion-anthropomorphite narrates this force's own

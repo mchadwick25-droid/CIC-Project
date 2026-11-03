@@ -32,6 +32,8 @@ relations:
   target: cappadocian.gravity.precision-reserve
 - type: associated-with
   target: cappadocian.gravity.athens-fishermen
+- type: associated-with
+  target: cappadocian.gravity.paideia-converted
 name: "Imperial religious policy's oscillation [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
@@ -51,9 +53,9 @@ manifestations:
 Re-derived from the cleared Doc_08 (Cell 2A, Force 2A-1). Cross-cell connection (Section 4): "1A-1 -> 2A-1
 -> Primary 1's portability" - carried here as enabled-by cappadocian.force.imperial-church-arrival (1A-1),
 reciprocal precondition-for declared on that record. Gravity linkage (Doc_08 §2a, §5) - the widest of any
-force in this world, feeding six confirmed gravities: Primary 1/Gravity 1 (made portable), Primary
+force in this world, feeding seven confirmed gravities: Primary 1/Gravity 1 (made portable), Primary
 3/Gravity 3 (exercised under this force), Supporting 7/Gravity 7 (the court's counterpart and adversary),
 Tensional 8/Gravity 8 (the emergency that conscripts the summons), Tensional 9/Gravity 9 (the hostile
-weather that counseled economy), Tensional 11/Gravity 11 (Julian pressing from outside) - all six carried
+weather that counseled economy), Tensional 11/Gravity 11 (Julian pressing from outside), and Supporting 4/Gravity 4 (Julian's school edict, its crisis) - all seven carried
 as associated-with, this being an ongoing-cell force shaping rather than founding each gravity. Canon_cells
 left empty, matching this world's gravity/force records generally.

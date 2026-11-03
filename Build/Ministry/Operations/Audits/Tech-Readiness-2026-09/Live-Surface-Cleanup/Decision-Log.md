@@ -2738,3 +2738,16 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 **Cause.** The working tree is 2.9 GB: `cic/texts` holds 1.9 GB and `cic-website/audio` 0.6 GB. Three jobs that read neither (cited paths, live-surface commentary, embedded-world-data) checked out all of it, and the live-commentary job also fetched the full 3.2 GB history. Under runner load the checkout step took up to 12 minutes, so the 10-minute job timeout cancelled the job before any check ran. On CL7's run the cited-paths job's checkout took 1 s to 4.7 min across two attempts, and the live-commentary job timed out twice.
 
 **Fix, at the source, in `.github/workflows/ci.yml`; no check changed.** Cited paths and embedded-world-data check out everything except `cic/texts` and `cic-website/audio` (blobless, sparse), then write empty stand-in files for those two trees so every existence test answers as it does on a full checkout. Live-surface commentary on a pull request fetches the full history without file contents, writes out only `tools/`, the one engine module the checker imports and the files the pull request edits, and scans exactly those files as before; a push still checks out everything and scans the whole tree. Local comparison on the CL7 head: cited paths 973 total, 973 accepted, 0 new (same as a full checkout, 420 MB instead of 2.9 GB); live commentary `--enforce` exit 0 (6 MB). `timeout-minutes` is unchanged.
+
+## Entry — D2b, engine/m4/turn_prep.py comments (2026-11-03)
+
+Delivery lead, 2026-11-03, chunk D2b: the process-narration comments in `engine/m4/turn_prep.py` are rewritten in the present tense, stating what the code does and why. The history they carried is kept here.
+
+- `R26_HONEST_LIMIT_SENTENCE`: the copy moved unchanged from `engine.m4.turn` when the turn setup was extracted into this module. It was kept as its own copy, not imported from `uncited_claims`, to match how it read before the extraction.
+- `NO_QUOTE_LINE`: told only "one quote in full" on a turn whose ground offered no quote, the voice wrote markers anyway, several for ids no record had.
+- The directive heading's leading newline: kept from when the directive text was joined onto the world prompt, so that after the split into system blocks the model saw the same bytes.
+- The ambiguity line: the earlier wording "options to offer" made the voice open with a menu. Over five questions the first sentence answered the ask on 2 of 5 turns, and a participant was given "I hear two ways to take your question" instead of an answer. With the instruction removed, 5 of 5.
+- The already-introduced line: three live probes showed the evidence block's own already-introduced header losing to a ground record's first-mention opening ("One of us, Ignatius" reproduced word for word on turn two), so the signal was put in the directive.
+- The no-directive return: written once `_other_tradition_directive` was changed always to return text when called.
+- `canon_questions`: not cached the way `LazyWorldLoader` caches a world's package. `compiled/indexes/canon-map.json` was built for that and nothing reads it yet. This was noted as a follow-up, not a correctness gap, since the corpus derived live is identical.
+- `figures_already_named`: a pilot read found that the session tracked a figure's introduction but only the screen knew it; the voice was never told.

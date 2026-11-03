@@ -425,3 +425,7 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
    Open, not changed here: Doc_08 says the same thing the record said, at line 227 (2B-6, Layer 3) and line 413 ("the specific mechanism producing G1's own Confidence/Gravity Cross-Check divergence"), so Doc_08 and Doc_04 disagree. Doc_08 is a canonical construction document and belongs to rzg's own build thread.
 
    Status: record CLOSED; Doc_08 OPEN. Owner of the Doc_08 item: rzg's own build thread.
+
+84. **Doc_08 brought into line with Doc_04 on G1's split, 2026-11-03.** Follows entry 83 ("The transmission force said G1's split is only about survival", 2026-11-03). Doc_08 lines 227, 351 and 413 now say the transmission asymmetry is part of the mechanism behind G1's Cross-Check divergence, alongside the qualitative register difference Doc_04 §3.1 names. The change order is in `rzg_Decision_Log.md` (2026-11-03). An independent Opus review checked it.
+
+   Status: CLOSED. Entry 83's open Doc_08 item is closed by this entry.
