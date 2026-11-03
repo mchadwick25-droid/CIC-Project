@@ -83,7 +83,7 @@ Independent research (not yet part of this build's formal record) confirms:
 
 ---
 
-## 7. FINAL DECISION (2026-07-13, project lead)
+## 7. FINAL DECISION (project lead)
 
 **A fifth option, proposed directly by the project lead and adopted here, supersedes Options A–D above:** a period-typical but non-documented figure — a name and role genuinely typical of this world, not one of its specifically attested named individuals, and built with no invented biography beyond the role itself. This resolves the core tension named in §2 directly: it does not center Jerome, does not require the unreviewed methodology departure of Option B (a nameless collective voice, which would conflict with this world's own strand-singular finding and the Framework's named-voice default), and does not require building the Representative's primary evidentiary base on the ecology's most fragile (Marcella, Option C) or most temporally truncated (Paula, Option D) documented figure.
 

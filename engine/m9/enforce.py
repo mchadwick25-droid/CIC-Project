@@ -263,9 +263,11 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         # permanently excludes from the waiver mechanism: a sub-8 field is
         # reported, never failed, so it needs no waiver to stay green.
         merged["m1:readability-floor"] = gates.gate_readability_floor(records, fleet, registry)
-        # gate_retrieve_when_questions is not in GATES either (its docstring
-        # says why); its findings are waivable like any gate's.
+        # gate_retrieve_when_questions and gate_reading_card are not in GATES
+        # either (their docstrings say why); their findings are waivable like
+        # any gate's.
         merged["m1:retrieve-when-question"] = gates.gate_retrieve_when_questions(records, fleet, registry)
+        merged["m1:reading-card"] = gates.gate_reading_card(records, fleet, registry)
         shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings

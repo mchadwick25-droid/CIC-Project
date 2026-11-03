@@ -1051,7 +1051,17 @@ Still open: Jerome's letters other than Letter 22 have no desert source record, 
 
 Status: CLOSED for the Doc_01 citation; OPEN for registering Jerome's Letter XCII.
 
-### OG-47. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+### OG-47. Open points removed from desert documents when their commentary was cleaned, 2026-11-03.
+
+Removed from the live documents; the questions stay open here.
+
+1. Doc_02 (Source Ecology), former line 11, a terminology note that duplicated Doc_02 section 11 item 1: "Terminology note carried forward from this drafting pass: the Construction Framework's actual five-level confidence vocabulary (Part IV of the Template: Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential / Thin) is used precisely in this document. Doc_01 used bracketed shorthand (e.g. `[Well-established as to the general c. 318–320 range …]`) that does not match this prescribed vocabulary exactly. Doc_01 does not use a bracketed "[Contested]" tag; "contested" appears in Doc_01 only as running prose, never as a bracketed shorthand token. This is flagged here as a cross-document terminology inconsistency requiring a mechanical correction pass on Doc_01 — not a substantive claim change, and not treated as blocking Doc_02 (see Section 11, open item 1)."
+2. Doc_03 (Lexicon Candidate List), former line 154, final sentence: "This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item)." The preceding sentence, that the Evagrius *Antirrhetikos* survives only in Syriac, Armenian and Georgian with fragmentary Sogdian, stays.
+3. Doc_01 line 149 carries the Pachomian Lives version-priority question to Doc_02 without a section pointer; Doc_01 section 11 has no item for it.
+
+Status: OPEN. Owner: this world's thread.
+
+### OG-48. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
 
 The `rendering-review` gate found 61 desert renderings with no named Opus review file. Three independent Opus reviewers read all 61 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed nine, one of them P1: Budge's bracketed "[and the wife of such and such a man]" was voiced as Melania's own words. The nine were re-rendered by Opus and passed a second independent Opus reader. The independent pull-request review then found that the bracket rule had not been applied evenly: an editor's bracketed supplement must not be voiced as the source's own where it adds meaning. Six records with bracketed supplements were read against it. One more re-rendering was needed, for `composed-by-bishop-palladius-for-the-prefect-lausus`. Three others failed and passed a third independent Opus reader, within the three-round cap. Also corrected: `antony-on-living-near-kin`'s `text` now has the edition's capital "Anchorite". The use_note and lens note of `the-nous-beholds-its-own-radiance` now say "matters" with the edition, not "events". Per-record log: `Review-Artifacts/Rendering_Review_Log_61_2026-11-03.md`. The `m1:rendering-review/desert` waiver is removed; the gate reports 0 for desert (61 → 0).
 

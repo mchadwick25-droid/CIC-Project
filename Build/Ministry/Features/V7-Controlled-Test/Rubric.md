@@ -31,10 +31,16 @@ Readers and human reviewers list each error they find, apart from the scores:
 
 ## How the readers work
 
-- **Model readers.** Two independent `judge-reader` helpers per answer.
+- **Model readers.** Two independent Opus readers per answer, at the highest effort, plus a third Opus pass that adjudicates (`Test_Plan.md` §6).
   - They read blind: no arm labels, and answers are shuffled with a seed written into the run file before the draw.
-  - Each reader gets the question, the answer, the cited records, and the source lines with their context. Readers do not see the reading cards, so a card's own mistake is not imported into the score.
+  - Each reader gets:
+    - the question and the whole answer;
+    - every cited record, with its reading card where one exists. The card is marked as project-authored and is checked against the source.
+    - the source passage with its surrounding division;
+    - the world's lexicon risk flags.
+  - Every error is bound to the exact words of the answer and of the source.
+  - Seeded defects come first. The readers' scores count only if they catch at least 9 of every 10 seeded defects.
   - Where a question has a trap note (the optional hard-case set only), the note is opened after the blind scores are filed. The reader may then add errors, marked "after trap note".
   - Both arms are scored fresh by the same readers. The October reviews of A are reported beside the fresh scores, never in place of them (`Test_Plan.md` §6).
 - **Agreement** is reported per dimension: exact agreement, and agreement within one point. A dimension where exact agreement falls below 60% is reported as "readers unreliable here". **Assumption:** the 60% line is set here, before the run.
-- **Human reviewers** use the same error log and the scores for dimensions 1, 2, 3, 5 and 7. Dimensions 6, 8, 9 and 10 are optional for them. They work from the source packets in `Test_Plan.md` §6.
+- **Mark's own reading** uses the same error log, in plain words, on the review page described in `Test_Plan.md` §6. He records error yes or no, type, severity, how sure he is, and a note. He gives no dimension scores unless he wants to.

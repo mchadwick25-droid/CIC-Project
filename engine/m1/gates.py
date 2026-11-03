@@ -19,7 +19,7 @@ from .loader import home_for_record_type, voiced_records
 from .quote_locus import gate_quote_locus
 from .quote_verbatim import _NOTE_BLOCK_RE, _TAG_RE, gate_quote_verbatim
 from .rendering_review import gate_rendering_review
-from .schemas import RELATION_INVERSE, build_schema
+from .schemas import FORMATION_CONFIDENCE_LEVELS, READING_CARD_SOURCED_LINES, READING_CARD_TEXT_LINES, RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
 from .witness_quotations import gate_witness_quotation_verbatim
 
@@ -1725,6 +1725,64 @@ def gate_retrieve_when_questions(records, fleet, registry) -> list[str]:
 
     return [f"{rid}: retrieve_when line {line!r} {reason}; write the question that should bring this record"
             for rid, line, reason in non_question_hits(records)]
+
+
+READING_CARD_MAX_WORDS = 120
+
+
+def reading_card_texts(card: dict) -> list[str]:
+    """The card's text lines, in order: every line a reader reads, without
+    the record ids of `complicated_by` or the citations of `sources`."""
+    texts = [card[line] for line in READING_CARD_TEXT_LINES if isinstance(card.get(line), str)]
+    conclude = card.get("historians_conclude")
+    if isinstance(conclude, dict) and isinstance(conclude.get("text"), str):
+        texts.insert(2, conclude["text"])
+    return texts
+
+
+def gate_reading_card(records, fleet, registry) -> list[str]:
+    """A quote or story's reading card: every line present names its source,
+    every `complicated_by` id resolves, the confidence is one of the five
+    levels, and the text lines together run to 120 words or fewer.
+    NOT registered in GATES: validation/gates-report.json lists GATES and is
+    baked into every package manifest, so registering it would stale every
+    pinned package. engine/m9/enforce.py calls it directly, under its own
+    key, and its findings take waivers like any other."""
+    findings = []
+    all_ids = set(records) | set(fleet)
+    for rid, rec in records.items():
+        card = rec.get("reading_card")
+        if not isinstance(card, dict):
+            continue
+        sources = card.get("sources") if isinstance(card.get("sources"), dict) else {}
+        for line in READING_CARD_SOURCED_LINES:
+            if line not in card:
+                continue
+            value = card[line]
+            text = value.get("text") if isinstance(value, dict) else value
+            if _is_blank(text):
+                findings.append(f"{rid}.reading_card.{line}: is empty; leave the line out instead")
+            if _is_blank(sources.get(line)):
+                findings.append(f"{rid}.reading_card.{line}: names no source in reading_card.sources; name it or leave the line out")
+        conclude = card.get("historians_conclude")
+        if isinstance(conclude, dict) and conclude.get("confidence") not in FORMATION_CONFIDENCE_LEVELS:
+            findings.append(f"{rid}.reading_card.historians_conclude.confidence: {conclude.get('confidence')!r} "
+                            f"is not one of {', '.join(FORMATION_CONFIDENCE_LEVELS)}")
+        targets = card.get("complicated_by") or []
+        if not isinstance(targets, list):
+            findings.append(f"{rid}.reading_card.complicated_by: must be a list of record ids")
+            targets = []
+        for target in targets:
+            if not isinstance(target, str):
+                findings.append(f"{rid}.reading_card.complicated_by: {target!r} is not a record id")
+            elif target == rid:
+                findings.append(f"{rid}.reading_card.complicated_by: a record cannot complicate itself")
+            elif target not in all_ids:
+                findings.append(f"{rid}.reading_card.complicated_by: {target!r} does not resolve to any record")
+        words = sum(len(_WORD.findall(text)) for text in reading_card_texts(card))
+        if words > READING_CARD_MAX_WORDS:
+            findings.append(f"{rid}.reading_card: runs {words} words, over the {READING_CARD_MAX_WORDS}-word ceiling")
+    return findings
 
 
 GATES = {

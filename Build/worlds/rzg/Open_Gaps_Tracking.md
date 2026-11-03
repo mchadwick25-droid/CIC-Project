@@ -430,6 +430,20 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
 
    Status: CLOSED. Entry 83's open Doc_08 item is closed by this entry.
 
-85. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 6 rzg renderings with no named Opus review file. An independent Opus reviewer read all six against each record's `text` and the edition text in `cic/texts/` at its locus. All six pass. Per-record log: `Review-Artifacts/Rendering_Review_Log_6_2026-11-03.md`. The `m1:rendering-review/rzg` waiver is removed; the gate reports 0 for rzg (6 → 0). Noted: in `rzg.quote.christ-the-mirror-of-election` the "[our]" is the record's own marked correction of the scan's "onr" (line 684), not an editor's insertion.
+85. **Open points removed from rzg documents when their commentary was cleaned, 2026-11-03.** Removed from the live documents; the questions stay open here.
+
+   (a) Doc_07 (Integrated Ecology Analysis), former line 206, a standing open item carried from Doc_04 §7: "Whether Zwingli's own 1527 *Refutation of the Tricks of the Baptists* contains further doctrinal content beyond the election material already surfaced (Doc_04 §3.1) and the general Anabaptist refusal already stated (Doc_05 §6.2) — this document's own Boundary Structures lens (§2H) does not independently close this, consistent with Doc_05 §6.2's own disclosure of the same limit." The same question is recorded in Doc_04 §7 and Doc_05 §6.2.
+
+   (b) Doc_07 line 16, the open-item sentence: "the distinct, still-open item is the template file's own staleness, a coach-level correction this build thread cannot make (`cic-build-cycle`, 'Editing authority over non-world-build files... belongs to a coach thread'). §8 below re-flags it rather than re-escalating it." Doc_07 §8 ("Re-flagged, not re-escalated") still records it.
+
+   (c) Representative Construction Notes (Theophilus), former line 236, tail clause: "this is a genuine open item for the project lead, matching don's own disclosure exactly, not resolved here." Limb 2 stays recorded as open at lines 214 and 232.
+
+   (d) World Profile line 497, clauses: "— a genuine open item." and "and should be [surveyed] before the Permanent Prompt's own Living Traditions Distinction section is finalized." The line keeps that the survey has not been done.
+
+   (e) World Profile line 499, clause: "— a genuine open item for the project lead's own weighing, not resolved or dismissed here." The line now says the weighing belongs to the project lead.
+
+   Status: OPEN. Owner: rzg's own build thread, with the project lead for (c) to (e).
+
+86. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 6 rzg renderings with no named Opus review file. An independent Opus reviewer read all six against each record's `text` and the edition text in `cic/texts/` at its locus. All six pass. Per-record log: `Review-Artifacts/Rendering_Review_Log_6_2026-11-03.md`. The `m1:rendering-review/rzg` waiver is removed; the gate reports 0 for rzg (6 → 0). Noted: in `rzg.quote.christ-the-mirror-of-election` the "[our]" is the record's own marked correction of the scan's "onr" (line 684), not an editor's insertion.
 
    Status: CLOSED.

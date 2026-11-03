@@ -1356,18 +1356,13 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # surface pass and stopped matching. Moved to fresh worlds/ examples,
     # not yet touched by the cleanup program (item 4), to keep this table
     # at >=60 real, currently-matching lines.
-    ("Build/worlds/_cross-world/dossiers/anatolian-church-third-century_Source_Readiness_Dossier.md", 10, "REWRITE"),
-    ("Build/worlds/gallic/gallic_Representative_Construction_Notes_Renatus.md", 285, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized to
     # content-based matching across any Build/worlds/ .md file): line 562
     # sits inside this file's own "## Document Log" section - genuinely
     # load-bearing review-history content, now correctly PROTECTED.
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
-    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
-    ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     # Provenance lines in Build/worlds/ construction documents. A cleanup pass over the owning world
     # removes such a line; when one stops matching, replace its row with a current line of the same kind.
-    ("Build/worlds/gallic/gallic_Doc04_Gravity_Discovery.md", 5, "REWRITE"),
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside CiC_W7_Decision_Log.md, a per-world decision log
     # (matching lpc_Decision_Log.md's own header purpose), now correctly
@@ -1388,10 +1383,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # 1754 sits inside this file's own "## 12. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "PROTECTED"),
-    ("Build/worlds/gallic/gallic_Doc05_Ecological_Reconstruction.md", 5, "REWRITE"),
-    ("Build/worlds/gallic/gallic_Representative_Identity_Preliminary_Decision.md", 16, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
-    ("Build/worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md", 73, "ROUTE"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
@@ -1408,33 +1400,25 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # (commit a5df3f70) added a line above it, so it is now 109. Same text,
     # same label.
     ("cic-website/support.html", 110, "KEEP"),
-    ("Build/worlds/_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md", 10, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
     ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
-    ("Build/worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md", 8, "REWRITE"),
-    ("Build/worlds/hal/hal_Doc_09c_Validation_Layer.md", 70, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
     # cic/corpus-map samples in this block were cleaned by that PR's own
     # full surface pass and stopped matching. Moved to 10 more worlds/
     # examples, distinct from the 8 above, to keep this table at >=60
     # real, currently-matching lines.
-    ("Build/worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md", 72, "REWRITE"),
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside hal_Decision_Log.md, a per-world decision log, now
     # correctly PROTECTED rather than REWRITE under the new
     # _is_decision_log rule.
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
-    ("Build/worlds/hal/hal_Representative_Identity_Preliminary_Decision.md", 86, "REWRITE"),
-    ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md", 30, "REWRITE"),
-    ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 138, "KEEP"),
-    ("Build/worlds/pahc/CiC_W1_Representative_Identity_Preliminary_Decision.md", 31, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1455,11 +1439,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("fixtures/seeded_defects.yaml", 249, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 199, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 27, "PROTECTED"),
-    ("Build/worlds/rzg/rzg_Representative_Identity_Preliminary_Decision.md", 45, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 23, "PROTECTED"),
-    ("Build/worlds/rzg/rzg_World_Profile.md", 23, "REWRITE"),
-    ("Build/worlds/desert/CiC_W3_Phase6_Facilitation_Brief_DRAFT.md", 7, "ROUTE"),
-    ("Build/worlds/rzg/rzg_Representative_Ecology_Assessment_Theophilus.md", 7, "REWRITE"),
     # Hand label KEEP: "reviewer" here is generic instructional/methodology
     # prose (what a hypothetical reviewer of OTHER content would miss),
     # not a leaked note about this document's own review history - the
@@ -1467,7 +1447,6 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # PR body's precision limitation note (Build/reference/Project-Reference/
     # CiC_Cleaning_Pattern_Log.md and Build/reference/L4-Templates/*).
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 151, "KEEP"),
-    ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 5, "REWRITE"),
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 371, "KEEP"),
@@ -1493,6 +1472,29 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # project's own process).
     ("Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md", 95, "KEEP"),
     ("Build/worlds/gallic/gallic_Doc02_Review_Round1.md", 562, "PROTECTED"),
+    # Sample lines kept verbatim from live documents as they stood before the cleanup, held in a
+    # fixture so the sample stays valid after the documents themselves are cleaned.
+    ("tools/tests/fixtures/commentary_sample.md", 6, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 8, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 15, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 17, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 19, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 21, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 23, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 25, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 27, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 29, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 31, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 33, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 35, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 37, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 42, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 45, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 57, "ROUTE"),
+    ("tools/tests/fixtures/commentary_sample.md", 78, "ROUTE"),
+    ("tools/tests/fixtures/commentary_sample.md", 84, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 99, "REWRITE"),
+    ("tools/tests/fixtures/commentary_sample.md", 132, "REWRITE"),
 ]
 
 ACTIONABLE = {"REWRITE", "ROUTE"}

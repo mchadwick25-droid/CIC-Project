@@ -75,8 +75,12 @@ RUN pip install --no-cache-dir -r engine/api/requirements.txt -r engine/m1/requi
 
 COPY engine/ engine/
 COPY records/ records/
-# A world's search records and its site and Facilitator records; .dockerignore
-# admits only those two homes from Build/worlds/.
+# A world's search records and its site and Facilitator records, and its
+# Review-Artifacts folder; .dockerignore admits only those homes from
+# Build/worlds/. The M1 rendering-review gate (engine/m1/rendering_review.py)
+# reads a world's rendering review log and the review files it names from
+# Review-Artifacts, and its result is part of each package's gates-report.json,
+# so restore reproduces that report only if the folder is in the image.
 COPY Build/worlds/ Build/worlds/
 COPY packages/ packages/
 # Two engine/m1/gates.py checks (gate_edition_rights_consistency, gate_

@@ -1228,3 +1228,14 @@ Open, found by the reviewers and not changed here (they belong to the line-span 
 - Case only, at a cut: `germanus-and-chaeremon-on-the-husbandman` ("Neither" where the edition has "For neither" after the elision), `the-fathers-and-the-angels-twelve` ("One" for "one") and `castor-anxious-for-egyptian-institutions` ("Since" for "since").
 
 Status: CLOSED for the renderings. OPEN for the loci and case items above, which RD7 takes.
+
+### OG-51. Open tensions removed from the Renatus Construction Notes when their commentary was cleaned, 2026-11-03.
+
+Removed from the Escalation check of the Representative Construction Notes (former line 438); the content also stays in Section 3 (thin domain 7) and Section 8 (Judgments 5 and 1): "Two unresolved tensions remain flagged for the project lead or a coach thread, not resolved here: (a) Doc_09's usage guidance, and Doc_07 §7's own hand-off assignment, directing the Representative to narrate edition-level excisions and the sixteenth-century origin of "semi-Pelagian" conflicts with RCF V3.2 Part Two and Part Eight (Section 3, thin domain 7; Section 8, Judgment 5); (b) the single-"we" construction for two houses with no documented traffic sits on the reserved Step 0 question (Section 1; Section 8, Judgment 1)."
+
+Status: OPEN. Owner: the project lead or a coach thread.
+
+Added with OG-51, same date:
+
+- The Source Registry no longer states the divergence between the Framework V7.4 Step 2 flagging rule ("Confidence C or below... vivid, specific claim") and the Template's discovery-channel rule, which the Registry applies as primary. The older text disclosed it and listed rows 6, 9, 12, 33, 37, 38, 39 and 41 as candidates for review under the Framework's literal rule. The Registry now says the divergence "is not restated in this file". Restoring the disclosure needs a check of those row numbers against the current table. Status: OPEN. Owner: this world's thread.
+- The Renatus Construction Notes say that as of early September 2026 the World Capsule Core had not been built. Compiled packages for this world now exist, so the statement is dated and no longer current; the Phase Five status belongs to `gallic_Phase5_Boundary_Testing_Validation_DRAFT.md`. Status: RESOLVED in fact; the Notes keep the dated sentence.
