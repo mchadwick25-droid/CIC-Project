@@ -2714,3 +2714,7 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 
 - `alx/Lexicon-Chunks/alexlex003_catechesis.md` line 34: the scanner's route cue matches "has not yet been formed", a plain definition. False positive.
 - `ijc/Source_Registry.md` row 43: after cleaning, the row still holds both the registry's permanent Added date and a dated filename, and the scanner exempts either alone but not both on one row. The cleaned row text is kept in the drafting record; the file is unchanged.
+
+### CL6 sample table
+
+`tools/tests/test_check_live_commentary.py`: the rows for `alx/alex_World_Profile.md` line 69 and `ijc/ijc_World_Profile.md` line 227 (added in CL5) stopped matching once those lines were cleaned, and the rows for the moved alx and ijc findings no longer exist. They are replaced by `_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md` line 10 and `hal/hal_Doc_09c_Validation_Layer.md` line 70, and two earlier replacements point at `gallic_Representative_Construction_Notes_Renatus.md` line 285 and `hal_Representative_Identity_Preliminary_Decision.md` line 86. The final chunk (CL7) refreshes the whole table from lines in files that stay as they are.
