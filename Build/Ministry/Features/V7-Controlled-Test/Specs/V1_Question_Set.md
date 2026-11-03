@@ -1,29 +1,36 @@
-# V1: the question set, frozen
+# V1: baseline A extracted, repeat draw, optional hard-case set
 
-**Owner:** question thread, a fresh Opus session. It never sees B's code or any reading card. **Model:** Opus writes the questions; code freezes them.
+**Owner:** the V7 lead. The question thread takes the option, if Mark wants it.
+**Model:** Sonnet for the extract. Opus for any option questions.
 
-**Purpose.** 120 visitor questions (40 each for alx, pahc and syr) covering Mark's nine hard cases, as `../Test_Plan.md` §4 lays out. Each authored question has a trap note.
+**Purpose.** Put arm A's saved answers into one frozen, checkable form. Draw B's repeat subset. If Mark takes the option, write up to 15 hard-case questions.
 
-**Outputs.** In `../Set/`:
-- `<world>_questions.yaml`, with these fields: id, text, case (1–9 or ordinary), origin (d3 or authored).
-- `<world>_trap_notes.yaml`, with these fields: id; what a faithful answer must not do; the source and lines that show it.
-- `SHA256SUMS`, covering both files for every world.
-- `draw.json`: the seed for the D3 draw, written before the draw.
+**Outputs.** All go in `../Set/`.
+- **`A_<world>.jsonl`** for alx, pahc and syr. One line per probe, with these fields:
+  - probe id and cell
+  - `answer_text`, citations and citation entries
+  - the offered record ids, parsed from the run's `request` field
+  - usage, `seconds_to_first_text`, `seconds_total`, stop reason, priced cost
 
-**Process.**
-1. A helper that has seen no answers labels the D3 questions for alx, pahc and syr with the case each fits.
-2. Code draws the needed counts with the seed.
-3. The question thread writes the rest. It reads the world's shelf list, construction documents (Doc_01–Doc_09) and contested-claim records to find real traps, and words each question as a visitor would.
-4. A trap the thread cannot tie to named lines is dropped. It is never invented.
+  Each line is copied from `engine/m3/reports/fleet-graded-run-1/<world>.json` and its ledger, on branch `claude/fleet-run-1-analysis`. No probe text is copied.
+- **`A_reviews_<world>.json`**: the second-pass and outside-referee findings for the same probes, by probe id.
+- **`repeat_draw.json`**: the seed, written before the draw, and the 42 drawn probe ids. That is 14 per world, stratified by family and register.
+- **`SHA256SUMS`** over all of the above.
+- **Option, only on Mark's word:**
+  - `extra_<world>.yaml`, with 5 questions per world
+  - `extra_<world>_trap_notes.yaml`, giving for each question what a faithful answer must not do, and the source and lines that show it
+  - both frozen before the card thread starts
 
-**May touch.** `../Set/` only. **Must not touch.** Records, the D3 files, sealed probes, the engine.
+**May touch.** `../Set/` only.
+**Must not touch.** The run branch, the records, the sealed probes and the engine.
 
 **Tests written first.**
-1. The count is 40 per world, with 4 for each hard case and 4 ordinary.
-2. Every authored question has a trap note that names a source and lines.
-3. No question overlaps a sealed probe, a sub-question wording, a CP.9 question or the 106 lpc questions beyond the D3 overlap limit. Sealed probes are compared by the hash of their normalized text only and never printed.
-4. `SHA256SUMS` matches the files.
+1. Each `A_<world>.jsonl` has 28 lines. Each `answer_text` is byte-equal to the run file's.
+2. Joining the gate replay's shown sentences reproduces each `answer_text`. Source: `Build/Ministry/Features/Answering-From-Sources/Stage1/data/gate-replay/`.
+3. No file holds probe text. This is checked by comparing hashes of normalized text against the sealed set, without printing either.
+4. The repeat draw reproduces from its seed, with 14 per world and every family present.
+5. `SHA256SUMS` matches the files.
 
-**Done when.** The tests pass, the set is frozen, and the V7 lead has the hashes. From then on, any change is a change order.
+**Done when.** The tests pass, the files are frozen, and any later change is a change order.
 
 **Cost.** None metered.

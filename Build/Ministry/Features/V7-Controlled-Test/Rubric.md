@@ -34,6 +34,7 @@ Readers and human reviewers list each error they find, apart from the scores:
 - **Model readers.** Two independent `judge-reader` helpers per answer.
   - They read blind: no arm labels, and answers are shuffled with a seed written into the run file before the draw.
   - Each reader gets the question, the answer, the cited records, and the source lines with their context. Readers do not see the reading cards, so a card's own mistake is not imported into the score.
-  - The trap note is opened after the blind scores are filed. The reader may then add errors, marked "after trap note".
+  - Where a question has a trap note (the optional hard-case set only), the note is opened after the blind scores are filed. The reader may then add errors, marked "after trap note".
+  - Both arms are scored fresh by the same readers. The October reviews of A are reported beside the fresh scores, never in place of them (`Test_Plan.md` §6).
 - **Agreement** is reported per dimension: exact agreement, and agreement within one point. A dimension where exact agreement falls below 60% is reported as "readers unreliable here". **Assumption:** the 60% line is set here, before the run.
-- **Human reviewers** use the same error log and the scores for dimensions 1, 2, 3, 5 and 7. Dimensions 6, 8, 9 and 10 are optional for them. They work from the source packets in `Test_Plan.md` §5.
+- **Human reviewers** use the same error log and the scores for dimensions 1, 2, 3, 5 and 7. Dimensions 6, 8, 9 and 10 are optional for them. They work from the source packets in `Test_Plan.md` §6.

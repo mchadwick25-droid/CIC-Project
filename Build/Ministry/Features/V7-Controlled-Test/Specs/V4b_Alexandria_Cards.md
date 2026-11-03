@@ -1,6 +1,6 @@
 # V4b: reading cards for Alexandria
 
-**Owner:** card thread, a fresh Opus session. It never opens `../Set/`. **Model:** Opus drafts and Opus reviews. The review follows the build cycle, capped at three rounds.
+**Owner:** card thread, a fresh Opus session. It never opens `../Set/`, A's or B's answers, or the fleet graded run 1 reviews. **Model:** Opus drafts and Opus reviews. The review follows the build cycle, capped at three rounds.
 
 **Purpose.** Write the 35 alx cards: 26 quotes and 9 stories.
 

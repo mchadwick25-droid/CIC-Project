@@ -953,9 +953,11 @@ Clarifications that bind the test:
 - Human historical review reports actual error counts, severity and uncertainty. "A small sample can identify problems but cannot establish that serious errors have been eliminated."
 - The decision report answers his eight questions, with verified findings, assumptions and hypotheses kept separate.
 
-D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. Cap: $12, Mark 2026-11-03, lowered from $30. The named live test is `v7-ab-alx-pahc-syr`:
-- A and B on all 120 questions, then a repeat of A and B on 40 of them for the noise floor;
-- a 12-turn sample first, which the coordination thread checks before the rest;
-- the run stops at $12.
+D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. Cap: $12, Mark 2026-11-03, lowered from $30. Then Mark, relayed by the coordination thread the same day: "we have plenty of test data on the engine that is currently running, use that, then what we need is to compare it to something".
 
-C is not in this cap. If B shows a problem selective correction could address, it goes back to Mark for a new approval.
+So the arms are set as follows.
+- **A is not re-run.** A is the saved answers of fleet graded run 1 for alx, pahc and syr: the 28 sealed probes per world, 84 answers. That run used `main` at `ddabd865`, whose engine and records are byte-identical to the `live` head c869dd86. Its second-pass Opus reviews and outside-referee reviews are saved for all three worlds.
+- **B is the only paid arm.** It runs on the same probes, through the same harness, on a test branch cut from `live`, with only the B switch added. B repeats on 42 of the probes for a noise floor. A's run-to-run variance on this code is unmeasured. An older engine's three-run band, from 2026-10-02, is reported as an indication.
+- **The named live test** is `v7-b-alx-pahc-syr`, with a $12 ceiling and a 6-turn sample first that the coordination thread checks. The core run is estimated at $3.15 to $5.92.
+- **The optional set.** Up to 15 fresh hard-case questions, needing fresh A and B answers at about $0.80, are an option for Mark. They are not part of the core run.
+- **C** is not in the cap. If B shows a problem that selective correction could address, it goes back to Mark for a new approval.
