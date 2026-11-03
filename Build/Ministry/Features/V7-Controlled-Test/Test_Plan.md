@@ -9,13 +9,19 @@ Written 2026-11-03 under Mark's authorization (Answering-From-Sources Decision-L
 
 | Arm | Engine | What it tells us |
 |---|---|---|
-| **A-live** | Branch `live` at the commit in production when the run starts (today c869dd86), with its own packages and production settings | The production baseline Mark asked for |
-| **A-main** | Branch `main` at the frozen run commit, with the new switch off | Whether `main`'s changes since the last promotion matter on their own. These include the absence rule, lead-in support and the D2 and D2b voice rules. |
-| **B** | The same `main` commit with the switch on | The effect of contextual preparation alone, because B differs from A-main only by the switch |
+| **A** | Branch `live` at the commit in production when the run starts (today c869dd86), with its own packages and production settings | The production baseline Mark asked for |
+| **B** | Branch `main` at the frozen run commit, with the new switch on | The effect of contextual preparation |
 
-Run counts:
-- A-live and A-main run once each.
-- B runs twice. The spread between B's two runs is the noise floor: a difference between arms counts only if it is larger than that spread, as in CP.9 (`../Answering-From-Sources/CP9-Retest_2026-11-02/README.md`, Noise floor).
+Run counts (Mark, 2026-11-03, $12 cap):
+- A and B each answer all 120 questions once.
+- A and B then each answer 40 of the questions a second time. The 40 are drawn by a seed written in advance, stratified across worlds and cases.
+- For each arm, the spread between its two runs on those 40 is the noise floor. A difference between arms counts only if it is larger than that spread, as in CP.9 (`../Answering-From-Sources/CP9-Retest_2026-11-02/README.md`, Noise floor).
+
+**One confound.** `main` differs from `live` by more than the switch. The difference includes the absence rule, lead-in support and the D2 and D2b voice rules. So B against A measures the switch plus those changes. There are two ways to remove the confound:
+- **Promotion.** If Mark promotes `main` to `live` through the Promotion Runbook before the main run, A and B share every other line of code and the confound disappears. That is Mark's call.
+- **A third arm.** Running `main` with the switch off would separate the two. The $12 cap does not fund it.
+
+If neither is done, the decision report states the confound and does not credit the switch alone with a difference.
 
 **Verified:**
 - Production makes three model calls per ordinary turn: two Haiku 4.5 gate calls in parallel, then one Sonnet 4.5 voice call (`engine/m4/turn.py:138-143` and `:770` on `live`; `render.yaml:145-165`).
@@ -27,7 +33,7 @@ Run counts:
 
 B changes only what each offered item carries. It does not change which items are offered.
 
-1. **Same records.** Evidence selection is unchanged (`engine/m4/evidence.py`). With the same question, B offers the same record ids as A-main, and a test checks this. That keeps the comparison about preparation, not retrieval. It also keeps every connection the cached world prompt already gives the voice (Mark, §4: richness is non-negotiable).
+1. **Same records.** Evidence selection is unchanged (`engine/m4/evidence.py`). With the same question, B offers the same record ids as `main` with the switch off, and a test checks this. That keeps the comparison about preparation, not retrieval. It also keeps every connection the cached world prompt already gives the voice (Mark, §4: richness is non-negotiable).
 2. **The quote in view.**
    - Today a quote line shows the speaker and the gist but not the words (`evidence.py:1518-1539`).
    - In B, each offered quote also shows its reviewed modern rendering.
@@ -44,8 +50,8 @@ B changes only what each offered item carries. It does not change which items ar
    - keep "the source says", "we understand it to mean" and "this was disputed" distinct in plain speech;
    - say whose view a source gives, and how widely it was shared, only as far as the card or record supports.
 
-   These lines do not add citation rules, and B's checks after drafting are the same as A-main's.
-7. **Budget.** B's additions are capped at 12,000 characters per turn (about 3,000 tokens). Past the cap, the context windows are dropped first.
+   These lines do not add citation rules, and B's checks after drafting are the same as `main`'s with the switch off.
+7. **Budget.** B's additions are capped at 8,000 characters per turn (about 2,000 tokens), so they fit the $12 cap. Past the cap, the context windows are dropped first.
 8. **A report-only signal, never a gate:**
    - a sentence speaking for the whole world ("we held", "our churches") whose only cited record is a single-author card;
    - counted per answer for the readers, and nothing is removed for it.
@@ -121,48 +127,52 @@ A card is short world-construction material, written once per quote and per stor
   - These readers draw on the weekly allowance, not metered spend.
 - **Human historical review.**
   - **No independent human historian is available to this project today.** The repository names none. Every label so far has been a model's (`../Answering-From-Sources/Decision-Log.md` entry 17). The only reviewer brief is a draft (`Build/Ministry/Scholarly-Review/CiC_Article31_Reviewer_Brief_V0_2_DRAFT.docx`).
-  - **The sample:** 24 questions per arm for A-live and B (run 1), 8 per world, weighted toward hard cases 1–7. That is 48 answers.
+  - **The sample:** 24 questions per arm for A and B (first run), 8 per world, weighted toward hard cases 1–7. That is 48 answers.
   - **Each answer goes with a source packet:** the question, the answer, the cited records, and the source lines with their context. It takes about 10 minutes an answer, so about 8 hours in all (**Assumption**).
   - **Reviewers record errors, not grades:** the count, the severity tier, the type, and how sure they are.
   - **What Mark can do, in order of strength:**
-    1. Recruit one or two patristics scholars (a graduate student or faculty member) for about 8 hours, paid or volunteer. Any fee is outside the $30 model cap and is Mark's decision.
+    1. Recruit one or two patristics scholars (a graduate student or faculty member) for about 8 hours, paid or volunteer. Any fee is outside the $12 model cap and is Mark's decision.
     2. Ask an existing contact in a seminary or university department.
     3. If neither is possible before the decision report, the report says plainly that it has no human historical review. Its findings then count as model-read only, and serious-error rates are reported as unknown.
 - **What the sample can show.** A sample of 48 can find problems. It cannot show that serious errors are gone (Mark, §6). The report gives counts with that limit stated.
 
 ## 6. The paid run
 
-**Name:** `v7-ab-alx-pahc-syr`. **Cap:** $30 in total, as two commands under the same name. The sample has a $2 cap. The main run is capped at $28 minus what the sample spent.
+**Name:** `v7-ab-alx-pahc-syr`. **Cap:** $12 in total, set by Mark on 2026-11-03 (lowered from $30). The sample is included in that figure. It runs as one command under the same name with a $1 cap, followed by the main run capped at $12 minus what the sample spent. The guard stops any call that would cross the cap (`engine/provider/guard.py:258-282`).
 
 **Sample first** (CLAUDE.md, paid bulk runs):
-- 2 questions per world, through A-live and B: 12 turns.
-- The run prints the model ids, the route, settings and counts.
-- The coordination thread confirms the sample with Mark before the main run.
+- 2 questions per world, through A and B: 12 turns.
+- The run prints the model ids, the route, the settings and the counts.
+- The coordination thread checks the sample, and Mark confirms it, before the main run.
 
-**Main run:**
-- A-live and A-main once, B twice: 480 turns.
-- Each question is a fresh first turn.
-- Arms are interleaved per question, so they share the warm cache.
+**Main run, in this order,** so that the part that matters most finishes first:
+1. A and B on all 120 questions: 240 turns.
+2. A and B on the 40 repeat questions: 80 turns.
+
+Each question is a fresh first turn. Arms are interleaved per question, so they share the warm cache.
 
 **Estimate (Hypothesis until the sample):**
 
-| Arm | Turns | Per turn | Total |
+| Part | Turns | Per turn | Total |
 |---|---|---|---|
-| A-live | 120 | $0.020–0.044 | $2.40–5.30 |
-| A-main | 120 | $0.020–0.044 | $2.40–5.30 |
-| B, two runs | 240 | $0.025–0.055 | $6.00–13.20 |
-| Sample | 12 | | about $0.60 |
-| **All** | | | **about $11–24** |
+| Sample | 12 | A $0.018–0.040, B $0.025–0.047 | $0.26–0.52 |
+| A, all questions | 120 | $0.018–0.040 | $2.16–4.80 |
+| B, all questions | 120 | $0.025–0.047 | $3.00–5.64 |
+| A, repeat | 40 | $0.018–0.040 | $0.72–1.60 |
+| B, repeat | 40 | $0.025–0.047 | $1.00–1.88 |
+| **All** | 332 | | **$7.14–14.44; at the midpoint, about $10.80** |
 
-How the per-turn figures were reached:
-- They start from the measured $0.018–0.040 per answer (`../Answering-From-Sources/Stage1_Ledger.md:15`).
-- They add the 1.10 Bedrock regional rate (`engine/m8/price_tables.py:116`).
-- B adds up to 3,000 fresh input tokens at Sonnet 4.5's $3.00 per million (`price_tables.py:27-33`).
+Where the per-turn figures come from:
+- **A** is the measured $0.018–0.040 per answer (`../Answering-From-Sources/Stage1_Ledger.md:15`).
+- **B** adds up to 2,000 fresh input tokens at Sonnet 4.5's $3.00 per million, times the 1.10 Bedrock regional rate (`engine/m8/price_tables.py:27-33`, `:116`). That is at most $0.007 per turn.
 
-**Stop rules:**
-- If the sample's per-turn cost, scaled to the main run, comes to more than $27, the run stops and returns to Mark before any main-run call.
-- The guard stops any call that would cross the cap (`engine/provider/guard.py:258-282`).
-- A run that stops on the cap reports what it completed. It is not resumed without Mark.
+**The top of the range does not fit $12, so the run has these stop rules:**
+- **After the sample,** code scales the sample's actual cost per turn of each arm to 320 main-run turns.
+  - If the projection is $11 or less, the main run goes ahead as planned.
+  - If it is more than $11, the repeat is cut to the number of questions that fits under $11. The cut keeps the stratification, and the coordination thread is told before any main-run call.
+  - If the 240 turns of step 1 alone would cost more than $11, nothing more runs, and the work returns to Mark.
+- **During the run,** the guard stops at the cap. A run that stops on the cap reports what it completed and is not resumed without Mark. Because step 1 runs first, a stop can shorten only the repeat, and with it the noise floor.
+- **C** is not in this cap. If B shows a problem that selective correction could address, C goes back to Mark for a new approval.
 
 ## 7. Logging
 
@@ -196,9 +206,11 @@ These are Mark's eight questions (his response, §8). Each answer separates veri
 8. What is the smallest next change the evidence justifies?
 
 **Success rules for B** (written before the run):
-- Better than A-main beyond the noise floor on contextual integrity and on interpretive fidelity.
-- On every other dimension, no worse than A-main beyond the noise floor. Depth, responsiveness and world embodiment are named here because of Mark's §4.
-- No more tier 1 errors than A-main.
-- Cost per answer no more than 1.3 times A-main's.
+- Better than A beyond the noise floor on contextual integrity and on interpretive fidelity.
+- On every other dimension, no worse than A beyond the noise floor. Depth, responsiveness and world embodiment are named here because of Mark's §4.
+- No more tier 1 errors than A.
+- Cost per answer no more than 1.3 times A's.
+
+Where `main` was not promoted before the run, any difference is attributed to "B as built on `main`", not to the switch alone (§1).
 
 If B misses a rule, the report says which one, and by how much.

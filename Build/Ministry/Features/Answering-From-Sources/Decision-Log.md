@@ -936,7 +936,7 @@ He authorized seven things:
 7. Return with measured results, limitations and a recommendation before any production promotion.
 
 Conditions:
-- "The $30 evaluation cap stands. If the proposed work cannot be completed within that cap, stop and return for approval."
+- "The $30 evaluation cap stands. If the proposed work cannot be completed within that cap, stop and return for approval." Mark later lowered the cap to $12 (below).
 - "Do not proceed with C unless the results demonstrate that B has a meaningful remaining problem that selective correction could address."
 - No wholesale redesign, no expansion of routine model calls, no expensive pre-verified bundles, and no permanent decision about source-library architecture.
 
@@ -953,4 +953,9 @@ Clarifications that bind the test:
 - Human historical review reports actual error counts, severity and uncertainty. "A small sample can identify problems but cannot establish that serious errors have been eliminated."
 - The decision report answers his eight questions, with verified findings, assumptions and hypotheses kept separate.
 
-D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. The named live test is `v7-ab-alx-pahc-syr`, with a $30 cap that includes a 12-turn sample. The main run waits for Mark to confirm the sample.
+D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. Cap: $12, Mark 2026-11-03, lowered from $30. The named live test is `v7-ab-alx-pahc-syr`:
+- A and B on all 120 questions, then a repeat of A and B on 40 of them for the noise floor;
+- a 12-turn sample first, which the coordination thread checks before the rest;
+- the run stops at $12.
+
+C is not in this cap. If B shows a problem selective correction could address, it goes back to Mark for a new approval.

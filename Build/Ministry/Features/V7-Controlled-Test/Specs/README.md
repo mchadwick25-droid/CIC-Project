@@ -16,8 +16,8 @@ Owners:
 | V4b | alx reading cards, drafted and reviewed | card thread | Opus | V4a, and V1 frozen first | none (allowance) |
 | V5 | B behind a switch | engine thread | Opus | V4a | none |
 | V6 | Dry run with helpers | V7 lead | Sonnet helpers draft; code runs | V2, V3, V5, V4b | none (allowance) |
-| V7 | Live sample, 12 turns, $2 cap | V7 lead | production models | V6 clean; Mark's confirmation through coordination | about $0.60 |
-| V8 | Live main run, 480 turns | V7 lead | production models | Mark confirms the sample | about $11–24, inside $30 |
+| V7 | Live sample, 12 turns, $1 cap | V7 lead | production models | V6 clean; Mark's confirmation through coordination | about $0.60 |
+| V8 | Live main run, 320 turns | V7 lead | production models | Mark confirms the sample | about $6.90–13.90 estimated; stops at $12 |
 | V9 | Reading: model readers and human review | V7 lead | `judge-reader` helpers, plus human reviewers | V8 | none (allowance) |
 | V10 | Decision report | V7 lead | Opus | V9 | none |
 

@@ -1,11 +1,11 @@
-# V2: the run harness for A-live, A-main and B
+# V2: the run harness for A and B
 
 **Owner:** engine thread. **Model:** Opus, because this is core code that will spend money.
 
 **Purpose.** One command runs a frozen question file through one arm. Each question is a fresh first turn on the real turn path, with production settings. Everything in `../Test_Plan.md` §7 is recorded.
 
 **Design.**
-- **Where it lives.** A new script, `v7_run.py`, in `engine/m3/`. It uses only interfaces that exist on both `live` and `main`: `engine/m3/generation.py` (`LiveModelAnswerer`, `production_settings`) and `engine/provider/guard.py`. A-live runs it against a checkout of `live`, made with git worktree in the run's scratch folder and never committed. A-main and B run it on `main`.
+- **Where it lives.** A new script, `v7_run.py`, in `engine/m3/`. It uses only interfaces that exist on both `live` and `main`: `engine/m3/generation.py` (`LiveModelAnswerer`, `production_settings`) and `engine/provider/guard.py`. Arm A runs it against a checkout of `live`, made with git worktree in the run's scratch folder and never committed. B runs it on `main`. `--arm a` on `main` (the switch off) is kept for tests and for a third arm, should one ever be funded.
 - **Timing.** The script times each call and each turn itself. It does not rely on `engine/m3/call_capture.py`, which is absent on `live`.
 - **Arms.**
   - `--arm a` loads the world unchanged.

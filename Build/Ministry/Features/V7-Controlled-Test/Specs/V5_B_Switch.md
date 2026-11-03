@@ -11,7 +11,7 @@
   - adds "Reads differently today" from the lens note, or from the card's `reads_differently_today` where there is a card;
   - adds the card's lines under the record, where there is a card;
   - adds the `fit_step.context_blocks` window for the top two offered quotes or stories.
-- **Budget.** Additions stop at 12,000 characters. Context windows are dropped first, then card lines, and the quote renderings are kept.
+- **Budget.** Additions stop at 8,000 characters. Context windows are dropped first, then card lines, and the quote renderings are kept.
 - **Directive.** When the flag is on, `engine/m4/turn_prep.py` adds these lines:
   > Answer what the visitor asked, first and plainly.
   > Draw the offered sources and our ground together: connect them, explain how belief and practice fit, and say what we understand them to mean.
@@ -26,7 +26,7 @@
 **Tests written first.**
 1. With the flag off, the evidence block and directive are byte-equal to today's for every question in the frozen set's alx file, run in dry mode.
 2. With the flag on, the offered record ids equal those with the flag off.
-3. With the flag on, additions never exceed 12,000 characters. Context windows are dropped first.
+3. With the flag on, additions never exceed 8,000 characters. Context windows are dropped first.
 4. A quote with no card still shows its rendering and lens note.
 5. Context ids cannot be cited: a sentence tagged with one is treated as today.
 6. The signal counts a fixture "we held" sentence bound only to a single-author card, and withholds nothing.

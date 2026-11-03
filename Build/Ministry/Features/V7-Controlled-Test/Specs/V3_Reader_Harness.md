@@ -9,10 +9,10 @@
 - **Trap check.** After the blind replies are filed, a second request per authored question shows its trap note.
 - **Score tables.** Per dimension, arm and world:
   - mean and distribution;
-  - the noise floor, which is B run 1 against B run 2;
+  - the noise floor: each arm's first run against its second, on the 40 repeat questions;
   - reader agreement, both exact and within one point;
   - error counts by type and severity.
-- **Human packets.** 24 questions per arm for A-live and B run 1, 8 per world, weighted toward hard cases 1–7. Each comes as a readable page with the source text, plus a blank error log.
+- **Human packets.** 24 questions per arm for A and B (first run), 8 per world, weighted toward hard cases 1–7. Each comes as a readable page with the source text, plus a blank error log.
 
 **May touch.** A new `v7_read.py` in `engine/m3/`, its tests, and the run folder under `../Runs/`. **Must not touch.** The engine's turn path, records, and V1's frozen set.
 

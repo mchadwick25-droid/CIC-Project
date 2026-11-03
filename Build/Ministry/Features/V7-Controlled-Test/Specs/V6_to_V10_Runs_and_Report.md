@@ -13,22 +13,22 @@
   - flag-off is byte-equal;
   - V3 produces its tables.
 
-## V7: live sample (`v7-ab-alx-pahc-syr`, $2 cap)
+## V7: live sample (`v7-ab-alx-pahc-syr`, $1 cap)
 
-- **What runs.** 2 questions per world, through A-live and B: 12 turns.
+- **What runs.** 2 questions per world, through A and B: 12 turns.
 - **What it prints.** Model ids, route, settings, counts, tokens, latency and cost.
 - **Next step.** The V7 lead sends the sample to the coordination thread, which takes it to Mark.
-- **Stop rule.** If the sample's per-turn cost, scaled to 480 turns, comes to more than $27, stop and return.
+- **Stop rule.** Code scales each arm's actual cost per turn to the 320 main-run turns. At $11 or less, the run goes ahead. Above $11, the repeat is cut to fit and the coordination thread is told before any main-run call. If the 240 turns on all 120 questions alone would pass $11, the work stops and returns to Mark (`../Test_Plan.md` §6).
 
-## V8: live main run (same name, cap $28 minus the sample's spend)
+## V8: live main run (same name, cap $12 minus the sample's spend)
 
-- **What runs.** A-live and A-main once each, and B twice. 120 questions each time, interleaved per question.
+- **What runs.** First, A and B on all 120 questions. Then A and B on the 40 repeat questions. Arms are interleaved per question.
 - **If the cap is reached.** The run stops and reports what finished. It is not resumed without Mark.
 - **Afterwards.** The guard's ledger and summary are filed with the run.
 
 ## V9: reading
 
-- **Model readers.** V3 sends two blind `judge-reader` reads per answer: 480 answers, 960 reads, drawing on allowance.
+- **Model readers.** V3 sends two blind `judge-reader` reads per answer: 320 answers, 640 reads, drawing on allowance.
 - **Allowance check.** Reads are split into batches. If the weekly allowance's build half cannot carry them, they move to the next week rather than cutting a reader.
 - **Human packets.** These go to the reviewers Mark arranges. If none can be arranged, the report says so.
 

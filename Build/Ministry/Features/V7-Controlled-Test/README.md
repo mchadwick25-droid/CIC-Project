@@ -12,7 +12,7 @@ The reassessment that led here: https://claude.ai/artifact/EuKJQj3kEgvS2kDLkQvjC
 
 **Worlds:** alx, pahc and syr. Mark chose pahc as the third world.
 
-**Cap:** $30 of metered spend for the whole evaluation, the sample included. If the work cannot finish inside it, it stops and goes back to Mark.
+**Cap:** $12 of metered spend for the whole evaluation, the sample included. Mark set it on 2026-11-03, lowered from $30. If the work cannot finish inside it, it stops and goes back to Mark. C is not in this cap.
 
 **Not in scope:** arm C (it is built only if B shows a remaining problem that selective correction could address), pre-verified bundles, new routine model calls, any permanent decision on source-library reach, and any change to production. D4 (pull request #1484) stays paused.
 
