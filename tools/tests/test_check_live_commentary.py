@@ -1416,7 +1416,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # (commit a5df3f70) added a line above it, so it is now 109. Same text,
     # same label.
     ("cic-website/support.html", 110, "KEEP"),
-    ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
+    ("Build/worlds/alx/alex_World_Profile.md", 69, "REWRITE"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 802 sits inside this file's own "## 11. Document log" section, now
     # correctly PROTECTED.
@@ -1434,7 +1434,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # correctly PROTECTED rather than REWRITE under the new
     # _is_decision_log rule.
     ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
-    ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
+    ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 7, "REWRITE"),
     ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
     ("Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md", 10, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),

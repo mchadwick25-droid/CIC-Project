@@ -947,3 +947,13 @@ per-world review-artifact citations under `Build/worlds/ijc/` baselined.
 **Context.** The file is a decision log. Decision logs belong under `Build/Ministry/`, not in a live reference surface, and the Live-Surface Cleanup program found 24 lines of provenance in it that could not be cleaned in place without rewriting the log itself.
 
 **Action.** Moved with `git mv`, so history follows the file. `tools/moved_paths.txt` maps the old path to the new one, so older documents that cite it still resolve. The two entries `tools/check_paths_baseline.txt` held for it are removed, because `tools/check_paths.py` skips decision logs under `Build/Ministry/`. The three hand-labelled sample lines in `tools/tests/test_check_live_commentary.py` that pointed at the old file, and eight others the CL1 to CL3 cleanup had cleaned, now point at current lines in `Build/worlds/` (nine provenance lines, two open-item lines). The root `README.md` does not name the file.
+
+## 2026-11-03 — Retired generators, a build ledger and two probe records leave `Build/worlds/`
+
+**Context.** The Live-Surface Cleanup program found process material in the live `Build/worlds/` surface that cannot be written as present-tense statements without changing what it records.
+
+**Action.** All moves use `git mv`, so history follows each file, and none of the files was edited. `tools/moved_paths.txt` maps every old path to its new one, so older documents that cite them still resolve.
+- `Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` moved to `Build/worlds/cappadocian/build/`, the folder that holds a world's build log. `tools/check_paths_baseline.txt` carries its accepted citations under the new path.
+- The eight don build generators (`wb_don_s21.py`, `wb_don_s22_s23.py`, `wb_don_s24.py`, `wb_don_s25.py`, `wb_don_s26.py`, `wb_don_s27.py`, `wb_don_s2x_doctrinal_witness.py`, `wb_don_s2y_canon_cells.py`) moved to `Archive/Retired-World-Build-Scripts/don/`, and `wb_witt_s25.py` to `Archive/Retired-World-Build-Scripts/witt/`. Nothing in CI, `tools/` or `engine/` runs or imports them; the only references are citations in documents, and the scripts' output already lives in `records/`.
+- `don_Rep_Phase5_Probe11_Retest_2026-09-10.json` and `..._Round2.json` moved from `Build/worlds/don/Representative/` to `Build/worlds/don/Review-Artifacts/`, beside the review files that cite them. They are probe-run records.
+- Two hand-labelled sample rows in `tools/tests/test_check_live_commentary.py` that pointed at the moved ledger and script are replaced.
