@@ -1,5 +1,5 @@
 """The independent AI adjudication of the packet items, in place of a human
-ruling (Mark, 2026-10-29: "i would trust an objective ai view").
+ruling.
 
 Three reads of each item, each by a fresh Claude Code subagent that sees none
 of the others:

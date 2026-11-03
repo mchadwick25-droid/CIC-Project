@@ -1938,3 +1938,20 @@ The same PR edits `Build/reference/Redesign-Spec/` (Artifact-4 §4, Artifact-6's
 - **Artifact-4 rule 2 (`AMBIGUOUS_LOW_CONFIDENCE` → check-in).** Added 2026-08-21, after live safety-script batch 2. In scenario s9, an adversarial hypothetical-framed disclosure, `AMBIGUOUS_LOW_CONFIDENCE` fell through to ordinary routing under the original rule set.
 - **Artifact-6 turn cap.** The cap of 10 turns was decided by Mark on 2026-08-25. Before that it was `DECIDABLE`, with a default of 40. The decision followed the live memory-growth measurement.
 - **Build-Blueprint status.** Mark approved the Build-Blueprint on 2026-08-20. The status line now reads "Approved to proceed", which is the project's current vocabulary.
+
+## Entry — CL1, engine and Sandbox sweep (2026-11-03)
+
+Mark, 2026-11-03: "make sure what exists is clean and not in program notes, everything is kept in a seperate document, no curruption. it should be a gold standard clean funtioning library and engine". This entry lists what moved out of each file; the files now state the present-tense reason only.
+
+- `engine/m2/validation.py`: "the freeze" reads "the world freeze" in the four-touchpoint note. Wording only; the scanner's era-gate pattern matched "the freeze".
+- `engine/m4/memory_integrity_probe.py`: "THIS IS THE OVER-CORRECTION TEST" is now sentence case. The all-caps form tripped the CORRECTION cue and widened the flag across the whole battery list. No other change.
+- `engine/m4/object_storage.py`: "caught by that unchanged verification" now reads "still fails that same hash verification". Same meaning; the removed words only tripped the "caught by" cue.
+- `engine/m4/uncited_claims.py`: removed "(found by the tradition-pivot rule's own build battery's own C-later-tradition probe, engine/m4/reports/r37_build_battery.py)". The docstring now says the build battery exercises this case in its C-later-tradition probe. The report path, which carries a ruling number, lives here.
+- `engine/m7/scheduler.py`: removed the date ", 2026-09-04," from the pointer to `CiC_System_Health_Tracking.md`. The pointer stays.
+- `engine/m8/cost.py`: removed "approved 2026-09-01" from the example source "published Bedrock rate card".
+- `Sandbox/Answering-From-Sources/goldset/adjudicate.py`: removed the attribution "(Mark, 2026-10-29: "i would trust an objective ai view")" after "in place of a human ruling". The reason, an independent AI read standing in for a human ruling, stays.
+- `Sandbox/Answering-From-Sources/goldset/build.py`: "Mark's ruling as a label" reads "A packet-page ruling as a label".
+- `Sandbox/Answering-From-Sources/goldset/catch_rate.py`: removed "Mark's rule (Decision Log, 2026-10-29):". The qualification rule (19 of 20 seeds, 18 of 20 controls) stays as a plain statement.
+- `Sandbox/README.md`: removed "(decided 2026-09-26)" after the pure-code rule.
+
+Left alone as false positives, not edited: `engine/BASELINES.md` lines 10, 14, 17 and 22 (dates inside baseline branch and tag names, and the date of a historical run); `Sandbox/.../constructed.py` line 3 ("known defect" in a design description); the variable name `todo` in `runner.py` and `index/generate.py`; the salt constants in `cues.py` and `seeds.py` (changing them changes the draws); test-data dates in `test_goldset.py`.

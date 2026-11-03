@@ -58,7 +58,7 @@ def _label(row: dict | None) -> dict | None:
 
 
 def ruled_label(ruling: dict, specialist: dict | None) -> dict:
-    """Mark's ruling as a label. The specialist's evidence is kept only when
+    """A packet-page ruling as a label. The specialist's evidence is kept only when
     the ruling has the same verdict and class, since it was quoted for that
     reading."""
     unsupported = ruling["verdict"] == "unsupported"
