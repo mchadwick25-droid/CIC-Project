@@ -809,6 +809,27 @@ def _diverse_take(
     return take
 
 
+def _record_keys(rid: str, repository_records: dict[str, dict]) -> tuple:
+    """The author and work a record's material comes from: its speaker or
+    author (else its first source's author), and its first source."""
+    record = repository_records.get(rid) or {}
+    work = next((s.get("source_id") for s in record.get("sources") or [] if s.get("source_id")), None)
+    author = (record.get("speaker_or_author") or (repository_records.get(work) or {}).get("author") or "").strip() or None
+    return (author, work)
+
+
+def _capped_take(
+    scored: list[tuple[str, float]],
+    repository_records: dict[str, dict],
+    floor: int,
+    session_used_keys: set[str] | None = None,
+) -> list[tuple[str, float]]:
+    """A floor filled in score order under the offer's one diversity rule
+    (engine.m4.passage_offer.diversify): its per-author and per-work caps,
+    relaxed when the pool holds too few authors or works to fill the floor."""
+    return passage_offer.diversify(scored, floor, lambda t: _record_keys(t[0], repository_records))[:floor]
+
+
 # Stage B2 (Build-Plan.md Stage 4c, part 2). Stage B's own candidate pool
 # is deliberately the matched cell's own compiled/coverage.json entry, per
 # the module docstring's named simplification - and most of the time that
@@ -882,9 +903,8 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     one.
 
     source_spread: each floor is filled breadth-first by source family
-    (_diverse_take). When False, each floor is filled in score order, and the
-    one diversity rule over records and passages in the offer
-    (engine.m4.passage_offer.diversify) takes its place."""
+    (_diverse_take). When False, each floor is filled by the offer's one
+    diversity rule (_capped_take), the rule its passages are cut by."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
@@ -946,7 +966,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             for rid in (already_told_ids or ())
             if rid in repository_records
         }
-        take = _diverse_take if source_spread else (lambda pool, _records, n, _used: pool[:n])
+        take = _diverse_take if source_spread else _capped_take
         chosen = take(scored, repository_records, floor, used_keys)
         if rhythm is not None and record_type == "quote" and rhythm.quotes_voiced:
             fresh = [t for t in scored if t[0] not in rhythm.quotes_voiced]
@@ -1283,8 +1303,8 @@ def assemble_evidence(
     the records, after the records' own cap and exclusion; their budget is the offer's own.
     passage_search (engine.m4.passage_offer.SearchRequest) turns search on: the offered
     passages are found on the world's shelf inside its lens, passage_candidates are not
-    used, and each cell's records fill their floors in score order, since the offer's one
-    diversity rule covers records and passages together. None leaves the offer as it is.
+    used, and each cell's records fill their floors by the same diversity rule as the
+    passages (_capped_take). None leaves the offer as it is.
 
     sub_question is the sub-question id the reader named (engine.m4.subquestion_routing).
     When `coverage` holds an entry under that id, it is the first cell: its records are
@@ -1463,7 +1483,7 @@ def assemble_evidence(
         ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=uncapped, thin_topics=thin_topics)
     selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
-    selected = passage_offer.offer_contents(selected, passage_candidates or [], passage_search, repository_records)
+    selected = passage_offer.offer_contents(selected, passage_candidates or [], passage_search)
 
     result = {
         "cells": cell_matches,

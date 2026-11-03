@@ -27,6 +27,7 @@ class FakeShelf:
         self._ranking = list(ranking)
         self._lens = set(passages) if lens is None else set(lens)
         self.seeds_seen = None
+        self.index_version = "ix1"
 
     def in_lens(self, pid):
         return pid in self._lens
@@ -193,29 +194,41 @@ def test_a_passage_with_no_author_or_work_is_dropped_before_the_cap_and_takes_no
     assert _ids(shelf, po.search_passages(shelf, "q", [], po.Budget())) == [3, 4, 5, 7]
 
 
-def test_the_records_in_the_offer_count_toward_the_cap():
-    shelf = _row_ranking(["r.aug.cdg", "r.aug.conf", "r.aug.ep", "r.cyp.ep", "r.opt"])
-    held = [("augustine", ("augustine", "city of god"))]
-    assert _ids(shelf, po.search_passages(shelf, "q", [], po.Budget(), held=held)) == [1, 2, 4, 5]
+def test_records_in_the_offer_take_no_passage_slot_and_a_one_author_lens_is_not_starved():
+    shelf = _row_ranking(["r.aug.cdg"] * 8)
+    many_records = [{"id": f"w.quote.{n}"} for n in range(8)]
+    request = po.SearchRequest(shelf=shelf, query="q", seeds=(), budget=po.Budget())
+    offered = [c for c in po.offer_contents(many_records, [], request) if c.get("record_type") == po.PASSAGE_TYPE]
+    assert len(offered) == 6
 
 
-def test_a_record_is_counted_by_the_shelf_row_its_source_names():
+def test_a_reviewed_seed_of_an_author_the_records_hold_stays_first():
+    shelf = _row_ranking(["r.aug.cdg", "r.cyp.ep", "r.opt", "r.aug.conf"])
+    request = po.SearchRequest(shelf=shelf, query="q", seeds=(_seed(shelf, 1),), budget=po.Budget())
+    offered = [c for c in po.offer_contents([{"id": f"w.quote.aug{n}"} for n in range(5)], [], request) if c.get("record_type") == po.PASSAGE_TYPE]
+    assert offered[0]["passage"]["voiceable"] is True and offered[0]["passage"]["passage_id"] == shelf._passages[1]["passage_id"]
+
+
+def test_the_cap_counts_a_passage_under_the_author_and_work_it_is_cited_as():
+    shelf = _row_ranking(["r.anon", "r.anon", "r.anon", "r.anon", "r.cyp.ep"])
+    seeds = [_seed(shelf, n, author_name="Optatus", work="Against Parmenian", rank=n) for n in (1, 2, 3, 4)]
+    found = po.search_passages(shelf, "q", seeds, po.Budget())
+    assert _ids(shelf, found) == [1, 2, 3, 5]
+    assert po.passage_keys(found[0]) == ("optatus", ("optatus", "against parmenian"))
+
+
+def test_seeds_count_only_when_the_offer_file_matches_the_shelf_index():
     shelf = _shelf(["r.aug.cdg"])
-    repository = {
-        "w.quote.a": {"id": "w.quote.a", "record_type": "quote", "sources": [{"source_id": "w.source.cdg"}]},
-        "w.source.cdg": {"id": "w.source.cdg", "record_type": "source", "shelf_row": "r.aug.cdg"},
-        "w.term.x": {"id": "w.term.x", "record_type": "term", "sources": [{"source_id": "w.source.none"}]},
-        "w.source.none": {"id": "w.source.none", "record_type": "source"},
-    }
-    assert po.record_keys("w.quote.a", repository, shelf) == ("augustine", ("augustine", "city of god"))
-    assert po.record_keys("w.source.cdg", repository, shelf) == ("augustine", ("augustine", "city of god"))
-    assert po.record_keys("w.term.x", repository, shelf) is None
-    assert po.record_keys("w.missing", repository, shelf) is None
+    offer = {"index_version": "ix1", "subquestions": {"C1.S1": [_seed(shelf, 1)]}}
+    assert len(po.seeds_on_shelf(offer, shelf, "C1.S1")) == 1
+    assert po.seeds_on_shelf({**offer, "index_version": "ix0"}, shelf, "C1.S1") == []
+    assert po.seeds_on_shelf({**offer, "index_version": None}, shelf, "C1.S1") == []
+    assert po.seeds_on_shelf(None, shelf, "C1.S1") == []
 
 
 def test_diversify_keeps_rank_order_and_only_cuts():
-    items = [{"author_key": a, "work_key": (a, w)} for a, w in [("x", "1"), ("x", "2"), ("y", "1"), ("x", "3"), ("x", "4"), ("z", "1")]]
-    kept = po.diversify(items, po.Budget())
+    items = [(a, (a, w)) for a, w in [("x", "1"), ("x", "2"), ("y", "1"), ("x", "3"), ("x", "4"), ("z", "1")]]
+    kept = po.diversify(items, 6, lambda item: item)
     assert kept == [items[0], items[1], items[2], items[3], items[5]]
 
 
@@ -261,7 +274,7 @@ SPREAD_REPOSITORY = {
 }
 
 
-def test_the_record_spread_stays_with_search_off_and_gives_way_to_rank_order_with_search_on():
+def test_the_record_spread_stays_with_search_off_and_the_capped_rule_fills_floors_with_search_on():
     entry = {**COVERAGE["C-E"], "quotes": ["w.quote.i1", "w.quote.i2", "w.quote.p1"]}
     kwargs = dict(cell="C-E", coverage_entry=entry, repository_records=SPREAD_REPOSITORY, message="jesus meal one two", asks=None)
     spread = [c["id"] for c in select_cell_candidates(**kwargs) if c["record_type"] == "quote"]
@@ -269,3 +282,14 @@ def test_the_record_spread_stays_with_search_off_and_gives_way_to_rank_order_wit
     assert [c["id"] for c in select_cell_candidates(**kwargs, source_spread=True) if c["record_type"] == "quote"] == spread
     assert "w.quote.p1" in spread and len(set(spread)) == len(spread)
     assert set(ranked) == {"w.quote.i1", "w.quote.i2"} and "w.quote.p1" not in ranked
+
+
+def test_a_record_floor_is_cut_by_the_same_caps():
+    from engine.m4.evidence import _capped_take
+    repo = {f"w.q.{n}": {"id": f"w.q.{n}", "speaker_or_author": "ignatius", "sources": [{"source_id": "w.source.eph"}]} for n in range(4)}
+    repo["w.q.p"] = {"id": "w.q.p", "speaker_or_author": "pliny", "sources": [{"source_id": "w.source.ep"}]}
+    repo["w.q.j"] = {"id": "w.q.j", "speaker_or_author": "justin", "sources": [{"source_id": "w.source.apol"}]}
+    scored = [(f"w.q.{n}", 1.0 - n / 10) for n in range(4)] + [("w.q.p", 0.5), ("w.q.j", 0.4)]
+    assert [r for r, _ in _capped_take(scored, repo, 4)] == ["w.q.0", "w.q.1", "w.q.p", "w.q.j"]
+    only_one = {k: v for k, v in repo.items() if k.startswith("w.q.") and k[-1].isdigit()}
+    assert [r for r, _ in _capped_take(scored[:4], only_one, 3)] == ["w.q.0", "w.q.1", "w.q.2"]

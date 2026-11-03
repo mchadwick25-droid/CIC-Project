@@ -1,7 +1,7 @@
 """A world's searchable shelf for the passage offer: the built index, the world's corpus-map rows and the world's saved
 vectors, each loaded from a path or value the caller gives. Nothing here names a location.
 
-The shelf is what engine.m4.passage_offer.search_passages reads. It answers only for passages in the world's lens
+The shelf is what engine.m4.passage_offer.search_passages reads; its index_version is what a seed file must match. It answers only for passages in the world's lens
 (search.lens): a passage outside the lens has no internal id here, no ranking place and no text.
 
   shelf = load(world, db_path=..., rows=rows_by_file(corpus_map_rows), vectors_root=..., embedder=..., reranker=...)
@@ -42,6 +42,11 @@ class Shelf:
         self._lens = frozenset(search.lens)
         self._by_row_id = {r["row_id"]: r for file_rows in rows.values() for r in file_rows if r.get("row_id")}
         self._passages: dict[int, dict] = {}
+        connection = sqlite3.connect(search.db_path)
+        try:
+            self.index_version = connection.execute("SELECT value FROM meta WHERE key = 'version'").fetchone()[0]
+        finally:
+            connection.close()
 
     def in_lens(self, pid: int) -> bool:
         return pid in self._lens

@@ -592,7 +592,7 @@ def prepare_voice_turn_inputs(
     search_config = world.frame.get("passage_search")
     passage_search = passage_offer.SearchRequest(
         shelf=search_config["shelf"], query=participant_message,
-        seeds=tuple(passage_offer.seeds_for(passage_config["offer"] if passage_config else None, sub_question)),
+        seeds=tuple(passage_offer.seeds_on_shelf(passage_config["offer"] if passage_config else None, search_config["shelf"], sub_question)),
         budget=search_config.get("budget") or passage_offer.Budget(), sub_question=sub_question,
     ) if search_config else None
     offered_passages = passage_offer.select(passage_config["offer"], sub_question, passage_config["budget"]) if passage_config and sub_question and not passage_search else []

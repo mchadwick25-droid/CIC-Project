@@ -16,8 +16,8 @@ the world's own voice is offered etic, outside the voice.
 With search on (a world frame's `passage_search`, a SearchRequest per turn), the passages
 come from search_passages instead: any passage on the world's shelf inside its lens, found
 by the visitor's own words, with the sub-question's reviewed seeds as rank help only. One
-diversity rule (diversify) then covers the records and the passages together, and the
-budget is applied last. With search off, the offer is the seed file's alone.
+diversity rule (diversify) cuts the passages before the budget, which is applied last, and
+fills each record floor (engine.m4.evidence). With search off, the offer is the seed file's alone.
 
 Shadow only: no registered frame sets `passage_offer` or `passage_search`. No model call.
 """
@@ -26,7 +26,7 @@ import math
 from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Iterable, Mapping, Sequence
+from typing import Callable, Iterable, Sequence
 
 from engine.m4 import subquestion_routing
 from engine.m4.reports.passage_offer_build import _date_text, _name, _set, tag_for
@@ -133,29 +133,33 @@ class SearchRequest:
     sub_question: str | None = None
 
 
-def offer_contents(records: list[dict], passages: list[dict], search: SearchRequest | None = None,
-                   repository_records: Mapping[str, dict] | None = None) -> list[dict]:
+def offer_contents(records: list[dict], passages: list[dict], search: SearchRequest | None = None) -> list[dict]:
     """What the offer holds: the records and the passages interleaved by rank. This is the one place that decides the offer's contents.
 
     With search off, the passages are the ones given. With search on, the given passages are not used: the passages are
-    search_passages' over the world's lens, and the records already in the offer count toward its diversity caps."""
+    search_passages' over the world's lens."""
     if search is None:
         return interleave(records, passages)
-    held = [k for r in records if (k := record_keys(r["id"], repository_records or {}, search.shelf))]
-    found = search_passages(search.shelf, search.query, search.seeds, search.budget, held=held)
+    found = search_passages(search.shelf, search.query, search.seeds, search.budget)
     return interleave(records, candidates(found, search.sub_question))
 
 
-def search_passages(world, query: str, seeds: Sequence[dict], budget: Budget, *,
-                    held: Iterable[tuple] = ()) -> list[dict]:
+def seeds_on_shelf(offer: dict | None, shelf, sub_question: str | None) -> list[dict]:
+    """The sub-question's reviewed seeds, only when the offer file was built against the same index as the shelf, since a
+    seed's voiceable flag was set from that index's row roles and speaker marks; none otherwise."""
+    if not offer or offer.get("index_version") is None or offer.get("index_version") != getattr(shelf, "index_version", None):
+        return []
+    return seeds_for(offer, sub_question)
+
+
+def search_passages(world, query: str, seeds: Sequence[dict], budget: Budget) -> list[dict]:
     """The passages the offer holds for a query: ranked inside the world's lens, each a passage of the offer's shape, cut by
     the diversity rule and then by the budget.
 
-    `world` is the world's shelf (Sandbox/answering-library/search/shelf.py): in_lens, internal_id, ranked, passage, row.
+    `world` is the world's shelf (Sandbox/answering-library/search/shelf.py): in_lens, internal_id, ranked, passage.
     A passage is taken only when the shelf says it is in the lens. A seed is rank help: it reaches the ranking only when
     it resolves to a lens passage with the same byte span, and it gives that passage its reviewed flags. A passage with
-    no seed is outside the voice. A passage with no named author or work is never offered. `held` is the author and
-    work keys of the records already in the offer."""
+    no seed is outside the voice. A passage with no named author or work is never offered."""
     by_internal: dict[int, dict] = {}
     for seed in ranked(list(seeds)):
         pid = world.internal_id(seed["passage_id"], seed.get("byte_start"), seed.get("byte_end"))
@@ -171,15 +175,13 @@ def search_passages(world, query: str, seeds: Sequence[dict], budget: Budget, *,
             continue
         seen.add(passage["passage_id"])
         found.append(passage)
-    return within_budget(diversify(found, budget, held), budget)
+    return within_budget(diversify(found, budget.max_passages, passage_keys), budget)
 
 
-def _row_keys(row: dict | None) -> tuple:
-    """The author key and work key of a corpus-map row: its author, and its author with its work title."""
-    if not row:
-        return (None, None)
-    author = (_set(row.get("author")) or "").casefold() or None
-    work = (_set(row.get("work")) or "").casefold() or None
+def passage_keys(passage: dict) -> tuple:
+    """The author and work a passage is cited under, as the diversity rule counts them."""
+    author = (passage.get("author_name") or "").casefold() or None
+    work = (passage.get("work") or "").casefold() or None
     return (author, (author, work) if work else None)
 
 
@@ -187,7 +189,6 @@ def _offered(world: str, indexed: dict, seed: dict | None) -> dict:
     """A shelf passage in the offer's shape. Author, work, role and date come from the corpus-map row it is bound to; a
     reviewed seed's own values come first where it sets them, and only a seed can make a passage voiceable."""
     row = indexed.get("row") or {}
-    author_key, work_key = _row_keys(row)
     passage = {
         "tag": tag_for(world, indexed["passage_id"]), "passage_id": indexed["passage_id"], "file": indexed["file"],
         "text": indexed["text"], "word_count": indexed["word_count"],
@@ -196,26 +197,12 @@ def _offered(world: str, indexed: dict, seed: dict | None) -> dict:
         "role": row.get("role"), "work": _set(row.get("work")), "author_name": _name(_set(row.get("author"))),
         "date": _date_text(row.get("date")), "window": None, "fit": None, "rank": None, "voiceable": False,
         "byte_start": indexed["byte_start"], "byte_end": indexed["byte_end"],
-        "author_key": author_key, "work_key": work_key,
     }
     if seed is not None:
         passage.update({k: seed[k] for k in ("work", "author_name", "date", "role") if seed.get(k)})
         passage.update({"window": seed.get("window"), "fit": seed.get("fit"), "rank": seed.get("rank"),
                         "voiceable": bool(seed.get("voiceable"))})
     return passage
-
-
-def record_keys(record_id: str, repository_records: Mapping[str, dict], shelf) -> tuple | None:
-    """The author key and work key of a record in the offer, read from the corpus-map row its source names (a source
-    record's own `shelf_row`, or the first source's); None when no row is named or the world has no such row."""
-    record = repository_records.get(record_id) or {}
-    source = record if record.get("record_type") == "source" else None
-    if source is None:
-        first = next((s.get("source_id") for s in record.get("sources") or [] if s.get("source_id")), None)
-        source = repository_records.get(first) if first else None
-    row = shelf.row((source or {}).get("shelf_row"))
-    keys = _row_keys(row)
-    return keys if any(keys) else None
 
 
 def _cap(base: int, distinct: int, slots: int) -> int:
@@ -226,27 +213,21 @@ def _cap(base: int, distinct: int, slots: int) -> int:
     return math.ceil(slots / max(distinct, 1))
 
 
-def diversify(passages: list[dict], budget: Budget, held: Iterable[tuple] = ()) -> list[dict]:
-    """The passages in rank order, cut so that, with the records already in the offer (`held`), no more than AUTHOR_CAP
-    come from one author and no more than WORK_CAP from one work. A cap relaxes when the passages hold fewer distinct
-    authors (or works) than the budget's passages need at that cap. A passage whose author or work is not known is not
-    counted against that cap."""
-    authors = [p.get("author_key") for p in passages]
-    works = [p.get("work_key") for p in passages]
-    author_cap = _cap(AUTHOR_CAP, len({a for a in authors if a}), budget.max_passages)
-    work_cap = _cap(WORK_CAP, len({w for w in works if w}), budget.max_passages)
+def diversify(items: list, slots: int, keys: Callable[[object], tuple]) -> list:
+    """The items in rank order, cut so that no more than AUTHOR_CAP come from one author and no more than WORK_CAP from one
+    work, over the `slots` the caller fills. A cap relaxes when the items hold fewer distinct authors (or works) than
+    `slots` needs at that cap. An item whose author or work is not known is not counted against that cap. `keys` gives an
+    item's (author, work). The offer applies it to its passages and to each record floor."""
+    pairs = [keys(item) for item in items]
+    author_cap = _cap(AUTHOR_CAP, len({a for a, _ in pairs if a}), slots)
+    work_cap = _cap(WORK_CAP, len({w for _, w in pairs if w}), slots)
     by_author: Counter = Counter()
     by_work: Counter = Counter()
-    for author, work in held:
-        if author:
-            by_author[author] += 1
-        if work:
-            by_work[work] += 1
-    kept: list[dict] = []
-    for passage, author, work in zip(passages, authors, works):
+    kept: list = []
+    for item, (author, work) in zip(items, pairs):
         if (author and by_author[author] >= author_cap) or (work and by_work[work] >= work_cap):
             continue
-        kept.append(passage)
+        kept.append(item)
         if author:
             by_author[author] += 1
         if work:
