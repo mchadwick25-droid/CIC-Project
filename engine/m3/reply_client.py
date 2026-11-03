@@ -59,13 +59,17 @@ class _ToolResponse:
 _OFFERED = re.compile(r"^- \[\[([^\]]+)\]\]", re.MULTILINE)
 
 
+def ids_in(text: str) -> list[str]:
+    """The record ids a block of text offers, one per `- [[id]]` line, in order, without repeats."""
+    return list(dict.fromkeys(re.sub(r"^(?:quote|story):", "", found) for found in _OFFERED.findall(text)))
+
+
 def offered_ids(request: dict) -> list[str]:
     """The record ids a voice request's ground block offers the voice: one
     list entry per `- [[id]]` line of its messages, in order, without repeats."""
     if request["kind"] != "voice":
         return []
-    text = "\n".join(m["text"] for m in request["messages"])
-    return list(dict.fromkeys(re.sub(r"^(?:quote|story):", "", found) for found in _OFFERED.findall(text)))
+    return ids_in("\n".join(m["text"] for m in request["messages"]))
 
 
 class ReplyFileClient:

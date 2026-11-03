@@ -41,7 +41,9 @@ Seeded = the question's reader-named sub-question had passages offered in arm C.
 
 ## Noise floor
 
-In alx and syr, arms B and C had the same offer (no passages), so their difference is helper noise: answers "yes" 15 against 20 in alx, 17 against 18 in syr. In the unseeded questions of lpc it was 15 against 12, and in rzg 10 against 10. The helper-to-helper spread is about five questions on "yes", larger than any difference the offer could be shown to make on nine seeded questions.
+In alx and syr, arms B and C had the same offer (no passages), so their difference is helper noise: answers "yes" 15 against 20 in alx, 17 against 18 in syr. In the unseeded questions of lpc it was 15 against 12, and in rzg 10 against 10. On net counts the spread is about five questions on "yes", so a move of three on one count is inside the noise.
+
+Per question the noise is larger. With identical inputs, the alx ratings of B and C differ on the answers-the-question label for 8 of 28 questions, on depth for 11 and on accuracy for 14; syr differs on 7, 10 and 9. No single-question rating is used as evidence.
 
 ## What happened to the offered passages
 
@@ -49,14 +51,21 @@ lpc: 9 passages offered over the 5 seeded questions; the helpers' drafts bound n
 
 ## Success rule, per world (set before the run)
 
-- lpc: not met. On the 5 seeded questions C answers "yes" in 3 against B's 4; accuracy tier 2 is 1 for C against 0 for B; depth is mixed (2 rich, 1 flat). The unseeded stratum moved by more than helper noise should allow (yes 15 to 12).
+- lpc: the passage offer was not tested. The helpers' drafts bound none of the 9 offered passages, and five seeded questions are under any floor that could show an effect. The unseeded stratum moved from 15 to 12 on "yes", which is inside the helper noise.
 - rzg: too few to read (4 seeded questions, under the floor of 5).
 - alx, syr: no passage was offered; no test of the offer. They are the controls and show the noise floor above.
-- Across all four worlds the old engine (A) still answers the question and carries depth better than either new arm: "yes" 18 to 26 of 28 against 11 to 20, rich depth 10 to 20 against 1 to 4. Accuracy is better in the new arms: tier 1 is 0 in B and C against 3 in A (lpc 2, rzg 1), tier 2 similar.
+- Depth: the old engine (A) carries more in every world, rich 10 to 20 against 1 to 4 in the new arms. The writer differs (a live model for A, helpers for B and C), so this shows direction, not size.
+- Answers the question: "yes" is 18 to 26 of 28 for A against 11 to 20 for B and C. In lpc, B scored 19 against A's 18, so the old engine does not lead there.
+- Accuracy is mixed. Tier 1 is 0 in B and C against 3 in A (lpc 2, rzg 1). Tier 2 summed over the four worlds is 15 for A, 21 for B and 20 for C. The baseline run the day before gave 1 tier 2 answer across the four worlds for a nearly identical engine, so most of the tier 2 swing is the reader, and one-reader accuracy ratings cannot be compared between runs.
 
 ## Limits (read before using the numbers)
 
 - One run per world, one Opus reader per world (the alx and syr readers finished in about 90 seconds with 7 to 8 tool calls, so their accuracy checks were light), helper-written drafts, reads and rewrites; the old engine's writer differs, which confounds voice, plainness and depth most.
 - Several helpers were stopped by an API safeguard and redid their work; some drafted from part of their ground; one lpc draft omitted material (see `helper_notes.md`). One lpc arm-B draft (q013) was written from the arm-C answer. One re-read list was run by two helpers.
-- Only 9 of 112 questions across the two seeded worlds had a passage offered, and the lens rule offers nothing in alx and syr until their shelf rows are narrowed. The re-test therefore measures how the engine meets an unorganised shelf more than it measures the passage offer.
+- Only 9 of 56 questions across the two seeded worlds had a passage offered, and the lens rule offers nothing in alx and syr until their shelf rows are narrowed. The re-test therefore measures how the engine meets an unorganised shelf more than it measures the passage offer.
 - The fitting-record-in-the-offer column promised in `Frozen.md` was not run; not done.
+- In lpc the passages sat last in each offer (positions 12 to 14 of 13 to 15 entries), and several helpers read only part of their ground, so they never saw them.
+
+## Corrections, 2026-11-03
+
+An independent Opus read re-counted every table from the raw rating files; the tables are exact. These statements in the first version were wrong or overstated and are corrected above: "lpc: not met" (read as "passages do not help"; the offer was not tested); "tier 2 similar" (15, 21, 20); "the old engine still answers better in every world" (lpc "yes" 19 for B against 18 for A); "more than helper noise" for the 15 to 12 move; and the noise floor, which holds for net counts and not for single questions. The retrieval relevance measure in `relevance-measure/` (18 of 159 passages rated "yes") used keyword search only, removed the known-good passages, kept the top 3 and showed raters the first 170 words of each passage; it is a floor for the weakest search and not a verdict on search.

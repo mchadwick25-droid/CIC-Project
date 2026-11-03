@@ -844,3 +844,27 @@ Mark, 2026-11-02, choice box, relayed by the coordination thread: "Name author a
 - The rule: when the voice quotes or closely paraphrases a passage it says whose words they are and which work; otherwise it speaks as "we". Cities and bishops may be named when the passage or the visitor's question does.
 - The passage offer's line already tells the voice to say "[author], in [work], writes" for a passage, which matches this ruling.
 - The change to lpc's voice configuration and permanent prompt waits for the Library thread, after the cross-world re-test.
+
+## 66. The paid test cp10-writer-vs-design-alx is stopped at $0.286 (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: after seeing the three live drafts for alx q001 to q003 beside the helper-written arm B drafts and the old engine's saved answers, stop the paid test and plan a design-faithful build.
+
+- Spent: $0.286 of the $2 cap, from the run output. Nine calls (six safety and reader checks on the gate model, three drafts on the voice model), us-east-1, ledger of 18 lines (one hold and one settle per call). The read, rewrite and re-read steps were not run. Nothing more is run under this live-test name.
+- Why it stopped: the run still carried the stacked directive patches of Decision-Log 63 and 64 (the Stage 4 baseline was not restored) and offered no passages on alx, so it could not test the designed path.
+- Next: a plan for the design-faithful build, set out for Mark's review as an Artifact. No code is changed and no build is started until he approves it.
+
+## 67. Steps 0 to 2 of the design-faithful build plan (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: go on steps 0, 1 and 2 of the plan; the search build, and any step past 2, and the revert of Decision-Log 63 and 64, wait for his decisions.
+
+- Step 0: the CP.9 README is corrected in place, with a "Corrections" section. Wrong or overstated: "lpc: not met" (the offer was not tested), "tier 2 similar" (15, 21, 20), the old engine leading "in every world" (lpc "yes" 19 for B against 18 for A), "more than helper noise" for 15 to 12, and the noise floor for single questions. The tables are unchanged; they match the raw files.
+- Step 1: the coverage ceiling counts, the volumes behind the 101 blocked alx and syr seeds, and the check of the three index keys are in `Design-Faithful-Build_2026-11-03/Step1_Coverage_Ceiling.md`. Of the three index keys, only work-and-locus is filled, and its value is file plus division. The sub-question and scripture-reference keys are named and never filled, and nothing in the engine reads the index at question time. No embedder implementation exists.
+- Step 2: the harness checks and the order of passages in the offer are in `Design-Faithful-Build_2026-11-03/Step2_Harness_Fix.md`.
+
+## 68. Direction: stored, reviewed answers served on a match (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread, in his words: "i think ultimatly we could have pre-generated answers that are just called on when matched, no answer generation, then when its not a match we generate" (he wrote "a question", meaning an answer).
+
+- Direction only. It is not built and not scheduled. It is not a choice among the three ways to decide "no match" (before drafting on a missing or partial record; after drafting on the answers check; never, always offer both); Mark has not chosen one.
+- Proposal section 9 already holds the two cost tiers that stored answers would grow from: reviewed openings (tier 1, served verbatim on a first turn after two checks agree) and pre-verified bundles (tier 2, stored evidence the voice composes from each time).
+- The search build does not depend on this. The step before drafting that decides what the offer holds is a single seam, so records-first, partial-fit search or a stored-answer match can be added later. Until Mark decides, the offer keeps the behaviour it has: records and passages together.
