@@ -1214,3 +1214,17 @@ Updated: `gallic.source.cassian-de-incarnatione` now has `kind: vendored`, an `e
 Stays open: the text is still unread at any locus in this build, so `verification_state` stays `named-not-rechecked` and no record may quote it until a passage is read and verified. The records that say the books are unread (`gallic.dw.the-christ-who-bears-the-wounds`, `gallic.dw.one-person-two-substances`, `gallic.limit.no-one-who-saw-him`, `gallic.term.theotocos`, the quote note) stay true and are not edited here. The 137 findings of `integrity open items` are the same before and after this change.
 
 Status: CLOSED for OG-48 (the source record). OPEN: reading the work, which would let those records say more.
+
+### OG-50. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+The `rendering-review` gate found 110 gallic renderings with no named Opus review file. Four independent Opus reviewers read all 110 against each record's `text` and against the edition text in `cic/texts/` at its locus. Round 1 failed six. Five were re-rendered by Opus and rechecked by a second independent Opus reader. The sixth (`postumianus-you-have-conquered-all-the-eremites`) was found to need no change: its text begins at the edition's second "you have conquered". One rendering (`the-psalm-that-answered-defensor`) needed a third round and passed it, within the three-round cap. The per-record log is `Review-Artifacts/Rendering_Review_Log_110_2026-11-03.md`. The `m1:rendering-review/gallic` waiver is removed; the gate reports 0 for gallic (110 → 0).
+
+Also corrected: `benjamin-relied-on-his-own-judgment` named John Cassian as the speaker. The words are Abbot Moses's, in the Second Conference of Abbot Moses (npnf211 line 27133), as the record's own `use_note.not_for` already said. Its `speaker_or_author`, `divergence_note`, locus label and lens note now name Abbot Moses.
+
+Open, found by the reviewers and not changed here (they belong to the line-span work, RD7):
+- Loci one line off: `gennadius-grace-invites-precedes-and-helps` starts at 43693, not 43695; `humility-mistress-of-virtues-not-exorcism` ends at 39905, not 39904; `martin-exorcism-without-touch-or-reproach` starts at 4899, not 4900.
+- `honoratus-presiding-over-a-monastery` gives no file lines; its text is at npnf211 lines 36724-36725.
+- `salvian-on-the-unburied-dead`'s locus reads "file lines 8242-8261"; its text runs over lines 8241-8259.
+- Case only, at a cut: `germanus-and-chaeremon-on-the-husbandman` ("Neither" where the edition has "For neither" after the elision), `the-fathers-and-the-angels-twelve` ("One" for "one") and `castor-anxious-for-egyptian-institutions` ("Since" for "since").
+
+Status: CLOSED for the renderings. OPEN for the loci and case items above, which RD7 takes.
