@@ -488,9 +488,11 @@ def _clean_source(source_raw: str, source_is_xml: bool) -> str:
     return strip_apparatus(source_full)
 
 
-def verify_quote_text(
-    quote_text: str, source_raw: str, *, source_is_xml: bool, apply_letterform_normalization: bool = True
-) -> VerifyResult:
+@lru_cache(maxsize=2)
+def _prepared_source(source_raw: str, source_is_xml: bool, apply_letterform_normalization: bool):
+    """The cleaned source, its letterform-normalized form and the offset map
+    back to the cleaned form: the same for every quote checked against one
+    source, so computed once per source rather than once per quote."""
     source_full = _clean_source(source_raw, source_is_xml)
     # Kept alongside the normalized text (never reassigned below) so a
     # letterform class can be credited from the RAW span a match actually
@@ -506,6 +508,15 @@ def verify_quote_text(
         # simply never find a letterform class to credit, because neither
         # side of the comparison was normalized.
         source_offset_map = range(len(source_full))
+    return source_full, source_raw_for_letterforms, source_offset_map
+
+
+def verify_quote_text(
+    quote_text: str, source_raw: str, *, source_is_xml: bool, apply_letterform_normalization: bool = True
+) -> VerifyResult:
+    source_full, source_raw_for_letterforms, source_offset_map = _prepared_source(
+        source_raw, source_is_xml, apply_letterform_normalization
+    )
     quote_raw_for_letterforms = quote_text
     if apply_letterform_normalization:
         quote_text, _ = normalize_archaic_letterforms(quote_text)
