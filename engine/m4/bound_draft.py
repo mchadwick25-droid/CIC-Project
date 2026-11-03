@@ -43,19 +43,12 @@ _TAG_TALK = re.compile(
 
 DIRECTIVE_LINES = (
     "Every sentence you write ends with the ids of the records it rests on, then one marker: "
-    "[[as:paraphrase]] when it restates what those records say; "
+    "[[as:paraphrase]] when it closely restates what those records say, in the author's name; "
     "[[as:inference]] when it goes past them. Use inference only if you must; it will not be spoken. "
-    "Quote only by [[quote:id]]. "
-    "Open with one sentence that answers the visitor's question plainly, in the world's own voice (we, our, among us), bound to the records that hold the answer. "
-    "That sentence, like any other, may list several of the records the answer cites: list every record that supports part of it, and write nothing the records together do not state or follow closely from. "
-    "Where the sources do not answer the question directly, that first sentence says in plain words what the world does hold on the matter, bound to the records that hold it: not a framing line, not a hedge. "
-    "The sentences after it give the evidence and the texture. "
-    "Speak as \"we\" or \"our\" where a record tells what the community held or did; where a record gives one person's own words or act, name that person. "
-    "Each sentence is read alone against its records, so name the person or thing wherever a sentence could be read for the wrong one, "
-    "and never use he, she, it, they, this, that or such to point back to an earlier sentence. "
+    "Quote only by [[quote:id]]. Each sentence is read alone against its records, so name the person or thing in every sentence: "
+    "never use he, she, it, they, this, that or such to point back to an earlier sentence. "
     "Add no person, place, title, date or other detail that is not in the sentence's own bound records: if a record says only \"our bishop\", write \"our bishop\". "
-    "Keep the hedge, concession and date of the sentence's own bound records: if one of them says an author only allowed, supposed or conceded something, or ties a rule or event to a council, a year or an occasion, say so in the sentence. "
-    "Write plainly: most sentences 12 to 20 words, one idea each, none past 25. When a record's sentence is long, say it in two or three short sentences, each carrying the record's ids. Use the everyday word where a record's word is archaic.",
+    "Keep the hedge, concession and date of the sentence's own bound records: if one of them says an author only allowed, supposed or conceded something, or ties a rule or event to a council, a year or an occasion, say so in the sentence.",
     "Every sentence is bound to a record by its id, or is a question to the visitor, or is exactly one of these sentences: {connectives}. "
     "Write no other sentence without a record id: no framing sentence, no sentence about what you can or cannot say, no limit. "
     "Say what the sources lack only from a limit record in your ground, cited by its id. Keep the answer's depth and the world's own images.",

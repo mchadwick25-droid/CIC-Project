@@ -12,13 +12,13 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: The memorable three-word form this saying is known by is a feature of the Latin transmission,
-    not of this text. Quoting the triad as Arsenius' own words would be quoting the tradition's compression
-    of him.
+  divergence_note: The three-word form this saying is known by, Greek φεῦγε, σιώπα, ἡσύχαζε and Latin fuge,
+    tace, quiesce, is the form later writers give, not the form of this text. Quoting the triad alone as
+    Arsenius' own words would put their wording in place of the text quoted here.
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: §2, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, lines 56-56) - Budge's Syriac
-    recension; the Latin tradition renders the triad as fuge, tace, quiesce
+    recension; later writers give the triad as φεῦγε, σιώπα, ἡσύχαζε and fuge, tace, quiesce
   license: public-domain
 text: Arsenius, flee, keep silence, and lead a life of silent contemplation, for these are the fundamental
   causes which prevent a man from committing sin.
@@ -44,7 +44,7 @@ relations:
 use_note:
   means: "In Budge's Syriac Sayings, a voice tells Arsenius to flee, keep silence, and live in silent contemplation, as the causes that keep a man from sin."
   not_for:
-    - "the Latin triad fuge, tace, quiesce as Arsenius's own words or as this text's wording"
+    - "the Greek or Latin triad (φεῦγε, σιώπα, ἡσύχαζε; fuge, tace, quiesce) as Arsenius's own words or as this text's wording"
     - "fleeing as anxious avoidance rather than a chosen discipline"
     - "the separate first saying, to flee from men, which stands at §1 and is not quoted here"
     - "the saying as securely datable to Arsenius rather than transmitted in a collection compiled after 430"
@@ -53,4 +53,4 @@ use_note:
 ---
 The text is §2 of Budge's Syriac Sayings, at cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, line 56. These are the voice's words only. The framing that precedes them ("And when Arsenius was living the ascetic life in the monastery, he prayed to God the same prayer, and again he heard a voice saying unto him") is not quoted.
 
-§1, the voice telling Arsenius to flee from men, is a separate saying at line 54 and is not joined to this one. The Latin systematic collection (Verba Seniorum), which carries the three-word form fuge, tace, quiesce, is not vendored in this corpus. This record quotes Budge's longer and plainer Syriac wording only.
+§1, the voice telling Arsenius to flee from men, is a separate saying at line 54 and is not joined to this one. Neither the Greek nor the Latin collection of the sayings is vendored in this corpus. The three-word form appears here only in later writers. Peter of Damascus gives it with the same reason clause this text has ("for these are the roots of sinlessness"; cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt, lines 1157-1159). Kallistos and Ignatios Xanthopoulos give it to Arsenius and add "and you will be saved" (same file, lines 49822-49823), as does Nikodemos's Synaxaristes (cic/texts/nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt, lines 16296-16297). Ebedjesu's collection of canons gives it to Arsenius in Mai's Latin translation (cic/texts/mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt, lines 14913-14915); the Latin is Mai's and shows nothing about Ebedjesu's Syriac wording. Thomas à Kempis uses the formula without naming Arsenius (cic/texts/kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt, line 1224). This record quotes Budge's Syriac wording only.

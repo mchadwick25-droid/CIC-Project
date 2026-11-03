@@ -245,15 +245,6 @@ def test_the_rewrite_instruction_keeps_the_hedge_and_date():
     assert "Keep its hedge, concession and date as its bound records give them" in ac.REWRITE_SYSTEM
 
 
-def test_the_rewrite_instruction_allows_the_worlds_voice_and_keeps_the_pronoun_rule():
-    assert 'Speak as "we" or "our"' in ac.REWRITE_SYSTEM
-    assert "never use he, she, it, they, this, that or such to point back to an earlier sentence" in ac.REWRITE_SYSTEM
-
-
-def test_the_rewrite_instruction_keeps_every_record_id_a_sentence_lists():
-    assert "Keep every record id a kept sentence lists" in ac.REWRITE_SYSTEM
-
-
 def test_the_whole_answer_verdict_is_read_from_the_same_reply_and_changes_nothing_that_ships(records):
     answer = _answer()
     sentences = [{"n": 1, "supported": True, "problem": None, "reason": ""}]

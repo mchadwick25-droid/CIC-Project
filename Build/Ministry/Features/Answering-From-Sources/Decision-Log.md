@@ -901,3 +901,72 @@ Mark, 2026-11-03, choice box: "Keep it, test on answers (Recommended)". The sear
 - The fused keyword-and-meaning search, as section 3 of the proposal specifies, goes into arm C of the held-out measurement. The held-out answers decide whether it helps the visitor's question. No paid embedder is requested.
 - The search build was merged as built with the stop-rule result reported, by the delivery lead's direction; this entry is Mark's confirmation.
 - Specs 1, 2, 4 and 5 are corrected in place and Specs 6 to 8 added (chunk map in `Specs/README.md`): Spec 1 on Opus, with the figure line yielding to names the question or sources give; one diversity rule over records and passages, caps 3 per author and 2 per work; the held-out set at 360 questions by rounding, as approved.
+
+## 73. Decision-Log 63 and 64 reverted; the shared voice and length rules changed (2026-11-03)
+
+Carried out under Decision-Log 69 and 70 and Settled Items 22 to 24 (chunk D2, Spec 1). Nothing new was decided.
+
+- Reverted, as two commits, newest first: 109c9fa3 (Decision-Log 64) and 992dfb91 (Decision-Log 63). The draft directive (`engine/m4/bound_draft.py`) is again the Stage 4 text byte for byte, the hedge-and-date rule included. The rewrite instruction (`engine/m4/answer_check.py`) and the read's criteria (`engine/m4/verify_step.py`) lose the 63 and 64 lines; the later whole-answer verdict and the passage line in the read stay. The 63 and 64 tests are removed. Entries 63 and 64 stay in this log.
+- The fleet pronoun rule (`engine/shape/records/fleet_voice/_fleet.voice.fleet.md`): "we" for the tradition's own perspective, where the voice is not a person; "I" for its own acts in the conversation; people, sees, places, councils, communities, cities and anything else the sources name, named wherever they name them; never claims to be a bishop or any other person; "I am a representative of ..." at most once per turn. Asked why it says "we", the voice answers plainly. The hardening rule against explaining what kind of thing is speaking stays, scoped to go beyond that plain answer, since the deployed check (`engine/m10/deployed.py`, k:self-reference) requires it and is a gate this chunk may not touch.
+- The turn directive (`engine/m4/turn_prep.py`): the length line asks for succinctness and drops "fewest sentences" and the 120 to 220 word range; the limit line says "plainly and succinctly"; the no-new-figure line gives way to a person the visitor's question or the offered sources name.
+- `SHAPE_HASH` is now sha256:b7118e50...7b59. Every live admission report made under the old shape no longer counts as the same shape for `engine/m3/admission_conform`; it reports all 11 admitted worlds stale. It already reported all 11 before this change, since no admitted world had a report under the old shape either. It never fails the suite.
+- Left for the owner of each, not changed here: the output check's pronoun family (`engine/m4/output_check.py`) still reports a first-person "I" outside the naming line as a defect; the table wiring (`engine/api/table_wiring.py`) still says "we-voice" in two lines. The story-length budget `REPLY_WORD_ROOM = 220` (`engine/m4/story_placement.py`) is a word figure left from the old range, to be read against Settled Item 24.
+
+## 74. The voice-rule follow-ups of entry 73 brought into line (2026-11-03)
+
+Delivery lead, 2026-11-03, chunk D2b: the items entry 73 left for their owners contradict the same rulings (Settled Items 22 to 24), so they are changed now. Nothing new was decided.
+
+- The output check's pronoun family (`engine/m4/output_check.py`) no longer reports "I" for the voice's own acts in the conversation. It reports the voice claiming to be a person: a first-person role or name ("I am the bishop", "I was bishop of Antioch", "I am Ignatius", "I, Ignatius"), or memory or witness ("I remember the day", "I saw him", "I was present at Nicaea", "my own eyes"), outside the naming line and outside quoted speech. Remembering or seeing what the visitor said ("I remember you asked") is the voice's own act in the conversation and is not reported. The phrases are a fixed list and not exhaustive; the family only reports.
+- The two Table stance lines (`engine/api/table_wiring.py`) say "we" for the tradition's own perspective, in place of "your own we-voice".
+- Story length (`engine/m4/story_placement.py`): the fixed reply room of 220 words, left from the removed word range, is gone. The story length the voice names in its marker is placed when the record has it; a missing or unknown length is medium, or full when there is no medium.
+- The deployed check's self-reference rules (`engine/m10/deployed.py`): "no explaining what kind of thing is speaking" is replaced by "asked why it says 'we', the voice answers plainly", and the fleet pronoun rule drops the limit kept only for the old stem. `SHAPE_HASH` changes again, to sha256:b5d3c0bf...4ad5; `admission_conform` still reports all 11 admitted worlds stale, as before.
+- The process-narration comments in `engine/m4/turn_prep.py` are rewritten in the present tense; their history is in the Live-Surface-Cleanup decision log (entry D2b).
+
+## 75. V7 direction approved for controlled testing, not as architecture (2026-11-03)
+
+Mark, 2026-11-03, in response to the V7 architecture reassessment (https://claude.ai/artifact/EuKJQj3kEgvS2kDLkQvjC9), relayed through the coordination thread: "Direction approved for controlled testing — not architecture approval." Also: "I agree with the central direction: preserve the current single-generation architecture as the baseline and investigate whether better contextual preparation of the Representative can materially improve first-generation answers."
+
+He authorized seven things:
+1. Continue the outstanding rendering reviews and exact-source-line work.
+2. Establish the current production engine's baseline measurements.
+3. Develop and review reading cards for Alexandria.
+4. Implement B behind a switch, without changing the production path.
+5. Extend the evaluation, adding world embodiment, conversational quality and general-user accessibility to the seven dimensions. The dimensions are never collapsed into one composite score.
+6. Run the controlled, capped evaluation across Alexandria, pahc and syr. Mark chose pahc as the third world, not lpc.
+7. Return with measured results, limitations and a recommendation before any production promotion.
+
+Conditions:
+- "The $30 evaluation cap stands. If the proposed work cannot be completed within that cap, stop and return for approval." Mark later lowered the cap to $12 (below).
+- "Do not proceed with C unless the results demonstrate that B has a meaningful remaining problem that selective correction could address."
+- No wholesale redesign, no expansion of routine model calls, no expensive pre-verified bundles, and no permanent decision about source-library architecture.
+
+Clarifications that bind the test:
+- The Representative connects, explains and interprets across sources. It must never shrink to "a collection of individually supported statements". "Academic rigor does not mean eliminating interpretation. It means making interpretation responsible, contextual, and appropriately qualified."
+- Reading cards keep four things apart:
+  - what the primary source says;
+  - what historians conclude about it;
+  - what it contributes to understanding the world;
+  - what is disputed, uncertain or unrepresentative.
+- Scope is not a hierarchy. An influential author's position is not automatically the community's, and a common practice is not universal agreement. Cards help the Representative reason; they do not impose mechanical citation rules.
+- The richness of the Formation World is "a non-negotiable requirement".
+- Live retrieval of arbitrary passages is deferred. Building a coherent, reviewed knowledge base from a world's full shelf stays fundamental. No permanent decision on source-library reach is made from the current search bench.
+- Human historical review reports actual error counts, severity and uncertainty. "A small sample can identify problems but cannot establish that serious errors have been eliminated."
+- The decision report answers his eight questions, with verified findings, assumptions and hypotheses kept separate.
+
+D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. Cap: $12, Mark 2026-11-03, lowered from $30. Then Mark, relayed by the coordination thread the same day: "we have plenty of test data on the engine that is currently running, use that, then what we need is to compare it to something".
+
+So the arms are set as follows.
+- **A is not re-run.** A is the saved answers of fleet graded run 1 for alx, pahc and syr: the 28 sealed probes per world, 84 answers. That run used `main` at `ddabd865`, whose engine and records are byte-identical to the `live` head c869dd86. Its second-pass Opus reviews and outside-referee reviews are saved for all three worlds.
+- **B is the only paid arm.** It runs on the same probes, through the same harness, on a test branch cut from `live`, with only the B switch added. B repeats on 42 of the probes for a noise floor. A's run-to-run variance on this code is unmeasured. An older engine's three-run band, from 2026-10-02, is reported as an indication.
+- **The named live test** is `v7-b-alx-pahc-syr`, with a $12 ceiling and a 6-turn sample first that the coordination thread checks. The core run is estimated at $3.15 to $5.92.
+- **The optional set.** Up to 15 fresh hard-case questions, needing fresh A and B answers at about $0.80, are an option for Mark. They are not part of the core run.
+- **C** is not in the cap. If B shows a problem that selective correction could address, it goes back to Mark for a new approval.
+
+## 76. The held-out question set is frozen (2026-11-03)
+
+Carried out under Spec 5 (chunk D3). Nothing new was decided. Files: `Design-Faithful-Build_2026-11-03/Heldout/`.
+
+- 360 questions, 20 + round(shelf tokens / 2M) per world: lpc 44, ijc 39, cappadocian 35, alx 34, pahc 30, don 29, rzg 28, syr 27, desert 25, hal 24, witt 23, gallic 22. Hashes in `Heldout/SHA256SUMS`.
+- Written by drafting helpers that saw only the world's name, era, region, a one-paragraph description from its Doc_01, and its shelf's bare work titles and authors. The request files are kept in `Heldout/requests/`; a test checks they hold no sub-question id, record id or source-set path.
+- Overlap check (`Heldout/heldout.py overlap`, report `Heldout/overlap_report.txt`): no question is a near-duplicate of a sub-question wording, the bench questions, the 106 lpc questions or the CP.9 questions by word overlap, or of a sealed probe by hash of normalized text. Eight rounds of rewrites by fresh helpers cleared the flags; the matched wordings were never shown to a helper.
+- Two Opus reviews. The first found shelf lists carrying edition and topic notes, questions that addressed the voice as one named person, and leading or text-hinting questions; the set was redrafted from cleaned requests under tighter rules. The second found four hard defects and some softer ones; the hard ones and the text-hinting ones were rewritten. Left as reviewed: some near-repeat pairs within a world, a few stock questions across worlds, and two worlds one question short of a fifth long (lpc) or short (witt). Any change from here is a change order.

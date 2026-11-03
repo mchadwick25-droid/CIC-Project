@@ -1215,13 +1215,27 @@ Stays open: the text is still unread at any locus in this build, so `verificatio
 
 Status: CLOSED for OG-48 (the source record). OPEN: reading the work, which would let those records say more.
 
-### OG-50. Open tensions removed from the Renatus Construction Notes when their commentary was cleaned, 2026-11-03.
+### OG-50. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+The `rendering-review` gate found 110 gallic renderings with no named Opus review file. Four independent Opus reviewers read all 110 against each record's `text` and against the edition text in `cic/texts/` at its locus. Round 1 failed six. Five were re-rendered by Opus and rechecked by a second independent Opus reader. The sixth (`postumianus-you-have-conquered-all-the-eremites`) was found to need no change: its text begins at the edition's second "you have conquered". One rendering (`the-psalm-that-answered-defensor`) needed a third round and passed it, within the three-round cap. The per-record log is `Review-Artifacts/Rendering_Review_Log_110_2026-11-03.md`. The `m1:rendering-review/gallic` waiver is removed; the gate reports 0 for gallic (110 → 0).
+
+Also corrected: `benjamin-relied-on-his-own-judgment` named John Cassian as the speaker. The words are Abbot Moses's, in the Second Conference of Abbot Moses (npnf211 line 27133), as the record's own `use_note.not_for` already said. Its `speaker_or_author`, `divergence_note`, locus label and lens note now name Abbot Moses.
+
+Open, found by the reviewers and not changed here (they belong to the line-span work, RD7):
+- Loci one line off: `gennadius-grace-invites-precedes-and-helps` starts at 43693, not 43695; `humility-mistress-of-virtues-not-exorcism` ends at 39905, not 39904; `martin-exorcism-without-touch-or-reproach` starts at 4899, not 4900.
+- `honoratus-presiding-over-a-monastery` gives no file lines; its text is at npnf211 lines 36724-36725.
+- `salvian-on-the-unburied-dead`'s locus reads "file lines 8242-8261"; its text runs over lines 8241-8259.
+- Case only, at a cut: `germanus-and-chaeremon-on-the-husbandman` ("Neither" where the edition has "For neither" after the elision), `the-fathers-and-the-angels-twelve` ("One" for "one") and `castor-anxious-for-egyptian-institutions` ("Since" for "since").
+
+Status: CLOSED for the renderings. OPEN for the loci and case items above, which RD7 takes.
+
+### OG-51. Open tensions removed from the Renatus Construction Notes when their commentary was cleaned, 2026-11-03.
 
 Removed from the Escalation check of the Representative Construction Notes (former line 438); the content also stays in Section 3 (thin domain 7) and Section 8 (Judgments 5 and 1): "Two unresolved tensions remain flagged for the project lead or a coach thread, not resolved here: (a) Doc_09's usage guidance, and Doc_07 §7's own hand-off assignment, directing the Representative to narrate edition-level excisions and the sixteenth-century origin of "semi-Pelagian" conflicts with RCF V3.2 Part Two and Part Eight (Section 3, thin domain 7; Section 8, Judgment 5); (b) the single-"we" construction for two houses with no documented traffic sits on the reserved Step 0 question (Section 1; Section 8, Judgment 1)."
 
 Status: OPEN. Owner: the project lead or a coach thread.
 
-Added with OG-50, same date:
+Added with OG-51, same date:
 
 - The Source Registry no longer states the divergence between the Framework V7.4 Step 2 flagging rule ("Confidence C or below... vivid, specific claim") and the Template's discovery-channel rule, which the Registry applies as primary. The older text disclosed it and listed rows 6, 9, 12, 33, 37, 38, 39 and 41 as candidates for review under the Framework's literal rule. The Registry now says the divergence "is not restated in this file". Restoring the disclosure needs a check of those row numbers against the current table. Status: OPEN. Owner: this world's thread.
 - The Renatus Construction Notes say that as of early September 2026 the World Capsule Core had not been built. Compiled packages for this world now exist, so the statement is dated and no longer current; the Phase Five status belongs to `gallic_Phase5_Boundary_Testing_Validation_DRAFT.md`. Status: RESOLVED in fact; the Notes keep the dated sentence.

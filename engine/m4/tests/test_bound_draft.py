@@ -124,18 +124,3 @@ def test_the_short_fallback_stands_when_the_bound_sentence_comes_before_it():
             {"sentence": "Nothing survives.", "decision": "withhold_unbound"}]
     text, fallback = final_text("Macrina founded Annisa. Which do you mean? Nothing survives.", rows)
     assert fallback and text == f"Macrina founded Annisa. Which do you mean? {bd.FALLBACK_ALONE}"
-
-
-def test_the_draft_directive_opens_with_a_plain_answer_in_the_worlds_voice():
-    directive = bd.directive_lines([])[0]
-    assert "Open with one sentence that answers the visitor's question plainly, in the world's own voice" in directive
-    assert "says in plain words what the world does hold" in directive
-    assert 'Speak as "we" or "our"' in directive
-    assert "name the person or thing wherever a sentence could be read for the wrong one" in directive
-    assert "none past 25" in directive
-
-
-def test_the_draft_directive_lets_the_opening_sentence_list_several_records():
-    directive = bd.directive_lines([])[0]
-    assert "may list several of the records the answer cites" in directive
-    assert "nothing the records together do not state or follow closely from" in directive

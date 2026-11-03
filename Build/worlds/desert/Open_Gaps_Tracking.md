@@ -1037,7 +1037,21 @@ Status: locus CLOSED; divergence_note OPEN.
 
 Status: CLOSED for the name and description; the divergence_note citation is OPEN.
 
-### OG-45. Open points removed from desert documents when their commentary was cleaned, 2026-11-03.
+### OG-45. The three-word form of the Arsenius saying, checked against the vendored Greek and Latin, 2026-11-03.
+
+Follows OG-43 ("Arsenius quote cited at the wrong line of Budge", 2026-11-03), whose divergence_note item was left open. The note said the three-word form is "a feature of the Latin transmission", and that quoting it would quote "the tradition's compression of him". The vendored texts show the triad in Greek as well as Latin, but only in later writers. In Greek: Peter of Damascus in the Philokalia (`philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt`, lines 1157-1159), who keeps the same reason clause Budge's text has; Kallistos and Ignatios Xanthopoulos (same file, lines 49822-49823); and Nikodemos's Synaxaristes (`nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt`, lines 16296-16297). In Latin: Ebedjesu's collection of canons, attributed to Arsenius, in Mai's Latin translation (`mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt`, lines 14913-14915; the Latin is Mai's and shows nothing about Ebedjesu's Syriac wording); and Thomas à Kempis, who uses the formula without naming Arsenius (`kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt`, line 1224). So the reason clause is not peculiar to Budge, and "longer and plainer" is dropped from the record's note. Neither the Greek nor the Latin collection of the sayings is vendored. Nothing vendored shows whether the short form or Budge's longer one is earlier, so "compression" claimed more than the sources show. The divergence_note, the locus gloss, the `not_for` line and the body note now say that the three-word form, in Greek and in Latin, is the form later writers give, not the form of this text. An independent Opus review checked each statement against the vendored lines. It found two further witnesses (Peter of Damascus and Ebedjesu), which are now added, and a second Opus read rechecked them.
+
+Status: CLOSED. OG-43's open divergence_note item is closed by this entry.
+
+### OG-46. Origenist-controversy divergence_note cites the vendored witnesses, not Doc_01, 2026-11-03.
+
+Follows OG-44 ("Origenist-controversy force rewritten to the reading level", 2026-11-03), which left the divergence_note's "Doc_01 SS2.3" citation open. The note now cites the vendored witnesses directly. The festal letters against the Anthropomorphites are in Cassian's Conference X.2 (npnf211 lines 35963-35999), now also cited in `sources[]` through `desert.source.cassian-conferences`; the year 399 is the translator's note. The council that condemned Origen's books appears in the NPNF summary of Theophilus's synodal letter, Jerome's Letter XCII (npnf206 from line 19795; the letter itself is not printed there); "at Alexandria" and the year 400 come from the editor's heading. Socrates VI.10 also reports a council Theophilus assembled to condemn Origen's writings, without naming the place (npnf202 lines 17895-17898). The body note no longer points to Doc_01. An independent Opus review checked each citation; it widened the Cassian range, noted that NPNF prints a summary of the letter, not the letter, and added Socrates VI.10. Those corrections are in.
+
+Still open: Jerome's letters other than Letter 22 have no desert source record, so Letter XCII is cited by file and line in the divergence_note, not through `sources[]`. Registering it is Library source work.
+
+Status: CLOSED for the Doc_01 citation; OPEN for registering Jerome's Letter XCII.
+
+### OG-47. Open points removed from desert documents when their commentary was cleaned, 2026-11-03.
 
 Removed from the live documents; the questions stay open here.
 
