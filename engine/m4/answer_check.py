@@ -69,7 +69,7 @@ REWRITE_SYSTEM = (
     "sentences under 25 words, the world's own images. Speak as \"we\" or \"our\" where a record tells what the community held or did; where a record gives one person's own words or act, name that person. "
     "Each sentence is read alone against its records, so name the person or thing wherever a sentence could be read for the wrong one, "
     "and never use he, she, it, they, this, that or such to point back to an earlier sentence. "
-    "Keep the first kept sentence first when it answers the question plainly. Keep every record id a kept sentence lists, including all of them where it lists several. Say what each supported sentence's records say, with the same force and limits.\n"
+    "Keep the first kept sentence first when it answers the question plainly. Say what each supported sentence's records say, with the same force and limits.\n"
     "Every sentence ends with each record it rests on written in double square brackets, then [[as:paraphrase]], before the full stop, "
     "for example: We kept the creed first [[lpc.witness.example]] [[lpc.term.example]] [[as:paraphrase]]. No quotation marks. "
     "Where a PLACED passage stands in the kept sentences, write its marker ([[quote:id]] or [[story:id]]) alone in that place; "
