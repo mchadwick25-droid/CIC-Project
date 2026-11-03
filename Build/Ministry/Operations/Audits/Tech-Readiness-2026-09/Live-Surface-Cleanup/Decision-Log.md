@@ -2260,6 +2260,8 @@ A drafting pass rewrote `don_Rep_Phase1_Ecology_Assessment.md`, `Phase2_Formatio
 
 ### Group B — don construction documents (14 files)
 
+The per-line entries below describe the first text pass. The final wording of Doc_01 line 20, Doc_07 line 27, `don_Phase6_Facilitation_Brief_DRAFT.md` lines 7 and 62, `don_Validation_Layer.md` line 32 and `don_World_Profile.md` line 23 is given in "Corrections after the Opus review of CL5" at the end of this entry; where the two differ, the corrections section is current.
+
 #### Doc_01_World_Identification_Boundaries_Orientation.md
 - L20 (ROUTE): "flagged for the project lead's own weighing at freeze, not resolved here" now reads "left to the project lead's own weighing at freeze". The quoted Blueprint phrase "a note to the external scholarly reviewer" is now a paraphrase "an external scholarly note" (the word "reviewer" tripped the scanner). The "Status: PENDING" field and the "project lead's call at freeze" sentence stay, as the document's own status statement.
 - L27: removed ", 2026-09-07" after Registry row 54 and "now" before "partially vendored".
@@ -2409,8 +2411,8 @@ The open clauses removed or reworded in the don construction documents and the c
 ### Corrections after the Opus review of CL5
 
 - The drafting pass for the don construction documents had removed role-level statements that the project lead directed or decided something, together with the dates, decision-log pointers and names. Those statements are governance facts that other documents rely on (`don_World_Profile.md` line 600, `don_Validation_Layer.md` line 16, and the rzg Doc_07 and World Profile that cite the Donatism ruling). Restored, without dates or entry pointers: `Doc_07` line 27 (put to the project lead directly; "The project lead's direction: build this document on Smart's seven dimensions ..."); `don_World_Profile.md` line 23 ("escalated to and resolved by the project lead directly"; "The project lead's direction: cover all nine ..."); `don_Validation_Layer.md` line 32 (the scope-decision fork, first resolved by build-thread judgment, then escalated to the project lead); `don_Phase6_Facilitation_Brief_DRAFT.md` line 7 (disposed by the project lead; "was not self-disposed"; the project lead's ruling that brief and design both exist).
-- `Doc_01` line 20: "a note addressed to external scholarly review" replaces the first rewording ("an external scholarly note"), which changed what Blueprint V7.3 section 17 provides.
-- `don_Phase6_Facilitation_Brief_DRAFT.md` line 62: "on independent review" replaces the removed "on independent adversarial review".
+- `Doc_01` line 20: the Blueprint V7.3 section 17 quotation reads "a note to the external scholarly …", an exact prefix of the Blueprint's wording with the final word left out because the scanner reads that word as a review-process reference (its generic-reviewer exemption does not cover "external scholarly reviewer"). The first rewording ("an external scholarly note") had changed what the Blueprint provides.
+- `don_Phase6_Facilitation_Brief_DRAFT.md` line 62: "on independent review" replaces the removed "on independent adversarial review", and "— per the project lead's own ruling" is restored.
 - Left as reviewed: `Doc_07` line 27 keeps the Framework quotation shortened to an exact substring that ends at "for every world", with the adoption date outside it; `don_World_Profile.md` line 19 names Doc_07's section 8 as "the closing handoff section" (the real heading, "Open Items and Handoff", carries the scanner's open-item cue); `Source_Registry.md` row 14 still reads "corrected 2026-09-07" in its Added cell.
 
 ### Corrections after the Opus review of the cappadocian files (CL5)
