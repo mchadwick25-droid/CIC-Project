@@ -70,15 +70,15 @@ use_note:
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, the
 treatise's own numbered sec. 67, the paragraph immediately following the
-"unwritten mysteries" catalogue - facing east, standing to pray, the
+"unwritten mysteries" catalog - facing east, standing to pray, the
 threefold immersion - that cappadocian.quote.we-look-to-the-east quotes
 from the same chapter's sec. 66). Double-spacing normalized to single
 spaces; no wording added, dropped, or reordered.
 
-Chosen over the earlier sec. 66 catalogue for THIS cell specifically
+Chosen over the earlier sec. 66 catalog for THIS cell specifically
 because sec. 67 makes the "Bible only authority" argument explicit and
 turns it back on the critics (daring them to find written authority even
-for the baptismal confession itself), while sec. 66's catalogue of
+for the baptismal confession itself), while sec. 66's catalog of
 customs is the stronger match for F4-E (apostolic origin of practices) and
 is quoted there instead - two distinct, genuinely separate excerpts from
 the same chapter, not one quote stretched to cover two cells.

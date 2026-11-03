@@ -61,7 +61,7 @@ each with reasons (Doc_09 §6 items 9-12): his own occasion for writing (Comm. c
 paragraph of self-location, not a narrative with an action" - first-person, datable, and already
 deployed whole in Doc_05 §8 and gallic.term.commonitory-peregrinus; the theft of the second book
 (Gennadius ch. LXV) is "one sentence ... no actor, no scene, no telling," carried in the transmission
-record; his catalogue of heresiarchs is a narrative form, not a story; and his handling of Celestine's
+record; his catalog of heresiarchs is a narrative form, not a story; and his handling of Celestine's
 letter (ch. 32) is "an argument about a letter's meaning, not a narrative of its arrival." Doc_09 §8
 item 5 states the larger absence he belongs to: no Native voice narrates this world's own controversy,
 and Vincent, who came nearest, chose to write a memory-aid on doctrine, not a life. The Representative

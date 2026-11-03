@@ -70,7 +70,7 @@ held_against:
   library's own texts can settle either way.
 - >-
   None of the four secondary works this contest turns on has been read by this build. Strauss, Scribner, and
-  Karant-Nunn are Source Registry rows verified only by a search of published reviews and catalogue records,
+  Karant-Nunn are Source Registry rows verified only by a search of published reviews and catalog records,
   at confidence B, existence and publication details only; Kittelson's article is cited from prior knowledge,
   its citation details independently confirmed but the article's own argument not read
   (Source Registry rows 70-73). The contest is real and rowed, unlike the two Doc_06 [CT] tags this world
