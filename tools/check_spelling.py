@@ -141,11 +141,18 @@ def american(word: str) -> str:
 
 # ------------------------------------------------------------ text scanning
 
+_PARA = r"(?:[^{q}\n]|\n(?!\s*\n))*"  # runs across a wrapped line, never across a blank line
 _QUOTED = re.compile(
-    r"\"[^\"\n]*\"|\u201c[^\u201d\n]*\u201d|\u00ab[^\u00bb\n]*\u00bb|\u2018[^\u2019\n]*\u2019|`[^`\n]*`"
-    # 'single-quoted phrase': an opening quote after a non-word character, a closing one before a non-word
-    # character, so apostrophes inside words (Cyprian's, don't) are never taken for quote marks.
-    r"|(?<!\w)'(?=\S)[^'\n]*?(?<=\S)'(?!\w)"
+    "|".join([
+        '"' + _PARA.format(q='"') + '"',
+        "\u201c" + _PARA.format(q="\u201d") + "\u201d",
+        "\u00ab" + _PARA.format(q="\u00bb") + "\u00bb",
+        "\u2018" + _PARA.format(q="\u2019") + "\u2019",
+        "`" + _PARA.format(q="`") + "`",
+        # 'single-quoted phrase': an opening quote after a non-word character, a closing one before a
+        # non-word character, so apostrophes inside words (Cyprian's, don't) are never taken for quote marks.
+        r"(?<!\w)'(?=\S)(?:[^'\n]|\n(?!\s*\n))*?(?<=\S)'(?!\w)",
+    ])
 )
 _URL = re.compile(r"https?://\S+")
 _PATHLIKE = re.compile(r"\S*[/_]\S*")
@@ -162,33 +169,35 @@ class Finding:
 
 
 def _blank(match: re.Match[str]) -> str:
-    return " " * (match.end() - match.start())
+    """Spaces of the same length, keeping line breaks so offsets stay put."""
+    return re.sub(r"[^\n]", " ", match.group(0))
 
 
 def _find(text: str, markdown: bool = True) -> list[tuple[int, str]]:
     """(offset, word) of each British form in a block of prose. Quoted spans, code,
     blockquotes, URLs and path-like tokens are skipped."""
-    out: list[tuple[int, str]] = []
+    masked: list[str] = []
     in_fence = False
-    pos = 0
     for raw in text.split("\n"):
-        start = pos
-        pos += len(raw) + 1
         stripped = raw.lstrip()
         if markdown:
             if stripped.startswith("```") or stripped.startswith("~~~"):
                 in_fence = not in_fence
+                masked.append(" " * len(raw))
                 continue
             if in_fence or stripped.startswith(">") or raw.startswith("    "):
+                masked.append(" " * len(raw))
                 continue
         line = _URL.sub(_blank, raw)
-        line = _PATHLIKE.sub(_blank, line)
-        line = _QUOTED.sub(_blank, line)
-        for m in _WORD_RE.finditer(line):
-            word = m.group(0)
-            if word.lower() in _LOWER_ONLY and not word.islower():
-                continue
-            out.append((start + m.start(), word))
+        masked.append(_PATHLIKE.sub(_blank, line))
+    body = "\n".join(masked)
+    body = _QUOTED.sub(_blank, body)
+    out: list[tuple[int, str]] = []
+    for m in _WORD_RE.finditer(body):
+        word = m.group(0)
+        if word.lower() in _LOWER_ONLY and not word.islower():
+            continue
+        out.append((m.start(), word))
     return out
 
 

@@ -96,3 +96,15 @@ def test_html_checks_the_text_between_tags_only():
 def test_only_the_enforced_trees_can_fail_a_pull_request():
     assert cs.is_enforced("records/lpc/quote/x.md") == any("records/lpc/quote/x.md".startswith(t) for t in cs.ENFORCED)
     assert not cs.is_enforced("Build/reference/x.md")
+
+
+def test_a_quotation_that_wraps_across_lines_is_skipped_but_not_across_a_blank_line():
+    text = 'Cassian: "fastened within the barriers of the\ncell in some secure harbour" and the harbour here.\n\nA stray " quote\n\nthe labour after a blank line.'
+    assert [f.word for f in cs.scan_text(text)] == ["harbour", "labour"]
+
+
+def test_a_wrapped_quotation_inside_a_record_field_is_skipped():
+    rec = ('---\nid: a.demo.b\nrecord_type: demonstration\nnote: |\n'
+           '  psalms by heart, "fastened within the barriers\n  of the cell in a secure harbour" and the harbour of prayer\n---\n')
+    assert [f.word for f in cs.scan_record(rec, "r.md")] == ["harbour"]
+    assert 'secure harbour" and the harbor of prayer' in cs.fix_record(rec)
