@@ -30,7 +30,7 @@
 
 - **Model readers.**
   - Two blind Opus readers per answer, at the highest effort, run as in-plan subagents: 210 answers, 420 reads, plus the seeded copies.
-  - A third Opus pass adjudicates disagreements and every tier 1 or tier 2 finding.
+  - A third Opus pass adjudicates every item with any score or error disagreement, and every tier 1 or tier 2 finding (`../Test_Plan.md` §6).
   - The seeded catch rate is computed first. If it is below 9 of every 10, the readers' scores do not count. The reader instructions are then fixed by change order, and the reading is redone.
 - **Allowance check.** Reads are split into batches. If the weekly allowance's build half cannot carry them, they move to the next week rather than being cut.
 - **Mark's review page.** An Artifact, not a repository file, built from V3's review data.

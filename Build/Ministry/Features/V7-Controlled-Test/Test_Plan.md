@@ -86,7 +86,7 @@ B changes what each offered item carries. It does not change which items are off
 
 1. **Same records.** Evidence selection is unchanged. With the same question, B is offered the same record ids A was.
    - The run files did not save the offered set: the `request` field holds only the model and max tokens (V1, `Set/README.md`).
-   - So the offered set is rebuilt with no model call. Evidence assembly is replayed for each probe on the `live` tree, which is A's code.
+   - So the offered set is rebuilt with no model call. Evidence assembly is replayed for each probe at A's run commits. Their engine, records and packages are identical to the `live` tree.
    - On the test branch, with the switch off, B's user message must equal that rebuilt message, and a test checks this.
 2. **The quote in view.** Each offered quote also shows its reviewed modern rendering. Today the voice sees only the speaker and gist (`engine/m4/evidence.py:1518-1539`). Code still places the quote in the answer.
 3. **The surrounding text, for the top two items.** For the two highest-ranked offered quotes or stories, B adds the context window from `engine/m4/fit_step.py`: the cited lines plus up to 450 words around them. Context ids cannot be cited, so the voice cites the record.
@@ -170,7 +170,7 @@ How the 28 probes per world bear on Mark's nine cases:
   - the world's lexicon risk flags.
 - **The October review is held back.** The October review of an A answer is shown to the readers only after their scores are filed.
 - **Scoring.** All ten dimensions. Every error is bound to the exact words of the answer and of the source that show it, with its type, severity and confidence.
-- **Adjudication.** A third Opus pass rules on every disagreement between the two readers, and on every tier 1 or tier 2 finding.
+- **Adjudication.** A third Opus pass rules on every item where the two readers give any dimension different scores, or disagree on whether an error is present, and on every tier 1 or tier 2 finding.
 - **Seeded checks first.** At least 10 known defects are planted in copies of real answers, covering:
   - an accurate quote with a wrong frame;
   - one author generalized to the community;
@@ -200,9 +200,8 @@ How the 28 probes per world bear on Mark's nine cases:
   - The fleet run's external-reviewer packets were prepared (`analysis-2026-10-29/external-reviewer-packets/`), but no human review of them is on record.
 - **The sample.**
   - 12 questions per world, the same 12 in both arms, so 72 answers.
-  - Each comes with a source packet: the question, the answer, the cited records, and the source lines with their context.
-  - About 10 minutes per answer, about 12 hours in all (**Assumption**).
-  - Reviewers record errors: the count, severity tier, type, and how sure they are.
+  - Each answer is shown on the review page with the question, the cited records, and the source lines with their context.
+  - Mark's estimate is about 12 hours, and the page is built to beat it.
 - **Later.** An independent scholar can still read the same sample later. The page and packets are built so that can happen without rework.
 - **What the sample can show.** It can find problems. It cannot show that serious errors are gone.
 
@@ -254,7 +253,7 @@ Mark's eight questions (his response, §8), with verified findings, assumptions 
 4. Is the experience better for an ordinary user?
 5. What errors remain?
 6. What are the actual cost and latency?
-7. What did human reviewers find that automation missed?
+7. What did Mark's own review find that automation missed?
 8. What is the smallest next change the evidence justifies?
 
 **Success rules for B**, written before the run:

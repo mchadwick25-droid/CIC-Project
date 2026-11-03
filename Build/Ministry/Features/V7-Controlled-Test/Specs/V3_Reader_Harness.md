@@ -1,8 +1,8 @@
-# V3: reader harness and human packets
+# V3: reader harness and Mark's review data
 
 **Owner:** engine thread. **Model:** Sonnet. The work is mechanical and the rubric is written.
 
-**Purpose.** Turn A's and B's answers into blind reader requests. Collect the replies. Report scores per dimension and per arm, set beside the October reviews of A. Build the human source packets.
+**Purpose.** Turn A's and B's answers into blind reader requests. Collect the replies. Report scores per dimension and per arm, set beside the October reviews of A. Build the data for Mark's review page.
 
 **Outputs.**
 - **Reader requests.**
@@ -16,7 +16,7 @@
   - Each request holds no arm label and no October grade.
   - Answers are shuffled with a seed written before the draw.
 - **Seeded copies.** At least 10 copies of real answers, each carrying one planted defect from the four kinds in `../Test_Plan.md` §6. They are written by a thread that does not read, and shuffled in among the rest. Their key is sealed by SHA-256 until scoring ends.
-- **Adjudication requests.** A third Opus pass gets every item where the two readers disagree by more than one point on a dimension, and every tier 1 or tier 2 finding. It sees both readers' findings and the full context.
+- **Adjudication requests.** A third Opus pass gets every item where the two readers give any dimension different scores, or disagree on whether an error is present, and every tier 1 or tier 2 finding. It sees both readers' findings and the full context.
 - **After scoring.** The October review of each A answer is shown to the readers once their scores are filed, so they can add errors marked "after October review".
 - **Option set.** If Mark takes the option, a trap-note check follows the blind replies.
 - **Score tables.** Per dimension, arm and world:
