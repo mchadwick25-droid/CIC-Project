@@ -2725,3 +2725,10 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 - `alx/Lexicon-Chunks/alexlex038_love.md` line 56: "the vendored Origen corpus ... was not searched for an independently grounded account of love-as-orientation, and none is asserted here" restores the limit that had been dropped with the "open item" clause.
 - `alx/Doc_02_Source_Ecology.md`: "should be stated with it wherever reused" (line 249); "has been independently checked", "was as common a defect as" and "currently asserts" (line 11); "has not been read for any claim below" (line 104). The first rewrite had turned these qualifiers into present-tense guarantees.
 - ijc item 49(1) quotes the removed Doc_04 note verbatim, formatting included.
+
+### Corrections after the Opus review of the syr files (CL6)
+
+- `syr_Representative_Construction_Notes_Yausep.md` (two lines) and `syr_World_Profile.md` (Section 9 status line): the confirmation date is stated in prose as "11 July 2026" instead of the month alone, so the date the surrounding sentence supplies is exact.
+- `Doc_09`: the removed lead-in "Per this project's own two-tier approval discipline," was a process reference with no factual content; a "Doc_01 section-citation slip" is now worded "correction".
+- `Doc_04`: the "See ROUTE section" pointer is removed because the routed material is recorded in this log, not in the document.
+- `syr_World_Profile.md`: the re-sequencing decision of 2026-07-08 is kept as a historical date in a PROTECTED line and left unchanged.

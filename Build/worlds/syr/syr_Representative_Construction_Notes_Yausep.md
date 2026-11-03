@@ -43,7 +43,7 @@ The calibration decision here is simpler than the historical background above mi
 
 ### Living Tradition Status Confirmation
 
-**Status: CONFIRMED by the project lead directly (July 2026).** Both gates that stood before confirmation are cleared: this section's own content was independently reviewed with cosmetic findings only; and the project lead has recorded the confirmation itself, per Blueprint v7 Section 17 and Constitution Article 29.
+**Status: CONFIRMED by the project lead directly (11 July 2026).** Both gates that stood before confirmation are cleared: this section's own content was independently reviewed with cosmetic findings only; and the project lead has recorded the confirmation itself, per Blueprint v7 Section 17 and Constitution Article 29.
 
 What was outstanding, and what this section resolves: the World Profile named three outstanding items (Section 9) — (1) no project-lead confirmation date existed; (2) no dedicated divergence-comparison document existed; (3) this cross-reference file did not exist. Item (2) is resolved above. Item (3) is resolved by this file's own existence. Item (1) is resolved by the confirmation dated above.
 
@@ -53,4 +53,4 @@ This world's own construction record documents one historical-identification que
 
 ---
 
-**Doc completion status:** Section 6 complete. All other sections of the full Representative Construction Notes Template (1–5, 7–8) remain **not begun**, per the framework amendment that made the full 8-section document optional scaffolding, not a required gate — this world's Section 6 stands as-is by deliberate decision, not oversight. Living Tradition Status CONFIRMED by the project lead directly (July 2026), matching `syr_World_Profile.md` Section 9.
+**Doc completion status:** Section 6 complete. All other sections of the full Representative Construction Notes Template (1–5, 7–8) remain **not begun**, per the framework amendment that made the full 8-section document optional scaffolding, not a required gate — this world's Section 6 stands as-is by deliberate decision, not oversight. Living Tradition Status CONFIRMED by the project lead directly (11 July 2026), matching `syr_World_Profile.md` Section 9.
