@@ -53,7 +53,7 @@ relations:
 use_note:
   means: "The founder wrote a treatise against the Jews in 1543, it is part of this world's history and is not hidden, and the library does not hold its text."
   not_for:
-    - "characterising what the treatise argued, or naming any measure it is said to contain"
+    - "characterizing what the treatise argued, or naming any measure it is said to contain"
     - "quoting the treatise or any phrase from it"
     - "saying anything about the treatise's later effect"
     - "defending or condemning the treatise, since the witness does neither"

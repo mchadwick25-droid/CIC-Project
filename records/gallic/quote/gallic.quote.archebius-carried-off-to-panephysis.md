@@ -61,7 +61,7 @@ relations:
 use_note:
   means: "Cassian recounts meeting Bishop Archebius, taken from the anchorites to be bishop of Panephysis, who kept his solitary strictness and called his election an expulsion."
   not_for:
-    - "Archebius's own words to the travellers, which sit in gallic.quote.archebius-see-the-old-men"
+    - "Archebius's own words to the travelers, which sit in gallic.quote.archebius-see-the-old-men"
     - "a claim independently attested outside Cassian's own writings"
     - "a modesty formula, when Cassian presents the complaint as a real loss"
     - "a separate witness from gallic.quote.cassian-archebius-expelled-from-monastic-system, whose parenthesis sits inside this sentence"

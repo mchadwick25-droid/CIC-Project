@@ -70,7 +70,7 @@ relations:
 - type: associated-with
   target: cappadocian.dw.becoming-one-of-us
 modern_rendering: >-
-  I recognise that living together is more useful in many ways. To start
+  I recognize that living together is more useful in many ways. To start
   with, none of us is self-sufficient even for our bodily needs. We need
   each other's help to get what we need. Think of a foot. It has some
   strengths but lacks others. Without the help of the other limbs, it

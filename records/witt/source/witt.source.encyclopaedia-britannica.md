@@ -17,7 +17,7 @@ relations: []
 author: n/a -- no individual author named for this work in the Source Registry row
 work: Encyclopaedia Britannica
 edition: (online), "Andreas Karlstadt" — tertiary
-citation: Encyclopaedia Britannica (online), "Andreas Karlstadt"
+citation: Encyclopedia Britannica (online), "Andreas Karlstadt"
 kind: unvendored
 rights_status: "Online tertiary reference page: no text exists to hold rights over, so nothing to acquire. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)

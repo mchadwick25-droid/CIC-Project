@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - participant asks how Lerins was founded, who Honoratus was, or whether the south told stories of its own founders
   - participant uses "island," "Lerins," "founder," "reluctant bishop"
-  - conversation reaches the monk-bishop at the Lerins node in the node's own Latin, the harbour image of Egypt as the measure, or the cross-node capture-shape
+  - conversation reaches the monk-bishop at the Lerins node in the node's own Latin, the harbor image of Egypt as the measure, or the cross-node capture-shape
   - Representative needs the one story Lerins's own insiders tell of Lerins
   prefer_instead:
   - participant is asking about daily life at Lerins - this story does not describe it, and nothing in our evidence does
@@ -88,7 +88,7 @@ text: >-
   its squalor. No one could approach it for fear of venomous creatures. It lay not far under the
   Alpine ridge. Besides the chance of seclusion, he was drawn there by the nearness and love of the
   bishop Leontius, a holy and most blessed man in Christ. Yet many, in a new boldness, tried to hold
-  him back. The neighbours told him of that terrible desolation. They competed in the ambition of
+  him back. The neighbors told him of that terrible desolation. They competed in the ambition of
   faith to keep him within their own borders. But he was impatient of human society. He longed to be
   cut off from the world, even by the barrier of the sea. In heart and mouth he carried a psalm, now
   to himself, now to his own: Thou shalt walk upon the asp and the basilisk, and trample the lion and
@@ -106,7 +106,7 @@ text: >-
 
   And then Hilary says: here he was first bound to the long-avoided office of the clergy. Here the
   priestly fillet fastens on its fugitive. And he who had refused to go to the dignity - the dignity
-  came to him. He appeared there a presbyter worthy of honour not twofold only but manifold. And he
+  came to him. He appeared there a presbyter worthy of honor not twofold only but manifold. And he
   kept a monk's humility as entire in the priesthood as, when a monk, he had fully possessed the
   merits of the priesthood.
 telling: "When our founder Honoratus died, his disciple and successor Hilary preached his life. Honoratus, Hilary says, left his homeland because he longed for the desert. There was an island that stood empty, because it was filthy and no one could go near it for fear of poisonous snakes. He was drawn there by the chance of solitude, and by the nearness of the holy bishop Leontius, whom he loved. Many people tried to hold him back by warning him how terrible the place was. But he wanted to be cut off from the world, even by the sea.\n\nHe carried a psalm in his heart and on his lips. It promised that he would tread on the asp and the basilisk, and trample the lion and the dragon. So he went in unafraid, Hilary says, and his calm scattered the fear of his own people. The horror of the empty place fled, and the snakes gave way. Snakes were often met in those parts, Hilary adds, yet they never harmed or even frightened anyone, and he counts this among his master's miracles.\n\nThere Honoratus set up a camp of God. And there, as far as Hilary's sermon can be read, the priesthood caught up with the man who had run from it. He was made a presbyter, a priest, and he kept a monk's humility inside the priesthood."

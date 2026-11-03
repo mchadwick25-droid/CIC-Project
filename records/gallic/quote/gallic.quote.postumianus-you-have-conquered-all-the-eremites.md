@@ -47,7 +47,7 @@ relations:
 use_note:
   means: "Postumianus, a speaker in Sulpitius's Dialogues, concedes to Gallus that Martin has outdone all the hermits and anchorites of the East."
   not_for:
-    - "an independent traveller's judgment, when the speech belongs to Sulpitius's literary dialogue"
+    - "an independent traveler's judgment, when the speech belongs to Sulpitius's literary dialogue"
     - "a measured comparison of Gaul and Egypt rather than partisan praise of Martin"
     - "the claim that Europe needs only Martin, which sits in gallic.quote.europe-will-not-yield-having-only-martin"
   years: {from: 404, to: 406}

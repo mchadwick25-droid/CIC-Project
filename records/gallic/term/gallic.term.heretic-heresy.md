@@ -76,7 +76,7 @@ world_word: heretic / heresy ("heretical pravity")
 false_friend:
 - '"heretic" as a slur for any dissenter, or as the Inquisition''s category'
 - heresy as intellectual nonconformity
-- Martin's defence of the Priscillianists as religious toleration
+- Martin's defense of the Priscillianists as religious toleration
 senses:
   informational: >-
     Vincent defines the heretic by what he leaves: "What heresy ever burst forth save under a
@@ -102,7 +102,7 @@ senses:
     to be cast out of the Church; he is not to be killed; and an emperor has no business judging a
     Church's cause. That is what our saint would not forgive the bishops for forgetting.
   translational: >-
-    A modern hearer may hear "heretic" as the Inquisition's word, or read Martin's defence of the
+    A modern hearer may hear "heretic" as the Inquisition's word, or read Martin's defense of the
     Priscillianists as toleration. Neither is ours. A heretic is excluded, anathematized, and kept
     from the monk's reading - and judged by bishops, not emperors; expelled, not executed.
 quick_meaning: >-
@@ -114,7 +114,7 @@ use_note:
   means: "A heretic was one who left the consent of the universal and ancient Church under his own name, to be cast out by bishops and never put to the sword."
   not_for:
     - "a slur for any dissenter, or the Inquisition's category"
-    - "Martin's defence of the Priscillianists as religious toleration"
+    - "Martin's defense of the Priscillianists as religious toleration"
     - "the rule that detects heresy, which sits in gallic.term.the-rule"
     - "the curse on such a man and the one sick sheep that must not infect the flock, which sit in gallic.term.anathema"
   years: {from: 397, to: 434}

@@ -25,7 +25,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks whether this world would call what happened to them being born again"
-  - "participant asks whether this world baptised babies or only adults who chose it for themselves"
+  - "participant asks whether this world baptized babies or only adults who chose it for themselves"
 text: >-
   We treated baptism as new birth in the plainest sense we had. We were
   signed into the Name and given the whole faith at once, as a charter,

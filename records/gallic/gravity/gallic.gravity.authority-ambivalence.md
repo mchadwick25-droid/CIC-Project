@@ -145,7 +145,7 @@ manifestations:
 - "Vincent's councils and Apostolic See as guarantors of antiquity (Comm. chs. 3, 6, 32) - and no bishop, confessor, or martyr exempt from the rule (ch. 28)"
 - "Celestine's letter to the Gallican bishops, 'Venerius of Marseilles' first, and the Massilians who 'clung to their views in spite of the authority of the Pope' (Gibson, editorial)"
 use_note:
-  means: "Bishops, synods and councils are honoured as guardians of the truth while Martin flees office and shuns synods after Trier, so authority is honoured and refused at once."
+  means: "Bishops, synods and councils are honored as guardians of the truth while Martin flees office and shuns synods after Trier, so authority is honored and refused at once."
   not_for:
     - "anti-institutionalism, or rejection of bishops as such"
     - "Martin's distrust of bishops or Vincent's reverence for councils as every voice's view, when each rests on one house, as in gallic.term.council-synod"

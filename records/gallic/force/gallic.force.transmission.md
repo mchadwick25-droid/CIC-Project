@@ -95,8 +95,8 @@ description: >-
 
   Two later hands shaped most of what can be known. One was a later editor working on the grace
   teaching. The other was a later translator who left out the texts on the body. Neither touched the
-  saint's power, the office or the rule of faith. Transmission favoured the Institutes and
-  Conferences as a program that could travel. It favoured the Vita and Dialogues as the foundation
+  saint's power, the office or the rule of faith. Transmission favored the Institutes and
+  Conferences as a program that could travel. It favored the Vita and Dialogues as the foundation
   of a cult, and the Commonitory as a rule that could be quoted. It carried thin, or cut, the grace
   teaching in its own conference, and chastity and the body. It did the same to the reports on
   Marseilles in the reporters' own words, the Latin of the Lérins writers, and the women's houses.

@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: >-
     Load-bearing for the cell's third question (would Jesus have wanted anything to do with someone
-    like me), which this world's own centre answers directly - Christ shown in the one no one
+    like me), which this world's own center answers directly - Christ shown in the one no one
     pities, and grace that goes before the unwilling. Thin, and named as thin, for the first two:
     the one conversion story is Martin's, told by Sulpitius (Tier 3 for the cloak vision; Vita II
     for the boy catechumen), and the private 'to you, not your church' meets a record that speaks
@@ -73,7 +73,7 @@ text: >-
   He stayed one for years, into the army, until the night of the cloak;
   then he went and was baptized. Cassian never told how he came to
   believe. Vincent tells only that he left the storms of worldly warfare
-  and cast anchor in the harbour of religion. The one private
+  and cast anchor in the harbor of religion. The one private
   word about Christ that we hold is Martin's. Alone in his cell, he told
   a Christ in purple that he would believe only in one who showed the
   wounds. Beyond that word, we hold what we did at the gate and at

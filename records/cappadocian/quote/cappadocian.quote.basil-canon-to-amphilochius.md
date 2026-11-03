@@ -60,7 +60,7 @@ use_note:
   means: "Canon XXII of Basil's Second Canonical Letter fixes four graded years of penance, then readmission, for a man who took a wife by seduction or violence."
   not_for:
     - "the penance terms for second and third marriages, which sit in cappadocian.quote.basil-canon-on-digamy"
-    - "four years as the penance for every sexual offence rather than for this named case"
+    - "four years as the penance for every sexual offense rather than for this named case"
     - "a claim that this world's discipline meant permanent excommunication"
     - "proof that discipline was always enforced as written, which a canon alone cannot show"
   years: {from: 375, to: 375}

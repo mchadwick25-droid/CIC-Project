@@ -38,7 +38,7 @@ dates:
   display: "entry to Lerins undated (c. 425 is a floating convention, Inferential-Thin); wrote the Commonitory in 434, three years after Ephesus, under the name Peregrinus; d. before 450, probably shortly after 434, on Gennadius's regnal formula"
 narratable: false
 bridge_line: >-
-  The monk who left the storms of worldly warfare for the harbour of religion and wrote himself a
+  The monk who left the storms of worldly warfare for the harbor of religion and wrote himself a
   remembrancer: what has been believed everywhere, always, by all. He left no story of his own, not
   even of the place where he wrote it.
 relations:
