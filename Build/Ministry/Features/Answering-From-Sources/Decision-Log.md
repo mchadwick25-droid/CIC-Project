@@ -885,3 +885,11 @@ Mark, 2026-11-03, choice box: "Approve all (Recommended)". The list is Engine 2'
 - Changed at a set point: one diversity rule over records and passages in the offer (chunk D4) replaces the record-only source spread; the world-core analytic sections (Horizon, Formation logic, Thinness, Cautions, Living traditions) leave a world's live prompt when that world's reviewed frame exists.
 - Carried out under rulings already made, not asked again: the Decision-Log 63 and 64 lines are reverted; the fleet "strict we" pronoun rule, the 120 to 220 word range, "briefly" in the limit line, and the three-round figure line where the question or the sources name the person change under Settled Items 22 to 24 (chunk D2).
 - The plan page is re-baselined to section 15's six stages, with the exit number and status per world and the remaining work as chunks D1 to D14 of one day or less.
+
+## 71. Record defects fixed now; every verbatim quote names its exact lines (2026-11-03)
+
+Mark, 2026-11-03, in his words: "fix the record defects now, not after". Then by choice box: "Yes, require exact lines (Recommended)", answering the question left open by entry 62.
+
+- A Library thread on Opus fixes the registered record defects now: the 5 quotes whose text is not at their cited lines (lpc 4, desert 1) and the 372 modern renderings with no named review file (gallic 110, desert 61, ijc 39, syr 34, hal 32, alx 26, pahc 25, cappadocian 21, witt 13, rzg 6, don 5). Each rendering is read against its edition text; one that fails the rendering bar is re-rendered by Opus and read again. Each world's waiver is lowered as its count falls and removed at 0.
+- Every verbatim quote names the lines it quotes. The 364 quotes whose locus names no span get their span from the vendored edition; any quote not found there is corrected at the record. The `quote-locus` gate then fails a verbatim quote with no span, instead of skipping it.
+- Program notes are cleared from the live and canonical files at Mark's word of the same day ("make sure what exists is clean and not in program notes, everything is kept in a seperate document, no curruption. it should be a gold standard clean funtioning library and engine"): 2,107 lines found by `tools/check_live_commentary.py`, moved to their decision logs in seven pull requests.
