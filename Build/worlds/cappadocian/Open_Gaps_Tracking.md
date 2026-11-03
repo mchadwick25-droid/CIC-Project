@@ -1017,7 +1017,7 @@ Status: OPEN for the four rows, the quotation candidates and the registry rows. 
 ### OG-59. Open points removed from cappadocian documents by the live-surface cleanup, 2026-11-03.
 
 1. `Cappadocian_Final_Report.md`, line 46, finding F17, removed from the line (the rest stays): "the female-voice decision flagged for the project lead with a sharper edge than Early Latin's - this world is currently the best-evidenced site in the world-set for a future female-anchored voice."
-2. `cappadocian_Doc_06_Full_Lexicon.md`, line 196: chunk lex003 (koinonia) does not match this document's front matter (tracked at OG-15 above); and the Doc_02 rework into V7.4 Source Registry rows is still pending, those ids being the registry rows' designated ancestors.
+2. `cappadocian_Doc_06_Full_Lexicon.md`, line 196, removed: "the Doc_02 rework into V7.4 Source Registry rows is still pending" (those ids are the registry rows' designated ancestors). The lex003 (koinonia) front-matter mismatch, tracked at OG-15 above, stays stated in the line.
 3. `cappadocian_Representative_Identity_Options.md`, line 36: the build's quotation of the comparative note ended with "flagged for the project lead with that comparative note." The open question itself, Option 2 (a female-anchored second voice, "live, evidenced, and explicitly not-closed"), stays in the document.
 
 Status: OPEN. Owner: this world's thread.

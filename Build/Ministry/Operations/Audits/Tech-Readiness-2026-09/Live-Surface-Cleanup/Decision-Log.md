@@ -2380,7 +2380,7 @@ Source_Registry row 55 (L66): "found via direct archive.org search this session 
 - Line 46: F17 sentence removed (quoted above). F11, F12, F13, F19 still describe owed or carried items in plain prose but were not flagged; left unchanged.
 
 ### cappadocian_Doc_06_Full_Lexicon.md
-- Line 196 now reads: "...its front matter was cross-checked against this document, and lex001 and lex002 match." and "...because [manifest ids are used for width]. Those ids are the designated ancestors of the Doc_02 Source Registry rows."
+- Line 196 now reads: "...its front matter was cross-checked against this document: lex001 and lex002 match; lex003 (koinōnia) does not (see `Open_Gaps_Tracking.md` OG-15)." and "...(prefix `cappadocian-` omitted for width). Those ids are the designated ancestors of the Doc_02 Source Registry rows." Removed: "because the Doc_02 rework into V7.4 Source Registry rows is still pending"; filed as cappadocian OG-59.
 
 ### cappadocian_Representative_Identity_Options.md
 - Line 36: see ROUTE item 3.
@@ -2412,3 +2412,8 @@ The open clauses removed or reworded in the don construction documents and the c
 - `Doc_01` line 20: "a note addressed to external scholarly review" replaces the first rewording ("an external scholarly note"), which changed what Blueprint V7.3 section 17 provides.
 - `don_Phase6_Facilitation_Brief_DRAFT.md` line 62: "on independent review" replaces the removed "on independent adversarial review".
 - Left as reviewed: `Doc_07` line 27 keeps the Framework quotation shortened to an exact substring that ends at "for every world", with the adoption date outside it; `don_World_Profile.md` line 19 names Doc_07's section 8 as "the closing handoff section" (the real heading, "Open Items and Handoff", carries the scanner's open-item cue); `Source_Registry.md` row 14 still reads "corrected 2026-09-07" in its Added cell.
+
+### Corrections after the Opus review of the cappadocian files (CL5)
+
+- `Cappadocian_Final_Report.md` line 46: "Ten findings" stays true with F17 removed from the list because the line now says F17 is tracked at OG-59.
+- `cappadocian_Doc_06_Full_Lexicon.md` line 196: the lex003 front-matter mismatch (OG-15) is stated again; it was dropped with the pending-rework clause.
