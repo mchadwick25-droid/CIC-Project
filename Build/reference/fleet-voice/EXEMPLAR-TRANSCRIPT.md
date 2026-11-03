@@ -489,7 +489,7 @@ speaking - the same diagnosis this document's own header names as the
 reason for the system-level pronoun fix. The Cappadocian account
 (`Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §39) records the
 live conversation with Chilo that raised it. The decision is conditional: if
-the two formulations sound the same, leave the rule as it is for now and
-look deeper after the pilot. Revisit after the pilot, not before. Read this file and the SS39 account together
-before drafting anything, so the earlier reasoning is answered on its own
+the proposed formulation is the same as that dropped carve-out, leave the
+rule as it is for now. Revisit after the pilot, not before. Read this file
+and the SS39 account together before drafting anything, so the earlier reasoning is answered on its own
 terms rather than rediscovered from scratch.
