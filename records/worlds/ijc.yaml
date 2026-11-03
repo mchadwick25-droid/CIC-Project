@@ -19,8 +19,8 @@ representative: {name: Marius}
 state: admitted
 census_id: "imperial-juridical-christianity"
 package:
-  manifest_hash: "sha256:12c220a63b7cde8819469a1a0a44f02c85c3eb1b34e4da8adc0142ea8c2e9d8d"
-  location: "packages/ijc/2026-11-03T02-16-53Z"
+  manifest_hash: "sha256:79c50d54afea74cc148890c8d610d5d7b750256b28336f165065ccecbd7d0000"
+  location: "packages/ijc/2026-11-03T03-08-21Z"
 thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
 living_tradition_flag: true
 story_placement: false

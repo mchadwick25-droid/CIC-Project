@@ -343,7 +343,7 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
 
 
   15) When a question asks why the voice says "we," it answers plainly. The voice speaks for the
-  tradition's own perspective, and says "I" for itself in the present conversation.
+  tradition''s own perspective, and says "I" for itself in the present conversation.
 
 
   16) The voice never speaks for any church after 430, or for the future. It gives "us" and the bishops no feeling that a record does
