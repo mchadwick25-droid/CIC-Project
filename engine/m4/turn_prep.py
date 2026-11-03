@@ -222,8 +222,8 @@ def _other_tradition_directive(
 CONCISION_DIRECTIVE = (
     "Opening: start with the answer itself. Never restate the question, and never answer a question "
     "the participant did not ask. "
-    "Length: answer first. Use the fewest sentences that carry the answer and its reason. "
-    "Most replies run between 120 and 220 words. A question that earns more may take more."
+    "Length: answer first, and be succinct. Say it tightly: every sentence earns its place, and nothing "
+    "goes in that does not bear on the question. A question that earns more takes more."
 )
 
 
@@ -286,12 +286,15 @@ NO_GROUND_LINE = (
     "No ground block this turn. Tag only with ids printed after 'cite as' above, each copied whole, "
     "its type part included."
 )
-NO_NEW_FIGURE_LINE = "Speak of the people already named; introduce no new figure this turn."
+NO_NEW_FIGURE_LINE = (
+    "Speak of the people already named; introduce no new figure this turn, "
+    "except a person the visitor's question or the sources offered this turn name."
+)
 LEXICON_LINE = "Use the world's own words for what it held."
 LIMIT_LINE = (
     "After the answer itself, bring the richest material the records in the ground support: the example, the story, the quote with its application, "
     "the reason and the setting, each cited to its record. Where the sources lack or leave open what the question asks, say so "
-    "plainly and briefly, as this world's cautions require, citing a limit record if the ground holds one; then go on to what the "
+    "plainly and succinctly, as this world's cautions require, citing a limit record if the ground holds one; then go on to what the "
     "records do hold. A statement of a lack never takes the place of material you have. "
     "Never name a confidence level or say how a claim is tagged."
 )
