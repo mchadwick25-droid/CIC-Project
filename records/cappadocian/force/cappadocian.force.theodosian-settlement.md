@@ -35,7 +35,7 @@ description: >-
   Theodosius establishes Nicene Christianity (380-381); the Council of Constantinople (381) ratifies the
   confession with the pneumatological article in doxological form; the imperial communion law names the
   region's bishops among the East's touchstones; one of the world's own briefly presides at the council and
-  resigns. WORLD'S OWN EXPERIENCE (Layer 2): the word the world had held
+  resigns (Doc_08 Cell 3A, Force 3A-1). WORLD'S OWN EXPERIENCE (Layer 2): the word the world had held
   through the winters became the law of the nations - and the men who had held it found the victory strange
   in the mouth. The one who preached the Trinity to a hostile capital walked away from its throne in the
   middle of the council, telling them to keep their see and let him keep his God. The world had learned to
@@ -43,7 +43,8 @@ description: >-
   3): ends Primary 3/Gravity 3 by fulfillment (the situation-gravity dissolves in its own success - the
   cleanest evidence of its situational character, mirroring the pattern the Early Latin build found from
   the opposite direction); transposes Primary 1/Gravity 1 from contested possession to imperial standard -
-  a transposition this world barely lived to see and did not itself administer; begins the region's absorption into the imperial-Byzantine church.
+  a transposition this world barely lived to see and did not itself administer (the honest edge of Doc_05
+  §8); begins the region's absorption into the imperial-Byzantine church.
 manifestations:
 - Theodosius establishing Nicene Christianity (380-381)
 - the Council of Constantinople (381) ratifying the confession, the pneumatological article in doxological form

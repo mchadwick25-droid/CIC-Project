@@ -30,7 +30,7 @@ matrix_cell: 1A
 description: >-
   Constantine's defeat of Licinius (324) ends persecution in the East; Nicaea (325) convenes with imperial
   patronage - the region's bishops subscribe; from then on doctrine's public fortunes run through councils
-  summoned, formulas favored, and bishops installed or exiled by reigns.
+  summoned, formulas favored, and bishops installed or exiled by reigns (Doc_08 Cell 1A, Force 1A-1).
   WORLD'S OWN EXPERIENCE (Layer 2): the storm ended and a stranger weather began - the kings now called the
   bishops together, and the faith of the 318 fathers was written, and then, bewilderingly, the same palaces
   that had honored it pressed other words in its place. The world learned early that a council could be
@@ -38,7 +38,7 @@ description: >-
   loyalty-language and documented synod-weariness; where inner reception outruns testimony, Reported-
   Experience Status applies. FORMATION IMPACT (Layer 3): created the situation-gravity (Primary 3/Gravity 3)
   outright; made the confession a contested inheritance rather than a settled possession - which drove
-  Primary 1/Gravity 1's precision and the distributed, portable authority-structure; planted the
+  Primary 1/Gravity 1's precision and the distributed, portable authority-structure (Doc_07 2C); planted the
   lifelong wariness of courts and synods in the world's own voice.
 manifestations:
 - Constantine's defeat of Licinius (324), ending persecution in the East

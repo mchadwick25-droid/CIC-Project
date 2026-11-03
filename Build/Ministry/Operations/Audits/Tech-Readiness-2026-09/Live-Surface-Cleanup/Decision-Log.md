@@ -1957,30 +1957,20 @@ Left alone as false positives, not edited: `engine/m2/validation.py` line 65 (er
 
 ## Entry — CL2, records (2026-11-03)
 
-Scope: the flagged force and world_core records. The records now state the world's own content; construction-document citations and matrix-cell codes, which `matrix_cell` and `kind` already carry, are removed. This entry lists what moved. Mark's 2026-11-03 direction is quoted in the CL1 entry.
+Scope as merged: the nine force records whose edited fields clear the readability gate. The records now state the world's own content; the bracketed matrix-cell codes, which `matrix_cell` and `kind` already carry, are removed. Mark's 2026-11-03 direction is quoted in the CL1 entry.
 
-`cappadocian` (`records/cappadocian/force/cappadocian.force.*`), descriptions:
-- `capitals-gravity`: removed "Doc_08 Cell 3A, Force 3A-2;", "per Doc_08 §7's own Confidence Assessment bucket," and "Doc_02 §8's after-life". The confidence statement (Documented trajectory; Widely Accepted as synthesis; Dominant Modern Reconstruction for the synthesis judgment) is unchanged. The `divergence_note` field still cites Doc_08 §7 and is untouched.
-- `famine-crisis`: removed "Doc_08 Cell 2A, Force 2A-2" and "Doc_06 §24".
-- `imperial-church-arrival`: removed "Doc_08 Cell 1A, Force 1A-1" and "Doc_07 2C".
-- `network-strains`: removed "Doc_08 Cell 2B, Force 2B-3".
-- `plateau-itself`: removed "Doc_08 Cell 1A, Force 1A-3;". The confidence statement stays.
-- `policy-oscillation`: removed "Doc_08 Cell 2A, Force 2A-1;", "Doc_06 §39" and "(Doc_07 2B temporal assumptions)". The confidence statement stays.
-- `theodosian-settlement`: removed "Doc_08 Cell 3A, Force 3A-1" and "(the honest edge of Doc_05 §8)", the pointer that marked where the world's documents stop.
+`witt` (`records/witt/force/witt.force.*`), names: removed the bracketed cell codes from `friars-conviction` [1B - initiating/internal], `imperial-force-ongoing` [2A - ongoing/external], `internal-radical-force` [2B - ongoing/internal], `laitys-need-for-assurance` [1B - initiating/internal], `papal-force-initiating` [1A - initiating/external], `papal-force-ongoing` [2A - ongoing/external], `print-turned-inward` [2B - ongoing/internal] and `transmission-within-the-worlds-life` [2B - ongoing/internal]. All eight keep `matrix_cell` and `kind`, and the removed code equals them in every record (checked in review).
 
-`desert` (`records/desert/force/`):
-- `evagrian-intensification` and `origenist-controversy` names: removed the bracketed cell codes "[2B - ongoing/internal]" and "[3A - ending/external]". Both records keep `matrix_cell` and `kind`.
-- "Strand C" in those names and in the `origenist-controversy` description is now "the semi-anchoritic strand", which is the world's own definition of Strand C (Nitria, Kellia, Scetis).
+`desert` (`records/desert/force/desert.force.evagrian-intensification.md`), name: removed "[2B - ongoing/internal]"; "within Strand C" now reads "within the semi-anchoritic strand", which is the desert records' own definition of Strand C (Nitria, Kellia, Scetis).
 
-`witt` (`records/witt/force/`), names: removed the bracketed cell codes from `friars-conviction` [1B - initiating/internal], `imperial-force-ongoing` [2A - ongoing/external], `internal-radical-force` [2B - ongoing/internal], `laitys-need-for-assurance` [1B - initiating/internal], `papal-force-initiating` [1A - initiating/external], `papal-force-ongoing` [2A - ongoing/external], `print-turned-inward` [2B - ongoing/internal] and `transmission-within-the-worlds-life` [2B - ongoing/internal]. All eight keep `matrix_cell` and `kind`.
+Packages rebuilt and repointed in `records/worlds/witt.yaml` and `records/worlds/desert.yaml`; the two old pinned `manifest.json` files are retired.
 
-`rzg` (`records/rzg/force/`):
-- `no-internal-fracture`: "a genuine Tensional gravity" now reads "a genuine standing tension". The Tensional classification stays on the T1 record itself; this sentence no longer repeats it, because the repeated label is what the scanner flags.
-- `transmission-author-gravity-genre-asymmetries`: "G1's own Confidence/Gravity Cross-Check divergence" now reads "G1's own flagged divergence between its core conviction and its systematized form", which is how the rzg gravity discovery document defines that divergence. A first wording ("between its confidence rating and its gravity") misdescribed it and was redone after the Opus review.
-
-Packages rebuilt and repointed in `records/worlds/<code>.yaml` for cappadocian, desert, rzg and witt; the four old pinned `manifest.json` files are retired.
+Blocked, not done: the readability gate (`regate`) grades any edited public-facing field against FK grade 10 and FRE 60, even where the field already failed before the edit. These fields carry the remaining provenance and all fail by a wide margin, so removing the citation from them fails CI until the whole field is rewritten for reading level, which is voice work and not part of this cleanup. Attempted in the first version of this PR and reverted, with CI's "World gates (records, regate)" failing on exactly these fields (FK grade in brackets):
+- `cappadocian`: `capitals-gravity` (20.4), `famine-crisis` (14.3), `imperial-church-arrival` (18.7), `network-strains` (15.1), `plateau-itself` (16.8), `policy-oscillation` (19.9) and `theodosian-settlement` (19.6) descriptions. Citations to remove: "Doc_08 Cell/Force", "Doc_06 §", "Doc_07", "Doc_02 §8", "Doc_05 §8".
+- `desert`: `origenist-controversy` description (26.7) and name (the bracketed "[3A - ending/external]" and "Strand C").
+- `rzg`: `no-internal-fracture` (11.5) and `transmission-author-gravity-genre-asymmetries` (18.5) descriptions. The Opus review of that attempt also showed that "Confidence/Gravity Cross-Check divergence" means G1's split between its core conviction and its systematized form; any later rewording must keep that meaning.
 
 Left alone as false positives or not decidable without inventing content:
-- `records/ijc/force/ijc.force.leo-rejects-canon-28.md` name: "Strand A/B Fracture [3B - ending/internal]". No definition of ijc's strands exists in the records to rewrite from. Open for the ijc owner.
+- `records/ijc/force/ijc.force.leo-rejects-canon-28.md` name: "Strand A/B Fracture [3B - ending/internal]". No definition of ijc's strands exists in the records to rewrite from.
 - `records/pahc/world_core/pahc.core.house-church.md` line 69: "Strand A use". Same reason.
-- `records/desert/force/desert.force.melitian-rivalry.md` `divergence_note`: the word "unresolved" belongs to a scholarly Inferential-Thin statement. It is content, not an open item.
+- `records/desert/force/desert.force.melitian-rivalry.md` `divergence_note`: "unresolved" belongs to a scholarly Inferential-Thin statement and is content, not an open item.

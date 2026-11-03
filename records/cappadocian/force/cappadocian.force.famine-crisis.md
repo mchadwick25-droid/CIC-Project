@@ -30,12 +30,12 @@ matrix_cell: 2A
 description: >-
   The famine of c. 368/9 (drought, failed harvest, hoarding and speculation) strikes the region; Basil's
   famine homilies respond and organize relief; the poorhouse-hospital complex follows as permanent
-  institution. WORLD'S OWN EXPERIENCE (Layer 2): the sky was bronze and the
+  institution (Doc_08 Cell 2A, Force 2A-2). WORLD'S OWN EXPERIENCE (Layer 2): the sky was bronze and the
   rich were waiting on the price, and the preacher stood up and said the bread in your cupboard belongs to
   the hungry. The world experienced the famine as a trial in which God watched what the baptized did with
   their barns - and afterward, the poorhouse outside the city stood as the trial's verdict made permanent.
   FORMATION IMPACT (Layer 3): converted the wealth-critique from moral commonplace to famine-year accusation
-  (pleonexia); produced Primary 2/Gravity 2's civic edge (the poorhouse complex); fixed
+  (pleonexia - Doc_06 §24); produced Primary 2/Gravity 2's civic edge (the poorhouse complex); fixed
   philoptōchia as the formation test; enlarged the bishop's patronal role (Supporting 7/Gravity 7).
 manifestations:
 - the famine of c. 368/9 - drought, failed harvest, hoarding and speculation
