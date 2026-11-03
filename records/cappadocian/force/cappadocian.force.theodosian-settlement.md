@@ -31,20 +31,12 @@ relations:
 name: "The Theodosian settlement - victory as dissolution [3A - ending/external]"
 kind: ending
 matrix_cell: 3A
-description: >-
-  Theodosius establishes Nicene Christianity (380-381); the Council of Constantinople (381) ratifies the
-  confession with the pneumatological article in doxological form; the imperial communion law names the
-  region's bishops among the East's touchstones; one of the world's own briefly presides at the council and
-  resigns (Doc_08 Cell 3A, Force 3A-1). WORLD'S OWN EXPERIENCE (Layer 2): the word the world had held
-  through the winters became the law of the nations - and the men who had held it found the victory strange
-  in the mouth. The one who preached the Trinity to a hostile capital walked away from its throne in the
-  middle of the council, telling them to keep their see and let him keep his God. The world had learned to
-  be the faithful remnant; it did not entirely know how to be the establishment. FORMATION IMPACT (Layer
-  3): ends Primary 3/Gravity 3 by fulfillment (the situation-gravity dissolves in its own success - the
-  cleanest evidence of its situational character, mirroring the pattern the Early Latin build found from
-  the opposite direction); transposes Primary 1/Gravity 1 from contested possession to imperial standard -
-  a transposition this world barely lived to see and did not itself administer (the honest edge of Doc_05
-  §8); begins the region's absorption into the imperial-Byzantine church.
+description: |-
+  Theodosius established Nicene Christianity in 380-381. The Council of Constantinople in 381 ratified the confession, with the article on the Spirit in the form of praise (doxology). The imperial law on communion named the region's bishops among the East's touchstones of faith. One of the world's own briefly presided at the council, then resigned.
+
+  In the world's own experience, the word the world had held through the winters became the law of the nations. The men who had held it found the victory strange in the mouth. The one who preached the Trinity to a hostile capital walked away from its throne in the middle of the council. He told them to keep their see and let him keep his God. The world had learned to be the faithful remnant. It did not quite know how to be the establishment.
+
+  For formation, this force ended the gravity of the contested church by fulfilling it. That gravity dissolved in its own success, the clearest sign that it belonged to a situation. It moved the Triune confession from a contested possession to an imperial standard. This world barely lived to see that change, and it did not run the change itself. And it began the region's absorption into the imperial, Byzantine church.
 manifestations:
 - Theodosius establishing Nicene Christianity (380-381)
 - the Council of Constantinople (381) ratifying the confession, the pneumatological article in doxological form

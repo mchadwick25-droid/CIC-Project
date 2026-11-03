@@ -2356,3 +2356,21 @@ The open points removed from Step 0 (line 74) and from Doc_07 (lines 17 and 25) 
 - `witt_Doc_08` line 744: the quotation of Doc_04's G13 notation carries the same "Registry" label as its source.
 - `witt_Doc_05` line 292: "what it asked its first reviewer to check" reads "what it asked its first independent read to check".
 - `tools/tests/test_check_live_commentary.py`: the two sample rows that pointed at witt lines now clean (Doc_06 line 1524, Doc_04 line 569) are replaced by `ijc_World_Profile.md` line 227 and `CiC_W3_Phase6_Facilitation_Brief_DRAFT.md` line 72. Three rows sample the cleanup's remaining work; refresh them as CL6 and CL7 clean those worlds.
+
+## Entry — CL2 follow-on (RD1b), the ten force fields that failed readability (2026-11-03)
+
+These are the ten fields Entry CL2 left blocked. Each `description` is rewritten so it passes the readability gate (FK grade 10 or below, FRE 60 or above). Every claim and every confidence statement is kept, and nothing is added. The world's own terms are kept (pleonexia, philoptōchia, hēsychia, paideia, Homoian, encomium, anthropomorphite, predestination and election). The build-document provenance moves here. Each record's `matrix_cell` and `kind` still carry the cell.
+
+- **Labels replaced in all seven cappadocian records.** "WORLD'S OWN EXPERIENCE (Layer 2)" now reads "In the world's own experience". "FORMATION IMPACT (Layer 3)" now reads "For formation". Gravity numbers ("Primary 1/Gravity 1", "Primary 2/Gravity 2", "Primary 3/Gravity 3", "Supporting 7/Gravity 7", "Tensional 8/Gravity 8", "Tensional 9/Gravity 9") are replaced by each gravity's own name: the Triune confession, the ascetic reordering of life, the contested church under the contested empire, the bishop as public patron, hēsychia against the summons, precision against reserve.
+- `cappadocian.force.capitals-gravity`: removed "(Doc_08 Cell 3A, Force 3A-2 …)", "per Doc_08 §7's own Confidence Assessment bucket" and "Doc_02 §8's after-life". The confidence statement stays in words: the trajectory is documented, the synthesis is widely accepted, and the judgment itself is the dominant modern reconstruction.
+- `cappadocian.force.famine-crisis`: removed "(Doc_08 Cell 2A, Force 2A-2)" and "Doc_06 §24".
+- `cappadocian.force.imperial-church-arrival`: removed "(Doc_08 Cell 1A, Force 1A-1)" and "(Doc_07 2C)". "Reported-Experience Status applies" now reads "it is given as the world's own understanding, not checked as history", which is how the method defines that status.
+- `cappadocian.force.network-strains`: removed "(Doc_08 Cell 2B, Force 2B-3)".
+- `cappadocian.force.plateau-itself`: removed "(Doc_08 Cell 1A, Force 1A-3 …)"; the confidence statement stays in words.
+- `cappadocian.force.policy-oscillation`: removed "(Doc_08 Cell 2A, Force 2A-1 …)", "(Doc_06 §39)" and "(Doc_07 2B temporal assumptions)". The confidence statement stays in words.
+- `cappadocian.force.theodosian-settlement`: removed "(Doc_08 Cell 3A, Force 3A-1)", "(the honest edge of Doc_05 §8)", and the cross-build note "mirroring the pattern the Early Latin build found from the opposite direction". That note compares builds and makes no claim about this world.
+- `desert.force.origenist-controversy`: the name loses "[3A - ending/external]", and "Strand C" becomes "the semi-anchoritic strand", following the evagrian precedent in Entry CL2. The description is rewritten for reading level. Its `divergence_note` still cites "Doc_01 SS2.3" and is not changed here.
+- `rzg.force.no-internal-fracture`: rewritten for reading level. "this document's own knowledge" now reads "what is known".
+- `rzg.force.transmission-author-gravity-genre-asymmetries`: rewritten for reading level. Its claim that G1's split is only about survival is corrected to match Doc_04 §3.1 and the Second Helvetic Confession; the record keeps the meaning that G1's split is between its core conviction and its systematized form. Logged in rzg Open_Gaps_Tracking, entry 83.
+
+The `m1:readability` waivers drop with the findings these fields cleared: cappadocian 195 → 181, desert 114 → 112, rzg 82 → 78.
