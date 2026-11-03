@@ -1022,3 +1022,11 @@ Status: OPEN for an independent recheck of the quotes.
 Found by the Opus review of the origins limit (`Build/Ministry/Features/Question-Coverage/Review/opus-honest-limits-review.md`, finding F11). `desert.dw.apostolic` says "We did not claim an unbroken line back to the apostles for our way of life." Cassian, Conference XVIII.5 (npnf211 about line 42538), through Abbot Piamun, says the common life "continued unbroken for a very long period up to the time of Abbot Paul and Antony", and traces it to the believers at Jerusalem. The new `desert.limit.origins-no-single-founder` reports that passage and does not say the line is established. The existing witness was not edited. Decision for this world: narrow the witness so it speaks for what the Desert tradition itself claimed, and give Piamun's claim as one telling among those that disagree.
 
 Status: OPEN.
+
+### OG-43. Arsenius quote cited at the wrong line of Budge, 2026-11-03.
+
+The `quote-locus` gate found that the text of `desert.quote.arsenius-flee-tace-quiesce` was not on its cited line (47) of `cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt`. The text matches the edition word for word at line 56 (§2), so the locus now cites line 56 and the text is unchanged. The record's body note gave the wrong lines and called the quote a paraphrase. It now gives line 56 for §2 and line 54 for §1. The locus no longer says the Greek tradition renders the triad as fuge, tace, quiesce. The note now says the Latin systematic collection is not vendored. The three-word form does occur in the vendored Thomas à Kempis, so the note does not claim the form is absent. An independent Opus review checked the text at line 56 by two methods, and a targeted second Opus read rechecked the corrected note. The `m1:quote-locus/desert` waiver is removed; the gate reports 0 for desert.
+
+Still open: the record's divergence_note says the three-word form is a feature of the Latin transmission. The Greek alphabetical collection (Arsenius 2) also has a three-verb form, φεῦγε, σιώπα, ἡσύχαζε, so the note may be too narrow. Whether the Greek collection is vendored has not been checked. This pass did not change the note. Owner: desert's own build thread.
+
+Status: locus CLOSED; divergence_note OPEN.

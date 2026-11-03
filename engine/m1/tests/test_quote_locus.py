@@ -1,6 +1,8 @@
 """The locus check: a quote's text must occur at the lines its own locus cites."""
 import copy
 
+import pytest
+
 from engine.m1 import gates
 from engine.m1.loader import load_world_records
 from engine.m1.quote_locus import cited_spans, gate_quote_locus, unchecked_quotes
@@ -66,3 +68,8 @@ def test_a_paraphrase_only_quote_is_out_of_scope():
 
 def test_the_gate_is_registered():
     assert gates.GATES["quote-locus"] is gate_quote_locus
+
+
+@pytest.mark.parametrize("world", ["lpc", "desert"])
+def test_every_cited_span_in_the_world_holds_its_quote(world):
+    assert gate_quote_locus(load_world_records(world), {}, {}) == []

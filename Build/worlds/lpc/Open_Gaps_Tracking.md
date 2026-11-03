@@ -2789,3 +2789,10 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **The remaining 3,057 passages** are editors' prefaces, introductory essays and arguments, and works the lpc rows do not name: the non-African councils in NPNF 2.14 (1,174), Hippolytus's Refutation in ANF 5, and the Augustine volumes' front matter. No row change is needed.
 - **Open.** The index still ties by file. A passage-level tie by `locus_ids` in the index builder would make the index count match the rows; that is a builder change, not a row change.
 - **Owner.** Library thread, through the coordination thread.
+
+## OG-165. Quote loci widened to the whole passage (2026-11-03)
+
+- **Finding.** The `quote-locus` gate found four lpc quotes whose locus named only the first line of a passage that runs on: `ancient-venom-against-my-episcopate`, `bishop-of-bishops`, `clamour-and-tears` and `shepherd-wounded-in-the-flock`.
+- **Done.** Each locus now cites the full passage, first word to last: ANF 5 lines 32371-32375, 56871-56884 and 43724-43730, and Weiskotten's Possidius lines 1808-1817. No quote text changed. Each record's body note now gives the same lines. Process notes were removed from those notes. The `m1:quote-locus/lpc` waiver is removed; the gate reports 0 for lpc.
+- **Review.** An independent Opus review checked each text at its span by two methods and tested that each span is tight. It found the shepherd span one line too long, which is now corrected, and a body-note slip in `clamour-and-tears`, also corrected. A targeted second Opus read rechecked the fixes.
+- **Owner.** Library record-defects thread. Closed.
