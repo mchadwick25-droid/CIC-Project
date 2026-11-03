@@ -32,3 +32,10 @@ For a fresh engine session. Read `CLAUDE.md` first. The plan and rulings are bel
 - Built indexes (851, 538, 290 and 257 MB) were in the previous session's scratch area and are rebuilt from `cic/texts` by the Library builder (`answering_library.run`, then `index.cli build-index --world W`).
 - Do not edit files under `Sandbox/answering-library/index/` that are hashed, and do not print the shared environment.
 - Report to the coordination thread with plain outcomes and counts only.
+
+## Amendment, 2026-11-03 (Mark's direction, Decision-Log 68)
+
+Gating the offer waits for Mark's decision. Steps 3 and 4 do not depend on it and may start now.
+
+- Build the step before drafting that decides what the offer holds as one function, a single seam. Today it returns the current behaviour: records and passages together, interleaved by rank. Records-first with search on a missing or partial record, and a stored-answer match, can be added at that seam later. Do not add either now.
+- Long-term direction, not built and not scheduled: stored, reviewed answers served on a match with no generation, and live generation only when nothing matches.

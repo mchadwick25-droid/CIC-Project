@@ -860,3 +860,11 @@ Mark, 2026-11-03, relayed by the coordination thread: go on steps 0, 1 and 2 of 
 - Step 0: the CP.9 README is corrected in place, with a "Corrections" section. Wrong or overstated: "lpc: not met" (the offer was not tested), "tier 2 similar" (15, 21, 20), the old engine leading "in every world" (lpc "yes" 19 for B against 18 for A), "more than helper noise" for 15 to 12, and the noise floor for single questions. The tables are unchanged; they match the raw files.
 - Step 1: the coverage ceiling counts, the volumes behind the 101 blocked alx and syr seeds, and the check of the three index keys are in `Design-Faithful-Build_2026-11-03/Step1_Coverage_Ceiling.md`. Of the three index keys, only work-and-locus is filled, and its value is file plus division. The sub-question and scripture-reference keys are named and never filled, and nothing in the engine reads the index at question time. No embedder implementation exists.
 - Step 2: the harness checks and the order of passages in the offer are in `Design-Faithful-Build_2026-11-03/Step2_Harness_Fix.md`.
+
+## 68. Direction: stored, reviewed answers served on a match (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread, in his words: "i think ultimatly we could have pre-generated answers that are just called on when matched, no answer generation, then when its not a match we generate" (he wrote "a question", meaning an answer).
+
+- Direction only. It is not built and not scheduled. It is not a choice among the three ways to decide "no match" (before drafting on a missing or partial record; after drafting on the answers check; never, always offer both); Mark has not chosen one.
+- Proposal section 9 already holds the two cost tiers that stored answers would grow from: reviewed openings (tier 1, served verbatim on a first turn after two checks agree) and pre-verified bundles (tier 2, stored evidence the voice composes from each time).
+- The search build does not depend on this. The step before drafting that decides what the offer holds is a single seam, so records-first, partial-fit search or a stored-answer match can be added later. Until Mark decides, the offer keeps the behaviour it has: records and passages together.
