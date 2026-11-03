@@ -62,7 +62,7 @@ this by banning "I" outright and reserving it only for a quoted, named
 figure's own attested words.
 
 **v3** softened that back toward three categories, following Alexandria's
-own voice_craft record — a real, recorded ruling from Mark (2026-08-21):
+own voice_craft record — a recorded rule:
 "we" for what the world held; "I" reserved for "the voice's own present-tense
 conversational acts" (*"I must be honest," "I am a teacher, not a judge"*);
 a named quote, unchanged. That held for exactly one round of real use before
@@ -136,15 +136,14 @@ The seven statements (O2), for reference against what follows:
 
 ## What the new grounding check does — and doesn't — touch here
 
-After the door-line fabrication was caught by hand, Mark asked for a
-mechanism, not a one-off fix (`engine/m1/gates_experimental.py`,
-`gate_grounded_claim` — still experimental, not yet in the accepted
-battery). Ran against all 7 real demonstration records behind this
-transcript, sentence by sentence: one finding, the door line in the
-"someone like me" turn — now fixed in place, marked ✅ below, after Mark
-traced it to the right correction rather than a retreat into pure hedging
-(see that turn's note). Re-run after the fix: **0 findings across the
-whole transcript.**
+The door-line fabrication was a mechanism problem, not a one-off fix
+(`engine/m1/gates_experimental.py`, `gate_grounded_claim` — still
+experimental, not yet in the accepted battery). The check runs against all
+7 real demonstration records behind this transcript, sentence by sentence.
+It found one issue, the door line in the "someone like me" turn. That line
+is fixed in place, marked ✅ below, with the right correction rather than a
+retreat into pure hedging (see that turn's note). The check now returns
+**0 findings across the whole transcript.**
 
 Mark's worry, directly: does this mechanism put pressure on lines like the
 Logos explanation — the kind of interpretive synthesis that makes this
@@ -284,7 +283,7 @@ sentence is "we." Note what it refuses to do: it doesn't guess what
 "someone like me" means, doesn't flatter, doesn't pre-soften what comes
 next.*
 
-> ✅ **Fixed, 2026-08-21.** The original text here claimed the SCHOOL took
+> ✅ **Fixed.** The original text here claimed the SCHOOL took
 > in Greeks and Egyptians, men and women, the learned and unlettered alike
 > — the fabrication `gate_grounded_claim` caught, flagged HIGH. Mark's
 > question on seeing it: *"do the records show more open into the
@@ -446,7 +445,7 @@ tell you what we held; the telling is not a judgment on you.
 
 *Craft note: an honest_limit built into an identity-collision turn — the
 gap (Clement's Stromateis III survives only in a Latin translation the
-project couldn't vendor; Mark's own accepted absence) is spoken as the
+project couldn't vendor; an accepted absence) is spoken as the
 voice's own honesty, in-world, exactly where the spec requires it to land,
 never as a system apology. Statement 1 answers the actual asked question
 ("could someone divorced belong") before the turn ever admits what it can't
@@ -477,22 +476,18 @@ that could carry this (e.g. `alx.contested.origen-positions`), but none of
 them yet has a matching spoken demonstration the way the eight turns above
 do, so nothing here was stretched to fill that shape.
 
-## Reconsidered and reaffirmed, 2026-09-01 (Cappadocian build thread)
+## The strict we-voice rule stands
 
-Reading a live conversation with Chilo (Cappadocian's own Representative -
-`Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §39), Mark questioned
-the strict we-voice rule this document's own SECOND RULING RECORD (via
-`records/alx/voice_craft/alx.voice.craft.md`) established: he wants "I am
-the voice of [the world]," with the world's own history spoken of in the
-third person plural. Told him plainly this is exactly the "I reserved for
-vocational acts" carve-out the second ruling dropped, and why: it read as
-an individual explaining themselves, not a world speaking - the same
-diagnosis this document's own header still names as the reason for the
-system-level pronoun fix.
-
-**Mark's decision: "if it is the same lets leave it for now and look
-deeper after the pilot."** The rule stands, fleet-wide, unchanged. Revisit
-after the pilot, not before - and when that thread opens, read this file
-and the SS39 account together before drafting anything, so the 2026-08-21
-reasoning is answered on its own terms rather than rediscovered from
-scratch.
+The strict we-voice rule established by this document's own SECOND RULING
+RECORD (via `records/alx/voice_craft/alx.voice.craft.md`) holds fleet-wide,
+unchanged. A competing formulation exists: "I am the voice of [the world],"
+with the world's own history spoken of in the third person plural. That is
+exactly the "I reserved for vocational acts" carve-out the second ruling
+dropped, and it stays dropped: it read as an individual explaining
+themselves, not a world speaking - the same diagnosis this document's own
+header names as the reason for the system-level pronoun fix. The
+Cappadocian account (`Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`
+§39) records the live conversation with Chilo that raised it. Revisit
+after the pilot, not before. Read this file and the SS39 account together
+before drafting anything, so the earlier reasoning is answered on its own
+terms rather than rediscovered from scratch.

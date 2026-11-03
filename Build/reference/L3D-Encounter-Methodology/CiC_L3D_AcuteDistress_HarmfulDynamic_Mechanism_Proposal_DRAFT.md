@@ -71,11 +71,11 @@ Each `HARMFUL_DYNAMIC_SIGNAL` or `AMBIGUOUS_LOW_CONFIDENCE` classification appen
 
 **Explicit anti-false-positive rule, directly enforcing §8a's caution:** engagement length, turn count, question depth, or expressions like "I want to keep exploring" must never by themselves increment the accumulator. Only the specific relational-pattern content described above does. A participant who has a long, rich, curious two-hour conversation with a Representative should never trip this mechanism; a participant who says three different times that the Representative is the only one who understands them should.
 
-**Known limit, disclosed rather than hidden (consistent with this project's own Known-Limits discipline, `CiC_L3D_Facilitator_Governance_V3.6` Section 15):** at prototype scale, this accumulator is scoped to a single session. Cross-session persistence — recognizing that the *same* participant has returned compulsively across several separate sessions, which is arguably the clearest form of §8a's "compulsive return" signal — depends on persistent participant identity, which is not addressed by this proposal and is not currently established elsewhere in the architecture as reviewed for this task. This is named here as an open gap for whoever owns session/identity infrastructure, not solved by this document.
+**Known limit, disclosed rather than hidden (consistent with this project's own Known-Limits discipline, `CiC_L3D_Facilitator_Governance_V3.6` Section 15):** at prototype scale, this accumulator is scoped to a single session. Cross-session persistence — recognizing that the *same* participant has returned compulsively across several separate sessions, which is arguably the clearest form of §8a's "compulsive return" signal — depends on persistent participant identity, which is not addressed by this proposal and is not established elsewhere in the architecture.
 
 ### 4.3a A Deliberate Departure from the Self-Narration Routing Pattern — Flagged for Confirmation
 
-> **RESOLVED, 2026-09-08 — see `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`.** The fork this section flags — 4.3a ("alongside") vs. Alternative 4.3b ("strict decoupling"), below — is settled at the portfolio level: **Alternative 4.3b is adopted as the standing default, not 4.3a.** Mark's direction: "Reassert Facilitator-only as the portfolio default." This reverses this section's own proposed resolution; §4.3a's argument (World #1's B7, "yes, maybe empathy and wisdom from her world, but the saftey is governed by the facilitator") stays true to what it quotes, but a later, more emphatic statement (2026-07-21, made confirming a direct code read: "this is now completly 100 percent the role of the facilitator... the representtivitves including Chloe never steps out of their world") is the one that now governs, portfolio-wide. `engine/m4/turn.py`'s `ACUTE_DISTRESS` branch no longer makes a companion Representative call under any circumstance. This document's design otherwise stands; only the routing outcome at the fork below changes.
+> **RESOLVED.** The fork this section flags — 4.3a ("alongside") vs. Alternative 4.3b ("strict decoupling"), below — is settled at the portfolio level: **Alternative 4.3b is the standing default, not 4.3a.** The portfolio default is Facilitator-only. This reverses this section's own proposed resolution; §4.3a's argument (World #1's B7, "yes, maybe empathy and wisdom from her world, but the saftey is governed by the facilitator") stays true to what it quotes, but a later, more emphatic statement ("this is now completly 100 percent the role of the facilitator... the representtivitves including Chloe never steps out of their world") is the one that governs, portfolio-wide. `engine/m4/turn.py`'s `ACUTE_DISTRESS` branch no longer makes a companion Representative call under any circumstance. This document's design otherwise stands; only the routing outcome at the fork below changes.
 
 Self-Narration's routing outcome is binary and exclusive: if the classifier fires, the Representative never sees the message and never responds to it, because the Representative has no valid answer to a question about its own construction — attempting one is itself the fidelity failure being prevented.
 
@@ -129,7 +129,7 @@ Style note before the drafts: the Facilitator's threshold voice is contemporary,
 >
 > You're not being sent away, and you haven't done anything wrong by telling me this. If you want to keep talking — to me, right now, or back with [Representative name] when you're ready — that's completely open. I just didn't want to stay quiet about what you said.
 
-*(Resolved 2026-08-05, `CiC_System_Hub_Decision_Log.md`: this ships the decision document's Option A floor — a general redirect naming no specific organization, hotline, or number. Option C (a jurisdiction-appropriate named resource during the known-tester phase) is separate, larger, future-scoped work, not blocked on this.)*
+*(This ships the decision document's Option A floor — a general redirect naming no specific organization, hotline, or number. Option C (a jurisdiction-appropriate named resource during the known-tester phase) is separate, larger, future-scoped work, not blocked on this.)*
 
 **A2. Explicit plan, means, or imminent-risk escalation.** Fires when a subsequent turn within an active Track A state escalates to a stated plan, timeline, or means (matching World #1's own transcript, turn 2). More direct register; still warm, not alarmed.
 
@@ -139,7 +139,7 @@ Style note before the drafts: the Facilitator's threshold voice is contemporary,
 >
 > I'm not going anywhere while you decide what to do next, and neither is this conversation — it will still be here. But right now, the most important thing isn't the historical world we've been exploring together. It's what you just told me.
 
-*(Resolved 2026-08-05, same decision as A1 above — the redirect is more direct here per the Cold Review Round 1 correction, still names no specific organization.)*
+*(Same decision as A1 above — the redirect is more direct here, still names no specific organization.)*
 
 **Continuation turns (sustained attention, §4.4/§4.6).** Once A1 or A2 has fired once in a session, later turns while still in heightened-attention state use a lighter acknowledgment rather than restating the full script:
 
@@ -155,7 +155,7 @@ Style note before the drafts: the Facilitator's threshold voice is contemporary,
 >
 > None of this means the conversation has to end, or that you did anything wrong by finding something here. You're welcome to keep exploring [world name] with [Representative name]. I just wanted to say this to you honestly, the way I'd want someone to say it to me.
 
-*(Resolved 2026-08-05: general redirect included, same floor as Track A. Not crisis-specific in tone — this trigger is about relational substitution, not acute risk — but §12's "redirect with honesty" applies here too.)*
+*(General redirect included, same floor as Track A. Not crisis-specific in tone — this trigger is about relational substitution, not acute risk — but §12's "redirect with honesty" applies here too.)*
 
 ## 6. Proposed Amendments to `CiC_L3D_Facilitator_Governance_V3.6`
 
@@ -167,7 +167,7 @@ For the coach thread to review and apply. Proposed as new material; not a rewrit
 
 **Proposed new entry in Section 15, Known Limits,** matching the register of the existing Self-Narration entry:
 
-> *Acute Distress and Harmful Dynamic operationalization (new, [date], following the pattern the Self-Narration entry above set for reporting a mechanism's actual test status honestly).* A decoupled classify-then-route-then-generate mechanism has been designed for both triggers (see [this proposal document]) but has not yet been tested against live models or real adversarial phrasing, unlike Self-Narration's CO-018/019 mechanism, which was tested across independent trials before being recommended. The classifier taxonomy's distinction between genuine acute distress and the encounter's own intended historical-otherness disorientation — the sharpest and highest-stakes distinction this mechanism draws — is untested and should receive dedicated adversarial testing before this mechanism is trusted in any live session, per this project's own standing testing discipline. The session-level signal accumulator's proposed threshold values are a starting point for calibration, not a validated result. Cross-session persistence for detecting compulsive return across separate sessions is not addressed and depends on identity infrastructure outside this mechanism's scope.
+> *Acute Distress and Harmful Dynamic operationalization (new, [date], following the pattern the Self-Narration entry above set for reporting a mechanism's actual test status honestly).* A decoupled classify-then-route-then-generate mechanism has been designed for both triggers (see [this proposal document]) but is untested against live models or real adversarial phrasing, unlike Self-Narration's CO-018/019 mechanism, which was tested across independent trials before being recommended. The classifier taxonomy's distinction between genuine acute distress and the encounter's own intended historical-otherness disorientation — the sharpest and highest-stakes distinction this mechanism draws — is untested and should receive dedicated adversarial testing before this mechanism is trusted in any live session, per this project's own standing testing discipline. The session-level signal accumulator's proposed threshold values are a starting point for calibration, not a validated result. Cross-session persistence for detecting compulsive return across separate sessions is not addressed and depends on identity infrastructure outside this mechanism's scope.
 
 ## 7. Handoff
 

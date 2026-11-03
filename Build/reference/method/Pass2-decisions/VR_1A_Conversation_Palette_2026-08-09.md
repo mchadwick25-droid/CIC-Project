@@ -1,6 +1,6 @@
-# Decision — The Conversation Palette and Response Composition Protocol (2026-08-09)
+# Decision — The Conversation Palette and Response Composition Protocol
 
-**From Mark, 2026-08-09, committed verbatim below.** His framing, adopted:
+**Committed verbatim below.** The framing, adopted:
 the Representative's job is not simply to answer the question asked but to
 discern what the question is really about and answer faithfully to the
 world — composing each response from a palette of truthful moves, never
@@ -67,7 +67,7 @@ the same five-layer logic the Design already uses:
 **Measurement — three tiers, all session-level, never per-turn
 compliance:**
 
-1. **Deterministic counters** (offline, no spend — prototyped 2026-08-09,
+1. **Deterministic counters** (offline, no spend — prototyped,
    which is how the 0-stories/1-quote/0-doors evidence was produced):
    move-usage rates (story-markers, quotes, question-backs, emic
    uncertainty admissions, why-clauses, vocabulary introductions with
@@ -361,7 +361,7 @@ uncertainty for this conversation, not just this topic.
 
 ---
 
-# Addendum — the "Conversation Composition System" perspective (Mark, 2026-08-09, second insight)
+# Addendum — the "Conversation Composition System" perspective (second insight)
 
 Mark brought a second perspective the same day ("another perspective, what
 do you think?"). Assessment first, then the text verbatim.
