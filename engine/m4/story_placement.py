@@ -34,14 +34,11 @@ scrub and before quote placement:
 
 A story record may carry two shorter reviewed tellings, `telling_short` and
 `telling_medium`, beside its full `telling`. The marker may name the length:
-`[[story:<id>:short]]`, `:medium` or `:full`. The voice chooses; code checks. A
-missing or unknown length is medium, or full when the record has no medium. A
-short or medium telling that does not fit the words left in the reply (the room
-is REPLY_WORD_ROOM less the words the voice itself wrote) falls to the next
-shorter length the record has, and stays at the shortest it has. A full telling
-is not checked for room, since the voice is told to ask for it only when the
-participant asks for the story itself. A record with no shorter tellings places
-its full telling, as before. The length told is returned in "placed_lengths".
+`[[story:<id>:short]]`, `:medium` or `:full`. The voice chooses, from the
+length line's guidance; code places the length it names when the record has
+it. A missing or unknown length is medium, or full when the record has no
+medium. A record with no shorter tellings places its full telling. The length
+told is returned in "placed_lengths".
 
 Each placed sentence is returned in "placed_sentences", and the grounding
 net verifies it against the telling word for word
@@ -95,7 +92,6 @@ _CLOSING = re.compile(r"([.!?]+[\"'”’)]*)\s*$")
 REASON_STORY_NOT_OFFERED = "story record not offered for placement this turn"
 
 LENGTHS = ("short", "medium", "full")
-REPLY_WORD_ROOM = 220
 _LENGTH_FIELD = {"short": "telling_short", "medium": "telling_medium", "full": "telling"}
 REASON_SECOND_STORY = "second placed story in one reply"
 REASON_STORY_INTRO = "introduction names someone the story does not"
@@ -157,18 +153,11 @@ def story_lines(offers: list[dict]) -> list[str]:
     return lines
 
 
-def choose_length(record: dict, requested: str | None, room: int) -> str:
+def choose_length(record: dict, requested: str | None) -> str:
     """The length to place: the one asked for when the record has it, else
-    medium (full when there is no medium); a short or medium that does not fit
-    `room` words falls to the next shorter the record has."""
+    medium (full when there is no medium)."""
     texts = story_texts(record)
-    want = requested if requested in texts else ("medium" if "medium" in texts else "full")
-    while want != "full" and len(texts[want].split()) > room:
-        shorter = [name for name in LENGTHS[: LENGTHS.index(want)] if name in texts]
-        if not shorter:
-            break
-        want = shorter[-1]
-    return want
+    return requested if requested in texts else ("medium" if "medium" in texts else "full")
 
 
 def place_stories(tagged_text: str, *, repository_records: dict[str, dict], context: PlacementContext) -> dict:
@@ -180,7 +169,6 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
     report = _Report()
     placed: list[str] = []
     placed_lengths: dict[str, str] = {}
-    room = REPLY_WORD_ROOM - len(strip_tags(STORY_MARKER.sub("", tagged_text or "")).split())
     paragraphs_out: list[list[str]] = []
     unplaced = context.offered_stories - context.told_stories
     if not STORY_MARKER.search(tagged_text or "") and not unplaced & set(_TAG.findall(tagged_text or "")):
@@ -214,7 +202,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
                 if kept:
                     paragraphs_out.append(kept)
                 kept = []
-                length = choose_length(record, requested, room)
+                length = choose_length(record, requested)
                 placed_lengths[record["id"]] = length
                 for block in _telling_paragraphs(record, story_texts(record)[length]):
                     for tagged in block:

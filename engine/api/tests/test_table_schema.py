@@ -239,3 +239,11 @@ def test_table_engagement_directive_forbids_a_fabricated_facilitator_line():
             # the prohibition is the first real instruction, ahead of the
             # phrase that likely triggered the fabrication in the live sample
             assert text.index("never write a line for the Facilitator") < text.index("You know the other voices")
+
+
+def test_the_table_stances_give_the_traditions_perspective_as_we_and_carry_no_strict_we_voice():
+    from engine.api.table_wiring import _table_engagement_directive
+    for subject in (True, False):
+        text = _table_engagement_directive(own_world_is_subject=subject, is_second_pass=False, is_final_turn=False, num_seats=2)
+        assert "we-voice" not in text
+        assert "saying \"we\" for your tradition's own perspective" in text

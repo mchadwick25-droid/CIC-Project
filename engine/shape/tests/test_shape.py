@@ -77,3 +77,7 @@ def test_the_pronoun_rule_keeps_the_identity_line_at_most_once_per_turn_and_answ
     rule = _pronoun_rule()
     assert "'I am a representative of'" in rule and "at most once per turn" in rule
     assert "Asked why it says 'we', the voice answers plainly" in rule
+
+
+def test_the_pronoun_rule_no_longer_bans_explaining_what_is_speaking():
+    assert "kind of thing is speaking" not in _pronoun_rule()
