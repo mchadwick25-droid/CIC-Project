@@ -1450,7 +1450,7 @@ def assemble_evidence(
         ]
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=uncapped, thin_topics=thin_topics)
     selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
-    selected = passage_offer.interleave(selected, passage_candidates or [])
+    selected = passage_offer.offer_contents(selected, passage_candidates or [])
 
     result = {
         "cells": cell_matches,

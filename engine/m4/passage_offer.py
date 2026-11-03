@@ -105,6 +105,11 @@ def interleave(records: list[dict], passages: list[dict]) -> list[dict]:
     return merged
 
 
+def offer_contents(records: list[dict], passages: list[dict]) -> list[dict]:
+    """What the offer holds: the single place that decides it, so a later rule (records first with search on a missing or partial record, a stored-answer match) is added here and nowhere else."""
+    return interleave(records, passages)
+
+
 def records_by_id(passages: list[dict]) -> dict[str, dict]:
     return {p["tag"]: record_for(p) for p in passages}
 
