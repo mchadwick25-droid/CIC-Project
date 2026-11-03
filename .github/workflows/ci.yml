@@ -362,6 +362,35 @@ jobs:
       - if: github.event_name != 'pull_request'
         run: python tools/check_live_commentary.py
 
+  # Everything the project writes in modern English uses American spelling
+  # (Answering-From-Sources Decision-Log 77); quotations from editions, quoted
+  # titles and proper names keep their own. The check reads only the files the
+  # PR edits, in the trees tools/check_spelling.py has moved into ENFORCED once
+  # their fleet pass landed; elsewhere it reports and never fails.
+  spelling:
+    name: American spelling (files this PR edits)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: /tools/
+          sparse-checkout-cone-mode: false
+      - name: Write out the files this PR edits
+        run: |
+          base="$(git merge-base "origin/${{ github.base_ref }}" HEAD)"
+          { printf '/engine/__init__.py\n/engine/m1/__init__.py\n/engine/m1/spelling_table.py\n'
+            git diff --name-only --diff-filter=AM "$base" HEAD | sed 's/[][*?\\]/\\&/g; s|^|/|'
+          } | git sparse-checkout add --stdin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: python tools/check_spelling.py --base "origin/${{ github.base_ref }}" --enforce
+
   # A PR that touches a world's records or its build documents runs that
   # world's after-edit gates: required record types and the site JSON with no
   # waiver for them on a new world, readability and the voice-craft budget on
@@ -867,8 +896,8 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py tools/tests/test_live_watch.py -q
+      - run: pip install pytest pyyaml
+      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py tools/tests/test_live_watch.py tools/tests/test_check_spelling.py -q
 
   docker-build:
     needs: changes

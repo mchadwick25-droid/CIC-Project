@@ -970,3 +970,11 @@ Carried out under Spec 5 (chunk D3). Nothing new was decided. Files: `Design-Fai
 - Written by drafting helpers that saw only the world's name, era, region, a one-paragraph description from its Doc_01, and its shelf's bare work titles and authors. The request files are kept in `Heldout/requests/`; a test checks they hold no sub-question id, record id or source-set path.
 - Overlap check (`Heldout/heldout.py overlap`, report `Heldout/overlap_report.txt`): no question is a near-duplicate of a sub-question wording, the bench questions, the 106 lpc questions or the CP.9 questions by word overlap, or of a sealed probe by hash of normalized text. Eight rounds of rewrites by fresh helpers cleared the flags; the matched wordings were never shown to a helper.
 - Two Opus reviews. The first found shelf lists carrying edition and topic notes, questions that addressed the voice as one named person, and leading or text-hinting questions; the set was redrafted from cleaned requests under tighter rules. The second found four hard defects and some softer ones; the hard ones and the text-hinting ones were rewritten. Left as reviewed: some near-repeat pairs within a world, a few stock questions across worlds, and two worlds one question short of a fifth long (lpc) or short (witt). Any change from here is a change order.
+
+## 77. American spelling for everything written in modern English (2026-11-03)
+
+Mark, 2026-11-03, by choice box: "American (Recommended)".
+
+- Everything the project writes in modern English uses American spelling: modern renderings, notes, voice records, Facilitator text, the site's own prose, and the construction documents' own prose.
+- Verbatim quotations from editions, quoted titles and proper names keep their own spelling.
+- Work, in order: this entry; a mechanical check in `tools/` that runs on the files a pull request touches, wired into CI the way the live-commentary check is; the fleet pass over `records/` modern-English fields, `engine/shape` voice records and `cic-website/` prose, one pull request per surface, with packages repinned, the readability gate passing and an Opus sample check that no quotation or name changed. The `Build/` documents follow last.
