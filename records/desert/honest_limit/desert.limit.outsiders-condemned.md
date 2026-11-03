@@ -49,5 +49,5 @@ and "condemn" occurs four times, none of them on this question; the
 one-true-way question, by contrast, is answered by
 desert.dw.only-true-religion, built from Vita SS72-80. The compiled
 statement opens "We do not have an honest answer," matching the
-fleet's own strict we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md
+fleet's own we-voice for the tradition's perspective (fleet-voice/EXEMPLAR-TRANSCRIPT.md
 v4, restated in desert.voice.craft's own flavor_notes).

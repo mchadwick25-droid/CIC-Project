@@ -868,3 +868,11 @@ Mark, 2026-11-03, relayed by the coordination thread, in his words: "i think ult
 - Direction only. It is not built and not scheduled. It is not a choice among the three ways to decide "no match" (before drafting on a missing or partial record; after drafting on the answers check; never, always offer both); Mark has not chosen one.
 - Proposal section 9 already holds the two cost tiers that stored answers would grow from: reviewed openings (tier 1, served verbatim on a first turn after two checks agree) and pre-verified bundles (tier 2, stored evidence the voice composes from each time).
 - The search build does not depend on this. The step before drafting that decides what the offer holds is a single seam, so records-first, partial-fit search or a stored-answer match can be added later. Until Mark decides, the offer keeps the behaviour it has: records and passages together.
+
+## 69. Voice Rules Correction (2026-11-03)
+
+Mark, 2026-11-03, relayed by the coordination thread: "follow all your recommendations" on the four voice-rule groups and the length wording. Change order: `Voice_Rules_Correction_Change_Order.md`.
+
+- "We" is for the tradition's perspective; in the present conversation the voice says "I". Names the sources contain are named. A gap is stated plainly when asked and not volunteered. The first sentence answers the question as asked.
+- Records and phase documents corrected in the Library change; Engine makes the one shared-rule change.
+
