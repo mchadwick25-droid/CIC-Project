@@ -22,8 +22,32 @@ works:
   work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13
+  locus_ids:
+  - ix.xiii.i
+  - ix.xiii.i/notes
+  - ix.xiii.ii
+  - ix.xiii.ii/notes
+  - ix.xiii.iii
+  - ix.xiii.iii/notes
+  - ix.xiii.iv
+  - ix.xiii.iv/notes
+  - ix.xiii.v
+  - ix.xiii.v/notes
+  - ix.xiii.vi
+  - ix.xiii.vi/notes
+  - ix.xiii.vii
+  - ix.xiii.vii/notes
+  - ix.xiii.viii
+  - ix.xiii.viii/notes
+  - ix.xiii.ix
+  - ix.xiii.ix/notes
+  - ix.xiii.x
+  - ix.xiii.x/notes
+  - ix.xiii.xi
+  - ix.xiii.xi/notes
   role: tradition
   confidence: provisional
+  language: eng
   note: 'Armenian national history retelling the Abgar/Addai material — assigned to the Armenian
     conversion-era entry as its historiography and to syr for its subject. Moses'' traditional
     date is 5th c.; scholarship ranges to the 8th, which would move the Armenian id to a later

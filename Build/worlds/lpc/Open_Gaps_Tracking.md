@@ -2782,3 +2782,10 @@ Mark accepted Stage 4 as the shadow proof on lpc (Decision-Log 49). These two it
 - **Done.** For a work the corpus map marks `kind: anonymous` in `UNATTRIBUTED.yaml`, the row's author slug names the work itself (`passion-of-scillitan-martyrs`, `council-of-carthage-419`), so a seed printed a work title as its author. The seed builder now writes `author: anonymous` and keeps the slug in a new `author_slug` field; 14 seed entries in the lpc file changed (12 Scillitan Martyrs, 2 Council of Carthage 419). alx, syr and rzg have none.
 - **Open.** Some `pseudonymous` slugs are also work titles (alx `liturgy-of-st-mark`, syr `liturgy-of-addai-and-mari`); the file cannot tell a title-shaped slug from a pseudonym, so they are left as they are. A rule for them is a call for the Library or Engine.
 - **Owner.** Library thread, through the coordination thread.
+
+## OG-164. Reach under the lens counted by the index, not by the rows (2026-11-03)
+
+- **Finding.** The index ties every passage in a multi-row file to all of the file's rows, so a count taken from the index shows lpc at 23.5% reachable. The lpc rows already carry division lists, and by the division test the seeds use, 17,092 of 20,149 English passages that are not apparatus (84.8%; 4,856,172 of 5,637,121 words) bind to one row.
+- **The remaining 3,057 passages** are editors' prefaces, introductory essays and arguments, and works the lpc rows do not name: the non-African councils in NPNF 2.14 (1,174), Hippolytus's Refutation in ANF 5, and the Augustine volumes' front matter. No row change is needed.
+- **Open.** The index still ties by file. A passage-level tie by `locus_ids` in the index builder would make the index count match the rows; that is a builder change, not a row change.
+- **Owner.** Library thread, through the coordination thread.

@@ -211,8 +211,45 @@ works:
   work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
+  locus_ids:
+  - xii.iii/line20200
+  - xii.iii/notes
+  - xii.iii/line20244
+  - xii.iii/line20300
+  - xii.iii/line20357
+  - xii.iii/line20417
+  - xii.iii/line20501
+  - xii.iii/line20518
+  - xii.iii/line20578
+  - xii.iii/line20630
+  - xii.iii/line20675
+  - xii.iii/line20739
+  - xii.iii/line20763
+  - xii.iii/line20816
+  - xii.iii/line20900
+  - xii.iii/line20924
+  - xii.iii/line20940
+  - xii.iii/line20961
+  - xii.iii/line20993
+  - xii.iii/line21009
+  - xii.iii/line21045
+  - xii.iii/line21065
+  - xii.iii/line21090
+  - xii.iii/line21142
+  - xii.iii/line21174
+  - xii.iii/line21210
+  - xii.iii/line21267
+  - xii.iii/line21271
+  - xii.iii/line21335
+  - xii.iii/line21392
+  - xii.iii/line21408
+  - xii.iii/line21464
+  - xii.iii/line21585
+  - xii.iii/line21629
+  - xii.iii/line21665
   role: tradition
   confidence: provisional
+  language: eng
   note: 'Declined for `alexandria-catechetical`, on the edition''s own evidence rather than
     a judgement call. The ANF text carries an editorial note at the Only-begotten Son troparion:
     "It is so worded that it must be dated later than the Council of Ephesus, a.d. 431." alexandria-catechetical''s

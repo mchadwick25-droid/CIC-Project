@@ -48,6 +48,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [iii.iv.i, iii.iv.ii, iii.iv.iii, iii.iv.iv, iii.iv.v, iii.iv.vi, iii.iv.vii, iii.iv.viii, iii.iv.ix, iii.iv.x, iii.iv.x/notes, iii.iv.xi, iii.iv.xii, iii.iv.xiii, iii.iv.xiv, iii.iv.xiv/notes, iii.iv.xv, iii.iv.xvi, iii.iv.xvii, iii.iv.xviii, iii.iv.xix, iii.iv.xx, iii.iv.xxi, iii.iv.xxii, iii.iv.xxiii, iii.iv.xxiv, iii.iv.xxv, iii.iv.xxvi, iii.iv.xxvii, iii.iv.xxviii, iii.iv.xxix, iii.iv.xxx, iii.iv.xxxi, iii.iv.xxxii, iii.iv.xxxiii, iii.iv.xxxiv, iii.iv.xxxv, iii.iv.xxxvi, iii.iv.xxxvii, iii.iv.xxxviii, iii.iv.xxxix, iii.iv.xxxix/notes, iii.iv.xl, iii.iv.xli, iii.iv.xlii, iii.iv.xliii, iii.iv.xliv, iii.iv.xliv/notes, iii.iv.xlv, iii.iv.xlvi, iii.iv.xlvii, iii.iv.xlviii]
+    language: eng
     note: >
       Hymns on the sieges of Nisibis, its bishops, and the church of Edessa -
       the built Syriac world's own ground, by its central poet. Ephraim's
@@ -62,6 +64,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [iii.v.i, iii.v.ii, iii.v.ii/notes, iii.v.iii, iii.v.iii/notes, iii.v.iv/line20697, iii.v.iv/line20722, iii.v.iv/notes, iii.v.iv/line20784, iii.v.iv/line20868, iii.v.iv/line20915, iii.v.iv/line20985, iii.v.v, iii.v.v/notes, iii.v.vi, iii.v.vi/notes, iii.v.vii, iii.v.vii/notes, iii.v.viii, iii.v.viii/notes, iii.v.ix, iii.v.ix/notes, iii.v.x, iii.v.x/notes, iii.v.xi, iii.v.xi/notes, iii.v.xii, iii.v.xii/notes, iii.v.xiii, iii.v.xiii/notes, iii.v.xiv, iii.v.xiv/notes, iii.v.xv, iii.v.xv/notes, iii.v.xvi, iii.v.xvii, iii.v.xvii/notes, iii.v.xviii, iii.v.xix, iii.v.xix/notes, iii.v.xx, iii.v.xx/notes]
+    language: eng
     note: >
       Ephraim's Nativity cycle - Syriac symbolic theology at full strength;
       core tradition material for the built world.
@@ -74,6 +78,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [iii.vi.i, iii.vi.ii, iii.vi.ii/notes, iii.vi.iii, iii.vi.iii/notes, iii.vi.iv, iii.vi.v, iii.vi.vi, iii.vi.vii, iii.vi.viii, iii.vi.viii/notes, iii.vi.ix, iii.vi.ix/notes, iii.vi.x, iii.vi.xi, iii.vi.xi/notes, iii.vi.xii, iii.vi.xii/notes, iii.vi.xiii, iii.vi.xiv, iii.vi.xv, iii.vi.xvi]
+    language: eng
     note: >
       Epiphany/baptismal hymns; the edition's own notes discuss doubted
       authenticity for parts of the cycle, but CCEL attributes the section
@@ -87,6 +93,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [iii.vii.i, iii.vii.ii, iii.vii.ii/notes, iii.vii.iii, iii.vii.iii/notes, iii.vii.iv, iii.vii.iv/notes, iii.vii.v, iii.vii.v/notes, iii.vii.vi, iii.vii.vi/notes, iii.vii.vii, iii.vii.vii/notes, iii.vii.viii, iii.vii.viii/notes]
+    language: eng
     note: >
       Seven hymns from the Hymns on the Faith, on the pearl as image of
       Christ and the faith.
@@ -99,6 +107,8 @@ assignments:
       - syriac-edessa-nisibis
     role: tradition
     confidence: assigned
+    locus_ids: [iii.viii.i, iii.viii.ii/line27070, iii.viii.ii/line27119, iii.viii.ii/notes, iii.viii.ii/line27152, iii.viii.ii/line27200, iii.viii.ii/line27234, iii.viii.ii/line27279, iii.viii.ii/line27296, iii.viii.ii/line27320, iii.viii.ii/line27338, iii.viii.ii/line27366, iii.viii.ii/line27399, iii.viii.ii/line27444, iii.viii.ii/line27461, iii.viii.ii/line27481, iii.viii.ii/line27508, iii.viii.ii/line27542, iii.viii.ii/line27582, iii.viii.ii/line27607, iii.viii.ii/line27639, iii.viii.ii/line27684, iii.viii.ii/line27715, iii.viii.ii/line27734, iii.viii.ii/line27754, iii.viii.ii/line27788, iii.viii.ii/line27815, iii.viii.ii/line27843, iii.viii.ii/line27873, iii.viii.ii/line27915, iii.viii.ii/line27950, iii.viii.ii/line27970, iii.viii.ii/line28042, iii.viii.ii/line28076, iii.viii.ii/line28102, iii.viii.ii/line28141, iii.viii.ii/line28172, iii.viii.ii/line28190, iii.viii.ii/line28236, iii.viii.ii/line28255, iii.viii.ii/line28306, iii.viii.ii/line28330, iii.viii.ii/line28362, iii.viii.ii/line28418, iii.viii.ii/line28449, iii.viii.ii/line28471, iii.viii.ii/line28492, iii.viii.ii/line28519, iii.viii.ii/line28548, iii.viii.ii/line28594, iii.viii.ii/line28628, iii.viii.ii/line28658, iii.viii.ii/line28676, iii.viii.ii/line28699, iii.viii.ii/line28729, iii.viii.iii/line28751, iii.viii.iii/line28785, iii.viii.iii/line28801, iii.viii.iii/line28822, iii.viii.iii/notes, iii.viii.iii/line28840, iii.viii.iii/line28870, iii.viii.iii/line28899, iii.viii.iii/line28942, iii.viii.iii/line28958, iii.viii.iii/line28973, iii.viii.iii/line29005, iii.viii.iii/line29040, iii.viii.iii/line29063, iii.viii.iii/line29083, iii.viii.iii/line29100, iii.viii.iii/line29119, iii.viii.iii/line29135, iii.viii.iii/line29161, iii.viii.iii/line29187, iii.viii.iv/line29200, iii.viii.iv/notes, iii.viii.iv/line29219, iii.viii.iv/line29249, iii.viii.iv/line29278, iii.viii.iv/line29295, iii.viii.iv/line29325, iii.viii.iv/line29356, iii.viii.iv/line29373, iii.viii.iv/line29390, iii.viii.iv/line29412, iii.viii.iv/line29448, iii.viii.iv/line29480]
+    language: eng
     note: >
       The volume's selection of Ephraim's metrical homilies, kept as the one
       body the heading presents.
@@ -112,6 +122,8 @@ assignments:
       - persian-church-of-the-east-early
     role: tradition
     confidence: assigned
+    locus_ids: [iii.iii.iii/line14584, iii.iii.iii/line14618, iii.iii.iii/notes, iii.iii.iii/line14648, iii.iii.iii/line14667, iii.iii.iii/line14688, iii.iii.iii/line14711, iii.iii.iii/line14737, iii.iii.iii/line14760, iii.iii.iii/line14790, iii.iii.iii/line14860, iii.iii.iii/line14902, iii.iii.iii/line14972, iii.iii.iii/line15011, iii.iii.iii/line15035, iii.iii.iii/line15063, iii.iii.iii/line15097, iii.iii.iii/line15118, iii.iii.iii/line15147, iii.iii.iii/line15183, iii.iii.iii/line15214, iii.ix.i, iii.ix.ii, iii.ix.ii/notes, iii.ix.iii/line29631, iii.ix.iii/notes, iii.ix.iii/line29653, iii.ix.iii/line29674, iii.ix.iii/line29691, iii.ix.iii/line29728, iii.ix.iii/line29748, iii.ix.iii/line29781, iii.ix.iii/line29817, iii.ix.iii/line29862, iii.ix.iii/line29895, iii.ix.iii/line29937, iii.ix.iii/line29969, iii.ix.iii/line29988, iii.ix.iii/line30016, iii.ix.iii/line30055, iii.ix.iii/line30090, iii.ix.iv/line30105, iii.ix.iv/notes, iii.ix.iv/line30125, iii.ix.iv/line30171, iii.ix.iv/line30215, iii.ix.iv/line30240, iii.ix.iv/line30260, iii.ix.iv/line30282, iii.ix.iv/line30307, iii.ix.iv/line30355, iii.ix.iv/line30378, iii.ix.iv/line30412, iii.ix.iv/line30436, iii.ix.iv/line30462, iii.ix.iv/line30477, iii.ix.iv/line30516, iii.ix.iv/line30536, iii.ix.iv/line30598, iii.ix.iv/line30621, iii.ix.iv/line30672, iii.ix.iv/line30697, iii.ix.iv/line30725, iii.ix.v/line30767, iii.ix.v/notes, iii.ix.v/line30835, iii.ix.v/line30924, iii.ix.v/line30952, iii.ix.v/line30981, iii.ix.v/line31002, iii.ix.v/line31038, iii.ix.v/line31101, iii.ix.v/line31117, iii.ix.v/line31166, iii.ix.v/line31180, iii.ix.v/line31228, iii.ix.v/line31261, iii.ix.v/line31293, iii.ix.v/line31327, iii.ix.v/line31386, iii.ix.v/line31424, iii.ix.v/line31484, iii.ix.v/line31530, iii.ix.vi/line31561, iii.ix.vi/notes, iii.ix.vi/line31582, iii.ix.vi/line31620, iii.ix.vi/line31648, iii.ix.vi/line31688, iii.ix.vi/line31708, iii.ix.vi/line31740, iii.ix.vi/line31782, iii.ix.vi/line31807, iii.ix.vi/line31846, iii.ix.vi/line31875, iii.ix.vi/line31910, iii.ix.vi/line31926, iii.ix.vi/line31955, iii.ix.vi/line31983, iii.ix.vi/line32007, iii.ix.vi/line32026, iii.ix.vi/line32041, iii.ix.vi/line32059, iii.ix.vi/line32077, iii.ix.vii/line32092, iii.ix.vii/notes, iii.ix.vii/line32115, iii.ix.vii/line32155, iii.ix.vii/line32190, iii.ix.vii/line32220, iii.ix.vii/line32244, iii.ix.vii/line32266, iii.ix.vii/line32327, iii.ix.viii/line32358, iii.ix.viii/notes, iii.ix.viii/line32390, iii.ix.viii/line32428, iii.ix.viii/line32477, iii.ix.viii/line32526, iii.ix.viii/line32562, iii.ix.viii/line32584, iii.ix.viii/line32671, iii.ix.ix/line32697, iii.ix.ix/notes, iii.ix.ix/line32718, iii.ix.ix/line32743, iii.ix.ix/line32791, iii.ix.ix/line32832, iii.ix.ix/line32869, iii.ix.ix/line32901, iii.ix.ix/line32931, iii.ix.ix/line32986, iii.ix.ix/line33022, iii.ix.ix/line33048, iii.ix.ix/line33084, iii.ix.ix/line33100, iii.ix.ix/line33117, iii.ix.ix/line33136, iii.ix.ix/line33153, iii.ix.ix/line33197, iii.ix.ix/line33219, iii.ix.ix/line33246, iii.ix.ix/line33283, iii.ix.ix/line33308, iii.ix.x/line33329, iii.ix.x/notes, iii.ix.x/line33351, iii.ix.x/line33378, iii.ix.x/line33422, iii.ix.x/line33466, iii.ix.x/line33531, iii.ix.x/line33565, iii.ix.x/line33587, iii.ix.x/line33621, iii.ix.x/line33669, iii.ix.x/line33698, iii.ix.x/line33727, iii.ix.x/line33748, iii.ix.x/line33770, iii.ix.x/line33795, iii.ix.x/line33819, iii.ix.x/line33837, iii.ix.x/line33853, iii.ix.x/line33908, iii.ix.x/line33956]
+    language: eng
     note: >
       The Persian Sage, writing 337-345 inside the Persian empire under
       Shapur II - earliest major witness of Syriac Christianity, assigned

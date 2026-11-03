@@ -95,8 +95,1135 @@ works:
   work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
+  locus_ids:
+  - iii.i
+  - iii.ii
+  - iii.iii
+  - iii.iii.i.i
+  - iii.iii.i.ii/line1226
+  - iii.iii.i.ii/line1308
+  - iii.iii.i.ii/line1338
+  - iii.iii.i.ii/line1393
+  - iii.iii.i.ii/line1423
+  - iii.iii.i.ii/line1482
+  - iii.iii.i.ii/line1536
+  - iii.iii.i.ii/line1553
+  - iii.iii.i.iii
+  - iii.iii.i.iv
+  - iii.iii.i.v/line1861
+  - iii.iii.i.v/line1909
+  - iii.iii.i.v/line1974
+  - iii.iii.i.v/line2022
+  - iii.iii.i.v/notes
+  - iii.iii.i.v/line2096
+  - iii.iii.i.v/line2161
+  - iii.iii.i.v/line2201
+  - iii.iii.i.v/line2267
+  - iii.iii.i.v/line2299
+  - iii.iii.i.v/line2345
+  - iii.iii.i.v/line2382
+  - iii.iii.i.v/line2406
+  - iii.iii.i.v/line2458
+  - iii.iii.i.vi
+  - iii.iii.i.vii/line2624
+  - iii.iii.i.vii/line2699
+  - iii.iii.i.vii/line2730
+  - iii.iii.i.vii/line2814
+  - iii.iii.i.vii/line2861
+  - iii.iii.i.viii
+  - iii.iii.i.ix
+  - iii.iii.ii.i
+  - iii.iii.ii.ii/line3202
+  - iii.iii.ii.ii/line3226
+  - iii.iii.ii.ii/notes
+  - iii.iii.ii.ii/line3251
+  - iii.iii.ii.ii/line3281
+  - iii.iii.ii.ii/line3322
+  - iii.iii.ii.ii/line3360
+  - iii.iii.ii.ii/line3393
+  - iii.iii.ii.ii/line3429
+  - iii.iii.ii.ii/line3465
+  - iii.iii.ii.ii/line3501
+  - iii.iii.ii.ii/line3534
+  - iii.iii.ii.ii/line3589
+  - iii.iii.ii.ii/line3632
+  - iii.iii.ii.ii/line3661
+  - iii.iii.ii.ii/line3722
+  - iii.iii.ii.ii/line3740
+  - iii.iii.ii.ii/line3764
+  - iii.iii.ii.ii/line3791
+  - iii.iii.ii.ii/line3813
+  - iii.iii.ii.ii/line3839
+  - iii.iii.ii.ii/line3899
+  - iii.iii.ii.ii/line3921
+  - iii.iii.ii.ii/line3960
+  - iii.iii.ii.ii/line3985
+  - iii.iii.ii.ii/line4018
+  - iii.iii.ii.ii/line4051
+  - iii.iii.ii.ii/line4080
+  - iii.iii.ii.ii/line4102
+  - iii.iii.ii.ii/line4137
+  - iii.iii.ii.ii/line4166
+  - iii.iii.ii.ii/line4193
+  - iii.iii.ii.ii/line4397
+  - iii.iii.ii.ii/line4450
+  - iii.iii.ii.ii/line4475
+  - iii.iii.ii.ii/line4505
+  - iii.iii.ii.ii/line4546
+  - iii.iii.ii.ii/line4578
+  - iii.iii.ii.ii/line4612
+  - iii.iii.ii.ii/line4651
+  - iii.iii.ii.ii/line4704
+  - iii.iii.ii.ii/line4744
+  - iii.iii.ii.ii/line4784
+  - iii.iii.ii.ii/line4844
+  - iii.iii.ii.ii/line4865
+  - iii.iii.ii.ii/line4901
+  - iii.iii.ii.ii/line4925
+  - iii.iii.ii.ii/line4963
+  - iii.iii.iii.i
+  - iii.iii.iii.ii
+  - iii.iii.iii.iii/line5188
+  - iii.iii.iii.iii/line5243
+  - iii.iii.iii.iii/line5266
+  - iii.iii.iii.iii/line5295
+  - iii.iii.iii.iii/line5332
+  - iii.iii.iii.iii/line5362
+  - iii.iii.iii.iii/line5392
+  - iii.iii.iii.iii/line5433
+  - iii.iii.iii.iii/line5451
+  - iii.iii.iii.iii/line5472
+  - iii.iii.iii.iii/line5500
+  - iii.iii.iii.iii/line5531
+  - iii.iii.iii.iii/line5569
+  - iii.iii.iii.iii/line5600
+  - iii.iii.iii.iv/line5635
+  - iii.iii.iii.iv/line5678
+  - iii.iii.iii.iv/line5721
+  - iii.iii.iii.iv/line5743
+  - iii.iii.iii.iv/line5790
+  - iii.iii.iii.iv/line5813
+  - iii.iii.iii.iv/line5836
+  - iii.iii.iii.iv/line5868
+  - iii.iii.iii.iv/line5894
+  - iii.iii.iii.iv/line5918
+  - iii.iii.iii.iv/line5951
+  - iii.iii.iii.iv/line5978
+  - iii.iii.iii.v
+  - iii.iv/line6060
+  - iii.iv/notes
+  - iii.iv/line6137
+  - iii.iv/line6159
+  - iii.iv/line6184
+  - iii.iv/line6213
+  - iii.iv/line6245
+  - iii.iv/line6279
+  - iii.iv/line6317
+  - iii.iv/line6357
+  - iii.iv/line6381
+  - iii.iv/line6422
+  - iii.iv/line6466
+  - iii.iv/line6522
+  - iii.iv/line6566
+  - iii.iv/line6601
+  - iii.iv/line6636
+  - iii.iv/line6661
+  - iii.iv/line6688
+  - iii.iv/line6720
+  - iii.iv/line6768
+  - iii.iv/line6801
+  - iii.iv/line6843
+  - iii.iv/line6878
+  - iii.iv/line6920
+  - iii.iv/line6941
+  - iii.iv/line6973
+  - iii.iv/line7017
+  - iii.iv/line7039
+  - iii.iv/line7073
+  - iii.iv/line7114
+  - iii.iv/line7153
+  - iii.iv/line7181
+  - iii.v/line7214
+  - iii.v/notes
+  - iii.v/line7259
+  - iii.v/line7305
+  - iii.v/line7340
+  - iii.v/line7373
+  - iii.v/line7429
+  - iii.v/line7476
+  - iii.v/line7520
+  - iii.v/line7635
+  - iii.v/line7663
+  - iii.v/line7689
+  - iii.v/line7749
+  - iii.v/line7787
+  - iii.vi.i
+  - iii.vi.i/notes
+  - iii.vi.ii
+  - iii.vi.ii/notes
+  - iii.vi.iii
+  - iii.vi.iii/notes
+  - iii.vi.iv
+  - iii.vi.iv/notes
+  - iii.vi.v
+  - iii.vi.v/notes
+  - iii.vi.vi
+  - iii.vi.vi/notes
+  - iii.vi.vii
+  - iii.vi.vii/notes/line775
+  - iii.vi.vii/notes/line800
+  - iii.vi.vii/notes/line829
+  - iii.vi.vii/notes/line851
+  - iii.vi.vii/notes/line882
+  - iii.vi.vii/notes/line905
+  - iii.vi.vii/notes/line924
+  - iii.vi.vii/notes/line954
+  - iii.vi.vii/notes/line993
+  - iii.vi.vii/notes/line1016
+  - iii.vi.vii/notes/line1050
+  - iii.vi.vii/notes/line1075
+  - iii.vi.vii/notes/line1106
+  - iii.vi.vii/notes/line1128
+  - iii.vi.vii/notes/line1155
+  - iii.vi.vii/notes/line1196
+  - iii.vi.viii
+  - iii.vi.viii/notes
+  - iii.vi.ix
+  - iii.vi.ix/notes
+  - iii.vi.x
+  - iii.vi.x/notes
+  - iii.vi.xi
+  - iii.vi.xi/notes
+  - iii.vi.xii
+  - iii.vi.xii/notes
+  - iii.vi.xiii
+  - iii.vi.xiii/notes
+  - iii.vii.i
+  - iii.vii.ii
+  - iii.vii.ii/notes
+  - iii.vii.iii
+  - iii.vii.iii/notes
+  - iii.vii.iv
+  - iii.vii.iv/notes
+  - iii.vii.v
+  - iii.vii.v/notes
+  - iii.vii.vi
+  - iii.vii.vi/notes
+  - iii.vii.vii
+  - iii.vii.vii/notes
+  - iii.vii.viii
+  - iii.vii.viii/notes
+  - iii.vii.ix
+  - iii.vii.ix/notes
+  - iii.vii.x
+  - iii.vii.x/notes
+  - iii.vii.xi
+  - iii.vii.xi/notes
+  - iii.vii.xii
+  - iii.vii.xii/notes
+  - iii.vii.xiii
+  - iii.vii.xiii/notes
+  - iii.vii.xiv
+  - iii.vii.xiv/notes
+  - iii.vii.xv
+  - iii.vii.xv/notes
+  - iii.vii.xvi
+  - iii.vii.xvi/notes
+  - iii.vii.xvii
+  - iii.vii.xvii/notes
+  - iii.vii.xviii
+  - iii.vii.xviii/notes
+  - iii.vii.xix
+  - iii.vii.xix/notes/line3884
+  - iii.vii.xix/notes/line3914
+  - iii.vii.xix/notes/line3945
+  - iii.vii.xix/notes/line3998
+  - iii.vii.xix/notes/line4047
+  - iii.vii.xix/notes/line4065
+  - iii.vii.xix/notes/line4098
+  - iii.vii.xix/notes/line4128
+  - iii.vii.xix/notes/line4150
+  - iii.vii.xix/notes/line4184
+  - iii.vii.xix/notes/line4222
+  - iii.vii.xix/notes/line4270
+  - iii.vii.xix/notes/line4290
+  - iii.vii.xix/notes/line4319
+  - iii.vii.xix/notes/line4369
+  - iii.vii.xx
+  - iii.vii.xx/notes
+  - iii.vii.xxi
+  - iii.vii.xxi/notes
+  - iii.vii.xxii
+  - iii.vii.xxii/notes
+  - iii.vii.xxiii
+  - iii.vii.xxiii/notes
+  - iii.vii.xxiv
+  - iii.vii.xxiv/notes/line4737
+  - iii.vii.xxiv/notes/line4771
+  - iii.vii.xxiv/notes/line4792
+  - iii.vii.xxiv/notes/line4832
+  - iii.vii.xxiv/notes/line4861
+  - iii.vii.xxiv/notes/line4892
+  - iii.vii.xxiv/notes/line4936
+  - iii.vii.xxiv/notes/line4957
+  - iii.vii.xxiv/notes/line4976
+  - iii.vii.xxiv/notes/line5003
+  - iii.vii.xxiv/notes/line5027
+  - iii.vii.xxiv/notes/line5087
+  - iii.vii.xxiv/notes/line5111
+  - iii.vii.xxiv/notes/line5136
+  - iii.vii.xxiv/notes/line5177
+  - iii.vii.xxv
+  - iii.vii.xxv/notes
+  - iii.vii.xxvi
+  - iii.vii.xxvi/notes/line5224
+  - iii.vii.xxvi/notes/line5268
+  - iii.vii.xxvi/notes/line5299
+  - iii.vii.xxvi/notes/line5317
+  - iii.vii.xxvi/notes/line5355
+  - iii.vii.xxvi/notes/line5401
+  - iii.vii.xxvi/notes/line5428
+  - iii.vii.xxvi/notes/line5450
+  - iii.vii.xxvi/notes/line5468
+  - iii.vii.xxvi/notes/line5508
+  - iii.vii.xxvii
+  - iii.vii.xxvii/notes
+  - iii.viii.i
+  - iii.viii.i/notes
+  - iii.viii.ii
+  - iii.viii.ii/notes
+  - iii.viii.iii
+  - iii.viii.iii/notes/line5758
+  - iii.viii.iii/notes/line5785
+  - iii.viii.iii/notes/line5821
+  - iii.viii.iii/notes/line5850
+  - iii.viii.iii/notes/line5871
+  - iii.viii.iii/notes/line5907
+  - iii.viii.iii/notes/line5938
+  - iii.viii.iii/notes/line6007
+  - iii.viii.iii/notes/line6074
+  - iii.viii.iii/notes/line6100
+  - iii.viii.iii/notes/line6127
+  - iii.viii.iii/notes/line6195
+  - iii.viii.iv
+  - iii.viii.iv/notes/line6231
+  - iii.viii.iv/notes/line6279
+  - iii.viii.iv/notes/line6297
+  - iii.viii.iv/notes/line6330
+  - iii.viii.iv/notes/line6365
+  - iii.viii.iv/notes/line6411
+  - iii.viii.iv/notes/line6454
+  - iii.viii.iv/notes/line6484
+  - iii.viii.iv/notes/line6536
+  - iii.viii.iv/notes/line6555
+  - iii.viii.v
+  - iii.viii.v/notes
+  - iii.viii.vi
+  - iii.viii.vi/notes
+  - iii.viii.vii
+  - iii.viii.vii/notes
+  - iii.viii.viii
+  - iii.viii.viii/notes
+  - iii.viii.ix
+  - iii.viii.ix/notes
+  - iii.viii.x
+  - iii.viii.x/notes
+  - iii.viii.xi
+  - iii.viii.xi/notes
+  - iii.viii.xii
+  - iii.viii.xii/notes
+  - iii.viii.xiii
+  - iii.viii.xiii/notes
+  - iii.viii.xiv
+  - iii.viii.xiv/notes
+  - iii.viii.xv
+  - iii.viii.xv/notes
+  - iii.viii.xvi
+  - iii.viii.xvi/notes
+  - iii.viii.xvii
+  - iii.viii.xvii/notes
+  - iii.viii.xviii
+  - iii.viii.xviii/notes
+  - iii.viii.xix
+  - iii.viii.xix/notes
+  - iii.viii.xx
+  - iii.viii.xx/notes
+  - iii.viii.xxi
+  - iii.viii.xxi/notes
+  - iii.viii.xxii
+  - iii.viii.xxii/notes
+  - iii.viii.xxiii
+  - iii.viii.xxiii/notes
+  - iii.viii.xxiv
+  - iii.viii.xxiv/notes/line8125
+  - iii.viii.xxiv/notes/line8161
+  - iii.viii.xxiv/notes/line8185
+  - iii.viii.xxiv/notes/line8211
+  - iii.viii.xxiv/notes/line8258
+  - iii.viii.xxiv/notes/line8275
+  - iii.viii.xxiv/notes/line8317
+  - iii.viii.xxiv/notes/line8338
+  - iii.viii.xxiv/notes/line8376
+  - iii.viii.xxv
+  - iii.viii.xxv/notes/line8478
+  - iii.viii.xxv/notes/line8495
+  - iii.viii.xxv/notes/line8559
+  - iii.viii.xxv/notes/line8595
+  - iii.viii.xxv/notes/line8613
+  - iii.viii.xxv/notes/line8652
+  - iii.viii.xxv/notes/line8679
+  - iii.viii.xxv/notes/line8777
+  - iii.viii.xxv/notes/line8842
+  - iii.viii.xxv/notes/line8905
+  - iii.viii.xxv/notes/line8944
+  - iii.viii.xxv/notes/line8972
+  - iii.viii.xxv/notes/line8989
+  - iii.viii.xxvi
+  - iii.viii.xxvi/notes
+  - iii.viii.xxvii
+  - iii.viii.xxvii/notes/line9105
+  - iii.viii.xxvii/notes/line9170
+  - iii.viii.xxvii/notes/line9215
+  - iii.viii.xxvii/notes/line9247
+  - iii.viii.xxvii/notes/line9273
+  - iii.viii.xxvii/notes/line9329
+  - iii.viii.xxvii/notes/line9349
+  - iii.viii.xxvii/notes/line9375
+  - iii.viii.xxviii
+  - iii.viii.xxviii/notes
+  - iii.viii.xxix
+  - iii.viii.xxix/notes
+  - iii.viii.xxx
+  - iii.viii.xxx/notes
+  - iii.viii.xxxi
+  - iii.viii.xxxi/notes
+  - iii.viii.xxxii
+  - iii.viii.xxxii/notes
+  - iii.viii.xxxiii
+  - iii.viii.xxxiii/notes
+  - iii.viii.xxxiv
+  - iii.viii.xxxiv/notes
+  - iii.viii.xxxv
+  - iii.viii.xxxv/notes
+  - iii.viii.xxxvi
+  - iii.viii.xxxvi/notes/line10139
+  - iii.viii.xxxvi/notes/line10171
+  - iii.viii.xxxvi/notes/line10199
+  - iii.viii.xxxvi/notes/line10253
+  - iii.viii.xxxvi/notes/line10285
+  - iii.viii.xxxvi/notes/line10347
+  - iii.viii.xxxvi/notes/line10373
+  - iii.viii.xxxvi/notes/line10402
+  - iii.viii.xxxvi/notes/line10418
+  - iii.viii.xxxvi/notes/line10438
+  - iii.viii.xxxvi/notes/line10467
+  - iii.viii.xxxvi/notes/line10492
+  - iii.viii.xxxvii
+  - iii.viii.xxxvii/notes
+  - iii.viii.xxxviii
+  - iii.viii.xxxviii/notes
+  - iii.viii.xxxix
+  - iii.viii.xxxix/notes/line10634
+  - iii.viii.xxxix/notes/line10688
+  - iii.viii.xxxix/notes/line10781
+  - iii.viii.xxxix/notes/line10815
+  - iii.viii.xxxix/notes/line10853
+  - iii.viii.xxxix/notes/line10872
+  - iii.viii.xxxix/notes/line10907
+  - iii.viii.xxxix/notes/line10949
+  - iii.viii.xxxix/notes/line11021
+  - iii.viii.xxxix/notes/line11043
+  - iii.viii.xxxix/notes/line11078
+  - iii.ix.i
+  - iii.ix.i/notes
+  - iii.ix.ii
+  - iii.ix.ii/notes
+  - iii.ix.iii
+  - iii.ix.iii/notes
+  - iii.ix.iv
+  - iii.ix.iv/notes
+  - iii.ix.v
+  - iii.ix.v/notes
+  - iii.ix.vi
+  - iii.ix.vi/notes
+  - iii.ix.vii
+  - iii.ix.vii/notes/line11605
+  - iii.ix.vii/notes/line11629
+  - iii.ix.vii/notes/line11648
+  - iii.ix.vii/notes/line11679
+  - iii.ix.vii/notes/line11714
+  - iii.ix.vii/notes/line11757
+  - iii.ix.vii/notes/line11773
+  - iii.ix.vii/notes/line11797
+  - iii.ix.vii/notes/line11831
+  - iii.ix.vii/notes/line11865
+  - iii.ix.vii/notes/line11907
+  - iii.ix.viii
+  - iii.ix.viii/notes
+  - iii.ix.ix
+  - iii.ix.ix/notes
+  - iii.ix.x
+  - iii.ix.x/notes
+  - iii.ix.xi
+  - iii.ix.xi/notes/line12189
+  - iii.ix.xi/notes/line12211
+  - iii.ix.xi/notes/line12227
+  - iii.ix.xi/notes/line12292
+  - iii.ix.xi/notes/line12315
+  - iii.ix.xi/notes/line12364
+  - iii.ix.xi/notes/line12389
+  - iii.ix.xi/notes/line12405
+  - iii.ix.xi/notes/line12435
+  - iii.ix.xi/notes/line12460
+  - iii.ix.xi/notes/line12502
+  - iii.ix.xi/notes/line12520
+  - iii.ix.xi/notes/line12554
+  - iii.ix.xi/notes/line12590
+  - iii.ix.xii
+  - iii.ix.xii/notes
+  - iii.ix.xiii
+  - iii.ix.xiii/notes
+  - iii.ix.xiv
+  - iii.ix.xiv/notes
+  - iii.ix.xv/line15338
+  - iii.ix.xv/notes/line12983
+  - iii.ix.xv/notes/line13013
+  - iii.ix.xv/notes/line13044
+  - iii.ix.xv/notes/line13080
+  - iii.ix.xv/line15370
+  - iii.ix.xv/line15395
+  - iii.ix.xv/line15431
+  - iii.ix.xv/line15457
+  - iii.ix.xv/line15478
+  - iii.ix.xv/notes/line13106
+  - iii.ix.xv/notes/line13129
+  - iii.ix.xv/line15505
+  - iii.ix.xv/line15531
+  - iii.ix.xv/notes/line13154
+  - iii.ix.xv/line15557
+  - iii.ix.xv/line15585
+  - iii.ix.xv/line15611
+  - iii.ix.xv/notes/line13192
+  - iii.ix.xv/line15638
+  - iii.ix.xv/line15663
+  - iii.ix.xv/line15689
+  - iii.ix.xv/notes/line13217
+  - iii.ix.xv/line15716
+  - iii.ix.xv/notes/line13242
+  - iii.ix.xv/notes/line13271
+  - iii.ix.xv/line15747
+  - iii.ix.xv/notes/line13289
+  - iii.ix.xv/notes/line13317
+  - iii.ix.xv/line15774
+  - iii.ix.xv/notes/line13353
+  - iii.ix.xv/notes/line13392
+  - iii.ix.xvi
+  - iii.ix.xvi/notes/line13402
+  - iii.ix.xvi/notes/line13438
+  - iii.ix.xvi/notes/line13465
+  - iii.ix.xvi/notes/line13501
+  - iii.ix.xvi/notes/line13598
+  - iii.ix.xvi/notes/line13640
+  - iii.ix.xvi/notes/line13679
+  - iii.ix.xvii
+  - iii.ix.xvii/notes
+  - iii.ix.xviii
+  - iii.ix.xviii/notes
+  - iii.ix.xix
+  - iii.ix.xix/notes
+  - iii.ix.xx
+  - iii.ix.xx/notes
+  - iii.ix.xxi
+  - iii.ix.xxi/notes
+  - iii.ix.xxii
+  - iii.ix.xxii/notes
+  - iii.ix.xxiii
+  - iii.ix.xxiii/notes
+  - iii.ix.xxiv
+  - iii.ix.xxiv/notes
+  - iii.ix.xxv
+  - iii.ix.xxv/notes
+  - iii.ix.xxvi
+  - iii.ix.xxvi/notes/line14697
+  - iii.ix.xxvi/notes/line14733
+  - iii.ix.xxvi/notes/line14771
+  - iii.ix.xxvi/notes/line14842
+  - iii.ix.xxvi/notes/line14879
+  - iii.ix.xxvi/notes/line14904
+  - iii.ix.xxvi/notes/line14935
+  - iii.ix.xxvi/notes/line14998
+  - iii.ix.xxvi/notes/line15029
+  - iii.ix.xxvi/notes/line15061
+  - iii.ix.xxvi/notes/line15085
+  - iii.ix.xxvi/notes/line15138
+  - iii.ix.xxvi/notes/line15183
+  - iii.ix.xxvi/notes/line15212
+  - iii.ix.xxvi/notes/line15249
+  - iii.ix.xxvi/notes/line15290
+  - iii.ix.xxvii
+  - iii.ix.xxvii/notes
+  - iii.ix.xxviii
+  - iii.ix.xxviii/notes
+  - iii.ix.xxix
+  - iii.ix.xxix/notes/line15510
+  - iii.ix.xxix/notes/line15558
+  - iii.ix.xxix/notes/line15597
+  - iii.ix.xxix/notes/line15650
+  - iii.ix.xxix/notes/line15686
+  - iii.ix.xxix/notes/line15724
+  - iii.ix.xxix/notes/line15779
+  - iii.ix.xxix/notes/line15802
+  - iii.ix.xxx
+  - iii.ix.xxx/notes
+  - iii.x.i
+  - iii.x.i/notes
+  - iii.x.ii/line16864
+  - iii.x.ii/notes
+  - iii.x.ii/line16907
+  - iii.x.ii/line16934
+  - iii.x.ii/line16958
+  - iii.x.ii/line16982
+  - iii.x.ii/line17009
+  - iii.x.ii/line17038
+  - iii.x.ii/line17060
+  - iii.x.ii/line17088
+  - iii.x.ii/line17111
+  - iii.x.ii/line17143
+  - iii.x.ii/line17164
+  - iii.x.ii/line17192
+  - iii.x.ii/line17226
+  - iii.x.ii/line17260
+  - iii.x.ii/line17287
+  - iii.x.ii/line17318
+  - iii.x.ii/line17348
+  - iii.x.ii/line17371
+  - iii.x.ii/line17398
+  - iii.x.ii/line17426
+  - iii.x.ii/line17454
+  - iii.x.ii/line17484
+  - iii.x.iii
+  - iii.x.iii/notes
+  - iii.x.iv
+  - iii.x.iv/notes
+  - iii.x.v
+  - iii.x.v/notes
+  - iii.x.vi
+  - iii.x.vi/notes
+  - iii.x.vii
+  - iii.x.vii/notes
+  - iii.x.viii
+  - iii.x.viii/notes
+  - iii.x.ix
+  - iii.x.ix/notes
+  - iii.x.x
+  - iii.x.x/notes
+  - iii.x.xi
+  - iii.x.xi/notes
+  - iii.x.xii
+  - iii.x.xii/notes
+  - iii.x.xiii
+  - iii.x.xiii/notes
+  - iii.x.xiv
+  - iii.x.xiv/notes/line17472
+  - iii.x.xiv/notes/line17497
+  - iii.x.xiv/notes/line17519
+  - iii.x.xiv/notes/line17544
+  - iii.x.xiv/notes/line17575
+  - iii.x.xiv/notes/line17611
+  - iii.x.xiv/notes/line17653
+  - iii.x.xiv/notes/line17673
+  - iii.x.xiv/notes/line17702
+  - iii.x.xiv/notes/line17739
+  - iii.x.xiv/notes/line17768
+  - iii.x.xiv/notes/line17796
+  - iii.x.xv
+  - iii.x.xv/notes
+  - iii.x.xvi
+  - iii.x.xvi/notes
+  - iii.x.xvii
+  - iii.x.xvii/notes/line17836
+  - iii.x.xvii/notes/line17883
+  - iii.x.xvii/notes/line17905
+  - iii.x.xvii/notes/line17937
+  - iii.x.xvii/notes/line17966
+  - iii.x.xvii/notes/line17993
+  - iii.x.xvii/notes/line18012
+  - iii.x.xvii/notes/line18051
+  - iii.x.xvii/notes/line18092
+  - iii.x.xvii/notes/line18133
+  - iii.x.xvii/notes/line18185
+  - iii.x.xvii/notes/line18211
+  - iii.x.xvii/notes/line18228
+  - iii.x.xvii/notes/line18253
+  - iii.x.xvii/notes/line18279
+  - iii.x.xvii/notes/line18308
+  - iii.x.xvii/notes/line18334
+  - iii.x.xvii/notes/line18356
+  - iii.x.xvii/notes/line18383
+  - iii.x.xviii
+  - iii.x.xviii/notes
+  - iii.x.xix
+  - iii.x.xix/notes
+  - iii.x.xx
+  - iii.x.xx/notes
+  - iii.x.xxi
+  - iii.x.xxi/notes
+  - iii.x.xxii
+  - iii.x.xxii/notes
+  - iii.x.xxiii
+  - iii.x.xxiii/notes
+  - iii.x.xxiv
+  - iii.x.xxiv/notes
+  - iii.x.xxv
+  - iii.x.xxv/notes
+  - iii.x.xxvi
+  - iii.x.xxvi/notes
+  - iii.x.xxvii
+  - iii.x.xxvii/notes
+  - iii.x.xxviii
+  - iii.x.xxviii/notes
+  - iii.x.xxix
+  - iii.x.xxix/notes/line20064
+  - iii.x.xxix/notes/line20132
+  - iii.x.xxix/notes/line20163
+  - iii.x.xxix/notes/line20187
+  - iii.x.xxix/notes/line20209
+  - iii.x.xxix/notes/line20235
+  - iii.x.xxix/notes/line20252
+  - iii.x.xxix/notes/line20273
+  - iii.x.xxix/notes/line20295
+  - iii.x.xxix/notes/line20318
+  - iii.x.xxix/notes/line20349
+  - iii.xi.i
+  - iii.xi.i/notes
+  - iii.xi.ii
+  - iii.xi.ii/notes
+  - iii.xi.iii
+  - iii.xi.iii/notes
+  - iii.xi.iv
+  - iii.xi.iv/notes
+  - iii.xi.v
+  - iii.xi.v/notes
+  - iii.xi.vi
+  - iii.xi.vi/notes
+  - iii.xi.vii
+  - iii.xi.vii/notes
+  - iii.xi.viii
+  - iii.xi.viii/notes
+  - iii.xi.ix
+  - iii.xi.ix/notes
+  - iii.xi.x
+  - iii.xi.x/notes
+  - iii.xi.xi
+  - iii.xi.xi/notes
+  - iii.xi.xii
+  - iii.xi.xii/notes
+  - iii.xi.xiii
+  - iii.xi.xiii/notes/line21364
+  - iii.xi.xiii/notes/line21395
+  - iii.xi.xiii/notes/line21468
+  - iii.xi.xiii/notes/line21524
+  - iii.xi.xiii/notes/line21546
+  - iii.xi.xiii/notes/line21569
+  - iii.xi.xiii/notes/line21585
+  - iii.xi.xiii/notes/line21661
+  - iii.xi.xiii/notes/line21687
+  - iii.xi.xiii/notes/line21729
+  - iii.xi.xiii/notes/line21749
+  - iii.xi.xiii/notes/line21777
+  - iii.xi.xiv
+  - iii.xi.xiv/notes
+  - iii.xi.xv
+  - iii.xi.xv/notes
+  - iii.xi.xvi
+  - iii.xi.xvi/notes/line21892
+  - iii.xi.xvi/notes/line21910
+  - iii.xi.xvi/notes/line21929
+  - iii.xi.xvi/notes/line21956
+  - iii.xi.xvi/notes/line21995
+  - iii.xi.xvi/notes/line22050
+  - iii.xi.xvi/notes/line22174
+  - iii.xi.xvii
+  - iii.xi.xvii/notes
+  - iii.xi.xviii
+  - iii.xi.xviii/notes
+  - iii.xi.xix
+  - iii.xi.xix/notes/line22276
+  - iii.xi.xix/notes/line22329
+  - iii.xi.xix/notes/line22374
+  - iii.xi.xix/notes/line22414
+  - iii.xi.xix/notes/line22447
+  - iii.xi.xix/notes/line22474
+  - iii.xi.xix/notes/line22490
+  - iii.xi.xix/notes/line22510
+  - iii.xi.xix/notes/line22581
+  - iii.xi.xix/notes/line22631
+  - iii.xi.xix/notes/line22661
+  - iii.xi.xix/notes/line22727
+  - iii.xi.xix/notes/line22747
+  - iii.xi.xx
+  - iii.xi.xx/notes
+  - iii.xi.xxi
+  - iii.xi.xxi/notes
+  - iii.xi.xxii
+  - iii.xi.xxii/notes
+  - iii.xi.xxiii
+  - iii.xi.xxiii/notes
+  - iii.xi.xxiv
+  - iii.xi.xxiv/notes
+  - iii.xi.xxv
+  - iii.xi.xxv/notes
+  - iii.xi.xxvi
+  - iii.xi.xxvi/notes
+  - iii.xi.xxvii
+  - iii.xi.xxvii/notes
+  - iii.xi.xxviii
+  - iii.xi.xxviii/notes
+  - iii.xi.xxix
+  - iii.xi.xxix/notes
+  - iii.xi.xxx
+  - iii.xi.xxx/notes
+  - iii.xi.xxxi
+  - iii.xi.xxxi/notes
+  - iii.xi.xxxii
+  - iii.xi.xxxii/notes
+  - iii.xi.xxxiii
+  - iii.xi.xxxiii/notes
+  - iii.xi.xxxiv
+  - iii.xi.xxxiv/notes
+  - iii.xi.xxxv
+  - iii.xi.xxxv/notes
+  - iii.xi.xxxvi
+  - iii.xi.xxxvi/notes
+  - iii.xi.xxxvii
+  - iii.xi.xxxvii/notes
+  - iii.xi.xxxviii
+  - iii.xi.xxxviii/notes
+  - iii.xi.xxxix
+  - iii.xi.xxxix/notes
+  - iii.xi.xl
+  - iii.xi.xl/notes
+  - iii.xi.xli
+  - iii.xi.xli/notes
+  - iii.xi.xlii
+  - iii.xi.xlii/notes
+  - iii.xi.xliii
+  - iii.xi.xliii/notes/line24972
+  - iii.xi.xliii/notes/line25037
+  - iii.xi.xliii/notes/line25056
+  - iii.xi.xliii/notes/line25085
+  - iii.xi.xliii/notes/line25116
+  - iii.xi.xliii/notes/line25158
+  - iii.xi.xliii/notes/line25197
+  - iii.xi.xliii/notes/line25247
+  - iii.xi.xliii/notes/line25279
+  - iii.xi.xliii/notes/line25303
+  - iii.xi.xliii/notes/line25322
+  - iii.xi.xliii/notes/line25344
+  - iii.xi.xliii/notes/line25388
+  - iii.xi.xliii/notes/line25413
+  - iii.xi.xliii/notes/line25434
+  - iii.xi.xliv
+  - iii.xi.xliv/notes
+  - iii.xi.xlv
+  - iii.xi.xlv/notes
+  - iii.xi.xlvi
+  - iii.xi.xlvi/notes
+  - iii.xii.i
+  - iii.xii.i/notes
+  - iii.xii.ii
+  - iii.xii.ii/notes
+  - iii.xii.iii
+  - iii.xii.iii/notes
+  - iii.xii.iv
+  - iii.xii.iv/notes
+  - iii.xii.v
+  - iii.xii.v/notes
+  - iii.xii.vi
+  - iii.xii.vi/notes
+  - iii.xii.vii
+  - iii.xii.vii/notes
+  - iii.xii.viii
+  - iii.xii.viii/notes
+  - iii.xii.ix
+  - iii.xii.ix/notes
+  - iii.xii.x
+  - iii.xii.x/notes
+  - iii.xii.xi
+  - iii.xii.xi/notes
+  - iii.xii.xii
+  - iii.xii.xii/notes
+  - iii.xii.xiii
+  - iii.xii.xiii/notes
+  - iii.xii.xiv
+  - iii.xii.xiv/notes
+  - iii.xii.xv
+  - iii.xii.xv/notes
+  - iii.xii.xvi
+  - iii.xii.xvi/notes
+  - iii.xii.xvii
+  - iii.xii.xvii/notes
+  - iii.xii.xviii
+  - iii.xii.xviii/notes
+  - iii.xii.xix
+  - iii.xii.xix/notes
+  - iii.xii.xx
+  - iii.xii.xx/notes
+  - iii.xii.xxi
+  - iii.xii.xxi/notes
+  - iii.xii.xxii
+  - iii.xii.xxii/notes
+  - iii.xii.xxiii
+  - iii.xii.xxiii/notes
+  - iii.xii.xxiv
+  - iii.xii.xxiv/notes
+  - iii.xii.xxv
+  - iii.xii.xxv/notes
+  - iii.xii.xxvi
+  - iii.xii.xxvi/notes
+  - iii.xii.xxvii
+  - iii.xii.xxvii/notes
+  - iii.xii.xxviii
+  - iii.xii.xxviii/notes
+  - iii.xii.xxix
+  - iii.xii.xxix/notes
+  - iii.xii.xxx
+  - iii.xii.xxx/notes
+  - iii.xii.xxxi
+  - iii.xii.xxxi/notes/line27610
+  - iii.xii.xxxi/notes/line27635
+  - iii.xii.xxxi/notes/line27659
+  - iii.xii.xxxi/notes/line27687
+  - iii.xii.xxxi/notes/line27708
+  - iii.xii.xxxi/notes/line27725
+  - iii.xii.xxxi/notes/line27748
+  - iii.xii.xxxi/notes/line27776
+  - iii.xii.xxxi/notes/line27793
+  - iii.xii.xxxi/notes/line27816
+  - iii.xii.xxxi/notes/line27840
+  - iii.xii.xxxi/notes/line27868
+  - iii.xii.xxxi/notes/line27892
+  - iii.xii.xxxii
+  - iii.xii.xxxii/notes
+  - iii.xii.xxxiii
+  - iii.xii.xxxiii/notes/line27981
+  - iii.xii.xxxiii/notes/line28002
+  - iii.xii.xxxiii/notes/line28030
+  - iii.xii.xxxiii/notes/line28060
+  - iii.xii.xxxiii/notes/line28095
+  - iii.xii.xxxiii/notes/line28129
+  - iii.xii.xxxiii/notes/line28153
+  - iii.xii.xxxiii/notes/line28178
+  - iii.xii.xxxiii/notes/line28197
+  - iii.xii.xxxiii/notes/line28229
+  - iii.xii.xxxiii/notes/line28248
+  - iii.xii.xxxiii/notes/line28280
+  - iii.xii.xxxiii/notes/line28307
+  - iii.xii.xxxiii/notes/line28346
+  - iii.xii.xxxiii/notes/line28384
+  - iii.xii.xxxiii/notes/line28435
+  - iii.xii.xxxiii/notes/line28451
+  - iii.xii.xxxiii/notes/line28477
+  - iii.xii.xxxiii/notes/line28500
+  - iii.xii.xxxiii/notes/line28530
+  - iii.xii.xxxiii/notes/line28563
+  - iii.xii.xxxiii/notes/line28582
+  - iii.xiii.i
+  - iii.xiii.i/notes
+  - iii.xiii.ii
+  - iii.xiii.ii/notes
+  - iii.xiii.iii
+  - iii.xiii.iii/notes
+  - iii.xiii.iv
+  - iii.xiii.iv/notes
+  - iii.xiii.v
+  - iii.xiii.v/notes
+  - iii.xiii.vi
+  - iii.xiii.vi/notes
+  - iii.xiii.vii
+  - iii.xiii.vii/notes
+  - iii.xiii.viii
+  - iii.xiii.viii/notes
+  - iii.xiii.ix
+  - iii.xiii.ix/notes
+  - iii.xiii.x
+  - iii.xiii.x/notes
+  - iii.xiii.xi
+  - iii.xiii.xi/notes
+  - iii.xiii.xii
+  - iii.xiii.xii/notes
+  - iii.xiii.xiii
+  - iii.xiii.xiii/notes
+  - iii.xiii.xiv
+  - iii.xiii.xiv/notes/line29421
+  - iii.xiii.xiv/notes/line29443
+  - iii.xiii.xiv/notes/line29461
+  - iii.xiii.xiv/notes/line29486
+  - iii.xiii.xiv/notes/line29512
+  - iii.xiii.xiv/notes/line29547
+  - iii.xiii.xiv/notes/line29567
+  - iii.xiii.xiv/notes/line29585
+  - iii.xiii.xiv/notes/line29613
+  - iii.xiii.xiv/notes/line29630
+  - iii.xiii.xiv/notes/line29658
+  - iii.xiii.xiv/notes/line29686
+  - iii.xiii.xiv/notes/line29727
+  - iii.xiii.xv
+  - iii.xiii.xv/notes
+  - iii.xiii.xvi
+  - iii.xiii.xvi/notes
+  - iii.xiii.xvii
+  - iii.xiii.xvii/notes
+  - iii.xiii.xviii
+  - iii.xiii.xviii/notes
+  - iii.xiv.i
+  - iii.xiv.i/notes
+  - iii.xiv.ii
+  - iii.xiv.ii/notes
+  - iii.xiv.iii
+  - iii.xiv.iii/notes
+  - iii.xiv.iv
+  - iii.xiv.iv/notes
+  - iii.xiv.v
+  - iii.xiv.v/notes
+  - iii.xiv.vi
+  - iii.xiv.vi/notes
+  - iii.xiv.vii
+  - iii.xiv.vii/notes
+  - iii.xiv.viii
+  - iii.xiv.viii/notes
+  - iii.xiv.ix
+  - iii.xiv.ix/notes
+  - iii.xiv.x
+  - iii.xiv.x/notes
+  - iii.xiv.xi
+  - iii.xiv.xi/notes
+  - iii.xiv.xii
+  - iii.xiv.xii/notes
+  - iii.xiv.xiii
+  - iii.xiv.xiii/notes
+  - iii.xiv.xiv
+  - iii.xiv.xiv/notes
+  - iii.xv.i
+  - iii.xv.i/notes
+  - iii.xv.ii
+  - iii.xv.ii/notes
+  - iii.xv.iii
+  - iii.xv.iii/notes
+  - iii.xv.iv
+  - iii.xv.iv/notes
+  - iii.xv.v
+  - iii.xv.v/notes
+  - iii.xv.vi
+  - iii.xv.vi/notes
+  - iii.xv.vii
+  - iii.xv.vii/notes
+  - iii.xv.viii
+  - iii.xv.viii/notes
+  - iii.xv.ix
+  - iii.xv.ix/notes
+  - iii.xv.x
+  - iii.xv.x/notes
+  - iii.xv.xi
+  - iii.xv.xi/notes
+  - iii.xvi.i
+  - iii.xvi.i/notes
+  - iii.xvi.ii
+  - iii.xvi.ii/notes
+  - iii.xvi.iii
+  - iii.xvi.iii/notes
+  - iii.xvi.iv/line29517
+  - iii.xvi.iv/notes
+  - iii.xvi.iv/line29568
+  - iii.xvi.iv/line29588
+  - iii.xvi.iv/line29620
+  - iii.xvi.iv/line29641
+  - iii.xvi.iv/line29669
+  - iii.xvi.iv/line29700
+  - iii.xvi.iv/line29725
+  - iii.xvi.iv/line29750
+  - iii.xvi.iv/line29780
+  - iii.xvi.iv/line29802
+  - iii.xvi.iv/line29830
+  - iii.xvi.iv/line29848
+  - iii.xvi.iv/line29870
+  - iii.xvi.iv/line29896
+  - iii.xvi.iv/line29934
+  - iii.xvi.iv/line29961
+  - iii.xvi.iv/line29984
+  - iii.xvi.iv/line30009
+  - iii.xvi.iv/line30039
+  - iii.xvi.iv/line30063
+  - iii.xvi.iv/line30095
+  - iii.xvi.iv/line30116
+  - iii.xvi.iv/line30141
+  - iii.xvi.iv/line30162
+  - iii.xvi.iv/line30191
+  - iii.xvi.iv/line30217
+  - iii.xvi.iv/line30250
+  - iii.xvi.iv/line30272
+  - iii.xvi.iv/line30297
+  - iii.xvi.iv/line30321
+  - iii.xvi.iv/line30344
+  - iii.xvi.iv/line30367
+  - iii.xvi.v
+  - iii.xvi.v/notes/line32135
+  - iii.xvi.v/notes/line32158
+  - iii.xvi.v/notes/line32173
+  - iii.xvi.v/notes/line32199
+  - iii.xvi.v/notes/line32236
+  - iii.xvi.v/notes/line32281
+  - iii.xvi.v/notes/line32363
+  - iii.xvi.v/notes/line32391
+  - iii.xvi.v/notes/line32410
+  - iii.xvi.v/notes/line32427
+  - iii.xvi.v/notes/line32455
+  - iii.xvi.v/notes/line32497
+  - iii.xvi.vi
+  - iii.xvi.vi/notes
+  - iii.xvi.vii
+  - iii.xvi.vii/notes
+  - iii.xvi.viii
+  - iii.xvi.viii/notes
+  - iii.xvi.ix
+  - iii.xvi.ix/notes
+  - iii.xvii
+  - iii.xvii.i
+  - iii.xvii.ii
+  - iii.xvii.iii
+  - iii.xvii.iv
+  - iii.xvii.v
+  - iii.xvii.vi
+  - iii.xvii.vii
+  - iii.xvii.viii
+  - iii.xvii.ix
+  - iii.xvii.x
+  - iii.xvii.xi
+  - iii.xvii.xii
+  - iii.xvii.xiii
+  - iii.xvii.xiv
+  - iii.xvii.xv
+  - iii.xvii.xvi
+  - iii.xvii.xvii
+  - iii.xvii.xviii
+  - iii.xvii.xix
+  - iii.xvii.xx
+  - iii.xvii.xxi/line32183
+  - iii.xvii.xxi/line32290
+  - iii.xvii.xxi/line32335
+  - iii.xvii.xxi/line32415
+  - iii.xvii.xxii
+  - iii.xvii.xxiii
+  - iii.xvii.xxiv
+  - iii.xvii.xxv
+  - iii.xvii.xxvi
+  - iii.xvii.xxvii
+  - iii.xvii.xxvii/notes
+  - iii.xvii.xxviii
+  - iii.xvii.xxix
   role: context
   confidence: assigned
+  language: eng
   note: 'Same work, context row (per brief §11a): Eusebius describes these movements from
     outside and later, and for each of them the History is real evidence, not a passing mention.
     Books II-V are the principal external frame for the post-apostolic church and preserve
@@ -179,8 +1306,17 @@ works:
   work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
   locus: div2 3.10 - De Fuga in Persecutione
+  locus_ids:
+  - div2:iii.x
+  - div3:iii.x.i..iii.x.ii (2 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 211
+    end: 212
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Forbids flight in persecution on the Spirit''s authority ("Comforter" x2); no explicit
     Paraclete/Psychici vocabulary in this translation, so the montanism assignment rests on
     the rigorist position and standard dating rather than internal markers - hence provisional.
@@ -191,8 +1327,16 @@ works:
   work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
   locus: file line 45082 (heading 'FUGA IN PERSECUTIONE.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 45082: FUGA IN PERSECUTIONE.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    start: 211
+    end: 212
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt)
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -208,8 +1352,19 @@ works:
   work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
   locus: div2 3.6 - On Exhortation to Chastity
+  locus_ids:
+  - div2:iii.vi
+  - div3:iii.vi.i..iii.vi.xiv (14 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Cites an oracle of "the holy prophetess Prisca" as authority - a direct New Prophecy
     citation, and one of the few surviving fragments of the movement''s own words. Provisional
     because the treatise is transitional rather than openly sectarian.
@@ -220,8 +1375,18 @@ works:
   work: On Exhortation to Chastity (De Exhortatione Castitatis)
   author: tertullian
   locus: file line 67376 (heading 'EXHORTATIONE CASTITATIS.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 67376: EXHORTATIONE CASTITATIS.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -237,8 +1402,17 @@ works:
   work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
   locus: div2 3.9 - On Fasting
+  locus_ids:
+  - div2:iii.ix
+  - div3:iii.ix.i..iii.ix.xviii (18 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Defense of the New Prophecy''s fasting discipline against the "Psychics" (x13); names
     Montanus. Among the most explicitly Montanist works in the corpus.
 
@@ -248,8 +1422,16 @@ works:
   work: On Fasting, in Opposition to the Psychics (De Jejunio)
   author: tertullian
   locus: file line 15475 (heading 'DE IEIVNIO ADVERSVS PSYCHICOS.', treatise IX)
+  locus_ids:
+  - 'line 15475: DE IEIUNIO ADUEESUS PSYCHICOS.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -263,8 +1445,18 @@ works:
   work: On Modesty (De Pudicitia)
   author: tertullian
   locus: div2 3.8 - On Modesty
+  locus_ids:
+  - div2:iii.viii
+  - div3:iii.viii.i..iii.viii.xxiii (23 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: not long before 222/3; source: Harnack 1904,
+      Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      The identity of the bishop whose edict the work attacks is Contested between scholars.;
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Montanist-period attack on the bishop''s edict admitting adulterers to penance ("Psychics"
     x5, Paraclete x4). Also a key early witness to the developing penitential discipline the
     Cyprianic and Donatist disputes later fought over - noted here, not assigned there.
@@ -275,8 +1467,17 @@ works:
   work: On Modesty (De Pudicitia)
   author: tertullian
   locus: file line 12447 (heading 'DE PVDICITIA.', treatise VIII)
+  locus_ids:
+  - 'line 12447: DE PUDICITIA.'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: not long before 222/3; source: Harnack 1904,
+      Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      The identity of the bishop whose edict the work attacks is Contested between scholars.;
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Reifferscheid and
     Wissowa, CSEL 20 (Vienna, 1890), a critical edition with apparatus. The Latin OCR is readable
@@ -290,8 +1491,17 @@ works:
   work: On Monogamy (De Monogamia)
   author: tertullian
   locus: div2 3.7 - On Monogamy
+  locus_ids:
+  - div2:iii.vii
+  - div3:iii.vii.i..iii.vii.xviii (18 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Openly New Prophecy: 17 appeals to the Paraclete, opponents named "Psychics" 12 times.
     Tertullian speaking as a Montanist adherent - tradition for montanism, not description
     of it.
@@ -303,8 +1513,16 @@ works:
   author: tertullian
   locus: file line 69315 (first running head 'DE MONOGAMIA. 769' (the OCR lost the treatise
     heading))
+  locus_ids:
+  - 'line 69315: DB MONOGAMIA. 769'
   role: tradition
   confidence: assigned
+  language: lat
+  date:
+    formation_confidence: unknown
+    checked: 'date window as first recorded: soon after 217/8; source: Harnack 1904, Tertullian
+      chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      first recorded confidence: Dominant Modern Reconstruction'
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The
@@ -320,8 +1538,19 @@ works:
   work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
   locus: div2 3.4 - On the Veiling of Virgins
+  locus_ids:
+  - div2:iii.iv
+  - div3:iii.iv.i..iii.iv.xviii (18 divisions)
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Appeals to the Paraclete four times as authority for stricter discipline; commonly
     dated to Tertullian''s New Prophecy period. The montanism assignment rests on those internal
     appeals - provisional because the work never names the movement.
@@ -332,8 +1561,18 @@ works:
   work: On the Veiling of Virgins (De Virginibus Velandis)
   author: tertullian
   locus: file line 78139 (heading 'VIRGINIBUS VELANDIS.' (the 'DE' is on the line above))
+  locus_ids:
+  - 'line 78139: VIRGINIBUS VELANDIS.'
   role: tradition
   confidence: provisional
+  language: lat
+  date:
+    start: 204
+    end: 207
+    source: Harnack 1904, Tertullian chronology table, printed pp. 295-296 (harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt);
+      Placed before the break on Harnack's table. The date of the break itself, 207/8 on Harnack's
+      table, is Contested between scholars.
+    formation_confidence: Dominant Modern Reconstruction
   note: 'Latin original of the ALREADY-PRESENT English entry for this work (source_file anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
     in the bucket(s) named here. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Oehler, Tertulliani
     quae supersunt omnia (Leipzig, Weigel, 1853), an older critical recension than CSEL. The

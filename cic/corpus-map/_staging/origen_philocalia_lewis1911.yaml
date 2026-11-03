@@ -13,6 +13,8 @@ assignments:
       - alexandria-catechetical
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
     note: >
       Origen's own text throughout - header "Creator(s): Origen of
       Alexandria", DC.Creator origen - much of it excerpted from De

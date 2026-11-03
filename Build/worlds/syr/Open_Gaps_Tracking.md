@@ -211,3 +211,11 @@ Status: OPEN for the project lead.
    What syr needs that lpc did not have: `locus_ids` on its corpus-map rows. Without them all 49 seeds read `file level only`, and most passages are not by Syriac authors (Clement of Alexandria, Palladius, the Apostolic Constitutions, the Pseudo-Clementines, Gregory the Great around 600); work and author are set on 22 and 36 of the 49, translator and edition year on none, and the date window is unknown on all. The index also marks the speaker of the Doctrine of Addai passage as "addai", which Opus found wrong (the narrator is the anonymous author writing as the scribe Labubna).
 
    Status: OPEN for the row fields. Owner: Library thread, through the coordination thread.
+
+## 45. Row narrowing of the volumes behind the seeds (2026-11-03)
+
+- **What changed.** The same 108 corpus-map rows as alx OG-42 (the syr shelf shares the volumes); `locus_ids` and `language` set from the vendored files.
+- **Reach under the lens** (English passages that are not apparatus, by the division test): syr 66.1% before, 79.3% after (3,872,649 of 5,725,858 words before, 4,552,642 after).
+- **Seeds.** syr `row narrowed`: 0 of 49 before, 13 of 49 after. The other 36 sit in works the syr rows do not name (Clement of Alexandria, the Apostolic Constitutions, Gregory the Great and others) or in introductions, so they stay off the lens.
+- **Not done.** Dates and translators on these rows are not set; `window` stays `unknown` on all 49.
+- **Owner.** Library thread, through the coordination thread.

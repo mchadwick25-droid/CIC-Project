@@ -7,8 +7,74 @@ works:
   work: On Rebuke and Grace (De correptione et gratia)
   author: augustine
   locus: div1 20 — A Treatise on Rebuke and Grace
+  locus_ids:
+  - xx.iv
+  - xx.v
+  - xx.vi
+  - xx.vii
+  - xx.viii
+  - xx.ix
+  - xx.x
+  - xx.xi
+  - xx.xii
+  - xx.xiii
+  - xx.xiv
+  - xx.xv
+  - xx.xvi
+  - xx.xvii
+  - xx.xviii
+  - xx.xix
+  - xx.xx
+  - xx.xxi
+  - xx.xxii
+  - xx.xxiii
+  - xx.xxiv
+  - xx.xxv
+  - xx.xxvi
+  - xx.xxvii
+  - xx.xxviii
+  - xx.xxix
+  - xx.xxx
+  - xx.xxxi
+  - xx.xxxii
+  - xx.xxxiii
+  - xx.xxxiv
+  - xx.xxxv
+  - xx.xxxvi
+  - xx.xxxvii
+  - xx.xxxviii
+  - xx.xxxix
+  - xx.xl
+  - xx.xli
+  - xx.xlii
+  - xx.xliii
+  - xx.xliv
+  - xx.xlv
+  - xx.xlvi
+  - xx.xlvii
+  - xx.xlviii
+  - xx.xlix
+  - xx.l
+  - xx.li
+  - xx.lii
   role: tradition
   confidence: provisional
+  language: eng
+  date:
+    start: 426
+    end: 427
+    source: 'npnf105_augustine-anti-pelagian-writings.xml div1 20 heading: a.d. 426 or 427;
+      P1 gives 427'
+    formation_confidence: Widely Accepted
+  translator:
+    name: Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)
+    source: 'npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked
+      wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: 'npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.'
+    formation_confidence: Inferential-Thin
   note: '426/427, addressed to Hadrumetum (North Africa), not to Gaul — the doubt is whether
     the gallic-monastic-ascetic-christianity id should stand on addressee grounds alone; latin-pastoral-congregational-christianity
     is not in doubt. Assigned here provisionally because this is the treatise whose circulation
@@ -29,8 +95,94 @@ works:
   author: augustine
   locus: div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path
     21.3)
+  locus_ids:
+  - xxi.iii.ii
+  - xxi.iii.iii
+  - xxi.iii.iv
+  - xxi.iii.v
+  - xxi.iii.vi
+  - xxi.iii.vii
+  - xxi.iii.viii
+  - xxi.iii.ix
+  - xxi.iii.x
+  - xxi.iii.xi
+  - xxi.iii.xii
+  - xxi.iii.xiii
+  - xxi.iii.xiv
+  - xxi.iii.xv
+  - xxi.iii.xvi
+  - xxi.iii.xvii
+  - xxi.iii.xviii
+  - xxi.iii.xix
+  - xxi.iii.xx
+  - xxi.iii.xxi
+  - xxi.iii.xxii
+  - xxi.iii.xxiii
+  - xxi.iii.xxiv
+  - xxi.iii.xxv
+  - xxi.iii.xxvi
+  - xxi.iii.xxvii
+  - xxi.iii.xxviii
+  - xxi.iii.xxix
+  - xxi.iii.xxx
+  - xxi.iii.xxxi
+  - xxi.iii.xxxii
+  - xxi.iii.xxxiii
+  - xxi.iii.xxxiv
+  - xxi.iii.xxxv
+  - xxi.iii.xxxvi
+  - xxi.iii.xxxvii
+  - xxi.iii.xxxviii
+  - xxi.iii.xxxix
+  - xxi.iii.xl
+  - xxi.iii.xli
+  - xxi.iii.xlii
+  - xxi.iii.xliii
+  - xxi.iii.xliv
+  - xxi.iii.xlv
+  - xxi.iii.xlvi
+  - xxi.iii.xlvii
+  - xxi.iii.xlviii
+  - xxi.iii.xlix
+  - xxi.iii.l
+  - xxi.iii.li
+  - xxi.iii.lii
+  - xxi.iii.liii
+  - xxi.iii.liv
+  - xxi.iii.lv
+  - xxi.iii.lvi
+  - xxi.iii.lvii
+  - xxi.iii.lviii
+  - xxi.iii.lix
+  - xxi.iii.lx
+  - xxi.iii.lxi
+  - xxi.iii.lxii
+  - xxi.iii.lxiii
+  - xxi.iii.lxiv
+  - xxi.iii.lxv
+  - xxi.iii.lxvi
+  - xxi.iii.lxvii
+  - xxi.iii.lxviii
+  - xxi.iii.lxix
+  - xxi.iii.lxx
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 428
+    end: 429
+    source: 'npnf105_augustine-anti-pelagian-writings.xml div1 21 heading: a.d. 428 or 429;
+      P1 gives 429'
+    formation_confidence: Widely Accepted
+  translator:
+    name: Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)
+    source: 'npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked
+      wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: 'npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.'
+    formation_confidence: Inferential-Thin
   note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
     as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
     21 split, addressed to the same Prosper/Hilary audience and the same controversy as the
@@ -44,8 +196,68 @@ works:
   author: augustine
   locus: div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the
     Predestination of the Saints'
+  locus_ids:
+  - xxi.ii.i
+  - xxi.ii.ii
+  - xxi.ii.iii
+  - xxi.ii.iv
+  - xxi.ii.v
+  - xxi.ii.vi
+  - xxi.ii.vii
+  - xxi.ii.viii
+  - xxi.ii.ix
+  - xxi.ii.x
+  - xxi.ii.xi
+  - xxi.ii.xii
+  - xxi.ii.xiii
+  - xxi.ii.xiv
+  - xxi.ii.xv
+  - xxi.ii.xvi
+  - xxi.ii.xvii
+  - xxi.ii.xviii
+  - xxi.ii.xix
+  - xxi.ii.xx
+  - xxi.ii.xxi
+  - xxi.ii.xxii
+  - xxi.ii.xxiii
+  - xxi.ii.xxiv
+  - xxi.ii.xxv
+  - xxi.ii.xxvi
+  - xxi.ii.xxvii
+  - xxi.ii.xxviii
+  - xxi.ii.xxix
+  - xxi.ii.xxx
+  - xxi.ii.xxxi
+  - xxi.ii.xxxii
+  - xxi.ii.xxxiii
+  - xxi.ii.xxxiv
+  - xxi.ii.xxxv
+  - xxi.ii.xxxvi
+  - xxi.ii.xxxvii
+  - xxi.ii.xxxviii
+  - xxi.ii.xxxix
+  - xxi.ii.xl
+  - xxi.ii.xli
+  - xxi.ii.xlii
+  - xxi.ii.xliii
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    start: 428
+    end: 429
+    source: 'npnf105_augustine-anti-pelagian-writings.xml div1 21 Book I heading: a.d. 428
+      or 429; P1 gives 428'
+    formation_confidence: Widely Accepted
+  translator:
+    name: Rev. Robert Ernest Wallis, Ph.D. (translation revised by Benjamin B. Warfield, D.D.)
+    source: 'npnf105_augustine-anti-pelagian-writings.xml line 670: Note.—The treatises marked
+      wth an asterisk above were translated by Dr. Wallis; the others by Dr. Holmes.'
+    formation_confidence: Documented
+  edition_date:
+    year: 1887
+    source: 'npnf105_augustine-anti-pelagian-writings.xml line 702: New York, September, 1887.'
+    formation_confidence: Inferential-Thin
   note: '428/429, to Prosper and a correspondent named Hilary, against the objections of the
     Gallic monks. NPNF prints two distinct treatises under one div1; this is the first. Split
     per the granularity rule for headings holding several distinct works. Directly addressed

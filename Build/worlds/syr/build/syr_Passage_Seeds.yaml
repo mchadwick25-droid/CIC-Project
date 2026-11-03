@@ -134,8 +134,8 @@ subquestions:
       rank: 1
       work: The Diatessaron of Tatian
       author: tatian
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:ephraim_prose-refutations_mitchell1912-1921.txt:p15/line2624#02
       file: ephraim_prose-refutations_mitchell1912-1921.txt
@@ -189,10 +189,10 @@ subquestions:
       reader_note: Modern editor's introduction, not Ephrem; second half drifts to Marcionite spelling of 'Jesus' with garbled
         Syriac transliteration and page marker '|cxviii'.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Against Marcion (Discourses I-III)
       author: ephraim
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xv.iii.i.vi#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
@@ -299,11 +299,11 @@ subquestions:
       reader_note: 'First reader misattributed it to Athenagoras: it is Tatian, Address to the Greeks ch. 4 (Tatian the Assyrian,
         later counted an Encratite).'
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
+      work: Address to the Greeks
       author: tatian
-      work_author_basis: unresolved
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C2.S2:
     label: 'What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God'
     seeds: []
@@ -494,9 +494,9 @@ subquestions:
       rank: 1
       work: The Diatessaron of Tatian
       author: tatian
-      work_author_basis: all rows bound to the passage file
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
   C6.S1:
     label: Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one
     seeds:
@@ -1336,10 +1336,10 @@ subquestions:
       reader_note: Pseudo-Clementine Letters on Virginity (3rd-century Syria/Palestine, survives in Syriac); not a named Syriac
         author; no comparison with marriage.
       rank: 4
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: Two Epistles Concerning Virginity
+      author: two-epistles-on-virginity
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:ephraim_prose-refutations_mitchell1912-1921.txt:p31/line2286#01
       file: ephraim_prose-refutations_mitchell1912-1921.txt
@@ -1410,7 +1410,7 @@ subquestions:
       rank: 5
       work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
       author: ephraim
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
+      shelf_binding: row narrowed by locus_ids to this division
       work_author_basis: unresolved
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iv.viii.xxv#01
@@ -1482,10 +1482,10 @@ subquestions:
       reader_note: 'Pseudo-Clementine Homily V: a letter Clement says he composed in a woman''s persona to answer Appion,
         a fiction inside a novel; not own voice; Greek, not Syriac.'
       rank: 6
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: The Clementine Homilies
+      author: pseudo-clement
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
   C8.S6:
     label: Gay people and same-sex relations (never faced as asked)
@@ -1907,8 +1907,8 @@ subquestions:
       rank: 4
       work: The Diatessaron of Tatian
       author: tatian
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: all rows bound to the passage file
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.v/line63094#02
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
@@ -2653,10 +2653,10 @@ subquestions:
       reader_note: Ephrem (Syriac, Nisibis) but the first-person voice is Satan's speech in the hymn; cannot be spoken as
         Ephrem's own claims.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: The Nisibene Hymns
+      author: ephraim
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:xvi.ii.iii.ii#01
       file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
@@ -2906,10 +2906,10 @@ subquestions:
       reader_note: Pseudo-Clementine Homilies (Peter's speech in the novel), Syrian Greek, not Syriac; mixes in an imagined
         objector's lines.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: The Clementine Homilies
+      author: pseudo-clement
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:vi.ii.iv/line17930#01
       file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
@@ -3031,10 +3031,10 @@ subquestions:
           can_be_voiced_as_own: true
       reader_note: Pseudo-Clementine Homilies (Peter speaking), Syrian Greek, not Syriac; the 'true Prophet' is Christ.
       rank: 1
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: The Clementine Homilies
+      author: pseudo-clement
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vi.iii.iii.xvi#01
       file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -3097,10 +3097,10 @@ subquestions:
       reader_note: Pseudo-Clementine Recognitions (Peter speaking), Syrian, not a Syriac author; the 'true Prophet' is Christ,
         so the test bears on prophets only obliquely.
       rank: 2
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: The Recognitions of Clement
+      author: pseudo-clement
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
     - passage_id: cic:anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:vii.xxx/line55058#01
       file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -3375,11 +3375,12 @@ subquestions:
       reader_note: Starts mid-sentence. | Acts of Thomas (Syriac origin, Edessa link); starts mid-sentence with no subject,
         so trim to 'And after a long time'.
       rank: 3
-      work: 'unset: the passage binds to several works and the corpus-map rows cannot narrow it'
-      author: 'unset: the passage binds to several authors and the corpus-map rows cannot narrow it'
-      shelf_binding: 'file level only: the file is on the world shelf, this work may not be'
-      work_author_basis: unresolved
+      work: Acts of Thomas (with the Consummation of Thomas)
+      author: anonymous
+      shelf_binding: row narrowed by locus_ids to this division
+      work_author_basis: row narrowed by its locus_ids to this passage division
       window: 'unknown: the row gives no dated window'
+      author_slug: acts-of-thomas
   C13.S6:
     label: Magic, amulets, curses, the evil eye
     seeds: []

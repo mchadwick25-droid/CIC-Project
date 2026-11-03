@@ -11,6 +11,8 @@ assignments:
   - syriac-edessa-nisibis
   role: context
   confidence: assigned
+  locus_ids: [viii.iii/line12346, viii.iii/notes, viii.iii/line12376, viii.iii/line12411, viii.iii/line12446, viii.iii/line12484, viii.iii/line12529, viii.iii/line12558, viii.iii/line12590, viii.iii/line12639, viii.iii/line12681, viii.iii/line12714, viii.iii/line12743, viii.iii/line12774, viii.iii/line12799, viii.iii/line12874]
+  language: eng
   note: 'ROLE IS `context`: a Cappadocian bishop is not a voice of this Atlas entry. Its value is
     that he defers, in public, to a Syriac speaker on the sense of a Hebrew verb, on the ground that
     Syriac stands nearer the Hebrew than Greek does - an outsider stating this tradition''s own

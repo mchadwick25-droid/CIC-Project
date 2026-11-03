@@ -422,6 +422,8 @@ assignments:
   - alexandria-catechetical
   role: context
   confidence: provisional
+  locus_ids: [xii.i, xii.ii, xii.iii, xii.iii/notes, xii.iv, xii.iv/notes, xii.v, xii.v/notes, xii.vi/line30116, xii.vi/notes, xii.vi/line30138, xii.vi/line30179, xii.vi/line30204, xii.vi/line30229, xii.vi/line30260, xii.vi/line30287, xii.vi/line30320, xii.vi/line30383, xii.vi/line30469, xii.vi/line30488, xii.vii/line30557, xii.vii/line30589, xii.vii/line30636, xii.vii/line30658, xii.vii/notes, xii.vii/line30680, xii.vii/line30701, xii.vii/line30725, xii.vii/line30750, xii.vii/line30787, xii.vii/line30815, xii.vii/line30860, xii.viii, xii.viii/notes, xii.ix, xii.ix/notes, xii.x, xii.x/notes, xii.xi, xii.xii, xii.xii/notes, xii.xiii, xii.xiii/notes]
+  language: eng
   note: 'The Three Chapters condemn Theodore of Mopsuestia - the Church of the East''s "Interpreter"
     - with Theodoret and Ibas: hostile record of the Antiochene school and of the tradition
     the Persian church canonized. The appended anathemas against Origen are the imperial condemnation
@@ -628,6 +630,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.v, xvii.v/notes]
+  language: eng
   note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
@@ -641,6 +645,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.vi, xvii.vi/notes]
+  language: eng
   note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father''s share
@@ -671,6 +677,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.viii, xvii.viii/notes, xvii.ix, xvii.ix/notes, xvii.x]
+  language: eng
   note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
@@ -738,6 +746,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.xxiv, xvii.xxiv/notes]
+  language: eng
   note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
@@ -752,6 +762,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [xvii.xxv, xvii.xxv/notes, xvii.xxvi, xvii.xxvi/notes, xvii.xxvii, xvii.xxviii, xvii.xxix]
+  language: eng
   note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father''s share
