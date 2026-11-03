@@ -57,7 +57,7 @@ modern_rendering: >-
   Indeed, it is not only free of the bustle of the city. Even travelers hardly ever come
   there, except a hunter who happens by.
 use_note:
-  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travellers."
+  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travelers."
   not_for:
     - "the era's classic defence of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
     - "proof that Basil found and kept a settled hermit's life"

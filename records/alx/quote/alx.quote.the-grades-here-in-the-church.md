@@ -33,7 +33,7 @@ modern_rendering: >-
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
-  'Grades' translates prokopai, steps of advance - the offices are rungs, and Clement's interest is in what they imitate rather than in what they do. A participant asking whether this world's church maps onto a church today should see that the three names are already there and that the reasoning behind them is nothing a modern denomination would recognise.
+  'Grades' translates prokopai, steps of advance - the offices are rungs, and Clement's interest is in what they imitate rather than in what they do. A participant asking whether this world's church maps onto a church today should see that the three names are already there and that the reasoning behind them is nothing a modern denomination would recognize.
 retrieval:
   tier: 1
   retrieve_when:
