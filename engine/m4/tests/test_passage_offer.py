@@ -48,7 +48,7 @@ def test_passages_are_placed_among_the_records_by_rank_and_the_records_keep_thei
     both = assemble_evidence(**kwargs, passage_candidates=passages)
     ids = [c["id"] for c in both["candidates"]]
     assert [i for i in ids if i not in ("p.b", "p.d")] == [c["id"] for c in base["candidates"]]
-    assert ids.index("p.b") < len(base["candidates"]) and ids.index("p.b") == 1
+    assert ids[:4] == [base["candidates"][0]["id"], "p.b", base["candidates"][1]["id"], "p.d"]
     assert "[[p.b]] passage" in render_evidence_block(both)
 
 

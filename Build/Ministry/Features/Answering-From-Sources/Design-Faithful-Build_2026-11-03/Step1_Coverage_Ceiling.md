@@ -7,7 +7,7 @@ Engine path: engine/m4/subquestion_routing.py `coverage_entries` (lines 68-79) r
 Sidecar provenance differs: lpc = Build/worlds/lpc/build/lpc_Answers_Sidecar.yaml, `reviewed: true` (hand-checked). alx/syr/rzg = Build/Ministry/Features/Answering-From-Sources/Cross-World-Test_2026-11-02/<w>/<w>_Answers_Sidecar.yaml, built mechanically by tools/build_answers_sidecar.py from Question-Coverage maps, NOT reviewed (README line 9). So "reviewed" holds for record status (ready) but not for the sub-question-to-record mapping on alx/syr/rzg. No sidecar for these three is in Build/worlds/<w>/build/.
 Usable seed = shelf_binding startswith "row narrowed" (passage_offer_build.py LENS_BINDING, line 41 test). Only two binding values exist: "row narrowed by locus_ids to this division..." and "file level only: the file is on the world's shelf...".
 
-## Table (130 base sub-questions; lpc also has 19 split ids C#.S#a, shown separately)
+## Table (130 base sub-questions; lpc also has 19 split ids C#.S#a, shown separately; a split id with no records of its own is offered its parent's records through `resolve`, so the 149 column counts a split's own entries only)
 | | lpc (130 base) | lpc (149 incl 19 splits) | alx | syr | rzg |
 |---|---|---|---|---|---|
 | sub-questions | 130 | 149 | 130 | 130 | 130 |
@@ -55,7 +55,7 @@ M = multi-work volume, S = single-work file (single/multi judged from file name 
 | npnf208_basil-letters-select-works.xml | M | 1 | C9.S4 |
 | npnf213_gregory-great-ephraim-syrus-aphrahat.xml | M | 6 | C10.S5 C13.S1 C13.S5 C2.S8 C7.S7 C8.S3 |
 | palladius_paradise-v1-syriac_budge1907.txt | M (corpus-map rows: Life of Anthony, Paradise Book I, Budge preface...) | 2 | C13.S1 C8.S5 |
-(12+11+7+5+2+2+1+1+6+2+... check: 2+12+11+7+5+2+1+1+6+2 = 49)
+(2+12+11+7+5+2+1+1+6+2 = 49)
 Single-work judgment for addai/origen_philocalia is from file name and corpus-map rows only; I did not open the files.
 
 ## Task 3: index keys

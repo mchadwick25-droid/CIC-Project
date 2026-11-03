@@ -5,8 +5,9 @@
 
 `voice` reads every `pending/<key>.request.json` of a test-set run. For each voice request it compares the
 record ids the engine offered (the `- [[id]]` lines of its messages) with the ids in the prompt file the helper
-is given, and counts the prompt file and each system file against what one read returns whole (2000 lines,
-80000 bytes). It also reports where the offered passages sit in the offer. A request fails when an offered id
+is given, and counts the prompt file and each system file against what one read returns whole: the Read
+tool returns at most 2000 lines of at most 2000 characters, and a file past 80000 bytes (about 20000 tokens) is
+not read in one piece. It also reports where the offered passages sit in the offer. A request fails when an offered id
 is missing from its prompt file or when a file is too long to be read whole.
 
 `items` reads a rater's item list (each item holds `passage_id` and `passage`) and the passage index, and
@@ -16,25 +17,25 @@ Exit status is 1 when any check fails. No model call.
 """
 import argparse
 import json
-import re
 import sqlite3
 import sys
 from pathlib import Path
 
-from engine.m3.reply_client import _OFFERED, offered_ids
+from engine.m3.reply_client import ids_in, offered_ids
 
 MAX_LINES = 2000
+MAX_LINE_CHARS = 2000
 MAX_BYTES = 80000
 _PASSAGE_TAG = ".passage."
 
 
 def _size(path: Path) -> dict:
     data = path.read_bytes()
-    return {"file": path.name, "lines": data.count(b"\n") + 1, "bytes": len(data)}
+    return {"file": path.name, "lines": data.count(b"\n") + 1, "bytes": len(data), "longest_line": max(len(x) for x in data.decode("utf-8").split("\n"))}
 
 
 def _too_long(size: dict) -> bool:
-    return size["lines"] > MAX_LINES or size["bytes"] > MAX_BYTES
+    return size["lines"] > MAX_LINES or size["bytes"] > MAX_BYTES or size["longest_line"] > MAX_LINE_CHARS
 
 
 def check_voice_request(request_path: Path) -> dict:
@@ -42,7 +43,7 @@ def check_voice_request(request_path: Path) -> dict:
     key = request_path.name[: -len(".request.json")]
     prompt = request_path.with_name(f"{key}.prompt.txt")
     offered = offered_ids(request)
-    shown = list(dict.fromkeys(re.sub(r"^(?:quote|story):", "", f) for f in _OFFERED.findall(prompt.read_text(encoding="utf-8"))))
+    shown = ids_in(prompt.read_text(encoding="utf-8"))
     sizes = [_size(prompt)] + [_size(Path(p)) for p in request["system_files"]]
     passages = [i for i, found in enumerate(offered) if _PASSAGE_TAG in found]
     return {

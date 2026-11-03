@@ -1,6 +1,6 @@
 import yaml,json,glob,os,collections,re,sys
-sys.path.insert(0,'/home/user/CIC-Project')
-R='/home/user/CIC-Project/'
+R=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..','..'))+'/'
+sys.path.insert(0,R)
 T=R+'Build/Ministry/Features/Answering-From-Sources/Cross-World-Test_2026-11-02/'
 sc={'lpc':R+'Build/worlds/lpc/build/lpc_Answers_Sidecar.yaml'}
 for w in('alx','syr','rzg'): sc[w]=f'{T}{w}/{w}_Answers_Sidecar.yaml'
@@ -20,7 +20,7 @@ for w in('lpc','alx','syr','rzg'):
         ids=e.get('records') or []
         if ids: rec_side.add(sid)
         if any(repo.get(i,{}).get('record_type') in MAP for i in ids): rec_held.add(sid)
-        if any(repo.get(i,{}).get('record_type') in MAP and status.get(i,'ready')=='ready' for i in ids): rec_ready.add(sid)
+        if any(repo.get(i,{}).get('record_type') in MAP and status.get(i)=='ready' for i in ids): rec_ready.add(sid)
     usable=set();fl=set();tot=0;u=0;f_=0;vo=0;et=0;uvo=0;uet=0
     fileonly=collections.defaultdict(lambda:[0,set()])
     bind=collections.Counter()
@@ -44,7 +44,7 @@ for w in('lpc','alx','syr','rzg'):
     out[w]['_seedkeys']=sorted(set(k for e in sq.values() for x in (e.get('seeds') or []) for k in x))
 for w,o in out.items():
     print(w,{k:v for k,v in o.items() if not k.startswith('_')})
-json.dump(out,open(R and '/tmp/claude-0/-home-user-CIC-Project/f598af84-ac3a-5cc1-8063-e51943cacaa7/scratchpad/step1/counts.json','w'),indent=1,default=list)
+json.dump(out,open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'counts.json'),'w'),indent=1,default=list)
 for w in('alx','syr'):
     print(w)
     for k,v in sorted(out[w]['_fileonly'].items()): print(' ',v[0],k,v[1])

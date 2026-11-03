@@ -62,7 +62,7 @@ lpc: 9 passages offered over the 5 seeded questions; the helpers' drafts bound n
 
 - One run per world, one Opus reader per world (the alx and syr readers finished in about 90 seconds with 7 to 8 tool calls, so their accuracy checks were light), helper-written drafts, reads and rewrites; the old engine's writer differs, which confounds voice, plainness and depth most.
 - Several helpers were stopped by an API safeguard and redid their work; some drafted from part of their ground; one lpc draft omitted material (see `helper_notes.md`). One lpc arm-B draft (q013) was written from the arm-C answer. One re-read list was run by two helpers.
-- Only 9 of 112 questions across the two seeded worlds had a passage offered, and the lens rule offers nothing in alx and syr until their shelf rows are narrowed. The re-test therefore measures how the engine meets an unorganised shelf more than it measures the passage offer.
+- Only 9 of 56 questions across the two seeded worlds had a passage offered, and the lens rule offers nothing in alx and syr until their shelf rows are narrowed. The re-test therefore measures how the engine meets an unorganised shelf more than it measures the passage offer.
 - The fitting-record-in-the-offer column promised in `Frozen.md` was not run; not done.
 - In lpc the passages sat last in each offer (positions 12 to 14 of 13 to 15 entries), and several helpers read only part of their ground, so they never saw them.
 
