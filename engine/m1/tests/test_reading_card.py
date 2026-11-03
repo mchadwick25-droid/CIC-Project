@@ -100,6 +100,27 @@ def test_a_complicated_by_id_that_does_not_exist_fails_the_gate():
     assert found == [f"{QUOTE_ID}.reading_card.complicated_by: 'alx.quote.no-such-record' does not resolve to any record"]
 
 
+def test_a_complicated_by_item_that_is_not_an_id_is_reported_not_raised():
+    card = _card()
+    card["complicated_by"] = [{"id": "alx.quote.athanasius-death-trampled-down"}]
+    found = _card_findings(_with_card(card=card))
+    assert found == [f"{QUOTE_ID}.reading_card.complicated_by: {{'id': 'alx.quote.athanasius-death-trampled-down'}} is not a record id"]
+
+
+def test_a_complicated_by_string_is_reported_once():
+    card = _card()
+    card["complicated_by"] = "alx.quote.athanasius-death-trampled-down"
+    found = _card_findings(_with_card(card=card))
+    assert found == [f"{QUOTE_ID}.reading_card.complicated_by: must be a list of record ids"]
+
+
+def test_a_record_cannot_complicate_itself():
+    card = _card()
+    card["complicated_by"] = [QUOTE_ID]
+    found = _card_findings(_with_card(card=card))
+    assert found == [f"{QUOTE_ID}.reading_card.complicated_by: a record cannot complicate itself"]
+
+
 def test_a_confidence_outside_the_vocabulary_fails_gate_and_schema():
     card = _card()
     card["historians_conclude"]["confidence"] = "Not Attested"
