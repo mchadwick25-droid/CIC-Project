@@ -182,18 +182,25 @@ def base_records(root: Path, code: str, merge_base: str) -> dict[str, dict]:
 
 def compare_world(head: dict[str, dict], base: dict[str, dict], changed_paths: set[str]) -> tuple[list[Finding], list[str]]:
     findings: list[Finding] = []
-    base_texts: dict[str, set[str]] = {}
+    base_texts: dict[str, dict[str, list]] = {}
     for f in public_fields(base):
-        base_texts.setdefault(f.rid, set()).add(normalize(f.text))
+        base_texts.setdefault(f.rid, {}).setdefault(normalize(f.text), []).append(f)
     fields = public_fields(head)
     graded = edited = below_floor = 0
     carried_over: list[str] = []
     for item in fields:
         if gates.grade_text(item.text) is not None:
             graded += 1
-        # A change of spelling alone (British to American) is not an edit: both sides go through the
-        # same table, so a field that already fails stays "carried over" and any other change is graded.
-        is_edited = normalize(item.text) not in base_texts.get(item.rid, set())
+        # A change of spelling alone (British to American) is not an edit when the base text already
+        # failed: it stays "carried over". If the base text passed, the new text is graded, so a spelling
+        # change that crosses a limit is caught. Any other change is graded.
+        matches = base_texts.get(item.rid, {}).get(normalize(item.text), [])
+        if not matches:
+            is_edited = True
+        elif any(m.text == item.text for m in matches):
+            is_edited = False
+        else:
+            is_edited = not any(readability_failures(m) for m in matches)
         reasons = readability_failures(item)
         if is_edited:
             edited += 1

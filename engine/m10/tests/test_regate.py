@@ -431,3 +431,17 @@ def test_a_british_to_british_or_american_to_american_difference_is_a_real_edit(
     base = _world(_term("zzz.term.p", BRITISH_DENSE))
     head = _world(_term("zzz.term.p", BRITISH_DENSE.replace("honour", "favour")))
     assert regate.compare_world(head, base, {"p"})[0] != []
+
+
+def test_a_spelling_change_to_a_field_that_passed_at_the_base_is_graded(monkeypatch):
+    real = regate.readability_failures
+    monkeypatch.setattr(
+        regate,
+        "readability_failures",
+        lambda item: ["over the limit"] if "theater" in item.text else real(item),
+    )
+    base = _world(_term("zzz.term.p", "The theatre stood by the road."))
+    head = _world(_term("zzz.term.p", "The theater stood by the road."))
+    findings, notes = regate.compare_world(head, base, {"p"})
+    assert [f.check for f in findings] == ["readability"]
+    assert not any("already failed at the base" in n for n in notes)
