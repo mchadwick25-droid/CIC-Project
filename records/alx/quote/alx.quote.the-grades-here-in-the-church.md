@@ -27,7 +27,7 @@ modern_rendering: >-
   which, the Scriptures say, awaits those who have followed in the
   footsteps of the apostles. These people have lived in perfect
   righteousness, as the Gospel teaches. For those taken up in the clouds,
-  the apostle writes, will first serve as deacons. Then they will be
+  the apostle writes, will first serve [as deacons]. Then they will be
   ranked among the presbyters, promoted in glory, for one glory differs
   from another. This goes on until they grow into full maturity.
 speaker_or_author: Clement of Alexandria, Stromateis

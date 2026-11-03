@@ -70,8 +70,9 @@ def test_the_fixture_world_passes_its_own_log():
     assert gate_rendering_review(load_world_records("fix"), {}, {}) == []
 
 
-def test_every_lpc_rendering_is_listed_in_the_real_log():
-    assert gate_rendering_review(load_world_records("lpc"), {}, {}) == []
+@pytest.mark.parametrize("world", ["lpc", "alx", "pahc", "cappadocian"])
+def test_every_rendering_in_a_reviewed_world_is_listed_in_its_real_log(world):
+    assert gate_rendering_review(load_world_records(world), {}, {}) == []
 
 
 def test_the_gate_is_registered():

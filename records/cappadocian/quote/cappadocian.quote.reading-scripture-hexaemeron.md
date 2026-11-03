@@ -48,11 +48,11 @@ relations:
 - type: associated-with
   target: cappadocian.dw.reading-scripture
 modern_rendering: >-
-  If we simply read the words of Scripture, we find only a few short syllables: "Let the
-  waters bring forth flying creatures that fly above the earth in the open firmament of
+  If we simply read the words of Scripture, we find only a few short syllables. "Let the
+  waters bring forth birds that may fly above the earth in the open firmament of
   heaven." But if we ask what these words mean, the great wonder of the Creator's wisdom
-  appears. What a difference he foresaw among the winged creatures! How he divided them by
-  kinds! How he marked each one with its own distinct qualities!
+  appears. What a difference he has foreseen among winged creatures! How he has divided
+  them by kinds! How he has marked out each one of them by its own distinct qualities!
 use_note:
   means: "Basil's eighth Hexaemeron homily says the few syllables about the creation of birds disclose the Creator's wisdom once their meaning is closely examined."
   not_for:

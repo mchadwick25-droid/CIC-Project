@@ -20,8 +20,8 @@ sources:
   license: public-domain
 text: Our Instructor, the Word, therefore cures the unnatural passions of the soul by means of exhortations.
 modern_rendering: >-
-  So our Instructor, the Word, cures the unnatural passions of the soul,
-  and he does this by urging us on.
+  So our Instructor, the Word, cures the passions of the soul that go
+  against nature. He does this by urging us on.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -35,7 +35,7 @@ retrieval:
   - "participant asks how a person was formed or changed by this way of life"
   - "participant asks what they did about anger, appetite, and unruly feeling"
 use_note:
-  means: "Clement, in Paedagogus I.2, describes the Word as Instructor who cures the soul's unnatural passions by means of exhortation."
+  means: "Clement, in Paedagogus I.2, describes the Word as Instructor who cures the soul's passions that go against nature by means of exhortation."
   not_for:
     - "the modern sense of passion as enthusiasm, when Clement means disordered appetites"
     - "a description of a practised therapeutic or disciplinary routine in the community"

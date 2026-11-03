@@ -37,3 +37,7 @@ Moved here from the body of `records/cappadocian/world_core/cappadocian.core.cap
 > No Representative content appears in this record (Doc_01 constraint honored).
 >
 > world_id is cappadocian-trinitarian, and this record's own id is cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name is "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either.
+
+## 2026-11-03 — Change order: forces document index row 2A-1 brought into line with its Section 5
+
+The forces document's index table listed six gravities for Force 2A-1 (imperial religious policy's oscillation) and left out Supporting 4 (Paideia converted). Its own Section 5 ties Supporting 4 to 2A-1 ("2A-1/Julian (its crisis)"). The row now lists Supporting 4. The records already match Section 5; see `Open_Gaps_Tracking.md`, OG-61, and the closing entry that follows it. No other row changed. Library record-defects thread, at the coordination thread's direction.

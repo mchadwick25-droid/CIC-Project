@@ -23,13 +23,13 @@ text: >-
   Then Georgius entered on the thirtieth of Mechir, and acted with excessive violence. But Athanasius, the Bishop, had fled, and was sought for in the city with much oppression, many being in danger on this account. Therefore no Festal Letter was written
 modern_rendering: >-
   Then George entered on the thirtieth of Mechir and acted with excessive
-  violence. But Athanasius the Bishop had fled, and men searched the city for
-  him with great harshness, so that many people were in danger because of it.
+  violence. But Athanasius the Bishop had fled. He was searched for in the
+  city with great harshness. Many people were in danger because of this.
   Therefore no Festal Letter was written.
 speaker_or_author: the Festal Index of the Alexandrian church, year XXIX (356-7)
 license: verbatim
 modern_lens_note: >-
-  Read the last sentence as an administrative fact, because that is what it is. The Festal Letter was the annual letter fixing the date of Easter and instructing the whole Egyptian church; it went out every year. This year it did not, because the bishop was in hiding IN HIS OWN CITY and men were being arrested looking for him. The emperor doing this was a Christian, forty years after the persecutions ended. That is the empire question answered from inside the record rather than argued: what changed was not that the church stopped being persecuted, but who was doing it and over what.
+  Read the last sentence as an administrative fact, because that is what it is. The Festal Letter was the annual letter fixing the date of Easter and instructing the whole Egyptian church; it went out every year. This year it did not, because the bishop had fled and the search for him in the city put many people in danger. The emperor doing this was a Christian, forty years after the persecutions ended. That is the empire question answered from inside the record rather than argued: what changed was not that the church stopped being persecuted, but who was doing it and over what.
 retrieval:
   tier: 1
   retrieve_when:

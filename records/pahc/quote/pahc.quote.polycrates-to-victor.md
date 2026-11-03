@@ -29,7 +29,7 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
 modern_rendering: >-
   As for us, we keep the exact day with great care, adding nothing and
   taking nothing away. For in Asia great luminaries have gone to their
-  rest, and they will rise again on the day the Lord comes. And I too,
+  rest, and they will rise again on the day the Lord comes... And I too,
   Polycrates, the least of you all, follow the tradition of my
   relatives, some of whom I have succeeded. Seven of my relatives were
   bishops, and I am the eighth. My relatives always kept the day when

@@ -56,16 +56,16 @@ relations:
 - type: associated-with
   target: cappadocian.dw.ordinary-day
 modern_rendering: >-
-  Now some of you try to get out of work under the pretext of prayers and psalmody.
-  Understand that for each separate task there is a special time, as Ecclesiastes says:
-  'There is a time for everything.' But for prayer and psalmody, as for many other things,
-  every time is suitable. So we praise God with psalms, hymns, and spiritual songs while
-  our hands stay busy at work. We do this aloud, if that is possible and helps build up
-  the faith, but if not, then in the heart -- giving thanks to him who gave us both
-  strength of hand to work and wisdom of mind to know how to work, and who also gave us
-  the means to work, both in the tools we use and the arts we practice, whatever the work
-  may be. And we pray, too, that the works of our hands may be directed toward pleasing
-  him.
+  Some get out of work on the pretext of prayers and psalmody. Because of this, you must
+  know that each separate task has its own special time. As Ecclesiastes says, 'There is
+  a time for everything.' But for prayer and psalmody, as for many other things, every
+  time is suitable. So we praise God with psalms and hymns and spiritual songs while we
+  move our hands at work. We do it with the tongue, if that is possible and helps build
+  up the faith. If not, we do it in the heart. We give thanks to him who gave both
+  strength of hand to work and wisdom of mind to know how to work. He also gave the
+  means to work, both in the tools we use and the crafts we practice, whatever the work
+  may be. We pray, moreover, that the works of our hands may be directed toward the goal
+  of pleasing God.
 use_note:
   means: "Basil's Longer Rules rejects using prayer as an excuse to avoid work, teaching that psalms can be sung aloud or in the heart while the hands work."
   not_for:

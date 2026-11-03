@@ -50,13 +50,12 @@ relations:
 - type: associated-with
   target: cappadocian.dw.stillness-and-the-summons
 modern_rendering: >-
-  Why bother describing the scents rising off the earth, or the
-  breezes from the river? Someone else might go on about the flowers
-  and the birdsong, but I have no leisure for that. The real glory of
-  this place is that, fertile as it is for every kind of produce, the
-  sweetest crop it grows me is quiet. It isn't just free of the city's
-  noise - hardly anyone even passes through, except the occasional
-  hunter.
+  Why should I tell of the vapors rising from the earth, or the breezes from the river?
+  Another person might admire the many flowers and the singing birds. But I have no
+  leisure for such thoughts. Still, the chief praise of the place is this. Well suited
+  to produce of every kind, it grows what is to me the sweetest produce of all: quiet.
+  Indeed, it is not only free of the bustle of the city. Even travelers hardly ever come
+  there, except a hunter who happens by.
 use_note:
   means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travellers."
   not_for:

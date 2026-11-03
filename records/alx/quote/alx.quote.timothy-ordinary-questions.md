@@ -24,9 +24,9 @@ text: 'Question I. If a lad of seven years old, or a man, being a catechumen, be
   XI. If a clergyman be called to celebrate a marriage, and have heard that it is incestuous; ought he to
   comply, and perform the oblation? Answer. No; he must not be partaker of other men’s sins.'
 modern_rendering: >-
-  Question I. A boy of seven, or a man, who is a catechumen may be present
-  at the offering and eat of it in ignorance. What should be
-  done? Answer. Let him be illuminated, that is, baptized, for he is
+  Question I. Suppose a boy of seven, or a man, is a catechumen. He is
+  present at the offering and eats of it in ignorance. What should be
+  done in this case? Answer. Let him be illuminated, that is, baptized, for he is
   called by God. ... Question VIII. Should a woman who has just given
   birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man
   required to keep the Paschal fast? Answer. No. Question XI. A clergyman
