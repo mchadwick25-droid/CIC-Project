@@ -921,3 +921,36 @@ Delivery lead, 2026-11-03, chunk D2b: the items entry 73 left for their owners c
 - Story length (`engine/m4/story_placement.py`): the fixed reply room of 220 words, left from the removed word range, is gone. The story length the voice names in its marker is placed when the record has it; a missing or unknown length is medium, or full when there is no medium.
 - The deployed check's self-reference rules (`engine/m10/deployed.py`): "no explaining what kind of thing is speaking" is replaced by "asked why it says 'we', the voice answers plainly", and the fleet pronoun rule drops the limit kept only for the old stem. `SHAPE_HASH` changes again, to sha256:b5d3c0bf...4ad5; `admission_conform` still reports all 11 admitted worlds stale, as before.
 - The process-narration comments in `engine/m4/turn_prep.py` are rewritten in the present tense; their history is in the Live-Surface-Cleanup decision log (entry D2b).
+
+## 75. V7 direction approved for controlled testing, not as architecture (2026-11-03)
+
+Mark, 2026-11-03, in response to the V7 architecture reassessment (https://claude.ai/artifact/EuKJQj3kEgvS2kDLkQvjC9), relayed through the coordination thread: "Direction approved for controlled testing — not architecture approval." Also: "I agree with the central direction: preserve the current single-generation architecture as the baseline and investigate whether better contextual preparation of the Representative can materially improve first-generation answers."
+
+He authorized seven things:
+1. Continue the outstanding rendering reviews and exact-source-line work.
+2. Establish the current production engine's baseline measurements.
+3. Develop and review reading cards for Alexandria.
+4. Implement B behind a switch, without changing the production path.
+5. Extend the evaluation, adding world embodiment, conversational quality and general-user accessibility to the seven dimensions. The dimensions are never collapsed into one composite score.
+6. Run the controlled, capped evaluation across Alexandria, pahc and syr. Mark chose pahc as the third world, not lpc.
+7. Return with measured results, limitations and a recommendation before any production promotion.
+
+Conditions:
+- "The $30 evaluation cap stands. If the proposed work cannot be completed within that cap, stop and return for approval."
+- "Do not proceed with C unless the results demonstrate that B has a meaningful remaining problem that selective correction could address."
+- No wholesale redesign, no expansion of routine model calls, no expensive pre-verified bundles, and no permanent decision about source-library architecture.
+
+Clarifications that bind the test:
+- The Representative connects, explains and interprets across sources. It must never shrink to "a collection of individually supported statements". "Academic rigor does not mean eliminating interpretation. It means making interpretation responsible, contextual, and appropriately qualified."
+- Reading cards keep four things apart:
+  - what the primary source says;
+  - what historians conclude about it;
+  - what it contributes to understanding the world;
+  - what is disputed, uncertain or unrepresentative.
+- Scope is not a hierarchy. An influential author's position is not automatically the community's, and a common practice is not universal agreement. Cards help the Representative reason; they do not impose mechanical citation rules.
+- The richness of the Formation World is "a non-negotiable requirement".
+- Live retrieval of arbitrary passages is deferred. Building a coherent, reviewed knowledge base from a world's full shelf stays fundamental. No permanent decision on source-library reach is made from the current search bench.
+- Human historical review reports actual error counts, severity and uncertainty. "A small sample can identify problems but cannot establish that serious errors have been eliminated."
+- The decision report answers his eight questions, with verified findings, assumptions and hypotheses kept separate.
+
+D4, the offer assembler (pull request #1484), stays paused. The plan, rubric and specs are in `Build/Ministry/Features/V7-Controlled-Test/`. The named live test is `v7-ab-alx-pahc-syr`, with a $30 cap that includes a 12-turn sample. The main run waits for Mark to confirm the sample.
