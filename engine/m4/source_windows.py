@@ -395,6 +395,12 @@ def _bounds(path: str, first: int, last: int) -> tuple[int, int]:
     return max(first - fit_step.CONTEXT_RADIUS_LINES, 1), min(last + fit_step.CONTEXT_RADIUS_LINES, len(_lines(path)))
 
 
+def division_path(path: str, first: int, last: int) -> list[str]:
+    """The titles of the divisions that hold lines first..last, outermost first."""
+    holding = sorted((d for d in _divisions(path) if d["first"] <= first and last <= d["last"]), key=lambda d: d["level"])
+    return [d["title"] for d in holding if d.get("title")]
+
+
 def _line_words(path: str, line_no: int) -> list[str]:
     return _MARKUP.sub(" ", _lines(path)[line_no - 1]).split()
 
@@ -433,6 +439,7 @@ def _block(record: dict, source: dict, path: Path, lines: tuple[int, int], text:
     return {
         "id": f"{fit_step.CONTEXT_PREFIX}{record['id']}.{n}", "record_id": record["id"], "source_id": source.get("source_id"),
         "file": f"cic/texts/{path.name}", "lines": f"{lines[0]}-{lines[1]}", "text": text, "trimmed": trimmed,
+        "division_path": division_path(str(path), *lines),
     }
 
 

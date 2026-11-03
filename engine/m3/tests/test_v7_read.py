@@ -144,7 +144,7 @@ def test_a_request_holds_the_content_of_each_cited_record_and_its_division(env):
     assert "project-authored" in quote["reading_card"]["label"].lower()
     assert not {"_body", "_path", "canon_cells"} & set(quote)
     passage = next(p for p in req["source_passages"] if p["record_id"] == "tst.quote.one")
-    assert passage["how"] == "cited lines" and passage["division_path"] == ["Work One", "Chapter II"]
+    assert passage["division_path"] == ["Work One", "Chapter II"]
     assert "chapter two line 40 of" in passage["text"] and "chapter one" not in passage["text"]
     assert [t["id"] for t in req["lexicon_risk_flags"]["terms"]] == ["tst.term.risky"]
 
@@ -155,21 +155,21 @@ def test_each_type_keeps_its_main_text(env):
     req = json.loads((out / "requests" / "reader-1" / f"{iid}.json").read_text())
     gravity = next(r for r in req["cited_records"] if r["id"] == "tst.gravity.g")
     assert gravity["description"] == "A synthetic gravity."
-    assert req["source_passages_unresolved"][0]["reason"] == "the source is not vendored"
+    assert req["source_passages_unresolved"][0]["reason"] == "passage not located: the source is not vendored"
     assert rd._record_view(_records()["tst.limit.l"])["statement"] == "A synthetic limit."
     assert rd._record_view(_records()["tst.term.risky"])["senses"] == {"informational": "A sense."}
 
 
-def test_passages_come_from_lines_quoted_words_or_the_work_opening(env):
+def test_passages_come_from_lines_or_quoted_words_and_an_unlocated_one_has_no_text(env):
     records, root = _records(), env["tmp"] / "texts_root"
-    lines = ps.resolve_record(records["tst.quote.one"], records, root)
-    assert [p["how"] for p in lines["passages"]] == ["cited lines"] and lines["passages"][0]["lines"] == "32-71"
+    lines = ps.resolve_record(records["tst.quote.one"], records, root)["passages"][0]
+    assert lines["lines"] == "40-41" and lines["division_path"] == ["Work One", "Chapter II"]
     found = ps.resolve_record(records["tst.dw.plain"], records, root)["passages"][0]
-    assert found["how"] == "quoted words found" and found["division_path"][-1] == "Chapter II"
-    opening = ps.resolve_record(records["tst.term.risky"], records, root)["passages"][0]
-    assert opening["how"] == "work opening only" and opening["division_path"] == ["Work One"]
+    assert found["division_path"][-1] == "Chapter II" and "chapter two line 50" in found["text"]
+    missing = ps.resolve_record(records["tst.term.risky"], records, root)
+    assert missing["passages"] == [] and missing["unresolved"][0]["reason"].startswith("passage not located")
     none = ps.resolve_record(records["tst.gravity.g"], records, root)
-    assert none["passages"] == [] and none["unresolved"][0]["reason"] == "the source is not vendored"
+    assert none["passages"] == [] and none["unresolved"][0]["reason"] == "passage not located: the source is not vendored"
 
 
 def test_a_division_over_the_cap_keeps_the_cited_lines_whole(env):
@@ -185,7 +185,7 @@ def test_a_file_with_no_division_gives_lines_either_side(env):
     records = {"s": {"id": "s", "kind": "vendored", "edition": "vendored as cic/texts/tst2_plain.txt"},
                "r": {"id": "r", "record_type": "quote", "sources": [{"source_id": "s", "locus": "tst2 line 60"}], "text": "x"}}
     got = ps.resolve_record(records["r"], records, env["tmp"] / "texts_root")["passages"][0]
-    assert got["how"] == "cited lines" and got["lines"] == "30-90" and got["division_path"] == []
+    assert got["lines"] == "60-60" and got["division_path"] == [] and "plain line 60 here" in got["text"]
 
 
 def test_real_records_resolve_for_the_cited_records_of_a(env):
@@ -204,10 +204,12 @@ def test_real_records_resolve_for_the_cited_records_of_a(env):
                     quote_lines[rid] = got["passages"][0]
             else:
                 unresolved.append((rid, got["unresolved"][0]["reason"]))
-    assert resolved + len(unresolved) == 153 and resolved >= 140
+    assert resolved + len(unresolved) == 153 and resolved >= 100, unresolved
+    assert all(r.startswith("passage not located") for _, r in unresolved)
+    assert len(quote_lines) == 8
     assert all(reason for _, reason in unresolved)
     bee = quote_lines["alx.quote.clement-bee"]
-    assert bee["how"] == "cited lines" and bee["division_path"][-1].startswith("Chapter I.")
+    assert bee["division_path"][-1].startswith("Chapter I.")
     assert "bee" in bee["text"].lower()
 
 
@@ -440,7 +442,7 @@ def test_mark_pack_passages_are_trimmed_but_in_context(env):
     out, keys = env["tmp"] / "pack", env["tmp"] / "pack_keys"
     assert rd.main(["mark-pack", "--set-dir", str(env["set"]), "--b", str(env["run1"]), "--worlds", WORLD, "--out", str(out),
                     "--key-dir", str(keys), "--seed", "3", "--per-world", "12"]) == 0
-    line = next(s for i in json.loads((out / "mark_pack.json").read_text())["items"] for s in i["source_lines"] if s["how"] == "cited lines")
+    line = next(s for i in json.loads((out / "mark_pack.json").read_text())["items"] for s in i["source_lines"] if s["lines"] == "40-41")
     assert len(line["text"].split()) <= rd.MARK_PASSAGE_WORDS + 20 and "chapter two line 40 of" in line["text"]
 
 

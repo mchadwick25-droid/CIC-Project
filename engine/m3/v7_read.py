@@ -136,8 +136,8 @@ INSTRUCTIONS = (
     "Reply with one JSON object in the reply format."
 )
 PASSAGE_NOTE = (
-    "A passage marked 'work opening only' is the start of the cited work, because the record's locus names no line and its "
-    "words were not found in the text. It is context, not the cited place."
+    "Each passage is the cited place with its surrounding division. A source listed under source_passages_unresolved "
+    "has no passage text: its passage was not located."
 )
 
 
@@ -302,7 +302,7 @@ class Context:
 
 
 def _passage_view(p: dict) -> dict:
-    return {k: p[k] for k in ("record_id", "source_id", "locus", "file", "how", "division_path", "lines", "trimmed", "text")}
+    return {k: p[k] for k in ("record_id", "source_id", "locus", "file", "division_path", "lines", "trimmed", "text")}
 
 
 def build_request(item: dict, reader: str, ctx: Context, rubric: str) -> dict:
@@ -1040,7 +1040,7 @@ def cmd_mark_pack(args) -> int:
                 cited = ctx.cited(world, arm_item["citations"], MARK_PASSAGE_WORDS)
                 items.append({"item_id": iid, "world": world, "question": ctx.question(chosen["probe_id"]),
                               "answer": arm_item["answer"], "cited_records": cited["views"],
-                              "source_lines": [{k2: p[k2] for k2 in ("record_id", "how", "division_path", "lines", "text")}
+                              "source_lines": [{k2: p[k2] for k2 in ("record_id", "division_path", "lines", "text")}
                                                for p in cited["passages"]]})
                 key[iid] = {"key": k, "world": world, "arm": arm_item["arm"], "probe_id": chosen["probe_id"], "cell": chosen["cell"]}
     by_id = {i["item_id"]: i for i in items}
