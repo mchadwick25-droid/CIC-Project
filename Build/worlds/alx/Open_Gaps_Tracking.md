@@ -856,3 +856,14 @@ Status: OPEN. Owner: Library thread, through the coordination thread.
 - **Seeds.** alx `row narrowed`: 0 of 52 before, 35 of 52 after. The 17 that stay `file level only` sit in works the alx rows do not name (Apostolic Constitutions, the Pseudo-Clementines, Gregory of Nyssa and others), so they are correctly off the lens.
 - **Not done.** Dates and translators on these rows are not set. `window` stays `unknown` on all 52. Divisions the readers left out of every row on purpose: general introductions and editors' notes that serve several works.
 - **Owner.** Library thread, through the coordination thread.
+
+## OG-43. Deployment-layer work still open from the v7 gap-closure tracker, 2026-11-03
+
+`v7_Gap_Closure_Tracker.md` (now under `Build/Ministry/Operations/Audits/World-Findings/alx/`) closed every item it named except the following, which it listed as remaining and which are recorded here so they do not go quiet:
+- The Tier-2 lexicon chunk files (`047` onward), including the governed contested-term entries `046`, `051`, `059`, `074`, `081` and `090`.
+- Full completion of the 153 one-directional reciprocity back-links flagged in the directory-wide audit; `051` (Apokatastasis) is the one genuinely unbuilt chunk.
+- Optional only: folding the fuller v7 prose for per-gravity temporal profiles and the daily, weekly and annual rhythm detail back into the cleared record. The content is preserved in the archive; the project lead decides whether to fold it back.
+
+Article 31 external review (OG-4) remains the outstanding external gate. The tracker's work did not freeze the world.
+
+Status: OPEN. Owner: this world's thread.
