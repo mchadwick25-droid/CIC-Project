@@ -28,4 +28,4 @@ discovery_channel: Source Registry row 27; builder-prior-knowledge (recognized f
 external_ids:
   don_source_registry_row: 27
 ---
-Worship/liturgical distinctiveness evidence (Doc_02 SS5) -- CIL VIII 17732, found on two pillars near Bagai itself, reads 'DEO LAVDES' twice, with the editors' own note identifying it as the Donatists' own sign and token, as 'Deo gratias' was the Catholics'. Four catalogued attestations in total, the strongest from Bagai itself, one of the two Donatist seats CIL VIII names for it -- resolved this session from a recognized field category onto specific catalogued inscriptions via row 48's own now-vendored text.
+Worship/liturgical distinctiveness evidence (Doc_02 SS5) -- CIL VIII 17732, found on two pillars near Bagai itself, reads 'DEO LAVDES' twice, with the editors' own note identifying it as the Donatists' own sign and token, as 'Deo gratias' was the Catholics'. Four cataloged attestations in total, the strongest from Bagai itself, one of the two Donatist seats CIL VIII names for it -- resolved this session from a recognized field category onto specific cataloged inscriptions via row 48's own now-vendored text.

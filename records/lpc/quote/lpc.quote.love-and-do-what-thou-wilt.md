@@ -43,7 +43,7 @@ retrieval:
   - participant asks how Augustine said to correct and yet forgive -- lpc.quote.reprove-and-forgive-the-surgeons-knife
     gives that
 claim_guards:
-- 'The line is not a licence: the passage says deeds are known by their root, and that from the root of
+- 'The line is not a license: the passage says deeds are known by their root, and that from the root of
   love nothing can spring but what is good.'
 - The passage does not describe church discipline or excommunication; 'correct' and 'spare' are named
   only as acts that love may do.

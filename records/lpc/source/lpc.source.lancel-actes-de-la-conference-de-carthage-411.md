@@ -45,7 +45,7 @@ rights_status: in-copyright for Lancel's Sources Chrétiennes edition, which is 
   was read against the Migne printing.
 attribution_status: Lancel's own edition is attributed to him as editor/translator; the Gesta themselves
   are documentary -- an imperial court transcript, with named delegates and speakers.
-discovery_channel: WebSearch (the series' own catalogue); content independently verified directly against
+discovery_channel: WebSearch (the series' own catalog); content independently verified directly against
   cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, not taken from the sibling build's own
   account of it.
 external_ids:

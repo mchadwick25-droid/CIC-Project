@@ -32,7 +32,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks how Augustine prepared for death
-  - participant asks whether Augustine practised the repentance he taught
+  - participant asks whether Augustine practiced the repentance he taught
   - participant asks what the penitential psalms meant to Augustine
   prefer_instead:
   - participant wants the moment of his death -- lpc.quote.he-slept-with-his-fathers gives that
@@ -65,6 +65,6 @@ modern_rendering: And he did this himself in the last illness of which he died. 
   were there to let no one come in to him. The only exceptions were the hours when the doctors came to
   examine him, or when food was brought to him. This was kept and done, and he had all that time free
   for prayer. Up to the very moment of his last illness he preached the Word of God in the church. He
-  preached without ceasing, with vigour and power, with a clear mind and sound judgment.
+  preached without ceasing, with vigor and power, with a clear mind and sound judgment.
 ---
 Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4924-4938; Latin on the facing page of the same edition, lines 4887-4899. The sentence before it, on Augustine's teaching that even baptized Christians should not die without repentance, is left out; the story lpc.story.the-psalms-on-the-wall tells it. The spaced semicolon is the OCR's. The passage carries the story lpc.story.the-psalms-on-the-wall.

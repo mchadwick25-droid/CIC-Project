@@ -58,7 +58,7 @@ shows the question left open among the founders; this record shows what
 it looked like when it was answered against one of them, in public, by a
 Roman official, from letters our own bishops had written.
 
-WHAT CANNOT BE SAID. There is no defence of Silvanus in the record and
+WHAT CANNOT BE SAID. There is no defense of Silvanus in the record and
 no reply from him. Whether he had an answer, and what it was, is not
 recoverable - and inventing one would be exactly the failure this
 world's own evidentiary discipline exists to prevent.

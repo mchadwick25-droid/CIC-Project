@@ -95,6 +95,11 @@ WORD_RE = re.compile(
     re.IGNORECASE,
 )
 
+_COMPARE_RE = re.compile(
+    r"(?<![\w/_.])(?:" + "|".join(sorted(map(re.escape, TABLE), key=len, reverse=True)) + r")(?![\w/_])",
+    re.IGNORECASE,
+)
+
 
 def american(word: str) -> str:
     """The American form of one flagged word, keeping its capitalization."""
@@ -117,5 +122,6 @@ def is_flagged(word: str) -> bool:
 
 def normalize(text: str) -> str:
     """The text with every British form replaced by the American one, wherever it stands
-    (quotations included): used to compare two texts, never to rewrite one."""
-    return WORD_RE.sub(lambda m: american(m.group(0)) if is_flagged(m.group(0)) else m.group(0), text)
+    (quotations included, and a form joined to another word by a hyphen): used to compare two texts,
+    never to rewrite one."""
+    return _COMPARE_RE.sub(lambda m: american(m.group(0)) if is_flagged(m.group(0)) else m.group(0), text)

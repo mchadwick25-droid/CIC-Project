@@ -14,7 +14,7 @@ confidence:
   divergence_note: 'Documented from the transcript itself: he presides throughout as tribunus et notarius,
     his two edicts are read into the record, and his interlocutions are numbered acts like everyone else''s.
     Two limits. The transcript was read systematically for the Donatist bishops'' interventions rather
-    than in full, so this record does not characterise the whole of his conduct; and the verdict is not
+    than in full, so this record does not characterize the whole of his conduct; and the verdict is not
     in the numbered acts read, so nothing here describes how he decided.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
@@ -46,7 +46,7 @@ was, whose two edicts set the terms, and whose notaries produced the one
 transcript in this world's record that no adversary curated. He is not a
 member of either communion.
 
-HIS ONE RECORDED MOMENT OF CANDOUR IS THE WHOLE PROCEEDING IN MINIATURE.
+HIS ONE RECORDED MOMENT OF CANDOR IS THE WHOLE PROCEEDING IN MINIATURE.
 Asked which side owns the name Catholic, he answered that it is certain
 the name belongs, after the contest, to those with whom the truth is
 found - and then said he was nevertheless obliged to follow the form of
@@ -57,7 +57,7 @@ it. See don.story.conference-of-carthage-411.
 HE ALSO OFFERED OUR BISHOPS CHAIRS and said it weighed on him to sit
 while so many venerable men stood. Petilian thanked him and refused. That
 exchange is on the record and is the single most humane moment in it;
-it should not be dropped in favour of the outcome.
+it should not be dropped in favor of the outcome.
 
 HOMONYM, FOUND AT THIS COMPILATION STEP AND NOT FLAGGED IN ANY OF THIS
 WORLD'S CONSTRUCTION DOCUMENTS. The Passio Donati sermon names a tribune
