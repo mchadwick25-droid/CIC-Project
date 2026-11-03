@@ -876,3 +876,28 @@ Mark, 2026-11-03, relayed by the coordination thread: "follow all your recommend
 - "We" is for the tradition's perspective; in the present conversation the voice says "I". Names the sources contain are named. A gap is stated plainly when asked and not volunteered. The first sentence answers the question as asked.
 - Records and phase documents corrected in the Library change; Engine makes the one shared-rule change.
 
+
+## 70. Conformance removals approved; the plan re-baselined to the six stages (2026-11-03)
+
+Mark, 2026-11-03, choice box: "Approve all (Recommended)". The list is Engine 2's survey of the engine against the proposal, reconciled by the delivery lead against the proposal and the Settled Items register; it is on the plan page (version 65), section "Conformance".
+
+- Removed in one pull request (chunk D6): the experimental record gates (`engine/m1/gates_experimental.py`, never called); the fleet floor line (`engine/m4/evidence.py`, never wired); self-revision (`engine/m4/self_revision.py`, off in deployment); the r27 uncited-claims regeneration path in `engine/m4/turn.py` and its correction appendix (the offline report that shares `uncited_claims.py` stays); citation attach (`engine/m4/citation_attach.py`, staging only); and, on the new path only, the answer-record fallback in `engine/m4/turn.py` (the old path keeps it until its gates retire). Each removal is tested so the live path's output is unchanged on a replay of saved drafts.
+- Changed at a set point: one diversity rule over records and passages in the offer (chunk D4) replaces the record-only source spread; the world-core analytic sections (Horizon, Formation logic, Thinness, Cautions, Living traditions) leave a world's live prompt when that world's reviewed frame exists.
+- Carried out under rulings already made, not asked again: the Decision-Log 63 and 64 lines are reverted; the fleet "strict we" pronoun rule, the 120 to 220 word range, "briefly" in the limit line, and the three-round figure line where the question or the sources name the person change under Settled Items 22 to 24 (chunk D2).
+- The plan page is re-baselined to section 15's six stages, with the exit number and status per world and the remaining work as chunks D1 to D14 of one day or less.
+
+## 71. Record defects fixed now; every verbatim quote names its exact lines (2026-11-03)
+
+Mark, 2026-11-03, in his words: "fix the record defects now, not after". Then by choice box: "Yes, require exact lines (Recommended)", answering the question left open by entry 62.
+
+- A Library thread on Opus fixes the registered record defects now: the 5 quotes whose text is not at their cited lines (lpc 4, desert 1) and the 372 modern renderings with no named review file (gallic 110, desert 61, ijc 39, syr 34, hal 32, alx 26, pahc 25, cappadocian 21, witt 13, rzg 6, don 5). Each rendering is read against its edition text; one that fails the rendering bar is re-rendered by Opus and read again. Each world's waiver is lowered as its count falls and removed at 0.
+- Every verbatim quote names the lines it quotes. The 364 quotes whose locus names no span get their span from the vendored edition; any quote not found there is corrected at the record. The `quote-locus` gate then fails a verbatim quote with no span, instead of skipping it.
+- Program notes are cleared from the live and canonical files at Mark's word of the same day ("make sure what exists is clean and not in program notes, everything is kept in a seperate document, no curruption. it should be a gold standard clean funtioning library and engine"): 2,107 lines found by `tools/check_live_commentary.py`, moved to their decision logs in seven pull requests.
+
+## 72. The combined search stays in and is judged on answers (2026-11-03)
+
+Mark, 2026-11-03, choice box: "Keep it, test on answers (Recommended)". The search build (#1465, merged 9e349eaf) hit its stop rule on lpc: meaning search did not beat keyword past the 99% line at any depth. Per question, a cited passage was in the top 20 for 25 of 256 lpc questions by meaning search and 13 by keyword (wins 18, losses 6, p 0.023); fused keyword and meaning 22. The counts are a floor, since only the one cited passage counts as a hit. Report: `Design-Faithful-Build_2026-11-03/Step3_4_Search_Bench.md`.
+
+- The fused keyword-and-meaning search, as section 3 of the proposal specifies, goes into arm C of the held-out measurement. The held-out answers decide whether it helps the visitor's question. No paid embedder is requested.
+- The search build was merged as built with the stop-rule result reported, by the delivery lead's direction; this entry is Mark's confirmation.
+- Specs 1, 2, 4 and 5 are corrected in place and Specs 6 to 8 added (chunk map in `Specs/README.md`): Spec 1 on Opus, with the figure line yielding to names the question or sources give; one diversity rule over records and passages, caps 3 per author and 2 per work; the held-out set at 360 questions by rounding, as approved.
