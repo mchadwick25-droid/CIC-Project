@@ -7,32 +7,46 @@ placeable stories where the world places them, the rendered evidence block
 ahead of the probe, one voice call against the cached world prompt (asked
 again on a failed stream, up to three calls), then apply_net with quote
 placement. There is no gate, turn directive, recitation retry or
-self-revision. Each answered probe is appended to --out as one JSON line the
-moment it returns; <out>.summary.json holds the run settings, the totals and
-the live-test summary.
+self-revision. Each probe is appended to --out as one JSON line the moment it
+returns; <out>.summary.json holds the run settings, the totals and the
+live-test summary.
+
+Arm a renders the evidence block exactly as the admission run did. Arm b
+passes the loaded world, with world.frame["reading_context"] set, to
+render_evidence_block; a render_evidence_block that takes no `world` cannot
+read the switch, so arm b is refused (exit 2).
 
 Every paid setting is named on the command: --model-id, --region,
---max-tokens. A live run also carries --live-test and --cap-usd
-(engine.provider.guard); without them, and without --reply-files, the command
-exits 2 before it loads a world or builds a client. --expect-package-hash
-stops the run before any call when the registered package differs.
+--max-tokens. --max-tokens must equal the admission run's 2048 unless
+--allow-settings-differ is given. A live run also carries --live-test and
+--cap-usd (engine.provider.guard); without them, and without --reply-files,
+the command exits 2 before it loads a world or builds a client.
+--expect-package-hash stops the run before any call when the registered
+package differs.
 
 --reply-files <dir> answers every voice call from <dir>/<probe>.voice.<n>.txt,
 the raw tagged text the model would have streamed. A call with no reply file
 writes its request to <dir>/pending/ and the probe is left unanswered (exit
 4). The requests carry sealed probe wording, so <dir> must lie outside the
-repository.
+repository and outside the main checkout.
 
---project-cost prints the mean priced cost per turn of the records in --out,
-the projection for --remaining further turns, and whether spent plus that
-projection passes --stop-above (exit 3 if it does). Given with probes, it runs
-after them over the records this run wrote.
+priced_usd on a live run is the guard's priced total across the probe's
+calls; a call that failed is charged at its full hold, and
+priced_includes_failed_holds marks a probe where that happened. A probe whose
+every attempt fails is recorded with its holds and stops the run.
 
-Exit codes: 0 done, 1 stopped (cap reached or a failed call), 2 refused,
+--project-cost reads <out>.summary.json and prints the mean priced cost per
+turn (the guard's total on a live run), the projection for --remaining
+further turns, and whether spent plus that projection passes --stop-above
+(exit 3 if it does). Given with probes, it runs after them, also when the run
+stops or replies are pending.
+
+Exit codes: 0 done, 1 stopped (cap reached or a failed probe), 2 refused,
 3 projection past the threshold, 4 replies pending.
 """
 import argparse
 import dataclasses
+import hashlib
 import inspect
 import json
 import os
@@ -59,12 +73,15 @@ from engine.m8.cost import estimate_cost
 from engine.m8.price_tables import price_for_route
 from engine.provider import guard
 from engine.provider.bedrock import NormalizedUsage, make_client, normalize_usage
+from engine.shape import shape_hash, shape_text
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 WORLDS = ("alx", "pahc", "syr")
 ARMS = ("a", "b")
 READING_CONTEXT = "reading_context"
 VOICE_CALL_ATTEMPTS = 3
+A_VOICE_MAX_TOKENS = 2048
+VOICE_TEMPERATURE = "API default (not set by stream_voice_turn)"
 CALL_KIND = "voice_generation"
 PROVIDER = "bedrock"
 
@@ -77,6 +94,12 @@ EXIT_PENDING = 4
 
 class PendingReply(Exception):
     """A dry-mode call with no reply file yet; its request is written to the pending directory."""
+
+
+class VoiceCallFailed(RuntimeError):
+    def __init__(self, message: str, partial: dict):
+        super().__init__(message)
+        self.partial = partial
 
 
 class _ReplyStream:
@@ -169,8 +192,8 @@ class _TimedStreamContext:
 
 class TimedClient:
     """Passes each messages.stream call to the inner client and keeps, per
-    call, the request, the time to the first text chunk, the total time,
-    the usage, the stop reason and the raw text."""
+    call, the time to the first text chunk, the total time, the usage, the
+    stop reason and the raw text."""
 
     def __init__(self, inner):
         self.inner = inner
@@ -179,19 +202,15 @@ class TimedClient:
 
     def stream(self, **kwargs):
         call = {
-            "request": kwargs, "seconds_to_first_text": None, "seconds_total": None, "usage": None,
+            "seconds_to_first_text": None, "seconds_total": None, "usage": None,
             "stop_reason": None, "raw_text": None, "_started": time.monotonic(),
         }
         self.calls.append(call)
         return _TimedStreamContext(self.inner.messages.stream(**kwargs), call)
 
 
-def render_block(turn_evidence: dict, world) -> str:
-    """The evidence block. A render_evidence_block that takes the loaded
-    world is given it, so a switch on world.frame reaches the render."""
-    if "world" in inspect.signature(m4_evidence.render_evidence_block).parameters:
-        return m4_evidence.render_evidence_block(turn_evidence, world=world)
-    return m4_evidence.render_evidence_block(turn_evidence)
+def render_takes_world() -> bool:
+    return "world" in inspect.signature(m4_evidence.render_evidence_block).parameters
 
 
 def _flag_off(world):
@@ -199,14 +218,17 @@ def _flag_off(world):
 
 
 class V7Answerer:
-    """The admission answering core for one loaded world."""
+    """The admission answering core for one loaded world. With
+    `reading_context` the evidence block is rendered with the world, and
+    again with the switch off, to size the additions."""
 
-    def __init__(self, *, world, canon_questions: dict, client: TimedClient, model_id: str, max_tokens: int):
+    def __init__(self, *, world, canon_questions: dict, client: TimedClient, model_id: str, max_tokens: int, reading_context: bool):
         self.world = world
         self.canon_questions = canon_questions
         self.client = client
         self.model_id = model_id
         self.max_tokens = max_tokens
+        self.reading_context = reading_context
         self.repository_records = m4_evidence.repository_records_by_id(world.repository)
         self.thin_topics = m4_evidence.thin_topics_for(self.repository_records)
 
@@ -221,14 +243,26 @@ class V7Answerer:
         )
         if self.world.frame.get("story_placement"):
             turn_evidence = with_placeable_stories(turn_evidence, self.repository_records)
-        block = render_block(turn_evidence, self.world)
-        block_off = render_block(turn_evidence, _flag_off(self.world))
-        user_message = f"{block}\n{probe_text}" if turn_evidence["candidates"] else probe_text
-        return {"turn_evidence": turn_evidence, "block": block, "block_off": block_off, "user_message": user_message}
+        if not turn_evidence["candidates"]:
+            return {"turn_evidence": turn_evidence, "user_message": probe_text, "evidence_chars": 0, "evidence_chars_flag_off": 0}
+        if self.reading_context:
+            block = m4_evidence.render_evidence_block(turn_evidence, world=self.world)
+            block_off = m4_evidence.render_evidence_block(turn_evidence, world=_flag_off(self.world))
+        else:
+            block = block_off = m4_evidence.render_evidence_block(turn_evidence)
+        return {
+            "turn_evidence": turn_evidence, "user_message": f"{block}\n{probe_text}",
+            "evidence_chars": len(block), "evidence_chars_flag_off": len(block_off),
+        }
 
     def answer(self, probe_text: str) -> dict:
         prepared = self.prepare(probe_text)
         turn_evidence = prepared["turn_evidence"]
+        partial = {
+            "offered_record_ids": [c["id"] for c in turn_evidence["candidates"]],
+            "evidence_chars": prepared["evidence_chars"],
+            "evidence_chars_flag_off": prepared["evidence_chars_flag_off"],
+        }
         first_call = len(self.client.calls)
         for _attempt in range(VOICE_CALL_ATTEMPTS):
             outcome = stream_voice_turn(
@@ -237,9 +271,9 @@ class V7Answerer:
             )
             if outcome.status == "ok":
                 break
-        calls = self.client.calls[first_call:]
+        partial["calls"] = self.client.calls[first_call:]
         if outcome.status != "ok":
-            raise VoiceCallFailed(f"voice call failed after {len(calls)} attempts: {outcome.status} {outcome.value}", calls)
+            raise VoiceCallFailed(f"voice call failed on all {len(partial['calls'])} attempts: {outcome.status} {outcome.value}", partial)
         text, citation_entries, _net_result = apply_net(
             outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics,
             quotable_texts=[probe_text], window_end=(self.world.frame.get("time_window") or {}).get("end"),
@@ -249,20 +283,11 @@ class V7Answerer:
             ),
         )
         return {
+            **partial,
             "text": text,
             "citation_entries": citation_entries,
             "citations": sorted({rid for entry in citation_entries for rid in entry["record_ids"]}),
-            "offered_record_ids": [c["id"] for c in turn_evidence["candidates"]],
-            "evidence_chars": len(prepared["block"]),
-            "evidence_chars_flag_off": len(prepared["block_off"]),
-            "calls": calls,
         }
-
-
-class VoiceCallFailed(RuntimeError):
-    def __init__(self, message: str, calls: list[dict]):
-        super().__init__(message)
-        self.calls = calls
 
 
 class _Grader:
@@ -288,35 +313,47 @@ class _Grader:
         return all(c.passed for c in checks), [asdict(c) for c in checks]
 
 
-def project_cost(records: list[dict], *, remaining: int, stop_above: float) -> dict:
+def project_cost(*, spent_usd: float, turns: int, remaining: int, stop_above: float) -> dict:
     """The mean priced cost per turn, scaled to `remaining` further turns,
     and whether spent plus that projection passes `stop_above`."""
-    costs = [r["priced_usd"] for r in records if r.get("priced_usd") is not None]
-    spent = sum(costs)
-    mean = spent / len(costs) if costs else 0.0
+    mean = spent_usd / turns if turns else 0.0
     further = mean * remaining
     return {
-        "turns": len(costs),
-        "spent_usd": round(spent, 6),
+        "turns": turns,
+        "spent_usd": round(spent_usd, 6),
         "mean_usd_per_turn": round(mean, 6),
         "remaining_turns": remaining,
         "projected_further_usd": round(further, 6),
-        "projected_total_usd": round(spent + further, 6),
+        "projected_total_usd": round(spent_usd + further, 6),
         "stop_above_usd": stop_above,
-        "passes_threshold": spent + further > stop_above,
+        "passes_threshold": spent_usd + further > stop_above,
     }
 
 
-def _repo_commit() -> str | None:
+def seal_hash(seals_path: Path = protocol.SEALS_PATH) -> str:
+    """sha256 over the sealed battery's seals file."""
+    return "sha256:" + hashlib.sha256(seals_path.read_bytes()).hexdigest()
+
+
+def _git(*args: str) -> str | None:
     try:
-        return subprocess.run(["git", "rev-parse", "HEAD"], cwd=REPO_ROOT, capture_output=True, text=True, check=True).stdout.strip()
+        return subprocess.run(["git", *args], cwd=REPO_ROOT, capture_output=True, text=True, check=True).stdout.strip()
     except (OSError, subprocess.CalledProcessError):
         return None
 
 
-def _inside_repo(path: Path) -> bool:
+def protected_roots() -> list[Path]:
+    """The checkout this module runs from and, for a worktree, the main checkout that holds the git common dir."""
+    roots = [REPO_ROOT]
+    common = _git("rev-parse", "--git-common-dir")
+    if common:
+        roots.append((REPO_ROOT / common).resolve().parent)
+    return roots
+
+
+def _inside_protected(path: Path) -> bool:
     resolved = path.resolve()
-    return resolved == REPO_ROOT or REPO_ROOT in resolved.parents
+    return any(resolved == root or root in resolved.parents for root in protected_roots())
 
 
 def select_probes(probes: str | None, probe_file: str | None) -> list[dict]:
@@ -346,37 +383,38 @@ def _append(path: Path, line: dict) -> None:
         os.fsync(f.fileno())
 
 
-def _priced(calls: list[dict], table) -> float:
-    return sum(estimate_cost(call["usage"], table).dollars for call in calls if call["usage"] is not None)
-
-
 def _usage(call: dict | None) -> dict | None:
     usage = call["usage"] if call else None
     return asdict(usage) if isinstance(usage, NormalizedUsage) else None
 
 
-def _record(*, seal: dict, args, settings: dict, answer: dict, passed: bool, checks: list[dict], priced_usd: float) -> dict:
-    last = answer["calls"][-1]
+def _record(*, seal: dict, args, settings: dict, answer: dict, priced_usd: float, error: str | None = None,
+            passed: bool | None = None, checks: list[dict] | None = None) -> dict:
+    calls = answer["calls"]
+    last = calls[-1] if calls else None
+    answered = error is None
     return {
         "probe_id": seal["probe_id"],
         "cell": seal["cell"],
         "arm": args.arm,
         "world": args.world,
+        "error": error,
         "passed": passed,
         "checks": checks,
-        "answer_text": answer["text"],
-        "raw_text": last["raw_text"],
-        "citations": answer["citations"],
-        "citation_entries": answer["citation_entries"],
+        "answer_text": answer["text"] if answered else None,
+        "raw_text": last["raw_text"] if last else None,
+        "citations": answer["citations"] if answered else None,
+        "citation_entries": answer["citation_entries"] if answered else None,
         "offered_record_ids": answer["offered_record_ids"],
         "usage": _usage(last),
-        "seconds_to_first_text": last["seconds_to_first_text"],
-        "seconds_total": last["seconds_total"],
-        "stop_reason": last["stop_reason"],
-        "attempts": len(answer["calls"]),
+        "seconds_to_first_text": last["seconds_to_first_text"] if last else None,
+        "seconds_total": last["seconds_total"] if last else None,
+        "stop_reason": last["stop_reason"] if last else None,
+        "attempts": len(calls),
         "priced_usd": round(priced_usd, 6),
-        "model_id": args.model_id,
-        "max_tokens": args.max_tokens,
+        "priced_includes_failed_holds": settings["live_test"] is not None and (not answered or len(calls) > 1),
+        "voice_model_id": args.model_id,
+        "voice_max_tokens": args.max_tokens,
         "region": args.region,
         "package_manifest_hash": settings["package_manifest_hash"],
         "repo_commit": settings["repo_commit"],
@@ -394,10 +432,13 @@ def _parser() -> argparse.ArgumentParser:
     which = parser.add_mutually_exclusive_group()
     which.add_argument("--probes", help="comma-separated sealed probe ids, or 'all'")
     which.add_argument("--probe-file", help="one sealed probe id per line; '#' starts a comment")
-    parser.add_argument("--out", required=True, help="JSON-lines record file; a run refuses one that exists")
+    parser.add_argument("--out", required=True, help="JSON-lines record file; <out>.summary.json is written beside it")
+    parser.add_argument("--overwrite", action="store_true", help="replace an existing record file and summary")
     parser.add_argument("--model-id", help="the exact voice model id")
     parser.add_argument("--region")
     parser.add_argument("--max-tokens", type=int)
+    parser.add_argument("--allow-settings-differ", action="store_true",
+                        help=f"allow a --max-tokens other than the admission run's {A_VOICE_MAX_TOKENS}")
     parser.add_argument("--expect-package-hash", help="the world's package manifest hash the run must use")
     parser.add_argument("--reply-files", help="answer every voice call from reply files in this directory (no model call)")
     parser.add_argument("--project-cost", action="store_true")
@@ -406,8 +447,15 @@ def _parser() -> argparse.ArgumentParser:
     return parser
 
 
-def _print_projection(records: list[dict], args) -> int:
-    projection = project_cost(records, remaining=args.remaining, stop_above=args.stop_above)
+def _summary_path(out: Path) -> Path:
+    return Path(f"{out}.summary.json")
+
+
+def _print_projection(summary: dict, args) -> int:
+    guarded = (summary.get("live_test") or {}).get("priced_total_usd")
+    spent = guarded if guarded is not None else summary["priced_usd"]
+    projection = project_cost(spent_usd=spent, turns=summary["turns"], remaining=args.remaining, stop_above=args.stop_above)
+    projection["spent_source"] = "guard" if guarded is not None else "records"
     print(json.dumps({"projection": projection}, indent=2), flush=True)
     return EXIT_PROJECTION if projection["passes_threshold"] else EXIT_DONE
 
@@ -418,28 +466,41 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     if args.project_cost and (args.remaining is None or args.stop_above is None):
         parser.error("--project-cost needs --remaining and --stop-above")
-    runs = args.probes is not None or args.probe_file is not None
     out = Path(args.out)
-    if not runs:
+    summary_path = _summary_path(out)
+    if args.probes is None and args.probe_file is None:
         if not args.project_cost:
             parser.error("name the probes with --probes or --probe-file, or pass --project-cost")
-        return _print_projection([json.loads(line) for line in out.read_text(encoding="utf-8").splitlines() if line.strip()], args)
+        if not summary_path.exists():
+            raise SystemExit(f"no run summary at {summary_path}; --project-cost reads the summary a run writes beside --out")
+        return _print_projection(json.loads(summary_path.read_text(encoding="utf-8")), args)
 
     missing = [flag for flag, value in (("--world", args.world), ("--arm", args.arm), ("--model-id", args.model_id),
                                         ("--region", args.region), ("--max-tokens", args.max_tokens),
                                         ("--expect-package-hash", args.expect_package_hash)) if value is None]
     if missing:
         parser.error(f"a run names every setting on the command: {', '.join(missing)}")
+    if args.max_tokens != A_VOICE_MAX_TOKENS and not args.allow_settings_differ:
+        parser.error(f"--max-tokens {args.max_tokens} differs from the admission run's {A_VOICE_MAX_TOKENS}; "
+                     f"pass --allow-settings-differ to run with it")
     if args.max_tokens <= 0:
         parser.error("--max-tokens must be positive")
+    reading_context = args.arm == "b"
+    if reading_context and not render_takes_world():
+        print("--arm b needs engine.m4.evidence.render_evidence_block to take the loaded world (world=) and read "
+              f"world.frame[{READING_CONTEXT!r}]; this checkout's does not, so arm b would run as arm a. Refused.",
+              file=sys.stderr, flush=True)
+        return EXIT_REFUSED
     dry = args.reply_files is not None
-    if dry and _inside_repo(Path(args.reply_files)):
-        raise SystemExit(f"{args.reply_files} is inside the repository; the reply directory must be outside it")
-    if not dry and guard.parse_live_test(argv) is None:
+    if dry and _inside_protected(Path(args.reply_files)):
+        raise SystemExit(f"{args.reply_files} is inside the repository or its main checkout; the reply directory must be outside them")
+    live_test = None if dry else guard.parse_live_test(argv)
+    if not dry and live_test is None:
         print(guard.RULE, file=sys.stderr, flush=True)
         return EXIT_REFUSED
-    if out.exists():
-        raise SystemExit(f"{out} exists; a run writes a new record file")
+    existing = [str(p) for p in (out, summary_path) if p.exists()]
+    if existing and not args.overwrite:
+        raise SystemExit(f"{', '.join(existing)} exists; pass --overwrite to replace it")
     table = price_for_route(CALL_KIND, args.model_id, PROVIDER)
     if table is None:
         raise SystemExit(f"no approved price for model {args.model_id!r}")
@@ -454,28 +515,34 @@ def main(argv: list[str] | None = None) -> int:
         )
     package_dir = REPO_ROOT / entry["package"]["location"]
     world, _timing = LazyWorldLoader().load(args.world, package_dir=package_dir, expected_manifest_hash=args.expect_package_hash)
-    if args.arm == "b":
+    if reading_context:
         world = dataclasses.replace(world, frame={**world.frame, READING_CONTEXT: True})
 
-    live_test = None if dry else guard.parse_live_test(argv)
     settings = {
         "live_test": live_test.name if live_test else None,
         "cap_usd": live_test.cap_usd if live_test else None,
         "mode": "reply files" if dry else "live",
-        "model_id": args.model_id,
+        "voice_model_id": args.model_id,
+        "voice_max_tokens": args.max_tokens,
+        "a_voice_max_tokens": A_VOICE_MAX_TOKENS,
+        "voice_temperature": VOICE_TEMPERATURE,
         "region": args.region,
-        "max_tokens": args.max_tokens,
         "route": guard.describe_route(PROVIDER, [args.model_id], args.region),
         "price_source": table.source,
+        "safety_call": "not made - the admission harness path answers each sealed probe with the voice call only",
+        "reader_call": "not made - not in the admission harness path",
+        "self_revision": "off - not in the admission harness path",
+        "voice_call_attempts": VOICE_CALL_ATTEMPTS,
         "world": args.world,
         "arm": args.arm,
-        "reading_context": world.frame.get(READING_CONTEXT, False),
+        "reading_context": reading_context,
         "probe_count": len(seals),
+        "battery_size": len(protocol.battery()),
         "package_manifest_hash": registered,
         "package_content_hash": package_content_hash(package_dir),
-        "path": "admission answering core: evidence assembly, one voice call, apply_net; no gate, directive, retry or self-revision",
-        "voice_call_attempts": VOICE_CALL_ATTEMPTS,
-        "repo_commit": _repo_commit(),
+        "shape_hash": shape_hash(shape_text()),
+        "seal_hash": seal_hash(),
+        "repo_commit": _git("rev-parse", "HEAD"),
     }
     print(json.dumps({"run_settings": settings}, indent=2), flush=True)
 
@@ -486,11 +553,12 @@ def main(argv: list[str] | None = None) -> int:
         inner = make_client(args.region)
     client = TimedClient(inner)
     answerer = V7Answerer(world=world, canon_questions=load_fleet_records(), client=client, model_id=args.model_id,
-                          max_tokens=args.max_tokens)
+                          max_tokens=args.max_tokens, reading_context=reading_context)
     grader = _Grader(args.world)
 
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.touch()
+    out.write_text("", encoding="utf-8")
+    summary_path.unlink(missing_ok=True)
     started_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     written: list[dict] = []
     pending: list[str] = []
@@ -507,14 +575,21 @@ def main(argv: list[str] | None = None) -> int:
             pending.append(str(reply))
             continue
         except guard.LiveTestCapReached as error:
-            stopped = f"cap reached before {probe_id}: {error}"
+            stopped = f"cap reached at {probe_id}: {error}"
             break
         except VoiceCallFailed as error:
+            priced_usd = guard.priced_total() - spent_before if live_test else 0.0
+            record = _record(seal=seal, args=args, settings=settings, answer=error.partial, priced_usd=priced_usd, error=str(error))
+            _append(out, record)
+            written.append(record)
             stopped = f"{probe_id}: {error}"
             break
-        priced_usd = guard.priced_total() - spent_before if live_test else _priced(answer["calls"], table)
+        if live_test:
+            priced_usd = guard.priced_total() - spent_before
+        else:
+            priced_usd = sum(estimate_cost(call["usage"], table).dollars for call in answer["calls"] if call["usage"] is not None)
         passed, checks = grader.grade(probe_id=probe_id, cell=seal["cell"], probe_text=probe_text, answer=answer)
-        record = _record(seal=seal, args=args, settings=settings, answer=answer, passed=passed, checks=checks, priced_usd=priced_usd)
+        record = _record(seal=seal, args=args, settings=settings, answer=answer, priced_usd=priced_usd, passed=passed, checks=checks)
         _append(out, record)
         written.append(record)
 
@@ -529,17 +604,16 @@ def main(argv: list[str] | None = None) -> int:
         "live_test": guard.run_summary(),
         "ledger": guard.ledger_path() if live_test else None,
     }
-    Path(f"{out}.summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+    summary_path.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: summary[k] for k in ("turns", "priced_usd", "stopped", "live_test")} | {"pending_replies": len(pending)}, indent=2),
           flush=True)
 
+    projected = _print_projection(summary, args) if args.project_cost else EXIT_DONE
     if stopped:
         return EXIT_STOPPED
     if pending:
         return EXIT_PENDING
-    if args.project_cost:
-        return _print_projection(written, args)
-    return EXIT_DONE
+    return projected
 
 
 if __name__ == "__main__":
