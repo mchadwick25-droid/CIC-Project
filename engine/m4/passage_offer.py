@@ -105,6 +105,11 @@ def interleave(records: list[dict], passages: list[dict]) -> list[dict]:
     return merged
 
 
+def offer_contents(records: list[dict], passages: list[dict]) -> list[dict]:
+    """What the offer holds: the records and the passages interleaved by rank. This is the one place that decides the offer's contents."""
+    return interleave(records, passages)
+
+
 def records_by_id(passages: list[dict]) -> dict[str, dict]:
     return {p["tag"]: record_for(p) for p in passages}
 
