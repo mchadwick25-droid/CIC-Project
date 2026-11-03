@@ -2732,3 +2732,416 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 - `Doc_09`: the removed lead-in "Per this project's own two-tier approval discipline," was a process reference with no factual content; a "Doc_01 section-citation slip" is now worded "correction".
 - `Doc_04`: the "See ROUTE section" pointer is removed because the routed material is recorded in this log, not in the document.
 - `syr_World_Profile.md`: the re-sequencing decision of 2026-07-08 is kept as a historical date in a PROTECTED line and left unchanged.
+
+## CL7: rzg, gallic, pahc, desert, hal and _cross-world (2026-11-03)
+
+**Scope.** Documents under `Build/worlds/` for rzg, gallic, pahc, desert, hal and `_cross-world/dossiers`; the retired rzg and gallic generators; three held items from CL6; the scanner sample table.
+
+**Moves (git mv, no edits).** rzg `scripts/` (nine generators) and gallic `scripts/wb_gallic_s21.py` to `Archive/Retired-World-Build-Scripts/<world>/`. Dated build records to the world's `Review-Artifacts/`: gallic `gallic_PhaseD_LiveDeepInterview_2026-09-13.md` and `gallic_PhaseD_LiveDeepInterview_Round2_2026-09-13.md`; rzg `CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md`, `STATUS-FOR-SOURCE-THREAD.md` and `CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md`. alx `Analysis/CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md` to `Build/Ministry/Operations/Audits/World-Findings/alx/`. The lpc `scripts/` folder stays: lpc is still being built and its review artifacts cite those scripts as current. `tools/moved_paths.txt` maps every old path; the baseline keys of the moved files are re-keyed.
+
+**Held items from CL6, fixed.** The two citations in `records/don/honest_limit/don.limit.doubt-and-reception.md` now name the moved files (record edit; the don package is rebuilt and repinned; `records` and `regate` pass). The syr `syriac-edessa-nisibis` facilitator brief cites the moved Phase 6 draft by its full path. 29 baseline entries that now resolve are removed from `tools/check_paths_baseline.txt`.
+
+**Scanner sample table.** The rows that pointed at lines the cleanup rewrote now point at `tools/tests/fixtures/commentary_sample.md`, which holds those lines verbatim as they stood on main before CL7, so the table does not go stale as documents are cleaned. The scanner is unchanged.
+
+**False positives.** `Build/worlds/_cross-world/discovery_helper.py` lines 282, 284, 286, 287: `TODO` placeholders the script writes into the templates it generates (code behaviour). `Build/worlds/alx/Lexicon-Chunks/alexlex003_catechesis.md`: "has not yet been formed" is a plain statement. `Build/worlds/ijc/Source_Registry.md` line 43 flags on a dated filename in a non-date column and is left as it is.
+
+**Corrections after the Opus reviews.** Each group was reviewed by Opus. The fixes: pahc Phase 6 Revision 4 wording narrowed to the original claim; pahc Phase 5 retest keeps its dated status ("as of July 2026, ... had not been run"); pahc Doc01 keeps its reserved-for-Doc_04 paragraph with the cue reworded; pahc Doc07 cites Doc_04 section 6 item 4 (the quotation's true location); rzg Ecology Assessment pointer, duplicated "Approved to proceed" and Construction Notes citations (the Structure Confirmation filename, and "as amended to V1.4 (see ... section 0)"); rzg Validation Layer line 61 sentence repaired; gallic Renatus Notes: the World Capsule Core status is dated "as of early September 2026" and the two escalation tensions are restated as unresolved; gallic Doc06 names the Syriac gap entry it cites; gallic Source Registry no longer claims a divergence it does not describe (the lost disclosure is filed in OG-50); lutheran and reformed-cities dossier lines drop "this session" and "this pass". Not changed: desert Doc05 "(Section 11)" pointer (the original text said the same), and narration lines the scanner does not flag (pahc Phase 6 lines 6 and 22, rzg Doc_09 lines 10, 112, 115, 127).
+
+**Open points filed:** pahc OG-46, rzg item 84, gallic OG-50 (with two added notes), desert OG-45.
+
+### CL7 drafting reports (provenance removed from the documents, with source lines)
+
+These are the drafting agents' reports. Where a report says an item was removed or kept, the review corrections above and the ledger entries are authoritative.
+
+#### Group P: pahc
+
+#### CL7 group P report (Build/worlds/pahc)
+
+All 18 files in the JSON were edited. Each now has zero REWRITE/ROUTE hits (checked with check_live_commentary.scan_file, surface "worlds"). No file was left alone and no scripts, json or protected files were touched.
+
+Pointer convention used for the 24 "Open Item N" cross-references: each now points at the numbered list it cites, as "Doc_04 §6, item N". I checked these against the target documents: Doc_01 §11, Doc_02 §12, Doc_03 §4, Doc_04 §6, Doc_05 §10 and Doc_06 §1 are numbered open-items sections. The wording change only removes the scanner cue; the pointer is the same.
+
+##### ROUTE items for Open_Gaps_Tracking.md
+
+1. Doc01 line 96 (removed whole line; the same question remains in Doc_01 §11 item 1 and Doc_04 §6 item 1):
+   "**Open item carried to Doc_04, not resolved here:** whether a third, less-clearly-evidenced profile exists in the broader Asia Minor material beyond Ignatius's own direct addressees (e.g., material bearing on the seven churches of Revelation, or Justin Martyr's own formation background prior to his move to Rome), or whether this material should be folded into Strand A. The current evidentiary base assembled for this document does not resolve this with confidence, and it is flagged rather than forced."
+2. Doc05 line 139 (removed one sentence, rest of the paragraph kept): "Consistent with Open Item 2's treatment of the oikos citations (Section 10), this citation should likewise be formally logged as a new Source Registry consideration before Doc_06 or Doc_07 rely on it as established, since it is not currently a Doc_02 Registry row." (Note for the lead: Doc09 line 236 argues the lyre/harp passage falls under existing Registry row P03, so this may already be settled there. I did not decide it.)
+3. Doc08 line 359 (removed one sentence, replaced with "Section 9 records this gap."): "This is carried forward as an open item rather than resolved here (see Section 9)."
+4. Phase5 retest line 59 (a status, kept as a plain fact): original "this mechanism has not yet been run through anything comparable." now "this mechanism has no comparable run behind it."
+5. Phase6 Brief line 91 (status, kept as a plain fact): original "External Scholarly Review under Constitution Article 31 has not yet been conducted" now "... is outstanding".
+6. Doc03 line 89 and Doc04 line 216 and Doc08 line 423 had open-question wording that was reworded rather than removed (see per-file notes; the question itself is still stated).
+
+##### Citation discrepancy to log (not changed)
+
+Doc07 line 212 cites "Doc_04, Open Item 1" for the quote "current classification reflects an absence of evidence, not a confirmed absence of the phenomenon in Rome". That text is Doc_04 §6 item 4 (Doc08 line 347 cites it as Open Item 4). I kept the number as written ("Doc_04 §6, item 1") because a citation may not be changed in this job. It should be corrected to item 4.
+
+##### Per file
+
+###### Doc01_World_Identification_FINAL.md
+- Line 96 removed (ROUTE item 1).
+
+###### Doc02_Source_Ecology_FINAL.md
+- Line 57: "worth flagging for any reviewer checking Athos-derived readings" -> "for anyone checking Athos-derived readings". Confidence tags untouched.
+- Line 83: "(Doc_04's own Open Item 1: " -> "(Doc_04 §6, item 1: ". The quotation is unchanged.
+- Line 87: "a downstream reader or reviewer should be able to see" -> "a downstream reader should be able to see".
+
+###### Doc03_Lexicon_Candidate_List_FINAL.md
+- Line 21: "caveats carried forward from Doc_02" -> "caveats from Doc_02"; "Doc_02 Section 1.1 and Open Item 1" -> "Doc_02 Section 1.1 and Section 12, item 1".
+- Line 89: "per Doc_02 Section 1.1 and Open Item 1 ... This document does not resolve that open item; it is carried forward, unresolved, into this term's own scope note." -> "per Doc_02 Section 1.1 and Section 12, item 1 ... This document does not resolve that question; this term's own scope note carries the limit."
+
+###### Doc04_Gravity_Discovery_FINAL.md
+- Line 216: lead-in "**Open item from Doc_01 (Section 6) not resolved here, and not manufactured:** Doc_01 flagged whether" -> "**Third Asia Minor profile — not resolved here, and not manufactured:** Doc_01 (Section 11, item 1) raises whether". Pointer now matches Doc_01 after line 96 was removed.
+- Same line: "**This is carried forward again, unresolved, to Doc_05**" -> "**Section 6 item 1 passes this question to Doc_05**". The rest of the reasoning is unchanged and the question is still stated as unresolved.
+
+###### Doc05_Ecological_Reconstruction_FINAL.md
+- Line 139: sentence removed (ROUTE item 2). The bold span still closes after "paraphrase."
+- Line 212: "This revision performed" -> "This document performs"; "Section 10, Open Item 2," -> "Section 10, item 2,".
+
+###### Doc06_Interpretive_Lexicon_FINAL.md
+- Line 17: "resolves every open item Doc_03 carried forward to this step" -> "resolves every item Doc_03 §4 assigned to this step".
+- Line 46: "(Section 1, Open Item 2)" -> "(Section 1, item 2)".
+
+###### Doc07_Integrated_Ecology_Analysis_FINAL.md
+- Line 198: "(Doc_04, Open Item 3)" -> "(Doc_04 §6, item 3)".
+- Line 212: "(Doc_04, Open Item 1)" -> "(Doc_04 §6, item 1)" (see discrepancy above).
+- Line 234: "a specialist reviewer should test hardest" -> "that specialist review should test hardest".
+
+###### Doc08_Forces_Document.md
+- Line 347: "(Doc_04, Open Item 4)" -> "(Doc_04 §6, item 4)".
+- Line 359: last sentence replaced (ROUTE item 3).
+- Line 423: "is carried forward unresolved here (see Section 7's own named list)" -> "is held open in this document (see Section 7's own named list)".
+
+###### Doc09_Story_Inventory.md
+- Line 222: "Doc_05 §10 Open Item 6" -> "Doc_05 §10, item 6".
+- Line 236: "(§10 Open Item 2) and Doc_06 (§1 Open Item 3)" -> "(§10, item 2) and Doc_06 (§1, item 3)".
+- Line 238: "Doc_05 §10 Open Item 2" -> "Doc_05 §10, item 2".
+
+###### Guided_Starters_V0_1_DRAFT.md
+- Line 110: "Doc_06 §1 Open Item 3" -> "Doc_06 §1, item 3".
+
+###### Phase5_RelationalSafety_Retest_Against_Proposed_Mechanism_DRAFT.md
+- Line 59: see ROUTE item 4.
+
+###### Phase6_Facilitation_Brief_B1-B6_DRAFT.md
+Removed provenance (originals):
+- Line 8, Revision 1: removed "(2026-07-09)"; "B5's Round 1 draft flagged an unresolved question ... as needing project-lead resolution before any Chloe/Chloe pairing could be proposed. The project lead has since resolved this"; "This is a substantive change (it changes B5's own conclusion, not just wording) but required only a lightweight confirmation pass, not a fresh adversarial round, since nothing is being argued differently — the paragraph's own premise (an open question) no longer holds, and no other claim in the document depends on it. Confirmed:"; "what was read during Round 1 drafting". Now states the CO-023/CO-024 outcome as present fact.
+- Line 10, Revision 2: removed "(2026-07-09)" and "drafted and added".
+- Line 12, Revision 3: removed "(2026-07-09)" and "drafted and added". The verbatim project-lead quote is untouched.
+- Line 14, Revision 4: removed "(2026-07-09)"; "having never been through this project's own independent review (Round 1 above covered only B1–B6), were sent through one"; the result "Qualified Pass, 2 Significant findings, 3 Moderate, 3 Minor"; the finding numbering (Findings 1 and 2 / 3–6 / 7–8) and "Findings 7–8 (word count; idiomatic phrasing) were optional and one was applied (see Section A)"; "Because Findings 1 and 2 changed this document's actual claims — not just wording — this was treated as a substantial revision under this project's own Revision Decision test: this document did not self-certify the fix. A further independent verification round was dispatched and its result saved as its own file ... verdict **Pass — ready for disposition**, confirming all 6 required findings genuinely fixed ... and both optional findings handled honestly. It flagged two trivial cosmetic nitpicks (an unmarked truncation in an Article 33 quotation; an inconsistently shortened filename citation) — both fixed directly, cosmetic only, no further round required." Now lists the corrections as present facts and cites both review files.
+- Line 16, Revision 5: removed "Revision 5 (2026-09-27)", "(filed 2026-09-19, resolved 2026-09-20)", "OG-7's own resolution left this document's text unedited ... treating it as superseded by the current live records ... rather than retroactively editing an already-cleared-review document. That treatment had not been put to the project lead directly until this disposition; he was informed of it and directed ...". Kept role-level: the live records carry the correction, the text is unedited on that point, and at the project lead's direction a pointer note stands at both places.
+- Line 45: "*[Note, added at disposition, 2026-09-27: " -> "*[Note: ". Line 22 has the same note with the date; it was not flagged, so I did not touch it.
+- Line 69: "This document's own Round 1 draft flagged substantial overlap ... and left open whether ... That question has since been resolved by the project lead" -> "overlaps substantially with this world's own profile. The project lead resolved whether ...".
+- Line 81: "Phase Five's Round 1 transcripts" -> "Phase Five's transcripts". Filenames containing "Round1" are unchanged.
+- Line 91: see ROUTE item 5.
+- Line 101: removed "independently re-verified 2026-07-09".
+- Line 107: heading "ADDENDUM (2026-07-19, System Hub) — ..." -> "ADDENDUM — ...".
+- Line 115: "2026-07-13" -> "July 2026". The addendum's "four days after ... Produced date" is kept.
+- Lines 6 (Status) and 22 (Representative) were not flagged and were not edited. Line 6 still reads "Revision 5 below", so the "Revision N" labels were kept.
+
+###### Representative_Ecology_Assessment.md
+- Line 17: removed "dated 2026-07-07" and "pass dated 2026-07-08".
+- Line 27: removed "(2026-07-08)" after "Validation & Testing correction".
+- Lines 65, 103, 118: "§10 Open Item 2" -> "§10, item 2".
+
+###### Representative_Formation_Calibration.md
+- Line 9: "the four open items the Ecology Assessment ... named" -> "the four items the Ecology Assessment ... named".
+
+###### Representative_Identity_Preliminary_Decision.md
+- Line 31: "> **CORRECTION (2026-08-22, records-build Step 11 round-1 review, confirmed by the project lead):**" -> "> **Note on the clause above (confirmed by the project lead):**". "this paragraph is left in place, uncorrected in its own original wording, so the record of the error and its catch stays visible" -> "the clause above keeps its original wording". The Hermas quotation and locus are unchanged.
+
+###### Representative_Voice_Construction.md
+- Line 63: "(Doc_06 §1, Open Item 2)" -> "(Doc_06 §1, item 2)".
+
+###### Validation_Testing.md
+- Line 13: "See the Freeze Criteria section at the end." -> "See Freeze Criteria, at the end of this document."
+- Line 53: "Doc_04's own Open Item 3" -> "Doc_04 §6, item 3".
+- Line 55: "per the freeze-eligibility requirement" -> "as freeze-eligibility requires".
+- Line 79: "Doc_03 §4 Open Item 6" -> "Doc_03 §4, item 6".
+- Line 103: "Doc_04's own Open Item 1" -> "Doc_04 §6, item 1".
+- Line 166: "requires an outside human reviewer" -> "requires outside human review".
+- Line 168: removed "as of 2026-07-08" after FROZEN; "an outside human reviewer this project has not yet engaged" -> "outside human review, which this project has not yet engaged". The role-level statement of the project lead's authority is kept.
+
+###### World_Profile.md
+- Line 113: "(Doc_05 §10 Open Item 6)" -> "(Doc_05 §10, item 6)".
+- Line 197: "a specialist reviewer should test hardest" -> "specialist review should test hardest".
+- Line 497: "(Doc_04's own Open Item 1)" -> "(Doc_04 §6, item 1)"; "had never been summed in one place until this entry" -> "is summed in one place here".
+- Line 517: removed "Date confirmed: 2026-07-08."; "Mark (project lead)" / "Mark selected" -> "the project lead"; "presented after the earlier tool failures were resolved"; "(recorded 2026-07-07 under a tooling failure, see Document Log)" -> "(see Document Log)"; "This 2026-07-08 confirmation" -> "This confirmation"; "it is now a genuine" -> "it is a genuine".
+
+##### False positives
+None left alone. Items judged as cross-reference pointers (not open defects) were reworded as above rather than routed.
+
+#### Group R: rzg
+
+#### CL7 group R report (Build/worlds/rzg)
+
+All 15 files edited. Each now has zero REWRITE/ROUTE hits (checked with the scanner's scan_file for the worlds surface). No false positives. No file reverted. Line numbers below are the original ones.
+
+##### ROUTE items for Open_Gaps_Tracking.md
+
+Text removed from a file and not kept anywhere in it. The lead should log these.
+
+1. Doc_07_Integrated_Ecology_Analysis.md original L206 (whole bullet deleted from section 7):
+   "- **Standing open item, carried from Doc_04 §7, not resolved here.** Whether Zwingli's own 1527 *Refutation of the Tricks of the Baptists* contains further doctrinal content beyond the election material already surfaced (Doc_04 §3.1) and the general Anabaptist refusal already stated (Doc_05 §6.2) — this document's own Boundary Structures lens (§2H) does not independently close this, consistent with Doc_05 §6.2's own disclosure of the same limit."
+   The same question is also recorded in Doc_04 section 7 and Doc_05 section 6.2.
+2. Doc_07 original L16, the open-item sentence (the same point is still recorded in Doc_07 section 8, "Re-flagged, not re-escalated"):
+   "the distinct, still-open item is the template file's own staleness, a coach-level correction this build thread cannot make (`cic-build-cycle`, "Editing authority over non-world-build files... belongs to a coach thread"). §8 below re-flags it rather than re-escalating it."
+   Now reads: "The template file's own staleness is recorded in §8."
+3. rzg_Representative_Construction_Notes_Theophilus.md original L236, tail clause removed. Limb 2 stays recorded as open at L214 and L232.
+   "this is a genuine open item for the project lead, matching don's own disclosure exactly, not resolved here."
+   Now reads: "The weighing belongs to the project lead."
+4. rzg_World_Profile.md original L497 (Key divergences), clauses removed:
+   "— a genuine open item." and "and should be [surveyed] before the Permanent Prompt's own Living Traditions Distinction section is finalized."
+   The line keeps "Not independently assessed this pass ... has not been surveyed."
+5. rzg_World_Profile.md original L499 (Figures of contested standing), clause removed:
+   "— a genuine open item for the project lead's own weighing, not resolved or dismissed here."
+   Now reads: "The weighing belongs to the project lead and is neither resolved nor dismissed here."
+
+##### Reworded instead of deleted (lead to confirm)
+
+These ROUTE flags came from a cue phrase inside a line that is mainly a plain fact or a document's own disposition. Deleting the line would have removed the document's content, and the open status is already tracked elsewhere. I kept the line and removed only the cue wording. The open status is still stated.
+
+- Doc_03 L25: "(Native but not yet acquired: ...)" became "(Native but unacquired: ...)". Registry rows 13 to 17 are tracked in the Source Registry and Acquisition Manifest.
+- Doc_03 L61 heading: "row 14 not yet acquired" became "row 14, unacquired".
+- Doc_04 L178: "tracked in §7's own open items instead" became "recorded in §7 instead".
+- Doc_06 L89: "both still disclosed as not-yet-built per Doc_03/Doc_04's own open items" became "both disclosed as unbuilt in Doc_03 and Doc_04".
+- Doc_07 L202: "(§2E; Doc_04 §7, a standing open item)" became "(§2E; Doc_04 §7)". The "pending the Ecclesiastical Ordinances' own acquisition" wording is kept.
+- Doc_09 L105: "has not yet acquired" became "does not include".
+- Step0_Movement_Scope_Confirmation.md (a Step 0 screening draft whose subject is its own binding conditions):
+  - L35: "carried forward as a binding open item (§4)" became "it is a binding obligation recorded in §4".
+  - L47: "a real, binding open item" became "a real, binding obligation (§4)".
+  - L57: "One genuinely open acquisition item" became "One genuine acquisition gap"; "binding open item" became "binding obligation".
+  - L79: "two real, disclosed open items" became "two real, disclosed binding conditions".
+  - L85: "not yet resolved" became "unresolved at this step".
+- rzg_Representative_Ecology_Assessment_Theophilus.md L51: "Doc_08's own Open Items §1" became "Doc_08's closing section (item 1)". Doc_08's actual heading is "Open Items and Process Findings". The quoted text is unchanged.
+- rzg_Representative_Phase6_Facilitator_Coordination.md L66: "has not yet been made" became "is outstanding". L81: "ordinary follow-up work" became "ordinary further work".
+- rzg_Representative_Validation_Record_Theophilus.md L77: "not to let a known gap go quiet" became "that every gap is tracked explicitly".
+- rzg_Validation_Layer.md L61: the label "Open item, not a defect:" became "A one-sided boundary, not a defect:". "yet exists" became "exists". The pointer to Open_Gaps_Tracking item 9 is kept. L65: "named as an open item rather than a defect" became "named as a recorded limit rather than a defect".
+- rzg_World_Profile.md L19: the cited Doc_07 section title "`§8` Open Items and Handoff" became "`§8` the closing section (handoff and remaining items)".
+
+##### Provenance removed per file
+
+###### Doc_02_Source_Ecology.md
+- L28: removed "found and disclosed at a 2026-09-15 parent-thread completeness audit rather than at this document's own original drafting" and "never dispositioned here". Removed "Carried to the Acquisition Manifest ... rather than left undisclosed a second time" and "the omission itself ... is a real completeness defect in this document's own original drafting, named here rather than smoothed over".
+  Now says: Calvin's commentaries and letters are absent. Both are verified, host-confirmed acquisition leads named in Dossier section 3, tracked in the Acquisition Manifest as G6 and G7. Neither is needed through Doc_04, so their absence is not blocking.
+- L86: "confirmed 2026-09-15" dropped. "added to the Source Registry ..., rather than left as a corrected-but-unincorporated finding" became "recorded in the Source Registry (row 10's own Verification Note)".
+
+###### Doc_03, Doc_04, Doc_06, Doc_09, Step0
+- Cue rewording only, listed above.
+- Doc_09 L105 also changed. Removed "the fourth event this category originally included" and "no longer absent — see Section 6's own correction note". Now reads: "Zwingli's own death at Kappel is covered by `rzgstory003`, so it does not belong to this category".
+
+###### Doc_07_Integrated_Ecology_Analysis.md
+- L16: the date was inside a quotation. The Framework quote "(M4, adopted 2026-07-27)" is now split into two exact fragments with the parenthetical dropped:
+  - "Ask all of Smart's seven dimensions as the fixed lens spine — always asked, for every world"
+  - "Material Culture is required (promoted from optional); the ethical/legal lens is required... Boundary Structures and Formation Logic remain CiC's own two additions."
+  I added "under its M4 change" outside the quotation. No other quoted word changed.
+  "received a direct project-lead ruling" became "the project lead ruled". "already-settled decision, not making a new one" was shortened.
+- L202 and L206: see above.
+
+###### Doc_08_Forces_Document.md
+- L155: "Confirmed by the project lead, 2026-09-15:" became "Confirmed by the project lead:".
+
+###### rzg_Representative_Construction_Notes_Theophilus.md
+- L27: "the project lead's Structure Confirmation (2026-09-16)" became "(recorded under `Review-Artifacts/`)".
+- L41: removed "(2026-09-16)", "was considered and rejected at the Structure Confirmation stage" and the citation "`CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md`". That file exists at Build/worlds/rzg/Review-Artifacts/. Now reads "The Structure Confirmation rejects a Representative anchored to one strand alone ... It rejects a multi-figure Representative for the same reason ...".
+- L214: "Limb 1 CONFIRMED, 2026-09-18" became "Limb 1 CONFIRMED".
+- L220: "Confirmed by the project lead, 2026-09-18." became "Confirmed by the project lead."
+- L228: "the project lead's own 2026-09-18 determination" became "the project lead's own determination".
+- L232: "Limb 1 CONFIRMED, 2026-09-18;" became "Limb 1 CONFIRMED;". "Limb 2 carried forward as" became "held as".
+- L236: tail clause moved (ROUTE item 3).
+- L268: removed "(the 4th Change Order, 2026-09-14, disclosed at `rzg_Validation_Layer.md` §0)". Now "Per `CiC_World_Build_Completion_Standard_V1.3.md` §C, V1.4: ...".
+- L323: removed "Independent adversarial review next, per `cic-build-cycle`." Now "*End of Construction Notes draft.*"
+
+###### rzg_Representative_Ecology_Assessment_Theophilus.md
+- L5: "decided by the project lead, 2026-09-16" became "decided by the project lead".
+- L7: process narration removed ("were already built ... before this dedicated Phase One document was produced"; "this document is produced now ... because"). Now says the Notes and Prompt are built and approved, this document follows them, the order is not a sequencing violation, and this document is the required Part Three deliverable that precedes Phase Five.
+- L8 (not flagged itself, but its cue "adversarial review" was widening the flag onto L7, so I rewrote it). Removed the review narration: "Independent adversarial review found and this document corrects two High/Medium-High force-mapping errors ... All fixes are independently re-verified, including every new citation/quote the fixes themselves introduced, with no new issues found." Also removed the lists of corrections ("misidentified twice", "wrongly including", "dropped 'Reformed' and hedge", "dropped 'tested,'", "cosmetic overclaim", "added", "re-weighted"). Kept as present-tense facts:
+  - the Consensus Tigurinus force is 2B-2, and 2B-5 is a different force;
+  - the G3 forces are 1B-1 and 1B-2, and 1B-3 is excluded because Doc_08 connects it to G4 and T1;
+  - the Doc_05 quotes are verbatim;
+  - section 5 holds the Sufficiency Determination;
+  - this document and Construction Notes section 3 organize the same findings differently;
+  - the schoolmaster comparandum is weighted as thin evidence.
+  The Escalation check and Disposition sentences are unchanged.
+
+###### rzg_Representative_Identity_Preliminary_Decision.md
+- L45: "confirmed directly by the project lead, 2026-09-16, binding on" became "confirmed directly by the project lead, binding on".
+
+###### rzg_Validation_Layer.md
+- L30: "across multiple isolated adversarial review rounds" removed.
+- L104: removed "Doc_09 and the World Profile each cleared independent adversarial review with real, substantial findings — neither smoothed over nor left unresolved."
+
+###### rzg_World_Profile.md
+- L17: "(2026-07-27)" after the M4 Change Order removed.
+- L23: removed "2026-09-16, in this build thread's own session".
+- L493: removed ", 2026-09-08," from the Donatism Limb 1 ratification.
+
+##### Observations for the lead (nothing changed)
+
+- rzg_Representative_Phase6_Facilitator_Coordination.md L66 says Living Tradition Status "remains PENDING". The Construction Notes (L214, L228) record Limb 1 as confirmed YES. This may be a stale status line. It was not in scope, so I left it.
+- Several unflagged lines in the same files still carry build-history narration. Examples: Doc_02 L3 Status, rzg_Validation_Layer.md L32, rzg_World_Profile.md L15 and L23 ("this build thread put the question to the project lead"). The scanner does not flag them.
+- Doc_03 L25 and Doc_07 L202 still use "pending the Ecclesiastical Ordinances' own acquisition" or similar. This is plain status wording, and the scanner is satisfied.
+
+#### Group G: gallic and hal
+
+#### CL7 group G report
+
+All 15 files in the JSON were edited. Each now has zero REWRITE/ROUTE hits (checked with `check_live_commentary.scan_file`, surface `worlds`). No false positives, no unresolved files. Paths are under `Build/worlds/`.
+
+##### gallic/Lexicon_Deployment_Index.md
+- L493 (ROUTE cue "open items"): "§5's open items" now reads "the list of items carried to later steps at §5" (Doc_06 §5 is titled "Open items carried forward"; the pointer is kept, the cue word is gone).
+- L493 removed: " (corrected, finding S5 — the first draft's §1 table had listed it as a Key-Source row for both)". Registry row 36 is still stated as **not** drawn on as a source in 005 and 066.
+
+##### gallic/gallic_Doc02_Source_Ecology.md
+- L97: "names it as an open item (§13)" now "lists it at §13". The Gennadius two-divisions discrepancy is still stated as unresolved.
+
+##### gallic/gallic_Doc03_Lexicon_Candidates.md
+- L5 removed: ", 2026-09-09" and "Per CO-022," (now "None of the four standing escalation categories applies...").
+- L19: "(§10, Open Item 1)" now "(§10, item 1)".
+
+##### gallic/gallic_Doc04_Gravity_Discovery.md
+- L5 removed: "per CO-022, 2026-09-09" (now "APPROVED TO PROCEED (self-dispositioned)").
+
+##### gallic/gallic_Doc05_Ecological_Reconstruction.md
+- L5 removed: "per CO-022, 2026-09-10".
+- L47 removed: "the reviewer is asked to hunt for" (now "is the first thing to check for (§11)").
+- L248: scanner hit "caught by" on Honoratus. Now "bound by 'the priestly fillet'" (matches Doc_04's "first bound ... the priestly fillet fastens on its fugitive"). The quotation itself is unchanged.
+
+##### gallic/gallic_Doc06_Full_Lexicon_Development.md
+- L5 (ROUTE cue "Open Gaps item"): "the Syriac build's Open Gaps item it cites" now "the Syriac build item it cites".
+- L17 (ROUTE cue "open items"): "(f) Carries forward the open items Step 6 cannot close (§5)" now "(f) Lists the items Step 6 cannot close (§5)".
+
+##### gallic/gallic_Doc09_Story_Inventory.md
+- L107 removed: "One near-miss is recorded for the reviewer's attention: the first draft of gallicstory009's front-matter described the lentil episode's setting as 'Egyptian,' ... Corrected before saving — an instance of exactly the 'quotation reused without being re-verified at its own locus' failure this build has been burned by at every prior document, caught here by the re-read rule."
+- Now: states that the front-matter does not call the setting "Egyptian" although Doc_05 §1.2 says so, gives the IV.19 locus and Gibson's note unchanged, and says the setting is stated as received from the East (as the row-63 entry records). L171 already carries the same correction.
+
+##### gallic/gallic_Representative_Construction_Notes_Renatus.md
+- L136 removed: "named for the reviewer" and "(corrected, finding M6 — the prior draft claimed Doc_07 §7 'routes to the Facilitator hand-off'; at its own locus §7 states the opposite, ...)". The Doc_07 §7 quotation and the Doc_05 §1.3(a) scope are kept as plain statements.
+- L285 removed: "2026-09-12", "Mark's own word" (now "The project lead's own word"), "fresh, dated" (now "a project-lead act"). The quoted "Confirm as drafted." is unchanged.
+- L314 (ROUTE cue "has not yet been built"): "World Capsule Core has not yet been built" now "does not yet exist". It is still a stated status (Phase Five cannot yet begin), reworded only to drop the cue.
+- L438 removed: the sentence "Two unresolved tensions remain flagged for the project lead or a coach thread, not resolved here: (a) Doc_09's usage guidance, and Doc_07 §7's own hand-off assignment, directing the Representative to narrate edition-level excisions and the sixteenth-century origin of 'semi-Pelagian' conflicts with RCF V3.2 Part Two and Part Eight (Section 3, thin domain 7; Section 8, Judgment 5); (b) the single-'we' construction for two houses with no documented traffic sits on the reserved Step 0 question (Section 1; Section 8, Judgment 1)." Replaced with a pointer to Section 3 and Section 8 (Judgments 5 and 1), where the content already lives.
+- L438 removed: "Round 1 review complete; Round 1 fix round complete; Round 2 bounded spot-check complete; Round 2 fix round complete" (now "both review rounds and both fix rounds complete (see Document Log...)"), "Not self-graded on the substance of any finding — Round 2's own independent re-verification of the Round 1 fix round found and closed residue the first pass had missed", and "per CO-022 ... unchanged by the Round 2 residue".
+
+##### gallic/gallic_Representative_Identity_Preliminary_Decision.md
+- L16: "Mark's own stated requirement" now "The project lead's stated requirement".
+- L48 removed: "Mark, 2026-09-10" (now "confirmed directly by the project lead").
+
+##### gallic/gallic_Source_Registry.md
+- L7 removed: "(appended 2026-09-09)", "(appended 2026-09-13, post-B-8/G4 ...", and "see Document Log conventions elsewhere in this build for why this is ordinary Doc_02-maintenance, not a reopening of Doc_02 itself". Now "rows 45–46 (appended later, from a source-research routine handoff)". Row dates stay in the Discovery column.
+- L21 removed: "already ruled 2026-08-26 to file both" (now "both are filed under the attributed name and as pseudepigraphal literature").
+- L40, 41, 42, 43 removed: "Vendored 2026-09-09" became "Vendored" in the Verification Note cell. The Discovery column keeps "vendored + corpus-mapped 2026-09-09".
+- L51 (Discovery cell): "Doc_02 Round 1 review" now "Doc_02 review" (date kept).
+- L59 removed: "Boundary Check, 2026-09-09 (Doc_02 §13A)" (now "Boundary Check (Doc_02 §13A)"). The date stays in the Discovery cell.
+- L61: the cell held `grep -in "liber sextvs\|fornicationis"`. The escaped pipe split the row into 11 cells, so the Discovery dates were scanned as prose. Now `grep -in -e "liber sextvs" -e "fornicationis"` (same search, same result). The row has 10 cells again.
+- L82 removed: "performed by the Round 1 reviewer", "Round 2 re-scored". Now states recall is 4/10 (3/10 before Weaver was rowed), with the PRESS items and rows 30, 31, 23 unchanged.
+- L86 removed: "Unchanged in substance from the prior revision", "A further lesson from Round 2 (finding N7)", "Named as a standing method note ... not only a closed finding". The method lesson and the coverage-limit sentence are kept.
+- L90 removed: "Unchanged in method from the prior revision", "(Round 1 finding C11, confirmed sound at Round 2)". Now "Per-row discovery metadata is present and load-bearing, per the schema note above; the Framework/Template flagging-rule divergence remains disclosed." The divergence itself is not described anywhere in this file (it was only cited here); the lead may want to confirm where it is disclosed.
+
+##### hal/hal_Doc_06_Full_Lexicon_Development.md
+- L24 removed: "; noted as an open item, not silently decided either way". Pelagianism CT tagging is still stated as "not applied at this stage — pending Doc_08's forces analysis".
+- L398 removed (the whole closing sentence): "This one-directional pattern is disclosed here as a known, unresolved characteristic of this lexicon's current state, not corrected term-by-term in this revision — a full reciprocity pass (adding return links where genuinely warranted, or confirming a one-directional link is intentional because the relationship's relevance is asymmetric) is flagged as appropriate follow-up work, not completed here, so as not to silently claim a fix beyond what this revision actually verified." Now: "This one-directional pattern is a disclosed characteristic of this lexicon as it stands: the links are not corrected term by term."
+
+##### hal/hal_Doc_09c_Validation_Layer.md
+- L46: "a cold reviewer" now "an independent cold review".
+- L54 removed: "— named explicitly here as an open item for Doc_10/live-testing to close" (now "**Deferred, not skipped.**"). The sentence before it still says the category is deferred to Doc_10 and live-adversarial testing.
+- L70 removed: "Round 1 finding" (Doc_07), "Round 2 finding" (Doc_08), "Round 1 finding" (Doc_09a); each is now "review finding".
+
+##### hal/hal_Phase6_Facilitation_Brief_DRAFT.md
+- L73 removed: "Round 2" from "(Phase Five, Round 2)". The cited filename `hal_Phase5_LiveTest_Scoring_Round2.md` is untouched.
+- L93: "Has NOT cleared this project's own independent adversarial review process" now "Has NOT cleared independent review". Draft status and the need for cold review are unchanged.
+
+##### hal/hal_Representative_Identity_Preliminary_Decision.md
+- L86: heading "## 7. FINAL DECISION (2026-07-13, project lead)" now "## 7. FINAL DECISION (project lead)". Nothing else in the repo cites the dated heading.
+
+##### hal/surface/facilitator_brief/hal.facilitator_brief.hieronymian-ascetic-literary.md
+- L193 (ROUTE cue "has not yet been seated", in YAML text): now "is not seated at a table with any other Representative at all", the same rewrite used for don's Phase 6 brief L50 in the Live-Surface-Cleanup Decision-Log. Line wrap kept. The file's front matter was not changed; if a compiled package hashes this file, a rebuild may be needed.
+
+##### ROUTE items for Open_Gaps_Tracking.md
+1. gallic Renatus Construction Notes L438 (open tensions, removed from the Escalation check; the content also stays in Section 3 thin domain 7 and Section 8 Judgments 5 and 1): "Two unresolved tensions remain flagged for the project lead or a coach thread, not resolved here: (a) Doc_09's usage guidance, and Doc_07 §7's own hand-off assignment, directing the Representative to narrate edition-level excisions and the sixteenth-century origin of "semi-Pelagian" conflicts with RCF V3.2 Part Two and Part Eight (Section 3, thin domain 7; Section 8, Judgment 5); (b) the single-"we" construction for two houses with no documented traffic sits on the reserved Step 0 question (Section 1; Section 8, Judgment 1)."
+2. gallic Renatus Construction Notes L314: the World Capsule Core does not yet exist, so Phase Five cannot begin (kept in the file as a status; listed so it can be tracked).
+3. gallic Doc02 L97: Gennadius describes the *Dialogues* as "a Conference between Postumianus and Gallus... in two divisions", against `npnf211`'s three-Dialogue structure. Unresolved (earlier or differently divided recension, or loose compression); listed at Doc_02 §13.
+4. gallic Doc03 L19: Doc_06 owes a Latin-lemma verification pass against a Latin edition before any Tier 1 entry is written (Doc_03 §10, item 1).
+5. hal Doc_06 L24: "Pelagianism considered for CT tagging but not applied at this stage — pending Doc_08's forces analysis ... noted as an open item, not silently decided either way."
+6. hal Doc_06 L398: a full reciprocity pass is follow-up work: add return links where genuinely warranted, or confirm a one-directional link is intentional because the relationship's relevance is asymmetric. Not done in this revision.
+7. hal Doc_09c L54: the relational-safety category (participant distress or dependency-seeking engagement) is not yet testable, since no Representative exists. It is deferred to Doc_10 construction and live-adversarial testing (Constitution Article 33); "named explicitly here as an open item for Doc_10/live-testing to close."
+8. gallic Doc06 L5 context: the `gallic` file-code convention cites the Syriac build's Open Gaps item (via `Build/worlds/ijc/Doc_06_Full_Lexicon_Development.md`). No new gap; noted only because the cue word was removed.
+
+##### Provenance to log in the Decision-Log (removed, with source line)
+- Doc03 L5, Doc04 L5, Doc05 L5: self-disposition dates 2026-09-09, 2026-09-09, 2026-09-10 under CO-022.
+- Renatus Notes L285: living-tradition confirmation given in session on 2026-09-12 by Mark ("Confirm as drafted."), closing M2/Article 29. L438: CO-022 self-disposition and the Round 1 and Round 2 fix-round narrative.
+- Identity Preliminary Decision (gallic) L16 and L48: Mark's stated requirement; standing instruction confirmed by Mark on 2026-09-10.
+- Source_Registry L7 (rows 43–44 appended 2026-09-09; rows 45–46 appended 2026-09-13, post-B-8/G4), L21 (ruled 2026-08-26), L51 (Round 1 review as discovery instrument), L82 (Round 1 recall 3/10, Round 2 recall 4/10), L86 (Round 2 finding N7), L90 (Round 1 finding C11 confirmed sound at Round 2).
+- hal Identity Preliminary Decision L86: final decision dated 2026-07-13 by the project lead.
+- hal Doc_09c L70: Doc_07 Round 1, Doc_08 Round 2, Doc_09a Round 1 findings.
+- hal Phase6 brief L73: Phase Five Round 2 live test.
+
+##### False positives / unresolved
+None. Not edited and not flagged by the JSON: gallic Renatus Notes L7 and L348 still contain round/fix-round narration the scanner does not flag, and the gallic Doc06 L7 status line carries "CO-022" and reviewer narration. The lead may want a follow-up pass on them.
+
+#### Group D: desert and _cross-world
+
+#### cl7 group D report
+
+Verification: every edited file has zero REWRITE/ROUTE hits (scan_file, surface "worlds"). Two files are left untouched (ijc Source_Registry.md, alx alexlex003_catechesis.md) and are listed under unresolved/false positives.
+
+##### Edited files and what moved
+
+###### Dossiers (Build/worlds/_cross-world/dossiers/)
+Common: bare ISO dates recording when a source was checked or a PR merged became "September 2026" (prose snapshot).
+
+- ambrosian-milan-standalone, aquileian-christianity, jerusalem-liturgical-pilgrimage-christianity, roman-church-third-century L10: "(merged 2026-09-13)" -> "(merged September 2026)" (PR #180, #178, #178, #182).
+- anatolian-church-third-century, apocryphal-and-pseudepigraphal-literature, gallic-nicene-episcopate, pelagianism, priscillianist-asceticism L10: "verified 2026-09-13, unchanged since" -> "verified September 2026, unchanged since".
+- jerusalem L34 and roman-church L38: "direct WebFetch verification, 2026-09-13" -> "..., September 2026". (Jerusalem L34 still carries the sentence "an initial guessed identifier ... was wrong and caught before committing" - unflagged, left.)
+- lutheran-wittenberg-and-its-congregations:
+  - L10 rewritten as a present-tense state: dropped "2026-09-25", "no longer a cold start", "this dossier's own §1 'None' was already stale before this update", "ahead of this dossier ever being checked against it", "This pass (1)(2)(3)" narration. Kept: witt Source Registry (95 rows, approved to proceed), three closed gaps R1/R16/R18, §3 leads verified and mostly already vendored under other filenames, one new file vendored (alternate 1885 *First Principles of the Reformation* because the named scan is OCR-degraded).
+  - L40 header "status (2026-09-25)" -> "status (as of September 2026)".
+  - L42-52 verified-by dates (2026-09-15, 2026-09-25) -> "September 2026". L42/L43 "direct fetch, 2026-09-15 and re-fetched 2026-09-25" -> "direct fetch and re-fetch, September 2026".
+  - L43 removed "Correction to the 2026-09-15 note: this Gutenberg ebook is NOT limited ... direct inspection this pass found" -> "This Gutenberg ebook is not limited to the two treatises first described: direct inspection found all 9 ...".
+  - L44 "Re-checked 2026-09-25" -> "Checked September 2026"; "found this pass" -> "found".
+  - L45 removed "this pass" (x1) and "Publication year corrected from this dossier's original '1883/1896' to 1885" -> "The publication year is 1885, per the vendored item's own title page" (original wrongly-stated years 1883/1896 now unrecorded in file).
+  - L61/L62 "Not re-checked 2026-09-25 — still open." -> "Not re-checked as of September 2026; still open."
+  - L63 "Closed as a vendoring source, 2026-09-25" -> "(September 2026)".
+- the-reformed-cities-zurich-and-geneva:
+  - L10 rewritten: removed "2026-09-25 — no longer a cold start, and this §1's own prior 'None' was already stale by the time it was written: an earlier vendoring pass had already assigned 10 works across 8 files ... before this dossier was ever read against current main. A further pass added 6 more works across 6 more files". Now: "September 2026. ... assigns 16 works across 14 vendored files. Of this dossier's §3 leads, 4 are closed: 2 genuinely new works (Zwingli's Latin Works Vol. III and the Genesis Commentary) and additional volumes of two others. See §1 ... §3 for what remains open."
+  - L75-82 "Vendored/Partially vendored 2026-09-15 / 2026-09-25" -> "September 2026". L76 "direct fetch this session" -> "direct fetch"; "were not researched this pass and remain a real, open opportunity" -> "are not yet researched and remain a real opportunity". L77 "this session" dropped; "a real, open gap" -> "a real remaining gap" (cue "open gap" removed; see ROUTE note below).
+  - L81 "The table-of-contents question this row originally flagged is now closed: directly verified" -> "The table of contents is directly verified".
+  - L89 "**Closed 2026-09-15** (this dossier's own text had not been updated to reflect it until now)." -> "**Closed (September 2026).**" L90 "**Closed 2026-09-15.**" -> "**Closed (September 2026).**"
+- palestinian-ascetic-monasticism-early:
+  - L106 "Direct WebFetch ..., 2026-09-21" -> "September 2026"; "Already named once before — records/hal/search_record/hal.search.egeria-pilgrimage.md (2026-08-21) — but scoped there to Bethlehem context only for a different world; this pass re-verified it directly rather than trusting that prior citation" -> "Already named in `records/hal/search_record/hal.search.egeria-pilgrimage.md` (August 2026), but scoped there ... ; it is re-verified here directly rather than trusting that citation".
+  - L112 "(title search, 2026-09-21)" -> "(title search, September 2026)".
+  - L126 (§5 bullet, cue "carried here as the same open item"): reworded to "stays provisional here" so the cue disappears; the bullet is kept in place (an unflagged part of §5 "Open cross-world questions"). Judgment call: removing one line of a multi-line bullet was not sensible. The question (Palladius `role: tradition` vs `context`) is still open; log it if the lead wants it tracked.
+- palestinian-church-pre-constantinian L38 (§5): "reported, not resolved, by an earlier pass" -> "reported, not resolved here"; "it's the real open item for whoever takes this world" -> "it's the real scope question for whoever takes this world". Content (Origen's Caesarea corpus; needs project-lead decision) kept in the file.
+
+###### Desert world (Build/worlds/desert/)
+Approach for lines flagged only for the cue "open item": the line is a scholarly statement that points to the document's own "Open items carried forward" section, which stays. I removed the cue words and kept the pointer; the open items themselves are untouched in those sections.
+
+- Doc01 L46 "as an open item for Doc_02" -> "as a question for Doc_02"; L72 "is an open item this document does not resolve" -> "is a question this document does not resolve"; L104 "flagged as an open item (Section 11)" -> "flagged in Section 11"; L131 "flags this as an open item (Section 11)" -> "flags this in Section 11"; L149 "flags version-priority as an open item for Doc_02" -> "carries version-priority as a question for Doc_02".
+- Doc02: L60 "(Doc_01, Section 6, open item 5)" -> "(..., Section 6, item 5)"; L132 "one of the open items Doc_01 already carries forward" -> "one of the questions Doc_01 already carries forward"; L136 "This is flagged as an open item requiring further, more specialized research before Doc_04, not resolved here (Section 11)." -> "This requires further, more specialized research before Doc_04 and is not resolved here (Section 11)."; L161 "carried forward as an open item (Section 11)" -> "carried forward in Section 11".
+- Doc02 L11 REMOVED (ROUTE): see below.
+- Doc03: L154 last sentence REMOVED (ROUTE): see below. L163 "**Source anchor:** verified this drafting pass; not yet present in Doc_02 and flagged as a research lead that should be added to Doc_02's Section 1 (Cassian as a primary transmission-adjacent voice) at the next opportunity to revise that document (Section 4, open item)." -> "**Source anchor:** verified; not yet present in Doc_02, where it would sit in Section 1 (Cassian as a primary transmission-adjacent voice). See Section 4, item 3." (Section 4 item 3 already carries the to-do.) L169 "(Section 4, open item 2)" -> "(Section 4, item 2)".
+- Doc04 L105 "Doc_01 §6's own open item 5" -> "Doc_01 §6's item 5"; "resolving Doc_01's open item" -> "resolving Doc_01's question".
+- Doc05 L124 "(Section 11, open item)" -> "(Section 11)".
+- Doc06 L378 "(Section 6, open item 1)" -> "(Section 6, item 1)".
+- Doc07 L81 "(Doc_04 §8, open item 5)" -> "(Doc_04 §8, item 5)"; "consistent with that same open item" -> "consistent with that same item".
+- Doc10 L210: removed date and attribution date: "**Status:** CONFIRMED, 2026-07-11, by the project lead directly." -> "**Status:** CONFIRMED by the project lead directly." (date moved here: 2026-07-11). "which remains its own open item per that document's own findings" -> "which stays open per that document's own findings" (meaning unchanged: gate still open). L288 heading "### Addendum (2026-07-11) — Genuine live adversarial testing conducted, ..." -> "### Addendum — Genuine live adversarial testing, superseding the illustrative-only status above". The body of that addendum is change-history narration but was not flagged; left.
+- Phase6_Facilitation_Brief_DRAFT:
+  - L7 removed "Status and provenance", "This brief was produced by a separate integration pass, not by the thread that built this world", "already-completed and already-approved", "the 2026-07-11 live adversarial testing record" (date), "adversarial" in "independent adversarial review process". Now "Status — read before using this document. This brief draws entirely on Desert Monasticism's own completed, approved-to-proceed construction record (...live adversarial testing record) ... has NOT been through this project's own independent review process. It is a synthesis awaiting that review ...".
+  - L72 "CONFIRMED 2026-07-11" -> "CONFIRMED".
+  - L76 "2026-07-11 live adversarial testing pass" -> "live adversarial testing pass"; "tested here on 2026-07-11" -> "tested here"; "live-tested and verified in a prior session" -> "live-tested and verified". Filename `LiveTest_Transcripts_2026-07-11.md` and the "(Decision Log, Live Adversarial Testing entry)" pointer untouched (not flagged).
+  - L102 "This document's own status, restated: first draft, produced by a separate integration pass from Desert Monasticism's own build thread, drawing entirely on that build's already-approved construction record. Not yet submitted to this project's own independent adversarial review process. Should not be treated as cleared ... until it has been through that review." -> "This document's own status: first draft, drawing entirely on Desert Monasticism's approved-to-proceed construction record. It has not been through this project's own independent review process, and is not cleared or disposition-ready until it has."
+- Representative_Identity_Preliminary_Decision L60: "already named in this document's own Open Items (§5, now carried below)" -> "already named in this document's own §5 (now carried below)". Role-level "The project lead's own explicit instruction" kept.
+- surface/facilitator_brief/desert.facilitator_brief.desert-monasticism.md L290-292: the sentence quoted the Phase6 draft as "a synthesis awaiting its own Round 1 review, not as a cleared or disposition-ready artifact" (not an exact quote of the draft, which says "awaiting that review"). Now unquoted: "discloses itself as a synthesis awaiting independent review, not a cleared or disposition-ready artifact - it was never independently reviewed at all." Compiled packages built from this surface file will need a rebuild (default action: just do it).
+
+##### ROUTE items for Open_Gaps_Tracking.md
+
+1. (desert Doc02, former L11, removed; duplicate of Doc02 §11 item 1 which stays) "**Terminology note carried forward from this drafting pass:** the Construction Framework's actual five-level confidence vocabulary (Part IV of the Template: Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential / Thin) is used precisely in this document. Doc_01 used bracketed shorthand (e.g. `[Well-established as to the general c. 318–320 range …]`) that does not match this prescribed vocabulary exactly. Doc_01 does not use a bracketed "[Contested]" tag; "contested" appears in Doc_01 only as running prose, never as a bracketed shorthand token. This is flagged here as a cross-document terminology inconsistency requiring a mechanical correction pass on Doc_01 — not a substantive claim change, and not treated as blocking Doc_02 (see Section 11, open item 1)."
+2. (desert Doc03 L154, final sentence removed; no matching item in Doc03 §4) "This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item)." Context: the Evagrius *Antirrhetikos* survives only in Syriac (ed. Frankenberg), Armenian and Georgian, with fragmentary Sogdian from Turfan. The Doc03 sentence about the translation-only survival stays.
+3. (the-reformed-cities L77, kept in place with "open gap" reworded to "real remaining gap"; log if wanted) Letters of John Calvin, Vol. III could not be located (no `lettersofjohncal03calv`; the 1855-57 Edinburgh/Constable printing also skips a standalone vol. 3; Gutenberg holds only Vols. I-II); possibly resolvable via a dedicated HathiTrust pass.
+4. (palestinian-ascetic L126, kept in place with "open item" reworded to "stays provisional") Palladius entry (§2): `role: tradition` vs `role: context` judgment is `provisional`; a Doc_02 gravity pass is positioned to weigh it.
+5. (palestinian-church L38, kept in place with "open item" reworded to "scope question") Whether Origen's Caesarea-period corpus (held under `alexandria-catechetical`) should also be assigned to this world; needs a project-lead decision (cross-world call).
+6. Reworded-in-place desert items (the open questions remain in each doc's own "Open items carried forward" section): Doc01 §11 items (Shenoute/White Monastery relationship; Melitian contact; "white martyrdom" citation; Pachomian Lives version priority), Doc02 §11, Doc03 §4, Doc04/Doc07 item 5 cross-references, Doc05 §11 (typological reading evidence).
+
+##### Unresolved / false positives (files NOT edited)
+
+- Build/worlds/ijc/Source_Registry.md L43 (REWRITE, iso-date): I edited then reverted. The row carries a genuine provenance note ("Title confirmed 2026-08-05 (full-system review) ... Confidence raised C -> B ... this session") and an Added cell "2026-07-20; title confirmed 2026-08-05". I rewrote both to plain statements, but the line still flags because its "Identified via" cell cites a file name with a date (`Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`) in a non-date column, and the scanner only exempts a table row when every ISO date sits in a date column. The citation cannot be changed. Needs a scanner fix (treat filename dates as exempt in table cells) or the lead's call. Intended rewrite if the scanner is fixed: Verification Note "Title confirmed — matches the working recollection exactly; publisher, series and year recorded. Confidence B (title confirmed; not independently re-collated against the book's own text, so not A)"; Added "2026-07-20". Removed provenance for the log: "2026-08-05 (full-system review)", "Confidence raised C -> B", "this session", "; title confirmed 2026-08-05".
+- Build/worlds/alx/Lexicon-Chunks/alexlex003_catechesis.md L34 (ROUTE, route-cue): false positive. "a person who has not yet been formed to receive Scripture" is plain present-tense lexicon content (the scanner matches "has not yet been [a-z-]+"). Untouched, as instructed. If the lead wants it clean, the meaning-preserving swap is "who is not yet formed to receive Scripture"; this is a chunk that feeds compiled packages, so it should be a deliberate edit.
+

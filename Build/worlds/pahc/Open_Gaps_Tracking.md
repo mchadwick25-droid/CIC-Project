@@ -896,3 +896,14 @@ Status: OPEN. Owner: this world's thread.
 A change that updated the pahc homepage text shipped with an explicit known display issue: the homepage card's 3-line clamp truncates the new text (commit `dc1646a7`). A later change (`fb1827f8`) reported that its attempted fix did not work and restated the three remaining options. The defect is open. Layout and screen work waits until the system works (Settled Items Register row 3). The statement of the rule that a commit shipping an unfixed defect says so, and that a failed fix says so, stays in the Voice Style Guide.
 
 Status: OPEN. Owner: the website thread.
+
+### OG-46. Open points removed from pahc documents when their commentary was cleaned, 2026-11-03.
+
+Removed from the live documents as open points; the questions stay open here.
+
+1. Doc_05 (Ecological Reconstruction), former line 139: "Consistent with Open Item 2's treatment of the oikos citations (Section 10), this citation should likewise be formally logged as a new Source Registry consideration before Doc_06 or Doc_07 rely on it as established, since it is not currently a Doc_02 Registry row." Doc_09 line 236 argues the lyre/harp passage falls under existing Registry row P03, so the point may already be settled there. It needs a decision from the world's thread.
+2. Doc_08 (Forces Document), former line 359: "This is carried forward as an open item rather than resolved here (see Section 9)." The document now says "Section 9 records this gap."
+3. Doc_07 line 212 cited "Doc_04, Open Item 1" for a quotation that sits in Doc_04 section 6, item 4. The citation now reads "Doc_04 §6, item 4". Recorded as a citation correction.
+4. Phase 6 Facilitation Brief, Revision 4: the dropped clause "(Round 1 above covered only B1–B6)" is kept in the Decision-Log entry for this cleanup.
+
+Status: OPEN for items 1 and 2. Owner: this world's thread.

@@ -1036,3 +1036,13 @@ Status: locus CLOSED; divergence_note OPEN.
 `desert.force.origenist-controversy` had a name carrying the cell code "[3A - ending/external]" and "Strand C". Its description failed the readability gate (FK 26). The name now reads "… scattering the semi-anchoritic strand's intellectual leadership". The description is rewritten to FK 10 or below and FRE 60 or above, with every claim kept and nothing added. It still says that no first-hand account from the strand survives. An independent Opus review compared old and new meaning line by line. It found one P1, where "left no account" had replaced "no account survives", and one P2; both are fixed and a second Opus read confirmed them. `m1:readability/desert` waiver 114 → 112. The record's `divergence_note` still cites "Doc_01 SS2.3" and is not changed here.
 
 Status: CLOSED for the name and description; the divergence_note citation is OPEN.
+
+### OG-45. Open points removed from desert documents when their commentary was cleaned, 2026-11-03.
+
+Removed from the live documents; the questions stay open here.
+
+1. Doc_02 (Source Ecology), former line 11, a terminology note that duplicated Doc_02 section 11 item 1: "Terminology note carried forward from this drafting pass: the Construction Framework's actual five-level confidence vocabulary (Part IV of the Template: Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential / Thin) is used precisely in this document. Doc_01 used bracketed shorthand (e.g. `[Well-established as to the general c. 318–320 range …]`) that does not match this prescribed vocabulary exactly. Doc_01 does not use a bracketed "[Contested]" tag; "contested" appears in Doc_01 only as running prose, never as a bracketed shorthand token. This is flagged here as a cross-document terminology inconsistency requiring a mechanical correction pass on Doc_01 — not a substantive claim change, and not treated as blocking Doc_02 (see Section 11, open item 1)."
+2. Doc_03 (Lexicon Candidate List), former line 154, final sentence: "This fact is not yet present in Doc_02 and should be added there as a supplement at the next opportunity to revise that document, not cited as already established there (Section 4, open item)." The preceding sentence, that the Evagrius *Antirrhetikos* survives only in Syriac, Armenian and Georgian with fragmentary Sogdian, stays.
+3. Doc_01 line 149 carries the Pachomian Lives version-priority question to Doc_02 without a section pointer; Doc_01 section 11 has no item for it.
+
+Status: OPEN. Owner: this world's thread.

@@ -190,7 +190,7 @@ pairing_guidance:
     does not document any actual tested pairing with another tradition, so
     either direction is a plausible reading of this world's own character,
     not an evidenced recommendation - and this world, the most recently
-    built of ten now in this fleet's record set, has not yet been seated at
+    built of ten now in this fleet's record set, is not seated at
     a table with any other Representative at all.
   grounded_in:
   - hal.gravity.patronage-authority

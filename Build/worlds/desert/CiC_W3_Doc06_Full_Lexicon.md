@@ -375,7 +375,7 @@ Every Tier 2 entry below carries Quick Meaning, World Meaning, Ecological Functi
 
 ## Part 4 — Deployment Lexicon Chunks (Tier 1 priority set)
 
-Per Framework Part VI, deployment chunks restructure the construction entries above into self-contained, retrievable files. This document produces chunks for all nine **Tier 1** entries now and flags Tier 2/3 chunking — including the two Tier 2 terms that themselves carry [RT], *synaxis* (2.6) and *kellion* (2.7) — as a bounded follow-on task (Section 6, open item 1) rather than expanding this already-large document further. This is a Tier-based cut, not an [RT]-based one: those two Tier 2 [RT] terms are left unchunked under the same Tier-1-only rule as the rest of Tier 2/3. This is still a defensible proportionality decision, since Tier 1 concentrates this world's highest ecological weight.
+Per Framework Part VI, deployment chunks restructure the construction entries above into self-contained, retrievable files. This document produces chunks for all nine **Tier 1** entries now and flags Tier 2/3 chunking — including the two Tier 2 terms that themselves carry [RT], *synaxis* (2.6) and *kellion* (2.7) — as a bounded follow-on task (Section 6, item 1) rather than expanding this already-large document further. This is a Tier-based cut, not an [RT]-based one: those two Tier 2 [RT] terms are left unchunked under the same Tier-1-only rule as the rest of Tier 2/3. This is still a defensible proportionality decision, since Tier 1 concentrates this world's highest ecological weight.
 
 Chunks are written as separate files in `Lexicon-Chunks/`, following the naming convention `desertlex[NNN]_[term-slug].md`:
 

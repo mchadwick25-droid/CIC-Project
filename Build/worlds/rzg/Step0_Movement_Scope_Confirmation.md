@@ -32,7 +32,7 @@ Not applicable — this window opens over a millennium after Nicaea.
 
 ### A3 — Contemporary movements
 
-Real and disclosed, shared with this batch's Lutheran Wittenberg sibling document: the Marburg Colloquy (1529) Eucharistic break with Luther, from this movement's own side; and — new here — the Synod of Dort (1618–19) sits inside this candidate's own stated window (1519–1650) but is **also a separate, already-registered census entry** (VI.26, "The Remonstrants and Dort"). Doc_01 needs an actual scoping decision — whether Dort's Calvinist-orthodoxy-versus-Arminian-Remonstrant controversy belongs inside this candidate's own story or is better left to stand as its own separate world if VI.26 is ever built — not resolved here, carried forward as a binding open item (§4).
+Real and disclosed, shared with this batch's Lutheran Wittenberg sibling document: the Marburg Colloquy (1529) Eucharistic break with Luther, from this movement's own side; and — new here — the Synod of Dort (1618–19) sits inside this candidate's own stated window (1519–1650) but is **also a separate, already-registered census entry** (VI.26, "The Remonstrants and Dort"). Doc_01 needs an actual scoping decision — whether Dort's Calvinist-orthodoxy-versus-Arminian-Remonstrant controversy belongs inside this candidate's own story or is better left to stand as its own separate world if VI.26 is ever built — not resolved here; it is a binding obligation recorded in §4.
 
 ### A4 — Hand-selected inclusion: invoked
 
@@ -44,7 +44,7 @@ Not applicable in the developmental-tradition sense; real contemporary-rival rel
 
 ### Section A conclusion
 
-**Clears Section A directly**, on the Second Helvetic Confession and Heidelberg Catechism's own text, with the Zwingli/Bullinger/Calvin continuity structure disclosed honestly (Bullinger-mediated, not direct) and the Dort scoping question named as a real, binding open item rather than assumed either way.
+**Clears Section A directly**, on the Second Helvetic Confession and Heidelberg Catechism's own text, with the Zwingli/Bullinger/Calvin continuity structure disclosed honestly (Bullinger-mediated, not direct) and the Dort scoping question named as a real, binding obligation (§4) rather than assumed either way.
 
 ## 3. Section B — Seed Screening and Tiering
 
@@ -54,7 +54,7 @@ Not applicable in the developmental-tradition sense; real contemporary-rival rel
 
 Per the dossier, directly host-verified: Calvin's Institutes in **two** confirmed PD English translations (Allen 1813, Beveridge 1845 — the latter the standard cited edition); the ~22-volume Calvin Translation Society English commentary series (nearly the whole Bible); Calvin's letters (Bonnet, 4 vols., 1855–58); the Geneva Catechism (Waterman 1815); Zwingli's Latin Works and Correspondence (Jackson, 3 vols., 1912/1922/1929) and Selected Works (Jackson, 1901). **Same methodological caveat as every sibling document in this batch: no figure below is extracted from vendored XML, since nothing is vendored yet.** On a qualitative read, Calvin's own corpus alone is likely the single largest founder-corpus this project has ever considered — larger by a wide margin than Zwingli's, a real asymmetry Doc_02 will need to manage rather than average away.
 
-**One genuinely open acquisition item, not closed:** the Consensus Tigurinus (1549) — the actual documented Zwingli/Bullinger-to-Calvin bridge named in §2 A2 above — has no confirmed PD English translation yet located. This is a binding open item, not a dead end (§4 below).
+**One genuine acquisition gap, not closed:** the Consensus Tigurinus (1549) — the actual documented Zwingli/Bullinger-to-Calvin bridge named in §2 A2 above — has no confirmed PD English translation yet located. This is a binding obligation, not a dead end (§4 below).
 
 ### B2 — Ecology
 
@@ -76,13 +76,13 @@ Swiss lands, then all of Europe by 1650 — the broadest total geographic reach 
 
 Clears Section A directly on the movement's own confessional text, with the Zwingli-Calvin continuity question disclosed honestly rather than assumed and the Dort scoping question named as binding, not resolved; clears Sourcing very strongly, with one real internal asymmetry (Calvin vastly outweighs Zwingli) and one genuinely open acquisition item (the Consensus Tigurinus); clears Ecology broadly, with Zwingli's own liturgical/ecclesiological completeness not yet independently confirmed; no built-world overlap; genuinely distinct audience from its own batch-mate; broadest geographic scale in the batch.
 
-**Tier 1 — Strong seed, two binding conditions remaining.** Unlike Lutheran Wittenberg's own sibling document, this candidate carries two real, disclosed open items rather than none: the Consensus Tigurinus acquisition (§3 B1) and the Dort scoping decision (§2 A3). Neither is disqualifying; both are genuine work for Doc_01/Doc_02, not smoothed-over gaps.
+**Tier 1 — Strong seed, two binding conditions remaining.** Unlike Lutheran Wittenberg's own sibling document, this candidate carries two real, disclosed binding conditions rather than none: the Consensus Tigurinus acquisition (§3 B1) and the Dort scoping decision (§2 A3). Neither is disqualifying; both are genuine work for Doc_01/Doc_02, not smoothed-over gaps.
 
 ## 4. Required disclosure obligations and decisions carried forward (binding, not discharged here)
 
 1. **The Zwingli/Bullinger/Calvin continuity structure (binding on Doc_01).** State plainly that this candidate's coherence rests on Bullinger's own mediation (the Consensus Tigurinus) and not on any direct relationship between Zwingli and Calvin, who never met and whose ministries did not overlap.
 2. **The Dort/Remonstrants scoping question (binding on Doc_01, before drafting proceeds).** Decide whether the Synod of Dort (1618–19) belongs inside this candidate's own story or should be left for a separate build of VI.26 if that ever happens — a real scope decision, not a floor or continuity question.
-3. **The Consensus Tigurinus acquisition (binding on Doc_02, not yet resolved).** No confirmed PD English translation located this pass; a dedicated follow-up search (HathiTrust/Google Books, per the dossier) is owed before Doc_02 can cite it directly.
+3. **The Consensus Tigurinus acquisition (binding on Doc_02; unresolved at this step).** No confirmed PD English translation located this pass; a dedicated follow-up search (HathiTrust/Google Books, per the dossier) is owed before Doc_02 can cite it directly.
 4. **Zwingli's own works' table-of-contents verification (binding on Doc_02).** The *Selected Works* (Jackson 1901) very likely contains the 67 Articles and other short treatises named in the original research brief, but this was not independently confirmed at the individual-work level this pass.
 5. **The Marburg break with Luther (binding on Doc_01, cross-referenced with VI.1's own Step 0).** State plainly as a real, unresolved-between-these-two-worlds theological difference.
 6. **Corpus asymmetry between Calvin and Zwingli (binding on Doc_02).** Doc_02 must manage this directly rather than present a falsely balanced picture of "the Reformed cities" as two equal voices.
