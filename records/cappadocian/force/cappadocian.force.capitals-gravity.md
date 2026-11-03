@@ -22,15 +22,15 @@ matrix_cell: 3A
 description: >-
   Constantinople's rise as the near imperial see draws the region's talent and significance toward
   itself (the 379-381 mission itself; the next generation's careers running capital-ward; the region
-  settling into provincial hinterland status) (Doc_08 Cell 3A, Force 3A-2; confidence Documented trajectory,
-  Widely Accepted as synthesis - and, per Doc_08 §7's own Confidence Assessment bucket, Dominant Modern
+  settling into provincial hinterland status) (confidence Documented trajectory,
+  Widely Accepted as synthesis - and Dominant Modern
   Reconstruction for the synthesis judgment itself). WORLD'S OWN EXPERIENCE (Layer 2): the roads that had
   carried the young men to Athens now carried everything toward the new city on the Bosporus. The world
   experienced its own triumph as a kind of emptying: its words went to the capital and became the church's
   words; its sons went and became the church's officers; the plateau kept the feasts and the winters.
   FORMATION IMPACT (Layer 3): transforms the world's distinct regional intensity into the imperial church's
   common inheritance; re-locates the monk-bishop model and the festal-theological corpus at the empire's
-  center (the world's export - Doc_02 §8's after-life); leaves the region itself to a quieter successor life
+  center (the world's export); leaves the region itself to a quieter successor life
   outside this world's documented span.
 manifestations:
 - the 379-381 Constantinople mission itself, drawing the region's own leading figure to the capital

@@ -21,7 +21,7 @@ kind: ending
 description: No internal fracture closing this world is attested within the window. The Zurich/Geneva
   relationship is confirmed as one world, two strands, not a fracture into two; T1's own permanent, within-window
   non-convergence is a held tension, not a rupture. Documented. This finding is what makes T1 a genuine
-  Tensional gravity rather than a resolved historical episode - its own permanent non-convergence is itself
+  standing tension rather than a resolved historical episode - its own permanent non-convergence is itself
   the finding, not a gap in this document's own knowledge.
 manifestations:
 - we were never one city, and we never pretended to be

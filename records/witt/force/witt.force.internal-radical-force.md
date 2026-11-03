@@ -59,7 +59,7 @@ relations:
 - type: associated-with
   target: witt.gravity.hearers-and-repeaters-of-words
 name: 'The internal-radical force: Karlstadt and Zwilling''s pace (1522); the "new spirits," "fanatics"
-  and Anabaptists (1529-31) [2B - ongoing/internal]'
+  and Anabaptists (1529-31)'
 kind: ongoing
 matrix_cell: 2B
 description: 'In 1522, while the founder was away at the Wartburg, Karlstadt and Zwilling ran their own program in Wittenberg.

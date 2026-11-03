@@ -48,7 +48,7 @@ relations:
 - type: associated-with
   target: witt.gravity.embattled-christendom
 name: 'The imperial force: Worms and the Edict (1521), the Diets, Augsburg and the confessional register,
-  1521-31 [2A - ongoing/external]'
+  1521-31'
 kind: ongoing
 matrix_cell: 2A
 description: 'The Edict of Worms and the Council of Regency''s edict of January 1522 are widely accepted by scholars. Then

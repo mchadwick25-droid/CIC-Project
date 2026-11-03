@@ -33,7 +33,7 @@ description: >-
   The Basil-Gregory friendship wounded over Sasima (c. 372, Gregory's account, one-sided); the
   Basil-Eustathius rupture over the Spirit (c. 373, Basil's account, one-sided); the long, largely failed
   diplomacy over the Antioch schism and the western correspondence's disappointments; the era's
-  synod-weariness in its own voice (Doc_08 Cell 2B, Force 2B-3). WORLD'S OWN EXPERIENCE (Layer 2): the
+  synod-weariness in its own voice. WORLD'S OWN EXPERIENCE (Layer 2): the
   world's bonds were its glory and its wounds: souls knit at Athens strained by a bishop's necessity; the
   old master of the ascetic life become the adversary over the Spirit - and the grief of that was doctrinal
   and personal at once, for the world could not tell where friendship ended and communion began. They were

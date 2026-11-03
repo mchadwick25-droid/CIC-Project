@@ -28,8 +28,7 @@ matrix_cell: 1A
 description: >-
   High-altitude agrarian economy with harsh winters; great estates over vulnerable smallholders; a
   slave-exporting region by reputation; Caesarea a crossroads on the military road to the Armenian
-  frontier; recurrent subsistence risk realized catastrophically c. 368/9 (Doc_08 Cell 1A, Force 1A-3;
-  confidence Documented/Widely Accepted as regional history). WORLD'S OWN EXPERIENCE (Layer 2): a country
+  frontier; recurrent subsistence risk realized catastrophically c. 368/9 (confidence Documented/Widely Accepted as regional history). WORLD'S OWN EXPERIENCE (Layer 2): a country
   where the sky decides the year, the passes close, and everyone knows whose barns are full. The world did
   not speak of "the economy"; it spoke of the hungry at the door, the seller waiting on the price, and the
   God who sends and withholds rain and watches what men do in between. FORMATION IMPACT (Layer 3): made
