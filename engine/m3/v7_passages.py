@@ -13,7 +13,7 @@ from pathlib import Path
 from engine.m4 import fit_step, source_windows
 
 DIVISION_MAX_WORDS = fit_step.CONTEXT_MAX_WORDS
-MAX_PASSAGES_PER_RECORD = 3
+MAX_PASSAGES_PER_RECORD = 5
 LABEL = "passage not located"
 
 
@@ -59,16 +59,19 @@ def resolve_record(record: dict, records: dict[str, dict], texts_root: Path, cap
     sources = record.get("sources") or []
     if not sources:
         return {"passages": [], "unresolved": [{"record_id": record["id"], "source_id": None, "reason": f"{LABEL}: the record names no source"}]}
-    blocks = {b["source_id"]: b for b in reversed(source_windows.context_blocks(record, records, texts_root))}
     passages, unresolved = [], []
     for entry in sources:
-        block = blocks.get(entry.get("source_id"))
-        if block is None:
+        found = source_windows.context_blocks({**record, "sources": [entry]}, records, texts_root)
+        if not found:
             unresolved.append({"record_id": record["id"], "source_id": entry.get("source_id"),
                                "reason": _reason(records.get(entry.get("source_id") or ""))})
             continue
+        block = found[0]
         text, trimmed = _cut(block, texts_root, cap)
         passages.append({"record_id": record["id"], "source_id": block["source_id"], "locus": entry.get("locus") or "",
                          "file": block["file"], "division_path": block["division_path"], "lines": block["lines"],
                          "trimmed": trimmed, "text": text})
+    for cut in passages[MAX_PASSAGES_PER_RECORD:]:
+        unresolved.append({"record_id": record["id"], "source_id": cut["source_id"],
+                           "reason": f"cut by the {MAX_PASSAGES_PER_RECORD}-passage cap"})
     return {"passages": passages[:MAX_PASSAGES_PER_RECORD], "unresolved": unresolved}

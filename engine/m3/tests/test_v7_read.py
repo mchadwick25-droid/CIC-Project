@@ -485,3 +485,29 @@ def test_a_reply_that_does_not_fit_is_reported_not_scored(env):
     _file(out, "reader-1", iid, bad)
     t = _score(env, out, keys)
     assert t["invalid_replies"][0]["item_id"] == iid and t["items_scored"] == 0
+
+
+def test_a_record_citing_one_source_twice_shows_each_passage(env):
+    records, root = _records(), env["tmp"] / "texts_root"
+    twice = {"id": "tst.dw.twice", "record_type": "doctrinal_witness",
+             "sources": [{"source_id": "tst.source.x", "locus": "tst1 lines 40-41"}, {"source_id": "tst.source.x", "locus": "tst1 lines 60-61"}]}
+    got = ps.resolve_record(twice, records, root)["passages"]
+    assert [p["lines"] for p in got] == ["40-41", "60-61"] and [p["locus"] for p in got] == ["tst1 lines 40-41", "tst1 lines 60-61"]
+
+
+def test_sources_cut_by_the_passage_cap_are_listed(env):
+    records, root = _records(), env["tmp"] / "texts_root"
+    many = {"id": "tst.dw.many", "record_type": "doctrinal_witness",
+            "sources": [{"source_id": "tst.source.x", "locus": f"tst1 lines {n}-{n}"} for n in range(35, 35 + ps.MAX_PASSAGES_PER_RECORD + 2)]}
+    got = ps.resolve_record(many, records, root)
+    assert len(got["passages"]) == ps.MAX_PASSAGES_PER_RECORD
+    cut = [u for u in got["unresolved"] if u["reason"] == f"cut by the {ps.MAX_PASSAGES_PER_RECORD}-passage cap"]
+    assert len(cut) == 2 and ps.MAX_PASSAGES_PER_RECORD == 5
+
+
+def test_same_words_with_different_types_go_to_adjudication_and_findings_are_not_counted_twice():
+    a = _reply("i", "a", errors=[_error("alpha beta gamma", tier=3, typ="invented")])
+    b = _reply("i", "b", errors=[_error("alpha beta gamma", tier=3, typ="misquoted")])
+    assert rd.needs_adjudication(a, b)
+    ruled = _reply("i", "adj", errors=[_error("alpha beta gamma", tier=2, typ="invented"), _error("alpha beta gamma delta", tier=2, typ="misquoted")])
+    assert len(rd._final_errors(a, b, ruled)) == 1

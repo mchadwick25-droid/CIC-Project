@@ -518,8 +518,12 @@ def _error_problems(errors, label: str) -> list[str]:
     return problems
 
 
+def _base_type(error: dict) -> str:
+    return str(error["type"]).split(":")[0]
+
+
 def _unmatched(errors: list[dict], others: list[dict]) -> bool:
-    return any(not any(overlaps(e["answer_words"], o["answer_words"]) for o in others) for e in errors)
+    return any(not any(overlaps(e["answer_words"], o["answer_words"]) and _base_type(e) == _base_type(o) for o in others) for e in errors)
 
 
 def needs_adjudication(first: dict, second: dict) -> bool:
@@ -641,11 +645,9 @@ def _summary(values: list[float]) -> dict:
 
 
 def _final_errors(first: dict, second: dict, adjudicated: dict | None) -> list[dict]:
-    if adjudicated is not None:
-        return list(adjudicated["errors"])
     merged = []
-    for e in first["errors"] + second["errors"]:
-        if not any(overlaps(e["answer_words"], m["answer_words"]) and e["type"] == m["type"] for m in merged):
+    for e in (adjudicated["errors"] if adjudicated is not None else first["errors"] + second["errors"]):
+        if not any(overlaps(e["answer_words"], m["answer_words"]) for m in merged):
             merged.append(e)
     return merged
 
@@ -705,7 +707,7 @@ def known_october_errors(set_dir: Path, world: str) -> list[dict]:
             notes.append(("craft", entry["craft_note"]))
         for kind, note in notes:
             known.append({"world": world, "probe_id": probe, "source": f"second pass {kind}", "claim": note, "problem": note,
-                          "match_text": _fragments(note), "may_be_confirmation": entry.get("rigor") == "SOUND" and kind == "rigor"})
+                          "match_text": _fragments(note), "may_be_confirmation": False})
     return known
 
 
