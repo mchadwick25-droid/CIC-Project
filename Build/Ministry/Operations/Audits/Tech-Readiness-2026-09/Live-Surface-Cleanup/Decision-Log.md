@@ -2732,3 +2732,9 @@ The open points removed from alx documents are filed as alx OG-44, and those rem
 - `Doc_09`: the removed lead-in "Per this project's own two-tier approval discipline," was a process reference with no factual content; a "Doc_01 section-citation slip" is now worded "correction".
 - `Doc_04`: the "See ROUTE section" pointer is removed because the routed material is recorded in this log, not in the document.
 - `syr_World_Profile.md`: the re-sequencing decision of 2026-07-08 is kept as a historical date in a PROTECTED line and left unchanged.
+
+## CL8: CI checkout timeouts (2026-11-03)
+
+**Cause.** The working tree is 2.9 GB: `cic/texts` holds 1.9 GB and `cic-website/audio` 0.6 GB. Three jobs that read neither (cited paths, live-surface commentary, embedded-world-data) checked out all of it, and the live-commentary job also fetched the full 3.2 GB history. Under runner load the checkout step took up to 12 minutes, so the 10-minute job timeout cancelled the job before any check ran. On CL7's run the cited-paths job's checkout took 1 s to 4.7 min across two attempts, and the live-commentary job timed out twice.
+
+**Fix, at the source, in `.github/workflows/ci.yml`; no check changed.** Cited paths and embedded-world-data check out everything except `cic/texts` and `cic-website/audio` (blobless, sparse), then write empty stand-in files for those two trees so every existence test answers as it does on a full checkout. Live-surface commentary on a pull request fetches the full history without file contents, writes out only `tools/`, the one engine module the checker imports and the files the pull request edits, and scans exactly those files as before; a push still checks out everything and scans the whole tree. Local comparison on the CL7 head: cited paths 973 total, 973 accepted, 0 new (same as a full checkout, 420 MB instead of 2.9 GB); live commentary `--enforce` exit 0 (6 MB). `timeout-minutes` is unchanged.

@@ -286,7 +286,25 @@ jobs:
     timeout-minutes: 10
     continue-on-error: true
     steps:
+      # The check reads Markdown and tests whether cited paths exist; it never
+      # reads the vendored texts or the audio (about 2.5 of the repository's
+      # 2.9 GB). Those two trees are left out of the working tree and stood in
+      # for by empty files, so every existence test answers as it does on a
+      # full checkout, and the runner downloads a seventh of the data.
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -304,9 +322,25 @@ jobs:
     timeout-minutes: 10
     continue-on-error: true
     steps:
+      # On a pull request the check reads the checker itself, the one engine
+      # module it imports, and the files the PR edits. The history is fetched
+      # in full (the merge-base needs it) without file contents, and only
+      # those files are written out, so the runner downloads megabytes
+      # instead of the 2.9 GB tree. A push scans the whole tree, so it checks
+      # out everything.
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          filter: ${{ github.event_name == 'pull_request' && 'blob:none' || '' }}
+          sparse-checkout: ${{ github.event_name == 'pull_request' && '/tools/' || '' }}
+          sparse-checkout-cone-mode: false
+      - name: Write out the files this PR edits
+        if: github.event_name == 'pull_request'
+        run: |
+          base="$(git merge-base "origin/${{ github.base_ref }}" HEAD)"
+          { printf '/engine/__init__.py\n/engine/m1/\n'
+            git diff --name-only --diff-filter=AM "$base" HEAD | sed 's/[][*?\\]/\\&/g; s|^|/|'
+          } | git sparse-checkout add --stdin
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -802,7 +836,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # Reads the website's pages only; the vendored texts and the audio are
+      # left out of the working tree (see the cited-paths job).
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
