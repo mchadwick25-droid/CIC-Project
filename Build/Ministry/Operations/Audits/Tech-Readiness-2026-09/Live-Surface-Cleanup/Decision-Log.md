@@ -2242,6 +2242,138 @@ The removed items are quoted in full in the group sections above. Two are settle
 - A pointer to a temporary scratch file was removed from the CL3 entry above ("The full original text is also saved at ..."); the text it pointed to is quoted in full in that entry.
 - Scanner sample table: `tools/tests/test_check_live_commentary.py` rows pointing at lines the cleanup removed or moved are replaced; two replaced rows are labelled ROUTE (an open testing gap and an unreviewed-draft statement), and the comments above the replaced rows are removed, with one new comment above the first replaced row.
 
+## Entry — CL4, Build/worlds/witt (2026-11-03)
+
+Mark, 2026-11-03: "make sure what exists is clean and not in program notes, everything is kept in a seperate document, no curruption." Scope: the construction documents under `Build/worlds/witt/` (Doc_02 to Doc_10, Source_Registry, World_Profile, Step 0 and G0 notes). Review rounds and review-round files are protected and untouched.
+
+### Source Registry row ids
+
+533 of the 560 flagged lines were not provenance. They cite Source Registry rows by bare id (for example "(R94)"), which the scanner's ruling-number pattern reads as a ruling number. By the delivery lead's ruling (option A), each flagged line now names the registry once: the first bare id on the line is written "Registry R94". The citation target is unchanged and only the label was added. 495 lines changed this way, each checked by script: removing the one added word gives back the original line. Doc_09 had one doubled label ("Registry Registry R30"), corrected. `scripts/wb_witt_s25.py` is left as it is: its seven flagged strings (R94) are text a retired generator writes into records, so changing them would make the script disagree with the records it produced.
+
+### Group 5 — small documents
+
+#### Step0_Movement_Scope_Confirmation.md
+- Line 74 (ROUTE, route-cue "has not yet been"). Heading changed from "**Tier 1 — Strong seed, no binding condition remaining beyond independent review itself.**" to "**Tier 1 — Strong seed.**". The tier judgement and the comparison with the Latin and Greek Apologists are unchanged. Removed sentence (open review status, see ROUTE items): "The one binding condition is procedural, not evidentiary: this document itself has not yet been independently reviewed (§6 below)." Section 6 still states the draft status.
+
+#### witt_Doc_07_Integrated_Ecology_Analysis.md
+- Line 17 (ROUTE, "open item"). Heading now ends "...the L4 template supplies section shape only." Removed clause: ", the conflict is named as an open item, not settled by this thread". The conflict stays recorded at §12 item 1 and in the §12 completion line.
+- Line 21 (REWRITE, iso-date inside the verbatim CF V7.4 quote). The quote is split so that no word of it changed: *"Ask all of Smart's seven dimensions as the fixed lens spine — always asked, for every world"* (the text labels this instruction M4): *"ritual/practical, ..."*. Omitted from the quote (verbatim original): "(M4, adopted 2026-07-27)". Also changed "Step 7's dated instruction" to "Step 7's instruction".
+- Line 25 (ROUTE, review-round + iso-date). Removed provenance, quoted from the original:
+  - "most recently dated" became "most recent".
+  - "the M4 change order it cites is a logged project-lead decision (`Build/reference/method/Pass2-decisions/M4_lens_spine.md`: "Decided by Mark, 2026-07-27: ADOPTED AS STATED"), and its promotion to governing Framework is likewise logged (`S6.1_M_construction_framework_v74_promotion.md`, same date, item 6: "The lens spine per M4 (adopted as stated)"); the template's v1.0 list predates both and has not been revised to match." Now reads "it carries the M4 lens-spine change order, and the template's v1.0 list predates that order and has not been revised to match."
+  - "with an addendum of 2026-08-05 recording" became "with an addendum recording" (the quotes inside are unchanged).
+  - "the S6.1 promotion decision of 2026-07-27 and the file's own status block have not been reconciled with each other, and this document — like Doc_01 through Doc_06 before it — applies V7.4 as the governing text while recording that residue for the coach thread (§12)" now reads "the S6.1 promotion decision and the file's own status block are not reconciled with each other. This document, like Doc_01 through Doc_06 before it, applies V7.4 as the governing text and records that residue at §12."
+  - "Second, the Gallic Doc_07's Round 1 review (its finding S4) ruled that a build thread may apply CF V7.4's Step 7 text directly, as its own world's governing document, and must disclose the template's staleness as an open item — but may not claim another world's ruling as "established cross-world precedent" or assert that nothing is open. This document follows that remedy exactly: it applies the governing text on its own authority as this world's Framework, claims no precedent from any sibling world, and carries the template-versus-Framework mismatch at §12 as an item for the coach thread." Now reads "Second, this document applies CF V7.4's Step 7 text directly, on its own authority as this world's governing Framework, and discloses the template's staleness as an open point. It claims no precedent from any sibling world, does not assert that nothing is open, and carries the template-versus-Framework mismatch at §12."
+  - Removed sentence: "The drafting brief under which this document was commissioned gave the same reading of the texts; the reading was verified against the extracted `.docx` rather than taken on the brief's word, and the brief is not itself an approval of anything." Kept: "The reading of the texts was verified against the extracted `.docx`."
+- Line 31 (REWRITE, R94). "R94's Named-Comparandum bar is observed" now "The Named-Comparandum bar of Source Registry R94 is observed".
+- Line 37 (R53): "[R53]" now "[Source Registry R53]".
+- Line 41 (ROUTE, "open item"). The discipline's own subject is how open points are handled. Wording changed from "open items stay open" to "open points stay open" and "flagged open item" to "flagged open point". Meaning unchanged.
+- Line 45 (REWRITE, reviewer/review-round). Heading "Discipline 11 — known error classes from the sibling Doc_07 reviews, carried as a checklist." now "Discipline 11 — known error classes, applied as a checklist." Removed: "From the Gallic Doc_07 Round 1 review:" (now "Gallic series:") and "From the Hieronymian Doc_07 Rounds 1–2:" (now "Hieronymian series:"). "so a reviewer can hunt for it specifically" now "so a reader can check for it specifically". The S1–S8 and F1–F6 definitions are unchanged.
+- Lines 119, 123, 135, 167, 181, 203, 257, 287: "Source Registry" added beside the ids R93, R82, [R34], [R51], [R45], R56/R57, the bracketed absent-input ids (now "**Absent inputs Doc_08 must mark (Source Registry rows in brackets), per Doc_02 §13 and Doc_04 §10:**") and R56. Nothing else changed.
+- Line 299 (ROUTE, "Open Gaps" heading). "...and the Open Gaps tracker, and how each is discharged" now "...and `Open_Gaps_Tracking.md`, and how each is discharged" (it names the file).
+- Not flagged, left as is: other lines in Doc_07 still carry review-history wording (for example the disposition lines near 365-411 and "O6" near 387). They are outside the flagged list.
+
+#### witt_Doc_10_Representative_Construction_Notes_Nikolaus.md
+- Line 5 (REWRITE, change-history-cue). Status paragraph rewritten. Removed provenance (verbatim original): "(self-disposed per CO-022; no escalation category applies — the identity decision itself was already escalated and decided separately, and is not reopened here)"; "already-approved"; "(a G2 escalation-category decision made directly by Mark Chadwick, in conversation — not re-argued here)"; "Full independent-review history is at `witt_Doc10_Review_Round1.md`: one substantial finding (a genuine Facilitator/Representative boundary overreach on the 1543 disclosure, contradicting Standing determinations in Doc_07 §9/§12 item 7 and Doc_08 §11 item 7) confirmed and fixed directly, with the correction's own two-state history kept visible rather than smoothed away (Section 3 below); a second proposed finding (a citation possibly misattributed) was independently re-verified directly against the vendored primary source and found NOT to be an error — checked and not applied, per this project's "a blocking finding needs independent re-confirmation" rule, run here in both directions."
+  Now says: "**Status: APPROVED TO PROCEED.** Built per ...v2.2, from the nine approved construction documents and the World Profile ..., and from the Representative Identity Decision (`witt_Representative_Identity_Decision.md`). Companion to ... The 1543 disclosure stays with the Facilitator, per the Standing determinations in Doc_07 §9/§12 item 7 and Doc_08 §11 item 7; Section 3 below records the boundary calibration."
+- Line 390 (REWRITE, marks-word + iso-date). Removed: "2026-09-19 (Mark's own word: "Confirm as drafted")". Now: "6. Section 6 Living Tradition Status Confirmation is CONFIRMED, per Constitution Article 29. Confirmed."
+- Lines 45, 63, 111, 119: "Source Registry" added beside R34, R38, R45, R66, R31.
+- Lines 82-89 (table rows R25, R26, R30, R37, R31, R14, R45, R66): first cell now "Registry R25" etc. Rows R2 (line 81) changed the same way for consistency. Header and all other cells unchanged.
+- Not flagged, left as is: lines 13, 139-141, 233, 363, 399 and others still name CO-022, Mark, or the correction history.
+
+#### witt_G0_PreClearance_Note.md
+- Line 9 (change-history-cue "adversarial review"; lines 7-8 were flagged as part of its block). "it does not stand in for Step 0's own independent adversarial review, which has not happened" now "it does not stand in for an independent review of Step 0, which has not happened". "carried forward rather than papered over" now "stated openly rather than papered over". The quotation from Step 0 §6 is unchanged. Lines 7 and 8 needed no edit.
+
+#### Provenance for the Decision-Log (removed from the files)
+- Doc_07 line 21: Construction Framework V7.4 Step 7 text labels the lens spine "M4, adopted 2026-07-27".
+- Doc_07 line 25: M4 change order `Build/reference/method/Pass2-decisions/M4_lens_spine.md`: "Decided by Mark, 2026-07-27: ADOPTED AS STATED"; promotion logged in `S6.1_M_construction_framework_v74_promotion.md`, same date, item 6: "The lens spine per M4 (adopted as stated)". Gallic Doc_07 Round 1 review finding S4 ruled that a build thread may apply CF V7.4 Step 7 directly and must disclose the template's staleness, but may not claim cross-world precedent or assert nothing is open; this document followed that remedy. The drafting brief gave the same reading, verified against the extracted .docx; the brief approves nothing.
+- Doc_07 line 45: error classes S1-S8 came from the Gallic Doc_07 Round 1 review; F1-F6 from the Hieronymian Doc_07 Rounds 1-2.
+- Doc_10 line 5: status self-disposed per CO-022; identity was a G2 escalation-category decision made by Mark Chadwick in conversation; independent review history in `witt_Doc10_Review_Round1.md` (one substantial finding on the 1543 disclosure boundary, confirmed and fixed; a second proposed finding on a possibly misattributed citation re-verified against the primary source and found not to be an error, not applied).
+- Doc_10 line 390: Living Tradition Status Confirmation confirmed 2026-09-19, Mark's own word "Confirm as drafted", per Constitution Article 29.
+- G0 note line 9: wording only ("adversarial review", "carried forward"); no fact removed.
+
+### Residual pass — real provenance and cue vocabulary in the larger documents
+
+#### witt_Doc_02_Source_Ecology.md
+- L135 heading "Doc_01 open item 3, partly closed" -> "Doc_01 item 3, partly closed" (class b).
+- L141 "Doc_01 open item 3" -> "Doc_01 item 3" (b).
+- L238 "Doc_01 open item 2 (Scandinavian dates) is untouched by this pass and stays open." -> "Doc_01 item 2 (Scandinavian dates) is untouched here and stays open." (b).
+- L261 removed "this session" ("a claim verified this session against..." -> "verified against"); "Doc_01 open item 4" -> "Doc_01 item 4".
+- L306 removed "for the reviewer's convenience" (-> "for convenience") and the comparison ", against the five Doc_01's first draft carried" (change history). Now ends "well over forty tagged claims."
+
+#### witt_Doc_03_Lexicon_Candidate_List.md
+- L732 heading "(dated 2026-09-15)" removed -> "## 12. Coverage limits".
+- L748 "nor listed as an open gap" -> "nor listed as a gap"; "the two further, separately titled pieces R4-2 found" (review finding id) -> "pieces named above".
+
+#### witt_Doc_05_Ecological_Reconstruction.md
+- L19 removed: "which its Round 1 reviewer called 'a real methodological contribution… disclosed as a reading rather than a governance change'". "so a reviewer can check" -> "so completeness ... can be checked". The sentence now ends: reading is the Gallic Doc_05's too, and this document's own reading, not carried on that precedent's authority.
+- L41 removed: "because the Gallic Doc_05's Round 1 found its worst defect (S1) exactly where a Registry row had been reused from Doc_04 without re-reading, and the reuse put an image on the wrong subject inside the inhabited layer". Now states the reason in present tense (a Registry row reused from Doc_04 without re-reading can put an image on the wrong subject; error class S1, Discipline 11). "this pass" wording removed.
+- L49 removed: "the Gallic reviewer's S5" attribution -> "the error class is S5 of Discipline 11"; "(a fourth ... was cut as ...)" -> "(a fourth ... is not included: Doc_02 §14 bars parish-practice reconstruction)"; "read this pass" -> "read for this document".
+- L53 "flagged open items" -> "flagged items"; "has now been read" -> "has been read". (The cue was Doc_04's own item vocabulary.)
+- L59 removed: "Gallic Round 1", "Gallic Round 2", "HAL Round 1", "Doc_04 §0 treated the Gallic Doc_04's review findings...", "the Gallic Doc_05's two reviews and the Hieronymian Doc_05's two", "so a later reviewer can hunt". Now a present-tense checklist of the same error classes (S1-S10, R1-R3, Hieronymian S1-S3, M1, M3), grouped "Gallic, first set / second set / Hieronymian".
+- L288 "Doc_01 open item 3" -> "Doc_01 item 3".
+- L292 removed: "The draft of this document carried a fourth inhabited passage here...", "Independent review held that...", "The passage is cut, not rebuilt.", "are both corrected to match", and the parenthetical "(§12's own entry for the draft is left as the historical record of the draft it describes and of what it asked its first reviewer to check — it is not itself corrected, and should not be.)". Now: "This document contains three inhabited passages and reconstructs no parish scene anywhere", with the reasons the fourth passage cannot be written (Doc_02 §14 bar; Walter's testimony in a congregant's mouth; six dates composited), all facts and dates kept.
+
+#### witt_Doc_06_Full_Lexicon_Development.md
+- L17 "open items (§11)" -> "items left open (§11)" (b). L21 "has not yet been applied" -> "was not yet applied" (b). L1613 "the Open Gaps tracker" -> "the gaps tracker" (b).
+- L37 removed: "From the Gallic Doc_06 Round 1 review and Round 2 spot-check", "From the Hieronymian Doc_06 Rounds 1–2", "from the sibling Doc_06 reviews", "so a reviewer can hunt". Now "Gallic Doc_06:" / "Hieronymian Doc_06:" with the same error classes.
+
+#### witt_Doc_08_Forces_Document.md
+- L23 "a reviewer may hold that" -> "one reading holds that" (b).
+- L25 removed: "OG-10 and OG-11 record a reviewer catching an enumeration transcribed from a prior document's prose rather than re-derived from source; OG-8 records the adjacent but distinct pattern this document's own §3.0 table and §3.7 index turned out to repeat — a claim that a check was run, made before it actually was, caught only at independent review." Replaced by the two error patterns stated plainly. Also "re-read this pass" -> "is re-read"; "Three differences were found" -> "There are three differences"; "corrected here to Cell 2A" -> "placed here in Cell 2A". (OG-8/10/11 pointers should be in the gaps tracker; the lead may confirm.)
+- L301 "a reviewer may fold this entry" -> "this entry may instead fold" (b). L579 "an external reviewer may hold" -> "one reading holds" (b). L675 "so the reviewer can check the claim rather than take it" -> "so the claim can be checked rather than taken" (b). L716 "the Open Gaps tracker" -> "the gaps tracker" (b).
+
+#### witt_Doc_09_Story_Inventory.md
+- L19 removed: heading "corrected this revision"; "read directly at Doc_07's drafting"; "Mark decides" and "also Mark-only"; "This document's first drafting pass stated that the World Profile is a structural prerequisite drafted 'alongside this document, under the same build thread' as a parallel peer — that overstated what the World Profile Template itself says, and that is corrected here."; "**What actually happened in this build thread:** the World Profile was drafted by a separate agent concurrently with this document's own research and drafting, and this document's own §0 'Built from' list, correctly, does not include..."; "a later reviewer or the coach thread should treat ... and should confirm". Now plain statements: the World Profile is not a parallel peer; §0 does not list it; "'Doc_09 was built from the World Profile's own ecological synthesis' is false". The deviation from the template's sequencing is still disclosed.
+- ROUTE-type content (pending decisions) kept as neutral cross-reference, original sentence for the lead to log: "Those require Mark's own decisions (Representative identity is not yet made; Article 29's Living Tradition confirmation is a named decision in the World Profile's own §9, left PENDING there) and belong to this build's task-list items #9 and #13." Now: "Those need decisions outside this document (Representative identity; Article 29's Living Tradition confirmation, a named decision in the World Profile's own §9) and belong to this build's task-list items #9 and #13." Suggested tracker entry: Representative identity undecided; Article 29 Living Tradition confirmation PENDING. Superseded: both decisions have since been made (Doc_10 cites the Representative Identity Decision, and Doc_10 line 390 records Article 29 as CONFIRMED), so no tracker entry is filed for them.
+- L21 removed: heading "with its completeness claim corrected this revision"; "surfaced by the review"; "(this document's first drafting pass found them within its own stated search scope but did not disclose or dispose of them, which the review correctly named as an overclaim)"; "verified again at this pass"; "(finding C7)"; "now actually checked"; "it has now been read". "same open item" -> "same item".
+
+#### witt_Source_Registry.md
+- R35 (L51) removed: "the open item Doc_02 §16 item 6 carried for it is struck"; "Tier raised from B to A" -> "Tier A for the passages read, the treatment Registry R34 also has"; provenance cell "; heading re-read 2026-09-15 (Revision 1)".
+- R55 (L71) removed: "this session" (x2); "(correcting Revision 3's own overreach on this exact point)"; the whole "**Revision history, disclosed rather than silently corrected:** Revision 0 excluded the whole corpus using two different tests for the two women; Revision 1 tried one test but the 1524 pieces fell into neither of its stated branches; Revision 2 split this row into a Native R55 (1524 pieces) and an Excluded R95 (later material), asserting rather than demonstrating the split; Revision 3 reverted the split but rewrote the Excluded branch into an undisclosed default and misattributed the change to Round 3; this revision states the actual basis honestly ... and fixes R54 to state the identical test."; "**Flagged as the judgment call in this document most deserving a second look, alongside R54 —**" (kept as "This row and R54 both rest on unread evidence and should be revisited together if either corpus is ever read."); "re-verified" -> "verified". "Doc_01 open item 4" -> "Doc_01 item 4". Replaced by "**Basis:** a conservative default on an evidentiary gap..." plus the R95 pointer.
+- R56 (L72) removed: "Revision 0's marker mis-licensed it", "this session", "(re-run at Revision 1)"; "logged" -> "is listed at"; "Doc_01 open item 1" -> "Doc_01 item 1".
+- R83 (L99) removed: "this session (2026-09-15) and re-fetched at Revision 1", "now ... instead of 'the reference article'".
+- R94 (L110) removed: "and Revision 0 had no equivalent"; provenance cell "Doc_02 Round 1 review (S8); ... (Revision 1)"; Added cell ", Revision 1" (date kept).
+- Rows bullet (L119) removed: "(1–88 added 2026-09-15 in the Doc_02 pass; 89–94 appended 2026-09-15 at Revision 1; 95 appended 2026-09-15 at Revision 2, splitting Registry R55, then marked superseded at Revision 3 when the split was reverted)"; "at Revision 4, the first pass to actually count columns rather than run only the four field-presence checks below" -> "checked by script, which counts columns as well as running the four field-presence checks below".
+
+### Open items removed
+
+The open points removed from Step 0 (line 74) and from Doc_07 (lines 17 and 25) are filed as OG-92, OG-93 and OG-94 in `Build/worlds/witt/Open_Gaps_Tracking.md`.
+
+### Corrections after the first Opus reviews of CL4
+
+- Source Registry labels redone. The first labeling skipped single-digit row ids (R1 to R9), so on about 60 lines the label sat on a later id, ranges were split ("R3-Registry R13"), and two quotations stopped matching their sources. The labels were then corrected in the same pull request: the word "Registry" goes before the first row id of any digit count; a finding id such as R4-2 is never labeled; a quotation is never altered, so where the only id on a line sat inside a quotation, the clarifying phrase went outside it (Doc_06 line 29 "a Registry row"; Doc_08 line 215 "the bracketed ids are Source Registry rows"). Doc_08 lines 211 and 269 quote Doc_06 and Doc_04 and now match those documents' current wording, including the label.
+- `witt_Doc_10` line 5: "Nikolaus states that the 1543 treatise exists, and its argument stays with the Facilitator", which is the boundary Section 3 records. The first rewrite said the whole disclosure stays with the Facilitator.
+- `witt_Doc_09` line 19: the sequencing deviation names what the deviation is ("the World Profile was not complete before this document was drafted").
+- `witt_Doc_07` line 25: the basis for treating V7.4 as governing now names its source: the M4 change order, and the promotion recorded in `S6.1_M_construction_framework_v74_promotion.md`.
+- `witt_Doc_08` lines 23 and 579: "a reviewer may hold" is now "it may be argued" and "a specialist may judge", which keeps an expected objection from reading as an asserted position.
+- `witt_Doc_05` line 292: the fourth inhabited passage is stated as drafted and cut, with the record kept at section 12, so the paragraph agrees with sections 10C and 12.
+
+### Corrections after the second Opus review of CL4
+
+- `witt_Source_Registry.md` line 122: the label moves to the first id (R1). Line 124 loses revision-history phrases: "recomputed at Revision 3, correcting an earlier arithmetic error that summed the same set to 17" (the set is 14 rows) and ", as of Revision 5 - corrected from a stale "Revision 3" reference" after "Zell's whole corpus".
+- `witt_Doc_07` line 25 now cites both records of the basis: the M4 order (`M4_lens_spine.md`) and the Framework's promotion (`S6.1_M_construction_framework_v74_promotion.md`). This supersedes the earlier rewrite quoted in the residual section above.
+- `witt_Doc_08` line 744: the quotation of Doc_04's G13 notation carries the same "Registry" label as its source.
+- `witt_Doc_05` line 292: "what it asked its first reviewer to check" reads "what it asked its first independent read to check".
+- `tools/tests/test_check_live_commentary.py`: the two sample rows that pointed at witt lines now clean (Doc_06 line 1524, Doc_04 line 569) are replaced by `ijc_World_Profile.md` line 227 and `CiC_W3_Phase6_Facilitation_Brief_DRAFT.md` line 72. Three rows sample the cleanup's remaining work; refresh them as CL6 and CL7 clean those worlds.
+
+## Entry — CL2 follow-on (RD1b), the ten force fields that failed readability (2026-11-03)
+
+These are the ten fields Entry CL2 left blocked. Each `description` is rewritten so it passes the readability gate (FK grade 10 or below, FRE 60 or above). Every claim and every confidence statement is kept, and nothing is added. The world's own terms are kept (pleonexia, philoptōchia, hēsychia, paideia, Homoian, encomium, anthropomorphite, predestination and election). The build-document provenance moves here. Each record's `matrix_cell` and `kind` still carry the cell.
+
+- **Labels replaced in all seven cappadocian records.** "WORLD'S OWN EXPERIENCE (Layer 2)" now reads "In the world's own experience". "FORMATION IMPACT (Layer 3)" now reads "For formation". Gravity numbers ("Primary 1/Gravity 1", "Primary 2/Gravity 2", "Primary 3/Gravity 3", "Supporting 7/Gravity 7", "Tensional 8/Gravity 8", "Tensional 9/Gravity 9") are replaced by each gravity's own name: the Triune confession, the ascetic reordering of life, the contested church under the contested empire, the bishop as public patron, hēsychia against the summons, precision against reserve.
+- `cappadocian.force.capitals-gravity`: removed "(Doc_08 Cell 3A, Force 3A-2 …)", "per Doc_08 §7's own Confidence Assessment bucket" and "Doc_02 §8's after-life". The confidence statement stays in words: the trajectory is documented, the synthesis is widely accepted, and the judgment itself is the dominant modern reconstruction.
+- `cappadocian.force.famine-crisis`: removed "(Doc_08 Cell 2A, Force 2A-2)" and "Doc_06 §24".
+- `cappadocian.force.imperial-church-arrival`: removed "(Doc_08 Cell 1A, Force 1A-1)" and "(Doc_07 2C)". "Reported-Experience Status applies" now reads "it is given as the world's own understanding, not checked as history", which is how the method defines that status.
+- `cappadocian.force.network-strains`: removed "(Doc_08 Cell 2B, Force 2B-3)".
+- `cappadocian.force.plateau-itself`: removed "(Doc_08 Cell 1A, Force 1A-3 …)"; the confidence statement stays in words.
+- `cappadocian.force.policy-oscillation`: removed "(Doc_08 Cell 2A, Force 2A-1 …)", "(Doc_06 §39)" and "(Doc_07 2B temporal assumptions)". The confidence statement stays in words.
+- `cappadocian.force.theodosian-settlement`: removed "(Doc_08 Cell 3A, Force 3A-1)", "(the honest edge of Doc_05 §8)", and the cross-build note "mirroring the pattern the Early Latin build found from the opposite direction". That note compares builds and makes no claim about this world.
+- `desert.force.origenist-controversy`: the name loses "[3A - ending/external]", and "Strand C" becomes "the semi-anchoritic strand", following the evagrian precedent in Entry CL2. The description is rewritten for reading level. Its `divergence_note` still cites "Doc_01 SS2.3" and is not changed here.
+- `rzg.force.no-internal-fracture`: rewritten for reading level. "this document's own knowledge" now reads "what is known".
+- `rzg.force.transmission-author-gravity-genre-asymmetries`: rewritten for reading level. Its claim that G1's split is only about survival is corrected to match Doc_04 §3.1 and the Second Helvetic Confession; the record keeps the meaning that G1's split is between its core conviction and its systematized form. Logged in rzg Open_Gaps_Tracking, entry 83.
+
+The `m1:readability` waivers drop with the findings these fields cleared: cappadocian 195 → 181, desert 114 → 112, rzg 82 → 78.
 
 ## Entry — CL5, Build/worlds/don and cappadocian (2026-11-03)
 
@@ -2382,7 +2514,7 @@ Source_Registry row 55 (L66): "found via direct archive.org search this session 
 - Line 46: F17 sentence removed (quoted above). F11, F12, F13, F19 still describe owed or carried items in plain prose but were not flagged; left unchanged.
 
 ### cappadocian_Doc_06_Full_Lexicon.md
-- Line 196 now reads: "...its front matter was cross-checked against this document: lex001 and lex002 match; lex003 (koinōnia) does not (see `Open_Gaps_Tracking.md` OG-15)." and "...(prefix `cappadocian-` omitted for width). Those ids are the designated ancestors of the Doc_02 Source Registry rows." Removed: "because the Doc_02 rework into V7.4 Source Registry rows is still pending"; filed as cappadocian OG-59.
+- Line 196 now reads: "...its front matter was cross-checked against this document: lex001 and lex002 match; lex003 (koinōnia) does not (see `Open_Gaps_Tracking.md` OG-15)." and "...(prefix `cappadocian-` omitted for width). Those ids are the designated ancestors of the Doc_02 Source Registry rows." Removed: "because the Doc_02 rework into V7.4 Source Registry rows is still pending"; filed as cappadocian OG-60.
 
 ### cappadocian_Representative_Identity_Options.md
 - Line 36: see ROUTE item 3.
@@ -2406,7 +2538,7 @@ Source_Registry row 55 (L66): "found via direct archive.org search this session 
 
 ### Open items filed
 
-The open clauses removed or reworded in the don construction documents and the cappadocian documents are filed as OG-58 in `Build/worlds/don/Open_Gaps_Tracking.md` and OG-59 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`.
+The open clauses removed or reworded in the don construction documents and the cappadocian documents are filed as OG-58 in `Build/worlds/don/Open_Gaps_Tracking.md` and OG-60 in `Build/worlds/cappadocian/Open_Gaps_Tracking.md`.
 
 ### Corrections after the Opus review of CL5
 
@@ -2417,5 +2549,5 @@ The open clauses removed or reworded in the don construction documents and the c
 
 ### Corrections after the Opus review of the cappadocian files (CL5)
 
-- `Cappadocian_Final_Report.md` line 46: "Ten findings" stays true with F17 removed from the list because the line now says F17 is tracked at OG-59.
+- `Cappadocian_Final_Report.md` line 46: "Ten findings" stays true with F17 removed from the list because the line now says F17 is tracked at OG-60.
 - `cappadocian_Doc_06_Full_Lexicon.md` line 196: the lex003 front-matter mismatch (OG-15) is stated again; it was dropped with the pending-rework clause.

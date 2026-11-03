@@ -16,9 +16,12 @@ sources:
 - source_id: desert.source.socrates-historia-ecclesiastica
   locus: "the Book VI Theophilus sequence - the anthropomorphite affair, the Tall Brothers, and the Origenist expulsion reaching Constantinople"
   license: public-domain
-name: "Episcopal and conciliar intervention in the First Origenist Controversy (399-400), scattering Strand C's intellectual leadership [3A - ending/external]"
+name: "Episcopal and conciliar intervention in the First Origenist Controversy (399-400), scattering the semi-anchoritic strand's intellectual leadership"
 kind: ending
-description: "Theophilus of Alexandria's Festal Letter of 399 initially attacked anthropomorphite literalism, then reversed course into an anti-Origenist campaign; a council at Alexandria in 400 condemned Origen and his monastic followers, and the Tall Brothers and other Origenist ascetics were expelled from Egypt that year. No first-person account survives of how Strand C's own participants experienced this rupture - Evagrius himself died in January 399, before the controversy fully broke, meaning the systematizer of this force's own target vocabulary never directly witnessed the controversy that would later scatter his intellectual circle."
+description: |-
+  Theophilus was bishop of Alexandria. In his Festal Letter of 399 he first attacked the reading of God as having a human form. It was held by monks called anthropomorphites. Then he turned the other way and began a campaign against those who followed Origen. In 400 a council at Alexandria condemned Origen and his monk followers. That same year the Tall Brothers and other Origenist monks were driven out of Egypt.
+
+  No first-hand account survives from anyone in the semi-anchoritic strand of how they lived through this break. Evagrius himself died in January 399, before the fight fully broke out. He was the one who had set in order the words this force struck at. So he never saw the fight that later scattered his circle of thinkers.
 matrix_cell: 3A
 manifestations:
 - "Theophilus's own 399-to-400 reversal, from an anti-anthropomorphite to an anti-Origenist campaign"

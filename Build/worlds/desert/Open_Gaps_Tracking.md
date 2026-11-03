@@ -1030,3 +1030,9 @@ The `quote-locus` gate found that the text of `desert.quote.arsenius-flee-tace-q
 Still open: the record's divergence_note says the three-word form is a feature of the Latin transmission. The Greek alphabetical collection (Arsenius 2) also has a three-verb form, φεῦγε, σιώπα, ἡσύχαζε, so the note may be too narrow. Whether the Greek collection is vendored has not been checked. This pass did not change the note. Owner: desert's own build thread.
 
 Status: locus CLOSED; divergence_note OPEN.
+
+### OG-44. Origenist-controversy force rewritten to the reading level, provenance moved out, 2026-11-03.
+
+`desert.force.origenist-controversy` had a name carrying the cell code "[3A - ending/external]" and "Strand C". Its description failed the readability gate (FK 26). The name now reads "… scattering the semi-anchoritic strand's intellectual leadership". The description is rewritten to FK 10 or below and FRE 60 or above, with every claim kept and nothing added. It still says that no first-hand account from the strand survives. An independent Opus review compared old and new meaning line by line. It found one P1, where "left no account" had replaced "no account survives", and one P2; both are fixed and a second Opus read confirmed them. `m1:readability/desert` waiver 114 → 112. The record's `divergence_note` still cites "Doc_01 SS2.3" and is not changed here.
+
+Status: CLOSED for the name and description; the divergence_note citation is OPEN.

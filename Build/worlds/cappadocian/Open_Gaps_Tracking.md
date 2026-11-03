@@ -1014,7 +1014,15 @@ Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-40-06Z`. Th
 
 Status: OPEN for the four rows, the quotation candidates and the registry rows. CLOSED for the 12 updated source records and OG-57.
 
-### OG-59. Open points removed from cappadocian documents by the live-surface cleanup, 2026-11-03.
+### OG-59. Seven force descriptions rewritten to the reading level, provenance moved out, 2026-11-03.
+
+The descriptions of `capitals-gravity`, `famine-crisis`, `imperial-church-arrival`, `network-strains`, `plateau-itself`, `policy-oscillation` and `theodosian-settlement` carried Doc_08 cell and force numbers, Doc_02/05/06/07 section citations, "Layer 2/3" labels and gravity numbers. They also failed the readability gate, at FK 14 to 21. Each description is rewritten to FK 10 or below and FRE 60 or above. Every claim and confidence statement is kept, nothing is added, and the world's own terms (pleonexia, philoptōchia, hēsychia, paideia, Homoian, encomium, doxology, confessor) are kept. Gravity numbers are replaced by the gravities' own names. What was removed is listed in the Live-Surface-Cleanup Decision-Log (entry "CL2 follow-on (RD1b)"). An independent Opus review compared old and new meaning line by line and found six P2 points; all are fixed, and a second Opus read confirmed the fixes. `m1:readability/cappadocian` waiver 195 → 181. Package rebuilt and re-pinned.
+
+Noted and not changed: `policy-oscillation`'s relations do not include `cappadocian.gravity.paideia-converted`, although Doc_08 §5 ties this force to that gravity's crisis (Julian's school edict).
+
+Status: CLOSED for the seven descriptions; the relation gap is OPEN for cappadocian's own build thread.
+
+### OG-60. Open points removed from cappadocian documents by the live-surface cleanup, 2026-11-03.
 
 1. `Cappadocian_Final_Report.md`, line 46, finding F17, removed from the line (the rest stays): "the female-voice decision flagged for the project lead with a sharper edge than Early Latin's - this world is currently the best-evidenced site in the world-set for a future female-anchored voice."
 2. `cappadocian_Doc_06_Full_Lexicon.md`, line 196, removed: "the Doc_02 rework into V7.4 Source Registry rows is still pending" (those ids are the registry rows' designated ancestors). The lex003 (koinonia) front-matter mismatch, tracked at OG-15 above, stays stated in the line.

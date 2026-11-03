@@ -60,6 +60,13 @@ def test_interleave_takes_the_records_and_the_passages_in_turn_and_drops_a_repea
     assert [c["id"] for c in po.interleave([], passages[:1])] == ["p1"]
 
 
+def test_the_offer_seam_returns_the_interleaved_list():
+    records = [{"id": "r1"}, {"id": "r2"}]
+    passages = [{"id": "p1"}, {"id": "r2"}, {"id": "p3"}]
+    assert po.offer_contents(records, passages) == po.interleave(records, passages)
+    assert po.offer_contents(records, []) == records
+
+
 def test_a_passage_is_cited_under_an_id_the_citation_grammar_reads():
     from engine.m4.grounding_net import _TAG
     from engine.m4.reports.passage_offer_build import tag_for
