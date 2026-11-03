@@ -264,6 +264,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -364,6 +377,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -397,6 +421,18 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -430,6 +466,19 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic-website/audio/
+            /cic-website/audio/cards/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio ':!cic-website/audio/cards' | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -598,6 +647,18 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -652,6 +713,18 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -677,6 +750,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -699,6 +785,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -773,6 +872,19 @@ jobs:
         working-directory: cic-poc/frontend
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -803,6 +915,19 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
