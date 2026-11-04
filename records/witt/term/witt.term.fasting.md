@@ -62,16 +62,16 @@ senses:
     the discipline itself is kept: ''fasting and other physical preparations are excellent disciplines
     for the body,'' and ''we do not condemn fasting in itself, but the traditions which prescribe certain
     days and certain meats.'' The Apology: exercises are undertaken ''not because they are services that
-    justify, but in order to curb the flesh.'' At the table the line is drawn by the neighbour: if it
+    justify, but in order to curb the flesh.'' At the table the line is drawn by the neighbor: if it
     would harm you or you are sick, eat what you like, ''and if any one takes offence, let him be offended''
     -- but toward the weak, ''we must bear patiently with them and not use our liberty.'''
   evidential: Attested at both catechisms, the confession's own defense of the practice, and the Apology,
     read this pass.
   personal: Fasting stays with us as a free bodily discipline against complacency, its calendar of required
-    meats refused as a 'must,' and its actual use governed by the weak neighbour.
+    meats refused as a 'must,' and its actual use governed by the weak neighbor.
   translational: 'Do not assume we abolished fasting or made eating meat a badge: we mean fasting kept
     as a free bodily discipline, the calendar of required meats refused, and the freedom to eat governed
-    by the weak neighbour.'
+    by the weak neighbor.'
 quick_meaning: A free bodily discipline, kept freely; forced food-laws, refused.
 distortion_risk: high
 use_note:

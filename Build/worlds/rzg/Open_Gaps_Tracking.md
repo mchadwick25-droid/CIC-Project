@@ -443,3 +443,7 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
    (e) World Profile line 499, clause: "— a genuine open item for the project lead's own weighing, not resolved or dismissed here." The line now says the weighing belongs to the project lead.
 
    Status: OPEN. Owner: rzg's own build thread, with the project lead for (c) to (e).
+
+86. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 6 rzg renderings with no named Opus review file. An independent Opus reviewer read all six against each record's `text` and the edition text in `cic/texts/` at its locus. All six pass. Per-record log: `Review-Artifacts/Rendering_Review_Log_6_2026-11-03.md`. The `m1:rendering-review/rzg` waiver is removed; the gate reports 0 for rzg (6 → 0). Noted: in `rzg.quote.christ-the-mirror-of-election` the "[our]" is the record's own marked correction of the scan's "onr" (line 684), not an editor's insertion.
+
+   Status: CLOSED.

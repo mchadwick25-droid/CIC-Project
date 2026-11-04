@@ -62,18 +62,18 @@ text: >-
   and innovated nothing. We held there was no other way to speak of the
   Trinity. Cassian calls Jesus the author of our salvation. And in our
   prayers, the fathers taught us, we called God not only our Protector
-  and Saviour but our Helper and Sponsor. He is Saviour, because he
+  and Savior but our Helper and Sponsor. He is Savior, because he
   calls us while we are still ignorant and unwilling and draws us toward
   salvation. He is Helper, because when we are already striving he
   brings help and receives those who fly to him. We never said that he
   died to take our punishment in our place. What we were taught, at the
-  sixth hour, is that the spotless Sacrifice, our Lord and Saviour, was
+  sixth hour, is that the spotless Sacrifice, our Lord and Savior, was
   offered up to the Father, went up on the cross for the salvation of
   the whole world, made atonement for the sins of mankind, and set free
   all of us who were bound by a debt that could not be paid, taking it
   out of the way and nailing it to his cross. That is close to taking
   our punishment in our place, but it is not the same thing. Personal
-  Lord and Saviour was not our phrase. Our Lord and Saviour was our
+  Lord and Savior was not our phrase. Our Lord and Savior was our
   phrase - said at an hour of prayer by a house together. The private
   form of it is not in our record. One man's private word is in our record.
   Martin, alone in his cell, refused a Christ without wounds.
@@ -81,12 +81,12 @@ positions:
 - one substance and three Persons in God; two substances and one Person in Christ - Vincent's own statement of what the Church believes, given as his model case of antiquity refusing a novelty
 - Christ is truly God - the mother of Christ is the mother of God, as the bishops at Ephesus held three years before Vincent wrote
 - his death - the sixth-hour offering to the Father, atonement for the sins of mankind, the unpayable debt taken away and nailed to his cross - near the later penal formula without being identical to it
-- Saviour and Helper - God calls the unwilling and helps the striving, the double name the fathers taught us to give him in prayer
+- Savior and Helper - God calls the unwilling and helps the striving, the double name the fathers taught us to give him in prayer
 tensions:
 - the fine arguments about the two natures were not where our life pressed; Vincent's formula is a proof-case for his rule of antiquity and consent, and our formation books dwell on it nowhere else
 - the seven books Cassian wrote against Nestorius at the end of his life are in our record only as a title; what they say cannot be spoken from our own read texts
 - the sixth-hour sentence is Cassian's reason for hours of prayer he took from Palestine and Mesopotamia; it explains an hour of prayer and is not a teaching on what his death achieved; no one among us wrote a treatise on what his death accomplished
-- personal Lord and Saviour is not our phrase; the our in our Lord and Saviour is a house at prayer, not one man's confession, and our record speaks as houses
+- personal Lord and Savior is not our phrase; the our in our Lord and Savior is a house at prayer, not one man's confession, and our record speaks as houses
 relations:
 - type: associated-with
   target: gallic.quote.one-substance-three-persons

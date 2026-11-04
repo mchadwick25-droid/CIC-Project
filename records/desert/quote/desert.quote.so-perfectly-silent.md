@@ -32,14 +32,13 @@ text: "When, then, they meet together to celebrate the aforementioned rites, whi
   there is no spitting, no clearing of the throat, or noise of coughing, no sleepy yawning with open
   mouths, and gaping, and no groans or sighs are uttered, likely to distract those standing near."
 modern_rendering: >-
-  They met to celebrate their rites, which they called synaxes. Though a
-  large number of the brethren were gathered, they stayed so perfectly
-  silent that you would have thought no one was there, except the one
-  person standing to chant the psalm in the midst. This was true most of
-  all during prayer. There was no spitting, no clearing of the throat,
-  and no coughing. There was no sleepy yawning with open mouths and
-  gaping. No groans or sighs were uttered, of the kind likely to distract
-  those standing near.
+  When, then, they meet together to celebrate the rites described above, which they call synaxes, a
+  great many of the brethren are assembled. Yet they are all so perfectly silent that you would not
+  think a single person was present. The only exception is the one who stands up and chants the
+  psalm in their midst. This is especially so when the prayer is offered up. For then there is no
+  spitting, no clearing of the throat, and no noise of coughing. There is no sleepy yawning with
+  open mouths and gaping. And no groans or sighs are uttered that are likely to distract those
+  standing near.
 speaker_or_author: John Cassian, describing Egyptian monastic prayer gatherings
 license: verbatim
 modern_lens_note: >-

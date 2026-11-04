@@ -79,7 +79,7 @@ relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
 use_note:
-  means: "Cassian records Germanus arguing that effort earns its fruit and Chaeremon answering that a husbandman's labour still needs rain and calm weather from God."
+  means: "Cassian records Germanus arguing that effort earns its fruit and Chaeremon answering that a husbandman's labor still needs rain and calm weather from God."
   not_for:
     - "a settled semi-Pelagian position, when its meaning is contested"
     - "the night's scruple that prompted the question, which sits in gallic.quote.germanus-troubled-after-the-nights-teaching"

@@ -22,7 +22,7 @@ sources:
     temptation it answers is stated at line 47186'
   license: public-domain
 text: >-
-  When one came as I said to the aforesaid old man, and said that the anchorite system was not at all
+  When one came as I said to the aforesaid old man, and said that the Anchorite system was not at all
   to be admired, declaring that it required greater virtue for a man to practise what belongs to
   perfection living among men rather than in the desert, the blessed Antony asked where he lived
   himself, and when he said that he lived close to his relations, and boasted that by their provision
@@ -33,16 +33,17 @@ text: >-
   should know," said he, "that in the world to come also you will be judged in the lot of those with
   whom in this life you have been affected by sharing in their gain or loss, or joy or sorrow."
 modern_rendering: >-
-  As I said, a man came to the elder I mentioned. He said the hermit's way of life deserved no
-  admiration at all. He claimed it took greater virtue to live a life of perfection among other
-  people than in the desert. Blessed Antony asked him where he himself lived. The man said he
-  lived close to his relatives. He boasted that their support freed him from all the care and
-  worry of daily work. He said he gave himself only to reading and prayer, without ceasing and
-  without any distraction of spirit. Blessed Antony asked again: "Tell me, my good friend -- do
-  you grieve over their griefs and misfortunes? Do you rejoice in the same way over their good
-  fortune?" The man admitted he shared in both. The elder said to him: "You should know this: in
-  the world to come, you will also be judged along with those whose gains and losses, joys and
-  sorrows, have affected you in this life."
+  As I said, a man came to the old man I mentioned. He said that the anchorite life, the life of the
+  hermit, deserved no admiration at all. He declared that it took greater virtue to practice the way
+  of perfection while living among other people than in the desert. Blessed Antony asked where he
+  himself lived. The man said that he lived close to his relatives. He boasted that, because they
+  provided for him, he was free from all the care and worry of daily work. He gave himself, he said,
+  to reading and prayer alone, without ceasing and without any distraction of spirit. Once more
+  blessed Antony spoke: "Tell me, my good friend, do you grieve with them in their griefs and
+  misfortunes? And in the same way, do you rejoice in their good fortune?" The man admitted that he
+  shared in both. The old man said to him, "You should know this. In the world to come, too, you
+  will be judged as sharing the lot of those people. In this life you have been moved along with
+  them, sharing in their gain or loss, their joy or sorrow."
 speaker_or_author: Antony, as Abbot Abraham told it and Cassian wrote it down
 license: verbatim
 modern_lens_note: >-

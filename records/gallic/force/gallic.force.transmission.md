@@ -16,7 +16,7 @@ confidence:
     volume (Gibson's prolegomena iv.i.ii on Gazet and Dionysius; the 'Not translated'/'omitted'
     markers at Conf. XII, XXII, Inst. VI; Roberts's editorial lineage; Heurtley's Appendices;
     Richardson's endnotes; npnf101's declared letters policy); Widely Accepted for Gennadius's
-    catalogue (chs. XIX, LXII, LXV, LXX). Transmission-as-experienced is thinner in the sources than
+    catalog (chs. XIX, LXII, LXV, LXX). Transmission-as-experienced is thinner in the sources than
     transmission-as-observed: Reported-Experience Status applies to the whole of Layer 2, with one
     disclosed analyst's-frame sentence at its edge (Doc_08 §8). The Rule of Benedict (row 36) is
     downstream-influence citation only and not quoted. Gennadius's 'two divisions' against the
@@ -95,8 +95,8 @@ description: >-
 
   Two later hands shaped most of what can be known. One was a later editor working on the grace
   teaching. The other was a later translator who left out the texts on the body. Neither touched the
-  saint's power, the office or the rule of faith. Transmission favoured the Institutes and
-  Conferences as a program that could travel. It favoured the Vita and Dialogues as the foundation
+  saint's power, the office or the rule of faith. Transmission favored the Institutes and
+  Conferences as a program that could travel. It favored the Vita and Dialogues as the foundation
   of a cult, and the Commonitory as a rule that could be quoted. It carried thin, or cut, the grace
   teaching in its own conference, and chastity and the body. It did the same to the reports on
   Marseilles in the reporters' own words, the Latin of the Lérins writers, and the women's houses.
@@ -105,7 +105,7 @@ description: >-
 manifestations:
 - "The young copyists at Marmoutier - transcription 'the one craft' (Vita X); the Vita as its product"
 - "Cassian's books built for the teacher's absence - 'those who perhaps may meet only with this book' (Inst. II.9); received 'into their cells' (Conf. Pref. III)"
-- "Vincent's remembrancer against forgetting, its second book stolen (Comm. ch. 1 [3]; Gennadius LXV); Gennadius's catalogue at Marseilles c. 495"
+- "Vincent's remembrancer against forgetting, its second book stolen (Comm. ch. 1 [3]; Gennadius LXV); Gennadius's catalog at Marseilles c. 495"
 - "Dionysius Carthusianus cutting Conf. XIII 'to make Cassian orthodox'; Gazet omitting Inst. I.10-11 (Gibson, editorial)"
 - "Gibson's own 'Not translated' / 'omitted' at Conf. XII, XXII, and Inst. VI - the body removed by one hand without stated reason"
 - "npnf101's declared letters policy leaving 221-226 absent; the L\u00e9rins Latin and Faustus unselected by any English editorial project"

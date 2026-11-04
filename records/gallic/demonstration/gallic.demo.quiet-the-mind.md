@@ -37,9 +37,9 @@ exchange:
     keep the wheel fed. The psalms learned by heart and said at the work.
     Twelve psalms at evening and twelve at night, received from the fathers,
     so that a man who would otherwise let the whole day pass without prayer
-    is held to it by a rule. Labour in the cell without ceasing, so that the
+    is held to it by a rule. Labor in the cell without ceasing, so that the
     wandering heart, fastened within the barriers of the cell as in a secure
-    harbour, is held still. And a lesson taught early: every itching thought
+    harbor, is held still. And a lesson taught early: every itching thought
     was laid bare to the senior as soon as it rose, before it was acted on.
     A thought we are ashamed to tell is from the devil, and a wrong thought
     loses its strength the moment it is discovered. The fathers knew the
@@ -65,7 +65,7 @@ psalms by heart, meditation on Scripture, labour" are gallic.term.
 thoughts's informational sense; twelve at evening and twelve at night
 and fixed hours for those who "unless we are compelled ... by some rule"
 would pass the day without prayer, and Martin's anvil, are gallic.term.
-unceasing-prayer; labour as the anchor and the wandering heart "fastened
+unceasing-prayer; labor as the anchor and the wandering heart "fastened
 within the barriers of the cell ... in some perfectly secure harbour" are
 gallic.term.cell; "itching thoughts ... lay them bare to the senior," the
 shame test, and "enfeebled at the moment that it is discovered" are

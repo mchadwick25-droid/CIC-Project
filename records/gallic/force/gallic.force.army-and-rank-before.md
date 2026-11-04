@@ -67,13 +67,13 @@ description: >-
   the two divisions of Gaul. He told Caesar that he had served him as a soldier. He asked leave to
   become a soldier of God. He was the soldier of Christ, he said, and it was not lawful for him to
   fight (Vita IV). Vincent came from the manifold and deplorable tempests of secular warfare to cast
-  anchor in the harbour of religion (Comm. ch. 1). Honoratus and his brother, in Hilary's Latin,
+  anchor in the harbor of religion (Comm. ch. 1). Honoratus and his brother, in Hilary's Latin,
   could not reach obscurity because their nobility would not permit it. In the rule Cassian set
   down, the steward keeps a novice's worldly clothes. He keeps them until, by different trials,
   they can recognize the excellence of his progress and life and endurance (Inst. IV.6).
 
   The renunciant did not stop being a soldier; he changed service. He had taken the oath of
-  allegiance to Christ, as he had once taken Caesar's. His dress was armour and his day a campaign.
+  allegiance to Christ, as he had once taken Caesar's. His dress was armor and his day a campaign.
   A fault was a combat, and cooling was desertion. The world he left was kept by the steward against
   the day he might want it back. Rank, too, had to be forced down: nobles had forced themselves down
   to this degree of humility (Vita X).
@@ -85,7 +85,7 @@ description: >-
   Christ.
 manifestations:
 - "Martin's discharge before Caesar - 'allow me now to become a soldier to God' (Vita IV) - the biography's hinge"
-- "Vincent's harbour reached out of 'the tempests of secular warfare' (Comm. ch. 1 [2])"
+- "Vincent's harbor reached out of 'the tempests of secular warfare' (Comm. ch. 1 [2])"
 - "Honoratus's nobility that would not let him reach obscurity (Hilary of Arles, row 27, Inferential/Thin)"
 - "The novice's worldly clothes kept in the steward's cupboard (Inst. IV.6)"
 - "Nobles at Marmoutier who 'had forced themselves down to this degree of humility' (Vita X)"

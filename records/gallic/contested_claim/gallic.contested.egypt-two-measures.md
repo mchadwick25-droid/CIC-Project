@@ -55,7 +55,7 @@ claim: >-
 held_against:
 - >-
   The Egyptian concession in the north is written by the Gaul. "You have conquered, O Gaul ... you have
-  conquered all the eremites and anchorites" is spoken by Postumianus, the traveller just back from
+  conquered all the eremites and anchorites" is spoken by Postumianus, the traveler just back from
   Egypt - but Postumianus is a character in Sulpitius's own Dialogue, and Egypt's judgment of Martin is
   not heard from any Egyptian. The north's fullest statement of the comparison (Dial. I.26) sits in an
   Excluded Registry row and is not used, so the comparative mode rests on one voice at Widely Accepted,

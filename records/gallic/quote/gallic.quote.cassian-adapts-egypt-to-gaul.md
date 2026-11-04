@@ -78,7 +78,7 @@ use_note:
   means: "Cassian states in the Institutes preface that he will follow the ancient rule of Egypt and Palestine over any founder's fancy, adapting only where Gaul's conditions require."
   not_for:
     - "Castor's request for Egyptian institutions, which sits in gallic.quote.castor-anxious-for-egyptian-institutions"
-    - "a licence for Gallic invention, when adaptation draws on other eastern custom"
+    - "a license for Gallic invention, when adaptation draws on other eastern custom"
     - "a description of how Gallic monasteries actually ran"
   years: {from: 415, to: 426}
   status: reviewed
