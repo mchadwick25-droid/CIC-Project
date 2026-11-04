@@ -5,8 +5,8 @@ same way for both arms. No client is built and no model is called.
 For each saved record the turn evidence is rebuilt with the arm's own
 answering core (engine.m3.v7_run.V7Answerer.prepare): arm a as the admission
 run rendered it, arm b with world.frame["reading_context"] set and the reading
-cards and lens notes read from --reading-records-dir. apply_net then runs on
-the saved raw_text with the arguments V7Answerer.answer gives it, and each
+cards and lens notes read from --reading-records-dir. V7Answerer.shape, the
+same apply_net call V7Answerer.answer makes, then runs on the saved raw_text, and each
 sentence in net_result["reply_shape"]["removed"] is one cut.
 
 Each --saved file is either an admission report (--format admission: the
@@ -60,9 +60,7 @@ from engine.m3.v7_run import (
 )
 from engine.m4 import evidence as m4_evidence
 from engine.m4 import grounding_net
-from engine.m4.quote_placement import PlacementContext
 from engine.m4.reading_cards import load_reading_context
-from engine.m4.turn import apply_net
 from engine.m4.world_loader import LazyWorldLoader
 from engine.shape import shape_hash, shape_text
 
@@ -128,18 +126,6 @@ def shares_probe_run(text: str | None, runs: set[tuple[str, ...]], run: int = PR
         return False
     words = _words(text)
     return any(tuple(words[i:i + run]) in runs for i in range(len(words) - run + 1))
-
-
-def replay_net(answerer: V7Answerer, raw_text: str, probe_text: str, turn_evidence: dict) -> tuple[str, list[dict], dict]:
-    """apply_net on raw_text with the arguments V7Answerer.answer passes it."""
-    return apply_net(
-        raw_text, repository_records=answerer.repository_records, thin_topics=answerer.thin_topics,
-        quotable_texts=[probe_text], window_end=(answerer.world.frame.get("time_window") or {}).get("end"),
-        placement=PlacementContext.for_evidence(
-            turn_evidence["candidates"],
-            offered_stories=frozenset(c["id"] for c in turn_evidence["candidates"] if c.get("placeable")),
-        ),
-    )
 
 
 def cuts_with_next(raw_text: str, net_result: dict) -> tuple[list[dict], int]:
@@ -235,7 +221,7 @@ def replay(rows: list[dict], *, arm: str, run: str, packages_root: Path, reading
         for row in world_rows:
             probe_text = sealed_probes.read_probe(row["probe_id"])["text"]
             turn_evidence = answerer.prepare(probe_text)["turn_evidence"]
-            text, citation_entries, net_result = replay_net(answerer, row["raw_text"], probe_text, turn_evidence)
+            text, citation_entries, net_result = answerer.shape(row["raw_text"], probe_text, turn_evidence)
             cuts, shipped_unlocated = cuts_with_next(row["raw_text"], net_result)
             offered = [c["id"] for c in turn_evidence["candidates"]]
             probes.append({

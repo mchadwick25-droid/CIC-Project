@@ -293,6 +293,17 @@ class V7Answerer:
             "evidence_chars": len(block), "evidence_chars_flag_off": len(block_off), "reading_additions": additions,
         }
 
+    def shape(self, raw_text: str, probe_text: str, turn_evidence: dict) -> tuple[str, list[dict], dict]:
+        """apply_net on the voice's draft for this turn's evidence: (text, citation entries, net result)."""
+        return apply_net(
+            raw_text, repository_records=self.repository_records, thin_topics=self.thin_topics,
+            quotable_texts=[probe_text], window_end=(self.world.frame.get("time_window") or {}).get("end"),
+            placement=PlacementContext.for_evidence(
+                turn_evidence["candidates"],
+                offered_stories=frozenset(c["id"] for c in turn_evidence["candidates"] if c.get("placeable")),
+            ),
+        )
+
     def answer(self, probe_text: str) -> dict:
         prepared = self.prepare(probe_text)
         turn_evidence = prepared["turn_evidence"]
@@ -313,14 +324,7 @@ class V7Answerer:
         partial["calls"] = self.client.calls[first_call:]
         if outcome.status != "ok":
             raise VoiceCallFailed(f"voice call failed on all {len(partial['calls'])} attempts: {outcome.status} {outcome.value}", partial)
-        text, citation_entries, _net_result = apply_net(
-            outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics,
-            quotable_texts=[probe_text], window_end=(self.world.frame.get("time_window") or {}).get("end"),
-            placement=PlacementContext.for_evidence(
-                turn_evidence["candidates"],
-                offered_stories=frozenset(c["id"] for c in turn_evidence["candidates"] if c.get("placeable")),
-            ),
-        )
+        text, citation_entries, _net_result = self.shape(outcome.value.text, probe_text, turn_evidence)
         return {
             **partial,
             "text": text,
