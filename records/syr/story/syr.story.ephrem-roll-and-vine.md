@@ -94,7 +94,7 @@ cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 
 THE RECORD IS AS MUCH ABOUT THE ABSENCE AS THE PRESENCE, which is why
 sources[] cites the Greek-based Clarke text too, for what it does not
-have. A Greek reader of Palladius met a competent ascetic who organised
+have. A Greek reader of Palladius met a competent ascetic who organized
 famine relief and left some writings worth studying. A Syriac reader of
 the same chapter met a man the angels selected over every other saint by
 name. The two readerships are the two halves of this world's problem

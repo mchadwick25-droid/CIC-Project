@@ -34,7 +34,7 @@ text: >-
   whom in this life you have been affected by sharing in their gain or loss, or joy or sorrow."
 modern_rendering: >-
   As I said, a man came to the old man I mentioned. He said that the anchorite life, the life of the
-  hermit, deserved no admiration at all. He declared that it took greater virtue to practise the way
+  hermit, deserved no admiration at all. He declared that it took greater virtue to practice the way
   of perfection while living among other people than in the desert. Blessed Antony asked where he
   himself lived. The man said that he lived close to his relatives. He boasted that, because they
   provided for him, he was free from all the care and worry of daily work. He gave himself, he said,

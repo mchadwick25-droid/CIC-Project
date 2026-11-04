@@ -43,17 +43,17 @@ speaker_or_author: Lucian of Samosata, in The Death of Peregrine
 license: verbatim
 modern_lens_note: >-
   "Their officials" is the Fowlers' rendering of a word for the community's own functionaries - a
-  hostile outsider noticing, around 165, that these groups had recognisable officers who could act
+  hostile outsider noticing, around 165, that these groups had recognizable officers who could act
   on the community's behalf and pay for it. "Ancient widows" means aged, not former. What the
-  passage shows a modern reader is not devotion in the abstract but a specific organisational
+  passage shows a modern reader is not devotion in the abstract but a specific organizational
   fact: a prisoner in a Roman gaol was reached, fed, read to and slept beside, and someone was in
   a position to arrange and fund that from daybreak.
 retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what they did for prisoners, widows and orphans"
-  - "participant asks how an unfriendly outsider described their behaviour"
-  - "participant asks how organised they actually were"
+  - "participant asks how an unfriendly outsider described their behavior"
+  - "participant asks how organized they actually were"
 relations:
 - type: illustrates
   target: pahc.gravity.translocal-network

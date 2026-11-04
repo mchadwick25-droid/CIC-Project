@@ -15,7 +15,7 @@ confidence:
   divergence_note: >-
     Ethiopic recension only for this wording. Palladius carries the same exchange in substance and
     desert.story.pachomius-founding has told it in paraphrase from him since the prior build; what
-    is new here is that the words can now be quoted rather than summarised. The angel's speech is
+    is new here is that the words can now be quoted rather than summarized. The angel's speech is
     unmarked by quotation glyphs in the scan at this point - Pachomius' own objection is inside
     quotation marks and the answer is not - so the answer is given here as the text gives it, as
     reported speech running on from "And the angel said to him:".

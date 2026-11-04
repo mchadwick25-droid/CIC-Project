@@ -65,7 +65,7 @@ description: "Letters carried between churches. They hold this world together ac
   voices on both sides, not one shared passage doing double duty. Pressure from the state changed how
   the network was used: Ignatius relied on it precisely because he was under guard. That link is an
   inference from one episode. It also connects, by inference, with the meaning of martyrdom, since
-  stories of martyrs travelled along this same route. No link is shown with boundary-drawing or with
+  stories of martyrs traveled along this same route. No link is shown with boundary-drawing or with
   shared worship.
 
   It does not depend heavily on any single voice. Here the weight given to the pattern and the strength

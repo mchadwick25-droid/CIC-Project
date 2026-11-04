@@ -26,7 +26,7 @@ modern_rendering: >-
   this must be plain before the court of truth. It is Christ himself, and
   no one else, who has displayed trophies and triumphs over death. He has
   stripped death of all its strength. Death was once strong, and for that
-  reason terrible. But now, after the Saviour's stay among us, and after
+  reason terrible. But now, after the Savior's stay among us, and after
   the death and resurrection of his body, death is despised. If so, this
   too must be plain: death has been brought to nothing. It has been
   conquered by the very Christ who went up on the cross.

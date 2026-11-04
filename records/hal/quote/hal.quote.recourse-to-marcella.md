@@ -30,7 +30,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who people went to when they disagreed about a text"
-  - "participant asks whether a woman held any recognised authority"
+  - "participant asks whether a woman held any recognized authority"
 use_note:
   means: "Jerome's 412 memorial of Marcella says that after he left Rome, disputes about the testimony of scripture were brought to her to settle."
   not_for:

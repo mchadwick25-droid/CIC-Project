@@ -29,7 +29,7 @@ modern_lens_note: '''Hospitaller'' most readily calls to a modern ear the later 
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what happened in a famine and who organised relief"
+  - "participant asks what happened in a famine and who organized relief"
   - "participant asks how an outsider described their most famous teacher"
 relations:
 - type: associated-with

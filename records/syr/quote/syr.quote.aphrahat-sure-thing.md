@@ -22,7 +22,7 @@ text: it is a sure thing with us, that Jesus our Lord is God, the Son of God, an
   and the Door, and the Pearl, and the Lamp
 modern_rendering: >-
   It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the
-  King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way,
+  King's Son. He is Light of Light, Creator, and Counselor. He is Guide, the Way,
   Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim

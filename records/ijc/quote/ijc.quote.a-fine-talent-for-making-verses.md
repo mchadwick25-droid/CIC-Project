@@ -29,7 +29,7 @@ modern_rendering: >-
 speaker_or_author: Jerome, Lives of Illustrious Men
 license: verbatim
 modern_lens_note: >-
-  This is easy to read as a hobby and it was not one. Damasus's verses were cut into stone and set over the tombs of the martyrs in the Roman catacombs - the poems ARE the monuments, and this one-sentence notice is the nearest contemporary witness to a programme that physically reshaped the city's holy places. What survives of that world for an archaeologist to find is largely this man's poetry in marble.
+  This is easy to read as a hobby and it was not one. Damasus's verses were cut into stone and set over the tombs of the martyrs in the Roman catacombs - the poems ARE the monuments, and this one-sentence notice is the nearest contemporary witness to a program that physically reshaped the city's holy places. What survives of that world for an archaeologist to find is largely this man's poetry in marble.
 retrieval:
   tier: 1
   retrieve_when:

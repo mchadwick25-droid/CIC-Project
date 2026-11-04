@@ -59,4 +59,4 @@ dispute rather than a novelty.
 
 NOT DRAWN ON HERE. The other twenty books, including the polemic
 against Roman religion (I-X) and the eschatology (XX-XXII), which are
-this world's neighbours' material rather than its own.
+this world's neighbors' material rather than its own.
