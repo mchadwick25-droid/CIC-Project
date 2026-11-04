@@ -919,3 +919,9 @@ Status: CLOSED. Owner: Library record-defects thread.
 All 25 pahc verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found in the batch review table (see the entry "Every quote rendering reviewed by Opus against the edition", 2026-11-04). The `quote-locus` gate checks each, and all 25 match. Where a locus already held a rough pointer for the same file, the exact span replaces it. `polycrates-to-victor` now cites lines 72578-72623 and keeps "the letter begins at line 72521" as a labeled pointer.
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-49. Polycrates record's note stated two elisions and a rough line, 2026-11-04.
+
+The body note of `polycrates-to-victor` said the text has "two elisions" and pointed to "anf08 line 72582". The text holds one elision, marked "...", after "coming of the Lord". The other clause is given in full once its endnote marker is left out. The note now says this, and it names the exact span, `cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, lines 72578-72623, which is the span the locus cites.
+
+Status: CLOSED. Owner: Library record-defects thread.

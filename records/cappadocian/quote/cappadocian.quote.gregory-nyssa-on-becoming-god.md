@@ -67,7 +67,7 @@ modern_rendering: >-
   believe that God is in everything, penetrating it, embracing it, and seated in it? For
   all things depend on him who is. Nothing can exist that does not have its being in him
   who is. If, then, all things are in him, and he is in all things, why are people
-  scandalized at the plan of Revelation? Why are they scandalized when it teaches that God
+  scandalized at the plan of revelation? Why are they scandalized when it teaches that God
   was born among men? He is the same God who, we are convinced, is even now not outside
   mankind. For although this last form of God's presence among us differs from that former
   one, his existence among us is still shown equally, then and now. Only now, he who holds
