@@ -232,3 +232,39 @@ def test_surface_records_under_build_worlds_are_records_and_enforced():
     assert cs.is_enforced("Build/worlds/lpc/surface/world_front/x.md")
     assert not cs.in_checked("Build/worlds/lpc/Doc_01_World_Identification.md")
     assert cs._kind(cs.REPO / "Build/worlds/lpc/surface/world_front/x.md") == "record"
+
+
+def html_words(page):
+    return [f.word for f in cs.scan_html(page, "x.html")]
+
+
+def test_html_entity_quotation_marks_open_a_quotation():
+    page = "<p>He wrote &quot;by the judgment of God and the favour of the people.&quot; His favour grew.</p>"
+    assert html_words(page) == ["favour"]
+    assert cs.fix_html(page).count("favor") == 1 and "the favour of the people" in cs.fix_html(page)
+
+
+def test_hyphen_compounds_count_in_site_prose_but_not_in_slugs():
+    assert html_words("<p>a scripture-centred view and hat-honour</p>") == ["centred", "honour"]
+    assert html_words('<a href="/tree/the-centre-of-it">go</a>') == []
+    assert sorted(f.word for f in cs.scan_json('{"why": "re-baptised and child-labour"}')) == ["baptised", "labour"]
+    assert words("see arch-drawn-from-the-centre") == []
+
+
+def test_attribute_text_a_reader_meets_is_scanned():
+    page = '<img src="a.png" alt="a grey portrait" class="grey"><a title="the centre" href="x">y</a>'
+    assert html_words(page) == ["grey", "centre"]
+    assert cs.fix_html(page) == '<img src="a.png" alt="a gray portrait" class="grey"><a title="the center" href="x">y</a>'
+
+
+def test_party_and_organisation_names_are_left_alone():
+    for line in (
+        "The Labour Party had won government",
+        "the church's people voted Labour, and Labour carried Maori grievances",
+        "stood as Labour candidates",
+        "the Friendly Society of Agricultural Labourers",
+        "the Church of the Saviour at Berestove",
+        "the All Saviour's monastery",
+    ):
+        assert words(line) == [], line
+    assert words("Our Saviour came. Hard labour.") == [("Saviour", "Savior"), ("labour", "labor")]

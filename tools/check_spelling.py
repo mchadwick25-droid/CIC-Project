@@ -48,6 +48,7 @@ ENFORCED: tuple[str, ...] = ("records/", "engine/shape/records/", "cic-website/"
 # ---------------------------------------------------------------- word list
 # The table lives in engine/m1/spelling_table.py, shared with the readability regate.
 sys.path.insert(0, str(REPO))
+from engine.m1.spelling_table import COMPARE_RE as _HYPHEN_RE
 from engine.m1.spelling_table import LOWER_ONLY as _LOWER_ONLY  # noqa: E402
 from engine.m1.spelling_table import TABLE, WORD_RE as _WORD_RE, american  # noqa: E402
 
@@ -74,7 +75,9 @@ _NAMES = re.compile(
     r"|(?:In )?Defence (?:of|Against|before) (?:the |his |His |Himself|Dionysius|Origen|Ries|English)[\w' ]*[A-Z]\w*"
     r"|Programme to Combat Racism"
     r"|African Civilisation|Carey\S{1,7}s Enquiry|An Enquiry into the Obligations|Le Theatre sacre des Cevennes"
-    r"|Plough, Rifton",
+    r"|Plough, Rifton"
+    r"|Labour Party|(?:voted|stood as|and) Labour\b|Labour carried|Agricultural Labourers|Dorchester Labourers"
+    r"|Church of the Saviour|All Saviour\S{1,7}s monastery",
 )
 # A capitalized word of this kind next to another capitalized word is part of a name (Labour Party,
 # International Christian Centre, Mediaeval Studies), not prose.
@@ -96,7 +99,7 @@ def _blank(match: re.Match[str]) -> str:
     return re.sub(r"[^\n]", " ", match.group(0))
 
 
-def _find(text: str, markdown: bool = True) -> list[tuple[int, str]]:
+def _find(text: str, markdown: bool = True, hyphen: bool = False) -> list[tuple[int, str]]:
     """(offset, word) of each British form in a block of prose. Quoted spans, code,
     blockquotes, URLs and path-like tokens are skipped."""
     masked: list[str] = []
@@ -117,7 +120,7 @@ def _find(text: str, markdown: bool = True) -> list[tuple[int, str]]:
     body = _QUOTED.sub(_blank, body)
     body = _NAMES.sub(_blank, body)
     out: list[tuple[int, str]] = []
-    for m in _WORD_RE.finditer(body):
+    for m in (_HYPHEN_RE if hyphen else _WORD_RE).finditer(body):
         word = m.group(0)
         if word.lower() in _LOWER_ONLY and not word.islower():
             continue
@@ -140,12 +143,12 @@ def _line_of(text: str, offset: int, first_line: int = 1) -> int:
     return first_line + text.count("\n", 0, offset)
 
 
-def scan_text(text: str, path: str = "", first_line: int = 1) -> list[Finding]:
-    return [Finding(path, _line_of(text, off, first_line), w, american(w)) for off, w in _find(text)]
+def scan_text(text: str, path: str = "", first_line: int = 1, hyphen: bool = False) -> list[Finding]:
+    return [Finding(path, _line_of(text, off, first_line), w, american(w)) for off, w in _find(text, hyphen=hyphen)]
 
 
-def fix_text(text: str) -> str:
-    for off, word in reversed(_find(text)):
+def fix_text(text: str, hyphen: bool = False) -> str:
+    for off, word in reversed(_find(text, hyphen=hyphen)):
         text = text[:off] + american(word) + text[off + len(word):]
     return text
 
@@ -252,18 +255,38 @@ def fix_record(text: str) -> str:
 _TAG = re.compile(r"<(script|style)\b.*?</\1>|<!--.*?-->|<[^>]+>", re.DOTALL | re.IGNORECASE)
 
 
+_ENTITY_QUOTES = re.compile(r"&quot;|&#34;|&#x22;|&ldquo;|&rdquo;", re.IGNORECASE)
+_ATTRS = re.compile(r'\b(alt|title|aria-label|content)="([^"]*)"')
+
+
 def _html_blanked(text: str) -> str:
-    return _TAG.sub(lambda m: re.sub(r"[^\n]", " ", m.group(0)), text)
+    """The page with tags blanked and entity quotation marks turned into real ones of the same length."""
+    blanked = _TAG.sub(lambda m: re.sub(r"[^\n]", " ", m.group(0)), text)
+    return _ENTITY_QUOTES.sub(lambda m: ("\u201c" if m.group(0).lower() == "&ldquo;" else "\u201d" if m.group(0).lower() == "&rdquo;" else '"') + " " * (len(m.group(0)) - 1), blanked)
+
+
+def _html_edits(text: str) -> list[tuple[int, str]]:
+    """(offset, word) for the prose between tags and for the attribute text a reader meets
+    (alt, title, aria-label, and a meta tag's content). Script and style blocks are not prose."""
+    out = list(_find(_html_blanked(text), markdown=False, hyphen=True))
+    for tag in _TAG.finditer(text):
+        t = tag.group(0)
+        if not t.startswith("<") or t[1:2] in "!/" or re.match(r"<(script|style)\b", t, re.IGNORECASE):
+            continue
+        for attr in _ATTRS.finditer(t):
+            if attr.group(1) == "content" and not t.lower().startswith("<meta"):
+                continue
+            start = tag.start() + attr.start(2)
+            out.extend((start + off, w) for off, w in _find(attr.group(2), markdown=False, hyphen=True))
+    return sorted(out)
 
 
 def scan_html(text: str, path: str) -> list[Finding]:
-    """A page: the text between tags. Script and style blocks and attribute values are not prose."""
-    blanked = _html_blanked(text)
-    return [Finding(path, _line_of(blanked, off), w, american(w)) for off, w in _find(blanked, markdown=False)]
+    return [Finding(path, _line_of(text, off), w, american(w)) for off, w in _html_edits(text)]
 
 
 def fix_html(text: str) -> str:
-    for off, word in reversed(_find(_html_blanked(text), markdown=False)):
+    for off, word in reversed(_html_edits(text)):
         text = text[:off] + american(word) + text[off + len(word):]
     return text
 
@@ -315,7 +338,7 @@ def _json_edits(text: str, start: int = 0):
             if key in _JSON_SKIP_KEYS:
                 continue
             old = json.loads(tok)
-            fixed = fix_text(old)
+            fixed = fix_text(old, hyphen=True)
             if fixed != old:
                 edits.append((m.start(), m.end(), tok, _json_encode_like(tok, fixed), old))
     return edits, len(text)
@@ -325,7 +348,7 @@ def scan_json(text: str, path: str = "") -> list[Finding]:
     edits, _ = _json_edits(text)
     out: list[Finding] = []
     for a, _, _, _, old in edits:
-        out.extend(Finding(path, _line_of(text, a), f.word, f.suggestion) for f in scan_text(old))
+        out.extend(Finding(path, _line_of(text, a), f.word, f.suggestion) for f in scan_text(old, hyphen=True))
     return out
 
 
