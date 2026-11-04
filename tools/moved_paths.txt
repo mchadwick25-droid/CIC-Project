@@ -59,3 +59,6 @@ Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15
 Build/worlds/rzg/STATUS-FOR-SOURCE-THREAD.md	Build/worlds/rzg/Review-Artifacts/STATUS-FOR-SOURCE-THREAD.md
 Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md	Build/worlds/rzg/Review-Artifacts/CiC_Reformed_Zurich_Geneva_Representative_Structure_Confirmation_2026-09-16.md
 Build/worlds/alx/Analysis/CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md	Build/Ministry/Operations/Audits/World-Findings/alx/CROSS_WORLD_FINDING_Lexicon_Confidence_Gap.md
+Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md   Build/Ministry/Operations/Standing/PHASE-1-LAUNCH.md
+Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md   Build/Ministry/Operations/Standing/CiC_Cleaning_Pattern_Log.md
+Build/reference/method/Pass2-decisions/S6.2_fleet_level_flag_investigation_2026-07-28.md   Build/Ministry/Operations/Standing/S6.2_fleet_level_flag_investigation_2026-07-28.md

@@ -19,7 +19,7 @@ Every document passes through six steps. Do not skip steps. Do not blend Critic 
 - **Step 6:** Opus Builder applies approved changes and writes the corrected file to the repository. Coach reads the new file and runs a verification pass. If changes were substantial, a second Critic pass is requested before filing.
 - **File and commit:** When verification passes, project lead files the document and runs the Git commit: `git add .` / `git commit -m 'description'` / `git push`
 
-Log every document's pipeline status in `Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md`. Add new contamination patterns to the log as they are discovered.
+Log every document's pipeline status in `Build/Ministry/Operations/Standing/CiC_Cleaning_Pattern_Log.md`. Add new contamination patterns to the log as they are discovered.
 
 ## The Cleaning Standard — Two Checks on Every Document
 
