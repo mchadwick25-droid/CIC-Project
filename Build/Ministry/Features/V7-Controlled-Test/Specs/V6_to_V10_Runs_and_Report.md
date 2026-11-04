@@ -32,6 +32,11 @@
   - Two blind Opus readers per answer, at the highest effort, run as in-plan subagents: 210 answers, 420 reads, plus the seeded copies.
   - A third Opus pass adjudicates every item with any score or error disagreement, and every tier 1 or tier 2 finding (`../Test_Plan.md` §6).
   - The seeded catch rate is computed first. If it is below 9 of every 10, the readers' scores do not count. The reader instructions are then fixed by change order, and the reading is redone.
+- **Change orders, 2026-11-04** (Decision-Log 78, `../../Answering-From-Sources/Decision-Log.md`).
+  - Batches of 6 items: no two from the same probe, arms mixed, order shuffled.
+  - Effort, Mark's choice "Max on hard items, high on rest": round 1 at max; other first reads at high; max again for every flagged item, every disagreement and every tier 1 or 2 finding. A max batch of 6 measured about 340k tokens.
+  - The catch rule, Mark's words "count found errors, and continue", set after round 1's results: a tier 1 or 2 error on at least half the planted sentence counts, under any label. The type-matched rule's figures (reader-1 8 of 12, reader-2 4 of 12) are reported beside it. Errors are counted by tier and location, not by type.
+  - Passages corrected (PR #1512 and the Hermas Mandate fix), requests exported again with identical keys, and every round-1 item that carried a wrong passage read again at max.
 - **Allowance check.** Reads are split into batches. If the weekly allowance's build half cannot carry them, they move to the next week rather than being cut.
 - **Mark's review page.** An Artifact, not a repository file, built from V3's review data.
   - **Layout.** One answer at a time, arm hidden: the question, the answer, the cited records, and the source lines in context.

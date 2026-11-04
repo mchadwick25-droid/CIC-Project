@@ -318,13 +318,15 @@ def test_a_defect_type_the_catch_check_cannot_match_is_refused(env):
     assert rd.main(["seed-copies", "--export-dir", str(out), "--key-dir", str(keys), "--copies", str(_seed_file(env, keys, 10, "mystery"))]) == 2
 
 
-def test_a_catch_needs_the_defect_type_and_half_the_planted_span():
+def test_a_catch_is_a_tier_1_or_2_error_on_half_the_planted_span_under_any_type():
     planted = {"defect_type": "modern_projection", "expected_location": "the planted claim here today"}
-    right = _reply("i", "r", errors=[_error("a planted claim here", typ="modern projection")])
-    assert rd.catches(right, planted)
-    assert not rd.catches(_reply("i", "r", errors=[_error("a planted claim here", typ="invented")]), planted)
-    assert not rd.catches(_reply("i", "r", errors=[_error("claim", typ="modern projection")]), planted)
-    assert not rd.catches(_reply("i", "r", errors=[_error("an unrelated long sentence about other things", typ="modern projection")]), planted)
+    right = _reply("i", "r", errors=[_error("a planted claim here", tier=1, typ="modern projection")])
+    other_type = _reply("i", "r", errors=[_error("a planted claim here", tier=2, typ="invented")])
+    assert rd.catches(right, planted) and rd.catches_with_type(right, planted)
+    assert rd.catches(other_type, planted) and not rd.catches_with_type(other_type, planted)
+    assert not rd.catches(_reply("i", "r", errors=[_error("a planted claim here", tier=3, typ="modern projection")]), planted)
+    assert not rd.catches(_reply("i", "r", errors=[_error("claim", tier=1, typ="modern projection")]), planted)
+    assert not rd.catches(_reply("i", "r", errors=[_error("an unrelated long sentence about other things", tier=1, typ="modern projection")]), planted)
     assert rd.accepted_error_types("wrong frame") == {"out of context"}
 
 
@@ -381,14 +383,14 @@ def test_score_tables_use_rulings_and_report_agreement_noise_band_and_october(en
     assert t["scores"]["source_accuracy"]["b"][WORLD]["distribution"] == {"0": 1, "1": 13, "2": 0}
     assert t["reader_agreement"]["source_accuracy"]["exact"] == pytest.approx(1 - 1 / 32)
     assert t["noise_floor"]["repeat_probes"] == 4 and t["noise_floor"]["by_dimension"]["source_accuracy"]["exact"] == 0.75
-    assert t["error_counts"][WORLD]["b"]["invented"] == {"1": 1} and t["error_counts"]["all"]["b"]["invented"] == {"1": 1}
+    assert t["error_counts"][WORLD]["b"] == {"1": 1} and t["error_counts"]["all"]["b"] == {"1": 1}
     band = t["older_engine_band"]["by_world"][WORLD]
     assert band["spread"]["words"] == {"min": 1, "max": 5} and band["runs"]["r2"]["check_pass_rate"] == 1.0
     assert t["older_engine_band"]["current_arms_by_world"][WORLD]["a"]["n"] == 14
     grades = t["october_comparison"]["by_grade"]
     assert grades["rigor"]["NOT ACCEPTABLE"] == {"n": 1, "mean_fresh": 2} and grades["understandable"]["POOR"]["n"] == 1
     md = rd.render_markdown(t)
-    assert "Older-engine band" in md and "Fresh scores against the October grades" in md and "| tst | b | invented | 1 | 0 | 0 |" in md
+    assert "Older-engine band" in md and "Fresh scores against the October grades" in md and "| tst | b | 1 | 0 | 0 |" in md
 
 
 def test_october_findings_are_all_kept_and_matches_are_only_candidates(env):
@@ -417,7 +419,7 @@ def test_after_october_errors_are_counted_under_their_own_arm_and_unknown_ids_ar
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(reply), encoding="utf-8")
     t = _score(env, out, keys)
-    assert t["after_october_error_counts"] == {WORLD: {"a": {"invented": {"2": 1}}}, "all": {"a": {"invented": {"2": 1}}}}
+    assert t["after_october_error_counts"] == {WORLD: {"a": {"2": 1}}, "all": {"a": {"2": 1}}}
 
 
 def test_mark_pack_gives_twelve_per_world_with_the_same_probes_in_both_arms(env):
