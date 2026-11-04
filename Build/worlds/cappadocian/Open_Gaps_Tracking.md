@@ -1037,3 +1037,15 @@ Follows OG-59 ("Seven force descriptions rewritten to the reading level", 2026-1
 Still open: the forces document's index table (`cappadocian_Forces_Document.md` line 27, the 2A-1 row) lists six gravities and leaves out Supporting 4, while its Section 5 includes it. The record now follows Section 5. The index row belongs to cappadocian's own build thread.
 
 Status: CLOSED for the record; OPEN for the index row.
+
+### OG-62. Every quote rendering reviewed by Opus against the edition; forces index row 2A-1, 2026-11-03.
+
+The `rendering-review` gate found 21 cappadocian renderings with no named Opus review file. An independent Opus reviewer read all 21 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed twelve: two P1 and ten P2. The P1 failures were these. In `basil-on-his-retreat`, "admire the multitude of flowers" had become "go on about the flowers". In `macrina-refuses-remarriage`, a claim stood outside the "she would say" frame and read as the narrator's judgment. All twelve were re-rendered by Opus and passed a second independent reader.
+
+A later check found that the round-2 rendering of `gregory-nyssa-on-becoming-god` dropped the edition's "reasonably" ("ought not reasonably to present any strangeness"). It was restored. A third reader then found two of the edition's grounding "For"s dropped. That put the record at the review cap. Under the project lead's ruling ("yes ... fourth read"), a fresh fourth reader passed the restored "For who, surveying the universe…". It failed the other sentence, because the correction had dropped "although" and so moved Gregory's ground onto the concession. Under a second ruling ("Fifth read of that sentence"), a fresh fifth reader passed: "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The whole field scores FK 7.3 and FRE 72.5. Both rulings are recorded in the System Hub Decision Log ("Cap ruling: cappadocian gregory-nyssa-on-becoming-god rendering", 2026-11-04).
+
+The forces document's index row 2A-1 now lists Supporting 4 (Paideia converted), matching its own Section 5 and the records. This closes the index-row half of the entry "`policy-oscillation` linked to Paideia converted" (2026-11-03). The change order is in `build/BUILD-LOG.md`.
+
+Per-record log: `Review-Artifacts/Rendering_Review_Log_21_2026-11-03.md`. The `m1:rendering-review/cappadocian` waiver is removed; the gate reports 0 for cappadocian (21 → 0).
+
+Status: CLOSED. Owner: Library record-defects thread.
