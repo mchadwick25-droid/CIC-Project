@@ -53,7 +53,7 @@ exchange:
     went to a synod again. So the sword was drawn in the Church's cause
     among us, by bishops. The man we remember is the one who yielded once to
     stop it, and grieved over it afterward. We do not defend it, and the man
-    at the centre of it never called it right. Two limits belong with it.
+    at the center of it never called it right. Two limits belong with it.
     The accuser is heard only through the man who called him worthless. And
     on the island Vincent, in his own voice, held that one who preaches
     other than what was received is to be cut off, lest one sick sheep

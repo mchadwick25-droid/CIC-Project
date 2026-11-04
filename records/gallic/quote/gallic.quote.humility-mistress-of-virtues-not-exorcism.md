@@ -61,7 +61,7 @@ modern_lens_note: >-
   crowd is, on this teaching, evidence against a monk, not for one.
 modern_rendering: >-
   So humility is the mistress of all virtues. It is the surest foundation of the heavenly
-  building. It is the special and splendid gift of the Saviour. For the one who can perform all
+  building. It is the special and splendid gift of the Savior. For the one who can perform all
   the miracles Christ worked, without danger of being puffed up, is the one who follows the
   gentle Lord. He follows Him not in the grandeur of His miracles, but in the virtues of patience
   and humility. But someone may aim to command unclean spirits, or to give gifts of healing, or

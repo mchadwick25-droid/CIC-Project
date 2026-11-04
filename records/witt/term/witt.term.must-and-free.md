@@ -99,7 +99,7 @@ senses:
     "free." The "must" is that which necessity requires, and which must ever be unyielding; as, for instance,
     the faith... but "free" is that in which I have choice, and may use or not, yet in such wise that
     it profit my brother and not me. Now do not make a "must" out of what is "free."'' The free things
-    are named -- leaving monasteries, priests marrying, images -- and the rule for them is the neighbour:
+    are named -- leaving monasteries, priests marrying, images -- and the rule for them is the neighbor:
     ''we must not look upon ourselves... but upon our neighbor... have patience with him for a time.''
     By 1529 the same word is the charge: some ''pretend that it is a matter of liberty and not necessary...
     go so far that they become quite brutish''; ''if you wish such liberty, you may just as well have
@@ -116,11 +116,11 @@ senses:
 quick_meaning: Faith never bends. Everything else is free, measured by love for the weak.
 distortion_risk: high
 use_note:
-  means: "'Must' and 'free' meant faith as the one unbending must and everything else free, with Christian liberty measured by love for the weaker neighbour."
+  means: "'Must' and 'free' meant faith as the one unbending must and everything else free, with Christian liberty measured by love for the weaker neighbor."
   not_for:
     - "Christian liberty as autonomy, the right to do whatever Scripture permits"
     - "one specific 'free' matter on its own, such as fasting, which sits in witt.term.fasting"
-    - "the neighbour whom the second table of the Commandments protects, which sits in witt.term.neighbor"
+    - "the neighbor whom the second table of the Commandments protects, which sits in witt.term.neighbor"
   years: {from: 1520, to: 1531}
   status: reviewed
 ---
