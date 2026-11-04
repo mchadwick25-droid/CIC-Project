@@ -3,7 +3,8 @@
 A passage is the window source_windows finds for each source of the record: the lines the quote's
 words, the locus line numbers, or the locus division or chapter name, inside the surrounding
 division, with the path of division titles. A source whose passage is not found gives no text and
-an entry in `unresolved` labelled "passage not located".
+an entry in `unresolved` labelled "passage not located", with the reason "work not matched" where
+its reference by number found no division of the work the source names.
 
 A request's cap is the window's word count (source_windows.fit_step.CONTEXT_MAX_WORDS). A smaller
 cap keeps the block's own lines whole and adds words either side of them alternately.
@@ -44,7 +45,9 @@ def _cut(block: dict, texts_root: Path, cap: int) -> tuple[str, bool]:
     return " ".join(words[lo:hi]), True
 
 
-def _reason(source: dict | None) -> str:
+def _reason(source: dict | None, why: str | None) -> str:
+    if why == source_windows.WORK_NOT_MATCHED:
+        return f"{LABEL}: {source_windows.WORK_NOT_MATCHED}"
     if not source:
         return f"{LABEL}: no source record"
     if source.get("kind") == "unvendored":
@@ -61,12 +64,11 @@ def resolve_record(record: dict, records: dict[str, dict], texts_root: Path, cap
         return {"passages": [], "unresolved": [{"record_id": record["id"], "source_id": None, "reason": f"{LABEL}: the record names no source"}]}
     passages, unresolved = [], []
     for entry in sources:
-        found = source_windows.context_blocks({**record, "sources": [entry]}, records, texts_root)
-        if not found:
+        block, why = source_windows.source_block({**record, "sources": [entry]}, entry, records, texts_root)
+        if block is None:
             unresolved.append({"record_id": record["id"], "source_id": entry.get("source_id"),
-                               "reason": _reason(records.get(entry.get("source_id") or ""))})
+                               "reason": _reason(records.get(entry.get("source_id") or ""), why)})
             continue
-        block = found[0]
         text, trimmed = _cut(block, texts_root, cap)
         passages.append({"record_id": record["id"], "source_id": block["source_id"], "locus": entry.get("locus") or "",
                          "file": block["file"], "division_path": block["division_path"], "lines": block["lines"],

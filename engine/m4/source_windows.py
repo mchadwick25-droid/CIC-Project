@@ -29,15 +29,28 @@ before any " - " gloss; its first piece that resolves is used. A number
 after ":" is a verse, finer than any edition marks, and is not used.
 - In a file with divisions, the search runs inside the work: the most
   specific division id the source's `edition` names in the parentheses
-  after that file's path ("div1 v", "div2 viii.ii"), or else the division
-  whose title shares the most words with the source's author and work,
-  then the fewest words besides, then the shallowest.
+  after that file's path ("div1 v", "div2 viii.ii"), or else a division
+  whose title names the source's work, sharing the most words with the
+  source's author and work, then the fewest words besides, then the
+  shallowest, then the first. A work goes by the names in its `work`
+  before any " - ", ";" or ",", inside and outside parentheses, and by the
+  other names of its row in WORK_TITLES. A title names the work when it
+  holds every word of four letters or more, outside _STOP, of one of those
+  names. Titles are compared with ligatures and accents folded
+  ("Smyrnæans" reads as "smyrnaeans") and case and punctuation set aside.
+  In a file with divisions and none of the work, no reference by number
+  resolves: the work is not matched. A source whose work has no such name
+  searches the whole file.
 - Each number is the shallowest division beneath the last that carries it:
   as its `n` (with a `type`), as the number after one label word in its
   title or short title ("Chapter IV.", "Vision Second."), or, for a typed
   division with no `n`, at the head of its own text ("Chapter XXVI.—").
-  For the last number a chapter is preferred to any other label. A leading
-  name ("Magnesians") is first matched as a word of a division's title.
+  For the last number a chapter is preferred to any other label, unless a
+  shallower division carries the number and does not hold that chapter
+  ("II" in a work of books is Book II, not Chapter II of Book I). A leading
+  name ("Magnesians") that labels no division names a work: the division
+  with that word in its title holds the search, and a name that no title
+  in the work holds is a work not matched.
 - Below the last division, a number is read from the "Chap. N" headings
   inside it. A number with no division and no heading beneath a division
   that has neither is finer than the edition marks and is dropped; any
@@ -58,6 +71,7 @@ rendered and treated as context, never evidence."""
 import bisect
 import functools
 import re
+import unicodedata
 from pathlib import Path
 
 from engine.m1.quote_verbatim import resolve_vendored_paths
@@ -85,6 +99,52 @@ _ORDINALS = ("first", "second", "third", "fourth", "fifth", "sixth", "seventh", 
              "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth",
              "twentieth")
 _ROMAN = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
+_LIGATURES = str.maketrans({"æ": "ae", "Æ": "Ae", "œ": "oe", "Œ": "Oe", "ß": "ss"})
+WORK_NOT_MATCHED = "work not matched"
+WORK_TITLES = (
+    ("Paedagogus", "Paidagogos", "The Instructor"),
+    ("Stromateis", "The Stromata", "Miscellanies"),
+    ("Protrepticus", "Exhortation to the Heathen"),
+    ("Quis dives salvetur", "Who is the Rich Man that shall be saved?"),
+    ("Contra Celsum", "Against Celsus"),
+    ("De Principiis", "On First Principles"),
+    ("Historia Ecclesiastica", "Church History", "Ecclesiastical History"),
+    ("Adversus Haereses", "Against Heresies"),
+    ("Apologeticus", "Apology"),
+    ("Oratio ad Graecos", "Address to the Greeks"),
+    ("De Incarnatione Verbi Dei", "On the Incarnation of the Word"),
+    ("Orationes contra Arianos", "Against the Arians"),
+    ("De viris illustribus", "Lives of Illustrious Men"),
+    ("The Shepherd of Hermas", "The Pastor of Hermas"),
+    ("Didache", "The Teaching of the Twelve Apostles"),
+    ("Carmina Nisibena", "Nisibene Hymns"),
+)
+
+
+def _folded(text: str) -> list[str]:
+    """The words of a title, lower-cased, with ligatures and accents folded and punctuation set aside."""
+    decomposed = unicodedata.normalize("NFKD", (text or "").translate(_LIGATURES))
+    return _WORD.findall("".join(ch for ch in decomposed if not unicodedata.combining(ch)).lower())
+
+
+def _key(text: str) -> frozenset[str]:
+    return frozenset(w for w in _folded(text) if len(w) > 3 and w not in _STOP)
+
+
+def work_names(source: dict) -> frozenset[frozenset[str]]:
+    """The key of every name the source's work goes by."""
+    work = re.split(r" - |;|,", source.get("work") or "")[0]
+    keys = {key for name in re.split(r"[()]", work) if (key := _key(name))}
+    for row in WORK_TITLES:
+        row_keys = {_key(name) for name in row}
+        if keys & row_keys:
+            keys |= row_keys
+    return frozenset(keys)
+
+
+def names_work(title: str, keys: frozenset[frozenset[str]]) -> bool:
+    words = _key(title)
+    return any(key <= words for key in keys)
 
 
 def number(token: str) -> int | None:
@@ -228,7 +288,7 @@ def _matches(path: str, division: dict, value: int, name: str | None) -> bool:
         return True
     for label in (division.get("shorttitle"), division.get("title")):
         word, found = _ordinal_title(label or "")
-        if found == value and (name is None or word == name.lower()):
+        if found == value and (name is None or _folded(word) == _folded(name)):
             return True
     if division.get("type") and not division.get("n"):
         word, found = _lead(path, division["first"])
@@ -258,15 +318,23 @@ def _children(divisions: tuple[dict, ...], outer: dict | None) -> list[dict]:
 
 
 def _find(path: str, current: dict | None, value: int, name: str | None, last: bool) -> tuple[dict | None, dict | None]:
-    """(the division numbered `value` beneath `current`, the division it was found in)."""
+    """(the division numbered `value` beneath `current`, the division it was sought in: the one
+    titled with `name` where `name` labels no division), or (None, WORK_NOT_MATCHED) where no
+    title beneath `current` holds `name`."""
     within = [d for d in _divisions(path) if _inside(current, d)]
-    found = _best([d for d in within if _matches(path, d, value, name)], last)
+    candidates = [d for d in within if _matches(path, d, value, name)]
+    found = _best(candidates, last)
     if found is not None:
+        shallowest = _best(candidates, False)
+        if shallowest["level"] < found["level"] and not _inside(shallowest, found):
+            found = shallowest
         return found, current
     if name:
-        holder = _best([d for d in within if name.lower() in _WORD.findall((d.get("title") or "").lower())], False)
-        if holder is not None:
-            return _find(path, holder, value, None, last)
+        wanted = _folded(name)
+        holder = _best([d for d in within if wanted and wanted[0] in _folded(d.get("title") or "")], False)
+        if holder is None:
+            return None, WORK_NOT_MATCHED
+        return _find(path, holder, value, None, last)
     return None, current
 
 
@@ -284,17 +352,20 @@ def _inner_headings(path: str, division: dict) -> list[tuple[int, int]]:
     return found
 
 
-def _xml_range(path: str, scope: dict | None, name: str | None, numbers: list[int], end: int | None) -> tuple[int, int] | None:
+def _xml_range(path: str, scope: dict | None, name: str | None, numbers: list[int], end: int | None) -> tuple[int, int] | str | None:
     """The lines of the divisions `numbers` name beneath `scope`. A number below the last
     division is read from the "Chap. N" headings inside it; one finer still than the
-    edition marks is dropped."""
+    edition marks is dropped. WORK_NOT_MATCHED where the leading name is no title in `scope`."""
     divisions = _divisions(path)
     current, parent = scope, scope
     for position, value in enumerate(numbers):
         found, holder = _find(path, current, value, name if position == 0 else None, position == len(numbers) - 1)
+        if holder == WORK_NOT_MATCHED:
+            return WORK_NOT_MATCHED
         if found is not None:
             parent, current = holder, found
             continue
+        current = holder
         heads = _inner_headings(path, current) if current is not None else []
         starts = [line_no for line_no, n in heads if n == value]
         if starts:
@@ -326,19 +397,16 @@ def _scope(path: str, source: dict) -> dict | None:
     named = [by_id[i] for i in _EDITION_DIV.findall(note.group(1) if note else "") if i in by_id]
     if named:
         return max(named, key=lambda d: d["level"])
-    author = (source.get("author") or "").split("(")[0]
-    work = re.split(r" - |;|,", source.get("work") or "")[0]
-    wanted = {w for w in _WORD.findall(f"{author} {work}".lower()) if len(w) > 3 and w not in _STOP}
-    def score(d: dict) -> tuple[int, float]:
-        title = {w for w in _WORD.findall((d.get("title") or "").lower()) if len(w) > 3 and w not in _STOP}
-        shared = len(wanted & title)
-        return shared, shared / len(title) if title else 0.0
+    keys = work_names(source)
+    wanted = _key((source.get("author") or "").split("(")[0]).union(*keys)
 
-    scored = [(score(d), d) for d in divisions]
-    best = max((sc for sc, _ in scored), default=(0, 0.0))
-    if best[0] == 0:
-        return None
-    return min((d for sc, d in scored if sc == best), key=lambda d: (d["level"], d["first"]))
+    def score(d: dict) -> tuple[int, float, int, int]:
+        title = _key(d.get("title") or "")
+        shared = len(wanted & title)
+        return -shared, -shared / len(title), d["level"], d["first"]
+
+    works = [d for d in divisions if names_work(d.get("title") or "", keys)]
+    return min(works, key=score) if works else None
 
 
 def _text_heading(line: str) -> tuple[str, int | None]:
@@ -376,17 +444,26 @@ def _body_start(path: str) -> int:
     return rules[-1] + 1 if rules else 1
 
 
-def _range(path: str, source: dict, locus: str) -> tuple[int, int] | None:
+def _range(path: str, source: dict, locus: str) -> tuple[int, int] | str | None:
+    """The lines a reference by number names, or WORK_NOT_MATCHED where none resolves and one
+    found no division of the work."""
     plain = not _divisions(path)
     if plain and locus.strip().lower() == "whole text":
         return _body_start(path), len(_lines(path))
-    for name, numbers, end in pieces(locus):
-        found = _text_range(path, numbers) if plain else _xml_range(path, _scope(path, source), name, numbers, end)
-        if found:
+    references = pieces(locus)
+    scope = None if plain else _scope(path, source)
+    if not plain and scope is None and work_names(source):
+        return WORK_NOT_MATCHED if references else None
+    unmatched = False
+    for name, numbers, end in references:
+        found = _text_range(path, numbers) if plain else _xml_range(path, scope, name, numbers, end)
+        if found == WORK_NOT_MATCHED:
+            unmatched = True
+        elif found:
             return found
     if plain and len(_words(path)[1]) <= 2 * fit_step.CONTEXT_MAX_WORDS:
         return _body_start(path), len(_lines(path))
-    return None
+    return WORK_NOT_MATCHED if unmatched else None
 
 
 def _bounds(path: str, first: int, last: int) -> tuple[int, int]:
@@ -449,23 +526,36 @@ def _block(record: dict, source: dict, path: Path, lines: tuple[int, int], text:
     }
 
 
+def source_block(record: dict, source: dict, records: dict[str, dict], texts_root: Path = fit_step.REPO_ROOT,
+                 n: int = 1) -> tuple[dict | None, str | None]:
+    """(the block, numbered `n`, for one source of the record, from the first of its edition files
+    where an anchor resolves, None), or (None, WORK_NOT_MATCHED where a file's reference by number
+    found no division of the work, else None)."""
+    locus = source.get("locus") or ""
+    source_record = records.get(source.get("source_id") or "") or {}
+    named = resolve_vendored_paths({"sources": [source]}, records, {})
+    paths = [texts_root / "cic" / "texts" / p.name for p in named]
+    reason = None
+    for path in _pick(paths, locus):
+        if (point := _point(record, str(path), locus)) is not None:
+            (text, trimmed), lines = _window(str(path), *point), point
+        else:
+            span = _range(str(path), source_record, locus)
+            if span == WORK_NOT_MATCHED:
+                reason = WORK_NOT_MATCHED
+            if not isinstance(span, tuple):
+                continue
+            (text, trimmed), lines = _opening(str(path), *span), span
+        if text:
+            return _block(record, source, path, lines, text, trimmed, n), None
+    return None, reason
+
+
 def context_blocks(record: dict, records: dict[str, dict], texts_root: Path = fit_step.REPO_ROOT) -> list[dict]:
     """At most one block per source of the record: the first of its edition files where an anchor resolves."""
     blocks = []
     for source in record.get("sources") or []:
-        locus = source.get("locus") or ""
-        source_record = records.get(source.get("source_id") or "") or {}
-        named = resolve_vendored_paths({"sources": [source]}, records, {})
-        paths = [texts_root / "cic" / "texts" / p.name for p in named]
-        for path in _pick(paths, locus):
-            if (point := _point(record, str(path), locus)) is not None:
-                text, trimmed = _window(str(path), *point)
-                lines = point
-            elif (span := _range(str(path), source_record, locus)) is not None:
-                (text, trimmed), lines = _opening(str(path), *span), span
-            else:
-                continue
-            if text:
-                blocks.append(_block(record, source, path, lines, text, trimmed, len(blocks) + 1))
-                break
+        block, _ = source_block(record, source, records, texts_root, len(blocks) + 1)
+        if block is not None:
+            blocks.append(block)
     return blocks
