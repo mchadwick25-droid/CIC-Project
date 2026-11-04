@@ -45,11 +45,11 @@ relations:
 - type: associated-with
   target: cappadocian.dw.marriage-ending
 modern_rendering: >-
-  For third marriages and more, they laid down the same rule as for a second
-  marriage, in proportion. A second marriage carries one year (some
-  authorities say two). For a third marriage, men are separated for three
-  years, and often for four. And this is no longer called marriage at all.
-  It is called polygamy, or rather, limited fornication.
+  For third marriages and more, they laid down the same rule as for a second marriage,
+  in proportion. A second marriage carries one year (some authorities say two years).
+  For a third marriage, men are separated for three years, and often for four. But this
+  is no longer called marriage at all. It is called polygamy, meaning many marriages, or
+  rather, limited fornication.
 use_note:
   means: "Canon IV of Basil's First Canonical Letter sets a graded penance of one or two years for a second marriage and three or four for a third."
   not_for:

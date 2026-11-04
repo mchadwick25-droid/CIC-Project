@@ -883,3 +883,16 @@ The clauses below were removed from the alx documents named in each item so the 
 9. alx alex_World_Profile lines 15 and 21, removed as stale: "The world's name and outer scope remain flagged for the project lead (OG-3) ... if the project lead prefers a narrower 'catechetical-school institution' world, the Profile and its upstream docs revise together" and "Name/scope flagged for the project lead, OG-3". OG-3 is RESOLVED: the project lead confirmed the broad reading and the name on 2026-07-17, and sections 9 and 11 of the same file say so. Nothing open remains in this item.
 
 Status: OPEN. Owner: this world's thread.
+
+## OG-45. Every quote rendering reviewed by Opus against the edition, 2026-11-04.
+
+- **Finding.** The `rendering-review` gate found 26 alx renderings with no named Opus review file.
+- **Done.** An independent Opus reviewer read all 26 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed four: one P1 and three P2.
+  - `the-grades-here-in-the-church` (P1) voiced the translator's "[as deacons]" as Clement's own words.
+  - `clement-instructor` (P2): "unnatural passions" read as sexual vice.
+  - `no-festal-letter-was-written` (P2) joined two thoughts in a 26-word sentence and added "men" as the searchers.
+  - `timothy-ordinary-questions` (P2) read a case put to the bishop as a permission.
+- All four were re-rendered by Opus and passed a second independent reader. The lens notes of `no-festal-letter-was-written` and `the-grades-here-in-the-church`, and the use_note of `clement-instructor`, were corrected to match.
+- A third reader checked how a bracket in a rendering reaches a participant. The reply sets the rendering inside quotation marks, and the card shows it as written. No code removes single brackets or reads renderings aloud. So "[as deacons]" is shown marked as the translator's word. That reader failed the record on another point: the last sentence had dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". Under the project lead's cap ruling (System Hub Decision Log, "Cap ruling: alx the-grades-here-in-the-church rendering", 2026-11-04), a fresh fourth reader judged only that sentence. It passed "This goes on until they grow into “a mature man.”".
+- Per-record log: `Review-Artifacts/Rendering_Review_Log_26_2026-11-03.md`. The `m1:rendering-review/alx` waiver is removed; the gate reports 0 for alx (26 → 0).
+- **Owner.** Library record-defects thread. Closed.
