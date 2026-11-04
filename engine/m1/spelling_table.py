@@ -42,7 +42,7 @@ _family(
      "moral", "natural", "personal", "polar", "social", "stabil", "vandal", "vulgar", "tyrann", "fantas", "hospital",
      "galvan", "mesmer", "agon", "item", "equal", "reorgan", "rebapt", "unbapt", "anathemat", "regular", "unauthor",
      "synthes", "dramat", "apostat", "juda", "legitim", "arab", "recatholic", "institutional", "sexual", "scandal",
-     "styl", "marginal", "theolog", "indigen", "polemic", "schemat", "capital", "digit"),
+     "styl", "marginal", "theolog", "indigen", "polemic", "schemat", "capital", "digit", "metabol"),
     "is", "iz", ("e", "es", "ed", "ing", "ation", "ations", "er", "ers", "able", "ational", "ationally"),
 )
 

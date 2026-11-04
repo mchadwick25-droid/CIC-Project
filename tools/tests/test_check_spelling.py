@@ -285,3 +285,22 @@ def test_the_claims_register_status_keyword_is_a_token_not_prose():
     assert words("| fca8e47a | JUDGEMENT | Documented |") == []
     assert words("`JUDGEMENT`: not decidable by a string check") == []
     assert words("a sound judgement") == [("judgement", "judgment")]
+
+
+def test_italic_spans_are_quotations_or_titles_and_are_left_alone():
+    assert words("He wrote *by the judgement of God and the favour of the people*, in his favour.") == [("favour", "favor")]
+    assert words("The **organising** idea and *an italic titel*") == [("organising", "organizing")]
+    assert words("*On the Catechising of the Uninstructed* and the catalogue") == [("catalogue", "catalog")]
+
+
+def test_table_rows_pair_their_backticks_one_row_at_a_time():
+    table = (
+        "| a | `to Generosus, our most honourable brother` | the favour |\n"
+        "| b | an `odd one | the honour |\n"
+        "| c | `ok` | the labour |\n"
+    )
+    assert [w for w, _ in words(table)] == ["favour", "labour"]
+
+
+def test_metabolise_is_flagged():
+    assert words("they metabolised it and metabolise") == [("metabolised", "metabolized"), ("metabolise", "metabolize")]

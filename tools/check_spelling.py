@@ -100,6 +100,25 @@ def _blank(match: re.Match[str]) -> str:
     return re.sub(r"[^\n]", " ", match.group(0))
 
 
+# *Italic* text is a quotation, a title or an emphasis: left as written. **Bold** is prose.
+_ITALIC = re.compile(r"(?<![*\w])\*(?!\*)(?=\S)[^*\n]*?(?<=\S)\*(?![*\w])")
+
+
+def _mask_table_rows(lines: list[str]) -> list[str]:
+    """A table row is its own paragraph: quotation marks and backticks pair within the row, never across rows.
+    A row with an unpaired backtick cannot be read reliably, so it is left alone."""
+    out = []
+    for line in lines:
+        if line.lstrip().startswith("|"):
+            if line.count("`") % 2 == 1:
+                line = re.sub(r"[^\n]", " ", line)
+            else:
+                line = _QUOTED.sub(_blank, line)
+                line = re.sub(r"[\"`\u201c\u201d\u2018\u2019\u00ab\u00bb]", " ", line)
+        out.append(line)
+    return out
+
+
 def _find(text: str, markdown: bool = True, hyphen: bool = False) -> list[tuple[int, str]]:
     """(offset, word) of each British form in a block of prose. Quoted spans, code,
     blockquotes, URLs and path-like tokens are skipped."""
@@ -117,7 +136,11 @@ def _find(text: str, markdown: bool = True, hyphen: bool = False) -> list[tuple[
                 continue
         line = _URL.sub(_blank, raw)
         masked.append(_PATHLIKE.sub(_blank, line))
+    if markdown:
+        masked = _mask_table_rows(masked)
     body = "\n".join(masked)
+    if markdown:
+        body = _ITALIC.sub(_blank, body)
     body = _QUOTED.sub(_blank, body)
     body = _NAMES.sub(_blank, body)
     out: list[tuple[int, str]] = []
