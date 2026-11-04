@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.origen-philocalia
-  locus: XXVII (file line 436)
+  locus: "XXVII (cic/texts/origen_philocalia_lewis1911.txt, line 436)"
   license: public-domain
 retrieval:
   tier: 2

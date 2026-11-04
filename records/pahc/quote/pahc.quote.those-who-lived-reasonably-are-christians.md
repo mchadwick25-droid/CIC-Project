@@ -16,8 +16,7 @@ confidence:
     Documented as Justin's own argument, addressed to a Roman emperor and shaped to make Christians look reasonable rather than seditious.
 sources:
 - source_id: pahc.source.justin-first-apology
-  locus: >-
-    First Apology, ch. XLVI (anf01_apostolic-fathers-justin-irenaeus.xml)
+  locus: "First Apology, ch. XLVI (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 15686-15695)"
   license: public-domain
 text: >-
   ...and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus, and men like them; and among the barbarians, Abraham, and Ananias, and Azarias, and Mishael, and Elias, and many others...

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-canonical-letters-to-amphilochius
-  locus: "Letter CXCIX (Canonica Secunda), Canon XXII (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter CXCIX (Canonica Secunda), Canon XXII (cic/texts/npnf208_basil-letters-select-works.xml, lines 36336-36343)"
   license: public-domain
 text: >-
   In the case of a man having a wife by seduction, be it secret or by

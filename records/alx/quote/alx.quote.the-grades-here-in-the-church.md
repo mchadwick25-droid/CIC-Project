@@ -16,8 +16,7 @@ confidence:
     Documented as Clement's own teaching. It is speculative theology rather than church order - he is reading the ministry as a copy of an angelic hierarchy - so it evidences how one Alexandrian teacher understood the offices, not how they functioned.
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: >-
-    Stromateis VI.13 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, near line 47889)
+  locus: "Stromateis VI.13 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 47889-47900)"
   license: public-domain
 text: >-
   Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel. For these taken up in the clouds, the apostle writes, will first minister [as deacons], then be classed in the presbyterate, by promotion in glory (for glory differs from glory) till they grow into “a perfect man.”

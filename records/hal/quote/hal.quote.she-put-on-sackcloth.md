@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep77
-  locus: >-
-    Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (npnf206_jerome-principal-works.xml)
+  locus: "Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (cic/texts/npnf206_jerome-principal-works.xml, lines 17449-17464)"
   license: public-domain
 text: >-
   Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever... that at this time Fabiola came to herself? Yet it was then that she put on sackcloth to make public confession of her error. It was then that in the presence of all Rome (in the basilica which formerly belonged to that Lateranus who perished by the sword of Cæsar ) she stood in the ranks of the penitents and exposed before bishop, presbyters, and people—all of whom wept when they saw her weep—her dishevelled hair, pale features, soiled hands and unwashed neck.

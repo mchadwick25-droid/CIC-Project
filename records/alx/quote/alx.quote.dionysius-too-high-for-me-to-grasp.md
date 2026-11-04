@@ -16,8 +16,7 @@ confidence:
     Documented as Dionysius's own words, quoted by Eusebius and read directly at the section cited. It reaches us only through Eusebius's selection - the treatise it comes from is lost - which is one of the thin places the serving witness names.
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: >-
-    Church History VII.25.4-5, quoting Dionysius of Alexandria On Promises (npnf201_eusebius-church-history-life-of-constantine.xml)
+  locus: "Church History VII.25.4-5, quoting Dionysius of Alexandria On Promises (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 41418-41428)"
   license: public-domain
 text: >-
   But I could not venture to reject the book, as many brethren hold it in high esteem. But I suppose that it is beyond my comprehension, and that there is a certain concealed and more wonderful meaning in every part. For if I do not understand I suspect that a deeper sense lies beneath the words. I do not measure and judge them by my own reason, but leaving the more to faith I regard them as too high for me to grasp. And I do not reject what I cannot comprehend, but rather wonder because I do not understand it.

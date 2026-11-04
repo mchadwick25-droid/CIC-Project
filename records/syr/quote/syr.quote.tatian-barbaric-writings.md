@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.tatian-address-to-greeks
-  locus: 'ch. XXIX (anf02, line 6972)'
+  locus: "ch. XXIX (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 6970-6978)"
   license: public-domain
 text: Retiring by myself, I sought how I might be able to discover the truth. And, while I was giving
   my most earnest attention to the matter, I happened to meet with certain barbaric writings, too old

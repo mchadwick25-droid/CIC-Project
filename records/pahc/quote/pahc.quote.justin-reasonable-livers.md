@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.justin-first-apology
-  locus: "46"
+  locus: "46 (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 15684-15695)"
   license: public-domain
 text: "We have been taught that Christ is the first-born of God, and we have declared above that He is the Word of whom every race of men were partakers; and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus, and men like them; and among the barbarians, Abraham, and Ananias, and Azarias, and Mishael, and Elias, and many others..."
 modern_rendering: We have been taught that Christ is the first-born of God. We have said above that he

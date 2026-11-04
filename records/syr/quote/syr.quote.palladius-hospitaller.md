@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.palladius-lausiac-history
-  locus: the Ephraim chapter
+  locus: "the Ephraim chapter (cic/texts/palladius_lausiac-history_clarke1918.txt, line 471)"
   license: public-domain
 text: '"Then trust me," he said. "See, on your behalf I appoint myself hospitaller."'
 modern_rendering: >-

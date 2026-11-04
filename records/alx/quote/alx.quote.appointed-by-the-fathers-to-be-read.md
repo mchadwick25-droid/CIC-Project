@@ -16,8 +16,7 @@ confidence:
     Documented as Athanasius's own letter of 367, and it stands well outside the window in which most of this world's other material sits. It is evidence about what became of this world's books, written by a later Alexandrian bishop, and should be cited inside a transmission claim rather than as this world's own view of its scriptures.
 sources:
 - source_id: alx.source.athanasius-festal-letters
-  locus: >-
-    Festal Letter XXXIX, sec. 7, of 367 (npnf204_athanasius-select-works-letters.xml)
+  locus: "Festal Letter XXXIX, sec. 7, of 367 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 68817-68823)"
   license: public-domain
 text: >-
   But for greater exactness I add this also, writing of necessity; that there are other books besides these not indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us, and who wish for instruction in the word of godliness. The Wisdom of Solomon, and the Wisdom of Sirach, and Esther, and Judith, and Tobit, and that which is called the Teaching of the Apostles, and the Shepherd.

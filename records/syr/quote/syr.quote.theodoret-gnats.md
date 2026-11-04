@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.theodoret-historia-ecclesiastica
-  locus: II.26
+  locus: "II.26 (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 11174-11175)"
   license: public-domain
 text: he discharged no other curse than to that mosquitoes and gnats might be sent forth upon them
 modern_rendering: >-

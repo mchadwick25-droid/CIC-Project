@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.sozomen-historia-ecclesiastica
-  locus: III.16
+  locus: "III.16 (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 32088-32090)"
   license: public-domain
 text: even now the Syrians frequently sing, not the precise copies by Harmonius, but the same melodies
 modern_rendering: >-

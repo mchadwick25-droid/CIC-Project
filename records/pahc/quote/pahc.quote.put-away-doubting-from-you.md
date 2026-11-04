@@ -16,8 +16,7 @@ confidence:
     Documented as the Shepherd's own text. Hermas is a visionary work in a Roman community, widely read and, as Athanasius's Festal Letter 39 later shows, read to newcomers without being counted as scripture.
 sources:
 - source_id: pahc.source.shepherd-hermas
-  locus: >-
-    The Shepherd of Hermas, Commandment Ninth (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml)
+  locus: "The Shepherd of Hermas, Commandment Ninth (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 2386-2391)"
   license: public-domain
 text: >-
   Put away doubting from you and do not hesitate to ask of the Lord, saying to yourself, 'How can I ask of the Lord and receive from Him, seeing I have sinned so much against Him? 'Do not thus reason with yourself, but with all your heart turn to the Lord and ask of Him without doubting, and you will know the multitude of His tender mercies...

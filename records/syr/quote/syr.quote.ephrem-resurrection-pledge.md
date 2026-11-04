@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-three-homilies
-  locus: On Our Lord, opening
+  locus: "On Our Lord, opening (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 22311-22314)"
   license: public-domain
 text: For our Lord gave His resurrection as a pledge to mortals, that He would remove them from Sheol,
   which receives the departed without distinction, to the Kingdom which admits the invited with distinction

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: XVII.1
+  locus: "XVII.1 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, line 27100)"
   license: public-domain
 text: a reply against the Jews, who blaspheme the people gathered from among the Gentiles
 modern_rendering: >-

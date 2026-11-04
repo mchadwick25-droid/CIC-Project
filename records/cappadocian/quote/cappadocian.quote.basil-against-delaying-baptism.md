@@ -33,10 +33,7 @@ confidence:
     verified-via-authority."
 sources:
 - source_id: cappadocian.source.basil-antiphonal-psalmody-baptismal-letters
-  locus: "Homily XIII, On Holy Baptism, §5 (per endnote 646) - quoted within the Prolegomena's own 'Works:
-    Homiletical' survey, para id vi.ii.v-p130 (npnf208_basil-letters-select-works.xml, lines 7017-7024);
-    this is the 'baptismal protreptic to delay-prone catechumens' half of this source record's own `work`
-    field, not yet pinned to an exact locus before this record"
+  locus: "Homily XIII, On Holy Baptism, §5 (per endnote 646) - quoted within the Prolegomena's own 'Works: Homiletical' survey, para id vi.ii.v-p130 (cic/texts/npnf208_basil-letters-select-works.xml, lines 7018-7024); this is the 'baptismal protreptic to delay-prone catechumens' half of this source record's own `work` field, not yet pinned to an exact locus before this record"
   license: public-domain
 text: >-
   Art thou a young man? Secure thy youth by the bridle of baptism. Has thy

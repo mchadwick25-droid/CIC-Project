@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own writing and circulated by him as a letter, which in this circle means a public document with an argument to win, not private correspondence. He is an advocate for the ascetic life throughout, and his portraits are shaped to persuade.
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: >-
-    Letter XXII (to Eustochium), sec. 28 (npnf206_jerome-principal-works.xml)
+  locus: "Letter XXII (to Eustochium), sec. 28 (cic/texts/npnf206_jerome-principal-works.xml, lines 6367-6371)"
   license: public-domain
 text: >-
   There are others—I speak of those of my own order—who seek the presbyterate and the diaconate simply that they may be able to see women with less restraint. Such men think of nothing but their dress; they use perfumes freely, and see that there are no creases in their leather shoes.

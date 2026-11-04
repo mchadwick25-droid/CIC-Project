@@ -16,8 +16,7 @@ confidence:
     Documented as Origen's own argument, made in open reply to a named pagan critic. It is an inference from the disciples' conduct, not independent testimony to the resurrection, and Origen presents it as exactly that - a proof he 'holds' rather than a fact he witnessed.
 sources:
 - source_id: alx.source.origen-contra-celsum
-  locus: >-
-    Contra Celsum, Book II, ch. LVI, answering the charge that Jesus only seemed to die and faked the rising (anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+  locus: "Contra Celsum, Book II, ch. LVI, answering the charge that Jesus only seemed to die and faked the rising (cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml, lines 41593-41600)"
   license: public-domain
 text: >-
   But a clear and unmistakeable proof of the fact I hold to be the undertaking of His disciples, who devoted themselves to the teaching of a doctrine which was attended with danger to human life,—a doctrine which they would not have taught with such courage had they invented the resurrection of Jesus from the dead; and who also, at the same time, not only prepared others to despise death, but were themselves the first to manifest their disregard for its terrors.

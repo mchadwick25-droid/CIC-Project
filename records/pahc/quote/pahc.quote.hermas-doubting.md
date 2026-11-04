@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.shepherd-hermas
-  locus: "Mandate 9 (the Shepherd's own instruction, spoken to Hermas)"
+  locus: "Mandate 9 (the Shepherd's own instruction, spoken to Hermas) (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 2386-2400)"
   license: public-domain
 text: "Put away doubting from you and do not hesitate to ask of the Lord... For He is not like men, who remember evils done against them; but He Himself remembers not evils, and has compassion on His own creature... For those who doubt regarding God are double-souled, and obtain not one of their requests."
 modern_rendering: >-

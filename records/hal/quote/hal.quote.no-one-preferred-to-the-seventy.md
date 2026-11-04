@@ -19,8 +19,7 @@ confidence:
     the position this world's commitment was argued against, never as an adjudication of it.
 sources:
 - source_id: hal.source.augustine-city-of-god
-  locus: >-
-    City of God XVIII.43 (npnf102, file line 36715)
+  locus: "City of God XVIII.43 (cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml, lines 36730-36743)"
   license: public-domain
 text: >-
   Our times, however, have enjoyed the advantage of the presbyter Jerome, a man most learned, and

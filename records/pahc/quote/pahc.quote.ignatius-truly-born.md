@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: "Trallians 9, shorter (middle) recension"
+  locus: "Trallians 9, shorter (middle) recension (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 6612-6623)"
   license: public-domain
 text: "Stop your ears, therefore, when any one speaks to you at variance with Jesus Christ, who was descended from David, and was also of Mary; who was truly born, and did eat and drink. He was truly persecuted under Pontius Pilate; He was truly crucified, and [truly] died, in the sight of beings in heaven, and on earth, and under the earth. He was also truly raised from the dead, His Father quickening Him, even as after the same manner His Father will so raise up us who believe in Him by Christ Jesus, apart from whom we do not possess the true life."
 modern_rendering: >-

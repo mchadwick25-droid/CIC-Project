@@ -16,8 +16,10 @@ so its span is not matched either. A quote
 cited at two spans (an English edition and a Latin one) passes when its text
 is in any one of them.
 
-A quote whose locus names no machine-readable span is out of this gate's
-reach and passes unchecked; `unchecked_quotes` lists them.
+Every verbatim quote names its exact lines: a verbatim quote
+whose locus names no machine-readable span fails, whatever its verification
+state, since an escalated quote's card still links to the lines it came from.
+`unchecked_quotes` lists them.
 """
 from functools import lru_cache
 from pathlib import Path
@@ -56,11 +58,14 @@ def gate_quote_locus(records, fleet, registry) -> list[str]:
     for rid, rec in sorted(records.items()):
         if rec.get("record_type") != "quote" or rec.get("license") != "verbatim":
             continue
+        refs = cited_spans(rec)
+        if not refs:
+            findings.append(f"{rid}: verbatim quote names no line span; its locus must cite `cic/texts/<file>, lines N-M`")
+            continue
         if (rec.get("confidence") or {}).get("verification_state") != _REQUIRED_VERIFICATION_STATE:
             continue
         text = rec.get("text") or ""
-        refs = cited_spans(rec)
-        if not text.strip() or not refs:
+        if not text.strip():
             continue
         failed, unresolved = None, []
         verified = False

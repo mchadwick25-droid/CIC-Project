@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.julian-rescript-on-christian-teachers
-  locus: "Rescript on Christian Teachers (Letter 36), 362, after June 17, from Antioch
-    (julian_letters-1-73_wright1923.txt)"
+  locus: "Rescript on Christian Teachers (Letter 36), 362, after June 17, from Antioch (cic/texts/julian_letters-1-73_wright1923.txt, line 556)"
   license: public-domain
 text: >-
   If, however, they think that those writers were in error with respect to

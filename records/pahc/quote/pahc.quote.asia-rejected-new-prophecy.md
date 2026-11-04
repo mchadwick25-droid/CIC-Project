@@ -19,8 +19,7 @@ confidence:
     introduction's Tillemont-derived 'circa A.D. 232.'"
 sources:
 - source_id: pahc.source.anti-montanist-fragments
-  locus: "Book I, from the Anonymous's own account of the Asia-wide synodical response to the New
-    Prophecy (anf07 line 11308), the same passage preserved at Eusebius HE V.16.10"
+  locus: "Book I, from the Anonymous's own account of the Asia-wide synodical response to the New Prophecy (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, line 11308), the same passage preserved at Eusebius HE V.16.10"
   license: public-domain
 text: For when the faithful throughout Asia met together often and in many places of Asia for
   deliberation on this subject, and subjected those novel doctrines to examination, and declared them

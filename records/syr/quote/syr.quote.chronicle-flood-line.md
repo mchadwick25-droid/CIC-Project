@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.chronicle-of-edessa
-  locus: the year-513 entry
+  locus: "the year-513 entry (cic/texts/chronicle-of-edessa_cowper.txt, line 53)"
   license: public-domain
 text: And they destroyed the temple of the church of the Christians.
 modern_rendering: >-

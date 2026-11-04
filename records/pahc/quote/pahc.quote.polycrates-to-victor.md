@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.second-third-century-remains
-  locus: 'Polycrates of Ephesus, from his Epistle to Victor and the Roman Church (anf08 line 72521; the
-    passage at 72582), preserved in Eusebius HE V.24'
+  locus: "Polycrates of Ephesus, from his Epistle to Victor and the Roman Church, preserved in Eusebius HE V.24 (cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml, lines 72578-72623; the letter begins at line 72521)"
   license: public-domain
 text: As for us, then, we scrupulously observe the exact day, neither adding nor taking away. For in
   Asia great luminaries have gone to their rest, who shall rise again in the day of the coming of the

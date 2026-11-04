@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 27, sec. 66 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 27, sec. 66 (cic/texts/npnf208_basil-letters-select-works.xml, lines 14068-14081)"
   license: public-domain
 text: >-
   Thus we all look to the East at our prayers, but few of us know that we

@@ -16,8 +16,7 @@ confidence:
     Documented as Sozomen's report, written in Constantinople in the 440s about Persian events of the 340s. He is a Roman-side historian describing a persecution beyond the frontier, and the account is shaped as martyrdom narrative.
 sources:
 - source_id: syr.source.sozomen-historia-ecclesiastica
-  locus: >-
-    Ecclesiastical History II.9, on Sapor's persecution (npnf202_socrates-sozomen-ecclesiastical-histories.xml)
+  locus: "Ecclesiastical History II.9, on Sapor's persecution (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 28873-28877)"
   license: public-domain
 text: >-
   When, in course of time, the Christians increased in number, and began to form churches, and appointed priests and deacons, the Magi, who as a priestly tribe had from the beginning in successive generations acted as the guardians of the Persian religion, became deeply incensed against them.

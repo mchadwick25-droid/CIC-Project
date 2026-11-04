@@ -19,8 +19,7 @@ confidence:
     resolve this from the passage, which supplies no name.
 sources:
 - source_id: syr.source.basil-hexaemeron
-  locus: >-
-    Hexaemeron, Homily II, on Genesis 1:2 (npnf208, file line 16729)
+  locus: "Hexaemeron, Homily II, on Genesis 1:2 (cic/texts/npnf208_basil-letters-select-works.xml, lines 16726-16796)"
   license: public-domain
 text: >-
   How then did the Spirit of God move upon the waters? The explanation that I am about to give you

@@ -16,7 +16,7 @@ confidence:
     Contested at the level of authorship and text. The Ignatian letters survive in a long and a short recension and the ANF prints both; this is the short (generally accepted) recension. That Ignatius wrote something like this on the way to execution is widely accepted; the exact wording of any clause is not.
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: Letter to the Trallians, ch. VII, in the short recension (anf01_apostolic-fathers-justin-irenaeus.xml)
+  locus: "Letter to the Trallians, ch. VII, in the short recension (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 6509-6517)"
   license: public-domain
 text: >-
   Be on your guard, therefore, against such persons. And this will be the case with you if you are not puffed up, and continue in intimate union with Jesus Christ our God, and the bishop, and the enactments of the apostles.

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-canonical-letters-to-amphilochius
-  locus: "Letter CLXXXVIII (Ep. 188, the First Canonical Letter), Canon IV (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter CLXXXVIII (Ep. 188, the First Canonical Letter), Canon IV (cic/texts/npnf208_basil-letters-select-works.xml, lines 35030-35035)"
   license: public-domain
 text: >-
   In the case of trigamy and polygamy they laid down the same rule, in

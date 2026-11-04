@@ -16,8 +16,7 @@ confidence:
     Documented as Clement's own teaching. It is philosophical argument in a Christian frame - the vocabulary of what is 'in our power' is Stoic before it is Christian - so it evidences how an Alexandrian teacher reasoned, not how an ordinary believer experienced doubt.
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: >-
-    Stromateis, in the chapter headed 'The Reason and End of Divine Punishments' (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml); the record's own citation of II.15 and IV.24 points at the same free-will argument across the work
+  locus: "Stromateis, in the chapter headed 'The Reason and End of Divine Punishments' (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 40327-40330); the record's own citation of II.15 and IV.24 points at the same free-will argument across the work"
   license: public-domain
 text: >-
   Now that is in our power, of which equally with its opposite we are masters,—as, say to philosophize or not, to believe or disbelieve. In consequence, then, of our being equally masters of each of the opposites, what depends on us is found possible.

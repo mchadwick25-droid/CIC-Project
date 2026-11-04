@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-protrepticus
-  locus: I (anf02 lines 15211-15218)
+  locus: "I (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 15213-15218)"
   license: public-domain
 text: Behold the might of the new song! It has made men out of stones, men out of beasts. Those, moreover,
   that were as dead, not being partakers of the true life, have come to life again, simply by becoming

@@ -20,9 +20,7 @@ confidence:
     either way: attributed to the account's rendering, never claimed as Ephrem's transcribed words.
 sources:
 - source_id: syr.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. lviij, Of the Blessed Man Ephraim, the Deacon of the Church of Edessa, in Budge's
-    English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. lviij, Of the Blessed Man Ephraim, the Deacon of the Church of Edessa, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1293)"
   license: public-domain
 text: >-
   And the people said unto him, "O man, we know that thou art God"; and he said unto them, "Put

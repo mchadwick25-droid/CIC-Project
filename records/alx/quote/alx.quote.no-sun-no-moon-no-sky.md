@@ -16,8 +16,7 @@ confidence:
     Documented as Origen's argument in the standard English of the ANF Origen volume, read directly at the section cited. The text survives only in Rufinus's Latin, which alx.term.kanon-pisteos already flags for this work; Rufinus admitted smoothing what he thought had been corrupted, so the wording is his even where the argument is Origen's.
 sources:
 - source_id: alx.source.origen-de-principiis
-  locus: >-
-    de Principiis IV.1.16 (anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+  locus: "de Principiis IV.1.16 (cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml, lines 33725-33732)"
   license: public-domain
 text: >-
   For who that has understanding will suppose that the first, and second, and third day, and the evening and the morning, existed without a sun, and moon, and stars? and that the first day was, as it were, also without a sky? And who is so foolish as to suppose that God, after the manner of a husbandman, planted a paradise in Eden, towards the east, and placed in it a tree of life, visible and palpable, so that one tasting of the fruit by the bodily teeth obtained life?

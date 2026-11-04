@@ -16,8 +16,7 @@ confidence:
     Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription marks footnotes as '~1~', which is not reproduced, and writes some spaces as '~', which is kept as printed; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks): syr.dw.born-again-endtimes's own citation of Demonstration VI for 'the second birth; the Spirit received in baptism' names the wrong locus.
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
-  locus: >-
-    Demonstration VII (On Penitents), sec. 20 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt)
+  locus: "Demonstration VII (On Penitents), sec. 20 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt, line 57)"
   license: public-domain
 text: >-
   For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: "He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict".

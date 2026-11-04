@@ -17,8 +17,7 @@ confidence:
     Contested at the level of what actually happened. Jerome tells this as a dream during a fever, decades of retelling stand between the event and the letter, and he was later accused of not having kept the vow it records - he defends himself on exactly that point in his Apology against Rufinus. What is documented is that he told it this way, in a letter he circulated.
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: >-
-    Letter XXII (to Eustochium), sec. 30 - the dream at Antioch during the illness of 374 (npnf206_jerome-principal-works.xml)
+  locus: "Letter XXII (to Eustochium), sec. 30 - the dream at Antioch during the illness of 374 (cic/texts/npnf206_jerome-principal-works.xml, lines 6479-6489)"
   license: public-domain
 text: >-
   Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: "I am a Christian." But He who presided said: "Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience...

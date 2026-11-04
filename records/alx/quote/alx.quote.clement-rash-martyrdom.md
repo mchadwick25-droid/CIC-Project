@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: 'IV.4 (anf02 lines 37819-37827, matching the text field below)'
+  locus: "IV.4 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 37819-37827)"
   license: public-domain
 text: Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but
   sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred

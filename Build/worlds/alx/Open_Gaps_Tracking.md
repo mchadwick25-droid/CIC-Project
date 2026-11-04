@@ -896,3 +896,9 @@ Status: OPEN. Owner: this world's thread.
 - A third reader checked how a bracket in a rendering reaches a participant. The reply sets the rendering inside quotation marks, and the card shows it as written. No code removes single brackets or reads renderings aloud. So "[as deacons]" is shown marked as the translator's word. That reader failed the record on another point: the last sentence had dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". Under the project lead's cap ruling (System Hub Decision Log, "Cap ruling: alx the-grades-here-in-the-church rendering", 2026-11-04), a fresh fourth reader judged only that sentence. It passed "This goes on until they grow into “a mature man.”".
 - Per-record log: `Review-Artifacts/Rendering_Review_Log_26_2026-11-03.md`. The `m1:rendering-review/alx` waiver is removed; the gate reports 0 for alx (26 → 0).
 - **Owner.** Library record-defects thread. Closed.
+
+## OG-46. Every verbatim quote names its exact lines, 2026-11-04.
+
+- **Finding.** 26 alx verbatim quotes named no line span in their locus.
+- **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review table (see "Every quote rendering reviewed by Opus against the edition", 2026-11-04). The `quote-locus` gate checks the text against it, and all 26 match. Two records cite two sources: `dionysius-plague` takes its span on the Eusebius source, whose text it quotes; the second source is a different translation. `origen-scripture-senses` takes its span on the Philocalia source. Where a locus already held a rough pointer for the same file, such as "(anf02 line 18785)" or "near line 47889", the exact span replaces it.
+- **Owner.** Library record-defects thread. Closed.

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep77
-  locus: sec. 10
+  locus: "sec. 10 (cic/texts/npnf206_jerome-principal-works.xml, lines 17716-17718)"
   license: public-domain
 text: 'The whole world knows that a home for strangers has been established at Portus;
   and Britain has learned in the summer what Egypt and Parthia knew in the spring.'

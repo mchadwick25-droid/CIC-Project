@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: sec. 10
+  locus: "sec. 10 (cic/texts/npnf206_jerome-principal-works.xml, lines 21151-21153)"
   license: public-domain
 text: 'Hail Bethlehem, house of bread, wherein was born that Bread that came down from
   heaven.'

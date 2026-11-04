@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-antiphonal-psalmody-baptismal-letters
-  locus: "Letter CCVII, To the clergy of Neocaesarea, sec. 3 (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter CCVII, To the clergy of Neocaesarea, sec. 3 (cic/texts/npnf208_basil-letters-select-works.xml, lines 37288-37302)"
   license: public-domain
 text: >-
   Among us the people go at night to the house of prayer, and, in

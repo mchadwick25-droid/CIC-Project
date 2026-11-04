@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-paidagogos
-  locus: I.2 (anf02 line 18785)
+  locus: "I.2 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 18785-18786)"
   license: public-domain
 text: Our Instructor, the Word, therefore cures the unnatural passions of the soul by means of exhortations.
 modern_rendering: >-

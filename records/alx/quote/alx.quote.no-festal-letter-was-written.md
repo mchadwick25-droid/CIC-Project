@@ -16,8 +16,7 @@ confidence:
     Documented as the Festal Index's own entry in the standard English of the NPNF Athanasius volume, read directly at the year cited. The Index is a later Alexandrian chronological headnote series prefixed to the letters, not Athanasius's own hand.
 sources:
 - source_id: alx.source.athanasius-festal-letters
-  locus: >-
-    Festal Index XXIX (356-7), in the Syriac Festal Letters corpus (npnf204_athanasius-select-works-letters.xml)
+  locus: "Festal Index XXIX (356-7), in the Syriac Festal Letters corpus (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 64366-64369)"
   license: public-domain
 text: >-
   Then Georgius entered on the thirtieth of Mechir, and acted with excessive violence. But Athanasius, the Bishop, had fled, and was sought for in the city with much oppression, many being in danger on this account. Therefore no Festal Letter was written

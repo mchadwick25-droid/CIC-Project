@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: sec. 10
+  locus: "sec. 10 (cic/texts/npnf206_jerome-principal-works.xml, lines 21139-21143)"
   license: public-domain
 text: 'she protested in my hearing that she could behold with the eyes of faith the
   infant Lord wrapped in swaddling clothes and crying in the manger, the wise men

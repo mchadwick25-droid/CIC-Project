@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: I.5 (anf02 lines 27890-27900)
+  locus: "I.5 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 27890-27895)"
   license: public-domain
 retrieval:
   tier: 2

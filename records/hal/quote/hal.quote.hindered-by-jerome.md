@@ -24,7 +24,7 @@ confidence:
     inspection, not by an automated gate.
 sources:
 - source_id: hal.source.palladius-lausiac
-  locus: ch. 41 (file lines 473-475)
+  locus: "ch. 41 (cic/texts/palladius_lausiac-history_clarke1918.txt, line 475)"
   license: public-domain
 text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
   distinction in the spiritual life. She was hindered by a certain Jerome from Dalmatia.

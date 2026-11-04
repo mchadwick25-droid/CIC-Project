@@ -16,8 +16,7 @@ confidence:
     Documented as Jerome's own report, written in Bethlehem from news of a sack he did not witness. The horror is real and the detail is second-hand.
 sources:
 - source_id: hal.source.jerome-ep127
-  locus: >-
-    Letter CXXVII (to Principia, on the death of Marcella), sec. 12 - on the sack of Rome by Alaric in 410 (npnf206_jerome-principal-works.xml)
+  locus: "Letter CXXVII (to Principia, on the death of Marcella), sec. 12 - on the sack of Rome by Alaric in 410 (cic/texts/npnf206_jerome-principal-works.xml, lines 26320-26325)"
   license: public-domain
 text: >-
   My voice sticks in my throat; and, as I dictate, sobs choke my utterance. The City which had taken the whole world was itself taken; nay more famine was beforehand with the sword and but few citizens were left to be made captives.

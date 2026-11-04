@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-hexaemeron-homilies
-  locus: "Hexaemeron, Homily VIII (The creation of fowl and water animals), sec. 8 (npnf208_basil-letters-select-works.xml)"
+  locus: "Hexaemeron, Homily VIII (The creation of fowl and water animals), sec. 8 (cic/texts/npnf208_basil-letters-select-works.xml, lines 21217-21224)"
   license: public-domain
 text: >-
   If we simply read the words of Scripture we find only a few short

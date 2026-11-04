@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.gregory-nyssa-catechetical-oration
-  locus: "The Great Catechism (Catechetical Oration), Chapter XXV (npnf205_gregory-nyssa-dogmatic-treatises.txt)"
+  locus: "The Great Catechism (Catechetical Oration), Chapter XXV (cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt, lines 44319-44337)"
   license: public-domain
 text: >-
   That Deity should be born in our nature, ought not reasonably to

@@ -16,8 +16,7 @@ confidence:
     Documented as the Chronicle's own flood entry in Cowper's English, read directly in the vendored file. The Chronicle was compiled c. 540 from the Edessene archive, so this is a sixth-century copy of a third-century notarial record - the earliest documentary notice of a church building in Edessa, and the reason it survives is that it was filed as a public works report.
 sources:
 - source_id: syr.source.chronicle-of-edessa
-  locus: >-
-    the flood entry, year 513 of the Greeks (201 CE) (cic/texts/chronicle-of-edessa_cowper.txt)
+  locus: "the flood entry, year 513 of the Greeks (201 CE) (cic/texts/chronicle-of-edessa_cowper.txt, line 53)"
   license: public-domain
 text: >-
   And they destroyed the temple of the church of the Christians. And there were killed by that occurrence more than two thousand men, upon many of whom as they slept in the night the waters came suddenly, and they were drowned, and the city was filled with the sound of lamentation.

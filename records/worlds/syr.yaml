@@ -22,8 +22,8 @@ representative: {name: "Mar Yausep"}
 state: admitted
 census_id: "syriac-edessa-nisibis"
 package:
-  manifest_hash: "sha256:4711284d0b03391b7fc922141c82aa227185645f1ef29e204d3a824f5740ad42"
-  location: "packages/syr/2026-11-04T00-41-32Z"
+  manifest_hash: "sha256:a151e9c8503ea2baad23ba4c0e46e150296ce141f53c297a5f676ea888da3ef0"
+  location: "packages/syr/2026-11-04T01-51-51Z"
 thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
 living_tradition_flag: true
 story_placement: false

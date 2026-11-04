@@ -15,10 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
-  locus: "The Longer Rules (Regulae Fusius Tractatae), Rule/Question XXXVII (\"Whether
-    We Must Neglect Work for the Sake of the Prayers and Psalmody, and What Times
-    Are Suitable for Prayer, and First of All Whether We Should Work at All\"), p.
-    206 (basil_ascetic-works-longer-shorter-rules_clarke1925.txt)"
+  locus: "The Longer Rules (Regulae Fusius Tractatae), Rule/Question XXXVII (\"Whether We Must Neglect Work for the Sake of the Prayers and Psalmody, and What Times Are Suitable for Prayer, and First of All Whether We Should Work at All\"), p. 206 (cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt, lines 17072-17096)"
   license: public-domain
 text: >-
   Now since some get off work under pretext of prayers and psalmody, you

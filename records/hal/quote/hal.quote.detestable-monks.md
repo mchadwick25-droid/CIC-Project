@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep39
-  locus: sec. 6
+  locus: "sec. 6 (cic/texts/npnf206_jerome-principal-works.xml, lines 8111-8115)"
   license: public-domain
 text: 'Is not this what we have often said. She weeps for her daughter, killed with
   fasting. She wanted her to marry again, that she might have grandchildren. How long

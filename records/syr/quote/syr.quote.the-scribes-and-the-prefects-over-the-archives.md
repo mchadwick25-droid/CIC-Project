@@ -16,8 +16,7 @@ confidence:
     Documented as the Chronicle's own closing to the flood entry in Cowper's English, read directly in the vendored file. Cowper's '(i.e., archivists.)' is his own gloss and is kept; the page-marker '|32' that follows is not reproduced.
 sources:
 - source_id: syr.source.chronicle-of-edessa
-  locus: >-
-    the flood entry's close, year 513 of the Greeks (201 CE) (cic/texts/chronicle-of-edessa_cowper.txt)
+  locus: "the flood entry's close, year 513 of the Greeks (201 CE) (cic/texts/chronicle-of-edessa_cowper.txt, line 59)"
   license: public-domain
 text: >-
   Now Mar Yahab Bar Shemesh, and Kajuma Bar Magartat, the scribes of Edessa, recorded this event, and the command of Abgar the king: and Bar Din and Bulid, who are prefects over the archives of Edessa, received and deposited it within them as trusted of the city (i.e., archivists.)

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-letters-general-corpus
-  locus: "Letter XIV (To Gregory his friend, on his choice of a Pontic retreat) (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter XIV (To Gregory his friend, on his choice of a Pontic retreat) (cic/texts/npnf208_basil-letters-select-works.xml, lines 24024-24032)"
   license: public-domain
 text: >-
   What need to tell of the exhalations from the earth, or the breezes

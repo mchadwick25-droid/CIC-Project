@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.sulpitius-dialogues
-  locus: Dialogue I.9
+  locus: "Dialogue I.9 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2960-2962)"
   license: public-domain
 text: 'He is always occupied in reading, always at his books with his whole heart: he
   takes no rest day or night; he is perpetually either reading or writing something.'

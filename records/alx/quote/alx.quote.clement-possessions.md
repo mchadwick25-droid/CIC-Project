@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-quis-dives
-  locus: 16 (anf02 lines 56546-56556)
+  locus: "16 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 56548-56558)"
   license: public-domain
 text: For he who holds possessions, and gold, and silver, and houses, as the gifts of God; and ministers
   from them to the God who gives them for the salvation of men; and knows that he possesses them more

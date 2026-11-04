@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.athanasius-festal-letters
-  locus: Letter 39, of 367 (npnf204 lines 68808-68812)
+  locus: "Letter 39, of 367 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 68808-68811)"
   license: public-domain
 text: These are fountains of salvation, that they who thirst may be satisfied with the living words they
   contain. In these alone is proclaimed the doctrine of godliness. Let no man add to these, neither let

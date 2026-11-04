@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.gregory-address-to-origen
-  locus: VI (anf06 lines 3016-3022)
+  locus: "VI (cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml, lines 3017-3021)"
   license: public-domain
 retrieval:
   tier: 2

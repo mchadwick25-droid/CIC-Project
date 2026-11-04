@@ -16,8 +16,7 @@ confidence:
     Documented as Eusebius's narrative in the standard English of the NPNF Eusebius volume, read directly at the sections cited. Eusebius is a partisan for Origen and against Demetrius; the motive he assigns - 'overcome by human weakness' - is his reading, not a report.
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: >-
-    Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constantine.xml)
+  locus: "Church History VI.8.4-5 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 33217-33233)"
   license: public-domain
 text: >-
   But soon afterward, seeing that he was prospering, and becoming great and distinguished among all men, the same Demetrius, overcome by human weakness, wrote of his deed as most foolish to the bishops throughout the world. But the bishops of Cesarea and Jerusalem, who were especially notable and distinguished among the bishops of Palestine, considering Origen worthy in the highest degree of the honor, ordained him a presbyter. Thereupon his fame increased greatly, and his name became renowned everywhere, and he obtained no small reputation for virtue and wisdom. But Demetrius, having nothing else that he could say against him, save this deed of his boyhood, accused him bitterly, and dared to include with him in these accusations those who had raised him to the presbyterate.
