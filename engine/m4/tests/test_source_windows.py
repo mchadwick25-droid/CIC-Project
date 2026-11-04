@@ -149,3 +149,78 @@ def test_a_cited_range_longer_than_the_ceiling_keeps_its_opening_and_is_marked_t
     (short,) = source_windows.context_blocks(_record(), {SOURCE["id"]: SOURCE},
                                              (_fixture(tmp_path / "other"), tmp_path / "other")[1])
     assert short["trimmed"] is False
+
+
+CLEMENT = "xyz04_fixture-clement.xml"
+
+
+def _clement(tmp_path):
+    def chapters(work, book):
+        return [line for n in ("I", "II", "III") for line in (
+            f'<div4 type="Chapter" title="Chapter {n}.—{work} book {book} chapter {n}." id="{work}.{book}.{n}">',
+            f"<p>{work} book {book} chapter {n} text.</p>", "</div4>")]
+    lines = ['<div1 title="CLEMENT OF ALEXANDRIA" id="vi">', '<div2 title="Exhortation to the Heathen" id="vi.ii">']
+    lines += [line for n in ("I", "II", "III") for line in (
+        f'<div3 type="Chapter" title="Chapter {n}.—Exhortation chapter {n}." id="vi.ii.{n}">',
+        f"<p>Exhortation chapter {n} text.</p>", "</div3>")]
+    lines.append("</div2>")
+    for work, title in (("instructor", "The Instructor"), ("stromata", "The Stromata, or Miscellanies")):
+        lines.append(f'<div2 title="{title}" id="vi.{work}">')
+        for book in ("I", "II"):
+            lines += [f'<div3 type="Book" n="{book}" title="Book {book}" id="vi.{work}.{book}">'] + chapters(work, book) + ["</div3>"]
+        lines.append("</div2>")
+    lines.append("</div1>")
+    path = tmp_path / "cic" / "texts" / CLEMENT
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def _clement_source(work):
+    return {"id": "w.source.clement", "record_type": "source", "author": "Clement of Alexandria (c. 150-215 CE)",
+            "work": work, "edition": f"Fixture, vendored as cic/texts/{CLEMENT}"}
+
+
+def test_a_latin_or_greek_work_name_resolves_inside_its_english_titled_work(tmp_path):
+    _clement(tmp_path)
+    for work, locus, opening in (("Paedagogus", "I", "instructor book I chapter I text."),
+                                 ("Paedagogus", "II.3", "instructor book II chapter III text."),
+                                 ("Stromateis", "II.2", "stromata book II chapter II text."),
+                                 ("Stromateis", "II, V", "stromata book II chapter I text.")):
+        source = _clement_source(work)
+        (block,) = source_windows.context_blocks(_story(locus, source), {source["id"]: source}, tmp_path)
+        assert block["text"].startswith(opening), (work, locus, block["text"])
+        assert "Exhortation" not in block["text"]
+
+
+def test_a_work_the_file_does_not_hold_is_not_located_and_says_why(tmp_path):
+    _clement(tmp_path)
+    source = _clement_source("Excerpta ex Theodoto")
+    record = _story("I.1", source)
+    assert source_windows.context_blocks(record, {source["id"]: source}, tmp_path) == []
+    assert source_windows.source_block(record, record["sources"][0], {source["id"]: source}, tmp_path) == (
+        None, source_windows.WORK_NOT_MATCHED)
+
+
+def test_a_letter_named_with_a_ligature_resolves_inside_that_letter_and_an_absent_letter_does_not(tmp_path):
+    lines = ['<div1 title="IGNATIUS" id="v">', '<div2 title="Epistle to the Ephesians: Shorter and Longer Versions" id="v.ii">',
+             "<h4>Chap. VIII.</h4>", "<p>Ephesians eight text.</p>", "</div2>",
+             '<div2 title="Epistle to the Smyrnæans: Shorter and Longer Versions" id="v.vii">',
+             '<div3 type="Chapter" title="Chapter VIII.—Let nothing be done without the bishop." id="v.vii.viii">',
+             "<p>Smyrnaeans eight text.</p>", "</div3>", "</div2>", "</div1>"]
+    path = tmp_path / "cic" / "texts" / NAME
+    path.parent.mkdir(parents=True)
+    path.write_text("\n".join(lines), encoding="utf-8")
+    source = {**SOURCE, "edition": f"vendored as cic/texts/{NAME} (div1 v)"}
+    records = {source["id"]: source}
+    (block,) = source_windows.context_blocks(_story("Smyrnaeans 8", source), records, tmp_path)
+    assert block["text"] == "Smyrnaeans eight text." and "Smyrnæans" in block["division_path"][1]
+    record = _story("Philippians 8", source)
+    assert source_windows.source_block(record, record["sources"][0], records, tmp_path) == (None, source_windows.WORK_NOT_MATCHED)
+
+
+def test_titles_fold_ligatures_accents_case_and_punctuation():
+    keys = source_windows.work_names({"work": "Stromateis (Miscellanies), Books I-II"})
+    assert source_windows.names_work("The Stromata, or Miscellanies", keys)
+    assert not source_windows.names_work("Exhortation to the Heathen", keys)
+    assert source_windows.names_work("THE HEXÆMERON.", source_windows.work_names({"work": "The Hexaemeron, Homily II"}))
+    assert source_windows.names_work("Origen Against Celsus.", source_windows.work_names({"work": "Contra Celsum"}))
