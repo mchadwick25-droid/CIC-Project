@@ -25,7 +25,7 @@ def _family(stems, british_end: str, american_end: str, endings) -> None:
 _family(
     ("colo", "hono", "favo", "behavio", "neighbo", "labo", "harbo", "rumo", "humo", "vigo", "rigo", "valo", "savo",
      "flavo", "endeavo", "fervo", "armo", "cando", "clamo", "splendo", "odo", "parlo", "vapo", "tumo", "demeano",
-     "unfavo", "tricolo", "ardo", "succo"),
+     "unfavo", "tricolo", "ardo", "succo", "arbo"),
     "ur", "r", ("", "s", "ed", "ing", "ful", "fully", "less", "able", "ably", "ite", "ites", "ist", "ists", "er", "ers", "y", "hood", "hoods"),
 )
 TABLE["saviour"], TABLE["saviours"] = "savior", "saviors"
@@ -56,6 +56,7 @@ _family(("cent", "epicent"), "re", "er", ("", "s"))
 TABLE["centred"] = "centered"
 TABLE["epicentred"] = "epicentered"
 TABLE["centring"] = "centering"
+_family(("amphitheat",), "re", "er", ("", "s"))
 _family(("theat", "met", "lit", "fib", "calib", "somb", "lust", "meag", "spect", "sab", "kilomet", "millimet", "centimet"),
         "re", "er", ("", "s"))
 TABLE["manoeuvre"], TABLE["manoeuvres"], TABLE["manoeuvred"] = "maneuver", "maneuvers", "maneuvered"
@@ -83,12 +84,14 @@ TABLE.update({
     "moulded": "molded", "smoulder": "smolder", "smouldering": "smoldering", "sulphur": "sulfur",
     "pyjamas": "pajamas", "draught": "draft", "draughts": "drafts", "cosy": "cozy", "moustache": "mustache",
     "enquire": "inquire", "enquired": "inquired", "enquiry": "inquiry", "enquiries": "inquiries",
-    "connexion": "connection", "learnt": "learned", "dreamt": "dreamed", "fulfil": "fulfill",
+    "learnt": "learned", "dreamt": "dreamed", "fulfil": "fulfill",
     "fulfilment": "fulfillment", "enrol": "enroll", "enrolment": "enrollment", "instil": "instill",
     "skilful": "skillful", "skilfully": "skillfully", "wilful": "willful", "wilfully": "willfully",
     "jewellery": "jewelry", "instalment": "installment", "practise": "practice", "practised": "practiced",
     "practising": "practicing", "distil": "distill", "appal": "appall",
     "councillor": "councilor", "councillors": "councilors", "uncatalogued": "uncataloged",
+    "outmanoeuvred": "outmaneuvered", "outmanoeuvre": "outmaneuver", "ploughman": "plowman", "ploughmen": "plowmen",
+    "metred": "metered", "enquirer": "inquirer", "enquirers": "inquirers", "enquiring": "inquiring",
     "catalogue": "catalog", "catalogues": "catalogs", "catalogued": "cataloged", "cataloguing": "cataloging",
     "cataloguer": "cataloger", "cataloguers": "catalogers",
 })
@@ -98,7 +101,7 @@ WORD_RE = re.compile(
     re.IGNORECASE,
 )
 
-_COMPARE_RE = re.compile(
+COMPARE_RE = re.compile(
     r"(?<![\w/_.])(?:" + "|".join(sorted(map(re.escape, TABLE), key=len, reverse=True)) + r")(?![\w/_])",
     re.IGNORECASE,
 )
@@ -127,4 +130,4 @@ def normalize(text: str) -> str:
     """The text with every British form replaced by the American one, wherever it stands
     (quotations included, and a form joined to another word by a hyphen): used to compare two texts,
     never to rewrite one."""
-    return _COMPARE_RE.sub(lambda m: american(m.group(0)) if is_flagged(m.group(0)) else m.group(0), text)
+    return COMPARE_RE.sub(lambda m: american(m.group(0)) if is_flagged(m.group(0)) else m.group(0), text)

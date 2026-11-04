@@ -22,13 +22,13 @@ card_name: "The Ordinary Church"
 app: {order: 12, accent_color: "#85914E", portrait: "/images/portraits/thumb/datus.webp"}
 representative: {name: Datus}
 census_id: "latin-pastoral-congregational-christianity"
-thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote in Carthage or Hippo between 246 and 430 survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
+thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote in Carthage or Hippo between 246 and 430 survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practiced, which the surviving arguments take for granted and do not describe."
 safety_adjacent: true
 living_tradition_flag: true
 state: built
 package:
-  manifest_hash: "sha256:372755e23eff16239a6949002d6667843e2ccf5f95c4ab3dfa8c30306e614169"
-  location: "packages/lpc/2026-11-04T00-43-25Z"
+  manifest_hash: "sha256:81fe572182901820c96cf9cae3844fdabcf8a707f3a30e484e8008ffb443a1b0"
+  location: "packages/lpc/2026-11-04T01-41-05Z"
 story_placement: false
 card:
   portrait: "assets/portraits/datus.jpg"
