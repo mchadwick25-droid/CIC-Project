@@ -441,3 +441,7 @@ Status: OPEN for the project lead to schedule.
    (6) ijc ijc_World_Profile L214: "Doc_07's own open item" (pagan-boundary coverage gap pointer; not found in Doc_07).
 
    Status: OPEN.
+
+50. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 39 ijc renderings with no named Opus review file. Two independent Opus reviewers read all 39 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed two, both P1. In `chalcedon-definition`, the translator's bracketed "[united]" was voiced as the Council's own word. In `vc-conquer-by-this`, the hour and the inscription had moved outside Constantine's "He said that" report. Both were re-rendered by Opus and passed a second independent Opus reader. `chalcedon-definition`'s use_note.means was corrected the same way. An independent pull-request review re-checked both and a sample of the passed renderings. Per-record log: `Review-Artifacts/Rendering_Review_Log_39_2026-11-03.md`. The `m1:rendering-review/ijc` waiver is removed; the gate reports 0 for ijc (39 → 0).
+
+   Status: CLOSED.

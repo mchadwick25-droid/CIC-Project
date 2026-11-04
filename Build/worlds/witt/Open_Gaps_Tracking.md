@@ -2898,3 +2898,9 @@ Status: OPEN. Owner: the coach thread.
 The Framework V7.4 status block still reads "DRAFT - pending Opus deep review and project-lead review; not yet ratified", with an addendum noting that six worlds have frozen against it as though it were governing and that ratifying it outright remains the project lead's decision. The S6.1 promotion decision and that status block have not been reconciled. `witt_Doc_07_Integrated_Ecology_Analysis.md` applies V7.4 as the governing text and records the residue at section 12. The residue is stated here as an open item after the live-surface cleanup removed the dated provenance around it from Doc_07 line 25.
 
 Status: OPEN. Owner: the project lead, through the coach thread.
+
+## OG-95. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+- **Finding.** The `rendering-review` gate found 13 witt renderings with no named Opus review file.
+- **Done.** An independent Opus reviewer read all 13 against each record's `text` and the edition text in `cic/texts/` at its locus. Twelve passed. Round 1 failed `you-too-must-have-a-care` (P1), reading Luther's concession as limited to some princes and lords. A restrictive re-rendering passed round 2. The independent pull-request review then found that the edition sets the clause off with commas (non-restrictive), and that the section before it blames "you princes and lords" as a class, so the re-rendering narrowed what Luther concedes. The original rendering was restored. A third independent Opus reader confirmed that the round 1 finding was a misreading and that the original meets the bar. The record is unchanged from before this work. Per-record log: `Review-Artifacts/Rendering_Review_Log_13_2026-11-03.md`. The `m1:rendering-review/witt` waiver is removed; the gate reports 0 for witt (13 → 0).
+- **Owner.** Library record-defects thread. Closed.
