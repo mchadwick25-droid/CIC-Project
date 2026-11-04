@@ -118,7 +118,7 @@ the whole African church across this world's window, with chapters on the mid-th
 persecution and Cyprian. A search of the 308-row Registry finds no Decret. The Registry's
 modern layer is rich on Cyprian (rows 32, 54, 55, 77) and on Augustine, and has no general
 survey of the African church to orient a reader. Search record:
-`lpc.search.web-decret-early-christianity-north-africa`. Catalogues disagree on the James Clarke
+`lpc.search.web-decret-early-christianity-north-africa`. Catalogs disagree on the James Clarke
 date (2009 or 2011); I saw a search summary, not the book.
 
 **(2) W. H. C. Frend, *Martyrdom and Persecution in the Early Church* (Oxford: Blackwell, 1965;
@@ -178,7 +178,7 @@ and found none. I did not read those documents for sources cited by name.
 
 **Method.** (a) Corpus-map files not named in the Registry by file name: five. Three are
 covered (below). (b) Vendored files whose names match Cyprian, Augustine, Possidius, Carthage,
-Hippo, Africa, councils, martyr acts, Tertullian, Eusebius and neighbours, checked against the
+Hippo, Africa, councils, martyr acts, Tertullian, Eusebius and neighbors, checked against the
 Registry and Doc_02 text. (c) Other worlds' maps scanned for entries mentioning the world's
 people and places whose source file the Registry does not mention.
 

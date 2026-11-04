@@ -47,7 +47,7 @@ This is the question on which communion is tested hardest, and the one that make
 ## Distortion Risk
 
 **Modern Hearing:**
-A modern participant is likely to hear "heresy" as settled, malicious deviation from an agreed orthodoxy — a charge levelled by an institution confident of its own correctness, with inquisitorial overtones and a foregone conclusion.
+A modern participant is likely to hear "heresy" as settled, malicious deviation from an agreed orthodoxy — a charge leveled by an institution confident of its own correctness, with inquisitorial overtones and a foregone conclusion.
 
 **World Hearing:**
 A genuinely open question, argued at book length by both sides, about whether a specific act performed outside one communion is valid. The two most respected figures in this world's own record answer it in opposite directions, and the later one is arguing against the earlier one's ruling while treating him as unquestionably inside the church.
@@ -64,4 +64,4 @@ Cyprian: the Epistles' rebaptism correspondence (Registry row 1) and the 256 Cou
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied here: the two positions are Documented in both bishops' own extended treatments, and the disagreement is in-world rather than a live scholarly contest about the word's meaning. Doc_03 withheld [CT] on this entry for the same reason and this document confirms rather than re-derives that judgement.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. CT tag not applied here: the two positions are Documented in both bishops' own extended treatments, and the disagreement is in-world rather than a live scholarly contest about the word's meaning. Doc_03 withheld [CT] on this entry for the same reason and this document confirms rather than re-derives that judgment.

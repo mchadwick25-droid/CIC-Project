@@ -61,7 +61,7 @@ Confidence cells above carry the leading band only where a chunk declares more t
 
 **7 of 7 stories classified within the four permitted tiers, each with a confidence band CF V7.4 assigns that tier. Zero unclassified, zero ambiguous, zero Tier 5.**
 
-**This table is a structural check and not a substitute for reading the stories.** It proves each chunk *declares* a permitted tier and a consistent band. **Whether a story is genuinely sourced rather than composited is a reviewer's judgement no script makes** — Doc_09 §4 is where that judgement is recorded, story by story, and §6 records **five** candidates considered and not built.
+**This table is a structural check and not a substitute for reading the stories.** It proves each chunk *declares* a permitted tier and a consistent band. **Whether a story is genuinely sourced rather than composited is a reviewer's judgment no script makes** — Doc_09 §4 is where that judgment is recorded, story by story, and §6 records **five** candidates considered and not built.
 
 ---
 
@@ -77,7 +77,7 @@ Confidence cells above carry the leading band only where a chunk declares more t
 | `lpcstory006` | 7, 41, 194 | row 7: **Native**, row 41: **Native**, row 194: **Native** |
 | `lpcstory007` | 192 | row 192: **Native** |
 
-**Every row a story actually draws on is Native. No story draws on an Excluded row, and none draws on a neighbouring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.
+**Every row a story actually draws on is Native. No story draws on an Excluded row, and none draws on a neighboring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.
 
 **Rows a chunk names in order to say it did *not* use them are listed separately and excluded from the check.** The derivation is **polarity-aware**: a row named inside a clause that says it was not used is not credited to the story, and it is shown rather than silently dropped, because a silent exclusion is the same defect inverted.
 
@@ -109,7 +109,7 @@ Confidence cells above carry the leading band only where a chunk declares more t
 | `lpcstory004` | Participant asks what this world did with money… | The participant is asking about modern charitable giving or church finance, which this story cannot be made to speak to without distortion. |
 | `lpcstory005` | Participant asks what happened to those who failed under persecution… | Early in an encounter, before the participant has any sense of what the lapsed crisis was — the story is unintelligible without it. |
 | `lpcstory006` | Participant asks how this world understood a life completed… | The participant wants a transcript of Cyprian's trial. |
-| `lpcstory007` | Participant asks whether the people who taught repentance practised it… | The participant is asking about Augustine's theology of grace, which this story does not carry. |
+| `lpcstory007` | Participant asks whether the people who taught repentance practiced it… | The participant is asking about Augustine's theology of grace, which this story does not carry. |
 
 ---
 

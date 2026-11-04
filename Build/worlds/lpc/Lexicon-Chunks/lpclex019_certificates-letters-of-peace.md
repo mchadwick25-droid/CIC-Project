@@ -32,7 +32,7 @@ The claim is not made in the abstract. It is made on paper, and the paper arrive
 
 A confessor who stood before the magistrate writes a letter for this man, or this woman, asking peace for them or saying it is granted. Cyprian does not say such letters should not exist — he says they must be written a particular way. *designate by name in the certificate those whom you yourselves see, whom you have known, whose penitence you see to be very near to full satisfaction, and so direct to us letters in conformity with faith and discipline.* Name the person. Know them. Judge their penitence yourself before you ask.
 
-What actually arrives is often not that. *certificates are so given to some as that it is said, "Let such a one be received to communion along with his friends"* — a name and then an open door behind it, so that whoever can claim to be a friend, a neighbour, a freedman or a servant of the man named walks through on his paper. And the scale is his own word for it: *thousands of certificates were daily given, contrary to the law of the Gospel* — not a few hard cases but a parallel readmission system running faster than the bishop's own.
+What actually arrives is often not that. *certificates are so given to some as that it is said, "Let such a one be received to communion along with his friends"* — a name and then an open door behind it, so that whoever can claim to be a friend, a neighbor, a freedman or a servant of the man named walks through on his paper. And the scale is his own word for it: *thousands of certificates were daily given, contrary to the law of the Gospel* — not a few hard cases but a parallel readmission system running faster than the bishop's own.
 
 So the argument is not whether the confessors' suffering counts. It is whether a certificate is a judgment about a particular person, made by someone who knows them — or a token that can be spent. Cyprian's answer is that it must be the first and has become the second, and that a *vague and blind petition* will in the end *heap reproach upon us*. The confessors' answer is that they paid for the standing to write these letters, and they did.
 
@@ -50,7 +50,7 @@ This is the **mechanism** behind the confessor-authority tension, and without it
 A modern participant who has just heard about the *libelli* will assume this is the same document, or a version of it — a certificate to do with the persecution. They will also tend to hear "letter of peace" as a devotional or ceremonial gesture.
 
 **World Hearing:**
-The opposite document, travelling the opposite way. The sacrifice-certificate proves you complied with the empire and made you one of the lapsed; this certificate asks peace for you, or says it is granted. One is issued by the state's process, the other by a Christian who survived that process. And it is administratively real — issued in thousands, argued over by name, and regulated in writing.
+The opposite document, traveling the opposite way. The sacrifice-certificate proves you complied with the empire and made you one of the lapsed; this certificate asks peace for you, or says it is granted. One is issued by the state's process, the other by a Christian who survived that process. And it is administratively real — issued in thousands, argued over by name, and regulated in writing.
 
 ---
 

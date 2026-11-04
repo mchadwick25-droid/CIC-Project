@@ -121,8 +121,8 @@ Related-Terms uses a **comma-free reference handle** for every term, so the fiel
 | reconciliation / penitential discipline | **Yes** | Epistles XX–XXI are the rare non-episcopal voice; the reconciled believer still does not speak |
 | confessor | **Yes** | evidence base is essentially one Registry row read through one lexicon entry |
 | grace | **Yes** | entire base is one voice within one evidence stream; no Pelagian first-person answer survives |
-| "plenary Council" — Augustine's hierarchical conciliar formula | **Yes** | spoken in defence of overturning Cyprian's ruling; institutional interest runs opposite |
-| "compel them to come in" — Augustine's coercion doctrine | **Yes** | known only through Augustine's own advocacy, in his own defence |
+| "plenary Council" — Augustine's hierarchical conciliar formula | **Yes** | spoken in defense of overturning Cyprian's ruling; institutional interest runs opposite |
+| "compel them to come in" — Augustine's coercion doctrine | **Yes** | known only through Augustine's own advocacy, in his own defense |
 | "certificates" — the martyrs' and confessors' letters of peace | **Yes** | the confessors' own certificates do not survive; Cyprian quotes and objects to them |
 
 **8 of 19 entries carry an Author Gravity note.** The column is derived from the presence of that note in each chunk, so it cannot disagree with the chunk.

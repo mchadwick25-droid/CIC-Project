@@ -30,7 +30,7 @@ For us, a confessor is one who was interrogated for the Name and did not deny it
 
 You were taken, you were asked, and you did not say what they wanted. Then, unlike the others, you came back. That is what a confessor is, and everyone knows which of them it is, because it happened where people could see.
 
-What follows is not a title and not an honour that sits quietly. It is a claim. A person who stood in front of a magistrate and held will not easily accept that they have nothing to say about the ones who did not hold. They were there. They know what the hour cost. And so they write — *I stood, and my brother stood, and between us we say this man may come back* — and letters like that go to bishops, and the people named in them expect to be received.
+What follows is not a title and not an honor that sits quietly. It is a claim. A person who stood in front of a magistrate and held will not easily accept that they have nothing to say about the ones who did not hold. They were there. They know what the hour cost. And so they write — *I stood, and my brother stood, and between us we say this man may come back* — and letters like that go to bishops, and the people named in them expect to be received.
 
 Against that stands the other conviction, which is not a denial of what the confessor suffered: the peace of the church is not any man's to give out of his own suffering, however real, because the church is not the sum of what each of us endured. Both positions are held by people in earnest. The difficulty is genuine and this world does not resolve it — it regulates it, and goes on arguing.
 

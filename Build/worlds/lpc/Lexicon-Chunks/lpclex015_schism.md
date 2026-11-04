@@ -36,7 +36,7 @@ The difference is not the intensity of the dispute. It is whether anyone walked 
 
 ## Ecological Function
 
-Schism is the negative boundary of communion and the thing the one episcopate exists to make intelligible. It is also where this world draws its own line against its neighbours — the conviction that disagreement is survivable and separation is not.
+Schism is the negative boundary of communion and the thing the one episcopate exists to make intelligible. It is also where this world draws its own line against its neighbors — the conviction that disagreement is survivable and separation is not.
 
 ---
 

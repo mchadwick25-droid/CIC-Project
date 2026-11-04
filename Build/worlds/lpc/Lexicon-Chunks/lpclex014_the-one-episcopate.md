@@ -52,7 +52,7 @@ Neither. A single office, one and undivided, each part of it held by each bishop
 
 *De Unitate*, Registry row 3 (Confidence B, on the absence of independent locus verification within the treatise).
 
-**Citation caution, carried forward from Doc_03 exactly as it asked Doc_06 to carry it.** *De Unitate* predates the Stephen controversy by several years and **does not carry Cyprian's anti-Stephen argument**. The phrase *episcopatus unus est* (*De Unitate* 5) is **not evidence for that dispute**, and this entry uses the treatise for its general ecclesiology only. Row 3 also carries the unresolved two-recension question for chapters 4–5 — one form, the "Primacy Text," more favourable to Roman primacy — and **nothing in this entry depends on either recension's specific wording.**
+**Citation caution, carried forward from Doc_03 exactly as it asked Doc_06 to carry it.** *De Unitate* predates the Stephen controversy by several years and **does not carry Cyprian's anti-Stephen argument**. The phrase *episcopatus unus est* (*De Unitate* 5) is **not evidence for that dispute**, and this entry uses the treatise for its general ecclesiology only. Row 3 also carries the unresolved two-recension question for chapters 4–5 — one form, the "Primacy Text," more favorable to Roman primacy — and **nothing in this entry depends on either recension's specific wording.**
 
 ---
 
