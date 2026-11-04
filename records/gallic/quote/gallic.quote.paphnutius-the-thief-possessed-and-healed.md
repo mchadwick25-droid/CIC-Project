@@ -67,7 +67,7 @@ modern_rendering: >-
   priest Isidore could not drive the cruel tormentor out of him. Yet the Lord had generously given
   Isidore such power that no possessed person was ever brought to his door without being healed at once. For Christ
   was saving this glory for the young Paphnutius. The man would be cleansed only by the prayers of the
-  one he had plotted against. The jealous enemy would be pardoned for his offence, and his present punishment ended,
+  one he had plotted against. The jealous enemy would be pardoned for his offense, and his present punishment ended,
   only by calling out Paphnutius's name. This was the man whose good name he had thought he could
   damage.
 use_note:

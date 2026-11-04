@@ -23,9 +23,9 @@ citation: 'Melanchthon & Luther, Deuttung der zwo grewlichen Figuren, Bapstesels
 kind: unvendored
 rights_status: "Only Cole's advertisement of the pamphlet is held, embedded within a vendored text (cic/texts/luther_bondage-of-the-will_cole1823.txt, line 16266 ff.); the 1523 pamphlet itself is not in the Library. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
-discovery_channel: builder-direct-read; Source Registry row 86; Cole file; WebSearch catalogue records
+discovery_channel: builder-direct-read; Source Registry row 86; Cole file; WebSearch catalog records
   (SLUB; DDB, Luthermuseen); 2026-09-15 (Revision 1)
 external_ids:
   witt_source_registry_row: 86
 ---
-Image-polemic as a material register; the identification at Widely Accepted (Doc_02 §6). (Source Registry row 86; Confidence A (Cole's advertisement read; the 1523 print's catalogue record checked).)
+Image-polemic as a material register; the identification at Widely Accepted (Doc_02 §6). (Source Registry row 86; Confidence A (Cole's advertisement read; the 1523 print's catalog record checked).)

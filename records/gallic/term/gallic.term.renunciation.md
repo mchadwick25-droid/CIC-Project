@@ -15,7 +15,7 @@ confidence:
   divergence_note: >-
     Cross-voice: the word and the act are shared across both nodes and a fourth voice (Salvian, who
     also uses it of the baptismal renunciation every Christian made at the font); the threefold schema
-    is Cassian's alone and framed as Paphnutius's Egyptian teaching. Tours has the thing counselled and
+    is Cassian's alone and framed as Paphnutius's Egyptian teaching. Tours has the thing counseled and
     done without the technical term. Pruned from Doc_03's Tier-1 estimate because it does not organize
     independently of the pattern in which the renunciant returns to the Church as a bishop.
 sources:
@@ -97,12 +97,12 @@ senses:
     detaching the soul "from all present and visible things." And he ranks them: the first "is of what
     is not our own, and therefore is not enough of itself." Salvian sees the rich who "make a show of
     renouncing their wealth," and also uses the word for what every Christian said at the font: "I
-    renounce the devil, his pomps and spectacles and his works." At Tours the thing is counselled
+    renounce the devil, his pomps and spectacles and his works." At Tours the thing is counseled
     without the term - Martin pressed on Sulpitius "that the allurements of this world and secular
     burdens were to be abandoned" - and Martin's own renunciation is a discharge before Caesar.
   evidential: >-
     Cassian (Institutes IV.1, IV.4, IV.34, IV.36; Conferences III.6, III.10), Salvian (VI.6, III.3,
-    within his licence) and Sulpitius (Life chs. IV, XXV). The threefold schema is Cassian's and
+    within his license) and Sulpitius (Life chs. IV, XXV). The threefold schema is Cassian's and
     received. The Latin renuntiantium is attested only in the editor's Prolegomena, giving the
     Institutes' title.
   personal: >-

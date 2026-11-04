@@ -91,7 +91,7 @@ senses:
     devil comes "clothed in purple, and with a glittering crown." At Marseilles the cell is a
     discipline before it is a place: a cell "which he inhabits alone, or is allowed to share with only
     one other"; after the office no one "dares to loiter ... nor does he presume even to leave his cell
-    throughout the whole day." Labour holds the monk there "like some strong and immoveable anchor,"
+    throughout the whole day." Labor holds the monk there "like some strong and immoveable anchor,"
     so that the wanderings of the heart, "fastened within the barriers of the cell, may be shut up in
     some perfectly secure harbour." And the cell has its own disease, accidie, which "produces dislike
     of the place, disgust with the cell."
@@ -107,14 +107,14 @@ senses:
   translational: >-
     'A cell - like a prison, or a private room?' - neither: it is the one place a monk is, a wooden
     hut or a hollow in the rock he rarely leaves except for prayer, where saints and the devil appear,
-    and in the south a harbour whose barriers hold the wandering heart still by labour and rule - with
+    and in the south a harbor whose barriers hold the wandering heart still by labor and rule - with
     its own named affliction at noon.
 quick_meaning: >-
   The monk's own hut or cave, rarely left except for prayer - where saints and the devil come, and
   where the wandering heart is held still.
 distortion_risk: medium
 use_note:
-  means: "The cell meant the monk's own dwelling, at Tours a hut or cave rarely left except for prayer, at Marseilles a discipline holding the wandering heart still by labour."
+  means: "The cell meant the monk's own dwelling, at Tours a hut or cave rarely left except for prayer, at Marseilles a discipline holding the wandering heart still by labor."
   not_for:
     - "a prison cell, or a bare private bedroom with solitude as privacy"
     - "the house as a whole, which sits in gallic.term.monastery-coenobium"
@@ -125,7 +125,7 @@ use_note:
 ---
 Built from Doc_06 entry 016 (Tier 2, promoted from Doc_03's Tier 3 on Doc_05 §1.2; chunk
 galliclex016_cell.md; Doc_03 1.5). Register emic. Quotations verified at locus by the build's own
-Doc_06 pass; not re-read here. Canon cell F4-P: the cell as harbour and anchor for "the wanderings of
+Doc_06 pass; not re-read here. Canon cell F4-P: the cell as harbor and anchor for "the wanderings of
 the heart" is this world's own substantive answer to someone who struggles to quiet their mind.
 
 Related-Terms also names the devil / demons, illusion and angels - cross-batch at authoring time,

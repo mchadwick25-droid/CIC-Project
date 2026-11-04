@@ -58,7 +58,7 @@ why_sources_cannot_answer: >-
   This world's own read corpus contains no apologetic writing at all. The
   Institutes and Conferences are formation literature carrying Egypt's
   teaching to Gallic cells; Sulpitius's Life, Letters, and Dialogues are
-  hagiography and its defence; the Commonitory is a rule for telling
+  hagiography and its defense; the Commonitory is a rule for telling
   received faith from novelty. None argues the resurrection to a doubter,
   and none names any chain of witnesses back to the apostolic age - the
   world's floor (c. 360) stands more than three centuries after the

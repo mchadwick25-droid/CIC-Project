@@ -120,10 +120,10 @@ senses:
     profession has both: "The end of our profession ... is the kingdom of God or the kingdom of heaven:
     but the immediate aim or goal, is purity of heart, without which no one can gain that end."
     Everything else is then ranked by it: fastings, vigils, meditation on the Scriptures, self-denial
-    "are not perfection, but aids to perfection," all practised "with a view to our main object, i.e.,
+    "are not perfection, but aids to perfection," all practiced "with a view to our main object, i.e.,
     purity of heart, which is charity." Prayer is where the goal shows itself - "the aim of every monk
     and the perfection of his heart tends to continual and unbroken perseverance in prayer" - and the
-    argument about grace is fought inside it: no bodily labour "can be sufficient for the acquisition
+    argument about grace is fought inside it: no bodily labor "can be sufficient for the acquisition
     of that true chastity of the inner man" without God's help. At Tours the words are not used;
     Martin has the thing itself, a heart that tests what it is offered, refusing a robe said to come
     from heaven and a purple-robed Christ.
@@ -137,7 +137,7 @@ senses:
   personal: >-
     This is what the fathers handed down and Cassian brought to us, not what Gaul devised - and we say
     so. It is the standard by which we weigh every practice we are given: the office, the fast, the
-    labour, each judged by whether it clears the heart, and none of them dropped for the sake of the
+    labor, each judged by whether it clears the heart, and none of them dropped for the sake of the
     very thing they serve. It is what we work toward and cannot make.
   translational: >-
     'Purity of heart - do you mean chastity, or just being sincere?' - neither: we mean the target
