@@ -176,10 +176,8 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:rendering-review/alx": Waiver(count=26, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); alx's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/cappadocian": Waiver(count=21, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); cappadocian's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/hal": Waiver(count=32, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); hal's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/ijc": Waiver(count=39, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); ijc's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/pahc": Waiver(count=25, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); pahc's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/syr": Waiver(count=34, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); syr's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/witt": Waiver(count=13, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); witt's own build thread, per the lpc rendering review log's format"),
     # gate_readability covers every field engine/m1/spoken_fields.py
     # declares under an instruction/voice-diet/evidence-head/
     # facilitator-spoken role, not just term/honest_limit/
