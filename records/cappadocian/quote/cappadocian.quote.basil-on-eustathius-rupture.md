@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-eustathius-rupture-letters
-  locus: "Letter CCXXVI (Ep. 226), 'To the ascetics under him,' sec. 3 (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter CCXXVI (Ep. 226), 'To the ascetics under him,' sec. 3 (cic/texts/npnf208_basil-letters-select-works.xml, lines 39744-39753)"
   license: public-domain
 text: >-
   They falsely accuse me of introducing novelties about the Holy Spirit.

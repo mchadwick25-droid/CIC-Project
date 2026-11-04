@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: VII.22 (npnf201 lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)
+  locus: "VII.22 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)"
   license: public-domain
 - source_id: alx.source.dionysius-extant-fragments
   locus: 'the same letter, in a different translation, in the collected fragments - ANF06

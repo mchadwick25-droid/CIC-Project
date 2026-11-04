@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: I.1 (anf02 lines 27491-27495)
+  locus: "I.1 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 27492-27495)"
   license: public-domain
 text: He, the true, the Sicilian bee, gathering the spoil of the flowers of the prophetic and apostolic
   meadow, engendered in the souls of his hearers a deathless element of knowledge.

@@ -16,8 +16,7 @@ confidence:
     Documented as the Didache's own text, from a manual whose date and place remain contested (see pahc.source.didache). What it evidences is the practice of the community that used it.
 sources:
 - source_id: pahc.source.didache
-  locus: >-
-    The Teaching of the Twelve Apostles, ch. VII.1-3, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnotes are removed from the text quoted here
+  locus: "The Teaching of the Twelve Apostles, ch. VII.1-3, in the ANF (Riddle) translation (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, lines 12914-12920); the edition's interleaved footnotes are removed from the text quoted here"
   license: public-domain
 text: >-
   Having first said all these things, baptize into the name of the Father, and of the Son, and of the Holy Spirit, in living water. But if thou have not living water, baptize into other water; and if thou canst not in cold, in warm. But if thou have not either, pour out water thrice upon the head into the name of Father and Son and Holy Spirit.

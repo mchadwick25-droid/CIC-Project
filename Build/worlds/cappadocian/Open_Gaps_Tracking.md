@@ -1049,3 +1049,9 @@ The forces document's index row 2A-1 now lists Supporting 4 (Paideia converted),
 Per-record log: `Review-Artifacts/Rendering_Review_Log_21_2026-11-03.md`. The `m1:rendering-review/cappadocian` waiver is removed; the gate reports 0 for cappadocian (21 → 0).
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-63. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 21 cappadocian verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found in the batch review table (see the entry "Every quote rendering reviewed by Opus against the edition; forces index row 2A-1", 2026-11-03). The `quote-locus` gate checks each. One reviewer span ended short: `basil-against-eunomius-ant` runs to "the power of the incomprehensible God?" at line 24151 and now cites lines 24124-24151. In `basil-against-delaying-baptism`, the locus's older range (7017-7024) gives way to the verified span, lines 7018-7024.
+
+Status: CLOSED. Owner: Library record-defects thread.

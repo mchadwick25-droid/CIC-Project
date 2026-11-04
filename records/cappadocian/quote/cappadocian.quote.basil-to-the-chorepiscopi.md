@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-chorepiscopoi-letters
-  locus: "Letter LIII (Ep. 53), To the Chorepiscopi (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter LIII (Ep. 53), To the Chorepiscopi (cic/texts/npnf208_basil-letters-select-works.xml, lines 27548-27555)"
   license: public-domain
 text: >-
   It is a lighter sin to wish in ignorance to buy, than it is to sell,

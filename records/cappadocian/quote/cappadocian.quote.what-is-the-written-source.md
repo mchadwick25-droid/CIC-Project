@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 27, sec. 67 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 27, sec. 67 (cic/texts/npnf208_basil-letters-select-works.xml, lines 14128-14139)"
   license: public-domain
 text: >-
   Time will fail me if I attempt to recount the unwritten mysteries of the

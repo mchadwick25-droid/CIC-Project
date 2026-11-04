@@ -20,8 +20,7 @@ confidence:
     The TEXT itself is not in dispute; who wrote it is."
 sources:
 - source_id: cappadocian.source.basil-epistle-38-ousia-hypostasis
-  locus: "Letter XXXVIII (To his brother Gregory, concerning the difference between ousia and hypostasis),
-    sec. 3 (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter XXXVIII (To his brother Gregory, concerning the difference between ousia and hypostasis), sec. 3 (cic/texts/npnf208_basil-letters-select-works.xml, lines 25461-25468)"
   license: public-domain
 text: >-
   My statement, then, is this. That which is spoken of in a special and

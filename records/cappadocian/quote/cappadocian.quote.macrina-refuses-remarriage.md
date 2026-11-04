@@ -21,7 +21,7 @@ confidence:
     really is."
 sources:
 - source_id: cappadocian.source.gregory-nyssa-life-of-macrina
-  locus: "\"DEATH OF THE YOUNG MAN\" (Migne PG 46, coll. 964C-964D; gregory-nyssa_life-of-macrina_clarke1916.txt)"
+  locus: "\"DEATH OF THE YOUNG MAN\" (Migne PG 46, coll. 964C-964D; cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt, line 128)"
   license: public-domain
 text: >-
   But when the plan formed for her was shattered by the young man's death,

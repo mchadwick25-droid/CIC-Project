@@ -16,8 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: 'VII.24 (npnf201 lines 41310-41318; Dionysius''s own book On the Promises, quoted
-    verbatim, matching the text field below)'
+  locus: "VII.24 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 41312-41318; Dionysius's own book On the Promises, quoted verbatim)"
   license: public-domain
 retrieval:
   tier: 2

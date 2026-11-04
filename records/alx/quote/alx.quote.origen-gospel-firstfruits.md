@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.origen-comm-john
-  locus: I.6 (anf09 ~line 20576)
+  locus: "I.6 (cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml, lines 20575-20577)"
   license: public-domain
 text: We may therefore make bold to say that the Gospels are the first fruits of all the Scriptures, but
   that of the Gospels that of John is the first fruits.

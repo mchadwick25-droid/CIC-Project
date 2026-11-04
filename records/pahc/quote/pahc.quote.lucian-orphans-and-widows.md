@@ -22,9 +22,7 @@ confidence:
     Lucian's own tone.
 sources:
 - source_id: pahc.source.lucian-peregrinus
-  locus: >-
-    The Death of Peregrine, p. 82, in H. W. and F. G. Fowler's English (Oxford, 1905)
-    (cic/texts/lucian_works-vol4-peregrine_fowler1905.txt)
+  locus: "The Death of Peregrine, p. 82, in H. W. and F. G. Fowler's English (Oxford, 1905) (cic/texts/lucian_works-vol4-peregrine_fowler1905.txt, line 1049)"
   license: public-domain
 text: >-
   The Christians took it all very seriously: he was no sooner in prison, than they began trying

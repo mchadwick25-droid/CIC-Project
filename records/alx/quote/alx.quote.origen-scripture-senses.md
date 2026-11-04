@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.origen-philocalia
-  locus: I.11 (file line 76)
+  locus: "I.11 (cic/texts/origen_philocalia_lewis1911.txt, line 76)"
   license: public-domain
 - source_id: alx.source.origen-de-principiis
   locus: IV.1.11 (the same doctrine via Rufinus's Latin)

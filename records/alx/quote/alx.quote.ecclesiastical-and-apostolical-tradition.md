@@ -16,8 +16,7 @@ confidence:
     Documented as Origen's own statement of his working rule, read directly at the preface cited. Rufinus-mediated Latin, as alx.term.kanon-pisteos already records for this work.
 sources:
 - source_id: alx.source.origen-de-principiis
-  locus: >-
-    de Principiis, preface 2 (anf04_tertullian4-minucius-felix-commodian-origen1-2.xml)
+  locus: "de Principiis, preface 2 (cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml, lines 22432-22438)"
   license: public-domain
 text: >-
   so, seeing there are many who think they hold the opinions of Christ, and yet some of these think differently from their predecessors, yet as the teaching of the Church, transmitted in orderly succession from the apostles, and remaining in the Churches to the present day, is still preserved, that alone is to be accepted as truth which differs in no respect from ecclesiastical and apostolical tradition.

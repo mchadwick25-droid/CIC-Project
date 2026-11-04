@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.alexandrian-canonical-answers
-  locus: 'Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, line 44104)'
+  locus: "Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 44111-44164)"
   license: public-domain
 text: 'Question I. If a lad of seven years old, or a man, being a catechumen, being present at the oblation,
   does eat of it through ignorance, what shall be done in this case? Answer. Let him be illuminated, i.e.

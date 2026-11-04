@@ -16,8 +16,7 @@ confidence:
     Documented as Clement's own instruction in the standard English of the ANF Clement volume, read directly at the chapter cited. Wilson's 1885 English of a Greek text thick with names for vessels no longer in use; several are transliterated rather than translated because their referents are not certain.
 sources:
 - source_id: alx.source.clement-paidagogos
-  locus: >-
-    Paedagogus II, ch. 3 (On Costly Vessels) (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml)
+  locus: "Paedagogus II, ch. 3 (On Costly Vessels) (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 22127-22136)"
   license: public-domain
 text: >-
   And silver couches, and pans and vinegar-saucers, and trenchers and bowls; and besides these, vessels of silver and gold, some for serving food, and others for other uses which I am ashamed to name, of easily cleft cedar and thyine wood, and ebony, and tripods fashioned of ivory, and couches with silver feet and inlaid with ivory, and folding-doors of beds studded with gold and variegated with tortoise-shell, and bed-clothes of purple and other colours difficult to produce, proofs of tasteless luxury, cunning devices of envy and effeminacy,—are all to be relinquished, as having nothing whatever worth our pains.

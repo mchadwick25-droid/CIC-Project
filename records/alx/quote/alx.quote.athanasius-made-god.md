@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.athanasius-de-incarnatione
-  locus: 54 (npnf204 line 18744)
+  locus: "54 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 18743-18744)"
   license: public-domain
 retrieval:
   tier: 2

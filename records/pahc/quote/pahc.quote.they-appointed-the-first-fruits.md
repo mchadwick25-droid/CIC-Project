@@ -18,8 +18,7 @@ confidence:
     Contested. The passage is 1 Clement's own argument FOR a practice it is defending in a live dispute at Corinth, so it is advocacy rather than description. Its scriptural warrant is also not what it appears: the ANF editor notes at this very sentence that the Isaiah text 'is here altered by Clement' - the Septuagint reads 'I will give thy rulers in peace'. That is carried in the lens note rather than smoothed away.
 sources:
 - source_id: pahc.source.first-clement
-  locus: >-
-    First Epistle to the Corinthians, ch. XLII, in the ANF translation (anf01_apostolic-fathers-justin-irenaeus.xml)
+  locus: "First Epistle to the Corinthians, ch. XLII, in the ANF translation (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 1856-1865)"
   license: public-domain
 text: >-
   And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe. Nor was this any new thing, since indeed many ages before it was written concerning bishops and deacons. For thus saith the Scripture in a certain place, "I will appoint their bishops in righteousness, and their deacons in faith."

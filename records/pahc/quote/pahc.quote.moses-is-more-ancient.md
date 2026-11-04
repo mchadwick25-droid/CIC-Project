@@ -16,8 +16,7 @@ confidence:
     Documented as Justin's own argument. It is an apologetic claim about chronology made to a pagan audience, not a neutral historical finding, and modern scholarship does not accept its dating - what it evidences is how this world argued, not that the argument was right.
 sources:
 - source_id: pahc.source.justin-first-apology
-  locus: >-
-    First Apology, ch. XLIV (Not nullified by prophecy) - the same argument the witness cites at chs. LIX-LX, made here in its most compact form
+  locus: "First Apology, ch. XLIV (Not nullified by prophecy) - the same argument the witness cites at chs. LIX-LX, made here in its most compact form (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 15608-15613)"
   license: public-domain
 text: >-
   For Moses is more ancient than all the Greek writers. And whatever both philosophers and poets have said concerning the immortality of the soul, or punishments after death, or contemplation of things heavenly, or doctrines of the like kind, they have received such suggestions from the prophets as have enabled them to understand and interpret these things.

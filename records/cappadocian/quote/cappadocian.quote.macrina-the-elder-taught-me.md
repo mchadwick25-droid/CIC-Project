@@ -28,7 +28,7 @@ confidence:
     witness record carries the tension explicitly rather than resolving it by truncation.
 sources:
 - source_id: cappadocian.source.basil-macrina-the-elder-letters
-  locus: "Letter CCIV (printed heading; element id ix.ccv), section 6, npnf208_basil-letters-select-works.xml"
+  locus: "Letter CCIV (printed heading; element id ix.ccv), section 6, cic/texts/npnf208_basil-letters-select-works.xml, lines 37060-37068"
   license: public-domain
 text: >-
   What clearer evidence can there be of my faith, than that I was brought up
