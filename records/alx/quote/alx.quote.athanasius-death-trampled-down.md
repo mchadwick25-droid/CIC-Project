@@ -51,6 +51,29 @@ use_note:
     - "Origen's argument from the disciples' sincerity, which sits in alx.quote.a-doctrine-they-would-not-have-taught"
   years: {from: 296, to: 373}
   status: reviewed
+reading_card:
+  setting: Athanasius, in On the Incarnation of the Word, usually dated in or shortly before 318.
+  source_says: Martyrs and believers now scorn death. As daylight shows the sun has risen, this shows
+    Christ has conquered death.
+  historians_conclude:
+    text: The construction lexicon holds resurrection as reversal, not resuscitation, with the body sharing
+      in it.
+    confidence: Widely Accepted
+  contributes: It shows resurrection as death itself losing its strength.
+  whose_view: Athanasius's own argument; his doctrinal voice may not show ordinary believers' formation.
+  open: That Christians no longer feared death is his observation, not a checkable fact.
+  reads_differently_today: 'This argues from evidence, not devotion: people no longer fear death, so something
+    caused it. ''Trophies and triumphs'' is the language of a Roman victory parade.'
+  sources:
+    setting: alx.source.athanasius-de-incarnatione, work field (composed in or shortly before 318, per
+      the NPNF editor)
+    source_says: alx.source.athanasius-de-incarnatione, On the Incarnation §§28-29, npnf204 lines 17405-17460
+    historians_conclude: Build/worlds/alx/Lexicon-Chunks/alexlex019_resurrection.md, Key Sources note
+    contributes: alx.term.anastasis; alx.term.thanatos
+    whose_view: Build/worlds/alx/Doc_02_Source_Ecology.md §3.3; Doc_05_Ecological_Reconstruction.md §7
+      construction note
+    open: alx.quote.athanasius-death-trampled-down, use_note.not_for
+    reads_differently_today: alx.quote.athanasius-death-trampled-down, modern_lens_note
 ---
 Opened for F1-T, served by alx.term.anastasis alone, which cites de Incarnatione 8-10 and
 20-32 for the term and could not show it in use.

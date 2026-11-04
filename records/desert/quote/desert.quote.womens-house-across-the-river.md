@@ -38,28 +38,27 @@ text: >-
   eighty, and these [the men] three hundred and forty; and he commanded them that they should be
   exceedingly careful not to see their [the women's] faces nor hear their voices.
 modern_rendering: >-
-  His sister by blood loved the monastic life. He cut her hair, put a belt around her, and made
-  a dwelling for her alone, on the other side of the river, a mile away. At her instigation,
-  virgins and widows collected together and became truly good. No one crossed over to them,
-  except those who had been ordained by Abba Pachomius, and chosen ones, on the fixed festival
-  days of our Lord.
+  His sister by blood loved the monastic life. He cut her hair and put a belt around her. He
+  made a dwelling for her alone, a mile away on the other side of the river. At her urging,
+  virgins and widows gathered together and became very good. No one crossed over except those
+  ordained by Abba Pachomius and chosen ones on the fixed festival days of our Lord.
 
-  When one of these women went to her rest, they sang psalms over her, adorned her in holiness,
-  and wrapped her in linen. And the brothers received her on a raft and buried her in their own
+  When any one of these women went to her rest, they sang psalms, adorned her in holiness, and
+  wrapped her in linen. And the brothers received her on a raft and buried her in their own
   place.
 
-  But the men never saw the women's faces, and the women never saw the men's faces. The women
-  reached the number of one hundred and eighty, and the men three hundred and forty. He
-  commanded them to take great care never to see the women's faces or hear their voices.
+  But neither side saw the faces of the other. [The women] reached the number of one hundred and
+  eighty, and these [the men] three hundred and forty. He commanded them to take great care not
+  to see their [the women's] faces or hear their voices.
 speaker_or_author: the Ethiopic recension of the Rule, Part II
 license: verbatim
 modern_lens_note: >-
   The square brackets are Schodde's, supplying who is meant where the Ethiopic has only pronouns.
   "Went in to her rest" is death. A modern reader will hear the separation as exclusion, and part
   of it is; but read the numbers, which are the least rhetorical thing in the passage - one hundred
-  and eighty women to three hundred and forty men, a third of the federation at this house. And
+  and eighty women to three hundred and forty men by Schodde's brackets, a third of the federation at this house. And
   read what the men do when a woman dies: they carry her body across the river and bury her among
-  their own. The rule that forbids them her face requires them her funeral. Neither half of that
+  their own. The rule that, on Schodde's reading, forbids them her face requires them her funeral. Neither half of that
   can be dropped to make the passage read as one thing.
 retrieval:
   tier: 2
@@ -72,7 +71,7 @@ relations:
 - type: associated-with
   target: desert.figure.pachomius
 use_note:
-  means: "Part II of the Ethiopic Pachomian rules says Pachomius set his sister's house across the river, where 180 women lived unseen by 340 men."
+  means: "Part II of the Ethiopic Pachomian rules says Pachomius set his sister's house across the river, where, by Schodde's brackets, 180 women lived unseen by 340 men."
   not_for:
     - "women's own words, when no woman speaks in it"
     - "a name for the sister, whom this text leaves unnamed"

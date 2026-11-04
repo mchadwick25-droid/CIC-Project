@@ -36,7 +36,7 @@ sources:
 statement: >-
   If you dug up the places we lived, we could not tell you what you would
   find. Not the caves and the wooden cell across the river from Tours. Not
-  the island in its harbour. Not the two houses at Marseilles. Nothing we
+  the island in its harbor. Not the two houses at Marseilles. Nothing we
   can hand you comes out of the ground. All of it comes from books: one
   man's Life of the saint, with his letters and his dialogues; Cassian's
   Institutes, written for a bishop's new house, and his book of the

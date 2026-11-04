@@ -19,7 +19,7 @@ confidence:
     organizing sense (Sulpitius at Tours), with Cassian's refusal to "weave a tale of God's miracles and
     signs" and Eucherius's admiration of Egypt's wonders as the cross-voice divergence - the sharpest
     in the lexicon, marked [PV]; neither hearing may be used for the other node. Gennadius corroborates
-    Martin's fame, not the organizing role. Whether the Life is modelled on the Vita Antonii is
+    Martin's fame, not the organizing role. Whether the Life is modeled on the Vita Antonii is
     reserved for Stancliffe (unread) and not asserted.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini

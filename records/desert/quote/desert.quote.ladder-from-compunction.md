@@ -26,12 +26,12 @@ text: >-
   gained. By purity of heart the perfection of apostolic love is acquired.
 modern_rendering: >-
   According to Scripture, "the beginning" of our salvation and "of wisdom" is "the fear of the
-  Lord." ... From the fear of the Lord comes healing compunction. From compunction of heart springs
-  renunciation -- that is, owning nothing, and holding all possessions in contempt. From owning
-  nothing, humility is born. From humility comes the putting to death of desires. Through the
-  putting to death of desires, all faults are uprooted and wither away. By driving out faults, the
-  virtues sprout up and grow. By the budding of the virtues, purity of heart is gained. By purity of
-  heart, the perfection of apostolic love is won.
+  Lord." ... From the fear of the Lord comes saving compunction, a piercing of the heart. From
+  compunction of heart springs renunciation -- that is, owning nothing, and holding all possessions
+  in contempt. From owning nothing, humility is born. From humility comes the putting to death of
+  desires. Through the putting to death of desires, all faults are rooted out and wither away. By
+  driving out faults, the virtues spring up and grow. By the budding of the virtues, purity of heart
+  is gained. By purity of heart, the perfection of apostolic love is won.
 speaker_or_author: John Cassian, summarising what he was taught in Egypt
 license: verbatim
 modern_lens_note: >-

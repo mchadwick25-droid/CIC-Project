@@ -37,7 +37,7 @@ exchange:
     as Cassian carried them to us, knew the shape of it. The early days of a
     man's turning are bright, and then he cools. For a beginner, fear of
     hell was the first and lowest step. For a professed monk, the danger was
-    growing cold. It is why a grey head proved nothing: most old men, they
+    growing cold. It is why a gray head proved nothing: most old men, they
     said, pass their age in a lukewarmness caught in youth. They knew the
     hour, too. About the sixth hour a monk hates his cell and finds the
     brethren contemptible. He goes in and out. He watches the sun as if it

@@ -28,7 +28,7 @@ plain_meaning: We preached against anger directly. Anger, we said, is a passion 
 world_word: orgē
 false_friend: []
 senses:
-  informational: Catalogued and disciplined in the moral homilies, alongside envy -- named as the passion
+  informational: Cataloged and disciplined in the moral homilies, alongside envy -- named as the passion
     that most convincingly imitates justice while it acts.
   evidential: The specific homilies this draws on are part of the same named, unacquired homily set as
     the famine and envy preaching -- no open translation vendored, so this rests on general scholarly

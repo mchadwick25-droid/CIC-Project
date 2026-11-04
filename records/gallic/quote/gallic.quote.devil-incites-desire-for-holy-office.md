@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Abbot Moses's teaching within Cassian's First Conference (Conf. I.20), part of a
-    catalogue of the devil's disguises. The teaching is presented in Cassian's own text as Moses's
+    catalog of the devil's disguises. The teaching is presented in Cassian's own text as Moses's
     direct instruction to Cassian and Germanus.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i

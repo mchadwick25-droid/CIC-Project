@@ -56,6 +56,30 @@ use_note:
     - "a claim that the law of the Hebrews is finished or replaced, or a claim about Jews today; Clement describes preparation"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in Stromateis I, in the chapter headed 'Philosophy the Handmaid of Theology'.
+  source_says: Before Christ, philosophy helped the Greeks toward righteousness; now it trains those reaching
+    faith by reasoning. God gave it, as he gave the law.
+  historians_conclude:
+    text: The construction record names Clement as setting the faith-and-philosophy template, citing van
+      den Hoek (1988) on his use of Philo.
+    confidence: Widely Accepted
+  contributes: It shows truth as one, so learning rightly used prepares for faith.
+  whose_view: Clement's view, against believers wanting bare faith; he may overstate ordinary comfort
+    with philosophy.
+  open: The editor flags his nearby 'justified by philosophy' as long debated.
+  reads_differently_today: '''Schoolmaster'' renders paidagogos: the household guardian who walked a child
+    to school and kept him in line. It is not a teacher or headmaster.'
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis I.5 chapter heading, anf02 line 27876
+    source_says: alx.source.clement-stromateis, Stromateis I.5, anf02 lines 27877-27895
+    historians_conclude: Build/worlds/alx/Doc_02_Source_Ecology.md §3.2 (Influence), §3.5 and §4 (van
+      den Hoek 1988)
+    contributes: alx.force.philonic-inheritance; alx.force.platonic-environment
+    whose_view: alx.limit.faith-alone-later-frame, why_sources_cannot_answer (Stromateis I.9); Build/worlds/alx/Doc_02_Source_Ecology.md
+      §3.2 (Limitations)
+    open: anf02 editor's note at line 27873
+    reads_differently_today: alx.quote.clement-schoolmaster, modern_lens_note
 ---
 The charter line of the world's philosophy-and-faith posture: what the
 Greeks were given was real and was preparation. Serves F1-I (what they

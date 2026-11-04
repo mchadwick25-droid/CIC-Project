@@ -76,7 +76,7 @@ description: |-
   What passed to later communities was the people and the sees, and later the books. The genre did not pass: the conference addressed to brother-monks. With it went the formation-community setting in which the argument had been a remedy for pride and not a cause for synods. The north's distinct form did not end this way.
 manifestations:
 - "Faustus's prologue to Leontius: a council 'of the highest bishops' gathered 'for the condemning of the error of predestination,' the treatise written at its commission (row 24, rough OCR, Inferential/Thin except named fragments)"
-- "'He takes up the zeal of asserting grace fitly and wholesomely who joins to it the obedience of labour's servant' - the founders' two-sided shape in a bishop's mouth"
+- "'He takes up the zeal of asserting grace fitly and wholesomely who joins to it the obedience of labor's servant' - the founders' two-sided shape in a bishop's mouth"
 - "Arles's subscription, then 'the synod of Lyons required some things to be added' (line 3628, fragment grep-clean)"
 - "Gennadius's summary of the doctrine: grace that 'always invites, precedes and helps our will' (ch. LXXXVI)"
 - "The Lérins network consolidated across the sees of southern Gaul (Mathisen, thesis-level, unread)"

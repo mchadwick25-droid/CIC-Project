@@ -62,7 +62,7 @@ relations:
 modern_rendering: >-
   Anyone who claims he can discover things as they really are must have
   trained his mind by some orderly method. He did so by knowing things that
-  really exist. He must have practised first on small, easy things. Only
+  really exist. He must have practiced first on small, easy things. Only
   then could he turn his mind to what is beyond all understanding. He
   boasts that he has truly grasped real things. Then let him explain to us
   the nature of the smallest thing we can see. Let him tell us all about

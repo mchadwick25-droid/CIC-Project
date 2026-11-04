@@ -49,6 +49,28 @@ use_note:
     - "the community's way of meeting doubters, which sits in alx.dw.doubt"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in Stromateis IV, chapter 'The Reason and End of Divine Punishments'.
+  source_says: What is in our power, like belief or unbelief, we can choose either way. So praise, blame
+    and punishment are just.
+  historians_conclude:
+    text: 'The construction lexicon treats the soul''s real freedom as formation''s condition: God forms
+      through it, not over it.'
+    confidence: Widely Accepted
+  contributes: It shows formation assuming a free soul that turns itself.
+  whose_view: Clement's argument, set against Basilides on which sins are forgiven.
+  open: It is not an ordinary believer's account of doubt.
+  reads_differently_today: Belief and unbelief are a matched pair, both truly open. The aim is fair punishment,
+    so room for doubt comes from responsibility, not pastoral permission.
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis IV.24 heading, anf02 line 40326
+    source_says: alx.source.clement-stromateis, Stromateis IV.24, anf02 lines 40327-40340
+    historians_conclude: Build/worlds/alx/Lexicon-Chunks/alexlex013_freedom-autexousia.md, Quick Meaning;
+      alx.term.autexousia, confidence
+    contributes: alx.term.autexousia; alx.term.pistis
+    whose_view: alx.source.clement-stromateis, Stromateis IV.24, anf02 lines 40336-40340
+    open: alx.quote.to-believe-or-disbelieve, use_note.not_for
+    reads_differently_today: alx.quote.to-believe-or-disbelieve, modern_lens_note
 ---
 THE LOCUS IS CORRECTED RATHER THAN COPIED. Both records cite Stromateis II.15 and IV.24 for the
 free-will argument; the sentence quoted here stands in the chapter the vendored edition heads "The
