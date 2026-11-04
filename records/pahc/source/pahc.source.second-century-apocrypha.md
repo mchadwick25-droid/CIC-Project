@@ -38,7 +38,7 @@ for what this world's people were writing and reading. A world whose
 literate remains are letters, church order and apology gives a
 participant the impression that the second century read only sober
 things. It did not. It also produced Mary's childhood in the Temple, a
-boy Jesus making sparrows out of clay, and a woman who baptised herself
+boy Jesus making sparrows out of clay, and a woman who baptized herself
 and preached.
 
 WHAT IS DELIBERATELY NOT IMPORTED, AND WHY. The corpus map assigns ten

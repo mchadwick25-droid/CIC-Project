@@ -57,7 +57,7 @@ narrative_tier_justification: Tier 1 of the strongest kind available in this cor
   in the opponent's own dossier argues for its reliability rather than against it. What it does mean is
   that this is a documented setback, and a Representative carrying it should say so.
 tellable_as: The emperor orders an inquiry. Felix, who made Caecilian a bishop,
-  is said to have given up the scriptures. A town councillor admits, under threat of torture, that he added false lines to a letter against him. The inquiry clears Felix.
+  is said to have given up the scriptures. A town councilor admits, under threat of torture, that he added false lines to a letter against him. The inquiry clears Felix.
 text: >-
   The whole schism turns, at its root, on a single accusation: that Felix,
   the bishop of Aptungi who consecrated Caecilian as bishop of Carthage,
@@ -68,21 +68,21 @@ text: >-
   Constantine ordered the matter investigated. The proconsul Aelianus
   opened a formal inquiry and took testimony on record from named
   witnesses: Alfius Caecilianus, Claudius Saturianus, Superius, and a
-  town councillor named Ingentius. At the centre of the case was a letter from the
+  town councilor named Ingentius. At the center of the case was a letter from the
   magistrate Caecilianus to Felix, read aloud in the proceeding. Its
   closing lines seemed to prove the accusation. Caecilianus said he had
   never dictated them.
 
   Under questioning, and under the threat of torture, Ingentius broke. He
   admitted that he had added to the letter himself, out of grief over
-  Maurus, his guest. The counsel Apronianus charged that he had travelled
+  Maurus, his guest. The counsel Apronianus charged that he had traveled
   through Numidia and Mauritania as an agent of our party. Ingentius
   denied that he had been to Numidia. With the forgery exposed, the case
   against Felix collapsed. The proconsul ruled that nothing had been
   proved against Felix, and cleared him.
-telling: "At the center of the case lay a letter to Felix, the bishop of Aptungi who had made Caecilian bishop of Carthage. Our side said Felix had handed over the scriptures in the persecution. If that was true, he had no right to make anyone a bishop, and Caecilian's office was void from its first day. The letter's closing lines seemed to prove it.\n\nThe emperor Constantine ordered the charge looked into, and the proconsul Aelianus heard named witnesses on the record. Their words survive in the dossier of documents Optatus kept. The letter came from a magistrate, Caecilianus. He told the court he had never dictated its closing lines.\n\nThen a town official named Ingentius was questioned. Under the threat of torture, he broke. He admitted that he had added to the letter himself, out of grief over Maurus, his guest. A counsel named Apronianus charged that he had travelled through Numidia and Mauritania as our party's agent. Ingentius denied that he had been to Numidia.\n\nThe proconsul ruled that nothing had been proved against Felix, and he cleared him."
+telling: "At the center of the case lay a letter to Felix, the bishop of Aptungi who had made Caecilian bishop of Carthage. Our side said Felix had handed over the scriptures in the persecution. If that was true, he had no right to make anyone a bishop, and Caecilian's office was void from its first day. The letter's closing lines seemed to prove it.\n\nThe emperor Constantine ordered the charge looked into, and the proconsul Aelianus heard named witnesses on the record. Their words survive in the dossier of documents Optatus kept. The letter came from a magistrate, Caecilianus. He told the court he had never dictated its closing lines.\n\nThen a town official named Ingentius was questioned. Under the threat of torture, he broke. He admitted that he had added to the letter himself, out of grief over Maurus, his guest. A counsel named Apronianus charged that he had traveled through Numidia and Mauritania as our party's agent. Ingentius denied that he had been to Numidia.\n\nThe proconsul ruled that nothing had been proved against Felix, and he cleared him."
 absent_detail: Nothing survives of what Felix himself said, or of what Ingentius said before the threat
-  was made. No account of this inquiry from our own side exists at all - not a defence of the accusation,
+  was made. No account of this inquiry from our own side exists at all - not a defense of the accusation,
   not a challenge to the proceeding, not an explanation of who sent Ingentius or on whose authority.
 modern_contrast: >-
   A modern reader will reach immediately for the fact that the confession
@@ -93,9 +93,9 @@ modern_contrast: >-
   that founding decade than this one proceeding settles, and that the
   principle at stake did not stand or fall on one man's case. Both things
   can be said at once. What cannot honestly be said is that the inquiry
-  found in our favour.
+  found in our favor.
 use_note:
-  means: "The inquiry into whether Felix of Aptungi was a traditor ended with a town councillor admitting, under threatened torture, that he added false lines to the letter."
+  means: "The inquiry into whether Felix of Aptungi was a traditor ended with a town councilor admitting, under threatened torture, that he added false lines to the letter."
   not_for:
     - "a claim that the inquiry settled the wider traditio dispute"
     - "a claim that an account of the inquiry from the Donatist side survives"

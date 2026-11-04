@@ -23,14 +23,14 @@ sources:
 retrieval:
   tier: 2
   retrieve_when:
-  - participant asks directly whether this world baptised infants or only believing adults
+  - participant asks directly whether this world baptized infants or only believing adults
 relations:
 - type: associated-with
   target: rzg.contested.anabaptist-schism-legitimacy
 - type: associated-with
   target: rzg.force.anabaptist-schism
 positions:
-- We baptised infants, not only adults who chose it for themselves, and we held that against a real, pressed
+- We baptized infants, not only adults who chose it for themselves, and we held that against a real, pressed
   challenge from inside our own founding circle -- Conrad Grebel and Felix Manz were both formerly of
   our own founder's own reform circle before they broke from it in 1525.
 - Their own case was that a church gathered only by a believer's own profession was the more scripturally
@@ -39,17 +39,17 @@ positions:
   not a lesser or incomplete one waiting for a later, personal choice.
 tensions:
 - We do not pretend this was a settled question with no cost to either side. Those who broke from us to
-  be baptised again as believing adults understood themselves to be applying the same scriptural-authority
+  be baptized again as believing adults understood themselves to be applying the same scriptural-authority
   method our own reform itself established, pressed further rather than abandoned.
-text: We baptised infants. We held that against a real challenge from inside our own circle. The men who
-  first baptised each other as believing adults had themselves once stood with our own founder. Their
+text: We baptized infants. We held that against a real challenge from inside our own circle. The men who
+  first baptized each other as believing adults had themselves once stood with our own founder. Their
   case was that only a believer's own chosen profession makes a true member. Ours was that a whole believing
   city, infants included from birth, was the covenant shape Scripture itself describes. We did not see
   it as a lesser church waiting on a later, personal choice.
 use_note:
-  means: "We baptised infants, holding a whole believing city, children included from birth, to be Scripture's covenant shape against the Anabaptist challenge."
+  means: "We baptized infants, holding a whole believing city, children included from birth, to be Scripture's covenant shape against the Anabaptist challenge."
   not_for:
-    - "a claim that this world baptised only professing adults"
+    - "a claim that this world baptized only professing adults"
     - "a claim that the Anabaptists abandoned the scriptural-authority method rather than pressing it further"
     - "a claim that the baptism question was settled at no cost to either side"
   years: {from: 1525, to: 1527}

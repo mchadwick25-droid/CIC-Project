@@ -38,7 +38,7 @@ use_note:
   means: "Clement, in Paedagogus I.2, describes the Word as Instructor who cures the soul's unnatural passions by means of exhortation."
   not_for:
     - "the modern sense of passion as enthusiasm, when Clement means disordered appetites"
-    - "a description of a practised therapeutic or disciplinary routine in the community"
+    - "a description of a practiced therapeutic or disciplinary routine in the community"
     - "Clement's picture generalized as the teaching of all Alexandrian Christians"
   years: {from: 180, to: 215}
   status: reviewed

@@ -75,13 +75,13 @@ description: >-
 
   Across this world as a whole, other patterns do not depend on it. The purity doctrine,
   rebaptism, the martyr cult and the rival church structure all work without it. It is something
-  that happens inside this world, not a force the wider world organises itself around. Within
+  that happens inside this world, not a force the wider world organizes itself around. Within
   Numidia, a narrower dependency does exist. The Circumcellions reportedly took part in the
   suppression of the Maximianists, and that runs through this same channel. But that too comes
   through hostile sources, and nothing independent confirms it.
 
   It does not shape people across this world as a whole, but it does within Numidia. Our account
-  of this world's main centres names Numidia as the group's origin and home region. There, it
+  of this world's main centers names Numidia as the group's origin and home region. There, it
   plausibly shaped a rural, wandering way of life. But nothing in the sources this world draws on carries
   that influence to Carthage, Cirta or Hippo.
 
@@ -161,7 +161,7 @@ dedicated treatment, or is simply this world's own Numidian strength expressing 
 further, evidentially thin way. Doc_04 names the question and does not decide it. A SEPARATE, POPULATION-LEVEL LIMIT NAMED BY DOC_04 SS5 AND
 KEPT HERE: the Cross-Voice Test is a source-mediation test, not a population-mediation one, and
 Doc_04 does not claim it covers the question of whether a different population or sub-group might
-organise around different gravities. The one place genuine population or regional variation surfaces
+organize around different gravities. The one place genuine population or regional variation surfaces
 in this world's record is this candidate's own Numidian concentration, handled on its own terms as a
 scope-qualified classification rather than folded into the Cross-Voice Test's finding. Frend and
 Shaw are cited on this record as in-copyright consultation-only, matching their own source records'

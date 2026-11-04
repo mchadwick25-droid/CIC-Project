@@ -45,7 +45,7 @@ use_note:
   years: {from: 356, to: 362}
   status: reviewed
 ---
-The Christological claim that actually organises this world's daily practice. The whole
+The Christological claim that actually organizes this world's daily practice. The whole
 discipline of watching and answering thoughts (desert.term.logismoi,
 desert.term.antirrhesis) rests on the enemy already having been beaten, not on the
 monk's own strength - and this is where the corpus says so in Antony's own reported

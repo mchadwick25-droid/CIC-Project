@@ -51,7 +51,7 @@ exchange:
 
 
     But the founding documents run the other way, and they do not flatter
-    us. There is a court transcript in which a town councillor, under threat of
+    us. There is a court transcript in which a town councilor, under threat of
     torture, admits that he added false lines to the letter used against a
     bishop. The court cleared that bishop, and the charge against him was
     ours. There is another in which our own bishops are read out advising
@@ -75,7 +75,7 @@ Every claim greppable. The two-hands concentration, the clauses inside
 the refutation, the martyr accounts as graveside texts rather than
 reporting, and the closing epigraphic point are
 `don.dw.written-by-our-opponents`'s own text; the lines added to the letter and the
-councillor's admission are `don.story.acta-purgationis-felicis`; the letters
+councilor's admission are `don.story.acta-purgationis-felicis`; the letters
 read into a court record are `don.story.gesta-apud-zenophilum`; the
 acclamation is `don.quote.deo-laudes`.
 

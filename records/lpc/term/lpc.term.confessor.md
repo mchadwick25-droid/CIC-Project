@@ -71,7 +71,7 @@ false_friend:
 senses:
   informational: 'You were taken, you were asked, and you did not say what they wanted. Then, unlike the
     others, you came back. Everyone knows which of us it is, because it happened where people could see.
-    What follows is not a quiet honour -- it is a claim. Someone who stood in front of a magistrate and
+    What follows is not a quiet honor -- it is a claim. Someone who stood in front of a magistrate and
     held will not easily accept that they have nothing to say about the ones who did not hold, so they
     write letters naming a lapsed person who may come back, and the people named expect to be received.
     Against that stands the conviction that the church''s own peace is not any one person''s to give out

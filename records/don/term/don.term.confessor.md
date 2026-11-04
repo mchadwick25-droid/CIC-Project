@@ -16,7 +16,7 @@ confidence:
     the whole development, and the specific claim inside it -- that confessor status is held alongside, and sometimes
     in tension with, the martyrs commemorated -- is asserted there and developed nowhere else in the construction
     record. Doc_02 SS4 confirms only the surrounding genre fact: the passio form is structured around a confessor''s
-    steadfastness under interrogation and the manner of death, and those conventions idealise the subject''s resolve.
+    steadfastness under interrogation and the manner of death, and those conventions idealize the subject''s resolve.
     No vendored passage is cited in this build for a Donatist tension between surviving confessors and dead martyrs,
     and this record does not manufacture one.'
 sources:
@@ -57,10 +57,10 @@ senses:
   translational: '''A confessor is a priest you confess to'' -- a different word. Here it names someone
     who was tested and did not yield, and who then lived on inside the community his steadfastness helped
     define.'
-quick_meaning: One who stood firm under questioning and lived. The martyr's near neighbour.
+quick_meaning: One who stood firm under questioning and lived. The martyr's near neighbor.
 distortion_risk: medium
 use_note:
-  means: "A confessor stood firm under questioning and lived, a martyr stood firm and died; Donatist accounts of the dead centre on that standing firm."
+  means: "A confessor stood firm under questioning and lived, a martyr stood firm and died; Donatist accounts of the dead center on that standing firm."
   not_for:
     - "a claim that a confessor is a priest who hears confession"
     - "a claim that a confessor is someone who admitted a crime"

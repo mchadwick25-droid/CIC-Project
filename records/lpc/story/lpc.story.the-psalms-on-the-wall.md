@@ -32,7 +32,7 @@ sources:
 retrieval:
   tier: 1
   retrieve_when:
-  - participant asks whether the people who taught repentance practised it
+  - participant asks whether the people who taught repentance practiced it
   - participant raises dying, last illness, or preparing for death
   - participant asks what happened as our own life closed
   prefer_instead:

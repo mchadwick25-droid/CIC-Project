@@ -31,4 +31,4 @@ discovery_channel: 'corpus map / cic/corpus-map/donatism.yaml / 2026-09-01; Book
 external_ids:
   don_source_registry_row: 3
 ---
-Licensed for rebaptism theology, the ecclesial-purity gravity candidate (Doc_01 SS3), and the Maximianist rebaptism-consistency argument quoted directly at Book I ch. 1 SS2 and ch. 5 SS7 (Doc_02 SS1). Doc_01 SS4's binding on the Maximianist material is discharged directly from this row, not from Registry rows 17 or 18. Corpus map role: tradition -- this is this world's opponent writing against it, and the Writing-From-Inside Principle (Article 23) governs how a Representative eventually characterises him.
+Licensed for rebaptism theology, the ecclesial-purity gravity candidate (Doc_01 SS3), and the Maximianist rebaptism-consistency argument quoted directly at Book I ch. 1 SS2 and ch. 5 SS7 (Doc_02 SS1). Doc_01 SS4's binding on the Maximianist material is discharged directly from this row, not from Registry rows 17 or 18. Corpus map role: tradition -- this is this world's opponent writing against it, and the Writing-From-Inside Principle (Article 23) governs how a Representative eventually characterizes him.

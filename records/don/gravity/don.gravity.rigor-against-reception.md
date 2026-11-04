@@ -103,7 +103,7 @@ manifestations:
 - the Maximianist clergy received back into office and communion without repeated ordination or baptism
 - the Bagai and Cebarsussi sentences, quoted directly rather than paraphrased in Augustine's own text
 - the same texts stating the doctrine at its most absolute also stating the exception plainly, without treating
-  the two as cancelling each other
+  the two as canceling each other
 use_note:
   means: "In one dated episode of 393 to 398, the stated rule that schismatic clergy be rebaptised and reordained stood against the mainstream's reception of returning Maximianist clergy without either, a tension internal to the movement."
   not_for:

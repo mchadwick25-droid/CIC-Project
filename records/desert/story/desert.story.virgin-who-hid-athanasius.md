@@ -31,7 +31,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what women actually did in this world, beyond ascetic practice"
-  - "participant asks whether ascetic women had standing anyone outside their own house recognised"
+  - "participant asks whether ascetic women had standing anyone outside their own house recognized"
   - "participant asks how the great church conflicts of the fourth century touched ordinary people"
   prefer_instead:
   - "participant wants the historical course of Athanasius' exiles - this story cannot carry that and its own figures are unreliable"

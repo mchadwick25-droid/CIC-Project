@@ -39,7 +39,7 @@ external_ids: {}
 WHY A CAPPADOCIAN VOLUME BELONGS IN A SYRIAC WORLD.
 
 This world tells syr.story.basil-legend - Ephrem journeying to Caesarea,
-the two holy men recognising each other without a common tongue - and
+the two holy men recognizing each other without a common tongue - and
 that record already says the legend rests on a mistaken identification.
 What it could not do was show the sentence the identification was made
 from. It is here, and it is more interesting than the legend.

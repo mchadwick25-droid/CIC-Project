@@ -46,7 +46,7 @@ nearest_material:
 use_note:
   means: "No Donatist answer survives to specific, dated charges of violence, such as the near-fatal 404 attack on a bishop at Bagai, and none is supplied."
   not_for:
-    - "a claim that the charges of violence are vague rumours"
+    - "a claim that the charges of violence are vague rumors"
     - "a claim that an account from inside the communion answering these charges survives"
   years: {from: 311, to: 439}
   status: reviewed

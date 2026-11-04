@@ -19,7 +19,7 @@ confidence:
     himself, so it is carried as an independent measure of the inheritance's weight in the argument rather
     than as verification of any particular Cyprianic position. A related exclusion the world_core states and
     this record keeps: Novatian's own material sits in the same vendored volume as the Cyprianic antecedent
-    corpus and is a genuine surface similarity - an earlier rigorist schism that also practised rebaptism
+    corpus and is a genuine surface similarity - an earlier rigorist schism that also practiced rebaptism
     - but is registered as an excluded Named Comparandum, never as evidence for this inheritance.
 sources:
 - source_id: don.source.cyprian-epistles
@@ -89,6 +89,6 @@ disambiguation this record keeps: it is this force, and NOT 1B-2, that grounds t
 (world_core's own closing note): Registry row 29, Novatian's De Trinitate and Novatianist material
 generally, is an excluded Named Comparandum and is NOT cited here, even though it sits in the same
 vendored volume as the Cyprianic corpus and shares the surface feature of an earlier rigorist schism
-practising rebaptism. Novatianism arose independently and earlier over a different dispute; citing
+practicing rebaptism. Novatianism arose independently and earlier over a different dispute; citing
 it on this force would assert exactly what the Registry row exists to deny. Canon_cells left empty,
 matching this world's gravity and force records generally.
