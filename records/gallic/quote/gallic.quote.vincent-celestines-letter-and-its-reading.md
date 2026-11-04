@@ -18,8 +18,7 @@ confidence:
     divergence_note), but the wording itself, and that Vincent reads it this way, is Documented.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "ch. 32 [85] (npnf211 div iii.xxxiii, file lines 14615-14631): Vincent's own quotation of
-    Pope Celestine's letter and his reading of its final clause"
+  locus: "ch. 32 [85] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 14615-14631; div iii.xxxiii): Vincent's own quotation of Pope Celestine's letter and his reading of its final clause"
   license: public-domain
 retrieval:
   tier: 2

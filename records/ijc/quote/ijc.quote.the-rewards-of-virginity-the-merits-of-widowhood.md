@@ -16,8 +16,7 @@ confidence:
     Documented as Ambrose's own teaching, in a letter to the church at Vercellae that the volume's chronology dates to 396 - so the ranking is part of his argument, not an aside. He is a bishop writing to persuade, and the marriage he ranks third is the state most of his hearers were in.
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: >-
-    Letter LXIII to the Church at Vercellae, sec. 40 (npnf210 lines 45073-45079)
+  locus: "Letter LXIII to the Church at Vercellae, sec. 40 (cic/texts/npnf210_ambrose-select-works-letters.xml, lines 45073-45079)"
   license: public-domain
 text: >-
   ...that of widowhood, not so difficult as the former, but being rocky and rough, it requires more cautious travellers. Good too is that of marriage; being smooth and even it reaches the camp of the saints by a longer circuit. This way is taken by most. There are then the rewards of virginity, there are the merits of widowhood, there is also a place for conjugal modesty.

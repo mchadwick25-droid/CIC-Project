@@ -21,9 +21,7 @@ confidence:
     as desert.quote.taor-not-compelled-to-market.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xxxv, Of Piamon the Virgin, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xxxv, Of Piamon the Virgin, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1125)"
   license: public-domain
 text: >-
   Now the elders of the village were afraid, and they fell down at her feet and made supplication

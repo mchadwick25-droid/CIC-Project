@@ -19,7 +19,7 @@ confidence:
     own framing, not asserted as fact.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. IX (npnf211 div ii.ii.x, file lines 1088-1108): the objecting bishop Defensor, the absent reader, the psalm opened at random, and what was believed of it"
+  locus: "Life of St. Martin ch. IX (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 1088-1108; div ii.ii.x): the objecting bishop Defensor, the absent reader, the psalm opened at random, and what was believed of it"
   license: public-domain
 retrieval:
   tier: 1

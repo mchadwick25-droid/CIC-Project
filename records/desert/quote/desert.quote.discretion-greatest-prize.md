@@ -17,7 +17,7 @@ confidence:
     is first-hand is that he lived at Scetis and knew these men; what is edited is how they sound.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference II (the Second Conference of Abbot Moses), ch. I-II (npnf211 line 27181)'
+  locus: "Conference II (the Second Conference of Abbot Moses), ch. I-II (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 27180-27187)"
   license: public-domain
 text: You see then that the gift of discretion is no earthly thing and no slight matter, but the greatest
   prize of divine grace. And unless a monk has pursued it with all zeal, and secured a power of discerning

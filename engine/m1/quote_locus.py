@@ -6,7 +6,13 @@ edition names. This gate asks the stricter question for a quote that names
 a span (`cic/texts/<file>, lines N-M`, read by `engine.prose.locus_refs`): the
 text must occur inside one of those cited spans, so the span a card links to
 is the span that holds the words. The match is the same fixed grammar
-`quote_verbatim.verify_quote_text` applies, run on the span alone. A quote
+`quote_verbatim.verify_quote_text` applies, run on the span alone, after the
+same edition apparatus stripping `verify_quote_record` applies to the whole
+file (an apparatus kind that needs the whole file, such as an endnote
+sequence, finds nothing to strip in a span, so the span is matched as it is).
+The gate's scope is the verbatim gate's: a quote below `verified-direct` has
+been escalated because its words cannot be matched to the file mechanically,
+so its span is not matched either. A quote
 cited at two spans (an English edition and a Latin one) passes when its text
 is in any one of them.
 
@@ -18,7 +24,13 @@ from pathlib import Path
 
 from engine.prose import locus_refs
 
-from .quote_verbatim import REPO_ROOT, verify_quote_against_notes, verify_quote_text
+from .quote_verbatim import (
+    _REQUIRED_VERIFICATION_STATE,
+    REPO_ROOT,
+    strip_edition_apparatus,
+    verify_quote_against_notes,
+    verify_quote_text,
+)
 
 
 @lru_cache(maxsize=64)
@@ -44,6 +56,8 @@ def gate_quote_locus(records, fleet, registry) -> list[str]:
     for rid, rec in sorted(records.items()):
         if rec.get("record_type") != "quote" or rec.get("license") != "verbatim":
             continue
+        if (rec.get("confidence") or {}).get("verification_state") != _REQUIRED_VERIFICATION_STATE:
+            continue
         text = rec.get("text") or ""
         refs = cited_spans(rec)
         if not text.strip() or not refs:
@@ -56,7 +70,7 @@ def gate_quote_locus(records, fleet, registry) -> list[str]:
             if lines is None or first < 1 or last < first or last > len(lines):
                 unresolved.append(f"{ref['file']}, lines {ref['lines']}")
                 continue
-            raw = "\n".join(lines[first - 1:last])
+            raw = strip_edition_apparatus("\n".join(lines[first - 1:last]), Path(ref["file"]).name)
             is_xml = Path(ref["file"]).suffix == ".xml"
             result = verify_quote_text(text, raw, source_is_xml=is_xml)
             if result.verified or verify_quote_against_notes(text, raw) is not None:

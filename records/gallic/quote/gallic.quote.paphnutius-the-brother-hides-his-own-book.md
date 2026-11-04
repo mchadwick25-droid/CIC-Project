@@ -17,9 +17,7 @@ confidence:
     the tradition's own account, not something independently attested.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43012-43018): the brother's scheme to
-    mar Paphnutius's reputation; hiding his own book among the palm boughs in Paphnutius's cell; going to
-    church as if innocent"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43012-43018; div iv.vi.ii.xv): the brother's scheme to mar Paphnutius's reputation; hiding his own book among the palm boughs in Paphnutius's cell; going to church as if innocent"
   license: public-domain
 retrieval:
   tier: 3

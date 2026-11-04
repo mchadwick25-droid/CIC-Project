@@ -20,9 +20,7 @@ confidence:
     the Ethiopic.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English
-    (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 174)"
   license: public-domain
 text: >-
   But he that comes to dwell with them, let them not receive him into the association before he

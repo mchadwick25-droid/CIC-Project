@@ -22,7 +22,7 @@ confidence:
     strength, not Documented.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. IV (npnf211 div ii.ii.v, file lines 842-863): Julian's charge of cowardice, Martin's offer to stand unarmed, the imprisonment, and the enemy's surrender"
+  locus: "Life of St. Martin ch. IV (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 842-863; div ii.ii.v): Julian's charge of cowardice, Martin's offer to stand unarmed, the imprisonment, and the enemy's surrender"
   license: public-domain
 retrieval:
   tier: 2

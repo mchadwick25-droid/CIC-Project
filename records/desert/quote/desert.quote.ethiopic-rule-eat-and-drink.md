@@ -22,9 +22,7 @@ confidence:
     the evidence about how this rule traveled. Quote either; never both as one text.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English
-    (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part I (the angel's ordinance), p. 682, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 174)"
   license: public-domain
 text: >-
   Suffer each one to eat and to drink, and according to the measure of their eating give them

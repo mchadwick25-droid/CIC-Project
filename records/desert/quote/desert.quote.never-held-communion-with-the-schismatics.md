@@ -17,8 +17,7 @@ confidence:
     Contested for incident-level attribution, the standing bound on this Vita: reported narrative inside a bishop-author's own constructed exemplar, written for his own purposes. The wording is verbatim from the vendored file.
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: >-
-    Vita Antonii SS68 (npnf204_athanasius-select-works-letters.xml)
+  locus: "Vita Antonii SS68 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 32908-32914)"
   license: public-domain
 text: >-
   And he was altogether wonderful in faith and religious, for he never held communion with the Meletian schismatics, knowing their wickedness and apostacy from the beginning; nor had he friendly dealings with the Manichæans or any other heretics; or, if he had, only as far as advice that they should change to piety. For he thought and asserted that intercourse with these was harmful and destructive to the soul.

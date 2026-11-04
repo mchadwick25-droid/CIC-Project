@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS80 - Antony to the philosophers, immediately after demoniacs brought before them were healed at his signing of the cross"
+  locus: "SS80 - Antony to the philosophers, immediately after demoniacs brought before them were healed at his signing of the cross (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 33169-33171)"
   license: public-domain
 text: "Why marvel ye at this? We are not the doers of these things, but it is Christ who worketh them by means of those who believe on Him."
 modern_rendering: >-

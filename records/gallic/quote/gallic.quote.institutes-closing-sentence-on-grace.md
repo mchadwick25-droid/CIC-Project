@@ -17,8 +17,7 @@ confidence:
     on grace.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes XII.33 (npnf211 div iv.iii.xii.xxxiii, file lines 25855-25860): the closing
-    sentence of the whole work"
+  locus: "Institutes XII.33 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 25855-25860; div iv.iii.xii.xxxiii): the closing sentence of the whole work"
   license: public-domain
 retrieval:
   tier: 2

@@ -20,7 +20,7 @@ confidence:
     episode, and it is set in the East, not in any Gallic house.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes IV.20 (npnf211 div iv.iii.iv.xx, file lines 19227-19248): the three lentil beans, the Abbot's judgment, suspension from prayer and public penance, and the reason given"
+  locus: "Institutes IV.20 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 19227-19248; div iv.iii.iv.xx): the three lentil beans, the Abbot's judgment, suspension from prayer and public penance, and the reason given"
   license: public-domain
 retrieval:
   tier: 2

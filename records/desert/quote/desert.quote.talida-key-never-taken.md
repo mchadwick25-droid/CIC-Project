@@ -22,9 +22,7 @@ confidence:
     clause in the passage.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xxxvj, Of our Blessed Mother Talida, the Old Woman of Antinoe, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xxxvj, Of our Blessed Mother Talida, the Old Woman of Antinoe, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1129)"
   license: public-domain
 text: >-
   And there lived with her sixty virgins who followed the path and rule of the ascetic life in

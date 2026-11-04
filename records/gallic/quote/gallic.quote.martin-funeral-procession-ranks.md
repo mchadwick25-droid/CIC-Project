@@ -18,7 +18,7 @@ confidence:
     Documented because it is one author's letter, not independently corroborated.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2495-2500): the procession''s own ranks - old men, young soldiers, and the choir of virgins'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2495-2500; div ii.iii.iii): the procession's own ranks - old men, young soldiers, and the choir of virgins"
   license: public-domain
 retrieval:
   tier: 1

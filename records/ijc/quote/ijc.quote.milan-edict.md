@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.lactantius-de-mortibus
-  locus: '48 (anf07, ch. XLVIII division at line 10676)'
+  locus: "48 (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, line 10684; the ch. XLVIII division at line 10676)"
   license: public-domain
 text: When we, Constantine and Licinius, emperors, had an interview at Milan, and conferred together with
   respect to the good and security of the commonweal, it seemed to us that, amongst those things that

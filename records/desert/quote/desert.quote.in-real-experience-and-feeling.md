@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
-  locus: "Homily IV, in Mason's English"
+  locus: "Homily IV, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt, lines 2336-2343)"
   license: public-domain
 text: "Only let a man strive to be a friend of His and well pleasing to Him, and in real experience and feeling he shall truly see the good things of heaven, and the inexpressible delights and infinite riches of Godhead... even the Spirit of the Lord, making Himself for worthy souls their rest, their rejoicing, their delight, and their eternal life."
 modern_rendering: >-

@@ -24,8 +24,7 @@ confidence:
     No clean vendored transcription exists to repoint to.'
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'Gesta Collationis Carthaginiensis (the 411 Conference of Carthage), third session: Emeritus''s
-    objection that the other side would not name its envoys, their rank or their mandate'
+  locus: "Gesta Collationis Carthaginiensis (the 411 Conference of Carthage), third session: Emeritus's objection that the other side would not name its envoys, their rank or their mandate (cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, lines 126834-126837)"
   license: public-domain
 retrieval:
   tier: 2

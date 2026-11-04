@@ -20,7 +20,7 @@ confidence:
     Whether any house in Gaul kept the fast broken for a guest, Cassian does not say.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes V.24 (npnf211 div iv.iii.v.xxiv, file lines 21017-21027): the elder's reply when asked why the daily fast was broken without scruple for the arriving guests"
+  locus: "Institutes V.24 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 21017-21027; div iv.iii.v.xxiv): the elder's reply when asked why the daily fast was broken without scruple for the arriving guests"
   license: public-domain
 retrieval:
   tier: 2

@@ -17,8 +17,7 @@ confidence:
     treated as a private fancy, if it stands against the consent of the fathers.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "ch. 28 [72] (npnf211 div iii.xxix, file lines 14271-14275): Vincent's own statement that
-    rank does not exempt a teacher's opinion from being weighed against the fathers' own consent"
+  locus: "ch. 28 [72] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 14271-14275; div iii.xxix): Vincent's own statement that rank does not exempt a teacher's opinion from being weighed against the fathers' own consent"
   license: public-domain
 retrieval:
   tier: 2

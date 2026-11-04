@@ -18,8 +18,7 @@ confidence:
     This record's text field is missing only two bare inline endnote numbers this edition's own scan carries ("work 163 and found", "her lover 164 behaving") - confirmed against the file's own numbered endnotes section (163: "1 e0c a)grou~...", 164: "2 Greek, au)tou&j..."), not real content. This edition's real footnote-number sequence interleaves page numbers, bracketed chapter numbers, and irregular gaps too closely for a general automated rule to track reliably without risking a false match elsewhere in the fleet (this edition genuinely quotes "some 300 monks", "some 400 monks" elsewhere), so this remains unverified by an automated gate. verification_state is set to verified-via-authority to reflect that the two digits are confirmed by direct inspection, not by an automated gate.
 sources:
 - source_id: desert.source.palladius-lausiac-history
-  locus: >-
-    Lausiac History ch. XXII (Paul the Simple), in Clarke's translation (palladius_lausiac-history_clarke1918.txt)
+  locus: "Lausiac History ch. XXII (Paul the Simple), in Clarke's translation (cic/texts/palladius_lausiac-history_clarke1918.txt, line 355)"
   license: public-domain
 text: >-
   A certain Paul, a rustic peasant, exceedingly guileless and simple, was wedded to a most beautiful woman of depraved character, who for a very long while concealed her sins from him. However, Paul came in suddenly from work and found his wife and her lover behaving shamefully, Providence thus guiding Paul to what was best for himself. And laughing discreetly he called to them and said: "Good, good. I don't mind, truly. By Jesus, I'll take her no longer. Go, you have her and her children, for I am going to become a monk."

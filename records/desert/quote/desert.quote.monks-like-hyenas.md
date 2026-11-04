@@ -21,9 +21,7 @@ confidence:
     federation's own account of its own decay - and for nothing about the fourth century.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part III (the late homily on the ten associations), pp. 686-687, in
-    Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part III (the late homily on the ten associations), pp. 686-687, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, lines 224-228)"
   license: public-domain
 text: >-
   Those that are like the hyenas which thou hast seen are those monks who abide with their brethren

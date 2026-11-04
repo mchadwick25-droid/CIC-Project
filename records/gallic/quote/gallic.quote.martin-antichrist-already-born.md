@@ -18,8 +18,7 @@ confidence:
     of Martin.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues II.14 (npnf211 div ii.iv.ii.xiv, file lines 4589-4608): Gallus's account of
-    Martin's own teaching that Antichrist was already born and growing toward manhood"
+  locus: "Dialogues II.14 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 4603-4607; div ii.iv.ii.xiv): Gallus's account of Martin's own teaching that Antichrist was already born and growing toward manhood"
   license: public-domain
 retrieval:
   tier: 2

@@ -21,9 +21,7 @@ confidence:
     reported speech running on from "And the angel said to him:".
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part I (the angel's ordinance), pp. 682-683, in Schodde's English
-    (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part I (the angel's ordinance), pp. 682-683, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 176)"
   license: public-domain
 text: >-
   And Pachomius answered the angel, saying: "Few are these prayers." And the angel said to him:

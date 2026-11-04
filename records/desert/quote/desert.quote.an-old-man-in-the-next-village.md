@@ -16,8 +16,7 @@ confidence:
     Contested for incident-level attribution, the standing bound on this Vita: reported narrative inside a bishop-author's own constructed exemplar, written for his own purposes. The wording is verbatim from the vendored file.
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: >-
-    Vita Antonii SS3 (npnf204_athanasius-select-works-letters.xml)
+  locus: "Vita Antonii SS3 (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 31274-31281)"
   license: public-domain
 text: >-
   For there were not yet so many monasteries in Egypt, and no monk at all knew of the distant desert; but all who wished to give heed to themselves practised the discipline in solitude near their own village. Now there was then in the next village an old man who had lived the life of a hermit from his youth up. Antony, after he had seen this man, imitated him in piety.

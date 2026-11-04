@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: IV.29 (npnf202 lines 14193-14218)
+  locus: "IV.29 (cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml, lines 14203-14214)"
   license: public-domain
 text: This ordination was made, not in a church, but in a retired place called the Palace of Sicine,
   whereupon dissension arose among the people; their disagreement being not about any article of faith

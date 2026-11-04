@@ -22,8 +22,7 @@ confidence:
     how often. That limit is real and is stated rather than filled.
 sources:
 - source_id: don.source.deo-laudes-acclamation
-  locus: 'CIL VIII 17732 (two pillars near Bagai, now at Khenchela, DEO LAVDES twice), with 20482, 17368
-    and 18669'
+  locus: "CIL VIII 17732 (two pillars near Bagai, now at Khenchela, DEO LAVDES twice), with 20482, 17368 and 18669; the words read cleanly at no. 17368 (cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt, line 4566), where the scan of no. 17732 is garbled"
   license: public-domain
 - source_id: don.source.cil-viii-supplementum-numidiae
   locus: 'the Numidia supplement''s own editorial note at no. 17732: "Uti [Deo] gratias... catholicorum,

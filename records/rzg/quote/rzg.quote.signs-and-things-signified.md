@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.consensus-tigurinus
-  locus: 9th Head of Agreement, lines 768-770
+  locus: "9th Head of Agreement (cic/texts/calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt, lines 768-770)"
   license: public-domain
 relations: []
 text: Wherefore, though we distinguish, as we ought, between the signs and the things signified, yet we

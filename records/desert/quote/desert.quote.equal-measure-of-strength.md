@@ -22,9 +22,7 @@ confidence:
     about women's capacity. It may not use it to show what women's position was.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xxxv, the opening of the section on holy women, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xxxv, the opening of the section on holy women, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1119)"
   license: public-domain
 text: >-
   Now therefore it is necessary for us to remember also the chosen and mighty women unto whom God

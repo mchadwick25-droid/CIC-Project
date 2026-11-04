@@ -21,7 +21,7 @@ confidence:
     fantastical register either.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2379-2392): Martin''s foreknowledge of his death and his decision to travel to the quarrelling church at Condate'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2379-2392; div ii.iii.iii): Martin's foreknowledge of his death and his decision to travel to the quarrelling church at Condate"
   license: public-domain
 retrieval:
   tier: 2

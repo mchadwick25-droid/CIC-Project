@@ -17,8 +17,7 @@ confidence:
     Documented as Jerome's own brief notice, written c. 393 about a bishop he had served as secretary - so admiring, and by a man with reason to be. What it evidences securely is that Damasus's verse was known as his defining public work within a decade of his death.
 sources:
 - source_id: ijc.source.jerome-de-viris
-  locus: >-
-    De Viris Illustribus, ch. CIII (npnf203_theodoret-jerome-gennadius-rufinus.xml)
+  locus: "De Viris Illustribus, ch. CIII (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 41382-41385)"
   license: public-domain
 text: >-
   Damasus, bishop of Rome, had a fine talent for making verses and published many brief works in heroic metre. He died in the reign of the Emperor Theodosius at the age of almost eighty.

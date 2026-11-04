@@ -17,7 +17,7 @@ confidence:
     written. It shows how this world read scripture, not what the books are.'
 sources:
 - source_id: desert.source.cassian-conferences
-  locus: 'Conference III (Conference of Abbot Paphnutius), ch. VI (npnf211 line 28484)'
+  locus: "Conference III (Conference of Abbot Paphnutius), ch. VI (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 28479-28486)"
   license: public-domain
 text: >-
   To these three sorts of renunciations the three books of Solomon suitably correspond. For Proverbs

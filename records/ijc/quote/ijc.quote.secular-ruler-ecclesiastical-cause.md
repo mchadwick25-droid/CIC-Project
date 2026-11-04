@@ -16,7 +16,7 @@ confidence:
     his biographer''s account of what he maintained at Trier, written some eighteen years later.'
 sources:
 - source_id: ijc.source.sulpicius-chronica
-  locus: 'Sacred History II.50, the Priscillian narrative (npnf211 lines 11652-11660)'
+  locus: "Sacred History II.50, the Priscillian narrative (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 11652-11660)"
   license: public-domain
 text: For Martin, being then settled at Treves, did not cease to importune Ithacius, that he should give
   up his accusations, or to implore Maximus that he should not shed the blood of the unhappy persons

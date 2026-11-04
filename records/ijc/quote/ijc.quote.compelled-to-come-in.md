@@ -26,7 +26,7 @@ confidence:
     quoted text.
 sources:
 - source_id: ijc.source.augustine-correction-donatists
-  locus: 'chs. 6-7 (npnf104, lines 19616-19617 and 19624)'
+  locus: "chs. 6-7 (cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 19616-19624)"
   license: public-domain
 text: Wherefore, if the power which the Church has received by divine appointment in its due season,
   through the religious character and the faith of kings, be the instrument by which those who are found

@@ -22,9 +22,7 @@ confidence:
     a saying preserved for its own sake.
 sources:
 - source_id: desert.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. xxxvij, Of the Virgin Taor, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. xxxvij, Of the Virgin Taor, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1133)"
   license: public-domain
 text: >-
   I do not require [them], for I am not compelled to go down into the market.

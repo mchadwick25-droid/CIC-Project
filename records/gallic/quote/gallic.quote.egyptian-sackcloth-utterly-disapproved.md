@@ -17,8 +17,7 @@ confidence:
     counter-example to Martin's sackcloth worn as a visible sign.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.2 (npnf211 div iv.iii.i, file lines 16650-16663): the Egyptian fathers'
-    rejection of sackcloth as conspicuous dress"
+  locus: "Institutes I.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16651-16660; div iv.iii.i): the Egyptian fathers' rejection of sackcloth as conspicuous dress"
   license: public-domain
 retrieval:
   tier: 3

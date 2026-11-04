@@ -66,6 +66,20 @@ def test_a_paraphrase_only_quote_is_out_of_scope():
     assert _run(rec) == []
 
 
+def test_an_edition_apparatus_marker_inside_the_span_is_stripped_as_the_verbatim_gate_strips_it():
+    rec = copy.deepcopy(load_world_records("gallic")["gallic.quote.salvian-on-the-demand-for-circuses"])
+    rec["sources"] = [{"source_id": rec["sources"][0]["source_id"],
+                       "locus": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 8264-8306"}]
+    assert _run(rec) == []
+
+
+def test_a_quote_escalated_below_verified_direct_is_out_of_scope_as_in_the_verbatim_gate():
+    rec = _records()[QUOTE]
+    rec["confidence"] = {**rec["confidence"], "verification_state": "verified-via-authority"}
+    rec["text"] = "words that are nowhere in the file"
+    assert _run(rec) == []
+
+
 def test_the_gate_is_registered():
     assert gates.GATES["quote-locus"] is gate_quote_locus
 
