@@ -231,3 +231,11 @@ Status: OPEN for the project lead.
 - **Finding.** 34 syr verbatim quotes named no line span in their locus.
 - **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. All 34 match. Where a locus already held a rough pointer for the same file, such as "(anf02, line 6972)", the exact span replaces it.
 - **Owner.** Library record-defects thread. Closed.
+
+## 48. `syr.dw.born-again-endtimes` puts the sealing after the water, 2026-11-04.
+
+- **Finding.** The record's text says "the sign set on each one who came up from the water". Its own first source says the opposite. Ephrem, Epiphany Hymn III.17 (`cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml`, lines 20405-20408): "the priest used to seal him with oil, and to lead him to the waterspring". Hymn IV.1 (line 20481): "Descend my sealed brethren". The Syriac Didascalia 16 gives the same order (`cic/texts/didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt`, lines 6578-6580), but it is not a registered syr source. The sentence also states a ritual order that `syr.limit.ritual-sequence` says the record never wrote down.
+- **How found.** The V7 controlled test readers flagged it in two answers. An independent Opus reader checked it against both sources and confirmed it.
+- **Smallest fix.** Cut "who came up from the water".
+- **Side finding from the same check.** The Dem. VI locus is correct (npnf213 lines 26165-26174). The record's "unsettled" note on it, and the claim in `syr.quote.warned-before-baptism` that VI is "the wrong locus", are mistaken.
+- **Owner.** Library record-defects thread. Open.

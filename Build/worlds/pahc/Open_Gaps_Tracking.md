@@ -931,3 +931,18 @@ Status: CLOSED. Owner: Library record-defects thread.
 The source-window resolver read "Mandate 9" and "Mandate 4" as names to match in a title. The vendored edition (`cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml`) titles them "Commandment Ninth." and "Commandment Fourth.". Before PR #1512 these references landed in the Visions; after it they were not located. The resolver now reads a "Mandate" as the edition's "Commandment", so the four records that cite them get the right passage (lines 2377-2431 and 1881-2046).
 
 Status: CLOSED. Owner: V7 test thread.
+
+### OG-51. `pahc.witness.jesus-as-god` says no surviving writer explained Jesus as God beside the Father, 2026-11-04.
+
+The record's `text` says: "No one whose writing survives explained how calling Jesus God fits together with calling the Father God, with there being one God." Its `positions` field says the same of "this world's own six primary voices". Justin is one of those six (`Build/worlds/pahc/CiC_W1_Doc02_Source_Ecology_FINAL.md` §1.6). Both his works are registered, and his dates fall inside the record's window. He attempts exactly this explanation in `cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`:
+- Dialogue 56, lines 20491-20497: distinct "numerically, I mean, not [distinct] in will";
+- Dialogue 61, lines 20890-20899;
+- Dialogue 128, lines 24697-24703: "fires kindled from a fire";
+- First Apology 13, lines 14388-14391;
+- First Apology 63, lines 16351-16352.
+
+The V7 controlled test readers found this false absence in answers from both arms. An independent Opus reader confirmed it. The record's `divergence_note`, that this world did not work the question out the way later doctrine did, stands.
+
+Smallest fix: limit the absence to Ignatius, name Justin's attempt, and keep "not worked out the way later doctrine did". Change the `positions` line and the closing sentence the same way.
+
+Status: OPEN. Owner: Library record-defects thread.
