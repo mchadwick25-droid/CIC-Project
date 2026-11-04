@@ -270,3 +270,12 @@ def test_party_and_organisation_names_are_left_alone():
     ):
         assert words(line) == [], line
     assert words("Our Saviour came. Hard labour.") == [("Saviour", "Savior"), ("labour", "labor")]
+
+
+def test_forms_found_by_the_site_recheck_are_flagged():
+    for old, new in (
+        ("outmanoeuvred", "outmaneuvered"), ("arbours", "arbors"), ("amphitheatre", "amphitheater"),
+        ("ploughman", "plowman"), ("metred", "metered"), ("enquirers", "inquirers"),
+    ):
+        assert words(f"a {old} thing") == [(old, new)], old
+    assert words("Bedford gaol") == []

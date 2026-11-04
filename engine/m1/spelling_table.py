@@ -25,7 +25,7 @@ def _family(stems, british_end: str, american_end: str, endings) -> None:
 _family(
     ("colo", "hono", "favo", "behavio", "neighbo", "labo", "harbo", "rumo", "humo", "vigo", "rigo", "valo", "savo",
      "flavo", "endeavo", "fervo", "armo", "cando", "clamo", "splendo", "odo", "parlo", "vapo", "tumo", "demeano",
-     "unfavo", "tricolo", "ardo", "succo"),
+     "unfavo", "tricolo", "ardo", "succo", "arbo"),
     "ur", "r", ("", "s", "ed", "ing", "ful", "fully", "less", "able", "ably", "ite", "ites", "ist", "ists", "er", "ers", "y", "hood", "hoods"),
 )
 TABLE["saviour"], TABLE["saviours"] = "savior", "saviors"
@@ -56,6 +56,7 @@ _family(("cent", "epicent"), "re", "er", ("", "s"))
 TABLE["centred"] = "centered"
 TABLE["epicentred"] = "epicentered"
 TABLE["centring"] = "centering"
+_family(("amphitheat",), "re", "er", ("", "s"))
 _family(("theat", "met", "lit", "fib", "calib", "somb", "lust", "meag", "spect", "sab", "kilomet", "millimet", "centimet"),
         "re", "er", ("", "s"))
 TABLE["manoeuvre"], TABLE["manoeuvres"], TABLE["manoeuvred"] = "maneuver", "maneuvers", "maneuvered"
@@ -89,6 +90,8 @@ TABLE.update({
     "jewellery": "jewelry", "instalment": "installment", "practise": "practice", "practised": "practiced",
     "practising": "practicing", "distil": "distill", "appal": "appall",
     "councillor": "councilor", "councillors": "councilors", "uncatalogued": "uncataloged",
+    "outmanoeuvred": "outmaneuvered", "outmanoeuvre": "outmaneuver", "ploughman": "plowman", "ploughmen": "plowmen",
+    "metred": "metered", "enquirer": "inquirer", "enquirers": "inquirers", "enquiring": "inquiring",
     "catalogue": "catalog", "catalogues": "catalogs", "catalogued": "cataloged", "cataloguing": "cataloging",
     "cataloguer": "cataloger", "cataloguers": "catalogers",
 })
