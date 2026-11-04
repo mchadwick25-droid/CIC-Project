@@ -19,7 +19,7 @@ sources:
   license: public-domain
 text: even now the Syrians frequently sing, not the precise copies by Harmonius, but the same melodies
 modern_rendering: >-
-  Even now, the Syrians often sing -- not exact copies of Harmonius's versions, but the
+  Even now the Syrians often sing, not exactly what Harmonius wrote, but the
   same melodies.
 speaker_or_author: syr.source.sozomen-historia-ecclesiastica (Sozomen on the rival hymnody Ephrem answered)
 license: verbatim

@@ -22,11 +22,11 @@ sources:
 text: >-
   Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever... that at this time Fabiola came to herself? Yet it was then that she put on sackcloth to make public confession of her error. It was then that in the presence of all Rome (in the basilica which formerly belonged to that Lateranus who perished by the sword of Cæsar ) she stood in the ranks of the penitents and exposed before bishop, presbyters, and people—all of whom wept when they saw her weep—her dishevelled hair, pale features, soiled hands and unwashed neck.
 modern_rendering: >-
-  Who would believe it? Her second husband had died. At such a time most widows shake off
-  the yoke of servitude, grow careless and allow themselves more liberty than ever... Yet
-  at that time Fabiola came to herself. It was then that she put on sackcloth to make
-  public confession of her wrongdoing. It was then that she stood in the ranks of the
-  penitents in the presence of all Rome. This was in the basilica that once belonged to
+  Her second husband had died. At such a time most widows shake off the yoke of servitude.
+  They grow careless and allow themselves more liberty than ever... Who would believe that
+  at this very time Fabiola came to herself? Yet it was then that she put on sackcloth to
+  make public confession of her error. It was then that she stood in the ranks of the
+  penitents, in the presence of all Rome. This was in the basilica that once belonged to
   that Lateranus who died by the sword of Caesar. Before bishop, presbyters and people she
   showed her disheveled hair, pale features, soiled hands and unwashed neck. They all wept
   when they saw her weep.
