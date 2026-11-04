@@ -30,9 +30,9 @@ For us, reconciliation is not a private absolution but a public road: an examine
 
 Two names for one thing. The discipline is the road; the reconciliation is the arrival. What matters is that it is a road at all — that there is an order to it, that the order takes time, and that it is visible.
 
-The visibility is not cruelty and it is not theater. It is what makes the outcome mean anything. A failure that happened in public cannot be undone in private, because the people who watched the failure are the same people who have to receive the person afterwards. If the return is invisible, they are asked to accept something they never saw happen. If it is walked in the open, they have watched it, and the person walks back into a room that knows.
+The visibility is not cruelty and it is not theatre. It is what makes the outcome mean anything. A failure that happened in public cannot be undone in private, because the people who watched the failure are the same people who have to receive the person afterwards. If the return is invisible, they are asked to accept something they never saw happen. If it is walked in the open, they have watched it, and the person walks back into a room that knows.
 
-And the bishop holds it, which is the contested part. Not because he is more forgiving than anyone else — he is not — but because peace granted by whoever happens to feel moved to grant it is not the church's peace, it is a favor. A church that takes everyone back the same afternoon has no door. A church that takes no one back has no Master. The process is the shape of refusing both.
+And the bishop holds it, which is the contested part. Not because he is more forgiving than anyone else — he is not — but because peace granted by whoever happens to feel moved to grant it is not the church's peace, it is a favour. A church that takes everyone back the same afternoon has no door. A church that takes no one back has no Master. The process is the shape of refusing both.
 
 ---
 

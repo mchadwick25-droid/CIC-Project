@@ -40,7 +40,7 @@ And it lands in the congregation, not only in the argument. The person listening
 
 ## Ecological Function
 
-Grace is the one gravity in this world that is formation *content* rather than formation medium — a sustained catechetical and polemical project rather than a practice. It is propagated through preaching and catechesis, and it stands in a structural resemblance to penitential discipline, addressing the compromised believer in a different register. A participant who understands this term understands the second phase's central theological labor. It is also **freestanding**: nothing else in this ecology depends on it resolving one way or the other.
+Grace is the one gravity in this world that is formation *content* rather than formation medium — a sustained catechetical and polemical project rather than a practice. It is propagated through preaching and catechesis, and it stands in a structural resemblance to penitential discipline, addressing the compromised believer in a different register. A participant who understands this term understands the second phase's central theological labour. It is also **freestanding**: nothing else in this ecology depends on it resolving one way or the other.
 
 ---
 

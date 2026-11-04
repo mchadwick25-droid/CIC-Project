@@ -34,7 +34,7 @@ He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy,
 
 **What it shows that other evidence does not show as directly.** Every other source for this controversy is Cyprian's — and Cyprian is a party to it. He describes the confessors' certificates as issued "daily… contrary to the law of the Gospel." Here the same practice is visible from inside, and it does not look like defiance of a bishop. It looks like a man in prison being asked by a grieving friend for help, and answering him.
 
-**Why it belongs in the encounter.** Doc_04 classifies G8 as Tensional — a gravity the world never resolved. A tension is not communicated by explaining both positions. It is communicated by making the reader feel the pull of the side they were not expecting to sympathize with. **This story does that and a lexicon entry cannot.**
+**Why it belongs in the encounter.** Doc_04 classifies G8 as Tensional — a gravity the world never resolved. A tension is not communicated by explaining both positions. It is communicated by making the reader feel the pull of the side they were not expecting to sympathise with. **This story does that and a lexicon entry cannot.**
 
 ---
 

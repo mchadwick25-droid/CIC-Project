@@ -28,7 +28,7 @@ For us, suffrage is the congregational voice that puts a man in office, sometime
 
 ## World Meaning
 
-Cyprian's own word for what elected him — *your suffrage and God's judgment* — set against a rival presbyteral faction's *ancient venom*, in a letter written because that faction had made it impossible for him to come in person. A deacon who knew him reports the same thing from outside: *by the judgment of God and the favor of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.*
+Cyprian's own word for what elected him — *your suffrage and God's judgment* — set against a rival presbyteral faction's *ancient venom*, in a letter written because that faction had made it impossible for him to come in person. A deacon who knew him reports the same thing from outside: *by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.*
 
 The pattern recurs in the second phase but not identically, and the difference is kept rather than smoothed: Augustine was seized into the **presbyterate** at Hippo against his wishes; his **episcopate** came by his predecessor's designation and a consecration — and, at the same event, by the acclamation of all who heard it, which he refused before yielding under compulsion.
 
@@ -56,7 +56,7 @@ Epistle XXXIX (Registry row 1, Confidence A), directly quoted and re-verified at
 
 **No [PV] tag on this term.** Doc_03 rules it out **by name**: *"it does not sit on 'suffrage,' which is a cross-phase pattern rather than a single-phase term."*
 
-**Caution, carried from Doc_03 and load-bearing.** The pattern is attested through **different figures and different words** — and at **the episcopate for both men**, Possidius *Vita* ch. VIII recording popular clamor, refusal and compulsion at Augustine's own (Possidius *Vita* ch. VIII), with the presbyterate (*Vita* ch. IV) besides — not one recurring term. It is named as a pattern, not presented as a shared vocabulary item.
+**Caution, carried from Doc_03 and load-bearing.** The pattern is attested through **different figures and different words** — and at **the episcopate for both men**, Possidius *Vita* ch. VIII recording popular clamour, refusal and compulsion at Augustine's own (Possidius *Vita* ch. VIII), with the presbyterate (*Vita* ch. IV) besides — not one recurring term. It is named as a pattern, not presented as a shared vocabulary item.
 
 ---
 

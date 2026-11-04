@@ -30,7 +30,7 @@ For us, "the people" names the congregation acting — consenting, demanding, el
 
 They are not an audience. They put men into office and they say so out loud; they can also stand in front of the bishop's seat and refuse to go home.
 
-At Hippo in 411 they wanted a particular wealthy man made their presbyter and they did not get the ordination. They clamored, they abused another bishop present, and when told the bishop was bound by a promise they *began to be much more warmly excited*, calculating that the promise might break or another bishop might be found. He left them, went to his seat, and held. That is the shape of it exactly: real leverage, loudly exercised, and finally bounded by the one man's refusal.
+At Hippo in 411 they wanted a particular wealthy man made their presbyter and they did not get the ordination. They clamoured, they abused another bishop present, and when told the bishop was bound by a promise they *began to be much more warmly excited*, calculating that the promise might break or another bishop might be found. He left them, went to his seat, and held. That is the shape of it exactly: real leverage, loudly exercised, and finally bounded by the one man's refusal.
 
 ---
 

@@ -43,7 +43,7 @@ This is the administrative fact underneath the lapsed, and therefore underneath 
 ## Distortion Risk
 
 **Modern Hearing:**
-A modern participant may picture a formal identity document or license.
+A modern participant may picture a formal identity document or licence.
 
 **World Hearing:**
 A compliance record produced by an empire-wide administrative demand, whose existence is precisely what made failure documentary and public rather than private.

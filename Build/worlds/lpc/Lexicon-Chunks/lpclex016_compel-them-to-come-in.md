@@ -32,7 +32,7 @@ The text is a parable: a householder's feast, the invited guests excuse themselv
 
 The argument turns on a distinction inside the parable itself. *Mark, now, how it was said in regard to those who came first, "bring them in;" it was not said, "compel them to come in,"—by which was signified the incipient condition of the Church, when it was only growing towards the position in which it would have* strength. The early church could not compel; it was small. The later church can; therefore the later church may. And the answer to the obvious objection — *you are of opinion that no one should be compelled to follow righteousness* — is that correction is what love does when it is serious.
 
-**This is the end of a three-phase development, and this world's own record does not permit compressing it into one position.** An early opinion, by his own later account, against any coercion at all; then a real but narrow solicitation of legal protection, argued and in the event not granted; and only later the sustained defense of broader compulsion, after an argued change of mind. Cyprian never solicits state power at all, and nothing in his phase corresponds to this.
+**This is the end of a three-phase development, and this world's own record does not permit compressing it into one position.** An early opinion, by his own later account, against any coercion at all; then a real but narrow solicitation of legal protection, argued and in the event not granted; and only later the sustained defence of broader compulsion, after an argued change of mind. Cyprian never solicits state power at all, and nothing in his phase corresponds to this.
 
 ---
 
@@ -56,11 +56,11 @@ A late, argued position reached against the author's own earlier opinion, defend
 
 ## Key Sources
 
-Letter 185 §§25–26 (Registry row 12), the imperial-coercion defense; Letter XCIII §17 (row 43), the retrospective account of the earlier contrary opinion — both directly quoted and re-verified at source. The parable exegesis quoted above is Augustine's own, re-verified at source in `npnf101`.
+Letter 185 §§25–26 (Registry row 12), the imperial-coercion defence; Letter XCIII §17 (row 43), the retrospective account of the earlier contrary opinion — both directly quoted and re-verified at source. The parable exegesis quoted above is Augustine's own, re-verified at source in `npnf101`.
 
-**Author Gravity note, high and specific.** This doctrine is known in this world's corpus **only through Augustine's own advocacy, in his own defense, with no Donatist first-person answer surviving in this world's Native record.** Doc_02 §2 records that he writes from a position of increasing institutional confidence relative to Donatism.
+**Author Gravity note, high and specific.** This doctrine is known in this world's corpus **only through Augustine's own advocacy, in his own defence, with no Donatist first-person answer surviving in this world's Native record.** Doc_02 §2 records that he writes from a position of increasing institutional confidence relative to Donatism.
 
-**Editorial-apparatus warning, and this one is a theological verdict, not a gloss.** The vendored `npnf101` volume's own 19th-century preface calls the anti-Donatist works as a body *"least satisfactory to Protestant readers"* and then says Augustine defended coercion *"by a false exegesis"* of this text. **That is Schaff's judgment, not Augustine's and not this world's**, and it sits in the same volume as the primary text. It is excluded from this entry entirely and must not be absorbed into any rendering of this world's own voice.
+**Editorial-apparatus warning, and this one is a theological verdict, not a gloss.** The vendored `npnf101` volume's own 19th-century preface calls the anti-Donatist works as a body *"least satisfactory to Protestant readers"* and then says Augustine defended coercion *"by a false exegesis"* of this text. **That is Schaff's judgement, not Augustine's and not this world's**, and it sits in the same volume as the primary text. It is excluded from this entry entirely and must not be absorbed into any rendering of this world's own voice.
 
 ---
 
@@ -72,7 +72,7 @@ The contest is live and substantial. This text is the single most-cited patristi
 
 Secondarily a **Meaning** contest: what *cogite intrare* licenses in Augustine's own terms — the scope, the agent, and the severity he actually contemplates — is itself argued.
 
-**What this entry therefore does not do:** it does not adjudicate the historiographical question, does not endorse or condemn the position, and does not characterize the Donatists. Doc_01 binds this build explicitly against compressing the three-phase sequence, and that binding is honored in the World Meaning above.
+**What this entry therefore does not do:** it does not adjudicate the historiographical question, does not endorse or condemn the position, and does not characterize the Donatists. Doc_01 binds this build explicitly against compressing the three-phase sequence, and that binding is honoured in the World Meaning above.
 
 ---
 

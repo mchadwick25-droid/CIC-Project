@@ -30,7 +30,7 @@ For us, this is the counter-principle: local councils yield to wider ones, and e
 
 *The Councils themselves, which are held in the several districts and provinces, must yield, beyond all possibility of doubt, to the authority of plenary Councils which are formed for the whole Christian world; and... even of the plenary Councils, the earlier are often corrected by those which follow them, when, by some actual experiment, things are brought to light which were before concealed.*
 
-Two moves in one sentence, and the second is the surprising one. Narrower yields to wider — that is a hierarchy. But the widest is itself revisable, when experience brings to light what was hidden. Which means a past ruling is authoritative and correctable at the same time, and that is precisely what is needed by a man who intends to honor a predecessor while overturning what he decided.
+Two moves in one sentence, and the second is the surprising one. Narrower yields to wider — that is a hierarchy. But the widest is itself revisable, when experience brings to light what was hidden. Which means a past ruling is authoritative and correctable at the same time, and that is precisely what is needed by a man who intends to honour a predecessor while overturning what he decided.
 
 ---
 
@@ -54,7 +54,7 @@ A layered and self-correcting account: wider bodies outrank narrower ones, and t
 
 *On Baptism, Against the Donatists* II.3, Registry row 13 — directly quoted and re-verified at source; Doc_03's sweep returns 31 occurrences of *plenary* within the treatise itself, scoped to its own boundaries.
 
-**Author Gravity note.** Augustine's formula is spoken in defense of overturning Cyprian's specific ruling. His institutional interest in the argument runs opposite to Cyprian's in the paired entry, which is why this build does not treat the two formulas as reconcilable restatements of one theory.
+**Author Gravity note.** Augustine's formula is spoken in defence of overturning Cyprian's specific ruling. His institutional interest in the argument runs opposite to Cyprian's in the paired entry, which is why this build does not treat the two formulas as reconcilable restatements of one theory.
 
 **Ecological bound**, as for the paired entry: no evidence that this question reached ordinary formation in either phase.
 
