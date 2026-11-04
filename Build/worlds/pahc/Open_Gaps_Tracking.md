@@ -945,4 +945,4 @@ The V7 controlled test readers found this false absence in answers from both arm
 
 Smallest fix: limit the absence to Ignatius, name Justin's attempt, and keep "not worked out the way later doctrine did". Change the `positions` line and the closing sentence the same way.
 
-Status: OPEN. Owner: Library record-defects thread.
+Status: OPEN. Owner: records-fix thread (session_01JMNsSDaYU3CxmbunTEPwcE), assigned by coordination 2026-11-04.

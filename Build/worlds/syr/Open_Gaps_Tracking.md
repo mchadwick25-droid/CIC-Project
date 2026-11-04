@@ -238,4 +238,4 @@ Status: OPEN for the project lead.
 - **How found.** The V7 controlled test readers flagged it in two answers. An independent Opus reader checked it against both sources and confirmed it.
 - **Smallest fix.** Cut "who came up from the water".
 - **Side finding from the same check.** The Dem. VI locus is correct (npnf213 lines 26165-26174). The record's "unsettled" note on it, and the claim in `syr.quote.warned-before-baptism` that VI is "the wrong locus", are mistaken.
-- **Owner.** Library record-defects thread. Open.
+- **Owner.** Records-fix thread (session_01JMNsSDaYU3CxmbunTEPwcE), assigned by coordination 2026-11-04. Open.
