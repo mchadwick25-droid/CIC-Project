@@ -35,7 +35,7 @@ claim: >-
   Quid est imperatori cum ecclesia? The state has no standing to judge who the true church is. A verdict
   reached through a state-aligned process is not thereby a church verdict. That is why we rejected Rome in
   313 and Arles in 314. It is why our bishops refused the chairs at Carthage in 411 and stood while the
-  judge sat. No imperial favour shown to our rival has ever amounted to an argument.
+  judge sat. No imperial favor shown to our rival has ever amounted to an argument.
 held_against:
 - The interpretive frame is the most heavily synthesised thing in this world's gravity discovery. That
   the recurring episodes together constitute a principled refusal of the state's authority, rather than
@@ -83,13 +83,13 @@ divergence_partners:
 - ijc.gravity.church-state-alliance (world imperial-juridical) - the standing condition that world names
   as the fact every other force moves within, from Constantine's victory onward - church office as a form
   of state-adjacent power, never again simply private. This claim is the refusal of exactly that condition,
-  held by a communion living inside it. This is the neighbour Doc_07 SS5 already identified in this world's
+  held by a communion living inside it. This is the neighbor Doc_07 SS5 already identified in this world's
   own construction record - a world that aligns with and juridically consolidates around state power,
   against which this one defines itself by permanent separation.
 - ijc.source.augustine-correction-donatists (world imperial-juridical) - the strongest kind of divergence
   the fleet can hold, because it is one text compiled in both worlds and read in opposite directions. In
   the Imperial and Juridical world Letter 185 is that world's OWN voice, and its quote record
-  (ijc.quote.compelled-to-come-in) carries it as the missing first-person defence of the mechanism by
+  (ijc.quote.compelled-to-come-in) carries it as the missing first-person defense of the mechanism by
   the man using it. In this world the same letter is the argument used against us and the record of how
   the refusal was overridden. Neither world softens it; the two readings do not reconcile, and the
   Table Readiness Round is where that should be visible.
@@ -125,7 +125,7 @@ this world makes no claim about how it received the verdict. The vendored Gesta 
 read only for the Donatist bishops' recorded interventions and not in full.
 
 AUGUSTINE'S LETTER 185 IS CARRIED AT WHAT THE COMPILED RECORDS ATTEST. That it defends compulsion,
-grounds the defence on Luke 14:23, is addressed to the tribune Boniface around 417, and records
+grounds the defense on Luke 14:23, is addressed to the tribune Boniface around 417, and records
 Augustine's own earlier contrary view - all four are carried by
 don.source.augustine-correction-of-the-donatists and by the fleet's own verified quote record for the
 passage. Nothing further about that letter's handling of this communion's own recourse to law is

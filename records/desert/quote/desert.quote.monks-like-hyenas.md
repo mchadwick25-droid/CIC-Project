@@ -40,7 +40,7 @@ license: verbatim
 modern_lens_note: >-
   The homily sorts monks into ten kinds by animal - five corrupt (hyenas, dogs, wolves, shakals,
   goats) and five sound (sheep, doves, turtle-doves, bees, deer) - a form a modern reader is likely
-  to read as moralising decoration. It is doing something harder than that. The charge against the
+  to read as moralizing decoration. It is doing something harder than that. The charge against the
   hyena is not laxity but a split between the daytime self and the night one: the fast is real and
   is kept in company, and the failure happens where nobody is watching. "Abide with their brethren
   as far as their names are concerned" is a community saying that its own membership roll has
@@ -50,7 +50,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether anyone failed, fell away, or lived a double life inside a monastery"
   - "participant asks what the communities said about their own decay or hypocrisy"
-  - "participant asks whether these houses ever criticised themselves"
+  - "participant asks whether these houses ever criticized themselves"
 relations:
 - type: illustrates
   target: desert.gravity.authority-tension

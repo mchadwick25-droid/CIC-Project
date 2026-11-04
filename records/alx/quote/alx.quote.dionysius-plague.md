@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - "participant asks what happened in an epidemic and what Christians did"
   - "participant asks how they cared for the dying and buried the dead"
-  - "participant asks what outsiders noticed about their behaviour in a crisis"
+  - "participant asks what outsiders noticed about their behavior in a crisis"
 relations:
 - type: associated-with
   target: alx.story.plague-nursing

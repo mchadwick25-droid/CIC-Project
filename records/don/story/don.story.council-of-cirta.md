@@ -36,7 +36,7 @@ retrieval:
   - participant wants a case that complicates our founding self-image rather than confirming it
   prefer_instead:
   - participant wants a story in which our founding figures come through straightforwardly vindicated;
-    this account is told by our opponent and emphasises their mutual vulnerability
+    this account is told by our opponent and emphasizes their mutual vulnerability
 relations:
 - type: associated-with
   target: don.figure.secundus-of-tigisis
@@ -72,17 +72,17 @@ text: >-
   books to buy that release.
 
   Secundus, unsettled, took advice from his own brother's son - called,
-  in the record, Secundus the Less - who counselled him to remit the
+  in the record, Secundus the Less - who counseled him to remit the
   whole affair to God rather than press it further. Secundus then turned
   to the three bishops present who had not themselves been accused,
   Victor of Garba, Felix of Rotarium and Nabor of Centurio, and asked
-  their judgement. They answered that a case of this kind ought to be
+  their judgment. They answered that a case of this kind ought to be
   reserved to the Lord. Sit down, all, Secundus said. Thanks be to God,
   the assembly answered, and did. No one present was found guilty; no one
   was cleared. The room simply agreed not to finish the question it had
   started.
-telling: "Before the quarrel over Caecilian began, the bishops of Numidia met at Cirta to make a bishop of their own. The year is disputed, 305 or 307 or later. Optatus tells the story of that meeting in his books against us.\n\nSecundus of Tigisis presided. He asked whether any of them had handed over the scriptures in the persecution. One by one, several said they had. It was the same charge we would soon bring against Felix, the bishop who made Caecilian.\n\nThen Purpurius turned the question back on Secundus. He taunted him for being let go only after a long time among the soldiers. The room began to mutter that Secundus too had given up the sacred books to buy his release.\n\nSecundus asked advice from his brother's son, called Secundus the Less, who told him to leave the whole affair to God. Secundus then asked the three bishops who had not been accused for their judgement. They were Victor of Garba, Felix of Rotarium and Nabor of Centurio. They said a case like this should be reserved to the Lord.\n\n\"Sit down, all,\" Secundus said. \"Thanks be to God,\" the assembly answered, and sat. No one was found guilty, and no one was cleared."
-absent_detail: No record of this council from our own side survives - no minute, no later defence, no explanation
+telling: "Before the quarrel over Caecilian began, the bishops of Numidia met at Cirta to make a bishop of their own. The year is disputed, 305 or 307 or later. Optatus tells the story of that meeting in his books against us.\n\nSecundus of Tigisis presided. He asked whether any of them had handed over the scriptures in the persecution. One by one, several said they had. It was the same charge we would soon bring against Felix, the bishop who made Caecilian.\n\nThen Purpurius turned the question back on Secundus. He taunted him for being let go only after a long time among the soldiers. The room began to mutter that Secundus too had given up the sacred books to buy his release.\n\nSecundus asked advice from his brother's son, called Secundus the Less, who told him to leave the whole affair to God. Secundus then asked the three bishops who had not been accused for their judgment. They were Victor of Garba, Felix of Rotarium and Nabor of Centurio. They said a case like this should be reserved to the Lord.\n\n\"Sit down, all,\" Secundus said. \"Thanks be to God,\" the assembly answered, and sat. No one was found guilty, and no one was cleared."
+absent_detail: No record of this council from our own side survives - no minute, no later defense, no explanation
   of what the phrase "reserved to the Lord" was understood to mean by the men who said it. Whether the
   admissions were what Optatus takes them to be, and what the assembly thought it was doing when it sat
   down, cannot be checked against anything.

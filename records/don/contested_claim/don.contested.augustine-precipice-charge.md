@@ -35,7 +35,7 @@ retrieval:
   - participant asks whether the martyrs' deaths prove the Donatist claim (don.contested.church-of-the-martyrs)
   - participant asks about the Circumcellions' character generally (don.contested.circumcellion-character)
 relations: []
-claim: Some Donatists honoured as martyrs took their own lives. Two Catholic bishops say so.
+claim: Some Donatists honored as martyrs took their own lives. Two Catholic bishops say so.
 held_against:
 - The charge comes only from opponents. Optatus (Against the Donatists III.4) and Augustine (Answer to Petilian II.46, 110, 114, 160, 193, 197, 204; Letter 185.12) both wrote to deny these dead the name of martyr. Two hostile writers agreeing is not independent confirmation.
 - Augustine's own case admits doubt. Of Marculus and Donatus, the deaths most often cited, he calls it a great question whether they died by their own act or were put to death by command (II.46).
@@ -44,7 +44,7 @@ held_against:
 - His harshest verdict on these deaths (II.114) answers a taunt in Petilian's own letter. It is a judgment in a quarrel, not a report of events.
 concedes: That both opponents made the charge is not in doubt, and Augustine treats such deaths as common. Whether any Donatist died this way, and how many, cannot be settled from hostile writers and one hagiography. This record does not say it happened or that it did not.
 use_note:
-  means: "Two Catholic opponents charge that Donatists honoured as martyrs people who took their own lives; this is hostile polemic about a contested group, not an independent report."
+  means: "Two Catholic opponents charge that Donatists honored as martyrs people who took their own lives; this is hostile polemic about a contested group, not an independent report."
   not_for:
     - "a claim about the eternal fate of any person who died by suicide"
     - "a claim that the passage is advice to a person now in distress"

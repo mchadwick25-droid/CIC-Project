@@ -46,7 +46,7 @@ relations:
 - type: associated-with
   target: don.figure.augustine
 narrative_tier: 1
-narrative_tier_justification: 'Tier 1, correcting an earlier judgement made during this world''s own construction
+narrative_tier_justification: 'Tier 1, correcting an earlier judgment made during this world''s own construction
   and left on the record rather than quietly overwritten. An initial pass concluded that no primary attestation
   of this condemnation survived and that the claim rested only on a 1920 secondary synthesis. That was
   wrong: Monceaux''s own footnote for the claim cites and quotes Augustine''s Contra Epistulam Parmeniani

@@ -12,7 +12,7 @@ import pytest
 from anthropic import APITimeoutError
 
 import engine.m3.v7_run as v7
-from engine.m1.loader import load_fleet_records
+from engine.m1.loader import RECORDS_ROOT, load_fleet_records
 from engine.m1.registry import load_registry
 from engine.m3 import protocol, sealed_probes
 from engine.m4 import evidence as m4_evidence
@@ -36,7 +36,7 @@ RECORD_FIELDS = {
     "probe_id", "cell", "arm", "world", "error", "passed", "checks", "answer_text", "raw_text", "citations", "citation_entries",
     "offered_record_ids", "usage", "seconds_to_first_text", "seconds_total", "stop_reason", "attempts", "priced_usd",
     "priced_includes_failed_holds", "voice_model_id", "voice_max_tokens", "region", "package_manifest_hash", "repo_commit",
-    "additions_chars", "evidence_chars", "evidence_chars_flag_off",
+    "additions_chars", "evidence_chars", "evidence_chars_flag_off", "whole_world_signal", "reading_additions",
 }
 SETTINGS_FIELDS = {
     "voice_model_id", "voice_max_tokens", "a_voice_max_tokens", "voice_temperature", "region", "package_manifest_hash",
@@ -61,7 +61,7 @@ def b_render(monkeypatch):
     """A render_evidence_block that takes the loaded world and adds a line when the switch is on."""
     original = m4_evidence.render_evidence_block
 
-    def render(evidence, world=None):
+    def render(evidence, *, world=None, reading=None):
         block = original(evidence)
         return block + ADDED if world is not None and world.frame.get(v7.READING_CONTEXT) else block
 
@@ -97,11 +97,12 @@ def _write_replies(reply_dir, probe_ids):
         (reply_dir / f"{probe_id}.voice.1.txt").write_text(_reply_text(), encoding="utf-8")
 
 
-def _argv(tmp_path, *, arm="a", probes=None, out="run.jsonl", expect=None, max_tokens="2048", extra=()):
+def _argv(tmp_path, *, arm="a", probes=None, out="run.jsonl", expect=None, max_tokens="2048", extra=(), reading_dir=RECORDS_ROOT):
+    reading = ("--reading-records-dir", str(reading_dir)) if arm == "b" and reading_dir is not None else ()
     return [
         "--world", WORLD, "--arm", arm, "--probes", ",".join(probes or _probe_ids()), "--out", str(tmp_path / out),
         "--model-id", MODEL, "--region", "us-east-1", "--max-tokens", max_tokens,
-        "--expect-package-hash", expect or _manifest_hash(), *extra,
+        "--expect-package-hash", expect or _manifest_hash(), *reading, *extra,
     ]
 
 
@@ -189,6 +190,68 @@ def test_arm_b_is_refused_when_the_render_cannot_read_the_switch(tmp_path, monke
     assert not (tmp_path / "run.jsonl").exists()
 
 
+def test_arm_b_without_a_reading_records_dir_exits_2_before_any_load(tmp_path, monkeypatch, capsys):
+    loads = []
+    monkeypatch.setattr(v7, "LazyWorldLoader", lambda: loads.append(1))
+    assert v7.main(_dry(tmp_path, arm="b", reading_dir=None)) == 2
+    assert "--reading-records-dir" in capsys.readouterr().err
+    assert v7.main(_dry(tmp_path, arm="b", reading_dir=tmp_path / "no-records")) == 2
+    assert not loads
+    assert not (tmp_path / "run.jsonl").exists()
+
+
+def _reading_dir(tmp_path, lens_notes):
+    """A records directory holding `lens_notes` of alx's quote records, each with only its id and a lens note."""
+    quotes = [rid for rid, r in m4_evidence.repository_records_by_id(_world().repository).items() if r.get("record_type") == "quote"]
+    root = tmp_path / "reading"
+    (root / WORLD / "quote").mkdir(parents=True)
+    for rid in quotes[:lens_notes]:
+        (root / WORLD / "quote" / f"{rid}.md").write_text(
+            f"---\nid: {rid}\nrecord_type: quote\nmodern_lens_note: It reads differently now.\n---\n", encoding="utf-8")
+    return root, len(quotes)
+
+
+def test_arm_b_with_an_empty_reading_mapping_exits_2_before_any_client(tmp_path, monkeypatch, capsys):
+    root, _ = _reading_dir(tmp_path, 0)
+    monkeypatch.setenv(guard.LEDGER_ENV, str(tmp_path / "ledger.jsonl"))
+    assert v7.main(_argv(tmp_path, arm="b", reading_dir=root, extra=("--live-test", "v7-test", "--cap-usd", "1"))) == 2
+    assert "no reading cards or lens notes" in capsys.readouterr().err
+    assert not (tmp_path / "run.jsonl").exists()
+
+
+def test_arm_b_with_lens_notes_for_under_90_percent_of_quotes_exits_2_before_any_client(tmp_path, monkeypatch, capsys):
+    root, total = _reading_dir(tmp_path, 1)
+    monkeypatch.setenv(guard.LEDGER_ENV, str(tmp_path / "ledger.jsonl"))
+    assert v7.main(_argv(tmp_path, arm="b", reading_dir=root, extra=("--live-test", "v7-test", "--cap-usd", "1"))) == 2
+    assert f"1 of {total}" in capsys.readouterr().err
+    assert not (tmp_path / "run.jsonl").exists()
+
+
+def test_arm_a_refuses_a_reading_records_dir(tmp_path):
+    with pytest.raises(SystemExit) as refused:
+        v7.main(_dry(tmp_path, extra=("--reading-records-dir", str(RECORDS_ROOT))))
+    assert refused.value.code == 2
+
+
+def test_arm_b_records_the_reading_directory_its_hash_and_the_signal(tmp_path):
+    from engine.m4.reading_cards import load_reading_context
+
+    probe_ids = _probe_ids()
+    _write_replies(tmp_path / "replies", probe_ids)
+    assert v7.main(_dry(tmp_path, arm="b")) == 0
+    settings = _summary(tmp_path / "run.jsonl")["run_settings"]
+    reading = load_reading_context(RECORDS_ROOT, WORLD)
+    assert settings["reading_records_dir"] == str(RECORDS_ROOT.resolve())
+    assert settings["reading_sha256"] == v7.reading_sha256(reading) and settings["reading_records"] == len(reading)
+    for record in _records(tmp_path / "run.jsonl"):
+        assert record["whole_world_signal"] == {"count": 0, "sentences": []}
+        assert record["additions_chars"] > 0
+        additions = record["reading_additions"]
+        assert additions["renderings"] > 0 and additions["reads_differently_today"] > 0
+        assert additions["chars"] == record["additions_chars"]
+        assert all(set(w) == {"record_id", "file", "lines", "trimmed"} for w in additions["context_windows"])
+
+
 def test_a_max_tokens_other_than_a_s_is_refused_unless_allowed(tmp_path):
     _write_replies(tmp_path / "replies", _probe_ids(1))
     with pytest.raises(SystemExit) as refused:
@@ -274,9 +337,9 @@ def test_arm_b_sets_the_reading_context_flag_in_memory_only(tmp_path, monkeypatc
     seen = []
     render = m4_evidence.render_evidence_block
 
-    def spy(evidence, world=None):
+    def spy(evidence, *, world=None, reading=None):
         seen.append(None if world is None else world.frame.get(v7.READING_CONTEXT))
-        return render(evidence, world=world)
+        return render(evidence, world=world, reading=reading)
 
     monkeypatch.setattr(m4_evidence, "render_evidence_block", spy)
     probe_id = _probe_ids(1)[0]

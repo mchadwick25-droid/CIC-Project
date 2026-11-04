@@ -60,7 +60,7 @@ Verified verbatim against the vendored file, Part II, pp.
 684-685.
 
 This is the horarium at its most concrete, and it earns its place here
-rather than as colour because it is the direct textual companion to
+rather than as color because it is the direct textual companion to
 desert.quote.monks-like-hyenas: the same collection legislates the
 conditions and then, in Part III, describes the failure those conditions
 were meant to prevent. A world that can show a participant both halves is

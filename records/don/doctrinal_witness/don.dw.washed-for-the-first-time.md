@@ -41,7 +41,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks whether we were born again, or how we would describe what happened to us
-  - participant asks whether we baptised babies or only adults who chose it
+  - participant asks whether we baptized babies or only adults who chose it
   - participant asks whether we tithed, or what we believed about the end of the world
 text: >-
   Yes, we were born again, and we would fight over the arithmetic. The

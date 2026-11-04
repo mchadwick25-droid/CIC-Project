@@ -60,7 +60,7 @@ senses:
   personal: This is where the martyr cult stops being a memory and becomes a practice. The reading is the formation,
     repeated on a date, in a place, over a body.
   translational: '''A saint''s day, then?'' -- close, but earlier and rawer. On Monceaux''s account this was a
-    new thing when it started, and the dead being honoured were killed within living memory by Christians, not
+    new thing when it started, and the dead being honored were killed within living memory by Christians, not
     by pagans.'
 quick_meaning: The yearly gathering at a martyr's grave, on the day, to hear the death read again.
 distortion_risk: low

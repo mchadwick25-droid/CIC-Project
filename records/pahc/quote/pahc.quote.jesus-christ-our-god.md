@@ -48,6 +48,6 @@ This quote serves C-T together with pahc.witness.jesus-as-god, which says Ignati
 "calls Jesus Christ our God again and again - in how he opens his letters and in how he closes
 them".
 
-One instance is quoted rather than a catalogue, and it is deliberately one from the middle of a
+One instance is quoted rather than a catalog, and it is deliberately one from the middle of a
 letter rather than a salutation: the witness's own claim is that the phrase is habitual, and a
 sentence where it turns up incidentally proves that better than an opening formula would.

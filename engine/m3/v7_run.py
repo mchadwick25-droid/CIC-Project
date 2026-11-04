@@ -12,9 +12,20 @@ returns; <out>.summary.json holds the run settings, the totals and the
 live-test summary.
 
 Arm a renders the evidence block exactly as the admission run did. Arm b
-passes the loaded world, with world.frame["reading_context"] set, to
-render_evidence_block; a render_evidence_block that takes no `world` cannot
-read the switch, so arm b is refused (exit 2).
+passes the loaded world, with world.frame["reading_context"] set, and the
+reading cards and lens notes (engine.m4.reading_cards.load_reading_context)
+read from --reading-records-dir, to render_evidence_block. Arm b is refused
+(exit 2) without --reading-records-dir, when that directory holds no records
+for the world, when the mapping read from it is empty or gives a lens note
+for fewer than 90% of the world's quote records, or when
+render_evidence_block takes no `world` and `reading`; each before any
+client is built.
+The world's records and package are A's; only the cards and lens notes come
+from the named directory. Each arm b record carries whole_world_signal
+(engine.m4.reading_context.whole_world_signal), reported only, and
+reading_additions: the counts of renderings, "Reads differently today" lines
+and card lines added, and each context window kept, with whether it was
+trimmed.
 
 Every paid setting is named on the command: --model-id, --region,
 --max-tokens. --max-tokens must equal the admission run's 2048 unless
@@ -66,6 +77,8 @@ from engine.m3.masking import mask_for_grading
 from engine.m4 import evidence as m4_evidence
 from engine.m4.generation import stream_voice_turn
 from engine.m4.quote_placement import PlacementContext
+from engine.m4.reading_cards import load_reading_context
+from engine.m4.reading_context import plan_additions, whole_world_signal
 from engine.m4.story_placement import with_placeable_stories
 from engine.m4.turn import apply_net
 from engine.m4.world_loader import LazyWorldLoader
@@ -80,6 +93,7 @@ WORLDS = ("alx", "pahc", "syr")
 ARMS = ("a", "b")
 READING_CONTEXT = "reading_context"
 VOICE_CALL_ATTEMPTS = 3
+LENS_NOTE_FLOOR = 0.9
 A_VOICE_MAX_TOKENS = 2048
 VOICE_TEMPERATURE = "API default (not set by stream_voice_turn)"
 CALL_KIND = "voice_generation"
@@ -210,7 +224,26 @@ class TimedClient:
 
 
 def render_takes_world() -> bool:
-    return "world" in inspect.signature(m4_evidence.render_evidence_block).parameters
+    return {"world", "reading"} <= set(inspect.signature(m4_evidence.render_evidence_block).parameters)
+
+
+def reading_refusal(reading: dict, repository_records: dict[str, dict], records_dir: str) -> str | None:
+    """Why arm b cannot run on this reading mapping, or None: the mapping is empty,
+    or fewer than LENS_NOTE_FLOOR of the world's quote records carry a lens note in it."""
+    if not reading:
+        return f"--reading-records-dir {records_dir} gave no reading cards or lens notes for this world. Refused."
+    quotes = [rid for rid, r in repository_records.items() if r.get("record_type") == "quote"]
+    noted = sum(1 for rid in quotes if (reading.get(rid) or {}).get("modern_lens_note"))
+    if quotes and noted < LENS_NOTE_FLOOR * len(quotes):
+        return (f"--reading-records-dir {records_dir} gives a lens note for {noted} of {len(quotes)} quote records, "
+                f"under {LENS_NOTE_FLOOR:.0%}. Refused.")
+    return None
+
+
+def reading_sha256(reading: dict) -> str:
+    """sha256 over the reading mapping as canonical JSON."""
+    text = json.dumps(reading, sort_keys=True, ensure_ascii=False, separators=(",", ":"), default=str)
+    return "sha256:" + hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def _flag_off(world):
@@ -219,16 +252,18 @@ def _flag_off(world):
 
 class V7Answerer:
     """The admission answering core for one loaded world. With
-    `reading_context` the evidence block is rendered with the world, and
-    again with the switch off, to size the additions."""
+    `reading_context` the evidence block is rendered with the world and the
+    reading mapping, and again with the switch off, to size the additions."""
 
-    def __init__(self, *, world, canon_questions: dict, client: TimedClient, model_id: str, max_tokens: int, reading_context: bool):
+    def __init__(self, *, world, canon_questions: dict, client: TimedClient, model_id: str, max_tokens: int, reading_context: bool,
+                 reading: dict | None = None):
         self.world = world
         self.canon_questions = canon_questions
         self.client = client
         self.model_id = model_id
         self.max_tokens = max_tokens
         self.reading_context = reading_context
+        self.reading = reading
         self.repository_records = m4_evidence.repository_records_by_id(world.repository)
         self.thin_topics = m4_evidence.thin_topics_for(self.repository_records)
 
@@ -244,15 +279,18 @@ class V7Answerer:
         if self.world.frame.get("story_placement"):
             turn_evidence = with_placeable_stories(turn_evidence, self.repository_records)
         if not turn_evidence["candidates"]:
-            return {"turn_evidence": turn_evidence, "user_message": probe_text, "evidence_chars": 0, "evidence_chars_flag_off": 0}
+            return {"turn_evidence": turn_evidence, "user_message": probe_text, "evidence_chars": 0, "evidence_chars_flag_off": 0,
+                    "reading_additions": None}
+        additions = None
         if self.reading_context:
-            block = m4_evidence.render_evidence_block(turn_evidence, world=self.world)
-            block_off = m4_evidence.render_evidence_block(turn_evidence, world=_flag_off(self.world))
+            block = m4_evidence.render_evidence_block(turn_evidence, world=self.world, reading=self.reading)
+            block_off = m4_evidence.render_evidence_block(turn_evidence, world=_flag_off(self.world), reading=self.reading)
+            additions = plan_additions(turn_evidence["candidates"], self.repository_records, self.reading or {}).summary()
         else:
             block = block_off = m4_evidence.render_evidence_block(turn_evidence)
         return {
             "turn_evidence": turn_evidence, "user_message": f"{block}\n{probe_text}",
-            "evidence_chars": len(block), "evidence_chars_flag_off": len(block_off),
+            "evidence_chars": len(block), "evidence_chars_flag_off": len(block_off), "reading_additions": additions,
         }
 
     def answer(self, probe_text: str) -> dict:
@@ -262,6 +300,7 @@ class V7Answerer:
             "offered_record_ids": [c["id"] for c in turn_evidence["candidates"]],
             "evidence_chars": prepared["evidence_chars"],
             "evidence_chars_flag_off": prepared["evidence_chars_flag_off"],
+            "reading_additions": prepared["reading_additions"],
         }
         first_call = len(self.client.calls)
         for _attempt in range(VOICE_CALL_ATTEMPTS):
@@ -287,6 +326,7 @@ class V7Answerer:
             "text": text,
             "citation_entries": citation_entries,
             "citations": sorted({rid for entry in citation_entries for rid in entry["record_ids"]}),
+            "whole_world_signal": whole_world_signal(citation_entries, self.reading) if self.reading is not None else None,
         }
 
 
@@ -421,6 +461,8 @@ def _record(*, seal: dict, args, settings: dict, answer: dict, priced_usd: float
         "additions_chars": answer["evidence_chars"] - answer["evidence_chars_flag_off"],
         "evidence_chars": answer["evidence_chars"],
         "evidence_chars_flag_off": answer["evidence_chars_flag_off"],
+        "whole_world_signal": answer.get("whole_world_signal"),
+        "reading_additions": answer.get("reading_additions"),
     }
 
 
@@ -441,6 +483,7 @@ def _parser() -> argparse.ArgumentParser:
                         help=f"allow a --max-tokens other than the admission run's {A_VOICE_MAX_TOKENS}")
     parser.add_argument("--expect-package-hash", help="the world's package manifest hash the run must use")
     parser.add_argument("--reply-files", help="answer every voice call from reply files in this directory (no model call)")
+    parser.add_argument("--reading-records-dir", help="arm b: the records directory the reading cards and lens notes are read from")
     parser.add_argument("--project-cost", action="store_true")
     parser.add_argument("--remaining", type=int, help="with --project-cost: the further turns to project")
     parser.add_argument("--stop-above", type=float, help="with --project-cost: the dollar threshold for spent plus projection")
@@ -487,8 +530,18 @@ def main(argv: list[str] | None = None) -> int:
         parser.error("--max-tokens must be positive")
     reading_context = args.arm == "b"
     if reading_context and not render_takes_world():
-        print("--arm b needs engine.m4.evidence.render_evidence_block to take the loaded world (world=) and read "
-              f"world.frame[{READING_CONTEXT!r}]; this checkout's does not, so arm b would run as arm a. Refused.",
+        print("--arm b needs engine.m4.evidence.render_evidence_block to take the loaded world (world=) and the reading "
+              f"mapping (reading=), and read world.frame[{READING_CONTEXT!r}]; this checkout's does not, so arm b would run "
+              "as arm a. Refused.", file=sys.stderr, flush=True)
+        return EXIT_REFUSED
+    if reading_context and args.reading_records_dir is None:
+        print("--arm b needs --reading-records-dir, the records directory its reading cards and lens notes come from. Refused.",
+              file=sys.stderr, flush=True)
+        return EXIT_REFUSED
+    if not reading_context and args.reading_records_dir is not None:
+        parser.error("--reading-records-dir is for --arm b only")
+    if reading_context and not (Path(args.reading_records_dir) / args.world).is_dir():
+        print(f"--reading-records-dir {args.reading_records_dir} holds no {args.world}/ records directory. Refused.",
               file=sys.stderr, flush=True)
         return EXIT_REFUSED
     dry = args.reply_files is not None
@@ -515,8 +568,14 @@ def main(argv: list[str] | None = None) -> int:
         )
     package_dir = REPO_ROOT / entry["package"]["location"]
     world, _timing = LazyWorldLoader().load(args.world, package_dir=package_dir, expected_manifest_hash=args.expect_package_hash)
+    reading = None
     if reading_context:
         world = dataclasses.replace(world, frame={**world.frame, READING_CONTEXT: True})
+        reading = load_reading_context(Path(args.reading_records_dir), args.world)
+        refusal = reading_refusal(reading, m4_evidence.repository_records_by_id(world.repository), args.reading_records_dir)
+        if refusal:
+            print(refusal, file=sys.stderr, flush=True)
+            return EXIT_REFUSED
 
     settings = {
         "live_test": live_test.name if live_test else None,
@@ -536,6 +595,9 @@ def main(argv: list[str] | None = None) -> int:
         "world": args.world,
         "arm": args.arm,
         "reading_context": reading_context,
+        "reading_records_dir": str(Path(args.reading_records_dir).resolve()) if reading_context else None,
+        "reading_sha256": reading_sha256(reading) if reading_context else None,
+        "reading_records": len(reading) if reading_context else None,
         "probe_count": len(seals),
         "battery_size": len(protocol.battery()),
         "package_manifest_hash": registered,
@@ -553,7 +615,7 @@ def main(argv: list[str] | None = None) -> int:
         inner = make_client(args.region)
     client = TimedClient(inner)
     answerer = V7Answerer(world=world, canon_questions=load_fleet_records(), client=client, model_id=args.model_id,
-                          max_tokens=args.max_tokens, reading_context=reading_context)
+                          max_tokens=args.max_tokens, reading_context=reading_context, reading=reading)
     grader = _Grader(args.world)
 
     out.parent.mkdir(parents=True, exist_ok=True)

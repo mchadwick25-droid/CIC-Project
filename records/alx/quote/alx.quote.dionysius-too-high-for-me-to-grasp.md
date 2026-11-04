@@ -33,7 +33,7 @@ modern_rendering: >-
 speaker_or_author: Dionysius of Alexandria, quoted at Eusebius, Church History VII.25
 license: verbatim
 modern_lens_note: >-
-  This is a bishop declining to use a critical result he has just proved. In the same chapter Dionysius argues from vocabulary, grammar, and style that the Apocalypse cannot be by the author of the Fourth Gospel - authorship analysis a modern scholar would recognise as their own method, done in the third century. Then he refuses to let it settle the book's standing, because the churches read it. The move a modern reader expects, criticism deciding the canon, is exactly the one he does not make: he separates 'who wrote this' from 'may we keep it.'
+  This is a bishop declining to use a critical result he has just proved. In the same chapter Dionysius argues from vocabulary, grammar, and style that the Apocalypse cannot be by the author of the Fourth Gospel - authorship analysis a modern scholar would recognize as their own method, done in the third century. Then he refuses to let it settle the book's standing, because the churches read it. The move a modern reader expects, criticism deciding the canon, is exactly the one he does not make: he separates 'who wrote this' from 'may we keep it.'
 retrieval:
   tier: 1
   retrieve_when:

@@ -35,7 +35,7 @@ speaker_or_author: Abbot Serapion of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-
   These are the logismoi - not sins committed but thoughts that arrive, which the monk's work is to
-  recognise and resist. Acedia has no good English word: the noonday listlessness that makes a monk
+  recognize and resist. Acedia has no good English word: the noonday listlessness that makes a monk
   hate his cell and his work. This list, through Gregory the Great, becomes the seven deadly sins.
 retrieval:
   tier: 2

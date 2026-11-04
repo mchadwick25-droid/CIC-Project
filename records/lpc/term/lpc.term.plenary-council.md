@@ -34,7 +34,7 @@ confidence:
   divergence_note: 'AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite this
     term''s own Tier 2 placement, on the same independent-axes reasoning as the paired bishop-of-bishops
     entry -- neither chunk (lpclex012, lpclex013) uses the term itself. Augustine''s own formula is spoken
-    in defence of overturning Cyprian''s specific ruling; his institutional interest in the argument runs
+    in defense of overturning Cyprian''s specific ruling; his institutional interest in the argument runs
     opposite to Cyprian''s in the paired bishop-of-bishops entry, which is why this record does not treat
     the two formulas as reconcilable restatements of one theory (Author-Gravity-Risk: Yes). The same ecological
     bound as the paired entry applies: no evidence this question reached ordinary formation in either
@@ -69,13 +69,13 @@ senses:
   informational: 'Two moves sit in one sentence, and the second is the surprising one. Narrower yields
     to wider -- that is a hierarchy. But the widest is itself revisable, when experience brings to light
     what was hidden. A past ruling is authoritative and correctable at the same time, which is precisely
-    what a man needs who intends to honour a predecessor while overturning what he decided. This is the
+    what a man needs who intends to honor a predecessor while overturning what he decided. This is the
     hinge of our own interpretive tradition: it makes a prior ruling into a body of arguable precedent
     rather than fixed deposit. It is deployed specifically against the earlier ruling on heresy and rebaptism,
     and it stands in direct contradiction to the paired bishop-of-bishops formula.'
   evidential: 'On Baptism, Against the Donatists II.3 is directly quoted and re-verified at source; a
     full sweep returns 31 occurrences of ''plenary'' within the treatise itself. Augustine''s own formula
-    is spoken in defence of overturning Cyprian''s specific ruling, his institutional interest running
+    is spoken in defense of overturning Cyprian''s specific ruling, his institutional interest running
     opposite to Cyprian''s own in the paired entry. The same ecological bound as that paired entry applies:
     no evidence this question reached ordinary formation in either phase.'
   translational: 'A modern listener is likely to hear a straightforward claim of centralized institutional

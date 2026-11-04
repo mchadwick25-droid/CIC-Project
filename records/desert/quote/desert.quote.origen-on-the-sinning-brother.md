@@ -48,7 +48,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how a brother who had done wrong was corrected, judged, or put out"
-  - "participant asks whether this world had any procedure for discipline, or only the elders' judgement"
+  - "participant asks whether this world had any procedure for discipline, or only the elders' judgment"
   - "participant asks what the tradition before this world said about correcting a fellow Christian"
 relations:
 - type: associated-with

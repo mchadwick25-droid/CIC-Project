@@ -60,7 +60,7 @@ exchange:
 ---
 Worked exchange for F3-P's hardest variant, from
 `don.dw.what-we-did-with-the-power-we-had`. The turn opens by refusing to
-defend rather than by mounting a defence, which is what the witness
+defend rather than by mounting a defense, which is what the witness
 record does and what this world's own record actually supports: the
 reasoning behind Bagai and behind the appeal to anti-heretical law is a
 genuine blank, and reconstructing one would invent exactly the thing the

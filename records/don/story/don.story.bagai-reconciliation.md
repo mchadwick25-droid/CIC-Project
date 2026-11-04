@@ -48,7 +48,7 @@ relations:
   target: don.figure.augustine
 narrative_tier: 1
 narrative_tier_justification: 'Tier 1 at high confidence: the council''s decree is quoted directly rather
-  than summarised, in a datable primary source; the participants are named (Maximian, Primian, Felicianus
+  than summarized, in a datable primary source; the participants are named (Maximian, Primian, Felicianus
   of Musti, Praetextatus of Assuris, Optatus Gildonianus); and the sequence - the 393 rival consecration
   at Cebarsussi, the 394 condemnation at Bagai, the subsequent reception without rebaptism or reordination
   - is corroborated across two separate works by the same author, a stronger evidentiary base than a single
@@ -84,7 +84,7 @@ text: >-
   terms it had.
 
   Augustine, no friend to any argument of ours, seized on the
-  contradiction and made it the centre of his own case: if the baptisms
+  contradiction and made it the center of his own case: if the baptisms
   these bishops had given in schism could stand, on the mainstream party's
   own authority, then the absolute rule - that a sacrament from a
   condemned hand is void - did not hold even for the party that preached

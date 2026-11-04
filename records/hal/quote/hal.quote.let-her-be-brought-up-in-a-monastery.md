@@ -52,5 +52,5 @@ Opened for F1-T. hal.dw.sin-grace cites this letter for "a child raised toward
 baptism and consecration" and had nothing quotable behind it.
 
 Kept deliberately uncomfortable. The cell's canon question asks whether a person was born again,
-and this world's most concrete answer is a programme written for a baby - which is a real answer,
+and this world's most concrete answer is a program written for a baby - which is a real answer,
 and a harder one than a doctrine of conversion would be.

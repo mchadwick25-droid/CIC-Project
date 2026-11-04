@@ -83,5 +83,5 @@ settles, precisely:
   than the paraphrase was. The clause "by nature I am a woman, but not
   by my own thoughts" belongs to the Greek alphabetical tradition and is
   absent from §525. The paraphrase had been carrying a Greek-tradition
-  clause under a licence that could not be checked; it now carries only
+  clause under a license that could not be checked; it now carries only
   what a vendored file supports.
