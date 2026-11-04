@@ -931,3 +931,11 @@ Status: CLOSED. Owner: Library record-defects thread.
 The source-window resolver read "Mandate 9" and "Mandate 4" as names to match in a title. The vendored edition (`cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml`) titles them "Commandment Ninth." and "Commandment Fourth.". Before PR #1512 these references landed in the Visions; after it they were not located. The resolver now reads a "Mandate" as the edition's "Commandment", so the four records that cite them get the right passage (lines 2377-2431 and 1881-2046).
 
 Status: CLOSED. Owner: V7 test thread.
+
+### OG-51. "No surviving writer explained it" overlooked Justin, 2026-11-04.
+
+The V7 test's readers found, and an independent Opus check confirmed, that `pahc.witness.jesus-as-god` said no one whose writing survives explained how calling Jesus God fits with calling the Father God and one God. Its positions field said the same of this world's six primary voices. Justin is one of the six (Doc_02 §1.6), registered here (`pahc.source.justin-dialogue`, `pahc.source.justin-first-apology`), and inside the 107-180 window. He does explain it, in `cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`: Dialogue 56, "distinct from Him who made all things,—numerically, I mean, not [distinct] in will" (lines 20491-20497); Dialogue 61, the Word begotten "not by abscission", like a fire "not lessened when it has kindled [another]" (lines 20890-20909); Dialogue 128, "fires kindled from a fire" (lines 24697-24703); First Apology 13, the Son "in the second place, and the prophetic Spirit in the third" (lines 14388-14391); First Apology 63, the first-begotten Word of God "is even God" (lines 16351-16352). `pahc.demo.center-jesus-as-god` repeated the same claim in its Representative turn and divergence note.
+
+Both records now keep the claim to Ignatius, whose "our God" is worship, not argument. They name Justin's attempt (distinct in number, not in will; a fire lit from a fire), cite the Dialogue (and, in the witness, the First Apology), and keep that none of the six uses the word "Trinity" or works it out the way later doctrine did. The confidence stays Contested. Package rebuilt and repinned.
+
+Status: CLOSED. Owner: Library record-defects thread.

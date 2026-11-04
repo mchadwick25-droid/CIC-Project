@@ -12,10 +12,16 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: contested
   formation_confidence: Contested
-  divergence_note: "Documented that Ignatius's letters repeatedly call Jesus Christ 'our God,' in salutations and closings across several letters; Contested on how far this can be pressed toward a developed doctrine - this world's own six primary voices never use the word 'Trinity' and never work out a relation between Father, Son, and Spirit the way later doctrine does. The phrase is devotional and confessional, not systematic."
+  divergence_note: "Documented that Ignatius's letters repeatedly call Jesus Christ 'our God,' in salutations and closings across several letters, and that Justin calls the Son God and offers an account of how he is distinct from the Father: 'numerically, I mean, not [distinct] in will' (Dialogue 56), begotten 'not by abscission,' like 'fires kindled from a fire' (Dialogue 128; compare 61), held 'in the second place, and the prophetic Spirit in the third' (First Apology 13). Contested on how far this can be pressed toward a developed doctrine - this world's own six primary voices never use the word 'Trinity' and never work out a relation between Father, Son, and Spirit the way later doctrine does. Ignatius's phrase is devotional and confessional, not systematic."
 sources:
 - source_id: pahc.source.ignatius-letters
   locus: "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')"
+  license: public-domain
+- source_id: pahc.source.justin-dialogue
+  locus: "56 (distinct from the Father 'numerically, I mean, not [distinct] in will'); 61 (begotten 'not by abscission,' like a fire 'not lessened when it has kindled [another]'); 128 ('fires kindled from a fire')"
+  license: public-domain
+- source_id: pahc.source.justin-first-apology
+  locus: "13 (the Son 'in the second place, and the prophetic Spirit in the third'); 63 (the first-begotten Word of God 'is even God')"
   license: public-domain
 retrieval:
   tier: 1
@@ -29,16 +35,18 @@ relations:
   target: pahc.quote.jesus-christ-our-god
 positions:
 - "Ignatius repeatedly names Jesus Christ 'our God' - in the salutation and closing of several of his letters, not as a single passing phrase but as a recurring way of naming him."
-- "This is confession, offered in worship and in greeting, not an argued doctrine - none of this world's own six primary voices explains how calling Jesus God relates to calling the Father God, and none reaches for the word 'Trinity' at all."
+- "In Ignatius this is confession, said in worship and in greeting. It is not an argued teaching. Justin does try to explain it. He says the Son is distinct from the Father in number, but not in will. He likens this to a fire lit from a fire, which leaves the first one as it was. None of the six main voices of this world uses the word 'Trinity.' None works it out the way later doctrine does."
 tensions:
 - "A participant asking about 'the Trinity' by that name is asking a question this world's own vocabulary does not use - not because the word did not exist anywhere yet (a related Greek word is attested elsewhere in this same period, just not in any of this world's own six primary voices), but because none of this world's own texts happens to use it. This world can honestly say it called Jesus God, without being able to say it worked out anything resembling later, developed Trinitarian doctrine."
 text: Ignatius called Jesus Christ our God again and again, in how he opened his letters and in how he
-  closed them. It was not one passing phrase; he reached for it often. But it was worship, not an argument
-  worked out. No one whose writing survives explained how calling Jesus God fits together with calling the Father God, with there being one God. We can tell you plainly that we called him God.
-  We cannot tell you we had worked out how he could be God when the Father is God, and God is one.
+  closed them. It was not one passing phrase; he reached for it often. But for him it was worship, not an argument
+  worked out. Justin, writing some decades later, did try to explain it. He said the Son is distinct from the Father in number, but not in will.
+  He compared it to a fire lit from another fire, which leaves the first fire no smaller. We can tell you plainly that we called him God.
+  We cannot tell you we had worked it out the way later teachers did.
 use_note:
-  means: "Ignatius repeatedly calls Jesus Christ 'our God' in worship and greeting, without working out how this fits with there being one God."
+  means: "Ignatius repeatedly calls Jesus Christ 'our God' in worship and greeting; Justin later explains the Son as distinct from the Father in number, not in will, like a fire lit from a fire; neither works it out the way later doctrine did."
   not_for:
+    - "a claim that no one in this world tried to explain how the Son is God alongside the Father"
     - "a claim that this world held a developed doctrine of the Trinity"
     - "a claim that this world's primary voices used the word 'Trinity'"
     - "a claim that no related word for a triad existed anywhere in this period"

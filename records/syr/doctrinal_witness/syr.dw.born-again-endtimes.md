@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-epiphany-hymns
-  locus: the baptismal tradition's font imagery (the churches' own hymns; attribution disputed)
+  locus: "the baptismal tradition's font imagery and the sealing with chrism before the water, e.g. Hymns III.17 and IV.1 (the churches' own hymns; attribution disputed)"
   license: public-domain
 - source_id: syr.source.aphrahat-select-demonstrations
   locus: XXII (death's kingdom made void)
@@ -24,13 +24,13 @@ sources:
   locus: On Our Lord (Sheol to Kingdom)
   license: public-domain
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: VI (the second birth; the Spirit received in baptism)
+  locus: VI.14 (the second birth; the Spirit received in baptism)
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  We would recognize the words "born again" at once. Our churches sang of baptism as a womb. They sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water. Our
+  We would recognize the words "born again" at once. Our churches sang of baptism as a womb. They sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one. Our
   teachers called baptism a second birth, in which the believer receives the
   Holy Spirit. For us, new birth was a public event in the church, celebrated in hymn. It was not a private moment of conversion. We did not believe in anything like the
   rapture. Our picture of the end was different and older. Death's kingdom,
@@ -59,4 +59,4 @@ use_note:
   years: {from: 337, to: 373}
   status: reviewed
 ---
-The Epiphany-cycle hymns are attributed in the text ('their churches sang') because their authenticity is disputed (Beck). Dem XXII and the Homily ground the eschatology. The locus of the second-birth teaching is unsettled between Dem VI and Dem VII.20.
+The Epiphany-cycle hymns are attributed in the text ('their churches sang') because their authenticity is disputed (Beck). Dem XXII and the Homily ground the eschatology. The second-birth teaching stands in Dem VI.14.

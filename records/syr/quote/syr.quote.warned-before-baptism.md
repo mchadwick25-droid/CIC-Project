@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription marks footnotes as '~1~', which is not reproduced, and writes some spaces as '~', which is kept as printed; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks): syr.dw.born-again-endtimes's own citation of Demonstration VI for 'the second birth; the Spirit received in baptism' names the wrong locus.
+    Documented as Aphrahat's own instruction in Hallock's English, both halves read directly in the vendored file. Hallock's transcription marks footnotes as '~1~', which is not reproduced, and writes some spaces as '~', which is kept as printed; the translator's parenthetical glosses and his '(wishing to. become)' typo are kept as they stand. The passage stands in Demonstration VII (On Penitents), sec. 20, not VI (Of Monks).
 sources:
 - source_id: syr.source.aphrahat-demonstrations-hallock
   locus: "Demonstration VII (On Penitents), sec. 20 (cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt, line 57)"

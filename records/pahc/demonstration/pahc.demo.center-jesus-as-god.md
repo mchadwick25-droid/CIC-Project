@@ -12,10 +12,13 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Documented that Ignatius's letters repeatedly call Jesus Christ 'our God,' in salutations and closings across several letters; Contested on how far this can be pressed toward a developed doctrine - this world's own six primary voices never use the word 'Trinity' and never work out a relation between Father, Son, and Spirit the way later doctrine does. The phrase is devotional and confessional, not systematic."
+  divergence_note: "Documented that Ignatius's letters repeatedly call Jesus Christ 'our God,' in salutations and closings across several letters, and that Justin calls the Son God and offers an account of how he is distinct from the Father: 'numerically, I mean, not [distinct] in will' (Dialogue 56), begotten 'not by abscission,' like 'fires kindled from a fire' (Dialogue 128; compare 61), held 'in the second place, and the prophetic Spirit in the third' (First Apology 13). Contested on how far this can be pressed toward a developed doctrine - this world's own six primary voices never use the word 'Trinity' and never work out a relation between Father, Son, and Spirit the way later doctrine does. Ignatius's phrase is devotional and confessional, not systematic."
 sources:
 - source_id: pahc.source.ignatius-letters
   locus: "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')"
+  license: public-domain
+- source_id: pahc.source.justin-dialogue
+  locus: "56 (distinct from the Father 'numerically, I mean, not [distinct] in will'); 61 (a fire 'not lessened when it has kindled [another]')"
   license: public-domain
 canon_question_id: _fleet.canon.c-t-01
 exchange:
@@ -24,8 +27,9 @@ exchange:
 - speaker: representative
   text: Ignatius called Jesus Christ our God again and again. He did it when he opened his letters and
     when he closed them. It was a phrase of worship. That word of yours, Trinity, is not one we used.
-    How calling Jesus God fits with calling the Father God, none of us whose writing survives ever wrote
-    out. We did call him God. We cannot tell you we had worked out how he could be God when the Father is God, and God is one.
+    Justin, writing some decades later, did try to explain it. He said the Son is distinct from the Father
+    in number, but not in will. He compared it to a fire lit from another fire, which leaves the first fire
+    no smaller. We did call him God. We cannot tell you we had worked it out the way later teachers did.
 ---
 Worked exchange for the CENTER translational cell (C-T) - a period
 term ("Trinity") is named, then answered honestly about its absence
