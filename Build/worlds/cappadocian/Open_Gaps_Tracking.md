@@ -1055,3 +1055,9 @@ Status: CLOSED. Owner: Library record-defects thread.
 All 21 cappadocian verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found in the batch review table (see the entry "Every quote rendering reviewed by Opus against the edition; forces index row 2A-1", 2026-11-03). The `quote-locus` gate checks each. One reviewer span ended short: `basil-against-eunomius-ant` runs to "the power of the incomprehensible God?" at line 24151 and now cites lines 24124-24151. In `basil-against-delaying-baptism`, the locus's older range (7017-7024) gives way to the verified span, lines 7018-7024.
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-64. "The plan of Revelation" in Gregory of Nyssa's rendering, 2026-11-04.
+
+The `modern_rendering` of `gregory-nyssa-on-becoming-god` kept the translator's capital in "the plan of Revelation". On screen, that can be read as the Book of Revelation. In the edition, it is the thing that "teaches that God was born among men": God's revealed teaching. The rendering now reads "the plan of revelation". The record's `text` keeps the edition's capital. A fresh independent Opus reader passed the phrase (`Review-Artifacts/Rendering_Review_Cappadocian_Revelation_2026-11-04.md`). This is a separate defect from the rendering covered by the cap ruling of 2026-11-04.
+
+Status: CLOSED. Owner: Library record-defects thread.

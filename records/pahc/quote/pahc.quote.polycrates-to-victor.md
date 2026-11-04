@@ -62,23 +62,20 @@ use_note:
   years: {from: 189, to: 199}
   status: reviewed
 ---
-Text is verified verbatim against the vendored file at anf08 line
-72582. DISCLOSED, two elisions, both at clause or sentence boundaries:
-after "coming of the Lord" the file continues "when He cometh with glory
-from heaven and shall raise again all the saints," followed by the roll
-of Asian dead - Philip and his daughters, John, Polycarp, Thraseas,
-Sagaris, Papirius, Melito - and the sentence "These all kept the
+Text is verified verbatim against the vendored file at
+`cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`,
+lines 72578-72623. One elision, at a clause boundary, is marked with "..."
+in the text: after "coming of the Lord" the file continues "when He cometh
+with glory from heaven and shall raise again all the saints," followed by
+the roll of Asian dead - Philip and his daughters, John, Polycarp,
+Thraseas, Sagaris, Papirius, Melito - and the sentence "These all kept the
 passover on the fourteenth day of the month, in accordance with the
-Gospel"; and the ANF's interleaved Greek glosses and bracketed editorial
-notes are excluded throughout.
-
-Both disclosed elisions are marked in the `text` field itself, so the gap the paragraph above
-discloses is visible there too. The roll-of-the-dead elision is marked with a real "..." - it is
-long, heavily interrupted by the edition's own endnotes, and deliberately elided by this record's
-own reasoning, so an ellipsis is the honest marker, not a restoration. The second, shorter elision
-("and my relatives always observed the day when the people put away the leaven") is fully restored,
-once the edition's own endnote is stripped. The punctuation follows the source exactly: there is no
-dash after "I am the eighth"; the real dash sits at "leaven-I myself".
+Gospel". The ANF's interleaved Greek glosses, bracketed editorial notes and
+endnote markers are left out throughout. The clause "and my relatives
+always observed the day when the people put away the leaven" is given in
+full once its endnote marker is left out. The punctuation follows the
+source: there is no dash after "I am the eighth"; the dash sits at
+"leaven—I myself".
 
 THIS IS A PRIMARY GRAVITY'S HARDEST CASE AND IT WAS MISSING.
 pahc.gravity.translocal-network is about the letters that held scattered
