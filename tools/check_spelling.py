@@ -42,7 +42,7 @@ REPO = Path(__file__).resolve().parents[1]
 # Trees whose files are checked at all, and the subset whose findings fail a
 # pull request. A tree moves into ENFORCED when its fleet pass lands.
 CHECKED = ("records/", "engine/shape/records/", "cic-website/")
-ENFORCED: tuple[str, ...] = ("records/gallic/", "records/witt/", "records/cappadocian/")
+ENFORCED: tuple[str, ...] = ("records/", "engine/shape/records/")
 
 # ---------------------------------------------------------------- word list
 # The table lives in engine/m1/spelling_table.py, shared with the readability regate.
