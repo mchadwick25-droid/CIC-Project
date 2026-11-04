@@ -238,18 +238,30 @@ def test_agreement_on_a_fixed_example():
     assert rd.agreement([]) == {"n": 0, "exact": None, "within_one": None}
 
 
-def test_the_adjudication_trigger():
+def test_the_adjudication_trigger_is_a_tier_1_or_2_finding_or_a_two_point_gap():
     same = _reply("i", "reader-1", 2)
     assert not rd.needs_adjudication(same, _reply("i", "reader-2", 2))
-    differ = _reply("i", "reader-2", 2)
-    differ["scores"]["source_accuracy"]["score"] = 1
-    assert rd.needs_adjudication(same, differ)
-    assert rd.needs_adjudication(_reply("i", "a", errors=[_error()]), _reply("i", "b"))
+    one_apart = _reply("i", "reader-2", 2)
+    one_apart["scores"]["source_accuracy"]["score"] = 1
+    assert not rd.needs_adjudication(same, one_apart)
+    two_apart = _reply("i", "reader-2", 2)
+    two_apart["scores"]["source_accuracy"]["score"] = 0
+    assert rd.needs_adjudication(same, two_apart)
+    assert rd.needs_adjudication(_reply("i", "a", errors=[_error(tier=2)]), _reply("i", "b"))
     assert rd.needs_adjudication(_reply("i", "a", errors=[_error(tier=1)]), _reply("i", "b", errors=[_error(tier=1)]))
-    assert not rd.needs_adjudication(_reply("i", "a", errors=[_error(tier=3)]), _reply("i", "b", errors=[_error(tier=3)]))
     one = _reply("i", "a", errors=[_error("alpha beta gamma", tier=3), _error("delta epsilon zeta", tier=3)])
     two = _reply("i", "b", errors=[_error("alpha beta gamma", tier=3)])
-    assert rd.needs_adjudication(one, two) and rd.needs_adjudication(two, one)
+    assert not rd.needs_adjudication(one, two) and not rd.needs_adjudication(two, one)
+
+
+def test_an_item_with_no_ruling_needed_keeps_the_mean_of_the_two_blind_scores():
+    first, second = _reply("i", "reader-1", 2), _reply("i", "reader-2", 2)
+    second["scores"]["source_accuracy"]["score"] = 1
+    values = rd.final_values(first, second, None)
+    assert values["source_accuracy"] == 1.5 and values["general_user_accessibility"] == 2
+    second["scores"]["source_accuracy"]["score"] = 0
+    assert rd.final_values(first, second, None) is None
+    assert rd.distribution([1.5, 2, 0.5]) == {"0": 0, "0.5": 1, "1": 0, "1.5": 1, "2": 1}
 
 
 def test_adjudicate_writes_requests_only_for_triggered_items(env):
@@ -257,7 +269,7 @@ def test_adjudicate_writes_requests_only_for_triggered_items(env):
     ids = sorted(json.loads((out / "manifest.json").read_text())["items"])
     for n, iid in enumerate(ids):
         _file(out, "reader-1", iid, _reply(iid, "reader-1", 2))
-        _file(out, "reader-2", iid, _reply(iid, "reader-2", 1 if n == 0 else 2, errors=[_error(tier=3)] if n == 1 else None))
+        _file(out, "reader-2", iid, _reply(iid, "reader-2", 0 if n == 0 else 2, errors=[_error(tier=2)] if n == 1 else None))
     assert rd.main(["adjudicate", "--export-dir", str(out)]) == 0
     listing = json.loads((out / "adjudication_manifest.json").read_text())
     assert sorted(listing["items"]) == [ids[0], ids[1]]
@@ -374,13 +386,14 @@ def _scored_export_again(env):
 def test_score_tables_use_rulings_and_report_agreement_noise_band_and_october(env):
     out, keys = _scored_export(env, 10)
     split = _id_of(keys, f"{WORLD}|b|1|p00")
+    _file(out, "reader-1", split, _reply(split, "reader-1", 0))
     _file(out, "reader-2", split, _reply(split, "reader-2", 2))
     assert split in _score(env, out, keys)["awaiting_adjudication"]
     _file(out, "adjudicator", split, _reply(split, "adjudicator", 0, errors=[_error("delta", tier=1, typ="invented")]))
     t = _score(env, out, keys)
     assert t["awaiting_adjudication"] == []
     assert t["scores"]["source_accuracy"]["a"][WORLD]["mean"] == 2 and t["scores"]["source_accuracy"]["a"][WORLD]["n"] == 14
-    assert t["scores"]["source_accuracy"]["b"][WORLD]["distribution"] == {"0": 1, "1": 13, "2": 0}
+    assert t["scores"]["source_accuracy"]["b"][WORLD]["distribution"] == {"0": 1, "0.5": 0, "1": 13, "1.5": 0, "2": 0}
     assert t["reader_agreement"]["source_accuracy"]["exact"] == pytest.approx(1 - 1 / 32)
     assert t["noise_floor"]["repeat_probes"] == 4 and t["noise_floor"]["by_dimension"]["source_accuracy"]["exact"] == 0.75
     assert t["error_counts"][WORLD]["b"] == {"1": 1} and t["error_counts"]["all"]["b"] == {"1": 1}
@@ -507,9 +520,9 @@ def test_sources_cut_by_the_passage_cap_are_listed(env):
     assert len(cut) == 2 and ps.MAX_PASSAGES_PER_RECORD == 5
 
 
-def test_same_words_with_different_types_go_to_adjudication_and_findings_are_not_counted_twice():
+def test_same_tier_3_words_with_different_types_need_no_ruling_and_findings_are_not_counted_twice():
     a = _reply("i", "a", errors=[_error("alpha beta gamma", tier=3, typ="invented")])
     b = _reply("i", "b", errors=[_error("alpha beta gamma", tier=3, typ="misquoted")])
-    assert rd.needs_adjudication(a, b)
+    assert not rd.needs_adjudication(a, b)
     ruled = _reply("i", "adj", errors=[_error("alpha beta gamma", tier=2, typ="invented"), _error("alpha beta gamma delta", tier=2, typ="misquoted")])
     assert len(rd._final_errors(a, b, ruled)) == 1
