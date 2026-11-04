@@ -180,7 +180,7 @@ def test_the_birth_date_check_ignores_a_random_hash_that_contains_the_year(tmp_p
     db = tmp_path / "x.db"
     conn = sqlite3.connect(db)
     conn.execute("CREATE TABLE linked_sign_ins (subject_hash TEXT PRIMARY KEY, account_id TEXT, day_made TEXT)")
-    conn.execute("INSERT INTO linked_sign_ins VALUES (?, ?, ?)", ("ab" * 10 + "1990" + "cd" * 10, "5f1990e2-0000-4000-8000-000000000000", "2026-11-04"))
+    conn.execute("INSERT INTO linked_sign_ins VALUES (?, ?, ?)", ("ab" * 10 + "1990" + "cd" * 10, "5f1990e2-0000-4000-8000-000000000000", "day 7"))
     conn.commit()
     conn.close()
     assert_no_birth_date_stored(db)
