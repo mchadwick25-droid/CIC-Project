@@ -212,3 +212,17 @@ def test_the_command_exits_one_on_a_finding_and_zero_when_clean(tmp_path, capsys
 
 def test_a_world_with_no_deliverables_fails(tmp_path):
     assert _checks(check_claims("nowhere", tmp_path)) == ["c:no-deliverables"]
+
+
+def test_an_id_is_the_same_for_the_british_and_the_american_form_of_a_sentence():
+    british = "The Acta never mentions a second honour or a licence for the neighbours."
+    american = "The Acta never mentions a second honor or a license for the neighbors."
+    assert claim_id(british) == claim_id(american)
+    assert claim_id(british.upper()) == claim_id(american)
+
+
+def test_an_id_changes_for_any_change_that_is_not_a_spelling():
+    base = "The Acta never mentions a second honour."
+    assert claim_id(base) != claim_id("The Acta never mentions a third honour.")
+    assert claim_id(base) != claim_id("The Acta never mentions a second honours.")
+    assert claim_id(base) != claim_id("The Acta never mentions a second honor and it.")

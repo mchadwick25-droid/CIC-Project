@@ -18,6 +18,8 @@ from pathlib import Path
 
 import yaml
 
+from engine.m1.spelling_table import normalize as spelling_normalize
+
 from .common import REPO_ROOT, Finding, Report, emit, read_text, rel, world_dir
 from .deployed import _id_pattern, load_records, world_codes
 
@@ -78,8 +80,9 @@ def normalise(text: str) -> str:
 
 def claim_id(text: str) -> str:
     """Eight hex digits from the claim's normalised, lowercased text, so a
-    reworded claim is a new claim."""
-    return hashlib.sha1(normalise(text).lower().encode("utf-8")).hexdigest()[:8]
+    reworded claim is a new claim. The text goes through the spelling table
+    first, so British and American spellings of one sentence are one claim."""
+    return hashlib.sha1(spelling_normalize(normalise(text)).lower().encode("utf-8")).hexdigest()[:8]
 
 
 def matching_patterns(sentence: str) -> list[str]:
