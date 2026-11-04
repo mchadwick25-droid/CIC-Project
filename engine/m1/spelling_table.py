@@ -24,7 +24,8 @@ def _family(stems, british_end: str, american_end: str, endings) -> None:
 # -our -> -or
 _family(
     ("colo", "hono", "favo", "behavio", "neighbo", "labo", "harbo", "rumo", "humo", "vigo", "rigo", "valo", "savo",
-     "flavo", "endeavo", "fervo", "armo", "cando", "clamo", "splendo", "odo", "parlo", "vapo", "tumo", "demeano"),
+     "flavo", "endeavo", "fervo", "armo", "cando", "clamo", "splendo", "odo", "parlo", "vapo", "tumo", "demeano",
+     "unfavo", "tricolo", "ardo", "succo"),
     "ur", "r", ("", "s", "ed", "ing", "ful", "fully", "less", "able", "ably", "ite", "ites", "ist", "ists", "er", "ers", "y", "hood", "hoods"),
 )
 TABLE["saviour"], TABLE["saviours"] = "savior", "saviors"
@@ -39,7 +40,9 @@ _family(
      "local", "national", "material", "mechan", "cauter", "colon", "fratern", "jeopard", "penal", "subsid",
      "synchron", "steril", "pasteur", "formal", "human", "ideal", "industrial", "internation", "liber", "magnet",
      "moral", "natural", "personal", "polar", "social", "stabil", "vandal", "vulgar", "tyrann", "fantas", "hospital",
-     "galvan", "mesmer", "agon", "item", "equal"),
+     "galvan", "mesmer", "agon", "item", "equal", "reorgan", "rebapt", "unbapt", "anathemat", "regular", "unauthor",
+     "synthes", "dramat", "apostat", "juda", "legitim", "arab", "recatholic", "institutional", "sexual", "scandal",
+     "styl", "marginal", "theolog", "indigen", "polemic", "schemat", "capital", "digit"),
     "is", "iz", ("e", "es", "ed", "ing", "ation", "ations", "er", "ers", "able", "ational", "ationally"),
 )
 
@@ -60,7 +63,7 @@ TABLE["manoeuvre"], TABLE["manoeuvres"], TABLE["manoeuvred"] = "maneuver", "mane
 # doubled l before a suffix: travelled -> traveled
 for _stem in ("travel", "label", "cancel", "counsel", "model", "level", "fuel", "signal", "marshal", "quarrel", "channel",
               "tunnel", "funnel", "equal", "total", "dial", "pencil", "shovel", "gravel", "revel", "rival", "duel", "libel",
-              "panel", "carol", "initial", "refuel", "unravel"):
+              "panel", "carol", "initial", "refuel", "unravel", "marvel", "jewel", "dishevel"):
     for _end in ("ed", "ing", "er", "ers", "or", "ors"):
         TABLE[f"{_stem}l{_end}"] = f"{_stem}{_end}"
 
@@ -85,7 +88,7 @@ TABLE.update({
     "skilful": "skillful", "skilfully": "skillfully", "wilful": "willful", "wilfully": "willfully",
     "jewellery": "jewelry", "instalment": "installment", "practise": "practice", "practised": "practiced",
     "practising": "practicing", "distil": "distill", "appal": "appall",
-    "councillor": "councilor", "councillors": "councilors",
+    "councillor": "councilor", "councillors": "councilors", "uncatalogued": "uncataloged",
     "catalogue": "catalog", "catalogues": "catalogs", "catalogued": "cataloged", "cataloguing": "cataloging",
     "cataloguer": "cataloger", "cataloguers": "catalogers",
 })
