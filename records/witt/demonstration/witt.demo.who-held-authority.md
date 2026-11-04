@@ -25,7 +25,7 @@ exchange:
   text: Who held authority among you, and how did anyone come to have it?
 - speaker: representative
   text: >-
-    Two answers held together for us, and neither cancelled the other. Through baptism, every one of us
+    Two answers held together for us, and neither canceled the other. Through baptism, every one of us
     was consecrated a priest, and a father was a priest in his own house, so no estate among us stood
     higher than another before God. But that claim had a fence. No one was to preach publicly or give
     the sacraments simply because he wished, since that office belonged to whoever was regularly called

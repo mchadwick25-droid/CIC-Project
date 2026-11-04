@@ -47,7 +47,7 @@ modern_rendering: >-
 use_note:
   means: "Piamun closes Paphnutius's story in Cassian's Conferences by saying his youth foreshadowed his perfection and that his hearers must lay the same foundation."
   not_for:
-    - "the events of the theft story, which sit in gallic.quote.paphnutius-accused-and-the-book-found and its neighbouring paphnutius records"
+    - "the events of the theft story, which sit in gallic.quote.paphnutius-accused-and-the-book-found and its neighboring paphnutius records"
     - "a narrated event rather than the moral Piamun draws from the story"
   years: {from: 426, to: 435}
   status: reviewed

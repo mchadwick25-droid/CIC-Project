@@ -37,7 +37,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what an outsider or a former insider found strangest or most objectionable about this world"
-  - "participant asks what this world's neighbours actually said about them, in their own words"
+  - "participant asks what this world's neighbors actually said about them, in their own words"
 relations:
 - type: associated-with
   target: cappadocian.dw.a-stranger-weather

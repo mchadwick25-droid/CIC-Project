@@ -88,7 +88,7 @@ senses:
     unconverted heathen." No one there calls entry to Marmoutier a conversion.
   evidential: >-
     Cassian (Conferences III.5, III.7; Institutes IV.39) and Salvian (V.10, III.11, within his
-    licence) for the monastic sense; Sulpitius (Life chs. V, XIII, XVII) for the other referent. The
+    license) for the monastic sense; Sulpitius (Life chs. V, XIII, XVII) for the other referent. The
     Latin lemma is attested only editorially, in an unread section.
   personal: >-
     A conversion here is what a man does with his feet and his goods; its test is whether he keeps it
@@ -97,7 +97,7 @@ senses:
     discharge before Caesar, and the eighty at Marmoutier are "disciples," not converts.
   translational: >-
     'So a monk's "conversion" was when he became a Christian?' - no: in the south it was the day he
-    entered the monastic life, voluntary or "compulsory," judged by whether its early fervour was kept;
+    entered the monastic life, voluntary or "compulsory," judged by whether its early fervor was kept;
     at Tours the same word meant a robber or a rustic household turning to Christ under Martin's
     preaching - two referents that the modern "born again" hearing runs together.
 quick_meaning: >-

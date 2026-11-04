@@ -56,7 +56,7 @@ modern_rendering: >-
 use_note:
   means: "Basil's eighth Hexaemeron homily says the few syllables about the creation of birds disclose the Creator's wisdom once their meaning is closely examined."
   not_for:
-    - "licence for allegory or hidden codes, which Basil sets against plain attentive reading"
+    - "license for allegory or hidden codes, which Basil sets against plain attentive reading"
     - "the psalms as the unlettered believer's education, which sits in cappadocian.dw.reading-scripture through cappadocian.term.psalmodia"
     - "this world's canon list, which the homily does not address"
   years: {from: 360, to: 379}

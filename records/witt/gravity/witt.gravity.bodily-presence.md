@@ -67,7 +67,7 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   program of formation depends on how Christ is present, as distinct from the promise.
 
   It shaped people only in part. The catechisms taught it, but the library holds nothing on its sharper formative
-  edge: what it meant to hold this belief against neighbours who did not. It fully explains one thing, the
+  edge: what it meant to hold this belief against neighbors who did not. It fully explains one thing, the
   world''s boundary, and beyond that it explains only in part.
 
   It lasts only in part. The doctrine is stated unchanged in 1519, 1529, and 1530, but the controversy that made
