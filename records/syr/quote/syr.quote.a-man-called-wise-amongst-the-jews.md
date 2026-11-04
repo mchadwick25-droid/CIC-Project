@@ -22,16 +22,15 @@ sources:
 text: >-
   It happened one day, that a man, who is called wise amongst the Jews, questioned me, saying:—Jesus, Who is called your Teacher, wrote for you, that If there shall be in you faith like one grain of mustard, ye shall say to this mountain, Remove, and it shall remove from before you; and (ye shall say) even, Be lifted up and fall into the sea, and it shall obey you. So apparently there is in all your people not one wise man, whose prayer is heard, and who asks of God that your persecutors should cease from you. For clearly it is written for you in that passage, There is nothing which ye shall not be able to do. And when I saw that he was blaspheming and speaking much against the Way (the Christian religion), my mind was disturbed
 modern_rendering: >-
-  One day a man known as wise among the Jews questioned me. He said: Jesus,
-  who is called your Teacher, wrote this for you. If you have faith the size
-  of one mustard seed, you can say to this mountain, 'Move,' and it will move
-  away from you. You can even say, 'Rise up and fall into the sea,' and it
-  will obey you. So it seems that in all your people there is not one wise
-  man who asks God to make your persecutors leave you alone, and is heard.
-  For it is clearly written for you in that
-  passage: there is nothing you will not be able to do. When I saw that he
-  was blaspheming and saying so much against the Way - the Christian faith -
-  my mind was troubled.
+  One day a man known as wise among the Jews questioned me. He said: "Jesus,
+  who is called your Teacher, wrote this for you. If there is faith in you
+  like one grain of mustard, you will say to this mountain, 'Move,' and it
+  will move away from you. You will even say, 'Be lifted up and fall into the
+  sea,' and it will obey you. So it seems your whole people has not one wise
+  man whose prayer is heard, who asks God to make your persecutors leave you
+  alone. For it is clearly written for you in that passage: there is nothing
+  you will not be able to do." When I saw that he was blaspheming and saying
+  much against the Way [the Christian religion], my mind was troubled.
 speaker_or_author: Aphrahat, Demonstration XXI.1-2
 license: verbatim
 modern_lens_note: >-
