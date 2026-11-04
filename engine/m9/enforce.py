@@ -174,9 +174,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:shelf-row/witt": Waiver(count=24, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m1:rendering-review/alx": Waiver(count=26, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); alx's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/cappadocian": Waiver(count=21, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); cappadocian's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/hal": Waiver(count=32, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); hal's own build thread, per the lpc rendering review log's format"),
     "m1:rendering-review/pahc": Waiver(count=25, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); pahc's own build thread, per the lpc rendering review log's format"),
-    "m1:rendering-review/syr": Waiver(count=34, deadline="2027-03-15", owner="renderings with no named Opus review file that lists them (a rendering review log row in the world's Review-Artifacts folder); syr's own build thread, per the lpc rendering review log's format"),
     # gate_readability covers every field engine/m1/spoken_fields.py
     # declares under an instruction/voice-diet/evidence-head/
     # facilitator-spoken role, not just term/honest_limit/
@@ -193,7 +191,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/ijc": Waiver(count=113, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=93, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=78, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
-    "m1:readability/syr": Waiver(count=127, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
+    "m1:readability/syr": Waiver(count=125, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
     "m1:readability/witt": Waiver(count=98, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields) - counted once against the
