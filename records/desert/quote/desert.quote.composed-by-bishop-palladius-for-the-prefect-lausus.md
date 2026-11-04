@@ -16,8 +16,7 @@ confidence:
     Documented as the collection's own opening rubric in Budge's English, read directly in the vendored file. This is the Syriac recension of 'Anan-Isho', not the Greek alphabetical collection; the '(sic)' is Budge's and the square brackets are his supplied words. Both are kept.
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: >-
-    the opening of Book the First, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt)
+  locus: "the opening of Book the First, Chapter I (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt, line 50)"
   license: public-domain
 text: >-
   And again, we begin, by the power of our Lord, the Third (sic) Part with the Counsels of the holy Old Men, and the Questions and the Answers [which they gave] to the Brethren

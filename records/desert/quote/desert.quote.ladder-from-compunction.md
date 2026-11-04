@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.cassian-institutes
-  locus: 'Institutes IV, the summary of the stages (npnf211 line 20066)'
+  locus: "Institutes IV, the summary of the stages (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 20064-20073)"
   license: public-domain
 text: >-
   "The beginning" of our salvation and "of wisdom" is, according to Scripture, "the fear of the

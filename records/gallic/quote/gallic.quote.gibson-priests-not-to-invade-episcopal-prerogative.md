@@ -18,8 +18,7 @@ confidence:
     editor's own inference, disclosed as such in the sentence.
 sources:
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: "Gibson's Prolegomena (npnf211 div iv.i.i, file lines 15760-15766): the editor's own
-    account of Celestine's warning and its possible target"
+  locus: "Gibson's Prolegomena (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 15760-15766; div iv.i.i): the editor's own account of Celestine's warning and its possible target"
   license: public-domain
 retrieval:
   tier: 3

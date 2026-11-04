@@ -447,3 +447,7 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
 86. **Every quote rendering reviewed by Opus against the edition, 2026-11-03.** The `rendering-review` gate found 6 rzg renderings with no named Opus review file. An independent Opus reviewer read all six against each record's `text` and the edition text in `cic/texts/` at its locus. All six pass. Per-record log: `Review-Artifacts/Rendering_Review_Log_6_2026-11-03.md`. The `m1:rendering-review/rzg` waiver is removed; the gate reports 0 for rzg (6 → 0). Noted: in `rzg.quote.christ-the-mirror-of-election` the "[our]" is the record's own marked correction of the scan's "onr" (line 684), not an editor's insertion.
 
    Status: CLOSED.
+
+87. **Every verbatim quote names its exact lines, 2026-11-04.** All 6 rzg verbatim quotes with no line span in their locus now name one, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03). The `quote-locus` gate checks each. Two were corrected. `mass-not-a-sacrifice` sits at lines 4565-4569, as its locus already said in prose (the reviewer's span was a line early). `christ-the-mirror-of-election` joins two sentences with an elision, so its span runs from the first at line 667 to the second at lines 684-685, and the locus names both parts. Loci that stated the same span twice now state it once.
+
+   Status: CLOSED. Owner: Library record-defects thread.

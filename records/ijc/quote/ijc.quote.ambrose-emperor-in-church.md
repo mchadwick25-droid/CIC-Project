@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-sermo-contra-auxentium
-  locus: '36 (npnf210 lines 42659-42665)'
+  locus: "36 (cic/texts/npnf210_ambrose-select-works-letters.xml, lines 42660-42665)"
   license: public-domain
 text: For what is more full of respect than that the Emperor should be called the son of the Church.
   As it is said, it is said without sin, since it is said with the divine favour. For the Emperor is

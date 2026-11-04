@@ -19,7 +19,7 @@ confidence:
     editorial apparatus's identification, carried as such and not treated as Cassian's own statement.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: 'Conferences Preface II (npnf211 div iv.v.i): "one of you, presiding as he does over a large monastery of the brethren"'
+  locus: "Conferences Preface II (npnf211 div iv.v.i): \"one of you, presiding as he does over a large monastery of the brethren\" (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 36724-36725)"
   license: public-domain
 retrieval:
   tier: 3

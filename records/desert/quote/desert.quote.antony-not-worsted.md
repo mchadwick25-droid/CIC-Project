@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for this scene as this world's own portrait of combat, matching desert.story.antony-tomb-combat's own basis - the words themselves are quoted verbatim from the vendored text, so the citation itself is not in question."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS9 - Antony's own words to the demons attacking him in beast form"
+  locus: "SS9 - Antony's own words to the demons attacking him in beast form (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 31499-31505)"
   license: public-domain
 text: "If there had been any power in you, it would have sufficed had one of you come, but since the Lord hath made you weak, you attempt to terrify me by numbers: and a proof of your weakness is that you take the shapes of brute beasts... If you are able, and have received power against me, delay not to attack; but if you are unable, why trouble me in vain? For faith in our Lord is a seal and a wall of safety to us."
 modern_rendering: >-

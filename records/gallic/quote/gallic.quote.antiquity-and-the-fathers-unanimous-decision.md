@@ -16,7 +16,7 @@ confidence:
     applies to monastic custom directly.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.2 (npnf211 div iv.iii.i.ii, file lines 16667-16671): the rule for what allegiance is owed, on the question of the monk's dress"
+  locus: "Institutes I.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16668-16672; div iv.iii.i.ii): the rule for what allegiance is owed, on the question of the monk's dress"
   license: public-domain
 retrieval:
   tier: 1

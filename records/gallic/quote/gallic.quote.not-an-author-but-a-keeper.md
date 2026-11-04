@@ -16,7 +16,7 @@ confidence:
     (ch. 22 [53]).
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 22 [53] (npnf211 div iii.xxiii, file lines 13769-13774): Vincent expounds 'Keep the deposit' (1 Tim. vi. 20)"
+  locus: "Commonitory ch. 22 [53] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 13769-13774; div iii.xxiii): Vincent expounds 'Keep the deposit' (1 Tim. vi. 20)"
   license: public-domain
 retrieval:
   tier: 1

@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
-  locus: "Homily I, on the vision of Ezekiel, in Mason's English"
+  locus: "Homily I, on the vision of Ezekiel, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt, lines 1526-1531)"
   license: public-domain
 text: "For the soul that is privileged to be in communion with the Spirit of His light, and is irradiated by the beauty of the unspeakable glory of Him who has prepared her to be a seat and a dwelling for Himself, becomes all light, all face, all eye; and there is no part of her that is not full of the spiritual eyes of light."
 modern_rendering: >-

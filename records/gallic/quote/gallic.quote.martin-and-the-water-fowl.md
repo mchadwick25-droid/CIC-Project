@@ -21,7 +21,7 @@ confidence:
     against demons, used here on birds.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2400-2406): Martin commanding water-fowl off a river on the road to Condate'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2400-2406; div ii.iii.iii): Martin commanding water-fowl off a river on the road to Condate"
   license: public-domain
 retrieval:
   tier: 3

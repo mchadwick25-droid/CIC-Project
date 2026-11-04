@@ -16,8 +16,7 @@ confidence:
     Documented as Ambrose's own letter in the standard English of the NPNF Ambrose volume, read directly at the section cited. Written to Theodosius after the massacre at Thessalonica; Ambrose is an interested party and the letter is also a political act.
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: >-
-    Letter LI to the Emperor Theodosius, sec. 11 (npnf210_ambrose-select-works-letters.xml)
+  locus: "Letter LI to the Emperor Theodosius, sec. 11 (cic/texts/npnf210_ambrose-select-works-letters.xml, lines 44159-44166)"
   license: public-domain
 text: >-
   I have written this, not in order to confound you, but that the examples of these kings may stir you up to put away this sin from your kingdom, for you will do it away by humbling your soul before God. You are a man, and it has come upon you, conquer it. Sin is not done away but by tears and penitence. Neither angel can do it, nor archangel. The Lord Himself, Who alone can say, “I am with you,” if we have sinned, does not forgive any but those who repent.

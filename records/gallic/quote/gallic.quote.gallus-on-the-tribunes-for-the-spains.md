@@ -21,7 +21,7 @@ confidence:
     corroborated outside Sulpitius's own corpus.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.11 (npnf211 div ii.iv.iii.xi, file lines 5072-5125): Gallus's narration of Ithacius protected by Maximus after Priscillian's death, the bishops at Treves, the tribunes ordered into the two Spains, and Martin's petition at the palace"
+  locus: "Dialogues III.11 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5072-5125; div ii.iv.iii.xi): Gallus's narration of Ithacius protected by Maximus after Priscillian's death, the bishops at Treves, the tribunes ordered into the two Spains, and Martin's petition at the palace"
   license: public-domain
 retrieval:
   tier: 2

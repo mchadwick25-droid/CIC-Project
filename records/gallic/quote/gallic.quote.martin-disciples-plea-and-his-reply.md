@@ -20,7 +20,7 @@ confidence:
     one author's letter, on others' report, not multiple independent sources.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2412-2430): the brethren''s lament as Martin''s strength fails, and Martin''s reply, "O Lord, if I am still necessary to thy people..."'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2412-2431; div ii.iii.iii): the brethren's lament as Martin's strength fails, and Martin's reply, \"O Lord, if I am still necessary to thy people...\""
   license: public-domain
 retrieval:
   tier: 1

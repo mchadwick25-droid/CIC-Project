@@ -18,8 +18,7 @@ confidence:
     documentary character, per the host record's own narrative-tier finding.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.15 (npnf211 div ii.iv.iii.xv, file lines 5299-5305): the previous day's reproof
-    of Brictio for keeping horses and purchasing slaves, including barbarian boys and comely girls"
+  locus: "Dialogues III.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5299-5305; div ii.iv.iii.xv): the previous day's reproof of Brictio for keeping horses and purchasing slaves, including barbarian boys and comely girls"
   license: public-domain
 retrieval:
   tier: 3

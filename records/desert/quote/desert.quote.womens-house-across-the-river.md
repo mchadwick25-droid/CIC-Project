@@ -22,9 +22,7 @@ confidence:
     reports no words of theirs.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part II (the second word of the holy Pachomius), p. 685, in Schodde's
-    English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part II (the second word of the holy Pachomius), p. 685, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 206)"
   license: public-domain
 text: >-
   And his sister in the flesh loved monasticism, and he cut her hair and put a girdle around her,

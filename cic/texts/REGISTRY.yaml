@@ -1980,6 +1980,15 @@
         a registered-trademark glyph (83 occurrences of ® in this file, some with the asterisk
         immediately before it, some without). Already an established pattern for the ® half -
         see this same name's own entry above for the Basil edition it first surfaced in.
+    - name: footnote-glyph-closing-quote-at-line-end
+      pattern: '(?<=,)\u201d(?=[ \t]*\n)'
+      evidence: >-
+        "three times destroyed by successive captures,”" (Book VI.15) - the same extraction's
+        rendering of footnote reference 52, whose note on the same page reads "This phrase offers
+        some support for the adoption of dates for the first three captures of the city close to
+        each other in point of time". A closing curly quotation mark glued to a comma at a line
+        end occurs once in this file, there. A wider rule for closing quotation marks is not safe
+        here: the file has 84 of them against 41 opening marks, most of them real.
 - filename: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
   supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
   date_added: '2026-09-09'

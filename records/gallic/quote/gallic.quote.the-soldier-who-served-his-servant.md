@@ -21,7 +21,7 @@ confidence:
     divergence_note states for the chapters this record is drawn from.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. II (npnf211 div ii.ii.iii, file lines 727-741): Martin's conduct toward his own servant, and how his fellow-soldiers regarded him"
+  locus: "Life of St. Martin ch. II (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 728-740; div ii.ii.iii): Martin's conduct toward his own servant, and how his fellow-soldiers regarded him"
   license: public-domain
 retrieval:
   tier: 2

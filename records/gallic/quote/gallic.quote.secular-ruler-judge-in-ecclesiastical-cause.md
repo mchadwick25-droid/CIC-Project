@@ -18,7 +18,7 @@ confidence:
     own characterization of the position Martin took.
 sources:
 - source_id: gallic.source.sulpitius-sacred-history
-  locus: "Sacred History II.50 (npnf211 div ii.vi.ii.l, file lines 11655-11660): Martin's intervention with Maximus over the condemned"
+  locus: "Sacred History II.50 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 11655-11660; div ii.vi.ii.l): Martin's intervention with Maximus over the condemned"
   license: public-domain
 retrieval:
   tier: 2

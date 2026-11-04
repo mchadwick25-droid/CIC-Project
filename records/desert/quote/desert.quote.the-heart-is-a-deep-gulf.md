@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
-  locus: "Homily XVII, in Mason's English"
+  locus: "Homily XVII, in Mason's English (cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt, lines 6320-6326)"
   license: public-domain
 text: "Mere abstention from evil things is not perfection— only if thou hast entered into thy ruined mind, and hast slain the serpent that lies under the mind beneath the surface of the thoughts, and burrows into what we call the secret chambers and storehouses of the soul and murders thee — for the heart is a deep gulf — only, I say, if thou hast killed him, and cast out all the uncleanness that was in thee."
 modern_rendering: >-

@@ -19,7 +19,7 @@ confidence:
     already verifies.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: 'Article VII: Of the Church: the Church''s own definition and the unity clause'
+  locus: "Article VII: Of the Church: the Church's own definition and the unity clause (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt, lines 277-285)"
   license: public-domain
 retrieval:
   tier: 1

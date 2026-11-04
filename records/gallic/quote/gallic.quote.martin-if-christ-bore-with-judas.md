@@ -20,10 +20,7 @@ confidence:
     host record's own claim_guards already name.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.15 (npnf211 div ii.iv.iii.xv, file lines 5330-5339): Martin's explanation that he
-    had seen Brictio driven by demons and was not moved by his reproaches; Martin's refusal to remove
-    Brictio from the presbyterate despite repeated accusations, and his repeated saying, 'If Christ bore
-    with Judas, why should not I bear with Brictio?'"
+  locus: "Dialogues III.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5330-5339; div ii.iv.iii.xv): Martin's explanation that he had seen Brictio driven by demons and was not moved by his reproaches; Martin's refusal to remove Brictio from the presbyterate despite repeated accusations, and his repeated saying, 'If Christ bore with Judas, why should not I bear with Brictio?'"
   license: public-domain
 retrieval:
   tier: 2

@@ -17,8 +17,7 @@ confidence:
     opinion.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes XII.14 (npnf211 div iv.iii.xii.xiv, file lines 25166-25171): Cassian's own
-    statement that effort and grace are both required, neither sufficient alone"
+  locus: "Institutes XII.14 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 25167-25170; div iv.iii.xii.xiv): Cassian's own statement that effort and grace are both required, neither sufficient alone"
   license: public-domain
 retrieval:
   tier: 2

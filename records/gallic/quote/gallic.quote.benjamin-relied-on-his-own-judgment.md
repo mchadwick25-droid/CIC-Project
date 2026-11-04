@@ -16,7 +16,7 @@ confidence:
     Benjamin as a cautionary example.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i
-  locus: "Conference II, ch. XXIV (npnf211 div iv.iv.iii.xxiv, file lines 28106-28110): Abbot Moses on Brother Benjamin's fall"
+  locus: "Conference II, ch. XXIV (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 28106-28110; div iv.iv.iii.xxiv): Abbot Moses on Brother Benjamin's fall"
   license: public-domain
 retrieval:
   tier: 2

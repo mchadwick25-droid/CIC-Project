@@ -19,8 +19,7 @@ confidence:
     assessment of whether the raising happened.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. VII (npnf211 div ii.ii.viii, file lines 987-999): Martin's prayer
-    over the dead catechumen, and his own sense that power was present"
+  locus: "Life of St. Martin ch. VII (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 995-1000; div ii.ii.viii): Martin's prayer over the dead catechumen, and his own sense that power was present"
   license: public-domain
 retrieval:
   tier: 2

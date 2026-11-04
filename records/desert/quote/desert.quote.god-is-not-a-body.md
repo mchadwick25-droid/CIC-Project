@@ -22,8 +22,7 @@ confidence:
     doctrine agree. Cite it as the doctrine at issue, never as Origen's own sentence.
 sources:
 - source_id: desert.source.origen-de-principiis
-  locus: >-
-    De Principiis I.1.6, in Rufinus' Latin and the ANF English (anf04, file line 22800)
+  locus: "De Principiis I.1.6, in Rufinus' Latin and the ANF English (cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml, lines 22799-22808)"
   license: public-domain
 text: >-
   God, therefore, is not to be thought of as being either a body or as existing in a body, but as

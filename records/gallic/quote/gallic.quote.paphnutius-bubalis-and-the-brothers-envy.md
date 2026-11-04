@@ -18,9 +18,7 @@ confidence:
     eyewitness claim.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Conferences XVIII.15 (npnf211 div iv.vi.ii.xv, file lines 43004-43012): the nickname Bubalis
-    and its stated reason; the Elders' admiration of the young Paphnutius; the brother's envy, likened to
-    Joseph's brothers"
+  locus: "Conferences XVIII.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 43004-43012; div iv.vi.ii.xv): the nickname Bubalis and its stated reason; the Elders' admiration of the young Paphnutius; the brother's envy, likened to Joseph's brothers"
   license: public-domain
 retrieval:
   tier: 3

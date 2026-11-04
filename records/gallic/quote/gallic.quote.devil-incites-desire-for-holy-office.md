@@ -17,7 +17,7 @@ confidence:
     direct instruction to Cassian and Germanus.
 sources:
 - source_id: gallic.source.cassian-conferences-part-i
-  locus: "Conference I, ch. XX (npnf211 div iv.iv.ii.xx, file lines 26944-26947): Abbot Moses on the devil's disguised temptations, illustrated by a good money-changer"
+  locus: "Conference I, ch. XX (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 26944-26947; div iv.iv.ii.xx): Abbot Moses on the devil's disguised temptations, illustrated by a good money-changer"
   license: public-domain
 retrieval:
   tier: 2

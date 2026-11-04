@@ -7379,6 +7379,21 @@ If any condition fails, the amount stays unspent.
 
 **Open.** The main run (B on 78 probes, then the 42 repeats) waits for the coordination thread. The remaining ceiling is $11.629.
 
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": main run and repeat, $3.8345 (coordination thread, under Mark's approval)
+
+**Approval.** The coordination thread approved the run after checking the sample, under Mark's test approval and his $12 ceiling. It set a cap of $3.876 per world, taken from the $11.629 left after the sample.
+
+**Run.** Arm B covered the remaining 26 probes per world, then the 14 drawn repeat probes per world: 120 turns in all. The model, route, code and hashes were the same as the sample.
+
+**Spend, from the run output.** $3.8345 in all:
+- alx $0.9343 main and $0.4482 repeat;
+- pahc $0.8100 main and $0.4080 repeat;
+- syr $0.8306 main and $0.4034 repeat.
+
+The whole test, sample included, has spent **$4.2055 of its $12.00 ceiling**. No call failed, and no cap was reached.
+
+**Files.** The run records, summaries, printed settings and ledger are in `Build/Ministry/Features/V7-Controlled-Test/Runs/main/`.
+
 ## 2026-11-04 - Cap ruling: alx the-grades-here-in-the-church rendering (project lead)
 
 The `modern_rendering` of `alx.quote.the-grades-here-in-the-church` reached the cap at its third review file. Round 1 and round 2 were in the batch and round-2 files; round 3 was `Rendering_Review_Alx_Round3_2026-11-04.md`. The one finding still open was that the last sentence dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". The project lead's ruling, in his words, relayed by the coordination thread: "yes ... fourth read". It allows one targeted read by a fresh independent Opus reader of exactly that sentence. The read is `Rendering_Review_Alx_Round4_2026-11-04.md`. It passed "This goes on until they grow into “a mature man.”", and the record now carries that sentence. It is the only review this ruling covers for alx.

@@ -23,7 +23,7 @@ confidence:
     posture rule was unique to this world's own communities.
 sources:
 - source_id: desert.source.cassian-institutes
-  locus: "Institutes II.18 (npnf211 line 17728)"
+  locus: "Institutes II.18 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 17735-17743)"
   license: public-domain
 text: "This, too, we ought to know,—that from the evening of Saturday which precedes the Sunday, up
   to the following evening, among the Egyptians they never kneel, nor from Easter to Whitsuntide; nor

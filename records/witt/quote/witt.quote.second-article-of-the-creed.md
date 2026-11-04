@@ -20,9 +20,7 @@ confidence:
     text, not a remembered saying.
 sources:
 - source_id: witt.source.luther-small-catechism
-  locus: >-
-    The Second Article, On Redemption, and its own explanation: the creed's own confession and the household's
-    own 'I believe that Jesus Christ is truly God... and also truly man'
+  locus: "The Second Article, On Redemption, and its own explanation: the creed's own confession and the household's own 'I believe that Jesus Christ is truly God... and also truly man' (cic/texts/luther_small-catechism_smith1994.txt, lines 195-211)"
   license: public-domain
 retrieval:
   tier: 1

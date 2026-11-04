@@ -20,7 +20,7 @@ confidence:
     length and are not repeated in full here.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. VII (npnf211 div ii.ii.viii, file lines 977-1006): the monastery near Tours, the catechumen's death, and Martin's prayer over the body"
+  locus: "Life of St. Martin ch. VII (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 977-1007; div ii.ii.viii): the monastery near Tours, the catechumen's death, and Martin's prayer over the body"
   license: public-domain
 retrieval:
   tier: 2

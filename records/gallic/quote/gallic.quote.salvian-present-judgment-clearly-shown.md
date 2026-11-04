@@ -17,8 +17,7 @@ confidence:
     divergence_note; not resolved here.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "VII.10 (Sanford p. 201): a defeated Roman general's own captivity read as clear proof of
-    present divine judgment"
+  locus: "VII.10 (Sanford p. 201): a defeated Roman general's own captivity read as clear proof of present divine judgment (cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 9009-9010)"
   license: public-domain
 retrieval:
   tier: 3

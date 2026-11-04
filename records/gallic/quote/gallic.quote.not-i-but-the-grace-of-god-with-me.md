@@ -18,8 +18,7 @@ confidence:
     report of the controversy existed.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes XII.9 (npnf211 div iv.iii.xii.ix, file lines 25037-25044): the remedy for
-    pride - crediting every sense of progress to God's grace, in the Apostle's own words"
+  locus: "Institutes XII.9 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 25038-25044; div iv.iii.xii.ix): the remedy for pride - crediting every sense of progress to God's grace, in the Apostle's own words"
   license: public-domain
 retrieval:
   tier: 2

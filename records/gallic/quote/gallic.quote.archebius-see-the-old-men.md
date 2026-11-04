@@ -19,7 +19,7 @@ confidence:
     remembered, not a transcript; no independent witness to Archebius survives.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conferences XI.2 (npnf211 div iv.v.ii.ii, file lines 36829-36839): Archebius's reply when he heard the travelers wished to seek out the fathers in still remoter parts of Egypt"
+  locus: "Conferences XI.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 36829-36839; div iv.v.ii.ii): Archebius's reply when he heard the travelers wished to seek out the fathers in still remoter parts of Egypt"
   license: public-domain
 retrieval:
   tier: 2

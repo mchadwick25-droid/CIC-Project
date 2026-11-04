@@ -19,9 +19,7 @@ confidence:
     he saw and heard, not a claim that demons literally sat on the rock.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.15 (npnf211 div ii.iv.iii.xv, file lines 5289-5299): Martin seated in the small
-    court; two demons on the rock overhanging the monastery calling Brictio's name; Brictio's furious
-    arrival"
+  locus: "Dialogues III.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5289-5299; div ii.iv.iii.xv): Martin seated in the small court; two demons on the rock overhanging the monastery calling Brictio's name; Brictio's furious arrival"
   license: public-domain
 retrieval:
   tier: 3

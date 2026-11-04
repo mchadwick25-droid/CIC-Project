@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Contested for incident-level attribution, the same basis desert.quote.antony-nicene-formula carries for material from this Vita: reported speech inside a bishop-author's own constructed narrative, written for his own purposes. The words themselves are quoted verbatim from the vendored file."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS84 - the narrator, not Antony, on how Antony's healings actually worked"
+  locus: "SS84 - the narrator, not Antony, on how Antony's healings actually worked (cic/texts/npnf204_athanasius-select-works-letters.xml, lines 33320-33323)"
   license: public-domain
 text: "Antony, at any rate, healed not by commanding, but by prayer and speaking the name of Christ. So that it was clear to all that it was not he himself who worked, but the Lord who showed mercy by his means and healed the sufferers."
 modern_rendering: >-
