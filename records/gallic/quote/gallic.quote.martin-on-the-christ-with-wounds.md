@@ -44,7 +44,7 @@ modern_lens_note: >-
   A modern reader may hear this as a test for telling a true vision from
   a false one - and it is that. But the test itself is the point: the
   only Christ Martin will own is the one who was crucified, still bearing
-  the wounds. A Christ in an emperor's purple and a jewelled crown is, by
+  the wounds. A Christ in an emperor's purple and a jeweled crown is, by
   that fact alone, not the Lord. For a man who had left Caesar's own
   service to become "the soldier of Christ," and who stood alone before
   the court at Treves when the bishops bowed, the image of Christ as a

@@ -151,3 +151,22 @@ def test_new_forms_are_flagged():
 def test_speaker_or_author_is_not_rewritten():
     text = "---\nrecord_type: quote\nspeaker_or_author: Summarising monk\nnote: summarising it\n---\n"
     assert [f.word for f in cs.scan_record(text, "x.md")] == ["summarising"]
+
+
+def test_forms_found_by_the_final_sweep_are_flagged():
+    for old, new in (
+        ("reorganised", "reorganized"), ("reorganisation", "reorganization"), ("rebaptised", "rebaptized"),
+        ("unbaptised", "unbaptized"), ("anathematised", "anathematized"), ("anathematising", "anathematizing"),
+        ("regularised", "regularized"), ("regularisation", "regularization"), ("unauthorised", "unauthorized"),
+        ("synthesised", "synthesized"), ("synthesises", "synthesizes"), ("dramatising", "dramatizing"),
+        ("apostatised", "apostatized"), ("judaisers", "judaizers"), ("legitimise", "legitimize"),
+        ("institutionalisation", "institutionalization"), ("scandalised", "scandalized"), ("stylised", "stylized"),
+        ("marginalised", "marginalized"), ("capitalised", "capitalized"), ("marvelled", "marveled"),
+        ("jewelled", "jeweled"), ("unfavourable", "unfavorable"), ("tricolour", "tricolor"),
+        ("ardour", "ardor"), ("succour", "succor"), ("uncatalogued", "uncataloged"),
+    ):
+        assert words(f"a {old} thing") == [(old, new)], old
+
+
+def test_words_that_are_spelled_the_same_in_both_varieties_stay_unflagged_in_the_sweep():
+    assert words("advertising unwilling improvised appalled annulled rebelled sunrise surmise tortoise") == []

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: This record synthesises nine completed construction documents rather than reading a
+  divergence_note: This record synthesizes nine completed construction documents rather than reading a
     text directly, so verification runs via those documents' own authority, not via a primary source reopened
     here. Doc_07 SS7 names the synthesis's own central claim - that purity, once adopted, necessarily
     generates rite, memory, institution, and political posture as a single logical unfolding rather than
