@@ -5,6 +5,7 @@ import dataclasses
 import json
 import logging
 import re
+import sqlite3
 
 import pytest
 from fastapi.testclient import TestClient
@@ -142,7 +143,59 @@ def test_a_wrong_code_is_400_and_the_new_account_flow_asks_for_the_age_click(htt
     sent_date = http.post("/api/accounts/sign-in/finish", json={**body, "over_18": True, "birth_date": "1990-05-15"}, headers=H)
     assert sent_date.status_code == 200 and sent_date.json()["status"] == "ok"
     for name in ("d.db", "e.db"):
-        assert b"1990" not in (tmp_path / name).read_bytes()
+        assert_no_birth_date_stored(tmp_path / name)
+
+
+def stored_values(path):
+    """Every value in every table of a SQLite file, as (table, column, value)."""
+    conn = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+    try:
+        tables = [r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%'")]
+        for table in tables:
+            cur = conn.execute(f'SELECT * FROM "{table}"')
+            columns = [d[0] for d in cur.description]
+            for row in cur:
+                for column, value in zip(columns, row):
+                    yield table, column, value
+    finally:
+        conn.close()
+
+
+BIRTH_YEAR, BIRTH_DATE_FORMS = "1990", ("1990-05-15", "19900515", "1990/05/15", "05-15-1990", "15-05-1990", "15/05/1990", "05/15/1990")
+
+
+def assert_no_birth_date_stored(path):
+    """No stored field holds the birth date or its year. A year is only looked for where one can be stored: a
+    number, or a date that begins with it. Hashes and tokens are random, so a four-digit run inside one means nothing."""
+    for table, column, value in stored_values(path):
+        where = f"{table}.{column}"
+        if isinstance(value, int):
+            assert value not in (int(BIRTH_YEAR), 19900515), where
+        text = value.decode("utf-8", "replace") if isinstance(value, bytes) else str(value)
+        assert not any(form in text for form in BIRTH_DATE_FORMS), where
+        assert not re.match(rf"{BIRTH_YEAR}(\D|$)", text), where
+
+
+def test_the_birth_date_check_ignores_a_random_hash_that_contains_the_year(tmp_path):
+    db = tmp_path / "x.db"
+    conn = sqlite3.connect(db)
+    conn.execute("CREATE TABLE linked_sign_ins (subject_hash TEXT PRIMARY KEY, account_id TEXT, day_made TEXT)")
+    conn.execute("INSERT INTO linked_sign_ins VALUES (?, ?, ?)", ("ab" * 10 + "1990" + "cd" * 10, "5f1990e2-0000-4000-8000-000000000000", "2026-11-04"))
+    conn.commit()
+    conn.close()
+    assert_no_birth_date_stored(db)
+
+
+@pytest.mark.parametrize("value", ["1990-05-15", "19900515", 1990, 19900515, "1990", "1990-05", "born 15/05/1990"])
+def test_the_birth_date_check_catches_a_stored_date_in_any_form(tmp_path, value):
+    db = tmp_path / "y.db"
+    conn = sqlite3.connect(db)
+    conn.execute("CREATE TABLE accounts (account_id TEXT PRIMARY KEY, field)")
+    conn.execute("INSERT INTO accounts VALUES (?, ?)", ("a", value))
+    conn.commit()
+    conn.close()
+    with pytest.raises(AssertionError):
+        assert_no_birth_date_stored(db)
 
 
 def test_sign_out_clears_the_session(http, mailer):
