@@ -52,7 +52,7 @@ tensions:
   and hold firmly, is this: the shape of his death and rising is the shape our own life is cut to.'
 text: 'His death and rising are not facts we simply affirm and set aside. His crucifixion, burial,
   rising on the third day, ascension, and sitting at the Father''s right hand were ordered
-  deliberately. The life we lead here was modelled on them, not only mystically, but in reality. We
+  deliberately. The life we lead here was modeled on them, not only mystically, but in reality. We
   crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his
   burial in us. We walk in a life made new: that is his rising in us. We set our affection on what
   is above, our life hidden with him in God. That is his ascension and his sitting at God''s right

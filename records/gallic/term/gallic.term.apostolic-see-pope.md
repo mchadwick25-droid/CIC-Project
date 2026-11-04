@@ -85,7 +85,7 @@ senses:
   informational: >-
     Cassian's books are written to Popes who are bishops of Provence. The Institutes open to "most
     blessed Pope Castor," at whose request they were written for his new monastery; the first
-    Conferences honour "Pope Castor of blessed memory" and "blessed Pope Leontius and holy brother
+    Conferences honor "Pope Castor of blessed memory" and "blessed Pope Leontius and holy brother
     Helladius." The word is what one calls a bishop one reveres. The same word in Vincent's mouth
     belongs to Rome, and to Rome as the keeper of antiquity: Pope Stephen, "Prelate of the Apostolic
     See," resisted rebaptism with the rule "Let there be no innovation - nothing but what has been
@@ -104,16 +104,16 @@ senses:
     Vincent's Rome and Cassian's Rome are not the same relation, and we do not pretend they are.
   translational: >-
     A modern hearer hears "Pope" and thinks of one office in one city. Among us the title was a
-    Western bishop's honour, and Rome's claim, when Vincent makes it, is that its bishops were
+    Western bishop's honor, and Rome's claim, when Vincent makes it, is that its bishops were
     foremost in guarding what was handed down - not a constitutional supremacy read back from later
     centuries.
 quick_meaning: >-
-  "Pope" was how we honoured any revered bishop - Cassian wrote to Pope Castor of Provence. "The
+  "Pope" was how we honored any revered bishop - Cassian wrote to Pope Castor of Provence. "The
   Apostolic See" was Vincent's Rome. Pope Stephen was its bishop. He was first in authority of place,
   and Vincent praised him for being first in refusing anything new.
 distortion_risk: high
 use_note:
-  means: "Pope meant a title of honour for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, first in authority by its place and praised for being first in refusing novelty."
+  means: "Pope meant a title of honor for any revered bishop, such as Cassian's Castor, while the Apostolic See meant Vincent's Rome, first in authority by its place and praised for being first in refusing novelty."
   not_for:
     - "Pope as the bishop of Rome only, with the later constitutional office read back"
     - "Vincent as a proof-text for papal supremacy"

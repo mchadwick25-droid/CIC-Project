@@ -32,4 +32,4 @@ discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01; file 
 external_ids:
   don_source_registry_row: 48
 ---
-The instrument that moved Registry row 27's Deo laudes claim off a recognized-category generality and onto specific catalogued inscriptions, and in doing so cleared that row's own standing priority-review flag. An acquisition that changed an evidentiary status rather than merely adding a volume.
+The instrument that moved Registry row 27's Deo laudes claim off a recognized-category generality and onto specific cataloged inscriptions, and in doing so cleared that row's own standing priority-review flag. An acquisition that changed an evidentiary status rather than merely adding a volume.

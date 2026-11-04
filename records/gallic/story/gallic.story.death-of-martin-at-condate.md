@@ -93,7 +93,7 @@ narrative_tier_justification: >-
   rather than Documented because one author's letter, on others' testimony, is not multiple independent
   sources.
 tellable_as: >-
-  Foreknowing his death, Martin goes to make peace among quarrelling clerics. He sickens, and refuses
+  Foreknowing his death, Martin goes to make peace among quarreling clerics. He sickens, and refuses
   straw for his bed of sackcloth and ashes rather than set his disciples a softer example. At his
   funeral, it is said, nearly two thousand monks gather, old men and young soldiers of Christ, with a
   choir of virgins.

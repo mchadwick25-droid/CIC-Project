@@ -35,4 +35,4 @@ discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-chr
 external_ids:
   lpc_source_registry_row: 12
 ---
-The imperial-coercion defence and the two-register argument (pastoral-corrective and imperial-duty); Doc_01's own central state-power finding (SS4, SS7, SS9). Also assigned to imperial-juridical-christianity's own corpus map, per that world's own double-placement.
+The imperial-coercion defense and the two-register argument (pastoral-corrective and imperial-duty); Doc_01's own central state-power finding (SS4, SS7, SS9). Also assigned to imperial-juridical-christianity's own corpus map, per that world's own double-placement.

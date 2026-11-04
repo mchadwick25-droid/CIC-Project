@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 licence, not a public-domain text - see desert.source.evagrius-praktikos."
+  divergence_note: "Contested. The Praktikos is securely Evagrius's own work and the wording is verbatim from the vendored file, but three bounds ride with it. Evagrius is this world's most atypical participant by education - a Cappadocian-formed theologian at Kellia, not a Coptic-speaking villager - so his system is the most systematic thing this world produced and the least representative of it. His speculative works were condemned in 553, well outside this world's own window, which shaped what survives and in which language. And the English is Luke Dysinger's, held under the Guide to Evagrius Ponticus's CC BY 4.0 license, not a public-domain text - see desert.source.evagrius-praktikos."
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "Praktikos ch. 64, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - "participant asks how anyone could tell whether the discipline was working"
   - "participant asks how you knew you were making progress, or getting anywhere"
-  - "participant asks what apatheia felt like or how it was recognised"
+  - "participant asks what apatheia felt like or how it was recognized"
 relations:
 - type: associated-with
   target: desert.term.apatheia

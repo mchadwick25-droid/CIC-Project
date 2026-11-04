@@ -71,7 +71,7 @@ description: >-
 
   In the north it arrived a generation earlier, without Cassian, as a rival to be matched. The
   Dialogues' subject is 'the manner of life of the oriental monks and of St. Martin' (Gennadius).
-  The traveller just back from Egypt concedes, 'you have conquered ... all the eremites and
+  The traveler just back from Egypt concedes, 'you have conquered ... all the eremites and
   anchorites' (Dial. II.5).
 
   In the south the customs came as the fathers' own, handed down. The house received them as a

@@ -58,9 +58,9 @@ modern_rendering: >-
   noise - hardly anyone even passes through, except the occasional
   hunter.
 use_note:
-  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travellers."
+  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travelers."
   not_for:
-    - "the era's classic defence of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
+    - "the era's classic defense of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
     - "proof that Basil found and kept a settled hermit's life"
     - "a method for quieting an anxious mind, which neither this letter nor cappadocian.dw.stillness-and-the-summons supplies"
   years: {from: 358, to: 359}

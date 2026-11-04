@@ -57,7 +57,7 @@ reading_card:
       is a reconstruction.
     confidence: Widely Accepted
   contributes: It shows Christ as the Word who remakes people and orders creation.
-  whose_view: Clement's rhetoric for outsiders. The Logos centre is shared, but only the literate attest
+  whose_view: Clement's rhetoric for outsiders. The Logos center is shared, but only the literate attest
     it.
   open: The attack on the old poets is polemic; this world defined itself partly by refusal.
   reads_differently_today: '''Men out of stones, men out of beasts'' answers the Orpheus myth. His music

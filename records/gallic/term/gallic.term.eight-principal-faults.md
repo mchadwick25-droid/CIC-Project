@@ -78,7 +78,7 @@ plain_meaning: >-
   them according to their traditions." Each has a book of its own.
 world_word: the eight principal faults
 false_friend:
-- the seven deadly sins - a later, different, seven-item list treated as a moral catalogue
+- the seven deadly sins - a later, different, seven-item list treated as a moral catalog
 - vices as bad habits
 - the faults as psychology rather than as spirits to be fought
 senses:
@@ -99,7 +99,7 @@ senses:
     at X.1 and XI.1 is supplied against the text; his "Accidie" and Chaucer footnote is editorial.
   personal: >-
     We receive the list as Egypt's - "they reckon eight" - and read it toward a purity of heart the
-    faults obstruct. The faults are not a catalogue of sins but a sequence of spirits, each with its
+    faults obstruct. The faults are not a catalog of sins but a sequence of spirits, each with its
     own remedy handed down, beginning with the belly and ending with the wish to rule - the very office
     our houses keep producing. Martin fights the devil, not eight spirits in order.
   translational: >-

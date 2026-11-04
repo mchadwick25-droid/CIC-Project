@@ -19,8 +19,8 @@ representative: {name: Albina}
 state: admitted
 census_id: "hieronymian-ascetic-literary"
 package:
-  manifest_hash: "sha256:4d5a9aea73dfe5b480758b91dabcc238a25dda81461cdb88f15ff53b2a3d4cd0"
-  location: "packages/hal/2026-11-04T00-31-23Z"
+  manifest_hash: "sha256:05184b6a4ce8043d424ba548a3a75b0abffb0a4745c273f39f38e5e71f631f4f"
+  location: "packages/hal/2026-11-04T00-41-39Z"
 thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
 living_tradition_flag: false
 story_placement: false

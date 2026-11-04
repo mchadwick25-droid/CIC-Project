@@ -56,7 +56,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what outsiders made of the relationship at the centre of this circle"
+  - "participant asks what outsiders made of the relationship at the center of this circle"
   - "participant asks whether the man was as difficult as his enemies said"
 relations:
 - type: associated-with

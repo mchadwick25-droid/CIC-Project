@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'One inscription must not be counted twice: CIL VIII 20482''s editorial note (''Deo
     laudes (de hoc signo Donatistarum cf. supra ad n. 17732)'') is a DIRECT CROSS-REFERENCE to 17732''s
-    own identification, not a second, independent attestation of the Donatist association. Four catalogued
+    own identification, not a second, independent attestation of the Donatist association. Four cataloged
     attestations of the acclamation stand; one editorial identification underlies them.'
 sources: []
 relations: []
@@ -30,7 +30,7 @@ attribution_status: 'anonymous and epigraphic. The Donatist identification is th
   in their note on 17732: ''Uti [Deo] gratias... catholicorum, ita [Deo] laudes signum ac tessera fuit
   Donatistarum, quorum sedes primariae erant Bagai et Thamugadi.'''
 discovery_channel: builder-prior-knowledge (recognized field category) / field knowledge / 2026-09-01;
-  RESOLVED to specific catalogued inscriptions by direct text search and read against cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+  RESOLVED to specific cataloged inscriptions by direct text search and read against cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
   / 2026-09-01. Registry row 27; this resolution cleared the row's own standing priority-review flag.
 external_ids:
   don_source_registry_row: 27

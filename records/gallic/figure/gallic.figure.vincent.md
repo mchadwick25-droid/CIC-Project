@@ -38,7 +38,7 @@ dates:
   display: "entry to Lerins undated (c. 425 is a floating convention, Inferential-Thin); wrote the Commonitory in 434, three years after Ephesus, under the name Peregrinus; d. before 450, probably shortly after 434, on Gennadius's regnal formula"
 narratable: false
 bridge_line: >-
-  The monk who left the storms of worldly warfare for the harbour of religion and wrote himself a
+  The monk who left the storms of worldly warfare for the harbor of religion and wrote himself a
   remembrancer: what has been believed everywhere, always, by all. He left no story of his own, not
   even of the place where he wrote it.
 relations:
@@ -61,7 +61,7 @@ each with reasons (Doc_09 §6 items 9-12): his own occasion for writing (Comm. c
 paragraph of self-location, not a narrative with an action" - first-person, datable, and already
 deployed whole in Doc_05 §8 and gallic.term.commonitory-peregrinus; the theft of the second book
 (Gennadius ch. LXV) is "one sentence ... no actor, no scene, no telling," carried in the transmission
-record; his catalogue of heresiarchs is a narrative form, not a story; and his handling of Celestine's
+record; his catalog of heresiarchs is a narrative form, not a story; and his handling of Celestine's
 letter (ch. 32) is "an argument about a letter's meaning, not a narrative of its arrival." Doc_09 §8
 item 5 states the larger absence he belongs to: no Native voice narrates this world's own controversy,
 and Vincent, who came nearest, chose to write a memory-aid on doctrine, not a life. The Representative

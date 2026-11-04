@@ -16,7 +16,7 @@ confidence:
     item canonesapostolo01brungoog (Pars Altera -- the Spanish/Gallic/Italian/English councils), directly
     checked and found to carry no African material at all. This volume also carries several other, unrelated
     4th-5th c. councils bound in the same scan, vendored whole rather than fragmented, per this Registry's
-    own large-multi-part-body convention -- not separately catalogued as distinct census works. Original-language
+    own large-multi-part-body convention -- not separately cataloged as distinct census works. Original-language
     witness (Latin) -- second-witness caveat applies per cic/texts/INTAKE.md.
 sources: []
 relations: []

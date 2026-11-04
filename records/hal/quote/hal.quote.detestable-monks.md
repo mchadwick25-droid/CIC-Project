@@ -35,7 +35,7 @@ retrieval:
   retrieve_when:
   - "participant asks what ordinary people thought of the ascetic life"
   - "participant asks whether the fasting went too far and whether anyone died of it"
-  - "participant asks whether the neighbours were hostile"
+  - "participant asks whether the neighbors were hostile"
 use_note:
   means: "Jerome reports the Roman crowd at Blaesilla's funeral saying she was killed by fasting and calling for the monks to be driven from Rome."
   not_for:

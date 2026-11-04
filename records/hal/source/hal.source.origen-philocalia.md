@@ -37,7 +37,7 @@ external_ids: {}
 THE CONTROL ON RUFINUS. That is the reason, and it is specific to this
 world rather than general.
 
-The charge at the centre of this world's rupture is that Rufinus, in
+The charge at the center of this world's rupture is that Rufinus, in
 translating De Principiis, softened what Origen actually said - and
 Rufinus admits in his own prologue, which this world already holds at
 hal.source.rufinus-prologue-de-principiis, that he corrected passages he

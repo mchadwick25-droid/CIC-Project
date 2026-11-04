@@ -45,7 +45,7 @@ and it is not where a reader of the letters would guess.
 
 He does not win and he does not concede. He grants Jerome everything
 personal - "a man most learned, and skilled in all three languages" - and
-grants that the Jews acknowledge his labour to be faithful. Then he rules
+grants that the Jews acknowledge his labor to be faithful. Then he rules
 against him anyway, on a ground that has nothing to do with scholarship:
 that the seventy translators were prophets too, that the same Spirit
 spoke in them as in the men they translated, and that where a later

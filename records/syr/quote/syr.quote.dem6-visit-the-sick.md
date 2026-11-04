@@ -31,7 +31,7 @@ retrieval:
 use_note:
   means: "Aphrahat, in the covenant exhortation of Demonstration VI, urges his hearers to visit the Lord in the persons of the sick."
   not_for:
-    - "evidence of organised hospitals or a standing care institution"
+    - "evidence of organized hospitals or a standing care institution"
     - "a report of what members actually did rather than an exhortation to do it"
   years: {from: 337, to: 337}
   status: reviewed

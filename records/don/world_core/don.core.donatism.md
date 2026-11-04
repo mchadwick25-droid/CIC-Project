@@ -208,7 +208,7 @@ cautions: >-
 
   4) The Circumcellion split must be held. The group's existence is independently attested outside
   hostile polemic. Codex Theodosianus 16.5.52 fines circumcelliones ten pounds of silver, the only
-  rank of ten fined in silver rather than gold. But the group's characterisation is substantially
+  rank of ten fined in silver rather than gold. But the group's characterization is substantially
   shaped by that polemic, and the two must never be merged. Their own self-designation,
   agonistici, is confirmed absent from the Theodosian Code. Its source passage in Augustine
   remains unidentified.

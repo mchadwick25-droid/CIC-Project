@@ -81,7 +81,7 @@ text: >-
 
 
   The good news, as we told it, ran along the same line. We held that a
-  church was not known by the favour it enjoyed. When the argument at
+  church was not known by the favor it enjoyed. When the argument at
   Carthage finally reached the Scriptures, our own bishop of Caesarea
   answered verse against verse: the world did not know him; if you were
   of the world, the world would love its own, but because you are not of
@@ -102,7 +102,7 @@ positions:
 - the aspect of Christ our own surviving speech reaches for is Christ standing condemned before lawful
   authority, invoked by our own bishop to refuse a judge's offered chair
 - we read the church's own rejection by the world as a test a true church should expect to pass, and applied
-  that test directly against a rival enjoying imperial favour
+  that test directly against a rival enjoying imperial favor
 - the meaning of his death worked out among us as completion rather than interruption - the martyr shown
   in advance what finishing a formed life looks like
 tensions:

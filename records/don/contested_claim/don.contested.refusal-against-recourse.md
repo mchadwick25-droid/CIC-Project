@@ -34,7 +34,7 @@ claim: >-
   principled refusal, not evidence that the refusal was opportunism all along. The gap was held openly,
   inside the same conviction, and naming it was never thought to require closing it.
 held_against:
-- The characterisation is the build's, not this communion's. Doc_04 SS3.6 states it plainly - calling this
+- The characterization is the build's, not this communion's. Doc_04 SS3.6 states it plainly - calling this
   "principled refusal against pragmatic exception" rather than simple incoherence is that document's own
   synthesis of Doc_01 SS5's language, a defensible reading but not attested anywhere as this communion's
   own self-description of the tension. The two poles are Documented; the name given to the space between
@@ -50,11 +50,11 @@ held_against:
   when the machinery is turned on itself. Whatever else the three instances are, they are not symmetrical
   with the refusal in what they ask the state to do
 - No account of the tension from this side survives at all. There is no Donatist chronicle, administrative
-  record, or documentary self-defence of any of these acts, so nothing in the record shows this communion
+  record, or documentary self-defense of any of these acts, so nothing in the record shows this communion
   reasoning about the gap, defending it, or noticing it (don.core.donatism thin_topics)
 concedes: >-
   Every one of the three instances is Documented on its own historical terms and none of them is disputed,
-  minimised or explained away here: Anulinus's relatio sits inside Optatus's own vendored appendix, and
+  minimized or explained away here: Anulinus's relatio sits inside Optatus's own vendored appendix, and
   the Maximianist-era legal invocation is corroborated in Augustine's own primary text. What this
   communion's record cannot supply is the thing that would settle the contest - any evidence that the
   people who did these things experienced them as exceptions rather than simply not connecting them to
@@ -62,9 +62,9 @@ concedes: >-
   tension existed and was never hidden, and stops there.
 divergence_partners:
 - ijc.gravity.church-state-alliance (world imperial-juridical) - the divergence here is one of status,
-  not of behaviour, and it is exactly what a table would need to see. What this claim carries as three
+  not of behavior, and it is exactly what a table would need to see. What this claim carries as three
   dated exceptions inside a refusal is, in the Imperial and Juridical world, the ordinary standing
-  condition of church office - patronised, consulted, legislated for, and never again simply private.
+  condition of church office - patronized, consulted, legislated for, and never again simply private.
   The same act, a bishop petitioning an emperor, is an anomaly requiring an account in one world and
   unremarkable in the other.
 - ijc.contested.bishop-of-those-outside (world imperial-juridical) - the same structural honesty as this

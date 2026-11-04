@@ -53,7 +53,7 @@ held_against:
   - catholicus as the place where wrongdoing goes unpunished - reported by a seventeenth-century editor
   annotating a sermon whose full Latin this build has not read (don.term.catholicus)
 - Individual bishops' conduct and motives - as against the bare institutional fact - reach this record hostile-mediated
-  throughout, Optatus Gildonianus's characterisation being this world's own named example
+  throughout, Optatus Gildonianus's characterization being this world's own named example
   (don.gravity.parallel-hierarchy's own divergence_note)
 - No vendored source gives this communion's own everyday self-naming in its own words - what Augustine
   actually calls them, and in which contexts, remains an open question. The name this movement is
@@ -83,7 +83,7 @@ divergence_partners:
   precedence between sees inside one communion; here, whether there is one communion at all.
 - pahc.contested.rivals-undefeated (world post-apostolic) - a divergence in period rather than in position,
   and worth naming because that claim's own methodological instruction cuts directly at this one. It
-  insists that rival Christianities be read as live, undefeated neighbours rather than as later,
+  insists that rival Christianities be read as live, undefeated neighbors rather than as later,
   external, already-settled heresies. Applied here, the same instruction bars reading two rival African
   hierarchies through the outcome of 411 - which is what this claim needs, and also what makes the claim
   contested rather than simply true.
@@ -100,7 +100,7 @@ use_note:
 ---
 Built for the Table Readiness Round from the cleared Doc_04 SS3.4 (candidate G4, six of six PASS with
 Dependency revealing Supporting rather than Primary status, classified Supporting - the integrating
-and institutional centre - at SS4) together with don.story.conference-of-carthage-411, which is the
+and institutional center - at SS4) together with don.story.conference-of-carthage-411, which is the
 one place in this world's whole corpus where this communion's bishops argue their own institutional
 standing in their own recorded words rather than through an opponent's quotation.
 

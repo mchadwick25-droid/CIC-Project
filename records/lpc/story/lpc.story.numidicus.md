@@ -157,6 +157,6 @@ telling_long: 'Our bishop, Cyprian, sent us news that he said was a joy for all 
   The companions he had sent ahead to their deaths were gone, but Numidicus was still alive. Our copy of the letter says he lived on after them against his will, while another version of the text says he lived on unconquered.
 
 
-  Our bishop saw why Numidicus had been left alive: the Lord meant to add him to our clergy. Some of our presbyters had fallen away from the faith, and too few were left. The Lord meant to make up their number with honoured priests.'
+  Our bishop saw why Numidicus had been left alive: the Lord meant to add him to our clergy. Some of our presbyters had fallen away from the faith, and too few were left. The Lord meant to make up their number with honored priests.'
 ---
 Derived from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (the chunk gives Cyprian's letter in the first person; the surrounding narration changes from 'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' is in cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml.

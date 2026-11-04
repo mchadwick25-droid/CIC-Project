@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogues the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
+  divergence_note: "Contested at the level of authorship, and heavily. The vendored edition's own translator states that the ascription to Macarius the Egyptian 'rests upon no external evidence', the Internet Archive catalogs the volume under Pseudo-Macarius, and the corpus is generally treated as the work of a Syrian or Mesopotamian author of the late fourth or early fifth century whose doctrine was drawn on by the condemned Messalian current. These are homilies the tradition read and transmitted under a desert elder's name; they are not securely the words of a desert elder. Never voiced as 'one of us said' - see desert.source.macarian-homilies."
 sources:
 - source_id: desert.source.macarian-homilies
   locus: "Homily I, on the vision of Ezekiel, in Mason's English"
@@ -48,4 +48,4 @@ The most famous image in the Macarian corpus and the clearest single sentence of
 tradition: the goal is not a cleared mind but an indwelt and illuminated one. Set beside
 desert.quote.the-nous-beholds-its-own-radiance, which is Evagrius on the same territory, the contrast
 is the whole point of vendoring both - Evagrius has the nous behold its OWN proper radiance, this has
-the soul irradiated by Another and become his seat. Neither record harmonises them.
+the soul irradiated by Another and become his seat. Neither record harmonizes them.

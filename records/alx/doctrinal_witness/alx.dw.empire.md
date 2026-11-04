@@ -48,7 +48,7 @@ relations:
 - type: associated-with
   target: alx.quote.no-festal-letter-was-written
 use_note:
-  means: "This witness says imperial favour after 325 brought the church protection and interference at once, shown in Athanasius, exiled five times for defending Nicaea."
+  means: "This witness says imperial favor after 325 brought the church protection and interference at once, shown in Athanasius, exiled five times for defending Nicaea."
   not_for:
     - "a simple story of a pure church corrupted by Constantine"
     - "a claim that church and empire simply merged"

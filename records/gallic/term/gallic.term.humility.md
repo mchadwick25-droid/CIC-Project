@@ -125,7 +125,7 @@ senses:
     his desires mortified; secondly, if he conceals none of his actions or even of his thoughts from
     his senior," and so on through ten, ending in "love which knows no fear." It is what obedience
     buys - "that humility of Christ which is the true nobility" - and what a famous abbot goes looking
-    for when honour has found him: Pinufius "sought a distant monastery where he could be received as a
+    for when honor has found him: Pinufius "sought a distant monastery where he could be received as a
     novice." It is the one source of discretion, and Nesteros sets it above every wonder: "Humility
     therefore is the mistress of all virtues, it is the surest foundation of the heavenly building."
     The last book of the formation manual teaches the monk to say of every virtue "Not I, but the
@@ -133,7 +133,7 @@ senses:
     change when a monk is made bishop: "the same humility in his heart, and the same homeliness in his
     garments"; no chair, but "a rude little stool, such as those in use by the lowest of servants,
     which we Gallic country-people call tripets"; and at eventide he himself washed his guest's feet.
-    Vincent brings it to the harbour as "the sacrifice of Christian humility."
+    Vincent brings it to the harbor as "the sacrifice of Christian humility."
   evidential: >-
     Cassian (Institutes IV.29-30, IV.39, XII.19; Conferences II.10, XV.7, XVIII.13), Sulpitius (Life
     chs. IX, X; Dialogues II.1), Vincent (Commonitory ch. 1), Gennadius on Sulpitius himself. Hilary of

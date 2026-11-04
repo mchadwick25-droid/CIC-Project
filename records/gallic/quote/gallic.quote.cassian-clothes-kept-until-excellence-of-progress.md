@@ -25,7 +25,7 @@ retrieval:
   - "participant asks what happens to a novice's own clothes when he joins the monastery"
   - "participant wants Cassian's own reason the clothes are kept, not disposed of at once"
   prefer_instead:
-  - "participant wants the idiom of dress read as armour instead - retrieve gallic.quote.institutes-opening-soldier-of-christ"
+  - "participant wants the idiom of dress read as armor instead - retrieve gallic.quote.institutes-opening-soldier-of-christ"
 text: >-
   But those clothes, which he laid aside, are consigned to the care of
   the steward and kept until by different sorts of temptations and

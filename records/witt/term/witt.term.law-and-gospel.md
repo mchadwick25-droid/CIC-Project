@@ -14,7 +14,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: Documented at every register, 1520 through 1531; the [AS] comparative tag (whether
-    neighbouring formation worlds share this exact grammar) stays Inferential/Thin, since no neighbour's
+    neighboring formation worlds share this exact grammar) stays Inferential/Thin, since no neighbor's
     own lexicon exists yet to compare against -- carried here as a standing caveat, not resolved.
 sources:
 - source_id: witt.source.luther-treatise-on-christian-liberty
@@ -71,7 +71,7 @@ plain_meaning: We read all of Scripture as two kinds of speech. The Law commands
   the cure.
 world_word: Law and Gospel -- 'commands and promises,' the illness and the remedy
 false_friend:
-- '''Law and Gospel'' heard as a labelled theological method or system'
+- '''Law and Gospel'' heard as a labeled theological method or system'
 - the pairing heard as Old Testament against New Testament
 - the pairing heard as legalism against grace in general terms
 senses:
@@ -87,7 +87,7 @@ senses:
     through the household catechism to the confession's own rule of reading.
   personal: Nearly everything else we hold runs on this grammar -- repentance's two parts, the Word's
     whole authority, the catechism's own order, the conscience's whole sequence.
-  translational: 'Do not hear ''Law and Gospel'' as a labelled system, or as Old Testament against New,
+  translational: 'Do not hear ''Law and Gospel'' as a labeled system, or as Old Testament against New,
     or as legalism against grace in general: we mean two kinds of speech found throughout all of Scripture,
     read in order on a single person -- first the illness, then the remedy.'
 quick_meaning: Scripture as command and promise. First the diagnosis, then the cure.
@@ -95,7 +95,7 @@ distortion_risk: high
 use_note:
   means: "Law and Gospel meant two kinds of scriptural speech, the Law commanding without giving power and the Gospel promising what the Law demands, diagnosis then cure."
   not_for:
-    - "'Law and Gospel' as a labelled theological method or system"
+    - "'Law and Gospel' as a labeled theological method or system"
     - "the pairing as Old Testament against New Testament"
     - "the Gospel's own content, which sits in witt.term.gospel"
   years: {from: 1520, to: 1531}

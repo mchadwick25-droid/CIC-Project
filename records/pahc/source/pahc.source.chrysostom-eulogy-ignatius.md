@@ -14,7 +14,7 @@ confidence:
   divergence_note: 'This is a source for RECEPTION, not for this world. Chrysostom preaches at Antioch
     around 390, nearly three centuries after Ignatius died, in a church with a shrine, a feast day and
     relics. Nothing in it may be taken as evidence for what the second century did, believed or
-    practised; taken that way it would import a fourth-century cult back into a world that ends at 200.'
+    practiced; taken that way it would import a fourth-century cult back into a world that ends at 200.'
 sources: []
 author: "John Chrysostom (c. 347-407), preaching at Antioch about 390"
 work: "Eulogy on S. Ignatius - a festal homily on Ignatius the God-bearer, bishop of Antioch, on his martyrdom at Rome and the return of his relics to Antioch"

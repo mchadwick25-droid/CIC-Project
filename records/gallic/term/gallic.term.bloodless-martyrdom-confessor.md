@@ -86,14 +86,14 @@ senses:
     Arianism under Constantius were "accounted Confessors," "the blessed Confessor, Hilary" is cited
     as a witness - and yet no such glory licenses novelty: "be he a Confessor, be he a martyr, let that
     be regarded as a private fancy of his own." Cassian carries a third sense from Egypt: coenobites
-    who never fulfil their own will are "crucified daily to this world and made living martyrs."
+    who never fulfill their own will are "crucified daily to this world and made living martyrs."
   evidential: >-
     Sulpitius (Letter II; Dialogues II.4), Vincent (Commonitory chs. 5, 18, 28), Cassian (Conferences
     XVIII.7). The three do not cite one another. The Latin lemma is not supplied against the text.
   personal: >-
     The ascetic life is the persecution God's providence supplies in a peaceful age; the sackcloth is
     the instrument; and the plain outside Tours "where the martyrs were wont to be consecrated" is
-    where Martin made a heathen crowd catechumens. A Confessor's suffering gives him honour, not
+    where Martin made a heathen crowd catechumens. A Confessor's suffering gives him honor, not
     authority over antiquity. Martyrdom without blood is what a whole way of life is for.
   translational: >-
     'Wanting to be a martyr - isn't that a death wish?' - not as we meant it: Martin was called a

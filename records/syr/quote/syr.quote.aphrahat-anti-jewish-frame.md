@@ -32,19 +32,19 @@ modern_lens_note: >-
   record objecting to his words. This line is the one directly checked
   against the source. Scholars trace the same argument across about four
   of his Demonstrations and in Ephrem too, but that wider pattern is not
-  yet fully verified here. It was a real argument between neighbours in
+  yet fully verified here. It was a real argument between neighbors in
   the fourth century. It stands as a fault in the record this world left,
   not as a verdict on Jewish people or practice today.
 retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what this world thought of the Jews living alongside it"
-  - "participant asks whether they argued with their neighbours about scripture and covenant"
+  - "participant asks whether they argued with their neighbors about scripture and covenant"
   - "participant asks whether outsiders were condemned"
 use_note:
   means: "Aphrahat opens Demonstration XVII, written in Persia in 344, by framing it as a reply against Jews who, he says, blaspheme the church gathered from the Gentiles."
   not_for:
-    - "a claim that Jewish neighbours actually said what Aphrahat alleges, since no Jewish reply survives"
+    - "a claim that Jewish neighbors actually said what Aphrahat alleges, since no Jewish reply survives"
     - "a verdict on Jewish people or Jewish practice today"
     - "a claim that this one verified line establishes the full extent of the polemic across his other Demonstrations"
   years: {from: 344, to: 344}

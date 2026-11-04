@@ -66,7 +66,7 @@ false_friend:
 senses:
   informational: We are not an audience. We put men into office and say so out loud; we can also stand
     in front of a bishop's own seat and refuse to go home. At Hippo in 411 the people wanted a particular
-    wealthy man made their presbyter and did not get the ordination; they clamoured, they abused another bishop present,
+    wealthy man made their presbyter and did not get the ordination; they clamored, they abused another bishop present,
     and when told the bishop was bound by a promise they grew still more excited, calculating the promise
     might break. He held his ground. Real leverage, loudly exercised, and finally bounded by one man's
     refusal -- that is the shape of it. This is the active face of the flock and the ground of suffrage.

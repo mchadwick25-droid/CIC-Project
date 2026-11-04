@@ -81,6 +81,6 @@ not show it: C-E was served by that witness alone, with no quote and no story, w
 Spec's coverage rule forbids ("never only propositional records").
 
 Kept unedited to its full length because the qualification is inside the sentence. Origen says "I
-hold to be" - he is offering a judgement, in a debate, against a named opponent who had just
+hold to be" - he is offering a judgment, in a debate, against a named opponent who had just
 accused him of a conjuring trick. Trimming to "a doctrine which they would not have taught" would
 turn an argument into an assertion.

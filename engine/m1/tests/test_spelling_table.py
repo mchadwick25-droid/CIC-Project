@@ -29,3 +29,9 @@ def test_centred_forms_convert_to_correctly_spelled_american():
     assert st.american("centred") == "centered"
     assert st.american("epicentred") == "epicentered"
     assert st.normalize("a centred view") == st.normalize("a centered view")
+
+
+def test_normalize_sees_a_british_form_inside_a_hyphenated_compound():
+    assert st.normalize("re-baptised") == st.normalize("re-baptized")
+    assert st.normalize("a self-defence claim") == st.normalize("a self-defense claim")
+    assert st.normalize("office-centred") == "office-centered"

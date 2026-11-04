@@ -25,7 +25,7 @@ sources:
 retrieval:
   tier: 2
   retrieve_when:
-  - participant asks what an outsider would find strangest about this world's own worship, or what neighbours
+  - participant asks what an outsider would find strangest about this world's own worship, or what neighbors
     said about it
 relations:
 - type: associated-with
@@ -36,7 +36,7 @@ positions:
 - Walk into one of our own churches expecting what Rome's have, and you will notice what is missing before
   you notice what remains. No image to bow to. No altar built to host a sacrifice we no longer offer --
   a table stands there instead. At Zurich, for years, no instrument answered the voice in worship at all.
-- Our own neighbours across the Counter-Reformation's own long pressure did not call this reform or restraint.
+- Our own neighbors across the Counter-Reformation's own long pressure did not call this reform or restraint.
   Jesuit presence at Fribourg from 1580 faced us directly; the 1590s reconquest of the Chablais was fought
   on Geneva's own doorstep. We were watched, and accused, the length of the window our own record covers.
 tensions:
@@ -51,10 +51,10 @@ text: 'A stranger who walked in expecting Rome''s own church would have noticed 
   all those years: Jesuits at Fribourg from 1580, and a reconquest fought on Geneva''s own doorstep in
   the 1590s.'
 use_note:
-  means: "Our doctrine implies worship marked by absence, no images and a table instead of an altar, watched throughout by Catholic neighbours."
+  means: "Our doctrine implies worship marked by absence, no images and a table instead of an altar, watched throughout by Catholic neighbors."
   not_for:
     - "a claim that this record describes from firsthand witness what Reformed worship spaces looked like"
-    - "a claim that neighbours saw these changes as reform or restraint"
+    - "a claim that neighbors saw these changes as reform or restraint"
   years: {from: 1523, to: 1599}
   status: reviewed
 ---

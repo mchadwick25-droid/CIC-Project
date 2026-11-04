@@ -29,7 +29,7 @@ claim: >-
   and a named, undenied exception to it in the same breath without experiencing that as a contradiction
   requiring resolution.
 held_against:
-- Augustine made this precise episode the centre of his case against the whole rebaptism logic, and pressed
+- Augustine made this precise episode the center of his case against the whole rebaptism logic, and pressed
   it across three separate works - if reordination could be waived here, on the mainstream party's own authority,
   then the absolute rule - that invalidly ordained clergy must always be rebaptized and reordained, without
   exception - did not hold even for the party that preached it most fiercely
@@ -56,7 +56,7 @@ concedes: >-
   three works, the reception real and unrepeated. No account of the Bagai council from this communion's
   own side survives beyond the decree Augustine quotes, so the claim above describes how the two things
   were held together without being able to show anyone in the room holding them. The most a reading in
-  this communion's favour can honestly say is that the exception was stated openly rather than concealed
+  this communion's favor can honestly say is that the exception was stated openly rather than concealed
   - which is a fact about the record, not an argument that the doctrine survives the exception.
 divergence_partners:
 - cappadocian.core.cappadocian (world cappadocian-trinitarian) - the divergence that makes this episode

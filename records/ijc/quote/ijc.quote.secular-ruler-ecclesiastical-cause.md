@@ -35,7 +35,7 @@ modern_lens_note: >-
   Treves is Trier, then an imperial capital. Martin is not arguing that Priscillian was innocent or
   that heresy did not matter - he accepts the bishops' verdict and their sentence of expulsion. His
   objection is entirely about jurisdiction: who may impose which penalty, and for what kind of
-  offence.
+  offense.
 retrieval:
   tier: 2
   retrieve_when:

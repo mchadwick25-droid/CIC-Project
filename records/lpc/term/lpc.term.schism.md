@@ -74,7 +74,7 @@ senses:
     walks out, and sets up another altar and another bishop. The difference is not the intensity of
     the dispute; it is whether anyone walked out. Schism is the negative boundary of communion and the
     thing the one episcopate exists to make intelligible. It is also where we draw our own line against
-    our neighbours: the conviction that disagreement is survivable and separation is not.'
+    our neighbors: the conviction that disagreement is survivable and separation is not.'
   evidential: De Unitate is the general treatise on schism and the one episcopate; On Baptism, Against
     the Donatists supplies the cross-phase grounding. A full sweep returns 103 occurrences of 'schism'
     in Cyprian's corpus alone. How this world characterizes its own opponents belongs to a later, separate

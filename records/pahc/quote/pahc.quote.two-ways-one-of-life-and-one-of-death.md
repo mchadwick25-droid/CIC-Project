@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: pahc.witness.hard-texts
 use_note:
-  means: "The Didache opens its teaching with two ways, life and death; the way of life is loving God, neighbour, and the negative golden rule."
+  means: "The Didache opens its teaching with two ways, life and death; the way of life is loving God, neighbor, and the negative golden rule."
   not_for:
     - "a threat about the afterlife in the first instance"
     - "a claim that every household in this world taught newcomers this way"
