@@ -30,9 +30,9 @@ text: >-
   sakes, I will set myself apart to become the keeper of a house for receiving strangers."
 modern_rendering: >-
   And the people said to him, 'O man, we know that you are God.' And he said
-  to them, 'Put your trust in me, then, and give me the means to relieve this
-  distress. For see: for your sakes I will set myself apart to become the
-  keeper of a house that receives strangers.'
+  to them, 'Put your trust in me, then, and give me [the means of relieving]
+  this distress. For see: for your sake I will set myself apart to become the
+  keeper of a house for receiving strangers.'
 speaker_or_author: the citizens of Edessa and Ephrem, as the Syriac recension of Palladius reports them
 license: verbatim
 modern_lens_note: >-

@@ -920,3 +920,9 @@ Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus 
 Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources.
 
 Status: CLOSED for the live-reply claim check findings.
+
+## OG-32. Every quote rendering reviewed by Opus against the edition, 2026-11-03.
+
+- **Finding.** The `rendering-review` gate found 32 hal renderings with no named Opus review file.
+- **Done.** Two independent Opus reviewers read all 32 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed four: one P1 and three P2. The P1 was `eyes-of-faith`: Jerome puts the whole list under "she protested in my hearing that she could behold with the eyes of faith", and the rendering kept that frame only in its first sentence, so the later sights read as plain narrated fact. The P2 failures were `buried-beneath-the-church`, `hindered-by-jerome` and `she-put-on-sackcloth`. All four were re-rendered by Opus and passed a second independent Opus reader. An independent pull-request review re-checked every changed record and a sample of the passed ones. Per-record log: `Review-Artifacts/Rendering_Review_Log_32_2026-11-03.md`. The `m1:rendering-review/hal` waiver is removed; the gate reports 0 for hal (32 → 0).
+- **Owner.** Library record-defects thread. Closed.
